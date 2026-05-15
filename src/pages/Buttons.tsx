@@ -11,7 +11,6 @@ const sidebarItems = [
     { label: "Radio buttons", path: "/elements/radio-buttons" },
     { label: "Forms", path: "/elements/forms" },
     { label: "Patterns", path: "/elements/patterns" },
-    { label: "Tooltips", path: "/elements/tooltips" },
 ];
 
 export default function Buttons() {
