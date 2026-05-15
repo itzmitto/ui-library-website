@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Buttons from "./pages/Buttons";
+import All from "./pages/All";
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/elements/buttons" element={<Buttons />} />
+        <Route path="/elements" element={<All />} />
         {/* Hier meer buttons enz. later toeeovengen wanneer ik ze heb  */}
       </Routes>
     </BrowserRouter>
