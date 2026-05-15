@@ -9,7 +9,7 @@ function App() {
             <h1>UI component library website</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            </p>
+            </p> 
           </div>
         </div>
       </section>
