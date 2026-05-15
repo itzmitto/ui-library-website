@@ -127,35 +127,43 @@ const components = [
     id: 15,
     name: "Button3",
     preview: (
-       <button className="Button3">Get started</button>
+      <button className="Button3">Get started</button>
     ),
   },
   {
     id: 16,
-    name: "Gradient Button",
+    name: "3D Flip Button",
     preview: (
-      <button className="prev-btn-gradient">Get started</button>
+      <button className="Button16">
+        <a>Hover me</a>
+      </button>
     ),
   },
   {
     id: 17,
-    name: "Gradient Button",
+    name: "Button",
     preview: (
-      <button className="prev-btn-gradient">Get started</button>
+      <button className="Button17">
+        <a>Hover me</a>
+      </button>
     ),
   },
   {
     id: 18,
-    name: "Gradient Button",
+    name: "Button",
     preview: (
-      <button className="prev-btn-gradient">Get started</button>
+      <button className="Button18">
+        <a>Hover me</a>
+      </button>
     ),
   },
   {
     id: 19,
-    name: "Gradient Button",
+    name: "Button",
     preview: (
-      <button className="prev-btn-gradient">Get started</button>
+      <button className="Button19">
+        <a>Hover me</a>
+      </button>
     ),
   },
   {
