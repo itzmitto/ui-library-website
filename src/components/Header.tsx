@@ -1,0 +1,64 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
+
+const categories = [
+  { label: "All", path: "/elements" },
+  { label: "Buttons", path: "/elements/buttons" },
+  { label: "Checkboxes", path: "/elements/checkboxes" },
+  { label: "Toggle switches", path: "/elements/toggle-switches" },
+  { label: "Cards", path: "/elements/cards" },
+  { label: "Loaders", path: "/elements/loaders" },
+  { label: "Inputs", path: "/elements/inputs" },
+  { label: "Radio buttons", path: "/elements/radio-buttons" },
+  { label: "Forms", path: "/elements/forms" },
+  { label: "Patterns", path: "/elements/patterns" },
+];
+
+export default function Header() {
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  return (
+    <header className="header">
+      <div className="header-inner">
+              <nav className="nav">
+          <div
+            className="nav-dropdown"
+            onMouseEnter={() => setDropdownOpen(true)}
+            onMouseLeave={() => setDropdownOpen(false)}
+          >
+            <button className="nav-link nav-link--active">
+              Elements
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M2 4l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </button>
+
+            {dropdownOpen && (
+              <div className="dropdown-menu">
+                {categories.map((cat) => (
+                  <Link key={cat.path} to={cat.path} className="dropdown-item">
+                    {cat.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+
+          <Link to="/challenges" className="nav-link">Challenges</Link>
+          <Link to="/spotlight" className="nav-link">Spotlight</Link>
+          <Link to="/blog" className="nav-link">Blog</Link>
+        </nav>
+
+        {/* Right buttons */}
+        <div className="header-actions">
+          <button className="btn-create">
+            <span>+</span> Create
+          </button>
+          <button className="btn-community">
+            Join the Community
+          </button>
+        </div>
+      </div>
+    </header>
+  );
+}
