@@ -12,7 +12,6 @@ function Home() {
             <h1 className="hero-title">
               The Largest Library<br />of Open-Source UI
             </h1>
-            
           </div>
         </div>
       </section>
@@ -26,7 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/elements/buttons" element={<Buttons />} />
-        {/* Hier meer buttons enz. later toeeovengen wanneer ik ze heb */}
+        {/* Hier meer buttons enz. later toeeovengen wanneer ik ze heb  */}
       </Routes>
     </BrowserRouter>
   );

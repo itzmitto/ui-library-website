@@ -31,34 +31,30 @@ body {
   gap: 32px;
 }
 
+.logo {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
+}
+
 .nav {
   display: flex;
   align-items: center;
-  gap: 4px;
-  flex: 1;
 }
 
 .nav-link {
   background: none;
   border: none;
-  color: #a1a1aa;
+  color: #fff;
   font-size: 14px;
   padding: 6px 12px;
   border-radius: 6px;
   cursor: pointer;
-  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 4px;
-  transition: color 0.15s;
-}
-
-.nav-link:hover {
-  color: #fff;
-}
-
-.nav-link--active {
-  color: #fff;
 }
 
 .nav-dropdown {
@@ -66,18 +62,32 @@ body {
 }
 
 .dropdown-menu {
+  display: none;
   position: absolute;
-  top: calc(100% + 8px);
+  top: 100%;
   left: 0;
-  background: #18181b;
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 10px;
+  margin-top: 0;
   padding: 8px;
+  background: #18181b;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
   min-width: 200px;
-  display: flex;
   flex-direction: column;
   gap: 2px;
   z-index: 200;
+}
+
+.dropdown-menu--open {
+  display: flex;
+}
+
+.nav-dropdown::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 8px;
 }
 
 .dropdown-item {
@@ -90,52 +100,9 @@ body {
 }
 
 .dropdown-item:hover {
-  background: rgba(255,255,255,0.06);
+  background: rgba(255, 255, 255, 0.06);
   color: #fff;
 }
-
-.header-actions {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-left: auto;
-}
-
-.btn-create {
-  background: #7c3aed;
-  color: #fff;
-  border: none;
-  padding: 7px 16px;
-  border-radius: 8px;
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  transition: background 0.15s;
-}
-
-.btn-create:hover {
-  background: #6d28d9;
-}
-
-.btn-community {
-  background: transparent;
-  color: #a1a1aa;
-  border: 1px solid rgba(255,255,255,0.12);
-  padding: 7px 16px;
-  border-radius: 8px;
-  font-size: 14px;
-  cursor: pointer;
-  transition: color 0.15s, border-color 0.15s;
-}
-
-.btn-community:hover {
-  color: #fff;
-  border-color: rgba(255,255,255,0.25);
-}
-
 .hero {
   padding-top: 180px;
   text-align: center;
@@ -146,13 +113,6 @@ body {
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -2px;
-  margin-bottom: 20px;
-}
-
-.hero-sub {
-  color: #71717a;
-  font-size: 16px;
-  line-height: 1.7;
 }
 
 .page-layout {
@@ -164,7 +124,7 @@ body {
 .sidebar {
   width: 200px;
   padding: 24px 12px;
-  border-right: 1px solid rgba(255,255,255,0.06);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
   position: sticky;
   top: 56px;
   height: calc(100vh - 56px);
@@ -184,12 +144,12 @@ body {
 }
 
 .sidebar-item:hover {
-  background: rgba(255,255,255,0.05);
+  background: rgba(255, 255, 255, 0.05);
   color: #fff;
 }
 
 .sidebar-item--active {
-  background: rgba(255,255,255,0.07);
+  background: rgba(255, 255, 255, 0.07);
   color: #fff;
   font-weight: 500;
 }
@@ -211,51 +171,6 @@ body {
   margin-bottom: 24px;
 }
 
-.filter-bar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 28px;
-  flex-wrap: wrap;
-}
-
-.filter-tag {
-  color: #71717a;
-  font-size: 13px;
-  cursor: pointer;
-  transition: color 0.15s;
-}
-
-.filter-tag:hover { color: #fff; }
-
-.filter-divider {
-  width: 1px;
-  height: 16px;
-  background: rgba(255,255,255,0.1);
-}
-
-.filter-btn {
-  background: transparent;
-  border: 1px solid rgba(255,255,255,0.1);
-  color: #a1a1aa;
-  padding: 5px 14px;
-  border-radius: 6px;
-  font-size: 13px;
-  cursor: pointer;
-  transition: all 0.15s;
-}
-
-.filter-btn:hover {
-  color: #fff;
-  border-color: rgba(255,255,255,0.25);
-}
-
-.filter-btn--active {
-  background: rgba(255,255,255,0.08);
-  color: #fff;
-  border-color: rgba(255,255,255,0.2);
-}
-
 .component-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -264,14 +179,14 @@ body {
 
 .component-card {
   background: #111113;
-  border: 1px solid rgba(255,255,255,0.06);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 10px;
   overflow: hidden;
   transition: border-color 0.15s;
 }
 
 .component-card:hover {
-  border-color: rgba(255,255,255,0.14);
+  border-color: rgba(255, 255, 255, 0.14);
 }
 
 .component-preview {
@@ -284,20 +199,10 @@ body {
 
 .component-meta {
   padding: 10px 14px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-top: 1px solid rgba(255,255,255,0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.component-creator {
+.component-name {
   font-size: 13px;
   color: #a1a1aa;
-}
-
-.component-stats {
-  display: flex;
-  gap: 10px;
-  font-size: 12px;
-  color: #52525b;
 }
