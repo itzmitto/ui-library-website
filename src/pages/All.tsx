@@ -106,6 +106,111 @@ const components = [
       <input className="prev-input" type="text" placeholder="Type something..." />
     ),
   },
+
+
+  // hier verder gaan met meer componenten toevoegen
+   {
+    id: 13,
+    name: "Button1",
+    preview: (
+      <button className="Button1">Get started</button>
+    ),
+  },
+  {
+    id: 14,
+    name: "Button2",
+    preview: (
+      <button className="Button2">Get started</button>
+    ),
+  },
+  {
+    id: 15,
+    name: "Gradient Button",
+    preview: (
+      <button className="prev-btn-gradient">Get started</button>
+    ),
+  },
+  {
+    id: 16,
+    name: "Gradient Button",
+    preview: (
+      <button className="prev-btn-gradient">Get started</button>
+    ),
+  },
+  {
+    id: 17,
+    name: "Gradient Button",
+    preview: (
+      <button className="prev-btn-gradient">Get started</button>
+    ),
+  },
+  {
+    id: 18,
+    name: "Gradient Button",
+    preview: (
+      <button className="prev-btn-gradient">Get started</button>
+    ),
+  },
+  {
+    id: 19,
+    name: "Gradient Button",
+    preview: (
+      <button className="prev-btn-gradient">Get started</button>
+    ),
+  },
+  {
+    id: 20,
+    name: "Gradient Button",
+    preview: (
+      <button className="prev-btn-gradient">Get started</button>
+    ),
+  },
+  {
+    id: 21,
+    name: "Gradient Button",
+    preview: (
+      <button className="prev-btn-gradient">Get started</button>
+    ),
+  },
+  {
+    id: 22,
+    name: "Gradient Button",
+    preview: (
+      <button className="prev-btn-gradient">Get started</button>
+    ),
+  },
+  {
+    id: 23,
+    name: "Gradient Button",
+    preview: (
+      <button className="prev-btn-gradient">Get started</button>
+    ),
+  },
+  {
+    id: 24,
+    name: "Gradient Button",
+    preview: (
+      <button className="prev-btn-gradient">Get started</button>
+    ),
+  },
+  {
+    id: 25,
+    name: "Gradient Button",
+    preview: (
+      <button className="prev-btn-gradient">Get started</button>
+    ),
+  },
+  {
+    id: 26,
+    name: "Gradient Button",
+    preview: (
+      <button className="prev-btn-gradient">Get started</button>
+    ),
+  },
+
+
+
+
 ];
 
 export default function All() {
