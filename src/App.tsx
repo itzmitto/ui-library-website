@@ -9,7 +9,7 @@ function Home() {
       <Header />
       <section id="center">
         <div className="container">
-          <div className="hero">
+          <div className="hero"> 
             <h1 className="hero-title">
               The Largest Library<br />of Open-Source UI
             </h1>
