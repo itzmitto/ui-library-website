@@ -168,16 +168,10 @@ const components = [
   },
   {
     id: 20,
-    name: "Gradient Button",
+    name: "Button",
     preview: (
-      <button className="prev-btn-gradient">Get started</button>
-    ),
-  },
-  {
-    id: 21,
-    name: "Gradient Button",
-    preview: (
-      <button className="prev-btn-gradient">Get started</button>
+      <button className="Button20">
+      </button>
     ),
   },
   {
