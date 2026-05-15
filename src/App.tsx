@@ -4,7 +4,7 @@ import Buttons from "./pages/Buttons";
 import All from "./pages/All";
 
 function Home() {
-  return (
+  return ( 
     <div>
       <Header />
       <section id="center">
