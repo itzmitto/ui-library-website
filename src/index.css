@@ -1,0 +1,11 @@
+:root {
+  --text: #e9e4ff;
+  --text-h: #ffffff;
+  --bg: #0b0714;
+  --border: #2b1f45;
+  --code-bg: #151022;
+}
+
+body {
+  background: #09090b;
+}
