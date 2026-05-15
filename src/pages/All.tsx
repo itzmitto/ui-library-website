@@ -109,7 +109,7 @@ const components = [
 
 
   // hier verder gaan met meer componenten toevoegen
-   {
+  {
     id: 13,
     name: "Button1",
     preview: (
@@ -125,9 +125,9 @@ const components = [
   },
   {
     id: 15,
-    name: "Gradient Button",
+    name: "Button3",
     preview: (
-      <button className="prev-btn-gradient">Get started</button>
+       <button className="Button3">Get started</button>
     ),
   },
   {
