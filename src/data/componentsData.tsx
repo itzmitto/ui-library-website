@@ -25,9 +25,72 @@ export const checkboxes = [
             </div>
         )
     },
+    {
+        id: 15, name: "Checkbox", preview: (
+            <label className="cb-15">
+                <input defaultChecked type="checkbox" />
+                <div className="cb-15__mark"></div>
+            </label>
+        )
+    },
+    {
+        id: 16, name: "Checkbox", preview: (
+            <label className="cb-16">
+                <input defaultChecked type="checkbox" />
+                <span className="cb-16__box"></span>
+            </label>
+        )
+    },
+    {
+        id: 17, name: "Checkbox", preview: (
+            <div>? nog erin zetten verder wanneer ik ze heb</div>
+        )
+    },
+    {
+        id: 18, name: "Checkbox", preview: (
+            <div>? nog erin zetten verder wanneer ik ze heb</div>
+        )
+    },
+    {
+        id: 19, name: "Checkbox", preview: (
+            <div>? nog erin zetten verder wanneer ik ze heb</div>
+        )
+    },
+    {
+        id: 20, name: "Checkbox", preview: (
+            <div>? nog erin zetten verder wanneer ik ze heb</div>
+        )
+    },
+    {
+        id: 21, name: "Checkbox", preview: (
+            <div>? nog erin zetten verder wanneer ik ze heb</div>
+        )
+    },
+    {
+        id: 22, name: "Checkbox", preview: (
+            <div>? nog erin zetten verder wanneer ik ze heb</div>
+        )
+    },
+    {
+        id: 23, name: "Checkbox", preview: (
+            <div>? nog erin zetten verder wanneer ik ze heb</div>
+        )
+    },
+    {
+        id: 24, name: "Checkbox", preview: (
+            <div>? nog erin zetten verder wanneer ik ze heb</div>
+        )
+    },
+    {
+        id: 25, name: "Checkbox", preview: (
+            <div>? nog erin zetten verder wanneer ik ze heb</div>
+        )
+    },
+
+
 ];
 
-export const toggles = [ 
+export const toggles = [
     {
         id: 6, name: "Toggle Switch", preview: (
             <div className="prev-toggle-group">

@@ -1,4 +1,4 @@
-.all-page {
+.all-page { 
     background: #09090b;
     min-height: 100vh;
     color: #fff;
@@ -102,27 +102,7 @@
     color: #a1a1aa;
 }
 
-.prev-checkbox-group {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
 
-.prev-checkbox {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 14px;
-    color: #a1a1aa;
-    cursor: pointer;
-}
-
-.prev-checkbox input[type="checkbox"] {
-    width: 16px;
-    height: 16px;
-    accent-color: #7c3aed;
-    cursor: pointer;
-}
 
 .prev-toggle-group {
     display: flex;

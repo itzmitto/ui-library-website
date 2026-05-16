@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import { checkboxes } from "../data/componentsData";
 import "./All.css";
+import "../styling/Checkboxes.css";
 
 const sidebarItems = [
     { label: "All", path: "/elements" },

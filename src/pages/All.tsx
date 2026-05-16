@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import { allComponents } from "../data/componentsData";   // ← Import hier toevoegen
+import { allComponents } from "../data/componentsData";   
 import "./All.css";
 
 export default function All() {
@@ -28,7 +28,7 @@ export default function All() {
           </div>
 
           <div className="all-grid">
-            {allComponents.map((item) => (          // ← Hier gebruiken
+            {allComponents.map((item) => (         
               <div key={item.id} className="all-card">
                 <div className="all-card-preview">
                   {item.preview}
