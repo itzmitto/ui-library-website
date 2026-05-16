@@ -42,17 +42,9 @@ export default function Buttons() {
 
                         <div className="component-card">
                             <div className="component-preview">
-                                <button style={{
-                                    background: "linear-gradient(135deg, #7c3aed, #4f46e5)",
-                                    border: "none",
-                                    color: "#fff",
-                                    padding: "10px 28px",
-                                    borderRadius: "8px",
-                                    fontSize: "14px",
-                                    cursor: "pointer"
-                                }}>
-                                    Voorbeeld
-                                </button>
+                              <button>
+                                ?
+                              </button>
                             </div>
                             <div className="component-meta">
                                 <span className="component-name">Naam van je button</span>

@@ -11,7 +11,7 @@ function Home() {
         <div className="container">
           <div className="hero"> 
             <h1 className="hero-title">
-              The Largest Library<br />of Open-Source UI
+              My Ui Components Library
             </h1>
           </div>
         </div>
