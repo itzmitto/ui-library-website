@@ -27,7 +27,7 @@ export const checkboxes = [
     },
 ];
 
-export const toggles = [
+export const toggles = [ 
     {
         id: 6, name: "Toggle Switch", preview: (
             <div className="prev-toggle-group">
