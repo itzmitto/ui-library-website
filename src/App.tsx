@@ -2,14 +2,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Buttons from "./pages/Buttons";
 import All from "./pages/All";
+import Checkboxes from "./pages/Checkboxes";
+import Cards from "./pages/Cards";
+import Loaders from "./pages/Loaders";
 
 function Home() {
-  return ( 
+  return (
     <div>
       <Header />
       <section id="center">
         <div className="container">
-          <div className="hero"> 
+          <div className="hero">
             <h1 className="hero-title">
               My Ui Components Library
             </h1>
@@ -27,6 +30,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/elements/buttons" element={<Buttons />} />
         <Route path="/elements" element={<All />} />
+        <Route path="/elements/checkboxes" element={<Checkboxes />} />
+        <Route path="/elements/cards" element={<Cards />} />
+        <Route path="/elements/loaders" element={<Loaders />} />
         {/* Hier meer buttons enz. later toeeovengen wanneer ik ze heb  */}
       </Routes>
     </BrowserRouter>

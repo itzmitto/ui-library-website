@@ -1,4 +1,7 @@
 import Header from "../components/Header";
+import { buttons } from "../data/componentsData";   
+import "./Buttons.css";
+
 
 const sidebarItems = [
     { label: "All", path: "/elements" },
@@ -15,10 +18,10 @@ const sidebarItems = [
 
 export default function Buttons() {
     return (
-        <div>
+        <div className="page-layout">  
             <Header />
 
-            <div className="page-layout">
+            <div className="all-layout">   
                 <aside className="sidebar">
                     {sidebarItems.map((item) => (
                         <a
@@ -31,27 +34,23 @@ export default function Buttons() {
                     ))}
                 </aside>
 
-                <main className="main-content">
-                    <div className="page-header">
+                <main className="all-main">  
+                    <div className="all-header">  
                         <h1>Buttons</h1>
                         <p>Open-Source buttons made with CSS or Tailwind</p>
                     </div>
 
-                    <div className="component-grid">
-
-
-                        <div className="component-card">
-                            <div className="component-preview">
-                              <button>
-                                ?
-                              </button>
+                    <div className="all-grid">   
+                        {buttons.map((item) => (
+                            <div key={item.id} className="all-card">
+                                <div className="all-card-preview">
+                                    {item.preview}
+                                </div>
+                                <div className="all-card-footer">
+                                    <span className="all-card-name">{item.name}</span>
+                                </div>
                             </div>
-                            <div className="component-meta">
-                                <span className="component-name">Naam van je button</span>
-                            </div>
-                        </div>
-
-
+                        ))}
                     </div>
                 </main>
             </div>
