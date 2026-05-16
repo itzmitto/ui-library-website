@@ -12,7 +12,7 @@ export default function All() {
           <a href="/elements" className="sidebar-item sidebar-item--active">All</a>
           <a href="/elements/buttons" className="sidebar-item">Buttons</a>
           <a href="/elements/checkboxes" className="sidebar-item">Checkboxes</a>
-          <a href="/elements/toggle-switches" className="sidebar-item">Toggle switches</a>
+          <a href="/elements/toggleswitches" className="sidebar-item">Toggleswitches</a>
           <a href="/elements/cards" className="sidebar-item">Cards</a>
           <a href="/elements/loaders" className="sidebar-item">Loaders</a>
           <a href="/elements/inputs" className="sidebar-item">Inputs</a>

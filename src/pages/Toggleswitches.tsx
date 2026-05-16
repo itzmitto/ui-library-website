@@ -1,21 +1,22 @@
 import Header from "../components/Header";
-import { loaders } from "../data/componentsData";
+import { toggles } from "../data/componentsData";
 import "./All.css";
+import "../styling/Toggleswitches.css";
 
 const sidebarItems = [
     { label: "All", path: "/elements" },
     { label: "Buttons", path: "/elements/buttons" },
     { label: "Checkboxes", path: "/elements/checkboxes" },
-    { label: "Toggleswitches", path: "/elements/toggleswitches" },
+    { label: "Toggleswitches", path: "/elements/toggleswitches", active: true },
     { label: "Cards", path: "/elements/cards" },
-    { label: "Loaders", path: "/elements/loaders", active: true },
+    { label: "Loaders", path: "/elements/loaders", },
     { label: "Inputs", path: "/elements/inputs" },
     { label: "Radio buttons", path: "/elements/radio-buttons" },
     { label: "Forms", path: "/elements/forms" },
     { label: "Patterns", path: "/elements/patterns" },
 ];
 
-export default function Loaders() {
+export default function Toggleswitches() {
     return (
         <div className="all-page">
             <Header />
@@ -33,11 +34,11 @@ export default function Loaders() {
                 </aside>
                 <main className="all-main">
                     <div className="all-header">
-                        <h1>Loaders</h1>
-                        <p>Open-Source loaders made with CSS or Tailwind</p>
+                        <h1>Toggle Switches</h1>
+                        <p>Open-Source toggle switches made with CSS or Tailwind</p>
                     </div>
                     <div className="all-grid">
-                        {loaders.map((item) => (
+                        {toggles.map((item) => (
                             <div key={item.id} className="all-card">
                                 <div className="all-card-preview">{item.preview}</div>
                                 <div className="all-card-footer">

@@ -104,49 +104,6 @@
 
 
 
-.prev-toggle-group {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-}
-
-.prev-toggle {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-.prev-toggle input {
-    display: none;
-}
-
-.prev-toggle-track {
-    width: 44px;
-    height: 24px;
-    background: #3f3f46;
-    border-radius: 999px;
-    position: relative;
-    transition: background 0.2s;
-}
-
-.prev-toggle input:checked+.prev-toggle-track {
-    background: #7c3aed;
-}
-
-.prev-toggle-thumb {
-    position: absolute;
-    top: 3px;
-    left: 3px;
-    width: 18px;
-    height: 18px;
-    background: #fff;
-    border-radius: 50%;
-    transition: transform 0.2s;
-}
-
-.prev-toggle input:checked+.prev-toggle-track .prev-toggle-thumb {
-    transform: translateX(20px);
-}
 
 .prev-card {
     background: #18181b;

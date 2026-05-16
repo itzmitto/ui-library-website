@@ -93,9 +93,183 @@ export const checkboxes = [
 export const toggles = [
     {
         id: 6, name: "Toggle Switch", preview: (
-            <div className="prev-toggle-group">
-                <label className="prev-toggle"><input type="checkbox" defaultChecked /><span className="prev-toggle-track"><span className="prev-toggle-thumb" /></span></label>
-                <label className="prev-toggle"><input type="checkbox" /><span className="prev-toggle-track"><span className="prev-toggle-thumb" /></span></label>
+            <div className="ts-6-group">
+                <label className="ts-6"><input type="checkbox" defaultChecked /><span className="ts-6__track"><span className="ts-6__thumb" /></span></label>
+                <label className="ts-6"><input type="checkbox" /><span className="ts-6__track"><span className="ts-6__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+    id: 40, name: "Toggle Switch", preview: (
+        <div className="ts-40-group ts-40">
+            <input type="checkbox" id="checkboxInput40" />
+            <label htmlFor="checkboxInput40" className="toggleSwitch"></label>
+        </div>
+    )
+},
+
+
+
+
+
+
+    {
+        id: 41, name: "Toggle Switch", preview: (
+            <div className="ts-41-group">
+                <label className="ts-41"><input type="checkbox" defaultChecked /><span className="ts-41__track"><span className="ts-41__thumb" /></span></label>
+                <label className="ts-41"><input type="checkbox" /><span className="ts-41__track"><span className="ts-41__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 42, name: "Toggle Switch", preview: (
+            <div className="ts-42-group">
+                <label className="ts-42"><input type="checkbox" defaultChecked /><span className="ts-42__track"><span className="ts-42__thumb" /></span></label>
+                <label className="ts-42"><input type="checkbox" /><span className="ts-42__track"><span className="ts-42__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 43, name: "Toggle Switch", preview: (
+            <div className="ts-43-group">
+                <label className="ts-43"><input type="checkbox" defaultChecked /><span className="ts-43__track"><span className="ts-43__thumb" /></span></label>
+                <label className="ts-43"><input type="checkbox" /><span className="ts-43__track"><span className="ts-43__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 44, name: "Toggle Switch", preview: (
+            <div className="ts-44-group">
+                <label className="ts-44"><input type="checkbox" defaultChecked /><span className="ts-44__track"><span className="ts-44__thumb" /></span></label>
+                <label className="ts-44"><input type="checkbox" /><span className="ts-44__track"><span className="ts-44__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 45, name: "Toggle Switch", preview: (
+            <div className="ts-45-group">
+                <label className="ts-45"><input type="checkbox" defaultChecked /><span className="ts-45__track"><span className="ts-45__thumb" /></span></label>
+                <label className="ts-45"><input type="checkbox" /><span className="ts-45__track"><span className="ts-45__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 46, name: "Toggle Switch", preview: (
+            <div className="ts-46-group">
+                <label className="ts-46"><input type="checkbox" defaultChecked /><span className="ts-46__track"><span className="ts-46__thumb" /></span></label>
+                <label className="ts-46"><input type="checkbox" /><span className="ts-46__track"><span className="ts-46__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 47, name: "Toggle Switch", preview: (
+            <div className="ts-47-group">
+                <label className="ts-47"><input type="checkbox" defaultChecked /><span className="ts-47__track"><span className="ts-47__thumb" /></span></label>
+                <label className="ts-47"><input type="checkbox" /><span className="ts-47__track"><span className="ts-47__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 48, name: "Toggle Switch", preview: (
+            <div className="ts-48-group">
+                <label className="ts-48"><input type="checkbox" defaultChecked /><span className="ts-48__track"><span className="ts-48__thumb" /></span></label>
+                <label className="ts-48"><input type="checkbox" /><span className="ts-48__track"><span className="ts-48__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 49, name: "Toggle Switch", preview: (
+            <div className="ts-49-group">
+                <label className="ts-49"><input type="checkbox" defaultChecked /><span className="ts-49__track"><span className="ts-49__thumb" /></span></label>
+                <label className="ts-49"><input type="checkbox" /><span className="ts-49__track"><span className="ts-49__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 50, name: "Toggle Switch", preview: (
+            <div className="ts-50-group">
+                <label className="ts-50"><input type="checkbox" defaultChecked /><span className="ts-50__track"><span className="ts-50__thumb" /></span></label>
+                <label className="ts-50"><input type="checkbox" /><span className="ts-50__track"><span className="ts-50__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 51, name: "Toggle Switch", preview: (
+            <div className="ts-51-group">
+                <label className="ts-51"><input type="checkbox" defaultChecked /><span className="ts-51__track"><span className="ts-51__thumb" /></span></label>
+                <label className="ts-51"><input type="checkbox" /><span className="ts-51__track"><span className="ts-51__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 52, name: "Toggle Switch", preview: (
+            <div className="ts-52-group">
+                <label className="ts-52"><input type="checkbox" defaultChecked /><span className="ts-52__track"><span className="ts-52__thumb" /></span></label>
+                <label className="ts-52"><input type="checkbox" /><span className="ts-52__track"><span className="ts-52__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 53, name: "Toggle Switch", preview: (
+            <div className="ts-53-group">
+                <label className="ts-53"><input type="checkbox" defaultChecked /><span className="ts-53__track"><span className="ts-53__thumb" /></span></label>
+                <label className="ts-53"><input type="checkbox" /><span className="ts-53__track"><span className="ts-53__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 54, name: "Toggle Switch", preview: (
+            <div className="ts-54-group">
+                <label className="ts-54"><input type="checkbox" defaultChecked /><span className="ts-54__track"><span className="ts-54__thumb" /></span></label>
+                <label className="ts-54"><input type="checkbox" /><span className="ts-54__track"><span className="ts-54__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 55, name: "Toggle Switch", preview: (
+            <div className="ts-55-group">
+                <label className="ts-55"><input type="checkbox" defaultChecked /><span className="ts-55__track"><span className="ts-55__thumb" /></span></label>
+                <label className="ts-55"><input type="checkbox" /><span className="ts-55__track"><span className="ts-55__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 56, name: "Toggle Switch", preview: (
+            <div className="ts-56-group">
+                <label className="ts-56"><input type="checkbox" defaultChecked /><span className="ts-56__track"><span className="ts-56__thumb" /></span></label>
+                <label className="ts-56"><input type="checkbox" /><span className="ts-56__track"><span className="ts-56__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 57, name: "Toggle Switch", preview: (
+            <div className="ts-57-group">
+                <label className="ts-57"><input type="checkbox" defaultChecked /><span className="ts-57__track"><span className="ts-57__thumb" /></span></label>
+                <label className="ts-57"><input type="checkbox" /><span className="ts-57__track"><span className="ts-57__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 58, name: "Toggle Switch", preview: (
+            <div className="ts-58-group">
+                <label className="ts-58"><input type="checkbox" defaultChecked /><span className="ts-58__track"><span className="ts-58__thumb" /></span></label>
+                <label className="ts-58"><input type="checkbox" /><span className="ts-58__track"><span className="ts-58__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 59, name: "Toggle Switch", preview: (
+            <div className="ts-59-group">
+                <label className="ts-59"><input type="checkbox" defaultChecked /><span className="ts-59__track"><span className="ts-59__thumb" /></span></label>
+                <label className="ts-59"><input type="checkbox" /><span className="ts-59__track"><span className="ts-59__thumb" /></span></label>
+            </div>
+        )
+    },
+    {
+        id: 60, name: "Toggle Switch", preview: (
+            <div className="ts-60-group">
+                <label className="ts-60"><input type="checkbox" defaultChecked /><span className="ts-60__track"><span className="ts-60__thumb" /></span></label>
+                <label className="ts-60"><input type="checkbox" /><span className="ts-60__track"><span className="ts-60__thumb" /></span></label>
             </div>
         )
     },

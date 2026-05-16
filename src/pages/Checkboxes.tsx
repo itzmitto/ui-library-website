@@ -7,7 +7,7 @@ const sidebarItems = [
     { label: "All", path: "/elements" },
     { label: "Buttons", path: "/elements/buttons" },
     { label: "Checkboxes", path: "/elements/checkboxes", active: true },
-    { label: "Toggle switches", path: "/elements/toggle-switches" },
+    { label: "Toggleswitches", path: "/elements/toggleswitches" },
     { label: "Cards", path: "/elements/cards" },
     { label: "Loaders", path: "/elements/loaders" },
     { label: "Inputs", path: "/elements/inputs" },

@@ -5,6 +5,7 @@ import All from "./pages/All";
 import Checkboxes from "./pages/Checkboxes";
 import Cards from "./pages/Cards";
 import Loaders from "./pages/Loaders";
+import Toggleswitches from "./pages/Toggleswitches";
 
 function Home() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/elements/checkboxes" element={<Checkboxes />} />
         <Route path="/elements/cards" element={<Cards />} />
         <Route path="/elements/loaders" element={<Loaders />} />
+        <Route path="/elements/toggleswitches" element={<Toggleswitches />} />
         {/* Hier meer buttons enz. later toeeovengen wanneer ik ze heb  */}
       </Routes>
     </BrowserRouter>
