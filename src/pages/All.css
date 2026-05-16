@@ -102,66 +102,6 @@
     color: #a1a1aa;
 }
 
-.prev-btn-gradient {
-    background: linear-gradient(135deg, #7c3aed, #4f46e5);
-    color: #fff;
-    border: none;
-    padding: 10px 28px;
-    border-radius: 8px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: opacity 0.2s;
-}
-
-.prev-btn-gradient:hover {
-    opacity: 0.85;
-}
-
-.prev-btn-outline {
-    background: transparent;
-    color: #a855f7;
-    border: 2px solid #a855f7;
-    padding: 10px 28px;
-    border-radius: 999px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background 0.2s;
-}
-
-.prev-btn-outline:hover {
-    background: rgba(168, 85, 247, 0.1);
-}
-
-.prev-btn-pill {
-    background: transparent;
-    color: #2dd4bf;
-    border: 2px solid #2dd4bf;
-    padding: 10px 28px;
-    border-radius: 4px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background 0.2s;
-}
-
-.prev-btn-pill:hover {
-    background: rgba(45, 212, 191, 0.1);
-}
-
-.prev-btn-ghost {
-    background: rgba(255, 255, 255, 0.05);
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    padding: 10px 28px;
-    border-radius: 8px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background 0.2s;
-}
-
-.prev-btn-ghost:hover {
-    background: rgba(255, 255, 255, 0.1);
-}
-
 .prev-checkbox-group {
     display: flex;
     flex-direction: column;

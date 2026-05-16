@@ -1,7 +1,7 @@
 import Header from "../components/Header";
-import { buttons } from "../data/componentsData";   
+import { buttons } from "../data/componentsData";
+import "./All.css";
 import "./Buttons.css";
-
 
 const sidebarItems = [
     { label: "All", path: "/elements" },
@@ -18,10 +18,10 @@ const sidebarItems = [
 
 export default function Buttons() {
     return (
-        <div className="page-layout">  
+        <div className="all-page">
             <Header />
 
-            <div className="all-layout">   
+            <div className="all-layout">
                 <aside className="sidebar">
                     {sidebarItems.map((item) => (
                         <a
@@ -34,13 +34,13 @@ export default function Buttons() {
                     ))}
                 </aside>
 
-                <main className="all-main">  
-                    <div className="all-header">  
+                <main className="all-main">
+                    <div className="all-header">
                         <h1>Buttons</h1>
                         <p>Open-Source buttons made with CSS or Tailwind</p>
                     </div>
 
-                    <div className="all-grid">   
+                    <div className="all-grid">
                         {buttons.map((item) => (
                             <div key={item.id} className="all-card">
                                 <div className="all-card-preview">
