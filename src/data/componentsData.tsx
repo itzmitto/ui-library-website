@@ -116,7 +116,118 @@ export const checkboxes = [
             </label>
         )
     },
-
+    {
+        id: 26, name: "Checkbox", preview: (
+            <label className="cb26">
+                <input type="checkbox" />
+                <span className="cb26-checkmark"></span>
+            </label>
+        )
+    },
+    {
+        id: 27, name: "Checkbox", preview: (
+            <label className="cb27">
+                <input type="checkbox" />
+                <span className="cb27-checkmark"></span>
+            </label>
+        )
+    },
+    {
+        id: 28, name: "Checkbox", preview: (
+            <label className="cb28">
+                <input type="checkbox" />
+                <span className="cb28-checkmark"></span>
+            </label>
+        )
+    },
+    {
+        id: 29, name: "Checkbox", preview: (
+            <label className="cb29">
+                <input type="checkbox" />
+                <span className="cb29-checkmark"></span>
+            </label>
+        )
+    },
+    {
+        id: 30, name: "Checkbox", preview: (
+            <label className="cb30">
+                <input type="checkbox" />
+                <span className="cb30-checkmark"></span>
+            </label>
+        )
+    },
+    {
+        id: 31, name: "Checkbox", preview: (
+            <label className="cb31">
+                <input type="checkbox" />
+                <span className="cb31-checkmark"></span>
+            </label>
+        )
+    },
+    {
+        id: 32, name: "Checkbox", preview: (
+            <label className="cb32">
+                <input type="checkbox" />
+                <span className="cb32-checkmark"></span>
+            </label>
+        )
+    },
+    {
+        id: 33, name: "Checkbox", preview: (
+            <label className="cb33">
+                <input type="checkbox" />
+                <span className="cb33-checkmark"></span>
+            </label>
+        )
+    },
+    {
+        id: 34, name: "Checkbox", preview: (
+            <label className="cb34">
+                <input type="checkbox" />
+                <span className="cb34-checkmark"></span>
+            </label>
+        )
+    },
+    {
+        id: 35, name: "Checkbox", preview: (
+            <label className="cb35">
+                <input type="checkbox" />
+                <span className="cb35-checkmark"></span>
+            </label>
+        )
+    },
+    {
+        id: 36, name: "Checkbox", preview: (
+            <label className="cb36">
+                <input type="checkbox" />
+                <span className="cb36-checkmark"></span>
+            </label>
+        )
+    },
+    {
+        id: 37, name: "Checkbox", preview: (
+            <label className="cb37">
+                <input type="checkbox" />
+                <span className="cb37-checkmark"></span>
+            </label>
+        )
+    },
+    {
+        id: 38, name: "Checkbox", preview: (
+            <label className="cb38">
+                <input type="checkbox" />
+                <span className="cb38-checkmark"></span>
+            </label>
+        )
+    },
+    {
+        id: 39, name: "Checkbox", preview: (
+            <label className="cb39">
+                <input type="checkbox" />
+                <span className="cb39-checkmark"></span>
+            </label>
+        )
+    },
 
 ];
 
