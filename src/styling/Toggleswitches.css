@@ -42,8 +42,7 @@
   gap: 14px;
 }
 
-
-.ts-40 #checkboxInput {
+.ts-40 #checkboxInput40 {
   display: none;
 }
 
@@ -73,13 +72,13 @@
   border: 5px solid white;
 }
 
-.ts-40 #checkboxInput:checked+.toggleSwitch::after {
+.ts-40 #checkboxInput40:checked+.toggleSwitch::after {
   transform: translateX(100%);
   transition-duration: .2s;
   background-color: white;
 }
 
-.ts-40 #checkboxInput:checked+.toggleSwitch {
+.ts-40 #checkboxInput40:checked+.toggleSwitch {
   background-color: rgb(148, 118, 255);
   transition-duration: .2s;
 }
