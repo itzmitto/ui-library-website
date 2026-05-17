@@ -467,6 +467,115 @@ export const cards = [
             </div>
         )
     },
+    {
+        id: 110, name: "Rotating Border", preview: (
+            <div className="card-110">
+                <h2>CARD</h2>
+            </div>
+        )
+    },
+    {
+        id: 111, name: "Neumorphism", preview: (
+            <div className="card-111"></div>
+        )
+    },
+    {
+        id: 112, name: "Glassmorphism", preview: (
+            <div className="card-112">Click me</div>
+        )
+    },
+    {
+        id: 113, name: "Flip Card", preview: (
+            <div className="card-113">
+                <div className="card-113-inner">
+                    <div className="card-113-front">
+                        <p className="card-113-title">FLIP CARD</p>
+                        <p>Hover Me</p>
+                    </div>
+                    <div className="card-113-back">
+                        <p className="card-113-title">BACK</p>
+                        <p>Leave Me</p>
+                    </div>
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 114, name: "Gradient Border", preview: (
+            <div className="card-114">
+                <div className="card-114-inner"></div>
+            </div>
+        )
+    },
+    {
+        id: 115, name: "Blob Card", preview: (
+            <div className="card-115">
+                <div className="card-115-bg"></div>
+                <div className="card-115-blob"></div>
+            </div>
+        )
+    },
+    {
+        id: 116, name: "Dark Neumorphism", preview: (
+            <div className="card-116"></div>
+        )
+    },
+    {
+        id: 117, name: "Gradient Glow", preview: (
+            <div className="card-117">
+                <p className="card-117-heading">Popular this month</p>
+                <p>Powered By</p>
+                <p>Uiverse</p>
+            </div>
+        )
+    },
+    {
+        id: 118, name: "Corner Expand", preview: (
+            <div className="card-118">HOVER</div>
+        )
+    },
+    {
+        id: 119, name: "Flip Card 2", preview: (
+            <div className="card-119">
+                <div className="card-119-inner">
+                    <div className="card-119-front"><p>Front Side</p></div>
+                    <div className="card-119-back"><p>Back Side</p></div>
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 120, name: "Mac Window", preview: (
+            <div className="card-120">
+                <div className="card-120-tools">
+                    <div className="card-120-circle"><span className="card-120-box card-120-red"></span></div>
+                    <div className="card-120-circle"><span className="card-120-box card-120-yellow"></span></div>
+                    <div className="card-120-circle"><span className="card-120-box card-120-green"></span></div>
+                </div>
+                <div className="card-120-content"></div>
+            </div>
+        )
+    },
+    { id: 121, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 122, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 123, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 124, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 125, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 126, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 127, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 128, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 129, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 130, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 131, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 132, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 133, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 134, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 135, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 136, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 137, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 138, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 139, name: "Card", preview: (<div>nog leeg</div>) },
+    { id: 140, name: "Card", preview: (<div>nog leeg</div>) },
 ];
 
 export const loaders = [
