@@ -70,32 +70,50 @@ export const checkboxes = [
     },
     {
         id: 20, name: "Checkbox", preview: (
-            <div>? nog erin zetten verder wanneer ik ze heb</div>
+            <label className="cb20">
+                <input type="checkbox" />
+                <div className="cb20-checkmark"></div>
+            </label>
         )
     },
     {
         id: 21, name: "Checkbox", preview: (
-            <div>? nog erin zetten verder wanneer ik ze heb</div>
+            <label className="cb21">
+                <input type="checkbox" />
+                <span className="cb21-checkmark"></span>
+            </label>
         )
     },
     {
         id: 22, name: "Checkbox", preview: (
-            <div>? nog erin zetten verder wanneer ik ze heb</div>
+            <label className="cb22">
+                <input type="checkbox" />
+                <span className="cb22-checkmark"></span>
+            </label>
         )
     },
     {
         id: 23, name: "Checkbox", preview: (
-            <div>? nog erin zetten verder wanneer ik ze heb</div>
+            <label className="cb23">
+                <input type="checkbox" />
+                <span className="cb23-checkmark"></span>
+            </label>
         )
     },
     {
         id: 24, name: "Checkbox", preview: (
-            <div>? nog erin zetten verder wanneer ik ze heb</div>
+            <label className="cb24">
+                <input type="checkbox" />
+                <span className="cb24-checkmark"></span>
+            </label>
         )
     },
     {
         id: 25, name: "Checkbox", preview: (
-            <div>? nog erin zetten verder wanneer ik ze heb</div>
+            <label className="cb25">
+                <input type="checkbox" />
+                <span className="cb25-checkmark"></span>
+            </label>
         )
     },
 
