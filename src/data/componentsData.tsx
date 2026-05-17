@@ -63,7 +63,7 @@ export const checkboxes = [
         id: 19, name: "Checkbox", preview: (
             <label className="cb19">
                 <label htmlFor="cb19-input"></label>
-                <input defaultChecked id="cb19-input" type="checkbox" />
+                <input id="cb19-input" type="checkbox" />
                 <span className="cb19-checkmark"></span>
             </label>
         )

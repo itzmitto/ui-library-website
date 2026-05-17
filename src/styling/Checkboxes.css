@@ -271,9 +271,12 @@
   width: 25px;
   border: 2.5px solid #ffffff;
   transition: .2s linear;
+  transform: rotate(0deg);
 }
 
 .cb19 input:checked ~ .cb19-checkmark {
+  transform: rotate(45deg);
+  border: none;
   background-color: transparent;
 }
 
@@ -298,11 +301,6 @@
   opacity: 1;
   transform: translate(-50%, -50%) rotate(0deg) scale(1);
   animation: cb19-pulse 1s ease-in;
-}
-
-.cb19 input:checked ~ .cb19-checkmark {
-  transform: rotate(45deg);
-  border: none;
 }
 
 @keyframes cb19-pulse {
