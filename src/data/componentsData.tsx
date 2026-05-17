@@ -43,12 +43,20 @@ export const checkboxes = [
     },
     {
         id: 17, name: "Checkbox", preview: (
-            <div>? nog erin zetten verder wanneer ik ze heb</div>
+            <label className="cb-17 burger">
+                <input defaultChecked type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
         )
     },
     {
         id: 18, name: "Checkbox", preview: (
-            <div>? nog erin zetten verder wanneer ik ze heb</div>
+            <div className="cb18-cntr">
+                <input defaultChecked type="checkbox" id="cb18-cbx" className="cb18-hidden" />
+                <label htmlFor="cb18-cbx" className="cb18-cbx"></label>
+            </div>
         )
     },
     {
@@ -100,13 +108,13 @@ export const toggles = [
         )
     },
     {
-    id: 40, name: "Toggle Switch", preview: (
-        <div className="ts-40-group ts-40">
-            <input type="checkbox" id="checkboxInput40" />
-            <label htmlFor="checkboxInput40" className="toggleSwitch"></label>
-        </div>
-    )
-},
+        id: 40, name: "Toggle Switch", preview: (
+            <div className="ts-40-group ts-40">
+                <input type="checkbox" id="checkboxInput40" />
+                <label htmlFor="checkboxInput40" className="toggleSwitch"></label>
+            </div>
+        )
+    },
 
 
 

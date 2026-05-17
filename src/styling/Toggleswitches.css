@@ -42,9 +42,6 @@
     gap: 14px;
 }
 
-/* .ts-nummer? */
-
-
 
 .ts-40 #checkboxInput {
   display: none;
@@ -85,3 +82,5 @@
   background-color: rgb(148, 118, 255);
   transition-duration: .2s;
 }
+
+
