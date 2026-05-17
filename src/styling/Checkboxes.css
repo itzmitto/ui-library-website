@@ -1246,3 +1246,45 @@
 .cb39 input:checked~.cb39-checkmark:after {
     transform: scale(1);
 }
+
+
+.cb61 {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+.cb61 input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.cb61-checkmark {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid #fb7185;
+  background: transparent;
+  transition: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cb61-checkmark:after {
+  content: "";
+  width: 6px;
+  height: 11px;
+  border: 2px solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg) scale(0);
+  transition: .3s;
+  margin-bottom: 3px;
+}
+.cb61 input:checked ~ .cb61-checkmark {
+  border-radius: 6px;
+  background: #fb7185;
+  border-color: #fb7185;
+}
+.cb61 input:checked ~ .cb61-checkmark:after {
+  transform: rotate(45deg) scale(1);
+}

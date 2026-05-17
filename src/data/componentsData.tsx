@@ -228,6 +228,14 @@ export const checkboxes = [
             </label>
         )
     },
+    {
+    id: 61, name: "Checkbox", preview: (
+        <label className="cb61">
+            <input type="checkbox" />
+            <span className="cb61-checkmark"></span>
+        </label>
+    )
+},
 
 ];
 
