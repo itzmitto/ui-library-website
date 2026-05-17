@@ -42,7 +42,7 @@ export const buttons = [
     { id: 88, name: "Button", preview: <button className="Button88">Click me</button> },
     { id: 89, name: "Button", preview: <button className="Button89">Click me</button> },
     { id: 90, name: "Button", preview: <button className="Button90">Click me</button> },
-];
+    { id: 91, name: "Button", preview: <button className="Button91"><span>Click me</span></button> },];
 
 export const checkboxes = [
     {
