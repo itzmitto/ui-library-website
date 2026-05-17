@@ -170,7 +170,6 @@
     }
 }
 
-
 .Button17 {
     --border-radius: 15px;
     --border-width: 4px;
@@ -235,9 +234,6 @@
     --border-width: 5px;
 }
 
-
-
-
 .Button18 {
     --glow-color: rgb(217, 176, 255);
     --glow-spread-color: rgba(191, 123, 255, 0.781);
@@ -286,8 +282,6 @@
         0 0 2.5em 2em var(--glow-spread-color),
         inset 0 0 .5em .25em var(--glow-color);
 }
-
-
 
 .Button19 {
     position: relative;
@@ -390,4 +384,800 @@
 
 .Button20:active {
     transform: scale(0.95);
+}
+
+
+
+.Button62 {
+    padding: 12px 28px;
+    border: 2px solid #00e5ff;
+    background: transparent;
+    color: #00e5ff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    transition: .3s;
+    animation: btn62-pulse 2s infinite;
+}
+
+.Button62:hover {
+    background: #00e5ff;
+    color: #000;
+    box-shadow: 0 0 30px #00e5ff;
+}
+
+@keyframes btn62-pulse {
+
+    0%,
+    100% {
+        box-shadow: 0 0 8px #00e5ff;
+    }
+
+    50% {
+        box-shadow: 0 0 20px #00e5ff;
+    }
+}
+
+
+
+.Button63 {
+    padding: 12px 28px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.Button63:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+
+
+.Button64 {
+    padding: 12px 28px;
+    background: #e0e5ec;
+    border: none;
+    color: #6c63ff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #b8bec7, -5px -5px 10px #ffffff;
+    transition: .2s;
+}
+
+.Button64:active {
+    box-shadow: inset 4px 4px 8px #b8bec7, inset -4px -4px 8px #ffffff;
+}
+
+
+
+.Button65 {
+    padding: 12px 28px;
+    background: #f0e614;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px #000;
+    transition: .1s;
+}
+
+.Button65:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px #000;
+}
+
+.Button65:active {
+    transform: translate(4px, 4px);
+    box-shadow: none;
+}
+
+
+
+.Button66 {
+    padding: 12px 28px;
+    background: #1a1a1a;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+    z-index: 0;
+}
+
+.Button66::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    transform: translateX(-100%);
+    transition: .3s;
+    z-index: -1;
+}
+
+.Button66:hover::before {
+    transform: translateX(0);
+}
+
+
+
+.Button67 {
+    padding: 12px 28px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    transition: .3s;
+}
+
+.Button67::before,
+.Button67::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+
+.Button67::before {
+    top: 0;
+    left: 0;
+}
+
+.Button67::after {
+    bottom: 0;
+    right: 0;
+}
+
+.Button67:hover::before,
+.Button67:hover::after {
+    width: 100%;
+}
+
+.Button67:hover {
+    box-shadow: inset 0 0 0 1px white;
+}
+
+
+
+.Button68 {
+    padding: 12px 28px;
+    background: #f0e614;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+    transition: .2s;
+    position: relative;
+}
+
+.Button68::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background: #000;
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+    z-index: -1;
+}
+
+.Button68:hover {
+    background: #fff;
+    box-shadow: 0 0 15px #f0e614;
+}
+
+
+
+.Button69 {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+}
+
+.Button69:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.6);
+}
+
+.Button69:active {
+    transform: scale(0.95);
+}
+
+
+
+.Button70 {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #f97316, #ef4444);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 4px 20px rgba(249, 115, 22, 0.4);
+}
+
+.Button70:hover {
+    box-shadow: 0 6px 30px rgba(249, 115, 22, 0.7);
+    transform: translateY(-2px);
+}
+
+.Button70:active {
+    transform: translateY(0);
+}
+
+
+
+.Button71 {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #a8edea, #86c5f7);
+    border: none;
+    color: #0e3a5e;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 4px 15px rgba(134, 197, 247, 0.4);
+}
+
+.Button71:hover {
+    background: linear-gradient(135deg, #86c5f7, #a8edea);
+    box-shadow: 0 6px 25px rgba(134, 197, 247, 0.6);
+    transform: translateY(-2px);
+}
+
+
+
+.Button72 {
+    padding: 12px 28px;
+    background: #ef4444;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.Button72:hover {
+    animation: btn72-shake 0.4s ease;
+}
+
+@keyframes btn72-shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-5px);
+    }
+
+    40% {
+        transform: translateX(5px);
+    }
+
+    60% {
+        transform: translateX(-4px);
+    }
+
+    80% {
+        transform: translateX(4px);
+    }
+}
+
+
+
+.Button73 {
+    padding: 12px 28px;
+    background: transparent;
+    border: 2px solid #10b981;
+    color: #10b981;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color .3s;
+    z-index: 0;
+}
+
+.Button73::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #10b981;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: .3s;
+    z-index: -1;
+}
+
+.Button73:hover {
+    color: white;
+}
+
+.Button73:hover::before {
+    transform: scaleX(1);
+}
+
+
+
+.Button74 {
+    padding: 12px 28px;
+    background: transparent;
+    border: 2px solid #8b5cf6;
+    color: #8b5cf6;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.Button74:hover {
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.6), inset 0 0 20px rgba(139, 92, 246, 0.1);
+    color: white;
+    border-color: #a78bfa;
+}
+
+
+
+.Button75 {
+    padding: 12px 28px;
+    background: #111;
+    border: 1px solid #333;
+    color: #f9fafb;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.Button75:hover {
+    background: #222;
+    border-color: #555;
+    transform: translateY(-1px);
+}
+
+.Button75:active {
+    transform: translateY(0);
+}
+
+
+
+.Button76 {
+    padding: 12px 28px;
+    background: #fce7f3;
+    border: 2px solid #f9a8d4;
+    color: #be185d;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.Button76:hover {
+    background: #fdf2f8;
+    border-color: #ec4899;
+    box-shadow: 0 4px 15px rgba(236, 72, 153, 0.3);
+    transform: translateY(-2px);
+}
+
+
+
+.Button77 {
+    padding: 12px 28px;
+    background: #635bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 0 2px 8px rgba(99, 91, 255, 0.4);
+}
+
+.Button77:hover {
+    background: #5248e8;
+    box-shadow: 0 4px 16px rgba(99, 91, 255, 0.5);
+    transform: translateY(-1px);
+}
+
+.Button77:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(99, 91, 255, 0.4);
+}
+
+
+
+.Button78 {
+    padding: 12px 28px;
+    background: transparent;
+    border: 2px solid #f59e0b;
+    color: #f59e0b;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color .3s;
+    z-index: 0;
+}
+
+.Button78::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #f59e0b;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: .3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    z-index: -1;
+}
+
+.Button78:hover {
+    color: white;
+}
+
+.Button78:hover::before {
+    transform: scaleY(1);
+}
+
+
+
+.Button79 {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #0ea5e9, #8b5cf6, #ec4899);
+    background-size: 200% 200%;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: btn79-aurora 3s ease infinite;
+    transition: .3s;
+}
+
+.Button79:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(139, 92, 246, 0.5);
+}
+
+@keyframes btn79-aurora {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+.Button80 {
+    padding: 12px 28px;
+    background: #1a1a1a;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: monospace;
+    cursor: pointer;
+    position: relative;
+    image-rendering: pixelated;
+    box-shadow:
+        0 -4px 0 0 #fff,
+        0 4px 0 0 #fff,
+        -4px 0 0 0 #fff,
+        4px 0 0 0 #fff;
+    transition: .1s;
+}
+
+.Button80:hover {
+    background: #fff;
+    color: #000;
+}
+
+.Button80:active {
+    transform: scale(0.95);
+}
+
+
+
+.Button81 {
+    padding: 0;
+    background: #6366f1;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    height: 46px;
+    min-width: 120px;
+}
+
+.Button81 span {
+    display: block;
+    padding: 12px 28px;
+    transition: .3s;
+    position: relative;
+}
+
+.Button81::before {
+    content: "↑ Go";
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 100%;
+    left: 0;
+    padding: 12px 0;
+    transition: .3s;
+    background: #4f46e5;
+}
+
+.Button81:hover span {
+    transform: translateY(-100%);
+}
+
+.Button81:hover::before {
+    top: 0;
+}
+
+
+
+.Button82 {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #e879f9, #a855f7);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4);
+}
+
+.Button82:hover {
+    background: linear-gradient(135deg, #a855f7, #e879f9);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(168, 85, 247, 0.6);
+}
+
+
+
+.Button83 {
+    padding: 12px 28px;
+    background: white;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 #000;
+    transition: .15s;
+}
+
+.Button83:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 #000;
+}
+
+.Button83:active {
+    transform: translate(4px, 4px);
+    box-shadow: none;
+}
+
+
+.Button84 {
+    padding: 12px 28px;
+    background: transparent;
+    border: 2px solid #22c55e;
+    color: #22c55e;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+    font-family: monospace;
+}
+
+.Button84:hover {
+    background: rgba(34, 197, 94, 0.1);
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.5), inset 0 0 20px rgba(34, 197, 94, 0.05);
+    color: #4ade80;
+}
+
+.Button85 {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #f472b6, #fb923c);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 4px 15px rgba(244, 114, 182, 0.4);
+}
+
+.Button85:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 8px 25px rgba(244, 114, 182, 0.5);
+}
+
+.Button85:active {
+    transform: scale(0.97);
+}
+
+.Button86 {
+    padding: 12px 28px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 0;
+}
+
+.Button86:hover {
+    border-bottom-color: #6366f1;
+    color: #6366f1;
+    transform: translateY(-2px);
+}
+
+.Button87 {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #f093fb, #f5576c, #4facfe, #00f2fe);
+    background-size: 300% 300%;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: btn87-holo 4s ease infinite;
+    transition: .3s;
+}
+
+.Button87:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(240, 147, 251, 0.5);
+}
+
+@keyframes btn87-holo {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.Button88 {
+    padding: 12px 28px;
+    background: #6366f1;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.Button88::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: width .5s, height .5s, opacity .5s;
+    opacity: 0;
+}
+
+.Button88:active::after {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+}
+
+.Button88:hover {
+    background: #4f46e5;
+}
+
+.Button89 {
+    padding: 12px 28px;
+    background: #0d0d0d;
+    border: 2px solid #ff2d78;
+    color: #ff2d78;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.Button89:hover {
+    background: #ff2d78;
+    color: white;
+    box-shadow: 0 0 20px rgba(255, 45, 120, 0.6), inset 0 0 20px rgba(255, 45, 120, 0.1);
+}
+
+
+.Button90 {
+    padding: 12px 28px;
+    background: #7c3aed;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: btn90-glow 2s ease-in-out infinite;
+    transition: .3s;
+}
+
+.Button90:hover {
+    transform: scale(1.05);
+}
+
+@keyframes btn90-glow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 10px rgba(124, 58, 237, 0.5);
+    }
+
+    50% {
+        box-shadow: 0 0 30px rgba(124, 58, 237, 0.9), 0 0 50px rgba(124, 58, 237, 0.4);
+    }
 }
