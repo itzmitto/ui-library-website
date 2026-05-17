@@ -170,7 +170,7 @@
 
 .card-113 {
     background-color: transparent;
-   width: 140px;
+    width: 140px;
     height: 190px;
     perspective: 1000px;
     font-family: sans-serif;
@@ -230,9 +230,11 @@
 }
 
 .card-114-inner {
-    width: 190px;
-    height: 254px;
+    width: 140px;
+    height: 190px;
     background-color: #1a1a1a;
+    border-radius: 10px;
+
     transition: all .2s;
 }
 
@@ -262,8 +264,8 @@
     position: absolute;
     top: 5px;
     left: 5px;
-    width: 190px;
-    height: 240px;
+    width: 140px;
+    height: 190px;
     z-index: 2;
     background: rgba(255, 255, 255, .95);
     backdrop-filter: blur(24px);
@@ -507,3 +509,64 @@
     background-color: #00ca4e;
 }
 
+.card-121 {
+    position: relative;
+    width: 140px;
+    height: 190px;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card-121 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card-121:hover {
+    transform: rotate(-5deg) scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-121-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card-121:hover .card-121-content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+}
+
+.card-121-title {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+
+.card-121-description {
+    margin: 10px 0 0;
+    font-size: 11px;
+    color: #777;
+    line-height: 1.4;
+}
+
+.card-121:hover svg {
+    scale: 0;
+    transform: rotate(-45deg);
+}
