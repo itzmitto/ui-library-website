@@ -598,6 +598,20 @@ export const loaders = [
             <div className="prev-progress-wrap"><div className="prev-progress-bar" /></div>
         )
     },
+    { id: 141, name: "Loader", preview: <div className="ld-141" /> },
+    { id: 142, name: "Loader", preview: <div className="ld-142" /> },
+    { id: 143, name: "Loader", preview: <div className="ld-143" /> },
+    { id: 144, name: "Loader", preview: <div className="ld-144" /> },
+    { id: 145, name: "Loader", preview: <div className="ld-145" /> },
+    { id: 146, name: "Loader", preview: <div className="ld-146" /> },
+    { id: 147, name: "Loader", preview: <div className="ld-147" /> },
+    { id: 148, name: "Loader", preview: <div className="ld-148" /> },
+    { id: 149, name: "Loader", preview: <div className="ld-149" /> },
+    { id: 150, name: "Loader", preview: <div className="ld-150" /> },
+    { id: 151, name: "Loader", preview: <div className="ld-151" /> },
+    { id: 152, name: "Loader", preview: <div className="ld-152" /> },
+    { id: 153, name: "Loader", preview: <div className="ld-153" /> },
+
 ];
 
 export const inputs = [

@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import { loaders } from "../data/componentsData";
 import "./All.css";
+import "../styling/Loaders.css";
 
 const sidebarItems = [
     { label: "All", path: "/elements" },

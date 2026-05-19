@@ -1,0 +1,76 @@
+.prev-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-top-color: #7c3aed;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.prev-dots {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.prev-dots span {
+    width: 10px;
+    height: 10px;
+    background: #7c3aed;
+    border-radius: 50%;
+    animation: bounce 0.6s ease-in-out infinite alternate;
+}
+
+.prev-dots span:nth-child(2) {
+    animation-delay: 0.15s;
+    background: #6366f1;
+}
+
+.prev-dots span:nth-child(3) {
+    animation-delay: 0.3s;
+    background: #a855f7;
+}
+
+@keyframes bounce {
+    to {
+        transform: translateY(-8px);
+        opacity: 0.5;
+    }
+}
+
+
+.prev-progress-wrap {
+    width: 160px;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.prev-progress-bar {
+    width: 65%;
+    height: 100%;
+    background: linear-gradient(90deg, #7c3aed, #a855f7);
+    border-radius: 999px;
+    animation: progress-pulse 2s ease-in-out infinite alternate;
+}
+
+@keyframes progress-pulse {
+    from {
+        width: 30%;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+.ld-141 {
+    background-color: red;
+}
