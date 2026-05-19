@@ -615,10 +615,23 @@ export const loaders = [
     { id: 151, name: "Loader", preview: <div className="ld-151" /> },
     { id: 152, name: "Loader", preview: <div style={{ marginLeft: "20px" }}><div className="ld-152" /></div> },
     { id: 153, name: "Loader", preview: <div style={{ marginLeft: "12px" }}><div className="ld-153" /></div> },
+    { id: 154, name: "Loader", preview: <div className="ld-154" /> },
+    { id: 155, name: "Loader", preview: <div className="ld-155" /> },
     { id: 156, name: "Loader", preview: <div className="ld-156" /> },
     { id: 157, name: "Loader", preview: <div className="ld-157" /> },
     { id: 158, name: "Loader", preview: <div className="ld-158" /> },
     { id: 159, name: "Loader", preview: <div className="ld-159" /> },
+    { id: 160, name: "Loader", preview: <div className="ld-160" /> },
+    { id: 161, name: "Loader", preview: <div className="ld-161" /> },
+    { id: 162, name: "Loader", preview: <div className="ld-162" /> },
+    { id: 163, name: "Loader", preview: <div className="ld-163" /> },
+    { id: 164, name: "Loader", preview: <div className="ld-164" /> },
+    { id: 165, name: "Loader", preview: <div className="ld-165" /> },
+    { id: 166, name: "Loader", preview: <div className="ld-166" /> },
+    { id: 167, name: "Loader", preview: <div className="ld-167" /> },
+    { id: 168, name: "Loader", preview: <div className="ld-168" /> },
+    { id: 169, name: "Loader", preview: <div className="ld-169" /> },
+    { id: 170, name: "Loader", preview: <div className="ld-170" /> },
 
 ];
 

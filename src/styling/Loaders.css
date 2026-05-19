@@ -150,7 +150,6 @@
     animation: ld-progress 1.4s ease-in-out infinite;
 }
 
-/* ld-146 - Skeleton block */
 .ld-146 {
     width: 160px;
     height: 16px;
@@ -160,7 +159,6 @@
     animation: ld-shimmer 1.5s infinite;
 }
 
-/* ld-147 - Spinning square */
 .ld-147 {
     width: 30px;
     height: 30px;
@@ -169,7 +167,6 @@
     animation: ld-spin 0.8s ease-in-out infinite;
 }
 
-/* ld-148 - Ripple */
 .ld-148 {
     width: 40px;
     height: 40px;
@@ -178,7 +175,6 @@
     animation: ld-ripple 1s ease-out infinite;
 }
 
-/* ld-149 - Bouncing ball */
 .ld-149 {
     width: 20px;
     height: 20px;
@@ -187,7 +183,6 @@
     animation: ld-bounce 0.6s ease-in-out infinite alternate;
 }
 
-/* ld-150 - Circular dash */
 .ld-150 {
     width: 40px;
     height: 40px;
@@ -196,7 +191,6 @@
     animation: ld-spin 1.2s linear infinite;
 }
 
-/* ld-151 - Gradient ring */
 .ld-151 {
     width: 40px;
     height: 40px;
@@ -316,4 +310,166 @@
     100% {
         transform: scaleY(1);
     }
+}
+
+
+
+/* ld-154 - Skeleton avatar + lines */
+.ld-154 {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.ld-154::before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: ld-shimmer 1.5s infinite;
+}
+
+.ld-154::after {
+    content: "";
+    width: 100%;
+    height: 12px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: ld-shimmer 1.5s infinite;
+}
+
+/* ld-155 - Skeleton card */
+.ld-155 {
+    width: 160px;
+    height: 100px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: ld-shimmer 1.5s infinite;
+}
+
+/* ld-156 - Skeleton text lines */
+.ld-156 {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ld-156::before,
+.ld-156::after {
+    content: "";
+    height: 10px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: ld-shimmer 1.5s infinite;
+}
+
+.ld-156::before {
+    width: 100%;
+}
+
+.ld-156::after {
+    width: 70%;
+}
+
+/* ld-157 - Skeleton thumbnail + text */
+.ld-157 {
+    width: 160px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.ld-157::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: ld-shimmer 1.5s infinite;
+}
+
+.ld-157::after {
+    content: "";
+    flex: 1;
+    height: 12px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: ld-shimmer 1.5s infinite;
+}
+
+/* ld-158 - Skeleton button */
+.ld-158 {
+    width: 120px;
+    height: 36px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: ld-shimmer 1.5s infinite;
+}
+
+/* ld-159 - Skeleton circle + 3 lines */
+.ld-159 {
+    width: 160px;
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    grid-template-rows: 10px 10px 10px;
+    gap: 8px;
+    align-items: center;
+}
+
+.ld-159::before {
+    content: "";
+    grid-column: 1;
+    grid-row: 1 / 4;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: ld-shimmer 1.5s infinite;
+    align-self: center;
+}
+
+.ld-159::after {
+    content: "";
+    grid-column: 2;
+    grid-row: 1 / 3;
+    height: 10px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: ld-shimmer 1.5s infinite;
+}
+
+/* ld-160 - Skeleton image placeholder */
+.ld-160 {
+    width: 160px;
+    height: 90px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: ld-shimmer 1.5s infinite;
+    position: relative;
+    overflow: hidden;
+}
+
+.ld-160::after {
+    content: "▣";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.06);
 }
