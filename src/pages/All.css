@@ -101,29 +101,3 @@
     font-size: 13px;
     color: #a1a1aa;
 }
-
-
-
-
-
-
-.prev-input {
-    background: #18181b;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    color: #fff;
-    padding: 10px 14px;
-    border-radius: 8px;
-    font-size: 14px;
-    width: 180px;
-    outline: none;
-    transition: border-color 0.2s;
-}
-
-.prev-input::placeholder {
-    color: #52525b;
-}
-
-.prev-input:focus {
-    border-color: #7c3aed;
-}
-

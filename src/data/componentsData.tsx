@@ -869,6 +869,45 @@ export const loaders = [
 
 export const inputs = [
     { id: 12, name: "Text Input", preview: <input className="prev-input" type="text" placeholder="Type something..." /> },
+    { id: 171, name: "input", preview: <input className="ip-171" type="text" placeholder="Type something..." /> },
+    { id: 172, name: "input", preview: <input className="ip-172" type="text" placeholder="Type something..." /> },
+    { id: 173, name: "input", preview: <input className="ip-173" type="text" placeholder="Type something..." /> },
+    { id: 174, name: "input", preview: <input className="ip-174" type="text" placeholder="Type something..." /> },
+    { id: 175, name: "input", preview: <input className="ip-175" type="text" placeholder="Type something..." /> },
+    { id: 176, name: "input", preview: <input className="ip-176" type="text" placeholder="Type something..." /> },
+    { id: 177, name: "input", preview: <input className="ip-177" type="text" placeholder="Type something..." /> },
+    { id: 178, name: "input", preview: <input className="ip-178" type="text" placeholder="Type something..." /> },
+    {
+        id: 179, name: "input", preview: (
+            <div className="ip-179-container">
+                <input className="ip-179" type="text" placeholder="Search the internet..." />
+            </div>),
+    },
+    { id: 180, name: "input", preview: <input className="ip-180" type="text" placeholder="Type something..." /> },
+    { id: 181, name: "input", preview: <input className="ip-181" type="text" placeholder="Type something..." /> },
+    { id: 182, name: "input", preview: <input className="ip-182" type="text" placeholder="Type something..." /> },
+    { id: 183, name: "input", preview: <input className="ip-183" type="text" placeholder="Type something..." /> },
+    { id: 184, name: "input", preview: <input className="ip-184" type="text" placeholder="Type something..." /> },
+    { id: 185, name: "input", preview: <input className="ip-185" type="text" placeholder="Type something..." /> },
+    { id: 186, name: "input", preview: <input className="ip-186" type="text" placeholder="Type something..." /> },
+    { id: 187, name: "input", preview: <input className="ip-187" type="text" placeholder="Type something..." /> },
+    { id: 188, name: "input", preview: <input className="ip-188" type="text" placeholder="Type something..." /> },
+    { id: 189, name: "input", preview: <input className="ip-189" type="text" placeholder="Type something..." /> },
+    { id: 190, name: "input", preview: <input className="ip-190" type="text" placeholder="Type something..." /> },
+    { id: 191, name: "input", preview: <input className="ip-191" type="text" placeholder="Type something..." /> },
+    { id: 192, name: "input", preview: <input className="ip-192" type="text" placeholder="Type something..." /> },
+    { id: 193, name: "input", preview: <input className="ip-193" type="text" placeholder="Type something..." /> },
+    { id: 194, name: "input", preview: <input className="ip-194" type="text" placeholder="Type something..." /> },
+    { id: 195, name: "input", preview: <input className="ip-195" type="text" placeholder="Type something..." /> },
+    { id: 196, name: "input", preview: <input className="ip-196" type="text" placeholder="Type something..." /> },
+    { id: 197, name: "input", preview: <input className="ip-197" type="text" placeholder="Type something..." /> },
+    { id: 198, name: "input", preview: <input className="ip-198" type="text" placeholder="Type something..." /> },
+    { id: 199, name: "input", preview: <input className="ip-199" type="text" placeholder="Type something..." /> },
+    { id: 200, name: "input", preview: <input className="ip-200" type="text" placeholder="Type something..." /> },
 ];
 
 export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, ...loaders, ...inputs];
+
+
+
+
