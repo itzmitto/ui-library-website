@@ -523,7 +523,7 @@ export const cards = [
     },
     {
         id: 116, name: "Dark Neumorphism", preview: (
-            <div className="card-116"></div> 
+            <div className="card-116"></div>
         )
     },
     {
@@ -940,8 +940,176 @@ export const inputs = [
     { id: 200, name: "input", preview: <input className="ip-200" type="text" placeholder="Type something..." /> },
 ];
 
-export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, ...loaders, ...inputs];
+export const radiobuttons = [
+    {
+        id: 201, name: "radiobuttons", preview: (
+            <div className="radio-input-201">
+                <label>
+                    <input
+                        type="radio"
+                        name="value-radio-201"
+                        value="designer"
+                        defaultChecked />
+                    <p className="text">Designer</p>
+                </label>
+                <label>
+                    <input
+                        type="radio"
+                        name="value-radio-201"
+                        value="student" />
+                    <p className="text">Student</p>
+                </label>
 
+                <label>
+                    <input
+                        type="radio"
+                        name="value-radio-201"
+                        value="teacher" />
+                    <p className="text">Teacher</p>
+                </label>
+            </div>
+        )
+    },
+    {
+        id: 202, name: "radiobuttons", preview: (
+            <div className="radio-input-202">
+                <div>
+                    <label>
+                        <input
+                            type="radio"
+                            name="gender-radio-202"
+                            value="women"
+                            defaultChecked
+                        />
+                        <span>Women</span>
+                    </label>
+                    <label>
+                        <input
+                            type="radio"
+                            name="gender-radio-202"
+                            value="men"
+                        />
+                        <span>Men</span>
+                    </label>
+                    <label>
+                        <input
+                            type="radio"
+                            name="gender-radio-202"
+                            value="divided"
+                        />
+                        <span>Divided</span>
+                    </label>
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 203, name: "radiobuttons", preview: (
+            <div className="radio-input-203">
+                <label className="label">
+                    <input
+                        type="radio"
+                        name="action-radio-203"
+                        value="play"
+                        defaultChecked
+                    />
+                    <span className="text">Play</span>
+                </label>
 
+                <label className="label">
+                    <input
+                        type="radio"
+                        name="action-radio-203"
+                        value="stop"
+                    />
+                    <span className="text">Stop</span>
+                </label>
 
+                <label className="label">
+                    <input
+                        type="radio"
+                        name="action-radio-203"
+                        value="reset"
+                    />
+                    <span className="text">Reset</span>
+                </label>
+            </div>
+        )
+    },
+    {
+        id: 204, name: "radiobuttons", preview: (
+            <div className="rb-204-group">
 
+            </div>
+        )
+    },
+    {
+        id: 205, name: "radiobuttons", preview: (
+            <div className="rb-205-group">
+            </div>
+        )
+    },
+];
+
+export const forms = [
+    {
+        id: 210, name: "forms", preview: (
+            <div className="fm-210">?
+            </div>
+        )
+    },
+    {
+        id: 211, name: "forms", preview: (
+            <div className="fm-211">?
+            </div>
+        )
+    },
+    {
+        id: 212, name: "forms", preview: (
+            <div className="fm-212">?
+            </div>
+        )
+    },
+    {
+        id: 213, name: "forms", preview: (
+            <div className="fm-213">?
+            </div>
+        )
+    },
+    {
+        id: 214, name: "forms", preview: (
+            <div className="fm-214">?
+            </div>
+        )
+    },
+];
+
+export const patterns = [
+    {
+        id: 220, name: "patterns", preview: (
+            <div className="pt-220">?</div>
+        )
+    },
+    {
+        id: 221, name: "patterns", preview: (
+            <div className="pt-221">?</div>
+        )
+    },
+    {
+        id: 222, name: "patterns", preview: (
+            <div className="pt-222">?</div>
+        )
+    },
+    {
+        id: 223, name: "patterns", preview: (
+            <div className="pt-223">?</div>
+        )
+    },
+    {
+        id: 224, name: "patterns", preview: (
+            <div className="pt-224">?</div>
+        )
+    },
+];
+
+export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, ...loaders, ...inputs, ...radiobuttons, ...forms, ...patterns];

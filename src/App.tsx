@@ -7,6 +7,9 @@ import Cards from "./pages/Cards";
 import Loaders from "./pages/Loaders";
 import Toggleswitches from "./pages/Toggleswitches";
 import Inputs from "./pages/Inputs";
+import RadioButtons from "./pages/RadioButtons";
+import Forms from "./pages/Forms";
+import Patterns from "./pages/Patterns";
 
 function Home() {
   return (
@@ -37,7 +40,7 @@ function App() {
         <Route path="/elements/loaders" element={<Loaders />} />
         <Route path="/elements/toggleswitches" element={<Toggleswitches />} />
         <Route path="/elements/inputs" element={<Inputs />} />
-        <Route path="/elements/radio-buttons" element={<RadioButtons />} />
+        <Route path="/elements/radiobuttons" element={<RadioButtons />} />
         <Route path="/elements/forms" element={<Forms />} />
         <Route path="/elements/patterns" element={<Patterns />} />
         {/* Hier meer buttons enz. later toeeovengen wanneer ik ze heb  */}

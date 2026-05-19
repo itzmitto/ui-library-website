@@ -11,7 +11,7 @@ const sidebarItems = [
     { label: "Cards", path: "/elements/cards" },
     { label: "Loaders", path: "/elements/loaders" },
     { label: "Inputs", path: "/elements/inputs" },
-    { label: "Radio buttons", path: "/elements/radio-buttons" },
+    { label: "Radiobuttons", path: "/elements/radiobuttons" },
     { label: "Forms", path: "/elements/forms" },
     { label: "Patterns", path: "/elements/patterns", active: true },
 ];
@@ -20,7 +20,6 @@ export default function Patterns() {
     return (
         <div className="all-page">
             <Header />
-
             <div className="all-layout">
                 <aside className="sidebar">
                     {sidebarItems.map((item) => (
@@ -33,19 +32,15 @@ export default function Patterns() {
                         </a>
                     ))}
                 </aside>
-
                 <main className="all-main">
                     <div className="all-header">
                         <h1>Patterns</h1>
                         <p>Open-Source CSS background patterns</p>
                     </div>
-
                     <div className="all-grid">
                         {patterns.map((item) => (
                             <div key={item.id} className="all-card">
-                                <div className="all-card-preview">
-                                    {item.preview}
-                                </div>
+                                <div className="all-card-preview">{item.preview}</div>
                                 <div className="all-card-footer">
                                     <span className="all-card-name">{item.name}</span>
                                 </div>
