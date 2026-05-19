@@ -575,25 +575,65 @@ export const cards = [
             </div>
         )
     },
-    { id: 122, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 123, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 124, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 125, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 126, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 127, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 128, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 129, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 130, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 131, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 132, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 133, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 134, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 135, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 136, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 137, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 138, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 139, name: "Card", preview: (<div>nog leeg</div>) },
-    { id: 140, name: "Card", preview: (<div>nog leeg</div>) },
+    {
+        id: 122, name: "Card-122", preview: (
+            <div className="cd-122">
+                <div className="cd-122__top">
+                    <div className="cd-122__border"></div>
+                    <div className="cd-122__icons">
+                        <div className="cd-122__logo"></div>
+                        <div className="cd-122__social"></div>
+                    </div>
+                </div>
+                <div className="cd-122__bottom">
+                    <span className="cd-122__title">UNIVERSE OF UI</span>
+                    <div className="cd-122__row">
+                        <div className="cd-122__item">
+                            <span className="cd-122__big">2626</span>
+                            <span className="cd-122__small">UI elements</span>
+                        </div>
+                        <div className="cd-122__item">
+                            <span className="cd-122__big">100%</span>
+                            <span className="cd-122__small">Free for use</span>
+                        </div>
+                        <div className="cd-122__item">
+                            <span className="cd-122__big">38,631</span>
+                            <span className="cd-122__small">Contributors</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 123, name: "Card-123", preview: (
+            <div className="cd-123">
+                <div className="cd-123__palette">
+                    <div className="cd-123__color"><span>264653</span></div>
+                    <div className="cd-123__color"><span>2A9D8F</span></div>
+                    <div className="cd-123__color"><span>E9C46A</span></div>
+                    <div className="cd-123__color"><span>F4A261</span></div>
+                    <div className="cd-123__color"><span>E76F51</span></div>
+                </div>
+            </div>
+        )
+    }, { id: 124, name: "Card-124", preview: (<div>nog leeg</div>) },
+    { id: 125, name: "Card-125", preview: (<div>nog leeg</div>) },
+    { id: 126, name: "Card-126", preview: (<div>nog leeg</div>) },
+    { id: 127, name: "Card-127", preview: (<div>nog leeg</div>) },
+    { id: 128, name: "Card-128", preview: (<div>nog leeg</div>) },
+    { id: 129, name: "Card-129", preview: (<div>nog leeg</div>) },
+    { id: 130, name: "Card-130", preview: (<div>nog leeg</div>) },
+    { id: 131, name: "Card-131", preview: (<div>nog leeg</div>) },
+    { id: 132, name: "Card-132", preview: (<div>nog leeg</div>) },
+    { id: 133, name: "Card-133", preview: (<div>nog leeg</div>) },
+    { id: 134, name: "Card-134", preview: (<div>nog leeg</div>) },
+    { id: 135, name: "Card-135", preview: (<div>nog leeg</div>) },
+    { id: 136, name: "Card-136", preview: (<div>nog leeg</div>) },
+    { id: 137, name: "Card-137", preview: (<div>nog leeg</div>) },
+    { id: 138, name: "Card-138", preview: (<div>nog leeg</div>) },
+    { id: 139, name: "Card-139", preview: (<div>nog leeg</div>) },
+    { id: 140, name: "Card-140", preview: (<div>nog leeg</div>) },
 ];
 
 export const loaders = [
