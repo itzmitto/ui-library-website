@@ -42,7 +42,13 @@ export const buttons = [
     { id: 88, name: "Button", preview: <button className="Button88">Click me</button> },
     { id: 89, name: "Button", preview: <button className="Button89">Click me</button> },
     { id: 90, name: "Button", preview: <button className="Button90">Click me</button> },
-    { id: 91, name: "Button", preview: <button className="Button91"><span>Click me</span></button> },];
+    { id: 91, name: "Button", preview: <button className="Button91"><span>Click me</span></button> },
+    { id: 92, name: "Button", preview: <button className="Button92">Click me</button> },
+    { id: 93, name: "Button", preview: <button className="Button93">Click me</button> },
+    { id: 94, name: "Button", preview: <button className="Button94"><span>Click me</span></button> },
+    { id: 95, name: "Button", preview: <button className="Button95"><span>Click me →</span></button> },
+    { id: 96, name: "Button", preview: <button className="Button96"><span>Click me →</span></button> },
+];
 
 export const checkboxes = [
     {
@@ -609,6 +615,10 @@ export const loaders = [
     { id: 151, name: "Loader", preview: <div className="ld-151" /> },
     { id: 152, name: "Loader", preview: <div style={{ marginLeft: "20px" }}><div className="ld-152" /></div> },
     { id: 153, name: "Loader", preview: <div style={{ marginLeft: "12px" }}><div className="ld-153" /></div> },
+    { id: 156, name: "Loader", preview: <div className="ld-156" /> },
+    { id: 157, name: "Loader", preview: <div className="ld-157" /> },
+    { id: 158, name: "Loader", preview: <div className="ld-158" /> },
+    { id: 159, name: "Loader", preview: <div className="ld-159" /> },
 
 ];
 

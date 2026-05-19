@@ -1183,53 +1183,217 @@
 }
 
 .Button91 {
-  outline: none;
-  cursor: pointer;
-  border: none;
-  padding: 0.9rem 2rem;
-  margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  position: relative;
-  display: inline-block;
-  letter-spacing: 0.05rem;
-  font-weight: 700;
-  font-size: 17px;
-  border-radius: 500px;
-  overflow: hidden;
-  background: #66ff66;
-  color: ghostwhite;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #66ff66;
+    color: ghostwhite;
 }
 
 .Button91 span {
-  position: relative;
-  z-index: 10;
-  transition: color 0.4s;
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
 }
 
 .Button91:hover span {
-  color: black;
+    color: black;
 }
 
 .Button91::before,
 .Button91::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
 }
 
 .Button91::before {
-  content: "";
-  background: black;
-  width: 120%;
-  left: -10%;
-  transform: skew(30deg);
-  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+    content: "";
+    background: black;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
 }
 
 .Button91:hover::before {
-  transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+
+.Button92 {
+    position: relative;
+    padding: 12px 32px;
+    background: #09090b;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s;
+}
+
+.Button92::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(135deg, #7c3aed, #4f46e5);
+    transform: skewX(-20deg);
+    transition: width 0.4s ease;
+    z-index: 0;
+}
+
+.Button92:hover::before {
+    width: 120%;
+}
+
+.Button92:hover {
+    color: #fff;
+}
+
+.Button92 span {
+    position: relative;
+    z-index: 1;
+}
+
+.Button93 {
+    position: relative;
+    padding: 12px 32px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #7c3aed;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s, border-color 0.3s;
+    transform: perspective(200px) rotateX(6deg);
+    transform-origin: bottom center;
+}
+
+.Button93::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #7c3aed, #a855f7);
+    transition: left 0.4s ease;
+    z-index: 0;
+}
+
+.Button93:hover::before {
+    left: 0%;
+}
+
+.Button93:hover {
+    border-color: #a855f7;
+}
+
+.Button93 span {
+    position: relative;
+    z-index: 1;
+}
+
+.Button94 {
+    position: relative;
+    padding: 12px 32px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #6366f1;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s;
+}
+
+.Button94::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #6366f1;
+    transition: left 0.35s ease;
+    z-index: 0;
+}
+
+.Button94:hover::before {
+    left: 0%;
+}
+
+.Button94 span {
+    position: relative;
+    z-index: 1;
+}
+
+.Button95 {
+    position: relative;
+    padding: 12px 32px;
+    background: #6366f1;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Button95:hover {
+    transform: translateX(8px);
+    box-shadow: -8px 0 0 #a855f7;
+}
+
+.Button95 span {
+    position: relative;
+    z-index: 1;
+}
+
+.Button96 {
+    background: blue;
+    transition: transform .5s;
+    padding: 15px;
+    border:none;
+    border-radius: 10px;
+    
+}
+
+.Button96:hover {
+    transform: skew(-30deg);
+}
+.Button96 span {
+    display: inline-block;
+    transition: transform .5s;
+}
+.Button96:hover span {
+    transform: skew(30deg);
 }

@@ -207,7 +207,6 @@
     mask: radial-gradient(farthest-side, transparent calc(100% - 4px), black calc(100% - 4px));
 }
 
-/* ld-152 - Flashing dots */
 .ld-152 {
     width: 10px;
     height: 10px;
@@ -217,7 +216,6 @@
     animation: ld-flash 1s ease-in-out infinite;
 }
 
-/* ld-153 - Growing bar */
 .ld-153 {
     width: 6px;
     height: 40px;
@@ -227,46 +225,95 @@
     animation: ld-bars 0.6s ease-in-out infinite alternate;
 }
 
-/* ── Keyframes ── */
 @keyframes ld-spin {
-    to { transform: rotate(360deg); }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes ld-pulse {
-    0%, 100% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.4); opacity: 0.5; }
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.4);
+        opacity: 0.5;
+    }
 }
 
 @keyframes ld-dots {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-8px); }
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-8px);
+    }
 }
 
 @keyframes ld-progress {
-    0% { left: -40%; width: 40%; }
-    60% { left: 100%; width: 40%; }
-    100% { left: 100%; width: 40%; }
+    0% {
+        left: -40%;
+        width: 40%;
+    }
+
+    60% {
+        left: 100%;
+        width: 40%;
+    }
+
+    100% {
+        left: 100%;
+        width: 40%;
+    }
 }
 
 @keyframes ld-shimmer {
-    to { background-position: -200% 0; }
+    to {
+        background-position: -200% 0;
+    }
 }
 
 @keyframes ld-ripple {
-    0% { transform: scale(0.8); opacity: 1; }
-    100% { transform: scale(1.6); opacity: 0; }
+    0% {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.6);
+        opacity: 0;
+    }
 }
 
 @keyframes ld-bounce {
-    to { transform: translateY(-16px); }
+    to {
+        transform: translateY(-16px);
+    }
 }
 
 @keyframes ld-flash {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.2; }
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.2;
+    }
 }
 
 @keyframes ld-bars {
-    0% { transform: scaleY(0.4); }
-    100% { transform: scaleY(1); }
+    0% {
+        transform: scaleY(0.4);
+    }
+
+    100% {
+        transform: scaleY(1);
+    }
 }
