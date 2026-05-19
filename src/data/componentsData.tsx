@@ -617,23 +617,215 @@ export const cards = [
                 </div>
             </div>
         )
-    }, { id: 124, name: "Card-124", preview: (<div>nog leeg</div>) },
-    { id: 125, name: "Card-125", preview: (<div>nog leeg</div>) },
-    { id: 126, name: "Card-126", preview: (<div>nog leeg</div>) },
-    { id: 127, name: "Card-127", preview: (<div>nog leeg</div>) },
-    { id: 128, name: "Card-128", preview: (<div>nog leeg</div>) },
-    { id: 129, name: "Card-129", preview: (<div>nog leeg</div>) },
-    { id: 130, name: "Card-130", preview: (<div>nog leeg</div>) },
-    { id: 131, name: "Card-131", preview: (<div>nog leeg</div>) },
-    { id: 132, name: "Card-132", preview: (<div>nog leeg</div>) },
-    { id: 133, name: "Card-133", preview: (<div>nog leeg</div>) },
-    { id: 134, name: "Card-134", preview: (<div>nog leeg</div>) },
-    { id: 135, name: "Card-135", preview: (<div>nog leeg</div>) },
-    { id: 136, name: "Card-136", preview: (<div>nog leeg</div>) },
-    { id: 137, name: "Card-137", preview: (<div>nog leeg</div>) },
-    { id: 138, name: "Card-138", preview: (<div>nog leeg</div>) },
-    { id: 139, name: "Card-139", preview: (<div>nog leeg</div>) },
-    { id: 140, name: "Card-140", preview: (<div>nog leeg</div>) },
+    },
+    {
+        id: 124, name: "Card-124", preview: (
+            <div className="cd-124">
+                <div className="cd-124__tools">
+                    <div className="cd-124__circle"><span className="cd-124__red cd-124__box"></span></div>
+                    <div className="cd-124__circle"><span className="cd-124__yellow cd-124__box"></span></div>
+                    <div className="cd-124__circle"><span className="cd-124__green cd-124__box"></span></div>
+                </div>
+                <div className="cd-124__content"></div>
+            </div>
+        )
+    },
+    {
+        id: 125, name: "Card-125", preview: (
+            <div className="cd-125">
+                <div className="cd-125__border-top"></div>
+                <div className="cd-125__img"></div>
+                <span>Person</span>
+                <p className="cd-125__job">Job Title</p>
+                <button>Click</button>
+            </div>
+        )
+    },
+    {
+        id: 126, name: "Card-126", preview: (
+            <div className="cd-126">
+                <div className="cd-126__tag">New</div>
+                <div className="cd-126__title">Dashboard Pro</div>
+                <div className="cd-126__sub">Analytics & insights</div>
+                <div className="cd-126__footer">
+                    <span>Free</span>
+                    <button className="cd-126__btn">Get started</button>
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 127, name: "Card-127", preview: (
+            <div className="cd-127">
+                <div className="cd-127__avatar">JD</div>
+                <div className="cd-127__info">
+                    <div className="cd-127__name">John Doe</div>
+                    <div className="cd-127__role">Frontend Developer</div>
+                </div>
+                <div className="cd-127__stats">
+                    <div className="cd-127__stat"><span>142</span><small>Projects</small></div>
+                    <div className="cd-127__stat"><span>8.4k</span><small>Followers</small></div>
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 128, name: "Card-128", preview: (
+            <div className="cd-128">
+                <div className="cd-128__header">
+                    <div className="cd-128__dot cd-128__dot--red" />
+                    <div className="cd-128__dot cd-128__dot--yellow" />
+                    <div className="cd-128__dot cd-128__dot--green" />
+                </div>
+                <div className="cd-128__body">
+                    <div className="cd-128__line cd-128__line--short" />
+                    <div className="cd-128__line" />
+                    <div className="cd-128__line cd-128__line--mid" />
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 129, name: "Card-129", preview: (
+            <div className="cd-129">
+                <div className="cd-129__top" />
+                <div className="cd-129__content">
+                    <div className="cd-129__title">Product Design</div>
+                    <div className="cd-129__sub">12 lessons · 4h 30min</div>
+                    <div className="cd-129__bar"><div className="cd-129__fill" /></div>
+                    <div className="cd-129__pct">64% complete</div>
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 130, name: "Card-130", preview: (
+            <div className="cd-130">
+                <div className="cd-130__price">$49<span>/mo</span></div>
+                <div className="cd-130__plan">Professional</div>
+                <div className="cd-130__divider" />
+                <ul className="cd-130__list">
+                    <li>Unlimited projects</li>
+                    <li>Priority support</li>
+                    <li>Custom domains</li>
+                </ul>
+                <button className="cd-130__btn">Subscribe</button>
+            </div>
+        )
+    },
+    {
+        id: 131, name: "Card-131", preview: (
+            <div className="cd-131">
+                <div className="cd-131__label">Revenue</div>
+                <div className="cd-131__value">$12,400</div>
+                <div className="cd-131__change cd-131__change--up">+8.2% this month</div>
+                <div className="cd-131__bar-wrap">
+                    <div className="cd-131__bar" />
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 132, name: "Card-132", preview: (
+            <div className="cd-132">
+                <div className="cd-132__img" />
+                <div className="cd-132__body">
+                    <div className="cd-132__cat">Design</div>
+                    <div className="cd-132__title">How to build UI systems</div>
+                    <div className="cd-132__meta">Jan 12 · 5 min read</div>
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 133, name: "Card-133", preview: (
+            <div className="cd-133">
+                <div className="cd-133__icon" />
+                <div className="cd-133__title">Notifications</div>
+                <div className="cd-133__sub">You have 3 unread messages</div>
+                <button className="cd-133__btn">View all</button>
+            </div>
+        )
+    },
+    {
+        id: 134, name: "Card-134", preview: (
+            <div className="cd-134">
+                <div className="cd-134__header">
+                    <div className="cd-134__avatar">MK</div>
+                    <div>
+                        <div className="cd-134__name">Mike K.</div>
+                        <div className="cd-134__time">2 min ago</div>
+                    </div>
+                </div>
+                <div className="cd-134__msg">Hey, the new design looks great. Can we hop on a call?</div>
+            </div>
+        )
+    },
+    {
+        id: 135, name: "Card-135", preview: (
+            <div className="cd-135">
+                <div className="cd-135__title">Team</div>
+                <div className="cd-135__avatars">
+                    <span>AL</span><span>BR</span><span>CK</span><span>+4</span>
+                </div>
+                <div className="cd-135__sub">7 members · 3 online</div>
+            </div>
+        )
+    },
+    {
+        id: 136, name: "Card-136", preview: (
+            <div className="cd-136">
+                <div className="cd-136__label">Storage</div>
+                <div className="cd-136__val">14.2 GB <span>of 20 GB</span></div>
+                <div className="cd-136__track"><div className="cd-136__fill" /></div>
+                <div className="cd-136__sub">5.8 GB remaining</div>
+            </div>
+        )
+    },
+    {
+        id: 137, name: "Card-137", preview: (
+            <div className="cd-137">
+                <div className="cd-137__status" />
+                <div className="cd-137__title">Server Status</div>
+                <div className="cd-137__sub">All systems operational</div>
+                <div className="cd-137__uptime">99.9% uptime</div>
+            </div>
+        )
+    },
+    {
+        id: 138, name: "Card-138", preview: (
+            <div className="cd-138">
+                <div className="cd-138__title">Dark Glass</div>
+                <div className="cd-138__sub">Glassmorphism style</div>
+                <button className="cd-138__btn">Open</button>
+            </div>
+        )
+    },
+    {
+        id: 139, name: "Card-139", preview: (
+            <div className="cd-139">
+                <div className="cd-139__top">
+                    <div className="cd-139__title">Weekly Report</div>
+                    <div className="cd-139__badge">PDF</div>
+                </div>
+                <div className="cd-139__sub">Generated on May 12, 2026</div>
+                <div className="cd-139__divider" />
+                <button className="cd-139__btn">Download</button>
+            </div>
+        )
+    },
+    {
+        id: 140, name: "Card-140", preview: (
+            <div className="cd-140">
+                <div className="cd-140__title">Quick Actions</div>
+                <div className="cd-140__actions">
+                    <button className="cd-140__action">Edit</button>
+                    <button className="cd-140__action">Share</button>
+                    <button className="cd-140__action cd-140__action--danger">Delete</button>
+                </div>
+            </div>
+        )
+    },
 ];
 
 export const loaders = [
