@@ -1,25 +1,26 @@
 import Header from "../components/Header";
-import { cards } from "../data/componentsData";
+import { patterns } from "../data/componentsData";
 import "./All.css";
-import "../styling/Cards.css";
- 
+import "../styling/Patterns.css";
+
 const sidebarItems = [
     { label: "All", path: "/elements" },
     { label: "Buttons", path: "/elements/buttons" },
     { label: "Checkboxes", path: "/elements/checkboxes" },
     { label: "Toggleswitches", path: "/elements/toggleswitches" },
-    { label: "Cards", path: "/elements/cards", active: true },
+    { label: "Cards", path: "/elements/cards" },
     { label: "Loaders", path: "/elements/loaders" },
     { label: "Inputs", path: "/elements/inputs" },
     { label: "Radio buttons", path: "/elements/radio-buttons" },
     { label: "Forms", path: "/elements/forms" },
-    { label: "Patterns", path: "/elements/patterns" },
+    { label: "Patterns", path: "/elements/patterns", active: true },
 ];
 
-export default function Cards() {
+export default function Patterns() {
     return (
         <div className="all-page">
             <Header />
+
             <div className="all-layout">
                 <aside className="sidebar">
                     {sidebarItems.map((item) => (
@@ -31,16 +32,20 @@ export default function Cards() {
                             {item.label}
                         </a>
                     ))}
-                </aside> 
+                </aside>
+
                 <main className="all-main">
                     <div className="all-header">
-                        <h1>Cards</h1>
-                        <p>Open-Source cards made with CSS or Tailwind</p>
+                        <h1>Patterns</h1>
+                        <p>Open-Source CSS background patterns</p>
                     </div>
+
                     <div className="all-grid">
-                        {cards.map((item) => (
+                        {patterns.map((item) => (
                             <div key={item.id} className="all-card">
-                                <div className="all-card-preview">{item.preview}</div>
+                                <div className="all-card-preview">
+                                    {item.preview}
+                                </div>
                                 <div className="all-card-footer">
                                     <span className="all-card-name">{item.name}</span>
                                 </div>

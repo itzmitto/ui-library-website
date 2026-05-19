@@ -523,7 +523,7 @@ export const cards = [
     },
     {
         id: 116, name: "Dark Neumorphism", preview: (
-            <div className="card-116"></div>
+            <div className="card-116"></div> 
         )
     },
     {
