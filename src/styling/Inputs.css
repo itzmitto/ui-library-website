@@ -329,3 +329,101 @@
 .ip-181-rating label:hover~label::before {
     color: #ffd700;
 }
+
+.ip-182-container {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: text;
+    padding-left: 15px;
+}
+
+.ip-182-input {
+    width: 170px;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+    caret-color: red;
+}
+
+.ip-182-label {
+    cursor: text;
+    padding: 0 12px;
+}
+
+/* =========================
+   INPUT 183
+========================= */
+
+.ip-183 {
+  width: 240px;
+  padding: 12px 16px;
+  border: 1px solid #d4d4d8;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.ip-183:focus {
+  border-color: #2563eb;
+}
+
+
+/* =========================
+   INPUT 184
+========================= */
+
+.ip-184 {
+  width: 240px;
+  padding: 12px 16px;
+  background: #111827;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.ip-184::placeholder {
+  color: #9ca3af;
+}
+
+
+/* =========================
+   INPUT 185
+========================= */
+
+.ip-185 {
+  width: 240px;
+  padding: 12px 16px;
+  border: 2px solid #e4e4e7;
+  border-radius: 999px;
+  outline: none;
+}
+
+.ip-185:focus {
+  border-color: #0f172a;
+}
+
+
+/* =========================
+   INPUT 186
+========================= */
+
+.ip-186 {
+  width: 240px;
+  padding: 12px 0;
+  border: none;
+  border-bottom: 2px solid #d4d4d8;
+  outline: none;
+  background: transparent;
+}
+
+.ip-186:focus {
+  border-bottom-color: #3b82f6;
+}
+

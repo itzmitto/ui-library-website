@@ -31,7 +31,7 @@ export default function Cards() {
                             {item.label}
                         </a>
                     ))}
-                </aside>
+                </aside> 
                 <main className="all-main">
                     <div className="all-header">
                         <h1>Cards</h1>
