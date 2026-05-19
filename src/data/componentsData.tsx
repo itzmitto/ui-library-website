@@ -884,8 +884,28 @@ export const inputs = [
             </div>),
     },
     { id: 180, name: "input", preview: <input className="ip-180" type="text" placeholder="Type something..." /> },
-    { id: 181, name: "input", preview: <input className="ip-181" type="text" placeholder="Type something..." /> },
-    { id: 182, name: "input", preview: <input className="ip-182" type="text" placeholder="Type something..." /> },
+    {
+        id: 181,
+        name: "rating",
+        preview: (
+            <div className="ip-181-rating">
+                <input type="radio" id="ip181-star5" name="ip181-rating" />
+                <label htmlFor="ip181-star5"></label>
+
+                <input type="radio" id="ip181-star4" name="ip181-rating" />
+                <label htmlFor="ip181-star4"></label>
+
+                <input type="radio" id="ip181-star3" name="ip181-rating" />
+                <label htmlFor="ip181-star3"></label>
+
+                <input type="radio" id="ip181-star2" name="ip181-rating" />
+                <label htmlFor="ip181-star2"></label>
+
+                <input type="radio" id="ip181-star1" name="ip181-rating" />
+                <label htmlFor="ip181-star1"></label>
+            </div>
+        ),
+    }, { id: 182, name: "input", preview: <input className="ip-182" type="text" placeholder="Type something..." /> },
     { id: 183, name: "input", preview: <input className="ip-183" type="text" placeholder="Type something..." /> },
     { id: 184, name: "input", preview: <input className="ip-184" type="text" placeholder="Type something..." /> },
     { id: 185, name: "input", preview: <input className="ip-185" type="text" placeholder="Type something..." /> },

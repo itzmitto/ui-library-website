@@ -284,3 +284,48 @@
         opacity: 1;
     }
 }
+
+.ip-180 {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 28px;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 280px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.ip-180::placeholder {
+    color: grey;
+}
+
+.ip-180:focus {
+    border-color: #5e0aee;
+}
+
+.ip-181-rating {
+    display: inline-block;
+}
+
+.ip-181-rating input {
+    display: none;
+}
+
+.ip-181-rating label {
+    float: right;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.ip-181-rating label::before {
+    content: "\2605";
+    font-size: 32px;
+    color: #d4d4d8;
+}
+
+.ip-181-rating input:checked~label::before,
+.ip-181-rating label:hover::before,
+.ip-181-rating label:hover~label::before {
+    color: #ffd700;
+}
