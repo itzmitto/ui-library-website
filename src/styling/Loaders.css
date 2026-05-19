@@ -71,6 +71,202 @@
     }
 }
 
+/* ld-141 - Spinning ring */
 .ld-141 {
-    background-color: red;
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-top-color: #7c3aed;
+    border-radius: 50%;
+    animation: ld-spin 0.8s linear infinite;
+}
+
+/* ld-142 - Dual ring */
+.ld-142 {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #4f46e5;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    animation: ld-spin 0.8s linear infinite;
+}
+
+/* ld-143 - Pulsing dot */
+.ld-143 {
+    width: 20px;
+    height: 20px;
+    background: #7c3aed;
+    border-radius: 50%;
+    animation: ld-pulse 1s ease-in-out infinite;
+}
+
+/* ld-144 - Three dots bouncing */
+.ld-144 {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.ld-144::before,
+.ld-144::after,
+.ld-144 {
+    content: "";
+}
+
+.ld-144-wrap {
+    display: flex;
+    gap: 6px;
+}
+
+/* use spans inside for dots - handled below with box-shadow trick */
+.ld-144 {
+    width: 10px;
+    height: 10px;
+    background: #7c3aed;
+    border-radius: 50%;
+    box-shadow: 20px 0 0 #6366f1, 40px 0 0 #a855f7;
+    animation: ld-dots 0.6s ease-in-out infinite alternate;
+}
+
+/* ld-145 - Progress bar */
+.ld-145 {
+    width: 160px;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ld-145::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40%;
+    background: linear-gradient(90deg, #7c3aed, #a855f7);
+    border-radius: 999px;
+    animation: ld-progress 1.4s ease-in-out infinite;
+}
+
+/* ld-146 - Skeleton block */
+.ld-146 {
+    width: 160px;
+    height: 16px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    border-radius: 4px;
+    animation: ld-shimmer 1.5s infinite;
+}
+
+/* ld-147 - Spinning square */
+.ld-147 {
+    width: 30px;
+    height: 30px;
+    background: #7c3aed;
+    border-radius: 4px;
+    animation: ld-spin 0.8s ease-in-out infinite;
+}
+
+/* ld-148 - Ripple */
+.ld-148 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #7c3aed;
+    animation: ld-ripple 1s ease-out infinite;
+}
+
+/* ld-149 - Bouncing ball */
+.ld-149 {
+    width: 20px;
+    height: 20px;
+    background: #a855f7;
+    border-radius: 50%;
+    animation: ld-bounce 0.6s ease-in-out infinite alternate;
+}
+
+/* ld-150 - Circular dash */
+.ld-150 {
+    width: 40px;
+    height: 40px;
+    border: 4px dashed #6366f1;
+    border-radius: 50%;
+    animation: ld-spin 1.2s linear infinite;
+}
+
+/* ld-151 - Gradient ring */
+.ld-151 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: conic-gradient(#7c3aed, #a855f7, transparent);
+    animation: ld-spin 0.8s linear infinite;
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 4px), black calc(100% - 4px));
+    mask: radial-gradient(farthest-side, transparent calc(100% - 4px), black calc(100% - 4px));
+}
+
+/* ld-152 - Flashing dots */
+.ld-152 {
+    width: 10px;
+    height: 10px;
+    background: #7c3aed;
+    border-radius: 50%;
+    box-shadow: 20px 0 0 #6366f1, 40px 0 0 #a855f7;
+    animation: ld-flash 1s ease-in-out infinite;
+}
+
+/* ld-153 - Growing bar */
+.ld-153 {
+    width: 6px;
+    height: 40px;
+    background: #7c3aed;
+    border-radius: 999px;
+    box-shadow: 12px 0 0 #6366f1, 24px 0 0 #a855f7;
+    animation: ld-bars 0.6s ease-in-out infinite alternate;
+}
+
+/* ── Keyframes ── */
+@keyframes ld-spin {
+    to { transform: rotate(360deg); }
+}
+
+@keyframes ld-pulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.4); opacity: 0.5; }
+}
+
+@keyframes ld-dots {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-8px); }
+}
+
+@keyframes ld-progress {
+    0% { left: -40%; width: 40%; }
+    60% { left: 100%; width: 40%; }
+    100% { left: 100%; width: 40%; }
+}
+
+@keyframes ld-shimmer {
+    to { background-position: -200% 0; }
+}
+
+@keyframes ld-ripple {
+    0% { transform: scale(0.8); opacity: 1; }
+    100% { transform: scale(1.6); opacity: 0; }
+}
+
+@keyframes ld-bounce {
+    to { transform: translateY(-16px); }
+}
+
+@keyframes ld-flash {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.2; }
+}
+
+@keyframes ld-bars {
+    0% { transform: scaleY(0.4); }
+    100% { transform: scaleY(1); }
 }

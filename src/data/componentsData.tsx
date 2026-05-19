@@ -594,9 +594,7 @@ export const loaders = [
     { id: 9, name: "Spinner Loader", preview: <div className="prev-spinner" /> },
     { id: 10, name: "Dots Loader", preview: <div className="prev-dots"><span /><span /><span /></div> },
     {
-        id: 11, name: "Progress Bar", preview: (
-            <div className="prev-progress-wrap"><div className="prev-progress-bar" /></div>
-        )
+        id: 11, name: "Progress Bar", preview: (<div className="prev-progress-wrap"><div className="prev-progress-bar" /></div>)
     },
     { id: 141, name: "Loader", preview: <div className="ld-141" /> },
     { id: 142, name: "Loader", preview: <div className="ld-142" /> },
@@ -609,8 +607,8 @@ export const loaders = [
     { id: 149, name: "Loader", preview: <div className="ld-149" /> },
     { id: 150, name: "Loader", preview: <div className="ld-150" /> },
     { id: 151, name: "Loader", preview: <div className="ld-151" /> },
-    { id: 152, name: "Loader", preview: <div className="ld-152" /> },
-    { id: 153, name: "Loader", preview: <div className="ld-153" /> },
+    { id: 152, name: "Loader", preview: <div style={{ marginLeft: "20px" }}><div className="ld-152" /></div> },
+    { id: 153, name: "Loader", preview: <div style={{ marginLeft: "12px" }}><div className="ld-153" /></div> },
 
 ];
 
