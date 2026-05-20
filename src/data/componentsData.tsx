@@ -1208,23 +1208,143 @@ export const forms = [
         )
     },
     {
-    id: 217,
-    name: "forms",
-    preview: (
-        <div className="fm-217">
-            <SpotifyLogin />
-        </div>
-    )
-},
-    {
-        id: 218, name: "forms", preview: (
-            <div className="fm-218">?
+        id: 217, name: "Minimal Login", preview: (
+            <div className="fm-217">
+                <div className="fm-217__logo">A</div>
+                <div className="fm-217__title">Welcome back</div>
+                <div className="fm-217__sub">Sign in to your account</div>
+                <input className="fm-217__input" type="email" placeholder="Email" />
+                <input className="fm-217__input" type="password" placeholder="Password" />
+                <button className="fm-217__btn">Sign in</button>
+                <div className="fm-217__footer">No account? <span>Sign up</span></div>
             </div>
         )
     },
     {
-        id: 219, name: "forms", preview: (
-            <div className="fm-219">?
+        id: 218, name: "Dark Login", preview: (
+            <div className="fm-218">
+                <div className="fm-218__title">Sign in</div>
+                <div className="fm-218__sub">Enter your credentials to continue</div>
+                <div className="fm-218__field">
+                    <label>Email</label>
+                    <input type="email" placeholder="you@example.com" />
+                </div>
+                <div className="fm-218__field">
+                    <label>Password</label>
+                    <input type="password" placeholder="••••••••" />
+                </div>
+                <div className="fm-218__row">
+                    <label className="fm-218__check">
+                        <input type="checkbox" />
+                        <span>Remember me</span>
+                    </label>
+                    <a href="#">Forgot?</a>
+                </div>
+                <button className="fm-218__btn">Continue</button>
+            </div>
+        )
+    },
+    {
+        id: 219, name: "Glass Login", preview: (
+            <div className="fm-219">
+                <div className="fm-219__inner">
+                    <div className="fm-219__title">Login</div>
+                    <div className="fm-219__field">
+                        <input className="fm-219__input" type="email" placeholder="Email" />
+                    </div>
+                    <div className="fm-219__field">
+                        <input className="fm-219__input" type="password" placeholder="Password" />
+                    </div>
+                    <button className="fm-219__btn">Log in</button>
+                    <div className="fm-219__footer">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 220, name: "Gradient Login", preview: (
+            <div className="fm-220">
+                <div className="fm-220__left">
+                    <div className="fm-220__brand">MyApp</div>
+                    <div className="fm-220__tagline">Good to see you again</div>
+                </div>
+                <div className="fm-220__right">
+                    <div className="fm-220__title">Sign in</div>
+                    <input className="fm-220__input" type="email" placeholder="Email" />
+                    <input className="fm-220__input" type="password" placeholder="Password" />
+                    <button className="fm-220__btn">Sign in</button>
+                    <div className="fm-220__footer">No account? <span>Register</span></div>
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 221, name: "Microsoft Login", preview: (
+            <div className="fm-221">
+                <p className="fm-221__title">Sign in</p>
+                <input className="fm-221__email" placeholder="E-mail, phone, or Skype" type="text" />
+                <p className="fm-221__text"><a href="#">No account? Create one!</a></p>
+                <p className="fm-221__text"><a href="#">Can't access your account?</a></p>
+                <div className="fm-221__row">
+                    <button className="fm-221__btn fm-221__btn--secondary">Back</button>
+                    <button className="fm-221__btn fm-221__btn--primary">Next</button>
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 222, name: "forms", preview: (
+            <div className="fm-222">?
+            </div>
+        )
+    },
+    {
+        id: 223, name: "forms", preview: (
+            <div className="fm-223">?
+            </div>
+        )
+    },
+    {
+        id: 224, name: "forms", preview: (
+            <div className="fm-224">?
+            </div>
+        )
+    },
+    {
+        id: 225, name: "forms", preview: (
+            <div className="fm-225">?
+            </div>
+        )
+    },
+    {
+        id: 226, name: "forms", preview: (
+            <div className="fm-226">?
+            </div>
+        )
+    },
+    {
+        id: 227, name: "forms", preview: (
+            <div className="fm-227">?
+            </div>
+        )
+    },
+    {
+        id: 228, name: "forms", preview: (
+            <div className="fm-228">?
+            </div>
+        )
+    },
+    {
+        id: 229, name: "forms", preview: (
+            <div className="fm-229">?
+            </div>
+        )
+    },
+    {
+        id: 230, name: "forms", preview: (
+            <div className="fm-230">?
             </div>
         )
     },
@@ -1232,28 +1352,28 @@ export const forms = [
 
 export const patterns = [
     {
-        id: 220, name: "patterns", preview: (
-            <div className="pt-220">?</div>
+        id: 231, name: "patterns", preview: (
+            <div className="pt-231">?</div>
         )
     },
     {
-        id: 221, name: "patterns", preview: (
-            <div className="pt-221">?</div>
+        id: 232, name: "patterns", preview: (
+            <div className="pt-232">?</div>
         )
     },
     {
-        id: 222, name: "patterns", preview: (
-            <div className="pt-222">?</div>
+        id: 233, name: "patterns", preview: (
+            <div className="pt-233">?</div>
         )
     },
     {
-        id: 223, name: "patterns", preview: (
-            <div className="pt-223">?</div>
+        id: 234, name: "patterns", preview: (
+            <div className="pt-234">?</div>
         )
     },
     {
-        id: 224, name: "patterns", preview: (
-            <div className="pt-224">?</div>
+        id: 235, name: "patterns", preview: (
+            <div className="pt-235">?</div>
         )
     },
 ];
