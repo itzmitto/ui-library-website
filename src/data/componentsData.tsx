@@ -1047,6 +1047,31 @@ export const radiobuttons = [
             </div>
         )
     },
+    {
+        id: 206, name: "radiobuttons", preview: (
+            <div className="rb-206-group">
+            </div>
+        )
+    },
+    {
+        id: 207, name: "radiobuttons", preview: (
+            <div className="rb-207-group">
+            </div>
+        )
+    },
+    {
+        id: 208, name: "radiobuttons", preview: (
+            <div className="rb-208-group">
+            </div>
+        )
+    },
+    {
+        id: 209, name: "radiobuttons", preview: (
+            <div className="rb-209-group">
+            </div>
+        )
+    },
+
 ];
 
 export const forms = [
@@ -1295,56 +1320,125 @@ export const forms = [
         )
     },
     {
-        id: 222, name: "forms", preview: (
-            <div className="fm-222">?
+        id: 222, name: "Contact Form", preview: (
+            <div className="fm-222">
+                <div className="fm-222__title">Contact us</div>
+                <div className="fm-222__sub">We'll get back to you within 24 hours.</div>
+                <input className="fm-222__input" type="text" placeholder="Full name" />
+                <input className="fm-222__input" type="email" placeholder="Email" />
+                <textarea className="fm-222__textarea" placeholder="Your message"></textarea>
+                <button className="fm-222__btn">Send message</button>
             </div>
         )
     },
     {
-        id: 223, name: "forms", preview: (
-            <div className="fm-223">?
+        id: 223, name: "Reset Password", preview: (
+            <div className="fm-223">
+                <div className="fm-223__title">Reset password</div>
+                <div className="fm-223__sub">Enter your email to receive a reset link.</div>
+                <input className="fm-223__input" type="email" placeholder="Email address" />
+                <button className="fm-223__btn">Send reset link</button>
+                <div className="fm-223__back"><a href="#">Back to sign in</a></div>
             </div>
         )
     },
     {
-        id: 224, name: "forms", preview: (
-            <div className="fm-224">?
+        id: 224, name: "Subscribe Form", preview: (
+            <div className="fm-224">
+                <div className="fm-224__title">Stay in the loop</div>
+                <div className="fm-224__sub">Get the latest updates in your inbox.</div>
+                <div className="fm-224__row">
+                    <input className="fm-224__input" type="email" placeholder="Enter your email" />
+                    <button className="fm-224__btn">Subscribe</button>
+                </div>
+                <div className="fm-224__note">No spam, unsubscribe at any time.</div>
             </div>
         )
     },
     {
-        id: 225, name: "forms", preview: (
-            <div className="fm-225">?
+        id: 225, name: "Two Factor", preview: (
+            <div className="fm-225">
+                <div className="fm-225__title">Two-step verification</div>
+                <div className="fm-225__sub">Enter the 6-digit code sent to your phone.</div>
+                <div className="fm-225__inputs">
+                    <input className="fm-225__box" type="text" maxLength={1} />
+                    <input className="fm-225__box" type="text" maxLength={1} />
+                    <input className="fm-225__box" type="text" maxLength={1} />
+                    <input className="fm-225__box" type="text" maxLength={1} />
+                    <input className="fm-225__box" type="text" maxLength={1} />
+                    <input className="fm-225__box" type="text" maxLength={1} />
+                </div>
+                <button className="fm-225__btn">Verify</button>
+                <div className="fm-225__resend"><a href="#">Resend code</a></div>
             </div>
         )
     },
     {
-        id: 226, name: "forms", preview: (
-            <div className="fm-226">?
+        id: 226, name: "Checkout Form", preview: (
+            <div className="fm-226">
+                <div className="fm-226__title">Payment</div>
+                <input className="fm-226__input" type="text" placeholder="Cardholder name" />
+                <input className="fm-226__input" type="text" placeholder="Card number" />
+                <div className="fm-226__row">
+                    <input className="fm-226__input fm-226__input--half" type="text" placeholder="MM / YY" />
+                    <input className="fm-226__input fm-226__input--half" type="text" placeholder="CVC" />
+                </div>
+                <button className="fm-226__btn">Pay now</button>
             </div>
         )
     },
     {
-        id: 227, name: "forms", preview: (
-            <div className="fm-227">?
+        id: 227, name: "Profile Form", preview: (
+            <div className="fm-227">
+                <div className="fm-227__title">Edit profile</div>
+                <div className="fm-227__avatar">JD</div>
+                <input className="fm-227__input" type="text" placeholder="Full name" />
+                <input className="fm-227__input" type="email" placeholder="Email" />
+                <input className="fm-227__input" type="text" placeholder="Username" />
+                <button className="fm-227__btn">Save changes</button>
             </div>
         )
     },
     {
-        id: 228, name: "forms", preview: (
-            <div className="fm-228">?
+        id: 228, name: "Search Form", preview: (
+            <div className="fm-228">
+                <div className="fm-228__title">Search</div>
+                <div className="fm-228__wrap">
+                    <input className="fm-228__input" type="text" placeholder="Search for anything..." />
+                    <button className="fm-228__btn">Search</button>
+                </div>
+                <div className="fm-228__tags">
+                    <span>Design</span>
+                    <span>React</span>
+                    <span>CSS</span>
+                    <span>UI</span>
+                </div>
             </div>
         )
     },
     {
-        id: 229, name: "forms", preview: (
-            <div className="fm-229">?
+        id: 229, name: "Feedback Form", preview: (
+            <div className="fm-229">
+                <div className="fm-229__title">Leave feedback</div>
+                <div className="fm-229__stars">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+                <textarea className="fm-229__textarea" placeholder="Tell us what you think..."></textarea>
+                <button className="fm-229__btn">Submit</button>
             </div>
         )
     },
     {
-        id: 230, name: "forms", preview: (
-            <div className="fm-230">?
+        id: 230, name: "Delete Account", preview: (
+            <div className="fm-230">
+                <div className="fm-230__title">Delete account</div>
+                <div className="fm-230__sub">This action is permanent and cannot be undone.</div>
+                <input className="fm-230__input" type="password" placeholder="Enter your password" />
+                <div className="fm-230__check">
+                    <input type="checkbox" id="fm230-confirm" />
+                    <label htmlFor="fm230-confirm">I understand this is permanent</label>
+                </div>
+                <button className="fm-230__btn">Delete my account</button>
             </div>
         )
     },
