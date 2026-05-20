@@ -1114,14 +1114,94 @@ export const forms = [
         )
     },
     {
-        id: 213, name: "forms", preview: (
-            <div className="fm-213">?
+        id: 213, name: "Flip Login Form", preview: (
+            <div className="fm-213">
+                <label className="fm-213__switch">
+                    <input type="checkbox" className="fm-213__toggle" />
+                    <span className="fm-213__slider"></span>
+                    <span className="fm-213__card-side"></span>
+                    <div className="fm-213__inner">
+                        <div className="fm-213__front">
+                            <div className="fm-213__title">Log in</div>
+                            <div className="fm-213__form">
+                                <input className="fm-213__input" placeholder="Email" type="email" />
+                                <input className="fm-213__input" placeholder="Password" type="password" />
+                                <button className="fm-213__btn">Let's go!</button>
+                            </div>
+                        </div>
+                        <div className="fm-213__back">
+                            <div className="fm-213__title">Sign up</div>
+                            <div className="fm-213__form">
+                                <input className="fm-213__input" placeholder="Name" type="text" />
+                                <input className="fm-213__input" placeholder="Email" type="email" />
+                                <input className="fm-213__input" placeholder="Password" type="password" />
+                                <button className="fm-213__btn">Confirm!</button>
+                            </div>
+                        </div>
+                    </div>
+                </label>
             </div>
         )
     },
     {
-        id: 214, name: "forms", preview: (
-            <div className="fm-214">?
+        id: 214, name: "OAuth Form", preview: (
+            <div className="fm-214">
+                <p className="fm-214__title">
+                    Welcome,
+                    <span>sign in to continue</span>
+                </p>
+                <button className="fm-214__oauth">Continue with Google</button>
+                <button className="fm-214__oauth">Continue with Github</button>
+                <div className="fm-214__separator">
+                    <div></div>
+                    <span>OR</span>
+                    <div></div>
+                </div>
+                <input className="fm-214__input" type="email" placeholder="Email" />
+                <button className="fm-214__oauth">Continue</button>
+            </div>
+        )
+    },
+    {
+        id: 215, name: "Sign Up Form", preview: (
+            <div className="fm-215__box">
+                <div className="fm-215__form">
+                    <span className="fm-215__title">Sign up</span>
+                    <span className="fm-215__subtitle">Create a free account with your email.</span>
+                    <div fclassName="fm-215__container">
+                        <input type="text" className="fm-215__input" placeholder="Full Name" />
+                        <input type="email" className="fm-215__input" placeholder="Email" />
+                        <input type="password" className="fm-215__input" placeholder="Password" />
+                    </div>
+                    <button className="fm-215__btn">Sign up</button>
+                </div>
+                <div className="fm-215__section">
+                    <p>Have an account? <a href="#">Log in</a></p>
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 216, name: "forms", preview: (
+            <div className="fm-216">?
+            </div>
+        )
+    },
+    {
+        id: 217, name: "forms", preview: (
+            <div className="fm-217">?
+            </div>
+        )
+    },
+    {
+        id: 218, name: "forms", preview: (
+            <div className="fm-218">?
+            </div>
+        )
+    },
+    {
+        id: 219, name: "forms", preview: (
+            <div className="fm-219">?
             </div>
         )
     },
