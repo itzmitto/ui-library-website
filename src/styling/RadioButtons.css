@@ -241,3 +241,56 @@
     color: rgb(202, 226, 253);
     text-shadow: 0px 0px 12px #cae2fd;
 }
+
+.sb-205-input {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    background-color: #0d1117;
+    border-radius: 5px;
+}
+
+.sb-205-value {
+    position: relative;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.sb-205-value:hover:not(:active),
+.sb-205-value:focus {
+    background-color: #21262c;
+}
+
+.sb-205-value:focus,
+.sb-205-value:active {
+    outline: none;
+    background-color: #1a1f24;
+}
+
+.sb-205-value::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    opacity: 0;
+    border-radius: 5px;
+    background-color: #2f81f7;
+}
+
+.sb-205-value:focus::before,
+.sb-205-value:active::before {
+    opacity: 1;
+}
+
+.sb-205-value svg {
+    width: 15px;
+}
