@@ -779,3 +779,178 @@
         0 0 18px rgba(160, 216, 255, 0.5),
         0 0 10px rgba(200, 240, 255, 0.4) inset;
 }
+
+.rb-209-radio-input {
+    width: 210px;
+    height: 210px;
+    background-color: #000;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 6px;
+    gap: 4px;
+    position: relative;
+    z-index: 1;
+}
+
+.rb-209-radio-input input {
+    display: none;
+}
+
+.rb-209-label {
+    background: linear-gradient(to bottom, #333333, rgb(36, 35, 35));
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-top: 1px solid #4e4d4d;
+    cursor: pointer;
+    transition:
+        all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.rb-209-label:has(input[type="radio"]:checked) {
+    box-shadow: 0 17px 5px 1px rgba(0, 0, 0, 0);
+    background: linear-gradient(to bottom, #1d1d1d, #1d1d1d);
+    border-top: none;
+}
+
+.rb-209-label::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    scale: 1.02;
+    border-radius: 25px;
+    background:
+        linear-gradient(to bottom,
+            transparent 10%,
+            transparent,
+            transparent 90%),
+        linear-gradient(to left,
+            transparent 10%,
+            transparent,
+            transparent 90%);
+    transition:
+        all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: -1;
+}
+
+.rb-209-label.rb-209-spring:has(input[type="radio"]:checked)::before {
+    background:
+        linear-gradient(to bottom,
+            transparent 10%,
+            #d88fa3,
+            transparent 90%),
+        linear-gradient(to left,
+            transparent 10%,
+            #d88fa3,
+            transparent 90%);
+}
+
+.rb-209-label.rb-209-summer:has(input[type="radio"]:checked)::before {
+    background:
+        linear-gradient(to bottom,
+            transparent 10%,
+            #e6b800,
+            transparent 90%),
+        linear-gradient(to left,
+            transparent 10%,
+            #e6b800,
+            transparent 90%);
+}
+
+.rb-209-label.rb-209-autumn:has(input[type="radio"]:checked)::before {
+    background:
+        linear-gradient(to bottom,
+            transparent 10%,
+            #c76b00,
+            transparent 90%),
+        linear-gradient(to left,
+            transparent 10%,
+            #c76b00,
+            transparent 90%);
+}
+
+.rb-209-label.rb-209-winter:has(input[type="radio"]:checked)::before {
+    background:
+        linear-gradient(to bottom,
+            transparent 10%,
+            #7fa8c4,
+            transparent 90%),
+        linear-gradient(to left,
+            transparent 10%,
+            #7fa8c4,
+            transparent 90%);
+}
+
+.rb-209-text {
+    color: #000;
+    font-size: 13px;
+    line-height: 12px;
+    padding: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.1s linear;
+    text-shadow:
+        -1px -1px 1px rgba(224, 224, 224, 0.1),
+        0 2px 3px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rb-209-label input[type="radio"]:checked+.rb-209-spring {
+    color: #ffc0cb;
+    text-shadow: 0 0 12px #d88fa3;
+}
+
+.rb-209-label input[type="radio"]:checked+.rb-209-summer {
+    color: #ffd700;
+    text-shadow: 0 0 12px #e6b800;
+}
+
+.rb-209-label input[type="radio"]:checked+.rb-209-autumn {
+    color: #ff8c00;
+    text-shadow: 0 0 12px #c76b00;
+}
+
+.rb-209-label input[type="radio"]:checked+.rb-209-winter {
+    color: #add8e6;
+    text-shadow: 0 0 12px #7fa8c4;
+}
+
+.rb-209-center {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background-color: #333333;
+    border-radius: 2px;
+    border: 1px solid #4e4d4d;
+    transition: all 0.1s ease;
+}
+
+.rb-209-radio-input:has(.rb-209-spring input:checked) .rb-209-center {
+    border-left: 1px solid #ffc0cbb2;
+    box-shadow: inset 11px 0 10px -12px #ffc0cbdc;
+}
+
+.rb-209-radio-input:has(.rb-209-summer input:checked) .rb-209-center {
+    border-top: 1px solid #ffd900d8;
+    box-shadow: inset 0 11px 10px -12px #ffd700;
+}
+
+.rb-209-radio-input:has(.rb-209-autumn input:checked) .rb-209-center {
+    border-bottom: 1px solid #ff8c00b2;
+    box-shadow: inset 0 -11px 10px -12px #ff8c00;
+}
+
+.rb-209-radio-input:has(.rb-209-winter input:checked) .rb-209-center {
+    border-right: 1px solid #add8e694;
+    box-shadow: inset -11px 0 10px -12px #add8e6;
+}
