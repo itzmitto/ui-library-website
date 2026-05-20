@@ -1051,14 +1051,48 @@ export const radiobuttons = [
 
 export const forms = [
     {
-        id: 210, name: "forms", preview: (
-            <div className="fm-210">?
+        id: 210,
+        name: "Login Form",
+        preview: (
+            <div className="fm-210">
+                <div className="fm-210__title">Sign in</div>
+                <div className="fm-210__field">
+                    <label className="fm-210__label">Email</label>
+                    <input className="fm-210__input" type="email" placeholder="you@example.com" />
+                </div>
+                <div className="fm-210__field">
+                    <label className="fm-210__label">Password</label>
+                    <input className="fm-210__input" type="password" placeholder="••••••••" />
+                </div>
+                <button className="fm-210__btn">Sign in</button>
+                <div className="fm-210__footer">Don't have an account? <span>Sign up</span></div>
             </div>
         )
     },
     {
-        id: 211, name: "forms", preview: (
-            <div className="fm-211">?
+        id: 211,
+        name: "Register Form",
+        preview: (
+            <div className="fm-211">
+                <div className="fm-211__title">Create account</div>
+                <div className="fm-211__field">
+                    <label className="fm-211__label">Username</label>
+                    <input className="fm-211__input" type="text" placeholder="johndoe" />
+                </div>
+                <div className="fm-211__field">
+                    <label className="fm-211__label">Email</label>
+                    <input className="fm-211__input" type="email" placeholder="you@example.com" />
+                </div>
+                <div className="fm-211__field">
+                    <label className="fm-211__label">Password</label>
+                    <input className="fm-211__input" type="password" placeholder="••••••••" />
+                </div>
+                <div className="fm-211__field">
+                    <label className="fm-211__label">Confirm password</label>
+                    <input className="fm-211__input" type="password" placeholder="••••••••" />
+                </div>
+                <button className="fm-211__btn">Create account</button>
+                <div className="fm-211__footer">Already have an account? <span>Sign in</span></div>
             </div>
         )
     },

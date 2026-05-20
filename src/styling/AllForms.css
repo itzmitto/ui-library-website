@@ -1,0 +1,103 @@
+.allpage { 
+    background: #09090b;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.alllayout {
+    display: flex;
+    padding-top: 56px;
+    min-height: 100vh;
+}
+
+.side-bar {
+    width: 200px;
+    padding: 24px 12px;
+    border-right: 1px solid rgba(255, 255, 255, 0.06);
+    position: sticky;
+    top: 56px;
+    height: calc(100vh - 56px);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex-shrink: 0;
+}
+
+.sidebaritem {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background 0.15s, color 0.15s;
+}
+
+.sidebaritem:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+}
+
+.sidebaritem--active {
+    background: rgba(255, 255, 255, 0.07);
+    color: #fff;
+    font-weight: 500;
+}
+
+.allmain {
+    flex: 1;
+    padding: 32px 40px;
+    overflow-y: auto;
+}
+
+.allheader {
+    margin-bottom: 28px;
+}
+
+.allheader h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.allheader p {
+    color: #71717a;
+    font-size: 14px;
+}
+
+.allgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 12px;
+}
+
+.allcard {
+    background: #111113;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: border-color 0.2s;
+}
+
+.allcard:hover {
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.allcard-preview {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0d0d0f;
+    padding: 20px;
+}
+
+.allcard-footer {
+    padding: 10px 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.allcard-name {
+    font-size: 13px;
+    color: #a1a1aa;
+}

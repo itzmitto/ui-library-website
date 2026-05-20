@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import { forms } from "../data/componentsData";
-import "./All.css";
+import "../styling/AllForms.css";
 import "../styling/Forms.css";
 
 const sidebarItems = [
@@ -18,10 +18,10 @@ const sidebarItems = [
 
 export default function Forms() {
     return (
-        <div className="all-page">
+        <div className="allpage">
             <Header />
-            <div className="all-layout">
-                <aside className="sidebar">
+            <div className="alllayout">
+                <aside className="side-bar">
                     {sidebarItems.map((item) => (
                         <a
                             key={item.path}
@@ -32,17 +32,17 @@ export default function Forms() {
                         </a>
                     ))}
                 </aside>
-                <main className="all-main">
-                    <div className="all-header">
+                <main className="allmain">
+                    <div className="allheader">
                         <h1>Forms</h1>
                         <p>Open-Source forms made with CSS or Tailwind</p>
                     </div>
-                    <div className="all-grid">
+                    <div className="allgrid">
                         {forms.map((item) => (
-                            <div key={item.id} className="all-card">
-                                <div className="all-card-preview">{item.preview}</div>
-                                <div className="all-card-footer">
-                                    <span className="all-card-name">{item.name}</span>
+                            <div key={item.id} className="allcard">
+                                <div className="allcard-preview">{item.preview}</div>
+                                <div className="allcard-footer">
+                                    <span className="allcard-name">{item.name}</span>
                                 </div>
                             </div>
                         ))}
