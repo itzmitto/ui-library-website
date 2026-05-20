@@ -1097,8 +1097,19 @@ export const forms = [
         )
     },
     {
-        id: 212, name: "forms", preview: (
-            <div className="fm-212">?
+        id: 212, name: "Login Form", preview: (
+            <div className="fm-212">
+                <span className="fm-212__input-span">
+                    <label className="fm-212__label">Email</label>
+                    <input className="fm-212__input" type="email" placeholder="you@example.com" />
+                </span>
+                <span className="fm-212__input-span">
+                    <label className="fm-212__label">Password</label>
+                    <input className="fm-212__input" type="password" placeholder="••••••••" />
+                </span>
+                <span className="fm-212__span"><a href="#">Forgot password?</a></span>
+                <button className="fm-212__submit">Log in</button>
+                <span className="fm-212__span">Don't have an account? <a href="#">Sign up</a></span>
             </div>
         )
     },
