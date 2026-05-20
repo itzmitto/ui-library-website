@@ -657,9 +657,9 @@ export const cards = [
     {
         id: 127, name: "Card-127", preview: (
             <div className="cd-127">
-                <div className="cd-127__avatar">JD</div>
+                <div className="cd-127__avatar">A</div>
                 <div className="cd-127__info">
-                    <div className="cd-127__name">John Doe</div>
+                    <div className="cd-127__name">Andre</div>
                     <div className="cd-127__role">Frontend Developer</div>
                 </div>
                 <div className="cd-127__stats">
@@ -1278,7 +1278,7 @@ export const forms = [
                 <div className="fm-211__title">Create account</div>
                 <div className="fm-211__field">
                     <label className="fm-211__label">Username</label>
-                    <input className="fm-211__input" type="text" placeholder="johndoe" />
+                    <input className="fm-211__input" type="text" placeholder="andre" />
                 </div>
                 <div className="fm-211__field">
                     <label className="fm-211__label">Email</label>
@@ -1567,7 +1567,7 @@ export const forms = [
         id: 227, name: "Profile Form", preview: (
             <div className="fm-227">
                 <div className="fm-227__title">Edit profile</div>
-                <div className="fm-227__avatar">JD</div>
+                <div className="fm-227__avatar">A</div>
                 <input className="fm-227__input" type="text" placeholder="Full name" />
                 <input className="fm-227__input" type="email" placeholder="Email" />
                 <input className="fm-227__input" type="text" placeholder="Username" />
