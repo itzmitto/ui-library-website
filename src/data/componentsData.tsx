@@ -1168,7 +1168,7 @@ export const forms = [
                 <div className="fm-215__form">
                     <span className="fm-215__title">Sign up</span>
                     <span className="fm-215__subtitle">Create a free account with your email.</span>
-                    <div fclassName="fm-215__container">
+                    <div className="fm-215__container">
                         <input type="text" className="fm-215__input" placeholder="Full Name" />
                         <input type="email" className="fm-215__input" placeholder="Email" />
                         <input type="password" className="fm-215__input" placeholder="Password" />
@@ -1182,17 +1182,40 @@ export const forms = [
         )
     },
     {
-        id: 216, name: "forms", preview: (
-            <div className="fm-216">?
+        id: 216, name: "Spotify Login Form", preview: (
+            <div className="fm-216">
+                <div className="fm-216__body">
+                    <div className="fm-216__welcome">
+                        <div className="fm-216__line1">Spotify</div>
+                        <div className="fm-216__line2">Welcome Back, André</div>
+                    </div>
+                    <div className="fm-216__inputs">
+                        <div className="fm-216__inp">
+                            <input placeholder="Email Address" type="text" />
+                        </div>
+                        <div className="fm-216__inp">
+                            <input placeholder="Password" type="password" />
+                        </div>
+                    </div>
+                    <div className="fm-216__submit-wrap">
+                        <button className="fm-216__submit">Login</button>
+                    </div>
+                    <div className="fm-216__forgot">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                </div>
             </div>
         )
     },
     {
-        id: 217, name: "forms", preview: (
-            <div className="fm-217">?
-            </div>
-        )
-    },
+    id: 217,
+    name: "forms",
+    preview: (
+        <div className="fm-217">
+            <SpotifyLogin />
+        </div>
+    )
+},
     {
         id: 218, name: "forms", preview: (
             <div className="fm-218">?
