@@ -920,7 +920,8 @@ export const inputs = [
                 <label className="ip-182-label"></label>
             </div>
         ),
-    }, { id: 183, name: "input", preview: <input className="ip-183" type="text" placeholder="Type something..." /> },
+    },
+    { id: 183, name: "input", preview: <input className="ip-183" type="text" placeholder="Type something..." /> },
     { id: 184, name: "input", preview: <input className="ip-184" type="text" placeholder="Type something..." /> },
     { id: 185, name: "input", preview: <input className="ip-185" type="text" placeholder="Type something..." /> },
     { id: 186, name: "input", preview: <input className="ip-186" type="text" placeholder="Type something..." /> },

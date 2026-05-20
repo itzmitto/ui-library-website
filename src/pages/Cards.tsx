@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import { cards } from "../data/componentsData";
 import "./All.css";
 import "../styling/Cards.css";
+
  
 const sidebarItems = [
     { label: "All", path: "/elements" },
