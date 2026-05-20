@@ -934,8 +934,19 @@ export const inputs = [
                 type="text"
                 placeholder="Type something..." />
         )
-    }, { id: 188, name: "input", preview: <input className="ip-188" type="text" placeholder="Type something..." /> },
-    { id: 189, name: "input", preview: <input className="ip-189" type="text" placeholder="Type something..." /> },
+    },
+    {
+        id: 188, name: "input", preview: (
+            <div className="ip-188-container">
+                <input
+                    className="ip-188"
+                    type="text"
+                    required />
+                <label>You'r name</label>
+                <i></i>
+            </div>
+        )
+    }, { id: 189, name: "input", preview: <input className="ip-189" type="text" placeholder="Type something..." /> },
     { id: 190, name: "input", preview: <input className="ip-190" type="text" placeholder="Type something..." /> },
     { id: 191, name: "input", preview: <input className="ip-191" type="text" placeholder="Type something..." /> },
     { id: 192, name: "input", preview: <input className="ip-192" type="text" placeholder="Type something..." /> },
