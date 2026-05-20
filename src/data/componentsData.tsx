@@ -979,24 +979,21 @@ export const radiobuttons = [
                             type="radio"
                             name="gender-radio-202"
                             value="women"
-                            defaultChecked
-                        />
+                            defaultChecked />
                         <span>Women</span>
                     </label>
                     <label>
                         <input
                             type="radio"
                             name="gender-radio-202"
-                            value="men"
-                        />
+                            value="men" />
                         <span>Men</span>
                     </label>
                     <label>
                         <input
                             type="radio"
                             name="gender-radio-202"
-                            value="divided"
-                        />
+                            value="divided" />
                         <span>Divided</span>
                     </label>
                 </div>
