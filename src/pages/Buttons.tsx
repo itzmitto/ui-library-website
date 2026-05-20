@@ -27,8 +27,7 @@ export default function Buttons() {
                         <a
                             key={item.path}
                             href={item.path}
-                            className={`sidebar-item ${item.active ? "sidebar-item--active" : ""}`}
-                        >
+                            className={`sidebar-item ${item.active ? "sidebar-item--active" : ""}`} >
                             {item.label}
                         </a>
                     ))}

@@ -1009,8 +1009,7 @@ export const radiobuttons = [
                         type="radio"
                         name="action-radio-203"
                         value="play"
-                        defaultChecked
-                    />
+                        defaultChecked />
                     <span className="text">Play</span>
                 </label>
 
@@ -1018,8 +1017,7 @@ export const radiobuttons = [
                     <input
                         type="radio"
                         name="action-radio-203"
-                        value="stop"
-                    />
+                        value="stop" />
                     <span className="text">Stop</span>
                 </label>
 
@@ -1027,8 +1025,7 @@ export const radiobuttons = [
                     <input
                         type="radio"
                         name="action-radio-203"
-                        value="reset"
-                    />
+                        value="reset" />
                     <span className="text">Reset</span>
                 </label>
             </div>
@@ -1042,7 +1039,7 @@ export const radiobuttons = [
                     <span className="rb-204-name">HTML</span>
                 </label>
                 <label className="rb-204-radio">
-                    <input type="radio" name="rb-204" /> 
+                    <input type="radio" name="rb-204" />
                     <span className="rb-204-name">React</span>
                 </label>
                 <label className="rb-204-radio">
@@ -1079,7 +1076,31 @@ export const radiobuttons = [
     },
     {
         id: 206, name: "radiobuttons", preview: (
-            <div className="rb-206-group">??????
+            <div className="rb-206-radio-input">
+                <label className="rb-206-label">
+                    <input
+                        type="radio"
+                        name="rb-206-role"
+                        value="designer"
+                        defaultChecked />
+                    <p className="rb-206-text">Designer</p>
+                </label>
+
+                <label className="rb-206-label">
+                    <input
+                        type="radio"
+                        name="rb-206-role"
+                        value="student" />
+                    <p className="rb-206-text">Student</p>
+                </label>
+
+                <label className="rb-206-label">
+                    <input
+                        type="radio"
+                        name="rb-206-role"
+                        value="teacher" />
+                    <p className="rb-206-text">Teacher</p>
+                </label>
             </div>
         )
     },
