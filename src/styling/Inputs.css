@@ -356,74 +356,221 @@
     padding: 0 12px;
 }
 
-/* =========================
-   INPUT 183
-========================= */
-
-.ip-183 {
-  width: 240px;
-  padding: 12px 16px;
-  border: 1px solid #d4d4d8;
-  border-radius: 8px;
-  outline: none;
-  font-size: 14px;
-}
-
-.ip-183:focus {
-  border-color: #2563eb;
-}
-
-
-/* =========================
-   INPUT 184
-========================= */
-
 .ip-184 {
-  width: 240px;
-  padding: 12px 16px;
-  background: #111827;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  outline: none;
+    width: 240px;
+    padding: 12px 16px;
+    background: #111827;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    outline: none;
 }
 
 .ip-184::placeholder {
-  color: #9ca3af;
+    color: #9ca3af;
 }
 
 
-/* =========================
-   INPUT 185
-========================= */
-
 .ip-185 {
-  width: 240px;
-  padding: 12px 16px;
-  border: 2px solid #e4e4e7;
-  border-radius: 999px;
-  outline: none;
+    width: 240px;
+    padding: 12px 16px;
+    border: 2px solid #e4e4e7;
+    border-radius: 999px;
+    outline: none;
 }
 
 .ip-185:focus {
-  border-color: #0f172a;
+    border-color: #0f172a;
 }
 
-
-/* =========================
-   INPUT 186
-========================= */
-
 .ip-186 {
-  width: 240px;
-  padding: 12px 0;
-  border: none;
-  border-bottom: 2px solid #d4d4d8;
-  outline: none;
-  background: transparent;
+    width: 240px;
+    padding: 12px 0;
+    border: none;
+    border-bottom: 2px solid #d4d4d8;
+    outline: none;
+    background: transparent;
 }
 
 .ip-186:focus {
-  border-bottom-color: #3b82f6;
+    border-bottom-color: #3b82f6;
 }
 
+.ip-183-container {
+    position: relative;
+    width: 100%;
+    max-width: 270px;
+}
+
+.ip-183 {
+    width: 100%;
+    height: 60px;
+    padding: 12px;
+    font-size: 18px;
+    font-family: "Courier New", monospace;
+    color: #000;
+    background-color: #fff;
+    border: 4px solid #000;
+    border-radius: 0;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 8px 8px 0 #000;
+}
+
+.ip-183::placeholder {
+    color: #888;
+}
+
+.ip-183:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 12px 12px 0 #000;
+}
+
+.ip-183:focus {
+    background-color: #010101;
+    color: #fff;
+    border-color: #d6d9dd;
+    animation: ip-183-shake 0.5s ease-in-out;
+}
+
+.ip-183:focus::placeholder {
+    color: #fff;
+}
+
+.ip-183:not(:placeholder-shown) {
+    animation: ip-183-glitch 1s linear infinite;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0 0 0 #000;
+}
+
+.ip-183-container::after {
+    content: "|";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    animation: ip-183-blink 0.7s step-end infinite;
+    pointer-events: none;
+}
+
+.ip-183:focus~.ip-183-container::after {
+    color: #fff;
+}
+
+@keyframes ip-183-shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px) rotate(-5deg);
+    }
+
+    50% {
+        transform: translateX(5px) rotate(5deg);
+    }
+
+    75% {
+        transform: translateX(-5px) rotate(-5deg);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes ip-183-glitch {
+    0% {
+        transform: none;
+        opacity: 1;
+    }
+
+    7% {
+        transform: skew(-0.5deg, -0.9deg);
+        opacity: 0.75;
+    }
+
+    10% {
+        transform: none;
+        opacity: 1;
+    }
+
+    27% {
+        transform: none;
+        opacity: 1;
+    }
+
+    30% {
+        transform: skew(0.8deg, -0.1deg);
+        opacity: 0.75;
+    }
+
+    35% {
+        transform: none;
+        opacity: 1;
+    }
+
+    52% {
+        transform: none;
+        opacity: 1;
+    }
+
+    55% {
+        transform: skew(-1deg, 0.2deg);
+        opacity: 0.75;
+    }
+
+    72% {
+        transform: none;
+        opacity: 1;
+    }
+
+    75% {
+        transform: skew(0.4deg, 1deg);
+        opacity: 0.75;
+    }
+
+    80% {
+        transform: none;
+        opacity: 1;
+    }
+
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes ip-183-blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.ip-187 {
+    max-width: 190px;
+    height: 30px;
+    border: 2px solid transparent;
+    outline: none;
+    border-bottom: 2px solid #3f3f3f;
+    caret-color: #3f3f3f;
+    background-color: #212121;
+    padding: 5px;
+    transition: 0.5s linear;
+    font-family: monospace;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.ip-187:focus {
+    border: 2px solid tomato;
+    caret-color: tomato;
+    color: tomato;
+    box-shadow: 4px 4px 10px #070707;
+}
+
+.ip-187:focus::placeholder {
+    color: tomato;
+}

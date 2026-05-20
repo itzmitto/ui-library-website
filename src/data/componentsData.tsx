@@ -891,16 +891,12 @@ export const inputs = [
             <div className="ip-181-rating">
                 <input type="radio" id="ip181-star5" name="ip181-rating" />
                 <label htmlFor="ip181-star5"></label>
-
                 <input type="radio" id="ip181-star4" name="ip181-rating" />
                 <label htmlFor="ip181-star4"></label>
-
                 <input type="radio" id="ip181-star3" name="ip181-rating" />
                 <label htmlFor="ip181-star3"></label>
-
                 <input type="radio" id="ip181-star2" name="ip181-rating" />
                 <label htmlFor="ip181-star2"></label>
-
                 <input type="radio" id="ip181-star1" name="ip181-rating" />
                 <label htmlFor="ip181-star1"></label>
             </div>
@@ -914,19 +910,31 @@ export const inputs = [
                 <input
                     placeholder="Search"
                     className="ip-182-input"
-                    type="text"
-                />
-
+                    type="text" />
                 <label className="ip-182-label"></label>
             </div>
         ),
     },
-    { id: 183, name: "input", preview: <input className="ip-183" type="text" placeholder="Type something..." /> },
-    { id: 184, name: "input", preview: <input className="ip-184" type="text" placeholder="Type something..." /> },
+    {
+        id: 183, name: "input", preview: (
+            <div className="ip-183-container">
+                <input
+                    className="ip-183"
+                    type="text"
+                    placeholder="Search the internet..." />
+            </div>
+        )
+    }, { id: 184, name: "input", preview: <input className="ip-184" type="text" placeholder="Type something..." /> },
     { id: 185, name: "input", preview: <input className="ip-185" type="text" placeholder="Type something..." /> },
     { id: 186, name: "input", preview: <input className="ip-186" type="text" placeholder="Type something..." /> },
-    { id: 187, name: "input", preview: <input className="ip-187" type="text" placeholder="Type something..." /> },
-    { id: 188, name: "input", preview: <input className="ip-188" type="text" placeholder="Type something..." /> },
+    {
+        id: 187, name: "input", preview: (
+            <input
+                className="ip-187"
+                type="text"
+                placeholder="Type something..." />
+        )
+    }, { id: 188, name: "input", preview: <input className="ip-188" type="text" placeholder="Type something..." /> },
     { id: 189, name: "input", preview: <input className="ip-189" type="text" placeholder="Type something..." /> },
     { id: 190, name: "input", preview: <input className="ip-190" type="text" placeholder="Type something..." /> },
     { id: 191, name: "input", preview: <input className="ip-191" type="text" placeholder="Type something..." /> },
