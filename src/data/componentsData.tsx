@@ -1110,3 +1110,9 @@ export const patterns = [
 ];
 
 export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, ...loaders, ...inputs, ...radiobuttons, ...forms, ...patterns];
+
+
+
+
+
+
