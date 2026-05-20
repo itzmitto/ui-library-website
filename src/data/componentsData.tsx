@@ -1036,8 +1036,19 @@ export const radiobuttons = [
     },
     {
         id: 204, name: "radiobuttons", preview: (
-            <div className="rb-204-group">?????????
-
+            <div className="rb-204-radio-inputs">
+                <label className="rb-204-radio">
+                    <input type="radio" name="rb-204" defaultChecked />
+                    <span className="rb-204-name">HTML</span>
+                </label>
+                <label className="rb-204-radio">
+                    <input type="radio" name="rb-204" /> 
+                    <span className="rb-204-name">React</span>
+                </label>
+                <label className="rb-204-radio">
+                    <input type="radio" name="rb-204" />
+                    <span className="rb-204-name">Vue</span>
+                </label>
             </div>
         )
     },
