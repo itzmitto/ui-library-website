@@ -1618,6 +1618,200 @@ export const forms = [
             </div>
         )
     },
+    {
+        id: 231,
+        name: "Login Form",
+        preview: (
+            <div className="fm-231">
+                <p className="fm-231__heading">Login</p>
+                <div className="fm-231__input-container">
+                    <input placeholder="Username" className="fm-231__input" type="text" />
+                </div>
+                <div className="fm-231__input-container">
+                    <input placeholder="Password" className="fm-231__input" type="password" />
+                </div>
+                <button className="fm-231__btn">Submit</button>
+                <div className="fm-231__signup">
+                    <p>Don't have any account?</p>
+                    <a href="#">Sign up</a>
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 232, name: "Form", preview: (
+            <div className="fm-232">
+            </div>
+        )
+    },
+    {
+        id: 233, name: "Form", preview: (
+            <div className="fm-233">
+            </div>
+        )
+    },
+    {
+        id: 234, name: "Form", preview: (
+            <div className="fm-234">
+            </div>
+        )
+    },
+    {
+        id: 235, name: "Form", preview: (
+            <div className="fm-235">
+            </div>
+        )
+    },
+    {
+        id: 236, name: "Form", preview: (
+            <div className="fm-236">
+            </div>
+        )
+    },
+    {
+        id: 237, name: "Form", preview: (
+            <div className="fm-237">
+            </div>
+        )
+    },
+    {
+        id: 238, name: "Form", preview: (
+            <div className="fm-238">
+            </div>
+        )
+    },
+    {
+        id: 239, name: "Form", preview: (
+            <div className="fm-239">
+            </div>
+        )
+    },
+    {
+        id: 240, name: "Form", preview: (
+            <div className="fm-240">
+            </div>
+        )
+    },
+    {
+        id: 241, name: "Form", preview: (
+            <div className="fm-241">
+            </div>
+        )
+    },
+    {
+        id: 242, name: "Form", preview: (
+            <div className="fm-242">
+            </div>
+        )
+    },
+    {
+        id: 243, name: "Form", preview: (
+            <div className="fm-243">
+            </div>
+        )
+    },
+    {
+        id: 244, name: "Form", preview: (
+            <div className="fm-244">
+            </div>
+        )
+    },
+    {
+        id: 245, name: "Form", preview: (
+            <div className="fm-245">
+            </div>
+        )
+    },
+    {
+        id: 246, name: "Form", preview: (
+            <div className="fm-246">
+            </div>
+        )
+    },
+    {
+        id: 247, name: "Form", preview: (
+            <div className="fm-247">
+            </div>
+        )
+    },
+    {
+        id: 248, name: "Form", preview: (
+            <div className="fm-248">
+            </div>
+        )
+    },
+    {
+        id: 249, name: "Form", preview: (
+            <div className="fm-249">
+            </div>
+        )
+    },
+    {
+        id: 250, name: "Form", preview: (
+            <div className="fm-250">
+            </div>
+        )
+    },
+    {
+        id: 251, name: "Form", preview: (
+            <div className="fm-251">
+            </div>
+        )
+    },
+    {
+        id: 252, name: "Form", preview: (
+            <div className="fm-252">
+            </div>
+        )
+    },
+    {
+        id: 253, name: "Form", preview: (
+            <div className="fm-253">
+            </div>
+        )
+    },
+    {
+        id: 254, name: "Form", preview: (
+            <div className="fm-254">
+            </div>
+        )
+    },
+    {
+        id: 255, name: "Form", preview: (
+            <div className="fm-255">
+            </div>
+        )
+    },
+    {
+        id: 256, name: "Form", preview: (
+            <div className="fm-256">
+            </div>
+        )
+    },
+    {
+        id: 257, name: "Form", preview: (
+            <div className="fm-257">
+            </div>
+        )
+    },
+    {
+        id: 258, name: "Form", preview: (
+            <div className="fm-258">
+            </div>
+        )
+    },
+    {
+        id: 259, name: "Form", preview: (
+            <div className="fm-259">
+            </div>
+        )
+    },
+    {
+        id: 260, name: "Form", preview: (
+            <div className="fm-260">
+            </div>
+        )
+    }
 ];
 
 export const patterns = [
@@ -1645,7 +1839,7 @@ export const patterns = [
         id: 304, name: "patterns", preview: (
             <div className="pt-304">?</div>
         )
-    },
+    }
 ];
 
 export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, ...loaders, ...inputs, ...radiobuttons, ...forms, ...patterns];
