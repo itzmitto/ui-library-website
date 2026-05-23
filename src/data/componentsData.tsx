@@ -1681,68 +1681,157 @@ export const forms = [
         )
     },
     {
-        id: 234, name: "Form", preview: (
+        id: 234, name: "Sign In Form", preview: (
             <div className="fm-234">
+                <div className="fm-234__title">Sign in</div>
+                <input className="fm-234__input" type="email" placeholder="Email address" />
+                <input className="fm-234__input" type="password" placeholder="Password" />
+                <div className="fm-234__forgot"><a href="#">Forgot password?</a></div>
+                <button className="fm-234__btn">Sign in</button>
+                <div className="fm-234__footer">New here? <a href="#">Create account</a></div>
             </div>
         )
     },
     {
-        id: 235, name: "Form", preview: (
+        id: 235, name: "Register Form", preview: (
             <div className="fm-235">
+                <div className="fm-235__title">Create account</div>
+                <div className="fm-235__row">
+                    <input className="fm-235__input" type="text" placeholder="First name" />
+                    <input className="fm-235__input" type="text" placeholder="Last name" />
+                </div>
+                <input className="fm-235__input fm-235__input--full" type="email" placeholder="Email" />
+                <input className="fm-235__input fm-235__input--full" type="password" placeholder="Password" />
+                <button className="fm-235__btn">Register</button>
             </div>
         )
     },
     {
-        id: 236, name: "Form", preview: (
+        id: 236, name: "Contact Form", preview: (
             <div className="fm-236">
+                <div className="fm-236__title">Get in touch</div>
+                <input className="fm-236__input" type="text" placeholder="Your name" />
+                <input className="fm-236__input" type="email" placeholder="Email address" />
+                <input className="fm-236__input" type="text" placeholder="Subject" />
+                <textarea className="fm-236__textarea" placeholder="Your message"></textarea>
+                <button className="fm-236__btn">Send message</button>
             </div>
         )
     },
     {
-        id: 237, name: "Form", preview: (
+        id: 237, name: "Newsletter Form", preview: (
             <div className="fm-237">
+                <div className="fm-237__title">Newsletter</div>
+                <div className="fm-237__sub">Get weekly updates delivered to your inbox.</div>
+                <input className="fm-237__input" type="text" placeholder="Your name" />
+                <input className="fm-237__input" type="email" placeholder="Email address" />
+                <button className="fm-237__btn">Subscribe</button>
+                <div className="fm-237__note">Unsubscribe anytime.</div>
             </div>
         )
     },
     {
-        id: 238, name: "Form", preview: (
+        id: 238, name: "Forgot Password", preview: (
             <div className="fm-238">
+                <div className="fm-238__title">Forgot password</div>
+                <div className="fm-238__sub">Enter your email and we will send you a link to reset your password.</div>
+                <input className="fm-238__input" type="email" placeholder="Email address" />
+                <button className="fm-238__btn">Send link</button>
+                <div className="fm-238__footer"><a href="#">Back to login</a></div>
             </div>
         )
     },
     {
-        id: 239, name: "Form", preview: (
+        id: 239, name: "Checkout Form", preview: (
             <div className="fm-239">
+                <div className="fm-239__title">Checkout</div>
+                <input className="fm-239__input" type="text" placeholder="Full name" />
+                <input className="fm-239__input" type="text" placeholder="Address" />
+                <div className="fm-239__row">
+                    <input className="fm-239__input" type="text" placeholder="City" />
+                    <input className="fm-239__input" type="text" placeholder="ZIP" />
+                </div>
+                <input className="fm-239__input fm-239__input--full" type="text" placeholder="Card number" />
+                <div className="fm-239__row">
+                    <input className="fm-239__input" type="text" placeholder="MM / YY" />
+                    <input className="fm-239__input" type="text" placeholder="CVC" />
+                </div>
+                <button className="fm-239__btn">Pay now</button>
             </div>
         )
     },
     {
-        id: 240, name: "Form", preview: (
+        id: 240, name: "Profile Settings", preview: (
             <div className="fm-240">
+                <div className="fm-240__title">Profile settings</div>
+                <div className="fm-240__avatar">A</div>
+                <input className="fm-240__input" type="text" placeholder="Display name" />
+                <input className="fm-240__input" type="email" placeholder="Email address" />
+                <input className="fm-240__input" type="text" placeholder="Bio" />
+                <button className="fm-240__btn">Save changes</button>
             </div>
         )
     },
     {
-        id: 241, name: "Form", preview: (
+        id: 241, name: "OTP Form", preview: (
             <div className="fm-241">
+                <div className="fm-241__title">Verify your email</div>
+                <div className="fm-241__sub">Enter the 6-digit code we sent to your email.</div>
+                <div className="fm-241__boxes">
+                    <input className="fm-241__box" type="text" maxLength={1} />
+                    <input className="fm-241__box" type="text" maxLength={1} />
+                    <input className="fm-241__box" type="text" maxLength={1} />
+                    <input className="fm-241__box" type="text" maxLength={1} />
+                    <input className="fm-241__box" type="text" maxLength={1} />
+                    <input className="fm-241__box" type="text" maxLength={1} />
+                </div>
+                <button className="fm-241__btn">Verify</button>
+                <div className="fm-241__resend"><a href="#">Resend code</a></div>
             </div>
         )
     },
     {
-        id: 242, name: "Form", preview: (
+        id: 242, name: "Job Application", preview: (
             <div className="fm-242">
+                <div className="fm-242__title">Apply now</div>
+                <input className="fm-242__input" type="text" placeholder="Full name" />
+                <input className="fm-242__input" type="email" placeholder="Email" />
+                <input className="fm-242__input" type="text" placeholder="LinkedIn URL" />
+                <select className="fm-242__select">
+                    <option value="">Select role</option>
+                    <option>Frontend Developer</option>
+                    <option>Backend Developer</option>
+                    <option>Designer</option>
+                </select>
+                <textarea className="fm-242__textarea" placeholder="Why do you want to join?"></textarea>
+                <button className="fm-242__btn">Submit application</button>
             </div>
         )
     },
     {
-        id: 243, name: "Form", preview: (
+        id: 243, name: "Change Password", preview: (
             <div className="fm-243">
+                <div className="fm-243__title">Change password</div>
+                <input className="fm-243__input" type="password" placeholder="Current password" />
+                <input className="fm-243__input" type="password" placeholder="New password" />
+                <input className="fm-243__input" type="password" placeholder="Confirm new password" />
+                <button className="fm-243__btn">Update password</button>
             </div>
         )
     },
     {
-        id: 244, name: "Form", preview: (
+        id: 244, name: "Survey Form", preview: (
             <div className="fm-244">
+                <div className="fm-244__title">Quick survey</div>
+                <div className="fm-244__question">How did you hear about us?</div>
+                <div className="fm-244__options">
+                    <label className="fm-244__option"><input type="radio" name="fm244" /><span>Google</span></label>
+                    <label className="fm-244__option"><input type="radio" name="fm244" /><span>Social media</span></label>
+                    <label className="fm-244__option"><input type="radio" name="fm244" /><span>Friend</span></label>
+                    <label className="fm-244__option"><input type="radio" name="fm244" /><span>Other</span></label>
+                </div>
+                <textarea className="fm-244__textarea" placeholder="Any additional feedback?"></textarea>
+                <button className="fm-244__btn">Submit</button>
             </div>
         )
     },
