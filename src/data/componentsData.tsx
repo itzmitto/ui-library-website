@@ -1898,8 +1898,62 @@ export const forms = [
         )
     },
     {
-        id: 248, name: "Form", preview: (
+        id: 248, name: "Sign Up Form", preview: (
             <div className="fm-248">
+                <div className="fm-248__card">
+                    <div className="fm-248__left">
+                        <div className="fm-248__noise"></div>
+                        <div className="fm-248__brand">DesktopLogin</div>
+                        <div className="fm-248__hero">
+                            <div className="fm-248__hero-title">Get Started with Us</div>
+                            <div className="fm-248__hero-desc">Complete these easy steps to register your account.</div>
+                            <div className="fm-248__steps">
+                                <div className="fm-248__step fm-248__step--active">
+                                    <div className="fm-248__step-num">1</div>
+                                    <span>Sign up your account</span>
+                                </div>
+                                <div className="fm-248__step">
+                                    <div className="fm-248__step-num">2</div>
+                                    <span>Set up your workspace</span>
+                                </div>
+                                <div className="fm-248__step">
+                                    <div className="fm-248__step-num">3</div>
+                                    <span>Set up your profile</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="fm-248__right">
+                        <div className="fm-248__form-title">Sign Up Account</div>
+                        <div className="fm-248__form-desc">Enter your personal data to create your account.</div>
+                        <div className="fm-248__socials">
+                            <button className="fm-248__social">Google</button>
+                            <button className="fm-248__social">Github</button>
+                        </div>
+                        <div className="fm-248__divider">Or</div>
+                        <div className="fm-248__row">
+                            <div className="fm-248__field">
+                                <label className="fm-248__label">First Name</label>
+                                <input className="fm-248__input" type="text" placeholder="eg. John" />
+                            </div>
+                            <div className="fm-248__field">
+                                <label className="fm-248__label">Last Name</label>
+                                <input className="fm-248__input" type="text" placeholder="eg. Francisco" />
+                            </div>
+                        </div>
+                        <div className="fm-248__field">
+                            <label className="fm-248__label">Email</label>
+                            <input className="fm-248__input" type="email" placeholder="eg. john@gmail.com" />
+                        </div>
+                        <div className="fm-248__field">
+                            <label className="fm-248__label">Password</label>
+                            <input className="fm-248__input" type="password" placeholder="Enter your password" />
+                        </div>
+                        <div className="fm-248__hint">Must be at least 8 characters.</div>
+                        <button className="fm-248__btn">Sign Up</button>
+                        <div className="fm-248__footer">Already have an account? <a href="#">Log in</a></div>
+                    </div>
+                </div>
             </div>
         )
     },
