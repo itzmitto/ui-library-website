@@ -1836,14 +1836,44 @@ export const forms = [
         )
     },
     {
-        id: 245, name: "Form", preview: (
+        id: 245, name: "Gradient Login", preview: (
             <div className="fm-245">
+                <p className="fm-245__title">Login</p>
+                <div className="fm-245__input-box">
+                    <input required placeholder="Username" type="text" />
+                </div>
+                <div className="fm-245__input-box">
+                    <input required placeholder="Password" type="password" />
+                </div>
+                <div className="fm-245__remember">
+                    <label><input type="checkbox" /> Remember Me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button className="fm-245__btn">Login</button>
+                <div className="fm-245__register">
+                    <p>Don't have an account? <a href="#">Register</a></p>
+                </div>
             </div>
         )
     },
     {
-        id: 246, name: "Form", preview: (
+        id: 246, name: "Gradient Login", preview: (
             <div className="fm-246">
+                <p className="fm-246__title">Login</p>
+                <div className="fm-246__input-box">
+                    <input required placeholder="Username" type="text" />
+                </div>
+                <div className="fm-246__input-box">
+                    <input required placeholder="Password" type="password" />
+                </div>
+                <div className="fm-246__remember">
+                    <label><input type="checkbox" /> Remember Me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button className="fm-246__btn">Login</button>
+                <div className="fm-246__register">
+                    <p>Don't have an account? <a href="#">Register</a></p>
+                </div>
             </div>
         )
     },
