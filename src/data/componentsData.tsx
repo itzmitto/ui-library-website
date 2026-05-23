@@ -1958,8 +1958,45 @@ export const forms = [
         )
     },
     {
-        id: 249, name: "Form", preview: (
+        id: 249, name: "Dossier Login", preview: (
             <div className="fm-249">
+                <div className="fm-249__content">
+                    <div className="fm-249__title-section">
+                        <p className="fm-249__title">Dossier</p>
+                    </div>
+                    <div className="fm-249__form">
+                        <div className="fm-249__group">
+                            <div className="fm-249__field-content">
+                                <label htmlFor="fm249-user">Username</label>
+                                <input type="text" id="fm249-user" placeholder="Enter your username" />
+                            </div>
+                        </div>
+                        <div className="fm-249__group">
+                            <div className="fm-249__field-content">
+                                <label htmlFor="fm249-pass">Password</label>
+                                <input type="password" id="fm249-pass" placeholder="Enter your password" />
+                            </div>
+                        </div>
+                        <div className="fm-249__forgot">
+                            <a href="#">Forgot Password?</a>
+                        </div>
+                        <button className="fm-249__sign">
+                            <span>Sign In</span>
+                            <span className="fm-249__arrow">→</span>
+                        </button>
+                    </div>
+                    <div className="fm-249__divider">
+                        <div className="fm-249__line"></div>
+                        <p className="fm-249__or">Or continue with</p>
+                        <div className="fm-249__line"></div>
+                    </div>
+                    <div className="fm-249__socials">
+                        <button className="fm-249__social"><span>Google</span></button>
+                        <button className="fm-249__social"><span>GitHub</span></button>
+                        <button className="fm-249__social"><span>X</span></button>
+                    </div>
+                    <p className="fm-249__signup">Don't have an account? <a href="#">Sign up</a></p>
+                </div>
             </div>
         )
     },
