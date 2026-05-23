@@ -1878,8 +1878,22 @@ export const forms = [
         )
     },
     {
-        id: 247, name: "Form", preview: (
+        id: 247, name: "Brutalist Login", preview: (
             <div className="fm-247">
+                <div className="fm-247__card">
+                    <div className="fm-247__title">
+                        <span className="fm-247__text">Login</span>
+                    </div>
+                    <div className="fm-247__form">
+                        <div className="fm-247__group">
+                            <input required placeholder="Hero" className="fm-247__input" type="text" />
+                        </div>
+                        <div className="fm-247__group">
+                            <input required placeholder="Heropass" className="fm-247__input" type="password" />
+                        </div>
+                        <button className="fm-247__btn">ENTER ZONE</button>
+                    </div>
+                </div>
             </div>
         )
     },

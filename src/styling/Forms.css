@@ -3317,3 +3317,180 @@
  .fm-246__register a:hover {
      text-decoration: underline;
  }
+ .fm-247 {
+    position: relative;
+    perspective: 1000px;
+    width: 200px;
+}
+
+.fm-247__card {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(135deg, #ff3366, #ff6b35);
+    border: 4px solid #000;
+    box-shadow: 8px 8px 0 #000, 16px 16px 0 rgba(255, 51, 102, 0.3);
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transform-style: preserve-3d;
+}
+
+.fm-247__card:hover {
+    height: 240px;
+    transform: translateZ(20px) rotateX(5deg) rotateY(-5deg);
+    box-shadow: 12px 12px 0 #000, 24px 24px 0 rgba(255, 51, 102, 0.4), 0 0 50px rgba(255, 51, 102, 0.6);
+}
+
+.fm-247__title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: inherit;
+    transition: all 0.4s ease;
+}
+
+.fm-247__text {
+    color: #000;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.3);
+    transition: all 0.4s ease;
+}
+
+.fm-247__card:hover .fm-247__text {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.8);
+}
+
+.fm-247__form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    transform: translateY(30px) scale(0.8);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.fm-247__card:hover .fm-247__form {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.fm-247__group {
+    position: relative;
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.fm-247__input {
+    width: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 3px solid #000;
+    font-weight: 700;
+    color: #000;
+    box-shadow: 4px 4px 0 #000;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    font-family: inherit;
+    font-size: 12px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.fm-247__input:focus {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 #000;
+}
+
+.fm-247__input::placeholder {
+    color: #000;
+    opacity: 0.6;
+}
+
+.fm-247__btn {
+    width: 100%;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 rgba(255, 255, 255, 0.3);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    font-family: inherit;
+    font-size: 11px;
+}
+
+.fm-247__btn:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 rgba(255, 255, 255, 0.3);
+    background: #333;
+}
+
+.fm-247__card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: left 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.fm-247__card:hover::before {
+    left: 100%;
+}
+
+.fm-247__card::after {
+    content: "";
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    transition: all 0.6s ease;
+}
+
+.fm-247__card:hover::after {
+    background: rgb(246, 168, 116);
+}
+
+.fm-247::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 51, 102, 0.1);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.6s ease;
+    z-index: -1;
+}
+
+.fm-247:hover::before {
+    width: 400px;
+    height: 400px;
+}
