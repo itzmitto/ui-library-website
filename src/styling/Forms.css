@@ -3205,13 +3205,11 @@
      text-decoration: underline;
  }
 
-
-
-
-
  .fm-246 {
      width: 260px;
-     background: linear-gradient(90deg, rgb(255, 4, 4) 33%, rgb(31, 218, 6) 34%, rgba(0, 91, 255, 1) 33%);
+   background: linear-gradient(90deg, 
+    #ff0000 0%, 
+    #0066ff 100%);
      color: #fff;
      border-radius: 12px;
      padding: 24px 28px;
