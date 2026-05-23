@@ -1619,9 +1619,7 @@ export const forms = [
         )
     },
     {
-        id: 231,
-        name: "Login Form",
-        preview: (
+        id: 231, name: "Login Form", preview: (
             <div className="fm-231">
                 <p className="fm-231__heading">Login</p>
                 <div className="fm-231__input-container">
@@ -1639,14 +1637,46 @@ export const forms = [
         )
     },
     {
-        id: 232, name: "Form", preview: (
+        id: 232, name: "Login Form", preview: (
             <div className="fm-232">
+                <p className="fm-232__heading">Login</p>
+                <input className="fm-232__input" placeholder="Username" type="text" />
+                <input className="fm-232__input" placeholder="Password" type="password" />
+                <button className="fm-232__btn">Submit</button>
             </div>
         )
     },
     {
-        id: 233, name: "Form", preview: (
+        id: 233, name: "Contact Form", preview: (
             <div className="fm-233">
+                <div className="fm-233__flex">
+                    <label className="fm-233__label">
+                        <input required placeholder="" type="text" className="fm-233__input" />
+                        <span>first name</span>
+                    </label>
+                    <label className="fm-233__label">
+                        <input required placeholder="" type="text" className="fm-233__input" />
+                        <span>last name</span>
+                    </label>
+                </div>
+                <label className="fm-233__label">
+                    <input required placeholder="" type="email" className="fm-233__input" />
+                    <span>email</span>
+                </label>
+                <label className="fm-233__label">
+                    <input required placeholder="" type="tel" className="fm-233__input" />
+                    <span>contact number</span>
+                </label>
+                <label className="fm-233__label">
+                    <textarea required rows={3} placeholder="" className="fm-233__textarea"></textarea>
+                    <span>message</span>
+                </label>
+                <button className="fm-233__fancy">
+                    <span className="fm-233__top-key"></span>
+                    <span className="fm-233__text">submit</span>
+                    <span className="fm-233__bottom-key-1"></span>
+                    <span className="fm-233__bottom-key-2"></span>
+                </button>
             </div>
         )
     },
