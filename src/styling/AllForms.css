@@ -61,7 +61,7 @@
 
 .allgrid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 24px;
 }
 
@@ -71,6 +71,11 @@
     border-radius: 14px;
     overflow: hidden;
     transition: 0.2s;
+    cursor: pointer;
+}
+
+.allcard:hover {
+    border-color: rgba(255, 255, 255, 0.15);
 }
 
 .allcard-preview {
@@ -86,13 +91,7 @@
     flex: 1;
     padding: 32px 48px;
     overflow-y: auto;
-    max-width: 1600px;
 }
-
-.allcard:hover {
-    border-color: rgba(255, 255, 255, 0.15);
-}
-
 
 .allcard-footer {
     padding: 10px 14px;
@@ -102,4 +101,34 @@
 .allcard-name {
     font-size: 13px;
     color: #a1a1aa;
+}
+
+@media (max-width: 1200px) {
+    .allgrid {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .alllayout {
+        flex-direction: column;
+    }
+
+    .side-bar {
+        width: 100%;
+        height: auto;
+        position: static;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .allmain {
+        padding: 24px 16px;
+    }
+
+    .allgrid {
+        grid-template-columns: 1fr;
+    }
 }

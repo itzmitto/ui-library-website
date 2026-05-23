@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import Header from "../components/Header"; 
 import { allComponents } from "../data/componentsData";   
 import "./All.css";
 

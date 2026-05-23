@@ -1622,28 +1622,28 @@ export const forms = [
 
 export const patterns = [
     {
-        id: 231, name: "patterns", preview: (
-            <div className="pt-231">?</div>
+        id: 300, name: "patterns", preview: (
+            <div className="pt-300">?</div>
         )
     },
     {
-        id: 232, name: "patterns", preview: (
-            <div className="pt-232">?</div>
+        id: 301, name: "patterns", preview: (
+            <div className="pt-301">?</div>
         )
     },
     {
-        id: 233, name: "patterns", preview: (
-            <div className="pt-233">?</div>
+        id: 302, name: "patterns", preview: (
+            <div className="pt-302">?</div>
         )
     },
     {
-        id: 234, name: "patterns", preview: (
-            <div className="pt-234">?</div>
+        id: 303, name: "patterns", preview: (
+            <div className="pt-303">?</div>
         )
     },
     {
-        id: 235, name: "patterns", preview: (
-            <div className="pt-235">?</div>
+        id: 304, name: "patterns", preview: (
+            <div className="pt-304">?</div>
         )
     },
 ];
