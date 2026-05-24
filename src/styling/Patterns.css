@@ -1,0 +1,115 @@
+ .pt-300 {
+     width: 100%;
+     height: 100%;
+     min-height: 300px;
+     --color: rgba(4, 234, 250, 0.897);
+     background-color: #191a1a;
+     background-image:
+         linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+         linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+     background-size: 55px 55px;
+     border-radius: 10px;
+ }
+
+ .pt-301 {
+     width: 100%;
+     height: 100%;
+     min-height: 300px;
+     --color: rgba(114, 114, 114, 0.3);
+     background-color: #1a1919;
+     background-image:
+         linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+         linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+     background-size: 55px 55px;
+     border-radius: 10px;
+ }
+
+ .pt-302 {
+     width: 100%;
+     min-height: 300px;
+     background-color: #0d0d0d;
+     background-image: radial-gradient(circle, rgba(6, 253, 220, 0.945) 1px, transparent 1px);
+     background-size: 24px 24px;
+     border-radius: 10px;
+ }
+
+ .pt-303 {
+     width: 100%;
+     min-height: 300px;
+     background-color: #0f0f0f;
+     background-image: repeating-linear-gradient(45deg,
+             rgba(4, 104, 255, 0.973) 0px,
+             rgba(255, 3, 3, 0.986) 1px,
+             transparent 1px,
+             transparent 12px);
+     border-radius: 10px;
+ }
+
+ .pattern-304 {
+     width: 100%;
+     height: 100%;
+     border-radius: 8px;
+     overflow: hidden;
+ }
+
+ .container {
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(to bottom,
+             #fff 0%,
+             #fff 40%,
+             rgba(255, 255, 255, 0) 100%),
+         linear-gradient(to right, #0ed2da, #5f29c7);
+     position: relative;
+     overflow: hidden;
+ }
+
+ .container::before {
+     content: "";
+     position: absolute;
+     inset: 0;
+     background-image: linear-gradient(90deg, #ccc 1px, transparent 1px);
+     background-size: 50px 100%;
+     pointer-events: none;
+     mask-image: linear-gradient(to bottom,
+             rgba(0, 0, 0, 1) 0%,
+             rgba(0, 0, 0, 0) 70%);
+     -webkit-mask-image: linear-gradient(to bottom,
+             rgba(0, 0, 0, 1) 0%,
+             rgba(0, 0, 0, 0) 70%);
+ }
+
+
+ .pattern-305 {
+     width: 100%;
+     height: 100%;
+     border-radius: 8px;
+     overflow: hidden;
+ }
+
+ .pt-305 {
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(to bottom,
+             #fff 0%,
+             #fff 40%,
+             rgba(212, 10, 10, 0) 100%),
+         linear-gradient(to right, #ff0101, #022ffa);
+     position: relative;
+     overflow: hidden;
+ }
+
+ .pt-305::before {
+     content: "";
+     position: absolute;
+     inset: 0;
+     background-image: linear-gradient(90deg, #ccc 1px, transparent 1px);
+     background-size: 50px 100%;
+     pointer-events: none;
+     mask-image: linear-gradient(to bottom,
+             rgba(0, 0, 0, 1) 0%,
+             rgba(0, 0, 0, 0) 70%);
+     -webkit-mask-image: linear-gradient(to bottom,
+             rgba(0, 0, 0, 1) 0%,
+             rgba(0, 0, 0, 0) 70%);
+ }

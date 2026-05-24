@@ -2070,30 +2070,101 @@ export const forms = [
 
 export const patterns = [
     {
-        id: 300, name: "patterns", preview: (
-            <div className="pt-300">?</div>
+        id: 300, name: "Grid Pattern", preview: (
+            <div className="pt-300"></div>
         )
     },
     {
-        id: 301, name: "patterns", preview: (
-            <div className="pt-301">?</div>
+        id: 301, name: "Grid Pattern", preview: (
+            <div className="pt-301"></div>
         )
     },
     {
-        id: 302, name: "patterns", preview: (
-            <div className="pt-302">?</div>
+        id: 302, name: "Dot Pattern", preview: (
+            <div className="pt-302"></div>
         )
     },
     {
-        id: 303, name: "patterns", preview: (
-            <div className="pt-303">?</div>
+        id: 303, name: "Diagonal Lines", preview: (
+            <div className="pt-303"></div>
         )
     },
     {
-        id: 304, name: "patterns", preview: (
-            <div className="pt-304">?</div>
+        id: 304, name: "Pattern", preview: (
+            <div className="pattern-304">
+                <div className="container"></div>
+            </div>
         )
-    }
+    },
+    {
+        id: 305, name: "Pattern", preview: (
+            <div className="pattern-305">
+                <div className="pt-305"></div>
+            </div>
+        )
+    },
+    {
+        id: 306, name: "Pattern", preview: (
+            <div className="pattern-306">
+                <div className="pt-306"></div>
+            </div>
+        )
+    },
+    {
+        id: 307, name: "Pattern", preview: (
+            <div className="pattern-307">
+                <div className="pt-307"></div>
+            </div>
+        )
+    },
+    {
+        id: 308, name: "Pattern", preview: (
+            <div className="pt-308">?
+            </div>
+        )
+    },
+    {
+        id: 309, name: "Pattern", preview: (
+            <div className="pt-309">?
+            </div>
+        )
+    },
+    {
+        id: 310, name: "Pattern", preview: (
+            <div className="pt-310">?
+            </div>
+        )
+    },
+    {
+        id: 311, name: "Pattern", preview: (
+            <div className="pt-311">?
+            </div>
+        )
+    },
+    {
+        id: 312, name: "Pattern", preview: (
+            <div className="pt-312">?
+            </div>
+        )
+    },
+    {
+        id: 313, name: "Pattern", preview: (
+            <div className="pt-313">?
+            </div>
+        )
+    },{
+        id: 314, name: "Pattern", preview: (
+            <div className="pt-314">?
+            </div>
+        )
+    },
+
+    {
+        id: 308, name: "Pattern", preview: (
+            <div className="pt-308">?
+            </div>
+        )
+    },
 ];
 
 export const navbar = [
