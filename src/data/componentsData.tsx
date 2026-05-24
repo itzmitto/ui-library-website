@@ -2185,7 +2185,8 @@ export const navbar = [
             </div>
         )
     },
-    { id: 406, name: "Navbar", preview: (
+    {
+        id: 406, name: "Navbar", preview: (
             <div className="nv-406">
                 <nav className="modern-navbar">
                     <ul>
@@ -2200,66 +2201,180 @@ export const navbar = [
         )
     },
     {
-        id: 407, name: "navbar", preview: (
-            <div className="nv-407">?</div>
+        id: 407, name: "Gradient Navbar", preview: (
+            <div className="nv-407">
+                <div className="nv-407__logo">Brand</div>
+                <nav className="nv-407__nav">
+                    <a href="#" className="nv-407__link nv-407__link--active">Home</a>
+                    <a href="#" className="nv-407__link">Pagina 1</a>
+                    <a href="#" className="nv-407__link">Pagina 2</a>
+                    <a href="#" className="nv-407__link">Pagina 3</a>
+                    <a href="#" className="nv-407__link">Pagina 4</a>
+                    <a href="#" className="nv-407__link">Pagina 5</a>
+                </nav>
+                <button className="nv-407__btn">Sign up</button>
+            </div>
         )
     },
     {
-        id: 408, name: "navbar", preview: (
-            <div className="nv-408">?</div>
+        id: 408, name: "Border Bottom Navbar", preview: (
+            <div className="nv-408">
+                <div className="nv-408__logo">Logo</div>
+                <nav className="nv-408__nav">
+                    <a href="#" className="nv-408__link nv-408__link--active">Home</a>
+                    <a href="#" className="nv-408__link">Pagina 1</a>
+                    <a href="#" className="nv-408__link">Pagina 2</a>
+                    <a href="#" className="nv-408__link">Pagina 3</a>
+                    <a href="#" className="nv-408__link">Pagina 4</a>
+                    <a href="#" className="nv-408__link">Pagina 5</a>
+                </nav>
+            </div>
         )
     },
     {
-        id: 409, name: "navbar", preview: (
-            <div className="nv-409">?</div>
+        id: 409, name: "Colored Navbar", preview: (
+            <div className="nv-409">
+                <div className="nv-409__logo">MyApp</div>
+                <nav className="nv-409__nav">
+                    <a href="#" className="nv-409__link nv-409__link--active">Home</a>
+                    <a href="#" className="nv-409__link">Pagina 1</a>
+                    <a href="#" className="nv-409__link">Pagina 2</a>
+                    <a href="#" className="nv-409__link">Pagina 3</a>
+                    <a href="#" className="nv-409__link">Pagina 4</a>
+                    <a href="#" className="nv-409__link">Pagina 5</a>
+                </nav>
+                <button className="nv-409__btn">Contact</button>
+            </div>
         )
     },
     {
-        id: 410, name: "navbar", preview: (
-            <div className="nv-410">?</div>
+        id: 410, name: "Boxed Navbar", preview: (
+            <div className="nv-410">
+                <div className="nv-410__logo">Studio</div>
+                <nav className="nv-410__nav">
+                    <a href="#" className="nv-410__link nv-410__link--active">Home</a>
+                    <a href="#" className="nv-410__link">Pagina 1</a>
+                    <a href="#" className="nv-410__link">Pagina 2</a>
+                    <a href="#" className="nv-410__link">Pagina 3</a>
+                    <a href="#" className="nv-410__link">Pagina 4</a>
+                    <a href="#" className="nv-410__link">Pagina 5</a>
+                </nav>
+                <button className="nv-410__btn">Login</button>
+            </div>
         )
     },
     {
-        id: 411, name: "navbar", preview: (
-            <div className="nv-411">?</div>
+        id: 411, name: "Light Navbar", preview: (
+            <div className="nv-411">
+                <div className="nv-411__logo">Light</div>
+                <nav className="nv-411__nav">
+                    <a href="#" className="nv-411__link nv-411__link--active">Home</a>
+                    <a href="#" className="nv-411__link">Pagina 1</a>
+                    <a href="#" className="nv-411__link">Pagina 2</a>
+                    <a href="#" className="nv-411__link">Pagina 3</a>
+                    <a href="#" className="nv-411__link">Pagina 4</a>
+                    <a href="#" className="nv-411__link">Pagina 5</a>
+                </nav>
+                <button className="nv-411__btn">Get started</button>
+            </div>
         )
     },
     {
-        id: 412, name: "navbar", preview: (
-            <div className="nv-412">?</div>
+        id: 412, name: "Rounded Navbar", preview: (
+            <div className="nv-412">
+                <div className="nv-412__logo">Round</div>
+                <nav className="nv-412__nav">
+                    <a href="#" className="nv-412__link nv-412__link--active">Home</a>
+                    <a href="#" className="nv-412__link">Pagina 1</a>
+                    <a href="#" className="nv-412__link">Pagina 2</a>
+                    <a href="#" className="nv-412__link">Pagina 3</a>
+                    <a href="#" className="nv-412__link">Pagina 4</a>
+                    <a href="#" className="nv-412__link">Pagina 5</a>
+                </nav>
+                <button className="nv-412__btn">Sign in</button>
+            </div>
         )
     },
     {
-        id: 413, name: "navbar", preview: (
-            <div className="nv-413">?</div>
+        id: 413, name: "Neon Navbar", preview: (
+            <div className="nv-413">
+                <div className="nv-413__logo">Neon</div>
+                <nav className="nv-413__nav">
+                    <a href="#" className="nv-413__link nv-413__link--active">Home</a>
+                    <a href="#" className="nv-413__link">Pagina 1</a>
+                    <a href="#" className="nv-413__link">Pagina 2</a>
+                    <a href="#" className="nv-413__link">Pagina 3</a>
+                    <a href="#" className="nv-413__link">Pagina 4</a>
+                    <a href="#" className="nv-413__link">Pagina 5</a>
+                </nav>
+            </div>
         )
     },
     {
-        id: 414, name: "navbar", preview: (
-            <div className="nv-414">?</div>
+        id: 414, name: "Split Navbar", preview: (
+            <div className="nv-414">
+                <nav className="nv-414__left">
+                    <a href="#" className="nv-414__link nv-414__link--active">Home</a>
+                    <a href="#" className="nv-414__link">Pagina 1</a>
+                    <a href="#" className="nv-414__link">Pagina 2</a>
+                </nav>
+                <div className="nv-414__logo">Brand</div>
+                <nav className="nv-414__right">
+                    <a href="#" className="nv-414__link">Pagina 3</a>
+                    <a href="#" className="nv-414__link">Pagina 4</a>
+                    <a href="#" className="nv-414__link">Pagina 5</a>
+                </nav>
+            </div>
         )
     },
     {
-        id: 415, name: "navbar", preview: (
-            <div className="nv-415">?</div>
+        id: 415, name: "Sidebar Navbar", preview: (
+            <div className="nv-415">
+                <div className="nv-415__logo">App</div>
+                <nav className="nv-415__nav">
+                    <a href="#" className="nv-415__link nv-415__link--active">Home</a>
+                    <a href="#" className="nv-415__link">Pagina 1</a>
+                    <a href="#" className="nv-415__link">Pagina 2</a>
+                    <a href="#" className="nv-415__link">Pagina 3</a>
+                    <a href="#" className="nv-415__link">Pagina 4</a>
+                    <a href="#" className="nv-415__link">Pagina 5</a>
+                </nav>
+            </div>
         )
     },
     {
-        id: 416, name: "navbar", preview: (
-            <div className="nv-416">?</div>
+        id: 416, name: "Badge Navbar", preview: (
+            <div className="nv-416">
+                <div className="nv-416__logo">Badge</div>
+                <nav className="nv-416__nav">
+                    <a href="#" className="nv-416__link nv-416__link--active">Home</a>
+                    <a href="#" className="nv-416__link">Pagina 1</a>
+                    <a href="#" className="nv-416__link">Pagina 2 <span className="nv-416__badge">New</span></a>
+                    <a href="#" className="nv-416__link">Pagina 3</a>
+                    <a href="#" className="nv-416__link">Pagina 4</a>
+                    <a href="#" className="nv-416__link">Pagina 5</a>
+                </nav>
+            </div>
         )
     },
     {
-        id: 417, name: "navbar", preview: (
-            <div className="nv-417">?</div>
+        id: 417, name: "Dot Indicator Navbar", preview: (
+            <div className="nv-417">
+                <div className="nv-417__logo">Dots</div>
+                <nav className="nv-417__nav">
+                    <a href="#" className="nv-417__link nv-417__link--active"><span className="nv-417__dot"></span>Home</a>
+                    <a href="#" className="nv-417__link">Pagina 1</a>
+                    <a href="#" className="nv-417__link">Pagina 2</a>
+                    <a href="#" className="nv-417__link">Pagina 3</a>
+                    <a href="#" className="nv-417__link">Pagina 4</a>
+                    <a href="#" className="nv-417__link">Pagina 5</a>
+                </nav>
+                <button className="nv-417__btn">Login</button>
+            </div>
         )
-    },
+    }
 ];
 
 export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, ...loaders, ...inputs, ...radiobuttons, ...forms, ...patterns, ...navbar];
-
-
-
-
 
 
