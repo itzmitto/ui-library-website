@@ -1,16 +1,16 @@
-.allpage { 
+.all--page { 
     background: #09090b;
     min-height: 100vh;
     color: #fff;
 }
 
-.alllayout {
+.all--layout {
     display: flex;
     padding-top: 56px;
     min-height: 100vh;
 }
 
-.side-bar {
+.sidebar {
     width: 200px;
     padding: 24px 12px;
     border-right: 1px solid rgba(255, 255, 255, 0.06);
@@ -61,8 +61,8 @@
 
 .allgrid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
 
 .allcard {
@@ -79,12 +79,12 @@
 }
 
 .allcard-preview {
-    height: 400px;
+    height: 220px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #0d0d0f;
-    padding: 20px;
+    padding: 16px;
 }
 
 .allmain {
@@ -103,18 +103,24 @@
     color: #a1a1aa;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     .allgrid {
-        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1024px) {
+    .allgrid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 768px) {
-    .alllayout {
+    .all--layout {
         flex-direction: column;
     }
 
-    .side-bar {
+    .sidebar {
         width: 100%;
         height: auto;
         position: static;
@@ -128,6 +134,12 @@
         padding: 24px 16px;
     }
 
+    .allgrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
     .allgrid {
         grid-template-columns: 1fr;
     }

@@ -2125,7 +2125,77 @@ export const navbar = [
         id: 403, name: "navbar", preview: (
             <div className="nv-403">?</div>
         )
-    }
+    },
+    {
+        id: 404, name: "navbar", preview: (
+            <div className="nv-404">?</div>
+        )
+    },
+    {
+        id: 405, name: "navbar", preview: (
+            <div className="nv-405">?</div>
+        )
+    },
+    {
+        id: 406, name: "navbar", preview: (
+            <div className="nv-406">?</div>
+        )
+    },
+    {
+        id: 407, name: "navbar", preview: (
+            <div className="nv-407">?</div>
+        )
+    },
+    {
+        id: 408, name: "navbar", preview: (
+            <div className="nv-408">?</div>
+        )
+    },
+    {
+        id: 409, name: "navbar", preview: (
+            <div className="nv-409">?</div>
+        )
+    },
+    {
+        id: 410, name: "navbar", preview: (
+            <div className="nv-410">?</div>
+        )
+    },
+    {
+        id: 411, name: "navbar", preview: (
+            <div className="nv-411">?</div>
+        )
+    },
+    {
+        id: 412, name: "navbar", preview: (
+            <div className="nv-412">?</div>
+        )
+    },
+    {
+        id: 413, name: "navbar", preview: (
+            <div className="nv-413">?</div>
+        )
+    },
+    {
+        id: 414, name: "navbar", preview: (
+            <div className="nv-414">?</div>
+        )
+    },
+    {
+        id: 415, name: "navbar", preview: (
+            <div className="nv-415">?</div>
+        )
+    },
+    {
+        id: 416, name: "navbar", preview: (
+            <div className="nv-416">?</div>
+        )
+    },
+    {
+        id: 417, name: "navbar", preview: (
+            <div className="nv-417">?</div>
+        )
+    },
 ];
 
 export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, ...loaders, ...inputs, ...radiobuttons, ...forms, ...patterns, ...navbar];

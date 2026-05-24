@@ -14,7 +14,7 @@ const sidebarItems = [
     { label: "Radiobuttons", path: "/elements/radiobuttons" },
     { label: "Forms", path: "/elements/forms", active: true },
     { label: "Patterns", path: "/elements/patterns" },
-        { label: "Navbar", path: "/elements/Navbar" },
+    { label: "Navbar", path: "/elements/Navbar" },
 
 ];
 
@@ -22,7 +22,7 @@ export default function Forms() {
     return (
         <div className="allpage">
             <Header />
-            <div className="alllayout">
+            <div className="alllayout"> 
                 <aside className="side-bar">
                     {sidebarItems.map((item) => (
                         <a

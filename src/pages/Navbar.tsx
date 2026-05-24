@@ -21,9 +21,9 @@ const sidebarItems = [
 
 export default function Navbar() {
     return (
-        <div className="all-page">
+        <div className="all--page">
             <Header />
-            <div className="all-layout">
+            <div className="all--layout">
                 <aside className="sidebar">
                     {sidebarItems.map((item) => (
                         <a
