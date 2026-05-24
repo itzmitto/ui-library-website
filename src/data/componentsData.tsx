@@ -2112,28 +2112,77 @@ export const navbar = [
         )
     },
     {
-        id: 401, name: "navbar", preview: (
-            <div className="nv-401">?</div>
+        id: 401, name: "Dark Navbar", preview: (
+            <div className="nv-401">
+                <div className="nv-401__logo">Brand</div>
+                <nav className="nv-401__nav">
+                    <a href="#" className="nv-401__link">Home</a>
+                    <a href="#" className="nv-401__link">Features</a>
+                    <a href="#" className="nv-401__link">Pricing</a>
+                    <a href="#" className="nv-401__link">Blog</a>
+                </nav>
+                <div className="nv-401__actions">
+                    <a href="#" className="nv-401__login">Log in</a>
+                    <button className="nv-401__btn">Get started</button>
+                </div>
+            </div>
         )
     },
     {
-        id: 402, name: "navbar", preview: (
-            <div className="nv-402">?</div>
+        id: 402, name: "Pill Navbar", preview: (
+            <div className="nv-402">
+                <div className="nv-402__inner">
+                    <div className="nv-402__logo">Logo</div>
+                    <nav className="nv-402__nav">
+                        <a href="#" className="nv-402__link nv-402__link--active">Home</a>
+                        <a href="#" className="nv-402__link">Work</a>
+                        <a href="#" className="nv-402__link">About</a>
+                        <a href="#" className="nv-402__link">Contact</a>
+                    </nav>
+                </div>
+            </div>
         )
     },
     {
-        id: 403, name: "navbar", preview: (
-            <div className="nv-403">?</div>
+        id: 403, name: "Underline Navbar", preview: (
+            <div className="nv-403">
+                <div className="nv-403__logo">Studio</div>
+                <nav className="nv-403__nav">
+                    <a href="#" className="nv-403__link nv-403__link--active">Home</a>
+                    <a href="#" className="nv-403__link">Portfolio</a>
+                    <a href="#" className="nv-403__link">Services</a>
+                    <a href="#" className="nv-403__link">Contact</a>
+                </nav>
+                <button className="nv-403__btn">Hire me</button>
+            </div>
         )
     },
     {
-        id: 404, name: "navbar", preview: (
-            <div className="nv-404">?</div>
+        id: 404, name: "Glass Navbar", preview: (
+            <div className="nv-404">
+                <div className="nv-404__logo">Glass</div>
+                <nav className="nv-404__nav">
+                    <a href="#" className="nv-404__link">Home</a>
+                    <a href="#" className="nv-404__link">About</a>
+                    <a href="#" className="nv-404__link">Work</a>
+                    <a href="#" className="nv-404__link">Contact</a>
+                </nav>
+                <button className="nv-404__btn">Sign up</button>
+            </div>
         )
     },
     {
-        id: 405, name: "navbar", preview: (
-            <div className="nv-405">?</div>
+        id: 405, name: "Minimal Navbar", preview: (
+            <div className="nv-405">
+                <div className="nv-405__logo">Minimal</div>
+                <nav className="nv-405__nav">
+                    <a href="#" className="nv-405__link">Home</a>
+                    <a href="#" className="nv-405__link">About</a>
+                    <a href="#" className="nv-405__link">Work</a>
+                    <a href="#" className="nv-405__link">Contact</a>
+                </nav>
+                <div className="nv-405__dot"></div>
+            </div>
         )
     },
     {
