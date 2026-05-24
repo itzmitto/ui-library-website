@@ -1,19 +1,16 @@
-/* deze code heeft nu alle paginas veranderd naar 4 bij 4 was 9 bij 9 alleen de navbar pagina moet zo zijn fixen later */
-
-
-.all--page {
+.navbar-page {
     background: #09090b;
     min-height: 100vh;
     color: #fff;
 }
 
-.all--layout {
+.navbar-layout {
     display: flex;
     padding-top: 56px;
     min-height: 100vh;
 }
 
-.sidebar {
+.navbar-sidebar {
     width: 200px;
     padding: 24px 12px;
     border-right: 1px solid rgba(255, 255, 255, 0.06);
@@ -27,7 +24,7 @@
     flex-shrink: 0;
 }
 
-.sidebar-item {
+.navbar-sidebar-item {
     color: #71717a;
     text-decoration: none;
     font-size: 14px;
@@ -36,39 +33,45 @@
     transition: background 0.15s, color 0.15s;
 }
 
-.sidebar-item:hover {
+.navbar-sidebar-item:hover {
     background: rgba(255, 255, 255, 0.05);
     color: #fff;
 }
 
-.sidebar-item--active {
+.navbar-sidebar-item--active {
     background: rgba(255, 255, 255, 0.07);
     color: #fff;
     font-weight: 500;
 }
 
-.all-header {
+.navbar-main {
+    flex: 1;
+    padding: 32px 48px;
+    overflow-y: auto;
+}
+
+.navbar-header {
     margin-bottom: 28px;
 }
 
-.all-header h1 {
+.navbar-header h1 {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 6px;
 }
 
-.all-header p {
+.navbar-header p {
     color: #71717a;
     font-size: 14px;
 }
 
-.all-grid {
+.navbar-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
-.all-card {
+.navbar-card {
     background: #111113;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 14px;
@@ -77,11 +80,11 @@
     cursor: pointer;
 }
 
-.all-card:hover {
+.navbar-card:hover {
     border-color: rgba(255, 255, 255, 0.15);
 }
 
-.all-card-preview {
+.navbar-card-preview {
     height: 220px;
     display: flex;
     align-items: center;
@@ -90,40 +93,34 @@
     padding: 16px;
 }
 
-.all-main {
-    flex: 1;
-    padding: 32px 48px;
-    overflow-y: auto;
-}
-
-.all-card-footer {
+.navbar-card-footer {
     padding: 10px 14px;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.all-card-name {
+.navbar-card-name {
     font-size: 13px;
     color: #a1a1aa;
 }
 
 @media (max-width: 1400px) {
-    .all-grid {
+    .navbar-grid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width: 1024px) {
-    .all-grid {
+    .navbar-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 768px) {
-    .all--layout {
+    .navbar-layout {
         flex-direction: column;
     }
 
-    .sidebar {
+    .navbar-sidebar {
         width: 100%;
         height: auto;
         position: static;
@@ -133,17 +130,17 @@
         border-bottom: 1px solid rgba(255, 255, 255, 0.06);
     }
 
-    .all-main {
+    .navbar-main {
         padding: 24px 16px;
     }
 
-    .all-grid {
+    .navbar-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 480px) {
-    .all-grid {
+    .navbar-grid {
         grid-template-columns: 1fr;
     }
 }

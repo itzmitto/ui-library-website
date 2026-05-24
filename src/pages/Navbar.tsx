@@ -3,7 +3,6 @@ import { navbar } from "../data/componentsData";
 import "../styling/AllNavbar.css";
 import "../styling/Navbar.css";
 
-
 const sidebarItems = [
     { label: "All", path: "/elements" },
     { label: "Buttons", path: "/elements/buttons" },
@@ -16,36 +15,33 @@ const sidebarItems = [
     { label: "Forms", path: "/elements/forms" },
     { label: "Patterns", path: "/elements/patterns" },
     { label: "Navbar", path: "/elements/navbar", active: true },
-
 ];
 
 export default function Navbar() {
     return (
-        <div className="all--page">
+        <div className="navbar-page">
             <Header />
-            <div className="all--layout">
-                <aside className="sidebar">
+            <div className="navbar-layout">
+                <aside className="navbar-sidebar">
                     {sidebarItems.map((item) => (
                         <a
                             key={item.path}
                             href={item.path}
-                            className={`sidebar-item ${item.active ? "sidebar-item--active" : ""}`}
-                        >
+                            className={`navbar-sidebar-item ${item.active ? "navbar-sidebar-item--active" : ""}`}>
                             {item.label}
-                        </a>
-                    ))}
+                        </a>))}
                 </aside>
-                <main className="all-main">
-                    <div className="all-header">
+                <main className="navbar-main">
+                    <div className="navbar-header">
                         <h1>Navbar</h1>
                         <p>Open-Source Navbar made with CSS or Tailwind</p>
                     </div>
-                    <div className="all-grid">
+                    <div className="navbar-grid">
                         {navbar.map((item) => (
-                            <div key={item.id} className="all-card">
-                                <div className="all-card-preview">{item.preview}</div>
-                                <div className="all-card-footer">
-                                    <span className="all-card-name">{item.name}</span>
+                            <div key={item.id} className="navbar-card">
+                                <div className="navbar-card-preview">{item.preview}</div>
+                                <div className="navbar-card-footer">
+                                    <span className="navbar-card-name">{item.name}</span>
                                 </div>
                             </div>
                         ))}
