@@ -387,3 +387,59 @@
     background: #7c3aed;
     flex-shrink: 0;
 }
+
+
+
+.nv-406{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background: #0f172a;
+}
+
+.nv-406 .modern-navbar{
+    position: relative;
+    padding: 14px 24px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 60px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+.nv-406 .modern-navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nv-406 .modern-navbar ul li{
+    position: relative;
+}
+
+.nv-406 .modern-navbar ul li a{
+    position: relative;
+    display: block;
+    padding: 12px 26px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 40px;
+    transition: 0.3s ease;
+    z-index: 1;
+}
+
+.nv-406 .modern-navbar ul li.active a{
+    background: linear-gradient(135deg,#38bdf8,#22d3ee);
+    color: #fff;
+    box-shadow: 0 0 20px rgba(34,211,238,0.5);
+}
+
+.nv-406 .modern-navbar ul li a:hover{
+    background: rgba(255,255,255,0.08);
+}

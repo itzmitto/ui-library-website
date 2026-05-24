@@ -2185,9 +2185,18 @@ export const navbar = [
             </div>
         )
     },
-    {
-        id: 406, name: "navbar", preview: (
-            <div className="nv-406">?</div>
+    { id: 406, name: "Navbar", preview: (
+            <div className="nv-406">
+                <nav className="modern-navbar">
+                    <ul>
+                        <li className="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         )
     },
     {
