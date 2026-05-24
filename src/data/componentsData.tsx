@@ -2098,8 +2098,17 @@ export const patterns = [
 
 export const navbar = [
     {
-        id: 400, name: "navbar", preview: (
-            <div className="nv-400">?</div>
+        id: 400, name: "Simple Navbar", preview: (
+            <div className="nv-400">
+                <div className="nv-400__logo">MyApp</div>
+                <nav className="nv-400__nav">
+                    <a href="#" className="nv-400__link nv-400__link--active">Home</a>
+                    <a href="#" className="nv-400__link">About</a>
+                    <a href="#" className="nv-400__link">Projects</a>
+                    <a href="#" className="nv-400__link">Contact</a>
+                </nav>
+                <button className="nv-400__btn">Sign in</button>
+            </div>
         )
     },
     {

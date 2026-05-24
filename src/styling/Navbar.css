@@ -1,0 +1,66 @@
+.nv-400 {
+    width: 100%;
+    max-width: 560px;
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    box-sizing: border-box;
+}
+
+.nv-400__logo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.nv-400__nav {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex: 1;
+    justify-content: center;
+}
+
+.nv-400__link {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: color 0.15s, background 0.15s;
+    white-space: nowrap;
+}
+
+.nv-400__link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.nv-400__link--active {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.nv-400__btn {
+    background: #7c3aed;
+    color: #fff;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    white-space: nowrap;
+    font-family: inherit;
+}
+
+.nv-400__btn:hover {
+    background: #6d28d9;
+}

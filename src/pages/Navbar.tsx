@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import { navbar } from "../data/componentsData";
-import "./All.css";
+import "../styling/AllNavbar.css";
 import "../styling/Navbar.css";
 
 
