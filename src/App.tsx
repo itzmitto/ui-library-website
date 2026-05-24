@@ -44,8 +44,7 @@ function App() {
         <Route path="/elements/radiobuttons" element={<RadioButtons />} />
         <Route path="/elements/forms" element={<Forms />} />
         <Route path="/elements/patterns" element={<Patterns />} />
-        <Route path="/elements/narbar" element={<Navbar />} />
-
+        <Route path="/elements/navbar" element={<Navbar />} />
         {/* Hier meer buttons enz. later toeeovengen wanneer ik ze heb  */}
       </Routes>
     </BrowserRouter>

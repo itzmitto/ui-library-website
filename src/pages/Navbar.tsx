@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import { cards } from "../data/componentsData";
+import { navbar } from "../data/componentsData";
 import "./All.css";
 import "../styling/Navbar.css";
 
@@ -15,11 +15,11 @@ const sidebarItems = [
     { label: "Radiobuttons", path: "/elements/radiobuttons" },
     { label: "Forms", path: "/elements/forms" },
     { label: "Patterns", path: "/elements/patterns" },
-    { label: "Navbar", path: "/elements/narbar", active: true },
+    { label: "Navbar", path: "/elements/navbar", active: true },
 
 ];
 
-export default function Cards() {
+export default function Navbar() {
     return (
         <div className="all-page">
             <Header />
@@ -37,11 +37,11 @@ export default function Cards() {
                 </aside>
                 <main className="all-main">
                     <div className="all-header">
-                        <h1>Cards</h1>
-                        <p>Open-Source cards made with CSS or Tailwind</p>
+                        <h1>Navbar</h1>
+                        <p>Open-Source Navbar made with CSS or Tailwind</p>
                     </div>
                     <div className="all-grid">
-                        {cards.map((item) => (
+                        {navbar.map((item) => (
                             <div key={item.id} className="all-card">
                                 <div className="all-card-preview">{item.preview}</div>
                                 <div className="all-card-footer">

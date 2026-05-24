@@ -14,6 +14,8 @@ const sidebarItems = [
     { label: "Radiobuttons", path: "/elements/radiobuttons" },
     { label: "Forms", path: "/elements/forms" },
     { label: "Patterns", path: "/elements/patterns" },
+        { label: "Navbar", path: "/elements/Navbar" },
+
 ];
 
 export default function Toggleswitches() {
