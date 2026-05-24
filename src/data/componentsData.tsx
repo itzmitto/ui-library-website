@@ -2096,7 +2096,30 @@ export const patterns = [
     }
 ];
 
-export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, ...loaders, ...inputs, ...radiobuttons, ...forms, ...patterns];
+export const navbar = [
+    {
+        id: 400, name: "navbar", preview: (
+            <div className="nv-400">?</div>
+        )
+    },
+    {
+        id: 401, name: "navbar", preview: (
+            <div className="nv-401">?</div>
+        )
+    },
+    {
+        id: 402, name: "navbar", preview: (
+            <div className="nv-402">?</div>
+        )
+    },
+    {
+        id: 403, name: "navbar", preview: (
+            <div className="nv-403">?</div>
+        )
+    }
+];
+
+export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, ...loaders, ...inputs, ...radiobuttons, ...forms, ...patterns, ...navbar];
 
 
 

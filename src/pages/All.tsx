@@ -1,5 +1,5 @@
-import Header from "../components/Header"; 
-import { allComponents } from "../data/componentsData";   
+import Header from "../components/Header";
+import { allComponents } from "../data/componentsData";
 import "./All.css";
 
 export default function All() {
@@ -19,6 +19,7 @@ export default function All() {
           <a href="/elements/radiobuttons" className="sidebar-item">Radiobuttons</a>
           <a href="/elements/forms" className="sidebar-item">Forms</a>
           <a href="/elements/patterns" className="sidebar-item">Patterns</a>
+          <a href="/elements/navbar" className="sidebar-item">Navbar</a>
         </aside>
 
         <main className="all-main">
@@ -28,7 +29,7 @@ export default function All() {
           </div>
 
           <div className="all-grid">
-            {allComponents.map((item) => (         
+            {allComponents.map((item) => (
               <div key={item.id} className="all-card">
                 <div className="all-card-preview">
                   {item.preview}

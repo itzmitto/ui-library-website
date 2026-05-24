@@ -10,6 +10,7 @@ import Inputs from "./pages/Inputs";
 import RadioButtons from "./pages/RadioButtons";
 import Forms from "./pages/Forms";
 import Patterns from "./pages/Patterns";
+import Navbar from "./pages/Navbar";
 
 function Home() {
   return (
@@ -43,6 +44,8 @@ function App() {
         <Route path="/elements/radiobuttons" element={<RadioButtons />} />
         <Route path="/elements/forms" element={<Forms />} />
         <Route path="/elements/patterns" element={<Patterns />} />
+        <Route path="/elements/narbar" element={<Navbar />} />
+
         {/* Hier meer buttons enz. later toeeovengen wanneer ik ze heb  */}
       </Routes>
     </BrowserRouter>
