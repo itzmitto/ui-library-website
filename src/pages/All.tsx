@@ -19,6 +19,7 @@ export default function All() {
           <a href="/elements/radiobuttons" className="sidebar-item">Radiobuttons</a>
           <a href="/elements/forms" className="sidebar-item">Forms</a>
           <a href="/elements/patterns" className="sidebar-item">Patterns</a>
+          <a href="/elements/tooltips" className="sidebar-item">Tooltips</a>
           <a href="/elements/navbar" className="sidebar-item">Navbar</a>
         </aside>
 

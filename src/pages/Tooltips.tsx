@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import { buttons } from "../data/componentsData";
+import { tooltips } from "../data/componentsData";
 import "./All.css";
 import "../styling/Tooltips.css";
 
@@ -43,7 +43,7 @@ export default function Tooltips() {
                     </div>
 
                     <div className="all-grid">
-                        {Tooltips.map((item) => (
+                        {tooltips.map((item) => (
                             <div key={item.id} className="all-card">
                                 <div className="all-card-preview">
                                     {item.preview}

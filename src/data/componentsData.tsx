@@ -2168,8 +2168,12 @@ export const patterns = [
     },
 ];
 export const tooltips = [
-    { id: 500, name: "tooltip", preview: <button className="tt-500">Get started</button> },
-    { id: 501, name: "tooltip", preview: <button className="tt-501">Get started</button> }
+    { id: 500, name: "tooltip", preview: <div className="tt-500">?</div> },
+    { id: 501, name: "tooltip", preview: <div className="tt-501">?</div> },
+    { id: 502, name: "tooltip", preview: <div className="tt-502">?</div> },
+    { id: 503, name: "tooltip", preview: <div className="tt-503">?</div> },
+    { id: 504, name: "tooltip", preview: <div className="tt-504">?</div> },
+    { id: 505, name: "tooltip", preview: <div className="tt-505">?</div> },
 ];
 export const navbar = [
     {
