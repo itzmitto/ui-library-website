@@ -946,7 +946,8 @@ export const inputs = [
                 <i></i>
             </div>
         )
-    }, { id: 189, name: "input", preview: <input className="ip-189" type="text" placeholder="Type something..." /> },
+    },
+    { id: 189, name: "input", preview: <input className="ip-189" type="text" placeholder="Type something..." /> },
     { id: 190, name: "input", preview: <input className="ip-190" type="text" placeholder="Type something..." /> },
     { id: 191, name: "input", preview: <input className="ip-191" type="text" placeholder="Type something..." /> },
     { id: 192, name: "input", preview: <input className="ip-192" type="text" placeholder="Type something..." /> },
@@ -2166,7 +2167,10 @@ export const patterns = [
         )
     },
 ];
-
+export const tooltips = [
+    { id: 500, name: "tooltip", preview: <button className="tt-500">Get started</button> },
+    { id: 501, name: "tooltip", preview: <button className="tt-501">Get started</button> }
+];
 export const navbar = [
     {
         id: 400, name: "Simple Navbar", preview: (
@@ -2446,6 +2450,6 @@ export const navbar = [
     }
 ];
 
-export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, ...loaders, ...inputs, ...radiobuttons, ...forms, ...patterns, ...navbar];
+export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, ...loaders, ...inputs, ...radiobuttons, ...forms, ...patterns, ...tooltips, ...navbar];
 
 

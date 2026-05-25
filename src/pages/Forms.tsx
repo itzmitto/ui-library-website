@@ -14,6 +14,8 @@ const sidebarItems = [
     { label: "Radiobuttons", path: "/elements/radiobuttons" },
     { label: "Forms", path: "/elements/forms", active: true },
     { label: "Patterns", path: "/elements/patterns" },
+        { label: "Tooltips", path: "/elements/tooltips" },
+
     { label: "Navbar", path: "/elements/Navbar" },
 
 ];
