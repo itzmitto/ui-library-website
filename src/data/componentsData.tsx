@@ -2104,14 +2104,14 @@ export const patterns = [
         )
     },
     {
-        id: 306, name: "Pattern", preview: (
+        id: 306, name: "Wavy Lines Pattern", preview: (
             <div className="pattern-306">
                 <div className="pt-306"></div>
             </div>
         )
     },
     {
-        id: 307, name: "Pattern", preview: (
+        id: 307, name: "Circuit Pattern", preview: (
             <div className="pattern-307">
                 <div className="pt-307"></div>
             </div>
@@ -2152,7 +2152,7 @@ export const patterns = [
             <div className="pt-313">?
             </div>
         )
-    },{
+    }, {
         id: 314, name: "Pattern", preview: (
             <div className="pt-314">?
             </div>
