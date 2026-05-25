@@ -2092,7 +2092,7 @@ export const patterns = [
     {
         id: 304, name: "Pattern", preview: (
             <div className="pattern-304">
-                <div className="container"></div>
+                <div className="pt-304"></div>
             </div>
         )
     },
