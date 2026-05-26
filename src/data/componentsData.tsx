@@ -2230,6 +2230,18 @@ export const tooltips = [
     },
     { id: 504, name: "tooltip", preview: <div className="tt-504">?</div> },
     { id: 505, name: "tooltip", preview: <div className="tt-505">?</div> },
+    { id: 506, name: "tooltip", preview: <div className="tt-506">?</div> },
+    { id: 507, name: "tooltip", preview: <div className="tt-507">?</div> },
+    { id: 508, name: "tooltip", preview: <div className="tt-508">?</div> },
+    { id: 509, name: "tooltip", preview: <div className="tt-509">?</div> },
+    { id: 510, name: "tooltip", preview: <div className="tt-510">?</div> },
+    { id: 511, name: "tooltip", preview: <div className="tt-505">?</div> },
+    { id: 512, name: "tooltip", preview: <div className="tt-504">?</div> },
+    { id: 513, name: "tooltip", preview: <div className="tt-505">?</div> },
+    { id: 514, name: "tooltip", preview: <div className="tt-504">?</div> },
+    { id: 515, name: "tooltip", preview: <div className="tt-505">?</div> },
+    { id: 516, name: "tooltip", preview: <div className="tt-504">?</div> },
+    { id: 517, name: "tooltip", preview: <div className="tt-505">?</div> },
 ];
 export const navbar = [
     {
