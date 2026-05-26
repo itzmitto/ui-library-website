@@ -2273,8 +2273,36 @@ export const tooltips = [
             </div>
         ),
     },
-    { id: 507, name: "tooltip", preview: <div className="tt-507">?</div> },
-    { id: 508, name: "tooltip", preview: <div className="tt-508">?</div> },
+    {
+        id: 507, name: "tooltip", preview: (
+            <div className="tt-507">
+                <div className="tt-507-tooltip">
+                    <div className="tt-507-profile">
+                        <div className="tt-507-user">
+                            <div className="tt-507-img">AB</div>
+                            <div className="tt-507-details">
+                                <div className="tt-507-name">User</div>
+                                <div className="tt-507-username">@username</div>
+                            </div>
+                        </div>
+                        <div className="tt-507-about">500+ Connections</div>
+                    </div>
+                </div>
+                <a href="#" className="tt-507-icon">
+                    <div className="tt-507-layer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span className="tt-507-discord">
+                            <i className="fa-brands fa-discord" style={{ color: "rgb(19, 96, 234)" }} ></i> </span>
+                    </div>
+
+                    <div className="tt-507-text">Discord</div>
+                </a>
+            </div>
+        ),
+    }, { id: 508, name: "tooltip", preview: <div className="tt-508">?</div> },
     { id: 509, name: "tooltip", preview: <div className="tt-509">?</div> },
     { id: 510, name: "tooltip", preview: <div className="tt-510">?</div> },
     { id: 511, name: "tooltip", preview: <div className="tt-511">?</div> },
