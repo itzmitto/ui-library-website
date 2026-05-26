@@ -2302,7 +2302,53 @@ export const tooltips = [
                 </a>
             </div>
         ),
-    }, { id: 508, name: "tooltip", preview: <div className="tt-508">?</div> },
+    },
+    {
+        id: 508, name: "tooltip", preview: (
+            <ul className="tt-508-example-1">
+                <li className="tt-508-icon-content">
+                    <a
+                        href="https://www.spotify.com/"
+                        aria-label="Spotify"
+                        data-social="spotify"
+                        className="tt-508-link">
+                        <i className="fa-brands fa-spotify" style={{ color: "rgb(99, 230, 190)" }}></i>
+                    </a>
+                    <div className="tt-508-tooltip">Spotify</div>
+                </li>
+                <li className="tt-508-icon-content">
+                    <a
+                        href="https://www.pinterest.com/"
+                        aria-label="Pinterest"
+                        data-social="pinterest"
+                        className="tt-508-link" >
+                        <i className="fa-brands fa-pinterest" style={{ color: "rgb(218, 78, 78)" }}></i>
+                    </a>
+                    <div className="tt-508-tooltip">Pinterest</div>
+                </li>
+                <li className="tt-508-icon-content">
+                    <a
+                        href="https://dribbble.com/"
+                        aria-label="Dribbble"
+                        data-social="dribbble"
+                        className="tt-508-link" >
+                        <i className="fa-brands fa-square-instagram" style={{ color: "rgb(193, 12, 238)" }}></i>
+                    </a>
+                    <div className="tt-508-tooltip">Dribbble</div>
+                </li>
+                <li className="tt-508-icon-content">
+                    <a
+                        href="https://telegram.org/"
+                        aria-label="Telegram"
+                        data-social="telegram"
+                        className="tt-508-link">
+                        <i className="fa-solid fa-paper-plane" style={{ color: "rgb(116, 192, 252)" }}></i>
+                    </a>
+                    <div className="tt-508-tooltip">Telegram</div>
+                </li>
+            </ul>
+        )
+    },
     { id: 509, name: "tooltip", preview: <div className="tt-509">?</div> },
     { id: 510, name: "tooltip", preview: <div className="tt-510">?</div> },
     { id: 511, name: "tooltip", preview: <div className="tt-511">?</div> },
