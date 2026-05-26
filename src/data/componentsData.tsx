@@ -2259,7 +2259,20 @@ export const tooltips = [
                 <span className="tt-505-tooltip9"></span>
             </div>
         )
-    }, { id: 506, name: "tooltip", preview: <div className="tt-506">?</div> },
+    },
+    {
+        id: 506, name: "tooltip", preview: (
+            <div className="tt-506">
+                <button className="tt-506-btn">
+                    <span className="tt-506-icon">
+                        <i className="fa-brands fa-react"></i>
+                    </span>
+
+                    <span className="tt-506-tooltip">Help?</span>
+                </button>
+            </div>
+        ),
+    },
     { id: 507, name: "tooltip", preview: <div className="tt-507">?</div> },
     { id: 508, name: "tooltip", preview: <div className="tt-508">?</div> },
     { id: 509, name: "tooltip", preview: <div className="tt-509">?</div> },
