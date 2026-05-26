@@ -325,235 +325,412 @@
 }
 
 .tt-503-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, #00051f, #00010c);
-  overflow: hidden;
-  font-family: "Courier New", monospace;
-  position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #00051f, #00010c);
+    overflow: hidden;
+    font-family: "Courier New", monospace;
+    position: relative;
 }
 
 .tt-503-container::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: repeating-linear-gradient(
-    0deg,
-    rgba(0, 255, 153, 0.05),
-    rgba(0, 255, 153, 0.05) 1px,
-    transparent 1px,
-    transparent 10px
-  );
-  opacity: 0.7;
-  z-index: 0;
-  animation: tt-503-data-stream 4s infinite linear;
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(0deg,
+            rgba(0, 255, 153, 0.05),
+            rgba(0, 255, 153, 0.05) 1px,
+            transparent 1px,
+            transparent 10px);
+    opacity: 0.7;
+    z-index: 0;
+    animation: tt-503-data-stream 4s infinite linear;
 }
 
 .tt-503-hacker-container {
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .tt-503-hacker-btn {
-  padding: 18px 40px;
-  background: rgba(20, 20, 60, 0.9);
-  color: #b3b3ff;
-  border: 2px solid #4b4bff;
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  box-shadow:
-    0 0 15px rgba(75, 75, 255, 0.3),
-    inset 0 0 10px rgba(75, 75, 255, 0.2);
+    padding: 18px 40px;
+    background: rgba(20, 20, 60, 0.9);
+    color: #b3b3ff;
+    border: 2px solid #4b4bff;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow:
+        0 0 15px rgba(75, 75, 255, 0.3),
+        inset 0 0 10px rgba(75, 75, 255, 0.2);
 }
 
 .tt-503-hacker-btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(75, 75, 255, 0.3),
-    transparent
-  );
-  animation: tt-503-terminal-swipe 3s infinite linear;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(75, 75, 255, 0.3),
+            transparent);
+    animation: tt-503-terminal-swipe 3s infinite linear;
 }
 
 .tt-503-hacker-btn:hover::before {
-  animation: tt-503-terminal-swipe 1s infinite linear;
+    animation: tt-503-terminal-swipe 1s infinite linear;
 }
 
 .tt-503-hacker-btn:hover {
-  color: #ffffff;
-  box-shadow:
-    0 0 25px rgba(75, 75, 255, 0.7),
-    0 0 40px rgba(75, 75, 255, 0.4);
-  transform: scale(1.03);
+    color: #ffffff;
+    box-shadow:
+        0 0 25px rgba(75, 75, 255, 0.7),
+        0 0 40px rgba(75, 75, 255, 0.4);
+    transform: scale(1.03);
 }
 
 .tt-503-hacker-btn::after {
-  content: "_";
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #00ff99;
-  font-size: 20px;
-  animation: tt-503-cursor-blink 0.8s infinite step-end;
+    content: "_";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #00ff99;
+    font-size: 20px;
+    animation: tt-503-cursor-blink 0.8s infinite step-end;
 }
 
 .tt-503-hacker-tooltip {
-  position: absolute;
-  bottom: 120%;
-  left: 50%;
-  transform: translateX(-50%) scale(0.9);
-  background: rgba(10, 10, 40, 0.95);
-  color: #b3b3ff;
-  padding: 10px 20px;
-  border: 1px solid #4b4bff;
-  font-size: 16px;
-  white-space: nowrap;
-  visibility: hidden;
-  opacity: 0;
-  transition: all 0.3s ease;
-  box-shadow: 0 0 20px rgba(75, 75, 255, 0.3);
-  z-index: 10;
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%) scale(0.9);
+    background: rgba(10, 10, 40, 0.95);
+    color: #b3b3ff;
+    padding: 10px 20px;
+    border: 1px solid #4b4bff;
+    font-size: 16px;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px rgba(75, 75, 255, 0.3);
+    z-index: 10;
 }
 
 .tt-503-hacker-tooltip::before {
-  content: attr(data-text);
-  position: absolute;
-  inset: 0;
-  color: #00ff99;
-  opacity: 0.6;
-  animation: tt-503-typing-glitch 1.2s infinite steps(5);
-  z-index: -1;
+    content: attr(data-text);
+    position: absolute;
+    inset: 0;
+    color: #00ff99;
+    opacity: 0.6;
+    animation: tt-503-typing-glitch 1.2s infinite steps(5);
+    z-index: -1;
 }
 
 .tt-503-hacker-tooltip::after {
-  content: "";
-  position: absolute;
-  inset: -3px;
-  border: 1px solid #4b4bff;
-  opacity: 0.5;
-  filter: blur(4px);
-  animation: tt-503-glow-pulse 2s infinite ease-in-out;
+    content: "";
+    position: absolute;
+    inset: -3px;
+    border: 1px solid #4b4bff;
+    opacity: 0.5;
+    filter: blur(4px);
+    animation: tt-503-glow-pulse 2s infinite ease-in-out;
 }
 
 .tt-503-hacker-tooltip span {
-  position: relative;
+    position: relative;
 }
 
 .tt-503-hacker-tooltip span::after {
-  content: "$>";
-  position: absolute;
-  top: 50%;
-  right: -25px;
-  transform: translateY(-50%);
-  color: #00ff99;
-  font-size: 16px;
-  text-shadow: 0 0 10px #00ff99;
-  animation: tt-503-prompt-flick 1s infinite alternate;
+    content: "$>";
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%);
+    color: #00ff99;
+    font-size: 16px;
+    text-shadow: 0 0 10px #00ff99;
+    animation: tt-503-prompt-flick 1s infinite alternate;
 }
 
 .tt-503-hacker-container:hover .tt-503-hacker-tooltip {
-  visibility: visible;
-  opacity: 1;
-  transform: translateX(-50%) scale(1);
-  bottom: 130%;
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+    bottom: 130%;
 }
 
 @keyframes tt-503-data-stream {
-  0% {
-    transform: translateY(0);
-  }
+    0% {
+        transform: translateY(0);
+    }
 
-  100% {
-    transform: translateY(-10px);
-  }
+    100% {
+        transform: translateY(-10px);
+    }
 }
 
 @keyframes tt-503-terminal-swipe {
-  0% {
-    left: -100%;
-  }
+    0% {
+        left: -100%;
+    }
 
-  100% {
-    left: 100%;
-  }
+    100% {
+        left: 100%;
+    }
 }
 
 @keyframes tt-503-cursor-blink {
-  0% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 1;
+    }
 
-  50% {
-    opacity: 0;
-  }
+    50% {
+        opacity: 0;
+    }
 
-  100% {
-    opacity: 1;
-  }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes tt-503-typing-glitch {
-  0% {
-    clip-path: inset(0 100% 0 0);
-  }
+    0% {
+        clip-path: inset(0 100% 0 0);
+    }
 
-  20% {
-    clip-path: inset(0 80% 0 0);
-  }
+    20% {
+        clip-path: inset(0 80% 0 0);
+    }
 
-  40% {
-    clip-path: inset(0 60% 0 0);
-  }
+    40% {
+        clip-path: inset(0 60% 0 0);
+    }
 
-  60% {
-    clip-path: inset(0 40% 0 0);
-  }
+    60% {
+        clip-path: inset(0 40% 0 0);
+    }
 
-  80% {
-    clip-path: inset(0 20% 0 0);
-  }
+    80% {
+        clip-path: inset(0 20% 0 0);
+    }
 
-  100% {
-    clip-path: inset(0 0 0 0);
-  }
+    100% {
+        clip-path: inset(0 0 0 0);
+    }
 }
 
 @keyframes tt-503-glow-pulse {
-  0% {
-    opacity: 0.5;
-  }
+    0% {
+        opacity: 0.5;
+    }
 
-  50% {
-    opacity: 0.9;
-  }
+    50% {
+        opacity: 0.9;
+    }
 
-  100% {
-    opacity: 0.5;
-  }
+    100% {
+        opacity: 0.5;
+    }
 }
 
 @keyframes tt-503-prompt-flick {
-  0% {
-    opacity: 0.6;
-  }
+    0% {
+        opacity: 0.6;
+    }
 
-  100% {
+    100% {
+        opacity: 1;
+    }
+}
+
+.tt-504-tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+.tt-504-tooltip:hover .tt-504-tooltiptext {
+    visibility: visible;
     opacity: 1;
-  }
+}
+
+.tt-504-tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tt-504-tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #333 transparent;
+}
+
+.tt-504-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.tt-505-tooltip-container {
+    background: linear-gradient(138deg,
+            rgba(3, 169, 244, 1) 15%,
+            rgba(63, 180, 233, 1) 65%);
+    position: relative;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 0.7em;
+    border-radius: 50px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.tt-505-tooltip-container:hover {
+    background: #fff;
+    transition: all 0.6s;
+}
+
+.tt-505-tooltip-container .tt-505-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 22px;
+    transition: all 0.2s;
+}
+
+.tt-505-tooltip-container:hover .tt-505-text {
+    color: rgb(19, 96, 234);
+    transition: all 0.6s;
+}
+
+.tt-505-tooltip1,
+.tt-505-tooltip2,
+.tt-505-tooltip3,
+.tt-505-tooltip4 {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    transition: 0.3s;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgb(19, 96, 234);
+    font-size: 20px;
+}
+
+.tt-505-tooltip1 {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tt-505-tooltip-container:hover .tt-505-tooltip1 {
+    top: 150%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.tt-505-tooltip2 {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tt-505-tooltip-container:hover .tt-505-tooltip2 {
+    top: -120%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.tt-505-tooltip3 {
+    top: 100%;
+    left: 60%;
+    transform: translateX(80%);
+}
+
+.tt-505-tooltip-container:hover .tt-505-tooltip3 {
+    top: 10%;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(85%, -5px);
+}
+
+.tt-505-tooltip4 {
+    top: 100%;
+    left: -190%;
+    transform: translateX(70%);
+}
+
+.tt-505-tooltip-container:hover .tt-505-tooltip4 {
+    top: 10%;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(70%, -5px);
+}
+
+.tt-505-tooltip1:hover,
+.tt-505-tooltip2:hover,
+.tt-505-tooltip3:hover,
+.tt-505-tooltip4:hover {
+    background: rgb(19, 96, 234);
+    color: #fff;
+}
+
+.tt-505-tooltip9 {
+    position: absolute;
+    top: 0;
+    left: -115%;
+    opacity: 0;
+    visibility: hidden;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+}
+
+.tt-505-tooltip-container:hover .tt-505-tooltip9 {
+    top: -110%;
+    opacity: 1;
+    visibility: visible;
+    border-radius: 50%;
+    z-index: -1;
 }

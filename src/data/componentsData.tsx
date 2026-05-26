@@ -2228,20 +2228,49 @@ export const tooltips = [
             </div>
         )
     },
-    { id: 504, name: "tooltip", preview: <div className="tt-504">?</div> },
-    { id: 505, name: "tooltip", preview: <div className="tt-505">?</div> },
-    { id: 506, name: "tooltip", preview: <div className="tt-506">?</div> },
+    {
+        id: 504, name: "tooltip", preview: (
+            <div className="tt-504-tooltip">
+                <div className="tt-504-icon">i</div>
+                <div className="tt-504-tooltiptext">
+                    This is a cool tooltip!
+                </div>
+            </div>
+        )
+    },
+    {
+        id: 505, name: "tooltip", preview: (
+            <div className="tt-505-tooltip-container">
+                <span className="tt-505-text">
+                    <i className="fa-solid fa-paper-plane"></i>
+                </span>
+                <span className="tt-505-tooltip1">
+                    <i className="fa-brands fa-twitter"></i>
+                </span>
+                <span className="tt-505-tooltip2">
+                    <i className="fa-brands fa-facebook"></i>
+                </span>
+                <span className="tt-505-tooltip3">
+                    <i className="fa-brands fa-whatsapp"></i>
+                </span>
+                <span className="tt-505-tooltip4">
+                    <i className="fa-brands fa-discord"></i>
+                </span>
+                <span className="tt-505-tooltip9"></span>
+            </div>
+        )
+    }, { id: 506, name: "tooltip", preview: <div className="tt-506">?</div> },
     { id: 507, name: "tooltip", preview: <div className="tt-507">?</div> },
     { id: 508, name: "tooltip", preview: <div className="tt-508">?</div> },
     { id: 509, name: "tooltip", preview: <div className="tt-509">?</div> },
     { id: 510, name: "tooltip", preview: <div className="tt-510">?</div> },
-    { id: 511, name: "tooltip", preview: <div className="tt-505">?</div> },
-    { id: 512, name: "tooltip", preview: <div className="tt-504">?</div> },
-    { id: 513, name: "tooltip", preview: <div className="tt-505">?</div> },
-    { id: 514, name: "tooltip", preview: <div className="tt-504">?</div> },
-    { id: 515, name: "tooltip", preview: <div className="tt-505">?</div> },
-    { id: 516, name: "tooltip", preview: <div className="tt-504">?</div> },
-    { id: 517, name: "tooltip", preview: <div className="tt-505">?</div> },
+    { id: 511, name: "tooltip", preview: <div className="tt-511">?</div> },
+    { id: 512, name: "tooltip", preview: <div className="tt-512">?</div> },
+    { id: 513, name: "tooltip", preview: <div className="tt-513">?</div> },
+    { id: 514, name: "tooltip", preview: <div className="tt-514">?</div> },
+    { id: 515, name: "tooltip", preview: <div className="tt-515">?</div> },
+    { id: 516, name: "tooltip", preview: <div className="tt-516">?</div> },
+    { id: 517, name: "tooltip", preview: <div className="tt-517">?</div> },
 ];
 export const navbar = [
     {
