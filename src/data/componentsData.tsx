@@ -2197,7 +2197,8 @@ export const tooltips = [
                 </div>
             </div>
         )
-    }, {
+    },
+    {
         id: 501, name: "Tooltip Top", preview: (
             <div className="tt-501">
                 Hover me
@@ -2213,7 +2214,20 @@ export const tooltips = [
             </div>
         )
     },
-    { id: 503, name: "tooltip", preview: <div className="tt-503">?</div> },
+    {
+        id: 503, name: "tooltip", preview: (
+            <div className="tt-503-container">
+                <div className="tt-503-hacker-container">
+                    <button className="tt-503-hacker-btn">SYSTEM</button>
+                    <div
+                        data-text="SYSTEM OVERRIDE"
+                        className="tt-503-hacker-tooltip">
+                        <span>SYSTEM OVERRIDE</span>
+                    </div>
+                </div>
+            </div>
+        )
+    },
     { id: 504, name: "tooltip", preview: <div className="tt-504">?</div> },
     { id: 505, name: "tooltip", preview: <div className="tt-505">?</div> },
 ];

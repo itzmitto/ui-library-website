@@ -323,3 +323,237 @@
         transform: translateX(100px);
     }
 }
+
+.tt-503-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #00051f, #00010c);
+  overflow: hidden;
+  font-family: "Courier New", monospace;
+  position: relative;
+}
+
+.tt-503-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 255, 153, 0.05),
+    rgba(0, 255, 153, 0.05) 1px,
+    transparent 1px,
+    transparent 10px
+  );
+  opacity: 0.7;
+  z-index: 0;
+  animation: tt-503-data-stream 4s infinite linear;
+}
+
+.tt-503-hacker-container {
+  position: relative;
+  z-index: 1;
+}
+
+.tt-503-hacker-btn {
+  padding: 18px 40px;
+  background: rgba(20, 20, 60, 0.9);
+  color: #b3b3ff;
+  border: 2px solid #4b4bff;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow:
+    0 0 15px rgba(75, 75, 255, 0.3),
+    inset 0 0 10px rgba(75, 75, 255, 0.2);
+}
+
+.tt-503-hacker-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(75, 75, 255, 0.3),
+    transparent
+  );
+  animation: tt-503-terminal-swipe 3s infinite linear;
+}
+
+.tt-503-hacker-btn:hover::before {
+  animation: tt-503-terminal-swipe 1s infinite linear;
+}
+
+.tt-503-hacker-btn:hover {
+  color: #ffffff;
+  box-shadow:
+    0 0 25px rgba(75, 75, 255, 0.7),
+    0 0 40px rgba(75, 75, 255, 0.4);
+  transform: scale(1.03);
+}
+
+.tt-503-hacker-btn::after {
+  content: "_";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #00ff99;
+  font-size: 20px;
+  animation: tt-503-cursor-blink 0.8s infinite step-end;
+}
+
+.tt-503-hacker-tooltip {
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%) scale(0.9);
+  background: rgba(10, 10, 40, 0.95);
+  color: #b3b3ff;
+  padding: 10px 20px;
+  border: 1px solid #4b4bff;
+  font-size: 16px;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 20px rgba(75, 75, 255, 0.3);
+  z-index: 10;
+}
+
+.tt-503-hacker-tooltip::before {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  color: #00ff99;
+  opacity: 0.6;
+  animation: tt-503-typing-glitch 1.2s infinite steps(5);
+  z-index: -1;
+}
+
+.tt-503-hacker-tooltip::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border: 1px solid #4b4bff;
+  opacity: 0.5;
+  filter: blur(4px);
+  animation: tt-503-glow-pulse 2s infinite ease-in-out;
+}
+
+.tt-503-hacker-tooltip span {
+  position: relative;
+}
+
+.tt-503-hacker-tooltip span::after {
+  content: "$>";
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  transform: translateY(-50%);
+  color: #00ff99;
+  font-size: 16px;
+  text-shadow: 0 0 10px #00ff99;
+  animation: tt-503-prompt-flick 1s infinite alternate;
+}
+
+.tt-503-hacker-container:hover .tt-503-hacker-tooltip {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+  bottom: 130%;
+}
+
+@keyframes tt-503-data-stream {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes tt-503-terminal-swipe {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes tt-503-cursor-blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tt-503-typing-glitch {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+
+  20% {
+    clip-path: inset(0 80% 0 0);
+  }
+
+  40% {
+    clip-path: inset(0 60% 0 0);
+  }
+
+  60% {
+    clip-path: inset(0 40% 0 0);
+  }
+
+  80% {
+    clip-path: inset(0 20% 0 0);
+  }
+
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes tt-503-glow-pulse {
+  0% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 0.9;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes tt-503-prompt-flick {
+  0% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
