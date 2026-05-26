@@ -1,10 +1,10 @@
-.all-page {
+.all---page {
     background: #09090b;
     min-height: 100vh;
     color: #fff;
 } 
 
-.all-layout {
+.all---layout {
     display: flex;
     padding-top: 56px;
     min-height: 100vh;
@@ -24,7 +24,7 @@
     flex-shrink: 0;
 }
 
-.sidebar-item {
+.sidebar---item {
     color: #71717a;
     text-decoration: none;
     font-size: 14px;
@@ -33,28 +33,28 @@
     transition: background 0.15s, color 0.15s;
 }
 
-.sidebar-item:hover {
+.sidebar---item:hover {
     background: rgba(255, 255, 255, 0.05);
     color: #fff; 
 }
 
-.sidebar-item--active {
+.sidebar---item---active {
     background: rgba(255, 255, 255, 0.07);
     color: #fff;
     font-weight: 500;
 }
 
-.all-main {
+.all---main {
     flex: 1;
     padding: 32px 40px;
     overflow-y: auto;
 }
 
-.all-header {
+.all---header {
     margin-bottom: 28px;
 }
 
-.all-header h1 {
+.all---header h1 {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 6px;
@@ -65,13 +65,13 @@
     font-size: 14px;
 }
 
-.all-grid {
+.all---grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: 12px;
 }
 
-.all-card {
+.all---card {
     background: #111113;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 10px;
@@ -79,11 +79,11 @@
     transition: border-color 0.2s;
 }
 
-.all-card:hover {
+.all---card:hover {
     border-color: rgba(255, 255, 255, 0.15);
 }
 
-.all-card-preview {
+.all---card---preview {
     height: 200px;
     display: flex;
     align-items: center;
@@ -92,12 +92,12 @@
     padding: 20px;
 }
 
-.all-card-footer {
+.all---card---footer {
     padding: 10px 14px;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.all-card-name {
+.all---card---name {
     font-size: 13px;
     color: #a1a1aa;
 }

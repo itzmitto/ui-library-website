@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import { tooltips } from "../data/componentsData";
-import "./All.css";
+import "./AllTools.css"; 
 import "../styling/Tooltips.css";
 
 const sidebarItems = [
@@ -21,10 +21,10 @@ const sidebarItems = [
 
 export default function Tooltips() {
     return (
-        <div className="all-page">
+        <div className="all---page">
             <Header />
 
-            <div className="all-layout">
+            <div className="all---layout">
                 <aside className="sidebar">
                     {sidebarItems.map((item) => (
                         <a
@@ -36,20 +36,20 @@ export default function Tooltips() {
                     ))}
                 </aside>
 
-                <main className="all-main">
-                    <div className="all-header">
+                <main className="all---main">
+                    <div className="all---header">
                         <h1>Tooltips</h1>
                         <p>Open-Source Tooltips made with CSS or Tailwind</p>
                     </div>
 
                     <div className="all-grid">
                         {tooltips.map((item) => (
-                            <div key={item.id} className="all-card">
-                                <div className="all-card-preview">
+                            <div key={item.id} className="all---card">
+                                <div className="all---card---preview">
                                     {item.preview}
                                 </div>
-                                <div className="all-card-footer">
-                                    <span className="all-card-name">{item.name}</span>
+                                <div className="all---card---footer">
+                                    <span className="all---card---name">{item.name}</span>
                                 </div>
                             </div>
                         ))}
