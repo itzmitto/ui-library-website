@@ -30,7 +30,7 @@ export default function Tooltips() {
                         <a
                             key={item.path}
                             href={item.path}
-                            className={`sidebar-item ${item.active ? "sidebar-item--active" : ""}`} >
+                            className={`sidebar-item ${item.active ? "sidebar---item---active" : ""}`} >
                             {item.label}
                         </a>
                     ))}
@@ -42,7 +42,7 @@ export default function Tooltips() {
                         <p>Open-Source Tooltips made with CSS or Tailwind</p>
                     </div>
 
-                    <div className="all-grid">
+                    <div className="all---grid">
                         {tooltips.map((item) => (
                             <div key={item.id} className="all---card">
                                 <div className="all---card---preview">

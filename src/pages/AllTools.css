@@ -2,7 +2,7 @@
     background: #09090b;
     min-height: 100vh;
     color: #fff;
-} 
+}
 
 .all---layout {
     display: flex;
@@ -35,7 +35,7 @@
 
 .sidebar---item:hover {
     background: rgba(255, 255, 255, 0.05);
-    color: #fff; 
+    color: #fff;
 }
 
 .sidebar---item---active {
@@ -67,8 +67,8 @@
 
 .all---grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 12px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
 }
 
 .all---card {
@@ -84,7 +84,7 @@
 }
 
 .all---card---preview {
-    height: 200px;
+    height: 280px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,7 +93,7 @@
 }
 
 .all---card---footer {
-    padding: 10px 14px;
+    padding: 12px 16px;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
