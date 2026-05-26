@@ -2168,8 +2168,36 @@ export const patterns = [
     },
 ];
 export const tooltips = [
-    { id: 500, name: "tooltip", preview: <div className="tt-500">?</div> },
     {
+        id: 500, name: "Location Tooltip", preview: (
+            <div className="tt-500-app">
+                <div className="tt-500-reference tt-500-relative">
+                    <p className="tt-500-main-title">
+                        Location{" "}
+                        <span className="tt-500-hover-card">Paris</span>
+                        , France </p>
+                    <div className="tt-500-card tt-500-absolute">
+                        <div className="tt-500-cloud"></div>
+                        <div className="tt-500-cloud"></div>
+                        <div className="tt-500-cloud"></div>
+                        <div className="tt-500-cloud"></div>
+                        <div className="tt-500-relative tt-500-inner-card">
+                            <div className="tt-500-bg-map"></div>
+                            <div className="tt-500-location tt-500-absolute"></div>
+                            <div className="tt-500-elements">
+                                <div className="tt-500-description tt-500-relative">
+                                    <div className="tt-500-blur-item tt-500-absolute"></div>
+                                    <span className="tt-500-main-title">Paris</span>
+                                    <p className="tt-500-second-title">France</p>
+                                </div>
+                                <div className="tt-500-details"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )
+    }, {
         id: 501, name: "Tooltip Top", preview: (
             <div className="tt-501">
                 Hover me
