@@ -2169,8 +2169,22 @@ export const patterns = [
 ];
 export const tooltips = [
     { id: 500, name: "tooltip", preview: <div className="tt-500">?</div> },
-    { id: 501, name: "tooltip", preview: <div className="tt-501">?</div> },
-    { id: 502, name: "tooltip", preview: <div className="tt-502">?</div> },
+    {
+        id: 501, name: "Tooltip Top", preview: (
+            <div className="tt-501">
+                Hover me
+                <span className="tt-501__tip">This is a tooltip</span>
+            </div>
+        )
+    },
+    {
+        id: 502, name: "Tooltip Side", preview: (
+            <div className="tt-502">
+                Hover me
+                <span className="tt-502__tip">Tooltip right</span>
+            </div>
+        )
+    },
     { id: 503, name: "tooltip", preview: <div className="tt-503">?</div> },
     { id: 504, name: "tooltip", preview: <div className="tt-504">?</div> },
     { id: 505, name: "tooltip", preview: <div className="tt-505">?</div> },
