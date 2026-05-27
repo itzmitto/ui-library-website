@@ -1,7 +1,8 @@
-import Header from "../components/Header";
+import Header from "../components/Header"; 
 import { buttons } from "../data/componentsData";
 import "./All.css";
 import "../styling/Buttons.css";
+
 
 const sidebarItems = [
     { label: "All", path: "/elements" },
