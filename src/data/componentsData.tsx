@@ -2334,7 +2334,7 @@ export const tooltips = [
                         className="tt-508-link" >
                         <i className="fa-brands fa-square-instagram" style={{ color: "rgb(193, 12, 238)" }}></i>
                     </a>
-                    <div className="tt-508-tooltip">Dribbble</div>
+                    <div className="tt-508-tooltip">Instagram</div>
                 </li>
                 <li className="tt-508-icon-content">
                     <a
