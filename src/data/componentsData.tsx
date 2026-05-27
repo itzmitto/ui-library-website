@@ -866,7 +866,7 @@ export const loaders = [
     { id: 170, name: "Loader", preview: <div className="ld-170" /> },
     {
         id: 600, name: "Kinetic Badge", preview: (
-            <a href="#" className="ld-600"> 
+            <a href="#" className="ld-600">
                 <div className="ld-600__bg"></div>
                 <div className="ld-600__text">
                     <svg viewBox="0 0 100 100" width="120" height="120">
@@ -909,7 +909,15 @@ export const loaders = [
             </div>
         )
     },
-    { id: 602, name: "Loader", preview: <div className="ld-602" /> },
+    {
+        id: 602, name: "Scanner Loader", preview: (
+            <div className="ld-602">
+                <div className="ld-602__scanner">
+                    <span>Loading...</span>
+                </div>
+            </div>
+        )
+    },
     { id: 603, name: "Loader", preview: <div className="ld-603" /> },
     { id: 604, name: "Loader", preview: <div className="ld-604" /> },
     { id: 605, name: "Loader", preview: <div className="ld-605" /> },
