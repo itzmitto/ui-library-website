@@ -1,0 +1,145 @@
+.cm-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cm-modal {
+    background: #111113;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    width: 100%;
+    max-width: 660px;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: cm-in 0.2s ease;
+}
+
+@keyframes cm-in {
+    from {
+        opacity: 0;
+        transform: scale(0.95) translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.cm-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    flex-shrink: 0;
+}
+
+.cm-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.cm-close {
+    background: none;
+    border: none;
+    color: #71717a;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: color 0.15s, background 0.15s;
+    line-height: 1;
+}
+
+.cm-close:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.cm-preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0d0d0f;
+    min-height: 160px;
+    padding: 32px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    flex-shrink: 0;
+}
+
+.cm-tabs {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 10px 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    flex-shrink: 0;
+}
+
+.cm-tab {
+    background: none;
+    border: none;
+    color: #71717a;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+}
+
+.cm-tab:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.cm-tab--active {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.cm-copy {
+    margin-left: auto;
+    background: #7c3aed;
+    color: #fff;
+    border: none;
+    padding: 5px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.15s;
+    font-family: inherit;
+}
+
+.cm-copy:hover {
+    background: #6d28d9;
+}
+
+.cm-code {
+    overflow-y: auto;
+    flex: 1;
+    padding: 16px 20px;
+    background: #0a0a0c;
+}
+
+.cm-code pre {
+    margin: 0;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    font-size: 13px;
+    line-height: 1.7;
+    color: #c4b5fd;
+    white-space: pre-wrap;
+    word-break: break-word;
+}

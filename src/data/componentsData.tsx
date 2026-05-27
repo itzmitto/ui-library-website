@@ -1,11 +1,24 @@
-import "../pages/All.css";
+import "../pages/All.css"; 
 
 export const buttons = [
     { id: 1, name: "Gradient Button", preview: <button className="prev-btn-gradient">Get started</button> },
     { id: 2, name: "Outline Button", preview: <button className="prev-btn-outline">Hover me!</button> },
     { id: 3, name: "Pill Button", preview: <button className="prev-btn-pill">Subscribe</button> },
     { id: 4, name: "Ghost Button", preview: <button className="prev-btn-ghost">Learn more</button> },
-    { id: 13, name: "Button1", preview: <button className="Button1">Get started</button> },
+{ 
+    id: 13, 
+    name: "Button1", 
+    preview: <button className="Button1">Get started</button>,
+    html: `<button class="Button1">Get started</button>`,
+    css: `.Button1 {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    background: dodgerblue;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}`
+},    
     { id: 14, name: "Button2", preview: <button className="Button2">Get started</button> },
     { id: 15, name: "Button3", preview: <button className="Button3">Get started</button> },
     { id: 16, name: "3D Flip Button", preview: <button className="Button16"><a>Hover me</a></button> },
