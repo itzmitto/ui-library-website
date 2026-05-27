@@ -864,6 +864,80 @@ export const loaders = [
     { id: 168, name: "Loader", preview: <div className="ld-168" /> },
     { id: 169, name: "Loader", preview: <div className="ld-169" /> },
     { id: 170, name: "Loader", preview: <div className="ld-170" /> },
+    {
+        id: 600, name: "Kinetic Badge", preview: (
+            <a href="#" className="ld-600"> 
+                <div className="ld-600__bg"></div>
+                <div className="ld-600__text">
+                    <svg viewBox="0 0 100 100" width="120" height="120">
+                        <defs>
+                            <path
+                                id="ld600-circle"
+                                d="M 50, 50 m -38, 0 a 38,38 0 1,1 76,0 a 38,38 0 1,1 -76,0"
+                            ></path>
+                        </defs>
+                        <text fontSize="10.5" fontWeight="600" fill="currentColor" letterSpacing="2">
+                            <textPath href="#ld600-circle" startOffset="0%">
+                                VIEW MASTERPIECE • VIEW MASTERPIECE •
+                            </textPath>
+                        </text>
+                    </svg>
+                </div>
+                <div className="ld-600__icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" width="28" height="28">
+                        <path d="M6 18L18 6M18 6H8M18 6V16" strokeWidth="2" strokeLinejoin="round" strokeLinecap="round"></path>
+                    </svg>
+                </div>
+            </a>
+        )
+    },
+    {
+        id: 601, name: "Blade Spinner", preview: (
+            <div className="ld-601">
+                <div className="ld-601__blade"></div>
+                <div className="ld-601__blade"></div>
+                <div className="ld-601__blade"></div>
+                <div className="ld-601__blade"></div>
+                <div className="ld-601__blade"></div>
+                <div className="ld-601__blade"></div>
+                <div className="ld-601__blade"></div>
+                <div className="ld-601__blade"></div>
+                <div className="ld-601__blade"></div>
+                <div className="ld-601__blade"></div>
+                <div className="ld-601__blade"></div>
+                <div className="ld-601__blade"></div>
+            </div>
+        )
+    },
+    { id: 602, name: "Loader", preview: <div className="ld-602" /> },
+    { id: 603, name: "Loader", preview: <div className="ld-603" /> },
+    { id: 604, name: "Loader", preview: <div className="ld-604" /> },
+    { id: 605, name: "Loader", preview: <div className="ld-605" /> },
+    { id: 606, name: "Loader", preview: <div className="ld-606" /> },
+    { id: 607, name: "Loader", preview: <div className="ld-607" /> },
+    { id: 608, name: "Loader", preview: <div className="ld-608" /> },
+    { id: 609, name: "Loader", preview: <div className="ld-609" /> },
+    { id: 610, name: "Loader", preview: <div className="ld-610" /> },
+    { id: 611, name: "Loader", preview: <div className="ld-611" /> },
+    { id: 612, name: "Loader", preview: <div className="ld-612" /> },
+    { id: 613, name: "Loader", preview: <div className="ld-613" /> },
+    { id: 614, name: "Loader", preview: <div className="ld-614" /> },
+    { id: 615, name: "Loader", preview: <div className="ld-615" /> },
+    { id: 616, name: "Loader", preview: <div className="ld-616" /> },
+    { id: 617, name: "Loader", preview: <div className="ld-617" /> },
+    { id: 618, name: "Loader", preview: <div className="ld-618" /> },
+    { id: 619, name: "Loader", preview: <div className="ld-619" /> },
+    { id: 620, name: "Loader", preview: <div className="ld-620" /> },
+    { id: 621, name: "Loader", preview: <div className="ld-621" /> },
+    { id: 622, name: "Loader", preview: <div className="ld-622" /> },
+    { id: 623, name: "Loader", preview: <div className="ld-623" /> },
+    { id: 624, name: "Loader", preview: <div className="ld-624" /> },
+    { id: 625, name: "Loader", preview: <div className="ld-625" /> },
+    { id: 626, name: "Loader", preview: <div className="ld-626" /> },
+    { id: 627, name: "Loader", preview: <div className="ld-627" /> },
+    { id: 628, name: "Loader", preview: <div className="ld-628" /> },
+    { id: 629, name: "Loader", preview: <div className="ld-629" /> },
+    { id: 630, name: "Loader", preview: <div className="ld-630" /> },
 
 ];
 
