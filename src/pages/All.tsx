@@ -9,7 +9,7 @@ export default function All() {
 
   return (
     <div className="all-page">
-      <Header />
+      <Header /> 
 
       <div className="all-layout">
         <aside className="sidebar">
