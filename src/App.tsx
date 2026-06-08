@@ -13,17 +13,16 @@ import Patterns from "./pages/Patterns";
 import Tooltips from "./pages/Tooltips"
 import Navbar from "./pages/Navbar";
 
+
 function Home() {
   return (
     <div>
       <Header />
-      <section id="center">
-        <div className="container">
-          <div className="hero">
-            <h1 className="hero-title">
-              My Ui Components Library
-            </h1>
-          </div>
+      <section className="hero">
+        <div style={{ paddingLeft: '80px', position: 'relative', zIndex: 1 }}>
+          <h1 className="hero-title">
+            My Ui Components Library
+          </h1>
         </div>
       </section>
     </div>

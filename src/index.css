@@ -103,17 +103,34 @@ body {
   background: rgba(255, 255, 255, 0.06);
   color: #fff;
 }
+ .hero {
+  position: relative;
+  min-height: 100vh;
+  padding-top: 30px;
+  display: flex;
+  align-items: center; 
+  background-image: url('/src/assets/image1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-.hero {
-  padding-top: 180px;
-  text-align: center;
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
 }
 
 .hero-title {
-  font-size: 72px;
+  position: relative;
+  z-index: 1;
+  font-size: 60px;
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -2px;
+  text-align: left; 
+  max-width: 700px;
 }
 
 .page-layout {
