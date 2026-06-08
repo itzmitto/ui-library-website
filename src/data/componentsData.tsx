@@ -52,8 +52,7 @@ export const buttons = [
         background: rgba(45, 212, 191, 0.1);
 }`
     },
-
- {
+    {
         id: 4, name: "Ghost Button", preview: <button className="prev-btn-ghost">Get started</button>,
         html: `<button class="Button">Get started</button>`,
         css: `.Button {
@@ -70,12 +69,6 @@ export const buttons = [
         background: rgba(255, 255, 255, 0.1);
 }`
     },
-
-
-
-
-
-
     {
         id: 13, name: "Button1", preview: <button className="Button1">Get started</button>,
         html: `<button class="Button">Get started</button>`,
@@ -4010,3 +4003,20 @@ export const navbar = [
 export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, ...loaders, ...inputs, ...radiobuttons, ...forms, ...patterns, ...tooltips, ...navbar];
 
 
+
+
+
+
+
+
+
+        // {
+        // id: 1, name: "wat de naam ook maar is", preview: <button className="wat de naam ook maar is">Get started</button>,
+        // html: `<button class="Button">click here</button>`,
+        // css: `.Button {
+        // color: #fff;
+        // }
+        // .Button:hover {
+        //     opacity: 0.85;
+        // }`
+        // },
