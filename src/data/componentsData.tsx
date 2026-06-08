@@ -18,7 +18,6 @@ export const buttons = [
     opacity: 0.85;
 }`
     },
-
     {
         id: 2, name: "Outline Button", preview: <button className="prev-btn-outline">Hover me!</button>,
         html: `<button class="Button">Get started</button>`,
@@ -36,20 +35,47 @@ export const buttons = [
 
 }`
     },
+    {
+        id: 3, name: "Pill Button", preview: <button className="prev-btn-pill">Get started</button>,
+        html: `<button class="Button">Get started</button>`,
+        css: `.Button {
+    background: transparent;
+    color: #2dd4bf;
+    border: 2px solid #2dd4bf;
+    padding: 10px 28px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.Button:hover {
+        background: rgba(45, 212, 191, 0.1);
+}`
+    },
+
+ {
+        id: 4, name: "Ghost Button", preview: <button className="prev-btn-ghost">Get started</button>,
+        html: `<button class="Button">Get started</button>`,
+        css: `.Button {
+   background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 10px 28px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.Button:hover {
+        background: rgba(255, 255, 255, 0.1);
+}`
+    },
 
 
 
 
 
 
-
-
-
-
-
-
-    { id: 3, name: "Pill Button", preview: <button className="prev-btn-pill">Subscribe</button> },
-    { id: 4, name: "Ghost Button", preview: <button className="prev-btn-ghost">Learn more</button> },
     {
         id: 13, name: "Button1", preview: <button className="Button1">Get started</button>,
         html: `<button class="Button">Get started</button>`,
