@@ -1,7 +1,53 @@
 import "../pages/All.css";
+
 export const buttons = [
-    { id: 1, name: "Gradient Button", preview: <button className="prev-btn-gradient">Get started</button> },
-    { id: 2, name: "Outline Button", preview: <button className="prev-btn-outline">Hover me!</button> },
+    {
+        id: 1, name: "Gradient Button", preview: <button className="prev-btn-gradient">Get started</button>,
+        html: `<button class="Button">Get started</button>`,
+        css: `.Button {
+    background: linear-gradient(135deg, #7c3aed, #4f46e5);
+    color: #fff;
+    border: none;
+    padding: 10px 28px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+.Button:hover {
+    opacity: 0.85;
+}`
+    },
+
+    {
+        id: 2, name: "Outline Button", preview: <button className="prev-btn-outline">Hover me!</button>,
+        html: `<button class="Button">Get started</button>`,
+        css: `.Button { 
+    background: transparent;
+    color: #a855f7;
+    border: 2px solid #a855f7;
+    padding: 10px 28px;
+    border-radius: 999px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s; }
+.Button:hover {
+        background: rgba(168, 85, 247, 0.1);
+
+}`
+    },
+
+
+
+
+
+
+
+
+
+
+
+
     { id: 3, name: "Pill Button", preview: <button className="prev-btn-pill">Subscribe</button> },
     { id: 4, name: "Ghost Button", preview: <button className="prev-btn-ghost">Learn more</button> },
     {
