@@ -1,4 +1,4 @@
-import "../pages/All.css";
+import "../pages/All.css"; 
 
 export const buttons = [
     { id: 1, name: "Gradient Button", preview: <button className="prev-btn-gradient">Get started</button> },

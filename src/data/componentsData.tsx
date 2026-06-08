@@ -1,5 +1,4 @@
 import "../pages/All.css";
-
 export const buttons = [
     { id: 1, name: "Gradient Button", preview: <button className="prev-btn-gradient">Get started</button> },
     { id: 2, name: "Outline Button", preview: <button className="prev-btn-outline">Hover me!</button> },
@@ -7,8 +6,8 @@ export const buttons = [
     { id: 4, name: "Ghost Button", preview: <button className="prev-btn-ghost">Learn more</button> },
     {
         id: 13, name: "Button1", preview: <button className="Button1">Get started</button>,
-        html: `<button class="Button1">Get started</button>`,
-        css: `.Button1 {
+        html: `<button class="Button">Get started</button>`,
+        css: `.Button {
     font-size: 17px;
     padding: 0.5em 2em;
     border: transparent;
@@ -18,15 +17,14 @@ export const buttons = [
     border-radius: 4px;
     cursor: pointer;
 }
-.Button1:hover {
+.Button:hover {
     background: linear-gradient(90deg, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
 }`
     },
-
     {
         id: 14, name: "Button2", preview: <button className="Button2">Get started</button>,
-        html: `<button class="Button2">Get started</button>`,
-        css: `.Button2 {
+        html: `<button class="Button">Get started</button>`,
+        css: `.Button {
     width: 150px;
     height: 60px;
     border: 3px solid #315cfd;
@@ -37,57 +35,1234 @@ export const buttons = [
     color: #315cfd;
     font-size: 1.2em;
     font-weight: 550;
-}.Button2:hover {
+}
+.Button:hover {
     background: #315cfd;
     color: white;
     font-size: 1.5em;
-}
 }`
     },
-
-
-
-    { id: 15, name: "Button3", preview: <button className="Button3">Get started</button> },
-    { id: 16, name: "3D Flip Button", preview: <button className="Button16"><a>Hover me</a></button> },
-    { id: 17, name: "Rainbow Border", preview: <button className="Button17"><a>Hover me</a></button> },
-    { id: 18, name: "Glow Button", preview: <button className="Button18"><a>Hover me</a></button> },
-    { id: 19, name: "Gradient Glow", preview: <button className="Button19"><a>Hover me</a></button> },
-    { id: 20, name: "Gold Button", preview: <button className="Button20"></button> },
-    { id: 62, name: "Button", preview: <button className="Button62">Click me</button> },
-    { id: 63, name: "Button", preview: <button className="Button63">Click me</button> },
-    { id: 64, name: "Button", preview: <button className="Button64">Click me</button> },
-    { id: 65, name: "Button", preview: <button className="Button65">Click me</button> },
-    { id: 66, name: "Button", preview: <button className="Button66">Click me</button> },
-    { id: 67, name: "Button", preview: <button className="Button67">Click me</button> },
-    { id: 68, name: "Button", preview: <button className="Button68">Click me</button> },
-    { id: 69, name: "Button", preview: <button className="Button69">Click me</button> },
-    { id: 70, name: "Button", preview: <button className="Button70">Click me</button> },
-    { id: 71, name: "Button", preview: <button className="Button71">Click me</button> },
-    { id: 72, name: "Button", preview: <button className="Button72">Click me</button> },
-    { id: 73, name: "Button", preview: <button className="Button73">Click me</button> },
-    { id: 74, name: "Button", preview: <button className="Button74">Click me</button> },
-    { id: 75, name: "Button", preview: <button className="Button75">Click me</button> },
-    { id: 76, name: "Button", preview: <button className="Button76">Click me</button> },
-    { id: 77, name: "Button", preview: <button className="Button77">Click me</button> },
-    { id: 78, name: "Button", preview: <button className="Button78">Click me</button> },
-    { id: 79, name: "Button", preview: <button className="Button79">Click me</button> },
-    { id: 80, name: "Button", preview: <button className="Button80">Click me</button> },
-    { id: 81, name: "Button", preview: <button className="Button81">Click me</button> },
-    { id: 82, name: "Button", preview: <button className="Button82">Click me</button> },
-    { id: 83, name: "Button", preview: <button className="Button83">Click me</button> },
-    { id: 84, name: "Button", preview: <button className="Button84">Click me</button> },
-    { id: 85, name: "Button", preview: <button className="Button85">Click me</button> },
-    { id: 86, name: "Button", preview: <button className="Button86">Click me</button> },
-    { id: 87, name: "Button", preview: <button className="Button87">Click me</button> },
-    { id: 88, name: "Button", preview: <button className="Button88">Click me</button> },
-    { id: 89, name: "Button", preview: <button className="Button89">Click me</button> },
-    { id: 90, name: "Button", preview: <button className="Button90">Click me</button> },
-    { id: 91, name: "Button", preview: <button className="Button91"><span>Click me</span></button> },
-    { id: 92, name: "Button", preview: <button className="Button92">Click me</button> },
-    { id: 93, name: "Button", preview: <button className="Button93">Click me</button> },
-    { id: 94, name: "Button", preview: <button className="Button94"><span>Click me</span></button> },
-    { id: 95, name: "Button", preview: <button className="Button95"><span>Click me →</span></button> },
-    { id: 96, name: "Button", preview: <button className="Button96"><span>Click me →</span></button> },
+    {
+        id: 15, name: "Button3", preview: <button className="Button3">Get started</button>,
+        html: `<button class="Button">Get started</button>`,
+        css: `.Button {
+    width: 165px;
+    height: 62px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    background: #451c8b;
+    transition: 0.1s;
+}
+.Button::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 94, 247, 1) 17.8%, rgba(2, 245, 255, 1) 100.2%);
+    filter: blur(15px);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.Button:active {
+    transform: scale(0.9) rotate(3deg);
+    background: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 94, 247, 1) 17.8%, rgba(2, 245, 255, 1) 100.2%);
+    transition: 0.5s;
+}`
+    },
+    {
+        id: 16, name: "3D Flip Button", preview: <button className="Button16"><a>Hover me</a></button>,
+        html: `<button class="Button">Hover me</button>`,
+        css: `.Button {
+    background: transparent;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: 20px 30px;
+    cursor: pointer;
+    perspective: 30rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308);
+    position: relative;
+}
+.Button::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background: linear-gradient(320deg, rgba(0, 140, 255, 0.678), rgba(128, 0, 128, 0.308));
+    z-index: 1;
+    transition: background 3s;
+}
+.Button:hover::before {
+    animation: rotate 1s;
+    transition: all 0.5s;
+}
+@keyframes rotate {
+    0% { transform: rotateY(180deg); }
+    100% { transform: rotateY(360deg); }
+}`
+    },
+    {
+        id: 17, name: "Rainbow Border", preview: <button className="Button17"><a>Hover me</a></button>,
+        html: `<button class="Button">Hover me</button>`,
+        css: `.Button {
+    --border-radius: 15px;
+    --border-width: 4px;
+    appearance: none;
+    position: relative;
+    padding: 1em 2em;
+    border: 0;
+    background-color: #212121;
+    font-family: "Roboto", Arial, "Segoe UI", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    z-index: 2;
+}
+.Button::after {
+    --m-i: linear-gradient(#000, #000);
+    --m-o: content-box, padding-box;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: var(--border-width);
+    border-radius: var(--border-radius);
+    background-image: conic-gradient(#488cfb, #29dbbc, #ddf505, #ff9f0e, #e440bb, #655adc, #488cfb);
+    -webkit-mask-image: var(--m-i), var(--m-i);
+    mask-image: var(--m-i), var(--m-i);
+    -webkit-mask-origin: var(--m-o);
+    mask-origin: var(--m-o);
+    -webkit-mask-clip: var(--m-o);
+    mask-composite: exclude;
+    -webkit-mask-composite: destination-out;
+    filter: hue-rotate(0);
+    animation: rotate-hue linear 500ms infinite;
+    animation-play-state: paused;
+}
+.Button:hover::after {
+    animation-play-state: running;
+}
+@keyframes rotate-hue {
+    to { filter: hue-rotate(1turn); }
+}
+.Button, .Button::after {
+    box-sizing: border-box;
+}
+.Button:active {
+    --border-width: 5px;
+}`
+    },
+    {
+        id: 18, name: "Glow Button", preview: <button className="Button18"><a>Hover me</a></button>,
+        html: `<button class="Button">Hover me</button>`,
+        css: `.Button {
+    --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(100, 61, 136);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+}
+.Button::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+.Button:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+.Button:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}`
+    },
+    {
+        id: 19, name: "Gradient Glow", preview: <button className="Button19"><a>Hover me</a></button>,
+        html: `<button class="Button">Hover me</button>`,
+        css: `.Button {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    background-color: #000;
+    display: flex;
+    isolation: isolate;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.Button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    left: -4px;
+    top: -1px;
+    margin: auto;
+    width: 128px;
+    height: 48px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+    z-index: -10;
+    pointer-events: none;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.Button::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+    transform: translate3d(0, 0, 0) scale(0.95);
+    filter: blur(20px);
+}
+.Button:hover::after {
+    filter: blur(30px);
+}
+.Button:hover::before {
+    transform: rotate(-180deg);
+}
+.Button:active::before {
+    scale: 0.7;
+}`
+    },
+    {
+        id: 20, name: "Gold Button", preview: <button className="Button20"></button>,
+        html: `<button class="Button">Button</button>`,
+        css: `.Button {
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #77530a, #ffd277, #77530a, #77530a, #ffd277, #77530a);
+    background-size: 250%;
+    background-position: left;
+    color: #ffd277;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+.Button::before {
+    position: absolute;
+    content: "Button";
+    color: #ffd277;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: rgba(0, 0, 0, 0.842);
+    background-size: 200%;
+}
+.Button:hover {
+    background-position: right;
+    transition-duration: 1s;
+}
+.Button:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+}
+.Button:active {
+    transform: scale(0.95);
+}`
+    },
+    {
+        id: 62, name: "Button", preview: <button className="Button62">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    border: 2px solid #00e5ff;
+    background: transparent;
+    color: #00e5ff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    transition: .3s;
+    animation: btn-pulse 2s infinite;
+}
+.Button:hover {
+    background: #00e5ff;
+    color: #000;
+    box-shadow: 0 0 30px #00e5ff;
+}
+@keyframes btn-pulse {
+    0%, 100% { box-shadow: 0 0 8px #00e5ff; }
+    50% { box-shadow: 0 0 20px #00e5ff; }
+}`
+    },
+    {
+        id: 63, name: "Button", preview: <button className="Button63">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .3s;
+}
+.Button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}`
+    },
+    {
+        id: 64, name: "Button", preview: <button className="Button64">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: #e0e5ec;
+    border: none;
+    color: #6c63ff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #b8bec7, -5px -5px 10px #ffffff;
+    transition: .2s;
+}
+.Button:active {
+    box-shadow: inset 4px 4px 8px #b8bec7, inset -4px -4px 8px #ffffff;
+}`
+    },
+    {
+        id: 65, name: "Button", preview: <button className="Button65">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: #f0e614;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px #000;
+    transition: .1s;
+}
+.Button:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px #000;
+}
+.Button:active {
+    transform: translate(4px, 4px);
+    box-shadow: none;
+}`
+    },
+    {
+        id: 66, name: "Button", preview: <button className="Button66">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: #1a1a1a;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+    z-index: 0;
+}
+.Button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    transform: translateX(-100%);
+    transition: .3s;
+    z-index: -1;
+}
+.Button:hover::before {
+    transform: translateX(0);
+}`
+    },
+    {
+        id: 67, name: "Button", preview: <button className="Button67">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    transition: .3s;
+}
+.Button::before,
+.Button::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+.Button::before {
+    top: 0;
+    left: 0;
+}
+.Button::after {
+    bottom: 0;
+    right: 0;
+}
+.Button:hover::before,
+.Button:hover::after {
+    width: 100%;
+}
+.Button:hover {
+    box-shadow: inset 0 0 0 1px white;
+}`
+    },
+    {
+        id: 68, name: "Button", preview: <button className="Button68">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: #f0e614;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+    transition: .2s;
+    position: relative;
+}
+.Button::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background: #000;
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+    z-index: -1;
+}
+.Button:hover {
+    background: #fff;
+    box-shadow: 0 0 15px #f0e614;
+}`
+    },
+    {
+        id: 69, name: "Button", preview: <button className="Button69">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+}
+.Button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.6);
+}
+.Button:active {
+    transform: scale(0.95);
+}`
+    },
+    {
+        id: 70, name: "Button", preview: <button className="Button70">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #f97316, #ef4444);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 4px 20px rgba(249, 115, 22, 0.4);
+}
+.Button:hover {
+    box-shadow: 0 6px 30px rgba(249, 115, 22, 0.7);
+    transform: translateY(-2px);
+}
+.Button:active {
+    transform: translateY(0);
+}`
+    },
+    {
+        id: 71, name: "Button", preview: <button className="Button71">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #a8edea, #86c5f7);
+    border: none;
+    color: #0e3a5e;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 4px 15px rgba(134, 197, 247, 0.4);
+}
+.Button:hover {
+    background: linear-gradient(135deg, #86c5f7, #a8edea);
+    box-shadow: 0 6px 25px rgba(134, 197, 247, 0.6);
+    transform: translateY(-2px);
+}`
+    },
+    {
+        id: 72, name: "Button", preview: <button className="Button72">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: #ef4444;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .2s;
+}
+.Button:hover {
+    animation: btn-shake 0.4s ease;
+}
+@keyframes btn-shake {
+    0%, 100% { transform: translateX(0); }
+    20% { transform: translateX(-5px); }
+    40% { transform: translateX(5px); }
+    60% { transform: translateX(-4px); }
+    80% { transform: translateX(4px); }
+}`
+    },
+    {
+        id: 73, name: "Button", preview: <button className="Button73">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: transparent;
+    border: 2px solid #10b981;
+    color: #10b981;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color .3s;
+    z-index: 0;
+}
+.Button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #10b981;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: .3s;
+    z-index: -1;
+}
+.Button:hover {
+    color: white;
+}
+.Button:hover::before {
+    transform: scaleX(1);
+}`
+    },
+    {
+        id: 74, name: "Button", preview: <button className="Button74">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: transparent;
+    border: 2px solid #8b5cf6;
+    color: #8b5cf6;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+.Button:hover {
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.6), inset 0 0 20px rgba(139, 92, 246, 0.1);
+    color: white;
+    border-color: #a78bfa;
+}`
+    },
+    {
+        id: 75, name: "Button", preview: <button className="Button75">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: #111;
+    border: 1px solid #333;
+    color: #f9fafb;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s;
+}
+.Button:hover {
+    background: #222;
+    border-color: #555;
+    transform: translateY(-1px);
+}
+.Button:active {
+    transform: translateY(0);
+}`
+    },
+    {
+        id: 76, name: "Button", preview: <button className="Button76">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: #fce7f3;
+    border: 2px solid #f9a8d4;
+    color: #be185d;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.Button:hover {
+    background: #fdf2f8;
+    border-color: #ec4899;
+    box-shadow: 0 4px 15px rgba(236, 72, 153, 0.3);
+    transform: translateY(-2px);
+}`
+    },
+    {
+        id: 77, name: "Button", preview: <button className="Button77">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: #635bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 0 2px 8px rgba(99, 91, 255, 0.4);
+}
+.Button:hover {
+    background: #5248e8;
+    box-shadow: 0 4px 16px rgba(99, 91, 255, 0.5);
+    transform: translateY(-1px);
+}
+.Button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(99, 91, 255, 0.4);
+}`
+    },
+    {
+        id: 78, name: "Button", preview: <button className="Button78">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: transparent;
+    border: 2px solid #f59e0b;
+    color: #f59e0b;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color .3s;
+    z-index: 0;
+}
+.Button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #f59e0b;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: .3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    z-index: -1;
+}
+.Button:hover {
+    color: white;
+}
+.Button:hover::before {
+    transform: scaleY(1);
+}`
+    },
+    {
+        id: 79, name: "Button", preview: <button className="Button79">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #0ea5e9, #8b5cf6, #ec4899);
+    background-size: 200% 200%;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: btn-aurora 3s ease infinite;
+    transition: .3s;
+}
+.Button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(139, 92, 246, 0.5);
+}
+@keyframes btn-aurora {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}`
+    },
+    {
+        id: 80, name: "Button", preview: <button className="Button80">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: #1a1a1a;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: monospace;
+    cursor: pointer;
+    position: relative;
+    image-rendering: pixelated;
+    box-shadow:
+        0 -4px 0 0 #fff,
+        0 4px 0 0 #fff,
+        -4px 0 0 0 #fff,
+        4px 0 0 0 #fff;
+    transition: .1s;
+}
+.Button:hover {
+    background: #fff;
+    color: #000;
+}
+.Button:active {
+    transform: scale(0.95);
+}`
+    },
+    {
+        id: 81, name: "Button", preview: <button className="Button81">Click me</button>,
+        html: `<button class="Button"><span>Click me</span></button>`,
+        css: `.Button {
+    padding: 0;
+    background: #6366f1;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    height: 46px;
+    min-width: 120px;
+}
+.Button span {
+    display: block;
+    padding: 12px 28px;
+    transition: .3s;
+    position: relative;
+}
+.Button::before {
+    content: "↑ Go";
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 100%;
+    left: 0;
+    padding: 12px 0;
+    transition: .3s;
+    background: #4f46e5;
+}
+.Button:hover span {
+    transform: translateY(-100%);
+}
+.Button:hover::before {
+    top: 0;
+}`
+    },
+    {
+        id: 82, name: "Button", preview: <button className="Button82">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #e879f9, #a855f7);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4);
+}
+.Button:hover {
+    background: linear-gradient(135deg, #a855f7, #e879f9);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(168, 85, 247, 0.6);
+}`
+    },
+    {
+        id: 83, name: "Button", preview: <button className="Button83">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: white;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 #000;
+    transition: .15s;
+}
+.Button:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 #000;
+}
+.Button:active {
+    transform: translate(4px, 4px);
+    box-shadow: none;
+}`
+    },
+    {
+        id: 84, name: "Button", preview: <button className="Button84">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: transparent;
+    border: 2px solid #22c55e;
+    color: #22c55e;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+    font-family: monospace;
+}
+.Button:hover {
+    background: rgba(34, 197, 94, 0.1);
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.5), inset 0 0 20px rgba(34, 197, 94, 0.05);
+    color: #4ade80;
+}`
+    },
+    {
+        id: 85, name: "Button", preview: <button className="Button85">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #f472b6, #fb923c);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 4px 15px rgba(244, 114, 182, 0.4);
+}
+.Button:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 8px 25px rgba(244, 114, 182, 0.5);
+}
+.Button:active {
+    transform: scale(0.97);
+}`
+    },
+    {
+        id: 86, name: "Button", preview: <button className="Button86">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 0;
+}
+.Button:hover {
+    border-bottom-color: #6366f1;
+    color: #6366f1;
+    transform: translateY(-2px);
+}`
+    },
+    {
+        id: 87, name: "Button", preview: <button className="Button87">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #f093fb, #f5576c, #4facfe, #00f2fe);
+    background-size: 300% 300%;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: btn-holo 4s ease infinite;
+    transition: .3s;
+}
+.Button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(240, 147, 251, 0.5);
+}
+@keyframes btn-holo {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}`
+    },
+    {
+        id: 88, name: "Button", preview: <button className="Button88">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: #6366f1;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+}
+.Button::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: width .5s, height .5s, opacity .5s;
+    opacity: 0;
+}
+.Button:active::after {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+}
+.Button:hover {
+    background: #4f46e5;
+}`
+    },
+    {
+        id: 89, name: "Button", preview: <button className="Button89">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: #0d0d0d;
+    border: 2px solid #ff2d78;
+    color: #ff2d78;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.Button:hover {
+    background: #ff2d78;
+    color: white;
+    box-shadow: 0 0 20px rgba(255, 45, 120, 0.6), inset 0 0 20px rgba(255, 45, 120, 0.1);
+}`
+    },
+    {
+        id: 90, name: "Button", preview: <button className="Button90">Click me</button>,
+        html: `<button class="Button">Click me</button>`,
+        css: `.Button {
+    padding: 12px 28px;
+    background: #7c3aed;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: btn-glow 2s ease-in-out infinite;
+    transition: .3s;
+}
+.Button:hover {
+    transform: scale(1.05);
+}
+@keyframes btn-glow {
+    0%, 100% { box-shadow: 0 0 10px rgba(124, 58, 237, 0.5); }
+    50% { box-shadow: 0 0 30px rgba(124, 58, 237, 0.9), 0 0 50px rgba(124, 58, 237, 0.4); }
+}`
+    },
+    {
+        id: 91, name: "Button", preview: <button className="Button91"><span>Click me</span></button>,
+        html: `<button class="Button"><span>Click me</span></button>`,
+        css: `.Button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #66ff66;
+    color: ghostwhite;
+}
+.Button span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+}
+.Button:hover span {
+    color: black;
+}
+.Button::before,
+.Button::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.Button::before {
+    content: "";
+    background: black;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+.Button:hover::before {
+    transform: translate3d(100%, 0, 0);
+}`
+    },
+    {
+        id: 92, name: "Button", preview: <button className="Button92">Click me</button>,
+        html: `<button class="Button"><span>Click me</span></button>`,
+        css: `.Button {
+    position: relative;
+    padding: 12px 32px;
+    background: #09090b;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s;
+}
+.Button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(135deg, #7c3aed, #4f46e5);
+    transform: skewX(-20deg);
+    transition: width 0.4s ease;
+    z-index: 0;
+}
+.Button:hover::before {
+    width: 120%;
+}
+.Button:hover {
+    color: #fff;
+}
+.Button span {
+    position: relative;
+    z-index: 1;
+}`
+    },
+    {
+        id: 93, name: "Button", preview: <button className="Button93">Click me</button>,
+        html: `<button class="Button"><span>Click me</span></button>`,
+        css: `.Button {
+    position: relative;
+    padding: 12px 32px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #7c3aed;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s, border-color 0.3s;
+    transform: perspective(200px) rotateX(6deg);
+    transform-origin: bottom center;
+}
+.Button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #7c3aed, #a855f7);
+    transition: left 0.4s ease;
+    z-index: 0;
+}
+.Button:hover::before {
+    left: 0%;
+}
+.Button:hover {
+    border-color: #a855f7;
+}
+.Button span {
+    position: relative;
+    z-index: 1;
+}`
+    },
+    {
+        id: 94, name: "Button", preview: <button className="Button94"><span>Click me</span></button>,
+        html: `<button class="Button"><span>Click me</span></button>`,
+        css: `.Button {
+    position: relative;
+    padding: 12px 32px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #6366f1;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s;
+}
+.Button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #6366f1;
+    transition: left 0.35s ease;
+    z-index: 0;
+}
+.Button:hover::before {
+    left: 0%;
+}
+.Button span {
+    position: relative;
+    z-index: 1;
+}`
+    },
+    {
+        id: 95, name: "Button", preview: <button className="Button95"><span>Click me →</span></button>,
+        html: `<button class="Button"><span>Click me →</span></button>`,
+        css: `.Button {
+    position: relative;
+    padding: 12px 32px;
+    background: #6366f1;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.Button:hover {
+    transform: translateX(8px);
+    box-shadow: -8px 0 0 #a855f7;
+}
+.Button span {
+    position: relative;
+    z-index: 1;
+}`
+    },
+    {
+        id: 96, name: "Button", preview: <button className="Button96"><span>Click me →</span></button>,
+        html: `<button class="Button"><span>Click me →</span></button>`,
+        css: `.Button {
+    background: blue;
+    transition: transform .5s;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.Button:hover {
+    transform: skew(-30deg);
+}
+.Button span {
+    display: inline-block;
+    transition: transform .5s;
+}
+.Button:hover span {
+    transform: skew(30deg);
+}`
+    },
 ];
 
 export const checkboxes = [
