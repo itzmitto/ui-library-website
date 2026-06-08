@@ -6,9 +6,7 @@ export const buttons = [
     { id: 3, name: "Pill Button", preview: <button className="prev-btn-pill">Subscribe</button> },
     { id: 4, name: "Ghost Button", preview: <button className="prev-btn-ghost">Learn more</button> },
     {
-        id: 13,
-        name: "Button1",
-        preview: <button className="Button1">Get started</button>,
+        id: 13, name: "Button1", preview: <button className="Button1">Get started</button>,
         html: `<button class="Button1">Get started</button>`,
         css: `.Button1 {
     font-size: 17px;
@@ -20,11 +18,35 @@ export const buttons = [
     border-radius: 4px;
     cursor: pointer;
 }
-
 .Button1:hover {
     background: linear-gradient(90deg, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
 }`
-    }, { id: 14, name: "Button2", preview: <button className="Button2">Get started</button> },
+    },
+
+    {
+        id: 14, name: "Button2", preview: <button className="Button2">Get started</button>,
+        html: `<button class="Button2">Get started</button>`,
+        css: `.Button2 {
+    width: 150px;
+    height: 60px;
+    border: 3px solid #315cfd;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    color: #315cfd;
+    font-size: 1.2em;
+    font-weight: 550;
+}.Button2:hover {
+    background: #315cfd;
+    color: white;
+    font-size: 1.5em;
+}
+}`
+    },
+
+
+
     { id: 15, name: "Button3", preview: <button className="Button3">Get started</button> },
     { id: 16, name: "3D Flip Button", preview: <button className="Button16"><a>Hover me</a></button> },
     { id: 17, name: "Rainbow Border", preview: <button className="Button17"><a>Hover me</a></button> },
