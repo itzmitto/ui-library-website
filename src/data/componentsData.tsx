@@ -1330,6 +1330,13 @@ export const buttons = [
     },
 ];
 
+
+
+
+
+
+
+
 export const checkboxes = [
     {
         id: 5, name: "Checkbox", preview: (
@@ -1554,6 +1561,40 @@ export const checkboxes = [
 
 ];
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export const toggles = [
     {
         id: 6, name: "Toggle Switch", preview: (
@@ -1732,6 +1773,38 @@ export const toggles = [
         )
     },
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const cards = [
     {
