@@ -1,5 +1,5 @@
 import "../pages/All.css"; 
-
+ 
 export const buttons = [
     { id: 1, name: "Gradient Button", preview: <button className="prev-btn-gradient">Get started</button> },
     { id: 2, name: "Outline Button", preview: <button className="prev-btn-outline">Hover me!</button> },
