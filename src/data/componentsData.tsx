@@ -3977,8 +3977,6 @@ export const toggles = [
 
 
 
-
-
 export const cards = [
     {
         id: 7, name: "Profile Card", preview: (
@@ -3988,7 +3986,54 @@ export const cards = [
                 <div className="prev-card-sub">UI Developer</div>
                 <button className="prev-card-btn">Follow</button>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card-avatar">A</div>
+    <div class="Card-name">Andre</div>
+    <div class="Card-sub">UI Developer</div>
+    <button class="Card-btn">Follow</button>
+</div>`,
+        css: `.Card {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    width: 140px;
+}
+.Card-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #7c3aed, #4f46e5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+.Card-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+.Card-sub {
+    font-size: 12px;
+    color: #71717a;
+}
+.Card-btn {
+    margin-top: 6px;
+    background: #7c3aed;
+    color: #fff;
+    border: none;
+    padding: 6px 18px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+}`
     },
     {
         id: 8, name: "Pricing Card", preview: (
@@ -3997,24 +4042,143 @@ export const cards = [
                 <div className="prev-pricing-price">$9<span>/mo</span></div>
                 <button className="prev-pricing-btn">Sign up</button>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card-label">Pro</div>
+    <div class="Card-price">$9<span>/mo</span></div>
+    <button class="Card-btn">Sign up</button>
+</div>`,
+        css: `.Card {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 140px;
+}
+.Card-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #a855f7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.Card-price {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+}
+.Card-price span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #71717a;
+}
+.Card-btn {
+    background: linear-gradient(135deg, #7c3aed, #4f46e5);
+    color: #fff;
+    border: none;
+    padding: 6px 18px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 100%;
+}`
     },
     {
         id: 110, name: "Rotating Border", preview: (
             <div className="card-110">
                 <h2>CARD</h2>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <h2>CARD</h2>
+</div>`,
+        css: `.Card {
+    background: #07182E;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 140px;
+    height: 190px;
+}
+.Card h2 {
+    color: white;
+    font-size: 2em;
+}
+.Card::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    height: 130%;
+    animation: Card-rot 3s linear infinite;
+    transition: all 0.2s linear;
+}
+@keyframes Card-rot {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.Card::after {
+    content: '';
+    position: absolute;
+    background: #07182E;
+    inset: 5px;
+    border-radius: 15px;
+}`
     },
     {
         id: 111, name: "Neumorphism", preview: (
             <div className="card-111"></div>
-        )
+        ),
+        html: `<div class="Card"></div>`,
+        css: `.Card {
+    border-radius: 30px;
+    background: #e0e0e0;
+    width: 140px;
+    height: 190px;
+}`
     },
     {
         id: 112, name: "Glassmorphism", preview: (
             <div className="card-112">Click me</div>
-        )
+        ),
+        html: `<div class="Card">Click me</div>`,
+        css: `.Card {
+    box-sizing: border-box;
+    width: 140px;
+    height: 190px;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+}
+.Card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+.Card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}`
     },
     {
         id: 113, name: "Flip Card", preview: (
@@ -4030,14 +4194,96 @@ export const cards = [
                     </div>
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card-inner">
+        <div class="Card-front">
+            <p class="Card-title">FLIP CARD</p>
+            <p>Hover Me</p>
+        </div>
+        <div class="Card-back">
+            <p class="Card-title">BACK</p>
+            <p>Leave Me</p>
+        </div>
+    </div>
+</div>`,
+        css: `.Card {
+    background-color: transparent;
+    width: 140px;
+    height: 190px;
+    perspective: 1000px;
+    font-family: sans-serif;
+}
+.Card-title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+.Card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.Card:hover .Card-inner {
+    transform: rotateY(180deg);
+}
+.Card-front,
+.Card-back {
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border: 1px solid coral;
+    border-radius: 1rem;
+}
+.Card-front {
+    background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%, rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%);
+    color: coral;
+}
+.Card-back {
+    background: linear-gradient(120deg, rgb(255, 174, 145) 30%, coral 88%, bisque 40%, rgb(255, 185, 160) 78%);
+    color: white;
+    transform: rotateY(180deg);
+}`
     },
     {
         id: 114, name: "Gradient Border", preview: (
             <div className="card-114">
                 <div className="card-114-inner"></div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card-inner"></div>
+</div>`,
+        css: `.Card {
+    width: 140px;
+    height: 190px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+}
+.Card-inner {
+    width: 140px;
+    height: 190px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    transition: all .2s;
+}
+.Card-inner:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+}
+.Card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}`
     },
     {
         id: 115, name: "Blob Card", preview: (
@@ -4045,12 +4291,78 @@ export const cards = [
                 <div className="card-115-bg"></div>
                 <div className="card-115-blob"></div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card-bg"></div>
+    <div class="Card-blob"></div>
+</div>`,
+        css: `.Card {
+    position: relative;
+    width: 140px;
+    height: 190px;
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+.Card-bg {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 140px;
+    height: 190px;
+    z-index: 2;
+    background: rgba(255, 255, 255, .95);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+}
+.Card-blob {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    filter: blur(12px);
+    animation: Card-blob 5s infinite ease;
+}
+@keyframes Card-blob {
+    0% {
+        transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+    25% {
+        transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+    50% {
+        transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+    75% {
+        transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+    100% {
+        transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+}`
     },
     {
         id: 116, name: "Dark Neumorphism", preview: (
             <div className="card-116"></div>
-        )
+        ),
+        html: `<div class="Card"></div>`,
+        css: `.Card {
+    width: 140px;
+    height: 190px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+}`
     },
     {
         id: 117, name: "Gradient Glow", preview: (
@@ -4059,12 +4371,117 @@ export const cards = [
                 <p>Powered By</p>
                 <p>Uiverse</p>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <p class="Card-heading">Popular this month</p>
+    <p>Powered By</p>
+    <p>Uiverse</p>
+</div>`,
+        css: `.Card {
+    position: relative;
+    width: 140px;
+    height: 190px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+.Card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    left: -5px;
+    margin: auto;
+    width: 200px;
+    height: 264px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+    z-index: -10;
+    pointer-events: none;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.Card::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+    transform: translate3d(0, 0, 0) scale(0.95);
+    filter: blur(20px);
+}
+.Card-heading {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 0;
+}
+.Card p:not(.Card-heading) {
+    font-size: 14px;
+    margin: 0;
+}
+.Card p:last-child {
+    color: #e81cff;
+    font-weight: 600;
+}
+.Card:hover::after {
+    filter: blur(30px);
+}
+.Card:hover::before {
+    transform: rotate(-90deg) scaleX(1.34) scaleY(0.77);
+}`
     },
     {
         id: 118, name: "Corner Expand", preview: (
             <div className="card-118">HOVER</div>
-        )
+        ),
+        html: `<div class="Card">HOVER</div>`,
+        css: `.Card {
+    position: relative;
+    width: 140px;
+    height: 190px;
+    background: mediumturquoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+}
+.Card::before,
+.Card::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    background-color: lightblue;
+    transition: all 0.5s;
+}
+.Card::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+}
+.Card::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100% 0 15px;
+}
+.Card:hover::before,
+.Card:hover::after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.Card:hover::after {
+    content: "HELLO";
+}`
     },
     {
         id: 119, name: "Flip Card 2", preview: (
@@ -4074,7 +4491,50 @@ export const cards = [
                     <div className="card-119-back"><p>Back Side</p></div>
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card-inner">
+        <div class="Card-front"><p>Front Side</p></div>
+        <div class="Card-back"><p>Back Side</p></div>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 140px;
+    height: 190px;
+    perspective: 1000px;
+}
+.Card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.999s;
+}
+.Card:hover .Card-inner {
+    transform: rotateY(180deg);
+}
+.Card-front,
+.Card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 10px;
+    color: white;
+}
+.Card-front {
+    background-color: #6A2C70;
+    border: 10px solid #6A2C70;
+}
+.Card-back {
+    background-color: #F08A5D;
+    border: 10px solid #F08A5D;
+    transform: rotateY(180deg);
+}`
     },
     {
         id: 120, name: "Mac Window", preview: (
@@ -4086,7 +4546,44 @@ export const cards = [
                 </div>
                 <div className="card-120-content"></div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card-tools">
+        <div class="Card-circle"><span class="Card-box Card-red"></span></div>
+        <div class="Card-circle"><span class="Card-box Card-yellow"></span></div>
+        <div class="Card-circle"><span class="Card-box Card-green"></span></div>
+    </div>
+    <div class="Card-content"></div>
+</div>`,
+        css: `.Card {
+    width: 140px;
+    height: 190px;
+    background-color: #011522;
+    border-radius: 8px;
+}
+.Card-tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+.Card-circle {
+    padding: 0 4px;
+}
+.Card-box {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.Card-red {
+    background-color: #ff605c;
+}
+.Card-yellow {
+    background-color: #ffbd44;
+}
+.Card-green {
+    background-color: #00ca4e;
+}`
     },
     {
         id: 121, name: "Image Reveal", preview: (
@@ -4099,7 +4596,70 @@ export const cards = [
                     <p className="card-121-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
+    </svg>
+    <div class="Card-content">
+        <p class="Card-title">Card Title</p>
+        <p class="Card-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </div>
+</div>`,
+        css: `.Card {
+    position: relative;
+    width: 140px;
+    height: 190px;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.Card svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.Card:hover {
+    transform: rotate(-5deg) scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.Card-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.Card:hover .Card-content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+}
+.Card-title {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+.Card-description {
+    margin: 10px 0 0;
+    font-size: 11px;
+    color: #777;
+    line-height: 1.4;
+}
+.Card:hover svg {
+    scale: 0;
+    transform: rotate(-45deg);
+}`
     },
     {
         id: 122, name: "Card-122", preview: (
@@ -4129,7 +4689,129 @@ export const cards = [
                     </div>
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__top">
+        <div class="Card__border"></div>
+        <div class="Card__icons">
+            <div class="Card__logo"></div>
+            <div class="Card__social"></div>
+        </div>
+    </div>
+    <div class="Card__bottom">
+        <span class="Card__title">UNIVERSE OF UI</span>
+        <div class="Card__row">
+            <div class="Card__item">
+                <span class="Card__big">2626</span>
+                <span class="Card__small">UI elements</span>
+            </div>
+            <div class="Card__item">
+                <span class="Card__big">100%</span>
+                <span class="Card__small">Free for use</span>
+            </div>
+            <div class="Card__item">
+                <span class="Card__big">38,631</span>
+                <span class="Card__small">Contributors</span>
+            </div>
+        </div>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 200px;
+    border-radius: 20px;
+    background: #1b233d;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: scale(0.75);
+}
+.Card:hover {
+    transform: scale(0.8);
+}
+.Card__top {
+    height: 120px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, rgb(4, 159, 187) 0%, rgb(80, 246, 255) 100%);
+    position: relative;
+}
+.Card__border {
+    border-bottom-right-radius: 10px;
+    height: 30px;
+    width: 130px;
+    background: #1b233d;
+    position: relative;
+    transform: skew(-40deg);
+    box-shadow: -10px -10px 0 0 #1b233d;
+}
+.Card__border::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    right: -15px;
+    background: rgba(255, 255, 255, 0);
+    border-top-left-radius: 10px;
+    box-shadow: -5px -5px 0 2px #1b233d;
+}
+.Card__top::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: rgba(255, 255, 255, 0);
+    height: 15px;
+    width: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: -5px -5px 0 2px #1b233d;
+}
+.Card__icons {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.Card__bottom {
+    margin-top: 15px;
+    padding: 10px 5px;
+}
+.Card__title {
+    display: block;
+    font-size: 14px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.Card__row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.Card__item {
+    flex: 30%;
+    text-align: center;
+    padding: 5px;
+    color: rgba(170, 222, 243, 0.721);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.Card__item:nth-child(2) {
+    border-left: 1px solid rgba(255, 255, 255, 0.126);
+    border-right: 1px solid rgba(255, 255, 255, 0.126);
+}
+.Card__big {
+    font-size: 11px;
+}
+.Card__small {
+    font-size: 8px;
+}`
     },
     {
         id: 123, name: "Card-123", preview: (
@@ -4142,7 +4824,68 @@ export const cards = [
                     <div className="cd-123__color"><span>E76F51</span></div>
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__palette">
+        <div class="Card__color"><span>264653</span></div>
+        <div class="Card__color"><span>2A9D8F</span></div>
+        <div class="Card__color"><span>E9C46A</span></div>
+        <div class="Card__color"><span>F4A261</span></div>
+        <div class="Card__color"><span>E76F51</span></div>
+    </div>
+</div>`,
+        css: `.Card {
+    height: 140px;
+    width: 200px;
+    border-radius: 1em;
+    overflow: hidden;
+    font-family: sans-serif;
+    transform: scale(0.9);
+}
+.Card__palette {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.Card__color {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 9px;
+    letter-spacing: 1px;
+    transition: flex 0.1s linear;
+    writing-mode: vertical-rl;
+}
+.Card__color span {
+    opacity: 0;
+    transition: opacity 0.1s linear;
+}
+.Card__color:nth-child(1) {
+    background: #264653;
+}
+.Card__color:nth-child(2) {
+    background: #2a9d8f;
+}
+.Card__color:nth-child(3) {
+    background: #e9c46a;
+}
+.Card__color:nth-child(4) {
+    background: #f4a261;
+}
+.Card__color:nth-child(5) {
+    background: #e76f51;
+}
+.Card__color:hover {
+    flex: 2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Card__color:hover span {
+    opacity: 1;
+}`
     },
     {
         id: 124, name: "Card-124", preview: (
@@ -4154,7 +4897,45 @@ export const cards = [
                 </div>
                 <div className="cd-124__content"></div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__tools">
+        <div class="Card__circle"><span class="Card__red Card__box"></span></div>
+        <div class="Card__circle"><span class="Card__yellow Card__box"></span></div>
+        <div class="Card__circle"><span class="Card__green Card__box"></span></div>
+    </div>
+    <div class="Card__content"></div>
+</div>`,
+        css: `.Card {
+    width: 160px;
+    height: 200px;
+    background-color: #F8FBFE;
+    border-radius: 8px;
+    transform: scale(0.9);
+}
+.Card__tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+.Card__circle {
+    padding: 0 4px;
+}
+.Card__box {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.Card__red {
+    background-color: #ff605c;
+}
+.Card__yellow {
+    background-color: #ffbd44;
+}
+.Card__green {
+    background-color: #00ca4e;
+}`
     },
     {
         id: 125, name: "Card-125", preview: (
@@ -4165,7 +4946,68 @@ export const cards = [
                 <p className="cd-125__job">Job Title</p>
                 <button>Click</button>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__border-top"></div>
+    <div class="Card__img"></div>
+    <span>Person</span>
+    <p class="Card__job">Job Title</p>
+    <button>Click</button>
+</div>`,
+        css: `.Card {
+    width: 200px;
+    height: 250px;
+    background: #3405a3;
+    border-radius: 15px;
+    box-shadow: 1px 5px 60px 0px #100a886b;
+    transform: scale(0.7);
+}
+.Card__border-top {
+    width: 60%;
+    height: 3%;
+    background: #6b64f3;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+}
+.Card span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.Card__job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 12px;
+}
+.Card__img {
+    width: 60px;
+    height: 70px;
+    background: #6b64f3;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 20px;
+}
+.Card button {
+    padding: 7px 22px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+    background: #6b64f3;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Card button:hover {
+    background: #534bf3;
+}`
     },
     {
         id: 126, name: "Card-126", preview: (
@@ -4178,7 +5020,64 @@ export const cards = [
                     <button className="cd-126__btn">Get started</button>
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__tag">New</div>
+    <div class="Card__title">Dashboard Pro</div>
+    <div class="Card__sub">Analytics &amp; insights</div>
+    <div class="Card__footer">
+        <span>Free</span>
+        <button class="Card__btn">Get started</button>
+    </div>
+</div>`,
+        css: `.Card {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 16px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.Card__tag {
+    display: inline-block;
+    background: rgba(124, 58, 237, 0.15);
+    color: #a855f7;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 999px;
+    width: fit-content;
+}
+.Card__title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+.Card__sub {
+    font-size: 11px;
+    color: #71717a;
+}
+.Card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+}
+.Card__footer span {
+    font-size: 12px;
+    color: #a1a1aa;
+}
+.Card__btn {
+    background: #7c3aed;
+    color: #fff;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    cursor: pointer;
+}`
     },
     {
         id: 127, name: "Card-127", preview: (
@@ -4193,7 +5092,71 @@ export const cards = [
                     <div className="cd-127__stat"><span>8.4k</span><small>Followers</small></div>
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__avatar">A</div>
+    <div class="Card__info">
+        <div class="Card__name">Andre</div>
+        <div class="Card__role">Frontend Developer</div>
+    </div>
+    <div class="Card__stats">
+        <div class="Card__stat"><span>142</span><small>Projects</small></div>
+        <div class="Card__stat"><span>8.4k</span><small>Followers</small></div>
+    </div>
+</div>`,
+        css: `.Card {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 16px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.Card__avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #7c3aed, #4f46e5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+.Card__name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+.Card__role {
+    font-size: 11px;
+    color: #71717a;
+    text-align: center;
+}
+.Card__stats {
+    display: flex;
+    gap: 16px;
+    margin-top: 4px;
+}
+.Card__stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Card__stat span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+.Card__stat small {
+    font-size: 10px;
+    color: #71717a;
+}`
     },
     {
         id: 128, name: "Card-128", preview: (
@@ -4209,7 +5172,61 @@ export const cards = [
                     <div className="cd-128__line cd-128__line--mid" />
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__header">
+        <div class="Card__dot Card__dot--red"></div>
+        <div class="Card__dot Card__dot--yellow"></div>
+        <div class="Card__dot Card__dot--green"></div>
+    </div>
+    <div class="Card__body">
+        <div class="Card__line Card__line--short"></div>
+        <div class="Card__line"></div>
+        <div class="Card__line Card__line--mid"></div>
+    </div>
+</div>`,
+        css: `.Card {
+    background: #1e1e1e;
+    border-radius: 10px;
+    padding: 10px;
+    width: 160px;
+}
+.Card__header {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.Card__dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.Card__dot--red {
+    background: #ff605c;
+}
+.Card__dot--yellow {
+    background: #ffbd44;
+}
+.Card__dot--green {
+    background: #00ca4e;
+}
+.Card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.Card__line {
+    height: 8px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.07);
+    width: 100%;
+}
+.Card__line--short {
+    width: 50%;
+}
+.Card__line--mid {
+    width: 75%;
+}`
     },
     {
         id: 129, name: "Card-129", preview: (
@@ -4222,7 +5239,58 @@ export const cards = [
                     <div className="cd-129__pct">64% complete</div>
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__top"></div>
+    <div class="Card__content">
+        <div class="Card__title">Product Design</div>
+        <div class="Card__sub">12 lessons · 4h 30min</div>
+        <div class="Card__bar"><div class="Card__fill"></div></div>
+        <div class="Card__pct">64% complete</div>
+    </div>
+</div>`,
+        css: `.Card {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    width: 160px;
+}
+.Card__top {
+    height: 60px;
+    background: linear-gradient(135deg, #7c3aed, #4f46e5);
+}
+.Card__content {
+    padding: 12px;
+}
+.Card__title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+}
+.Card__sub {
+    font-size: 10px;
+    color: #71717a;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+.Card__bar {
+    height: 4px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+    overflow: hidden;
+}
+.Card__fill {
+    width: 64%;
+    height: 100%;
+    background: #7c3aed;
+    border-radius: 999px;
+}
+.Card__pct {
+    font-size: 10px;
+    color: #a855f7;
+    margin-top: 4px;
+}`
     },
     {
         id: 130, name: "Card-130", preview: (
@@ -4237,7 +5305,74 @@ export const cards = [
                 </ul>
                 <button className="cd-130__btn">Subscribe</button>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__price">$49<span>/mo</span></div>
+    <div class="Card__plan">Professional</div>
+    <div class="Card__divider"></div>
+    <ul class="Card__list">
+        <li>Unlimited projects</li>
+        <li>Priority support</li>
+        <li>Custom domains</li>
+    </ul>
+    <button class="Card__btn">Subscribe</button>
+</div>`,
+        css: `.Card {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 14px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.Card__price {
+    font-size: 24px;
+    font-weight: 800;
+    color: #fff;
+}
+.Card__price span {
+    font-size: 12px;
+    color: #71717a;
+    font-weight: 400;
+}
+.Card__plan {
+    font-size: 11px;
+    color: #a855f7;
+    font-weight: 600;
+}
+.Card__divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.06);
+    margin: 6px 0;
+}
+.Card__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.Card__list li {
+    font-size: 10px;
+    color: #a1a1aa;
+}
+.Card__list li::before {
+    content: "— ";
+    color: #7c3aed;
+}
+.Card__btn {
+    margin-top: 8px;
+    background: #7c3aed;
+    color: #fff;
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 11px;
+    cursor: pointer;
+    width: 100%;
+}`
     },
     {
         id: 131, name: "Card-131", preview: (
@@ -4249,7 +5384,52 @@ export const cards = [
                     <div className="cd-131__bar" />
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__label">Revenue</div>
+    <div class="Card__value">$12,400</div>
+    <div class="Card__change Card__change--up">+8.2% this month</div>
+    <div class="Card__bar-wrap">
+        <div class="Card__bar"></div>
+    </div>
+</div>`,
+        css: `.Card {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 16px;
+    width: 150px;
+}
+.Card__label {
+    font-size: 11px;
+    color: #71717a;
+    margin-bottom: 4px;
+}
+.Card__value {
+    font-size: 22px;
+    font-weight: 800;
+    color: #fff;
+}
+.Card__change {
+    font-size: 11px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.Card__change--up {
+    color: #22c55e;
+}
+.Card__bar-wrap {
+    height: 4px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 999px;
+    overflow: hidden;
+}
+.Card__bar {
+    width: 72%;
+    height: 100%;
+    background: linear-gradient(90deg, #7c3aed, #a855f7);
+    border-radius: 999px;
+}`
     },
     {
         id: 132, name: "Card-132", preview: (
@@ -4261,7 +5441,46 @@ export const cards = [
                     <div className="cd-132__meta">Jan 12 · 5 min read</div>
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__img"></div>
+    <div class="Card__body">
+        <div class="Card__cat">Design</div>
+        <div class="Card__title">How to build UI systems</div>
+        <div class="Card__meta">Jan 12 · 5 min read</div>
+    </div>
+</div>`,
+        css: `.Card {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    width: 160px;
+}
+.Card__img {
+    height: 70px;
+    background: linear-gradient(135deg, #1e1b4b, #312e81);
+}
+.Card__body {
+    padding: 10px;
+}
+.Card__cat {
+    font-size: 10px;
+    color: #7c3aed;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.Card__title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.4;
+}
+.Card__meta {
+    font-size: 10px;
+    color: #71717a;
+    margin-top: 4px;
+}`
     },
     {
         id: 133, name: "Card-133", preview: (
@@ -4271,7 +5490,53 @@ export const cards = [
                 <div className="cd-133__sub">You have 3 unread messages</div>
                 <button className="cd-133__btn">View all</button>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__icon"></div>
+    <div class="Card__title">Notifications</div>
+    <div class="Card__sub">You have 3 unread messages</div>
+    <button class="Card__btn">View all</button>
+</div>`,
+        css: `.Card {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 16px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Card__icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: rgba(124, 58, 237, 0.15);
+    margin-bottom: 4px;
+}
+.Card__title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+.Card__sub {
+    font-size: 11px;
+    color: #71717a;
+}
+.Card__btn {
+    margin-top: 6px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #a1a1aa;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Card__btn:hover {
+    border-color: #7c3aed;
+    color: #fff;
+}`
     },
     {
         id: 134, name: "Card-134", preview: (
@@ -4285,7 +5550,57 @@ export const cards = [
                 </div>
                 <div className="cd-134__msg">Hey, the new design looks great. Can we hop on a call?</div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__header">
+        <div class="Card__avatar">MK</div>
+        <div>
+            <div class="Card__name">Mike K.</div>
+            <div class="Card__time">2 min ago</div>
+        </div>
+    </div>
+    <div class="Card__msg">Hey, the new design looks great. Can we hop on a call?</div>
+</div>`,
+        css: `.Card {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 14px;
+    width: 160px;
+}
+.Card__header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.Card__avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #6366f1, #7c3aed);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    flex-shrink: 0;
+}
+.Card__name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+}
+.Card__time {
+    font-size: 10px;
+    color: #71717a;
+}
+.Card__msg {
+    font-size: 11px;
+    color: #a1a1aa;
+    line-height: 1.5;
+}`
     },
     {
         id: 135, name: "Card-135", preview: (
@@ -4296,7 +5611,56 @@ export const cards = [
                 </div>
                 <div className="cd-135__sub">7 members · 3 online</div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__title">Team</div>
+    <div class="Card__avatars">
+        <span>AL</span><span>BR</span><span>CK</span><span>+4</span>
+    </div>
+    <div class="Card__sub">7 members · 3 online</div>
+</div>`,
+        css: `.Card {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 16px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.Card__title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+}
+.Card__avatars {
+    display: flex;
+}
+.Card__avatars span {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #7c3aed, #4f46e5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    font-weight: 700;
+    color: #fff;
+    border: 2px solid #18181b;
+    margin-left: -6px;
+}
+.Card__avatars span:first-child {
+    margin-left: 0;
+}
+.Card__avatars span:last-child {
+    background: #3f3f46;
+}
+.Card__sub {
+    font-size: 10px;
+    color: #71717a;
+}`
     },
     {
         id: 136, name: "Card-136", preview: (
@@ -4306,7 +5670,53 @@ export const cards = [
                 <div className="cd-136__track"><div className="cd-136__fill" /></div>
                 <div className="cd-136__sub">5.8 GB remaining</div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__label">Storage</div>
+    <div class="Card__val">14.2 GB <span>of 20 GB</span></div>
+    <div class="Card__track"><div class="Card__fill"></div></div>
+    <div class="Card__sub">5.8 GB remaining</div>
+</div>`,
+        css: `.Card {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 16px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Card__label {
+    font-size: 11px;
+    color: #71717a;
+}
+.Card__val {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+}
+.Card__val span {
+    font-size: 11px;
+    color: #71717a;
+    font-weight: 400;
+}
+.Card__track {
+    height: 5px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 999px;
+    overflow: hidden;
+}
+.Card__fill {
+    width: 71%;
+    height: 100%;
+    background: linear-gradient(90deg, #7c3aed, #a855f7);
+    border-radius: 999px;
+}
+.Card__sub {
+    font-size: 10px;
+    color: #71717a;
+}`
     },
     {
         id: 137, name: "Card-137", preview: (
@@ -4316,7 +5726,45 @@ export const cards = [
                 <div className="cd-137__sub">All systems operational</div>
                 <div className="cd-137__uptime">99.9% uptime</div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__status"></div>
+    <div class="Card__title">Server Status</div>
+    <div class="Card__sub">All systems operational</div>
+    <div class="Card__uptime">99.9% uptime</div>
+</div>`,
+        css: `.Card {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 16px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Card__status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 8px #22c55e;
+    margin-bottom: 4px;
+}
+.Card__title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+}
+.Card__sub {
+    font-size: 11px;
+    color: #71717a;
+}
+.Card__uptime {
+    font-size: 11px;
+    color: #22c55e;
+    margin-top: 4px;
+}`
     },
     {
         id: 138, name: "Card-138", preview: (
@@ -4325,7 +5773,42 @@ export const cards = [
                 <div className="cd-138__sub">Glassmorphism style</div>
                 <button className="cd-138__btn">Open</button>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__title">Dark Glass</div>
+    <div class="Card__sub">Glassmorphism style</div>
+    <button class="Card__btn">Open</button>
+</div>`,
+        css: `.Card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    width: 150px;
+    backdrop-filter: blur(12px);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Card__title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+.Card__sub {
+    font-size: 11px;
+    color: #a1a1aa;
+}
+.Card__btn {
+    margin-top: 8px;
+    background: rgba(124, 58, 237, 0.2);
+    border: 1px solid rgba(124, 58, 237, 0.4);
+    color: #a855f7;
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 11px;
+    cursor: pointer;
+}`
     },
     {
         id: 139, name: "Card-139", preview: (
@@ -4338,7 +5821,63 @@ export const cards = [
                 <div className="cd-139__divider" />
                 <button className="cd-139__btn">Download</button>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__top">
+        <div class="Card__title">Weekly Report</div>
+        <div class="Card__badge">PDF</div>
+    </div>
+    <div class="Card__sub">Generated on May 12, 2026</div>
+    <div class="Card__divider"></div>
+    <button class="Card__btn">Download</button>
+</div>`,
+        css: `.Card {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 14px;
+    width: 150px;
+}
+.Card__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.Card__title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+}
+.Card__badge {
+    background: rgba(124, 58, 237, 0.15);
+    color: #a855f7;
+    font-size: 9px;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+.Card__sub {
+    font-size: 10px;
+    color: #71717a;
+    margin-bottom: 10px;
+}
+.Card__divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.06);
+    margin-bottom: 10px;
+}
+.Card__btn {
+    background: #7c3aed;
+    color: #fff;
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 11px;
+    cursor: pointer;
+    width: 100%;
+}`
     },
     {
         id: 140, name: "Card-140", preview: (
@@ -4350,9 +5889,90 @@ export const cards = [
                     <button className="cd-140__action cd-140__action--danger">Delete</button>
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Card">
+    <div class="Card__title">Quick Actions</div>
+    <div class="Card__actions">
+        <button class="Card__action">Edit</button>
+        <button class="Card__action">Share</button>
+        <button class="Card__action Card__action--danger">Delete</button>
+    </div>
+</div>`,
+        css: `.Card {
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 16px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Card__title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+}
+.Card__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.Card__action {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: #a1a1aa;
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.Card__action:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+.Card__action--danger {
+    color: #f87171;
+    border-color: rgba(248, 113, 113, 0.2);
+}
+.Card__action--danger:hover {
+    background: rgba(248, 113, 113, 0.1);
+    border-color: #f87171;
+}`
     },
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const loaders = [
     { id: 9, name: "Spinner Loader", preview: <div className="prev-spinner" /> },
@@ -6256,13 +7876,13 @@ export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, .
 
 
 
-        // {
-        // id: 1, name: "wat de naam ook maar is", preview: <button className="wat de naam ook maar is">Get started</button>,
-        // html: `<button class="Button">click here</button>`,
-        // css: `.Button {
-        // color: #fff;
-        // }
-        // .Button:hover {
-        //     opacity: 0.85;
-        // }`
-        // },
+// {
+// id: 1, name: "wat de naam ook maar is", preview: <button className="wat de naam ook maar is">Get started</button>,
+// html: `<button class="Button">click here</button>`,
+// css: `.Button {
+// color: #fff;
+// }
+// .Button:hover {
+//     opacity: 0.85;
+// }`
+// },
