@@ -1336,7 +1336,6 @@ export const buttons = [
 
 
 
-
 export const checkboxes = [
     {
         id: 5, name: "Checkbox", preview: (
@@ -1345,7 +1344,31 @@ export const checkboxes = [
                 <label className="prev-checkbox"><input type="checkbox" /><span>Option 2</span></label>
                 <label className="prev-checkbox"><input type="checkbox" /><span>Option 3</span></label>
             </div>
-        )
+        ),
+        html: `<div class="Checkbox-group">
+    <label class="Checkbox"><input type="checkbox" checked /><span>Option 1</span></label>
+    <label class="Checkbox"><input type="checkbox" /><span>Option 2</span></label>
+    <label class="Checkbox"><input type="checkbox" /><span>Option 3</span></label>
+</div>`,
+        css: `.Checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #a1a1aa;
+    cursor: pointer;
+}
+.Checkbox input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #7c3aed;
+    cursor: pointer;
+}`
     },
     {
         id: 15, name: "Checkbox", preview: (
@@ -1353,7 +1376,57 @@ export const checkboxes = [
                 <input defaultChecked type="checkbox" />
                 <div className="cb-15__mark"></div>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" checked />
+    <div class="Checkbox__mark"></div>
+</label>`,
+        css: `.Checkbox input {
+    display: none;
+}
+.Checkbox {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Checkbox__mark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1.3em;
+    width: 1.3em;
+    background-color: #2196F300;
+    border-radius: 0.25em;
+    transition: all 0.25s;
+}
+.Checkbox input:checked~.Checkbox__mark {
+    background-color: #2196F3;
+}
+.Checkbox__mark::after {
+    content: "";
+    position: absolute;
+    transform: rotate(0deg);
+    border: 0.1em solid black;
+    left: 0;
+    top: 0;
+    width: 1.05em;
+    height: 1.05em;
+    border-radius: 0.25em;
+    transition: all 0.25s, border-width 0.1s;
+}
+.Checkbox input:checked~.Checkbox__mark::after {
+    left: 0.45em;
+    top: 0.25em;
+    width: 0.25em;
+    height: 0.5em;
+    border-color: #fff0 white white #fff0;
+    border-width: 0 0.15em 0.15em 0;
+    border-radius: 0em;
+    transform: rotate(45deg);
+}`
     },
     {
         id: 16, name: "Checkbox", preview: (
@@ -1361,7 +1434,38 @@ export const checkboxes = [
                 <input defaultChecked type="checkbox" />
                 <span className="cb-16__box"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" checked />
+    <span class="Checkbox__box"></span>
+</label>`,
+        css: `.Checkbox input[type="checkbox"] {
+    display: none;
+}
+.Checkbox__box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #7c3aed;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+}
+.Checkbox__box::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: #7c3aed;
+    border-radius: 2px;
+    opacity: 0;
+}
+.Checkbox input[type="checkbox"]:checked+.Checkbox__box::after {
+    opacity: 1;
+}`
     },
     {
         id: 17, name: "Checkbox", preview: (
@@ -1371,7 +1475,64 @@ export const checkboxes = [
                 <span></span>
                 <span></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox burger">
+    <input type="checkbox" checked />
+    <span></span>
+    <span></span>
+    <span></span>
+</label>`,
+        css: `.Checkbox.burger {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    background: transparent;
+    cursor: pointer;
+    display: block;
+}
+.Checkbox.burger input {
+    display: none;
+}
+.Checkbox.burger span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: white;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+.Checkbox.burger span:nth-of-type(1) {
+    top: 0px;
+    transform-origin: left center;
+}
+.Checkbox.burger span:nth-of-type(2) {
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: left center;
+}
+.Checkbox.burger span:nth-of-type(3) {
+    top: 100%;
+    transform-origin: left center;
+    transform: translateY(-100%);
+}
+.Checkbox.burger input:checked~span:nth-of-type(1) {
+    transform: rotate(45deg);
+    top: 0px;
+    left: 5px;
+}
+.Checkbox.burger input:checked~span:nth-of-type(2) {
+    width: 0%;
+    opacity: 0;
+}
+.Checkbox.burger input:checked~span:nth-of-type(3) {
+    transform: rotate(-45deg);
+    top: 28px;
+    left: 5px;
+}`
     },
     {
         id: 18, name: "Checkbox", preview: (
@@ -1379,7 +1540,73 @@ export const checkboxes = [
                 <input defaultChecked type="checkbox" id="cb18-cbx" className="cb18-hidden" />
                 <label htmlFor="cb18-cbx" className="cb18-cbx"></label>
             </div>
-        )
+        ),
+        html: `<div class="Checkbox-cntr">
+    <input type="checkbox" id="checkbox-18" class="Checkbox-hidden" checked />
+    <label for="checkbox-18" class="Checkbox-box"></label>
+</div>`,
+        css: `.Checkbox-box {
+    position: relative;
+    top: 1px;
+    width: 27px;
+    height: 27px;
+    border: 1px solid #c8ccd4;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+}
+.Checkbox-box:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    width: 7px;
+    height: 14px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease;
+    transition-delay: 0.15s;
+}
+#checkbox-18:checked~.Checkbox-box {
+    border-color: transparent;
+    background: #6871f1;
+    animation: Checkbox-jelly 0.6s ease;
+}
+#checkbox-18:checked~.Checkbox-box:after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+.Checkbox-cntr {
+    position: relative;
+}
+.Checkbox-hidden {
+    display: none !important;
+}
+@keyframes Checkbox-jelly {
+    from {
+        transform: scale(1, 1);
+    }
+    30% {
+        transform: scale(1.25, 0.75);
+    }
+    40% {
+        transform: scale(0.75, 1.25);
+    }
+    50% {
+        transform: scale(1.15, 0.85);
+    }
+    65% {
+        transform: scale(0.95, 1.05);
+    }
+    75% {
+        transform: scale(1.05, 0.95);
+    }
+    to {
+        transform: scale(1, 1);
+    }
+}`
     },
     {
         id: 19, name: "Checkbox", preview: (
@@ -1388,7 +1615,78 @@ export const checkboxes = [
                 <input id="cb19-input" type="checkbox" />
                 <span className="cb19-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <label for="checkbox-19"></label>
+    <input id="checkbox-19" type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.Checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.Checkbox label {
+    cursor: pointer;
+    font-size: 14px;
+}
+.Checkbox-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 2.5px solid #ffffff;
+    transition: .2s linear;
+    transform: rotate(0deg);
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    transform: rotate(45deg);
+    border: none;
+    background-color: transparent;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    left: 50%;
+    top: 40%;
+    width: 10px;
+    height: 14px;
+    border: 2px solid #0ea021;
+    filter: drop-shadow(0px 0px 10px #0ea021);
+    border-width: 0 2.5px 2.5px 0;
+    transition: .2s linear;
+    transform: translate(-50%, -50%) rotate(-90deg) scale(0.2);
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    animation: Checkbox-pulse 1s ease-in;
+}
+@keyframes Checkbox-pulse {
+    0%, 100% {
+        transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(0deg) scale(1.6);
+    }
+}`
     },
     {
         id: 20, name: "Checkbox", preview: (
@@ -1396,7 +1694,67 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <div className="cb20-checkmark"></div>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <div class="Checkbox-checkmark"></div>
+</label>`,
+        css: `.Checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    border-radius: 5px;
+}
+.Checkbox {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px rgb(183, 183, 183);
+}
+.Checkbox-checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1.3em;
+    width: 1.3em;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    box-shadow: 3px 3px 0px rgb(183, 183, 183);
+    transition: all 0.2s;
+    opacity: 1;
+    background-image: linear-gradient(45deg, rgb(100, 61, 219) 0%, rgb(217, 21, 239) 100%);
+}
+.Checkbox input~.Checkbox-checkmark {
+    transition: all 0.2s;
+    opacity: 1;
+    box-shadow: 1px 1px 0px rgb(183, 183, 183);
+}
+.Checkbox-checkmark:after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    transition: all 0.2s;
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    opacity: 1;
+    transition: all 0.2s;
+}
+.Checkbox .Checkbox-checkmark:after {
+    left: 0.45em;
+    top: 0.25em;
+    width: 0.25em;
+    height: 0.5em;
+    border: solid white;
+    border-width: 0 0.15em 0.15em 0;
+    transform: rotate(45deg);
+}`
     },
     {
         id: 21, name: "Checkbox", preview: (
@@ -1404,7 +1762,47 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb21-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 26px;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Checkbox-checkmark {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background-color: #ccc;
+    border-radius: 26px;
+    transition: .3s;
+}
+.Checkbox-checkmark:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    background-color: #4CAF50;
+}
+.Checkbox input:checked~.Checkbox-checkmark:before {
+    transform: translateX(20px);
+}`
     },
     {
         id: 22, name: "Checkbox", preview: (
@@ -1412,7 +1810,49 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb22-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 2.5px solid #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 7px;
+    height: 12px;
+    border: 2.5px solid white;
+    border-width: 0 2.5px 2.5px 0;
+    transform: rotate(45deg) scale(0);
+    transition: .2s;
+    margin-bottom: 3px;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    background-color: #6871f1;
+    border-color: #6871f1;
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    transform: rotate(45deg) scale(1);
+}`
     },
     {
         id: 23, name: "Checkbox", preview: (
@@ -1420,7 +1860,49 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb23-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #ff6b6b;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 6px;
+    height: 11px;
+    border: 2px solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: .2s;
+    margin-bottom: 2px;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    background-color: #ff6b6b;
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    transform: rotate(45deg) scale(1);
+}`
     },
     {
         id: 24, name: "Checkbox", preview: (
@@ -1428,7 +1910,47 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb24-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #333;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 12px;
+    height: 2px;
+    background-color: white;
+    transform: scale(0);
+    transition: .2s;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    background-color: #333;
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    transform: scale(1);
+}`
     },
     {
         id: 25, name: "Checkbox", preview: (
@@ -1436,7 +1958,51 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb25-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #00e5ff;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 6px;
+    height: 11px;
+    border: 2px solid #00e5ff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: .2s;
+    margin-bottom: 2px;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    background-color: transparent;
+    box-shadow: 0 0 8px #00e5ff, inset 0 0 8px rgba(0, 229, 255, 0.1);
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    transform: rotate(45deg) scale(1);
+    filter: drop-shadow(0 0 4px #00e5ff);
+}`
     },
     {
         id: 26, name: "Checkbox", preview: (
@@ -1444,7 +2010,52 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb26-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    border: 1.5px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 6px;
+    height: 11px;
+    border: 2px solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: .3s;
+    margin-bottom: 3px;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 4px 16px rgba(255, 255, 255, 0.2);
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    transform: rotate(45deg) scale(1);
+}`
     },
     {
         id: 27, name: "Checkbox", preview: (
@@ -1452,7 +2063,49 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb27-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    background: #e0e5ec;
+    box-shadow: 4px 4px 8px #b8bec7, -4px -4px 8px #ffffff;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 6px;
+    height: 11px;
+    border: 2px solid #6c63ff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: .3s;
+    margin-bottom: 3px;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    box-shadow: inset 3px 3px 6px #b8bec7, inset -3px -3px 6px #ffffff;
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    transform: rotate(45deg) scale(1);
+}`
     },
     {
         id: 28, name: "Checkbox", preview: (
@@ -1460,7 +2113,51 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb28-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(135deg, #f093fb, #f5576c) border-box;
+    border: 2px solid transparent;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 6px;
+    height: 11px;
+    border: 2px solid #f5576c;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: .3s;
+    margin-bottom: 3px;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    background: linear-gradient(135deg, #f093fb, #f5576c) border-box;
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    border-color: white;
+    transform: rotate(45deg) scale(1);
+}`
     },
     {
         id: 29, name: "Checkbox", preview: (
@@ -1468,7 +2165,48 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb29-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Checkbox-checkmark {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background-color: #e5e5ea;
+    border-radius: 28px;
+    transition: .3s;
+}
+.Checkbox-checkmark:before {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    border-radius: 50%;
+    transition: .3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    background-color: #34c759;
+}
+.Checkbox input:checked~.Checkbox-checkmark:before {
+    transform: translateX(22px);
+}`
     },
     {
         id: 30, name: "Checkbox", preview: (
@@ -1476,7 +2214,51 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb30-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: 2px solid #9e9e9e;
+    background-color: transparent;
+    transition: .2s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 5px;
+    height: 10px;
+    border: 2px solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: .2s cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 2px;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    background-color: #6200ea;
+    border-color: #6200ea;
+    box-shadow: 0 0 0 8px rgba(98, 0, 234, 0.1);
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    transform: rotate(45deg) scale(1);
+}`
     },
     {
         id: 31, name: "Checkbox", preview: (
@@ -1484,7 +2266,51 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb31-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 26px;
+    height: 26px;
+    border: 2px solid #f0e614;
+    background: transparent;
+    clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
+    transition: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 6px;
+    height: 11px;
+    border: 2px solid #f0e614;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: .2s;
+    margin-bottom: 3px;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    background: rgba(240, 230, 20, 0.15);
+    box-shadow: 0 0 10px #f0e614, inset 0 0 10px rgba(240, 230, 20, 0.1);
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    transform: rotate(45deg) scale(1);
+    filter: drop-shadow(0 0 3px #f0e614);
+}`
     },
     {
         id: 32, name: "Checkbox", preview: (
@@ -1492,7 +2318,55 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb32-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 24px;
+    height: 24px;
+    background: #c0c0c0;
+    border-top: 3px solid #ffffff;
+    border-left: 3px solid #ffffff;
+    border-bottom: 3px solid #808080;
+    border-right: 3px solid #808080;
+    transition: .1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    image-rendering: pixelated;
+}
+.Checkbox-checkmark:after {
+    content: "✓";
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0;
+    transition: .1s;
+    font-family: monospace;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    border-top: 3px solid #808080;
+    border-left: 3px solid #808080;
+    border-bottom: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+    background: #c0c0c0;
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    opacity: 1;
+}`
     },
     {
         id: 33, name: "Checkbox", preview: (
@@ -1500,7 +2374,50 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb33-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 2px solid #ffb3c6;
+    background: white;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "♡";
+    color: #ff85a1;
+    font-size: 14px;
+    opacity: 0;
+    transform: scale(0);
+    transition: .3s;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    background: #fff0f3;
+    border-color: #ff85a1;
+    box-shadow: 0 0 0 3px rgba(255, 133, 161, 0.2);
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    opacity: 1;
+    transform: scale(1);
+}`
     },
     {
         id: 34, name: "Checkbox", preview: (
@@ -1508,7 +2425,50 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb34-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1.5px solid #444;
+    background: #1a1a1a;
+    transition: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 5px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: .2s;
+    margin-bottom: 2px;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    background: #2d2d2d;
+    border-color: #ffffff;
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    transform: rotate(45deg) scale(1);
+}`
     },
     {
         id: 35, name: "Checkbox", preview: (
@@ -1516,7 +2476,50 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb35-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    border: 2px solid #a8edea;
+    background: transparent;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 6px;
+    height: 11px;
+    border: 2px solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: .3s;
+    margin-bottom: 3px;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+    border-color: transparent;
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    transform: rotate(45deg) scale(1);
+}`
     },
     {
         id: 36, name: "Checkbox", preview: (
@@ -1524,7 +2527,65 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb36-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    border: 2px solid #667eea;
+    background: transparent;
+    transition: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 6px;
+    height: 11px;
+    border: 2px solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: .2s;
+    margin-bottom: 3px;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-color: transparent;
+    animation: Checkbox-bounce 0.4s ease;
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    transform: rotate(45deg) scale(1);
+}
+@keyframes Checkbox-bounce {
+    0% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1.3);
+    }
+    70% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}`
     },
     {
         id: 37, name: "Checkbox", preview: (
@@ -1532,7 +2593,46 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb37-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 26px;
+    height: 26px;
+    border-radius: 4px;
+    border: 2px solid #00b4d8;
+    background: transparent;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 6px;
+    height: 11px;
+    border: 2.5px solid #00b4d8;
+    border-width: 0 2.5px 2.5px 0;
+    transform: rotate(45deg) scale(0);
+    transition: .3s;
+    margin-bottom: 3px;
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    transform: rotate(45deg) scale(1);
+}`
     },
     {
         id: 38, name: "Checkbox", preview: (
@@ -1540,7 +2640,51 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb38-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    border: 2px solid #f97316;
+    background: transparent;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 6px;
+    height: 11px;
+    border: 2px solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: .3s;
+    margin-bottom: 3px;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    background: linear-gradient(135deg, #f97316, #ef4444);
+    border-color: transparent;
+    box-shadow: 0 4px 15px rgba(249, 115, 22, 0.4);
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    transform: rotate(45deg) scale(1);
+}`
     },
     {
         id: 39, name: "Checkbox", preview: (
@@ -1548,7 +2692,48 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb39-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    background: transparent;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #10b981;
+    transform: scale(0);
+    transition: .3s;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    border-color: #10b981;
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    transform: scale(1);
+}`
     },
     {
         id: 61, name: "Checkbox", preview: (
@@ -1556,12 +2741,53 @@ export const checkboxes = [
                 <input type="checkbox" />
                 <span className="cb61-checkmark"></span>
             </label>
-        )
+        ),
+        html: `<label class="Checkbox">
+    <input type="checkbox" />
+    <span class="Checkbox-checkmark"></span>
+</label>`,
+        css: `.Checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.Checkbox-checkmark {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 2px solid #fb7185;
+    background: transparent;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Checkbox-checkmark:after {
+    content: "";
+    width: 6px;
+    height: 11px;
+    border: 2px solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: .3s;
+    margin-bottom: 3px;
+}
+.Checkbox input:checked~.Checkbox-checkmark {
+    border-radius: 6px;
+    background: #fb7185;
+    border-color: #fb7185;
+}
+.Checkbox input:checked~.Checkbox-checkmark:after {
+    transform: rotate(45deg) scale(1);
+}`
     },
-
 ];
-
-
 
 
 

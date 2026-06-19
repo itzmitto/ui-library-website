@@ -2,7 +2,7 @@ import { useState } from "react";
 import Header from "../components/Header"; 
 import { allComponents } from "../data/componentsData";
 import ComponentModal from "../components/ComponentModal";
-import "./All.css";
+import "./All.css"; 
 
 export default function All() {
   const [selected, setSelected] = useState<typeof allComponents[0] | null>(null);
