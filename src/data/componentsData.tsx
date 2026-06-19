@@ -6095,6 +6095,21 @@ export const loaders = [
 
 ];
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export const inputs = [
     { id: 12, name: "Text Input", preview: <input className="prev-input" type="text" placeholder="Type something..." /> },
     { id: 171, name: "input", preview: <input className="ip-171" type="text" placeholder="Type something..." /> },
