@@ -2819,8 +2819,6 @@ export const checkboxes = [
 
 
 
-
-
 export const toggles = [
     {
         id: 6, name: "Toggle Switch", preview: (
@@ -2828,7 +2826,48 @@ export const toggles = [
                 <label className="ts-6"><input type="checkbox" defaultChecked /><span className="ts-6__track"><span className="ts-6__thumb" /></span></label>
                 <label className="ts-6"><input type="checkbox" /><span className="ts-6__track"><span className="ts-6__thumb" /></span></label>
             </div>
-        )
+        ),
+        html: `<div class="Toggle-group">
+    <label class="Toggle"><input type="checkbox" checked /><span class="Toggle__track"><span class="Toggle__thumb"></span></span></label>
+    <label class="Toggle"><input type="checkbox" /><span class="Toggle__track"><span class="Toggle__thumb"></span></span></label>
+</div>`,
+        css: `.Toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle__track {
+    width: 44px;
+    height: 24px;
+    background: #3f3f46;
+    border-radius: 999px;
+    position: relative;
+    transition: background 0.2s;
+}
+.Toggle input:checked+.Toggle__track {
+    background: #7c3aed;
+}
+.Toggle__thumb {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+.Toggle input:checked+.Toggle__track .Toggle__thumb {
+    transform: translateX(20px);
+}
+.Toggle-group {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}`
     },
     {
         id: 40, name: "Toggle Switch", preview: (
@@ -2836,7 +2875,47 @@ export const toggles = [
                 <input type="checkbox" id="checkboxInput40" />
                 <label htmlFor="checkboxInput40" className="toggleSwitch"></label>
             </div>
-        )
+        ),
+        html: `<div class="Toggle-group">
+    <input type="checkbox" id="toggle-40" />
+    <label for="toggle-40" class="Toggle-switch"></label>
+</div>`,
+        css: `.Toggle-group #toggle-40 {
+    display: none;
+}
+.Toggle-switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(82, 82, 82);
+    border-radius: 20px;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+.Toggle-switch::after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: 5px;
+    background-color: transparent;
+    border-radius: 50%;
+    transition-duration: .2s;
+    box-shadow: 5px 2px 7px rgba(8, 8, 8, 0.26);
+    border: 5px solid white;
+}
+#toggle-40:checked+.Toggle-switch::after {
+    transform: translateX(100%);
+    transition-duration: .2s;
+    background-color: white;
+}
+#toggle-40:checked+.Toggle-switch {
+    background-color: rgb(148, 118, 255);
+    transition-duration: .2s;
+}`
     },
     {
         id: 41, name: "Toggle Switch", preview: (
@@ -2844,7 +2923,48 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts41-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #e5e5ea;
+    border-radius: 28px;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: .3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #34c759;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(22px);
+}`
     },
     {
         id: 42, name: "Toggle Switch", preview: (
@@ -2852,7 +2972,50 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts42-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 20px;
+    margin-top: 4px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #bdbdbd;
+    border-radius: 20px;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    left: -4px;
+    bottom: -4px;
+    background: white;
+    border-radius: 50%;
+    transition: .3s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #90caf9;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+    background: #1976d2;
+}`
     },
     {
         id: 43, name: "Toggle Switch", preview: (
@@ -2860,7 +3023,48 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts43-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 28px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #ddd;
+    border-radius: 28px;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: .3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(135deg, #a855f7, #ec4899);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+}`
     },
     {
         id: 44, name: "Toggle Switch", preview: (
@@ -2868,7 +3072,52 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts44-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 28px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #1a1a2e;
+    border-radius: 28px;
+    border: 1.5px solid #333;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 3px;
+    background: #555;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #0d0d1a;
+    border-color: #00e5ff;
+    box-shadow: 0 0 12px rgba(0, 229, 255, 0.5);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+    background: #00e5ff;
+    box-shadow: 0 0 10px #00e5ff;
+}`
     },
     {
         id: 45, name: "Toggle Switch", preview: (
@@ -2876,7 +3125,48 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts45-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 28px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #e0e5ec;
+    border-radius: 28px;
+    box-shadow: inset 3px 3px 6px #b8bec7, inset -3px -3px 6px #ffffff;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: #e0e5ec;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px #b8bec7, -3px -3px 6px #ffffff;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(28px);
+    background: #6c63ff;
+    box-shadow: 2px 2px 5px rgba(108, 99, 255, 0.4);
+}`
     },
     {
         id: 46, name: "Toggle Switch", preview: (
@@ -2884,7 +3174,61 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts46-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #fee2e2;
+    border-radius: 30px;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+    justify-content: flex-end;
+    font-size: 13px;
+}
+.Toggle-slider:after {
+    content: "☀️";
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 4px;
+    bottom: 4px;
+    background: #ef4444;
+    border-radius: 50%;
+    transition: .3s;
+    z-index: 1;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #dbeafe;
+    justify-content: flex-start;
+}
+.Toggle input:checked~.Toggle-slider:after {
+    content: "🌙";
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(28px);
+    background: #3b82f6;
+}`
     },
     {
         id: 47, name: "Toggle Switch", preview: (
@@ -2892,7 +3236,48 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts47-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 26px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #e5e7eb;
+    border-radius: 4px;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 3px;
+    background: white;
+    border-radius: 3px;
+    transition: .3s;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #6366f1;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+}`
     },
     {
         id: 48, name: "Toggle Switch", preview: (
@@ -2900,7 +3285,49 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts48-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 28px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: transparent;
+    border-radius: 28px;
+    border: 2px solid #d1d5db;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background: #d1d5db;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    border-color: #10b981;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+    background: #10b981;
+}`
     },
     {
         id: 49, name: "Toggle Switch", preview: (
@@ -2908,7 +3335,49 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts49-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 28px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #e5e7eb;
+    border-radius: 28px;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: .3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(135deg, #f97316, #ef4444);
+    box-shadow: 0 4px 15px rgba(249, 115, 22, 0.4);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+}`
     },
     {
         id: 50, name: "Toggle Switch", preview: (
@@ -2916,7 +3385,48 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts50-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 26px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #374151;
+    border-radius: 26px;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 3px;
+    background: #9ca3af;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #111827;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+    background: #f9fafb;
+}`
     },
     {
         id: 51, name: "Toggle Switch", preview: (
@@ -2924,7 +3434,51 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts51-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 26px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #1a1a1a;
+    border: 1.5px solid #444;
+    clip-path: polygon(0 0, calc(100% - 5px) 0, 100% 5px, 100% 100%, 5px 100%, 0 calc(100% - 5px));
+    transition: .2s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background: #555;
+    clip-path: polygon(0 0, calc(100% - 3px) 0, 100% 3px, 100% 100%, 3px 100%, 0 calc(100% - 3px));
+    transition: .2s;
+}
+.Toggle input:checked~.Toggle-slider {
+    border-color: #f0e614;
+    box-shadow: 0 0 10px rgba(240, 230, 20, 0.5);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(30px);
+    background: #f0e614;
+    box-shadow: 0 0 8px #f0e614;
+}`
     },
     {
         id: 52, name: "Toggle Switch", preview: (
@@ -2932,7 +3486,50 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts52-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 28px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #fce7f3;
+    border-radius: 28px;
+    border: 2px solid #fbcfe8;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
+    background: #f9a8d4;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #fdf2f8;
+    border-color: #f472b6;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+    background: #ec4899;
+}`
     },
     {
         id: 53, name: "Toggle Switch", preview: (
@@ -2940,7 +3537,52 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts53-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 28px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 28px;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(6px);
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 3px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    transition: .3s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.Toggle input:checked~.Toggle-slider {
+    background: rgba(99, 102, 241, 0.3);
+    border-color: rgba(99, 102, 241, 0.6);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+    background: white;
+}`
     },
     {
         id: 54, name: "Toggle Switch", preview: (
@@ -2948,7 +3590,48 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts54-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 28px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #e5e7eb;
+    border-radius: 28px;
+    transition: background .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: transform .4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #8b5cf6;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+}`
     },
     {
         id: 55, name: "Toggle Switch", preview: (
@@ -2956,7 +3639,49 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts55-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 26px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #e0e0e0;
+    border-radius: 26px;
+    transition: .2s;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: .2s;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #635bff;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(22px);
+}`
     },
     {
         id: 56, name: "Toggle Switch", preview: (
@@ -2964,7 +3689,51 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts56-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 28px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #111;
+    border-radius: 28px;
+    border: 1.5px solid #333;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 3px;
+    background: #333;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    border-color: #22c55e;
+    box-shadow: 0 0 12px rgba(34, 197, 94, 0.5);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+    background: #22c55e;
+    box-shadow: 0 0 10px #22c55e;
+}`
     },
     {
         id: 57, name: "Toggle Switch", preview: (
@@ -2972,7 +3741,51 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts57-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    margin-top: 4px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #d1d5db;
+    border-radius: 20px;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: -5px;
+    bottom: -5px;
+    background: white;
+    border-radius: 50%;
+    transition: .3s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border: 2px solid #d1d5db;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #06b6d4;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(40px);
+    border-color: #06b6d4;
+}`
     },
     {
         id: 58, name: "Toggle Switch", preview: (
@@ -2980,7 +3793,50 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts58-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 26px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #c0c0c0;
+    border-top: 3px solid #808080;
+    border-left: 3px solid #808080;
+    border-bottom: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+    transition: .1s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background: #c0c0c0;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+    transition: .1s;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(28px);
+}`
     },
     {
         id: 59, name: "Toggle Switch", preview: (
@@ -2988,7 +3844,48 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts59-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 28px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #e5e7eb;
+    border-radius: 28px;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: .3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(135deg, #0ea5e9, #14b8a6);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+}`
     },
     {
         id: 60, name: "Toggle Switch", preview: (
@@ -2996,10 +3893,60 @@ export const toggles = [
                 <input type="checkbox" />
                 <span className="ts60-slider"></span>
             </label>
-        )
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox" />
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 28px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #e5e7eb;
+    border-radius: 28px;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: .3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #f43f5e;
+    box-shadow: 0 0 0 3px rgba(244, 63, 94, 0.3);
+    animation: Toggle-ring 1.5s infinite;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+}
+@keyframes Toggle-ring {
+    0%, 100% {
+        box-shadow: 0 0 0 3px rgba(244, 63, 94, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 0 6px rgba(244, 63, 94, 0.15);
+    }
+}`
     },
 ];
-
 
 
 
