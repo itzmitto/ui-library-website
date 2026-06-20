@@ -5971,45 +5971,771 @@ export const cards = [
 
 
 
-
-
-
 export const loaders = [
-    { id: 9, name: "Spinner Loader", preview: <div className="prev-spinner" /> },
-    { id: 10, name: "Dots Loader", preview: <div className="prev-dots"><span /><span /><span /></div> },
     {
-        id: 11, name: "Progress Bar", preview: (<div className="prev-progress-wrap"><div className="prev-progress-bar" /></div>)
+        id: 9, name: "Spinner Loader", preview: <div className="prev-spinner" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-top-color: #7c3aed;
+    border-radius: 50%;
+    animation: Loader-spin 0.8s linear infinite;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
     },
-    { id: 141, name: "Loader", preview: <div className="ld-141" /> },
-    { id: 142, name: "Loader", preview: <div className="ld-142" /> },
-    { id: 143, name: "Loader", preview: <div className="ld-143" /> }, 
-    { id: 144, name: "Loader", preview: <div className="ld-144" /> },
-    { id: 145, name: "Loader", preview: <div className="ld-145" /> },
-    { id: 146, name: "Loader", preview: <div className="ld-146" /> },
-    { id: 147, name: "Loader", preview: <div className="ld-147" /> },
-    { id: 148, name: "Loader", preview: <div className="ld-148" /> },
-    { id: 149, name: "Loader", preview: <div className="ld-149" /> },
-    { id: 150, name: "Loader", preview: <div className="ld-150" /> },
-    { id: 151, name: "Loader", preview: <div className="ld-151" /> },
-    { id: 152, name: "Loader", preview: <div style={{ marginLeft: "20px" }}><div className="ld-152" /></div> },
-    { id: 153, name: "Loader", preview: <div style={{ marginLeft: "12px" }}><div className="ld-153" /></div> },
-    { id: 154, name: "Loader", preview: <div className="ld-154" /> },
-    { id: 155, name: "Loader", preview: <div className="ld-155" /> },
-    { id: 156, name: "Loader", preview: <div className="ld-156" /> },
-    { id: 157, name: "Loader", preview: <div className="ld-157" /> },
-    { id: 158, name: "Loader", preview: <div className="ld-158" /> },
-    { id: 159, name: "Loader", preview: <div className="ld-159" /> },
-    { id: 160, name: "Loader", preview: <div className="ld-160" /> },
-    { id: 161, name: "Loader", preview: <div className="ld-161" /> },
-    { id: 162, name: "Loader", preview: <div className="ld-162" /> },
-    { id: 163, name: "Loader", preview: <div className="ld-163" /> },
-    { id: 164, name: "Loader", preview: <div className="ld-164" /> },
-    { id: 165, name: "Loader", preview: <div className="ld-165" /> },
-    { id: 166, name: "Loader", preview: <div className="ld-166" /> },
-    { id: 167, name: "Loader", preview: <div className="ld-167" /> },
-    { id: 168, name: "Loader", preview: <div className="ld-168" /> },
-    { id: 169, name: "Loader", preview: <div className="ld-169" /> },
-    { id: 170, name: "Loader", preview: <div className="ld-170" /> },
+    {
+        id: 10, name: "Dots Loader", preview: <div className="prev-dots"><span /><span /><span /></div>,
+        html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+        css: `.Loader {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.Loader span {
+    width: 10px;
+    height: 10px;
+    background: #7c3aed;
+    border-radius: 50%;
+    animation: Loader-bounce 0.6s ease-in-out infinite alternate;
+}
+.Loader span:nth-child(2) {
+    animation-delay: 0.15s;
+    background: #6366f1;
+}
+.Loader span:nth-child(3) {
+    animation-delay: 0.3s;
+    background: #a855f7;
+}
+@keyframes Loader-bounce {
+    to {
+        transform: translateY(-8px);
+        opacity: 0.5;
+    }
+}`
+    },
+    {
+        id: 11, name: "Progress Bar", preview: (<div className="prev-progress-wrap"><div className="prev-progress-bar" /></div>),
+        html: `<div class="Loader-wrap">
+    <div class="Loader-bar"></div>
+</div>`,
+        css: `.Loader-wrap {
+    width: 160px;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+    overflow: hidden;
+}
+.Loader-bar {
+    width: 65%;
+    height: 100%;
+    background: linear-gradient(90deg, #7c3aed, #a855f7);
+    border-radius: 999px;
+    animation: Loader-progress-pulse 2s ease-in-out infinite alternate;
+}
+@keyframes Loader-progress-pulse {
+    from {
+        width: 30%;
+    }
+    to {
+        width: 80%;
+    }
+}`
+    },
+    {
+        id: 141, name: "Loader", preview: <div className="ld-141" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-top-color: #7c3aed;
+    border-radius: 50%;
+    animation: Loader-spin 0.8s linear infinite;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 142, name: "Loader", preview: <div className="ld-142" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #4f46e5;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    animation: Loader-spin 0.8s linear infinite;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 143, name: "Loader", preview: <div className="ld-143" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 20px;
+    height: 20px;
+    background: #7c3aed;
+    border-radius: 50%;
+    animation: Loader-pulse 1s ease-in-out infinite;
+}
+@keyframes Loader-pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.4);
+        opacity: 0.5;
+    }
+}`
+    },
+    {
+        id: 144, name: "Loader", preview: <div className="ld-144" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 10px;
+    height: 10px;
+    background: #7c3aed;
+    border-radius: 50%;
+    box-shadow: 20px 0 0 #6366f1, 40px 0 0 #a855f7;
+    animation: Loader-dots 0.6s ease-in-out infinite alternate;
+}
+@keyframes Loader-dots {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-8px);
+    }
+}`
+    },
+    {
+        id: 145, name: "Loader", preview: <div className="ld-145" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 160px;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+    overflow: hidden;
+    position: relative;
+}
+.Loader::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40%;
+    background: linear-gradient(90deg, #7c3aed, #a855f7);
+    border-radius: 999px;
+    animation: Loader-progress 1.4s ease-in-out infinite;
+}
+@keyframes Loader-progress {
+    0% {
+        left: -40%;
+        width: 40%;
+    }
+    60% {
+        left: 100%;
+        width: 40%;
+    }
+    100% {
+        left: 100%;
+        width: 40%;
+    }
+}`
+    },
+    {
+        id: 146, name: "Loader", preview: <div className="ld-146" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 160px;
+    height: 16px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    border-radius: 4px;
+    animation: Loader-shimmer 1.5s infinite;
+}
+@keyframes Loader-shimmer {
+    to {
+        background-position: -200% 0;
+    }
+}`
+    },
+    {
+        id: 147, name: "Loader", preview: <div className="ld-147" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 30px;
+    height: 30px;
+    background: #7c3aed;
+    border-radius: 4px;
+    animation: Loader-spin 0.8s ease-in-out infinite;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 148, name: "Loader", preview: <div className="ld-148" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #7c3aed;
+    animation: Loader-ripple 1s ease-out infinite;
+}
+@keyframes Loader-ripple {
+    0% {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.6);
+        opacity: 0;
+    }
+}`
+    },
+    {
+        id: 149, name: "Loader", preview: <div className="ld-149" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 20px;
+    height: 20px;
+    background: #a855f7;
+    border-radius: 50%;
+    animation: Loader-bounce 0.6s ease-in-out infinite alternate;
+}
+@keyframes Loader-bounce {
+    to {
+        transform: translateY(-16px);
+    }
+}`
+    },
+    {
+        id: 150, name: "Loader", preview: <div className="ld-150" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border: 4px dashed #6366f1;
+    border-radius: 50%;
+    animation: Loader-spin 1.2s linear infinite;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 151, name: "Loader", preview: <div className="ld-151" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: conic-gradient(#7c3aed, #a855f7, transparent);
+    animation: Loader-spin 0.8s linear infinite;
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 4px), black calc(100% - 4px));
+    mask: radial-gradient(farthest-side, transparent calc(100% - 4px), black calc(100% - 4px));
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 152, name: "Loader", preview: <div style={{ marginLeft: "20px" }}><div className="ld-152" /></div>,
+        html: `<div style="margin-left: 20px;">
+    <div class="Loader"></div>
+</div>`,
+        css: `.Loader {
+    width: 10px;
+    height: 10px;
+    background: #7c3aed;
+    border-radius: 50%;
+    box-shadow: 20px 0 0 #6366f1, 40px 0 0 #a855f7;
+    animation: Loader-flash 1s ease-in-out infinite;
+}
+@keyframes Loader-flash {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+}`
+    },
+    {
+        id: 153, name: "Loader", preview: <div style={{ marginLeft: "12px" }}><div className="ld-153" /></div>,
+        html: `<div style="margin-left: 12px;">
+    <div class="Loader"></div>
+</div>`,
+        css: `.Loader {
+    width: 6px;
+    height: 40px;
+    background: #7c3aed;
+    border-radius: 999px;
+    box-shadow: 12px 0 0 #6366f1, 24px 0 0 #a855f7;
+    animation: Loader-bars 0.6s ease-in-out infinite alternate;
+}
+@keyframes Loader-bars {
+    0% {
+        transform: scaleY(0.4);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}`
+    },
+    {
+        id: 154, name: "Loader", preview: <div className="ld-154" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+.Loader::before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: Loader-shimmer 1.5s infinite;
+}
+.Loader::after {
+    content: "";
+    width: 100%;
+    height: 12px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: Loader-shimmer 1.5s infinite;
+}
+@keyframes Loader-shimmer {
+    to {
+        background-position: -200% 0;
+    }
+}`
+    },
+    {
+        id: 155, name: "Loader", preview: <div className="ld-155" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 160px;
+    height: 100px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: Loader-shimmer 1.5s infinite;
+}
+@keyframes Loader-shimmer {
+    to {
+        background-position: -200% 0;
+    }
+}`
+    },
+    {
+        id: 156, name: "Loader", preview: <div className="ld-156" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.Loader::before,
+.Loader::after {
+    content: "";
+    height: 10px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: Loader-shimmer 1.5s infinite;
+}
+.Loader::before {
+    width: 100%;
+}
+.Loader::after {
+    width: 70%;
+}
+@keyframes Loader-shimmer {
+    to {
+        background-position: -200% 0;
+    }
+}`
+    },
+    {
+        id: 157, name: "Loader", preview: <div className="ld-157" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 160px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.Loader::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: Loader-shimmer 1.5s infinite;
+}
+.Loader::after {
+    content: "";
+    flex: 1;
+    height: 12px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: Loader-shimmer 1.5s infinite;
+}
+@keyframes Loader-shimmer {
+    to {
+        background-position: -200% 0;
+    }
+}`
+    },
+    {
+        id: 158, name: "Loader", preview: <div className="ld-158" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 120px;
+    height: 36px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: Loader-shimmer 1.5s infinite;
+}
+@keyframes Loader-shimmer {
+    to {
+        background-position: -200% 0;
+    }
+}`
+    },
+    {
+        id: 159, name: "Loader", preview: <div className="ld-159" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 160px;
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    grid-template-rows: 10px 10px 10px;
+    gap: 8px;
+    align-items: center;
+}
+.Loader::before {
+    content: "";
+    grid-column: 1;
+    grid-row: 1 / 4;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: Loader-shimmer 1.5s infinite;
+    align-self: center;
+}
+.Loader::after {
+    content: "";
+    grid-column: 2;
+    grid-row: 1 / 3;
+    height: 10px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: Loader-shimmer 1.5s infinite;
+}
+@keyframes Loader-shimmer {
+    to {
+        background-position: -200% 0;
+    }
+}`
+    },
+    {
+        id: 160, name: "Loader", preview: <div className="ld-160" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 160px;
+    height: 90px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #1f1f23 25%, #2a2a30 50%, #1f1f23 75%);
+    background-size: 200% 100%;
+    animation: Loader-shimmer 1.5s infinite;
+    position: relative;
+    overflow: hidden;
+}
+.Loader::after {
+    content: "▣";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.06);
+}
+@keyframes Loader-shimmer {
+    to {
+        background-position: -200% 0;
+    }
+}`
+    },
+    {
+        id: 161, name: "Loader", preview: <div className="ld-161" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: conic-gradient(#7c3aed 0%, #a855f7 40%, transparent 60%);
+    animation: Loader-spin 0.9s linear infinite;
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 5px), black calc(100% - 5px));
+    mask: radial-gradient(farthest-side, transparent calc(100% - 5px), black calc(100% - 5px));
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 162, name: "Loader", preview: <div className="ld-162" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #a855f7;
+    border-right-color: #6366f1;
+    box-shadow: 0 0 12px #7c3aed;
+    animation: Loader-spin 0.8s linear infinite;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 163, name: "Loader", preview: <div className="ld-163" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 24px;
+    height: 24px;
+    background: linear-gradient(135deg, #7c3aed, #a855f7);
+    border-radius: 50%;
+    animation: Loader-wobble 0.8s ease-in-out infinite alternate;
+}
+@keyframes Loader-wobble {
+    0% {
+        transform: scale(1);
+        border-radius: 50%;
+    }
+    100% {
+        transform: scale(1.3);
+        border-radius: 30%;
+    }
+}`
+    },
+    {
+        id: 164, name: "Loader", preview: <div className="ld-164" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(124, 58, 237, 0.2);
+    border-radius: 50%;
+    position: relative;
+    animation: Loader-spin 1.2s linear infinite;
+}
+.Loader::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8px;
+    height: 8px;
+    background: #7c3aed;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #7c3aed;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 165, name: "Loader", preview: <div className="ld-165" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 30px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.Loader::before,
+.Loader::after {
+    content: "";
+    flex: 1;
+    background: #7c3aed;
+    border-radius: 2px;
+    animation: Loader-wave 0.6s ease-in-out infinite alternate;
+}
+.Loader::before {
+    height: 100%;
+    animation-delay: 0s;
+}
+.Loader::after {
+    height: 50%;
+    animation-delay: 0.2s;
+    background: #a855f7;
+}
+@keyframes Loader-wave {
+    0% {
+        transform: scaleY(0.3);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}`
+    },
+    {
+        id: 166, name: "Loader", preview: <div className="ld-166" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 16px;
+    height: 16px;
+    background: #6366f1;
+    border-radius: 3px;
+    box-shadow: 24px 0 0 #7c3aed, 48px 0 0 #a855f7;
+    animation: Loader-bounce 0.5s ease-in-out infinite alternate;
+}
+@keyframes Loader-bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-14px);
+    }
+}`
+    },
+    {
+        id: 167, name: "Loader", preview: <div className="ld-167" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid #7c3aed;
+    animation: Loader-fade 1s ease-out infinite;
+}
+@keyframes Loader-fade {
+    0% {
+        transform: scale(0.6);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.4);
+        opacity: 0;
+    }
+}`
+    },
+    {
+        id: 168, name: "Loader", preview: <div className="ld-168" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 10px;
+    height: 10px;
+    background: #7c3aed;
+    border-radius: 50%;
+    box-shadow: 18px 0 0 #6366f1, 36px 0 0 #a855f7;
+    animation: Loader-blink 1s ease-in-out infinite;
+}
+@keyframes Loader-blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    33% {
+        opacity: 0.2;
+    }
+    66% {
+        opacity: 0.6;
+    }
+}`
+    },
+    {
+        id: 169, name: "Loader", preview: <div className="ld-169" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px dotted #7c3aed;
+    animation: Loader-spin 1s linear infinite;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 170, name: "Loader", preview: <div className="ld-170" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 24px;
+    height: 24px;
+    background: #7c3aed;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.7);
+    animation: Loader-glow 1.2s ease-out infinite;
+}
+@keyframes Loader-glow {
+    0% {
+        box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 16px rgba(124, 58, 237, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(124, 58, 237, 0);
+    }
+}`
+    },
     {
         id: 600, name: "Kinetic Badge", preview: (
             <a href="#" className="ld-600">
@@ -6035,7 +6761,96 @@ export const loaders = [
                     </svg>
                 </div>
             </a>
-        )
+        ),
+        html: `<a href="#" class="Loader">
+    <div class="Loader__bg"></div>
+    <div class="Loader__text">
+        <svg viewBox="0 0 100 100" width="120" height="120">
+            <defs>
+                <path
+                    id="loader600-circle"
+                    d="M 50, 50 m -38, 0 a 38,38 0 1,1 76,0 a 38,38 0 1,1 -76,0"
+                ></path>
+            </defs>
+            <text font-size="10.5" font-weight="600" fill="currentColor" letter-spacing="2">
+                <textPath href="#loader600-circle" startOffset="0%">
+                    VIEW MASTERPIECE • VIEW MASTERPIECE •
+                </textPath>
+            </text>
+        </svg>
+    </div>
+    <div class="Loader__icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" width="28" height="28">
+            <path d="M6 18L18 6M18 6H8M18 6V16" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+        </svg>
+    </div>
+</a>`,
+        css: `.Loader {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    text-decoration: none;
+    color: #1a1a1a;
+    font-family: inherit;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Loader__bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a1a;
+    border-radius: 50%;
+    transition: transform 0.6s cubic-bezier(0.85, 0, 0.15, 1);
+    z-index: 1;
+}
+.Loader:hover .Loader__bg {
+    transform: translate(-50%, -50%) scale(1);
+}
+.Loader__text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    animation: Loader-spin 10s linear infinite;
+    transition: color 0.4s ease;
+}
+.Loader__text svg {
+    overflow: visible;
+}
+.Loader:hover .Loader__text {
+    color: #f4f4f4;
+    animation: Loader-spin 3s linear infinite;
+}
+.Loader__icon {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.6s cubic-bezier(0.85, 0, 0.15, 1);
+    color: #1a1a1a;
+}
+.Loader:hover .Loader__icon {
+    transform: rotate(45deg) scale(1.2);
+    color: #f4f4f4;
+}
+@keyframes Loader-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}`
     },
     {
         id: 601, name: "Blade Spinner", preview: (
@@ -6053,7 +6868,95 @@ export const loaders = [
                 <div className="ld-601__blade"></div>
                 <div className="ld-601__blade"></div>
             </div>
-        )
+        ),
+        html: `<div class="Loader">
+    <div class="Loader__blade"></div>
+    <div class="Loader__blade"></div>
+    <div class="Loader__blade"></div>
+    <div class="Loader__blade"></div>
+    <div class="Loader__blade"></div>
+    <div class="Loader__blade"></div>
+    <div class="Loader__blade"></div>
+    <div class="Loader__blade"></div>
+    <div class="Loader__blade"></div>
+    <div class="Loader__blade"></div>
+    <div class="Loader__blade"></div>
+    <div class="Loader__blade"></div>
+</div>`,
+        css: `.Loader {
+    font-size: 28px;
+    position: relative;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+.Loader__blade {
+    position: absolute;
+    left: 0.4629em;
+    bottom: 0;
+    width: 0.074em;
+    height: 0.2777em;
+    border-radius: 0.0555em;
+    background-color: transparent;
+    transform-origin: center -0.2222em;
+    animation: Loader-fade 1s infinite linear;
+}
+.Loader__blade:nth-child(1) {
+    animation-delay: 0s;
+    transform: rotate(0deg);
+}
+.Loader__blade:nth-child(2) {
+    animation-delay: 0.083s;
+    transform: rotate(30deg);
+}
+.Loader__blade:nth-child(3) {
+    animation-delay: 0.166s;
+    transform: rotate(60deg);
+}
+.Loader__blade:nth-child(4) {
+    animation-delay: 0.249s;
+    transform: rotate(90deg);
+}
+.Loader__blade:nth-child(5) {
+    animation-delay: 0.332s;
+    transform: rotate(120deg);
+}
+.Loader__blade:nth-child(6) {
+    animation-delay: 0.415s;
+    transform: rotate(150deg);
+}
+.Loader__blade:nth-child(7) {
+    animation-delay: 0.498s;
+    transform: rotate(180deg);
+}
+.Loader__blade:nth-child(8) {
+    animation-delay: 0.581s;
+    transform: rotate(210deg);
+}
+.Loader__blade:nth-child(9) {
+    animation-delay: 0.664s;
+    transform: rotate(240deg);
+}
+.Loader__blade:nth-child(10) {
+    animation-delay: 0.747s;
+    transform: rotate(270deg);
+}
+.Loader__blade:nth-child(11) {
+    animation-delay: 0.83s;
+    transform: rotate(300deg);
+}
+.Loader__blade:nth-child(12) {
+    animation-delay: 0.913s;
+    transform: rotate(330deg);
+}
+@keyframes Loader-fade {
+    0% {
+        background-color: #69717d;
+    }
+    100% {
+        background-color: transparent;
+    }
+}`
     },
     {
         id: 602, name: "Scanner Loader", preview: (
@@ -6062,43 +6965,697 @@ export const loaders = [
                     <span>Loading...</span>
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Loader">
+    <div class="Loader__scanner">
+        <span>Loading...</span>
+    </div>
+</div>`,
+        css: `.Loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Loader__scanner span {
+    color: transparent;
+    font-size: 1.4rem;
+    position: relative;
+    overflow: hidden;
+    font-family: inherit;
+}
+.Loader__scanner span::before {
+    content: "Loading...";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-right: 4px solid #17FEFF;
+    overflow: hidden;
+    color: #17FEFF;
+    animation: Loader-scan 2s linear infinite;
+}
+@keyframes Loader-scan {
+    0%, 10%, 100% {
+        width: 0;
+    }
+    10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
+        border-right-color: transparent;
+    }
+    11%, 21%, 31%, 41%, 51%, 61%, 71%, 81%, 91% {
+        border-right-color: #17FEFF;
+    }
+    60%, 80% {
+        width: 100%;
+    }
+}`
     },
-    { id: 603, name: "Loader", preview: <div className="ld-603" /> },
-    { id: 604, name: "Loader", preview: <div className="ld-604" /> },
-    { id: 605, name: "Loader", preview: <div className="ld-605" /> },
-    { id: 606, name: "Loader", preview: <div className="ld-606" /> },
-    { id: 607, name: "Loader", preview: <div className="ld-607" /> },
-    { id: 608, name: "Loader", preview: <div className="ld-608" /> },
-    { id: 609, name: "Loader", preview: <div className="ld-609" /> },
-    { id: 610, name: "Loader", preview: <div className="ld-610" /> },
-    { id: 611, name: "Loader", preview: <div className="ld-611" /> },
-    { id: 612, name: "Loader", preview: <div className="ld-612" /> },
-    { id: 613, name: "Loader", preview: <div className="ld-613" /> },
-    { id: 614, name: "Loader", preview: <div className="ld-614" /> },
-    { id: 615, name: "Loader", preview: <div className="ld-615" /> },
-    { id: 616, name: "Loader", preview: <div className="ld-616" /> },
-    { id: 617, name: "Loader", preview: <div className="ld-617" /> },
-    { id: 618, name: "Loader", preview: <div className="ld-618" /> },
-    { id: 619, name: "Loader", preview: <div className="ld-619" /> },
-    { id: 620, name: "Loader", preview: <div className="ld-620" /> },
-    { id: 621, name: "Loader", preview: <div className="ld-621" /> },
-    { id: 622, name: "Loader", preview: <div className="ld-622" /> },
-    { id: 623, name: "Loader", preview: <div className="ld-623" /> },
-    { id: 624, name: "Loader", preview: <div className="ld-624" /> },
-    { id: 625, name: "Loader", preview: <div className="ld-625" /> },
-    { id: 626, name: "Loader", preview: <div className="ld-626" /> },
-    { id: 627, name: "Loader", preview: <div className="ld-627" /> },
-    { id: 628, name: "Loader", preview: <div className="ld-628" /> },
-    { id: 629, name: "Loader", preview: <div className="ld-629" /> },
-    { id: 630, name: "Loader", preview: <div className="ld-630" /> },
-
+    {
+        id: 603, name: "Loader", preview: <div className="ld-603" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(56, 189, 248, 0.2);
+    border-top-color: #38bdf8;
+    border-radius: 50%;
+    animation: Loader-spin 0.8s linear infinite;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 604, name: "Loader", preview: <div className="ld-604" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 20px;
+    height: 20px;
+    background: #38bdf8;
+    border-radius: 50%;
+    animation: Loader-pulse 1s ease-in-out infinite;
+}
+@keyframes Loader-pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.4);
+        opacity: 0.5;
+    }
+}`
+    },
+    {
+        id: 605, name: "Loader", preview: <div className="ld-605" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.Loader::before,
+.Loader::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #38bdf8;
+    border-radius: 50%;
+    animation: Loader-bounce 0.6s ease-in-out infinite alternate;
+}
+.Loader::before {
+    animation-delay: 0s;
+}
+.Loader::after {
+    animation-delay: 0.3s;
+    background: #7dd3fc;
+}
+@keyframes Loader-bounce {
+    to {
+        transform: translateY(-8px);
+        opacity: 0.5;
+    }
+}`
+    },
+    {
+        id: 606, name: "Loader", preview: <div className="ld-606" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 160px;
+    height: 5px;
+    background: rgba(56, 189, 248, 0.15);
+    border-radius: 999px;
+    overflow: hidden;
+    position: relative;
+}
+.Loader::after {
+    content: "";
+    position: absolute;
+    left: -40%;
+    width: 40%;
+    height: 100%;
+    background: #38bdf8;
+    border-radius: 999px;
+    animation: Loader-slide 1.2s ease-in-out infinite;
+}
+@keyframes Loader-slide {
+    0% {
+        left: -40%;
+    }
+    100% {
+        left: 100%;
+    }
+}`
+    },
+    {
+        id: 607, name: "Loader", preview: <div className="ld-607" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #7dd3fc;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    animation: Loader-spin 0.8s linear infinite;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 608, name: "Loader", preview: <div className="ld-608" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #38bdf8;
+    border-radius: 50%;
+    animation: Loader-ripple 1s ease-out infinite;
+}
+@keyframes Loader-ripple {
+    0% {
+        transform: scale(0.7);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}`
+    },
+    {
+        id: 609, name: "Loader", preview: <div className="ld-609" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 160px;
+    height: 14px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, rgba(56, 189, 248, 0.1) 25%, rgba(56, 189, 248, 0.25) 50%, rgba(56, 189, 248, 0.1) 75%);
+    background-size: 200% 100%;
+    animation: Loader-shimmer 1.5s infinite;
+}
+@keyframes Loader-shimmer {
+    to {
+        background-position: -200% 0;
+    }
+}`
+    },
+    {
+        id: 610, name: "Loader", preview: <div className="ld-610" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(56, 189, 248, 0.2);
+    border-radius: 50%;
+    position: relative;
+    animation: Loader-spin 1.2s linear infinite;
+}
+.Loader::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8px;
+    height: 8px;
+    background: #38bdf8;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #38bdf8;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 611, name: "Loader", preview: <div className="ld-611" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    height: 36px;
+}
+.Loader::before,
+.Loader::after {
+    content: "";
+    width: 6px;
+    height: 100%;
+    background: #38bdf8;
+    border-radius: 3px;
+    animation: Loader-bars 0.6s ease-in-out infinite alternate;
+}
+.Loader::before {
+    animation-delay: 0s;
+}
+.Loader::after {
+    animation-delay: 0.2s;
+    background: #7dd3fc;
+}
+@keyframes Loader-bars {
+    0% {
+        transform: scaleY(0.3);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}`
+    },
+    {
+        id: 612, name: "Loader", preview: <div className="ld-612" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border: 4px dotted #38bdf8;
+    border-radius: 50%;
+    animation: Loader-spin 1.2s linear infinite;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 613, name: "Loader", preview: <div className="ld-613" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 24px;
+    height: 24px;
+    background: #38bdf8;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.7);
+    animation: Loader-glow 1.2s ease-out infinite;
+}
+@keyframes Loader-glow {
+    0% {
+        box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 16px rgba(56, 189, 248, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(56, 189, 248, 0);
+    }
+}`
+    },
+    {
+        id: 614, name: "Loader", preview: <div className="ld-614" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: conic-gradient(#38bdf8, #7dd3fc, transparent);
+    animation: Loader-spin 0.8s linear infinite;
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 5px), black calc(100% - 5px));
+    mask: radial-gradient(farthest-side, transparent calc(100% - 5px), black calc(100% - 5px));
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 615, name: "Loader", preview: <div className="ld-615" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 10px;
+    height: 10px;
+    background: #38bdf8;
+    border-radius: 50%;
+    box-shadow: 18px 0 0 #7dd3fc, 36px 0 0 #bae6fd;
+    animation: Loader-flash 1s ease-in-out infinite;
+}
+@keyframes Loader-flash {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+}`
+    },
+    {
+        id: 616, name: "Loader", preview: <div className="ld-616" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 20px;
+    height: 20px;
+    background: #38bdf8;
+    border-radius: 50%;
+    animation: Loader-bounce 0.6s ease-in-out infinite alternate;
+}
+@keyframes Loader-bounce {
+    to {
+        transform: translateY(-16px);
+    }
+}`
+    },
+    {
+        id: 617, name: "Loader", preview: <div className="ld-617" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 28px;
+    height: 28px;
+    background: #38bdf8;
+    border-radius: 4px;
+    animation: Loader-spin 0.8s ease-in-out infinite;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 618, name: "Loader", preview: <div className="ld-618" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    height: 36px;
+    width: 40px;
+}
+.Loader::before {
+    content: "";
+    width: 6px;
+    height: 100%;
+    background: #38bdf8;
+    border-radius: 3px;
+    animation: Loader-wave 0.5s ease-in-out infinite alternate;
+    box-shadow: 10px 0 0 #7dd3fc, 20px 0 0 #bae6fd;
+}
+@keyframes Loader-wave {
+    0% {
+        transform: scaleY(0.4);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}`
+    },
+    {
+        id: 619, name: "Loader", preview: <div className="ld-619" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border: 4px dashed #38bdf8;
+    border-radius: 50%;
+    animation: Loader-spin 1.4s linear infinite;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 620, name: "Loader", preview: <div className="ld-620" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(56, 189, 248, 0.3);
+    position: relative;
+}
+.Loader::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: #38bdf8;
+    animation: Loader-ping 1s ease-out infinite;
+}
+@keyframes Loader-ping {
+    0% {
+        transform: scale(0.5);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}`
+    },
+    {
+        id: 621, name: "Loader", preview: <div className="ld-621" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 140px;
+    height: 16px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, rgba(56, 189, 248, 0.08) 25%, rgba(56, 189, 248, 0.2) 50%, rgba(56, 189, 248, 0.08) 75%);
+    background-size: 200% 100%;
+    animation: Loader-shimmer 1.5s infinite;
+    position: relative;
+}
+.Loader::after {
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: 0;
+    width: 100px;
+    height: 10px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, rgba(56, 189, 248, 0.08) 25%, rgba(56, 189, 248, 0.2) 50%, rgba(56, 189, 248, 0.08) 75%);
+    background-size: 200% 100%;
+    animation: Loader-shimmer 1.5s infinite;
+}
+@keyframes Loader-shimmer {
+    to {
+        background-position: -200% 0;
+    }
+}`
+    },
+    {
+        id: 622, name: "Loader", preview: <div className="ld-622" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top-color: #38bdf8;
+    border-right-color: #7dd3fc;
+    animation: Loader-spin 0.9s linear infinite;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 623, name: "Loader", preview: <div className="ld-623" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 10px;
+    height: 10px;
+    background: #38bdf8;
+    border-radius: 50%;
+    box-shadow: 18px 0 0 #7dd3fc, 36px 0 0 #bae6fd;
+    animation: Loader-fade 1.2s ease-in-out infinite;
+}
+@keyframes Loader-fade {
+    0%, 100% {
+        opacity: 1;
+    }
+    33% {
+        opacity: 0.2;
+    }
+    66% {
+        opacity: 0.6;
+    }
+}`
+    },
+    {
+        id: 624, name: "Loader", preview: <div className="ld-624" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 24px;
+    height: 24px;
+    background: #38bdf8;
+    border-radius: 50%;
+    animation: Loader-beat 0.8s ease-in-out infinite;
+}
+@keyframes Loader-beat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+}`
+    },
+    {
+        id: 625, name: "Loader", preview: <div className="ld-625" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 48px;
+    height: 24px;
+    border: 3px solid #38bdf8;
+    border-radius: 999px;
+    position: relative;
+    animation: Loader-spin 1.5s linear infinite;
+}
+.Loader::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background: #38bdf8;
+    border-radius: 50%;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 626, name: "Loader", preview: <div className="ld-626" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 28px;
+    height: 28px;
+    border: 3px solid rgba(56, 189, 248, 0.2);
+    border-top-color: #38bdf8;
+    border-left-color: #38bdf8;
+    border-radius: 4px;
+    animation: Loader-spin 0.8s linear infinite;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 627, name: "Loader", preview: <div className="ld-627" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 10px;
+    height: 10px;
+    background: #38bdf8;
+    border-radius: 50%;
+    position: relative;
+    animation: Loader-move 1.4s linear infinite;
+    box-shadow: 20px 0 0 rgba(56, 189, 248, 0.6), 40px 0 0 rgba(56, 189, 248, 0.3);
+}
+@keyframes Loader-move {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-10px);
+    }
+}`
+    },
+    {
+        id: 628, name: "Loader", preview: <div className="ld-628" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    display: flex;
+    gap: 4px;
+    align-items: flex-end;
+    height: 36px;
+    width: 36px;
+}
+.Loader::before,
+.Loader::after {
+    content: "";
+    flex: 1;
+    background: #38bdf8;
+    border-radius: 3px 3px 0 0;
+    animation: Loader-stagger 0.6s ease-in-out infinite alternate;
+}
+.Loader::before {
+    height: 60%;
+    animation-delay: 0s;
+}
+.Loader::after {
+    height: 100%;
+    animation-delay: 0.2s;
+    background: #7dd3fc;
+}
+@keyframes Loader-stagger {
+    0% {
+        opacity: 0.4;
+        transform: scaleY(0.6);
+    }
+    100% {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+}`
+    },
+    {
+        id: 629, name: "Loader", preview: <div className="ld-629" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border: 3px solid transparent;
+    border-top-color: #38bdf8;
+    border-radius: 50%;
+    box-shadow: 0 0 12px #38bdf8;
+    animation: Loader-spin 0.8s linear infinite;
+}
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 630, name: "Loader", preview: <div className="ld-630" />,
+        html: `<div class="Loader"></div>`,
+        css: `.Loader {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.Loader::before,
+.Loader::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #38bdf8;
+    border-radius: 50%;
+    animation: Loader-typing 1s ease-in-out infinite;
+}
+.Loader::before {
+    animation-delay: 0s;
+}
+.Loader::after {
+    animation-delay: 0.3s;
+    background: #7dd3fc;
+}
+@keyframes Loader-typing {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+}`
+    },
 ];
-
-
-
-
-
 
 
 
