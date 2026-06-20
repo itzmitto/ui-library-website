@@ -8381,6 +8381,14 @@ export const inputs = [
 
 
 
+
+
+
+
+
+
+
+
 export const radiobuttons = [
     {
         id: 201, name: "radiobuttons", preview: (
@@ -8409,7 +8417,105 @@ export const radiobuttons = [
                     <p className="text">Teacher</p>
                 </label>
             </div>
-        )
+        ),
+        html: `<div class="Radio">
+    <label>
+        <input type="radio" name="role" value="designer" checked />
+        <p class="Radio-text">Designer</p>
+    </label>
+    <label>
+        <input type="radio" name="role" value="student" />
+        <p class="Radio-text">Student</p>
+    </label>
+    <label>
+        <input type="radio" name="role" value="teacher" />
+        <p class="Radio-text">Teacher</p>
+    </label>
+</div>`,
+        css: `.Radio {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Radio * {
+    box-sizing: border-box;
+}
+.Radio label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 20px;
+    width: 220px;
+    cursor: pointer;
+    height: 50px;
+    position: relative;
+    user-select: none;
+}
+.Radio label::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+    height: 45px;
+    z-index: -1;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.Radio label:hover::before {
+    background-color: #2a2e3c;
+}
+.Radio label:has(input:checked)::before {
+    background-color: #2d3750;
+    border-color: #435dd8;
+    height: 50px;
+}
+.Radio-text {
+    color: #fff;
+    margin: 0;
+    font-weight: 500;
+}
+.Radio input[type="radio"] {
+    background-color: #202030;
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #435dd8;
+    cursor: pointer;
+}
+.Radio input[type="radio"]:checked {
+    background-color: #435dd8;
+    animation: Radio-pulse 0.7s forwards;
+}
+.Radio input[type="radio"]::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: scale(0);
+    transition: all 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.Radio input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+@keyframes Radio-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 8px rgba(255, 255, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}`
     },
     {
         id: 202, name: "radiobuttons", preview: (
@@ -8439,7 +8545,73 @@ export const radiobuttons = [
                     </label>
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Radio">
+    <div>
+        <label>
+            <input type="radio" name="gender" value="women" checked />
+            <span>Women</span>
+        </label>
+        <label>
+            <input type="radio" name="gender" value="men" />
+            <span>Men</span>
+        </label>
+        <label>
+            <input type="radio" name="gender" value="divided" />
+            <span>Divided</span>
+        </label>
+    </div>
+</div>`,
+        css: `.Radio {
+    display: inline-block;
+}
+.Radio div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Radio input[type="radio"] {
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+.Radio label {
+    display: inline-block;
+}
+.Radio label span {
+    display: block;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0.375em 0.9em;
+    margin-left: 0.0625em;
+    box-shadow: 0 0 0 0.0625em #b5bfd9;
+    color: #3e4963;
+    text-align: center;
+    transition: all 0.4s ease;
+    font-size: 0.95rem;
+    user-select: none;
+}
+.Radio label:first-child span {
+    border-radius: 0.375em 0 0 0.375em;
+}
+.Radio label:last-child span {
+    border-radius: 0 0.375em 0.375em 0;
+}
+.Radio input[type="radio"]:checked+span {
+    box-shadow: 0 0 0 0.0625em #0043ed;
+    background-color: #dee7ff;
+    color: #0043ed;
+    z-index: 1;
+}
+.Radio input[type="radio"]:focus+span {
+    outline: 0;
+    border-color: #2260ff;
+    box-shadow: 0 0 0 4px #b5c9fc;
+}`
     },
     {
         id: 203, name: "radiobuttons", preview: (
@@ -8469,7 +8641,98 @@ export const radiobuttons = [
                     <span className="text">Reset</span>
                 </label>
             </div>
-        )
+        ),
+        html: `<div class="Radio">
+    <label class="Radio-label">
+        <input type="radio" name="action" value="play" checked />
+        <span class="Radio-text">Play</span>
+    </label>
+    <label class="Radio-label">
+        <input type="radio" name="action" value="stop" />
+        <span class="Radio-text">Stop</span>
+    </label>
+    <label class="Radio-label">
+        <input type="radio" name="action" value="reset" />
+        <span class="Radio-text">Reset</span>
+    </label>
+</div>`,
+        css: `.Radio {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    background-color: black;
+    padding: 4px;
+    border-radius: 10px;
+}
+.Radio input {
+    display: none;
+}
+.Radio-label {
+    width: 90px;
+    height: 60px;
+    background: linear-gradient(to bottom, #333333, rgb(36, 35, 35));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    transition: all 0.1s linear;
+    border-top: 1px solid #4e4d4d;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0px 17px 5px 1px rgba(0, 0, 0, 0.2);
+    user-select: none;
+}
+.Radio-label:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.Radio-label:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.Radio-label:has(input[type="radio"]:checked) {
+    box-shadow: 0px 17px 5px 1px rgba(0, 0, 0, 0);
+    background: linear-gradient(to bottom, #1d1d1d, #1d1d1d);
+    border-top: none;
+}
+.Radio-label::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 103%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to bottom,
+            transparent 10%,
+            transparent,
+            transparent 90%);
+    transition: all 0.1s linear;
+    z-index: -1;
+}
+.Radio-label:has(input[type="radio"]:checked)::before {
+    background: linear-gradient(to bottom,
+            transparent 10%,
+            #cae2fd63,
+            transparent 90%);
+}
+.Radio-text {
+    color: black;
+    font-size: 15px;
+    line-height: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: all 0.1s linear;
+    text-shadow:
+        -1px -1px 1px rgba(224, 224, 224, 0.1),
+        0px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.Radio input[type="radio"]:checked+.Radio-text {
+    color: rgb(202, 226, 253);
+    text-shadow: 0px 0px 12px #cae2fd;
+}`
     },
     {
         id: 204, name: "radiobuttons", preview: (
@@ -8487,7 +8750,54 @@ export const radiobuttons = [
                     <span className="rb-204-name">Vue</span>
                 </label>
             </div>
-        )
+        ),
+        html: `<div class="Radio">
+    <label class="Radio-option">
+        <input type="radio" name="framework" checked />
+        <span class="Radio-name">HTML</span>
+    </label>
+    <label class="Radio-option">
+        <input type="radio" name="framework" />
+        <span class="Radio-name">React</span>
+    </label>
+    <label class="Radio-option">
+        <input type="radio" name="framework" />
+        <span class="Radio-name">Vue</span>
+    </label>
+</div>`,
+        css: `.Radio {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06);
+    padding: 0.25rem;
+    width: 300px;
+    font-size: 14px;
+}
+.Radio-option {
+    flex: 1 1 auto;
+    text-align: center;
+}
+.Radio-option input {
+    display: none;
+}
+.Radio-name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    color: rgb(51, 65, 85);
+    transition: all 0.15s ease-in-out;
+}
+.Radio-option input:checked+.Radio-name {
+    background-color: #fff;
+    font-weight: 600;
+}`
     },
     {
         id: 205, name: "sidebarbuttons", preview: (
@@ -8512,7 +8822,57 @@ export const radiobuttons = [
                     Notifications
                 </button>
             </div>
-        )
+        ),
+        html: `<div class="Sidebar">
+    <button class="Sidebar-item">Public profile</button>
+    <button class="Sidebar-item">Account</button>
+    <button class="Sidebar-item">Appearance</button>
+    <button class="Sidebar-item">Accessibility</button>
+    <button class="Sidebar-item">Notifications</button>
+</div>`,
+        css: `.Sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    background-color: #0d1117;
+    border-radius: 5px;
+}
+.Sidebar-item {
+    position: relative;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+}
+.Sidebar-item:hover:not(:active),
+.Sidebar-item:focus {
+    background-color: #21262c;
+}
+.Sidebar-item:focus,
+.Sidebar-item:active {
+    outline: none;
+    background-color: #1a1f24;
+}
+.Sidebar-item::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    opacity: 0;
+    border-radius: 5px;
+    background-color: #2f81f7;
+}
+.Sidebar-item:focus::before,
+.Sidebar-item:active::before {
+    opacity: 1;
+}`
     },
     {
         id: 206, name: "radiobuttons", preview: (
@@ -8542,7 +8902,103 @@ export const radiobuttons = [
                     <p className="rb-206-text">Teacher</p>
                 </label>
             </div>
-        )
+        ),
+        html: `<div class="Radio">
+    <label class="Radio-label">
+        <input type="radio" name="role" value="designer" checked />
+        <p class="Radio-text">Designer</p>
+    </label>
+    <label class="Radio-label">
+        <input type="radio" name="role" value="student" />
+        <p class="Radio-text">Student</p>
+    </label>
+    <label class="Radio-label">
+        <input type="radio" name="role" value="teacher" />
+        <p class="Radio-text">Teacher</p>
+    </label>
+</div>`,
+        css: `.Radio {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Radio * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.Radio-label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 20px;
+    width: 220px;
+    cursor: pointer;
+    height: 50px;
+    position: relative;
+}
+.Radio-label::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+    height: 45px;
+    z-index: -1;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.Radio-label:hover::before {
+    transition: all 0.2s ease;
+    background-color: #2a2e3c;
+}
+.Radio-label:has(input:checked)::before {
+    background-color: #2d3750;
+    border-color: #435dd8;
+    height: 50px;
+}
+.Radio-text {
+    color: #fff;
+}
+.Radio-label input[type="radio"] {
+    background-color: #202030;
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Radio-label input[type="radio"]:checked {
+    background-color: #435dd8;
+    animation: Radio-pulse 0.7s forwards;
+}
+.Radio-label input[type="radio"]::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    transition: all 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color: #fff;
+    transform: scale(0);
+}
+.Radio-label input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+@keyframes Radio-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 8px rgba(255, 255, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}`
     },
     {
         id: 207, name: "radiobuttons", preview: (
@@ -8596,7 +9052,277 @@ export const radiobuttons = [
                     </div>
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Radio-container">
+    <div class="Radio-wrapper">
+        <input class="Radio-input" name="radio-btn" type="radio" />
+        <div class="Radio-btn">
+            <span aria-hidden="true">_</span>
+            Cyber
+            <span class="Radio-btn__glitch" aria-hidden="true">_Cyber</span>
+            <label class="Radio-number">r1</label>
+        </div>
+    </div>
+    <div class="Radio-wrapper">
+        <input class="Radio-input" name="radio-btn" type="radio" checked />
+        <div class="Radio-btn">
+            _Radio<span aria-hidden="true">_</span>
+            <span class="Radio-btn__glitch" aria-hidden="true">_R_a_d_i_o_</span>
+            <label class="Radio-number">r2</label>
+        </div>
+    </div>
+    <div class="Radio-wrapper">
+        <input class="Radio-input" name="radio-btn" type="radio" />
+        <div class="Radio-btn">
+            Buttons
+            <span class="Radio-btn__glitch" aria-hidden="true">Buttons_</span>
+            <label class="Radio-number">r3</label>
+        </div>
+    </div>
+</div>`,
+        css: `.Radio-container {
+    display: flex;
+    flex-direction: row;
+}
+.Radio-wrapper {
+    position: relative;
+    height: 38px;
+    width: 84px;
+    margin: 3px;
+}
+.Radio-input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0;
+}
+.Radio-btn {
+    --primary: #ff184c;
+    --shadow-primary: #fded00;
+    --color: #fff;
+    --font-size: 9px;
+    --shadow-secondary-hue: 60;
+    --shadow-secondary: hsl(var(--shadow-secondary-hue), 90%, 60%);
+    --clip: polygon(11% 0,
+            95% 0,
+            100% 25%,
+            90% 90%,
+            95% 90%,
+            85% 90%,
+            85% 100%,
+            7% 100%,
+            0 80%);
+    --border: 5px;
+    --shimmy-distance: 5;
+    --clip-one: polygon(0 2%,
+            100% 2%,
+            100% 95%,
+            95% 95%,
+            95% 90%,
+            85% 90%,
+            85% 95%,
+            8% 95%,
+            0 70%);
+    --clip-two: polygon(0 78%,
+            100% 78%,
+            100% 100%,
+            95% 100%,
+            95% 90%,
+            85% 90%,
+            85% 100%,
+            8% 100%,
+            0 78%);
+    --clip-three: polygon(0 44%,
+            100% 44%,
+            100% 54%,
+            95% 54%,
+            95% 54%,
+            85% 54%,
+            85% 54%,
+            8% 54%,
+            0 54%);
+    --clip-four: polygon(0 0,
+            100% 0,
+            100% 0,
+            95% 0,
+            95% 0,
+            85% 0,
+            85% 0,
+            8% 0,
+            0 0);
+    --clip-five: polygon(0 0,
+            100% 0,
+            100% 0,
+            95% 0,
+            95% 0,
+            85% 0,
+            85% 0,
+            8% 0,
+            0 0);
+    --clip-six: polygon(0 40%,
+            100% 40%,
+            100% 85%,
+            95% 85%,
+            95% 85%,
+            85% 85%,
+            85% 85%,
+            8% 85%,
+            0 70%);
+    --clip-seven: polygon(0 63%,
+            100% 63%,
+            100% 80%,
+            95% 80%,
+            95% 80%,
+            85% 80%,
+            85% 80%,
+            8% 80%,
+            0 70%);
+
+    color: var(--color);
+    text-transform: uppercase;
+    font-size: var(--font-size);
+    letter-spacing: 3px;
+    position: relative;
+    font-weight: 900;
+    width: 100%;
+    height: 100%;
+    line-height: 38px;
+    text-align: center;
+    transition: background 0.2s, 0.3s;
+}
+.Radio-input:checked+.Radio-btn {
+    --primary: #8b00ff;
+    --shadow-primary: #00e572;
+}
+.Radio-input:hover+.Radio-btn {
+    --primary: #cc133c;
+    --font-size: 11px;
+}
+.Radio-btn::before,
+.Radio-btn::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    clip-path: var(--clip);
+    z-index: -1;
+}
+.Radio-btn::before {
+    background: var(--shadow-primary);
+    transform: translate(var(--border), 0);
+}
+.Radio-btn::after {
+    background: var(--primary);
+}
+.Radio-btn__glitch {
+    position: absolute;
+    top: calc(var(--border) * -1);
+    left: calc(var(--border) * -1);
+    right: calc(var(--border) * -1);
+    bottom: calc(var(--border) * -1);
+    background: var(--shadow-primary);
+    text-shadow:
+        2px 2px var(--shadow-primary),
+        -2px -2px var(--shadow-secondary);
+    clip-path: var(--clip);
+    animation: Radio-glitch 2s infinite;
+    display: none;
+}
+.Radio-input:hover+.Radio-btn .Radio-btn__glitch {
+    display: block;
+}
+.Radio-input:checked+.Radio-btn .Radio-btn__glitch {
+    display: block;
+    animation: Radio-glitch 5s infinite;
+}
+.Radio-btn__glitch::before {
+    content: "";
+    position: absolute;
+    inset: var(--border);
+    clip-path: var(--clip);
+    background: var(--primary);
+    z-index: -1;
+}
+.Radio-number {
+    background: var(--shadow-primary);
+    color: #323232;
+    font-size: 5.5px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: absolute;
+    width: 15px;
+    height: 6px;
+    top: 0;
+    left: 81%;
+    line-height: 6.2px;
+}
+@keyframes Radio-glitch {
+    0% {
+        clip-path: var(--clip-one);
+    }
+    2%,
+    8% {
+        clip-path: var(--clip-two);
+        transform: translate(calc(var(--shimmy-distance) * -1%), 0);
+    }
+    6% {
+        clip-path: var(--clip-two);
+        transform: translate(calc(var(--shimmy-distance) * 1%), 0);
+    }
+    9% {
+        clip-path: var(--clip-two);
+        transform: translate(0, 0);
+    }
+    10% {
+        clip-path: var(--clip-three);
+        transform: translate(calc(var(--shimmy-distance) * 1%), 0);
+    }
+    13% {
+        clip-path: var(--clip-three);
+        transform: translate(0, 0);
+    }
+    14%,
+    21% {
+        clip-path: var(--clip-four);
+        transform: translate(calc(var(--shimmy-distance) * 1%), 0);
+    }
+    25% {
+        clip-path: var(--clip-five);
+        transform: translate(calc(var(--shimmy-distance) * 1%), 0);
+    }
+    30% {
+        clip-path: var(--clip-five);
+        transform: translate(calc(var(--shimmy-distance) * -1%), 0);
+    }
+    35%,
+    45% {
+        clip-path: var(--clip-six);
+        transform: translate(calc(var(--shimmy-distance) * -1%));
+    }
+    40% {
+        clip-path: var(--clip-six);
+        transform: translate(calc(var(--shimmy-distance) * 1%));
+    }
+    50% {
+        clip-path: var(--clip-six);
+        transform: translate(0, 0);
+    }
+    55% {
+        clip-path: var(--clip-seven);
+        transform: translate(calc(var(--shimmy-distance) * 1%), 0);
+    }
+    60% {
+        clip-path: var(--clip-seven);
+        transform: translate(0, 0);
+    }
+    31%,
+    61%,
+    100% {
+        clip-path: var(--clip-four);
+    }
+}`
     },
     {
         id: 208,
@@ -8622,7 +9348,90 @@ export const radiobuttons = [
 
                 <div className="rb-208-glass-glider"></div>
             </div>
-        )
+        ),
+        html: `<div class="Radio">
+    <input type="radio" name="plan" id="radio-silver" checked />
+    <label for="radio-silver">Silver</label>
+    <input type="radio" name="plan" id="radio-gold" />
+    <label for="radio-gold">Gold</label>
+    <input type="radio" name="plan" id="radio-platinum" />
+    <label for="radio-platinum">Platinum</label>
+    <div class="Radio-glider"></div>
+</div>`,
+        css: `.Radio {
+    --bg: rgba(255, 255, 255, 0.06);
+    --text: #e5e5e5;
+
+    display: flex;
+    position: relative;
+    background: var(--bg);
+    border-radius: 1rem;
+    backdrop-filter: blur(12px);
+    box-shadow:
+        inset 1px 1px 4px rgba(255, 255, 255, 0.2),
+        inset -1px -1px 6px rgba(0, 0, 0, 0.3),
+        0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    width: fit-content;
+}
+.Radio input {
+    display: none;
+}
+.Radio label {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 80px;
+    font-size: 14px;
+    padding: 0.8rem 1.6rem;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: var(--text);
+    position: relative;
+    z-index: 2;
+    transition: color 0.3s ease-in-out;
+}
+.Radio label:hover {
+    color: #fff;
+}
+.Radio input:checked+label {
+    color: #fff;
+}
+.Radio-glider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc(100% / 3);
+    border-radius: 1rem;
+    z-index: 1;
+    transition:
+        transform 0.5s cubic-bezier(0.37, 1.95, 0.66, 0.56),
+        background 0.4s ease-in-out,
+        box-shadow 0.4s ease-in-out;
+}
+#radio-silver:checked~.Radio-glider {
+    transform: translateX(0%);
+    background: linear-gradient(135deg, #c0c0c055, #e0e0e0);
+    box-shadow:
+        0 0 18px rgba(192, 192, 192, 0.5),
+        0 0 10px rgba(255, 255, 255, 0.4) inset;
+}
+#radio-gold:checked~.Radio-glider {
+    transform: translateX(100%);
+    background: linear-gradient(135deg, #ffd70055, #ffcc00);
+    box-shadow:
+        0 0 18px rgba(255, 215, 0, 0.5),
+        0 0 10px rgba(255, 235, 150, 0.4) inset;
+}
+#radio-platinum:checked~.Radio-glider {
+    transform: translateX(200%);
+    background: linear-gradient(135deg, #d0e7ff55, #a0d8ff);
+    box-shadow:
+        0 0 18px rgba(160, 216, 255, 0.5),
+        0 0 10px rgba(200, 240, 255, 0.4) inset;
+}`
     },
     {
         id: 209, name: "radiobuttons", preview: (
@@ -8666,10 +9475,204 @@ export const radiobuttons = [
                     </span>
                 </label>
             </div>
-        )
-    }
-
+        ),
+        html: `<div class="Radio">
+    <div class="Radio-center"></div>
+    <label class="Radio-label Radio-spring">
+        <input type="radio" name="seasons" value="spring" checked />
+        <span class="Radio-text Radio-spring">Spring</span>
+    </label>
+    <label class="Radio-label Radio-summer">
+        <input type="radio" name="seasons" value="summer" />
+        <span class="Radio-text Radio-summer">Summer</span>
+    </label>
+    <label class="Radio-label Radio-autumn">
+        <input type="radio" name="seasons" value="autumn" />
+        <span class="Radio-text Radio-autumn">Autumn</span>
+    </label>
+    <label class="Radio-label Radio-winter">
+        <input type="radio" name="seasons" value="winter" />
+        <span class="Radio-text Radio-winter">Winter</span>
+    </label>
+</div>`,
+        css: `.Radio {
+    width: 210px;
+    height: 210px;
+    background-color: #000;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 6px;
+    gap: 4px;
+    position: relative;
+    z-index: 1;
+}
+.Radio input {
+    display: none;
+}
+.Radio-label {
+    background: linear-gradient(to bottom, #333333, rgb(36, 35, 35));
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-top: 1px solid #4e4d4d;
+    cursor: pointer;
+    transition:
+        all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+.Radio-label:has(input[type="radio"]:checked) {
+    box-shadow: 0 17px 5px 1px rgba(0, 0, 0, 0);
+    background: linear-gradient(to bottom, #1d1d1d, #1d1d1d);
+    border-top: none;
+}
+.Radio-label::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    scale: 1.02;
+    border-radius: 25px;
+    background:
+        linear-gradient(to bottom,
+            transparent 10%,
+            transparent,
+            transparent 90%),
+        linear-gradient(to left,
+            transparent 10%,
+            transparent,
+            transparent 90%);
+    transition:
+        all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: -1;
+}
+.Radio-label.Radio-spring:has(input[type="radio"]:checked)::before {
+    background:
+        linear-gradient(to bottom,
+            transparent 10%,
+            #d88fa3,
+            transparent 90%),
+        linear-gradient(to left,
+            transparent 10%,
+            #d88fa3,
+            transparent 90%);
+}
+.Radio-label.Radio-summer:has(input[type="radio"]:checked)::before {
+    background:
+        linear-gradient(to bottom,
+            transparent 10%,
+            #e6b800,
+            transparent 90%),
+        linear-gradient(to left,
+            transparent 10%,
+            #e6b800,
+            transparent 90%);
+}
+.Radio-label.Radio-autumn:has(input[type="radio"]:checked)::before {
+    background:
+        linear-gradient(to bottom,
+            transparent 10%,
+            #c76b00,
+            transparent 90%),
+        linear-gradient(to left,
+            transparent 10%,
+            #c76b00,
+            transparent 90%);
+}
+.Radio-label.Radio-winter:has(input[type="radio"]:checked)::before {
+    background:
+        linear-gradient(to bottom,
+            transparent 10%,
+            #7fa8c4,
+            transparent 90%),
+        linear-gradient(to left,
+            transparent 10%,
+            #7fa8c4,
+            transparent 90%);
+}
+.Radio-text {
+    color: #000;
+    font-size: 13px;
+    line-height: 12px;
+    padding: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.1s linear;
+    text-shadow:
+        -1px -1px 1px rgba(224, 224, 224, 0.1),
+        0 2px 3px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Radio-label input[type="radio"]:checked+.Radio-spring {
+    color: #ffc0cb;
+    text-shadow: 0 0 12px #d88fa3;
+}
+.Radio-label input[type="radio"]:checked+.Radio-summer {
+    color: #ffd700;
+    text-shadow: 0 0 12px #e6b800;
+}
+.Radio-label input[type="radio"]:checked+.Radio-autumn {
+    color: #ff8c00;
+    text-shadow: 0 0 12px #c76b00;
+}
+.Radio-label input[type="radio"]:checked+.Radio-winter {
+    color: #add8e6;
+    text-shadow: 0 0 12px #7fa8c4;
+}
+.Radio-center {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background-color: #333333;
+    border-radius: 2px;
+    border: 1px solid #4e4d4d;
+    transition: all 0.1s ease;
+}
+.Radio:has(.Radio-spring input:checked) .Radio-center {
+    border-left: 1px solid #ffc0cbb2;
+    box-shadow: inset 11px 0 10px -12px #ffc0cbdc;
+}
+.Radio:has(.Radio-summer input:checked) .Radio-center {
+    border-top: 1px solid #ffd900d8;
+    box-shadow: inset 0 11px 10px -12px #ffd700;
+}
+.Radio:has(.Radio-autumn input:checked) .Radio-center {
+    border-bottom: 1px solid #ff8c00b2;
+    box-shadow: inset 0 -11px 10px -12px #ff8c00;
+}
+.Radio:has(.Radio-winter input:checked) .Radio-center {
+    border-right: 1px solid #add8e694;
+    box-shadow: inset -11px 0 10px -12px #add8e6;
+}`
+    },
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const forms = [
     {
