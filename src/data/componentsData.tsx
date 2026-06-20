@@ -7679,313 +7679,27 @@ export const loaders = [
 
 
 
+
+
+
+
 export const inputs = [
-    {
-        id: 12, name: "Text Input", preview: <input className="prev-input" type="text" placeholder="Type something..." />,
-        html: `<input class="Input" type="text" placeholder="Type something..." />`,
-        css: `.Input {
-    background: #18181b;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    color: #fff;
-    padding: 10px 14px;
-    border-radius: 8px;
-    font-size: 14px;
-    width: 180px;
-    outline: none;
-    transition: border-color 0.2s;
-}
-.Input::placeholder {
-    color: #52525b;
-}
-.Input:focus {
-    border-color: #7c3aed;
-}`
-    },
-    {
-        id: 171, name: "input", preview: <input className="ip-171" type="text" placeholder="Type something..." />,
-        html: `<input class="Input" type="text" placeholder="Type something..." />`,
-        css: `.Input {
-    width: 250px;
-    padding: 12px 16px;
-    border: 2px solid #d1d5db;
-    border-radius: 10px;
-    outline: none;
-    font-size: 15px;
-    transition: 0.2s ease;
-}
-.Input:focus {
-    border-color: #3b82f6;
-}`
-    },
-    {
-        id: 172, name: "input", preview: <input className="ip-172" type="text" placeholder="Type something..." />,
-        html: `<input class="Input" type="text" placeholder="Type something..." />`,
-        css: `.Input {
-    width: 250px;
-    padding: 12px 16px;
-    border: none;
-    border-bottom: 2px solid #cbd5e1;
-    outline: none;
-    font-size: 15px;
-    background: transparent;
-    transition: 0.2s ease;
-}
-.Input:focus {
-    border-bottom-color: #2563eb;
-}`
-    },
-    {
-        id: 173, name: "input", preview: <input className="ip-173" type="text" placeholder="Type something..." />,
-        html: `<input class="Input" type="text" placeholder="Type something..." />`,
-        css: `.Input {
-    width: 250px;
-    padding: 12px 16px;
-    border: 1px solid #d4d4d8;
-    border-radius: 8px;
-    background: #f8fafc;
-    outline: none;
-    font-size: 15px;
-    transition: 0.2s ease;
-}
-.Input:focus {
-    background: white;
-    border-color: #6366f1;
-}`
-    },
-    {
-        id: 174, name: "input", preview: <input className="ip-174" type="text" placeholder="Type something..." />,
-        html: `<input class="Input" type="text" placeholder="Type something..." />`,
-        css: `.Input {
-    width: 250px;
-    padding: 12px 16px;
-    border: 2px solid transparent;
-    border-radius: 12px;
-    background: #f1f5f9;
-    outline: none;
-    font-size: 15px;
-    transition: 0.2s ease;
-}
-.Input:focus {
-    border-color: #0f172a;
-    background: white;
-}`
-    },
-    {
-        id: 175, name: "input", preview: <input className="ip-175" type="text" placeholder="Type something..." />,
-        html: `<input class="Input" type="text" placeholder="Type something..." />`,
-        css: `.Input {
-    width: 250px;
-    padding: 12px 16px;
-    border: 1px solid #d4d4d8;
-    border-radius: 999px;
-    outline: none;
-    font-size: 15px;
-    transition: 0.2s ease;
-}
-.Input:focus {
-    border-color: #8b5cf6;
-    box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.15);
-}`
-    },
-    {
-        id: 176, name: "input", preview: <input className="ip-176" type="text" placeholder="Type something..." />,
-        html: `<input class="Input" type="text" placeholder="Type something..." />`,
-        css: `.Input {
-    width: 250px;
-    padding: 14px 18px;
-    border: none;
-    border-radius: 10px;
-    background: #111827;
-    color: white;
-    outline: none;
-    font-size: 15px;
-}
-.Input::placeholder {
-    color: grey;
-}`
-    },
-    {
-        id: 177, name: "input", preview: <input className="ip-177" type="text" placeholder="Type something..." />,
-        html: `<input class="Input" type="text" placeholder="Type something..." />`,
-        css: `.Input {
-    width: 250px;
-    padding: 12px 16px;
-    border: 5px solid #d4d4d8;
-    border-radius: 8px;
-    outline: none;
-    font-size: 15px;
-    transition: 0.2s ease;
-}
-.Input:hover {
-    border-color: grey;
-}
-.Input:focus {
-    border-color: purple;
-}`
-    },
-    {
-        id: 178, name: "input", preview: <input className="ip-178" type="text" placeholder="Type something..." />,
-        html: `<input class="Input" type="text" placeholder="Type something..." />`,
-        css: `.Input {
-    width: 250px;
-    padding: 12px 16px;
-    border: 2px solid rgb(141, 28, 141);
-    border-radius: 14px;
-    outline: none;
-    font-size: 15px;
-    transition: all 0.25s ease;
-}`
-    },
+    { id: 12, name: "Text Input", preview: <input className="prev-input" type="text" placeholder="Type something..." /> },
+    { id: 171, name: "input", preview: <input className="ip-171" type="text" placeholder="Type something..." /> },
+    { id: 172, name: "input", preview: <input className="ip-172" type="text" placeholder="Type something..." /> },
+    { id: 173, name: "input", preview: <input className="ip-173" type="text" placeholder="Type something..." /> },
+    { id: 174, name: "input", preview: <input className="ip-174" type="text" placeholder="Type something..." /> },
+    { id: 175, name: "input", preview: <input className="ip-175" type="text" placeholder="Type something..." /> },
+    { id: 176, name: "input", preview: <input className="ip-176" type="text" placeholder="Type something..." /> },
+    { id: 177, name: "input", preview: <input className="ip-177" type="text" placeholder="Type something..." /> },
+    { id: 178, name: "input", preview: <input className="ip-178" type="text" placeholder="Type something..." /> },
     {
         id: 179, name: "input", preview: (
             <div className="ip-179-container">
                 <input className="ip-179" type="text" placeholder="Search the internet..." />
             </div>),
-        html: `<div class="Input-container">
-    <input class="Input" type="text" placeholder="Search the internet..." />
-</div>`,
-        css: `.Input-container {
-    position: relative;
-    width: 100%;
-    max-width: 270px;
-}
-.Input {
-    width: 100%;
-    height: 60px;
-    padding: 12px;
-    font-size: 18px;
-    font-family: "Courier New", monospace;
-    color: #000;
-    background-color: #fff;
-    border: 4px solid #000;
-    outline: none;
-    border-radius: 0;
-    transition: all 0.3s ease;
-    box-shadow: 8px 8px 0 #000;
-}
-.Input::placeholder {
-    color: #888;
-}
-.Input:hover {
-    transform: translate(-4px, -4px);
-    box-shadow: 12px 12px 0 #000;
-}
-.Input:focus {
-    background-color: #000;
-    color: #fff;
-    border-color: #fff;
-    animation: Input-shake 0.5s ease-in-out;
-}
-.Input:focus::placeholder {
-    color: #fff;
-}
-.Input:not(:placeholder-shown) {
-    animation: Input-glitch 1s linear infinite;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-.Input-container::after {
-    content: "|";
-    position: absolute;
-    right: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #000;
-    animation: Input-blink 0.7s step-end infinite;
-}
-@keyframes Input-blink {
-    50% {
-        opacity: 0;
-    }
-}
-@keyframes Input-shake {
-    0% {
-        transform: translateX(0);
-    }
-    25% {
-        transform: translateX(-5px) rotate(-5deg);
-    }
-    50% {
-        transform: translateX(5px) rotate(5deg);
-    }
-    75% {
-        transform: translateX(-5px) rotate(-5deg);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
-@keyframes Input-glitch {
-    0% {
-        transform: none;
-        opacity: 1;
-    }
-    7% {
-        transform: skew(-0.5deg, -0.9deg);
-        opacity: 0.75;
-    }
-    10% {
-        transform: none;
-        opacity: 1;
-    }
-    27% {
-        transform: none;
-        opacity: 1;
-    }
-    30% {
-        transform: skew(0.8deg, -0.1deg);
-        opacity: 0.75;
-    }
-    35% {
-        transform: none;
-        opacity: 1;
-    }
-    52% {
-        transform: none;
-        opacity: 1;
-    }
-    55% {
-        transform: skew(-1deg, 0.2deg);
-        opacity: 0.75;
-    }
-    72% {
-        transform: none;
-        opacity: 1;
-    }
-    75% {
-        transform: skew(0.4deg, 1deg);
-        opacity: 0.75;
-    }
-    80% {
-        transform: none;
-        opacity: 1;
-    }
-    100% {
-        transform: none;
-        opacity: 1;
-    }
-}`
     },
-    {
-        id: 180, name: "input", preview: <input className="ip-180" type="text" placeholder="Type something..." />,
-        html: `<input class="Input" type="text" placeholder="Type something..." />`,
-        css: `.Input {
-    background: #18181b;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 20px 28px;
-    border-radius: 8px;
-    font-size: 15px;
-    width: 280px;
-    outline: none;
-    transition: border-color 0.2s;
-}
-.Input::placeholder {
-    color: grey;
-}
-.Input:focus {
-    border-color: #5e0aee;
-}`
-    },
+    { id: 180, name: "input", preview: <input className="ip-180" type="text" placeholder="Type something..." /> },
     {
         id: 181,
         name: "rating",
@@ -8003,39 +7717,6 @@ export const inputs = [
                 <label htmlFor="ip181-star1"></label>
             </div>
         ),
-        html: `<div class="Rating">
-    <input type="radio" id="rating-star5" name="rating" />
-    <label for="rating-star5"></label>
-    <input type="radio" id="rating-star4" name="rating" />
-    <label for="rating-star4"></label>
-    <input type="radio" id="rating-star3" name="rating" />
-    <label for="rating-star3"></label>
-    <input type="radio" id="rating-star2" name="rating" />
-    <label for="rating-star2"></label>
-    <input type="radio" id="rating-star1" name="rating" />
-    <label for="rating-star1"></label>
-</div>`,
-        css: `.Rating {
-    display: inline-block;
-}
-.Rating input {
-    display: none;
-}
-.Rating label {
-    float: right;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-.Rating label::before {
-    content: "\\2605";
-    font-size: 32px;
-    color: #d4d4d8;
-}
-.Rating input:checked~label::before,
-.Rating label:hover::before,
-.Rating label:hover~label::before {
-    color: #ffd700;
-}`
     },
     {
         id: 182,
@@ -8049,33 +7730,6 @@ export const inputs = [
                 <label className="ip-182-label"></label>
             </div>
         ),
-        html: `<div class="Input-container">
-    <input placeholder="Search" class="Input" type="text" />
-    <label class="Input-label"></label>
-</div>`,
-        css: `.Input-container {
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: text;
-    padding-left: 15px;
-}
-.Input {
-    width: 170px;
-    height: 100%;
-    border: none;
-    outline: none;
-    font-size: 0.9em;
-    caret-color: red;
-}
-.Input-label {
-    cursor: text;
-    padding: 0 12px;
-}`
     },
     {
         id: 183, name: "input", preview: (
@@ -8085,213 +7739,17 @@ export const inputs = [
                     type="text"
                     placeholder="Search the internet..." />
             </div>
-        ),
-        html: `<div class="Input-container">
-    <input class="Input" type="text" placeholder="Search the internet..." />
-</div>`,
-        css: `.Input-container {
-    position: relative;
-    width: 100%;
-    max-width: 270px;
-}
-.Input {
-    width: 100%;
-    height: 60px;
-    padding: 12px;
-    font-size: 18px;
-    font-family: "Courier New", monospace;
-    color: #000;
-    background-color: #fff;
-    border: 4px solid #000;
-    border-radius: 0;
-    outline: none;
-    transition: all 0.3s ease;
-    box-shadow: 8px 8px 0 #000;
-}
-.Input::placeholder {
-    color: #888;
-}
-.Input:hover {
-    transform: translate(-4px, -4px);
-    box-shadow: 12px 12px 0 #000;
-}
-.Input:focus {
-    background-color: #010101;
-    color: #fff;
-    border-color: #d6d9dd;
-    animation: Input-shake 0.5s ease-in-out;
-}
-.Input:focus::placeholder {
-    color: #fff;
-}
-.Input:not(:placeholder-shown) {
-    animation: Input-glitch 1s linear infinite;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-shadow: 0 0 0 #000;
-}
-.Input-container::after {
-    content: "|";
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #000;
-    animation: Input-blink 0.7s step-end infinite;
-    pointer-events: none;
-}
-.Input:focus~.Input-container::after {
-    color: #fff;
-}
-@keyframes Input-shake {
-    0% {
-        transform: translateX(0);
-    }
-    25% {
-        transform: translateX(-5px) rotate(-5deg);
-    }
-    50% {
-        transform: translateX(5px) rotate(5deg);
-    }
-    75% {
-        transform: translateX(-5px) rotate(-5deg);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
-@keyframes Input-glitch {
-    0% {
-        transform: none;
-        opacity: 1;
-    }
-    7% {
-        transform: skew(-0.5deg, -0.9deg);
-        opacity: 0.75;
-    }
-    10% {
-        transform: none;
-        opacity: 1;
-    }
-    27% {
-        transform: none;
-        opacity: 1;
-    }
-    30% {
-        transform: skew(0.8deg, -0.1deg);
-        opacity: 0.75;
-    }
-    35% {
-        transform: none;
-        opacity: 1;
-    }
-    52% {
-        transform: none;
-        opacity: 1;
-    }
-    55% {
-        transform: skew(-1deg, 0.2deg);
-        opacity: 0.75;
-    }
-    72% {
-        transform: none;
-        opacity: 1;
-    }
-    75% {
-        transform: skew(0.4deg, 1deg);
-        opacity: 0.75;
-    }
-    80% {
-        transform: none;
-        opacity: 1;
-    }
-    100% {
-        transform: none;
-        opacity: 1;
-    }
-}
-@keyframes Input-blink {
-    50% {
-        opacity: 0;
-    }
-}`
-    },
-    {
-        id: 184, name: "input", preview: <input className="ip-184" type="text" placeholder="Type something..." />,
-        html: `<input class="Input" type="text" placeholder="Type something..." />`,
-        css: `.Input {
-    width: 240px;
-    padding: 12px 16px;
-    background: #111827;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    outline: none;
-}
-.Input::placeholder {
-    color: #9ca3af;
-}`
-    },
-    {
-        id: 185, name: "input", preview: <input className="ip-185" type="text" placeholder="Type something..." />,
-        html: `<input class="Input" type="text" placeholder="Type something..." />`,
-        css: `.Input {
-    width: 240px;
-    padding: 12px 16px;
-    border: 2px solid #e4e4e7;
-    border-radius: 999px;
-    outline: none;
-}
-.Input:focus {
-    border-color: #0f172a;
-}`
-    },
-    {
-        id: 186, name: "input", preview: <input className="ip-186" type="text" placeholder="Type something..." />,
-        html: `<input class="Input" type="text" placeholder="Type something..." />`,
-        css: `.Input {
-    width: 240px;
-    padding: 12px 0;
-    border: none;
-    border-bottom: 2px solid #d4d4d8;
-    outline: none;
-    background: transparent;
-}
-.Input:focus {
-    border-bottom-color: #3b82f6;
-}`
-    },
+        )
+    }, { id: 184, name: "input", preview: <input className="ip-184" type="text" placeholder="Type something..." /> },
+    { id: 185, name: "input", preview: <input className="ip-185" type="text" placeholder="Type something..." /> },
+    { id: 186, name: "input", preview: <input className="ip-186" type="text" placeholder="Type something..." /> },
     {
         id: 187, name: "input", preview: (
             <input
                 className="ip-187"
                 type="text"
                 placeholder="Type something..." />
-        ),
-        html: `<input class="Input" type="text" placeholder="Type something..." />`,
-        css: `.Input {
-    max-width: 190px;
-    height: 30px;
-    border: 2px solid transparent;
-    outline: none;
-    border-bottom: 2px solid #3f3f3f;
-    caret-color: #3f3f3f;
-    background-color: #212121;
-    padding: 5px;
-    transition: 0.5s linear;
-    font-family: monospace;
-    letter-spacing: 1px;
-    color: #fff;
-}
-.Input:focus {
-    border: 2px solid tomato;
-    caret-color: tomato;
-    color: tomato;
-    box-shadow: 4px 4px 10px #070707;
-}
-.Input:focus::placeholder {
-    color: tomato;
-}`
+        )
     },
     {
         id: 188, name: "input", preview: (
@@ -8303,74 +7761,35 @@ export const inputs = [
                 <label>You'r name</label>
                 <i></i>
             </div>
-        ),
-        html: `<div class="Input-container">
-    <input class="Input" type="text" required />
-    <label>You'r name</label>
-    <i></i>
-</div>`,
-        css: `.Input-container {
-    position: relative;
-    width: 200px;
-}
-.Input-container .Input {
-    width: 100%;
-    background: transparent;
-    outline: none;
-    border: none;
-    color: #222;
-    padding: 8px;
-}
-.Input-container label {
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: rgba(105, 105, 105, 0.7);
-    text-transform: uppercase;
-    pointer-events: none;
-    transition: 0.5s;
-    font-weight: bold;
-}
-.Input-container .Input:valid ~ label,
-.Input-container .Input:focus ~ label {
-    color: rgb(10, 131, 212);
-    transform: translateY(-15px);
-    font-size: 0.6rem;
-}
-.Input-container i {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background: #222;
-    overflow: hidden;
-}
-.Input-container i::before {
-    content: "";
-    position: absolute;
-    width: 200%;
-    height: 100%;
-    background: linear-gradient(
-        90deg,
-        #ff1b69,
-        #ff0,
-        #2196f3,
-        #9c27b0,
-        #ff1b69
-    );
-    animation: Input-animate 3s linear infinite;
-}
-@keyframes Input-animate {
-    0% {
-        transform: translateX(-50%);
-    }
-    100% {
-        transform: translateX(0%);
-    }
-}`
+        )
     },
+    { id: 189, name: "input", preview: <input className="ip-189" type="text" placeholder="Type something..." /> },
+    { id: 190, name: "input", preview: <input className="ip-190" type="text" placeholder="Type something..." /> },
+    { id: 191, name: "input", preview: <input className="ip-191" type="text" placeholder="Type something..." /> },
+    { id: 192, name: "input", preview: <input className="ip-192" type="text" placeholder="Type something..." /> },
+    { id: 193, name: "input", preview: <input className="ip-193" type="text" placeholder="Type something..." /> },
+    { id: 194, name: "input", preview: <input className="ip-194" type="text" placeholder="Type something..." /> },
+    { id: 195, name: "input", preview: <input className="ip-195" type="text" placeholder="Type something..." /> },
+    { id: 196, name: "input", preview: <input className="ip-196" type="text" placeholder="Type something..." /> },
+    { id: 197, name: "input", preview: <input className="ip-197" type="text" placeholder="Type something..." /> },
+    { id: 198, name: "input", preview: <input className="ip-198" type="text" placeholder="Type something..." /> },
+    { id: 199, name: "input", preview: <input className="ip-199" type="text" placeholder="Type something..." /> },
+    { id: 200, name: "input", preview: <input className="ip-200" type="text" placeholder="Type something..." /> },
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
