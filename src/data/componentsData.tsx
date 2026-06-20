@@ -9199,7 +9199,7 @@ export const radiobuttons = [
 }
 .Radio-input:hover+.Radio-btn {
     --primary: #cc133c;
-    --font-size: 11px;
+    --font-size: 11px; 
 }
 .Radio-btn::before,
 .Radio-btn::after {
