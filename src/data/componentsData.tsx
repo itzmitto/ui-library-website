@@ -5982,7 +5982,7 @@ export const loaders = [
     },
     { id: 141, name: "Loader", preview: <div className="ld-141" /> },
     { id: 142, name: "Loader", preview: <div className="ld-142" /> },
-    { id: 143, name: "Loader", preview: <div className="ld-143" /> },
+    { id: 143, name: "Loader", preview: <div className="ld-143" /> }, 
     { id: 144, name: "Loader", preview: <div className="ld-144" /> },
     { id: 145, name: "Loader", preview: <div className="ld-145" /> },
     { id: 146, name: "Loader", preview: <div className="ld-146" /> },
