@@ -5,7 +5,7 @@ interface ComponentItem {
     id: number;
     name: string;
     preview: React.ReactNode;
-    html?: string;
+    html?: string; 
     css?: string;
 }
 
