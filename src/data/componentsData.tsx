@@ -14480,67 +14480,6 @@ export const forms = [
 ];
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export const patterns = [
    {
         id: 300, name: "Grid Pattern", preview: (
@@ -14777,26 +14716,6 @@ export const patterns = [
         radial-gradient(ellipse at 70% 60%, rgba(0, 200, 100, 0.06) 0%, transparent 50%);
 }`
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     {

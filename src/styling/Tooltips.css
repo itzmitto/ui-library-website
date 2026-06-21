@@ -18,7 +18,7 @@
     border-color: #7c3aed;
 }
 
-.tt-501__tip {
+.tt-501__tip {   
     position: absolute;
     bottom: calc(100% + 10px);
     left: 50%;
