@@ -186,3 +186,14 @@
      background: radial-gradient(ellipse at 30% 40%, rgba(0, 255, 136, 0.08) 0%, transparent 60%),
          radial-gradient(ellipse at 70% 60%, rgba(0, 200, 100, 0.06) 0%, transparent 50%);
  }
+
+
+ .pt-308 {
+    width: 100%;
+    min-height: 300px;
+    background-color: #fafaf9;
+    background-image:
+        repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.06) 0px, rgba(0, 0, 0, 0.06) 1px, transparent 1px, transparent 14px),
+        repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.06) 0px, rgba(0, 0, 0, 0.06) 1px, transparent 1px, transparent 14px);
+    border-radius: 10px;
+ }
