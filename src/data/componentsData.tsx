@@ -14542,103 +14542,539 @@ export const forms = [
 
 
 export const patterns = [
-    {
+   {
         id: 300, name: "Grid Pattern", preview: (
             <div className="pt-300"></div>
-        )
+        ),
+        html: `<div class="Pattern"></div>`,
+        css: `.Pattern {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    --color: rgba(4, 234, 250, 0.897);
+    background-color: #191a1a;
+    background-image:
+        linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+    background-size: 55px 55px;
+    border-radius: 10px;
+}`
     },
     {
         id: 301, name: "Grid Pattern", preview: (
             <div className="pt-301"></div>
-        )
+        ),
+        html: `<div class="Pattern"></div>`,
+        css: `.Pattern {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    --color: rgba(114, 114, 114, 0.3);
+    background-color: #1a1919;
+    background-image:
+        linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+    background-size: 55px 55px;
+    border-radius: 10px;
+}`
     },
     {
         id: 302, name: "Dot Pattern", preview: (
             <div className="pt-302"></div>
-        )
+        ),
+        html: `<div class="Pattern"></div>`,
+        css: `.Pattern {
+    width: 100%;
+    min-height: 300px;
+    background-color: #0d0d0d;
+    background-image: radial-gradient(circle, rgba(6, 253, 220, 0.945) 1px, transparent 1px);
+    background-size: 24px 24px;
+    border-radius: 10px;
+}`
     },
     {
         id: 303, name: "Diagonal Lines", preview: (
             <div className="pt-303"></div>
-        )
+        ),
+        html: `<div class="Pattern"></div>`,
+        css: `.Pattern {
+    width: 100%;
+    min-height: 300px;
+    background-color: #0f0f0f;
+    background-image: repeating-linear-gradient(45deg,
+            rgba(4, 104, 255, 0.973) 0px,
+            rgba(255, 3, 3, 0.986) 1px,
+            transparent 1px,
+            transparent 12px);
+    border-radius: 10px;
+}`
     },
     {
         id: 304, name: "Pattern", preview: (
             <div className="pattern-304">
                 <div className="pt-304"></div>
             </div>
-        )
+        ),
+        html: `<div class="Pattern-outer">
+    <div class="Pattern"></div>
+</div>`,
+        css: `.Pattern-outer {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.Pattern {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,
+            #fff 0%,
+            #fff 40%,
+            rgba(255, 255, 255, 0) 100%),
+        linear-gradient(to right, #0ed2da, #5f29c7);
+    position: relative;
+    overflow: hidden;
+}
+.Pattern::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(90deg, #ccc 1px, transparent 1px);
+    background-size: 50px 100%;
+    pointer-events: none;
+    mask-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 0) 70%);
+    -webkit-mask-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 0) 70%);
+}`
     },
     {
         id: 305, name: "Pattern", preview: (
             <div className="pattern-305">
                 <div className="pt-305"></div>
             </div>
-        )
+        ),
+        html: `<div class="Pattern-outer">
+    <div class="Pattern"></div>
+</div>`,
+        css: `.Pattern-outer {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.Pattern {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,
+            #fff 0%,
+            #fff 40%,
+            rgba(212, 10, 10, 0) 100%),
+        linear-gradient(to right, #ff0101, #022ffa);
+    position: relative;
+    overflow: hidden;
+}
+.Pattern::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(90deg, #ccc 1px, transparent 1px);
+    background-size: 50px 100%;
+    pointer-events: none;
+    mask-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 0) 70%);
+    -webkit-mask-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 0) 70%);
+}`
     },
     {
         id: 306, name: "Wavy Lines Pattern", preview: (
             <div className="pattern-306">
                 <div className="pt-306"></div>
             </div>
-        )
+        ),
+        html: `<div class="Pattern-outer">
+    <div class="Pattern"></div>
+</div>`,
+        css: `.Pattern-outer {
+    width: 100%;
+    min-height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Pattern {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    background-color: #0a0a0f;
+    background-image:
+        repeating-linear-gradient(0deg,
+            transparent,
+            transparent 20px,
+            rgba(124, 58, 237, 0.08) 20px,
+            rgba(124, 58, 237, 0.08) 21px),
+        repeating-linear-gradient(90deg,
+            transparent,
+            transparent 20px,
+            rgba(99, 102, 241, 0.05) 20px,
+            rgba(99, 102, 241, 0.05) 21px);
+    background-size: 21px 21px;
+    position: relative;
+}
+.Pattern::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 50% 50%, rgba(124, 58, 237, 0.12) 0%, transparent 70%);
+}`
     },
     {
         id: 307, name: "Circuit Pattern", preview: (
             <div className="pattern-307">
                 <div className="pt-307"></div>
             </div>
-        )
-    },
-    {
-        id: 308, name: "Pattern", preview: (
-            <div className="pt-308">?
-            </div>
-        )
-    },
-    {
-        id: 309, name: "Pattern", preview: (
-            <div className="pt-309">?
-            </div>
-        )
-    },
-    {
-        id: 310, name: "Pattern", preview: (
-            <div className="pt-310">?
-            </div>
-        )
-    },
-    {
-        id: 311, name: "Pattern", preview: (
-            <div className="pt-311">?
-            </div>
-        )
-    },
-    {
-        id: 312, name: "Pattern", preview: (
-            <div className="pt-312">?
-            </div>
-        )
-    },
-    {
-        id: 313, name: "Pattern", preview: (
-            <div className="pt-313">?
-            </div>
-        )
-    }, {
-        id: 314, name: "Pattern", preview: (
-            <div className="pt-314">?
-            </div>
-        )
+        ),
+        html: `<div class="Pattern-outer">
+    <div class="Pattern"></div>
+</div>`,
+        css: `.Pattern-outer {
+    width: 100%;
+    min-height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Pattern {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    background-color: #050a0a;
+    background-image:
+        linear-gradient(rgba(0, 255, 136, 0.07) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 255, 136, 0.07) 1px, transparent 1px),
+        radial-gradient(circle, rgba(0, 255, 136, 0.15) 1px, transparent 1px);
+    background-size: 40px 40px, 40px 40px, 40px 40px;
+    background-position: 0 0, 0 0, 20px 20px;
+    position: relative;
+}
+.Pattern::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(circle at 20px 20px, rgba(0, 255, 136, 0.2) 2px, transparent 2px),
+        radial-gradient(circle at 0px 0px, rgba(0, 255, 136, 0.12) 2px, transparent 2px);
+    background-size: 40px 40px;
+}
+.Pattern::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 30% 40%, rgba(0, 255, 136, 0.08) 0%, transparent 60%),
+        radial-gradient(ellipse at 70% 60%, rgba(0, 200, 100, 0.06) 0%, transparent 50%);
+}`
     },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
-        id: 308, name: "Pattern", preview: (
-            <div className="pt-308">?
-            </div>
-        )
+        id: 308, name: "Crosshatch Pattern", preview: (
+            <div className="pt-308"></div>
+        ),
+        html: `<div class="Pattern"></div>`,
+        css: `.Pattern {
+    width: 100%;
+    min-height: 300px;
+    background-color: #fafaf9;
+    background-image:
+        repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.06) 0px, rgba(0, 0, 0, 0.06) 1px, transparent 1px, transparent 14px),
+        repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.06) 0px, rgba(0, 0, 0, 0.06) 1px, transparent 1px, transparent 14px);
+    border-radius: 10px;
+}`
+    },
+    {
+        id: 309, name: "Bubble Pattern", preview: (
+            <div className="pt-309"></div>
+        ),
+        html: `<div class="Pattern"></div>`,
+        css: `.Pattern {
+    width: 100%;
+    min-height: 300px;
+    background-color: #eef2ff;
+    background-image:
+        radial-gradient(circle at 25% 25%, rgba(99, 102, 241, 0.25) 0%, transparent 8%),
+        radial-gradient(circle at 75% 75%, rgba(168, 85, 247, 0.25) 0%, transparent 8%),
+        radial-gradient(circle at 75% 25%, rgba(99, 102, 241, 0.15) 0%, transparent 6%),
+        radial-gradient(circle at 25% 75%, rgba(168, 85, 247, 0.15) 0%, transparent 6%);
+    background-size: 80px 80px;
+    border-radius: 10px;
+}`
+    },
+    {
+        id: 310, name: "Honeycomb Pattern", preview: (
+            <div className="pt-310"></div>
+        ),
+        html: `<div class="Pattern"></div>`,
+        css: `.Pattern {
+    width: 100%;
+    min-height: 300px;
+    background-color: #fff7ed;
+    background-image:
+        linear-gradient(30deg, #fbbf2422 12%, transparent 12.5%, transparent 87%, #fbbf2422 87.5%, #fbbf2422),
+        linear-gradient(150deg, #fbbf2422 12%, transparent 12.5%, transparent 87%, #fbbf2422 87.5%, #fbbf2422),
+        linear-gradient(30deg, #fbbf2422 12%, transparent 12.5%, transparent 87%, #fbbf2422 87.5%, #fbbf2422),
+        linear-gradient(150deg, #fbbf2422 12%, transparent 12.5%, transparent 87%, #fbbf2422 87.5%, #fbbf2422),
+        linear-gradient(60deg, #fbbf2415 25%, transparent 25.5%, transparent 75%, #fbbf2415 75%, #fbbf2415),
+        linear-gradient(60deg, #fbbf2415 25%, transparent 25.5%, transparent 75%, #fbbf2415 75%, #fbbf2415);
+    background-size: 40px 70px;
+    background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+    border-radius: 10px;
+}`
+    },
+    {
+        id: 311, name: "Confetti Pattern", preview: (
+            <div className="pt-311"></div>
+        ),
+        html: `<div class="Pattern"></div>`,
+        css: `.Pattern {
+    width: 100%;
+    min-height: 300px;
+    background-color: #fdf2f8;
+    background-image:
+        radial-gradient(circle, #ec4899 2px, transparent 2px),
+        radial-gradient(circle, #f59e0b 2px, transparent 2px),
+        radial-gradient(circle, #06b6d4 2px, transparent 2px),
+        radial-gradient(circle, #84cc16 2px, transparent 2px);
+    background-size: 50px 50px;
+    background-position: 0 0, 25px 12px, 12px 30px, 38px 38px;
+    border-radius: 10px;
+}`
+    },
+    {
+        id: 312, name: "Topography Pattern", preview: (
+            <div className="pt-312"></div>
+        ),
+        html: `<div class="Pattern"></div>`,
+        css: `.Pattern {
+    width: 100%;
+    min-height: 300px;
+    background-color: #042f2e;
+    background-image:
+        repeating-radial-gradient(circle at 20% 30%, transparent 0, transparent 14px, rgba(45, 212, 191, 0.12) 15px, rgba(45, 212, 191, 0.12) 16px),
+        repeating-radial-gradient(circle at 80% 70%, transparent 0, transparent 18px, rgba(45, 212, 191, 0.1) 19px, rgba(45, 212, 191, 0.1) 20px);
+    border-radius: 10px;
+}`
+    },
+    {
+        id: 313, name: "Plus Pattern", preview: (
+            <div className="pt-313"></div>
+        ),
+        html: `<div class="Pattern"></div>`,
+        css: `.Pattern {
+    width: 100%;
+    min-height: 300px;
+    background-color: #fff;
+    background-image:
+        linear-gradient(rgba(15, 23, 42, 0.12) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(15, 23, 42, 0.12) 1px, transparent 1px);
+    background-size: 28px 28px;
+    background-position: -1px -1px;
+    border-radius: 10px;
+}`
+    },
+    {
+        id: 314, name: "Aurora Pattern", preview: (
+            <div className="pt-314"></div>
+        ),
+        html: `<div class="Pattern"></div>`,
+        css: `.Pattern {
+    width: 100%;
+    min-height: 300px;
+    background-color: #0a0a0f;
+    background-image:
+        radial-gradient(ellipse 60% 50% at 20% 20%, rgba(124, 58, 237, 0.35) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 60% at 80% 30%, rgba(6, 182, 212, 0.3) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 50% at 50% 90%, rgba(236, 72, 153, 0.25) 0%, transparent 60%);
+    border-radius: 10px;
+}`
     },
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export const tooltips = [
     {
         id: 500, name: "Location Tooltip", preview: (
