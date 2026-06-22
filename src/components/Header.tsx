@@ -9,7 +9,7 @@ const categories = [
     { label: "Cards", path: "/elements/cards" },
     { label: "Loaders", path: "/elements/loaders" },
     { label: "Inputs", path: "/elements/inputs" },
-    { label: "Radio buttons", path: "/elements/radio-buttons" },
+    { label: "Radio-buttons", path: "/elements/radio-buttons" },
     { label: "Forms", path: "/elements/forms" },
     { label: "Patterns", path: "/elements/patterns" },
     { label: "Tooltips", path: "/elements/tooltips" },

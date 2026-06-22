@@ -11,7 +11,7 @@ const sidebarItems = [
     { label: "Cards", path: "/elements/cards" },
     { label: "Loaders", path: "/elements/loaders" },
     { label: "Inputs", path: "/elements/inputs" },
-    { label: "Radiobuttons", path: "/elements/radiobuttons", active: true },
+    { label: "Radio-buttons", path: "/elements/radio-buttons", active: true },
     { label: "Forms", path: "/elements/forms" },
     { label: "Patterns", path: "/elements/patterns" },
     { label: "Tooltips", path: "/elements/tooltips" },

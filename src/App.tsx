@@ -41,7 +41,7 @@ function App() {
         <Route path="/elements/loaders" element={<Loaders />} />
         <Route path="/elements/toggleswitches" element={<Toggleswitches />} />
         <Route path="/elements/inputs" element={<Inputs />} />
-        <Route path="/elements/radiobuttons" element={<RadioButtons />} />
+        <Route path="/elements/radio-buttons" element={<RadioButtons />} />
         <Route path="/elements/forms" element={<Forms />} />
         <Route path="/elements/patterns" element={<Patterns />} />
         <Route path="/elements/tooltips" element={<Tooltips />} />

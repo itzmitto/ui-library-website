@@ -20,7 +20,7 @@ export default function All() {
           <a href="/elements/cards" className="sidebar-item">Cards</a>
           <a href="/elements/loaders" className="sidebar-item">Loaders</a>
           <a href="/elements/inputs" className="sidebar-item">Inputs</a>
-          <a href="/elements/radiobuttons" className="sidebar-item">Radiobuttons</a>
+          <a href="/elements/radio-buttons" className="sidebar-item">Radio-buttons</a>
           <a href="/elements/forms" className="sidebar-item">Forms</a>
           <a href="/elements/patterns" className="sidebar-item">Patterns</a>
           <a href="/elements/tooltips" className="sidebar-item">Tooltips</a>
