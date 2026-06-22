@@ -15186,6 +15186,53 @@ export const tooltips = [
     { id: 516, name: "tooltip", preview: <div className="tt-516">?</div> },
     { id: 517, name: "tooltip", preview: <div className="tt-517">?</div> },
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export const navbar = [
     {
         id: 400, name: "Simple Navbar", preview: (
