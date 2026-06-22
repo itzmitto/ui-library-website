@@ -23,7 +23,7 @@ const sidebarItems = [
 export default function Forms() {
     return (
         <div className="allpage">
-            <Header />
+            <Header /> 
             <div className="alllayout"> 
                 <aside className="side-bar">
                     {sidebarItems.map((item) => (

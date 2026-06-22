@@ -1,4 +1,4 @@
-import "../pages/All.css";
+import "../pages/All.css";   
 
 export const buttons = [
     {
@@ -14481,7 +14481,7 @@ export const forms = [
 
 
 export const patterns = [
-   {
+    {
         id: 300, name: "Grid Pattern", preview: (
             <div className="pt-300"></div>
         ),
@@ -16748,46 +16748,6 @@ export const tooltips = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export const navbar = [
     {
         id: 400, name: "Simple Navbar", preview: (
@@ -16801,7 +16761,76 @@ export const navbar = [
                 </nav>
                 <button className="nv-400__btn">Sign in</button>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__logo">MyApp</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Home</a>
+        <a href="#" class="Navbar__link">About</a>
+        <a href="#" class="Navbar__link">Projects</a>
+        <a href="#" class="Navbar__link">Contact</a>
+    </nav>
+    <button class="Navbar__btn">Sign in</button>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    box-sizing: border-box;
+}
+.Navbar__logo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex: 1;
+    justify-content: center;
+}
+.Navbar__link {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: color 0.15s, background 0.15s;
+    white-space: nowrap;
+}
+.Navbar__link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.06);
+}
+.Navbar__link--active {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.08);
+}
+.Navbar__btn {
+    background: #7c3aed;
+    color: #fff;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    white-space: nowrap;
+    font-family: inherit;
+}
+.Navbar__btn:hover {
+    background: #6d28d9;
+}`
     },
     {
         id: 401, name: "Dark Navbar", preview: (
@@ -16818,7 +16847,88 @@ export const navbar = [
                     <button className="nv-401__btn">Get started</button>
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__logo">Brand</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link">Home</a>
+        <a href="#" class="Navbar__link">Features</a>
+        <a href="#" class="Navbar__link">Pricing</a>
+        <a href="#" class="Navbar__link">Blog</a>
+    </nav>
+    <div class="Navbar__actions">
+        <a href="#" class="Navbar__login">Log in</a>
+        <button class="Navbar__btn">Get started</button>
+    </div>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: #09090b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-sizing: border-box;
+}
+.Navbar__logo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+    justify-content: center;
+}
+.Navbar__link {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: color 0.15s, background 0.15s;
+    white-space: nowrap;
+}
+.Navbar__link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.06);
+}
+.Navbar__actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.Navbar__login {
+    color: #a1a1aa;
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.15s;
+}
+.Navbar__login:hover {
+    color: #fff;
+}
+.Navbar__btn {
+    background: #7c3aed;
+    color: #fff;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-family: inherit;
+    white-space: nowrap;
+}
+.Navbar__btn:hover {
+    background: #6d28d9;
+}`
     },
     {
         id: 402, name: "Pill Navbar", preview: (
@@ -16833,7 +16943,63 @@ export const navbar = [
                     </nav>
                 </div>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__inner">
+        <div class="Navbar__logo">Logo</div>
+        <nav class="Navbar__nav">
+            <a href="#" class="Navbar__link Navbar__link--active">Home</a>
+            <a href="#" class="Navbar__link">Work</a>
+            <a href="#" class="Navbar__link">About</a>
+            <a href="#" class="Navbar__link">Contact</a>
+        </nav>
+    </div>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: #09090b;
+    padding: 8px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-sizing: border-box;
+}
+.Navbar__inner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 12px;
+}
+.Navbar__logo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+    justify-content: center;
+}
+.Navbar__link {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    transition: color 0.15s, background 0.15s;
+    white-space: nowrap;
+}
+.Navbar__link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.07);
+}
+.Navbar__link--active {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}`
     },
     {
         id: 403, name: "Underline Navbar", preview: (
@@ -16847,7 +17013,89 @@ export const navbar = [
                 </nav>
                 <button className="nv-403__btn">Hire me</button>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__logo">Studio</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Home</a>
+        <a href="#" class="Navbar__link">Portfolio</a>
+        <a href="#" class="Navbar__link">Services</a>
+        <a href="#" class="Navbar__link">Contact</a>
+    </nav>
+    <button class="Navbar__btn">Hire me</button>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.Navbar__logo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #111;
+    white-space: nowrap;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex: 1;
+    justify-content: center;
+}
+.Navbar__link {
+    color: #888;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 6px 10px;
+    position: relative;
+    transition: color 0.2s;
+    white-space: nowrap;
+}
+.Navbar__link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #111;
+    transition: width 0.2s;
+}
+.Navbar__link:hover {
+    color: #111;
+}
+.Navbar__link:hover::after {
+    width: 100%;
+}
+.Navbar__link--active {
+    color: #111;
+}
+.Navbar__link--active::after {
+    width: 100%;
+}
+.Navbar__btn {
+    background: #111;
+    color: #fff;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-family: inherit;
+    white-space: nowrap;
+}
+.Navbar__btn:hover {
+    background: #333;
+}`
     },
     {
         id: 404, name: "Glass Navbar", preview: (
@@ -16861,7 +17109,72 @@ export const navbar = [
                 </nav>
                 <button className="nv-404__btn">Sign up</button>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__logo">Glass</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link">Home</a>
+        <a href="#" class="Navbar__link">About</a>
+        <a href="#" class="Navbar__link">Work</a>
+        <a href="#" class="Navbar__link">Contact</a>
+    </nav>
+    <button class="Navbar__btn">Sign up</button>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-sizing: border-box;
+}
+.Navbar__logo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+    justify-content: center;
+}
+.Navbar__link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: color 0.15s, background 0.15s;
+    white-space: nowrap;
+}
+.Navbar__link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.08);
+}
+.Navbar__btn {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 6px 14px;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-family: inherit;
+    white-space: nowrap;
+}
+.Navbar__btn:hover {
+    background: rgba(255, 255, 255, 0.25);
+}`
     },
     {
         id: 405, name: "Minimal Navbar", preview: (
@@ -16875,7 +17188,59 @@ export const navbar = [
                 </nav>
                 <div className="nv-405__dot"></div>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__logo">Minimal</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link">Home</a>
+        <a href="#" class="Navbar__link">About</a>
+        <a href="#" class="Navbar__link">Work</a>
+        <a href="#" class="Navbar__link">Contact</a>
+    </nav>
+    <div class="Navbar__dot"></div>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 14px 4px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-sizing: border-box;
+}
+.Navbar__logo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex: 1;
+    justify-content: center;
+}
+.Navbar__link {
+    color: #52525b;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 4px 10px;
+    transition: color 0.15s;
+    white-space: nowrap;
+}
+.Navbar__link:hover {
+    color: #fff;
+}
+.Navbar__dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #7c3aed;
+    flex-shrink: 0;
+}`
     },
     {
         id: 406, name: "Navbar", preview: (
@@ -16890,7 +17255,65 @@ export const navbar = [
                     </ul>
                 </nav>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <nav class="Navbar-modern">
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background: #0f172a;
+}
+.Navbar .Navbar-modern {
+    position: relative;
+    padding: 14px 24px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 60px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+.Navbar .Navbar-modern ul {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.Navbar .Navbar-modern ul li {
+    position: relative;
+}
+.Navbar .Navbar-modern ul li a {
+    position: relative;
+    display: block;
+    padding: 12px 26px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 40px;
+    transition: 0.3s ease;
+    z-index: 1;
+}
+.Navbar .Navbar-modern ul li.active a {
+    background: linear-gradient(135deg, #38bdf8, #22d3ee);
+    color: #fff;
+    box-shadow: 0 0 20px rgba(34, 211, 238, 0.5);
+}
+.Navbar .Navbar-modern ul li a:hover {
+    background: rgba(255, 255, 255, 0.08);
+}`
     },
     {
         id: 407, name: "Gradient Navbar", preview: (
@@ -16906,7 +17329,78 @@ export const navbar = [
                 </nav>
                 <button className="nv-407__btn">Sign up</button>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__logo">Brand</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Home</a>
+        <a href="#" class="Navbar__link">Pagina 1</a>
+        <a href="#" class="Navbar__link">Pagina 2</a>
+        <a href="#" class="Navbar__link">Pagina 3</a>
+        <a href="#" class="Navbar__link">Pagina 4</a>
+        <a href="#" class="Navbar__link">Pagina 5</a>
+    </nav>
+    <button class="Navbar__btn">Sign up</button>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: linear-gradient(135deg, #1e1b4b, #18181b);
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    border-radius: 12px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-sizing: border-box;
+}
+.Navbar__logo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Navbar__link {
+    color: #a1a1aa;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: color 0.15s, background 0.15s;
+    white-space: nowrap;
+}
+.Navbar__link:hover {
+    color: #fff;
+    background: rgba(99, 102, 241, 0.2);
+}
+.Navbar__link--active {
+    color: #fff;
+    background: rgba(99, 102, 241, 0.25);
+}
+.Navbar__btn {
+    background: #6366f1;
+    color: #fff;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-family: inherit;
+    white-space: nowrap;
+}
+.Navbar__btn:hover {
+    background: #4f46e5;
+}`
     },
     {
         id: 408, name: "Border Bottom Navbar", preview: (
@@ -16921,7 +17415,75 @@ export const navbar = [
                     <a href="#" className="nv-408__link">Pagina 5</a>
                 </nav>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__logo">Logo</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Home</a>
+        <a href="#" class="Navbar__link">Pagina 1</a>
+        <a href="#" class="Navbar__link">Pagina 2</a>
+        <a href="#" class="Navbar__link">Pagina 3</a>
+        <a href="#" class="Navbar__link">Pagina 4</a>
+        <a href="#" class="Navbar__link">Pagina 5</a>
+    </nav>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: #09090b;
+    border-bottom: 2px solid #7c3aed;
+    border-radius: 10px 10px 0 0;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-sizing: border-box;
+}
+.Navbar__logo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Navbar__link {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 8px;
+    transition: color 0.15s;
+    white-space: nowrap;
+    position: relative;
+}
+.Navbar__link::after {
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #7c3aed;
+    transition: width 0.2s;
+}
+.Navbar__link:hover {
+    color: #fff;
+}
+.Navbar__link:hover::after {
+    width: 100%;
+}
+.Navbar__link--active {
+    color: #fff;
+}
+.Navbar__link--active::after {
+    width: 100%;
+}`
     },
     {
         id: 409, name: "Colored Navbar", preview: (
@@ -16937,7 +17499,77 @@ export const navbar = [
                 </nav>
                 <button className="nv-409__btn">Contact</button>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__logo">MyApp</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Home</a>
+        <a href="#" class="Navbar__link">Pagina 1</a>
+        <a href="#" class="Navbar__link">Pagina 2</a>
+        <a href="#" class="Navbar__link">Pagina 3</a>
+        <a href="#" class="Navbar__link">Pagina 4</a>
+        <a href="#" class="Navbar__link">Pagina 5</a>
+    </nav>
+    <button class="Navbar__btn">Contact</button>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: #7c3aed;
+    border-radius: 12px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-sizing: border-box;
+}
+.Navbar__logo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Navbar__link {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: all 0.15s;
+    white-space: nowrap;
+}
+.Navbar__link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+}
+.Navbar__link--active {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+.Navbar__btn {
+    background: #fff;
+    color: #7c3aed;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    font-family: inherit;
+    white-space: nowrap;
+}
+.Navbar__btn:hover {
+    opacity: 0.9;
+}`
     },
     {
         id: 410, name: "Boxed Navbar", preview: (
@@ -16953,7 +17585,80 @@ export const navbar = [
                 </nav>
                 <button className="nv-410__btn">Login</button>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__logo">Studio</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Home</a>
+        <a href="#" class="Navbar__link">Pagina 1</a>
+        <a href="#" class="Navbar__link">Pagina 2</a>
+        <a href="#" class="Navbar__link">Pagina 3</a>
+        <a href="#" class="Navbar__link">Pagina 4</a>
+        <a href="#" class="Navbar__link">Pagina 5</a>
+    </nav>
+    <button class="Navbar__btn">Login</button>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-sizing: border-box;
+}
+.Navbar__logo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Navbar__link {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 8px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    transition: all 0.15s;
+    white-space: nowrap;
+}
+.Navbar__link:hover {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+.Navbar__link--active {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.05);
+}
+.Navbar__btn {
+    background: transparent;
+    color: #a1a1aa;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+    white-space: nowrap;
+}
+.Navbar__btn:hover {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.25);
+}`
     },
     {
         id: 411, name: "Light Navbar", preview: (
@@ -16969,7 +17674,80 @@ export const navbar = [
                 </nav>
                 <button className="nv-411__btn">Get started</button>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__logo">Light</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Home</a>
+        <a href="#" class="Navbar__link">Pagina 1</a>
+        <a href="#" class="Navbar__link">Pagina 2</a>
+        <a href="#" class="Navbar__link">Pagina 3</a>
+        <a href="#" class="Navbar__link">Pagina 4</a>
+        <a href="#" class="Navbar__link">Pagina 5</a>
+    </nav>
+    <button class="Navbar__btn">Get started</button>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
+}
+.Navbar__logo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #111;
+    white-space: nowrap;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Navbar__link {
+    color: #888;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: all 0.15s;
+    white-space: nowrap;
+}
+.Navbar__link:hover {
+    color: #111;
+    background: #f5f5f5;
+}
+.Navbar__link--active {
+    color: #111;
+    background: #f0f0f0;
+    font-weight: 500;
+}
+.Navbar__btn {
+    background: #111;
+    color: #fff;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-family: inherit;
+    white-space: nowrap;
+}
+.Navbar__btn:hover {
+    background: #333;
+}`
     },
     {
         id: 412, name: "Rounded Navbar", preview: (
@@ -16985,7 +17763,79 @@ export const navbar = [
                 </nav>
                 <button className="nv-412__btn">Sign in</button>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__logo">Round</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Home</a>
+        <a href="#" class="Navbar__link">Pagina 1</a>
+        <a href="#" class="Navbar__link">Pagina 2</a>
+        <a href="#" class="Navbar__link">Pagina 3</a>
+        <a href="#" class="Navbar__link">Pagina 4</a>
+        <a href="#" class="Navbar__link">Pagina 5</a>
+    </nav>
+    <button class="Navbar__btn">Sign in</button>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: #09090b;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 999px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-sizing: border-box;
+}
+.Navbar__logo {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+    padding: 0 4px;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Navbar__link {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    transition: all 0.15s;
+    white-space: nowrap;
+}
+.Navbar__link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.07);
+}
+.Navbar__link--active {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+.Navbar__btn {
+    background: #7c3aed;
+    color: #fff;
+    border: none;
+    padding: 5px 14px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-family: inherit;
+    white-space: nowrap;
+}
+.Navbar__btn:hover {
+    background: #6d28d9;
+}`
     },
     {
         id: 413, name: "Neon Navbar", preview: (
@@ -17000,7 +17850,63 @@ export const navbar = [
                     <a href="#" className="nv-413__link">Pagina 5</a>
                 </nav>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__logo">Neon</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Home</a>
+        <a href="#" class="Navbar__link">Pagina 1</a>
+        <a href="#" class="Navbar__link">Pagina 2</a>
+        <a href="#" class="Navbar__link">Pagina 3</a>
+        <a href="#" class="Navbar__link">Pagina 4</a>
+        <a href="#" class="Navbar__link">Pagina 5</a>
+    </nav>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: #030305;
+    border: 1px solid rgba(0, 255, 136, 0.2);
+    border-radius: 10px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.05);
+}
+.Navbar__logo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #00ff88;
+    white-space: nowrap;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Navbar__link {
+    color: #3a3a4a;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: all 0.15s;
+    white-space: nowrap;
+}
+.Navbar__link:hover {
+    color: #00ff88;
+    text-shadow: 0 0 8px rgba(0, 255, 136, 0.5);
+}
+.Navbar__link--active {
+    color: #00ff88;
+    text-shadow: 0 0 8px rgba(0, 255, 136, 0.5);
+}`
     },
     {
         id: 414, name: "Split Navbar", preview: (
@@ -17017,7 +17923,61 @@ export const navbar = [
                     <a href="#" className="nv-414__link">Pagina 5</a>
                 </nav>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <nav class="Navbar__left">
+        <a href="#" class="Navbar__link Navbar__link--active">Home</a>
+        <a href="#" class="Navbar__link">Pagina 1</a>
+        <a href="#" class="Navbar__link">Pagina 2</a>
+    </nav>
+    <div class="Navbar__logo">Brand</div>
+    <nav class="Navbar__right">
+        <a href="#" class="Navbar__link">Pagina 3</a>
+        <a href="#" class="Navbar__link">Pagina 4</a>
+        <a href="#" class="Navbar__link">Pagina 5</a>
+    </nav>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    box-sizing: border-box;
+}
+.Navbar__logo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+}
+.Navbar__left,
+.Navbar__right {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.Navbar__link {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: all 0.15s;
+    white-space: nowrap;
+}
+.Navbar__link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.06);
+}
+.Navbar__link--active {
+    color: #fff;
+}`
     },
     {
         id: 415, name: "Sidebar Navbar", preview: (
@@ -17032,7 +17992,59 @@ export const navbar = [
                     <a href="#" className="nv-415__link">Pagina 5</a>
                 </nav>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__logo">App</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Home</a>
+        <a href="#" class="Navbar__link">Pagina 1</a>
+        <a href="#" class="Navbar__link">Pagina 2</a>
+        <a href="#" class="Navbar__link">Pagina 3</a>
+        <a href="#" class="Navbar__link">Pagina 4</a>
+        <a href="#" class="Navbar__link">Pagina 5</a>
+    </nav>
+</div>`,
+        css: `.Navbar {
+    width: 160px;
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 16px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    box-sizing: border-box;
+}
+.Navbar__logo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 0 8px;
+    margin-bottom: 8px;
+}
+.Navbar__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.Navbar__link {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 7px 10px;
+    border-radius: 7px;
+    transition: all 0.15s;
+    white-space: nowrap;
+}
+.Navbar__link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.06);
+}
+.Navbar__link--active {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.08);
+    font-weight: 500;
+}`
     },
     {
         id: 416, name: "Badge Navbar", preview: (
@@ -17047,7 +18059,71 @@ export const navbar = [
                     <a href="#" className="nv-416__link">Pagina 5</a>
                 </nav>
             </div>
-        )
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__logo">Badge</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Home</a>
+        <a href="#" class="Navbar__link">Pagina 1</a>
+        <a href="#" class="Navbar__link">Pagina 2 <span class="Navbar__badge">New</span></a>
+        <a href="#" class="Navbar__link">Pagina 3</a>
+        <a href="#" class="Navbar__link">Pagina 4</a>
+        <a href="#" class="Navbar__link">Pagina 5</a>
+    </nav>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: #09090b;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.Navbar__logo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Navbar__link {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: all 0.15s;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.Navbar__link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.06);
+}
+.Navbar__link--active {
+    color: #fff;
+}
+.Navbar__badge {
+    background: #7c3aed;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 700;
+    padding: 1px 5px;
+    border-radius: 999px;
+}`
     },
     {
         id: 417, name: "Dot Indicator Navbar", preview: (
@@ -17063,9 +18139,90 @@ export const navbar = [
                 </nav>
                 <button className="nv-417__btn">Login</button>
             </div>
-        )
-    }
+        ),
+        html: `<div class="Navbar">
+    <div class="Navbar__logo">Dots</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active"><span class="Navbar__dot"></span>Home</a>
+        <a href="#" class="Navbar__link">Pagina 1</a>
+        <a href="#" class="Navbar__link">Pagina 2</a>
+        <a href="#" class="Navbar__link">Pagina 3</a>
+        <a href="#" class="Navbar__link">Pagina 4</a>
+        <a href="#" class="Navbar__link">Pagina 5</a>
+    </nav>
+    <button class="Navbar__btn">Login</button>
+</div>`,
+        css: `.Navbar {
+    width: 100%;
+    max-width: 560px;
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-sizing: border-box;
+}
+.Navbar__logo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Navbar__link {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: all 0.15s;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Navbar__link:hover {
+    color: #fff;
+}
+.Navbar__link--active {
+    color: #fff;
+}
+.Navbar__dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #7c3aed;
+    flex-shrink: 0;
+}
+.Navbar__btn {
+    background: transparent;
+    color: #a1a1aa;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+    white-space: nowrap;
+}
+.Navbar__btn:hover {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.25);
+}`
+    },
 ];
+
+
 
 export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, ...loaders, ...inputs, ...radiobuttons, ...forms, ...patterns, ...tooltips, ...navbar];
 

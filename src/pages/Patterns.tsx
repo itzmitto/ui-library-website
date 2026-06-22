@@ -41,12 +41,12 @@ export default function Patterns() {
                         <h1>Patterns</h1>
                         <p>Open-Source CSS background patterns</p>
                     </div>
-                    <div className="all-grid">
+                    <div className="allgrid">
                         {patterns.map((item) => (
-                            <div key={item.id} className="all-card">
-                                <div className="all-card-preview">{item.preview}</div>
-                                <div className="all-card-footer">
-                                    <span className="all-card-name">{item.name}</span>
+                            <div key={item.id} className="allcard">
+                                <div className="allcard-preview">{item.preview}</div>
+                                <div className="allcard-footer">
+                                    <span className="allcard-name">{item.name}</span>
                                 </div>
                             </div>
                         ))}
