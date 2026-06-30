@@ -12,6 +12,8 @@ import Forms from "./pages/Forms";
 import Patterns from "./pages/Patterns";
 import Tooltips from "./pages/Tooltips"
 import Navbar from "./pages/Navbar";
+import "./App.css";
+import "./styling/media.css"; 
 
 
 function Home() {
