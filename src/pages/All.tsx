@@ -1,10 +1,11 @@
 import { useState } from "react"; 
 import Header from "../components/Header"; 
-import { allComponents } from "../data/componentsData";
+import { allComponents } from "../data/componentsData"; // lijst met alle componenten
 import ComponentModal from "../components/ComponentModal";
 import "./All.css"; 
 
 export default function All() {
+  // welk component is geselecteerd (voor de modal). null = geen modal open
   const [selected, setSelected] = useState<typeof allComponents[0] | null>(null);
 
   return (
@@ -12,6 +13,7 @@ export default function All() {
       <Header /> 
 
       <div className="all-layout">
+        {/* sidebar met links naar alle categorieën */}
         <aside className="sidebar">
           <a href="/elements" className="sidebar-item sidebar-item--active">All</a>
           <a href="/elements/buttons" className="sidebar-item">Buttons</a>
@@ -33,12 +35,13 @@ export default function All() {
             <p>Open-Source UI elements made with CSS or Tailwind</p>
           </div>
 
+          {/* grid met alle component-kaartjes */}
           <div className="all-grid">
             {allComponents.map((item) => (
               <div
                 key={item.id}
                 className="all-card"
-                onClick={() => setSelected(item)}
+                onClick={() => setSelected(item)} // klikken opent de modal met dit item
                 style={{ cursor: "pointer" }}>
                 <div className="all-card-preview">
                   {item.preview}
@@ -52,6 +55,7 @@ export default function All() {
         </main>
       </div>
 
+      {/* modal staat hier buiten de grid, wordt getoond zodra "selected" niet null is */}
       <ComponentModal item={selected} onClose={() => setSelected(null)} />
     </div>
   );
