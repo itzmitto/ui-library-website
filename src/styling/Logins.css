@@ -1,0 +1,187 @@
+.login-731,
+.login-732,
+.login-733,
+.login-734,
+.login-735,
+.login-736,
+.login-737,
+.login-738,
+.login-739,
+.login-740 {
+  width: 220px;
+  padding: 18px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  background: #fff;
+  color: #18181b;
+  box-sizing: border-box;
+}
+.login-731 h2,
+.login-732 h2,
+.login-733 h2,
+.login-734 h2,
+.login-735 h2,
+.login-736 h2,
+.login-737 h2,
+.login-738 h2,
+.login-739 h2,
+.login-740 h2 {
+  margin: 0 0 4px;
+  font-size: 18px;
+}
+.login-731 input,
+.login-732 input,
+.login-733 input,
+.login-734 input,
+.login-735 input,
+.login-736 input,
+.login-737 input,
+.login-738 input,
+.login-739 input,
+.login-740 input {
+  width: 100%;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  font-size: 11px;
+}
+.login-731 button,
+.login-732 button,
+.login-733 button,
+.login-734 button,
+.login-735 button,
+.login-736 button,
+.login-737 button,
+.login-738 button,
+.login-739 button,
+.login-740 button {
+  padding: 8px;
+  cursor: pointer;
+  font-size: 11px;
+}
+.login-731 input {
+  border: 1px solid #d4d4d8;
+  border-radius: 8px;
+}
+.login-731 button {
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+}
+.login-732 input {
+  border: 1px solid #71717a;
+  border-radius: 8px;
+}
+.login-732 button {
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+  background: transparent;
+  color: #2563eb;
+}
+.login-733 {
+  background: #faf5ff;
+}
+.login-733 input {
+  border: 1px solid #d8b4fe;
+  border-radius: 8px;
+}
+.login-733 button {
+  border: none;
+  border-radius: 8px;
+  background: #7c3aed;
+  color: white;
+}
+.login-734 {
+  background: #fafafa;
+}
+.login-734 input {
+  border: none;
+  border-radius: 8px;
+  background: #f4f4f5;
+}
+.login-734 button {
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #7c3aed, #ec4899);
+  color: white;
+}
+.login-735 {
+  background: #18181b;
+  color: white;
+}
+.login-735 input {
+  border: 1px solid #3f3f46;
+  border-radius: 8px;
+  background: #27272a;
+  color: white;
+}
+.login-735 button {
+  border: none;
+  border-radius: 8px;
+  background: #3f3f46;
+  color: white;
+}
+.login-736 {
+  background: #f0fdf4;
+}
+.login-736 input {
+  border: 1px solid #bbf7d0;
+  border-radius: 8px;
+}
+.login-736 button {
+  border: none;
+  border-radius: 8px;
+  background: #16a34a;
+  color: white;
+}
+.login-737 input {
+  border: 1px solid #d4d4d8;
+  border-radius: 999px;
+}
+.login-737 button {
+  border: none;
+  border-radius: 999px;
+  background: #2563eb;
+  color: white;
+}
+.login-738 {
+  background: #fff;
+}
+.login-738 input {
+  border: none;
+  border-bottom: 1px solid #a1a1aa;
+  border-radius: 0;
+  outline: none;
+}
+.login-738 button {
+  border: none;
+  background: #18181b;
+  color: white;
+  border-radius: 6px;
+}
+.login-739 input {
+  border: 1px solid #93c5fd;
+  border-radius: 8px;
+}
+.login-739 button {
+  border: none;
+  border-radius: 8px;
+  background: #0284c7;
+  color: white;
+}
+.login-740 {
+  background: #f8fafc;
+}
+.login-740 input {
+  border: none;
+  border-radius: 8px;
+  background: #f1f5f9;
+}
+.login-740 button {
+  border: none;
+  border-radius: 8px;
+  background: #334155;
+  color: white;
+}

@@ -19141,7 +19141,7 @@ export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, .
 
 
 
-// {
+// { dit de de voorbeeld 
 // id: 1, name: "wat de naam ook maar is", preview: <button className="wat de naam ook maar is">Get started</button>,
 // html: `<button class="Button">click here</button>`,
 // css: `.Button {
