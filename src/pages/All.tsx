@@ -1,32 +1,54 @@
-import { useState } from "react"; 
-import Header from "../components/Header"; 
-import { allComponents } from "../data/componentsData"; // lijst met alle componenten
+import { useState } from "react";
+import Header from "../components/Header";
+import { allComponents } from "../data/componentsData";
 import ComponentModal from "../components/ComponentModal";
-import "./All.css"; 
+import "./All.css";
 
 export default function All() {
-  // welk component is geselecteerd (voor de modal). null = geen modal open
   const [selected, setSelected] = useState<typeof allComponents[0] | null>(null);
 
   return (
     <div className="all-page">
-      <Header /> 
+      <Header />
 
       <div className="all-layout">
-        {/* sidebar met links naar alle categorieën */}
         <aside className="sidebar">
-          <a href="/elements" className="sidebar-item sidebar-item--active">All</a>
-          <a href="/elements/buttons" className="sidebar-item">Buttons</a>
-          <a href="/elements/checkboxes" className="sidebar-item">Checkboxes</a>
-          <a href="/elements/toggleswitches" className="sidebar-item">Toggleswitches</a>
-          <a href="/elements/cards" className="sidebar-item">Cards</a>
-          <a href="/elements/loaders" className="sidebar-item">Loaders</a>
-          <a href="/elements/inputs" className="sidebar-item">Inputs</a>
-          <a href="/elements/radio-buttons" className="sidebar-item">Radio-buttons</a>
-          <a href="/elements/forms" className="sidebar-item">Forms</a>
-          <a href="/elements/patterns" className="sidebar-item">Patterns</a>
-          <a href="/elements/tooltips" className="sidebar-item">Tooltips</a>
-          <a href="/elements/navbar" className="sidebar-item">Navbar</a>
+          <a href="/elements" className="sidebar-item sidebar-item--active">
+            All
+          </a>
+          <a href="/elements/buttons" className="sidebar-item">
+            Buttons
+          </a>
+          <a href="/elements/checkboxes" className="sidebar-item">
+            Checkboxes
+          </a>
+          <a href="/elements/toggleswitches" className="sidebar-item">
+            Toggleswitches
+          </a>
+          <a href="/elements/cards" className="sidebar-item">
+            Cards
+          </a>
+          <a href="/elements/loaders" className="sidebar-item">
+            Loaders
+          </a>
+          <a href="/elements/inputs" className="sidebar-item">
+            Inputs
+          </a>
+          <a href="/elements/radio-buttons" className="sidebar-item">
+            Radio-buttons
+          </a>
+          <a href="/elements/forms" className="sidebar-item">
+            Forms
+          </a>
+          <a href="/elements/patterns" className="sidebar-item">
+            Patterns
+          </a>
+          <a href="/elements/tooltips" className="sidebar-item">
+            Tooltips
+          </a>
+          <a href="/elements/navbar" className="sidebar-item">
+            Navbar
+          </a>
         </aside>
 
         <main className="all-main">
@@ -35,19 +57,22 @@ export default function All() {
             <p>Open-Source UI elements made with CSS or Tailwind</p>
           </div>
 
-          {/* grid met alle component-kaartjes */}
           <div className="all-grid">
             {allComponents.map((item) => (
               <div
                 key={item.id}
                 className="all-card"
-                onClick={() => setSelected(item)} // klikken opent de modal met dit item
-                style={{ cursor: "pointer" }}>
+                onClick={() => setSelected(item)}
+                style={{ cursor: "pointer" }}
+              >
                 <div className="all-card-preview">
                   {item.preview}
                 </div>
+
                 <div className="all-card-footer">
-                  <span className="all-card-name">{item.name}</span>
+                  <span className="all-card-name">
+                    {item.name}
+                  </span>
                 </div>
               </div>
             ))}
@@ -55,8 +80,17 @@ export default function All() {
         </main>
       </div>
 
-      {/* modal staat hier buiten de grid, wordt getoond zodra "selected" niet null is */}
-      <ComponentModal item={selected} onClose={() => setSelected(null)} />
+      <ComponentModal
+        item={selected}
+        onClose={() => setSelected(null)}
+      />
+
+      <a
+        href="/elements/navbar"
+        className="floating-navbar-button"
+      >
+        Navbar →
+      </a>
     </div>
   );
 }
