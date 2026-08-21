@@ -3938,7 +3938,7 @@ export const toggles = [
     transform: translateX(24px);
 }
 @keyframes Toggle-ring {
-    0%, 100% {
+    0%, 100% { 
         box-shadow: 0 0 0 3px rgba(244, 63, 94, 0.3);
     }
     50% {

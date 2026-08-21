@@ -24,7 +24,7 @@ export default function Toggleswitches() {
   const [selected, setSelected] = useState<typeof toggles[0] | null>(null);
 
   return (
-    <div className="all-page">
+    <div className="all-page"> 
       <Header />
       <div className="all-layout">
         <aside className="sidebar">
