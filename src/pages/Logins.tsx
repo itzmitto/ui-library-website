@@ -25,7 +25,7 @@ export default function Logins() {
   const [selected, setSelected] = useState<typeof logins[0] | null>(null);
   return (
     <div className="all-page">
-      <Header />
+      <Header /> 
       <div className="all-layout">
         <aside className="sidebar">
           {sidebarItems.map((item) => (
@@ -42,32 +42,32 @@ export default function Logins() {
           <div className="all-header">
             <h1>Logins</h1>
             <p>Open-Source login forms made with CSS or Tailwind</p>
-          </div>
-          <div className="all-grid">
-            {logins.map((item) => (
-              <div
-                key={item.id}
-                className="all-card"
-                onClick={() => setSelected(item)}
-                style={{ cursor: "pointer" }}
-              >
-                <div className="all-card-preview">
-                  {item.preview}
+       </div>
+                <div className="allgrid">
+                  {logins.map((item) => (
+                    <div
+                      key={item.id}
+                      className="allcard"
+                      onClick={() => setSelected(item)}
+                      style={{ cursor: "pointer" }}
+                    >
+                      <div className="allcard-preview">
+                        {item.preview}
+                      </div>
+                      <div className="allcard-footer">
+                        <span className="allcard-name">
+                          {item.name}
+                        </span>
+                      </div>
+                    </div>
+                  ))}
                 </div>
-                <div className="all-card-footer">
-                  <span className="all-card-name">
-                    {item.name}
-                  </span>
-                </div>
-              </div>
-            ))}
+              </main>
+            </div>
+            <ComponentModal
+              item={selected}
+              onClose={() => setSelected(null)}
+            />
           </div>
-        </main>
-      </div>
-      <ComponentModal
-        item={selected}
-        onClose={() => setSelected(null)}
-      />
-    </div>
-  );
-}
+        );
+      }

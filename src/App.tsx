@@ -12,6 +12,7 @@ import Forms from "./pages/Forms";
 import Patterns from "./pages/Patterns";
 import Tooltips from "./pages/Tooltips";
 import Navbar from "./pages/Navbar";
+import Logins from "./pages/Logins";
 import "./App.css";
 import "./styling/media.css";
 
@@ -51,6 +52,7 @@ function App() {
         <Route path="/elements/patterns" element={<Patterns />} />
         <Route path="/elements/tooltips" element={<Tooltips />} />
         <Route path="/elements/navbar" element={<Navbar />} />
+        <Route path="/elements/logins" element={<Logins />} />
       </Routes>
     </BrowserRouter>
   );

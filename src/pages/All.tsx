@@ -3,9 +3,11 @@ import Header from "../components/Header";
 import { allComponents } from "../data/componentsData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
- 
-export default function All() {  
-  const [selected, setSelected] = useState<typeof allComponents[0] | null>(null);
+
+export default function All() {
+  const [selected, setSelected] = useState<(typeof allComponents)[0] | null>(
+    null,
+  );
 
   return (
     <div className="all-page">
@@ -49,6 +51,9 @@ export default function All() {
           <a href="/elements/navbar" className="sidebar-item">
             Navbar
           </a>
+          <a href="/elements/logins" className="sidebar-item">
+            Logins
+          </a>
         </aside>
 
         <main className="all-main">
@@ -65,14 +70,10 @@ export default function All() {
                 onClick={() => setSelected(item)}
                 style={{ cursor: "pointer" }}
               >
-                <div className="all-card-preview">
-                  {item.preview}
-                </div>
+                <div className="all-card-preview">{item.preview}</div>
 
                 <div className="all-card-footer">
-                  <span className="all-card-name">
-                    {item.name}
-                  </span>
+                  <span className="all-card-name">{item.name}</span>
                 </div>
               </div>
             ))}
@@ -80,15 +81,9 @@ export default function All() {
         </main>
       </div>
 
-      <ComponentModal
-        item={selected}
-        onClose={() => setSelected(null)}
-      />
+      <ComponentModal item={selected} onClose={() => setSelected(null)} />
 
-      <a
-        href="/elements/navbar"
-        className="floating-navbar-button"
-      >
+      <a href="/elements/navbar" className="floating-navbar-button">
         Navbar →
       </a>
     </div>

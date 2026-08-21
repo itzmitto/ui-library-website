@@ -17,7 +17,9 @@ const sidebarItems = [
   { label: "Forms", path: "/elements/forms" },
   { label: "Patterns", path: "/elements/patterns" },
   { label: "Tooltips", path: "/elements/tooltips" },
-  { label: "Navbar", path: "/elements/navbar" }
+  { label: "Navbar", path: "/elements/navbar" },
+    { label: "Logins", path: "/elements/logins" }
+
 ];
 
 export default function Cards() {
