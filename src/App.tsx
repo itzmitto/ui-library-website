@@ -26,7 +26,7 @@ function Home() {
             Community-built library of UI elements. Copy as HTML/CSS.
           </p>
           <Link to="/elements" className="hero-button">
-            Explore Library →
+            Explore Library 
           </Link>
         </div>
       </section>

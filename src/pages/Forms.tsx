@@ -3,7 +3,7 @@ import { forms } from "../data/componentsData";
 import "../styling/AllForms.css";
 import "../styling/Forms.css"; 
 
-const sidebarItems = [
+const sidebarItems = [ 
     { label: "All", path: "/elements" },
     { label: "Buttons", path: "/elements/buttons" },
     { label: "Checkboxes", path: "/elements/checkboxes" },
