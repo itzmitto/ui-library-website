@@ -3946,7 +3946,461 @@ export const toggles = [
     }
 }`
     },
+
+        {
+        id: 700,
+        name: "Blue Toggle",
+        preview: (
+            <label className="ts700">
+                <input type="checkbox" />
+                <span className="ts700-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle { position: relative; display: inline-block; width: 54px; height: 28px; } .Toggle input { opacity: 0; width: 0; height: 0; } .Toggle-slider { position: absolute; inset: 0; background: #dbeafe; border-radius: 28px; } .Toggle-slider:before { content: ""; position: absolute; width: 20px; height: 20px; left: 4px; bottom: 4px; background: #3b82f6; border-radius: 50%; transition: .3s; }`
+    },
+    {
+        id: 701,
+        name: "Square Toggle",
+        preview: (
+            <label className="ts701">
+                <input type="checkbox" />
+                <span className="ts701-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle { position: relative; display: inline-block; width: 58px; height: 30px; } .Toggle input { opacity: 0; width: 0; height: 0; } .Toggle-slider { position: absolute; inset: 0; background: #27272a; border-radius: 8px; } .Toggle-slider:before { content: ""; position: absolute; width: 22px; height: 22px; left: 4px; bottom: 4px; background: #71717a; border-radius: 5px; transition: .3s; }`
+    },
+    {
+        id: 702,
+        name: "Gradient Toggle",
+        preview: (
+            <label className="ts702">
+                <input type="checkbox" />
+                <span className="ts702-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: linear-gradient(90deg,#ef4444,#f97316); }`
+    },
+    {
+        id: 703,
+        name: "Outline Toggle",
+        preview: (
+            <label className="ts703">
+                <input type="checkbox" />
+                <span className="ts703-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #f4f4f5; border: 2px solid #d4d4d8; }`
+    },
+    {
+        id: 704,
+        name: "Neon Green Toggle",
+        preview: (
+            <label className="ts704">
+                <input type="checkbox" />
+                <span className="ts704-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #111827; }`
+    },
+    {
+        id: 705,
+        name: "Teal Toggle",
+        preview: (
+            <label className="ts705">
+                <input type="checkbox" />
+                <span className="ts705-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #e2e8f0; }`
+    },
+    {
+        id: 706,
+        name: "Indigo Toggle",
+        preview: (
+            <label className="ts706">
+                <input type="checkbox" />
+                <span className="ts706-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #1e293b; border: 1px solid #475569; }`
+    },
+    {
+        id: 707,
+        name: "Success Toggle",
+        preview: (
+            <label className="ts707">
+                <input type="checkbox" />
+                <span className="ts707-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #fee2e2; }`
+    },
+    {
+        id: 708,
+        name: "Purple Gradient",
+        preview: (
+            <label className="ts708">
+                <input type="checkbox" />
+                <span className="ts708-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: linear-gradient(90deg,#c084fc,#f0abfc); }`
+    },
+    {
+        id: 709,
+        name: "Round Toggle",
+        preview: (
+            <label className="ts709">
+                <input type="checkbox" />
+                <span className="ts709-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { border-radius: 50%; }`
+    },
+    {
+        id: 710,
+        name: "ON OFF Toggle",
+        preview: (
+            <label className="ts710">
+                <input type="checkbox" />
+                <span className="ts710-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #cbd5e1; }`
+    },
+    {
+        id: 711,
+        name: "Sky Toggle",
+        preview: (
+            <label className="ts711">
+                <input type="checkbox" />
+                <span className="ts711-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #e0f2fe; border: 1px solid #7dd3fc; }`
+    },
+    {
+        id: 712,
+        name: "Soft Shadow Toggle",
+        preview: (
+            <label className="ts712">
+                <input type="checkbox" />
+                <span className="ts712-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #f1f5f9; box-shadow: inset 0 2px 5px rgba(0,0,0,.12); }`
+    },
+    {
+        id: 713,
+        name: "Red Glow Toggle",
+        preview: (
+            <label className="ts713">
+                <input type="checkbox" />
+                <span className="ts713-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #18181b; }`
+    },
+    {
+        id: 714,
+        name: "Wide Toggle",
+        preview: (
+            <label className="ts714">
+                <input type="checkbox" />
+                <span className="ts714-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #ddd; }`
+    },
+    {
+        id: 715,
+        name: "Rose Green Toggle",
+        preview: (
+            <label className="ts715">
+                <input type="checkbox" />
+                <span className="ts715-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #fecdd3; }`
+    },
+    {
+        id: 716,
+        name: "Square Outline Toggle",
+        preview: (
+            <label className="ts716">
+                <input type="checkbox" />
+                <span className="ts716-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #e5e7eb; border: 2px solid #9ca3af; border-radius: 6px; }`
+    },
+    {
+        id: 717,
+        name: "Orange Toggle",
+        preview: (
+            <label className="ts717">
+                <input type="checkbox" />
+                <span className="ts717-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #f3f4f6; }`
+    },
+    {
+        id: 718,
+        name: "Minimal Toggle",
+        preview: (
+            <label className="ts718">
+                <input type="checkbox" />
+                <span className="ts718-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #e2e8f0; }`
+    },
+    {
+        id: 719,
+        name: "Sun Moon Toggle",
+        preview: (
+            <label className="ts719">
+                <input type="checkbox" />
+                <span className="ts719-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #172554; }`
+    },
+    {
+        id: 720,
+        name: "Check Toggle",
+        preview: (
+            <label className="ts720">
+                <input type="checkbox" />
+                <span className="ts720-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider:before { content: "×"; }`
+    },
+    {
+        id: 721,
+        name: "Long Toggle",
+        preview: (
+            <label className="ts721">
+                <input type="checkbox" />
+                <span className="ts721-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { width: 64px; }`
+    },
+    {
+        id: 722,
+        name: "Cyan Gradient Toggle",
+        preview: (
+            <label className="ts722">
+                <input type="checkbox" />
+                <span className="ts722-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: linear-gradient(90deg,#06b6d4,#3b82f6); }`
+    },
+    {
+        id: 723,
+        name: "Dark Minimal Toggle",
+        preview: (
+            <label className="ts723">
+                <input type="checkbox" />
+                <span className="ts723-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #f9fafb; border: 1px solid #d1d5db; }`
+    },
+    {
+        id: 724,
+        name: "Dual Color Toggle",
+        preview: (
+            <label className="ts724">
+                <input type="checkbox" />
+                <span className="ts724-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #fee2e2; }`
+    },
+    {
+        id: 725,
+        name: "Neon Cyan Toggle",
+        preview: (
+            <label className="ts725">
+                <input type="checkbox" />
+                <span className="ts725-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #0f172a; }`
+    },
+    {
+        id: 726,
+        name: "Lime Cyan Toggle",
+        preview: (
+            <label className="ts726">
+                <input type="checkbox" />
+                <span className="ts726-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #ecfccb; }`
+    },
+    {
+        id: 727,
+        name: "Pink Toggle",
+        preview: (
+            <label className="ts727">
+                <input type="checkbox" />
+                <span className="ts727-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #e5e7eb; }`
+    },
+    {
+        id: 728,
+        name: "Amber Green Toggle",
+        preview: (
+            <label className="ts728">
+                <input type="checkbox" />
+                <span className="ts728-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #fef3c7; }`
+    },
+    {
+        id: 729,
+        name: "Simple Blue Toggle",
+        preview: (
+            <label className="ts729">
+                <input type="checkbox" />
+                <span className="ts729-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
+        css: `.Toggle-slider { background: #e5e7eb; }`
+    },
+
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
