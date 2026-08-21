@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Header from "./components/Header";
 import Buttons from "./pages/Buttons";
 import All from "./pages/All";
@@ -10,21 +10,24 @@ import Inputs from "./pages/Inputs";
 import RadioButtons from "./pages/RadioButtons";
 import Forms from "./pages/Forms";
 import Patterns from "./pages/Patterns";
-import Tooltips from "./pages/Tooltips"
+import Tooltips from "./pages/Tooltips";
 import Navbar from "./pages/Navbar";
 import "./App.css";
-import "./styling/media.css"; 
-
+import "./styling/media.css";
 
 function Home() {
   return (
     <div>
       <Header />
       <section className="hero">
-        <div style={{ paddingLeft: '80px', position: 'relative', zIndex: 1 }}>
-          <h1 className="hero-title">
-            My Ui Components Library
-          </h1>
+        <div className="hero-content">
+          <h1 className="hero-title">My Library of Open-Source UI</h1>
+          <p className="hero-description">
+            Community-built library of UI elements. Copy as HTML/CSS.
+          </p>
+          <Link to="/" className="hero-button">
+            Explore Library →
+          </Link>
         </div>
       </section>
     </div>
@@ -48,8 +51,6 @@ function App() {
         <Route path="/elements/patterns" element={<Patterns />} />
         <Route path="/elements/tooltips" element={<Tooltips />} />
         <Route path="/elements/navbar" element={<Navbar />} />
-
-        {/* Hier meer buttons enz. later toeeovengen wanneer ik ze heb  */}
       </Routes>
     </BrowserRouter>
   );

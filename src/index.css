@@ -103,7 +103,7 @@ body {
   background: rgba(255, 255, 255, 0.06);
   color: #fff;
 }
- .hero {
+ .hero { 
   position: relative;
   min-height: 100vh;
   padding-top: 30px;
