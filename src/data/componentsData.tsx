@@ -18678,8 +18678,461 @@ export const navbar = [
 
 
 
-export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, ...loaders, ...inputs, ...radiobuttons, ...forms, ...patterns, ...tooltips, ...navbar];
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export const logins = [
+    {
+        id: 731,
+        name: "Simple Login",
+        preview: (
+            <div className="login-731">
+                <h2>Login</h2>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Login</button>
+            </div>
+        ),
+        html: `<div class="Login">
+    <h2>Login</h2>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button>Login</button>
+</div>`,
+        css: `.Login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 260px;
+}
+.Login h2 {
+    margin: 0 0 4px;
+    font-size: 24px;
+}
+.Login input {
+    padding: 10px;
+    border: 1px solid #d4d4d8;
+    border-radius: 8px;
+}
+.Login button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}`
+    },
+    {
+        id: 732,
+        name: "Outline Login",
+        preview: (
+            <div className="login-732">
+                <h2>Welcome back</h2>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Sign in</button>
+            </div>
+        ),
+        html: `<div class="Login">
+    <h2>Welcome back</h2>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button>Sign in</button>
+</div>`,
+        css: `.Login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 260px;
+}
+.Login input {
+    padding: 10px;
+    border: 1px solid #71717a;
+    border-radius: 8px;
+}
+.Login button {
+    padding: 10px;
+    border: 1px solid #2563eb;
+    background: transparent;
+    color: #2563eb;
+    border-radius: 8px;
+}`
+    },
+    {
+        id: 733,
+        name: "Purple Login",
+        preview: (
+            <div className="login-733">
+                <h2>Sign In</h2>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Sign In</button>
+            </div>
+        ),
+        html: `<div class="Login">
+    <h2>Sign In</h2>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button>Sign In</button>
+</div>`,
+        css: `.Login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 260px;
+}
+.Login input {
+    padding: 10px;
+    border: 1px solid #d4d4d8;
+    border-radius: 8px;
+}
+.Login button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #7c3aed;
+    color: white;
+}`
+    },
+    {
+        id: 734,
+        name: "Gradient Login",
+        preview: (
+            <div className="login-734">
+                <h2>Welcome</h2>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Continue</button>
+            </div>
+        ),
+        html: `<div class="Login">
+    <h2>Welcome</h2>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button>Continue</button>
+</div>`,
+        css: `.Login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 260px;
+}
+.Login input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #f4f4f5;
+}
+.Login button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #7c3aed, #ec4899);
+    color: white;
+}`
+    },
+    {
+        id: 735,
+        name: "Dark Login",
+        preview: (
+            <div className="login-735">
+                <h2>Login</h2>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Login</button>
+            </div>
+        ),
+        html: `<div class="Login">
+    <h2>Login</h2>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button>Login</button>
+</div>`,
+        css: `.Login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 260px;
+}
+.Login input {
+    padding: 10px;
+    border: 1px solid #3f3f46;
+    border-radius: 8px;
+    background: #18181b;
+    color: white;
+}
+.Login button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #27272a;
+    color: white;
+}`
+    },
+    {
+        id: 736,
+        name: "Green Login",
+        preview: (
+            <div className="login-736">
+                <h2>Sign In</h2>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Sign In</button>
+            </div>
+        ),
+        html: `<div class="Login">
+    <h2>Sign In</h2>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button>Sign In</button>
+</div>`,
+        css: `.Login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 260px;
+}
+.Login input {
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+}
+.Login button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #16a34a;
+    color: white;
+}`
+    },
+    {
+        id: 737,
+        name: "Rounded Login",
+        preview: (
+            <div className="login-737">
+                <h2>Account Login</h2>
+                <input type="email" placeholder="Email address" />
+                <input type="password" placeholder="Password" />
+                <button>Login</button>
+            </div>
+        ),
+        html: `<div class="Login">
+    <h2>Account Login</h2>
+    <input type="email" placeholder="Email address">
+    <input type="password" placeholder="Password">
+    <button>Login</button>
+</div>`,
+        css: `.Login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 260px;
+}
+.Login input {
+    padding: 11px 14px;
+    border: 1px solid #d4d4d8;
+    border-radius: 999px;
+}
+.Login button {
+    padding: 11px;
+    border: none;
+    border-radius: 999px;
+    background: #2563eb;
+    color: white;
+}`
+    },
+    {
+        id: 738,
+        name: "Minimal Login",
+        preview: (
+            <div className="login-738">
+                <h2>Sign in</h2>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Continue</button>
+            </div>
+        ),
+        html: `<div class="Login">
+    <h2>Sign in</h2>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button>Continue</button>
+</div>`,
+        css: `.Login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 260px;
+}
+.Login input {
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #a1a1aa;
+    outline: none;
+}
+.Login button {
+    padding: 10px;
+    border: none;
+    background: #18181b;
+    color: white;
+    border-radius: 6px;
+}`
+    },
+    {
+        id: 739,
+        name: "Blue Login",
+        preview: (
+            <div className="login-739">
+                <h2>Welcome back</h2>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Login</button>
+            </div>
+        ),
+        html: `<div class="Login">
+    <h2>Welcome back</h2>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button>Login</button>
+</div>`,
+        css: `.Login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 260px;
+}
+.Login input {
+    padding: 10px;
+    border: 1px solid #93c5fd;
+    border-radius: 8px;
+}
+.Login button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #0284c7;
+    color: white;
+}`
+    },
+    {
+        id: 740,
+        name: "Soft Login",
+        preview: (
+            <div className="login-740">
+                <h2>Login</h2>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Sign in</button>
+            </div>
+        ),
+        html: `<div class="Login">
+    <h2>Login</h2>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button>Sign in</button>
+</div>`,
+        css: `.Login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 260px;
+}
+.Login input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #f4f4f5;
+}
+.Login button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #334155;
+    color: white;
+}`
+    }
+];
+
+
+
+
+
+
+
+
+export const allComponents = [...buttons, ...checkboxes, ...toggles, ...cards, ...loaders, ...inputs, ...radiobuttons, ...forms, ...patterns, ...tooltips, ...navbar, ...logins];
 
 
 
