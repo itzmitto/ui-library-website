@@ -25,7 +25,7 @@ function Home() {
           <p className="hero-description">
             Community-built library of UI elements. Copy as HTML/CSS.
           </p>
-          <Link to="/" className="hero-button">
+          <Link to="/elements" className="hero-button">
             Explore Library →
           </Link>
         </div>
