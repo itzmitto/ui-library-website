@@ -8822,6 +8822,1304 @@ export const inputs = [
     }
 }`
     },
+    {
+    id: 792,
+    name: "Clean Text Input",
+    preview: (
+        <div className="inp-792">
+            <label>Full name</label>
+            <input type="text" placeholder="Enter your full name" />
+        </div>
+    ),
+    html: `<div class="Input">
+    <label>Full name</label>
+    <input type="text" placeholder="Enter your full name">
+</div>`,
+    css: `.Input {
+    width: 320px;
+}
+
+.Input label {
+    display: block;
+    margin-bottom: 7px;
+    color: #18181b;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Input input {
+    width: 100%;
+    height: 46px;
+    padding: 0 13px;
+    box-sizing: border-box;
+    border: 1px solid #d4d4d8;
+    border-radius: 10px;
+    background: #fff;
+    color: #18181b;
+    outline: none;
+    font-size: 13px;
+    transition: all 0.2s;
+}
+
+.Input input::placeholder {
+    color: #a1a1aa;
+}
+
+.Input input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.08);
+}`,
+},
+{
+    id: 793,
+    name: "Icon Text Input",
+    preview: (
+        <div className="inp-793">
+            <label>Email address</label>
+            <div className="inp-793__field">
+                <i className="fa-regular fa-envelope"></i>
+                <input type="email" placeholder="you@example.com" />
+            </div>
+        </div>
+    ),
+    html: `<div class="Input">
+    <label>Email address</label>
+    <div class="Input-field">
+        <i class="fa-regular fa-envelope"></i>
+        <input type="email" placeholder="you@example.com">
+    </div>
+</div>`,
+    css: `.Input {
+    width: 320px;
+}
+
+.Input label {
+    display: block;
+    margin-bottom: 7px;
+    color: #27272a;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Input-field {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 13px;
+    box-sizing: border-box;
+    border: 1px solid #d4d4d8;
+    border-radius: 10px;
+    background: #fff;
+    transition: all 0.2s;
+}
+
+.Input-field i {
+    color: #a1a1aa;
+    font-size: 14px;
+}
+
+.Input-field input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #18181b;
+    font-size: 13px;
+}
+
+.Input-field:focus-within {
+    border-color: #7c3aed;
+    box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.08);
+}`,
+},
+{
+    id: 794,
+    name: "Search Input",
+    preview: (
+        <div className="inp-794">
+            <i className="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Search anything..." />
+            <kbd>/</kbd>
+        </div>
+    ),
+    html: `<div class="SearchInput">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input type="search" placeholder="Search anything...">
+    <kbd>/</kbd>
+</div>`,
+    css: `.SearchInput {
+    width: 360px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 11px;
+    box-sizing: border-box;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.04);
+}
+
+.SearchInput > i {
+    color: #71717a;
+}
+
+.SearchInput input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 13px;
+}
+
+.SearchInput kbd {
+    min-width: 22px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #d4d4d8;
+    border-radius: 6px;
+    background: #f4f4f5;
+    color: #71717a;
+    font-size: 11px;
+}`,
+},
+{
+    id: 795,
+    name: "Password Input",
+    preview: (
+        <div className="inp-795">
+            <label>Password</label>
+            <div className="inp-795__field">
+                <i className="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Enter your password" />
+                <button type="button">
+                    <i className="fa-solid fa-eye"></i>
+                </button>
+            </div>
+            <span className="inp-795__hint">Use at least 8 characters.</span>
+        </div>
+    ),
+    html: `<div class="Input">
+    <label>Password</label>
+    <div class="Input-field">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" placeholder="Enter your password">
+        <button type="button">
+            <i class="fa-solid fa-eye"></i>
+        </button>
+    </div>
+    <span class="Input-hint">Use at least 8 characters.</span>
+</div>`,
+    css: `.Input {
+    width: 320px;
+}
+
+.Input label {
+    display: block;
+    margin-bottom: 7px;
+    color: #18181b;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Input-field {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 12px;
+    box-sizing: border-box;
+    border: 1px solid #d4d4d8;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.Input-field > i {
+    color: #71717a;
+}
+
+.Input-field input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    background: transparent;
+}
+
+.Input-field button {
+    border: none;
+    background: transparent;
+    color: #a1a1aa;
+    cursor: pointer;
+}
+
+.Input-field:focus-within {
+    border-color: #18181b;
+}
+
+.Input-hint {
+    display: block;
+    margin-top: 6px;
+    color: #a1a1aa;
+    font-size: 10px;
+}`,
+},
+{
+    id: 796,
+    name: "Floating Label Input",
+    preview: (
+        <div className="inp-796">
+            <div className="inp-796__field">
+                <input id="floating-name" type="text" placeholder=" " />
+                <label htmlFor="floating-name">Your name</label>
+            </div>
+        </div>
+    ),
+    html: `<div class="Input">
+    <div class="Input-field">
+        <input id="floating-name" type="text" placeholder=" ">
+        <label for="floating-name">Your name</label>
+    </div>
+</div>`,
+    css: `.Input {
+    width: 320px;
+}
+
+.Input-field {
+    position: relative;
+}
+
+.Input-field input {
+    width: 100%;
+    height: 52px;
+    padding: 18px 13px 5px;
+    box-sizing: border-box;
+    border: 1px solid #d4d4d8;
+    border-radius: 10px;
+    outline: none;
+    background: #fff;
+    color: #18181b;
+    font-size: 13px;
+}
+
+.Input-field label {
+    position: absolute;
+    left: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #a1a1aa;
+    font-size: 12px;
+    pointer-events: none;
+    transition: all 0.2s;
+    background: #fff;
+    padding: 0 3px;
+}
+
+.Input-field input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.08);
+}
+
+.Input-field input:focus + label,
+.Input-field input:not(:placeholder-shown) + label {
+    top: 0;
+    font-size: 9px;
+    color: #2563eb;
+}`,
+},
+{
+    id: 797,
+    name: "Username Input",
+    preview: (
+        <div className="inp-797">
+            <label>Username</label>
+            <div className="inp-797__field">
+                <span>@</span>
+                <input type="text" placeholder="username" />
+                <i className="fa-solid fa-check"></i>
+            </div>
+            <small>Username is available.</small>
+        </div>
+    ),
+    html: `<div class="Input">
+    <label>Username</label>
+    <div class="Input-field">
+        <span>@</span>
+        <input type="text" placeholder="username">
+        <i class="fa-solid fa-check"></i>
+    </div>
+    <small>Username is available.</small>
+</div>`,
+    css: `.Input {
+    width: 320px;
+}
+
+.Input > label {
+    display: block;
+    margin-bottom: 7px;
+    color: #18181b;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Input-field {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 12px;
+    border: 1px solid #bbf7d0;
+    border-radius: 10px;
+    background: #f0fdf4;
+}
+
+.Input-field span {
+    color: #71717a;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.Input-field input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 13px;
+}
+
+.Input-field > i {
+    color: #16a34a;
+}
+
+.Input small {
+    display: block;
+    margin-top: 6px;
+    color: #16a34a;
+    font-size: 10px;
+}`,
+},
+{
+    id: 798,
+    name: "Error Input",
+    preview: (
+        <div className="inp-798">
+            <label>Work email</label>
+            <div className="inp-798__field">
+                <i className="fa-regular fa-envelope"></i>
+                <input type="email" value="andre@" readOnly />
+                <i className="fa-solid fa-circle-exclamation"></i>
+            </div>
+            <span>Please enter a valid email address.</span>
+        </div>
+    ),
+    html: `<div class="Input">
+    <label>Work email</label>
+    <div class="Input-field">
+        <i class="fa-regular fa-envelope"></i>
+        <input type="email" value="andre@" readonly>
+        <i class="fa-solid fa-circle-exclamation"></i>
+    </div>
+    <span>Please enter a valid email address.</span>
+</div>`,
+    css: `.Input {
+    width: 320px;
+}
+
+.Input > label {
+    display: block;
+    margin-bottom: 7px;
+    color: #18181b;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Input-field {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 0 12px;
+    border: 1px solid #fca5a5;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.Input-field > i:first-child {
+    color: #a1a1aa;
+}
+
+.Input-field input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 13px;
+}
+
+.Input-field > i:last-child {
+    color: #dc2626;
+}
+
+.Input > span {
+    display: block;
+    margin-top: 6px;
+    color: #dc2626;
+    font-size: 10px;
+}`,
+},
+{
+    id: 799,
+    name: "Success Input",
+    preview: (
+        <div className="inp-799">
+            <label>Website URL</label>
+            <div className="inp-799__field">
+                <i className="fa-solid fa-link"></i>
+                <input type="url" value="https://example.com" readOnly />
+                <i className="fa-solid fa-circle-check"></i>
+            </div>
+            <span>Valid URL</span>
+        </div>
+    ),
+    html: `<div class="Input">
+    <label>Website URL</label>
+    <div class="Input-field">
+        <i class="fa-solid fa-link"></i>
+        <input type="url" value="https://example.com" readonly>
+        <i class="fa-solid fa-circle-check"></i>
+    </div>
+    <span>Valid URL</span>
+</div>`,
+    css: `.Input {
+    width: 320px;
+}
+
+.Input > label {
+    display: block;
+    margin-bottom: 7px;
+    color: #18181b;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Input-field {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 0 12px;
+    border: 1px solid #86efac;
+    border-radius: 10px;
+    background: #f0fdf4;
+}
+
+.Input-field > i:first-child {
+    color: #65a30d;
+}
+
+.Input-field input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 13px;
+}
+
+.Input-field > i:last-child {
+    color: #16a34a;
+}
+
+.Input > span {
+    display: block;
+    margin-top: 6px;
+    color: #16a34a;
+    font-size: 10px;
+}`,
+},
+{
+    id: 800,
+    name: "Phone Input",
+    preview: (
+        <div className="inp-800">
+            <label>Phone number</label>
+            <div className="inp-800__field">
+                <button type="button">
+                    <span>🇳🇱</span>
+                    <span>+31</span>
+                    <i className="fa-solid fa-chevron-down"></i>
+                </button>
+                <input type="tel" placeholder="6 12345678" />
+            </div>
+        </div>
+    ),
+    html: `<div class="Input">
+    <label>Phone number</label>
+    <div class="Input-field">
+        <button type="button">
+            <span>🇳🇱</span>
+            <span>+31</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <input type="tel" placeholder="6 12345678">
+    </div>
+</div>`,
+    css: `.Input {
+    width: 320px;
+}
+
+.Input > label {
+    display: block;
+    margin-bottom: 7px;
+    color: #18181b;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Input-field {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #d4d4d8;
+    border-radius: 10px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.Input-field button {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0 11px;
+    border: none;
+    border-right: 1px solid #e4e4e7;
+    background: #fafafa;
+    color: #52525b;
+    font-size: 12px;
+}
+
+.Input-field button i {
+    font-size: 8px;
+}
+
+.Input-field input {
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+    padding: 0 12px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}`,
+},
+{
+    id: 801,
+    name: "Amount Input",
+    preview: (
+        <div className="inp-801">
+            <label>Amount</label>
+            <div className="inp-801__field">
+                <span>€</span>
+                <input type="text" value="1,250.00" readOnly />
+                <small>EUR</small>
+            </div>
+        </div>
+    ),
+    html: `<div class="Input">
+    <label>Amount</label>
+    <div class="Input-field">
+        <span>€</span>
+        <input type="text" value="1,250.00" readonly>
+        <small>EUR</small>
+    </div>
+</div>`,
+    css: `.Input {
+    width: 300px;
+}
+
+.Input > label {
+    display: block;
+    margin-bottom: 7px;
+    color: #18181b;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Input-field {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 13px;
+    border: 1px solid #d4d4d8;
+    border-radius: 11px;
+    background: #fff;
+}
+
+.Input-field > span {
+    color: #71717a;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Input-field input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #18181b;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Input-field small {
+    color: #a1a1aa;
+    font-size: 9px;
+    font-weight: 700;
+}`,
+},
+{
+    id: 802,
+    name: "Date Input",
+    preview: (
+        <div className="inp-802">
+            <label>Project deadline</label>
+            <div className="inp-802__field">
+                <input type="date" defaultValue="2026-09-15" />
+                <i className="fa-regular fa-calendar"></i>
+            </div>
+        </div>
+    ),
+    html: `<div class="Input">
+    <label>Project deadline</label>
+    <div class="Input-field">
+        <input type="date" value="2026-09-15">
+        <i class="fa-regular fa-calendar"></i>
+    </div>
+</div>`,
+    css: `.Input {
+    width: 320px;
+}
+
+.Input > label {
+    display: block;
+    margin-bottom: 7px;
+    color: #18181b;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Input-field {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    padding: 0 13px;
+    border: 1px solid #d4d4d8;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.Input-field input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #52525b;
+    font-size: 13px;
+    font-family: inherit;
+}
+
+.Input-field > i {
+    color: #71717a;
+}`,
+},
+{
+    id: 803,
+    name: "Compact Input Group",
+    preview: (
+        <div className="inp-803">
+            <span>https://</span>
+            <input type="text" placeholder="yourwebsite.com" />
+            <button type="button">
+                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+        </div>
+    ),
+    html: `<div class="Input">
+    <span>https://</span>
+    <input type="text" placeholder="yourwebsite.com">
+    <button type="button">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </button>
+</div>`,
+    css: `.Input {
+    width: 350px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #d4d4d8;
+    border-radius: 10px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.Input > span {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 11px;
+    border-right: 1px solid #e4e4e7;
+    background: #fafafa;
+    color: #71717a;
+    font-size: 11px;
+}
+
+.Input input {
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+    padding: 0 11px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+}
+
+.Input button {
+    width: 40px;
+    height: 100%;
+    border: none;
+    border-left: 1px solid #e4e4e7;
+    background: #fff;
+    color: #52525b;
+}`,
+},
+{
+    id: 804,
+    name: "Search With Filter",
+    preview: (
+        <div className="inp-804">
+            <div className="inp-804__search">
+                <i className="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search users..." />
+            </div>
+            <button type="button">
+                <i className="fa-solid fa-sliders"></i>
+                Filters
+            </button>
+        </div>
+    ),
+    html: `<div class="Input">
+    <div class="Input-search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="search" placeholder="Search users...">
+    </div>
+    <button type="button">
+        <i class="fa-solid fa-sliders"></i>
+        Filters
+    </button>
+</div>`,
+    css: `.Input {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.Input-search {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    flex: 1;
+    padding: 0 12px;
+    border: 1px solid #d4d4d8;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.Input-search i {
+    color: #a1a1aa;
+}
+
+.Input-search input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 12px;
+}
+
+.Input > button {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0 12px;
+    border: 1px solid #d4d4d8;
+    border-radius: 10px;
+    background: #fff;
+    color: #52525b;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+}`,
+},
+{
+    id: 805,
+    name: "OTP Input",
+    preview: (
+        <div className="inp-805">
+            <label>Verification code</label>
+            <div className="inp-805__boxes">
+                <input type="text" maxLength={1} value="4" readOnly />
+                <input type="text" maxLength={1} value="8" readOnly />
+                <input type="text" maxLength={1} value="2" readOnly />
+                <input type="text" maxLength={1} />
+                <input type="text" maxLength={1} />
+                <input type="text" maxLength={1} />
+            </div>
+            <span>Enter the 6-digit code sent to your email.</span>
+        </div>
+    ),
+    html: `<div class="Input">
+    <label>Verification code</label>
+    <div class="Input-boxes">
+        <input type="text" maxlength="1" value="4">
+        <input type="text" maxlength="1" value="8">
+        <input type="text" maxlength="1" value="2">
+        <input type="text" maxlength="1">
+        <input type="text" maxlength="1">
+        <input type="text" maxlength="1">
+    </div>
+    <span>Enter the 6-digit code sent to your email.</span>
+</div>`,
+    css: `.Input {
+    width: 320px;
+}
+
+.Input > label {
+    display: block;
+    margin-bottom: 9px;
+    color: #18181b;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Input-boxes {
+    display: flex;
+    gap: 7px;
+}
+
+.Input-boxes input {
+    width: 42px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid #d4d4d8;
+    border-radius: 9px;
+    outline: none;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.Input-boxes input:focus {
+    border-color: #7c3aed;
+    box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.08);
+}
+
+.Input > span {
+    display: block;
+    margin-top: 8px;
+    color: #a1a1aa;
+    font-size: 9px;
+}`,
+},
+{
+    id: 806,
+    name: "Dark Input",
+    preview: (
+        <div className="inp-806">
+            <label>API key</label>
+            <div className="inp-806__field">
+                <i className="fa-solid fa-key"></i>
+                <input type="text" value="sk_live_••••••••••••" readOnly />
+                <button type="button">
+                    <i className="fa-regular fa-copy"></i>
+                </button>
+            </div>
+        </div>
+    ),
+    html: `<div class="Input">
+    <label>API key</label>
+    <div class="Input-field">
+        <i class="fa-solid fa-key"></i>
+        <input type="text" value="sk_live_••••••••••••" readonly>
+        <button type="button">
+            <i class="fa-regular fa-copy"></i>
+        </button>
+    </div>
+</div>`,
+    css: `.Input {
+    width: 350px;
+    padding: 18px;
+    box-sizing: border-box;
+    border-radius: 14px;
+    background: #18181b;
+    border: 1px solid #27272a;
+}
+
+.Input label {
+    display: block;
+    margin-bottom: 8px;
+    color: #f4f4f5;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.Input-field {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 0 11px;
+    background: #09090b;
+    border: 1px solid #3f3f46;
+    border-radius: 9px;
+}
+
+.Input-field > i {
+    color: #71717a;
+}
+
+.Input-field input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #d4d4d8;
+    font-family: monospace;
+    font-size: 11px;
+}
+
+.Input-field button {
+    border: none;
+    background: transparent;
+    color: #a1a1aa;
+    cursor: pointer;
+}`,
+},
+{
+    id: 807,
+    name: "Inline Label Input",
+    preview: (
+        <div className="inp-807">
+            <span>Email</span>
+            <input type="email" placeholder="name@company.com" />
+            <button type="button">
+                Continue
+                <i className="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    ),
+    html: `<div class="Input">
+    <span>Email</span>
+    <input type="email" placeholder="name@company.com">
+    <button type="button">
+        Continue
+        <i class="fa-solid fa-arrow-right"></i>
+    </button>
+</div>`,
+    css: `.Input {
+    width: 420px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #d4d4d8;
+    border-radius: 11px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.Input > span {
+    padding: 0 12px;
+    color: #71717a;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.Input input {
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 12px;
+}
+
+.Input button {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0 14px;
+    border: none;
+    background: #18181b;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+}`,
+},
+{
+    id: 808,
+    name: "Glass Input",
+    preview: (
+        <div className="inp-808">
+            <label>Search workspace</label>
+            <div className="inp-808__field">
+                <i className="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Type to search..." />
+                <span>⌘K</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Input">
+    <label>Search workspace</label>
+    <div class="Input-field">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Type to search...">
+        <span>⌘K</span>
+    </div>
+</div>`,
+    css: `.Input {
+    width: 350px;
+    padding: 18px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #18181b, #27272a);
+    color: #fff;
+}
+
+.Input label {
+    display: block;
+    margin-bottom: 8px;
+    color: #e4e4e7;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.Input-field {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 0 11px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 11px;
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(14px);
+}
+
+.Input-field > i {
+    color: #a1a1aa;
+}
+
+.Input-field input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 12px;
+}
+
+.Input-field input::placeholder {
+    color: #71717a;
+}
+
+.Input-field > span {
+    padding: 3px 6px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #a1a1aa;
+    font-size: 9px;
+}`,
+},
+{
+    id: 809,
+    name: "Select Style Input",
+    preview: (
+        <div className="inp-809">
+            <label>Country</label>
+            <div className="inp-809__field">
+                <span>Netherlands</span>
+                <i className="fa-solid fa-chevron-down"></i>
+            </div>
+        </div>
+    ),
+    html: `<div class="Input">
+    <label>Country</label>
+    <div class="Input-field">
+        <span>Netherlands</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </div>
+</div>`,
+    css: `.Input {
+    width: 300px;
+}
+
+.Input > label {
+    display: block;
+    margin-bottom: 7px;
+    color: #18181b;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Input-field {
+    height: 46px;
+    padding: 0 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid #d4d4d8;
+    border-radius: 10px;
+    background: #fff;
+    color: #3f3f46;
+    font-size: 13px;
+}
+
+.Input-field i {
+    color: #71717a;
+    font-size: 10px;
+}`,
+},
+{
+    id: 810,
+    name: "Multi Action Input",
+    preview: (
+        <div className="inp-810">
+            <label>Invite teammate</label>
+            <div className="inp-810__field">
+                <div className="inp-810__icon">
+                    <i className="fa-solid fa-user-plus"></i>
+                </div>
+                <input type="email" placeholder="teammate@company.com" />
+                <button type="button">Invite</button>
+            </div>
+            <div className="inp-810__suggestion">
+                <span>Suggested:</span>
+                <button type="button">alex@company.com</button>
+                <button type="button">sam@company.com</button>
+            </div>
+        </div>
+    ),
+    html: `<div class="Input">
+    <label>Invite teammate</label>
+    <div class="Input-field">
+        <div class="Input-icon">
+            <i class="fa-solid fa-user-plus"></i>
+        </div>
+        <input type="email" placeholder="teammate@company.com">
+        <button type="button">Invite</button>
+    </div>
+    <div class="Input-suggestion">
+        <span>Suggested:</span>
+        <button type="button">alex@company.com</button>
+        <button type="button">sam@company.com</button>
+    </div>
+</div>`,
+    css: `.Input {
+    width: 390px;
+}
+
+.Input > label {
+    display: block;
+    margin-bottom: 7px;
+    color: #18181b;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Input-field {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 0 5px 0 7px;
+    box-sizing: border-box;
+    border: 1px solid #d4d4d8;
+    border-radius: 11px;
+    background: #fff;
+}
+
+.Input-icon {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: #f4f4f5;
+    color: #52525b;
+}
+
+.Input-field input {
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 12px;
+}
+
+.Input-field > button {
+    height: 38px;
+    padding: 0 13px;
+    border: none;
+    border-radius: 8px;
+    background: #18181b;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Input-suggestion {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+}
+
+.Input-suggestion span {
+    color: #a1a1aa;
+    font-size: 9px;
+}
+
+.Input-suggestion button {
+    padding: 4px 7px;
+    border: 1px solid #e4e4e7;
+    border-radius: 999px;
+    background: #fafafa;
+    color: #71717a;
+    font-size: 8px;
+    cursor: pointer;
+}`,
+},
 ];
 
 
