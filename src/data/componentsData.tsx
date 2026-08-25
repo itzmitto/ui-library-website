@@ -19385,6 +19385,3241 @@ export const navbar = [
 }
 `,
 },
+{
+    id: 771,
+    name: "SaaS Navigation",
+    preview: (
+        <nav className="nv-771">
+            <div className="nv-771__brand">
+                <div className="nv-771__logo">
+                    <i className="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <span>Launchly</span>
+            </div>
+            <div className="nv-771__nav">
+                <a href="#" className="nv-771__link nv-771__link--active">
+                    Product
+                </a>
+                <a href="#" className="nv-771__link">
+                    Solutions
+                    <i className="fa-solid fa-chevron-down"></i>
+                </a>
+                <a href="#" className="nv-771__link">
+                    Pricing
+                </a>
+                <a href="#" className="nv-771__link">
+                    Resources
+                    <i className="fa-solid fa-chevron-down"></i>
+                </a>
+            </div>
+            <div className="nv-771__actions">
+                <a href="#" className="nv-771__login">
+                    Sign in
+                </a>
+                <a href="#" className="nv-771__cta">
+                    Start free
+                    <i className="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="nv-771">
+    <div class="nv-771__brand">
+        <div class="nv-771__logo">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+        </div>
+        <span>Launchly</span>
+    </div>
+    <div class="nv-771__nav">
+        <a href="#" class="nv-771__link nv-771__link--active">Product</a>
+        <a href="#" class="nv-771__link">
+            Solutions
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+        <a href="#" class="nv-771__link">Pricing</a>
+        <a href="#" class="nv-771__link">
+            Resources
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </div>
+    <div class="nv-771__actions">
+        <a href="#" class="nv-771__login">Sign in</a>
+        <a href="#" class="nv-771__cta">
+            Start free
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </div>
+</nav>`,
+    css: `.nv-771 {
+    width: 100%;
+    max-width: 860px;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    box-sizing: border-box;
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
+}
+
+.nv-771__brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #111827;
+    font-size: 15px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.nv-771__logo {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    border-radius: 11px;
+    color: #fff;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+}
+
+.nv-771__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    flex: 1;
+}
+
+.nv-771__link {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    color: #64748b;
+    text-decoration: none;
+    font-size: 12px;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.nv-771__link i {
+    font-size: 9px;
+}
+
+.nv-771__link:hover {
+    color: #111827;
+    background: #f1f5f9;
+}
+
+.nv-771__link--active {
+    color: #111827;
+    font-weight: 600;
+}
+
+.nv-771__actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nv-771__login {
+    color: #475569;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.nv-771__cta {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 13px;
+    border-radius: 9px;
+    color: #fff;
+    background: #111827;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+
+.nv-771__cta:hover {
+    background: #2563eb;
+}`,
+},
+{
+    id: 772,
+    name: "Ecommerce Navbar",
+    preview: (
+        <nav className="nv-772">
+            <div className="nv-772__brand">
+                <i className="fa-solid fa-bag-shopping"></i>
+                <span>Maison</span>
+            </div>
+            <div className="nv-772__categories">
+                <a href="#" className="nv-772__link">
+                    New In
+                </a>
+                <a href="#" className="nv-772__link">
+                    Women
+                </a>
+                <a href="#" className="nv-772__link">
+                    Men
+                </a>
+                <a href="#" className="nv-772__link">
+                    Accessories
+                </a>
+                <a href="#" className="nv-772__link nv-772__link--sale">
+                    Sale
+                </a>
+            </div>
+            <div className="nv-772__actions">
+                <button>
+                    <i className="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <button>
+                    <i className="fa-regular fa-heart"></i>
+                </button>
+                <button className="nv-772__cart">
+                    <i className="fa-solid fa-bag-shopping"></i>
+                    <span>2</span>
+                </button>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="nv-772">
+    <div class="nv-772__brand">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span>Maison</span>
+    </div>
+    <div class="nv-772__categories">
+        <a href="#" class="nv-772__link">New In</a>
+        <a href="#" class="nv-772__link">Women</a>
+        <a href="#" class="nv-772__link">Men</a>
+        <a href="#" class="nv-772__link">Accessories</a>
+        <a href="#" class="nv-772__link nv-772__link--sale">Sale</a>
+    </div>
+    <div class="nv-772__actions">
+        <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button>
+            <i class="fa-regular fa-heart"></i>
+        </button>
+        <button class="nv-772__cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span>2</span>
+        </button>
+    </div>
+</nav>`,
+    css: `.nv-772 {
+    width: 100%;
+    max-width: 860px;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    background: #fff;
+    border-bottom: 1px solid #e7e5e4;
+    box-sizing: border-box;
+}
+
+.nv-772__brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #1c1917;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+}
+
+.nv-772__brand i {
+    font-size: 16px;
+}
+
+.nv-772__categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    flex: 1;
+}
+
+.nv-772__link {
+    padding: 8px 10px;
+    color: #57534e;
+    text-decoration: none;
+    font-size: 11px;
+    border-radius: 6px;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.nv-772__link:hover {
+    color: #1c1917;
+    background: #f5f5f4;
+}
+
+.nv-772__link--sale {
+    color: #dc2626;
+    font-weight: 700;
+}
+
+.nv-772__actions {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.nv-772__actions button {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: none;
+    background: transparent;
+    color: #44403c;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.nv-772__actions button:hover {
+    background: #f5f5f4;
+}
+
+.nv-772__cart span {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    min-width: 13px;
+    height: 13px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #1c1917;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 700;
+}`,
+},
+{
+    id: 773,
+    name: "Creative Agency Navbar",
+    preview: (
+        <nav className="nv-773">
+            <a href="#" className="nv-773__brand">
+                <span>ARC</span>
+                <small>CREATIVE STUDIO</small>
+            </a>
+            <div className="nv-773__links">
+                <a href="#" className="nv-773__link nv-773__link--active">
+                    Work
+                </a>
+                <a href="#" className="nv-773__link">
+                    Studio
+                </a>
+                <a href="#" className="nv-773__link">
+                    Services
+                </a>
+                <a href="#" className="nv-773__link">
+                    Contact
+                </a>
+            </div>
+            <a href="#" className="nv-773__project">
+                Start a project
+                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+        </nav>
+    ),
+    html: `<nav class="nv-773">
+    <a href="#" class="nv-773__brand">
+        <span>ARC</span>
+        <small>CREATIVE STUDIO</small>
+    </a>
+    <div class="nv-773__links">
+        <a href="#" class="nv-773__link nv-773__link--active">Work</a>
+        <a href="#" class="nv-773__link">Studio</a>
+        <a href="#" class="nv-773__link">Services</a>
+        <a href="#" class="nv-773__link">Contact</a>
+    </div>
+    <a href="#" class="nv-773__project">
+        Start a project
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
+</nav>`,
+    css: `.nv-773 {
+    width: 100%;
+    max-width: 860px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    background: #18181b;
+    border-radius: 14px;
+    box-sizing: border-box;
+}
+
+.nv-773__brand {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1;
+    min-width: 130px;
+}
+
+.nv-773__brand span {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+}
+
+.nv-773__brand small {
+    margin-top: 5px;
+    color: #71717a;
+    font-size: 7px;
+    letter-spacing: 0.18em;
+}
+
+.nv-773__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    flex: 1;
+}
+
+.nv-773__link {
+    padding: 8px 12px;
+    color: #a1a1aa;
+    text-decoration: none;
+    font-size: 12px;
+    transition: color 0.2s;
+}
+
+.nv-773__link:hover,
+.nv-773__link--active {
+    color: #fff;
+}
+
+.nv-773__project {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 12px;
+    color: #18181b;
+    background: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.nv-773__project i {
+    font-size: 10px;
+}`,
+},
+{
+    id: 774,
+    name: "Documentation Navbar",
+    preview: (
+        <nav className="nv-774">
+            <div className="nv-774__brand">
+                <div className="nv-774__logo">
+                    <i className="fa-solid fa-book-open"></i>
+                </div>
+                <div>
+                    <strong>DevDocs</strong>
+                    <span>v2.4</span>
+                </div>
+            </div>
+            <div className="nv-774__search">
+                <i className="fa-solid fa-magnifying-glass"></i>
+                <span>Search documentation...</span>
+                <kbd>⌘ K</kbd>
+            </div>
+            <div className="nv-774__links">
+                <a href="#">Guides</a>
+                <a href="#">API</a>
+                <a href="#">Examples</a>
+                <a href="#">GitHub</a>
+            </div>
+            <button className="nv-774__theme">
+                <i className="fa-solid fa-moon"></i>
+            </button>
+        </nav>
+    ),
+    html: `<nav class="nv-774">
+    <div class="nv-774__brand">
+        <div class="nv-774__logo">
+            <i class="fa-solid fa-book-open"></i>
+        </div>
+        <div>
+            <strong>DevDocs</strong>
+            <span>v2.4</span>
+        </div>
+    </div>
+    <div class="nv-774__search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <span>Search documentation...</span>
+        <kbd>⌘ K</kbd>
+    </div>
+    <div class="nv-774__links">
+        <a href="#">Guides</a>
+        <a href="#">API</a>
+        <a href="#">Examples</a>
+        <a href="#">GitHub</a>
+    </div>
+    <button class="nv-774__theme">
+        <i class="fa-solid fa-moon"></i>
+    </button>
+</nav>`,
+    css: `.nv-774 {
+    width: 100%;
+    max-width: 900px;
+    padding: 11px 14px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background: #ffffff;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+    box-sizing: border-box;
+}
+
+.nv-774__brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    white-space: nowrap;
+}
+
+.nv-774__logo {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    background: #18181b;
+    color: #fff;
+    border-radius: 9px;
+}
+
+.nv-774__brand strong {
+    display: inline;
+    color: #18181b;
+    font-size: 13px;
+}
+
+.nv-774__brand span {
+    margin-left: 5px;
+    color: #a1a1aa;
+    font-size: 9px;
+}
+
+.nv-774__search {
+    flex: 1;
+    max-width: 300px;
+    min-width: 180px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 10px;
+    background: #f8fafc;
+    border: 1px solid #e4e4e7;
+    border-radius: 8px;
+    color: #a1a1aa;
+    font-size: 10px;
+}
+
+.nv-774__search kbd {
+    margin-left: auto;
+    padding: 3px 6px;
+    border: 1px solid #d4d4d8;
+    border-radius: 5px;
+    background: #fff;
+    color: #71717a;
+    font-size: 8px;
+}
+
+.nv-774__links {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-left: auto;
+}
+
+.nv-774__links a {
+    padding: 7px 8px;
+    color: #52525b;
+    text-decoration: none;
+    font-size: 10px;
+    border-radius: 6px;
+}
+
+.nv-774__links a:hover {
+    background: #f4f4f5;
+    color: #18181b;
+}
+
+.nv-774__theme {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #e4e4e7;
+    border-radius: 8px;
+    background: #fff;
+    color: #52525b;
+    cursor: pointer;
+}`,
+},
+{
+    id: 775,
+    name: "Portfolio Navbar",
+    preview: (
+        <nav className="nv-775">
+            <div className="nv-775__brand">
+                <div className="nv-775__avatar">A</div>
+                <div>
+                    <strong>Alex Morgan</strong>
+                    <span>Product Designer</span>
+                </div>
+            </div>
+            <div className="nv-775__links">
+                <a href="#" className="nv-775__link nv-775__link--active">
+                    Home
+                </a>
+                <a href="#" className="nv-775__link">
+                    About
+                </a>
+                <a href="#" className="nv-775__link">
+                    Work
+                </a>
+                <a href="#" className="nv-775__link">
+                    Journal
+                </a>
+            </div>
+            <a href="#" className="nv-775__contact">
+                Let's talk
+                <i className="fa-regular fa-paper-plane"></i>
+            </a>
+        </nav>
+    ),
+    html: `<nav class="nv-775">
+    <div class="nv-775__brand">
+        <div class="nv-775__avatar">A</div>
+        <div>
+            <strong>Alex Morgan</strong>
+            <span>Product Designer</span>
+        </div>
+    </div>
+    <div class="nv-775__links">
+        <a href="#" class="nv-775__link nv-775__link--active">Home</a>
+        <a href="#" class="nv-775__link">About</a>
+        <a href="#" class="nv-775__link">Work</a>
+        <a href="#" class="nv-775__link">Journal</a>
+    </div>
+    <a href="#" class="nv-775__contact">
+        Let's talk
+        <i class="fa-regular fa-paper-plane"></i>
+    </a>
+</nav>`,
+    css: `.nv-775 {
+    width: 100%;
+    max-width: 860px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background: #fafaf9;
+    border: 1px solid #e7e5e4;
+    border-radius: 18px;
+    box-sizing: border-box;
+}
+
+.nv-775__brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    white-space: nowrap;
+}
+
+.nv-775__avatar {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #fde68a;
+    color: #713f12;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.nv-775__brand strong {
+    display: block;
+    color: #292524;
+    font-size: 12px;
+}
+
+.nv-775__brand span {
+    display: block;
+    margin-top: 2px;
+    color: #a8a29e;
+    font-size: 9px;
+}
+
+.nv-775__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    flex: 1;
+}
+
+.nv-775__link {
+    padding: 7px 10px;
+    color: #78716c;
+    text-decoration: none;
+    font-size: 11px;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.nv-775__link:hover {
+    color: #292524;
+    background: #f5f5f4;
+}
+
+.nv-775__link--active {
+    color: #292524;
+    font-weight: 700;
+}
+
+.nv-775__contact {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 12px;
+    border-radius: 9px;
+    background: #292524;
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 700;
+    white-space: nowrap;
+}`,
+},
+{
+    id: 776,
+    name: "Startup Navbar",
+    preview: (
+        <nav className="nv-776">
+            <div className="nv-776__brand">
+                <div className="nv-776__mark">
+                    <i className="fa-solid fa-rocket"></i>
+                </div>
+                <span>Orbit</span>
+                <span className="nv-776__badge">BETA</span>
+            </div>
+            <div className="nv-776__nav">
+                <a href="#">Platform</a>
+                <a href="#">Customers</a>
+                <a href="#">Integrations</a>
+                <a href="#">Changelog</a>
+            </div>
+            <div className="nv-776__actions">
+                <a href="#" className="nv-776__login">Log in</a>
+                <a href="#" className="nv-776__button">
+                    Book demo
+                </a>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="nv-776">
+    <div class="nv-776__brand">
+        <div class="nv-776__mark">
+            <i class="fa-solid fa-rocket"></i>
+        </div>
+        <span>Orbit</span>
+        <span class="nv-776__badge">BETA</span>
+    </div>
+    <div class="nv-776__nav">
+        <a href="#">Platform</a>
+        <a href="#">Customers</a>
+        <a href="#">Integrations</a>
+        <a href="#">Changelog</a>
+    </div>
+    <div class="nv-776__actions">
+        <a href="#" class="nv-776__login">Log in</a>
+        <a href="#" class="nv-776__button">Book demo</a>
+    </div>
+</nav>`,
+    css: `.nv-776 {
+    width: 100%;
+    max-width: 860px;
+    padding: 13px 16px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background: #0f172a;
+    border: 1px solid #1e293b;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.nv-776__brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.nv-776__mark {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: #22c55e;
+    color: #052e16;
+}
+
+.nv-776__badge {
+    padding: 3px 6px;
+    border-radius: 999px;
+    background: rgba(34, 197, 94, 0.12);
+    color: #4ade80;
+    font-size: 7px;
+    letter-spacing: 0.08em;
+}
+
+.nv-776__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    flex: 1;
+}
+
+.nv-776__nav a {
+    padding: 7px 9px;
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 10px;
+    border-radius: 7px;
+    transition: all 0.2s;
+}
+
+.nv-776__nav a:hover {
+    color: #fff;
+    background: #1e293b;
+}
+
+.nv-776__actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nv-776__login {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.nv-776__button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: #22c55e;
+    color: #052e16;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 800;
+}`,
+},
+{
+    id: 777,
+    name: "News Portal Navbar",
+    preview: (
+        <nav className="nv-777">
+            <div className="nv-777__brand">
+                <span>THE DAILY</span>
+                <small>EST. 1994</small>
+            </div>
+            <div className="nv-777__topics">
+                <a href="#" className="nv-777__topic nv-777__topic--active">
+                    Latest
+                </a>
+                <a href="#" className="nv-777__topic">
+                    World
+                </a>
+                <a href="#" className="nv-777__topic">
+                    Business
+                </a>
+                <a href="#" className="nv-777__topic">
+                    Technology
+                </a>
+                <a href="#" className="nv-777__topic">
+                    Culture
+                </a>
+                <a href="#" className="nv-777__topic">
+                    Sports
+                </a>
+            </div>
+            <div className="nv-777__actions">
+                <button>
+                    <i className="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <a href="#" className="nv-777__subscribe">
+                    Subscribe
+                </a>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="nv-777">
+    <div class="nv-777__brand">
+        <span>THE DAILY</span>
+        <small>EST. 1994</small>
+    </div>
+    <div class="nv-777__topics">
+        <a href="#" class="nv-777__topic nv-777__topic--active">Latest</a>
+        <a href="#" class="nv-777__topic">World</a>
+        <a href="#" class="nv-777__topic">Business</a>
+        <a href="#" class="nv-777__topic">Technology</a>
+        <a href="#" class="nv-777__topic">Culture</a>
+        <a href="#" class="nv-777__topic">Sports</a>
+    </div>
+    <div class="nv-777__actions">
+        <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <a href="#" class="nv-777__subscribe">Subscribe</a>
+    </div>
+</nav>`,
+    css: `.nv-777 {
+    width: 100%;
+    max-width: 900px;
+    padding: 13px 18px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    background: #fff;
+    border-top: 2px solid #111827;
+    border-bottom: 1px solid #d4d4d8;
+    box-sizing: border-box;
+}
+
+.nv-777__brand {
+    display: flex;
+    flex-direction: column;
+    color: #111827;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.nv-777__brand span {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+}
+
+.nv-777__brand small {
+    margin-top: 4px;
+    color: #71717a;
+    font-size: 7px;
+    letter-spacing: 0.14em;
+    text-align: center;
+}
+
+.nv-777__topics {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+    overflow: hidden;
+}
+
+.nv-777__topic {
+    padding: 6px 8px;
+    color: #52525b;
+    text-decoration: none;
+    font-size: 9px;
+    white-space: nowrap;
+}
+
+.nv-777__topic:hover,
+.nv-777__topic--active {
+    color: #111827;
+    font-weight: 700;
+}
+
+.nv-777__actions {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.nv-777__actions button {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #e4e4e7;
+    border-radius: 6px;
+    background: #fff;
+    color: #52525b;
+    cursor: pointer;
+}
+
+.nv-777__subscribe {
+    padding: 8px 10px;
+    border-radius: 6px;
+    background: #111827;
+    color: #fff;
+    text-decoration: none;
+    font-size: 9px;
+    font-weight: 700;
+    white-space: nowrap;
+}`,
+},
+{
+    id: 778,
+    name: "Gaming Navbar",
+    preview: (
+        <nav className="nv-778">
+            <div className="nv-778__brand">
+                <div className="nv-778__logo">
+                    <i className="fa-solid fa-gamepad"></i>
+                </div>
+                <div>
+                    <strong>NEXUS</strong>
+                    <span>GAMING</span>
+                </div>
+            </div>
+            <div className="nv-778__nav">
+                <a href="#" className="nv-778__link nv-778__link--active">
+                    <i className="fa-solid fa-house"></i>
+                    Home
+                </a>
+                <a href="#" className="nv-778__link">
+                    <i className="fa-solid fa-trophy"></i>
+                    Tournaments
+                </a>
+                <a href="#" className="nv-778__link">
+                    <i className="fa-solid fa-users"></i>
+                    Community
+                </a>
+                <a href="#" className="nv-778__link">
+                    <i className="fa-solid fa-store"></i>
+                    Store
+                </a>
+            </div>
+            <div className="nv-778__profile">
+                <span className="nv-778__online"></span>
+                <div>
+                    <strong>ShadowFox</strong>
+                    <small>Online</small>
+                </div>
+                <i className="fa-solid fa-chevron-down"></i>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="nv-778">
+    <div class="nv-778__brand">
+        <div class="nv-778__logo">
+            <i class="fa-solid fa-gamepad"></i>
+        </div>
+        <div>
+            <strong>NEXUS</strong>
+            <span>GAMING</span>
+        </div>
+    </div>
+    <div class="nv-778__nav">
+        <a href="#" class="nv-778__link nv-778__link--active">
+            <i class="fa-solid fa-house"></i>
+            Home
+        </a>
+        <a href="#" class="nv-778__link">
+            <i class="fa-solid fa-trophy"></i>
+            Tournaments
+        </a>
+        <a href="#" class="nv-778__link">
+            <i class="fa-solid fa-users"></i>
+            Community
+        </a>
+        <a href="#" class="nv-778__link">
+            <i class="fa-solid fa-store"></i>
+            Store
+        </a>
+    </div>
+    <div class="nv-778__profile">
+        <span class="nv-778__online"></span>
+        <div>
+            <strong>ShadowFox</strong>
+            <small>Online</small>
+        </div>
+        <i class="fa-solid fa-chevron-down"></i>
+    </div>
+</nav>`,
+    css: `.nv-778 {
+    width: 100%;
+    max-width: 900px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #09090b;
+    border: 1px solid #27272a;
+    border-radius: 12px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.nv-778__brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    white-space: nowrap;
+}
+
+.nv-778__logo {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    color: #09090b;
+    background: #a3e635;
+}
+
+.nv-778__brand strong {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+}
+
+.nv-778__brand span {
+    display: block;
+    margin-top: 2px;
+    color: #71717a;
+    font-size: 7px;
+    letter-spacing: 0.2em;
+}
+
+.nv-778__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    flex: 1;
+}
+
+.nv-778__link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 10px;
+    border-radius: 7px;
+    color: #71717a;
+    text-decoration: none;
+    font-size: 10px;
+    transition: all 0.2s;
+}
+
+.nv-778__link:hover,
+.nv-778__link--active {
+    color: #a3e635;
+    background: rgba(163, 230, 53, 0.08);
+}
+
+.nv-778__profile {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 6px 8px;
+    border: 1px solid #27272a;
+    border-radius: 9px;
+    white-space: nowrap;
+}
+
+.nv-778__online {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 8px rgba(34, 197, 94, 0.7);
+}
+
+.nv-778__profile strong {
+    display: block;
+    color: #f4f4f5;
+    font-size: 9px;
+}
+
+.nv-778__profile small {
+    display: block;
+    margin-top: 1px;
+    color: #71717a;
+    font-size: 7px;
+}
+
+.nv-778__profile > i {
+    margin-left: 3px;
+    color: #71717a;
+    font-size: 8px;
+}`,
+},
+{
+    id: 779,
+    name: "Finance Dashboard Navbar",
+    preview: (
+        <nav className="nv-779">
+            <div className="nv-779__brand">
+                <i className="fa-solid fa-chart-pie"></i>
+                <span>Finora</span>
+            </div>
+            <div className="nv-779__account">
+                <span>Portfolio</span>
+                <strong>$284,920.40</strong>
+                <small>+8.42%</small>
+            </div>
+            <div className="nv-779__nav">
+                <a href="#" className="nv-779__link nv-779__link--active">
+                    Overview
+                </a>
+                <a href="#" className="nv-779__link">
+                    Markets
+                </a>
+                <a href="#" className="nv-779__link">
+                    Transactions
+                </a>
+                <a href="#" className="nv-779__link">
+                    Reports
+                </a>
+            </div>
+            <div className="nv-779__actions">
+                <button>
+                    <i className="fa-solid fa-bell"></i>
+                </button>
+                <div className="nv-779__avatar">AM</div>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="nv-779">
+    <div class="nv-779__brand">
+        <i class="fa-solid fa-chart-pie"></i>
+        <span>Finora</span>
+    </div>
+    <div class="nv-779__account">
+        <span>Portfolio</span>
+        <strong>$284,920.40</strong>
+        <small>+8.42%</small>
+    </div>
+    <div class="nv-779__nav">
+        <a href="#" class="nv-779__link nv-779__link--active">Overview</a>
+        <a href="#" class="nv-779__link">Markets</a>
+        <a href="#" class="nv-779__link">Transactions</a>
+        <a href="#" class="nv-779__link">Reports</a>
+    </div>
+    <div class="nv-779__actions">
+        <button>
+            <i class="fa-solid fa-bell"></i>
+        </button>
+        <div class="nv-779__avatar">AM</div>
+    </div>
+</nav>`,
+    css: `.nv-779 {
+    width: 100%;
+    max-width: 920px;
+    padding: 11px 14px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background: #07111f;
+    border: 1px solid #172033;
+    border-radius: 13px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.nv-779__brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.nv-779__brand i {
+    color: #38bdf8;
+}
+
+.nv-779__account {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding-right: 16px;
+    border-right: 1px solid #172033;
+    white-space: nowrap;
+}
+
+.nv-779__account span {
+    color: #64748b;
+    font-size: 8px;
+}
+
+.nv-779__account strong {
+    color: #f8fafc;
+    font-size: 10px;
+}
+
+.nv-779__account small {
+    color: #22c55e;
+    font-size: 8px;
+    font-weight: 700;
+}
+
+.nv-779__nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+}
+
+.nv-779__link {
+    padding: 7px 9px;
+    color: #64748b;
+    text-decoration: none;
+    font-size: 9px;
+    border-radius: 7px;
+}
+
+.nv-779__link:hover {
+    color: #fff;
+}
+
+.nv-779__link--active {
+    color: #fff;
+    background: #172033;
+}
+
+.nv-779__actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nv-779__actions button {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #172033;
+    border-radius: 8px;
+    background: #0c1729;
+    color: #94a3b8;
+}
+
+.nv-779__avatar {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #7c3aed;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 800;
+}`,
+},
+{
+    id: 780,
+    name: "Music Player Navbar",
+    preview: (
+        <nav className="nv-780">
+            <div className="nv-780__brand">
+                <div className="nv-780__logo">
+                    <i className="fa-solid fa-music"></i>
+                </div>
+                <span>Pulse</span>
+            </div>
+            <div className="nv-780__player">
+                <button>
+                    <i className="fa-solid fa-backward-step"></i>
+                </button>
+                <button className="nv-780__play">
+                    <i className="fa-solid fa-play"></i>
+                </button>
+                <button>
+                    <i className="fa-solid fa-forward-step"></i>
+                </button>
+                <div className="nv-780__track">
+                    <strong>Midnight Drive</strong>
+                    <span>Neon Skyline</span>
+                </div>
+                <div className="nv-780__progress">
+                    <span></span>
+                </div>
+            </div>
+            <div className="nv-780__actions">
+                <button>
+                    <i className="fa-solid fa-volume-high"></i>
+                </button>
+                <button>
+                    <i className="fa-solid fa-heart"></i>
+                </button>
+                <button>
+                    <i className="fa-solid fa-list"></i>
+                </button>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="nv-780">
+    <div class="nv-780__brand">
+        <div class="nv-780__logo">
+            <i class="fa-solid fa-music"></i>
+        </div>
+        <span>Pulse</span>
+    </div>
+    <div class="nv-780__player">
+        <button>
+            <i class="fa-solid fa-backward-step"></i>
+        </button>
+        <button class="nv-780__play">
+            <i class="fa-solid fa-play"></i>
+        </button>
+        <button>
+            <i class="fa-solid fa-forward-step"></i>
+        </button>
+        <div class="nv-780__track">
+            <strong>Midnight Drive</strong>
+            <span>Neon Skyline</span>
+        </div>
+        <div class="nv-780__progress">
+            <span></span>
+        </div>
+    </div>
+    <div class="nv-780__actions">
+        <button>
+            <i class="fa-solid fa-volume-high"></i>
+        </button>
+        <button>
+            <i class="fa-solid fa-heart"></i>
+        </button>
+        <button>
+            <i class="fa-solid fa-list"></i>
+        </button>
+    </div>
+</nav>`,
+    css: `.nv-780 {
+    width: 100%;
+    max-width: 900px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #111113;
+    border: 1px solid #27272a;
+    border-radius: 14px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.nv-780__brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 14px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.nv-780__logo {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    color: #18181b;
+    background: #f472b6;
+}
+
+.nv-780__player {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 1;
+}
+
+.nv-780__player button,
+.nv-780__actions button {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    color: #a1a1aa;
+    cursor: pointer;
+}
+
+.nv-780__player button:hover,
+.nv-780__actions button:hover {
+    color: #fff;
+}
+
+.nv-780__player .nv-780__play {
+    background: #fff;
+    color: #18181b;
+}
+
+.nv-780__track {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    min-width: 120px;
+}
+
+.nv-780__track strong {
+    font-size: 9px;
+}
+
+.nv-780__track span {
+    margin-top: 2px;
+    color: #71717a;
+    font-size: 8px;
+}
+
+.nv-780__progress {
+    height: 3px;
+    flex: 1;
+    margin-left: 12px;
+    border-radius: 999px;
+    background: #27272a;
+    overflow: hidden;
+}
+
+.nv-780__progress span {
+    display: block;
+    width: 62%;
+    height: 100%;
+    border-radius: inherit;
+    background: #f472b6;
+}
+
+.nv-780__actions {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}`,
+},
+{
+    id: 781,
+    name: "Travel Navbar",
+    preview: (
+        <nav className="nv-781">
+            <div className="nv-781__brand">
+                <i className="fa-solid fa-compass"></i>
+                <span>Wander</span>
+            </div>
+            <div className="nv-781__search">
+                <div>
+                    <i className="fa-solid fa-location-dot"></i>
+                    <span>Where to?</span>
+                </div>
+                <div>
+                    <i className="fa-regular fa-calendar"></i>
+                    <span>Dates</span>
+                </div>
+                <button>
+                    <i className="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div className="nv-781__links">
+                <a href="#">Explore</a>
+                <a href="#">Trips</a>
+                <a href="#">Host</a>
+                <button>
+                    <i className="fa-solid fa-globe"></i>
+                </button>
+                <div className="nv-781__menu">
+                    <i className="fa-solid fa-bars"></i>
+                    <i className="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="nv-781">
+    <div class="nv-781__brand">
+        <i class="fa-solid fa-compass"></i>
+        <span>Wander</span>
+    </div>
+    <div class="nv-781__search">
+        <div>
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Where to?</span>
+        </div>
+        <div>
+            <i class="fa-regular fa-calendar"></i>
+            <span>Dates</span>
+        </div>
+        <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+    </div>
+    <div class="nv-781__links">
+        <a href="#">Explore</a>
+        <a href="#">Trips</a>
+        <a href="#">Host</a>
+        <button>
+            <i class="fa-solid fa-globe"></i>
+        </button>
+        <div class="nv-781__menu">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </div>
+</nav>`,
+    css: `.nv-781 {
+    width: 100%;
+    max-width: 920px;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background: #fff;
+    border-bottom: 1px solid #e5e7eb;
+    box-sizing: border-box;
+}
+
+.nv-781__brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #f43f5e;
+    font-size: 16px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.nv-781__brand i {
+    font-size: 19px;
+}
+
+.nv-781__search {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 400px;
+    border: 1px solid #e4e4e7;
+    border-radius: 999px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.nv-781__search > div {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0 14px;
+    color: #52525b;
+    font-size: 10px;
+}
+
+.nv-781__search > div + div {
+    border-left: 1px solid #e4e4e7;
+}
+
+.nv-781__search button {
+    width: 34px;
+    height: 34px;
+    margin-left: auto;
+    margin-right: 5px;
+    display: grid;
+    place-items: center;
+    border: none;
+    border-radius: 50%;
+    background: #f43f5e;
+    color: #fff;
+}
+
+.nv-781__links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+}
+
+.nv-781__links a {
+    padding: 7px 6px;
+    color: #3f3f46;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.nv-781__links > button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    color: #52525b;
+}
+
+.nv-781__menu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 10px;
+    border: 1px solid #e4e4e7;
+    border-radius: 999px;
+    color: #52525b;
+}`,
+},
+{
+    id: 782,
+    name: "Developer Community Navbar",
+    preview: (
+        <nav className="nv-782">
+            <div className="nv-782__brand">
+                <i className="fa-brands fa-github"></i>
+                <span>Codebase</span>
+            </div>
+            <div className="nv-782__nav">
+                <a href="#">
+                    <i className="fa-solid fa-compass"></i>
+                    Discover
+                </a>
+                <a href="#">
+                    <i className="fa-solid fa-code-branch"></i>
+                    Projects
+                </a>
+                <a href="#">
+                    <i className="fa-solid fa-comments"></i>
+                    Discussions
+                </a>
+                <a href="#">
+                    <i className="fa-solid fa-users"></i>
+                    Community
+                </a>
+            </div>
+            <div className="nv-782__actions">
+                <div className="nv-782__search">
+                    <i className="fa-solid fa-magnifying-glass"></i>
+                    <span>Search</span>
+                </div>
+                <button>
+                    <i className="fa-solid fa-bell"></i>
+                </button>
+                <div className="nv-782__avatar">A</div>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="nv-782">
+    <div class="nv-782__brand">
+        <i class="fa-brands fa-github"></i>
+        <span>Codebase</span>
+    </div>
+    <div class="nv-782__nav">
+        <a href="#"><i class="fa-solid fa-compass"></i> Discover</a>
+        <a href="#"><i class="fa-solid fa-code-branch"></i> Projects</a>
+        <a href="#"><i class="fa-solid fa-comments"></i> Discussions</a>
+        <a href="#"><i class="fa-solid fa-users"></i> Community</a>
+    </div>
+    <div class="nv-782__actions">
+        <div class="nv-782__search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span>Search</span>
+        </div>
+        <button>
+            <i class="fa-solid fa-bell"></i>
+        </button>
+        <div class="nv-782__avatar">A</div>
+    </div>
+</nav>`,
+    css: `.nv-782 {
+    width: 100%;
+    max-width: 920px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #f0f6fc;
+}
+
+.nv-782__brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.nv-782__brand i {
+    font-size: 19px;
+}
+
+.nv-782__nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+}
+
+.nv-782__nav a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 8px;
+    color: #8b949e;
+    text-decoration: none;
+    font-size: 9px;
+    border-radius: 6px;
+}
+
+.nv-782__nav a:hover {
+    color: #f0f6fc;
+    background: #161b22;
+}
+
+.nv-782__actions {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.nv-782__search {
+    width: 105px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0 9px;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    color: #8b949e;
+    font-size: 9px;
+    box-sizing: border-box;
+}
+
+.nv-782__actions > button {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border: none;
+    background: transparent;
+    color: #8b949e;
+}
+
+.nv-782__avatar {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #238636;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+}`,
+},
+{
+    id: 783,
+    name: "Restaurant Navbar",
+    preview: (
+        <nav className="nv-783">
+            <div className="nv-783__brand">
+                <i className="fa-solid fa-utensils"></i>
+                <div>
+                    <strong>Olive & Stone</strong>
+                    <span>MODERN KITCHEN</span>
+                </div>
+            </div>
+            <div className="nv-783__links">
+                <a href="#" className="nv-783__active">
+                    Menu
+                </a>
+                <a href="#">About</a>
+                <a href="#">Private Dining</a>
+                <a href="#">Journal</a>
+            </div>
+            <div className="nv-783__actions">
+                <span>
+                    <i className="fa-solid fa-phone"></i>
+                    +1 212 555 0192
+                </span>
+                <a href="#">Reserve a table</a>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="nv-783">
+    <div class="nv-783__brand">
+        <i class="fa-solid fa-utensils"></i>
+        <div>
+            <strong>Olive & Stone</strong>
+            <span>MODERN KITCHEN</span>
+        </div>
+    </div>
+    <div class="nv-783__links">
+        <a href="#" class="nv-783__active">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Private Dining</a>
+        <a href="#">Journal</a>
+    </div>
+    <div class="nv-783__actions">
+        <span>
+            <i class="fa-solid fa-phone"></i>
+            +1 212 555 0192
+        </span>
+        <a href="#">Reserve a table</a>
+    </div>
+</nav>`,
+    css: `.nv-783 {
+    width: 100%;
+    max-width: 940px;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background: #1c1917;
+    color: #fff;
+    border-radius: 13px;
+    box-sizing: border-box;
+}
+
+.nv-783__brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    min-width: 155px;
+}
+
+.nv-783__brand > i {
+    color: #d6a756;
+    font-size: 18px;
+}
+
+.nv-783__brand strong {
+    display: block;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nv-783__brand span {
+    display: block;
+    margin-top: 3px;
+    color: #a8a29e;
+    font-size: 6px;
+    letter-spacing: 0.18em;
+}
+
+.nv-783__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex: 1;
+}
+
+.nv-783__links a {
+    padding: 7px 9px;
+    color: #a8a29e;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.nv-783__links a:hover,
+.nv-783__links .nv-783__active {
+    color: #fff;
+}
+
+.nv-783__actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nv-783__actions span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #a8a29e;
+    font-size: 8px;
+    white-space: nowrap;
+}
+
+.nv-783__actions a {
+    padding: 8px 11px;
+    border: 1px solid #57534e;
+    color: #fff;
+    text-decoration: none;
+    font-size: 9px;
+    border-radius: 5px;
+    white-space: nowrap;
+}`,
+},
+{
+    id: 784,
+    name: "Fintech Landing Navbar",
+    preview: (
+        <nav className="nv-784">
+            <div className="nv-784__brand">
+                <div className="nv-784__symbol">
+                    <i className="fa-solid fa-arrow-trend-up"></i>
+                </div>
+                <span>Vertex</span>
+            </div>
+            <div className="nv-784__center">
+                <a href="#">Solutions</a>
+                <a href="#">Why Vertex</a>
+                <a href="#">Customers</a>
+                <a href="#">Pricing</a>
+                <span className="nv-784__new">NEW</span>
+            </div>
+            <div className="nv-784__actions">
+                <a href="#">Login</a>
+                <a href="#" className="nv-784__cta">
+                    Get started
+                </a>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="nv-784">
+    <div class="nv-784__brand">
+        <div class="nv-784__symbol">
+            <i class="fa-solid fa-arrow-trend-up"></i>
+        </div>
+        <span>Vertex</span>
+    </div>
+    <div class="nv-784__center">
+        <a href="#">Solutions</a>
+        <a href="#">Why Vertex</a>
+        <a href="#">Customers</a>
+        <a href="#">Pricing</a>
+        <span class="nv-784__new">NEW</span>
+    </div>
+    <div class="nv-784__actions">
+        <a href="#">Login</a>
+        <a href="#" class="nv-784__cta">Get started</a>
+    </div>
+</nav>`,
+    css: `.nv-784 {
+    width: 100%;
+    max-width: 860px;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #ecfdf5;
+    border: 1px solid #a7f3d0;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.nv-784__brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #064e3b;
+    font-size: 15px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.nv-784__symbol {
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    color: #ecfdf5;
+    background: #059669;
+}
+
+.nv-784__center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    flex: 1;
+}
+
+.nv-784__center a {
+    padding: 7px 9px;
+    color: #065f46;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.nv-784__new {
+    padding: 3px 5px;
+    border-radius: 999px;
+    background: #d1fae5;
+    color: #047857;
+    font-size: 7px;
+    font-weight: 800;
+}
+
+.nv-784__actions {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.nv-784__actions > a:first-child {
+    color: #065f46;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.nv-784__cta {
+    padding: 8px 11px;
+    border-radius: 8px;
+    background: #064e3b;
+    color: #fff;
+    text-decoration: none;
+    font-size: 9px;
+    font-weight: 700;
+}`,
+},
+{
+    id: 785,
+    name: "Status Navbar",
+    preview: (
+        <nav className="nv-785">
+            <div className="nv-785__brand">
+                <i className="fa-solid fa-cube"></i>
+                <span>Stackbase</span>
+            </div>
+            <div className="nv-785__status">
+                <span className="nv-785__dot"></span>
+                <span>All systems operational</span>
+            </div>
+            <div className="nv-785__links">
+                <a href="#">Dashboard</a>
+                <a href="#">Services</a>
+                <a href="#">Incidents</a>
+                <a href="#">API</a>
+            </div>
+            <a href="#" className="nv-785__docs">
+                Documentation
+                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+        </nav>
+    ),
+    html: `<nav class="nv-785">
+    <div class="nv-785__brand">
+        <i class="fa-solid fa-cube"></i>
+        <span>Stackbase</span>
+    </div>
+    <div class="nv-785__status">
+        <span class="nv-785__dot"></span>
+        <span>All systems operational</span>
+    </div>
+    <div class="nv-785__links">
+        <a href="#">Dashboard</a>
+        <a href="#">Services</a>
+        <a href="#">Incidents</a>
+        <a href="#">API</a>
+    </div>
+    <a href="#" class="nv-785__docs">
+        Documentation
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
+</nav>`,
+    css: `.nv-785 {
+    width: 100%;
+    max-width: 900px;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: #ffffff;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.nv-785__brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #18181b;
+    font-size: 13px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.nv-785__brand i {
+    color: #6366f1;
+}
+
+.nv-785__status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 8px;
+    border: 1px solid #dcfce7;
+    border-radius: 999px;
+    background: #f0fdf4;
+    color: #166534;
+    font-size: 8px;
+    white-space: nowrap;
+}
+
+.nv-785__dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #22c55e;
+}
+
+.nv-785__links {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+}
+
+.nv-785__links a {
+    padding: 7px 8px;
+    color: #71717a;
+    text-decoration: none;
+    font-size: 9px;
+}
+
+.nv-785__links a:hover {
+    color: #18181b;
+}
+
+.nv-785__docs {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #4f46e5;
+    text-decoration: none;
+    font-size: 9px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.nv-785__docs i {
+    font-size: 8px;
+}`,
+},
+{
+    id: 786,
+    name: "Mobile App Navbar",
+    preview: (
+        <nav className="nv-786">
+            <button className="nv-786__menu">
+                <i className="fa-solid fa-bars"></i>
+            </button>
+            <div className="nv-786__brand">
+                <div className="nv-786__logo">
+                    <i className="fa-solid fa-bolt"></i>
+                </div>
+                <div>
+                    <strong>Pulse</strong>
+                    <span>Fitness</span>
+                </div>
+            </div>
+            <div className="nv-786__center">
+                <span>Tuesday, Aug 25</span>
+            </div>
+            <div className="nv-786__actions">
+                <button>
+                    <i className="fa-regular fa-bell"></i>
+                </button>
+                <div className="nv-786__avatar">
+                    JD
+                </div>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="nv-786">
+    <button class="nv-786__menu">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="nv-786__brand">
+        <div class="nv-786__logo">
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+        <div>
+            <strong>Pulse</strong>
+            <span>Fitness</span>
+        </div>
+    </div>
+    <div class="nv-786__center">
+        <span>Tuesday, Aug 25</span>
+    </div>
+    <div class="nv-786__actions">
+        <button>
+            <i class="fa-regular fa-bell"></i>
+        </button>
+        <div class="nv-786__avatar">JD</div>
+    </div>
+</nav>`,
+    css: `.nv-786 {
+    width: 100%;
+    max-width: 760px;
+    height: 60px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    background: #ffffff;
+    border-bottom: 1px solid #e4e4e7;
+    box-sizing: border-box;
+}
+
+.nv-786__menu {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border: none;
+    background: #f4f4f5;
+    border-radius: 9px;
+    color: #3f3f46;
+}
+
+.nv-786__brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nv-786__logo {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border-radius: 11px;
+    background: #111827;
+    color: #facc15;
+}
+
+.nv-786__brand strong {
+    display: block;
+    color: #18181b;
+    font-size: 11px;
+}
+
+.nv-786__brand span {
+    display: block;
+    margin-top: 1px;
+    color: #a1a1aa;
+    font-size: 8px;
+}
+
+.nv-786__center {
+    flex: 1;
+    text-align: center;
+    color: #71717a;
+    font-size: 9px;
+}
+
+.nv-786__actions {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.nv-786__actions > button {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #e4e4e7;
+    border-radius: 9px;
+    background: #fff;
+    color: #52525b;
+}
+
+.nv-786__avatar {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #f97316;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+}`,
+},
+{
+    id: 787,
+    name: "Command Center Navbar",
+    preview: (
+        <nav className="nv-787">
+            <div className="nv-787__brand">
+                <div className="nv-787__indicator"></div>
+                <span>COMMAND CENTER</span>
+            </div>
+            <div className="nv-787__crumbs">
+                <span>Operations</span>
+                <i className="fa-solid fa-chevron-right"></i>
+                <strong>Production</strong>
+            </div>
+            <div className="nv-787__metrics">
+                <div>
+                    <span>CPU</span>
+                    <strong>42%</strong>
+                </div>
+                <div>
+                    <span>MEM</span>
+                    <strong>68%</strong>
+                </div>
+                <div>
+                    <span>REQ</span>
+                    <strong>1.8k/s</strong>
+                </div>
+            </div>
+            <button className="nv-787__settings">
+                <i className="fa-solid fa-sliders"></i>
+            </button>
+        </nav>
+    ),
+    html: `<nav class="nv-787">
+    <div class="nv-787__brand">
+        <div class="nv-787__indicator"></div>
+        <span>COMMAND CENTER</span>
+    </div>
+    <div class="nv-787__crumbs">
+        <span>Operations</span>
+        <i class="fa-solid fa-chevron-right"></i>
+        <strong>Production</strong>
+    </div>
+    <div class="nv-787__metrics">
+        <div>
+            <span>CPU</span>
+            <strong>42%</strong>
+        </div>
+        <div>
+            <span>MEM</span>
+            <strong>68%</strong>
+        </div>
+        <div>
+            <span>REQ</span>
+            <strong>1.8k/s</strong>
+        </div>
+    </div>
+    <button class="nv-787__settings">
+        <i class="fa-solid fa-sliders"></i>
+    </button>
+</nav>`,
+    css: `.nv-787 {
+    width: 100%;
+    max-width: 920px;
+    padding: 11px 14px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background: #020617;
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    color: #e2e8f0;
+    box-sizing: border-box;
+}
+
+.nv-787__brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #cbd5e1;
+    font-family: monospace;
+    font-size: 8px;
+    letter-spacing: 0.12em;
+    white-space: nowrap;
+}
+
+.nv-787__indicator {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #06b6d4;
+    box-shadow: 0 0 10px rgba(6, 182, 212, 0.8);
+}
+
+.nv-787__crumbs {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-family: monospace;
+    font-size: 8px;
+}
+
+.nv-787__crumbs span {
+    color: #64748b;
+}
+
+.nv-787__crumbs i {
+    color: #334155;
+    font-size: 7px;
+}
+
+.nv-787__crumbs strong {
+    color: #e2e8f0;
+}
+
+.nv-787__metrics {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: auto;
+}
+
+.nv-787__metrics > div {
+    min-width: 48px;
+    padding: 5px 7px;
+    border: 1px solid #1e293b;
+    border-radius: 6px;
+    background: #0f172a;
+}
+
+.nv-787__metrics span {
+    display: block;
+    color: #475569;
+    font-family: monospace;
+    font-size: 6px;
+}
+
+.nv-787__metrics strong {
+    display: block;
+    margin-top: 2px;
+    color: #67e8f9;
+    font-family: monospace;
+    font-size: 8px;
+}
+
+.nv-787__settings {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #1e293b;
+    border-radius: 7px;
+    background: #0f172a;
+    color: #64748b;
+}`,
+},
+{
+    id: 788,
+    name: "Social Platform Navbar",
+    preview: (
+        <nav className="nv-788">
+            <div className="nv-788__brand">
+                <i className="fa-solid fa-comment-dots"></i>
+                <span>Connect</span>
+            </div>
+            <div className="nv-788__search">
+                <i className="fa-solid fa-magnifying-glass"></i>
+                <span>Search people and posts</span>
+            </div>
+            <div className="nv-788__nav">
+                <a href="#" className="nv-788__link nv-788__link--active">
+                    <i className="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#" className="nv-788__link">
+                    <i className="fa-solid fa-compass"></i>
+                    <span>Explore</span>
+                </a>
+                <a href="#" className="nv-788__link">
+                    <i className="fa-regular fa-bell"></i>
+                    <span>Alerts</span>
+                </a>
+                <div className="nv-788__avatar">
+                    A
+                </div>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="nv-788">
+    <div class="nv-788__brand">
+        <i class="fa-solid fa-comment-dots"></i>
+        <span>Connect</span>
+    </div>
+    <div class="nv-788__search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <span>Search people and posts</span>
+    </div>
+    <div class="nv-788__nav">
+        <a href="#" class="nv-788__link nv-788__link--active">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="#" class="nv-788__link">
+            <i class="fa-solid fa-compass"></i>
+            <span>Explore</span>
+        </a>
+        <a href="#" class="nv-788__link">
+            <i class="fa-regular fa-bell"></i>
+            <span>Alerts</span>
+        </a>
+        <div class="nv-788__avatar">A</div>
+    </div>
+</nav>`,
+    css: `.nv-788 {
+    width: 100%;
+    max-width: 900px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background: #ffffff;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+    box-sizing: border-box;
+}
+
+.nv-788__brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #18181b;
+    font-size: 14px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.nv-788__brand i {
+    color: #ec4899;
+    font-size: 18px;
+}
+
+.nv-788__search {
+    flex: 1;
+    max-width: 260px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 10px;
+    border-radius: 9px;
+    background: #f4f4f5;
+    color: #a1a1aa;
+    font-size: 9px;
+}
+
+.nv-788__nav {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: auto;
+}
+
+.nv-788__link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 8px;
+    color: #71717a;
+    text-decoration: none;
+    font-size: 9px;
+    border-radius: 7px;
+}
+
+.nv-788__link:hover,
+.nv-788__link--active {
+    color: #18181b;
+    background: #f4f4f5;
+}
+
+.nv-788__avatar {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    margin-left: 5px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ec4899, #8b5cf6);
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+}`,
+},
+{
+    id: 789,
+    name: "Education Navbar",
+    preview: (
+        <nav className="nv-789">
+            <div className="nv-789__brand">
+                <div className="nv-789__logo">
+                    <i className="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div>
+                    <strong>Learnify</strong>
+                    <span>Online Academy</span>
+                </div>
+            </div>
+            <div className="nv-789__nav">
+                <a href="#" className="nv-789__active">
+                    Courses
+                </a>
+                <a href="#">
+                    Learning Paths
+                    <i className="fa-solid fa-chevron-down"></i>
+                </a>
+                <a href="#">Mentors</a>
+                <a href="#">Community</a>
+            </div>
+            <div className="nv-789__progress">
+                <div className="nv-789__progress-top">
+                    <span>Weekly goal</span>
+                    <strong>72%</strong>
+                </div>
+                <div className="nv-789__bar">
+                    <span></span>
+                </div>
+            </div>
+            <div className="nv-789__account">
+                <div className="nv-789__avatar">AB</div>
+                <i className="fa-solid fa-chevron-down"></i>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="nv-789">
+    <div class="nv-789__brand">
+        <div class="nv-789__logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <div>
+            <strong>Learnify</strong>
+            <span>Online Academy</span>
+        </div>
+    </div>
+    <div class="nv-789__nav">
+        <a href="#" class="nv-789__active">Courses</a>
+        <a href="#">
+            Learning Paths
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+        <a href="#">Mentors</a>
+        <a href="#">Community</a>
+    </div>
+    <div class="nv-789__progress">
+        <div class="nv-789__progress-top">
+            <span>Weekly goal</span>
+            <strong>72%</strong>
+        </div>
+        <div class="nv-789__bar">
+            <span></span>
+        </div>
+    </div>
+    <div class="nv-789__account">
+        <div class="nv-789__avatar">AB</div>
+        <i class="fa-solid fa-chevron-down"></i>
+    </div>
+</nav>`,
+    css: `.nv-789 {
+    width: 100%;
+    max-width: 950px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.nv-789__brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+
+.nv-789__logo {
+    width: 37px;
+    height: 37px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: #eff6ff;
+    color: #2563eb;
+}
+
+.nv-789__brand strong {
+    display: block;
+    color: #0f172a;
+    font-size: 12px;
+}
+
+.nv-789__brand span {
+    display: block;
+    margin-top: 2px;
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.nv-789__nav {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    flex: 1;
+}
+
+.nv-789__nav a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 8px;
+    color: #64748b;
+    text-decoration: none;
+    font-size: 9px;
+    border-radius: 7px;
+}
+
+.nv-789__nav a:hover,
+.nv-789__nav .nv-789__active {
+    color: #2563eb;
+    background: #eff6ff;
+}
+
+.nv-789__nav i {
+    font-size: 7px;
+}
+
+.nv-789__progress {
+    width: 100px;
+}
+
+.nv-789__progress-top {
+    display: flex;
+    justify-content: space-between;
+    color: #94a3b8;
+    font-size: 7px;
+}
+
+.nv-789__progress-top strong {
+    color: #2563eb;
+}
+
+.nv-789__bar {
+    height: 4px;
+    margin-top: 5px;
+    border-radius: 999px;
+    background: #e2e8f0;
+    overflow: hidden;
+}
+
+.nv-789__bar span {
+    display: block;
+    width: 72%;
+    height: 100%;
+    border-radius: inherit;
+    background: #2563eb;
+}
+
+.nv-789__account {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #94a3b8;
+}
+
+.nv-789__avatar {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #dbeafe;
+    color: #1d4ed8;
+    font-size: 8px;
+    font-weight: 800;
+}`,
+},
+{
+    id: 790,
+    name: "Announcement Navbar",
+    preview: (
+        <div className="nv-790">
+            <div className="nv-790__announcement">
+                <i className="fa-solid fa-sparkles"></i>
+                <span>
+                    Version 3.0 is here. Explore the new design system.
+                </span>
+                <a href="#">
+                    Learn more
+                    <i className="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <nav className="nv-790__nav">
+                <div className="nv-790__brand">
+                    <i className="fa-solid fa-circle-nodes"></i>
+                    <span>NovaStack</span>
+                </div>
+                <div className="nv-790__links">
+                    <a href="#">Platform</a>
+                    <a href="#">Solutions</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Pricing</a>
+                </div>
+                <div className="nv-790__actions">
+                    <a href="#">Sign in</a>
+                    <a href="#" className="nv-790__cta">Get started</a>
+                </div>
+            </nav>
+        </div>
+    ),
+    html: `<div class="nv-790">
+    <div class="nv-790__announcement">
+        <i class="fa-solid fa-sparkles"></i>
+        <span>
+            Version 3.0 is here. Explore the new design system.
+        </span>
+        <a href="#">
+            Learn more
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </div>
+    <nav class="nv-790__nav">
+        <div class="nv-790__brand">
+            <i class="fa-solid fa-circle-nodes"></i>
+            <span>NovaStack</span>
+        </div>
+        <div class="nv-790__links">
+            <a href="#">Platform</a>
+            <a href="#">Solutions</a>
+            <a href="#">Developers</a>
+            <a href="#">Pricing</a>
+        </div>
+        <div class="nv-790__actions">
+            <a href="#">Sign in</a>
+            <a href="#" class="nv-790__cta">Get started</a>
+        </div>
+    </nav>
+</div>`,
+    css: `.nv-790 {
+    width: 100%;
+    max-width: 900px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #e4e4e7;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.nv-790__announcement {
+    min-height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 12px;
+    background: #18181b;
+    color: #d4d4d8;
+    font-size: 8px;
+}
+
+.nv-790__announcement > i {
+    color: #facc15;
+}
+
+.nv-790__announcement a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nv-790__announcement a i {
+    font-size: 7px;
+}
+
+.nv-790__nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 13px 15px;
+}
+
+.nv-790__brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #18181b;
+    font-size: 14px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.nv-790__brand i {
+    color: #6366f1;
+    font-size: 17px;
+}
+
+.nv-790__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    flex: 1;
+}
+
+.nv-790__links a {
+    padding: 7px 9px;
+    color: #71717a;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.nv-790__links a:hover {
+    color: #18181b;
+}
+
+.nv-790__actions {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.nv-790__actions > a:first-child {
+    color: #52525b;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.nv-790__cta {
+    padding: 8px 11px;
+    border-radius: 8px;
+    background: #18181b;
+    color: #fff;
+    text-decoration: none;
+    font-size: 9px;
+    font-weight: 700;
+}`,
+},
+{
+    id: 791,
+    name: "Executive Navbar",
+    preview: (
+        <nav className="nv-791">
+            <div className="nv-791__brand">
+                <div className="nv-791__mark">N</div>
+                <div>
+                    <strong>NORTHSTAR</strong>
+                    <span>BUSINESS INTELLIGENCE</span>
+                </div>
+            </div>
+            <div className="nv-791__nav">
+                <a href="#" className="nv-791__link nv-791__link--active">
+                    Overview
+                </a>
+                <a href="#" className="nv-791__link">
+                    Performance
+                    <i className="fa-solid fa-chevron-down"></i>
+                </a>
+                <a href="#" className="nv-791__link">
+                    Strategy
+                </a>
+                <a href="#" className="nv-791__link">
+                    Reports
+                </a>
+            </div>
+            <div className="nv-791__right">
+                <div className="nv-791__period">
+                    <i className="fa-regular fa-calendar"></i>
+                    Q3 2026
+                    <i className="fa-solid fa-chevron-down"></i>
+                </div>
+                <button className="nv-791__share">
+                    <i className="fa-solid fa-share-nodes"></i>
+                    Share
+                </button>
+                <div className="nv-791__avatar">AB</div>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="nv-791">
+    <div class="nv-791__brand">
+        <div class="nv-791__mark">N</div>
+        <div>
+            <strong>NORTHSTAR</strong>
+            <span>BUSINESS INTELLIGENCE</span>
+        </div>
+    </div>
+    <div class="nv-791__nav">
+        <a href="#" class="nv-791__link nv-791__link--active">
+            Overview
+        </a>
+        <a href="#" class="nv-791__link">
+            Performance
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+        <a href="#" class="nv-791__link">Strategy</a>
+        <a href="#" class="nv-791__link">Reports</a>
+    </div>
+    <div class="nv-791__right">
+        <div class="nv-791__period">
+            <i class="fa-regular fa-calendar"></i>
+            Q3 2026
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <button class="nv-791__share">
+            <i class="fa-solid fa-share-nodes"></i>
+            Share
+        </button>
+        <div class="nv-791__avatar">AB</div>
+    </div>
+</nav>`,
+    css: `.nv-791 {
+    width: 100%;
+    max-width: 980px;
+    padding: 11px 15px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    background: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.nv-791__brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    white-space: nowrap;
+}
+
+.nv-791__mark {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #475569;
+    border-radius: 8px;
+    color: #f8fafc;
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+.nv-791__brand strong {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+}
+
+.nv-791__brand span {
+    display: block;
+    margin-top: 2px;
+    color: #64748b;
+    font-size: 6px;
+    letter-spacing: 0.12em;
+}
+
+.nv-791__nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex: 1;
+}
+
+.nv-791__link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 9px;
+    border-radius: 7px;
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 9px;
+}
+
+.nv-791__link:hover,
+.nv-791__link--active {
+    color: #fff;
+    background: #1f2937;
+}
+
+.nv-791__link i {
+    font-size: 7px;
+}
+
+.nv-791__right {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.nv-791__period {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 9px;
+    border: 1px solid #374151;
+    border-radius: 7px;
+    color: #cbd5e1;
+    font-size: 8px;
+}
+
+.nv-791__period i:last-child {
+    margin-left: 2px;
+    color: #64748b;
+    font-size: 7px;
+}
+
+.nv-791__share {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 9px;
+    border: 1px solid #374151;
+    border-radius: 7px;
+    background: transparent;
+    color: #cbd5e1;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+.nv-791__avatar {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #334155;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 800;
+}`,
+},
 
 
 ];
