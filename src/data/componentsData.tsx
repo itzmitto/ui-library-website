@@ -11404,6 +11404,1974 @@ export const radiobuttons = [
     box-shadow: inset -11px 0 10px -12px #add8e6;
 }`
     },
+    {
+    id: 851,
+    name: "Basic Radio Group",
+    preview: (
+        <div className="radio-851">
+            <label>
+                <input type="radio" name="radio-851" defaultChecked />
+                <span>Option one</span>
+            </label>
+            <label>
+                <input type="radio" name="radio-851" />
+                <span>Option two</span>
+            </label>
+            <label>
+                <input type="radio" name="radio-851" />
+                <span>Option three</span>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioGroup">
+    <label>
+        <input type="radio" name="basic-radio" checked>
+        <span>Option one</span>
+    </label>
+    <label>
+        <input type="radio" name="basic-radio">
+        <span>Option two</span>
+    </label>
+    <label>
+        <input type="radio" name="basic-radio">
+        <span>Option three</span>
+    </label>
+</div>`,
+    css: `.RadioGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.RadioGroup label {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #3f3f46;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.RadioGroup input {
+    width: 17px;
+    height: 17px;
+    accent-color: #2563eb;
+}`,
+},
+{
+    id: 852,
+    name: "Custom Circle Radio",
+    preview: (
+        <div className="radio-852">
+            <label>
+                <input type="radio" name="radio-852" defaultChecked />
+                <span className="radio-852__circle"></span>
+                <span>Standard delivery</span>
+            </label>
+            <label>
+                <input type="radio" name="radio-852" />
+                <span className="radio-852__circle"></span>
+                <span>Express delivery</span>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioGroup">
+    <label>
+        <input type="radio" name="delivery" checked>
+        <span class="Radio-circle"></span>
+        <span>Standard delivery</span>
+    </label>
+    <label>
+        <input type="radio" name="delivery">
+        <span class="Radio-circle"></span>
+        <span>Express delivery</span>
+    </label>
+</div>`,
+    css: `.RadioGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.RadioGroup label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #27272a;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.RadioGroup input {
+    display: none;
+}
+
+.Radio-circle {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #d4d4d8;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.RadioGroup input:checked + .Radio-circle {
+    border-color: #2563eb;
+}
+
+.RadioGroup input:checked + .Radio-circle::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background: #2563eb;
+}`,
+},
+{
+    id: 853,
+    name: "Radio Cards",
+    preview: (
+        <div className="radio-853">
+            <label>
+                <input type="radio" name="radio-853" defaultChecked />
+                <div className="radio-853__card">
+                    <div className="radio-853__radio"></div>
+                    <div>
+                        <strong>Personal</strong>
+                        <span>For individuals and freelancers</span>
+                    </div>
+                </div>
+            </label>
+            <label>
+                <input type="radio" name="radio-853" />
+                <div className="radio-853__card">
+                    <div className="radio-853__radio"></div>
+                    <div>
+                        <strong>Business</strong>
+                        <span>For teams and companies</span>
+                    </div>
+                </div>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioCards">
+    <label>
+        <input type="radio" name="account-type" checked>
+        <div class="Radio-card">
+            <div class="Radio-radio"></div>
+            <div>
+                <strong>Personal</strong>
+                <span>For individuals and freelancers</span>
+            </div>
+        </div>
+    </label>
+    <label>
+        <input type="radio" name="account-type">
+        <div class="Radio-card">
+            <div class="Radio-radio"></div>
+            <div>
+                <strong>Business</strong>
+                <span>For teams and companies</span>
+            </div>
+        </div>
+    </label>
+</div>`,
+    css: `.RadioCards {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.RadioCards label {
+    display: block;
+    cursor: pointer;
+}
+
+.RadioCards input {
+    display: none;
+}
+
+.Radio-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    transition: all 0.2s;
+}
+
+.RadioCards input:checked + .Radio-card {
+    border-color: #2563eb;
+    background: #eff6ff;
+}
+
+.Radio-radio {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #d4d4d8;
+    border-radius: 50%;
+    position: relative;
+}
+
+.RadioCards input:checked + .Radio-card .Radio-radio {
+    border-color: #2563eb;
+}
+
+.RadioCards input:checked + .Radio-card .Radio-radio::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    background: #2563eb;
+    border-radius: 50%;
+}
+
+.Radio-card strong {
+    display: block;
+    color: #18181b;
+    font-size: 12px;
+}
+
+.Radio-card span {
+    display: block;
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 10px;
+}`,
+},
+{
+    id: 854,
+    name: "Payment Method Radio",
+    preview: (
+        <div className="radio-854">
+            <label>
+                <input type="radio" name="radio-854" defaultChecked />
+                <div className="radio-854__option">
+                    <div className="radio-854__icon">
+                        <i className="fa-regular fa-credit-card"></i>
+                    </div>
+                    <div>
+                        <strong>Credit card</strong>
+                        <span>Visa ending in 4242</span>
+                    </div>
+                    <div className="radio-854__circle"></div>
+                </div>
+            </label>
+            <label>
+                <input type="radio" name="radio-854" />
+                <div className="radio-854__option">
+                    <div className="radio-854__icon">
+                        <i className="fa-brands fa-paypal"></i>
+                    </div>
+                    <div>
+                        <strong>PayPal</strong>
+                        <span>Pay with your PayPal account</span>
+                    </div>
+                    <div className="radio-854__circle"></div>
+                </div>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioGroup">
+    <label>
+        <input type="radio" name="payment" checked>
+        <div class="Radio-option">
+            <div class="Radio-icon">
+                <i class="fa-regular fa-credit-card"></i>
+            </div>
+            <div>
+                <strong>Credit card</strong>
+                <span>Visa ending in 4242</span>
+            </div>
+            <div class="Radio-circle"></div>
+        </div>
+    </label>
+    <label>
+        <input type="radio" name="payment">
+        <div class="Radio-option">
+            <div class="Radio-icon">
+                <i class="fa-brands fa-paypal"></i>
+            </div>
+            <div>
+                <strong>PayPal</strong>
+                <span>Pay with your PayPal account</span>
+            </div>
+            <div class="Radio-circle"></div>
+        </div>
+    </label>
+</div>`,
+    css: `.RadioGroup {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.RadioGroup label {
+    display: block;
+    cursor: pointer;
+}
+
+.RadioGroup input {
+    display: none;
+}
+
+.Radio-option {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 12px;
+    border: 1px solid #e4e4e7;
+    border-radius: 11px;
+}
+
+.RadioGroup input:checked + .Radio-option {
+    border-color: #2563eb;
+    background: #eff6ff;
+}
+
+.Radio-icon {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: #f4f4f5;
+    color: #52525b;
+}
+
+.Radio-option strong {
+    display: block;
+    color: #18181b;
+    font-size: 11px;
+}
+
+.Radio-option span {
+    display: block;
+    margin-top: 2px;
+    color: #71717a;
+    font-size: 9px;
+}
+
+.Radio-circle {
+    width: 17px;
+    height: 17px;
+    margin-left: auto;
+    border: 2px solid #d4d4d8;
+    border-radius: 50%;
+    position: relative;
+}
+
+.RadioGroup input:checked + .Radio-option .Radio-circle {
+    border-color: #2563eb;
+}
+
+.RadioGroup input:checked + .Radio-option .Radio-circle::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background: #2563eb;
+}`,
+},
+{
+    id: 855,
+    name: "Pricing Radio",
+    preview: (
+        <div className="radio-855">
+            <label>
+                <input type="radio" name="radio-855" defaultChecked />
+                <div className="radio-855__card">
+                    <div className="radio-855__top">
+                        <span>MONTHLY</span>
+                        <div className="radio-855__circle"></div>
+                    </div>
+                    <strong>$19</strong>
+                    <small>per month</small>
+                </div>
+            </label>
+            <label>
+                <input type="radio" name="radio-855" />
+                <div className="radio-855__card">
+                    <div className="radio-855__top">
+                        <span>YEARLY</span>
+                        <div className="radio-855__circle"></div>
+                    </div>
+                    <strong>$190</strong>
+                    <small>per year</small>
+                </div>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioPlans">
+    <label>
+        <input type="radio" name="billing" checked>
+        <div class="Radio-card">
+            <div class="Radio-top">
+                <span>MONTHLY</span>
+                <div class="Radio-circle"></div>
+            </div>
+            <strong>$19</strong>
+            <small>per month</small>
+        </div>
+    </label>
+    <label>
+        <input type="radio" name="billing">
+        <div class="Radio-card">
+            <div class="Radio-top">
+                <span>YEARLY</span>
+                <div class="Radio-circle"></div>
+            </div>
+            <strong>$190</strong>
+            <small>per year</small>
+        </div>
+    </label>
+</div>`,
+    css: `.RadioPlans {
+    display: flex;
+    gap: 10px;
+}
+
+.RadioPlans label {
+    display: block;
+    cursor: pointer;
+}
+
+.RadioPlans input {
+    display: none;
+}
+
+.Radio-card {
+    width: 130px;
+    padding: 14px;
+    box-sizing: border-box;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.RadioPlans input:checked + .Radio-card {
+    border-color: #7c3aed;
+    background: #faf5ff;
+}
+
+.Radio-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Radio-top span {
+    color: #71717a;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.Radio-circle {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #d4d4d8;
+    border-radius: 50%;
+    position: relative;
+}
+
+.RadioPlans input:checked + .Radio-card .Radio-circle {
+    border-color: #7c3aed;
+}
+
+.RadioPlans input:checked + .Radio-card .Radio-circle::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 50%;
+    background: #7c3aed;
+}
+
+.Radio-card strong {
+    display: block;
+    margin-top: 18px;
+    color: #18181b;
+    font-size: 24px;
+}
+
+.Radio-card small {
+    color: #a1a1aa;
+    font-size: 9px;
+}`,
+},
+{
+    id: 856,
+    name: "Icon Radio List",
+    preview: (
+        <div className="radio-856">
+            <label>
+                <input type="radio" name="radio-856" defaultChecked />
+                <span className="radio-856__icon">
+                    <i className="fa-solid fa-house"></i>
+                </span>
+                <span>Home</span>
+                <i className="fa-solid fa-circle-check radio-856__check"></i>
+            </label>
+            <label>
+                <input type="radio" name="radio-856" />
+                <span className="radio-856__icon">
+                    <i className="fa-solid fa-building"></i>
+                </span>
+                <span>Office</span>
+            </label>
+            <label>
+                <input type="radio" name="radio-856" />
+                <span className="radio-856__icon">
+                    <i className="fa-solid fa-location-dot"></i>
+                </span>
+                <span>Other</span>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioList">
+    <label>
+        <input type="radio" name="address" checked>
+        <span class="Radio-icon">
+            <i class="fa-solid fa-house"></i>
+        </span>
+        <span>Home</span>
+        <i class="fa-solid fa-circle-check Radio-check"></i>
+    </label>
+    <label>
+        <input type="radio" name="address">
+        <span class="Radio-icon">
+            <i class="fa-solid fa-building"></i>
+        </span>
+        <span>Office</span>
+    </label>
+    <label>
+        <input type="radio" name="address">
+        <span class="Radio-icon">
+            <i class="fa-solid fa-location-dot"></i>
+        </span>
+        <span>Other</span>
+    </label>
+</div>`,
+    css: `.RadioList {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.RadioList label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.RadioList label:hover {
+    background: #f4f4f5;
+}
+
+.RadioList input {
+    display: none;
+}
+
+.Radio-icon {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: #f4f4f5;
+    color: #71717a;
+}
+
+.RadioList input:checked ~ .Radio-icon {
+    background: #eff6ff;
+    color: #2563eb;
+}
+
+.RadioList label > span:nth-of-type(2) {
+    color: #3f3f46;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.Radio-check {
+    display: none;
+    margin-left: auto;
+    color: #2563eb;
+}
+
+.RadioList input:checked ~ .Radio-check {
+    display: block;
+}`,
+},
+{
+    id: 857,
+    name: "Dark Radio Cards",
+    preview: (
+        <div className="radio-857">
+            <label>
+                <input type="radio" name="radio-857" defaultChecked />
+                <div className="radio-857__card">
+                    <span className="radio-857__circle"></span>
+                    <div>
+                        <strong>Dark mode</strong>
+                        <small>Easy on your eyes.</small>
+                    </div>
+                    <i className="fa-solid fa-moon"></i>
+                </div>
+            </label>
+            <label>
+                <input type="radio" name="radio-857" />
+                <div className="radio-857__card">
+                    <span className="radio-857__circle"></span>
+                    <div>
+                        <strong>Light mode</strong>
+                        <small>Clean and bright.</small>
+                    </div>
+                    <i className="fa-solid fa-sun"></i>
+                </div>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioCards">
+    <label>
+        <input type="radio" name="theme" checked>
+        <div class="Radio-card">
+            <span class="Radio-circle"></span>
+            <div>
+                <strong>Dark mode</strong>
+                <small>Easy on your eyes.</small>
+            </div>
+            <i class="fa-solid fa-moon"></i>
+        </div>
+    </label>
+    <label>
+        <input type="radio" name="theme">
+        <div class="Radio-card">
+            <span class="Radio-circle"></span>
+            <div>
+                <strong>Light mode</strong>
+                <small>Clean and bright.</small>
+            </div>
+            <i class="fa-solid fa-sun"></i>
+        </div>
+    </label>
+</div>`,
+    css: `.RadioCards {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.RadioCards label {
+    cursor: pointer;
+}
+
+.RadioCards input {
+    display: none;
+}
+
+.Radio-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px;
+    border: 1px solid #27272a;
+    border-radius: 11px;
+    background: #18181b;
+    color: #fff;
+}
+
+.RadioCards input:checked + .Radio-card {
+    border-color: #6366f1;
+    background: #1e1b4b;
+}
+
+.Radio-circle {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #52525b;
+    border-radius: 50%;
+    position: relative;
+}
+
+.RadioCards input:checked + .Radio-card .Radio-circle {
+    border-color: #818cf8;
+}
+
+.RadioCards input:checked + .Radio-card .Radio-circle::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 50%;
+    background: #818cf8;
+}
+
+.Radio-card > div {
+    flex: 1;
+}
+
+.Radio-card strong {
+    display: block;
+    font-size: 11px;
+}
+
+.Radio-card small {
+    display: block;
+    margin-top: 2px;
+    color: #71717a;
+    font-size: 9px;
+}
+
+.RadioCards .Radio-card > i {
+    color: #818cf8;
+}`,
+},
+{
+    id: 858,
+    name: "Horizontal Radio Group",
+    preview: (
+        <div className="radio-858">
+            <label>
+                <input type="radio" name="radio-858" defaultChecked />
+                <span>Small</span>
+            </label>
+            <label>
+                <input type="radio" name="radio-858" />
+                <span>Medium</span>
+            </label>
+            <label>
+                <input type="radio" name="radio-858" />
+                <span>Large</span>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioGroup">
+    <label>
+        <input type="radio" name="size" checked>
+        <span>Small</span>
+    </label>
+    <label>
+        <input type="radio" name="size">
+        <span>Medium</span>
+    </label>
+    <label>
+        <input type="radio" name="size">
+        <span>Large</span>
+    </label>
+</div>`,
+    css: `.RadioGroup {
+    display: flex;
+    padding: 4px;
+    gap: 3px;
+    background: #f4f4f5;
+    border-radius: 10px;
+}
+
+.RadioGroup label {
+    cursor: pointer;
+}
+
+.RadioGroup input {
+    display: none;
+}
+
+.RadioGroup label span {
+    display: block;
+    padding: 8px 15px;
+    color: #71717a;
+    border-radius: 7px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.RadioGroup input:checked + span {
+    background: #fff;
+    color: #18181b;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}`,
+},
+{
+    id: 859,
+    name: "Shipping Option Radio",
+    preview: (
+        <div className="radio-859">
+            <label>
+                <input type="radio" name="radio-859" defaultChecked />
+                <div className="radio-859__option">
+                    <i className="fa-solid fa-truck-fast"></i>
+                    <div>
+                        <strong>Express shipping</strong>
+                        <span>Arrives tomorrow</span>
+                    </div>
+                    <strong className="radio-859__price">$12</strong>
+                </div>
+            </label>
+            <label>
+                <input type="radio" name="radio-859" />
+                <div className="radio-859__option">
+                    <i className="fa-solid fa-box"></i>
+                    <div>
+                        <strong>Standard shipping</strong>
+                        <span>Arrives in 3–5 days</span>
+                    </div>
+                    <strong className="radio-859__price">Free</strong>
+                </div>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioGroup">
+    <label>
+        <input type="radio" name="shipping" checked>
+        <div class="Radio-option">
+            <i class="fa-solid fa-truck-fast"></i>
+            <div>
+                <strong>Express shipping</strong>
+                <span>Arrives tomorrow</span>
+            </div>
+            <strong class="Radio-price">$12</strong>
+        </div>
+    </label>
+    <label>
+        <input type="radio" name="shipping">
+        <div class="Radio-option">
+            <i class="fa-solid fa-box"></i>
+            <div>
+                <strong>Standard shipping</strong>
+                <span>Arrives in 3–5 days</span>
+            </div>
+            <strong class="Radio-price">Free</strong>
+        </div>
+    </label>
+</div>`,
+    css: `.RadioGroup {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.RadioGroup label {
+    cursor: pointer;
+}
+
+.RadioGroup input {
+    display: none;
+}
+
+.Radio-option {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 12px;
+    border: 1px solid #e4e4e7;
+    border-radius: 10px;
+}
+
+.RadioGroup input:checked + .Radio-option {
+    border-color: #22c55e;
+    background: #f0fdf4;
+}
+
+.Radio-option > i {
+    color: #71717a;
+    font-size: 16px;
+}
+
+.Radio-option > div {
+    flex: 1;
+}
+
+.Radio-option div strong {
+    display: block;
+    color: #18181b;
+    font-size: 11px;
+}
+
+.Radio-option div span {
+    display: block;
+    margin-top: 2px;
+    color: #a1a1aa;
+    font-size: 9px;
+}
+
+.Radio-price {
+    color: #18181b;
+    font-size: 11px;
+}`,
+},
+{
+    id: 860,
+    name: "Color Radio",
+    preview: (
+        <div className="radio-860">
+            <label>
+                <input type="radio" name="radio-860" defaultChecked />
+                <span className="radio-860__swatch radio-860__blue"></span>
+            </label>
+            <label>
+                <input type="radio" name="radio-860" />
+                <span className="radio-860__swatch radio-860__purple"></span>
+            </label>
+            <label>
+                <input type="radio" name="radio-860" />
+                <span className="radio-860__swatch radio-860__green"></span>
+            </label>
+            <label>
+                <input type="radio" name="radio-860" />
+                <span className="radio-860__swatch radio-860__orange"></span>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioColors">
+    <label>
+        <input type="radio" name="color" checked>
+        <span class="Radio-swatch Radio-blue"></span>
+    </label>
+    <label>
+        <input type="radio" name="color">
+        <span class="Radio-swatch Radio-purple"></span>
+    </label>
+    <label>
+        <input type="radio" name="color">
+        <span class="Radio-swatch Radio-green"></span>
+    </label>
+    <label>
+        <input type="radio" name="color">
+        <span class="Radio-swatch Radio-orange"></span>
+    </label>
+</div>`,
+    css: `.RadioColors {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.RadioColors label {
+    cursor: pointer;
+}
+
+.RadioColors input {
+    display: none;
+}
+
+.Radio-swatch {
+    width: 29px;
+    height: 29px;
+    display: block;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    outline: 1px solid #d4d4d8;
+}
+
+.RadioColors input:checked + .Radio-swatch {
+    outline: 2px solid #18181b;
+    outline-offset: 2px;
+}
+
+.Radio-blue {
+    background: #3b82f6;
+}
+
+.Radio-purple {
+    background: #8b5cf6;
+}
+
+.Radio-green {
+    background: #22c55e;
+}
+
+.Radio-orange {
+    background: #f97316;
+}`,
+},
+{
+    id: 861,
+    name: "Radio With Description",
+    preview: (
+        <div className="radio-861">
+            <label>
+                <input type="radio" name="radio-861" defaultChecked />
+                <span className="radio-861__circle"></span>
+                <div>
+                    <strong>Public profile</strong>
+                    <span>Anyone can view your profile and activity.</span>
+                </div>
+            </label>
+            <label>
+                <input type="radio" name="radio-861" />
+                <span className="radio-861__circle"></span>
+                <div>
+                    <strong>Private profile</strong>
+                    <span>Only approved people can view your profile.</span>
+                </div>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioGroup">
+    <label>
+        <input type="radio" name="visibility" checked>
+        <span class="Radio-circle"></span>
+        <div>
+            <strong>Public profile</strong>
+            <span>Anyone can view your profile and activity.</span>
+        </div>
+    </label>
+    <label>
+        <input type="radio" name="visibility">
+        <span class="Radio-circle"></span>
+        <div>
+            <strong>Private profile</strong>
+            <span>Only approved people can view your profile.</span>
+        </div>
+    </label>
+</div>`,
+    css: `.RadioGroup {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.RadioGroup label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.RadioGroup input {
+    display: none;
+}
+
+.Radio-circle {
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+    border: 2px solid #d4d4d8;
+    border-radius: 50%;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.RadioGroup input:checked + .Radio-circle {
+    border-color: #2563eb;
+}
+
+.RadioGroup input:checked + .Radio-circle::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background: #2563eb;
+}
+
+.RadioGroup label > div {
+    flex: 1;
+}
+
+.RadioGroup label strong {
+    display: block;
+    color: #18181b;
+    font-size: 12px;
+}
+
+.RadioGroup label div span {
+    display: block;
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 10px;
+    line-height: 1.4;
+}`,
+},
+{
+    id: 862,
+    name: "Radio With Badge",
+    preview: (
+        <div className="radio-862">
+            <label>
+                <input type="radio" name="radio-862" defaultChecked />
+                <span className="radio-862__circle"></span>
+                <span>Starter</span>
+                <span className="radio-862__badge">Popular</span>
+            </label>
+            <label>
+                <input type="radio" name="radio-862" />
+                <span className="radio-862__circle"></span>
+                <span>Professional</span>
+                <span className="radio-862__badge radio-862__badge--blue">Best value</span>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioGroup">
+    <label>
+        <input type="radio" name="plan" checked>
+        <span class="Radio-circle"></span>
+        <span>Starter</span>
+        <span class="Radio-badge">Popular</span>
+    </label>
+    <label>
+        <input type="radio" name="plan">
+        <span class="Radio-circle"></span>
+        <span>Professional</span>
+        <span class="Radio-badge Radio-badge-blue">Best value</span>
+    </label>
+</div>`,
+    css: `.RadioGroup {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.RadioGroup label {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    cursor: pointer;
+}
+
+.RadioGroup input {
+    display: none;
+}
+
+.Radio-circle {
+    width: 17px;
+    height: 17px;
+    border: 2px solid #d4d4d8;
+    border-radius: 50%;
+    position: relative;
+}
+
+.RadioGroup input:checked + .Radio-circle {
+    border-color: #7c3aed;
+}
+
+.RadioGroup input:checked + .Radio-circle::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 50%;
+    background: #7c3aed;
+}
+
+.RadioGroup label > span:nth-of-type(2) {
+    color: #27272a;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.Radio-badge {
+    margin-left: auto;
+    padding: 3px 7px;
+    border-radius: 999px;
+    background: #fef3c7;
+    color: #92400e;
+    font-size: 8px;
+    font-weight: 700;
+}
+
+.Radio-badge-blue {
+    background: #dbeafe;
+    color: #1d4ed8;
+}`,
+},
+{
+    id: 863,
+    name: "Segmented Radio",
+    preview: (
+        <div className="radio-863">
+            <label>
+                <input type="radio" name="radio-863" defaultChecked />
+                <span>
+                    <i className="fa-solid fa-list"></i>
+                    List
+                </span>
+            </label>
+            <label>
+                <input type="radio" name="radio-863" />
+                <span>
+                    <i className="fa-solid fa-table-cells"></i>
+                    Grid
+                </span>
+            </label>
+            <label>
+                <input type="radio" name="radio-863" />
+                <span>
+                    <i className="fa-solid fa-chart-bar"></i>
+                    Chart
+                </span>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioGroup">
+    <label>
+        <input type="radio" name="view" checked>
+        <span><i class="fa-solid fa-list"></i> List</span>
+    </label>
+    <label>
+        <input type="radio" name="view">
+        <span><i class="fa-solid fa-table-cells"></i> Grid</span>
+    </label>
+    <label>
+        <input type="radio" name="view">
+        <span><i class="fa-solid fa-chart-bar"></i> Chart</span>
+    </label>
+</div>`,
+    css: `.RadioGroup {
+    display: flex;
+    padding: 4px;
+    gap: 3px;
+    background: #f4f4f5;
+    border-radius: 10px;
+}
+
+.RadioGroup label {
+    cursor: pointer;
+}
+
+.RadioGroup input {
+    display: none;
+}
+
+.RadioGroup label span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 7px;
+    color: #71717a;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.RadioGroup input:checked + span {
+    background: #18181b;
+    color: #fff;
+}
+
+.RadioGroup i {
+    font-size: 10px;
+}`,
+},
+{
+    id: 864,
+    name: "Glass Radio",
+    preview: (
+        <div className="radio-864">
+            <label>
+                <input type="radio" name="radio-864" defaultChecked />
+                <span className="radio-864__circle"></span>
+                <span>Glass option one</span>
+            </label>
+            <label>
+                <input type="radio" name="radio-864" />
+                <span className="radio-864__circle"></span>
+                <span>Glass option two</span>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioGroup">
+    <label>
+        <input type="radio" name="glass-radio" checked>
+        <span class="Radio-circle"></span>
+        <span>Glass option one</span>
+    </label>
+    <label>
+        <input type="radio" name="glass-radio">
+        <span class="Radio-circle"></span>
+        <span>Glass option two</span>
+    </label>
+</div>`,
+    css: `.RadioGroup {
+    width: 300px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    background: linear-gradient(135deg, #111827, #1e293b);
+}
+
+.RadioGroup label {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 10px;
+    border-radius: 9px;
+    color: #dbeafe;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.RadioGroup label:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.RadioGroup input {
+    display: none;
+}
+
+.Radio-circle {
+    width: 17px;
+    height: 17px;
+    border: 2px solid #475569;
+    border-radius: 50%;
+    position: relative;
+}
+
+.RadioGroup input:checked + .Radio-circle {
+    border-color: #38bdf8;
+}
+
+.RadioGroup input:checked + .Radio-circle::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 50%;
+    background: #38bdf8;
+}`,
+},
+{
+    id: 865,
+    name: "Radio With Keyboard Hint",
+    preview: (
+        <div className="radio-865">
+            <label>
+                <input type="radio" name="radio-865" defaultChecked />
+                <span className="radio-865__circle"></span>
+                <span>Enable notifications</span>
+                <kbd>1</kbd>
+            </label>
+            <label>
+                <input type="radio" name="radio-865" />
+                <span className="radio-865__circle"></span>
+                <span>Disable notifications</span>
+                <kbd>2</kbd>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioGroup">
+    <label>
+        <input type="radio" name="notifications" checked>
+        <span class="Radio-circle"></span>
+        <span>Enable notifications</span>
+        <kbd>1</kbd>
+    </label>
+    <label>
+        <input type="radio" name="notifications">
+        <span class="Radio-circle"></span>
+        <span>Disable notifications</span>
+        <kbd>2</kbd>
+    </label>
+</div>`,
+    css: `.RadioGroup {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.RadioGroup label {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 10px;
+    border: 1px solid #e4e4e7;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.RadioGroup input {
+    display: none;
+}
+
+.Radio-circle {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #d4d4d8;
+    border-radius: 50%;
+    position: relative;
+}
+
+.RadioGroup input:checked + .Radio-circle {
+    border-color: #2563eb;
+}
+
+.RadioGroup input:checked + .Radio-circle::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background: #2563eb;
+    border-radius: 50%;
+}
+
+.RadioGroup label > span:nth-of-type(2) {
+    flex: 1;
+    color: #3f3f46;
+    font-size: 11px;
+}
+
+.RadioGroup kbd {
+    min-width: 20px;
+    height: 20px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #d4d4d8;
+    border-radius: 5px;
+    background: #f4f4f5;
+    color: #71717a;
+    font-size: 9px;
+}`,
+},
+{
+    id: 866,
+    name: "Radio Icon Tiles",
+    preview: (
+        <div className="radio-866">
+            <label>
+                <input type="radio" name="radio-866" defaultChecked />
+                <div className="radio-866__tile">
+                    <i className="fa-solid fa-mobile-screen-button"></i>
+                    <span>Mobile</span>
+                    <small>320px</small>
+                </div>
+            </label>
+            <label>
+                <input type="radio" name="radio-866" />
+                <div className="radio-866__tile">
+                    <i className="fa-solid fa-tablet-screen-button"></i>
+                    <span>Tablet</span>
+                    <small>768px</small>
+                </div>
+            </label>
+            <label>
+                <input type="radio" name="radio-866" />
+                <div className="radio-866__tile">
+                    <i className="fa-solid fa-desktop"></i>
+                    <span>Desktop</span>
+                    <small>1440px</small>
+                </div>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioTiles">
+    <label>
+        <input type="radio" name="device" checked>
+        <div class="Radio-tile">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <span>Mobile</span>
+            <small>320px</small>
+        </div>
+    </label>
+    <label>
+        <input type="radio" name="device">
+        <div class="Radio-tile">
+            <i class="fa-solid fa-tablet-screen-button"></i>
+            <span>Tablet</span>
+            <small>768px</small>
+        </div>
+    </label>
+    <label>
+        <input type="radio" name="device">
+        <div class="Radio-tile">
+            <i class="fa-solid fa-desktop"></i>
+            <span>Desktop</span>
+            <small>1440px</small>
+        </div>
+    </label>
+</div>`,
+    css: `.RadioTiles {
+    display: flex;
+    gap: 8px;
+}
+
+.RadioTiles label {
+    cursor: pointer;
+}
+
+.RadioTiles input {
+    display: none;
+}
+
+.Radio-tile {
+    width: 88px;
+    padding: 13px 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #e4e4e7;
+    border-radius: 11px;
+    background: #fff;
+}
+
+.RadioTiles input:checked + .Radio-tile {
+    border-color: #2563eb;
+    color: #2563eb;
+    background: #eff6ff;
+}
+
+.Radio-tile i {
+    font-size: 18px;
+}
+
+.Radio-tile span {
+    margin-top: 8px;
+    color: #18181b;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.Radio-tile small {
+    margin-top: 2px;
+    color: #a1a1aa;
+    font-size: 8px;
+}`,
+},
+{
+    id: 867,
+    name: "Minimal Dot Radio",
+    preview: (
+        <div className="radio-867">
+            <label>
+                <input type="radio" name="radio-867" defaultChecked />
+                <span className="radio-867__dot"></span>
+                <span>Automatic</span>
+            </label>
+            <label>
+                <input type="radio" name="radio-867" />
+                <span className="radio-867__dot"></span>
+                <span>Manual</span>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioGroup">
+    <label>
+        <input type="radio" name="mode" checked>
+        <span class="Radio-dot"></span>
+        <span>Automatic</span>
+    </label>
+    <label>
+        <input type="radio" name="mode">
+        <span class="Radio-dot"></span>
+        <span>Manual</span>
+    </label>
+</div>`,
+    css: `.RadioGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.RadioGroup label {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #52525b;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.RadioGroup input {
+    display: none;
+}
+
+.Radio-dot {
+    width: 19px;
+    height: 19px;
+    box-sizing: border-box;
+    border: 1px solid #a1a1aa;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.RadioGroup input:checked + .Radio-dot {
+    border-color: #18181b;
+}
+
+.RadioGroup input:checked + .Radio-dot::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #18181b;
+}`,
+},
+{
+    id: 868,
+    name: "Gradient Radio",
+    preview: (
+        <div className="radio-868">
+            <label>
+                <input type="radio" name="radio-868" defaultChecked />
+                <div className="radio-868__option">
+                    <span className="radio-868__circle"></span>
+                    <div>
+                        <strong>Pro</strong>
+                        <small>Everything you need</small>
+                    </div>
+                    <i className="fa-solid fa-bolt"></i>
+                </div>
+            </label>
+            <label>
+                <input type="radio" name="radio-868" />
+                <div className="radio-868__option">
+                    <span className="radio-868__circle"></span>
+                    <div>
+                        <strong>Enterprise</strong>
+                        <small>For larger teams</small>
+                    </div>
+                    <i className="fa-solid fa-building"></i>
+                </div>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioGroup">
+    <label>
+        <input type="radio" name="plan" checked>
+        <div class="Radio-option">
+            <span class="Radio-circle"></span>
+            <div>
+                <strong>Pro</strong>
+                <small>Everything you need</small>
+            </div>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </label>
+    <label>
+        <input type="radio" name="plan">
+        <div class="Radio-option">
+            <span class="Radio-circle"></span>
+            <div>
+                <strong>Enterprise</strong>
+                <small>For larger teams</small>
+            </div>
+            <i class="fa-solid fa-building"></i>
+        </div>
+    </label>
+</div>`,
+    css: `.RadioGroup {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.RadioGroup label {
+    cursor: pointer;
+}
+
+.RadioGroup input {
+    display: none;
+}
+
+.Radio-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    border: 1px solid #e4e4e7;
+    border-radius: 11px;
+    background: #fff;
+}
+
+.RadioGroup input:checked + .Radio-option {
+    border-color: #8b5cf6;
+    background: linear-gradient(135deg, #faf5ff, #eff6ff);
+}
+
+.Radio-circle {
+    width: 17px;
+    height: 17px;
+    border: 2px solid #d4d4d8;
+    border-radius: 50%;
+    position: relative;
+}
+
+.RadioGroup input:checked + .Radio-option .Radio-circle {
+    border-color: #8b5cf6;
+}
+
+.RadioGroup input:checked + .Radio-option .Radio-circle::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 50%;
+    background: #8b5cf6;
+}
+
+.Radio-option > div {
+    flex: 1;
+}
+
+.Radio-option strong {
+    display: block;
+    color: #18181b;
+    font-size: 11px;
+}
+
+.Radio-option small {
+    display: block;
+    margin-top: 2px;
+    color: #71717a;
+    font-size: 9px;
+}
+
+.Radio-option > i {
+    color: #8b5cf6;
+}`,
+},
+{
+    id: 869,
+    name: "Compact Settings Radio",
+    preview: (
+        <div className="radio-869">
+            <div className="radio-869__title">Refresh interval</div>
+            <label>
+                <input type="radio" name="radio-869" defaultChecked />
+                <span>15 min</span>
+            </label>
+            <label>
+                <input type="radio" name="radio-869" />
+                <span>30 min</span>
+            </label>
+            <label>
+                <input type="radio" name="radio-869" />
+                <span>1 hour</span>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioSettings">
+    <div class="Radio-title">Refresh interval</div>
+    <label>
+        <input type="radio" name="interval" checked>
+        <span>15 min</span>
+    </label>
+    <label>
+        <input type="radio" name="interval">
+        <span>30 min</span>
+    </label>
+    <label>
+        <input type="radio" name="interval">
+        <span>1 hour</span>
+    </label>
+</div>`,
+    css: `.RadioSettings {
+    width: 250px;
+    padding: 14px;
+    border: 1px solid #e4e4e7;
+    border-radius: 11px;
+    background: #fff;
+}
+
+.Radio-title {
+    margin-bottom: 10px;
+    color: #18181b;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.RadioSettings label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 0;
+    color: #52525b;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.RadioSettings input {
+    accent-color: #2563eb;
+}`,
+},
+{
+    id: 870,
+    name: "Featured Radio Selection",
+    preview: (
+        <div className="radio-870">
+            <label>
+                <input type="radio" name="radio-870" defaultChecked />
+                <div className="radio-870__card">
+                    <div className="radio-870__header">
+                        <span className="radio-870__icon">
+                            <i className="fa-solid fa-rocket"></i>
+                        </span>
+                        <span className="radio-870__badge">RECOMMENDED</span>
+                    </div>
+                    <strong>Launch package</strong>
+                    <p>Everything you need to launch your next project.</p>
+                    <div className="radio-870__bottom">
+                        <span>$49</span>
+                        <div className="radio-870__circle"></div>
+                    </div>
+                </div>
+            </label>
+            <label>
+                <input type="radio" name="radio-870" />
+                <div className="radio-870__card">
+                    <div className="radio-870__header">
+                        <span className="radio-870__icon">
+                            <i className="fa-solid fa-layer-group"></i>
+                        </span>
+                    </div>
+                    <strong>Starter package</strong>
+                    <p>A lightweight setup for smaller projects.</p>
+                    <div className="radio-870__bottom">
+                        <span>$29</span>
+                        <div className="radio-870__circle"></div>
+                    </div>
+                </div>
+            </label>
+        </div>
+    ),
+    html: `<div class="RadioFeatured">
+    <label>
+        <input type="radio" name="package" checked>
+        <div class="Radio-card">
+            <div class="Radio-header">
+                <span class="Radio-icon">
+                    <i class="fa-solid fa-rocket"></i>
+                </span>
+                <span class="Radio-badge">RECOMMENDED</span>
+            </div>
+            <strong>Launch package</strong>
+            <p>Everything you need to launch your next project.</p>
+            <div class="Radio-bottom">
+                <span>$49</span>
+                <div class="Radio-circle"></div>
+            </div>
+        </div>
+    </label>
+    <label>
+        <input type="radio" name="package">
+        <div class="Radio-card">
+            <div class="Radio-header">
+                <span class="Radio-icon">
+                    <i class="fa-solid fa-layer-group"></i>
+                </span>
+            </div>
+            <strong>Starter package</strong>
+            <p>A lightweight setup for smaller projects.</p>
+            <div class="Radio-bottom">
+                <span>$29</span>
+                <div class="Radio-circle"></div>
+            </div>
+        </div>
+    </label>
+</div>`,
+    css: `.RadioFeatured {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.RadioFeatured label {
+    cursor: pointer;
+}
+
+.RadioFeatured input {
+    display: none;
+}
+
+.Radio-card {
+    padding: 15px;
+    border: 1px solid #e4e4e7;
+    border-radius: 13px;
+    background: #fff;
+    transition: all 0.2s;
+}
+
+.RadioFeatured input:checked + .Radio-card {
+    border-color: #2563eb;
+    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.1);
+    background: #f8fbff;
+}
+
+.Radio-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Radio-icon {
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    background: #eff6ff;
+    color: #2563eb;
+}
+
+.Radio-badge {
+    padding: 4px 7px;
+    border-radius: 999px;
+    background: #dbeafe;
+    color: #1d4ed8;
+    font-size: 7px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+}
+
+.Radio-card > strong {
+    display: block;
+    margin-top: 12px;
+    color: #18181b;
+    font-size: 12px;
+}
+
+.Radio-card > p {
+    margin: 5px 0 0;
+    color: #71717a;
+    font-size: 9px;
+    line-height: 1.4;
+}
+
+.Radio-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+
+.Radio-bottom > span {
+    color: #18181b;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.Radio-circle {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #d4d4d8;
+    border-radius: 50%;
+    position: relative;
+}
+
+.RadioFeatured input:checked + .Radio-card .Radio-circle {
+    border-color: #2563eb;
+}
+
+.RadioFeatured input:checked + .Radio-card .Radio-circle::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background: #2563eb;
+}`,
+},
 ];
 
 
