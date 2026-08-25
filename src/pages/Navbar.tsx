@@ -29,7 +29,7 @@ export default function Navbar() {
     <div className="navbar-page">
       <Header />
       <div className="navbar-layout">
-        <aside className="navbar-sidebar">
+        <aside className="navbar-sidebar"> 
           {sidebarItems.map((item) => (
             <a
               key={item.path}
