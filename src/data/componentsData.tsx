@@ -1302,7 +1302,7 @@ export const buttons = [
     transform: translateX(8px);
     box-shadow: -8px 0 0 #a855f7;
 }
-.Button span {
+.Button span {  
     position: relative;
     z-index: 1;
 }`
@@ -1328,7 +1328,373 @@ export const buttons = [
     transform: skew(30deg);
 }`
     },
+{
+
+    id: 892,
+    name: "Claude Secondary Button",
+    preview: (
+        <button className="btn-892">
+            Learn more
+        </button>
+    ),
+    html: `<button class="Button">
+    Learn more
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 18px;
+    border: 1px solid #E3DED3;
+    border-radius: 10px;
+    background: #E3DED3;
+    color: #2D2A26;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.Button:hover {
+    background: #D8D2C3;
+}
+.Button:active {
+    transform: translateY(1px);
+}`,
+},
+{
+    id: 893,
+    name: "Claude Outline Button",
+    preview: (
+        <button className="btn-893">
+            View details
+            <i className="fa-solid fa-arrow-up-right-from-square"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    View details
+    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: 1px solid #E3DED3;
+    border-radius: 10px;
+    background: transparent;
+    color: #2D2A26;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.Button:hover {
+    border-color: #5A564F;
+    background: rgba(0, 0, 0, 0.02);
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 894,
+    name: "Claude Ghost Button",
+    preview: (
+        <button className="btn-894">
+            <i className="fa-solid fa-plus"></i>
+            Add component
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-plus"></i>
+    Add component
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 10px 14px;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: #5A564F;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.Button:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: #2D2A26;
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 895,
+    name: "Claude Danger Button",
+    preview: (
+        <button className="btn-895">
+            <i className="fa-solid fa-trash"></i>
+            Delete conversation
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-trash"></i>
+    Delete conversation
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid rgba(193, 68, 60, 0.3);
+    border-radius: 10px;
+    background: transparent;
+    color: #C1443C;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.Button:hover {
+    background: rgba(193, 68, 60, 0.08);
+    border-color: #C1443C;
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 896,
+    name: "Claude Dark Button",
+    preview: (
+        <button className="btn-896">
+            Continue
+            <i className="fa-solid fa-chevron-right"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Continue
+    <i class="fa-solid fa-chevron-right"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: 1px solid #2D2A26;
+    border-radius: 10px;
+    background: #2D2A26;
+    color: #F4F1EA;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.Button:hover {
+    background: #46423B;
+    border-color: #46423B;
+}
+.Button i {
+    font-size: 10px;
+}`,
+},
+{
+    id: 897,
+    name: "Claude Pill Button",
+    preview: (
+        <button className="btn-897">
+            <i className="fa-solid fa-plus"></i>
+            New chat
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-plus"></i>
+    New chat
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 10px 19px;
+    border: 1px solid #E3DED3;
+    border-radius: 999px;
+    background: #FFFFFF;
+    color: #2D2A26;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.Button:hover {
+    border-color: #D97757;
+    color: #C15F3C;
+    box-shadow: 0 3px 10px rgba(45, 42, 38, 0.08);
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 898,
+    name: "Claude Icon Button",
+    preview: (
+        <button className="btn-898" aria-label="Copy">
+            <i className="fa-regular fa-copy"></i>
+        </button>
+    ),
+    html: `<button class="Button" aria-label="Copy">
+    <i class="fa-regular fa-copy"></i>
+</button>`,
+    css: `.Button {
+    width: 40px;
+    height: 40px;
+    display: inline-grid;
+    place-items: center;
+    padding: 0;
+    border: 1px solid #E3DED3;
+    border-radius: 9px;
+    background: transparent;
+    color: #5A564F;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.Button:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: #2D2A26;
+}
+.Button i {
+    font-size: 14px;
+}`,
+},
+{
+    id: 899,
+    name: "Claude Loading Button",
+    preview: (
+        <button className="btn-899" disabled>
+            <span className="btn-899__spinner"></span>
+            Sending...
+        </button>
+    ),
+    html: `<button class="Button" disabled>
+    <span class="Button-spinner"></span>
+    Sending...
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: 1px solid #C15F3C;
+    border-radius: 10px;
+    background: #D97757;
+    color: #FFFFFF;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: not-allowed;
+    opacity: 0.75;
+}
+.Button-spinner {
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-top-color: #FFFFFF;
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+},
+{
+    id: 900,
+    name: "Claude Disabled Button",
+    preview: (
+        <button className="btn-900" disabled>
+            Continue
+        </button>
+    ),
+    html: `<button class="Button" disabled>
+    Continue
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 18px;
+    border: 1px solid #E3DED3;
+    border-radius: 10px;
+    background: #E3DED3;
+    color: #A7A192;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: not-allowed;
+    opacity: 0.8;
+}`,
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2786,7 +3152,49 @@ export const checkboxes = [
 .Checkbox input:checked~.Checkbox-checkmark:after {
     transform: rotate(45deg) scale(1);
 }`
-    },
+    }, 
+
+{
+    id: 891,
+    name: "Claude Primary Button",
+    preview: (
+        <button className="btn-891">
+            Send message
+            <i className="fa-solid fa-arrow-right"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Send message
+    <i class="fa-solid fa-arrow-right"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: 1px solid #C15F3C;
+    border-radius: 10px;
+    background: #D97757;
+    color: #FFFFFF;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.Button:hover {
+    background: #C15F3C;
+    box-shadow: 0 4px 12px rgba(45, 42, 38, 0.12);
+}
+.Button:active {
+    transform: translateY(1px);
+}
+.Button i {
+    font-size: 12px;
+}`,
+},
+
 ];
 
 
