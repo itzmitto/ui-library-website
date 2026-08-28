@@ -5123,6 +5123,47 @@ export const buttons = [
     }
 }`,
 },
+{
+    id: 891,
+    name: "Claude Primary Button",
+    preview: (
+        <button className="btn-891">
+            Send message
+            <i className="fa-solid fa-arrow-right"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Send message
+    <i class="fa-solid fa-arrow-right"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: 1px solid #C15F3C;
+    border-radius: 10px;
+    background: #D97757;
+    color: #FFFFFF;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.Button:hover {
+    background: #C15F3C;
+    box-shadow: 0 4px 12px rgba(45, 42, 38, 0.12);
+}
+.Button:active {
+    transform: translateY(1px);
+}
+.Button i {
+    font-size: 12px;
+}`,
+},
+
 
 
 
@@ -6628,47 +6669,3414 @@ export const checkboxes = [
     }, 
 
 {
-    id: 891,
-    name: "Claude Primary Button",
+    id: 1001,
+    name: "Basic Checkbox",
     preview: (
-        <button className="btn-891">
-            Send message
-            <i className="fa-solid fa-arrow-right"></i>
-        </button>
+        <label className="checkbox-1001">
+            <input type="checkbox" defaultChecked />
+            <span>Accept terms and conditions</span>
+        </label>
     ),
-    html: `<button class="Button">
-    Send message
-    <i class="fa-solid fa-arrow-right"></i>
-</button>`,
-    css: `.Button {
-    display: inline-flex;
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span>Accept terms and conditions</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 8px;
-    padding: 10px 18px;
-    border: 1px solid #C15F3C;
-    border-radius: 10px;
-    background: #D97757;
-    color: #FFFFFF;
-    font-family: inherit;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.15s ease;
-}
-.Button:hover {
-    background: #C15F3C;
-    box-shadow: 0 4px 12px rgba(45, 42, 38, 0.12);
-}
-.Button:active {
-    transform: translateY(1px);
-}
-.Button i {
+    gap: 9px;
+    color: #3f3f46;
     font-size: 12px;
+    cursor: pointer;
+}
+.Checkbox input {
+    width: 16px;
+    height: 16px;
+    accent-color: #D97757;
+}`,
+},
+{
+    id: 1002,
+    name: "Custom Check",
+    preview: (
+        <label className="checkbox-1002">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1002__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <span>Remember me</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <span>Remember me</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #3f3f46;
+    font-size: 12px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 18px;
+    height: 18px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    border-color: #D97757;
+    background: #D97757;
+    color: #fff;
+}
+.Checkbox i {
+    font-size: 10px;
+}`,
+},
+{
+    id: 1003,
+    name: "Checkbox Card",
+    preview: (
+        <label className="checkbox-1003">
+            <input type="checkbox" defaultChecked />
+            <div className="checkbox-1003__card">
+                <span className="checkbox-1003__box"></span>
+                <div>
+                    <strong>Analytics</strong>
+                    <span>Include performance analytics in your workspace.</span>
+                </div>
+            </div>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <div class="Checkbox-card">
+        <span class="Checkbox-box"></span>
+        <div>
+            <strong>Analytics</strong>
+            <span>Include performance analytics in your workspace.</span>
+        </div>
+    </div>
+</label>`,
+    css: `.Checkbox {
+    width: 340px;
+    display: block;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-card {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 14px;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+}
+.Checkbox input:checked + .Checkbox-card {
+    border-color: #D97757;
+    background: #fff7f3;
+}
+.Checkbox-box {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    position: relative;
+}
+.Checkbox input:checked + .Checkbox-card .Checkbox-box {
+    border-color: #D97757;
+    background: #D97757;
+}
+.Checkbox input:checked + .Checkbox-card .Checkbox-box::after {
+    content: "✓";
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 800;
+}
+.Checkbox-card strong {
+    display: block;
+    color: #18181b;
+    font-size: 12px;
+}
+.Checkbox-card span {
+    display: block;
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 9px;
+    line-height: 1.4;
+}`,
+},
+{
+    id: 1004,
+    name: "Feature Checkbox",
+    preview: (
+        <label className="checkbox-1004">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1004__icon">
+                <i className="fa-solid fa-bolt"></i>
+            </span>
+            <span>Enable acceleration</span>
+            <span className="checkbox-1004__check">
+                <i className="fa-solid fa-check"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-icon">
+        <i class="fa-solid fa-bolt"></i>
+    </span>
+    <span>Enable acceleration</span>
+    <span class="Checkbox-check">
+        <i class="fa-solid fa-check"></i>
+    </span>
+</label>`,
+    css: `.Checkbox {
+    width: 310px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: #3f3f46;
+    font-size: 11px;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-icon {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: #fff7ed;
+    color: #ea580c;
+}
+.Checkbox-check {
+    margin-left: auto;
+    width: 18px;
+    height: 18px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked ~ .Checkbox-check {
+    border-color: #ea580c;
+    background: #ea580c;
+    color: #fff;
+}
+.Checkbox-check i {
+    font-size: 9px;
+}`,
+},
+{
+    id: 1005,
+    name: "Dark Checkbox",
+    preview: (
+        <label className="checkbox-1005">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1005__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <span>Dark mode enabled</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <span>Dark mode enabled</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 10px 12px;
+    border-radius: 9px;
+    background: #18181b;
+    color: #e4e4e7;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 18px;
+    height: 18px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #52525b;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    border-color: #818cf8;
+    background: #6366f1;
+    color: #fff;
+}
+.Checkbox i {
+    font-size: 9px;
+}`,
+},
+{
+    id: 1006,
+    name: "Glass Checkbox",
+    preview: (
+        <div className="checkbox-1006">
+            <label>
+                <input type="checkbox" defaultChecked />
+                <span className="checkbox-1006__box"></span>
+                <span>Glass option</span>
+            </label>
+            <label>
+                <input type="checkbox" />
+                <span className="checkbox-1006__box"></span>
+                <span>Another option</span>
+            </label>
+        </div>
+    ),
+    html: `<div class="CheckboxGroup">
+    <label>
+        <input type="checkbox" checked>
+        <span class="Checkbox-box"></span>
+        <span>Glass option</span>
+    </label>
+    <label>
+        <input type="checkbox">
+        <span class="Checkbox-box"></span>
+        <span>Another option</span>
+    </label>
+</div>`,
+    css: `.CheckboxGroup {
+    width: 280px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    border: 1px solid rgba(255,255,255,.18);
+    border-radius: 15px;
+    background: linear-gradient(135deg,#111827,#1e293b);
+}
+.CheckboxGroup label {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #dbeafe;
+    font-size: 11px;
+    cursor: pointer;
+}
+.CheckboxGroup input {
+    display: none;
+}
+.Checkbox-box {
+    width: 17px;
+    height: 17px;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 5px;
+}
+.CheckboxGroup input:checked + .Checkbox-box {
+    background: #38bdf8;
+    border-color: #38bdf8;
+    box-shadow: 0 0 12px rgba(56,189,248,.3);
+}
+.CheckboxGroup input:checked + .Checkbox-box::after {
+    content: "✓";
+    display: grid;
+    place-items: center;
+    height: 100%;
+    color: #082f49;
+    font-size: 10px;
+    font-weight: 900;
+}`,
+},
+{
+    id: 1007,
+    name: "Neon Checkbox",
+    preview: (
+        <label className="checkbox-1007">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1007__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <span>Neon active</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <span>Neon active</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 10px 13px;
+    border-radius: 9px;
+    background: #020617;
+    color: #a7f3d0;
+    font-family: monospace;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 18px;
+    height: 18px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #22c55e;
+    border-radius: 4px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #22c55e;
+    color: #022c22;
+    box-shadow: 0 0 15px rgba(34,197,94,.5);
+}
+.Checkbox i {
+    font-size: 9px;
+}`,
+},
+{
+    id: 1008,
+    name: "Color Checkbox",
+    preview: (
+        <div className="checkbox-1008">
+            <label>
+                <input type="checkbox" defaultChecked />
+                <span className="checkbox-1008__red"></span>
+            </label>
+            <label>
+                <input type="checkbox" />
+                <span className="checkbox-1008__orange"></span>
+            </label>
+            <label>
+                <input type="checkbox" />
+                <span className="checkbox-1008__yellow"></span>
+            </label>
+            <label>
+                <input type="checkbox" />
+                <span className="checkbox-1008__blue"></span>
+            </label>
+        </div>
+    ),
+    html: `<div class="CheckboxColors">
+    <label>
+        <input type="checkbox" checked>
+        <span class="Checkbox-red"></span>
+    </label>
+    <label>
+        <input type="checkbox">
+        <span class="Checkbox-orange"></span>
+    </label>
+    <label>
+        <input type="checkbox">
+        <span class="Checkbox-yellow"></span>
+    </label>
+    <label>
+        <input type="checkbox">
+        <span class="Checkbox-blue"></span>
+    </label>
+</div>`,
+    css: `.CheckboxColors {
+    display: flex;
+    gap: 10px;
+}
+.CheckboxColors label {
+    cursor: pointer;
+}
+.CheckboxColors input {
+    display: none;
+}
+.CheckboxColors label span {
+    width: 28px;
+    height: 28px;
+    display: block;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    outline: 1px solid #d4d4d8;
+}
+.CheckboxColors input:checked + span {
+    outline: 2px solid #18181b;
+    outline-offset: 2px;
+}
+.Checkbox-red {
+    background: #ef4444;
+}
+.Checkbox-orange {
+    background: #f97316;
+}
+.Checkbox-yellow {
+    background: #facc15;
+}
+.Checkbox-blue {
+    background: #3b82f6;
+}`,
+},
+{
+    id: 1009,
+    name: "Task Checkbox",
+    preview: (
+        <label className="checkbox-1009">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1009__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <div>
+                <strong>Finish dashboard</strong>
+                <span>Update charts and responsive layout</span>
+            </div>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <div>
+        <strong>Finish dashboard</strong>
+        <span>Update charts and responsive layout</span>
+    </div>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 300px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    margin-top: 1px;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #16a34a;
+    border-color: #16a34a;
+    color: #fff;
+}
+.Checkbox i {
+    font-size: 9px;
+}
+.Checkbox strong {
+    display: block;
+    color: #18181b;
+    font-size: 11px;
+}
+.Checkbox div span {
+    display: block;
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 9px;
+}`,
+},
+{
+    id: 1010,
+    name: "Tag Checkbox",
+    preview: (
+        <div className="checkbox-1010">
+            <label>
+                <input type="checkbox" defaultChecked />
+                <span>React</span>
+            </label>
+            <label>
+                <input type="checkbox" />
+                <span>Vue</span>
+            </label>
+            <label>
+                <input type="checkbox" />
+                <span>Svelte</span>
+            </label>
+        </div>
+    ),
+    html: `<div class="CheckboxTags">
+    <label>
+        <input type="checkbox" checked>
+        <span>React</span>
+    </label>
+    <label>
+        <input type="checkbox">
+        <span>Vue</span>
+    </label>
+    <label>
+        <input type="checkbox">
+        <span>Svelte</span>
+    </label>
+</div>`,
+    css: `.CheckboxTags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+.CheckboxTags label {
+    cursor: pointer;
+}
+.CheckboxTags input {
+    display: none;
+}
+.CheckboxTags label span {
+    display: block;
+    padding: 7px 10px;
+    border: 1px solid #e4e4e7;
+    border-radius: 999px;
+    color: #52525b;
+    background: #fff;
+    font-size: 10px;
+    font-weight: 600;
+}
+.CheckboxTags input:checked + span {
+    border-color: #6366f1;
+    background: #eef2ff;
+    color: #4338ca;
+}`,
+},
+{
+    id: 1011,
+    name: "Permission Checkbox",
+    preview: (
+        <div className="checkbox-1011">
+            <label>
+                <input type="checkbox" defaultChecked />
+                <span className="checkbox-1011__box"><i className="fa-solid fa-check"></i></span>
+                <span>Read</span>
+            </label>
+            <label>
+                <input type="checkbox" defaultChecked />
+                <span className="checkbox-1011__box"><i className="fa-solid fa-check"></i></span>
+                <span>Write</span>
+            </label>
+            <label>
+                <input type="checkbox" />
+                <span className="checkbox-1011__box"><i className="fa-solid fa-check"></i></span>
+                <span>Delete</span>
+            </label>
+        </div>
+    ),
+    html: `<div class="CheckboxPermissions">
+    <label>
+        <input type="checkbox" checked>
+        <span class="Checkbox-box"><i class="fa-solid fa-check"></i></span>
+        <span>Read</span>
+    </label>
+    <label>
+        <input type="checkbox" checked>
+        <span class="Checkbox-box"><i class="fa-solid fa-check"></i></span>
+        <span>Write</span>
+    </label>
+    <label>
+        <input type="checkbox">
+        <span class="Checkbox-box"><i class="fa-solid fa-check"></i></span>
+        <span>Delete</span>
+    </label>
+</div>`,
+    css: `.CheckboxPermissions {
+    display: flex;
+    gap: 14px;
+}
+.CheckboxPermissions label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #52525b;
+    font-size: 10px;
+    cursor: pointer;
+}
+.CheckboxPermissions input {
+    display: none;
+}
+.Checkbox-box {
+    width: 16px;
+    height: 16px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #d4d4d8;
+    border-radius: 4px;
+    color: transparent;
+}
+.CheckboxPermissions input:checked + .Checkbox-box {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #fff;
+}
+.Checkbox-box i {
+    font-size: 8px;
+}`,
+},
+{
+    id: 1012,
+    name: "Rounded Checkbox",
+    preview: (
+        <label className="checkbox-1012">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1012__box"></span>
+            <span>Rounded selection</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box"></span>
+    <span>Rounded selection</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #3f3f46;
+    font-size: 12px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 19px;
+    height: 19px;
+    border: 2px solid #d4d4d8;
+    border-radius: 50%;
+    position: relative;
+}
+.Checkbox input:checked + .Checkbox-box {
+    border-color: #D97757;
+    background: #D97757;
+}
+.Checkbox input:checked + .Checkbox-box::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 9px;
+    left: 6px;
+    top: 3px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+}`,
+},
+{
+    id: 1013,
+    name: "Indeterminate Style",
+    preview: (
+        <div className="checkbox-1013">
+            <span className="checkbox-1013__box"></span>
+            <span>Some options selected</span>
+        </div>
+    ),
+    html: `<label class="Checkbox">
+    <span class="Checkbox-box"></span>
+    <span>Some options selected</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #3f3f46;
+    font-size: 11px;
+}
+.Checkbox-box {
+    width: 18px;
+    height: 18px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #2563eb;
+    border-radius: 5px;
+    background: #2563eb;
+}
+.Checkbox-box::after {
+    content: "";
+    width: 8px;
+    height: 2px;
+    border-radius: 2px;
+    background: #fff;
+}`,
+},
+{
+    id: 1014,
+    name: "Checkbox With Badge",
+    preview: (
+        <label className="checkbox-1014">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1014__box"><i className="fa-solid fa-check"></i></span>
+            <span>Marketing emails</span>
+            <span className="checkbox-1014__badge">NEW</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box"><i class="fa-solid fa-check"></i></span>
+    <span>Marketing emails</span>
+    <span class="Checkbox-badge">NEW</span>
+</label>`,
+    css: `.Checkbox {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 17px;
+    height: 17px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #fff;
+}
+.Checkbox-box i {
+    font-size: 8px;
+}
+.Checkbox > span:nth-of-type(2) {
+    color: #3f3f46;
+    font-size: 11px;
+}
+.Checkbox-badge {
+    margin-left: auto;
+    padding: 3px 6px;
+    border-radius: 999px;
+    background: #dcfce7;
+    color: #15803d;
+    font-size: 7px;
+    font-weight: 800;
+}`,
+},
+{
+    id: 1015,
+    name: "Checkbox Switch",
+    preview: (
+        <label className="checkbox-1015">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1015__switch">
+                <span></span>
+            </span>
+            <div>
+                <strong>Auto save</strong>
+                <span>Save changes automatically.</span>
+            </div>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-switch">
+        <span></span>
+    </span>
+    <div>
+        <strong>Auto save</strong>
+        <span>Save changes automatically.</span>
+    </div>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-switch {
+    width: 42px;
+    height: 24px;
+    padding: 3px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #d4d4d8;
+    transition: background .2s ease;
+}
+.Checkbox-switch > span {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    transition: transform .2s ease;
+}
+.Checkbox input:checked + .Checkbox-switch {
+    background: #D97757;
+    justify-content: flex-end;
+}
+.Checkbox > div strong {
+    display: block;
+    color: #18181b;
+    font-size: 11px;
+}
+.Checkbox > div span {
+    display: block;
+    margin-top: 2px;
+    color: #71717a;
+    font-size: 9px;
+}`,
+},
+{
+    id: 1016,
+    name: "Icon Checkbox",
+    preview: (
+        <label className="checkbox-1016">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1016__icon">
+                <i className="fa-solid fa-bell"></i>
+            </span>
+            <span>Notifications</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-icon">
+        <i class="fa-solid fa-bell"></i>
+    </span>
+    <span>Notifications</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-icon {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #e4e4e7;
+    border-radius: 9px;
+    background: #fff;
+    color: #71717a;
+}
+.Checkbox input:checked + .Checkbox-icon {
+    border-color: #fca5a5;
+    background: #fef2f2;
+    color: #dc2626;
+}
+.Checkbox > span:last-child {
+    color: #3f3f46;
+    font-size: 11px;
+}
+.Checkbox i {
+    font-size: 12px;
+}`,
+},
+{
+    id: 1017,
+    name: "Checkbox List",
+    preview: (
+        <div className="checkbox-1017">
+            <label>
+                <input type="checkbox" defaultChecked />
+                <span className="checkbox-1017__box"></span>
+                <span>Design</span>
+            </label>
+            <label>
+                <input type="checkbox" />
+                <span className="checkbox-1017__box"></span>
+                <span>Development</span>
+            </label>
+            <label>
+                <input type="checkbox" />
+                <span className="checkbox-1017__box"></span>
+                <span>Marketing</span>
+            </label>
+        </div>
+    ),
+    html: `<div class="CheckboxList">
+    <label>
+        <input type="checkbox" checked>
+        <span class="Checkbox-box"></span>
+        <span>Design</span>
+    </label>
+    <label>
+        <input type="checkbox">
+        <span class="Checkbox-box"></span>
+        <span>Development</span>
+    </label>
+    <label>
+        <input type="checkbox">
+        <span class="Checkbox-box"></span>
+        <span>Marketing</span>
+    </label>
+</div>`,
+    css: `.CheckboxList {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.CheckboxList label {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 7px 8px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.CheckboxList label:hover {
+    background: #f4f4f5;
+}
+.CheckboxList input {
+    display: none;
+}
+.Checkbox-box {
+    width: 16px;
+    height: 16px;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 4px;
+}
+.CheckboxList input:checked + .Checkbox-box {
+    background: #2563eb;
+    border-color: #2563eb;
+}
+.CheckboxList input:checked + .Checkbox-box::after {
+    content: "✓";
+    display: grid;
+    place-items: center;
+    height: 100%;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+}`,
+},
+{
+    id: 1018,
+    name: "Checkbox With Description",
+    preview: (
+        <label className="checkbox-1018">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1018__box"><i className="fa-solid fa-check"></i></span>
+            <div>
+                <strong>Two-factor authentication</strong>
+                <span>Add an extra layer of security to your account.</span>
+            </div>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box"><i class="fa-solid fa-check"></i></span>
+    <div>
+        <strong>Two-factor authentication</strong>
+        <span>Add an extra layer of security to your account.</span>
+    </div>
+</label>`,
+    css: `.Checkbox {
+    width: 350px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    border-color: #16a34a;
+    background: #16a34a;
+    color: #fff;
+}
+.Checkbox i {
+    font-size: 9px;
+}
+.Checkbox div strong {
+    display: block;
+    color: #18181b;
+    font-size: 11px;
+}
+.Checkbox div span {
+    display: block;
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 9px;
+    line-height: 1.45;
+}`,
+},
+{
+    id: 1019,
+    name: "Select All Checkbox",
+    preview: (
+        <div className="checkbox-1019">
+            <label className="checkbox-1019__master">
+                <input type="checkbox" defaultChecked />
+                <span className="checkbox-1019__box"><i className="fa-solid fa-check"></i></span>
+                <strong>Select all</strong>
+                <span>3 selected</span>
+            </label>
+            <div className="checkbox-1019__line"></div>
+            <label>
+                <input type="checkbox" defaultChecked />
+                <span className="checkbox-1019__small"></span>
+                <span>Project Alpha</span>
+            </label>
+            <label>
+                <input type="checkbox" defaultChecked />
+                <span className="checkbox-1019__small"></span>
+                <span>Project Beta</span>
+            </label>
+        </div>
+    ),
+    html: `<div class="CheckboxSelectAll">
+    <label class="Checkbox-master">
+        <input type="checkbox" checked>
+        <span class="Checkbox-box"><i class="fa-solid fa-check"></i></span>
+        <strong>Select all</strong>
+        <span>3 selected</span>
+    </label>
+    <div class="Checkbox-line"></div>
+    <label>
+        <input type="checkbox" checked>
+        <span class="Checkbox-small"></span>
+        <span>Project Alpha</span>
+    </label>
+    <label>
+        <input type="checkbox" checked>
+        <span class="Checkbox-small"></span>
+        <span>Project Beta</span>
+    </label>
+</div>`,
+    css: `.CheckboxSelectAll {
+    width: 280px;
+    padding: 13px;
+    border: 1px solid #e4e4e7;
+    border-radius: 11px;
+    background: #fff;
+}
+.CheckboxSelectAll label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+    color: #3f3f46;
+    font-size: 10px;
+    cursor: pointer;
+}
+.CheckboxSelectAll input {
+    display: none;
+}
+.Checkbox-master strong {
+    color: #18181b;
+    font-size: 11px;
+}
+.Checkbox-master > span:last-child {
+    margin-left: auto;
+    color: #a1a1aa;
+    font-size: 8px;
+}
+.Checkbox-box,
+.Checkbox-small {
+    width: 17px;
+    height: 17px;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+}
+.Checkbox-small {
+    width: 15px;
+    height: 15px;
+    border-radius: 4px;
+}
+.CheckboxSelectAll input:checked + .Checkbox-box,
+.CheckboxSelectAll input:checked + .Checkbox-small {
+    background: #2563eb;
+    border-color: #2563eb;
+}
+.CheckboxSelectAll input:checked + .Checkbox-box::after,
+.CheckboxSelectAll input:checked + .Checkbox-small::after {
+    content: "✓";
+    display: grid;
+    place-items: center;
+    height: 100%;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+}
+.Checkbox-line {
+    height: 1px;
+    margin: 6px 0;
+    background: #f4f4f5;
+}`,
+},
+{
+    id: 1020,
+    name: "Rainbow Checkbox",
+    preview: (
+        <label className="checkbox-1020">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1020__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <span>Rainbow mode</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <span>Rainbow mode</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #3f3f46;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 19px;
+    height: 19px;
+    display: grid;
+    place-items: center;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    background:
+        linear-gradient(#fff,#fff) padding-box,
+        linear-gradient(135deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background:
+        linear-gradient(135deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) padding-box,
+        linear-gradient(135deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+    color: #fff;
+}
+.Checkbox i {
+    font-size: 10px;
+}`,
+},
+{
+    id: 1021,
+    name: "Gradient Checkbox",
+    preview: (
+        <label className="checkbox-1021">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1021__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <span>Gradient selection</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <span>Gradient selection</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #3f3f46;
+    font-size: 12px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 19px;
+    height: 19px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 6px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    border-color: transparent;
+    background: linear-gradient(135deg,#8b5cf6,#ec4899);
+    color: #fff;
+    box-shadow: 0 5px 13px rgba(139,92,246,.22);
+}
+.Checkbox i {
+    font-size: 10px;
+}`,
+},
+{
+    id: 1022,
+    name: "Orange Checkbox",
+    preview: (
+        <label className="checkbox-1022">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1022__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <span>Orange theme</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <span>Orange theme</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #431407;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 18px;
+    height: 18px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #fdba74;
+    border-radius: 5px;
+    color: transparent;
+    background: #fff7ed;
+}
+.Checkbox input:checked + .Checkbox-box {
+    border-color: #f97316;
+    background: #f97316;
+    color: #fff;
+}
+.Checkbox i {
+    font-size: 9px;
+}`,
+},
+{
+    id: 1023,
+    name: "Success Checkbox",
+    preview: (
+        <label className="checkbox-1023">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1023__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <span>Everything is ready</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <span>Everything is ready</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 11px;
+    border: 1px solid #bbf7d0;
+    border-radius: 9px;
+    background: #f0fdf4;
+    color: #166534;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 18px;
+    height: 18px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #22c55e;
+    border-radius: 5px;
+    background: #22c55e;
+    color: #fff;
+}
+.Checkbox i {
+    font-size: 9px;
+}`,
+},
+{
+    id: 1024,
+    name: "Danger Checkbox",
+    preview: (
+        <label className="checkbox-1024">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1024__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <span>Delete permanently</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <span>Delete permanently</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 11px;
+    border: 1px solid #fecaca;
+    border-radius: 9px;
+    background: #fef2f2;
+    color: #991b1b;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 18px;
+    height: 18px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #ef4444;
+    border-radius: 5px;
+    background: #ef4444;
+    color: #fff;
+}
+.Checkbox i {
+    font-size: 9px;
+}`,
+},
+{
+    id: 1025,
+    name: "Checkbox With Price",
+    preview: (
+        <label className="checkbox-1025">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1025__box"></span>
+            <div>
+                <strong>Priority support</strong>
+                <span>Get help from our team</span>
+            </div>
+            <strong className="checkbox-1025__price">+$9</strong>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box"></span>
+    <div>
+        <strong>Priority support</strong>
+        <span>Get help from our team</span>
+    </div>
+    <strong class="Checkbox-price">+$9</strong>
+</label>`,
+    css: `.Checkbox {
+    width: 340px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 12px;
+    border: 1px solid #e4e4e7;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    border-color: #7c3aed;
+    background: #7c3aed;
+}
+.Checkbox input:checked + .Checkbox-box::after {
+    content: "✓";
+    display: grid;
+    place-items: center;
+    height: 100%;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+}
+.Checkbox > div {
+    flex: 1;
+}
+.Checkbox div strong {
+    display: block;
+    color: #18181b;
+    font-size: 11px;
+}
+.Checkbox div span {
+    display: block;
+    margin-top: 2px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Checkbox-price {
+    color: #7c3aed;
+    font-size: 11px;
+}`,
+},
+{
+    id: 1026,
+    name: "Checkbox With Avatar",
+    preview: (
+        <label className="checkbox-1026">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1026__box"><i className="fa-solid fa-check"></i></span>
+            <span className="checkbox-1026__avatar">AM</span>
+            <div>
+                <strong>Alex Morgan</strong>
+                <span>Product designer</span>
+            </div>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box"><i class="fa-solid fa-check"></i></span>
+    <span class="Checkbox-avatar">AM</span>
+    <div>
+        <strong>Alex Morgan</strong>
+        <span>Product designer</span>
+    </div>
+</label>`,
+    css: `.Checkbox {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 17px;
+    height: 17px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    border-color: #2563eb;
+    background: #2563eb;
+    color: #fff;
+}
+.Checkbox-box i {
+    font-size: 8px;
+}
+.Checkbox-avatar {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #e0e7ff;
+    color: #4338ca;
+    font-size: 8px;
+    font-weight: 800;
+}
+.Checkbox > div {
+    flex: 1;
+}
+.Checkbox div strong {
+    display: block;
+    color: #18181b;
+    font-size: 10px;
+}
+.Checkbox div span {
+    display: block;
+    margin-top: 2px;
+    color: #71717a;
+    font-size: 8px;
+}`,
+},
+{
+    id: 1027,
+    name: "Checkbox Progress",
+    preview: (
+        <label className="checkbox-1027">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1027__box"><i className="fa-solid fa-check"></i></span>
+            <div>
+                <strong>Profile completion</strong>
+                <span>80% complete</span>
+            </div>
+            <div className="checkbox-1027__progress">
+                <span></span>
+            </div>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box"><i class="fa-solid fa-check"></i></span>
+    <div>
+        <strong>Profile completion</strong>
+        <span>80% complete</span>
+    </div>
+    <div class="Checkbox-progress">
+        <span></span>
+    </div>
+</label>`,
+    css: `.Checkbox {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 12px;
+    border: 1px solid #e4e4e7;
+    border-radius: 10px;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 17px;
+    height: 17px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    border-color: #16a34a;
+    background: #16a34a;
+    color: #fff;
+}
+.Checkbox-box i {
+    font-size: 8px;
+}
+.Checkbox > div:nth-of-type(1) {
+    flex: 1;
+}
+.Checkbox div strong {
+    display: block;
+    color: #18181b;
+    font-size: 10px;
+}
+.Checkbox div span {
+    display: block;
+    margin-top: 2px;
+    color: #a1a1aa;
+    font-size: 8px;
+}
+.Checkbox-progress {
+    width: 55px;
+    height: 5px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Checkbox-progress span {
+    display: block;
+    width: 80%;
+    height: 100%;
+    background: #22c55e;
+}`,
+},
+{
+    id: 1028,
+    name: "Checkbox Group Card",
+    preview: (
+        <div className="checkbox-1028">
+            <div className="checkbox-1028__header">
+                <strong>Notifications</strong>
+                <span>Choose what you receive</span>
+            </div>
+            <label>
+                <input type="checkbox" defaultChecked />
+                <span className="checkbox-1028__box"></span>
+                <span>Email notifications</span>
+            </label>
+            <label>
+                <input type="checkbox" defaultChecked />
+                <span className="checkbox-1028__box"></span>
+                <span>Push notifications</span>
+            </label>
+            <label>
+                <input type="checkbox" />
+                <span className="checkbox-1028__box"></span>
+                <span>Weekly digest</span>
+            </label>
+        </div>
+    ),
+    html: `<div class="CheckboxGroup">
+    <div class="Checkbox-header">
+        <strong>Notifications</strong>
+        <span>Choose what you receive</span>
+    </div>
+    <label>
+        <input type="checkbox" checked>
+        <span class="Checkbox-box"></span>
+        <span>Email notifications</span>
+    </label>
+    <label>
+        <input type="checkbox" checked>
+        <span class="Checkbox-box"></span>
+        <span>Push notifications</span>
+    </label>
+    <label>
+        <input type="checkbox">
+        <span class="Checkbox-box"></span>
+        <span>Weekly digest</span>
+    </label>
+</div>`,
+    css: `.CheckboxGroup {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    background: #fff;
+}
+.Checkbox-header {
+    padding-bottom: 10px;
+    margin-bottom: 7px;
+    border-bottom: 1px solid #f4f4f5;
+}
+.Checkbox-header strong {
+    display: block;
+    color: #18181b;
+    font-size: 12px;
+}
+.Checkbox-header span {
+    display: block;
+    margin-top: 2px;
+    color: #a1a1aa;
+    font-size: 9px;
+}
+.CheckboxGroup label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+    color: #52525b;
+    font-size: 10px;
+    cursor: pointer;
+}
+.CheckboxGroup input {
+    display: none;
+}
+.Checkbox-box {
+    width: 16px;
+    height: 16px;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 4px;
+}
+.CheckboxGroup input:checked + .Checkbox-box {
+    background: #2563eb;
+    border-color: #2563eb;
+}
+.CheckboxGroup input:checked + .Checkbox-box::after {
+    content: "✓";
+    display: grid;
+    place-items: center;
+    height: 100%;
+    color: #fff;
+    font-size: 9px;
+}`,
+},
+{
+    id: 1029,
+    name: "Checkbox Action Row",
+    preview: (
+        <label className="checkbox-1029">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1029__box"><i className="fa-solid fa-check"></i></span>
+            <div>
+                <strong>Sync across devices</strong>
+                <span>Your preferences stay synchronized.</span>
+            </div>
+            <i className="fa-solid fa-cloud-arrow-up checkbox-1029__cloud"></i>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box"><i class="fa-solid fa-check"></i></span>
+    <div>
+        <strong>Sync across devices</strong>
+        <span>Your preferences stay synchronized.</span>
+    </div>
+    <i class="fa-solid fa-cloud-arrow-up Checkbox-cloud"></i>
+</label>`,
+    css: `.Checkbox {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 12px 13px;
+    border: 1px solid #e4e4e7;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 17px;
+    height: 17px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #fff;
+}
+.Checkbox-box i {
+    font-size: 8px;
+}
+.Checkbox > div {
+    flex: 1;
+}
+.Checkbox div strong {
+    display: block;
+    color: #18181b;
+    font-size: 10px;
+}
+.Checkbox div span {
+    display: block;
+    margin-top: 2px;
+    color: #71717a;
+    font-size: 8px;
+}
+.Checkbox-cloud {
+    color: #2563eb;
+    font-size: 13px;
+}`,
+},
+{
+    id: 1030,
+    name: "Checkbox With Shortcut",
+    preview: (
+        <label className="checkbox-1030">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1030__box"><i className="fa-solid fa-check"></i></span>
+            <span>Enable command palette</span>
+            <kbd>⌘ K</kbd>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box"><i class="fa-solid fa-check"></i></span>
+    <span>Enable command palette</span>
+    <kbd>⌘ K</kbd>
+</label>`,
+    css: `.Checkbox {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 17px;
+    height: 17px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #18181b;
+    border-color: #18181b;
+    color: #fff;
+}
+.Checkbox-box i {
+    font-size: 8px;
+}
+.Checkbox > span:nth-of-type(2) {
+    flex: 1;
+    color: #3f3f46;
+    font-size: 10px;
+}
+.Checkbox kbd {
+    padding: 3px 6px;
+    border: 1px solid #d4d4d8;
+    border-radius: 5px;
+    background: #f4f4f5;
+    color: #71717a;
+    font-family: monospace;
+    font-size: 8px;
+}`,
+},
+{
+    id: 1031,
+    name: "Checkbox Feature Tiles",
+    preview: (
+        <div className="checkbox-1031">
+            <label>
+                <input type="checkbox" defaultChecked />
+                <div>
+                    <i className="fa-solid fa-bolt"></i>
+                    <strong>Fast</strong>
+                    <span>Optimized</span>
+                </div>
+            </label>
+            <label>
+                <input type="checkbox" />
+                <div>
+                    <i className="fa-solid fa-shield-halved"></i>
+                    <strong>Secure</strong>
+                    <span>Protected</span>
+                </div>
+            </label>
+            <label>
+                <input type="checkbox" />
+                <div>
+                    <i className="fa-solid fa-chart-line"></i>
+                    <strong>Insights</strong>
+                    <span>Analytics</span>
+                </div>
+            </label>
+        </div>
+    ),
+    html: `<div class="CheckboxTiles">
+    <label>
+        <input type="checkbox" checked>
+        <div>
+            <i class="fa-solid fa-bolt"></i>
+            <strong>Fast</strong>
+            <span>Optimized</span>
+        </div>
+    </label>
+    <label>
+        <input type="checkbox">
+        <div>
+            <i class="fa-solid fa-shield-halved"></i>
+            <strong>Secure</strong>
+            <span>Protected</span>
+        </div>
+    </label>
+    <label>
+        <input type="checkbox">
+        <div>
+            <i class="fa-solid fa-chart-line"></i>
+            <strong>Insights</strong>
+            <span>Analytics</span>
+        </div>
+    </label>
+</div>`,
+    css: `.CheckboxTiles {
+    display: flex;
+    gap: 8px;
+}
+.CheckboxTiles label {
+    cursor: pointer;
+}
+.CheckboxTiles input {
+    display: none;
+}
+.CheckboxTiles label > div {
+    width: 90px;
+    padding: 12px 8px;
+    text-align: center;
+    border: 1px solid #e4e4e7;
+    border-radius: 10px;
+    background: #fff;
+}
+.CheckboxTiles input:checked + div {
+    border-color: #2563eb;
+    background: #eff6ff;
+    color: #2563eb;
+}
+.CheckboxTiles i {
+    font-size: 18px;
+}
+.CheckboxTiles strong {
+    display: block;
+    margin-top: 7px;
+    color: #18181b;
+    font-size: 10px;
+}
+.CheckboxTiles span {
+    display: block;
+    margin-top: 2px;
+    color: #a1a1aa;
+    font-size: 7px;
+}`,
+},
+{
+    id: 1032,
+    name: "Checkbox With Star",
+    preview: (
+        <label className="checkbox-1032">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1032__star">
+                <i className="fa-solid fa-star"></i>
+            </span>
+            <div>
+                <strong>Featured</strong>
+                <span>Show this item prominently</span>
+            </div>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-star">
+        <i class="fa-solid fa-star"></i>
+    </span>
+    <div>
+        <strong>Featured</strong>
+        <span>Show this item prominently</span>
+    </div>
+</label>`,
+    css: `.Checkbox {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px;
+    border-radius: 10px;
+    background: #fffbeb;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-star {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    color: #a16207;
+    background: #fef3c7;
+}
+.Checkbox input:checked + .Checkbox-star {
+    background: #facc15;
+    color: #713f12;
+}
+.Checkbox > div {
+    flex: 1;
+}
+.Checkbox div strong {
+    display: block;
+    color: #422006;
+    font-size: 11px;
+}
+.Checkbox div span {
+    display: block;
+    margin-top: 2px;
+    color: #a16207;
+    font-size: 8px;
+}
+.Checkbox i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 1033,
+    name: "Checkbox Compact",
+    preview: (
+        <div className="checkbox-1033">
+            <label>
+                <input type="checkbox" defaultChecked />
+                <span className="checkbox-1033__box"></span>
+                <span>Daily</span>
+            </label>
+            <label>
+                <input type="checkbox" />
+                <span className="checkbox-1033__box"></span>
+                <span>Weekly</span>
+            </label>
+            <label>
+                <input type="checkbox" />
+                <span className="checkbox-1033__box"></span>
+                <span>Monthly</span>
+            </label>
+        </div>
+    ),
+    html: `<div class="CheckboxGroup">
+    <label>
+        <input type="checkbox" checked>
+        <span class="Checkbox-box"></span>
+        <span>Daily</span>
+    </label>
+    <label>
+        <input type="checkbox">
+        <span class="Checkbox-box"></span>
+        <span>Weekly</span>
+    </label>
+    <label>
+        <input type="checkbox">
+        <span class="Checkbox-box"></span>
+        <span>Monthly</span>
+    </label>
+</div>`,
+    css: `.CheckboxGroup {
+    display: flex;
+    gap: 14px;
+}
+.CheckboxGroup label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #52525b;
+    font-size: 9px;
+    cursor: pointer;
+}
+.CheckboxGroup input {
+    display: none;
+}
+.Checkbox-box {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #d4d4d8;
+    border-radius: 3px;
+}
+.CheckboxGroup input:checked + .Checkbox-box {
+    background: #D97757;
+    border-color: #D97757;
+}
+.CheckboxGroup input:checked + .Checkbox-box::after {
+    content: "✓";
+    display: grid;
+    place-items: center;
+    height: 100%;
+    color: #fff;
+    font-size: 7px;
+    font-weight: 800;
+}`,
+},
+{
+    id: 1034,
+    name: "Checkbox Large",
+    preview: (
+        <label className="checkbox-1034">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1034__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <span>Large selection</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <span>Large selection</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    color: #18181b;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 23px;
+    height: 23px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #d4d4d8;
+    border-radius: 7px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #D97757;
+    border-color: #D97757;
+    color: #fff;
+}
+.Checkbox i {
+    font-size: 12px;
+}`,
+},
+{
+    id: 1035,
+    name: "Checkbox Outline Card",
+    preview: (
+        <label className="checkbox-1035">
+            <input type="checkbox" defaultChecked />
+            <div className="checkbox-1035__card">
+                <span className="checkbox-1035__box"></span>
+                <div>
+                    <strong>Team access</strong>
+                    <span>Allow team members to collaborate.</span>
+                </div>
+            </div>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <div class="Checkbox-card">
+        <span class="Checkbox-box"></span>
+        <div>
+            <strong>Team access</strong>
+            <span>Allow team members to collaborate.</span>
+        </div>
+    </div>
+</label>`,
+    css: `.Checkbox {
+    width: 340px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-card {
+    display: flex;
+    gap: 10px;
+    padding: 14px;
+    border: 2px solid #e4e4e7;
+    border-radius: 12px;
+}
+.Checkbox input:checked + .Checkbox-card {
+    border-color: #18181b;
+}
+.Checkbox-box {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    position: relative;
+}
+.Checkbox input:checked + .Checkbox-card .Checkbox-box {
+    background: #18181b;
+    border-color: #18181b;
+}
+.Checkbox input:checked + .Checkbox-card .Checkbox-box::after {
+    content: "✓";
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+}
+.Checkbox-card strong {
+    display: block;
+    color: #18181b;
+    font-size: 11px;
+}
+.Checkbox-card span {
+    display: block;
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 9px;
+}`,
+},
+{
+    id: 1036,
+    name: "Checkbox With Icon Circle",
+    preview: (
+        <label className="checkbox-1036">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1036__circle">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <span>Completed</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-circle">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <span>Completed</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #52525b;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-circle {
+    width: 20px;
+    height: 20px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 50%;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-circle {
+    background: #22c55e;
+    border-color: #22c55e;
+    color: #fff;
+}
+.Checkbox i {
+    font-size: 9px;
+}`,
+},
+{
+    id: 1037,
+    name: "Checkbox With Delete",
+    preview: (
+        <label className="checkbox-1037">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1037__box"></span>
+            <div>
+                <strong>Old project</strong>
+                <span>Archived 3 months ago</span>
+            </div>
+            <button type="button">
+                <i className="fa-solid fa-trash"></i>
+            </button>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box"></span>
+    <div>
+        <strong>Old project</strong>
+        <span>Archived 3 months ago</span>
+    </div>
+    <button type="button">
+        <i class="fa-solid fa-trash"></i>
+    </button>
+</label>`,
+    css: `.Checkbox {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 10px;
+    border: 1px solid #e4e4e7;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 17px;
+    height: 17px;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #71717a;
+    border-color: #71717a;
+}
+.Checkbox input:checked + .Checkbox-box::after {
+    content: "✓";
+    display: grid;
+    place-items: center;
+    height: 100%;
+    color: #fff;
+    font-size: 8px;
+}
+.Checkbox > div {
+    flex: 1;
+}
+.Checkbox div strong {
+    display: block;
+    color: #18181b;
+    font-size: 10px;
+}
+.Checkbox div span {
+    display: block;
+    margin-top: 2px;
+    color: #a1a1aa;
+    font-size: 8px;
+}
+.Checkbox button {
+    border: none;
+    background: transparent;
+    color: #a1a1aa;
+    cursor: pointer;
+}
+.Checkbox button:hover {
+    color: #dc2626;
+}`,
+},
+{
+    id: 1038,
+    name: "Checkbox With External Icon",
+    preview: (
+        <label className="checkbox-1038">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1038__box"><i className="fa-solid fa-check"></i></span>
+            <span>Open links externally</span>
+            <i className="fa-solid fa-arrow-up-right-from-square"></i>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box"><i class="fa-solid fa-check"></i></span>
+    <span>Open links externally</span>
+    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+</label>`,
+    css: `.Checkbox {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 17px;
+    height: 17px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #fff;
+}
+.Checkbox-box i {
+    font-size: 8px;
+}
+.Checkbox > span:nth-of-type(2) {
+    flex: 1;
+    color: #3f3f46;
+    font-size: 10px;
+}
+.Checkbox > i {
+    color: #a1a1aa;
+    font-size: 10px;
+}`,
+},
+{
+    id: 1039,
+    name: "Checkbox Neon Card",
+    preview: (
+        <label className="checkbox-1039">
+            <input type="checkbox" defaultChecked />
+            <div className="checkbox-1039__card">
+                <span className="checkbox-1039__box">
+                    <i className="fa-solid fa-check"></i>
+                </span>
+                <div>
+                    <strong>ONLINE</strong>
+                    <span>Realtime synchronization</span>
+                </div>
+                <i className="fa-solid fa-wifi"></i>
+            </div>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <div class="Checkbox-card">
+        <span class="Checkbox-box">
+            <i class="fa-solid fa-check"></i>
+        </span>
+        <div>
+            <strong>ONLINE</strong>
+            <span>Realtime synchronization</span>
+        </div>
+        <i class="fa-solid fa-wifi"></i>
+    </div>
+</label>`,
+    css: `.Checkbox {
+    width: 330px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px;
+    border: 1px solid #164e63;
+    border-radius: 11px;
+    background: #020617;
+    color: #67e8f9;
+}
+.Checkbox-box {
+    width: 18px;
+    height: 18px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #155e75;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-card .Checkbox-box {
+    background: #06b6d4;
+    border-color: #06b6d4;
+    color: #082f49;
+    box-shadow: 0 0 12px rgba(6,182,212,.35);
+}
+.Checkbox-box i {
+    font-size: 9px;
+}
+.Checkbox-card div {
+    flex: 1;
+}
+.Checkbox-card div strong {
+    display: block;
+    color: #67e8f9;
+    font-family: monospace;
+    font-size: 10px;
+}
+.Checkbox-card div span {
+    display: block;
+    margin-top: 2px;
+    color: #64748b;
+    font-size: 8px;
+}
+.Checkbox-card > i {
+    color: #22d3ee;
+    font-size: 12px;
+}`,
+},
+{
+    id: 1040,
+    name: "Checkbox Social",
+    preview: (
+        <label className="checkbox-1040">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1040__icon">
+                <i className="fa-brands fa-github"></i>
+            </span>
+            <div>
+                <strong>GitHub</strong>
+                <span>Connect repository</span>
+            </div>
+            <span className="checkbox-1040__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-icon">
+        <i class="fa-brands fa-github"></i>
+    </span>
+    <div>
+        <strong>GitHub</strong>
+        <span>Connect repository</span>
+    </div>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+</label>`,
+    css: `.Checkbox {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px;
+    border: 1px solid #e4e4e7;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-icon {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    background: #f4f4f5;
+    color: #18181b;
+}
+.Checkbox > div {
+    flex: 1;
+}
+.Checkbox div strong {
+    display: block;
+    color: #18181b;
+    font-size: 10px;
+}
+.Checkbox div span {
+    display: block;
+    margin-top: 2px;
+    color: #71717a;
+    font-size: 8px;
+}
+.Checkbox-box {
+    width: 17px;
+    height: 17px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked ~ .Checkbox-box {
+    background: #18181b;
+    border-color: #18181b;
+    color: #fff;
+}
+.Checkbox-box i {
+    font-size: 8px;
+}`,
+},
+{
+    id: 1041,
+    name: "Checkbox With Count",
+    preview: (
+        <div className="checkbox-1041">
+            <label>
+                <input type="checkbox" defaultChecked />
+                <span className="checkbox-1041__box"></span>
+                <span>Design</span>
+                <strong>12</strong>
+            </label>
+            <label>
+                <input type="checkbox" />
+                <span className="checkbox-1041__box"></span>
+                <span>Development</span>
+                <strong>28</strong>
+            </label>
+        </div>
+    ),
+    html: `<div class="CheckboxGroup">
+    <label>
+        <input type="checkbox" checked>
+        <span class="Checkbox-box"></span>
+        <span>Design</span>
+        <strong>12</strong>
+    </label>
+    <label>
+        <input type="checkbox">
+        <span class="Checkbox-box"></span>
+        <span>Development</span>
+        <strong>28</strong>
+    </label>
+</div>`,
+    css: `.CheckboxGroup {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.CheckboxGroup label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.CheckboxGroup label:hover {
+    background: #f4f4f5;
+}
+.CheckboxGroup input {
+    display: none;
+}
+.Checkbox-box {
+    width: 16px;
+    height: 16px;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 4px;
+}
+.CheckboxGroup input:checked + .Checkbox-box {
+    background: #6366f1;
+    border-color: #6366f1;
+}
+.CheckboxGroup input:checked + .Checkbox-box::after {
+    content: "✓";
+    display: grid;
+    place-items: center;
+    height: 100%;
+    color: #fff;
+    font-size: 8px;
+}
+.CheckboxGroup label > span:nth-of-type(2) {
+    flex: 1;
+    color: #52525b;
+    font-size: 10px;
+}
+.CheckboxGroup strong {
+    color: #a1a1aa;
+    font-size: 9px;
+}`,
+},
+{
+    id: 1042,
+    name: "Checkbox With Date",
+    preview: (
+        <label className="checkbox-1042">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1042__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <div>
+                <strong>Project launch</strong>
+                <span><i className="fa-regular fa-calendar"></i> September 18, 2026</span>
+            </div>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <div>
+        <strong>Project launch</strong>
+        <span><i class="fa-regular fa-calendar"></i> September 18, 2026</span>
+    </div>
+</label>`,
+    css: `.Checkbox {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 11px;
+    border: 1px solid #e4e4e7;
+    border-radius: 10px;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 17px;
+    height: 17px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #fff;
+}
+.Checkbox i {
+    font-size: 8px;
+}
+.Checkbox > div {
+    flex: 1;
+}
+.Checkbox div strong {
+    display: block;
+    color: #18181b;
+    font-size: 10px;
+}
+.Checkbox div span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 8px;
+}
+.Checkbox div span i {
+    color: #2563eb;
+}`,
+},
+{
+    id: 1043,
+    name: "Checkbox Notification",
+    preview: (
+        <label className="checkbox-1043">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1043__box"></span>
+            <div>
+                <strong>Product updates</strong>
+                <span>New features and announcements</span>
+            </div>
+            <span className="checkbox-1043__dot"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box"></span>
+    <div>
+        <strong>Product updates</strong>
+        <span>New features and announcements</span>
+    </div>
+    <span class="Checkbox-dot"></span>
+</label>`,
+    css: `.Checkbox {
+    width: 330px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 11px;
+    border: 1px solid #e4e4e7;
+    border-radius: 10px;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 17px;
+    height: 17px;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #7c3aed;
+    border-color: #7c3aed;
+}
+.Checkbox input:checked + .Checkbox-box::after {
+    content: "✓";
+    display: grid;
+    place-items: center;
+    height: 100%;
+    color: #fff;
+    font-size: 8px;
+}
+.Checkbox > div {
+    flex: 1;
+}
+.Checkbox div strong {
+    display: block;
+    color: #18181b;
+    font-size: 10px;
+}
+.Checkbox div span {
+    display: block;
+    margin-top: 2px;
+    color: #71717a;
+    font-size: 8px;
+}
+.Checkbox-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #7c3aed;
+}`,
+},
+{
+    id: 1044,
+    name: "Checkbox Security",
+    preview: (
+        <label className="checkbox-1044">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1044__icon">
+                <i className="fa-solid fa-shield-halved"></i>
+            </span>
+            <div>
+                <strong>Secure mode</strong>
+                <span>Enable extra security checks</span>
+            </div>
+            <span className="checkbox-1044__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-icon">
+        <i class="fa-solid fa-shield-halved"></i>
+    </span>
+    <div>
+        <strong>Secure mode</strong>
+        <span>Enable extra security checks</span>
+    </div>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+</label>`,
+    css: `.Checkbox {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    border: 1px solid #bae6fd;
+    border-radius: 11px;
+    background: #f0f9ff;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-icon {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    background: #e0f2fe;
+    color: #0284c7;
+}
+.Checkbox > div {
+    flex: 1;
+}
+.Checkbox div strong {
+    display: block;
+    color: #0c4a6e;
+    font-size: 10px;
+}
+.Checkbox div span {
+    display: block;
+    margin-top: 2px;
+    color: #0369a1;
+    font-size: 8px;
+}
+.Checkbox-box {
+    width: 17px;
+    height: 17px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #38bdf8;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked ~ .Checkbox-box {
+    background: #0284c7;
+    border-color: #0284c7;
+    color: #fff;
+}
+.Checkbox-box i {
+    font-size: 8px;
+}`,
+},
+{
+    id: 1045,
+    name: "Checkbox Plan",
+    preview: (
+        <label className="checkbox-1045">
+            <input type="checkbox" defaultChecked />
+            <div className="checkbox-1045__card">
+                <div>
+                    <span className="checkbox-1045__badge">OPTIONAL</span>
+                    <strong>Advanced analytics</strong>
+                    <p>Unlock detailed reports and insights.</p>
+                </div>
+                <span className="checkbox-1045__box"><i className="fa-solid fa-check"></i></span>
+            </div>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <div class="Checkbox-card">
+        <div>
+            <span class="Checkbox-badge">OPTIONAL</span>
+            <strong>Advanced analytics</strong>
+            <p>Unlock detailed reports and insights.</p>
+        </div>
+        <span class="Checkbox-box">
+            <i class="fa-solid fa-check"></i>
+        </span>
+    </div>
+</label>`,
+    css: `.Checkbox {
+    width: 340px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+}
+.Checkbox input:checked + .Checkbox-card {
+    border-color: #7c3aed;
+    background: #faf5ff;
+}
+.Checkbox-card > div {
+    flex: 1;
+}
+.Checkbox-badge {
+    display: inline-block;
+    padding: 3px 6px;
+    border-radius: 999px;
+    background: #ede9fe;
+    color: #6d28d9;
+    font-size: 7px;
+    font-weight: 800;
+}
+.Checkbox-card strong {
+    display: block;
+    margin-top: 5px;
+    color: #18181b;
+    font-size: 11px;
+}
+.Checkbox-card p {
+    margin: 3px 0 0;
+    color: #71717a;
+    font-size: 8px;
+}
+.Checkbox-box {
+    width: 18px;
+    height: 18px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-card .Checkbox-box {
+    background: #7c3aed;
+    border-color: #7c3aed;
+    color: #fff;
+}
+.Checkbox-box i {
+    font-size: 9px;
+}`,
+},
+{
+    id: 1046,
+    name: "Checkbox Gradient Border",
+    preview: (
+        <label className="checkbox-1046">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1046__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <span>Gradient border</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <span>Gradient border</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #3f3f46;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 19px;
+    height: 19px;
+    display: grid;
+    place-items: center;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    background:
+        linear-gradient(#fff,#fff) padding-box,
+        linear-gradient(135deg,#f97316,#eab308,#22c55e,#06b6d4,#8b5cf6) border-box;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background:
+        linear-gradient(135deg,#f97316,#eab308,#22c55e,#06b6d4,#8b5cf6) padding-box,
+        linear-gradient(135deg,#f97316,#eab308,#22c55e,#06b6d4,#8b5cf6) border-box;
+    color: #fff;
+}
+.Checkbox i {
+    font-size: 9px;
+}`,
+},
+{
+    id: 1047,
+    name: "Checkbox Hover Reveal",
+    preview: (
+        <label className="checkbox-1047">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1047__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <span>Hover interaction</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <span>Hover interaction</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 11px;
+    border-radius: 8px;
+    color: #52525b;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background .2s ease;
+}
+.Checkbox:hover {
+    background: #f4f4f5;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 18px;
+    height: 18px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    color: transparent;
+    transition: all .2s ease;
+}
+.Checkbox:hover .Checkbox-box {
+    border-color: #a1a1aa;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #18181b;
+    border-color: #18181b;
+    color: #fff;
+}
+.Checkbox i {
+    font-size: 9px;
+}`,
+},
+{
+    id: 1048,
+    name: "Checkbox With Lock",
+    preview: (
+        <label className="checkbox-1048">
+            <input type="checkbox" disabled />
+            <span className="checkbox-1048__box"></span>
+            <span>Enterprise security</span>
+            <i className="fa-solid fa-lock"></i>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" disabled>
+    <span class="Checkbox-box"></span>
+    <span>Enterprise security</span>
+    <i class="fa-solid fa-lock"></i>
+</label>`,
+    css: `.Checkbox {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    border: 1px solid #e4e4e7;
+    border-radius: 9px;
+    background: #fafafa;
+    color: #a1a1aa;
+    font-size: 10px;
+    cursor: not-allowed;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 17px;
+    height: 17px;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 5px;
+    opacity: .7;
+}
+.Checkbox > span:nth-of-type(2) {
+    flex: 1;
+}
+.Checkbox > i {
+    color: #a1a1aa;
+    font-size: 10px;
+}`,
+},
+{
+    id: 1049,
+    name: "Checkbox Animated Check",
+    preview: (
+        <label className="checkbox-1049">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1049__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <span>Animated success</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <span>Animated success</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #3f3f46;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 19px;
+    height: 19px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 6px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-box {
+    border-color: #22c55e;
+    background: #22c55e;
+    color: #fff;
+    animation: checkbox-pop .28s ease;
+}
+.Checkbox i {
+    font-size: 10px;
+}
+@keyframes checkbox-pop {
+    0% {
+        transform: scale(.7);
+    }
+    70% {
+        transform: scale(1.12);
+    }
+    100% {
+        transform: scale(1);
+    }
+}`,
+},
+{
+    id: 1050,
+    name: "Checkbox Rainbow Glow",
+    preview: (
+        <label className="checkbox-1050">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1050__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+            <span>Rainbow glow</span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+    <span>Rainbow glow</span>
+</label>`,
+    css: `.Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #3f3f46;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 19px;
+    height: 19px;
+    display: grid;
+    place-items: center;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    background:
+        linear-gradient(#fff,#fff) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+    background-size: 100% 100%, 300% 100%;
+    color: transparent;
+    animation: checkbox-rainbow 3s linear infinite;
+}
+.Checkbox input:checked + .Checkbox-box {
+    color: #fff;
+    background:
+        linear-gradient(135deg,#18181b,#18181b) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+    box-shadow: 0 0 18px rgba(139,92,246,.3);
+}
+.Checkbox i {
+    font-size: 10px;
+}
+@keyframes checkbox-rainbow {
+    to {
+        background-position: 100% 0, 300% 0;
+    }
+}`,
+},
+{
+    id: 1051,
+    name: "Ultimate Checkbox",
+    preview: (
+        <label className="checkbox-1051">
+            <input type="checkbox" defaultChecked />
+            <div className="checkbox-1051__card">
+                <span className="checkbox-1051__icon">
+                    <i className="fa-solid fa-sparkles"></i>
+                </span>
+                <div>
+                    <strong>Enable everything</strong>
+                    <span>Unlock all premium features and advanced tools.</span>
+                </div>
+                <span className="checkbox-1051__box">
+                    <i className="fa-solid fa-check"></i>
+                </span>
+            </div>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <div class="Checkbox-card">
+        <span class="Checkbox-icon">
+            <i class="fa-solid fa-sparkles"></i>
+        </span>
+        <div>
+            <strong>Enable everything</strong>
+            <span>Unlock all premium features and advanced tools.</span>
+        </div>
+        <span class="Checkbox-box">
+            <i class="fa-solid fa-check"></i>
+        </span>
+    </div>
+</label>`,
+    css: `.Checkbox {
+    width: 390px;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-card {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 14px;
+    border: 2px solid transparent;
+    border-radius: 14px;
+    background:
+        linear-gradient(#fff,#fff) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+}
+.Checkbox input:checked + .Checkbox-card {
+    background:
+        linear-gradient(135deg,#fff7ed,#faf5ff) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+    box-shadow: 0 8px 25px rgba(99,102,241,.12);
+}
+.Checkbox-icon {
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#ef4444,#f97316,#8b5cf6);
+    color: #fff;
+}
+.Checkbox-card > div {
+    flex: 1;
+}
+.Checkbox-card strong {
+    display: block;
+    color: #18181b;
+    font-size: 11px;
+}
+.Checkbox-card div span {
+    display: block;
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 8px;
+    line-height: 1.45;
+}
+.Checkbox-box {
+    width: 19px;
+    height: 19px;
+    display: grid;
+    place-items: center;
+    border: 1.5px solid #d4d4d8;
+    border-radius: 6px;
+    color: transparent;
+}
+.Checkbox input:checked + .Checkbox-card .Checkbox-box {
+    border-color: #7c3aed;
+    background: linear-gradient(135deg,#7c3aed,#ec4899);
+    color: #fff;
+    box-shadow: 0 0 14px rgba(124,58,237,.25);
+}
+.Checkbox-box i {
+    font-size: 9px;
 }`,
 },
 
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

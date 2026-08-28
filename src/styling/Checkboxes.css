@@ -3,7 +3,7 @@
     flex-direction: column; 
     gap: 10px;
 }
-
+ 
 .prev-checkbox {
     display: flex;
     align-items: center;
@@ -1287,4 +1287,4 @@
 }
 .cb61 input:checked ~ .cb61-checkmark:after {
   transform: rotate(45deg) scale(1);
-}
+} 
