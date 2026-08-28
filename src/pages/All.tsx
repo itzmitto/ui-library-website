@@ -18,41 +18,97 @@ export default function All() {
           <a href="/elements" className="sidebar-item sidebar-item--active">
             All
           </a>
+
           <a href="/elements/buttons" className="sidebar-item">
             Buttons
           </a>
+
           <a href="/elements/checkboxes" className="sidebar-item">
             Checkboxes
           </a>
+
           <a href="/elements/toggleswitches" className="sidebar-item">
             Toggleswitches
           </a>
+
           <a href="/elements/cards" className="sidebar-item">
             Cards
           </a>
+
           <a href="/elements/loaders" className="sidebar-item">
             Loaders
           </a>
+
           <a href="/elements/inputs" className="sidebar-item">
             Inputs
           </a>
+
           <a href="/elements/radio-buttons" className="sidebar-item">
             Radio-buttons
           </a>
+
           <a href="/elements/forms" className="sidebar-item">
             Forms
           </a>
+
           <a href="/elements/patterns" className="sidebar-item">
             Patterns
           </a>
+
           <a href="/elements/tooltips" className="sidebar-item">
             Tooltips
           </a>
+
           <a href="/elements/navbar" className="sidebar-item">
             Navbar
           </a>
+
           <a href="/elements/logins" className="sidebar-item">
             Logins
+          </a>
+
+          <a href="/elements/dropdowns" className="sidebar-item">
+            Dropdowns
+          </a>
+
+          <a href="/elements/modals" className="sidebar-item">
+            Modals
+          </a>
+
+          <a href="/elements/alerts" className="sidebar-item">
+            Alerts
+          </a>
+
+          <a href="/elements/badges" className="sidebar-item">
+            Badges
+          </a>
+
+          <a href="/elements/avatars" className="sidebar-item">
+            Avatars
+          </a>
+
+          <a href="/elements/tabs" className="sidebar-item">
+            Tabs
+          </a>
+
+          <a href="/elements/breadcrumbs" className="sidebar-item">
+            Breadcrumbs
+          </a>
+
+          <a href="/elements/pagination" className="sidebar-item">
+            Pagination
+          </a>
+
+          <a href="/elements/skeletons" className="sidebar-item">
+            Skeletons
+          </a>
+
+          <a href="/elements/sidebars" className="sidebar-item">
+            Sidebars
+          </a>
+
+          <a href="/elements/hero-sections" className="sidebar-item">
+            Hero Sections
           </a>
         </aside>
 
@@ -70,10 +126,14 @@ export default function All() {
                 onClick={() => setSelected(item)}
                 style={{ cursor: "pointer" }}
               >
-                <div className="all-card-preview">{item.preview}</div>
+                <div className="all-card-preview">
+                  {item.preview}
+                </div>
 
                 <div className="all-card-footer">
-                  <span className="all-card-name">{item.name}</span>
+                  <span className="all-card-name">
+                    {item.name}
+                  </span>
                 </div>
               </div>
             ))}
@@ -81,9 +141,15 @@ export default function All() {
         </main>
       </div>
 
-      <ComponentModal item={selected} onClose={() => setSelected(null)} />
+      <ComponentModal
+        item={selected}
+        onClose={() => setSelected(null)}
+      />
 
-      <a href="/elements/navbar" className="floating-navbar-button">
+      <a
+        href="/elements/navbar"
+        className="floating-navbar-button"
+      >
         Navbar →
       </a>
     </div>

@@ -14,7 +14,18 @@ const categories = [
   { label: "Patterns", path: "/elements/patterns" },
   { label: "Tooltips", path: "/elements/tooltips" },
   { label: "Navbar", path: "/elements/navbar" },
-  { label: "Logins", path: "/elements/logins" }
+  { label: "Logins", path: "/elements/logins" },
+  { label: "Dropdowns", path: "/elements/dropdowns" },
+  { label: "Modals", path: "/elements/modals" },
+  { label: "Alerts", path: "/elements/alerts" },
+  { label: "Badges", path: "/elements/badges" },
+  { label: "Avatars", path: "/elements/avatars" },
+  { label: "Tabs", path: "/elements/tabs" },
+  { label: "Breadcrumbs", path: "/elements/breadcrumbs" },
+  { label: "Pagination", path: "/elements/pagination" },
+  { label: "Skeletons", path: "/elements/skeletons" },
+  { label: "Sidebars", path: "/elements/sidebars" },
+  { label: "Hero Sections", path: "/elements/hero-sections" },
 ];
 
 export default function Header() {
@@ -47,10 +58,16 @@ export default function Header() {
             </button>
 
             <div
-              className={`dropdown-menu ${dropdownOpen ? "dropdown-menu--open" : ""}`}
+              className={`dropdown-menu ${
+                dropdownOpen ? "dropdown-menu--open" : ""
+              }`}
             >
               {categories.map((cat) => (
-                <Link key={cat.path} to={cat.path} className="dropdown-item">
+                <Link
+                  key={cat.path}
+                  to={cat.path}
+                  className="dropdown-item"
+                >
                   {cat.label}
                 </Link>
               ))}
