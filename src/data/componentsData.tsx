@@ -3488,7 +3488,1641 @@ export const buttons = [
     font-size: 10px;
 }`,
 },
-
+{
+    id: 952,
+    name: "Rainbow Live Button",
+    preview: (
+        <button className="btn-952">
+            <span>Live</span>
+            <i className="fa-solid fa-bolt"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    <span>Live</span>
+    <i class="fa-solid fa-bolt"></i>
+</button>`,
+    css: `.Button {
+    padding: 10px 17px;
+    border: none;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #d946ef, #ef4444);
+    background-size: 300% 100%;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    animation: rainbow 4s linear infinite;
+}
+.Button:hover {
+    animation-duration: 1.3s;
+    transform: translateY(-2px);
+}
+@keyframes rainbow {
+    to {
+        background-position: 300% 0;
+    }
+}`,
+},
+{
+    id: 953,
+    name: "Rainbow Border Button",
+    preview: (
+        <button className="btn-953">
+            Explore
+        </button>
+    ),
+    html: `<button class="Button">Explore</button>`,
+    css: `.Button {
+    position: relative;
+    padding: 10px 19px;
+    border: none;
+    border-radius: 11px;
+    background: #18181b;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 600;
+    isolation: isolate;
+}
+.Button::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    z-index: -1;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #d946ef);
+    background-size: 250% 100%;
+    animation: rainbow-border 3s linear infinite;
+}
+@keyframes rainbow-border {
+    to {
+        background-position: 250% 0;
+    }
+}`,
+},
+{
+    id: 954,
+    name: "Red Orange Yellow Button",
+    preview: (
+        <button className="btn-954">
+            Ignite
+            <i className="fa-solid fa-fire"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Ignite
+    <i class="fa-solid fa-fire"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(110deg, #dc2626, #f97316, #facc15);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    box-shadow: 0 7px 20px rgba(249,115,22,.25);
+}
+.Button:hover {
+    transform: translateY(-2px);
+    filter: saturate(1.2);
+    box-shadow: 0 10px 25px rgba(249,115,22,.35);
+}`,
+},
+{
+    id: 955,
+    name: "Sunset Button",
+    preview: (
+        <button className="btn-955">
+            View sunset
+        </button>
+    ),
+    html: `<button class="Button">View sunset</button>`,
+    css: `.Button {
+    padding: 11px 19px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #ef4444, #f97316, #fbbf24);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+.Button:hover {
+    border-radius: 6px;
+    transform: scale(1.04);
+    box-shadow: 0 10px 28px rgba(239,68,68,.25);
+}`,
+},
+{
+    id: 956,
+    name: "Liquid Rainbow Button",
+    preview: (
+        <button className="btn-956">
+            <span>Make magic</span>
+        </button>
+    ),
+    html: `<button class="Button">
+    <span>Make magic</span>
+</button>`,
+    css: `.Button {
+    position: relative;
+    overflow: hidden;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 12px;
+    background: #18181b;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button::before {
+    content: "";
+    position: absolute;
+    width: 180%;
+    height: 180%;
+    left: -40%;
+    top: -40%;
+    background: conic-gradient(#ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #d946ef, #ef4444);
+    animation: liquid-spin 4s linear infinite;
+    opacity: .9;
+}
+.Button::after {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    border-radius: 10px;
+    background: #18181b;
+}
+.Button span {
+    position: relative;
+    z-index: 2;
+}
+@keyframes liquid-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+},
+{
+    id: 957,
+    name: "Rainbow Glow Button",
+    preview: (
+        <button className="btn-957">
+            <i className="fa-solid fa-sparkles"></i>
+            Spark
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-sparkles"></i>
+    Spark
+</button>`,
+    css: `.Button {
+    padding: 11px 18px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1);
+    background-size: 200% 100%;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 0 18px rgba(99,102,241,.25);
+    animation: glow-rainbow 3s linear infinite;
+}
+.Button:hover {
+    box-shadow: 0 0 30px rgba(217,70,239,.45);
+}
+@keyframes glow-rainbow {
+    to {
+        background-position: 200% 0;
+    }
+}`,
+},
+{
+    id: 958,
+    name: "Fire Gradient Button",
+    preview: (
+        <button className="btn-958">
+            <i className="fa-solid fa-fire-flame-curved"></i>
+            Hot deal
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-fire-flame-curved"></i>
+    Hot deal
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #fb923c;
+    border-radius: 9px;
+    background: linear-gradient(120deg, #991b1b, #dc2626, #f97316, #facc15);
+    background-size: 200% 100%;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button:hover {
+    background-position: 100% 0;
+    box-shadow: 0 7px 20px rgba(234,88,12,.3);
+}`,
+},
+{
+    id: 959,
+    name: "Golden Shine Button",
+    preview: (
+        <button className="btn-959">
+            <i className="fa-solid fa-crown"></i>
+            Premium
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-crown"></i>
+    Premium
+</button>`,
+    css: `.Button {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 18px;
+    border: 1px solid #eab308;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #854d0e, #eab308);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -80%;
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(100deg, transparent, rgba(255,255,255,.7), transparent);
+    transform: skewX(-20deg);
+    animation: gold-shine 2.5s infinite;
+}
+.Button i,
+.Button {
+    isolation: isolate;
+}
+@keyframes gold-shine {
+    45%, 100% {
+        left: 140%;
+    }
+}`,
+},
+{
+    id: 960,
+    name: "Red Glow Button",
+    preview: (
+        <button className="btn-960">
+            Delete account
+        </button>
+    ),
+    html: `<button class="Button">Delete account</button>`,
+    css: `.Button {
+    padding: 10px 18px;
+    border: 1px solid #ef4444;
+    border-radius: 10px;
+    background: #450a0a;
+    color: #fca5a5;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.Button:hover {
+    background: #dc2626;
+    color: #fff;
+    box-shadow: 0 0 24px rgba(239,68,68,.4);
+}`,
+},
+{
+    id: 961,
+    name: "Orange Glow Button",
+    preview: (
+        <button className="btn-961">
+            <i className="fa-solid fa-bolt"></i>
+            Boost
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-bolt"></i>
+    Boost
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: 1px solid #f97316;
+    border-radius: 10px;
+    background: #431407;
+    color: #fdba74;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button:hover {
+    color: #fff;
+    background: #ea580c;
+    box-shadow: 0 0 25px rgba(249,115,22,.4);
+}`,
+},
+{
+    id: 962,
+    name: "Yellow Glow Button",
+    preview: (
+        <button className="btn-962">
+            <i className="fa-regular fa-star"></i>
+            Favorite
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-regular fa-star"></i>
+    Favorite
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #facc15;
+    border-radius: 10px;
+    background: #422006;
+    color: #fde68a;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button:hover {
+    color: #fff;
+    background: #ca8a04;
+    box-shadow: 0 0 25px rgba(250,204,21,.35);
+}`,
+},
+{
+    id: 963,
+    name: "Rainbow Pill",
+    preview: (
+        <button className="btn-963">
+            New experience
+        </button>
+    ),
+    html: `<button class="Button">New experience</button>`,
+    css: `.Button {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #d946ef) border-box;
+    color: #2D2A26;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button:hover {
+    background:
+        linear-gradient(#fff7ed, #fff7ed) padding-box,
+        linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #d946ef) border-box;
+}`,
+},
+{
+    id: 964,
+    name: "Rainbow Outline Button",
+    preview: (
+        <button className="btn-964">
+            Discover
+        </button>
+    ),
+    html: `<button class="Button">Discover</button>`,
+    css: `.Button {
+    padding: 10px 18px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background:
+        linear-gradient(#18181b, #18181b) padding-box,
+        linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #d946ef) border-box;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.Button:hover {
+    transform: translateY(-2px);
+    background:
+        linear-gradient(#27272a, #27272a) padding-box,
+        linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #d946ef) border-box;
+}`,
+},
+{
+    id: 965,
+    name: "Animated Gradient Button",
+    preview: (
+        <button className="btn-965">
+            Start building
+        </button>
+    ),
+    html: `<button class="Button">Start building</button>`,
+    css: `.Button {
+    padding: 11px 20px;
+    border: none;
+    border-radius: 11px;
+    background: linear-gradient(270deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #ec4899);
+    background-size: 500% 500%;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    animation: gradient-flow 6s ease infinite;
+}
+@keyframes gradient-flow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}`,
+},
+{
+    id: 966,
+    name: "Chromatic Button",
+    preview: (
+        <button className="btn-966">
+            Chromatic
+        </button>
+    ),
+    html: `<button class="Button">Chromatic</button>`,
+    css: `.Button {
+    padding: 11px 19px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(105deg, #ef4444 0%, #f97316 20%, #eab308 40%, #06b6d4 65%, #6366f1 85%, #ec4899 100%);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    text-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+.Button:hover {
+    filter: contrast(1.12) saturate(1.2);
+    transform: scale(1.03);
+}`,
+},
+{
+    id: 967,
+    name: "Rainbow Shine Button",
+    preview: (
+        <button className="btn-967">
+            <span>Hover me</span>
+        </button>
+    ),
+    html: `<button class="Button">
+    <span>Hover me</span>
+</button>`,
+    css: `.Button {
+    position: relative;
+    overflow: hidden;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #2D2A26;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,.8), transparent);
+    transform: translateX(-120%);
+    transition: transform .5s ease;
+}
+.Button:hover::before {
+    transform: translateX(120%);
+}
+.Button span {
+    position: relative;
+    z-index: 1;
+}`,
+},
+{
+    id: 968,
+    name: "Fire Border Button",
+    preview: (
+        <button className="btn-968">
+            <i className="fa-solid fa-fire"></i>
+            Burn bright
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-fire"></i>
+    Burn bright
+</button>`,
+    css: `.Button {
+    padding: 10px 17px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background:
+        linear-gradient(#18181b, #18181b) padding-box,
+        linear-gradient(135deg, #dc2626, #f97316, #facc15) border-box;
+    color: #fbbf24;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button:hover {
+    color: #fff;
+    background:
+        linear-gradient(#7f1d1d, #7f1d1d) padding-box,
+        linear-gradient(135deg, #dc2626, #f97316, #facc15) border-box;
+}`,
+},
+{
+    id: 969,
+    name: "Sunrise Button",
+    preview: (
+        <button className="btn-969">
+            Good morning
+        </button>
+    ),
+    html: `<button class="Button">Good morning</button>`,
+    css: `.Button {
+    padding: 11px 19px;
+    border: none;
+    border-radius: 11px;
+    background: linear-gradient(160deg, #f97316, #fbbf24, #fde68a);
+    color: #78350f;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.Button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(245,158,11,.3);
+}`,
+},
+{
+    id: 970,
+    name: "Lava Button",
+    preview: (
+        <button className="btn-970">
+            <i className="fa-solid fa-volcano"></i>
+            Enter lava mode
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-volcano"></i>
+    Enter lava mode
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 17px;
+    border: 1px solid #fb923c;
+    border-radius: 10px;
+    background:
+        radial-gradient(circle at 80% 20%, #facc15, transparent 30%),
+        radial-gradient(circle at 20% 80%, #ef4444, transparent 35%),
+        #991B1B;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button:hover {
+    background:
+        radial-gradient(circle at 30% 30%, #facc15, transparent 35%),
+        radial-gradient(circle at 80% 70%, #f97316, transparent 35%),
+        #b91c1c;
+    box-shadow: 0 8px 24px rgba(220,38,38,.3);
+}`,
+},
+{
+    id: 971,
+    name: "Neon Rainbow Button",
+    preview: (
+        <button className="btn-971">
+            Neon mode
+        </button>
+    ),
+    html: `<button class="Button">Neon mode</button>`,
+    css: `.Button {
+    padding: 10px 19px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background:
+        linear-gradient(#09090b, #09090b) padding-box,
+        linear-gradient(90deg, #f43f5e, #f97316, #facc15, #22c55e, #06b6d4, #8b5cf6, #ec4899) border-box;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    box-shadow: 0 0 18px rgba(236,72,153,.15);
+}
+.Button:hover {
+    box-shadow:
+        0 0 12px rgba(239,68,68,.3),
+        0 0 25px rgba(99,102,241,.2);
+}`,
+},
+{
+    id: 972,
+    name: "Rainbow Arrow Button",
+    preview: (
+        <button className="btn-972">
+            Continue
+            <span>
+                <i className="fa-solid fa-arrow-right"></i>
+            </span>
+        </button>
+    ),
+    html: `<button class="Button">
+    Continue
+    <span>
+        <i class="fa-solid fa-arrow-right"></i>
+    </span>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 6px 7px 6px 16px;
+    border: none;
+    border-radius: 999px;
+    background: #18181b;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button span {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #ec4899);
+}
+.Button:hover span {
+    transform: rotate(-45deg);
+}`,
+},
+{
+    id: 973,
+    name: "Color Shift Button",
+    preview: (
+        <button className="btn-973">
+            Color shift
+        </button>
+    ),
+    html: `<button class="Button">Color shift</button>`,
+    css: `.Button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #ef4444, #f97316);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .35s ease;
+}
+.Button:hover {
+    background: linear-gradient(90deg, #eab308, #22c55e, #06b6d4);
+    transform: translateY(-2px);
+}`,
+},
+{
+    id: 974,
+    name: "Rainbow Glass Button",
+    preview: (
+        <button className="btn-974">
+            <i className="fa-solid fa-sparkles"></i>
+            Glass mode
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-sparkles"></i>
+    Glass mode
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 11px;
+    background: linear-gradient(110deg, rgba(239,68,68,.35), rgba(59,130,246,.35), rgba(217,70,239,.35));
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    backdrop-filter: blur(14px);
+}
+.Button:hover {
+    background: linear-gradient(110deg, rgba(239,68,68,.5), rgba(59,130,246,.5), rgba(217,70,239,.5));
+}`,
+},
+{
+    id: 975,
+    name: "Electric Blue Button",
+    preview: (
+        <button className="btn-975">
+            <i className="fa-solid fa-bolt"></i>
+            Electrify
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-bolt"></i>
+    Electrify
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #38BDF8;
+    border-radius: 9px;
+    background: linear-gradient(135deg, #0369A1, #0EA5E9);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    box-shadow: 0 0 14px rgba(56,189,248,.2);
+}
+.Button:hover {
+    box-shadow: 0 0 30px rgba(56,189,248,.4);
+}`,
+},
+{
+    id: 976,
+    name: "Cyber Rainbow Button",
+    preview: (
+        <button className="btn-976">
+            <span>ACCESS</span>
+            <i className="fa-solid fa-arrow-right"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    <span>ACCESS</span>
+    <i class="fa-solid fa-arrow-right"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 17px;
+    border: 1px solid #22D3EE;
+    border-radius: 6px;
+    background: #020617;
+    color: #67E8F9;
+    font-family: monospace;
+    font-weight: 700;
+    box-shadow: inset 0 0 20px rgba(34,211,238,.04);
+}
+.Button:hover {
+    border-color: #F472B6;
+    color: #F9A8D4;
+    box-shadow:
+        0 0 15px rgba(34,211,238,.2),
+        0 0 30px rgba(244,114,182,.15);
+}`,
+},
+{
+    id: 977,
+    name: "Pink Orange Button",
+    preview: (
+        <button className="btn-977">
+            Create vibe
+        </button>
+    ),
+    html: `<button class="Button">Create vibe</button>`,
+    css: `.Button {
+    padding: 11px 19px;
+    border: none;
+    border-radius: 11px;
+    background: linear-gradient(120deg, #f97316, #ec4899);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button:hover {
+    transform: translateY(-2px) rotate(-1deg);
+    box-shadow: 0 10px 25px rgba(236,72,153,.25);
+}`,
+},
+{
+    id: 978,
+    name: "Green Pink Button",
+    preview: (
+        <button className="btn-978">
+            <i className="fa-solid fa-wand-magic-sparkles"></i>
+            Surprise me
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-wand-magic-sparkles"></i>
+    Surprise me
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(110deg, #22c55e, #06b6d4, #ec4899);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button:hover {
+    background-position: 100% 0;
+    box-shadow: 0 8px 22px rgba(236,72,153,.25);
+}`,
+},
+{
+    id: 979,
+    name: "Purple Blue Button",
+    preview: (
+        <button className="btn-979">
+            Explore universe
+            <i className="fa-solid fa-arrow-up-right-from-square"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Explore universe
+    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #4F46E5, #7C3AED, #2563EB);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 9px 23px rgba(79,70,229,.3);
+}`,
+},
+{
+    id: 980,
+    name: "Candy Button",
+    preview: (
+        <button className="btn-980">
+            Sweet action
+        </button>
+    ),
+    html: `<button class="Button">Sweet action</button>`,
+    css: `.Button {
+    padding: 11px 19px;
+    border: none;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #fb7185, #f472b6, #c084fc);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    box-shadow: 0 6px 16px rgba(244,114,182,.2);
+}
+.Button:hover {
+    transform: scale(1.04);
+    box-shadow: 0 9px 23px rgba(192,132,252,.3);
+}`,
+},
+{
+    id: 981,
+    name: "Ocean Rainbow Button",
+    preview: (
+        <button className="btn-981">
+            Dive in
+            <i className="fa-solid fa-water"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Dive in
+    <i class="fa-solid fa-water"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(110deg, #06B6D4, #3B82F6, #8B5CF6);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button:hover {
+    filter: brightness(1.12);
+    transform: translateY(-2px);
+}`,
+},
+{
+    id: 982,
+    name: "Holographic Button",
+    preview: (
+        <button className="btn-982">
+            Holographic
+        </button>
+    ),
+    html: `<button class="Button">Holographic</button>`,
+    css: `.Button {
+    padding: 11px 20px;
+    border: 1px solid rgba(255,255,255,.5);
+    border-radius: 11px;
+    background:
+        linear-gradient(
+            120deg,
+            #fca5a5,
+            #fdba74,
+            #fde68a,
+            #86efac,
+            #67e8f9,
+            #a5b4fc,
+            #f0abfc
+        );
+    color: #18181b;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    background-size: 250% 250%;
+    animation: holo 5s ease infinite;
+}
+@keyframes holo {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}`,
+},
+{
+    id: 983,
+    name: "Holographic Outline Button",
+    preview: (
+        <button className="btn-983">
+            Future
+        </button>
+    ),
+    html: `<button class="Button">Future</button>`,
+    css: `.Button {
+    padding: 10px 19px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(90deg, #ef4444, #f59e0b, #22c55e, #06b6d4, #6366f1, #ec4899) border-box;
+    color: #18181b;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button:hover {
+    color: #6366F1;
+}`,
+},
+{
+    id: 984,
+    name: "Moving Rainbow Button",
+    preview: (
+        <button className="btn-984">
+            Always moving
+        </button>
+    ),
+    html: `<button class="Button">Always moving</button>`,
+    css: `.Button {
+    padding: 11px 20px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #ec4899);
+    background-size: 400% 100%;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    animation: moving-rainbow 2.8s linear infinite;
+}
+@keyframes moving-rainbow {
+    to {
+        background-position: 400% 0;
+    }
+}`,
+},
+{
+    id: 985,
+    name: "Rainbow Hover Fill",
+    preview: (
+        <button className="btn-985">
+            Hover to fill
+        </button>
+    ),
+    html: `<button class="Button">Hover to fill</button>`,
+    css: `.Button {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 18px;
+    border: 1px solid #D4D4D8;
+    border-radius: 10px;
+    background: #fff;
+    color: #18181b;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #ec4899);
+    transform: translateX(-101%);
+    transition: transform .45s ease;
+}
+.Button:hover::before {
+    transform: translateX(0);
+}
+.Button {
+    isolation: isolate;
+}
+.Button::before {
+    z-index: -1;
+}
+.Button:hover {
+    color: #fff;
+    border-color: transparent;
+}`,
+},
+{
+    id: 986,
+    name: "Fireworks Button",
+    preview: (
+        <button className="btn-986">
+            Celebrate
+            <i className="fa-solid fa-burst"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Celebrate
+    <i class="fa-solid fa-burst"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ef4444, #f97316, #facc15);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button:hover {
+    animation: fireworks .5s ease;
+}
+@keyframes fireworks {
+    40% {
+        transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1);
+    }
+}`,
+},
+{
+    id: 987,
+    name: "Electric Pink Button",
+    preview: (
+        <button className="btn-987">
+            <i className="fa-solid fa-heart"></i>
+            Love it
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-heart"></i>
+    Love it
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #F472B6;
+    border-radius: 10px;
+    background: #500724;
+    color: #F9A8D4;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button:hover {
+    background: #DB2777;
+    color: #fff;
+    box-shadow: 0 0 25px rgba(244,114,182,.4);
+}`,
+},
+{
+    id: 988,
+    name: "Acid Lime Button",
+    preview: (
+        <button className="btn-988">
+            <i className="fa-solid fa-flask"></i>
+            Experiment
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-flask"></i>
+    Experiment
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: none;
+    border-radius: 8px;
+    background: #D9F99D;
+    color: #365314;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #A3E635;
+    box-shadow: 0 6px 18px rgba(163,230,53,.25);
+}`,
+},
+{
+    id: 989,
+    name: "Rainbow Badge Button",
+    preview: (
+        <button className="btn-989">
+            New feature
+            <span>NEW</span>
+        </button>
+    ),
+    html: `<button class="Button">
+    New feature
+    <span>NEW</span>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 13px;
+    border: 1px solid #E4E4E7;
+    border-radius: 9px;
+    background: #fff;
+    color: #18181b;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button span {
+    padding: 3px 6px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1);
+    color: #fff;
+    font-size: 7px;
+}
+.Button:hover {
+    border-color: #a1a1aa;
+}`,
+},
+{
+    id: 990,
+    name: "Rainbow Icon Button",
+    preview: (
+        <button className="btn-990" aria-label="Magic">
+            <i className="fa-solid fa-wand-magic-sparkles"></i>
+        </button>
+    ),
+    html: `<button class="Button" aria-label="Magic">
+    <i class="fa-solid fa-wand-magic-sparkles"></i>
+</button>`,
+    css: `.Button {
+    width: 43px;
+    height: 43px;
+    display: grid;
+    place-items: center;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #ec4899) border-box;
+    color: #7C3AED;
+    cursor: pointer;
+}
+.Button:hover {
+    transform: rotate(8deg) scale(1.08);
+}
+.Button i {
+    font-size: 15px;
+}`,
+},
+{
+    id: 991,
+    name: "Rainbow Download Button",
+    preview: (
+        <button className="btn-991">
+            <i className="fa-solid fa-download"></i>
+            Download
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-download"></i>
+    Download
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: none;
+    border-radius: 9px;
+    background: linear-gradient(135deg, #06b6d4, #6366f1, #ec4899);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button:hover {
+    filter: brightness(1.1);
+    transform: translateY(-2px);
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 992,
+    name: "Rainbow Upload Button",
+    preview: (
+        <button className="btn-992">
+            <i className="fa-solid fa-cloud-arrow-up"></i>
+            Upload
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-cloud-arrow-up"></i>
+    Upload
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px dashed #8B5CF6;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #EEF2FF, #FAE8FF);
+    color: #6D28D9;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button:hover {
+    border-color: #EC4899;
+    background: linear-gradient(135deg, #FCE7F3, #FEF3C7);
+}`,
+},
+{
+    id: 993,
+    name: "Rainbow Play Button",
+    preview: (
+        <button className="btn-993">
+            <span>
+                <i className="fa-solid fa-play"></i>
+            </span>
+            Watch video
+        </button>
+    ),
+    html: `<button class="Button">
+    <span>
+        <i class="fa-solid fa-play"></i>
+    </span>
+    Watch video
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 6px 14px 6px 6px;
+    border: 1px solid #E4E4E7;
+    border-radius: 999px;
+    background: #fff;
+    color: #2D2A26;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button > span {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #ec4899);
+    color: #fff;
+}
+.Button:hover {
+    box-shadow: 0 5px 16px rgba(99,102,241,.15);
+}`,
+},
+{
+    id: 994,
+    name: "Rainbow Menu Button",
+    preview: (
+        <button className="btn-994">
+            <i className="fa-solid fa-bars"></i>
+            Menu
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-bars"></i>
+    Menu
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    border-radius: 9px;
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1) border-box;
+    color: #3F3F46;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button:hover {
+    color: #6366F1;
+}`,
+},
+{
+    id: 995,
+    name: "Rainbow Search Button",
+    preview: (
+        <button className="btn-995">
+            <i className="fa-solid fa-magnifying-glass"></i>
+            Search
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    Search
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #D4D4D8;
+    border-radius: 9px;
+    background: #fff;
+    color: #52525B;
+    font-family: inherit;
+    font-weight: 600;
+}
+.Button:hover {
+    border-color: #8B5CF6;
+    color: #6366F1;
+    box-shadow: 0 4px 15px rgba(139,92,246,.12);
+}`,
+},
+{
+    id: 996,
+    name: "Rainbow Confirm Button",
+    preview: (
+        <button className="btn-996">
+            <i className="fa-solid fa-check"></i>
+            Confirm
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-check"></i>
+    Confirm
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: none;
+    border-radius: 9px;
+    background: linear-gradient(90deg, #16A34A, #22C55E, #06B6D4);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button:hover {
+    box-shadow: 0 7px 20px rgba(34,197,94,.25);
+    transform: translateY(-1px);
+}`,
+},
+{
+    id: 997,
+    name: "Rainbow Warning Button",
+    preview: (
+        <button className="btn-997">
+            <i className="fa-solid fa-triangle-exclamation"></i>
+            Proceed carefully
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-triangle-exclamation"></i>
+    Proceed carefully
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: none;
+    border-radius: 9px;
+    background: linear-gradient(90deg, #DC2626, #F97316, #EAB308);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button:hover {
+    filter: saturate(1.2);
+    box-shadow: 0 7px 20px rgba(249,115,22,.25);
+}`,
+},
+{
+    id: 998,
+    name: "Rainbow Heart Button",
+    preview: (
+        <button className="btn-998">
+            <i className="fa-solid fa-heart"></i>
+            Love this
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-heart"></i>
+    Love this
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: none;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #EF4444, #EC4899, #8B5CF6);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button:hover {
+    transform: scale(1.04);
+    box-shadow: 0 8px 20px rgba(236,72,153,.28);
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 999,
+    name: "Rainbow Magic Button",
+    preview: (
+        <button className="btn-999">
+            <span className="btn-999__icon">
+                <i className="fa-solid fa-wand-magic-sparkles"></i>
+            </span>
+            Create magic
+        </button>
+    ),
+    html: `<button class="Button">
+    <span class="Button-icon">
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+    </span>
+    Create magic
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 6px 16px 6px 6px;
+    border: none;
+    border-radius: 999px;
+    background: #18181b;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+}
+.Button-icon {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #ec4899);
+}
+.Button:hover {
+    box-shadow: 0 0 22px rgba(139,92,246,.25);
+}`,
+},
+{
+    id: 1000,
+    name: "Ultimate Rainbow Button",
+    preview: (
+        <button className="btn-1000">
+            <span className="btn-1000__glow"></span>
+            <span className="btn-1000__icon">
+                <i className="fa-solid fa-sparkles"></i>
+            </span>
+            Enter the experience
+            <span className="btn-1000__arrow">
+                <i className="fa-solid fa-arrow-right"></i>
+            </span>
+        </button>
+    ),
+    html: `<button class="Button">
+    <span class="Button-glow"></span>
+    <span class="Button-icon">
+        <i class="fa-solid fa-sparkles"></i>
+    </span>
+    Enter the experience
+    <span class="Button-arrow">
+        <i class="fa-solid fa-arrow-right"></i>
+    </span>
+</button>`,
+    css: `.Button {
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 7px 6px 6px;
+    border: 2px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(#18181b, #18181b) padding-box,
+        linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #ec4899, #ef4444) border-box;
+    background-size: 100% 100%, 300% 100%;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    animation: ultimate-rainbow 4s linear infinite;
+}
+.Button-glow {
+    position: absolute;
+    inset: -30px;
+    background: linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #ec4899);
+    filter: blur(28px);
+    opacity: .15;
+    z-index: -1;
+}
+.Button-icon {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #ec4899);
+}
+.Button-arrow {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #fff;
+    color: #18181b;
+}
+.Button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(139,92,246,.25);
+}
+@keyframes ultimate-rainbow {
+    to {
+        background-position: 0 0, 300% 0;
+    }
+}`,
+},
 
 
 
