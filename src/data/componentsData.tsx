@@ -1651,6 +1651,1845 @@ export const buttons = [
     opacity: 0.8;
 }`,
 },
+{
+    id: 901,
+    name: "Success Button",
+    preview: (
+        <button className="btn-901">
+            <i className="fa-solid fa-check"></i>
+            Saved
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-check"></i>
+    Saved
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 10px 16px;
+    border: 1px solid #16A34A;
+    border-radius: 10px;
+    background: #16A34A;
+    color: #fff;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #15803D;
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 902,
+    name: "Warning Button",
+    preview: (
+        <button className="btn-902">
+            <i className="fa-solid fa-triangle-exclamation"></i>
+            Review
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-triangle-exclamation"></i>
+    Review
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px 16px;
+    border: 1px solid #D97706;
+    border-radius: 10px;
+    background: #F59E0B;
+    color: #fff;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #D97706;
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 903,
+    name: "Info Button",
+    preview: (
+        <button className="btn-903">
+            <i className="fa-solid fa-circle-info"></i>
+            Learn more
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-circle-info"></i>
+    Learn more
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px 16px;
+    border: 1px solid #93C5FD;
+    border-radius: 10px;
+    background: #EFF6FF;
+    color: #1D4ED8;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #DBEAFE;
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 904,
+    name: "Rounded Arrow Button",
+    preview: (
+        <button className="btn-904">
+            Explore
+            <i className="fa-solid fa-arrow-right"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Explore
+    <i class="fa-solid fa-arrow-right"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 999px;
+    background: #2D2A26;
+    color: #F4F1EA;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    gap: 13px;
+    background: #46423B;
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 905,
+    name: "Soft Purple Button",
+    preview: (
+        <button className="btn-905">
+            <i className="fa-solid fa-wand-magic-sparkles"></i>
+            Generate
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-wand-magic-sparkles"></i>
+    Generate
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #DDD6FE;
+    border-radius: 10px;
+    background: #F5F3FF;
+    color: #6D28D9;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #EDE9FE;
+    border-color: #C4B5FD;
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 906,
+    name: "Outline Success Button",
+    preview: (
+        <button className="btn-906">
+            <i className="fa-solid fa-check-double"></i>
+            Approve
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-check-double"></i>
+    Approve
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px 17px;
+    border: 1px solid #22C55E;
+    border-radius: 10px;
+    background: transparent;
+    color: #15803D;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #F0FDF4;
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 907,
+    name: "Circle Arrow Button",
+    preview: (
+        <button className="btn-907">
+            <i className="fa-solid fa-arrow-up"></i>
+        </button>
+    ),
+    html: `<button class="Button" aria-label="Go up">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>`,
+    css: `.Button {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #E3DED3;
+    border-radius: 50%;
+    background: #FFFFFF;
+    color: #2D2A26;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #2D2A26;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+}
+.Button i {
+    font-size: 13px;
+}`,
+},
+{
+    id: 908,
+    name: "Download Button",
+    preview: (
+        <button className="btn-908">
+            <i className="fa-solid fa-download"></i>
+            Download
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-download"></i>
+    Download
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #D4D4D8;
+    border-radius: 9px;
+    background: #fff;
+    color: #3F3F46;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    border-color: #A1A1AA;
+    background: #FAFAFA;
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 909,
+    name: "Upload Button",
+    preview: (
+        <button className="btn-909">
+            <i className="fa-solid fa-upload"></i>
+            Upload file
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-upload"></i>
+    Upload file
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px dashed #A1A1AA;
+    border-radius: 10px;
+    background: #FAFAFA;
+    color: #52525B;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    border-color: #71717A;
+    background: #F4F4F5;
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 910,
+    name: "Add Button",
+    preview: (
+        <button className="btn-910">
+            <i className="fa-solid fa-plus"></i>
+            Add item
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-plus"></i>
+    Add item
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    border: 1px solid #D4D4D8;
+    border-radius: 9px;
+    background: #fff;
+    color: #18181B;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    border-color: #A1A1AA;
+    box-shadow: 0 3px 8px rgba(0,0,0,.07);
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 911,
+    name: "Minus Button",
+    preview: (
+        <button className="btn-911">
+            <i className="fa-solid fa-minus"></i>
+            Remove
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-minus"></i>
+    Remove
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    border: 1px solid #E4E4E7;
+    border-radius: 9px;
+    background: #fff;
+    color: #52525B;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #FAFAFA;
+    color: #18181B;
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 912,
+    name: "Search Button",
+    preview: (
+        <button className="btn-912">
+            <i className="fa-solid fa-magnifying-glass"></i>
+            Search
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    Search
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #E4E4E7;
+    border-radius: 10px;
+    background: #FAFAFA;
+    color: #3F3F46;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #F4F4F5;
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 913,
+    name: "Menu Button",
+    preview: (
+        <button className="btn-913">
+            <i className="fa-solid fa-bars"></i>
+            Menu
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-bars"></i>
+    Menu
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 9px;
+    background: #F4F1EA;
+    color: #2D2A26;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #E8E2D7;
+}
+.Button i {
+    font-size: 12px;
+}`,
+},
+{
+    id: 914,
+    name: "Share Button",
+    preview: (
+        <button className="btn-914">
+            <i className="fa-solid fa-share-nodes"></i>
+            Share
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-share-nodes"></i>
+    Share
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #E4E4E7;
+    border-radius: 999px;
+    background: #fff;
+    color: #3F3F46;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    border-color: #A1A1AA;
+    color: #18181B;
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 915,
+    name: "Bookmark Button",
+    preview: (
+        <button className="btn-915">
+            <i className="fa-regular fa-bookmark"></i>
+            Save
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-regular fa-bookmark"></i>
+    Save
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 14px;
+    border: 1px solid #E4E4E7;
+    border-radius: 9px;
+    background: #fff;
+    color: #52525B;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    color: #D97757;
+    border-color: #D97757;
+    background: #FFF7F3;
+}
+.Button i {
+    font-size: 12px;
+}`,
+},
+{
+    id: 916,
+    name: "Favorite Button",
+    preview: (
+        <button className="btn-916">
+            <i className="fa-regular fa-heart"></i>
+            Favorite
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-regular fa-heart"></i>
+    Favorite
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px 15px;
+    border: 1px solid #FBCFE8;
+    border-radius: 10px;
+    background: #FFF1F2;
+    color: #BE185D;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #FCE7F3;
+    border-color: #F9A8D4;
+}
+.Button i {
+    font-size: 12px;
+}`,
+},
+{
+    id: 917,
+    name: "Play Button",
+    preview: (
+        <button className="btn-917">
+            <span className="btn-917__icon">
+                <i className="fa-solid fa-play"></i>
+            </span>
+            Watch demo
+        </button>
+    ),
+    html: `<button class="Button">
+    <span class="Button-icon">
+        <i class="fa-solid fa-play"></i>
+    </span>
+    Watch demo
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 6px 13px 6px 7px;
+    border: 1px solid #E4E4E7;
+    border-radius: 999px;
+    background: #fff;
+    color: #2D2A26;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button-icon {
+    width: 29px;
+    height: 29px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #2D2A26;
+    color: #fff;
+}
+.Button-icon i {
+    margin-left: 2px;
+    font-size: 9px;
+}
+.Button:hover {
+    border-color: #A1A1AA;
+    box-shadow: 0 3px 10px rgba(0,0,0,.07);
+}`,
+},
+{
+    id: 918,
+    name: "Login Button",
+    preview: (
+        <button className="btn-918">
+            <i className="fa-solid fa-arrow-right-to-bracket"></i>
+            Sign in
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-arrow-right-to-bracket"></i>
+    Sign in
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #2D2A26;
+    border-radius: 9px;
+    background: #2D2A26;
+    color: #F4F1EA;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #46423B;
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 919,
+    name: "Logout Button",
+    preview: (
+        <button className="btn-919">
+            <i className="fa-solid fa-arrow-right-from-bracket"></i>
+            Sign out
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+    Sign out
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #E4E4E7;
+    border-radius: 9px;
+    background: #fff;
+    color: #52525B;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    color: #C1443C;
+    border-color: #FECACA;
+    background: #FEF2F2;
+}`,
+},
+{
+    id: 920,
+    name: "Gradient CTA Button",
+    preview: (
+        <button className="btn-920">
+            Get started
+            <i className="fa-solid fa-arrow-right"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Get started
+    <i class="fa-solid fa-arrow-right"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 11px 19px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #D97757, #B45309);
+    color: #fff;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 5px 18px rgba(217,119,87,.24);
+}
+.Button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(217,119,87,.3);
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 921,
+    name: "Blue Gradient Button",
+    preview: (
+        <button className="btn-921">
+            Launch project
+            <i className="fa-solid fa-rocket"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Launch project
+    <i class="fa-solid fa-rocket"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #2563EB, #06B6D4);
+    color: #fff;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button:hover {
+    filter: brightness(1.08);
+    transform: translateY(-1px);
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 922,
+    name: "Purple Gradient Button",
+    preview: (
+        <button className="btn-922">
+            Create with AI
+            <i className="fa-solid fa-sparkles"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Create with AI
+    <i class="fa-solid fa-sparkles"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #7C3AED, #C026D3);
+    color: #fff;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button:hover {
+    filter: brightness(1.08);
+    box-shadow: 0 7px 20px rgba(124,58,237,.25);
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 923,
+    name: "Glow Button",
+    preview: (
+        <button className="btn-923">
+            <i className="fa-solid fa-bolt"></i>
+            Activate
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-bolt"></i>
+    Activate
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #38BDF8;
+    border-radius: 10px;
+    background: #082F49;
+    color: #7DD3FC;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 0 16px rgba(56,189,248,.15);
+}
+.Button:hover {
+    background: #0C4A6E;
+    box-shadow: 0 0 25px rgba(56,189,248,.35);
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 924,
+    name: "Glass Button",
+    preview: (
+        <button className="btn-924">
+            <i className="fa-solid fa-layer-group"></i>
+            Continue
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-layer-group"></i>
+    Continue
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 10px;
+    background: rgba(255,255,255,.12);
+    color: #fff;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    backdrop-filter: blur(12px);
+}
+.Button:hover {
+    background: rgba(255,255,255,.22);
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 925,
+    name: "Glass Outline Button",
+    preview: (
+        <button className="btn-925">
+            Explore
+        </button>
+    ),
+    html: `<button class="Button">
+    Explore
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 19px;
+    border: 1px solid rgba(255,255,255,.5);
+    border-radius: 999px;
+    background: rgba(255,255,255,.06);
+    color: #fff;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+}
+.Button:hover {
+    background: rgba(255,255,255,.15);
+}`,
+},
+{
+    id: 926,
+    name: "3D Clay Button",
+    preview: (
+        <button className="btn-926">
+            Buy now
+        </button>
+    ),
+    html: `<button class="Button">
+    Buy now
+</button>`,
+    css: `.Button {
+    padding: 11px 20px;
+    border: none;
+    border-radius: 9px;
+    background: #D97757;
+    color: #fff;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #A6573A;
+}
+.Button:hover {
+    filter: brightness(1.05);
+}
+.Button:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px 0 #A6573A;
+}`,
+},
+{
+    id: 927,
+    name: "3D Blue Button",
+    preview: (
+        <button className="btn-927">
+            Start now
+        </button>
+    ),
+    html: `<button class="Button">
+    Start now
+</button>`,
+    css: `.Button {
+    padding: 11px 20px;
+    border: none;
+    border-radius: 9px;
+    background: #3B82F6;
+    color: #fff;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #1D4ED8;
+}
+.Button:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px 0 #1D4ED8;
+}`,
+},
+{
+    id: 928,
+    name: "Neumorphic Button",
+    preview: (
+        <button className="btn-928">
+            Play
+        </button>
+    ),
+    html: `<button class="Button">
+    Play
+</button>`,
+    css: `.Button {
+    padding: 11px 20px;
+    border: none;
+    border-radius: 11px;
+    background: #E6E2D8;
+    color: #2D2A26;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 6px 6px 12px rgba(163,157,140,.5), -6px -6px 12px rgba(255,255,255,.8);
+}
+.Button:hover {
+    box-shadow: 4px 4px 8px rgba(163,157,140,.5), -4px -4px 8px rgba(255,255,255,.8);
+}`,
+},
+{
+    id: 929,
+    name: "Neumorphic Pressed",
+    preview: (
+        <button className="btn-929">
+            Selected
+        </button>
+    ),
+    html: `<button class="Button">
+    Selected
+</button>`,
+    css: `.Button {
+    padding: 11px 20px;
+    border: none;
+    border-radius: 11px;
+    background: #E6E2D8;
+    color: #C15F3C;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: inset 4px 4px 8px rgba(163,157,140,.5), inset -4px -4px 8px rgba(255,255,255,.8);
+}`,
+},
+{
+    id: 930,
+    name: "Badge Button",
+    preview: (
+        <button className="btn-930">
+            Notifications
+            <span>4</span>
+        </button>
+    ),
+    html: `<button class="Button">
+    Notifications
+    <span>4</span>
+</button>`,
+    css: `.Button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 17px;
+    border: 1px solid #E4E4E7;
+    border-radius: 9px;
+    background: #fff;
+    color: #3F3F46;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button span {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    width: 19px;
+    height: 19px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #D97757;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+}
+.Button:hover {
+    border-color: #D97757;
+}`,
+},
+{
+    id: 931,
+    name: "Split Button",
+    preview: (
+        <div className="btn-931">
+            <button>Deploy</button>
+            <button aria-label="More options">
+                <i className="fa-solid fa-chevron-down"></i>
+            </button>
+        </div>
+    ),
+    html: `<div class="ButtonGroup">
+    <button>Deploy</button>
+    <button aria-label="More options">
+        <i class="fa-solid fa-chevron-down"></i>
+    </button>
+</div>`,
+    css: `.ButtonGroup {
+    display: inline-flex;
+    overflow: hidden;
+    border-radius: 9px;
+}
+.ButtonGroup button {
+    height: 40px;
+    border: none;
+    background: #2D2A26;
+    color: #F4F1EA;
+    padding: 0 15px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.ButtonGroup button + button {
+    width: 38px;
+    padding: 0;
+    border-left: 1px solid rgba(255,255,255,.2);
+}
+.ButtonGroup button:hover {
+    background: #46423B;
+}
+.ButtonGroup i {
+    font-size: 9px;
+}`,
+},
+{
+    id: 932,
+    name: "Wide Action Button",
+    preview: (
+        <button className="btn-932">
+            <span>
+                <i className="fa-solid fa-rocket"></i>
+                Launch workspace
+            </span>
+            <i className="fa-solid fa-arrow-right"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    <span>
+        <i class="fa-solid fa-rocket"></i>
+        Launch workspace
+    </span>
+    <i class="fa-solid fa-arrow-right"></i>
+</button>`,
+    css: `.Button {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+    border: 1px solid #E4E4E7;
+    border-radius: 11px;
+    background: #fff;
+    color: #18181B;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button > span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.Button > span i {
+    color: #D97757;
+}
+.Button > i {
+    color: #A1A1AA;
+}
+.Button:hover {
+    border-color: #D97757;
+    box-shadow: 0 4px 12px rgba(45,42,38,.08);
+}`,
+},
+{
+    id: 933,
+    name: "Compact Icon Button",
+    preview: (
+        <button className="btn-933" aria-label="Settings">
+            <i className="fa-solid fa-gear"></i>
+        </button>
+    ),
+    html: `<button class="Button" aria-label="Settings">
+    <i class="fa-solid fa-gear"></i>
+</button>`,
+    css: `.Button {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #E4E4E7;
+    border-radius: 8px;
+    background: #fff;
+    color: #71717A;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #F4F4F5;
+    color: #18181B;
+}
+.Button i {
+    font-size: 12px;
+}`,
+},
+{
+    id: 934,
+    name: "Floating Action Button",
+    preview: (
+        <button className="btn-934" aria-label="Create">
+            <i className="fa-solid fa-plus"></i>
+        </button>
+    ),
+    html: `<button class="Button" aria-label="Create">
+    <i class="fa-solid fa-plus"></i>
+</button>`,
+    css: `.Button {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border: none;
+    border-radius: 50%;
+    background: #D97757;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(217,119,87,.28);
+}
+.Button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(217,119,87,.35);
+}
+.Button i {
+    font-size: 17px;
+}`,
+},
+{
+    id: 935,
+    name: "Social GitHub Button",
+    preview: (
+        <button className="btn-935">
+            <i className="fa-brands fa-github"></i>
+            Continue with GitHub
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-brands fa-github"></i>
+    Continue with GitHub
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    padding: 10px 18px;
+    border: 1px solid #D4D4D8;
+    border-radius: 9px;
+    background: #fff;
+    color: #18181B;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #F4F4F5;
+}
+.Button i {
+    font-size: 15px;
+}`,
+},
+{
+    id: 936,
+    name: "Social Google Button",
+    preview: (
+        <button className="btn-936">
+            <i className="fa-brands fa-google"></i>
+            Continue with Google
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-brands fa-google"></i>
+    Continue with Google
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    padding: 10px 18px;
+    border: 1px solid #D4D4D8;
+    border-radius: 9px;
+    background: #fff;
+    color: #18181B;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #FAFAFA;
+    box-shadow: 0 3px 10px rgba(0,0,0,.06);
+}
+.Button i {
+    font-size: 14px;
+}`,
+},
+{
+    id: 937,
+    name: "Filter Button",
+    preview: (
+        <button className="btn-937">
+            <i className="fa-solid fa-sliders"></i>
+            Filters
+            <span>2</span>
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-sliders"></i>
+    Filters
+    <span>2</span>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 13px;
+    border: 1px solid #E4E4E7;
+    border-radius: 9px;
+    background: #fff;
+    color: #52525B;
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button span {
+    min-width: 17px;
+    height: 17px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #2D2A26;
+    color: #fff;
+    font-size: 8px;
+}
+.Button:hover {
+    border-color: #A1A1AA;
+}
+.Button i {
+    font-size: 10px;
+}`,
+},
+{
+    id: 938,
+    name: "Expand Button",
+    preview: (
+        <button className="btn-938">
+            Expand
+            <i className="fa-solid fa-up-right-and-down-left-from-center"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Expand
+    <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 14px;
+    border: none;
+    border-radius: 8px;
+    background: #F4F4F5;
+    color: #52525B;
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #E4E4E7;
+    color: #18181B;
+}
+.Button i {
+    font-size: 10px;
+}`,
+},
+{
+    id: 939,
+    name: "Copy Code Button",
+    preview: (
+        <button className="btn-939">
+            <i className="fa-regular fa-copy"></i>
+            Copy code
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-regular fa-copy"></i>
+    Copy code
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 12px;
+    border: 1px solid #30363D;
+    border-radius: 7px;
+    background: #0D1117;
+    color: #C9D1D9;
+    font-family: monospace;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #161B22;
+    color: #fff;
+}
+.Button i {
+    font-size: 10px;
+}`,
+},
+{
+    id: 940,
+    name: "Terminal Button",
+    preview: (
+        <button className="btn-940">
+            <i className="fa-solid fa-terminal"></i>
+            Run command
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-terminal"></i>
+    Run command
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 14px;
+    border: 1px solid #334155;
+    border-radius: 7px;
+    background: #020617;
+    color: #22C55E;
+    font-family: monospace;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Button:hover {
+    border-color: #22C55E;
+    box-shadow: 0 0 14px rgba(34,197,94,.12);
+}
+.Button i {
+    font-size: 10px;
+}`,
+},
+{
+    id: 941,
+    name: "Loading Progress Button",
+    preview: (
+        <button className="btn-941" disabled>
+            <span className="btn-941__fill"></span>
+            <span className="btn-941__text">Uploading 62%</span>
+        </button>
+    ),
+    html: `<button class="Button" disabled>
+    <span class="Button-fill"></span>
+    <span class="Button-text">Uploading 62%</span>
+</button>`,
+    css: `.Button {
+    position: relative;
+    width: 155px;
+    height: 42px;
+    overflow: hidden;
+    border: 1px solid #D4D4D8;
+    border-radius: 9px;
+    background: #F4F4F5;
+    color: #3F3F46;
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: not-allowed;
+}
+.Button-fill {
+    position: absolute;
+    inset: 0;
+    width: 62%;
+    background: #D97757;
+}
+.Button-text {
+    position: relative;
+    z-index: 1;
+}`,
+},
+{
+    id: 942,
+    name: "Pulse Button",
+    preview: (
+        <button className="btn-942">
+            <span></span>
+            Live
+        </button>
+    ),
+    html: `<button class="Button">
+    <span></span>
+    Live
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 14px;
+    border: 1px solid #BBF7D0;
+    border-radius: 999px;
+    background: #F0FDF4;
+    color: #15803D;
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button > span {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #22C55E;
+    box-shadow: 0 0 0 0 rgba(34,197,94,.5);
+    animation: pulse-dot 1.6s infinite;
+}
+@keyframes pulse-dot {
+    70% {
+        box-shadow: 0 0 0 7px rgba(34,197,94,0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(34,197,94,0);
+    }
+}`,
+},
+{
+    id: 943,
+    name: "Tag Button",
+    preview: (
+        <button className="btn-943">
+            React
+            <i className="fa-solid fa-xmark"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    React
+    <i class="fa-solid fa-xmark"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 6px 9px;
+    border: 1px solid #DBEAFE;
+    border-radius: 999px;
+    background: #EFF6FF;
+    color: #1D4ED8;
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button i {
+    font-size: 9px;
+}
+.Button:hover {
+    background: #DBEAFE;
+}`,
+},
+{
+    id: 944,
+    name: "Filter Active Button",
+    preview: (
+        <button className="btn-944">
+            <i className="fa-solid fa-filter"></i>
+            Active
+            <i className="fa-solid fa-xmark"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-filter"></i>
+    Active
+    <i class="fa-solid fa-xmark"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 7px 10px;
+    border: 1px solid #C7D2FE;
+    border-radius: 999px;
+    background: #EEF2FF;
+    color: #4338CA;
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button i {
+    font-size: 9px;
+}
+.Button:hover {
+    background: #E0E7FF;
+}`,
+},
+{
+    id: 945,
+    name: "Chevron Button",
+    preview: (
+        <button className="btn-945">
+            Next
+            <i className="fa-solid fa-chevron-right"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Next
+    <i class="fa-solid fa-chevron-right"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 13px;
+    border: 1px solid #E4E4E7;
+    border-radius: 8px;
+    background: #fff;
+    color: #3F3F46;
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #F4F4F5;
+}
+.Button i {
+    color: #A1A1AA;
+    font-size: 9px;
+}`,
+},
+{
+    id: 946,
+    name: "Back Button",
+    preview: (
+        <button className="btn-946">
+            <i className="fa-solid fa-arrow-left"></i>
+            Back
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-arrow-left"></i>
+    Back
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 13px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #52525B;
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #F4F4F5;
+    color: #18181B;
+}
+.Button i {
+    font-size: 10px;
+}`,
+},
+{
+    id: 947,
+    name: "Confirm Button",
+    preview: (
+        <button className="btn-947">
+            Confirm changes
+            <i className="fa-solid fa-check"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Confirm changes
+    <i class="fa-solid fa-check"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: none;
+    border-radius: 9px;
+    background: #18181B;
+    color: #fff;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #3F3F46;
+}
+.Button i {
+    color: #4ADE80;
+    font-size: 10px;
+}`,
+},
+{
+    id: 948,
+    name: "Try Free Button",
+    preview: (
+        <button className="btn-948">
+            Try for free
+            <span>14 days</span>
+        </button>
+    ),
+    html: `<button class="Button">
+    Try for free
+    <span>14 days</span>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    border: 1px solid #C4B5FD;
+    border-radius: 10px;
+    background: #F5F3FF;
+    color: #5B21B6;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button span {
+    padding: 3px 6px;
+    border-radius: 999px;
+    background: #DDD6FE;
+    color: #6D28D9;
+    font-size: 8px;
+    font-weight: 800;
+}
+.Button:hover {
+    background: #EDE9FE;
+}`,
+},
+{
+    id: 949,
+    name: "Premium Button",
+    preview: (
+        <button className="btn-949">
+            <i className="fa-solid fa-crown"></i>
+            Go premium
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-crown"></i>
+    Go premium
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #EAB308;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #FDE68A, #FACC15);
+    color: #713F12;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.Button:hover {
+    filter: brightness(1.04);
+    box-shadow: 0 6px 16px rgba(234,179,8,.22);
+}
+.Button i {
+    font-size: 12px;
+}`,
+},
+{
+    id: 950,
+    name: "Emergency Button",
+    preview: (
+        <button className="btn-950">
+            <i className="fa-solid fa-triangle-exclamation"></i>
+            Emergency action
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-triangle-exclamation"></i>
+    Emergency action
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #DC2626;
+    border-radius: 9px;
+    background: #DC2626;
+    color: #fff;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #B91C1C;
+    box-shadow: 0 5px 14px rgba(220,38,38,.2);
+}
+.Button i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 951,
+    name: "Ultimate CTA Button",
+    preview: (
+        <button className="btn-951">
+            <span className="btn-951__icon">
+                <i className="fa-solid fa-sparkles"></i>
+            </span>
+            Build something amazing
+            <span className="btn-951__arrow">
+                <i className="fa-solid fa-arrow-right"></i>
+            </span>
+        </button>
+    ),
+    html: `<button class="Button">
+    <span class="Button-icon">
+        <i class="fa-solid fa-sparkles"></i>
+    </span>
+    Build something amazing
+    <span class="Button-arrow">
+        <i class="fa-solid fa-arrow-right"></i>
+    </span>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 7px 6px 7px;
+    border: 1px solid #D97757;
+    border-radius: 999px;
+    background: #2D2A26;
+    color: #fff;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(45,42,38,.18);
+}
+.Button-icon {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #D97757;
+    color: #fff;
+}
+.Button-arrow {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #fff;
+    color: #2D2A26;
+}
+.Button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(45,42,38,.22);
+}
+.Button i {
+    font-size: 10px;
+}`,
+},
+
+
 
 
 
