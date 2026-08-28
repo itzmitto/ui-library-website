@@ -20406,7 +20406,4049 @@ export const cards = [
     font-weight: 700;
 }`,
 },
+    {
+        id: 1202,
+        name: "Profile Card",
+        preview: (
+            <div className="card-1202">
+                <div className="card-1202-avatar">A</div>
+                <div className="card-1202-content">
+                    <h3>André</h3>
+                    <span>Software Developer</span>
+                    <p>Building modern interfaces and learning new technologies every day.</p>
+                    <button>View profile</button>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-avatar">A</div>
+    <div class="Card-content">
+        <h3>André</h3>
+        <span>Software Developer</span>
+        <p>Building modern interfaces and learning new technologies every day.</p>
+        <button>View profile</button>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 320px;
+    padding: 24px;
+    background: #ffffff;
+    border: 1px solid #e4e4e7;
+    border-radius: 20px;
+}
+.Card-avatar {
+    width: 56px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #18181b;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.Card-content h3 {
+    margin: 18px 0 4px;
+}
+.Card-content span {
+    color: #71717a;
+    font-size: 13px;
+}
+.Card-content p {
+    color: #52525b;
+    font-size: 13px;
+    line-height: 1.6;
+}
+.Card-content button {
+    margin-top: 8px;
+    padding: 9px 14px;
+    border: none;
+    border-radius: 9px;
+    background: #18181b;
+    color: #ffffff;
+    cursor: pointer;
+}`
+    },
+    {
+        id: 1152,
+        name: "Glass Profile Card",
+        preview: (
+            <div className="card-1152">
+                <div className="card-1152-glow"></div>
+                <div className="card-1152-avatar">
+                    <i className="fa-solid fa-user"></i>
+                </div>
+                <h3>Creative Profile</h3>
+                <span>UI Designer</span>
+                <p>Designing beautiful products with thoughtful interactions.</p>
+                <div className="card-1152-stats">
+                    <div>
+                        <strong>48</strong>
+                        <span>Projects</span>
+                    </div>
+                    <div>
+                        <strong>12k</strong>
+                        <span>Likes</span>
+                    </div>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-glow"></div>
+    <div class="Card-avatar">
+        <i class="fa-solid fa-user"></i>
+    </div>
+    <h3>Creative Profile</h3>
+    <span>UI Designer</span>
+    <p>Designing beautiful products with thoughtful interactions.</p>
+    <div class="Card-stats">
+        <div>
+            <strong>48</strong>
+            <span>Projects</span>
+        </div>
+        <div>
+            <strong>12k</strong>
+            <span>Likes</span>
+        </div>
+    </div>
+</div>`,
+        css: `.Card {
+    position: relative;
+    overflow: hidden;
+    width: 320px;
+    padding: 26px;
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.18);
+    border-radius: 22px;
+    color: white;
+    backdrop-filter: blur(18px);
+}
+.Card-glow {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: -80px;
+    top: -80px;
+    background: #8b5cf6;
+    filter: blur(60px);
+    opacity: .4;
+}
+.Card-avatar {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+    background: rgba(255,255,255,.12);
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 16px;
+}
+.Card h3 {
+    margin: 20px 0 4px;
+}
+.Card > span {
+    color: rgba(255,255,255,.6);
+    font-size: 13px;
+}
+.Card p {
+    color: rgba(255,255,255,.72);
+    font-size: 13px;
+    line-height: 1.6;
+}
+.Card-stats {
+    display: flex;
+    gap: 35px;
+    margin-top: 22px;
+}
+.Card-stats div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.Card-stats span {
+    color: rgba(255,255,255,.5);
+    font-size: 11px;
+}`
+    },
+    {
+        id: 1153,
+        name: "Product Card",
+        preview: (
+            <div className="card-1153">
+                <div className="card-1153-image">
+                    <i className="fa-solid fa-headphones"></i>
+                </div>
+                <div className="card-1153-body">
+                    <span>Audio</span>
+                    <h3>Studio Headphones</h3>
+                    <p>Premium sound for creators.</p>
+                    <div className="card-1153-bottom">
+                        <strong>€129</strong>
+                        <button>
+                            <i className="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-image">
+        <i class="fa-solid fa-headphones"></i>
+    </div>
+    <div class="Card-body">
+        <span>Audio</span>
+        <h3>Studio Headphones</h3>
+        <p>Premium sound for creators.</p>
+        <div class="Card-bottom">
+            <strong>€129</strong>
+            <button>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+        </div>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 300px;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid #e4e4e7;
+    border-radius: 18px;
+}
+.Card-image {
+    height: 170px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg,#e0f2fe,#c4b5fd);
+    font-size: 46px;
+    color: #18181b;
+}
+.Card-body {
+    padding: 20px;
+}
+.Card-body > span {
+    color: #71717a;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.Card-body h3 {
+    margin: 8px 0;
+}
+.Card-body p {
+    margin: 0;
+    color: #71717a;
+    font-size: 13px;
+}
+.Card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.Card-bottom strong {
+    font-size: 20px;
+}
+.Card-bottom button {
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 10px;
+    background: #18181b;
+    color: white;
+    cursor: pointer;
+}`
+    },
+    {
+        id: 1154,
+        name: "Article Card",
+        preview: (
+            <article className="card-1154">
+                <span className="card-1154-category">DESIGN</span>
+                <h3>Designing interfaces that feel effortless</h3>
+                <p>Simple patterns can make complex products easier to understand.</p>
+                <div className="card-1154-meta">
+                    <span>6 min read</span>
+                    <i className="fa-solid fa-arrow-right"></i>
+                </div>
+            </article>
+        ),
+        html: `<article class="Card">
+    <span class="Card-category">DESIGN</span>
+    <h3>Designing interfaces that feel effortless</h3>
+    <p>Simple patterns can make complex products easier to understand.</p>
+    <div class="Card-meta">
+        <span>6 min read</span>
+        <i class="fa-solid fa-arrow-right"></i>
+    </div>
+</article>`,
+        css: `.Card {
+    width: 320px;
+    padding: 24px;
+    background: #fafafa;
+    border: 1px solid #e4e4e7;
+    border-radius: 18px;
+}
+.Card-category {
+    color: #7c3aed;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.Card h3 {
+    font-size: 21px;
+    line-height: 1.25;
+    margin: 14px 0 10px;
+}
+.Card p {
+    color: #71717a;
+    font-size: 13px;
+    line-height: 1.6;
+}
+.Card-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    color: #71717a;
+    font-size: 12px;
+}`
+    },
+    {
+        id: 1155,
+        name: "Pricing Card",
+        preview: (
+            <div className="card-1155">
+                <span className="card-1155-badge">POPULAR</span>
+                <h3>Pro</h3>
+                <p>For creators building serious products.</p>
+                <div className="card-1155-price">
+                    <strong>€19</strong>
+                    <span>/month</span>
+                </div>
+                <button>Start free trial</button>
+                <ul>
+                    <li><i className="fa-solid fa-check"></i> Unlimited projects</li>
+                    <li><i className="fa-solid fa-check"></i> Advanced analytics</li>
+                    <li><i className="fa-solid fa-check"></i> Priority support</li>
+                </ul>
+            </div>
+        ),
+        html: `<div class="Card">
+    <span class="Card-badge">POPULAR</span>
+    <h3>Pro</h3>
+    <p>For creators building serious products.</p>
+    <div class="Card-price">
+        <strong>€19</strong>
+        <span>/month</span>
+    </div>
+    <button>Start free trial</button>
+    <ul>
+        <li><i class="fa-solid fa-check"></i> Unlimited projects</li>
+        <li><i class="fa-solid fa-check"></i> Advanced analytics</li>
+        <li><i class="fa-solid fa-check"></i> Priority support</li>
+    </ul>
+</div>`,
+        css: `.Card {
+    position: relative;
+    width: 300px;
+    padding: 28px;
+    background: #18181b;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid #3f3f46;
+}
+.Card-badge {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    padding: 5px 8px;
+    background: #7c3aed;
+    border-radius: 999px;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Card h3 {
+    font-size: 25px;
+}
+.Card p {
+    color: #a1a1aa;
+    line-height: 1.5;
+    font-size: 13px;
+}
+.Card-price {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    margin: 25px 0;
+}
+.Card-price strong {
+    font-size: 38px;
+}
+.Card-price span {
+    color: #71717a;
+}
+.Card > button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background: #7c3aed;
+    color: white;
+    font-weight: 600;
+}
+.Card ul {
+    list-style: none;
+    padding: 0;
+    margin: 22px 0 0;
+}
+.Card li {
+    margin: 12px 0;
+    font-size: 12px;
+    color: #d4d4d8;
+}
+.Card li i {
+    color: #a78bfa;
+    margin-right: 8px;
+}`
+    },
+    {
+        id: 1156,
+        name: "Stats Card",
+        preview: (
+            <div className="card-1156">
+                <div className="card-1156-top">
+                    <span>Total revenue</span>
+                    <i className="fa-solid fa-chart-line"></i>
+                </div>
+                <strong>€24,892</strong>
+                <div className="card-1156-growth">
+                    <span>+18.4%</span>
+                    <p>from last month</p>
+                </div>
+                <div className="card-1156-chart">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-top">
+        <span>Total revenue</span>
+        <i class="fa-solid fa-chart-line"></i>
+    </div>
+    <strong>€24,892</strong>
+    <div class="Card-growth">
+        <span>+18.4%</span>
+        <p>from last month</p>
+    </div>
+    <div class="Card-chart">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 310px;
+    padding: 22px;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 18px;
+}
+.Card-top {
+    display: flex;
+    justify-content: space-between;
+    color: #71717a;
+    font-size: 12px;
+}
+.Card-top i {
+    color: #2563eb;
+}
+.Card > strong {
+    display: block;
+    font-size: 32px;
+    margin: 18px 0 8px;
+}
+.Card-growth {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.Card-growth span {
+    color: #16a34a;
+    font-size: 12px;
+    font-weight: 700;
+}
+.Card-growth p {
+    color: #a1a1aa;
+    font-size: 11px;
+    margin: 0;
+}
+.Card-chart {
+    height: 55px;
+    display: flex;
+    align-items: flex-end;
+    gap: 7px;
+    margin-top: 20px;
+}
+.Card-chart span {
+    flex: 1;
+    background: linear-gradient(#60a5fa,#2563eb);
+    border-radius: 5px 5px 2px 2px;
+}
+.Card-chart span:nth-child(1) { height: 35%; }
+.Card-chart span:nth-child(2) { height: 55%; }
+.Card-chart span:nth-child(3) { height: 42%; }
+.Card-chart span:nth-child(4) { height: 75%; }
+.Card-chart span:nth-child(5) { height: 60%; }
+.Card-chart span:nth-child(6) { height: 86%; }
+.Card-chart span:nth-child(7) { height: 100%; }`
+    },
+    {
+        id: 1157,
+        name: "Team Member Card",
+        preview: (
+            <div className="card-1157">
+                <div className="card-1157-avatar">AK</div>
+                <div>
+                    <h3>Alex Kim</h3>
+                    <span>Frontend Engineer</span>
+                </div>
+                <button>
+                    <i className="fa-solid fa-ellipsis"></i>
+                </button>
+                <p>React specialist focused on fast and accessible interfaces.</p>
+                <div className="card-1157-tags">
+                    <span>React</span>
+                    <span>TypeScript</span>
+                    <span>UI</span>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-avatar">AK</div>
+    <div>
+        <h3>Alex Kim</h3>
+        <span>Frontend Engineer</span>
+    </div>
+    <button>
+        <i class="fa-solid fa-ellipsis"></i>
+    </button>
+    <p>React specialist focused on fast and accessible interfaces.</p>
+    <div class="Card-tags">
+        <span>React</span>
+        <span>TypeScript</span>
+        <span>UI</span>
+    </div>
+</div>`,
+        css: `.Card {
+    position: relative;
+    width: 320px;
+    padding: 22px;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 18px;
+}
+.Card-avatar {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    float: left;
+    margin-right: 13px;
+    border-radius: 14px;
+    background: #dbeafe;
+    color: #2563eb;
+    font-weight: 700;
+}
+.Card h3 {
+    margin: 3px 0;
+    font-size: 15px;
+}
+.Card > div span {
+    color: #71717a;
+    font-size: 11px;
+}
+.Card > button {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    border: none;
+    background: transparent;
+    color: #71717a;
+}
+.Card p {
+    clear: both;
+    padding-top: 18px;
+    color: #71717a;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.Card-tags {
+    display: flex;
+    gap: 6px;
+}
+.Card-tags span {
+    padding: 5px 8px;
+    background: #f4f4f5;
+    border-radius: 7px;
+    color: #52525b !important;
+}`
+    },
+    {
+        id: 1158,
+        name: "Notification Card",
+        preview: (
+            <div className="card-1158">
+                <div className="card-1158-icon">
+                    <i className="fa-solid fa-bell"></i>
+                </div>
+                <div>
+                    <h3>New notification</h3>
+                    <p>Your project was successfully deployed.</p>
+                    <span>2 minutes ago</span>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-icon">
+        <i class="fa-solid fa-bell"></i>
+    </div>
+    <div>
+        <h3>New notification</h3>
+        <p>Your project was successfully deployed.</p>
+        <span>2 minutes ago</span>
+    </div>
+</div>`,
+        css: `.Card {
+    display: flex;
+    gap: 14px;
+    width: 330px;
+    padding: 18px;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 16px;
+}
+.Card-icon {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #ede9fe;
+    color: #7c3aed;
+}
+.Card h3 {
+    margin: 2px 0 5px;
+    font-size: 14px;
+}
+.Card p {
+    margin: 0 0 7px;
+    color: #71717a;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.Card span {
+    color: #a1a1aa;
+    font-size: 10px;
+}`
+    },
+    {
+        id: 1159,
+        name: "Project Card",
+        preview: (
+            <div className="card-1159">
+                <div className="card-1159-header">
+                    <i className="fa-solid fa-folder"></i>
+                    <span>ACTIVE</span>
+                </div>
+                <h3>Dashboard Redesign</h3>
+                <p>Modernizing the analytics experience.</p>
+                <div className="card-1159-progress">
+                    <span></span>
+                </div>
+                <div className="card-1159-footer">
+                    <span>78% complete</span>
+                    <span>12 days left</span>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-header">
+        <i class="fa-solid fa-folder"></i>
+        <span>ACTIVE</span>
+    </div>
+    <h3>Dashboard Redesign</h3>
+    <p>Modernizing the analytics experience.</p>
+    <div class="Card-progress">
+        <span></span>
+    </div>
+    <div class="Card-footer">
+        <span>78% complete</span>
+        <span>12 days left</span>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 320px;
+    padding: 22px;
+    background: #18181b;
+    color: white;
+    border: 1px solid #3f3f46;
+    border-radius: 18px;
+}
+.Card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Card-header i {
+    color: #facc15;
+}
+.Card-header span {
+    padding: 4px 7px;
+    border-radius: 999px;
+    background: rgba(34,197,94,.12);
+    color: #4ade80;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Card h3 {
+    margin: 25px 0 7px;
+}
+.Card p {
+    color: #a1a1aa;
+    font-size: 12px;
+}
+.Card-progress {
+    height: 7px;
+    margin-top: 22px;
+    overflow: hidden;
+    background: #27272a;
+    border-radius: 999px;
+}
+.Card-progress span {
+    display: block;
+    width: 78%;
+    height: 100%;
+    background: linear-gradient(90deg,#8b5cf6,#ec4899);
+}
+.Card-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #71717a;
+    font-size: 10px;
+}`
+    },
+    {
+        id: 1160,
+        name: "Quote Card",
+        preview: (
+            <div className="card-1160">
+                <i className="fa-solid fa-quote-left"></i>
+                <blockquote>
+                    Great products are built by caring about the details that users never notice.
+                </blockquote>
+                <div className="card-1160-author">
+                    <div>JD</div>
+                    <span>Jordan Davis · Product Designer</span>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <i class="fa-solid fa-quote-left"></i>
+    <blockquote>
+        Great products are built by caring about the details that users never notice.
+    </blockquote>
+    <div class="Card-author">
+        <div>JD</div>
+        <span>Jordan Davis · Product Designer</span>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 330px;
+    padding: 25px;
+    background: #fff7ed;
+    border: 1px solid #fed7aa;
+    border-radius: 20px;
+}
+.Card > i {
+    color: #f97316;
+    font-size: 22px;
+}
+.Card blockquote {
+    margin: 18px 0 22px;
+    font-size: 17px;
+    line-height: 1.55;
+    color: #431407;
+}
+.Card-author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Card-author div {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #f97316;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+}
+.Card-author span {
+    font-size: 11px;
+    color: #9a3412;
+}`
+    },
+    {
+        id: 1161,
+        name: "Login Info Card",
+        preview: (
+            <div className="card-1161">
+                <div className="card-1161-icon">
+                    <i className="fa-solid fa-shield-halved"></i>
+                </div>
+                <h3>Protected workspace</h3>
+                <p>Your workspace is secured with enterprise-grade authentication.</p>
+                <div className="card-1161-secure">
+                    <i className="fa-solid fa-check"></i>
+                    Security enabled
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-icon">
+        <i class="fa-solid fa-shield-halved"></i>
+    </div>
+    <h3>Protected workspace</h3>
+    <p>Your workspace is secured with enterprise-grade authentication.</p>
+    <div class="Card-secure">
+        <i class="fa-solid fa-check"></i>
+        Security enabled
+    </div>
+</div>`,
+        css: `.Card {
+    width: 310px;
+    padding: 24px;
+    background: linear-gradient(145deg,#f0fdf4,#dcfce7);
+    border: 1px solid #bbf7d0;
+    border-radius: 18px;
+}
+.Card-icon {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border-radius: 14px;
+    background: #22c55e;
+    color: white;
+}
+.Card h3 {
+    margin: 18px 0 7px;
+}
+.Card p {
+    color: #166534;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.Card-secure {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 10px;
+    padding: 7px 10px;
+    border-radius: 8px;
+    background: white;
+    color: #15803d;
+    font-size: 11px;
+    font-weight: 600;
+}`
+    },
+    {
+        id: 1162,
+        name: "Music Card",
+        preview: (
+            <div className="card-1162">
+                <div className="card-1162-cover">
+                    <i className="fa-solid fa-music"></i>
+                </div>
+                <div className="card-1162-info">
+                    <h3>Midnight Echoes</h3>
+                    <p>Nova Collective</p>
+                    <div className="card-1162-player">
+                        <button>
+                            <i className="fa-solid fa-play"></i>
+                        </button>
+                        <div>
+                            <span></span>
+                        </div>
+                        <small>03:42</small>
+                    </div>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-cover">
+        <i class="fa-solid fa-music"></i>
+    </div>
+    <div class="Card-info">
+        <h3>Midnight Echoes</h3>
+        <p>Nova Collective</p>
+        <div class="Card-player">
+            <button>
+                <i class="fa-solid fa-play"></i>
+            </button>
+            <div>
+                <span></span>
+            </div>
+            <small>03:42</small>
+        </div>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 340px;
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+    background: #18181b;
+    border-radius: 18px;
+    color: white;
+}
+.Card-cover {
+    width: 95px;
+    height: 95px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: linear-gradient(135deg,#7c3aed,#ec4899);
+    font-size: 28px;
+}
+.Card-info {
+    flex: 1;
+}
+.Card-info h3 {
+    margin: 7px 0 3px;
+    font-size: 15px;
+}
+.Card-info p {
+    margin: 0;
+    color: #a1a1aa;
+    font-size: 11px;
+}
+.Card-player {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 25px;
+}
+.Card-player button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    color: #18181b;
+}
+.Card-player > div {
+    flex: 1;
+    height: 4px;
+    background: #3f3f46;
+    border-radius: 999px;
+}
+.Card-player > div span {
+    display: block;
+    width: 42%;
+    height: 100%;
+    background: #a78bfa;
+    border-radius: inherit;
+}
+.Card-player small {
+    color: #71717a;
+    font-size: 9px;
+}`
+    },
+    {
+        id: 1163,
+        name: "Event Card",
+        preview: (
+            <div className="card-1163">
+                <div className="card-1163-date">
+                    <strong>18</strong>
+                    <span>SEP</span>
+                </div>
+                <div className="card-1163-content">
+                    <span>10:00 AM · Amsterdam</span>
+                    <h3>Frontend Workshop</h3>
+                    <p>Learn practical techniques for creating scalable UI systems.</p>
+                    <button>Reserve seat</button>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-date">
+        <strong>18</strong>
+        <span>SEP</span>
+    </div>
+    <div class="Card-content">
+        <span>10:00 AM · Amsterdam</span>
+        <h3>Frontend Workshop</h3>
+        <p>Learn practical techniques for creating scalable UI systems.</p>
+        <button>Reserve seat</button>
+    </div>
+</div>`,
+        css: `.Card {
+    display: flex;
+    gap: 18px;
+    width: 350px;
+    padding: 22px;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 18px;
+}
+.Card-date {
+    width: 55px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background: #18181b;
+    color: white;
+    border-radius: 12px;
+}
+.Card-date strong {
+    font-size: 23px;
+}
+.Card-date span {
+    font-size: 9px;
+}
+.Card-content > span {
+    color: #71717a;
+    font-size: 10px;
+}
+.Card-content h3 {
+    margin: 7px 0;
+    font-size: 16px;
+}
+.Card-content p {
+    color: #71717a;
+    font-size: 11px;
+    line-height: 1.5;
+}
+.Card-content button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 11px;
+}`
+    },
+    {
+        id: 1164,
+        name: "Download Card",
+        preview: (
+            <div className="card-1164">
+                <div className="card-1164-icon">
+                    <i className="fa-solid fa-file-lines"></i>
+                </div>
+                <div className="card-1164-info">
+                    <h3>design-system.zip</h3>
+                    <p>24.8 MB · ZIP archive</p>
+                </div>
+                <button>
+                    <i className="fa-solid fa-download"></i>
+                </button>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-icon">
+        <i class="fa-solid fa-file-lines"></i>
+    </div>
+    <div class="Card-info">
+        <h3>design-system.zip</h3>
+        <p>24.8 MB · ZIP archive</p>
+    </div>
+    <button>
+        <i class="fa-solid fa-download"></i>
+    </button>
+</div>`,
+        css: `.Card {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    width: 350px;
+    padding: 15px;
+    background: #ffffff;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+}
+.Card-icon {
+    width: 43px;
+    height: 43px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: #dbeafe;
+    color: #2563eb;
+}
+.Card-info {
+    flex: 1;
+}
+.Card-info h3 {
+    margin: 0 0 3px;
+    font-size: 13px;
+}
+.Card-info p {
+    margin: 0;
+    color: #71717a;
+    font-size: 10px;
+}
+.Card > button {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 9px;
+    background: #f4f4f5;
+    color: #52525b;
+}`
+    },
+    {
+        id: 1165,
+        name: "Gradient Startup Card",
+        preview: (
+            <div className="card-1165">
+                <span className="card-1165-icon">
+                    <i className="fa-solid fa-rocket"></i>
+                </span>
+                <h3>Launch your next idea</h3>
+                <p>Everything you need to turn an idea into a real product.</p>
+                <button>Get started</button>
+            </div>
+        ),
+        html: `<div class="Card">
+    <span class="Card-icon">
+        <i class="fa-solid fa-rocket"></i>
+    </span>
+    <h3>Launch your next idea</h3>
+    <p>Everything you need to turn an idea into a real product.</p>
+    <button>Get started</button>
+</div>`,
+        css: `.Card {
+    width: 320px;
+    padding: 28px;
+    color: white;
+    border-radius: 22px;
+    background: linear-gradient(135deg,#2563eb,#7c3aed,#ec4899);
+}
+.Card-icon {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border-radius: 14px;
+    background: rgba(255,255,255,.15);
+}
+.Card h3 {
+    margin: 24px 0 8px;
+    font-size: 24px;
+}
+.Card p {
+    color: rgba(255,255,255,.8);
+    font-size: 13px;
+    line-height: 1.6;
+}
+.Card button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 9px;
+    background: white;
+    color: #312e81;
+    font-weight: 600;
+}`
+    },
+    {
+        id: 1166,
+        name: "Task Card",
+        preview: (
+            <div className="card-1166">
+                <div className="card-1166-check">
+                    <i className="fa-solid fa-check"></i>
+                </div>
+                <div>
+                    <h3>Finish component library</h3>
+                    <p>Build cards, buttons and form controls.</p>
+                </div>
+                <span>Today</span>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-check">
+        <i class="fa-solid fa-check"></i>
+    </div>
+    <div>
+        <h3>Finish component library</h3>
+        <p>Build cards, buttons and form controls.</p>
+    </div>
+    <span>Today</span>
+</div>`,
+        css: `.Card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 350px;
+    padding: 16px;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+}
+.Card-check {
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #dcfce7;
+    color: #16a34a;
+}
+.Card h3 {
+    margin: 0 0 4px;
+    font-size: 13px;
+}
+.Card p {
+    margin: 0;
+    color: #71717a;
+    font-size: 10px;
+}
+.Card > span {
+    margin-left: auto;
+    color: #a1a1aa;
+    font-size: 10px;
+}`
+    },
+    {
+        id: 1167,
+        name: "AI Card",
+        preview: (
+            <div className="card-1167">
+                <div className="card-1167-orb"></div>
+                <div className="card-1167-header">
+                    <i className="fa-solid fa-wand-magic-sparkles"></i>
+                    <span>AI ASSISTANT</span>
+                </div>
+                <h3>Generate something amazing</h3>
+                <p>Describe what you want and let AI help you build it.</p>
+                <button>
+                    Try AI
+                    <i className="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-orb"></div>
+    <div class="Card-header">
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+        <span>AI ASSISTANT</span>
+    </div>
+    <h3>Generate something amazing</h3>
+    <p>Describe what you want and let AI help you build it.</p>
+    <button>
+        Try AI
+        <i class="fa-solid fa-arrow-right"></i>
+    </button>
+</div>`,
+        css: `.Card {
+    position: relative;
+    overflow: hidden;
+    width: 330px;
+    padding: 26px;
+    background: #09090b;
+    color: white;
+    border: 1px solid #27272a;
+    border-radius: 20px;
+}
+.Card-orb {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    right: -40px;
+    top: -50px;
+    border-radius: 50%;
+    background: #8b5cf6;
+    filter: blur(60px);
+    opacity: .45;
+}
+.Card-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #c4b5fd;
+    font-size: 10px;
+    font-weight: 700;
+}
+.Card h3 {
+    position: relative;
+    margin: 25px 0 8px;
+    font-size: 22px;
+}
+.Card p {
+    position: relative;
+    color: #a1a1aa;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.Card button {
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 13px;
+    border: 1px solid #52525b;
+    border-radius: 9px;
+    background: #18181b;
+    color: white;
+}`
+    },
+    {
+        id: 1168,
+        name: "Team Invite Card",
+        preview: (
+            <div className="card-1168">
+                <div className="card-1168-icon">
+                    <i className="fa-solid fa-user-plus"></i>
+                </div>
+                <h3>Invite teammates</h3>
+                <p>Collaborate with your team and build faster together.</p>
+                <div className="card-1168-input">
+                    <span>email@example.com</span>
+                    <button>Invite</button>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-icon">
+        <i class="fa-solid fa-user-plus"></i>
+    </div>
+    <h3>Invite teammates</h3>
+    <p>Collaborate with your team and build faster together.</p>
+    <div class="Card-input">
+        <span>email@example.com</span>
+        <button>Invite</button>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 330px;
+    padding: 23px;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 18px;
+}
+.Card-icon {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    border-radius: 11px;
+    background: #f4f4f5;
+    color: #52525b;
+}
+.Card h3 {
+    margin: 17px 0 6px;
+}
+.Card p {
+    margin: 0;
+    color: #71717a;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.Card-input {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    border: 1px solid #d4d4d8;
+    border-radius: 9px;
+    overflow: hidden;
+}
+.Card-input span {
+    flex: 1;
+    padding-left: 11px;
+    color: #a1a1aa;
+    font-size: 10px;
+}
+.Card-input button {
+    height: 100%;
+    padding: 0 13px;
+    border: none;
+    background: #18181b;
+    color: white;
+    font-size: 10px;
+}`
+    },
+    {
+        id: 1169,
+        name: "Storage Card",
+        preview: (
+            <div className="card-1169">
+                <div className="card-1169-header">
+                    <i className="fa-solid fa-hard-drive"></i>
+                    <span>STORAGE</span>
+                </div>
+                <strong>74.8 GB</strong>
+                <p>of 100 GB used</p>
+                <div className="card-1169-bar">
+                    <span></span>
+                </div>
+                <div className="card-1169-meta">
+                    <span>Documents</span>
+                    <span>74%</span>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-header">
+        <i class="fa-solid fa-hard-drive"></i>
+        <span>STORAGE</span>
+    </div>
+    <strong>74.8 GB</strong>
+    <p>of 100 GB used</p>
+    <div class="Card-bar">
+        <span></span>
+    </div>
+    <div class="Card-meta">
+        <span>Documents</span>
+        <span>74%</span>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 300px;
+    padding: 23px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+}
+.Card-header {
+    display: flex;
+    gap: 7px;
+    color: #64748b;
+    font-size: 10px;
+    font-weight: 700;
+}
+.Card > strong {
+    display: block;
+    margin-top: 19px;
+    font-size: 30px;
+}
+.Card > p {
+    margin: 3px 0 18px;
+    color: #94a3b8;
+    font-size: 11px;
+}
+.Card-bar {
+    height: 8px;
+    background: #e2e8f0;
+    border-radius: 999px;
+    overflow: hidden;
+}
+.Card-bar span {
+    display: block;
+    width: 74%;
+    height: 100%;
+    background: #3b82f6;
+}
+.Card-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9px;
+    color: #64748b;
+    font-size: 10px;
+}`
+    },
+    {
+        id: 1170,
+        name: "Crypto Card",
+        preview: (
+            <div className="card-1170">
+                <div className="card-1170-icon">₿</div>
+                <div>
+                    <span>Bitcoin</span>
+                    <strong>$64,281</strong>
+                </div>
+                <div className="card-1170-change">+4.82%</div>
+                <div className="card-1170-spark"></div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-icon">₿</div>
+    <div>
+        <span>Bitcoin</span>
+        <strong>$64,281</strong>
+    </div>
+    <div class="Card-change">+4.82%</div>
+    <div class="Card-spark"></div>
+</div>`,
+        css: `.Card {
+    position: relative;
+    width: 320px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 12px;
+    align-items: center;
+    background: #18181b;
+    color: white;
+    border: 1px solid #27272a;
+    border-radius: 18px;
+}
+.Card-icon {
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    border-radius: 13px;
+    background: #f59e0b;
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+}
+.Card span {
+    display: block;
+    color: #a1a1aa;
+    font-size: 10px;
+}
+.Card strong {
+    display: block;
+    margin-top: 4px;
+    font-size: 17px;
+}
+.Card-change {
+    color: #4ade80;
+    font-size: 11px;
+    font-weight: 700;
+}
+.Card-spark {
+    position: absolute;
+    right: 20px;
+    bottom: 8px;
+    width: 85px;
+    height: 30px;
+    border-bottom: 2px solid #22c55e;
+    transform: skewY(-8deg);
+}`
+    },
+    {
+        id: 1171,
+        name: "Course Card",
+        preview: (
+            <div className="card-1171">
+                <div className="card-1171-cover">
+                    <span>JS</span>
+                </div>
+                <div className="card-1171-body">
+                    <span>COURSE</span>
+                    <h3>Modern JavaScript</h3>
+                    <p>24 lessons · 6 hours</p>
+                    <div className="card-1171-progress">
+                        <span></span>
+                    </div>
+                    <small>64% complete</small>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-cover">
+        <span>JS</span>
+    </div>
+    <div class="Card-body">
+        <span>COURSE</span>
+        <h3>Modern JavaScript</h3>
+        <p>24 lessons · 6 hours</p>
+        <div class="Card-progress">
+            <span></span>
+        </div>
+        <small>64% complete</small>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 315px;
+    overflow: hidden;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 18px;
+}
+.Card-cover {
+    height: 110px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg,#f97316,#ef4444);
+}
+.Card-cover span {
+    font-size: 35px;
+    color: white;
+    font-weight: 800;
+}
+.Card-body {
+    padding: 20px;
+}
+.Card-body > span {
+    font-size: 9px;
+    color: #f97316;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.Card h3 {
+    margin: 7px 0;
+}
+.Card p {
+    margin: 0;
+    color: #71717a;
+    font-size: 11px;
+}
+.Card-progress {
+    height: 6px;
+    margin-top: 17px;
+    background: #f4f4f5;
+    border-radius: 999px;
+}
+.Card-progress span {
+    display: block;
+    width: 64%;
+    height: 100%;
+    background: #f97316;
+    border-radius: inherit;
+}
+.Card small {
+    display: block;
+    margin-top: 7px;
+    color: #a1a1aa;
+}`
+    },
+    {
+        id: 1172,
+        name: "Repository Card",
+        preview: (
+            <div className="card-1172">
+                <div className="card-1172-header">
+                    <i className="fa-brands fa-github"></i>
+                    <span>PUBLIC</span>
+                </div>
+                <h3>awesome-ui-library</h3>
+                <p>A collection of reusable interface components.</p>
+                <div className="card-1172-stats">
+                    <span><i className="fa-solid fa-star"></i> 1.2k</span>
+                    <span><i className="fa-solid fa-code-branch"></i> 248</span>
+                    <span>TypeScript</span>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-header">
+        <i class="fa-brands fa-github"></i>
+        <span>PUBLIC</span>
+    </div>
+    <h3>awesome-ui-library</h3>
+    <p>A collection of reusable interface components.</p>
+    <div class="Card-stats">
+        <span><i class="fa-solid fa-star"></i> 1.2k</span>
+        <span><i class="fa-solid fa-code-branch"></i> 248</span>
+        <span>TypeScript</span>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 330px;
+    padding: 23px;
+    background: #ffffff;
+    border: 1px solid #e4e4e7;
+    border-radius: 18px;
+}
+.Card-header {
+    display: flex;
+    justify-content: space-between;
+    color: #18181b;
+}
+.Card-header span {
+    color: #16a34a;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Card h3 {
+    margin: 22px 0 6px;
+}
+.Card p {
+    color: #71717a;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.Card-stats {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.Card-stats span {
+    color: #71717a;
+    font-size: 10px;
+}
+.Card-stats i {
+    margin-right: 4px;
+}
+.Card-stats i.fa-star {
+    color: #f59e0b;
+}`
+    },
+    {
+        id: 1173,
+        name: "Weather Card",
+        preview: (
+            <div className="card-1173">
+                <div className="card-1173-top">
+                    <div>
+                        <span>Amsterdam</span>
+                        <strong>22°</strong>
+                    </div>
+                    <i className="fa-solid fa-cloud-sun"></i>
+                </div>
+                <p>Partly cloudy</p>
+                <div className="card-1173-hours">
+                    <span>12°</span>
+                    <span>18°</span>
+                    <span>22°</span>
+                    <span>20°</span>
+                    <span>16°</span>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-top">
+        <div>
+            <span>Amsterdam</span>
+            <strong>22°</strong>
+        </div>
+        <i class="fa-solid fa-cloud-sun"></i>
+    </div>
+    <p>Partly cloudy</p>
+    <div class="Card-hours">
+        <span>12°</span>
+        <span>18°</span>
+        <span>22°</span>
+        <span>20°</span>
+        <span>16°</span>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 320px;
+    padding: 24px;
+    color: white;
+    border-radius: 20px;
+    background: linear-gradient(145deg,#0ea5e9,#2563eb);
+}
+.Card-top {
+    display: flex;
+    justify-content: space-between;
+}
+.Card-top span {
+    display: block;
+    font-size: 12px;
+    opacity: .8;
+}
+.Card-top strong {
+    display: block;
+    margin-top: 3px;
+    font-size: 43px;
+}
+.Card-top > i {
+    font-size: 38px;
+    margin-top: 10px;
+}
+.Card > p {
+    margin: 0;
+    font-size: 12px;
+    opacity: .8;
+}
+.Card-hours {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+.Card-hours span {
+    padding: 8px 9px;
+    border-radius: 9px;
+    background: rgba(255,255,255,.12);
+    font-size: 10px;
+}`
+    },
+    {
+        id: 1174,
+        name: "Message Card",
+        preview: (
+            <div className="card-1174">
+                <div className="card-1174-avatar">S</div>
+                <div className="card-1174-content">
+                    <div className="card-1174-head">
+                        <strong>Sarah</strong>
+                        <span>09:42</span>
+                    </div>
+                    <p>Hey André, are we still on for the meeting tomorrow?</p>
+                    <div className="card-1174-actions">
+                        <button>Reply</button>
+                        <button>Mark read</button>
+                    </div>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-avatar">S</div>
+    <div class="Card-content">
+        <div class="Card-head">
+            <strong>Sarah</strong>
+            <span>09:42</span>
+        </div>
+        <p>Hey André, are we still on for the meeting tomorrow?</p>
+        <div class="Card-actions">
+            <button>Reply</button>
+            <button>Mark read</button>
+        </div>
+    </div>
+</div>`,
+        css: `.Card {
+    display: flex;
+    gap: 12px;
+    width: 350px;
+    padding: 17px;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 16px;
+}
+.Card-avatar {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    background: #f4f4f5;
+    border-radius: 50%;
+    font-weight: 700;
+}
+.Card-content {
+    flex: 1;
+}
+.Card-head {
+    display: flex;
+    justify-content: space-between;
+}
+.Card-head strong {
+    font-size: 13px;
+}
+.Card-head span {
+    color: #a1a1aa;
+    font-size: 9px;
+}
+.Card p {
+    margin: 7px 0 12px;
+    color: #52525b;
+    font-size: 11px;
+    line-height: 1.5;
+}
+.Card-actions {
+    display: flex;
+    gap: 6px;
+}
+.Card-actions button {
+    padding: 5px 9px;
+    border: none;
+    border-radius: 7px;
+    background: #f4f4f5;
+    color: #52525b;
+    font-size: 9px;
+}`
+    },
+    {
+        id: 1175,
+        name: "Upgrade Card",
+        preview: (
+            <div className="card-1175">
+                <div className="card-1175-icon">
+                    <i className="fa-solid fa-bolt"></i>
+                </div>
+                <div>
+                    <span>Unlock more</span>
+                    <h3>Upgrade to Pro</h3>
+                    <p>Get unlimited access to every feature.</p>
+                </div>
+                <button>Upgrade</button>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-icon">
+        <i class="fa-solid fa-bolt"></i>
+    </div>
+    <div>
+        <span>Unlock more</span>
+        <h3>Upgrade to Pro</h3>
+        <p>Get unlimited access to every feature.</p>
+    </div>
+    <button>Upgrade</button>
+</div>`,
+        css: `.Card {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 14px;
+    width: 360px;
+    padding: 18px;
+    background: linear-gradient(135deg,#fff7ed,#fef3c7);
+    border: 1px solid #fed7aa;
+    border-radius: 18px;
+}
+.Card-icon {
+    width: 43px;
+    height: 43px;
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    background: #f97316;
+    color: white;
+}
+.Card span {
+    color: #9a3412;
+    font-size: 9px;
+}
+.Card h3 {
+    margin: 3px 0;
+    font-size: 14px;
+}
+.Card p {
+    margin: 0;
+    color: #9a3412;
+    font-size: 10px;
+}
+.Card > button {
+    padding: 8px 11px;
+    border: none;
+    border-radius: 8px;
+    background: #f97316;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+}`
+    },
+    {
+        id: 1176,
+        name: "Profile Stats Card",
+        preview: (
+            <div className="card-1176">
+                <div className="card-1176-cover"></div>
+                <div className="card-1176-avatar">A</div>
+                <div className="card-1176-body">
+                    <h3>André</h3>
+                    <p>Software Developer</p>
+                    <div className="card-1176-stats">
+                        <div>
+                            <strong>35</strong>
+                            <span>Projects</span>
+                        </div>
+                        <div>
+                            <strong>33</strong>
+                            <span>Stars</span>
+                        </div>
+                        <div>
+                            <strong>5</strong>
+                            <span>PRs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-cover"></div>
+    <div class="Card-avatar">A</div>
+    <div class="Card-body">
+        <h3>André</h3>
+        <p>Software Developer</p>
+        <div class="Card-stats">
+            <div>
+                <strong>35</strong>
+                <span>Projects</span>
+            </div>
+            <div>
+                <strong>33</strong>
+                <span>Stars</span>
+            </div>
+            <div>
+                <strong>5</strong>
+                <span>PRs</span>
+            </div>
+        </div>
+    </div>
+</div>`,
+        css: `.Card {
+    overflow: hidden;
+    width: 320px;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 20px;
+}
+.Card-cover {
+    height: 100px;
+    background: linear-gradient(135deg,#06b6d4,#6366f1,#ec4899);
+}
+.Card-avatar {
+    width: 65px;
+    height: 65px;
+    display: grid;
+    place-items: center;
+    margin: -32px auto 0;
+    position: relative;
+    border: 4px solid white;
+    border-radius: 50%;
+    background: #18181b;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+.Card-body {
+    padding: 12px 24px 24px;
+    text-align: center;
+}
+.Card-body h3 {
+    margin: 5px 0;
+}
+.Card-body p {
+    color: #71717a;
+    font-size: 11px;
+}
+.Card-stats {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 20px;
+}
+.Card-stats div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.Card-stats strong {
+    font-size: 17px;
+}
+.Card-stats span {
+    color: #a1a1aa;
+    font-size: 9px;
+}`
+    },
+    {
+        id: 1177,
+        name: "Glass Product Card",
+        preview: (
+            <div className="card-1177">
+                <div className="card-1177-art">
+                    <div className="card-1177-orb"></div>
+                    <i className="fa-solid fa-cube"></i>
+                </div>
+                <h3>Crystal UI Kit</h3>
+                <p>A premium collection of glass-inspired interfaces.</p>
+                <div className="card-1177-footer">
+                    <strong>€24</strong>
+                    <button>View kit</button>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-art">
+        <div class="Card-orb"></div>
+        <i class="fa-solid fa-cube"></i>
+    </div>
+    <h3>Crystal UI Kit</h3>
+    <p>A premium collection of glass-inspired interfaces.</p>
+    <div class="Card-footer">
+        <strong>€24</strong>
+        <button>View kit</button>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 310px;
+    padding: 15px;
+    color: white;
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.18);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+.Card-art {
+    position: relative;
+    height: 150px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 14px;
+    background: linear-gradient(135deg,#0f172a,#312e81);
+}
+.Card-orb {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #38bdf8;
+    filter: blur(25px);
+    opacity: .55;
+}
+.Card-art i {
+    position: relative;
+    font-size: 42px;
+}
+.Card h3 {
+    margin: 18px 5px 6px;
+}
+.Card p {
+    margin: 0 5px;
+    color: rgba(255,255,255,.6);
+    font-size: 11px;
+    line-height: 1.5;
+}
+.Card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 5px 5px;
+}
+.Card-footer strong {
+    font-size: 20px;
+}
+.Card-footer button {
+    padding: 8px 11px;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    color: #18181b;
+    font-size: 10px;
+}`
+    },
+    {
+        id: 1178,
+        name: "Success Card",
+        preview: (
+            <div className="card-1178">
+                <div className="card-1178-icon">
+                    <i className="fa-solid fa-check"></i>
+                </div>
+                <div>
+                    <h3>Payment successful</h3>
+                    <p>Your order #49281 has been confirmed.</p>
+                </div>
+                <button>
+                    <i className="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-icon">
+        <i class="fa-solid fa-check"></i>
+    </div>
+    <div>
+        <h3>Payment successful</h3>
+        <p>Your order #49281 has been confirmed.</p>
+    </div>
+    <button>
+        <i class="fa-solid fa-arrow-right"></i>
+    </button>
+</div>`,
+        css: `.Card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 350px;
+    padding: 17px;
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 15px;
+}
+.Card-icon {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #22c55e;
+    color: white;
+}
+.Card > div:nth-child(2) {
+    flex: 1;
+}
+.Card h3 {
+    margin: 0 0 4px;
+    font-size: 13px;
+}
+.Card p {
+    margin: 0;
+    color: #15803d;
+    font-size: 10px;
+}
+.Card > button {
+    border: none;
+    background: transparent;
+    color: #16a34a;
+}`
+    },
+    {
+        id: 1179,
+        name: "Warning Card",
+        preview: (
+            <div className="card-1179">
+                <i className="fa-solid fa-triangle-exclamation"></i>
+                <div>
+                    <h3>Action required</h3>
+                    <p>Your subscription expires in 3 days.</p>
+                    <button>Renew now</button>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <i class="fa-solid fa-triangle-exclamation"></i>
+    <div>
+        <h3>Action required</h3>
+        <p>Your subscription expires in 3 days.</p>
+        <button>Renew now</button>
+    </div>
+</div>`,
+        css: `.Card {
+    display: flex;
+    gap: 14px;
+    width: 340px;
+    padding: 19px;
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    border-radius: 16px;
+}
+.Card > i {
+    color: #d97706;
+    margin-top: 3px;
+}
+.Card h3 {
+    margin: 0 0 5px;
+    color: #78350f;
+    font-size: 13px;
+}
+.Card p {
+    margin: 0 0 11px;
+    color: #92400e;
+    font-size: 10px;
+}
+.Card button {
+    padding: 6px 9px;
+    border: none;
+    border-radius: 7px;
+    background: #f59e0b;
+    color: white;
+    font-size: 9px;
+}`
+    },
+    {
+        id: 1180,
+        name: "Danger Card",
+        preview: (
+            <div className="card-1180">
+                <div className="card-1180-icon">
+                    <i className="fa-solid fa-trash"></i>
+                </div>
+                <div>
+                    <h3>Delete project?</h3>
+                    <p>This action cannot be undone.</p>
+                    <div className="card-1180-actions">
+                        <button>Cancel</button>
+                        <button>Delete</button>
+                    </div>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-icon">
+        <i class="fa-solid fa-trash"></i>
+    </div>
+    <div>
+        <h3>Delete project?</h3>
+        <p>This action cannot be undone.</p>
+        <div class="Card-actions">
+            <button>Cancel</button>
+            <button>Delete</button>
+        </div>
+    </div>
+</div>`,
+        css: `.Card {
+    display: flex;
+    gap: 13px;
+    width: 350px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #fecaca;
+    border-radius: 17px;
+}
+.Card-icon {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #fee2e2;
+    color: #dc2626;
+}
+.Card h3 {
+    margin: 0 0 5px;
+    font-size: 14px;
+}
+.Card p {
+    margin: 0;
+    color: #71717a;
+    font-size: 10px;
+}
+.Card-actions {
+    display: flex;
+    gap: 6px;
+    margin-top: 14px;
+}
+.Card-actions button {
+    padding: 6px 9px;
+    border-radius: 7px;
+    font-size: 9px;
+}
+.Card-actions button:first-child {
+    border: 1px solid #d4d4d8;
+    background: white;
+}
+.Card-actions button:last-child {
+    border: none;
+    background: #dc2626;
+    color: white;
+}`
+    },
+    {
+        id: 1181,
+        name: "Team Progress Card",
+        preview: (
+            <div className="card-1181">
+                <div className="card-1181-header">
+                    <div>
+                        <h3>Website redesign</h3>
+                        <p>Team progress</p>
+                    </div>
+                    <strong>82%</strong>
+                </div>
+                <div className="card-1181-progress">
+                    <span></span>
+                </div>
+                <div className="card-1181-avatars">
+                    <span>AB</span>
+                    <span>SK</span>
+                    <span>JD</span>
+                    <span>+4</span>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-header">
+        <div>
+            <h3>Website redesign</h3>
+            <p>Team progress</p>
+        </div>
+        <strong>82%</strong>
+    </div>
+    <div class="Card-progress">
+        <span></span>
+    </div>
+    <div class="Card-avatars">
+        <span>AB</span>
+        <span>SK</span>
+        <span>JD</span>
+        <span>+4</span>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 340px;
+    padding: 22px;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 18px;
+}
+.Card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.Card h3 {
+    margin: 0;
+    font-size: 15px;
+}
+.Card p {
+    margin: 4px 0 0;
+    color: #a1a1aa;
+    font-size: 10px;
+}
+.Card-header strong {
+    color: #7c3aed;
+    font-size: 18px;
+}
+.Card-progress {
+    height: 7px;
+    margin-top: 20px;
+    background: #f4f4f5;
+    border-radius: 999px;
+}
+.Card-progress span {
+    display: block;
+    width: 82%;
+    height: 100%;
+    background: #7c3aed;
+    border-radius: inherit;
+}
+.Card-avatars {
+    display: flex;
+    margin-top: 17px;
+}
+.Card-avatars span {
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    margin-right: -4px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: #18181b;
+    color: white;
+    font-size: 8px;
+}`
+    },
+    {
+        id: 1182,
+        name: "Newsletter Card",
+        preview: (
+            <div className="card-1182">
+                <div className="card-1182-icon">
+                    <i className="fa-regular fa-envelope"></i>
+                </div>
+                <h3>Stay in the loop</h3>
+                <p>Get the latest design and development tips in your inbox.</p>
+                <div className="card-1182-form">
+                    <span>you@example.com</span>
+                    <button>Join</button>
+                </div>
+                <small>No spam. Unsubscribe anytime.</small>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-icon">
+        <i class="fa-regular fa-envelope"></i>
+    </div>
+    <h3>Stay in the loop</h3>
+    <p>Get the latest design and development tips in your inbox.</p>
+    <div class="Card-form">
+        <span>you@example.com</span>
+        <button>Join</button>
+    </div>
+    <small>No spam. Unsubscribe anytime.</small>
+</div>`,
+        css: `.Card {
+    width: 340px;
+    padding: 25px;
+    background: #ffffff;
+    border: 1px solid #e4e4e7;
+    border-radius: 20px;
+}
+.Card-icon {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    border-radius: 11px;
+    background: #f4f4f5;
+}
+.Card h3 {
+    margin: 18px 0 6px;
+}
+.Card p {
+    color: #71717a;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.Card-form {
+    height: 43px;
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    border: 1px solid #d4d4d8;
+    border-radius: 9px;
+    overflow: hidden;
+}
+.Card-form span {
+    flex: 1;
+    padding-left: 11px;
+    color: #a1a1aa;
+    font-size: 10px;
+}
+.Card-form button {
+    height: 100%;
+    padding: 0 14px;
+    border: none;
+    background: #18181b;
+    color: white;
+}
+.Card small {
+    display: block;
+    margin-top: 10px;
+    color: #a1a1aa;
+    font-size: 9px;
+}`
+    },
+    {
+        id: 1183,
+        name: "Feature Card",
+        preview: (
+            <div className="card-1183">
+                <div className="card-1183-icon">
+                    <i className="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <h3>Smart automation</h3>
+                <p>Automate repetitive workflows and save hours every week.</p>
+                <a href="#">
+                    Learn more
+                    <i className="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-icon">
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+    </div>
+    <h3>Smart automation</h3>
+    <p>Automate repetitive workflows and save hours every week.</p>
+    <a href="#">
+        Learn more
+        <i class="fa-solid fa-arrow-right"></i>
+    </a>
+</div>`,
+        css: `.Card {
+    width: 300px;
+    padding: 24px;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 18px;
+    transition: .25s;
+}
+.Card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.08);
+}
+.Card-icon {
+    width: 46px;
+    height: 46px;
+    display: grid;
+    place-items: center;
+    border-radius: 13px;
+    background: #ede9fe;
+    color: #7c3aed;
+}
+.Card h3 {
+    margin: 18px 0 7px;
+}
+.Card p {
+    color: #71717a;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.Card a {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 10px;
+    color: #7c3aed;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+}`
+    },
+    {
+        id: 1184,
+        name: "Rainbow Card",
+        preview: (
+            <div className="card-1184">
+                <div className="card-1184-rainbow"></div>
+                <div className="card-1184-content">
+                    <i className="fa-solid fa-palette"></i>
+                    <h3>Color everywhere</h3>
+                    <p>A playful card with a continuously moving rainbow atmosphere.</p>
+                    <button>Explore colors</button>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-rainbow"></div>
+    <div class="Card-content">
+        <i class="fa-solid fa-palette"></i>
+        <h3>Color everywhere</h3>
+        <p>A playful card with a continuously moving rainbow atmosphere.</p>
+        <button>Explore colors</button>
+    </div>
+</div>`,
+        css: `.Card {
+    position: relative;
+    overflow: hidden;
+    width: 320px;
+    padding: 2px;
+    border-radius: 21px;
+    background: #18181b;
+}
+.Card-rainbow {
+    position: absolute;
+    inset: -100%;
+    background: conic-gradient(#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#3b82f6,#8b5cf6,#ec4899,#ef4444);
+    animation: rainbow-card 5s linear infinite;
+}
+.Card-content {
+    position: relative;
+    padding: 25px;
+    border-radius: 19px;
+    background: #18181b;
+    color: white;
+}
+.Card-content > i {
+    font-size: 24px;
+}
+.Card-content h3 {
+    margin: 18px 0 7px;
+}
+.Card-content p {
+    color: #a1a1aa;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.Card-content button {
+    padding: 9px 12px;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    color: #18181b;
+    font-size: 10px;
+}
+@keyframes rainbow-card {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 1185,
+        name: "Glass Stats Card",
+        preview: (
+            <div className="card-1185">
+                <div className="card-1185-top">
+                    <span>Weekly visitors</span>
+                    <i className="fa-solid fa-chart-simple"></i>
+                </div>
+                <strong>18,429</strong>
+                <span className="card-1185-change">+27.3% this week</span>
+                <div className="card-1185-bars">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-top">
+        <span>Weekly visitors</span>
+        <i class="fa-solid fa-chart-simple"></i>
+    </div>
+    <strong>18,429</strong>
+    <span class="Card-change">+27.3% this week</span>
+    <div class="Card-bars">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 310px;
+    padding: 23px;
+    color: white;
+    background: rgba(255,255,255,.07);
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 19px;
+    backdrop-filter: blur(15px);
+}
+.Card-top {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255,255,255,.6);
+    font-size: 11px;
+}
+.Card > strong {
+    display: block;
+    margin: 17px 0 4px;
+    font-size: 32px;
+}
+.Card-change {
+    color: #4ade80;
+    font-size: 10px;
+}
+.Card-bars {
+    display: flex;
+    align-items: end;
+    height: 60px;
+    gap: 6px;
+    margin-top: 20px;
+}
+.Card-bars span {
+    flex: 1;
+    background: linear-gradient(#38bdf8,#6366f1);
+    border-radius: 4px 4px 1px 1px;
+}
+.Card-bars span:nth-child(1) { height: 30%; }
+.Card-bars span:nth-child(2) { height: 52%; }
+.Card-bars span:nth-child(3) { height: 42%; }
+.Card-bars span:nth-child(4) { height: 74%; }
+.Card-bars span:nth-child(5) { height: 57%; }
+.Card-bars span:nth-child(6) { height: 82%; }
+.Card-bars span:nth-child(7) { height: 100%; }`
+    },
+    {
+        id: 1186,
+        name: "Review Card",
+        preview: (
+            <div className="card-1186">
+                <div className="card-1186-top">
+                    <div className="card-1186-avatar">M</div>
+                    <div>
+                        <strong>Mike Johnson</strong>
+                        <span>Verified customer</span>
+                    </div>
+                    <div className="card-1186-stars">★★★★★</div>
+                </div>
+                <p>“The interface is incredibly clean. Everything feels fast, intuitive and polished.”</p>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-top">
+        <div class="Card-avatar">M</div>
+        <div>
+            <strong>Mike Johnson</strong>
+            <span>Verified customer</span>
+        </div>
+        <div class="Card-stars">★★★★★</div>
+    </div>
+    <p>“The interface is incredibly clean. Everything feels fast, intuitive and polished.”</p>
+</div>`,
+        css: `.Card {
+    width: 350px;
+    padding: 21px;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 18px;
+}
+.Card-top {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.Card-avatar {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #dbeafe;
+    color: #2563eb;
+    font-weight: 700;
+}
+.Card-top > div:nth-child(2) {
+    flex: 1;
+}
+.Card-top strong {
+    display: block;
+    font-size: 12px;
+}
+.Card-top span {
+    color: #a1a1aa;
+    font-size: 9px;
+}
+.Card-stars {
+    color: #f59e0b;
+    font-size: 10px;
+}
+.Card > p {
+    margin: 18px 0 0;
+    color: #52525b;
+    font-size: 12px;
+    line-height: 1.6;
+}`
+    },
+    {
+        id: 1187,
+        name: "Link Preview Card",
+        preview: (
+            <div className="card-1187">
+                <div className="card-1187-image"></div>
+                <div className="card-1187-content">
+                    <span>example.com</span>
+                    <h3>Build better websites with modern CSS</h3>
+                    <p>Modern techniques for creating polished web experiences.</p>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-image"></div>
+    <div class="Card-content">
+        <span>example.com</span>
+        <h3>Build better websites with modern CSS</h3>
+        <p>Modern techniques for creating polished web experiences.</p>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 340px;
+    overflow: hidden;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 16px;
+}
+.Card-image {
+    height: 125px;
+    background: linear-gradient(135deg,#dbeafe,#ede9fe,#fce7f3);
+}
+.Card-content {
+    padding: 17px;
+}
+.Card-content > span {
+    color: #71717a;
+    font-size: 9px;
+}
+.Card h3 {
+    margin: 7px 0;
+    font-size: 14px;
+    line-height: 1.35;
+}
+.Card p {
+    color: #71717a;
+    font-size: 10px;
+    line-height: 1.5;
+}`
+    },
+    {
+        id: 1188,
+        name: "Server Status Card",
+        preview: (
+            <div className="card-1188">
+                <div className="card-1188-header">
+                    <div className="card-1188-status"></div>
+                    <h3>All systems operational</h3>
+                </div>
+                <div className="card-1188-services">
+                    <span><i className="fa-solid fa-circle"></i> API</span>
+                    <span><i className="fa-solid fa-circle"></i> Database</span>
+                    <span><i className="fa-solid fa-circle"></i> CDN</span>
+                    <span><i className="fa-solid fa-circle"></i> Storage</span>
+                </div>
+                <small>Updated 2 minutes ago</small>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-header">
+        <div class="Card-status"></div>
+        <h3>All systems operational</h3>
+    </div>
+    <div class="Card-services">
+        <span><i class="fa-solid fa-circle"></i> API</span>
+        <span><i class="fa-solid fa-circle"></i> Database</span>
+        <span><i class="fa-solid fa-circle"></i> CDN</span>
+        <span><i class="fa-solid fa-circle"></i> Storage</span>
+    </div>
+    <small>Updated 2 minutes ago</small>
+</div>`,
+        css: `.Card {
+    width: 320px;
+    padding: 21px;
+    background: #ffffff;
+    border: 1px solid #e4e4e7;
+    border-radius: 17px;
+}
+.Card-header {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.Card-status {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 8px rgba(34,197,94,.5);
+}
+.Card h3 {
+    margin: 0;
+    font-size: 13px;
+}
+.Card-services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 20px;
+}
+.Card-services span {
+    padding: 7px 9px;
+    background: #f4f4f5;
+    border-radius: 7px;
+    color: #52525b;
+    font-size: 9px;
+}
+.Card-services i {
+    color: #22c55e;
+    font-size: 6px;
+    margin-right: 4px;
+}
+.Card small {
+    display: block;
+    margin-top: 15px;
+    color: #a1a1aa;
+    font-size: 9px;
+}`
+    },
+    {
+        id: 1189,
+        name: "Credit Card",
+        preview: (
+            <div className="card-1189">
+                <div className="card-1189-top">
+                    <span>VISA</span>
+                    <i className="fa-solid fa-wifi"></i>
+                </div>
+                <div className="card-1189-number">•••• 4281</div>
+                <div className="card-1189-bottom">
+                    <span>ANDRÉ</span>
+                    <small>12/29</small>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-top">
+        <span>VISA</span>
+        <i class="fa-solid fa-wifi"></i>
+    </div>
+    <div class="Card-number">•••• 4281</div>
+    <div class="Card-bottom">
+        <span>ANDRÉ</span>
+        <small>12/29</small>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 310px;
+    height: 180px;
+    padding: 22px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    border-radius: 20px;
+    background: linear-gradient(135deg,#18181b,#52525b);
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
+}
+.Card-top,
+.Card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Card-top span {
+    font-weight: 800;
+    font-size: 19px;
+    font-style: italic;
+}
+.Card-top i {
+    transform: rotate(90deg);
+}
+.Card-number {
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.Card-bottom {
+    font-size: 10px;
+}
+.Card-bottom small {
+    opacity: .7;
+}`
+    },
+    {
+        id: 1190,
+        name: "Achievement Card",
+        preview: (
+            <div className="card-1190">
+                <div className="card-1190-medal">
+                    <i className="fa-solid fa-medal"></i>
+                </div>
+                <div>
+                    <span>ACHIEVEMENT UNLOCKED</span>
+                    <h3>100 Projects</h3>
+                    <p>You reached a major milestone.</p>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-medal">
+        <i class="fa-solid fa-medal"></i>
+    </div>
+    <div>
+        <span>ACHIEVEMENT UNLOCKED</span>
+        <h3>100 Projects</h3>
+        <p>You reached a major milestone.</p>
+    </div>
+</div>`,
+        css: `.Card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 330px;
+    padding: 19px;
+    background: linear-gradient(135deg,#fffbeb,#fef3c7);
+    border: 1px solid #fde68a;
+    border-radius: 17px;
+}
+.Card-medal {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #f59e0b;
+    color: white;
+    font-size: 21px;
+}
+.Card span {
+    color: #a16207;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: .8px;
+}
+.Card h3 {
+    margin: 4px 0;
+    color: #713f12;
+    font-size: 15px;
+}
+.Card p {
+    margin: 0;
+    color: #92400e;
+    font-size: 10px;
+}`
+    },
+    {
+        id: 1191,
+        name: "Steps Card",
+        preview: (
+            <div className="card-1191">
+                <span className="card-1191-step active">1</span>
+                <div className="card-1191-line"></div>
+                <span className="card-1191-step">2</span>
+                <div className="card-1191-line"></div>
+                <span className="card-1191-step">3</span>
+                <div className="card-1191-content">
+                    <h3>Setup your workspace</h3>
+                    <p>You're one step away from getting started.</p>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <span class="Card-step active">1</span>
+    <div class="Card-line"></div>
+    <span class="Card-step">2</span>
+    <div class="Card-line"></div>
+    <span class="Card-step">3</span>
+    <div class="Card-content">
+        <h3>Setup your workspace</h3>
+        <p>You're one step away from getting started.</p>
+    </div>
+</div>`,
+        css: `.Card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    width: 360px;
+    padding: 24px;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 18px;
+}
+.Card-step {
+    width: 27px;
+    height: 27px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #f4f4f5;
+    color: #71717a;
+    font-size: 10px;
+    font-weight: 700;
+}
+.Card-step.active {
+    background: #2563eb;
+    color: white;
+}
+.Card-line {
+    width: 25px;
+    height: 1px;
+    background: #e4e4e7;
+}
+.Card-content {
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    bottom: -72px;
+}
+.Card-content h3 {
+    margin: 0 0 5px;
+    font-size: 13px;
+}
+.Card-content p {
+    margin: 0;
+    color: #71717a;
+    font-size: 10px;
+}`
+    },
+    {
+        id: 1192,
+        name: "Code Card",
+        preview: (
+            <div className="card-1192">
+                <div className="card-1192-header">
+                    <span>
+                        <i className="fa-solid fa-code"></i>
+                        component.tsx
+                    </span>
+                    <button>
+                        <i className="fa-regular fa-copy"></i>
+                    </button>
+                </div>
+                <pre><code>const button = {"{"}
+    color: "purple"
+{"}"}</code></pre>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-header">
+        <span>
+            <i class="fa-solid fa-code"></i>
+            component.tsx
+        </span>
+        <button>
+            <i class="fa-regular fa-copy"></i>
+        </button>
+    </div>
+    <pre><code>const button = {
+    color: "purple"
+}</code></pre>
+</div>`,
+        css: `.Card {
+    width: 330px;
+    overflow: hidden;
+    background: #09090b;
+    border: 1px solid #27272a;
+    border-radius: 16px;
+}
+.Card-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 15px;
+    border-bottom: 1px solid #27272a;
+}
+.Card-header span {
+    color: #a1a1aa;
+    font-size: 10px;
+}
+.Card-header i {
+    margin-right: 6px;
+}
+.Card-header button {
+    border: none;
+    background: transparent;
+    color: #71717a;
+}
+.Card pre {
+    padding: 16px;
+    margin: 0;
+    overflow: auto;
+    color: #c4b5fd;
+    font-size: 11px;
+    line-height: 1.6;
+}`
+    },
+    {
+        id: 1193,
+        name: "Download Progress Card",
+        preview: (
+            <div className="card-1193">
+                <div className="card-1193-icon">
+                    <i className="fa-solid fa-cloud-arrow-down"></i>
+                </div>
+                <div className="card-1193-content">
+                    <div className="card-1193-head">
+                        <strong>project-files.zip</strong>
+                        <span>68%</span>
+                    </div>
+                    <div className="card-1193-bar">
+                        <span></span>
+                    </div>
+                    <p>Downloading 8.4 MB of 12.3 MB</p>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-icon">
+        <i class="fa-solid fa-cloud-arrow-down"></i>
+    </div>
+    <div class="Card-content">
+        <div class="Card-head">
+            <strong>project-files.zip</strong>
+            <span>68%</span>
+        </div>
+        <div class="Card-bar">
+            <span></span>
+        </div>
+        <p>Downloading 8.4 MB of 12.3 MB</p>
+    </div>
+</div>`,
+        css: `.Card {
+    display: flex;
+    gap: 13px;
+    width: 350px;
+    padding: 17px;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 15px;
+}
+.Card-icon {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #dbeafe;
+    color: #2563eb;
+}
+.Card-content {
+    flex: 1;
+}
+.Card-head {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+}
+.Card-head span {
+    color: #2563eb;
+}
+.Card-bar {
+    height: 6px;
+    margin-top: 10px;
+    background: #f4f4f5;
+    border-radius: 999px;
+}
+.Card-bar span {
+    display: block;
+    width: 68%;
+    height: 100%;
+    background: #2563eb;
+    border-radius: inherit;
+}
+.Card-content p {
+    margin: 7px 0 0;
+    color: #a1a1aa;
+    font-size: 9px;
+}`
+    },
+    {
+        id: 1194,
+        name: "Minimal Product Card",
+        preview: (
+            <div className="card-1194">
+                <div className="card-1194-icon">
+                    <i className="fa-solid fa-laptop"></i>
+                </div>
+                <span>TECH</span>
+                <h3>MacBook Air</h3>
+                <p>Light. Fast. Beautiful.</p>
+                <div className="card-1194-footer">
+                    <strong>€1,199</strong>
+                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-icon">
+        <i class="fa-solid fa-laptop"></i>
+    </div>
+    <span>TECH</span>
+    <h3>MacBook Air</h3>
+    <p>Light. Fast. Beautiful.</p>
+    <div class="Card-footer">
+        <strong>€1,199</strong>
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 280px;
+    padding: 22px;
+    background: #fafafa;
+    border: 1px solid #e4e4e7;
+    border-radius: 18px;
+}
+.Card-icon {
+    width: 100%;
+    height: 130px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 18px;
+    border-radius: 13px;
+    background: #f4f4f5;
+    font-size: 42px;
+    color: #27272a;
+}
+.Card > span {
+    color: #a1a1aa;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.Card h3 {
+    margin: 6px 0;
+}
+.Card p {
+    margin: 0;
+    color: #71717a;
+    font-size: 11px;
+}
+.Card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.Card-footer strong {
+    font-size: 18px;
+}`
+    },
+    {
+        id: 1195,
+        name: "Gradient Profile Card",
+        preview: (
+            <div className="card-1195">
+                <div className="card-1195-background"></div>
+                <div className="card-1195-avatar">A</div>
+                <h3>André</h3>
+                <span>Creative Developer</span>
+                <p>Building interfaces where design and code meet.</p>
+                <div className="card-1195-socials">
+                    <button><i className="fa-brands fa-github"></i></button>
+                    <button><i className="fa-brands fa-linkedin"></i></button>
+                    <button><i className="fa-brands fa-x-twitter"></i></button>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-background"></div>
+    <div class="Card-avatar">A</div>
+    <h3>André</h3>
+    <span>Creative Developer</span>
+    <p>Building interfaces where design and code meet.</p>
+    <div class="Card-socials">
+        <button><i class="fa-brands fa-github"></i></button>
+        <button><i class="fa-brands fa-linkedin"></i></button>
+        <button><i class="fa-brands fa-x-twitter"></i></button>
+    </div>
+</div>`,
+        css: `.Card {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    padding: 28px;
+    text-align: center;
+    color: white;
+    background: #18181b;
+    border-radius: 22px;
+}
+.Card-background {
+    position: absolute;
+    inset: 0 0 auto;
+    height: 120px;
+    background: linear-gradient(135deg,#06b6d4,#6366f1,#ec4899);
+}
+.Card-avatar {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    margin: 35px auto 15px;
+    border: 4px solid #18181b;
+    border-radius: 50%;
+    background: #27272a;
+    font-size: 23px;
+    font-weight: 700;
+}
+.Card h3 {
+    position: relative;
+    margin: 0;
+}
+.Card > span {
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    color: #a1a1aa;
+    font-size: 10px;
+}
+.Card p {
+    position: relative;
+    color: #a1a1aa;
+    font-size: 11px;
+    line-height: 1.5;
+}
+.Card-socials {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 18px;
+}
+.Card-socials button {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #3f3f46;
+    border-radius: 9px;
+    background: #27272a;
+    color: #d4d4d8;
+}`
+    },
+    {
+        id: 1196,
+        name: "Analytics Card",
+        preview: (
+            <div className="card-1196">
+                <div className="card-1196-top">
+                    <div>
+                        <span>Conversion rate</span>
+                        <strong>8.42%</strong>
+                    </div>
+                    <span className="card-1196-positive">+1.8%</span>
+                </div>
+                <div className="card-1196-line">
+                    <span></span>
+                </div>
+                <div className="card-1196-labels">
+                    <span>Jan</span>
+                    <span>Feb</span>
+                    <span>Mar</span>
+                    <span>Apr</span>
+                    <span>May</span>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-top">
+        <div>
+            <span>Conversion rate</span>
+            <strong>8.42%</strong>
+        </div>
+        <span class="Card-positive">+1.8%</span>
+    </div>
+    <div class="Card-line">
+        <span></span>
+    </div>
+    <div class="Card-labels">
+        <span>Jan</span>
+        <span>Feb</span>
+        <span>Mar</span>
+        <span>Apr</span>
+        <span>May</span>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 330px;
+    padding: 22px;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 18px;
+}
+.Card-top {
+    display: flex;
+    justify-content: space-between;
+}
+.Card-top span:first-child {
+    color: #71717a;
+    font-size: 10px;
+}
+.Card-top strong {
+    display: block;
+    margin-top: 5px;
+    font-size: 27px;
+}
+.Card-positive {
+    color: #16a34a;
+    font-size: 10px;
+    font-weight: 700;
+}
+.Card-line {
+    position: relative;
+    height: 80px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.Card-line::before {
+    content: "";
+    position: absolute;
+    inset: 20px 0;
+    background: repeating-linear-gradient(to bottom,#f4f4f5 0 1px,transparent 1px 25px);
+}
+.Card-line span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40px;
+    height: 35px;
+    border-top: 3px solid #6366f1;
+    border-radius: 50%;
+    transform: rotate(-3deg);
+}
+.Card-labels {
+    display: flex;
+    justify-content: space-between;
+    color: #a1a1aa;
+    font-size: 9px;
+}`
+    },
+    {
+        id: 1197,
+        name: "Contact Card",
+        preview: (
+            <div className="card-1197">
+                <div className="card-1197-avatar">L</div>
+                <div className="card-1197-content">
+                    <h3>Lisa Williams</h3>
+                    <p>Product Manager</p>
+                    <span><i className="fa-solid fa-envelope"></i> lisa@example.com</span>
+                    <span><i className="fa-solid fa-phone"></i> +31 6 1234 5678</span>
+                </div>
+                <button><i className="fa-solid fa-arrow-up-right-from-square"></i></button>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-avatar">L</div>
+    <div class="Card-content">
+        <h3>Lisa Williams</h3>
+        <p>Product Manager</p>
+        <span><i class="fa-solid fa-envelope"></i> lisa@example.com</span>
+        <span><i class="fa-solid fa-phone"></i> +31 6 1234 5678</span>
+    </div>
+    <button>
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </button>
+</div>`,
+        css: `.Card {
+    position: relative;
+    display: flex;
+    gap: 13px;
+    width: 350px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 17px;
+}
+.Card-avatar {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: #ede9fe;
+    color: #7c3aed;
+    font-weight: 700;
+}
+.Card-content h3 {
+    margin: 1px 0 3px;
+    font-size: 14px;
+}
+.Card-content p {
+    margin: 0 0 9px;
+    color: #71717a;
+    font-size: 10px;
+}
+.Card-content > span {
+    display: block;
+    margin-top: 4px;
+    color: #52525b;
+    font-size: 9px;
+}
+.Card-content i {
+    width: 14px;
+    color: #7c3aed;
+}
+.Card > button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border: none;
+    background: transparent;
+    color: #a1a1aa;
+}`
+    },
+    {
+        id: 1198,
+        name: "Milestone Card",
+        preview: (
+            <div className="card-1198">
+                <div className="card-1198-number">01</div>
+                <div>
+                    <span>MILESTONE</span>
+                    <h3>Launch the website</h3>
+                    <p>Complete the final review and deploy everything.</p>
+                </div>
+                <i className="fa-solid fa-arrow-right"></i>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-number">01</div>
+    <div>
+        <span>MILESTONE</span>
+        <h3>Launch the website</h3>
+        <p>Complete the final review and deploy everything.</p>
+    </div>
+    <i class="fa-solid fa-arrow-right"></i>
+</div>`,
+        css: `.Card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 350px;
+    padding: 20px;
+    background: #18181b;
+    border-radius: 17px;
+    color: white;
+}
+.Card-number {
+    font-size: 30px;
+    font-weight: 800;
+    color: #52525b;
+}
+.Card > div:nth-child(2) {
+    flex: 1;
+}
+.Card span {
+    font-size: 8px;
+    letter-spacing: 1px;
+    color: #8b5cf6;
+    font-weight: 700;
+}
+.Card h3 {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.Card p {
+    margin: 0;
+    color: #71717a;
+    font-size: 10px;
+    line-height: 1.5;
+}
+.Card > i {
+    color: #71717a;
+}`
+    },
+    {
+        id: 1199,
+        name: "Magic Glass Card",
+        preview: (
+            <div className="card-1199">
+                <div className="card-1199-light one"></div>
+                <div className="card-1199-light two"></div>
+                <div className="card-1199-icon">
+                    <i className="fa-solid fa-sparkles"></i>
+                </div>
+                <h3>Something magical</h3>
+                <p>Soft lights, glass surfaces and subtle motion create a futuristic feel.</p>
+                <button>Explore</button>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-light one"></div>
+    <div class="Card-light two"></div>
+    <div class="Card-icon">
+        <i class="fa-solid fa-sparkles"></i>
+    </div>
+    <h3>Something magical</h3>
+    <p>Soft lights, glass surfaces and subtle motion create a futuristic feel.</p>
+    <button>Explore</button>
+</div>`,
+        css: `.Card {
+    position: relative;
+    overflow: hidden;
+    width: 320px;
+    padding: 26px;
+    color: white;
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 22px;
+    backdrop-filter: blur(18px);
+}
+.Card-light {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    filter: blur(50px);
+    opacity: .45;
+}
+.Card-light.one {
+    top: -50px;
+    left: -30px;
+    background: #38bdf8;
+}
+.Card-light.two {
+    right: -40px;
+    bottom: -50px;
+    background: #ec4899;
+}
+.Card-icon {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border-radius: 14px;
+    background: rgba(255,255,255,.1);
+    font-size: 20px;
+}
+.Card h3 {
+    position: relative;
+    margin: 20px 0 7px;
+}
+.Card p {
+    position: relative;
+    color: rgba(255,255,255,.65);
+    font-size: 12px;
+    line-height: 1.6;
+}
+.Card button {
+    position: relative;
+    margin-top: 13px;
+    padding: 9px 13px;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 9px;
+    background: rgba(255,255,255,.08);
+    color: white;
+}`
+    },
+    {
+        id: 1200,
+        name: "Final Gradient Card",
+        preview: (
+            <div className="card-1200">
+                <div className="card-1200-glow"></div>
+                <div className="card-1200-content">
+                    <div className="card-1200-icon">
+                        <i className="fa-solid fa-rocket"></i>
+                    </div>
+                    <span>YOUR NEXT PROJECT</span>
+                    <h3>Build something people remember.</h3>
+                    <p>Beautiful interfaces begin with strong components.</p>
+                    <button>
+                        Start building
+                        <i className="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-glow"></div>
+    <div class="Card-content">
+        <div class="Card-icon">
+            <i class="fa-solid fa-rocket"></i>
+        </div>
+        <span>YOUR NEXT PROJECT</span>
+        <h3>Build something people remember.</h3>
+        <p>Beautiful interfaces begin with strong components.</p>
+        <button>
+            Start building
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+    </div>
+</div>`,
+        css: `.Card {
+    position: relative;
+    overflow: hidden;
+    width: 340px;
+    padding: 2px;
+    border-radius: 23px;
+    background: linear-gradient(135deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899);
+    background-size: 300% 300%;
+    animation: final-gradient-card 5s ease infinite;
+}
+.Card-glow {
+    position: absolute;
+    inset: 20%;
+    border-radius: 50%;
+    background: white;
+    filter: blur(70px);
+    opacity: .12;
+}
+.Card-content {
+    position: relative;
+    padding: 28px;
+    border-radius: 21px;
+    background: #09090b;
+    color: white;
+}
+.Card-icon {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+    background: linear-gradient(135deg,#f97316,#ec4899);
+}
+.Card-content > span {
+    display: block;
+    margin-top: 25px;
+    color: #a1a1aa;
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+.Card h3 {
+    margin: 10px 0;
+    font-size: 25px;
+    line-height: 1.15;
+}
+.Card p {
+    color: #a1a1aa;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.Card button {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 20px;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 9px;
+    background: white;
+    color: #18181b;
+    font-weight: 600;
+}
+@keyframes final-gradient-card {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}`
+    },
+    {
+        id: 1201,
+        name: "Developer Card",
+        preview: (
+            <div className="card-1201">
+                <div className="card-1201-top">
+                    <div className="card-1201-avatar">A</div>
+                    <div>
+                        <h3>André</h3>
+                        <span>Software Developer</span>
+                    </div>
+                    <div className="card-1201-online"></div>
+                </div>
+                <p>Currently building a UI library with reusable components, patterns and modern interfaces.</p>
+                <div className="card-1201-tech">
+                    <span>React</span>
+                    <span>TypeScript</span>
+                    <span>CSS</span>
+                    <span>Tailwind</span>
+                </div>
+                <div className="card-1201-footer">
+                    <span><i className="fa-solid fa-code"></i> Building</span>
+                    <button>View work</button>
+                </div>
+            </div>
+        ),
+        html: `<div class="Card">
+    <div class="Card-top">
+        <div class="Card-avatar">A</div>
+        <div>
+            <h3>André</h3>
+            <span>Software Developer</span>
+        </div>
+        <div class="Card-online"></div>
+    </div>
+    <p>Currently building a UI library with reusable components, patterns and modern interfaces.</p>
+    <div class="Card-tech">
+        <span>React</span>
+        <span>TypeScript</span>
+        <span>CSS</span>
+        <span>Tailwind</span>
+    </div>
+    <div class="Card-footer">
+        <span><i class="fa-solid fa-code"></i> Building</span>
+        <button>View work</button>
+    </div>
+</div>`,
+        css: `.Card {
+    width: 360px;
+    padding: 23px;
+    background: #18181b;
+    border: 1px solid #27272a;
+    border-radius: 20px;
+    color: white;
+}
+.Card-top {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.Card-avatar {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 14px;
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    font-size: 18px;
+    font-weight: 700;
+}
+.Card h3 {
+    margin: 0 0 3px;
+    font-size: 15px;
+}
+.Card-top span {
+    color: #71717a;
+    font-size: 10px;
+}
+.Card-online {
+    width: 9px;
+    height: 9px;
+    margin-left: auto;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 10px rgba(34,197,94,.6);
+}
+.Card > p {
+    margin: 19px 0;
+    color: #a1a1aa;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.Card-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.Card-tech span {
+    padding: 6px 8px;
+    border-radius: 7px;
+    background: #27272a;
+    color: #d4d4d8;
+    font-size: 9px;
+}
+.Card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #27272a;
+}
+.Card-footer > span {
+    color: #71717a;
+    font-size: 10px;
+}
+.Card-footer i {
+    color: #22c55e;
+    margin-right: 4px;
+}
+.Card-footer button {
+    padding: 8px 11px;
+    border: none;
+    border-radius: 8px;
+    background: #fff;
+    color: #18181b;
+    font-size: 10px;
+    font-weight: 600;
+}`
+    }
+
+
+
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
