@@ -59868,45 +59868,1923 @@ export const dropdowns = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export const modals = [
-  // ...
+    {
+        id: 1376,
+        name: "Confirmation Modal",
+        preview: (
+            <div className="modal-1376">
+                <div className="modal-1376__overlay"></div>
+                <div className="modal-1376__card">
+                    <div className="modal-1376__icon">
+                        <i className="fa-solid fa-triangle-exclamation"></i>
+                    </div>
+                    <h3>Delete project?</h3>
+                    <p>This action cannot be undone. All project data will be permanently removed.</p>
+                    <div className="modal-1376__actions">
+                        <button className="modal-1376__cancel">Cancel</button>
+                        <button className="modal-1376__delete">Delete project</button>
+                    </div>
+                </div>
+            </div>
+        ),
+        html: `<div class="Modal">
+    <div class="Modal-overlay"></div>
+    <div class="Modal-card">
+        <div class="Modal-icon">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+        </div>
+        <h3>Delete project?</h3>
+        <p>This action cannot be undone. All project data will be permanently removed.</p>
+        <div class="Modal-actions">
+            <button class="Modal-cancel">Cancel</button>
+            <button class="Modal-delete">Delete project</button>
+        </div>
+    </div>
+</div>`,
+        css: `.Modal {
+    position: relative;
+    width: 340px;
+    min-height: 230px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 18px;
+    background: #18181b;
+}
+.Modal-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.2);
+}
+.Modal-card {
+    position: relative;
+    z-index: 2;
+    width: 270px;
+    padding: 22px;
+    border: 1px solid #27272a;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 25px 60px rgba(0,0,0,.3);
+}
+.Modal-icon {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 14px;
+    border-radius: 11px;
+    background: #fef2f2;
+    color: #dc2626;
+}
+.Modal-card h3 {
+    margin: 0 0 7px;
+    color: #18181b;
+    font-size: 17px;
+}
+.Modal-card p {
+    margin: 0;
+    color: #71717a;
+    font-size: 10px;
+    line-height: 1.5;
+}
+.Modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 20px;
+}
+.Modal-actions button {
+    height: 36px;
+    padding: 0 12px;
+    border-radius: 8px;
+    font-size: 9px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Modal-cancel {
+    border: 1px solid #d4d4d8;
+    background: #ffffff;
+    color: #52525b;
+}
+.Modal-delete {
+    border: none;
+    background: #dc2626;
+    color: #ffffff;
+}`
+    },
+    {
+        id: 1377,
+        name: "Glass Login Modal",
+        preview: (
+            <div className="modal-1377">
+                <div className="modal-1377__window">
+                    <button className="modal-1377__close">
+                        <i className="fa-solid fa-xmark"></i>
+                    </button>
+                    <div className="modal-1377__logo">
+                        <i className="fa-solid fa-sparkles"></i>
+                    </div>
+                    <h3>Welcome back</h3>
+                    <p>Sign in to continue to your workspace.</p>
+                    <button className="modal-1377__provider">
+                        <i className="fa-brands fa-google"></i>
+                        Continue with Google
+                    </button>
+                    <div className="modal-1377__divider">
+                        <span>or</span>
+                    </div>
+                    <input type="email" placeholder="Email address" />
+                    <button className="modal-1377__submit">Continue</button>
+                </div>
+            </div>
+        ),
+        html: `<div class="Modal">
+    <div class="Modal-window">
+        <button class="Modal-close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="Modal-logo">
+            <i class="fa-solid fa-sparkles"></i>
+        </div>
+        <h3>Welcome back</h3>
+        <p>Sign in to continue to your workspace.</p>
+        <button class="Modal-provider">
+            <i class="fa-brands fa-google"></i>
+            Continue with Google
+        </button>
+        <div class="Modal-divider">
+            <span>or</span>
+        </div>
+        <input type="email" placeholder="Email address">
+        <button class="Modal-submit">Continue</button>
+    </div>
+</div>`,
+        css: `.Modal {
+    position: relative;
+    width: 340px;
+    min-height: 330px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    background: radial-gradient(circle at top,#312e81,#09090b 65%);
+}
+.Modal-window {
+    position: relative;
+    width: 250px;
+    padding: 22px;
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 18px;
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(18px);
+    color: #ffffff;
+}
+.Modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 28px;
+    height: 28px;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 8px;
+    background: rgba(255,255,255,.05);
+    color: #a1a1aa;
+}
+.Modal-logo {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 14px;
+    border-radius: 12px;
+    background: linear-gradient(135deg,#6366f1,#ec4899);
+}
+.Modal-window h3 {
+    margin: 0 0 6px;
+    font-size: 20px;
+}
+.Modal-window p {
+    margin: 0 0 18px;
+    color: #a1a1aa;
+    font-size: 10px;
+    line-height: 1.5;
+}
+.Modal-provider,
+.Modal-submit {
+    width: 100%;
+    height: 40px;
+    border-radius: 9px;
+    font-size: 9px;
+    cursor: pointer;
+}
+.Modal-provider {
+    border: 1px solid rgba(255,255,255,.15);
+    background: rgba(255,255,255,.08);
+    color: #ffffff;
+}
+.Modal-divider {
+    margin: 15px 0;
+    text-align: center;
+    color: #71717a;
+    font-size: 8px;
+}
+.Modal-window input {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    margin-bottom: 9px;
+    padding: 0 11px;
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 9px;
+    outline: none;
+    background: rgba(0,0,0,.15);
+    color: #ffffff;
+}
+.Modal-window input::placeholder {
+    color: #52525b;
+}
+.Modal-submit {
+    border: none;
+    background: linear-gradient(135deg,#6366f1,#8b5cf6);
+    color: #ffffff;
+}`
+    }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const alerts = [
-  // ...
+    {
+        id: 1378,
+        name: "Success Alert",
+        preview: (
+            <div className="alert-1378">
+                <div className="alert-1378__icon">
+                    <i className="fa-solid fa-check"></i>
+                </div>
+                <div>
+                    <strong>Changes saved</strong>
+                    <p>Your project was updated successfully.</p>
+                </div>
+                <button>
+                    <i className="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        ),
+        html: `<div class="Alert">
+    <div class="Alert-icon">
+        <i class="fa-solid fa-check"></i>
+    </div>
+    <div>
+        <strong>Changes saved</strong>
+        <p>Your project was updated successfully.</p>
+    </div>
+    <button>
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+</div>`,
+        css: `.Alert {
+    width: 330px;
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    padding: 13px;
+    border: 1px solid #bbf7d0;
+    border-radius: 13px;
+    background: #f0fdf4;
+}
+.Alert-icon {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    background: #22c55e;
+    color: #ffffff;
+}
+.Alert > div:nth-child(2) {
+    flex: 1;
+}
+.Alert strong {
+    display: block;
+    color: #166534;
+    font-size: 11px;
+}
+.Alert p {
+    margin: 3px 0 0;
+    color: #4d7c5a;
+    font-size: 9px;
+}
+.Alert > button {
+    border: none;
+    background: transparent;
+    color: #86a58e;
+    cursor: pointer;
+}`
+    },
+    {
+        id: 1379,
+        name: "Warning Banner Alert",
+        preview: (
+            <div className="alert-1379">
+                <i className="fa-solid fa-circle-exclamation"></i>
+                <div>
+                    <strong>Action required</strong>
+                    <p>Your subscription expires in 3 days.</p>
+                </div>
+                <button>Review</button>
+            </div>
+        ),
+        html: `<div class="Alert">
+    <i class="fa-solid fa-circle-exclamation"></i>
+    <div>
+        <strong>Action required</strong>
+        <p>Your subscription expires in 3 days.</p>
+    </div>
+    <button>Review</button>
+</div>`,
+        css: `.Alert {
+    width: 340px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 12px 14px;
+    border: 1px solid #fed7aa;
+    border-radius: 11px;
+    background: #fff7ed;
+}
+.Alert > i {
+    color: #f97316;
+    font-size: 16px;
+}
+.Alert > div {
+    flex: 1;
+}
+.Alert strong {
+    display: block;
+    color: #9a3412;
+    font-size: 10px;
+}
+.Alert p {
+    margin: 3px 0 0;
+    color: #c2410c;
+    font-size: 8px;
+}
+.Alert button {
+    height: 28px;
+    padding: 0 9px;
+    border: 1px solid #fdba74;
+    border-radius: 7px;
+    background: #ffffff;
+    color: #c2410c;
+    font-size: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}`
+    }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const badges = [
-  // ...
+    {
+        id: 1380,
+        name: "Status Badge Set",
+        preview: (
+            <div className="badge-1380">
+                <span className="badge-1380__success">
+                    <span></span>
+                    Online
+                </span>
+                <span className="badge-1380__warning">
+                    <span></span>
+                    Pending
+                </span>
+                <span className="badge-1380__danger">
+                    <span></span>
+                    Offline
+                </span>
+            </div>
+        ),
+        html: `<div class="Badge-group">
+    <span class="Badge-success">
+        <span></span>
+        Online
+    </span>
+    <span class="Badge-warning">
+        <span></span>
+        Pending
+    </span>
+    <span class="Badge-danger">
+        <span></span>
+        Offline
+    </span>
+</div>`,
+        css: `.Badge-group {
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+.Badge-group span {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 8px;
+    border-radius: 999px;
+    font-size: 8px;
+    font-weight: 700;
+}
+.Badge-success {
+    background: #dcfce7;
+    color: #15803d;
+}
+.Badge-warning {
+    background: #fef3c7;
+    color: #a16207;
+}
+.Badge-danger {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+.Badge-group span span {
+    width: 5px;
+    height: 5px;
+    padding: 0;
+    border-radius: 50%;
+    background: currentColor;
+}`
+    },
+    {
+        id: 1381,
+        name: "Gradient Pro Badge",
+        preview: (
+            <div className="badge-1381">
+                <span>PRO</span>
+                <strong>Premium</strong>
+                <i className="fa-solid fa-crown"></i>
+            </div>
+        ),
+        html: `<div class="Badge">
+    <span>PRO</span>
+    <strong>Premium</strong>
+    <i class="fa-solid fa-crown"></i>
+</div>`,
+        css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 6px 9px;
+    border: 1px solid rgba(250,204,21,.35);
+    border-radius: 999px;
+    background: linear-gradient(
+        135deg,
+        rgba(124,58,237,.12),
+        rgba(236,72,153,.12)
+    );
+}
+.Badge span {
+    padding: 2px 5px;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#f59e0b,#facc15);
+    color: #451a03;
+    font-size: 7px;
+    font-weight: 800;
+}
+.Badge strong {
+    color: #ffffff;
+    font-size: 9px;
+}
+.Badge i {
+    color: #facc15;
+    font-size: 9px;
+}`
+    }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const avatars = [
-  // ...
+    {
+        id: 1382,
+        name: "Avatar Group",
+        preview: (
+            <div className="avatar-1382">
+                <span>AB</span>
+                <span>JD</span>
+                <span>MK</span>
+                <span>+8</span>
+            </div>
+        ),
+        html: `<div class="Avatar-group">
+    <span>AB</span>
+    <span>JD</span>
+    <span>MK</span>
+    <span>+8</span>
+</div>`,
+        css: `.Avatar-group {
+    display: flex;
+    align-items: center;
+}
+.Avatar-group span {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    margin-left: -8px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Avatar-group span:first-child {
+    margin-left: 0;
+}
+.Avatar-group span:nth-child(2) {
+    background: linear-gradient(135deg,#ec4899,#f97316);
+}
+.Avatar-group span:nth-child(3) {
+    background: linear-gradient(135deg,#16a34a,#14b8a6);
+}
+.Avatar-group span:last-child {
+    background: #18181b;
+}`
+    },
+    {
+        id: 1383,
+        name: "Avatar Status Card",
+        preview: (
+            <div className="avatar-1383">
+                <div className="avatar-1383__image">AB</div>
+                <div>
+                    <strong>André Babirian</strong>
+                    <small>
+                        <span></span>
+                        Available
+                    </small>
+                </div>
+                <button>
+                    <i className="fa-solid fa-ellipsis"></i>
+                </button>
+            </div>
+        ),
+        html: `<div class="Avatar-card">
+    <div class="Avatar-image">AB</div>
+    <div>
+        <strong>André Babirian</strong>
+        <small>
+            <span></span>
+            Available
+        </small>
+    </div>
+    <button>
+        <i class="fa-solid fa-ellipsis"></i>
+    </button>
+</div>`,
+        css: `.Avatar-card {
+    width: 270px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    background: #ffffff;
+}
+.Avatar-image {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+}
+.Avatar-card > div:nth-child(2) {
+    flex: 1;
+}
+.Avatar-card strong {
+    display: block;
+    color: #18181b;
+    font-size: 11px;
+}
+.Avatar-card small {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 8px;
+}
+.Avatar-card small span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #22c55e;
+}
+.Avatar-card button {
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 7px;
+    background: #f4f4f5;
+    color: #71717a;
+}`
+    }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const tabs = [
-  // ...
+    {
+        id: 1384,
+        name: "Dashboard Tabs",
+        preview: (
+            <div className="tabs-1384">
+                <button className="active">
+                    <i className="fa-solid fa-house"></i>
+                    Overview
+                </button>
+                <button>
+                    <i className="fa-solid fa-chart-line"></i>
+                    Analytics
+                </button>
+                <button>
+                    <i className="fa-solid fa-users"></i>
+                    Team
+                </button>
+            </div>
+        ),
+        html: `<div class="Tabs">
+    <button class="active">
+        <i class="fa-solid fa-house"></i>
+        Overview
+    </button>
+    <button>
+        <i class="fa-solid fa-chart-line"></i>
+        Analytics
+    </button>
+    <button>
+        <i class="fa-solid fa-users"></i>
+        Team
+    </button>
+</div>`,
+        css: `.Tabs {
+    display: flex;
+    gap: 4px;
+    padding: 4px;
+    border-bottom: 1px solid #e4e4e7;
+}
+.Tabs button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 11px;
+    border: none;
+    border-radius: 8px 8px 0 0;
+    background: transparent;
+    color: #71717a;
+    font-size: 9px;
+    cursor: pointer;
+}
+.Tabs button i {
+    font-size: 9px;
+}
+.Tabs button:hover {
+    color: #18181b;
+}
+.Tabs button.active {
+    color: #2563eb;
+    background: #eff6ff;
+}`
+    },
+    {
+        id: 1385,
+        name: "Pill Tabs",
+        preview: (
+            <div className="tabs-1385">
+                <button className="active">All projects</button>
+                <button>Active</button>
+                <button>Archived</button>
+            </div>
+        ),
+        html: `<div class="Tabs">
+    <button class="active">All projects</button>
+    <button>Active</button>
+    <button>Archived</button>
+</div>`,
+        css: `.Tabs {
+    display: inline-flex;
+    gap: 4px;
+    padding: 4px;
+    border-radius: 999px;
+    background: #f4f4f5;
+}
+.Tabs button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 999px;
+    background: transparent;
+    color: #71717a;
+    font-size: 9px;
+    cursor: pointer;
+}
+.Tabs button:hover {
+    color: #18181b;
+}
+.Tabs button.active {
+    background: #18181b;
+    color: #ffffff;
+    box-shadow: 0 2px 7px rgba(0,0,0,.12);
+}`
+    }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const breadcrumbs = [
-  // ...
+    {
+        id: 1386,
+        name: "Classic Breadcrumbs",
+        preview: (
+            <nav className="breadcrumb-1386">
+                <a href="#">Home</a>
+                <i className="fa-solid fa-chevron-right"></i>
+                <a href="#">Projects</a>
+                <i className="fa-solid fa-chevron-right"></i>
+                <span>Dashboard</span>
+            </nav>
+        ),
+        html: `<nav class="Breadcrumbs">
+    <a href="#">Home</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#">Projects</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span>Dashboard</span>
+</nav>`,
+        css: `.Breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 11px;
+    border: 1px solid #e4e4e7;
+    border-radius: 10px;
+    background: #ffffff;
+}
+.Breadcrumbs a {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 9px;
+}
+.Breadcrumbs i {
+    color: #a1a1aa;
+    font-size: 7px;
+}
+.Breadcrumbs span {
+    color: #52525b;
+    font-size: 9px;
+    font-weight: 600;
+}`
+    },
+    {
+        id: 1387,
+        name: "Gradient Breadcrumbs",
+        preview: (
+            <nav className="breadcrumb-1387">
+                <span>Home</span>
+                <i className="fa-solid fa-angle-right"></i>
+                <span>Components</span>
+                <i className="fa-solid fa-angle-right"></i>
+                <strong>Buttons</strong>
+            </nav>
+        ),
+        html: `<nav class="Breadcrumbs">
+    <span>Home</span>
+    <i class="fa-solid fa-angle-right"></i>
+    <span>Components</span>
+    <i class="fa-solid fa-angle-right"></i>
+    <strong>Buttons</strong>
+</nav>`,
+        css: `.Breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 12px;
+    border-radius: 10px;
+    background: #18181b;
+    color: #71717a;
+}
+.Breadcrumbs span {
+    font-size: 9px;
+}
+.Breadcrumbs i {
+    color: #52525b;
+    font-size: 7px;
+}
+.Breadcrumbs strong {
+    background: linear-gradient(90deg,#38bdf8,#8b5cf6,#ec4899);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 9px;
+}`
+    }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const pagination = [
-  // ...
+    {
+        id: 1388,
+        name: "Modern Pagination",
+        preview: (
+            <div className="pagination-1388">
+                <button>
+                    <i className="fa-solid fa-chevron-left"></i>
+                </button>
+                <button>1</button>
+                <button className="active">2</button>
+                <button>3</button>
+                <span>...</span>
+                <button>8</button>
+                <button>
+                    <i className="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        ),
+        html: `<nav class="Pagination">
+    <button>
+        <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <button>1</button>
+    <button class="active">2</button>
+    <button>3</button>
+    <span>...</span>
+    <button>8</button>
+    <button>
+        <i class="fa-solid fa-chevron-right"></i>
+    </button>
+</nav>`,
+        css: `.Pagination {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.Pagination button {
+    width: 31px;
+    height: 31px;
+    border: 1px solid #e4e4e7;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #52525b;
+    font-size: 9px;
+    cursor: pointer;
+}
+.Pagination button:hover {
+    border-color: #a1a1aa;
+}
+.Pagination button.active {
+    border-color: #2563eb;
+    background: #2563eb;
+    color: #ffffff;
+}
+.Pagination button i {
+    font-size: 8px;
+}
+.Pagination > span {
+    padding: 0 3px;
+    color: #a1a1aa;
+    font-size: 9px;
+}`
+    },
+    {
+        id: 1389,
+        name: "Compact Pagination",
+        preview: (
+            <div className="pagination-1389">
+                <button>
+                    <i className="fa-solid fa-arrow-left"></i>
+                    Previous
+                </button>
+                <span>Page 3 of 12</span>
+                <button>
+                    Next
+                    <i className="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        ),
+        html: `<nav class="Pagination">
+    <button>
+        <i class="fa-solid fa-arrow-left"></i>
+        Previous
+    </button>
+    <span>Page 3 of 12</span>
+    <button>
+        Next
+        <i class="fa-solid fa-arrow-right"></i>
+    </button>
+</nav>`,
+        css: `.Pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    width: 300px;
+}
+.Pagination button {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    height: 34px;
+    padding: 0 10px;
+    border: 1px solid #e4e4e7;
+    border-radius: 9px;
+    background: #ffffff;
+    color: #52525b;
+    font-size: 9px;
+    cursor: pointer;
+}
+.Pagination button:hover {
+    background: #f4f4f5;
+}
+.Pagination button i {
+    color: #71717a;
+    font-size: 8px;
+}
+.Pagination > span {
+    color: #71717a;
+    font-size: 9px;
+}`
+    }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const skeletons = [
-  // ...
+    {
+        id: 1390,
+        name: "Profile Skeleton",
+        preview: (
+            <div className="skeleton-1390">
+                <div className="skeleton-1390__avatar"></div>
+                <div className="skeleton-1390__lines">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        ),
+        html: `<div class="Skeleton">
+    <div class="Skeleton-avatar"></div>
+    <div class="Skeleton-lines">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>`,
+        css: `.Skeleton {
+    width: 270px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px;
+    border: 1px solid #e4e4e7;
+    border-radius: 13px;
+    background: #ffffff;
+}
+.Skeleton-avatar {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: linear-gradient(
+        90deg,
+        #e4e4e7 25%,
+        #f4f4f5 37%,
+        #e4e4e7 63%
+    );
+    background-size: 400% 100%;
+    animation: shimmer 1.4s infinite;
+}
+.Skeleton-lines {
+    flex: 1;
+}
+.Skeleton-lines span {
+    display: block;
+    height: 8px;
+    margin-bottom: 7px;
+    border-radius: 4px;
+    background: linear-gradient(
+        90deg,
+        #e4e4e7 25%,
+        #f4f4f5 37%,
+        #e4e4e7 63%
+    );
+    background-size: 400% 100%;
+    animation: shimmer 1.4s infinite;
+}
+.Skeleton-lines span:nth-child(1) {
+    width: 80%;
+}
+.Skeleton-lines span:nth-child(2) {
+    width: 100%;
+}
+.Skeleton-lines span:nth-child(3) {
+    width: 55%;
+}
+@keyframes shimmer {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
+}`
+    },
+    {
+        id: 1391,
+        name: "Dashboard Skeleton",
+        preview: (
+            <div className="skeleton-1391">
+                <div className="skeleton-1391__header"></div>
+                <div className="skeleton-1391__grid">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div className="skeleton-1391__chart"></div>
+            </div>
+        ),
+        html: `<div class="Skeleton">
+    <div class="Skeleton-header"></div>
+    <div class="Skeleton-grid">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="Skeleton-chart"></div>
+</div>`,
+        css: `.Skeleton {
+    width: 320px;
+    padding: 15px;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+    background: #ffffff;
+}
+.Skeleton-header {
+    width: 45%;
+    height: 11px;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    background: #e4e4e7;
+}
+.Skeleton-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7px;
+}
+.Skeleton-grid span {
+    height: 45px;
+    border-radius: 8px;
+    background: #f4f4f5;
+}
+.Skeleton-chart {
+    height: 80px;
+    margin-top: 9px;
+    border-radius: 9px;
+    background:
+        linear-gradient(
+            135deg,
+            transparent 48%,
+            #e4e4e7 49%,
+            #e4e4e7 51%,
+            transparent 52%
+        ),
+        #f4f4f5;
+}`
+    }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const sidebars = [
-  // ...
+    {
+        id: 1392,
+        name: "Dashboard Sidebar",
+        preview: (
+            <aside className="sidebar-1392">
+                <div className="sidebar-1392__brand">
+                    <span>◆</span>
+                    Workspace
+                </div>
+                <a className="active" href="#">
+                    <i className="fa-solid fa-house"></i>
+                    Overview
+                </a>
+                <a href="#">
+                    <i className="fa-solid fa-chart-line"></i>
+                    Analytics
+                </a>
+                <a href="#">
+                    <i className="fa-solid fa-folder"></i>
+                    Projects
+                </a>
+                <a href="#">
+                    <i className="fa-solid fa-users"></i>
+                    Team
+                </a>
+                <div className="sidebar-1392__bottom">
+                    <a href="#">
+                        <i className="fa-solid fa-gear"></i>
+                        Settings
+                    </a>
+                </div>
+            </aside>
+        ),
+        html: `<aside class="Sidebar">
+    <div class="Sidebar-brand">
+        <span>◆</span>
+        Workspace
+    </div>
+    <a class="active" href="#">
+        <i class="fa-solid fa-house"></i>
+        Overview
+    </a> 
+    <a href="#">
+        <i class="fa-solid fa-chart-line"></i>
+        Analytics
+    </a>
+    <a href="#">
+        <i class="fa-solid fa-folder"></i>
+        Projects
+    </a>
+    <a href="#">
+        <i class="fa-solid fa-users"></i>
+        Team
+    </a>
+    <div class="Sidebar-bottom">
+        <a href="#">
+            <i class="fa-solid fa-gear"></i>
+            Settings
+        </a>
+    </div>
+</aside>`,
+        css: `.Sidebar {
+    width: 190px;
+    min-height: 270px;
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    box-sizing: border-box;
+    border: 1px solid #27272a;
+    border-radius: 14px;
+    background: #18181b;
+}
+.Sidebar-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    margin-bottom: 14px;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+}
+.Sidebar-brand span {
+    color: #8b5cf6;
+}
+.Sidebar > a,
+.Sidebar-bottom a {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px;
+    border-radius: 8px;
+    color: #71717a;
+    text-decoration: none;
+    font-size: 9px;
+}
+.Sidebar > a:hover,
+.Sidebar > a.active,
+.Sidebar-bottom a:hover {
+    background: #27272a;
+    color: #ffffff;
+}
+.Sidebar > a i,
+.Sidebar-bottom a i {
+    width: 15px;
+}
+.Sidebar-bottom {
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px solid #27272a;
+}`
+    },
+    {
+        id: 1393,
+        name: "Compact Icon Sidebar",
+        preview: (
+            <aside className="sidebar-1393">
+                <div className="sidebar-1393__logo">
+                    <i className="fa-solid fa-cube"></i>
+                </div>
+                <a className="active" href="#">
+                    <i className="fa-solid fa-house"></i>
+                </a>
+                <a href="#">
+                    <i className="fa-solid fa-chart-pie"></i>
+                </a>
+                <a href="#">
+                    <i className="fa-solid fa-folder"></i>
+                </a>
+                <a href="#">
+                    <i className="fa-solid fa-message"></i>
+                </a>
+                <a href="#">
+                    <i className="fa-solid fa-users"></i>
+                </a>
+                <div className="sidebar-1393__bottom">
+                    <a href="#">
+                        <i className="fa-solid fa-gear"></i>
+                    </a>
+                </div>
+            </aside>
+        ),
+        html: `<aside class="Sidebar">
+    <div class="Sidebar-logo">
+        <i class="fa-solid fa-cube"></i>
+    </div>
+    <a class="active" href="#">
+        <i class="fa-solid fa-house"></i>
+    </a>
+    <a href="#">
+        <i class="fa-solid fa-chart-pie"></i>
+    </a>
+    <a href="#">
+        <i class="fa-solid fa-folder"></i>
+    </a>
+    <a href="#">
+        <i class="fa-solid fa-message"></i>
+    </a>
+    <a href="#">
+        <i class="fa-solid fa-users"></i>
+    </a>
+    <div class="Sidebar-bottom">
+        <a href="#">
+            <i class="fa-solid fa-gear"></i>
+        </a>
+    </div>
+</aside>`,
+        css: `.Sidebar {
+    width: 58px;
+    min-height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 7px;
+    box-sizing: border-box;
+    border: 1px solid #27272a;
+    border-radius: 14px;
+    background: #09090b;
+}
+.Sidebar-logo {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    color: #ffffff;
+}
+.Sidebar > a,
+.Sidebar-bottom a {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 5px;
+    border-radius: 9px;
+    color: #52525b;
+    text-decoration: none;
+}
+.Sidebar > a:hover,
+.Sidebar > a.active,
+.Sidebar-bottom a:hover {
+    background: #18181b;
+    color: #ffffff;
+}
+.Sidebar > a.active {
+    box-shadow: inset 0 0 0 1px #3f3f46;
+    color: #60a5fa;
+}
+.Sidebar-bottom {
+    margin-top: auto;
+}`
+    }
 ];
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export const heroSections = [
-  // ...
+    {
+        id: 1394,
+        name: "SaaS Hero Section",
+        preview: (
+            <section className="hero-1394">
+                <span className="hero-1394__badge">
+                    <i className="fa-solid fa-sparkles"></i>
+                    New generation workspace
+                </span>
+                <h1>Build faster.<br />Ship smarter.</h1>
+                <p>Everything your team needs to design, build and launch modern digital products.</p>
+                <div className="hero-1394__actions">
+                    <button>Start building</button>
+                    <a href="#">
+                        View demo
+                        <i className="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </section>
+        ),
+        html: `<section class="Hero">
+    <span class="Hero-badge">
+        <i class="fa-solid fa-sparkles"></i>
+        New generation workspace
+    </span>
+    <h1>Build faster.<br>Ship smarter.</h1>
+    <p>Everything your team needs to design, build and launch modern digital products.</p>
+    <div class="Hero-actions">
+        <button>Start building</button>
+        <a href="#">
+            View demo
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </div>
+</section>`,
+        css: `.Hero {
+    width: 100%;
+    min-height: 300px;
+    padding: 38px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    background:
+        radial-gradient(circle at 80% 20%,rgba(99,102,241,.25),transparent 30%),
+        radial-gradient(circle at 20% 80%,rgba(236,72,153,.16),transparent 30%),
+        #09090b;
+    color: #ffffff;
+}
+.Hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 9px;
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 999px;
+    background: rgba(255,255,255,.05);
+    color: #c4b5fd;
+    font-size: 8px;
+}
+.Hero h1 {
+    margin: 20px 0 10px;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -1.5px;
+}
+.Hero p {
+    max-width: 420px;
+    margin: 0;
+    color: #a1a1aa;
+    font-size: 11px;
+    line-height: 1.6;
+}
+.Hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 22px;
+}
+.Hero-actions button {
+    height: 40px;
+    padding: 0 14px;
+    border: none;
+    border-radius: 9px;
+    background: #ffffff;
+    color: #18181b;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Hero-actions a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #d4d4d8;
+    text-decoration: none;
+    font-size: 9px;
+}`
+    },
+    {
+        id: 1395,
+        name: "Gradient Product Hero",
+        preview: (
+            <section className="hero-1395">
+                <div className="hero-1395__content">
+                    <span className="hero-1395__eyebrow">Introducing Aurora</span>
+                    <h1>A better way to create.</h1>
+                    <p>A beautiful toolkit for teams who care about performance, simplicity and design.</p>
+                    <div className="hero-1395__actions">
+                        <button>Get started</button>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+                <div className="hero-1395__visual">
+                    <div className="hero-1395__orb"></div>
+                    <div className="hero-1395__card">
+                        <i className="fa-solid fa-wand-magic-sparkles"></i>
+                        <strong>Aurora</strong>
+                        <small>Creative workspace</small>
+                    </div>
+                </div>
+            </section>
+        ),
+        html: `<section class="Hero">
+    <div class="Hero-content">
+        <span class="Hero-eyebrow">Introducing Aurora</span>
+        <h1>A better way to create.</h1>
+        <p>A beautiful toolkit for teams who care about performance, simplicity and design.</p>
+        <div class="Hero-actions">
+            <button>Get started</button>
+            <button>Learn more</button>
+        </div>
+    </div>
+
+    <div class="Hero-visual">
+        <div class="Hero-orb"></div>
+        <div class="Hero-card">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <strong>Aurora</strong>
+            <small>Creative workspace</small>
+        </div>
+    </div>
+</section>`,
+        css: `.Hero {
+    min-height: 290px;
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    overflow: hidden;
+    border-radius: 20px;
+    background: linear-gradient(135deg,#0f172a,#1e1b4b,#312e81);
+    color: #ffffff;
+}
+.Hero-content {
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Hero-eyebrow {
+    color: #67e8f9;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.Hero h1 {
+    max-width: 360px;
+    margin: 12px 0 9px;
+    font-size: 34px;
+    line-height: 1.05;
+}
+.Hero p {
+    max-width: 360px;
+    margin: 0;
+    color: rgba(255,255,255,.65);
+    font-size: 10px;
+    line-height: 1.6;
+}
+.Hero-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+}
+.Hero-actions button {
+    height: 38px;
+    padding: 0 13px;
+    border-radius: 9px;
+    font-size: 9px;
+    cursor: pointer;
+}
+.Hero-actions button:first-child {
+    border: none;
+    background: #ffffff;
+    color: #18181b;
+}
+.Hero-actions button:last-child {
+    border: 1px solid rgba(255,255,255,.2);
+    background: rgba(255,255,255,.05);
+    color: #ffffff;
+}
+.Hero-visual {
+    position: relative;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.Hero-orb {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#22d3ee,#8b5cf6,#ec4899);
+    filter: blur(8px);
+    opacity: .55;
+}
+.Hero-card {
+    position: absolute;
+    width: 145px;
+    padding: 17px;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 15px;
+    background: rgba(255,255,255,.1);
+    backdrop-filter: blur(14px);
+}
+.Hero-card i {
+    display: block;
+    margin-bottom: 12px;
+    color: #67e8f9;
+    font-size: 17px;
+}
+.Hero-card strong {
+    display: block;
+    font-size: 12px;
+}
+.Hero-card small {
+    display: block;
+    margin-top: 4px;
+    color: rgba(255,255,255,.55);
+    font-size: 8px;
+}`
+    }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

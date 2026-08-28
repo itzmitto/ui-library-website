@@ -1,0 +1,71 @@
+.badge-1380 {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+.badge-1380 > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 8px;
+  border-radius: 999px;
+  font-size: 8px;
+  font-weight: 700;
+}
+
+.badge-1380 > span > span {
+  width: 5px;
+  height: 5px;
+  padding: 0;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.badge-1380__success {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.badge-1380__warning {
+  background: #fef3c7;
+  color: #a16207;
+}
+
+.badge-1380__danger {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.badge-1381 {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 9px;
+  border: 1px solid rgba(250, 204, 21, 0.35);
+  border-radius: 999px;
+  background: linear-gradient(
+    135deg,
+    rgba(124, 58, 237, 0.12),
+    rgba(236, 72, 153, 0.12)
+  );
+}
+
+.badge-1381 span {
+  padding: 2px 5px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #f59e0b, #facc15);
+  color: #451a03;
+  font-size: 7px;
+  font-weight: 800;
+}
+
+.badge-1381 strong {
+  color: #ffffff;
+  font-size: 9px;
+}
+
+.badge-1381 i {
+  color: #facc15;
+  font-size: 9px;
+}

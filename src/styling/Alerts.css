@@ -1,0 +1,87 @@
+.alert-1378 {
+  width: 330px;
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  padding: 13px;
+  border: 1px solid #bbf7d0;
+  border-radius: 13px;
+  background: #f0fdf4;
+}
+
+.alert-1378__icon {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  background: #22c55e;
+  color: #ffffff;
+}
+
+.alert-1378 > div:nth-child(2) {
+  flex: 1;
+}
+
+.alert-1378 strong {
+  display: block;
+  color: #166534;
+  font-size: 11px;
+}
+
+.alert-1378 p {
+  margin: 3px 0 0;
+  color: #4d7c5a;
+  font-size: 9px;
+}
+
+.alert-1378 > button {
+  border: none;
+  background: transparent;
+  color: #86a58e;
+  cursor: pointer;
+}
+
+.alert-1379 {
+  width: 340px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 12px 14px;
+  border: 1px solid #fed7aa;
+  border-radius: 11px;
+  background: #fff7ed;
+}
+
+.alert-1379 > i {
+  color: #f97316;
+  font-size: 16px;
+}
+
+.alert-1379 > div {
+  flex: 1;
+}
+
+.alert-1379 strong {
+  display: block;
+  color: #9a3412;
+  font-size: 10px;
+}
+
+.alert-1379 p {
+  margin: 3px 0 0;
+  color: #c2410c;
+  font-size: 8px;
+}
+
+.alert-1379 button {
+  height: 28px;
+  padding: 0 9px;
+  border: 1px solid #fdba74;
+  border-radius: 7px;
+  background: #ffffff;
+  color: #c2410c;
+  font-size: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -13,6 +13,17 @@ import Patterns from "./pages/Patterns";
 import Tooltips from "./pages/Tooltips";
 import Navbar from "./pages/Navbar";
 import Logins from "./pages/Logins";
+import Dropdowns from "./pages/Dropdowns";
+import Modals from "./pages/Modals";
+import Alerts from "./pages/Alerts";
+import Badges from "./pages/Badges";
+import Avatars from "./pages/Avatars";
+import Tabs from "./pages/Tabs";
+import Breadcrumbs from "./pages/Breadcrumbs";
+import Pagination from "./pages/Pagination";
+import Skeletons from "./pages/Skeletons";
+import Sidebars from "./pages/Sidebars";
+import HeroSections from "./pages/HeroSections";
 import "./App.css";
 import "./styling/media.css";
 
@@ -27,7 +38,7 @@ function Home() {
             Community-built library of UI elements. Copy as HTML/CSS.
           </p>
           <Link to="/elements" className="hero-button">
-            Explore Library 
+            Explore Library
           </Link>
         </div>
       </section>
@@ -40,12 +51,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/elements/buttons" element={<Buttons />} />
         <Route path="/elements" element={<All />} />
+        <Route path="/elements/buttons" element={<Buttons />} />
         <Route path="/elements/checkboxes" element={<Checkboxes />} />
+        <Route path="/elements/toggleswitches" element={<Toggleswitches />} />
         <Route path="/elements/cards" element={<Cards />} />
         <Route path="/elements/loaders" element={<Loaders />} />
-        <Route path="/elements/toggleswitches" element={<Toggleswitches />} />
         <Route path="/elements/inputs" element={<Inputs />} />
         <Route path="/elements/radio-buttons" element={<RadioButtons />} />
         <Route path="/elements/forms" element={<Forms />} />
@@ -53,6 +64,17 @@ function App() {
         <Route path="/elements/tooltips" element={<Tooltips />} />
         <Route path="/elements/navbar" element={<Navbar />} />
         <Route path="/elements/logins" element={<Logins />} />
+        <Route path="/elements/dropdowns" element={<Dropdowns />} />
+        <Route path="/elements/modals" element={<Modals />} />
+        <Route path="/elements/alerts" element={<Alerts />} />
+        <Route path="/elements/badges" element={<Badges />} />
+        <Route path="/elements/avatars" element={<Avatars />} />
+        <Route path="/elements/tabs" element={<Tabs />} />
+        <Route path="/elements/breadcrumbs" element={<Breadcrumbs />} />
+        <Route path="/elements/pagination" element={<Pagination />} />
+        <Route path="/elements/skeletons" element={<Skeletons />} />
+        <Route path="/elements/sidebars" element={<Sidebars />} />
+        <Route path="/elements/hero-sections" element={<HeroSections />} />
       </Routes>
     </BrowserRouter>
   );
