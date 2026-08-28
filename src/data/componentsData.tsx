@@ -13338,7 +13338,4804 @@ export const toggles = [
         html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
         css: `.Toggle-slider { background: #e5e7eb; }`
     },
-
+{
+    id: 1101,
+    name: "Minimal Toggle",
+    preview: (
+        <label className="toggle-1101">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 46px;
+    height: 25px;
+    padding: 3px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #3f3f46;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #71717a;
+}
+.Toggle span::after {
+    content: "";
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background: #fff;
+}`,
+},
+{
+    id: 1102,
+    name: "Clay Toggle",
+    preview: (
+        <label className="toggle-1102">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 50px;
+    height: 27px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #3f3f46;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #D97757;
+}
+.Toggle span::after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}`,
+},
+{
+    id: 1103,
+    name: "Green Toggle",
+    preview: (
+        <label className="toggle-1103">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 48px;
+    height: 26px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #22c55e;
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1104,
+    name: "Blue Toggle",
+    preview: (
+        <label className="toggle-1104">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 48px;
+    height: 26px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #3b82f6;
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1105,
+    name: "Purple Toggle",
+    preview: (
+        <label className="toggle-1105">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 48px;
+    height: 26px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #8b5cf6;
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1106,
+    name: "Pink Toggle",
+    preview: (
+        <label className="toggle-1106">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 48px;
+    height: 26px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #ec4899;
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1107,
+    name: "Cyan Toggle",
+    preview: (
+        <label className="toggle-1107">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 48px;
+    height: 26px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #06b6d4;
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1108,
+    name: "Orange Toggle",
+    preview: (
+        <label className="toggle-1108">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 48px;
+    height: 26px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #f97316;
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1109,
+    name: "Yellow Toggle",
+    preview: (
+        <label className="toggle-1109">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 48px;
+    height: 26px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #eab308;
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1110,
+    name: "Large Toggle",
+    preview: (
+        <label className="toggle-1110">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 64px;
+    height: 34px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #3f3f46;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #71717a;
+}
+.Toggle span::after {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background: #fff;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1111,
+    name: "Small Toggle",
+    preview: (
+        <label className="toggle-1111">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 36px;
+    height: 20px;
+    padding: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #3f3f46;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #71717a;
+}
+.Toggle span::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1112,
+    name: "Square Toggle",
+    preview: (
+        <label className="toggle-1112">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 48px;
+    height: 27px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 7px;
+    background: #3f3f46;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #71717a;
+}
+.Toggle span::after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    border-radius: 5px;
+    background: #fff;
+}`,
+},
+{
+    id: 1113,
+    name: "Glass Toggle",
+    preview: (
+        <label className="toggle-1113">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 52px;
+    height: 28px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 999px;
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(12px);
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: rgba(255,255,255,.2);
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: rgba(255,255,255,.9);
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1114,
+    name: "Neon Cyan Toggle",
+    preview: (
+        <label className="toggle-1114">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 52px;
+    height: 28px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #22d3ee;
+    border-radius: 999px;
+    background: #082f49;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    box-shadow: 0 0 18px rgba(34,211,238,.5);
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #22d3ee;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1115,
+    name: "Neon Pink Toggle",
+    preview: (
+        <label className="toggle-1115">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 52px;
+    height: 28px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #ec4899;
+    border-radius: 999px;
+    background: #500724;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    box-shadow: 0 0 20px rgba(236,72,153,.45);
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #f472b6;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1116,
+    name: "Glow Green Toggle",
+    preview: (
+        <label className="toggle-1116">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 51px;
+    height: 27px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #052e16;
+    border: 1px solid #22c55e;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    box-shadow: 0 0 22px rgba(34,197,94,.45);
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #4ade80;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1117,
+    name: "Orange Glow Toggle",
+    preview: (
+        <label className="toggle-1117">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 51px;
+    height: 27px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #431407;
+    border: 1px solid #f97316;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    box-shadow: 0 0 22px rgba(249,115,22,.45);
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #fb923c;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1118,
+    name: "Glow Purple Toggle",
+    preview: (
+        <label className="toggle-1118">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 51px;
+    height: 27px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #2e1065;
+    border: 1px solid #8b5cf6;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    box-shadow: 0 0 22px rgba(139,92,246,.45);
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #a78bfa;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1119,
+    name: "Glow Red Toggle",
+    preview: (
+        <label className="toggle-1119">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 51px;
+    height: 27px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #450a0a;
+    border: 1px solid #ef4444;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    box-shadow: 0 0 22px rgba(239,68,68,.45);
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #f87171;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1120,
+    name: "Soft Gray Toggle",
+    preview: (
+        <label className="toggle-1120">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 50px;
+    height: 27px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    border: 1px solid #52525b;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #71717a;
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #e4e4e7;
+    border-radius: 50%;
+}`,
+},
+{
+    id: 1121,
+    name: "Gradient Purple Blue Toggle",
+    preview: (
+        <label className="toggle-1121">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 54px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#6366f1,#a855f7);
+}
+.Toggle span::after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #fff;
+}`,
+},
+{
+    id: 1122,
+    name: "Gradient Orange Red Toggle",
+    preview: (
+        <label className="toggle-1122">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 54px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#ef4444,#f97316);
+}
+.Toggle span::after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #fff;
+}`,
+},
+{
+    id: 1123,
+    name: "Gradient Green Cyan Toggle",
+    preview: (
+        <label className="toggle-1123">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 54px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#22c55e,#06b6d4);
+}
+.Toggle span::after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #fff;
+}`,
+},
+{
+    id: 1124,
+    name: "Gradient Pink Orange Toggle",
+    preview: (
+        <label className="toggle-1124">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 54px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#ec4899,#f97316);
+}
+.Toggle span::after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #fff;
+}`,
+},
+{
+    id: 1125,
+    name: "Gradient Yellow Orange Toggle",
+    preview: (
+        <label className="toggle-1125">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 54px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#facc15,#f97316);
+}
+.Toggle span::after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #fff;
+}`,
+},
+{
+    id: 1126,
+    name: "Rainbow Toggle",
+    preview: (
+        <label className="toggle-1126">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899);
+    background-size: 250% 100%;
+    animation: rainbow-toggle 3s linear infinite;
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fff;
+}
+@keyframes rainbow-toggle {
+    to {
+        background-position: 250% 0;
+    }
+}`,
+},
+{
+    id: 1127,
+    name: "Rainbow Border Toggle",
+    preview: (
+        <label className="toggle-1127">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 56px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(#18181b,#18181b) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#ef4444,#6366f1,#ec4899);
+}`,
+},
+{
+    id: 1128,
+    name: "Rainbow Glow Toggle",
+    preview: (
+        <label className="toggle-1128">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899);
+    background-size: 300% 100%;
+    animation: rainbow-glow-toggle 4s linear infinite;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    box-shadow: 0 0 20px rgba(139,92,246,.35);
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fff;
+}
+@keyframes rainbow-glow-toggle {
+    to {
+        background-position: 300% 0;
+    }
+}`,
+},
+{
+    id: 1129,
+    name: "Rainbow Glass Toggle",
+    preview: (
+        <label className="toggle-1129">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 999px;
+    background: linear-gradient(90deg,rgba(239,68,68,.25),rgba(59,130,246,.25),rgba(236,72,153,.25));
+    backdrop-filter: blur(12px);
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.9);
+}`,
+},
+{
+    id: 1130,
+    name: "3D Toggle",
+    preview: (
+        <label className="toggle-1130">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 54px;
+    height: 28px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #3f3f46;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #D97757;
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: linear-gradient(#fff,#d4d4d8);
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+}`,
+},
+{
+    id: 1131,
+    name: "Icon Sun Toggle",
+    preview: (
+        <label className="toggle-1131">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-sun"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-sun"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 52px;
+    height: 28px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #f59e0b;
+}
+.Toggle span::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 6px;
+    color: #f59e0b;
+    font-size: 10px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 6px;
+    color: #fff;
+}`,
+},
+{
+    id: 1132,
+    name: "Moon Toggle",
+    preview: (
+        <label className="toggle-1132">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-moon"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-moon"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 52px;
+    height: 28px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #1e293b;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #312e81;
+}
+.Toggle span::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 6px;
+    color: #64748b;
+    font-size: 10px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 6px;
+    color: #c4b5fd;
+}`,
+},
+{
+    id: 1133,
+    name: "Power Toggle",
+    preview: (
+        <label className="toggle-1133">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-power-off"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-power-off"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 56px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #16a34a;
+}
+.Toggle span::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #71717a;
+    font-size: 10px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #16a34a;
+}`,
+},
+{
+    id: 1134,
+    name: "Lock Toggle",
+    preview: (
+        <label className="toggle-1134">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-lock"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-lock"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 55px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #3f3f46;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #7c3aed;
+}
+.Toggle span::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #7c3aed;
+}`,
+},
+{
+    id: 1135,
+    name: "Bell Toggle",
+    preview: (
+        <label className="toggle-1135">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-bell"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-bell"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 56px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #ec4899;
+}
+.Toggle span::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #71717a;
+    font-size: 10px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #ec4899;
+}`,
+},
+{
+    id: 1136,
+    name: "WiFi Toggle",
+    preview: (
+        <label className="toggle-1136">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-wifi"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-wifi"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 56px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #06b6d4;
+}
+.Toggle span::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #06b6d4;
+}`,
+},
+{
+    id: 1137,
+    name: "Volume Toggle",
+    preview: (
+        <label className="toggle-1137">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-volume-high"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-volume-high"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 56px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #22c55e;
+}
+.Toggle span::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #22c55e;
+}`,
+},
+{
+    id: 1138,
+    name: "Airplane Toggle",
+    preview: (
+        <label className="toggle-1138">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-plane"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-plane"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #3b82f6;
+}
+.Toggle span::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #3b82f6;
+}`,
+},
+{
+    id: 1139,
+    name: "Bluetooth Toggle",
+    preview: (
+        <label className="toggle-1139">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-brands fa-bluetooth-b"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-brands fa-bluetooth-b"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #2563eb;
+}
+.Toggle span::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #71717a;
+    font-size: 10px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #2563eb;
+}`,
+},
+{
+    id: 1140,
+    name: "Rocket Toggle",
+    preview: (
+        <label className="toggle-1140">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-rocket"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-rocket"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #3f3f46;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#7c3aed,#2563eb);
+}
+.Toggle span::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #7c3aed;
+}`,
+},
+{
+    id: 1141,
+    name: "Fire Toggle",
+    preview: (
+        <label className="toggle-1141">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-fire"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-fire"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #431407;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#dc2626,#f97316,#facc15);
+}
+.Toggle span::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #fb923c;
+    font-size: 10px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #f97316;
+}`,
+},
+{
+    id: 1142,
+    name: "Heart Toggle",
+    preview: (
+        <label className="toggle-1142">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-heart"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-heart"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 56px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #3f3f46;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #db2777;
+}
+.Toggle span::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #db2777;
+}`,
+},
+{
+    id: 1143,
+    name: "Star Toggle",
+    preview: (
+        <label className="toggle-1143">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-star"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-star"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 56px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #3f3f46;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #ca8a04;
+}
+.Toggle span::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #71717a;
+    font-size: 10px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #ca8a04;
+}`,
+},
+{
+    id: 1144,
+    name: "Eye Toggle",
+    preview: (
+        <label className="toggle-1144">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-eye"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-eye"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 56px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #6366f1;
+}
+.Toggle span::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #71717a;
+    font-size: 10px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #6366f1;
+}`,
+},
+{
+    id: 1145,
+    name: "Camera Toggle",
+    preview: (
+        <label className="toggle-1145">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-camera"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-camera"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 56px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #0891b2;
+}
+.Toggle span::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #0891b2;
+}`,
+},
+{
+    id: 1146,
+    name: "Micro Toggle",
+    preview: (
+        <label className="toggle-1146">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 30px;
+    height: 16px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #3f3f46;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #22c55e;
+}
+.Toggle span::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+}`,
+},
+{
+    id: 1147,
+    name: "XL Toggle",
+    preview: (
+        <label className="toggle-1147">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 76px;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #D97757;
+}
+.Toggle span::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+}`,
+},
+{
+    id: 1148,
+    name: "Inset Toggle",
+    preview: (
+        <label className="toggle-1148">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 54px;
+    height: 29px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #18181b;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #27272a;
+}
+.Toggle span::after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #71717a;
+}`,
+},
+{
+    id: 1149,
+    name: "Metal Toggle",
+    preview: (
+        <label className="toggle-1149">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 55px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: linear-gradient(#71717a,#27272a);
+    border: 1px solid #a1a1aa;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(#a1a1aa,#52525b);
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: linear-gradient(#fff,#d4d4d8);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+}`,
+},
+{
+    id: 1150,
+    name: "Soft Shadow Toggle",
+    preview: (
+        <label className="toggle-1150">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 54px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #e4e4e7;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.12);
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #D97757;
+}
+.Toggle span::after {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,.18);
+}`,
+},
+{
+    id: 1151,
+    name: "Spring Toggle",
+    preview: (
+        <label className="toggle-1151">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 53px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #3f3f46;
+    cursor: pointer;
+    transition: all .35s cubic-bezier(.34,1.56,.64,1);
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #22c55e;
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fff;
+    transition: transform .35s cubic-bezier(.34,1.56,.64,1);
+}`,
+},
+{
+    id: 1152,
+    name: "Bounce Toggle",
+    preview: (
+        <label className="toggle-1152">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 52px;
+    height: 28px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #8b5cf6;
+}
+.Toggle span::after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #fff;
+    animation: toggle-bounce 2s ease-in-out infinite;
+}
+@keyframes toggle-bounce {
+    0%,100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.08);
+    }
+}`,
+},
+{
+    id: 1153,
+    name: "Pulse Toggle",
+    preview: (
+        <label className="toggle-1153">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 53px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #052e16;
+    border: 1px solid #22c55e;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    box-shadow: 0 0 0 5px rgba(34,197,94,.08);
+    animation: toggle-pulse 1.6s infinite;
+}
+.Toggle span::after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #4ade80;
+}
+@keyframes toggle-pulse {
+    50% {
+        box-shadow: 0 0 0 10px rgba(34,197,94,0);
+    }
+}`,
+},
+{
+    id: 1154,
+    name: "Loading Toggle",
+    preview: (
+        <label className="toggle-1154">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-spinner"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-spinner"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 55px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 999px;
+    background: #3f3f46;
+    cursor: pointer;
+}
+.Toggle span::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-right: 7px;
+    color: #71717a;
+    font-size: 9px;
+    animation: toggle-spin 1s linear infinite;
+}
+@keyframes toggle-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+},
+{
+    id: 1155,
+    name: "Disabled Toggle",
+    preview: (
+        <label className="toggle-1155">
+            <input type="checkbox" disabled />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" disabled>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+    opacity: .45;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 50px;
+    height: 27px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #52525b;
+    cursor: not-allowed;
+}
+.Toggle span::after {
+    content: "";
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #a1a1aa;
+}`,
+},
+{
+    id: 1156,
+    name: "Red Alert Toggle",
+    preview: (
+        <label className="toggle-1156">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-circle-exclamation"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-circle-exclamation"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #450a0a;
+    border: 1px solid #ef4444;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #dc2626;
+}
+.Toggle span::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #ef4444;
+    font-size: 10px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #dc2626;
+}`,
+},
+{
+    id: 1157,
+    name: "Success Toggle",
+    preview: (
+        <label className="toggle-1157">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-check"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-check"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #052e16;
+    border: 1px solid #22c55e;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #22c55e;
+}
+.Toggle span::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #22c55e;
+    font-size: 10px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #22c55e;
+}`,
+},
+{
+    id: 1158,
+    name: "Warning Toggle",
+    preview: (
+        <label className="toggle-1158">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-triangle-exclamation"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-triangle-exclamation"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #422006;
+    border: 1px solid #f59e0b;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #f59e0b;
+}
+.Toggle span::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #f59e0b;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #b45309;
+}`,
+},
+{
+    id: 1159,
+    name: "Info Toggle",
+    preview: (
+        <label className="toggle-1159">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-info"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-info"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 55px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #082f49;
+    border: 1px solid #38bdf8;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #0284c7;
+}
+.Toggle span::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #38bdf8;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #0284c7;
+}`,
+},
+{
+    id: 1160,
+    name: "Check Toggle",
+    preview: (
+        <label className="toggle-1160">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-check"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-check"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 54px;
+    height: 28px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #3f3f46;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #16a34a;
+}
+.Toggle span::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #16a34a;
+}`,
+},
+{
+    id: 1161,
+    name: "Lightning Toggle",
+    preview: (
+        <label className="toggle-1161">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-bolt"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-bolt"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 57px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #431407;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#f97316,#facc15);
+    box-shadow: 0 0 18px rgba(250,204,21,.25);
+}
+.Toggle span::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #fb923c;
+    font-size: 10px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #f97316;
+}`,
+},
+{
+    id: 1162,
+    name: "Sparkle Toggle",
+    preview: (
+        <label className="toggle-1162">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-sparkles"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-sparkles"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #3f3f46;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#8b5cf6,#ec4899);
+}
+.Toggle span::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #a78bfa;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #8b5cf6;
+}`,
+},
+{
+    id: 1163,
+    name: "Shield Toggle",
+    preview: (
+        <label className="toggle-1163">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-shield-halved"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-shield-halved"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #052e16;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #16a34a;
+}
+.Toggle span::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #4ade80;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #16a34a;
+}`,
+},
+{
+    id: 1164,
+    name: "Database Toggle",
+    preview: (
+        <label className="toggle-1164">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-database"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-database"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #27272a;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #2563eb;
+}
+.Toggle span::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #60a5fa;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #2563eb;
+}`,
+},
+{
+    id: 1165,
+    name: "Code Toggle",
+    preview: (
+        <label className="toggle-1165">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-code"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-code"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #09090b;
+    border: 1px solid #334155;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    border-color: #22c55e;
+}
+.Toggle span::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #22c55e;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+}`,
+},
+{
+    id: 1166,
+    name: "Cyber Toggle",
+    preview: (
+        <label className="toggle-1166">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 60px;
+    height: 28px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #22d3ee;
+    border-radius: 3px;
+    background: #020617;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    border-color: #ec4899;
+    box-shadow: 0 0 15px rgba(34,211,238,.2);
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #22d3ee;
+    clip-path: polygon(0 0,100% 0,100% 80%,80% 100%,0 100%);
+}`,
+},
+{
+    id: 1167,
+    name: "Terminal Toggle",
+    preview: (
+        <label className="toggle-1167">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-terminal"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-terminal"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 60px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #14532d;
+    border-radius: 4px;
+    background: #020617;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #052e16;
+}
+.Toggle span::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 3px;
+    background: #22c55e;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #22c55e;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+}`,
+},
+{
+    id: 1168,
+    name: "Blur Toggle",
+    preview: (
+        <label className="toggle-1168">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 56px;
+    height: 29px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 999px;
+    background: rgba(255,255,255,.04);
+    backdrop-filter: blur(18px);
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: rgba(124,58,237,.3);
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.85);
+}`,
+},
+{
+    id: 1169,
+    name: "Frosted Toggle",
+    preview: (
+        <label className="toggle-1169">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 31px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid rgba(255,255,255,.4);
+    border-radius: 999px;
+    background: rgba(255,255,255,.14);
+    box-shadow: inset 0 1px 2px rgba(255,255,255,.15);
+    backdrop-filter: blur(20px);
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: rgba(255,255,255,.22);
+}
+.Toggle span::after {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.95);
+}`,
+},
+{
+    id: 1170,
+    name: "Neumorphic Toggle",
+    preview: (
+        <label className="toggle-1170">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 57px;
+    height: 31px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: #e6e2d8;
+    box-shadow: inset 3px 3px 7px rgba(163,157,140,.45), inset -3px -3px 7px rgba(255,255,255,.75);
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+}
+.Toggle span::after {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #e6e2d8;
+    box-shadow: 3px 3px 7px rgba(163,157,140,.45), -3px -3px 7px rgba(255,255,255,.75);
+}`,
+},
+{
+    id: 1171,
+    name: "Outline Toggle",
+    preview: (
+        <label className="toggle-1171">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 54px;
+    height: 28px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #52525b;
+    border-radius: 999px;
+    background: transparent;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    border-color: #D97757;
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #D97757;
+}`,
+},
+{
+    id: 1172,
+    name: "Double Ring Toggle",
+    preview: (
+        <label className="toggle-1172">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 56px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid #71717a;
+    border-radius: 999px;
+    background: #18181b;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    border-color: #22c55e;
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border: 2px solid #22c55e;
+    border-radius: 50%;
+    background: #18181b;
+}`,
+},
+{
+    id: 1173,
+    name: "Split Color Toggle",
+    preview: (
+        <label className="toggle-1173">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#ef4444 50%,#2563eb 50%);
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fff;
+}`,
+},
+{
+    id: 1174,
+    name: "Hot Cold Toggle",
+    preview: (
+        <label className="toggle-1174">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#06b6d4,#3b82f6);
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#f97316,#ef4444);
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fff;
+}`,
+},
+{
+    id: 1175,
+    name: "Sunset Toggle",
+    preview: (
+        <label className="toggle-1175">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: linear-gradient(135deg,#0f172a,#1e293b);
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#ef4444,#f97316,#facc15);
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fff;
+}`,
+},
+{
+    id: 1176,
+    name: "Aurora Toggle",
+    preview: (
+        <label className="toggle-1176">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 60px;
+    height: 31px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #18181b;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(100deg,#22c55e,#06b6d4,#6366f1,#ec4899);
+    background-size: 250% 100%;
+    animation: aurora-toggle 4s linear infinite;
+}
+.Toggle span::after {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+@keyframes aurora-toggle {
+    to {
+        background-position: 250% 0;
+    }
+}`,
+},
+{
+    id: 1177,
+    name: "Ocean Toggle",
+    preview: (
+        <label className="toggle-1177">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#0c4a6e,#164e63);
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#06b6d4,#2563eb);
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #e0f2fe;
+}`,
+},
+{
+    id: 1178,
+    name: "Forest Toggle",
+    preview: (
+        <label className="toggle-1178">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #052e16;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#166534,#22c55e);
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #dcfce7;
+}`,
+},
+{
+    id: 1179,
+    name: "Berry Toggle",
+    preview: (
+        <label className="toggle-1179">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #500724;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#be185d,#8b5cf6);
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fce7f3;
+}`,
+},
+{
+    id: 1180,
+    name: "Candy Toggle",
+    preview: (
+        <label className="toggle-1180">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 59px;
+    height: 31px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#fb7185,#f472b6,#c084fc);
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#c084fc,#f472b6,#fb7185);
+}
+.Toggle span::after {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}`,
+},
+{
+    id: 1181,
+    name: "Holographic Toggle",
+    preview: (
+        <label className="toggle-1181">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 60px;
+    height: 31px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: linear-gradient(100deg,#fca5a5,#fde68a,#86efac,#67e8f9,#c4b5fd,#f9a8d4);
+    background-size: 250% 100%;
+    animation: holo-toggle 4s linear infinite;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+}
+.Toggle span::after {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.95);
+}
+@keyframes holo-toggle {
+    to {
+        background-position: 250% 0;
+    }
+}`,
+},
+{
+    id: 1182,
+    name: "Chromatic Toggle",
+    preview: (
+        <label className="toggle-1182">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 60px;
+    height: 31px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: linear-gradient(100deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899);
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+}
+.Toggle span::after {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #18181b;
+}`,
+},
+{
+    id: 1183,
+    name: "Shimmer Toggle",
+    preview: (
+        <label className="toggle-1183">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    position: relative;
+    overflow: hidden;
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#f97316,#facc15);
+}
+.Toggle span::before {
+    content: "";
+    position: absolute;
+    left: -50%;
+    width: 35%;
+    height: 100%;
+    background: rgba(255,255,255,.45);
+    transform: skewX(-20deg);
+    animation: toggle-shimmer 2s infinite;
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fff;
+}
+@keyframes toggle-shimmer {
+    100% {
+        left: 140%;
+    }
+}`,
+},
+{
+    id: 1184,
+    name: "Liquid Toggle",
+    preview: (
+        <label className="toggle-1184">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 60px;
+    height: 31px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: linear-gradient(120deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4);
+    background-size: 300% 300%;
+    animation: liquid-toggle 5s ease infinite;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+}
+.Toggle span::after {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+@keyframes liquid-toggle {
+    0%,100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}`,
+},
+{
+    id: 1185,
+    name: "Fire Rainbow Toggle",
+    preview: (
+        <label className="toggle-1185">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 61px;
+    height: 31px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#dc2626,#f97316,#facc15,#ef4444);
+    background-size: 300% 100%;
+    animation: fire-rainbow-toggle 2.5s linear infinite;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    box-shadow: 0 0 18px rgba(249,115,22,.35);
+}
+.Toggle span::after {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+@keyframes fire-rainbow-toggle {
+    to {
+        background-position: 300% 0;
+    }
+}`,
+},
+{
+    id: 1186,
+    name: "LED Toggle",
+    preview: (
+        <label className="toggle-1186">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span><i></i></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 54px;
+    height: 27px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 7px;
+    border: 1px solid #334155;
+    border-radius: 5px;
+    background: #020617;
+}
+.Toggle span::before {
+    content: "";
+    width: 21px;
+    height: 21px;
+    border-radius: 4px;
+    background: #334155;
+}
+.Toggle i {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 10px #22c55e;
+}`,
+},
+{
+    id: 1187,
+    name: "Retro Toggle",
+    preview: (
+        <label className="toggle-1187">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 28px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid #18181b;
+    border-radius: 4px;
+    background: #facc15;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #4ade80;
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #18181b;
+    border-radius: 2px;
+}`,
+},
+{
+    id: 1188,
+    name: "Pixel Toggle",
+    preview: (
+        <label className="toggle-1188">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 58px;
+    height: 27px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #71717a;
+    border-radius: 2px;
+    background: #09090b;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    border-color: #facc15;
+}
+.Toggle span::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    background: #facc15;
+}`,
+},
+{
+    id: 1189,
+    name: "Electric Toggle",
+    preview: (
+        <label className="toggle-1189">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 59px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: #0c4a6e;
+    border: 1px solid #38bdf8;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #0284c7;
+    box-shadow: 0 0 22px rgba(56,189,248,.45);
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #e0f2fe;
+}`,
+},
+{
+    id: 1190,
+    name: "Void Toggle",
+    preview: (
+        <label className="toggle-1190">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 60px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #27272a;
+    border-radius: 999px;
+    background: #000;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: #18181b;
+    box-shadow: 0 0 18px rgba(255,255,255,.08);
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #71717a;
+}`,
+},
+{
+    id: 1191,
+    name: "Silver Toggle",
+    preview: (
+        <label className="toggle-1191">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 59px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: linear-gradient(145deg,#27272a,#71717a);
+    border: 1px solid #a1a1aa;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(145deg,#a1a1aa,#52525b);
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: linear-gradient(#fff,#d4d4d8);
+}`,
+},
+{
+    id: 1192,
+    name: "Gold Toggle",
+    preview: (
+        <label className="toggle-1192">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 59px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: linear-gradient(145deg,#713f12,#a16207);
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(145deg,#eab308,#f59e0b);
+    box-shadow: 0 0 18px rgba(234,179,8,.25);
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fff7ed;
+}`,
+},
+{
+    id: 1193,
+    name: "Rose Gold Toggle",
+    preview: (
+        <label className="toggle-1193">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 59px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: linear-gradient(145deg,#831843,#9f1239);
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: linear-gradient(145deg,#fb7185,#f9a8d4);
+}
+.Toggle span::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #fff;
+}`,
+},
+{
+    id: 1194,
+    name: "Plasma Toggle",
+    preview: (
+        <label className="toggle-1194">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 61px;
+    height: 31px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: radial-gradient(circle,#ec4899,#4c1d95);
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background: radial-gradient(circle,#22d3ee,#2563eb);
+}
+.Toggle span::after {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}`,
+},
+{
+    id: 1195,
+    name: "Nebula Toggle",
+    preview: (
+        <label className="toggle-1195">
+            <input type="checkbox" defaultChecked />
+            <span></span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span></span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 62px;
+    height: 31px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 999px;
+    background: linear-gradient(120deg,#1e1b4b,#581c87,#701a75);
+    background-size: 200% 200%;
+    animation: nebula-toggle 5s ease infinite;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+}
+.Toggle span::after {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #f5f3ff;
+}
+@keyframes nebula-toggle {
+    50% {
+        background-position: 100% 100%;
+    }
+}`,
+},
+{
+    id: 1196,
+    name: "Energy Toggle",
+    preview: (
+        <label className="toggle-1196">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-bolt"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-bolt"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 62px;
+    height: 31px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#991b1b,#f97316,#facc15);
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    box-shadow: 0 0 24px rgba(249,115,22,.4);
+}
+.Toggle span::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #fef3c7;
+    font-size: 10px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #f97316;
+}`,
+},
+{
+    id: 1197,
+    name: "Cosmic Toggle",
+    preview: (
+        <label className="toggle-1197">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-star"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-star"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 62px;
+    height: 31px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#020617,#312e81,#581c87);
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    box-shadow: 0 0 20px rgba(99,102,241,.4);
+}
+.Toggle span::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #818cf8;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+}`,
+},
+{
+    id: 1198,
+    name: "Final Rainbow Toggle",
+    preview: (
+        <label className="toggle-1198">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-sparkles"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-sparkles"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 64px;
+    height: 32px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899);
+    background-size: 400% 100%;
+    animation: final-rainbow-toggle 3s linear infinite;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    box-shadow: 0 0 25px rgba(139,92,246,.35);
+}
+.Toggle span::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #fff;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+}
+@keyframes final-rainbow-toggle {
+    to {
+        background-position: 400% 0;
+    }
+}`,
+},
+{
+    id: 1199,
+    name: "Ultimate Gradient Toggle",
+    preview: (
+        <label className="toggle-1199">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-check"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-check"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    width: 64px;
+    height: 33px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(#18181b,#18181b) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+    background-size: 100% 100%, 300% 100%;
+    animation: ultimate-gradient-toggle 3s linear infinite;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    background:
+        linear-gradient(#27272a,#27272a) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+}
+.Toggle span::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #fff;
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 7px;
+    color: #a1a1aa;
+    font-size: 9px;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 7px;
+    color: #fff;
+}
+@keyframes ultimate-gradient-toggle {
+    to {
+        background-position: 0 0, 300% 0;
+    }
+}`,
+},
+{
+    id: 1200,
+    name: "Ultimate Rainbow Toggle",
+    preview: (
+        <label className="toggle-1200">
+            <input type="checkbox" defaultChecked />
+            <span>
+                <i className="fa-solid fa-sparkles"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked>
+    <span>
+        <i class="fa-solid fa-sparkles"></i>
+    </span>
+</label>`,
+    css: `.Toggle {
+    display: inline-flex;
+}
+.Toggle input {
+    display: none;
+}
+.Toggle span {
+    position: relative;
+    width: 68px;
+    height: 34px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(#18181b,#18181b) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899,#ef4444) border-box;
+    background-size: 100% 100%, 400% 100%;
+    animation: ultimate-rainbow-toggle 2.5s linear infinite;
+    cursor: pointer;
+}
+.Toggle input:checked + span {
+    justify-content: flex-end;
+    box-shadow:
+        0 0 15px rgba(239,68,68,.2),
+        0 0 30px rgba(99,102,241,.2),
+        0 0 45px rgba(236,72,153,.12);
+}
+.Toggle span::before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,.3);
+}
+.Toggle i {
+    position: absolute;
+    margin-left: 8px;
+    color: #fff;
+    font-size: 10px;
+    z-index: 2;
+}
+.Toggle input:checked + span i {
+    margin-left: 0;
+    margin-right: 8px;
+}
+@keyframes ultimate-rainbow-toggle {
+    to {
+        background-position: 0 0, 400% 0;
+    }
+}`,
+},
 ];
 
 
