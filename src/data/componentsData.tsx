@@ -26162,7 +26162,2836 @@ export const loaders = [
     }
 }`
     },
+    {
+        id: 1203,
+        name: "Spinning Ring",
+        preview: (
+            <div className="loader-1203">
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+</div>`,
+        css: `.Loader {
+    width: 42px;
+    height: 42px;
+    border: 4px solid #e4e4e7;
+    border-top-color: #2563eb;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 1204,
+        name: "Dual Ring",
+        preview: (
+            <div className="loader-1204">
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+</div>`,
+        css: `.Loader {
+    width: 42px;
+    height: 42px;
+    border: 3px solid transparent;
+    border-top-color: #7c3aed;
+    border-bottom-color: #ec4899;
+    border-radius: 50%;
+    animation: spin 0.9s linear infinite;
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 1205,
+        name: "Dots Loader",
+        preview: (
+            <div className="loader-1205">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+        css: `.Loader {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.Loader span {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #2563eb;
+    animation: bounce 0.9s ease-in-out infinite;
+}
+.Loader span:nth-child(2) {
+    animation-delay: 0.15s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: 0.3s;
+}
+@keyframes bounce {
+    0%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+}`
+    },
+    {
+        id: 1206,
+        name: "Wave Loader",
+        preview: (
+            <div className="loader-1206">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+        css: `.Loader {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 32px;
+}
+.Loader span {
+    width: 5px;
+    height: 12px;
+    background: #06b6d4;
+    border-radius: 999px;
+    animation: wave 1s ease-in-out infinite;
+}
+.Loader span:nth-child(2) {
+    animation-delay: 0.1s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: 0.2s;
+}
+.Loader span:nth-child(4) {
+    animation-delay: 0.3s;
+}
+.Loader span:nth-child(5) {
+    animation-delay: 0.4s;
+}
+@keyframes wave {
+    0%, 100% {
+        height: 10px;
+    }
+    50% {
+        height: 30px;
+    }
+}`
+    },
+    {
+        id: 1207,
+        name: "Square Spin",
+        preview: (
+            <div className="loader-1207">
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+</div>`,
+        css: `.Loader {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+}
+.Loader span {
+    width: 24px;
+    height: 24px;
+    border: 3px solid #e4e4e7;
+    border-left-color: #f97316;
+    border-radius: 7px;
+    animation: square-spin 0.8s linear infinite;
+}
+@keyframes square-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 1208,
+        name: "Pulse Loader",
+        preview: (
+            <div className="loader-1208">
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+</div>`,
+        css: `.Loader {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+}
+.Loader span {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 0 0 rgba(34,197,94,.5);
+    animation: pulse 1.4s infinite;
+}
+@keyframes pulse {
+    70% {
+        box-shadow: 0 0 0 16px rgba(34,197,94,0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(34,197,94,0);
+    }
+}`
+    },
+    {
+        id: 1209,
+        name: "Orbit Loader",
+        preview: (
+            <div className="loader-1209">
+                <span></span>
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+    <span></span>
+</div>`,
+        css: `.Loader {
+    position: relative;
+    width: 46px;
+    height: 46px;
+    border: 2px solid rgba(124,58,237,.2);
+    border-radius: 50%;
+    animation: orbit-ring 1.4s linear infinite;
+}
+.Loader span {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
+.Loader span:first-child {
+    top: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #7c3aed;
+}
+.Loader span:last-child {
+    right: -4px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ec4899;
+}
+@keyframes orbit-ring {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 1210,
+        name: "Gradient Ring",
+        preview: (
+            <div className="loader-1210">
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+</div>`,
+        css: `.Loader {
+    width: 46px;
+    height: 46px;
+    padding: 3px;
+    border-radius: 50%;
+    background: conic-gradient(#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899,#ef4444);
+    animation: gradient-spin 1s linear infinite;
+}
+.Loader span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background: #18181b;
+}
+@keyframes gradient-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 1211,
+        name: "Rainbow Dots",
+        preview: (
+            <div className="loader-1211">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+        css: `.Loader {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.Loader span {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: rainbow-dot 1.2s ease-in-out infinite;
+}
+.Loader span:nth-child(1) {
+    background: #ef4444;
+}
+.Loader span:nth-child(2) {
+    background: #f97316;
+    animation-delay: .1s;
+}
+.Loader span:nth-child(3) {
+    background: #eab308;
+    animation-delay: .2s;
+}
+.Loader span:nth-child(4) {
+    background: #22c55e;
+    animation-delay: .3s;
+}
+.Loader span:nth-child(5) {
+    background: #6366f1;
+    animation-delay: .4s;
+}
+@keyframes rainbow-dot {
+    0%, 100% {
+        transform: scale(.7);
+        opacity: .45;
+    }
+    50% {
+        transform: scale(1.3);
+        opacity: 1;
+    }
+}`
+    },
+    {
+        id: 1212,
+        name: "Neon Ring",
+        preview: (
+            <div className="loader-1212">
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+</div>`,
+        css: `.Loader {
+    width: 44px;
+    height: 44px;
+    border: 3px solid rgba(34,211,238,.15);
+    border-top-color: #22d3ee;
+    border-right-color: #22d3ee;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 8px #22d3ee);
+    animation: neon-spin 0.75s linear infinite;
+}
+@keyframes neon-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 1213,
+        name: "Bars Loader",
+        preview: (
+            <div className="loader-1213">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+        css: `.Loader {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Loader span {
+    width: 7px;
+    height: 26px;
+    border-radius: 5px;
+    background: linear-gradient(#8b5cf6,#ec4899);
+    animation: bars 1s ease-in-out infinite;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .1s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .2s;
+}
+.Loader span:nth-child(4) {
+    animation-delay: .3s;
+}
+@keyframes bars {
+    0%, 100% {
+        transform: scaleY(.45);
+        opacity: .6;
+    }
+    50% {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}`
+    },
+    {
+        id: 1214,
+        name: "Diamond Loader",
+        preview: (
+            <div className="loader-1214">
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+</div>`,
+        css: `.Loader {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+}
+.Loader span {
+    width: 22px;
+    height: 22px;
+    background: linear-gradient(135deg,#38bdf8,#8b5cf6);
+    transform: rotate(45deg);
+    animation: diamond 1s ease-in-out infinite;
+    box-shadow: 0 0 20px rgba(139,92,246,.4);
+}
+@keyframes diamond {
+    0%, 100% {
+        transform: rotate(45deg) scale(.8);
+    }
+    50% {
+        transform: rotate(225deg) scale(1.1);
+    }
+}`
+    },
+    {
+        id: 1215,
+        name: "Flip Loader",
+        preview: (
+            <div className="loader-1215">
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+</div>`,
+        css: `.Loader {
+    width: 42px;
+    height: 42px;
+    perspective: 100px;
+}
+.Loader span {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+    background: linear-gradient(135deg,#f97316,#ec4899);
+    animation: flip 1s infinite ease-in-out;
+}
+@keyframes flip {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    50% {
+        transform: rotateX(180deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(180deg) rotateY(180deg);
+    }
+}`
+    },
+    {
+        id: 1216,
+        name: "Ripple Loader",
+        preview: (
+            <div className="loader-1216">
+                <span></span>
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+    <span></span>
+</div>`,
+        css: `.Loader {
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+.Loader span {
+    position: absolute;
+    inset: 6px;
+    border: 3px solid #6366f1;
+    border-radius: 50%;
+    animation: ripple 1.5s ease-out infinite;
+}
+.Loader span:last-child {
+    animation-delay: .75s;
+}
+@keyframes ripple {
+    0% {
+        transform: scale(.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}`
+    },
+    {
+        id: 1217,
+        name: "Crystal Loader",
+        preview: (
+            <div className="loader-1217">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+        css: `.Loader {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.Loader span {
+    width: 12px;
+    height: 12px;
+    background: linear-gradient(135deg,rgba(125,211,252,.9),rgba(196,181,253,.35));
+    border: 1px solid rgba(255,255,255,.35);
+    backdrop-filter: blur(8px);
+    border-radius: 4px;
+    transform: rotate(45deg);
+    animation: crystal 1s ease-in-out infinite;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .15s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .3s;
+}
+@keyframes crystal {
+    0%, 100% {
+        transform: rotate(45deg) scale(.8);
+        opacity: .5;
+    }
+    50% {
+        transform: rotate(45deg) scale(1.15);
+        opacity: 1;
+    }
+}`
+    },
+    {
+        id: 1218,
+        name: "Snake Loader",
+        preview: (
+            <div className="loader-1218">
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+</div>`,
+        css: `.Loader {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 3px solid #27272a;
+    border-top-color: #22c55e;
+    border-right-color: #22c55e;
+    animation: snake 1s linear infinite;
+}
+@keyframes snake {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}`
+    },
+    {
+        id: 1219,
+        name: "Meteor Loader",
+        preview: (
+            <div className="loader-1219">
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+</div>`,
+        css: `.Loader {
+    position: relative;
+    width: 52px;
+    height: 34px;
+    overflow: hidden;
+}
+.Loader span {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 12px;
+    left: -12px;
+    border-radius: 50%;
+    background: #38bdf8;
+    box-shadow: 0 0 12px #38bdf8;
+    animation: meteor 1.2s linear infinite;
+}
+.Loader span::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 4px;
+    top: 3px;
+    right: 6px;
+    border-radius: 999px;
+    background: linear-gradient(90deg,transparent,#38bdf8);
+}
+@keyframes meteor {
+    to {
+        left: 58px;
+    }
+}`
+    },
+    {
+        id: 1220,
+        name: "Fire Loader",
+        preview: (
+            <div className="loader-1220">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+        css: `.Loader {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    height: 34px;
+}
+.Loader span {
+    width: 8px;
+    background: linear-gradient(#facc15,#f97316,#ef4444);
+    border-radius: 8px 8px 3px 3px;
+    animation: fire 0.8s ease-in-out infinite alternate;
+}
+.Loader span:nth-child(1) {
+    height: 18px;
+}
+.Loader span:nth-child(2) {
+    height: 29px;
+    animation-delay: .15s;
+}
+.Loader span:nth-child(3) {
+    height: 21px;
+    animation-delay: .3s;
+}
+@keyframes fire {
+    to {
+        transform: scaleY(.55);
+        filter: brightness(1.4);
+    }
+}`
+    },
+    {
+        id: 1221,
+        name: "DNA Loader",
+        preview: (
+            <div className="loader-1221">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+        css: `.Loader {
+    position: relative;
+    width: 44px;
+    height: 44px;
+}
+.Loader span {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #06b6d4;
+    animation: dna 1.2s ease-in-out infinite;
+}
+.Loader span:nth-child(1) {
+    top: 4px;
+    left: 7px;
+}
+.Loader span:nth-child(2) {
+    top: 15px;
+    left: 25px;
+    animation-delay: .15s;
+}
+.Loader span:nth-child(3) {
+    top: 26px;
+    left: 7px;
+    animation-delay: .3s;
+}
+.Loader span:nth-child(4) {
+    top: 37px;
+    left: 25px;
+    animation-delay: .45s;
+}
+@keyframes dna {
+    50% {
+        transform: translateX(12px);
+        background: #8b5cf6;
+    }
+}`
+    },
+    {
+        id: 1222,
+        name: "Aurora Loader",
+        preview: (
+            <div className="loader-1222">
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+</div>`,
+        css: `.Loader {
+    width: 54px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#06b6d4,#6366f1,#ec4899,#22c55e,#06b6d4);
+    background-size: 300% 100%;
+    animation: aurora 3s linear infinite;
+}
+.Loader span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background: #09090b;
+}
+@keyframes aurora {
+    to {
+        background-position: 300% 0;
+    }
+}`
+    },
+    {
+        id: 1223,
+        name: "Cosmic Loader",
+        preview: (
+            <div className="loader-1223">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        ),
+        html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+        css: `.Loader {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.Loader span {
+    position: absolute;
+    border-radius: 50%;
+}
+.Loader span:nth-child(1) {
+    inset: 5px;
+    border: 2px solid transparent;
+    border-top-color: #60a5fa;
+    border-left-color: #818cf8;
+    animation: cosmic 1.1s linear infinite;
+}
+.Loader span:nth-child(2) {
+    inset: 12px;
+    border: 2px solid transparent;
+    border-right-color: #ec4899;
+    border-bottom-color: #a855f7;
+    animation: cosmic 0.8s linear infinite reverse;
+}
+.Loader span:nth-child(3) {
+    width: 7px;
+    height: 7px;
+    top: 21px;
+    left: 21px;
+    background: #ffffff;
+    box-shadow: 0 0 15px #ffffff;
+    animation: cosmic-pulse 1s ease-in-out infinite;
+}
+@keyframes cosmic {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes cosmic-pulse {
+    50% {
+        transform: scale(1.5);
+        opacity: .65;
+    }
+}`
+    },
+    {
+    id: 1234,
+    name: "Triple Orbit Loader",
+    preview: (
+        <div className="loader-1234">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.Loader span {
+    position: absolute;
+    inset: 4px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+.Loader span:nth-child(1) {
+    border-top-color: #38bdf8;
+    animation: orbit 1s linear infinite;
+}
+.Loader span:nth-child(2) {
+    inset: 10px;
+    border-right-color: #8b5cf6;
+    animation: orbit 1.3s linear infinite reverse;
+}
+.Loader span:nth-child(3) {
+    inset: 16px;
+    border-bottom-color: #ec4899;
+    animation: orbit 0.7s linear infinite;
+}
+@keyframes orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1235,
+    name: "Liquid Loader",
+    preview: (
+        <div className="loader-1235">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 44px;
+    height: 44px;
+    padding: 3px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: #e5e7eb;
+}
+.Loader span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#06b6d4, #3b82f6, #8b5cf6, #06b6d4);
+    animation: liquid 1.2s linear infinite;
+}
+@keyframes liquid {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1236,
+    name: "Morphing Square Loader",
+    preview: (
+        <div className="loader-1236">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+}
+.Loader span {
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(135deg, #06b6d4, #8b5cf6);
+    animation: morph 1.2s ease-in-out infinite;
+}
+@keyframes morph {
+    0%, 100% {
+        border-radius: 4px;
+        transform: rotate(0deg) scale(.8);
+    }
+    50% {
+        border-radius: 50%;
+        transform: rotate(180deg) scale(1.15);
+    }
+}`
+},
+{
+    id: 1237,
+    name: "Climbing Dots Loader",
+    preview: (
+        <div className="loader-1237">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    height: 36px;
+}
+.Loader span {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #6366f1;
+    animation: climb 1s ease-in-out infinite;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .12s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .24s;
+}
+.Loader span:nth-child(4) {
+    animation-delay: .36s;
+}
+@keyframes climb {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-22px);
+    }
+}`
+},
+{
+    id: 1238,
+    name: "Helix Loader",
+    preview: (
+        <div className="loader-1238">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 50px;
+    height: 40px;
+}
+.Loader span {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ec4899;
+    animation: helix 1.2s ease-in-out infinite;
+}
+.Loader span:nth-child(1) {
+    left: 5px;
+}
+.Loader span:nth-child(2) {
+    left: 18px;
+    animation-delay: .15s;
+}
+.Loader span:nth-child(3) {
+    left: 31px;
+    animation-delay: .3s;
+}
+.Loader span:nth-child(4) {
+    left: 44px;
+    animation-delay: .45s;
+}
+@keyframes helix {
+    0%, 100% {
+        top: 5px;
+        background: #06b6d4;
+    }
+    50% {
+        top: 28px;
+        background: #ec4899;
+    }
+}`
+},
+{
+    id: 1239,
+    name: "Expanding Grid Loader",
+    preview: (
+        <div className="loader-1239">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: grid;
+    grid-template-columns: repeat(2, 14px);
+    gap: 5px;
+}
+.Loader span {
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    background: #7c3aed;
+    animation: expand-grid 1s ease-in-out infinite;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .12s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .24s;
+}
+.Loader span:nth-child(4) {
+    animation-delay: .36s;
+}
+@keyframes expand-grid {
+    0%, 100% {
+        transform: scale(.7);
+        opacity: .45;
+    }
+    50% {
+        transform: scale(1.15);
+        opacity: 1;
+    }
+}`
+},
+{
+    id: 1240,
+    name: "Neon Cube Loader",
+    preview: (
+        <div className="loader-1240">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 42px;
+    height: 42px;
+    perspective: 100px;
+}
+.Loader span {
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin: 7px;
+    border: 2px solid #22d3ee;
+    box-shadow: 0 0 10px #22d3ee, inset 0 0 10px rgba(34,211,238,.2);
+    animation: cube 1.5s ease-in-out infinite;
+}
+@keyframes cube {
+    0%, 100% {
+        transform: rotateX(0) rotateY(0);
+    }
+    50% {
+        transform: rotateX(180deg) rotateY(180deg);
+    }
+}`
+},
+{
+    id: 1241,
+    name: "Rainbow Pulse Loader",
+    preview: (
+        <div className="loader-1241">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 20px;
+    height: 20px;
+    padding: 7px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #ec4899);
+    background-size: 300% 300%;
+    animation: rainbow-pulse 2s linear infinite;
+}
+.Loader span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #18181b;
+}
+@keyframes rainbow-pulse {
+    0% {
+        transform: scale(.8);
+        background-position: 0% 50%;
+    }
+    50% {
+        transform: scale(1.15);
+        background-position: 100% 50%;
+    }
+    100% {
+        transform: scale(.8);
+        background-position: 0% 50%;
+    }
+}`
+},
+{
+    id: 1242,
+    name: "Rotating Bars Loader",
+    preview: (
+        <div className="loader-1242">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 44px;
+    height: 44px;
+}
+.Loader span {
+    position: absolute;
+    width: 5px;
+    height: 18px;
+    top: 13px;
+    left: 20px;
+    border-radius: 999px;
+    background: #2563eb;
+    transform-origin: 2px 9px;
+    animation: rotating-bars 1s linear infinite;
+}
+.Loader span:nth-child(1) {
+    transform: rotate(0deg) translateY(-10px);
+}
+.Loader span:nth-child(2) {
+    transform: rotate(90deg) translateY(-10px);
+    animation-delay: .15s;
+}
+.Loader span:nth-child(3) {
+    transform: rotate(180deg) translateY(-10px);
+    animation-delay: .3s;
+}
+.Loader span:nth-child(4) {
+    transform: rotate(270deg) translateY(-10px);
+    animation-delay: .45s;
+}
+@keyframes rotating-bars {
+    50% {
+        opacity: .25;
+    }
+}`
+},
+{
+    id: 1243,
+    name: "Wave Circle Loader",
+    preview: (
+        <div className="loader-1243">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.Loader span {
+    position: absolute;
+    inset: 4px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    animation: circle-wave 1.5s ease-out infinite;
+}
+.Loader span:nth-child(1) {
+    border-color: #38bdf8;
+}
+.Loader span:nth-child(2) {
+    border-color: #8b5cf6;
+    animation-delay: .5s;
+}
+.Loader span:nth-child(3) {
+    border-color: #ec4899;
+    animation-delay: 1s;
+}
+@keyframes circle-wave {
+    0% {
+        transform: scale(.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}`
+},
+{
+    id: 1244,
+    name: "Typing Loader",
+    preview: (
+        <div className="loader-1244">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.Loader span {
+    width: 7px;
+    height: 7px;
+    background: #71717a;
+    border-radius: 50%;
+    animation: typing 1.4s ease-in-out infinite;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .18s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .36s;
+}
+@keyframes typing {
+    0%, 60%, 100% {
+        transform: translateY(0);
+        opacity: .4;
+    }
+    30% {
+        transform: translateY(-7px);
+        opacity: 1;
+    }
+}`
+},
+{
+    id: 1245,
+    name: "DNA Ring Loader",
+    preview: (
+        <div className="loader-1245">
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 45px;
+    height: 45px;
+}
+.Loader span {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+.Loader span:first-child {
+    border-left-color: #06b6d4;
+    border-right-color: #06b6d4;
+    animation: dna-ring 1s linear infinite;
+}
+.Loader span:last-child {
+    inset: 7px;
+    width: 31px;
+    height: 31px;
+    border-top-color: #8b5cf6;
+    border-bottom-color: #8b5cf6;
+    animation: dna-ring 1.2s linear infinite reverse;
+}
+@keyframes dna-ring {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1246,
+    name: "Blur Loader",
+    preview: (
+        <div className="loader-1246">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+}
+.Loader span {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #8b5cf6;
+    filter: blur(2px);
+    box-shadow: 0 0 20px #8b5cf6;
+    animation: blur-loader 1.2s ease-in-out infinite;
+}
+@keyframes blur-loader {
+    0%, 100% {
+        transform: scale(.7);
+        opacity: .5;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}`
+},
+{
+    id: 1247,
+    name: "Loading Scanner",
+    preview: (
+        <div className="loader-1247">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 55px;
+    height: 22px;
+    overflow: hidden;
+    border: 1px solid #27272a;
+    border-radius: 5px;
+    background: #09090b;
+}
+.Loader span {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, #22d3ee, transparent);
+    box-shadow: 0 0 15px #22d3ee;
+    animation: scanner 1.1s linear infinite;
+}
+@keyframes scanner {
+    to {
+        left: 55px;
+    }
+}`
+},
+{
+    id: 1248,
+    name: "Equalizer Loader",
+    preview: (
+        <div className="loader-1248">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 32px;
+}
+.Loader span {
+    width: 5px;
+    height: 18px;
+    background: #22c55e;
+    border-radius: 4px;
+    animation: equalizer 1s ease-in-out infinite;
+}
+.Loader span:nth-child(1) {
+    animation-delay: .05s;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .2s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .35s;
+}
+.Loader span:nth-child(4) {
+    animation-delay: .5s;
+}
+.Loader span:nth-child(5) {
+    animation-delay: .65s;
+}
+@keyframes equalizer {
+    0%, 100% {
+        transform: scaleY(.35);
+    }
+    50% {
+        transform: scaleY(1.3);
+    }
+}`
+},
+{
+    id: 1249,
+    name: "Prism Loader",
+    preview: (
+        <div className="loader-1249">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+}
+.Loader span {
+    width: 26px;
+    height: 26px;
+    background: linear-gradient(135deg,#38bdf8,#6366f1,#ec4899);
+    clip-path: polygon(50% 0%,100% 25%,82% 100%,18% 100%,0% 25%);
+    animation: prism 1.4s ease-in-out infinite;
+    filter: drop-shadow(0 0 8px rgba(99,102,241,.5));
+}
+@keyframes prism {
+    0%, 100% {
+        transform: rotateY(0deg) scale(.8);
+    }
+    50% {
+        transform: rotateY(180deg) scale(1.1);
+    }
+}`
+},
+{
+    id: 1250,
+    name: "Magnetic Loader",
+    preview: (
+        <div className="loader-1250">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+.Loader span {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #f97316;
+    animation: magnetic 1.3s ease-in-out infinite;
+}
+.Loader span:nth-child(1) {
+    top: 5px;
+    left: 19px;
+}
+.Loader span:nth-child(2) {
+    bottom: 5px;
+    left: 5px;
+    animation-delay: .2s;
+}
+.Loader span:nth-child(3) {
+    bottom: 5px;
+    right: 5px;
+    animation-delay: .4s;
+}
+@keyframes magnetic {
+    50% {
+        transform: translate(0, 10px) scale(1.25);
+        box-shadow: 0 0 15px #f97316;
+    }
+}`
+},
+{
+    id: 1251,
+    name: "Solar System Loader",
+    preview: (
+        <div className="loader-1251">
+            <span className="loader-1251-sun"></span>
+            <span className="loader-1251-orbit"></span>
+            <span className="loader-1251-planet"></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span class="Loader-sun"></span>
+    <span class="Loader-orbit"></span>
+    <span class="Loader-planet"></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 54px;
+    height: 54px;
+}
+.Loader-sun {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 21px;
+    left: 21px;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 0 0 15px #facc15;
+}
+.Loader-orbit {
+    position: absolute;
+    inset: 5px;
+    border: 1px solid rgba(59,130,246,.35);
+    border-radius: 50%;
+    animation: solar-orbit 1.4s linear infinite;
+}
+.Loader-planet {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 3px;
+    left: 23px;
+    border-radius: 50%;
+    background: #38bdf8;
+    box-shadow: 0 0 10px #38bdf8;
+    transform-origin: 4px 24px;
+    animation: solar-orbit 1.4s linear infinite;
+}
+@keyframes solar-orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1252,
+    name: "Pixel Loader",
+    preview: (
+        <div className="loader-1252">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: grid;
+    grid-template-columns: repeat(2, 8px);
+    gap: 3px;
+}
+.Loader span {
+    width: 8px;
+    height: 8px;
+    background: #22d3ee;
+    animation: pixel 1s steps(2, end) infinite;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .15s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .3s;
+}
+.Loader span:nth-child(4) {
+    animation-delay: .45s;
+}
+@keyframes pixel {
+    0%, 100% {
+        opacity: .25;
+        transform: scale(.7);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}`
+},
+{
+    id: 1253,
+    name: "Rainbow Infinity Loader",
+    preview: (
+        <div className="loader-1253">
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 55px;
+    height: 30px;
+}
+.Loader span {
+    position: absolute;
+    width: 30px;
+    height: 18px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    background:
+        linear-gradient(#18181b,#18181b) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+    background-size: 100% 100%,300% 100%;
+    animation: infinity 2s linear infinite;
+}
+.Loader span:first-child {
+    left: 0;
+    top: 4px;
+    transform: rotate(25deg);
+}
+.Loader span:last-child {
+    right: 0;
+    top: 4px;
+    transform: rotate(-25deg);
+    animation-delay: -.15s;
+}
+@keyframes infinity {
+    to {
+        background-position: 0 0,300% 0;
+    }
+}`
+},
+{
+    id: 1254,
+    name: "Cosmic Portal Loader",
+    preview: (
+        <div className="loader-1254">
+            <span></span>
+            <span></span>
+            <span></span>
+            <i className="fa-solid fa-star"></i>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <i class="fa-solid fa-star"></i>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+}
+.Loader span {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+.Loader span:nth-child(1) {
+    inset: 2px;
+    border-top-color: #38bdf8;
+    border-left-color: #6366f1;
+    animation: portal 1s linear infinite;
+}
+.Loader span:nth-child(2) {
+    inset: 9px;
+    border-right-color: #ec4899;
+    border-bottom-color: #a855f7;
+    animation: portal 1.3s linear infinite reverse;
+}
+.Loader span:nth-child(3) {
+    inset: 16px;
+    border-top-color: #22d3ee;
+    animation: portal 0.7s linear infinite;
+}
+.Loader i {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    font-size: 10px;
+    text-shadow: 0 0 10px #ffffff;
+    animation: star 1s ease-in-out infinite;
+}
+@keyframes portal {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes star {
+    50% {
+        transform: scale(1.6);
+        opacity: .5;
+    }
+}`
+},
+{
+    id: 1255,
+    name: "Meteor Ring Loader",
+    preview: (
+        <div className="loader-1255">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 46px;
+    height: 46px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-top-color: #38bdf8;
+    border-right-color: #8b5cf6;
+    border-radius: 50%;
+    animation: meteor-ring 1s linear infinite;
+}
+.Loader span {
+    display: block;
+}
+@keyframes meteor-ring {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+},
+{
+    id: 1256,
+    name: "Pulse Orbit Loader",
+    preview: (
+        <div className="loader-1256">
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+.Loader span:first-child {
+    position: absolute;
+    inset: 7px;
+    border: 2px solid #6366f1;
+    border-radius: 50%;
+    animation: pulse-orbit 1.4s ease-in-out infinite;
+}
+.Loader span:last-child {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #ec4899;
+    box-shadow: 0 0 12px #ec4899;
+    animation: pulse-orbit-dot 1.4s linear infinite;
+}
+@keyframes pulse-orbit {
+    50% {
+        transform: scale(1.08);
+        opacity: .45;
+    }
+}
+@keyframes pulse-orbit-dot {
+    to {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}`,
+},
+{
+    id: 1257,
+    name: "Liquid Wave Loader",
+    preview: (
+        <div className="loader-1257">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    height: 34px;
+}
+.Loader span {
+    width: 8px;
+    height: 16px;
+    border-radius: 999px;
+    background: linear-gradient(#67e8f9, #2563eb);
+    animation: liquid-wave 1s ease-in-out infinite;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .15s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .3s;
+}
+@keyframes liquid-wave {
+    0%,
+    100% {
+        height: 12px;
+    }
+    50% {
+        height: 30px;
+    }
+}`,
+},
+{
+    id: 1258,
+    name: "Rainbow Spinner",
+    preview: (
+        <div className="loader-1258">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 46px;
+    height: 46px;
+    padding: 4px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #ef4444,
+        #f97316,
+        #eab308,
+        #22c55e,
+        #06b6d4,
+        #6366f1,
+        #ec4899,
+        #ef4444
+    );
+    animation: rainbow-spin 1.1s linear infinite;
+}
+.Loader span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #09090b;
+}
+@keyframes rainbow-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+},
+{
+    id: 1259,
+    name: "Glowing Dots Loader",
+    preview: (
+        <div className="loader-1259">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.Loader span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #38bdf8;
+    box-shadow: 0 0 12px #38bdf8;
+    animation: glowing-dots 1.1s ease-in-out infinite;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .12s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .24s;
+}
+.Loader span:nth-child(4) {
+    animation-delay: .36s;
+}
+@keyframes glowing-dots {
+    0%,
+    100% {
+        transform: scale(.65);
+        opacity: .4;
+    }
+    50% {
+        transform: scale(1.25);
+        opacity: 1;
+    }
+}`,
+},
+{
+    id: 1260,
+    name: "Portal Loader",
+    preview: (
+        <div className="loader-1260">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 52px;
+    height: 52px;
+}
+.Loader span {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+.Loader span:nth-child(1) {
+    inset: 2px;
+    border-top-color: #06b6d4;
+    border-left-color: #3b82f6;
+    animation: portal-spin 1s linear infinite;
+}
+.Loader span:nth-child(2) {
+    inset: 9px;
+    border-right-color: #8b5cf6;
+    border-bottom-color: #ec4899;
+    animation: portal-spin 1.2s linear infinite reverse;
+}
+.Loader span:nth-child(3) {
+    inset: 17px;
+    border-top-color: #ffffff;
+    animation: portal-spin 0.7s linear infinite;
+}
+@keyframes portal-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+},
+{
+    id: 1261,
+    name: "Matrix Rain Loader",
+    preview: (
+        <div className="loader-1261">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    height: 38px;
+}
+.Loader span {
+    width: 5px;
+    height: 16px;
+    background: #22c55e;
+    box-shadow: 0 0 8px rgba(34, 197, 94, .7);
+    animation: matrix-rain 1s ease-in-out infinite;
+}
+.Loader span:nth-child(1) {
+    animation-delay: .05s;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .17s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .29s;
+}
+.Loader span:nth-child(4) {
+    animation-delay: .41s;
+}
+.Loader span:nth-child(5) {
+    animation-delay: .53s;
+}
+@keyframes matrix-rain {
+    0%,
+    100% {
+        height: 8px;
+        opacity: .35;
+    }
+    50% {
+        height: 34px;
+        opacity: 1;
+    }
+}`,
+},
+{
+    id: 1262,
+    name: "Crystal Burst Loader",
+    preview: (
+        <div className="loader-1262">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+.Loader span {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 20px;
+    left: 20px;
+    border-radius: 3px;
+    background: #a5f3fc;
+    box-shadow: 0 0 10px #67e8f9;
+    animation: crystal-burst 1.3s ease-in-out infinite;
+}
+.Loader span:nth-child(1) {
+    animation-delay: 0s;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .15s;
+    background: #818cf8;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .3s;
+    background: #c084fc;
+}
+.Loader span:nth-child(4) {
+    animation-delay: .45s;
+    background: #f9a8d4;
+}
+@keyframes crystal-burst {
+    0%,
+    100% {
+        transform: rotate(45deg) translateY(0) scale(.65);
+        opacity: .4;
+    }
+    50% {
+        transform: rotate(45deg) translateY(-15px) scale(1);
+        opacity: 1;
+    }
+}`,
+},
+{
+    id: 1263,
+    name: "Helix Dots Loader",
+    preview: (
+        <div className="loader-1263">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 55px;
+    height: 38px;
+}
+.Loader span {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: 15px;
+    border-radius: 50%;
+    background: #6366f1;
+    animation: helix-dots 1.2s ease-in-out infinite;
+}
+.Loader span:nth-child(1) {
+    left: 0;
+}
+.Loader span:nth-child(2) {
+    left: 12px;
+    animation-delay: .1s;
+}
+.Loader span:nth-child(3) {
+    left: 24px;
+    animation-delay: .2s;
+}
+.Loader span:nth-child(4) {
+    left: 36px;
+    animation-delay: .3s;
+}
+.Loader span:nth-child(5) {
+    left: 48px;
+    animation-delay: .4s;
+}
+@keyframes helix-dots {
+    0%,
+    100% {
+        transform: translateY(-10px);
+        background: #38bdf8;
+    }
+    50% {
+        transform: translateY(10px);
+        background: #ec4899;
+    }
+}`,
+},
+{
+    id: 1264,
+    name: "Fire Ring Loader",
+    preview: (
+        <div className="loader-1264">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 46px;
+    height: 46px;
+    padding: 3px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #7f1d1d,
+        #ef4444,
+        #f97316,
+        #facc15,
+        #f97316,
+        #ef4444,
+        #7f1d1d
+    );
+    animation: fire-ring 1s linear infinite;
+}
+.Loader span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #18181b;
+}
+@keyframes fire-ring {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+},
+{
+    id: 1265,
+    name: "Glitch Loader",
+    preview: (
+        <div className="loader-1265">
+            <span>LOADING</span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span>LOADING</span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    overflow: hidden;
+    width: 82px;
+    height: 24px;
+    display: grid;
+    place-items: center;
+    background: #09090b;
+    border: 1px solid #27272a;
+    font-family: monospace;
+}
+.Loader span {
+    color: #22d3ee;
+    font-size: 9px;
+    letter-spacing: 2px;
+    animation: glitch-loader .9s infinite;
+}
+@keyframes glitch-loader {
+    0%,
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    20% {
+        transform: translateX(-2px);
+        text-shadow: 3px 0 #ec4899;
+    }
+    40% {
+        transform: translateX(2px);
+        text-shadow: -3px 0 #6366f1;
+    }
+    60% {
+        transform: translateX(0);
+    }
+}`,
+},
+{
+    id: 1266,
+    name: "Magnetic Orbit Loader",
+    preview: (
+        <div className="loader-1266">
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.Loader span:first-child {
+    position: absolute;
+    inset: 8px;
+    border-radius: 50%;
+    border: 2px dashed #8b5cf6;
+    animation: magnetic-orbit 2s linear infinite;
+}
+.Loader span:last-child {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 1px;
+    left: 20px;
+    border-radius: 50%;
+    background: #ec4899;
+    box-shadow: 0 0 15px #ec4899;
+    animation: magnetic-dot 2s linear infinite;
+}
+@keyframes magnetic-orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes magnetic-dot {
+    to {
+        transform: rotate(360deg) translateY(0);
+    }
+}`,
+},
+{
+    id: 1267,
+    name: "Glass Cube Loader",
+    preview: (
+        <div className="loader-1267">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 42px;
+    height: 42px;
+    perspective: 120px;
+}
+.Loader span {
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin: 7px;
+    border: 1px solid rgba(255, 255, 255, .7);
+    border-radius: 6px;
+    background: linear-gradient(
+        135deg,
+        rgba(56, 189, 248, .35),
+        rgba(168, 85, 247, .15)
+    );
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 18px rgba(56, 189, 248, .25);
+    animation: glass-cube 1.4s ease-in-out infinite;
+}
+@keyframes glass-cube {
+    0%,
+    100% {
+        transform: rotateX(0) rotateY(0) scale(.8);
+    }
+    50% {
+        transform: rotateX(180deg) rotateY(180deg) scale(1);
+    }
+}`,
+},
+{
+    id: 1268,
+    name: "Gradient Wave Loader",
+    preview: (
+        <div className="loader-1268">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 35px;
+}
+.Loader span {
+    width: 6px;
+    height: 14px;
+    border-radius: 999px;
+    background: linear-gradient(#ec4899, #6366f1, #38bdf8);
+    animation: gradient-wave 1s ease-in-out infinite;
+}
+.Loader span:nth-child(1) {
+    animation-delay: .05s;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .15s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .25s;
+}
+.Loader span:nth-child(4) {
+    animation-delay: .35s;
+}
+.Loader span:nth-child(5) {
+    animation-delay: .45s;
+}
+@keyframes gradient-wave {
+    0%,
+    100% {
+        height: 10px;
+        opacity: .5;
+    }
+    50% {
+        height: 32px;
+        opacity: 1;
+    }
+}`,
+},
+{
+    id: 1269,
+    name: "Rotating Diamond Loader",
+    preview: (
+        <div className="loader-1269">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+}
+.Loader span {
+    width: 22px;
+    height: 22px;
+    border: 2px solid transparent;
+    border-top-color: #06b6d4;
+    border-right-color: #8b5cf6;
+    transform: rotate(45deg);
+    box-shadow: 0 0 14px rgba(99, 102, 241, .35);
+    animation: rotating-diamond 1s linear infinite;
+}
+@keyframes rotating-diamond {
+    to {
+        transform: rotate(405deg);
+    }
+}`,
+},
+{
+    id: 1270,
+    name: "Solar Flare Loader",
+    preview: (
+        <div className="loader-1270">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.Loader span {
+    position: absolute;
+    border-radius: 50%;
+}
+.Loader span:nth-child(1) {
+    width: 15px;
+    height: 15px;
+    top: 18px;
+    left: 18px;
+    background: #facc15;
+    box-shadow: 0 0 20px #facc15;
+    animation: solar-pulse 1s ease-in-out infinite;
+}
+.Loader span:nth-child(2) {
+    inset: 5px;
+    border: 1px solid rgba(250, 204, 21, .4);
+    animation: solar-orbit 1.4s linear infinite;
+}
+.Loader span:nth-child(3) {
+    inset: 10px;
+    border: 1px solid rgba(249, 115, 22, .35);
+    animation: solar-orbit 1s linear infinite reverse;
+}
+@keyframes solar-pulse {
+    50% {
+        transform: scale(1.35);
+    }
+}
+@keyframes solar-orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+},
+{
+    id: 1271,
+    name: "Typing Bar Loader",
+    preview: (
+        <div className="loader-1271">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 58px;
+    height: 5px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #27272a;
+}
+.Loader span {
+    display: block;
+    width: 22px;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #6366f1, #ec4899);
+    animation: typing-bar 1.2s ease-in-out infinite;
+}
+@keyframes typing-bar {
+    0% {
+        transform: translateX(-22px);
+    }
+    50% {
+        transform: translateX(28px);
+    }
+    100% {
+        transform: translateX(58px);
+    }
+}`,
+},
+{
+    id: 1272,
+    name: "Rainbow Orbit Loader",
+    preview: (
+        <div className="loader-1272">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+}
+.Loader span {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.Loader span:nth-child(1) {
+    top: 1px;
+    left: 22px;
+    background: #ef4444;
+    box-shadow: 0 0 10px #ef4444;
+    animation: rainbow-orbit 1.5s linear infinite;
+}
+.Loader span:nth-child(2) {
+    bottom: 5px;
+    left: 8px;
+    background: #22c55e;
+    box-shadow: 0 0 10px #22c55e;
+    animation: rainbow-orbit 1.5s linear infinite;
+}
+.Loader span:nth-child(3) {
+    bottom: 5px;
+    right: 8px;
+    background: #6366f1;
+    box-shadow: 0 0 10px #6366f1;
+    animation: rainbow-orbit 1.5s linear infinite;
+}
+@keyframes rainbow-orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+},
+{
+    id: 1273,
+    name: "Breathing Ring Loader",
+    preview: (
+        <div className="loader-1273">
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+}
+.Loader span:first-child {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #38bdf8;
+    box-shadow: 0 0 22px rgba(56, 189, 248, .7);
+    animation: breathing-core 1.6s ease-in-out infinite;
+}
+.Loader span:last-child {
+    position: absolute;
+    inset: 4px;
+    border: 2px solid rgba(56, 189, 248, .5);
+    border-radius: 50%;
+    animation: breathing-ring 1.6s ease-in-out infinite;
+}
+@keyframes breathing-core {
+    50% {
+        transform: scale(1.35);
+        opacity: .7;
+    }
+}
+@keyframes breathing-ring {
+    50% {
+        transform: scale(1.15);
+        opacity: .25;
+    }
+}`,
+},
+{
+    id: 1274,
+    name: "Final Cosmic Loader",
+    preview: (
+        <div className="loader-1274">
+            <span></span>
+            <span></span>
+            <span></span>
+            <i className="fa-solid fa-star"></i>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <i class="fa-solid fa-star"></i>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+}
+.Loader span {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+.Loader span:nth-child(1) {
+    inset: 1px;
+    border-top-color: #38bdf8;
+    border-left-color: #6366f1;
+    animation: cosmic-ring 1s linear infinite;
+}
+.Loader span:nth-child(2) {
+    inset: 8px;
+    border-right-color: #ec4899;
+    border-bottom-color: #a855f7;
+    animation: cosmic-ring 1.2s linear infinite reverse;
+}
+.Loader span:nth-child(3) {
+    inset: 15px;
+    border-top-color: #22d3ee;
+    animation: cosmic-ring 0.8s linear infinite;
+}
+.Loader i {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    font-size: 10px;
+    text-shadow: 0 0 12px #ffffff;
+    animation: cosmic-star 1.1s ease-in-out infinite;
+}
+@keyframes cosmic-ring {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes cosmic-star {
+    50% {
+        transform: scale(1.7);
+        opacity: .45;
+    }
+}`,
+}
+
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
