@@ -11850,6 +11850,21 @@ export const checkboxes = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export const toggles = [
     {
         id: 6, name: "Toggle Switch", preview: (
@@ -13338,6 +13353,2690 @@ export const toggles = [
         html: `<label class="Toggle"><input type="checkbox"><span class="Toggle-slider"></span></label>`,
         css: `.Toggle-slider { background: #e5e7eb; }`
     },
+    {
+        id: 1101,
+        name: "Minimal Blue Toggle",
+        preview: (
+            <label className="ts-1101">
+                <input type="checkbox" />
+                <span className="ts-1101-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 28px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #27272a;
+    border-radius: 999px;
+    transition: 0.3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #2563eb;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+}`
+    },
+    {
+        id: 1102,
+        name: "Emerald Glow Toggle",
+        preview: (
+            <label className="ts-1102">
+                <input type="checkbox" />
+                <span className="ts-1102-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #18181b;
+    border: 1px solid #3f3f46;
+    border-radius: 999px;
+    transition: 0.3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: #71717a;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #052e16;
+    border-color: #22c55e;
+    box-shadow: 0 0 18px rgba(34, 197, 94, 0.35);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+    background: #4ade80;
+    box-shadow: 0 0 12px #22c55e;
+}`
+    },
+    {
+        id: 1103,
+        name: "Purple Glow Toggle",
+        preview: (
+            <label className="ts-1103">
+                <input type="checkbox" />
+                <span className="ts-1103-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #27272a;
+    border-radius: 999px;
+    transition: 0.3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: #a78bfa;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(135deg, #6d28d9, #a855f7);
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.4);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1104,
+        name: "Sunset Toggle",
+        preview: (
+            <label className="ts-1104">
+                <input type="checkbox" />
+                <span className="ts-1104-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #431407;
+    border-radius: 999px;
+    transition: 0.3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 4px;
+    bottom: 4px;
+    background: #fb923c;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(90deg, #ef4444, #f97316, #facc15);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1105,
+        name: "Pink Neon Toggle",
+        preview: (
+            <label className="ts-1105">
+                <input type="checkbox" />
+                <span className="ts-1105-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #500724;
+    border: 1px solid #9d174d;
+    border-radius: 999px;
+    transition: 0.3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: #f472b6;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #db2777;
+    box-shadow: 0 0 22px rgba(236, 72, 153, 0.45);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1106,
+        name: "Cyan Glow Toggle",
+        preview: (
+            <label className="ts-1106">
+                <input type="checkbox" />
+                <span className="ts-1106-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #083344;
+    border: 1px solid #155e75;
+    border-radius: 999px;
+    transition: 0.3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: #67e8f9;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #0891b2;
+    box-shadow: 0 0 20px rgba(34, 211, 238, 0.4);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+    background: #ecfeff;
+}`
+    },
+    {
+        id: 1107,
+        name: "Yellow Glow Toggle",
+        preview: (
+            <label className="ts-1107">
+                <input type="checkbox" />
+                <span className="ts-1107-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #422006;
+    border-radius: 999px;
+    transition: 0.3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: #fde047;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #ca8a04;
+    box-shadow: 0 0 18px rgba(234, 179, 8, 0.35);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1108,
+        name: "Red Danger Toggle",
+        preview: (
+            <label className="ts-1108">
+                <input type="checkbox" />
+                <span className="ts-1108-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #450a0a;
+    border-radius: 999px;
+    transition: 0.3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: #f87171;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #dc2626;
+    box-shadow: 0 0 20px rgba(239, 68, 68, 0.35);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(24px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1109,
+        name: "Ocean Toggle",
+        preview: (
+            <label className="ts-1109">
+                <input type="checkbox" />
+                <span className="ts-1109-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: linear-gradient(135deg, #0c4a6e, #164e63);
+    border-radius: 999px;
+    transition: 0.3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 4px;
+    bottom: 4px;
+    background: #bae6fd;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(135deg, #06b6d4, #2563eb);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1110,
+        name: "Aurora Toggle",
+        preview: (
+            <label className="ts-1110">
+                <input type="checkbox" />
+                <span className="ts-1110-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 32px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: linear-gradient(120deg, #14532d, #0f766e, #1e3a8a);
+    background-size: 200% 200%;
+    border-radius: 999px;
+    transition: 0.3s;
+    animation: aurora-1110 5s ease infinite;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    bottom: 4px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(120deg, #06b6d4, #6366f1, #ec4899);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+}
+@keyframes aurora-1110 {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}`
+    },
+    {
+        id: 1111,
+        name: "Glass Toggle",
+        preview: (
+            <label className="ts-1111">
+                <input type="checkbox" />
+                <span className="ts-1111-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 999px;
+    backdrop-filter: blur(12px);
+    transition: 0.3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: rgba(255,255,255,.82);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: rgba(99,102,241,.35);
+    border-color: rgba(129,140,248,.75);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1112,
+        name: "Frosted Purple Toggle",
+        preview: (
+            <label className="ts-1112">
+                <input type="checkbox" />
+                <span className="ts-1112-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 31px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: rgba(255,255,255,.07);
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 999px;
+    backdrop-filter: blur(18px);
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 3px;
+    bottom: 3px;
+    background: rgba(255,255,255,.75);
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: rgba(139,92,246,.35);
+    border-color: rgba(196,181,253,.7);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(27px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1113,
+        name: "Neumorphic Toggle",
+        preview: (
+            <label className="ts-1113">
+                <input type="checkbox" />
+                <span className="ts-1113-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 31px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #e5e7eb;
+    border-radius: 999px;
+    box-shadow: inset 3px 3px 7px rgba(163,163,163,.4), inset -3px -3px 7px rgba(255,255,255,.9);
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 4px;
+    bottom: 4px;
+    background: #e5e7eb;
+    border-radius: 50%;
+    box-shadow: 3px 3px 7px rgba(163,163,163,.45), -3px -3px 7px rgba(255,255,255,.9);
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #dbeafe;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(27px);
+    background: #60a5fa;
+}`
+    },
+    {
+        id: 1114,
+        name: "Square Cyber Toggle",
+        preview: (
+            <label className="ts-1114">
+                <input type="checkbox" />
+                <span className="ts-1114-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #020617;
+    border: 1px solid #334155;
+    border-radius: 5px;
+    transition: .25s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 4px;
+    bottom: 3px;
+    background: #334155;
+    border-radius: 3px;
+    transition: .25s;
+}
+.Toggle input:checked~.Toggle-slider {
+    border-color: #22d3ee;
+    box-shadow: 0 0 16px rgba(34,211,238,.3);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(29px);
+    background: #22d3ee;
+}`
+    },
+    {
+        id: 1115,
+        name: "Matrix Toggle",
+        preview: (
+            <label className="ts-1115">
+                <input type="checkbox" />
+                <span className="ts-1115-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #020617;
+    border: 1px solid #14532d;
+    border-radius: 4px;
+    transition: .25s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 4px;
+    bottom: 3px;
+    background: #166534;
+    border-radius: 3px;
+    transition: .25s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #052e16;
+    border-color: #22c55e;
+    box-shadow: 0 0 16px rgba(34,197,94,.3);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(29px);
+    background: #4ade80;
+    box-shadow: 0 0 10px #22c55e;
+}`
+    },
+    {
+        id: 1116,
+        name: "Orange Glass Toggle",
+        preview: (
+            <label className="ts-1116">
+                <input type="checkbox" />
+                <span className="ts-1116-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: rgba(249,115,22,.12);
+    border: 1px solid rgba(249,115,22,.35);
+    border-radius: 999px;
+    backdrop-filter: blur(12px);
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 4px;
+    bottom: 3px;
+    background: #fb923c;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: rgba(249,115,22,.4);
+    box-shadow: 0 0 18px rgba(249,115,22,.3);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(28px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1117,
+        name: "Blue Glass Toggle",
+        preview: (
+            <label className="ts-1117">
+                <input type="checkbox" />
+                <span className="ts-1117-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: rgba(56,189,248,.1);
+    border: 1px solid rgba(56,189,248,.35);
+    border-radius: 999px;
+    backdrop-filter: blur(12px);
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 4px;
+    bottom: 3px;
+    background: #38bdf8;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: rgba(37,99,235,.4);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(28px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1118,
+        name: "Green Glass Toggle",
+        preview: (
+            <label className="ts-1118">
+                <input type="checkbox" />
+                <span className="ts-1118-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: rgba(34,197,94,.1);
+    border: 1px solid rgba(34,197,94,.35);
+    border-radius: 999px;
+    backdrop-filter: blur(12px);
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 4px;
+    bottom: 3px;
+    background: #4ade80;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: rgba(22,163,74,.4);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(28px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1119,
+        name: "Black Metal Toggle",
+        preview: (
+            <label className="ts-1119">
+                <input type="checkbox" />
+                <span className="ts-1119-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: linear-gradient(145deg, #27272a, #09090b);
+    border: 1px solid #52525b;
+    border-radius: 999px;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 4px;
+    bottom: 3px;
+    background: linear-gradient(145deg, #71717a, #27272a);
+    border: 1px solid #a1a1aa;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(145deg, #52525b, #18181b);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(28px);
+    background: linear-gradient(145deg, #fff, #d4d4d8);
+}`
+    },
+    {
+        id: 1120,
+        name: "Clay Toggle",
+        preview: (
+            <label className="ts-1120">
+                <input type="checkbox" />
+                <span className="ts-1120-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #e7e5e4;
+    border-radius: 999px;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,.15);
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 4px;
+    bottom: 4px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #D97757;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+}`
+    },
+    {
+        id: 1121,
+        name: "Gradient Violet Toggle",
+        preview: (
+            <label className="ts-1121">
+                <input type="checkbox" />
+                <span className="ts-1121-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 31px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #27272a;
+    border-radius: 999px;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 4px;
+    bottom: 4px;
+    background: #a1a1aa;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(90deg,#6366f1,#a855f7,#ec4899);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(29px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1122,
+        name: "Gradient Ocean Toggle",
+        preview: (
+            <label className="ts-1122">
+                <input type="checkbox" />
+                <span className="ts-1122-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 31px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #27272a;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 4px;
+    bottom: 4px;
+    background: #71717a;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(90deg,#06b6d4,#3b82f6,#6366f1);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(29px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1123,
+        name: "Gradient Mint Toggle",
+        preview: (
+            <label className="ts-1123">
+                <input type="checkbox" />
+                <span className="ts-1123-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 31px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #27272a;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 4px;
+    bottom: 4px;
+    background: #71717a;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(90deg,#22c55e,#14b8a6,#06b6d4);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(29px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1124,
+        name: "Gradient Fire Toggle",
+        preview: (
+            <label className="ts-1124">
+                <input type="checkbox" />
+                <span className="ts-1124-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 31px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #27272a;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 4px;
+    bottom: 4px;
+    background: #71717a;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(90deg,#ef4444,#f97316,#eab308);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(29px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1125,
+        name: "Gradient Rose Toggle",
+        preview: (
+            <label className="ts-1125">
+                <input type="checkbox" />
+                <span className="ts-1125-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 31px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #27272a;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 4px;
+    bottom: 4px;
+    background: #71717a;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(90deg,#ec4899,#f472b6,#a855f7);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(29px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1126,
+        name: "Rainbow Toggle",
+        preview: (
+            <label className="ts-1126">
+                <input type="checkbox" />
+                <span className="ts-1126-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 62px;
+    height: 32px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #27272a;
+    border-radius: 999px;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    bottom: 4px;
+    background: #71717a;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899);
+    background-size: 250% 100%;
+    animation: rainbow-1126 3s linear infinite;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(30px);
+    background: #fff;
+}
+@keyframes rainbow-1126 {
+    to {
+        background-position: 250% 0;
+    }
+}`
+    },
+    {
+        id: 1127,
+        name: "Rainbow Neon Toggle",
+        preview: (
+            <label className="ts-1127">
+                <input type="checkbox" />
+                <span className="ts-1127-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 62px;
+    height: 32px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #09090b;
+    border: 2px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(#09090b,#09090b) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+    background-size: 100% 100%, 300% 100%;
+    animation: rainbow-border-1127 3s linear infinite;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 3px;
+    bottom: 2px;
+    background: #fff;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(30px);
+}
+@keyframes rainbow-border-1127 {
+    to {
+        background-position: 0 0, 300% 0;
+    }
+}`
+    },
+    {
+        id: 1128,
+        name: "Moving Rainbow Toggle",
+        preview: (
+            <label className="ts-1128">
+                <input type="checkbox" />
+                <span className="ts-1128-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 62px;
+    height: 32px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899);
+    background-size: 300% 100%;
+    border-radius: 999px;
+    animation: moving-rainbow-1128 4s linear infinite;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    bottom: 4px;
+    background: #fff;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(30px);
+}
+@keyframes moving-rainbow-1128 {
+    to {
+        background-position: 300% 0;
+    }
+}`
+    },
+    {
+        id: 1129,
+        name: "Rainbow Glass Toggle",
+        preview: (
+            <label className="ts-1129">
+                <input type="checkbox" />
+                <span className="ts-1129-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 62px;
+    height: 32px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: rgba(255,255,255,.08);
+    border: 2px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(rgba(255,255,255,.08),rgba(255,255,255,.08)) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+    background-size: 100% 100%, 300% 100%;
+    backdrop-filter: blur(15px);
+    animation: rainbow-glass-1129 4s linear infinite;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 3px;
+    bottom: 2px;
+    background: rgba(255,255,255,.9);
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(30px);
+}
+@keyframes rainbow-glass-1129 {
+    to {
+        background-position: 0 0, 300% 0;
+    }
+}`
+    },
+    {
+        id: 1130,
+        name: "Shimmer Toggle",
+        preview: (
+            <label className="ts-1130">
+                <input type="checkbox" />
+                <span className="ts-1130-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 31px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+    inset: 0;
+    background: linear-gradient(90deg,#27272a,#52525b,#27272a);
+    background-size: 200% 100%;
+    border-radius: 999px;
+    animation: shimmer-1130 2.5s linear infinite;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 4px;
+    bottom: 4px;
+    background: #fff;
+    border-radius: 50%;
+    transition: .3s;
+    z-index: 2;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(90deg,#2563eb,#60a5fa,#2563eb);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(29px);
+}
+@keyframes shimmer-1130 {
+    to {
+        background-position: 200% 0;
+    }
+}`
+    },
+    {
+        id: 1131,
+        name: "Fire Toggle",
+        preview: (
+            <label className="ts-1131">
+                <input type="checkbox" />
+                <span className="ts-1131-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 31px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: linear-gradient(90deg,#7f1d1d,#dc2626,#f97316,#facc15);
+    background-size: 250% 100%;
+    border-radius: 999px;
+    animation: fire-1131 2.2s linear infinite;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 4px;
+    bottom: 4px;
+    background: #fff;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(29px);
+}
+@keyframes fire-1131 {
+    to {
+        background-position: 250% 0;
+    }
+}`
+    },
+    {
+        id: 1132,
+        name: "Candy Toggle",
+        preview: (
+            <label className="ts-1132">
+                <input type="checkbox" />
+                <span className="ts-1132-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 31px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: linear-gradient(90deg,#db2777,#a855f7,#6366f1);
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 4px;
+    bottom: 4px;
+    background: #fff;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(90deg,#f472b6,#c084fc,#60a5fa);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(29px);
+}`
+    },
+    {
+        id: 1133,
+        name: "Electric Toggle",
+        preview: (
+            <label className="ts-1133">
+                <input type="checkbox" />
+                <span className="ts-1133-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 31px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #020617;
+    border: 1px solid #2563eb;
+    border-radius: 999px;
+    box-shadow: inset 0 0 10px rgba(37,99,235,.2);
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 4px;
+    bottom: 3px;
+    background: #60a5fa;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #3b82f6;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    border-color: #22d3ee;
+    box-shadow: 0 0 20px rgba(34,211,238,.35);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(29px);
+    background: #22d3ee;
+}`
+    },
+    {
+        id: 1134,
+        name: "Lime Toggle",
+        preview: (
+            <label className="ts-1134">
+                <input type="checkbox" />
+                <span className="ts-1134-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #1a2e05;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 4px;
+    bottom: 4px;
+    background: #bef264;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #65a30d;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+    background: #f7fee7;
+}`
+    },
+    {
+        id: 1135,
+        name: "Indigo Toggle",
+        preview: (
+            <label className="ts-1135">
+                <input type="checkbox" />
+                <span className="ts-1135-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #1e1b4b;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 4px;
+    bottom: 4px;
+    background: #818cf8;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #4338ca;
+    box-shadow: 0 0 18px rgba(99,102,241,.3);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1136,
+        name: "Rose Toggle",
+        preview: (
+            <label className="ts-1136">
+                <input type="checkbox" />
+                <span className="ts-1136-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #4c0519;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 4px;
+    bottom: 4px;
+    background: #fb7185;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #be123c;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1137,
+        name: "Sky Toggle",
+        preview: (
+            <label className="ts-1137">
+                <input type="checkbox" />
+                <span className="ts-1137-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #082f49;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 4px;
+    bottom: 4px;
+    background: #7dd3fc;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #0284c7;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+    background: #e0f2fe;
+}`
+    },
+    {
+        id: 1138,
+        name: "Teal Toggle",
+        preview: (
+            <label className="ts-1138">
+                <input type="checkbox" />
+                <span className="ts-1138-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #042f2e;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 4px;
+    bottom: 4px;
+    background: #5eead4;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #0f766e;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+    background: #fff;
+}`
+    },
+    {
+        id: 1139,
+        name: "Violet Edge Toggle",
+        preview: (
+            <label className="ts-1139">
+                <input type="checkbox" />
+                <span className="ts-1139-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: transparent;
+    border: 2px solid #52525b;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 4px;
+    bottom: 3px;
+    background: #52525b;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    border-color: #a855f7;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(29px);
+    background: #a855f7;
+    box-shadow: 0 0 12px rgba(168,85,247,.5);
+}`
+    },
+    {
+        id: 1140,
+        name: "Cyan Edge Toggle",
+        preview: (
+            <label className="ts-1140">
+                <input type="checkbox" />
+                <span className="ts-1140-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: transparent;
+    border: 2px solid #52525b;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 4px;
+    bottom: 3px;
+    background: #52525b;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    border-color: #22d3ee;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(29px);
+    background: #22d3ee;
+    box-shadow: 0 0 12px rgba(34,211,238,.5);
+}`
+    },
+    {
+        id: 1141,
+        name: "Pink Edge Toggle",
+        preview: (
+            <label className="ts-1141">
+                <input type="checkbox" />
+                <span className="ts-1141-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: transparent;
+    border: 2px solid #52525b;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 4px;
+    bottom: 3px;
+    background: #52525b;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    border-color: #ec4899;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(29px);
+    background: #ec4899;
+    box-shadow: 0 0 12px rgba(236,72,153,.5);
+}`
+    },
+    {
+        id: 1142,
+        name: "Soft Green Toggle",
+        preview: (
+            <label className="ts-1142">
+                <input type="checkbox" />
+                <span className="ts-1142-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 29px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #dcfce7;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 4px;
+    bottom: 4px;
+    background: #86efac;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #bbf7d0;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+    background: #16a34a;
+}`
+    },
+    {
+        id: 1143,
+        name: "Soft Blue Toggle",
+        preview: (
+            <label className="ts-1143">
+                <input type="checkbox" />
+                <span className="ts-1143-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 29px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #dbeafe;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 4px;
+    bottom: 4px;
+    background: #93c5fd;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #bfdbfe;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+    background: #2563eb;
+}`
+    },
+    {
+        id: 1144,
+        name: "Soft Purple Toggle",
+        preview: (
+            <label className="ts-1144">
+                <input type="checkbox" />
+                <span className="ts-1144-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 29px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #ede9fe;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 4px;
+    bottom: 4px;
+    background: #c4b5fd;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #ddd6fe;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+    background: #7c3aed;
+}`
+    },
+    {
+        id: 1145,
+        name: "Soft Pink Toggle",
+        preview: (
+            <label className="ts-1145">
+                <input type="checkbox" />
+                <span className="ts-1145-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 29px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #fce7f3;
+    border-radius: 999px;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 4px;
+    bottom: 4px;
+    background: #f9a8d4;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #fbcfe8;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(26px);
+    background: #db2777;
+}`
+    },
+    {
+        id: 1146,
+        name: "Tiny Toggle",
+        preview: (
+            <label className="ts-1146">
+                <input type="checkbox" />
+                <span className="ts-1146-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #3f3f46;
+    border-radius: 999px;
+    transition: .2s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 3px;
+    bottom: 3px;
+    background: #fff;
+    border-radius: 50%;
+    transition: .2s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #22c55e;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(18px);
+}`
+    },
+    {
+        id: 1147,
+        name: "Large Toggle",
+        preview: (
+            <label className="ts-1147">
+                <input type="checkbox" />
+                <span className="ts-1147-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 76px;
+    height: 40px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #27272a;
+    border-radius: 999px;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    bottom: 5px;
+    background: #fff;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #D97757;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(36px);
+}`
+    },
+    {
+        id: 1148,
+        name: "Inset Toggle",
+        preview: (
+            <label className="ts-1148">
+                <input type="checkbox" />
+                <span className="ts-1148-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #18181b;
+    border-radius: 999px;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,.55);
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 4px;
+    bottom: 4px;
+    background: #71717a;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: #27272a;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(28px);
+    background: #e4e4e7;
+}`
+    },
+    {
+        id: 1149,
+        name: "Metal Toggle",
+        preview: (
+            <label className="ts-1149">
+                <input type="checkbox" />
+                <span className="ts-1149-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 31px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: linear-gradient(145deg,#71717a,#27272a);
+    border: 1px solid #a1a1aa;
+    border-radius: 999px;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 4px;
+    bottom: 3px;
+    background: linear-gradient(#fff,#d4d4d8);
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(145deg,#a1a1aa,#52525b);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(29px);
+}`
+    },
+    {
+        id: 1150,
+        name: "Fire Gradient Toggle",
+        preview: (
+            <label className="ts-1150">
+                <input type="checkbox" />
+                <span className="ts-1150-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 62px;
+    height: 32px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: linear-gradient(90deg,#991b1b,#f97316,#facc15);
+    border-radius: 999px;
+    transition: .3s;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    bottom: 4px;
+    background: #fff;
+    border-radius: 50%;
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    background: linear-gradient(90deg,#dc2626,#f97316,#facc15,#ef4444);
+    background-size: 250% 100%;
+    animation: fire-gradient-1150 2s linear infinite;
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(30px);
+}
+@keyframes fire-gradient-1150 {
+    to {
+        background-position: 250% 0;
+    }
+}`
+    },
+    {
+        id: 1151,
+        name: "Cosmic Toggle",
+        preview: (
+            <label className="ts-1151">
+                <input type="checkbox" />
+                <span className="ts-1151-slider"></span>
+            </label>
+        ),
+        html: `<label class="Toggle">
+    <input type="checkbox">
+    <span class="Toggle-slider"></span>
+</label>`,
+        css: `.Toggle {
+    position: relative;
+    display: inline-block;
+    width: 64px;
+    height: 33px;
+}
+.Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: linear-gradient(120deg,#020617,#1e1b4b,#581c87,#831843,#020617);
+    background-size: 300% 300%;
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 999px;
+    animation: cosmic-1151 6s ease infinite;
+}
+.Toggle-slider:before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 4px;
+    bottom: 3px;
+    background: linear-gradient(135deg,#c4b5fd,#60a5fa);
+    border-radius: 50%;
+    box-shadow: 0 0 14px rgba(129,140,248,.55);
+    transition: .3s;
+}
+.Toggle input:checked~.Toggle-slider {
+    box-shadow: 0 0 22px rgba(99,102,241,.35), 0 0 34px rgba(236,72,153,.15);
+}
+.Toggle input:checked~.Toggle-slider:before {
+    transform: translateX(31px);
+    background: linear-gradient(135deg,#fff,#c4b5fd);
+}
+@keyframes cosmic-1151 {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}`
+    }
 ];
 
 
