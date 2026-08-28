@@ -10062,6 +10062,1748 @@ export const checkboxes = [
     font-size: 9px;
 }`,
 },
+{
+    id: 1051,
+    name: "Circle Checkbox Gray",
+    preview: (
+        <label className="checkbox-1051">
+            <input type="checkbox" />
+            <span className="checkbox-1051__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    display: block;
+    border: 2px solid #a1a1aa;
+    border-radius: 50%;
+    transition: all .2s ease;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #a1a1aa;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1052,
+    name: "Square Checkbox Red",
+    preview: (
+        <label className="checkbox-1052">
+            <input type="checkbox" />
+            <span className="checkbox-1052__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 24px;
+    height: 24px;
+    display: block;
+    border: 2px solid #ff5a5f;
+    border-radius: 4px;
+    transition: all .2s ease;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #ff5a5f;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1053,
+    name: "Square Checkbox Green",
+    preview: (
+        <label className="checkbox-1053">
+            <input type="checkbox" />
+            <span className="checkbox-1053__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #4ade80;
+    border-radius: 4px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #4ade80;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1054,
+    name: "Square Checkbox Blue",
+    preview: (
+        <label className="checkbox-1054">
+            <input type="checkbox" />
+            <span className="checkbox-1054__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #60a5fa;
+    border-radius: 4px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #60a5fa;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1055,
+    name: "Square Checkbox Cyan",
+    preview: (
+        <label className="checkbox-1055">
+            <input type="checkbox" />
+            <span className="checkbox-1055__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #22d3ee;
+    border-radius: 4px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #22d3ee;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1056,
+    name: "Square Checkbox Purple",
+    preview: (
+        <label className="checkbox-1056">
+            <input type="checkbox" />
+            <span className="checkbox-1056__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #a78bfa;
+    border-radius: 4px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #a78bfa;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1057,
+    name: "Square Checkbox Orange",
+    preview: (
+        <label className="checkbox-1057">
+            <input type="checkbox" />
+            <span className="checkbox-1057__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #fb923c;
+    border-radius: 4px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #fb923c;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1058,
+    name: "Square Checkbox Yellow",
+    preview: (
+        <label className="checkbox-1058">
+            <input type="checkbox" />
+            <span className="checkbox-1058__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #facc15;
+    border-radius: 4px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #facc15;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1059,
+    name: "Square Checkbox Pink",
+    preview: (
+        <label className="checkbox-1059">
+            <input type="checkbox" />
+            <span className="checkbox-1059__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #f472b6;
+    border-radius: 4px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #f472b6;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1060,
+    name: "Square Checkbox Small",
+    preview: (
+        <label className="checkbox-1060">
+            <input type="checkbox" />
+            <span className="checkbox-1060__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 17px;
+    height: 17px;
+    border: 2px solid #71717a;
+    border-radius: 3px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #71717a;
+    box-shadow: inset 0 0 0 4px #0b0b0d;
+}`,
+},
+{
+    id: 1061,
+    name: "Square Checkbox Large",
+    preview: (
+        <label className="checkbox-1061">
+            <input type="checkbox" />
+            <span className="checkbox-1061__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 31px;
+    height: 31px;
+    border: 2px solid #52525b;
+    border-radius: 6px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #71717a;
+    box-shadow: inset 0 0 0 7px #0b0b0d;
+}`,
+},
+{
+    id: 1062,
+    name: "Circle Checkbox Red",
+    preview: (
+        <label className="checkbox-1062">
+            <input type="checkbox" />
+            <span className="checkbox-1062__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #ff5a5f;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #ff5a5f;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1063,
+    name: "Circle Checkbox Orange",
+    preview: (
+        <label className="checkbox-1063">
+            <input type="checkbox" />
+            <span className="checkbox-1063__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #f97316;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #f97316;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1064,
+    name: "Circle Checkbox Yellow",
+    preview: (
+        <label className="checkbox-1064">
+            <input type="checkbox" />
+            <span className="checkbox-1064__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #facc15;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #facc15;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1065,
+    name: "Circle Checkbox Green",
+    preview: (
+        <label className="checkbox-1065">
+            <input type="checkbox" />
+            <span className="checkbox-1065__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #22c55e;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #22c55e;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1066,
+    name: "Circle Checkbox Cyan",
+    preview: (
+        <label className="checkbox-1066">
+            <input type="checkbox" />
+            <span className="checkbox-1066__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #22d3ee;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #22d3ee;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1067,
+    name: "Circle Checkbox Blue",
+    preview: (
+        <label className="checkbox-1067">
+            <input type="checkbox" />
+            <span className="checkbox-1067__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #60a5fa;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #60a5fa;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1068,
+    name: "Circle Checkbox Purple",
+    preview: (
+        <label className="checkbox-1068">
+            <input type="checkbox" />
+            <span className="checkbox-1068__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #a78bfa;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #a78bfa;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1069,
+    name: "Circle Checkbox Pink",
+    preview: (
+        <label className="checkbox-1069">
+            <input type="checkbox" />
+            <span className="checkbox-1069__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #f472b6;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #f472b6;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1070,
+    name: "Circle Checkbox White",
+    preview: (
+        <label className="checkbox-1070">
+            <input type="checkbox" />
+            <span className="checkbox-1070__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #e4e4e7;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #fff;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1071,
+    name: "Soft Square",
+    preview: (
+        <label className="checkbox-1071">
+            <input type="checkbox" />
+            <span className="checkbox-1071__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #52525b;
+    border-radius: 8px;
+    transition: all .2s ease;
+}
+.Checkbox:hover .Checkbox-box {
+    border-color: #a1a1aa;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #52525b;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1072,
+    name: "Sharp Square",
+    preview: (
+        <label className="checkbox-1072">
+            <input type="checkbox" />
+            <span className="checkbox-1072__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #71717a;
+    border-radius: 2px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #71717a;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1073,
+    name: "Red Glow Square",
+    preview: (
+        <label className="checkbox-1073">
+            <input type="checkbox" />
+            <span className="checkbox-1073__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #ef4444;
+    border-radius: 4px;
+    transition: all .2s ease;
+}
+.Checkbox:hover .Checkbox-box {
+    box-shadow: 0 0 14px rgba(239,68,68,.35);
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #ef4444;
+    box-shadow: 0 0 18px rgba(239,68,68,.5), inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1074,
+    name: "Cyan Glow Square",
+    preview: (
+        <label className="checkbox-1074">
+            <input type="checkbox" />
+            <span className="checkbox-1074__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #22d3ee;
+    border-radius: 4px;
+    transition: all .2s ease;
+}
+.Checkbox:hover .Checkbox-box {
+    box-shadow: 0 0 14px rgba(34,211,238,.35);
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #22d3ee;
+    box-shadow: 0 0 18px rgba(34,211,238,.45), inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1075,
+    name: "Purple Glow Circle",
+    preview: (
+        <label className="checkbox-1075">
+            <input type="checkbox" />
+            <span className="checkbox-1075__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #8b5cf6;
+    border-radius: 50%;
+}
+.Checkbox:hover .Checkbox-box {
+    box-shadow: 0 0 16px rgba(139,92,246,.3);
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #8b5cf6;
+    box-shadow: 0 0 20px rgba(139,92,246,.5), inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1076,
+    name: "Double Border Circle",
+    preview: (
+        <label className="checkbox-1076">
+            <input type="checkbox" />
+            <span className="checkbox-1076__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #52525b;
+    border-radius: 50%;
+}
+.Checkbox-box::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border: 1px solid #71717a;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box::after {
+    background: #a1a1aa;
+}`,
+},
+{
+    id: 1077,
+    name: "Inner Dot Circle",
+    preview: (
+        <label className="checkbox-1077">
+            <input type="checkbox" />
+            <span className="checkbox-1077__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #71717a;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box::after {
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #fff;
+}`,
+},
+{
+    id: 1078,
+    name: "Blue Inner Dot",
+    preview: (
+        <label className="checkbox-1078">
+            <input type="checkbox" />
+            <span className="checkbox-1078__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #60a5fa;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box::after {
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #60a5fa;
+}`,
+},
+{
+    id: 1079,
+    name: "Orange Inner Dot",
+    preview: (
+        <label className="checkbox-1079">
+            <input type="checkbox" />
+            <span className="checkbox-1079__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #fb923c;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box::after {
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #fb923c;
+}`,
+},
+{
+    id: 1080,
+    name: "Green Inner Dot",
+    preview: (
+        <label className="checkbox-1080">
+            <input type="checkbox" />
+            <span className="checkbox-1080__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #4ade80;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box::after {
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #4ade80;
+}`,
+},
+{
+    id: 1081,
+    name: "Gradient Square",
+    preview: (
+        <label className="checkbox-1081">
+            <input type="checkbox" />
+            <span className="checkbox-1081__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background:
+        linear-gradient(#0b0b0d,#0b0b0d) padding-box,
+        linear-gradient(135deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1) border-box;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background:
+        linear-gradient(135deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1) padding-box,
+        linear-gradient(135deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1) border-box;
+}`,
+},
+{
+    id: 1082,
+    name: "Gradient Circle",
+    preview: (
+        <label className="checkbox-1082">
+            <input type="checkbox" />
+            <span className="checkbox-1082__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background:
+        linear-gradient(#0b0b0d,#0b0b0d) padding-box,
+        linear-gradient(135deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1) border-box;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background:
+        radial-gradient(circle,#fff 0 3px,#0b0b0d 4px) padding-box,
+        linear-gradient(135deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1) border-box;
+}`,
+},
+{
+    id: 1083,
+    name: "Rainbow Square",
+    preview: (
+        <label className="checkbox-1083">
+            <input type="checkbox" />
+            <span className="checkbox-1083__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background:
+        linear-gradient(#0b0b0d,#0b0b0d) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+    background-size: 100% 100%, 300% 100%;
+    animation: checkbox-1083-rainbow 4s linear infinite;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background:
+        linear-gradient(135deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+}
+@keyframes checkbox-1083-rainbow {
+    to {
+        background-position: 0 0, 300% 0;
+    }
+}`,
+},
+{
+    id: 1084,
+    name: "Rainbow Circle",
+    preview: (
+        <label className="checkbox-1084">
+            <input type="checkbox" />
+            <span className="checkbox-1084__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 26px;
+    height: 26px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background:
+        linear-gradient(#0b0b0d,#0b0b0d) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+    background-size: 100% 100%, 300% 100%;
+    animation: checkbox-1084-rainbow 4s linear infinite;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background:
+        radial-gradient(circle,#fff 0 4px,#0b0b0d 5px) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+}
+@keyframes checkbox-1084-rainbow {
+    to {
+        background-position: 0 0, 300% 0;
+    }
+}`,
+},
+{
+    id: 1085,
+    name: "Glass Square",
+    preview: (
+        <label className="checkbox-1085">
+            <input type="checkbox" />
+            <span className="checkbox-1085__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 6px;
+    background: rgba(255,255,255,.06);
+    backdrop-filter: blur(8px);
+}
+.Checkbox input:checked + .Checkbox-box {
+    border-color: rgba(255,255,255,.7);
+    background: rgba(255,255,255,.25);
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1086,
+    name: "Glass Circle",
+    preview: (
+        <label className="checkbox-1086">
+            <input type="checkbox" />
+            <span className="checkbox-1086__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 26px;
+    height: 26px;
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 50%;
+    background: rgba(255,255,255,.05);
+    backdrop-filter: blur(8px);
+}
+.Checkbox input:checked + .Checkbox-box {
+    border-color: rgba(255,255,255,.8);
+    background: rgba(255,255,255,.25);
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1087,
+    name: "Dashed Checkbox",
+    preview: (
+        <label className="checkbox-1087">
+            <input type="checkbox" />
+            <span className="checkbox-1087__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px dashed #71717a;
+    border-radius: 5px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    border-style: solid;
+    border-color: #a1a1aa;
+    background: #a1a1aa;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1088,
+    name: "Dashed Circle",
+    preview: (
+        <label className="checkbox-1088">
+            <input type="checkbox" />
+            <span className="checkbox-1088__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 26px;
+    height: 26px;
+    border: 2px dashed #71717a;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box {
+    border-style: solid;
+    border-color: #a1a1aa;
+    background: #a1a1aa;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}`,
+},
+{
+    id: 1089,
+    name: "Animated Square",
+    preview: (
+        <label className="checkbox-1089">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1089__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #4ade80;
+    border-radius: 5px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #4ade80;
+    animation: checkbox-1089-pop .3s ease;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}
+@keyframes checkbox-1089-pop {
+    0% {
+        transform: scale(.6);
+    }
+    70% {
+        transform: scale(1.12);
+    }
+    100% {
+        transform: scale(1);
+    }
+}`,
+},
+{
+    id: 1090,
+    name: "Animated Circle",
+    preview: (
+        <label className="checkbox-1090">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1090__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 26px;
+    height: 26px;
+    border: 2px solid #60a5fa;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #60a5fa;
+    animation: checkbox-1090-pop .3s ease;
+    box-shadow: inset 0 0 0 5px #0b0b0d;
+}
+@keyframes checkbox-1090-pop {
+    0% {
+        transform: scale(.6);
+    }
+    70% {
+        transform: scale(1.12);
+    }
+    100% {
+        transform: scale(1);
+    }
+}`,
+},
+{
+    id: 1091,
+    name: "Pulse Checkbox",
+    preview: (
+        <label className="checkbox-1091">
+            <input type="checkbox" />
+            <span className="checkbox-1091__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #22d3ee;
+    border-radius: 6px;
+    animation: checkbox-1091-pulse 2s infinite;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #22d3ee;
+    box-shadow: inset 0 0 0 5px #0b0b0d, 0 0 18px rgba(34,211,238,.4);
+}
+@keyframes checkbox-1091-pulse {
+    50% {
+        box-shadow: 0 0 10px rgba(34,211,238,.2);
+    }
+}`,
+},
+{
+    id: 1092,
+    name: "Pulse Circle",
+    preview: (
+        <label className="checkbox-1092">
+            <input type="checkbox" />
+            <span className="checkbox-1092__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 26px;
+    height: 26px;
+    border: 2px solid #a78bfa;
+    border-radius: 50%;
+    animation: checkbox-1092-pulse 2s infinite;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #a78bfa;
+    box-shadow: inset 0 0 0 5px #0b0b0d, 0 0 20px rgba(167,139,250,.4);
+}
+@keyframes checkbox-1092-pulse {
+    50% {
+        box-shadow: 0 0 10px rgba(167,139,250,.2);
+    }
+}`,
+},
+{
+    id: 1093,
+    name: "Minimal Square",
+    preview: (
+        <label className="checkbox-1093">
+            <input type="checkbox" />
+            <span className="checkbox-1093__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #52525b;
+    border-radius: 3px;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #e4e4e7;
+    border-color: #e4e4e7;
+    box-shadow: inset 0 0 0 4px #0b0b0d;
+}`,
+},
+{
+    id: 1094,
+    name: "Minimal Circle",
+    preview: (
+        <label className="checkbox-1094">
+            <input type="checkbox" />
+            <span className="checkbox-1094__box"></span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox">
+    <span class="Checkbox-box"></span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 21px;
+    height: 21px;
+    border: 1px solid #52525b;
+    border-radius: 50%;
+}
+.Checkbox input:checked + .Checkbox-box {
+    background: #e4e4e7;
+    border-color: #e4e4e7;
+    box-shadow: inset 0 0 0 4px #0b0b0d;
+}`,
+},
+{
+    id: 1095,
+    name: "Red Filled Checkbox",
+    preview: (
+        <label className="checkbox-1095">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1095__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #ef4444;
+    border-radius: 5px;
+    background: #ef4444;
+    color: #fff;
+}
+.Checkbox-box i {
+    font-size: 12px;
+}`,
+},
+{
+    id: 1096,
+    name: "Orange Filled Circle",
+    preview: (
+        <label className="checkbox-1096">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1096__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 26px;
+    height: 26px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #f97316;
+    border-radius: 50%;
+    background: #f97316;
+    color: #fff;
+}
+.Checkbox-box i {
+    font-size: 12px;
+}`,
+},
+{
+    id: 1097,
+    name: "Cyan Filled Square",
+    preview: (
+        <label className="checkbox-1097">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1097__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #22d3ee;
+    border-radius: 5px;
+    background: #22d3ee;
+    color: #082f49;
+}
+.Checkbox-box i {
+    font-size: 11px;
+}`,
+},
+{
+    id: 1098,
+    name: "Purple Filled Circle",
+    preview: (
+        <label className="checkbox-1098">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1098__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 26px;
+    height: 26px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #8b5cf6;
+    border-radius: 50%;
+    background: #8b5cf6;
+    color: #fff;
+}
+.Checkbox-box i {
+    font-size: 12px;
+}`,
+},
+{
+    id: 1099,
+    name: "Rainbow Checkbox Glow",
+    preview: (
+        <label className="checkbox-1099">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1099__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 26px;
+    height: 26px;
+    display: grid;
+    place-items: center;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    background:
+        linear-gradient(#18181b,#18181b) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+    background-size: 100% 100%, 300% 100%;
+    animation: checkbox-1099-rainbow 3s linear infinite;
+    color: #fff;
+    box-shadow: 0 0 16px rgba(139,92,246,.35);
+}
+.Checkbox-box i {
+    font-size: 11px;
+}
+@keyframes checkbox-1099-rainbow {
+    to {
+        background-position: 0 0, 300% 0;
+    }
+}`,
+},
+{
+    id: 1100,
+    name: "Ultimate Rainbow Circle",
+    preview: (
+        <label className="checkbox-1100">
+            <input type="checkbox" defaultChecked />
+            <span className="checkbox-1100__box">
+                <i className="fa-solid fa-check"></i>
+            </span>
+        </label>
+    ),
+    html: `<label class="Checkbox">
+    <input type="checkbox" checked>
+    <span class="Checkbox-box">
+        <i class="fa-solid fa-check"></i>
+    </span>
+</label>`,
+    css: `.Checkbox {
+    display: inline-flex;
+    cursor: pointer;
+}
+.Checkbox input {
+    display: none;
+}
+.Checkbox-box {
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background:
+        linear-gradient(#18181b,#18181b) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899,#ef4444) border-box;
+    background-size: 100% 100%, 300% 100%;
+    animation: checkbox-1100-rainbow 2.5s linear infinite;
+    color: #fff;
+    box-shadow:
+        0 0 12px rgba(239,68,68,.2),
+        0 0 24px rgba(99,102,241,.15);
+}
+.Checkbox-box i {
+    font-size: 12px;
+}
+@keyframes checkbox-1100-rainbow {
+    to {
+        background-position: 0 0, 300% 0;
+    }
+}`,
+},
+
+
+
 
 ];
 
