@@ -61151,7 +61151,292 @@ export const navbar = [
             <button>SYNC</button>
         </nav>
     ),
-    
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-cube"></i>
+        GRID/BLUE
+    </div>
+    <div class="Navbar-links">
+        <a href="#">DESIGN</a>
+        <a href="#">LAYERS</a>
+        <a href="#">EXPORT</a>
+    </div>
+    <button>SYNC</button>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 10px 15px;
+    overflow: hidden;
+    border: 1px solid #2563eb;
+    background: #020617;
+    color: #93c5fd;
+}
+.Navbar::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(37,99,235,.05) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(37,99,235,.05) 1px,transparent 1px);
+    background-size: 18px 18px;
+}
+.Navbar-brand,
+.Navbar-links,
+.Navbar button {
+    position: relative;
+    z-index: 1;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 8px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #60a5fa;
+}
+.Navbar-links {
+    display: flex;
+    gap: 21px;
+}
+.Navbar-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #93c5fd;
+}
+.Navbar button {
+    padding: 6px 11px;
+    border: 1px solid #2563eb;
+    background: rgba(37,99,235,.08);
+    color: #93c5fd;
+    font-family: monospace;
+    font-size: 7px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1983,
+    name: "Legendary Aurora Rainbow",
+    preview: (
+        <nav className="navbar-1983">
+            <div className="navbar-1983__shine"></div>
+            <div className="navbar-1983__brand">
+                <i className="fa-solid fa-sparkles"></i>
+                AURORA
+            </div>
+            <div className="navbar-1983__links">
+                <a href="#">DISCOVER</a>
+                <a href="#">CREATE</a>
+                <a href="#">EXPLORE</a>
+            </div>
+            <button>ENTER</button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-shine"></div>
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-sparkles"></i>
+        AURORA
+    </div>
+    <div class="Navbar-links">
+        <a href="#">DISCOVER</a>
+        <a href="#">CREATE</a>
+        <a href="#">EXPLORE</a>
+    </div>
+    <button>ENTER</button>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 2px;
+    overflow: hidden;
+    border-radius: 14px;
+    background: linear-gradient(90deg,#22d3ee,#3b82f6,#8b5cf6,#ec4899,#f97316,#22d3ee);
+    background-size: 300% 100%;
+    color: #fff;
+    animation: rainbow-1983 6s linear infinite;
+}
+.Navbar-shine {
+    position: absolute;
+    left: -60px;
+    top: -20%;
+    width: 45px;
+    height: 140%;
+    transform: skewX(-20deg);
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.6),transparent);
+    animation: shine-1983 3s ease-in-out infinite;
+}
+.Navbar-brand,
+.Navbar-links,
+.Navbar button {
+    position: relative;
+    z-index: 1;
+}
+.Navbar-brand,
+.Navbar-links,
+.Navbar button {
+    z-index: 1;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 12px;
+    font-size: 9px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #fff;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+    padding: 9px 0;
+}
+.Navbar-links a {
+    color: rgba(255,255,255,.76);
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar button {
+    margin-right: 4px;
+    padding: 6px 11px;
+    border: none;
+    border-radius: 7px;
+    background: #09090b;
+    color: #fff;
+    font-size: 7px;
+    cursor: pointer;
+}
+@keyframes rainbow-1983 {
+    to {
+        background-position: 300% 0;
+    }
+}
+@keyframes shine-1983 {
+    0% {
+        left: -60px;
+    }
+    55% {
+        left: 120%;
+    }
+    100% {
+        left: 120%;
+    }
+}`
+},
+{
+    id: 1984,
+    name: "Legendary Synthwave Night",
+    preview: (
+        <nav className="navbar-1984">
+            <div className="navbar-1984__sun"></div>
+            <div className="navbar-1984__brand">
+                <i className="fa-solid fa-gamepad"></i>
+                NIGHTWAVE
+            </div>
+            <div className="navbar-1984__links">
+                <a href="#">ARCADE</a>
+                <a href="#">RADIO</a>
+                <a href="#">FUTURE</a>
+            </div>
+            <button>PLAY</button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-sun"></div>
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-gamepad"></i>
+        NIGHTWAVE
+    </div>
+    <div class="Navbar-links">
+        <a href="#">ARCADE</a>
+        <a href="#">RADIO</a>
+        <a href="#">FUTURE</a>
+    </div>
+    <button>PLAY</button>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    overflow: hidden;
+    border: 1px solid #ec4899;
+    background: #0b0115;
+    color: #f9a8d4;
+}
+.Navbar-sun {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: -20px;
+    left: 43%;
+    border-radius: 100px 100px 0 0;
+    background: linear-gradient(180deg,#facc15,#f97316,#ec4899);
+    box-shadow: 0 0 28px rgba(236,72,153,.5);
+}
+.Navbar-brand,
+.Navbar-links,
+.Navbar button {
+    position: relative;
+    z-index: 1;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+.Navbar-brand i {
+    color: #facc15;
+    text-shadow: 0 0 10px #f97316;
+}
+.Navbar-links {
+    display: flex;
+    gap: 22px;
+}
+.Navbar-links a {
+    color: #a855f7;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #f9a8d4;
+    text-shadow: 0 0 9px #ec4899;
+}
+.Navbar button {
+    padding: 6px 12px;
+    border: 1px solid #ec4899;
+    border-radius: 7px;
+    background: rgba(236,72,153,.1);
+    color: #f9a8d4;
+    font-size: 7px;
+    font-weight: 900;
+    cursor: pointer;
+}`
+},
 
 
 ];
