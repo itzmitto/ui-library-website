@@ -59741,6 +59741,1417 @@ export const navbar = [
     color: #111;
 }`
 },
+{
+    id: 1965,
+    name: "Legendary Cyberpunk Reactor",
+    preview: (
+        <nav className="navbar-1965">
+            <div className="navbar-1965__brand">
+                <i className="fa-solid fa-atom"></i>
+                REACTOR
+            </div>
+            <div className="navbar-1965__links">
+                <a href="#">CORE</a>
+                <a href="#">POWER</a>
+                <a href="#">SYSTEM</a>
+            </div>
+            <div className="navbar-1965__status">
+                <span></span>
+                ACTIVE
+            </div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-atom"></i>
+        REACTOR
+    </div>
+    <div class="Navbar-links">
+        <a href="#">CORE</a>
+        <a href="#">POWER</a>
+        <a href="#">SYSTEM</a>
+    </div>
+    <div class="Navbar-status">
+        <span></span>
+        ACTIVE
+    </div>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    border: 1px solid #22d3ee;
+    background: #02070b;
+    color: #67e8f9;
+    font-family: monospace;
+    box-shadow: 0 0 22px rgba(34,211,238,.18);
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+.Navbar-brand i {
+    color: #22d3ee;
+    text-shadow: 0 0 10px #22d3ee;
+}
+.Navbar-links {
+    display: flex;
+    gap: 21px;
+}
+.Navbar-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #67e8f9;
+    text-shadow: 0 0 7px #22d3ee;
+}
+.Navbar-status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #4ade80;
+    font-size: 6px;
+}
+.Navbar-status span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 9px #22c55e;
+}`
+},
+{
+    id: 1966,
+    name: "Legendary Cyberpunk Neon Grid",
+    preview: (
+        <nav className="navbar-1966">
+            <div className="navbar-1966__grid"></div>
+            <div className="navbar-1966__brand">
+                <i className="fa-solid fa-network-wired"></i>
+                GRID-X
+            </div>
+            <div className="navbar-1966__links">
+                <a href="#">NODES</a>
+                <a href="#">DATA</a>
+                <a href="#">ACCESS</a>
+            </div>
+            <button>CONNECT</button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-grid"></div>
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-network-wired"></i>
+        GRID-X
+    </div>
+    <div class="Navbar-links">
+        <a href="#">NODES</a>
+        <a href="#">DATA</a>
+        <a href="#">ACCESS</a>
+    </div>
+    <button>CONNECT</button>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    overflow: hidden;
+    border: 1px solid #7c3aed;
+    background: #07020e;
+    color: #d8b4fe;
+    font-family: monospace;
+}
+.Navbar-grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(124,58,237,.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(124,58,237,.08) 1px, transparent 1px);
+    background-size: 17px 17px;
+}
+.Navbar-brand,
+.Navbar-links,
+.Navbar button {
+    position: relative;
+    z-index: 1;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 8px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #c084fc;
+    text-shadow: 0 0 10px #a855f7;
+}
+.Navbar-links {
+    display: flex;
+    gap: 21px;
+}
+.Navbar-links a {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #d8b4fe;
+}
+.Navbar button {
+    padding: 6px 11px;
+    border: 1px solid #a855f7;
+    background: rgba(168,85,247,.08);
+    color: #e9d5ff;
+    font-family: monospace;
+    font-size: 7px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1967,
+    name: "Legendary Cyberpunk Neon Pulse",
+    preview: (
+        <nav className="navbar-1967">
+            <div className="navbar-1967__brand">
+                <i className="fa-solid fa-heart-pulse"></i>
+                PULSE
+            </div>
+            <div className="navbar-1967__links">
+                <a href="#">LIVE</a>
+                <a href="#">SIGNALS</a>
+                <a href="#">MONITOR</a>
+            </div>
+            <span className="navbar-1967__live">● 99.8%</span>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-heart-pulse"></i>
+        PULSE
+    </div>
+    <div class="Navbar-links">
+        <a href="#">LIVE</a>
+        <a href="#">SIGNALS</a>
+        <a href="#">MONITOR</a>
+    </div>
+    <span class="Navbar-live">● 99.8%</span>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 10px 15px;
+    border: 1px solid #ec4899;
+    background: #0b0208;
+    color: #f9a8d4;
+    font-family: monospace;
+    box-shadow: 0 0 24px rgba(236,72,153,.16);
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 8px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #f472b6;
+    text-shadow: 0 0 10px #ec4899;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+}
+.Navbar-links a {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #f9a8d4;
+}
+.Navbar-live {
+    color: #4ade80;
+    font-size: 6px;
+    text-shadow: 0 0 8px rgba(74,222,128,.4);
+}`
+},
+{
+    id: 1968,
+    name: "Legendary Cyberpunk Black Ice",
+    preview: (
+        <nav className="navbar-1968">
+            <div className="navbar-1968__brand">
+                <i className="fa-solid fa-snowflake"></i>
+                BLACK ICE
+            </div>
+            <div className="navbar-1968__links">
+                <a href="#">NETWORK</a>
+                <a href="#">VAULT</a>
+                <a href="#">BREACH</a>
+            </div>
+            <button>
+                <i className="fa-solid fa-lock"></i>
+            </button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-snowflake"></i>
+        BLACK ICE
+    </div>
+    <div class="Navbar-links">
+        <a href="#">NETWORK</a>
+        <a href="#">VAULT</a>
+        <a href="#">BREACH</a>
+    </div>
+    <button>
+        <i class="fa-solid fa-lock"></i>
+    </button>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    border: 1px solid #38bdf8;
+    background: linear-gradient(145deg,#020617,#06131c);
+    color: #bae6fd;
+    font-family: monospace;
+    box-shadow: 0 0 20px rgba(56,189,248,.16);
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.Navbar-brand i {
+    color: #7dd3fc;
+    text-shadow: 0 0 10px #38bdf8;
+}
+.Navbar-links {
+    display: flex;
+    gap: 21px;
+}
+.Navbar-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #bae6fd;
+}
+.Navbar button {
+    width: 27px;
+    height: 27px;
+    border: 1px solid #38bdf8;
+    border-radius: 7px;
+    background: rgba(56,189,248,.06);
+    color: #7dd3fc;
+    cursor: pointer;
+}`
+},
+{
+    id: 1969,
+    name: "Legendary Cyberpunk Crimson",
+    preview: (
+        <nav className="navbar-1969">
+            <div className="navbar-1969__brand">
+                <i className="fa-solid fa-skull"></i>
+                CRIMSON
+            </div>
+            <div className="navbar-1969__links">
+                <a href="#">DISTRICT</a>
+                <a href="#">TARGETS</a>
+                <a href="#">INTEL</a>
+            </div>
+            <div className="navbar-1969__warning">DANGER</div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-skull"></i>
+        CRIMSON
+    </div>
+    <div class="Navbar-links">
+        <a href="#">DISTRICT</a>
+        <a href="#">TARGETS</a>
+        <a href="#">INTEL</a>
+    </div>
+    <div class="Navbar-warning">DANGER</div>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    border: 1px solid #dc2626;
+    background: #0b0303;
+    color: #fecaca;
+    font-family: monospace;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 8px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #ef4444;
+    text-shadow: 0 0 10px #dc2626;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+}
+.Navbar-links a {
+    color: #78716c;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fecaca;
+}
+.Navbar-warning {
+    padding: 4px 7px;
+    border: 1px solid #ef4444;
+    color: #fca5a5;
+    font-size: 6px;
+    box-shadow: 0 0 8px rgba(239,68,68,.2);
+}`
+},
+{
+    id: 1970,
+    name: "Legendary HUD Sentinel",
+    preview: (
+        <nav className="navbar-1970">
+            <div className="navbar-1970__target">
+                <i className="fa-solid fa-crosshairs"></i>
+            </div>
+            <div className="navbar-1970__title">
+                <strong>SENTINEL</strong>
+                <span>UNIT 07</span>
+            </div>
+            <div className="navbar-1970__links">
+                <a href="#">SCAN</a>
+                <a href="#">TRACK</a>
+                <a href="#">LOCK</a>
+            </div>
+            <span>READY</span>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-target">
+        <i class="fa-solid fa-crosshairs"></i>
+    </div>
+    <div class="Navbar-title">
+        <strong>SENTINEL</strong>
+        <span>UNIT 07</span>
+    </div>
+    <div class="Navbar-links">
+        <a href="#">SCAN</a>
+        <a href="#">TRACK</a>
+        <a href="#">LOCK</a>
+    </div>
+    <span>READY</span>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    min-width: 520px;
+    padding: 9px 14px;
+    border: 1px solid #0ea5e9;
+    background: #03111b;
+    color: #bae6fd;
+    font-family: monospace;
+    clip-path: polygon(0 0,99% 0,100% 72%,97% 100%,0 100%);
+}
+.Navbar-target {
+    width: 29px;
+    height: 29px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+}
+.Navbar-title strong,
+.Navbar-title span {
+    display: block;
+}
+.Navbar-title strong {
+    font-size: 8px;
+}
+.Navbar-title span {
+    margin-top: 2px;
+    color: #64748b;
+    font-size: 5px;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+.Navbar-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #bae6fd;
+}
+.Navbar>span {
+    color: #4ade80;
+    font-size: 6px;
+}`
+},
+{
+    id: 1971,
+    name: "Legendary HUD Orbital",
+    preview: (
+        <nav className="navbar-1971">
+            <div className="navbar-1971__orb">
+                <i className="fa-solid fa-globe"></i>
+            </div>
+            <strong>ORBITAL</strong>
+            <div className="navbar-1971__links">
+                <a href="#">STATIONS</a>
+                <a href="#">ROUTES</a>
+                <a href="#">PLANETS</a>
+            </div>
+            <span>SECTOR 8</span>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-orb">
+        <i class="fa-solid fa-globe"></i>
+    </div>
+    <strong>ORBITAL</strong>
+    <div class="Navbar-links">
+        <a href="#">STATIONS</a>
+        <a href="#">ROUTES</a>
+        <a href="#">PLANETS</a>
+    </div>
+    <span>SECTOR 8</span>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    min-width: 520px;
+    padding: 10px 15px;
+    border: 1px solid #1d4ed8;
+    background: #020617;
+    color: #dbeafe;
+    font-family: monospace;
+}
+.Navbar-orb {
+    width: 29px;
+    height: 29px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #3b82f6;
+    border-radius: 50%;
+    color: #60a5fa;
+    box-shadow: 0 0 13px rgba(59,130,246,.3);
+}
+.Navbar>strong {
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+.Navbar-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #dbeafe;
+}
+.Navbar>span {
+    color: #60a5fa;
+    font-size: 6px;
+}`
+},
+{
+    id: 1972,
+    name: "Legendary HUD Telemetry",
+    preview: (
+        <nav className="navbar-1972">
+            <div className="navbar-1972__brand">
+                <i className="fa-solid fa-chart-line"></i>
+                TELEMETRY
+            </div>
+            <div className="navbar-1972__bars">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div className="navbar-1972__links">
+                <a href="#">LIVE</a>
+                <a href="#">DATA</a>
+                <a href="#">HISTORY</a>
+            </div>
+            <span>842 MB/s</span>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-chart-line"></i>
+        TELEMETRY
+    </div>
+    <div class="Navbar-bars">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="Navbar-links">
+        <a href="#">LIVE</a>
+        <a href="#">DATA</a>
+        <a href="#">HISTORY</a>
+    </div>
+    <span>842 MB/s</span>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    width: 100%;
+    min-width: 520px;
+    padding: 10px 15px;
+    border: 1px solid #0284c7;
+    background: #020b12;
+    color: #7dd3fc;
+    font-family: monospace;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 8px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #38bdf8;
+}
+.Navbar-bars {
+    display: flex;
+    align-items: end;
+    gap: 2px;
+}
+.Navbar-bars span {
+    width: 4px;
+    background: #075985;
+}
+.Navbar-bars span:nth-child(1) {
+    height: 5px;
+}
+.Navbar-bars span:nth-child(2) {
+    height: 9px;
+}
+.Navbar-bars span:nth-child(3) {
+    height: 14px;
+    background: #22d3ee;
+}
+.Navbar-bars span:nth-child(4) {
+    height: 11px;
+}
+.Navbar-bars span:nth-child(5) {
+    height: 18px;
+    background: #38bdf8;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+.Navbar-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #7dd3fc;
+}
+.Navbar>span {
+    color: #4ade80;
+    font-size: 6px;
+}`
+},
+{
+    id: 1973,
+    name: "Legendary HUD Mission Control",
+    preview: (
+        <nav className="navbar-1973">
+            <div className="navbar-1973__brand">
+                <i className="fa-solid fa-rocket"></i>
+                MISSION 07
+            </div>
+            <div className="navbar-1973__links">
+                <a href="#">STATUS</a>
+                <a href="#">CREW</a>
+                <a href="#">OBJECTIVES</a>
+            </div>
+            <div className="navbar-1973__progress">
+                <span></span>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-rocket"></i>
+        MISSION 07
+    </div>
+    <div class="Navbar-links">
+        <a href="#">STATUS</a>
+        <a href="#">CREW</a>
+        <a href="#">OBJECTIVES</a>
+    </div>
+    <div class="Navbar-progress">
+        <span></span>
+    </div>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    min-width: 520px;
+    padding: 10px 15px;
+    border: 1px solid #2563eb;
+    background: #030712;
+    color: #bfdbfe;
+    font-family: monospace;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 8px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #60a5fa;
+}
+.Navbar-links {
+    display: flex;
+    gap: 19px;
+    margin-left: auto;
+}
+.Navbar-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #bfdbfe;
+}
+.Navbar-progress {
+    width: 52px;
+    height: 4px;
+    background: #172554;
+}
+.Navbar-progress span {
+    display: block;
+    width: 76%;
+    height: 100%;
+    background: #38bdf8;
+    box-shadow: 0 0 8px #38bdf8;
+}`
+},
+{
+    id: 1974,
+    name: "Legendary Glass Prism",
+    preview: (
+        <nav className="navbar-1974">
+            <div className="navbar-1974__glow"></div>
+            <div className="navbar-1974__brand">
+                <i className="fa-solid fa-gem"></i>
+                PRISM
+            </div>
+            <div className="navbar-1974__links">
+                <a href="#">COLORS</a>
+                <a href="#">STUDIO</a>
+                <a href="#">MOTION</a>
+            </div>
+            <button>OPEN</button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-glow"></div>
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-gem"></i>
+        PRISM
+    </div>
+    <div class="Navbar-links">
+        <a href="#">COLORS</a>
+        <a href="#">STUDIO</a>
+        <a href="#">MOTION</a>
+    </div>
+    <button>OPEN</button>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 15px;
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(18px);
+    color: #fff;
+}
+.Navbar-glow {
+    position: absolute;
+    width: 210px;
+    height: 100px;
+    left: 25px;
+    top: -65px;
+    border-radius: 50%;
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899);
+    filter: blur(40px);
+    opacity: .3;
+}
+.Navbar-brand,
+.Navbar-links,
+.Navbar button {
+    position: relative;
+    z-index: 1;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 9px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #67e8f9;
+}
+.Navbar-links {
+    display: flex;
+    gap: 21px;
+}
+.Navbar-links a {
+    color: rgba(255,255,255,.62);
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar button {
+    padding: 6px 11px;
+    border: 1px solid rgba(255,255,255,.28);
+    border-radius: 7px;
+    background: rgba(255,255,255,.1);
+    color: #fff;
+    font-size: 7px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1975,
+    name: "Legendary Glass Moonlight",
+    preview: (
+        <nav className="navbar-1975">
+            <div className="navbar-1975__moon">
+                <i className="fa-solid fa-moon"></i>
+            </div>
+            <div className="navbar-1975__links">
+                <a href="#">NIGHT</a>
+                <a href="#">STORIES</a>
+                <a href="#">JOURNAL</a>
+            </div>
+            <div className="navbar-1975__profile">
+                <i className="fa-solid fa-user"></i>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-moon">
+        <i class="fa-solid fa-moon"></i>
+    </div>
+    <div class="Navbar-links">
+        <a href="#">NIGHT</a>
+        <a href="#">STORIES</a>
+        <a href="#">JOURNAL</a>
+    </div>
+    <div class="Navbar-profile">
+        <i class="fa-solid fa-user"></i>
+    </div>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 8px 10px;
+    border: 1px solid rgba(255,255,255,.22);
+    border-radius: 999px;
+    background: rgba(15,23,42,.35);
+    backdrop-filter: blur(20px);
+    color: #fff;
+}
+.Navbar-moon,
+.Navbar-profile {
+    width: 29px;
+    height: 29px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255,255,255,.24);
+    border-radius: 50%;
+    background: rgba(255,255,255,.08);
+}
+.Navbar-moon {
+    color: #fde68a;
+}
+.Navbar-links {
+    display: flex;
+    gap: 22px;
+}
+.Navbar-links a {
+    color: rgba(255,255,255,.58);
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar-profile {
+    color: #d4d4d8;
+    font-size: 8px;
+}`
+},
+{
+    id: 1976,
+    name: "Legendary Glass Ocean",
+    preview: (
+        <nav className="navbar-1976">
+            <div className="navbar-1976__wave"></div>
+            <div className="navbar-1976__brand">
+                <i className="fa-solid fa-water"></i>
+                OCEAN
+            </div>
+            <div className="navbar-1976__links">
+                <a href="#">DEPTHS</a>
+                <a href="#">WAVES</a>
+                <a href="#">MAPS</a>
+            </div>
+            <span>32°C</span>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-wave"></div>
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-water"></i>
+        OCEAN
+    </div>
+    <div class="Navbar-links">
+        <a href="#">DEPTHS</a>
+        <a href="#">WAVES</a>
+        <a href="#">MAPS</a>
+    </div>
+    <span>32°C</span>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    overflow: hidden;
+    border: 1px solid rgba(103,232,249,.3);
+    border-radius: 15px;
+    background: rgba(8,47,73,.25);
+    backdrop-filter: blur(17px);
+    color: #e0f2fe;
+}
+.Navbar-wave {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    right: -40px;
+    top: -55px;
+    border-radius: 50%;
+    background: #0ea5e9;
+    filter: blur(40px);
+    opacity: .23;
+}
+.Navbar-brand,
+.Navbar-links,
+.Navbar>span {
+    position: relative;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 9px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #67e8f9;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+}
+.Navbar-links a {
+    color: rgba(224,242,254,.58);
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar>span {
+    color: #7dd3fc;
+    font-size: 6px;
+}`
+},
+{
+    id: 1977,
+    name: "Legendary Glass Rose",
+    preview: (
+        <nav className="navbar-1977">
+            <div className="navbar-1977__brand">
+                <i className="fa-solid fa-heart"></i>
+                ROSE
+            </div>
+            <div className="navbar-1977__links">
+                <a href="#">STORIES</a>
+                <a href="#">PEOPLE</a>
+                <a href="#">MOMENTS</a>
+            </div>
+            <button>JOIN</button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-heart"></i>
+        ROSE
+    </div>
+    <div class="Navbar-links">
+        <a href="#">STORIES</a>
+        <a href="#">PEOPLE</a>
+        <a href="#">MOMENTS</a>
+    </div>
+    <button>JOIN</button>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 10px 15px;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 14px;
+    background: rgba(244,114,182,.12);
+    backdrop-filter: blur(16px);
+    color: #fff;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 9px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #f9a8d4;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+}
+.Navbar-links a {
+    color: rgba(255,255,255,.6);
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar button {
+    padding: 6px 11px;
+    border: 1px solid rgba(255,255,255,.28);
+    border-radius: 7px;
+    background: rgba(255,255,255,.1);
+    color: #fff;
+    font-size: 7px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1978,
+    name: "Legendary Dark Luxury Obsidian",
+    preview: (
+        <nav className="navbar-1978">
+            <div className="navbar-1978__brand">
+                <i className="fa-solid fa-gem"></i>
+                OBSIDIAN
+            </div>
+            <div className="navbar-1978__links">
+                <a href="#">PRIVATE</a>
+                <a href="#">VAULT</a>
+                <a href="#">LEGACY</a>
+            </div>
+            <button>
+                <i className="fa-solid fa-lock"></i>
+            </button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-gem"></i>
+        OBSIDIAN
+    </div>
+    <div class="Navbar-links">
+        <a href="#">PRIVATE</a>
+        <a href="#">VAULT</a>
+        <a href="#">LEGACY</a>
+    </div>
+    <button>
+        <i class="fa-solid fa-lock"></i>
+    </button>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    border: 1px solid #3f3f46;
+    background: linear-gradient(145deg,#09090b,#18181b);
+    color: #e4e4e7;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+.Navbar-brand i {
+    color: #d4d4d8;
+}
+.Navbar-links {
+    display: flex;
+    gap: 22px;
+}
+.Navbar-links a {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #f4f4f5;
+}
+.Navbar button {
+    width: 27px;
+    height: 27px;
+    border: 1px solid #52525b;
+    border-radius: 7px;
+    background: #111113;
+    color: #d4d4d8;
+    cursor: pointer;
+}`
+},
+{
+    id: 1979,
+    name: "Legendary Dark Luxury Imperial",
+    preview: (
+        <nav className="navbar-1979">
+            <div className="navbar-1979__crest">
+                <i className="fa-solid fa-crown"></i>
+            </div>
+            <div className="navbar-1979__title">
+                IMPERIAL
+                <span>PRIVATE HOUSE</span>
+            </div>
+            <div className="navbar-1979__links">
+                <a href="#">COLLECTION</a>
+                <a href="#">ATELIER</a>
+                <a href="#">JOURNAL</a>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-crest">
+        <i class="fa-solid fa-crown"></i>
+    </div>
+    <div class="Navbar-title">
+        IMPERIAL
+        <span>PRIVATE HOUSE</span>
+    </div>
+    <div class="Navbar-links">
+        <a href="#">COLLECTION</a>
+        <a href="#">ATELIER</a>
+        <a href="#">JOURNAL</a>
+    </div>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    min-width: 520px;
+    padding: 10px 15px;
+    border-top: 1px solid #a16207;
+    border-bottom: 1px solid #a16207;
+    background: #0a0805;
+    color: #fef3c7;
+}
+.Navbar-crest {
+    width: 29px;
+    height: 29px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #d97706;
+    border-radius: 50%;
+    color: #facc15;
+}
+.Navbar-title {
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+.Navbar-title span {
+    display: block;
+    margin-top: 2px;
+    color: #78716c;
+    font-size: 5px;
+    letter-spacing: 1px;
+}
+.Navbar-links {
+    display: flex;
+    gap: 22px;
+    margin-left: auto;
+}
+.Navbar-links a {
+    color: #78716c;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fef3c7;
+}`
+},
+{
+    id: 1980,
+    name: "Legendary Dark Luxury Noir",
+    preview: (
+        <nav className="navbar-1980">
+            <div className="navbar-1980__logo">
+                NOIR<span>®</span>
+            </div>
+            <div className="navbar-1980__links">
+                <a href="#">STUDIO</a>
+                <a href="#">ARCHIVE</a>
+                <a href="#">CONTACT</a>
+            </div>
+            <i className="fa-solid fa-arrow-up-right-from-square"></i>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-logo">
+        NOIR<span>®</span>
+    </div>
+    <div class="Navbar-links">
+        <a href="#">STUDIO</a>
+        <a href="#">ARCHIVE</a>
+        <a href="#">CONTACT</a>
+    </div>
+    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 12px 16px;
+    border-bottom: 1px solid #27272a;
+    background: #09090b;
+    color: #fafafa;
+}
+.Navbar-logo {
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.Navbar-logo span {
+    margin-left: 2px;
+    color: #71717a;
+    font-size: 5px;
+}
+.Navbar-links {
+    display: flex;
+    gap: 23px;
+}
+.Navbar-links a {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar>i {
+    color: #a1a1aa;
+    font-size: 8px;
+}`
+},
+{
+    id: 1981,
+    name: "Legendary Cyber Grid Matrix",
+    preview: (
+        <nav className="navbar-1981">
+            <div className="navbar-1981__matrix"></div>
+            <div className="navbar-1981__brand">
+                <i className="fa-solid fa-terminal"></i>
+                MATRIX
+            </div>
+            <div className="navbar-1981__links">
+                <a href="#">NODES</a>
+                <a href="#">DATA</a>
+                <a href="#">SECURITY</a>
+            </div>
+            <span>NODE_07</span>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-matrix"></div>
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-terminal"></i>
+        MATRIX
+    </div>
+    <div class="Navbar-links">
+        <a href="#">NODES</a>
+        <a href="#">DATA</a>
+        <a href="#">SECURITY</a>
+    </div>
+    <span>NODE_07</span>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    overflow: hidden;
+    border: 1px solid #16a34a;
+    background: #020704;
+    color: #86efac;
+    font-family: monospace;
+}
+.Navbar-matrix {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(22,163,74,.06) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(22,163,74,.06) 1px,transparent 1px);
+    background-size: 15px 15px;
+}
+.Navbar-brand,
+.Navbar-links,
+.Navbar>span {
+    position: relative;
+    z-index: 1;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 8px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #4ade80;
+    text-shadow: 0 0 9px #22c55e;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+}
+.Navbar-links a {
+    color: #4b5563;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #86efac;
+}
+.Navbar>span {
+    color: #4ade80;
+    font-size: 6px;
+}`
+},
+{
+    id: 1982,
+    name: "Legendary Cyber Grid Blue",
+    preview: (
+        <nav className="navbar-1982">
+            <div className="navbar-1982__brand">
+                <i className="fa-solid fa-cube"></i>
+                GRID/BLUE
+            </div>
+            <div className="navbar-1982__links">
+                <a href="#">DESIGN</a>
+                <a href="#">LAYERS</a>
+                <a href="#">EXPORT</a>
+            </div>
+            <button>SYNC</button>
+        </nav>
+    ),
+    
 
 
 ];
