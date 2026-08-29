@@ -57931,6 +57931,1816 @@ export const navbar = [
     }
 }`
 },
+{
+    id: 1944,
+    name: "Legendary Neon Cyberpunk",
+    preview: (
+        <nav className="navbar-1944">
+            <div className="navbar-1944__brand">
+                <i className="fa-solid fa-microchip"></i>
+                NEXUS
+            </div>
+            <div className="navbar-1944__links">
+                <a href="#">SYSTEM</a>
+                <a href="#">NETWORK</a>
+                <a href="#">ACCESS</a>
+            </div>
+            <div className="navbar-1944__status">
+                <span></span>
+                ONLINE
+            </div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-microchip"></i>
+        NEXUS
+    </div>
+    <div class="Navbar-links">
+        <a href="#">SYSTEM</a>
+        <a href="#">NETWORK</a>
+        <a href="#">ACCESS</a>
+    </div>
+    <div class="Navbar-status">
+        <span></span>
+        ONLINE
+    </div>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 12px 16px;
+    border: 1px solid #22d3ee;
+    background: #030712;
+    color: #67e8f9;
+    font-family: monospace;
+    box-shadow: 0 0 22px rgba(34,211,238,.18), inset 0 0 20px rgba(34,211,238,.03);
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.Navbar-brand i {
+    color: #22d3ee;
+    text-shadow: 0 0 12px #22d3ee;
+}
+.Navbar-links {
+    display: flex;
+    gap: 22px;
+}
+.Navbar-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 7px;
+    transition: .2s ease;
+}
+.Navbar-links a:hover {
+    color: #67e8f9;
+    text-shadow: 0 0 8px #22d3ee;
+}
+.Navbar-status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 7px;
+    color: #4ade80;
+}
+.Navbar-status span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 10px #22c55e;
+    animation: pulse-1944 1.5s infinite;
+}
+@keyframes pulse-1944 {
+    50% {
+        opacity: .35;
+    }
+}`
+},
+{
+    id: 1945,
+    name: "Neon Cyberpunk Reactor",
+    preview: (
+        <nav className="navbar-1945">
+            <div className="navbar-1945__reactor">
+                <i className="fa-solid fa-atom"></i>
+            </div>
+            <strong>CORE-07</strong>
+            <div className="navbar-1945__links">
+                <a href="#">CORE</a>
+                <a href="#">POWER</a>
+                <a href="#">STATUS</a>
+            </div>
+            <button>
+                <i className="fa-solid fa-bolt"></i>
+            </button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-reactor">
+        <i class="fa-solid fa-atom"></i>
+    </div>
+    <strong>CORE-07</strong>
+    <div class="Navbar-links">
+        <a href="#">CORE</a>
+        <a href="#">POWER</a>
+        <a href="#">STATUS</a>
+    </div>
+    <button>
+        <i class="fa-solid fa-bolt"></i>
+    </button>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    min-width: 520px;
+    padding: 10px 15px;
+    border: 1px solid #a855f7;
+    background: #090313;
+    color: #e9d5ff;
+    font-family: monospace;
+    box-shadow: 0 0 20px rgba(168,85,247,.18);
+}
+.Navbar-reactor {
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #22d3ee;
+    border-radius: 50%;
+    color: #67e8f9;
+    box-shadow: 0 0 12px rgba(34,211,238,.35);
+}
+.Navbar-reactor i {
+    animation: spin-1945 4s linear infinite;
+}
+.Navbar strong {
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+.Navbar-links a {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #e9d5ff;
+}
+.Navbar button {
+    width: 27px;
+    height: 27px;
+    border: 1px solid #ec4899;
+    border-radius: 7px;
+    background: rgba(236,72,153,.08);
+    color: #f9a8d4;
+    cursor: pointer;
+}
+@keyframes spin-1945 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1946,
+    name: "Futuristic HUD Command",
+    preview: (
+        <nav className="navbar-1946">
+            <div className="navbar-1946__target">
+                <i className="fa-solid fa-crosshairs"></i>
+            </div>
+            <div className="navbar-1946__title">
+                <strong>COMMAND</strong>
+                <span>SECTOR 09</span>
+            </div>
+            <div className="navbar-1946__links">
+                <a href="#">MAP</a>
+                <a href="#">SCAN</a>
+                <a href="#">TARGETS</a>
+            </div>
+            <div className="navbar-1946__coords">X:204 Y:771</div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-target">
+        <i class="fa-solid fa-crosshairs"></i>
+    </div>
+    <div class="Navbar-title">
+        <strong>COMMAND</strong>
+        <span>SECTOR 09</span>
+    </div>
+    <div class="Navbar-links">
+        <a href="#">MAP</a>
+        <a href="#">SCAN</a>
+        <a href="#">TARGETS</a>
+    </div>
+    <div class="Navbar-coords">X:204 Y:771</div>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    min-width: 520px;
+    padding: 9px 14px;
+    border: 1px solid #0ea5e9;
+    background: linear-gradient(90deg,#03101a,#06131e);
+    color: #bae6fd;
+    font-family: monospace;
+    clip-path: polygon(0 0,99% 0,100% 70%,97% 100%,0 100%);
+}
+.Navbar-target {
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+}
+.Navbar-title strong,
+.Navbar-title span {
+    display: block;
+}
+.Navbar-title strong {
+    font-size: 8px;
+}
+.Navbar-title span {
+    margin-top: 2px;
+    color: #64748b;
+    font-size: 5px;
+}
+.Navbar-links {
+    display: flex;
+    gap: 19px;
+    margin-left: auto;
+}
+.Navbar-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #bae6fd;
+}
+.Navbar-coords {
+    color: #4ade80;
+    font-size: 6px;
+}`
+},
+{
+    id: 1947,
+    name: "Futuristic HUD Scan",
+    preview: (
+        <nav className="navbar-1947">
+            <div className="navbar-1947__scan"></div>
+            <div className="navbar-1947__brand">
+                <i className="fa-solid fa-satellite-dish"></i>
+                RADAR
+            </div>
+            <div className="navbar-1947__links">
+                <a href="#">SIGNALS</a>
+                <a href="#">SECTORS</a>
+                <a href="#">THREATS</a>
+            </div>
+            <span className="navbar-1947__live">LIVE</span>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-scan"></div>
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-satellite-dish"></i>
+        RADAR
+    </div>
+    <div class="Navbar-links">
+        <a href="#">SIGNALS</a>
+        <a href="#">SECTORS</a>
+        <a href="#">THREATS</a>
+    </div>
+    <span class="Navbar-live">LIVE</span>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    overflow: hidden;
+    border: 1px solid #22d3ee;
+    background: #020b12;
+    color: #67e8f9;
+    font-family: monospace;
+}
+.Navbar-scan {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -2px;
+    height: 2px;
+    background: #22d3ee;
+    box-shadow: 0 0 12px #22d3ee;
+    animation: hud-scan-1947 2.5s linear infinite;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 8px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #22d3ee;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+}
+.Navbar-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #67e8f9;
+}
+.Navbar-live {
+    font-size: 6px;
+    color: #4ade80;
+    letter-spacing: 1px;
+}
+@keyframes hud-scan-1947 {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(42px);
+    }
+}`
+},
+{
+    id: 1948,
+    name: "Futuristic HUD Tactical",
+    preview: (
+        <nav className="navbar-1948">
+            <div className="navbar-1948__brand">
+                <i className="fa-solid fa-shield-halved"></i>
+                SENTINEL
+            </div>
+            <div className="navbar-1948__bars">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div className="navbar-1948__links">
+                <a href="#">DEFENSE</a>
+                <a href="#">MONITOR</a>
+                <a href="#">LOGS</a>
+            </div>
+            <span className="navbar-1948__state">ACTIVE</span>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-shield-halved"></i>
+        SENTINEL
+    </div>
+    <div class="Navbar-bars">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="Navbar-links">
+        <a href="#">DEFENSE</a>
+        <a href="#">MONITOR</a>
+        <a href="#">LOGS</a>
+    </div>
+    <span class="Navbar-state">ACTIVE</span>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    width: 100%;
+    min-width: 520px;
+    padding: 10px 15px;
+    border: 1px solid #22c55e;
+    background: #030b06;
+    color: #86efac;
+    font-family: monospace;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 8px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #4ade80;
+}
+.Navbar-bars {
+    display: flex;
+    align-items: end;
+    gap: 2px;
+}
+.Navbar-bars span {
+    width: 4px;
+    background: #166534;
+}
+.Navbar-bars span:nth-child(1) {
+    height: 7px;
+}
+.Navbar-bars span:nth-child(2) {
+    height: 11px;
+}
+.Navbar-bars span:nth-child(3) {
+    height: 15px;
+    background: #22c55e;
+}
+.Navbar-bars span:nth-child(4) {
+    height: 9px;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+.Navbar-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #86efac;
+}
+.Navbar-state {
+    font-size: 6px;
+    color: #4ade80;
+}`
+},
+{
+    id: 1949,
+    name: "Glassmorphism Aurora",
+    preview: (
+        <nav className="navbar-1949">
+            <div className="navbar-1949__glow"></div>
+            <div className="navbar-1949__brand">
+                <i className="fa-solid fa-sparkles"></i>
+                AURORA
+            </div>
+            <div className="navbar-1949__links">
+                <a href="#">Explore</a>
+                <a href="#">Gallery</a>
+                <a href="#">Studio</a>
+            </div>
+            <button>ENTER</button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-glow"></div>
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-sparkles"></i>
+        AURORA
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Explore</a>
+        <a href="#">Gallery</a>
+        <a href="#">Studio</a>
+    </div>
+    <button>ENTER</button>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 15px;
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(18px);
+    color: #fff;
+}
+.Navbar-glow {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    left: 20px;
+    top: -65px;
+    border-radius: 50%;
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899);
+    filter: blur(38px);
+    opacity: .3;
+}
+.Navbar-brand,
+.Navbar-links,
+.Navbar button {
+    position: relative;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 9px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #f0abfc;
+}
+.Navbar-links {
+    display: flex;
+    gap: 21px;
+}
+.Navbar-links a {
+    color: rgba(255,255,255,.62);
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar button {
+    padding: 6px 11px;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 7px;
+    background: rgba(255,255,255,.1);
+    color: #fff;
+    font-size: 7px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1950,
+    name: "Glassmorphism Crystal",
+    preview: (
+        <nav className="navbar-1950">
+            <div className="navbar-1950__icon">
+                <i className="fa-solid fa-gem"></i>
+            </div>
+            <div className="navbar-1950__brand">PRISM</div>
+            <div className="navbar-1950__links">
+                <a href="#">Colors</a>
+                <a href="#">Shapes</a>
+                <a href="#">Motion</a>
+            </div>
+            <div className="navbar-1950__user">
+                <i className="fa-solid fa-user"></i>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-icon">
+        <i class="fa-solid fa-gem"></i>
+    </div>
+    <div class="Navbar-brand">PRISM</div>
+    <div class="Navbar-links">
+        <a href="#">Colors</a>
+        <a href="#">Shapes</a>
+        <a href="#">Motion</a>
+    </div>
+    <div class="Navbar-user">
+        <i class="fa-solid fa-user"></i>
+    </div>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    min-width: 520px;
+    padding: 8px 11px;
+    border: 1px solid rgba(255,255,255,.22);
+    border-radius: 999px;
+    background: rgba(255,255,255,.09);
+    backdrop-filter: blur(18px);
+    color: #fff;
+    box-shadow: 0 10px 30px rgba(0,0,0,.18);
+}
+.Navbar-icon,
+.Navbar-user {
+    width: 29px;
+    height: 29px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 50%;
+    background: rgba(255,255,255,.08);
+}
+.Navbar-icon {
+    color: #67e8f9;
+}
+.Navbar-brand {
+    font-size: 9px;
+    font-weight: 900;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+.Navbar-links a {
+    color: rgba(255,255,255,.58);
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar-user {
+    margin-left: 6px;
+    color: #d4d4d8;
+    font-size: 8px;
+}`
+},
+{
+    id: 1951,
+    name: "Glassmorphism Moonlight",
+    preview: (
+        <nav className="navbar-1951">
+            <div className="navbar-1951__moon">
+                <i className="fa-solid fa-moon"></i>
+            </div>
+            <div className="navbar-1951__links">
+                <a href="#">Night</a>
+                <a href="#">Stories</a>
+                <a href="#">Journal</a>
+            </div>
+            <button>Explore</button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-moon">
+        <i class="fa-solid fa-moon"></i>
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Night</a>
+        <a href="#">Stories</a>
+        <a href="#">Journal</a>
+    </div>
+    <button>Explore</button>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 9px 12px;
+    border: 1px solid rgba(255,255,255,.22);
+    border-radius: 14px;
+    background: rgba(15,23,42,.35);
+    backdrop-filter: blur(20px);
+    color: #fff;
+}
+.Navbar-moon {
+    width: 29px;
+    height: 29px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,.1);
+    color: #fde68a;
+}
+.Navbar-links {
+    display: flex;
+    gap: 22px;
+}
+.Navbar-links a {
+    color: rgba(255,255,255,.58);
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar button {
+    padding: 6px 11px;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 7px;
+    background: rgba(255,255,255,.08);
+    color: #fff;
+    font-size: 7px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1952,
+    name: "Glassmorphism Ocean",
+    preview: (
+        <nav className="navbar-1952">
+            <div className="navbar-1952__wave"></div>
+            <div className="navbar-1952__brand">
+                <i className="fa-solid fa-water"></i>
+                OCEAN
+            </div>
+            <div className="navbar-1952__links">
+                <a href="#">Depths</a>
+                <a href="#">Waves</a>
+                <a href="#">Maps</a>
+            </div>
+            <span>32°C</span>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-wave"></div>
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-water"></i>
+        OCEAN
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Depths</a>
+        <a href="#">Waves</a>
+        <a href="#">Maps</a>
+    </div>
+    <span>32°C</span>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    overflow: hidden;
+    border: 1px solid rgba(103,232,249,.3);
+    border-radius: 15px;
+    background: rgba(8,47,73,.25);
+    backdrop-filter: blur(16px);
+    color: #e0f2fe;
+}
+.Navbar-wave {
+    position: absolute;
+    right: -50px;
+    top: -50px;
+    width: 180px;
+    height: 100px;
+    border-radius: 50%;
+    background: #0ea5e9;
+    filter: blur(40px);
+    opacity: .2;
+}
+.Navbar-brand,
+.Navbar-links,
+.Navbar>span {
+    position: relative;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 9px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #67e8f9;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+}
+.Navbar-links a {
+    color: rgba(224,242,254,.58);
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar>span {
+    color: #7dd3fc;
+    font-size: 6px;
+}`
+},
+{
+    id: 1953,
+    name: "Dark Luxury Obsidian",
+    preview: (
+        <nav className="navbar-1953">
+            <div className="navbar-1953__brand">
+                <i className="fa-solid fa-diamond"></i>
+                OBSIDIAN
+            </div>
+            <div className="navbar-1953__links">
+                <a href="#">Private</a>
+                <a href="#">Vault</a>
+                <a href="#">Legacy</a>
+            </div>
+            <button>
+                <i className="fa-solid fa-lock"></i>
+            </button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-diamond"></i>
+        OBSIDIAN
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Private</a>
+        <a href="#">Vault</a>
+        <a href="#">Legacy</a>
+    </div>
+    <button>
+        <i class="fa-solid fa-lock"></i>
+    </button>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    border: 1px solid #3f3f46;
+    background: linear-gradient(145deg,#09090b,#18181b);
+    color: #e4e4e7;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+.Navbar-brand i {
+    color: #d4d4d8;
+}
+.Navbar-links {
+    display: flex;
+    gap: 22px;
+}
+.Navbar-links a {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #f4f4f5;
+}
+.Navbar button {
+    width: 27px;
+    height: 27px;
+    border: 1px solid #52525b;
+    border-radius: 7px;
+    background: #111113;
+    color: #d4d4d8;
+    cursor: pointer;
+}`
+},
+{
+    id: 1954,
+    name: "Dark Luxury Imperial",
+    preview: (
+        <nav className="navbar-1954">
+            <div className="navbar-1954__crest">
+                <i className="fa-solid fa-crown"></i>
+            </div>
+            <div className="navbar-1954__brand">IMPERIAL</div>
+            <div className="navbar-1954__links">
+                <a href="#">Collection</a>
+                <a href="#">Atelier</a>
+                <a href="#">Journal</a>
+            </div>
+            <button>MEMBERS</button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-crest">
+        <i class="fa-solid fa-crown"></i>
+    </div>
+    <div class="Navbar-brand">IMPERIAL</div>
+    <div class="Navbar-links">
+        <a href="#">Collection</a>
+        <a href="#">Atelier</a>
+        <a href="#">Journal</a>
+    </div>
+    <button>MEMBERS</button>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    min-width: 520px;
+    padding: 10px 15px;
+    border-top: 1px solid #a16207;
+    border-bottom: 1px solid #a16207;
+    background: #0b0905;
+    color: #fef3c7;
+}
+.Navbar-crest {
+    width: 29px;
+    height: 29px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #d97706;
+    border-radius: 50%;
+    color: #facc15;
+}
+.Navbar-brand {
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.Navbar-links {
+    display: flex;
+    gap: 22px;
+    margin-left: auto;
+}
+.Navbar-links a {
+    color: #78716c;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fef3c7;
+}
+.Navbar button {
+    padding: 6px 10px;
+    border: 1px solid #a16207;
+    background: #171006;
+    color: #fde68a;
+    font-size: 6px;
+    font-weight: 900;
+    letter-spacing: .8px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1955,
+    name: "Dark Luxury Noir",
+    preview: (
+        <nav className="navbar-1955">
+            <div className="navbar-1955__logo">NOIR<span>®</span></div>
+            <div className="navbar-1955__links">
+                <a href="#">Studio</a>
+                <a href="#">Archive</a>
+                <a href="#">Contact</a>
+            </div>
+            <i className="fa-solid fa-arrow-up-right-from-square"></i>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-logo">NOIR<span>®</span></div>
+    <div class="Navbar-links">
+        <a href="#">Studio</a>
+        <a href="#">Archive</a>
+        <a href="#">Contact</a>
+    </div>
+    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 12px 16px;
+    border-bottom: 1px solid #27272a;
+    background: #09090b;
+    color: #fafafa;
+}
+.Navbar-logo {
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.Navbar-logo span {
+    margin-left: 2px;
+    color: #71717a;
+    font-size: 5px;
+}
+.Navbar-links {
+    display: flex;
+    gap: 23px;
+}
+.Navbar-links a {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar>i {
+    color: #a1a1aa;
+    font-size: 8px;
+}`
+},
+{
+    id: 1956,
+    name: "Cyber Grid Matrix",
+    preview: (
+        <nav className="navbar-1956">
+            <div className="navbar-1956__grid"></div>
+            <div className="navbar-1956__brand">
+                <i className="fa-solid fa-network-wired"></i>
+                MATRIX
+            </div>
+            <div className="navbar-1956__links">
+                <a href="#">NODES</a>
+                <a href="#">DATA</a>
+                <a href="#">CONTROL</a>
+            </div>
+            <span>NODE_01</span>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-grid"></div>
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-network-wired"></i>
+        MATRIX
+    </div>
+    <div class="Navbar-links">
+        <a href="#">NODES</a>
+        <a href="#">DATA</a>
+        <a href="#">CONTROL</a>
+    </div>
+    <span>NODE_01</span>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    overflow: hidden;
+    border: 1px solid #2563eb;
+    background: #020617;
+    color: #60a5fa;
+    font-family: monospace;
+}
+.Navbar-grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(37,99,235,.06) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(37,99,235,.06) 1px,transparent 1px);
+    background-size: 16px 16px;
+}
+.Navbar-brand,
+.Navbar-links,
+.Navbar>span {
+    position: relative;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 8px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #38bdf8;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+}
+.Navbar-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #93c5fd;
+}
+.Navbar>span {
+    color: #4ade80;
+    font-size: 6px;
+}`
+},
+{
+    id: 1957,
+    name: "Cyber Grid Command",
+    preview: (
+        <nav className="navbar-1957">
+            <div className="navbar-1957__corner"></div>
+            <div className="navbar-1957__brand">
+                <i className="fa-solid fa-terminal"></i>
+                COMMAND
+            </div>
+            <div className="navbar-1957__links">
+                <a href="#">SERVERS</a>
+                <a href="#">LOGS</a>
+                <a href="#">DEPLOY</a>
+            </div>
+            <button>RUN</button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-corner"></div>
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-terminal"></i>
+        COMMAND
+    </div>
+    <div class="Navbar-links">
+        <a href="#">SERVERS</a>
+        <a href="#">LOGS</a>
+        <a href="#">DEPLOY</a>
+    </div>
+    <button>RUN</button>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 10px 15px;
+    overflow: hidden;
+    border: 1px solid #0ea5e9;
+    background: #030712;
+    color: #7dd3fc;
+    font-family: monospace;
+}
+.Navbar::before,
+.Navbar::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+}
+.Navbar::before {
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(14,165,233,.035) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(14,165,233,.035) 1px,transparent 1px);
+    background-size: 20px 20px;
+}
+.Navbar::after {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background: #38bdf8;
+    box-shadow: 0 0 12px #38bdf8;
+}
+.Navbar-corner,
+.Navbar-brand,
+.Navbar-links,
+.Navbar button {
+    position: relative;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 8px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #38bdf8;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+}
+.Navbar-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #7dd3fc;
+}
+.Navbar button {
+    padding: 6px 12px;
+    border: 1px solid #0ea5e9;
+    background: rgba(14,165,233,.08);
+    color: #7dd3fc;
+    font-family: monospace;
+    font-size: 7px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1958,
+    name: "Cyber Grid Blueprint",
+    preview: (
+        <nav className="navbar-1958">
+            <div className="navbar-1958__brand">
+                <i className="fa-solid fa-draw-polygon"></i>
+                BLUEPRINT
+            </div>
+            <div className="navbar-1958__links">
+                <a href="#">DESIGN</a>
+                <a href="#">LAYERS</a>
+                <a href="#">EXPORT</a>
+            </div>
+            <span>REV 4.2</span>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-draw-polygon"></i>
+        BLUEPRINT
+    </div>
+    <div class="Navbar-links">
+        <a href="#">DESIGN</a>
+        <a href="#">LAYERS</a>
+        <a href="#">EXPORT</a>
+    </div>
+    <span>REV 4.2</span>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 10px 15px;
+    border: 1px dashed #38bdf8;
+    background: #031923;
+    color: #7dd3fc;
+    font-family: monospace;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.Navbar-brand i {
+    color: #38bdf8;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+}
+.Navbar-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #7dd3fc;
+}
+.Navbar>span {
+    color: #38bdf8;
+    font-size: 6px;
+}`
+},
+{
+    id: 1959,
+    name: "Aurora Gradient Dream",
+    preview: (
+        <nav className="navbar-1959">
+            <div className="navbar-1959__aurora"></div>
+            <div className="navbar-1959__brand">
+                <i className="fa-solid fa-wand-magic-sparkles"></i>
+                DREAM
+            </div>
+            <div className="navbar-1959__links">
+                <a href="#">Vision</a>
+                <a href="#">Create</a>
+                <a href="#">Discover</a>
+            </div>
+            <button>START</button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-aurora"></div>
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+        DREAM
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Vision</a>
+        <a href="#">Create</a>
+        <a href="#">Discover</a>
+    </div>
+    <button>START</button>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 14px;
+    background:
+        linear-gradient(#08080a,#08080a) padding-box,
+        linear-gradient(90deg,#22d3ee,#6366f1,#ec4899,#f97316) border-box;
+    color: #fff;
+}
+.Navbar-aurora {
+    position: absolute;
+    left: 20px;
+    top: -65px;
+    width: 220px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899,#f97316);
+    filter: blur(40px);
+    opacity: .22;
+    animation: aurora-1959 5s ease-in-out infinite alternate;
+}
+.Navbar-brand,
+.Navbar-links,
+.Navbar button {
+    position: relative;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.Navbar-brand i {
+    color: #f0abfc;
+}
+.Navbar-links {
+    display: flex;
+    gap: 21px;
+}
+.Navbar-links a {
+    color: #a1a1aa;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar button {
+    padding: 6px 11px;
+    border: none;
+    border-radius: 7px;
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899);
+    color: #fff;
+    font-size: 7px;
+    font-weight: 800;
+    cursor: pointer;
+}
+@keyframes aurora-1959 {
+    to {
+        transform: translateX(100px);
+    }
+}`
+},
+{
+    id: 1960,
+    name: "Aurora Gradient Prism",
+    preview: (
+        <nav className="navbar-1960">
+            <div className="navbar-1960__brand">
+                <i className="fa-solid fa-gem"></i>
+                PRISM
+            </div>
+            <div className="navbar-1960__links">
+                <a href="#">Colors</a>
+                <a href="#">Studio</a>
+                <a href="#">Motion</a>
+            </div>
+            <div className="navbar-1960__orb"></div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-gem"></i>
+        PRISM
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Colors</a>
+        <a href="#">Studio</a>
+        <a href="#">Motion</a>
+    </div>
+    <div class="Navbar-orb"></div>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 14px;
+    background:
+        linear-gradient(#0b0714,#0b0714) padding-box,
+        linear-gradient(90deg,#06b6d4,#6366f1,#ec4899,#f59e0b) border-box;
+    color: #fff;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 9px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #67e8f9;
+}
+.Navbar-links {
+    display: flex;
+    gap: 21px;
+    margin-left: auto;
+}
+.Navbar-links a {
+    color: #a1a1aa;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar-orb {
+    width: 32px;
+    height: 32px;
+    margin-left: 13px;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#22d3ee,#6366f1,#ec4899,#f97316);
+    box-shadow: 0 0 20px rgba(139,92,246,.4);
+    animation: orb-1960 3s ease-in-out infinite alternate;
+}
+@keyframes orb-1960 {
+    to {
+        transform: scale(1.18);
+        filter: hue-rotate(45deg);
+    }
+}`
+},
+{
+    id: 1961,
+    name: "Synthwave Neon Drive",
+    preview: (
+        <nav className="navbar-1961">
+            <div className="navbar-1961__sun"></div>
+            <div className="navbar-1961__brand">
+                <i className="fa-solid fa-car-side"></i>
+                NIGHT DRIVE
+            </div>
+            <div className="navbar-1961__links">
+                <a href="#">Drive</a>
+                <a href="#">Radio</a>
+                <a href="#">Garage</a>
+            </div>
+            <button>START</button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-sun"></div>
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-car-side"></i>
+        NIGHT DRIVE
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Drive</a>
+        <a href="#">Radio</a>
+        <a href="#">Garage</a>
+    </div>
+    <button>START</button>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 11px 15px;
+    overflow: hidden;
+    border: 1px solid #ec4899;
+    background: linear-gradient(180deg,#17052b,#09000f);
+    color: #f9a8d4;
+}
+.Navbar-sun {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    top: -15px;
+    left: 42%;
+    border-radius: 80px 80px 0 0;
+    background: linear-gradient(180deg,#facc15,#ec4899);
+    box-shadow: 0 0 25px rgba(236,72,153,.45);
+}
+.Navbar-brand,
+.Navbar-links,
+.Navbar button {
+    position: relative;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.Navbar-brand i {
+    color: #facc15;
+}
+.Navbar-links {
+    display: flex;
+    gap: 22px;
+}
+.Navbar-links a {
+    color: #a855f7;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #f9a8d4;
+    text-shadow: 0 0 8px #ec4899;
+}
+.Navbar button {
+    padding: 6px 11px;
+    border: 1px solid #ec4899;
+    border-radius: 7px;
+    background: rgba(236,72,153,.1);
+    color: #f9a8d4;
+    font-size: 7px;
+    font-weight: 900;
+    cursor: pointer;
+}`
+},
+{
+    id: 1962,
+    name: "Synthwave Horizon",
+    preview: (
+        <nav className="navbar-1962">
+            <div className="navbar-1962__brand">
+                <i className="fa-solid fa-sun"></i>
+                HORIZON
+            </div>
+            <div className="navbar-1962__links">
+                <a href="#">Waves</a>
+                <a href="#">Retro</a>
+                <a href="#">Future</a>
+            </div>
+            <div className="navbar-1962__bars">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-sun"></i>
+        HORIZON
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Waves</a>
+        <a href="#">Retro</a>
+        <a href="#">Future</a>
+    </div>
+    <div class="Navbar-bars">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 10px 15px;
+    border-top: 1px solid #f472b6;
+    border-bottom: 1px solid #6366f1;
+    background: #090012;
+    color: #f9a8d4;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.Navbar-brand i {
+    color: #facc15;
+    text-shadow: 0 0 9px #f97316;
+}
+.Navbar-links {
+    display: flex;
+    gap: 22px;
+}
+.Navbar-links a {
+    color: #8b5cf6;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #f9a8d4;
+}
+.Navbar-bars {
+    display: flex;
+    align-items: end;
+    gap: 2px;
+}
+.Navbar-bars span {
+    width: 4px;
+    background: #ec4899;
+    box-shadow: 0 0 6px rgba(236,72,153,.5);
+}
+.Navbar-bars span:nth-child(1) {
+    height: 6px;
+}
+.Navbar-bars span:nth-child(2) {
+    height: 11px;
+}
+.Navbar-bars span:nth-child(3) {
+    height: 15px;
+}
+.Navbar-bars span:nth-child(4) {
+    height: 9px;
+}`
+},
+{
+    id: 1963,
+    name: "Brutalist Monochrome",
+    preview: (
+        <nav className="navbar-1963">
+            <div className="navbar-1963__logo">VOID/01</div>
+            <div className="navbar-1963__links">
+                <a href="#">WORK</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT</a>
+            </div>
+            <button>
+                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                OPEN
+            </button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-logo">VOID/01</div>
+    <div class="Navbar-links">
+        <a href="#">WORK</a>
+        <a href="#">ABOUT</a>
+        <a href="#">CONTACT</a>
+    </div>
+    <button>
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        OPEN
+    </button>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 12px 14px;
+    border: 3px solid #000;
+    background: #fff;
+    color: #000;
+}
+.Navbar-logo {
+    padding: 5px 7px;
+    background: #000;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 900;
+}
+.Navbar-links {
+    display: flex;
+    gap: 1px;
+}
+.Navbar-links a {
+    padding: 7px 10px;
+    border: 1px solid #000;
+    color: #000;
+    text-decoration: none;
+    font-size: 7px;
+    font-weight: 900;
+}
+.Navbar-links a:hover {
+    background: #000;
+    color: #fff;
+}
+.Navbar button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 10px;
+    border: 2px solid #000;
+    background: #fff;
+    color: #000;
+    font-size: 7px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.Navbar button:hover {
+    background: #000;
+    color: #fff;
+}`
+},
+{
+    id: 1964,
+    name: "Brutalist Orange Label",
+    preview: (
+        <nav className="navbar-1964">
+            <div className="navbar-1964__brand">ANDRE<span>/UI</span></div>
+            <div className="navbar-1964__links">
+                <a href="#">ELEMENTS</a>
+                <a href="#">DOCS</a>
+                <a href="#">GITHUB</a>
+            </div>
+            <button>EXPLORE</button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">ANDRE<span>/UI</span></div>
+    <div class="Navbar-links">
+        <a href="#">ELEMENTS</a>
+        <a href="#">DOCS</a>
+        <a href="#">GITHUB</a>
+    </div>
+    <button>EXPLORE</button>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 9px 12px;
+    border: 3px solid #111;
+    background: #f4f4f5;
+    color: #111;
+}
+.Navbar-brand {
+    padding: 6px 8px;
+    border: 2px solid #111;
+    background: #f97316;
+    color: #111;
+    font-size: 8px;
+    font-weight: 900;
+}
+.Navbar-brand span {
+    color: #fff;
+}
+.Navbar-links {
+    display: flex;
+}
+.Navbar-links a {
+    padding: 7px 10px;
+    border-left: 1px solid #111;
+    color: #111;
+    text-decoration: none;
+    font-size: 6px;
+    font-weight: 900;
+}
+.Navbar-links a:hover {
+    background: #111;
+    color: #fff;
+}
+.Navbar button {
+    padding: 7px 10px;
+    border: 2px solid #111;
+    background: #111;
+    color: #fff;
+    font-size: 7px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.Navbar button:hover {
+    background: #f97316;
+    color: #111;
+}`
+},
 
 
 ];
