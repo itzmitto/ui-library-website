@@ -50686,7 +50686,1330 @@ export const tooltips = [
     transform: translateX(-50%) scale(1);
 }`
     },
+
+    {
+    id: 2001,
+    name: "Dark Info Tooltip",
+    preview: (
+        <div className="tooltip-2001">
+            <button>
+                <i className="fa-solid fa-circle-info"></i>
+            </button>
+            <div className="tooltip-2001__content">
+                <strong>Helpful information</strong>
+                <span>Everything you need to know.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-circle-info"></i>
+    </button>
+    <div class="Tooltip-content">
+        <strong>Helpful information</strong>
+        <span>Everything you need to know.</span>
+    </div>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #3f3f46;
+    border-radius: 50%;
+    background: #18181b;
+    color: #a1a1aa;
+    cursor: pointer;
+}
+.Tooltip-content {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 9px);
+    transform: translateX(-50%) translateY(5px);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 160px;
+    padding: 10px 12px;
+    border: 1px solid #3f3f46;
+    border-radius: 8px;
+    background: #09090b;
+    color: #fff;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip-content strong {
+    font-size: 11px;
+}
+.Tooltip-content span {
+    color: #a1a1aa;
+    font-size: 9px;
+}
+.Tooltip:hover .Tooltip-content {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}`
+},
+{
+    id: 2002,
+    name: "Neon Cyan Tooltip",
+    preview: (
+        <div className="tooltip-2002">
+            <button>
+                <i className="fa-solid fa-bolt"></i>
+            </button>
+            <span>Power mode enabled</span>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-bolt"></i>
+    </button>
+    <span>Power mode enabled</span>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #22d3ee;
+    border-radius: 9px;
+    background: #03131a;
+    color: #67e8f9;
+    box-shadow: 0 0 12px rgba(34,211,238,.2);
+    cursor: pointer;
+}
+.Tooltip span {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 10px);
+    transform: translate(-50%,6px);
+    padding: 7px 10px;
+    border: 1px solid #22d3ee;
+    border-radius: 7px;
+    background: #020617;
+    color: #67e8f9;
+    white-space: nowrap;
+    font-family: monospace;
+    font-size: 8px;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 16px rgba(34,211,238,.2);
+    transition: .2s ease;
+}
+.Tooltip:hover span {
+    opacity: 1;
+    transform: translate(-50%,0);
+}`
+},
+{
+    id: 2003,
+    name: "Glass Tooltip",
+    preview: (
+        <div className="tooltip-2003">
+            <button>
+                <i className="fa-solid fa-wand-magic-sparkles"></i>
+            </button>
+            <div>
+                <strong>Magic</strong>
+                <span>Something special is here.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+    </button>
+    <div>
+        <strong>Magic</strong>
+        <span>Something special is here.</span>
+    </div>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 34px;
+    height: 34px;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 10px;
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(12px);
+    color: #f0abfc;
+    cursor: pointer;
+}
+.Tooltip > div {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 10px);
+    transform: translate(-50%,6px);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 145px;
+    padding: 9px 11px;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 10px;
+    background: rgba(20,20,30,.72);
+    backdrop-filter: blur(16px);
+    color: #fff;
+    opacity: 0;
+    pointer-events: none;
+    transition: .22s ease;
+}
+.Tooltip strong {
+    font-size: 10px;
+}
+.Tooltip span {
+    color: #cbd5e1;
+    font-size: 8px;
+}
+.Tooltip:hover > div {
+    opacity: 1;
+    transform: translate(-50%,0);
+}`
+},
+{
+    id: 2004,
+    name: "Success Tooltip",
+    preview: (
+        <div className="tooltip-2004">
+            <button>
+                <i className="fa-solid fa-check"></i>
+            </button>
+            <span>Changes saved successfully</span>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-check"></i>
+    </button>
+    <span>Changes saved successfully</span>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #22c55e;
+    border-radius: 50%;
+    background: #052e16;
+    color: #4ade80;
+    cursor: pointer;
+}
+.Tooltip span {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 9px);
+    transform: translate(-50%,5px);
+    padding: 7px 10px;
+    border-radius: 7px;
+    background: #052e16;
+    color: #86efac;
+    white-space: nowrap;
+    font-size: 8px;
+    box-shadow: 0 0 15px rgba(34,197,94,.18);
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip:hover span {
+    opacity: 1;
+    transform: translate(-50%,0);
+}`
+},
+{
+    id: 2005,
+    name: "Warning Tooltip",
+    preview: (
+        <div className="tooltip-2005">
+            <button>
+                <i className="fa-solid fa-triangle-exclamation"></i>
+            </button>
+            <span>This action cannot be undone</span>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-triangle-exclamation"></i>
+    </button>
+    <span>This action cannot be undone</span>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #f59e0b;
+    border-radius: 8px;
+    background: #1c1003;
+    color: #fbbf24;
+    cursor: pointer;
+}
+.Tooltip span {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 9px);
+    transform: translate(-50%,6px);
+    padding: 7px 10px;
+    border: 1px solid #92400e;
+    border-radius: 7px;
+    background: #1c1003;
+    color: #fde68a;
+    white-space: nowrap;
+    font-size: 8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip:hover span {
+    opacity: 1;
+    transform: translate(-50%,0);
+}`
+},
+{
+    id: 2006,
+    name: "Purple Gradient Tooltip",
+    preview: (
+        <div className="tooltip-2006">
+            <button>
+                <i className="fa-solid fa-star"></i>
+            </button>
+            <div>Premium feature</div>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-star"></i>
+    </button>
+    <div>Premium feature</div>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#7c3aed,#ec4899);
+    color: #fff;
+    cursor: pointer;
+}
+.Tooltip > div {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 10px);
+    transform: translate(-50%,8px) scale(.96);
+    padding: 7px 11px;
+    border-radius: 8px;
+    background: linear-gradient(90deg,#7c3aed,#ec4899);
+    color: #fff;
+    white-space: nowrap;
+    font-size: 8px;
+    font-weight: 700;
+    box-shadow: 0 8px 20px rgba(124,58,237,.25);
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip:hover > div {
+    opacity: 1;
+    transform: translate(-50%,0) scale(1);
+}`
+},
+{
+    id: 2007,
+    name: "Bottom Tooltip",
+    preview: (
+        <div className="tooltip-2007">
+            <button>
+                <i className="fa-solid fa-comment"></i>
+            </button>
+            <span>Leave a comment</span>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-comment"></i>
+    </button>
+    <span>Leave a comment</span>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #d4d4d8;
+    border-radius: 8px;
+    background: #fff;
+    color: #52525b;
+    cursor: pointer;
+}
+.Tooltip span {
+    position: absolute;
+    top: calc(100% + 9px);
+    left: 50%;
+    transform: translate(-50%,-5px);
+    padding: 7px 10px;
+    border-radius: 7px;
+    background: #18181b;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip:hover span {
+    opacity: 1;
+    transform: translate(-50%,0);
+}`
+},
+{
+    id: 2008,
+    name: "Left Side Tooltip",
+    preview: (
+        <div className="tooltip-2008">
+            <button>
+                <i className="fa-solid fa-question"></i>
+            </button>
+            <span>Need help?</span>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-question"></i>
+    </button>
+    <span>Need help?</span>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #d4d4d8;
+    border-radius: 50%;
+    background: #f8fafc;
+    color: #475569;
+    cursor: pointer;
+}
+.Tooltip span {
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 9px);
+    transform: translateY(-50%) translateX(5px);
+    padding: 7px 10px;
+    border-radius: 7px;
+    background: #0f172a;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip:hover span {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0);
+}`
+},
+{
+    id: 2009,
+    name: "Right Side Tooltip",
+    preview: (
+        <div className="tooltip-2009">
+            <button>
+                <i className="fa-solid fa-circle-info"></i>
+            </button>
+            <span>More details available</span>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-circle-info"></i>
+    </button>
+    <span>More details available</span>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background: #f8fafc;
+    color: #2563eb;
+    cursor: pointer;
+}
+.Tooltip span {
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 9px);
+    transform: translateY(-50%) translateX(-5px);
+    padding: 7px 10px;
+    border-radius: 7px;
+    background: #1e3a8a;
+    color: #dbeafe;
+    white-space: nowrap;
+    font-size: 8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip:hover span {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0);
+}`
+},
+{
+    id: 2010,
+    name: "Neon Rainbow Tooltip",
+    preview: (
+        <div className="tooltip-2010">
+            <button>
+                <i className="fa-solid fa-rainbow"></i>
+            </button>
+            <div>Legendary status</div>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-rainbow"></i>
+    </button>
+    <div>Legendary status</div>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 36px;
+    height: 36px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background: linear-gradient(#09090b,#09090b) padding-box,linear-gradient(90deg,#22d3ee,#6366f1,#ec4899,#f97316) border-box;
+    color: #67e8f9;
+    cursor: pointer;
+}
+.Tooltip > div {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 10px);
+    transform: translate(-50%,6px);
+    padding: 7px 11px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: linear-gradient(#09090b,#09090b) padding-box,linear-gradient(90deg,#22d3ee,#6366f1,#ec4899,#f97316) border-box;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 8px;
+    font-weight: 800;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+    box-shadow: 0 0 18px rgba(139,92,246,.2);
+}
+.Tooltip:hover > div {
+    opacity: 1;
+    transform: translate(-50%,0);
+}`
+},
+{
+    id: 2011,
+    name: "Cyber Tooltip",
+    preview: (
+        <div className="tooltip-2011">
+            <button>
+                <i className="fa-solid fa-microchip"></i>
+            </button>
+            <div>
+                <span>SYSTEM</span>
+                <strong>CONNECTED</strong>
+            </div>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-microchip"></i>
+    </button>
+    <div>
+        <span>SYSTEM</span>
+        <strong>CONNECTED</strong>
+    </div>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #22d3ee;
+    background: #020617;
+    color: #67e8f9;
+    cursor: pointer;
+}
+.Tooltip > div {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 10px);
+    transform: translate(-50%,7px);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 9px 11px;
+    border: 1px solid #22d3ee;
+    background: #020617;
+    color: #67e8f9;
+    font-family: monospace;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip > div::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border: 1px solid rgba(34,211,238,.15);
+}
+.Tooltip span,
+.Tooltip strong {
+    position: relative;
+}
+.Tooltip span {
+    color: #64748b;
+    font-size: 6px;
+}
+.Tooltip strong {
+    font-size: 8px;
+}
+.Tooltip:hover > div {
+    opacity: 1;
+    transform: translate(-50%,0);
+}`
+},
+{
+    id: 2012,
+    name: "User Profile Tooltip",
+    preview: (
+        <div className="tooltip-2012">
+            <button className="tooltip-2012__avatar">A</button>
+            <div>
+                <strong>André</strong>
+                <span>Software Developer</span>
+                <small>Online now</small>
+            </div>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button class="Tooltip-avatar">A</button>
+    <div>
+        <strong>André</strong>
+        <span>Software Developer</span>
+        <small>Online now</small>
+    </div>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip-avatar {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#6366f1,#ec4899);
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+}
+.Tooltip > div {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 10px);
+    transform: translate(-50%,6px);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 155px;
+    padding: 10px 12px;
+    border: 1px solid #e4e4e7;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(15,23,42,.12);
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip strong {
+    color: #111827;
+    font-size: 11px;
+}
+.Tooltip span {
+    color: #6b7280;
+    font-size: 9px;
+}
+.Tooltip small {
+    color: #16a34a;
+    font-size: 8px;
+}
+.Tooltip:hover > div {
+    opacity: 1;
+    transform: translate(-50%,0);
+}`
+},
+{
+    id: 2013,
+    name: "Keyboard Shortcut Tooltip",
+    preview: (
+        <div className="tooltip-2013">
+            <button>
+                <i className="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <div>
+                <span>Search</span>
+                <kbd>Ctrl</kbd>
+                <b>+</b>
+                <kbd>K</kbd>
+            </div>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+    <div>
+        <span>Search</span>
+        <kbd>Ctrl</kbd>
+        <b>+</b>
+        <kbd>K</kbd>
+    </div>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #d4d4d8;
+    border-radius: 8px;
+    background: #fff;
+    color: #52525b;
+    cursor: pointer;
+}
+.Tooltip > div {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 10px);
+    transform: translate(-50%,6px);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 9px;
+    border: 1px solid #27272a;
+    border-radius: 8px;
+    background: #18181b;
+    color: #fff;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip span {
+    margin-right: 3px;
+    font-size: 8px;
+}
+.Tooltip kbd {
+    padding: 2px 5px;
+    border: 1px solid #52525b;
+    border-radius: 4px;
+    background: #27272a;
+    font-size: 7px;
+}
+.Tooltip b {
+    color: #71717a;
+    font-size: 7px;
+}
+.Tooltip:hover > div {
+    opacity: 1;
+    transform: translate(-50%,0);
+}`
+},
+{
+    id: 2014,
+    name: "Loading Tooltip",
+    preview: (
+        <div className="tooltip-2014">
+            <button>
+                <i className="fa-solid fa-spinner"></i>
+            </button>
+            <span>Processing request...</span>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-spinner"></i>
+    </button>
+    <span>Processing request...</span>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #6366f1;
+    border-radius: 8px;
+    background: #eef2ff;
+    color: #6366f1;
+    cursor: pointer;
+}
+.Tooltip button i {
+    animation: spin-2014 1s linear infinite;
+}
+.Tooltip span {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 10px);
+    transform: translate(-50%,6px);
+    padding: 7px 10px;
+    border-radius: 7px;
+    background: #312e81;
+    color: #e0e7ff;
+    white-space: nowrap;
+    font-size: 8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip:hover span {
+    opacity: 1;
+    transform: translate(-50%,0);
+}
+@keyframes spin-2014 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 2015,
+    name: "Command Tooltip",
+    preview: (
+        <div className="tooltip-2015">
+            <button>
+                <i className="fa-solid fa-terminal"></i>
+            </button>
+            <div>
+                <span>COMMAND</span>
+                <strong>Deploy project</strong>
+            </div>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-terminal"></i>
+    </button>
+    <div>
+        <span>COMMAND</span>
+        <strong>Deploy project</strong>
+    </div>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #27272a;
+    border-radius: 7px;
+    background: #09090b;
+    color: #4ade80;
+    cursor: pointer;
+}
+.Tooltip > div {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 10px);
+    transform: translate(-50%,6px);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 10px;
+    border: 1px solid #27272a;
+    background: #09090b;
+    color: #fff;
+    font-family: monospace;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip span {
+    color: #4ade80;
+    font-size: 6px;
+}
+.Tooltip strong {
+    font-size: 8px;
+}
+.Tooltip:hover > div {
+    opacity: 1;
+    transform: translate(-50%,0);
+}`
+},
+{
+    id: 2016,
+    name: "Premium Gold Tooltip",
+    preview: (
+        <div className="tooltip-2016">
+            <button>
+                <i className="fa-solid fa-crown"></i>
+            </button>
+            <div>Premium feature unlocked</div>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-crown"></i>
+    </button>
+    <div>Premium feature unlocked</div>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #a16207;
+    border-radius: 50%;
+    background: #0b0905;
+    color: #facc15;
+    box-shadow: 0 0 12px rgba(250,204,21,.12);
+    cursor: pointer;
+}
+.Tooltip > div {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 10px);
+    transform: translate(-50%,6px);
+    padding: 7px 11px;
+    border: 1px solid #a16207;
+    background: #0b0905;
+    color: #fde68a;
+    white-space: nowrap;
+    font-family: Georgia,serif;
+    font-size: 8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip:hover > div {
+    opacity: 1;
+    transform: translate(-50%,0);
+}`
+},
+{
+    id: 2017,
+    name: "Action Tooltip",
+    preview: (
+        <div className="tooltip-2017">
+            <button>
+                <i className="fa-solid fa-trash"></i>
+            </button>
+            <div>
+                <strong>Delete</strong>
+                <span>Remove this item permanently</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-trash"></i>
+    </button>
+    <div>
+        <strong>Delete</strong>
+        <span>Remove this item permanently</span>
+    </div>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    background: #fff1f2;
+    color: #dc2626;
+    cursor: pointer;
+}
+.Tooltip > div {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 9px);
+    transform: translate(-50%,6px);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 155px;
+    padding: 9px 11px;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 10px 25px rgba(127,29,29,.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip strong {
+    color: #991b1b;
+    font-size: 10px;
+}
+.Tooltip span {
+    color: #78716c;
+    font-size: 8px;
+}
+.Tooltip:hover > div {
+    opacity: 1;
+    transform: translate(-50%,0);
+}`
+},
+{
+    id: 2018,
+    name: "Gradient Status Tooltip",
+    preview: (
+        <div className="tooltip-2018">
+            <button>
+                <i className="fa-solid fa-signal"></i>
+            </button>
+            <span>Server latency: 24ms</span>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-signal"></i>
+    </button>
+    <span>Server latency: 24ms</span>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#06b6d4,#6366f1);
+    color: #fff;
+    cursor: pointer;
+}
+.Tooltip span {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 10px);
+    transform: translate(-50%,6px);
+    padding: 7px 11px;
+    border-radius: 8px;
+    background: linear-gradient(135deg,#0f172a,#312e81);
+    color: #e0e7ff;
+    white-space: nowrap;
+    font-size: 8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip:hover span {
+    opacity: 1;
+    transform: translate(-50%,0);
+}`
+},
+{
+    id: 2019,
+    name: "Minimal Monochrome Tooltip",
+    preview: (
+        <div className="tooltip-2019">
+            <button>
+                <i className="fa-solid fa-ellipsis"></i>
+            </button>
+            <span>More options</span>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-ellipsis"></i>
+    </button>
+    <span>More options</span>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 34px;
+    height: 34px;
+    border: 2px solid #111;
+    background: #fff;
+    color: #111;
+    cursor: pointer;
+}
+.Tooltip span {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 8px);
+    transform: translate(-50%,5px);
+    padding: 6px 9px;
+    border: 2px solid #111;
+    background: #111;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 8px;
+    font-weight: 800;
+    opacity: 0;
+    pointer-events: none;
+    transition: .15s ease;
+}
+.Tooltip:hover span {
+    opacity: 1;
+    transform: translate(-50%,0);
+}`
+},
+{
+    id: 2020,
+    name: "Organic Soft Tooltip",
+    preview: (
+        <div className="tooltip-2020">
+            <button>
+                <i className="fa-solid fa-leaf"></i>
+            </button>
+            <div>
+                <strong>Calm space</strong>
+                <span>A softer experience starts here.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Tooltip">
+    <button>
+        <i class="fa-solid fa-leaf"></i>
+    </button>
+    <div>
+        <strong>Calm space</strong>
+        <span>A softer experience starts here.</span>
+    </div>
+</div>`,
+    css: `.Tooltip {
+    position: relative;
+    display: inline-flex;
+}
+.Tooltip button {
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 14px;
+    background: #ecfdf5;
+    color: #16a34a;
+    box-shadow: 5px 5px 12px rgba(22,163,74,.08),-5px -5px 12px #fff;
+    cursor: pointer;
+}
+.Tooltip > div {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 10px);
+    transform: translate(-50%,6px);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 155px;
+    padding: 10px 12px;
+    border-radius: 14px;
+    background: #ecfdf5;
+    color: #14532d;
+    box-shadow: 7px 7px 16px rgba(22,163,74,.08),-7px -7px 16px #fff;
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Tooltip strong {
+    font-size: 10px;
+}
+.Tooltip span {
+    color: #4d7c5d;
+    font-size: 8px;
+}
+.Tooltip:hover > div {
+    opacity: 1;
+    transform: translate(-50%,0);
+}`
+},
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
