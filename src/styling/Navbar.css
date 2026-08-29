@@ -3558,4 +3558,40 @@
   font-size: 8px;
   font-weight: 800;
 }
- 
+ .navbar-1924 {
+    width: 100%;
+    min-width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 16px;
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 12px;
+    background: rgba(15,23,42,.78);
+    backdrop-filter: blur(14px);
+    color: #fff;
+}
+.navbar-1924__logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 11px;
+    font-weight: 900;
+}
+.navbar-1924__logo i {
+    color: #67e8f9;
+}
+.navbar-1924__links {
+    display: flex;
+    gap: 18px;
+}
+.navbar-1924__links a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 8px;
+}
+.navbar-1924__links a:hover {
+    color: #fff;
+}
+.navbar-1924__button {
+    padding: 7px 11px;
