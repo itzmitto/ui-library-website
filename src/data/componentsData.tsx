@@ -56898,6 +56898,1038 @@ export const navbar = [
             </button>
         </nav>
     ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-logo">
+        ANDRE<span>.</span>
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Projects</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    <button>
+        Let's talk
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </button>
+</nav>`,
+    css: `.Navbar {
+    width: 100%;
+    min-width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: #f7f7f5;
+    color: #18181b;
+}
+.Navbar-logo {
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+.Navbar-logo span {
+    color: #f97316;
+}
+.Navbar-links {
+    display: flex;
+    gap: 21px;
+}
+.Navbar-links a {
+    color: #52525b;
+    text-decoration: none;
+    font-size: 8px;
+}
+.Navbar-links a:hover {
+    color: #18181b;
+}
+.Navbar button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 11px;
+    border: none;
+    border-radius: 6px;
+    background: #18181b;
+    color: #fff;
+    font-size: 8px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1934,
+    name: "Neon Pink Navbar",
+    preview: (
+        <nav className="navbar-1934">
+            <div className="navbar-1934__brand">
+                <i className="fa-solid fa-heart"></i>
+                VISION
+            </div>
+            <div className="navbar-1934__links">
+                <a href="#">Discover</a>
+                <a href="#">Explore</a>
+                <a href="#">Community</a>
+            </div>
+            <button>
+                Join
+            </button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-heart"></i>
+        VISION
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Discover</a>
+        <a href="#">Explore</a>
+        <a href="#">Community</a>
+    </div>
+    <button>Join</button>
+</nav>`,
+    css: `.Navbar {
+    width: 100%;
+    min-width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 15px;
+    border: 1px solid #db2777;
+    border-radius: 12px;
+    background: #10050d;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(236,72,153,.13);
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #f9a8d4;
+    font-size: 9px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #ec4899;
+    text-shadow: 0 0 9px #ec4899;
+}
+.Navbar-links {
+    display: flex;
+    gap: 18px;
+}
+.Navbar-links a {
+    color: #a1a1aa;
+    text-decoration: none;
+    font-size: 8px;
+}
+.Navbar-links a:hover {
+    color: #f9a8d4;
+}
+.Navbar button {
+    padding: 7px 12px;
+    border: 1px solid #ec4899;
+    border-radius: 7px;
+    background: rgba(236,72,153,.08);
+    color: #f9a8d4;
+    font-size: 8px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1935,
+    name: "Emerald SaaS Navbar",
+    preview: (
+        <nav className="navbar-1935">
+            <div className="navbar-1935__logo">
+                <i className="fa-solid fa-leaf"></i>
+                Greenly
+            </div>
+            <div className="navbar-1935__links">
+                <a href="#">Features</a>
+                <a href="#">Resources</a>
+                <a href="#">Customers</a>
+            </div>
+            <div className="navbar-1935__actions">
+                <a href="#">Log in</a>
+                <button>Start free</button>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-logo">
+        <i class="fa-solid fa-leaf"></i>
+        Greenly
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Features</a>
+        <a href="#">Resources</a>
+        <a href="#">Customers</a>
+    </div>
+    <div class="Navbar-actions">
+        <a href="#">Log in</a>
+        <button>Start free</button>
+    </div>
+</nav>`,
+    css: `.Navbar {
+    width: 100%;
+    min-width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border: 1px solid #d1fae5;
+    border-radius: 11px;
+    background: #f0fdf4;
+    color: #14532d;
+}
+.Navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 10px;
+    font-weight: 900;
+}
+.Navbar-logo i {
+    color: #16a34a;
+}
+.Navbar-links {
+    display: flex;
+    gap: 19px;
+}
+.Navbar-links a,
+.Navbar-actions a {
+    color: #4d7c5d;
+    text-decoration: none;
+    font-size: 8px;
+}
+.Navbar-links a:hover,
+.Navbar-actions a:hover {
+    color: #14532d;
+}
+.Navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.Navbar-actions button {
+    padding: 7px 11px;
+    border: none;
+    border-radius: 7px;
+    background: #16a34a;
+    color: #fff;
+    font-size: 8px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1936,
+    name: "Floating Glass Navbar",
+    preview: (
+        <nav className="navbar-1936">
+            <div className="navbar-1936__logo">
+                <i className="fa-solid fa-star"></i>
+                Lumen
+            </div>
+            <div className="navbar-1936__links">
+                <a href="#">Home</a>
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+            </div>
+            <button>
+                <i className="fa-solid fa-user"></i>
+            </button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-logo">
+        <i class="fa-solid fa-star"></i>
+        Lumen
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+    </div>
+    <button>
+        <i class="fa-solid fa-user"></i>
+    </button>
+</nav>`,
+    css: `.Navbar {
+    width: 100%;
+    min-width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 999px;
+    background: rgba(255,255,255,.12);
+    backdrop-filter: blur(18px);
+    color: #fff;
+    box-shadow: 0 10px 30px rgba(0,0,0,.18);
+}
+.Navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding-left: 7px;
+    font-size: 10px;
+    font-weight: 900;
+}
+.Navbar-logo i {
+    color: #fde68a;
+}
+.Navbar-links {
+    display: flex;
+    gap: 18px;
+}
+.Navbar-links a {
+    color: rgba(255,255,255,.68);
+    text-decoration: none;
+    font-size: 8px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar button {
+    width: 28px;
+    height: 28px;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    background: rgba(255,255,255,.1);
+    color: #fff;
+    cursor: pointer;
+}`
+},
+{
+    id: 1937,
+    name: "Developer Docs Navbar",
+    preview: (
+        <nav className="navbar-1937">
+            <div className="navbar-1937__brand">
+                <i className="fa-solid fa-code"></i>
+                DevKit
+            </div>
+            <div className="navbar-1937__search">
+                <i className="fa-solid fa-magnifying-glass"></i>
+                Search documentation...
+                <span>⌘ K</span>
+            </div>
+            <div className="navbar-1937__links">
+                <a href="#">Docs</a>
+                <a href="#">GitHub</a>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="fa-solid fa-code"></i>
+        DevKit
+    </div>
+    <div class="Navbar-search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        Search documentation...
+        <span>⌘ K</span>
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Docs</a>
+        <a href="#">GitHub</a>
+    </div>
+</nav>`,
+    css: `.Navbar {
+    width: 100%;
+    min-width: 520px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 9px 14px;
+    border-bottom: 1px solid #e4e4e7;
+    background: #fff;
+    color: #18181b;
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 10px;
+    font-weight: 900;
+}
+.Navbar-brand i {
+    color: #6366f1;
+}
+.Navbar-search {
+    flex: 1;
+    max-width: 235px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 7px 9px;
+    border: 1px solid #e4e4e7;
+    border-radius: 7px;
+    color: #a1a1aa;
+    font-size: 7px;
+    background: #fafafa;
+}
+.Navbar-search i {
+    color: #71717a;
+}
+.Navbar-search span {
+    margin-left: auto;
+    padding: 2px 4px;
+    border: 1px solid #d4d4d8;
+    border-radius: 4px;
+    color: #71717a;
+    font-size: 6px;
+}
+.Navbar-links {
+    display: flex;
+    gap: 16px;
+    margin-left: auto;
+}
+.Navbar-links a {
+    color: #52525b;
+    text-decoration: none;
+    font-size: 8px;
+}
+.Navbar-links a:hover {
+    color: #6366f1;
+}`
+},
+{
+    id: 1938,
+    name: "Ecommerce Navbar",
+    preview: (
+        <nav className="navbar-1938">
+            <div className="navbar-1938__logo">
+                <i className="fa-solid fa-bag-shopping"></i>
+                SHOPORA
+            </div>
+            <div className="navbar-1938__links">
+                <a href="#">New</a>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Sale</a>
+            </div>
+            <div className="navbar-1938__actions">
+                <i className="fa-solid fa-magnifying-glass"></i>
+                <i className="fa-solid fa-user"></i>
+                <span>
+                    <i className="fa-solid fa-bag-shopping"></i>
+                    2
+                </span>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-logo">
+        <i class="fa-solid fa-bag-shopping"></i>
+        SHOPORA
+    </div>
+    <div class="Navbar-links">
+        <a href="#">New</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Sale</a>
+    </div>
+    <div class="Navbar-actions">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-user"></i>
+        <span>
+            <i class="fa-solid fa-bag-shopping"></i>
+            2
+        </span>
+    </div>
+</nav>`,
+    css: `.Navbar {
+    width: 100%;
+    min-width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 15px;
+    border-bottom: 1px solid #e4e4e7;
+    background: #fff;
+    color: #18181b;
+}
+.Navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.Navbar-logo i {
+    color: #18181b;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+}
+.Navbar-links a {
+    color: #52525b;
+    text-decoration: none;
+    font-size: 8px;
+}
+.Navbar-links a:hover {
+    color: #18181b;
+}
+.Navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    color: #52525b;
+    font-size: 9px;
+}
+.Navbar-actions span {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.Navbar-actions span::after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: -5px;
+    right: -6px;
+    border-radius: 50%;
+    background: #ef4444;
+}
+.Navbar-actions span::before {
+    content: "2";
+    position: absolute;
+    top: -6px;
+    right: -4px;
+    z-index: 2;
+    color: #fff;
+    font-size: 5px;
+}`
+},
+{
+    id: 1939,
+    name: "Fire Gradient Navbar",
+    preview: (
+        <nav className="navbar-1939">
+            <div className="navbar-1939__logo">
+                <i className="fa-solid fa-fire"></i>
+                IGNITE
+            </div>
+            <div className="navbar-1939__links">
+                <a href="#">Home</a>
+                <a href="#">Arena</a>
+                <a href="#">Ranks</a>
+            </div>
+            <button>PLAY NOW</button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-logo">
+        <i class="fa-solid fa-fire"></i>
+        IGNITE
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Home</a>
+        <a href="#">Arena</a>
+        <a href="#">Ranks</a>
+    </div>
+    <button>PLAY NOW</button>
+</nav>`,
+    css: `.Navbar {
+    width: 100%;
+    min-width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: linear-gradient(90deg,#450a0a,#9a3412,#ea580c);
+    color: #fff;
+    box-shadow: 0 8px 22px rgba(234,88,12,.2);
+}
+.Navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.Navbar-logo i {
+    color: #fde68a;
+    text-shadow: 0 0 10px #facc15;
+}
+.Navbar-links {
+    display: flex;
+    gap: 19px;
+}
+.Navbar-links a {
+    color: #fed7aa;
+    text-decoration: none;
+    font-size: 8px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar button {
+    padding: 7px 11px;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 7px;
+    background: #fff;
+    color: #9a3412;
+    font-size: 7px;
+    font-weight: 900;
+    cursor: pointer;
+}`
+},
+{
+    id: 1940,
+    name: "Sidebar Hybrid Navbar",
+    preview: (
+        <nav className="navbar-1940">
+            <div className="navbar-1940__left">
+                <button>
+                    <i className="fa-solid fa-bars"></i>
+                </button>
+                <div>
+                    <strong>Studio</strong>
+                    <span>Workspace</span>
+                </div>
+            </div>
+            <div className="navbar-1940__center">
+                <a href="#">Projects</a>
+                <a href="#">Assets</a>
+                <a href="#">Team</a>
+            </div>
+            <div className="navbar-1940__right">
+                <i className="fa-solid fa-bell"></i>
+                <div className="navbar-1940__avatar">A</div>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-left">
+        <button>
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div>
+            <strong>Studio</strong>
+            <span>Workspace</span>
+        </div>
+    </div>
+    <div class="Navbar-center">
+        <a href="#">Projects</a>
+        <a href="#">Assets</a>
+        <a href="#">Team</a>
+    </div>
+    <div class="Navbar-right">
+        <i class="fa-solid fa-bell"></i>
+        <div class="Navbar-avatar">A</div>
+    </div>
+</nav>`,
+    css: `.Navbar {
+    width: 100%;
+    min-width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 13px;
+    border: 1px solid #27272a;
+    background: #18181b;
+    color: #fff;
+}
+.Navbar-left,
+.Navbar-right {
+    display: flex;
+    align-items: center;
+}
+.Navbar-left {
+    gap: 9px;
+}
+.Navbar-left button {
+    width: 27px;
+    height: 27px;
+    border: 1px solid #3f3f46;
+    border-radius: 6px;
+    background: #27272a;
+    color: #d4d4d8;
+    cursor: pointer;
+}
+.Navbar-left strong {
+    display: block;
+    font-size: 9px;
+}
+.Navbar-left span {
+    display: block;
+    margin-top: 2px;
+    color: #71717a;
+    font-size: 6px;
+}
+.Navbar-center {
+    display: flex;
+    gap: 20px;
+}
+.Navbar-center a {
+    color: #a1a1aa;
+    text-decoration: none;
+    font-size: 8px;
+}
+.Navbar-center a:hover {
+    color: #fff;
+}
+.Navbar-right {
+    gap: 12px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Navbar-avatar {
+    width: 26px;
+    height: 26px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#6366f1,#ec4899);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+}`
+},
+{
+    id: 1941,
+    name: "Holographic Navbar",
+    preview: (
+        <nav className="navbar-1941">
+            <div className="navbar-1941__shine"></div>
+            <div className="navbar-1941__logo">
+                <i className="fa-solid fa-star"></i>
+                HORIZON
+            </div>
+            <div className="navbar-1941__links">
+                <a href="#">Vision</a>
+                <a href="#">Explore</a>
+                <a href="#">Future</a>
+            </div>
+            <button>Enter</button>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-shine"></div>
+    <div class="Navbar-logo">
+        <i class="fa-solid fa-star"></i>
+        HORIZON
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Vision</a>
+        <a href="#">Explore</a>
+        <a href="#">Future</a>
+    </div>
+    <button>Enter</button>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    width: 100%;
+    min-width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 15px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 13px;
+    background:
+        linear-gradient(#09090b,#09090b) padding-box,
+        linear-gradient(90deg,#22d3ee,#6366f1,#ec4899) border-box;
+    color: #fff;
+}
+.Navbar-shine {
+    position: absolute;
+    width: 45px;
+    height: 180%;
+    left: -55px;
+    top: -40%;
+    transform: skewX(-20deg);
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.5),transparent);
+    animation: navbar-shine-1941 3s ease-in-out infinite;
+}
+.Navbar-logo,
+.Navbar-links,
+.Navbar button {
+    position: relative;
+}
+.Navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 9px;
+    font-weight: 900;
+}
+.Navbar-logo i {
+    color: #fde68a;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+}
+.Navbar-links a {
+    color: #a1a1aa;
+    text-decoration: none;
+    font-size: 8px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar button {
+    padding: 7px 12px;
+    border: none;
+    border-radius: 7px;
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899);
+    color: #fff;
+    font-size: 8px;
+    cursor: pointer;
+}
+@keyframes navbar-shine-1941 {
+    0% {
+        left: -55px;
+    }
+    55% {
+        left: 120%;
+    }
+    100% {
+        left: 120%;
+    }
+}`
+},
+{
+    id: 1942,
+    name: "Command Center Navbar",
+    preview: (
+        <nav className="navbar-1942">
+            <div className="navbar-1942__logo">
+                <i className="fa-solid fa-satellite-dish"></i>
+                COMMAND CENTER
+            </div>
+            <div className="navbar-1942__status">
+                <span></span>
+                SYSTEM OPERATIONAL
+            </div>
+            <div className="navbar-1942__links">
+                <a href="#">Monitor</a>
+                <a href="#">Deploy</a>
+                <a href="#">Security</a>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-logo">
+        <i class="fa-solid fa-satellite-dish"></i>
+        COMMAND CENTER
+    </div>
+    <div class="Navbar-status">
+        <span></span>
+        SYSTEM OPERATIONAL
+    </div>
+    <div class="Navbar-links">
+        <a href="#">Monitor</a>
+        <a href="#">Deploy</a>
+        <a href="#">Security</a>
+    </div>
+</nav>`,
+    css: `.Navbar {
+    width: 100%;
+    min-width: 520px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 15px;
+    border: 1px solid #27272a;
+    background: #050505;
+    color: #d4d4d8;
+    font-family: monospace;
+}
+.Navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .8px;
+}
+.Navbar-logo i {
+    color: #22d3ee;
+}
+.Navbar-status {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #4ade80;
+    font-size: 6px;
+}
+.Navbar-status span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 7px #22c55e;
+}
+.Navbar-links {
+    display: flex;
+    gap: 17px;
+    margin-left: auto;
+}
+.Navbar-links a {
+    color: #71717a;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Navbar-links a:hover {
+    color: #22d3ee;
+}`
+},
+{
+    id: 1943,
+    name: "Legendary Prism Navbar",
+    preview: (
+        <nav className="navbar-1943">
+            <div className="navbar-1943__rainbow"></div>
+            <div className="navbar-1943__inner">
+                <div className="navbar-1943__logo">
+                    <i className="fa-solid fa-gem"></i>
+                    ANDRE UI
+                </div>
+                <div className="navbar-1943__links">
+                    <a href="#">Elements</a>
+                    <a href="#">Components</a>
+                    <a href="#">Resources</a>
+                </div>
+                <div className="navbar-1943__actions">
+                    <button>
+                        <i className="fa-brands fa-github"></i>
+                    </button>
+                    <button className="navbar-1943__launch">
+                        Explore
+                        <i className="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-rainbow"></div>
+    <div class="Navbar-inner">
+        <div class="Navbar-logo">
+            <i class="fa-solid fa-gem"></i>
+            ANDRE UI
+        </div>
+        <div class="Navbar-links">
+            <a href="#">Elements</a>
+            <a href="#">Components</a>
+            <a href="#">Resources</a>
+        </div>
+        <div class="Navbar-actions">
+            <button>
+                <i class="fa-brands fa-github"></i>
+            </button>
+            <button class="Navbar-launch">
+                Explore
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    width: 100%;
+    min-width: 520px;
+    padding: 2px;
+    overflow: hidden;
+    border-radius: 14px;
+    background: linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899);
+    background-size: 300% 100%;
+    animation: navbar-rainbow-1943 6s linear infinite;
+}
+.Navbar-rainbow {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.3),transparent);
+    transform: translateX(-100%);
+    animation: navbar-glow-1943 3s ease-in-out infinite;
+}
+.Navbar-inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    border-radius: 12px;
+    background: #070709;
+    color: #fff;
+}
+.Navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.Navbar-logo i {
+    color: #67e8f9;
+    text-shadow: 0 0 10px #22d3ee;
+}
+.Navbar-links {
+    display: flex;
+    gap: 20px;
+}
+.Navbar-links a {
+    color: #a1a1aa;
+    text-decoration: none;
+    font-size: 8px;
+}
+.Navbar-links a:hover {
+    color: #fff;
+}
+.Navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.Navbar-actions button {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #27272a;
+    border-radius: 7px;
+    background: #111113;
+    color: #d4d4d8;
+    cursor: pointer;
+}
+.Navbar-actions .Navbar-launch {
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0 10px;
+    border: none;
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 800;
+}
+@keyframes navbar-rainbow-1943 {
+    to {
+        background-position: 300% 0;
+    }
+}
+@keyframes navbar-glow-1943 {
+    0% {
+        transform: translateX(-100%);
+    }
+    55% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}`
 },
 
 
