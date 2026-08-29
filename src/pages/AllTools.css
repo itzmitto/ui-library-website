@@ -6,7 +6,7 @@
 
 .all---layout {
     display: flex;
-    padding-top: 56px;
+    padding-top: 56px;   
     min-height: 100vh;
 }
 
