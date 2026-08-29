@@ -58213,9 +58213,1684 @@ export const logins = [
     font-size: 10px;
 }`
     },
+    {
+    id: 1834,
+    name: "Premium Dark Login",
+    preview: (
+        <div className="login-1834">
+            <div className="login-1834__icon">
+                <i className="fa-solid fa-lock"></i>
+            </div>
+            <h3>Welcome back</h3>
+            <p>Sign in to continue to your account.</p>
+            <input type="email" placeholder="Email address" />
+            <input type="password" placeholder="Password" />
+            <button>Sign in</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-icon">
+        <i class="fa-solid fa-lock"></i>
+    </div>
+    <h3>Welcome back</h3>
+    <p>Sign in to continue to your account.</p>
+    <input type="email" placeholder="Email address" />
+    <input type="password" placeholder="Password" />
+    <button>Sign in</button>
+</div>`,
+    css: `.Login {
+    width: 280px;
+    padding: 24px;
+    border: 1px solid #27272a;
+    border-radius: 16px;
+    background: #09090b;
+    color: #fff;
+}
+.Login-icon {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    background: #18181b;
+    color: #67e8f9;
+}
+.Login h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.Login p {
+    margin: 6px 0 17px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Login input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px 11px;
+    border: 1px solid #27272a;
+    border-radius: 8px;
+    outline: none;
+    background: #111113;
+    color: #fff;
+    font-size: 9px;
+}
+.Login input:focus {
+    border-color: #22d3ee;
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #fff;
+    color: #09090b;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+}`
+},
+{
+    id: 1835,
+    name: "Ice Glass Login",
+    preview: (
+        <div className="login-1835">
+            <div className="login-1835__orb"></div>
+            <h3>Sign in</h3>
+            <span>Access your workspace</span>
+            <div className="login-1835__field">
+                <i className="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email" />
+            </div>
+            <div className="login-1835__field">
+                <i className="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Password" />
+            </div>
+            <button>Continue</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-orb"></div>
+    <h3>Sign in</h3>
+    <span>Access your workspace</span>
+    <div class="Login-field">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" placeholder="Email" />
+    </div>
+    <div class="Login-field">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" placeholder="Password" />
+    </div>
+    <button>Continue</button>
+</div>`,
+    css: `.Login {
+    position: relative;
+    width: 285px;
+    padding: 24px;
+    overflow: hidden;
+    border: 1px solid rgba(186,230,253,.35);
+    border-radius: 17px;
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(16px);
+    color: #fff;
+}
+.Login-orb {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -45px;
+    right: -35px;
+    border-radius: 50%;
+    background: #22d3ee;
+    filter: blur(35px);
+    opacity: .2;
+}
+.Login h3,
+.Login > span,
+.Login-field,
+.Login button {
+    position: relative;
+    z-index: 1;
+}
+.Login h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.Login > span {
+    display: block;
+    margin: 5px 0 17px;
+    color: #bae6fd;
+    font-size: 9px;
+}
+.Login-field {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 9px;
+    padding: 0 10px;
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 8px;
+    background: rgba(255,255,255,.07);
+}
+.Login-field i {
+    color: #7dd3fc;
+    font-size: 8px;
+}
+.Login-field input {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 9px;
+}
+.Login button {
+    width: 100%;
+    margin-top: 4px;
+    padding: 10px;
+    border: 1px solid #7dd3fc;
+    border-radius: 8px;
+    background: rgba(125,211,252,.12);
+    color: #e0f2fe;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+}`
+},
+{
+    id: 1836,
+    name: "Neon Cyber Login",
+    preview: (
+        <div className="login-1836">
+            <div className="login-1836__header">
+                <i className="fa-solid fa-terminal"></i>
+                <span>SYSTEM ACCESS</span>
+            </div>
+            <input type="text" placeholder="USER_ID" />
+            <input type="password" placeholder="PASSWORD" />
+            <button>AUTHENTICATE</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-header">
+        <i class="fa-solid fa-terminal"></i>
+        <span>SYSTEM ACCESS</span>
+    </div>
+    <input type="text" placeholder="USER_ID" />
+    <input type="password" placeholder="PASSWORD" />
+    <button>AUTHENTICATE</button>
+</div>`,
+    css: `.Login {
+    width: 280px;
+    padding: 20px;
+    border: 1px solid #155e75;
+    background: #020617;
+    color: #22d3ee;
+    font-family: monospace;
+}
+.Login-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+.Login-header i {
+    color: #67e8f9;
+    text-shadow: 0 0 8px #22d3ee;
+}
+.Login input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid #164e63;
+    outline: none;
+    background: #030712;
+    color: #67e8f9;
+    font-family: monospace;
+    font-size: 8px;
+}
+.Login input:focus {
+    border-color: #22d3ee;
+    box-shadow: 0 0 10px rgba(34,211,238,.12);
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #22d3ee;
+    background: transparent;
+    color: #67e8f9;
+    font-family: monospace;
+    font-size: 8px;
+    font-weight: 900;
+    cursor: pointer;
+}`
+},
+{
+    id: 1837,
+    name: "Gradient Modern Login",
+    preview: (
+        <div className="login-1837">
+            <h3>Welcome</h3>
+            <p>Log in to your account</p>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button>Login</button>
+            <span>Forgot password?</span>
+        </div>
+    ),
+    html: `<div class="Login">
+    <h3>Welcome</h3>
+    <p>Log in to your account</p>
+    <input type="email" placeholder="Email" />
+    <input type="password" placeholder="Password" />
+    <button>Login</button>
+    <span>Forgot password?</span>
+</div>`,
+    css: `.Login {
+    width: 280px;
+    padding: 24px;
+    border-radius: 17px;
+    background: linear-gradient(145deg,#2563eb,#7c3aed);
+    color: #fff;
+    box-shadow: 0 15px 35px rgba(99,102,241,.25);
+}
+.Login h3 {
+    margin: 0;
+    font-size: 19px;
+}
+.Login p {
+    margin: 5px 0 17px;
+    color: rgba(255,255,255,.72);
+    font-size: 9px;
+}
+.Login input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 8px;
+    outline: none;
+    background: rgba(255,255,255,.11);
+    color: #fff;
+    font-size: 9px;
+}
+.Login input::placeholder {
+    color: rgba(255,255,255,.55);
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #fff;
+    color: #3730a3;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.Login > span {
+    display: block;
+    margin-top: 12px;
+    text-align: center;
+    color: rgba(255,255,255,.75);
+    font-size: 8px;
+}`
+},
+{
+    id: 1838,
+    name: "Split Screen Login",
+    preview: (
+        <div className="login-1838">
+            <div className="login-1838__visual">
+                <i className="fa-solid fa-cube"></i>
+                <strong>ANDRE UI</strong>
+            </div>
+            <div className="login-1838__form">
+                <h3>Welcome back</h3>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Sign in</button>
+            </div>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-visual">
+        <i class="fa-solid fa-cube"></i>
+        <strong>ANDRE UI</strong>
+    </div>
+    <div class="Login-form">
+        <h3>Welcome back</h3>
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <button>Sign in</button>
+    </div>
+</div>`,
+    css: `.Login {
+    display: flex;
+    width: 420px;
+    min-height: 235px;
+    overflow: hidden;
+    border: 1px solid #27272a;
+    border-radius: 16px;
+    background: #fff;
+}
+.Login-visual {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    background: linear-gradient(145deg,#0f172a,#2563eb,#7c3aed);
+    color: #fff;
+}
+.Login-visual i {
+    font-size: 27px;
+}
+.Login-visual strong {
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+.Login-form {
+    flex: 1;
+    padding: 24px;
+}
+.Login-form h3 {
+    margin: 0 0 15px;
+    color: #18181b;
+    font-size: 17px;
+}
+.Login-form input {
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 9px;
+    border: 1px solid #e4e4e7;
+    border-radius: 7px;
+    outline: none;
+    font-size: 9px;
+}
+.Login-form input:focus {
+    border-color: #6366f1;
+}
+.Login-form button {
+    width: 100%;
+    padding: 9px;
+    border: none;
+    border-radius: 7px;
+    background: #18181b;
+    color: #fff;
+    font-size: 9px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1839,
+    name: "Social Login",
+    preview: (
+        <div className="login-1839">
+            <h3>Sign in</h3>
+            <button className="login-1839__social">
+                <i className="fa-brands fa-google"></i>
+                Continue with Google
+            </button>
+            <button className="login-1839__social">
+                <i className="fa-brands fa-github"></i>
+                Continue with GitHub
+            </button>
+            <div className="login-1839__divider">
+                <span>or</span>
+            </div>
+            <input type="email" placeholder="Email address" />
+            <button className="login-1839__submit">Continue</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <h3>Sign in</h3>
+    <button class="Login-social">
+        <i class="fa-brands fa-google"></i>
+        Continue with Google
+    </button>
+    <button class="Login-social">
+        <i class="fa-brands fa-github"></i>
+        Continue with GitHub
+    </button>
+    <div class="Login-divider">
+        <span>or</span>
+    </div>
+    <input type="email" placeholder="Email address" />
+    <button class="Login-submit">Continue</button>
+</div>`,
+    css: `.Login {
+    width: 290px;
+    padding: 22px;
+    border: 1px solid #e4e4e7;
+    border-radius: 15px;
+    background: #fff;
+}
+.Login h3 {
+    margin: 0 0 15px;
+    text-align: center;
+    color: #18181b;
+    font-size: 18px;
+}
+.Login-social,
+.Login-submit {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 9px;
+}
+.Login-social {
+    border: 1px solid #e4e4e7;
+    background: #fff;
+    color: #27272a;
+}
+.Login-social i {
+    margin-right: 7px;
+}
+.Login-divider {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 12px 0;
+    color: #a1a1aa;
+    font-size: 8px;
+}
+.Login-divider::before,
+.Login-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #e4e4e7;
+}
+.Login input {
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 10px;
+    border: 1px solid #e4e4e7;
+    border-radius: 8px;
+    outline: none;
+    font-size: 9px;
+}
+.Login-submit {
+    border: none;
+    background: #18181b;
+    color: #fff;
+}`
+},
+{
+    id: 1840,
+    name: "Fire Login",
+    preview: (
+        <div className="login-1840">
+            <div className="login-1840__icon">
+                <i className="fa-solid fa-fire"></i>
+            </div>
+            <h3>Enter the inferno</h3>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button>Enter</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-icon">
+        <i class="fa-solid fa-fire"></i>
+    </div>
+    <h3>Enter the inferno</h3>
+    <input type="email" placeholder="Email" />
+    <input type="password" placeholder="Password" />
+    <button>Enter</button>
+</div>`,
+    css: `.Login {
+    width: 280px;
+    padding: 23px;
+    border: 1px solid #7c2d12;
+    border-radius: 15px;
+    background: #170704;
+    color: #fff;
+    box-shadow: 0 0 25px rgba(249,115,22,.12);
+}
+.Login-icon {
+    width: 39px;
+    height: 39px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 12px;
+    border-radius: 50%;
+    background: #291006;
+    color: #f97316;
+    box-shadow: 0 0 16px rgba(249,115,22,.4);
+}
+.Login h3 {
+    margin: 0 0 15px;
+    font-size: 16px;
+}
+.Login input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid #7c2d12;
+    border-radius: 8px;
+    outline: none;
+    background: #1f0b05;
+    color: #fff;
+    font-size: 9px;
+}
+.Login input:focus {
+    border-color: #f97316;
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg,#ef4444,#f97316);
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+}`
+},
+{
+    id: 1841,
+    name: "Minimal Login",
+    preview: (
+        <div className="login-1841">
+            <h3>Log in</h3>
+            <label>Email</label>
+            <input type="email" placeholder="you@example.com" />
+            <label>Password</label>
+            <input type="password" placeholder="••••••••" />
+            <button>Log in</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <h3>Log in</h3>
+    <label>Email</label>
+    <input type="email" placeholder="you@example.com" />
+    <label>Password</label>
+    <input type="password" placeholder="••••••••" />
+    <button>Log in</button>
+</div>`,
+    css: `.Login {
+    width: 280px;
+    padding: 22px;
+    color: #18181b;
+}
+.Login h3 {
+    margin: 0 0 18px;
+    font-size: 20px;
+}
+.Login label {
+    display: block;
+    margin-bottom: 5px;
+    color: #52525b;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Login input {
+    width: 100%;
+    margin-bottom: 13px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #d4d4d8;
+    outline: none;
+    font-size: 10px;
+}
+.Login input:focus {
+    border-color: #18181b;
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background: #18181b;
+    color: #fff;
+    font-size: 9px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1842,
+    name: "Purple Neon Login",
+    preview: (
+        <div className="login-1842">
+            <i className="fa-solid fa-user-astronaut"></i>
+            <h3>Welcome, traveler</h3>
+            <input type="text" placeholder="Username" />
+            <input type="password" placeholder="Password" />
+            <button>Launch session</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <i class="fa-solid fa-user-astronaut"></i>
+    <h3>Welcome, traveler</h3>
+    <input type="text" placeholder="Username" />
+    <input type="password" placeholder="Password" />
+    <button>Launch session</button>
+</div>`,
+    css: `.Login {
+    width: 285px;
+    padding: 23px;
+    border: 1px solid #7c3aed;
+    border-radius: 16px;
+    background: #0f0720;
+    color: #fff;
+    box-shadow: 0 0 25px rgba(139,92,246,.18);
+    text-align: center;
+}
+.Login > i {
+    color: #c4b5fd;
+    font-size: 25px;
+    text-shadow: 0 0 13px #8b5cf6;
+}
+.Login h3 {
+    margin: 10px 0 16px;
+    font-size: 16px;
+}
+.Login input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid #4c1d95;
+    border-radius: 8px;
+    outline: none;
+    background: #160a25;
+    color: #fff;
+    font-size: 9px;
+}
+.Login input:focus {
+    border-color: #a855f7;
+    box-shadow: 0 0 10px rgba(168,85,247,.12);
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a855f7;
+    border-radius: 8px;
+    background: rgba(168,85,247,.12);
+    color: #e9d5ff;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+}`
+},
+{
+    id: 1843,
+    name: "Floating Label Login",
+    preview: (
+        <div className="login-1843">
+            <div>
+                <input type="email" placeholder=" " />
+                <label>Email address</label>
+            </div>
+            <div>
+                <input type="password" placeholder=" " />
+                <label>Password</label>
+            </div>
+            <button>Sign in</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div>
+        <input type="email" placeholder=" " />
+        <label>Email address</label>
+    </div>
+    <div>
+        <input type="password" placeholder=" " />
+        <label>Password</label>
+    </div>
+    <button>Sign in</button>
+</div>`,
+    css: `.Login {
+    width: 280px;
+    padding: 22px;
+}
+.Login > div {
+    position: relative;
+    margin-bottom: 14px;
+}
+.Login input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d4d4d8;
+    border-radius: 8px;
+    outline: none;
+    background: #fff;
+    font-size: 9px;
+}
+.Login label {
+    position: absolute;
+    left: 10px;
+    top: 11px;
+    padding: 0 3px;
+    background: #fff;
+    color: #a1a1aa;
+    font-size: 9px;
+    pointer-events: none;
+    transition: .2s ease;
+}
+.Login input:focus {
+    border-color: #6366f1;
+}
+.Login input:focus + label,
+.Login input:not(:placeholder-shown) + label {
+    top: -5px;
+    color: #6366f1;
+    font-size: 7px;
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #6366f1;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+}`
+},
+{
+    id: 1844,
+    name: "Ice Dark Login",
+    preview: (
+        <div className="login-1844">
+            <div className="login-1844__crystal">
+                <i className="fa-solid fa-snowflake"></i>
+            </div>
+            <h3>Frozen Access</h3>
+            <input type="email" placeholder="Email address" />
+            <input type="password" placeholder="Password" />
+            <button>Unlock</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-crystal">
+        <i class="fa-solid fa-snowflake"></i>
+    </div>
+    <h3>Frozen Access</h3>
+    <input type="email" placeholder="Email address" />
+    <input type="password" placeholder="Password" />
+    <button>Unlock</button>
+</div>`,
+    css: `.Login {
+    width: 280px;
+    padding: 24px;
+    border: 1px solid #075985;
+    border-radius: 15px;
+    background: linear-gradient(145deg,#020617,#082f49);
+    color: #e0f2fe;
+    text-align: center;
+}
+.Login-crystal {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 12px;
+    border-radius: 12px;
+    border: 1px solid #38bdf8;
+    color: #bae6fd;
+    box-shadow: 0 0 18px rgba(56,189,248,.2);
+}
+.Login h3 {
+    margin: 0 0 16px;
+    font-size: 16px;
+}
+.Login input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid #164e63;
+    border-radius: 8px;
+    outline: none;
+    background: rgba(2,6,23,.6);
+    color: #fff;
+    font-size: 9px;
+}
+.Login input:focus {
+    border-color: #38bdf8;
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #38bdf8;
+    border-radius: 8px;
+    background: rgba(56,189,248,.1);
+    color: #e0f2fe;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+}`
+},
+{
+    id: 1845,
+    name: "Ecommerce Login",
+    preview: (
+        <div className="login-1845">
+            <i className="fa-solid fa-bag-shopping"></i>
+            <h3>Welcome back</h3>
+            <p>Sign in to continue shopping.</p>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button>Sign in</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <i class="fa-solid fa-bag-shopping"></i>
+    <h3>Welcome back</h3>
+    <p>Sign in to continue shopping.</p>
+    <input type="email" placeholder="Email" />
+    <input type="password" placeholder="Password" />
+    <button>Sign in</button>
+</div>`,
+    css: `.Login {
+    width: 280px;
+    padding: 23px;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+    background: #fff;
+}
+.Login > i {
+    color: #18181b;
+    font-size: 22px;
+}
+.Login h3 {
+    margin: 11px 0 4px;
+    color: #18181b;
+    font-size: 17px;
+}
+.Login p {
+    margin: 0 0 16px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Login input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid #d4d4d8;
+    border-radius: 8px;
+    outline: none;
+    font-size: 9px;
+}
+.Login input:focus {
+    border-color: #18181b;
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #18181b;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+}`
+},
+{
+    id: 1846,
+    name: "Glassmorphism Login",
+    preview: (
+        <div className="login-1846">
+            <div className="login-1846__icon">
+                <i className="fa-solid fa-user"></i>
+            </div>
+            <h3>Sign in</h3>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button>Continue</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-icon">
+        <i class="fa-solid fa-user"></i>
+    </div>
+    <h3>Sign in</h3>
+    <input type="email" placeholder="Email" />
+    <input type="password" placeholder="Password" />
+    <button>Continue</button>
+</div>`,
+    css: `.Login {
+    width: 275px;
+    padding: 24px;
+    border: 1px solid rgba(255,255,255,.28);
+    border-radius: 18px;
+    background: rgba(255,255,255,.1);
+    backdrop-filter: blur(18px);
+    color: #fff;
+    text-align: center;
+}
+.Login-icon {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 12px;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    background: rgba(255,255,255,.1);
+}
+.Login h3 {
+    margin: 0 0 16px;
+    font-size: 17px;
+}
+.Login input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 8px;
+    outline: none;
+    background: rgba(255,255,255,.08);
+    color: #fff;
+    font-size: 9px;
+}
+.Login input::placeholder {
+    color: rgba(255,255,255,.55);
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,.4);
+    border-radius: 8px;
+    background: rgba(255,255,255,.14);
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+}`
+},
+{
+    id: 1847,
+    name: "Dashboard Login",
+    preview: (
+        <div className="login-1847">
+            <div className="login-1847__brand">
+                <i className="fa-solid fa-chart-line"></i>
+                Dashboard
+            </div>
+            <h3>Sign in to dashboard</h3>
+            <input type="email" placeholder="Work email" />
+            <input type="password" placeholder="Password" />
+            <label>
+                <input type="checkbox" />
+                Remember me
+            </label>
+            <button>Sign in</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-brand">
+        <i class="fa-solid fa-chart-line"></i>
+        Dashboard
+    </div>
+    <h3>Sign in to dashboard</h3>
+    <input type="email" placeholder="Work email" />
+    <input type="password" placeholder="Password" />
+    <label>
+        <input type="checkbox" />
+        Remember me
+    </label>
+    <button>Sign in</button>
+</div>`,
+    css: `.Login {
+    width: 285px;
+    padding: 23px;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+    background: #fff;
+}
+.Login-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 17px;
+    color: #2563eb;
+    font-size: 10px;
+    font-weight: 800;
+}
+.Login h3 {
+    margin: 0 0 15px;
+    color: #18181b;
+    font-size: 16px;
+}
+.Login > input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid #d4d4d8;
+    border-radius: 8px;
+    outline: none;
+    font-size: 9px;
+}
+.Login > input:focus {
+    border-color: #2563eb;
+}
+.Login label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 12px;
+    color: #71717a;
+    font-size: 8px;
+}
+.Login label input {
+    accent-color: #2563eb;
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+}`
+},
+{
+    id: 1848,
+    name: "Gradient Border Login",
+    preview: (
+        <div className="login-1848">
+            <h3>Welcome</h3>
+            <input type="email" placeholder="Email address" />
+            <input type="password" placeholder="Password" />
+            <button>Login</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <h3>Welcome</h3>
+    <input type="email" placeholder="Email address" />
+    <input type="password" placeholder="Password" />
+    <button>Login</button>
+</div>`,
+    css: `.Login {
+    width: 280px;
+    padding: 24px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background:
+        linear-gradient(#09090b,#09090b) padding-box,
+        linear-gradient(135deg,#22d3ee,#6366f1,#ec4899,#f97316) border-box;
+    color: #fff;
+}
+.Login h3 {
+    margin: 0 0 17px;
+    font-size: 18px;
+}
+.Login input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid #27272a;
+    border-radius: 8px;
+    outline: none;
+    background: #111113;
+    color: #fff;
+    font-size: 9px;
+}
+.Login input:focus {
+    border-color: #6366f1;
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: linear-gradient(135deg,#22d3ee,#6366f1,#ec4899);
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+}`
+},
+{
+    id: 1849,
+    name: "Rounded Pill Login",
+    preview: (
+        <div className="login-1849">
+            <div className="login-1849__logo">
+                <i className="fa-solid fa-user"></i>
+            </div>
+            <h3>Member Login</h3>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button>Continue</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-logo">
+        <i class="fa-solid fa-user"></i>
+    </div>
+    <h3>Member Login</h3>
+    <input type="email" placeholder="Email" />
+    <input type="password" placeholder="Password" />
+    <button>Continue</button>
+</div>`,
+    css: `.Login {
+    width: 280px;
+    padding: 23px;
+    border: 1px solid #e4e4e7;
+    border-radius: 25px;
+    background: #fafafa;
+    text-align: center;
+}
+.Login-logo {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 12px;
+    border-radius: 50%;
+    background: #18181b;
+    color: #fff;
+}
+.Login h3 {
+    margin: 0 0 16px;
+    color: #18181b;
+    font-size: 17px;
+}
+.Login input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 11px 14px;
+    border: 1px solid #d4d4d8;
+    border-radius: 999px;
+    outline: none;
+    background: #fff;
+    font-size: 9px;
+}
+.Login input:focus {
+    border-color: #18181b;
+}
+.Login button {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 999px;
+    background: #18181b;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+}`
+},
+{
+    id: 1850,
+    name: "Terminal Login",
+    preview: (
+        <div className="login-1850">
+            <div className="login-1850__top">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <p>&gt; authenticate_user</p>
+            <input type="text" placeholder="username" />
+            <input type="password" placeholder="password" />
+            <button>ENTER</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-top">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <p>> authenticate_user</p>
+    <input type="text" placeholder="username" />
+    <input type="password" placeholder="password" />
+    <button>ENTER</button>
+</div>`,
+    css: `.Login {
+    width: 290px;
+    overflow: hidden;
+    border: 1px solid #27272a;
+    border-radius: 9px;
+    background: #050505;
+    color: #4ade80;
+    font-family: monospace;
+}
+.Login-top {
+    display: flex;
+    gap: 5px;
+    padding: 8px;
+    background: #111113;
+    border-bottom: 1px solid #27272a;
+}
+.Login-top span {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+.Login-top span:nth-child(1) {
+    background: #ef4444;
+}
+.Login-top span:nth-child(2) {
+    background: #facc15;
+}
+.Login-top span:nth-child(3) {
+    background: #22c55e;
+}
+.Login > p {
+    margin: 15px 18px 11px;
+    font-size: 8px;
+}
+.Login input {
+    width: calc(100% - 36px);
+    margin: 0 18px 8px;
+    padding: 9px;
+    border: 1px solid #14532d;
+    border-radius: 5px;
+    outline: none;
+    background: #020908;
+    color: #4ade80;
+    font-family: monospace;
+    font-size: 8px;
+}
+.Login input:focus {
+    border-color: #22c55e;
+    box-shadow: 0 0 8px rgba(34,197,94,.1);
+}
+.Login button {
+    width: calc(100% - 36px);
+    margin: 4px 18px 18px;
+    padding: 9px;
+    border: 1px solid #22c55e;
+    background: transparent;
+    color: #4ade80;
+    font-family: monospace;
+    font-size: 8px;
+    font-weight: 900;
+    cursor: pointer;
+}`
+},
+{
+    id: 1851,
+    name: "Luxury Gold Login",
+    preview: (
+        <div className="login-1851">
+            <div className="login-1851__icon">
+                <i className="fa-solid fa-crown"></i>
+            </div>
+            <h3>Member Access</h3>
+            <span>Exclusive workspace</span>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button>Enter</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-icon">
+        <i class="fa-solid fa-crown"></i>
+    </div>
+    <h3>Member Access</h3>
+    <span>Exclusive workspace</span>
+    <input type="email" placeholder="Email" />
+    <input type="password" placeholder="Password" />
+    <button>Enter</button>
+</div>`,
+    css: `.Login {
+    width: 280px;
+    padding: 24px;
+    border: 1px solid #a16207;
+    border-radius: 15px;
+    background: linear-gradient(145deg,#09090b,#1c1917);
+    color: #fff;
+    text-align: center;
+}
+.Login-icon {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 12px;
+    border-radius: 11px;
+    background: linear-gradient(135deg,#facc15,#f59e0b);
+    color: #451a03;
+    box-shadow: 0 0 18px rgba(250,204,21,.2);
+}
+.Login h3 {
+    margin: 0;
+    font-size: 17px;
+}
+.Login > span {
+    display: block;
+    margin: 5px 0 17px;
+    color: #a8a29e;
+    font-size: 8px;
+}
+.Login input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid #44403c;
+    border-radius: 8px;
+    outline: none;
+    background: #18181b;
+    color: #fff;
+    font-size: 9px;
+}
+.Login input:focus {
+    border-color: #facc15;
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg,#facc15,#d97706);
+    color: #451a03;
+    font-size: 9px;
+    font-weight: 900;
+    cursor: pointer;
+}`
+},
+{
+    id: 1852,
+    name: "Holographic Login",
+    preview: (
+        <div className="login-1852">
+            <div className="login-1852__glow"></div>
+            <i className="fa-solid fa-fingerprint"></i>
+            <h3>Identity check</h3>
+            <input type="email" placeholder="Email address" />
+            <input type="password" placeholder="Passcode" />
+            <button>Verify identity</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-glow"></div>
+    <i class="fa-solid fa-fingerprint"></i>
+    <h3>Identity check</h3>
+    <input type="email" placeholder="Email address" />
+    <input type="password" placeholder="Passcode" />
+    <button>Verify identity</button>
+</div>`,
+    css: `.Login {
+    position: relative;
+    width: 285px;
+    padding: 25px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 17px;
+    background: rgba(10,10,15,.88);
+    color: #fff;
+    text-align: center;
+}
+.Login-glow {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: linear-gradient(90deg,#22d3ee,#8b5cf6,#ec4899);
+    filter: blur(45px);
+    opacity: .22;
+}
+.Login > i {
+    position: relative;
+    color: #67e8f9;
+    font-size: 27px;
+    text-shadow: 0 0 14px #22d3ee;
+}
+.Login h3 {
+    position: relative;
+    margin: 11px 0 17px;
+    font-size: 17px;
+}
+.Login input {
+    position: relative;
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid #3f3f46;
+    border-radius: 8px;
+    outline: none;
+    background: rgba(255,255,255,.05);
+    color: #fff;
+    font-size: 9px;
+}
+.Login input:focus {
+    border-color: #8b5cf6;
+}
+.Login button {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background:
+        linear-gradient(#18181b,#18181b) padding-box,
+        linear-gradient(90deg,#22d3ee,#8b5cf6,#ec4899) border-box;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+}`
+},
+{
+    id: 1853,
+    name: "Legendary Prism Login",
+    preview: (
+        <div className="login-1853">
+            <div className="login-1853__shine"></div>
+            <div className="login-1853__icon">
+                <i className="fa-solid fa-gem"></i>
+            </div>
+            <h3>Legendary Access</h3>
+            <p>Enter the next level of your workspace.</p>
+            <div className="login-1853__field">
+                <i className="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email address" />
+            </div>
+            <div className="login-1853__field">
+                <i className="fa-solid fa-key"></i>
+                <input type="password" placeholder="Password" />
+            </div>
+            <button>
+                <i className="fa-solid fa-arrow-right"></i>
+                Enter workspace
+            </button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-shine"></div>
+    <div class="Login-icon">
+        <i class="fa-solid fa-gem"></i>
+    </div>
+    <h3>Legendary Access</h3>
+    <p>Enter the next level of your workspace.</p>
+    <div class="Login-field">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" placeholder="Email address" />
+    </div>
+    <div class="Login-field">
+        <i class="fa-solid fa-key"></i>
+        <input type="password" placeholder="Password" />
+    </div>
+    <button>
+        <i class="fa-solid fa-arrow-right"></i>
+        Enter workspace
+    </button>
+</div>`,
+    css: `.Login {
+    position: relative;
+    width: 310px;
+    padding: 25px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 18px;
+    background:
+        linear-gradient(#08080a,#08080a) padding-box,
+        linear-gradient(135deg,#22d3ee,#3b82f6,#8b5cf6,#ec4899,#f97316) border-box;
+    color: #fff;
+    box-shadow: 0 0 30px rgba(99,102,241,.16);
+}
+.Login-shine {
+    position: absolute;
+    width: 70px;
+    height: 150%;
+    top: -25%;
+    left: -80px;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.45),transparent);
+    transform: skewX(-20deg);
+    animation: login-shine-1853 3s ease-in-out infinite;
+}
+.Login-icon {
+    position: relative;
+    width: 43px;
+    height: 43px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 12px;
+    border: 1px solid rgba(103,232,249,.45);
+    border-radius: 12px;
+    background: rgba(34,211,238,.08);
+    color: #67e8f9;
+    box-shadow: 0 0 17px rgba(34,211,238,.15);
+}
+.Login-icon i {
+    text-shadow: 0 0 10px #22d3ee;
+}
+.Login h3 {
+    position: relative;
+    margin: 0;
+    font-size: 18px;
+}
+.Login p {
+    position: relative;
+    margin: 5px 0 17px;
+    color: #a1a1aa;
+    font-size: 9px;
+}
+.Login-field {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 9px;
+    padding: 0 10px;
+    border: 1px solid #27272a;
+    border-radius: 8px;
+    background: #111113;
+}
+.Login-field i {
+    color: #8b5cf6;
+    font-size: 8px;
+}
+.Login-field input {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 9px;
+}
+.Login button {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 4px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899);
+    color: #fff;
+    font-size: 9px;
+    font-weight: 900;
+    cursor: pointer;
+}
+@keyframes login-shine-1853 {
+    0% {
+        left: -80px;
+    }
+    55% {
+        left: 135%;
+    }
+    100% {
+        left: 135%;
+    }
+}`
+},
 
 
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
