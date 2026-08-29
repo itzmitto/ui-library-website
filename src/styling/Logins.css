@@ -5873,3 +5873,283 @@
     color: #fff;
     box-shadow: 0 0 27px rgba(239,68,68,.13);
 }
+.login-1911__flame {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 13px;
+    border-radius: 12px;
+    background: rgba(239,68,68,.1);
+    color: #fb923c;
+    box-shadow: 0 0 18px rgba(249,115,22,.35);
+}
+.login-1911 h3 {
+    margin: 0;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.login-1911 p {
+    margin: 5px 0 17px;
+    color: #fca5a5;
+    font-size: 8px;
+}
+.login-1911 input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid rgba(239,68,68,.28);
+    border-radius: 8px;
+    outline: none;
+    background: rgba(30,5,5,.45);
+    color: #fff;
+    font-size: 9px;
+}
+.login-1911 input:focus {
+    border-color: #fb7185;
+}
+.login-1911 button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f87171;
+    border-radius: 8px;
+    background: linear-gradient(90deg,rgba(220,38,38,.35),rgba(249,115,22,.3));
+    color: #fecaca;
+    font-size: 8px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.login-1912 {
+    width: 290px;
+    padding: 24px;
+    border: 1px solid transparent;
+    border-radius: 18px;
+    background:
+        linear-gradient(#05050a,#05050a) padding-box,
+        linear-gradient(135deg,#22d3ee,#8b5cf6,#ec4899) border-box;
+    color: #fff;
+    text-align: center;
+}
+.login-1912__fingerprint {
+    width: 46px;
+    height: 46px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 13px;
+    border: 1px solid #22d3ee;
+    border-radius: 50%;
+    color: #a5f3fc;
+    background: rgba(34,211,238,.06);
+    box-shadow: 0 0 17px rgba(34,211,238,.23);
+}
+.login-1912__fingerprint i {
+    font-size: 19px;
+    text-shadow: 0 0 10px #22d3ee;
+}
+.login-1912 h3 {
+    margin: 0 0 17px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.login-1912 input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid #27272a;
+    border-radius: 8px;
+    outline: none;
+    background: #111113;
+    color: #fff;
+    font-size: 9px;
+}
+.login-1912 input:focus {
+    border-color: #8b5cf6;
+}
+.login-1912 button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background:
+        linear-gradient(#18181b,#18181b) padding-box,
+        linear-gradient(90deg,#22d3ee,#8b5cf6,#ec4899) border-box;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.login-1913 {
+    width: 295px;
+    padding: 24px;
+    border: 1px solid #2563eb;
+    border-radius: 16px;
+    background: linear-gradient(145deg,#030712,#0f172a);
+    color: #dbeafe;
+    box-shadow: 0 0 28px rgba(37,99,235,.18);
+}
+.login-1913__lock {
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 13px;
+    border: 1px solid #60a5fa;
+    border-radius: 12px;
+    background: rgba(37,99,235,.1);
+    color: #93c5fd;
+    box-shadow: 0 0 17px rgba(59,130,246,.3);
+}
+.login-1913 h3 {
+    margin: 0;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.login-1913 p {
+    margin: 5px 0 17px;
+    color: #60a5fa;
+    font-size: 8px;
+}
+.login-1913 input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid #1e40af;
+    border-radius: 8px;
+    outline: none;
+    background: #081120;
+    color: #fff;
+    font-size: 9px;
+}
+.login-1913 input:focus {
+    border-color: #60a5fa;
+}
+.login-1913 button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg,#1d4ed8,#38bdf8);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.login-1914 {
+    position: relative;
+    width: 295px;
+    padding: 24px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 18px;
+    background:
+        linear-gradient(#070709,#070709) padding-box,
+        linear-gradient(90deg,#22d3ee,#3b82f6,#8b5cf6,#ec4899,#f97316) border-box;
+    color: #fff;
+}
+.login-1914__shine {
+    position: absolute;
+    width: 60px;
+    height: 150%;
+    top: -25%;
+    left: -80px;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.48),transparent);
+    transform: skewX(-20deg);
+    animation: login-shine-1914 3s ease-in-out infinite;
+}
+.login-1914__icon {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 13px;
+    border: 1px solid rgba(103,232,249,.4);
+    border-radius: 12px;
+    background: rgba(34,211,238,.06);
+    color: #67e8f9;
+    box-shadow: 0 0 18px rgba(34,211,238,.15);
+}
+.login-1914 h3 {
+    position: relative;
+    margin: 0 0 17px;
+    font-size: 17px;
+}
+.login-1914 input {
+    position: relative;
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid #27272a;
+    border-radius: 8px;
+    outline: none;
+    background: #101012;
+    color: #fff;
+    font-size: 9px;
+}
+.login-1914 input:focus {
+    border-color: #8b5cf6;
+}
+.login-1914 button {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.login-1915 {
+    width: 290px;
+    padding: 21px;
+    border: 1px solid #f97316;
+    border-radius: 7px;
+    background: #0d0602;
+    color: #fdba74;
+    font-family: monospace;
+}
+.login-1915__header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+    color: #fb923c;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.login-1915__header i {
+    text-shadow: 0 0 9px #f97316;
+}
+.login-1915 input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid #7c2d12;
+    outline: none;
+    background: #170904;
+    color: #fed7aa;
+    font-family: monospace;
+    font-size: 8px;
+}
+.login-1915 input:focus {
+    border-color: #fb923c;
+}
+.login-1915 button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fb923c;
+    background: rgba(249,115,22,.06);
+    color: #fdba74;
+    font-family: monospace;
+    font-size: 8px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
