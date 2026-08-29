@@ -6153,3 +6153,29 @@
     cursor: pointer;
 }
 
+.login-1916 {
+    width: 295px;
+    padding: 24px;
+    border: 1px solid #38bdf8;
+    border-radius: 18px;
+    background: linear-gradient(145deg,#020617,#082f49);
+    color: #f0f9ff;
+    box-shadow: 0 0 28px rgba(56,189,248,.17);
+    text-align: center;
+}
+.login-1916__crown {
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 13px;
+    border: 1px solid #7dd3fc;
+    border-radius: 50%;
+    background: rgba(125,211,252,.08);
+    color: #e0f2fe;
+    box-shadow: 0 0 18px rgba(125,211,252,.3);
+}
+.login-1916 h3 {
+    margin: 0;
+    font-size: 17px;
+}
