@@ -42696,6 +42696,27 @@ export const radiobuttons = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export const forms = [
     {
         id: 210,
@@ -48760,6 +48781,9 @@ export const patterns = [
     border-radius: 16px;
 }`
 },
+
+
+
 ];
 
 
