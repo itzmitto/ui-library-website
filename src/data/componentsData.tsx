@@ -65444,7 +65444,515 @@ export const logins = [
     border-radius: 8px;
     outline: none;
     background: #1b0804;
- 
+    color: #fff;
+    font-size: 9px;
+}
+.Login input:focus {
+    border-color: #fb923c;
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg,#dc2626,#f97316,#facc15);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    cursor: pointer;
+}`
+},
+{
+    id: 1920,
+    name: "Ice Reactor Login",
+    preview: (
+        <div className="login-1920">
+            <div className="login-1920__reactor">
+                <div></div>
+            </div>
+            <h3>ICE REACTOR</h3>
+            <input type="email" placeholder="Operator ID" />
+            <input type="password" placeholder="Reactor key" />
+            <button>START REACTOR</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-reactor">
+        <div></div>
+    </div>
+    <h3>ICE REACTOR</h3>
+    <input type="email" placeholder="Operator ID" />
+    <input type="password" placeholder="Reactor key" />
+    <button>START REACTOR</button>
+</div>`,
+    css: `.Login {
+    width: 290px;
+    padding: 24px;
+    border: 1px solid #38bdf8;
+    border-radius: 18px;
+    background: #021018;
+    color: #e0f2fe;
+    box-shadow: 0 0 28px rgba(56,189,248,.17);
+    text-align: center;
+}
+.Login-reactor {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 13px;
+    border: 2px solid #7dd3fc;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(56,189,248,.4),inset 0 0 12px rgba(34,211,238,.2);
+}
+.Login-reactor div {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background: #67e8f9;
+    box-shadow: 0 0 15px #22d3ee;
+    animation: reactor-1920 1.1s ease-in-out infinite;
+}
+.Login h3 {
+    margin: 0 0 17px;
+    font-size: 17px;
+}
+.Login input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid #164e63;
+    border-radius: 8px;
+    outline: none;
+    background: #041924;
+    color: #fff;
+    font-size: 9px;
+}
+.Login input:focus {
+    border-color: #7dd3fc;
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #38bdf8;
+    border-radius: 8px;
+    background: linear-gradient(90deg,#0369a1,#0ea5e9);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    cursor: pointer;
+}
+@keyframes reactor-1920 {
+    50% {
+        transform: scale(1.45);
+        opacity: .55;
+    }
+}`
+},
+{
+    id: 1921,
+    name: "Legendary Holo Prism Login",
+    preview: (
+        <div className="login-1921">
+            <div className="login-1921__shine"></div>
+            <div className="login-1921__icon">
+                <i className="fa-solid fa-gem"></i>
+            </div>
+            <h3>HOLO PRISM</h3>
+            <p>Advanced identity gateway</p>
+            <div className="login-1921__field">
+                <i className="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email address" />
+            </div>
+            <div className="login-1921__field">
+                <i className="fa-solid fa-key"></i>
+                <input type="password" placeholder="Password" />
+            </div>
+            <button>ENTER GATEWAY</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-shine"></div>
+    <div class="Login-icon">
+        <i class="fa-solid fa-gem"></i>
+    </div>
+    <h3>HOLO PRISM</h3>
+    <p>Advanced identity gateway</p>
+    <div class="Login-field">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" placeholder="Email address" />
+    </div>
+    <div class="Login-field">
+        <i class="fa-solid fa-key"></i>
+        <input type="password" placeholder="Password" />
+    </div>
+    <button>ENTER GATEWAY</button>
+</div>`,
+    css: `.Login {
+    position: relative;
+    width: 310px;
+    padding: 25px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 19px;
+    background:
+        linear-gradient(#08080a,#08080a) padding-box,
+        linear-gradient(135deg,#22d3ee,#3b82f6,#8b5cf6,#ec4899,#f97316) border-box;
+    color: #fff;
+    box-shadow: 0 0 30px rgba(99,102,241,.18);
+}
+.Login-shine {
+    position: absolute;
+    width: 65px;
+    height: 150%;
+    top: -25%;
+    left: -80px;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.7),transparent);
+    transform: skewX(-20deg);
+    animation: holo-shine-1921 2.8s ease-in-out infinite;
+}
+.Login-icon {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 13px;
+    border: 1px solid rgba(103,232,249,.4);
+    border-radius: 12px;
+    background: rgba(34,211,238,.07);
+    color: #67e8f9;
+    box-shadow: 0 0 18px rgba(34,211,238,.16);
+}
+.Login-icon i {
+    text-shadow: 0 0 10px #22d3ee;
+}
+.Login h3 {
+    position: relative;
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.Login p {
+    position: relative;
+    margin: 5px 0 17px;
+    color: #a1a1aa;
+    font-size: 9px;
+}
+.Login-field {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 9px;
+    padding: 0 10px;
+    border: 1px solid #27272a;
+    border-radius: 8px;
+    background: #111113;
+}
+.Login-field i {
+    color: #8b5cf6;
+    font-size: 8px;
+}
+.Login-field input {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 9px;
+}
+.Login button {
+    position: relative;
+    width: 100%;
+    margin-top: 4px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    cursor: pointer;
+}
+@keyframes holo-shine-1921 {
+    0% {
+        left: -80px;
+    }
+    55% {
+        left: 135%;
+    }
+    100% {
+        left: 135%;
+    }
+}`
+},
+{
+    id: 1922,
+    name: "Legendary Rainbow Core Login",
+    preview: (
+        <div className="login-1922">
+            <div className="login-1922__core">
+                <i className="fa-solid fa-sparkles"></i>
+            </div>
+            <h3>RAINBOW CORE</h3>
+            <p>Infinite color authentication</p>
+            <input type="email" placeholder="Core identity" />
+            <input type="password" placeholder="Core password" />
+            <button>ACTIVATE CORE</button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-core">
+        <i class="fa-solid fa-sparkles"></i>
+    </div>
+    <h3>RAINBOW CORE</h3>
+    <p>Infinite color authentication</p>
+    <input type="email" placeholder="Core identity" />
+    <input type="password" placeholder="Core password" />
+    <button>ACTIVATE CORE</button>
+</div>`,
+    css: `.Login {
+    width: 300px;
+    padding: 3px;
+    border-radius: 19px;
+    background: linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899,#ef4444);
+    background-size: 300% 100%;
+    animation: rainbow-core-1922 5s linear infinite;
+}
+.Login-core,
+.Login h3,
+.Login p,
+.Login input,
+.Login button {
+    position: relative;
+}
+.Login-core {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 13px;
+    border-radius: 12px;
+    background: linear-gradient(135deg,#22d3ee,#ec4899);
+    color: #fff;
+    box-shadow: 0 0 20px rgba(236,72,153,.35);
+}
+.Login-core i {
+    text-shadow: 0 0 10px #fff;
+}
+.Login h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.Login p {
+    margin: 5px 0 17px;
+    color: #a1a1aa;
+    font-size: 9px;
+}
+.Login input {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 10px;
+    border: 1px solid #27272a;
+    border-radius: 8px;
+    outline: none;
+    background: #111113;
+    color: #fff;
+    font-size: 9px;
+}
+.Login input:focus {
+    border-color: #6366f1;
+}
+.Login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    cursor: pointer;
+}
+@keyframes rainbow-core-1922 {
+    to {
+        background-position: 300% 0;
+    }
+}`
+},
+{
+    id: 1923,
+    name: "Ultimate Cosmic Login",
+    preview: (
+        <div className="login-1923">
+            <div className="login-1923__stars"></div>
+            <div className="login-1923__portal">
+                <i className="fa-solid fa-gem"></i>
+            </div>
+            <h3>LEGENDARY ACCESS</h3>
+            <p>Welcome to the final gateway.</p>
+            <div className="login-1923__field">
+                <i className="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email address" />
+            </div>
+            <div className="login-1923__field">
+                <i className="fa-solid fa-key"></i>
+                <input type="password" placeholder="Password" />
+            </div>
+            <button>
+                <i className="fa-solid fa-arrow-right"></i>
+                ENTER THE COSMOS
+            </button>
+        </div>
+    ),
+    html: `<div class="Login">
+    <div class="Login-stars"></div>
+    <div class="Login-portal">
+        <i class="fa-solid fa-gem"></i>
+    </div>
+    <h3>LEGENDARY ACCESS</h3>
+    <p>Welcome to the final gateway.</p>
+    <div class="Login-field">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" placeholder="Email address" />
+    </div>
+    <div class="Login-field">
+        <i class="fa-solid fa-key"></i>
+        <input type="password" placeholder="Password" />
+    </div>
+    <button>
+        <i class="fa-solid fa-arrow-right"></i>
+        ENTER THE COSMOS
+    </button>
+</div>`,
+    css: `.Login {
+    position: relative;
+    width: 315px;
+    padding: 26px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background:
+        linear-gradient(#050509,#050509) padding-box,
+        linear-gradient(135deg,#22d3ee,#3b82f6,#8b5cf6,#ec4899,#f97316,#facc15) border-box;
+    color: #fff;
+    box-shadow: 0 0 35px rgba(99,102,241,.2),inset 0 0 22px rgba(255,255,255,.02);
+}
+.Login-stars {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 10% 15%,rgba(255,255,255,.9) 0 1px,transparent 2px),
+        radial-gradient(circle at 82% 15%,rgba(103,232,249,.9) 0 1px,transparent 2px),
+        radial-gradient(circle at 65% 35%,rgba(196,181,253,.9) 0 1px,transparent 2px),
+        radial-gradient(circle at 22% 75%,rgba(244,114,182,.9) 0 1px,transparent 2px),
+        radial-gradient(circle at 90% 80%,rgba(250,204,21,.9) 0 1px,transparent 2px);
+    animation: starfield-1923 4s ease-in-out infinite;
+}
+.Login-portal {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 14px;
+    border: 1px solid #67e8f9;
+    border-radius: 50%;
+    background: radial-gradient(circle,#172554,#08090d);
+    color: #67e8f9;
+    box-shadow: 0 0 18px rgba(34,211,238,.35),0 0 40px rgba(139,92,246,.18);
+}
+.Login-portal::before {
+    content: "";
+    position: absolute;
+    inset: -7px;
+    border: 1px solid #8b5cf6;
+    border-left-color: transparent;
+    border-radius: 50%;
+    animation: cosmic-ring-1923 2s linear infinite;
+}
+.Login-portal::after {
+    content: "";
+    position: absolute;
+    inset: -12px;
+    border: 1px solid #ec4899;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: cosmic-ring-1923 3s linear reverse infinite;
+}
+.Login-portal i {
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 0 12px #22d3ee;
+}
+.Login h3 {
+    position: relative;
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.Login p {
+    position: relative;
+    margin: 5px 0 18px;
+    color: #a1a1aa;
+    font-size: 9px;
+}
+.Login-field {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 9px;
+    padding: 0 10px;
+    border: 1px solid #27272a;
+    border-radius: 9px;
+    background: rgba(255,255,255,.04);
+}
+.Login-field i {
+    color: #67e8f9;
+    font-size: 8px;
+}
+.Login-field input {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 9px;
+}
+.Login button {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 4px;
+    padding: 10px;
+    border: none;
+    border-radius: 9px;
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899,#f97316);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .6px;
+    cursor: pointer;
+    box-shadow: 0 0 18px rgba(99,102,241,.2);
+}
+@keyframes cosmic-ring-1923 {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes starfield-1923 {
+    50% {
+        opacity: .65;
+    }
+}`
+},
 ];
 
 
