@@ -38575,6 +38575,1066 @@ export const loaders = [
     animation: smoke-rise 2.4s ease-in-out infinite;
     z-index: 1;
 }`
+},{
+    id: 2075,
+    name: "Lightning Orb",
+    preview: (
+        <div className="loader-2075">
+            <div className="loader-2075__orb">
+                <i className="fa-solid fa-bolt"></i>
+            </div>
+            <span className="loader-2075__arc loader-2075__arc--one"></span>
+            <span className="loader-2075__arc loader-2075__arc--two"></span>
+            <span className="loader-2075__spark loader-2075__spark--one"></span>
+            <span className="loader-2075__spark loader-2075__spark--two"></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-orb">
+        <i class="fa-solid fa-bolt"></i>
+    </div>
+    <span class="Loader-arc Loader-arc--one"></span>
+    <span class="Loader-arc Loader-arc--two"></span>
+    <span class="Loader-spark Loader-spark--one"></span>
+    <span class="Loader-spark Loader-spark--two"></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 75px;
+    height: 75px;
+}
+.Loader-orb {
+    position: absolute;
+    inset: 23px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: radial-gradient(circle,#fef08a,#38bdf8 35%,#0369a1 75%);
+    color: #fff;
+    box-shadow:
+        0 0 12px #22d3ee,
+        0 0 28px #0ea5e9;
+    z-index: 3;
+    animation: lightning-pulse 0.8s ease-in-out infinite;
+}
+.Loader-orb i {
+    text-shadow:
+        0 0 5px #fff,
+        0 0 12px #facc15;
+}
+.Loader-arc {
+    position: absolute;
+    inset: 8px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: #67e8f9;
+    border-left-color: #22d3ee;
+    animation: lightning-spin 1s linear infinite;
+}
+.Loader-arc--two {
+    inset: 13px;
+    border-right-color: #60a5fa;
+    border-bottom-color: #3b82f6;
+    animation-duration: 0.7s;
+    animation-direction: reverse;
+}
+.Loader-spark {
+    position: absolute;
+    width: 4px;
+    height: 12px;
+    border-radius: 999px;
+    background: #fff;
+    box-shadow: 0 0 10px #22d3ee;
+}
+.Loader-spark--one {
+    top: 8px;
+    left: 20px;
+    transform: rotate(35deg);
+    animation: lightning-spark-one 1s ease-in-out infinite;
+}
+.Loader-spark--two {
+    right: 15px;
+    bottom: 13px;
+    transform: rotate(-45deg);
+    animation: lightning-spark-two 1.2s ease-in-out infinite;
+}`
+},
+{
+    id: 2076,
+    name: "Toxic Plasma Loader",
+    preview: (
+        <div className="loader-2076">
+            <div className="loader-2076__core">
+                <i className="fa-solid fa-radiation"></i>
+            </div>
+            <div className="loader-2076__ring"></div>
+            <div className="loader-2076__ring loader-2076__ring--two"></div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-core">
+        <i class="fa-solid fa-radiation"></i>
+    </div>
+    <div class="Loader-ring"></div>
+    <div class="Loader-ring Loader-ring--two"></div>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 78px;
+    height: 78px;
+}
+.Loader-core {
+    position: absolute;
+    inset: 25px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #07110a;
+    color: #bef264;
+    box-shadow:
+        0 0 12px #84cc16,
+        0 0 26px rgba(132,204,22,.6),
+        inset 0 0 12px rgba(190,242,100,.2);
+    z-index: 3;
+}
+.Loader-core i {
+    font-size: 13px;
+    text-shadow: 0 0 10px #bef264;
+    animation: plasma-pulse 0.9s ease-in-out infinite;
+}
+.Loader-ring {
+    position: absolute;
+    inset: 9px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: #bef264;
+    border-right-color: #4d7c0f;
+    animation: plasma-spin 1.3s linear infinite;
+}
+.Loader-ring--two {
+    inset: 16px;
+    border-left-color: #a3e635;
+    border-bottom-color: #22c55e;
+    animation-duration: 0.8s;
+    animation-direction: reverse;
+}
+.Loader > span {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #d9f99d;
+    box-shadow: 0 0 8px #84cc16;
+    left: 50%;
+    top: 50%;
+    animation: plasma-orbit 1.6s linear infinite;
+}
+.Loader > span:nth-of-type(2) {
+    animation-delay: -0.5s;
+}
+.Loader > span:nth-of-type(3) {
+    animation-delay: -1s;
+}`
+},
+{
+    id: 2077,
+    name: "Solar Flare Loader",
+    preview: (
+        <div className="loader-2077">
+            <div className="loader-2077__flare"></div>
+            <div className="loader-2077__sun">
+                <i className="fa-solid fa-sun"></i>
+            </div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-flare"></div>
+    <div class="Loader-sun">
+        <i class="fa-solid fa-sun"></i>
+    </div>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.Loader-flare {
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #fef08a,
+        #f97316,
+        #ef4444,
+        #fbbf24,
+        #fef08a
+    );
+    filter: blur(5px);
+    opacity: .8;
+    animation: solar-spin 1.8s linear infinite;
+}
+.Loader-sun {
+    position: absolute;
+    inset: 25px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: radial-gradient(circle,#fff7ed,#facc15 45%,#ea580c);
+    color: #fff;
+    box-shadow:
+        0 0 15px #facc15,
+        0 0 30px #f97316;
+    z-index: 2;
+}
+.Loader-sun i {
+    font-size: 13px;
+    animation: solar-pulse 0.9s ease-in-out infinite;
+}
+.Loader > span {
+    position: absolute;
+    width: 4px;
+    height: 13px;
+    border-radius: 999px;
+    background: #fef3c7;
+    box-shadow: 0 0 8px #f59e0b;
+    left: 50%;
+    top: 50%;
+    transform-origin: 50% 40px;
+    animation: solar-rays 1.4s linear infinite;
+}
+.Loader > span:nth-of-type(2) {
+    transform: translateX(-50%) rotate(90deg);
+}
+.Loader > span:nth-of-type(3) {
+    transform: translateX(-50%) rotate(180deg);
+}
+.Loader > span:nth-of-type(4) {
+    transform: translateX(-50%) rotate(270deg);
+}`
+},
+{
+    id: 2078,
+    name: "Cyber Pulse Loader",
+    preview: (
+        <div className="loader-2078">
+            <div className="loader-2078__screen">
+                <i className="fa-solid fa-microchip"></i>
+            </div>
+            <div className="loader-2078__pulse"></div>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-screen">
+        <i class="fa-solid fa-microchip"></i>
+    </div>
+    <div class="Loader-pulse"></div>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 110px;
+    height: 55px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #164e63;
+    background: #020617;
+    overflow: hidden;
+}
+.Loader-screen {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #22d3ee;
+    color: #67e8f9;
+    background: #031014;
+    box-shadow: 0 0 12px rgba(34,211,238,.35);
+    z-index: 3;
+}
+.Loader-screen i {
+    animation: cyber-pulse 0.8s ease-in-out infinite;
+}
+.Loader-pulse {
+    position: absolute;
+    left: -25px;
+    width: 25px;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(34,211,238,.55),
+        transparent
+    );
+    transform: skewX(-20deg);
+    animation: cyber-scan 1.3s linear infinite;
+}
+.Loader > span {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #22d3ee;
+    box-shadow: 0 0 8px #22d3ee;
+}
+.Loader > span:nth-of-type(1) {
+    left: 13px;
+    animation: cyber-dot-one 1.2s ease-in-out infinite;
+}
+.Loader > span:nth-of-type(2) {
+    right: 13px;
+    animation: cyber-dot-two 1.2s ease-in-out infinite;
+}`
+},
+{
+    id: 2079,
+    name: "Crystal Energy Loader",
+    preview: (
+        <div className="loader-2079">
+            <div className="loader-2079__crystal">
+                <i className="fa-solid fa-gem"></i>
+            </div>
+            <div className="loader-2079__halo"></div>
+            <div className="loader-2079__halo loader-2079__halo--two"></div>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-crystal">
+        <i class="fa-solid fa-gem"></i>
+    </div>
+    <div class="Loader-halo"></div>
+    <div class="Loader-halo Loader-halo--two"></div>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 82px;
+    height: 82px;
+    display: grid;
+    place-items: center;
+}
+.Loader-crystal {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg,#e0f2fe,#a78bfa,#22d3ee);
+    color: #fff;
+    clip-path: polygon(
+        50% 0,
+        91% 25%,
+        82% 78%,
+        50% 100%,
+        18% 78%,
+        9% 25%
+    );
+    box-shadow: 0 0 20px #8b5cf6;
+    z-index: 3;
+    animation: crystal-float 1.6s ease-in-out infinite;
+}
+.Loader-crystal::before {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    clip-path: inherit;
+    background: linear-gradient(
+        145deg,
+        rgba(255,255,255,.8),
+        rgba(103,232,249,.3)
+    );
+}
+.Loader-crystal i {
+    position: relative;
+    z-index: 2;
+    text-shadow:
+        0 0 6px #fff,
+        0 0 14px #22d3ee;
+}
+.Loader-halo {
+    position: absolute;
+    inset: 6px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: #22d3ee;
+    border-right-color: #a78bfa;
+    animation: crystal-spin 1.3s linear infinite;
+}
+.Loader-halo--two {
+    inset: 12px;
+    border-bottom-color: #67e8f9;
+    border-left-color: #8b5cf6;
+    animation-duration: 0.9s;
+    animation-direction: reverse;
+}
+.Loader > span {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #e0f2fe;
+    box-shadow: 0 0 8px #22d3ee;
+    left: 50%;
+    top: 50%;
+    animation: crystal-orbit 1.8s linear infinite;
+}
+.Loader > span:nth-of-type(2) {
+    animation-delay: -.9s;
+}`
+},{
+    id: 2080,
+    name: "Shadow Orb Loader",
+    preview: (
+        <div className="loader-2080">
+            <div className="loader-2080__orb">
+                <i className="fa-solid fa-skull"></i>
+            </div>
+            <div className="loader-2080__ring"></div>
+            <div className="loader-2080__ring loader-2080__ring--two"></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-orb">
+        <i class="fa-solid fa-skull"></i>
+    </div>
+    <div class="Loader-ring"></div>
+    <div class="Loader-ring Loader-ring--two"></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+.Loader-orb {
+    position: absolute;
+    inset: 22px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: radial-gradient(circle,#27272a,#09090b 70%);
+    color: #a1a1aa;
+    box-shadow:
+        0 0 12px rgba(0,0,0,.8),
+        inset 0 0 14px #000;
+    z-index: 2;
+}
+.Loader-orb i {
+    font-size: 12px;
+    text-shadow: 0 0 8px #71717a;
+    animation: shadow-pulse .9s ease-in-out infinite;
+}
+.Loader-ring {
+    position: absolute;
+    inset: 5px;
+    border: 2px solid transparent;
+    border-top-color: #71717a;
+    border-left-color: #3f3f46;
+    border-radius: 50%;
+    animation: shadow-spin 1.6s linear infinite;
+}
+.Loader-ring--two {
+    inset: 13px;
+    border-right-color: #a1a1aa;
+    border-bottom-color: #18181b;
+    animation-duration: .9s;
+    animation-direction: reverse;
+}`
+},
+{
+    id: 2081,
+    name: "Moonlight Loader",
+    preview: (
+        <div className="loader-2081">
+            <div className="loader-2081__moon">
+                <i className="fa-solid fa-moon"></i>
+            </div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-moon">
+        <i class="fa-solid fa-moon"></i>
+    </div>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 75px;
+    height: 75px;
+}
+.Loader-moon {
+    position: absolute;
+    inset: 22px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: radial-gradient(circle,#fefce8,#dbeafe 58%,#94a3b8);
+    color: #334155;
+    box-shadow:
+        0 0 18px rgba(219,234,254,.75),
+        0 0 35px rgba(191,219,254,.35);
+    z-index: 2;
+}
+.Loader-moon i {
+    animation: moon-pulse 1.5s ease-in-out infinite;
+}
+.Loader > span {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #f8fafc;
+    box-shadow: 0 0 7px #dbeafe;
+    left: 50%;
+    top: 50%;
+    animation: moon-orbit 2s linear infinite;
+}
+.Loader > span:nth-of-type(2) {
+    animation-delay: -.65s;
+}
+.Loader > span:nth-of-type(3) {
+    animation-delay: -1.3s;
+}`
+},
+{
+    id: 2082,
+    name: "Frost Crystal Loader",
+    preview: (
+        <div className="loader-2082">
+            <div className="loader-2082__crystal">
+                <i className="fa-solid fa-snowflake"></i>
+            </div>
+            <div className="loader-2082__ring"></div>
+            <div className="loader-2082__ring loader-2082__ring--two"></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-crystal">
+        <i class="fa-solid fa-snowflake"></i>
+    </div>
+    <div class="Loader-ring"></div>
+    <div class="Loader-ring Loader-ring--two"></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 78px;
+    height: 78px;
+}
+.Loader-crystal {
+    position: absolute;
+    inset: 24px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: linear-gradient(145deg,#ffffff,#bae6fd 45%,#38bdf8);
+    color: #075985;
+    transform: rotate(45deg);
+    box-shadow:
+        0 0 16px #7dd3fc,
+        0 0 30px rgba(56,189,248,.45);
+    z-index: 2;
+}
+.Loader-crystal i {
+    transform: rotate(-45deg);
+    animation: frost-pulse 1s ease-in-out infinite;
+}
+.Loader-ring {
+    position: absolute;
+    inset: 7px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: #e0f2fe;
+    border-right-color: #7dd3fc;
+    animation: frost-spin 1.3s linear infinite;
+}
+.Loader-ring--two {
+    inset: 15px;
+    border-bottom-color: #0ea5e9;
+    border-left-color: #bae6fd;
+    animation-duration: .8s;
+    animation-direction: reverse;
+}`
+},
+{
+    id: 2083,
+    name: "Holy Light Loader",
+    preview: (
+        <div className="loader-2083">
+            <div className="loader-2083__halo"></div>
+            <div className="loader-2083__core">
+                <i className="fa-solid fa-star"></i>
+            </div>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-halo"></div>
+    <div class="Loader-core">
+        <i class="fa-solid fa-star"></i>
+    </div>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 78px;
+    height: 78px;
+    display: grid;
+    place-items: center;
+}
+.Loader-halo {
+    position: absolute;
+    inset: 3px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #fff,
+        #fef3c7,
+        #fde68a,
+        #fff,
+        #dbeafe,
+        #fff
+    );
+    filter: blur(5px);
+    opacity: .8;
+    animation: holy-spin 2s linear infinite;
+}
+.Loader-core {
+    position: absolute;
+    inset: 23px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: radial-gradient(circle,#fff,#fef3c7 45%,#fbbf24);
+    color: #92400e;
+    box-shadow:
+        0 0 15px #fff,
+        0 0 30px #fde68a;
+    z-index: 2;
+}
+.Loader-core i {
+    font-size: 12px;
+    animation: holy-pulse .8s ease-in-out infinite;
+}
+.Loader > span {
+    position: absolute;
+    width: 4px;
+    height: 12px;
+    border-radius: 999px;
+    background: #fff;
+    box-shadow: 0 0 9px #fff;
+    top: 50%;
+    left: 50%;
+    transform-origin: center 39px;
+}
+.Loader > span:nth-of-type(1) {
+    transform: translateX(-50%) rotate(45deg);
+    animation: holy-ray 1.2s linear infinite;
+}
+.Loader > span:nth-of-type(2) {
+    transform: translateX(-50%) rotate(225deg);
+    animation: holy-ray 1.2s linear infinite reverse;
+}`
+},
+{
+    id: 2084,
+    name: "Void Portal Loader",
+    preview: (
+        <div className="loader-2084">
+            <div className="loader-2084__void">
+                <i className="fa-solid fa-infinity"></i>
+            </div>
+            <div className="loader-2084__ring"></div>
+            <div className="loader-2084__ring loader-2084__ring--two"></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-void">
+        <i class="fa-solid fa-infinity"></i>
+    </div>
+    <div class="Loader-ring"></div>
+    <div class="Loader-ring Loader-ring--two"></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.Loader-void {
+    position: absolute;
+    inset: 23px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #000;
+    color: #c084fc;
+    box-shadow:
+        0 0 18px rgba(168,85,247,.6),
+        inset 0 0 15px #581c87;
+    z-index: 2;
+}
+.Loader-void i {
+    font-size: 13px;
+    text-shadow: 0 0 10px #a855f7;
+    animation: void-pulse 1s ease-in-out infinite;
+}
+.Loader-ring {
+    position: absolute;
+    inset: 7px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: #c084fc;
+    border-right-color: #7e22ce;
+    animation: void-spin 1.3s linear infinite;
+}
+.Loader-ring--two {
+    inset: 15px;
+    border-left-color: #e879f9;
+    border-bottom-color: #4c1d95;
+    animation-duration: .8s;
+    animation-direction: reverse;
+}`
+},
+{
+    id: 2085,
+    name: "Cloud Breeze Loader",
+    preview: (
+        <div className="loader-2085">
+            <div className="loader-2085__cloud">
+                <i className="fa-solid fa-cloud"></i>
+            </div>
+            <div className="loader-2085__wind"></div>
+            <div className="loader-2085__wind loader-2085__wind--two"></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-cloud">
+        <i class="fa-solid fa-cloud"></i>
+    </div>
+    <div class="Loader-wind"></div>
+    <div class="Loader-wind Loader-wind--two"></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 100px;
+    height: 55px;
+}
+.Loader-cloud {
+    position: absolute;
+    left: 28px;
+    top: 12px;
+    width: 44px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    color: #64748b;
+    background: linear-gradient(#fff,#e2e8f0);
+    box-shadow:
+        0 7px 15px rgba(148,163,184,.2),
+        inset 0 -3px 6px rgba(100,116,139,.14);
+    z-index: 2;
+}
+.Loader-cloud i {
+    font-size: 14px;
+    color: #94a3b8;
+    animation: cloud-float 1.5s ease-in-out infinite;
+}
+.Loader-wind {
+    position: absolute;
+    width: 37px;
+    height: 4px;
+    border-radius: 999px;
+    background: linear-gradient(90deg,transparent,#7dd3fc);
+    left: -2px;
+    top: 19px;
+    animation: cloud-wind 1.2s linear infinite;
+}
+.Loader-wind--two {
+    top: 34px;
+    width: 47px;
+    animation-delay: -.5s;
+}`
+},
+{
+    id: 2086,
+    name: "Ember Darkness Loader",
+    preview: (
+        <div className="loader-2086">
+            <div className="loader-2086__core">
+                <i className="fa-solid fa-fire"></i>
+            </div>
+            <div className="loader-2086__ring"></div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-core">
+        <i class="fa-solid fa-fire"></i>
+    </div>
+    <div class="Loader-ring"></div>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 75px;
+    height: 75px;
+}
+.Loader-core {
+    position: absolute;
+    inset: 23px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #120b08;
+    color: #fb923c;
+    box-shadow:
+        0 0 12px #ea580c,
+        0 0 25px rgba(234,88,12,.5);
+    z-index: 2;
+}
+.Loader-core i {
+    text-shadow: 0 0 8px #f97316;
+    animation: ember-fire .7s ease-in-out infinite;
+}
+.Loader-ring {
+    position: absolute;
+    inset: 7px;
+    border-radius: 50%;
+    border: 2px dashed #9a3412;
+    animation: ember-spin 1.5s linear infinite;
+}
+.Loader > span {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #fed7aa;
+    box-shadow: 0 0 8px #f97316;
+    left: 50%;
+    top: 50%;
+    animation: ember-orbit 1.6s linear infinite;
+}
+.Loader > span:nth-of-type(2) {
+    animation-delay: -.5s;
+}
+.Loader > span:nth-of-type(3) {
+    animation-delay: -1s;
+}`
+},
+{
+    id: 2087,
+    name: "Ocean Pearl Loader",
+    preview: (
+        <div className="loader-2087">
+            <div className="loader-2087__pearl">
+                <i className="fa-solid fa-gem"></i>
+            </div>
+            <div className="loader-2087__ring"></div>
+            <div className="loader-2087__ring loader-2087__ring--two"></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-pearl">
+        <i class="fa-solid fa-gem"></i>
+    </div>
+    <div class="Loader-ring"></div>
+    <div class="Loader-ring Loader-ring--two"></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 76px;
+    height: 76px;
+}
+.Loader-pearl {
+    position: absolute;
+    inset: 23px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: radial-gradient(circle,#ecfeff,#67e8f9 45%,#0369a1);
+    color: #ecfeff;
+    box-shadow:
+        0 0 15px #22d3ee,
+        0 0 30px rgba(6,182,212,.5);
+    z-index: 2;
+}
+.Loader-pearl i {
+    font-size: 12px;
+    text-shadow: 0 0 7px #fff;
+    animation: pearl-pulse 1.1s ease-in-out infinite;
+}
+.Loader-ring {
+    position: absolute;
+    inset: 6px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: #67e8f9;
+    border-left-color: #06b6d4;
+    animation: pearl-spin 1.5s linear infinite;
+}
+.Loader-ring--two {
+    inset: 14px;
+    border-right-color: #38bdf8;
+    border-bottom-color: #0369a1;
+    animation-duration: .9s;
+    animation-direction: reverse;
+}`
+},
+{
+    id: 2088,
+    name: "Aurora Mist Loader",
+    preview: (
+        <div className="loader-2088">
+            <div className="loader-2088__aurora"></div>
+            <div className="loader-2088__core">
+                <i className="fa-solid fa-sparkles"></i>
+            </div>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-aurora"></div>
+    <div class="Loader-core">
+        <i class="fa-solid fa-sparkles"></i>
+    </div>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 82px;
+    height: 82px;
+    display: grid;
+    place-items: center;
+}
+.Loader-aurora {
+    position: absolute;
+    inset: 3px;
+    border-radius: 50%;
+    background:
+        conic-gradient(
+            #22d3ee,
+            #8b5cf6,
+            #ec4899,
+            #22c55e,
+            #22d3ee
+        );
+    filter: blur(7px);
+    opacity: .65;
+    animation: aurora-spin 2.8s linear infinite;
+}
+.Loader-core {
+    position: absolute;
+    inset: 25px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #07111b;
+    color: #fff;
+    box-shadow:
+        0 0 15px rgba(139,92,246,.5),
+        inset 0 0 12px rgba(34,211,238,.3);
+    z-index: 2;
+}
+.Loader-core i {
+    font-size: 13px;
+    animation: aurora-pulse 1s ease-in-out infinite;
+}
+.Loader > span {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 8px #ec4899;
+    left: 50%;
+    top: 50%;
+    animation: aurora-orbit 1.8s linear infinite;
+}
+.Loader > span:nth-of-type(2) {
+    animation-delay: -.9s;
+}`
+},
+{
+    id: 2089,
+    name: "Eclipse Loader",
+    preview: (
+        <div className="loader-2089">
+            <div className="loader-2089__sun"></div>
+            <div className="loader-2089__moon"></div>
+            <div className="loader-2089__corona"></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-sun"></div>
+    <div class="Loader-moon"></div>
+    <div class="Loader-corona"></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 85px;
+    height: 85px;
+}
+.Loader-sun {
+    position: absolute;
+    inset: 20px;
+    border-radius: 50%;
+    background: radial-gradient(circle,#fff7ed,#facc15,#f97316);
+    box-shadow:
+        0 0 14px #facc15,
+        0 0 30px rgba(249,115,22,.7);
+}
+.Loader-moon {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    top: 9px;
+    left: 7px;
+    border-radius: 50%;
+    background: #09090b;
+    box-shadow: 0 0 8px #000;
+    z-index: 3;
+    animation: eclipse-move 2.4s ease-in-out infinite;
+}
+.Loader-corona {
+    position: absolute;
+    inset: 7px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: #fde68a;
+    border-right-color: #fb923c;
+    box-shadow: 0 0 8px rgba(251,191,36,.45);
+    animation: eclipse-spin 1.8s linear infinite;
+}`
 },
 ];
 
