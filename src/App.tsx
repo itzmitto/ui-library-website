@@ -24,6 +24,7 @@ import Pagination from "./pages/Pagination";
 import Skeletons from "./pages/Skeletons";
 import Sidebars from "./pages/Sidebars";
 import HeroSections from "./pages/HeroSections";
+import Iphone from "./pages/Iphone";
 import "./App.css";
 import "./styling/media.css";
 
@@ -75,6 +76,7 @@ function App() {
         <Route path="/elements/skeletons" element={<Skeletons />} />
         <Route path="/elements/sidebars" element={<Sidebars />} />
         <Route path="/elements/hero-sections" element={<HeroSections />} />
+        <Route path="/elements/iphone" element={<Iphone />} />
       </Routes>
     </BrowserRouter>
   );

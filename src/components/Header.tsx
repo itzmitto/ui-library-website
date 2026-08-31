@@ -26,6 +26,7 @@ const categories = [
   { label: "Skeletons", path: "/elements/skeletons" },
   { label: "Sidebars", path: "/elements/sidebars" },
   { label: "Hero Sections", path: "/elements/hero-sections" },
+  { label: "Iphone", path: "/elements/iphone" },
 ];
 
 export default function Header() {
@@ -63,11 +64,7 @@ export default function Header() {
               }`}
             >
               {categories.map((cat) => (
-                <Link
-                  key={cat.path}
-                  to={cat.path}
-                  className="dropdown-item"
-                >
+                <Link key={cat.path} to={cat.path} className="dropdown-item">
                   {cat.label}
                 </Link>
               ))}

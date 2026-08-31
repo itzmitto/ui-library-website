@@ -110,6 +110,10 @@ export default function All() {
           <a href="/elements/hero-sections" className="sidebar-item">
             Hero Sections
           </a>
+
+          <a href="/elements/iphone" className="sidebar-item">
+            Iphone
+          </a>
         </aside>
 
         <main className="all-main">
@@ -126,14 +130,10 @@ export default function All() {
                 onClick={() => setSelected(item)}
                 style={{ cursor: "pointer" }}
               >
-                <div className="all-card-preview">
-                  {item.preview}
-                </div>
+                <div className="all-card-preview">{item.preview}</div>
 
                 <div className="all-card-footer">
-                  <span className="all-card-name">
-                    {item.name}
-                  </span>
+                  <span className="all-card-name">{item.name}</span>
                 </div>
               </div>
             ))}
@@ -141,15 +141,9 @@ export default function All() {
         </main>
       </div>
 
-      <ComponentModal
-        item={selected}
-        onClose={() => setSelected(null)}
-      />
+      <ComponentModal item={selected} onClose={() => setSelected(null)} />
 
-      <a
-        href="/elements/navbar"
-        className="floating-navbar-button"
-      >
+      <a href="/elements/navbar" className="floating-navbar-button">
         Navbar →
       </a>
     </div>
