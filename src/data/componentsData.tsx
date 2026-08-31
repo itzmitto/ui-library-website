@@ -37455,7 +37455,8 @@ export const loaders = [
         opacity: .8;
     }
 }`
-}
+}, 
+
 ];
 
 
