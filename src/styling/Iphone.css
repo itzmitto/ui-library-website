@@ -1036,3 +1036,517 @@
   color: #8e8e93;
   font-size: 9px;
 }
+.iphone-spotify-2208 {
+    position: relative;
+    width: 330px;
+    min-height: 640px;
+    overflow: hidden;
+    padding: 12px 20px 20px;
+    border: 7px solid #111113;
+    border-radius: 42px;
+    background:
+        radial-gradient(
+            circle at 50% 22%,
+            rgba(30,215,96,.12),
+            transparent 30%
+        ),
+        linear-gradient(
+            180deg,
+            #171717 0%,
+            #0d0d0d 48%,
+            #080808 100%
+        );
+    box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,.07),
+        0 28px 80px rgba(0,0,0,.32);
+    color: #fff;
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "SF Pro Display",
+        "SF Pro Text",
+        sans-serif;
+}
+
+.iphone-spotify-2208::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 15% 22%,rgba(255,255,255,.035),transparent 1.5%),
+        radial-gradient(circle at 85% 18%,rgba(255,255,255,.025),transparent 1.5%),
+        radial-gradient(circle at 23% 52%,rgba(255,255,255,.03),transparent 1.2%),
+        radial-gradient(circle at 76% 58%,rgba(255,255,255,.025),transparent 1.2%),
+        radial-gradient(circle at 40% 88%,rgba(255,255,255,.025),transparent 1.2%);
+    pointer-events: none;
+}
+
+.iphone-spotify-2208__status {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 3px 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.iphone-spotify-2208__status-icons {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 8px;
+}
+
+.iphone-spotify-2208__header {
+    position: relative;
+    z-index: 4;
+    display: grid;
+    grid-template-columns: 38px 1fr 38px;
+    align-items: center;
+    gap: 8px;
+    margin-top: 3px;
+}
+
+.iphone-spotify-2208__header > span {
+    text-align: center;
+    color: #b3b3b3;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.iphone-spotify-2208__header button {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255,255,255,.06);
+    color: #fff;
+    font-size: 11px;
+    cursor: pointer;
+    transition:
+        background .18s ease,
+        transform .18s ease;
+}
+
+.iphone-spotify-2208__header button:hover {
+    background: rgba(255,255,255,.12);
+    transform: scale(1.04);
+}
+
+.iphone-spotify-2208__header button:active {
+    transform: scale(.9);
+}
+
+.iphone-spotify-2208__art {
+    position: relative;
+    width: 252px;
+    height: 252px;
+    display: grid;
+    place-items: center;
+    margin: 32px auto 25px;
+}
+
+.iphone-spotify-2208__art-glow {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(30,215,96,.38),
+            rgba(34,197,94,.13) 42%,
+            transparent 72%
+        );
+    filter: blur(24px);
+    animation: iphone-spotify-2208-glow 3.5s ease-in-out infinite;
+}
+
+.iphone-spotify-2208__album {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 7px;
+    background:
+        linear-gradient(
+            180deg,
+            #191919 0%,
+            #25190f 40%,
+            #b14e19 63%,
+            #261008 100%
+        );
+    box-shadow:
+        0 25px 45px rgba(0,0,0,.45),
+        0 0 35px rgba(30,215,96,.1);
+}
+
+.iphone-spotify-2208__album::before {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 37px;
+    left: 48px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 36% 34%,
+            #ffdca8 0%,
+            #ff9f43 22%,
+            #d94f27 46%,
+            #591f12 74%,
+            transparent 75%
+        );
+    filter: blur(1px);
+}
+
+.iphone-spotify-2208__album::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 85px;
+    background:
+        linear-gradient(
+            150deg,
+            transparent 28%,
+            rgba(0,0,0,.75) 29%,
+            rgba(0,0,0,.85) 42%,
+            transparent 43%
+        ),
+        linear-gradient(
+            30deg,
+            transparent 30%,
+            rgba(0,0,0,.65) 31%,
+            rgba(0,0,0,.8) 46%,
+            transparent 47%
+        );
+}
+
+.iphone-spotify-2208__album-top {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    z-index: 3;
+    color: #f5f5f5;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.iphone-spotify-2208__album-title {
+    position: absolute;
+    top: 25px;
+    right: 12px;
+    z-index: 3;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 950;
+    letter-spacing: -1px;
+}
+
+.iphone-spotify-2208__album-subtitle {
+    position: absolute;
+    top: 52px;
+    right: 14px;
+    z-index: 3;
+    color: rgba(255,255,255,.72);
+    font-size: 6px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.iphone-spotify-2208__album-sun {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 67px;
+    top: 57px;
+    z-index: 2;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            #ffdf9e,
+            #ff984d 55%,
+            #dc4a24 100%
+        );
+    box-shadow:
+        0 0 20px rgba(255,148,76,.38),
+        0 0 45px rgba(255,111,54,.16);
+}
+
+.iphone-spotify-2208__album-road {
+    position: absolute;
+    width: 105px;
+    height: 60px;
+    left: 57px;
+    bottom: -3px;
+    z-index: 3;
+    border-radius: 50% 50% 0 0;
+    background:
+        linear-gradient(
+            90deg,
+            #17100c 0%,
+            #28180f 49%,
+            #17100c 100%
+        );
+    transform: perspective(90px) rotateX(28deg);
+    box-shadow: 0 -20px 25px rgba(0,0,0,.25);
+}
+
+.iphone-spotify-2208__song {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.iphone-spotify-2208__song-info {
+    min-width: 0;
+    flex: 1;
+}
+
+.iphone-spotify-2208__song-info strong,
+.iphone-spotify-2208__song-info span {
+    display: block;
+}
+
+.iphone-spotify-2208__song-info strong {
+    overflow: hidden;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.iphone-spotify-2208__song-info span {
+    margin-top: 4px;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.iphone-spotify-2208__heart {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border: 0;
+    background: transparent;
+    color: #1ed760;
+    font-size: 17px;
+    cursor: pointer;
+    transition:
+        transform .18s ease,
+        color .18s ease;
+}
+
+.iphone-spotify-2208__heart:hover {
+    transform: scale(1.15);
+    color: #25e06a;
+}
+
+.iphone-spotify-2208__heart:active {
+    transform: scale(.86);
+}
+
+.iphone-spotify-2208__progress {
+    position: relative;
+    z-index: 4;
+    margin-top: 22px;
+}
+
+.iphone-spotify-2208__progress-bar {
+    width: 100%;
+    height: 4px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #4d4d4d;
+}
+
+.iphone-spotify-2208__progress-bar span {
+    position: relative;
+    display: block;
+    width: 54%;
+    height: 100%;
+    border-radius: inherit;
+    background: #fff;
+}
+
+.iphone-spotify-2208__progress-bar span::after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 50%;
+    right: -4px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 8px rgba(255,255,255,.25);
+}
+
+.iphone-spotify-2208__times {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    color: #8b8b8b;
+    font-size: 9px;
+}
+
+.iphone-spotify-2208__controls {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.iphone-spotify-2208__controls button {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition:
+        transform .16s ease,
+        color .16s ease;
+}
+
+.iphone-spotify-2208__controls button:hover {
+    transform: scale(1.14);
+}
+
+.iphone-spotify-2208__controls button:active {
+    transform: scale(.85);
+}
+
+.iphone-spotify-2208__controls button:first-child,
+.iphone-spotify-2208__controls button:last-child {
+    color: #1ed760;
+    font-size: 12px;
+}
+
+.iphone-spotify-2208__play {
+    width: 58px !important;
+    height: 58px !important;
+    border-radius: 50% !important;
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 18px !important;
+    box-shadow:
+        0 8px 18px rgba(0,0,0,.25),
+        0 0 0 1px rgba(255,255,255,.1);
+}
+
+.iphone-spotify-2208__play:hover {
+    transform: scale(1.06) !important;
+}
+
+.iphone-spotify-2208__bottom-controls {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+
+.iphone-spotify-2208__bottom-controls > button {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border: 0;
+    background: transparent;
+    color: #b3b3b3;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.iphone-spotify-2208__bottom-controls > button:hover {
+    color: #fff;
+}
+
+.iphone-spotify-2208__device {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #1ed760;
+}
+
+.iphone-spotify-2208__device i {
+    font-size: 10px;
+}
+
+.iphone-spotify-2208__device span {
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.iphone-spotify-2208__volume {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 9px;
+    color: #8b8b8b;
+    font-size: 8px;
+}
+
+.iphone-spotify-2208__volume-track {
+    flex: 1;
+    height: 3px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #454545;
+}
+
+.iphone-spotify-2208__volume-track span {
+    display: block;
+    width: 67%;
+    height: 100%;
+    border-radius: inherit;
+    background: #b3b3b3;
+}
+
+.iphone-spotify-2208__gesture {
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+    width: 90px;
+    height: 4px;
+    transform: translateX(-50%);
+    border-radius: 999px;
+    background: rgba(255,255,255,.85);
+}
+
+@keyframes iphone-spotify-2208-glow {
+    0%,
+    100% {
+        transform: scale(.88);
+        opacity: .5;
+    }
+    50% {
+        transform: scale(1.08);
+        opacity: .9;
+    }
+}

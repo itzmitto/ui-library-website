@@ -112001,6 +112001,647 @@ export const iphones = [
     color: #8e8e93;
     font-size: 9px;
 }`
+},{
+    id: 2208,
+    name: "iOS Spotify Music Player",
+    preview: (
+        <div className="iphone-spotify-2208">
+            <div className="iphone-spotify-2208__status">
+                <span>9:41</span>
+                <div className="iphone-spotify-2208__status-icons">
+                    <i className="fa-solid fa-signal"></i>
+                    <i className="fa-solid fa-wifi"></i>
+                    <i className="fa-solid fa-battery-full"></i>
+                </div>
+            </div>
+            <div className="iphone-spotify-2208__header">
+                <button>
+                    <i className="fa-solid fa-chevron-down"></i>
+                </button>
+                <span>NOW PLAYING</span>
+                <button>
+                    <i className="fa-solid fa-ellipsis"></i>
+                </button>
+            </div>
+            <div className="iphone-spotify-2208__art">
+                <div className="iphone-spotify-2208__art-glow"></div>
+                <div className="iphone-spotify-2208__album">
+                    <div className="iphone-spotify-2208__album-top">NIGHT</div>
+                    <div className="iphone-spotify-2208__album-title">DRIVE</div>
+                    <div className="iphone-spotify-2208__album-subtitle">MIDNIGHT</div>
+                    <div className="iphone-spotify-2208__album-sun"></div>
+                    <div className="iphone-spotify-2208__album-road"></div>
+                </div>
+            </div>
+            <div className="iphone-spotify-2208__song">
+                <div className="iphone-spotify-2208__song-info">
+                    <strong>After Dark</strong>
+                    <span>Mr.Kitty</span>
+                </div>
+                <button className="iphone-spotify-2208__heart">
+                    <i className="fa-solid fa-heart"></i>
+                </button>
+            </div>
+            <div className="iphone-spotify-2208__progress">
+                <div className="iphone-spotify-2208__progress-bar">
+                    <span></span>
+                </div>
+                <div className="iphone-spotify-2208__times">
+                    <span>2:14</span>
+                    <span>4:04</span>
+                </div>
+            </div>
+            <div className="iphone-spotify-2208__controls">
+                <button>
+                    <i className="fa-solid fa-shuffle"></i>
+                </button>
+                <button>
+                    <i className="fa-solid fa-backward-step"></i>
+                </button>
+                <button className="iphone-spotify-2208__play">
+                    <i className="fa-solid fa-pause"></i>
+                </button>
+                <button>
+                    <i className="fa-solid fa-forward-step"></i>
+                </button>
+                <button>
+                    <i className="fa-solid fa-repeat"></i>
+                </button>
+            </div>
+            <div className="iphone-spotify-2208__bottom-controls">
+                <button>
+                    <i className="fa-solid fa-list"></i>
+                </button>
+                <div className="iphone-spotify-2208__device">
+                    <i className="fa-solid fa-mobile-screen-button"></i>
+                    <span>iPhone</span>
+                </div>
+                <button>
+                    <i className="fa-solid fa-volume-high"></i>
+                </button>
+            </div>
+            <div className="iphone-spotify-2208__volume">
+                <i className="fa-solid fa-volume-low"></i>
+                <div className="iphone-spotify-2208__volume-track">
+                    <span></span>
+                </div>
+                <i className="fa-solid fa-volume-high"></i>
+            </div>
+            <div className="iphone-spotify-2208__gesture"></div>
+        </div>
+    ),
+    html: `<div class="SpotifyPlayer">
+    <div class="SpotifyStatus">
+        <span>9:41</span>
+        <div class="SpotifyStatusIcons">
+            <i class="fa-solid fa-signal"></i>
+            <i class="fa-solid fa-wifi"></i>
+            <i class="fa-solid fa-battery-full"></i>
+        </div>
+    </div>
+    <div class="SpotifyHeader">
+        <button>
+            <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <span>NOW PLAYING</span>
+        <button>
+            <i class="fa-solid fa-ellipsis"></i>
+        </button>
+    </div>
+    <div class="SpotifyArt">
+        <div class="SpotifyArtGlow"></div>
+        <div class="SpotifyAlbum">
+            <div class="SpotifyAlbumTop">NIGHT</div>
+            <div class="SpotifyAlbumTitle">DRIVE</div>
+            <div class="SpotifyAlbumSubtitle">MIDNIGHT</div>
+            <div class="SpotifyAlbumSun"></div>
+            <div class="SpotifyAlbumRoad"></div>
+        </div>
+    </div>
+    <div class="SpotifySong">
+        <div class="SpotifySongInfo">
+            <strong>After Dark</strong>
+            <span>Mr.Kitty</span>
+        </div>
+        <button class="SpotifyHeart">
+            <i class="fa-solid fa-heart"></i>
+        </button>
+    </div>
+    <div class="SpotifyProgress">
+        <div class="SpotifyProgressBar">
+            <span></span>
+        </div>
+        <div class="SpotifyTimes">
+            <span>2:14</span>
+            <span>4:04</span>
+        </div>
+    </div>
+    <div class="SpotifyControls">
+        <button>
+            <i class="fa-solid fa-shuffle"></i>
+        </button>
+        <button>
+            <i class="fa-solid fa-backward-step"></i>
+        </button>
+        <button class="SpotifyPlay">
+            <i class="fa-solid fa-pause"></i>
+        </button>
+        <button>
+            <i class="fa-solid fa-forward-step"></i>
+        </button>
+        <button>
+            <i class="fa-solid fa-repeat"></i>
+        </button>
+    </div>
+    <div class="SpotifyBottomControls">
+        <button>
+            <i class="fa-solid fa-list"></i>
+        </button>
+        <div class="SpotifyDevice">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <span>iPhone</span>
+        </div>
+        <button>
+            <i class="fa-solid fa-volume-high"></i>
+        </button>
+    </div>
+    <div class="SpotifyVolume">
+        <i class="fa-solid fa-volume-low"></i>
+        <div class="SpotifyVolumeTrack">
+            <span></span>
+        </div>
+        <i class="fa-solid fa-volume-high"></i>
+    </div>
+    <div class="SpotifyGesture"></div>
+</div>`,
+    css: `.SpotifyPlayer {
+    position: relative;
+    width: 330px;
+    min-height: 640px;
+    overflow: hidden;
+    padding: 12px 20px 20px;
+    border: 7px solid #111113;
+    border-radius: 42px;
+    background:
+        radial-gradient(
+            circle at 50% 22%,
+            rgba(30,215,96,.12),
+            transparent 30%
+        ),
+        linear-gradient(
+            180deg,
+            #171717 0%,
+            #0d0d0d 48%,
+            #080808 100%
+        );
+    box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,.07),
+        0 28px 80px rgba(0,0,0,.32);
+    color: #fff;
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "SF Pro Display",
+        "SF Pro Text",
+        sans-serif;
+}
+.SpotifyPlayer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 15% 22%,rgba(255,255,255,.035),transparent 1.5%),
+        radial-gradient(circle at 85% 18%,rgba(255,255,255,.025),transparent 1.5%),
+        radial-gradient(circle at 23% 52%,rgba(255,255,255,.03),transparent 1.2%),
+        radial-gradient(circle at 76% 58%,rgba(255,255,255,.025),transparent 1.2%),
+        radial-gradient(circle at 40% 88%,rgba(255,255,255,.025),transparent 1.2%);
+    pointer-events: none;
+}
+.SpotifyStatus {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 3px 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+}
+.SpotifyStatusIcons {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 8px;
+}
+.SpotifyHeader {
+    position: relative;
+    z-index: 4;
+    display: grid;
+    grid-template-columns: 38px 1fr 38px;
+    align-items: center;
+    gap: 8px;
+    margin-top: 3px;
+}
+.SpotifyHeader > span {
+    text-align: center;
+    color: #b3b3b3;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.SpotifyHeader button {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255,255,255,.06);
+    color: #fff;
+    font-size: 11px;
+    cursor: pointer;
+    transition:
+        background .18s ease,
+        transform .18s ease;
+}
+.SpotifyHeader button:hover {
+    background: rgba(255,255,255,.12);
+    transform: scale(1.04);
+}
+.SpotifyHeader button:active {
+    transform: scale(.9);
+}
+.SpotifyArt {
+    position: relative;
+    width: 252px;
+    height: 252px;
+    display: grid;
+    place-items: center;
+    margin: 32px auto 25px;
+}
+.SpotifyArtGlow {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(30,215,96,.38),
+            rgba(34,197,94,.13) 42%,
+            transparent 72%
+        );
+    filter: blur(24px);
+    animation: spotify-art-glow 3.5s ease-in-out infinite;
+}
+.SpotifyAlbum {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 7px;
+    background:
+        linear-gradient(
+            180deg,
+            #191919 0%,
+            #25190f 40%,
+            #b14e19 63%,
+            #261008 100%
+        );
+    box-shadow:
+        0 25px 45px rgba(0,0,0,.45),
+        0 0 35px rgba(30,215,96,.1);
+}
+.SpotifyAlbum::before {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 37px;
+    left: 48px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 36% 34%,
+            #ffdca8 0%,
+            #ff9f43 22%,
+            #d94f27 46%,
+            #591f12 74%,
+            transparent 75%
+        );
+    filter: blur(1px);
+}
+.SpotifyAlbum::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 85px;
+    background:
+        linear-gradient(
+            150deg,
+            transparent 28%,
+            rgba(0,0,0,.75) 29%,
+            rgba(0,0,0,.85) 42%,
+            transparent 43%
+        ),
+        linear-gradient(
+            30deg,
+            transparent 30%,
+            rgba(0,0,0,.65) 31%,
+            rgba(0,0,0,.8) 46%,
+            transparent 47%
+        );
+}
+.SpotifyAlbumTop {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    z-index: 3;
+    color: #f5f5f5;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.SpotifyAlbumTitle {
+    position: absolute;
+    top: 25px;
+    right: 12px;
+    z-index: 3;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 950;
+    letter-spacing: -1px;
+}
+.SpotifyAlbumSubtitle {
+    position: absolute;
+    top: 52px;
+    right: 14px;
+    z-index: 3;
+    color: rgba(255,255,255,.72);
+    font-size: 6px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.SpotifyAlbumSun {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 67px;
+    top: 57px;
+    z-index: 2;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            #ffdf9e,
+            #ff984d 55%,
+            #dc4a24 100%
+        );
+    box-shadow:
+        0 0 20px rgba(255,148,76,.38),
+        0 0 45px rgba(255,111,54,.16);
+}
+.SpotifyAlbumRoad {
+    position: absolute;
+    width: 105px;
+    height: 60px;
+    left: 57px;
+    bottom: -3px;
+    z-index: 3;
+    border-radius: 50% 50% 0 0;
+    background:
+        linear-gradient(
+            90deg,
+            #17100c 0%,
+            #28180f 49%,
+            #17100c 100%
+        );
+    transform: perspective(90px) rotateX(28deg);
+    box-shadow: 0 -20px 25px rgba(0,0,0,.25);
+}
+.SpotifyRoad::after {
+    content: "";
+}
+.SpotifySong {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+}
+.SpotifySongInfo {
+    min-width: 0;
+    flex: 1;
+}
+.SpotifySongInfo strong,
+.SpotifySongInfo span {
+    display: block;
+}
+.SpotifySongInfo strong {
+    overflow: hidden;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.SpotifySongInfo span {
+    margin-top: 4px;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.SpotifyHeart {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border: 0;
+    background: transparent;
+    color: #1ed760;
+    font-size: 17px;
+    cursor: pointer;
+    transition:
+        transform .18s ease,
+        color .18s ease;
+}
+.SpotifyHeart:hover {
+    transform: scale(1.15);
+    color: #25e06a;
+}
+.SpotifyHeart:active {
+    transform: scale(.86);
+}
+.SpotifyProgress {
+    position: relative;
+    z-index: 4;
+    margin-top: 22px;
+}
+.SpotifyProgressBar {
+    width: 100%;
+    height: 4px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #4d4d4d;
+}
+.SpotifyProgressBar span {
+    display: block;
+    width: 54%;
+    height: 100%;
+    border-radius: inherit;
+    background: #fff;
+    position: relative;
+}
+.SpotifyProgressBar span::after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 50%;
+    right: -4px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 8px rgba(255,255,255,.25);
+}
+.SpotifyTimes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    color: #8b8b8b;
+    font-size: 9px;
+}
+.SpotifyControls {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.SpotifyControls button {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition:
+        transform .16s ease,
+        color .16s ease;
+}
+.SpotifyControls button:hover {
+    transform: scale(1.14);
+}
+.SpotifyControls button:active {
+    transform: scale(.85);
+}
+.SpotifyControls button:first-child,
+.SpotifyControls button:last-child {
+    color: #1ed760;
+    font-size: 12px;
+}
+.SpotifyPlay {
+    width: 58px !important;
+    height: 58px !important;
+    border-radius: 50% !important;
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 18px !important;
+    box-shadow:
+        0 8px 18px rgba(0,0,0,.25),
+        0 0 0 1px rgba(255,255,255,.1);
+}
+.SpotifyPlay:hover {
+    transform: scale(1.06) !important;
+}
+.SpotifyBottomControls {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+.SpotifyBottomControls > button {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border: 0;
+    background: transparent;
+    color: #b3b3b3;
+    font-size: 12px;
+    cursor: pointer;
+}
+.SpotifyBottomControls > button:hover {
+    color: #fff;
+}
+.SpotifyDevice {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #1ed760;
+}
+.SpotifyDevice i {
+    font-size: 10px;
+}
+.SpotifyDevice span {
+    font-size: 9px;
+    font-weight: 600;
+}
+.SpotifyVolume {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 9px;
+    color: #8b8b8b;
+    font-size: 8px;
+}
+.SpotifyVolumeTrack {
+    flex: 1;
+    height: 3px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #454545;
+}
+.SpotifyVolumeTrack span {
+    display: block;
+    width: 67%;
+    height: 100%;
+    border-radius: inherit;
+    background: #b3b3b3;
+}
+.SpotifyGesture {
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+    width: 90px;
+    height: 4px;
+    transform: translateX(-50%);
+    border-radius: 999px;
+    background: rgba(255,255,255,.85);
+}
+@keyframes spotify-art-glow {
+    0%,
+    100% {
+        transform: scale(.88);
+        opacity: .5;
+    }
+    50% {
+        transform: scale(1.08);
+        opacity: .9;
+    }
+}`
 },
 ];
 
