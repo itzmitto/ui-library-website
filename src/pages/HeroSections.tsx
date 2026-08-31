@@ -33,14 +33,13 @@ const sidebarItems = [
 ];
 
 export default function HeroSections() {
-  const [selected, setSelected] = useState<typeof heroSections[0] | null>(
+  const [selected, setSelected] = useState<(typeof heroSections)[0] | null>(
     null,
   );
 
   return (
     <div className="all-page">
       <Header />
-
       <div className="all-layout">
         <aside className="sidebar">
           {sidebarItems.map((item) => (
@@ -55,29 +54,24 @@ export default function HeroSections() {
             </a>
           ))}
         </aside>
-
         <main className="all-main">
           <div className="all-header">
             <h1>Hero Sections</h1>
             <p>Open-Source hero sections made with CSS or Tailwind</p>
           </div>
 
-          <div className="all-grid">
+          <div className="allgrid">
             {heroSections.map((item) => (
               <div
                 key={item.id}
-                className="all-card"
+                className="allcard"
                 onClick={() => setSelected(item)}
                 style={{ cursor: "pointer" }}
               >
-                <div className="all-card-preview">
-                  {item.preview}
-                </div>
+                <div className="allcard-preview">{item.preview}</div>
 
-                <div className="all-card-footer">
-                  <span className="all-card-name">
-                    {item.name}
-                  </span>
+                <div className="allcard-footer">
+                  <span className="allcard-name">{item.name}</span>
                 </div>
               </div>
             ))}
@@ -85,10 +79,7 @@ export default function HeroSections() {
         </main>
       </div>
 
-      <ComponentModal
-        item={selected}
-        onClose={() => setSelected(null)}
-      />
+      <ComponentModal item={selected} onClose={() => setSelected(null)} />
     </div>
   );
 }

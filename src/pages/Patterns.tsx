@@ -33,7 +33,7 @@ const sidebarItems = [
 
 ];
 
-export default function Patterns() {
+export default function Patterns() { 
   const [selected, setSelected] = useState<typeof patterns[0] | null>(null);
 
   return (
