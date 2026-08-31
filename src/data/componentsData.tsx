@@ -35242,6 +35242,620 @@ export const loaders = [
         transform: rotate(360deg);
     }
 }`
+},{
+    id: 2061,
+    name: "Electric Arc Loader",
+    preview: (
+        <div className="loader-2061">
+            <div className="loader-2061__core">
+                <i className="fa-solid fa-bolt"></i>
+            </div>
+            <span className="loader-2061__arc"></span>
+            <span className="loader-2061__arc loader-2061__arc--two"></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-core">
+        <i class="fa-solid fa-bolt"></i>
+    </div>
+    <span class="Loader-arc"></span>
+    <span class="Loader-arc Loader-arc--two"></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+.Loader-core {
+    position: absolute;
+    inset: 17px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #020617;
+    color: #fef08a;
+    box-shadow:
+        0 0 10px #22d3ee,
+        0 0 24px #0ea5e9,
+        inset 0 0 12px rgba(34,211,238,.3);
+    z-index: 2;
+}
+.Loader-core i {
+    text-shadow: 0 0 10px #facc15;
+    animation: electric-flash 0.8s ease-in-out infinite;
+}
+.Loader-arc {
+    position: absolute;
+    inset: 4px;
+    border: 3px solid transparent;
+    border-top-color: #22d3ee;
+    border-right-color: #67e8f9;
+    border-radius: 50%;
+    animation: electric-spin 1s linear infinite;
+}
+.Loader-arc--two {
+    inset: 9px;
+    border-top-color: transparent;
+    border-left-color: #3b82f6;
+    border-bottom-color: #06b6d4;
+    animation-duration: .7s;
+    animation-direction: reverse;
+}`
+},
+{
+    id: 2062,
+    name: "Electric Plasma Ring",
+    preview: (
+        <div className="loader-2062">
+            <div className="loader-2062__plasma"></div>
+            <div className="loader-2062__center">
+                <i className="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-plasma"></div>
+    <div class="Loader-center">
+        <i class="fa-solid fa-bolt"></i>
+    </div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 62px;
+    height: 62px;
+}
+.Loader-plasma {
+    position: absolute;
+    inset: 1px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #22d3ee,
+        #3b82f6,
+        #67e8f9,
+        #2563eb,
+        #22d3ee
+    );
+    filter: blur(3px);
+    animation: plasma-spin 1.2s linear infinite;
+}
+.Loader-center {
+    position: absolute;
+    inset: 16px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #030712;
+    color: #67e8f9;
+    box-shadow: 0 0 18px rgba(34,211,238,.5);
+    z-index: 2;
+}
+.Loader-center i {
+    animation: electric-pulse 1s ease-in-out infinite;
+}`
+},
+{
+    id: 2063,
+    name: "Thunder Bolt Loader",
+    preview: (
+        <div className="loader-2063">
+            <i className="fa-solid fa-cloud-bolt"></i>
+            <div className="loader-2063__ring"></div>
+            <div className="loader-2063__ring loader-2063__ring--two"></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <i class="fa-solid fa-cloud-bolt"></i>
+    <div class="Loader-ring"></div>
+    <div class="Loader-ring Loader-ring--two"></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 68px;
+    height: 68px;
+    display: grid;
+    place-items: center;
+}
+.Loader > i {
+    color: #facc15;
+    font-size: 18px;
+    z-index: 3;
+    text-shadow:
+        0 0 7px #facc15,
+        0 0 18px #f97316;
+    animation: thunder-pulse 1s ease-in-out infinite;
+}
+.Loader-ring {
+    position: absolute;
+    inset: 4px;
+    border: 2px solid transparent;
+    border-top-color: #22d3ee;
+    border-bottom-color: #3b82f6;
+    border-radius: 50%;
+    animation: electric-spin 1.1s linear infinite;
+}
+.Loader-ring--two {
+    inset: 11px;
+    border-top-color: #67e8f9;
+    border-left-color: transparent;
+    border-bottom-color: #06b6d4;
+    animation-duration: .65s;
+    animation-direction: reverse;
+}`
+},
+{
+    id: 2064,
+    name: "Electric Shockwave",
+    preview: (
+        <div className="loader-2064">
+            <div className="loader-2064__core">
+                <i className="fa-solid fa-bolt"></i>
+            </div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-core">
+        <i class="fa-solid fa-bolt"></i>
+    </div>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+.Loader-core {
+    position: absolute;
+    inset: 17px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #06131c;
+    color: #facc15;
+    box-shadow:
+        0 0 12px #22d3ee,
+        0 0 25px rgba(34,211,238,.4);
+    z-index: 2;
+}
+.Loader-core i {
+    animation: electric-flash 0.9s ease-in-out infinite;
+}
+.Loader span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 8px;
+    height: 8px;
+    margin-left: -4px;
+    margin-top: -4px;
+    border: 1px solid #22d3ee;
+    border-radius: 50%;
+    animation: shockwave 1.5s ease-out infinite;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .45s;
+}
+.Loader span:nth-child(4) {
+    animation-delay: .9s;
+}`
+},
+{
+    id: 2065,
+    name: "Electric Charge Bars",
+    preview: (
+        <div className="loader-2065">
+            <i className="fa-solid fa-bolt"></i>
+            <div className="loader-2065__bars">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <i class="fa-solid fa-bolt"></i>
+    <div class="Loader-bars">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Loader > i {
+    color: #facc15;
+    font-size: 13px;
+    text-shadow: 0 0 8px #facc15;
+}
+.Loader-bars {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    height: 30px;
+}
+.Loader-bars span {
+    width: 4px;
+    height: 10px;
+    border-radius: 999px;
+    background: #22d3ee;
+    box-shadow: 0 0 7px #22d3ee;
+    animation: charge-bars 1s ease-in-out infinite;
+}
+.Loader-bars span:nth-child(2) {
+    animation-delay: .1s;
+}
+.Loader-bars span:nth-child(3) {
+    animation-delay: .2s;
+}
+.Loader-bars span:nth-child(4) {
+    animation-delay: .3s;
+}
+.Loader-bars span:nth-child(5) {
+    animation-delay: .4s;
+}
+.Loader-bars span:nth-child(6) {
+    animation-delay: .5s;
+}`
+},
+{
+    id: 2066,
+    name: "Electric Reactor Core",
+    preview: (
+        <div className="loader-2066">
+            <div className="loader-2066__core">
+                <i className="fa-solid fa-atom"></i>
+            </div>
+            <div className="loader-2066__ring"></div>
+            <div className="loader-2066__ring loader-2066__ring--two"></div>
+            <div className="loader-2066__ring loader-2066__ring--three"></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-core">
+        <i class="fa-solid fa-atom"></i>
+    </div>
+    <div class="Loader-ring"></div>
+    <div class="Loader-ring Loader-ring--two"></div>
+    <div class="Loader-ring Loader-ring--three"></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+.Loader-core {
+    position: absolute;
+    inset: 22px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #020617;
+    color: #67e8f9;
+    box-shadow:
+        0 0 10px #22d3ee,
+        0 0 25px rgba(34,211,238,.4);
+    z-index: 4;
+}
+.Loader-core i {
+    animation: reactor-core 1s linear infinite;
+}
+.Loader-ring {
+    position: absolute;
+    inset: 5px;
+    border: 2px solid transparent;
+    border-top-color: #22d3ee;
+    border-right-color: #3b82f6;
+    border-radius: 50%;
+    animation: electric-spin 1.2s linear infinite;
+}
+.Loader-ring--two {
+    inset: 12px;
+    border-left-color: #67e8f9;
+    border-bottom-color: #06b6d4;
+    animation-duration: .8s;
+    animation-direction: reverse;
+}
+.Loader-ring--three {
+    inset: 1px;
+    border-bottom-color: #2563eb;
+    border-right-color: transparent;
+    animation-duration: 1.8s;
+}`
+},
+{
+    id: 2067,
+    name: "Electric Signal Wave",
+    preview: (
+        <div className="loader-2067">
+            <div className="loader-2067__line"></div>
+            <i className="fa-solid fa-bolt"></i>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-line"></div>
+    <i class="fa-solid fa-bolt"></i>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Loader-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #082f49;
+    overflow: hidden;
+}
+.Loader-line::after {
+    content: "";
+    position: absolute;
+    width: 38px;
+    height: 100%;
+    left: -40px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        #22d3ee,
+        #67e8f9,
+        transparent
+    );
+    box-shadow: 0 0 10px #22d3ee;
+    animation: signal-line 1.1s linear infinite;
+}
+.Loader > i {
+    position: relative;
+    z-index: 2;
+    padding: 5px;
+    background: #020617;
+    color: #facc15;
+    text-shadow: 0 0 8px #facc15;
+    animation: signal-bolt .8s ease-in-out infinite;
+}`
+},
+{
+    id: 2068,
+    name: "Electric Lightning Orbit",
+    preview: (
+        <div className="loader-2068">
+            <div className="loader-2068__core">
+                <i className="fa-solid fa-bolt"></i>
+            </div>
+            <div className="loader-2068__orbit"></div>
+            <div className="loader-2068__orbit loader-2068__orbit--two"></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-core">
+        <i class="fa-solid fa-bolt"></i>
+    </div>
+    <div class="Loader-orbit"></div>
+    <div class="Loader-orbit Loader-orbit--two"></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+.Loader-core {
+    position: absolute;
+    inset: 23px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #020617;
+    color: #facc15;
+    z-index: 3;
+    box-shadow:
+        0 0 12px #22d3ee,
+        0 0 25px rgba(34,211,238,.45);
+}
+.Loader-core i {
+    text-shadow: 0 0 8px #facc15;
+}
+.Loader-orbit {
+    position: absolute;
+    inset: 7px;
+    border: 2px solid transparent;
+    border-top-color: #22d3ee;
+    border-left-color: #3b82f6;
+    border-radius: 50%;
+    transform: rotate(25deg);
+    animation: orbit-electric 1s linear infinite;
+}
+.Loader-orbit--two {
+    inset: 13px;
+    transform: rotate(-35deg);
+    border-top-color: #67e8f9;
+    border-right-color: #06b6d4;
+    animation-duration: .7s;
+    animation-direction: reverse;
+}`
+},
+{
+    id: 2069,
+    name: "Electric Voltage Meter",
+    preview: (
+        <div className="loader-2069">
+            <div className="loader-2069__head">
+                <i className="fa-solid fa-bolt"></i>
+                VOLTAGE
+            </div>
+            <div className="loader-2069__meter">
+                <span></span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-head">
+        <i class="fa-solid fa-bolt"></i>
+        VOLTAGE
+    </div>
+    <div class="Loader-meter">
+        <span></span>
+    </div>
+</div>`,
+    css: `.Loader {
+    width: 145px;
+    padding: 8px 10px;
+    border: 1px solid #164e63;
+    background: #020b12;
+    color: #67e8f9;
+    font-family: monospace;
+}
+.Loader-head {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 7px;
+    font-weight: 900;
+}
+.Loader-head i {
+    color: #facc15;
+    text-shadow: 0 0 7px #facc15;
+}
+.Loader-meter {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    margin-top: 8px;
+    overflow: hidden;
+    background: #082f49;
+}
+.Loader-meter span {
+    display: block;
+    width: 35%;
+    height: 100%;
+    background: linear-gradient(90deg,#06b6d4,#22d3ee,#67e8f9);
+    box-shadow: 0 0 10px #22d3ee;
+    animation: voltage-meter 1.4s ease-in-out infinite;
+}`
+},
+{
+    id: 2070,
+    name: "Legendary Electric Storm",
+    preview: (
+        <div className="loader-2070">
+            <div className="loader-2070__storm"></div>
+            <div className="loader-2070__core">
+                <i className="fa-solid fa-bolt"></i>
+            </div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-storm"></div>
+    <div class="Loader-core">
+        <i class="fa-solid fa-bolt"></i>
+    </div>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 74px;
+    height: 74px;
+}
+.Loader-storm {
+    position: absolute;
+    inset: 1px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #22d3ee,
+        #3b82f6,
+        #06b6d4,
+        #67e8f9,
+        #2563eb,
+        #22d3ee
+    );
+    filter: blur(5px);
+    opacity: .85;
+    animation: storm-spin 1.3s linear infinite;
+}
+.Loader-core {
+    position: absolute;
+    inset: 22px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #020617;
+    color: #fef08a;
+    box-shadow:
+        0 0 14px #22d3ee,
+        0 0 30px rgba(34,211,238,.55),
+        inset 0 0 12px rgba(34,211,238,.25);
+    z-index: 3;
+}
+.Loader-core i {
+    font-size: 15px;
+    text-shadow:
+        0 0 8px #facc15,
+        0 0 18px #f97316;
+    animation: storm-core .7s ease-in-out infinite;
+}
+.Loader span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #67e8f9;
+    box-shadow: 0 0 9px #22d3ee;
+    transform-origin: 0 0;
+    animation: storm-particle 1.4s linear infinite;
+}
+.Loader span:nth-child(3) {
+    animation-delay: -.35s;
+}
+.Loader span:nth-child(4) {
+    animation-delay: -.7s;
+}
+.Loader span:nth-child(5) {
+    animation-delay: -1.05s;
+}`
 },
 
 ];
@@ -40326,7 +40940,77 @@ export const inputs = [
     }
 }`
 },
+
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
