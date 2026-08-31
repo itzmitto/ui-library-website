@@ -7345,7 +7345,7 @@
 .btn-1518__glow {
     position: absolute;
     width: 80px;
-    height: 80px;
+    height: 80px;  
     border-radius: 50%;
     background: #38bdf8;
     filter: blur(28px);
