@@ -35857,7 +35857,709 @@ export const loaders = [
     animation-delay: -1.05s;
 }`
 },
-
+{
+    id: 2071,
+    name: "Legendary Electric Reactor",
+    preview: (
+        <div className="loader-2071">
+            <div className="loader-2071__aura"></div>
+            <div className="loader-2071__outer-glow"></div>
+            <div className="loader-2071__outer-ring"></div>
+            <div className="loader-2071__outer-ring loader-2071__outer-ring--two"></div>
+            <div className="loader-2071__outer-ring loader-2071__outer-ring--three"></div>
+            <div className="loader-2071__energy-ring"></div>
+            <div className="loader-2071__energy-ring loader-2071__energy-ring--two"></div>
+            <div className="loader-2071__segments">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div className="loader-2071__core">
+                <div className="loader-2071__core-inner">
+                    <i className="fa-solid fa-bolt"></i>
+                </div>
+            </div>
+            <div className="loader-2071__core-ring"></div>
+            <div className="loader-2071__core-ring loader-2071__core-ring--two"></div>
+            <div className="loader-2071__arc loader-2071__arc--one"></div>
+            <div className="loader-2071__arc loader-2071__arc--two"></div>
+            <div className="loader-2071__arc loader-2071__arc--three"></div>
+            <div className="loader-2071__particle loader-2071__particle--one"></div>
+            <div className="loader-2071__particle loader-2071__particle--two"></div>
+            <div className="loader-2071__particle loader-2071__particle--three"></div>
+            <div className="loader-2071__particle loader-2071__particle--four"></div>
+            <div className="loader-2071__particle loader-2071__particle--five"></div>
+            <div className="loader-2071__scan"></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-aura"></div>
+    <div class="Loader-outer-glow"></div>
+    <div class="Loader-outer-ring"></div>
+    <div class="Loader-outer-ring Loader-outer-ring--two"></div>
+    <div class="Loader-outer-ring Loader-outer-ring--three"></div>
+    <div class="Loader-energy-ring"></div>
+    <div class="Loader-energy-ring Loader-energy-ring--two"></div>
+    <div class="Loader-segments">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="Loader-core">
+        <div class="Loader-core-inner">
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    <div class="Loader-core-ring"></div>
+    <div class="Loader-core-ring Loader-core-ring--two"></div>
+    <div class="Loader-arc Loader-arc--one"></div>
+    <div class="Loader-arc Loader-arc--two"></div>
+    <div class="Loader-arc Loader-arc--three"></div>
+    <div class="Loader-particle Loader-particle--one"></div>
+    <div class="Loader-particle Loader-particle--two"></div>
+    <div class="Loader-particle Loader-particle--three"></div>
+    <div class="Loader-particle Loader-particle--four"></div>
+    <div class="Loader-particle Loader-particle--five"></div>
+    <div class="Loader-scan"></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 210px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    isolation: isolate;
+}
+.Loader-aura {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle,
+        rgba(34,211,238,.35) 0%,
+        rgba(14,165,233,.18) 35%,
+        rgba(37,99,235,.06) 65%,
+        transparent 75%
+    );
+    filter: blur(15px);
+    animation: loader-2071-aura 2.8s ease-in-out infinite;
+}
+.Loader-outer-glow {
+    position: absolute;
+    inset: 18px;
+    border-radius: 50%;
+    background: conic-gradient(
+        from 0deg,
+        transparent,
+        rgba(34,211,238,.35),
+        transparent 14%,
+        transparent 25%,
+        rgba(59,130,246,.3),
+        transparent 40%,
+        transparent 55%,
+        rgba(103,232,249,.4),
+        transparent 70%,
+        transparent 85%,
+        rgba(34,211,238,.3),
+        transparent
+    );
+    filter: blur(8px);
+    opacity: .85;
+    animation: loader-2071-spin-outer 4s linear infinite;
+}
+.Loader-outer-ring {
+    position: absolute;
+    inset: 23px;
+    border: 2px solid rgba(34,211,238,.14);
+    border-radius: 50%;
+    animation: loader-2071-spin-one 6s linear infinite;
+}
+.Loader-outer-ring::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #67e8f9;
+    box-shadow:
+        0 0 6px #67e8f9,
+        0 0 14px #22d3ee,
+        0 0 24px rgba(34,211,238,.8);
+}
+.Loader-outer-ring--two {
+    inset: 34px;
+    border-color: rgba(59,130,246,.12);
+    animation-duration: 4s;
+    animation-direction: reverse;
+}
+.Loader-outer-ring--two::before {
+    top: auto;
+    bottom: -3px;
+    background: #60a5fa;
+    box-shadow:
+        0 0 6px #60a5fa,
+        0 0 14px #3b82f6,
+        0 0 23px rgba(59,130,246,.7);
+}
+.Loader-outer-ring--three {
+    inset: 45px;
+    border-style: dashed;
+    border-color: rgba(103,232,249,.12);
+    animation-duration: 3s;
+}
+.Loader-energy-ring {
+    position: absolute;
+    inset: 12px;
+    border-radius: 50%;
+    background: conic-gradient(
+        from 0deg,
+        transparent 0deg,
+        transparent 18deg,
+        #22d3ee 22deg,
+        #67e8f9 28deg,
+        transparent 37deg,
+        transparent 66deg,
+        #3b82f6 72deg,
+        #60a5fa 80deg,
+        transparent 90deg,
+        transparent 145deg,
+        #06b6d4 152deg,
+        #22d3ee 158deg,
+        transparent 170deg,
+        transparent 220deg,
+        #3b82f6 226deg,
+        #67e8f9 234deg,
+        transparent 245deg,
+        transparent 300deg,
+        #22d3ee 306deg,
+        transparent 316deg,
+        transparent
+    );
+    -webkit-mask: radial-gradient(
+        circle,
+        transparent 0 68%,
+        #000 69% 72%,
+        transparent 73%
+    );
+    mask: radial-gradient(
+        circle,
+        transparent 0 68%,
+        #000 69% 72%,
+        transparent 73%
+    );
+    animation: loader-2071-energy-spin 2.2s linear infinite;
+    filter: drop-shadow(0 0 4px #22d3ee);
+}
+.Loader-energy-ring--two {
+    inset: 5px;
+    transform: rotate(22deg);
+    animation-duration: 3.1s;
+    animation-direction: reverse;
+    opacity: .65;
+    filter: drop-shadow(0 0 5px #3b82f6);
+}
+.Loader-segments {
+    position: absolute;
+    inset: 51px;
+    border-radius: 50%;
+    animation: loader-2071-spin-two 9s linear infinite;
+}
+.Loader-segments span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 6px;
+    height: 13px;
+    transform-origin: 50% 54px;
+    transform: translateX(-50%);
+    border-radius: 999px;
+    background: linear-gradient(
+        to bottom,
+        #67e8f9,
+        #22d3ee
+    );
+    box-shadow:
+        0 0 5px #22d3ee,
+        0 0 11px rgba(34,211,238,.75);
+}
+.Loader-segments span:nth-child(1) {
+    transform: translateX(-50%) rotate(0deg);
+}
+.Loader-segments span:nth-child(2) {
+    transform: translateX(-50%) rotate(45deg);
+}
+.Loader-segments span:nth-child(3) {
+    transform: translateX(-50%) rotate(90deg);
+}
+.Loader-segments span:nth-child(4) {
+    transform: translateX(-50%) rotate(135deg);
+}
+.Loader-segments span:nth-child(5) {
+    transform: translateX(-50%) rotate(180deg);
+}
+.Loader-segments span:nth-child(6) {
+    transform: translateX(-50%) rotate(225deg);
+}
+.Loader-segments span:nth-child(7) {
+    transform: translateX(-50%) rotate(270deg);
+}
+.Loader-segments span:nth-child(8) {
+    transform: translateX(-50%) rotate(315deg);
+}
+.Loader-core {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 50% 42%,
+            rgba(103,232,249,.16),
+            transparent 42%
+        ),
+        #020617;
+    border: 2px solid rgba(34,211,238,.6);
+    box-shadow:
+        0 0 10px rgba(34,211,238,.6),
+        0 0 24px rgba(34,211,238,.4),
+        0 0 45px rgba(14,165,233,.25),
+        inset 0 0 20px rgba(34,211,238,.18);
+    z-index: 5;
+    animation: loader-2071-core-pulse 1.8s ease-in-out infinite;
+}
+.Loader-core::before {
+    content: "";
+    position: absolute;
+    inset: 7px;
+    border-radius: 50%;
+    border: 1px solid rgba(103,232,249,.35);
+    box-shadow:
+        inset 0 0 10px rgba(34,211,238,.15),
+        0 0 8px rgba(34,211,238,.2);
+}
+.Loader-core::after {
+    content: "";
+    position: absolute;
+    inset: 14px;
+    border-radius: 50%;
+    background:
+        repeating-linear-gradient(
+            0deg,
+            transparent 0 4px,
+            rgba(103,232,249,.03) 5px 6px
+        );
+}
+.Loader-core-inner {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            #0c4a6e 0%,
+            #082f49 32%,
+            #020617 70%
+        );
+    border: 1px solid rgba(103,232,249,.5);
+    box-shadow:
+        inset 0 0 12px rgba(34,211,238,.4),
+        0 0 12px rgba(34,211,238,.35);
+    z-index: 2;
+}
+.Loader-core-inner::before {
+    content: "";
+    position: absolute;
+    inset: -5px;
+    border: 1px solid rgba(103,232,249,.14);
+    border-radius: 50%;
+}
+.Loader-core-inner i {
+    position: relative;
+    color: #fef08a;
+    font-size: 22px;
+    text-shadow:
+        0 0 5px #facc15,
+        0 0 12px #f59e0b,
+        0 0 24px rgba(245,158,11,.8);
+    animation: loader-2071-bolt 1s ease-in-out infinite;
+}
+.Loader-core-ring {
+    position: absolute;
+    width: 101px;
+    height: 101px;
+    border: 1px solid rgba(34,211,238,.18);
+    border-radius: 50%;
+    z-index: 4;
+    animation: loader-2071-core-ring-one 1.5s linear infinite;
+}
+.Loader-core-ring::before,
+.Loader-core-ring::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+.Loader-core-ring::before {
+    width: 7px;
+    height: 7px;
+    left: 50%;
+    top: -4px;
+    transform: translateX(-50%);
+    background: #67e8f9;
+    box-shadow:
+        0 0 7px #67e8f9,
+        0 0 18px #22d3ee;
+}
+.Loader-core-ring::after {
+    width: 4px;
+    height: 4px;
+    right: -2px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #3b82f6;
+    box-shadow:
+        0 0 6px #3b82f6,
+        0 0 15px #2563eb;
+}
+.Loader-core-ring--two {
+    width: 114px;
+    height: 114px;
+    border-color: rgba(59,130,246,.14);
+    animation-duration: 2.2s;
+    animation-direction: reverse;
+}
+.Loader-core-ring--two::before {
+    left: auto;
+    right: 9px;
+    top: 6px;
+    width: 5px;
+    height: 5px;
+    transform: none;
+    background: #22d3ee;
+}
+.Loader-core-ring--two::after {
+    right: auto;
+    left: 8px;
+    top: auto;
+    bottom: 10px;
+    width: 5px;
+    height: 5px;
+    transform: none;
+    background: #67e8f9;
+}
+.Loader-arc {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    z-index: 3;
+    filter: drop-shadow(0 0 5px #22d3ee);
+}
+.Loader-arc--one {
+    border-top-color: #67e8f9;
+    border-right-color: #22d3ee;
+    transform: rotate(-15deg);
+    animation: loader-2071-arc-one 1.1s linear infinite;
+}
+.Loader-arc--two {
+    width: 137px;
+    height: 137px;
+    border-bottom-color: #3b82f6;
+    border-left-color: #60a5fa;
+    transform: rotate(35deg);
+    animation: loader-2071-arc-two 1.7s linear infinite;
+}
+.Loader-arc--three {
+    width: 149px;
+    height: 149px;
+    border-top-color: rgba(103,232,249,.5);
+    border-left-color: rgba(34,211,238,.3);
+    transform: rotate(120deg);
+    animation: loader-2071-arc-three 2.6s linear infinite;
+}
+.Loader-particle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #67e8f9;
+    box-shadow:
+        0 0 6px #67e8f9,
+        0 0 14px #22d3ee;
+    z-index: 6;
+}
+.Loader-particle--one {
+    animation: loader-2071-particle-one 1.8s linear infinite;
+}
+.Loader-particle--two {
+    animation: loader-2071-particle-two 2.2s linear infinite;
+    animation-delay: -.5s;
+}
+.Loader-particle--three {
+    animation: loader-2071-particle-three 1.45s linear infinite;
+    animation-delay: -.8s;
+}
+.Loader-particle--four {
+    width: 3px;
+    height: 3px;
+    background: #3b82f6;
+    box-shadow:
+        0 0 6px #3b82f6,
+        0 0 12px #2563eb;
+    animation: loader-2071-particle-four 2.8s linear infinite;
+}
+.Loader-particle--five {
+    width: 4px;
+    height: 4px;
+    background: #fef08a;
+    box-shadow:
+        0 0 7px #facc15,
+        0 0 15px #f97316;
+    animation: loader-2071-particle-five 2s linear infinite;
+    animation-delay: -.6s;
+}
+.Loader-scan {
+    position: absolute;
+    width: 142px;
+    height: 142px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    border-top-color: rgba(103,232,249,.3);
+    border-bottom-color: rgba(34,211,238,.08);
+    z-index: 2;
+    animation:
+        loader-2071-scan-spin 3.5s linear infinite,
+        loader-2071-scan-pulse 2s ease-in-out infinite;
+}
+@keyframes loader-2071-aura {
+    0%,
+    100% {
+        transform: scale(.88);
+        opacity: .5;
+    }
+    50% {
+        transform: scale(1.08);
+        opacity: 1;
+    }
+}
+@keyframes loader-2071-spin-outer {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes loader-2071-spin-one {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes loader-2071-energy-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes loader-2071-spin-two {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+@keyframes loader-2071-core-pulse {
+    0%,
+    100% {
+        transform: scale(.96);
+        box-shadow:
+            0 0 10px rgba(34,211,238,.5),
+            0 0 24px rgba(34,211,238,.3),
+            0 0 45px rgba(14,165,233,.2),
+            inset 0 0 20px rgba(34,211,238,.15);
+    }
+    50% {
+        transform: scale(1.04);
+        box-shadow:
+            0 0 14px rgba(34,211,238,.8),
+            0 0 30px rgba(34,211,238,.55),
+            0 0 55px rgba(14,165,233,.35),
+            inset 0 0 24px rgba(34,211,238,.25);
+    }
+}
+@keyframes loader-2071-bolt {
+    0%,
+    100% {
+        transform: scale(.9) rotate(-4deg);
+        opacity: .8;
+    }
+    25% {
+        transform: scale(1.08) rotate(3deg);
+        opacity: 1;
+    }
+    45% {
+        transform: scale(.96) rotate(-2deg);
+        opacity: .9;
+    }
+    65% {
+        transform: scale(1.12) rotate(4deg);
+        opacity: 1;
+    }
+}
+@keyframes loader-2071-core-ring-one {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes loader-2071-arc-one {
+    from {
+        transform: rotate(-15deg);
+    }
+    to {
+        transform: rotate(345deg);
+    }
+}
+@keyframes loader-2071-arc-two {
+    from {
+        transform: rotate(35deg);
+    }
+    to {
+        transform: rotate(-325deg);
+    }
+}
+@keyframes loader-2071-arc-three {
+    from {
+        transform: rotate(120deg);
+    }
+    to {
+        transform: rotate(480deg);
+    }
+}
+@keyframes loader-2071-particle-one {
+    0% {
+        transform: rotate(0deg) translateX(86px) scale(.6);
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    50% {
+        transform: rotate(180deg) translateX(86px) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(360deg) translateX(86px) scale(.5);
+        opacity: 0;
+    }
+}
+@keyframes loader-2071-particle-two {
+    0% {
+        transform: rotate(0deg) translateX(70px) scale(.4);
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    50% {
+        transform: rotate(-180deg) translateX(70px) scale(1);
+    }
+    100% {
+        transform: rotate(-360deg) translateX(70px) scale(.4);
+        opacity: 0;
+    }
+}
+@keyframes loader-2071-particle-three {
+    0% {
+        transform: rotate(0deg) translateX(103px);
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(360deg) translateX(103px);
+        opacity: 0;
+    }
+}
+@keyframes loader-2071-particle-four {
+    0% {
+        transform: rotate(120deg) translateX(93px);
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(480deg) translateX(93px);
+        opacity: 0;
+    }
+}
+@keyframes loader-2071-particle-five {
+    0% {
+        transform: rotate(210deg) translateX(78px);
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(-150deg) translateX(78px);
+        opacity: 0;
+    }
+}
+@keyframes loader-2071-scan-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes loader-2071-scan-pulse {
+    0%,
+    100% {
+        opacity: .35;
+    }
+    50% {
+        opacity: .9;
+    }
+}`
+}
 ];
 
 
