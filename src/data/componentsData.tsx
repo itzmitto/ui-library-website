@@ -111070,6 +111070,938 @@ export const iphones = [
     transform: scale(.96);
 }`
 },
+{
+    id: 2198,
+    name: "iOS Settings Toggle",
+    preview: (
+        <div className="iphone-ios-2198">
+            <div className="iphone-ios-2198__row">
+                <div className="iphone-ios-2198__icon">
+                    <i className="fa-solid fa-wifi"></i>
+                </div>
+                <div className="iphone-ios-2198__text">
+                    <strong>Wi-Fi</strong>
+                    <span>Home Network</span>
+                </div>
+                <button className="iphone-ios-2198__toggle">
+                    <span></span>
+                </button>
+            </div>
+            <div className="iphone-ios-2198__divider"></div>
+            <div className="iphone-ios-2198__row">
+                <div className="iphone-ios-2198__icon iphone-ios-2198__icon--blue">
+                    <i className="fa-brands fa-bluetooth-b"></i>
+                </div>
+                <div className="iphone-ios-2198__text">
+                    <strong>Bluetooth</strong>
+                    <span>On</span>
+                </div>
+                <button className="iphone-ios-2198__toggle iphone-ios-2198__toggle--off">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    ),
+    html: `<div class="iOSUI">
+    <div class="iOSUI-row">
+        <div class="iOSUI-icon">
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="iOSUI-text">
+            <strong>Wi-Fi</strong>
+            <span>Home Network</span>
+        </div>
+        <button class="iOSUI-toggle">
+            <span></span>
+        </button>
+    </div>
+    <div class="iOSUI-divider"></div>
+    <div class="iOSUI-row">
+        <div class="iOSUI-icon iOSUI-icon--blue">
+            <i class="fa-brands fa-bluetooth-b"></i>
+        </div>
+        <div class="iOSUI-text">
+            <strong>Bluetooth</strong>
+            <span>On</span>
+        </div>
+        <button class="iOSUI-toggle iOSUI-toggle--off">
+            <span></span>
+        </button>
+    </div>
+</div>`,
+    css: `.iOSUI {
+    width: 310px;
+    padding: 8px 0;
+    overflow: hidden;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 12px 35px rgba(0,0,0,.08);
+    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+}
+.iOSUI-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 13px 16px;
+}
+.iOSUI-icon {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    background: #34c759;
+    color: #fff;
+    font-size: 14px;
+}
+.iOSUI-icon--blue {
+    background: #007aff;
+}
+.iOSUI-text {
+    min-width: 0;
+    flex: 1;
+}
+.iOSUI-text strong,
+.iOSUI-text span {
+    display: block;
+}
+.iOSUI-text strong {
+    color: #1c1c1e;
+    font-size: 13px;
+    font-weight: 600;
+}
+.iOSUI-text span {
+    margin-top: 2px;
+    color: #8e8e93;
+    font-size: 10px;
+}
+.iOSUI-toggle {
+    width: 45px;
+    height: 27px;
+    position: relative;
+    padding: 2px;
+    border: 0;
+    border-radius: 999px;
+    background: #34c759;
+    cursor: pointer;
+    transition: .18s ease;
+}
+.iOSUI-toggle span {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    transition: .18s ease;
+}
+.iOSUI-toggle:hover {
+    filter: brightness(.96);
+}
+.iOSUI-toggle:active {
+    transform: scale(.94);
+}
+.iOSUI-toggle--off {
+    background: #d1d1d6;
+}
+.iOSUI-toggle--off span {
+    right: auto;
+    left: 2px;
+}
+.iOSUI-divider {
+    height: 1px;
+    margin-left: 62px;
+    background: #f2f2f7;
+}`
+},
+{
+    id: 2199,
+    name: "iOS Music Player",
+    preview: (
+        <div className="iphone-ios-2199">
+            <div className="iphone-ios-2199__cover">
+                <i className="fa-solid fa-music"></i>
+            </div>
+            <div className="iphone-ios-2199__info">
+                <strong>Golden Hour</strong>
+                <span>JVKE</span>
+            </div>
+            <div className="iphone-ios-2199__progress">
+                <span></span>
+            </div>
+            <div className="iphone-ios-2199__times">
+                <span>1:24</span>
+                <span>3:12</span>
+            </div>
+            <div className="iphone-ios-2199__controls">
+                <button><i className="fa-solid fa-backward-step"></i></button>
+                <button className="iphone-ios-2199__play"><i className="fa-solid fa-play"></i></button>
+                <button><i className="fa-solid fa-forward-step"></i></button>
+            </div>
+        </div>
+    ),
+    html: `<div class="iOSUI">
+    <div class="iOSUI-cover">
+        <i class="fa-solid fa-music"></i>
+    </div>
+    <div class="iOSUI-info">
+        <strong>Golden Hour</strong>
+        <span>JVKE</span>
+    </div>
+    <div class="iOSUI-progress">
+        <span></span>
+    </div>
+    <div class="iOSUI-times">
+        <span>1:24</span>
+        <span>3:12</span>
+    </div>
+    <div class="iOSUI-controls">
+        <button><i class="fa-solid fa-backward-step"></i></button>
+        <button class="iOSUI-play"><i class="fa-solid fa-play"></i></button>
+        <button><i class="fa-solid fa-forward-step"></i></button>
+    </div>
+</div>`,
+    css: `.iOSUI {
+    width: 300px;
+    padding: 16px;
+    border-radius: 23px;
+    background: rgba(255,255,255,.86);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 18px 40px rgba(15,23,42,.1);
+    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+}
+.iOSUI-cover {
+    width: 72px;
+    height: 72px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 14px;
+    border-radius: 16px;
+    background: linear-gradient(145deg,#111827,#475569);
+    color: #fff;
+    font-size: 28px;
+    box-shadow: 0 9px 20px rgba(15,23,42,.18);
+}
+.iOSUI-info {
+    text-align: center;
+}
+.iOSUI-info strong,
+.iOSUI-info span {
+    display: block;
+}
+.iOSUI-info strong {
+    font-size: 14px;
+    font-weight: 700;
+}
+.iOSUI-info span {
+    margin-top: 3px;
+    color: #8e8e93;
+    font-size: 11px;
+}
+.iOSUI-progress {
+    height: 4px;
+    margin-top: 17px;
+    border-radius: 999px;
+    background: #d1d1d6;
+}
+.iOSUI-progress span {
+    display: block;
+    width: 43%;
+    height: 100%;
+    border-radius: inherit;
+    background: #1c1c1e;
+}
+.iOSUI-times {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    color: #8e8e93;
+    font-size: 8px;
+}
+.iOSUI-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 15px;
+}
+.iOSUI-controls button {
+    border: 0;
+    background: transparent;
+    color: #1c1c1e;
+    font-size: 17px;
+    cursor: pointer;
+}
+.iOSUI-play {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #1c1c1e !important;
+    color: #fff !important;
+}`
+},
+{
+    id: 2200,
+    name: "iOS Weather Card",
+    preview: (
+        <div className="iphone-ios-2200">
+            <div className="iphone-ios-2200__city">AMSTERDAM</div>
+            <div className="iphone-ios-2200__temp">18°</div>
+            <div className="iphone-ios-2200__condition">
+                <i className="fa-solid fa-cloud-sun"></i>
+                Partly Cloudy
+            </div>
+            <div className="iphone-ios-2200__range">
+                H 20° <span>•</span> L 12°
+            </div>
+        </div>
+    ),
+    html: `<div class="iOSUI">
+    <div class="iOSUI-city">AMSTERDAM</div>
+    <div class="iOSUI-temp">18°</div>
+    <div class="iOSUI-condition">
+        <i class="fa-solid fa-cloud-sun"></i>
+        Partly Cloudy
+    </div>
+    <div class="iOSUI-range">
+        H 20° <span>•</span> L 12°
+    </div>
+</div>`,
+    css: `.iOSUI {
+    width: 265px;
+    padding: 22px;
+    border-radius: 23px;
+    background: linear-gradient(145deg,#38bdf8,#2563eb);
+    color: #fff;
+    box-shadow: 0 20px 45px rgba(37,99,235,.25);
+    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+}
+.iOSUI-city {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    opacity: .85;
+}
+.iOSUI-temp {
+    margin-top: 4px;
+    font-size: 58px;
+    line-height: 1;
+    font-weight: 300;
+}
+.iOSUI-condition {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 8px;
+    font-size: 12px;
+}
+.iOSUI-condition i {
+    font-size: 16px;
+}
+.iOSUI-range {
+    margin-top: 9px;
+    color: rgba(255,255,255,.8);
+    font-size: 10px;
+}
+.iOSUI-range span {
+    margin: 0 5px;
+}`
+},
+{
+    id: 2201,
+    name: "iOS Battery Widget",
+    preview: (
+        <div className="iphone-ios-2201">
+            <div className="iphone-ios-2201__top">
+                <strong>Battery</strong>
+                <i className="fa-solid fa-battery-three-quarters"></i>
+            </div>
+            <div className="iphone-ios-2201__percent">82%</div>
+            <div className="iphone-ios-2201__bar">
+                <span></span>
+            </div>
+            <div className="iphone-ios-2201__status">
+                <span>Last Charged</span>
+                <strong>Today, 09:42</strong>
+            </div>
+        </div>
+    ),
+    html: `<div class="iOSUI">
+    <div class="iOSUI-top">
+        <strong>Battery</strong>
+        <i class="fa-solid fa-battery-three-quarters"></i>
+    </div>
+    <div class="iOSUI-percent">82%</div>
+    <div class="iOSUI-bar">
+        <span></span>
+    </div>
+    <div class="iOSUI-status">
+        <span>Last Charged</span>
+        <strong>Today, 09:42</strong>
+    </div>
+</div>`,
+    css: `.iOSUI {
+    width: 285px;
+    padding: 18px;
+    border-radius: 21px;
+    background: #1c1c1e;
+    color: #fff;
+    box-shadow: 0 18px 40px rgba(0,0,0,.22);
+    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+}
+.iOSUI-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #d1d1d6;
+    font-size: 12px;
+}
+.iOSUI-top i {
+    color: #34c759;
+}
+.iOSUI-percent {
+    margin-top: 10px;
+    font-size: 34px;
+    font-weight: 600;
+}
+.iOSUI-bar {
+    height: 10px;
+    margin-top: 14px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #3a3a3c;
+}
+.iOSUI-bar span {
+    display: block;
+    width: 82%;
+    height: 100%;
+    border-radius: inherit;
+    background: #34c759;
+}
+.iOSUI-status {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+.iOSUI-status span,
+.iOSUI-status strong {
+    font-size: 9px;
+}
+.iOSUI-status span {
+    color: #8e8e93;
+}
+.iOSUI-status strong {
+    color: #d1d1d6;
+}`
+},
+{
+    id: 2202,
+    name: "iOS Wi-Fi Selector",
+    preview: (
+        <div className="iphone-ios-2202">
+            <div className="iphone-ios-2202__header">
+                <strong>Wi-Fi</strong>
+                <button><i className="fa-solid fa-xmark"></i></button>
+            </div>
+            <div className="iphone-ios-2202__network iphone-ios-2202__network--active">
+                <i className="fa-solid fa-wifi"></i>
+                <div>
+                    <strong>Home Network</strong>
+                    <span>Connected</span>
+                </div>
+                <i className="fa-solid fa-check"></i>
+            </div>
+            <div className="iphone-ios-2202__network">
+                <i className="fa-solid fa-wifi"></i>
+                <div>
+                    <strong>Guest Network</strong>
+                    <span>Secure</span>
+                </div>
+            </div>
+            <div className="iphone-ios-2202__network">
+                <i className="fa-solid fa-wifi"></i>
+                <div>
+                    <strong>Office</strong>
+                    <span>Secure</span>
+                </div>
+            </div>
+        </div>
+    ),
+    html: `<div class="iOSUI">
+    <div class="iOSUI-header">
+        <strong>Wi-Fi</strong>
+        <button><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="iOSUI-network iOSUI-network--active">
+        <i class="fa-solid fa-wifi"></i>
+        <div>
+            <strong>Home Network</strong>
+            <span>Connected</span>
+        </div>
+        <i class="fa-solid fa-check"></i>
+    </div>
+    <div class="iOSUI-network">
+        <i class="fa-solid fa-wifi"></i>
+        <div>
+            <strong>Guest Network</strong>
+            <span>Secure</span>
+        </div>
+    </div>
+    <div class="iOSUI-network">
+        <i class="fa-solid fa-wifi"></i>
+        <div>
+            <strong>Office</strong>
+            <span>Secure</span>
+        </div>
+    </div>
+</div>`,
+    css: `.iOSUI {
+    width: 300px;
+    padding: 16px;
+    border-radius: 23px;
+    background: rgba(255,255,255,.93);
+    box-shadow: 0 20px 45px rgba(15,23,42,.1);
+    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+}
+.iOSUI-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.iOSUI-header strong {
+    font-size: 16px;
+}
+.iOSUI-header button {
+    width: 28px;
+    height: 28px;
+    border: 0;
+    border-radius: 50%;
+    background: #f2f2f7;
+    color: #8e8e93;
+    cursor: pointer;
+}
+.iOSUI-network {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 7px;
+    border-bottom: 1px solid #f2f2f7;
+}
+.iOSUI-network > i:first-child {
+    width: 20px;
+    color: #007aff;
+}
+.iOSUI-network > div {
+    flex: 1;
+}
+.iOSUI-network strong,
+.iOSUI-network span {
+    display: block;
+}
+.iOSUI-network strong {
+    color: #1c1c1e;
+    font-size: 11px;
+}
+.iOSUI-network span {
+    margin-top: 2px;
+    color: #8e8e93;
+    font-size: 9px;
+}
+.iOSUI-network--active > i:last-child {
+    color: #34c759;
+}`
+},
+{
+    id: 2203,
+    name: "iOS Volume Control",
+    preview: (
+        <div className="iphone-ios-2203">
+            <div className="iphone-ios-2203__icon">
+                <i className="fa-solid fa-volume-high"></i>
+            </div>
+            <div className="iphone-ios-2203__track">
+                <span></span>
+            </div>
+            <strong>72%</strong>
+        </div>
+    ),
+    html: `<div class="iOSUI">
+    <div class="iOSUI-icon">
+        <i class="fa-solid fa-volume-high"></i>
+    </div>
+    <div class="iOSUI-track">
+        <span></span>
+    </div>
+    <strong>72%</strong>
+</div>`,
+    css: `.iOSUI {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 11px 13px;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 999px;
+    background: rgba(28,28,30,.86);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,.2);
+    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+}
+.iOSUI-icon {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #3a3a3c;
+    color: #fff;
+    font-size: 11px;
+}
+.iOSUI-track {
+    flex: 1;
+    height: 7px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #48484a;
+}
+.iOSUI-track span {
+    display: block;
+    width: 72%;
+    height: 100%;
+    border-radius: inherit;
+    background: #fff;
+}
+.iOSUI strong {
+    color: #d1d1d6;
+    font-size: 10px;
+    font-weight: 500;
+}`
+},
+{
+    id: 2204,
+    name: "iOS Action Sheet",
+    preview: (
+        <div className="iphone-ios-2204">
+            <div className="iphone-ios-2204__sheet">
+                <div className="iphone-ios-2204__handle"></div>
+                <div className="iphone-ios-2204__title">Choose Action</div>
+                <button><i className="fa-solid fa-share"></i> Share</button>
+                <button><i className="fa-solid fa-copy"></i> Copy</button>
+                <button><i className="fa-solid fa-bookmark"></i> Save</button>
+                <button className="iphone-ios-2204__cancel">Cancel</button>
+            </div>
+        </div>
+    ),
+    html: `<div class="iOSUI">
+    <div class="iOSUI-sheet">
+        <div class="iOSUI-handle"></div>
+        <div class="iOSUI-title">Choose Action</div>
+        <button><i class="fa-solid fa-share"></i> Share</button>
+        <button><i class="fa-solid fa-copy"></i> Copy</button>
+        <button><i class="fa-solid fa-bookmark"></i> Save</button>
+        <button class="iOSUI-cancel">Cancel</button>
+    </div>
+</div>`,
+    css: `.iOSUI {
+    width: 300px;
+    padding: 35px 12px 12px;
+    border-radius: 25px;
+    background: #f2f2f7;
+    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+    box-shadow: 0 20px 50px rgba(15,23,42,.15);
+}
+.iOSUI-handle {
+    width: 38px;
+    height: 5px;
+    margin: 0 auto 18px;
+    border-radius: 999px;
+    background: #c7c7cc;
+}
+.iOSUI-title {
+    margin-bottom: 8px;
+    text-align: center;
+    color: #8e8e93;
+    font-size: 10px;
+    font-weight: 600;
+}
+.iOSUI-sheet button {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 15px;
+    margin-top: 5px;
+    border: 0;
+    border-radius: 13px;
+    background: #fff;
+    color: #007aff;
+    font-size: 13px;
+    text-align: left;
+    cursor: pointer;
+}
+.iOSUI-sheet button:hover {
+    background: #e5e5ea;
+}
+.iOSUI-sheet button i {
+    width: 18px;
+}
+.iOSUI-cancel {
+    justify-content: center !important;
+    margin-top: 10px !important;
+    font-weight: 600;
+}`
+},
+{
+    id: 2205,
+    name: "iOS Contact Card",
+    preview: (
+        <div className="iphone-ios-2205">
+            <div className="iphone-ios-2205__avatar">A</div>
+            <strong>André</strong>
+            <span>Mobile</span>
+            <div className="iphone-ios-2205__actions">
+                <button><i className="fa-solid fa-message"></i></button>
+                <button><i className="fa-solid fa-phone"></i></button>
+                <button><i className="fa-solid fa-video"></i></button>
+                <button><i className="fa-solid fa-envelope"></i></button>
+            </div>
+        </div>
+    ),
+    html: `<div class="iOSUI">
+    <div class="iOSUI-avatar">A</div>
+    <strong>André</strong>
+    <span>Mobile</span>
+    <div class="iOSUI-actions">
+        <button><i class="fa-solid fa-message"></i></button>
+        <button><i class="fa-solid fa-phone"></i></button>
+        <button><i class="fa-solid fa-video"></i></button>
+        <button><i class="fa-solid fa-envelope"></i></button>
+    </div>
+</div>`,
+    css: `.iOSUI {
+    width: 265px;
+    padding: 22px;
+    border-radius: 23px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 16px 38px rgba(15,23,42,.09);
+    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+}
+.iOSUI-avatar {
+    width: 64px;
+    height: 64px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    background: linear-gradient(145deg,#007aff,#5ac8fa);
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+.iOSUI > strong,
+.iOSUI > span {
+    display: block;
+}
+.iOSUI > strong {
+    color: #1c1c1e;
+    font-size: 17px;
+}
+.iOSUI > span {
+    margin-top: 3px;
+    color: #8e8e93;
+    font-size: 10px;
+}
+.iOSUI-actions {
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+    margin-top: 18px;
+}
+.iOSUI-actions button {
+    width: 41px;
+    height: 41px;
+    border: 0;
+    border-radius: 50%;
+    background: #f2f2f7;
+    color: #007aff;
+    cursor: pointer;
+    transition: .16s ease;
+}
+.iOSUI-actions button:hover {
+    transform: translateY(-2px);
+    background: #e5e5ea;
+}`
+},
+{
+    id: 2206,
+    name: "iOS Face ID Prompt",
+    preview: (
+        <div className="iphone-ios-2206">
+            <div className="iphone-ios-2206__scan">
+                <i className="fa-solid fa-face-smile"></i>
+            </div>
+            <strong>Face ID</strong>
+            <span>Look at your iPhone to unlock</span>
+            <button>Cancel</button>
+        </div>
+    ),
+    html: `<div class="iOSUI">
+    <div class="iOSUI-scan">
+        <i class="fa-solid fa-face-smile"></i>
+    </div>
+    <strong>Face ID</strong>
+    <span>Look at your iPhone to unlock</span>
+    <button>Cancel</button>
+</div>`,
+    css: `.iOSUI {
+    width: 275px;
+    padding: 25px;
+    border-radius: 24px;
+    background: rgba(28,28,30,.92);
+    backdrop-filter: blur(20px);
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 20px 50px rgba(0,0,0,.35);
+    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+}
+.iOSUI-scan {
+    width: 68px;
+    height: 68px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 14px;
+    border: 2px solid #34c759;
+    border-radius: 20px;
+    color: #34c759;
+    font-size: 29px;
+    box-shadow: 0 0 20px rgba(52,199,89,.18);
+    animation: face-scan 2s ease-in-out infinite;
+}
+.iOSUI > strong,
+.iOSUI > span {
+    display: block;
+}
+.iOSUI > strong {
+    font-size: 17px;
+}
+.iOSUI > span {
+    max-width: 190px;
+    margin: 6px auto 0;
+    color: #a1a1a6;
+    font-size: 10px;
+    line-height: 1.5;
+}
+.iOSUI > button {
+    margin-top: 18px;
+    border: 0;
+    background: transparent;
+    color: #0a84ff;
+    font-size: 12px;
+    cursor: pointer;
+}
+@keyframes face-scan {
+    0%,
+    100% {
+        transform: scale(.96);
+        box-shadow: 0 0 12px rgba(52,199,89,.12);
+    }
+    50% {
+        transform: scale(1.04);
+        box-shadow: 0 0 24px rgba(52,199,89,.3);
+    }
+}`
+},
+{
+    id: 2207,
+    name: "iOS Notification Banner",
+    preview: (
+        <div className="iphone-ios-2207">
+            <div className="iphone-ios-2207__icon">
+                <i className="fa-solid fa-bell"></i>
+            </div>
+            <div className="iphone-ios-2207__content">
+                <div>
+                    <strong>Calendar</strong>
+                    <span>now</span>
+                </div>
+                <p>Team meeting starts in 10 minutes.</p>
+            </div>
+            <i className="fa-solid fa-chevron-right"></i>
+        </div>
+    ),
+    html: `<div class="iOSUI">
+    <div class="iOSUI-icon">
+        <i class="fa-solid fa-bell"></i>
+    </div>
+    <div class="iOSUI-content">
+        <div>
+            <strong>Calendar</strong>
+            <span>now</span>
+        </div>
+        <p>Team meeting starts in 10 minutes.</p>
+    </div>
+    <i class="fa-solid fa-chevron-right"></i>
+</div>`,
+    css: `.iOSUI {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 12px;
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 19px;
+    background: rgba(42,42,45,.9);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    box-shadow: 0 16px 35px rgba(0,0,0,.22);
+    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+}
+.iOSUI-icon {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #ff9500;
+    color: #fff;
+    font-size: 15px;
+}
+.iOSUI-content {
+    min-width: 0;
+    flex: 1;
+}
+.iOSUI-content > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iOSUI-content strong {
+    font-size: 11px;
+}
+.iOSUI-content span {
+    color: #8e8e93;
+    font-size: 8px;
+}
+.iOSUI-content p {
+    margin: 4px 0 0;
+    color: #d1d1d6;
+    font-size: 10px;
+    line-height: 1.4;
+}
+.iOSUI > i:last-child {
+    color: #8e8e93;
+    font-size: 9px;
+}`
+},
 ];
 
 
