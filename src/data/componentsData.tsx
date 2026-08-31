@@ -37997,7 +37997,585 @@ export const loaders = [
 }`
 },
 
-
+{
+    id: 2074,
+    name: "Legendary Inferno Core",
+    preview: (
+        <div className="loader-2074">
+            <div className="loader-2074__heat"></div>
+            <div className="loader-2074__aura"></div>
+            <div className="loader-2074__outer-ring"></div>
+            <div className="loader-2074__outer-ring loader-2074__outer-ring--two"></div>
+            <div className="loader-2074__outer-ring loader-2074__outer-ring--three"></div>
+            <div className="loader-2074__fire-ring"></div>
+            <div className="loader-2074__fire-ring loader-2074__fire-ring--two"></div>
+            <div className="loader-2074__fire-ring loader-2074__fire-ring--three"></div>
+            <div className="loader-2074__flame loader-2074__flame--one"></div>
+            <div className="loader-2074__flame loader-2074__flame--two"></div>
+            <div className="loader-2074__flame loader-2074__flame--three"></div>
+            <div className="loader-2074__flame loader-2074__flame--four"></div>
+            <div className="loader-2074__flame loader-2074__flame--five"></div>
+            <div className="loader-2074__core">
+                <div className="loader-2074__core-shell">
+                    <div className="loader-2074__core-inner">
+                        <i className="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <div className="loader-2074__core-ring"></div>
+            <div className="loader-2074__core-ring loader-2074__core-ring--two"></div>
+            <div className="loader-2074__ember loader-2074__ember--one"></div>
+            <div className="loader-2074__ember loader-2074__ember--two"></div>
+            <div className="loader-2074__ember loader-2074__ember--three"></div>
+            <div className="loader-2074__ember loader-2074__ember--four"></div>
+            <div className="loader-2074__ember loader-2074__ember--five"></div>
+            <div className="loader-2074__ember loader-2074__ember--six"></div>
+            <div className="loader-2074__spark loader-2074__spark--one"></div>
+            <div className="loader-2074__spark loader-2074__spark--two"></div>
+            <div className="loader-2074__spark loader-2074__spark--three"></div>
+            <div className="loader-2074__spark loader-2074__spark--four"></div>
+            <div className="loader-2074__smoke"></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-heat"></div>
+    <div class="Loader-aura"></div>
+    <div class="Loader-outer-ring"></div>
+    <div class="Loader-outer-ring Loader-outer-ring--two"></div>
+    <div class="Loader-outer-ring Loader-outer-ring--three"></div>
+    <div class="Loader-fire-ring"></div>
+    <div class="Loader-fire-ring Loader-fire-ring--two"></div>
+    <div class="Loader-fire-ring Loader-fire-ring--three"></div>
+    <div class="Loader-flame Loader-flame--one"></div>
+    <div class="Loader-flame Loader-flame--two"></div>
+    <div class="Loader-flame Loader-flame--three"></div>
+    <div class="Loader-flame Loader-flame--four"></div>
+    <div class="Loader-flame Loader-flame--five"></div>
+    <div class="Loader-core">
+        <div class="Loader-core-shell">
+            <div class="Loader-core-inner">
+                <i class="fa-solid fa-fire"></i>
+            </div>
+        </div>
+    </div>
+    <div class="Loader-core-ring"></div>
+    <div class="Loader-core-ring Loader-core-ring--two"></div>
+    <div class="Loader-ember Loader-ember--one"></div>
+    <div class="Loader-ember Loader-ember--two"></div>
+    <div class="Loader-ember Loader-ember--three"></div>
+    <div class="Loader-ember Loader-ember--four"></div>
+    <div class="Loader-ember Loader-ember--five"></div>
+    <div class="Loader-ember Loader-ember--six"></div>
+    <div class="Loader-spark Loader-spark--one"></div>
+    <div class="Loader-spark Loader-spark--two"></div>
+    <div class="Loader-spark Loader-spark--three"></div>
+    <div class="Loader-spark Loader-spark--four"></div>
+    <div class="Loader-smoke"></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    isolation: isolate;
+}
+.Loader-heat {
+    position: absolute;
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(251,191,36,.32),
+            rgba(249,115,22,.18) 34%,
+            rgba(220,38,38,.1) 58%,
+            transparent 78%
+        );
+    filter: blur(20px);
+    animation: fire-heat 2.5s ease-in-out infinite;
+}
+.Loader-aura {
+    position: absolute;
+    width: 145px;
+    height: 180px;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50% 50% 42% 42%;
+    background:
+        radial-gradient(
+            ellipse,
+            rgba(253,224,71,.24),
+            rgba(249,115,22,.14) 38%,
+            rgba(185,28,28,.08) 64%,
+            transparent 79%
+        );
+    filter: blur(17px);
+    animation: fire-aura 1.7s ease-in-out infinite;
+}
+.Loader-outer-ring {
+    position: absolute;
+    inset: 15px;
+    border-radius: 50%;
+    border: 2px solid rgba(251,146,60,.12);
+    animation: fire-spin 6.5s linear infinite;
+}
+.Loader-outer-ring::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    width: 7px;
+    height: 7px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #fde68a;
+    box-shadow:
+        0 0 7px #fde68a,
+        0 0 16px #f59e0b,
+        0 0 28px rgba(249,115,22,.8);
+}
+.Loader-outer-ring--two {
+    inset: 28px;
+    border-color: rgba(239,68,68,.13);
+    animation-duration: 4.3s;
+    animation-direction: reverse;
+}
+.Loader-outer-ring--two::before {
+    top: auto;
+    bottom: -4px;
+    background: #fb923c;
+    box-shadow:
+        0 0 7px #fb923c,
+        0 0 16px #ef4444,
+        0 0 28px rgba(239,68,68,.7);
+}
+.Loader-outer-ring--three {
+    inset: 42px;
+    border-style: dashed;
+    border-color: rgba(251,191,36,.12);
+    animation-duration: 3s;
+}
+.Loader-fire-ring {
+    position: absolute;
+    inset: 6px;
+    border-radius: 50%;
+    background:
+        conic-gradient(
+            from 0deg,
+            transparent 0deg,
+            transparent 12deg,
+            #fbbf24 18deg,
+            #f97316 26deg,
+            transparent 36deg,
+            transparent 68deg,
+            #ef4444 75deg,
+            #f97316 84deg,
+            transparent 94deg,
+            transparent 121deg,
+            #fde047 128deg,
+            #f59e0b 138deg,
+            transparent 148deg,
+            transparent 178deg,
+            #ef4444 185deg,
+            #fb923c 194deg,
+            transparent 205deg,
+            transparent 237deg,
+            #fbbf24 245deg,
+            #f97316 255deg,
+            transparent 266deg,
+            transparent 303deg,
+            #ef4444 312deg,
+            #fb7185 319deg,
+            transparent 331deg,
+            transparent 355deg,
+            #facc15
+        );
+    -webkit-mask:
+        radial-gradient(
+            circle,
+            transparent 0 67%,
+            #000 68% 73%,
+            transparent 74%
+        );
+    mask:
+        radial-gradient(
+            circle,
+            transparent 0 67%,
+            #000 68% 73%,
+            transparent 74%
+        );
+    filter:
+        drop-shadow(0 0 5px #f97316)
+        drop-shadow(0 0 12px rgba(239,68,68,.55));
+    animation: fire-ring-spin 1.9s linear infinite;
+}
+.Loader-fire-ring--two {
+    inset: 18px;
+    opacity: .72;
+    animation-duration: 1.25s;
+    animation-direction: reverse;
+}
+.Loader-fire-ring--three {
+    inset: 31px;
+    opacity: .48;
+    animation-duration: 3s;
+}
+.Loader-flame {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform-origin: 50% 100%;
+    border-radius: 55% 16% 55% 16%;
+    background:
+        linear-gradient(
+            150deg,
+            #fff7ed 0%,
+            #fde68a 22%,
+            #f97316 58%,
+            #dc2626 100%
+        );
+    box-shadow:
+        0 0 8px #f97316,
+        0 0 16px rgba(239,68,68,.7);
+    z-index: 3;
+}
+.Loader-flame::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: inherit;
+    background:
+        linear-gradient(
+            150deg,
+            #fff,
+            #fef08a 30%,
+            #fb923c 65%,
+            #dc2626
+        );
+}
+.Loader-flame::after {
+    content: "";
+    position: absolute;
+    width: 32%;
+    height: 34%;
+    left: 18%;
+    top: 12%;
+    border-radius: 50%;
+    background: rgba(255,255,255,.72);
+    filter: blur(4px);
+}
+.Loader-flame--one {
+    width: 29px;
+    height: 87px;
+    transform: translateX(-50%) rotate(-16deg);
+    animation: flame-one 1s ease-in-out infinite;
+}
+.Loader-flame--two {
+    width: 24px;
+    height: 74px;
+    transform: translateX(-50%) rotate(14deg);
+    animation: flame-two .85s ease-in-out infinite;
+    animation-delay: -.18s;
+}
+.Loader-flame--three {
+    width: 18px;
+    height: 59px;
+    transform: translateX(-50%) translateX(-28px) rotate(-29deg);
+    animation: flame-three 1.2s ease-in-out infinite;
+    animation-delay: -.4s;
+}
+.Loader-flame--four {
+    width: 19px;
+    height: 64px;
+    transform: translateX(-50%) translateX(28px) rotate(27deg);
+    animation: flame-four 1.08s ease-in-out infinite;
+    animation-delay: -.3s;
+}
+.Loader-flame--five {
+    width: 13px;
+    height: 46px;
+    transform: translateX(-50%) rotate(-2deg);
+    animation: flame-five .7s ease-in-out infinite;
+    animation-delay: -.08s;
+}
+.Loader-core {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 50% 37%,
+            rgba(254,240,138,.22),
+            transparent 45%
+        ),
+        #140805;
+    border: 2px solid rgba(251,146,60,.7);
+    box-shadow:
+        0 0 13px rgba(249,115,22,.75),
+        0 0 30px rgba(239,68,68,.5),
+        0 0 62px rgba(220,38,38,.23),
+        inset 0 0 25px rgba(249,115,22,.2);
+    z-index: 8;
+    animation: core-fire 1.7s ease-in-out infinite;
+}
+.Loader-core-shell {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            #7c2d12 0%,
+            #9a3412 28%,
+            #431407 54%,
+            #140805 82%
+        );
+    border: 1px solid rgba(254,215,170,.48);
+    box-shadow:
+        inset 0 0 18px rgba(249,115,22,.38),
+        0 0 15px rgba(249,115,22,.28);
+}
+.Loader-core-shell::before {
+    content: "";
+    position: absolute;
+    inset: -7px;
+    border-radius: 50%;
+    border: 1px solid rgba(253,186,116,.14);
+}
+.Loader-core-shell::after {
+    content: "";
+    position: absolute;
+    inset: 8px;
+    border-radius: 50%;
+    border: 1px dashed rgba(251,191,36,.24);
+    animation: shell-fire-spin 3s linear infinite;
+}
+.Loader-core-inner {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            #fef3c7 0%,
+            #fbbf24 25%,
+            #f97316 50%,
+            #7f1d1d 77%
+        );
+    box-shadow:
+        0 0 11px #f97316,
+        0 0 23px rgba(249,115,22,.8),
+        inset 0 0 13px rgba(255,255,255,.22);
+    animation: inner-fire 1.1s ease-in-out infinite;
+}
+.Loader-core-inner::before {
+    content: "";
+    position: absolute;
+    inset: -4px;
+    border-radius: 50%;
+    border: 1px solid rgba(254,240,138,.38);
+}
+.Loader-core-inner i {
+    position: relative;
+    color: #fff7ed;
+    font-size: 21px;
+    text-shadow:
+        0 0 6px #fff7ed,
+        0 0 13px #fbbf24,
+        0 0 25px #f97316;
+    animation: fire-icon .72s ease-in-out infinite;
+}
+.Loader-core-ring {
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    border-radius: 50%;
+    border: 1px solid rgba(251,146,60,.25);
+    z-index: 7;
+    animation: core-ring-fire 1.45s linear infinite;
+}
+.Loader-core-ring::before,
+.Loader-core-ring::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+.Loader-core-ring::before {
+    width: 7px;
+    height: 7px;
+    top: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fde68a;
+    box-shadow:
+        0 0 6px #fde68a,
+        0 0 16px #f59e0b;
+}
+.Loader-core-ring::after {
+    width: 4px;
+    height: 4px;
+    top: 50%;
+    right: -2px;
+    transform: translateY(-50%);
+    background: #fb923c;
+    box-shadow:
+        0 0 6px #fb923c,
+        0 0 13px #ef4444;
+}
+.Loader-core-ring--two {
+    width: 130px;
+    height: 130px;
+    border-color: rgba(239,68,68,.15);
+    animation-duration: 2.1s;
+    animation-direction: reverse;
+}
+.Loader-core-ring--two::before {
+    top: auto;
+    bottom: 7px;
+    left: auto;
+    right: 8px;
+    width: 5px;
+    height: 5px;
+    transform: none;
+    background: #facc15;
+}
+.Loader-core-ring--two::after {
+    top: 9px;
+    right: auto;
+    left: 8px;
+    width: 5px;
+    height: 5px;
+    transform: none;
+    background: #fb7185;
+}
+.Loader-ember {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fde68a;
+    box-shadow:
+        0 0 6px #fde68a,
+        0 0 14px #f97316,
+        0 0 22px rgba(239,68,68,.7);
+    z-index: 9;
+}
+.Loader-ember--one {
+    left: 61px;
+    top: 59px;
+    animation: ember-one 2s linear infinite;
+}
+.Loader-ember--two {
+    right: 54px;
+    top: 52px;
+    animation: ember-two 1.65s linear infinite;
+    animation-delay: -.4s;
+}
+.Loader-ember--three {
+    left: 45px;
+    top: 119px;
+    animation: ember-three 2.3s linear infinite;
+    animation-delay: -.7s;
+}
+.Loader-ember--four {
+    right: 37px;
+    top: 127px;
+    animation: ember-four 2.1s linear infinite;
+    animation-delay: -.3s;
+}
+.Loader-ember--five {
+    left: 87px;
+    top: 42px;
+    width: 4px;
+    height: 4px;
+    animation: ember-five 1.8s linear infinite;
+    animation-delay: -.6s;
+}
+.Loader-ember--six {
+    right: 82px;
+    bottom: 48px;
+    width: 4px;
+    height: 4px;
+    animation: ember-six 2.2s linear infinite;
+    animation-delay: -.9s;
+}
+.Loader-spark {
+    position: absolute;
+    width: 4px;
+    height: 15px;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            to bottom,
+            #fff,
+            #fde68a,
+            #f97316,
+            transparent
+        );
+    box-shadow:
+        0 0 6px #fbbf24,
+        0 0 13px #f97316;
+    z-index: 10;
+}
+.Loader-spark--one {
+    top: 42px;
+    left: 82px;
+    transform: rotate(28deg);
+    animation: spark-one .9s ease-in-out infinite;
+}
+.Loader-spark--two {
+    top: 47px;
+    right: 71px;
+    transform: rotate(-32deg);
+    animation: spark-two 1.2s ease-in-out infinite;
+    animation-delay: -.3s;
+}
+.Loader-spark--three {
+    bottom: 50px;
+    left: 69px;
+    transform: rotate(-20deg);
+    animation: spark-three 1.05s ease-in-out infinite;
+    animation-delay: -.45s;
+}
+.Loader-spark--four {
+    bottom: 40px;
+    right: 73px;
+    transform: rotate(22deg);
+    animation: spark-four 1.35s ease-in-out infinite;
+    animation-delay: -.6s;
+}
+.Loader-smoke {
+    position: absolute;
+    width: 120px;
+    height: 70px;
+    top: 23px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            ellipse,
+            rgba(120,53,15,.16),
+            transparent 72%
+        );
+    filter: blur(14px);
+    animation: smoke-rise 2.4s ease-in-out infinite;
+    z-index: 1;
+}`
+},
 ];
 
 
