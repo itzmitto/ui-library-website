@@ -1,4 +1,5 @@
 import "../pages/All.css";   
+import Iphone from "../pages/Iphone";
 
 export const buttons = [
     {
@@ -110291,9 +110292,696 @@ export const heroSections = [
 
 
 
-
-
-
+export const iphones = [
+    {
+    id: 2194,
+    name: "iOS Dynamic Island Notification",
+    preview: (
+        <div className="iphone-ui-2194">
+            <div className="iphone-ui-2194__island">
+                <div className="iphone-ui-2194__camera"></div>
+                <div className="iphone-ui-2194__sensor"></div>
+            </div>
+            <div className="iphone-ui-2194__notification">
+                <div className="iphone-ui-2194__app-icon">
+                    <i className="fa-solid fa-message"></i>
+                </div>
+                <div className="iphone-ui-2194__text">
+                    <div className="iphone-ui-2194__top">
+                        <strong>Messages</strong>
+                        <span>now</span>
+                    </div>
+                    <p>Hey! Are you free tonight?</p>
+                </div>
+            </div>
+        </div>
+    ),
+    html: `<div class="iPhoneUI">
+    <div class="iPhoneUI-island">
+        <div class="iPhoneUI-camera"></div>
+        <div class="iPhoneUI-sensor"></div>
+    </div>
+    <div class="iPhoneUI-notification">
+        <div class="iPhoneUI-app-icon">
+            <i class="fa-solid fa-message"></i>
+        </div>
+        <div class="iPhoneUI-text">
+            <div class="iPhoneUI-top">
+                <strong>Messages</strong>
+                <span>now</span>
+            </div>
+            <p>Hey! Are you free tonight?</p>
+        </div>
+    </div>
+</div>`,
+    css: `.iPhoneUI {
+    position: relative;
+    width: 310px;
+    min-height: 180px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 18px;
+    overflow: hidden;
+    border: 7px solid #111113;
+    border-radius: 38px;
+    background:
+        radial-gradient(
+            circle at 50% 100%,
+            rgba(0,122,255,.16),
+            transparent 40%
+        ),
+        linear-gradient(
+            180deg,
+            #202124,
+            #0e0e10
+        );
+    box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,.08),
+        0 25px 70px rgba(0,0,0,.22);
+}
+.iPhoneUI-island {
+    position: relative;
+    z-index: 4;
+    width: 92px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 11px;
+    border-radius: 999px;
+    background: #000;
+    box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,.05),
+        0 3px 10px rgba(0,0,0,.4);
+}
+.iPhoneUI-camera {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 35% 30%,
+            #425466,
+            #111 55%,
+            #000
+        );
+    box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,.08),
+        0 0 4px rgba(0,122,255,.3);
+}
+.iPhoneUI-sensor {
+    position: absolute;
+    right: 27px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #050505;
+}
+.iPhoneUI-notification {
+    position: absolute;
+    top: 62px;
+    left: 11px;
+    right: 11px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 12px;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 18px;
+    background: rgba(42,42,45,.82);
+    backdrop-filter: blur(20px);
+    box-shadow:
+        0 10px 25px rgba(0,0,0,.22),
+        inset 0 1px rgba(255,255,255,.07);
+    color: #fff;
+}
+.iPhoneUI-app-icon {
+    width: 37px;
+    height: 37px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(
+        145deg,
+        #34c759,
+        #1f9d44
+    );
+    color: #fff;
+    font-size: 16px;
+}
+.iPhoneUI-text {
+    min-width: 0;
+    flex: 1;
+}
+.iPhoneUI-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+.iPhoneUI-top strong {
+    font-size: 12px;
+    font-weight: 700;
+}
+.iPhoneUI-top span {
+    color: #8e8e93;
+    font-size: 9px;
+}
+.iPhoneUI-text p {
+    margin: 4px 0 0;
+    color: #d1d1d6;
+    font-size: 11px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}`
+},
+{
+    id: 2195,
+    name: "iOS Quick Settings Card",
+    preview: (
+        <div className="iphone-ui-2195">
+            <div className="iphone-ui-2195__header">
+                <strong>Control Center</strong>
+                <i className="fa-solid fa-signal"></i>
+            </div>
+            <div className="iphone-ui-2195__grid">
+                <button className="iphone-ui-2195__tile iphone-ui-2195__tile--blue">
+                    <i className="fa-solid fa-wifi"></i>
+                    <span>Wi-Fi</span>
+                </button>
+                <button className="iphone-ui-2195__tile iphone-ui-2195__tile--blue">
+                    <i className="fa-brands fa-bluetooth-b"></i>
+                    <span>Bluetooth</span>
+                </button>
+                <button className="iphone-ui-2195__tile">
+                    <i className="fa-solid fa-plane"></i>
+                    <span>Airplane</span>
+                </button>
+                <button className="iphone-ui-2195__tile">
+                    <i className="fa-solid fa-moon"></i>
+                    <span>Focus</span>
+                </button>
+            </div>
+            <div className="iphone-ui-2195__slider">
+                <div className="iphone-ui-2195__slider-icon">
+                    <i className="fa-solid fa-sun"></i>
+                </div>
+                <div className="iphone-ui-2195__track">
+                    <div className="iphone-ui-2195__fill"></div>
+                </div>
+            </div>
+        </div>
+    ),
+    html: `<div class="iPhoneUI">
+    <div class="iPhoneUI-header">
+        <strong>Control Center</strong>
+        <i class="fa-solid fa-signal"></i>
+    </div>
+    <div class="iPhoneUI-grid">
+        <button class="iPhoneUI-tile iPhoneUI-tile--blue">
+            <i class="fa-solid fa-wifi"></i>
+            <span>Wi-Fi</span>
+        </button>
+        <button class="iPhoneUI-tile iPhoneUI-tile--blue">
+            <i class="fa-brands fa-bluetooth-b"></i>
+            <span>Bluetooth</span>
+        </button>
+        <button class="iPhoneUI-tile">
+            <i class="fa-solid fa-plane"></i>
+            <span>Airplane</span>
+        </button>
+        <button class="iPhoneUI-tile">
+            <i class="fa-solid fa-moon"></i>
+            <span>Focus</span>
+        </button>
+    </div>
+    <div class="iPhoneUI-slider">
+        <div class="iPhoneUI-slider-icon">
+            <i class="fa-solid fa-sun"></i>
+        </div>
+        <div class="iPhoneUI-track">
+            <div class="iPhoneUI-fill"></div>
+        </div>
+    </div>
+</div>`,
+    css: `.iPhoneUI {
+    width: 300px;
+    padding: 16px;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 27px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255,255,255,.5),
+            rgba(255,255,255,.16)
+        );
+    backdrop-filter: blur(22px);
+    box-shadow:
+        0 25px 60px rgba(15,23,42,.16),
+        inset 0 1px rgba(255,255,255,.75);
+    color: #1d1d1f;
+}
+.iPhoneUI-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    padding: 2px 2px;
+}
+.iPhoneUI-header strong {
+    font-size: 13px;
+    font-weight: 700;
+}
+.iPhoneUI-header i {
+    color: #636366;
+    font-size: 11px;
+}
+.iPhoneUI-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 9px;
+}
+.iPhoneUI-tile {
+    min-height: 73px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 12px;
+    border: 0;
+    border-radius: 17px;
+    background: rgba(255,255,255,.68);
+    color: #1d1d1f;
+    box-shadow:
+        inset 0 1px rgba(255,255,255,.8),
+        0 5px 12px rgba(15,23,42,.06);
+    cursor: pointer;
+    transition:
+        transform .18s ease,
+        box-shadow .18s ease;
+}
+.iPhoneUI-tile:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        inset 0 1px rgba(255,255,255,.9),
+        0 9px 18px rgba(15,23,42,.1);
+}
+.iPhoneUI-tile i {
+    font-size: 16px;
+}
+.iPhoneUI-tile span {
+    font-size: 10px;
+    font-weight: 600;
+}
+.iPhoneUI-tile--blue {
+    background: #007aff;
+    color: #fff;
+}
+.iPhoneUI-slider {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 10px;
+    padding: 11px;
+    border-radius: 17px;
+    background: rgba(255,255,255,.7);
+}
+.iPhoneUI-slider-icon {
+    width: 27px;
+    height: 27px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    color: #ff9f0a;
+    background: rgba(255,159,10,.12);
+    font-size: 11px;
+}
+.iPhoneUI-track {
+    flex: 1;
+    height: 7px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #d1d1d6;
+}
+.iPhoneUI-fill {
+    width: 72%;
+    height: 100%;
+    border-radius: inherit;
+    background: #ff9f0a;
+}`
+},{
+    id: 2196,
+    name: "iOS Glass Button",
+    preview: (
+        <div className="iphone-button-2196">
+            <button>
+                <i className="fa-solid fa-arrow-right"></i>
+                Continue
+            </button>
+        </div>
+    ),
+    html: `<button class="iOSButton">
+    <i class="fa-solid fa-arrow-right"></i>
+    Continue
+</button>`,
+    css: `.iOSButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 150px;
+    height: 48px;
+    padding: 0 20px;
+    border: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        #2f9bff 0%,
+        #007aff 100%
+    );
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    box-shadow:
+        inset 0 1px rgba(255,255,255,.35),
+        0 5px 14px rgba(0,122,255,.28);
+    cursor: pointer;
+    transition:
+        transform .16s ease,
+        box-shadow .16s ease,
+        filter .16s ease;
+}
+.iOSButton::before {
+    content: "";
+    position: absolute;
+}
+.iOSButton:hover {
+    filter: brightness(1.04);
+    box-shadow:
+        inset 0 1px rgba(255,255,255,.4),
+        0 7px 18px rgba(0,122,255,.34);
+}
+.iOSButton:active {
+    transform: scale(.97);
+    box-shadow:
+        inset 0 2px 5px rgba(0,0,0,.16),
+        0 2px 7px rgba(0,122,255,.22);
+}
+.iOSButton i {
+    font-size: 13px;
+}`
+},{
+    id: 2197,
+    name: "iOS Passcode Keypad",
+    preview: (
+        <div className="iphone-passcode-2197">
+            <div className="iphone-passcode-2197__title">
+                <span>Enter Passcode</span>
+                <small>iPhone</small>
+            </div>
+            <div className="iphone-passcode-2197__dots">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div className="iphone-passcode-2197__keypad">
+                <button>
+                    <strong>1</strong>
+                </button>
+                <button>
+                    <strong>2</strong>
+                    <span>ABC</span>
+                </button>
+                <button>
+                    <strong>3</strong>
+                    <span>DEF</span>
+                </button>
+                <button>
+                    <strong>4</strong>
+                    <span>GHI</span>
+                </button>
+                <button>
+                    <strong>5</strong>
+                    <span>JKL</span>
+                </button>
+                <button>
+                    <strong>6</strong>
+                    <span>MNO</span>
+                </button>
+                <button>
+                    <strong>7</strong>
+                    <span>PQRS</span>
+                </button>
+                <button>
+                    <strong>8</strong>
+                    <span>TUV</span>
+                </button>
+                <button>
+                    <strong>9</strong>
+                    <span>WXYZ</span>
+                </button>
+                <button className="iphone-passcode-2197__empty"></button>
+                <button>
+                    <strong>0</strong>
+                </button>
+                <button className="iphone-passcode-2197__delete">
+                    <i className="fa-solid fa-delete-left"></i>
+                </button>
+            </div>
+            <button className="iphone-passcode-2197__cancel">
+                Cancel
+            </button>
+        </div>
+    ),
+    html: `<div class="iOSPasscode">
+    <div class="iOSPasscode-title">
+        <span>Enter Passcode</span>
+        <small>iPhone</small>
+    </div>
+    <div class="iOSPasscode-dots">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="iOSPasscode-keypad">
+        <button>
+            <strong>1</strong>
+        </button>
+        <button>
+            <strong>2</strong>
+            <span>ABC</span>
+        </button>
+        <button>
+            <strong>3</strong>
+            <span>DEF</span>
+        </button>
+        <button>
+            <strong>4</strong>
+            <span>GHI</span>
+        </button>
+        <button>
+            <strong>5</strong>
+            <span>JKL</span>
+        </button>
+        <button>
+            <strong>6</strong>
+            <span>MNO</span>
+        </button>
+        <button>
+            <strong>7</strong>
+            <span>PQRS</span>
+        </button>
+        <button>
+            <strong>8</strong>
+            <span>TUV</span>
+        </button>
+        <button>
+            <strong>9</strong>
+            <span>WXYZ</span>
+        </button>
+        <button class="iOSPasscode-empty"></button>
+        <button>
+            <strong>0</strong>
+        </button>
+        <button class="iOSPasscode-delete">
+            <i class="fa-solid fa-delete-left"></i>
+        </button>
+    </div>
+    <button class="iOSPasscode-cancel">
+        Cancel
+    </button>
+</div>`,
+    css: `.iOSPasscode {
+    width: 300px;
+    min-height: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px 22px 22px;
+    border-radius: 38px;
+    background:
+        linear-gradient(
+            180deg,
+            #1c1c1e 0%,
+            #111113 100%
+        );
+    box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,.06),
+        0 25px 60px rgba(0,0,0,.3);
+    color: #fff;
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "SF Pro Display",
+        "SF Pro Text",
+        sans-serif;
+}
+.iOSPasscode-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.iOSPasscode-title span {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -.4px;
+}
+.iOSPasscode-title small {
+    color: #8e8e93;
+    font-size: 11px;
+}
+.iOSPasscode-dots {
+    display: flex;
+    gap: 10px;
+    margin: 23px 0 24px;
+}
+.iOSPasscode-dots span {
+    width: 9px;
+    height: 9px;
+    border: 1px solid #8e8e93;
+    border-radius: 50%;
+    background: transparent;
+    transition:
+        background .16s ease,
+        transform .16s ease;
+}
+.iOSPasscode-dots span:first-child {
+    background: #fff;
+}
+.iOSPasscode-keypad {
+    width: 235px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 11px;
+}
+.iOSPasscode-keypad button {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            145deg,
+            #363638,
+            #242426
+        );
+    color: #fff;
+    box-shadow:
+        inset 0 1px rgba(255,255,255,.08),
+        0 4px 10px rgba(0,0,0,.22);
+    cursor: pointer;
+    transition:
+        transform .12s ease,
+        background .12s ease,
+        box-shadow .12s ease;
+}
+.iOSPasscode-keypad button:hover {
+    background:
+        linear-gradient(
+            145deg,
+            #464649,
+            #2f2f31
+        );
+    box-shadow:
+        inset 0 1px rgba(255,255,255,.12),
+        0 7px 15px rgba(0,0,0,.3);
+    transform: translateY(-1px);
+}
+.iOSPasscode-keypad button:active {
+    transform: scale(.93);
+    background: #5a5a5e;
+    box-shadow:
+        inset 0 2px 5px rgba(0,0,0,.35),
+        0 2px 5px rgba(0,0,0,.2);
+}
+.iOSPasscode-keypad button strong {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1;
+}
+.iOSPasscode-keypad button span {
+    margin-top: 3px;
+    color: #d1d1d6;
+    font-size: 7px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.iOSPasscode-empty {
+    background: transparent !important;
+    box-shadow: none !important;
+    cursor: default !important;
+}
+.iOSPasscode-empty:hover,
+.iOSPasscode-empty:active {
+    transform: none !important;
+}
+.iOSPasscode-delete {
+    background: transparent !important;
+    box-shadow: none !important;
+    color: #fff;
+}
+.iOSPasscode-delete:hover {
+    background: rgba(255,255,255,.08) !important;
+}
+.iOSPasscode-delete i {
+    font-size: 22px;
+}
+.iOSPasscode-cancel {
+    margin-top: 19px;
+    border: 0;
+    background: transparent;
+    color: #0a84ff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition:
+        opacity .15s ease,
+        transform .15s ease;
+}
+.iOSPasscode-cancel:hover {
+    opacity: .72;
+}
+.iOSPasscode-cancel:active {
+    transform: scale(.96);
+}`
+},
+];
 
 
 
@@ -110331,9 +111019,8 @@ export const allComponents = [
   ...skeletons,
   ...sidebars,
   ...heroSections,
-  ...iphone,
+  ...iphones
 ];
-
 
 
 

@@ -30,12 +30,11 @@ const sidebarItems = [
   { label: "Skeletons", path: "/elements/skeletons" },
   { label: "Sidebars", path: "/elements/sidebars" },
   { label: "Hero Sections", path: "/elements/hero-sections" },
-  { label: "IPhone", path: "/elements/iphone", active: true },
+  { label: "iPhone", path: "/elements/iphone", active: true }
 ];
 
 export default function Iphone() {
-  const [selected, setSelected] = useState<(typeof Iphones)[0] | null>(null);
-
+  const [selected, setSelected] = useState<typeof iphones[0] | null>(null);
   return (
     <div className="all-page">
       <Header />
@@ -57,23 +56,30 @@ export default function Iphone() {
             <p>Apple iPhone inspired UI components</p>
           </div>
           <div className="all-grid">
-            {Iphones.map((item) => (
+            {iphones.map((item) => (
               <div
                 key={item.id}
                 className="all-card"
                 onClick={() => setSelected(item)}
                 style={{ cursor: "pointer" }}
               >
-                <div className="all-card-preview">{item.preview}</div>
+                <div className="all-card-preview">
+                  {item.preview}
+                </div>
                 <div className="all-card-footer">
-                  <span className="all-card-name">{item.name}</span>
+                  <span className="all-card-name">
+                    {item.name}
+                  </span>
                 </div>
               </div>
             ))}
           </div>
         </main>
       </div>
-      <ComponentModal item={selected} onClose={() => setSelected(null)} />
+      <ComponentModal
+        item={selected}
+        onClose={() => setSelected(null)}
+      />
     </div>
   );
 }
