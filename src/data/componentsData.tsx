@@ -37456,7 +37456,546 @@ export const loaders = [
     }
 }`
 }, 
-
+{
+    id: 2073,
+    name: "Legendary Aqua Vortex",
+    preview: (
+        <div className="loader-2073">
+            <div className="loader-2073__mist"></div>
+            <div className="loader-2073__aura"></div>
+            <div className="loader-2073__ring loader-2073__ring--one"></div>
+            <div className="loader-2073__ring loader-2073__ring--two"></div>
+            <div className="loader-2073__ring loader-2073__ring--three"></div>
+            <div className="loader-2073__vortex"></div>
+            <div className="loader-2073__drop loader-2073__drop--one"></div>
+            <div className="loader-2073__drop loader-2073__drop--two"></div>
+            <div className="loader-2073__drop loader-2073__drop--three"></div>
+            <div className="loader-2073__drop loader-2073__drop--four"></div>
+            <div className="loader-2073__bubble loader-2073__bubble--one"></div>
+            <div className="loader-2073__bubble loader-2073__bubble--two"></div>
+            <div className="loader-2073__bubble loader-2073__bubble--three"></div>
+            <div className="loader-2073__core">
+                <div className="loader-2073__core-inner">
+                    <i className="fa-solid fa-water"></i>
+                </div>
+            </div>
+            <div className="loader-2073__core-ring"></div>
+            <div className="loader-2073__core-ring loader-2073__core-ring--two"></div>
+            <div className="loader-2073__stream loader-2073__stream--one"></div>
+            <div className="loader-2073__stream loader-2073__stream--two"></div>
+            <div className="loader-2073__stream loader-2073__stream--three"></div>
+            <div className="loader-2073__surface"></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-mist"></div>
+    <div class="Loader-aura"></div>
+    <div class="Loader-ring Loader-ring--one"></div>
+    <div class="Loader-ring Loader-ring--two"></div>
+    <div class="Loader-ring Loader-ring--three"></div>
+    <div class="Loader-vortex"></div>
+    <div class="Loader-drop Loader-drop--one"></div>
+    <div class="Loader-drop Loader-drop--two"></div>
+    <div class="Loader-drop Loader-drop--three"></div>
+    <div class="Loader-drop Loader-drop--four"></div>
+    <div class="Loader-bubble Loader-bubble--one"></div>
+    <div class="Loader-bubble Loader-bubble--two"></div>
+    <div class="Loader-bubble Loader-bubble--three"></div>
+    <div class="Loader-core">
+        <div class="Loader-core-inner">
+            <i class="fa-solid fa-water"></i>
+        </div>
+    </div>
+    <div class="Loader-core-ring"></div>
+    <div class="Loader-core-ring Loader-core-ring--two"></div>
+    <div class="Loader-stream Loader-stream--one"></div>
+    <div class="Loader-stream Loader-stream--two"></div>
+    <div class="Loader-stream Loader-stream--three"></div>
+    <div class="Loader-surface"></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    isolation: isolate;
+}
+.Loader-mist {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle,
+        rgba(125, 211, 252, 0.28),
+        rgba(34, 211, 238, 0.12) 45%,
+        transparent 75%
+    );
+    filter: blur(18px);
+    animation: aqua-mist 3s ease-in-out infinite;
+}
+.Loader-aura {
+    position: absolute;
+    width: 145px;
+    height: 175px;
+    border-radius: 50%;
+    background: radial-gradient(
+        ellipse,
+        rgba(56, 189, 248, 0.2),
+        rgba(14, 165, 233, 0.08) 55%,
+        transparent 78%
+    );
+    filter: blur(13px);
+    animation: water-aura 2s ease-in-out infinite;
+}
+.Loader-ring {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+.Loader-ring--one {
+    inset: 10px;
+    border-top-color: #22d3ee;
+    border-right-color: #38bdf8;
+    animation: aqua-spin 2.2s linear infinite;
+}
+.Loader-ring--two {
+    inset: 22px;
+    border-left-color: #60a5fa;
+    border-bottom-color: #0ea5e9;
+    animation: aqua-spin 1.4s linear infinite reverse;
+}
+.Loader-ring--three {
+    inset: 35px;
+    border-top-color: rgba(125, 211, 252, 0.65);
+    border-bottom-color: rgba(34, 211, 238, 0.35);
+    animation: aqua-spin 3.4s linear infinite;
+}
+.Loader-vortex {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(
+        from 0deg,
+        transparent,
+        rgba(34, 211, 238, 0.22),
+        transparent 30%,
+        rgba(59, 130, 246, 0.2),
+        transparent 55%,
+        rgba(103, 232, 249, 0.2),
+        transparent
+    );
+    filter: blur(1px);
+    animation: vortex-spin 2s linear infinite;
+}
+.Loader-vortex::before {
+    content: "";
+    position: absolute;
+    inset: 25px;
+    border-radius: 50%;
+    border: 1px solid rgba(125, 211, 252, 0.25);
+}
+.Loader-vortex::after {
+    content: "";
+    position: absolute;
+    inset: 48px;
+    border-radius: 50%;
+    border: 1px dashed rgba(103, 232, 249, 0.2);
+}
+.Loader-drop {
+    position: absolute;
+    width: 9px;
+    height: 13px;
+    border-radius: 60% 40% 60% 40%;
+    background: linear-gradient(
+        145deg,
+        #e0f2fe,
+        #7dd3fc 40%,
+        #0ea5e9 75%,
+        #0369a1
+    );
+    box-shadow:
+        0 0 6px #38bdf8,
+        0 0 14px rgba(14, 165, 233, 0.7);
+}
+.Loader-drop--one {
+    top: 40px;
+    left: 55px;
+    animation: drop-one 2.2s ease-in-out infinite;
+}
+.Loader-drop--two {
+    top: 49px;
+    right: 52px;
+    animation: drop-two 1.9s ease-in-out infinite;
+}
+.Loader-drop--three {
+    bottom: 54px;
+    left: 43px;
+    animation: drop-three 2.5s ease-in-out infinite;
+}
+.Loader-drop--four {
+    bottom: 48px;
+    right: 43px;
+    animation: drop-four 2s ease-in-out infinite;
+}
+.Loader-bubble {
+    position: absolute;
+    border: 1px solid rgba(186, 230, 253, 0.5);
+    border-radius: 50%;
+    background: rgba(125, 211, 252, 0.08);
+    box-shadow:
+        inset -2px -2px 4px rgba(14, 165, 233, 0.12),
+        0 0 6px rgba(56, 189, 248, 0.3);
+}
+.Loader-bubble--one {
+    width: 8px;
+    height: 8px;
+    left: 52px;
+    bottom: 62px;
+    animation: bubble-one 2.5s ease-in-out infinite;
+}
+.Loader-bubble--two {
+    width: 5px;
+    height: 5px;
+    right: 53px;
+    bottom: 58px;
+    animation: bubble-two 2s ease-in-out infinite;
+}
+.Loader-bubble--three {
+    width: 11px;
+    height: 11px;
+    right: 76px;
+    bottom: 30px;
+    animation: bubble-three 3s ease-in-out infinite;
+}
+.Loader-core {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle,
+        rgba(125, 211, 252, 0.2),
+        transparent 42%
+    ), #02131f;
+    border: 2px solid rgba(56, 189, 248, 0.7);
+    box-shadow:
+        0 0 12px rgba(56, 189, 248, 0.8),
+        0 0 30px rgba(14, 165, 233, 0.5),
+        inset 0 0 22px rgba(34, 211, 238, 0.2);
+    z-index: 6;
+    animation: core-pulse 2s ease-in-out infinite;
+}
+.Loader-core-inner {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle,
+        #67e8f9,
+        #0ea5e9 30%,
+        #0369a1 58%,
+        #020617
+    );
+    box-shadow:
+        0 0 12px #38bdf8,
+        0 0 22px rgba(14, 165, 233, 0.8),
+        inset 0 0 14px rgba(224, 242, 254, 0.3);
+}
+.Loader-core-inner::before {
+    content: "";
+    position: absolute;
+    inset: -5px;
+    border: 1px solid rgba(224, 242, 254, 0.35);
+    border-radius: 50%;
+}
+.Loader-core-inner i {
+    position: relative;
+    color: #e0f2fe;
+    font-size: 22px;
+    text-shadow:
+        0 0 7px #e0f2fe,
+        0 0 15px #38bdf8,
+        0 0 26px #0ea5e9;
+    animation: water-icon 1.2s ease-in-out infinite;
+}
+.Loader-core-ring {
+    position: absolute;
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    border: 1px solid rgba(125, 211, 252, 0.22);
+    z-index: 5;
+    animation: core-ring-spin 1.7s linear infinite;
+}
+.Loader-core-ring--two {
+    width: 130px;
+    height: 130px;
+    border-color: rgba(56, 189, 248, 0.12);
+    animation-duration: 2.5s;
+    animation-direction: reverse;
+}
+.Loader-core-ring::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #bae6fd;
+    box-shadow:
+        0 0 7px #bae6fd,
+        0 0 18px #38bdf8;
+}
+.Loader-stream {
+    position: absolute;
+    width: 3px;
+    height: 32px;
+    border-radius: 999px;
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        #7dd3fc,
+        #22d3ee,
+        transparent
+    );
+    box-shadow: 0 0 8px #38bdf8;
+    z-index: 7;
+}
+.Loader-stream--one {
+    top: 30px;
+    left: 105px;
+    transform: rotate(8deg);
+    animation: stream-one 1.3s ease-in-out infinite;
+}
+.Loader-stream--two {
+    top: 34px;
+    right: 93px;
+    transform: rotate(-12deg);
+    animation: stream-two 1.7s ease-in-out infinite;
+}
+.Loader-stream--three {
+    bottom: 31px;
+    left: 106px;
+    transform: rotate(15deg);
+    animation: stream-three 1.5s ease-in-out infinite;
+}
+.Loader-surface {
+    position: absolute;
+    width: 150px;
+    height: 42px;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    border-top: 1px solid rgba(186, 230, 253, 0.3);
+    box-shadow:
+        0 -5px 16px rgba(56, 189, 248, 0.1),
+        inset 0 5px 12px rgba(125, 211, 252, 0.04);
+    animation: surface-wave 2s ease-in-out infinite;
+}
+@keyframes aqua-mist {
+    0%,
+    100% {
+        transform: scale(0.85);
+        opacity: 0.4;
+    }
+    50% {
+        transform: scale(1.08);
+        opacity: 0.9;
+    }
+}
+@keyframes water-aura {
+    0%,
+    100% {
+        transform: scale(0.9);
+        opacity: 0.4;
+    }
+    50% {
+        transform: scale(1.08);
+        opacity: 1;
+    }
+}
+@keyframes aqua-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes vortex-spin {
+    from {
+        transform: rotate(0deg) scale(0.96);
+    }
+    to {
+        transform: rotate(360deg) scale(1.04);
+    }
+}
+@keyframes drop-one {
+    0%,
+    100% {
+        transform: translateY(0) scale(0.8);
+        opacity: 0.4;
+    }
+    50% {
+        transform: translateY(-12px) scale(1.1);
+        opacity: 1;
+    }
+}
+@keyframes drop-two {
+    0%,
+    100% {
+        transform: translateY(0) scale(0.75);
+        opacity: 0.35;
+    }
+    50% {
+        transform: translateY(-15px) scale(1.1);
+        opacity: 1;
+    }
+}
+@keyframes drop-three {
+    0%,
+    100% {
+        transform: translateY(0) scale(0.75);
+        opacity: 0.3;
+    }
+    50% {
+        transform: translateY(-11px) scale(1.08);
+        opacity: 1;
+    }
+}
+@keyframes drop-four {
+    0%,
+    100% {
+        transform: translateY(0) scale(0.75);
+        opacity: 0.3;
+    }
+    50% {
+        transform: translateY(-13px) scale(1.08);
+        opacity: 1;
+    }
+}
+@keyframes bubble-one {
+    0% {
+        transform: translateY(0) scale(0.5);
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.7;
+    }
+    100% {
+        transform: translate(-8px, -72px) scale(1);
+        opacity: 0;
+    }
+}
+@keyframes bubble-two {
+    0% {
+        transform: translateY(0) scale(0.4);
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.7;
+    }
+    100% {
+        transform: translate(10px, -68px) scale(1);
+        opacity: 0;
+    }
+}
+@keyframes bubble-three {
+    0% {
+        transform: translateY(0) scale(0.4);
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.7;
+    }
+    100% {
+        transform: translate(-10px, -90px) scale(1);
+        opacity: 0;
+    }
+}
+@keyframes core-pulse {
+    0%,
+    100% {
+        transform: scale(0.96);
+    }
+    50% {
+        transform: scale(1.04);
+    }
+}
+@keyframes core-ring-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes water-icon {
+    0%,
+    100% {
+        transform: translateY(2px) scale(0.92);
+    }
+    50% {
+        transform: translateY(-2px) scale(1.08);
+    }
+}
+@keyframes stream-one {
+    0%,
+    100% {
+        transform: rotate(8deg) translateY(4px);
+        opacity: 0.25;
+    }
+    50% {
+        transform: rotate(8deg) translateY(-7px);
+        opacity: 1;
+    }
+}
+@keyframes stream-two {
+    0%,
+    100% {
+        transform: rotate(-12deg) translateY(4px);
+        opacity: 0.25;
+    }
+    50% {
+        transform: rotate(-12deg) translateY(-8px);
+        opacity: 1;
+    }
+}
+@keyframes stream-three {
+    0%,
+    100% {
+        transform: rotate(15deg) translateY(-4px);
+        opacity: 0.2;
+    }
+    50% {
+        transform: rotate(15deg) translateY(7px);
+        opacity: 1;
+    }
+}
+@keyframes surface-wave {
+    0%,
+    100% {
+        transform: translateX(-50%) scaleX(0.9);
+        opacity: 0.4;
+    }
+    50% {
+        transform: translateX(-50%) scaleX(1.08);
+        opacity: 1;
+    }
+}`
+},
 ];
 
 
