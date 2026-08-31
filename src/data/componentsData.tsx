@@ -91708,7 +91708,977 @@ export const breadcrumbs = [
     color: transparent;
     font-size: 9px;
 }`
-    }
+    },
+    {
+    id: 2021,
+    name: "Modern Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2021">
+            <a href="#"><i className="fa-solid fa-house"></i> Home</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <a href="#">Products</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <span>Details</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#">Products</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span>Details</span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+}
+.Breadcrumb a {
+    color: #6366f1;
+    text-decoration: none;
+}
+.Breadcrumb i {
+    color: #a1a1aa;
+    font-size: 9px;
+}
+.Breadcrumb span {
+    color: #52525b;
+    font-weight: 600;
+}`
+},
+{
+    id: 2022,
+    name: "Dark Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2022">
+            <a href="#"><i className="fa-solid fa-house"></i> Dashboard</a>
+            <i className="fa-solid fa-angle-right"></i>
+            <a href="#">Projects</a>
+            <i className="fa-solid fa-angle-right"></i>
+            <span>Project Alpha</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#"><i class="fa-solid fa-house"></i> Dashboard</a>
+    <i class="fa-solid fa-angle-right"></i>
+    <a href="#">Projects</a>
+    <i class="fa-solid fa-angle-right"></i>
+    <span>Project Alpha</span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 12px;
+    border: 1px solid #27272a;
+    border-radius: 9px;
+    background: #09090b;
+    color: #a1a1aa;
+}
+.Breadcrumb a {
+    color: #c4b5fd;
+    text-decoration: none;
+}
+.Breadcrumb a:hover {
+    color: #fff;
+}
+.Breadcrumb i {
+    color: #52525b;
+    font-size: 8px;
+}
+.Breadcrumb span {
+    color: #71717a;
+    font-size: 11px;
+}`
+},
+{
+    id: 2023,
+    name: "Neon Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2023">
+            <a href="#"><i className="fa-solid fa-house"></i> SYSTEM</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <a href="#">NETWORK</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <span>CORE</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#"><i class="fa-solid fa-house"></i> SYSTEM</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#">NETWORK</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span>CORE</span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 12px;
+    border: 1px solid #22d3ee;
+    background: #020b12;
+    color: #67e8f9;
+    font-family: monospace;
+    box-shadow: 0 0 14px rgba(34,211,238,.14);
+}
+.Breadcrumb a {
+    color: #22d3ee;
+    text-decoration: none;
+    font-size: 8px;
+}
+.Breadcrumb a:hover {
+    color: #a5f3fc;
+    text-shadow: 0 0 8px #22d3ee;
+}
+.Breadcrumb i {
+    color: #155e75;
+    font-size: 7px;
+}
+.Breadcrumb span {
+    color: #67e8f9;
+    font-size: 8px;
+    font-weight: 900;
+}`
+},
+{
+    id: 2024,
+    name: "Glass Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2024">
+            <a href="#"><i className="fa-solid fa-house"></i> Home</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <a href="#">Library</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <span>Components</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#">Library</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span>Components</span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 13px;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 999px;
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(16px);
+    color: #fff;
+}
+.Breadcrumb a {
+    color: rgba(255,255,255,.72);
+    text-decoration: none;
+    font-size: 10px;
+}
+.Breadcrumb a:hover {
+    color: #fff;
+}
+.Breadcrumb i {
+    color: rgba(255,255,255,.35);
+    font-size: 8px;
+}
+.Breadcrumb span {
+    color: rgba(255,255,255,.5);
+    font-size: 10px;
+}`
+},
+{
+    id: 2025,
+    name: "Luxury Gold Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2025">
+            <a href="#"><i className="fa-solid fa-crown"></i> Maison</a>
+            <i className="fa-solid fa-angle-right"></i>
+            <a href="#">Collection</a>
+            <i className="fa-solid fa-angle-right"></i>
+            <span>Signature</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#"><i class="fa-solid fa-crown"></i> Maison</a>
+    <i class="fa-solid fa-angle-right"></i>
+    <a href="#">Collection</a>
+    <i class="fa-solid fa-angle-right"></i>
+    <span>Signature</span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 12px;
+    border-top: 1px solid #a16207;
+    border-bottom: 1px solid #a16207;
+    background: #0b0905;
+    color: #fef3c7;
+}
+.Breadcrumb a {
+    color: #d6a74b;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 10px;
+}
+.Breadcrumb a:hover {
+    color: #fde68a;
+}
+.Breadcrumb i {
+    color: #6b4f13;
+    font-size: 8px;
+}
+.Breadcrumb span {
+    color: #a8a29e;
+    font-family: Georgia, serif;
+    font-size: 10px;
+}`
+},
+{
+    id: 2026,
+    name: "Gradient Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2026">
+            <a href="#"><i className="fa-solid fa-house"></i> Home</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <a href="#">Explore</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <span>Featured</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#">Explore</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span>Featured</span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background: linear-gradient(90deg,#6366f1,#8b5cf6,#ec4899);
+    color: #fff;
+}
+.Breadcrumb a {
+    color: rgba(255,255,255,.85);
+    text-decoration: none;
+    font-size: 10px;
+}
+.Breadcrumb a:hover {
+    color: #fff;
+}
+.Breadcrumb i {
+    color: rgba(255,255,255,.5);
+    font-size: 8px;
+}
+.Breadcrumb span {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+}`
+},
+{
+    id: 2027,
+    name: "Pill Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2027">
+            <a href="#">Home</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <a href="#">Store</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <span>Products</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#">Home</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#">Store</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span>Products</span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 5px 7px;
+    border: 1px solid #e4e4e7;
+    border-radius: 999px;
+    background: #fff;
+}
+.Breadcrumb a,
+.Breadcrumb span {
+    padding: 5px 8px;
+    border-radius: 999px;
+    font-size: 9px;
+}
+.Breadcrumb a {
+    color: #52525b;
+    text-decoration: none;
+}
+.Breadcrumb a:hover {
+    background: #f4f4f5;
+}
+.Breadcrumb span {
+    background: #18181b;
+    color: #fff;
+    font-weight: 700;
+}
+.Breadcrumb i {
+    color: #a1a1aa;
+    font-size: 7px;
+}`
+},
+{
+    id: 2028,
+    name: "Cyber Grid Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2028">
+            <a href="#"><i className="fa-solid fa-terminal"></i> ROOT</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <a href="#">SRC</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <span>APP</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#"><i class="fa-solid fa-terminal"></i> ROOT</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#">SRC</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span>APP</span>
+</nav>`,
+    css: `.Breadcrumb {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 12px;
+    overflow: hidden;
+    border: 1px solid #2563eb;
+    background: #020617;
+    color: #93c5fd;
+    font-family: monospace;
+}
+.Breadcrumb::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(37,99,235,.05) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(37,99,235,.05) 1px,transparent 1px);
+    background-size: 14px 14px;
+}
+.Breadcrumb > * {
+    position: relative;
+}
+.Breadcrumb a {
+    color: #60a5fa;
+    text-decoration: none;
+    font-size: 8px;
+}
+.Breadcrumb a:hover {
+    color: #bfdbfe;
+}
+.Breadcrumb i {
+    color: #1d4ed8;
+    font-size: 7px;
+}
+.Breadcrumb span {
+    color: #dbeafe;
+    font-size: 8px;
+    font-weight: 900;
+}`
+},
+{
+    id: 2029,
+    name: "Soft UI Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2029">
+            <a href="#"><i className="fa-solid fa-house"></i> Home</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <a href="#">Blog</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <span>Article</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#">Blog</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span>Article</span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 11px;
+    border-radius: 13px;
+    background: #eef2ff;
+    box-shadow: 5px 5px 12px rgba(99,102,241,.1),-5px -5px 12px #fff;
+}
+.Breadcrumb a {
+    color: #6366f1;
+    text-decoration: none;
+    font-size: 9px;
+}
+.Breadcrumb i {
+    color: #a5b4fc;
+    font-size: 7px;
+}
+.Breadcrumb span {
+    color: #475569;
+    font-size: 9px;
+    font-weight: 700;
+}`
+},
+{
+    id: 2030,
+    name: "Slash Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2030">
+            <a href="#">Home</a>
+            <span>/</span>
+            <a href="#">Components</a>
+            <span>/</span>
+            <strong>Buttons</strong>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#">Home</a>
+    <span>/</span>
+    <a href="#">Components</a>
+    <span>/</span>
+    <strong>Buttons</strong>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 10px;
+}
+.Breadcrumb a {
+    color: #6366f1;
+    text-decoration: none;
+}
+.Breadcrumb a:hover {
+    text-decoration: underline;
+}
+.Breadcrumb span {
+    color: #a1a1aa;
+}
+.Breadcrumb strong {
+    color: #18181b;
+}`
+},
+{
+    id: 2031,
+    name: "Arrow Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2031">
+            <a href="#"><i className="fa-solid fa-house"></i> Home</a>
+            <i className="fa-solid fa-arrow-right"></i>
+            <a href="#">Account</a>
+            <i className="fa-solid fa-arrow-right"></i>
+            <span>Settings</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+    <i class="fa-solid fa-arrow-right"></i>
+    <a href="#">Account</a>
+    <i class="fa-solid fa-arrow-right"></i>
+    <span>Settings</span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 12px;
+    border-radius: 8px;
+    background: #f8fafc;
+}
+.Breadcrumb a {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 10px;
+}
+.Breadcrumb a:hover {
+    color: #1d4ed8;
+}
+.Breadcrumb i {
+    color: #94a3b8;
+    font-size: 8px;
+}
+.Breadcrumb span {
+    color: #334155;
+    font-size: 10px;
+    font-weight: 700;
+}`
+},
+{
+    id: 2032,
+    name: "Neon Purple Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2032">
+            <a href="#"><i className="fa-solid fa-house"></i> HOME</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <a href="#">VOID</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <span>PORTAL</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#"><i class="fa-solid fa-house"></i> HOME</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#">VOID</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span>PORTAL</span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 12px;
+    border: 1px solid #a855f7;
+    background: #090313;
+    color: #d8b4fe;
+    font-family: monospace;
+    box-shadow: 0 0 17px rgba(168,85,247,.15);
+}
+.Breadcrumb a {
+    color: #c084fc;
+    text-decoration: none;
+    font-size: 7px;
+}
+.Breadcrumb a:hover {
+    color: #f5d0fe;
+    text-shadow: 0 0 8px #a855f7;
+}
+.Breadcrumb i {
+    color: #581c87;
+    font-size: 7px;
+}
+.Breadcrumb span {
+    color: #e9d5ff;
+    font-size: 7px;
+    font-weight: 900;
+}`
+},
+{
+    id: 2033,
+    name: "Rainbow Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2033">
+            <a href="#"><i className="fa-solid fa-house"></i> Home</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <a href="#">Discover</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <span>Featured</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#">Discover</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span>Featured</span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 2px;
+    border-radius: 10px;
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899,#f97316);
+}
+.Breadcrumb a,
+.Breadcrumb span {
+    padding: 7px 9px;
+    font-size: 9px;
+}
+.Breadcrumb a {
+    color: #fff;
+    text-decoration: none;
+}
+.Breadcrumb i {
+    color: rgba(255,255,255,.7);
+    font-size: 7px;
+}
+.Breadcrumb span {
+    border-radius: 7px;
+    background: #09090b;
+    color: #fff;
+    font-weight: 800;
+}`
+},
+{
+    id: 2034,
+    name: "Icon Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2034">
+            <a href="#"><i className="fa-solid fa-house"></i></a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <a href="#"><i className="fa-solid fa-folder"></i></a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <span><i className="fa-solid fa-file"></i></span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#"><i class="fa-solid fa-house"></i></a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#"><i class="fa-solid fa-folder"></i></a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span><i class="fa-solid fa-file"></i></span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.Breadcrumb a,
+.Breadcrumb span {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    font-size: 10px;
+}
+.Breadcrumb a {
+    background: #f4f4f5;
+    color: #71717a;
+    text-decoration: none;
+}
+.Breadcrumb a:hover {
+    background: #e4e4e7;
+    color: #18181b;
+}
+.Breadcrumb span {
+    background: #18181b;
+    color: #fff;
+}
+.Breadcrumb > i {
+    color: #a1a1aa;
+    font-size: 7px;
+}`
+},
+{
+    id: 2035,
+    name: "Folder Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2035">
+            <a href="#"><i className="fa-solid fa-folder"></i> Projects</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <a href="#">Website</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <span><i className="fa-solid fa-file-code"></i> App.tsx</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#"><i class="fa-solid fa-folder"></i> Projects</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#">Website</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span><i class="fa-solid fa-file-code"></i> App.tsx</span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 11px;
+    border: 1px solid #d4d4d8;
+    border-radius: 8px;
+    background: #fafafa;
+}
+.Breadcrumb a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #52525b;
+    text-decoration: none;
+    font-size: 9px;
+}
+.Breadcrumb a:hover {
+    color: #2563eb;
+}
+.Breadcrumb a i {
+    color: #f59e0b;
+}
+.Breadcrumb > i {
+    color: #a1a1aa;
+    font-size: 7px;
+}
+.Breadcrumb span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #18181b;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Breadcrumb span i {
+    color: #6366f1;
+}`
+},
+{
+    id: 2036,
+    name: "Compact Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2036">
+            <a href="#">Home</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <a href="#">Docs</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <span>API</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#">Home</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#">Docs</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span>API</span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Breadcrumb a,
+.Breadcrumb span {
+    font-size: 8px;
+}
+.Breadcrumb a {
+    color: #6366f1;
+    text-decoration: none;
+}
+.Breadcrumb i {
+    color: #a1a1aa;
+    font-size: 6px;
+}
+.Breadcrumb span {
+    color: #52525b;
+    font-weight: 700;
+}`
+},
+{
+    id: 2037,
+    name: "Floating Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2037">
+            <a href="#"><i className="fa-solid fa-house"></i> Home</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <a href="#">Dashboard</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <span>Analytics</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#">Dashboard</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span>Analytics</span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 13px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 8px 25px rgba(15,23,42,.12);
+}
+.Breadcrumb a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 9px;
+}
+.Breadcrumb a:hover {
+    color: #4f46e5;
+}
+.Breadcrumb > i {
+    color: #cbd5e1;
+    font-size: 7px;
+}
+.Breadcrumb span {
+    padding: 4px 7px;
+    border-radius: 6px;
+    background: #eef2ff;
+    color: #4f46e5;
+    font-size: 9px;
+    font-weight: 700;
+}`
+},
+{
+    id: 2038,
+    name: "Cyber Terminal Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2038">
+            <span className="breadcrumb-2038__prompt">$</span>
+            <a href="#">home</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <a href="#">projects</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <span>ui-library</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <span class="Breadcrumb-prompt">$</span>
+    <a href="#">home</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#">projects</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span>ui-library</span>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 12px;
+    border: 1px solid #27272a;
+    background: #09090b;
+    color: #4ade80;
+    font-family: monospace;
+}
+.Breadcrumb-prompt {
+    color: #22c55e;
+}
+.Breadcrumb a {
+    color: #86efac;
+    text-decoration: none;
+    font-size: 8px;
+}
+.Breadcrumb a:hover {
+    color: #fff;
+}
+.Breadcrumb > i {
+    color: #3f3f46;
+    font-size: 6px;
+}
+.Breadcrumb > span:last-child {
+    color: #4ade80;
+    font-size: 8px;
+    font-weight: 900;
+}`
+},
+{
+    id: 2039,
+    name: "Minimal Monochrome Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2039">
+            <a href="#">Home</a>
+            <span>→</span>
+            <a href="#">Library</a>
+            <span>→</span>
+            <strong>Elements</strong>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <a href="#">Home</a>
+    <span>→</span>
+    <a href="#">Library</a>
+    <span>→</span>
+    <strong>Elements</strong>
+</nav>`,
+    css: `.Breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.Breadcrumb a {
+    color: #737373;
+    text-decoration: none;
+    font-size: 10px;
+}
+.Breadcrumb a:hover {
+    color: #111;
+}
+.Breadcrumb span {
+    color: #a3a3a3;
+    font-size: 9px;
+}
+.Breadcrumb strong {
+    color: #111;
+    font-size: 10px;
+}`
+},
+{
+    id: 2040,
+    name: "Legendary Aurora Breadcrumbs",
+    preview: (
+        <nav className="breadcrumb-2040">
+            <div className="breadcrumb-2040__glow"></div>
+            <a href="#"><i className="fa-solid fa-house"></i> Home</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <a href="#">Explore</a>
+            <i className="fa-solid fa-chevron-right"></i>
+            <span>Discover</span>
+        </nav>
+    ),
+    html: `<nav class="Breadcrumb">
+    <div class="Breadcrumb-glow"></div>
+    <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <a href="#">Explore</a>
+    <i class="fa-solid fa-chevron-right"></i>
+    <span>Discover</span>
+</nav>`,
+    css: `.Breadcrumb {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 10px 13px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background:
+        linear-gradient(#09090b,#09090b) padding-box,
+        linear-gradient(90deg,#22d3ee,#6366f1,#ec4899,#f97316) border-box;
+    color: #fff;
+}
+.Breadcrumb-glow {
+    position: absolute;
+    width: 160px;
+    height: 70px;
+    top: -40px;
+    left: 25px;
+    border-radius: 50%;
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899);
+    filter: blur(32px);
+    opacity: .25;
+}
+.Breadcrumb a,
+.Breadcrumb > i,
+.Breadcrumb > span {
+    position: relative;
+    z-index: 1;
+}
+.Breadcrumb a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 9px;
+}
+.Breadcrumb a:hover {
+    color: #fff;
+}
+.Breadcrumb > i {
+    color: #6366f1;
+    font-size: 7px;
+}
+.Breadcrumb > span {
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+}`
+},
 ];
 
 
