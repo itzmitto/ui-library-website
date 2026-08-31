@@ -5163,7 +5163,4493 @@ export const buttons = [
     font-size: 12px;
 }`,
 },
+{
+    id: 1396,
+    name: "Aurora Gradient Button",
+    preview: (
+        <button className="btn-1396">
+            <i className="fa-solid fa-wand-magic-sparkles"></i>
+            Create magic
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-wand-magic-sparkles"></i>
+    Create magic
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #7c3aed, #06b6d4);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 8px 22px rgba(124,58,237,.25);
+    transition: .25s ease;
+}
+.Button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(6,182,212,.3);
+    filter: brightness(1.08);
+}`
+},
+{
+    id: 1397,
+    name: "Midnight Glow Button",
+    preview: (
+        <button className="btn-1397">
+            Launch project
+            <i className="fa-solid fa-rocket"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Launch project
+    <i class="fa-solid fa-rocket"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 11px 18px;
+    border: 1px solid #6366f1;
+    border-radius: 10px;
+    background: #111827;
+    color: #e0e7ff;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(99,102,241,0);
+    transition: .25s ease;
+}
+.Button:hover {
+    background: #1e1b4b;
+    box-shadow: 0 0 25px rgba(99,102,241,.45);
+    transform: translateY(-1px);
+}`
+},
+{
+    id: 1398,
+    name: "Rainbow Pulse Button",
+    preview: (
+        <button className="btn-1398">
+            <span>Go premium</span>
+        </button>
+    ),
+    html: `<button class="Button">
+    <span>Go premium</span>
+</button>`,
+    css: `.Button {
+    position: relative;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(
+        90deg,
+        #ef4444,
+        #f97316,
+        #eab308,
+        #22c55e,
+        #06b6d4,
+        #6366f1,
+        #ec4899
+    );
+    background-size: 300% 100%;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+    cursor: pointer;
+    animation: Button-rainbow 4s linear infinite;
+    box-shadow: 0 0 20px rgba(139,92,246,.25);
+}
+.Button:hover {
+    animation-duration: 1.5s;
+    transform: scale(1.03);
+}
+@keyframes Button-rainbow {
+    to {
+        background-position: 300% 0;
+    }
+}`
+},
+{
+    id: 1399,
+    name: "Glass Action Button",
+    preview: (
+        <button className="btn-1399">
+            <i className="fa-solid fa-bolt"></i>
+            Get started
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-bolt"></i>
+    Get started
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 12px;
+    background: rgba(255,255,255,.12);
+    backdrop-filter: blur(12px);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background: rgba(255,255,255,.2);
+    border-color: rgba(255,255,255,.55);
+    transform: translateY(-2px);
+}`
+},
+{
+    id: 1400,
+    name: "Neon Cyan Button",
+    preview: (
+        <button className="btn-1400">
+            CONNECT
+        </button>
+    ),
+    html: `<button class="Button">CONNECT</button>`,
+    css: `.Button {
+    padding: 11px 20px;
+    border: 1px solid #22d3ee;
+    border-radius: 8px;
+    background: transparent;
+    color: #22d3ee;
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: rgba(34,211,238,.1);
+    box-shadow:
+        0 0 10px rgba(34,211,238,.5),
+        inset 0 0 10px rgba(34,211,238,.08);
+}`
+},
+{
+    id: 1401,
+    name: "Soft Success Button",
+    preview: (
+        <button className="btn-1401">
+            <i className="fa-solid fa-check"></i>
+            Saved
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-check"></i>
+    Saved
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #bbf7d0;
+    border-radius: 9px;
+    background: #f0fdf4;
+    color: #15803d;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #dcfce7;
+    border-color: #86efac;
+}`
+},
+{
+    id: 1402,
+    name: "Danger Delete Button",
+    preview: (
+        <button className="btn-1402">
+            <i className="fa-solid fa-trash"></i>
+            Delete
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-trash"></i>
+    Delete
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #fecaca;
+    border-radius: 9px;
+    background: #fff;
+    color: #dc2626;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #fef2f2;
+    border-color: #f87171;
+    transform: translateY(-1px);
+}`
+},
+{
+    id: 1403,
+    name: "3D Orange Button",
+    preview: (
+        <button className="btn-1403">
+            Buy now
+        </button>
+    ),
+    html: `<button class="Button">Buy now</button>`,
+    css: `.Button {
+    padding: 11px 20px;
+    border: none;
+    border-radius: 9px;
+    background: #f97316;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 4px 0 #c2410c;
+    transition: .1s ease;
+}
+.Button:hover {
+    filter: brightness(1.08);
+}
+.Button:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 #c2410c;
+}`
+},
+{
+    id: 1404,
+    name: "Gradient Outline Button",
+    preview: (
+        <button className="btn-1404">
+            Explore
+        </button>
+    ),
+    html: `<button class="Button">Explore</button>`,
+    css: `.Button {
+    position: relative;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #09090b;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    isolation: isolate;
+}
+.Button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1.5px;
+    border-radius: inherit;
+    background: linear-gradient(90deg,#06b6d4,#7c3aed,#ec4899);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+}
+.Button:hover {
+    background: #11111a;
+    transform: translateY(-1px);
+}`
+},
+{
+    id: 1405,
+    name: "Icon Circle Button",
+    preview: (
+        <button className="btn-1405" aria-label="Add">
+            <i className="fa-solid fa-plus"></i>
+        </button>
+    ),
+    html: `<button class="Button" aria-label="Add">
+    <i class="fa-solid fa-plus"></i>
+</button>`,
+    css: `.Button {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    border: none;
+    border-radius: 50%;
+    background: #18181b;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background: #7c3aed;
+    transform: rotate(90deg) scale(1.06);
+    box-shadow: 0 8px 20px rgba(124,58,237,.25);
+}`
+},
+{
+    id: 1406,
+    name: "Magnetic CTA Button",
+    preview: (
+        <button className="btn-1406">
+            View portfolio
+            <i className="fa-solid fa-arrow-up-right-from-square"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    View portfolio
+    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 12px 19px;
+    border: 1px solid #18181b;
+    border-radius: 11px;
+    background: #fff;
+    color: #18181b;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .25s cubic-bezier(.34,1.56,.64,1);
+}
+.Button:hover {
+    transform: translateY(-3px) scale(1.04);
+    box-shadow: 0 12px 24px rgba(0,0,0,.12);
+}`
+},
+{
+    id: 1407,
+    name: "Blue Shine Button",
+    preview: (
+        <button className="btn-1407">
+            Continue
+        </button>
+    ),
+    html: `<button class="Button">Continue</button>`,
+    css: `.Button {
+    position: relative;
+    overflow: hidden;
+    padding: 11px 19px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button::after {
+    content: "";
+    position: absolute;
+    top: -20%;
+    left: -70%;
+    width: 45%;
+    height: 140%;
+    background: rgba(255,255,255,.35);
+    transform: skewX(-20deg);
+    transition: left .45s ease;
+}
+.Button:hover::after {
+    left: 130%;
+}`
+},
+{
+    id: 1408,
+    name: "Purple Pill Button",
+    preview: (
+        <button className="btn-1408">
+            <i className="fa-solid fa-heart"></i>
+            Favorite
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-heart"></i>
+    Favorite
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px 18px;
+    border: 1px solid #ddd6fe;
+    border-radius: 999px;
+    background: #faf5ff;
+    color: #7c3aed;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #ede9fe;
+    border-color: #c4b5fd;
+    transform: translateY(-1px);
+}`
+},
+{
+    id: 1409,
+    name: "Monochrome Button",
+    preview: (
+        <button className="btn-1409">
+            Learn more
+        </button>
+    ),
+    html: `<button class="Button">Learn more</button>`,
+    css: `.Button {
+    padding: 11px 18px;
+    border: 1px solid #d4d4d8;
+    border-radius: 9px;
+    background: #fff;
+    color: #18181b;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #18181b;
+    border-color: #18181b;
+    color: #fff;
+}`
+},
+{
+    id: 1410,
+    name: "Split Button",
+    preview: (
+        <div className="btn-1410">
+            <button>Deploy</button>
+            <button aria-label="More options">
+                <i className="fa-solid fa-chevron-down"></i>
+            </button>
+        </div>
+    ),
+    html: `<div class="Button-group">
+    <button>Deploy</button>
+    <button aria-label="More options">
+        <i class="fa-solid fa-chevron-down"></i>
+    </button>
+</div>`,
+    css: `.Button-group {
+    display: inline-flex;
+    overflow: hidden;
+    border-radius: 9px;
+}
+.Button-group button {
+    height: 38px;
+    border: none;
+    background: #18181b;
+    color: #fff;
+    padding: 0 15px;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button-group button + button {
+    width: 34px;
+    padding: 0;
+    border-left: 1px solid #3f3f46;
+}
+.Button-group button:hover {
+    background: #27272a;
+}`
+},
+{
+    id: 1411,
+    name: "Loading Button",
+    preview: (
+        <button className="btn-1411" disabled>
+            <span></span>
+            Processing
+        </button>
+    ),
+    html: `<button class="Button" disabled>
+    <span></span>
+    Processing
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 9px;
+    background: #18181b;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: not-allowed;
+    opacity: .8;
+}
+.Button span {
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgba(255,255,255,.3);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: Button-spin .7s linear infinite;
+}
+@keyframes Button-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1412,
+    name: "Social GitHub Button",
+    preview: (
+        <button className="btn-1412">
+            <i className="fa-brands fa-github"></i>
+            Continue with GitHub
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-brands fa-github"></i>
+    Continue with GitHub
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    min-width: 180px;
+    padding: 10px 16px;
+    border: 1px solid #d4d4d8;
+    border-radius: 9px;
+    background: #fff;
+    color: #18181b;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button i {
+    font-size: 15px;
+}
+.Button:hover {
+    background: #18181b;
+    border-color: #18181b;
+    color: #fff;
+}`
+},
+{
+    id: 1413,
+    name: "Success Gradient Button",
+    preview: (
+        <button className="btn-1413">
+            <i className="fa-solid fa-circle-check"></i>
+            Publish
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-circle-check"></i>
+    Publish
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#16a34a,#22c55e);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 7px 18px rgba(34,197,94,.18);
+    transition: .25s ease;
+}
+.Button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 11px 24px rgba(34,197,94,.25);
+}`
+},
+{
+    id: 1414,
+    name: "Warning Action Button",
+    preview: (
+        <button className="btn-1414">
+            <i className="fa-solid fa-triangle-exclamation"></i>
+            Review
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-triangle-exclamation"></i>
+    Review
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #fed7aa;
+    border-radius: 9px;
+    background: #fff7ed;
+    color: #c2410c;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #ffedd5;
+    border-color: #fdba74;
+}`
+},
+{
+    id: 1415,
+    name: "Black Capsule Button",
+    preview: (
+        <button className="btn-1415">
+            Start building
+            <i className="fa-solid fa-arrow-right"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Start building
+    <i class="fa-solid fa-arrow-right"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 11px 19px;
+    border: none;
+    border-radius: 999px;
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button i {
+    transition: transform .2s ease;
+}
+.Button:hover {
+    box-shadow: 0 9px 22px rgba(0,0,0,.18);
+}
+.Button:hover i {
+    transform: translateX(3px);
+}`
+},
+{
+    id: 1416,
+    name: "Cyber Pink Button",
+    preview: (
+        <button className="btn-1416">
+            ACCESS
+        </button>
+    ),
+    html: `<button class="Button">ACCESS</button>`,
+    css: `.Button {
+    padding: 11px 21px;
+    border: 1px solid #ec4899;
+    border-radius: 3px;
+    background: #180914;
+    color: #f9a8d4;
+    font-family: monospace;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-shadow: 0 0 7px rgba(236,72,153,.7);
+    box-shadow: inset 0 0 12px rgba(236,72,153,.08);
+    transition: .2s ease;
+}
+.Button:hover {
+    background: rgba(236,72,153,.12);
+    box-shadow:
+        0 0 18px rgba(236,72,153,.3),
+        inset 0 0 14px rgba(236,72,153,.1);
+}`
+},
+{
+    id: 1417,
+    name: "Underline Button",
+    preview: (
+        <button className="btn-1417">
+            Discover more
+        </button>
+    ),
+    html: `<button class="Button">Discover more</button>`,
+    css: `.Button {
+    position: relative;
+    padding: 7px 0;
+    border: none;
+    background: transparent;
+    color: #18181b;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+    height: 2px;
+    background: #18181b;
+    transition: width .25s ease;
+}
+.Button:hover::after {
+    width: 100%;
+}`
+},
+{
+    id: 1418,
+    name: "Soft Blue Button",
+    preview: (
+        <button className="btn-1418">
+            Open dashboard
+        </button>
+    ),
+    html: `<button class="Button">Open dashboard</button>`,
+    css: `.Button {
+    padding: 10px 17px;
+    border: 1px solid #bfdbfe;
+    border-radius: 9px;
+    background: #eff6ff;
+    color: #1d4ed8;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #dbeafe;
+    border-color: #93c5fd;
+    transform: translateY(-1px);
+}`
+},
+{
+    id: 1419,
+    name: "Animated Border Button",
+    preview: (
+        <button className="btn-1419">
+            <span>Upgrade plan</span>
+        </button>
+    ),
+    html: `<button class="Button">
+    <span>Upgrade plan</span>
+</button>`,
+    css: `.Button {
+    position: relative;
+    padding: 11px 19px;
+    border: none;
+    border-radius: 10px;
+    background: #18181b;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    isolation: isolate;
+}
+.Button::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    z-index: -1;
+    border-radius: inherit;
+    background: conic-gradient(
+        from 0deg,
+        #ec4899,
+        #8b5cf6,
+        #06b6d4,
+        #22c55e,
+        #ec4899
+    );
+    animation: Button-border 3s linear infinite;
+}
+@keyframes Button-border {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1420,
+    name: "Floating White Button",
+    preview: (
+        <button className="btn-1420">
+            View details
+        </button>
+    ),
+    html: `<button class="Button">View details</button>`,
+    css: `.Button {
+    padding: 11px 18px;
+    border: 1px solid #e4e4e7;
+    border-radius: 10px;
+    background: #fff;
+    color: #18181b;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(0,0,0,.08);
+    transition: .25s ease;
+}
+.Button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 26px rgba(0,0,0,.12);
+}`
+},
+{
+    id: 1421,
+    name: "Dark Icon Button",
+    preview: (
+        <button className="btn-1421">
+            <i className="fa-solid fa-download"></i>
+            Download
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-download"></i>
+    Download
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #27272a;
+    border-radius: 9px;
+    background: #18181b;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #27272a;
+    border-color: #3f3f46;
+}`
+},
+{
+    id: 1422,
+    name: "Rocket Gradient Button",
+    preview: (
+        <button className="btn-1422">
+            <i className="fa-solid fa-rocket"></i>
+            Launch
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-rocket"></i>
+    Launch
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 19px;
+    border: none;
+    border-radius: 11px;
+    background: linear-gradient(135deg,#0ea5e9,#2563eb);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    transform: translateY(-2px) rotate(-1deg);
+    box-shadow: 0 10px 24px rgba(37,99,235,.25);
+}`
+},
+{
+    id: 1423,
+    name: "Minimal Ghost Button",
+    preview: (
+        <button className="btn-1423">
+            Cancel
+        </button>
+    ),
+    html: `<button class="Button">Cancel</button>`,
+    css: `.Button {
+    padding: 9px 14px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #71717a;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #f4f4f5;
+    color: #18181b;
+}`
+},
+{
+    id: 1424,
+    name: "Pink Gradient Button",
+    preview: (
+        <button className="btn-1424">
+            Create account
+        </button>
+    ),
+    html: `<button class="Button">Create account</button>`,
+    css: `.Button {
+    padding: 11px 19px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#ec4899,#8b5cf6);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    filter: brightness(1.08);
+    box-shadow: 0 9px 24px rgba(236,72,153,.22);
+    transform: translateY(-2px);
+}`
+},
+{
+    id: 1425,
+    name: "Glass Neon Button",
+    preview: (
+        <button className="btn-1425">
+            <i className="fa-solid fa-bolt"></i>
+            Power up
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-bolt"></i>
+    Power up
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid rgba(34,211,238,.45);
+    border-radius: 12px;
+    background: rgba(8,47,73,.65);
+    color: #67e8f9;
+    backdrop-filter: blur(10px);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: inset 0 0 18px rgba(34,211,238,.05);
+    transition: .25s ease;
+}
+.Button:hover {
+    box-shadow:
+        0 0 22px rgba(34,211,238,.2),
+        inset 0 0 20px rgba(34,211,238,.08);
+}`
+},
+{
+    id: 1426,
+    name: "Terminal Command Button",
+    preview: (
+        <button className="btn-1426">
+            <span>$</span>
+            Deploy now
+        </button>
+    ),
+    html: `<button class="Button">
+    <span>$</span>
+    Deploy now
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 16px;
+    border: 1px solid #27272a;
+    border-radius: 7px;
+    background: #09090b;
+    color: #d4d4d8;
+    font-family: monospace;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Button > span {
+    color: #22c55e;
+}
+.Button:hover {
+    border-color: #22c55e;
+    color: #fff;
+    box-shadow: 0 0 14px rgba(34,197,94,.12);
+}`
+},
+{
+    id: 1427,
+    name: "Heart Pulse Button",
+    preview: (
+        <button className="btn-1427">
+            <i className="fa-solid fa-heart"></i>
+            Like
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-heart"></i>
+    Like
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #fbcfe8;
+    border-radius: 9px;
+    background: #fff1f2;
+    color: #db2777;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #fce7f3;
+}
+.Button:hover i {
+    animation: Button-heart .55s ease;
+}
+@keyframes Button-heart {
+    50% {
+        transform: scale(1.35);
+    }
+}`
+},
+{
+    id: 1428,
+    name: "Square Arrow Button",
+    preview: (
+        <button className="btn-1428">
+            <i className="fa-solid fa-arrow-up-right"></i>
+        </button>
+    ),
+    html: `<button class="Button" aria-label="Open">
+    <i class="fa-solid fa-arrow-up-right"></i>
+</button>`,
+    css: `.Button {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #d4d4d8;
+    border-radius: 10px;
+    background: #fff;
+    color: #18181b;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #18181b;
+    color: #fff;
+    transform: translate(2px,-2px);
+}`
+},
+{
+    id: 1429,
+    name: "Blue Glass CTA",
+    preview: (
+        <button className="btn-1429">
+            Explore now
+            <i className="fa-solid fa-arrow-right"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Explore now
+    <i class="fa-solid fa-arrow-right"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 11px 18px;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 10px;
+    background: linear-gradient(
+        135deg,
+        rgba(59,130,246,.85),
+        rgba(37,99,235,.85)
+    );
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(37,99,235,.3);
+}`
+},
+{
+    id: 1430,
+    name: "Gold Premium Button",
+    preview: (
+        <button className="btn-1430">
+            <i className="fa-solid fa-crown"></i>
+            Premium
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-crown"></i>
+    Premium
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid #f59e0b;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#f59e0b,#facc15);
+    color: #451a03;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(245,158,11,.2);
+    transition: .25s ease;
+}
+.Button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(245,158,11,.3);
+}`
+},
+{
+    id: 1431,
+    name: "Info Button",
+    preview: (
+        <button className="btn-1431">
+            <i className="fa-solid fa-circle-info"></i>
+            Learn more
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-circle-info"></i>
+    Learn more
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #bfdbfe;
+    border-radius: 9px;
+    background: #eff6ff;
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #dbeafe;
+    border-color: #93c5fd;
+}`
+},
+{
+    id: 1432,
+    name: "Dark Gradient Button",
+    preview: (
+        <button className="btn-1432">
+            Generate
+        </button>
+    ),
+    html: `<button class="Button">Generate</button>`,
+    css: `.Button {
+    padding: 11px 18px;
+    border: 1px solid #3f3f46;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#27272a,#09090b);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    border-color: #71717a;
+    background: linear-gradient(135deg,#3f3f46,#18181b);
+    transform: translateY(-1px);
+}`
+},
+{
+    id: 1433,
+    name: "Neumorphic Button",
+    preview: (
+        <button className="btn-1433">
+            Press me
+        </button>
+    ),
+    html: `<button class="Button">Press me</button>`,
+    css: `.Button {
+    padding: 11px 19px;
+    border: none;
+    border-radius: 12px;
+    background: #e5e7eb;
+    color: #374151;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow:
+        6px 6px 12px rgba(156,163,175,.45),
+        -6px -6px 12px rgba(255,255,255,.9);
+    transition: .2s ease;
+}
+.Button:hover {
+    box-shadow:
+        3px 3px 7px rgba(156,163,175,.45),
+        -3px -3px 7px rgba(255,255,255,.9);
+}
+.Button:active {
+    box-shadow:
+        inset 4px 4px 8px rgba(156,163,175,.4),
+        inset -4px -4px 8px rgba(255,255,255,.8);
+}`
+},
+{
+    id: 1434,
+    name: "Orange Sweep Button",
+    preview: (
+        <button className="btn-1434">
+            Read article
+        </button>
+    ),
+    html: `<button class="Button">Read article</button>`,
+    css: `.Button {
+    position: relative;
+    overflow: hidden;
+    padding: 11px 18px;
+    border: 1px solid #f97316;
+    border-radius: 9px;
+    background: transparent;
+    color: #f97316;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    isolation: isolate;
+}
+.Button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: #f97316;
+    transform: translateX(-101%);
+    transition: transform .3s ease;
+}
+.Button:hover {
+    color: #fff;
+}
+.Button:hover::before {
+    transform: translateX(0);
+}`
+},
+{
+    id: 1435,
+    name: "Icon Ghost Button",
+    preview: (
+        <button className="btn-1435">
+            <i className="fa-solid fa-share-nodes"></i>
+        </button>
+    ),
+    html: `<button class="Button" aria-label="Share">
+    <i class="fa-solid fa-share-nodes"></i>
+</button>`,
+    css: `.Button {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border: none;
+    border-radius: 9px;
+    background: transparent;
+    color: #71717a;
+    cursor: pointer;
+    font-size: 14px;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #f4f4f5;
+    color: #18181b;
+}`
+},
+{
+    id: 1436,
+    name: "Gradient Text Button",
+    preview: (
+        <button className="btn-1436">
+            Explore collection
+        </button>
+    ),
+    html: `<button class="Button">Explore collection</button>`,
+    css: `.Button {
+    padding: 10px 3px;
+    border: none;
+    background: transparent;
+    color: transparent;
+    background-image: linear-gradient(90deg,#2563eb,#7c3aed,#ec4899);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 13px;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+}
+.Button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 4px;
+    height: 1px;
+    background: linear-gradient(90deg,#2563eb,#7c3aed,#ec4899);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .25s ease;
+}
+.Button:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}`
+},
+{
+    id: 1437,
+    name: "Green Outline Button",
+    preview: (
+        <button className="btn-1437">
+            Verify account
+        </button>
+    ),
+    html: `<button class="Button">Verify account</button>`,
+    css: `.Button {
+    padding: 10px 17px;
+    border: 1px solid #22c55e;
+    border-radius: 9px;
+    background: transparent;
+    color: #16a34a;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #f0fdf4;
+    box-shadow: 0 5px 14px rgba(34,197,94,.12);
+}`
+},
+{
+    id: 1438,
+    name: "Animated Arrow Button",
+    preview: (
+        <button className="btn-1438">
+            Next step
+            <span>→</span>
+        </button>
+    ),
+    html: `<button class="Button">
+    Next step
+    <span>→</span>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 17px;
+    border: 1px solid #d4d4d8;
+    border-radius: 9px;
+    background: #fff;
+    color: #18181b;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button span {
+    transition: transform .2s ease;
+}
+.Button:hover span {
+    transform: translateX(5px);
+}`
+},
+{
+    id: 1439,
+    name: "Notification Button",
+    preview: (
+        <button className="btn-1439">
+            <i className="fa-regular fa-bell"></i>
+            Notifications
+            <span>4</span>
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-regular fa-bell"></i>
+    Notifications
+    <span>4</span>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 13px;
+    border: 1px solid #e4e4e7;
+    border-radius: 9px;
+    background: #fff;
+    color: #52525b;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Button > span {
+    min-width: 18px;
+    height: 18px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #ef4444;
+    color: #fff;
+    font-size: 8px;
+}
+.Button:hover {
+    border-color: #a1a1aa;
+    color: #18181b;
+}`
+},
+{
+    id: 1440,
+    name: "Download Progress Button",
+    preview: (
+        <button className="btn-1440">
+            <span className="btn-1440__fill"></span>
+            <span className="btn-1440__text">
+                <i className="fa-solid fa-download"></i>
+                Downloading 68%
+            </span>
+        </button>
+    ),
+    html: `<button class="Button">
+    <span class="Button-fill"></span>
+    <span class="Button-text">
+        <i class="fa-solid fa-download"></i>
+        Downloading 68%
+    </span>
+</button>`,
+    css: `.Button {
+    position: relative;
+    overflow: hidden;
+    width: 180px;
+    height: 40px;
+    border: 1px solid #d4d4d8;
+    border-radius: 9px;
+    background: #f4f4f5;
+    color: #18181b;
+    cursor: pointer;
+}
+.Button-fill {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 68%;
+    background: #2563eb;
+    opacity: .9;
+}
+.Button-text {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    height: 100%;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+}`
+},
+{
+    id: 1441,
+    name: "AI Spark Button",
+    preview: (
+        <button className="btn-1441">
+            <i className="fa-solid fa-wand-magic-sparkles"></i>
+            Ask AI
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-wand-magic-sparkles"></i>
+    Ask AI
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid #c4b5fd;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#f5f3ff,#ede9fe);
+    color: #6d28d9;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button i {
+    animation: Button-spark 2s ease-in-out infinite;
+}
+.Button:hover {
+    background: linear-gradient(135deg,#ede9fe,#ddd6fe);
+    transform: translateY(-2px);
+}
+@keyframes Button-spark {
+    50% {
+        transform: rotate(12deg) scale(1.12);
+    }
+}`
+},
+{
+    id: 1442,
+    name: "Fire Gradient Button",
+    preview: (
+        <button className="btn-1442">
+            <i className="fa-solid fa-fire"></i>
+            Boost now
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-fire"></i>
+    Boost now
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#ef4444,#f97316,#facc15);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    background-size: 200% 200%;
+    transition: .25s ease;
+}
+.Button:hover {
+    background-position: 100% 0;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(249,115,22,.24);
+}`
+},
+{
+    id: 1443,
+    name: "Music Play Button",
+    preview: (
+        <button className="btn-1443">
+            <i className="fa-solid fa-play"></i>
+            Play
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-play"></i>
+    Play
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 82px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 999px;
+    background: #18181b;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button i {
+    font-size: 10px;
+}
+.Button:hover {
+    background: #7c3aed;
+    transform: scale(1.04);
+}`
+},
+{
+    id: 1444,
+    name: "Cyber Terminal Button",
+    preview: (
+        <button className="btn-1444">
+            <span>&gt;</span>
+            EXECUTE
+        </button>
+    ),
+    html: `<button class="Button">
+    <span>&gt;</span>
+    EXECUTE
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #166534;
+    border-radius: 4px;
+    background: #020b05;
+    color: #4ade80;
+    font-family: monospace;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button > span {
+    color: #22c55e;
+}
+.Button:hover {
+    background: #052e16;
+    border-color: #22c55e;
+    box-shadow: 0 0 16px rgba(34,197,94,.15);
+}`
+},
+{
+    id: 1445,
+    name: "Legendary Shimmer Button",
+    preview: (
+        <button className="btn-1445">
+            <span>
+                <i className="fa-solid fa-star"></i>
+                Unlock everything
+            </span>
+        </button>
+    ),
+    html: `<button class="Button">
+    <span>
+        <i class="fa-solid fa-star"></i>
+        Unlock everything
+    </span>
+</button>`,
+    css: `.Button {
+    position: relative;
+    overflow: hidden;
+    padding: 12px 20px;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 12px;
+    background: linear-gradient(135deg,#111827,#312e81);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 10px 28px rgba(49,46,129,.22);
+}
+.Button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -80%;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(
+        100deg,
+        transparent,
+        rgba(255,255,255,.5),
+        transparent
+    );
+    transform: skewX(-18deg);
+    animation: Button-shimmer 2.5s ease-in-out infinite;
+}
+.Button span {
+    position: relative;
+    z-index: 1;
+}
+.Button i {
+    color: #facc15;
+    margin-right: 5px;
+}
+.Button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 32px rgba(49,46,129,.3);
+}
+@keyframes Button-shimmer {
+    0% {
+        left: -80%;
+    }
+    45%,
+    100% {
+        left: 140%;
+    }
+}`
+},
+{
+    id: 1446,
+    name: "Animated Circle Reveal Button",
+    preview: (
+        <button className="btn-1446">
+            <i className="fa-solid fa-arrow-right btn-1446__arrow btn-1446__arrow--left"></i>
+            <span className="btn-1446__text">Modern Button</span>
+            <span className="btn-1446__circle"></span>
+            <i className="fa-solid fa-arrow-right btn-1446__arrow btn-1446__arrow--right"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-arrow-right Button-arrow Button-arrow-left"></i>
+    <span class="Button-text">Modern Button</span>
+    <span class="Button-circle"></span>
+    <i class="fa-solid fa-arrow-right Button-arrow Button-arrow-right"></i>
+</button>`,
+    css: `.Button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 16px 36px;
+    border: 4px solid transparent;
+    border-radius: 100px;
+    background: transparent;
+    color: greenyellow;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 0 0 2px greenyellow;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.Button-arrow {
+    position: absolute;
+    width: 24px;
+    z-index: 9;
+    color: greenyellow;
+    font-size: 18px;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.Button-arrow-left {
+    left: -25%;
+}
+.Button-arrow-right {
+    right: 16px;
+}
+.Button-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background: greenyellow;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.Button-text {
+    position: relative;
+    z-index: 1;
+    transform: translateX(-12px);
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.Button:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: #212121;
+    border-radius: 12px;
+}
+.Button:hover .Button-arrow-right {
+    right: -25%;
+}
+.Button:hover .Button-arrow-left {
+    left: 16px;
+}
+.Button:hover .Button-text {
+    transform: translateX(12px);
+}
+.Button:hover .Button-arrow {
+    color: #212121;
+}
+.Button:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 4px greenyellow;
+}
+.Button:hover .Button-circle {
+    width: 220px;
+    height: 220px;
+    opacity: 1;
+}`
+},
+{
+    id: 1447,
+    name: "Expanding Learn More Button",
+    preview: (
+        <button className="btn-1447">
+            <span className="btn-1447__circle" aria-hidden="true">
+                <i className="fa-solid fa-arrow-right"></i>
+            </span>
+            <span className="btn-1447__text">Learn More</span>
+        </button>
+    ),
+    html: `<button class="Button">
+    <span class="Button-circle" aria-hidden="true">
+        <i class="fa-solid fa-arrow-right"></i>
+    </span>
+    <span class="Button-text">Learn More</span>
+</button>`,
+    css: `.Button {
+    position: relative;
+    display: inline-block;
+    width: 12rem;
+    height: 3rem;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background: transparent;
+    font: inherit;
+    cursor: pointer;
+}
+.Button-circle {
+    position: relative;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.625rem;
+    background: #282936;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+.Button-circle i {
+    position: absolute;
+    top: 50%;
+    left: .625rem;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: .9rem;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+.Button-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .75rem 0;
+    margin-left: 1.85rem;
+    color: #282936;
+    font-size: .9rem;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+.Button:hover .Button-circle {
+    width: 100%;
+}
+.Button:hover .Button-circle i {
+    transform: translate(1rem, -50%);
+}
+.Button:hover .Button-text {
+    color: #fff;
+}`
+},{
+    id: 1448,
+    name: "Realistic Checkout Button",
+    preview: (
+        <button className="btn-1448">
+            <i className="fa-solid fa-credit-card"></i>
+            Complete purchase
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-credit-card"></i>
+    Complete purchase
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    min-width: 180px;
+    padding: 11px 18px;
+    border: 1px solid #155e75;
+    border-radius: 9px;
+    background: linear-gradient(#0891b2, #0e7490);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.2),
+        0 3px 8px rgba(14,116,144,.25);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#06b6d4, #0891b2);
+    transform: translateY(-1px);
+}
+.Button:active {
+    transform: translateY(1px);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,.18);
+}`
+},
+{
+    id: 1449,
+    name: "Realistic Buy Now Button",
+    preview: (
+        <button className="btn-1449">
+            Buy now
+            <i className="fa-solid fa-arrow-right"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Buy now
+    <i class="fa-solid fa-arrow-right"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 11px 19px;
+    border: 1px solid #b45309;
+    border-radius: 8px;
+    background: linear-gradient(#f59e0b, #d97706);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.25),
+        0 3px 7px rgba(180,83,9,.25);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#fbbf24, #f59e0b);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.25),
+        0 5px 12px rgba(180,83,9,.3);
+}
+.Button:active {
+    transform: translateY(1px);
+}`
+},
+{
+    id: 1450,
+    name: "Realistic Login Button",
+    preview: (
+        <button className="btn-1450">
+            Sign in
+        </button>
+    ),
+    html: `<button class="Button">Sign in</button>`,
+    css: `.Button {
+    width: 150px;
+    padding: 11px 18px;
+    border: 1px solid #111827;
+    border-radius: 7px;
+    background: linear-gradient(#374151, #111827);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.12),
+        0 3px 8px rgba(17,24,39,.25);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#4b5563, #1f2937);
+}
+.Button:active {
+    box-shadow: inset 0 2px 4px rgba(0,0,0,.25);
+}`
+},
+{
+    id: 1451,
+    name: "Realistic Success Button",
+    preview: (
+        <button className="btn-1451">
+            <i className="fa-solid fa-check"></i>
+            Confirm
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-check"></i>
+    Confirm
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #15803d;
+    border-radius: 7px;
+    background: linear-gradient(#22c55e, #16a34a);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.22),
+        0 3px 7px rgba(22,163,74,.22);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#4ade80, #22c55e);
+}
+.Button:active {
+    transform: translateY(1px);
+}`
+},
+{
+    id: 1452,
+    name: "Realistic Danger Button",
+    preview: (
+        <button className="btn-1452">
+            <i className="fa-solid fa-trash"></i>
+            Delete
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-trash"></i>
+    Delete
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #991b1b;
+    border-radius: 7px;
+    background: linear-gradient(#ef4444, #b91c1c);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.18),
+        0 3px 7px rgba(185,28,28,.25);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#f87171, #dc2626);
+}
+.Button:active {
+    transform: translateY(1px);
+}`
+},
+{
+    id: 1453,
+    name: "Realistic Save Button",
+    preview: (
+        <button className="btn-1453">
+            <i className="fa-solid fa-floppy-disk"></i>
+            Save changes
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-floppy-disk"></i>
+    Save changes
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #d4d4d8;
+    border-radius: 7px;
+    background: linear-gradient(#ffffff, #f4f4f5);
+    color: #27272a;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow:
+        inset 0 1px 0 #fff,
+        0 2px 5px rgba(0,0,0,.08);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#fff,#e4e4e7);
+    border-color: #a1a1aa;
+}
+.Button:active {
+    background: #e4e4e7;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,.08);
+}`
+},
+{
+    id: 1454,
+    name: "Realistic Upload Button",
+    preview: (
+        <button className="btn-1454">
+            <i className="fa-solid fa-cloud-arrow-up"></i>
+            Upload file
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-cloud-arrow-up"></i>
+    Upload file
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 11px 18px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background: linear-gradient(#fff, #f8fafc);
+    color: #334155;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow:
+        inset 0 1px 0 #fff,
+        0 2px 5px rgba(15,23,42,.07);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#fff, #f1f5f9);
+    border-color: #94a3b8;
+    color: #0f172a;
+}
+.Button:active {
+    transform: translateY(1px);
+}`
+},
+{
+    id: 1455,
+    name: "Realistic Download Button",
+    preview: (
+        <button className="btn-1455">
+            <i className="fa-solid fa-download"></i>
+            Download
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-download"></i>
+    Download
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    background: linear-gradient(#f8fafc, #e2e8f0);
+    color: #334155;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.9),
+        0 2px 5px rgba(15,23,42,.08);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#fff, #e2e8f0);
+    box-shadow:
+        inset 0 1px 0 #fff,
+        0 4px 8px rgba(15,23,42,.12);
+}
+.Button:active {
+    box-shadow: inset 0 2px 4px rgba(0,0,0,.12);
+}`
+},
+{
+    id: 1456,
+    name: "Realistic Purple CTA",
+    preview: (
+        <button className="btn-1456">
+            Get started
+            <i className="fa-solid fa-arrow-right"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Get started
+    <i class="fa-solid fa-arrow-right"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 11px 19px;
+    border: 1px solid #6d28d9;
+    border-radius: 8px;
+    background: linear-gradient(#8b5cf6, #6d28d9);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.22),
+        0 4px 9px rgba(109,40,217,.25);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#a78bfa, #7c3aed);
+    transform: translateY(-1px);
+}
+.Button i {
+    transition: transform .2s ease;
+}
+.Button:hover i {
+    transform: translateX(3px);
+}`
+},
+{
+    id: 1457,
+    name: "Realistic Blue Primary",
+    preview: (
+        <button className="btn-1457">
+            Create project
+        </button>
+    ),
+    html: `<button class="Button">Create project</button>`,
+    css: `.Button {
+    padding: 11px 19px;
+    border: 1px solid #1d4ed8;
+    border-radius: 8px;
+    background: linear-gradient(#3b82f6, #2563eb);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.2),
+        0 4px 9px rgba(37,99,235,.22);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#60a5fa, #3b82f6);
+}
+.Button:active {
+    transform: translateY(1px);
+}`
+},
+{
+    id: 1458,
+    name: "Realistic Settings Button",
+    preview: (
+        <button className="btn-1458">
+            <i className="fa-solid fa-gear"></i>
+            Settings
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-gear"></i>
+    Settings
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #d4d4d8;
+    border-radius: 8px;
+    background: linear-gradient(#fff,#f4f4f5);
+    color: #3f3f46;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow:
+        inset 0 1px 0 #fff,
+        0 2px 5px rgba(0,0,0,.07);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button i {
+    color: #71717a;
+}
+.Button:hover {
+    background: linear-gradient(#fff,#e4e4e7);
+    border-color: #a1a1aa;
+}
+.Button:active {
+    transform: translateY(1px);
+}`
+},
+{
+    id: 1459,
+    name: "Realistic Share Button",
+    preview: (
+        <button className="btn-1459">
+            <i className="fa-solid fa-share-nodes"></i>
+            Share
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-share-nodes"></i>
+    Share
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #bfdbfe;
+    border-radius: 8px;
+    background: linear-gradient(#eff6ff,#dbeafe);
+    color: #1d4ed8;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.8);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#dbeafe,#bfdbfe);
+    border-color: #93c5fd;
+}
+.Button:active {
+    transform: translateY(1px);
+}`
+},
+{
+    id: 1460,
+    name: "Realistic Add Button",
+    preview: (
+        <button className="btn-1460">
+            <i className="fa-solid fa-plus"></i>
+            Add item
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-plus"></i>
+    Add item
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #52525b;
+    border-radius: 7px;
+    background: linear-gradient(#52525b,#27272a);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.15),
+        0 3px 7px rgba(0,0,0,.2);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#71717a,#3f3f46);
+}
+.Button:active {
+    box-shadow: inset 0 2px 4px rgba(0,0,0,.3);
+}`
+},
+{
+    id: 1461,
+    name: "Realistic Verified Button",
+    preview: (
+        <button className="btn-1461">
+            <i className="fa-solid fa-circle-check"></i>
+            Verified
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-circle-check"></i>
+    Verified
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 15px;
+    border: 1px solid #99f6e4;
+    border-radius: 999px;
+    background: linear-gradient(#f0fdfa,#ccfbf1);
+    color: #0f766e;
+    font-size: 11px;
+    font-weight: 700;
+    box-shadow: inset 0 1px 0 #fff;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#ccfbf1,#99f6e4);
+}
+.Button i {
+    color: #14b8a6;
+}`
+},
+{
+    id: 1462,
+    name: "Realistic Premium Button",
+    preview: (
+        <button className="btn-1462">
+            <i className="fa-solid fa-crown"></i>
+            Upgrade
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-crown"></i>
+    Upgrade
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid #a16207;
+    border-radius: 8px;
+    background: linear-gradient(#facc15,#eab308);
+    color: #451a03;
+    font-size: 12px;
+    font-weight: 800;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.35),
+        0 4px 10px rgba(234,179,8,.25);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#fde047,#facc15);
+    transform: translateY(-1px);
+}
+.Button:active {
+    transform: translateY(1px);
+}`
+},
+{
+    id: 1463,
+    name: "Realistic Filter Button",
+    preview: (
+        <button className="btn-1463">
+            <i className="fa-solid fa-filter"></i>
+            Filter
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-filter"></i>
+    Filter
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #d4d4d8;
+    border-radius: 8px;
+    background: #fff;
+    color: #52525b;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(0,0,0,.06);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    border-color: #a1a1aa;
+    background: #fafafa;
+    color: #18181b;
+}
+.Button:active {
+    transform: translateY(1px);
+}`
+},
+{
+    id: 1464,
+    name: "Realistic Danger Outline",
+    preview: (
+        <button className="btn-1464">
+            Remove access
+        </button>
+    ),
+    html: `<button class="Button">Remove access</button>`,
+    css: `.Button {
+    padding: 10px 17px;
+    border: 1px solid #fca5a5;
+    border-radius: 8px;
+    background: linear-gradient(#fff,#fef2f2);
+    color: #b91c1c;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: inset 0 1px 0 #fff;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#fef2f2,#fee2e2);
+    border-color: #f87171;
+}
+.Button:active {
+    transform: translateY(1px);
+}`
+},
+{
+    id: 1465,
+    name: "Realistic Neutral Pill",
+    preview: (
+        <button className="btn-1465">
+            All updates
+        </button>
+    ),
+    html: `<button class="Button">All updates</button>`,
+    css: `.Button {
+    padding: 9px 16px;
+    border: 1px solid #d4d4d8;
+    border-radius: 999px;
+    background: linear-gradient(#fff,#f4f4f5);
+    color: #52525b;
+    font-size: 11px;
+    font-weight: 600;
+    box-shadow:
+        inset 0 1px 0 #fff,
+        0 2px 5px rgba(0,0,0,.06);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#fff,#e4e4e7);
+    color: #18181b;
+}
+.Button:active {
+    transform: translateY(1px);
+}`
+},
+{
+    id: 1466,
+    name: "Realistic Message Button",
+    preview: (
+        <button className="btn-1466">
+            <i className="fa-solid fa-message"></i>
+            Send message
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-message"></i>
+    Send message
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid #0369a1;
+    border-radius: 8px;
+    background: linear-gradient(#0ea5e9,#0284c7);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.2),
+        0 4px 9px rgba(2,132,199,.22);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#38bdf8,#0ea5e9);
+}
+.Button:active {
+    transform: translateY(1px);
+}`
+},
+{
+    id: 1467,
+    name: "Realistic Launch Button",
+    preview: (
+        <button className="btn-1467">
+            Launch product
+            <i className="fa-solid fa-rocket"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Launch product
+    <i class="fa-solid fa-rocket"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 12px 20px;
+    border: 1px solid #312e81;
+    border-radius: 9px;
+    background: linear-gradient(135deg,#4338ca,#7c3aed);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.18),
+        0 5px 12px rgba(67,56,202,.28);
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background: linear-gradient(135deg,#4f46e5,#8b5cf6);
+    transform: translateY(-2px);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.2),
+        0 8px 18px rgba(67,56,202,.32);
+}
+.Button:hover i {
+    transform: translateY(-2px) rotate(-8deg);
+}
+.Button i {
+    transition: transform .25s ease;
+}
+.Button:active {
+    transform: translateY(0);
+}`
+},
+{
+    id: 1468,
+    name: "Cyber Hex Play Button",
+    preview: (
+        <button className="btn-1468">
+            <i className="fa-solid fa-play"></i>
+            <span className="btn-1468__text">PLAY</span>
+            <span className="btn-1468__clip">
+                <span className="btn-1468__corner btn-1468__corner--left-top"></span>
+                <span className="btn-1468__corner btn-1468__corner--right-top"></span>
+                <span className="btn-1468__corner btn-1468__corner--left-bottom"></span>
+                <span className="btn-1468__corner btn-1468__corner--right-bottom"></span>
+            </span>
+            <i className="fa-solid fa-angles-right btn-1468__arrow btn-1468__arrow--right"></i>
+            <i className="fa-solid fa-angles-left btn-1468__arrow btn-1468__arrow--left"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-play Button-play"></i>
+    <span class="Button-text">PLAY</span>
 
+    <span class="Button-clip">
+        <span class="Button-corner Button-corner-left-top"></span>
+        <span class="Button-corner Button-corner-right-top"></span>
+        <span class="Button-corner Button-corner-left-bottom"></span>
+        <span class="Button-corner Button-corner-right-bottom"></span>
+    </span>
+
+    <i class="fa-solid fa-angles-right Button-arrow Button-arrow-right"></i>
+    <i class="fa-solid fa-angles-left Button-arrow Button-arrow-left"></i>
+</button>`,
+    css: `.Button {
+    position: relative;
+    width: 11em;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #ddebf0;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.Button-play {
+    position: relative;
+    z-index: 4;
+    font-size: 11px;
+    transition: .25s ease;
+}
+.Button-text {
+    position: relative;
+    z-index: 4;
+}
+.Button-clip {
+    --color: #2761c3;
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    border: 5px double var(--color);
+    box-shadow: inset 0 0 15px #195480;
+    clip-path: polygon(
+        30% 0%,
+        70% 0%,
+        100% 30%,
+        100% 70%,
+        70% 100%,
+        30% 100%,
+        0% 70%,
+        0% 30%
+    );
+    transition: .25s ease;
+}
+.Button-arrow {
+    position: absolute;
+    z-index: 5;
+    color: #2761c3;
+    font-size: 10px;
+    transition: .2s ease;
+}
+.Button-arrow-right {
+    right: -12%;
+}
+.Button-arrow-left {
+    left: -12%;
+}
+.Button-corner {
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background: #2761c3;
+    box-shadow: inset 1px 1px 8px #2781c3;
+    transform: scale(1) rotate(45deg);
+    transition: .2s ease;
+}
+.Button-corner-left-top {
+    top: -1.98em;
+    left: -3em;
+}
+.Button-corner-right-top {
+    top: -1.98em;
+    left: 91%;
+}
+.Button-corner-left-bottom {
+    top: 2.1em;
+    left: -2.15em;
+}
+.Button-corner-right-bottom {
+    top: 45%;
+    left: 88%;
+}
+.Button:hover .Button-arrow-right {
+    color: #27c39f;
+    right: -15%;
+    animation: Button-arrow-right 0.6s ease-in-out infinite alternate;
+}
+.Button:hover .Button-arrow-left {
+    color: #27c39f;
+    left: 103%;
+    animation: Button-arrow-left 0.6s ease-in-out infinite alternate;
+}
+.Button:hover .Button-corner {
+    transform: scale(1.25) rotate(45deg);
+}
+.Button:hover .Button-corner-left-top,
+.Button:hover .Button-corner-right-top,
+.Button:hover .Button-corner-right-bottom,
+.Button:hover .Button-corner-left-bottom {
+    background: #27c39f;
+    box-shadow: 0 0 3px #27c39f;
+}
+.Button:hover .Button-clip {
+    --color: #27c39f;
+    animation: Button-green-light .2s ease-in-out .35s both;
+}
+.Button:hover .Button-play {
+    color: #27c39f;
+    transform: scale(1.15);
+}
+@keyframes Button-green-light {
+    from {
+        box-shadow: inset 0 0 10px #27c39f;
+    }
+    to {
+        box-shadow: inset 0 0 32px #27c39f;
+    }
+}
+@keyframes Button-arrow-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(10px);
+    }
+}
+@keyframes Button-arrow-right {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-10px);
+    }
+}`
+},
+{
+    id: 1469,
+    name: "Arctic Blue Button",
+    preview: (
+        <button className="btn-1469">
+            <i className="fa-solid fa-snowflake"></i>
+            Arctic
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-snowflake"></i>
+    Arctic
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 19px;
+    border: 1px solid #7dd3fc;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#38bdf8,#2563eb);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: 0 6px 18px rgba(37,99,235,.25);
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg,#7dd3fc,#3b82f6);
+    box-shadow: 0 10px 24px rgba(56,189,248,.3);
+}`
+},
+{
+    id: 1470,
+    name: "Ice Crystal Button",
+    preview: (
+        <button className="btn-1470">
+            <i className="fa-regular fa-gem"></i>
+            Crystal
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-regular fa-gem"></i>
+    Crystal
+</button>`,
+    css: `.Button {
+    padding: 11px 20px;
+    border: 1px solid #bae6fd;
+    border-radius: 11px;
+    background: linear-gradient(135deg,#e0f2fe,#bae6fd);
+    color: #0c4a6e;
+    font-size: 12px;
+    font-weight: 800;
+    box-shadow: inset 0 1px 0 #fff,0 6px 15px rgba(14,165,233,.15);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(135deg,#f0f9ff,#7dd3fc);
+    transform: translateY(-2px);
+}`
+},
+{
+    id: 1471,
+    name: "Black Ice Button",
+    preview: (
+        <button className="btn-1471">
+            <i className="fa-solid fa-cube"></i>
+            Black Ice
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-cube"></i>
+    Black Ice
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 19px;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#111827,#020617);
+    color: #bae6fd;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.08),0 8px 20px rgba(0,0,0,.28);
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    border-color: #38bdf8;
+    color: #e0f2fe;
+    box-shadow: 0 0 20px rgba(56,189,248,.18);
+}`
+},
+{
+    id: 1472,
+    name: "Frozen Glow Button",
+    preview: (
+        <button className="btn-1472">
+            Freeze
+        </button>
+    ),
+    html: `<button class="Button">Freeze</button>`,
+    css: `.Button {
+    padding: 11px 20px;
+    border: 1px solid #67e8f9;
+    border-radius: 999px;
+    background: linear-gradient(135deg,#0ea5e9,#06b6d4);
+    color: #ecfeff;
+    font-size: 12px;
+    font-weight: 800;
+    box-shadow: 0 0 0 rgba(34,211,238,0);
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    box-shadow: 0 0 24px rgba(34,211,238,.35);
+    transform: translateY(-2px);
+}`
+},
+{
+    id: 1473,
+    name: "Frosted Glass Button",
+    preview: (
+        <button className="btn-1473">
+            <i className="fa-solid fa-wind"></i>
+            Frosted
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-wind"></i>
+    Frosted
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid rgba(255,255,255,.45);
+    border-radius: 12px;
+    background: rgba(186,230,253,.2);
+    backdrop-filter: blur(14px);
+    color: #e0f2fe;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background: rgba(186,230,253,.32);
+    border-color: rgba(255,255,255,.7);
+}`
+},
+{
+    id: 1474,
+    name: "Deep Ocean Button",
+    preview: (
+        <button className="btn-1474">
+            Dive deeper
+            <i className="fa-solid fa-water"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Dive deeper
+    <i class="fa-solid fa-water"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 12px 19px;
+    border: 1px solid #075985;
+    border-radius: 9px;
+    background: linear-gradient(135deg,#0c4a6e,#0369a1,#0284c7);
+    color: #e0f2fe;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: 0 7px 18px rgba(3,105,161,.25);
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background: linear-gradient(135deg,#075985,#0284c7,#38bdf8);
+    transform: translateY(-2px);
+}`
+},
+{
+    id: 1475,
+    name: "Ice Outline Button",
+    preview: (
+        <button className="btn-1475">
+            Explore
+        </button>
+    ),
+    html: `<button class="Button">Explore</button>`,
+    css: `.Button {
+    padding: 10px 18px;
+    border: 1px solid #38bdf8;
+    border-radius: 9px;
+    background: transparent;
+    color: #38bdf8;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background: rgba(56,189,248,.1);
+    color: #bae6fd;
+    box-shadow: 0 0 16px rgba(56,189,248,.2);
+}`
+},
+{
+    id: 1476,
+    name: "Glacier Button",
+    preview: (
+        <button className="btn-1476">
+            <i className="fa-solid fa-mountain"></i>
+            Glacier
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-mountain"></i>
+    Glacier
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 19px;
+    border: 1px solid #a5f3fc;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#cffafe,#67e8f9,#22d3ee);
+    color: #164e63;
+    font-size: 12px;
+    font-weight: 800;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.7),0 6px 18px rgba(34,211,238,.2);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(34,211,238,.28);
+}`
+},
+{
+    id: 1477,
+    name: "Midnight Frost Button",
+    preview: (
+        <button className="btn-1477">
+            <i className="fa-solid fa-moon"></i>
+            Midnight
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-moon"></i>
+    Midnight
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid #1e40af;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#0f172a,#172554);
+    color: #bfdbfe;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: inset 0 0 18px rgba(59,130,246,.08);
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    border-color: #60a5fa;
+    box-shadow: 0 0 22px rgba(59,130,246,.2);
+}`
+},
+{
+    id: 1478,
+    name: "Polar Button",
+    preview: (
+        <button className="btn-1478">
+            <i className="fa-solid fa-location-crosshairs"></i>
+            Polar
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-location-crosshairs"></i>
+    Polar
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background: #f8fafc;
+    color: #0f172a;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: 0 3px 10px rgba(15,23,42,.08);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #e0f2fe;
+    border-color: #7dd3fc;
+}`
+},
+{
+    id: 1479,
+    name: "Ice Beam Button",
+    preview: (
+        <button className="btn-1479">
+            Beam
+        </button>
+    ),
+    html: `<button class="Button">Beam</button>`,
+    css: `.Button {
+    position: relative;
+    overflow: hidden;
+    padding: 11px 21px;
+    border: 1px solid #38bdf8;
+    border-radius: 9px;
+    background: #0f172a;
+    color: #e0f2fe;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.Button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(90deg,transparent,rgba(186,230,253,.8),transparent);
+    transform: skewX(-18deg);
+    transition: left .45s ease;
+}
+.Button:hover::after {
+    left: 130%;
+}`
+},
+{
+    id: 1480,
+    name: "Frozen Pill Button",
+    preview: (
+        <button className="btn-1480">
+            <i className="fa-solid fa-snowflake"></i>
+            Frozen
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-snowflake"></i>
+    Frozen
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 19px;
+    border: 1px solid #bae6fd;
+    border-radius: 999px;
+    background: linear-gradient(135deg,#eff6ff,#dbeafe);
+    color: #1e40af;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(135deg,#dbeafe,#bfdbfe);
+    transform: translateY(-1px);
+}`
+},
+{
+    id: 1481,
+    name: "Electric Blue Button",
+    preview: (
+        <button className="btn-1481">
+            <i className="fa-solid fa-bolt"></i>
+            Power
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-bolt"></i>
+    Power
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid #2563eb;
+    border-radius: 9px;
+    background: linear-gradient(135deg,#2563eb,#1d4ed8);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    box-shadow: 0 0 15px rgba(37,99,235,.18);
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background: linear-gradient(135deg,#3b82f6,#2563eb);
+    box-shadow: 0 0 24px rgba(59,130,246,.3);
+    transform: translateY(-2px);
+}`
+},
+{
+    id: 1482,
+    name: "Blue Steel Button",
+    preview: (
+        <button className="btn-1482">
+            Steel
+        </button>
+    ),
+    html: `<button class="Button">Steel</button>`,
+    css: `.Button {
+    padding: 11px 19px;
+    border: 1px solid #64748b;
+    border-radius: 7px;
+    background: linear-gradient(#475569,#1e293b);
+    color: #e2e8f0;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.14),0 4px 10px rgba(15,23,42,.22);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#64748b,#334155);
+    transform: translateY(-1px);
+}`
+},
+{
+    id: 1483,
+    name: "Ice Edge Button",
+    preview: (
+        <button className="btn-1483">
+            Continue
+            <i className="fa-solid fa-chevron-right"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Continue
+    <i class="fa-solid fa-chevron-right"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 11px 18px;
+    border: 1px solid #93c5fd;
+    border-radius: 8px;
+    background: #dbeafe;
+    color: #1e3a8a;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #bfdbfe;
+    border-color: #60a5fa;
+}
+.Button i {
+    transition: transform .2s ease;
+}
+.Button:hover i {
+    transform: translateX(3px);
+}`
+},
+{
+    id: 1484,
+    name: "Black Frost Button",
+    preview: (
+        <button className="btn-1484">
+            <i className="fa-solid fa-lock"></i>
+            Secure
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-lock"></i>
+    Secure
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    background: linear-gradient(145deg,#020617,#111827);
+    color: #7dd3fc;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: inset 0 0 12px rgba(125,211,252,.05);
+    transition: .25s ease;
+}
+.Button:hover {
+    border-color: #7dd3fc;
+    box-shadow: 0 0 20px rgba(125,211,252,.16);
+}`
+},
+{
+    id: 1485,
+    name: "Snowfall Button",
+    preview: (
+        <button className="btn-1485">
+            <i className="fa-solid fa-snowflake"></i>
+            Snowfall
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-snowflake"></i>
+    Snowfall
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 19px;
+    border: 1px solid #7dd3fc;
+    border-radius: 11px;
+    background: linear-gradient(135deg,#0284c7,#0ea5e9,#38bdf8);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    filter: brightness(1.12);
+    transform: translateY(-2px);
+}`
+},
+{
+    id: 1486,
+    name: "Aurora Ice Button",
+    preview: (
+        <button className="btn-1486">
+            <i className="fa-solid fa-wand-magic-sparkles"></i>
+            Aurora
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-wand-magic-sparkles"></i>
+    Aurora
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid rgba(103,232,249,.5);
+    border-radius: 10px;
+    background: linear-gradient(135deg,#0ea5e9,#06b6d4,#8b5cf6);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    background-size: 200% 200%;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background-position: 100% 0;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(6,182,212,.2);
+}`
+},
+{
+    id: 1487,
+    name: "Frozen Glass CTA",
+    preview: (
+        <button className="btn-1487">
+            Get started
+            <i className="fa-solid fa-arrow-right"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Get started
+    <i class="fa-solid fa-arrow-right"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 19px;
+    border: 1px solid rgba(186,230,253,.5);
+    border-radius: 11px;
+    background: rgba(14,165,233,.15);
+    backdrop-filter: blur(16px);
+    color: #e0f2fe;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background: rgba(14,165,233,.3);
+    transform: translateY(-2px);
+}
+.Button i {
+    transition: transform .2s ease;
+}
+.Button:hover i {
+    transform: translateX(3px);
+}`
+},
+{
+    id: 1488,
+    name: "Icy Outline Glow",
+    preview: (
+        <button className="btn-1488">
+            Glow
+        </button>
+    ),
+    html: `<button class="Button">Glow</button>`,
+    css: `.Button {
+    padding: 11px 20px;
+    border: 1px solid #67e8f9;
+    border-radius: 10px;
+    background: transparent;
+    color: #67e8f9;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background: rgba(103,232,249,.08);
+    box-shadow:
+        0 0 10px rgba(103,232,249,.35),
+        0 0 25px rgba(103,232,249,.12);
+}`
+},
+{
+    id: 1489,
+    name: "Winter Night Button",
+    preview: (
+        <button className="btn-1489">
+            <i className="fa-solid fa-moon"></i>
+            Night mode
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-moon"></i>
+    Night mode
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: 1px solid #1e3a8a;
+    border-radius: 9px;
+    background: linear-gradient(135deg,#020617,#172554);
+    color: #bfdbfe;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    border-color: #60a5fa;
+    background: linear-gradient(135deg,#0f172a,#1e3a8a);
+}`
+},
+{
+    id: 1490,
+    name: "Ice Chip Button",
+    preview: (
+        <button className="btn-1490">
+            <span></span>
+            Active
+        </button>
+    ),
+    html: `<button class="Button">
+    <span></span>
+    Active
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #bae6fd;
+    border-radius: 8px;
+    background: #f0f9ff;
+    color: #0369a1;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button span {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #0ea5e9;
+    box-shadow: 0 0 8px rgba(14,165,233,.6);
+}
+.Button:hover {
+    background: #e0f2fe;
+}`
+},
+{
+    id: 1491,
+    name: "Glacier Glass Button",
+    preview: (
+        <button className="btn-1491">
+            <i className="fa-solid fa-layer-group"></i>
+            Layers
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-layer-group"></i>
+    Layers
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 11px;
+    background: linear-gradient(135deg,rgba(255,255,255,.18),rgba(125,211,252,.12));
+    backdrop-filter: blur(12px);
+    color: #e0f2fe;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background: linear-gradient(135deg,rgba(255,255,255,.26),rgba(125,211,252,.2));
+}`
+},
+{
+    id: 1492,
+    name: "Blue Ice Action",
+    preview: (
+        <button className="btn-1492">
+            <i className="fa-solid fa-bolt"></i>
+            Activate
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-bolt"></i>
+    Activate
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid #1d4ed8;
+    border-radius: 8px;
+    background: linear-gradient(#60a5fa,#2563eb);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.2),0 5px 14px rgba(37,99,235,.25);
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#93c5fd,#3b82f6);
+    transform: translateY(-1px);
+}`
+},
+{
+    id: 1493,
+    name: "Black Diamond Ice",
+    preview: (
+        <button className="btn-1493">
+            <i className="fa-regular fa-gem"></i>
+            Diamond
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-regular fa-gem"></i>
+    Diamond
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 19px;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    background: linear-gradient(145deg,#0f172a,#020617);
+    color: #e0f2fe;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: inset 0 0 15px rgba(125,211,252,.05),0 8px 20px rgba(0,0,0,.28);
+    transition: .25s ease;
+}
+.Button:hover {
+    border-color: #7dd3fc;
+    box-shadow: 0 0 22px rgba(125,211,252,.18);
+}`
+},
+{
+    id: 1494,
+    name: "Ice Select Button",
+    preview: (
+        <button className="btn-1494">
+            Select
+            <i className="fa-solid fa-chevron-down"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Select
+    <i class="fa-solid fa-chevron-down"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 10px 17px;
+    border: 1px solid #bae6fd;
+    border-radius: 8px;
+    background: #f0f9ff;
+    color: #0c4a6e;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #e0f2fe;
+    border-color: #7dd3fc;
+}
+.Button i {
+    font-size: 9px;
+}`
+},
+{
+    id: 1495,
+    name: "Blue Frosted Button",
+    preview: (
+        <button className="btn-1495">
+            Continue
+        </button>
+    ),
+    html: `<button class="Button">Continue</button>`,
+    css: `.Button {
+    padding: 11px 20px;
+    border: 1px solid rgba(147,197,253,.6);
+    border-radius: 10px;
+    background: rgba(59,130,246,.18);
+    backdrop-filter: blur(10px);
+    color: #dbeafe;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background: rgba(59,130,246,.28);
+    border-color: #93c5fd;
+    box-shadow: 0 0 18px rgba(59,130,246,.15);
+}`
+},
+{
+    id: 1496,
+    name: "Frozen Search Button",
+    preview: (
+        <button className="btn-1496">
+            <i className="fa-solid fa-magnifying-glass"></i>
+            Search
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    Search
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background: linear-gradient(#fff,#e2e8f0);
+    color: #334155;
+    font-size: 11px;
+    font-weight: 700;
+    box-shadow: inset 0 1px 0 #fff,0 3px 7px rgba(15,23,42,.08);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(#fff,#dbeafe);
+    border-color: #93c5fd;
+}`
+},
+{
+    id: 1497,
+    name: "Ice Tag Button",
+    preview: (
+        <button className="btn-1497">
+            <span>NEW</span>
+            Explore
+        </button>
+    ),
+    html: `<button class="Button">
+    <span>NEW</span>
+    Explore
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 13px;
+    border: 1px solid #bae6fd;
+    border-radius: 8px;
+    background: #f0f9ff;
+    color: #0c4a6e;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button span {
+    padding: 3px 5px;
+    border-radius: 5px;
+    background: #0ea5e9;
+    color: #fff;
+    font-size: 7px;
+    font-weight: 800;
+}
+.Button:hover {
+    background: #e0f2fe;
+}`
+},
+{
+    id: 1498,
+    name: "Deep Freeze Button",
+    preview: (
+        <button className="btn-1498">
+            <i className="fa-solid fa-power-off"></i>
+            Freeze mode
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-power-off"></i>
+    Freeze mode
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 19px;
+    border: 1px solid #0c4a6e;
+    border-radius: 9px;
+    background: linear-gradient(145deg,#082f49,#0f172a);
+    color: #67e8f9;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    border-color: #22d3ee;
+    box-shadow: 0 0 18px rgba(34,211,238,.16);
+}`
+},
+{
+    id: 1499,
+    name: "Winter Sky Button",
+    preview: (
+        <button className="btn-1499">
+            Open sky
+        </button>
+    ),
+    html: `<button class="Button">Open sky</button>`,
+    css: `.Button {
+    padding: 11px 19px;
+    border: 1px solid #7dd3fc;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#0ea5e9,#38bdf8,#7dd3fc);
+    color: #082f49;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(56,189,248,.18);
+    transition: .2s ease;
+}
+.Button:hover {
+    filter: brightness(1.08);
+    transform: translateY(-2px);
+}`
+},
+{
+    id: 1500,
+    name: "Black Ice CTA",
+    preview: (
+        <button className="btn-1500">
+            <i className="fa-solid fa-arrow-right"></i>
+            Enter
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-arrow-right"></i>
+    Enter
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 11px 20px;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#020617,#111827);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button i {
+    color: #38bdf8;
+    transition: transform .2s ease;
+}
+.Button:hover {
+    border-color: #38bdf8;
+    box-shadow: 0 0 20px rgba(56,189,248,.15);
+}
+.Button:hover i {
+    transform: translateX(3px);
+}`
+},
+{
+    id: 1501,
+    name: "Crystal Blue Button",
+    preview: (
+        <button className="btn-1501">
+            <i className="fa-regular fa-star"></i>
+            Crystal
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-regular fa-star"></i>
+    Crystal
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid #bae6fd;
+    border-radius: 12px;
+    background: linear-gradient(135deg,rgba(224,242,254,.95),rgba(186,230,253,.7));
+    color: #075985;
+    font-size: 12px;
+    font-weight: 800;
+    box-shadow: inset 0 1px 0 #fff,0 5px 15px rgba(14,165,233,.14);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(135deg,#f0f9ff,#bae6fd);
+    transform: translateY(-2px);
+}`
+},
+{
+    id: 1502,
+    name: "Frozen Danger Button",
+    preview: (
+        <button className="btn-1502">
+            <i className="fa-solid fa-ban"></i>
+            Block
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-ban"></i>
+    Block
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #7dd3fc;
+    border-radius: 8px;
+    background: linear-gradient(135deg,#082f49,#0c4a6e);
+    color: #bae6fd;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    border-color: #38bdf8;
+    background: linear-gradient(135deg,#0c4a6e,#075985);
+}`
+},
+{
+    id: 1503,
+    name: "Blue Ice Icon Button",
+    preview: (
+        <button className="btn-1503" aria-label="Settings">
+            <i className="fa-solid fa-gear"></i>
+        </button>
+    ),
+    html: `<button class="Button" aria-label="Settings">
+    <i class="fa-solid fa-gear"></i>
+</button>`,
+    css: `.Button {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #bae6fd;
+    border-radius: 10px;
+    background: #f0f9ff;
+    color: #0369a1;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background: #e0f2fe;
+    color: #0284c7;
+    transform: rotate(20deg);
+}`
+},
+{
+    id: 1504,
+    name: "Ice Check Button",
+    preview: (
+        <button className="btn-1504">
+            <i className="fa-solid fa-check"></i>
+            Complete
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-check"></i>
+    Complete
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #67e8f9;
+    border-radius: 9px;
+    background: linear-gradient(135deg,#cffafe,#a5f3fc);
+    color: #155e75;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(135deg,#a5f3fc,#67e8f9);
+    transform: translateY(-1px);
+}`
+},
+{
+    id: 1505,
+    name: "Frozen Glass Icon",
+    preview: (
+        <button className="btn-1505">
+            <i className="fa-solid fa-plus"></i>
+        </button>
+    ),
+    html: `<button class="Button" aria-label="Add">
+    <i class="fa-solid fa-plus"></i>
+</button>`,
+    css: `.Button {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(186,230,253,.5);
+    border-radius: 50%;
+    background: rgba(125,211,252,.12);
+    backdrop-filter: blur(12px);
+    color: #e0f2fe;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background: rgba(125,211,252,.25);
+    transform: rotate(90deg) scale(1.05);
+}`
+},
+{
+    id: 1506,
+    name: "Arctic Action Button",
+    preview: (
+        <button className="btn-1506">
+            <i className="fa-solid fa-compass"></i>
+            Discover
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-compass"></i>
+    Discover
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid #60a5fa;
+    border-radius: 9px;
+    background: linear-gradient(135deg,#1d4ed8,#3b82f6);
+    color: #eff6ff;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background: linear-gradient(135deg,#2563eb,#60a5fa);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(59,130,246,.25);
+}`
+},
+{
+    id: 1507,
+    name: "Ice Shimmer Button",
+    preview: (
+        <button className="btn-1507">
+            Shimmer
+        </button>
+    ),
+    html: `<button class="Button">Shimmer</button>`,
+    css: `.Button {
+    position: relative;
+    overflow: hidden;
+    padding: 11px 20px;
+    border: 1px solid #7dd3fc;
+    border-radius: 9px;
+    background: #0c4a6e;
+    color: #e0f2fe;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.Button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -80%;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.7),transparent);
+    transform: skewX(-18deg);
+    animation: btn-1507-shimmer 2.5s ease-in-out infinite;
+}
+@keyframes btn-1507-shimmer {
+    0%,45% {
+        left: -80%;
+    }
+    100% {
+        left: 140%;
+    }
+}`
+},
+{
+    id: 1508,
+    name: "Blue Frost Gradient",
+    preview: (
+        <button className="btn-1508">
+            Upgrade
+            <i className="fa-solid fa-arrow-up"></i>
+        </button>
+    ),
+    html: `<button class="Button">
+    Upgrade
+    <i class="fa-solid fa-arrow-up"></i>
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#60a5fa,#38bdf8,#06b6d4);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    background: linear-gradient(135deg,#93c5fd,#67e8f9,#22d3ee);
+    transform: translateY(-2px);
+}`
+},
+{
+    id: 1509,
+    name: "Black Ice Outline",
+    preview: (
+        <button className="btn-1509">
+            <i className="fa-solid fa-terminal"></i>
+            Execute
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-terminal"></i>
+    Execute
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: 1px solid #38bdf8;
+    border-radius: 5px;
+    background: #020617;
+    color: #7dd3fc;
+    font-family: monospace;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #0c4a6e;
+    color: #e0f2fe;
+    box-shadow: 0 0 18px rgba(56,189,248,.2);
+}`
+},
+{
+    id: 1510,
+    name: "Ice Capsule Button",
+    preview: (
+        <button className="btn-1510">
+            Explore
+        </button>
+    ),
+    html: `<button class="Button">Explore</button>`,
+    css: `.Button {
+    padding: 10px 20px;
+    border: 1px solid #93c5fd;
+    border-radius: 999px;
+    background: linear-gradient(135deg,#eff6ff,#dbeafe);
+    color: #1e40af;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(59,130,246,.12);
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(135deg,#dbeafe,#bfdbfe);
+    transform: scale(1.03);
+}`
+},
+{
+    id: 1511,
+    name: "Polar Glow Button",
+    preview: (
+        <button className="btn-1511">
+            <i className="fa-solid fa-lightbulb"></i>
+            Illuminate
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-lightbulb"></i>
+    Illuminate
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid #67e8f9;
+    border-radius: 10px;
+    background: #082f49;
+    color: #a5f3fc;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.Button:hover {
+    box-shadow: 0 0 22px rgba(103,232,249,.28);
+    background: #0c4a6e;
+}`
+},
+{
+    id: 1512,
+    name: "Frozen Success Button",
+    preview: (
+        <button className="btn-1512">
+            <i className="fa-solid fa-circle-check"></i>
+            Approved
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-circle-check"></i>
+    Approved
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #86efac;
+    border-radius: 8px;
+    background: linear-gradient(135deg,#ecfeff,#cffafe);
+    color: #166534;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: linear-gradient(135deg,#cffafe,#a5f3fc);
+}`
+},
+{
+    id: 1513,
+    name: "Ice Navigation Button",
+    preview: (
+        <button className="btn-1513">
+            <i className="fa-solid fa-arrow-left"></i>
+            Back
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-arrow-left"></i>
+    Back
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #bae6fd;
+    border-radius: 8px;
+    background: #f0f9ff;
+    color: #0369a1;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #e0f2fe;
+    border-color: #7dd3fc;
+}
+.Button i {
+    transition: transform .2s ease;
+}
+.Button:hover i {
+    transform: translateX(-3px);
+}`
+},
+{
+    id: 1514,
+    name: "Black Glacier Button",
+    preview: (
+        <button className="btn-1514">
+            <i className="fa-solid fa-mountain-sun"></i>
+            Summit
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-mountain-sun"></i>
+    Summit
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 19px;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    background: linear-gradient(145deg,#020617,#1e293b);
+    color: #bfdbfe;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: inset 0 0 14px rgba(96,165,250,.05);
+    transition: .25s ease;
+}
+.Button:hover {
+    border-color: #60a5fa;
+    color: #dbeafe;
+    transform: translateY(-1px);
+}`
+},
+{
+    id: 1515,
+    name: "Ice Diamond CTA",
+    preview: (
+        <button className="btn-1515">
+            <i className="fa-solid fa-diamond"></i>
+            Unlock
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-diamond"></i>
+    Unlock
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid #c4b5fd;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#dbeafe,#bfdbfe,#ddd6fe);
+    color: #312e81;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(99,102,241,.14);
+    transition: .25s ease;
+}
+.Button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(99,102,241,.2);
+}`
+},
+{
+    id: 1516,
+    name: "Frozen Command Button",
+    preview: (
+        <button className="btn-1516">
+            <i className="fa-solid fa-terminal"></i>
+            Run command
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-terminal"></i>
+    Run command
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 17px;
+    border: 1px solid #164e63;
+    border-radius: 7px;
+    background: #030712;
+    color: #67e8f9;
+    font-family: monospace;
+    font-size: 11px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Button:hover {
+    background: #082f49;
+    border-color: #22d3ee;
+    box-shadow: 0 0 16px rgba(34,211,238,.14);
+}`
+},
+{
+    id: 1517,
+    name: "Aurora Ice Button",
+    preview: (
+        <button className="btn-1517">
+            <i className="fa-solid fa-star"></i>
+            Explore universe
+        </button>
+    ),
+    html: `<button class="Button">
+    <i class="fa-solid fa-star"></i>
+    Explore universe
+</button>`,
+    css: `.Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border: 1px solid rgba(255,255,255,.22);
+    border-radius: 11px;
+    background: linear-gradient(135deg,#0ea5e9,#2563eb,#7c3aed);
+    background-size: 180% 180%;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.Button:hover {
+    background-position: 100% 0;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 26px rgba(37,99,235,.25);
+}`
+},
+{
+    id: 1518,
+    name: "Legendary Black Ice Button",
+    preview: (
+        <button className="btn-1518">
+            <span className="btn-1518__glow"></span>
+            <i className="fa-solid fa-snowflake"></i>
+            Enter the frozen core
+        </button>
+    ),
+    html: `<button class="Button">
+    <span class="Button-glow"></span>
+    <i class="fa-solid fa-snowflake"></i>
+    Enter the frozen core
+</button>`,
+    css: `.Button {
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 13px 21px;
+    border: 1px solid #38bdf8;
+    border-radius: 11px;
+    background: linear-gradient(135deg,#020617,#0f172a,#082f49);
+    color: #e0f2fe;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow:
+        inset 0 0 20px rgba(56,189,248,.05),
+        0 8px 24px rgba(0,0,0,.3);
+    isolation: isolate;
+}
+.Button-glow {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #38bdf8;
+    filter: blur(28px);
+    opacity: .12;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+    transition: .4s ease;
+    z-index: -1;
+}
+.Button:hover {
+    border-color: #7dd3fc;
+    color: #fff;
+    box-shadow:
+        inset 0 0 25px rgba(56,189,248,.08),
+        0 0 25px rgba(56,189,248,.18);
+    transform: translateY(-2px);
+}
+.Button:hover .Button-glow {
+    left: 70%;
+    opacity: .3;
+}
+.Button i {
+    color: #67e8f9;
+    transition: .3s ease;
+}
+.Button:hover i {
+    transform: rotate(180deg);
+}`
+},
 
 
 
@@ -28950,7 +33436,1813 @@ export const loaders = [
         opacity: .45;
     }
 }`,
+},{
+    id: 1784,
+    name: "Neon Orbit Loader",
+    preview: (
+        <div className="loader-1784">
+            <span></span>
+            <span></span>
+            <div></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <div></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 58px;
+    height: 58px;
 }
+.Loader span {
+    position: absolute;
+    inset: 0;
+    border: 2px solid transparent;
+    border-top-color: #22d3ee;
+    border-right-color: #3b82f6;
+    border-radius: 50%;
+    animation: orbit-1784 1.2s linear infinite;
+}
+.Loader span:nth-child(2) {
+    inset: 8px;
+    border-top-color: #ec4899;
+    border-right-color: #8b5cf6;
+    animation-duration: .8s;
+    animation-direction: reverse;
+}
+.Loader div {
+    position: absolute;
+    inset: 20px;
+    border-radius: 50%;
+    background: #22d3ee;
+    box-shadow: 0 0 14px #22d3ee;
+}
+@keyframes orbit-1784 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1785,
+    name: "Rainbow Spinner",
+    preview: <div className="loader-1785"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid transparent;
+    border-top-color: #ef4444;
+    border-right-color: #f97316;
+    border-bottom-color: #22c55e;
+    border-left-color: #8b5cf6;
+    border-radius: 50%;
+    animation: spin-1785 1s linear infinite;
+}
+@keyframes spin-1785 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1786,
+    name: "Ice Crystal Loader",
+    preview: (
+        <div className="loader-1786">
+            <div></div>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div></div>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+}
+.Loader div {
+    width: 28px;
+    height: 28px;
+    border: 2px solid #67e8f9;
+    transform: rotate(45deg);
+    box-shadow: 0 0 14px #22d3ee,inset 0 0 10px rgba(34,211,238,.18);
+    animation: crystal-1786 1.5s ease-in-out infinite;
+}
+.Loader span {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    border: 1px dashed rgba(186,230,253,.65);
+    border-radius: 50%;
+    animation: spin-1786 4s linear infinite;
+}
+@keyframes crystal-1786 {
+    50% {
+        transform: rotate(225deg) scale(1.18);
+    }
+}
+@keyframes spin-1786 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1787,
+    name: "Fire Ring Loader",
+    preview: (
+        <div className="loader-1787">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 52px;
+    height: 52px;
+    padding: 4px;
+    border-radius: 50%;
+    background: conic-gradient(#facc15,#fb923c,#ef4444,#f97316,#facc15);
+    animation: fire-1787 1s linear infinite;
+}
+.Loader span {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+    background: #120704;
+}
+@keyframes fire-1787 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1788,
+    name: "Aurora Loader",
+    preview: (
+        <div className="loader-1788">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 45px;
+}
+.Loader span {
+    width: 5px;
+    height: 20px;
+    border-radius: 999px;
+    background: linear-gradient(180deg,#22d3ee,#8b5cf6,#ec4899);
+    box-shadow: 0 0 10px rgba(139,92,246,.5);
+    animation: aurora-1788 1s ease-in-out infinite;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .15s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .3s;
+}
+@keyframes aurora-1788 {
+    50% {
+        height: 42px;
+        filter: brightness(1.4);
+    }
+}`
+},
+{
+    id: 1789,
+    name: "Pulse Core Loader",
+    preview: <div className="loader-1789"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #22d3ee;
+    box-shadow: 0 0 10px #22d3ee,0 0 25px rgba(34,211,238,.55);
+    animation: pulse-1789 1s ease-in-out infinite;
+}
+@keyframes pulse-1789 {
+    50% {
+        transform: scale(1.7);
+        opacity: .35;
+    }
+}`
+},
+{
+    id: 1790,
+    name: "Plasma Loader",
+    preview: (
+        <div className="loader-1790">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 55px;
+    height: 55px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: conic-gradient(#22d3ee,#6366f1,#ec4899,#f97316,#22d3ee);
+    animation: plasma-1790 2s linear infinite;
+}
+.Loader span {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background: #050505;
+}
+@keyframes plasma-1790 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1791,
+    name: "Matrix Loader",
+    preview: (
+        <div className="loader-1791">
+            <span>0</span>
+            <span>1</span>
+            <span>0</span>
+            <span>1</span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span>0</span>
+    <span>1</span>
+    <span>0</span>
+    <span>1</span>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    gap: 4px;
+    color: #4ade80;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 14px;
+}
+.Loader span {
+    animation: matrix-1791 1.1s infinite;
+    text-shadow: 0 0 8px #22c55e;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .15s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .3s;
+}
+.Loader span:nth-child(4) {
+    animation-delay: .45s;
+}
+@keyframes matrix-1791 {
+    50% {
+        opacity: .15;
+        transform: translateY(8px);
+    }
+}`
+},
+{
+    id: 1792,
+    name: "Double Ring Loader",
+    preview: (
+        <div className="loader-1792">
+            <span></span>
+            <div></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <div></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 54px;
+    height: 54px;
+}
+.Loader span,
+.Loader div {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+}
+.Loader span {
+    border: 3px solid #3b82f6;
+    border-left-color: transparent;
+    animation: ring-1792 1s linear infinite;
+}
+.Loader div {
+    inset: 8px;
+    border: 3px solid #ec4899;
+    border-right-color: transparent;
+    animation: ring-1792 1.2s linear reverse infinite;
+}
+@keyframes ring-1792 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1793,
+    name: "Glowing Dots Loader",
+    preview: (
+        <div className="loader-1793">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    gap: 7px;
+}
+.Loader span {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #a855f7;
+    box-shadow: 0 0 10px #a855f7;
+    animation: dots-1793 1s infinite;
+}
+.Loader span:nth-child(2) {
+    background: #ec4899;
+    box-shadow: 0 0 10px #ec4899;
+    animation-delay: .15s;
+}
+.Loader span:nth-child(3) {
+    background: #f97316;
+    box-shadow: 0 0 10px #f97316;
+    animation-delay: .3s;
+}
+.Loader span:nth-child(4) {
+    background: #22d3ee;
+    box-shadow: 0 0 10px #22d3ee;
+    animation-delay: .45s;
+}
+@keyframes dots-1793 {
+    50% {
+        transform: translateY(-9px);
+    }
+}`
+},
+{
+    id: 1794,
+    name: "Wave Loader",
+    preview: (
+        <div className="loader-1794">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.Loader span {
+    width: 5px;
+    height: 16px;
+    border-radius: 999px;
+    background: linear-gradient(180deg,#22d3ee,#6366f1,#ec4899);
+    animation: wave-1794 1s ease-in-out infinite;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .1s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .2s;
+}
+.Loader span:nth-child(4) {
+    animation-delay: .3s;
+}
+.Loader span:nth-child(5) {
+    animation-delay: .4s;
+}
+@keyframes wave-1794 {
+    50% {
+        height: 34px;
+        box-shadow: 0 0 10px rgba(99,102,241,.5);
+    }
+}`
+},
+{
+    id: 1795,
+    name: "Hologram Loader",
+    preview: (
+        <div className="loader-1795">
+            <div></div>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div></div>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+}
+.Loader div {
+    width: 26px;
+    height: 26px;
+    border: 2px solid #67e8f9;
+    border-radius: 50%;
+    box-shadow: 0 0 16px rgba(34,211,238,.6);
+    animation: hologram-1795 1.3s ease-in-out infinite;
+}
+.Loader span {
+    position: absolute;
+    inset: 0;
+    border: 1px dashed rgba(168,85,247,.7);
+    border-radius: 50%;
+    animation: spin-1795 3s linear infinite;
+}
+@keyframes hologram-1795 {
+    50% {
+        transform: scale(.65);
+        opacity: .45;
+    }
+}
+@keyframes spin-1795 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1796,
+    name: "Rainbow Bars Loader",
+    preview: (
+        <div className="loader-1796">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    gap: 3px;
+}
+.Loader span {
+    width: 7px;
+    height: 32px;
+    border-radius: 999px;
+    animation: bars-1796 1s ease-in-out infinite;
+}
+.Loader span:nth-child(1) {
+    background: #ef4444;
+}
+.Loader span:nth-child(2) {
+    background: #facc15;
+    animation-delay: .12s;
+}
+.Loader span:nth-child(3) {
+    background: #22c55e;
+    animation-delay: .24s;
+}
+.Loader span:nth-child(4) {
+    background: #6366f1;
+    animation-delay: .36s;
+}
+@keyframes bars-1796 {
+    50% {
+        transform: scaleY(.3);
+        opacity: .55;
+    }
+}`
+},
+{
+    id: 1797,
+    name: "Energy Square Loader",
+    preview: <div className="loader-1797"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 42px;
+    height: 42px;
+    border: 3px solid #2563eb;
+    transform: rotate(45deg);
+    box-shadow: 0 0 14px rgba(37,99,235,.45);
+    animation: square-1797 1.2s ease-in-out infinite;
+}
+@keyframes square-1797 {
+    50% {
+        transform: rotate(225deg) scale(.7);
+        border-color: #ec4899;
+        box-shadow: 0 0 18px rgba(236,72,153,.45);
+    }
+}`
+},
+{
+    id: 1798,
+    name: "Fire Dots Loader",
+    preview: (
+        <div className="loader-1798">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    gap: 7px;
+}
+.Loader span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 0 0 10px #f97316,0 0 20px rgba(239,68,68,.3);
+    animation: fire-dot-1798 1s ease-in-out infinite;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .15s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .3s;
+}
+@keyframes fire-dot-1798 {
+    50% {
+        transform: translateY(-12px) scale(1.15);
+        background: #ef4444;
+    }
+}`
+},
+{
+    id: 1799,
+    name: "Ice Pulse Loader",
+    preview: <div className="loader-1799"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 2px solid #7dd3fc;
+    box-shadow: inset 0 0 12px rgba(34,211,238,.2),0 0 16px rgba(56,189,248,.25);
+    animation: ice-pulse-1799 1.2s ease-in-out infinite;
+}
+@keyframes ice-pulse-1799 {
+    50% {
+        transform: scale(1.18);
+        border-color: #e0f2fe;
+        box-shadow: 0 0 28px rgba(125,211,252,.45);
+    }
+}`
+},
+{
+    id: 1800,
+    name: "Spinner With Core",
+    preview: (
+        <div className="loader-1800">
+            <span></span>
+            <div></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <div></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+}
+.Loader span {
+    position: absolute;
+    inset: 0;
+    border: 4px solid transparent;
+    border-top-color: #8b5cf6;
+    border-right-color: #ec4899;
+    border-radius: 50%;
+    animation: core-spin-1800 1s linear infinite;
+}
+.Loader div {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #f0abfc;
+    box-shadow: 0 0 15px #ec4899;
+}
+@keyframes core-spin-1800 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1801,
+    name: "Neon Equalizer Loader",
+    preview: (
+        <div className="loader-1801">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 35px;
+}
+.Loader span {
+    width: 4px;
+    height: 12px;
+    border-radius: 999px;
+    background: #22d3ee;
+    box-shadow: 0 0 8px #22d3ee;
+    animation: equalizer-1801 .9s ease-in-out infinite alternate;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .12s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .24s;
+    background: #8b5cf6;
+    box-shadow: 0 0 8px #8b5cf6;
+}
+.Loader span:nth-child(4) {
+    animation-delay: .36s;
+    background: #ec4899;
+    box-shadow: 0 0 8px #ec4899;
+}
+.Loader span:nth-child(5) {
+    animation-delay: .48s;
+    background: #f97316;
+    box-shadow: 0 0 8px #f97316;
+}
+@keyframes equalizer-1801 {
+    to {
+        height: 32px;
+    }
+}`
+},
+{
+    id: 1802,
+    name: "Crystal Ring Loader",
+    preview: <div className="loader-1802"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 4px double transparent;
+    background:
+        linear-gradient(#050505,#050505) padding-box,
+        linear-gradient(135deg,#67e8f9,#a855f7,#ec4899) border-box;
+    animation: crystal-ring-1802 1.6s linear infinite;
+}
+@keyframes crystal-ring-1802 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1803,
+    name: "Rotating Diamonds Loader",
+    preview: (
+        <div className="loader-1803">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+.Loader span {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border: 2px solid #22d3ee;
+    transform: rotate(45deg);
+    animation: diamond-1803 1.2s ease-in-out infinite;
+}
+.Loader span:nth-child(1) {
+    left: 0;
+    top: 15px;
+}
+.Loader span:nth-child(2) {
+    left: 15px;
+    top: 0;
+    border-color: #8b5cf6;
+    animation-delay: .15s;
+}
+.Loader span:nth-child(3) {
+    right: 0;
+    top: 15px;
+    border-color: #ec4899;
+    animation-delay: .3s;
+}
+@keyframes diamond-1803 {
+    50% {
+        transform: rotate(225deg) scale(1.3);
+    }
+}`
+},
+{
+    id: 1804,
+    name: "Solar Loader",
+    preview: (
+        <div className="loader-1804">
+            <span></span>
+            <div></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <div></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 58px;
+    height: 58px;
+}
+.Loader span {
+    position: absolute;
+    inset: 12px;
+    border: 2px solid #facc15;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(250,204,21,.35);
+}
+.Loader div {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 24px;
+    top: 2px;
+    border-radius: 50%;
+    background: #fb923c;
+    box-shadow: 0 0 10px #fb923c;
+    transform-origin: 5px 27px;
+    animation: solar-1804 1.4s linear infinite;
+}
+@keyframes solar-1804 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1805,
+    name: "Cyber Scanner Loader",
+    preview: (
+        <div className="loader-1805">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 64px;
+    height: 38px;
+    overflow: hidden;
+    border: 1px solid #164e63;
+    background: #020617;
+}
+.Loader::before,
+.Loader::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.Loader::before {
+    top: 7px;
+    height: 1px;
+    background: rgba(34,211,238,.15);
+    box-shadow: 0 8px rgba(34,211,238,.15),0 16px rgba(34,211,238,.15),0 24px rgba(34,211,238,.15);
+}
+.Loader span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: #22d3ee;
+    box-shadow: 0 0 12px #22d3ee;
+    animation: scanner-1805 1.4s linear infinite;
+}
+@keyframes scanner-1805 {
+    to {
+        left: 100%;
+    }
+}`
+},
+{
+    id: 1806,
+    name: "Morph Blob Loader",
+    preview: <div className="loader-1806"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 40px;
+    height: 40px;
+    border-radius: 45% 55% 60% 40%;
+    background: linear-gradient(135deg,#22d3ee,#8b5cf6,#ec4899);
+    box-shadow: 0 0 22px rgba(139,92,246,.35);
+    animation: morph-1806 1.5s ease-in-out infinite;
+}
+@keyframes morph-1806 {
+    50% {
+        border-radius: 60% 40% 35% 65%;
+        transform: rotate(90deg) scale(1.12);
+    }
+}`
+},
+{
+    id: 1807,
+    name: "Rainbow Pulse Ring",
+    preview: <div className="loader-1807"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    background:
+        linear-gradient(#050505,#050505) padding-box,
+        conic-gradient(#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899,#ef4444) border-box;
+    animation: rainbow-pulse-1807 1.5s ease-in-out infinite;
+}
+@keyframes rainbow-pulse-1807 {
+    50% {
+        transform: scale(1.15);
+        box-shadow: 0 0 24px rgba(168,85,247,.25);
+    }
+}`
+},
+{
+    id: 1808,
+    name: "Lightning Loader",
+    preview: (
+        <div className="loader-1808">
+            <i className="fa-solid fa-bolt"></i>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <i class="fa-solid fa-bolt"></i>
+</div>`,
+    css: `.Loader {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #171205;
+    color: #fde047;
+    box-shadow: 0 0 10px #facc15,0 0 28px rgba(250,204,21,.3);
+    animation: lightning-1808 .7s ease-in-out infinite;
+}
+.Loader i {
+    font-size: 19px;
+    text-shadow: 0 0 12px #facc15;
+}
+@keyframes lightning-1808 {
+    50% {
+        transform: scale(1.12);
+        filter: brightness(1.3);
+    }
+}`
+},
+{
+    id: 1809,
+    name: "Dark Ice Loader",
+    preview: (
+        <div className="loader-1809">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+}
+.Loader::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 2px solid #0ea5e9;
+    box-shadow: 0 0 15px rgba(14,165,233,.2);
+    animation: dark-ice-1809 1.8s linear infinite;
+}
+.Loader span {
+    width: 22px;
+    height: 22px;
+    transform: rotate(45deg);
+    border: 2px solid #bae6fd;
+    box-shadow: 0 0 12px rgba(125,211,252,.3);
+    animation: ice-core-1809 1s ease-in-out infinite;
+}
+@keyframes dark-ice-1809 {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes ice-core-1809 {
+    50% {
+        transform: rotate(225deg) scale(1.15);
+    }
+}`
+},
+{
+    id: 1810,
+    name: "Gradient Hourglass Loader",
+    preview: (
+        <div className="loader-1810">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 42px;
+    height: 54px;
+    padding: 3px;
+    background: linear-gradient(135deg,#22d3ee,#8b5cf6,#ec4899);
+    clip-path: polygon(0 0,100% 0,100% 35%,65% 50%,100% 65%,100% 100%,0 100%,0 65%,35% 50%,0 35%);
+    animation: hourglass-1810 1.4s ease-in-out infinite;
+}
+.Loader span {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #09090b;
+    clip-path: inherit;
+}
+@keyframes hourglass-1810 {
+    50% {
+        transform: rotate(180deg);
+    }
+}`
+},
+{
+    id: 1811,
+    name: "Three Ring Loader",
+    preview: (
+        <div className="loader-1811">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 54px;
+    height: 54px;
+}
+.Loader span {
+    position: absolute;
+    inset: 0;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    animation: rings-1811 1.5s linear infinite;
+}
+.Loader span:nth-child(1) {
+    border-top-color: #22d3ee;
+}
+.Loader span:nth-child(2) {
+    inset: 7px;
+    border-right-color: #8b5cf6;
+    animation-duration: 1.1s;
+}
+.Loader span:nth-child(3) {
+    inset: 14px;
+    border-bottom-color: #ec4899;
+    animation-duration: .8s;
+}
+@keyframes rings-1811 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1812,
+    name: "Neon Heart Loader",
+    preview: (
+        <div className="loader-1812">
+            <i className="fa-solid fa-heart"></i>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <i class="fa-solid fa-heart"></i>
+</div>`,
+    css: `.Loader {
+    color: #f472b6;
+    font-size: 25px;
+    animation: heart-1812 1s ease-in-out infinite;
+}
+.Loader i {
+    text-shadow: 0 0 8px #ec4899,0 0 20px rgba(236,72,153,.45);
+}
+@keyframes heart-1812 {
+    50% {
+        transform: scale(1.3);
+    }
+}`
+},
+{
+    id: 1813,
+    name: "Neon Triangle Loader",
+    preview: <div className="loader-1813"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 42px;
+    height: 42px;
+    border: 3px solid #22d3ee;
+    clip-path: polygon(50% 0,100% 100%,0 100%);
+    animation: triangle-1813 1.1s linear infinite;
+    box-shadow: 0 0 16px rgba(34,211,238,.3);
+}
+@keyframes triangle-1813 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1814,
+    name: "Liquid Ring Loader",
+    preview: <div className="loader-1814"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-top-color: #22d3ee;
+    border-right-color: #8b5cf6;
+    filter: blur(.2px);
+    animation: liquid-1814 1s cubic-bezier(.4,0,.2,1) infinite;
+}
+@keyframes liquid-1814 {
+    50% {
+        border-top-color: #ec4899;
+        border-right-color: #f97316;
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1815,
+    name: "Star Burst Loader",
+    preview: (
+        <div className="loader-1815">
+            <i className="fa-solid fa-star"></i>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <i class="fa-solid fa-star"></i>
+</div>`,
+    css: `.Loader {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    color: #facc15;
+    animation: burst-1815 1.1s ease-in-out infinite;
+}
+.Loader i {
+    font-size: 22px;
+    text-shadow: 0 0 8px #f59e0b,0 0 18px rgba(250,204,21,.45);
+}
+@keyframes burst-1815 {
+    50% {
+        transform: rotate(180deg) scale(1.22);
+    }
+}`
+},
+{
+    id: 1816,
+    name: "Cyber Bars Loader",
+    preview: (
+        <div className="loader-1816">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 34px;
+}
+.Loader span {
+    width: 4px;
+    height: 8px;
+    background: #22d3ee;
+    box-shadow: 0 0 8px #22d3ee;
+    animation: cyber-bars-1816 .9s ease-in-out infinite;
+}
+.Loader span:nth-child(2) {
+    animation-delay: .1s;
+}
+.Loader span:nth-child(3) {
+    animation-delay: .2s;
+    background: #3b82f6;
+}
+.Loader span:nth-child(4) {
+    animation-delay: .3s;
+    background: #8b5cf6;
+}
+.Loader span:nth-child(5) {
+    animation-delay: .4s;
+    background: #ec4899;
+}
+@keyframes cyber-bars-1816 {
+    50% {
+        height: 30px;
+    }
+}`
+},
+{
+    id: 1817,
+    name: "Rainbow Orbit Loader",
+    preview: (
+        <div className="loader-1817">
+            <div></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <div></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    border: 2px dashed rgba(255,255,255,.2);
+    animation: orbit-1817 3s linear infinite;
+}
+.Loader div {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: -5px;
+    left: 24px;
+    border-radius: 50%;
+    background: #ec4899;
+    box-shadow: 0 0 10px #ec4899;
+}
+@keyframes orbit-1817 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1818,
+    name: "Frost Loader",
+    preview: (
+        <div className="loader-1818">
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 54px;
+    height: 54px;
+}
+.Loader span {
+    position: absolute;
+    inset: 0;
+    border: 2px solid #7dd3fc;
+    border-radius: 50%;
+    filter: blur(.2px);
+    animation: frost-1818 1.3s ease-in-out infinite;
+}
+.Loader span:nth-child(2) {
+    inset: 9px;
+    border-color: #e0f2fe;
+    animation-delay: .2s;
+}
+@keyframes frost-1818 {
+    50% {
+        transform: scale(1.15);
+        opacity: .4;
+    }
+}`
+},
+{
+    id: 1819,
+    name: "Fire Spiral Loader",
+    preview: (
+        <div className="loader-1819">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top-color: #facc15;
+    border-right-color: #f97316;
+    border-bottom-color: #ef4444;
+    animation: fire-spiral-1819 .9s linear infinite;
+}
+.Loader span {
+    display: block;
+    width: 13px;
+    height: 13px;
+    margin: 15px auto;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 0 0 13px #f97316;
+}
+@keyframes fire-spiral-1819 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1820,
+    name: "Neon Infinity Loader",
+    preview: (
+        <div className="loader-1820">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 62px;
+    height: 34px;
+    position: relative;
+}
+.Loader::before,
+.Loader::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 2px;
+    border: 3px solid #22d3ee;
+    border-radius: 50%;
+}
+.Loader::before {
+    left: 1px;
+    border-right-color: transparent;
+    transform: rotate(25deg);
+}
+.Loader::after {
+    right: 1px;
+    border-left-color: transparent;
+    transform: rotate(25deg);
+}
+.Loader span {
+    position: absolute;
+    left: 28px;
+    top: 12px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ec4899;
+    box-shadow: 0 0 10px #ec4899;
+    animation: infinity-1820 1s infinite;
+}
+@keyframes infinity-1820 {
+    50% {
+        transform: translateX(6px);
+    }
+}`
+},
+{
+    id: 1821,
+    name: "Neon Cube Loader",
+    preview: <div className="loader-1821"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 34px;
+    height: 34px;
+    border: 3px solid #22d3ee;
+    box-shadow: 0 0 14px rgba(34,211,238,.35);
+    animation: cube-1821 1.2s ease-in-out infinite;
+}
+@keyframes cube-1821 {
+    50% {
+        transform: rotate(90deg) scale(.75);
+        border-color: #8b5cf6;
+        box-shadow: 0 0 18px rgba(139,92,246,.35);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}`
+},
+{
+    id: 1822,
+    name: "Glow Line Loader",
+    preview: <div className="loader-1822"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 100px;
+    height: 4px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #18181b;
+}
+.Loader::before {
+    content: "";
+    display: block;
+    width: 35%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899);
+    box-shadow: 0 0 12px #6366f1;
+    animation: line-1822 1.1s ease-in-out infinite;
+}
+@keyframes line-1822 {
+    0% {
+        transform: translateX(-120%);
+    }
+    100% {
+        transform: translateX(390%);
+    }
+}`
+},
+{
+    id: 1823,
+    name: "Pulse Grid Loader",
+    preview: (
+        <div className="loader-1823">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.Loader {
+    display: grid;
+    grid-template-columns: repeat(2,9px);
+    gap: 5px;
+}
+.Loader span {
+    width: 9px;
+    height: 9px;
+    border-radius: 2px;
+    background: #22d3ee;
+    box-shadow: 0 0 9px #22d3ee;
+    animation: grid-1823 1s infinite;
+}
+.Loader span:nth-child(2) {
+    background: #8b5cf6;
+    box-shadow: 0 0 9px #8b5cf6;
+    animation-delay: .15s;
+}
+.Loader span:nth-child(3) {
+    background: #ec4899;
+    box-shadow: 0 0 9px #ec4899;
+    animation-delay: .3s;
+}
+.Loader span:nth-child(4) {
+    background: #f97316;
+    box-shadow: 0 0 9px #f97316;
+    animation-delay: .45s;
+}
+@keyframes grid-1823 {
+    50% {
+        transform: scale(.35);
+        opacity: .45;
+    }
+}`
+},
+{
+    id: 1824,
+    name: "Neon Hex Loader",
+    preview: <div className="loader-1824"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 46px;
+    height: 40px;
+    background: #020617;
+    border: 2px solid #22d3ee;
+    clip-path: polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%);
+    animation: hex-1824 1.2s ease-in-out infinite;
+    box-shadow: 0 0 15px #22d3ee;
+}
+@keyframes hex-1824 {
+    50% {
+        transform: scale(1.1) rotate(30deg);
+        border-color: #a855f7;
+    }
+}`
+},
+{
+    id: 1825,
+    name: "Color Shift Loader",
+    preview: <div className="loader-1825"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(45deg,#22d3ee,#8b5cf6,#ec4899,#f97316);
+    background-size: 300% 300%;
+    animation: color-shift-1825 2s ease infinite;
+}
+@keyframes color-shift-1825 {
+    50% {
+        background-position: 100% 100%;
+        transform: rotate(180deg);
+    }
+}`
+},
+{
+    id: 1826,
+    name: "Rocket Loader",
+    preview: (
+        <div className="loader-1826">
+            <i className="fa-solid fa-rocket"></i>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <i class="fa-solid fa-rocket"></i>
+</div>`,
+    css: `.Loader {
+    color: #60a5fa;
+    animation: rocket-1826 1s ease-in-out infinite;
+}
+.Loader i {
+    font-size: 24px;
+    text-shadow: 0 0 9px #3b82f6;
+}
+@keyframes rocket-1826 {
+    50% {
+        transform: translateY(-8px);
+        filter: brightness(1.4);
+    }
+}`
+},
+{
+    id: 1827,
+    name: "Neon Ring Pulse Loader",
+    preview: <div className="loader-1827"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 44px;
+    height: 44px;
+    border: 3px solid #22d3ee;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #22d3ee,0 0 20px rgba(34,211,238,.25);
+    animation: ring-pulse-1827 1.1s ease-out infinite;
+}
+@keyframes ring-pulse-1827 {
+    0% {
+        transform: scale(.65);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.35);
+        opacity: 0;
+    }
+}`
+},
+{
+    id: 1828,
+    name: "Dual Color Spinner",
+    preview: <div className="loader-1828"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #18181b;
+    border-top-color: #22d3ee;
+    border-bottom-color: #ec4899;
+    animation: dual-spin-1828 1s linear infinite;
+}
+@keyframes dual-spin-1828 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1829,
+    name: "Glitch Loader",
+    preview: (
+        <div className="loader-1829">
+            <span>LOADING</span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span>LOADING</span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    color: #67e8f9;
+    font-family: monospace;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.Loader span {
+    text-shadow: 2px 0 #ec4899,-2px 0 #22d3ee;
+    animation: glitch-1829 .7s infinite;
+}
+@keyframes glitch-1829 {
+    50% {
+        transform: translateX(2px);
+        opacity: .6;
+    }
+}`
+},
+{
+    id: 1830,
+    name: "Prism Loader",
+    preview: <div className="loader-1830"></div>,
+    html: `<div class="Loader"></div>`,
+    css: `.Loader {
+    width: 46px;
+    height: 46px;
+    padding: 2px;
+    border-radius: 50%;
+    background: conic-gradient(#ef4444,#f97316,#facc15,#22c55e,#06b6d4,#6366f1,#ec4899,#ef4444);
+    animation: prism-1830 1.5s linear infinite;
+}
+.Loader::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #09090b;
+}
+@keyframes prism-1830 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1831,
+    name: "Energy Beam Loader",
+    preview: (
+        <div className="loader-1831">
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+</div>`,
+    css: `.Loader {
+    width: 100px;
+    height: 5px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #09090b;
+}
+.Loader span {
+    display: block;
+    width: 25px;
+    height: 100%;
+    border-radius: inherit;
+    background: #22d3ee;
+    box-shadow: 0 0 14px #22d3ee,0 0 28px #8b5cf6;
+    animation: beam-1831 1s cubic-bezier(.5,0,.5,1) infinite;
+}
+@keyframes beam-1831 {
+    0% {
+        transform: translateX(-30px);
+    }
+    100% {
+        transform: translateX(105px);
+    }
+}`
+},
+{
+    id: 1832,
+    name: "Aurora Orb Loader",
+    preview: (
+        <div className="loader-1832">
+            <span></span>
+            <div></div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <div></div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+}
+.Loader span {
+    position: absolute;
+    inset: 3px;
+    border-radius: 50%;
+    background: conic-gradient(#22d3ee,#6366f1,#ec4899,#22d3ee);
+    filter: blur(7px);
+    opacity: .45;
+    animation: aurora-orb-1832 2.4s linear infinite;
+}
+.Loader div {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #09090b;
+    border: 1px solid rgba(255,255,255,.2);
+}
+@keyframes aurora-orb-1832 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1833,
+    name: "Legendary Cosmic Loader",
+    preview: (
+        <div className="loader-1833">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div>
+                <i className="fa-solid fa-star"></i>
+            </div>
+        </div>
+    ),
+    html: `<div class="Loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <div>
+        <i class="fa-solid fa-star"></i>
+    </div>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 66px;
+    height: 66px;
+    display: grid;
+    place-items: center;
+}
+.Loader > span {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    animation: cosmic-ring-1833 2s linear infinite;
+}
+.Loader > span:nth-child(1) {
+    border-top-color: #22d3ee;
+    border-right-color: #3b82f6;
+}
+.Loader > span:nth-child(2) {
+    inset: 7px;
+    border-bottom-color: #8b5cf6;
+    border-left-color: #ec4899;
+    animation-duration: 1.5s;
+    animation-direction: reverse;
+}
+.Loader > span:nth-child(3) {
+    inset: 14px;
+    border-top-color: #f97316;
+    animation-duration: 1s;
+}
+.Loader > div {
+    position: relative;
+    z-index: 2;
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #08080a;
+    color: #fde68a;
+    box-shadow: 0 0 15px rgba(250,204,21,.35),inset 0 0 10px rgba(255,255,255,.05);
+}
+.Loader i {
+    font-size: 11px;
+    text-shadow: 0 0 8px #facc15;
+}
+@keyframes cosmic-ring-1833 {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
 
 ];
 
@@ -74880,7 +81172,2632 @@ export const alerts = [
     font-weight: 600;
     cursor: pointer;
 }`
+    },
+    {
+    id: 1674,
+    name: "Success Alert",
+    preview: (
+        <div className="alert-1674">
+            <i className="fa-solid fa-circle-check"></i>
+            <div>
+                <strong>Success</strong>
+                <span>Your changes were saved successfully.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-circle-check"></i>
+    <div>
+        <strong>Success</strong>
+        <span>Your changes were saved successfully.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 320px;
+    padding: 13px 14px;
+    border: 1px solid #bbf7d0;
+    border-radius: 11px;
+    background: #f0fdf4;
+    color: #166534;
+}
+.Alert i {
+    margin-top: 2px;
+    color: #22c55e;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #15803d;
+    font-size: 10px;
+}`
+},
+{
+    id: 1675,
+    name: "Warning Alert",
+    preview: (
+        <div className="alert-1675">
+            <i className="fa-solid fa-triangle-exclamation"></i>
+            <div>
+                <strong>Warning</strong>
+                <span>Your trial ends in 2 days.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-triangle-exclamation"></i>
+    <div>
+        <strong>Warning</strong>
+        <span>Your trial ends in 2 days.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 320px;
+    padding: 13px 14px;
+    border: 1px solid #fde68a;
+    border-radius: 11px;
+    background: #fffbeb;
+    color: #92400e;
+}
+.Alert i {
+    margin-top: 2px;
+    color: #f59e0b;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #a16207;
+    font-size: 10px;
+}`
+},
+{
+    id: 1676,
+    name: "Danger Alert",
+    preview: (
+        <div className="alert-1676">
+            <i className="fa-solid fa-circle-xmark"></i>
+            <div>
+                <strong>Something went wrong</strong>
+                <span>We couldn't complete your request.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-circle-xmark"></i>
+    <div>
+        <strong>Something went wrong</strong>
+        <span>We couldn't complete your request.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 10px;
+    width: 320px;
+    padding: 13px 14px;
+    border: 1px solid #fecaca;
+    border-radius: 11px;
+    background: #fef2f2;
+    color: #991b1b;
+}
+.Alert i {
+    margin-top: 2px;
+    color: #ef4444;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #b91c1c;
+    font-size: 10px;
+}`
+},
+{
+    id: 1677,
+    name: "Info Alert",
+    preview: (
+        <div className="alert-1677">
+            <i className="fa-solid fa-circle-info"></i>
+            <div>
+                <strong>Heads up</strong>
+                <span>You can update this setting later.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-circle-info"></i>
+    <div>
+        <strong>Heads up</strong>
+        <span>You can update this setting later.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 10px;
+    width: 320px;
+    padding: 13px 14px;
+    border: 1px solid #bfdbfe;
+    border-radius: 11px;
+    background: #eff6ff;
+    color: #1e3a8a;
+}
+.Alert i {
+    margin-top: 2px;
+    color: #2563eb;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #1d4ed8;
+    font-size: 10px;
+}`
+},
+{
+    id: 1678,
+    name: "Dark Alert",
+    preview: (
+        <div className="alert-1678">
+            <i className="fa-solid fa-bolt"></i>
+            <div>
+                <strong>System updated</strong>
+                <span>Version 4.2 is now available.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-bolt"></i>
+    <div>
+        <strong>System updated</strong>
+        <span>Version 4.2 is now available.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 10px;
+    width: 320px;
+    padding: 14px;
+    border: 1px solid #27272a;
+    border-radius: 12px;
+    background: #09090b;
+    color: #fff;
+}
+.Alert i {
+    color: #facc15;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #a1a1aa;
+    font-size: 10px;
+}`
+},
+{
+    id: 1679,
+    name: "Neon Cyan Alert",
+    preview: (
+        <div className="alert-1679">
+            <i className="fa-solid fa-satellite-dish"></i>
+            <div>
+                <strong>Connection active</strong>
+                <span>Secure channel established.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-satellite-dish"></i>
+    <div>
+        <strong>Connection active</strong>
+        <span>Secure channel established.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 10px;
+    width: 320px;
+    padding: 14px;
+    border: 1px solid #164e63;
+    border-radius: 10px;
+    background: #020617;
+    color: #67e8f9;
+    box-shadow: 0 0 16px rgba(34,211,238,.12);
+}
+.Alert i {
+    margin-top: 2px;
+    text-shadow: 0 0 8px #22d3ee;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-family: monospace;
+    font-size: 10px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #7dd3fc;
+    font-size: 9px;
+}`
+},
+{
+    id: 1680,
+    name: "Neon Purple Alert",
+    preview: (
+        <div className="alert-1680">
+            <i className="fa-solid fa-wand-magic-sparkles"></i>
+            <div>
+                <strong>Magic enabled</strong>
+                <span>Advanced effects are now active.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-wand-magic-sparkles"></i>
+    <div>
+        <strong>Magic enabled</strong>
+        <span>Advanced effects are now active.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 10px;
+    width: 320px;
+    padding: 14px;
+    border: 1px solid #581c87;
+    border-radius: 12px;
+    background: #12051e;
+    color: #d8b4fe;
+    box-shadow: 0 0 18px rgba(168,85,247,.15);
+}
+.Alert i {
+    color: #c084fc;
+    text-shadow: 0 0 9px #a855f7;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #a78bfa;
+    font-size: 9px;
+}`
+},
+{
+    id: 1681,
+    name: "Glass Alert",
+    preview: (
+        <div className="alert-1681">
+            <i className="fa-solid fa-sparkles"></i>
+            <div>
+                <strong>Welcome back</strong>
+                <span>Your workspace is ready.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-sparkles"></i>
+    <div>
+        <strong>Welcome back</strong>
+        <span>Your workspace is ready.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 10px;
+    width: 320px;
+    padding: 14px;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 14px;
+    background: rgba(255,255,255,.1);
+    backdrop-filter: blur(15px);
+    color: #fff;
+}
+.Alert i {
+    color: #e0e7ff;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: rgba(255,255,255,.65);
+    font-size: 10px;
+}`
+},
+{
+    id: 1682,
+    name: "Gradient Alert",
+    preview: (
+        <div className="alert-1682">
+            <div className="alert-1682__icon">
+                <i className="fa-solid fa-star"></i>
+            </div>
+            <div>
+                <strong>You're doing great</strong>
+                <span>You've completed your weekly goal.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-icon">
+        <i class="fa-solid fa-star"></i>
+    </div>
+    <div>
+        <strong>You're doing great</strong>
+        <span>You've completed your weekly goal.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 320px;
+    padding: 13px;
+    border-radius: 12px;
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    color: #fff;
+    box-shadow: 0 8px 22px rgba(99,102,241,.2);
+}
+.Alert-icon {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    background: rgba(255,255,255,.15);
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: rgba(255,255,255,.78);
+    font-size: 9px;
+}`
+},
+{
+    id: 1683,
+    name: "Dismissible Alert",
+    preview: (
+        <div className="alert-1683">
+            <i className="fa-solid fa-circle-info"></i>
+            <div>
+                <strong>New feature</strong>
+                <span>Command palette is now available.</span>
+            </div>
+            <button aria-label="Close">
+                <i className="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-circle-info"></i>
+    <div>
+        <strong>New feature</strong>
+        <span>Command palette is now available.</span>
+    </div>
+    <button aria-label="Close">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 340px;
+    padding: 13px 14px;
+    border: 1px solid #bfdbfe;
+    border-radius: 11px;
+    background: #eff6ff;
+    color: #1e40af;
+}
+.Alert > div {
+    flex: 1;
+}
+.Alert > div strong,
+.Alert > div span {
+    display: block;
+}
+.Alert > div strong {
+    font-size: 11px;
+}
+.Alert > div span {
+    margin-top: 3px;
+    color: #2563eb;
+    font-size: 10px;
+}
+.Alert > button {
+    padding: 2px;
+    border: none;
+    background: transparent;
+    color: #64748b;
+    cursor: pointer;
+}`
+},
+{
+    id: 1684,
+    name: "Alert With Action",
+    preview: (
+        <div className="alert-1684">
+            <div className="alert-1684__main">
+                <i className="fa-solid fa-cloud-arrow-up"></i>
+                <div>
+                    <strong>Update available</strong>
+                    <span>A new version is ready to install.</span>
+                </div>
+            </div>
+            <button>Update</button>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-main">
+        <i class="fa-solid fa-cloud-arrow-up"></i>
+        <div>
+            <strong>Update available</strong>
+            <span>A new version is ready to install.</span>
+        </div>
+    </div>
+    <button>Update</button>
+</div>`,
+    css: `.Alert {
+    width: 340px;
+    padding: 13px;
+    border: 1px solid #d4d4d8;
+    border-radius: 12px;
+    background: #fff;
+}
+.Alert-main {
+    display: flex;
+    gap: 10px;
+}
+.Alert-main > i {
+    color: #2563eb;
+    margin-top: 2px;
+}
+.Alert-main strong,
+.Alert-main span {
+    display: block;
+}
+.Alert-main strong {
+    font-size: 11px;
+}
+.Alert-main span {
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 10px;
+}
+.Alert > button {
+    margin: 11px 0 0 28px;
+    padding: 7px 11px;
+    border: none;
+    border-radius: 7px;
+    background: #18181b;
+    color: #fff;
+    font-size: 9px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1685,
+    name: "Top Border Alert",
+    preview: (
+        <div className="alert-1685">
+            <div></div>
+            <div>
+                <strong>Deployment complete</strong>
+                <span>Your application is now live.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-line"></div>
+    <div>
+        <strong>Deployment complete</strong>
+        <span>Your application is now live.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    position: relative;
+    display: flex;
+    gap: 12px;
+    width: 320px;
+    padding: 14px;
+    overflow: hidden;
+    border: 1px solid #27272a;
+    border-radius: 11px;
+    background: #fff;
+}
+.Alert-line {
+    width: 3px;
+    border-radius: 999px;
+    background: #22c55e;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    color: #18181b;
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 10px;
+}`
+},
+{
+    id: 1686,
+    name: "Left Accent Alert",
+    preview: (
+        <div className="alert-1686">
+            <span></span>
+            <div>
+                <strong>Maintenance</strong>
+                <p>Scheduled maintenance begins tonight at 02:00.</p>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <span></span>
+    <div>
+        <strong>Maintenance</strong>
+        <p>Scheduled maintenance begins tonight at 02:00.</p>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 11px;
+    width: 320px;
+    padding: 13px;
+    border: 1px solid #e4e4e7;
+    border-radius: 10px;
+    background: #fff;
+}
+.Alert > span {
+    width: 4px;
+    flex-shrink: 0;
+    border-radius: 999px;
+    background: #f59e0b;
+}
+.Alert strong {
+    display: block;
+    color: #18181b;
+    font-size: 11px;
+}
+.Alert p {
+    margin: 3px 0 0;
+    color: #71717a;
+    font-size: 10px;
+}`
+},
+{
+    id: 1687,
+    name: "Compact Success Alert",
+    preview: (
+        <div className="alert-1687">
+            <i className="fa-solid fa-check"></i>
+            Saved successfully
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-check"></i>
+    Saved successfully
+</div>`,
+    css: `.Alert {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 12px;
+    border: 1px solid #bbf7d0;
+    border-radius: 999px;
+    background: #f0fdf4;
+    color: #15803d;
+    font-size: 10px;
+    font-weight: 600;
+}
+.Alert i {
+    color: #22c55e;
+}`
+},
+{
+    id: 1688,
+    name: "Loading Alert",
+    preview: (
+        <div className="alert-1688">
+            <span></span>
+            <div>
+                <strong>Processing request</strong>
+                <span>This might take a few seconds.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <span></span>
+    <div>
+        <strong>Processing request</strong>
+        <span>This might take a few seconds.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 320px;
+    padding: 13px;
+    border: 1px solid #d4d4d8;
+    border-radius: 11px;
+    background: #fff;
+}
+.Alert > span {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    border: 2px solid #d4d4d8;
+    border-top-color: #2563eb;
+    border-radius: 50%;
+    animation: spin-1688 0.8s linear infinite;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    color: #18181b;
+    font-size: 11px;
+}
+.Alert div span {
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 9px;
+}
+@keyframes spin-1688 {
+    to {
+        transform: rotate(360deg);
     }
+}`
+},
+{
+    id: 1689,
+    name: "Security Alert",
+    preview: (
+        <div className="alert-1689">
+            <div className="alert-1689__icon">
+                <i className="fa-solid fa-shield-halved"></i>
+            </div>
+            <div>
+                <strong>Security alert</strong>
+                <span>A new sign-in was detected.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-icon">
+        <i class="fa-solid fa-shield-halved"></i>
+    </div>
+    <div>
+        <strong>Security alert</strong>
+        <span>A new sign-in was detected.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 10px;
+    width: 320px;
+    padding: 13px;
+    border: 1px solid #fecaca;
+    border-radius: 12px;
+    background: #fff;
+}
+.Alert-icon {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    background: #fef2f2;
+    color: #dc2626;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    color: #991b1b;
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #b91c1c;
+    font-size: 9px;
+}`
+},
+{
+    id: 1690,
+    name: "Ecommerce Alert",
+    preview: (
+        <div className="alert-1690">
+            <i className="fa-solid fa-cart-shopping"></i>
+            <div>
+                <strong>Item added to cart</strong>
+                <span>MacBook Air was added successfully.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-cart-shopping"></i>
+    <div>
+        <strong>Item added to cart</strong>
+        <span>MacBook Air was added successfully.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 10px;
+    width: 330px;
+    padding: 13px;
+    border: 1px solid #d4d4d8;
+    border-radius: 11px;
+    background: #fff;
+}
+.Alert > i {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: #f4f4f5;
+    color: #18181b;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    color: #18181b;
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 9px;
+}`
+},
+{
+    id: 1691,
+    name: "Notification Alert",
+    preview: (
+        <div className="alert-1691">
+            <div className="alert-1691__avatar">A</div>
+            <div>
+                <strong>New message</strong>
+                <span>Sarah sent you a new message.</span>
+            </div>
+            <time>2m</time>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-avatar">A</div>
+    <div>
+        <strong>New message</strong>
+        <span>Sarah sent you a new message.</span>
+    </div>
+    <time>2m</time>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 330px;
+    padding: 12px;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    background: #fff;
+}
+.Alert-avatar {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+}
+.Alert > div:nth-child(2) {
+    flex: 1;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    color: #18181b;
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Alert time {
+    color: #a1a1aa;
+    font-size: 8px;
+}`
+},
+{
+    id: 1692,
+    name: "Cookie Alert",
+    preview: (
+        <div className="alert-1692">
+            <i className="fa-solid fa-cookie-bite"></i>
+            <div>
+                <strong>Cookies</strong>
+                <span>We use cookies to improve your experience.</span>
+            </div>
+            <button>Accept</button>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-cookie-bite"></i>
+    <div>
+        <strong>Cookies</strong>
+        <span>We use cookies to improve your experience.</span>
+    </div>
+    <button>Accept</button>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 370px;
+    padding: 13px;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    background: #fff;
+}
+.Alert > i {
+    color: #a16207;
+    font-size: 17px;
+}
+.Alert > div {
+    flex: 1;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    color: #18181b;
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Alert > button {
+    padding: 7px 10px;
+    border: none;
+    border-radius: 7px;
+    background: #18181b;
+    color: #fff;
+    font-size: 8px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1693,
+    name: "Upgrade Alert",
+    preview: (
+        <div className="alert-1693">
+            <div className="alert-1693__icon">
+                <i className="fa-solid fa-crown"></i>
+            </div>
+            <div>
+                <strong>Upgrade to Pro</strong>
+                <span>Unlock unlimited projects and analytics.</span>
+            </div>
+            <button>Upgrade</button>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-icon">
+        <i class="fa-solid fa-crown"></i>
+    </div>
+    <div>
+        <strong>Upgrade to Pro</strong>
+        <span>Unlock unlimited projects and analytics.</span>
+    </div>
+    <button>Upgrade</button>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 370px;
+    padding: 13px;
+    border: 1px solid #fde68a;
+    border-radius: 13px;
+    background: linear-gradient(135deg,#fffbeb,#fff7ed);
+}
+.Alert-icon {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    background: #f59e0b;
+    color: #fff;
+}
+.Alert > div:nth-child(2) {
+    flex: 1;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    color: #78350f;
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #92400e;
+    font-size: 9px;
+}
+.Alert > button {
+    padding: 7px 10px;
+    border: none;
+    border-radius: 7px;
+    background: #92400e;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}`
+},
+{
+    id: 1694,
+    name: "Maintenance Alert",
+    preview: (
+        <div className="alert-1694">
+            <i className="fa-solid fa-screwdriver-wrench"></i>
+            <div>
+                <strong>Scheduled maintenance</strong>
+                <span>Service may be unavailable from 01:00 to 02:30.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-screwdriver-wrench"></i>
+    <div>
+        <strong>Scheduled maintenance</strong>
+        <span>Service may be unavailable from 01:00 to 02:30.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 10px;
+    width: 340px;
+    padding: 13px;
+    border: 1px solid #ddd6fe;
+    border-radius: 11px;
+    background: #f5f3ff;
+    color: #5b21b6;
+}
+.Alert > i {
+    margin-top: 2px;
+    color: #7c3aed;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #6d28d9;
+    font-size: 9px;
+}`
+},
+{
+    id: 1695,
+    name: "Dark Red Alert",
+    preview: (
+        <div className="alert-1695">
+            <i className="fa-solid fa-skull-crossbones"></i>
+            <div>
+                <strong>Critical error</strong>
+                <span>Database connection has failed.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-skull-crossbones"></i>
+    <div>
+        <strong>Critical error</strong>
+        <span>Database connection has failed.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 10px;
+    width: 320px;
+    padding: 14px;
+    border: 1px solid #7f1d1d;
+    border-radius: 10px;
+    background: #170606;
+    color: #fca5a5;
+    box-shadow: inset 0 0 18px rgba(239,68,68,.04);
+}
+.Alert > i {
+    color: #f87171;
+    text-shadow: 0 0 8px rgba(248,113,113,.55);
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-family: monospace;
+    font-size: 10px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #fca5a5;
+    font-size: 9px;
+}`
+},
+{
+    id: 1696,
+    name: "Rainbow Alert",
+    preview: (
+        <div className="alert-1696">
+            <div className="alert-1696__inner">
+                <i className="fa-solid fa-wand-magic-sparkles"></i>
+                <div>
+                    <strong>Everything looks amazing</strong>
+                    <span>Your workspace is fully optimized.</span>
+                </div>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-inner">
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+        <div>
+            <strong>Everything looks amazing</strong>
+            <span>Your workspace is fully optimized.</span>
+        </div>
+    </div>
+</div>`,
+    css: `.Alert {
+    width: 340px;
+    padding: 2px;
+    border-radius: 13px;
+    background: linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899);
+}
+.Alert-inner {
+    display: flex;
+    gap: 10px;
+    padding: 13px;
+    border-radius: 11px;
+    background: #fff;
+}
+.Alert-inner > i {
+    margin-top: 2px;
+    color: #7c3aed;
+}
+.Alert-inner strong,
+.Alert-inner span {
+    display: block;
+}
+.Alert-inner strong {
+    color: #18181b;
+    font-size: 11px;
+}
+.Alert-inner span {
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 9px;
+}`
+},
+{
+    id: 1697,
+    name: "Progress Alert",
+    preview: (
+        <div className="alert-1697">
+            <div className="alert-1697__top">
+                <span>Uploading files</span>
+                <b>68%</b>
+            </div>
+            <div className="alert-1697__bar">
+                <span></span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-top">
+        <span>Uploading files</span>
+        <b>68%</b>
+    </div>
+    <div class="Alert-bar">
+        <span></span>
+    </div>
+</div>`,
+    css: `.Alert {
+    width: 320px;
+    padding: 13px;
+    border: 1px solid #dbeafe;
+    border-radius: 11px;
+    background: #fff;
+}
+.Alert-top {
+    display: flex;
+    justify-content: space-between;
+    color: #18181b;
+    font-size: 10px;
+}
+.Alert-top b {
+    color: #2563eb;
+}
+.Alert-bar {
+    height: 6px;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #eff6ff;
+}
+.Alert-bar span {
+    display: block;
+    width: 68%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg,#2563eb,#7c3aed);
+}`
+},
+{
+    id: 1698,
+    name: "Action Warning Alert",
+    preview: (
+        <div className="alert-1698">
+            <i className="fa-solid fa-triangle-exclamation"></i>
+            <div>
+                <strong>Unsaved changes</strong>
+                <span>Your work hasn't been saved yet.</span>
+            </div>
+            <button>Save</button>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-triangle-exclamation"></i>
+    <div>
+        <strong>Unsaved changes</strong>
+        <span>Your work hasn't been saved yet.</span>
+    </div>
+    <button>Save</button>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    width: 350px;
+    padding: 12px;
+    border: 1px solid #fde68a;
+    border-radius: 10px;
+    background: #fffbeb;
+}
+.Alert > i {
+    color: #f59e0b;
+}
+.Alert > div {
+    flex: 1;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    color: #78350f;
+    font-size: 10px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #92400e;
+    font-size: 8px;
+}
+.Alert > button {
+    padding: 6px 9px;
+    border: none;
+    border-radius: 6px;
+    background: #f59e0b;
+    color: #fff;
+    font-size: 8px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1699,
+    name: "Centered Alert",
+    preview: (
+        <div className="alert-1699">
+            <div className="alert-1699__icon">
+                <i className="fa-solid fa-circle-check"></i>
+            </div>
+            <strong>Payment successful</strong>
+            <span>Your order #4821 has been confirmed.</span>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-icon">
+        <i class="fa-solid fa-circle-check"></i>
+    </div>
+    <strong>Payment successful</strong>
+    <span>Your order #4821 has been confirmed.</span>
+</div>`,
+    css: `.Alert {
+    width: 260px;
+    padding: 18px;
+    border: 1px solid #bbf7d0;
+    border-radius: 14px;
+    background: #fff;
+    text-align: center;
+}
+.Alert-icon {
+    width: 37px;
+    height: 37px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 9px;
+    border-radius: 50%;
+    background: #dcfce7;
+    color: #16a34a;
+}
+.Alert strong,
+.Alert > span {
+    display: block;
+}
+.Alert strong {
+    color: #18181b;
+    font-size: 11px;
+}
+.Alert > span {
+    margin-top: 4px;
+    color: #71717a;
+    font-size: 9px;
+}`
+},
+{
+    id: 1700,
+    name: "Alert With Buttons",
+    preview: (
+        <div className="alert-1700">
+            <div>
+                <strong>Delete project?</strong>
+                <span>This action cannot be undone.</span>
+            </div>
+            <div className="alert-1700__actions">
+                <button>Cancel</button>
+                <button>Delete</button>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div>
+        <strong>Delete project?</strong>
+        <span>This action cannot be undone.</span>
+    </div>
+    <div class="Alert-actions">
+        <button>Cancel</button>
+        <button>Delete</button>
+    </div>
+</div>`,
+    css: `.Alert {
+    width: 320px;
+    padding: 14px;
+    border: 1px solid #fecaca;
+    border-radius: 12px;
+    background: #fff;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    color: #18181b;
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Alert-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 6px;
+    margin-top: 12px;
+}
+.Alert-actions button {
+    padding: 7px 10px;
+    border: none;
+    border-radius: 7px;
+    font-size: 8px;
+    cursor: pointer;
+}
+.Alert-actions button:first-child {
+    background: #f4f4f5;
+    color: #52525b;
+}
+.Alert-actions button:last-child {
+    background: #dc2626;
+    color: #fff;
+}`
+},
+{
+    id: 1701,
+    name: "System Status Alert",
+    preview: (
+        <div className="alert-1701">
+            <span className="alert-1701__dot"></span>
+            <div>
+                <strong>All systems operational</strong>
+                <span>API · Database · CDN · Storage</span>
+            </div>
+            <i className="fa-solid fa-check"></i>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <span class="Alert-dot"></span>
+    <div>
+        <strong>All systems operational</strong>
+        <span>API · Database · CDN · Storage</span>
+    </div>
+    <i class="fa-solid fa-check"></i>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 340px;
+    padding: 12px 14px;
+    border: 1px solid #bbf7d0;
+    border-radius: 10px;
+    background: #f0fdf4;
+}
+.Alert-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 9px rgba(34,197,94,.6);
+}
+.Alert > div {
+    flex: 1;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    color: #166534;
+    font-size: 10px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #15803d;
+    font-size: 8px;
+}
+.Alert > i {
+    color: #16a34a;
+    font-size: 10px;
+}`
+},
+{
+    id: 1702,
+    name: "Announcement Alert",
+    preview: (
+        <div className="alert-1702">
+            <span>NEW</span>
+            <p>Introducing our redesigned dashboard.</p>
+            <a href="#">Learn more →</a>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <span>NEW</span>
+    <p>Introducing our redesigned dashboard.</p>
+    <a href="#">Learn more →</a>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    width: 350px;
+    padding: 11px 13px;
+    border: 1px solid #dbeafe;
+    border-radius: 10px;
+    background: #eff6ff;
+}
+.Alert > span {
+    padding: 3px 6px;
+    border-radius: 999px;
+    background: #2563eb;
+    color: #fff;
+    font-size: 7px;
+    font-weight: 800;
+}
+.Alert p {
+    flex: 1;
+    margin: 0;
+    color: #1e3a8a;
+    font-size: 9px;
+}
+.Alert a {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 8px;
+    font-weight: 700;
+}`
+},
+{
+    id: 1703,
+    name: "Live Alert",
+    preview: (
+        <div className="alert-1703">
+            <span></span>
+            <strong>LIVE</strong>
+            <p>Deployment in progress</p>
+            <i className="fa-solid fa-circle-arrow-up"></i>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <span></span>
+    <strong>LIVE</strong>
+    <p>Deployment in progress</p>
+    <i class="fa-solid fa-circle-arrow-up"></i>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 300px;
+    padding: 9px 12px;
+    border: 1px solid #fecdd3;
+    border-radius: 999px;
+    background: #fff1f2;
+}
+.Alert > span {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #f43f5e;
+    box-shadow: 0 0 8px rgba(244,63,94,.7);
+    animation: live-pulse 1.2s infinite;
+}
+.Alert strong {
+    color: #be123c;
+    font-size: 8px;
+}
+.Alert p {
+    flex: 1;
+    margin: 0;
+    color: #9f1239;
+    font-size: 9px;
+}
+.Alert > i {
+    color: #e11d48;
+    font-size: 10px;
+}
+@keyframes live-pulse {
+    50% {
+        transform: scale(1.5);
+        opacity: .45;
+    }
+}`
+},
+{
+    id: 1704,
+    name: "AI Alert",
+    preview: (
+        <div className="alert-1704">
+            <div className="alert-1704__icon">
+                <i className="fa-solid fa-brain"></i>
+            </div>
+            <div>
+                <strong>AI suggestion ready</strong>
+                <span>Your assistant found 3 improvements.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-icon">
+        <i class="fa-solid fa-brain"></i>
+    </div>
+    <div>
+        <strong>AI suggestion ready</strong>
+        <span>Your assistant found 3 improvements.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 10px;
+    width: 330px;
+    padding: 13px;
+    border: 1px solid #ddd6fe;
+    border-radius: 12px;
+    background: linear-gradient(135deg,#faf5ff,#eef2ff);
+}
+.Alert-icon {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    background: linear-gradient(135deg,#7c3aed,#2563eb);
+    color: #fff;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    color: #312e81;
+    font-size: 10px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #6366f1;
+    font-size: 9px;
+}`
+},
+{
+    id: 1705,
+    name: "Minimal Gray Alert",
+    preview: (
+        <div className="alert-1705">
+            <i className="fa-solid fa-bell"></i>
+            <span>You have 3 new notifications.</span>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-bell"></i>
+    <span>You have 3 new notifications.</span>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    width: 280px;
+    padding: 10px 12px;
+    border: 1px solid #e4e4e7;
+    border-radius: 9px;
+    background: #fafafa;
+    color: #52525b;
+    font-size: 9px;
+}
+.Alert i {
+    color: #71717a;
+}`
+},
+{
+    id: 1706,
+    name: "Neon Green System Alert",
+    preview: (
+        <div className="alert-1706">
+            <i className="fa-solid fa-terminal"></i>
+            <div>
+                <strong>ACCESS GRANTED</strong>
+                <span>Authenticated session initialized.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-terminal"></i>
+    <div>
+        <strong>ACCESS GRANTED</strong>
+        <span>Authenticated session initialized.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 10px;
+    width: 320px;
+    padding: 13px;
+    border: 1px solid #14532d;
+    border-radius: 8px;
+    background: #020908;
+    color: #4ade80;
+    font-family: monospace;
+    box-shadow: 0 0 15px rgba(34,197,94,.08);
+}
+.Alert > i {
+    margin-top: 2px;
+    text-shadow: 0 0 8px #22c55e;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+.Alert span {
+    margin-top: 4px;
+    color: #86efac;
+    opacity: .7;
+    font-size: 8px;
+}`
+},
+{
+    id: 1707,
+    name: "Purple Banner Alert",
+    preview: (
+        <div className="alert-1707">
+            <div>
+                <strong>Pro workspace</strong>
+                <span>You now have access to advanced analytics.</span>
+            </div>
+            <i className="fa-solid fa-arrow-right"></i>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div>
+        <strong>Pro workspace</strong>
+        <span>You now have access to advanced analytics.</span>
+    </div>
+    <i class="fa-solid fa-arrow-right"></i>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 340px;
+    padding: 13px 15px;
+    border-radius: 12px;
+    background: linear-gradient(90deg,#581c87,#7c3aed);
+    color: #fff;
+}
+.Alert > div {
+    flex: 1;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: rgba(255,255,255,.72);
+    font-size: 9px;
+}
+.Alert > i {
+    color: #ddd6fe;
+}`
+},
+{
+    id: 1708,
+    name: "Inline Info Alert",
+    preview: (
+        <div className="alert-1708">
+            <i className="fa-solid fa-circle-info"></i>
+            <span><strong>Tip:</strong> Use keyboard shortcuts to work faster.</span>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-circle-info"></i>
+    <span><strong>Tip:</strong> Use keyboard shortcuts to work faster.</span>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 310px;
+    padding: 10px 12px;
+    border: 1px solid #bfdbfe;
+    border-radius: 8px;
+    background: #eff6ff;
+    color: #1d4ed8;
+    font-size: 9px;
+}
+.Alert strong {
+    font-weight: 800;
+}`
+},
+{
+    id: 1709,
+    name: "Alert With Close Badge",
+    preview: (
+        <div className="alert-1709">
+            <div className="alert-1709__icon">
+                <i className="fa-solid fa-bell"></i>
+            </div>
+            <div>
+                <strong>Reminder</strong>
+                <span>Your meeting starts in 15 minutes.</span>
+            </div>
+            <button>×</button>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-icon">
+        <i class="fa-solid fa-bell"></i>
+    </div>
+    <div>
+        <strong>Reminder</strong>
+        <span>Your meeting starts in 15 minutes.</span>
+    </div>
+    <button>×</button>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 330px;
+    padding: 11px;
+    border: 1px solid #e4e4e7;
+    border-radius: 11px;
+    background: #fff;
+}
+.Alert-icon {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: #fef3c7;
+    color: #d97706;
+}
+.Alert > div:nth-child(2) {
+    flex: 1;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    color: #18181b;
+    font-size: 10px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #71717a;
+    font-size: 9px;
+}
+.Alert > button {
+    border: none;
+    background: transparent;
+    color: #a1a1aa;
+    font-size: 16px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1710,
+    name: "Full Width Alert",
+    preview: (
+        <div className="alert-1710">
+            <i className="fa-solid fa-circle-info"></i>
+            <span>Scheduled deployment begins at 18:00 UTC.</span>
+            <a href="#">View details</a>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-circle-info"></i>
+    <span>Scheduled deployment begins at 18:00 UTC.</span>
+    <a href="#">View details</a>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 14px;
+    border-bottom: 1px solid #bfdbfe;
+    border-top: 1px solid #bfdbfe;
+    background: #eff6ff;
+    color: #1e40af;
+}
+.Alert span {
+    flex: 1;
+    font-size: 9px;
+}
+.Alert a {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 8px;
+    font-weight: 700;
+}`
+},
+{
+    id: 1711,
+    name: "Alert With Progress",
+    preview: (
+        <div className="alert-1711">
+            <div className="alert-1711__header">
+                <strong>Backup in progress</strong>
+                <span>42%</span>
+            </div>
+            <p>Backing up your project files.</p>
+            <div className="alert-1711__progress">
+                <span></span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-header">
+        <strong>Backup in progress</strong>
+        <span>42%</span>
+    </div>
+    <p>Backing up your project files.</p>
+    <div class="Alert-progress">
+        <span></span>
+    </div>
+</div>`,
+    css: `.Alert {
+    width: 320px;
+    padding: 13px;
+    border: 1px solid #d4d4d8;
+    border-radius: 11px;
+    background: #fff;
+}
+.Alert-header {
+    display: flex;
+    justify-content: space-between;
+}
+.Alert-header strong {
+    color: #18181b;
+    font-size: 10px;
+}
+.Alert-header span {
+    color: #2563eb;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Alert p {
+    margin: 5px 0 9px;
+    color: #71717a;
+    font-size: 8px;
+}
+.Alert-progress {
+    height: 5px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #f4f4f5;
+}
+.Alert-progress span {
+    display: block;
+    width: 42%;
+    height: 100%;
+    border-radius: inherit;
+    background: #2563eb;
+}`
+},
+{
+    id: 1712,
+    name: "Purple Notification Alert",
+    preview: (
+        <div className="alert-1712">
+            <i className="fa-solid fa-message"></i>
+            <div>
+                <strong>New comment</strong>
+                <span>Someone commented on your project.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-message"></i>
+    <div>
+        <strong>New comment</strong>
+        <span>Someone commented on your project.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 10px;
+    width: 320px;
+    padding: 13px;
+    border: 1px solid #ddd6fe;
+    border-radius: 11px;
+    background: #faf5ff;
+}
+.Alert > i {
+    color: #8b5cf6;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    color: #4c1d95;
+    font-size: 10px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #6d28d9;
+    font-size: 9px;
+}`
+},
+{
+    id: 1713,
+    name: "Orange Deployment Alert",
+    preview: (
+        <div className="alert-1713">
+            <i className="fa-solid fa-rocket"></i>
+            <div>
+                <strong>Deploying</strong>
+                <span>Build #184 is being deployed.</span>
+            </div>
+            <span className="alert-1713__status">LIVE</span>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-rocket"></i>
+    <div>
+        <strong>Deploying</strong>
+        <span>Build #184 is being deployed.</span>
+    </div>
+    <span class="Alert-status">LIVE</span>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 340px;
+    padding: 12px;
+    border: 1px solid #fed7aa;
+    border-radius: 11px;
+    background: #fff7ed;
+}
+.Alert > i {
+    color: #ea580c;
+}
+.Alert > div {
+    flex: 1;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    color: #9a3412;
+    font-size: 10px;
+}
+.Alert div span {
+    margin-top: 3px;
+    color: #c2410c;
+    font-size: 8px;
+}
+.Alert-status {
+    padding: 4px 6px;
+    border-radius: 999px;
+    background: #fed7aa;
+    color: #9a3412;
+    font-size: 7px;
+    font-weight: 800;
+}`
+},
+{
+    id: 1714,
+    name: "Blue Gradient Alert",
+    preview: (
+        <div className="alert-1714">
+            <div className="alert-1714__icon">
+                <i className="fa-solid fa-cloud"></i>
+            </div>
+            <div>
+                <strong>Cloud sync complete</strong>
+                <span>All your files are up to date.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-icon">
+        <i class="fa-solid fa-cloud"></i>
+    </div>
+    <div>
+        <strong>Cloud sync complete</strong>
+        <span>All your files are up to date.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 330px;
+    padding: 13px;
+    border-radius: 12px;
+    background: linear-gradient(135deg,#dbeafe,#e0f2fe);
+    color: #0c4a6e;
+}
+.Alert-icon {
+    width: 33px;
+    height: 33px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #fff;
+    box-shadow: 0 5px 12px rgba(37,99,235,.18);
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 10px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #0369a1;
+    font-size: 9px;
+}`
+},
+{
+    id: 1715,
+    name: "Soft Red Alert",
+    preview: (
+        <div className="alert-1715">
+            <i className="fa-solid fa-ban"></i>
+            <span>You don't have permission to perform this action.</span>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-ban"></i>
+    <span>You don't have permission to perform this action.</span>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 320px;
+    padding: 10px 12px;
+    border: 1px solid #fecaca;
+    border-radius: 9px;
+    background: #fef2f2;
+    color: #b91c1c;
+    font-size: 9px;
+}
+.Alert i {
+    color: #ef4444;
+}`
+},
+{
+    id: 1716,
+    name: "Green Banner Alert",
+    preview: (
+        <div className="alert-1716">
+            <i className="fa-solid fa-circle-check"></i>
+            <div>
+                <strong>Payment complete</strong>
+                <span>Your subscription has been renewed.</span>
+            </div>
+            <a href="#">Receipt</a>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-circle-check"></i>
+    <div>
+        <strong>Payment complete</strong>
+        <span>Your subscription has been renewed.</span>
+    </div>
+    <a href="#">Receipt</a>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 370px;
+    padding: 12px 14px;
+    border: 1px solid #bbf7d0;
+    border-radius: 10px;
+    background: #f0fdf4;
+}
+.Alert > i {
+    color: #22c55e;
+}
+.Alert > div {
+    flex: 1;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    color: #166534;
+    font-size: 10px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #15803d;
+    font-size: 8px;
+}
+.Alert a {
+    color: #15803d;
+    text-decoration: none;
+    font-size: 8px;
+    font-weight: 700;
+}`
+},
+{
+    id: 1717,
+    name: "Neon Pink Alert",
+    preview: (
+        <div className="alert-1717">
+            <i className="fa-solid fa-heart"></i>
+            <div>
+                <strong>Favorite saved</strong>
+                <span>This item was added to your favorites.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-heart"></i>
+    <div>
+        <strong>Favorite saved</strong>
+        <span>This item was added to your favorites.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 10px;
+    width: 320px;
+    padding: 13px;
+    border: 1px solid #831843;
+    border-radius: 11px;
+    background: #180711;
+    color: #f9a8d4;
+    box-shadow: 0 0 15px rgba(236,72,153,.1);
+}
+.Alert > i {
+    color: #f472b6;
+    text-shadow: 0 0 8px #ec4899;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 10px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #f9a8d4;
+    opacity: .7;
+    font-size: 8px;
+}`
+},
+{
+    id: 1718,
+    name: "Stacked Alert",
+    preview: (
+        <div className="alert-1718">
+            <div className="alert-1718__row">
+                <i className="fa-solid fa-circle-info"></i>
+                <strong>Important update</strong>
+            </div>
+            <p>Your billing information needs to be updated.</p>
+            <button>Update billing</button>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-row">
+        <i class="fa-solid fa-circle-info"></i>
+        <strong>Important update</strong>
+    </div>
+    <p>Your billing information needs to be updated.</p>
+    <button>Update billing</button>
+</div>`,
+    css: `.Alert {
+    width: 310px;
+    padding: 14px;
+    border: 1px solid #bfdbfe;
+    border-radius: 12px;
+    background: #fff;
+}
+.Alert-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.Alert-row i {
+    color: #2563eb;
+}
+.Alert-row strong {
+    color: #1e3a8a;
+    font-size: 10px;
+}
+.Alert p {
+    margin: 7px 0 11px;
+    color: #64748b;
+    font-size: 9px;
+}
+.Alert > button {
+    padding: 7px 10px;
+    border: none;
+    border-radius: 7px;
+    background: #2563eb;
+    color: #fff;
+    font-size: 8px;
+    cursor: pointer;
+}`
+},
+{
+    id: 1719,
+    name: "Glass Warning Alert",
+    preview: (
+        <div className="alert-1719">
+            <i className="fa-solid fa-triangle-exclamation"></i>
+            <div>
+                <strong>Limited availability</strong>
+                <span>Only 3 seats are left on this plan.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <i class="fa-solid fa-triangle-exclamation"></i>
+    <div>
+        <strong>Limited availability</strong>
+        <span>Only 3 seats are left on this plan.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 10px;
+    width: 320px;
+    padding: 13px;
+    border: 1px solid rgba(255,255,255,.28);
+    border-radius: 13px;
+    background: rgba(255,193,7,.12);
+    backdrop-filter: blur(14px);
+    color: #fff;
+}
+.Alert > i {
+    color: #facc15;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 10px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: rgba(255,255,255,.68);
+    font-size: 9px;
+}`
+},
+{
+    id: 1720,
+    name: "Command Alert",
+    preview: (
+        <div className="alert-1720">
+            <span>&gt;</span>
+            <div>
+                <strong>COMMAND EXECUTED</strong>
+                <p>Deployment completed with exit code 0.</p>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <span>></span>
+    <div>
+        <strong>COMMAND EXECUTED</strong>
+        <p>Deployment completed with exit code 0.</p>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    gap: 9px;
+    width: 330px;
+    padding: 13px;
+    border: 1px solid #27272a;
+    border-radius: 8px;
+    background: #050505;
+    color: #22c55e;
+    font-family: monospace;
+}
+.Alert > span {
+    color: #67e8f9;
+    font-weight: 900;
+}
+.Alert strong {
+    display: block;
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+.Alert p {
+    margin: 4px 0 0;
+    color: #86efac;
+    font-size: 8px;
+    opacity: .7;
+}`
+},
+{
+    id: 1721,
+    name: "Premium Alert",
+    preview: (
+        <div className="alert-1721">
+            <div className="alert-1721__icon">
+                <i className="fa-solid fa-gem"></i>
+            </div>
+            <div>
+                <strong>Premium activated</strong>
+                <span>All premium features are now unlocked.</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-icon">
+        <i class="fa-solid fa-gem"></i>
+    </div>
+    <div>
+        <strong>Premium activated</strong>
+        <span>All premium features are now unlocked.</span>
+    </div>
+</div>`,
+    css: `.Alert {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    width: 330px;
+    padding: 13px;
+    border: 1px solid #facc15;
+    border-radius: 13px;
+    background: linear-gradient(135deg,#18181b,#292524);
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,.18);
+}
+.Alert-icon {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#facc15,#f59e0b);
+    color: #451a03;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 10px;
+}
+.Alert span {
+    margin-top: 3px;
+    color: #d4d4d8;
+    font-size: 9px;
+}`
+},
+{
+    id: 1722,
+    name: "Rainbow Glow Alert",
+    preview: (
+        <div className="alert-1722">
+            <div className="alert-1722__glow"></div>
+            <div className="alert-1722__content">
+                <i className="fa-solid fa-sparkles"></i>
+                <div>
+                    <strong>Experience upgraded</strong>
+                    <span>Your interface has been upgraded.</span>
+                </div>
+            </div>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-glow"></div>
+    <div class="Alert-content">
+        <i class="fa-solid fa-sparkles"></i>
+        <div>
+            <strong>Experience upgraded</strong>
+            <span>Your interface has been upgraded.</span>
+        </div>
+    </div>
+</div>`,
+    css: `.Alert {
+    position: relative;
+    width: 340px;
+    padding: 2px;
+    overflow: hidden;
+    border-radius: 13px;
+}
+.Alert-glow {
+    position: absolute;
+    inset: -50px;
+    background: conic-gradient(#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899,#ef4444);
+    animation: rainbow-rotate 4s linear infinite;
+}
+.Alert-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: 10px;
+    padding: 13px;
+    border-radius: 11px;
+    background: #09090b;
+    color: #fff;
+}
+.Alert-content > i {
+    color: #67e8f9;
+}
+.Alert-content strong,
+.Alert-content span {
+    display: block;
+}
+.Alert-content strong {
+    font-size: 10px;
+}
+.Alert-content span {
+    margin-top: 3px;
+    color: #a1a1aa;
+    font-size: 8px;
+}
+@keyframes rainbow-rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1723,
+    name: "Legendary Alert",
+    preview: (
+        <div className="alert-1723">
+            <div className="alert-1723__orb"></div>
+            <div className="alert-1723__icon">
+                <i className="fa-solid fa-crown"></i>
+            </div>
+            <div>
+                <strong>Everything is ready</strong>
+                <span>Your project passed every check and is ready to launch.</span>
+            </div>
+            <button aria-label="Close">
+                <i className="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+    ),
+    html: `<div class="Alert">
+    <div class="Alert-orb"></div>
+    <div class="Alert-icon">
+        <i class="fa-solid fa-crown"></i>
+    </div>
+    <div>
+        <strong>Everything is ready</strong>
+        <span>Your project passed every check and is ready to launch.</span>
+    </div>
+    <button aria-label="Close">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+</div>`,
+    css: `.Alert {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    width: 380px;
+    padding: 14px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.16);
+    border-radius: 14px;
+    background: #08080a;
+    color: #fff;
+    box-shadow: 0 12px 35px rgba(0,0,0,.22);
+}
+.Alert-orb {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: -35px;
+    top: -45px;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#22d3ee,#6366f1,#ec4899);
+    filter: blur(35px);
+    opacity: .22;
+}
+.Alert-icon {
+    position: relative;
+    z-index: 1;
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(250,204,21,.5);
+    border-radius: 10px;
+    background: rgba(250,204,21,.1);
+    color: #facc15;
+    box-shadow: 0 0 14px rgba(250,204,21,.12);
+}
+.Alert > div:nth-child(3) {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+}
+.Alert strong,
+.Alert span {
+    display: block;
+}
+.Alert strong {
+    font-size: 11px;
+}
+.Alert span {
+    margin-top: 4px;
+    color: #a1a1aa;
+    font-size: 8px;
+    line-height: 1.5;
+}
+.Alert > button {
+    position: relative;
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #27272a;
+    border-radius: 7px;
+    background: #111113;
+    color: #71717a;
+    cursor: pointer;
+}
+.Alert > button:hover {
+    color: #fff;
+    border-color: #3f3f46;
+}`
+},
 ];
 
 
@@ -75043,7 +83960,1983 @@ export const badges = [
     color: #facc15;
     font-size: 9px;
 }`
+    },
+    {
+    id: 1724,
+    name: "Success Badge",
+    preview: (
+        <span className="badge-1724">
+            <i className="fa-solid fa-check"></i>
+            Success
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-check"></i>
+    Success
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #dcfce7;
+    color: #15803d;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Badge i {
+    font-size: 8px;
+}`
+},
+{
+    id: 1725,
+    name: "Warning Badge",
+    preview: (
+        <span className="badge-1725">
+            <i className="fa-solid fa-triangle-exclamation"></i>
+            Warning
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-triangle-exclamation"></i>
+    Warning
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #fef3c7;
+    color: #92400e;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Badge i {
+    font-size: 8px;
+}`
+},
+{
+    id: 1726,
+    name: "Danger Badge",
+    preview: (
+        <span className="badge-1726">
+            <i className="fa-solid fa-xmark"></i>
+            Failed
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-xmark"></i>
+    Failed
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #fee2e2;
+    color: #b91c1c;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Badge i {
+    font-size: 8px;
+}`
+},
+{
+    id: 1727,
+    name: "Info Badge",
+    preview: (
+        <span className="badge-1727">
+            <i className="fa-solid fa-circle-info"></i>
+            Info
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-circle-info"></i>
+    Info
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #dbeafe;
+    color: #1d4ed8;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Badge i {
+    font-size: 8px;
+}`
+},
+{
+    id: 1728,
+    name: "Neutral Badge",
+    preview: (
+        <span className="badge-1728">Draft</span>
+    ),
+    html: `<span class="Badge">Draft</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #f4f4f5;
+    color: #52525b;
+    font-size: 9px;
+    font-weight: 700;
+}`
+},
+{
+    id: 1729,
+    name: "Dot Status Badge",
+    preview: (
+        <span className="badge-1729">
+            <span></span>
+            Online
+        </span>
+    ),
+    html: `<span class="Badge">
+    <span></span>
+    Online
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 9px;
+    border: 1px solid #bbf7d0;
+    border-radius: 999px;
+    background: #f0fdf4;
+    color: #166534;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Badge > span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 7px rgba(34,197,94,.6);
+}`
+},
+{
+    id: 1730,
+    name: "Live Badge",
+    preview: (
+        <span className="badge-1730">
+            <span></span>
+            LIVE
+        </span>
+    ),
+    html: `<span class="Badge">
+    <span></span>
+    LIVE
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #fff1f2;
+    color: #be123c;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.Badge > span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #f43f5e;
+    box-shadow: 0 0 8px #f43f5e;
+    animation: live-1730 1.2s infinite;
+}
+@keyframes live-1730 {
+    50% {
+        transform: scale(1.5);
+        opacity: .45;
     }
+}`
+},
+{
+    id: 1731,
+    name: "New Badge",
+    preview: (
+        <span className="badge-1731">NEW</span>
+    ),
+    html: `<span class="Badge">NEW</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 8px;
+    border-radius: 6px;
+    background: #2563eb;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .8px;
+}`
+},
+{
+    id: 1732,
+    name: "Premium Badge",
+    preview: (
+        <span className="badge-1732">
+            <i className="fa-solid fa-crown"></i>
+            PRO
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-crown"></i>
+    PRO
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border: 1px solid #facc15;
+    border-radius: 999px;
+    background: linear-gradient(135deg,#fef3c7,#fde68a);
+    color: #78350f;
+    font-size: 8px;
+    font-weight: 900;
+}
+.Badge i {
+    color: #d97706;
+    font-size: 8px;
+}`
+},
+{
+    id: 1733,
+    name: "Neon Cyan Badge",
+    preview: (
+        <span className="badge-1733">
+            <i className="fa-solid fa-bolt"></i>
+            ONLINE
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-bolt"></i>
+    ONLINE
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border: 1px solid #22d3ee;
+    border-radius: 999px;
+    background: #020617;
+    color: #67e8f9;
+    font-family: monospace;
+    font-size: 8px;
+    font-weight: 800;
+    box-shadow: 0 0 12px rgba(34,211,238,.15);
+}`
+},
+{
+    id: 1734,
+    name: "Neon Pink Badge",
+    preview: (
+        <span className="badge-1734">
+            <i className="fa-solid fa-heart"></i>
+            FAVORITE
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-heart"></i>
+    FAVORITE
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ec4899;
+    border-radius: 999px;
+    background: #180711;
+    color: #f9a8d4;
+    font-size: 8px;
+    font-weight: 800;
+    box-shadow: 0 0 12px rgba(236,72,153,.14);
+}`
+},
+{
+    id: 1735,
+    name: "Neon Purple Badge",
+    preview: (
+        <span className="badge-1735">
+            <i className="fa-solid fa-wand-magic-sparkles"></i>
+            MAGIC
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-wand-magic-sparkles"></i>
+    MAGIC
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border: 1px solid #a855f7;
+    border-radius: 999px;
+    background: #12051e;
+    color: #d8b4fe;
+    font-size: 8px;
+    font-weight: 800;
+    box-shadow: 0 0 13px rgba(168,85,247,.15);
+}`
+},
+{
+    id: 1736,
+    name: "Gradient Badge",
+    preview: (
+        <span className="badge-1736">FEATURED</span>
+    ),
+    html: `<span class="Badge">FEATURED</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#2563eb,#7c3aed,#ec4899);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .8px;
+    box-shadow: 0 5px 14px rgba(99,102,241,.2);
+}`
+},
+{
+    id: 1737,
+    name: "Rainbow Badge",
+    preview: (
+        <span className="badge-1737">RAINBOW</span>
+    ),
+    html: `<span class="Badge">RAINBOW</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899);
+}
+.Badge::after {
+    content: "RAINBOW";
+    display: block;
+    padding: 4px 8px;
+    border-radius: inherit;
+    background: #18181b;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+}`
+},
+{
+    id: 1738,
+    name: "Glass Badge",
+    preview: (
+        <span className="badge-1738">
+            <i className="fa-solid fa-gem"></i>
+            GLASS
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-gem"></i>
+    GLASS
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 10px;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 999px;
+    background: rgba(255,255,255,.1);
+    backdrop-filter: blur(12px);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 800;
+}`
+},
+{
+    id: 1739,
+    name: "Verified Badge",
+    preview: (
+        <span className="badge-1739">
+            <i className="fa-solid fa-circle-check"></i>
+            Verified
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-circle-check"></i>
+    Verified
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #eff6ff;
+    color: #2563eb;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Badge i {
+    color: #3b82f6;
+}`
+},
+{
+    id: 1740,
+    name: "Notification Count Badge",
+    preview: (
+        <span className="badge-1740">9</span>
+    ),
+    html: `<span class="Badge">9</span>`,
+    css: `.Badge {
+    width: 24px;
+    height: 24px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #ef4444;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 900;
+    box-shadow: 0 0 12px rgba(239,68,68,.2);
+}`
+},
+{
+    id: 1741,
+    name: "Notification Overflow Badge",
+    preview: (
+        <span className="badge-1741">99+</span>
+    ),
+    html: `<span class="Badge">99+</span>`,
+    css: `.Badge {
+    min-width: 28px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    padding: 0 6px;
+    border-radius: 999px;
+    background: #dc2626;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+}`
+},
+{
+    id: 1742,
+    name: "Sale Badge",
+    preview: (
+        <span className="badge-1742">
+            <i className="fa-solid fa-tag"></i>
+            SALE
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-tag"></i>
+    SALE
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border-radius: 7px;
+    background: #dc2626;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+}`
+},
+{
+    id: 1743,
+    name: "Discount Badge",
+    preview: (
+        <span className="badge-1743">-25%</span>
+    ),
+    html: `<span class="Badge">-25%</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 8px;
+    border-radius: 6px;
+    background: #16a34a;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+}`
+},
+{
+    id: 1744,
+    name: "Hot Badge",
+    preview: (
+        <span className="badge-1744">
+            <i className="fa-solid fa-fire"></i>
+            HOT
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-fire"></i>
+    HOT
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: linear-gradient(135deg,#ef4444,#f97316);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    box-shadow: 0 5px 14px rgba(249,115,22,.2);
+}`
+},
+{
+    id: 1745,
+    name: "Beta Badge",
+    preview: (
+        <span className="badge-1745">BETA</span>
+    ),
+    html: `<span class="Badge">BETA</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 8px;
+    border: 1px solid #c4b5fd;
+    border-radius: 6px;
+    background: #f5f3ff;
+    color: #7c3aed;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}`
+},
+{
+    id: 1746,
+    name: "Experimental Badge",
+    preview: (
+        <span className="badge-1746">
+            <i className="fa-solid fa-flask"></i>
+            EXPERIMENTAL
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-flask"></i>
+    EXPERIMENTAL
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border: 1px dashed #8b5cf6;
+    border-radius: 7px;
+    background: #faf5ff;
+    color: #6d28d9;
+    font-size: 7px;
+    font-weight: 900;
+    letter-spacing: .5px;
+}`
+},
+{
+    id: 1747,
+    name: "AI Badge",
+    preview: (
+        <span className="badge-1747">
+            <i className="fa-solid fa-brain"></i>
+            AI
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-brain"></i>
+    AI
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border: 1px solid #8b5cf6;
+    border-radius: 999px;
+    background: linear-gradient(135deg,#ede9fe,#e0e7ff);
+    color: #5b21b6;
+    font-size: 8px;
+    font-weight: 900;
+}`
+},
+{
+    id: 1748,
+    name: "Beta Dot Badge",
+    preview: (
+        <span className="badge-1748">
+            <span></span>
+            Beta
+        </span>
+    ),
+    html: `<span class="Badge">
+    <span></span>
+    Beta
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 9px;
+    border: 1px solid #ddd6fe;
+    border-radius: 999px;
+    background: #faf5ff;
+    color: #6d28d9;
+    font-size: 8px;
+    font-weight: 800;
+}
+.Badge > span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #8b5cf6;
+}`
+},
+{
+    id: 1749,
+    name: "Status Busy Badge",
+    preview: (
+        <span className="badge-1749">
+            <span></span>
+            Busy
+        </span>
+    ),
+    html: `<span class="Badge">
+    <span></span>
+    Busy
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #fff1f2;
+    color: #be123c;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Badge > span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #f43f5e;
+}`
+},
+{
+    id: 1750,
+    name: "Status Away Badge",
+    preview: (
+        <span className="badge-1750">
+            <span></span>
+            Away
+        </span>
+    ),
+    html: `<span class="Badge">
+    <span></span>
+    Away
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #fffbeb;
+    color: #92400e;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Badge > span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #f59e0b;
+}`
+},
+{
+    id: 1751,
+    name: "Status Offline Badge",
+    preview: (
+        <span className="badge-1751">
+            <span></span>
+            Offline
+        </span>
+    ),
+    html: `<span class="Badge">
+    <span></span>
+    Offline
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #f4f4f5;
+    color: #52525b;
+    font-size: 9px;
+    font-weight: 700;
+}
+.Badge > span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #71717a;
+}`
+},
+{
+    id: 1752,
+    name: "Code Badge",
+    preview: (
+        <span className="badge-1752">
+            <i className="fa-solid fa-code"></i>
+            CSS
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-code"></i>
+    CSS
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    background: #18181b;
+    color: #d4d4d8;
+    font-family: monospace;
+    font-size: 8px;
+    font-weight: 800;
+}
+.Badge i {
+    color: #22d3ee;
+}`
+},
+{
+    id: 1753,
+    name: "Framework Badge",
+    preview: (
+        <span className="badge-1753">
+            <i className="fa-brands fa-react"></i>
+            React
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-brands fa-react"></i>
+    React
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border: 1px solid #bae6fd;
+    border-radius: 999px;
+    background: #f0f9ff;
+    color: #0369a1;
+    font-size: 8px;
+    font-weight: 800;
+}
+.Badge i {
+    color: #0ea5e9;
+}`
+},
+{
+    id: 1754,
+    name: "Database Badge",
+    preview: (
+        <span className="badge-1754">
+            <i className="fa-solid fa-database"></i>
+            Database
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-database"></i>
+    Database
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border-radius: 7px;
+    background: #ecfeff;
+    color: #155e75;
+    border: 1px solid #a5f3fc;
+    font-size: 8px;
+    font-weight: 800;
+}
+.Badge i {
+    color: #0891b2;
+}`
+},
+{
+    id: 1755,
+    name: "Cloud Badge",
+    preview: (
+        <span className="badge-1755">
+            <i className="fa-solid fa-cloud"></i>
+            Cloud
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-cloud"></i>
+    Cloud
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border: 1px solid #bfdbfe;
+    border-radius: 999px;
+    background: #eff6ff;
+    color: #1d4ed8;
+    font-size: 8px;
+    font-weight: 800;
+}
+.Badge i {
+    color: #2563eb;
+}`
+},
+{
+    id: 1756,
+    name: "Security Badge",
+    preview: (
+        <span className="badge-1756">
+            <i className="fa-solid fa-shield-halved"></i>
+            Secure
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-shield-halved"></i>
+    Secure
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border: 1px solid #bbf7d0;
+    border-radius: 999px;
+    background: #f0fdf4;
+    color: #166534;
+    font-size: 8px;
+    font-weight: 800;
+}
+.Badge i {
+    color: #22c55e;
+}`
+},
+{
+    id: 1757,
+    name: "Beta Glass Badge",
+    preview: (
+        <span className="badge-1757">BETA</span>
+    ),
+    html: `<span class="Badge">BETA</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 9px;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 999px;
+    background: rgba(255,255,255,.12);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}`
+},
+{
+    id: 1758,
+    name: "Version Badge",
+    preview: (
+        <span className="badge-1758">v2.4.1</span>
+    ),
+    html: `<span class="Badge">v2.4.1</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 8px;
+    border: 1px solid #d4d4d8;
+    border-radius: 6px;
+    background: #fafafa;
+    color: #52525b;
+    font-family: monospace;
+    font-size: 8px;
+    font-weight: 700;
+}`
+},
+{
+    id: 1759,
+    name: "Pro Gradient Badge",
+    preview: (
+        <span className="badge-1759">
+            <i className="fa-solid fa-crown"></i>
+            PRO
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-crown"></i>
+    PRO
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 999px;
+    background: linear-gradient(135deg,#f59e0b,#ec4899,#8b5cf6);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    box-shadow: 0 5px 16px rgba(236,72,153,.18);
+}
+.Badge i {
+    font-size: 8px;
+}`
+},
+{
+    id: 1760,
+    name: "Featured Badge",
+    preview: (
+        <span className="badge-1760">
+            <i className="fa-solid fa-star"></i>
+            Featured
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-star"></i>
+    Featured
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #fef3c7;
+    color: #92400e;
+    font-size: 8px;
+    font-weight: 800;
+}
+.Badge i {
+    color: #eab308;
+}`
+},
+{
+    id: 1761,
+    name: "Count Badge",
+    preview: (
+        <span className="badge-1761">24</span>
+    ),
+    html: `<span class="Badge">24</span>`,
+    css: `.Badge {
+    min-width: 25px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6px;
+    border-radius: 6px;
+    background: #18181b;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+}`
+},
+{
+    id: 1762,
+    name: "Percentage Badge",
+    preview: (
+        <span className="badge-1762">78%</span>
+    ),
+    html: `<span class="Badge">78%</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 8px;
+    border-radius: 6px;
+    background: #dbeafe;
+    color: #1d4ed8;
+    font-size: 8px;
+    font-weight: 900;
+}`
+},
+{
+    id: 1763,
+    name: "Rank Badge",
+    preview: (
+        <span className="badge-1763">
+            #1
+        </span>
+    ),
+    html: `<span class="Badge">#1</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 8px;
+    border-radius: 6px;
+    background: linear-gradient(135deg,#facc15,#f59e0b);
+    color: #451a03;
+    font-size: 8px;
+    font-weight: 900;
+}`
+},
+{
+    id: 1764,
+    name: "New Feature Badge",
+    preview: (
+        <span className="badge-1764">
+            <i className="fa-solid fa-sparkles"></i>
+            NEW FEATURE
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-sparkles"></i>
+    NEW FEATURE
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: linear-gradient(135deg,#ecfeff,#eef2ff);
+    color: #4338ca;
+    border: 1px solid #c7d2fe;
+    font-size: 7px;
+    font-weight: 900;
+    letter-spacing: .4px;
+}
+.Badge i {
+    color: #6366f1;
+}`
+},
+{
+    id: 1765,
+    name: "Payment Badge",
+    preview: (
+        <span className="badge-1765">
+            <i className="fa-solid fa-credit-card"></i>
+            Paid
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-credit-card"></i>
+    Paid
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 8px;
+    font-weight: 800;
+}
+.Badge i {
+    color: #16a34a;
+}`
+},
+{
+    id: 1766,
+    name: "Pending Payment Badge",
+    preview: (
+        <span className="badge-1766">
+            <i className="fa-solid fa-clock"></i>
+            Pending
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-clock"></i>
+    Pending
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #fffbeb;
+    color: #92400e;
+    font-size: 8px;
+    font-weight: 800;
+}
+.Badge i {
+    color: #f59e0b;
+}`
+},
+{
+    id: 1767,
+    name: "Archived Badge",
+    preview: (
+        <span className="badge-1767">
+            <i className="fa-solid fa-box-archive"></i>
+            Archived
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-box-archive"></i>
+    Archived
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border-radius: 8px;
+    background: #f4f4f5;
+    color: #52525b;
+    font-size: 8px;
+    font-weight: 800;
+}
+.Badge i {
+    color: #71717a;
+}`
+},
+{
+    id: 1768,
+    name: "Draft Badge",
+    preview: (
+        <span className="badge-1768">
+            <i className="fa-solid fa-pen"></i>
+            Draft
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-pen"></i>
+    Draft
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border: 1px solid #d4d4d8;
+    border-radius: 8px;
+    background: #fff;
+    color: #52525b;
+    font-size: 8px;
+    font-weight: 700;
+}
+.Badge i {
+    color: #a1a1aa;
+}`
+},
+{
+    id: 1769,
+    name: "Command Badge",
+    preview: (
+        <span className="badge-1769">
+            <i className="fa-solid fa-terminal"></i>
+            COMMAND
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-terminal"></i>
+    COMMAND
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border: 1px solid #27272a;
+    border-radius: 6px;
+    background: #09090b;
+    color: #4ade80;
+    font-family: monospace;
+    font-size: 7px;
+    font-weight: 800;
+    letter-spacing: .7px;
+    box-shadow: inset 0 0 8px rgba(34,197,94,.04);
+}
+.Badge i {
+    color: #22c55e;
+}`
+},
+{
+    id: 1770,
+    name: "Holographic Badge",
+    preview: (
+        <span className="badge-1770">
+            <i className="fa-solid fa-layer-group"></i>
+            HOLOGRAPHIC
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-layer-group"></i>
+    HOLOGRAPHIC
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(#18181b,#18181b) padding-box,
+        linear-gradient(90deg,#22d3ee,#6366f1,#ec4899,#22d3ee) border-box;
+    color: #fff;
+    font-size: 7px;
+    font-weight: 900;
+    box-shadow: 0 0 14px rgba(99,102,241,.14);
+}`
+},
+{
+    id: 1771,
+    name: "Animated Neon Badge",
+    preview: (
+        <span className="badge-1771">
+            <span></span>
+            ACTIVE
+        </span>
+    ),
+    html: `<span class="Badge">
+    <span></span>
+    ACTIVE
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 10px;
+    border: 1px solid #22d3ee;
+    border-radius: 999px;
+    background: #020617;
+    color: #67e8f9;
+    font-family: monospace;
+    font-size: 8px;
+    font-weight: 900;
+    box-shadow: 0 0 12px rgba(34,211,238,.15);
+}
+.Badge > span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #22d3ee;
+    box-shadow: 0 0 9px #22d3ee;
+    animation: badge-neon-pulse 1.4s ease-in-out infinite;
+}
+@keyframes badge-neon-pulse {
+    50% {
+        transform: scale(1.5);
+        opacity: .55;
+    }
+}`
+},
+{
+    id: 1772,
+    name: "Glass Notification Badge",
+    preview: (
+        <span className="badge-1772">
+            <i className="fa-solid fa-bell"></i>
+            12
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-bell"></i>
+    12
+</span>`,
+    css: `.Badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 999px;
+    background: rgba(255,255,255,.12);
+    backdrop-filter: blur(12px);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 800;
+}
+.Badge i {
+    font-size: 8px;
+}`
+},
+{
+    id: 1773,
+    name: "Legendary Prism Badge",
+    preview: (
+        <span className="badge-1773">
+            <i className="fa-solid fa-gem"></i>
+            LEGENDARY
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-gem"></i>
+    LEGENDARY
+</span>`,
+    css: `.Badge {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 11px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(#09090b,#09090b) padding-box,
+        linear-gradient(90deg,#22d3ee,#3b82f6,#8b5cf6,#ec4899,#f97316,#22d3ee) border-box;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    box-shadow: 0 0 18px rgba(99,102,241,.16);
+    overflow: hidden;
+}
+.Badge::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    left: -60px;
+    top: 0;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.5),transparent);
+    transform: skewX(-20deg);
+    animation: badge-shimmer-1773 2.8s ease-in-out infinite;
+}
+.Badge i,
+.Badge {
+    text-shadow: 0 0 8px rgba(103,232,249,.2);
+}
+@keyframes badge-shimmer-1773 {
+    0% {
+        left: -60px;
+    }
+    55% {
+        left: 130%;
+    }
+    100% {
+        left: 130%;
+    }
+}`
+},
+{
+    id: 1774,
+    name: "Legendary Ice Badge",
+    preview: (
+        <span className="badge-1774">
+            <i className="fa-solid fa-snowflake"></i>
+            ICE
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-snowflake"></i>
+    ICE
+</span>`,
+    css: `.Badge {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 11px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(#04151f,#04151f) padding-box,
+        linear-gradient(90deg,#67e8f9,#38bdf8,#bae6fd,#22d3ee,#67e8f9) border-box;
+    color: #e0faff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    box-shadow: 0 0 18px rgba(56,189,248,.25),inset 0 0 12px rgba(103,232,249,.08);
+    overflow: hidden;
+}
+.Badge::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 140%;
+    top: -20%;
+    left: -70px;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.8),transparent);
+    transform: skewX(-20deg);
+    animation: badge-ice-shine-1774 2.4s ease-in-out infinite;
+}
+.Badge i {
+    color: #a5f3fc;
+    text-shadow: 0 0 10px #22d3ee;
+}
+@keyframes badge-ice-shine-1774 {
+    0% {
+        left: -70px;
+    }
+    55% {
+        left: 135%;
+    }
+    100% {
+        left: 135%;
+    }
+}`
+},
+{
+    id: 1775,
+    name: "Legendary Fire Badge",
+    preview: (
+        <span className="badge-1775">
+            <i className="fa-solid fa-fire"></i>
+            INFERNO
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-fire"></i>
+    INFERNO
+</span>`,
+    css: `.Badge {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 11px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(#180704,#180704) padding-box,
+        linear-gradient(90deg,#facc15,#f97316,#ef4444,#f97316,#facc15) border-box;
+    color: #fff7ed;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    box-shadow: 0 0 20px rgba(249,115,22,.28),inset 0 0 12px rgba(251,146,60,.08);
+    overflow: hidden;
+}
+.Badge::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 140%;
+    top: -20%;
+    left: -70px;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.75),transparent);
+    transform: skewX(-20deg);
+    animation: badge-fire-shine-1775 2.2s ease-in-out infinite;
+}
+.Badge i {
+    color: #facc15;
+    text-shadow: 0 0 10px #f97316;
+}
+@keyframes badge-fire-shine-1775 {
+    0% {
+        left: -70px;
+    }
+    50% {
+        left: 135%;
+    }
+    100% {
+        left: 135%;
+    }
+}`
+},
+{
+    id: 1776,
+    name: "Legendary Rainbow Badge",
+    preview: (
+        <span className="badge-1776">
+            <i className="fa-solid fa-sparkles"></i>
+            RAINBOW
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-sparkles"></i>
+    RAINBOW
+</span>`,
+    css: `.Badge {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 11px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(#09090b,#09090b) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899,#ef4444) border-box;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-size: 100% 100%,300% 100%;
+    box-shadow: 0 0 20px rgba(168,85,247,.18);
+    overflow: hidden;
+    animation: badge-rainbow-border-1776 5s linear infinite;
+}
+.Badge::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 140%;
+    top: -20%;
+    left: -70px;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.7),transparent);
+    transform: skewX(-20deg);
+    animation: badge-rainbow-shine-1776 2.6s ease-in-out infinite;
+}
+.Badge i {
+    color: #f0abfc;
+    text-shadow: 0 0 9px #ec4899;
+}
+@keyframes badge-rainbow-border-1776 {
+    to {
+        background-position: 0 0,300% 0;
+    }
+}
+@keyframes badge-rainbow-shine-1776 {
+    0% {
+        left: -70px;
+    }
+    55% {
+        left: 135%;
+    }
+    100% {
+        left: 135%;
+    }
+}`
+},
+{
+    id: 1777,
+    name: "Legendary Neon Purple Badge",
+    preview: (
+        <span className="badge-1777">
+            <i className="fa-solid fa-wand-magic-sparkles"></i>
+            ARCANE
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-wand-magic-sparkles"></i>
+    ARCANE
+</span>`,
+    css: `.Badge {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 11px;
+    border: 1px solid #c084fc;
+    border-radius: 999px;
+    background: #10051a;
+    color: #f3e8ff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px rgba(192,132,252,.45),0 0 25px rgba(168,85,247,.2),inset 0 0 12px rgba(168,85,247,.1);
+    overflow: hidden;
+}
+.Badge::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 150%;
+    left: -65px;
+    top: -25%;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.8),transparent);
+    transform: skewX(-20deg);
+    animation: badge-purple-shine-1777 2.5s ease-in-out infinite;
+}
+.Badge i {
+    color: #e9d5ff;
+    text-shadow: 0 0 10px #a855f7;
+}
+@keyframes badge-purple-shine-1777 {
+    0% {
+        left: -65px;
+    }
+    50% {
+        left: 135%;
+    }
+    100% {
+        left: 135%;
+    }
+}`
+},
+{
+    id: 1778,
+    name: "Legendary Black Ice Badge",
+    preview: (
+        <span className="badge-1778">
+            <i className="fa-solid fa-gem"></i>
+            BLACK ICE
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-gem"></i>
+    BLACK ICE
+</span>`,
+    css: `.Badge {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 11px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(145deg,#020617,#09090b) padding-box,
+        linear-gradient(90deg,#0ea5e9,#67e8f9,#e0f2fe,#38bdf8,#0ea5e9) border-box;
+    color: #e0f2fe;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    box-shadow: 0 0 18px rgba(56,189,248,.18),inset 0 0 14px rgba(14,165,233,.06);
+    overflow: hidden;
+}
+.Badge::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 160%;
+    top: -30%;
+    left: -60px;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.9),transparent);
+    transform: skewX(-22deg);
+    animation: badge-black-ice-shine-1778 2.8s ease-in-out infinite;
+}
+.Badge i {
+    color: #7dd3fc;
+    text-shadow: 0 0 9px #38bdf8;
+}
+@keyframes badge-black-ice-shine-1778 {
+    0% {
+        left: -60px;
+    }
+    55% {
+        left: 135%;
+    }
+    100% {
+        left: 135%;
+    }
+}`
+},
+{
+    id: 1779,
+    name: "Legendary Golden Badge",
+    preview: (
+        <span className="badge-1779">
+            <i className="fa-solid fa-crown"></i>
+            ELITE
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-crown"></i>
+    ELITE
+</span>`,
+    css: `.Badge {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 11px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(#161006,#161006) padding-box,
+        linear-gradient(90deg,#fde047,#facc15,#fff7ae,#f59e0b,#fde047) border-box;
+    color: #fef3c7;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    box-shadow: 0 0 20px rgba(250,204,21,.2),inset 0 0 12px rgba(250,204,21,.08);
+    overflow: hidden;
+}
+.Badge::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 150%;
+    top: -25%;
+    left: -70px;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.85),transparent);
+    transform: skewX(-20deg);
+    animation: badge-gold-shine-1779 2.5s ease-in-out infinite;
+}
+.Badge i {
+    color: #facc15;
+    text-shadow: 0 0 9px #f59e0b;
+}
+@keyframes badge-gold-shine-1779 {
+    0% {
+        left: -70px;
+    }
+    55% {
+        left: 135%;
+    }
+    100% {
+        left: 135%;
+    }
+}`
+},
+{
+    id: 1780,
+    name: "Legendary Cyber Badge",
+    preview: (
+        <span className="badge-1780">
+            <i className="fa-solid fa-microchip"></i>
+            CYBER
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-microchip"></i>
+    CYBER
+</span>`,
+    css: `.Badge {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 11px;
+    border: 1px solid #22d3ee;
+    border-radius: 6px;
+    background: repeating-linear-gradient(0deg,rgba(34,211,238,.03) 0px,rgba(34,211,238,.03) 2px,#020617 2px,#020617 4px);
+    color: #67e8f9;
+    font-family: monospace;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    box-shadow: 0 0 16px rgba(34,211,238,.18),inset 0 0 12px rgba(34,211,238,.05);
+    overflow: hidden;
+}
+.Badge::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 150%;
+    top: -25%;
+    left: -60px;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.75),transparent);
+    transform: skewX(-20deg);
+    animation: badge-cyber-shine-1780 2.2s ease-in-out infinite;
+}
+.Badge i {
+    color: #22d3ee;
+    text-shadow: 0 0 9px #22d3ee;
+}
+@keyframes badge-cyber-shine-1780 {
+    0% {
+        left: -60px;
+    }
+    50% {
+        left: 135%;
+    }
+    100% {
+        left: 135%;
+    }
+}`
+},
+{
+    id: 1781,
+    name: "Legendary Emerald Badge",
+    preview: (
+        <span className="badge-1781">
+            <i className="fa-solid fa-leaf"></i>
+            EMERALD
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-leaf"></i>
+    EMERALD
+</span>`,
+    css: `.Badge {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 11px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(#03140b,#03140b) padding-box,
+        linear-gradient(90deg,#22c55e,#86efac,#10b981,#34d399,#22c55e) border-box;
+    color: #dcfce7;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    box-shadow: 0 0 20px rgba(34,197,94,.2),inset 0 0 12px rgba(34,197,94,.06);
+    overflow: hidden;
+}
+.Badge::before {
+    content: "";
+    position: absolute;
+    width: 52px;
+    height: 145%;
+    top: -22%;
+    left: -65px;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.78),transparent);
+    transform: skewX(-20deg);
+    animation: badge-emerald-shine-1781 2.6s ease-in-out infinite;
+}
+.Badge i {
+    color: #4ade80;
+    text-shadow: 0 0 9px #22c55e;
+}
+@keyframes badge-emerald-shine-1781 {
+    0% {
+        left: -65px;
+    }
+    55% {
+        left: 135%;
+    }
+    100% {
+        left: 135%;
+    }
+}`
+},
+{
+    id: 1782,
+    name: "Legendary Holographic Badge",
+    preview: (
+        <span className="badge-1782">
+            <i className="fa-solid fa-layer-group"></i>
+            HOLOGRAM
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-layer-group"></i>
+    HOLOGRAM
+</span>`,
+    css: `.Badge {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 11px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(rgba(255,255,255,.08),rgba(255,255,255,.08)) padding-box,
+        linear-gradient(90deg,#22d3ee,#8b5cf6,#ec4899,#f97316,#22d3ee) border-box;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 18px rgba(168,85,247,.18);
+    overflow: hidden;
+}
+.Badge::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 150%;
+    top: -25%;
+    left: -70px;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.9),transparent);
+    transform: skewX(-20deg);
+    animation: badge-holo-shine-1782 2.4s ease-in-out infinite;
+}
+.Badge i {
+    color: #c4b5fd;
+    text-shadow: 0 0 9px #8b5cf6;
+}
+@keyframes badge-holo-shine-1782 {
+    0% {
+        left: -70px;
+    }
+    55% {
+        left: 135%;
+    }
+    100% {
+        left: 135%;
+    }
+}`
+},
+{
+    id: 1783,
+    name: "Legendary Prism Core Badge",
+    preview: (
+        <span className="badge-1783">
+            <i className="fa-solid fa-gem"></i>
+            PRISM CORE
+        </span>
+    ),
+    html: `<span class="Badge">
+    <i class="fa-solid fa-gem"></i>
+    PRISM CORE
+</span>`,
+    css: `.Badge {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(#08080a,#08080a) padding-box,
+        linear-gradient(90deg,#22d3ee,#3b82f6,#8b5cf6,#ec4899,#f97316,#22d3ee) border-box;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1.1px;
+    box-shadow: 0 0 20px rgba(99,102,241,.2),inset 0 0 14px rgba(255,255,255,.03);
+    overflow: hidden;
+}
+.Badge::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 150%;
+    top: -25%;
+    left: -70px;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.95),transparent);
+    transform: skewX(-20deg);
+    animation: badge-prism-shine-1783 2.3s ease-in-out infinite;
+}
+.Badge::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.04),transparent);
+    animation: badge-prism-glow-1783 2s ease-in-out infinite;
+}
+.Badge i {
+    position: relative;
+    z-index: 1;
+    color: #67e8f9;
+    text-shadow: 0 0 10px #22d3ee;
+}
+@keyframes badge-prism-shine-1783 {
+    0% {
+        left: -70px;
+    }
+    55% {
+        left: 135%;
+    }
+    100% {
+        left: 135%;
+    }
+}
+@keyframes badge-prism-glow-1783 {
+    50% {
+        opacity: .65;
+    }
+}`
+},
 ];
 
 
@@ -75205,7 +86098,2277 @@ export const avatars = [
     background: #f4f4f5;
     color: #71717a;
 }`
+    },
+
+    {
+    id: 1554,
+    name: "Gradient Initial Avatar",
+    preview: (
+        <div className="av-1554">A</div>
+    ),
+    html: `<div class="Avatar">A</div>`,
+    css: `.Avatar {
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    box-shadow: 0 6px 18px rgba(37,99,235,.25);
+}`
+},
+{
+    id: 1555,
+    name: "Online Status Avatar",
+    preview: (
+        <div className="av-1555">
+            <div className="av-1555__avatar">A</div>
+            <span className="av-1555__status"></span>
+        </div>
+    ),
+    html: `<div class="Avatar-wrapper">
+    <div class="Avatar">A</div>
+    <span class="Avatar-status"></span>
+</div>`,
+    css: `.Avatar-wrapper {
+    position: relative;
+    width: 52px;
+    height: 52px;
+}
+.Avatar {
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #18181b;
+    color: #fff;
+    font-weight: 800;
+}
+.Avatar-status {
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    width: 12px;
+    height: 12px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background: #22c55e;
+}`
+},
+{
+    id: 1556,
+    name: "Blue Ring Avatar",
+    preview: (
+        <div className="av-1556">
+            <div className="av-1556__inner">
+                A
+            </div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div class="Avatar-inner">A</div>
+</div>`,
+    css: `.Avatar {
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    padding: 3px;
+    background: linear-gradient(135deg,#38bdf8,#2563eb);
+}
+.Avatar-inner {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #fff;
+    color: #2563eb;
+    font-size: 16px;
+    font-weight: 800;
+}`
+},
+{
+    id: 1557,
+    name: "Dark Premium Avatar",
+    preview: (
+        <div className="av-1557">
+            <i className="fa-solid fa-user"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-user"></i>
+</div>`,
+    css: `.Avatar {
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(145deg,#27272a,#09090b);
+    border: 1px solid #3f3f46;
+    color: #d4d4d8;
+    font-size: 18px;
+    box-shadow: inset 0 0 15px rgba(255,255,255,.04),0 8px 20px rgba(0,0,0,.2);
+}`
+},
+{
+    id: 1558,
+    name: "Stacked Team Avatars",
+    preview: (
+        <div className="av-1558">
+            <span>A</span>
+            <span>B</span>
+            <span>C</span>
+            <span>+8</span>
+        </div>
+    ),
+    html: `<div class="Avatar-stack">
+    <span>A</span>
+    <span>B</span>
+    <span>C</span>
+    <span>+8</span>
+</div>`,
+    css: `.Avatar-stack {
+    display: flex;
+    align-items: center;
+}
+.Avatar-stack span {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    margin-left: -8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+}
+.Avatar-stack span:first-child {
+    margin-left: 0;
+}
+.Avatar-stack span:nth-child(2) {
+    background: linear-gradient(135deg,#f97316,#ef4444);
+}
+.Avatar-stack span:nth-child(3) {
+    background: linear-gradient(135deg,#06b6d4,#0ea5e9);
+}
+.Avatar-stack span:last-child {
+    background: #18181b;
+}`
+},
+{
+    id: 1559,
+    name: "Avatar With Notification",
+    preview: (
+        <div className="av-1559">
+            <div>A</div>
+            <span>3</span>
+        </div>
+    ),
+    html: `<div class="Avatar-wrapper">
+    <div class="Avatar">A</div>
+    <span class="Avatar-badge">3</span>
+</div>`,
+    css: `.Avatar-wrapper {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.Avatar {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#ec4899,#8b5cf6);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+}
+.Avatar-badge {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    min-width: 18px;
+    height: 18px;
+    display: grid;
+    place-items: center;
+    padding: 0 4px;
+    border: 2px solid #fff;
+    border-radius: 999px;
+    background: #ef4444;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 800;
+}`
+},
+{
+    id: 1560,
+    name: "Glass Avatar",
+    preview: (
+        <div className="av-1560">
+            <i className="fa-solid fa-user"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-user"></i>
+</div>`,
+    css: `.Avatar {
+    width: 56px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 50%;
+    background: rgba(255,255,255,.14);
+    backdrop-filter: blur(14px);
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}`
+},
+{
+    id: 1561,
+    name: "Square Profile Avatar",
+    preview: (
+        <div className="av-1561">
+            <i className="fa-solid fa-code"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-code"></i>
+</div>`,
+    css: `.Avatar {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 14px;
+    background: linear-gradient(135deg,#0ea5e9,#2563eb);
+    color: #fff;
+    font-size: 17px;
+    box-shadow: 0 6px 16px rgba(37,99,235,.22);
+}`
+},
+{
+    id: 1562,
+    name: "Rainbow Avatar",
+    preview: (
+        <div className="av-1562">
+            <div>AB</div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div>AB</div>
+</div>`,
+    css: `.Avatar {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    padding: 2px;
+    border-radius: 50%;
+    background: conic-gradient(#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899,#ef4444);
+}
+.Avatar div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #18181b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+}`
+},
+{
+    id: 1563,
+    name: "Online Profile Avatar",
+    preview: (
+        <div className="av-1563">
+            <div className="av-1563__avatar">A</div>
+            <div className="av-1563__info">
+                <strong>André</strong>
+                <span><i className="fa-solid fa-circle"></i> Online</span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Avatar-profile">
+    <div class="Avatar">A</div>
+    <div class="Avatar-info">
+        <strong>André</strong>
+        <span><i class="fa-solid fa-circle"></i> Online</span>
+    </div>
+</div>`,
+    css: `.Avatar-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Avatar {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+}
+.Avatar-info strong,
+.Avatar-info span {
+    display: block;
+}
+.Avatar-info strong {
+    color: #18181b;
+    font-size: 12px;
+}
+.Avatar-info span {
+    margin-top: 3px;
+    color: #22c55e;
+    font-size: 9px;
+}
+.Avatar-info i {
+    font-size: 6px;
+}`
+},
+{
+    id: 1564,
+    name: "Status Ring Avatar",
+    preview: (
+        <div className="av-1564">
+            <div>JD</div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div>JD</div>
+</div>`,
+    css: `.Avatar {
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    padding: 3px;
+    border-radius: 50%;
+    background: conic-gradient(#22c55e 0 80%,#e4e4e7 80% 100%);
+}
+.Avatar div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #f4f4f5;
+    color: #166534;
+    font-size: 13px;
+    font-weight: 800;
+}`
+},
+{
+    id: 1565,
+    name: "Minimal Initial Avatar",
+    preview: (
+        <div className="av-1565">
+            JB
+        </div>
+    ),
+    html: `<div class="Avatar">JB</div>`,
+    css: `.Avatar {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #f4f4f5;
+    color: #52525b;
+    border: 1px solid #e4e4e7;
+    font-size: 12px;
+    font-weight: 800;
+}`
+},
+{
+    id: 1566,
+    name: "Neon Cyan Avatar",
+    preview: (
+        <div className="av-1566">
+            <i className="fa-solid fa-terminal"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-terminal"></i>
+</div>`,
+    css: `.Avatar {
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #22d3ee;
+    border-radius: 50%;
+    background: #020617;
+    color: #22d3ee;
+    font-size: 17px;
+    box-shadow: 0 0 18px rgba(34,211,238,.25),inset 0 0 13px rgba(34,211,238,.08);
+}`
+},
+{
+    id: 1567,
+    name: "Avatar Group Counter",
+    preview: (
+        <div className="av-1567">
+            <span>A</span>
+            <span>B</span>
+            <span>C</span>
+            <span>D</span>
+            <strong>+24</strong>
+        </div>
+    ),
+    html: `<div class="Avatar-group">
+    <span>A</span>
+    <span>B</span>
+    <span>C</span>
+    <span>D</span>
+    <strong>+24</strong>
+</div>`,
+    css: `.Avatar-group {
+    display: flex;
+    align-items: center;
+}
+.Avatar-group span,
+.Avatar-group strong {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    margin-left: -7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #2563eb;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+}
+.Avatar-group span:first-child {
+    margin-left: 0;
+}
+.Avatar-group span:nth-child(2) {
+    background: #7c3aed;
+}
+.Avatar-group span:nth-child(3) {
+    background: #ec4899;
+}
+.Avatar-group span:nth-child(4) {
+    background: #f97316;
+}
+.Avatar-group strong {
+    background: #18181b;
+}`
+},
+{
+    id: 1568,
+    name: "Premium Gold Avatar",
+    preview: (
+        <div className="av-1568">
+            <i className="fa-solid fa-crown"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-crown"></i>
+</div>`,
+    css: `.Avatar {
+    width: 56px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #facc15;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%,#fde68a,#d97706);
+    color: #451a03;
+    font-size: 17px;
+    box-shadow: 0 7px 20px rgba(217,119,6,.22);
+}`
+},
+{
+    id: 1569,
+    name: "Avatar With Verified Badge",
+    preview: (
+        <div className="av-1569">
+            <div>SK</div>
+            <span>
+                <i className="fa-solid fa-check"></i>
+            </span>
+        </div>
+    ),
+    html: `<div class="Avatar-wrapper">
+    <div class="Avatar">SK</div>
+    <span class="Avatar-verified">
+        <i class="fa-solid fa-check"></i>
+    </span>
+</div>`,
+    css: `.Avatar-wrapper {
+    position: relative;
+    width: 52px;
+    height: 52px;
+}
+.Avatar {
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#0ea5e9,#6366f1);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+}
+.Avatar-verified {
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    width: 17px;
+    height: 17px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #2563eb;
+    color: #fff;
+    font-size: 7px;
+}`
+},
+{
+    id: 1570,
+    name: "Soft Purple Avatar",
+    preview: (
+        <div className="av-1570">
+            <i className="fa-solid fa-user"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-user"></i>
+</div>`,
+    css: `.Avatar {
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #f5f3ff;
+    border: 1px solid #ddd6fe;
+    color: #7c3aed;
+    font-size: 17px;
+}`
+},
+{
+    id: 1571,
+    name: "Avatar Progress Ring",
+    preview: (
+        <div className="av-1571">
+            <div>78%</div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div>78%</div>
+</div>`,
+    css: `.Avatar {
+    width: 62px;
+    height: 62px;
+    display: grid;
+    place-items: center;
+    padding: 3px;
+    border-radius: 50%;
+    background: conic-gradient(#2563eb 0 78%,#e4e4e7 78% 100%);
+}
+.Avatar div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #fff;
+    color: #2563eb;
+    font-size: 11px;
+    font-weight: 800;
+}`
+},
+{
+    id: 1572,
+    name: "Avatar Action Card",
+    preview: (
+        <div className="av-1572">
+            <div className="av-1572__avatar">A</div>
+            <div className="av-1572__content">
+                <strong>André</strong>
+                <span>Software Developer</span>
+            </div>
+            <button aria-label="More options">
+                <i className="fa-solid fa-ellipsis"></i>
+            </button>
+        </div>
+    ),
+    html: `<div class="Avatar-card">
+    <div class="Avatar">A</div>
+    <div class="Avatar-content">
+        <strong>André</strong>
+        <span>Software Developer</span>
+    </div>
+    <button aria-label="More options">
+        <i class="fa-solid fa-ellipsis"></i>
+    </button>
+</div>`,
+    css: `.Avatar-card {
+    width: 260px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    background: #fff;
+}
+.Avatar {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+}
+.Avatar-content {
+    flex: 1;
+}
+.Avatar-content strong,
+.Avatar-content span {
+    display: block;
+}
+.Avatar-content strong {
+    color: #18181b;
+    font-size: 11px;
+}
+.Avatar-content span {
+    margin-top: 3px;
+    color: #a1a1aa;
+    font-size: 9px;
+}
+.Avatar-card button {
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    border: none;
+    border-radius: 7px;
+    background: transparent;
+    color: #71717a;
+    cursor: pointer;
+}
+.Avatar-card button:hover {
+    background: #f4f4f5;
+    color: #18181b;
+}`
+},
+{
+    id: 1573,
+    name: "Legendary Aurora Avatar",
+    preview: (
+        <div className="av-1573">
+            <span className="av-1573__glow"></span>
+            <div>
+                <i className="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <span class="Avatar-glow"></span>
+    <div>
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+    </div>
+</div>`,
+    css: `.Avatar {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    display: grid;
+    place-items: center;
+}
+.Avatar-glow {
+    position: absolute;
+    inset: 5px;
+    border-radius: 50%;
+    background: conic-gradient(#06b6d4,#2563eb,#7c3aed,#ec4899,#06b6d4);
+    filter: blur(8px);
+    opacity: .5;
+    animation: Avatar-aurora 4s linear infinite;
+}
+.Avatar > div {
+    position: relative;
+    z-index: 1;
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 50%;
+    background: #09090b;
+    color: #e0f2fe;
+    font-size: 17px;
+}
+@keyframes Avatar-aurora {
+    to {
+        transform: rotate(360deg);
     }
+}`
+},{
+    id: 1574,
+    name: "Holographic Avatar",
+    preview: (
+        <div className="av-1574">
+            <i className="fa-solid fa-user-astronaut"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-user-astronaut"></i>
+</div>`,
+    css: `.Avatar {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background:
+        linear-gradient(#101828,#101828) padding-box,
+        linear-gradient(135deg,#22d3ee,#6366f1,#ec4899) border-box;
+    color: #67e8f9;
+    font-size: 19px;
+    box-shadow: 0 0 24px rgba(99,102,241,.2);
+}`
+},
+{
+    id: 1575,
+    name: "Cyber Pulse Avatar",
+    preview: (
+        <div className="av-1575">
+            <div className="av-1575__ring"></div>
+            <div className="av-1575__core">
+                <i className="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div class="Avatar-ring"></div>
+    <div class="Avatar-core">
+        <i class="fa-solid fa-bolt"></i>
+    </div>
+</div>`,
+    css: `.Avatar {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    display: grid;
+    place-items: center;
+}
+.Avatar-ring {
+    position: absolute;
+    inset: 0;
+    border: 2px solid #22d3ee;
+    border-radius: 50%;
+    box-shadow: 0 0 18px rgba(34,211,238,.35);
+    animation: pulse 1.6s ease-in-out infinite;
+}
+.Avatar-core {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #020617;
+    color: #67e8f9;
+    box-shadow: inset 0 0 15px rgba(34,211,238,.12);
+}
+@keyframes pulse {
+    50% {
+        transform: scale(1.08);
+        opacity: .55;
+    }
+}`
+},
+{
+    id: 1576,
+    name: "Chrome Avatar",
+    preview: (
+        <div className="av-1576">
+            <i className="fa-solid fa-user"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-user"></i>
+</div>`,
+    css: `.Avatar {
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #d4d4d8;
+    border-radius: 50%;
+    background: linear-gradient(145deg,#fafafa,#a1a1aa,#f4f4f5,#71717a);
+    color: #27272a;
+    font-size: 18px;
+    box-shadow:
+        inset 0 2px 4px rgba(255,255,255,.9),
+        0 8px 18px rgba(0,0,0,.16);
+}`
+},
+{
+    id: 1577,
+    name: "Ice Ring Avatar",
+    preview: (
+        <div className="av-1577">
+            <div>A</div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div>A</div>
+</div>`,
+    css: `.Avatar {
+    width: 62px;
+    height: 62px;
+    display: grid;
+    place-items: center;
+    padding: 3px;
+    border-radius: 50%;
+    background: conic-gradient(#e0f2fe,#7dd3fc,#38bdf8,#bae6fd,#e0f2fe);
+    box-shadow: 0 0 22px rgba(56,189,248,.22);
+}
+.Avatar > div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #0c4a6e;
+    color: #e0f2fe;
+    font-size: 16px;
+    font-weight: 800;
+}`
+},
+{
+    id: 1578,
+    name: "Fire Avatar",
+    preview: (
+        <div className="av-1578">
+            <i className="fa-solid fa-fire"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-fire"></i>
+</div>`,
+    css: `.Avatar {
+    width: 56px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%,#fef3c7,#f59e0b,#dc2626);
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 0 8px 22px rgba(220,38,38,.22);
+}`
+},
+{
+    id: 1579,
+    name: "Cyberpunk Avatar",
+    preview: (
+        <div className="av-1579">
+            <span className="av-1579__top"></span>
+            <span className="av-1579__body">
+                <i className="fa-solid fa-user"></i>
+            </span>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <span class="Avatar-top"></span>
+    <span class="Avatar-body">
+        <i class="fa-solid fa-user"></i>
+    </span>
+</div>`,
+    css: `.Avatar {
+    position: relative;
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+}
+.Avatar-top {
+    position: absolute;
+    inset: 0;
+    border: 1px solid #f472b6;
+    clip-path: polygon(20% 0,80% 0,100% 20%,100% 80%,80% 100%,20% 100%,0 80%,0 20%);
+    box-shadow: 0 0 14px rgba(244,114,182,.22);
+}
+.Avatar-body {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    clip-path: polygon(20% 0,80% 0,100% 20%,100% 80%,80% 100%,20% 100%,0 80%,0 20%);
+    background: linear-gradient(135deg,#ec4899,#7c3aed);
+    color: #fff;
+}`
+},
+{
+    id: 1580,
+    name: "Status Online Avatar",
+    preview: (
+        <div className="av-1580">
+            <div className="av-1580__avatar">A</div>
+            <span className="av-1580__pulse"></span>
+            <span className="av-1580__dot"></span>
+        </div>
+    ),
+    html: `<div class="Avatar-wrapper">
+    <div class="Avatar">A</div>
+    <span class="Avatar-pulse"></span>
+    <span class="Avatar-dot"></span>
+</div>`,
+    css: `.Avatar-wrapper {
+    position: relative;
+    width: 54px;
+    height: 54px;
+}
+.Avatar {
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#0ea5e9,#2563eb);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+}
+.Avatar-dot {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background: #22c55e;
+}
+.Avatar-pulse {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #22c55e;
+    animation: online-pulse 1.6s infinite;
+}
+@keyframes online-pulse {
+    70% {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}`
+},
+{
+    id: 1581,
+    name: "Glass Neon Avatar",
+    preview: (
+        <div className="av-1581">
+            <i className="fa-solid fa-wand-magic-sparkles"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-wand-magic-sparkles"></i>
+</div>`,
+    css: `.Avatar {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(103,232,249,.5);
+    border-radius: 18px;
+    background: rgba(14,165,233,.14);
+    backdrop-filter: blur(14px);
+    color: #67e8f9;
+    font-size: 18px;
+    box-shadow: 0 0 20px rgba(34,211,238,.15);
+}`
+},
+{
+    id: 1582,
+    name: "Legendary Gold Avatar",
+    preview: (
+        <div className="av-1582">
+            <div>
+                <i className="fa-solid fa-crown"></i>
+            </div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div>
+        <i class="fa-solid fa-crown"></i>
+    </div>
+</div>`,
+    css: `.Avatar {
+    width: 64px;
+    height: 64px;
+    display: grid;
+    place-items: center;
+    padding: 2px;
+    border-radius: 50%;
+    background: conic-gradient(#fef08a,#eab308,#92400e,#facc15,#fef08a);
+}
+.Avatar > div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 25%,#422006,#18181b);
+    color: #facc15;
+    font-size: 18px;
+}`
+},
+{
+    id: 1583,
+    name: "Purple Energy Avatar",
+    preview: (
+        <div className="av-1583">
+            <div className="av-1583__core">
+                <i className="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div class="Avatar-core">
+        <i class="fa-solid fa-bolt"></i>
+    </div>
+</div>`,
+    css: `.Avatar {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#7c3aed,#ec4899);
+    box-shadow: 0 0 25px rgba(124,58,237,.24);
+}
+.Avatar-core {
+    width: 46px;
+    height: 46px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #18181b;
+    color: #c4b5fd;
+    font-size: 16px;
+}`
+},
+{
+    id: 1584,
+    name: "Verified Creator Avatar",
+    preview: (
+        <div className="av-1584">
+            <div className="av-1584__avatar">AB</div>
+            <span className="av-1584__badge">
+                <i className="fa-solid fa-check"></i>
+            </span>
+        </div>
+    ),
+    html: `<div class="Avatar-wrapper">
+    <div class="Avatar">AB</div>
+    <span class="Avatar-badge">
+        <i class="fa-solid fa-check"></i>
+    </span>
+</div>`,
+    css: `.Avatar-wrapper {
+    position: relative;
+    width: 58px;
+    height: 58px;
+}
+.Avatar {
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#0ea5e9,#6366f1);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+}
+.Avatar-badge {
+    position: absolute;
+    right: -2px;
+    bottom: -1px;
+    width: 19px;
+    height: 19px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background: #2563eb;
+    color: #fff;
+    font-size: 7px;
+}`
+},
+{
+    id: 1585,
+    name: "Rainbow Orbit Avatar",
+    preview: (
+        <div className="av-1585">
+            <div className="av-1585__orbit"></div>
+            <div className="av-1585__core">A</div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div class="Avatar-orbit"></div>
+    <div class="Avatar-core">A</div>
+</div>`,
+    css: `.Avatar {
+    position: relative;
+    width: 68px;
+    height: 68px;
+    display: grid;
+    place-items: center;
+}
+.Avatar-orbit {
+    position: absolute;
+    inset: 0;
+    border: 3px solid transparent;
+    border-top-color: #06b6d4;
+    border-right-color: #6366f1;
+    border-bottom-color: #ec4899;
+    border-left-color: #facc15;
+    border-radius: 50%;
+    animation: orbit 3s linear infinite;
+}
+.Avatar-core {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #18181b;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+}
+@keyframes orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1586,
+    name: "Minimal Black Avatar",
+    preview: (
+        <div className="av-1586">
+            A
+        </div>
+    ),
+    html: `<div class="Avatar">A</div>`,
+    css: `.Avatar {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #3f3f46;
+    border-radius: 50%;
+    background: #09090b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    box-shadow: 0 6px 16px rgba(0,0,0,.2);
+}`
+},
+{
+    id: 1587,
+    name: "Ocean Avatar",
+    preview: (
+        <div className="av-1587">
+            <i className="fa-solid fa-water"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-water"></i>
+</div>`,
+    css: `.Avatar {
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(145deg,#082f49,#0ea5e9);
+    color: #bae6fd;
+    font-size: 18px;
+    box-shadow: inset 0 0 12px rgba(186,230,253,.08),0 7px 20px rgba(14,165,233,.2);
+}`
+},
+{
+    id: 1588,
+    name: "Developer Avatar",
+    preview: (
+        <div className="av-1588">
+            <span>&lt;/&gt;</span>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <span>&lt;/&gt;</span>
+</div>`,
+    css: `.Avatar {
+    width: 56px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    border-radius: 14px;
+    background: #020617;
+    border: 1px solid #1e3a8a;
+    color: #60a5fa;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: 800;
+    box-shadow: inset 0 0 18px rgba(37,99,235,.08);
+}`
+},
+{
+    id: 1589,
+    name: "Avatar With Rank",
+    preview: (
+        <div className="av-1589">
+            <div className="av-1589__avatar">A</div>
+            <span className="av-1589__rank">01</span>
+        </div>
+    ),
+    html: `<div class="Avatar-wrapper">
+    <div class="Avatar">A</div>
+    <span class="Avatar-rank">01</span>
+</div>`,
+    css: `.Avatar-wrapper {
+    position: relative;
+    width: 54px;
+    height: 54px;
+}
+.Avatar {
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#1e293b,#475569);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+}
+.Avatar-rank {
+    position: absolute;
+    top: -4px;
+    right: -5px;
+    min-width: 18px;
+    height: 18px;
+    display: grid;
+    place-items: center;
+    padding: 0 4px;
+    border: 2px solid #fff;
+    border-radius: 999px;
+    background: #f59e0b;
+    color: #451a03;
+    font-size: 7px;
+    font-weight: 900;
+}`
+},
+{
+    id: 1590,
+    name: "Aurora Profile Avatar",
+    preview: (
+        <div className="av-1590">
+            <div className="av-1590__glow"></div>
+            <div className="av-1590__core">
+                <i className="fa-solid fa-user"></i>
+            </div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div class="Avatar-glow"></div>
+    <div class="Avatar-core">
+        <i class="fa-solid fa-user"></i>
+    </div>
+</div>`,
+    css: `.Avatar {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    display: grid;
+    place-items: center;
+}
+.Avatar-glow {
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background: conic-gradient(#22d3ee,#3b82f6,#8b5cf6,#ec4899,#22d3ee);
+    filter: blur(8px);
+    opacity: .6;
+    animation: aurora 4s linear infinite;
+}
+.Avatar-core {
+    position: relative;
+    z-index: 1;
+    width: 51px;
+    height: 51px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 50%;
+    background: #09090b;
+    color: #e0f2fe;
+    font-size: 16px;
+}
+@keyframes aurora {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1591,
+    name: "Glass Status Avatar",
+    preview: (
+        <div className="av-1591">
+            <div className="av-1591__avatar">JD</div>
+            <div className="av-1591__status">
+                <span></span>
+                Available
+            </div>
+        </div>
+    ),
+    html: `<div class="Avatar-card">
+    <div class="Avatar">JD</div>
+    <div class="Avatar-status">
+        <span></span>
+        Available
+    </div>
+</div>`,
+    css: `.Avatar-card {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.Avatar {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    background: rgba(255,255,255,.12);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 800;
+}
+.Avatar-status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 9px;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 999px;
+    background: rgba(255,255,255,.08);
+    color: rgba(255,255,255,.8);
+    font-size: 9px;
+}
+.Avatar-status span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 7px rgba(34,197,94,.7);
+}`
+},
+{
+    id: 1592,
+    name: "Diamond Status Avatar",
+    preview: (
+        <div className="av-1592">
+            <i className="fa-regular fa-gem"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-regular fa-gem"></i>
+</div>`,
+    css: `.Avatar {
+    width: 56px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    border-radius: 16px;
+    background: linear-gradient(135deg,#e0f2fe,#bfdbfe,#ddd6fe);
+    color: #4338ca;
+    font-size: 19px;
+    transform: rotate(45deg);
+    box-shadow: 0 8px 20px rgba(99,102,241,.16);
+}
+.Avatar i {
+    transform: rotate(-45deg);
+}`
+},
+{
+    id: 1593,
+    name: "Legendary Cosmic Avatar",
+    preview: (
+        <div className="av-1593">
+            <span className="av-1593__star av-1593__star--one"></span>
+            <span className="av-1593__star av-1593__star--two"></span>
+            <span className="av-1593__star av-1593__star--three"></span>
+            <div className="av-1593__core">
+                <i className="fa-solid fa-user-astronaut"></i>
+            </div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <span class="Avatar-star Avatar-star-one"></span>
+    <span class="Avatar-star Avatar-star-two"></span>
+    <span class="Avatar-star Avatar-star-three"></span>
+    <div class="Avatar-core">
+        <i class="fa-solid fa-user-astronaut"></i>
+    </div>
+</div>`,
+    css: `.Avatar {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 45%,#312e81,#111827 60%,#020617);
+    box-shadow: 0 0 30px rgba(99,102,241,.25);
+    overflow: hidden;
+}
+.Avatar::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border: 1px solid rgba(129,140,248,.35);
+    border-radius: 50%;
+}
+.Avatar-star {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 7px rgba(255,255,255,.9);
+    animation: twinkle 1.8s ease-in-out infinite;
+}
+.Avatar-star-one {
+    top: 16px;
+    left: 18px;
+}
+.Avatar-star-two {
+    top: 25px;
+    right: 14px;
+    animation-delay: .5s;
+}
+.Avatar-star-three {
+    bottom: 16px;
+    left: 25px;
+    animation-delay: 1s;
+}
+.Avatar-core {
+    position: relative;
+    z-index: 2;
+    width: 49px;
+    height: 49px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(165,180,252,.35);
+    border-radius: 50%;
+    background: rgba(15,23,42,.85);
+    color: #c4b5fd;
+    font-size: 17px;
+}
+@keyframes twinkle {
+    50% {
+        transform: scale(1.8);
+        opacity: .45;
+    }
+}`
+},{
+    id: 1594,
+    name: "Neon Cyan Avatar",
+    preview: (
+        <div className="av-1594">
+            <i className="fa-solid fa-user"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-user"></i>
+</div>`,
+    css: `.Avatar {
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #22d3ee;
+    border-radius: 50%;
+    background: #020617;
+    color: #67e8f9;
+    font-size: 18px;
+    box-shadow: 0 0 12px #22d3ee,0 0 30px rgba(34,211,238,.35),inset 0 0 18px rgba(34,211,238,.12);
+}`
+},
+{
+    id: 1595,
+    name: "Neon Pink Avatar",
+    preview: (
+        <div className="av-1595">
+            <i className="fa-solid fa-heart"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-heart"></i>
+</div>`,
+    css: `.Avatar {
+    width: 56px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #f472b6;
+    border-radius: 50%;
+    background: #1a0b16;
+    color: #f9a8d4;
+    font-size: 18px;
+    box-shadow: 0 0 14px #f472b6,0 0 28px rgba(244,114,182,.3);
+}`
+},
+{
+    id: 1596,
+    name: "Neon Purple Avatar",
+    preview: (
+        <div className="av-1596">
+            <i className="fa-solid fa-ghost"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-ghost"></i>
+</div>`,
+    css: `.Avatar {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #a855f7;
+    border-radius: 16px;
+    background: #12051e;
+    color: #d8b4fe;
+    font-size: 19px;
+    box-shadow: 0 0 16px #a855f7,0 0 35px rgba(168,85,247,.28),inset 0 0 16px rgba(168,85,247,.1);
+}`
+},
+{
+    id: 1597,
+    name: "Neon Green Avatar",
+    preview: (
+        <div className="av-1597">
+            <i className="fa-solid fa-terminal"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-terminal"></i>
+</div>`,
+    css: `.Avatar {
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #22c55e;
+    border-radius: 12px;
+    background: #03130a;
+    color: #4ade80;
+    font-family: monospace;
+    font-size: 18px;
+    box-shadow: 0 0 12px #22c55e,0 0 28px rgba(34,197,94,.3);
+}`
+},
+{
+    id: 1598,
+    name: "Neon Orange Avatar",
+    preview: (
+        <div className="av-1598">
+            <i className="fa-solid fa-fire"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-fire"></i>
+</div>`,
+    css: `.Avatar {
+    width: 56px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #fb923c;
+    border-radius: 50%;
+    background: #1c0d03;
+    color: #fdba74;
+    font-size: 18px;
+    box-shadow: 0 0 14px #fb923c,0 0 32px rgba(249,115,22,.28);
+}`
+},
+{
+    id: 1599,
+    name: "Neon Blue Ring Avatar",
+    preview: (
+        <div className="av-1599">
+            <div className="av-1599__ring"></div>
+            <div className="av-1599__core">A</div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div class="Avatar-ring"></div>
+    <div class="Avatar-core">A</div>
+</div>`,
+    css: `.Avatar {
+    position: relative;
+    width: 66px;
+    height: 66px;
+    display: grid;
+    place-items: center;
+}
+.Avatar-ring {
+    position: absolute;
+    inset: 0;
+    border: 2px solid #3b82f6;
+    border-radius: 50%;
+    box-shadow: 0 0 12px #3b82f6,0 0 25px rgba(59,130,246,.35);
+    animation: ring-pulse 1.8s ease-in-out infinite;
+}
+.Avatar-core {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #020617;
+    color: #93c5fd;
+    font-size: 15px;
+    font-weight: 800;
+}
+@keyframes ring-pulse {
+    50% {
+        transform: scale(1.1);
+        opacity: .55;
+    }
+}`
+},
+{
+    id: 1600,
+    name: "Neon Rainbow Avatar",
+    preview: (
+        <div className="av-1600">
+            <div>
+                <i className="fa-solid fa-star"></i>
+            </div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div>
+        <i class="fa-solid fa-star"></i>
+    </div>
+</div>`,
+    css: `.Avatar {
+    width: 64px;
+    height: 64px;
+    display: grid;
+    place-items: center;
+    padding: 2px;
+    border-radius: 50%;
+    background: conic-gradient(#22d3ee,#3b82f6,#a855f7,#ec4899,#f97316,#22c55e,#22d3ee);
+    box-shadow: 0 0 25px rgba(168,85,247,.22);
+    animation: rainbow-spin 5s linear infinite;
+}
+.Avatar > div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #050505;
+    color: #fff;
+    font-size: 17px;
+}
+@keyframes rainbow-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1601,
+    name: "Neon Scanline Avatar",
+    preview: (
+        <div className="av-1601">
+            <span></span>
+            <div>
+                <i className="fa-solid fa-code"></i>
+            </div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <span class="Avatar-scan"></span>
+    <div>
+        <i class="fa-solid fa-code"></i>
+    </div>
+</div>`,
+    css: `.Avatar {
+    position: relative;
+    width: 62px;
+    height: 62px;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    border: 1px solid #38bdf8;
+    border-radius: 14px;
+    background: #020617;
+    box-shadow: 0 0 18px rgba(56,189,248,.25);
+}
+.Avatar > div {
+    position: relative;
+    z-index: 2;
+    color: #7dd3fc;
+    font-size: 18px;
+}
+.Avatar-scan {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom,transparent 0%,rgba(56,189,248,.18) 50%,transparent 100%);
+    animation: scan 2s linear infinite;
+}
+@keyframes scan {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(100%);
+    }
+}`
+},
+{
+    id: 1602,
+    name: "Neon Hologram Avatar",
+    preview: (
+        <div className="av-1602">
+            <div>
+                <span></span>
+                <i className="fa-solid fa-user-astronaut"></i>
+            </div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div>
+        <span></span>
+        <i class="fa-solid fa-user-astronaut"></i>
+    </div>
+</div>`,
+    css: `.Avatar {
+    width: 62px;
+    height: 62px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(34,211,238,.7);
+    border-radius: 50%;
+    background: rgba(14,165,233,.08);
+    box-shadow: 0 0 20px rgba(34,211,238,.2);
+}
+.Avatar > div {
+    position: relative;
+    width: 47px;
+    height: 47px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg,rgba(34,211,238,.2),rgba(99,102,241,.15));
+    color: #a5f3fc;
+}
+.Avatar > div span {
+    position: absolute;
+    inset: -5px;
+    border: 1px dashed rgba(103,232,249,.4);
+    border-radius: 50%;
+    animation: hologram 3s linear infinite;
+}
+@keyframes hologram {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
+{
+    id: 1603,
+    name: "Neon Cyber Status Avatar",
+    preview: (
+        <div className="av-1603">
+            <div className="av-1603__avatar">A</div>
+            <span></span>
+        </div>
+    ),
+    html: `<div class="Avatar-wrapper">
+    <div class="Avatar">A</div>
+    <span class="Avatar-status"></span>
+</div>`,
+    css: `.Avatar-wrapper {
+    position: relative;
+    width: 58px;
+    height: 58px;
+}
+.Avatar {
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #22d3ee;
+    border-radius: 50%;
+    background: #020617;
+    color: #67e8f9;
+    font-size: 15px;
+    font-weight: 800;
+    box-shadow: 0 0 15px rgba(34,211,238,.25);
+}
+.Avatar-status {
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+    width: 13px;
+    height: 13px;
+    border: 2px solid #020617;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 9px #22c55e;
+}`
+},
+{
+    id: 1604,
+    name: "Neon Pink Ring Avatar",
+    preview: (
+        <div className="av-1604">
+            <div>JD</div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div>JD</div>
+</div>`,
+    css: `.Avatar {
+    width: 62px;
+    height: 62px;
+    display: grid;
+    place-items: center;
+    padding: 3px;
+    border-radius: 50%;
+    background: conic-gradient(#f472b6,#ec4899,#a855f7,#f472b6);
+    box-shadow: 0 0 20px rgba(236,72,153,.25);
+}
+.Avatar > div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #120611;
+    color: #f9a8d4;
+    font-size: 14px;
+    font-weight: 800;
+}`
+},
+{
+    id: 1605,
+    name: "Neon Matrix Avatar",
+    preview: (
+        <div className="av-1605">
+            <span>01</span>
+            <i className="fa-solid fa-terminal"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <span>01</span>
+    <i class="fa-solid fa-terminal"></i>
+</div>`,
+    css: `.Avatar {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border: 1px solid #22c55e;
+    border-radius: 10px;
+    background: #020c05;
+    color: #4ade80;
+    box-shadow: 0 0 18px rgba(34,197,94,.22);
+}
+.Avatar span {
+    position: absolute;
+    top: 4px;
+    right: 7px;
+    opacity: .4;
+    font-family: monospace;
+    font-size: 7px;
+}
+.Avatar i {
+    font-size: 18px;
+    text-shadow: 0 0 10px #22c55e;
+}`
+},
+{
+    id: 1606,
+    name: "Neon Electric Avatar",
+    preview: (
+        <div className="av-1606">
+            <i className="fa-solid fa-bolt"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-bolt"></i>
+</div>`,
+    css: `.Avatar {
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #facc15;
+    border-radius: 14px;
+    background: #171205;
+    color: #fde047;
+    font-size: 18px;
+    box-shadow: 0 0 12px #facc15,0 0 32px rgba(250,204,21,.22);
+    animation: electric 1.2s ease-in-out infinite;
+}
+@keyframes electric {
+    50% {
+        box-shadow: 0 0 22px #facc15,0 0 45px rgba(250,204,21,.3);
+    }
+}`
+},
+{
+    id: 1607,
+    name: "Neon Cyan Glass Avatar",
+    preview: (
+        <div className="av-1607">
+            <i className="fa-solid fa-gem"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-gem"></i>
+</div>`,
+    css: `.Avatar {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(103,232,249,.65);
+    border-radius: 18px;
+    background: rgba(34,211,238,.08);
+    backdrop-filter: blur(14px);
+    color: #a5f3fc;
+    font-size: 18px;
+    box-shadow: 0 0 18px rgba(34,211,238,.2),inset 0 0 18px rgba(34,211,238,.08);
+}`
+},
+{
+    id: 1608,
+    name: "Neon Gradient Avatar",
+    preview: (
+        <div className="av-1608">
+            <div>A</div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div>A</div>
+</div>`,
+    css: `.Avatar {
+    width: 64px;
+    height: 64px;
+    display: grid;
+    place-items: center;
+    padding: 2px;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#22d3ee,#3b82f6,#a855f7,#ec4899);
+    box-shadow: 0 0 22px rgba(99,102,241,.25);
+}
+.Avatar > div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #09090b;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+}`
+},
+{
+    id: 1609,
+    name: "Neon HUD Avatar",
+    preview: (
+        <div className="av-1609">
+            <div>
+                <span>ONLINE</span>
+                <strong>A</strong>
+            </div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div>
+        <span>ONLINE</span>
+        <strong>A</strong>
+    </div>
+</div>`,
+    css: `.Avatar {
+    width: 68px;
+    height: 68px;
+    padding: 2px;
+    display: grid;
+    place-items: center;
+    border-radius: 14px;
+    background: linear-gradient(135deg,#0ea5e9,#22d3ee);
+    clip-path: polygon(12% 0,88% 0,100% 12%,100% 88%,88% 100%,12% 100%,0 88%,0 12%);
+}
+.Avatar > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #020617;
+    color: #67e8f9;
+    clip-path: inherit;
+}
+.Avatar span {
+    margin-bottom: 4px;
+    font-family: monospace;
+    font-size: 6px;
+    letter-spacing: 1px;
+}
+.Avatar strong {
+    font-size: 17px;
+}`
+},
+{
+    id: 1610,
+    name: "Neon Fire Ring Avatar",
+    preview: (
+        <div className="av-1610">
+            <div>
+                <i className="fa-solid fa-fire"></i>
+            </div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <div>
+        <i class="fa-solid fa-fire"></i>
+    </div>
+</div>`,
+    css: `.Avatar {
+    width: 64px;
+    height: 64px;
+    display: grid;
+    place-items: center;
+    padding: 3px;
+    border-radius: 50%;
+    background: conic-gradient(#facc15,#fb923c,#ef4444,#facc15);
+    box-shadow: 0 0 25px rgba(249,115,22,.22);
+}
+.Avatar > div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #140704;
+    color: #fb923c;
+    font-size: 18px;
+    box-shadow: inset 0 0 14px rgba(249,115,22,.1);
+}`
+},
+{
+    id: 1611,
+    name: "Neon Orbit Avatar",
+    preview: (
+        <div className="av-1611">
+            <span></span>
+            <span></span>
+            <div>A</div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <span class="Avatar-orbit-one"></span>
+    <span class="Avatar-orbit-two"></span>
+    <div>A</div>
+</div>`,
+    css: `.Avatar {
+    position: relative;
+    width: 68px;
+    height: 68px;
+    display: grid;
+    place-items: center;
+}
+.Avatar-orbit-one,
+.Avatar-orbit-two {
+    position: absolute;
+    inset: 5px;
+    border: 1px solid #22d3ee;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(34,211,238,.5);
+}
+.Avatar-orbit-one {
+    transform: rotate(55deg) scaleY(.55);
+    animation: orbit-one 2.5s linear infinite;
+}
+.Avatar-orbit-two {
+    transform: rotate(-55deg) scaleY(.55);
+    border-color: #a855f7;
+    animation: orbit-two 3s linear infinite;
+}
+.Avatar > div {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #09090b;
+    color: #e0f2fe;
+    font-size: 15px;
+    font-weight: 800;
+}
+@keyframes orbit-one {
+    to {
+        transform: rotate(415deg) scaleY(.55);
+    }
+}
+@keyframes orbit-two {
+    to {
+        transform: rotate(-415deg) scaleY(.55);
+    }
+}`
+},
+{
+    id: 1612,
+    name: "Neon Warning Avatar",
+    preview: (
+        <div className="av-1612">
+            <i className="fa-solid fa-triangle-exclamation"></i>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <i class="fa-solid fa-triangle-exclamation"></i>
+</div>`,
+    css: `.Avatar {
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #f43f5e;
+    border-radius: 12px;
+    background: #18040a;
+    color: #fb7185;
+    font-size: 18px;
+    box-shadow: 0 0 14px #f43f5e,0 0 30px rgba(244,63,94,.22);
+    animation: warning 1s ease-in-out infinite;
+}
+@keyframes warning {
+    50% {
+        filter: brightness(1.25);
+    }
+}`
+},
+{
+    id: 1613,
+    name: "Legendary Neon Core Avatar",
+    preview: (
+        <div className="av-1613">
+            <span className="av-1613__outer"></span>
+            <span className="av-1613__pulse"></span>
+            <div className="av-1613__core">
+                <i className="fa-solid fa-star"></i>
+            </div>
+        </div>
+    ),
+    html: `<div class="Avatar">
+    <span class="Avatar-outer"></span>
+    <span class="Avatar-pulse"></span>
+    <div class="Avatar-core">
+        <i class="fa-solid fa-star"></i>
+    </div>
+</div>`,
+    css: `.Avatar {
+    position: relative;
+    width: 72px;
+    height: 72px;
+    display: grid;
+    place-items: center;
+}
+.Avatar-outer {
+    position: absolute;
+    inset: 1px;
+    border: 2px solid transparent;
+    border-top-color: #22d3ee;
+    border-right-color: #3b82f6;
+    border-bottom-color: #a855f7;
+    border-left-color: #ec4899;
+    border-radius: 50%;
+    box-shadow: 0 0 18px rgba(99,102,241,.3);
+    animation: core-spin 3s linear infinite;
+}
+.Avatar-pulse {
+    position: absolute;
+    inset: 8px;
+    border-radius: 50%;
+    background: conic-gradient(#22d3ee,#3b82f6,#a855f7,#ec4899,#22d3ee);
+    filter: blur(8px);
+    opacity: .25;
+    animation: core-spin 4s linear reverse infinite;
+}
+.Avatar-core {
+    position: relative;
+    z-index: 2;
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 50%;
+    background: #050505;
+    color: #fff;
+    font-size: 17px;
+    box-shadow: inset 0 0 18px rgba(255,255,255,.05),0 0 16px rgba(34,211,238,.16);
+}
+@keyframes core-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`
+},
 ];
 
 
@@ -75359,7 +88522,3058 @@ export const tabs = [
     color: #ffffff;
     box-shadow: 0 2px 7px rgba(0,0,0,.12);
 }`
+    }, {
+    id: 1614,
+    name: "Modern Underline Tabs",
+    preview: (
+        <div className="tab-1614">
+            <button className="tab-1614__item tab-1614__item--active">Overview</button>
+            <button className="tab-1614__item">Analytics</button>
+            <button className="tab-1614__item">Projects</button>
+            <button className="tab-1614__item">Settings</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Overview</button>
+    <button class="Tabs-item">Analytics</button>
+    <button class="Tabs-item">Projects</button>
+    <button class="Tabs-item">Settings</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #e4e4e7;
+}
+.Tabs-item {
+    position: relative;
+    padding: 10px 2px 11px;
+    border: none;
+    background: transparent;
+    color: #71717a;
+    font-size: 12px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    color: #18181b;
+}
+.Tabs-item-active {
+    color: #18181b;
+    font-weight: 700;
+}
+.Tabs-item-active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 2px;
+    border-radius: 999px;
+    background: #2563eb;
+}`
+},
+{
+    id: 1615,
+    name: "Pill Tabs",
+    preview: (
+        <div className="tab-1615">
+            <button className="tab-1615__item tab-1615__item--active">
+                All
+            </button>
+            <button className="tab-1615__item">Popular</button>
+            <button className="tab-1615__item">Recent</button>
+            <button className="tab-1615__item">Saved</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">All</button>
+    <button class="Tabs-item">Popular</button>
+    <button class="Tabs-item">Recent</button>
+    <button class="Tabs-item">Saved</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+    border-radius: 999px;
+    background: #f4f4f5;
+}
+.Tabs-item {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 999px;
+    background: transparent;
+    color: #71717a;
+    font-size: 11px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Tabs-item:hover {
+    color: #18181b;
+}
+.Tabs-item-active {
+    background: #fff;
+    color: #18181b;
+    box-shadow: 0 1px 4px rgba(0,0,0,.08);
+    font-weight: 700;
+}`
+},
+{
+    id: 1616,
+    name: "Segmented Control Tabs",
+    preview: (
+        <div className="tab-1616">
+            <button className="tab-1616__item tab-1616__item--active">
+                Day
+            </button>
+            <button className="tab-1616__item">Week</button>
+            <button className="tab-1616__item">Month</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Day</button>
+    <button class="Tabs-item">Week</button>
+    <button class="Tabs-item">Month</button>
+</div>`,
+    css: `.Tabs {
+    display: inline-flex;
+    gap: 2px;
+    padding: 3px;
+    border: 1px solid #d4d4d8;
+    border-radius: 9px;
+    background: #fafafa;
+}
+.Tabs-item {
+    min-width: 62px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 7px;
+    background: transparent;
+    color: #71717a;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    background: #18181b;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 2px 5px rgba(0,0,0,.14);
+}`
+},
+{
+    id: 1617,
+    name: "Dark Neon Tabs",
+    preview: (
+        <div className="tab-1617">
+            <button className="tab-1617__item tab-1617__item--active">
+                <i className="fa-solid fa-terminal"></i>
+                Terminal
+            </button>
+            <button className="tab-1617__item">
+                <i className="fa-solid fa-code"></i>
+                Source
+            </button>
+            <button className="tab-1617__item">
+                <i className="fa-solid fa-gear"></i>
+                Config
+            </button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        <i class="fa-solid fa-terminal"></i>
+        Terminal
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-code"></i>
+        Source
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-gear"></i>
+        Config
+    </button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 4px;
+    padding: 5px;
+    border: 1px solid #27272a;
+    border-radius: 10px;
+    background: #09090b;
+}
+.Tabs-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 11px;
+    border: none;
+    border-radius: 7px;
+    background: transparent;
+    color: #71717a;
+    font-family: monospace;
+    font-size: 10px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Tabs-item:hover {
+    color: #d4d4d8;
+}
+.Tabs-item-active {
+    color: #67e8f9;
+    background: rgba(34,211,238,.08);
+    box-shadow: inset 0 0 10px rgba(34,211,238,.05);
+}
+.Tabs-item i {
+    font-size: 9px;
+}`
+},
+{
+    id: 1618,
+    name: "Glass Tabs",
+    preview: (
+        <div className="tab-1618">
+            <button className="tab-1618__item tab-1618__item--active">
+                Home
+            </button>
+            <button className="tab-1618__item">Discover</button>
+            <button className="tab-1618__item">Activity</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Home</button>
+    <button class="Tabs-item">Discover</button>
+    <button class="Tabs-item">Activity</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 12px;
+    background: rgba(255,255,255,.1);
+    backdrop-filter: blur(12px);
+}
+.Tabs-item {
+    padding: 9px 13px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: transparent;
+    color: rgba(255,255,255,.65);
+    font-size: 11px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    color: #fff;
+}
+.Tabs-item-active {
+    border-color: rgba(255,255,255,.2);
+    background: rgba(255,255,255,.12);
+    color: #fff;
+}`
+},
+{
+    id: 1619,
+    name: "Icon Tabs",
+    preview: (
+        <div className="tab-1619">
+            <button className="tab-1619__item tab-1619__item--active">
+                <i className="fa-solid fa-house"></i>
+                Home
+            </button>
+            <button className="tab-1619__item">
+                <i className="fa-solid fa-chart-line"></i>
+                Stats
+            </button>
+            <button className="tab-1619__item">
+                <i className="fa-solid fa-users"></i>
+                Team
+            </button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        <i class="fa-solid fa-house"></i>
+        Home
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-chart-line"></i>
+        Stats
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-users"></i>
+        Team
+    </button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.Tabs-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 13px;
+    border: none;
+    border-radius: 9px;
+    background: transparent;
+    color: #71717a;
+    font-size: 11px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Tabs-item:hover {
+    background: #f4f4f5;
+    color: #18181b;
+}
+.Tabs-item-active {
+    background: #18181b;
+    color: #fff;
+}
+.Tabs-item i {
+    font-size: 10px;
+}`
+},
+{
+    id: 1620,
+    name: "Gradient Tabs",
+    preview: (
+        <div className="tab-1620">
+            <button className="tab-1620__item tab-1620__item--active">
+                Design
+            </button>
+            <button className="tab-1620__item">Develop</button>
+            <button className="tab-1620__item">Deploy</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Design</button>
+    <button class="Tabs-item">Develop</button>
+    <button class="Tabs-item">Deploy</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 4px;
+    padding: 4px;
+    border-radius: 12px;
+    background: #18181b;
+}
+.Tabs-item {
+    padding: 9px 14px;
+    border: none;
+    border-radius: 9px;
+    background: transparent;
+    color: #71717a;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    color: #fff;
+}
+.Tabs-item-active {
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(99,102,241,.2);
+}`
+},
+{
+    id: 1621,
+    name: "Underline Gradient Tabs",
+    preview: (
+        <div className="tab-1621">
+            <button className="tab-1621__item tab-1621__item--active">
+                Overview
+            </button>
+            <button className="tab-1621__item">Activity</button>
+            <button className="tab-1621__item">Members</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Overview</button>
+    <button class="Tabs-item">Activity</button>
+    <button class="Tabs-item">Members</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 18px;
+    border-bottom: 1px solid #27272a;
+}
+.Tabs-item {
+    position: relative;
+    padding: 10px 1px 12px;
+    border: none;
+    background: transparent;
+    color: #71717a;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    color: #fff;
+}
+.Tabs-item-active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 2px;
+    background: linear-gradient(90deg,#22d3ee,#8b5cf6,#ec4899);
+}`
+},
+{
+    id: 1622,
+    name: "Browser Tabs",
+    preview: (
+        <div className="tab-1622">
+            <div className="tab-1622__tab tab-1622__tab--active">
+                <i className="fa-solid fa-globe"></i>
+                Dashboard
+                <i className="fa-solid fa-xmark"></i>
+            </div>
+            <div className="tab-1622__tab">
+                Project
+                <i className="fa-solid fa-xmark"></i>
+            </div>
+            <button className="tab-1622__add">
+                <i className="fa-solid fa-plus"></i>
+            </button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <div class="Tabs-tab Tabs-tab-active">
+        <i class="fa-solid fa-globe"></i>
+        Dashboard
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+    <div class="Tabs-tab">
+        Project
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+    <button class="Tabs-add">
+        <i class="fa-solid fa-plus"></i>
+    </button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    padding: 5px 5px 0;
+    border-radius: 10px 10px 0 0;
+    background: #e4e4e7;
+}
+.Tabs-tab {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 11px;
+    border-radius: 8px 8px 0 0;
+    background: #d4d4d8;
+    color: #52525b;
+    font-size: 10px;
+}
+.Tabs-tab-active {
+    background: #fff;
+    color: #18181b;
+}
+.Tabs-tab i:last-child {
+    font-size: 8px;
+    color: #a1a1aa;
+}
+.Tabs-add {
+    width: 29px;
+    height: 29px;
+    margin-bottom: 2px;
+    border: none;
+    border-radius: 7px;
+    background: transparent;
+    color: #71717a;
+    cursor: pointer;
+}`
+},
+{
+    id: 1623,
+    name: "Neon Pink Tabs",
+    preview: (
+        <div className="tab-1623">
+            <button className="tab-1623__item tab-1623__item--active">
+                Profile
+            </button>
+            <button className="tab-1623__item">Posts</button>
+            <button className="tab-1623__item">Likes</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Profile</button>
+    <button class="Tabs-item">Posts</button>
+    <button class="Tabs-item">Likes</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 4px;
+    padding: 4px;
+    border: 1px solid #3f3f46;
+    border-radius: 11px;
+    background: #09090b;
+}
+.Tabs-item {
+    padding: 9px 14px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #71717a;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    background: rgba(236,72,153,.1);
+    color: #f472b6;
+    box-shadow: 0 0 15px rgba(236,72,153,.15),inset 0 0 10px rgba(236,72,153,.05);
+}`
+},
+{
+    id: 1624,
+    name: "Soft Blue Tabs",
+    preview: (
+        <div className="tab-1624">
+            <button className="tab-1624__item tab-1624__item--active">
+                Personal
+            </button>
+            <button className="tab-1624__item">Business</button>
+            <button className="tab-1624__item">Teams</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Personal</button>
+    <button class="Tabs-item">Business</button>
+    <button class="Tabs-item">Teams</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 3px;
+    padding: 4px;
+    border-radius: 12px;
+    background: #eff6ff;
+}
+.Tabs-item {
+    padding: 9px 14px;
+    border: none;
+    border-radius: 9px;
+    background: transparent;
+    color: #64748b;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    background: #fff;
+    color: #2563eb;
+    box-shadow: 0 2px 7px rgba(37,99,235,.12);
+    font-weight: 700;
+}`
+},
+{
+    id: 1625,
+    name: "Floating Tabs",
+    preview: (
+        <div className="tab-1625">
+            <button className="tab-1625__item tab-1625__item--active">
+                Home
+            </button>
+            <button className="tab-1625__item">Explore</button>
+            <button className="tab-1625__item">Library</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Home</button>
+    <button class="Tabs-item">Explore</button>
+    <button class="Tabs-item">Library</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 5px;
+}
+.Tabs-item {
+    padding: 9px 15px;
+    border: 1px solid #e4e4e7;
+    border-radius: 10px;
+    background: #fff;
+    color: #71717a;
+    font-size: 11px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.05);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Tabs-item:hover {
+    transform: translateY(-1px);
+    color: #18181b;
+}
+.Tabs-item-active {
+    border-color: #18181b;
+    color: #18181b;
+    box-shadow: 0 5px 12px rgba(0,0,0,.1);
+    font-weight: 700;
+}`
+},
+{
+    id: 1626,
+    name: "Icon Circle Tabs",
+    preview: (
+        <div className="tab-1626">
+            <button className="tab-1626__item tab-1626__item--active">
+                <i className="fa-solid fa-house"></i>
+                <span>Home</span>
+            </button>
+            <button className="tab-1626__item">
+                <i className="fa-solid fa-bell"></i>
+                <span>Alerts</span>
+            </button>
+            <button className="tab-1626__item">
+                <i className="fa-solid fa-user"></i>
+                <span>Profile</span>
+            </button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-bell"></i>
+        <span>Alerts</span>
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-user"></i>
+        <span>Profile</span>
+    </button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Tabs-item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 999px;
+    background: #f4f4f5;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    background: #2563eb;
+    color: #fff;
+}
+.Tabs-item i {
+    width: 18px;
+    height: 18px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    font-size: 8px;
+}`
+},
+{
+    id: 1627,
+    name: "Glass Gradient Tabs",
+    preview: (
+        <div className="tab-1627">
+            <button className="tab-1627__item tab-1627__item--active">
+                Overview
+            </button>
+            <button className="tab-1627__item">Metrics</button>
+            <button className="tab-1627__item">Logs</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Overview</button>
+    <button class="Tabs-item">Metrics</button>
+    <button class="Tabs-item">Logs</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 13px;
+    background: linear-gradient(135deg,rgba(37,99,235,.22),rgba(168,85,247,.15));
+    backdrop-filter: blur(14px);
+}
+.Tabs-item {
+    padding: 9px 14px;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: rgba(255,255,255,.65);
+    font-size: 11px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    border-color: rgba(255,255,255,.22);
+    background: rgba(255,255,255,.14);
+    color: #fff;
+}`
+},
+{
+    id: 1628,
+    name: "Status Tabs",
+    preview: (
+        <div className="tab-1628">
+            <button className="tab-1628__item tab-1628__item--active">
+                <span></span>
+                Online
+            </button>
+            <button className="tab-1628__item">
+                <span></span>
+                Away
+            </button>
+            <button className="tab-1628__item">
+                <span></span>
+                Offline
+            </button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        <span></span>
+        Online
+    </button>
+    <button class="Tabs-item">
+        <span></span>
+        Away
+    </button>
+    <button class="Tabs-item">
+        <span></span>
+        Offline
+    </button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 4px;
+}
+.Tabs-item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 12px;
+    border: 1px solid #e4e4e7;
+    border-radius: 8px;
+    background: #fff;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item span {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #a1a1aa;
+}
+.Tabs-item-active {
+    color: #18181b;
+    border-color: #86efac;
+    background: #f0fdf4;
+}
+.Tabs-item-active span {
+    background: #22c55e;
+    box-shadow: 0 0 7px rgba(34,197,94,.55);
+}`
+},
+{
+    id: 1629,
+    name: "Dark Minimal Tabs",
+    preview: (
+        <div className="tab-1629">
+            <button className="tab-1629__item tab-1629__item--active">Feed</button>
+            <button className="tab-1629__item">Following</button>
+            <button className="tab-1629__item">Trending</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Feed</button>
+    <button class="Tabs-item">Following</button>
+    <button class="Tabs-item">Trending</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 18px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #27272a;
+}
+.Tabs-item {
+    position: relative;
+    padding: 9px 0;
+    border: none;
+    background: transparent;
+    color: #71717a;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    color: #fff;
+    font-weight: 700;
+}
+.Tabs-item-active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    height: 2px;
+    background: #fff;
+}`
+},
+{
+    id: 1630,
+    name: "Notification Tabs",
+    preview: (
+        <div className="tab-1630">
+            <button className="tab-1630__item tab-1630__item--active">
+                All
+                <span>12</span>
+            </button>
+            <button className="tab-1630__item">
+                Unread
+                <span>4</span>
+            </button>
+            <button className="tab-1630__item">
+                Archived
+            </button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        All
+        <span>12</span>
+    </button>
+    <button class="Tabs-item">
+        Unread
+        <span>4</span>
+    </button>
+    <button class="Tabs-item">Archived</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 4px;
+}
+.Tabs-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 11px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    background: #f4f4f5;
+}
+.Tabs-item-active {
+    background: #18181b;
+    color: #fff;
+}
+.Tabs-item span {
+    min-width: 16px;
+    height: 16px;
+    display: grid;
+    place-items: center;
+    padding: 0 4px;
+    border-radius: 999px;
+    background: #e4e4e7;
+    color: #52525b;
+    font-size: 7px;
+}
+.Tabs-item-active span {
+    background: #fff;
+    color: #18181b;
+}`
+},
+{
+    id: 1631,
+    name: "Colorful Tabs",
+    preview: (
+        <div className="tab-1631">
+            <button className="tab-1631__item tab-1631__item--blue">Blue</button>
+            <button className="tab-1631__item tab-1631__item--active">Purple</button>
+            <button className="tab-1631__item tab-1631__item--pink">Pink</button>
+            <button className="tab-1631__item tab-1631__item--green">Green</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-blue">Blue</button>
+    <button class="Tabs-item Tabs-item-active">Purple</button>
+    <button class="Tabs-item Tabs-item-pink">Pink</button>
+    <button class="Tabs-item Tabs-item-green">Green</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 5px;
+}
+.Tabs-item {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    background: #f4f4f5;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item-blue:hover {
+    background: #dbeafe;
+    color: #2563eb;
+}
+.Tabs-item-active {
+    background: #ede9fe;
+    color: #7c3aed;
+    font-weight: 700;
+}
+.Tabs-item-pink:hover {
+    background: #fce7f3;
+    color: #db2777;
+}
+.Tabs-item-green:hover {
+    background: #dcfce7;
+    color: #16a34a;
+}`
+},
+{
+    id: 1632,
+    name: "Vertical Content Tabs",
+    preview: (
+        <div className="tab-1632">
+            <button className="tab-1632__item tab-1632__item--active">
+                <i className="fa-solid fa-user"></i>
+                Profile
+            </button>
+            <button className="tab-1632__item">
+                <i className="fa-solid fa-lock"></i>
+                Security
+            </button>
+            <button className="tab-1632__item">
+                <i className="fa-solid fa-bell"></i>
+                Notifications
+            </button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        <i class="fa-solid fa-user"></i>
+        Profile
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-lock"></i>
+        Security
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-bell"></i>
+        Notifications
+    </button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 145px;
+}
+.Tabs-item {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 11px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #71717a;
+    text-align: left;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    background: #f4f4f5;
+    color: #18181b;
+}
+.Tabs-item-active {
+    background: #18181b;
+    color: #fff;
+}
+.Tabs-item i {
+    width: 15px;
+    text-align: center;
+}`
+},
+{
+    id: 1633,
+    name: "Legendary Aurora Tabs",
+    preview: (
+        <div className="tab-1633">
+            <button className="tab-1633__item tab-1633__item--active">
+                <i className="fa-solid fa-sparkles"></i>
+                Overview
+            </button>
+            <button className="tab-1633__item">
+                Analytics
+            </button>
+            <button className="tab-1633__item">
+                Performance
+            </button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        <i class="fa-solid fa-sparkles"></i>
+        Overview
+    </button>
+    <button class="Tabs-item">Analytics</button>
+    <button class="Tabs-item">Performance</button>
+</div>`,
+    css: `.Tabs {
+    position: relative;
+    display: flex;
+    gap: 4px;
+    padding: 5px;
+    border: 1px solid rgba(255,255,255,.16);
+    border-radius: 13px;
+    background: #09090b;
+    overflow: hidden;
+}
+.Tabs::before {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899);
+    filter: blur(28px);
+    opacity: .16;
+}
+.Tabs-item {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 13px;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    color: #fff;
+}
+.Tabs-item-active {
+    border-color: rgba(255,255,255,.18);
+    background: rgba(255,255,255,.1);
+    color: #fff;
+    box-shadow: 0 0 16px rgba(99,102,241,.12);
+}
+.Tabs-item-active i {
+    color: #67e8f9;
+}`
+},{
+    id: 1634,
+    name: "Neumorphic Tabs",
+    preview: (
+        <div className="tab-1634">
+            <button className="tab-1634__item tab-1634__item--active">Home</button>
+            <button className="tab-1634__item">Explore</button>
+            <button className="tab-1634__item">Library</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Home</button>
+    <button class="Tabs-item">Explore</button>
+    <button class="Tabs-item">Library</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 8px;
+    padding: 7px;
+    border-radius: 14px;
+    background: #e7e5e4;
+    box-shadow: inset 2px 2px 6px rgba(0,0,0,.08),inset -2px -2px 6px rgba(255,255,255,.8);
+}
+.Tabs-item {
+    padding: 9px 14px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    color: #78716c;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    background: #e7e5e4;
+    color: #292524;
+    box-shadow: 3px 3px 7px rgba(0,0,0,.12),-3px -3px 7px rgba(255,255,255,.8);
+    font-weight: 700;
+}`
+},
+{
+    id: 1635,
+    name: "Sliding Blue Tabs",
+    preview: (
+        <div className="tab-1635">
+            <button className="tab-1635__item tab-1635__item--active">Overview</button>
+            <button className="tab-1635__item">Analytics</button>
+            <button className="tab-1635__item">Reports</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Overview</button>
+    <button class="Tabs-item">Analytics</button>
+    <button class="Tabs-item">Reports</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 3px;
+    padding: 4px;
+    border-radius: 12px;
+    background: #eff6ff;
+}
+.Tabs-item {
+    position: relative;
+    overflow: hidden;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 9px;
+    background: transparent;
+    color: #64748b;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Tabs-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #dbeafe;
+    transform: translateX(-105%);
+    transition: .25s ease;
+    z-index: 0;
+}
+.Tabs-item:hover::before,
+.Tabs-item-active::before {
+    transform: translateX(0);
+}
+.Tabs-item {
+    isolation: isolate;
+}
+.Tabs-item::after {
+    content: attr(data-label);
+}
+.Tabs-item {
+    position: relative;
+}
+.Tabs-item-active {
+    color: #1d4ed8;
+    font-weight: 700;
+}
+.Tabs-item span {
+    position: relative;
+    z-index: 1;
+}`
+},
+{
+    id: 1636,
+    name: "Neon Cyan Line Tabs",
+    preview: (
+        <div className="tab-1636">
+            <button className="tab-1636__item tab-1636__item--active">
+                System
+            </button>
+            <button className="tab-1636__item">Network</button>
+            <button className="tab-1636__item">Security</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">System</button>
+    <button class="Tabs-item">Network</button>
+    <button class="Tabs-item">Security</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 22px;
+    border-bottom: 1px solid #164e63;
+    background: #020617;
+}
+.Tabs-item {
+    position: relative;
+    padding: 10px 2px 11px;
+    border: none;
+    background: transparent;
+    color: #64748b;
+    font-family: monospace;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    color: #67e8f9;
+    text-shadow: 0 0 8px rgba(103,232,249,.6);
+}
+.Tabs-item-active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 2px;
+    background: #22d3ee;
+    box-shadow: 0 0 10px #22d3ee;
+}`
+},
+{
+    id: 1637,
+    name: "Rainbow Tabs",
+    preview: (
+        <div className="tab-1637">
+            <button className="tab-1637__item tab-1637__item--active">
+                Discover
+            </button>
+            <button className="tab-1637__item">Trending</button>
+            <button className="tab-1637__item">Favorites</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Discover</button>
+    <button class="Tabs-item">Trending</button>
+    <button class="Tabs-item">Favorites</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 14px;
+    background: #18181b;
+}
+.Tabs-item {
+    padding: 9px 14px;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: #71717a;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    color: #fff;
+}
+.Tabs-item-active {
+    border-color: transparent;
+    background:
+        linear-gradient(#18181b,#18181b) padding-box,
+        linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899) border-box;
+    color: #fff;
+    box-shadow: 0 0 18px rgba(99,102,241,.2);
+}`
+},
+{
+    id: 1638,
+    name: "Outlined Tabs",
+    preview: (
+        <div className="tab-1638">
+            <button className="tab-1638__item tab-1638__item--active">Design</button>
+            <button className="tab-1638__item">Code</button>
+            <button className="tab-1638__item">Preview</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Design</button>
+    <button class="Tabs-item">Code</button>
+    <button class="Tabs-item">Preview</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 5px;
+}
+.Tabs-item {
+    padding: 9px 14px;
+    border: 1px solid #d4d4d8;
+    border-radius: 9px;
+    background: #fff;
+    color: #71717a;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    border-color: #a1a1aa;
+    color: #18181b;
+}
+.Tabs-item-active {
+    border-color: #18181b;
+    background: #18181b;
+    color: #fff;
+}`
+},
+{
+    id: 1639,
+    name: "Notification Glow Tabs",
+    preview: (
+        <div className="tab-1639">
+            <button className="tab-1639__item tab-1639__item--active">
+                Inbox
+                <span>8</span>
+            </button>
+            <button className="tab-1639__item">
+                Mentions
+                <span>2</span>
+            </button>
+            <button className="tab-1639__item">Archived</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        Inbox
+        <span>8</span>
+    </button>
+    <button class="Tabs-item">
+        Mentions
+        <span>2</span>
+    </button>
+    <button class="Tabs-item">Archived</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 4px;
+    padding: 4px;
+    border-radius: 12px;
+    background: #f4f4f5;
+}
+.Tabs-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item span {
+    min-width: 17px;
+    height: 17px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #e4e4e7;
+    color: #71717a;
+    font-size: 7px;
+}
+.Tabs-item-active {
+    background: #fff;
+    color: #18181b;
+    box-shadow: 0 2px 7px rgba(0,0,0,.08);
+}
+.Tabs-item-active span {
+    background: #ef4444;
+    color: #fff;
+    box-shadow: 0 0 8px rgba(239,68,68,.3);
+}`
+},
+{
+    id: 1640,
+    name: "Icon Only Tabs",
+    preview: (
+        <div className="tab-1640">
+            <button className="tab-1640__item tab-1640__item--active">
+                <i className="fa-solid fa-house"></i>
+            </button>
+            <button className="tab-1640__item">
+                <i className="fa-solid fa-chart-line"></i>
+            </button>
+            <button className="tab-1640__item">
+                <i className="fa-solid fa-message"></i>
+            </button>
+            <button className="tab-1640__item">
+                <i className="fa-solid fa-gear"></i>
+            </button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        <i class="fa-solid fa-house"></i>
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-chart-line"></i>
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-message"></i>
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-gear"></i>
+    </button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    background: #fff;
+}
+.Tabs-item {
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    border: none;
+    border-radius: 9px;
+    background: transparent;
+    color: #a1a1aa;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Tabs-item:hover {
+    background: #f4f4f5;
+    color: #52525b;
+}
+.Tabs-item-active {
+    background: #18181b;
+    color: #fff;
+}
+.Tabs-item i {
+    font-size: 11px;
+}`
+},
+{
+    id: 1641,
+    name: "Vertical Accent Tabs",
+    preview: (
+        <div className="tab-1641">
+            <button className="tab-1641__item tab-1641__item--active">
+                Account
+            </button>
+            <button className="tab-1641__item">Security</button>
+            <button className="tab-1641__item">Billing</button>
+            <button className="tab-1641__item">Integrations</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Account</button>
+    <button class="Tabs-item">Security</button>
+    <button class="Tabs-item">Billing</button>
+    <button class="Tabs-item">Integrations</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 150px;
+}
+.Tabs-item {
+    position: relative;
+    padding: 9px 12px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #71717a;
+    text-align: left;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    background: #f4f4f5;
+}
+.Tabs-item-active {
+    background: #eff6ff;
+    color: #2563eb;
+    font-weight: 700;
+}
+.Tabs-item-active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    bottom: 6px;
+    width: 3px;
+    border-radius: 999px;
+    background: #2563eb;
+}`
+},
+{
+    id: 1642,
+    name: "Glass Pill Tabs",
+    preview: (
+        <div className="tab-1642">
+            <button className="tab-1642__item tab-1642__item--active">Day</button>
+            <button className="tab-1642__item">Week</button>
+            <button className="tab-1642__item">Month</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Day</button>
+    <button class="Tabs-item">Week</button>
+    <button class="Tabs-item">Month</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 4px;
+    padding: 5px;
+    border: 1px solid rgba(255,255,255,.28);
+    border-radius: 999px;
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(14px);
+}
+.Tabs-item {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 999px;
+    background: transparent;
+    color: rgba(255,255,255,.65);
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    background: rgba(255,255,255,.18);
+    color: #fff;
+    box-shadow: inset 0 0 12px rgba(255,255,255,.05);
+}`
+},
+{
+    id: 1643,
+    name: "Gradient Border Tabs",
+    preview: (
+        <div className="tab-1643">
+            <button className="tab-1643__item tab-1643__item--active">
+                Overview
+            </button>
+            <button className="tab-1643__item">Stats</button>
+            <button className="tab-1643__item">Activity</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Overview</button>
+    <button class="Tabs-item">Stats</button>
+    <button class="Tabs-item">Activity</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 13px;
+    background: #09090b;
+}
+.Tabs-item {
+    padding: 9px 14px;
+    border: 1px solid #27272a;
+    border-radius: 9px;
+    background: #18181b;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    border-color: transparent;
+    background:
+        linear-gradient(#18181b,#18181b) padding-box,
+        linear-gradient(135deg,#22d3ee,#6366f1,#ec4899) border-box;
+    color: #fff;
+}`
+},
+{
+    id: 1644,
+    name: "Command Center Tabs",
+    preview: (
+        <div className="tab-1644">
+            <button className="tab-1644__item tab-1644__item--active">
+                <i className="fa-solid fa-terminal"></i>
+                Console
+            </button>
+            <button className="tab-1644__item">
+                <i className="fa-solid fa-server"></i>
+                Servers
+            </button>
+            <button className="tab-1644__item">
+                <i className="fa-solid fa-shield"></i>
+                Security
+            </button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        <i class="fa-solid fa-terminal"></i>
+        Console
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-server"></i>
+        Servers
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-shield"></i>
+        Security
+    </button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 2px;
+    padding: 4px;
+    border: 1px solid #27272a;
+    background: #050505;
+    border-radius: 8px;
+}
+.Tabs-item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 11px;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+    color: #52525b;
+    font-family: monospace;
+    font-size: 9px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    color: #a1a1aa;
+}
+.Tabs-item-active {
+    background: #111827;
+    color: #22d3ee;
+    box-shadow: inset 0 0 10px rgba(34,211,238,.06);
+}
+.Tabs-item i {
+    font-size: 8px;
+}`
+},
+{
+    id: 1645,
+    name: "Soft Gradient Tabs",
+    preview: (
+        <div className="tab-1645">
+            <button className="tab-1645__item tab-1645__item--active">
+                Personal
+            </button>
+            <button className="tab-1645__item">Team</button>
+            <button className="tab-1645__item">Organization</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Personal</button>
+    <button class="Tabs-item">Team</button>
+    <button class="Tabs-item">Organization</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 13px;
+    background: linear-gradient(135deg,#eff6ff,#f5f3ff,#fdf2f8);
+}
+.Tabs-item {
+    padding: 9px 13px;
+    border: none;
+    border-radius: 9px;
+    background: transparent;
+    color: #64748b;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(99,102,241,.18);
+}`
+},
+{
+    id: 1646,
+    name: "Double Line Tabs",
+    preview: (
+        <div className="tab-1646">
+            <button className="tab-1646__item tab-1646__item--active">
+                Features
+            </button>
+            <button className="tab-1646__item">Pricing</button>
+            <button className="tab-1646__item">Reviews</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Features</button>
+    <button class="Tabs-item">Pricing</button>
+    <button class="Tabs-item">Reviews</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 18px;
+}
+.Tabs-item {
+    position: relative;
+    padding: 10px 2px 13px;
+    border: none;
+    background: transparent;
+    color: #71717a;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    color: #18181b;
+    font-weight: 700;
+}
+.Tabs-item-active::before,
+.Tabs-item-active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-radius: 999px;
+}
+.Tabs-item-active::before {
+    bottom: 3px;
+    height: 2px;
+    background: #18181b;
+}
+.Tabs-item-active::after {
+    bottom: 0;
+    width: 45%;
+    height: 2px;
+    background: #2563eb;
+}`
+},
+{
+    id: 1647,
+    name: "Cyber Glitch Tabs",
+    preview: (
+        <div className="tab-1647">
+            <button className="tab-1647__item tab-1647__item--active">
+                SYSTEM
+            </button>
+            <button className="tab-1647__item">NETWORK</button>
+            <button className="tab-1647__item">CORE</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">SYSTEM</button>
+    <button class="Tabs-item">NETWORK</button>
+    <button class="Tabs-item">CORE</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 3px;
+    padding: 3px;
+    background: #020617;
+    border: 1px solid #1e3a8a;
+}
+.Tabs-item {
+    position: relative;
+    padding: 9px 13px;
+    border: none;
+    background: transparent;
+    color: #475569;
+    font-family: monospace;
+    font-size: 9px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    color: #60a5fa;
+}
+.Tabs-item-active {
+    color: #67e8f9;
+    background: rgba(14,165,233,.08);
+    text-shadow: 0 0 8px rgba(103,232,249,.6);
+}
+.Tabs-item-active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    background: #22d3ee;
+    box-shadow: 0 0 8px #22d3ee;
+}`
+},
+{
+    id: 1648,
+    name: "Square App Tabs",
+    preview: (
+        <div className="tab-1648">
+            <button className="tab-1648__item tab-1648__item--active">
+                <i className="fa-solid fa-grid-2"></i>
+                Dashboard
+            </button>
+            <button className="tab-1648__item">
+                <i className="fa-solid fa-list"></i>
+                Tasks
+            </button>
+            <button className="tab-1648__item">
+                <i className="fa-solid fa-calendar"></i>
+                Calendar
+            </button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        <i class="fa-solid fa-grid-2"></i>
+        Dashboard
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-list"></i>
+        Tasks
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-calendar"></i>
+        Calendar
+    </button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 5px;
+}
+.Tabs-item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 12px;
+    border: 1px solid #e4e4e7;
+    border-radius: 8px;
+    background: #fff;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    background: #fafafa;
+}
+.Tabs-item-active {
+    background: #f4f4f5;
+    border-color: #d4d4d8;
+    color: #18181b;
+    box-shadow: inset 0 1px #fff;
+    font-weight: 700;
+}`
+},
+{
+    id: 1649,
+    name: "Neon Green Tabs",
+    preview: (
+        <div className="tab-1649">
+            <button className="tab-1649__item tab-1649__item--active">
+                Active
+            </button>
+            <button className="tab-1649__item">Completed</button>
+            <button className="tab-1649__item">Archived</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Active</button>
+    <button class="Tabs-item">Completed</button>
+    <button class="Tabs-item">Archived</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid #14532d;
+    border-radius: 12px;
+    background: #02120a;
+}
+.Tabs-item {
+    padding: 9px 13px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #4ade80;
+    opacity: .5;
+    font-family: monospace;
+    font-size: 9px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    opacity: .85;
+}
+.Tabs-item-active {
+    opacity: 1;
+    background: rgba(34,197,94,.08);
+    color: #86efac;
+    box-shadow: 0 0 15px rgba(34,197,94,.12),inset 0 0 10px rgba(34,197,94,.06);
+}`
+},
+{
+    id: 1650,
+    name: "Minimal Wide Tabs",
+    preview: (
+        <div className="tab-1650">
+            <button className="tab-1650__item tab-1650__item--active">
+                Description
+            </button>
+            <button className="tab-1650__item">Specifications</button>
+            <button className="tab-1650__item">Reviews</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Description</button>
+    <button class="Tabs-item">Specifications</button>
+    <button class="Tabs-item">Reviews</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #e4e4e7;
+}
+.Tabs-item {
+    flex: 1;
+    padding: 11px 16px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+    color: #71717a;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    color: #18181b;
+}
+.Tabs-item-active {
+    border-bottom-color: #18181b;
+    color: #18181b;
+    font-weight: 700;
+}`
+},
+{
+    id: 1651,
+    name: "Floating Dark Tabs",
+    preview: (
+        <div className="tab-1651">
+            <button className="tab-1651__item tab-1651__item--active">
+                Home
+            </button>
+            <button className="tab-1651__item">Projects</button>
+            <button className="tab-1651__item">Team</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Home</button>
+    <button class="Tabs-item">Projects</button>
+    <button class="Tabs-item">Team</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 6px;
+    padding: 6px;
+    border: 1px solid #27272a;
+    border-radius: 14px;
+    background: #09090b;
+}
+.Tabs-item {
+    padding: 9px 15px;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Tabs-item:hover {
+    color: #d4d4d8;
+    transform: translateY(-1px);
+}
+.Tabs-item-active {
+    background: #18181b;
+    color: #fff;
+    border-color: #3f3f46;
+    box-shadow: 0 4px 10px rgba(0,0,0,.25);
+}`
+},
+{
+    id: 1652,
+    name: "Aurora Tabs",
+    preview: (
+        <div className="tab-1652">
+            <button className="tab-1652__item tab-1652__item--active">
+                Overview
+            </button>
+            <button className="tab-1652__item">Insights</button>
+            <button className="tab-1652__item">Performance</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Overview</button>
+    <button class="Tabs-item">Insights</button>
+    <button class="Tabs-item">Performance</button>
+</div>`,
+    css: `.Tabs {
+    position: relative;
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 14px;
+    background: #09090b;
+}
+.Tabs::before {
+    content: "";
+    position: absolute;
+    width: 160px;
+    height: 55px;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899);
+    filter: blur(28px);
+    opacity: .18;
+}
+.Tabs-item {
+    position: relative;
+    z-index: 1;
+    padding: 9px 13px;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    border-color: rgba(255,255,255,.2);
+    background: rgba(255,255,255,.1);
+    color: #fff;
+    box-shadow: 0 0 18px rgba(99,102,241,.12);
+}`
+},
+{
+    id: 1653,
+    name: "Legendary Prism Tabs",
+    preview: (
+        <div className="tab-1653">
+            <button className="tab-1653__item tab-1653__item--active">
+                <i className="fa-solid fa-sparkles"></i>
+                Create
+            </button>
+            <button className="tab-1653__item">Build</button>
+            <button className="tab-1653__item">Launch</button>
+            <button className="tab-1653__item">Scale</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        <i class="fa-solid fa-sparkles"></i>
+        Create
+    </button>
+    <button class="Tabs-item">Build</button>
+    <button class="Tabs-item">Launch</button>
+    <button class="Tabs-item">Scale</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 4px;
+    padding: 5px;
+    border-radius: 14px;
+    background: #08080a;
+    border: 1px solid #27272a;
+}
+.Tabs-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    position: relative;
+    padding: 9px 13px;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.Tabs-item:hover {
+    color: #fff;
+}
+.Tabs-item-active {
+    color: #fff;
+    border-color: transparent;
+    background:
+        linear-gradient(#111113,#111113) padding-box,
+        linear-gradient(120deg,#22d3ee,#3b82f6,#8b5cf6,#ec4899,#f97316) border-box;
+}
+.Tabs-item-active::before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    background: linear-gradient(90deg,#22d3ee,#8b5cf6,#ec4899);
+    filter: blur(22px);
+    opacity: .2;
+}
+.Tabs-item-active i {
+    position: relative;
+    z-index: 1;
+    color: #67e8f9;
+}`
+},{
+    id: 1654,
+    name: "Frosted Ice Tabs",
+    preview: (
+        <div className="tab-1654">
+            <button className="tab-1654__item tab-1654__item--active">
+                Overview
+            </button>
+            <button className="tab-1654__item">Activity</button>
+            <button className="tab-1654__item">Details</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Overview</button>
+    <button class="Tabs-item">Activity</button>
+    <button class="Tabs-item">Details</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 4px;
+    padding: 5px;
+    border: 1px solid rgba(186,230,253,.6);
+    border-radius: 13px;
+    background: linear-gradient(135deg,rgba(224,242,254,.85),rgba(239,246,255,.65));
+    backdrop-filter: blur(12px);
+}
+.Tabs-item {
+    padding: 9px 13px;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: #64748b;
+    font-size: 10px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.Tabs-item:hover {
+    color: #0f172a;
+}
+.Tabs-item-active {
+    border-color: #bae6fd;
+    background: rgba(255,255,255,.8);
+    color: #0369a1;
+    box-shadow: 0 3px 9px rgba(14,165,233,.12);
+    font-weight: 700;
+}`
+},
+{
+    id: 1655,
+    name: "Cyber Grid Tabs",
+    preview: (
+        <div className="tab-1655">
+            <button className="tab-1655__item tab-1655__item--active">
+                <i className="fa-solid fa-microchip"></i>
+                Core
+            </button>
+            <button className="tab-1655__item">
+                <i className="fa-solid fa-network-wired"></i>
+                Network
+            </button>
+            <button className="tab-1655__item">
+                <i className="fa-solid fa-database"></i>
+                Data
+            </button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        <i class="fa-solid fa-microchip"></i>
+        Core
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-network-wired"></i>
+        Network
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-database"></i>
+        Data
+    </button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 3px;
+    padding: 4px;
+    border: 1px solid #0f3b5d;
+    border-radius: 8px;
+    background: #020617;
+}
+.Tabs-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 11px;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+    color: #475569;
+    font-family: monospace;
+    font-size: 9px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    color: #7dd3fc;
+}
+.Tabs-item-active {
+    background: rgba(14,165,233,.08);
+    color: #22d3ee;
+    box-shadow: inset 0 0 12px rgba(14,165,233,.05),0 0 10px rgba(14,165,233,.1);
+    text-shadow: 0 0 7px rgba(34,211,238,.5);
+}`
+},
+{
+    id: 1656,
+    name: "Neon Violet Tabs",
+    preview: (
+        <div className="tab-1656">
+            <button className="tab-1656__item tab-1656__item--active">Design</button>
+            <button className="tab-1656__item">Prototype</button>
+            <button className="tab-1656__item">Publish</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Design</button>
+    <button class="Tabs-item">Prototype</button>
+    <button class="Tabs-item">Publish</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 4px;
+    padding: 5px;
+    border: 1px solid #4c1d95;
+    border-radius: 12px;
+    background: #0f0520;
+}
+.Tabs-item {
+    padding: 9px 14px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #8b5cf6;
+    opacity: .55;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    opacity: .85;
+}
+.Tabs-item-active {
+    opacity: 1;
+    background: rgba(139,92,246,.1);
+    color: #c4b5fd;
+    box-shadow: 0 0 15px rgba(139,92,246,.18),inset 0 0 10px rgba(139,92,246,.06);
+}`
+},
+{
+    id: 1657,
+    name: "Split Tabs",
+    preview: (
+        <div className="tab-1657">
+            <button className="tab-1657__item tab-1657__item--active">
+                Monthly
+            </button>
+            <button className="tab-1657__item">Yearly</button>
+            <button className="tab-1657__badge">Save 20%</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Monthly</button>
+    <button class="Tabs-item">Yearly</button>
+    <span class="Tabs-badge">Save 20%</span>
+</div>`,
+    css: `.Tabs {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    padding: 4px;
+    border: 1px solid #e4e4e7;
+    border-radius: 11px;
+    background: #fff;
+}
+.Tabs-item {
+    padding: 8px 13px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    background: #18181b;
+    color: #fff;
+    font-weight: 700;
+}
+.Tabs-badge {
+    margin-right: 4px;
+    padding: 4px 7px;
+    border-radius: 999px;
+    background: #dcfce7;
+    color: #15803d;
+    font-size: 7px;
+    font-weight: 800;
+}`
+},
+{
+    id: 1658,
+    name: "Rainbow Underline Tabs",
+    preview: (
+        <div className="tab-1658">
+            <button className="tab-1658__item tab-1658__item--active">
+                Explore
+            </button>
+            <button className="tab-1658__item">Following</button>
+            <button className="tab-1658__item">Saved</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Explore</button>
+    <button class="Tabs-item">Following</button>
+    <button class="Tabs-item">Saved</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 22px;
+    border-bottom: 1px solid #e4e4e7;
+}
+.Tabs-item {
+    position: relative;
+    padding: 10px 1px 12px;
+    border: none;
+    background: transparent;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    color: #18181b;
+    font-weight: 700;
+}
+.Tabs-item-active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 3px;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#ef4444,#f97316,#eab308,#22c55e,#06b6d4,#6366f1,#ec4899);
+}`
+},
+{
+    id: 1659,
+    name: "Bubble Tabs",
+    preview: (
+        <div className="tab-1659">
+            <button className="tab-1659__item tab-1659__item--active">
+                All
+            </button>
+            <button className="tab-1659__item">Unread</button>
+            <button className="tab-1659__item">Mentions</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">All</button>
+    <button class="Tabs-item">Unread</button>
+    <button class="Tabs-item">Mentions</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 5px;
+}
+.Tabs-item {
+    padding: 9px 15px;
+    border: 1px solid #e4e4e7;
+    border-radius: 999px;
+    background: #fff;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    border-color: #c4b5fd;
+    color: #7c3aed;
+}
+.Tabs-item-active {
+    border-color: #7c3aed;
+    background: #7c3aed;
+    color: #fff;
+    box-shadow: 0 5px 12px rgba(124,58,237,.2);
+}`
+},
+{
+    id: 1660,
+    name: "Monochrome Tabs",
+    preview: (
+        <div className="tab-1660">
+            <button className="tab-1660__item tab-1660__item--active">Overview</button>
+            <button className="tab-1660__item">Insights</button>
+            <button className="tab-1660__item">Reports</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Overview</button>
+    <button class="Tabs-item">Insights</button>
+    <button class="Tabs-item">Reports</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 0;
+    border: 1px solid #d4d4d8;
+}
+.Tabs-item {
+    padding: 9px 15px;
+    border: none;
+    border-right: 1px solid #d4d4d8;
+    background: #fff;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item:last-child {
+    border-right: none;
+}
+.Tabs-item-active {
+    background: #18181b;
+    color: #fff;
+}`
+},
+{
+    id: 1661,
+    name: "Glow Border Tabs",
+    preview: (
+        <div className="tab-1661">
+            <button className="tab-1661__item tab-1661__item--active">Home</button>
+            <button className="tab-1661__item">Projects</button>
+            <button className="tab-1661__item">Team</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Home</button>
+    <button class="Tabs-item">Projects</button>
+    <button class="Tabs-item">Team</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid #27272a;
+    border-radius: 13px;
+    background: #09090b;
+}
+.Tabs-item {
+    padding: 9px 14px;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    color: #fff;
+    border-color: #3f3f46;
+}
+.Tabs-item-active {
+    border-color: #fff;
+    background: #18181b;
+    color: #fff;
+    box-shadow: 0 0 12px rgba(255,255,255,.12),inset 0 0 10px rgba(255,255,255,.04);
+}`
+},
+{
+    id: 1662,
+    name: "Icon Badge Tabs",
+    preview: (
+        <div className="tab-1662">
+            <button className="tab-1662__item tab-1662__item--active">
+                <i className="fa-solid fa-inbox"></i>
+                Inbox
+                <span>7</span>
+            </button>
+            <button className="tab-1662__item">
+                <i className="fa-solid fa-paper-plane"></i>
+                Sent
+            </button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        <i class="fa-solid fa-inbox"></i>
+        Inbox
+        <span>7</span>
+    </button>
+    <button class="Tabs-item">
+        <i class="fa-solid fa-paper-plane"></i>
+        Sent
+    </button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 4px;
+    padding: 4px;
+    background: #f4f4f5;
+    border-radius: 10px;
+}
+.Tabs-item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 11px;
+    border: none;
+    border-radius: 7px;
+    background: transparent;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    background: #fff;
+    color: #18181b;
+    box-shadow: 0 2px 6px rgba(0,0,0,.07);
+}
+.Tabs-item span {
+    min-width: 16px;
+    height: 16px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #e4e4e7;
+    color: #71717a;
+    font-size: 7px;
+}
+.Tabs-item-active span {
+    background: #ef4444;
+    color: #fff;
+}`
+},
+{
+    id: 1663,
+    name: "Dark Gradient Tabs",
+    preview: (
+        <div className="tab-1663">
+            <button className="tab-1663__item tab-1663__item--active">Create</button>
+            <button className="tab-1663__item">Manage</button>
+            <button className="tab-1663__item">Deploy</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Create</button>
+    <button class="Tabs-item">Manage</button>
+    <button class="Tabs-item">Deploy</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 4px;
+    padding: 5px;
+    border-radius: 12px;
+    background: linear-gradient(135deg,#111827,#18181b);
+}
+.Tabs-item {
+    padding: 9px 14px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    color: #fff;
+}
+.Tabs-item-active {
+    background: linear-gradient(135deg,#2563eb,#8b5cf6);
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(99,102,241,.22);
+}`
+},
+{
+    id: 1664,
+    name: "Ice Glow Tabs",
+    preview: (
+        <div className="tab-1664">
+            <button className="tab-1664__item tab-1664__item--active">
+                Ice
+            </button>
+            <button className="tab-1664__item">Snow</button>
+            <button className="tab-1664__item">Frost</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Ice</button>
+    <button class="Tabs-item">Snow</button>
+    <button class="Tabs-item">Frost</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 4px;
+    padding: 5px;
+    border: 1px solid #7dd3fc;
+    border-radius: 12px;
+    background: #082f49;
+    box-shadow: 0 0 18px rgba(56,189,248,.12);
+}
+.Tabs-item {
+    padding: 9px 14px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #7dd3fc;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    color: #e0f2fe;
+}
+.Tabs-item-active {
+    background: rgba(125,211,252,.1);
+    color: #e0f2fe;
+    box-shadow: inset 0 0 12px rgba(125,211,252,.08),0 0 12px rgba(56,189,248,.12);
+}`
+},
+{
+    id: 1665,
+    name: "Retro Tabs",
+    preview: (
+        <div className="tab-1665">
+            <button className="tab-1665__item tab-1665__item--active">Games</button>
+            <button className="tab-1665__item">Scores</button>
+            <button className="tab-1665__item">Rankings</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Games</button>
+    <button class="Tabs-item">Scores</button>
+    <button class="Tabs-item">Rankings</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 3px;
+    padding: 4px;
+    border: 2px solid #18181b;
+    background: #facc15;
+}
+.Tabs-item {
+    padding: 8px 12px;
+    border: 2px solid #18181b;
+    background: #fff;
+    color: #18181b;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    background: #18181b;
+    color: #facc15;
+}`
+},
+{
+    id: 1666,
+    name: "Soft Shadow Tabs",
+    preview: (
+        <div className="tab-1666">
+            <button className="tab-1666__item tab-1666__item--active">Today</button>
+            <button className="tab-1666__item">Tomorrow</button>
+            <button className="tab-1666__item">Upcoming</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Today</button>
+    <button class="Tabs-item">Tomorrow</button>
+    <button class="Tabs-item">Upcoming</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 6px;
+    padding: 6px;
+    border-radius: 15px;
+    background: #fafafa;
+}
+.Tabs-item {
+    padding: 9px 14px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    color: #a1a1aa;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    background: #fff;
+    color: #18181b;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    font-weight: 700;
+}`
+},
+{
+    id: 1667,
+    name: "Split Content Tabs",
+    preview: (
+        <div className="tab-1667">
+            <button className="tab-1667__item tab-1667__item--active">
+                <strong>12</strong>
+                Projects
+            </button>
+            <button className="tab-1667__item">
+                <strong>48</strong>
+                Tasks
+            </button>
+            <button className="tab-1667__item">
+                <strong>8</strong>
+                Teams
+            </button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        <strong>12</strong>
+        Projects
+    </button>
+    <button class="Tabs-item">
+        <strong>48</strong>
+        Tasks
+    </button>
+    <button class="Tabs-item">
+        <strong>8</strong>
+        Teams
+    </button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 4px;
+}
+.Tabs-item {
+    min-width: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    padding: 9px 12px;
+    border: 1px solid #e4e4e7;
+    border-radius: 11px;
+    background: #fff;
+    color: #71717a;
+    font-size: 9px;
+    cursor: pointer;
+}
+.Tabs-item strong {
+    font-size: 15px;
+    color: #18181b;
+}
+.Tabs-item-active {
+    border-color: #2563eb;
+    background: #eff6ff;
+    color: #2563eb;
+}
+.Tabs-item-active strong {
+    color: #2563eb;
+}`
+},
+{
+    id: 1668,
+    name: "Neon Orange Tabs",
+    preview: (
+        <div className="tab-1668">
+            <button className="tab-1668__item tab-1668__item--active">
+                <i className="fa-solid fa-fire"></i>
+                Hot
+            </button>
+            <button className="tab-1668__item">New</button>
+            <button className="tab-1668__item">Top</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        <i class="fa-solid fa-fire"></i>
+        Hot
+    </button>
+    <button class="Tabs-item">New</button>
+    <button class="Tabs-item">Top</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 4px;
+    padding: 5px;
+    border: 1px solid #7c2d12;
+    border-radius: 11px;
+    background: #1c0a03;
+}
+.Tabs-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #fb923c;
+    opacity: .55;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    opacity: 1;
+    background: rgba(249,115,22,.1);
+    color: #fed7aa;
+    box-shadow: 0 0 15px rgba(249,115,22,.15);
+}`
+},
+{
+    id: 1669,
+    name: "Glass Outline Tabs",
+    preview: (
+        <div className="tab-1669">
+            <button className="tab-1669__item tab-1669__item--active">Overview</button>
+            <button className="tab-1669__item">Stats</button>
+            <button className="tab-1669__item">History</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Overview</button>
+    <button class="Tabs-item">Stats</button>
+    <button class="Tabs-item">History</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 12px;
+    background: rgba(255,255,255,.05);
+    backdrop-filter: blur(15px);
+}
+.Tabs-item {
+    padding: 9px 14px;
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 9px;
+    background: transparent;
+    color: rgba(255,255,255,.55);
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    color: #fff;
+}
+.Tabs-item-active {
+    border-color: rgba(255,255,255,.4);
+    background: rgba(255,255,255,.12);
+    color: #fff;
+}`
+},
+{
+    id: 1670,
+    name: "Terminal Tabs",
+    preview: (
+        <div className="tab-1670">
+            <button className="tab-1670__item tab-1670__item--active">
+                ~/project
+            </button>
+            <button className="tab-1670__item">logs</button>
+            <button className="tab-1670__item">config</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">~/project</button>
+    <button class="Tabs-item">logs</button>
+    <button class="Tabs-item">config</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 2px;
+    padding: 4px 4px 0;
+    border-radius: 7px 7px 0 0;
+    background: #111827;
+    border-bottom: 1px solid #22c55e;
+}
+.Tabs-item {
+    padding: 8px 11px;
+    border: none;
+    border-radius: 6px 6px 0 0;
+    background: transparent;
+    color: #4ade80;
+    opacity: .4;
+    font-family: monospace;
+    font-size: 9px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    opacity: 1;
+    background: #020617;
+    color: #86efac;
+    box-shadow: inset 0 2px #22c55e;
+}`
+},
+{
+    id: 1671,
+    name: "Elegant Serif Tabs",
+    preview: (
+        <div className="tab-1671">
+            <button className="tab-1671__item tab-1671__item--active">
+                Collection
+            </button>
+            <button className="tab-1671__item">Journal</button>
+            <button className="tab-1671__item">About</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Collection</button>
+    <button class="Tabs-item">Journal</button>
+    <button class="Tabs-item">About</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 24px;
+    border-bottom: 1px solid #d6d3d1;
+}
+.Tabs-item {
+    position: relative;
+    padding: 10px 1px 12px;
+    border: none;
+    background: transparent;
+    color: #78716c;
+    font-family: Georgia,serif;
+    font-size: 11px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    color: #292524;
+}
+.Tabs-item-active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 1px;
+    background: #292524;
+}`
+},
+{
+    id: 1672,
+    name: "Rainbow Glass Tabs",
+    preview: (
+        <div className="tab-1672">
+            <button className="tab-1672__item tab-1672__item--active">
+                Magic
+            </button>
+            <button className="tab-1672__item">Studio</button>
+            <button className="tab-1672__item">Community</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">Magic</button>
+    <button class="Tabs-item">Studio</button>
+    <button class="Tabs-item">Community</button>
+</div>`,
+    css: `.Tabs {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 14px;
+    background: linear-gradient(135deg,rgba(239,68,68,.12),rgba(59,130,246,.12),rgba(168,85,247,.12));
+    backdrop-filter: blur(14px);
+}
+.Tabs-item {
+    padding: 9px 14px;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: rgba(255,255,255,.55);
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item-active {
+    border-color: rgba(255,255,255,.3);
+    background: linear-gradient(135deg,rgba(239,68,68,.25),rgba(168,85,247,.22));
+    color: #fff;
+    box-shadow: 0 0 18px rgba(168,85,247,.15);
+}`
+},
+{
+    id: 1673,
+    name: "Legendary Energy Tabs",
+    preview: (
+        <div className="tab-1673">
+            <button className="tab-1673__item tab-1673__item--active">
+                <i className="fa-solid fa-bolt"></i>
+                Energy
+            </button>
+            <button className="tab-1673__item">Power</button>
+            <button className="tab-1673__item">Velocity</button>
+        </div>
+    ),
+    html: `<div class="Tabs">
+    <button class="Tabs-item Tabs-item-active">
+        <i class="fa-solid fa-bolt"></i>
+        Energy
+    </button>
+    <button class="Tabs-item">Power</button>
+    <button class="Tabs-item">Velocity</button>
+</div>`,
+    css: `.Tabs {
+    position: relative;
+    display: flex;
+    gap: 4px;
+    padding: 5px;
+    overflow: hidden;
+    border: 1px solid #312e81;
+    border-radius: 13px;
+    background: #05050d;
+}
+.Tabs::before {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: 4%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(90deg,#22d3ee,#6366f1,#ec4899);
+    filter: blur(30px);
+    opacity: .2;
+    animation: energy-glow 3s ease-in-out infinite;
+}
+.Tabs-item {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 13px;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: #71717a;
+    font-size: 10px;
+    cursor: pointer;
+}
+.Tabs-item:hover {
+    color: #fff;
+}
+.Tabs-item-active {
+    border-color: rgba(255,255,255,.2);
+    background: rgba(255,255,255,.1);
+    color: #fff;
+    box-shadow: 0 0 18px rgba(99,102,241,.16);
+}
+.Tabs-item-active i {
+    color: #67e8f9;
+}
+@keyframes energy-glow {
+    50% {
+        transform: translateY(-50%) translateX(30px);
+        opacity: .3;
     }
+}`
+},
 ];
 
 
@@ -75817,7 +92031,2009 @@ export const skeletons = [
         ),
         #f4f4f5;
 }`
+    },
+    {
+    id: 1519,
+    name: "Profile Skeleton",
+    preview: (
+        <div className="skeleton-1519">
+            <div className="skeleton-1519__avatar"></div>
+            <div className="skeleton-1519__content">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-avatar"></div>
+    <div class="Skeleton-content">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 280px;
+    padding: 14px;
+    border-radius: 14px;
+    border: 1px solid #e4e4e7;
+    background: #fff;
+}
+.Skeleton-avatar {
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: linear-gradient(90deg,#e4e4e7,#f4f4f5,#e4e4e7);
+    background-size: 200% 100%;
+    animation: shimmer 1.4s infinite;
+}
+.Skeleton-content {
+    flex: 1;
+}
+.Skeleton-content span {
+    display: block;
+    height: 8px;
+    margin-bottom: 7px;
+    border-radius: 999px;
+    background: linear-gradient(90deg,#e4e4e7,#f4f4f5,#e4e4e7);
+    background-size: 200% 100%;
+    animation: shimmer 1.4s infinite;
+}
+.Skeleton-content span:nth-child(1) {
+    width: 72%;
+}
+.Skeleton-content span:nth-child(2) {
+    width: 100%;
+}
+.Skeleton-content span:nth-child(3) {
+    width: 52%;
+}
+@keyframes shimmer {
+    0% {
+        background-position: 200% 0;
     }
+    100% {
+        background-position: -200% 0;
+    }
+}`
+},
+{
+    id: 1520,
+    name: "Article Skeleton",
+    preview: (
+        <div className="skeleton-1520">
+            <div className="skeleton-1520__image"></div>
+            <div className="skeleton-1520__content">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-image"></div>
+    <div class="Skeleton-content">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    width: 320px;
+    overflow: hidden;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+    background: #fff;
+}
+.Skeleton-image {
+    height: 105px;
+    background: linear-gradient(110deg,#e4e4e7 30%,#f4f4f5 45%,#e4e4e7 60%);
+    background-size: 250% 100%;
+    animation: article-shimmer 1.5s linear infinite;
+}
+.Skeleton-content {
+    padding: 14px;
+}
+.Skeleton-content span {
+    display: block;
+    height: 8px;
+    margin-bottom: 8px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Skeleton-content span:nth-child(1) {
+    width: 35%;
+}
+.Skeleton-content span:nth-child(2) {
+    width: 90%;
+}
+.Skeleton-content span:nth-child(3) {
+    width: 100%;
+}
+.Skeleton-content span:nth-child(4) {
+    width: 65%;
+}
+@keyframes article-shimmer {
+    to {
+        background-position: -250% 0;
+    }
+}`
+},
+{
+    id: 1521,
+    name: "Dashboard Skeleton",
+    preview: (
+        <div className="skeleton-1521">
+            <span className="skeleton-1521__title"></span>
+            <div className="skeleton-1521__stats">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div className="skeleton-1521__chart"></div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <span class="Skeleton-title"></span>
+    <div class="Skeleton-stats">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="Skeleton-chart"></div>
+</div>`,
+    css: `.Skeleton {
+    width: 330px;
+    padding: 15px;
+    border: 1px solid #e4e4e7;
+    border-radius: 15px;
+    background: #fff;
+}
+.Skeleton-title {
+    display: block;
+    width: 35%;
+    height: 10px;
+    margin-bottom: 13px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Skeleton-stats {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 8px;
+}
+.Skeleton-stats span {
+    height: 50px;
+    border-radius: 10px;
+    background: #f4f4f5;
+}
+.Skeleton-chart {
+    height: 105px;
+    margin-top: 9px;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#f4f4f5 25%,#e4e4e7 25%,#e4e4e7 28%,#f4f4f5 28%);
+    background-size: 16px 16px;
+}`
+},
+{
+    id: 1522,
+    name: "Product Skeleton",
+    preview: (
+        <div className="skeleton-1522">
+            <div className="skeleton-1522__image"></div>
+            <div className="skeleton-1522__body">
+                <span></span>
+                <span></span>
+                <div>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-image"></div>
+    <div class="Skeleton-body">
+        <span></span>
+        <span></span>
+        <div>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    width: 220px;
+    overflow: hidden;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+    background: #fff;
+}
+.Skeleton-image {
+    height: 150px;
+    background: #f4f4f5;
+}
+.Skeleton-body {
+    padding: 13px;
+}
+.Skeleton-body > span {
+    display: block;
+    height: 8px;
+    margin-bottom: 8px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Skeleton-body > span:first-child {
+    width: 42%;
+}
+.Skeleton-body > span:nth-child(2) {
+    width: 80%;
+}
+.Skeleton-body > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+.Skeleton-body > div span {
+    width: 34%;
+    height: 9px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Skeleton-body > div span:last-child {
+    width: 22%;
+}`
+},
+{
+    id: 1523,
+    name: "Chat Skeleton",
+    preview: (
+        <div className="skeleton-1523">
+            <div className="skeleton-1523__message">
+                <span></span>
+                <div>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div className="skeleton-1523__message skeleton-1523__message--reverse">
+                <span></span>
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-message">
+        <span></span>
+        <div>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="Skeleton-message Skeleton-message-reverse">
+        <span></span>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    width: 310px;
+    padding: 14px;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+    background: #fff;
+}
+.Skeleton-message {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+.Skeleton-message > span {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #e4e4e7;
+}
+.Skeleton-message > div {
+    max-width: 72%;
+    padding: 9px 11px;
+    border-radius: 11px;
+    background: #f4f4f5;
+}
+.Skeleton-message > div span {
+    display: block;
+    height: 7px;
+    margin-bottom: 6px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Skeleton-message > div span:last-child {
+    width: 65%;
+    margin-bottom: 0;
+}
+.Skeleton-message--reverse {
+    flex-direction: row-reverse;
+}
+.Skeleton-message--reverse > div {
+    background: #e4e4e7;
+}`
+},
+{
+    id: 1524,
+    name: "Table Skeleton",
+    preview: (
+        <div className="skeleton-1524">
+            <div className="skeleton-1524__row skeleton-1524__row--head">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div className="skeleton-1524__row">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div className="skeleton-1524__row">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div className="skeleton-1524__row">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-row Skeleton-row-head">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="Skeleton-row">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="Skeleton-row">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="Skeleton-row">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    background: #fff;
+}
+.Skeleton-row {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr .8fr .6fr;
+    gap: 10px;
+    padding: 10px 6px;
+    border-top: 1px solid #f4f4f5;
+}
+.Skeleton-row span {
+    height: 7px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Skeleton-row span:nth-child(2) {
+    width: 80%;
+}
+.Skeleton-row span:nth-child(3) {
+    width: 65%;
+}
+.Skeleton-row span:nth-child(4) {
+    width: 55%;
+}
+.Skeleton-row--head {
+    border-top: none;
+}
+.Skeleton-row--head span {
+    background: #d4d4d8;
+}`
+},
+{
+    id: 1525,
+    name: "Feed Skeleton",
+    preview: (
+        <div className="skeleton-1525">
+            <div className="skeleton-1525__top">
+                <span></span>
+                <div>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div className="skeleton-1525__image"></div>
+            <div className="skeleton-1525__bottom">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-top">
+        <span></span>
+        <div>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="Skeleton-image"></div>
+    <div class="Skeleton-bottom">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    width: 300px;
+    padding: 13px;
+    border: 1px solid #e4e4e7;
+    border-radius: 15px;
+    background: #fff;
+}
+.Skeleton-top {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.Skeleton-top > span {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #e4e4e7;
+}
+.Skeleton-top > div {
+    flex: 1;
+}
+.Skeleton-top > div span {
+    display: block;
+    height: 7px;
+    margin-bottom: 6px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Skeleton-top > div span:last-child {
+    width: 55%;
+}
+.Skeleton-image {
+    height: 115px;
+    margin-top: 12px;
+    border-radius: 11px;
+    background: #f4f4f5;
+}
+.Skeleton-bottom {
+    display: flex;
+    gap: 8px;
+    margin-top: 11px;
+}
+.Skeleton-bottom span {
+    width: 30px;
+    height: 9px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}`
+},
+{
+    id: 1526,
+    name: "Video Skeleton",
+    preview: (
+        <div className="skeleton-1526">
+            <div className="skeleton-1526__video">
+                <i className="fa-solid fa-play"></i>
+            </div>
+            <div className="skeleton-1526__title"></div>
+            <div className="skeleton-1526__meta"></div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-video">
+        <i class="fa-solid fa-play"></i>
+    </div>
+    <div class="Skeleton-title"></div>
+    <div class="Skeleton-meta"></div>
+</div>`,
+    css: `.Skeleton {
+    width: 300px;
+}
+.Skeleton-video {
+    height: 165px;
+    display: grid;
+    place-items: center;
+    border-radius: 13px;
+    background: #e4e4e7;
+    color: #d4d4d8;
+}
+.Skeleton-video i {
+    font-size: 20px;
+}
+.Skeleton-title {
+    width: 75%;
+    height: 10px;
+    margin-top: 12px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Skeleton-meta {
+    width: 42%;
+    height: 8px;
+    margin-top: 7px;
+    border-radius: 999px;
+    background: #f4f4f5;
+}`
+},
+{
+    id: 1527,
+    name: "Pricing Skeleton",
+    preview: (
+        <div className="skeleton-1527">
+            <span className="skeleton-1527__small"></span>
+            <span className="skeleton-1527__price"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <button disabled>Choose plan</button>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <span class="Skeleton-small"></span>
+    <span class="Skeleton-price"></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <button disabled>Choose plan</button>
+</div>`,
+    css: `.Skeleton {
+    width: 210px;
+    padding: 18px;
+    border: 1px solid #e4e4e7;
+    border-radius: 15px;
+    background: #fff;
+}
+.Skeleton-small {
+    display: block;
+    width: 35%;
+    height: 8px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Skeleton-price {
+    display: block;
+    width: 55%;
+    height: 25px;
+    margin: 14px 0;
+    border-radius: 6px;
+    background: #e4e4e7;
+}
+.Skeleton > span:not(.Skeleton-small):not(.Skeleton-price) {
+    display: block;
+    width: 100%;
+    height: 7px;
+    margin-bottom: 8px;
+    border-radius: 999px;
+    background: #f4f4f5;
+}
+.Skeleton > span:nth-of-type(4) {
+    width: 78%;
+}
+.Skeleton > span:nth-of-type(5) {
+    width: 60%;
+}
+.Skeleton button {
+    width: 100%;
+    height: 34px;
+    margin-top: 11px;
+    border: none;
+    border-radius: 8px;
+    background: #e4e4e7;
+    color: #a1a1aa;
+}`
+},
+{
+    id: 1528,
+    name: "Search Skeleton",
+    preview: (
+        <div className="skeleton-1528">
+            <div className="skeleton-1528__search">
+                <i className="fa-solid fa-magnifying-glass"></i>
+                <span></span>
+            </div>
+            <div className="skeleton-1528__result">
+                <span></span>
+                <div>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div className="skeleton-1528__result">
+                <span></span>
+                <div>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <span></span>
+    </div>
+    <div class="Skeleton-result">
+        <span></span>
+        <div>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="Skeleton-result">
+        <span></span>
+        <div>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    width: 310px;
+    padding: 12px;
+    border: 1px solid #e4e4e7;
+    border-radius: 13px;
+    background: #fff;
+}
+.Skeleton-search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 36px;
+    padding: 0 10px;
+    border-radius: 9px;
+    background: #f4f4f5;
+    color: #d4d4d8;
+}
+.Skeleton-search span {
+    width: 45%;
+    height: 7px;
+    border-radius: 999px;
+    background: #d4d4d8;
+}
+.Skeleton-result {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 13px;
+}
+.Skeleton-result > span {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    background: #e4e4e7;
+}
+.Skeleton-result > div {
+    flex: 1;
+}
+.Skeleton-result > div span {
+    display: block;
+    width: 85%;
+    height: 7px;
+    margin-bottom: 6px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Skeleton-result > div span:last-child {
+    width: 55%;
+}`
+},
+{
+    id: 1529,
+    name: "Comments Skeleton",
+    preview: (
+        <div className="skeleton-1529">
+            <div className="skeleton-1529__comment">
+                <span></span>
+                <div>
+                    <strong></strong>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+            <div className="skeleton-1529__comment">
+                <span></span>
+                <div>
+                    <strong></strong>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-comment">
+        <span></span>
+        <div>
+            <strong></strong>
+            <p></p>
+            <p></p>
+        </div>
+    </div>
+    <div class="Skeleton-comment">
+        <span></span>
+        <div>
+            <strong></strong>
+            <p></p>
+            <p></p>
+        </div>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    width: 310px;
+    padding: 14px;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+    background: #fff;
+}
+.Skeleton-comment {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+.Skeleton-comment:last-child {
+    margin-bottom: 0;
+}
+.Skeleton-comment > span {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #e4e4e7;
+}
+.Skeleton-comment > div {
+    flex: 1;
+}
+.Skeleton-comment strong {
+    display: block;
+    width: 32%;
+    height: 8px;
+    margin-bottom: 8px;
+    border-radius: 999px;
+    background: #d4d4d8;
+}
+.Skeleton-comment p {
+    width: 100%;
+    height: 7px;
+    margin: 0 0 6px;
+    border-radius: 999px;
+    background: #f4f4f5;
+}
+.Skeleton-comment p:last-child {
+    width: 72%;
+}`
+},
+{
+    id: 1530,
+    name: "Stats Skeleton",
+    preview: (
+        <div className="skeleton-1530">
+            <div>
+                <span></span>
+                <strong></strong>
+            </div>
+            <div>
+                <span></span>
+                <strong></strong>
+            </div>
+            <div>
+                <span></span>
+                <strong></strong>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div>
+        <span></span>
+        <strong></strong>
+    </div>
+    <div>
+        <span></span>
+        <strong></strong>
+    </div>
+    <div>
+        <span></span>
+        <strong></strong>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 8px;
+    width: 320px;
+}
+.Skeleton > div {
+    padding: 13px;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    background: #fff;
+}
+.Skeleton span {
+    display: block;
+    width: 45%;
+    height: 7px;
+    margin-bottom: 10px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Skeleton strong {
+    display: block;
+    width: 75%;
+    height: 18px;
+    border-radius: 6px;
+    background: #e4e4e7;
+}`
+},
+{
+    id: 1531,
+    name: "Navigation Skeleton",
+    preview: (
+        <div className="skeleton-1531">
+            <span className="skeleton-1531__logo"></span>
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <span className="skeleton-1531__avatar"></span>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <span class="Skeleton-logo"></span>
+    <div>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <span class="Skeleton-avatar"></span>
+</div>`,
+    css: `.Skeleton {
+    width: 330px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 0 13px;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    background: #fff;
+}
+.Skeleton-logo {
+    width: 27px;
+    height: 27px;
+    border-radius: 8px;
+    background: #e4e4e7;
+}
+.Skeleton > div {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    flex: 1;
+}
+.Skeleton > div span {
+    width: 40px;
+    height: 7px;
+    border-radius: 999px;
+    background: #f4f4f5;
+}
+.Skeleton-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #e4e4e7;
+}`
+},
+{
+    id: 1532,
+    name: "Form Skeleton",
+    preview: (
+        <div className="skeleton-1532">
+            <span></span>
+            <div></div>
+            <span></span>
+            <div></div>
+            <button disabled>Submit</button>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <span></span>
+    <div></div>
+    <span></span>
+    <div></div>
+    <button disabled>Submit</button>
+</div>`,
+    css: `.Skeleton {
+    width: 270px;
+    padding: 16px;
+    border: 1px solid #e4e4e7;
+    border-radius: 13px;
+    background: #fff;
+}
+.Skeleton > span {
+    display: block;
+    width: 25%;
+    height: 7px;
+    margin-bottom: 7px;
+    border-radius: 999px;
+    background: #d4d4d8;
+}
+.Skeleton > div {
+    width: 100%;
+    height: 38px;
+    margin-bottom: 13px;
+    border-radius: 8px;
+    background: #f4f4f5;
+}
+.Skeleton button {
+    width: 100%;
+    height: 36px;
+    border: none;
+    border-radius: 8px;
+    background: #e4e4e7;
+    color: #a1a1aa;
+}`
+},
+{
+    id: 1533,
+    name: "Calendar Skeleton",
+    preview: (
+        <div className="skeleton-1533">
+            <div className="skeleton-1533__header">
+                <span></span>
+                <span></span>
+            </div>
+            <div className="skeleton-1533__grid">
+                {Array.from({ length: 21 }).map((_, index) => (
+                    <span key={index}></span>
+                ))}
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-header">
+        <span></span>
+        <span></span>
+    </div>
+    <div class="Skeleton-grid">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    width: 240px;
+    padding: 14px;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+    background: #fff;
+}
+.Skeleton-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+.Skeleton-header span {
+    width: 55px;
+    height: 9px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Skeleton-header span:last-child {
+    width: 35px;
+}
+.Skeleton-grid {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 6px;
+}
+.Skeleton-grid span {
+    aspect-ratio: 1;
+    border-radius: 6px;
+    background: #f4f4f5;
+}`
+},
+{
+    id: 1534,
+    name: "Stats Chart Skeleton",
+    preview: (
+        <div className="skeleton-1534">
+            <span className="skeleton-1534__title"></span>
+            <div className="skeleton-1534__bars">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <span class="Skeleton-title"></span>
+    <div class="Skeleton-bars">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+    background: #fff;
+}
+.Skeleton-title {
+    display: block;
+    width: 30%;
+    height: 8px;
+    margin-bottom: 20px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Skeleton-bars {
+    height: 105px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+}
+.Skeleton-bars span {
+    flex: 1;
+    min-height: 25%;
+    border-radius: 7px 7px 2px 2px;
+    background: linear-gradient(#e4e4e7,#f4f4f5);
+}
+.Skeleton-bars span:nth-child(1) {
+    height: 42%;
+}
+.Skeleton-bars span:nth-child(2) {
+    height: 72%;
+}
+.Skeleton-bars span:nth-child(3) {
+    height: 54%;
+}
+.Skeleton-bars span:nth-child(4) {
+    height: 88%;
+}
+.Skeleton-bars span:nth-child(5) {
+    height: 64%;
+}
+.Skeleton-bars span:nth-child(6) {
+    height: 78%;
+}`
+},
+{
+    id: 1535,
+    name: "Ecommerce List Skeleton",
+    preview: (
+        <div className="skeleton-1535">
+            <div>
+                <span></span>
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div>
+                <span></span>
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div>
+        <span></span>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div>
+        <span></span>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    width: 310px;
+    padding: 13px;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+    background: #fff;
+}
+.Skeleton > div {
+    display: flex;
+    gap: 10px;
+    padding: 9px 0;
+    border-bottom: 1px solid #f4f4f5;
+}
+.Skeleton > div:last-child {
+    border-bottom: none;
+}
+.Skeleton > div > span {
+    width: 46px;
+    height: 46px;
+    border-radius: 9px;
+    background: #e4e4e7;
+}
+.Skeleton > div > div {
+    flex: 1;
+}
+.Skeleton > div > div span {
+    display: block;
+    height: 7px;
+    margin-bottom: 7px;
+    border-radius: 999px;
+    background: #f4f4f5;
+}
+.Skeleton > div > div span:first-child {
+    width: 72%;
+}
+.Skeleton > div > div span:nth-child(2) {
+    width: 90%;
+}`
+},
+{
+    id: 1536,
+    name: "Team Skeleton",
+    preview: (
+        <div className="skeleton-1536">
+            <div>
+                <span></span>
+                <div>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div>
+                <span></span>
+                <div>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div>
+                <span></span>
+                <div>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div>
+        <span></span>
+        <div>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div>
+        <span></span>
+        <div>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div>
+        <span></span>
+        <div>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    width: 280px;
+    padding: 13px;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+    background: #fff;
+}
+.Skeleton > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+.Skeleton > div:last-child {
+    margin-bottom: 0;
+}
+.Skeleton > div > span {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #e4e4e7;
+}
+.Skeleton > div > div {
+    flex: 1;
+}
+.Skeleton > div > div span {
+    display: block;
+    width: 70%;
+    height: 7px;
+    margin-bottom: 6px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Skeleton > div > div span:last-child {
+    width: 45%;
+    background: #f4f4f5;
+}`
+},
+{
+    id: 1537,
+    name: "Hero Skeleton",
+    preview: (
+        <div className="skeleton-1537">
+            <div className="skeleton-1537__copy">
+                <span></span>
+                <strong></strong>
+                <p></p>
+                <p></p>
+                <div>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div className="skeleton-1537__visual"></div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-copy">
+        <span></span>
+        <strong></strong>
+        <p></p>
+        <p></p>
+        <div>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="Skeleton-visual"></div>
+</div>`,
+    css: `.Skeleton {
+    width: 360px;
+    min-height: 185px;
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    gap: 15px;
+    padding: 18px;
+    border-radius: 15px;
+    background: #fff;
+    border: 1px solid #e4e4e7;
+}
+.Skeleton-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Skeleton-copy > span {
+    width: 35%;
+    height: 7px;
+    margin-bottom: 10px;
+    border-radius: 999px;
+    background: #d4d4d8;
+}
+.Skeleton-copy strong {
+    width: 85%;
+    height: 19px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    background: #e4e4e7;
+}
+.Skeleton-copy p {
+    width: 100%;
+    height: 6px;
+    margin: 0 0 6px;
+    border-radius: 999px;
+    background: #f4f4f5;
+}
+.Skeleton-copy p:nth-of-type(2) {
+    width: 78%;
+}
+.Skeleton-copy > div {
+    display: flex;
+    gap: 7px;
+    margin-top: 10px;
+}
+.Skeleton-copy > div span {
+    width: 62px;
+    height: 28px;
+    border-radius: 7px;
+    background: #e4e4e7;
+}
+.Skeleton-copy > div span:last-child {
+    width: 45px;
+    background: #f4f4f5;
+}
+.Skeleton-visual {
+    border-radius: 12px;
+    background: linear-gradient(135deg,#e4e4e7,#f4f4f5);
+}`
+},
+{
+    id: 1538,
+    name: "App Card Skeleton",
+    preview: (
+        <div className="skeleton-1538">
+            <div className="skeleton-1538__icon"></div>
+            <div className="skeleton-1538__body">
+                <strong></strong>
+                <span></span>
+                <span></span>
+            </div>
+            <div className="skeleton-1538__button"></div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-icon"></div>
+    <div class="Skeleton-body">
+        <strong></strong>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="Skeleton-button"></div>
+</div>`,
+    css: `.Skeleton {
+    width: 310px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 13px;
+    border: 1px solid #e4e4e7;
+    border-radius: 14px;
+    background: #fff;
+}
+.Skeleton-icon {
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #e4e4e7;
+}
+.Skeleton-body {
+    flex: 1;
+}
+.Skeleton-body strong {
+    display: block;
+    width: 70%;
+    height: 9px;
+    margin-bottom: 7px;
+    border-radius: 999px;
+    background: #d4d4d8;
+}
+.Skeleton-body span {
+    display: block;
+    width: 100%;
+    height: 6px;
+    margin-bottom: 6px;
+    border-radius: 999px;
+    background: #f4f4f5;
+}
+.Skeleton-body span:last-child {
+    width: 62%;
+}
+.Skeleton-button {
+    width: 62px;
+    height: 30px;
+    border-radius: 8px;
+    background: #e4e4e7;
+}`
+},{
+    id: 1539,
+    name: "Legendary Dashboard Skeleton",
+    preview: (
+        <div className="skeleton-1539">
+            <div className="skeleton-1539__top">
+                <span></span>
+                <div>
+                    <span></span>
+                    <span></span>
+                </div>
+                <span></span>
+            </div>
+            <div className="skeleton-1539__cards">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div className="skeleton-1539__main">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-top">
+        <span></span>
+        <div>
+            <span></span>
+            <span></span>
+        </div>
+        <span></span>
+    </div>
+    <div class="Skeleton-cards">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="Skeleton-main">
+        <div></div>
+        <div></div>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    width: 380px;
+    padding: 14px;
+    border: 1px solid #27272a;
+    border-radius: 16px;
+    background: #09090b;
+}
+.Skeleton-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+.Skeleton-top > span:first-child {
+    width: 32px;
+    height: 32px;
+    border-radius: 9px;
+    background: #27272a;
+}
+.Skeleton-top > div {
+    flex: 1;
+}
+.Skeleton-top > div span {
+    display: block;
+    width: 35%;
+    height: 7px;
+    margin-bottom: 5px;
+    border-radius: 999px;
+    background: #27272a;
+}
+.Skeleton-top > div span:last-child {
+    width: 22%;
+    background: #18181b;
+}
+.Skeleton-top > span:last-child {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #27272a;
+}
+.Skeleton-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    margin-bottom: 9px;
+}
+.Skeleton-cards span {
+    height: 52px;
+    border-radius: 9px;
+    background: linear-gradient(110deg,#18181b 30%,#27272a 45%,#18181b 60%);
+    background-size: 250% 100%;
+    animation: legendary-dashboard 1.7s linear infinite;
+}
+.Skeleton-main {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 8px;
+}
+.Skeleton-main div {
+    height: 105px;
+    border-radius: 10px;
+    background: #18181b;
+}
+.Skeleton-main div:first-child {
+    background: linear-gradient(110deg,#18181b 30%,#27272a 45%,#18181b 60%);
+    background-size: 250% 100%;
+    animation: legendary-dashboard 1.7s linear infinite;
+}
+@keyframes legendary-dashboard {
+    to {
+        background-position: -250% 0;
+    }
+}`
+},
+{
+    id: 1540,
+    name: "Legendary Profile Skeleton",
+    preview: (
+        <div className="skeleton-1540">
+            <div className="skeleton-1540__cover"></div>
+            <div className="skeleton-1540__avatar"></div>
+            <div className="skeleton-1540__body">
+                <strong></strong>
+                <span></span>
+                <span></span>
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-cover"></div>
+    <div class="Skeleton-avatar"></div>
+    <div class="Skeleton-body">
+        <strong></strong>
+        <span></span>
+        <span></span>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid #e4e4e7;
+    border-radius: 16px;
+    background: #fff;
+}
+.Skeleton-cover {
+    height: 92px;
+    background: linear-gradient(135deg,#dbeafe,#e0e7ff,#f5f3ff);
+}
+.Skeleton-avatar {
+    position: absolute;
+    top: 60px;
+    left: 18px;
+    width: 64px;
+    height: 64px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background: #e4e4e7;
+}
+.Skeleton-body {
+    padding: 43px 18px 18px;
+}
+.Skeleton-body strong {
+    display: block;
+    width: 42%;
+    height: 11px;
+    margin-bottom: 8px;
+    border-radius: 999px;
+    background: #d4d4d8;
+}
+.Skeleton-body > span {
+    display: block;
+    width: 80%;
+    height: 7px;
+    margin-bottom: 7px;
+    border-radius: 999px;
+    background: #f4f4f5;
+}
+.Skeleton-body > span:nth-child(3) {
+    width: 58%;
+}
+.Skeleton-body > div {
+    display: flex;
+    gap: 7px;
+    margin-top: 15px;
+}
+.Skeleton-body > div span {
+    width: 48px;
+    height: 25px;
+    border-radius: 7px;
+    background: #e4e4e7;
+}`
+},
+{
+    id: 1541,
+    name: "Legendary Analytics Skeleton",
+    preview: (
+        <div className="skeleton-1541">
+            <div className="skeleton-1541__header">
+                <span></span>
+                <span></span>
+            </div>
+            <div className="skeleton-1541__chart">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div className="skeleton-1541__legend">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-header">
+        <span></span>
+        <span></span>
+    </div>
+    <div class="Skeleton-chart">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="Skeleton-legend">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    width: 340px;
+    padding: 16px;
+    border: 1px solid #e4e4e7;
+    border-radius: 16px;
+    background: #fff;
+}
+.Skeleton-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.Skeleton-header span:first-child {
+    width: 34%;
+    height: 10px;
+    border-radius: 999px;
+    background: #d4d4d8;
+}
+.Skeleton-header span:last-child {
+    width: 42px;
+    height: 25px;
+    border-radius: 7px;
+    background: #f4f4f5;
+}
+.Skeleton-chart {
+    position: relative;
+    height: 130px;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 11px;
+    background: linear-gradient(180deg,#fafafa,#f4f4f5);
+}
+.Skeleton-chart::before,
+.Skeleton-chart::after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    height: 1px;
+    background: #e4e4e7;
+}
+.Skeleton-chart::before {
+    top: 42px;
+}
+.Skeleton-chart::after {
+    top: 82px;
+}
+.Skeleton-chart span {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    border-radius: 7px 7px 3px 3px;
+    background: linear-gradient(#d4d4d8,#e4e4e7);
+}
+.Skeleton-chart span:nth-child(1) {
+    height: 38%;
+}
+.Skeleton-chart span:nth-child(2) {
+    height: 60%;
+}
+.Skeleton-chart span:nth-child(3) {
+    height: 48%;
+}
+.Skeleton-chart span:nth-child(4) {
+    height: 78%;
+}
+.Skeleton-chart span:nth-child(5) {
+    height: 65%;
+}
+.Skeleton-chart span:nth-child(6) {
+    height: 88%;
+}
+.Skeleton-legend {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+.Skeleton-legend span {
+    width: 45px;
+    height: 7px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}`
+},
+{
+    id: 1542,
+    name: "Legendary Ecommerce Skeleton",
+    preview: (
+        <div className="skeleton-1542">
+            <div className="skeleton-1542__image"></div>
+            <div className="skeleton-1542__content">
+                <span className="skeleton-1542__badge"></span>
+                <strong></strong>
+                <span></span>
+                <span></span>
+                <div>
+                    <span></span>
+                    <button disabled></button>
+                </div>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-image"></div>
+    <div class="Skeleton-content">
+        <span class="Skeleton-badge"></span>
+        <strong></strong>
+        <span></span>
+        <span></span>
+        <div>
+            <span></span>
+            <button disabled></button>
+        </div>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    width: 240px;
+    overflow: hidden;
+    border: 1px solid #e4e4e7;
+    border-radius: 15px;
+    background: #fff;
+}
+.Skeleton-image {
+    height: 155px;
+    background: linear-gradient(135deg,#f1f5f9,#e2e8f0,#f8fafc);
+}
+.Skeleton-content {
+    padding: 14px;
+}
+.Skeleton-badge {
+    display: block;
+    width: 42px;
+    height: 15px;
+    margin-bottom: 10px;
+    border-radius: 999px;
+    background: #e4e4e7;
+}
+.Skeleton-content strong {
+    display: block;
+    width: 72%;
+    height: 11px;
+    margin-bottom: 9px;
+    border-radius: 999px;
+    background: #d4d4d8;
+}
+.Skeleton-content > span {
+    display: block;
+    width: 100%;
+    height: 7px;
+    margin-bottom: 7px;
+    border-radius: 999px;
+    background: #f4f4f5;
+}
+.Skeleton-content > span:nth-child(4) {
+    width: 62%;
+}
+.Skeleton-content > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+.Skeleton-content > div span {
+    width: 48px;
+    height: 11px;
+    border-radius: 999px;
+    background: #d4d4d8;
+}
+.Skeleton-content button {
+    width: 65px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background: #e4e4e7;
+}`
+},
+{
+    id: 1543,
+    name: "Legendary Command Center Skeleton",
+    preview: (
+        <div className="skeleton-1543">
+            <div className="skeleton-1543__sidebar">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div className="skeleton-1543__content">
+                <div className="skeleton-1543__title"></div>
+                <div className="skeleton-1543__cards">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div className="skeleton-1543__panel"></div>
+            </div>
+        </div>
+    ),
+    html: `<div class="Skeleton">
+    <div class="Skeleton-sidebar">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="Skeleton-content">
+        <div class="Skeleton-title"></div>
+        <div class="Skeleton-cards">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="Skeleton-panel"></div>
+    </div>
+</div>`,
+    css: `.Skeleton {
+    width: 380px;
+    min-height: 190px;
+    display: grid;
+    grid-template-columns: 68px 1fr;
+    overflow: hidden;
+    border: 1px solid #27272a;
+    border-radius: 15px;
+    background: #09090b;
+}
+.Skeleton-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding: 13px 10px;
+    border-right: 1px solid #18181b;
+}
+.Skeleton-sidebar span {
+    width: 100%;
+    height: 25px;
+    border-radius: 7px;
+    background: #18181b;
+}
+.Skeleton-sidebar span:first-child {
+    width: 34px;
+    height: 34px;
+    align-self: center;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    background: #27272a;
+}
+.Skeleton-content {
+    padding: 15px;
+}
+.Skeleton-title {
+    width: 42%;
+    height: 10px;
+    margin-bottom: 14px;
+    border-radius: 999px;
+    background: #27272a;
+}
+.Skeleton-cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7px;
+}
+.Skeleton-cards span {
+    height: 42px;
+    border-radius: 8px;
+    background: #18181b;
+}
+.Skeleton-panel {
+    height: 78px;
+    margin-top: 8px;
+    border-radius: 9px;
+    background: linear-gradient(110deg,#18181b 30%,#27272a 45%,#18181b 60%);
+    background-size: 250% 100%;
+    animation: command-skeleton 1.6s linear infinite;
+}
+@keyframes command-skeleton {
+    to {
+        background-position: -250% 0;
+    }
+}`
+},
 ];
 
 
@@ -76070,7 +94286,1170 @@ export const sidebars = [
 .Sidebar-bottom {
     margin-top: auto;
 }`
-    }
+    },{
+    id: 1544,
+    name: "Dark Dashboard Sidebar",
+    preview: (
+        <aside className="sb-1544">
+            <div className="sb-1544__brand">
+                <div className="sb-1544__brand-icon">
+                    <i className="fa-solid fa-cube"></i>
+                </div>
+                <span>Dashboard</span>
+            </div>
+            <nav>
+                <a href="#" className="sb-1544__link sb-1544__link--active">
+                    <i className="fa-solid fa-house"></i>
+                    Overview
+                </a>
+                <a href="#" className="sb-1544__link">
+                    <i className="fa-solid fa-chart-line"></i>
+                    Analytics
+                </a>
+                <a href="#" className="sb-1544__link">
+                    <i className="fa-solid fa-folder"></i>
+                    Projects
+                </a>
+                <a href="#" className="sb-1544__link">
+                    <i className="fa-solid fa-users"></i>
+                    Team
+                </a>
+            </nav>
+            <div className="sb-1544__bottom">
+                <a href="#" className="sb-1544__link">
+                    <i className="fa-solid fa-gear"></i>
+                    Settings
+                </a>
+                <div className="sb-1544__profile">
+                    <div className="sb-1544__avatar">A</div>
+                    <div>
+                        <strong>André</strong>
+                        <span>Developer</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    ),
+    html: `<aside class="Sidebar">
+    <div class="Sidebar-brand">
+        <div class="Sidebar-brand-icon">
+            <i class="fa-solid fa-cube"></i>
+        </div>
+        <span>Dashboard</span>
+    </div>
+    <nav>
+        <a href="#" class="Sidebar-link Sidebar-link-active">
+            <i class="fa-solid fa-house"></i>
+            Overview
+        </a>
+        <a href="#" class="Sidebar-link">
+            <i class="fa-solid fa-chart-line"></i>
+            Analytics
+        </a>
+        <a href="#" class="Sidebar-link">
+            <i class="fa-solid fa-folder"></i>
+            Projects
+        </a>
+        <a href="#" class="Sidebar-link">
+            <i class="fa-solid fa-users"></i>
+            Team
+        </a>
+    </nav>
+    <div class="Sidebar-bottom">
+        <a href="#" class="Sidebar-link">
+            <i class="fa-solid fa-gear"></i>
+            Settings
+        </a>
+        <div class="Sidebar-profile">
+            <div class="Sidebar-avatar">A</div>
+            <div>
+                <strong>André</strong>
+                <span>Developer</span>
+            </div>
+        </div>
+    </div>
+</aside>`,
+    css: `.Sidebar {
+    width: 220px;
+    min-height: 390px;
+    display: flex;
+    flex-direction: column;
+    padding: 18px 12px;
+    box-sizing: border-box;
+    border: 1px solid #27272a;
+    border-radius: 16px;
+    background: #09090b;
+    color: #fff;
+}
+.Sidebar-brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 4px 8px 20px;
+    font-size: 14px;
+    font-weight: 800;
+}
+.Sidebar-brand-icon {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: #2563eb;
+}
+.Sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.Sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 11px;
+    border-radius: 9px;
+    color: #a1a1aa;
+    text-decoration: none;
+    font-size: 12px;
+    transition: .2s ease;
+}
+.Sidebar-link:hover,
+.Sidebar-link-active {
+    background: #18181b;
+    color: #fff;
+}
+.Sidebar-link i {
+    width: 16px;
+    text-align: center;
+}
+.Sidebar-bottom {
+    margin-top: auto;
+}
+.Sidebar-profile {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 13px;
+    padding: 10px;
+    border-top: 1px solid #27272a;
+}
+.Sidebar-avatar {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 800;
+}
+.Sidebar-profile strong,
+.Sidebar-profile span {
+    display: block;
+}
+.Sidebar-profile strong {
+    font-size: 11px;
+}
+.Sidebar-profile span {
+    margin-top: 2px;
+    color: #71717a;
+    font-size: 9px;
+}`
+},
+{
+    id: 1545,
+    name: "Floating Sidebar",
+    preview: (
+        <aside className="sb-1545">
+            <div className="sb-1545__logo">
+                <i className="fa-solid fa-layer-group"></i>
+            </div>
+            <a href="#" className="sb-1545__item sb-1545__item--active">
+                <i className="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+            <a href="#" className="sb-1545__item">
+                <i className="fa-solid fa-bag-shopping"></i>
+                <span>Orders</span>
+            </a>
+            <a href="#" className="sb-1545__item">
+                <i className="fa-solid fa-heart"></i>
+                <span>Favorites</span>
+            </a>
+            <a href="#" className="sb-1545__item">
+                <i className="fa-solid fa-message"></i>
+                <span>Messages</span>
+            </a>
+            <a href="#" className="sb-1545__item">
+                <i className="fa-solid fa-gear"></i>
+                <span>Settings</span>
+            </a>
+        </aside>
+    ),
+    html: `<aside class="Sidebar">
+    <div class="Sidebar-logo">
+        <i class="fa-solid fa-layer-group"></i>
+    </div>
+    <a href="#" class="Sidebar-item Sidebar-item-active">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+    </a>
+    <a href="#" class="Sidebar-item">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span>Orders</span>
+    </a>
+    <a href="#" class="Sidebar-item">
+        <i class="fa-solid fa-heart"></i>
+        <span>Favorites</span>
+    </a>
+    <a href="#" class="Sidebar-item">
+        <i class="fa-solid fa-message"></i>
+        <span>Messages</span>
+    </a>
+    <a href="#" class="Sidebar-item">
+        <i class="fa-solid fa-gear"></i>
+        <span>Settings</span>
+    </a>
+</aside>`,
+    css: `.Sidebar {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 14px;
+    border: 1px solid #e4e4e7;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0 12px 30px rgba(0,0,0,.08);
+}
+.Sidebar-logo {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 9px;
+    border-radius: 11px;
+    background: #18181b;
+    color: #fff;
+}
+.Sidebar-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 11px;
+    border-radius: 10px;
+    color: #71717a;
+    text-decoration: none;
+    font-size: 11px;
+    transition: .2s ease;
+}
+.Sidebar-item:hover,
+.Sidebar-item-active {
+    background: #f4f4f5;
+    color: #18181b;
+}
+.Sidebar-item-active {
+    font-weight: 700;
+}`
+},
+{
+    id: 1546,
+    name: "Compact Icon Sidebar",
+    preview: (
+        <aside className="sb-1546">
+            <div className="sb-1546__brand">
+                <i className="fa-solid fa-bolt"></i>
+            </div>
+            <a href="#" className="sb-1546__item sb-1546__item--active">
+                <i className="fa-solid fa-house"></i>
+            </a>
+            <a href="#" className="sb-1546__item">
+                <i className="fa-solid fa-chart-column"></i>
+            </a>
+            <a href="#" className="sb-1546__item">
+                <i className="fa-solid fa-users"></i>
+            </a>
+            <a href="#" className="sb-1546__item">
+                <i className="fa-solid fa-folder"></i>
+            </a>
+            <div className="sb-1546__spacer"></div>
+            <a href="#" className="sb-1546__item">
+                <i className="fa-solid fa-gear"></i>
+            </a>
+        </aside>
+    ),
+    html: `<aside class="Sidebar">
+    <div class="Sidebar-brand">
+        <i class="fa-solid fa-bolt"></i>
+    </div>
+    <a href="#" class="Sidebar-item Sidebar-item-active">
+        <i class="fa-solid fa-house"></i>
+    </a>
+    <a href="#" class="Sidebar-item">
+        <i class="fa-solid fa-chart-column"></i>
+    </a>
+    <a href="#" class="Sidebar-item">
+        <i class="fa-solid fa-users"></i>
+    </a>
+    <a href="#" class="Sidebar-item">
+        <i class="fa-solid fa-folder"></i>
+    </a>
+    <div class="Sidebar-spacer"></div>
+    <a href="#" class="Sidebar-item">
+        <i class="fa-solid fa-gear"></i>
+    </a>
+</aside>`,
+    css: `.Sidebar {
+    width: 58px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 7px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background: #111827;
+}
+.Sidebar-brand {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 8px;
+    border-radius: 11px;
+    background: #2563eb;
+    color: #fff;
+}
+.Sidebar-item {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    color: #6b7280;
+    text-decoration: none;
+    transition: .2s ease;
+}
+.Sidebar-item:hover,
+.Sidebar-item-active {
+    background: #1f2937;
+    color: #fff;
+}
+.Sidebar-spacer {
+    flex: 1;
+}`
+},
+{
+    id: 1547,
+    name: "Glass Sidebar",
+    preview: (
+        <aside className="sb-1547">
+            <div className="sb-1547__title">
+                <i className="fa-solid fa-sparkles"></i>
+                Workspace
+            </div>
+            <a href="#" className="sb-1547__link sb-1547__link--active">
+                <i className="fa-solid fa-house"></i>
+                Overview
+            </a>
+            <a href="#" className="sb-1547__link">
+                <i className="fa-solid fa-folder-open"></i>
+                Files
+            </a>
+            <a href="#" className="sb-1547__link">
+                <i className="fa-solid fa-users"></i>
+                Members
+            </a>
+            <a href="#" className="sb-1547__link">
+                <i className="fa-solid fa-sliders"></i>
+                Preferences
+            </a>
+        </aside>
+    ),
+    html: `<aside class="Sidebar">
+    <div class="Sidebar-title">
+        <i class="fa-solid fa-sparkles"></i>
+        Workspace
+    </div>
+    <a href="#" class="Sidebar-link Sidebar-link-active">
+        <i class="fa-solid fa-house"></i>
+        Overview
+    </a>
+    <a href="#" class="Sidebar-link">
+        <i class="fa-solid fa-folder-open"></i>
+        Files
+    </a>
+    <a href="#" class="Sidebar-link">
+        <i class="fa-solid fa-users"></i>
+        Members
+    </a>
+    <a href="#" class="Sidebar-link">
+        <i class="fa-solid fa-sliders"></i>
+        Preferences
+    </a>
+</aside>`,
+    css: `.Sidebar {
+    width: 205px;
+    min-height: 320px;
+    padding: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255,255,255,.28);
+    border-radius: 18px;
+    background: linear-gradient(145deg,rgba(255,255,255,.16),rgba(255,255,255,.06));
+    backdrop-filter: blur(16px);
+    color: #fff;
+    box-shadow: 0 20px 40px rgba(0,0,0,.15);
+}
+.Sidebar-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 18px;
+    font-size: 13px;
+    font-weight: 800;
+}
+.Sidebar-title i {
+    color: #67e8f9;
+}
+.Sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 5px;
+    padding: 10px 11px;
+    border-radius: 10px;
+    color: rgba(255,255,255,.62);
+    text-decoration: none;
+    font-size: 11px;
+    transition: .2s ease;
+}
+.Sidebar-link:hover,
+.Sidebar-link-active {
+    background: rgba(255,255,255,.12);
+    color: #fff;
+}`
+},
+{
+    id: 1548,
+    name: "Gradient Sidebar",
+    preview: (
+        <aside className="sb-1548">
+            <div className="sb-1548__brand">
+                <div>
+                    <i className="fa-solid fa-rocket"></i>
+                </div>
+                Launchpad
+            </div>
+            <a href="#" className="sb-1548__link sb-1548__link--active">
+                <i className="fa-solid fa-grid-2"></i>
+                Dashboard
+            </a>
+            <a href="#" className="sb-1548__link">
+                <i className="fa-solid fa-code"></i>
+                Development
+            </a>
+            <a href="#" className="sb-1548__link">
+                <i className="fa-solid fa-database"></i>
+                Database
+            </a>
+            <a href="#" className="sb-1548__link">
+                <i className="fa-solid fa-cloud"></i>
+                Deployments
+            </a>
+        </aside>
+    ),
+    html: `<aside class="Sidebar">
+    <div class="Sidebar-brand">
+        <div>
+            <i class="fa-solid fa-rocket"></i>
+        </div>
+        Launchpad
+    </div>
+    <a href="#" class="Sidebar-link Sidebar-link-active">
+        <i class="fa-solid fa-grid-2"></i>
+        Dashboard
+    </a>
+    <a href="#" class="Sidebar-link">
+        <i class="fa-solid fa-code"></i>
+        Development
+    </a>
+    <a href="#" class="Sidebar-link">
+        <i class="fa-solid fa-database"></i>
+        Database
+    </a>
+    <a href="#" class="Sidebar-link">
+        <i class="fa-solid fa-cloud"></i>
+        Deployments
+    </a>
+</aside>`,
+    css: `.Sidebar {
+    width: 215px;
+    min-height: 330px;
+    padding: 17px 12px;
+    box-sizing: border-box;
+    border-radius: 17px;
+    background: linear-gradient(180deg,#172554,#312e81,#581c87);
+    color: #fff;
+    box-shadow: 0 15px 35px rgba(49,46,129,.3);
+}
+.Sidebar-brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 7px 9px 20px;
+    font-size: 13px;
+    font-weight: 800;
+}
+.Sidebar-brand > div {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    background: rgba(255,255,255,.15);
+}
+.Sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 11px;
+    margin-bottom: 4px;
+    border-radius: 9px;
+    color: rgba(255,255,255,.68);
+    text-decoration: none;
+    font-size: 11px;
+    transition: .2s ease;
+}
+.Sidebar-link:hover,
+.Sidebar-link-active {
+    background: rgba(255,255,255,.14);
+    color: #fff;
+}
+.Sidebar-link-active {
+    box-shadow: inset 3px 0 #67e8f9;
+}`
+},
+{
+    id: 1549,
+    name: "Ecommerce Sidebar",
+    preview: (
+        <aside className="sb-1549">
+            <div className="sb-1549__header">
+                <strong>Shop</strong>
+                <i className="fa-solid fa-bag-shopping"></i>
+            </div>
+            <div className="sb-1549__section">
+                <span>Categories</span>
+                <a href="#" className="sb-1549__link sb-1549__link--active">
+                    New arrivals
+                    <b>24</b>
+                </a>
+                <a href="#" className="sb-1549__link">
+                    Sneakers
+                    <b>48</b>
+                </a>
+                <a href="#" className="sb-1549__link">
+                    Clothing
+                    <b>31</b>
+                </a>
+                <a href="#" className="sb-1549__link">
+                    Accessories
+                    <b>19</b>
+                </a>
+            </div>
+            <div className="sb-1549__section">
+                <span>Shopping</span>
+                <a href="#" className="sb-1549__link">
+                    <i className="fa-solid fa-heart"></i>
+                    Wishlist
+                </a>
+                <a href="#" className="sb-1549__link">
+                    <i className="fa-solid fa-cart-shopping"></i>
+                    Cart
+                </a>
+            </div>
+        </aside>
+    ),
+    html: `<aside class="Sidebar">
+    <div class="Sidebar-header">
+        <strong>Shop</strong>
+        <i class="fa-solid fa-bag-shopping"></i>
+    </div>
+    <div class="Sidebar-section">
+        <span>Categories</span>
+        <a href="#" class="Sidebar-link Sidebar-link-active">
+            New arrivals
+            <b>24</b>
+        </a>
+        <a href="#" class="Sidebar-link">
+            Sneakers
+            <b>48</b>
+        </a>
+        <a href="#" class="Sidebar-link">
+            Clothing
+            <b>31</b>
+        </a>
+        <a href="#" class="Sidebar-link">
+            Accessories
+            <b>19</b>
+        </a>
+    </div>
+    <div class="Sidebar-section">
+        <span>Shopping</span>
+        <a href="#" class="Sidebar-link">
+            <i class="fa-solid fa-heart"></i>
+            Wishlist
+        </a>
+        <a href="#" class="Sidebar-link">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </a>
+    </div>
+</aside>`,
+    css: `.Sidebar {
+    width: 220px;
+    padding: 17px 13px;
+    border: 1px solid #e4e4e7;
+    border-radius: 15px;
+    background: #fff;
+    color: #18181b;
+}
+.Sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6px 18px;
+    font-size: 14px;
+}
+.Sidebar-header i {
+    color: #71717a;
+}
+.Sidebar-section {
+    margin-bottom: 20px;
+}
+.Sidebar-section > span {
+    display: block;
+    margin: 0 6px 8px;
+    color: #a1a1aa;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.Sidebar-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 9px 10px;
+    border-radius: 8px;
+    color: #71717a;
+    text-decoration: none;
+    font-size: 11px;
+    transition: .2s ease;
+}
+.Sidebar-link:hover,
+.Sidebar-link-active {
+    background: #f4f4f5;
+    color: #18181b;
+}
+.Sidebar-link b {
+    min-width: 20px;
+    padding: 2px 5px;
+    border-radius: 999px;
+    background: #f4f4f5;
+    color: #71717a;
+    font-size: 8px;
+    text-align: center;
+}
+.Sidebar-link i {
+    width: 16px;
+}`
+},
+{
+    id: 1550,
+    name: "Admin Sidebar",
+    preview: (
+        <aside className="sb-1550">
+            <div className="sb-1550__brand">
+                <i className="fa-solid fa-shield-halved"></i>
+                Admin Panel
+            </div>
+            <div className="sb-1550__group">
+                <span>Management</span>
+                <a href="#" className="sb-1550__link sb-1550__link--active">
+                    <i className="fa-solid fa-chart-line"></i>
+                    Dashboard
+                </a>
+                <a href="#" className="sb-1550__link">
+                    <i className="fa-solid fa-user-group"></i>
+                    Users
+                </a>
+                <a href="#" className="sb-1550__link">
+                    <i className="fa-solid fa-box"></i>
+                    Products
+                </a>
+            </div>
+            <div className="sb-1550__group">
+                <span>System</span>
+                <a href="#" className="sb-1550__link">
+                    <i className="fa-solid fa-server"></i>
+                    Servers
+                </a>
+                <a href="#" className="sb-1550__link">
+                    <i className="fa-solid fa-gear"></i>
+                    Settings
+                </a>
+            </div>
+        </aside>
+    ),
+    html: `<aside class="Sidebar">
+    <div class="Sidebar-brand">
+        <i class="fa-solid fa-shield-halved"></i>
+        Admin Panel
+    </div>
+    <div class="Sidebar-group">
+        <span>Management</span>
+        <a href="#" class="Sidebar-link Sidebar-link-active">
+            <i class="fa-solid fa-chart-line"></i>
+            Dashboard
+        </a>
+        <a href="#" class="Sidebar-link">
+            <i class="fa-solid fa-user-group"></i>
+            Users
+        </a>
+        <a href="#" class="Sidebar-link">
+            <i class="fa-solid fa-box"></i>
+            Products
+        </a>
+    </div>
+    <div class="Sidebar-group">
+        <span>System</span>
+        <a href="#" class="Sidebar-link">
+            <i class="fa-solid fa-server"></i>
+            Servers
+        </a>
+        <a href="#" class="Sidebar-link">
+            <i class="fa-solid fa-gear"></i>
+            Settings
+        </a>
+    </div>
+</aside>`,
+    css: `.Sidebar {
+    width: 225px;
+    min-height: 360px;
+    padding: 18px 13px;
+    box-sizing: border-box;
+    border-right: 1px solid #e4e4e7;
+    background: #fafafa;
+}
+.Sidebar-brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 3px 8px 22px;
+    color: #18181b;
+    font-size: 13px;
+    font-weight: 800;
+}
+.Sidebar-brand i {
+    color: #2563eb;
+}
+.Sidebar-group {
+    margin-bottom: 20px;
+}
+.Sidebar-group > span {
+    display: block;
+    margin: 0 8px 8px;
+    color: #a1a1aa;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.Sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 11px;
+    margin-bottom: 3px;
+    border-left: 2px solid transparent;
+    border-radius: 7px;
+    color: #71717a;
+    text-decoration: none;
+    font-size: 11px;
+    transition: .2s ease;
+}
+.Sidebar-link:hover,
+.Sidebar-link-active {
+    background: #f4f4f5;
+    color: #18181b;
+}
+.Sidebar-link-active {
+    border-left-color: #2563eb;
+}`
+},
+{
+    id: 1551,
+    name: "Profile Sidebar",
+    preview: (
+        <aside className="sb-1551">
+            <div className="sb-1551__profile">
+                <div className="sb-1551__avatar">A</div>
+                <strong>André</strong>
+                <span>Software Developer</span>
+            </div>
+            <a href="#" className="sb-1551__link sb-1551__link--active">
+                <i className="fa-solid fa-user"></i>
+                Profile
+            </a>
+            <a href="#" className="sb-1551__link">
+                <i className="fa-solid fa-code"></i>
+                Projects
+            </a>
+            <a href="#" className="sb-1551__link">
+                <i className="fa-solid fa-star"></i>
+                Favorites
+            </a>
+            <a href="#" className="sb-1551__link">
+                <i className="fa-solid fa-gear"></i>
+                Preferences
+            </a>
+            <div className="sb-1551__footer">
+                <a href="#">
+                    <i className="fa-solid fa-right-from-bracket"></i>
+                    Sign out
+                </a>
+            </div>
+        </aside>
+    ),
+    html: `<aside class="Sidebar">
+    <div class="Sidebar-profile">
+        <div class="Sidebar-avatar">A</div>
+        <strong>André</strong>
+        <span>Software Developer</span>
+    </div>
+    <a href="#" class="Sidebar-link Sidebar-link-active">
+        <i class="fa-solid fa-user"></i>
+        Profile
+    </a>
+    <a href="#" class="Sidebar-link">
+        <i class="fa-solid fa-code"></i>
+        Projects
+    </a>
+    <a href="#" class="Sidebar-link">
+        <i class="fa-solid fa-star"></i>
+        Favorites
+    </a>
+    <a href="#" class="Sidebar-link">
+        <i class="fa-solid fa-gear"></i>
+        Preferences
+    </a>
+    <div class="Sidebar-footer">
+        <a href="#">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            Sign out
+        </a>
+    </div>
+</aside>`,
+    css: `.Sidebar {
+    width: 210px;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    padding: 17px 12px;
+    box-sizing: border-box;
+    border: 1px solid #e4e4e7;
+    border-radius: 16px;
+    background: #fff;
+}
+.Sidebar-profile {
+    padding: 4px 6px 19px;
+    border-bottom: 1px solid #f4f4f5;
+    text-align: center;
+}
+.Sidebar-avatar {
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 9px;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+}
+.Sidebar-profile strong,
+.Sidebar-profile span {
+    display: block;
+}
+.Sidebar-profile strong {
+    color: #18181b;
+    font-size: 12px;
+}
+.Sidebar-profile span {
+    margin-top: 3px;
+    color: #a1a1aa;
+    font-size: 9px;
+}
+.Sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 5px;
+    padding: 9px 10px;
+    border-radius: 8px;
+    color: #71717a;
+    text-decoration: none;
+    font-size: 11px;
+    transition: .2s ease;
+}
+.Sidebar-link:hover,
+.Sidebar-link-active {
+    background: #f4f4f5;
+    color: #18181b;
+}
+.Sidebar-footer {
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 1px solid #f4f4f5;
+}
+.Sidebar-footer a {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 10px;
+    color: #ef4444;
+    text-decoration: none;
+    font-size: 11px;
+}`
+},
+{
+    id: 1552,
+    name: "Docs Sidebar",
+    preview: (
+        <aside className="sb-1552">
+            <div className="sb-1552__title">Documentation</div>
+            <div className="sb-1552__group">
+                <span>Getting started</span>
+                <a href="#" className="sb-1552__link sb-1552__link--active">
+                    Introduction
+                </a>
+                <a href="#" className="sb-1552__link">
+                    Installation
+                </a>
+                <a href="#" className="sb-1552__link">
+                    Quick start
+                </a>
+            </div>
+            <div className="sb-1552__group">
+                <span>Guides</span>
+                <a href="#" className="sb-1552__link">
+                    Components
+                </a>
+                <a href="#" className="sb-1552__link">
+                    API
+                </a>
+                <a href="#" className="sb-1552__link">
+                    Examples
+                </a>
+            </div>
+        </aside>
+    ),
+    html: `<aside class="Sidebar">
+    <div class="Sidebar-title">Documentation</div>
+    <div class="Sidebar-group">
+        <span>Getting started</span>
+        <a href="#" class="Sidebar-link Sidebar-link-active">Introduction</a>
+        <a href="#" class="Sidebar-link">Installation</a>
+        <a href="#" class="Sidebar-link">Quick start</a>
+    </div>
+    <div class="Sidebar-group">
+        <span>Guides</span>
+        <a href="#" class="Sidebar-link">Components</a>
+        <a href="#" class="Sidebar-link">API</a>
+        <a href="#" class="Sidebar-link">Examples</a>
+    </div>
+</aside>`,
+    css: `.Sidebar {
+    width: 215px;
+    padding: 18px 12px;
+    box-sizing: border-box;
+    border-right: 1px solid #e4e4e7;
+    background: #fff;
+}
+.Sidebar-title {
+    padding: 2px 8px 22px;
+    color: #18181b;
+    font-size: 14px;
+    font-weight: 800;
+}
+.Sidebar-group {
+    margin-bottom: 22px;
+}
+.Sidebar-group > span {
+    display: block;
+    margin: 0 8px 8px;
+    color: #a1a1aa;
+    font-size: 9px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+}
+.Sidebar-link {
+    display: block;
+    padding: 8px 10px;
+    border-left: 2px solid transparent;
+    color: #71717a;
+    text-decoration: none;
+    font-size: 11px;
+    transition: .2s ease;
+}
+.Sidebar-link:hover {
+    color: #18181b;
+}
+.Sidebar-link-active {
+    border-left-color: #18181b;
+    color: #18181b;
+    font-weight: 700;
+    background: #fafafa;
+}`
+},
+{
+    id: 1553,
+    name: "Cyber Neon Sidebar",
+    preview: (
+        <aside className="sb-1553">
+            <div className="sb-1553__header">
+                <i className="fa-solid fa-terminal"></i>
+                SYSTEM
+            </div>
+            <a href="#" className="sb-1553__link sb-1553__link--active">
+                <span></span>
+                Control
+            </a>
+            <a href="#" className="sb-1553__link">
+                <span></span>
+                Networks
+            </a>
+            <a href="#" className="sb-1553__link">
+                <span></span>
+                Processes
+            </a>
+            <a href="#" className="sb-1553__link">
+                <span></span>
+                Security
+            </a>
+            <div className="sb-1553__status">
+                <i className="fa-solid fa-circle"></i>
+                SYSTEM ONLINE
+            </div>
+        </aside>
+    ),
+    html: `<aside class="Sidebar">
+    <div class="Sidebar-header">
+        <i class="fa-solid fa-terminal"></i>
+        SYSTEM
+    </div>
+    <a href="#" class="Sidebar-link Sidebar-link-active">
+        <span></span>
+        Control
+    </a>
+    <a href="#" class="Sidebar-link">
+        <span></span>
+        Networks
+    </a>
+    <a href="#" class="Sidebar-link">
+        <span></span>
+        Processes
+    </a>
+    <a href="#" class="Sidebar-link">
+        <span></span>
+        Security
+    </a>
+    <div class="Sidebar-status">
+        <i class="fa-solid fa-circle"></i>
+        SYSTEM ONLINE
+    </div>
+</aside>`,
+    css: `.Sidebar {
+    width: 205px;
+    min-height: 340px;
+    padding: 16px 12px;
+    box-sizing: border-box;
+    border: 1px solid #064e3b;
+    border-radius: 8px;
+    background: #020908;
+    color: #22c55e;
+    font-family: monospace;
+    box-shadow: inset 0 0 30px rgba(34,197,94,.03),0 0 18px rgba(34,197,94,.08);
+}
+.Sidebar-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 8px 20px;
+    border-bottom: 1px solid #064e3b;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.Sidebar-header i {
+    color: #4ade80;
+}
+.Sidebar-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 5px;
+    padding: 10px 9px;
+    color: #4ade80;
+    opacity: .55;
+    text-decoration: none;
+    font-size: 10px;
+    transition: .2s ease;
+}
+.Sidebar-link span {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 7px #22c55e;
+}
+.Sidebar-link:hover,
+.Sidebar-link-active {
+    opacity: 1;
+    background: rgba(34,197,94,.06);
+    text-shadow: 0 0 7px rgba(34,197,94,.5);
+}
+.Sidebar-link-active::before {
+    content: "";
+    position: absolute;
+    left: -12px;
+    width: 2px;
+    height: 20px;
+    background: #22c55e;
+    box-shadow: 0 0 10px #22c55e;
+}
+.Sidebar-status {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 28px;
+    padding-top: 12px;
+    border-top: 1px solid #064e3b;
+    color: #22c55e;
+    font-size: 8px;
+}
+.Sidebar-status i {
+    font-size: 6px;
+    text-shadow: 0 0 8px #22c55e;
+}`
+},
 ];
 
 
