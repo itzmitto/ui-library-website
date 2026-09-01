@@ -16613,10 +16613,488 @@ export const checkboxes = [
 }`,
 },
 
-
+{
+  id: 2257,
+  name: "Dark Energy Core Checkbox",
+  preview: (
+    <div className="checkbox-2257">
+      <label className="checkbox-2257__control">
+        <input
+          type="checkbox"
+          className="checkbox-2257__input"
+        />
+        <span className="checkbox-2257__visual">
+          <span className="checkbox-2257__halo"></span>
+          <span className="checkbox-2257__ring checkbox-2257__ring--outer"></span>
+          <span className="checkbox-2257__ring checkbox-2257__ring--middle"></span>
+          <span className="checkbox-2257__ring checkbox-2257__ring--inner"></span>
+          <span className="checkbox-2257__core"></span>
+          <span className="checkbox-2257__check">
+            <i className="fa-solid fa-check"></i>
+          </span>
+          <span className="checkbox-2257__scan"></span>
+        </span>
+        <span className="checkbox-2257__info">
+          <strong>Dark Energy</strong>
+          <span>Advanced system module</span>
+          <small>CORE STATUS</small>
+        </span>
+        <span className="checkbox-2257__state">
+          <span className="checkbox-2257__state-dot"></span>
+          <span className="checkbox-2257__state-text">STANDBY</span>
+        </span>
+      </label>
+    </div>
+  ),
+  html: `<label class="DarkEnergyCheckbox">
+  <input type="checkbox" class="DarkEnergyCheckbox-input">
+  <span class="DarkEnergyCheckbox-visual">
+    <span class="DarkEnergyCheckbox-halo"></span>
+    <span class="DarkEnergyCheckbox-ring DarkEnergyCheckbox-ring--outer"></span>
+    <span class="DarkEnergyCheckbox-ring DarkEnergyCheckbox-ring--middle"></span>
+    <span class="DarkEnergyCheckbox-ring DarkEnergyCheckbox-ring--inner"></span>
+    <span class="DarkEnergyCheckbox-core"></span>
+    <span class="DarkEnergyCheckbox-check">
+      <i class="fa-solid fa-check"></i>
+    </span>
+    <span class="DarkEnergyCheckbox-scan"></span>
+  </span>
+  <span class="DarkEnergyCheckbox-info">
+    <strong>Dark Energy</strong>
+    <span>Advanced system module</span>
+    <small>CORE STATUS</small>
+  </span>
+  <span class="DarkEnergyCheckbox-state">
+    <span class="DarkEnergyCheckbox-state-dot"></span>
+    <span class="DarkEnergyCheckbox-state-text">STANDBY</span>
+  </span>
+</label>`,
+  css: `.DarkEnergyCheckbox {
+  position: relative;
+  width: 100%;
+  max-width: 620px;
+  min-height: 118px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 20px 22px;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 1px solid rgba(71,85,105,.28);
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 12% 50%,rgba(34,211,238,.05),transparent 22%),
+    radial-gradient(circle at 80% 30%,rgba(139,92,246,.05),transparent 30%),
+    linear-gradient(145deg,#07090d,#0c1017 55%,#05070a);
+  color: #fff;
+  font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+  box-shadow:
+    inset 0 1px rgba(255,255,255,.045),
+    inset 0 -18px 35px rgba(0,0,0,.18),
+    0 18px 45px rgba(0,0,0,.3);
+}
+.DarkEnergyCheckbox::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg,transparent,rgba(255,255,255,.018),transparent),
+    repeating-linear-gradient(
+      90deg,
+      transparent 0,
+      transparent 38px,
+      rgba(148,163,184,.018) 39px,
+      transparent 40px
+    );
+}
+.DarkEnergyCheckbox::after {
+  content: "";
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  left: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: radial-gradient(circle,rgba(34,211,238,.04),transparent 68%);
+  filter: blur(18px);
+  pointer-events: none;
+}
+.DarkEnergyCheckbox-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+.DarkEnergyCheckbox-visual {
+  position: relative;
+  width: 76px;
+  height: 76px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border: 1px solid rgba(100,116,139,.28);
+  border-radius: 20px;
+  background:
+    radial-gradient(circle at 50% 50%,rgba(15,23,42,.92),rgba(4,7,12,1) 72%);
+  box-shadow:
+    inset 0 1px rgba(255,255,255,.055),
+    inset 0 -10px 22px rgba(0,0,0,.32),
+    0 10px 26px rgba(0,0,0,.28);
+  overflow: hidden;
+  isolation: isolate;
+  cursor: pointer;
+  transition:
+    transform .18s ease,
+    border-color .25s ease,
+    box-shadow .25s ease,
+    background .25s ease;
+}
+.DarkEnergyCheckbox-visual::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border: 1px solid rgba(148,163,184,.1);
+  border-radius: 17px;
+  pointer-events: none;
+}
+.DarkEnergyCheckbox-visual::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background: linear-gradient(90deg,transparent,rgba(100,116,139,.1),transparent);
+  pointer-events: none;
+}
+.DarkEnergyCheckbox-input:focus-visible + .DarkEnergyCheckbox-visual {
+  outline: none;
+  border-color: rgba(34,211,238,.55);
+  box-shadow:
+    0 0 0 3px rgba(34,211,238,.12),
+    0 0 26px rgba(34,211,238,.16),
+    inset 0 1px rgba(255,255,255,.06);
+}
+.DarkEnergyCheckbox-visual:hover {
+  border-color: rgba(34,211,238,.32);
+  transform: translateY(-2px);
+  box-shadow:
+    0 0 16px rgba(34,211,238,.08),
+    0 14px 28px rgba(0,0,0,.32),
+    inset 0 1px rgba(255,255,255,.07);
+}
+.DarkEnergyCheckbox-input:active + .DarkEnergyCheckbox-visual {
+  transform: scale(.95);
+}
+.DarkEnergyCheckbox-halo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(circle,rgba(34,211,238,.16),transparent 68%);
+  opacity: .32;
+  transition:
+    opacity .3s ease,
+    transform .35s ease,
+    filter .35s ease;
+}
+.DarkEnergyCheckbox-input:checked + .DarkEnergyCheckbox-visual .DarkEnergyCheckbox-halo {
+  opacity: 1;
+  transform: scale(1.18);
+  filter: blur(1px);
+}
+.DarkEnergyCheckbox-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  transition:
+    border-color .3s ease,
+    transform .5s ease,
+    opacity .3s ease;
+}
+.DarkEnergyCheckbox-ring--outer {
+  width: 60px;
+  height: 60px;
+  border-top-color: rgba(100,116,139,.28);
+  border-right-color: rgba(100,116,139,.12);
+}
+.DarkEnergyCheckbox-ring--middle {
+  width: 47px;
+  height: 47px;
+  border-left-color: rgba(71,85,105,.24);
+  border-bottom-color: rgba(71,85,105,.12);
+}
+.DarkEnergyCheckbox-ring--inner {
+  width: 34px;
+  height: 34px;
+  border-top-color: rgba(71,85,105,.18);
+  border-right-color: rgba(71,85,105,.08);
+}
+.DarkEnergyCheckbox-input:checked + .DarkEnergyCheckbox-visual .DarkEnergyCheckbox-ring--outer {
+  border-top-color: rgba(34,211,238,.9);
+  border-right-color: rgba(34,211,238,.24);
+  transform: rotate(180deg);
+  animation: dark-energy-2257-outer 4s linear infinite;
+}
+.DarkEnergyCheckbox-input:checked + .DarkEnergyCheckbox-visual .DarkEnergyCheckbox-ring--middle {
+  border-left-color: rgba(139,92,246,.7);
+  border-bottom-color: rgba(34,211,238,.35);
+  transform: rotate(-180deg);
+  animation: dark-energy-2257-middle 2.7s linear infinite;
+}
+.DarkEnergyCheckbox-input:checked + .DarkEnergyCheckbox-visual .DarkEnergyCheckbox-ring--inner {
+  border-top-color: rgba(103,232,249,.75);
+  border-right-color: rgba(34,211,238,.28);
+  transform: rotate(180deg);
+  animation: dark-energy-2257-inner 1.8s linear infinite;
+}
+.DarkEnergyCheckbox-core {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 30%,#fff 0%,#ecfeff 14%,#67e8f9 32%,#22d3ee 52%,#0e7490 75%,#082f49 100%);
+  opacity: .25;
+  transform: scale(.65);
+  box-shadow:
+    0 0 5px rgba(255,255,255,.24),
+    0 0 12px rgba(34,211,238,.2);
+  transition:
+    opacity .3s ease,
+    transform .4s cubic-bezier(.2,1.4,.3,1),
+    box-shadow .4s ease;
+  z-index: 4;
+}
+.DarkEnergyCheckbox-input:checked + .DarkEnergyCheckbox-visual .DarkEnergyCheckbox-core {
+  opacity: 1;
+  transform: scale(1.25);
+  box-shadow:
+    0 0 7px rgba(255,255,255,.75),
+    0 0 15px rgba(34,211,238,.95),
+    0 0 30px rgba(34,211,238,.45);
+  animation: dark-energy-2257-core 1.5s ease-in-out infinite;
+}
+.DarkEnergyCheckbox-check {
+  position: absolute;
+  z-index: 5;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #ecfeff;
+  font-size: 11px;
+  background: rgba(34,211,238,.05);
+  opacity: 0;
+  transform: scale(.45) rotate(-90deg);
+  text-shadow:
+    0 0 6px #fff,
+    0 0 13px #22d3ee;
+  transition:
+    opacity .2s ease,
+    transform .42s cubic-bezier(.2,1.5,.3,1);
+}
+.DarkEnergyCheckbox-input:checked + .DarkEnergyCheckbox-visual .DarkEnergyCheckbox-check {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+}
+.DarkEnergyCheckbox-pulse {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(34,211,238,.6);
+  border-radius: 50%;
+  opacity: 0;
+}
+.DarkEnergyCheckbox-input:checked + .DarkEnergyCheckbox-visual .DarkEnergyCheckbox-pulse {
+  animation: dark-energy-2257-pulse 1.7s ease-out infinite;
+}
+.DarkEnergyCheckbox-scan {
+  position: absolute;
+  top: -15%;
+  left: -50%;
+  width: 35%;
+  height: 130%;
+  background: linear-gradient(90deg,transparent,rgba(103,232,249,.38),transparent);
+  transform: skewX(-18deg);
+  opacity: 0;
+  z-index: 6;
+  pointer-events: none;
+}
+.DarkEnergyCheckbox-input:checked + .DarkEnergyCheckbox-visual .DarkEnergyCheckbox-scan {
+  opacity: 1;
+  animation: dark-energy-2257-scan 2.5s ease-in-out infinite;
+}
+.DarkEnergyCheckbox-info {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+.DarkEnergyCheckbox-info strong {
+  color: #f8fafc;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .2px;
+}
+.DarkEnergyCheckbox-info span {
+  margin-top: 4px;
+  color: #94a3b8;
+  font-size: 10px;
+}
+.DarkEnergyCheckbox-info small {
+  margin-top: 9px;
+  color: #475569;
+  font-size: 7px;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+  transition: color .3s ease;
+}
+.DarkEnergyCheckbox-state {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 7px;
+  margin-left: auto;
+  min-width: 62px;
+  user-select: none;
+}
+.DarkEnergyCheckbox-state-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #475569;
+  box-shadow: 0 0 0 transparent;
+  transition:
+    background .3s ease,
+    box-shadow .3s ease,
+    transform .3s ease;
+}
+.DarkEnergyCheckbox-state-text {
+  color: #475569;
+  font-size: 7px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  transition: color .3s ease;
+}
+.DarkEnergyCheckbox-input:checked ~ .DarkEnergyCheckbox-info small {
+  color: rgba(34,211,238,.62);
+}
+.DarkEnergyCheckbox-input:checked ~ .DarkEnergyCheckbox-state .DarkEnergyCheckbox-state-dot {
+  background: #22d3ee;
+  box-shadow:
+    0 0 6px #22d3ee,
+    0 0 16px rgba(34,211,238,.58);
+  transform: scale(1.15);
+  animation: dark-energy-2257-status 1.4s ease-in-out infinite;
+}
+.DarkEnergyCheckbox-input:checked ~ .DarkEnergyCheckbox-state .DarkEnergyCheckbox-state-text {
+  color: #22d3ee;
+}
+@keyframes dark-energy-2257-outer {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes dark-energy-2257-middle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes dark-energy-2257-inner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes dark-energy-2257-core {
+  0%,
+  100% {
+    transform: scale(1.16);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+}
+@keyframes dark-energy-2257-pulse {
+  0% {
+    transform: scale(.8);
+    opacity: .8;
+  }
+  75% {
+    transform: scale(3);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+@keyframes dark-energy-2257-scan {
+  0% {
+    left: -50%;
+  }
+  55% {
+    left: 125%;
+  }
+  100% {
+    left: 125%;
+  }
+}
+@keyframes dark-energy-2257-status {
+  0%,
+  100% {
+    opacity: .6;
+  }
+  50% {
+    opacity: 1;
+  }
+}`
+},
 
 
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -20850,7 +21328,7 @@ export const toggles = [
     },
     
 ];
-
+ 
 
 
 
