@@ -3448,299 +3448,1704 @@
 .iphone-ui-2254,
 .iphone-ui-2255,
 .iphone-ui-2256 {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .iphone-ui-2237 {
-    position: relative;
-    width: 320px;
-    min-height: 145px;
-    padding: 18px;
-    overflow: hidden;
-    border-radius: 29px;
-    background: linear-gradient(180deg,#1c1c1e,#080808);
-    color: #fff;
-    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+  position: relative;
+  width: 320px;
+  min-height: 145px;
+  padding: 18px;
+  overflow: hidden;
+  border-radius: 29px;
+  background: linear-gradient(180deg, #1c1c1e, #080808);
+  color: #fff;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
 }
 
 .iphone-ui-2237__island {
-    width: 108px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    margin: 0 auto;
-    border-radius: 999px;
-    background: #000;
+  width: 108px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin: 0 auto;
+  border-radius: 999px;
+  background: #000;
 }
 
 .iphone-ui-2237__island > span {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: #101010;
-    box-shadow: inset 0 0 0 1px #262626;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #101010;
+  box-shadow: inset 0 0 0 1px #262626;
 }
 
 .iphone-ui-2237__island > div {
-    width: 17px;
-    height: 17px;
-    display: grid;
-    place-items: center;
-    border-radius: 50%;
-    background: #1ed760;
-    color: #081008;
-    font-size: 7px;
+  width: 17px;
+  height: 17px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #1ed760;
+  color: #081008;
+  font-size: 7px;
 }
 
 .iphone-ui-2237__content {
-    display: flex;
-    align-items: center;
-    gap: 11px;
-    margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-top: 18px;
 }
 
 .iphone-ui-2237__art {
-    width: 48px;
-    height: 48px;
-    display: grid;
-    place-items: center;
-    border-radius: 10px;
-    background: linear-gradient(135deg,#fb7185,#7c3aed);
-    color: #fff;
-    font-size: 17px;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #fb7185, #7c3aed);
+  color: #fff;
+  font-size: 17px;
 }
 
 .iphone-ui-2237__info {
-    min-width: 0;
-    flex: 1;
+  min-width: 0;
+  flex: 1;
 }
 
 .iphone-ui-2237__info strong,
 .iphone-ui-2237__info span {
-    display: block;
+  display: block;
 }
 
 .iphone-ui-2237__info strong {
-    overflow: hidden;
-    font-size: 13px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 13px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .iphone-ui-2237__info span {
-    margin-top: 3px;
-    color: #8e8e93;
-    font-size: 9px;
+  margin-top: 3px;
+  color: #8e8e93;
+  font-size: 9px;
 }
 
 .iphone-ui-2237__content button {
-    width: 35px;
-    height: 35px;
-    border: 0;
-    border-radius: 50%;
-    background: rgba(255,255,255,.1);
-    color: #fff;
-    cursor: pointer;
-    transition: .18s ease;
+  width: 35px;
+  height: 35px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.18s ease;
 }
 
 .iphone-ui-2237__content button:hover {
-    transform: scale(1.08);
-    background: rgba(255,255,255,.18);
+  transform: scale(1.08);
+  background: rgba(255, 255, 255, 0.18);
 }
 
 .iphone-ui-2238 {
-    width: 310px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    border-radius: 25px;
-    background: #111113;
-    color: #fff;
-    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+  width: 310px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 25px;
+  background: #111113;
+  color: #fff;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
 }
 
 .iphone-ui-2238__rings {
-    position: relative;
-    width: 125px;
-    height: 125px;
+  position: relative;
+  width: 125px;
+  height: 125px;
 }
 
 .iphone-ui-2238__ring {
-    position: absolute;
-    border: 7px solid transparent;
-    border-radius: 50%;
-    transform: rotate(-42deg);
+  position: absolute;
+  border: 7px solid transparent;
+  border-radius: 50%;
+  transform: rotate(-42deg);
 }
 
 .iphone-ui-2238__ring--red {
-    inset: 0;
-    border-top-color: #ff375f;
-    border-left-color: #ff375f;
+  inset: 0;
+  border-top-color: #ff375f;
+  border-left-color: #ff375f;
 }
 
 .iphone-ui-2238__ring--green {
-    inset: 12px;
-    border-top-color: #30d158;
-    border-right-color: #30d158;
+  inset: 12px;
+  border-top-color: #30d158;
+  border-right-color: #30d158;
 }
 
 .iphone-ui-2238__ring--blue {
-    inset: 24px;
-    border-left-color: #0a84ff;
-    border-bottom-color: #0a84ff;
+  inset: 24px;
+  border-left-color: #0a84ff;
+  border-bottom-color: #0a84ff;
 }
 
 .iphone-ui-2238__center {
-    position: absolute;
-    inset: 35px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  inset: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .iphone-ui-2238__center strong {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .iphone-ui-2238__center span {
-    margin-top: 3px;
-    color: #8e8e93;
-    font-size: 8px;
+  margin-top: 3px;
+  color: #8e8e93;
+  font-size: 8px;
 }
 
 .iphone-ui-2238__stats {
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
 
 .iphone-ui-2238__stats span {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .iphone-ui-2238__stats b {
-    color: #8e8e93;
-    font-size: 8px;
-    font-weight: 500;
+  color: #8e8e93;
+  font-size: 8px;
+  font-weight: 500;
 }
 
 .iphone-ui-2238__stats strong {
-    margin-top: 2px;
-    font-size: 11px;
+  margin-top: 2px;
+  font-size: 11px;
 }
 
 .iphone-ui-2239 {
-    width: 310px;
-    padding: 17px;
-    border-radius: 24px;
-    background: #f2f2f7;
-    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+  width: 310px;
+  padding: 17px;
+  border-radius: 24px;
+  background: #f2f2f7;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
 }
 
 .iphone-ui-2239__header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 13px;
-    color: #1c1c1e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 13px;
+  color: #1c1c1e;
 }
 
 .iphone-ui-2239__header strong {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .iphone-ui-2239__header i {
-    color: #8e8e93;
+  color: #8e8e93;
 }
 
 .iphone-ui-2239__grid {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 9px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 9px;
 }
 
 .iphone-ui-2239__grid button {
-    min-height: 91px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 12px;
-    border: 0;
-    border-radius: 17px;
-    background: #fff;
-    color: #1c1c1e;
-    text-align: left;
-    cursor: pointer;
-    transition: .18s ease;
+  min-height: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 12px;
+  border: 0;
+  border-radius: 17px;
+  background: #fff;
+  color: #1c1c1e;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.18s ease;
 }
 
 .iphone-ui-2239__grid button:hover {
-    transform: translateY(-2px);
+  transform: translateY(-2px);
 }
 
 .iphone-ui-2239__grid button.active {
-    background: #fff7e6;
-    color: #ff9f0a;
+  background: #fff7e6;
+  color: #ff9f0a;
 }
 
 .iphone-ui-2239__grid button i {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .iphone-ui-2239__grid button span {
-    font-size: 10px;
-    font-weight: 600;
+  font-size: 10px;
+  font-weight: 600;
 }
 
 .iphone-ui-2239__grid button small {
-    color: #8e8e93;
-    font-size: 8px;
+  color: #8e8e93;
+  font-size: 8px;
 }
 
 .iphone-ui-2240 {
-    width: 310px;
-    overflow: hidden;
-    border-radius: 23px;
-    background: #fff;
-    box-shadow: 0 18px 40px rgba(15,23,42,.12);
-    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+  width: 310px;
+  overflow: hidden;
+  border-radius: 23px;
+  background: #fff;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
 }
 
 .iphone-ui-2240__map {
-    position: relative;
-    height: 155px;
-    overflow: hidden;
-    background:
-        linear-gradient(25deg,transparent 35%,#d7e6d2 36%,#d7e6d2 55%,transparent 56%),
-        linear-gradient(115deg,transparent 42%,#fff 43%,#fff 57%,transparent 58%),
-        #e8f2e4;
+  position: relative;
+  height: 155px;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      25deg,
+      transparent 35%,
+      #d7e6d2 36%,
+      #d7e6d2 55%,
+      transparent 56%
+    ),
+    linear-gradient(
+      115deg,
+      transparent 42%,
+      #fff 43%,
+      #fff 57%,
+      transparent 58%
+    ),
+    #e8f2e4;
 }
 
 .iphone-ui-2240__map::before,
 .iphone-ui-2240__map::after {
-    content: "";
-    position: absolute;
-    border-radius: 50%;
-    background: #d9e7d3;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: #d9e7d3;
 }
 
 .iphone-ui-2240__map::before {
-    width: 90px;
-    height: 90px;
-    top: 20px;
-    left: 30px;
+  width: 90px;
+  height: 90px;
+  top: 20px;
+  left: 30px;
 }
 
 .iphone-ui-2240__map::after {
-    width: 75px;
-    height: 75px;
-    right: 20px;
-    bottom: 10px;
+  width: 75px;
+  height: 75px;
+  right: 20px;
+  bottom: 10px;
+}
+
+.iphone-ui-2240__location {
+  position: absolute;
+  top: 58px;
+  left: 50%;
+  z-index: 2;
+  color: #ff3b30;
+  font-size: 26px;
+  transform: translateX(-50%);
+}
+
+.iphone-ui-2240__pulse {
+  position: absolute;
+  top: 67px;
+  left: calc(50% - 17px);
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(255, 59, 48, 0.18);
+  animation: iphone-find-pulse 1.8s ease-out infinite;
+}
+
+.iphone-ui-2240__sheet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px;
+}
+
+.iphone-ui-2240__sheet div {
+  display: flex;
+  flex-direction: column;
+}
+
+.iphone-ui-2240__sheet strong {
+  color: #1c1c1e;
+  font-size: 12px;
+}
+
+.iphone-ui-2240__sheet span {
+  margin-top: 3px;
+  color: #8e8e93;
+  font-size: 9px;
+}
+
+.iphone-ui-2240__sheet button {
+  width: 37px;
+  height: 37px;
+  border: 0;
+  border-radius: 50%;
+  background: #007aff;
+  color: #fff;
+  cursor: pointer;
+}
+
+@keyframes iphone-find-pulse {
+  from {
+    transform: scale(0.3);
+    opacity: 0.8;
+  }
+
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.iphone-ui-2241 {
+  width: 310px;
+  padding: 11px 11px 15px;
+  border-radius: 25px;
+  background: #050505;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2241__camera {
+  position: relative;
+  height: 205px;
+  overflow: hidden;
+  border-radius: 17px;
+  background:
+    radial-gradient(
+      circle at 65% 35%,
+      rgba(255, 255, 255, 0.18),
+      transparent 14%
+    ),
+    linear-gradient(135deg, #4a4a4a, #181818 42%, #777 100%);
+}
+
+.iphone-ui-2241__grid {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+  background-size: 33.33% 33.33%;
+  opacity: 0.35;
+}
+
+.iphone-ui-2241__focus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 42px;
+  height: 42px;
+  border: 1px solid #ffd60a;
+  transform: translate(-50%, -50%);
+}
+
+.iphone-ui-2241__focus::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: #ffd60a;
+}
+
+.iphone-ui-2241__controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 8px 0;
+}
+
+.iphone-ui-2241__controls button {
+  width: 32px;
+  height: 32px;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.iphone-ui-2241__shutter {
+  width: 58px;
+  height: 58px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: inset 0 0 0 2px #111;
+  cursor: pointer;
+  transition: 0.16s ease;
+}
+
+.iphone-ui-2241__shutter:hover {
+  transform: scale(1.05);
+}
+
+.iphone-ui-2241__shutter:active {
+  transform: scale(0.9);
+}
+
+.iphone-ui-2242 {
+  width: 315px;
+  min-height: 245px;
+  border-radius: 23px;
+  overflow: hidden;
+  background: #fff;
+  color: #1c1c1e;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2242__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px;
+  border-bottom: 1px solid #e5e5ea;
+}
+
+.iphone-ui-2242__header button {
+  border: 0;
+  background: transparent;
+  color: #007aff;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.iphone-ui-2242__header strong {
+  font-size: 12px;
+}
+
+.iphone-ui-2242__fields > div {
+  display: flex;
+  gap: 8px;
+  padding: 10px 13px;
+  border-bottom: 1px solid #f2f2f7;
+}
+
+.iphone-ui-2242__fields span {
+  color: #8e8e93;
+  font-size: 10px;
+}
+
+.iphone-ui-2242__fields strong {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.iphone-ui-2242__body {
+  min-height: 93px;
+  padding: 15px 13px;
+  color: #3c3c43;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.iphone-ui-2242__toolbar {
+  display: flex;
+  gap: 20px;
+  padding: 10px 13px;
+  border-top: 1px solid #e5e5ea;
+  color: #007aff;
+  font-size: 12px;
+}
+
+.iphone-ui-2243 {
+  width: 300px;
+  padding: 18px;
+  border-radius: 23px;
+  background: linear-gradient(145deg, #312e81, #111827);
+  color: #fff;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2243__title {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.iphone-ui-2243__title i {
+  color: #a78bfa;
+}
+
+.iphone-ui-2243__title strong {
+  font-size: 13px;
+}
+
+.iphone-ui-2243__times {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+.iphone-ui-2243__times div {
+  display: flex;
+  flex-direction: column;
+}
+
+.iphone-ui-2243__times span {
+  color: #a5b4fc;
+  font-size: 8px;
+}
+
+.iphone-ui-2243__times strong {
+  margin-top: 4px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.iphone-ui-2243__track {
+  position: relative;
+  height: 10px;
+  margin-top: 22px;
+}
+
+.iphone-ui-2243__track div {
+  position: absolute;
+  left: 7px;
+  right: 7px;
+  top: 3px;
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #818cf8, #c084fc, #f472b6);
+}
+
+.iphone-ui-2243__track span {
+  position: absolute;
+  z-index: 2;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.iphone-ui-2243__track span:first-child {
+  left: 0;
+}
+
+.iphone-ui-2243__track span:last-child {
+  right: 0;
+}
+
+.iphone-ui-2243 > small {
+  display: block;
+  margin-top: 13px;
+  color: #a5b4fc;
+  font-size: 8px;
+}
+
+.iphone-ui-2244 {
+  width: 285px;
+  padding: 13px;
+  border-radius: 25px;
+  background: #000;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2244__display {
+  height: 85px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0 10px 12px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.iphone-ui-2244__keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7px;
+}
+
+.iphone-ui-2244__keys button {
+  height: 52px;
+  border: 0;
+  border-radius: 50%;
+  background: #333;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.12s ease;
+}
+
+.iphone-ui-2244__keys button:hover {
+  filter: brightness(1.2);
+}
+
+.iphone-ui-2244__keys button:active {
+  transform: scale(0.92);
+}
+
+.iphone-ui-2244__keys .function {
+  background: #a5a5a5;
+  color: #000;
+}
+
+.iphone-ui-2244__keys .operator {
+  background: #ff9f0a;
+}
+
+.iphone-ui-2244__keys .zero {
+  grid-column: span 2;
+  border-radius: 26px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.iphone-ui-2245 {
+  width: 300px;
+  padding: 20px;
+  border-radius: 25px;
+  background: #111113;
+  color: #fff;
+  text-align: center;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2245__record {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iphone-ui-2245__mic {
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #ff3b30;
+  box-shadow: 0 0 25px rgba(255, 59, 48, 0.25);
+  font-size: 20px;
+}
+
+.iphone-ui-2245__record strong {
+  margin-top: 12px;
+  font-size: 15px;
+}
+
+.iphone-ui-2245__record span {
+  margin-top: 4px;
+  color: #8e8e93;
+  font-size: 10px;
+}
+
+.iphone-ui-2245__wave {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 16px;
+}
+
+.iphone-ui-2245__wave span {
+  width: 3px;
+  border-radius: 999px;
+  background: #ff375f;
+  animation: iphone-voice-wave 0.8s ease-in-out infinite alternate;
+}
+
+.iphone-ui-2245__wave span:nth-child(1) {
+  height: 12px;
+}
+.iphone-ui-2245__wave span:nth-child(2) {
+  height: 24px;
+  animation-delay: -0.1s;
+}
+.iphone-ui-2245__wave span:nth-child(3) {
+  height: 34px;
+  animation-delay: -0.2s;
+}
+.iphone-ui-2245__wave span:nth-child(4) {
+  height: 20px;
+  animation-delay: -0.3s;
+}
+.iphone-ui-2245__wave span:nth-child(5) {
+  height: 38px;
+  animation-delay: -0.4s;
+}
+.iphone-ui-2245__wave span:nth-child(6) {
+  height: 25px;
+  animation-delay: -0.5s;
+}
+.iphone-ui-2245__wave span:nth-child(7) {
+  height: 35px;
+  animation-delay: -0.6s;
+}
+.iphone-ui-2245__wave span:nth-child(8) {
+  height: 19px;
+  animation-delay: -0.7s;
+}
+.iphone-ui-2245__wave span:nth-child(9) {
+  height: 29px;
+  animation-delay: -0.8s;
+}
+
+.iphone-ui-2245__actions {
+  display: flex;
+  justify-content: center;
+  gap: 19px;
+  margin-top: 16px;
+}
+
+.iphone-ui-2245__actions button {
+  width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 50%;
+  background: #2c2c2e;
+  color: #fff;
+  cursor: pointer;
+}
+
+.iphone-ui-2245__actions button:hover {
+  background: #3a3a3c;
+}
+
+.iphone-ui-2245__actions .stop {
+  background: #ff3b30;
+}
+
+@keyframes iphone-voice-wave {
+  to {
+    transform: scaleY(0.4);
+    opacity: 0.6;
+  }
+}
+
+.iphone-ui-2246 {
+  width: 310px;
+  padding: 16px;
+  border-radius: 24px;
+  background: #f2f2f7;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2246__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.iphone-ui-2246__title span {
+  color: #1c1c1e;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.iphone-ui-2246__title button {
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 50%;
+  background: #e5e5ea;
+  color: #8e8e93;
+  cursor: pointer;
+}
+
+.iphone-ui-2246__option {
+  width: 100%;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-top: 7px;
+  padding: 9px;
+  border: 0;
+  border-radius: 15px;
+  background: #fff;
+  color: #1c1c1e;
+  text-align: left;
+  cursor: pointer;
+}
+
+.iphone-ui-2246__option:hover {
+  background: #e5e5ea;
+}
+
+.iphone-ui-2246__option > i:first-child {
+  width: 31px;
+  height: 31px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #5856d6;
+  color: #fff;
+  font-size: 12px;
+}
+
+.iphone-ui-2246__option span {
+  flex: 1;
+}
+
+.iphone-ui-2246__option strong,
+.iphone-ui-2246__option small {
+  display: block;
+}
+
+.iphone-ui-2246__option strong {
+  font-size: 10px;
+}
+
+.iphone-ui-2246__option small {
+  margin-top: 2px;
+  color: #8e8e93;
+  font-size: 8px;
+}
+
+.iphone-ui-2246__option > i:last-child {
+  color: #34c759;
+  font-size: 11px;
+}
+
+.iphone-ui-2246__option:not(.active) > i:last-child {
+  display: none;
+}
+
+.iphone-ui-2247 {
+  width: 300px;
+  padding: 18px;
+  border-radius: 23px;
+  background: #fff;
+  box-shadow: 0 15px 38px rgba(15, 23, 42, 0.08);
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2247__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iphone-ui-2247__header strong {
+  color: #1c1c1e;
+  font-size: 13px;
+}
+
+.iphone-ui-2247__header span {
+  color: #8e8e93;
+  font-size: 9px;
+}
+
+.iphone-ui-2247__number {
+  margin-top: 16px;
+  color: #1c1c1e;
+  font-size: 33px;
+  font-weight: 600;
+}
+
+.iphone-ui-2247__average {
+  color: #8e8e93;
+  font-size: 9px;
+}
+
+.iphone-ui-2247__chart {
+  height: 55px;
+  display: flex;
+  align-items: flex-end;
+  gap: 9px;
+  margin-top: 18px;
+}
+
+.iphone-ui-2247__chart span {
+  flex: 1;
+  border-radius: 5px 5px 2px 2px;
+  background: #007aff;
+}
+
+.iphone-ui-2247__chart span:nth-child(1) {
+  height: 38%;
+}
+.iphone-ui-2247__chart span:nth-child(2) {
+  height: 67%;
+}
+.iphone-ui-2247__chart span:nth-child(3) {
+  height: 48%;
+}
+.iphone-ui-2247__chart span:nth-child(4) {
+  height: 81%;
+}
+.iphone-ui-2247__chart span:nth-child(5) {
+  height: 61%;
+}
+.iphone-ui-2247__chart span:nth-child(6) {
+  height: 92%;
+}
+.iphone-ui-2247__chart span:nth-child(7) {
+  height: 73%;
+}
+
+.iphone-ui-2247__apps {
+  margin-top: 15px;
+}
+
+.iphone-ui-2247__apps div {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 0;
+  border-top: 1px solid #f2f2f7;
+}
+
+.iphone-ui-2247__apps i {
+  width: 24px;
+  color: #007aff;
+}
+
+.iphone-ui-2247__apps span {
+  flex: 1;
+  color: #3c3c43;
+  font-size: 9px;
+}
+
+.iphone-ui-2247__apps strong {
+  color: #636366;
+  font-size: 9px;
+}
+
+.iphone-ui-2248 {
+  width: 300px;
+  padding: 15px;
+  border-radius: 21px;
+  background: #1c1c1e;
+  color: #fff;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2248__art {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #f97316, #ec4899, #8b5cf6);
+  font-size: 22px;
+}
+
+.iphone-ui-2248__text {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.iphone-ui-2248__text strong,
+.iphone-ui-2248__text span {
+  display: block;
+}
+
+.iphone-ui-2248__text strong {
+  font-size: 13px;
+}
+
+.iphone-ui-2248__text span {
+  margin-top: 3px;
+  color: #8e8e93;
+  font-size: 9px;
+}
+
+.iphone-ui-2248__controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 14px;
+}
+
+.iphone-ui-2248__controls button {
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.iphone-ui-2248__controls button:nth-child(2) {
+  background: #fff;
+  color: #000;
+}
+
+.iphone-ui-2248__progress {
+  height: 4px;
+  overflow: hidden;
+  margin-top: 13px;
+  border-radius: 999px;
+  background: #48484a;
+}
+
+.iphone-ui-2248__progress span {
+  display: block;
+  width: 48%;
+  height: 100%;
+  border-radius: inherit;
+  background: #fff;
+}
+
+.iphone-ui-2249 {
+  width: 265px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 24px;
+  background: #1c1c1e;
+  color: #fff;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2249__battery {
+  position: relative;
+  width: 90px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 3px solid #636366;
+  border-radius: 10px;
+}
+
+.iphone-ui-2249__battery::after {
+  content: "";
+  position: absolute;
+  right: -7px;
+  width: 5px;
+  height: 15px;
+  border-radius: 0 4px 4px 0;
+  background: #636366;
+}
+
+.iphone-ui-2249__level {
+  position: absolute;
+  inset: 4px;
+  width: 82%;
+  border-radius: 5px;
+  background: #34c759;
+  animation: iphone-battery-charge 2s ease-in-out infinite;
+}
+
+.iphone-ui-2249__battery i {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-size: 14px;
+}
+
+.iphone-ui-2249 > strong {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.iphone-ui-2249 > span {
+  margin-top: 3px;
+  color: #34c759;
+  font-size: 11px;
+}
+
+.iphone-ui-2249 > small {
+  margin-top: 4px;
+  color: #8e8e93;
+  font-size: 8px;
+}
+
+@keyframes iphone-battery-charge {
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 1;
+    filter: brightness(1.2);
+  }
+}
+
+.iphone-ui-2250 {
+  width: 290px;
+  padding: 15px;
+  border-radius: 22px;
+  background: #f2f2f7;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2250__search {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 11px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.75);
+  color: #8e8e93;
+}
+
+.iphone-ui-2250__search span {
+  font-size: 10px;
+}
+
+.iphone-ui-2250__result {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 3px;
+  margin-top: 5px;
+}
+
+.iphone-ui-2250__result > div {
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  background: linear-gradient(135deg, #007aff, #5ac8fa);
+  color: #fff;
+}
+
+.iphone-ui-2250__result span {
+  color: #1c1c1e;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.iphone-ui-2251 {
+  width: 305px;
+  padding: 17px;
+  border-radius: 23px;
+  background: #f2f2f7;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2251__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.iphone-ui-2251__title strong {
+  color: #1c1c1e;
+  font-size: 15px;
+}
+
+.iphone-ui-2251__title span {
+  margin-top: 3px;
+  color: #8e8e93;
+  font-size: 9px;
+}
+
+.iphone-ui-2251__devices {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 17px;
+}
+
+.iphone-ui-2251__devices button {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.iphone-ui-2251__devices button > div {
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #007aff, #5856d6);
+  color: #fff;
+  font-size: 17px;
+}
+
+.iphone-ui-2251__devices button:hover > div {
+  transform: scale(1.06);
+}
+
+.iphone-ui-2251__devices strong {
+  margin-top: 7px;
+  color: #1c1c1e;
+  font-size: 9px;
+}
+
+.iphone-ui-2251__devices span {
+  margin-top: 2px;
+  color: #8e8e93;
+  font-size: 8px;
+}
+
+.iphone-ui-2252 {
+  width: 305px;
+  padding: 17px;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.08);
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2252__lang {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #007aff;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.iphone-ui-2252__lang i {
+  color: #8e8e93;
+}
+
+.iphone-ui-2252__text {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 18px;
+  color: #1c1c1e;
+  font-size: 12px;
+}
+
+.iphone-ui-2252__text i {
+  color: #007aff;
+  font-size: 11px;
+}
+
+.iphone-ui-2252__translation {
+  margin-top: 9px;
+  padding: 11px;
+  border-radius: 11px;
+  background: #f2f2f7;
+  color: #636366;
+  font-size: 11px;
+}
+
+.iphone-ui-2252 > button {
+  width: 100%;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 10px;
+  border: 0;
+  border-radius: 10px;
+  background: #007aff;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.iphone-ui-2252 > button:hover {
+  background: #006fe6;
+}
+
+.iphone-ui-2253 {
+  width: 320px;
+  padding: 10px;
+  border-radius: 25px;
+  background: linear-gradient(180deg, #f2f2f7, #e5e5ea);
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2253__notification {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 11px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 17px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+.iphone-ui-2253__notification.second {
+  margin-top: 8px;
+}
+
+.iphone-ui-2253__icon {
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  background: #34c759;
+  color: #fff;
+  font-size: 13px;
+}
+
+.iphone-ui-2253__icon.orange {
+  background: #ff9500;
+}
+
+.iphone-ui-2253__notification > div:nth-child(2) {
+  min-width: 0;
+  flex: 1;
+}
+
+.iphone-ui-2253__notification strong,
+.iphone-ui-2253__notification span,
+.iphone-ui-2253__notification small {
+  display: block;
+}
+
+.iphone-ui-2253__notification strong {
+  color: #1c1c1e;
+  font-size: 10px;
+}
+
+.iphone-ui-2253__notification span {
+  margin-top: 2px;
+  color: #636366;
+  font-size: 8px;
+}
+
+.iphone-ui-2253__notification small {
+  margin-top: 3px;
+  overflow: hidden;
+  color: #3c3c43;
+  font-size: 9px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.iphone-ui-2253__notification time {
+  color: #8e8e93;
+  font-size: 7px;
+}
+
+.iphone-ui-2254 {
+  width: 300px;
+  padding: 12px;
+  border-radius: 25px;
+  background: #050505;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2254__lens {
+  position: relative;
+  height: 185px;
+  overflow: hidden;
+  border-radius: 17px;
+  background:
+    radial-gradient(
+      circle at 38% 35%,
+      rgba(255, 255, 255, 0.7),
+      transparent 8%
+    ),
+    radial-gradient(
+      circle at 62% 62%,
+      rgba(255, 125, 60, 0.45),
+      transparent 25%
+    ),
+    linear-gradient(135deg, #58677a, #1e293b);
+}
+
+.iphone-ui-2254__zoom {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  top: 38px;
+  left: 90px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 8px rgba(0, 0, 0, 0.13),
+    0 0 30px rgba(255, 255, 255, 0.12);
+}
+
+.iphone-ui-2254__lens > span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 5px 8px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.48);
+  color: #fff;
+  font-size: 9px;
+}
+
+.iphone-ui-2254__toolbar {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  padding-top: 11px;
+}
+
+.iphone-ui-2254__toolbar button {
+  width: 31px;
+  height: 31px;
+  border: 0;
+  border-radius: 50%;
+  background: #2c2c2e;
+  color: #fff;
+  cursor: pointer;
+}
+
+.iphone-ui-2254__toolbar button:hover {
+  background: #3a3a3c;
+}
+
+.iphone-ui-2255 {
+  width: 300px;
+  padding: 15px;
+  border-radius: 23px;
+  background: #1c1c1e;
+  color: #fff;
+  text-align: center;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2255__top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  color: #a1a1a6;
+}
+
+.iphone-ui-2255__top i {
+  color: #8e8e93;
+}
+
+.iphone-ui-2255__top strong {
+  font-size: 11px;
+}
+
+.iphone-ui-2255__body {
+  padding: 22px 16px;
+}
+
+.iphone-ui-2255__mask {
+  width: 67px;
+  height: 67px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #2c2c2e;
+  color: #d1d1d6;
+  font-size: 27px;
+}
+
+.iphone-ui-2255__body h3 {
+  margin: 13px 0 5px;
+  font-size: 16px;
+}
+
+.iphone-ui-2255__body p {
+  margin: 0;
+  color: #8e8e93;
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+.iphone-ui-2255 > button {
+  width: 100%;
+  height: 38px;
+  border: 0;
+  border-radius: 11px;
+  background: #007aff;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.iphone-ui-2256 {
+  width: 315px;
+  padding: 17px;
+  border-radius: 28px;
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.18),
+      rgba(255, 255, 255, 0.06)
+    ),
+    #1c1c1e;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #fff;
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.28);
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-ui-2256__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iphone-ui-2256__top strong {
+  font-size: 12px;
+}
+
+.iphone-ui-2256__top span {
+  color: #8e8e93;
+  font-size: 9px;
+}
+
+.iphone-ui-2256__primary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.iphone-ui-2256__primary button {
+  height: 55px;
+  border: 0;
+  border-radius: 17px;
+  background: #2c2c2e;
+  color: #d1d1d6;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.16s ease;
+}
+
+.iphone-ui-2256__primary button.active {
+  background: #007aff;
+  color: #fff;
+}
+
+.iphone-ui-2256__primary button:hover {
+  transform: translateY(-2px);
+}
+
+.iphone-ui-2256__sliders {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.iphone-ui-2256__sliders > div {
+  position: relative;
+  height: 105px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 13px;
+  border-radius: 17px;
+  background: #2c2c2e;
+}
+
+.iphone-ui-2256__sliders > div i {
+  position: absolute;
+  top: 11px;
+  left: 50%;
+  z-index: 2;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 12px;
+}
+
+.iphone-ui-2256__sliders > div span {
+  position: absolute;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  height: 76%;
+  border-radius: 13px;
+  background: #fff;
+}
+
+.iphone-ui-2256__sliders > div:nth-child(2) span {
+  height: 54%;
+}
+
+.iphone-ui-2256__bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.iphone-ui-2256__bottom button {
+  height: 48px;
+  border: 0;
+  border-radius: 16px;
+  background: #2c2c2e;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.16s ease;
+}
+
+.iphone-ui-2256__bottom button:hover {
+  background: #3a3a3c;
+  transform: translateY(-2px);
 }
