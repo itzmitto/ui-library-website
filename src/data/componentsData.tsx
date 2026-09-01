@@ -23651,6 +23651,1566 @@ export const toggles = [
 .Toggle input:checked + b::before {
   transform: translateX(20px);
 }`
+},{
+  id: 2290,
+  name: "Email Notifications",
+  preview: (
+    <label className="toggle-2290">
+      <span>Email notifications</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Email notifications</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:220px;
+  color:#1f2937;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  width:18px;
+  height:18px;
+  top:3px;
+  left:3px;
+  border-radius:50%;
+  background:#fff;
+  box-shadow:0 1px 4px rgba(0,0,0,.18);
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#2563eb;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2291,
+  name: "Dark Mode",
+  preview: (
+    <label className="toggle-2291">
+      <span>Dark mode</span>
+      <input type="checkbox" />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Dark mode</span>
+  <input type="checkbox">
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:200px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  width:18px;
+  height:18px;
+  top:3px;
+  left:3px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#111827;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2292,
+  name: "Auto Save",
+  preview: (
+    <label className="toggle-2292">
+      <span>Auto save</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Auto save</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:190px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:46px;
+  height:25px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:19px;
+  height:19px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#16a34a;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(21px);
+}`
+},
+{
+  id: 2293,
+  name: "Sound Effects",
+  preview: (
+    <label className="toggle-2293">
+      <span>Sound effects</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Sound effects</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:210px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:42px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#7c3aed;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(18px);
+}`
+},
+{
+  id: 2294,
+  name: "Marketing Emails",
+  preview: (
+    <label className="toggle-2294">
+      <span>Marketing emails</span>
+      <input type="checkbox" />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Marketing emails</span>
+  <input type="checkbox">
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:220px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#f59e0b;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2295,
+  name: "Public Profile",
+  preview: (
+    <label className="toggle-2295">
+      <span>Public profile</span>
+      <input type="checkbox" />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Public profile</span>
+  <input type="checkbox">
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:205px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#0891b2;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2296,
+  name: "Location Access",
+  preview: (
+    <label className="toggle-2296">
+      <span>Location access</span>
+      <input type="checkbox" />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Location access</span>
+  <input type="checkbox">
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:220px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#ef4444;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2297,
+  name: "Two Factor Authentication",
+  preview: (
+    <label className="toggle-2297">
+      <span>Two-factor authentication</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Two-factor authentication</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:250px;
+  color:#374151;
+  font:500 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#22c55e;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2298,
+  name: "Push Notifications",
+  preview: (
+    <label className="toggle-2298">
+      <span>Push notifications</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Push notifications</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:220px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#2563eb;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2299,
+  name: "Auto Update",
+  preview: (
+    <label className="toggle-2299">
+      <span>Automatic updates</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Automatic updates</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:225px;
+  color:#374151;
+  font:500 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#16a34a;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2300,
+  name: "Show Password",
+  preview: (
+    <label className="toggle-2300">
+      <span>Show password</span>
+      <input type="checkbox" />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Show password</span>
+  <input type="checkbox">
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:205px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#4f46e5;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2301,
+  name: "Remember Me",
+  preview: (
+    <label className="toggle-2301">
+      <span>Remember me</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Remember me</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:190px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#2563eb;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2302,
+  name: "Data Sync",
+  preview: (
+    <label className="toggle-2302">
+      <span>Sync data</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Sync data</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:185px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#0891b2;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2303,
+  name: "Camera Access",
+  preview: (
+    <label className="toggle-2303">
+      <span>Camera access</span>
+      <input type="checkbox" />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Camera access</span>
+  <input type="checkbox">
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:210px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#0ea5e9;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2304,
+  name: "Microphone Access",
+  preview: (
+    <label className="toggle-2304">
+      <span>Microphone access</span>
+      <input type="checkbox" />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Microphone access</span>
+  <input type="checkbox">
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:225px;
+  color:#374151;
+  font:500 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#8b5cf6;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2305,
+  name: "Weekly Summary",
+  preview: (
+    <label className="toggle-2305">
+      <span>Weekly summary</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Weekly summary</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:210px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#6366f1;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2306,
+  name: "Online Status",
+  preview: (
+    <label className="toggle-2306">
+      <span>Show online status</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Show online status</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:230px;
+  color:#374151;
+  font:500 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#22c55e;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2307,
+  name: "Profile Discoverability",
+  preview: (
+    <label className="toggle-2307">
+      <span>Profile discoverability</span>
+      <input type="checkbox" />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Profile discoverability</span>
+  <input type="checkbox">
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:240px;
+  color:#374151;
+  font:500 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#0f766e;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2308,
+  name: "Autoplay Videos",
+  preview: (
+    <label className="toggle-2308">
+      <span>Autoplay videos</span>
+      <input type="checkbox" />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Autoplay videos</span>
+  <input type="checkbox">
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:205px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#ea580c;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2309,
+  name: "Compact Sidebar",
+  preview: (
+    <label className="toggle-2309">
+      <span>Compact sidebar</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Compact sidebar</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:205px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:42px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#475569;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(18px);
+}`
+},
+{
+  id: 2310,
+  name: "Desktop Alerts",
+  preview: (
+    <label className="toggle-2310">
+      <span>Desktop alerts</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Desktop alerts</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:205px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#0284c7;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2311,
+  name: "Reduced Motion",
+  preview: (
+    <label className="toggle-2311">
+      <span>Reduce motion</span>
+      <input type="checkbox" />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Reduce motion</span>
+  <input type="checkbox">
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:205px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#64748b;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2312,
+  name: "High Contrast",
+  preview: (
+    <label className="toggle-2312">
+      <span>High contrast</span>
+      <input type="checkbox" />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>High contrast</span>
+  <input type="checkbox">
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:200px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#111827;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2313,
+  name: "Keyboard Shortcuts",
+  preview: (
+    <label className="toggle-2313">
+      <span>Keyboard shortcuts</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Keyboard shortcuts</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:225px;
+  color:#374151;
+  font:500 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#7c3aed;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2314,
+  name: "Usage Tracking",
+  preview: (
+    <label className="toggle-2314">
+      <span>Usage tracking</span>
+      <input type="checkbox" />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Usage tracking</span>
+  <input type="checkbox">
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:205px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#0f766e;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2315,
+  name: "Personalized Content",
+  preview: (
+    <label className="toggle-2315">
+      <span>Personalized content</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Personalized content</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:225px;
+  color:#374151;
+  font:500 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#db2777;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2316,
+  name: "Calendar Reminders",
+  preview: (
+    <label className="toggle-2316">
+      <span>Calendar reminders</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Calendar reminders</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:220px;
+  color:#374151;
+  font:500 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#f59e0b;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2317,
+  name: "Security Alerts",
+  preview: (
+    <label className="toggle-2317">
+      <span>Security alerts</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Security alerts</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:205px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#dc2626;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2318,
+  name: "Cloud Storage",
+  preview: (
+    <label className="toggle-2318">
+      <span>Cloud storage</span>
+      <input type="checkbox" defaultChecked />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Cloud storage</span>
+  <input type="checkbox" checked>
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:195px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#0284c7;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
+},
+{
+  id: 2319,
+  name: "Beta Features",
+  preview: (
+    <label className="toggle-2319">
+      <span>Beta features</span>
+      <input type="checkbox" />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Beta features</span>
+  <input type="checkbox">
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:195px;
+  color:#374151;
+  font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle i {
+  position:relative;
+  width:44px;
+  height:24px;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+}
+.Toggle i::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+i {
+  background:#7c3aed;
+}
+.Toggle input:checked+i::before {
+  transform:translateX(20px);
+}`
 },
     
 ];
