@@ -113955,6 +113955,104 @@ export const iphones = [
     font-size: 12px;
 }`
 },
+
+{
+    id: 2224,
+    name: "iOS Switch",
+    preview: (
+        <div className="iphone-switch-2224">
+            <p>iOS Switch</p>
+            <div className="iphone-switch-2224__container">
+                <input
+                    type="checkbox"
+                    className="iphone-switch-2224__checkbox"
+                    id="iphone-switch-2224"
+                />
+                <label
+                    className="iphone-switch-2224__switch"
+                    htmlFor="iphone-switch-2224"
+                >
+                    <span className="iphone-switch-2224__slider"></span>
+                </label>
+            </div>
+        </div>
+    ),
+    html: `<div class="iOSSwitch">
+    <p>iOS Switch</p>
+    <div class="iOSSwitch-container">
+        <input
+            type="checkbox"
+            class="iOSSwitch-checkbox"
+            id="iOSSwitch-checkbox"
+        >
+        <label
+            class="iOSSwitch-switch"
+            for="iOSSwitch-checkbox"
+        >
+            <span class="iOSSwitch-slider"></span>
+        </label>
+    </div>
+</div>`,
+    css: `.iOSSwitch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+}
+.iOSSwitch p {
+    margin: 0;
+    color: #1c1c1e;
+    font-size: 15px;
+    font-weight: 600;
+}
+.iOSSwitch-container {
+    width: 51px;
+    height: 31px;
+    position: relative;
+}
+.iOSSwitch-checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.iOSSwitch-switch {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #e9e9eb;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all .2s ease-out;
+}
+.iOSSwitch-slider {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: calc(50% - 13.5px - 10px);
+    top: 2px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow:
+        0 3px 8px rgba(0,0,0,.15),
+        0 3px 1px rgba(0,0,0,.06);
+    transition: all .2s ease-out;
+}
+.iOSSwitch-checkbox:checked + .iOSSwitch-switch {
+    background-color: #34c759;
+}
+.iOSSwitch-checkbox:checked + .iOSSwitch-switch .iOSSwitch-slider {
+    left: calc(50% - 13.5px + 10px);
+}
+.iOSSwitch-switch:hover {
+    filter: brightness(.98);
+}
+.iOSSwitch-checkbox:active + .iOSSwitch-switch .iOSSwitch-slider {
+    transform: scale(.94);
+}`
+},
+
 ];
 
 
