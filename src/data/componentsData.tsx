@@ -20847,7 +20847,8 @@ export const toggles = [
         background-position: 100% 50%;
     }
 }`
-    }
+    },
+    
 ];
 
 
