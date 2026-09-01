@@ -4778,3 +4778,110 @@
 .toggle-2289 > div i {
   color: #0f172a;
 }
+.toggle-2290,
+.toggle-2291,
+.toggle-2292,
+.toggle-2293,
+.toggle-2294,
+.toggle-2295,
+.toggle-2296,
+.toggle-2297,
+.toggle-2298,
+.toggle-2299,
+.toggle-2300,
+.toggle-2301,
+.toggle-2302,
+.toggle-2303,
+.toggle-2304,
+.toggle-2305,
+.toggle-2306,
+.toggle-2307,
+.toggle-2308,
+.toggle-2309,
+.toggle-2310,
+.toggle-2311,
+.toggle-2312,
+.toggle-2313,
+.toggle-2314,
+.toggle-2315,
+.toggle-2316,
+.toggle-2317,
+.toggle-2318,
+.toggle-2319 {
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 18px;
+  background: #f8fafc;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.toggle-2290,
+.toggle-2291,
+.toggle-2292,
+.toggle-2293,
+.toggle-2294,
+.toggle-2295,
+.toggle-2296,
+.toggle-2297,
+.toggle-2298,
+.toggle-2299,
+.toggle-2300,
+.toggle-2301,
+.toggle-2302,
+.toggle-2303,
+.toggle-2304,
+.toggle-2305,
+.toggle-2306,
+.toggle-2307,
+.toggle-2308,
+.toggle-2309,
+.toggle-2310,
+.toggle-2311,
+.toggle-2312,
+.toggle-2313,
+.toggle-2314,
+.toggle-2315,
+.toggle-2316,
+.toggle-2317,
+.toggle-2318,
+.toggle-2319 {
+  color: #1f2937;
+}
+
+.toggle-2290 input:focus-visible + i,
+.toggle-2291 input:focus-visible + i,
+.toggle-2292 input:focus-visible + i,
+.toggle-2293 input:focus-visible + i,
+.toggle-2294 input:focus-visible + i,
+.toggle-2295 input:focus-visible + i,
+.toggle-2296 input:focus-visible + i,
+.toggle-2297 input:focus-visible + i,
+.toggle-2298 input:focus-visible + i,
+.toggle-2299 input:focus-visible + i,
+.toggle-2300 input:focus-visible + i,
+.toggle-2301 input:focus-visible + i,
+.toggle-2302 input:focus-visible + i,
+.toggle-2303 input:focus-visible + i,
+.toggle-2304 input:focus-visible + i,
+.toggle-2305 input:focus-visible + i,
+.toggle-2306 input:focus-visible + i,
+.toggle-2307 input:focus-visible + i,
+.toggle-2308 input:focus-visible + i,
+.toggle-2309 input:focus-visible + i,
+.toggle-2310 input:focus-visible + i,
+.toggle-2311 input:focus-visible + i,
+.toggle-2312 input:focus-visible + i,
+.toggle-2313 input:focus-visible + i,
+.toggle-2314 input:focus-visible + i,
+.toggle-2315 input:focus-visible + i,
+.toggle-2316 input:focus-visible + i,
+.toggle-2317 input:focus-visible + i,
+.toggle-2318 input:focus-visible + i,
+.toggle-2319 input:focus-visible + i {
+  outline: 3px solid rgba(37, 99, 235, 0.18);
+  outline-offset: 3px;
+}
