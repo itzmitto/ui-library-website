@@ -5797,3 +5797,707 @@
 .toggle-2379 input:checked + span::before {
   transform: translateX(23px);
 }
+.toggle-2380 {
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 25px;
+}
+.toggle-2380 input {
+  display: none;
+}
+.toggle-2380 span {
+  position: absolute;
+  inset: 0;
+  background: #d1d5db;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2380 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2380 input:checked + span {
+  background: #22c55e;
+}
+.toggle-2380 input:checked + span::before {
+  transform: translateX(21px);
+}
+
+.toggle-2381 {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 27px;
+}
+.toggle-2381 input {
+  display: none;
+}
+.toggle-2381 span {
+  position: absolute;
+  inset: 0;
+  background: #dbe1e8;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2381 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2381 input:checked + span {
+  background: #0ea5e9;
+}
+.toggle-2381 input:checked + span::before {
+  transform: translateX(23px);
+}
+
+.toggle-2382 {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+}
+.toggle-2382 input {
+  display: none;
+}
+.toggle-2382 span {
+  position: absolute;
+  inset: 0;
+  background: #e5e7eb;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2382 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  transition: 0.2s ease;
+}
+.toggle-2382 input:checked + span {
+  background: #6b7280;
+}
+.toggle-2382 input:checked + span::before {
+  transform: translateX(20px);
+}
+
+.toggle-2383 {
+  position: relative;
+  display: inline-block;
+  width: 47px;
+  height: 25px;
+}
+.toggle-2383 input {
+  display: none;
+}
+.toggle-2383 span {
+  position: absolute;
+  inset: 0;
+  background: #d1d5db;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2383 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2383 input:checked + span {
+  background: #14b8a6;
+}
+.toggle-2383 input:checked + span::before {
+  transform: translateX(22px);
+}
+
+.toggle-2384 {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 26px;
+}
+.toggle-2384 input {
+  display: none;
+}
+.toggle-2384 span {
+  position: absolute;
+  inset: 0;
+  background: #d1d5db;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2384 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2384 input:checked + span {
+  background: #6366f1;
+}
+.toggle-2384 input:checked + span::before {
+  transform: translateX(22px);
+}
+
+.toggle-2385 {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 24px;
+}
+.toggle-2385 input {
+  display: none;
+}
+.toggle-2385 span {
+  position: absolute;
+  inset: 0;
+  background: #d1d5db;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2385 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2385 input:checked + span {
+  background: #f43f5e;
+}
+.toggle-2385 input:checked + span::before {
+  transform: translateX(21px);
+}
+
+.toggle-2386 {
+  position: relative;
+  display: inline-block;
+  width: 49px;
+  height: 26px;
+}
+.toggle-2386 input {
+  display: none;
+}
+.toggle-2386 span {
+  position: absolute;
+  inset: 0;
+  background: #d1d5db;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2386 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2386 input:checked + span {
+  background: #f59e0b;
+}
+.toggle-2386 input:checked + span::before {
+  transform: translateX(23px);
+}
+
+.toggle-2387 {
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 25px;
+}
+.toggle-2387 input {
+  display: none;
+}
+.toggle-2387 span {
+  position: absolute;
+  inset: 0;
+  background: #d1d5db;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2387 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2387 input:checked + span {
+  background: #06b6d4;
+}
+.toggle-2387 input:checked + span::before {
+  transform: translateX(21px);
+}
+
+.toggle-2388 {
+  position: relative;
+  display: inline-block;
+  width: 47px;
+  height: 25px;
+}
+.toggle-2388 input {
+  display: none;
+}
+.toggle-2388 span {
+  position: absolute;
+  inset: 0;
+  background: #d1d5db;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2388 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2388 input:checked + span {
+  background: #8b5cf6;
+}
+.toggle-2388 input:checked + span::before {
+  transform: translateX(22px);
+}
+
+.toggle-2389 {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 27px;
+}
+.toggle-2389 input {
+  display: none;
+}
+.toggle-2389 span {
+  position: absolute;
+  inset: 0;
+  background: #d1d5db;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2389 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2389 input:checked + span {
+  background: #38bdf8;
+}
+.toggle-2389 input:checked + span::before {
+  transform: translateX(23px);
+}
+
+.toggle-2390 {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 26px;
+}
+.toggle-2390 input {
+  display: none;
+}
+.toggle-2390 span {
+  position: absolute;
+  inset: 0;
+  background: #cbd5e1;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2390 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2390 input:checked + span {
+  background: #1f2937;
+}
+.toggle-2390 input:checked + span::before {
+  transform: translateX(22px);
+}
+
+.toggle-2391 {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 24px;
+}
+.toggle-2391 input {
+  display: none;
+}
+.toggle-2391 span {
+  position: absolute;
+  inset: 0;
+  background: #d1d5db;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2391 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2391 input:checked + span {
+  background: #10b981;
+}
+.toggle-2391 input:checked + span::before {
+  transform: translateX(21px);
+}
+
+.toggle-2392 {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+}
+.toggle-2392 input {
+  display: none;
+}
+.toggle-2392 span {
+  position: absolute;
+  inset: 0;
+  background: #d1d5db;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2392 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2392 input:checked + span {
+  background: #3b82f6;
+}
+.toggle-2392 input:checked + span::before {
+  transform: translateX(20px);
+}
+
+.toggle-2393 {
+  position: relative;
+  display: inline-block;
+  width: 49px;
+  height: 26px;
+}
+.toggle-2393 input {
+  display: none;
+}
+.toggle-2393 span {
+  position: absolute;
+  inset: 0;
+  background: #d1d5db;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2393 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2393 input:checked + span {
+  background: #10b981;
+}
+.toggle-2393 input:checked + span::before {
+  transform: translateX(23px);
+}
+
+.toggle-2394 {
+  position: relative;
+  display: inline-block;
+  width: 43px;
+  height: 23px;
+}
+.toggle-2394 input {
+  display: none;
+}
+.toggle-2394 span {
+  position: absolute;
+  inset: 0;
+  background: #cbd5e1;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2394 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2394 input:checked + span {
+  background: #64748b;
+}
+.toggle-2394 input:checked + span::before {
+  transform: translateX(20px);
+}
+
+.toggle-2395 {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 26px;
+}
+.toggle-2395 input {
+  display: none;
+}
+.toggle-2395 span {
+  position: absolute;
+  inset: 0;
+  background: #d1d5db;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2395 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2395 input:checked + span {
+  background: #d946ef;
+}
+.toggle-2395 input:checked + span::before {
+  transform: translateX(22px);
+}
+
+.toggle-2396 {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 24px;
+}
+.toggle-2396 input {
+  display: none;
+}
+.toggle-2396 span {
+  position: absolute;
+  inset: 0;
+  background: #d1d5db;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2396 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2396 input:checked + span {
+  background: #84cc16;
+}
+.toggle-2396 input:checked + span::before {
+  transform: translateX(21px);
+}
+
+.toggle-2397 {
+  position: relative;
+  display: inline-block;
+  width: 47px;
+  height: 25px;
+}
+.toggle-2397 input {
+  display: none;
+}
+.toggle-2397 span {
+  position: absolute;
+  inset: 0;
+  background: #d6d3d1;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2397 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background: #fff;
+  transition: 0.2s ease;
+}
+.toggle-2397 input:checked + span {
+  background: #78716c;
+}
+.toggle-2397 input:checked + span::before {
+  transform: translateX(22px);
+}
+
+.toggle-2398 {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 26px;
+}
+.toggle-2398 input {
+  display: none;
+}
+.toggle-2398 span {
+  position: absolute;
+  inset: 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2398 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #cbd5e1;
+  transition: 0.2s ease;
+}
+.toggle-2398 input:checked + span {
+  border-color: #2563eb;
+  background: #eff6ff;
+}
+.toggle-2398 input:checked + span::before {
+  background: #2563eb;
+  transform: translateX(22px);
+}
+
+.toggle-2399 {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 27px;
+}
+.toggle-2399 input {
+  display: none;
+}
+.toggle-2399 span {
+  position: absolute;
+  inset: 0;
+  background: #e5e7eb;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.toggle-2399 span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  transition: 0.2s ease;
+}
+.toggle-2399 input:checked + span {
+  background: #000;
+}
+.toggle-2399 input:checked + span::before {
+  transform: translateX(23px);
+}
