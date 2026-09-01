@@ -2537,3 +2537,95 @@
   .iphone-switch-2224__slider {
   transform: translateX(16px) scale(0.94);
 }
+.iphone-switch-2225 {
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  border-radius: 22px;
+  background: #f2f2f7;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    sans-serif;
+}
+
+.iphone-switch-2225__parent {
+  position: relative;
+  width: 51px;
+  height: 31px;
+}
+
+.iphone-switch-2225__checkbox {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.iphone-switch-2225__switch {
+  position: relative;
+  width: 51px;
+  height: 31px;
+  display: block;
+  border-radius: 16px;
+  background: #e9e9eb;
+  cursor: pointer;
+  transition:
+    background 0.2s ease-out,
+    box-shadow 0.2s ease-out;
+  box-shadow:
+    0 3px 8px rgba(0, 0, 0, 0.15),
+    0 3px 1px rgba(0, 0, 0, 0.06);
+}
+
+.iphone-switch-2225__slider {
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  width: 27px;
+  height: 27px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow:
+    0 3px 8px rgba(0, 0, 0, 0.15),
+    0 3px 1px rgba(0, 0, 0, 0.06);
+  transition:
+    width 0.2s ease-out,
+    transform 0.2s ease-out,
+    box-shadow 0.2s ease-out;
+}
+
+.iphone-switch-2225__parent:active .iphone-switch-2225__slider {
+  width: 37px;
+}
+
+.iphone-switch-2225__checkbox:checked + .iphone-switch-2225__switch {
+  background: #34c759;
+}
+
+.iphone-switch-2225__checkbox:checked
+  + .iphone-switch-2225__switch
+  .iphone-switch-2225__slider {
+  transform: translateX(16px);
+}
+
+.iphone-switch-2225__checkbox:checked
+  + .iphone-switch-2225__switch:active
+  .iphone-switch-2225__slider {
+  width: 37px;
+  transform: translateX(6px);
+}
+
+.iphone-switch-2225__checkbox:focus-visible + .iphone-switch-2225__switch {
+  box-shadow:
+    0 0 0 3px rgba(0, 122, 255, 0.2),
+    0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.iphone-switch-2225__label {
+  color: #1c1c1e;
+  font-size: 13px;
+  font-weight: 600;
+}
