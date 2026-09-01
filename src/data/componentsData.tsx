@@ -114051,6 +114051,102 @@ export const iphones = [
 .iOSSwitch-checkbox:active + .iOSSwitch-switch .iOSSwitch-slider {
     transform: scale(.94);
 }`
+},{
+    id: 2225,
+    name: "iOS Elastic Switch",
+    preview: (
+        <div className="iphone-switch-2225">
+            <div className="iphone-switch-2225__parent">
+                <input
+                    type="checkbox"
+                    className="iphone-switch-2225__checkbox"
+                    id="iphone-switch-2225-checkbox"
+                />
+                <label
+                    className="iphone-switch-2225__switch"
+                    htmlFor="iphone-switch-2225-checkbox"
+                >
+                    <span className="iphone-switch-2225__slider"></span>
+                </label>
+            </div>
+            <span className="iphone-switch-2225__label">
+                iOS Elastic Switch
+            </span>
+        </div>
+    ),
+    html: `<div class="iOSSwitch">
+    <div class="iOSSwitch-parent">
+        <input
+            type="checkbox"
+            class="iOSSwitch-checkbox"
+            id="iOSSwitch-checkbox"
+        />
+        <label
+            class="iOSSwitch-switch"
+            for="iOSSwitch-checkbox"
+        >
+            <span class="iOSSwitch-slider"></span>
+        </label>
+    </div>
+</div>`,
+    css: `.iOSSwitch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iOSSwitch-parent {
+    width: 51px;
+    height: 31px;
+    position: relative;
+}
+.iOSSwitch-checkbox {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.iOSSwitch-switch {
+    position: relative;
+    width: 51px;
+    height: 31px;
+    display: block;
+    border-radius: 16px;
+    background: #e9e9eb;
+    cursor: pointer;
+    transition: background .2s ease-out;
+    box-shadow:
+        0 3px 8px rgba(0,0,0,.15),
+        0 3px 1px rgba(0,0,0,.06);
+}
+.iOSSwitch-slider {
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 27px;
+    height: 27px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow:
+        0 3px 8px rgba(0,0,0,.15),
+        0 3px 1px rgba(0,0,0,.06);
+    transition:
+        width .2s ease-out,
+        transform .2s ease-out,
+        box-shadow .2s ease-out;
+}
+.iOSSwitch-parent:active .iOSSwitch-slider {
+    width: 37px;
+}
+.iOSSwitch-checkbox:checked + .iOSSwitch-switch {
+    background: #34c759;
+}
+.iOSSwitch-checkbox:checked + .iOSSwitch-switch .iOSSwitch-slider {
+    transform: translateX(16px);
+}
+.iOSSwitch-checkbox:checked + .iOSSwitch-switch:active .iOSSwitch-slider {
+    width: 37px;
+    transform: translateX(6px);
+}`
 },
 
 ];
