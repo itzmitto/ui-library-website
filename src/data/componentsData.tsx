@@ -26116,6 +26116,552 @@ export const toggles = [
 .Toggle input:checked+span::before {
   transform:translateX(23px);
 }`
+},{
+  id: 2400,
+  name: "Rainbow Flow Toggle",
+  preview: (
+    <label className="toggle-2400">
+      <input type="checkbox" />
+      <span></span>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <input type="checkbox">
+  <span></span>
+</label>`,
+  css: `.Toggle {
+  position:relative;
+  display:inline-block;
+  width:50px;
+  height:27px;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle span {
+  position:absolute;
+  inset:0;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+  transition:.25s ease;
+}
+.Toggle span::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:21px;
+  height:21px;
+  border-radius:50%;
+  background:#fff;
+  box-shadow:0 2px 5px rgba(0,0,0,.18);
+  transition:.25s ease;
+}
+.Toggle input:checked+span {
+  background:linear-gradient(90deg,#ff0000,#ff7a00,#ffee00,#22c55e,#00d9ff,#3b82f6,#a855f7,#ff00aa,#ff0000);
+  background-size:400% 100%;
+  animation:rainbow-2400 4s linear infinite;
+}
+.Toggle input:checked+span::before {
+  transform:translateX(23px);
+}
+@keyframes rainbow-2400 {
+  from { background-position:0% 50%; }
+  to { background-position:400% 50%; }
+}`
+},
+{
+  id: 2401,
+  name: "Rainbow Glow Toggle",
+  preview: (
+    <label className="toggle-2401">
+      <input type="checkbox" />
+      <span></span>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <input type="checkbox">
+  <span></span>
+</label>`,
+  css: `.Toggle {
+  position:relative;
+  display:inline-block;
+  width:48px;
+  height:26px;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle span {
+  position:absolute;
+  inset:0;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+  transition:.25s ease;
+}
+.Toggle span::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  background:#fff;
+  transition:.25s ease;
+}
+.Toggle input:checked+span {
+  background:linear-gradient(90deg,#ff004c,#ff8a00,#ffe600,#00e676,#00cfff,#2962ff,#8e24aa,#ff004c);
+  background-size:300% 100%;
+  box-shadow:0 0 12px rgba(255,0,150,.35);
+  animation:rainbow-2401 3s linear infinite;
+}
+.Toggle input:checked+span::before {
+  transform:translateX(22px);
+}
+@keyframes rainbow-2401 {
+  0% { background-position:0% 50%; }
+  100% { background-position:300% 50%; }
+}`
+},
+{
+  id: 2402,
+  name: "Neon Rainbow Toggle",
+  preview: (
+    <label className="toggle-2402">
+      <input type="checkbox" />
+      <span></span>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <input type="checkbox">
+  <span></span>
+</label>`,
+  css: `.Toggle {
+  position:relative;
+  display:inline-block;
+  width:52px;
+  height:28px;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle span {
+  position:absolute;
+  inset:0;
+  border-radius:999px;
+  background:#cbd5e1;
+  cursor:pointer;
+  transition:.25s ease;
+}
+.Toggle span::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:22px;
+  height:22px;
+  border-radius:50%;
+  background:#fff;
+  box-shadow:0 2px 5px rgba(0,0,0,.18);
+  transition:.25s ease;
+}
+.Toggle input:checked+span {
+  background:linear-gradient(90deg,#ff0055,#ff8800,#ffee00,#00ff85,#00e5ff,#3772ff,#a000ff,#ff0055);
+  background-size:500% 100%;
+  box-shadow:0 0 8px #ff0055,0 0 16px #00e5ff;
+  animation:rainbow-2402 5s linear infinite;
+}
+.Toggle input:checked+span::before {
+  transform:translateX(24px);
+}
+@keyframes rainbow-2402 {
+  0% { background-position:0% 50%; }
+  100% { background-position:500% 50%; }
+}`
+},
+{
+  id: 2403,
+  name: "Soft Rainbow Toggle",
+  preview: (
+    <label className="toggle-2403">
+      <input type="checkbox" />
+      <span></span>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <input type="checkbox">
+  <span></span>
+</label>`,
+  css: `.Toggle {
+  position:relative;
+  display:inline-block;
+  width:49px;
+  height:26px;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle span {
+  position:absolute;
+  inset:0;
+  border-radius:999px;
+  background:#e5e7eb;
+  cursor:pointer;
+  transition:.25s ease;
+}
+.Toggle span::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  background:#fff;
+  transition:.25s ease;
+}
+.Toggle input:checked+span {
+  background:linear-gradient(90deg,#ff9aa2,#ffb7b2,#ffdac1,#e2f0cb,#b5ead7,#c7ceea,#d8b4fe,#ff9aa2);
+  background-size:350% 100%;
+  animation:rainbow-2403 6s linear infinite;
+}
+.Toggle input:checked+span::before {
+  transform:translateX(23px);
+}
+@keyframes rainbow-2403 {
+  from { background-position:0% 50%; }
+  to { background-position:350% 50%; }
+}`
+},
+{
+  id: 2404,
+  name: "Electric Rainbow Toggle",
+  preview: (
+    <label className="toggle-2404">
+      <input type="checkbox" />
+      <span></span>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <input type="checkbox">
+  <span></span>
+</label>`,
+  css: `.Toggle {
+  position:relative;
+  display:inline-block;
+  width:51px;
+  height:27px;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle span {
+  position:absolute;
+  inset:0;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+  transition:.2s ease;
+}
+.Toggle span::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:21px;
+  height:21px;
+  border-radius:50%;
+  background:#fff;
+  transition:.2s ease;
+}
+.Toggle input:checked+span {
+  background:conic-gradient(from 0deg,#ff0000,#ff8c00,#ffff00,#00ff66,#00ffff,#0066ff,#cc00ff,#ff0000);
+  animation:spin-2404 2.8s linear infinite;
+  box-shadow:0 0 10px rgba(0,255,255,.35);
+}
+.Toggle input:checked+span::before {
+  transform:translateX(24px);
+}
+@keyframes spin-2404 {
+  from { filter:hue-rotate(0deg); }
+  to { filter:hue-rotate(360deg); }
+}`
+},
+{
+  id: 2405,
+  name: "Aurora Rainbow Toggle",
+  preview: (
+    <label className="toggle-2405">
+      <input type="checkbox" />
+      <span></span>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <input type="checkbox">
+  <span></span>
+</label>`,
+  css: `.Toggle {
+  position:relative;
+  display:inline-block;
+  width:50px;
+  height:27px;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle span {
+  position:absolute;
+  inset:0;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+  transition:.25s ease;
+}
+.Toggle span::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:21px;
+  height:21px;
+  border-radius:50%;
+  background:#fff;
+  transition:.25s ease;
+}
+.Toggle input:checked+span {
+  background:linear-gradient(120deg,#22c55e,#06b6d4,#3b82f6,#8b5cf6,#ec4899,#f97316,#22c55e);
+  background-size:250% 250%;
+  animation:rainbow-2405 4s ease-in-out infinite;
+}
+.Toggle input:checked+span::before {
+  transform:translateX(23px);
+}
+@keyframes rainbow-2405 {
+  0% { background-position:0% 50%; }
+  50% { background-position:100% 50%; }
+  100% { background-position:0% 50%; }
+}`
+},
+{
+  id: 2406,
+  name: "Holographic Rainbow Toggle",
+  preview: (
+    <label className="toggle-2406">
+      <input type="checkbox" />
+      <span></span>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <input type="checkbox">
+  <span></span>
+</label>`,
+  css: `.Toggle {
+  position:relative;
+  display:inline-block;
+  width:48px;
+  height:26px;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle span {
+  position:absolute;
+  inset:0;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+  transition:.25s ease;
+}
+.Toggle span::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  background:#fff;
+  transition:.25s ease;
+}
+.Toggle input:checked+span {
+  background:linear-gradient(110deg,#ff0080,#ff8c00,#fff000,#00ff8c,#00d9ff,#624cff,#ff0080);
+  background-size:400% 100%;
+  animation:holo-2406 3.5s ease-in-out infinite;
+}
+.Toggle input:checked+span::before {
+  transform:translateX(22px);
+}
+@keyframes holo-2406 {
+  0% { background-position:0% 50%; }
+  50% { background-position:100% 50%; }
+  100% { background-position:0% 50%; }
+}`
+},
+{
+  id: 2407,
+  name: "Candy Rainbow Toggle",
+  preview: (
+    <label className="toggle-2407">
+      <input type="checkbox" />
+      <span></span>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <input type="checkbox">
+  <span></span>
+</label>`,
+  css: `.Toggle {
+  position:relative;
+  display:inline-block;
+  width:52px;
+  height:28px;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle span {
+  position:absolute;
+  inset:0;
+  border-radius:999px;
+  background:#e2e8f0;
+  cursor:pointer;
+  transition:.25s ease;
+}
+.Toggle span::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:22px;
+  height:22px;
+  border-radius:50%;
+  background:#fff;
+  transition:.25s ease;
+}
+.Toggle input:checked+span {
+  background:linear-gradient(90deg,#ff8fab,#ffb3c6,#ffd6a5,#fdffb6,#caffbf,#9bf6ff,#bdb2ff,#ffc6ff,#ff8fab);
+  background-size:450% 100%;
+  animation:rainbow-2407 7s linear infinite;
+}
+.Toggle input:checked+span::before {
+  transform:translateX(24px);
+}
+@keyframes rainbow-2407 {
+  from { background-position:0% 50%; }
+  to { background-position:450% 50%; }
+}`
+},
+{
+  id: 2408,
+  name: "Prism Rainbow Toggle",
+  preview: (
+    <label className="toggle-2408">
+      <input type="checkbox" />
+      <span></span>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <input type="checkbox">
+  <span></span>
+</label>`,
+  css: `.Toggle {
+  position:relative;
+  display:inline-block;
+  width:47px;
+  height:25px;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle span {
+  position:absolute;
+  inset:0;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+  transition:.25s ease;
+}
+.Toggle span::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:19px;
+  height:19px;
+  border-radius:50%;
+  background:#fff;
+  transition:.25s ease;
+}
+.Toggle input:checked+span {
+  background:linear-gradient(100deg,#ff1744,#ff9100,#ffea00,#00e676,#00b0ff,#651fff,#d500f9,#ff1744);
+  background-size:320% 100%;
+  animation:prism-2408 2.2s linear infinite;
+}
+.Toggle input:checked+span::before {
+  transform:translateX(22px);
+}
+@keyframes prism-2408 {
+  from { background-position:0% 50%; }
+  to { background-position:320% 50%; }
+}`
+},
+{
+  id: 2409,
+  name: "Spectrum Rainbow Toggle",
+  preview: (
+    <label className="toggle-2409">
+      <input type="checkbox" />
+      <span></span>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <input type="checkbox">
+  <span></span>
+</label>`,
+  css: `.Toggle {
+  position:relative;
+  display:inline-block;
+  width:54px;
+  height:29px;
+}
+.Toggle input {
+  display:none;
+}
+.Toggle span {
+  position:absolute;
+  inset:0;
+  border-radius:999px;
+  background:#d1d5db;
+  cursor:pointer;
+  transition:.25s ease;
+}
+.Toggle span::before {
+  content:"";
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:23px;
+  height:23px;
+  border-radius:50%;
+  background:#fff;
+  box-shadow:0 2px 6px rgba(0,0,0,.18);
+  transition:.25s ease;
+}
+.Toggle input:checked+span {
+  background:linear-gradient(90deg,#f00,#ff8000,#ff0,#0f0,#00ffff,#00f,#8000ff,#f0f,#f00);
+  background-size:600% 100%;
+  animation:spectrum-2409 4.5s linear infinite;
+}
+.Toggle input:checked+span::before {
+  transform:translateX(25px);
+}
+@keyframes spectrum-2409 {
+  0% { background-position:0% 50%; }
+  100% { background-position:600% 50%; }
+}`
 },
     
 ];
