@@ -17061,6 +17061,626 @@ export const checkboxes = [
     opacity: 1;
   }
 }`
+},{
+  id: 2258,
+  name: "Legendary Fire Core Checkbox",
+  preview: (
+    <div className="checkbox-2258">
+      <label className="checkbox-2258__control">
+        <input
+          type="checkbox"
+          className="checkbox-2258__input"
+        />
+        <span className="checkbox-2258__visual">
+          <span className="checkbox-2258__heat"></span>
+          <span className="checkbox-2258__ring checkbox-2258__ring--outer"></span>
+          <span className="checkbox-2258__ring checkbox-2258__ring--middle"></span>
+          <span className="checkbox-2258__ring checkbox-2258__ring--inner"></span>
+          <span className="checkbox-2258__flame checkbox-2258__flame--one"></span>
+          <span className="checkbox-2258__flame checkbox-2258__flame--two"></span>
+          <span className="checkbox-2258__flame checkbox-2258__flame--three"></span>
+          <span className="checkbox-2258__core"></span>
+          <span className="checkbox-2258__check">
+            <i className="fa-solid fa-fire"></i>
+          </span>
+          <span className="checkbox-2258__embers checkbox-2258__embers--one"></span>
+          <span className="checkbox-2258__embers checkbox-2258__embers--two"></span>
+          <span className="checkbox-2258__embers checkbox-2258__embers--three"></span>
+          <span className="checkbox-2258__embers checkbox-2258__embers--four"></span>
+          <span className="checkbox-2258__scan"></span>
+        </span>
+        <span className="checkbox-2258__info">
+          <strong>Inferno Core</strong>
+          <span>Thermal energy system</span>
+          <small>EMBER PROTOCOL</small>
+        </span>
+        <span className="checkbox-2258__state">
+          <span className="checkbox-2258__state-dot"></span>
+          <span className="checkbox-2258__state-text">DORMANT</span>
+        </span>
+      </label>
+    </div>
+  ),
+  html: `<label class="InfernoCheckbox">
+  <input type="checkbox" class="InfernoCheckbox-input">
+  <span class="InfernoCheckbox-visual">
+    <span class="InfernoCheckbox-heat"></span>
+    <span class="InfernoCheckbox-ring InfernoCheckbox-ring--outer"></span>
+    <span class="InfernoCheckbox-ring InfernoCheckbox-ring--middle"></span>
+    <span class="InfernoCheckbox-ring InfernoCheckbox-ring--inner"></span>
+    <span class="InfernoCheckbox-flame InfernoCheckbox-flame--one"></span>
+    <span class="InfernoCheckbox-flame InfernoCheckbox-flame--two"></span>
+    <span class="InfernoCheckbox-flame InfernoCheckbox-flame--three"></span>
+    <span class="InfernoCheckbox-core"></span>
+    <span class="InfernoCheckbox-check">
+      <i class="fa-solid fa-fire"></i>
+    </span>
+    <span class="InfernoCheckbox-embers InfernoCheckbox-embers--one"></span>
+    <span class="InfernoCheckbox-embers InfernoCheckbox-embers--two"></span>
+    <span class="InfernoCheckbox-embers InfernoCheckbox-embers--three"></span>
+    <span class="InfernoCheckbox-embers InfernoCheckbox-embers--four"></span>
+    <span class="InfernoCheckbox-scan"></span>
+  </span>
+  <span class="InfernoCheckbox-info">
+    <strong>Inferno Core</strong>
+    <span>Thermal energy system</span>
+    <small>EMBER PROTOCOL</small>
+  </span>
+  <span class="InfernoCheckbox-state">
+    <span class="InfernoCheckbox-state-dot"></span>
+    <span class="InfernoCheckbox-state-text">DORMANT</span>
+  </span>
+</label>`,
+  css: `.InfernoCheckbox {
+  position: relative;
+  width: 100%;
+  max-width: 620px;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 20px 22px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid rgba(120,53,15,.34);
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 16% 50%,rgba(249,115,22,.07),transparent 20%),
+    radial-gradient(circle at 80% 20%,rgba(239,68,68,.05),transparent 28%),
+    linear-gradient(145deg,#080503,#120a07 48%,#060403);
+  color: #fff;
+  font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+  box-shadow:
+    inset 0 1px rgba(255,255,255,.04),
+    inset 0 -18px 35px rgba(0,0,0,.2),
+    0 18px 45px rgba(0,0,0,.34);
+}
+.InfernoCheckbox::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(251,191,36,.015) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(251,191,36,.012) 1px,transparent 1px);
+  background-size: 25px 25px;
+  mask-image: linear-gradient(to bottom,transparent,#000 20%,#000 80%,transparent);
+  pointer-events: none;
+}
+.InfernoCheckbox::after {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: radial-gradient(circle,rgba(249,115,22,.055),transparent 68%);
+  filter: blur(25px);
+  pointer-events: none;
+}
+.InfernoCheckbox-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+.InfernoCheckbox-visual {
+  position: relative;
+  width: 78px;
+  height: 78px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  overflow: hidden;
+  border: 1px solid rgba(120,53,15,.4);
+  border-radius: 21px;
+  background:
+    radial-gradient(circle,#1c0b04 0%,#090503 72%);
+  cursor: pointer;
+  isolation: isolate;
+  box-shadow:
+    inset 0 1px rgba(255,255,255,.05),
+    inset 0 -12px 24px rgba(0,0,0,.38),
+    0 12px 28px rgba(0,0,0,.3);
+  transition:
+    transform .18s ease,
+    border-color .25s ease,
+    box-shadow .25s ease,
+    background .3s ease;
+}
+.InfernoCheckbox-visual::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border: 1px solid rgba(251,146,60,.08);
+  border-radius: 17px;
+}
+.InfernoCheckbox-visual::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background: linear-gradient(90deg,transparent,rgba(251,146,60,.1),transparent);
+}
+.InfernoCheckbox-input:focus-visible + .InfernoCheckbox-visual {
+  outline: none;
+  border-color: rgba(251,146,60,.6);
+  box-shadow:
+    0 0 0 3px rgba(249,115,22,.12),
+    0 0 28px rgba(249,115,22,.16),
+    inset 0 1px rgba(255,255,255,.06);
+}
+.InfernoCheckbox-visual:hover {
+  transform: translateY(-2px);
+  border-color: rgba(249,115,22,.45);
+  box-shadow:
+    0 0 18px rgba(249,115,22,.09),
+    0 15px 32px rgba(0,0,0,.34),
+    inset 0 1px rgba(255,255,255,.07);
+}
+.InfernoCheckbox-input:active + .InfernoCheckbox-visual {
+  transform: scale(.95);
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual {
+  border-color: rgba(251,146,60,.75);
+  background:
+    radial-gradient(circle at 50% 48%,rgba(249,115,22,.18),#160704 62%,#070302 100%);
+  box-shadow:
+    inset 0 1px rgba(255,255,255,.07),
+    0 0 14px rgba(249,115,22,.28),
+    0 0 34px rgba(239,68,68,.13),
+    0 18px 35px rgba(0,0,0,.42);
+}
+.InfernoCheckbox-heat {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle,rgba(255,251,235,.22),rgba(251,146,60,.14) 28%,rgba(239,68,68,.07) 54%,transparent 72%);
+  filter: blur(4px);
+  opacity: .22;
+  transition:
+    transform .35s ease,
+    opacity .35s ease,
+    filter .35s ease;
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-heat {
+  opacity: 1;
+  transform: scale(1.25);
+  filter: blur(2px);
+  animation: inferno-2258-heat 1.8s ease-in-out infinite;
+}
+.InfernoCheckbox-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  transition:
+    opacity .3s ease,
+    border-color .3s ease;
+}
+.InfernoCheckbox-ring--outer {
+  width: 64px;
+  height: 64px;
+  border-top-color: rgba(146,64,14,.5);
+  border-right-color: rgba(146,64,14,.12);
+}
+.InfernoCheckbox-ring--middle {
+  width: 49px;
+  height: 49px;
+  border-left-color: rgba(180,83,9,.38);
+  border-bottom-color: rgba(180,83,9,.12);
+}
+.InfernoCheckbox-ring--inner {
+  width: 35px;
+  height: 35px;
+  border-top-color: rgba(234,88,12,.25);
+  border-right-color: rgba(234,88,12,.08);
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-ring--outer {
+  border-top-color: #fb923c;
+  border-right-color: rgba(251,146,60,.22);
+  animation: inferno-2258-ring-one 4s linear infinite;
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-ring--middle {
+  border-left-color: #f97316;
+  border-bottom-color: rgba(239,68,68,.32);
+  animation: inferno-2258-ring-two 2.6s linear infinite;
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-ring--inner {
+  border-top-color: #fb7185;
+  border-right-color: rgba(251,113,133,.25);
+  animation: inferno-2258-ring-three 1.7s linear infinite;
+}
+.InfernoCheckbox-flame {
+  position: absolute;
+  bottom: 17px;
+  border-radius: 60% 40% 55% 45%;
+  background:
+    linear-gradient(to top,#7c2d12 0%,#ea580c 45%,#fb923c 72%,#fff7ed 100%);
+  opacity: 0;
+  filter: blur(.2px);
+  transform-origin: bottom center;
+  transition:
+    opacity .3s ease,
+    transform .3s ease;
+}
+.InfernoCheckbox-flame--one {
+  width: 15px;
+  height: 27px;
+  left: 31px;
+  transform: rotate(-8deg) scale(.55);
+}
+.InfernoCheckbox-flame--two {
+  width: 11px;
+  height: 21px;
+  left: 24px;
+  transform: rotate(8deg) scale(.5);
+}
+.InfernoCheckbox-flame--three {
+  width: 10px;
+  height: 18px;
+  right: 24px;
+  transform: rotate(-12deg) scale(.45);
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-flame {
+  opacity: .8;
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-flame--one {
+  transform: rotate(-4deg) scale(1);
+  animation: inferno-2258-flame-one .9s ease-in-out infinite alternate;
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-flame--two {
+  transform: rotate(6deg) scale(.85);
+  animation: inferno-2258-flame-two .7s ease-in-out infinite alternate;
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-flame--three {
+  transform: rotate(-8deg) scale(.8);
+  animation: inferno-2258-flame-three 1.1s ease-in-out infinite alternate;
+}
+.InfernoCheckbox-core {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  z-index: 4;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 28%,#fff 0%,#fff7ed 15%,#fde68a 30%,#fb923c 48%,#ea580c 68%,#7c2d12 100%);
+  opacity: .28;
+  transform: scale(.62);
+  box-shadow:
+    0 0 5px rgba(255,247,237,.25),
+    0 0 14px rgba(249,115,22,.22);
+  transition:
+    opacity .3s ease,
+    transform .4s cubic-bezier(.2,1.5,.3,1),
+    box-shadow .35s ease;
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-core {
+  opacity: 1;
+  transform: scale(1.25);
+  box-shadow:
+    0 0 8px rgba(255,247,237,.9),
+    0 0 17px rgba(251,146,60,.9),
+    0 0 32px rgba(239,68,68,.5);
+  animation: inferno-2258-core 1.3s ease-in-out infinite;
+}
+.InfernoCheckbox-check {
+  position: absolute;
+  z-index: 6;
+  width: 31px;
+  height: 31px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(249,115,22,.04);
+  color: #fff7ed;
+  font-size: 11px;
+  opacity: 0;
+  transform: scale(.42) rotate(-45deg);
+  text-shadow:
+    0 0 5px #fff7ed,
+    0 0 13px #fb923c,
+    0 0 22px #ef4444;
+  transition:
+    opacity .2s ease,
+    transform .4s cubic-bezier(.2,1.5,.3,1);
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-check {
+  opacity: 1;
+  transform: scale(1) rotate(0);
+}
+.InfernoCheckbox-embers {
+  position: absolute;
+  z-index: 7;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #fdba74;
+  opacity: 0;
+  box-shadow:
+    0 0 6px #fb923c,
+    0 0 13px rgba(239,68,68,.65);
+  pointer-events: none;
+}
+.InfernoCheckbox-embers--one {
+  left: 20px;
+  bottom: 19px;
+}
+.InfernoCheckbox-embers--two {
+  left: 55px;
+  bottom: 24px;
+  width: 3px;
+  height: 3px;
+}
+.InfernoCheckbox-embers--three {
+  right: 19px;
+  bottom: 27px;
+  width: 3px;
+  height: 3px;
+}
+.InfernoCheckbox-embers--four {
+  right: 29px;
+  bottom: 16px;
+  width: 5px;
+  height: 5px;
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-embers {
+  opacity: 1;
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-embers--one {
+  animation: inferno-2258-ember-one 1.7s ease-out infinite;
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-embers--two {
+  animation: inferno-2258-ember-two 1.3s ease-out infinite .25s;
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-embers--three {
+  animation: inferno-2258-ember-three 1.6s ease-out infinite .1s;
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-embers--four {
+  animation: inferno-2258-ember-four 1.9s ease-out infinite .4s;
+}
+.InfernoCheckbox-scan {
+  position: absolute;
+  top: -20%;
+  left: -55%;
+  width: 32%;
+  height: 140%;
+  z-index: 8;
+  background:
+    linear-gradient(90deg,transparent,rgba(255,237,213,.32),transparent);
+  transform: skewX(-18deg);
+  opacity: 0;
+  pointer-events: none;
+}
+.InfernoCheckbox-input:checked + .InfernoCheckbox-visual .InfernoCheckbox-scan {
+  opacity: 1;
+  animation: inferno-2258-scan 2.6s ease-in-out infinite;
+}
+.InfernoCheckbox-info {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+.InfernoCheckbox-info strong {
+  color: #fff7ed;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .2px;
+}
+.InfernoCheckbox-info span {
+  margin-top: 4px;
+  color: #a8a29e;
+  font-size: 10px;
+}
+.InfernoCheckbox-info small {
+  margin-top: 9px;
+  color: #57534e;
+  font-size: 7px;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+  transition: color .3s ease;
+}
+.InfernoCheckbox-state {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 7px;
+  margin-left: auto;
+  min-width: 64px;
+  user-select: none;
+}
+.InfernoCheckbox-state-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #57534e;
+  transition:
+    background .3s ease,
+    box-shadow .3s ease,
+    transform .3s ease;
+}
+.InfernoCheckbox-state-text {
+  color: #57534e;
+  font-size: 7px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  transition: color .3s ease;
+}
+.InfernoCheckbox-input:checked ~ .InfernoCheckbox-info small {
+  color: rgba(251,146,60,.7);
+}
+.InfernoCheckbox-input:checked ~ .InfernoCheckbox-state .InfernoCheckbox-state-dot {
+  background: #fb923c;
+  box-shadow:
+    0 0 7px #fb923c,
+    0 0 16px rgba(239,68,68,.7);
+  transform: scale(1.18);
+  animation: inferno-2258-status 1.3s ease-in-out infinite;
+}
+.InfernoCheckbox-input:checked ~ .InfernoCheckbox-state .InfernoCheckbox-state-text {
+  color: #fb923c;
+}
+@keyframes inferno-2258-heat {
+  0%,100% {
+    transform: scale(.92);
+  }
+  50% {
+    transform: scale(1.12);
+  }
+}
+@keyframes inferno-2258-ring-one {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes inferno-2258-ring-two {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes inferno-2258-ring-three {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes inferno-2258-core {
+  0%,100% {
+    transform: scale(1.15);
+  }
+  50% {
+    transform: scale(1.42);
+  }
+}
+@keyframes inferno-2258-flame-one {
+  from {
+    transform: rotate(-4deg) scale(1);
+  }
+  to {
+    transform: rotate(7deg) scale(1.12);
+  }
+}
+@keyframes inferno-2258-flame-two {
+  from {
+    transform: rotate(6deg) scale(.85);
+  }
+  to {
+    transform: rotate(-8deg) scale(1);
+  }
+}
+@keyframes inferno-2258-flame-three {
+  from {
+    transform: rotate(-8deg) scale(.8);
+  }
+  to {
+    transform: rotate(7deg) scale(.95);
+  }
+}
+@keyframes inferno-2258-ember-one {
+  0% {
+    transform: translate(0,0) scale(.6);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-7px,-34px) scale(0);
+    opacity: 0;
+  }
+}
+@keyframes inferno-2258-ember-two {
+  0% {
+    transform: translate(0,0) scale(.5);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(5px,-41px) scale(0);
+    opacity: 0;
+  }
+}
+@keyframes inferno-2258-ember-three {
+  0% {
+    transform: translate(0,0) scale(.5);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(8px,-37px) scale(0);
+    opacity: 0;
+  }
+}
+@keyframes inferno-2258-ember-four {
+  0% {
+    transform: translate(0,0) scale(.5);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-4px,-46px) scale(0);
+    opacity: 0;
+  }
+}
+@keyframes inferno-2258-scan {
+  0% {
+    left: -55%;
+  }
+  55% {
+    left: 125%;
+  }
+  100% {
+    left: 125%;
+  }
+}
+@keyframes inferno-2258-status {
+  0%,100% {
+    opacity: .65;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+`
 },
 
 
