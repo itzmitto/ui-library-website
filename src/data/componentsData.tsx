@@ -21946,9 +21946,1739 @@ export const toggles = [
     }
 }`
     },
+    {
+  id: 2260,
+  name: "Basic Toggle",
+  preview: (
+    <label className="toggle-2260">
+      <input type="checkbox" />
+      <span></span>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <input type="checkbox">
+  <span></span>
+</label>`,
+  css: `.Toggle {
+  position: relative;
+  width: 46px;
+  height: 26px;
+  display: inline-block;
+}
+.Toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.Toggle span {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+  transition: .2s ease;
+}
+.Toggle span::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 3px;
+  left: 3px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,.18);
+  transition: .2s ease;
+}
+.Toggle input:checked + span {
+  background: #34c759;
+}
+.Toggle input:checked + span::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2261,
+  name: "Settings Toggle",
+  preview: (
+    <label className="toggle-2261">
+      <span>Dark Mode</span>
+      <input type="checkbox" />
+      <i></i>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Dark Mode</span>
+  <input type="checkbox">
+  <i></i>
+</label>`,
+  css: `.Toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  width: 190px;
+  color: #1c1c1e;
+  font-size: 12px;
+  font-weight: 600;
+}
+.Toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.Toggle i {
+  position: relative;
+  width: 42px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle i::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,.18);
+  transition: .2s ease;
+}
+.Toggle input:checked + i {
+  background: #34c759;
+}
+.Toggle input:checked + i::before {
+  transform: translateX(18px);
+}`
+},
+{
+  id: 2262,
+  name: "Notification Toggle",
+  preview: (
+    <label className="toggle-2262">
+      <div>
+        <i className="fa-solid fa-bell"></i>
+        <span>Notifications</span>
+      </div>
+      <input type="checkbox" defaultChecked />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <div>
+    <i class="fa-solid fa-bell"></i>
+    <span>Notifications</span>
+  </div>
+  <input type="checkbox" checked>
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #1c1c1e;
+  font-size: 11px;
+}
+.Toggle div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.Toggle div i {
+  color: #007aff;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,.18);
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #007aff;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2263,
+  name: "Privacy Toggle",
+  preview: (
+    <label className="toggle-2263">
+      <span>Private Profile</span>
+      <input type="checkbox" />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Private Profile</span>
+  <input type="checkbox">
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #334155;
+  font-size: 11px;
+  font-weight: 600;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #cbd5e1;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #475569;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2264,
+  name: "Online Status Toggle",
+  preview: (
+    <label className="toggle-2264">
+      <div>
+        <span className="dot"></span>
+        <span>Online Status</span>
+      </div>
+      <input type="checkbox" defaultChecked />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <div>
+    <span class="dot"></span>
+    <span>Online Status</span>
+  </div>
+  <input type="checkbox" checked>
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 215px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #1c1c1e;
+}
+.Toggle div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.Toggle .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #d1d1d6;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #34c759;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}
+.Toggle input:checked ~ div .dot {
+  background: #34c759;
+}`
+},
+{
+  id: 2265,
+  name: "Auto Save Toggle",
+  preview: (
+    <label className="toggle-2265">
+      <span>Auto Save</span>
+      <input type="checkbox" defaultChecked />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Auto Save</span>
+  <input type="checkbox" checked>
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #334155;
+  font-size: 12px;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #34c759;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2266,
+  name: "Email Updates Toggle",
+  preview: (
+    <label className="toggle-2266">
+      <span>Email Updates</span>
+      <input type="checkbox" />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Email Updates</span>
+  <input type="checkbox">
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #475569;
+  font-size: 11px;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 46px;
+  height: 26px;
+  border-radius: 999px;
+  background: #cbd5e1;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #2563eb;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2267,
+  name: "Sound Toggle",
+  preview: (
+    <label className="toggle-2267">
+      <i className="fa-solid fa-volume-high"></i>
+      <input type="checkbox" defaultChecked />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <i class="fa-solid fa-volume-high"></i>
+  <input type="checkbox" checked>
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Toggle > i {
+  color: #64748b;
+  font-size: 13px;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #007aff;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2268,
+  name: "Location Toggle",
+  preview: (
+    <label className="toggle-2268">
+      <div>
+        <i className="fa-solid fa-location-dot"></i>
+        <span>Location Services</span>
+      </div>
+      <input type="checkbox" />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <div>
+    <i class="fa-solid fa-location-dot"></i>
+    <span>Location Services</span>
+  </div>
+  <input type="checkbox">
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 235px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #334155;
+  font-size: 10px;
+}
+.Toggle div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.Toggle div i {
+  color: #ef4444;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #ef4444;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2269,
+  name: "Marketing Toggle",
+  preview: (
+    <label className="toggle-2269">
+      <span>Marketing Emails</span>
+      <input type="checkbox" />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Marketing Emails</span>
+  <input type="checkbox">
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #334155;
+  font-size: 10px;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 43px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #8b5cf6;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(19px);
+}`
+},
+{
+  id: 2270,
+  name: "Auto Update Toggle",
+  preview: (
+    <label className="toggle-2270">
+      <span>Automatic Updates</span>
+      <input type="checkbox" defaultChecked />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Automatic Updates</span>
+  <input type="checkbox" checked>
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 235px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #1c1c1e;
+  font-size: 10px;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 45px;
+  height: 25px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #0a84ff;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2271,
+  name: "Two Factor Toggle",
+  preview: (
+    <label className="toggle-2271">
+      <div>
+        <i className="fa-solid fa-shield-halved"></i>
+        <span>Two-factor authentication</span>
+      </div>
+      <input type="checkbox" defaultChecked />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <div>
+    <i class="fa-solid fa-shield-halved"></i>
+    <span>Two-factor authentication</span>
+  </div>
+  <input type="checkbox" checked>
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #1c1c1e;
+  font-size: 9px;
+}
+.Toggle div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.Toggle div i {
+  color: #22c55e;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #22c55e;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2272,
+  name: "Compact Toggle",
+  preview: (
+    <label className="toggle-2272">
+      <input type="checkbox" />
+      <span></span>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <input type="checkbox">
+  <span></span>
+</label>`,
+  css: `.Toggle {
+  position: relative;
+  width: 38px;
+  height: 22px;
+  display: inline-block;
+}
+.Toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.Toggle span {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .18s ease;
+}
+.Toggle input:checked + span {
+  background: #34c759;
+}
+.Toggle input:checked + span::before {
+  transform: translateX(16px);
+}`
+},
+{
+  id: 2273,
+  name: "Large Toggle",
+  preview: (
+    <label className="toggle-2273">
+      <input type="checkbox" />
+      <span></span>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <input type="checkbox">
+  <span></span>
+</label>`,
+  css: `.Toggle {
+  position: relative;
+  width: 58px;
+  height: 32px;
+  display: inline-block;
+}
+.Toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.Toggle span {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle span::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,.16);
+  transition: .2s ease;
+}
+.Toggle input:checked + span {
+  background: #34c759;
+}
+.Toggle input:checked + span::before {
+  transform: translateX(26px);
+}`
+},
+{
+  id: 2274,
+  name: "Blue Action Toggle",
+  preview: (
+    <label className="toggle-2274">
+      <input type="checkbox" />
+      <span></span>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <input type="checkbox">
+  <span></span>
+</label>`,
+  css: `.Toggle {
+  position: relative;
+  width: 48px;
+  height: 27px;
+  display: inline-block;
+}
+.Toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.Toggle span {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  background: #cbd5e1;
+  cursor: pointer;
+}
+.Toggle span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + span {
+  background: #2563eb;
+}
+.Toggle input:checked + span::before {
+  transform: translateX(21px);
+}`
+},
+{
+  id: 2275,
+  name: "Purple Feature Toggle",
+  preview: (
+    <label className="toggle-2275">
+      <span>AI Features</span>
+      <input type="checkbox" defaultChecked />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>AI Features</span>
+  <input type="checkbox" checked>
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 205px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #334155;
+  font-size: 11px;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #cbd5e1;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #8b5cf6;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2276,
+  name: "Danger Toggle",
+  preview: (
+    <label className="toggle-2276">
+      <span>Delete Protection</span>
+      <input type="checkbox" />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Delete Protection</span>
+  <input type="checkbox">
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #475569;
+  font-size: 10px;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #ff3b30;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2277,
+  name: "Rounded Settings Toggle",
+  preview: (
+    <label className="toggle-2277">
+      <span>Show Password</span>
+      <input type="checkbox" />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Show Password</span>
+  <input type="checkbox">
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #1c1c1e;
+  font-size: 11px;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 45px;
+  height: 25px;
+  border-radius: 999px;
+  background: #e5e5ea;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #5856d6;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2278,
+  name: "Data Sync Toggle",
+  preview: (
+    <label className="toggle-2278">
+      <div>
+        <i className="fa-solid fa-rotate"></i>
+        <span>Sync Data</span>
+      </div>
+      <input type="checkbox" defaultChecked />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <div>
+    <i class="fa-solid fa-rotate"></i>
+    <span>Sync Data</span>
+  </div>
+  <input type="checkbox" checked>
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #334155;
+  font-size: 11px;
+}
+.Toggle div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.Toggle div i {
+  color: #0ea5e9;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #0ea5e9;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2279,
+  name: "Cookie Toggle",
+  preview: (
+    <label className="toggle-2279">
+      <span>Analytics Cookies</span>
+      <input type="checkbox" defaultChecked />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Analytics Cookies</span>
+  <input type="checkbox" checked>
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #475569;
+  font-size: 10px;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #cbd5e1;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #16a34a;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2280,
+  name: "Preview Mode Toggle",
+  preview: (
+    <label className="toggle-2280">
+      <span>Preview Mode</span>
+      <input type="checkbox" />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Preview Mode</span>
+  <input type="checkbox">
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 205px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #334155;
+  font-size: 11px;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #ff9500;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2281,
+  name: "Maintenance Toggle",
+  preview: (
+    <label className="toggle-2281">
+      <span>Maintenance Mode</span>
+      <input type="checkbox" />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Maintenance Mode</span>
+  <input type="checkbox">
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 235px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #475569;
+  font-size: 10px;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #f59e0b;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2282,
+  name: "Profile Visibility Toggle",
+  preview: (
+    <label className="toggle-2282">
+      <div>
+        <i className="fa-solid fa-eye"></i>
+        <span>Public Profile</span>
+      </div>
+      <input type="checkbox" defaultChecked />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <div>
+    <i class="fa-solid fa-eye"></i>
+    <span>Public Profile</span>
+  </div>
+  <input type="checkbox" checked>
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #334155;
+  font-size: 10px;
+}
+.Toggle div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.Toggle div i {
+  color: #64748b;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #0a84ff;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2283,
+  name: "Focus Mode Toggle",
+  preview: (
+    <label className="toggle-2283">
+      <div>
+        <i className="fa-solid fa-moon"></i>
+        <span>Focus Mode</span>
+      </div>
+      <input type="checkbox" />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <div>
+    <i class="fa-solid fa-moon"></i>
+    <span>Focus Mode</span>
+  </div>
+  <input type="checkbox">
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 215px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #334155;
+  font-size: 11px;
+}
+.Toggle div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.Toggle div i {
+  color: #6366f1;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #cbd5e1;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #6366f1;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2284,
+  name: "Backup Toggle",
+  preview: (
+    <label className="toggle-2284">
+      <span>Cloud Backup</span>
+      <input type="checkbox" defaultChecked />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Cloud Backup</span>
+  <input type="checkbox" checked>
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #334155;
+  font-size: 11px;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #0ea5e9;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2285,
+  name: "Accessibility Toggle",
+  preview: (
+    <label className="toggle-2285">
+      <div>
+        <i className="fa-solid fa-universal-access"></i>
+        <span>Reduce Motion</span>
+      </div>
+      <input type="checkbox" />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <div>
+    <i class="fa-solid fa-universal-access"></i>
+    <span>Reduce Motion</span>
+  </div>
+  <input type="checkbox">
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #334155;
+  font-size: 10px;
+}
+.Toggle div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.Toggle div i {
+  color: #2563eb;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #2563eb;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2286,
+  name: "Auto Play Toggle",
+  preview: (
+    <label className="toggle-2286">
+      <span>Autoplay</span>
+      <input type="checkbox" defaultChecked />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Autoplay</span>
+  <input type="checkbox" checked>
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #334155;
+  font-size: 11px;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 43px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #34c759;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(19px);
+}`
+},
+{
+  id: 2287,
+  name: "Chat Availability Toggle",
+  preview: (
+    <label className="toggle-2287">
+      <div>
+        <i className="fa-solid fa-comments"></i>
+        <span>Available for Chat</span>
+      </div>
+      <input type="checkbox" />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <div>
+    <i class="fa-solid fa-comments"></i>
+    <span>Available for Chat</span>
+  </div>
+  <input type="checkbox">
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 235px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #334155;
+  font-size: 10px;
+}
+.Toggle div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.Toggle div i {
+  color: #22c55e;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #22c55e;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2288,
+  name: "Auto Refresh Toggle",
+  preview: (
+    <label className="toggle-2288">
+      <span>Auto Refresh</span>
+      <input type="checkbox" defaultChecked />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <span>Auto Refresh</span>
+  <input type="checkbox" checked>
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 205px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #334155;
+  font-size: 11px;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #d1d1d6;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #007aff;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
+{
+  id: 2289,
+  name: "Developer Mode Toggle",
+  preview: (
+    <label className="toggle-2289">
+      <div>
+        <i className="fa-solid fa-code"></i>
+        <span>Developer Mode</span>
+      </div>
+      <input type="checkbox" />
+      <b></b>
+    </label>
+  ),
+  html: `<label class="Toggle">
+  <div>
+    <i class="fa-solid fa-code"></i>
+    <span>Developer Mode</span>
+  </div>
+  <input type="checkbox">
+  <b></b>
+</label>`,
+  css: `.Toggle {
+  width: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #334155;
+  font-size: 10px;
+}
+.Toggle div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.Toggle div i {
+  color: #0f172a;
+}
+.Toggle input {
+  display: none;
+}
+.Toggle b {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 999px;
+  background: #cbd5e1;
+  cursor: pointer;
+}
+.Toggle b::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .2s ease;
+}
+.Toggle input:checked + b {
+  background: #0f172a;
+}
+.Toggle input:checked + b::before {
+  transform: translateX(20px);
+}`
+},
     
 ];
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
