@@ -3428,3 +3428,319 @@
     opacity: 0.6;
   }
 }
+.iphone-ui-2237,
+.iphone-ui-2238,
+.iphone-ui-2239,
+.iphone-ui-2240,
+.iphone-ui-2241,
+.iphone-ui-2242,
+.iphone-ui-2243,
+.iphone-ui-2244,
+.iphone-ui-2245,
+.iphone-ui-2246,
+.iphone-ui-2247,
+.iphone-ui-2248,
+.iphone-ui-2249,
+.iphone-ui-2250,
+.iphone-ui-2251,
+.iphone-ui-2252,
+.iphone-ui-2253,
+.iphone-ui-2254,
+.iphone-ui-2255,
+.iphone-ui-2256 {
+    box-sizing: border-box;
+}
+
+.iphone-ui-2237 {
+    position: relative;
+    width: 320px;
+    min-height: 145px;
+    padding: 18px;
+    overflow: hidden;
+    border-radius: 29px;
+    background: linear-gradient(180deg,#1c1c1e,#080808);
+    color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+}
+
+.iphone-ui-2237__island {
+    width: 108px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 0 auto;
+    border-radius: 999px;
+    background: #000;
+}
+
+.iphone-ui-2237__island > span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #101010;
+    box-shadow: inset 0 0 0 1px #262626;
+}
+
+.iphone-ui-2237__island > div {
+    width: 17px;
+    height: 17px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #1ed760;
+    color: #081008;
+    font-size: 7px;
+}
+
+.iphone-ui-2237__content {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-top: 18px;
+}
+
+.iphone-ui-2237__art {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#fb7185,#7c3aed);
+    color: #fff;
+    font-size: 17px;
+}
+
+.iphone-ui-2237__info {
+    min-width: 0;
+    flex: 1;
+}
+
+.iphone-ui-2237__info strong,
+.iphone-ui-2237__info span {
+    display: block;
+}
+
+.iphone-ui-2237__info strong {
+    overflow: hidden;
+    font-size: 13px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.iphone-ui-2237__info span {
+    margin-top: 3px;
+    color: #8e8e93;
+    font-size: 9px;
+}
+
+.iphone-ui-2237__content button {
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255,255,255,.1);
+    color: #fff;
+    cursor: pointer;
+    transition: .18s ease;
+}
+
+.iphone-ui-2237__content button:hover {
+    transform: scale(1.08);
+    background: rgba(255,255,255,.18);
+}
+
+.iphone-ui-2238 {
+    width: 310px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 25px;
+    background: #111113;
+    color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+}
+
+.iphone-ui-2238__rings {
+    position: relative;
+    width: 125px;
+    height: 125px;
+}
+
+.iphone-ui-2238__ring {
+    position: absolute;
+    border: 7px solid transparent;
+    border-radius: 50%;
+    transform: rotate(-42deg);
+}
+
+.iphone-ui-2238__ring--red {
+    inset: 0;
+    border-top-color: #ff375f;
+    border-left-color: #ff375f;
+}
+
+.iphone-ui-2238__ring--green {
+    inset: 12px;
+    border-top-color: #30d158;
+    border-right-color: #30d158;
+}
+
+.iphone-ui-2238__ring--blue {
+    inset: 24px;
+    border-left-color: #0a84ff;
+    border-bottom-color: #0a84ff;
+}
+
+.iphone-ui-2238__center {
+    position: absolute;
+    inset: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.iphone-ui-2238__center strong {
+    font-size: 15px;
+}
+
+.iphone-ui-2238__center span {
+    margin-top: 3px;
+    color: #8e8e93;
+    font-size: 8px;
+}
+
+.iphone-ui-2238__stats {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.iphone-ui-2238__stats span {
+    display: flex;
+    flex-direction: column;
+}
+
+.iphone-ui-2238__stats b {
+    color: #8e8e93;
+    font-size: 8px;
+    font-weight: 500;
+}
+
+.iphone-ui-2238__stats strong {
+    margin-top: 2px;
+    font-size: 11px;
+}
+
+.iphone-ui-2239 {
+    width: 310px;
+    padding: 17px;
+    border-radius: 24px;
+    background: #f2f2f7;
+    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+}
+
+.iphone-ui-2239__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 13px;
+    color: #1c1c1e;
+}
+
+.iphone-ui-2239__header strong {
+    font-size: 16px;
+}
+
+.iphone-ui-2239__header i {
+    color: #8e8e93;
+}
+
+.iphone-ui-2239__grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 9px;
+}
+
+.iphone-ui-2239__grid button {
+    min-height: 91px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 12px;
+    border: 0;
+    border-radius: 17px;
+    background: #fff;
+    color: #1c1c1e;
+    text-align: left;
+    cursor: pointer;
+    transition: .18s ease;
+}
+
+.iphone-ui-2239__grid button:hover {
+    transform: translateY(-2px);
+}
+
+.iphone-ui-2239__grid button.active {
+    background: #fff7e6;
+    color: #ff9f0a;
+}
+
+.iphone-ui-2239__grid button i {
+    font-size: 17px;
+}
+
+.iphone-ui-2239__grid button span {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.iphone-ui-2239__grid button small {
+    color: #8e8e93;
+    font-size: 8px;
+}
+
+.iphone-ui-2240 {
+    width: 310px;
+    overflow: hidden;
+    border-radius: 23px;
+    background: #fff;
+    box-shadow: 0 18px 40px rgba(15,23,42,.12);
+    font-family: -apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;
+}
+
+.iphone-ui-2240__map {
+    position: relative;
+    height: 155px;
+    overflow: hidden;
+    background:
+        linear-gradient(25deg,transparent 35%,#d7e6d2 36%,#d7e6d2 55%,transparent 56%),
+        linear-gradient(115deg,transparent 42%,#fff 43%,#fff 57%,transparent 58%),
+        #e8f2e4;
+}
+
+.iphone-ui-2240__map::before,
+.iphone-ui-2240__map::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background: #d9e7d3;
+}
+
+.iphone-ui-2240__map::before {
+    width: 90px;
+    height: 90px;
+    top: 20px;
+    left: 30px;
+}
+
+.iphone-ui-2240__map::after {
+    width: 75px;
+    height: 75px;
+    right: 20px;
+    bottom: 10px;
+}
