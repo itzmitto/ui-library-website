@@ -2629,3 +2629,75 @@
   font-size: 13px;
   font-weight: 600;
 }
+.iphone-toggle-2226 {
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    background: #f2f2f7;
+}
+
+.iphone-toggle-2226__switch {
+    position: relative;
+    width: 40px;
+    height: 24px;
+}
+
+.iphone-toggle-2226__input {
+    display: none;
+}
+
+.iphone-toggle-2226__label {
+    position: absolute;
+    inset: 0;
+    width: 40px;
+    height: 24px;
+    border-radius: 34px;
+    background: #2196f3;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.iphone-toggle-2226__label::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow:
+        0 2px 5px rgba(0,0,0,.3),
+        0 1px 2px rgba(0,0,0,.08);
+    transition:
+        transform .3s ease,
+        box-shadow .2s ease;
+}
+
+.iphone-toggle-2226__label:hover::before {
+    box-shadow:
+        0 2px 7px rgba(0,0,0,.35),
+        0 1px 2px rgba(0,0,0,.1);
+}
+
+.iphone-toggle-2226__input:checked + .iphone-toggle-2226__label {
+    background: #4caf50;
+}
+
+.iphone-toggle-2226__input:checked + .iphone-toggle-2226__label::before {
+    transform: translateX(16px);
+}
+
+.iphone-toggle-2226__input:active + .iphone-toggle-2226__label::before {
+    transform: scale(.94);
+}
+
+.iphone-toggle-2226__input:checked:active + .iphone-toggle-2226__label::before {
+    transform: translateX(16px) scale(.94);
+}
+
+.iphone-toggle-2226__input:focus-visible + .iphone-toggle-2226__label {
+    box-shadow: 0 0 0 3px rgba(0,122,255,.2);
+}

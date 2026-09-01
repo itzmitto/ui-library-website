@@ -114147,6 +114147,81 @@ export const iphones = [
     width: 37px;
     transform: translateX(6px);
 }`
+},{
+    id: 2226,
+    name: "iOS Blue Green Toggle",
+    preview: (
+        <div className="iphone-toggle-2226">
+            <div className="iphone-toggle-2226__switch">
+                <input
+                    type="checkbox"
+                    className="iphone-toggle-2226__input"
+                    id="iphone-toggle-2226"
+                />
+                <label
+                    className="iphone-toggle-2226__label"
+                    htmlFor="iphone-toggle-2226"
+                ></label>
+            </div>
+        </div>
+    ),
+    html: `<div class="ToggleSwitch">
+    <input
+        class="ToggleSwitch-input"
+        id="ToggleSwitch-input"
+        type="checkbox"
+    >
+    <label
+        class="ToggleSwitch-label"
+        for="ToggleSwitch-input"
+    ></label>
+</div>`,
+    css: `.ToggleSwitch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+}
+.ToggleSwitch-input {
+    display: none;
+}
+.ToggleSwitch-label {
+    position: absolute;
+    inset: 0;
+    width: 40px;
+    height: 24px;
+    border-radius: 34px;
+    background: #2196f3;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+.ToggleSwitch-label::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    transition: transform .3s ease;
+}
+.ToggleSwitch-input:checked + .ToggleSwitch-label {
+    background: #4caf50;
+}
+.ToggleSwitch-input:checked + .ToggleSwitch-label::before {
+    transform: translateX(16px);
+}
+.ToggleSwitch-label:hover::before {
+    box-shadow: 0 2px 7px rgba(0,0,0,.35);
+}
+.ToggleSwitch-input:active + .ToggleSwitch-label::before {
+    transform: scale(.94);
+}
+.ToggleSwitch-input:checked:active + .ToggleSwitch-label::before {
+    transform: translateX(16px) scale(.94);
+}`
 },
 
 ];
