@@ -1687,3 +1687,174 @@
     }
 }
 
+.avatar-2400 {
+  min-height:120px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+.avatar-2400 span {
+  transition:transform .2s ease;
+}
+
+.avatar-2400:hover span {
+  transform:scale(1.05);
+}
+
+.avatar-2401 {
+  min-height:120px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+.avatar-2401 > div {
+  transition:transform .2s ease;
+}
+
+.avatar-2401:hover > div {
+  transform:scale(1.04);
+}
+
+.avatar-2402 {
+  min-height:120px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+.avatar-2402 span {
+  transition:transform .2s ease;
+}
+
+.avatar-2402:hover span {
+  transform:translateY(-2px);
+}
+
+.avatar-2403 {
+  min-height:120px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+.avatar-2403 > div {
+  transition:transform .2s ease;
+}
+
+.avatar-2403:hover > div {
+  transform:scale(1.04);
+}
+
+.avatar-2404 {
+  min-height:120px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+.avatar-2404 span {
+  transition:transform .2s ease;
+}
+
+.avatar-2404:hover span {
+  transform:scale(1.04);
+}
+
+.avatar-2405 {
+  min-height:120px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+.avatar-2405 {
+  transition:transform .2s ease;
+}
+
+.avatar-2405:hover {
+  transform:scale(1.05);
+}
+
+.avatar-2406 {
+  min-height:120px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+.avatar-2406 span {
+  transition:transform .2s ease;
+}
+
+.avatar-2406:hover span {
+  transform:scale(1.05);
+}
+
+.avatar-2407 {
+  min-height:120px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+.avatar-2407 span,
+.avatar-2407 b {
+  transition:transform .2s ease;
+}
+
+.avatar-2407:hover span,
+.avatar-2407:hover b {
+  transform:translateX(2px);
+}
+
+.avatar-2408 {
+  min-height:120px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+.avatar-2408 span {
+  transition:transform .2s ease;
+}
+
+.avatar-2408:hover span {
+  transform:scale(1.05);
+}
+
+.avatar-2409 {
+  min-height:120px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+.avatar-2409 > div {
+  transition:transform .2s ease;
+}
+
+.avatar-2409:hover > div {
+  transform:scale(1.04);
+}
