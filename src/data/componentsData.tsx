@@ -100301,336 +100301,164 @@ export const avatars = [
 
 
 {
-  id: 2400,
-  name: "Gradient Initial Avatar",
+  id: 2590,
+  name: "Gradient Border Avatar",
   preview: (
-    <div className="avatar-2400">
-      <span>AB</span>
+    <div className="avatar-2590">
+      <div className="avatar-2590-ring">
+        <div className="avatar-2590-image">A</div>
+      </div>
     </div>
   ),
-  html: `<div class="Avatar">
-  <span>AB</span>
+  html: `<div class="avatar-2590">
+  <div class="avatar-2590-ring">
+    <div class="avatar-2590-image">A</div>
+  </div>
 </div>`,
-  css: `.Avatar {
-  width:64px;
-  height:64px;
-  display:grid;
-  place-items:center;
-  border-radius:50%;
-  background:linear-gradient(135deg,#2563eb,#7c3aed,#ec4899);
-  color:#fff;
-  font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-}
-.Avatar span {
-  letter-spacing:.5px;
-}`
+  css: `.avatar-2590{display:flex;align-items:center;justify-content:center}.avatar-2590-ring{width:76px;height:76px;border-radius:50%;padding:3px;background:linear-gradient(135deg,#7c3aed,#ec4899,#f59e0b)}.avatar-2590-image{width:100%;height:100%;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#111827;color:white;font-size:24px;font-weight:700;font-family:Arial,sans-serif}`
 },
 {
-  id: 2401,
-  name: "Online Status Avatar",
+  id: 2591,
+  name: "Glass Avatar",
   preview: (
-    <div className="avatar-2401">
-      <div>AB</div>
-      <span></span>
+    <div className="avatar-2591">
+      <div className="avatar-2591-image">JD</div>
     </div>
   ),
-  html: `<div class="Avatar">
-  <div>AB</div>
-  <span></span>
+  html: `<div class="avatar-2591">
+  <div class="avatar-2591-image">JD</div>
 </div>`,
-  css: `.Avatar {
-  position:relative;
-  width:64px;
-  height:64px;
-}
-.Avatar div {
-  width:64px;
-  height:64px;
-  display:grid;
-  place-items:center;
-  border-radius:50%;
-  background:#e2e8f0;
-  color:#334155;
-  font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-}
-.Avatar span {
-  position:absolute;
-  right:1px;
-  bottom:1px;
-  width:14px;
-  height:14px;
-  border:3px solid #fff;
-  border-radius:50%;
-  background:#22c55e;
-}`
+  css: `.avatar-2591{display:flex;align-items:center;justify-content:center}.avatar-2591-image{width:76px;height:76px;border-radius:24px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);box-shadow:0 12px 30px rgba(0,0,0,.25),inset 0 1px 0 rgba(255,255,255,.2);backdrop-filter:blur(12px);color:white;font-size:21px;font-weight:700;font-family:Arial,sans-serif}`
 },
 {
-  id: 2402,
-  name: "Dark Avatar",
+  id: 2592,
+  name: "Neon Ring Avatar",
   preview: (
-    <div className="avatar-2402">
-      <span>JD</span>
+    <div className="avatar-2592">
+      <div className="avatar-2592-image">M</div>
     </div>
   ),
-  html: `<div class="Avatar">
-  <span>JD</span>
+  html: `<div class="avatar-2592">
+  <div class="avatar-2592-image">M</div>
 </div>`,
-  css: `.Avatar {
-  width:64px;
-  height:64px;
-  display:grid;
-  place-items:center;
-  border-radius:50%;
-  background:#111827;
-  color:#f8fafc;
-  border:2px solid #374151;
-  font:700 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-  box-shadow:0 4px 12px rgba(0,0,0,.18);
-}`
+  css: `.avatar-2592{display:flex;align-items:center;justify-content:center}.avatar-2592-image{width:74px;height:74px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#0f172a;border:3px solid #22d3ee;box-shadow:0 0 10px #22d3ee,0 0 25px rgba(34,211,238,.7),0 0 45px rgba(34,211,238,.35);color:#ecfeff;font-size:25px;font-weight:700;font-family:Arial,sans-serif}`
 },
 {
-  id: 2403,
-  name: "Verified Avatar",
+  id: 2593,
+  name: "Split Color Avatar",
   preview: (
-    <div className="avatar-2403">
-      <div>MK</div>
-      <span>
-        <i className="fa-solid fa-check"></i>
-      </span>
+    <div className="avatar-2593">
+      <div className="avatar-2593-image">SK</div>
     </div>
   ),
-  html: `<div class="Avatar">
-  <div>MK</div>
-  <span>
-    <i class="fa-solid fa-check"></i>
-  </span>
+  html: `<div class="avatar-2593">
+  <div class="avatar-2593-image">SK</div>
 </div>`,
-  css: `.Avatar {
-  position:relative;
-  width:64px;
-  height:64px;
-}
-.Avatar div {
-  width:64px;
-  height:64px;
-  display:grid;
-  place-items:center;
-  border-radius:50%;
-  background:#dbeafe;
-  color:#1d4ed8;
-  font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-}
-.Avatar > span {
-  position:absolute;
-  right:-1px;
-  bottom:-1px;
-  width:20px;
-  height:20px;
-  display:grid;
-  place-items:center;
-  border:3px solid #fff;
-  border-radius:50%;
-  background:#2563eb;
-  color:#fff;
-  font-size:8px;
-}`
+  css: `.avatar-2593{display:flex;align-items:center;justify-content:center}.avatar-2593-image{width:78px;height:78px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:linear-gradient(90deg,#2563eb 0 50%,#f43f5e 50% 100%);color:white;font-size:20px;font-weight:700;font-family:Arial,sans-serif;box-shadow:0 8px 20px rgba(0,0,0,.2)}`
 },
 {
-  id: 2404,
-  name: "Square Avatar",
+  id: 2594,
+  name: "Diamond Avatar",
   preview: (
-    <div className="avatar-2404">
-      <span>RK</span>
+    <div className="avatar-2594">
+      <div className="avatar-2594-shape">
+        <div className="avatar-2594-image">L</div>
+      </div>
     </div>
   ),
-  html: `<div class="Avatar">
-  <span>RK</span>
+  html: `<div class="avatar-2594">
+  <div class="avatar-2594-shape">
+    <div class="avatar-2594-image">L</div>
+  </div>
 </div>`,
-  css: `.Avatar {
-  width:64px;
-  height:64px;
-  display:grid;
-  place-items:center;
-  border-radius:16px;
-  background:#f1f5f9;
-  color:#334155;
-  border:1px solid #cbd5e1;
-  font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-}`
+  css: `.avatar-2594{display:flex;align-items:center;justify-content:center}.avatar-2594-shape{width:82px;height:82px;transform:rotate(45deg);border-radius:20px;padding:3px;background:linear-gradient(135deg,#06b6d4,#3b82f6,#8b5cf6)}.avatar-2594-image{width:100%;height:100%;border-radius:18px;background:#111827;color:white;display:flex;align-items:center;justify-content:center;font-size:23px;font-weight:700;font-family:Arial,sans-serif;transform:rotate(-45deg)}`
 },
 {
-  id: 2405,
-  name: "Ring Avatar",
+  id: 2595,
+  name: "Online Avatar",
   preview: (
-    <div className="avatar-2405">
-      <div>EL</div>
+    <div className="avatar-2595">
+      <div className="avatar-2595-wrapper">
+        <div className="avatar-2595-image">A</div>
+        <span className="avatar-2595-status"></span>
+      </div>
     </div>
   ),
-  html: `<div class="Avatar">
-  <div>EL</div>
+  html: `<div class="avatar-2595">
+  <div class="avatar-2595-wrapper">
+    <div class="avatar-2595-image">A</div>
+    <span class="avatar-2595-status"></span>
+  </div>
 </div>`,
-  css: `.Avatar {
-  width:70px;
-  height:70px;
-  display:grid;
-  place-items:center;
-  border-radius:50%;
-  background:linear-gradient(135deg,#f97316,#ec4899,#8b5cf6);
-  padding:3px;
-  box-sizing:border-box;
-}
-.Avatar div {
-  width:100%;
-  height:100%;
-  display:grid;
-  place-items:center;
-  border-radius:50%;
-  background:#fff;
-  color:#334155;
-  font:700 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-}`
+  css: `.avatar-2595{display:flex;align-items:center;justify-content:center}.avatar-2595-wrapper{position:relative}.avatar-2595-image{width:76px;height:76px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#334155;color:white;font-size:25px;font-weight:700;font-family:Arial,sans-serif}.avatar-2595-status{position:absolute;right:2px;bottom:2px;width:16px;height:16px;border-radius:50%;background:#22c55e;border:3px solid white}`
 },
 {
-  id: 2406,
-  name: "Soft Avatar",
+  id: 2596,
+  name: "Stacked Avatars",
   preview: (
-    <div className="avatar-2406">
-      <span>LS</span>
+    <div className="avatar-2596">
+      <div className="avatar-2596-stack">
+        <div className="avatar-2596-item avatar-2596-one">A</div>
+        <div className="avatar-2596-item avatar-2596-two">B</div>
+        <div className="avatar-2596-item avatar-2596-three">C</div>
+        <div className="avatar-2596-more">+4</div>
+      </div>
     </div>
   ),
-  html: `<div class="Avatar">
-  <span>LS</span>
+  html: `<div class="avatar-2596">
+  <div class="avatar-2596-stack">
+    <div class="avatar-2596-item avatar-2596-one">A</div>
+    <div class="avatar-2596-item avatar-2596-two">B</div>
+    <div class="avatar-2596-item avatar-2596-three">C</div>
+    <div class="avatar-2596-more">+4</div>
+  </div>
 </div>`,
-  css: `.Avatar {
-  width:64px;
-  height:64px;
-  display:grid;
-  place-items:center;
-  border-radius:50%;
-  background:#fef3c7;
-  color:#92400e;
-  font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-}`
+  css: `.avatar-2596{display:flex;align-items:center;justify-content:center}.avatar-2596-stack{display:flex;align-items:center}.avatar-2596-item,.avatar-2596-more{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:3px solid white;color:white;font-size:17px;font-weight:700;font-family:Arial,sans-serif}.avatar-2596-item:not(:first-child),.avatar-2596-more{margin-left:-12px}.avatar-2596-one{background:#2563eb}.avatar-2596-two{background:#ec4899}.avatar-2596-three{background:#8b5cf6}.avatar-2596-more{background:#334155}`
 },
 {
-  id: 2407,
-  name: "Stacked Avatar",
+  id: 2597,
+  name: "Square Profile Avatar",
   preview: (
-    <div className="avatar-2407">
-      <span>AM</span>
-      <span>JS</span>
-      <span>KP</span>
-      <b>+4</b>
+    <div className="avatar-2597">
+      <div className="avatar-2597-image">N</div>
     </div>
   ),
-  html: `<div class="Avatar">
-  <span>AM</span>
-  <span>JS</span>
-  <span>KP</span>
-  <b>+4</b>
+  html: `<div class="avatar-2597">
+  <div class="avatar-2597-image">N</div>
 </div>`,
-  css: `.Avatar {
-  display:flex;
-  align-items:center;
-}
-.Avatar span,
-.Avatar b {
-  width:42px;
-  height:42px;
-  display:grid;
-  place-items:center;
-  margin-left:-10px;
-  border:3px solid #fff;
-  border-radius:50%;
-  box-sizing:border-box;
-  font:700 10px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-}
-.Avatar span:first-child {
-  margin-left:0;
-}
-.Avatar span:nth-child(1) {
-  background:#dbeafe;
-  color:#1d4ed8;
-}
-.Avatar span:nth-child(2) {
-  background:#fce7f3;
-  color:#be185d;
-}
-.Avatar span:nth-child(3) {
-  background:#dcfce7;
-  color:#15803d;
-}
-.Avatar b {
-  background:#f1f5f9;
-  color:#64748b;
-}`
+  css: `.avatar-2597{display:flex;align-items:center;justify-content:center}.avatar-2597-image{width:78px;height:78px;border-radius:18px;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#f97316,#ea580c);color:white;font-size:26px;font-weight:700;font-family:Arial,sans-serif;box-shadow:0 10px 24px rgba(234,88,12,.3)}`
 },
 {
-  id: 2408,
-  name: "Monogram Avatar",
+  id: 2598,
+  name: "Monochrome Avatar",
   preview: (
-    <div className="avatar-2408">
-      <span>A</span>
+    <div className="avatar-2598">
+      <div className="avatar-2598-image">R</div>
     </div>
   ),
-  html: `<div class="Avatar">
-  <span>A</span>
+  html: `<div class="avatar-2598">
+  <div class="avatar-2598-image">R</div>
 </div>`,
-  css: `.Avatar {
-  width:64px;
-  height:64px;
-  display:grid;
-  place-items:center;
-  border-radius:50%;
-  background:#e0e7ff;
-  color:#4338ca;
-  font:700 22px Georgia,serif;
-}`
+  css: `.avatar-2598{display:flex;align-items:center;justify-content:center}.avatar-2598-image{width:78px;height:78px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#f8fafc,#94a3b8);color:#0f172a;border:2px solid #cbd5e1;font-size:26px;font-weight:800;font-family:Arial,sans-serif;box-shadow:0 8px 20px rgba(15,23,42,.15)}`
 },
 {
-  id: 2409,
-  name: "Status Badge Avatar",
+  id: 2599,
+  name: "Orbit Avatar",
   preview: (
-    <div className="avatar-2409">
-      <div>NC</div>
-      <span>3</span>
+    <div className="avatar-2599">
+      <div className="avatar-2599-orbit">
+        <div className="avatar-2599-image">Z</div>
+        <span className="avatar-2599-dot"></span>
+      </div>
     </div>
   ),
-  html: `<div class="Avatar">
-  <div>NC</div>
-  <span>3</span>
+  html: `<div class="avatar-2599">
+  <div class="avatar-2599-orbit">
+    <div class="avatar-2599-image">Z</div>
+    <span class="avatar-2599-dot"></span>
+  </div>
 </div>`,
-  css: `.Avatar {
-  position:relative;
-  width:64px;
-  height:64px;
-}
-.Avatar div {
-  width:64px;
-  height:64px;
-  display:grid;
-  place-items:center;
-  border-radius:50%;
-  background:#ede9fe;
-  color:#6d28d9;
-  font:700 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-}
-.Avatar span {
-  position:absolute;
-  top:-4px;
-  right:-4px;
-  min-width:20px;
-  height:20px;
-  padding:0 5px;
-  display:grid;
-  place-items:center;
-  box-sizing:border-box;
-  border:2px solid #fff;
-  border-radius:999px;
-  background:#ef4444;
-  color:#fff;
-  font:700 9px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-}`
+  css: `.avatar-2599{display:flex;align-items:center;justify-content:center}.avatar-2599-orbit{position:relative;width:88px;height:88px;border:2px dashed #6366f1;border-radius:50%;display:flex;align-items:center;justify-content:center}.avatar-2599-image{width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#312e81;color:white;font-size:23px;font-weight:700;font-family:Arial,sans-serif}.avatar-2599-dot{position:absolute;top:-5px;left:50%;width:12px;height:12px;border-radius:50%;background:#a78bfa;border:2px solid white;transform:translateX(-50%)}`
 },
 ];
 
