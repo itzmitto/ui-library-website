@@ -100590,7 +100590,193 @@ export const avatars = [
 </div>`,
   css: `.avatar-2601{width:100%;min-height:300px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background:radial-gradient(circle at center,rgba(148,163,184,.08),transparent 55%)}.avatar-2601-frame{width:190px;height:190px;position:relative;display:flex;align-items:center;justify-content:center;perspective:900px}.avatar-2601-plate{width:136px;height:136px;border-radius:28px;position:relative;overflow:hidden;transform:rotateX(4deg) rotateY(-5deg);transform-style:preserve-3d;background:linear-gradient(145deg,#e5e7eb 0%,#9ca3af 8%,#4b5563 20%,#1f2937 40%,#6b7280 55%,#111827 72%,#4b5563 88%,#d1d5db 100%);border:2px solid #9ca3af;box-shadow:inset 3px 3px 6px rgba(255,255,255,.45),inset -6px -6px 12px rgba(0,0,0,.65),0 8px 12px rgba(0,0,0,.35),0 18px 40px rgba(0,0,0,.28);transition:transform .7s cubic-bezier(.22,1,.36,1),box-shadow .7s ease,filter .7s ease}.avatar-2601:hover .avatar-2601-plate{transform:rotateX(7deg) rotateY(-9deg) translateY(-5px) scale(1.06);filter:contrast(1.05) brightness(1.05);box-shadow:inset 4px 4px 8px rgba(255,255,255,.5),inset -8px -8px 14px rgba(0,0,0,.7),0 10px 18px rgba(0,0,0,.4),0 22px 55px rgba(0,0,0,.35)}.avatar-2601-plate::before{content:"";position:absolute;inset:7px;border-radius:22px;border:1px solid rgba(255,255,255,.28);box-shadow:inset 0 0 8px rgba(0,0,0,.7);pointer-events:none;z-index:8}.avatar-2601-plate::after{content:"";position:absolute;inset:0;border-radius:28px;background:repeating-linear-gradient(102deg,rgba(255,255,255,.025) 0 2px,rgba(0,0,0,.03) 2px 4px,rgba(255,255,255,.015) 4px 7px);mix-blend-mode:overlay;opacity:.8;pointer-events:none;z-index:7}.avatar-2601-bevel{position:absolute;inset:11px;border-radius:21px;border:2px solid transparent;border-top-color:rgba(255,255,255,.5);border-left-color:rgba(255,255,255,.18);border-right-color:rgba(0,0,0,.55);border-bottom-color:rgba(0,0,0,.7);box-shadow:inset 0 1px 0 rgba(255,255,255,.25);z-index:2;pointer-events:none}.avatar-2601-surface{position:absolute;inset:17px;border-radius:18px;background:radial-gradient(circle at 50% 35%,rgba(255,255,255,.09),transparent 35%),linear-gradient(145deg,rgba(255,255,255,.08),transparent 35%,rgba(0,0,0,.18) 78%);box-shadow:inset 0 0 18px rgba(0,0,0,.45);z-index:1}.avatar-2601-core{position:absolute;left:50%;top:50%;width:82px;height:82px;transform:translate(-50%,-50%) translateZ(18px);border-radius:50%;background:linear-gradient(145deg,#6b7280,#374151 35%,#111827 65%,#6b7280);border:3px solid #9ca3af;box-shadow:inset 3px 3px 7px rgba(255,255,255,.28),inset -5px -5px 10px rgba(0,0,0,.8),0 0 0 4px #1f2937,0 0 0 5px #6b7280,0 7px 15px rgba(0,0,0,.55);z-index:5;transition:transform .7s cubic-bezier(.22,1,.36,1),box-shadow .7s ease}.avatar-2601:hover .avatar-2601-core{transform:translate(-50%,-50%) translateZ(27px) scale(1.04);box-shadow:inset 3px 3px 7px rgba(255,255,255,.32),inset -5px -5px 11px rgba(0,0,0,.85),0 0 0 4px #1f2937,0 0 0 5px #9ca3af,0 0 22px rgba(248,250,252,.13),0 9px 20px rgba(0,0,0,.65)}.avatar-2601-core::before{content:"";position:absolute;inset:7px;border-radius:50%;border:1px solid rgba(255,255,255,.15);box-shadow:inset 0 0 11px rgba(0,0,0,.65)}.avatar-2601-core::after{content:"";position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 20deg,transparent 0deg,rgba(255,255,255,.12) 35deg,transparent 70deg,rgba(0,0,0,.18) 130deg,transparent 205deg,rgba(255,255,255,.08) 285deg,transparent 345deg);animation:avatar2601MetalSpin 10s linear infinite}.avatar-2601-core-inner{position:absolute;inset:15px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 35% 25%,#d1d5db 0%,#6b7280 22%,#374151 48%,#111827 78%);box-shadow:inset 2px 2px 5px rgba(255,255,255,.22),inset -4px -4px 8px rgba(0,0,0,.8);z-index:2;overflow:hidden}.avatar-2601-core-inner::before{content:"";position:absolute;width:52px;height:2px;left:50%;top:20%;transform:translateX(-50%);background:linear-gradient(90deg,transparent,rgba(255,255,255,.8),transparent);filter:blur(.5px);opacity:.7}.avatar-2601-core-inner::after{content:"";position:absolute;width:140%;height:40%;left:-20%;top:-18%;transform:rotate(-30deg);background:linear-gradient(90deg,transparent,rgba(255,255,255,.18),transparent);animation:avatar2601CoreSweep 5s ease-in-out infinite}.avatar-2601-core-inner span{position:relative;z-index:4;font-family:Arial,sans-serif;font-weight:900;font-size:29px;letter-spacing:-2px;color:#e5e7eb;text-shadow:1px 1px 0 #111827,2px 2px 3px rgba(0,0,0,.8),0 0 8px rgba(255,255,255,.12);transition:transform .5s ease}.avatar-2601:hover .avatar-2601-core-inner span{transform:scale(1.08)}.avatar-2601-bolt{position:absolute;width:9px;height:9px;border-radius:50%;background:radial-gradient(circle at 32% 28%,#f3f4f6 0%,#9ca3af 18%,#4b5563 45%,#111827 78%);border:1px solid #111827;box-shadow:inset 1px 1px 2px rgba(255,255,255,.55),inset -1px -1px 2px rgba(0,0,0,.85),0 1px 2px rgba(0,0,0,.7);z-index:6;transition:transform .4s ease}.avatar-2601-bolt-1{top:18px;left:18px}.avatar-2601-bolt-2{top:18px;right:18px}.avatar-2601-bolt-3{bottom:18px;left:18px}.avatar-2601-bolt-4{bottom:18px;right:18px}.avatar-2601:hover .avatar-2601-bolt-1{transform:translate(-1px,-1px)}.avatar-2601:hover .avatar-2601-bolt-2{transform:translate(1px,-1px)}.avatar-2601:hover .avatar-2601-bolt-3{transform:translate(-1px,1px)}.avatar-2601:hover .avatar-2601-bolt-4{transform:translate(1px,1px)}.avatar-2601-scratch{position:absolute;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.34),rgba(0,0,0,.5),transparent);transform-origin:left center;z-index:4;opacity:.5}.avatar-2601-scratch-1{width:42px;left:26px;top:40px;transform:rotate(-9deg)}.avatar-2601-scratch-2{width:29px;left:72px;top:101px;transform:rotate(18deg)}.avatar-2601-scratch-3{width:35px;left:33px;top:110px;transform:rotate(-28deg)}.avatar-2601-scratch-4{width:24px;left:82px;top:30px;transform:rotate(26deg)}.avatar-2601-highlight{position:absolute;left:-40%;top:-20%;width:48%;height:150%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.25),rgba(255,255,255,.04),transparent);transform:rotate(25deg);filter:blur(1px);animation:avatar2601Highlight 5s ease-in-out infinite;z-index:9;pointer-events:none}.avatar-2601-shadow{position:absolute;inset:0;background:linear-gradient(115deg,transparent 15%,rgba(255,255,255,.1) 27%,transparent 36%,transparent 62%,rgba(0,0,0,.17) 78%,transparent 90%);z-index:3;pointer-events:none}.avatar-2601-status{position:absolute;right:16px;bottom:17px;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#111827;border:2px solid #6b7280;box-shadow:inset 2px 2px 4px rgba(255,255,255,.12),inset -2px -2px 4px rgba(0,0,0,.75),0 5px 10px rgba(0,0,0,.45);z-index:12;transition:transform .4s ease}.avatar-2601-status span{width:10px;height:10px;border-radius:50%;background:#84cc16;box-shadow:0 0 4px #bef264,0 0 10px rgba(132,204,22,.7);animation:avatar2601Status 2.4s ease-in-out infinite}.avatar-2601-status::before{content:"";position:absolute;inset:-4px;border-radius:50%;border:1px solid rgba(132,204,22,.22);animation:avatar2601StatusRing 2.5s ease-out infinite}.avatar-2601:hover .avatar-2601-status{transform:scale(1.08)}@keyframes avatar2601MetalSpin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes avatar2601CoreSweep{0%{left:-80%;opacity:0}15%{opacity:.15}45%{opacity:.6}65%{opacity:.1}100%{left:140%;opacity:0}}@keyframes avatar2601Highlight{0%{left:-50%;opacity:0}15%{opacity:.2}40%{opacity:.55}62%{opacity:.08}100%{left:150%;opacity:0}}@keyframes avatar2601Status{0%,100%{transform:scale(.78);opacity:.65}50%{transform:scale(1.16);opacity:1}}@keyframes avatar2601StatusRing{0%{transform:scale(.7);opacity:.7}70%{transform:scale(1.55);opacity:0}100%{transform:scale(1.55);opacity:0}}@media(prefers-reduced-motion:reduce){.avatar-2601 *{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}`
 },
-
+{
+  id: 2602,
+  name: "Anime Spirit Avatar",
+  preview: (
+    <div className="avatar-2602">
+      <div className="avatar-2602-stage">
+        <div className="avatar-2602-back-glow"></div>
+        <div className="avatar-2602-halo avatar-2602-halo-one"></div>
+        <div className="avatar-2602-halo avatar-2602-halo-two"></div>
+        <div className="avatar-2602-halo avatar-2602-halo-three"></div>
+        <div className="avatar-2602-energy-ring avatar-2602-energy-ring-one"></div>
+        <div className="avatar-2602-energy-ring avatar-2602-energy-ring-two"></div>
+        <div className="avatar-2602-energy-ring avatar-2602-energy-ring-three"></div>
+        <div className="avatar-2602-spirit avatar-2602-spirit-one"></div>
+        <div className="avatar-2602-spirit avatar-2602-spirit-two"></div>
+        <div className="avatar-2602-spirit avatar-2602-spirit-three"></div>
+        <div className="avatar-2602-aura avatar-2602-aura-one"></div>
+        <div className="avatar-2602-aura avatar-2602-aura-two"></div>
+        <div className="avatar-2602-aura avatar-2602-aura-three"></div>
+        <div className="avatar-2602-hair">
+          <span className="avatar-2602-hair-1"></span>
+          <span className="avatar-2602-hair-2"></span>
+          <span className="avatar-2602-hair-3"></span>
+          <span className="avatar-2602-hair-4"></span>
+          <span className="avatar-2602-hair-5"></span>
+          <span className="avatar-2602-hair-6"></span>
+          <span className="avatar-2602-hair-7"></span>
+          <span className="avatar-2602-hair-8"></span>
+        </div>
+        <div className="avatar-2602-face">
+          <div className="avatar-2602-face-shine"></div>
+          <div className="avatar-2602-eye avatar-2602-eye-left">
+            <span></span>
+          </div>
+          <div className="avatar-2602-eye avatar-2602-eye-right">
+            <span></span>
+          </div>
+          <div className="avatar-2602-eye-glow avatar-2602-eye-glow-left"></div>
+          <div className="avatar-2602-eye-glow avatar-2602-eye-glow-right"></div>
+          <div className="avatar-2602-nose"></div>
+          <div className="avatar-2602-mouth"></div>
+          <div className="avatar-2602-cheek avatar-2602-cheek-left"></div>
+          <div className="avatar-2602-cheek avatar-2602-cheek-right"></div>
+          <div className="avatar-2602-mark"></div>
+        </div>
+        <div className="avatar-2602-collar">
+          <span></span>
+        </div>
+        <div className="avatar-2602-energy-core">
+          <div className="avatar-2602-energy-core-inner"></div>
+        </div>
+        <div className="avatar-2602-lightning avatar-2602-lightning-one"></div>
+        <div className="avatar-2602-lightning avatar-2602-lightning-two"></div>
+        <div className="avatar-2602-lightning avatar-2602-lightning-three"></div>
+        <div className="avatar-2602-lightning avatar-2602-lightning-four"></div>
+        <div className="avatar-2602-slash avatar-2602-slash-one"></div>
+        <div className="avatar-2602-slash avatar-2602-slash-two"></div>
+        <div className="avatar-2602-slash avatar-2602-slash-three"></div>
+        <div className="avatar-2602-slash avatar-2602-slash-four"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-1"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-2"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-3"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-4"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-5"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-6"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-7"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-8"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-9"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-10"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-11"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-12"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-13"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-14"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-15"></div>
+        <div className="avatar-2602-particle avatar-2602-particle-16"></div>
+        <div className="avatar-2602-rune avatar-2602-rune-one">✦</div>
+        <div className="avatar-2602-rune avatar-2602-rune-two">◇</div>
+        <div className="avatar-2602-rune avatar-2602-rune-three">✧</div>
+        <div className="avatar-2602-rune avatar-2602-rune-four">◈</div>
+        <div className="avatar-2602-rune avatar-2602-rune-five">✦</div>
+        <div className="avatar-2602-rune avatar-2602-rune-six">◇</div>
+        <div className="avatar-2602-speed-line avatar-2602-speed-line-1"></div>
+        <div className="avatar-2602-speed-line avatar-2602-speed-line-2"></div>
+        <div className="avatar-2602-speed-line avatar-2602-speed-line-3"></div>
+        <div className="avatar-2602-speed-line avatar-2602-speed-line-4"></div>
+        <div className="avatar-2602-speed-line avatar-2602-speed-line-5"></div>
+        <div className="avatar-2602-speed-line avatar-2602-speed-line-6"></div>
+        <div className="avatar-2602-speed-line avatar-2602-speed-line-7"></div>
+        <div className="avatar-2602-speed-line avatar-2602-speed-line-8"></div>
+        <div className="avatar-2602-status">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  ),
+  html: `<div class="avatar-2602">
+  <div class="avatar-2602-stage">
+    <div class="avatar-2602-back-glow"></div>
+    <div class="avatar-2602-halo avatar-2602-halo-one"></div>
+    <div class="avatar-2602-halo avatar-2602-halo-two"></div>
+    <div class="avatar-2602-halo avatar-2602-halo-three"></div>
+    <div class="avatar-2602-energy-ring avatar-2602-energy-ring-one"></div>
+    <div class="avatar-2602-energy-ring avatar-2602-energy-ring-two"></div>
+    <div class="avatar-2602-energy-ring avatar-2602-energy-ring-three"></div>
+    <div class="avatar-2602-spirit avatar-2602-spirit-one"></div>
+    <div class="avatar-2602-spirit avatar-2602-spirit-two"></div>
+    <div class="avatar-2602-spirit avatar-2602-spirit-three"></div>
+    <div class="avatar-2602-aura avatar-2602-aura-one"></div>
+    <div class="avatar-2602-aura avatar-2602-aura-two"></div>
+    <div class="avatar-2602-aura avatar-2602-aura-three"></div>
+    <div class="avatar-2602-hair">
+      <span class="avatar-2602-hair-1"></span>
+      <span class="avatar-2602-hair-2"></span>
+      <span class="avatar-2602-hair-3"></span>
+      <span class="avatar-2602-hair-4"></span>
+      <span class="avatar-2602-hair-5"></span>
+      <span class="avatar-2602-hair-6"></span>
+      <span class="avatar-2602-hair-7"></span>
+      <span class="avatar-2602-hair-8"></span>
+    </div>
+    <div class="avatar-2602-face">
+      <div class="avatar-2602-face-shine"></div>
+      <div class="avatar-2602-eye avatar-2602-eye-left">
+        <span></span>
+      </div>
+      <div class="avatar-2602-eye avatar-2602-eye-right">
+        <span></span>
+      </div>
+      <div class="avatar-2602-eye-glow avatar-2602-eye-glow-left"></div>
+      <div class="avatar-2602-eye-glow avatar-2602-eye-glow-right"></div>
+      <div class="avatar-2602-nose"></div>
+      <div class="avatar-2602-mouth"></div>
+      <div class="avatar-2602-cheek avatar-2602-cheek-left"></div>
+      <div class="avatar-2602-cheek avatar-2602-cheek-right"></div>
+      <div class="avatar-2602-mark"></div>
+    </div>
+    <div class="avatar-2602-collar">
+      <span></span>
+    </div>
+    <div class="avatar-2602-energy-core">
+      <div class="avatar-2602-energy-core-inner"></div>
+    </div>
+    <div class="avatar-2602-lightning avatar-2602-lightning-one"></div>
+    <div class="avatar-2602-lightning avatar-2602-lightning-two"></div>
+    <div class="avatar-2602-lightning avatar-2602-lightning-three"></div>
+    <div class="avatar-2602-lightning avatar-2602-lightning-four"></div>
+    <div class="avatar-2602-slash avatar-2602-slash-one"></div>
+    <div class="avatar-2602-slash avatar-2602-slash-two"></div>
+    <div class="avatar-2602-slash avatar-2602-slash-three"></div>
+    <div class="avatar-2602-slash avatar-2602-slash-four"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-1"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-2"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-3"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-4"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-5"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-6"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-7"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-8"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-9"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-10"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-11"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-12"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-13"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-14"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-15"></div>
+    <div class="avatar-2602-particle avatar-2602-particle-16"></div>
+    <div class="avatar-2602-rune avatar-2602-rune-one">✦</div>
+    <div class="avatar-2602-rune avatar-2602-rune-two">◇</div>
+    <div class="avatar-2602-rune avatar-2602-rune-three">✧</div>
+    <div class="avatar-2602-rune avatar-2602-rune-four">◈</div>
+    <div class="avatar-2602-rune avatar-2602-rune-five">✦</div>
+    <div class="avatar-2602-rune avatar-2602-rune-six">◇</div>
+    <div class="avatar-2602-speed-line avatar-2602-speed-line-1"></div>
+    <div class="avatar-2602-speed-line avatar-2602-speed-line-2"></div>
+    <div class="avatar-2602-speed-line avatar-2602-speed-line-3"></div>
+    <div class="avatar-2602-speed-line avatar-2602-speed-line-4"></div>
+    <div class="avatar-2602-speed-line avatar-2602-speed-line-5"></div>
+    <div class="avatar-2602-speed-line avatar-2602-speed-line-6"></div>
+    <div class="avatar-2602-speed-line avatar-2602-speed-line-7"></div>
+    <div class="avatar-2602-speed-line avatar-2602-speed-line-8"></div>
+    <div class="avatar-2602-status">
+      <span></span>
+    </div>
+  </div>
+</div>`,
+  css: `.avatar-2602{width:100%;min-height:360px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;isolation:isolate;background:radial-gradient(circle at 50% 45%,rgba(139,92,246,.08),transparent 20%),radial-gradient(circle at 50% 50%,rgba(59,130,246,.07),transparent 42%),radial-gradient(circle at 50% 50%,rgba(236,72,153,.035),transparent 70%)}`
+},
 ];
 
 
