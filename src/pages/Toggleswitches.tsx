@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { toggles } from "../data/componentsData";
+import { toggles } from "../data/togglesData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Toggleswitches.css";

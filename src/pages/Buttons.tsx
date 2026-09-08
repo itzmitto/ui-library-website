@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { buttons } from "../data/componentsData";
+import { buttons } from "../data/buttonsData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Buttons.css";

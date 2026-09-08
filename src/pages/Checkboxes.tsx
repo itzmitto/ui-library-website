@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { checkboxes } from "../data/componentsData";
+import { checkboxes } from "../data/checkboxesData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Checkboxes.css";
