@@ -100298,6 +100298,340 @@ export const avatars = [
     }
 }`
 },
+
+
+{
+  id: 2400,
+  name: "Gradient Initial Avatar",
+  preview: (
+    <div className="avatar-2400">
+      <span>AB</span>
+    </div>
+  ),
+  html: `<div class="Avatar">
+  <span>AB</span>
+</div>`,
+  css: `.Avatar {
+  width:64px;
+  height:64px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:linear-gradient(135deg,#2563eb,#7c3aed,#ec4899);
+  color:#fff;
+  font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Avatar span {
+  letter-spacing:.5px;
+}`
+},
+{
+  id: 2401,
+  name: "Online Status Avatar",
+  preview: (
+    <div className="avatar-2401">
+      <div>AB</div>
+      <span></span>
+    </div>
+  ),
+  html: `<div class="Avatar">
+  <div>AB</div>
+  <span></span>
+</div>`,
+  css: `.Avatar {
+  position:relative;
+  width:64px;
+  height:64px;
+}
+.Avatar div {
+  width:64px;
+  height:64px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:#e2e8f0;
+  color:#334155;
+  font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Avatar span {
+  position:absolute;
+  right:1px;
+  bottom:1px;
+  width:14px;
+  height:14px;
+  border:3px solid #fff;
+  border-radius:50%;
+  background:#22c55e;
+}`
+},
+{
+  id: 2402,
+  name: "Dark Avatar",
+  preview: (
+    <div className="avatar-2402">
+      <span>JD</span>
+    </div>
+  ),
+  html: `<div class="Avatar">
+  <span>JD</span>
+</div>`,
+  css: `.Avatar {
+  width:64px;
+  height:64px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:#111827;
+  color:#f8fafc;
+  border:2px solid #374151;
+  font:700 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  box-shadow:0 4px 12px rgba(0,0,0,.18);
+}`
+},
+{
+  id: 2403,
+  name: "Verified Avatar",
+  preview: (
+    <div className="avatar-2403">
+      <div>MK</div>
+      <span>
+        <i className="fa-solid fa-check"></i>
+      </span>
+    </div>
+  ),
+  html: `<div class="Avatar">
+  <div>MK</div>
+  <span>
+    <i class="fa-solid fa-check"></i>
+  </span>
+</div>`,
+  css: `.Avatar {
+  position:relative;
+  width:64px;
+  height:64px;
+}
+.Avatar div {
+  width:64px;
+  height:64px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:#dbeafe;
+  color:#1d4ed8;
+  font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Avatar > span {
+  position:absolute;
+  right:-1px;
+  bottom:-1px;
+  width:20px;
+  height:20px;
+  display:grid;
+  place-items:center;
+  border:3px solid #fff;
+  border-radius:50%;
+  background:#2563eb;
+  color:#fff;
+  font-size:8px;
+}`
+},
+{
+  id: 2404,
+  name: "Square Avatar",
+  preview: (
+    <div className="avatar-2404">
+      <span>RK</span>
+    </div>
+  ),
+  html: `<div class="Avatar">
+  <span>RK</span>
+</div>`,
+  css: `.Avatar {
+  width:64px;
+  height:64px;
+  display:grid;
+  place-items:center;
+  border-radius:16px;
+  background:#f1f5f9;
+  color:#334155;
+  border:1px solid #cbd5e1;
+  font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}`
+},
+{
+  id: 2405,
+  name: "Ring Avatar",
+  preview: (
+    <div className="avatar-2405">
+      <div>EL</div>
+    </div>
+  ),
+  html: `<div class="Avatar">
+  <div>EL</div>
+</div>`,
+  css: `.Avatar {
+  width:70px;
+  height:70px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:linear-gradient(135deg,#f97316,#ec4899,#8b5cf6);
+  padding:3px;
+  box-sizing:border-box;
+}
+.Avatar div {
+  width:100%;
+  height:100%;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:#fff;
+  color:#334155;
+  font:700 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}`
+},
+{
+  id: 2406,
+  name: "Soft Avatar",
+  preview: (
+    <div className="avatar-2406">
+      <span>LS</span>
+    </div>
+  ),
+  html: `<div class="Avatar">
+  <span>LS</span>
+</div>`,
+  css: `.Avatar {
+  width:64px;
+  height:64px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:#fef3c7;
+  color:#92400e;
+  font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}`
+},
+{
+  id: 2407,
+  name: "Stacked Avatar",
+  preview: (
+    <div className="avatar-2407">
+      <span>AM</span>
+      <span>JS</span>
+      <span>KP</span>
+      <b>+4</b>
+    </div>
+  ),
+  html: `<div class="Avatar">
+  <span>AM</span>
+  <span>JS</span>
+  <span>KP</span>
+  <b>+4</b>
+</div>`,
+  css: `.Avatar {
+  display:flex;
+  align-items:center;
+}
+.Avatar span,
+.Avatar b {
+  width:42px;
+  height:42px;
+  display:grid;
+  place-items:center;
+  margin-left:-10px;
+  border:3px solid #fff;
+  border-radius:50%;
+  box-sizing:border-box;
+  font:700 10px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Avatar span:first-child {
+  margin-left:0;
+}
+.Avatar span:nth-child(1) {
+  background:#dbeafe;
+  color:#1d4ed8;
+}
+.Avatar span:nth-child(2) {
+  background:#fce7f3;
+  color:#be185d;
+}
+.Avatar span:nth-child(3) {
+  background:#dcfce7;
+  color:#15803d;
+}
+.Avatar b {
+  background:#f1f5f9;
+  color:#64748b;
+}`
+},
+{
+  id: 2408,
+  name: "Monogram Avatar",
+  preview: (
+    <div className="avatar-2408">
+      <span>A</span>
+    </div>
+  ),
+  html: `<div class="Avatar">
+  <span>A</span>
+</div>`,
+  css: `.Avatar {
+  width:64px;
+  height:64px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:#e0e7ff;
+  color:#4338ca;
+  font:700 22px Georgia,serif;
+}`
+},
+{
+  id: 2409,
+  name: "Status Badge Avatar",
+  preview: (
+    <div className="avatar-2409">
+      <div>NC</div>
+      <span>3</span>
+    </div>
+  ),
+  html: `<div class="Avatar">
+  <div>NC</div>
+  <span>3</span>
+</div>`,
+  css: `.Avatar {
+  position:relative;
+  width:64px;
+  height:64px;
+}
+.Avatar div {
+  width:64px;
+  height:64px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:#ede9fe;
+  color:#6d28d9;
+  font:700 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.Avatar span {
+  position:absolute;
+  top:-4px;
+  right:-4px;
+  min-width:20px;
+  height:20px;
+  padding:0 5px;
+  display:grid;
+  place-items:center;
+  box-sizing:border-box;
+  border:2px solid #fff;
+  border-radius:999px;
+  background:#ef4444;
+  color:#fff;
+  font:700 9px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}`
+},
 ];
 
 
