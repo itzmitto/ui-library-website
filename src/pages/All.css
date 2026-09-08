@@ -1,125 +1,202 @@
 .all-page {
-    background: #09090b;
-    min-height: 100vh;
-    color: #fff;
+  background: #09090b;
+  min-height: 100vh;
+  color: #fff;
 }
-
 .all-layout {
-    display: flex;
-    padding-top: 56px;
-    min-height: 100vh;
+  display: flex;
+  padding-top: 56px;
+  min-height: 100vh;
 }
-
 .sidebar {
-    width: 200px;
-    padding: 24px 12px;
-    border-right: 1px solid rgba(255, 255, 255, 0.06);
+  width: 200px;
+  padding: 24px 12px;
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+  position: sticky;
+  top: 56px;
+  height: calc(100vh - 56px);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.sidebar-item {
+  color: #71717a;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition:
+    background 0.15s,
+    color 0.15s;
+}
+.sidebar-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+}
+.sidebar-item--active {
+  background: rgba(255, 255, 255, 0.07);
+  color: #fff;
+  font-weight: 500;
+}
+.all-main {
+  flex: 1;
+  min-width: 0;
+  padding: 32px 40px;
+  box-sizing: border-box;
+}
+.all-header {
+  margin-bottom: 28px;
+}
+.all-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+.all-header p {
+  margin: 0;
+  color: #71717a;
+  font-size: 14px;
+}
+.all-grid {
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+}
+.all-card {
+  position: absolute;
+  box-sizing: border-box;
+  background: #111113;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  overflow: hidden;
+  content-visibility: auto;
+  contain: layout paint style;
+  contain-intrinsic-size: 252px;
+  will-change: transform;
+  transition:
+    border-color 0.2s,
+    transform 0.2s;
+}
+.all-card:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+.all-card-preview {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0d0d0f;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.all-card-preview-placeholder {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(90deg, #0d0d0f 0%, #141416 50%, #0d0d0f 100%);
+  background-size: 200% 100%;
+  animation: previewPlaceholder 1.8s ease-in-out infinite;
+}
+.all-card-footer {
+  height: 52px;
+  padding: 10px 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.all-card-name {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  color: #a1a1aa;
+  font-size: 13px;
+  line-height: 1.3;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.floating-navbar-button {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  padding: 12px 18px;
+  background: linear-gradient(135deg, #60a5fa, #3b82f6);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  z-index: 1000;
+}
+.floating-navbar-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+@keyframes previewPlaceholder {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+@media (max-width: 1100px) {
+  .all-main {
+    padding: 28px 28px;
+  }
+}
+@media (max-width: 800px) {
+  .sidebar {
+    width: 180px;
+  }
+  .all-main {
+    padding: 24px 20px;
+  }
+}
+@media (max-width: 600px) {
+  .all-layout {
+    display: block;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
     position: sticky;
     top: 56px;
-    height: calc(100vh - 56px);
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    flex-shrink: 0;
+    z-index: 50;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+    background: rgba(9, 9, 11, 0.92);
+    backdrop-filter: blur(16px);
+  }
+  .sidebar-item {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+  .all-main {
+    padding: 22px 14px;
+  }
+  .floating-navbar-button {
+    right: 14px;
+    bottom: 14px;
+  }
 }
-
-.sidebar-item {
-    color: #71717a;
-    text-decoration: none;
-    font-size: 14px;
-    padding: 8px 12px;
-    border-radius: 6px;
-    transition: background 0.15s, color 0.15s;
-}
-
-.sidebar-item:hover {
-    background: rgba(255, 255, 255, 0.05);
-    color: #fff;
-}
-
-.sidebar-item--active {
-    background: rgba(255, 255, 255, 0.07);
-    color: #fff;
-    font-weight: 500;
-}
-
-.all-main {
-    flex: 1;
-    padding: 32px 40px;
-    overflow-y: auto;
-}
-
-.all-header {
-    margin-bottom: 28px;
-}
-
-.all-header h1 {
-    font-size: 28px;
-    font-weight: 700;
-    margin-bottom: 6px;
-}
-
-.all-header p {
-    color: #71717a;
-    font-size: 14px;
-}
-
-.all-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 12px;
-}
-
-.all-card {
-    background: #111113;
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: 10px;
-    overflow: hidden;
-    transition: border-color 0.2s, transform 0.2s;
-}
-
-.all-card:hover {
-    border-color: rgba(255, 255, 255, 0.15);
-    transform: translateY(-2px);
-}
-
-.all-card-preview {
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #0d0d0f;
-    padding: 20px;
-}
-
-.all-card-footer {
-    padding: 10px 14px;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.all-card-name {
-    font-size: 13px;
-    color: #a1a1aa;
-}
-
-.floating-navbar-button {
-    position: fixed;
-    right: 24px;
-    bottom: 24px;
-    padding: 12px 18px;
-    background: linear-gradient(135deg, #60a5fa, #3b82f6);
-    color: #fff;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 14px;
-    font-weight: 600;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-    transition: transform 0.2s, box-shadow 0.2s;
-    z-index: 1000;
-}
-
-.floating-navbar-button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+@media (prefers-reduced-motion: reduce) {
+  .all-card-preview-placeholder {
+    animation: none;
+  }
+  .all-card,
+  .floating-navbar-button {
+    transition: none;
+  }
 }
