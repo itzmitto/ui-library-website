@@ -6032,3 +6032,5096 @@
     opacity: 1;
   }
 }
+.legendary-celestial-checkbox {
+  --celestial-cyan: #7df9ff;
+  --celestial-blue: #3e9cff;
+  --celestial-violet: #7a5cff;
+  --celestial-pink: #e96bff;
+  --celestial-white: #f8ffff;
+  --celestial-dark: #030813;
+  --celestial-deep: #01040a;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 320px;
+  min-height: 112px;
+  padding: 12px 20px 12px 12px;
+  border: 1px solid rgba(113, 221, 255, 0.22);
+  border-radius: 24px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.045), transparent 25%),
+    linear-gradient(325deg, rgba(57, 106, 255, 0.05), transparent 40%),
+    rgba(3, 9, 18, 0.94);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.055),
+    0 9px 28px rgba(0, 0, 0, 0.32),
+    0 0 28px rgba(65, 164, 255, 0.08);
+  cursor: pointer;
+  overflow: hidden;
+  isolation: isolate;
+  user-select: none;
+  transform: translateZ(0);
+  transition:
+    transform 0.4s cubic-bezier(0.18, 0.8, 0.2, 1),
+    border-color 0.4s ease,
+    box-shadow 0.4s ease,
+    background 0.4s ease;
+}
+.legendary-celestial-checkbox:hover {
+  transform: translateY(-4px) scale(1.015);
+  border-color: rgba(133, 241, 255, 0.48);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.07),
+    0 14px 38px rgba(0, 0, 0, 0.36),
+    0 0 38px rgba(73, 198, 255, 0.16),
+    0 0 70px rgba(111, 74, 255, 0.08);
+}
+.legendary-celestial-checkbox:focus-within {
+  border-color: rgba(161, 245, 255, 0.66);
+  box-shadow:
+    0 0 0 3px rgba(75, 205, 255, 0.12),
+    0 0 0 7px rgba(75, 205, 255, 0.05),
+    0 0 42px rgba(70, 188, 255, 0.22);
+}
+.legendary-celestial-checkbox input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+.celestial-stage {
+  position: relative;
+  flex: 0 0 108px;
+  width: 108px;
+  height: 88px;
+  border-radius: 19px;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(76, 211, 255, 0.12),
+      transparent 23%
+    ),
+    radial-gradient(
+      circle at 32% 68%,
+      rgba(108, 80, 255, 0.09),
+      transparent 31%
+    ),
+    linear-gradient(145deg, #071322, #030913 70%);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.035),
+    inset 0 0 25px rgba(55, 190, 255, 0.045);
+  isolation: isolate;
+}
+.celestial-stage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 28;
+  background: linear-gradient(
+    110deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.035) 48%,
+    transparent 54%
+  );
+  background-size: 220% 100%;
+  animation: celestialPanelSweep2681 8s linear infinite;
+  pointer-events: none;
+}
+.celestial-stage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 31;
+  border-radius: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.035);
+  pointer-events: none;
+}
+.celestial-bg {
+  position: absolute;
+  inset: -25%;
+  z-index: -5;
+  background:
+    radial-gradient(
+      circle at 30% 40%,
+      rgba(0, 237, 255, 0.16),
+      transparent 20%
+    ),
+    radial-gradient(
+      circle at 70% 65%,
+      rgba(104, 69, 255, 0.18),
+      transparent 24%
+    ),
+    radial-gradient(
+      circle at 45% 54%,
+      rgba(255, 85, 211, 0.08),
+      transparent 30%
+    ),
+    conic-gradient(
+      from 0deg,
+      rgba(30, 116, 255, 0.08),
+      rgba(93, 255, 226, 0.08),
+      rgba(129, 73, 255, 0.09),
+      rgba(255, 75, 208, 0.06),
+      rgba(30, 116, 255, 0.08)
+    );
+  filter: blur(17px);
+  animation: celestialBgRotation2681 16s linear infinite;
+}
+.celestial-stars {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+}
+.celestial-star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: #ecffff;
+  box-shadow:
+    0 0 4px #ecffff,
+    0 0 10px rgba(86, 237, 255, 0.75);
+  opacity: 0.35;
+}
+.celestial-star-1 {
+  left: 8%;
+  top: 14%;
+  animation: celestialTwinkle1 3.6s ease-in-out infinite;
+}
+.celestial-star-2 {
+  left: 19%;
+  top: 24%;
+  animation: celestialTwinkle2 4.2s ease-in-out infinite;
+}
+.celestial-star-3 {
+  left: 31%;
+  top: 11%;
+  animation: celestialTwinkle3 3.2s ease-in-out infinite;
+}
+.celestial-star-4 {
+  left: 45%;
+  top: 17%;
+  animation: celestialTwinkle4 4.5s ease-in-out infinite;
+}
+.celestial-star-5 {
+  left: 59%;
+  top: 12%;
+  animation: celestialTwinkle5 3.8s ease-in-out infinite;
+}
+.celestial-star-6 {
+  left: 74%;
+  top: 21%;
+  animation: celestialTwinkle6 4s ease-in-out infinite;
+}
+.celestial-star-7 {
+  left: 87%;
+  top: 13%;
+  animation: celestialTwinkle7 3.4s ease-in-out infinite;
+}
+.celestial-star-8 {
+  left: 94%;
+  top: 39%;
+  animation: celestialTwinkle8 4.8s ease-in-out infinite;
+}
+.celestial-star-9 {
+  left: 83%;
+  top: 56%;
+  animation: celestialTwinkle9 3.9s ease-in-out infinite;
+}
+.celestial-star-10 {
+  left: 72%;
+  top: 72%;
+  animation: celestialTwinkle10 4.6s ease-in-out infinite;
+}
+.celestial-star-11 {
+  left: 58%;
+  top: 82%;
+  animation: celestialTwinkle11 3.7s ease-in-out infinite;
+}
+.celestial-star-12 {
+  left: 44%;
+  top: 74%;
+  animation: celestialTwinkle12 4.1s ease-in-out infinite;
+}
+.celestial-star-13 {
+  left: 31%;
+  top: 83%;
+  animation: celestialTwinkle13 3.5s ease-in-out infinite;
+}
+.celestial-star-14 {
+  left: 18%;
+  top: 69%;
+  animation: celestialTwinkle14 4.7s ease-in-out infinite;
+}
+.celestial-star-15 {
+  left: 7%;
+  top: 53%;
+  animation: celestialTwinkle15 3.3s ease-in-out infinite;
+}
+.celestial-star-16 {
+  left: 14%;
+  top: 42%;
+  animation: celestialTwinkle16 4.9s ease-in-out infinite;
+}
+.celestial-star-17 {
+  left: 39%;
+  top: 36%;
+  animation: celestialTwinkle17 3.9s ease-in-out infinite;
+}
+.celestial-star-18 {
+  left: 65%;
+  top: 42%;
+  animation: celestialTwinkle18 4.4s ease-in-out infinite;
+}
+.celestial-orbit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  border: 1px solid rgba(104, 229, 255, 0.11);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.celestial-orbit-1 {
+  width: 64px;
+  height: 25px;
+  transform: translate(-50%, -50%) rotate(20deg);
+  animation: celestialOrbit1 6.5s linear infinite;
+}
+.celestial-orbit-2 {
+  width: 72px;
+  height: 30px;
+  transform: translate(-50%, -50%) rotate(-35deg);
+  border-color: rgba(114, 113, 255, 0.09);
+  animation: celestialOrbit2 8s linear infinite reverse;
+}
+.celestial-orbit-3 {
+  width: 84px;
+  height: 45px;
+  transform: translate(-50%, -50%) rotate(75deg);
+  border-color: rgba(97, 242, 232, 0.07);
+  animation: celestialOrbit3 10s linear infinite;
+}
+.celestial-orbit-4 {
+  width: 92px;
+  height: 53px;
+  transform: translate(-50%, -50%) rotate(-60deg);
+  border-color: rgba(181, 110, 255, 0.055);
+  animation: celestialOrbit4 12s linear infinite reverse;
+}
+.celestial-orbit-5 {
+  width: 99px;
+  height: 62px;
+  transform: translate(-50%, -50%) rotate(8deg);
+  border-color: rgba(81, 190, 255, 0.045);
+  animation: celestialOrbit5 14s linear infinite;
+}
+.celestial-energy {
+  position: absolute;
+  z-index: 8;
+  height: 1px;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(191, 255, 250, 0.18),
+    rgba(71, 245, 225, 0.78),
+    rgba(96, 181, 255, 0.18),
+    transparent
+  );
+  filter: blur(0.25px);
+  pointer-events: none;
+}
+.celestial-energy-1 {
+  left: 2px;
+  top: 24px;
+  width: 39px;
+  transform: rotate(14deg);
+  animation: celestialEnergy1 4.5s ease-in-out infinite;
+}
+.celestial-energy-2 {
+  right: 0;
+  top: 32px;
+  width: 42px;
+  transform: rotate(-19deg);
+  animation: celestialEnergy2 5.1s ease-in-out infinite;
+}
+.celestial-energy-3 {
+  left: 10px;
+  bottom: 16px;
+  width: 34px;
+  transform: rotate(-12deg);
+  animation: celestialEnergy3 4.9s ease-in-out infinite;
+}
+.celestial-energy-4 {
+  right: 10px;
+  bottom: 15px;
+  width: 40px;
+  transform: rotate(15deg);
+  animation: celestialEnergy4 5.3s ease-in-out infinite;
+}
+.celestial-energy-5 {
+  left: 29px;
+  top: 6px;
+  width: 26px;
+  transform: rotate(42deg);
+  animation: celestialEnergy5 4.3s ease-in-out infinite;
+}
+.celestial-energy-6 {
+  right: 26px;
+  bottom: 8px;
+  width: 28px;
+  transform: rotate(-40deg);
+  animation: celestialEnergy6 4.8s ease-in-out infinite;
+}
+.celestial-particle {
+  position: absolute;
+  z-index: 11;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #eaffff;
+  box-shadow:
+    0 0 5px rgba(245, 255, 255, 0.95),
+    0 0 12px rgba(95, 241, 255, 0.7),
+    0 0 20px rgba(99, 92, 255, 0.35);
+  pointer-events: none;
+}
+.celestial-particle-1 {
+  left: 6px;
+  top: 8px;
+  animation: celestialParticle1 4.1s ease-in-out infinite;
+}
+.celestial-particle-2 {
+  left: 17px;
+  top: 74px;
+  animation: celestialParticle2 4.8s ease-in-out infinite;
+}
+.celestial-particle-3 {
+  left: 29px;
+  top: 48px;
+  animation: celestialParticle3 3.8s ease-in-out infinite;
+}
+.celestial-particle-4 {
+  left: 40px;
+  top: 20px;
+  animation: celestialParticle4 5.2s ease-in-out infinite;
+}
+.celestial-particle-5 {
+  left: 50px;
+  top: 6px;
+  animation: celestialParticle5 4.4s ease-in-out infinite;
+}
+.celestial-particle-6 {
+  left: 62px;
+  top: 77px;
+  animation: celestialParticle6 4.9s ease-in-out infinite;
+}
+.celestial-particle-7 {
+  left: 76px;
+  top: 12px;
+  animation: celestialParticle7 3.9s ease-in-out infinite;
+}
+.celestial-particle-8 {
+  left: 88px;
+  top: 30px;
+  animation: celestialParticle8 5s ease-in-out infinite;
+}
+.celestial-particle-9 {
+  right: 6px;
+  top: 55px;
+  animation: celestialParticle9 4.3s ease-in-out infinite;
+}
+.celestial-particle-10 {
+  right: 17px;
+  bottom: 7px;
+  animation: celestialParticle10 5.4s ease-in-out infinite;
+}
+.celestial-particle-11 {
+  right: 30px;
+  bottom: 28px;
+  animation: celestialParticle11 4.2s ease-in-out infinite;
+}
+.celestial-particle-12 {
+  right: 42px;
+  top: 11px;
+  animation: celestialParticle12 5.1s ease-in-out infinite;
+}
+.celestial-particle-13 {
+  right: 53px;
+  bottom: 6px;
+  animation: celestialParticle13 4.6s ease-in-out infinite;
+}
+.celestial-particle-14 {
+  left: 12px;
+  bottom: 37px;
+  animation: celestialParticle14 5.3s ease-in-out infinite;
+}
+.celestial-particle-15 {
+  left: 97px;
+  top: 43px;
+  animation: celestialParticle15 4s ease-in-out infinite;
+}
+.celestial-particle-16 {
+  left: 70px;
+  bottom: 15px;
+  animation: celestialParticle16 5.2s ease-in-out infinite;
+}
+.celestial-particle-17 {
+  left: 24px;
+  top: 30px;
+  animation: celestialParticle17 4.7s ease-in-out infinite;
+}
+.celestial-particle-18 {
+  right: 26px;
+  top: 45px;
+  animation: celestialParticle18 4.1s ease-in-out infinite;
+}
+.celestial-particle-19 {
+  left: 52px;
+  top: 34px;
+  width: 2px;
+  height: 2px;
+  animation: celestialParticle19 3.7s ease-in-out infinite;
+}
+.celestial-particle-20 {
+  left: 80px;
+  bottom: 39px;
+  width: 2px;
+  height: 2px;
+  animation: celestialParticle20 4.6s ease-in-out infinite;
+}
+.celestial-core {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 61px;
+  height: 61px;
+  transform: translate(-50%, -50%);
+  z-index: 14;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(224, 255, 251, 0.12),
+    rgba(74, 245, 227, 0.08) 28%,
+    rgba(84, 145, 255, 0.055) 47%,
+    transparent 72%
+  );
+  animation: celestialCoreFloat2681 3.4s ease-in-out infinite;
+  pointer-events: none;
+}
+.celestial-core-halo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 82px;
+  height: 82px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(106, 255, 232, 0.2),
+    rgba(58, 182, 255, 0.1) 38%,
+    rgba(116, 72, 255, 0.06) 56%,
+    transparent 72%
+  );
+  filter: blur(9px);
+  animation: celestialHalo2681 3.1s ease-in-out infinite;
+}
+.celestial-core-ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 53px;
+  height: 53px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 1px solid rgba(182, 255, 247, 0.22);
+  box-shadow:
+    0 0 12px rgba(84, 244, 224, 0.15),
+    inset 0 0 12px rgba(84, 244, 224, 0.08);
+  animation: celestialCoreRing2681 5s linear infinite;
+}
+.celestial-core-inner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 37px;
+  height: 37px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 34% 29%,
+    #ffffff 0%,
+    #dffffa 13%,
+    #73ffe9 30%,
+    #35dce6 48%,
+    rgba(77, 105, 255, 0.32) 68%,
+    transparent 79%
+  );
+  box-shadow:
+    0 0 7px rgba(234, 255, 253, 0.95),
+    0 0 15px rgba(110, 255, 231, 0.82),
+    0 0 27px rgba(50, 201, 230, 0.55),
+    0 0 43px rgba(88, 86, 255, 0.32);
+  animation: celestialCoreInner2681 2.3s ease-in-out infinite;
+}
+.celestial-core-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%, -50%) scale(0.3) rotate(-20deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  color: #ffffff;
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.98))
+    drop-shadow(0 0 13px rgba(84, 255, 232, 0.7));
+}
+.legendary-celestial-checkbox
+  input:checked
+  + .celestial-stage
+  .celestial-core-icon {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1) rotate(0deg);
+  transition:
+    opacity 0.4s ease 0.05s,
+    transform 0.55s cubic-bezier(0.18, 0.9, 0.2, 1) 0.05s;
+}
+.celestial-core-icon i {
+  font-size: 18px;
+  font-weight: 900;
+}
+.celestial-beam {
+  position: absolute;
+  z-index: 9;
+  border-radius: 999px;
+  pointer-events: none;
+  filter: blur(4px);
+}
+.celestial-beam-1 {
+  left: 3%;
+  top: 50%;
+  width: 94%;
+  height: 1px;
+  transform: translateY(-50%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(83, 255, 233, 0.05) 10%,
+    rgba(83, 255, 233, 0.55) 50%,
+    rgba(126, 116, 255, 0.05) 90%,
+    transparent
+  );
+  animation: celestialBeam1 4s ease-in-out infinite;
+}
+.celestial-beam-2 {
+  left: 50%;
+  top: 3%;
+  width: 1px;
+  height: 94%;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(97, 213, 255, 0.04) 12%,
+    rgba(119, 255, 237, 0.42) 50%,
+    rgba(150, 105, 255, 0.04) 88%,
+    transparent
+  );
+  filter: blur(3px);
+  animation: celestialBeam2 4.8s ease-in-out infinite;
+}
+.celestial-beam-3 {
+  left: 50%;
+  top: 50%;
+  width: 84px;
+  height: 84px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.05),
+    rgba(85, 255, 227, 0.18),
+    rgba(255, 255, 255, 0.05),
+    transparent
+  );
+  filter: blur(9px);
+  animation: celestialBeam3 5.6s ease-in-out infinite;
+}
+.celestial-spark {
+  position: absolute;
+  z-index: 17;
+  width: 9px;
+  height: 9px;
+  pointer-events: none;
+}
+.celestial-spark::before,
+.celestial-spark::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  background: #eaffff;
+  box-shadow:
+    0 0 5px rgba(255, 255, 255, 0.95),
+    0 0 13px rgba(67, 241, 225, 0.7),
+    0 0 20px rgba(89, 103, 255, 0.34);
+}
+.celestial-spark::before {
+  width: 2px;
+  height: 10px;
+}
+.celestial-spark::after {
+  width: 10px;
+  height: 2px;
+}
+.celestial-spark-1 {
+  left: 17px;
+  top: 29px;
+  animation: celestialSpark1 2.8s ease-in-out infinite;
+}
+.celestial-spark-2 {
+  left: 35px;
+  bottom: 23px;
+  animation: celestialSpark2 3.2s ease-in-out infinite 0.5s;
+}
+.celestial-spark-3 {
+  left: 69px;
+  top: 20px;
+  animation: celestialSpark3 2.7s ease-in-out infinite 0.3s;
+}
+.celestial-spark-4 {
+  right: 14px;
+  top: 37px;
+  animation: celestialSpark4 3.4s ease-in-out infinite;
+}
+.celestial-spark-5 {
+  right: 32px;
+  bottom: 20px;
+  animation: celestialSpark5 2.9s ease-in-out infinite 0.4s;
+}
+.celestial-spark-6 {
+  left: 52px;
+  top: 68px;
+  animation: celestialSpark6 3.3s ease-in-out infinite 0.7s;
+}
+.celestial-scan {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  top: -12%;
+  height: 1px;
+  z-index: 25;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(90, 248, 228, 0.07),
+    rgba(230, 255, 252, 0.5),
+    rgba(88, 205, 255, 0.22),
+    transparent
+  );
+  box-shadow: 0 0 8px rgba(87, 240, 225, 0.2);
+  animation: celestialScan2681 4.8s ease-in-out infinite;
+  pointer-events: none;
+}
+.celestial-shine {
+  position: absolute;
+  top: -55%;
+  left: -80%;
+  width: 38%;
+  height: 210%;
+  z-index: 27;
+  transform: rotate(22deg);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.02) 25%,
+    rgba(228, 255, 251, 0.42) 48%,
+    rgba(255, 255, 255, 0.06) 61%,
+    transparent
+  );
+  filter: blur(1px);
+  animation: celestialShine2681 5.4s cubic-bezier(0.18, 0.7, 0.2, 1) infinite;
+  pointer-events: none;
+}
+.celestial-border {
+  position: absolute;
+  inset: 1px;
+  z-index: 29;
+  border-radius: 19px;
+  padding: 1px;
+  background: conic-gradient(
+    from 0deg,
+    rgba(92, 255, 235, 0.65),
+    rgba(83, 188, 255, 0.35),
+    rgba(117, 92, 255, 0.45),
+    rgba(233, 106, 255, 0.34),
+    rgba(92, 255, 235, 0.65)
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  animation: celestialBorder2681 5s linear infinite;
+  pointer-events: none;
+}
+.celestial-copy {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 150px;
+}
+.celestial-copy-icon {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 11px;
+  background: linear-gradient(
+    145deg,
+    rgba(103, 255, 234, 0.12),
+    rgba(84, 112, 255, 0.08)
+  );
+  border: 1px solid rgba(126, 235, 255, 0.14);
+  box-shadow:
+    inset 0 0 12px rgba(99, 241, 225, 0.05),
+    0 0 14px rgba(69, 208, 255, 0.06);
+  color: #eaffff;
+}
+.celestial-copy-icon i {
+  font-size: 18px;
+  text-shadow:
+    0 0 6px rgba(255, 255, 255, 0.9),
+    0 0 15px rgba(94, 255, 233, 0.65);
+  animation: celestialIconFloat2681 2.8s ease-in-out infinite;
+}
+.celestial-copy-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.celestial-title {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  color: #f4ffff;
+}
+.celestial-subtitle {
+  font-size: 8px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 2.3px;
+  text-transform: uppercase;
+  color: rgba(169, 233, 255, 0.54);
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage {
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.04),
+    inset 0 0 28px rgba(84, 246, 227, 0.09),
+    0 0 30px rgba(71, 242, 218, 0.12);
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage .celestial-bg {
+  animation-duration: 7s;
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage .celestial-core {
+  animation-duration: 1.8s;
+}
+.legendary-celestial-checkbox
+  input:checked
+  + .celestial-stage
+  .celestial-core-inner {
+  animation-duration: 1.2s;
+}
+.legendary-celestial-checkbox
+  input:checked
+  + .celestial-stage
+  .celestial-core-ring {
+  border-color: rgba(202, 255, 246, 0.4);
+  box-shadow:
+    0 0 17px rgba(81, 245, 222, 0.24),
+    inset 0 0 15px rgba(81, 245, 222, 0.12);
+  animation-duration: 2.1s;
+}
+.legendary-celestial-checkbox
+  input:checked
+  + .celestial-stage
+  .celestial-orbit {
+  border-color: rgba(111, 255, 236, 0.23);
+}
+.legendary-celestial-checkbox
+  input:checked
+  + .celestial-stage
+  .celestial-particle {
+  animation-duration: 2s;
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage .celestial-star {
+  animation-duration: 1.7s;
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage .celestial-scan {
+  animation-duration: 2.3s;
+}
+.legendary-celestial-checkbox
+  input:checked
+  + .celestial-stage
+  .celestial-shine {
+  animation-duration: 2.6s;
+}
+.legendary-celestial-checkbox
+  input:checked
+  + .celestial-stage
+  .celestial-border {
+  animation-duration: 2.5s;
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage::after {
+  border-color: rgba(127, 245, 235, 0.15);
+}
+.legendary-celestial-checkbox
+  input:checked
+  ~ .celestial-copy
+  .celestial-copy-icon {
+  border-color: rgba(119, 255, 238, 0.34);
+  background: linear-gradient(
+    145deg,
+    rgba(96, 255, 227, 0.17),
+    rgba(101, 104, 255, 0.12)
+  );
+  box-shadow:
+    inset 0 0 16px rgba(99, 241, 225, 0.08),
+    0 0 18px rgba(69, 208, 255, 0.13);
+}
+.legendary-celestial-checkbox
+  input:checked
+  ~ .celestial-copy
+  .celestial-copy-icon
+  i {
+  animation-duration: 1.5s;
+}
+.legendary-celestial-checkbox input:checked ~ .celestial-copy .celestial-title {
+  color: #ffffff;
+  text-shadow:
+    0 0 8px rgba(139, 255, 239, 0.24),
+    0 0 16px rgba(74, 177, 255, 0.1);
+}
+@keyframes celestialPanelSweep2681 {
+  0% {
+    background-position: -120% 0;
+  }
+  45% {
+    background-position: 120% 0;
+  }
+  100% {
+    background-position: 120% 0;
+  }
+}
+@keyframes celestialBgRotation2681 {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.06);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+@keyframes celestialTwinkle1 {
+  0%,
+  100% {
+    opacity: 0.18;
+    transform: scale(0.7);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.25);
+  }
+}
+@keyframes celestialTwinkle2 {
+  0%,
+  100% {
+    opacity: 0.25;
+    transform: scale(0.65);
+  }
+  50% {
+    opacity: 0.75;
+    transform: scale(1.1);
+  }
+}
+@keyframes celestialTwinkle3 {
+  0%,
+  100% {
+    opacity: 0.12;
+    transform: scale(0.6);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.35);
+  }
+}
+@keyframes celestialTwinkle4 {
+  0%,
+  100% {
+    opacity: 0.2;
+    transform: scale(0.72);
+  }
+  50% {
+    opacity: 0.82;
+    transform: scale(1.18);
+  }
+}
+@keyframes celestialTwinkle5 {
+  0%,
+  100% {
+    opacity: 0.18;
+    transform: scale(0.62);
+  }
+  50% {
+    opacity: 0.94;
+    transform: scale(1.2);
+  }
+}
+@keyframes celestialTwinkle6 {
+  0%,
+  100% {
+    opacity: 0.22;
+    transform: scale(0.65);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.22);
+  }
+}
+@keyframes celestialTwinkle7 {
+  0%,
+  100% {
+    opacity: 0.14;
+    transform: scale(0.58);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.3);
+  }
+}
+@keyframes celestialTwinkle8 {
+  0%,
+  100% {
+    opacity: 0.2;
+    transform: scale(0.62);
+  }
+  50% {
+    opacity: 0.84;
+    transform: scale(1.18);
+  }
+}
+@keyframes celestialTwinkle9 {
+  0%,
+  100% {
+    opacity: 0.15;
+    transform: scale(0.6);
+  }
+  50% {
+    opacity: 0.96;
+    transform: scale(1.26);
+  }
+}
+@keyframes celestialTwinkle10 {
+  0%,
+  100% {
+    opacity: 0.22;
+    transform: scale(0.66);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.12);
+  }
+}
+@keyframes celestialTwinkle11 {
+  0%,
+  100% {
+    opacity: 0.13;
+    transform: scale(0.56);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.3);
+  }
+}
+@keyframes celestialTwinkle12 {
+  0%,
+  100% {
+    opacity: 0.2;
+    transform: scale(0.64);
+  }
+  50% {
+    opacity: 0.88;
+    transform: scale(1.18);
+  }
+}
+@keyframes celestialTwinkle13 {
+  0%,
+  100% {
+    opacity: 0.16;
+    transform: scale(0.58);
+  }
+  50% {
+    opacity: 0.93;
+    transform: scale(1.24);
+  }
+}
+@keyframes celestialTwinkle14 {
+  0%,
+  100% {
+    opacity: 0.23;
+    transform: scale(0.66);
+  }
+  50% {
+    opacity: 0.79;
+    transform: scale(1.12);
+  }
+}
+@keyframes celestialTwinkle15 {
+  0%,
+  100% {
+    opacity: 0.15;
+    transform: scale(0.6);
+  }
+  50% {
+    opacity: 0.96;
+    transform: scale(1.27);
+  }
+}
+@keyframes celestialTwinkle16 {
+  0%,
+  100% {
+    opacity: 0.19;
+    transform: scale(0.64);
+  }
+  50% {
+    opacity: 0.84;
+    transform: scale(1.19);
+  }
+}
+@keyframes celestialTwinkle17 {
+  0%,
+  100% {
+    opacity: 0.11;
+    transform: scale(0.54);
+  }
+  50% {
+    opacity: 0.98;
+    transform: scale(1.34);
+  }
+}
+@keyframes celestialTwinkle18 {
+  0%,
+  100% {
+    opacity: 0.21;
+    transform: scale(0.65);
+  }
+  50% {
+    opacity: 0.82;
+    transform: scale(1.16);
+  }
+}
+@keyframes celestialOrbit1 {
+  0% {
+    transform: translate(-50%, -50%) rotate(20deg) scale(0.95);
+    opacity: 0.12;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(200deg) scale(1.04);
+    opacity: 0.34;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(380deg) scale(0.95);
+    opacity: 0.12;
+  }
+}
+@keyframes celestialOrbit2 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-35deg) scale(0.92);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(145deg) scale(1.06);
+    opacity: 0.27;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(325deg) scale(0.92);
+    opacity: 0.08;
+  }
+}
+@keyframes celestialOrbit3 {
+  0% {
+    transform: translate(-50%, -50%) rotate(75deg) scale(0.94);
+    opacity: 0.07;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(255deg) scale(1.04);
+    opacity: 0.22;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(435deg) scale(0.94);
+    opacity: 0.07;
+  }
+}
+@keyframes celestialOrbit4 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-60deg) scale(0.93);
+    opacity: 0.05;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(120deg) scale(1.04);
+    opacity: 0.17;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(300deg) scale(0.93);
+    opacity: 0.05;
+  }
+}
+@keyframes celestialOrbit5 {
+  0% {
+    transform: translate(-50%, -50%) rotate(8deg) scale(0.96);
+    opacity: 0.04;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(188deg) scale(1.03);
+    opacity: 0.11;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(368deg) scale(0.96);
+    opacity: 0.04;
+  }
+}
+@keyframes celestialEnergy1 {
+  0%,
+  100% {
+    transform: translateX(-8px) rotate(14deg) scaleX(0.62);
+    opacity: 0.06;
+  }
+  50% {
+    transform: translateX(10px) rotate(11deg) scaleX(1.08);
+    opacity: 0.58;
+  }
+}
+@keyframes celestialEnergy2 {
+  0%,
+  100% {
+    transform: translateX(9px) rotate(-19deg) scaleX(0.58);
+    opacity: 0.05;
+  }
+  50% {
+    transform: translateX(-11px) rotate(-15deg) scaleX(1.05);
+    opacity: 0.53;
+  }
+}
+@keyframes celestialEnergy3 {
+  0%,
+  100% {
+    transform: translateX(8px) rotate(-12deg) scaleX(0.6);
+    opacity: 0.05;
+  }
+  50% {
+    transform: translateX(-9px) rotate(-9deg) scaleX(1.04);
+    opacity: 0.48;
+  }
+}
+@keyframes celestialEnergy4 {
+  0%,
+  100% {
+    transform: translateX(-8px) rotate(15deg) scaleX(0.61);
+    opacity: 0.05;
+  }
+  50% {
+    transform: translateX(10px) rotate(11deg) scaleX(1.07);
+    opacity: 0.56;
+  }
+}
+@keyframes celestialEnergy5 {
+  0%,
+  100% {
+    transform: translateY(6px) rotate(42deg) scaleX(0.58);
+    opacity: 0.04;
+  }
+  50% {
+    transform: translateY(-8px) rotate(48deg) scaleX(1.05);
+    opacity: 0.43;
+  }
+}
+@keyframes celestialEnergy6 {
+  0%,
+  100% {
+    transform: translateY(-5px) rotate(-40deg) scaleX(0.56);
+    opacity: 0.04;
+  }
+  50% {
+    transform: translateY(7px) rotate(-34deg) scaleX(1.06);
+    opacity: 0.45;
+  }
+}
+@keyframes celestialParticle1 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.5);
+    opacity: 0.13;
+  }
+  50% {
+    transform: translate(8px, -12px) scale(1.2);
+    opacity: 0.9;
+  }
+}
+@keyframes celestialParticle2 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.55);
+    opacity: 0.16;
+  }
+  50% {
+    transform: translate(-7px, -13px) scale(1.15);
+    opacity: 0.84;
+  }
+}
+@keyframes celestialParticle3 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.48);
+    opacity: 0.11;
+  }
+  50% {
+    transform: translate(9px, -10px) scale(1.2);
+    opacity: 0.93;
+  }
+}
+@keyframes celestialParticle4 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.52);
+    opacity: 0.14;
+  }
+  50% {
+    transform: translate(-8px, 12px) scale(1.13);
+    opacity: 0.86;
+  }
+}
+@keyframes celestialParticle5 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.45);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translate(5px, 14px) scale(1.22);
+    opacity: 0.94;
+  }
+}
+@keyframes celestialParticle6 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.56);
+    opacity: 0.15;
+  }
+  50% {
+    transform: translate(-9px, -11px) scale(1.11);
+    opacity: 0.83;
+  }
+}
+@keyframes celestialParticle7 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.48);
+    opacity: 0.12;
+  }
+  50% {
+    transform: translate(8px, 10px) scale(1.2);
+    opacity: 0.92;
+  }
+}
+@keyframes celestialParticle8 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.5);
+    opacity: 0.14;
+  }
+  50% {
+    transform: translate(-9px, -9px) scale(1.16);
+    opacity: 0.88;
+  }
+}
+@keyframes celestialParticle9 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.45);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translate(-9px, 9px) scale(1.23);
+    opacity: 0.95;
+  }
+}
+@keyframes celestialParticle10 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.5);
+    opacity: 0.13;
+  }
+  50% {
+    transform: translate(8px, -11px) scale(1.18);
+    opacity: 0.89;
+  }
+}
+@keyframes celestialParticle11 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.54);
+    opacity: 0.12;
+  }
+  50% {
+    transform: translate(-8px, -10px) scale(1.14);
+    opacity: 0.9;
+  }
+}
+@keyframes celestialParticle12 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.46);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translate(6px, 12px) scale(1.18);
+    opacity: 0.91;
+  }
+}
+@keyframes celestialParticle13 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.49);
+    opacity: 0.12;
+  }
+  50% {
+    transform: translate(-7px, -12px) scale(1.2);
+    opacity: 0.88;
+  }
+}
+@keyframes celestialParticle14 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.52);
+    opacity: 0.12;
+  }
+  50% {
+    transform: translate(10px, -8px) scale(1.15);
+    opacity: 0.86;
+  }
+}
+@keyframes celestialParticle15 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.44);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translate(-10px, 8px) scale(1.24);
+    opacity: 0.93;
+  }
+}
+@keyframes celestialParticle16 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.5);
+    opacity: 0.12;
+  }
+  50% {
+    transform: translate(-7px, -11px) scale(1.17);
+    opacity: 0.86;
+  }
+}
+@keyframes celestialParticle17 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.46);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translate(9px, 8px) scale(1.2);
+    opacity: 0.9;
+  }
+}
+@keyframes celestialParticle18 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.5);
+    opacity: 0.11;
+  }
+  50% {
+    transform: translate(-8px, -9px) scale(1.2);
+    opacity: 0.92;
+  }
+}
+@keyframes celestialParticle19 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.42);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(7px, -13px) scale(1.3);
+    opacity: 1;
+  }
+}
+@keyframes celestialParticle20 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.43);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(-8px, -12px) scale(1.25);
+    opacity: 0.96;
+  }
+}
+@keyframes celestialCoreFloat2681 {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) translateY(4px) scale(0.92);
+    opacity: 0.57;
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-5px) scale(1.06);
+    opacity: 1;
+  }
+}
+@keyframes celestialHalo2681 {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 0.32;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.16);
+    opacity: 0.8;
+  }
+}
+@keyframes celestialCoreRing2681 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.94);
+    opacity: 0.18;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.05);
+    opacity: 0.62;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(0.94);
+    opacity: 0.18;
+  }
+}
+@keyframes celestialCoreInner2681 {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(0.84);
+    filter: brightness(0.88) saturate(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+    filter: brightness(1.34) saturate(1.14);
+  }
+}
+@keyframes celestialBeam1 {
+  0%,
+  100% {
+    opacity: 0.13;
+    transform: translateY(-50%) scaleX(0.72);
+  }
+  50% {
+    opacity: 0.54;
+    transform: translateY(-50%) scaleX(1.05);
+  }
+}
+@keyframes celestialBeam2 {
+  0%,
+  100% {
+    opacity: 0.08;
+    transform: translateX(-50%) scaleY(0.7);
+  }
+  50% {
+    opacity: 0.42;
+    transform: translateX(-50%) scaleY(1.06);
+  }
+}
+@keyframes celestialBeam3 {
+  0%,
+  100% {
+    opacity: 0.05;
+    transform: translate(-50%, -50%) rotate(45deg) scale(0.75);
+  }
+  50% {
+    opacity: 0.25;
+    transform: translate(-50%, -50%) rotate(135deg) scale(1.08);
+  }
+}
+@keyframes celestialSpark1 {
+  0%,
+  100% {
+    transform: scale(0.35) rotate(0deg);
+    opacity: 0.08;
+  }
+  50% {
+    transform: scale(1) rotate(45deg);
+    opacity: 1;
+  }
+}
+@keyframes celestialSpark2 {
+  0%,
+  100% {
+    transform: scale(0.3) rotate(0deg);
+    opacity: 0.07;
+  }
+  50% {
+    transform: scale(0.9) rotate(-45deg);
+    opacity: 0.86;
+  }
+}
+@keyframes celestialSpark3 {
+  0%,
+  100% {
+    transform: scale(0.32) rotate(0deg);
+    opacity: 0.06;
+  }
+  50% {
+    transform: scale(1.05) rotate(45deg);
+    opacity: 0.98;
+  }
+}
+@keyframes celestialSpark4 {
+  0%,
+  100% {
+    transform: scale(0.36) rotate(0deg);
+    opacity: 0.07;
+  }
+  50% {
+    transform: scale(1) rotate(-45deg);
+    opacity: 0.95;
+  }
+}
+@keyframes celestialSpark5 {
+  0%,
+  100% {
+    transform: scale(0.3) rotate(0deg);
+    opacity: 0.06;
+  }
+  50% {
+    transform: scale(0.88) rotate(45deg);
+    opacity: 0.84;
+  }
+}
+@keyframes celestialSpark6 {
+  0%,
+  100% {
+    transform: scale(0.32) rotate(0deg);
+    opacity: 0.07;
+  }
+  50% {
+    transform: scale(0.98) rotate(-45deg);
+    opacity: 0.92;
+  }
+}
+@keyframes celestialScan2681 {
+  0% {
+    top: -12%;
+    opacity: 0;
+  }
+  11% {
+    opacity: 0.08;
+  }
+  28% {
+    opacity: 0.65;
+  }
+  43% {
+    opacity: 0.12;
+  }
+  61% {
+    top: 112%;
+    opacity: 0;
+  }
+  100% {
+    top: 112%;
+    opacity: 0;
+  }
+}
+@keyframes celestialShine2681 {
+  0% {
+    left: -80%;
+    opacity: 0;
+  }
+  9% {
+    opacity: 0.02;
+  }
+  18% {
+    opacity: 0.72;
+  }
+  31% {
+    opacity: 0.14;
+  }
+  45% {
+    left: 135%;
+    opacity: 0;
+  }
+  100% {
+    left: 135%;
+    opacity: 0;
+  }
+}
+@keyframes celestialBorder2681 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes celestialIconFloat2681 {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-3px) rotate(7deg);
+  }
+}
+@media (max-width: 600px) {
+  .legendary-celestial-checkbox {
+    min-width: 270px;
+    gap: 11px;
+    padding-right: 14px;
+  }
+  .celestial-stage {
+    flex-basis: 92px;
+    width: 92px;
+    height: 78px;
+  }
+  .celestial-copy {
+    gap: 9px;
+  }
+  .celestial-copy-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .celestial-title {
+    font-size: 14px;
+  }
+  .celestial-subtitle {
+    font-size: 7px;
+    letter-spacing: 1.8px;
+  }
+}
+@media (max-width: 430px) {
+  .legendary-celestial-checkbox {
+    min-width: 225px;
+    gap: 8px;
+    padding: 10px;
+  }
+  .celestial-stage {
+    flex-basis: 76px;
+    width: 76px;
+    height: 68px;
+    border-radius: 15px;
+  }
+  .celestial-copy-icon {
+    width: 27px;
+    height: 27px;
+    border-radius: 9px;
+  }
+  .celestial-copy-icon i {
+    font-size: 15px;
+  }
+  .celestial-title {
+    font-size: 12px;
+  }
+  .celestial-subtitle {
+    font-size: 6px;
+    letter-spacing: 1.4px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .legendary-celestial-checkbox,
+  .legendary-celestial-checkbox *,
+  .legendary-celestial-checkbox::before,
+  .legendary-celestial-checkbox::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+.quantum-reactor-checkbox {
+  --qr-cyan: #67fff1;
+  --qr-aqua: #36dfff;
+  --qr-blue: #4389ff;
+  --qr-violet: #855cff;
+  --qr-pink: #dc60ff;
+  --qr-white: #f7ffff;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  width: 390px;
+  min-height: 126px;
+  padding: 13px 20px 13px 13px;
+  border: 1px solid rgba(88, 213, 255, 0.2);
+  border-radius: 25px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.035), transparent 28%),
+    linear-gradient(325deg, rgba(57, 81, 255, 0.045), transparent 50%),
+    rgba(3, 8, 17, 0.96);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 13px 36px rgba(0, 0, 0, 0.34),
+    0 0 30px rgba(61, 159, 255, 0.06);
+  overflow: hidden;
+  isolation: isolate;
+  cursor: pointer;
+  user-select: none;
+  transform: translateZ(0);
+  transition:
+    transform 0.45s cubic-bezier(0.18, 0.82, 0.2, 1),
+    border-color 0.45s ease,
+    box-shadow 0.45s ease,
+    background 0.45s ease;
+}
+.quantum-reactor-checkbox:hover {
+  transform: translateY(-5px) scale(1.012);
+  border-color: rgba(108, 237, 255, 0.48);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.075),
+    0 17px 45px rgba(0, 0, 0, 0.4),
+    0 0 42px rgba(54, 212, 255, 0.12),
+    0 0 80px rgba(124, 75, 255, 0.06);
+}
+.quantum-reactor-checkbox:active {
+  transform: translateY(-1px) scale(0.995);
+}
+.quantum-reactor-checkbox:focus-within {
+  border-color: rgba(151, 245, 255, 0.65);
+  box-shadow:
+    0 0 0 3px rgba(69, 210, 255, 0.11),
+    0 0 0 7px rgba(69, 210, 255, 0.045),
+    0 0 45px rgba(66, 211, 255, 0.18);
+}
+.quantum-reactor-checkbox input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+.quantum-reactor-main {
+  position: relative;
+  flex: 0 0 154px;
+  width: 154px;
+  height: 100px;
+  border-radius: 20px;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(70, 223, 255, 0.085),
+      transparent 27%
+    ),
+    linear-gradient(145deg, #071523, #020711 72%);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.035),
+    inset 0 0 35px rgba(49, 196, 255, 0.04);
+  isolation: isolate;
+}
+.quantum-reactor-main::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 38;
+  border-radius: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.035);
+  pointer-events: none;
+}
+.quantum-reactor-main::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 39;
+  background: linear-gradient(
+    115deg,
+    transparent,
+    rgba(255, 255, 255, 0.025) 47%,
+    transparent 53%
+  );
+  background-size: 220% 100%;
+  animation: qrPanelSweep2682 7s linear infinite;
+  pointer-events: none;
+}
+.quantum-reactor-background {
+  position: absolute;
+  inset: -30%;
+  z-index: -6;
+  background:
+    radial-gradient(
+      circle at 30% 40%,
+      rgba(53, 235, 255, 0.16),
+      transparent 22%
+    ),
+    radial-gradient(
+      circle at 70% 64%,
+      rgba(102, 75, 255, 0.15),
+      transparent 25%
+    ),
+    conic-gradient(
+      from 0deg,
+      rgba(42, 144, 255, 0.04),
+      rgba(82, 255, 227, 0.08),
+      rgba(137, 76, 255, 0.08),
+      rgba(220, 92, 255, 0.04),
+      rgba(42, 144, 255, 0.04)
+    );
+  filter: blur(13px);
+  animation: qrBackground2682 18s linear infinite;
+}
+.quantum-reactor-noise {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  opacity: 0.12;
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.4) 0.5px,
+    transparent 0.7px
+  );
+  background-size: 7px 7px;
+  mix-blend-mode: screen;
+  animation: qrNoise2682 0.18s steps(2) infinite;
+}
+.quantum-reactor-grid {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  background-image:
+    linear-gradient(rgba(83, 230, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(83, 230, 255, 0.035) 1px, transparent 1px);
+  background-size: 16px 16px;
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    #000 20%,
+    #000 80%,
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    #000 20%,
+    #000 80%,
+    transparent
+  );
+  animation: qrGrid2682 8s linear infinite;
+  pointer-events: none;
+}
+.quantum-reactor-grid-2 {
+  background-size: 37px 37px;
+  background-image:
+    linear-gradient(rgba(115, 96, 255, 0.024) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(115, 96, 255, 0.024) 1px, transparent 1px);
+  animation-duration: 13s;
+  animation-direction: reverse;
+}
+.quantum-reactor-vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  background: radial-gradient(
+    circle,
+    transparent 30%,
+    rgba(0, 0, 0, 0.28) 100%
+  );
+  pointer-events: none;
+}
+.quantum-reactor-frame {
+  position: absolute;
+  inset: 8px;
+  z-index: 12;
+  border: 1px solid rgba(77, 212, 255, 0.08);
+  border-radius: 16px;
+  pointer-events: none;
+}
+.quantum-frame-line {
+  position: absolute;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(78, 240, 227, 0.5),
+    transparent
+  );
+}
+.quantum-frame-line-1 {
+  left: 12px;
+  right: 12px;
+  top: 0;
+  height: 1px;
+  animation: qrFrameLineTop2682 4s linear infinite;
+}
+.quantum-frame-line-2 {
+  left: 12px;
+  right: 12px;
+  bottom: 0;
+  height: 1px;
+  animation: qrFrameLineBottom2682 4.7s linear infinite;
+}
+.quantum-frame-line-3 {
+  top: 12px;
+  bottom: 12px;
+  left: 0;
+  width: 1px;
+  transform: rotate(180deg);
+  animation: qrFrameLineLeft2682 4.4s linear infinite;
+}
+.quantum-frame-line-4 {
+  top: 12px;
+  bottom: 12px;
+  right: 0;
+  width: 1px;
+  transform: rotate(180deg);
+  animation: qrFrameLineRight2682 5s linear infinite;
+}
+.quantum-frame-corner {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-color: rgba(105, 236, 255, 0.5);
+}
+.quantum-frame-corner-1 {
+  left: -1px;
+  top: -1px;
+  border-left: 2px solid;
+  border-top: 2px solid;
+}
+.quantum-frame-corner-2 {
+  right: -1px;
+  top: -1px;
+  border-right: 2px solid;
+  border-top: 2px solid;
+}
+.quantum-frame-corner-3 {
+  left: -1px;
+  bottom: -1px;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+}
+.quantum-frame-corner-4 {
+  right: -1px;
+  bottom: -1px;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+}
+.quantum-reactor-hex {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 108px;
+  height: 94px;
+  transform: translate(-50%, -50%);
+  clip-path: polygon(25% 4%, 75% 4%, 98% 50%, 75% 96%, 25% 96%, 2% 50%);
+  border: 1px solid rgba(94, 219, 255, 0.1);
+  background: linear-gradient(
+    145deg,
+    rgba(57, 224, 255, 0.035),
+    rgba(115, 82, 255, 0.035)
+  );
+  pointer-events: none;
+}
+.quantum-reactor-hex-1 {
+  width: 109px;
+  height: 95px;
+  animation: qrHexOne2682 8s linear infinite;
+}
+.quantum-reactor-hex-2 {
+  width: 92px;
+  height: 80px;
+  transform: translate(-50%, -50%) rotate(30deg);
+  border-color: rgba(116, 103, 255, 0.08);
+  animation: qrHexTwo2682 10s linear infinite reverse;
+}
+.quantum-reactor-hex-3 {
+  width: 132px;
+  height: 113px;
+  transform: translate(-50%, -50%) rotate(15deg);
+  border-color: rgba(59, 238, 228, 0.055);
+  animation: qrHexThree2682 14s linear infinite;
+}
+.quantum-reactor-hex-4 {
+  width: 77px;
+  height: 68px;
+  transform: translate(-50%, -50%) rotate(-25deg);
+  border-color: rgba(224, 95, 255, 0.06);
+  animation: qrHexFour2682 6.7s linear infinite reverse;
+}
+.quantum-reactor-ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.quantum-reactor-ring-1 {
+  width: 35px;
+  height: 35px;
+  border: 1px solid rgba(210, 255, 250, 0.18);
+  animation: qrRingOne2682 3s ease-in-out infinite;
+}
+.quantum-reactor-ring-2 {
+  width: 51px;
+  height: 51px;
+  border: 1px solid rgba(83, 248, 228, 0.13);
+  animation: qrRingTwo2682 5s linear infinite;
+}
+.quantum-reactor-ring-3 {
+  width: 69px;
+  height: 69px;
+  border: 1px solid rgba(71, 207, 255, 0.1);
+  animation: qrRingThree2682 7s linear infinite reverse;
+}
+.quantum-reactor-ring-4 {
+  width: 86px;
+  height: 86px;
+  border: 1px dashed rgba(111, 101, 255, 0.09);
+  animation: qrRingFour2682 9s linear infinite;
+}
+.quantum-reactor-ring-5 {
+  width: 111px;
+  height: 111px;
+  border: 1px solid rgba(93, 240, 231, 0.055);
+  animation: qrRingFive2682 12s linear infinite reverse;
+}
+.quantum-reactor-ring-6 {
+  width: 139px;
+  height: 139px;
+  border: 1px solid rgba(88, 111, 255, 0.045);
+  animation: qrRingSix2682 16s linear infinite;
+}
+.quantum-reactor-orbit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 1px solid rgba(100, 235, 255, 0.09);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.quantum-reactor-orbit-1 {
+  width: 104px;
+  height: 34px;
+  transform: translate(-50%, -50%) rotate(20deg);
+  animation: qrOrbitOne2682 6s linear infinite;
+}
+.quantum-reactor-orbit-2 {
+  width: 122px;
+  height: 44px;
+  transform: translate(-50%, -50%) rotate(-32deg);
+  border-color: rgba(124, 90, 255, 0.07);
+  animation: qrOrbitTwo2682 8s linear infinite reverse;
+}
+.quantum-reactor-orbit-3 {
+  width: 139px;
+  height: 59px;
+  transform: translate(-50%, -50%) rotate(63deg);
+  border-color: rgba(64, 245, 220, 0.06);
+  animation: qrOrbitThree2682 11s linear infinite;
+}
+.quantum-reactor-orbit-dot {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #dcfffa;
+  box-shadow:
+    0 0 5px rgba(255, 255, 255, 0.9),
+    0 0 13px rgba(71, 243, 224, 0.85);
+  z-index: 17;
+}
+.quantum-reactor-orbit-dot-1 {
+  left: 29px;
+  top: 31px;
+  animation: qrOrbitDotOne2682 4.4s linear infinite;
+}
+.quantum-reactor-orbit-dot-2 {
+  right: 28px;
+  top: 27px;
+  animation: qrOrbitDotTwo2682 5.3s linear infinite reverse;
+}
+.quantum-reactor-orbit-dot-3 {
+  left: 42px;
+  bottom: 23px;
+  animation: qrOrbitDotThree2682 4.9s linear infinite;
+}
+.quantum-reactor-orbit-dot-4 {
+  right: 42px;
+  bottom: 21px;
+  animation: qrOrbitDotFour2682 5.8s linear infinite reverse;
+}
+.quantum-reactor-orbit-dot-5 {
+  left: 77px;
+  top: 12px;
+  width: 3px;
+  height: 3px;
+  animation: qrOrbitDotFive2682 3.8s linear infinite;
+}
+.quantum-reactor-orbit-dot-6 {
+  right: 77px;
+  bottom: 11px;
+  width: 3px;
+  height: 3px;
+  animation: qrOrbitDotSix2682 4.6s linear infinite reverse;
+}
+.quantum-reactor-pulse {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(86, 255, 232, 0.25);
+  pointer-events: none;
+}
+.quantum-reactor-pulse-1 {
+  animation: qrPulseOne2682 2.7s ease-out infinite;
+}
+.quantum-reactor-pulse-2 {
+  animation: qrPulseTwo2682 2.7s ease-out 0.9s infinite;
+}
+.quantum-reactor-pulse-3 {
+  animation: qrPulseThree2682 2.7s ease-out 1.8s infinite;
+}
+.quantum-reactor-pulse-4 {
+  animation: qrPulseFour2682 3.8s ease-out 2.4s infinite;
+}
+.quantum-reactor-energy {
+  position: absolute;
+  height: 1px;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(178, 255, 246, 0.18),
+    rgba(78, 255, 229, 0.8),
+    rgba(92, 167, 255, 0.18),
+    transparent
+  );
+  filter: blur(0.25px);
+  z-index: 18;
+  pointer-events: none;
+}
+.quantum-reactor-energy-1 {
+  left: 1px;
+  top: 19px;
+  width: 41px;
+  transform: rotate(16deg);
+  animation: qrEnergyOne2682 4s ease-in-out infinite;
+}
+.quantum-reactor-energy-2 {
+  right: 1px;
+  top: 24px;
+  width: 42px;
+  transform: rotate(-17deg);
+  animation: qrEnergyTwo2682 4.6s ease-in-out infinite;
+}
+.quantum-reactor-energy-3 {
+  left: 3px;
+  bottom: 23px;
+  width: 43px;
+  transform: rotate(-12deg);
+  animation: qrEnergyThree2682 4.4s ease-in-out infinite;
+}
+.quantum-reactor-energy-4 {
+  right: 3px;
+  bottom: 20px;
+  width: 40px;
+  transform: rotate(14deg);
+  animation: qrEnergyFour2682 5s ease-in-out infinite;
+}
+.quantum-reactor-energy-5 {
+  left: 28px;
+  top: 5px;
+  width: 28px;
+  transform: rotate(40deg);
+  animation: qrEnergyFive2682 4.8s ease-in-out infinite;
+}
+.quantum-reactor-energy-6 {
+  right: 28px;
+  bottom: 5px;
+  width: 31px;
+  transform: rotate(-42deg);
+  animation: qrEnergySix2682 4.1s ease-in-out infinite;
+}
+.quantum-reactor-energy-7 {
+  left: 16px;
+  top: 45px;
+  width: 27px;
+  transform: rotate(-90deg);
+  animation: qrEnergySeven2682 5.4s ease-in-out infinite;
+}
+.quantum-reactor-energy-8 {
+  right: 17px;
+  top: 53px;
+  width: 30px;
+  transform: rotate(90deg);
+  animation: qrEnergyEight2682 4.9s ease-in-out infinite;
+}
+.quantum-reactor-energy-9 {
+  left: 53px;
+  top: 1px;
+  width: 21px;
+  transform: rotate(4deg);
+  animation: qrEnergyNine2682 3.9s ease-in-out infinite;
+}
+.quantum-reactor-energy-10 {
+  right: 53px;
+  bottom: 1px;
+  width: 22px;
+  transform: rotate(-5deg);
+  animation: qrEnergyTen2682 4.7s ease-in-out infinite;
+}
+.quantum-reactor-energy-11 {
+  left: 5px;
+  top: 69px;
+  width: 24px;
+  transform: rotate(31deg);
+  animation: qrEnergyEleven2682 4.2s ease-in-out infinite;
+}
+.quantum-reactor-energy-12 {
+  right: 5px;
+  top: 70px;
+  width: 23px;
+  transform: rotate(-30deg);
+  animation: qrEnergyTwelve2682 5.1s ease-in-out infinite;
+}
+.quantum-reactor-particle {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #efffff;
+  box-shadow:
+    0 0 5px rgba(238, 255, 255, 0.95),
+    0 0 12px rgba(65, 239, 224, 0.8),
+    0 0 22px rgba(81, 120, 255, 0.3);
+  z-index: 20;
+  pointer-events: none;
+}
+.quantum-reactor-particle-1 {
+  left: 9px;
+  top: 12px;
+  animation: qrParticleOne2682 4.1s ease-in-out infinite;
+}
+.quantum-reactor-particle-2 {
+  left: 24px;
+  top: 55px;
+  animation: qrParticleTwo2682 5.2s ease-in-out infinite;
+}
+.quantum-reactor-particle-3 {
+  left: 38px;
+  top: 7px;
+  animation: qrParticleThree2682 4.7s ease-in-out infinite;
+}
+.quantum-reactor-particle-4 {
+  left: 53px;
+  top: 81px;
+  animation: qrParticleFour2682 4.5s ease-in-out infinite;
+}
+.quantum-reactor-particle-5 {
+  left: 67px;
+  top: 18px;
+  animation: qrParticleFive2682 5.5s ease-in-out infinite;
+}
+.quantum-reactor-particle-6 {
+  left: 82px;
+  top: 68px;
+  animation: qrParticleSix2682 4.4s ease-in-out infinite;
+}
+.quantum-reactor-particle-7 {
+  left: 95px;
+  top: 12px;
+  animation: qrParticleSeven2682 5.1s ease-in-out infinite;
+}
+.quantum-reactor-particle-8 {
+  left: 111px;
+  top: 82px;
+  animation: qrParticleEight2682 4.8s ease-in-out infinite;
+}
+.quantum-reactor-particle-9 {
+  left: 127px;
+  top: 27px;
+  animation: qrParticleNine2682 3.9s ease-in-out infinite;
+}
+.quantum-reactor-particle-10 {
+  right: 10px;
+  top: 44px;
+  animation: qrParticleTen2682 4.6s ease-in-out infinite;
+}
+.quantum-reactor-particle-11 {
+  right: 24px;
+  top: 8px;
+  animation: qrParticleEleven2682 5.3s ease-in-out infinite;
+}
+.quantum-reactor-particle-12 {
+  right: 38px;
+  top: 72px;
+  animation: qrParticleTwelve2682 4.2s ease-in-out infinite;
+}
+.quantum-reactor-particle-13 {
+  right: 52px;
+  top: 17px;
+  animation: qrParticleThirteen2682 5s ease-in-out infinite;
+}
+.quantum-reactor-particle-14 {
+  right: 66px;
+  bottom: 9px;
+  animation: qrParticleFourteen2682 4.8s ease-in-out infinite;
+}
+.quantum-reactor-particle-15 {
+  right: 81px;
+  top: 83px;
+  animation: qrParticleFifteen2682 4.1s ease-in-out infinite;
+}
+.quantum-reactor-particle-16 {
+  right: 96px;
+  top: 32px;
+  animation: qrParticleSixteen2682 5.4s ease-in-out infinite;
+}
+.quantum-reactor-particle-17 {
+  left: 16px;
+  bottom: 9px;
+  animation: qrParticleSeventeen2682 4.3s ease-in-out infinite;
+}
+.quantum-reactor-particle-18 {
+  left: 72px;
+  bottom: 6px;
+  animation: qrParticleEighteen2682 5.1s ease-in-out infinite;
+}
+.quantum-reactor-particle-19 {
+  left: 103px;
+  bottom: 19px;
+  animation: qrParticleNineteen2682 4.4s ease-in-out infinite;
+}
+.quantum-reactor-particle-20 {
+  right: 15px;
+  bottom: 20px;
+  animation: qrParticleTwenty2682 5.6s ease-in-out infinite;
+}
+.quantum-reactor-spark {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  z-index: 23;
+  pointer-events: none;
+}
+.quantum-reactor-spark::before,
+.quantum-reactor-spark::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #efffff;
+  border-radius: 999px;
+  box-shadow:
+    0 0 5px rgba(255, 255, 255, 0.95),
+    0 0 13px rgba(80, 255, 228, 0.8),
+    0 0 23px rgba(93, 112, 255, 0.35);
+}
+.quantum-reactor-spark::before {
+  width: 2px;
+  height: 12px;
+}
+.quantum-reactor-spark::after {
+  width: 12px;
+  height: 2px;
+}
+.quantum-reactor-spark-1 {
+  left: 19px;
+  top: 37px;
+  animation: qrSparkOne2682 2.6s ease-in-out infinite;
+}
+.quantum-reactor-spark-2 {
+  left: 39px;
+  bottom: 19px;
+  animation: qrSparkTwo2682 3.1s ease-in-out infinite 0.3s;
+}
+.quantum-reactor-spark-3 {
+  left: 60px;
+  top: 26px;
+  animation: qrSparkThree2682 2.8s ease-in-out infinite 0.6s;
+}
+.quantum-reactor-spark-4 {
+  right: 20px;
+  top: 32px;
+  animation: qrSparkFour2682 3.4s ease-in-out infinite 0.2s;
+}
+.quantum-reactor-spark-5 {
+  right: 43px;
+  bottom: 20px;
+  animation: qrSparkFive2682 2.7s ease-in-out infinite 0.5s;
+}
+.quantum-reactor-spark-6 {
+  left: 84px;
+  top: 76px;
+  animation: qrSparkSix2682 3.2s ease-in-out infinite 0.8s;
+}
+.quantum-reactor-spark-7 {
+  left: 111px;
+  top: 40px;
+  animation: qrSparkSeven2682 2.9s ease-in-out infinite 0.4s;
+}
+.quantum-reactor-spark-8 {
+  right: 75px;
+  bottom: 36px;
+  animation: qrSparkEight2682 3.5s ease-in-out infinite 0.7s;
+}
+.quantum-reactor-reactor {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 67px;
+  height: 67px;
+  transform: translate(-50%, -50%);
+  z-index: 25;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.quantum-reactor-reactor-halo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 96px;
+  height: 96px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(61, 255, 223, 0.18),
+    rgba(64, 199, 255, 0.07) 43%,
+    rgba(116, 68, 255, 0.035) 60%,
+    transparent 75%
+  );
+  filter: blur(7px);
+  animation: qrHalo2682 3.2s ease-in-out infinite;
+}
+.quantum-reactor-reactor-shell {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 1px solid rgba(137, 255, 247, 0.23);
+  box-shadow:
+    0 0 12px rgba(62, 246, 222, 0.11),
+    inset 0 0 13px rgba(61, 246, 222, 0.06);
+  animation: qrShell2682 5s linear infinite;
+}
+.quantum-reactor-reactor-shell-2 {
+  width: 51px;
+  height: 51px;
+  border-color: rgba(65, 190, 255, 0.14);
+  animation: qrShellTwo2682 3.8s linear infinite reverse;
+}
+.quantum-reactor-reactor-shell-3 {
+  width: 43px;
+  height: 43px;
+  border-color: rgba(124, 93, 255, 0.13);
+  border-style: dashed;
+  animation: qrShellThree2682 6.5s linear infinite;
+}
+.quantum-reactor-reactor-core {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 39px;
+  height: 39px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 37% 31%,
+    #fff 0%,
+    #dffff9 11%,
+    #6affea 27%,
+    #31d9df 43%,
+    #456bff 62%,
+    transparent 79%
+  );
+  box-shadow:
+    0 0 8px rgba(241, 255, 252, 0.95),
+    0 0 17px rgba(79, 255, 227, 0.85),
+    0 0 32px rgba(42, 198, 225, 0.6),
+    0 0 51px rgba(100, 86, 255, 0.3);
+  animation: qrCore2682 2.3s ease-in-out infinite;
+}
+.quantum-reactor-reactor-core-2 {
+  width: 24px;
+  height: 24px;
+  background: radial-gradient(
+    circle,
+    #fff 0%,
+    #e5fffb 24%,
+    #7dfff0 52%,
+    transparent 79%
+  );
+  box-shadow:
+    0 0 7px #fff,
+    0 0 15px rgba(105, 255, 230, 0.98),
+    0 0 25px rgba(46, 212, 232, 0.65);
+  animation: qrCoreTwo2682 1.6s ease-in-out infinite;
+}
+.quantum-reactor-reactor-light {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: #fff;
+  box-shadow:
+    0 0 5px #fff,
+    0 0 14px #a4fff4,
+    0 0 25px #40ffe4;
+  animation: qrLight2682 1.1s ease-in-out infinite;
+}
+.quantum-reactor-check {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%) scale(0.25) rotate(-35deg);
+  opacity: 0;
+  color: #fff;
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.95))
+    drop-shadow(0 0 14px rgba(74, 255, 230, 0.85));
+  transition:
+    opacity 0.2s ease,
+    transform 0.65s cubic-bezier(0.18, 0.92, 0.2, 1);
+}
+.quantum-reactor-check i {
+  font-size: 26px;
+  font-weight: 900;
+}
+.quantum-reactor-beam {
+  position: absolute;
+  z-index: 21;
+  pointer-events: none;
+  border-radius: 999px;
+}
+.quantum-reactor-beam-1 {
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  transform: translateY(-50%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(76, 255, 227, 0.05),
+    rgba(188, 255, 249, 0.75),
+    rgba(95, 159, 255, 0.06),
+    transparent
+  );
+  filter: blur(1px);
+  animation: qrBeamOne2682 3.7s ease-in-out infinite;
+}
+.quantum-reactor-beam-2 {
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(77, 222, 255, 0.04),
+    rgba(107, 255, 234, 0.65),
+    rgba(108, 104, 255, 0.05),
+    transparent
+  );
+  filter: blur(1px);
+  animation: qrBeamTwo2682 4.3s ease-in-out infinite;
+}
+.quantum-reactor-beam-3 {
+  left: 18px;
+  right: 18px;
+  top: 50%;
+  height: 1px;
+  transform: translateY(-50%) rotate(45deg);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(106, 245, 255, 0.18),
+    rgba(255, 255, 255, 0.46),
+    rgba(128, 95, 255, 0.1),
+    transparent
+  );
+  filter: blur(2px);
+  animation: qrBeamThree2682 5.4s ease-in-out infinite;
+}
+.quantum-reactor-beam-4 {
+  left: 18px;
+  right: 18px;
+  top: 50%;
+  height: 1px;
+  transform: translateY(-50%) rotate(-45deg);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(131, 100, 255, 0.08),
+    rgba(255, 255, 255, 0.36),
+    rgba(96, 244, 225, 0.1),
+    transparent
+  );
+  filter: blur(2px);
+  animation: qrBeamFour2682 5.7s ease-in-out infinite reverse;
+}
+.quantum-reactor-ray {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 6;
+}
+.quantum-reactor-ray-1 {
+  width: 138px;
+  height: 138px;
+  background: repeating-conic-gradient(
+    from 0deg,
+    rgba(82, 255, 232, 0.045) 0deg,
+    rgba(82, 255, 232, 0.045) 1deg,
+    transparent 1deg,
+    transparent 24deg
+  );
+  mask-image: radial-gradient(
+    circle,
+    transparent 0 25%,
+    #000 51%,
+    transparent 76%
+  );
+  -webkit-mask-image: radial-gradient(
+    circle,
+    transparent 0 25%,
+    #000 51%,
+    transparent 76%
+  );
+  animation: qrRayOne2682 16s linear infinite;
+}
+.quantum-reactor-ray-2 {
+  width: 157px;
+  height: 157px;
+  background: repeating-conic-gradient(
+    from 8deg,
+    rgba(83, 125, 255, 0.04) 0deg,
+    rgba(83, 125, 255, 0.04) 2deg,
+    transparent 2deg,
+    transparent 34deg
+  );
+  mask-image: radial-gradient(
+    circle,
+    transparent 0 30%,
+    #000 51%,
+    transparent 77%
+  );
+  -webkit-mask-image: radial-gradient(
+    circle,
+    transparent 0 30%,
+    #000 51%,
+    transparent 77%
+  );
+  animation: qrRayTwo2682 21s linear infinite reverse;
+}
+.quantum-reactor-ray-3 {
+  width: 181px;
+  height: 181px;
+  background: repeating-conic-gradient(
+    from 15deg,
+    rgba(229, 94, 255, 0.025) 0deg,
+    rgba(229, 94, 255, 0.025) 2deg,
+    transparent 2deg,
+    transparent 47deg
+  );
+  mask-image: radial-gradient(
+    circle,
+    transparent 0 39%,
+    #000 54%,
+    transparent 77%
+  );
+  -webkit-mask-image: radial-gradient(
+    circle,
+    transparent 0 39%,
+    #000 54%,
+    transparent 77%
+  );
+  animation: qrRayThree2682 27s linear infinite;
+}
+.quantum-reactor-ray-4 {
+  width: 109px;
+  height: 109px;
+  background: repeating-conic-gradient(
+    from 22deg,
+    rgba(227, 255, 248, 0.05) 0deg,
+    rgba(227, 255, 248, 0.05) 1deg,
+    transparent 1deg,
+    transparent 18deg
+  );
+  mask-image: radial-gradient(
+    circle,
+    transparent 0 25%,
+    #000 48%,
+    transparent 70%
+  );
+  -webkit-mask-image: radial-gradient(
+    circle,
+    transparent 0 25%,
+    #000 48%,
+    transparent 70%
+  );
+  animation: qrRayFour2682 11s linear infinite reverse;
+}
+.quantum-reactor-scan {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  height: 1px;
+  z-index: 30;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(89, 251, 231, 0.05),
+    rgba(232, 255, 251, 0.6),
+    rgba(90, 191, 255, 0.16),
+    transparent
+  );
+  box-shadow: 0 0 7px rgba(74, 238, 220, 0.22);
+}
+.quantum-reactor-scan-1 {
+  top: -10%;
+  animation: qrScanOne2682 4.5s ease-in-out infinite;
+}
+.quantum-reactor-scan-2 {
+  bottom: -10%;
+  opacity: 0.3;
+  animation: qrScanTwo2682 6s ease-in-out infinite reverse;
+}
+.quantum-reactor-shine {
+  position: absolute;
+  top: -60%;
+  left: -80%;
+  width: 35%;
+  height: 220%;
+  z-index: 35;
+  transform: rotate(22deg);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.02) 24%,
+    rgba(227, 255, 252, 0.45) 48%,
+    rgba(255, 255, 255, 0.07) 61%,
+    transparent
+  );
+  filter: blur(1px);
+  animation: qrShine2682 5.3s cubic-bezier(0.18, 0.72, 0.2, 1) infinite;
+  pointer-events: none;
+}
+.quantum-reactor-glitch {
+  position: absolute;
+  z-index: 26;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+.quantum-reactor-glitch-1 {
+  left: 17px;
+  top: 17px;
+  width: 29px;
+  height: 1px;
+  background: #54ffe4;
+  box-shadow:
+    7px 4px 0 rgba(81, 139, 255, 0.55),
+    -5px 7px 0 rgba(220, 81, 255, 0.3);
+  animation: qrGlitchOne2682 3.8s steps(6) infinite;
+}
+.quantum-reactor-glitch-2 {
+  right: 12px;
+  bottom: 18px;
+  width: 32px;
+  height: 1px;
+  background: #62cfff;
+  box-shadow:
+    -7px -4px 0 rgba(127, 89, 255, 0.4),
+    6px -7px 0 rgba(63, 255, 219, 0.25);
+  animation: qrGlitchTwo2682 4.4s steps(7) infinite;
+}
+.quantum-reactor-status {
+  position: absolute;
+  z-index: 29;
+  width: 7px;
+  height: 7px;
+  border: 1px solid rgba(103, 245, 231, 0.3);
+  background: rgba(82, 255, 229, 0.08);
+  box-shadow: 0 0 7px rgba(71, 255, 228, 0.2);
+  pointer-events: none;
+}
+.quantum-reactor-status-1 {
+  left: 12px;
+  top: 12px;
+  animation: qrStatusOne2682 2.1s ease-in-out infinite;
+}
+.quantum-reactor-status-2 {
+  right: 12px;
+  top: 12px;
+  animation: qrStatusTwo2682 2.7s ease-in-out infinite;
+}
+.quantum-reactor-status-3 {
+  right: 12px;
+  bottom: 12px;
+  animation: qrStatusThree2682 2.4s ease-in-out infinite;
+}
+.quantum-reactor-border {
+  position: absolute;
+  inset: 1px;
+  z-index: 37;
+  border-radius: 20px;
+  padding: 1px;
+  background: conic-gradient(
+    from 0deg,
+    rgba(78, 255, 228, 0.6),
+    rgba(70, 189, 255, 0.35),
+    rgba(122, 83, 255, 0.45),
+    rgba(221, 91, 255, 0.3),
+    rgba(78, 255, 228, 0.6)
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  animation: qrBorder2682 5s linear infinite;
+  pointer-events: none;
+}
+.quantum-reactor-label {
+  position: relative;
+  z-index: 8;
+  display: flex;
+  align-items: center;
+  min-width: 180px;
+  gap: 11px;
+}
+.quantum-reactor-label-icon {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 38px;
+  border: 1px solid rgba(81, 239, 230, 0.16);
+  border-radius: 12px;
+  background: linear-gradient(
+    145deg,
+    rgba(81, 240, 225, 0.1),
+    rgba(101, 77, 255, 0.08)
+  );
+  color: #dffffb;
+  box-shadow:
+    inset 0 0 14px rgba(79, 237, 222, 0.05),
+    0 0 16px rgba(64, 196, 255, 0.06);
+}
+.quantum-reactor-label-icon i {
+  font-size: 19px;
+  text-shadow:
+    0 0 7px rgba(255, 255, 255, 0.85),
+    0 0 14px rgba(81, 246, 229, 0.62);
+  animation: qrLabelIcon2682 2.7s ease-in-out infinite;
+}
+.quantum-reactor-label-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.quantum-reactor-title {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 0.15px;
+  color: #f5ffff;
+}
+.quantum-reactor-subtitle {
+  font-size: 7.5px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.85px;
+  color: rgba(171, 231, 255, 0.5);
+}
+.quantum-reactor-indicator {
+  width: 6px;
+  height: 6px;
+  margin-left: auto;
+  border-radius: 50%;
+  background: #4effdc;
+  box-shadow:
+    0 0 6px #4effdc,
+    0 0 14px rgba(78, 255, 220, 0.6);
+  animation: qrIndicator2682 1.8s ease-in-out infinite;
+}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main {
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.045),
+    inset 0 0 35px rgba(74, 248, 226, 0.09),
+    0 0 28px rgba(65, 243, 224, 0.12);
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-background {
+  animation-duration: 7s;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-ring-1 {
+  animation-duration: 1.6s;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-ring-2 {
+  animation-duration: 2.7s;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-ring-3 {
+  animation-duration: 4s;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-ring-4 {
+  animation-duration: 5.2s;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-orbit {
+  border-color: rgba(112, 255, 237, 0.26);
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-particle {
+  animation-duration: 2.2s;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-pulse {
+  border-color: rgba(104, 255, 237, 0.42);
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-reactor-core {
+  animation-duration: 1.35s;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-reactor-core-2 {
+  animation-duration: 0.95s;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-reactor-light {
+  animation-duration: 0.7s;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-check {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1) rotate(0deg);
+  transition-delay: 0.05s;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-reactor-core {
+  opacity: 0.16;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-reactor-core-2 {
+  opacity: 0.12;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-reactor-light {
+  opacity: 0.12;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-border {
+  animation-duration: 2.1s;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-scan-1 {
+  animation-duration: 2.4s;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-shine {
+  animation-duration: 2.8s;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-beam {
+  animation-duration: 2.1s;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-spark {
+  animation-duration: 1.7s;
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-hex-1 {
+  border-color: rgba(110, 255, 237, 0.24);
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-hex-2 {
+  border-color: rgba(113, 221, 255, 0.17);
+}
+.quantum-reactor-checkbox
+  input:checked
+  + .quantum-reactor-main
+  .quantum-reactor-hex-3 {
+  border-color: rgba(114, 92, 255, 0.13);
+}
+.quantum-reactor-checkbox
+  input:checked
+  ~ .quantum-reactor-label
+  .quantum-reactor-label-icon {
+  border-color: rgba(102, 255, 237, 0.35);
+  background: linear-gradient(
+    145deg,
+    rgba(89, 255, 229, 0.15),
+    rgba(97, 90, 255, 0.11)
+  );
+  box-shadow:
+    inset 0 0 15px rgba(79, 240, 223, 0.08),
+    0 0 18px rgba(68, 214, 255, 0.12);
+}
+.quantum-reactor-checkbox
+  input:checked
+  ~ .quantum-reactor-label
+  .quantum-reactor-indicator {
+  background: #77fff0;
+  box-shadow:
+    0 0 8px #77fff0,
+    0 0 19px rgba(79, 255, 228, 0.82);
+  animation-duration: 0.9s;
+}
+@keyframes qrPanelSweep2682 {
+  0% {
+    background-position: -120% 0;
+  }
+  42% {
+    background-position: 120% 0;
+  }
+  100% {
+    background-position: 120% 0;
+  }
+}
+@keyframes qrBackground2682 {
+  0% {
+    transform: rotate(0deg) scale(1);
+    opacity: 0.55;
+  }
+  50% {
+    transform: rotate(180deg) scale(1.06);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+    opacity: 0.55;
+  }
+}
+@keyframes qrNoise2682 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(1px, -1px);
+  }
+  50% {
+    transform: translate(-1px, 1px);
+  }
+  75% {
+    transform: translate(1px, 1px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes qrGrid2682 {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+    opacity: 0.22;
+  }
+  50% {
+    background-position:
+      0 8px,
+      8px 0;
+    opacity: 0.42;
+  }
+  100% {
+    background-position:
+      0 16px,
+      16px 0;
+    opacity: 0.22;
+  }
+}
+@keyframes qrFrameLineTop2682 {
+  0% {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(120px);
+    opacity: 0;
+  }
+}
+@keyframes qrFrameLineBottom2682 {
+  0% {
+    transform: translateX(120px);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+}
+@keyframes qrFrameLineLeft2682 {
+  0% {
+    transform: rotate(180deg) translateY(-25px);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(180deg) translateY(60px);
+    opacity: 0;
+  }
+}
+@keyframes qrFrameLineRight2682 {
+  0% {
+    transform: rotate(180deg) translateY(60px);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(180deg) translateY(-25px);
+    opacity: 0;
+  }
+}
+@keyframes qrHexOne2682 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.96);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.04);
+    opacity: 0.32;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(0.96);
+    opacity: 0.1;
+  }
+}
+@keyframes qrHexTwo2682 {
+  0% {
+    transform: translate(-50%, -50%) rotate(30deg) scale(0.94);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(210deg) scale(1.06);
+    opacity: 0.25;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(390deg) scale(0.94);
+    opacity: 0.08;
+  }
+}
+@keyframes qrHexThree2682 {
+  0% {
+    transform: translate(-50%, -50%) rotate(15deg) scale(0.92);
+    opacity: 0.05;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(195deg) scale(1.03);
+    opacity: 0.17;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(375deg) scale(0.92);
+    opacity: 0.05;
+  }
+}
+@keyframes qrHexFour2682 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-25deg) scale(0.9);
+    opacity: 0.05;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(155deg) scale(1.06);
+    opacity: 0.18;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(335deg) scale(0.9);
+    opacity: 0.05;
+  }
+}
+@keyframes qrRingOne2682 {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(0.75);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.25);
+    opacity: 0.85;
+  }
+}
+@keyframes qrRingTwo2682 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.92);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.05);
+    opacity: 0.32;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(0.92);
+    opacity: 0.08;
+  }
+}
+@keyframes qrRingThree2682 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.9);
+    opacity: 0.07;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.05);
+    opacity: 0.24;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(0.9);
+    opacity: 0.07;
+  }
+}
+@keyframes qrRingFour2682 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.94);
+    opacity: 0.05;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.03);
+    opacity: 0.19;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(0.94);
+    opacity: 0.05;
+  }
+}
+@keyframes qrRingFive2682 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.95);
+    opacity: 0.04;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.03);
+    opacity: 0.12;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(0.95);
+    opacity: 0.04;
+  }
+}
+@keyframes qrRingSix2682 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.94);
+    opacity: 0.03;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.04);
+    opacity: 0.09;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(0.94);
+    opacity: 0.03;
+  }
+}
+@keyframes qrOrbitOne2682 {
+  0% {
+    transform: translate(-50%, -50%) rotate(20deg) scale(0.94);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(200deg) scale(1.04);
+    opacity: 0.34;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(380deg) scale(0.94);
+    opacity: 0.08;
+  }
+}
+@keyframes qrOrbitTwo2682 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-32deg) scale(0.92);
+    opacity: 0.06;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(148deg) scale(1.04);
+    opacity: 0.23;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(328deg) scale(0.92);
+    opacity: 0.06;
+  }
+}
+@keyframes qrOrbitThree2682 {
+  0% {
+    transform: translate(-50%, -50%) rotate(63deg) scale(0.91);
+    opacity: 0.05;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(243deg) scale(1.05);
+    opacity: 0.18;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(423deg) scale(0.91);
+    opacity: 0.05;
+  }
+}
+@keyframes qrOrbitDotOne2682 {
+  0% {
+    transform: translate3d(0, 0, 0) scale(0.5);
+    opacity: 0.15;
+  }
+  50% {
+    transform: translate3d(11px, -9px, 0) scale(1.2);
+    opacity: 0.95;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(0.5);
+    opacity: 0.15;
+  }
+}
+@keyframes qrOrbitDotTwo2682 {
+  0% {
+    transform: translate3d(0, 0, 0) scale(0.45);
+    opacity: 0.12;
+  }
+  50% {
+    transform: translate3d(-9px, 10px, 0) scale(1.15);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(0.45);
+    opacity: 0.12;
+  }
+}
+@keyframes qrOrbitDotThree2682 {
+  0% {
+    transform: translate3d(0, 0, 0) scale(0.48);
+    opacity: 0.14;
+  }
+  50% {
+    transform: translate3d(8px, 8px, 0) scale(1.2);
+    opacity: 0.92;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(0.48);
+    opacity: 0.14;
+  }
+}
+@keyframes qrOrbitDotFour2682 {
+  0% {
+    transform: translate3d(0, 0, 0) scale(0.45);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translate3d(-10px, -7px, 0) scale(1.18);
+    opacity: 0.88;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(0.45);
+    opacity: 0.1;
+  }
+}
+@keyframes qrOrbitDotFive2682 {
+  0% {
+    transform: translate3d(0, 0, 0) scale(0.4);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate3d(-6px, 11px, 0) scale(1.3);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(0.4);
+    opacity: 0.08;
+  }
+}
+@keyframes qrOrbitDotSix2682 {
+  0% {
+    transform: translate3d(0, 0, 0) scale(0.42);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate3d(7px, -10px, 0) scale(1.26);
+    opacity: 0.96;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(0.42);
+    opacity: 0.08;
+  }
+}
+@keyframes qrPulseOne2682 {
+  0% {
+    width: 52px;
+    height: 52px;
+    opacity: 0.65;
+    transform: translate(-50%, -50%) scale(0.7);
+  }
+  100% {
+    width: 120px;
+    height: 120px;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes qrPulseTwo2682 {
+  0% {
+    width: 52px;
+    height: 52px;
+    opacity: 0.55;
+    transform: translate(-50%, -50%) scale(0.7);
+  }
+  100% {
+    width: 132px;
+    height: 132px;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes qrPulseThree2682 {
+  0% {
+    width: 52px;
+    height: 52px;
+    opacity: 0.45;
+    transform: translate(-50%, -50%) scale(0.7);
+  }
+  100% {
+    width: 144px;
+    height: 144px;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes qrPulseFour2682 {
+  0% {
+    width: 58px;
+    height: 58px;
+    opacity: 0.3;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  100% {
+    width: 153px;
+    height: 153px;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.02);
+  }
+}
+@keyframes qrEnergyOne2682 {
+  0%,
+  100% {
+    transform: translateX(-8px) rotate(16deg) scaleX(0.62);
+    opacity: 0.05;
+  }
+  50% {
+    transform: translateX(10px) rotate(12deg) scaleX(1.1);
+    opacity: 0.6;
+  }
+}
+@keyframes qrEnergyTwo2682 {
+  0%,
+  100% {
+    transform: translateX(8px) rotate(-17deg) scaleX(0.58);
+    opacity: 0.05;
+  }
+  50% {
+    transform: translateX(-10px) rotate(-13deg) scaleX(1.08);
+    opacity: 0.58;
+  }
+}
+@keyframes qrEnergyThree2682 {
+  0%,
+  100% {
+    transform: translateX(8px) rotate(-12deg) scaleX(0.6);
+    opacity: 0.04;
+  }
+  50% {
+    transform: translateX(-9px) rotate(-9deg) scaleX(1.08);
+    opacity: 0.56;
+  }
+}
+@keyframes qrEnergyFour2682 {
+  0%,
+  100% {
+    transform: translateX(-8px) rotate(14deg) scaleX(0.62);
+    opacity: 0.05;
+  }
+  50% {
+    transform: translateX(9px) rotate(11deg) scaleX(1.07);
+    opacity: 0.6;
+  }
+}
+@keyframes qrEnergyFive2682 {
+  0%,
+  100% {
+    transform: translateY(6px) rotate(40deg) scaleX(0.58);
+    opacity: 0.04;
+  }
+  50% {
+    transform: translateY(-7px) rotate(47deg) scaleX(1.08);
+    opacity: 0.46;
+  }
+}
+@keyframes qrEnergySix2682 {
+  0%,
+  100% {
+    transform: translateY(-6px) rotate(-42deg) scaleX(0.57);
+    opacity: 0.04;
+  }
+  50% {
+    transform: translateY(7px) rotate(-35deg) scaleX(1.05);
+    opacity: 0.47;
+  }
+}
+@keyframes qrEnergySeven2682 {
+  0%,
+  100% {
+    transform: translateY(7px) rotate(-90deg) scaleX(0.55);
+    opacity: 0.04;
+  }
+  50% {
+    transform: translateY(-7px) rotate(-90deg) scaleX(1.1);
+    opacity: 0.48;
+  }
+}
+@keyframes qrEnergyEight2682 {
+  0%,
+  100% {
+    transform: translateY(-7px) rotate(90deg) scaleX(0.58);
+    opacity: 0.04;
+  }
+  50% {
+    transform: translateY(7px) rotate(90deg) scaleX(1.08);
+    opacity: 0.52;
+  }
+}
+@keyframes qrEnergyNine2682 {
+  0%,
+  100% {
+    transform: translateX(-5px) rotate(4deg) scaleX(0.58);
+    opacity: 0.03;
+  }
+  50% {
+    transform: translateX(7px) rotate(7deg) scaleX(1.05);
+    opacity: 0.42;
+  }
+}
+@keyframes qrEnergyTen2682 {
+  0%,
+  100% {
+    transform: translateX(5px) rotate(-5deg) scaleX(0.57);
+    opacity: 0.03;
+  }
+  50% {
+    transform: translateX(-7px) rotate(-8deg) scaleX(1.05);
+    opacity: 0.43;
+  }
+}
+@keyframes qrEnergyEleven2682 {
+  0%,
+  100% {
+    transform: translateX(-7px) rotate(31deg) scaleX(0.6);
+    opacity: 0.03;
+  }
+  50% {
+    transform: translateX(8px) rotate(25deg) scaleX(1.08);
+    opacity: 0.45;
+  }
+}
+@keyframes qrEnergyTwelve2682 {
+  0%,
+  100% {
+    transform: translateX(7px) rotate(-30deg) scaleX(0.57);
+    opacity: 0.03;
+  }
+  50% {
+    transform: translateX(-8px) rotate(-24deg) scaleX(1.06);
+    opacity: 0.47;
+  }
+}
+@keyframes qrParticleOne2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.45);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translate(8px, -12px) scale(1.2);
+    opacity: 0.9;
+  }
+}
+@keyframes qrParticleTwo2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.5);
+    opacity: 0.12;
+  }
+  50% {
+    transform: translate(-9px, -8px) scale(1.14);
+    opacity: 0.82;
+  }
+}
+@keyframes qrParticleThree2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.42);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(9px, 12px) scale(1.22);
+    opacity: 0.94;
+  }
+}
+@keyframes qrParticleFour2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.45);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translate(-7px, -13px) scale(1.15);
+    opacity: 0.88;
+  }
+}
+@keyframes qrParticleFive2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.5);
+    opacity: 0.11;
+  }
+  50% {
+    transform: translate(6px, 14px) scale(1.25);
+    opacity: 0.96;
+  }
+}
+@keyframes qrParticleSix2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.44);
+    opacity: 0.09;
+  }
+  50% {
+    transform: translate(-9px, -11px) scale(1.18);
+    opacity: 0.9;
+  }
+}
+@keyframes qrParticleSeven2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.46);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translate(9px, 12px) scale(1.19);
+    opacity: 0.92;
+  }
+}
+@keyframes qrParticleEight2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.48);
+    opacity: 0.09;
+  }
+  50% {
+    transform: translate(-7px, -12px) scale(1.16);
+    opacity: 0.86;
+  }
+}
+@keyframes qrParticleNine2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.43);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(11px, -8px) scale(1.24);
+    opacity: 0.95;
+  }
+}
+@keyframes qrParticleTen2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.47);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translate(-9px, 10px) scale(1.15);
+    opacity: 0.87;
+  }
+}
+@keyframes qrParticleEleven2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.44);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(7px, -11px) scale(1.2);
+    opacity: 0.94;
+  }
+}
+@keyframes qrParticleTwelve2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.48);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translate(-9px, -9px) scale(1.12);
+    opacity: 0.85;
+  }
+}
+@keyframes qrParticleThirteen2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.45);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(10px, 11px) scale(1.22);
+    opacity: 0.92;
+  }
+}
+@keyframes qrParticleFourteen2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.46);
+    opacity: 0.09;
+  }
+  50% {
+    transform: translate(-7px, -13px) scale(1.17);
+    opacity: 0.89;
+  }
+}
+@keyframes qrParticleFifteen2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.45);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(8px, 10px) scale(1.2);
+    opacity: 0.94;
+  }
+}
+@keyframes qrParticleSixteen2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.43);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(-10px, -9px) scale(1.18);
+    opacity: 0.91;
+  }
+}
+@keyframes qrParticleSeventeen2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.48);
+    opacity: 0.09;
+  }
+  50% {
+    transform: translate(9px, -12px) scale(1.16);
+    opacity: 0.87;
+  }
+}
+@keyframes qrParticleEighteen2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.44);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(-8px, -10px) scale(1.22);
+    opacity: 0.93;
+  }
+}
+@keyframes qrParticleNineteen2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.42);
+    opacity: 0.07;
+  }
+  50% {
+    transform: translate(8px, -13px) scale(1.25);
+    opacity: 0.98;
+  }
+}
+@keyframes qrParticleTwenty2682 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.46);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(-8px, -11px) scale(1.18);
+    opacity: 0.9;
+  }
+}
+@keyframes qrSparkOne2682 {
+  0%,
+  100% {
+    transform: scale(0.3) rotate(0deg);
+    opacity: 0.08;
+  }
+  50% {
+    transform: scale(1) rotate(45deg);
+    opacity: 1;
+  }
+}
+@keyframes qrSparkTwo2682 {
+  0%,
+  100% {
+    transform: scale(0.28) rotate(0deg);
+    opacity: 0.07;
+  }
+  50% {
+    transform: scale(0.92) rotate(-45deg);
+    opacity: 0.9;
+  }
+}
+@keyframes qrSparkThree2682 {
+  0%,
+  100% {
+    transform: scale(0.3) rotate(0deg);
+    opacity: 0.06;
+  }
+  50% {
+    transform: scale(1.05) rotate(45deg);
+    opacity: 1;
+  }
+}
+@keyframes qrSparkFour2682 {
+  0%,
+  100% {
+    transform: scale(0.32) rotate(0deg);
+    opacity: 0.08;
+  }
+  50% {
+    transform: scale(0.98) rotate(-45deg);
+    opacity: 0.94;
+  }
+}
+@keyframes qrSparkFive2682 {
+  0%,
+  100% {
+    transform: scale(0.27) rotate(0deg);
+    opacity: 0.06;
+  }
+  50% {
+    transform: scale(0.88) rotate(45deg);
+    opacity: 0.88;
+  }
+}
+@keyframes qrSparkSix2682 {
+  0%,
+  100% {
+    transform: scale(0.3) rotate(0deg);
+    opacity: 0.07;
+  }
+  50% {
+    transform: scale(1.02) rotate(-45deg);
+    opacity: 0.96;
+  }
+}
+@keyframes qrSparkSeven2682 {
+  0%,
+  100% {
+    transform: scale(0.28) rotate(0deg);
+    opacity: 0.05;
+  }
+  50% {
+    transform: scale(0.94) rotate(45deg);
+    opacity: 0.92;
+  }
+}
+@keyframes qrSparkEight2682 {
+  0%,
+  100% {
+    transform: scale(0.3) rotate(0deg);
+    opacity: 0.06;
+  }
+  50% {
+    transform: scale(1) rotate(-45deg);
+    opacity: 0.95;
+  }
+}
+@keyframes qrHalo2682 {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0.78;
+  }
+}
+@keyframes qrShell2682 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.94);
+    opacity: 0.16;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.06);
+    opacity: 0.52;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(0.94);
+    opacity: 0.16;
+  }
+}
+@keyframes qrShellTwo2682 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.9);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.08);
+    opacity: 0.38;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(0.9);
+    opacity: 0.1;
+  }
+}
+@keyframes qrShellThree2682 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.88);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.05);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(0.88);
+    opacity: 0.08;
+  }
+}
+@keyframes qrCore2682 {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(0.8);
+    filter: brightness(0.9);
+    opacity: 0.72;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.12);
+    filter: brightness(1.3);
+    opacity: 1;
+  }
+}
+@keyframes qrCoreTwo2682 {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(0.7);
+    opacity: 0.62;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.22);
+    opacity: 1;
+  }
+}
+@keyframes qrLight2682 {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(0.65);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.32);
+    opacity: 1;
+  }
+}
+@keyframes qrBeamOne2682 {
+  0%,
+  100% {
+    opacity: 0.1;
+    transform: translateY(-50%) scaleX(0.72);
+  }
+  50% {
+    opacity: 0.58;
+    transform: translateY(-50%) scaleX(1.02);
+  }
+}
+@keyframes qrBeamTwo2682 {
+  0%,
+  100% {
+    opacity: 0.08;
+    transform: translateX(-50%) scaleY(0.7);
+  }
+  50% {
+    opacity: 0.48;
+    transform: translateX(-50%) scaleY(1.03);
+  }
+}
+@keyframes qrBeamThree2682 {
+  0%,
+  100% {
+    opacity: 0.05;
+    transform: translateY(-50%) rotate(45deg) scaleX(0.7);
+  }
+  50% {
+    opacity: 0.32;
+    transform: translateY(-50%) rotate(45deg) scaleX(1.04);
+  }
+}
+@keyframes qrBeamFour2682 {
+  0%,
+  100% {
+    opacity: 0.04;
+    transform: translateY(-50%) rotate(-45deg) scaleX(0.68);
+  }
+  50% {
+    opacity: 0.28;
+    transform: translateY(-50%) rotate(-45deg) scaleX(1.03);
+  }
+}
+@keyframes qrRayOne2682 {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes qrRayTwo2682 {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+@keyframes qrRayThree2682 {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes qrRayFour2682 {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+@keyframes qrScanOne2682 {
+  0% {
+    top: -10%;
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.1;
+  }
+  28% {
+    opacity: 0.72;
+  }
+  45% {
+    opacity: 0.12;
+  }
+  62% {
+    top: 110%;
+    opacity: 0;
+  }
+  100% {
+    top: 110%;
+    opacity: 0;
+  }
+}
+@keyframes qrScanTwo2682 {
+  0% {
+    bottom: -10%;
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.08;
+  }
+  31% {
+    opacity: 0.45;
+  }
+  48% {
+    opacity: 0.06;
+  }
+  66% {
+    bottom: 110%;
+    opacity: 0;
+  }
+  100% {
+    bottom: 110%;
+    opacity: 0;
+  }
+}
+@keyframes qrShine2682 {
+  0% {
+    left: -80%;
+    opacity: 0;
+  }
+  8% {
+    opacity: 0.02;
+  }
+  18% {
+    opacity: 0.72;
+  }
+  31% {
+    opacity: 0.15;
+  }
+  46% {
+    left: 135%;
+    opacity: 0;
+  }
+  100% {
+    left: 135%;
+    opacity: 0;
+  }
+}
+@keyframes qrGlitchOne2682 {
+  0%,
+  80%,
+  100% {
+    transform: translate(0, 0);
+    opacity: 0.15;
+  }
+  82% {
+    transform: translate(4px, -2px);
+    opacity: 0.8;
+  }
+  84% {
+    transform: translate(-3px, 2px);
+    opacity: 0.3;
+  }
+  86% {
+    transform: translate(2px, 0);
+    opacity: 0.7;
+  }
+  88% {
+    transform: translate(0, 0);
+    opacity: 0.15;
+  }
+}
+@keyframes qrGlitchTwo2682 {
+  0%,
+  76%,
+  100% {
+    transform: translate(0, 0);
+    opacity: 0.12;
+  }
+  78% {
+    transform: translate(-4px, 1px);
+    opacity: 0.75;
+  }
+  80% {
+    transform: translate(3px, -1px);
+    opacity: 0.25;
+  }
+  82% {
+    transform: translate(-1px, 2px);
+    opacity: 0.65;
+  }
+  84% {
+    transform: translate(0, 0);
+    opacity: 0.12;
+  }
+}
+@keyframes qrStatusOne2682 {
+  0%,
+  100% {
+    opacity: 0.2;
+    box-shadow: 0 0 4px rgba(71, 255, 225, 0.08);
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 9px rgba(71, 255, 225, 0.55);
+  }
+}
+@keyframes qrStatusTwo2682 {
+  0%,
+  100% {
+    opacity: 0.15;
+    box-shadow: 0 0 4px rgba(87, 147, 255, 0.08);
+  }
+  50% {
+    opacity: 0.9;
+    box-shadow: 0 0 9px rgba(87, 147, 255, 0.45);
+  }
+}
+@keyframes qrStatusThree2682 {
+  0%,
+  100% {
+    opacity: 0.18;
+    box-shadow: 0 0 4px rgba(220, 91, 255, 0.06);
+  }
+  50% {
+    opacity: 0.9;
+    box-shadow: 0 0 9px rgba(220, 91, 255, 0.42);
+  }
+}
+@keyframes qrBorder2682 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes qrLabelIcon2682 {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-2px) rotate(5deg);
+  }
+}
+@keyframes qrIndicator2682 {
+  0%,
+  100% {
+    transform: scale(0.75);
+    opacity: 0.35;
+  }
+  50% {
+    transform: scale(1.25);
+    opacity: 1;
+  }
+}
+@media (max-width: 700px) {
+  .quantum-reactor-checkbox {
+    width: 340px;
+    gap: 12px;
+  }
+  .quantum-reactor-main {
+    flex-basis: 135px;
+    width: 135px;
+    height: 94px;
+  }
+  .quantum-reactor-label {
+    min-width: 155px;
+  }
+  .quantum-reactor-title {
+    font-size: 14px;
+  }
+  .quantum-reactor-subtitle {
+    font-size: 6.5px;
+  }
+}
+@media (max-width: 520px) {
+  .quantum-reactor-checkbox {
+    width: 285px;
+    min-height: 102px;
+    padding: 10px;
+    gap: 9px;
+    border-radius: 19px;
+  }
+  .quantum-reactor-main {
+    flex-basis: 104px;
+    width: 104px;
+    height: 80px;
+    border-radius: 16px;
+  }
+  .quantum-reactor-label {
+    min-width: 0;
+    gap: 8px;
+  }
+  .quantum-reactor-label-icon {
+    width: 30px;
+    height: 30px;
+    flex-basis: 30px;
+    border-radius: 9px;
+  }
+  .quantum-reactor-label-icon i {
+    font-size: 15px;
+  }
+  .quantum-reactor-title {
+    font-size: 12px;
+  }
+  .quantum-reactor-subtitle {
+    font-size: 5.6px;
+    letter-spacing: 1.3px;
+  }
+  .quantum-reactor-indicator {
+    width: 5px;
+    height: 5px;
+  }
+  .quantum-reactor-ring-5 {
+    width: 92px;
+    height: 92px;
+  }
+  .quantum-reactor-ring-6 {
+    width: 110px;
+    height: 110px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .quantum-reactor-checkbox,
+  .quantum-reactor-checkbox *,
+  .quantum-reactor-checkbox::before,
+  .quantum-reactor-checkbox::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+.rainbow-checkbox {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 230px;
+  padding: 9px 16px 9px 9px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 16px;
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.045),
+      rgba(255, 255, 255, 0.015)
+    ),
+    #0d1118;
+  color: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  isolation: isolate;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.rainbow-checkbox:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+.rainbow-checkbox input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+.rainbow-box {
+  position: relative;
+  flex: 0 0 58px;
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: #090d13;
+  overflow: hidden;
+  isolation: isolate;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.06),
+    inset 0 0 18px rgba(255, 255, 255, 0.025);
+}
+.rainbow-box::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  z-index: 1;
+  border-radius: 13px;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(255, 255, 255, 0.035),
+    transparent 62%
+  );
+}
+.rainbow-box-check {
+  position: relative;
+  z-index: 8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 11px;
+  color: #fff;
+  opacity: 0.12;
+  transform: scale(0.55) rotate(-15deg);
+  transition:
+    opacity 0.35s ease,
+    transform 0.5s cubic-bezier(0.18, 0.9, 0.2, 1);
+}
+.rainbow-box-check i {
+  font-size: 19px;
+  text-shadow:
+    0 0 6px rgba(255, 255, 255, 0.95),
+    0 0 14px rgba(0, 255, 220, 0.65);
+}
+.rainbow-checkbox-text {
+  position: relative;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  color: #e9eef5;
+}
+.rainbow-checkbox input:checked + .rainbow-box .rainbow-box-check {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+}
+.rainbow-checkbox input:checked + .rainbow-box {
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08),
+    inset 0 0 25px rgba(255, 255, 255, 0.05);
+}
+.rainbow-checkbox:has(input:checked) {
+  border-color: rgba(255, 255, 255, 0.28);
+}
+.rainbow-checkbox:has(input:checked) .rainbow-checkbox-text {
+  color: #fff;
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.12);
+}
+.rainbow-box-glow {
+  position: absolute;
+  inset: -45%;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    #ff3159,
+    #ff9c32,
+    #ffe84a,
+    #43f67b,
+    #39dfff,
+    #527cff,
+    #a462ff,
+    #ff43d8,
+    #ff3159
+  );
+  filter: blur(12px);
+  opacity: 0.25;
+  animation: rainbowPulse2683 4s linear infinite;
+}
+.rainbow-checkbox-pulse .rainbow-box::after {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  z-index: 4;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+}
+.rainbow-checkbox-pulse:has(input:checked) .rainbow-box-glow {
+  opacity: 0.95;
+  animation-duration: 1.5s;
+}
+.rainbow-checkbox-prism .rainbow-box::before {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 0, 99, 0.18),
+    rgba(255, 223, 74, 0.08),
+    rgba(0, 241, 255, 0.15),
+    rgba(128, 72, 255, 0.17)
+  );
+  background-size: 300% 300%;
+  animation: prismFlow2684 5s ease infinite;
+}
+.rainbow-box-shine {
+  position: absolute;
+  top: -55%;
+  left: -90%;
+  width: 50%;
+  height: 210%;
+  transform: rotate(23deg);
+  z-index: 5;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.55),
+    transparent
+  );
+  filter: blur(1px);
+  animation: rainbowShine2684 4s ease-in-out infinite;
+}
+.rainbow-checkbox-prism:has(input:checked) .rainbow-box-shine {
+  animation-duration: 1.8s;
+}
+.rainbow-checkbox-aurora .rainbow-aurora {
+  position: absolute;
+  inset: -35%;
+  background:
+    radial-gradient(circle at 20% 40%, rgba(0, 255, 213, 0.7), transparent 28%),
+    radial-gradient(
+      circle at 80% 30%,
+      rgba(93, 97, 255, 0.65),
+      transparent 29%
+    ),
+    radial-gradient(
+      circle at 55% 78%,
+      rgba(255, 53, 199, 0.55),
+      transparent 31%
+    );
+  filter: blur(10px);
+  background-size: 150% 150%;
+  animation: aurora2685 5s ease-in-out infinite;
+}
+.rainbow-checkbox-aurora:has(input:checked) .rainbow-aurora {
+  filter: blur(7px);
+  animation-duration: 2.2s;
+}
+.rainbow-checkbox-orbit .rainbow-orbit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 49px;
+  height: 49px;
+  transform: translate(-50%, -50%);
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background:
+    linear-gradient(#090d13, #090d13) padding-box,
+    conic-gradient(
+        #ff3159,
+        #ffe14e,
+        #4cff85,
+        #38ddff,
+        #5c7cff,
+        #ed5bff,
+        #ff3159
+      )
+      border-box;
+  animation: orbit2686 3.2s linear infinite;
+}
+.rainbow-checkbox-orbit:has(input:checked) .rainbow-orbit {
+  animation-duration: 1.1s;
+  box-shadow: 0 0 15px rgba(74, 230, 255, 0.28);
+}
+.rainbow-checkbox-orbit .rainbow-box-check i {
+  animation: orbitIcon2686 1.5s linear infinite;
+}
+.rainbow-checkbox-energy .rainbow-energy-core {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 42px;
+  height: 42px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    #ffffff 0%,
+    #9affef 13%,
+    #45e7ff 28%,
+    #6c7cff 48%,
+    #ef59ff 68%,
+    transparent 77%
+  );
+  box-shadow:
+    0 0 8px rgba(255, 255, 255, 0.95),
+    0 0 18px rgba(76, 224, 255, 0.8),
+    0 0 35px rgba(163, 76, 255, 0.4);
+  animation: energyCore2687 2.8s ease-in-out infinite;
+}
+.rainbow-checkbox-energy:has(input:checked) .rainbow-energy-core {
+  animation-duration: 1s;
+}
+.rainbow-checkbox-neon .rainbow-neon-ring {
+  position: absolute;
+  inset: 6px;
+  border-radius: 11px;
+  border: 2px solid transparent;
+  background:
+    linear-gradient(#090d13, #090d13) padding-box,
+    linear-gradient(90deg, #ff007c, #ffbe0b, #00f5d4, #00bbf9, #9b5de5, #ff007c)
+      border-box;
+  background-size: 300% 100%;
+  animation: neonSpectrum2688 3.8s linear infinite;
+  box-shadow:
+    0 0 9px rgba(0, 220, 255, 0.15),
+    inset 0 0 9px rgba(255, 0, 200, 0.06);
+}
+.rainbow-checkbox-neon:has(input:checked) .rainbow-neon-ring {
+  animation-duration: 1.1s;
+  box-shadow:
+    0 0 16px rgba(0, 220, 255, 0.38),
+    0 0 28px rgba(255, 0, 200, 0.18);
+}
+.rainbow-checkbox-flame .rainbow-flame {
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 43px;
+  height: 55px;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    to top,
+    #ff294d,
+    #ff6b2c 38%,
+    #ffd447 70%,
+    #fff7c4
+  );
+  clip-path: polygon(
+    50% 100%,
+    12% 84%,
+    6% 62%,
+    27% 67%,
+    19% 42%,
+    39% 54%,
+    37% 24%,
+    54% 43%,
+    62% 0,
+    70% 38%,
+    89% 24%,
+    82% 56%,
+    98% 48%,
+    86% 78%
+  );
+  filter: blur(1px);
+  opacity: 0.55;
+  transform-origin: bottom center;
+  animation: flame2689 1.4s ease-in-out infinite;
+}
+.rainbow-checkbox-flame:has(input:checked) .rainbow-flame {
+  opacity: 1;
+  animation-duration: 0.65s;
+}
+.rainbow-checkbox-holo .rainbow-hologram {
+  position: absolute;
+  inset: -30%;
+  background: linear-gradient(
+    125deg,
+    rgba(255, 0, 150, 0.5),
+    rgba(0, 255, 242, 0.45),
+    rgba(110, 83, 255, 0.5),
+    rgba(255, 0, 150, 0.5)
+  );
+  background-size: 300% 300%;
+  filter: blur(9px);
+  opacity: 0.4;
+  animation: hologram2690 5s ease infinite;
+}
+.rainbow-checkbox-holo .rainbow-box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0 5px,
+    rgba(255, 255, 255, 0.05) 6px,
+    transparent 7px
+  );
+  opacity: 0.5;
+  animation: holoScan2690 3s linear infinite;
+}
+.rainbow-checkbox-holo:has(input:checked) .rainbow-hologram {
+  opacity: 0.9;
+  animation-duration: 1.7s;
+}
+.rainbow-checkbox-cosmic .rainbow-cosmic {
+  position: absolute;
+  inset: -40%;
+  background:
+    radial-gradient(circle at 30% 30%, #ff4bd8 0 3%, transparent 12%),
+    radial-gradient(circle at 72% 35%, #4fdcff 0 4%, transparent 13%),
+    radial-gradient(circle at 45% 72%, #7c64ff 0 4%, transparent 14%),
+    radial-gradient(circle at 76% 75%, #ffe45d 0 3%, transparent 10%),
+    conic-gradient(
+      from 30deg,
+      rgba(255, 49, 121, 0.3),
+      rgba(255, 220, 78, 0.2),
+      rgba(39, 229, 255, 0.3),
+      rgba(118, 83, 255, 0.25),
+      rgba(255, 49, 121, 0.3)
+    );
+  filter: blur(7px);
+  animation: cosmic2691 9s linear infinite;
+}
+.rainbow-checkbox-cosmic:has(input:checked) .rainbow-cosmic {
+  filter: blur(4px);
+  animation-duration: 2.5s;
+}
+.rainbow-checkbox-ultimate .rainbow-ultimate-border {
+  position: absolute;
+  inset: -2px;
+  z-index: 2;
+  border-radius: 16px;
+  background: conic-gradient(
+    from 0deg,
+    #ff005d,
+    #ff8a00,
+    #fff000,
+    #00ff89,
+    #00d9ff,
+    #5a67ff,
+    #b85bff,
+    #ff42ce,
+    #ff005d
+  );
+  animation: ultimate2692 3s linear infinite;
+}
+.rainbow-checkbox-ultimate .rainbow-ultimate-border::after {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 13px;
+  background: #090d13;
+}
+.rainbow-checkbox-ultimate .rainbow-box-check {
+  z-index: 10;
+}
+.rainbow-checkbox-ultimate .rainbow-ultimate-particle {
+  position: absolute;
+  z-index: 12;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow:
+    0 0 5px #fff,
+    0 0 13px #00f0ff,
+    0 0 20px #a855ff;
+}
+.rainbow-ultimate-particle-1 {
+  left: 7px;
+  top: 10px;
+  animation: ultimateParticle12692 2.8s ease-in-out infinite;
+}
+.rainbow-ultimate-particle-2 {
+  right: 7px;
+  top: 17px;
+  animation: ultimateParticle22692 3.3s ease-in-out infinite;
+}
+.rainbow-ultimate-particle-3 {
+  left: 13px;
+  bottom: 9px;
+  animation: ultimateParticle32692 3s ease-in-out infinite;
+}
+.rainbow-ultimate-particle-4 {
+  right: 12px;
+  bottom: 8px;
+  animation: ultimateParticle42692 3.5s ease-in-out infinite;
+}
+.rainbow-checkbox-ultimate:has(input:checked) .rainbow-ultimate-border {
+  animation-duration: 1s;
+  filter: brightness(1.25);
+}
+.rainbow-checkbox-ultimate:has(input:checked) .rainbow-ultimate-particle {
+  animation-duration: 1.2s;
+}
+@keyframes rainbowPulse2683 {
+  0% {
+    transform: rotate(0deg) scale(0.82);
+    opacity: 0.2;
+  }
+  50% {
+    transform: rotate(180deg) scale(1.13);
+    opacity: 0.85;
+  }
+  100% {
+    transform: rotate(360deg) scale(0.82);
+    opacity: 0.2;
+  }
+}
+@keyframes prismFlow2684 {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes rainbowShine2684 {
+  0% {
+    left: -90%;
+    opacity: 0;
+  }
+  18% {
+    opacity: 0.06;
+  }
+  35% {
+    opacity: 0.9;
+  }
+  52% {
+    left: 140%;
+    opacity: 0;
+  }
+  100% {
+    left: 140%;
+    opacity: 0;
+  }
+}
+@keyframes aurora2685 {
+  0%,
+  100% {
+    transform: translate3d(-5%, 0, 0) scale(0.9);
+    background-position: 0% 50%;
+  }
+  50% {
+    transform: translate3d(5%, -3%, 0) scale(1.12);
+    background-position: 100% 50%;
+  }
+}
+@keyframes orbit2686 {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes orbitIcon2686 {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+}
+@keyframes energyCore2687 {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(0.78);
+    filter: brightness(0.9);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+    filter: brightness(1.3);
+  }
+}
+@keyframes neonSpectrum2688 {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+@keyframes flame2689 {
+  0%,
+  100% {
+    transform: translateX(-50%) scale(0.82) skewX(-3deg);
+    opacity: 0.4;
+  }
+  25% {
+    transform: translateX(-50%) scale(1.03) skewX(4deg);
+    opacity: 0.75;
+  }
+  50% {
+    transform: translateX(-50%) scale(0.9) skewX(-4deg);
+    opacity: 0.55;
+  }
+  75% {
+    transform: translateX(-50%) scale(1.08) skewX(5deg);
+    opacity: 0.85;
+  }
+}
+@keyframes hologram2690 {
+  0% {
+    background-position: 0% 50%;
+    transform: rotate(0deg) scale(0.95);
+  }
+  50% {
+    background-position: 100% 50%;
+    transform: rotate(10deg) scale(1.1);
+  }
+  100% {
+    background-position: 200% 50%;
+    transform: rotate(0deg) scale(0.95);
+  }
+}
+@keyframes holoScan2690 {
+  0% {
+    transform: translateY(-8px);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translateY(8px);
+    opacity: 0.45;
+  }
+  100% {
+    transform: translateY(-8px);
+    opacity: 0.1;
+  }
+}
+@keyframes cosmic2691 {
+  from {
+    transform: rotate(0deg) scale(0.88);
+  }
+  to {
+    transform: rotate(360deg) scale(1.04);
+  }
+}
+@keyframes ultimate2692 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes ultimateParticle12692 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.5);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translate(8px, -10px) scale(1.25);
+    opacity: 1;
+  }
+}
+@keyframes ultimateParticle22692 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.45);
+    opacity: 0.18;
+  }
+  50% {
+    transform: translate(-8px, 10px) scale(1.2);
+    opacity: 0.95;
+  }
+}
+@keyframes ultimateParticle32692 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.5);
+    opacity: 0.18;
+  }
+  50% {
+    transform: translate(9px, -8px) scale(1.3);
+    opacity: 1;
+  }
+}
+@keyframes ultimateParticle42692 {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(0.4);
+    opacity: 0.16;
+  }
+  50% {
+    transform: translate(-9px, -9px) scale(1.25);
+    opacity: 0.98;
+  }
+}
+@media (max-width: 520px) {
+  .rainbow-checkbox {
+    min-width: 210px;
+    gap: 10px;
+    padding-right: 11px;
+  }
+  .rainbow-box {
+    flex-basis: 50px;
+    width: 50px;
+    height: 50px;
+  }
+  .rainbow-checkbox-text {
+    font-size: 12px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rainbow-checkbox,
+  .rainbow-checkbox *,
+  .rainbow-checkbox::before,
+  .rainbow-checkbox::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

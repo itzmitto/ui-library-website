@@ -7744,4 +7744,2038 @@ export const checkboxes = [
 }
 `,
   },
+  {
+    id: 2681,
+    name: "Legendary Celestial Checkbox",
+    preview: (
+      <label className="legendary-celestial-checkbox">
+        <input type="checkbox" />
+        <span className="celestial-stage">
+          <span className="celestial-bg"></span>
+          <span className="celestial-stars">
+            <span className="celestial-star celestial-star-1"></span>
+            <span className="celestial-star celestial-star-2"></span>
+            <span className="celestial-star celestial-star-3"></span>
+            <span className="celestial-star celestial-star-4"></span>
+            <span className="celestial-star celestial-star-5"></span>
+            <span className="celestial-star celestial-star-6"></span>
+            <span className="celestial-star celestial-star-7"></span>
+            <span className="celestial-star celestial-star-8"></span>
+            <span className="celestial-star celestial-star-9"></span>
+            <span className="celestial-star celestial-star-10"></span>
+            <span className="celestial-star celestial-star-11"></span>
+            <span className="celestial-star celestial-star-12"></span>
+            <span className="celestial-star celestial-star-13"></span>
+            <span className="celestial-star celestial-star-14"></span>
+            <span className="celestial-star celestial-star-15"></span>
+            <span className="celestial-star celestial-star-16"></span>
+            <span className="celestial-star celestial-star-17"></span>
+            <span className="celestial-star celestial-star-18"></span>
+          </span>
+          <span className="celestial-orbit celestial-orbit-1"></span>
+          <span className="celestial-orbit celestial-orbit-2"></span>
+          <span className="celestial-orbit celestial-orbit-3"></span>
+          <span className="celestial-orbit celestial-orbit-4"></span>
+          <span className="celestial-orbit celestial-orbit-5"></span>
+          <span className="celestial-energy celestial-energy-1"></span>
+          <span className="celestial-energy celestial-energy-2"></span>
+          <span className="celestial-energy celestial-energy-3"></span>
+          <span className="celestial-energy celestial-energy-4"></span>
+          <span className="celestial-energy celestial-energy-5"></span>
+          <span className="celestial-energy celestial-energy-6"></span>
+          <span className="celestial-particle celestial-particle-1"></span>
+          <span className="celestial-particle celestial-particle-2"></span>
+          <span className="celestial-particle celestial-particle-3"></span>
+          <span className="celestial-particle celestial-particle-4"></span>
+          <span className="celestial-particle celestial-particle-5"></span>
+          <span className="celestial-particle celestial-particle-6"></span>
+          <span className="celestial-particle celestial-particle-7"></span>
+          <span className="celestial-particle celestial-particle-8"></span>
+          <span className="celestial-particle celestial-particle-9"></span>
+          <span className="celestial-particle celestial-particle-10"></span>
+          <span className="celestial-particle celestial-particle-11"></span>
+          <span className="celestial-particle celestial-particle-12"></span>
+          <span className="celestial-particle celestial-particle-13"></span>
+          <span className="celestial-particle celestial-particle-14"></span>
+          <span className="celestial-particle celestial-particle-15"></span>
+          <span className="celestial-particle celestial-particle-16"></span>
+          <span className="celestial-particle celestial-particle-17"></span>
+          <span className="celestial-particle celestial-particle-18"></span>
+          <span className="celestial-particle celestial-particle-19"></span>
+          <span className="celestial-particle celestial-particle-20"></span>
+          <span className="celestial-core">
+            <span className="celestial-core-halo"></span>
+            <span className="celestial-core-ring"></span>
+            <span className="celestial-core-inner"></span>
+            <span className="celestial-core-icon">
+              <i className="ri-check-line"></i>
+            </span>
+          </span>
+          <span className="celestial-beam celestial-beam-1"></span>
+          <span className="celestial-beam celestial-beam-2"></span>
+          <span className="celestial-beam celestial-beam-3"></span>
+          <span className="celestial-spark celestial-spark-1"></span>
+          <span className="celestial-spark celestial-spark-2"></span>
+          <span className="celestial-spark celestial-spark-3"></span>
+          <span className="celestial-spark celestial-spark-4"></span>
+          <span className="celestial-spark celestial-spark-5"></span>
+          <span className="celestial-spark celestial-spark-6"></span>
+          <span className="celestial-scan"></span>
+          <span className="celestial-shine"></span>
+          <span className="celestial-border"></span>
+        </span>
+        <span className="celestial-copy">
+          <span className="celestial-copy-icon">
+            <i className="ri-sparkling-2-fill"></i>
+          </span>
+          <span className="celestial-copy-text">
+            <span className="celestial-title">Legendary</span>
+            <span className="celestial-subtitle">Celestial Core</span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="legendary-celestial-checkbox">
+  <input type="checkbox">
+  <span class="celestial-stage">
+    <span class="celestial-bg"></span>
+    <span class="celestial-stars">
+      <span class="celestial-star celestial-star-1"></span>
+      <span class="celestial-star celestial-star-2"></span>
+      <span class="celestial-star celestial-star-3"></span>
+      <span class="celestial-star celestial-star-4"></span>
+      <span class="celestial-star celestial-star-5"></span>
+      <span class="celestial-star celestial-star-6"></span>
+      <span class="celestial-star celestial-star-7"></span>
+      <span class="celestial-star celestial-star-8"></span>
+      <span class="celestial-star celestial-star-9"></span>
+      <span class="celestial-star celestial-star-10"></span>
+      <span class="celestial-star celestial-star-11"></span>
+      <span class="celestial-star celestial-star-12"></span>
+      <span class="celestial-star celestial-star-13"></span>
+      <span class="celestial-star celestial-star-14"></span>
+      <span class="celestial-star celestial-star-15"></span>
+      <span class="celestial-star celestial-star-16"></span>
+      <span class="celestial-star celestial-star-17"></span>
+      <span class="celestial-star celestial-star-18"></span>
+    </span>
+    <span class="celestial-orbit celestial-orbit-1"></span>
+    <span class="celestial-orbit celestial-orbit-2"></span>
+    <span class="celestial-orbit celestial-orbit-3"></span>
+    <span class="celestial-orbit celestial-orbit-4"></span>
+    <span class="celestial-orbit celestial-orbit-5"></span>
+    <span class="celestial-energy celestial-energy-1"></span>
+    <span class="celestial-energy celestial-energy-2"></span>
+    <span class="celestial-energy celestial-energy-3"></span>
+    <span class="celestial-energy celestial-energy-4"></span>
+    <span class="celestial-energy celestial-energy-5"></span>
+    <span class="celestial-energy celestial-energy-6"></span>
+    <span class="celestial-particle celestial-particle-1"></span>
+    <span class="celestial-particle celestial-particle-2"></span>
+    <span class="celestial-particle celestial-particle-3"></span>
+    <span class="celestial-particle celestial-particle-4"></span>
+    <span class="celestial-particle celestial-particle-5"></span>
+    <span class="celestial-particle celestial-particle-6"></span>
+    <span class="celestial-particle celestial-particle-7"></span>
+    <span class="celestial-particle celestial-particle-8"></span>
+    <span class="celestial-particle celestial-particle-9"></span>
+    <span class="celestial-particle celestial-particle-10"></span>
+    <span class="celestial-particle celestial-particle-11"></span>
+    <span class="celestial-particle celestial-particle-12"></span>
+    <span class="celestial-particle celestial-particle-13"></span>
+    <span class="celestial-particle celestial-particle-14"></span>
+    <span class="celestial-particle celestial-particle-15"></span>
+    <span class="celestial-particle celestial-particle-16"></span>
+    <span class="celestial-particle celestial-particle-17"></span>
+    <span class="celestial-particle celestial-particle-18"></span>
+    <span class="celestial-particle celestial-particle-19"></span>
+    <span class="celestial-particle celestial-particle-20"></span>
+    <span class="celestial-core">
+      <span class="celestial-core-halo"></span>
+      <span class="celestial-core-ring"></span>
+      <span class="celestial-core-inner"></span>
+      <span class="celestial-core-icon"><i class="ri-check-line"></i></span>
+    </span>
+    <span class="celestial-beam celestial-beam-1"></span>
+    <span class="celestial-beam celestial-beam-2"></span>
+    <span class="celestial-beam celestial-beam-3"></span>
+    <span class="celestial-spark celestial-spark-1"></span>
+    <span class="celestial-spark celestial-spark-2"></span>
+    <span class="celestial-spark celestial-spark-3"></span>
+    <span class="celestial-spark celestial-spark-4"></span>
+    <span class="celestial-spark celestial-spark-5"></span>
+    <span class="celestial-spark celestial-spark-6"></span>
+    <span class="celestial-scan"></span>
+    <span class="celestial-shine"></span>
+    <span class="celestial-border"></span>
+  </span>
+  <span class="celestial-copy">
+    <span class="celestial-copy-icon"><i class="ri-sparkling-2-fill"></i></span>
+    <span class="celestial-copy-text">
+      <span class="celestial-title">Legendary</span>
+      <span class="celestial-subtitle">Celestial Core</span>
+    </span>
+  </span>
+</label>`,
+    css: `
+.legendary-celestial-checkbox {
+  --celestial-cyan: #7df9ff;
+  --celestial-blue: #3e9cff;
+  --celestial-violet: #7a5cff;
+  --celestial-pink: #e96bff;
+  --celestial-white: #f8ffff;
+  --celestial-dark: #030813;
+  --celestial-deep: #01040a;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 320px;
+  min-height: 112px;
+  padding: 12px 20px 12px 12px;
+  border: 1px solid rgba(113,221,255,.22);
+  border-radius: 24px;
+  background:
+    linear-gradient(145deg,rgba(255,255,255,.045),transparent 25%),
+    linear-gradient(325deg,rgba(57,106,255,.05),transparent 40%),
+    rgba(3,9,18,.94);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.055),
+    0 9px 28px rgba(0,0,0,.32),
+    0 0 28px rgba(65,164,255,.08);
+  cursor: pointer;
+  overflow: hidden;
+  isolation: isolate;
+  user-select: none;
+  transform: translateZ(0);
+  transition:
+    transform .4s cubic-bezier(.18,.8,.2,1),
+    border-color .4s ease,
+    box-shadow .4s ease,
+    background .4s ease;
+}
+.legendary-celestial-checkbox:hover {
+  transform: translateY(-4px) scale(1.015);
+  border-color: rgba(133,241,255,.48);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.07),
+    0 14px 38px rgba(0,0,0,.36),
+    0 0 38px rgba(73,198,255,.16),
+    0 0 70px rgba(111,74,255,.08);
+}
+.legendary-celestial-checkbox:focus-within {
+  border-color: rgba(161,245,255,.66);
+  box-shadow:
+    0 0 0 3px rgba(75,205,255,.12),
+    0 0 0 7px rgba(75,205,255,.05),
+    0 0 42px rgba(70,188,255,.22);
+}
+.legendary-celestial-checkbox input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+.celestial-stage {
+  position: relative;
+  flex: 0 0 108px;
+  width: 108px;
+  height: 88px;
+  border-radius: 19px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 50%,rgba(76,211,255,.12),transparent 23%),
+    radial-gradient(circle at 32% 68%,rgba(108,80,255,.09),transparent 31%),
+    linear-gradient(145deg,#071322,#030913 70%);
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,.035),
+    inset 0 0 25px rgba(55,190,255,.045);
+  isolation: isolate;
+}
+.celestial-stage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 28;
+  background:
+    linear-gradient(110deg,transparent 0%,rgba(255,255,255,.035) 48%,transparent 54%);
+  background-size: 220% 100%;
+  animation: celestialPanelSweep2681 8s linear infinite;
+  pointer-events: none;
+}
+.celestial-stage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 31;
+  border-radius: inherit;
+  border: 1px solid rgba(255,255,255,.035);
+  pointer-events: none;
+}
+.celestial-bg {
+  position: absolute;
+  inset: -25%;
+  z-index: -5;
+  background:
+    radial-gradient(circle at 30% 40%,rgba(0,237,255,.16),transparent 20%),
+    radial-gradient(circle at 70% 65%,rgba(104,69,255,.18),transparent 24%),
+    radial-gradient(circle at 45% 54%,rgba(255,85,211,.08),transparent 30%),
+    conic-gradient(
+      from 0deg,
+      rgba(30,116,255,.08),
+      rgba(93,255,226,.08),
+      rgba(129,73,255,.09),
+      rgba(255,75,208,.06),
+      rgba(30,116,255,.08)
+    );
+  filter: blur(17px);
+  animation: celestialBgRotation2681 16s linear infinite;
+}
+.celestial-stars {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+}
+.celestial-star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: #ecffff;
+  box-shadow:
+    0 0 4px #ecffff,
+    0 0 10px rgba(86,237,255,.75);
+  opacity: .35;
+}
+.celestial-star-1 { left: 8%; top: 14%; animation: celestialTwinkle1 3.6s ease-in-out infinite; }
+.celestial-star-2 { left: 19%; top: 24%; animation: celestialTwinkle2 4.2s ease-in-out infinite; }
+.celestial-star-3 { left: 31%; top: 11%; animation: celestialTwinkle3 3.2s ease-in-out infinite; }
+.celestial-star-4 { left: 45%; top: 17%; animation: celestialTwinkle4 4.5s ease-in-out infinite; }
+.celestial-star-5 { left: 59%; top: 12%; animation: celestialTwinkle5 3.8s ease-in-out infinite; }
+.celestial-star-6 { left: 74%; top: 21%; animation: celestialTwinkle6 4s ease-in-out infinite; }
+.celestial-star-7 { left: 87%; top: 13%; animation: celestialTwinkle7 3.4s ease-in-out infinite; }
+.celestial-star-8 { left: 94%; top: 39%; animation: celestialTwinkle8 4.8s ease-in-out infinite; }
+.celestial-star-9 { left: 83%; top: 56%; animation: celestialTwinkle9 3.9s ease-in-out infinite; }
+.celestial-star-10 { left: 72%; top: 72%; animation: celestialTwinkle10 4.6s ease-in-out infinite; }
+.celestial-star-11 { left: 58%; top: 82%; animation: celestialTwinkle11 3.7s ease-in-out infinite; }
+.celestial-star-12 { left: 44%; top: 74%; animation: celestialTwinkle12 4.1s ease-in-out infinite; }
+.celestial-star-13 { left: 31%; top: 83%; animation: celestialTwinkle13 3.5s ease-in-out infinite; }
+.celestial-star-14 { left: 18%; top: 69%; animation: celestialTwinkle14 4.7s ease-in-out infinite; }
+.celestial-star-15 { left: 7%; top: 53%; animation: celestialTwinkle15 3.3s ease-in-out infinite; }
+.celestial-star-16 { left: 14%; top: 42%; animation: celestialTwinkle16 4.9s ease-in-out infinite; }
+.celestial-star-17 { left: 39%; top: 36%; animation: celestialTwinkle17 3.9s ease-in-out infinite; }
+.celestial-star-18 { left: 65%; top: 42%; animation: celestialTwinkle18 4.4s ease-in-out infinite; }
+.celestial-orbit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  border: 1px solid rgba(104,229,255,.11);
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+}
+.celestial-orbit-1 {
+  width: 64px;
+  height: 25px;
+  transform: translate(-50%,-50%) rotate(20deg);
+  animation: celestialOrbit1 6.5s linear infinite;
+}
+.celestial-orbit-2 {
+  width: 72px;
+  height: 30px;
+  transform: translate(-50%,-50%) rotate(-35deg);
+  border-color: rgba(114,113,255,.09);
+  animation: celestialOrbit2 8s linear infinite reverse;
+}
+.celestial-orbit-3 {
+  width: 84px;
+  height: 45px;
+  transform: translate(-50%,-50%) rotate(75deg);
+  border-color: rgba(97,242,232,.07);
+  animation: celestialOrbit3 10s linear infinite;
+}
+.celestial-orbit-4 {
+  width: 92px;
+  height: 53px;
+  transform: translate(-50%,-50%) rotate(-60deg);
+  border-color: rgba(181,110,255,.055);
+  animation: celestialOrbit4 12s linear infinite reverse;
+}
+.celestial-orbit-5 {
+  width: 99px;
+  height: 62px;
+  transform: translate(-50%,-50%) rotate(8deg);
+  border-color: rgba(81,190,255,.045);
+  animation: celestialOrbit5 14s linear infinite;
+}
+.celestial-energy {
+  position: absolute;
+  z-index: 8;
+  height: 1px;
+  border-radius: 999px;
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(191,255,250,.18),
+      rgba(71,245,225,.78),
+      rgba(96,181,255,.18),
+      transparent
+    );
+  filter: blur(.25px);
+  pointer-events: none;
+}
+.celestial-energy-1 {
+  left: 2px;
+  top: 24px;
+  width: 39px;
+  transform: rotate(14deg);
+  animation: celestialEnergy1 4.5s ease-in-out infinite;
+}
+.celestial-energy-2 {
+  right: 0;
+  top: 32px;
+  width: 42px;
+  transform: rotate(-19deg);
+  animation: celestialEnergy2 5.1s ease-in-out infinite;
+}
+.celestial-energy-3 {
+  left: 10px;
+  bottom: 16px;
+  width: 34px;
+  transform: rotate(-12deg);
+  animation: celestialEnergy3 4.9s ease-in-out infinite;
+}
+.celestial-energy-4 {
+  right: 10px;
+  bottom: 15px;
+  width: 40px;
+  transform: rotate(15deg);
+  animation: celestialEnergy4 5.3s ease-in-out infinite;
+}
+.celestial-energy-5 {
+  left: 29px;
+  top: 6px;
+  width: 26px;
+  transform: rotate(42deg);
+  animation: celestialEnergy5 4.3s ease-in-out infinite;
+}
+.celestial-energy-6 {
+  right: 26px;
+  bottom: 8px;
+  width: 28px;
+  transform: rotate(-40deg);
+  animation: celestialEnergy6 4.8s ease-in-out infinite;
+}
+.celestial-particle {
+  position: absolute;
+  z-index: 11;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #eaffff;
+  box-shadow:
+    0 0 5px rgba(245,255,255,.95),
+    0 0 12px rgba(95,241,255,.7),
+    0 0 20px rgba(99,92,255,.35);
+  pointer-events: none;
+}
+.celestial-particle-1 { left: 6px; top: 8px; animation: celestialParticle1 4.1s ease-in-out infinite; }
+.celestial-particle-2 { left: 17px; top: 74px; animation: celestialParticle2 4.8s ease-in-out infinite; }
+.celestial-particle-3 { left: 29px; top: 48px; animation: celestialParticle3 3.8s ease-in-out infinite; }
+.celestial-particle-4 { left: 40px; top: 20px; animation: celestialParticle4 5.2s ease-in-out infinite; }
+.celestial-particle-5 { left: 50px; top: 6px; animation: celestialParticle5 4.4s ease-in-out infinite; }
+.celestial-particle-6 { left: 62px; top: 77px; animation: celestialParticle6 4.9s ease-in-out infinite; }
+.celestial-particle-7 { left: 76px; top: 12px; animation: celestialParticle7 3.9s ease-in-out infinite; }
+.celestial-particle-8 { left: 88px; top: 30px; animation: celestialParticle8 5s ease-in-out infinite; }
+.celestial-particle-9 { right: 6px; top: 55px; animation: celestialParticle9 4.3s ease-in-out infinite; }
+.celestial-particle-10 { right: 17px; bottom: 7px; animation: celestialParticle10 5.4s ease-in-out infinite; }
+.celestial-particle-11 { right: 30px; bottom: 28px; animation: celestialParticle11 4.2s ease-in-out infinite; }
+.celestial-particle-12 { right: 42px; top: 11px; animation: celestialParticle12 5.1s ease-in-out infinite; }
+.celestial-particle-13 { right: 53px; bottom: 6px; animation: celestialParticle13 4.6s ease-in-out infinite; }
+.celestial-particle-14 { left: 12px; bottom: 37px; animation: celestialParticle14 5.3s ease-in-out infinite; }
+.celestial-particle-15 { left: 97px; top: 43px; animation: celestialParticle15 4s ease-in-out infinite; }
+.celestial-particle-16 { left: 70px; bottom: 15px; animation: celestialParticle16 5.2s ease-in-out infinite; }
+.celestial-particle-17 { left: 24px; top: 30px; animation: celestialParticle17 4.7s ease-in-out infinite; }
+.celestial-particle-18 { right: 26px; top: 45px; animation: celestialParticle18 4.1s ease-in-out infinite; }
+.celestial-particle-19 { left: 52px; top: 34px; width: 2px; height: 2px; animation: celestialParticle19 3.7s ease-in-out infinite; }
+.celestial-particle-20 { left: 80px; bottom: 39px; width: 2px; height: 2px; animation: celestialParticle20 4.6s ease-in-out infinite; }
+.celestial-core {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 61px;
+  height: 61px;
+  transform: translate(-50%,-50%);
+  z-index: 14;
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle,
+      rgba(224,255,251,.12),
+      rgba(74,245,227,.08) 28%,
+      rgba(84,145,255,.055) 47%,
+      transparent 72%
+    );
+  animation: celestialCoreFloat2681 3.4s ease-in-out infinite;
+  pointer-events: none;
+}
+.celestial-core-halo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 82px;
+  height: 82px;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle,
+      rgba(106,255,232,.2),
+      rgba(58,182,255,.1) 38%,
+      rgba(116,72,255,.06) 56%,
+      transparent 72%
+    );
+  filter: blur(9px);
+  animation: celestialHalo2681 3.1s ease-in-out infinite;
+}
+.celestial-core-ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 53px;
+  height: 53px;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  border: 1px solid rgba(182,255,247,.22);
+  box-shadow:
+    0 0 12px rgba(84,244,224,.15),
+    inset 0 0 12px rgba(84,244,224,.08);
+  animation: celestialCoreRing2681 5s linear infinite;
+}
+.celestial-core-inner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 37px;
+  height: 37px;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle at 34% 29%,
+      #ffffff 0%,
+      #dffffa 13%,
+      #73ffe9 30%,
+      #35dce6 48%,
+      rgba(77,105,255,.32) 68%,
+      transparent 79%
+    );
+  box-shadow:
+    0 0 7px rgba(234,255,253,.95),
+    0 0 15px rgba(110,255,231,.82),
+    0 0 27px rgba(50,201,230,.55),
+    0 0 43px rgba(88,86,255,.32);
+  animation: celestialCoreInner2681 2.3s ease-in-out infinite;
+}
+.celestial-core-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%,-50%) scale(.3) rotate(-20deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  color: #ffffff;
+  filter:
+    drop-shadow(0 0 6px rgba(255,255,255,.98))
+    drop-shadow(0 0 13px rgba(84,255,232,.7));
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage .celestial-core-icon {
+  opacity: 1;
+  transform: translate(-50%,-50%) scale(1) rotate(0deg);
+  transition:
+    opacity .4s ease .05s,
+    transform .55s cubic-bezier(.18,.9,.2,1) .05s;
+}
+.celestial-core-icon i {
+  font-size: 18px;
+  font-weight: 900;
+}
+.celestial-beam {
+  position: absolute;
+  z-index: 9;
+  border-radius: 999px;
+  pointer-events: none;
+  filter: blur(4px);
+}
+.celestial-beam-1 {
+  left: 3%;
+  top: 50%;
+  width: 94%;
+  height: 1px;
+  transform: translateY(-50%);
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(83,255,233,.05) 10%,
+      rgba(83,255,233,.55) 50%,
+      rgba(126,116,255,.05) 90%,
+      transparent
+    );
+  animation: celestialBeam1 4s ease-in-out infinite;
+}
+.celestial-beam-2 {
+  left: 50%;
+  top: 3%;
+  width: 1px;
+  height: 94%;
+  transform: translateX(-50%);
+  background:
+    linear-gradient(
+      to bottom,
+      transparent,
+      rgba(97,213,255,.04) 12%,
+      rgba(119,255,237,.42) 50%,
+      rgba(150,105,255,.04) 88%,
+      transparent
+    );
+  filter: blur(3px);
+  animation: celestialBeam2 4.8s ease-in-out infinite;
+}
+.celestial-beam-3 {
+  left: 50%;
+  top: 50%;
+  width: 84px;
+  height: 84px;
+  transform: translate(-50%,-50%) rotate(45deg);
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255,255,255,.05),
+      rgba(85,255,227,.18),
+      rgba(255,255,255,.05),
+      transparent
+    );
+  filter: blur(9px);
+  animation: celestialBeam3 5.6s ease-in-out infinite;
+}
+.celestial-spark {
+  position: absolute;
+  z-index: 17;
+  width: 9px;
+  height: 9px;
+  pointer-events: none;
+}
+.celestial-spark::before,
+.celestial-spark::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 999px;
+  background: #eaffff;
+  box-shadow:
+    0 0 5px rgba(255,255,255,.95),
+    0 0 13px rgba(67,241,225,.7),
+    0 0 20px rgba(89,103,255,.34);
+}
+.celestial-spark::before {
+  width: 2px;
+  height: 10px;
+}
+.celestial-spark::after {
+  width: 10px;
+  height: 2px;
+}
+.celestial-spark-1 { left: 17px; top: 29px; animation: celestialSpark1 2.8s ease-in-out infinite; }
+.celestial-spark-2 { left: 35px; bottom: 23px; animation: celestialSpark2 3.2s ease-in-out infinite .5s; }
+.celestial-spark-3 { left: 69px; top: 20px; animation: celestialSpark3 2.7s ease-in-out infinite .3s; }
+.celestial-spark-4 { right: 14px; top: 37px; animation: celestialSpark4 3.4s ease-in-out infinite; }
+.celestial-spark-5 { right: 32px; bottom: 20px; animation: celestialSpark5 2.9s ease-in-out infinite .4s; }
+.celestial-spark-6 { left: 52px; top: 68px; animation: celestialSpark6 3.3s ease-in-out infinite .7s; }
+.celestial-scan {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  top: -12%;
+  height: 1px;
+  z-index: 25;
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(90,248,228,.07),
+      rgba(230,255,252,.5),
+      rgba(88,205,255,.22),
+      transparent
+    );
+  box-shadow: 0 0 8px rgba(87,240,225,.2);
+  animation: celestialScan2681 4.8s ease-in-out infinite;
+  pointer-events: none;
+}
+.celestial-shine {
+  position: absolute;
+  top: -55%;
+  left: -80%;
+  width: 38%;
+  height: 210%;
+  z-index: 27;
+  transform: rotate(22deg);
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255,255,255,.02) 25%,
+      rgba(228,255,251,.42) 48%,
+      rgba(255,255,255,.06) 61%,
+      transparent
+    );
+  filter: blur(1px);
+  animation: celestialShine2681 5.4s cubic-bezier(.18,.7,.2,1) infinite;
+  pointer-events: none;
+}
+.celestial-border {
+  position: absolute;
+  inset: 1px;
+  z-index: 29;
+  border-radius: 19px;
+  padding: 1px;
+  background:
+    conic-gradient(
+      from 0deg,
+      rgba(92,255,235,.65),
+      rgba(83,188,255,.35),
+      rgba(117,92,255,.45),
+      rgba(233,106,255,.34),
+      rgba(92,255,235,.65)
+    );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  animation: celestialBorder2681 5s linear infinite;
+  pointer-events: none;
+}
+.celestial-copy {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 150px;
+}
+.celestial-copy-icon {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 11px;
+  background:
+    linear-gradient(145deg,rgba(103,255,234,.12),rgba(84,112,255,.08));
+  border: 1px solid rgba(126,235,255,.14);
+  box-shadow:
+    inset 0 0 12px rgba(99,241,225,.05),
+    0 0 14px rgba(69,208,255,.06);
+  color: #eaffff;
+}
+.celestial-copy-icon i {
+  font-size: 18px;
+  text-shadow:
+    0 0 6px rgba(255,255,255,.9),
+    0 0 15px rgba(94,255,233,.65);
+  animation: celestialIconFloat2681 2.8s ease-in-out infinite;
+}
+.celestial-copy-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.celestial-title {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: .2px;
+  color: #f4ffff;
+}
+.celestial-subtitle {
+  font-size: 8px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 2.3px;
+  text-transform: uppercase;
+  color: rgba(169,233,255,.54);
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage {
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,.04),
+    inset 0 0 28px rgba(84,246,227,.09),
+    0 0 30px rgba(71,242,218,.12);
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage .celestial-bg {
+  animation-duration: 7s;
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage .celestial-core {
+  animation-duration: 1.8s;
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage .celestial-core-inner {
+  animation-duration: 1.2s;
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage .celestial-core-ring {
+  border-color: rgba(202,255,246,.4);
+  box-shadow:
+    0 0 17px rgba(81,245,222,.24),
+    inset 0 0 15px rgba(81,245,222,.12);
+  animation-duration: 2.1s;
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage .celestial-orbit {
+  border-color: rgba(111,255,236,.23);
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage .celestial-particle {
+  animation-duration: 2s;
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage .celestial-star {
+  animation-duration: 1.7s;
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage .celestial-scan {
+  animation-duration: 2.3s;
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage .celestial-shine {
+  animation-duration: 2.6s;
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage .celestial-border {
+  animation-duration: 2.5s;
+}
+.legendary-celestial-checkbox input:checked + .celestial-stage::after {
+  border-color: rgba(127,245,235,.15);
+}
+.legendary-celestial-checkbox input:checked ~ .celestial-copy .celestial-copy-icon {
+  border-color: rgba(119,255,238,.34);
+  background:
+    linear-gradient(145deg,rgba(96,255,227,.17),rgba(101,104,255,.12));
+  box-shadow:
+    inset 0 0 16px rgba(99,241,225,.08),
+    0 0 18px rgba(69,208,255,.13);
+}
+.legendary-celestial-checkbox input:checked ~ .celestial-copy .celestial-copy-icon i {
+  animation-duration: 1.5s;
+}
+.legendary-celestial-checkbox input:checked ~ .celestial-copy .celestial-title {
+  color: #ffffff;
+  text-shadow:
+    0 0 8px rgba(139,255,239,.24),
+    0 0 16px rgba(74,177,255,.1);
+}
+@keyframes celestialPanelSweep2681 {
+  0% {
+    background-position: -120% 0;
+  }
+  45% {
+    background-position: 120% 0;
+  }
+  100% {
+    background-position: 120% 0;
+  }
+}
+@keyframes celestialBgRotation2681 {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.06);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+@keyframes celestialTwinkle1 {
+  0%,100% { opacity:.18; transform:scale(.7); }
+  50% { opacity:.95; transform:scale(1.25); }
+}
+@keyframes celestialTwinkle2 {
+  0%,100% { opacity:.25; transform:scale(.65); }
+  50% { opacity:.75; transform:scale(1.1); }
+}
+@keyframes celestialTwinkle3 {
+  0%,100% { opacity:.12; transform:scale(.6); }
+  50% { opacity:1; transform:scale(1.35); }
+}
+@keyframes celestialTwinkle4 {
+  0%,100% { opacity:.2; transform:scale(.72); }
+  50% { opacity:.82; transform:scale(1.18); }
+}
+@keyframes celestialTwinkle5 {
+  0%,100% { opacity:.18; transform:scale(.62); }
+  50% { opacity:.94; transform:scale(1.2); }
+}
+@keyframes celestialTwinkle6 {
+  0%,100% { opacity:.22; transform:scale(.65); }
+  50% { opacity:.9; transform:scale(1.22); }
+}
+@keyframes celestialTwinkle7 {
+  0%,100% { opacity:.14; transform:scale(.58); }
+  50% { opacity:.9; transform:scale(1.3); }
+}
+@keyframes celestialTwinkle8 {
+  0%,100% { opacity:.2; transform:scale(.62); }
+  50% { opacity:.84; transform:scale(1.18); }
+}
+@keyframes celestialTwinkle9 {
+  0%,100% { opacity:.15; transform:scale(.6); }
+  50% { opacity:.96; transform:scale(1.26); }
+}
+@keyframes celestialTwinkle10 {
+  0%,100% { opacity:.22; transform:scale(.66); }
+  50% { opacity:.8; transform:scale(1.12); }
+}
+@keyframes celestialTwinkle11 {
+  0%,100% { opacity:.13; transform:scale(.56); }
+  50% { opacity:.9; transform:scale(1.3); }
+}
+@keyframes celestialTwinkle12 {
+  0%,100% { opacity:.2; transform:scale(.64); }
+  50% { opacity:.88; transform:scale(1.18); }
+}
+@keyframes celestialTwinkle13 {
+  0%,100% { opacity:.16; transform:scale(.58); }
+  50% { opacity:.93; transform:scale(1.24); }
+}
+@keyframes celestialTwinkle14 {
+  0%,100% { opacity:.23; transform:scale(.66); }
+  50% { opacity:.79; transform:scale(1.12); }
+}
+@keyframes celestialTwinkle15 {
+  0%,100% { opacity:.15; transform:scale(.6); }
+  50% { opacity:.96; transform:scale(1.27); }
+}
+@keyframes celestialTwinkle16 {
+  0%,100% { opacity:.19; transform:scale(.64); }
+  50% { opacity:.84; transform:scale(1.19); }
+}
+@keyframes celestialTwinkle17 {
+  0%,100% { opacity:.11; transform:scale(.54); }
+  50% { opacity:.98; transform:scale(1.34); }
+}
+@keyframes celestialTwinkle18 {
+  0%,100% { opacity:.21; transform:scale(.65); }
+  50% { opacity:.82; transform:scale(1.16); }
+}
+@keyframes celestialOrbit1 {
+  0% { transform:translate(-50%,-50%) rotate(20deg) scale(.95); opacity:.12; }
+  50% { transform:translate(-50%,-50%) rotate(200deg) scale(1.04); opacity:.34; }
+  100% { transform:translate(-50%,-50%) rotate(380deg) scale(.95); opacity:.12; }
+}
+@keyframes celestialOrbit2 {
+  0% { transform:translate(-50%,-50%) rotate(-35deg) scale(.92); opacity:.08; }
+  50% { transform:translate(-50%,-50%) rotate(145deg) scale(1.06); opacity:.27; }
+  100% { transform:translate(-50%,-50%) rotate(325deg) scale(.92); opacity:.08; }
+}
+@keyframes celestialOrbit3 {
+  0% { transform:translate(-50%,-50%) rotate(75deg) scale(.94); opacity:.07; }
+  50% { transform:translate(-50%,-50%) rotate(255deg) scale(1.04); opacity:.22; }
+  100% { transform:translate(-50%,-50%) rotate(435deg) scale(.94); opacity:.07; }
+}
+@keyframes celestialOrbit4 {
+  0% { transform:translate(-50%,-50%) rotate(-60deg) scale(.93); opacity:.05; }
+  50% { transform:translate(-50%,-50%) rotate(120deg) scale(1.04); opacity:.17; }
+  100% { transform:translate(-50%,-50%) rotate(300deg) scale(.93); opacity:.05; }
+}
+@keyframes celestialOrbit5 {
+  0% { transform:translate(-50%,-50%) rotate(8deg) scale(.96); opacity:.04; }
+  50% { transform:translate(-50%,-50%) rotate(188deg) scale(1.03); opacity:.11; }
+  100% { transform:translate(-50%,-50%) rotate(368deg) scale(.96); opacity:.04; }
+}
+@keyframes celestialEnergy1 {
+  0%,100% { transform:translateX(-8px) rotate(14deg) scaleX(.62); opacity:.06; }
+  50% { transform:translateX(10px) rotate(11deg) scaleX(1.08); opacity:.58; }
+}
+@keyframes celestialEnergy2 {
+  0%,100% { transform:translateX(9px) rotate(-19deg) scaleX(.58); opacity:.05; }
+  50% { transform:translateX(-11px) rotate(-15deg) scaleX(1.05); opacity:.53; }
+}
+@keyframes celestialEnergy3 {
+  0%,100% { transform:translateX(8px) rotate(-12deg) scaleX(.6); opacity:.05; }
+  50% { transform:translateX(-9px) rotate(-9deg) scaleX(1.04); opacity:.48; }
+}
+@keyframes celestialEnergy4 {
+  0%,100% { transform:translateX(-8px) rotate(15deg) scaleX(.61); opacity:.05; }
+  50% { transform:translateX(10px) rotate(11deg) scaleX(1.07); opacity:.56; }
+}
+@keyframes celestialEnergy5 {
+  0%,100% { transform:translateY(6px) rotate(42deg) scaleX(.58); opacity:.04; }
+  50% { transform:translateY(-8px) rotate(48deg) scaleX(1.05); opacity:.43; }
+}
+@keyframes celestialEnergy6 {
+  0%,100% { transform:translateY(-5px) rotate(-40deg) scaleX(.56); opacity:.04; }
+  50% { transform:translateY(7px) rotate(-34deg) scaleX(1.06); opacity:.45; }
+}
+@keyframes celestialParticle1 {
+  0%,100% { transform:translate(0,0) scale(.5); opacity:.13; }
+  50% { transform:translate(8px,-12px) scale(1.2); opacity:.9; }
+}
+@keyframes celestialParticle2 {
+  0%,100% { transform:translate(0,0) scale(.55); opacity:.16; }
+  50% { transform:translate(-7px,-13px) scale(1.15); opacity:.84; }
+}
+@keyframes celestialParticle3 {
+  0%,100% { transform:translate(0,0) scale(.48); opacity:.11; }
+  50% { transform:translate(9px,-10px) scale(1.2); opacity:.93; }
+}
+@keyframes celestialParticle4 {
+  0%,100% { transform:translate(0,0) scale(.52); opacity:.14; }
+  50% { transform:translate(-8px,12px) scale(1.13); opacity:.86; }
+}
+@keyframes celestialParticle5 {
+  0%,100% { transform:translate(0,0) scale(.45); opacity:.1; }
+  50% { transform:translate(5px,14px) scale(1.22); opacity:.94; }
+}
+@keyframes celestialParticle6 {
+  0%,100% { transform:translate(0,0) scale(.56); opacity:.15; }
+  50% { transform:translate(-9px,-11px) scale(1.11); opacity:.83; }
+}
+@keyframes celestialParticle7 {
+  0%,100% { transform:translate(0,0) scale(.48); opacity:.12; }
+  50% { transform:translate(8px,10px) scale(1.2); opacity:.92; }
+}
+@keyframes celestialParticle8 {
+  0%,100% { transform:translate(0,0) scale(.5); opacity:.14; }
+  50% { transform:translate(-9px,-9px) scale(1.16); opacity:.88; }
+}
+@keyframes celestialParticle9 {
+  0%,100% { transform:translate(0,0) scale(.45); opacity:.1; }
+  50% { transform:translate(-9px,9px) scale(1.23); opacity:.95; }
+}
+@keyframes celestialParticle10 {
+  0%,100% { transform:translate(0,0) scale(.5); opacity:.13; }
+  50% { transform:translate(8px,-11px) scale(1.18); opacity:.89; }
+}
+@keyframes celestialParticle11 {
+  0%,100% { transform:translate(0,0) scale(.54); opacity:.12; }
+  50% { transform:translate(-8px,-10px) scale(1.14); opacity:.9; }
+}
+@keyframes celestialParticle12 {
+  0%,100% { transform:translate(0,0) scale(.46); opacity:.1; }
+  50% { transform:translate(6px,12px) scale(1.18); opacity:.91; }
+}
+@keyframes celestialParticle13 {
+  0%,100% { transform:translate(0,0) scale(.49); opacity:.12; }
+  50% { transform:translate(-7px,-12px) scale(1.2); opacity:.88; }
+}
+@keyframes celestialParticle14 {
+  0%,100% { transform:translate(0,0) scale(.52); opacity:.12; }
+  50% { transform:translate(10px,-8px) scale(1.15); opacity:.86; }
+}
+@keyframes celestialParticle15 {
+  0%,100% { transform:translate(0,0) scale(.44); opacity:.1; }
+  50% { transform:translate(-10px,8px) scale(1.24); opacity:.93; }
+}
+@keyframes celestialParticle16 {
+  0%,100% { transform:translate(0,0) scale(.5); opacity:.12; }
+  50% { transform:translate(-7px,-11px) scale(1.17); opacity:.86; }
+}
+@keyframes celestialParticle17 {
+  0%,100% { transform:translate(0,0) scale(.46); opacity:.1; }
+  50% { transform:translate(9px,8px) scale(1.2); opacity:.9; }
+}
+@keyframes celestialParticle18 {
+  0%,100% { transform:translate(0,0) scale(.5); opacity:.11; }
+  50% { transform:translate(-8px,-9px) scale(1.2); opacity:.92; }
+}
+@keyframes celestialParticle19 {
+  0%,100% { transform:translate(0,0) scale(.42); opacity:.08; }
+  50% { transform:translate(7px,-13px) scale(1.3); opacity:1; }
+}
+@keyframes celestialParticle20 {
+  0%,100% { transform:translate(0,0) scale(.43); opacity:.08; }
+  50% { transform:translate(-8px,-12px) scale(1.25); opacity:.96; }
+}
+@keyframes celestialCoreFloat2681 {
+  0%,100% {
+    transform:translate(-50%,-50%) translateY(4px) scale(.92);
+    opacity:.57;
+  }
+  50% {
+    transform:translate(-50%,-50%) translateY(-5px) scale(1.06);
+    opacity:1;
+  }
+}
+@keyframes celestialHalo2681 {
+  0%,100% {
+    transform:translate(-50%,-50%) scale(.8);
+    opacity:.32;
+  }
+  50% {
+    transform:translate(-50%,-50%) scale(1.16);
+    opacity:.8;
+  }
+}
+@keyframes celestialCoreRing2681 {
+  0% {
+    transform:translate(-50%,-50%) rotate(0deg) scale(.94);
+    opacity:.18;
+  }
+  50% {
+    transform:translate(-50%,-50%) rotate(180deg) scale(1.05);
+    opacity:.62;
+  }
+  100% {
+    transform:translate(-50%,-50%) rotate(360deg) scale(.94);
+    opacity:.18;
+  }
+}
+@keyframes celestialCoreInner2681 {
+  0%,100% {
+    transform:translate(-50%,-50%) scale(.84);
+    filter:brightness(.88) saturate(1);
+  }
+  50% {
+    transform:translate(-50%,-50%) scale(1.1);
+    filter:brightness(1.34) saturate(1.14);
+  }
+}
+@keyframes celestialBeam1 {
+  0%,100% {
+    opacity:.13;
+    transform:translateY(-50%) scaleX(.72);
+  }
+  50% {
+    opacity:.54;
+    transform:translateY(-50%) scaleX(1.05);
+  }
+}
+@keyframes celestialBeam2 {
+  0%,100% {
+    opacity:.08;
+    transform:translateX(-50%) scaleY(.7);
+  }
+  50% {
+    opacity:.42;
+    transform:translateX(-50%) scaleY(1.06);
+  }
+}
+@keyframes celestialBeam3 {
+  0%,100% {
+    opacity:.05;
+    transform:translate(-50%,-50%) rotate(45deg) scale(.75);
+  }
+  50% {
+    opacity:.25;
+    transform:translate(-50%,-50%) rotate(135deg) scale(1.08);
+  }
+}
+@keyframes celestialSpark1 {
+  0%,100% {
+    transform:scale(.35) rotate(0deg);
+    opacity:.08;
+  }
+  50% {
+    transform:scale(1) rotate(45deg);
+    opacity:1;
+  }
+}
+@keyframes celestialSpark2 {
+  0%,100% {
+    transform:scale(.3) rotate(0deg);
+    opacity:.07;
+  }
+  50% {
+    transform:scale(.9) rotate(-45deg);
+    opacity:.86;
+  }
+}
+@keyframes celestialSpark3 {
+  0%,100% {
+    transform:scale(.32) rotate(0deg);
+    opacity:.06;
+  }
+  50% {
+    transform:scale(1.05) rotate(45deg);
+    opacity:.98;
+  }
+}
+@keyframes celestialSpark4 {
+  0%,100% {
+    transform:scale(.36) rotate(0deg);
+    opacity:.07;
+  }
+  50% {
+    transform:scale(1) rotate(-45deg);
+    opacity:.95;
+  }
+}
+@keyframes celestialSpark5 {
+  0%,100% {
+    transform:scale(.3) rotate(0deg);
+    opacity:.06;
+  }
+  50% {
+    transform:scale(.88) rotate(45deg);
+    opacity:.84;
+  }
+}
+@keyframes celestialSpark6 {
+  0%,100% {
+    transform:scale(.32) rotate(0deg);
+    opacity:.07;
+  }
+  50% {
+    transform:scale(.98) rotate(-45deg);
+    opacity:.92;
+  }
+}
+@keyframes celestialScan2681 {
+  0% {
+    top:-12%;
+    opacity:0;
+  }
+  11% {
+    opacity:.08;
+  }
+  28% {
+    opacity:.65;
+  }
+  43% {
+    opacity:.12;
+  }
+  61% {
+    top:112%;
+    opacity:0;
+  }
+  100% {
+    top:112%;
+    opacity:0;
+  }
+}
+@keyframes celestialShine2681 {
+  0% {
+    left:-80%;
+    opacity:0;
+  }
+  9% {
+    opacity:.02;
+  }
+  18% {
+    opacity:.72;
+  }
+  31% {
+    opacity:.14;
+  }
+  45% {
+    left:135%;
+    opacity:0;
+  }
+  100% {
+    left:135%;
+    opacity:0;
+  }
+}
+@keyframes celestialBorder2681 {
+  to {
+    transform:rotate(360deg);
+  }
+}
+@keyframes celestialIconFloat2681 {
+  0%,100% {
+    transform:translateY(0) rotate(0deg);
+  }
+  50% {
+    transform:translateY(-3px) rotate(7deg);
+  }
+}
+@media (max-width:600px) {
+  .legendary-celestial-checkbox {
+    min-width:270px;
+    gap:11px;
+    padding-right:14px;
+  }
+  .celestial-stage {
+    flex-basis:92px;
+    width:92px;
+    height:78px;
+  }
+  .celestial-copy {
+    gap:9px;
+  }
+  .celestial-copy-icon {
+    width:30px;
+    height:30px;
+  }
+  .celestial-title {
+    font-size:14px;
+  }
+  .celestial-subtitle {
+    font-size:7px;
+    letter-spacing:1.8px;
+  }
+}
+@media (max-width:430px) {
+  .legendary-celestial-checkbox {
+    min-width:225px;
+    gap:8px;
+    padding:10px;
+  }
+  .celestial-stage {
+    flex-basis:76px;
+    width:76px;
+    height:68px;
+    border-radius:15px;
+  }
+  .celestial-copy-icon {
+    width:27px;
+    height:27px;
+    border-radius:9px;
+  }
+  .celestial-copy-icon i {
+    font-size:15px;
+  }
+  .celestial-title {
+    font-size:12px;
+  }
+  .celestial-subtitle {
+    font-size:6px;
+    letter-spacing:1.4px;
+  }
+}
+@media (prefers-reduced-motion:reduce) {
+  .legendary-celestial-checkbox,
+  .legendary-celestial-checkbox *,
+  .legendary-celestial-checkbox::before,
+  .legendary-celestial-checkbox::after {
+    animation-duration:.001ms !important;
+    animation-iteration-count:1 !important;
+    transition-duration:.001ms !important;
+  }
+}
+`,
+  },
+  {
+    id: 2682,
+    name: "Legendary Quantum Reactor Checkbox",
+    preview: (
+      <label className="quantum-reactor-checkbox">
+        <input type="checkbox" />
+        <span className="quantum-reactor-main">
+          <span className="quantum-reactor-background"></span>
+          <span className="quantum-reactor-noise"></span>
+          <span className="quantum-reactor-grid"></span>
+          <span className="quantum-reactor-grid quantum-reactor-grid-2"></span>
+          <span className="quantum-reactor-vignette"></span>
+          <span className="quantum-reactor-frame">
+            <span className="quantum-frame-line quantum-frame-line-1"></span>
+            <span className="quantum-frame-line quantum-frame-line-2"></span>
+            <span className="quantum-frame-line quantum-frame-line-3"></span>
+            <span className="quantum-frame-line quantum-frame-line-4"></span>
+            <span className="quantum-frame-corner quantum-frame-corner-1"></span>
+            <span className="quantum-frame-corner quantum-frame-corner-2"></span>
+            <span className="quantum-frame-corner quantum-frame-corner-3"></span>
+            <span className="quantum-frame-corner quantum-frame-corner-4"></span>
+          </span>
+          <span className="quantum-reactor-hex quantum-reactor-hex-1"></span>
+          <span className="quantum-reactor-hex quantum-reactor-hex-2"></span>
+          <span className="quantum-reactor-hex quantum-reactor-hex-3"></span>
+          <span className="quantum-reactor-hex quantum-reactor-hex-4"></span>
+          <span className="quantum-reactor-ring quantum-reactor-ring-1"></span>
+          <span className="quantum-reactor-ring quantum-reactor-ring-2"></span>
+          <span className="quantum-reactor-ring quantum-reactor-ring-3"></span>
+          <span className="quantum-reactor-ring quantum-reactor-ring-4"></span>
+          <span className="quantum-reactor-ring quantum-reactor-ring-5"></span>
+          <span className="quantum-reactor-ring quantum-reactor-ring-6"></span>
+          <span className="quantum-reactor-orbit quantum-reactor-orbit-1"></span>
+          <span className="quantum-reactor-orbit quantum-reactor-orbit-2"></span>
+          <span className="quantum-reactor-orbit quantum-reactor-orbit-3"></span>
+          <span className="quantum-reactor-orbit-dot quantum-reactor-orbit-dot-1"></span>
+          <span className="quantum-reactor-orbit-dot quantum-reactor-orbit-dot-2"></span>
+          <span className="quantum-reactor-orbit-dot quantum-reactor-orbit-dot-3"></span>
+          <span className="quantum-reactor-orbit-dot quantum-reactor-orbit-dot-4"></span>
+          <span className="quantum-reactor-orbit-dot quantum-reactor-orbit-dot-5"></span>
+          <span className="quantum-reactor-orbit-dot quantum-reactor-orbit-dot-6"></span>
+          <span className="quantum-reactor-pulse quantum-reactor-pulse-1"></span>
+          <span className="quantum-reactor-pulse quantum-reactor-pulse-2"></span>
+          <span className="quantum-reactor-pulse quantum-reactor-pulse-3"></span>
+          <span className="quantum-reactor-pulse quantum-reactor-pulse-4"></span>
+          <span className="quantum-reactor-energy quantum-reactor-energy-1"></span>
+          <span className="quantum-reactor-energy quantum-reactor-energy-2"></span>
+          <span className="quantum-reactor-energy quantum-reactor-energy-3"></span>
+          <span className="quantum-reactor-energy quantum-reactor-energy-4"></span>
+          <span className="quantum-reactor-energy quantum-reactor-energy-5"></span>
+          <span className="quantum-reactor-energy quantum-reactor-energy-6"></span>
+          <span className="quantum-reactor-energy quantum-reactor-energy-7"></span>
+          <span className="quantum-reactor-energy quantum-reactor-energy-8"></span>
+          <span className="quantum-reactor-energy quantum-reactor-energy-9"></span>
+          <span className="quantum-reactor-energy quantum-reactor-energy-10"></span>
+          <span className="quantum-reactor-energy quantum-reactor-energy-11"></span>
+          <span className="quantum-reactor-energy quantum-reactor-energy-12"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-1"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-2"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-3"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-4"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-5"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-6"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-7"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-8"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-9"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-10"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-11"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-12"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-13"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-14"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-15"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-16"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-17"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-18"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-19"></span>
+          <span className="quantum-reactor-particle quantum-reactor-particle-20"></span>
+          <span className="quantum-reactor-spark quantum-reactor-spark-1"></span>
+          <span className="quantum-reactor-spark quantum-reactor-spark-2"></span>
+          <span className="quantum-reactor-spark quantum-reactor-spark-3"></span>
+          <span className="quantum-reactor-spark quantum-reactor-spark-4"></span>
+          <span className="quantum-reactor-spark quantum-reactor-spark-5"></span>
+          <span className="quantum-reactor-spark quantum-reactor-spark-6"></span>
+          <span className="quantum-reactor-spark quantum-reactor-spark-7"></span>
+          <span className="quantum-reactor-spark quantum-reactor-spark-8"></span>
+          <span className="quantum-reactor-reactor">
+            <span className="quantum-reactor-reactor-halo"></span>
+            <span className="quantum-reactor-reactor-shell"></span>
+            <span className="quantum-reactor-reactor-shell quantum-reactor-reactor-shell-2"></span>
+            <span className="quantum-reactor-reactor-shell quantum-reactor-reactor-shell-3"></span>
+            <span className="quantum-reactor-reactor-core"></span>
+            <span className="quantum-reactor-reactor-core quantum-reactor-reactor-core-2"></span>
+            <span className="quantum-reactor-reactor-light"></span>
+            <span className="quantum-reactor-check">
+              <i className="ri-check-line"></i>
+            </span>
+          </span>
+          <span className="quantum-reactor-beam quantum-reactor-beam-1"></span>
+          <span className="quantum-reactor-beam quantum-reactor-beam-2"></span>
+          <span className="quantum-reactor-beam quantum-reactor-beam-3"></span>
+          <span className="quantum-reactor-beam quantum-reactor-beam-4"></span>
+          <span className="quantum-reactor-ray quantum-reactor-ray-1"></span>
+          <span className="quantum-reactor-ray quantum-reactor-ray-2"></span>
+          <span className="quantum-reactor-ray quantum-reactor-ray-3"></span>
+          <span className="quantum-reactor-ray quantum-reactor-ray-4"></span>
+          <span className="quantum-reactor-scan quantum-reactor-scan-1"></span>
+          <span className="quantum-reactor-scan quantum-reactor-scan-2"></span>
+          <span className="quantum-reactor-shine"></span>
+          <span className="quantum-reactor-glitch quantum-reactor-glitch-1"></span>
+          <span className="quantum-reactor-glitch quantum-reactor-glitch-2"></span>
+          <span className="quantum-reactor-status quantum-reactor-status-1"></span>
+          <span className="quantum-reactor-status quantum-reactor-status-2"></span>
+          <span className="quantum-reactor-status quantum-reactor-status-3"></span>
+          <span className="quantum-reactor-border"></span>
+        </span>
+        <span className="quantum-reactor-label">
+          <span className="quantum-reactor-label-icon">
+            <i className="ri-cpu-line"></i>
+          </span>
+          <span className="quantum-reactor-label-copy">
+            <span className="quantum-reactor-title">Quantum Core</span>
+            <span className="quantum-reactor-subtitle">
+              Reactor Authorization
+            </span>
+          </span>
+          <span className="quantum-reactor-indicator"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="quantum-reactor-checkbox">
+  <input type="checkbox">
+  <span class="quantum-reactor-main">
+    <span class="quantum-reactor-background"></span>
+    <span class="quantum-reactor-noise"></span>
+    <span class="quantum-reactor-grid"></span>
+    <span class="quantum-reactor-grid quantum-reactor-grid-2"></span>
+    <span class="quantum-reactor-vignette"></span>
+    <span class="quantum-reactor-frame">
+      <span class="quantum-frame-line quantum-frame-line-1"></span>
+      <span class="quantum-frame-line quantum-frame-line-2"></span>
+      <span class="quantum-frame-line quantum-frame-line-3"></span>
+      <span class="quantum-frame-line quantum-frame-line-4"></span>
+      <span class="quantum-frame-corner quantum-frame-corner-1"></span>
+      <span class="quantum-frame-corner quantum-frame-corner-2"></span>
+      <span class="quantum-frame-corner quantum-frame-corner-3"></span>
+      <span class="quantum-frame-corner quantum-frame-corner-4"></span>
+    </span>
+    <span class="quantum-reactor-hex quantum-reactor-hex-1"></span>
+    <span class="quantum-reactor-hex quantum-reactor-hex-2"></span>
+    <span class="quantum-reactor-hex quantum-reactor-hex-3"></span>
+    <span class="quantum-reactor-hex quantum-reactor-hex-4"></span>
+    <span class="quantum-reactor-ring quantum-reactor-ring-1"></span>
+    <span class="quantum-reactor-ring quantum-reactor-ring-2"></span>
+    <span class="quantum-reactor-ring quantum-reactor-ring-3"></span>
+    <span class="quantum-reactor-ring quantum-reactor-ring-4"></span>
+    <span class="quantum-reactor-ring quantum-reactor-ring-5"></span>
+    <span class="quantum-reactor-ring quantum-reactor-ring-6"></span>
+    <span class="quantum-reactor-orbit quantum-reactor-orbit-1"></span>
+    <span class="quantum-reactor-orbit quantum-reactor-orbit-2"></span>
+    <span class="quantum-reactor-orbit quantum-reactor-orbit-3"></span>
+    <span class="quantum-reactor-orbit-dot quantum-reactor-orbit-dot-1"></span>
+    <span class="quantum-reactor-orbit-dot quantum-reactor-orbit-dot-2"></span>
+    <span class="quantum-reactor-orbit-dot quantum-reactor-orbit-dot-3"></span>
+    <span class="quantum-reactor-orbit-dot quantum-reactor-orbit-dot-4"></span>
+    <span class="quantum-reactor-orbit-dot quantum-reactor-orbit-dot-5"></span>
+    <span class="quantum-reactor-orbit-dot quantum-reactor-orbit-dot-6"></span>
+    <span class="quantum-reactor-pulse quantum-reactor-pulse-1"></span>
+    <span class="quantum-reactor-pulse quantum-reactor-pulse-2"></span>
+    <span class="quantum-reactor-pulse quantum-reactor-pulse-3"></span>
+    <span class="quantum-reactor-pulse quantum-reactor-pulse-4"></span>
+    <span class="quantum-reactor-energy quantum-reactor-energy-1"></span>
+    <span class="quantum-reactor-energy quantum-reactor-energy-2"></span>
+    <span class="quantum-reactor-energy quantum-reactor-energy-3"></span>
+    <span class="quantum-reactor-energy quantum-reactor-energy-4"></span>
+    <span class="quantum-reactor-energy quantum-reactor-energy-5"></span>
+    <span class="quantum-reactor-energy quantum-reactor-energy-6"></span>
+    <span class="quantum-reactor-energy quantum-reactor-energy-7"></span>
+    <span class="quantum-reactor-energy quantum-reactor-energy-8"></span>
+    <span class="quantum-reactor-energy quantum-reactor-energy-9"></span>
+    <span class="quantum-reactor-energy quantum-reactor-energy-10"></span>
+    <span class="quantum-reactor-energy quantum-reactor-energy-11"></span>
+    <span class="quantum-reactor-energy quantum-reactor-energy-12"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-1"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-2"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-3"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-4"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-5"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-6"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-7"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-8"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-9"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-10"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-11"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-12"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-13"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-14"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-15"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-16"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-17"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-18"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-19"></span>
+    <span class="quantum-reactor-particle quantum-reactor-particle-20"></span>
+    <span class="quantum-reactor-spark quantum-reactor-spark-1"></span>
+    <span class="quantum-reactor-spark quantum-reactor-spark-2"></span>
+    <span class="quantum-reactor-spark quantum-reactor-spark-3"></span>
+    <span class="quantum-reactor-spark quantum-reactor-spark-4"></span>
+    <span class="quantum-reactor-spark quantum-reactor-spark-5"></span>
+    <span class="quantum-reactor-spark quantum-reactor-spark-6"></span>
+    <span class="quantum-reactor-spark quantum-reactor-spark-7"></span>
+    <span class="quantum-reactor-spark quantum-reactor-spark-8"></span>
+    <span class="quantum-reactor-reactor">
+      <span class="quantum-reactor-reactor-halo"></span>
+      <span class="quantum-reactor-reactor-shell"></span>
+      <span class="quantum-reactor-reactor-shell quantum-reactor-reactor-shell-2"></span>
+      <span class="quantum-reactor-reactor-shell quantum-reactor-reactor-shell-3"></span>
+      <span class="quantum-reactor-reactor-core"></span>
+      <span class="quantum-reactor-reactor-core quantum-reactor-reactor-core-2"></span>
+      <span class="quantum-reactor-reactor-light"></span>
+      <span class="quantum-reactor-check"><i class="ri-check-line"></i></span>
+    </span>
+    <span class="quantum-reactor-beam quantum-reactor-beam-1"></span>
+    <span class="quantum-reactor-beam quantum-reactor-beam-2"></span>
+    <span class="quantum-reactor-beam quantum-reactor-beam-3"></span>
+    <span class="quantum-reactor-beam quantum-reactor-beam-4"></span>
+    <span class="quantum-reactor-ray quantum-reactor-ray-1"></span>
+    <span class="quantum-reactor-ray quantum-reactor-ray-2"></span>
+    <span class="quantum-reactor-ray quantum-reactor-ray-3"></span>
+    <span class="quantum-reactor-ray quantum-reactor-ray-4"></span>
+    <span class="quantum-reactor-scan quantum-reactor-scan-1"></span>
+    <span class="quantum-reactor-scan quantum-reactor-scan-2"></span>
+    <span class="quantum-reactor-shine"></span>
+    <span class="quantum-reactor-glitch quantum-reactor-glitch-1"></span>
+    <span class="quantum-reactor-glitch quantum-reactor-glitch-2"></span>
+    <span class="quantum-reactor-status quantum-reactor-status-1"></span>
+    <span class="quantum-reactor-status quantum-reactor-status-2"></span>
+    <span class="quantum-reactor-status quantum-reactor-status-3"></span>
+    <span class="quantum-reactor-border"></span>
+  </span>
+  <span class="quantum-reactor-label">
+    <span class="quantum-reactor-label-icon"><i class="ri-cpu-line"></i></span>
+    <span class="quantum-reactor-label-copy">
+      <span class="quantum-reactor-title">Quantum Core</span>
+      <span class="quantum-reactor-subtitle">Reactor Authorization</span>
+    </span>
+    <span class="quantum-reactor-indicator"></span>
+  </span>
+</label>`,
+    css: `
+.quantum-reactor-checkbox{--qr-cyan:#67fff1;--qr-aqua:#36dfff;--qr-blue:#4389ff;--qr-violet:#855cff;--qr-pink:#dc60ff;--qr-white:#f7ffff;position:relative;display:inline-flex;align-items:center;gap:18px;width:390px;min-height:126px;padding:13px 20px 13px 13px;border:1px solid rgba(88,213,255,.2);border-radius:25px;background:linear-gradient(145deg,rgba(255,255,255,.035),transparent 28%),linear-gradient(325deg,rgba(57,81,255,.045),transparent 50%),rgba(3,8,17,.96);box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 13px 36px rgba(0,0,0,.34),0 0 30px rgba(61,159,255,.06);overflow:hidden;isolation:isolate;cursor:pointer;user-select:none;transform:translateZ(0);transition:transform .45s cubic-bezier(.18,.82,.2,1),border-color .45s ease,box-shadow .45s ease,background .45s ease}
+.quantum-reactor-checkbox:hover{transform:translateY(-5px) scale(1.012);border-color:rgba(108,237,255,.48);box-shadow:inset 0 1px 0 rgba(255,255,255,.075),0 17px 45px rgba(0,0,0,.4),0 0 42px rgba(54,212,255,.12),0 0 80px rgba(124,75,255,.06)}
+.quantum-reactor-checkbox:active{transform:translateY(-1px) scale(.995)}
+.quantum-reactor-checkbox:focus-within{border-color:rgba(151,245,255,.65);box-shadow:0 0 0 3px rgba(69,210,255,.11),0 0 0 7px rgba(69,210,255,.045),0 0 45px rgba(66,211,255,.18)}
+.quantum-reactor-checkbox input{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.quantum-reactor-main{position:relative;flex:0 0 154px;width:154px;height:100px;border-radius:20px;overflow:hidden;background:radial-gradient(circle at 50% 50%,rgba(70,223,255,.085),transparent 27%),linear-gradient(145deg,#071523,#020711 72%);box-shadow:inset 0 0 0 1px rgba(255,255,255,.035),inset 0 0 35px rgba(49,196,255,.04);isolation:isolate}
+.quantum-reactor-main::before{content:"";position:absolute;inset:0;z-index:38;border-radius:inherit;border:1px solid rgba(255,255,255,.035);pointer-events:none}
+.quantum-reactor-main::after{content:"";position:absolute;inset:0;z-index:39;background:linear-gradient(115deg,transparent,rgba(255,255,255,.025) 47%,transparent 53%);background-size:220% 100%;animation:qrPanelSweep2682 7s linear infinite;pointer-events:none}
+.quantum-reactor-background{position:absolute;inset:-30%;z-index:-6;background:radial-gradient(circle at 30% 40%,rgba(53,235,255,.16),transparent 22%),radial-gradient(circle at 70% 64%,rgba(102,75,255,.15),transparent 25%),conic-gradient(from 0deg,rgba(42,144,255,.04),rgba(82,255,227,.08),rgba(137,76,255,.08),rgba(220,92,255,.04),rgba(42,144,255,.04));filter:blur(13px);animation:qrBackground2682 18s linear infinite}
+.quantum-reactor-noise{position:absolute;inset:0;z-index:2;opacity:.12;background-image:radial-gradient(rgba(255,255,255,.4) .5px,transparent .7px);background-size:7px 7px;mix-blend-mode:screen;animation:qrNoise2682 .18s steps(2) infinite}
+.quantum-reactor-grid{position:absolute;inset:0;z-index:3;background-image:linear-gradient(rgba(83,230,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(83,230,255,.035) 1px,transparent 1px);background-size:16px 16px;mask-image:linear-gradient(to bottom,transparent,#000 20%,#000 80%,transparent);-webkit-mask-image:linear-gradient(to bottom,transparent,#000 20%,#000 80%,transparent);animation:qrGrid2682 8s linear infinite;pointer-events:none}
+.quantum-reactor-grid-2{background-size:37px 37px;background-image:linear-gradient(rgba(115,96,255,.024) 1px,transparent 1px),linear-gradient(90deg,rgba(115,96,255,.024) 1px,transparent 1px);animation-duration:13s;animation-direction:reverse}
+.quantum-reactor-vignette{position:absolute;inset:0;z-index:4;background:radial-gradient(circle,transparent 30%,rgba(0,0,0,.28) 100%);pointer-events:none}
+.quantum-reactor-frame{position:absolute;inset:8px;z-index:12;border:1px solid rgba(77,212,255,.08);border-radius:16px;pointer-events:none}
+.quantum-frame-line{position:absolute;background:linear-gradient(90deg,transparent,rgba(78,240,227,.5),transparent)}
+.quantum-frame-line-1{left:12px;right:12px;top:0;height:1px;animation:qrFrameLineTop2682 4s linear infinite}
+.quantum-frame-line-2{left:12px;right:12px;bottom:0;height:1px;animation:qrFrameLineBottom2682 4.7s linear infinite}
+.quantum-frame-line-3{top:12px;bottom:12px;left:0;width:1px;transform:rotate(180deg);animation:qrFrameLineLeft2682 4.4s linear infinite}
+.quantum-frame-line-4{top:12px;bottom:12px;right:0;width:1px;transform:rotate(180deg);animation:qrFrameLineRight2682 5s linear infinite}
+.quantum-frame-corner{position:absolute;width:17px;height:17px;border-color:rgba(105,236,255,.5)}
+.quantum-frame-corner-1{left:-1px;top:-1px;border-left:2px solid;border-top:2px solid}
+.quantum-frame-corner-2{right:-1px;top:-1px;border-right:2px solid;border-top:2px solid}
+.quantum-frame-corner-3{left:-1px;bottom:-1px;border-left:2px solid;border-bottom:2px solid}
+.quantum-frame-corner-4{right:-1px;bottom:-1px;border-right:2px solid;border-bottom:2px solid}
+.quantum-reactor-hex{position:absolute;left:50%;top:50%;width:108px;height:94px;transform:translate(-50%,-50%);clip-path:polygon(25% 4%,75% 4%,98% 50%,75% 96%,25% 96%,2% 50%);border:1px solid rgba(94,219,255,.1);background:linear-gradient(145deg,rgba(57,224,255,.035),rgba(115,82,255,.035));pointer-events:none}
+.quantum-reactor-hex-1{width:109px;height:95px;animation:qrHexOne2682 8s linear infinite}
+.quantum-reactor-hex-2{width:92px;height:80px;transform:translate(-50%,-50%) rotate(30deg);border-color:rgba(116,103,255,.08);animation:qrHexTwo2682 10s linear infinite reverse}
+.quantum-reactor-hex-3{width:132px;height:113px;transform:translate(-50%,-50%) rotate(15deg);border-color:rgba(59,238,228,.055);animation:qrHexThree2682 14s linear infinite}
+.quantum-reactor-hex-4{width:77px;height:68px;transform:translate(-50%,-50%) rotate(-25deg);border-color:rgba(224,95,255,.06);animation:qrHexFour2682 6.7s linear infinite reverse}
+.quantum-reactor-ring{position:absolute;left:50%;top:50%;border-radius:50%;transform:translate(-50%,-50%);pointer-events:none}
+.quantum-reactor-ring-1{width:35px;height:35px;border:1px solid rgba(210,255,250,.18);animation:qrRingOne2682 3s ease-in-out infinite}
+.quantum-reactor-ring-2{width:51px;height:51px;border:1px solid rgba(83,248,228,.13);animation:qrRingTwo2682 5s linear infinite}
+.quantum-reactor-ring-3{width:69px;height:69px;border:1px solid rgba(71,207,255,.1);animation:qrRingThree2682 7s linear infinite reverse}
+.quantum-reactor-ring-4{width:86px;height:86px;border:1px dashed rgba(111,101,255,.09);animation:qrRingFour2682 9s linear infinite}
+.quantum-reactor-ring-5{width:111px;height:111px;border:1px solid rgba(93,240,231,.055);animation:qrRingFive2682 12s linear infinite reverse}
+.quantum-reactor-ring-6{width:139px;height:139px;border:1px solid rgba(88,111,255,.045);animation:qrRingSix2682 16s linear infinite}
+.quantum-reactor-orbit{position:absolute;left:50%;top:50%;border:1px solid rgba(100,235,255,.09);border-radius:50%;transform:translate(-50%,-50%);pointer-events:none}
+.quantum-reactor-orbit-1{width:104px;height:34px;transform:translate(-50%,-50%) rotate(20deg);animation:qrOrbitOne2682 6s linear infinite}
+.quantum-reactor-orbit-2{width:122px;height:44px;transform:translate(-50%,-50%) rotate(-32deg);border-color:rgba(124,90,255,.07);animation:qrOrbitTwo2682 8s linear infinite reverse}
+.quantum-reactor-orbit-3{width:139px;height:59px;transform:translate(-50%,-50%) rotate(63deg);border-color:rgba(64,245,220,.06);animation:qrOrbitThree2682 11s linear infinite}
+.quantum-reactor-orbit-dot{position:absolute;width:4px;height:4px;border-radius:50%;background:#dcfffa;box-shadow:0 0 5px rgba(255,255,255,.9),0 0 13px rgba(71,243,224,.85);z-index:17}
+.quantum-reactor-orbit-dot-1{left:29px;top:31px;animation:qrOrbitDotOne2682 4.4s linear infinite}
+.quantum-reactor-orbit-dot-2{right:28px;top:27px;animation:qrOrbitDotTwo2682 5.3s linear infinite reverse}
+.quantum-reactor-orbit-dot-3{left:42px;bottom:23px;animation:qrOrbitDotThree2682 4.9s linear infinite}
+.quantum-reactor-orbit-dot-4{right:42px;bottom:21px;animation:qrOrbitDotFour2682 5.8s linear infinite reverse}
+.quantum-reactor-orbit-dot-5{left:77px;top:12px;width:3px;height:3px;animation:qrOrbitDotFive2682 3.8s linear infinite}
+.quantum-reactor-orbit-dot-6{right:77px;bottom:11px;width:3px;height:3px;animation:qrOrbitDotSix2682 4.6s linear infinite reverse}
+.quantum-reactor-pulse{position:absolute;left:50%;top:50%;width:52px;height:52px;border-radius:50%;transform:translate(-50%,-50%);border:1px solid rgba(86,255,232,.25);pointer-events:none}
+.quantum-reactor-pulse-1{animation:qrPulseOne2682 2.7s ease-out infinite}
+.quantum-reactor-pulse-2{animation:qrPulseTwo2682 2.7s ease-out .9s infinite}
+.quantum-reactor-pulse-3{animation:qrPulseThree2682 2.7s ease-out 1.8s infinite}
+.quantum-reactor-pulse-4{animation:qrPulseFour2682 3.8s ease-out 2.4s infinite}
+.quantum-reactor-energy{position:absolute;height:1px;border-radius:999px;background:linear-gradient(90deg,transparent,rgba(178,255,246,.18),rgba(78,255,229,.8),rgba(92,167,255,.18),transparent);filter:blur(.25px);z-index:18;pointer-events:none}
+.quantum-reactor-energy-1{left:1px;top:19px;width:41px;transform:rotate(16deg);animation:qrEnergyOne2682 4s ease-in-out infinite}
+.quantum-reactor-energy-2{right:1px;top:24px;width:42px;transform:rotate(-17deg);animation:qrEnergyTwo2682 4.6s ease-in-out infinite}
+.quantum-reactor-energy-3{left:3px;bottom:23px;width:43px;transform:rotate(-12deg);animation:qrEnergyThree2682 4.4s ease-in-out infinite}
+.quantum-reactor-energy-4{right:3px;bottom:20px;width:40px;transform:rotate(14deg);animation:qrEnergyFour2682 5s ease-in-out infinite}
+.quantum-reactor-energy-5{left:28px;top:5px;width:28px;transform:rotate(40deg);animation:qrEnergyFive2682 4.8s ease-in-out infinite}
+.quantum-reactor-energy-6{right:28px;bottom:5px;width:31px;transform:rotate(-42deg);animation:qrEnergySix2682 4.1s ease-in-out infinite}
+.quantum-reactor-energy-7{left:16px;top:45px;width:27px;transform:rotate(-90deg);animation:qrEnergySeven2682 5.4s ease-in-out infinite}
+.quantum-reactor-energy-8{right:17px;top:53px;width:30px;transform:rotate(90deg);animation:qrEnergyEight2682 4.9s ease-in-out infinite}
+.quantum-reactor-energy-9{left:53px;top:1px;width:21px;transform:rotate(4deg);animation:qrEnergyNine2682 3.9s ease-in-out infinite}
+.quantum-reactor-energy-10{right:53px;bottom:1px;width:22px;transform:rotate(-5deg);animation:qrEnergyTen2682 4.7s ease-in-out infinite}
+.quantum-reactor-energy-11{left:5px;top:69px;width:24px;transform:rotate(31deg);animation:qrEnergyEleven2682 4.2s ease-in-out infinite}
+.quantum-reactor-energy-12{right:5px;top:70px;width:23px;transform:rotate(-30deg);animation:qrEnergyTwelve2682 5.1s ease-in-out infinite}
+.quantum-reactor-particle{position:absolute;width:3px;height:3px;border-radius:50%;background:#efffff;box-shadow:0 0 5px rgba(238,255,255,.95),0 0 12px rgba(65,239,224,.8),0 0 22px rgba(81,120,255,.3);z-index:20;pointer-events:none}
+.quantum-reactor-particle-1{left:9px;top:12px;animation:qrParticleOne2682 4.1s ease-in-out infinite}
+.quantum-reactor-particle-2{left:24px;top:55px;animation:qrParticleTwo2682 5.2s ease-in-out infinite}
+.quantum-reactor-particle-3{left:38px;top:7px;animation:qrParticleThree2682 4.7s ease-in-out infinite}
+.quantum-reactor-particle-4{left:53px;top:81px;animation:qrParticleFour2682 4.5s ease-in-out infinite}
+.quantum-reactor-particle-5{left:67px;top:18px;animation:qrParticleFive2682 5.5s ease-in-out infinite}
+.quantum-reactor-particle-6{left:82px;top:68px;animation:qrParticleSix2682 4.4s ease-in-out infinite}
+.quantum-reactor-particle-7{left:95px;top:12px;animation:qrParticleSeven2682 5.1s ease-in-out infinite}
+.quantum-reactor-particle-8{left:111px;top:82px;animation:qrParticleEight2682 4.8s ease-in-out infinite}
+.quantum-reactor-particle-9{left:127px;top:27px;animation:qrParticleNine2682 3.9s ease-in-out infinite}
+.quantum-reactor-particle-10{right:10px;top:44px;animation:qrParticleTen2682 4.6s ease-in-out infinite}
+.quantum-reactor-particle-11{right:24px;top:8px;animation:qrParticleEleven2682 5.3s ease-in-out infinite}
+.quantum-reactor-particle-12{right:38px;top:72px;animation:qrParticleTwelve2682 4.2s ease-in-out infinite}
+.quantum-reactor-particle-13{right:52px;top:17px;animation:qrParticleThirteen2682 5s ease-in-out infinite}
+.quantum-reactor-particle-14{right:66px;bottom:9px;animation:qrParticleFourteen2682 4.8s ease-in-out infinite}
+.quantum-reactor-particle-15{right:81px;top:83px;animation:qrParticleFifteen2682 4.1s ease-in-out infinite}
+.quantum-reactor-particle-16{right:96px;top:32px;animation:qrParticleSixteen2682 5.4s ease-in-out infinite}
+.quantum-reactor-particle-17{left:16px;bottom:9px;animation:qrParticleSeventeen2682 4.3s ease-in-out infinite}
+.quantum-reactor-particle-18{left:72px;bottom:6px;animation:qrParticleEighteen2682 5.1s ease-in-out infinite}
+.quantum-reactor-particle-19{left:103px;bottom:19px;animation:qrParticleNineteen2682 4.4s ease-in-out infinite}
+.quantum-reactor-particle-20{right:15px;bottom:20px;animation:qrParticleTwenty2682 5.6s ease-in-out infinite}
+.quantum-reactor-spark{position:absolute;width:8px;height:8px;z-index:23;pointer-events:none}
+.quantum-reactor-spark::before,.quantum-reactor-spark::after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:#efffff;border-radius:999px;box-shadow:0 0 5px rgba(255,255,255,.95),0 0 13px rgba(80,255,228,.8),0 0 23px rgba(93,112,255,.35)}
+.quantum-reactor-spark::before{width:2px;height:12px}
+.quantum-reactor-spark::after{width:12px;height:2px}
+.quantum-reactor-spark-1{left:19px;top:37px;animation:qrSparkOne2682 2.6s ease-in-out infinite}
+.quantum-reactor-spark-2{left:39px;bottom:19px;animation:qrSparkTwo2682 3.1s ease-in-out infinite .3s}
+.quantum-reactor-spark-3{left:60px;top:26px;animation:qrSparkThree2682 2.8s ease-in-out infinite .6s}
+.quantum-reactor-spark-4{right:20px;top:32px;animation:qrSparkFour2682 3.4s ease-in-out infinite .2s}
+.quantum-reactor-spark-5{right:43px;bottom:20px;animation:qrSparkFive2682 2.7s ease-in-out infinite .5s}
+.quantum-reactor-spark-6{left:84px;top:76px;animation:qrSparkSix2682 3.2s ease-in-out infinite .8s}
+.quantum-reactor-spark-7{left:111px;top:40px;animation:qrSparkSeven2682 2.9s ease-in-out infinite .4s}
+.quantum-reactor-spark-8{right:75px;bottom:36px;animation:qrSparkEight2682 3.5s ease-in-out infinite .7s}
+.quantum-reactor-reactor{position:absolute;left:50%;top:50%;width:67px;height:67px;transform:translate(-50%,-50%);z-index:25;border-radius:50%;pointer-events:none}
+.quantum-reactor-reactor-halo{position:absolute;left:50%;top:50%;width:96px;height:96px;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle,rgba(61,255,223,.18),rgba(64,199,255,.07) 43%,rgba(116,68,255,.035) 60%,transparent 75%);filter:blur(7px);animation:qrHalo2682 3.2s ease-in-out infinite}
+.quantum-reactor-reactor-shell{position:absolute;left:50%;top:50%;width:60px;height:60px;transform:translate(-50%,-50%);border-radius:50%;border:1px solid rgba(137,255,247,.23);box-shadow:0 0 12px rgba(62,246,222,.11),inset 0 0 13px rgba(61,246,222,.06);animation:qrShell2682 5s linear infinite}
+.quantum-reactor-reactor-shell-2{width:51px;height:51px;border-color:rgba(65,190,255,.14);animation:qrShellTwo2682 3.8s linear infinite reverse}
+.quantum-reactor-reactor-shell-3{width:43px;height:43px;border-color:rgba(124,93,255,.13);border-style:dashed;animation:qrShellThree2682 6.5s linear infinite}
+.quantum-reactor-reactor-core{position:absolute;left:50%;top:50%;width:39px;height:39px;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle at 37% 31%,#fff 0%,#dffff9 11%,#6affea 27%,#31d9df 43%,#456bff 62%,transparent 79%);box-shadow:0 0 8px rgba(241,255,252,.95),0 0 17px rgba(79,255,227,.85),0 0 32px rgba(42,198,225,.6),0 0 51px rgba(100,86,255,.3);animation:qrCore2682 2.3s ease-in-out infinite}
+.quantum-reactor-reactor-core-2{width:24px;height:24px;background:radial-gradient(circle,#fff 0%,#e5fffb 24%,#7dfff0 52%,transparent 79%);box-shadow:0 0 7px #fff,0 0 15px rgba(105,255,230,.98),0 0 25px rgba(46,212,232,.65);animation:qrCoreTwo2682 1.6s ease-in-out infinite}
+.quantum-reactor-reactor-light{position:absolute;left:50%;top:50%;width:8px;height:8px;transform:translate(-50%,-50%);border-radius:50%;background:#fff;box-shadow:0 0 5px #fff,0 0 14px #a4fff4,0 0 25px #40ffe4;animation:qrLight2682 1.1s ease-in-out infinite}
+.quantum-reactor-check{position:absolute;left:50%;top:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;transform:translate(-50%,-50%) scale(.25) rotate(-35deg);opacity:0;color:#fff;filter:drop-shadow(0 0 6px rgba(255,255,255,.95)) drop-shadow(0 0 14px rgba(74,255,230,.85));transition:opacity .2s ease,transform .65s cubic-bezier(.18,.92,.2,1)}
+.quantum-reactor-check i{font-size:26px;font-weight:900}
+.quantum-reactor-beam{position:absolute;z-index:21;pointer-events:none;border-radius:999px}
+.quantum-reactor-beam-1{left:0;right:0;top:50%;height:1px;transform:translateY(-50%);background:linear-gradient(90deg,transparent,rgba(76,255,227,.05),rgba(188,255,249,.75),rgba(95,159,255,.06),transparent);filter:blur(1px);animation:qrBeamOne2682 3.7s ease-in-out infinite}
+.quantum-reactor-beam-2{top:0;bottom:0;left:50%;width:1px;transform:translateX(-50%);background:linear-gradient(to bottom,transparent,rgba(77,222,255,.04),rgba(107,255,234,.65),rgba(108,104,255,.05),transparent);filter:blur(1px);animation:qrBeamTwo2682 4.3s ease-in-out infinite}
+.quantum-reactor-beam-3{left:18px;right:18px;top:50%;height:1px;transform:translateY(-50%) rotate(45deg);background:linear-gradient(90deg,transparent,rgba(106,245,255,.18),rgba(255,255,255,.46),rgba(128,95,255,.1),transparent);filter:blur(2px);animation:qrBeamThree2682 5.4s ease-in-out infinite}
+.quantum-reactor-beam-4{left:18px;right:18px;top:50%;height:1px;transform:translateY(-50%) rotate(-45deg);background:linear-gradient(90deg,transparent,rgba(131,100,255,.08),rgba(255,255,255,.36),rgba(96,244,225,.1),transparent);filter:blur(2px);animation:qrBeamFour2682 5.7s ease-in-out infinite reverse}
+.quantum-reactor-ray{position:absolute;left:50%;top:50%;border-radius:50%;transform:translate(-50%,-50%);pointer-events:none;z-index:6}
+.quantum-reactor-ray-1{width:138px;height:138px;background:repeating-conic-gradient(from 0deg,rgba(82,255,232,.045) 0deg,rgba(82,255,232,.045) 1deg,transparent 1deg,transparent 24deg);mask-image:radial-gradient(circle,transparent 0 25%,#000 51%,transparent 76%);-webkit-mask-image:radial-gradient(circle,transparent 0 25%,#000 51%,transparent 76%);animation:qrRayOne2682 16s linear infinite}
+.quantum-reactor-ray-2{width:157px;height:157px;background:repeating-conic-gradient(from 8deg,rgba(83,125,255,.04) 0deg,rgba(83,125,255,.04) 2deg,transparent 2deg,transparent 34deg);mask-image:radial-gradient(circle,transparent 0 30%,#000 51%,transparent 77%);-webkit-mask-image:radial-gradient(circle,transparent 0 30%,#000 51%,transparent 77%);animation:qrRayTwo2682 21s linear infinite reverse}
+.quantum-reactor-ray-3{width:181px;height:181px;background:repeating-conic-gradient(from 15deg,rgba(229,94,255,.025) 0deg,rgba(229,94,255,.025) 2deg,transparent 2deg,transparent 47deg);mask-image:radial-gradient(circle,transparent 0 39%,#000 54%,transparent 77%);-webkit-mask-image:radial-gradient(circle,transparent 0 39%,#000 54%,transparent 77%);animation:qrRayThree2682 27s linear infinite}
+.quantum-reactor-ray-4{width:109px;height:109px;background:repeating-conic-gradient(from 22deg,rgba(227,255,248,.05) 0deg,rgba(227,255,248,.05) 1deg,transparent 1deg,transparent 18deg);mask-image:radial-gradient(circle,transparent 0 25%,#000 48%,transparent 70%);-webkit-mask-image:radial-gradient(circle,transparent 0 25%,#000 48%,transparent 70%);animation:qrRayFour2682 11s linear infinite reverse}
+.quantum-reactor-scan{position:absolute;left:8px;right:8px;height:1px;z-index:30;background:linear-gradient(90deg,transparent,rgba(89,251,231,.05),rgba(232,255,251,.6),rgba(90,191,255,.16),transparent);box-shadow:0 0 7px rgba(74,238,220,.22)}
+.quantum-reactor-scan-1{top:-10%;animation:qrScanOne2682 4.5s ease-in-out infinite}
+.quantum-reactor-scan-2{bottom:-10%;opacity:.3;animation:qrScanTwo2682 6s ease-in-out infinite reverse}
+.quantum-reactor-shine{position:absolute;top:-60%;left:-80%;width:35%;height:220%;z-index:35;transform:rotate(22deg);background:linear-gradient(90deg,transparent,rgba(255,255,255,.02) 24%,rgba(227,255,252,.45) 48%,rgba(255,255,255,.07) 61%,transparent);filter:blur(1px);animation:qrShine2682 5.3s cubic-bezier(.18,.72,.2,1) infinite;pointer-events:none}
+.quantum-reactor-glitch{position:absolute;z-index:26;pointer-events:none;mix-blend-mode:screen}
+.quantum-reactor-glitch-1{left:17px;top:17px;width:29px;height:1px;background:#54ffe4;box-shadow:7px 4px 0 rgba(81,139,255,.55),-5px 7px 0 rgba(220,81,255,.3);animation:qrGlitchOne2682 3.8s steps(6) infinite}
+.quantum-reactor-glitch-2{right:12px;bottom:18px;width:32px;height:1px;background:#62cfff;box-shadow:-7px -4px 0 rgba(127,89,255,.4),6px -7px 0 rgba(63,255,219,.25);animation:qrGlitchTwo2682 4.4s steps(7) infinite}
+.quantum-reactor-status{position:absolute;z-index:29;width:7px;height:7px;border:1px solid rgba(103,245,231,.3);background:rgba(82,255,229,.08);box-shadow:0 0 7px rgba(71,255,228,.2);pointer-events:none}
+.quantum-reactor-status-1{left:12px;top:12px;animation:qrStatusOne2682 2.1s ease-in-out infinite}
+.quantum-reactor-status-2{right:12px;top:12px;animation:qrStatusTwo2682 2.7s ease-in-out infinite}
+.quantum-reactor-status-3{right:12px;bottom:12px;animation:qrStatusThree2682 2.4s ease-in-out infinite}
+.quantum-reactor-border{position:absolute;inset:1px;z-index:37;border-radius:20px;padding:1px;background:conic-gradient(from 0deg,rgba(78,255,228,.6),rgba(70,189,255,.35),rgba(122,83,255,.45),rgba(221,91,255,.3),rgba(78,255,228,.6));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);mask-composite:exclude;animation:qrBorder2682 5s linear infinite;pointer-events:none}
+.quantum-reactor-label{position:relative;z-index:8;display:flex;align-items:center;min-width:180px;gap:11px}
+.quantum-reactor-label-icon{width:38px;height:38px;display:flex;align-items:center;justify-content:center;flex:0 0 38px;border:1px solid rgba(81,239,230,.16);border-radius:12px;background:linear-gradient(145deg,rgba(81,240,225,.1),rgba(101,77,255,.08));color:#dffffb;box-shadow:inset 0 0 14px rgba(79,237,222,.05),0 0 16px rgba(64,196,255,.06)}
+.quantum-reactor-label-icon i{font-size:19px;text-shadow:0 0 7px rgba(255,255,255,.85),0 0 14px rgba(81,246,229,.62);animation:qrLabelIcon2682 2.7s ease-in-out infinite}
+.quantum-reactor-label-copy{display:flex;flex-direction:column;gap:5px}
+.quantum-reactor-title{font-size:16px;line-height:1;font-weight:800;letter-spacing:.15px;color:#f5ffff}
+.quantum-reactor-subtitle{font-size:7.5px;line-height:1;text-transform:uppercase;font-weight:700;letter-spacing:1.85px;color:rgba(171,231,255,.5)}
+.quantum-reactor-indicator{width:6px;height:6px;margin-left:auto;border-radius:50%;background:#4effdc;box-shadow:0 0 6px #4effdc,0 0 14px rgba(78,255,220,.6);animation:qrIndicator2682 1.8s ease-in-out infinite}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main{box-shadow:inset 0 0 0 1px rgba(255,255,255,.045),inset 0 0 35px rgba(74,248,226,.09),0 0 28px rgba(65,243,224,.12)}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-background{animation-duration:7s}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-ring-1{animation-duration:1.6s}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-ring-2{animation-duration:2.7s}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-ring-3{animation-duration:4s}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-ring-4{animation-duration:5.2s}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-orbit{border-color:rgba(112,255,237,.26)}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-particle{animation-duration:2.2s}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-pulse{border-color:rgba(104,255,237,.42)}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-reactor-core{animation-duration:1.35s}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-reactor-core-2{animation-duration:.95s}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-reactor-light{animation-duration:.7s}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-check{opacity:1;transform:translate(-50%,-50%) scale(1) rotate(0deg);transition-delay:.05s}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-reactor-core{opacity:.16}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-reactor-core-2{opacity:.12}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-reactor-light{opacity:.12}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-border{animation-duration:2.1s}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-scan-1{animation-duration:2.4s}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-shine{animation-duration:2.8s}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-beam{animation-duration:2.1s}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-spark{animation-duration:1.7s}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-hex-1{border-color:rgba(110,255,237,.24)}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-hex-2{border-color:rgba(113,221,255,.17)}
+.quantum-reactor-checkbox input:checked + .quantum-reactor-main .quantum-reactor-hex-3{border-color:rgba(114,92,255,.13)}
+.quantum-reactor-checkbox input:checked ~ .quantum-reactor-label .quantum-reactor-label-icon{border-color:rgba(102,255,237,.35);background:linear-gradient(145deg,rgba(89,255,229,.15),rgba(97,90,255,.11));box-shadow:inset 0 0 15px rgba(79,240,223,.08),0 0 18px rgba(68,214,255,.12)}
+.quantum-reactor-checkbox input:checked ~ .quantum-reactor-label .quantum-reactor-indicator{background:#77fff0;box-shadow:0 0 8px #77fff0,0 0 19px rgba(79,255,228,.82);animation-duration:.9s}
+@keyframes qrPanelSweep2682{0%{background-position:-120% 0}42%{background-position:120% 0}100%{background-position:120% 0}}
+@keyframes qrBackground2682{0%{transform:rotate(0deg) scale(1);opacity:.55}50%{transform:rotate(180deg) scale(1.06);opacity:1}100%{transform:rotate(360deg) scale(1);opacity:.55}}
+@keyframes qrNoise2682{0%{transform:translate(0,0)}25%{transform:translate(1px,-1px)}50%{transform:translate(-1px,1px)}75%{transform:translate(1px,1px)}100%{transform:translate(0,0)}}
+@keyframes qrGrid2682{0%{background-position:0 0,0 0;opacity:.22}50%{background-position:0 8px,8px 0;opacity:.42}100%{background-position:0 16px,16px 0;opacity:.22}}
+@keyframes qrFrameLineTop2682{0%{transform:translateX(-30px);opacity:0}20%{opacity:1}80%{opacity:1}100%{transform:translateX(120px);opacity:0}}
+@keyframes qrFrameLineBottom2682{0%{transform:translateX(120px);opacity:0}20%{opacity:1}80%{opacity:1}100%{transform:translateX(-30px);opacity:0}}
+@keyframes qrFrameLineLeft2682{0%{transform:rotate(180deg) translateY(-25px);opacity:0}20%{opacity:1}80%{opacity:1}100%{transform:rotate(180deg) translateY(60px);opacity:0}}
+@keyframes qrFrameLineRight2682{0%{transform:rotate(180deg) translateY(60px);opacity:0}20%{opacity:1}80%{opacity:1}100%{transform:rotate(180deg) translateY(-25px);opacity:0}}
+@keyframes qrHexOne2682{0%{transform:translate(-50%,-50%) rotate(0deg) scale(.96);opacity:.1}50%{transform:translate(-50%,-50%) rotate(180deg) scale(1.04);opacity:.32}100%{transform:translate(-50%,-50%) rotate(360deg) scale(.96);opacity:.1}}
+@keyframes qrHexTwo2682{0%{transform:translate(-50%,-50%) rotate(30deg) scale(.94);opacity:.08}50%{transform:translate(-50%,-50%) rotate(210deg) scale(1.06);opacity:.25}100%{transform:translate(-50%,-50%) rotate(390deg) scale(.94);opacity:.08}}
+@keyframes qrHexThree2682{0%{transform:translate(-50%,-50%) rotate(15deg) scale(.92);opacity:.05}50%{transform:translate(-50%,-50%) rotate(195deg) scale(1.03);opacity:.17}100%{transform:translate(-50%,-50%) rotate(375deg) scale(.92);opacity:.05}}
+@keyframes qrHexFour2682{0%{transform:translate(-50%,-50%) rotate(-25deg) scale(.9);opacity:.05}50%{transform:translate(-50%,-50%) rotate(155deg) scale(1.06);opacity:.18}100%{transform:translate(-50%,-50%) rotate(335deg) scale(.9);opacity:.05}}
+@keyframes qrRingOne2682{0%,100%{transform:translate(-50%,-50%) scale(.75);opacity:.2}50%{transform:translate(-50%,-50%) scale(1.25);opacity:.85}}
+@keyframes qrRingTwo2682{0%{transform:translate(-50%,-50%) rotate(0deg) scale(.92);opacity:.08}50%{transform:translate(-50%,-50%) rotate(180deg) scale(1.05);opacity:.32}100%{transform:translate(-50%,-50%) rotate(360deg) scale(.92);opacity:.08}}
+@keyframes qrRingThree2682{0%{transform:translate(-50%,-50%) rotate(0deg) scale(.9);opacity:.07}50%{transform:translate(-50%,-50%) rotate(180deg) scale(1.05);opacity:.24}100%{transform:translate(-50%,-50%) rotate(360deg) scale(.9);opacity:.07}}
+@keyframes qrRingFour2682{0%{transform:translate(-50%,-50%) rotate(0deg) scale(.94);opacity:.05}50%{transform:translate(-50%,-50%) rotate(180deg) scale(1.03);opacity:.19}100%{transform:translate(-50%,-50%) rotate(360deg) scale(.94);opacity:.05}}
+@keyframes qrRingFive2682{0%{transform:translate(-50%,-50%) rotate(0deg) scale(.95);opacity:.04}50%{transform:translate(-50%,-50%) rotate(180deg) scale(1.03);opacity:.12}100%{transform:translate(-50%,-50%) rotate(360deg) scale(.95);opacity:.04}}
+@keyframes qrRingSix2682{0%{transform:translate(-50%,-50%) rotate(0deg) scale(.94);opacity:.03}50%{transform:translate(-50%,-50%) rotate(180deg) scale(1.04);opacity:.09}100%{transform:translate(-50%,-50%) rotate(360deg) scale(.94);opacity:.03}}
+@keyframes qrOrbitOne2682{0%{transform:translate(-50%,-50%) rotate(20deg) scale(.94);opacity:.08}50%{transform:translate(-50%,-50%) rotate(200deg) scale(1.04);opacity:.34}100%{transform:translate(-50%,-50%) rotate(380deg) scale(.94);opacity:.08}}
+@keyframes qrOrbitTwo2682{0%{transform:translate(-50%,-50%) rotate(-32deg) scale(.92);opacity:.06}50%{transform:translate(-50%,-50%) rotate(148deg) scale(1.04);opacity:.23}100%{transform:translate(-50%,-50%) rotate(328deg) scale(.92);opacity:.06}}
+@keyframes qrOrbitThree2682{0%{transform:translate(-50%,-50%) rotate(63deg) scale(.91);opacity:.05}50%{transform:translate(-50%,-50%) rotate(243deg) scale(1.05);opacity:.18}100%{transform:translate(-50%,-50%) rotate(423deg) scale(.91);opacity:.05}}
+@keyframes qrOrbitDotOne2682{0%{transform:translate3d(0,0,0) scale(.5);opacity:.15}50%{transform:translate3d(11px,-9px,0) scale(1.2);opacity:.95}100%{transform:translate3d(0,0,0) scale(.5);opacity:.15}}
+@keyframes qrOrbitDotTwo2682{0%{transform:translate3d(0,0,0) scale(.45);opacity:.12}50%{transform:translate3d(-9px,10px,0) scale(1.15);opacity:.9}100%{transform:translate3d(0,0,0) scale(.45);opacity:.12}}
+@keyframes qrOrbitDotThree2682{0%{transform:translate3d(0,0,0) scale(.48);opacity:.14}50%{transform:translate3d(8px,8px,0) scale(1.2);opacity:.92}100%{transform:translate3d(0,0,0) scale(.48);opacity:.14}}
+@keyframes qrOrbitDotFour2682{0%{transform:translate3d(0,0,0) scale(.45);opacity:.1}50%{transform:translate3d(-10px,-7px,0) scale(1.18);opacity:.88}100%{transform:translate3d(0,0,0) scale(.45);opacity:.1}}
+@keyframes qrOrbitDotFive2682{0%{transform:translate3d(0,0,0) scale(.4);opacity:.08}50%{transform:translate3d(-6px,11px,0) scale(1.3);opacity:1}100%{transform:translate3d(0,0,0) scale(.4);opacity:.08}}
+@keyframes qrOrbitDotSix2682{0%{transform:translate3d(0,0,0) scale(.42);opacity:.08}50%{transform:translate3d(7px,-10px,0) scale(1.26);opacity:.96}100%{transform:translate3d(0,0,0) scale(.42);opacity:.08}}
+@keyframes qrPulseOne2682{0%{width:52px;height:52px;opacity:.65;transform:translate(-50%,-50%) scale(.7)}100%{width:120px;height:120px;opacity:0;transform:translate(-50%,-50%) scale(1)}} 
+@keyframes qrPulseTwo2682{0%{width:52px;height:52px;opacity:.55;transform:translate(-50%,-50%) scale(.7)}100%{width:132px;height:132px;opacity:0;transform:translate(-50%,-50%) scale(1)}} 
+@keyframes qrPulseThree2682{0%{width:52px;height:52px;opacity:.45;transform:translate(-50%,-50%) scale(.7)}100%{width:144px;height:144px;opacity:0;transform:translate(-50%,-50%) scale(1)}} 
+@keyframes qrPulseFour2682{0%{width:58px;height:58px;opacity:.3;transform:translate(-50%,-50%) scale(.8)}100%{width:153px;height:153px;opacity:0;transform:translate(-50%,-50%) scale(1.02)}}
+@keyframes qrEnergyOne2682{0%,100%{transform:translateX(-8px) rotate(16deg) scaleX(.62);opacity:.05}50%{transform:translateX(10px) rotate(12deg) scaleX(1.1);opacity:.6}}
+@keyframes qrEnergyTwo2682{0%,100%{transform:translateX(8px) rotate(-17deg) scaleX(.58);opacity:.05}50%{transform:translateX(-10px) rotate(-13deg) scaleX(1.08);opacity:.58}}
+@keyframes qrEnergyThree2682{0%,100%{transform:translateX(8px) rotate(-12deg) scaleX(.6);opacity:.04}50%{transform:translateX(-9px) rotate(-9deg) scaleX(1.08);opacity:.56}}
+@keyframes qrEnergyFour2682{0%,100%{transform:translateX(-8px) rotate(14deg) scaleX(.62);opacity:.05}50%{transform:translateX(9px) rotate(11deg) scaleX(1.07);opacity:.6}}
+@keyframes qrEnergyFive2682{0%,100%{transform:translateY(6px) rotate(40deg) scaleX(.58);opacity:.04}50%{transform:translateY(-7px) rotate(47deg) scaleX(1.08);opacity:.46}}
+@keyframes qrEnergySix2682{0%,100%{transform:translateY(-6px) rotate(-42deg) scaleX(.57);opacity:.04}50%{transform:translateY(7px) rotate(-35deg) scaleX(1.05);opacity:.47}}
+@keyframes qrEnergySeven2682{0%,100%{transform:translateY(7px) rotate(-90deg) scaleX(.55);opacity:.04}50%{transform:translateY(-7px) rotate(-90deg) scaleX(1.1);opacity:.48}}
+@keyframes qrEnergyEight2682{0%,100%{transform:translateY(-7px) rotate(90deg) scaleX(.58);opacity:.04}50%{transform:translateY(7px) rotate(90deg) scaleX(1.08);opacity:.52}}
+@keyframes qrEnergyNine2682{0%,100%{transform:translateX(-5px) rotate(4deg) scaleX(.58);opacity:.03}50%{transform:translateX(7px) rotate(7deg) scaleX(1.05);opacity:.42}}
+@keyframes qrEnergyTen2682{0%,100%{transform:translateX(5px) rotate(-5deg) scaleX(.57);opacity:.03}50%{transform:translateX(-7px) rotate(-8deg) scaleX(1.05);opacity:.43}}
+@keyframes qrEnergyEleven2682{0%,100%{transform:translateX(-7px) rotate(31deg) scaleX(.6);opacity:.03}50%{transform:translateX(8px) rotate(25deg) scaleX(1.08);opacity:.45}}
+@keyframes qrEnergyTwelve2682{0%,100%{transform:translateX(7px) rotate(-30deg) scaleX(.57);opacity:.03}50%{transform:translateX(-8px) rotate(-24deg) scaleX(1.06);opacity:.47}}
+@keyframes qrParticleOne2682{0%,100%{transform:translate(0,0) scale(.45);opacity:.1}50%{transform:translate(8px,-12px) scale(1.2);opacity:.9}}
+@keyframes qrParticleTwo2682{0%,100%{transform:translate(0,0) scale(.5);opacity:.12}50%{transform:translate(-9px,-8px) scale(1.14);opacity:.82}}
+@keyframes qrParticleThree2682{0%,100%{transform:translate(0,0) scale(.42);opacity:.08}50%{transform:translate(9px,12px) scale(1.22);opacity:.94}}
+@keyframes qrParticleFour2682{0%,100%{transform:translate(0,0) scale(.45);opacity:.1}50%{transform:translate(-7px,-13px) scale(1.15);opacity:.88}}
+@keyframes qrParticleFive2682{0%,100%{transform:translate(0,0) scale(.5);opacity:.11}50%{transform:translate(6px,14px) scale(1.25);opacity:.96}}
+@keyframes qrParticleSix2682{0%,100%{transform:translate(0,0) scale(.44);opacity:.09}50%{transform:translate(-9px,-11px) scale(1.18);opacity:.9}}
+@keyframes qrParticleSeven2682{0%,100%{transform:translate(0,0) scale(.46);opacity:.1}50%{transform:translate(9px,12px) scale(1.19);opacity:.92}}
+@keyframes qrParticleEight2682{0%,100%{transform:translate(0,0) scale(.48);opacity:.09}50%{transform:translate(-7px,-12px) scale(1.16);opacity:.86}}
+@keyframes qrParticleNine2682{0%,100%{transform:translate(0,0) scale(.43);opacity:.08}50%{transform:translate(11px,-8px) scale(1.24);opacity:.95}}
+@keyframes qrParticleTen2682{0%,100%{transform:translate(0,0) scale(.47);opacity:.1}50%{transform:translate(-9px,10px) scale(1.15);opacity:.87}}
+@keyframes qrParticleEleven2682{0%,100%{transform:translate(0,0) scale(.44);opacity:.08}50%{transform:translate(7px,-11px) scale(1.2);opacity:.94}}
+@keyframes qrParticleTwelve2682{0%,100%{transform:translate(0,0) scale(.48);opacity:.1}50%{transform:translate(-9px,-9px) scale(1.12);opacity:.85}}
+@keyframes qrParticleThirteen2682{0%,100%{transform:translate(0,0) scale(.45);opacity:.08}50%{transform:translate(10px,11px) scale(1.22);opacity:.92}}
+@keyframes qrParticleFourteen2682{0%,100%{transform:translate(0,0) scale(.46);opacity:.09}50%{transform:translate(-7px,-13px) scale(1.17);opacity:.89}}
+@keyframes qrParticleFifteen2682{0%,100%{transform:translate(0,0) scale(.45);opacity:.08}50%{transform:translate(8px,10px) scale(1.2);opacity:.94}}
+@keyframes qrParticleSixteen2682{0%,100%{transform:translate(0,0) scale(.43);opacity:.08}50%{transform:translate(-10px,-9px) scale(1.18);opacity:.91}}
+@keyframes qrParticleSeventeen2682{0%,100%{transform:translate(0,0) scale(.48);opacity:.09}50%{transform:translate(9px,-12px) scale(1.16);opacity:.87}}
+@keyframes qrParticleEighteen2682{0%,100%{transform:translate(0,0) scale(.44);opacity:.08}50%{transform:translate(-8px,-10px) scale(1.22);opacity:.93}}
+@keyframes qrParticleNineteen2682{0%,100%{transform:translate(0,0) scale(.42);opacity:.07}50%{transform:translate(8px,-13px) scale(1.25);opacity:.98}}
+@keyframes qrParticleTwenty2682{0%,100%{transform:translate(0,0) scale(.46);opacity:.08}50%{transform:translate(-8px,-11px) scale(1.18);opacity:.9}}
+@keyframes qrSparkOne2682{0%,100%{transform:scale(.3) rotate(0deg);opacity:.08}50%{transform:scale(1) rotate(45deg);opacity:1}}
+@keyframes qrSparkTwo2682{0%,100%{transform:scale(.28) rotate(0deg);opacity:.07}50%{transform:scale(.92) rotate(-45deg);opacity:.9}}
+@keyframes qrSparkThree2682{0%,100%{transform:scale(.3) rotate(0deg);opacity:.06}50%{transform:scale(1.05) rotate(45deg);opacity:1}}
+@keyframes qrSparkFour2682{0%,100%{transform:scale(.32) rotate(0deg);opacity:.08}50%{transform:scale(.98) rotate(-45deg);opacity:.94}}
+@keyframes qrSparkFive2682{0%,100%{transform:scale(.27) rotate(0deg);opacity:.06}50%{transform:scale(.88) rotate(45deg);opacity:.88}}
+@keyframes qrSparkSix2682{0%,100%{transform:scale(.3) rotate(0deg);opacity:.07}50%{transform:scale(1.02) rotate(-45deg);opacity:.96}}
+@keyframes qrSparkSeven2682{0%,100%{transform:scale(.28) rotate(0deg);opacity:.05}50%{transform:scale(.94) rotate(45deg);opacity:.92}}
+@keyframes qrSparkEight2682{0%,100%{transform:scale(.3) rotate(0deg);opacity:.06}50%{transform:scale(1) rotate(-45deg);opacity:.95}}
+@keyframes qrHalo2682{0%,100%{transform:translate(-50%,-50%) scale(.8);opacity:.25}50%{transform:translate(-50%,-50%) scale(1.2);opacity:.78}}
+@keyframes qrShell2682{0%{transform:translate(-50%,-50%) rotate(0deg) scale(.94);opacity:.16}50%{transform:translate(-50%,-50%) rotate(180deg) scale(1.06);opacity:.52}100%{transform:translate(-50%,-50%) rotate(360deg) scale(.94);opacity:.16}}
+@keyframes qrShellTwo2682{0%{transform:translate(-50%,-50%) rotate(0deg) scale(.9);opacity:.1}50%{transform:translate(-50%,-50%) rotate(180deg) scale(1.08);opacity:.38}100%{transform:translate(-50%,-50%) rotate(360deg) scale(.9);opacity:.1}}
+@keyframes qrShellThree2682{0%{transform:translate(-50%,-50%) rotate(0deg) scale(.88);opacity:.08}50%{transform:translate(-50%,-50%) rotate(180deg) scale(1.05);opacity:.3}100%{transform:translate(-50%,-50%) rotate(360deg) scale(.88);opacity:.08}}
+@keyframes qrCore2682{0%,100%{transform:translate(-50%,-50%) scale(.8);filter:brightness(.9);opacity:.72}50%{transform:translate(-50%,-50%) scale(1.12);filter:brightness(1.3);opacity:1}}
+@keyframes qrCoreTwo2682{0%,100%{transform:translate(-50%,-50%) scale(.7);opacity:.62}50%{transform:translate(-50%,-50%) scale(1.22);opacity:1}}
+@keyframes qrLight2682{0%,100%{transform:translate(-50%,-50%) scale(.65);opacity:.7}50%{transform:translate(-50%,-50%) scale(1.32);opacity:1}}
+@keyframes qrBeamOne2682{0%,100%{opacity:.1;transform:translateY(-50%) scaleX(.72)}50%{opacity:.58;transform:translateY(-50%) scaleX(1.02)}}
+@keyframes qrBeamTwo2682{0%,100%{opacity:.08;transform:translateX(-50%) scaleY(.7)}50%{opacity:.48;transform:translateX(-50%) scaleY(1.03)}}
+@keyframes qrBeamThree2682{0%,100%{opacity:.05;transform:translateY(-50%) rotate(45deg) scaleX(.7)}50%{opacity:.32;transform:translateY(-50%) rotate(45deg) scaleX(1.04)}}
+@keyframes qrBeamFour2682{0%,100%{opacity:.04;transform:translateY(-50%) rotate(-45deg) scaleX(.68)}50%{opacity:.28;transform:translateY(-50%) rotate(-45deg) scaleX(1.03)}}
+@keyframes qrRayOne2682{from{transform:translate(-50%,-50%) rotate(0deg)}to{transform:translate(-50%,-50%) rotate(360deg)}}
+@keyframes qrRayTwo2682{from{transform:translate(-50%,-50%) rotate(0deg)}to{transform:translate(-50%,-50%) rotate(-360deg)}}
+@keyframes qrRayThree2682{from{transform:translate(-50%,-50%) rotate(0deg)}to{transform:translate(-50%,-50%) rotate(360deg)}}
+@keyframes qrRayFour2682{from{transform:translate(-50%,-50%) rotate(0deg)}to{transform:translate(-50%,-50%) rotate(-360deg)}}
+@keyframes qrScanOne2682{0%{top:-10%;opacity:0}12%{opacity:.1}28%{opacity:.72}45%{opacity:.12}62%{top:110%;opacity:0}100%{top:110%;opacity:0}}
+@keyframes qrScanTwo2682{0%{bottom:-10%;opacity:0}15%{opacity:.08}31%{opacity:.45}48%{opacity:.06}66%{bottom:110%;opacity:0}100%{bottom:110%;opacity:0}}
+@keyframes qrShine2682{0%{left:-80%;opacity:0}8%{opacity:.02}18%{opacity:.72}31%{opacity:.15}46%{left:135%;opacity:0}100%{left:135%;opacity:0}}
+@keyframes qrGlitchOne2682{0%,80%,100%{transform:translate(0,0);opacity:.15}82%{transform:translate(4px,-2px);opacity:.8}84%{transform:translate(-3px,2px);opacity:.3}86%{transform:translate(2px,0);opacity:.7}88%{transform:translate(0,0);opacity:.15}}
+@keyframes qrGlitchTwo2682{0%,76%,100%{transform:translate(0,0);opacity:.12}78%{transform:translate(-4px,1px);opacity:.75}80%{transform:translate(3px,-1px);opacity:.25}82%{transform:translate(-1px,2px);opacity:.65}84%{transform:translate(0,0);opacity:.12}}
+@keyframes qrStatusOne2682{0%,100%{opacity:.2;box-shadow:0 0 4px rgba(71,255,225,.08)}50%{opacity:1;box-shadow:0 0 9px rgba(71,255,225,.55)}}
+@keyframes qrStatusTwo2682{0%,100%{opacity:.15;box-shadow:0 0 4px rgba(87,147,255,.08)}50%{opacity:.9;box-shadow:0 0 9px rgba(87,147,255,.45)}}
+@keyframes qrStatusThree2682{0%,100%{opacity:.18;box-shadow:0 0 4px rgba(220,91,255,.06)}50%{opacity:.9;box-shadow:0 0 9px rgba(220,91,255,.42)}}
+@keyframes qrBorder2682{to{transform:rotate(360deg)}}
+@keyframes qrLabelIcon2682{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-2px) rotate(5deg)}}
+@keyframes qrIndicator2682{0%,100%{transform:scale(.75);opacity:.35}50%{transform:scale(1.25);opacity:1}}
+@media (max-width:700px){.quantum-reactor-checkbox{width:340px;gap:12px}.quantum-reactor-main{flex-basis:135px;width:135px;height:94px}.quantum-reactor-label{min-width:155px}.quantum-reactor-title{font-size:14px}.quantum-reactor-subtitle{font-size:6.5px}}
+@media (max-width:520px){.quantum-reactor-checkbox{width:285px;min-height:102px;padding:10px;gap:9px;border-radius:19px}.quantum-reactor-main{flex-basis:104px;width:104px;height:80px;border-radius:16px}.quantum-reactor-label{min-width:0;gap:8px}.quantum-reactor-label-icon{width:30px;height:30px;flex-basis:30px;border-radius:9px}.quantum-reactor-label-icon i{font-size:15px}.quantum-reactor-title{font-size:12px}.quantum-reactor-subtitle{font-size:5.6px;letter-spacing:1.3px}.quantum-reactor-indicator{width:5px;height:5px}.quantum-reactor-ring-5{width:92px;height:92px}.quantum-reactor-ring-6{width:110px;height:110px}}
+@media (prefers-reduced-motion:reduce){.quantum-reactor-checkbox,.quantum-reactor-checkbox *,.quantum-reactor-checkbox::before,.quantum-reactor-checkbox::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}
+`,
+  },
+  {
+    id: 2683,
+    name: "Rainbow Pulse Checkbox",
+    preview: (
+      <label className="rainbow-checkbox rainbow-checkbox-pulse">
+        <input type="checkbox" />
+        <span className="rainbow-box">
+          <span className="rainbow-box-glow"></span>
+          <span className="rainbow-box-check">
+            <i className="ri-check-line"></i>
+          </span>
+        </span>
+        <span className="rainbow-checkbox-text">Rainbow Pulse</span>
+      </label>
+    ),
+    html: `<label class="rainbow-checkbox rainbow-checkbox-pulse"><input type="checkbox"><span class="rainbow-box"><span class="rainbow-box-glow"></span><span class="rainbow-box-check"><i class="ri-check-line"></i></span></span><span class="rainbow-checkbox-text">Rainbow Pulse</span></label>`,
+    css: `
+.rainbow-checkbox-pulse {}
+`,
+  },
+  {
+    id: 2684,
+    name: "Prism Flow Checkbox",
+    preview: (
+      <label className="rainbow-checkbox rainbow-checkbox-prism">
+        <input type="checkbox" />
+        <span className="rainbow-box">
+          <span className="rainbow-box-shine"></span>
+          <span className="rainbow-box-check">
+            <i className="ri-sparkling-line"></i>
+          </span>
+        </span>
+        <span className="rainbow-checkbox-text">Prism Flow</span>
+      </label>
+    ),
+    html: `<label class="rainbow-checkbox rainbow-checkbox-prism"><input type="checkbox"><span class="rainbow-box"><span class="rainbow-box-shine"></span><span class="rainbow-box-check"><i class="ri-sparkling-line"></i></span></span><span class="rainbow-checkbox-text">Prism Flow</span></label>`,
+    css: `
+.rainbow-checkbox-prism {}
+`,
+  },
+  {
+    id: 2685,
+    name: "Aurora Checkbox",
+    preview: (
+      <label className="rainbow-checkbox rainbow-checkbox-aurora">
+        <input type="checkbox" />
+        <span className="rainbow-box">
+          <span className="rainbow-aurora"></span>
+          <span className="rainbow-box-check">
+            <i className="ri-sun-line"></i>
+          </span>
+        </span>
+        <span className="rainbow-checkbox-text">Aurora</span>
+      </label>
+    ),
+    html: `<label class="rainbow-checkbox rainbow-checkbox-aurora"><input type="checkbox"><span class="rainbow-box"><span class="rainbow-aurora"></span><span class="rainbow-box-check"><i class="ri-sun-line"></i></span></span><span class="rainbow-checkbox-text">Aurora</span></label>`,
+    css: `
+.rainbow-checkbox-aurora {}
+`,
+  },
+  {
+    id: 2686,
+    name: "Spectrum Orbit Checkbox",
+    preview: (
+      <label className="rainbow-checkbox rainbow-checkbox-orbit">
+        <input type="checkbox" />
+        <span className="rainbow-box">
+          <span className="rainbow-orbit"></span>
+          <span className="rainbow-box-check">
+            <i className="ri-loader-4-line"></i>
+          </span>
+        </span>
+        <span className="rainbow-checkbox-text">Spectrum Orbit</span>
+      </label>
+    ),
+    html: `<label class="rainbow-checkbox rainbow-checkbox-orbit"><input type="checkbox"><span class="rainbow-box"><span class="rainbow-orbit"></span><span class="rainbow-box-check"><i class="ri-loader-4-line"></i></span></span><span class="rainbow-checkbox-text">Spectrum Orbit</span></label>`,
+    css: `
+.rainbow-checkbox-orbit {}
+`,
+  },
+  {
+    id: 2687,
+    name: "Rainbow Energy Checkbox",
+    preview: (
+      <label className="rainbow-checkbox rainbow-checkbox-energy">
+        <input type="checkbox" />
+        <span className="rainbow-box">
+          <span className="rainbow-energy-core"></span>
+          <span className="rainbow-box-check">
+            <i className="ri-flashlight-line"></i>
+          </span>
+        </span>
+        <span className="rainbow-checkbox-text">Rainbow Energy</span>
+      </label>
+    ),
+    html: `<label class="rainbow-checkbox rainbow-checkbox-energy"><input type="checkbox"><span class="rainbow-box"><span class="rainbow-energy-core"></span><span class="rainbow-box-check"><i class="ri-flashlight-line"></i></span></span><span class="rainbow-checkbox-text">Rainbow Energy</span></label>`,
+    css: `
+.rainbow-checkbox-energy {}
+`,
+  },
+  {
+    id: 2688,
+    name: "Neon Spectrum Checkbox",
+    preview: (
+      <label className="rainbow-checkbox rainbow-checkbox-neon">
+        <input type="checkbox" />
+        <span className="rainbow-box">
+          <span className="rainbow-neon-ring"></span>
+          <span className="rainbow-box-check">
+            <i className="ri-rainbow-line"></i>
+          </span>
+        </span>
+        <span className="rainbow-checkbox-text">Neon Spectrum</span>
+      </label>
+    ),
+    html: `<label class="rainbow-checkbox rainbow-checkbox-neon"><input type="checkbox"><span class="rainbow-box"><span class="rainbow-neon-ring"></span><span class="rainbow-box-check"><i class="ri-rainbow-line"></i></span></span><span class="rainbow-checkbox-text">Neon Spectrum</span></label>`,
+    css: `
+.rainbow-checkbox-neon {}
+`,
+  },
+  {
+    id: 2689,
+    name: "Rainbow Flame Checkbox",
+    preview: (
+      <label className="rainbow-checkbox rainbow-checkbox-flame">
+        <input type="checkbox" />
+        <span className="rainbow-box">
+          <span className="rainbow-flame"></span>
+          <span className="rainbow-box-check">
+            <i className="ri-fire-line"></i>
+          </span>
+        </span>
+        <span className="rainbow-checkbox-text">Rainbow Flame</span>
+      </label>
+    ),
+    html: `<label class="rainbow-checkbox rainbow-checkbox-flame"><input type="checkbox"><span class="rainbow-box"><span class="rainbow-flame"></span><span class="rainbow-box-check"><i class="ri-fire-line"></i></span></span><span class="rainbow-checkbox-text">Rainbow Flame</span></label>`,
+    css: `
+.rainbow-checkbox-flame {}
+`,
+  },
+  {
+    id: 2690,
+    name: "Holographic Checkbox",
+    preview: (
+      <label className="rainbow-checkbox rainbow-checkbox-holo">
+        <input type="checkbox" />
+        <span className="rainbow-box">
+          <span className="rainbow-hologram"></span>
+          <span className="rainbow-box-check">
+            <i className="ri-hologram-2-line"></i>
+          </span>
+        </span>
+        <span className="rainbow-checkbox-text">Holographic</span>
+      </label>
+    ),
+    html: `<label class="rainbow-checkbox rainbow-checkbox-holo"><input type="checkbox"><span class="rainbow-box"><span class="rainbow-hologram"></span><span class="rainbow-box-check"><i class="ri-hologram-2-line"></i></span></span><span class="rainbow-checkbox-text">Holographic</span></label>`,
+    css: `
+.rainbow-checkbox-holo {}
+`,
+  },
+  {
+    id: 2691,
+    name: "Cosmic Rainbow Checkbox",
+    preview: (
+      <label className="rainbow-checkbox rainbow-checkbox-cosmic">
+        <input type="checkbox" />
+        <span className="rainbow-box">
+          <span className="rainbow-cosmic"></span>
+          <span className="rainbow-box-check">
+            <i className="ri-planet-line"></i>
+          </span>
+        </span>
+        <span className="rainbow-checkbox-text">Cosmic Rainbow</span>
+      </label>
+    ),
+    html: `<label class="rainbow-checkbox rainbow-checkbox-cosmic"><input type="checkbox"><span class="rainbow-box"><span class="rainbow-cosmic"></span><span class="rainbow-box-check"><i class="ri-planet-line"></i></span></span><span class="rainbow-checkbox-text">Cosmic Rainbow</span></label>`,
+    css: `
+.rainbow-checkbox-cosmic {}
+`,
+  },
+  {
+    id: 2692,
+    name: "Ultimate Rainbow Checkbox",
+    preview: (
+      <label className="rainbow-checkbox rainbow-checkbox-ultimate">
+        <input type="checkbox" />
+        <span className="rainbow-box">
+          <span className="rainbow-ultimate-border"></span>
+          <span className="rainbow-ultimate-particle rainbow-ultimate-particle-1"></span>
+          <span className="rainbow-ultimate-particle rainbow-ultimate-particle-2"></span>
+          <span className="rainbow-ultimate-particle rainbow-ultimate-particle-3"></span>
+          <span className="rainbow-ultimate-particle rainbow-ultimate-particle-4"></span>
+          <span className="rainbow-box-check">
+            <i className="ri-sparkling-fill"></i>
+          </span>
+        </span>
+        <span className="rainbow-checkbox-text">Ultimate Rainbow</span>
+      </label>
+    ),
+    html: `<label class="rainbow-checkbox rainbow-checkbox-ultimate"><input type="checkbox"><span class="rainbow-box"><span class="rainbow-ultimate-border"></span><span class="rainbow-ultimate-particle rainbow-ultimate-particle-1"></span><span class="rainbow-ultimate-particle rainbow-ultimate-particle-2"></span><span class="rainbow-ultimate-particle rainbow-ultimate-particle-3"></span><span class="rainbow-ultimate-particle rainbow-ultimate-particle-4"></span><span class="rainbow-box-check"><i class="ri-sparkling-fill"></i></span></span><span class="rainbow-checkbox-text">Ultimate Rainbow</span></label>`,
+    css: `
+.rainbow-checkbox-ultimate {}
+`,
+  },
 ];
