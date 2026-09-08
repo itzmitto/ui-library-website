@@ -8957,4 +8957,1975 @@ export const iphones = [
 }
 `,
   },
+  {
+    id: 2641,
+    name: "macOS Tahoe Desktop",
+    preview: (
+      <div className="macos-preview-2641">
+        <div className="macos-desktop-2641">
+          <div className="macos-wallpaper-2641">
+            <div className="macos-orb-2641 macos-orb-one-2641"></div>
+            <div className="macos-orb-2641 macos-orb-two-2641"></div>
+            <div className="macos-orb-2641 macos-orb-three-2641"></div>
+            <div className="macos-wave-2641 macos-wave-one-2641"></div>
+            <div className="macos-wave-2641 macos-wave-two-2641"></div>
+          </div>
+
+          <div className="macos-menubar-2641">
+            <div className="macos-menubar-left-2641">
+              <div className="macos-apple-2641">
+                <i className="ri-apple-fill"></i>
+              </div>
+              <span className="macos-active-app-2641">Finder</span>
+              <span>File</span>
+              <span>Edit</span>
+              <span>View</span>
+              <span>Go</span>
+              <span>Window</span>
+              <span>Help</span>
+            </div>
+
+            <div className="macos-menubar-right-2641">
+              <i className="ri-code-s-slash-line"></i>
+              <i className="ri-bluetooth-fill"></i>
+              <i className="ri-wifi-fill"></i>
+              <i className="ri-battery-2-charge-fill"></i>
+              <i className="ri-search-line"></i>
+              <i className="ri-settings-3-line"></i>
+              <span>Tue Sep 8</span>
+              <strong>9:41 AM</strong>
+            </div>
+          </div>
+
+          <div className="macos-desktop-icons-2641">
+            <div className="macos-desktop-icon-2641">
+              <div className="macos-desktop-icon-image-2641 folder">
+                <i className="ri-folder-3-fill"></i>
+              </div>
+              <span>Projects</span>
+            </div>
+
+            <div className="macos-desktop-icon-2641">
+              <div className="macos-desktop-icon-image-2641 drive">
+                <i className="ri-hard-drive-3-fill"></i>
+              </div>
+              <span>Macintosh HD</span>
+            </div>
+
+            <div className="macos-desktop-icon-2641">
+              <div className="macos-desktop-icon-image-2641 code">
+                <i className="ri-github-fill"></i>
+              </div>
+              <span>Repositories</span>
+            </div>
+          </div>
+
+          <div className="macos-widget-column-2641">
+            <div className="macos-widget-2641 weather-card-2641">
+              <div className="macos-widget-heading-2641">
+                <span>AMSTERDAM</span>
+                <i className="ri-sun-fill"></i>
+              </div>
+              <div className="macos-temperature-2641">21°</div>
+              <div className="macos-weather-condition-2641">Mostly sunny</div>
+              <div className="macos-weather-details-2641">
+                <span>H: 24°</span>
+                <span>L: 16°</span>
+              </div>
+            </div>
+
+            <div className="macos-widget-2641 calendar-card-2641">
+              <div className="macos-calendar-date-2641">
+                <span>Tuesday</span>
+                <strong>8</strong>
+              </div>
+              <div className="macos-event-2641">
+                <div className="macos-event-dot-2641 purple"></div>
+                <div>
+                  <strong>Design meeting</strong>
+                  <small>10:00 – 11:00</small>
+                </div>
+              </div>
+              <div className="macos-event-2641">
+                <div className="macos-event-dot-2641 blue"></div>
+                <div>
+                  <strong>Lunch</strong>
+                  <small>12:30 – 13:30</small>
+                </div>
+              </div>
+              <div className="macos-event-2641">
+                <div className="macos-event-dot-2641 cyan"></div>
+                <div>
+                  <strong>Product sync</strong>
+                  <small>15:00 – 16:00</small>
+                </div>
+              </div>
+            </div>
+
+            <div className="macos-widget-2641 music-card-2641">
+              <div className="macos-music-art-2641">
+                <i className="ri-music-2-fill"></i>
+              </div>
+              <div className="macos-music-information-2641">
+                <span>Now Playing</span>
+                <strong>Midnight City</strong>
+                <small>M83</small>
+              </div>
+              <i className="ri-spotify-fill macos-music-brand-2641"></i>
+              <div className="macos-player-2641">
+                <i className="ri-skip-back-fill"></i>
+                <i className="ri-pause-circle-fill"></i>
+                <i className="ri-skip-forward-fill"></i>
+              </div>
+            </div>
+          </div>
+
+          <div className="macos-finder-window-2641">
+            <div className="macos-window-titlebar-2641">
+              <div className="macos-window-controls-2641">
+                <button className="close"></button>
+                <button className="minimize"></button>
+                <button className="maximize"></button>
+              </div>
+
+              <div className="macos-window-navigation-2641">
+                <i className="ri-arrow-left-s-line"></i>
+                <i className="ri-arrow-right-s-line"></i>
+              </div>
+
+              <div className="macos-window-title-2641">
+                <i className="ri-folder-3-fill"></i>
+                <span>Projects</span>
+              </div>
+
+              <div className="macos-window-toolbar-2641">
+                <i className="ri-list-check-3"></i>
+                <i className="ri-layout-grid-line"></i>
+                <i className="ri-search-line"></i>
+              </div>
+            </div>
+
+            <div className="macos-finder-body-2641">
+              <aside className="macos-sidebar-2641">
+                <div className="macos-sidebar-section-2641">
+                  <span className="macos-sidebar-label-2641">Favorites</span>
+                  <div className="macos-sidebar-item-2641 active">
+                    <i className="ri-airplay-fill"></i>
+                    <span>AirDrop</span>
+                  </div>
+                  <div className="macos-sidebar-item-2641 active-page">
+                    <i className="ri-home-5-fill"></i>
+                    <span>Home</span>
+                  </div>
+                  <div className="macos-sidebar-item-2641">
+                    <i className="ri-file-3-fill"></i>
+                    <span>Documents</span>
+                  </div>
+                  <div className="macos-sidebar-item-2641">
+                    <i className="ri-download-2-fill"></i>
+                    <span>Downloads</span>
+                  </div>
+                  <div className="macos-sidebar-item-2641">
+                    <i className="ri-image-2-fill"></i>
+                    <span>Pictures</span>
+                  </div>
+                </div>
+
+                <div className="macos-sidebar-section-2641">
+                  <span className="macos-sidebar-label-2641">iCloud</span>
+                  <div className="macos-sidebar-item-2641">
+                    <i className="ri-cloud-fill"></i>
+                    <span>iCloud Drive</span>
+                  </div>
+                </div>
+
+                <div className="macos-sidebar-section-2641">
+                  <span className="macos-sidebar-label-2641">Locations</span>
+                  <div className="macos-sidebar-item-2641">
+                    <i className="ri-mac-fill"></i>
+                    <span>Macintosh HD</span>
+                  </div>
+                </div>
+              </aside>
+
+              <main className="macos-file-area-2641">
+                <div className="macos-file-header-2641">
+                  <div>
+                    <span>Today</span>
+                    <strong>Projects</strong>
+                  </div>
+                  <div className="macos-item-count-2641">8 items</div>
+                </div>
+
+                <div className="macos-files-grid-2641">
+                  <div className="macos-file-2641 selected">
+                    <div className="macos-file-icon-2641 purple">
+                      <i className="ri-reactjs-line"></i>
+                    </div>
+                    <span>dashboard</span>
+                    <small>React project</small>
+                  </div>
+
+                  <div className="macos-file-2641">
+                    <div className="macos-file-icon-2641 blue">
+                      <i className="ri-code-box-fill"></i>
+                    </div>
+                    <span>components</span>
+                    <small>TypeScript</small>
+                  </div>
+
+                  <div className="macos-file-2641">
+                    <div className="macos-file-icon-2641 orange">
+                      <i className="ri-folder-3-fill"></i>
+                    </div>
+                    <span>assets</span>
+                    <small>Folder</small>
+                  </div>
+
+                  <div className="macos-file-2641">
+                    <div className="macos-file-icon-2641 green">
+                      <i className="ri-git-branch-fill"></i>
+                    </div>
+                    <span>github</span>
+                    <small>Repository</small>
+                  </div>
+
+                  <div className="macos-file-2641">
+                    <div className="macos-file-icon-2641 cyan">
+                      <i className="ri-database-2-fill"></i>
+                    </div>
+                    <span>database</span>
+                    <small>MongoDB</small>
+                  </div>
+
+                  <div className="macos-file-2641">
+                    <div className="macos-file-icon-2641 pink">
+                      <i className="ri-palette-fill"></i>
+                    </div>
+                    <span>design</span>
+                    <small>UI system</small>
+                  </div>
+
+                  <div className="macos-file-2641">
+                    <div className="macos-file-icon-2641 yellow">
+                      <i className="ri-terminal-box-fill"></i>
+                    </div>
+                    <span>terminal</span>
+                    <small>Scripts</small>
+                  </div>
+
+                  <div className="macos-file-2641">
+                    <div className="macos-file-icon-2641 red">
+                      <i className="ri-file-code-fill"></i>
+                    </div>
+                    <span>config</span>
+                    <small>Configuration</small>
+                  </div>
+                </div>
+              </main>
+            </div>
+
+            <div className="macos-window-status-2641">
+              <span>8 items</span>
+              <span>176 GB available</span>
+            </div>
+          </div>
+
+          <div className="macos-floating-control-2641">
+            <div className="macos-control-header-2641">
+              <strong>Control Center</strong>
+              <i className="ri-settings-4-line"></i>
+            </div>
+
+            <div className="macos-control-grid-2641">
+              <div className="macos-control-large-2641">
+                <div className="macos-control-icon-2641">
+                  <i className="ri-wifi-fill"></i>
+                </div>
+                <div>
+                  <strong>Wi-Fi</strong>
+                  <span>Home Network</span>
+                </div>
+                <i className="ri-arrow-right-s-line"></i>
+              </div>
+
+              <div className="macos-control-large-2641">
+                <div className="macos-control-icon-2641">
+                  <i className="ri-bluetooth-fill"></i>
+                </div>
+                <div>
+                  <strong>Bluetooth</strong>
+                  <span>On</span>
+                </div>
+                <i className="ri-arrow-right-s-line"></i>
+              </div>
+            </div>
+
+            <div className="macos-control-row-2641">
+              <div className="macos-control-mini-2641">
+                <i className="ri-moon-fill"></i>
+                <span>Focus</span>
+              </div>
+              <div className="macos-control-mini-2641">
+                <i className="ri-sun-fill"></i>
+                <span>Brightness</span>
+              </div>
+              <div className="macos-control-mini-2641">
+                <i className="ri-volume-up-fill"></i>
+                <span>Sound</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="macos-dock-2641">
+            <div className="macos-dock-app-2641 selected">
+              <i className="ri-mac-fill"></i>
+              <span>Finder</span>
+            </div>
+
+            <div className="macos-dock-app-2641">
+              <i className="ri-apps-2-fill"></i>
+              <span>Launchpad</span>
+            </div>
+
+            <div className="macos-dock-app-2641">
+              <i className="ri-safari-fill"></i>
+              <span>Safari</span>
+            </div>
+
+            <div className="macos-dock-app-2641">
+              <i className="ri-mail-fill"></i>
+              <span>Mail</span>
+            </div>
+
+            <div className="macos-dock-app-2641">
+              <i className="ri-message-3-fill"></i>
+              <span>Messages</span>
+            </div>
+
+            <div className="macos-dock-app-2641">
+              <i className="ri-calendar-fill"></i>
+              <span>Calendar</span>
+            </div>
+
+            <div className="macos-dock-app-2641">
+              <i className="ri-image-2-fill"></i>
+              <span>Photos</span>
+            </div>
+
+            <div className="macos-dock-app-2641">
+              <i className="ri-sticky-note-fill"></i>
+              <span>Notes</span>
+            </div>
+
+            <div className="macos-dock-app-2641">
+              <i className="ri-music-2-fill"></i>
+              <span>Music</span>
+            </div>
+
+            <div className="macos-dock-app-2641">
+              <i className="ri-settings-4-fill"></i>
+              <span>Settings</span>
+            </div>
+
+            <div className="macos-dock-divider-2641"></div>
+
+            <div className="macos-dock-app-2641">
+              <i className="ri-code-box-fill"></i>
+              <span>VS Code</span>
+            </div>
+
+            <div className="macos-dock-app-2641">
+              <i className="ri-terminal-box-fill"></i>
+              <span>Terminal</span>
+            </div>
+
+            <div className="macos-dock-divider-2641"></div>
+
+            <div className="macos-dock-app-2641">
+              <i className="ri-delete-bin-6-fill"></i>
+              <span>Trash</span>
+            </div>
+          </div>
+
+          <div className="macos-glass-reflection-2641"></div>
+        </div>
+      </div>
+    ),
+    html: `<div class="macos-ui-2641">
+  <div class="macos-desktop-2641">
+    <div class="macos-wallpaper-2641">
+      <div class="macos-orb-2641 macos-orb-one-2641"></div>
+      <div class="macos-orb-2641 macos-orb-two-2641"></div>
+      <div class="macos-orb-2641 macos-orb-three-2641"></div>
+      <div class="macos-wave-2641 macos-wave-one-2641"></div>
+      <div class="macos-wave-2641 macos-wave-two-2641"></div>
+    </div>
+    <div class="macos-menubar-2641">
+      <div class="macos-menubar-left-2641">
+        <div class="macos-apple-2641"><i class="ri-apple-fill"></i></div>
+        <span class="macos-active-app-2641">Finder</span>
+        <span>File</span>
+        <span>Edit</span>
+        <span>View</span>
+        <span>Go</span>
+        <span>Window</span>
+        <span>Help</span>
+      </div>
+      <div class="macos-menubar-right-2641">
+        <i class="ri-code-s-slash-line"></i>
+        <i class="ri-bluetooth-fill"></i>
+        <i class="ri-wifi-fill"></i>
+        <i class="ri-battery-2-charge-fill"></i>
+        <i class="ri-search-line"></i>
+        <i class="ri-settings-3-line"></i>
+        <span>Tue Sep 8</span>
+        <strong>9:41 AM</strong>
+      </div>
+    </div>
+    <div class="macos-desktop-icons-2641">
+      <div class="macos-desktop-icon-2641">
+        <div class="macos-desktop-icon-image-2641 folder"><i class="ri-folder-3-fill"></i></div>
+        <span>Projects</span>
+      </div>
+      <div class="macos-desktop-icon-2641">
+        <div class="macos-desktop-icon-image-2641 drive"><i class="ri-hard-drive-3-fill"></i></div>
+        <span>Macintosh HD</span>
+      </div>
+      <div class="macos-desktop-icon-2641">
+        <div class="macos-desktop-icon-image-2641 code"><i class="ri-github-fill"></i></div>
+        <span>Repositories</span>
+      </div>
+    </div>
+    <div class="macos-widget-column-2641">
+      <div class="macos-widget-2641 weather-card-2641">
+        <div class="macos-widget-heading-2641">
+          <span>AMSTERDAM</span>
+          <i class="ri-sun-fill"></i>
+        </div>
+        <div class="macos-temperature-2641">21°</div>
+        <div class="macos-weather-condition-2641">Mostly sunny</div>
+        <div class="macos-weather-details-2641">
+          <span>H: 24°</span>
+          <span>L: 16°</span>
+        </div>
+      </div>
+      <div class="macos-widget-2641 calendar-card-2641">
+        <div class="macos-calendar-date-2641">
+          <span>Tuesday</span>
+          <strong>8</strong>
+        </div>
+        <div class="macos-event-2641">
+          <div class="macos-event-dot-2641 purple"></div>
+          <div><strong>Design meeting</strong><small>10:00 – 11:00</small></div>
+        </div>
+        <div class="macos-event-2641">
+          <div class="macos-event-dot-2641 blue"></div>
+          <div><strong>Lunch</strong><small>12:30 – 13:30</small></div>
+        </div>
+        <div class="macos-event-2641">
+          <div class="macos-event-dot-2641 cyan"></div>
+          <div><strong>Product sync</strong><small>15:00 – 16:00</small></div>
+        </div>
+      </div>
+      <div class="macos-widget-2641 music-card-2641">
+        <div class="macos-music-art-2641"><i class="ri-music-2-fill"></i></div>
+        <div class="macos-music-information-2641">
+          <span>Now Playing</span>
+          <strong>Midnight City</strong>
+          <small>M83</small>
+        </div>
+        <i class="ri-spotify-fill macos-music-brand-2641"></i>
+        <div class="macos-player-2641">
+          <i class="ri-skip-back-fill"></i>
+          <i class="ri-pause-circle-fill"></i>
+          <i class="ri-skip-forward-fill"></i>
+        </div>
+      </div>
+    </div>
+    <div class="macos-finder-window-2641">
+      <div class="macos-window-titlebar-2641">
+        <div class="macos-window-controls-2641">
+          <button class="close"></button>
+          <button class="minimize"></button>
+          <button class="maximize"></button>
+        </div>
+        <div class="macos-window-navigation-2641">
+          <i class="ri-arrow-left-s-line"></i>
+          <i class="ri-arrow-right-s-line"></i>
+        </div>
+        <div class="macos-window-title-2641">
+          <i class="ri-folder-3-fill"></i>
+          <span>Projects</span>
+        </div>
+        <div class="macos-window-toolbar-2641">
+          <i class="ri-list-check-3"></i>
+          <i class="ri-layout-grid-line"></i>
+          <i class="ri-search-line"></i>
+        </div>
+      </div>
+      <div class="macos-finder-body-2641">
+        <aside class="macos-sidebar-2641">
+          <div class="macos-sidebar-section-2641">
+            <span class="macos-sidebar-label-2641">Favorites</span>
+            <div class="macos-sidebar-item-2641 active"><i class="ri-airplay-fill"></i><span>AirDrop</span></div>
+            <div class="macos-sidebar-item-2641 active-page"><i class="ri-home-5-fill"></i><span>Home</span></div>
+            <div class="macos-sidebar-item-2641"><i class="ri-file-3-fill"></i><span>Documents</span></div>
+            <div class="macos-sidebar-item-2641"><i class="ri-download-2-fill"></i><span>Downloads</span></div>
+            <div class="macos-sidebar-item-2641"><i class="ri-image-2-fill"></i><span>Pictures</span></div>
+          </div>
+          <div class="macos-sidebar-section-2641">
+            <span class="macos-sidebar-label-2641">iCloud</span>
+            <div class="macos-sidebar-item-2641"><i class="ri-cloud-fill"></i><span>iCloud Drive</span></div>
+          </div>
+          <div class="macos-sidebar-section-2641">
+            <span class="macos-sidebar-label-2641">Locations</span>
+            <div class="macos-sidebar-item-2641"><i class="ri-mac-fill"></i><span>Macintosh HD</span></div>
+          </div>
+        </aside>
+        <main class="macos-file-area-2641">
+          <div class="macos-file-header-2641">
+            <div>
+              <span>Today</span>
+              <strong>Projects</strong>
+            </div>
+            <div class="macos-item-count-2641">8 items</div>
+          </div>
+          <div class="macos-files-grid-2641">
+            <div class="macos-file-2641 selected">
+              <div class="macos-file-icon-2641 purple"><i class="ri-reactjs-line"></i></div>
+              <span>dashboard</span>
+              <small>React project</small>
+            </div>
+            <div class="macos-file-2641">
+              <div class="macos-file-icon-2641 blue"><i class="ri-code-box-fill"></i></div>
+              <span>components</span>
+              <small>TypeScript</small>
+            </div>
+            <div class="macos-file-2641">
+              <div class="macos-file-icon-2641 orange"><i class="ri-folder-3-fill"></i></div>
+              <span>assets</span>
+              <small>Folder</small>
+            </div>
+            <div class="macos-file-2641">
+              <div class="macos-file-icon-2641 green"><i class="ri-git-branch-fill"></i></div>
+              <span>github</span>
+              <small>Repository</small>
+            </div>
+            <div class="macos-file-2641">
+              <div class="macos-file-icon-2641 cyan"><i class="ri-database-2-fill"></i></div>
+              <span>database</span>
+              <small>MongoDB</small>
+            </div>
+            <div class="macos-file-2641">
+              <div class="macos-file-icon-2641 pink"><i class="ri-palette-fill"></i></div>
+              <span>design</span>
+              <small>UI system</small>
+            </div>
+            <div class="macos-file-2641">
+              <div class="macos-file-icon-2641 yellow"><i class="ri-terminal-box-fill"></i></div>
+              <span>terminal</span>
+              <small>Scripts</small>
+            </div>
+            <div class="macos-file-2641">
+              <div class="macos-file-icon-2641 red"><i class="ri-file-code-fill"></i></div>
+              <span>config</span>
+              <small>Configuration</small>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div class="macos-window-status-2641">
+        <span>8 items</span>
+        <span>176 GB available</span>
+      </div>
+    </div>
+    <div class="macos-floating-control-2641">
+      <div class="macos-control-header-2641">
+        <strong>Control Center</strong>
+        <i class="ri-settings-4-line"></i>
+      </div>
+      <div class="macos-control-grid-2641">
+        <div class="macos-control-large-2641">
+          <div class="macos-control-icon-2641"><i class="ri-wifi-fill"></i></div>
+          <div><strong>Wi-Fi</strong><span>Home Network</span></div>
+          <i class="ri-arrow-right-s-line"></i>
+        </div>
+        <div class="macos-control-large-2641">
+          <div class="macos-control-icon-2641"><i class="ri-bluetooth-fill"></i></div>
+          <div><strong>Bluetooth</strong><span>On</span></div>
+          <i class="ri-arrow-right-s-line"></i>
+        </div>
+      </div>
+      <div class="macos-control-row-2641">
+        <div class="macos-control-mini-2641"><i class="ri-moon-fill"></i><span>Focus</span></div>
+        <div class="macos-control-mini-2641"><i class="ri-sun-fill"></i><span>Brightness</span></div>
+        <div class="macos-control-mini-2641"><i class="ri-volume-up-fill"></i><span>Sound</span></div>
+      </div>
+    </div>
+    <div class="macos-dock-2641">
+      <div class="macos-dock-app-2641 selected"><i class="ri-mac-fill"></i><span>Finder</span></div>
+      <div class="macos-dock-app-2641"><i class="ri-apps-2-fill"></i><span>Launchpad</span></div>
+      <div class="macos-dock-app-2641"><i class="ri-safari-fill"></i><span>Safari</span></div>
+      <div class="macos-dock-app-2641"><i class="ri-mail-fill"></i><span>Mail</span></div>
+      <div class="macos-dock-app-2641"><i class="ri-message-3-fill"></i><span>Messages</span></div>
+      <div class="macos-dock-app-2641"><i class="ri-calendar-fill"></i><span>Calendar</span></div>
+      <div class="macos-dock-app-2641"><i class="ri-image-2-fill"></i><span>Photos</span></div>
+      <div class="macos-dock-app-2641"><i class="ri-sticky-note-fill"></i><span>Notes</span></div>
+      <div class="macos-dock-app-2641"><i class="ri-music-2-fill"></i><span>Music</span></div>
+      <div class="macos-dock-app-2641"><i class="ri-settings-4-fill"></i><span>Settings</span></div>
+      <div class="macos-dock-divider-2641"></div>
+      <div class="macos-dock-app-2641"><i class="ri-code-box-fill"></i><span>VS Code</span></div>
+      <div class="macos-dock-app-2641"><i class="ri-terminal-box-fill"></i><span>Terminal</span></div>
+      <div class="macos-dock-divider-2641"></div>
+      <div class="macos-dock-app-2641"><i class="ri-delete-bin-6-fill"></i><span>Trash</span></div>
+    </div>
+    <div class="macos-glass-reflection-2641"></div>
+  </div>
+</div>`,
+    css: `
+.macos-preview-2641 {
+  width: 100%;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 40%, rgba(99,102,241,0.18), transparent 32%),
+    #05070e;
+}
+.macos-desktop-2641 {
+  width: min(1100px, 96%);
+  aspect-ratio: 16 / 10;
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #030712;
+  box-shadow:
+    0 35px 100px rgba(0,0,0,0.55),
+    0 0 0 1px rgba(255,255,255,0.12);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", Arial, sans-serif;
+}
+.macos-wallpaper-2641 {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 40%, #20276e 0%, transparent 36%),
+    linear-gradient(145deg, #060817 0%, #15134a 42%, #061a38 72%, #02030b 100%);
+}
+.macos-orb-2641 {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(70px);
+}
+.macos-orb-one-2641 {
+  width: 420px;
+  height: 220px;
+  left: 5%;
+  top: 12%;
+  background: rgba(99,102,241,0.42);
+  animation: macosOrbOne2641 9s ease-in-out infinite;
+}
+.macos-orb-two-2641 {
+  width: 480px;
+  height: 220px;
+  right: 2%;
+  top: 30%;
+  background: rgba(37,99,235,0.36);
+  animation: macosOrbTwo2641 10s ease-in-out infinite;
+}
+.macos-orb-three-2641 {
+  width: 360px;
+  height: 190px;
+  left: 35%;
+  bottom: -20%;
+  background: rgba(168,85,247,0.3);
+  animation: macosOrbThree2641 8s ease-in-out infinite;
+}
+.macos-wave-2641 {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(139,92,246,0.17);
+  transform: rotate(-22deg);
+}
+.macos-wave-one-2641 {
+  width: 980px;
+  height: 260px;
+  left: -15%;
+  top: 38%;
+  box-shadow: 0 0 80px rgba(99,102,241,0.1);
+}
+.macos-wave-two-2641 {
+  width: 850px;
+  height: 250px;
+  right: -10%;
+  top: 14%;
+  border-color: rgba(56,189,248,0.15);
+}
+.macos-menubar-2641 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 27px;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  box-sizing: border-box;
+  color: rgba(255,255,255,0.94);
+  font-size: 8px;
+  background: rgba(255,255,255,0.025);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+}
+.macos-menubar-left-2641,
+.macos-menubar-right-2641 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.macos-menubar-right-2641 {
+  gap: 9px;
+}
+.macos-menubar-right-2641 i {
+  font-size: 10px;
+}
+.macos-menubar-right-2641 span {
+  margin-left: 2px;
+}
+.macos-menubar-right-2641 strong {
+  font-weight: 600;
+}
+.macos-apple-2641 {
+  width: 14px;
+  height: 18px;
+  display: grid;
+  place-items: center;
+  font-size: 10px;
+}
+.macos-active-app-2641 {
+  font-weight: 700;
+}
+.macos-desktop-icons-2641 {
+  position: absolute;
+  z-index: 3;
+  top: 55px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.macos-desktop-icon-2641 {
+  width: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: rgba(255,255,255,0.94);
+  font-size: 7px;
+  text-align: center;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.7);
+}
+.macos-desktop-icon-image-2641 {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  font-size: 23px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.22);
+}
+.macos-desktop-icon-image-2641.folder {
+  color: #60a5fa;
+  background: linear-gradient(145deg,#dbeafe,#60a5fa);
+}
+.macos-desktop-icon-image-2641.drive {
+  color: #e2e8f0;
+  background: linear-gradient(145deg,#64748b,#1e293b);
+}
+.macos-desktop-icon-image-2641.code {
+  color: white;
+  background: linear-gradient(145deg,#111827,#475569);
+}
+.macos-widget-column-2641 {
+  position: absolute;
+  z-index: 4;
+  left: 20px;
+  top: 48px;
+  width: 165px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.macos-widget-2641 {
+  border: 1px solid rgba(255,255,255,0.13);
+  background: rgba(13,18,35,0.44);
+  backdrop-filter: blur(24px) saturate(130%);
+  -webkit-backdrop-filter: blur(24px) saturate(130%);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.07),
+    0 14px 35px rgba(0,0,0,0.18);
+}
+.weather-card-2641 {
+  padding: 13px;
+  border-radius: 18px;
+}
+.macos-widget-heading-2641 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255,255,255,0.62);
+  font-size: 7px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+.macos-widget-heading-2641 i {
+  color: #facc15;
+  font-size: 13px;
+}
+.macos-temperature-2641 {
+  margin-top: 5px;
+  color: white;
+  font-size: 31px;
+  font-weight: 300;
+}
+.macos-weather-condition-2641 {
+  margin-top: 2px;
+  color: rgba(255,255,255,0.69);
+  font-size: 8px;
+}
+.macos-weather-details-2641 {
+  display: flex;
+  gap: 10px;
+  margin-top: 11px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255,255,255,0.09);
+  color: rgba(255,255,255,0.42);
+  font-size: 7px;
+}
+.calendar-card-2641 {
+  padding: 13px;
+  border-radius: 18px;
+}
+.macos-calendar-date-2641 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  color: rgba(255,255,255,0.66);
+}
+.macos-calendar-date-2641 span {
+  font-size: 8px;
+}
+.macos-calendar-date-2641 strong {
+  color: white;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 400;
+}
+.macos-event-2641 {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  margin-top: 9px;
+}
+.macos-event-dot-2641 {
+  width: 3px;
+  height: 24px;
+  margin-top: 1px;
+  border-radius: 999px;
+}
+.macos-event-dot-2641.purple {
+  background: #a78bfa;
+}
+.macos-event-dot-2641.blue {
+  background: #60a5fa;
+}
+.macos-event-dot-2641.cyan {
+  background: #22d3ee;
+}
+.macos-event-2641 div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.macos-event-2641 strong {
+  color: rgba(255,255,255,0.87);
+  font-size: 7px;
+}
+.macos-event-2641 small {
+  color: rgba(255,255,255,0.4);
+  font-size: 6px;
+}
+.music-card-2641 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 35px 1fr 15px;
+  gap: 8px;
+  padding: 10px;
+  border-radius: 18px;
+}
+.macos-music-art-2641 {
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: linear-gradient(145deg,#8b5cf6,#2563eb);
+  color: white;
+  font-size: 15px;
+}
+.macos-music-information-2641 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.macos-music-information-2641 span {
+  color: rgba(255,255,255,0.4);
+  font-size: 6px;
+}
+.macos-music-information-2641 strong {
+  color: white;
+  font-size: 7px;
+}
+.macos-music-information-2641 small {
+  color: rgba(255,255,255,0.43);
+  font-size: 6px;
+}
+.macos-music-brand-2641 {
+  color: #22c55e;
+  font-size: 12px;
+}
+.macos-player-2641 {
+  position: absolute;
+  left: 53px;
+  bottom: 7px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(255,255,255,0.58);
+  font-size: 9px;
+}
+.macos-player-2641 i:nth-child(2) {
+  color: white;
+  font-size: 13px;
+}
+.macos-finder-window-2641 {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  top: 55px;
+  width: 570px;
+  height: 370px;
+  transform: translateX(-50%);
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 15px;
+  background: rgba(240,243,248,0.82);
+  box-shadow:
+    0 35px 85px rgba(0,0,0,0.36),
+    0 0 0 1px rgba(0,0,0,0.08);
+  backdrop-filter: blur(35px) saturate(120%);
+  -webkit-backdrop-filter: blur(35px) saturate(120%);
+}
+.macos-window-titlebar-2641 {
+  height: 40px;
+  display: grid;
+  grid-template-columns: 85px 80px 1fr 100px;
+  align-items: center;
+  padding: 0 11px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(15,23,42,0.08);
+  background: rgba(255,255,255,0.48);
+}
+.macos-window-controls-2641 {
+  display: flex;
+  gap: 6px;
+}
+.macos-window-controls-2641 button {
+  width: 10px;
+  height: 10px;
+  border: 0;
+  border-radius: 50%;
+}
+.macos-window-controls-2641 .close {
+  background: #ff5f57;
+}
+.macos-window-controls-2641 .minimize {
+  background: #febc2e;
+}
+.macos-window-controls-2641 .maximize {
+  background: #28c840;
+}
+.macos-window-navigation-2641 {
+  display: flex;
+  gap: 6px;
+  color: #64748b;
+  font-size: 14px;
+}
+.macos-window-title-2641 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #334155;
+  font-size: 9px;
+  font-weight: 700;
+}
+.macos-window-title-2641 i {
+  color: #60a5fa;
+  font-size: 12px;
+}
+.macos-window-toolbar-2641 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  color: #64748b;
+  font-size: 12px;
+}
+.macos-finder-body-2641 {
+  display: flex;
+  height: calc(100% - 65px);
+}
+.macos-sidebar-2641 {
+  width: 130px;
+  flex-shrink: 0;
+  padding: 12px 7px;
+  box-sizing: border-box;
+  background: rgba(226,232,240,0.48);
+  border-right: 1px solid rgba(15,23,42,0.08);
+}
+.macos-sidebar-section-2641 {
+  margin-bottom: 15px;
+}
+.macos-sidebar-label-2641 {
+  display: block;
+  padding: 0 8px 5px;
+  color: #94a3b8;
+  font-size: 6px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+.macos-sidebar-item-2641 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 8px;
+  margin-bottom: 2px;
+  border-radius: 6px;
+  color: #64748b;
+  font-size: 7px;
+}
+.macos-sidebar-item-2641 i {
+  font-size: 10px;
+}
+.macos-sidebar-item-2641.active-page {
+  color: #334155;
+  background: rgba(255,255,255,0.72);
+  box-shadow: 0 2px 8px rgba(15,23,42,0.05);
+}
+.macos-file-area-2641 {
+  flex: 1;
+  min-width: 0;
+  padding: 18px;
+  background: rgba(255,255,255,0.28);
+}
+.macos-file-header-2641 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 15px;
+}
+.macos-file-header-2641 div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.macos-file-header-2641 span {
+  color: #94a3b8;
+  font-size: 6px;
+}
+.macos-file-header-2641 strong {
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: 600;
+}
+.macos-item-count-2641 {
+  color: #94a3b8;
+  font-size: 6px;
+}
+.macos-files-grid-2641 {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 17px 8px;
+}
+.macos-file-2641 {
+  min-width: 0;
+  padding: 8px 4px;
+  border-radius: 10px;
+  text-align: center;
+  transition: background 0.2s ease;
+}
+.macos-file-2641:hover,
+.macos-file-2641.selected {
+  background: rgba(96,165,250,0.12);
+}
+.macos-file-icon-2641 {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 7px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  color: white;
+  font-size: 22px;
+  box-shadow: 0 8px 18px rgba(15,23,42,0.11);
+}
+.macos-file-icon-2641.purple {
+  background: linear-gradient(145deg,#a78bfa,#6366f1);
+}
+.macos-file-icon-2641.blue {
+  background: linear-gradient(145deg,#38bdf8,#2563eb);
+}
+.macos-file-icon-2641.orange {
+  background: linear-gradient(145deg,#fb923c,#f97316);
+}
+.macos-file-icon-2641.green {
+  background: linear-gradient(145deg,#34d399,#059669);
+}
+.macos-file-icon-2641.cyan {
+  background: linear-gradient(145deg,#22d3ee,#0891b2);
+}
+.macos-file-icon-2641.pink {
+  background: linear-gradient(145deg,#f472b6,#db2777);
+}
+.macos-file-icon-2641.yellow {
+  background: linear-gradient(145deg,#facc15,#eab308);
+}
+.macos-file-icon-2641.red {
+  background: linear-gradient(145deg,#f87171,#dc2626);
+}
+.macos-file-2641 > span {
+  display: block;
+  overflow: hidden;
+  color: #334155;
+  font-size: 7px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.macos-file-2641 small {
+  display: block;
+  margin-top: 3px;
+  color: #94a3b8;
+  font-size: 5px;
+}
+.macos-window-status-2641 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 13px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(15,23,42,0.07);
+  background: rgba(255,255,255,0.46);
+  color: #94a3b8;
+  font-size: 6px;
+}
+.macos-floating-control-2641 {
+  position: absolute;
+  z-index: 20;
+  top: 46px;
+  right: 95px;
+  width: 180px;
+  padding: 12px;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 17px;
+  background: rgba(25,30,45,0.6);
+  box-shadow:
+    0 25px 50px rgba(0,0,0,0.25),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+}
+.macos-control-header-2641 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 8px;
+}
+.macos-control-header-2641 i {
+  color: rgba(255,255,255,0.55);
+  font-size: 12px;
+}
+.macos-control-grid-2641 {
+  display: grid;
+  gap: 6px;
+  margin-top: 10px;
+}
+.macos-control-large-2641 {
+  display: grid;
+  grid-template-columns: 27px 1fr 12px;
+  align-items: center;
+  gap: 7px;
+  padding: 7px;
+  border-radius: 9px;
+  background: rgba(255,255,255,0.07);
+}
+.macos-control-icon-2641 {
+  width: 27px;
+  height: 27px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  background: rgba(59,130,246,0.9);
+  color: white;
+  font-size: 12px;
+}
+.macos-control-large-2641 > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.macos-control-large-2641 strong {
+  color: white;
+  font-size: 7px;
+}
+.macos-control-large-2641 span {
+  color: rgba(255,255,255,0.42);
+  font-size: 6px;
+}
+.macos-control-large-2641 > i:last-child {
+  color: rgba(255,255,255,0.35);
+  font-size: 11px;
+}
+.macos-control-row-2641 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 6px;
+  margin-top: 6px;
+}
+.macos-control-mini-2641 {
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+  border-radius: 9px;
+  background: rgba(255,255,255,0.07);
+  color: rgba(255,255,255,0.56);
+  font-size: 7px;
+}
+.macos-control-mini-2641 i {
+  color: white;
+  font-size: 12px;
+}
+.macos-dock-2641 {
+  position: absolute;
+  z-index: 25;
+  left: 50%;
+  bottom: 12px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  padding: 7px 9px 9px;
+  border: 1px solid rgba(255,255,255,0.17);
+  border-radius: 20px;
+  background: rgba(24,28,40,0.5);
+  box-shadow:
+    0 18px 45px rgba(0,0,0,0.3),
+    inset 0 1px 0 rgba(255,255,255,0.1);
+  backdrop-filter: blur(30px) saturate(140%);
+  -webkit-backdrop-filter: blur(30px) saturate(140%);
+}
+.macos-dock-app-2641 {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  transition:
+    transform 0.25s cubic-bezier(0.22,1,0.36,1),
+    filter 0.25s ease,
+    background 0.2s ease;
+}
+.macos-dock-app-2641:hover {
+  transform: translateY(-11px) scale(1.27);
+  filter: brightness(1.12);
+  background: rgba(255,255,255,0.07);
+}
+.macos-dock-app-2641:hover + .macos-dock-app-2641 {
+  transform: translateY(-5px) scale(1.09);
+}
+.macos-dock-app-2641:has(+ .macos-dock-app-2641:hover) {
+  transform: translateY(-5px) scale(1.09);
+}
+.macos-dock-app-2641 span {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 12px);
+  transform: translateX(-50%) translateY(4px);
+  padding: 4px 7px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 6px;
+  background: rgba(10,12,18,0.9);
+  color: white;
+  font-size: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease;
+}
+.macos-dock-app-2641:hover span {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+.macos-dock-app-2641.selected::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 3px;
+  height: 3px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 7px rgba(255,255,255,0.7);
+}
+.macos-dock-app-2641:nth-child(1) {
+  color: #60a5fa;
+}
+.macos-dock-app-2641:nth-child(2) {
+  color: #c4b5fd;
+}
+.macos-dock-app-2641:nth-child(3) {
+  color: #38bdf8;
+}
+.macos-dock-app-2641:nth-child(4) {
+  color: #93c5fd;
+}
+.macos-dock-app-2641:nth-child(5) {
+  color: #4ade80;
+}
+.macos-dock-app-2641:nth-child(6) {
+  color: #fb7185;
+}
+.macos-dock-app-2641:nth-child(7) {
+  color: #facc15;
+}
+.macos-dock-app-2641:nth-child(8) {
+  color: #fde68a;
+}
+.macos-dock-app-2641:nth-child(9) {
+  color: #c4b5fd;
+}
+.macos-dock-app-2641:nth-child(10) {
+  color: #d4d4d8;
+}
+.macos-dock-app-2641:nth-child(12) {
+  color: #60a5fa;
+}
+.macos-dock-app-2641:nth-child(13) {
+  color: #a1a1aa;
+}
+.macos-dock-app-2641:nth-child(15) {
+  color: #d4d4d8;
+}
+.macos-dock-divider-2641 {
+  width: 1px;
+  height: 31px;
+  margin: 0 1px;
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(255,255,255,0.2),
+    transparent
+  );
+}
+.macos-glass-reflection-2641 {
+  position: absolute;
+  z-index: 50;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(
+      115deg,
+      rgba(255,255,255,0.075),
+      transparent 22%,
+      transparent 70%,
+      rgba(255,255,255,0.025)
+    );
+}
+@keyframes macosOrbOne2641 {
+  0%,100% {
+    transform: translate(0,0) scale(1);
+  }
+  50% {
+    transform: translate(34px,18px) scale(1.08);
+  }
+}
+@keyframes macosOrbTwo2641 {
+  0%,100% {
+    transform: translate(0,0) scale(1);
+  }
+  50% {
+    transform: translate(-30px,-17px) scale(1.1);
+  }
+}
+@keyframes macosOrbThree2641 {
+  0%,100% {
+    transform: translateY(0) scale(0.95);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-18px) scale(1.1);
+    opacity: 0.95;
+  }
+}
+@media (max-width: 1050px) {
+  .macos-desktop-2641 {
+    width: 98%;
+  }
+  .macos-floating-control-2641 {
+    right: 20px;
+    transform: scale(0.85);
+    transform-origin: top right;
+  }
+}
+@media (max-width: 850px) {
+  .macos-widget-column-2641 {
+    transform: scale(0.82);
+    transform-origin: top left;
+  }
+  .macos-finder-window-2641 {
+    width: 530px;
+    transform: translateX(-50%) scale(0.92);
+    transform-origin: top center;
+  }
+  .macos-desktop-icons-2641 {
+    transform: scale(0.82);
+    transform-origin: top right;
+  }
+}
+@media (max-width: 700px) {
+  .macos-preview-2641 {
+    min-height: 520px;
+  }
+  .macos-desktop-2641 {
+    width: 1100px;
+    transform: scale(0.53);
+    transform-origin: center center;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .macos-orb-one-2641,
+  .macos-orb-two-2641,
+  .macos-orb-three-2641 {
+    animation: none;
+  }
+  .macos-dock-app-2641,
+  .macos-file-2641 {
+    transition: none;
+  }
+}
+`,
+  },
+  {
+    id: 2642,
+    name: "macOS Notification Card",
+    preview: (
+      <div className="macos-notification-preview-2642">
+        <div className="macos-notification-2642">
+          <div className="macos-notification-icon-2642">
+            <i className="ri-message-3-fill"></i>
+          </div>
+          <div className="macos-notification-content-2642">
+            <div className="macos-notification-header-2642">
+              <strong>Messages</strong>
+              <span>now</span>
+            </div>
+            <h4>New message</h4>
+            <p>Everything is ready for you.</p>
+          </div>
+          <button className="macos-notification-close-2642">
+            <i className="ri-close-line"></i>
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="macos-notification-2642">
+  <div class="macos-notification-icon-2642">
+    <i class="ri-message-3-fill"></i>
+  </div>
+  <div class="macos-notification-content-2642">
+    <div class="macos-notification-header-2642">
+      <strong>Messages</strong>
+      <span>now</span>
+    </div>
+    <h4>New message</h4>
+    <p>Everything is ready for you.</p>
+  </div>
+  <button class="macos-notification-close-2642">
+    <i class="ri-close-line"></i>
+  </button>
+</div>`,
+    css: `
+.macos-notification-preview-2642 {
+  width: 100%;
+  min-height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  box-sizing: border-box;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(99,102,241,0.12), transparent 38%),
+    #09090b;
+}
+.macos-notification-2642 {
+  width: min(360px, 90%);
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 18px;
+  background: rgba(30,32,38,0.72);
+  box-shadow:
+    0 22px 45px rgba(0,0,0,0.3),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+  backdrop-filter: blur(24px) saturate(140%);
+  -webkit-backdrop-filter: blur(24px) saturate(140%);
+  color: white;
+  animation: macosNotificationEnter2642 0.45s cubic-bezier(0.22,1,0.36,1);
+}
+.macos-notification-icon-2642 {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: linear-gradient(145deg,#60a5fa,#2563eb);
+  color: white;
+  font-size: 20px;
+  box-shadow:
+    0 8px 20px rgba(37,99,235,0.25),
+    inset 0 1px 0 rgba(255,255,255,0.2);
+}
+.macos-notification-content-2642 {
+  min-width: 0;
+  flex: 1;
+}
+.macos-notification-header-2642 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.macos-notification-header-2642 strong {
+  color: rgba(255,255,255,0.9);
+  font-size: 10px;
+  font-weight: 700;
+}
+.macos-notification-header-2642 span {
+  color: rgba(255,255,255,0.38);
+  font-size: 8px;
+}
+.macos-notification-content-2642 h4 {
+  margin: 6px 0 3px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+.macos-notification-content-2642 p {
+  margin: 0;
+  color: rgba(255,255,255,0.55);
+  font-size: 10px;
+  line-height: 1.4;
+}
+.macos-notification-close-2642 {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.07);
+  color: rgba(255,255,255,0.55);
+  font-size: 14px;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+.macos-notification-close-2642:hover {
+  background: rgba(255,255,255,0.14);
+  color: white;
+  transform: scale(1.08);
+}
+@keyframes macosNotificationEnter2642 {
+  from {
+    opacity: 0;
+    transform: translateY(-12px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@media (max-width: 500px) {
+  .macos-notification-2642 {
+    width: 92%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .macos-notification-2642 {
+    animation: none;
+  }
+  .macos-notification-close-2642 {
+    transition: none;
+  }
+}
+`,
+  },
+  {
+    id: 2643,
+    name: "macOS Quick Controls",
+    preview: (
+      <div className="macos-controls-preview-2643">
+        <div className="macos-controls-2643">
+          <div className="macos-controls-top-2643">
+            <span>Control Center</span>
+            <button>
+              <i className="ri-settings-3-fill"></i>
+            </button>
+          </div>
+          <div className="macos-controls-grid-2643">
+            <div className="macos-control-card-2643 wifi">
+              <div className="macos-control-icon-2643">
+                <i className="ri-wifi-fill"></i>
+              </div>
+              <div>
+                <strong>Wi-Fi</strong>
+                <span>Connected</span>
+              </div>
+              <i className="ri-check-line macos-control-check-2643"></i>
+            </div>
+            <div className="macos-control-card-2643">
+              <div className="macos-control-icon-2643 bluetooth">
+                <i className="ri-bluetooth-fill"></i>
+              </div>
+              <div>
+                <strong>Bluetooth</strong>
+                <span>On</span>
+              </div>
+              <i className="ri-check-line macos-control-check-2643"></i>
+            </div>
+          </div>
+          <div className="macos-controls-row-2643">
+            <button className="macos-mini-control-2643 active">
+              <i className="ri-moon-fill"></i>
+              <span>Focus</span>
+            </button>
+            <button className="macos-mini-control-2643">
+              <i className="ri-sun-fill"></i>
+              <span>Display</span>
+            </button>
+            <button className="macos-mini-control-2643">
+              <i className="ri-volume-up-fill"></i>
+              <span>Sound</span>
+            </button>
+          </div>
+          <div className="macos-controls-bottom-2643">
+            <div>
+              <i className="ri-airplay-fill"></i>
+              <span>Screen Mirroring</span>
+            </div>
+            <i className="ri-arrow-right-s-line"></i>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="macos-controls-2643">
+  <div class="macos-controls-top-2643">
+    <span>Control Center</span>
+    <button>
+      <i class="ri-settings-3-fill"></i>
+    </button>
+  </div>
+  <div class="macos-controls-grid-2643">
+    <div class="macos-control-card-2643 wifi">
+      <div class="macos-control-icon-2643">
+        <i class="ri-wifi-fill"></i>
+      </div>
+      <div>
+        <strong>Wi-Fi</strong>
+        <span>Connected</span>
+      </div>
+      <i class="ri-check-line macos-control-check-2643"></i>
+    </div>
+    <div class="macos-control-card-2643">
+      <div class="macos-control-icon-2643 bluetooth">
+        <i class="ri-bluetooth-fill"></i>
+      </div>
+      <div>
+        <strong>Bluetooth</strong>
+        <span>On</span>
+      </div>
+      <i class="ri-check-line macos-control-check-2643"></i>
+    </div>
+  </div>
+  <div class="macos-controls-row-2643">
+    <button class="macos-mini-control-2643 active">
+      <i class="ri-moon-fill"></i>
+      <span>Focus</span>
+    </button>
+    <button class="macos-mini-control-2643">
+      <i class="ri-sun-fill"></i>
+      <span>Display</span>
+    </button>
+    <button class="macos-mini-control-2643">
+      <i class="ri-volume-up-fill"></i>
+      <span>Sound</span>
+    </button>
+  </div>
+  <div class="macos-controls-bottom-2643">
+    <div>
+      <i class="ri-airplay-fill"></i>
+      <span>Screen Mirroring</span>
+    </div>
+    <i class="ri-arrow-right-s-line"></i>
+  </div>
+</div>`,
+    css: `
+.macos-controls-preview-2643 {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(99,102,241,0.14), transparent 38%),
+    #09090b;
+}
+.macos-controls-2643 {
+  width: 300px;
+  padding: 14px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255,255,255,0.13);
+  border-radius: 21px;
+  background: rgba(27,30,38,0.76);
+  box-shadow:
+    0 25px 55px rgba(0,0,0,0.34),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+  backdrop-filter: blur(28px) saturate(145%);
+  -webkit-backdrop-filter: blur(28px) saturate(145%);
+  color: white;
+}
+.macos-controls-top-2643 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.macos-controls-top-2643 > span {
+  color: rgba(255,255,255,0.9);
+  font-size: 11px;
+  font-weight: 700;
+}
+.macos-controls-top-2643 button {
+  width: 25px;
+  height: 25px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.07);
+  color: rgba(255,255,255,0.62);
+  font-size: 13px;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+.macos-controls-top-2643 button:hover {
+  transform: rotate(30deg);
+  background: rgba(255,255,255,0.12);
+}
+.macos-controls-grid-2643 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7px;
+}
+.macos-control-card-2643 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 31px 1fr;
+  align-items: center;
+  gap: 8px;
+  min-height: 57px;
+  padding: 9px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 13px;
+  background: rgba(255,255,255,0.055);
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+.macos-control-card-2643:hover {
+  transform: translateY(-2px);
+  background: rgba(255,255,255,0.09);
+}
+.macos-control-icon-2643 {
+  width: 31px;
+  height: 31px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 14px;
+}
+.macos-control-icon-2643.bluetooth {
+  background: #4f46e5;
+}
+.macos-control-card-2643 > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.macos-control-card-2643 strong {
+  color: rgba(255,255,255,0.92);
+  font-size: 8px;
+  font-weight: 700;
+}
+.macos-control-card-2643 span {
+  overflow: hidden;
+  color: rgba(255,255,255,0.4);
+  font-size: 6px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.macos-control-check-2643 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: #60a5fa;
+  font-size: 9px;
+}
+.macos-controls-row-2643 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 7px;
+  margin-top: 7px;
+}
+.macos-mini-control-2643 {
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 0;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 13px;
+  background: rgba(255,255,255,0.055);
+  color: rgba(255,255,255,0.52);
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    color 0.2s ease;
+}
+.macos-mini-control-2643 i {
+  font-size: 15px;
+}
+.macos-mini-control-2643 span {
+  font-size: 7px;
+  font-weight: 600;
+}
+.macos-mini-control-2643:hover {
+  transform: translateY(-2px);
+  background: rgba(255,255,255,0.09);
+  color: white;
+}
+.macos-mini-control-2643.active {
+  background: rgba(99,102,241,0.72);
+  border-color: rgba(167,139,250,0.4);
+  color: white;
+  box-shadow:
+    0 8px 20px rgba(79,70,229,0.2),
+    inset 0 1px 0 rgba(255,255,255,0.12);
+}
+.macos-controls-bottom-2643 {
+  height: 42px;
+  margin-top: 7px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.045);
+}
+.macos-controls-bottom-2643 > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255,255,255,0.7);
+}
+.macos-controls-bottom-2643 > div i {
+  color: #a5b4fc;
+  font-size: 14px;
+}
+.macos-controls-bottom-2643 span {
+  font-size: 8px;
+  font-weight: 600;
+}
+.macos-controls-bottom-2643 > i {
+  color: rgba(255,255,255,0.35);
+  font-size: 14px;
+}
+@media (max-width: 450px) {
+  .macos-controls-2643 {
+    width: 92%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .macos-controls-top-2643 button,
+  .macos-control-card-2643,
+  .macos-mini-control-2643 {
+    transition: none;
+  }
+}
+`,
+  },
 ];
