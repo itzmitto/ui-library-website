@@ -29,7 +29,8 @@ const sidebarItems = [
   { label: "Pagination", path: "/elements/pagination" },
   { label: "Skeletons", path: "/elements/skeletons" },
   { label: "Sidebars", path: "/elements/sidebars" },
-  { label: "Hero Sections", path: "/elements/hero-sections" }
+  { label: "Hero Sections", path: "/elements/hero-sections" },
+  { label: "Iphone", path: "/elements/iphone" },
 
 ];
 

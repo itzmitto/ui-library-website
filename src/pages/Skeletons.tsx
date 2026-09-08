@@ -30,6 +30,8 @@ const sidebarItems = [
   { label: "Skeletons", path: "/elements/skeletons", active: true },
   { label: "Sidebars", path: "/elements/sidebars" },
   { label: "Hero Sections", path: "/elements/hero-sections" },
+    { label: "Iphone", path: "/elements/iphone" },
+
 ];
 
 export default function Skeletons() {

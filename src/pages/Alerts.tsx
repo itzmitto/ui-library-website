@@ -1,4 +1,4 @@
- import { useState } from "react";
+import { useState } from "react";
 import Header from "../components/Header";
 import { alerts } from "../data/alertsData";
 import ComponentModal from "../components/ComponentModal";
@@ -30,10 +30,11 @@ const sidebarItems = [
   { label: "Skeletons", path: "/elements/skeletons" },
   { label: "Sidebars", path: "/elements/sidebars" },
   { label: "Hero Sections", path: "/elements/hero-sections" },
+  { label: "Iphone", path: "/elements/iphone" },
 ];
 
 export default function Alerts() {
-  const [selected, setSelected] = useState<typeof alerts[0] | null>(null);
+  const [selected, setSelected] = useState<(typeof alerts)[0] | null>(null);
 
   return (
     <div className="all-page">
@@ -68,14 +69,10 @@ export default function Alerts() {
                 onClick={() => setSelected(item)}
                 style={{ cursor: "pointer" }}
               >
-                <div className="all-card-preview">
-                  {item.preview}
-                </div>
+                <div className="all-card-preview">{item.preview}</div>
 
                 <div className="all-card-footer">
-                  <span className="all-card-name">
-                    {item.name}
-                  </span>
+                  <span className="all-card-name">{item.name}</span>
                 </div>
               </div>
             ))}
@@ -83,10 +80,7 @@ export default function Alerts() {
         </main>
       </div>
 
-      <ComponentModal
-        item={selected}
-        onClose={() => setSelected(null)}
-      />
+      <ComponentModal item={selected} onClose={() => setSelected(null)} />
     </div>
   );
 }

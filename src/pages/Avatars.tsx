@@ -30,6 +30,7 @@ const sidebarItems = [
   { label: "Skeletons", path: "/elements/skeletons" },
   { label: "Sidebars", path: "/elements/sidebars" },
   { label: "Hero Sections", path: "/elements/hero-sections" },
+  { label: "Iphone", path: "/elements/iphone" },
 ];
 
 export default function Avatars() {
