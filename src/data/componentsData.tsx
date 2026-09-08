@@ -100460,6 +100460,77 @@ export const avatars = [
 </div>`,
   css: `.avatar-2599{display:flex;align-items:center;justify-content:center}.avatar-2599-orbit{position:relative;width:88px;height:88px;border:2px dashed #6366f1;border-radius:50%;display:flex;align-items:center;justify-content:center}.avatar-2599-image{width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#312e81;color:white;font-size:23px;font-weight:700;font-family:Arial,sans-serif}.avatar-2599-dot{position:absolute;top:-5px;left:50%;width:12px;height:12px;border-radius:50%;background:#a78bfa;border:2px solid white;transform:translateX(-50%)}`
 },
+{
+  id: 2600,
+  name: "Quantum Energy Avatar",
+  preview: (
+    <div className="avatar-2600">
+      <div className="avatar-2600-scene">
+        <div className="avatar-2600-energy">
+          <div className="avatar-2600-ring avatar-2600-ring-outer"></div>
+          <div className="avatar-2600-ring avatar-2600-ring-middle"></div>
+          <div className="avatar-2600-ring avatar-2600-ring-inner"></div>
+          <div className="avatar-2600-orbit avatar-2600-orbit-one"></div>
+          <div className="avatar-2600-orbit avatar-2600-orbit-two"></div>
+          <div className="avatar-2600-orbit avatar-2600-orbit-three"></div>
+          <div className="avatar-2600-aura"></div>
+          <div className="avatar-2600-core">
+            <div className="avatar-2600-core-glow"></div>
+            <div className="avatar-2600-letter">A</div>
+            <div className="avatar-2600-reflection"></div>
+            <div className="avatar-2600-scanline"></div>
+          </div>
+          <span className="avatar-2600-particle avatar-2600-particle-1"></span>
+          <span className="avatar-2600-particle avatar-2600-particle-2"></span>
+          <span className="avatar-2600-particle avatar-2600-particle-3"></span>
+          <span className="avatar-2600-particle avatar-2600-particle-4"></span>
+          <span className="avatar-2600-particle avatar-2600-particle-5"></span>
+          <span className="avatar-2600-particle avatar-2600-particle-6"></span>
+          <span className="avatar-2600-particle avatar-2600-particle-7"></span>
+          <span className="avatar-2600-particle avatar-2600-particle-8"></span>
+          <span className="avatar-2600-particle avatar-2600-particle-9"></span>
+          <span className="avatar-2600-particle avatar-2600-particle-10"></span>
+          <div className="avatar-2600-status">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  ),
+  html: `<div class="avatar-2600">
+  <div class="avatar-2600-scene">
+    <div class="avatar-2600-energy">
+      <div class="avatar-2600-ring avatar-2600-ring-outer"></div>
+      <div class="avatar-2600-ring avatar-2600-ring-middle"></div>
+      <div class="avatar-2600-ring avatar-2600-ring-inner"></div>
+      <div class="avatar-2600-orbit avatar-2600-orbit-one"></div>
+      <div class="avatar-2600-orbit avatar-2600-orbit-two"></div>
+      <div class="avatar-2600-orbit avatar-2600-orbit-three"></div>
+      <div class="avatar-2600-aura"></div>
+      <div class="avatar-2600-core">
+        <div class="avatar-2600-core-glow"></div>
+        <div class="avatar-2600-letter">A</div>
+        <div class="avatar-2600-reflection"></div>
+        <div class="avatar-2600-scanline"></div>
+      </div>
+      <span class="avatar-2600-particle avatar-2600-particle-1"></span>
+      <span class="avatar-2600-particle avatar-2600-particle-2"></span>
+      <span class="avatar-2600-particle avatar-2600-particle-3"></span>
+      <span class="avatar-2600-particle avatar-2600-particle-4"></span>
+      <span class="avatar-2600-particle avatar-2600-particle-5"></span>
+      <span class="avatar-2600-particle avatar-2600-particle-6"></span>
+      <span class="avatar-2600-particle avatar-2600-particle-7"></span>
+      <span class="avatar-2600-particle avatar-2600-particle-8"></span>
+      <span class="avatar-2600-particle avatar-2600-particle-9"></span>
+      <span class="avatar-2600-particle avatar-2600-particle-10"></span>
+      <div class="avatar-2600-status">
+        <span></span>
+      </div>
+    </div>
+  </div>
+</div>`,
+  css: `.avatar-2600{width:100%;min-height:240px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background:radial-gradient(circle at center,rgba(59,130,246,.08),transparent 55%)}.avatar-2600-scene{width:220px;height:220px;display:flex;align-items:center;justify-content:center;position:relative;perspective:900px}.avatar-2600-energy{width:170px;height:170px;position:relative;display:flex;align-items:center;justify-content:center;transform-style:preserve-3d;transition:transform .7s cubic-bezier(.22,1,.36,1),filter .7s ease}.avatar-2600:hover .avatar-2600-energy{transform:rotateX(8deg) rotateY(-10deg) scale(1.08)}.avatar-2600-ring{position:absolute;border-radius:50%;pointer-events:none}.avatar-2600-ring-outer{inset:-22px;border:1px solid rgba(56,189,248,.18);box-shadow:0 0 10px rgba(56,189,248,.08),inset 0 0 10px rgba(56,189,248,.08);animation:avatar2600Outer 12s linear infinite}.avatar-2600-ring-middle{inset:-14px;border:2px solid transparent;border-top-color:#38bdf8;border-right-color:rgba(59,130,246,.7);box-shadow:0 0 14px rgba(56,189,248,.3);animation:avatar2600Middle 6s linear infinite}.avatar-2600-ring-inner{inset:-7px;border:1px dashed rgba(125,211,252,.65);box-shadow:0 0 12px rgba(125,211,252,.18);animation:avatar2600Inner 4s linear infinite reverse}.avatar-2600-orbit{position:absolute;left:50%;top:50%;border:1px solid rgba(56,189,248,.32);border-radius:50%;transform-style:preserve-3d;pointer-events:none}.avatar-2600-orbit-one{width:195px;height:68px;transform:translate(-50%,-50%) rotateX(66deg) rotateZ(15deg);animation:avatar2600OrbitOne 8s linear infinite}.avatar-2600-orbit-two{width:190px;height:72px;transform:translate(-50%,-50%) rotateY(65deg) rotateZ(-20deg);animation:avatar2600OrbitTwo 10s linear infinite reverse}.avatar-2600-orbit-three{width:205px;height:82px;transform:translate(-50%,-50%) rotateX(25deg) rotateY(55deg);animation:avatar2600OrbitThree 13s linear infinite}.avatar-2600-aura{position:absolute;width:125px;height:125px;border-radius:50%;background:radial-gradient(circle,rgba(14,165,233,.3) 0%,rgba(59,130,246,.18) 35%,rgba(37,99,235,.08) 55%,transparent 75%);filter:blur(8px);animation:avatar2600Aura 3s ease-in-out infinite}.avatar-2600-core{width:92px;height:92px;border-radius:50%;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 35% 25%,#67e8f9 0%,#0ea5e9 18%,#2563eb 42%,#172554 72%,#020617 100%);border:2px solid rgba(125,211,252,.95);box-shadow:0 0 8px rgba(56,189,248,.9),0 0 20px rgba(59,130,246,.7),0 0 45px rgba(37,99,235,.55),inset 0 0 25px rgba(147,197,253,.25);transform:translateZ(30px);z-index:5;transition:transform .7s cubic-bezier(.22,1,.36,1),box-shadow .7s ease}.avatar-2600:hover .avatar-2600-core{transform:translateZ(45px) scale(1.05);box-shadow:0 0 12px rgba(56,189,248,1),0 0 28px rgba(59,130,246,.9),0 0 60px rgba(37,99,235,.75),inset 0 0 30px rgba(147,197,253,.3)}.avatar-2600-core-glow{position:absolute;inset:-20%;background:radial-gradient(circle,rgba(125,211,252,.35),transparent 65%);animation:avatar2600CoreGlow 2.5s ease-in-out infinite}.avatar-2600-letter{position:relative;z-index:3;color:white;font-family:Arial,sans-serif;font-size:34px;line-height:1;font-weight:800;letter-spacing:-2px;text-shadow:0 0 6px rgba(255,255,255,.85),0 0 16px rgba(125,211,252,.9),0 0 30px rgba(56,189,248,.75);transition:transform .5s ease,text-shadow .5s ease}.avatar-2600:hover .avatar-2600-letter{transform:scale(1.1);text-shadow:0 0 8px white,0 0 18px #7dd3fc,0 0 38px #38bdf8,0 0 55px #0ea5e9}.avatar-2600-reflection{position:absolute;top:-30%;left:-30%;width:60%;height:160%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.3),transparent);transform:rotate(24deg);animation:avatar2600Reflection 4s ease-in-out infinite}.avatar-2600-scanline{position:absolute;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,rgba(186,230,253,.05),rgba(186,230,253,.7),rgba(186,230,253,.05),transparent);box-shadow:0 0 8px rgba(125,211,252,.8);animation:avatar2600Scan 3.5s linear infinite}.avatar-2600-particle{position:absolute;width:4px;height:4px;border-radius:50%;background:#7dd3fc;box-shadow:0 0 5px #7dd3fc,0 0 12px #38bdf8,0 0 20px rgba(14,165,233,.8);z-index:6;pointer-events:none}.avatar-2600-particle-1{top:5%;left:47%;animation:avatar2600ParticleOne 4.4s ease-in-out infinite}.avatar-2600-particle-2{top:18%;left:85%;animation:avatar2600ParticleTwo 5.1s ease-in-out infinite}.avatar-2600-particle-3{top:63%;left:95%;animation:avatar2600ParticleThree 4.8s ease-in-out infinite}.avatar-2600-particle-4{top:87%;left:62%;animation:avatar2600ParticleFour 5.6s ease-in-out infinite}.avatar-2600-particle-5{top:72%;left:7%;animation:avatar2600ParticleFive 4.9s ease-in-out infinite}.avatar-2600-particle-6{top:28%;left:10%;animation:avatar2600ParticleSix 5.2s ease-in-out infinite}.avatar-2600-particle-7{top:4%;left:68%;width:3px;height:3px;animation:avatar2600ParticleSeven 6.2s ease-in-out infinite}.avatar-2600-particle-8{top:45%;left:102%;width:3px;height:3px;animation:avatar2600ParticleEight 4.7s ease-in-out infinite}.avatar-2600-particle-9{top:99%;left:35%;width:3px;height:3px;animation:avatar2600ParticleNine 5.8s ease-in-out infinite}.avatar-2600-particle-10{top:38%;left:-4%;width:3px;height:3px;animation:avatar2600ParticleTen 5.4s ease-in-out infinite}.avatar-2600-status{position:absolute;right:-7px;bottom:3px;width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#020617;border:2px solid rgba(125,211,252,.7);box-shadow:0 0 10px rgba(56,189,248,.5),0 0 25px rgba(14,165,233,.3);z-index:10}.avatar-2600-status span{width:10px;height:10px;border-radius:50%;background:#22d3ee;box-shadow:0 0 6px #22d3ee,0 0 14px #06b6d4,0 0 22px rgba(6,182,212,.7);animation:avatar2600Status 2s ease-in-out infinite}.avatar-2600:hover .avatar-2600-status{box-shadow:0 0 12px rgba(56,189,248,.8),0 0 30px rgba(14,165,233,.5)}@keyframes avatar2600Outer{0%{transform:rotate(0deg) scale(.96);opacity:.55}50%{transform:rotate(180deg) scale(1.02);opacity:1}100%{transform:rotate(360deg) scale(.96);opacity:.55}}@keyframes avatar2600Middle{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes avatar2600Inner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes avatar2600OrbitOne{0%{transform:translate(-50%,-50%) rotateX(66deg) rotateZ(15deg)}100%{transform:translate(-50%,-50%) rotateX(66deg) rotateZ(375deg)}}@keyframes avatar2600OrbitTwo{0%{transform:translate(-50%,-50%) rotateY(65deg) rotateZ(-20deg)}100%{transform:translate(-50%,-50%) rotateY(65deg) rotateZ(-380deg)}}@keyframes avatar2600OrbitThree{0%{transform:translate(-50%,-50%) rotateX(25deg) rotateY(55deg) rotateZ(0deg)}100%{transform:translate(-50%,-50%) rotateX(25deg) rotateY(55deg) rotateZ(360deg)}}@keyframes avatar2600Aura{0%,100%{transform:scale(.92);opacity:.55}50%{transform:scale(1.15);opacity:1}}@keyframes avatar2600CoreGlow{0%,100%{transform:scale(.8);opacity:.35}50%{transform:scale(1.15);opacity:.8}}@keyframes avatar2600Reflection{0%{left:-80%;opacity:0}20%{opacity:.2}50%{opacity:.7}80%{opacity:.15}100%{left:150%;opacity:0}}@keyframes avatar2600Scan{0%{top:-5%}50%{top:105%}100%{top:105%}}@keyframes avatar2600Status{0%,100%{transform:scale(.8);opacity:.65}50%{transform:scale(1.15);opacity:1}}@keyframes avatar2600ParticleOne{0%,100%{transform:translate(0,0) scale(.7);opacity:.2}25%{transform:translate(-12px,8px) scale(1);opacity:1}50%{transform:translate(5px,22px) scale(.8);opacity:.4}75%{transform:translate(15px,-5px) scale(1.2);opacity:.9}}@keyframes avatar2600ParticleTwo{0%,100%{transform:translate(0,0);opacity:.25}30%{transform:translate(-16px,18px);opacity:1}60%{transform:translate(-5px,-14px);opacity:.4}90%{transform:translate(14px,-7px);opacity:.8}}@keyframes avatar2600ParticleThree{0%,100%{transform:translate(0,0) scale(.7);opacity:.3}35%{transform:translate(-22px,-10px) scale(1.2);opacity:1}70%{transform:translate(-12px,15px) scale(.6);opacity:.2}}@keyframes avatar2600ParticleFour{0%,100%{transform:translate(0,0);opacity:.2}25%{transform:translate(13px,-16px);opacity:1}50%{transform:translate(-5px,-24px);opacity:.5}75%{transform:translate(-18px,-6px);opacity:1}}@keyframes avatar2600ParticleFive{0%,100%{transform:translate(0,0);opacity:.3}33%{transform:translate(18px,-7px);opacity:1}66%{transform:translate(10px,17px);opacity:.35}}@keyframes avatar2600ParticleSix{0%,100%{transform:translate(0,0) scale(.6);opacity:.2}40%{transform:translate(18px,13px) scale(1.1);opacity:1}80%{transform:translate(9px,-12px) scale(.7);opacity:.45}}@keyframes avatar2600ParticleSeven{0%,100%{transform:translate(0,0);opacity:.2}50%{transform:translate(-22px,16px);opacity:1}}@keyframes avatar2600ParticleEight{0%,100%{transform:translate(0,0);opacity:.2}50%{transform:translate(-22px,-20px);opacity:1}}@keyframes avatar2600ParticleNine{0%,100%{transform:translate(0,0);opacity:.2}50%{transform:translate(16px,-18px);opacity:1}}@keyframes avatar2600ParticleTen{0%,100%{transform:translate(0,0);opacity:.2}50%{transform:translate(20px,12px);opacity:1}}`
+},
 ];
 
 
