@@ -1,8 +1,6 @@
-import "../pages/All.css";   
-
 import { buttons } from "./buttonsData";
 import { checkboxes } from "./checkboxesData";
-import { toggles} from "./togglesData";
+import { toggles } from "./togglesData";
 import { cards } from "./cardsData";
 import { loaders } from "./loadersData";
 import { inputs } from "./inputsData";
@@ -23,360 +21,34 @@ import { pagination } from "./paginationData";
 import { skeletons } from "./skeletonsData";
 import { sidebars } from "./sidebarsData";
 import { heroSections } from "./heroSectionsData";
-import { iphones } from "./iphoneData";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import { iphones } from "./iphonesData";
+
+export {
+  buttons,
+  checkboxes,
+  toggles,
+  cards,
+  loaders,
+  inputs,
+  radiobuttons,
+  forms,
+  patterns,
+  tooltips,
+  navbar,
+  logins,
+  dropdowns,
+  modals,
+  alerts,
+  badges,
+  avatars,
+  tabs,
+  breadcrumbs,
+  pagination,
+  skeletons,
+  sidebars,
+  heroSections,
+  iphones,
+};
 
 export const allComponents = [
   ...buttons,
@@ -402,31 +74,9 @@ export const allComponents = [
   ...skeletons,
   ...sidebars,
   ...heroSections,
-  ...iphones
+  ...iphones,
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// { dit de de voorbeeld 
+// { dit de de voorbeeld
 // id: 1, name: "wat de naam ook maar is", preview: <button className="wat de naam ook maar is">Get started</button>,
 // html: `<button class="Button">click here</button>`,
 // css: `.Button {
@@ -437,7 +87,7 @@ export const allComponents = [
 // }`
 // },
 
-// dit is een voorbeeld van het begin van een components ding 
+// dit is een voorbeeld van het begin van een components ding
 // export const checkboxes = [
 //     {
 //         id: 5, name: "Checkbox", preview: (
@@ -530,6 +180,3 @@ export const allComponents = [
 // }`
 //     },
 // ];
-
-
-

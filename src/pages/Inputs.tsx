@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { inputs } from "../data/componentsData";
+import { inputs } from "../data/inputsData";
 import { Link } from "react-router-dom";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";

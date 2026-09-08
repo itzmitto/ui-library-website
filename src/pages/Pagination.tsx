@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { pagination } from "../data/componentsData";
+import { pagination } from "../data/paginationData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Pagination.css";

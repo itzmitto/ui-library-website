@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { logins } from "../data/componentsData";
+import { logins } from "../data/loginsData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Logins.css";

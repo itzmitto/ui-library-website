@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { dropdowns } from "../data/componentsData";
+import { dropdowns } from "../data/dropdownsData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Dropdowns.css";

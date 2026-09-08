@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { patterns } from "../data/componentsData";
+import { patterns } from "../data/patternsData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Patterns.css";
@@ -18,8 +18,8 @@ const sidebarItems = [
   { label: "Patterns", path: "/elements/patterns", active: true },
   { label: "Tooltips", path: "/elements/tooltips" },
   { label: "Navbar", path: "/elements/navbar" },
-    { label: "Logins", path: "/elements/logins" },
-    { label: "Dropdowns", path: "/elements/dropdowns" },
+  { label: "Logins", path: "/elements/logins" },
+  { label: "Dropdowns", path: "/elements/dropdowns" },
   { label: "Modals", path: "/elements/modals" },
   { label: "Alerts", path: "/elements/alerts" },
   { label: "Badges", path: "/elements/badges" },
@@ -29,12 +29,11 @@ const sidebarItems = [
   { label: "Pagination", path: "/elements/pagination" },
   { label: "Skeletons", path: "/elements/skeletons" },
   { label: "Sidebars", path: "/elements/sidebars" },
-  { label: "Hero Sections", path: "/elements/hero-sections" }
-
+  { label: "Hero Sections", path: "/elements/hero-sections" },
 ];
 
-export default function Patterns() { 
-  const [selected, setSelected] = useState<typeof patterns[0] | null>(null);
+export default function Patterns() {
+  const [selected, setSelected] = useState<(typeof patterns)[0] | null>(null);
 
   return (
     <div className="all-page">
@@ -64,23 +63,16 @@ export default function Patterns() {
                 onClick={() => setSelected(item)}
                 style={{ cursor: "pointer" }}
               >
-                <div className="allcard-preview">
-                  {item.preview}
-                </div>
+                <div className="allcard-preview">{item.preview}</div>
                 <div className="allcard-footer">
-                  <span className="allcard-name">
-                    {item.name}
-                  </span>
+                  <span className="allcard-name">{item.name}</span>
                 </div>
               </div>
             ))}
           </div>
         </main>
       </div>
-      <ComponentModal
-        item={selected}
-        onClose={() => setSelected(null)}
-      />
+      <ComponentModal item={selected} onClose={() => setSelected(null)} />
     </div>
   );
 }

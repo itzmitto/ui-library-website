@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { navbar } from "../data/componentsData";
+import { navbar } from "../data/navbarData";
 import ComponentModal from "../components/ComponentModal";
 import "../styling/AllNavbar.css";
 import "../styling/Navbar.css";

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { breadcrumbs } from "../data/componentsData";
+import { breadcrumbs } from "../data/breadcrumbsData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Breadcrumbs.css";

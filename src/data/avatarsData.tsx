@@ -2871,4 +2871,4772 @@ export const avatars = [
 </div>`,
     css: `.avatar-2602{width:100%;min-height:360px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;isolation:isolate;background:radial-gradient(circle at 50% 45%,rgba(139,92,246,.08),transparent 20%),radial-gradient(circle at 50% 50%,rgba(59,130,246,.07),transparent 42%),radial-gradient(circle at 50% 50%,rgba(236,72,153,.035),transparent 70%)}`,
   },
+  {
+    id: 2625,
+    name: "Legendary Void Gravity Avatar",
+    preview: (
+      <div className="avatar-preview-2625">
+        <div className="void-avatar-2625">
+          <div className="void-background-2625"></div>
+          <div className="void-stars-2625"></div>
+          <div className="void-aura-2625"></div>
+          <div className="void-orbit void-orbit-1-2625"></div>
+          <div className="void-orbit void-orbit-2-2625"></div>
+          <div className="void-orbit void-orbit-3-2625"></div>
+          <div className="void-orbit void-orbit-4-2625"></div>
+          <div className="void-orbit void-orbit-5-2625"></div>
+          <div className="void-particle void-particle-1-2625"></div>
+          <div className="void-particle void-particle-2-2625"></div>
+          <div className="void-particle void-particle-3-2625"></div>
+          <div className="void-particle void-particle-4-2625"></div>
+          <div className="void-particle void-particle-5-2625"></div>
+          <div className="void-particle void-particle-6-2625"></div>
+          <div className="void-particle void-particle-7-2625"></div>
+          <div className="void-particle void-particle-8-2625"></div>
+          <div className="void-particle void-particle-9-2625"></div>
+          <div className="void-particle void-particle-10-2625"></div>
+          <div className="void-particle void-particle-11-2625"></div>
+          <div className="void-particle void-particle-12-2625"></div>
+          <div className="void-distortion-2625"></div>
+          <div className="void-energy-ring void-energy-ring-a-2625"></div>
+          <div className="void-energy-ring void-energy-ring-b-2625"></div>
+          <div className="void-energy-ring void-energy-ring-c-2625"></div>
+          <div className="void-core-2625">
+            <div className="void-accretion-2625">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div className="void-horizon-2625"></div>
+            <div className="void-core-glow-2625"></div>
+            <div className="void-core-icon-2625">
+              <i className="ri-focus-3-line"></i>
+            </div>
+          </div>
+          <div className="void-lightning void-lightning-1-2625"></div>
+          <div className="void-lightning void-lightning-2-2625"></div>
+          <div className="void-lightning void-lightning-3-2625"></div>
+          <div className="void-status-2625">
+            <span></span>
+            <strong>VOID</strong>
+          </div>
+          <div className="void-corner void-corner-tl-2625"></div>
+          <div className="void-corner void-corner-tr-2625"></div>
+          <div className="void-corner void-corner-bl-2625"></div>
+          <div className="void-corner void-corner-br-2625"></div>
+        </div>
+      </div>
+    ),
+    html: `
+<div class="void-avatar-2625">
+  <div class="void-background-2625"></div>
+  <div class="void-stars-2625"></div>
+  <div class="void-aura-2625"></div>
+  <div class="void-orbit void-orbit-1-2625"></div>
+  <div class="void-orbit void-orbit-2-2625"></div>
+  <div class="void-orbit void-orbit-3-2625"></div>
+  <div class="void-orbit void-orbit-4-2625"></div>
+  <div class="void-orbit void-orbit-5-2625"></div>
+  <div class="void-particle void-particle-1-2625"></div>
+  <div class="void-particle void-particle-2-2625"></div>
+  <div class="void-particle void-particle-3-2625"></div>
+  <div class="void-particle void-particle-4-2625"></div>
+  <div class="void-particle void-particle-5-2625"></div>
+  <div class="void-particle void-particle-6-2625"></div>
+  <div class="void-particle void-particle-7-2625"></div>
+  <div class="void-particle void-particle-8-2625"></div>
+  <div class="void-particle void-particle-9-2625"></div>
+  <div class="void-particle void-particle-10-2625"></div>
+  <div class="void-particle void-particle-11-2625"></div>
+  <div class="void-particle void-particle-12-2625"></div>
+  <div class="void-distortion-2625"></div>
+  <div class="void-energy-ring void-energy-ring-a-2625"></div>
+  <div class="void-energy-ring void-energy-ring-b-2625"></div>
+  <div class="void-energy-ring void-energy-ring-c-2625"></div>
+  <div class="void-core-2625">
+    <div class="void-accretion-2625">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="void-horizon-2625"></div>
+    <div class="void-core-glow-2625"></div>
+    <div class="void-core-icon-2625">
+      <i class="ri-focus-3-line"></i>
+    </div>
+  </div>
+  <div class="void-lightning void-lightning-1-2625"></div>
+  <div class="void-lightning void-lightning-2-2625"></div>
+  <div class="void-lightning void-lightning-3-2625"></div>
+  <div class="void-status-2625">
+    <span></span>
+    <strong>VOID</strong>
+  </div>
+  <div class="void-corner void-corner-tl-2625"></div>
+  <div class="void-corner void-corner-tr-2625"></div>
+  <div class="void-corner void-corner-bl-2625"></div>
+  <div class="void-corner void-corner-br-2625"></div>
+</div>
+  `,
+    css: `
+.avatar-preview-2625 {
+  width: 100%;
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 50%,rgba(56,189,248,.07),transparent 25%),
+    radial-gradient(circle at 30% 30%,rgba(139,92,246,.08),transparent 28%),
+    #020617;
+}
+.avatar-preview-2625::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(56,189,248,.025) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(56,189,248,.025) 1px,transparent 1px);
+  background-size: 32px 32px;
+  mask-image: radial-gradient(circle at center,black,transparent 80%);
+}
+.void-avatar-2625 {
+  width: 330px;
+  height: 330px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 50% 50%,rgba(30,41,59,.85),rgba(2,6,23,.98) 68%),
+    #020617;
+  border: 1px solid rgba(125,211,252,.2);
+  box-shadow:
+    0 0 45px rgba(56,189,248,.1),
+    0 0 90px rgba(139,92,246,.08),
+    inset 0 0 60px rgba(15,23,42,.9);
+  isolation: isolate;
+}
+.void-background-2625 {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 48% 45%,rgba(56,189,248,.1),transparent 18%),
+    radial-gradient(circle at 58% 54%,rgba(139,92,246,.11),transparent 26%),
+    radial-gradient(circle at 35% 70%,rgba(14,165,233,.07),transparent 30%);
+  animation: voidBackground2625 7s ease-in-out infinite alternate;
+}
+.void-stars-2625 {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background-image:
+    radial-gradient(circle at 11% 20%,rgba(255,255,255,.9) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 23% 67%,rgba(125,211,252,.75) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 37% 13%,rgba(255,255,255,.7) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 44% 82%,rgba(167,139,250,.7) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 63% 19%,rgba(255,255,255,.8) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 76% 72%,rgba(96,165,250,.7) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 87% 28%,rgba(255,255,255,.8) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 92% 83%,rgba(125,211,252,.8) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 18% 46%,rgba(255,255,255,.5) 0 1px,transparent 1.4px),
+    radial-gradient(circle at 71% 41%,rgba(167,139,250,.5) 0 1px,transparent 1.4px);
+  opacity: .5;
+  animation: voidStars2625 9s ease-in-out infinite alternate;
+  z-index: 1;
+}
+.void-aura-2625 {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle,rgba(56,189,248,.12),rgba(139,92,246,.06) 38%,transparent 70%);
+  filter: blur(8px);
+  animation: voidAura2625 3.8s ease-in-out infinite;
+  z-index: 2;
+}
+.void-orbit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  pointer-events: none;
+  z-index: 3;
+}
+.void-orbit-1-2625 {
+  width: 270px;
+  height: 98px;
+  border-top-color: rgba(56,189,248,.25);
+  border-bottom-color: rgba(56,189,248,.07);
+  transform: translate(-50%,-50%) rotate(18deg);
+  animation: voidOrbit1 8s linear infinite;
+}
+.void-orbit-2-2625 {
+  width: 245px;
+  height: 83px;
+  border-left-color: rgba(167,139,250,.24);
+  border-right-color: rgba(167,139,250,.06);
+  transform: translate(-50%,-50%) rotate(-34deg);
+  animation: voidOrbit2 10s linear infinite reverse;
+}
+.void-orbit-3-2625 {
+  width: 218px;
+  height: 72px;
+  border-top-color: rgba(34,211,238,.2);
+  border-bottom-color: rgba(34,211,238,.05);
+  transform: translate(-50%,-50%) rotate(62deg);
+  animation: voidOrbit3 7s linear infinite;
+}
+.void-orbit-4-2625 {
+  width: 190px;
+  height: 62px;
+  border-left-color: rgba(96,165,250,.22);
+  border-right-color: rgba(96,165,250,.05);
+  transform: translate(-50%,-50%) rotate(-68deg);
+  animation: voidOrbit4 6s linear infinite reverse;
+}
+.void-orbit-5-2625 {
+  width: 150px;
+  height: 55px;
+  border-top-color: rgba(192,132,252,.18);
+  border-bottom-color: rgba(192,132,252,.04);
+  transform: translate(-50%,-50%) rotate(9deg);
+  animation: voidOrbit5 5s linear infinite;
+}
+.void-particle {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 7;
+  background: #a5f3fc;
+  box-shadow:
+    0 0 5px #a5f3fc,
+    0 0 14px #38bdf8,
+    0 0 25px rgba(56,189,248,.7);
+}
+.void-particle-1-2625 {
+  width: 4px;
+  height: 4px;
+  left: 14%;
+  top: 28%;
+  animation: voidParticle1 4.6s ease-in-out infinite;
+}
+.void-particle-2-2625 {
+  width: 3px;
+  height: 3px;
+  right: 17%;
+  top: 18%;
+  animation: voidParticle2 5.2s ease-in-out infinite;
+}
+.void-particle-3-2625 {
+  width: 5px;
+  height: 5px;
+  left: 8%;
+  bottom: 28%;
+  animation: voidParticle3 4.3s ease-in-out infinite;
+}
+.void-particle-4-2625 {
+  width: 3px;
+  height: 3px;
+  right: 9%;
+  bottom: 22%;
+  animation: voidParticle4 5.7s ease-in-out infinite;
+}
+.void-particle-5-2625 {
+  width: 2px;
+  height: 2px;
+  left: 31%;
+  top: 12%;
+  animation: voidParticle5 3.8s ease-in-out infinite;
+}
+.void-particle-6-2625 {
+  width: 3px;
+  height: 3px;
+  right: 34%;
+  top: 11%;
+  animation: voidParticle6 4.9s ease-in-out infinite;
+}
+.void-particle-7-2625 {
+  width: 3px;
+  height: 3px;
+  left: 23%;
+  bottom: 13%;
+  animation: voidParticle7 4.1s ease-in-out infinite;
+}
+.void-particle-8-2625 {
+  width: 4px;
+  height: 4px;
+  right: 30%;
+  bottom: 11%;
+  animation: voidParticle8 5.1s ease-in-out infinite;
+}
+.void-particle-9-2625 {
+  width: 2px;
+  height: 2px;
+  left: 13%;
+  top: 52%;
+  animation: voidParticle9 3.6s ease-in-out infinite;
+}
+.void-particle-10-2625 {
+  width: 2px;
+  height: 2px;
+  right: 13%;
+  top: 50%;
+  animation: voidParticle10 4.8s ease-in-out infinite;
+}
+.void-particle-11-2625 {
+  width: 3px;
+  height: 3px;
+  left: 42%;
+  bottom: 8%;
+  animation: voidParticle11 4.4s ease-in-out infinite;
+}
+.void-particle-12-2625 {
+  width: 3px;
+  height: 3px;
+  right: 42%;
+  top: 7%;
+  animation: voidParticle12 5.3s ease-in-out infinite;
+}
+.void-distortion-2625 {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle,transparent 0 35%,rgba(56,189,248,.025) 38%,transparent 47%),
+    radial-gradient(circle,transparent 0 49%,rgba(139,92,246,.035) 52%,transparent 62%);
+  filter: blur(2px);
+  animation: voidDistortion2625 4.5s ease-in-out infinite;
+  z-index: 4;
+}
+.void-energy-ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+  z-index: 5;
+}
+.void-energy-ring-a-2625 {
+  width: 155px;
+  height: 155px;
+  border: 1px solid rgba(56,189,248,.18);
+  box-shadow:
+    0 0 15px rgba(56,189,248,.05),
+    inset 0 0 15px rgba(56,189,248,.04);
+  animation: voidEnergyRingA2625 5s linear infinite;
+}
+.void-energy-ring-b-2625 {
+  width: 132px;
+  height: 132px;
+  border: 1px dashed rgba(167,139,250,.22);
+  animation: voidEnergyRingB2625 7s linear infinite reverse;
+}
+.void-energy-ring-c-2625 {
+  width: 112px;
+  height: 112px;
+  border: 1px solid rgba(34,211,238,.2);
+  animation: voidEnergyRingC2625 3.7s linear infinite;
+}
+.void-core-2625 {
+  width: 98px;
+  height: 98px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  z-index: 8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.void-accretion-2625 {
+  position: absolute;
+  inset: -18px;
+  border-radius: 50%;
+  transform: rotate(-12deg);
+  background:
+    radial-gradient(
+      ellipse at center,
+      transparent 0 32%,
+      rgba(14,165,233,.06) 34%,
+      rgba(56,189,248,.24) 40%,
+      rgba(167,139,250,.29) 46%,
+      rgba(59,130,246,.12) 53%,
+      transparent 63%
+    );
+  filter: blur(1px);
+  animation: voidAccretion2625 4.8s linear infinite;
+}
+.void-accretion-2625 span {
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  border-radius: 50%;
+  background: #dbeafe;
+  box-shadow:
+    0 0 6px #dbeafe,
+    0 0 14px #38bdf8,
+    0 0 24px rgba(56,189,248,.7);
+}
+.void-accretion-2625 span:nth-child(1) {
+  left: 9%;
+  top: 31%;
+  animation: voidAccParticle1 2.5s linear infinite;
+}
+.void-accretion-2625 span:nth-child(2) {
+  right: 8%;
+  top: 24%;
+  animation: voidAccParticle2 3s linear infinite;
+}
+.void-accretion-2625 span:nth-child(3) {
+  left: 17%;
+  bottom: 14%;
+  animation: voidAccParticle3 2.7s linear infinite;
+}
+.void-accretion-2625 span:nth-child(4) {
+  right: 18%;
+  bottom: 9%;
+  animation: voidAccParticle4 3.2s linear infinite;
+}
+.void-accretion-2625 span:nth-child(5) {
+  left: 47%;
+  top: -1%;
+  animation: voidAccParticle5 2.8s linear infinite;
+}
+.void-accretion-2625 span:nth-child(6) {
+  right: -1%;
+  top: 51%;
+  animation: voidAccParticle6 3.3s linear infinite;
+}
+.void-accretion-2625 span:nth-child(7) {
+  left: 28%;
+  bottom: -2%;
+  animation: voidAccParticle7 2.4s linear infinite;
+}
+.void-accretion-2625 span:nth-child(8) {
+  left: -1%;
+  top: 56%;
+  animation: voidAccParticle8 3.1s linear infinite;
+}
+.void-horizon-2625 {
+  width: 78px;
+  height: 78px;
+  position: absolute;
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle at 45% 42%,
+      #000 0 44%,
+      #01030a 58%,
+      #020617 71%,
+      transparent 72%
+    );
+  box-shadow:
+    0 0 25px rgba(0,0,0,1),
+    0 0 50px rgba(2,6,23,.95),
+    inset 0 0 20px rgba(0,0,0,1);
+}
+.void-core-glow-2625 {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle,rgba(56,189,248,.08),transparent 70%);
+  box-shadow:
+    0 0 15px rgba(56,189,248,.1),
+    0 0 30px rgba(139,92,246,.08);
+  animation: voidCoreGlow2625 2.2s ease-in-out infinite;
+}
+.void-core-icon-2625 {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(0,0,0,.58);
+  border: 1px solid rgba(125,211,252,.12);
+  color: rgba(186,230,253,.82);
+  font-size: 16px;
+  text-shadow:
+    0 0 7px rgba(186,230,253,.7),
+    0 0 20px rgba(56,189,248,.55);
+  animation: voidCoreIcon2625 2.5s ease-in-out infinite;
+}
+.void-lightning {
+  position: absolute;
+  width: 55px;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#67e8f9,transparent);
+  filter: blur(.4px);
+  opacity: .55;
+  z-index: 6;
+}
+.void-lightning-1-2625 {
+  left: 18%;
+  top: 38%;
+  transform: rotate(-23deg);
+  animation: voidLightning1 3.6s ease-in-out infinite;
+}
+.void-lightning-2-2625 {
+  right: 13%;
+  top: 57%;
+  transform: rotate(26deg);
+  animation: voidLightning2 4.1s ease-in-out infinite;
+}
+.void-lightning-3-2625 {
+  left: 33%;
+  bottom: 17%;
+  transform: rotate(12deg);
+  animation: voidLightning3 3.3s ease-in-out infinite;
+}
+.void-status-2625 {
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(2,6,23,.7);
+  border: 1px solid rgba(148,163,184,.1);
+  backdrop-filter: blur(8px);
+  z-index: 12;
+}
+.void-status-2625 span {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #a78bfa;
+  box-shadow:
+    0 0 6px #a78bfa,
+    0 0 14px #8b5cf6;
+  animation: voidStatus2625 1.5s ease-in-out infinite;
+}
+.void-status-2625 strong {
+  color: #c4b5fd;
+  font-size: 7px;
+  font-weight: 800;
+  letter-spacing: .2em;
+}
+.void-corner {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border-color: rgba(56,189,248,.28);
+  z-index: 15;
+}
+.void-corner-tl-2625 {
+  left: 12px;
+  top: 12px;
+  border-left: 1px solid;
+  border-top: 1px solid;
+}
+.void-corner-tr-2625 {
+  right: 12px;
+  top: 12px;
+  border-right: 1px solid;
+  border-top: 1px solid;
+}
+.void-corner-bl-2625 {
+  left: 12px;
+  bottom: 12px;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+}
+.void-corner-br-2625 {
+  right: 12px;
+  bottom: 12px;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+@keyframes voidBackground2625 {
+  from {
+    transform: scale(1);
+    opacity: .65;
+  }
+  to {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+}
+@keyframes voidStars2625 {
+  from {
+    transform: scale(1);
+    opacity: .35;
+  }
+  to {
+    transform: scale(1.04);
+    opacity: .68;
+  }
+}
+@keyframes voidAura2625 {
+  0%,
+  100% {
+    transform: translate(-50%,-50%) scale(.9);
+    opacity: .45;
+  }
+  50% {
+    transform: translate(-50%,-50%) scale(1.16);
+    opacity: 1;
+  }
+}
+@keyframes voidOrbit1 {
+  from {
+    transform: translate(-50%,-50%) rotate(18deg) rotateZ(0deg);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(18deg) rotateZ(360deg);
+  }
+}
+@keyframes voidOrbit2 {
+  from {
+    transform: translate(-50%,-50%) rotate(-34deg) rotateZ(0deg);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(-34deg) rotateZ(360deg);
+  }
+}
+@keyframes voidOrbit3 {
+  from {
+    transform: translate(-50%,-50%) rotate(62deg) rotateZ(0deg);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(62deg) rotateZ(360deg);
+  }
+}
+@keyframes voidOrbit4 {
+  from {
+    transform: translate(-50%,-50%) rotate(-68deg) rotateZ(0deg);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(-68deg) rotateZ(360deg);
+  }
+}
+@keyframes voidOrbit5 {
+  from {
+    transform: translate(-50%,-50%) rotate(9deg) rotateZ(0deg);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(9deg) rotateZ(360deg);
+  }
+}
+@keyframes voidParticle1 {
+  0%,
+  100% {
+    transform: translate(0,0) scale(.7);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(22px,-17px) scale(1.3);
+    opacity: 1;
+  }
+}
+@keyframes voidParticle2 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .25;
+  }
+  50% {
+    transform: translate(-23px,17px);
+    opacity: 1;
+  }
+}
+@keyframes voidParticle3 {
+  0%,
+  100% {
+    transform: translate(0,0) scale(.75);
+    opacity: .25;
+  }
+  50% {
+    transform: translate(25px,-20px) scale(1.2);
+    opacity: 1;
+  }
+}
+@keyframes voidParticle4 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(-25px,-18px);
+    opacity: 1;
+  }
+}
+@keyframes voidParticle5 {
+  0%,
+  100% {
+    transform: translate(0,0) scale(.7);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(18px,19px) scale(1.25);
+    opacity: 1;
+  }
+}
+@keyframes voidParticle6 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(-19px,20px);
+    opacity: 1;
+  }
+}
+@keyframes voidParticle7 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(21px,-14px);
+    opacity: 1;
+  }
+}
+@keyframes voidParticle8 {
+  0%,
+  100% {
+    transform: translate(0,0) scale(.7);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(-19px,-17px) scale(1.2);
+    opacity: 1;
+  }
+}
+@keyframes voidParticle9 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(18px,15px);
+    opacity: 1;
+  }
+}
+@keyframes voidParticle10 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(-18px,-16px);
+    opacity: 1;
+  }
+}
+@keyframes voidParticle11 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(17px,-20px);
+    opacity: 1;
+  }
+}
+@keyframes voidParticle12 {
+  0%,
+  100% {
+    transform: translate(0,0) scale(.8);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(-17px,18px) scale(1.2);
+    opacity: 1;
+  }
+}
+@keyframes voidDistortion2625 {
+  0%,
+  100% {
+    transform: translate(-50%,-50%) scale(.92);
+    opacity: .5;
+  }
+  50% {
+    transform: translate(-50%,-50%) scale(1.08);
+    opacity: 1;
+  }
+}
+@keyframes voidEnergyRingA2625 {
+  from {
+    transform: translate(-50%,-50%) rotate(0deg) scale(.97);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(360deg) scale(.97);
+  }
+}
+@keyframes voidEnergyRingB2625 {
+  from {
+    transform: translate(-50%,-50%) rotate(0deg) scale(1);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(360deg) scale(1.05);
+  }
+}
+@keyframes voidEnergyRingC2625 {
+  from {
+    transform: translate(-50%,-50%) rotate(0deg) scale(.94);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(360deg) scale(1.06);
+  }
+}
+@keyframes voidAccretion2625 {
+  from {
+    transform: rotate(-12deg);
+  }
+  to {
+    transform: rotate(348deg);
+  }
+}
+@keyframes voidAccParticle1 {
+  from {
+    transform: rotate(0deg) translateX(0);
+  }
+  to {
+    transform: rotate(360deg) translateX(8px);
+  }
+}
+@keyframes voidAccParticle2 {
+  from {
+    transform: rotate(0deg) translateX(0);
+  }
+  to {
+    transform: rotate(-360deg) translateX(7px);
+  }
+}
+@keyframes voidAccParticle3 {
+  from {
+    transform: rotate(0deg) translateX(0);
+  }
+  to {
+    transform: rotate(360deg) translateX(6px);
+  }
+}
+@keyframes voidAccParticle4 {
+  from {
+    transform: rotate(0deg) translateX(0);
+  }
+  to {
+    transform: rotate(-360deg) translateX(8px);
+  }
+}
+@keyframes voidAccParticle5 {
+  from {
+    transform: rotate(0deg) translateX(0);
+  }
+  to {
+    transform: rotate(360deg) translateX(7px);
+  }
+}
+@keyframes voidAccParticle6 {
+  from {
+    transform: rotate(0deg) translateX(0);
+  }
+  to {
+    transform: rotate(-360deg) translateX(6px);
+  }
+}
+@keyframes voidAccParticle7 {
+  from {
+    transform: rotate(0deg) translateX(0);
+  }
+  to {
+    transform: rotate(360deg) translateX(8px);
+  }
+}
+@keyframes voidAccParticle8 {
+  from {
+    transform: rotate(0deg) translateX(0);
+  }
+  to {
+    transform: rotate(-360deg) translateX(7px);
+  }
+}
+@keyframes voidCoreGlow2625 {
+  0%,
+  100% {
+    transform: scale(.85);
+    opacity: .4;
+  }
+  50% {
+    transform: scale(1.18);
+    opacity: 1;
+  }
+}
+@keyframes voidCoreIcon2625 {
+  0%,
+  100% {
+    transform: scale(.9);
+    text-shadow:
+      0 0 6px rgba(186,230,253,.45),
+      0 0 14px rgba(56,189,248,.35);
+  }
+  50% {
+    transform: scale(1.1);
+    text-shadow:
+      0 0 10px rgba(186,230,253,.85),
+      0 0 25px rgba(56,189,248,.7);
+  }
+}
+@keyframes voidLightning1 {
+  0%,
+  100% {
+    transform: rotate(-23deg) scaleX(.55);
+    opacity: .1;
+  }
+  50% {
+    transform: rotate(-23deg) scaleX(1.15);
+    opacity: .8;
+  }
+}
+@keyframes voidLightning2 {
+  0%,
+  100% {
+    transform: rotate(26deg) scaleX(.5);
+    opacity: .12;
+  }
+  50% {
+    transform: rotate(26deg) scaleX(1.2);
+    opacity: .75;
+  }
+}
+@keyframes voidLightning3 {
+  0%,
+  100% {
+    transform: rotate(12deg) scaleX(.6);
+    opacity: .1;
+  }
+  50% {
+    transform: rotate(12deg) scaleX(1.1);
+    opacity: .7;
+  }
+}
+@keyframes voidStatus2625 {
+  0%,
+  100% {
+    transform: scale(.75);
+    opacity: .5;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+}
+@media (max-width: 700px) {
+  .avatar-preview-2625 {
+    min-height: 440px;
+  }
+  .void-avatar-2625 {
+    width: 285px;
+    height: 285px;
+  }
+  .void-outer-field-2625 {
+    width: 390px;
+    height: 390px;
+  }
+  .void-orbit-1-2625 {
+    width: 235px;
+    height: 84px;
+  }
+  .void-orbit-2-2625 {
+    width: 213px;
+    height: 74px;
+  }
+  .void-orbit-3-2625 {
+    width: 190px;
+    height: 64px;
+  }
+  .void-orbit-4-2625 {
+    width: 165px;
+    height: 54px;
+  }
+  .void-orbit-5-2625 {
+    width: 132px;
+    height: 48px;
+  }
+}
+@media (max-width: 480px) {
+  .avatar-preview-2625 {
+    min-height: 390px;
+  }
+  .void-avatar-2625 {
+    width: 245px;
+    height: 245px;
+  }
+  .void-aura-2625 {
+    width: 180px;
+    height: 180px;
+  }
+  .void-core-2625 {
+    width: 78px;
+    height: 78px;
+  }
+  .void-horizon-2625 {
+    width: 62px;
+    height: 62px;
+  }
+  .void-core-icon-2625 {
+    width: 34px;
+    height: 34px;
+    font-size: 13px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .void-avatar-2625 *,
+  .void-avatar-2625::before,
+  .void-avatar-2625::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+}
+  `,
+  },
+  {
+    id: 2626,
+    name: "Legendary Frost Crystal Avatar",
+    preview: (
+      <div className="avatar-preview-2626">
+        <div className="frost-avatar-2626">
+          <div className="frost-bg-2626"></div>
+          <div className="frost-snow-2626"></div>
+          <div className="frost-aura-2626"></div>
+          <div className="frost-halo frost-halo-1-2626"></div>
+          <div className="frost-halo frost-halo-2-2626"></div>
+          <div className="frost-halo frost-halo-3-2626"></div>
+          <div className="frost-crystal frost-crystal-1-2626"></div>
+          <div className="frost-crystal frost-crystal-2-2626"></div>
+          <div className="frost-crystal frost-crystal-3-2626"></div>
+          <div className="frost-crystal frost-crystal-4-2626"></div>
+          <div className="frost-crystal frost-crystal-5-2626"></div>
+          <div className="frost-crystal frost-crystal-6-2626"></div>
+          <div className="frost-crystal frost-crystal-7-2626"></div>
+          <div className="frost-crystal frost-crystal-8-2626"></div>
+          <div className="frost-crystal frost-crystal-9-2626"></div>
+          <div className="frost-shard frost-shard-1-2626"></div>
+          <div className="frost-shard frost-shard-2-2626"></div>
+          <div className="frost-shard frost-shard-3-2626"></div>
+          <div className="frost-shard frost-shard-4-2626"></div>
+          <div className="frost-shard frost-shard-5-2626"></div>
+          <div className="frost-shard frost-shard-6-2626"></div>
+          <div className="frost-shard frost-shard-7-2626"></div>
+          <div className="frost-shard frost-shard-8-2626"></div>
+          <div className="frost-energy frost-energy-1-2626"></div>
+          <div className="frost-energy frost-energy-2-2626"></div>
+          <div className="frost-energy frost-energy-3-2626"></div>
+          <div className="frost-energy frost-energy-4-2626"></div>
+          <div className="frost-core-2626">
+            <div className="frost-core-shell-2626"></div>
+            <div className="frost-core-crystal-2626">
+              <div className="frost-core-face-2626">
+                <i className="ri-snowflake-line"></i>
+              </div>
+            </div>
+            <div className="frost-core-light-2626"></div>
+          </div>
+          <div className="frost-beam frost-beam-x-2626"></div>
+          <div className="frost-beam frost-beam-y-2626"></div>
+          <div className="frost-beam frost-beam-diagonal-2626"></div>
+          <div className="frost-rune frost-rune-top-2626">
+            <i className="ri-snowy-line"></i>
+          </div>
+          <div className="frost-rune frost-rune-right-2626">
+            <i className="ri-sparkling-line"></i>
+          </div>
+          <div className="frost-rune frost-rune-bottom-2626">
+            <i className="ri-drop-line"></i>
+          </div>
+          <div className="frost-rune frost-rune-left-2626">
+            <i className="ri-temp-cold-line"></i>
+          </div>
+          <div className="frost-status-2626">
+            <span></span>
+            <strong>FROSTBORN</strong>
+          </div>
+          <div className="frost-corner frost-corner-tl-2626"></div>
+          <div className="frost-corner frost-corner-tr-2626"></div>
+          <div className="frost-corner frost-corner-bl-2626"></div>
+          <div className="frost-corner frost-corner-br-2626"></div>
+        </div>
+      </div>
+    ),
+    html: `
+<div class="frost-avatar-2626">
+  <div class="frost-bg-2626"></div>
+  <div class="frost-snow-2626"></div>
+  <div class="frost-aura-2626"></div>
+  <div class="frost-halo frost-halo-1-2626"></div>
+  <div class="frost-halo frost-halo-2-2626"></div>
+  <div class="frost-halo frost-halo-3-2626"></div>
+  <div class="frost-crystal frost-crystal-1-2626"></div>
+  <div class="frost-crystal frost-crystal-2-2626"></div>
+  <div class="frost-crystal frost-crystal-3-2626"></div>
+  <div class="frost-crystal frost-crystal-4-2626"></div>
+  <div class="frost-crystal frost-crystal-5-2626"></div>
+  <div class="frost-crystal frost-crystal-6-2626"></div>
+  <div class="frost-crystal frost-crystal-7-2626"></div>
+  <div class="frost-crystal frost-crystal-8-2626"></div>
+  <div class="frost-crystal frost-crystal-9-2626"></div>
+  <div class="frost-shard frost-shard-1-2626"></div>
+  <div class="frost-shard frost-shard-2-2626"></div>
+  <div class="frost-shard frost-shard-3-2626"></div>
+  <div class="frost-shard frost-shard-4-2626"></div>
+  <div class="frost-shard frost-shard-5-2626"></div>
+  <div class="frost-shard frost-shard-6-2626"></div>
+  <div class="frost-shard frost-shard-7-2626"></div>
+  <div class="frost-shard frost-shard-8-2626"></div>
+  <div class="frost-energy frost-energy-1-2626"></div>
+  <div class="frost-energy frost-energy-2-2626"></div>
+  <div class="frost-energy frost-energy-3-2626"></div>
+  <div class="frost-energy frost-energy-4-2626"></div>
+  <div class="frost-core-2626">
+    <div class="frost-core-shell-2626"></div>
+    <div class="frost-core-crystal-2626">
+      <div class="frost-core-face-2626">
+        <i class="ri-snowflake-line"></i>
+      </div>
+    </div>
+    <div class="frost-core-light-2626"></div>
+  </div>
+  <div class="frost-beam frost-beam-x-2626"></div>
+  <div class="frost-beam frost-beam-y-2626"></div>
+  <div class="frost-beam frost-beam-diagonal-2626"></div>
+  <div class="frost-rune frost-rune-top-2626">
+    <i class="ri-snowy-line"></i>
+  </div>
+  <div class="frost-rune frost-rune-right-2626">
+    <i class="ri-sparkling-line"></i>
+  </div>
+  <div class="frost-rune frost-rune-bottom-2626">
+    <i class="ri-drop-line"></i>
+  </div>
+  <div class="frost-rune frost-rune-left-2626">
+    <i class="ri-temp-cold-line"></i>
+  </div>
+  <div class="frost-status-2626">
+    <span></span>
+    <strong>FROSTBORN</strong>
+  </div>
+  <div class="frost-corner frost-corner-tl-2626"></div>
+  <div class="frost-corner frost-corner-tr-2626"></div>
+  <div class="frost-corner frost-corner-bl-2626"></div>
+  <div class="frost-corner frost-corner-br-2626"></div>
+</div>
+  `,
+    css: `
+.avatar-preview-2626 {
+  width: 100%;
+  min-height: 520px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(circle at 50% 50%,rgba(186,230,253,.11),transparent 23%),
+    radial-gradient(circle at 20% 20%,rgba(96,165,250,.1),transparent 30%),
+    radial-gradient(circle at 80% 80%,rgba(125,211,252,.07),transparent 28%),
+    #020617;
+}
+.avatar-preview-2626::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(125,211,252,.022) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(125,211,252,.022) 1px,transparent 1px);
+  background-size: 34px 34px;
+  mask-image: radial-gradient(circle at center,black,transparent 80%);
+}
+.frost-avatar-2626 {
+  width: 330px;
+  height: 330px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(circle at 50% 50%,rgba(125,211,252,.09),transparent 28%),
+    radial-gradient(circle at 40% 60%,rgba(59,130,246,.08),transparent 40%),
+    #020617;
+  border: 1px solid rgba(186,230,253,.24);
+  box-shadow:
+    0 0 45px rgba(125,211,252,.12),
+    0 0 100px rgba(59,130,246,.08),
+    inset 0 0 70px rgba(30,64,175,.16);
+  isolation: isolate;
+}
+.frost-bg-2626 {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 50% 35%,rgba(224,242,254,.12),transparent 15%),
+    radial-gradient(circle at 40% 70%,rgba(56,189,248,.08),transparent 30%),
+    radial-gradient(circle at 65% 58%,rgba(96,165,250,.08),transparent 32%);
+  animation: frostBg2626 6s ease-in-out infinite alternate;
+}
+.frost-snow-2626 {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  opacity: .65;
+  background-image:
+    radial-gradient(circle at 11% 17%,rgba(255,255,255,.9) 0 1px,transparent 1.7px),
+    radial-gradient(circle at 22% 62%,rgba(191,219,254,.75) 0 1px,transparent 1.6px),
+    radial-gradient(circle at 35% 13%,rgba(255,255,255,.8) 0 1.2px,transparent 1.8px),
+    radial-gradient(circle at 47% 83%,rgba(224,242,254,.8) 0 1px,transparent 1.7px),
+    radial-gradient(circle at 59% 19%,rgba(255,255,255,.9) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 75% 69%,rgba(125,211,252,.75) 0 1px,transparent 1.6px),
+    radial-gradient(circle at 86% 24%,rgba(255,255,255,.85) 0 1px,transparent 1.6px),
+    radial-gradient(circle at 93% 82%,rgba(191,219,254,.7) 0 1px,transparent 1.7px),
+    radial-gradient(circle at 15% 43%,rgba(224,242,254,.65) 0 1px,transparent 1.6px),
+    radial-gradient(circle at 69% 44%,rgba(255,255,255,.65) 0 1px,transparent 1.6px);
+  animation: frostSnow2626 8s ease-in-out infinite alternate;
+  z-index: 1;
+}
+.frost-aura-2626 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle,rgba(224,242,254,.12),rgba(125,211,252,.07) 30%,transparent 72%);
+  filter: blur(10px);
+  animation: frostAura2626 4s ease-in-out infinite;
+  z-index: 2;
+}
+.frost-halo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  border: 1px solid transparent;
+  z-index: 3;
+  pointer-events: none;
+}
+.frost-halo-1-2626 {
+  width: 285px;
+  height: 285px;
+  border-color: rgba(186,230,253,.08);
+  animation: frostHalo1 11s linear infinite;
+}
+.frost-halo-2-2626 {
+  width: 245px;
+  height: 245px;
+  border-color: rgba(96,165,250,.12);
+  border-style: dashed;
+  animation: frostHalo2 8s linear infinite reverse;
+}
+.frost-halo-3-2626 {
+  width: 205px;
+  height: 205px;
+  border-color: rgba(224,242,254,.14);
+  animation: frostHalo3 6s linear infinite;
+}
+.frost-crystal {
+  position: absolute;
+  z-index: 6;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,.95),
+      rgba(186,230,253,.78) 28%,
+      rgba(96,165,250,.38) 65%,
+      rgba(30,64,175,.12)
+    );
+  border: 1px solid rgba(224,242,254,.5);
+  clip-path: polygon(
+    50% 0%,
+    66% 26%,
+    100% 50%,
+    67% 74%,
+    50% 100%,
+    33% 74%,
+    0% 50%,
+    33% 26%
+  );
+  filter:
+    drop-shadow(0 0 5px rgba(125,211,252,.55))
+    drop-shadow(0 0 13px rgba(96,165,250,.3));
+  animation: frostCrystalFloat2626 4.5s ease-in-out infinite;
+}
+.frost-crystal-1-2626 {
+  width: 37px;
+  height: 70px;
+  left: 7%;
+  top: 28%;
+  transform: rotate(-18deg);
+}
+.frost-crystal-2-2626 {
+  width: 28px;
+  height: 58px;
+  right: 9%;
+  top: 21%;
+  transform: rotate(19deg);
+  animation-delay: .4s;
+}
+.frost-crystal-3-2626 {
+  width: 42px;
+  height: 80px;
+  left: 14%;
+  bottom: 12%;
+  transform: rotate(27deg);
+  animation-delay: .9s;
+}
+.frost-crystal-4-2626 {
+  width: 30px;
+  height: 61px;
+  right: 13%;
+  bottom: 18%;
+  transform: rotate(-25deg);
+  animation-delay: 1.2s;
+}
+.frost-crystal-5-2626 {
+  width: 22px;
+  height: 46px;
+  left: 27%;
+  top: 8%;
+  transform: rotate(12deg);
+  animation-delay: .7s;
+}
+.frost-crystal-6-2626 {
+  width: 25px;
+  height: 50px;
+  right: 28%;
+  top: 9%;
+  transform: rotate(-11deg);
+  animation-delay: 1.5s;
+}
+.frost-crystal-7-2626 {
+  width: 26px;
+  height: 53px;
+  left: 31%;
+  bottom: 5%;
+  transform: rotate(-14deg);
+  animation-delay: 1.9s;
+}
+.frost-crystal-8-2626 {
+  width: 23px;
+  height: 47px;
+  right: 32%;
+  bottom: 8%;
+  transform: rotate(16deg);
+  animation-delay: 2.2s;
+}
+.frost-crystal-9-2626 {
+  width: 19px;
+  height: 39px;
+  left: 10%;
+  top: 53%;
+  transform: rotate(32deg);
+  animation-delay: 2.5s;
+}
+.frost-shard {
+  position: absolute;
+  z-index: 7;
+  width: 7px;
+  height: 19px;
+  background: linear-gradient(180deg,#e0f2fe,#38bdf8);
+  clip-path: polygon(50% 0%,100% 65%,65% 58%,48% 100%,30% 59%,0% 66%);
+  filter:
+    drop-shadow(0 0 5px rgba(186,230,253,.8))
+    drop-shadow(0 0 12px rgba(56,189,248,.5));
+}
+.frost-shard-1-2626 {
+  left: 18%;
+  top: 26%;
+  animation: frostShard1 4.4s ease-in-out infinite;
+}
+.frost-shard-2-2626 {
+  right: 18%;
+  top: 31%;
+  animation: frostShard2 5.1s ease-in-out infinite;
+}
+.frost-shard-3-2626 {
+  left: 23%;
+  bottom: 27%;
+  animation: frostShard3 4.2s ease-in-out infinite;
+}
+.frost-shard-4-2626 {
+  right: 22%;
+  bottom: 29%;
+  animation: frostShard4 4.9s ease-in-out infinite;
+}
+.frost-shard-5-2626 {
+  left: 37%;
+  top: 17%;
+  animation: frostShard5 3.7s ease-in-out infinite;
+}
+.frost-shard-6-2626 {
+  right: 36%;
+  top: 20%;
+  animation: frostShard6 5.4s ease-in-out infinite;
+}
+.frost-shard-7-2626 {
+  left: 38%;
+  bottom: 18%;
+  animation: frostShard7 4.7s ease-in-out infinite;
+}
+.frost-shard-8-2626 {
+  right: 36%;
+  bottom: 20%;
+  animation: frostShard8 5.6s ease-in-out infinite;
+}
+.frost-energy {
+  position: absolute;
+  z-index: 5;
+  border-radius: 50%;
+  background: #bae6fd;
+  box-shadow:
+    0 0 5px #bae6fd,
+    0 0 14px #38bdf8,
+    0 0 26px rgba(56,189,248,.65);
+}
+.frost-energy-1-2626 {
+  width: 4px;
+  height: 4px;
+  left: 20%;
+  top: 18%;
+  animation: frostEnergy1 4.2s ease-in-out infinite;
+}
+.frost-energy-2-2626 {
+  width: 3px;
+  height: 3px;
+  right: 21%;
+  top: 16%;
+  animation: frostEnergy2 5.3s ease-in-out infinite;
+}
+.frost-energy-3-2626 {
+  width: 4px;
+  height: 4px;
+  left: 15%;
+  bottom: 20%;
+  animation: frostEnergy3 4.8s ease-in-out infinite;
+}
+.frost-energy-4-2626 {
+  width: 3px;
+  height: 3px;
+  right: 17%;
+  bottom: 16%;
+  animation: frostEnergy4 5.1s ease-in-out infinite;
+}
+.frost-core-2626 {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frost-core-shell-2626 {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle at 35% 28%,
+      rgba(255,255,255,.95),
+      rgba(186,230,253,.75) 18%,
+      rgba(56,189,248,.28) 39%,
+      rgba(30,64,175,.08) 63%,
+      transparent 70%
+    );
+  box-shadow:
+    0 0 25px rgba(186,230,253,.35),
+    0 0 55px rgba(56,189,248,.2),
+    inset 0 0 18px rgba(224,242,254,.28);
+  filter: blur(.3px);
+  animation: frostShell2626 3s ease-in-out infinite;
+}
+.frost-core-crystal-2626 {
+  width: 74px;
+  height: 74px;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(
+    50% 0%,
+    72% 17%,
+    100% 50%,
+    76% 81%,
+    50% 100%,
+    24% 81%,
+    0% 50%,
+    28% 17%
+  );
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,.98) 0%,
+      rgba(224,242,254,.91) 22%,
+      rgba(125,211,252,.75) 45%,
+      rgba(59,130,246,.5) 71%,
+      rgba(30,64,175,.35) 100%
+    );
+  box-shadow:
+    0 0 30px rgba(125,211,252,.45);
+  animation: frostCrystalCore2626 3.6s ease-in-out infinite;
+}
+.frost-core-crystal-2626::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 82%;
+  left: 31%;
+  top: 9%;
+  background: rgba(255,255,255,.62);
+  transform: rotate(25deg);
+  filter: blur(.3px);
+}
+.frost-core-crystal-2626::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 75%;
+  right: 31%;
+  top: 13%;
+  background: rgba(255,255,255,.44);
+  transform: rotate(-21deg);
+}
+.frost-core-face-2626 {
+  width: 43px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle,rgba(30,64,175,.52),rgba(2,6,23,.72));
+  border: 1px solid rgba(224,242,254,.36);
+  color: #e0f2fe;
+  font-size: 20px;
+  text-shadow:
+    0 0 8px rgba(255,255,255,.8),
+    0 0 22px rgba(56,189,248,.8);
+  box-shadow:
+    inset 0 0 18px rgba(125,211,252,.18),
+    0 0 20px rgba(56,189,248,.28);
+  animation: frostFace2626 2.2s ease-in-out infinite;
+}
+.frost-core-light-2626 {
+  position: absolute;
+  inset: -19px;
+  border-radius: 50%;
+  border: 1px solid rgba(186,230,253,.12);
+  box-shadow:
+    0 0 30px rgba(125,211,252,.1),
+    inset 0 0 25px rgba(125,211,252,.07);
+  animation: frostCoreLight2626 2.8s ease-in-out infinite;
+}
+.frost-beam {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: linear-gradient(90deg,transparent,rgba(186,230,253,.2),transparent);
+  z-index: 4;
+  opacity: .5;
+}
+.frost-beam-x-2626 {
+  width: 265px;
+  height: 1px;
+  transform: translate(-50%,-50%);
+  animation: frostBeamX2626 3.2s ease-in-out infinite;
+}
+.frost-beam-y-2626 {
+  width: 1px;
+  height: 265px;
+  transform: translate(-50%,-50%);
+  background: linear-gradient(180deg,transparent,rgba(186,230,253,.2),transparent);
+  animation: frostBeamY2626 3.7s ease-in-out infinite;
+}
+.frost-beam-diagonal-2626 {
+  width: 230px;
+  height: 1px;
+  transform: translate(-50%,-50%) rotate(45deg);
+  opacity: .25;
+  animation: frostBeamDiagonal2626 4.1s ease-in-out infinite;
+}
+.frost-rune {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(15,23,42,.5);
+  border: 1px solid rgba(186,230,253,.12);
+  color: #bae6fd;
+  font-size: 11px;
+  z-index: 12;
+  box-shadow:
+    inset 0 0 12px rgba(125,211,252,.04),
+    0 0 15px rgba(56,189,248,.06);
+  animation: frostRune2626 3s ease-in-out infinite;
+}
+.frost-rune-top-2626 {
+  left: 50%;
+  top: 13%;
+  transform: translateX(-50%);
+}
+.frost-rune-right-2626 {
+  right: 13%;
+  top: 50%;
+  transform: translateY(-50%);
+  animation-delay: .7s;
+}
+.frost-rune-bottom-2626 {
+  left: 50%;
+  bottom: 13%;
+  transform: translateX(-50%);
+  animation-delay: 1.2s;
+}
+.frost-rune-left-2626 {
+  left: 13%;
+  top: 50%;
+  transform: translateY(-50%);
+  animation-delay: 1.8s;
+}
+.frost-status-2626 {
+  position: absolute;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 11px;
+  border-radius: 999px;
+  background: rgba(2,6,23,.72);
+  border: 1px solid rgba(186,230,253,.11);
+  backdrop-filter: blur(8px);
+  z-index: 14;
+}
+.frost-status-2626 span {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #67e8f9;
+  box-shadow:
+    0 0 6px #67e8f9,
+    0 0 13px #38bdf8;
+  animation: frostStatus2626 1.5s ease-in-out infinite;
+}
+.frost-status-2626 strong {
+  color: #bae6fd;
+  font-size: 7px;
+  font-weight: 800;
+  letter-spacing: .18em;
+}
+.frost-corner {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-color: rgba(186,230,253,.25);
+  z-index: 15;
+}
+.frost-corner-tl-2626 {
+  top: 12px;
+  left: 12px;
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+.frost-corner-tr-2626 {
+  top: 12px;
+  right: 12px;
+  border-top: 1px solid;
+  border-right: 1px solid;
+}
+.frost-corner-bl-2626 {
+  bottom: 12px;
+  left: 12px;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+}
+.frost-corner-br-2626 {
+  bottom: 12px;
+  right: 12px;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+}
+@keyframes frostBg2626 {
+  from {
+    transform: scale(1);
+    opacity: .6;
+  }
+  to {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+}
+@keyframes frostSnow2626 {
+  from {
+    transform: scale(1);
+    opacity: .35;
+  }
+  to {
+    transform: scale(1.04);
+    opacity: .72;
+  }
+}
+@keyframes frostAura2626 {
+  0%,
+  100% {
+    transform: translate(-50%,-50%) scale(.9);
+    opacity: .45;
+  }
+  50% {
+    transform: translate(-50%,-50%) scale(1.14);
+    opacity: 1;
+  }
+}
+@keyframes frostHalo1 {
+  from {
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+}
+@keyframes frostHalo2 {
+  from {
+    transform: translate(-50%,-50%) rotate(0deg) scale(.98);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(360deg) scale(1.04);
+  }
+}
+@keyframes frostHalo3 {
+  from {
+    transform: translate(-50%,-50%) rotate(360deg) scale(1);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(0deg) scale(.95);
+  }
+}
+@keyframes frostCrystalFloat2626 {
+  0%,
+  100% {
+    filter:
+      drop-shadow(0 0 4px rgba(125,211,252,.45))
+      drop-shadow(0 0 10px rgba(96,165,250,.25));
+  }
+  50% {
+    filter:
+      drop-shadow(0 0 8px rgba(224,242,254,.7))
+      drop-shadow(0 0 20px rgba(56,189,248,.5));
+  }
+}
+@keyframes frostShard1 {
+  0%,
+  100% {
+    transform: translate(0,0) rotate(0deg);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(18px,-17px) rotate(35deg);
+    opacity: 1;
+  }
+}
+@keyframes frostShard2 {
+  0%,
+  100% {
+    transform: translate(0,0) rotate(0deg);
+    opacity: .25;
+  }
+  50% {
+    transform: translate(-19px,15px) rotate(-40deg);
+    opacity: 1;
+  }
+}
+@keyframes frostShard3 {
+  0%,
+  100% {
+    transform: translate(0,0) rotate(0deg);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(16px,-21px) rotate(28deg);
+    opacity: 1;
+  }
+}
+@keyframes frostShard4 {
+  0%,
+  100% {
+    transform: translate(0,0) rotate(0deg);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(-17px,-15px) rotate(-31deg);
+    opacity: 1;
+  }
+}
+@keyframes frostShard5 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(14px,19px);
+    opacity: 1;
+  }
+}
+@keyframes frostShard6 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(-15px,17px);
+    opacity: 1;
+  }
+}
+@keyframes frostShard7 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(17px,-16px);
+    opacity: .95;
+  }
+}
+@keyframes frostShard8 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(-19px,-17px);
+    opacity: 1;
+  }
+}
+@keyframes frostEnergy1 {
+  0%,
+  100% {
+    transform: translate(0,0) scale(.7);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(21px,17px) scale(1.3);
+    opacity: 1;
+  }
+}
+@keyframes frostEnergy2 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(-18px,19px);
+    opacity: 1;
+  }
+}
+@keyframes frostEnergy3 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .25;
+  }
+  50% {
+    transform: translate(22px,-16px);
+    opacity: 1;
+  }
+}
+@keyframes frostEnergy4 {
+  0%,
+  100% {
+    transform: translate(0,0) scale(.75);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(-20px,-18px) scale(1.2);
+    opacity: 1;
+  }
+}
+@keyframes frostShell2626 {
+  0%,
+  100% {
+    transform: scale(.94);
+    opacity: .62;
+  }
+  50% {
+    transform: scale(1.07);
+    opacity: 1;
+  }
+}
+@keyframes frostCrystalCore2626 {
+  0%,
+  100% {
+    transform: scale(.94) rotate(0deg);
+    filter: brightness(.92);
+  }
+  50% {
+    transform: scale(1.06) rotate(3deg);
+    filter: brightness(1.16);
+  }
+}
+@keyframes frostFace2626 {
+  0%,
+  100% {
+    transform: scale(.9);
+    opacity: .68;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+@keyframes frostCoreLight2626 {
+  0%,
+  100% {
+    transform: scale(.85);
+    opacity: .35;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+@keyframes frostBeamX2626 {
+  0%,
+  100% {
+    transform: translate(-50%,-50%) scaleX(.65);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(-50%,-50%) scaleX(1);
+    opacity: .6;
+  }
+}
+@keyframes frostBeamY2626 {
+  0%,
+  100% {
+    transform: translate(-50%,-50%) scaleY(.65);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(-50%,-50%) scaleY(1);
+    opacity: .6;
+  }
+}
+@keyframes frostBeamDiagonal2626 {
+  0%,
+  100% {
+    transform: translate(-50%,-50%) rotate(45deg) scaleX(.55);
+    opacity: .1;
+  }
+  50% {
+    transform: translate(-50%,-50%) rotate(45deg) scaleX(1);
+    opacity: .4;
+  }
+}
+@keyframes frostRune2626 {
+  0%,
+  100% {
+    transform: scale(.9);
+    box-shadow:
+      inset 0 0 12px rgba(125,211,252,.04),
+      0 0 12px rgba(56,189,248,.04);
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow:
+      inset 0 0 15px rgba(125,211,252,.08),
+      0 0 25px rgba(56,189,248,.12);
+  }
+}
+@keyframes frostStatus2626 {
+  0%,
+  100% {
+    transform: scale(.75);
+    opacity: .55;
+  }
+  50% {
+    transform: scale(1.16);
+    opacity: 1;
+  }
+}
+@media (max-width: 700px) {
+  .avatar-preview-2626 {
+    min-height: 430px;
+  }
+  .frost-avatar-2626 {
+    width: 285px;
+    height: 285px;
+  }
+  .frost-halo-1-2626 {
+    width: 245px;
+    height: 245px;
+  }
+  .frost-halo-2-2626 {
+    width: 211px;
+    height: 211px;
+  }
+  .frost-halo-3-2626 {
+    width: 177px;
+    height: 177px;
+  }
+  .frost-core-2626 {
+    width: 94px;
+    height: 94px;
+  }
+  .frost-core-crystal-2626 {
+    width: 64px;
+    height: 64px;
+  }
+  .frost-core-face-2626 {
+    width: 37px;
+    height: 37px;
+    font-size: 17px;
+  }
+}
+@media (max-width: 480px) {
+  .avatar-preview-2626 {
+    min-height: 380px;
+  }
+  .frost-avatar-2626 {
+    width: 245px;
+    height: 245px;
+  }
+  .frost-core-2626 {
+    width: 78px;
+    height: 78px;
+  }
+  .frost-core-crystal-2626 {
+    width: 53px;
+    height: 53px;
+  }
+  .frost-core-face-2626 {
+    width: 31px;
+    height: 31px;
+    font-size: 14px;
+  }
+  .frost-crystal-1-2626 {
+    width: 29px;
+    height: 55px;
+  }
+  .frost-crystal-2-2626 {
+    width: 23px;
+    height: 47px;
+  }
+  .frost-crystal-3-2626 {
+    width: 32px;
+    height: 62px;
+  }
+  .frost-crystal-4-2626 {
+    width: 24px;
+    height: 48px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .frost-avatar-2626 *,
+  .frost-avatar-2626::before,
+  .frost-avatar-2626::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+}
+  `,
+  },
+  {
+    id: 2627,
+    name: "Legendary Solar Phoenix Avatar",
+    preview: (
+      <div className="avatar-preview-2627">
+        <div className="phoenix-avatar-2627">
+          <div className="phoenix-bg-2627"></div>
+          <div className="phoenix-stars-2627"></div>
+          <div className="phoenix-solar-flare phoenix-solar-flare-1-2627"></div>
+          <div className="phoenix-solar-flare phoenix-solar-flare-2-2627"></div>
+          <div className="phoenix-solar-flare phoenix-solar-flare-3-2627"></div>
+          <div className="phoenix-solar-flare phoenix-solar-flare-4-2627"></div>
+          <div className="phoenix-aura-2627"></div>
+          <div className="phoenix-ring phoenix-ring-1-2627"></div>
+          <div className="phoenix-ring phoenix-ring-2-2627"></div>
+          <div className="phoenix-ring phoenix-ring-3-2627"></div>
+          <div className="phoenix-ring phoenix-ring-4-2627"></div>
+          <div className="phoenix-wing phoenix-wing-left-2627">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div className="phoenix-wing phoenix-wing-right-2627">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div className="phoenix-feather phoenix-feather-1-2627"></div>
+          <div className="phoenix-feather phoenix-feather-2-2627"></div>
+          <div className="phoenix-feather phoenix-feather-3-2627"></div>
+          <div className="phoenix-feather phoenix-feather-4-2627"></div>
+          <div className="phoenix-feather phoenix-feather-5-2627"></div>
+          <div className="phoenix-feather phoenix-feather-6-2627"></div>
+          <div className="phoenix-feather phoenix-feather-7-2627"></div>
+          <div className="phoenix-feather phoenix-feather-8-2627"></div>
+          <div className="phoenix-ember phoenix-ember-1-2627"></div>
+          <div className="phoenix-ember phoenix-ember-2-2627"></div>
+          <div className="phoenix-ember phoenix-ember-3-2627"></div>
+          <div className="phoenix-ember phoenix-ember-4-2627"></div>
+          <div className="phoenix-ember phoenix-ember-5-2627"></div>
+          <div className="phoenix-ember phoenix-ember-6-2627"></div>
+          <div className="phoenix-ember phoenix-ember-7-2627"></div>
+          <div className="phoenix-ember phoenix-ember-8-2627"></div>
+          <div className="phoenix-ember phoenix-ember-9-2627"></div>
+          <div className="phoenix-ember phoenix-ember-10-2627"></div>
+          <div className="phoenix-flame phoenix-flame-1-2627"></div>
+          <div className="phoenix-flame phoenix-flame-2-2627"></div>
+          <div className="phoenix-flame phoenix-flame-3-2627"></div>
+          <div className="phoenix-flame phoenix-flame-4-2627"></div>
+          <div className="phoenix-flame phoenix-flame-5-2627"></div>
+          <div className="phoenix-flame phoenix-flame-6-2627"></div>
+          <div className="phoenix-flame phoenix-flame-7-2627"></div>
+          <div className="phoenix-flame phoenix-flame-8-2627"></div>
+          <div className="phoenix-core-2627">
+            <div className="phoenix-core-halo-2627"></div>
+            <div className="phoenix-core-shell-2627"></div>
+            <div className="phoenix-core-inner-2627">
+              <div className="phoenix-core-icon-2627">
+                <i className="ri-fire-fill"></i>
+              </div>
+            </div>
+            <div className="phoenix-core-ray phoenix-core-ray-1-2627"></div>
+            <div className="phoenix-core-ray phoenix-core-ray-2-2627"></div>
+            <div className="phoenix-core-ray phoenix-core-ray-3-2627"></div>
+            <div className="phoenix-core-ray phoenix-core-ray-4-2627"></div>
+            <div className="phoenix-core-ray phoenix-core-ray-5-2627"></div>
+            <div className="phoenix-core-ray phoenix-core-ray-6-2627"></div>
+          </div>
+          <div className="phoenix-eye phoenix-eye-left-2627"></div>
+          <div className="phoenix-eye phoenix-eye-right-2627"></div>
+          <div className="phoenix-beak-2627"></div>
+          <div className="phoenix-halo-2627"></div>
+          <div className="phoenix-symbol-2627">
+            <i className="ri-sun-line"></i>
+          </div>
+          <div className="phoenix-energy phoenix-energy-1-2627"></div>
+          <div className="phoenix-energy phoenix-energy-2-2627"></div>
+          <div className="phoenix-energy phoenix-energy-3-2627"></div>
+          <div className="phoenix-energy phoenix-energy-4-2627"></div>
+          <div className="phoenix-energy phoenix-energy-5-2627"></div>
+          <div className="phoenix-corner phoenix-corner-tl-2627"></div>
+          <div className="phoenix-corner phoenix-corner-tr-2627"></div>
+          <div className="phoenix-corner phoenix-corner-bl-2627"></div>
+          <div className="phoenix-corner phoenix-corner-br-2627"></div>
+          <div className="phoenix-status-2627">
+            <span></span>
+            <strong>SOLAR ASCENSION</strong>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `
+<div class="phoenix-avatar-2627">
+  <div class="phoenix-bg-2627"></div>
+  <div class="phoenix-stars-2627"></div>
+  <div class="phoenix-solar-flare phoenix-solar-flare-1-2627"></div>
+  <div class="phoenix-solar-flare phoenix-solar-flare-2-2627"></div>
+  <div class="phoenix-solar-flare phoenix-solar-flare-3-2627"></div>
+  <div class="phoenix-solar-flare phoenix-solar-flare-4-2627"></div>
+  <div class="phoenix-aura-2627"></div>
+  <div class="phoenix-ring phoenix-ring-1-2627"></div>
+  <div class="phoenix-ring phoenix-ring-2-2627"></div>
+  <div class="phoenix-ring phoenix-ring-3-2627"></div>
+  <div class="phoenix-ring phoenix-ring-4-2627"></div>
+  <div class="phoenix-wing phoenix-wing-left-2627">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="phoenix-wing phoenix-wing-right-2627">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="phoenix-feather phoenix-feather-1-2627"></div>
+  <div class="phoenix-feather phoenix-feather-2-2627"></div>
+  <div class="phoenix-feather phoenix-feather-3-2627"></div>
+  <div class="phoenix-feather phoenix-feather-4-2627"></div>
+  <div class="phoenix-feather phoenix-feather-5-2627"></div>
+  <div class="phoenix-feather phoenix-feather-6-2627"></div>
+  <div class="phoenix-feather phoenix-feather-7-2627"></div>
+  <div class="phoenix-feather phoenix-feather-8-2627"></div>
+  <div class="phoenix-ember phoenix-ember-1-2627"></div>
+  <div class="phoenix-ember phoenix-ember-2-2627"></div>
+  <div class="phoenix-ember phoenix-ember-3-2627"></div>
+  <div class="phoenix-ember phoenix-ember-4-2627"></div>
+  <div class="phoenix-ember phoenix-ember-5-2627"></div>
+  <div class="phoenix-ember phoenix-ember-6-2627"></div>
+  <div class="phoenix-ember phoenix-ember-7-2627"></div>
+  <div class="phoenix-ember phoenix-ember-8-2627"></div>
+  <div class="phoenix-ember phoenix-ember-9-2627"></div>
+  <div class="phoenix-ember phoenix-ember-10-2627"></div>
+  <div class="phoenix-flame phoenix-flame-1-2627"></div>
+  <div class="phoenix-flame phoenix-flame-2-2627"></div>
+  <div class="phoenix-flame phoenix-flame-3-2627"></div>
+  <div class="phoenix-flame phoenix-flame-4-2627"></div>
+  <div class="phoenix-flame phoenix-flame-5-2627"></div>
+  <div class="phoenix-flame phoenix-flame-6-2627"></div>
+  <div class="phoenix-flame phoenix-flame-7-2627"></div>
+  <div class="phoenix-flame phoenix-flame-8-2627"></div>
+  <div class="phoenix-core-2627">
+    <div class="phoenix-core-halo-2627"></div>
+    <div class="phoenix-core-shell-2627"></div>
+    <div class="phoenix-core-inner-2627">
+      <div class="phoenix-core-icon-2627">
+        <i class="ri-fire-fill"></i>
+      </div>
+    </div>
+    <div class="phoenix-core-ray phoenix-core-ray-1-2627"></div>
+    <div class="phoenix-core-ray phoenix-core-ray-2-2627"></div>
+    <div class="phoenix-core-ray phoenix-core-ray-3-2627"></div>
+    <div class="phoenix-core-ray phoenix-core-ray-4-2627"></div>
+    <div class="phoenix-core-ray phoenix-core-ray-5-2627"></div>
+    <div class="phoenix-core-ray phoenix-core-ray-6-2627"></div>
+  </div>
+  <div class="phoenix-eye phoenix-eye-left-2627"></div>
+  <div class="phoenix-eye phoenix-eye-right-2627"></div>
+  <div class="phoenix-beak-2627"></div>
+  <div class="phoenix-halo-2627"></div>
+  <div class="phoenix-symbol-2627">
+    <i class="ri-sun-line"></i>
+  </div>
+  <div class="phoenix-energy phoenix-energy-1-2627"></div>
+  <div class="phoenix-energy phoenix-energy-2-2627"></div>
+  <div class="phoenix-energy phoenix-energy-3-2627"></div>
+  <div class="phoenix-energy phoenix-energy-4-2627"></div>
+  <div class="phoenix-energy phoenix-energy-5-2627"></div>
+  <div class="phoenix-corner phoenix-corner-tl-2627"></div>
+  <div class="phoenix-corner phoenix-corner-tr-2627"></div>
+  <div class="phoenix-corner phoenix-corner-bl-2627"></div>
+  <div class="phoenix-corner phoenix-corner-br-2627"></div>
+  <div class="phoenix-status-2627">
+    <span></span>
+    <strong>SOLAR ASCENSION</strong>
+  </div>
+</div>
+  `,
+    css: `
+.avatar-preview-2627 {
+  width: 100%;
+  min-height: 560px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(circle at 50% 50%,rgba(251,191,36,.08),transparent 18%),
+    radial-gradient(circle at 24% 27%,rgba(249,115,22,.08),transparent 25%),
+    radial-gradient(circle at 78% 73%,rgba(234,88,12,.07),transparent 28%),
+    #080b12;
+}
+.avatar-preview-2627::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(251,191,36,.018) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(251,191,36,.018) 1px,transparent 1px);
+  background-size: 34px 34px;
+  mask-image: radial-gradient(circle at center,black 5%,transparent 82%);
+}
+.avatar-preview-2627::after {
+  content: "";
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  border: 1px solid rgba(251,191,36,.035);
+  border-radius: 50%;
+  box-shadow:
+    0 0 90px rgba(249,115,22,.025),
+    inset 0 0 90px rgba(251,191,36,.018);
+}
+.phoenix-avatar-2627 {
+  width: 350px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 50% 52%,rgba(251,191,36,.09),transparent 22%),
+    radial-gradient(circle at 50% 50%,rgba(154,52,18,.13),transparent 46%),
+    #080b12;
+  border: 1px solid rgba(251,191,36,.2);
+  box-shadow:
+    0 0 45px rgba(249,115,22,.11),
+    0 0 100px rgba(251,191,36,.06),
+    inset 0 0 75px rgba(120,53,15,.22);
+  isolation: isolate;
+}
+.phoenix-bg-2627 {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 50% 30%,rgba(254,240,138,.08),transparent 17%),
+    radial-gradient(circle at 30% 58%,rgba(251,146,60,.08),transparent 24%),
+    radial-gradient(circle at 73% 60%,rgba(239,68,68,.06),transparent 25%);
+  animation: phoenixBg2627 6s ease-in-out infinite alternate;
+  z-index: 0;
+}
+.phoenix-stars-2627 {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background-image:
+    radial-gradient(circle at 9% 15%,rgba(255,251,235,.9) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 17% 68%,rgba(251,191,36,.7) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 29% 22%,rgba(255,255,255,.75) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 41% 84%,rgba(253,186,116,.65) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 57% 12%,rgba(255,255,255,.8) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 68% 79%,rgba(251,191,36,.7) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 84% 24%,rgba(255,237,213,.8) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 93% 65%,rgba(251,146,60,.7) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 13% 46%,rgba(255,255,255,.55) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 77% 47%,rgba(254,215,170,.6) 0 1px,transparent 1.5px);
+  opacity: .45;
+  animation: phoenixStars2627 7s ease-in-out infinite alternate;
+  z-index: 1;
+}
+.phoenix-solar-flare {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(251,191,36,.4),
+    rgba(255,237,213,.9),
+    rgba(249,115,22,.4),
+    transparent
+  );
+  filter: blur(2px);
+  z-index: 3;
+  pointer-events: none;
+}
+.phoenix-solar-flare-1-2627 {
+  width: 180px;
+  height: 3px;
+  left: -28px;
+  top: 31%;
+  transform: rotate(21deg);
+  animation: phoenixSolarFlare1 4.8s ease-in-out infinite;
+}
+.phoenix-solar-flare-2-2627 {
+  width: 145px;
+  height: 2px;
+  right: -17px;
+  top: 42%;
+  transform: rotate(-27deg);
+  animation: phoenixSolarFlare2 5.4s ease-in-out infinite;
+}
+.phoenix-solar-flare-3-2627 {
+  width: 155px;
+  height: 3px;
+  left: -26px;
+  bottom: 29%;
+  transform: rotate(-23deg);
+  animation: phoenixSolarFlare3 5.1s ease-in-out infinite;
+}
+.phoenix-solar-flare-4-2627 {
+  width: 130px;
+  height: 2px;
+  right: -15px;
+  bottom: 34%;
+  transform: rotate(25deg);
+  animation: phoenixSolarFlare4 4.4s ease-in-out infinite;
+}
+.phoenix-aura-2627 {
+  position: absolute;
+  width: 255px;
+  height: 255px;
+  left: 50%;
+  top: 49%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle,rgba(255,237,213,.1),rgba(251,191,36,.08) 28%,rgba(249,115,22,.04) 45%,transparent 72%);
+  filter: blur(9px);
+  animation: phoenixAura2627 3.8s ease-in-out infinite;
+  z-index: 2;
+}
+.phoenix-ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 3;
+}
+.phoenix-ring-1-2627 {
+  width: 295px;
+  height: 295px;
+  border: 1px solid rgba(251,191,36,.08);
+  animation: phoenixRing1 14s linear infinite;
+}
+.phoenix-ring-2-2627 {
+  width: 254px;
+  height: 254px;
+  border: 1px dashed rgba(249,115,22,.12);
+  animation: phoenixRing2 10s linear infinite reverse;
+}
+.phoenix-ring-3-2627 {
+  width: 214px;
+  height: 214px;
+  border: 1px solid rgba(254,240,138,.12);
+  animation: phoenixRing3 7s linear infinite;
+}
+.phoenix-ring-4-2627 {
+  width: 178px;
+  height: 178px;
+  border: 1px dashed rgba(239,68,68,.12);
+  animation: phoenixRing4 6s linear infinite reverse;
+}
+.phoenix-wing {
+  position: absolute;
+  top: 50%;
+  width: 154px;
+  height: 170px;
+  transform-origin: center;
+  z-index: 5;
+  pointer-events: none;
+}
+.phoenix-wing-left-2627 {
+  left: -16px;
+  transform: translateY(-50%) rotate(-12deg);
+  animation: phoenixWingLeft2627 4s ease-in-out infinite;
+}
+.phoenix-wing-right-2627 {
+  right: -16px;
+  transform: translateY(-50%) rotate(12deg);
+  animation: phoenixWingRight2627 4s ease-in-out infinite;
+}
+.phoenix-wing span {
+  position: absolute;
+  width: 88px;
+  height: 20px;
+  border-radius: 100% 0 100% 0;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(127,29,29,.12),
+      rgba(249,115,22,.35),
+      rgba(251,191,36,.8),
+      rgba(255,237,213,.85)
+    );
+  filter:
+    drop-shadow(0 0 5px rgba(251,191,36,.4))
+    drop-shadow(0 0 12px rgba(249,115,22,.22));
+  transform-origin: left center;
+}
+.phoenix-wing-right-2627 span {
+  transform-origin: right center;
+}
+.phoenix-wing span:nth-child(1) {
+  top: 13px;
+}
+.phoenix-wing span:nth-child(2) {
+  top: 33px;
+  left: 7px;
+  width: 99px;
+  opacity: .9;
+}
+.phoenix-wing span:nth-child(3) {
+  top: 53px;
+  left: 14px;
+  width: 108px;
+  opacity: .78;
+}
+.phoenix-wing span:nth-child(4) {
+  top: 73px;
+  left: 22px;
+  width: 114px;
+  opacity: .64;
+}
+.phoenix-wing span:nth-child(5) {
+  top: 93px;
+  left: 32px;
+  width: 107px;
+  opacity: .53;
+}
+.phoenix-wing span:nth-child(6) {
+  top: 112px;
+  left: 44px;
+  width: 92px;
+  opacity: .4;
+}
+.phoenix-wing span:nth-child(7) {
+  top: 130px;
+  left: 57px;
+  width: 72px;
+  opacity: .28;
+}
+.phoenix-wing-left-2627 span:nth-child(1) {
+  transform: rotate(-20deg);
+}
+.phoenix-wing-left-2627 span:nth-child(2) {
+  transform: rotate(-17deg);
+}
+.phoenix-wing-left-2627 span:nth-child(3) {
+  transform: rotate(-13deg);
+}
+.phoenix-wing-left-2627 span:nth-child(4) {
+  transform: rotate(-9deg);
+}
+.phoenix-wing-left-2627 span:nth-child(5) {
+  transform: rotate(-5deg);
+}
+.phoenix-wing-left-2627 span:nth-child(6) {
+  transform: rotate(0deg);
+}
+.phoenix-wing-left-2627 span:nth-child(7) {
+  transform: rotate(5deg);
+}
+.phoenix-wing-right-2627 span:nth-child(1) {
+  transform: scaleX(-1) rotate(-20deg);
+}
+.phoenix-wing-right-2627 span:nth-child(2) {
+  transform: scaleX(-1) rotate(-17deg);
+}
+.phoenix-wing-right-2627 span:nth-child(3) {
+  transform: scaleX(-1) rotate(-13deg);
+}
+.phoenix-wing-right-2627 span:nth-child(4) {
+  transform: scaleX(-1) rotate(-9deg);
+}
+.phoenix-wing-right-2627 span:nth-child(5) {
+  transform: scaleX(-1) rotate(-5deg);
+}
+.phoenix-wing-right-2627 span:nth-child(6) {
+  transform: scaleX(-1) rotate(0deg);
+}
+.phoenix-wing-right-2627 span:nth-child(7) {
+  transform: scaleX(-1) rotate(5deg);
+}
+.phoenix-feather {
+  position: absolute;
+  z-index: 6;
+  width: 8px;
+  height: 28px;
+  border-radius: 100% 0 100% 0;
+  background: linear-gradient(
+    180deg,
+    #fff7ed,
+    #fbbf24 34%,
+    #f97316 76%,
+    rgba(127,29,29,.2)
+  );
+  box-shadow:
+    0 0 5px rgba(251,191,36,.6),
+    0 0 13px rgba(249,115,22,.35);
+  filter: blur(.15px);
+}
+.phoenix-feather-1-2627 {
+  left: 26%;
+  top: 24%;
+  transform: rotate(-32deg);
+  animation: phoenixFeather1 3.8s ease-in-out infinite;
+}
+.phoenix-feather-2-2627 {
+  left: 34%;
+  top: 17%;
+  transform: rotate(-16deg);
+  animation: phoenixFeather2 4.4s ease-in-out infinite;
+}
+.phoenix-feather-3-2627 {
+  right: 26%;
+  top: 24%;
+  transform: rotate(32deg);
+  animation: phoenixFeather3 4.1s ease-in-out infinite;
+}
+.phoenix-feather-4-2627 {
+  right: 34%;
+  top: 17%;
+  transform: rotate(16deg);
+  animation: phoenixFeather4 4.8s ease-in-out infinite;
+}
+.phoenix-feather-5-2627 {
+  left: 23%;
+  bottom: 30%;
+  transform: rotate(-56deg);
+  animation: phoenixFeather5 4.7s ease-in-out infinite;
+}
+.phoenix-feather-6-2627 {
+  right: 23%;
+  bottom: 30%;
+  transform: rotate(56deg);
+  animation: phoenixFeather6 4.5s ease-in-out infinite;
+}
+.phoenix-feather-7-2627 {
+  left: 35%;
+  bottom: 19%;
+  transform: rotate(-21deg);
+  animation: phoenixFeather7 3.9s ease-in-out infinite;
+}
+.phoenix-feather-8-2627 {
+  right: 35%;
+  bottom: 19%;
+  transform: rotate(21deg);
+  animation: phoenixFeather8 4.2s ease-in-out infinite;
+}
+.phoenix-ember {
+  position: absolute;
+  z-index: 9;
+  border-radius: 50%;
+  background: #fde68a;
+  box-shadow:
+    0 0 5px #fde68a,
+    0 0 13px #f97316,
+    0 0 25px rgba(249,115,22,.7);
+}
+.phoenix-ember-1-2627 {
+  width: 4px;
+  height: 4px;
+  left: 18%;
+  top: 30%;
+  animation: phoenixEmber1 4.8s ease-in-out infinite;
+}
+.phoenix-ember-2-2627 {
+  width: 3px;
+  height: 3px;
+  right: 15%;
+  top: 27%;
+  animation: phoenixEmber2 5.2s ease-in-out infinite;
+}
+.phoenix-ember-3-2627 {
+  width: 5px;
+  height: 5px;
+  left: 13%;
+  bottom: 32%;
+  animation: phoenixEmber3 4.2s ease-in-out infinite;
+}
+.phoenix-ember-4-2627 {
+  width: 3px;
+  height: 3px;
+  right: 12%;
+  bottom: 27%;
+  animation: phoenixEmber4 5.5s ease-in-out infinite;
+}
+.phoenix-ember-5-2627 {
+  width: 2px;
+  height: 2px;
+  left: 32%;
+  top: 10%;
+  animation: phoenixEmber5 3.7s ease-in-out infinite;
+}
+.phoenix-ember-6-2627 {
+  width: 3px;
+  height: 3px;
+  right: 29%;
+  top: 14%;
+  animation: phoenixEmber6 4.6s ease-in-out infinite;
+}
+.phoenix-ember-7-2627 {
+  width: 3px;
+  height: 3px;
+  left: 29%;
+  bottom: 11%;
+  animation: phoenixEmber7 5.1s ease-in-out infinite;
+}
+.phoenix-ember-8-2627 {
+  width: 4px;
+  height: 4px;
+  right: 32%;
+  bottom: 13%;
+  animation: phoenixEmber8 4.4s ease-in-out infinite;
+}
+.phoenix-ember-9-2627 {
+  width: 2px;
+  height: 2px;
+  left: 9%;
+  top: 48%;
+  animation: phoenixEmber9 3.9s ease-in-out infinite;
+}
+.phoenix-ember-10-2627 {
+  width: 2px;
+  height: 2px;
+  right: 8%;
+  top: 51%;
+  animation: phoenixEmber10 5.3s ease-in-out infinite;
+}
+.phoenix-flame {
+  position: absolute;
+  z-index: 8;
+  width: 28px;
+  height: 52px;
+  border-radius: 55% 45% 60% 40%;
+  background:
+    linear-gradient(
+      180deg,
+      #fff7ed 0%,
+      #fef08a 22%,
+      #fbbf24 45%,
+      #f97316 72%,
+      rgba(127,29,29,.16) 100%
+    );
+  clip-path: polygon(
+    50% 0%,
+    72% 22%,
+    66% 40%,
+    100% 54%,
+    69% 55%,
+    78% 81%,
+    50% 100%,
+    23% 77%,
+    31% 57%,
+    0% 62%,
+    34% 37%,
+    30% 17%
+  );
+  filter:
+    drop-shadow(0 0 5px rgba(255,237,213,.7))
+    drop-shadow(0 0 15px rgba(249,115,22,.45));
+}
+.phoenix-flame-1-2627 {
+  left: 18%;
+  top: 38%;
+  transform: rotate(-27deg) scale(.85);
+  animation: phoenixFlame1 3.5s ease-in-out infinite;
+}
+.phoenix-flame-2-2627 {
+  right: 18%;
+  top: 39%;
+  transform: rotate(27deg) scale(.85);
+  animation: phoenixFlame2 3.8s ease-in-out infinite;
+}
+.phoenix-flame-3-2627 {
+  left: 28%;
+  top: 14%;
+  transform: rotate(-13deg) scale(.62);
+  animation: phoenixFlame3 4.2s ease-in-out infinite;
+}
+.phoenix-flame-4-2627 {
+  right: 28%;
+  top: 14%;
+  transform: rotate(13deg) scale(.62);
+  animation: phoenixFlame4 4.5s ease-in-out infinite;
+}
+.phoenix-flame-5-2627 {
+  left: 10%;
+  bottom: 28%;
+  transform: rotate(-53deg) scale(.68);
+  animation: phoenixFlame5 4s ease-in-out infinite;
+}
+.phoenix-flame-6-2627 {
+  right: 10%;
+  bottom: 28%;
+  transform: rotate(53deg) scale(.68);
+  animation: phoenixFlame6 4.4s ease-in-out infinite;
+}
+.phoenix-flame-7-2627 {
+  left: 38%;
+  bottom: 9%;
+  transform: rotate(-4deg) scale(.55);
+  animation: phoenixFlame7 3.7s ease-in-out infinite;
+}
+.phoenix-flame-8-2627 {
+  right: 38%;
+  bottom: 9%;
+  transform: rotate(4deg) scale(.55);
+  animation: phoenixFlame8 4.1s ease-in-out infinite;
+}
+.phoenix-core-2627 {
+  width: 126px;
+  height: 126px;
+  position: absolute;
+  left: 50%;
+  top: 51%;
+  transform: translate(-50%,-50%);
+  z-index: 13;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phoenix-core-halo-2627 {
+  position: absolute;
+  inset: -15px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle,rgba(255,237,213,.08),rgba(251,191,36,.08) 34%,transparent 69%);
+  filter: blur(4px);
+  animation: phoenixCoreHalo2627 2.7s ease-in-out infinite;
+}
+.phoenix-core-shell-2627 {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle at 35% 27%,
+      #fff7ed 0%,
+      #fef3c7 13%,
+      #fbbf24 30%,
+      #f97316 49%,
+      #c2410c 66%,
+      rgba(127,29,29,.3) 79%,
+      transparent 82%
+    );
+  box-shadow:
+    0 0 24px rgba(251,191,36,.45),
+    0 0 55px rgba(249,115,22,.28),
+    inset 0 0 20px rgba(255,237,213,.35);
+  animation: phoenixCoreShell2627 3.1s ease-in-out infinite;
+}
+.phoenix-core-inner-2627 {
+  width: 82px;
+  height: 82px;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 40% 30%,rgba(255,255,255,.8),rgba(251,191,36,.25) 25%,rgba(154,52,18,.6) 60%,#431407 100%);
+  border: 1px solid rgba(255,237,213,.42);
+  box-shadow:
+    inset 0 0 25px rgba(255,247,237,.18),
+    0 0 25px rgba(249,115,22,.35);
+  animation: phoenixCoreInner2627 2.4s ease-in-out infinite;
+}
+.phoenix-core-icon-2627 {
+  width: 47px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle,rgba(120,53,15,.85),rgba(67,20,7,.98));
+  border: 1px solid rgba(254,240,138,.35);
+  color: #fef3c7;
+  font-size: 23px;
+  text-shadow:
+    0 0 8px rgba(255,247,237,.95),
+    0 0 22px rgba(251,191,36,.8),
+    0 0 36px rgba(249,115,22,.45);
+  box-shadow:
+    0 0 18px rgba(251,191,36,.35),
+    inset 0 0 15px rgba(249,115,22,.22);
+  animation: phoenixCoreIcon2627 2s ease-in-out infinite;
+}
+.phoenix-core-ray {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 154px;
+  height: 1px;
+  transform-origin: center;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255,237,213,.16),
+    rgba(251,191,36,.5),
+    rgba(255,237,213,.16),
+    transparent
+  );
+  z-index: 2;
+  opacity: .6;
+}
+.phoenix-core-ray-1-2627 {
+  transform: translate(-50%,-50%) rotate(0deg);
+  animation: phoenixRay1 3.3s ease-in-out infinite;
+}
+.phoenix-core-ray-2-2627 {
+  transform: translate(-50%,-50%) rotate(30deg);
+  animation: phoenixRay2 3.9s ease-in-out infinite;
+}
+.phoenix-core-ray-3-2627 {
+  transform: translate(-50%,-50%) rotate(60deg);
+  animation: phoenixRay3 4.1s ease-in-out infinite;
+}
+.phoenix-core-ray-4-2627 {
+  transform: translate(-50%,-50%) rotate(90deg);
+  animation: phoenixRay4 3.6s ease-in-out infinite;
+}
+.phoenix-core-ray-5-2627 {
+  transform: translate(-50%,-50%) rotate(120deg);
+  animation: phoenixRay5 4.3s ease-in-out infinite;
+}
+.phoenix-core-ray-6-2627 {
+  transform: translate(-50%,-50%) rotate(150deg);
+  animation: phoenixRay6 3.8s ease-in-out infinite;
+}
+.phoenix-eye {
+  position: absolute;
+  width: 17px;
+  height: 9px;
+  border-radius: 70% 30% 70% 30%;
+  background: linear-gradient(90deg,#fff7ed,#fef08a,#f97316);
+  box-shadow:
+    0 0 6px rgba(255,247,237,.9),
+    0 0 15px rgba(251,191,36,.7);
+  z-index: 14;
+}
+.phoenix-eye-left-2627 {
+  left: calc(50% - 38px);
+  top: calc(51% - 13px);
+  transform: rotate(-9deg);
+  animation: phoenixEyeLeft2627 2.8s ease-in-out infinite;
+}
+.phoenix-eye-right-2627 {
+  right: calc(50% - 38px);
+  top: calc(51% - 13px);
+  transform: scaleX(-1) rotate(-9deg);
+  animation: phoenixEyeRight2627 2.8s ease-in-out infinite;
+}
+.phoenix-beak-2627 {
+  position: absolute;
+  left: 50%;
+  top: calc(51% + 2px);
+  transform: translateX(-50%);
+  width: 14px;
+  height: 18px;
+  background: linear-gradient(180deg,#fff7ed,#fbbf24,#ea580c);
+  clip-path: polygon(50% 100%,0% 0%,100% 0%);
+  filter: drop-shadow(0 0 5px rgba(251,191,36,.6));
+  z-index: 14;
+  animation: phoenixBeak2627 2.4s ease-in-out infinite;
+}
+.phoenix-halo-2627 {
+  position: absolute;
+  width: 170px;
+  height: 95px;
+  left: 50%;
+  top: 51%;
+  transform: translate(-50%,-50%) rotate(-8deg);
+  border-radius: 50%;
+  border: 1px solid rgba(251,191,36,.16);
+  box-shadow:
+    0 0 20px rgba(251,191,36,.08),
+    inset 0 0 20px rgba(249,115,22,.04);
+  z-index: 10;
+  animation: phoenixHalo2627 5.5s linear infinite;
+}
+.phoenix-symbol-2627 {
+  position: absolute;
+  left: 50%;
+  top: 12%;
+  transform: translateX(-50%);
+  width: 31px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  background: rgba(67,20,7,.55);
+  border: 1px solid rgba(251,191,36,.16);
+  color: #fef08a;
+  font-size: 13px;
+  box-shadow:
+    inset 0 0 15px rgba(251,191,36,.05),
+    0 0 18px rgba(249,115,22,.08);
+  z-index: 15;
+  animation: phoenixSymbol2627 3s ease-in-out infinite;
+}
+.phoenix-energy {
+  position: absolute;
+  z-index: 11;
+  border-radius: 50%;
+  background: #fff7ed;
+  box-shadow:
+    0 0 6px #fff7ed,
+    0 0 14px #fbbf24,
+    0 0 27px rgba(249,115,22,.75);
+}
+.phoenix-energy-1-2627 {
+  width: 4px;
+  height: 4px;
+  left: 22%;
+  top: 21%;
+  animation: phoenixEnergy1 4.4s ease-in-out infinite;
+}
+.phoenix-energy-2-2627 {
+  width: 3px;
+  height: 3px;
+  right: 19%;
+  top: 25%;
+  animation: phoenixEnergy2 4.8s ease-in-out infinite;
+}
+.phoenix-energy-3-2627 {
+  width: 4px;
+  height: 4px;
+  left: 19%;
+  bottom: 19%;
+  animation: phoenixEnergy3 5.2s ease-in-out infinite;
+}
+.phoenix-energy-4-2627 {
+  width: 3px;
+  height: 3px;
+  right: 20%;
+  bottom: 21%;
+  animation: phoenixEnergy4 4.7s ease-in-out infinite;
+}
+.phoenix-energy-5-2627 {
+  width: 2px;
+  height: 2px;
+  left: 48%;
+  top: 8%;
+  animation: phoenixEnergy5 3.9s ease-in-out infinite;
+}
+.phoenix-corner {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  z-index: 18;
+  border-color: rgba(251,191,36,.22);
+}
+.phoenix-corner-tl-2627 {
+  top: 13px;
+  left: 13px;
+  border-left: 1px solid;
+  border-top: 1px solid;
+}
+.phoenix-corner-tr-2627 {
+  top: 13px;
+  right: 13px;
+  border-right: 1px solid;
+  border-top: 1px solid;
+}
+.phoenix-corner-bl-2627 {
+  bottom: 13px;
+  left: 13px;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+}
+.phoenix-corner-br-2627 {
+  right: 13px;
+  bottom: 13px;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+.phoenix-status-2627 {
+  position: absolute;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(67,20,7,.62);
+  border: 1px solid rgba(251,191,36,.14);
+  backdrop-filter: blur(8px);
+  z-index: 19;
+}
+.phoenix-status-2627 span {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #fef08a;
+  box-shadow:
+    0 0 6px #fef08a,
+    0 0 14px #f97316;
+  animation: phoenixStatus2627 1.6s ease-in-out infinite;
+}
+.phoenix-status-2627 strong {
+  color: #fef3c7;
+  font-size: 7px;
+  font-weight: 800;
+  letter-spacing: .18em;
+}
+@keyframes phoenixBg2627 {
+  from {
+    transform: scale(1);
+    opacity: .55;
+  }
+  to {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+}
+@keyframes phoenixStars2627 {
+  from {
+    transform: scale(1);
+    opacity: .3;
+  }
+  to {
+    transform: scale(1.04);
+    opacity: .62;
+  }
+}
+@keyframes phoenixSolarFlare1 {
+  0%,
+  100% {
+    transform: rotate(21deg) translateX(0) scaleX(.55);
+    opacity: .1;
+  }
+  50% {
+    transform: rotate(21deg) translateX(30px) scaleX(1.1);
+    opacity: .7;
+  }
+}
+@keyframes phoenixSolarFlare2 {
+  0%,
+  100% {
+    transform: rotate(-27deg) translateX(0) scaleX(.5);
+    opacity: .1;
+  }
+  50% {
+    transform: rotate(-27deg) translateX(-25px) scaleX(1.05);
+    opacity: .7;
+  }
+}
+@keyframes phoenixSolarFlare3 {
+  0%,
+  100% {
+    transform: rotate(-23deg) translateX(0) scaleX(.55);
+    opacity: .08;
+  }
+  50% {
+    transform: rotate(-23deg) translateX(28px) scaleX(1.08);
+    opacity: .6;
+  }
+}
+@keyframes phoenixSolarFlare4 {
+  0%,
+  100% {
+    transform: rotate(25deg) translateX(0) scaleX(.5);
+    opacity: .1;
+  }
+  50% {
+    transform: rotate(25deg) translateX(-24px) scaleX(1.08);
+    opacity: .65;
+  }
+}
+@keyframes phoenixAura2627 {
+  0%,
+  100% {
+    transform: translate(-50%,-50%) scale(.88);
+    opacity: .42;
+  }
+  50% {
+    transform: translate(-50%,-50%) scale(1.15);
+    opacity: 1;
+  }
+}
+@keyframes phoenixRing1 {
+  from {
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+}
+@keyframes phoenixRing2 {
+  from {
+    transform: translate(-50%,-50%) rotate(0deg) scale(.98);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(360deg) scale(1.04);
+  }
+}
+@keyframes phoenixRing3 {
+  from {
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+}
+@keyframes phoenixRing4 {
+  from {
+    transform: translate(-50%,-50%) rotate(0deg) scale(1);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(360deg) scale(.94);
+  }
+}
+@keyframes phoenixWingLeft2627 {
+  0%,
+  100% {
+    transform: translateY(-50%) rotate(-12deg) translateX(0) scale(.94);
+  }
+  50% {
+    transform: translateY(-50%) rotate(-15deg) translateX(-7px) scale(1.04);
+  }
+}
+@keyframes phoenixWingRight2627 {
+  0%,
+  100% {
+    transform: translateY(-50%) rotate(12deg) translateX(0) scale(.94);
+  }
+  50% {
+    transform: translateY(-50%) rotate(15deg) translateX(7px) scale(1.04);
+  }
+}
+@keyframes phoenixFeather1 {
+  0%,
+  100% {
+    transform: rotate(-32deg) translate(0,0) scale(.8);
+    opacity: .35;
+  }
+  50% {
+    transform: rotate(-32deg) translate(8px,-12px) scale(1.1);
+    opacity: 1;
+  }
+}
+@keyframes phoenixFeather2 {
+  0%,
+  100% {
+    transform: rotate(-16deg) translate(0,0) scale(.75);
+    opacity: .3;
+  }
+  50% {
+    transform: rotate(-16deg) translate(10px,-15px) scale(1.08);
+    opacity: .95;
+  }
+}
+@keyframes phoenixFeather3 {
+  0%,
+  100% {
+    transform: rotate(32deg) translate(0,0) scale(.8);
+    opacity: .35;
+  }
+  50% {
+    transform: rotate(32deg) translate(-8px,-12px) scale(1.1);
+    opacity: 1;
+  }
+}
+@keyframes phoenixFeather4 {
+  0%,
+  100% {
+    transform: rotate(16deg) translate(0,0) scale(.75);
+    opacity: .3;
+  }
+  50% {
+    transform: rotate(16deg) translate(-10px,-15px) scale(1.08);
+    opacity: .95;
+  }
+}
+@keyframes phoenixFeather5 {
+  0%,
+  100% {
+    transform: rotate(-56deg) translate(0,0) scale(.7);
+    opacity: .25;
+  }
+  50% {
+    transform: rotate(-56deg) translate(9px,10px) scale(1.08);
+    opacity: .9;
+  }
+}
+@keyframes phoenixFeather6 {
+  0%,
+  100% {
+    transform: rotate(56deg) translate(0,0) scale(.7);
+    opacity: .25;
+  }
+  50% {
+    transform: rotate(56deg) translate(-9px,10px) scale(1.08);
+    opacity: .9;
+  }
+}
+@keyframes phoenixFeather7 {
+  0%,
+  100% {
+    transform: rotate(-21deg) translate(0,0) scale(.75);
+    opacity: .25;
+  }
+  50% {
+    transform: rotate(-21deg) translate(8px,9px) scale(1.04);
+    opacity: .88;
+  }
+}
+@keyframes phoenixFeather8 {
+  0%,
+  100% {
+    transform: rotate(21deg) translate(0,0) scale(.75);
+    opacity: .25;
+  }
+  50% {
+    transform: rotate(21deg) translate(-8px,9px) scale(1.04);
+    opacity: .88;
+  }
+}
+@keyframes phoenixEmber1 {
+  0%,
+  100% {
+    transform: translate(0,0) scale(.7);
+    opacity: .18;
+  }
+  50% {
+    transform: translate(22px,-20px) scale(1.25);
+    opacity: 1;
+  }
+}
+@keyframes phoenixEmber2 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(-22px,17px);
+    opacity: 1;
+  }
+}
+@keyframes phoenixEmber3 {
+  0%,
+  100% {
+    transform: translate(0,0) scale(.7);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(23px,-21px) scale(1.3);
+    opacity: 1;
+  }
+}
+@keyframes phoenixEmber4 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(-18px,-22px);
+    opacity: 1;
+  }
+}
+@keyframes phoenixEmber5 {
+  0%,
+  100% {
+    transform: translate(0,0) scale(.7);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(16px,20px) scale(1.2);
+    opacity: 1;
+  }
+}
+@keyframes phoenixEmber6 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(-19px,18px);
+    opacity: 1;
+  }
+}
+@keyframes phoenixEmber7 {
+  0%,
+  100% {
+    transform: translate(0,0) scale(.75);
+    opacity: .18;
+  }
+  50% {
+    transform: translate(18px,-20px) scale(1.2);
+    opacity: 1;
+  }
+}
+@keyframes phoenixEmber8 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .18;
+  }
+  50% {
+    transform: translate(-20px,-19px);
+    opacity: 1;
+  }
+}
+@keyframes phoenixEmber9 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .12;
+  }
+  50% {
+    transform: translate(20px,12px);
+    opacity: .9;
+  }
+}
+@keyframes phoenixEmber10 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .14;
+  }
+  50% {
+    transform: translate(-20px,13px);
+    opacity: .95;
+  }
+}
+@keyframes phoenixFlame1 {
+  0%,
+  100% {
+    transform: rotate(-27deg) scale(.72);
+    opacity: .3;
+  }
+  50% {
+    transform: rotate(-31deg) translate(7px,-10px) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes phoenixFlame2 {
+  0%,
+  100% {
+    transform: rotate(27deg) scale(.72);
+    opacity: .3;
+  }
+  50% {
+    transform: rotate(31deg) translate(-7px,-10px) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes phoenixFlame3 {
+  0%,
+  100% {
+    transform: rotate(-13deg) scale(.55);
+    opacity: .25;
+  }
+  50% {
+    transform: rotate(-17deg) translate(7px,-9px) scale(.82);
+    opacity: .9;
+  }
+}
+@keyframes phoenixFlame4 {
+  0%,
+  100% {
+    transform: rotate(13deg) scale(.55);
+    opacity: .25;
+  }
+  50% {
+    transform: rotate(17deg) translate(-7px,-9px) scale(.82);
+    opacity: .9;
+  }
+}
+@keyframes phoenixFlame5 {
+  0%,
+  100% {
+    transform: rotate(-53deg) scale(.58);
+    opacity: .22;
+  }
+  50% {
+    transform: rotate(-58deg) translate(9px,7px) scale(.84);
+    opacity: .85;
+  }
+}
+@keyframes phoenixFlame6 {
+  0%,
+  100% {
+    transform: rotate(53deg) scale(.58);
+    opacity: .22;
+  }
+  50% {
+    transform: rotate(58deg) translate(-9px,7px) scale(.84);
+    opacity: .85;
+  }
+}
+@keyframes phoenixFlame7 {
+  0%,
+  100% {
+    transform: rotate(-4deg) scale(.48);
+    opacity: .22;
+  }
+  50% {
+    transform: rotate(-8deg) translate(5px,10px) scale(.72);
+    opacity: .8;
+  }
+}
+@keyframes phoenixFlame8 {
+  0%,
+  100% {
+    transform: rotate(4deg) scale(.48);
+    opacity: .22;
+  }
+  50% {
+    transform: rotate(8deg) translate(-5px,10px) scale(.72);
+    opacity: .8;
+  }
+}
+@keyframes phoenixCoreHalo2627 {
+  0%,
+  100% {
+    transform: scale(.85);
+    opacity: .4;
+  }
+  50% {
+    transform: scale(1.18);
+    opacity: 1;
+  }
+}
+@keyframes phoenixCoreShell2627 {
+  0%,
+  100% {
+    transform: scale(.94);
+    opacity: .68;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+}
+@keyframes phoenixCoreInner2627 {
+  0%,
+  100% {
+    transform: rotate(0deg) scale(.95);
+  }
+  50% {
+    transform: rotate(4deg) scale(1.06);
+  }
+}
+@keyframes phoenixCoreIcon2627 {
+  0%,
+  100% {
+    transform: scale(.9);
+    opacity: .72;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+}
+@keyframes phoenixRay1 {
+  0%,
+  100% {
+    transform: translate(-50%,-50%) rotate(0deg) scaleX(.7);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(-50%,-50%) rotate(0deg) scaleX(1.08);
+    opacity: .7;
+  }
+}
+@keyframes phoenixRay2 {
+  0%,
+  100% {
+    transform: translate(-50%,-50%) rotate(30deg) scaleX(.65);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(-50%,-50%) rotate(30deg) scaleX(1.05);
+    opacity: .65;
+  }
+}
+@keyframes phoenixRay3 {
+  0%,
+  100% {
+    transform: translate(-50%,-50%) rotate(60deg) scaleX(.72);
+    opacity: .18;
+  }
+  50% {
+    transform: translate(-50%,-50%) rotate(60deg) scaleX(1);
+    opacity: .62;
+  }
+}
+@keyframes phoenixRay4 {
+  0%,
+  100% {
+    transform: translate(-50%,-50%) rotate(90deg) scaleX(.66);
+    opacity: .17;
+  }
+  50% {
+    transform: translate(-50%,-50%) rotate(90deg) scaleX(1.06);
+    opacity: .68;
+  }
+}
+@keyframes phoenixRay5 {
+  0%,
+  100% {
+    transform: translate(-50%,-50%) rotate(120deg) scaleX(.7);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(-50%,-50%) rotate(120deg) scaleX(1);
+    opacity: .6;
+  }
+}
+@keyframes phoenixRay6 {
+  0%,
+  100% {
+    transform: translate(-50%,-50%) rotate(150deg) scaleX(.64);
+    opacity: .16;
+  }
+  50% {
+    transform: translate(-50%,-50%) rotate(150deg) scaleX(1.04);
+    opacity: .65;
+  }
+}
+@keyframes phoenixEyeLeft2627 {
+  0%,
+  100% {
+    transform: rotate(-9deg) scaleY(.8);
+    opacity: .6;
+  }
+  50% {
+    transform: rotate(-9deg) scaleY(1.15);
+    opacity: 1;
+  }
+}
+@keyframes phoenixEyeRight2627 {
+  0%,
+  100% {
+    transform: scaleX(-1) rotate(-9deg) scaleY(.8);
+    opacity: .6;
+  }
+  50% {
+    transform: scaleX(-1) rotate(-9deg) scaleY(1.15);
+    opacity: 1;
+  }
+}
+@keyframes phoenixBeak2627 {
+  0%,
+  100% {
+    transform: translateX(-50%) scale(.88);
+    opacity: .65;
+  }
+  50% {
+    transform: translateX(-50%) scale(1.08);
+    opacity: 1;
+  }
+}
+@keyframes phoenixHalo2627 {
+  from {
+    transform: translate(-50%,-50%) rotate(-8deg) rotateZ(0deg);
+  }
+  to {
+    transform: translate(-50%,-50%) rotate(-8deg) rotateZ(360deg);
+  }
+}
+@keyframes phoenixSymbol2627 {
+  0%,
+  100% {
+    transform: translateX(-50%) scale(.92);
+    box-shadow:
+      inset 0 0 15px rgba(251,191,36,.05),
+      0 0 18px rgba(249,115,22,.08);
+  }
+  50% {
+    transform: translateX(-50%) scale(1.08);
+    box-shadow:
+      inset 0 0 18px rgba(251,191,36,.1),
+      0 0 28px rgba(249,115,22,.18);
+  }
+}
+@keyframes phoenixEnergy1 {
+  0%,
+  100% {
+    transform: translate(0,0) scale(.7);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(20px,-17px) scale(1.3);
+    opacity: 1;
+  }
+}
+@keyframes phoenixEnergy2 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .2;
+  }
+  50% {
+    transform: translate(-21px,17px);
+    opacity: 1;
+  }
+}
+@keyframes phoenixEnergy3 {
+  0%,
+  100% {
+    transform: translate(0,0) scale(.7);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(23px,-18px) scale(1.25);
+    opacity: 1;
+  }
+}
+@keyframes phoenixEnergy4 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .18;
+  }
+  50% {
+    transform: translate(-20px,-17px);
+    opacity: 1;
+  }
+}
+@keyframes phoenixEnergy5 {
+  0%,
+  100% {
+    transform: translate(0,0);
+    opacity: .15;
+  }
+  50% {
+    transform: translate(18px,20px);
+    opacity: 1;
+  }
+}
+@keyframes phoenixStatus2627 {
+  0%,
+  100% {
+    transform: scale(.75);
+    opacity: .5;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+}
+@media (max-width: 700px) {
+  .avatar-preview-2627 {
+    min-height: 460px;
+  }
+  .phoenix-avatar-2627 {
+    width: 300px;
+    height: 300px;
+  }
+  .phoenix-ring-1-2627 {
+    width: 255px;
+    height: 255px;
+  }
+  .phoenix-ring-2-2627 {
+    width: 219px;
+    height: 219px;
+  }
+  .phoenix-ring-3-2627 {
+    width: 184px;
+    height: 184px;
+  }
+  .phoenix-ring-4-2627 {
+    width: 153px;
+    height: 153px;
+  }
+  .phoenix-wing {
+    width: 132px;
+    height: 150px;
+  }
+  .phoenix-core-2627 {
+    width: 108px;
+    height: 108px;
+  }
+  .phoenix-core-inner-2627 {
+    width: 71px;
+    height: 71px;
+  }
+  .phoenix-core-icon-2627 {
+    width: 41px;
+    height: 41px;
+    font-size: 19px;
+  }
+}
+@media (max-width: 480px) {
+  .avatar-preview-2627 {
+    min-height: 390px;
+  }
+  .phoenix-avatar-2627 {
+    width: 250px;
+    height: 250px;
+  }
+  .phoenix-ring-1-2627 {
+    width: 215px;
+    height: 215px;
+  }
+  .phoenix-ring-2-2627 {
+    width: 184px;
+    height: 184px;
+  }
+  .phoenix-ring-3-2627 {
+    width: 155px;
+    height: 155px;
+  }
+  .phoenix-ring-4-2627 {
+    width: 129px;
+    height: 129px;
+  }
+  .phoenix-wing {
+    width: 108px;
+    height: 125px;
+  }
+  .phoenix-core-2627 {
+    width: 91px;
+    height: 91px;
+  }
+  .phoenix-core-inner-2627 {
+    width: 60px;
+    height: 60px;
+  }
+  .phoenix-core-icon-2627 {
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
+  }
+  .phoenix-status-2627 {
+    bottom: 17px;
+    padding: 5px 8px;
+  }
+  .phoenix-status-2627 strong {
+    font-size: 5px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .phoenix-avatar-2627 *,
+  .phoenix-avatar-2627::before,
+  .phoenix-avatar-2627::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+}
+  `,
+  },
+  {
+    id: 2628,
+    name: "Ocean Profile Avatar",
+    preview: (
+      <div className="avatar-preview-2628">
+        <div className="avatar-ocean-2628">
+          <div className="avatar-ocean-bg-2628"></div>
+          <div className="avatar-ocean-glow-2628"></div>
+          <div className="avatar-ocean-icon-2628">
+            <i className="ri-user-3-line"></i>
+          </div>
+          <div className="avatar-ocean-status-2628"></div>
+        </div>
+      </div>
+    ),
+    html: `
+<div class="avatar-ocean-2628">
+  <div class="avatar-ocean-bg-2628"></div>
+  <div class="avatar-ocean-glow-2628"></div>
+  <div class="avatar-ocean-icon-2628">
+    <i class="ri-user-3-line"></i>
+  </div>
+  <div class="avatar-ocean-status-2628"></div>
+</div>
+  `,
+    css: `
+.avatar-preview-2628 {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar-ocean-2628 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg,#0ea5e9,#2563eb);
+  border: 4px solid rgba(255,255,255,.8);
+  box-shadow: 0 12px 30px rgba(37,99,235,.25);
+}
+.avatar-ocean-bg-2628 {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 30% 25%,rgba(255,255,255,.4),transparent 22%),
+    linear-gradient(145deg,#38bdf8,#2563eb);
+}
+.avatar-ocean-glow-2628 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.12);
+  filter: blur(8px);
+  animation: oceanGlow2628 3s ease-in-out infinite;
+}
+.avatar-ocean-icon-2628 {
+  position: relative;
+  z-index: 2;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(15,23,42,.22);
+  color: #fff;
+  font-size: 29px;
+  backdrop-filter: blur(5px);
+}
+.avatar-ocean-status-2628 {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #22c55e;
+  border: 3px solid #2563eb;
+  box-shadow: 0 0 10px rgba(34,197,94,.5);
+}
+@keyframes oceanGlow2628 {
+  0%,
+  100% {
+    transform: scale(.8);
+    opacity: .5;
+  }
+  50% {
+    transform: scale(1.25);
+    opacity: 1;
+  }
+}
+  `,
+  },
+  {
+    id: 2629,
+    name: "Rose Profile Avatar",
+    preview: (
+      <div className="avatar-preview-2629">
+        <div className="avatar-rose-2629">
+          <div className="avatar-rose-ring-2629"></div>
+          <div className="avatar-rose-icon-2629">
+            <i className="ri-user-smile-line"></i>
+          </div>
+          <div className="avatar-rose-status-2629"></div>
+        </div>
+      </div>
+    ),
+    html: `
+<div class="avatar-rose-2629">
+  <div class="avatar-rose-ring-2629"></div>
+  <div class="avatar-rose-icon-2629">
+    <i class="ri-user-smile-line"></i>
+  </div>
+  <div class="avatar-rose-status-2629"></div>
+</div>
+  `,
+    css: `
+.avatar-preview-2629 {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar-rose-2629 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg,#ec4899,#db2777);
+  box-shadow: 0 12px 30px rgba(219,39,119,.24);
+}
+.avatar-rose-ring-2629 {
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 2px solid rgba(244,114,182,.35);
+  animation: roseRing2629 4s linear infinite;
+}
+.avatar-rose-icon-2629 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255,255,255,.13);
+  color: #fff;
+  font-size: 30px;
+  backdrop-filter: blur(8px);
+}
+.avatar-rose-status-2629 {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #22c55e;
+  border: 3px solid #db2777;
+}
+@keyframes roseRing2629 {
+  from {
+    transform: rotate(0deg) scale(.96);
+  }
+  to {
+    transform: rotate(360deg) scale(1.04);
+  }
+}
+  `,
+  },
+  {
+    id: 2630,
+    name: "Forest Avatar",
+    preview: (
+      <div className="avatar-preview-2630">
+        <div className="avatar-forest-2630">
+          <div className="avatar-forest-leaf-2630"></div>
+          <div className="avatar-forest-icon-2630">
+            <i className="ri-leaf-line"></i>
+          </div>
+          <div className="avatar-forest-status-2630"></div>
+        </div>
+      </div>
+    ),
+    html: `
+<div class="avatar-forest-2630">
+  <div class="avatar-forest-leaf-2630"></div>
+  <div class="avatar-forest-icon-2630">
+    <i class="ri-leaf-line"></i>
+  </div>
+  <div class="avatar-forest-status-2630"></div>
+</div>
+  `,
+    css: `
+.avatar-preview-2630 {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar-forest-2630 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg,#22c55e,#15803d);
+  box-shadow: 0 12px 30px rgba(21,128,61,.22);
+}
+.avatar-forest-leaf-2630 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 30% 30%,rgba(255,255,255,.14),transparent 25%),
+    radial-gradient(circle at 70% 70%,rgba(255,255,255,.08),transparent 30%);
+  animation: forestLeaf2630 5s ease-in-out infinite alternate;
+}
+.avatar-forest-icon-2630 {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #dcfce7;
+  background: rgba(20,83,45,.4);
+  font-size: 30px;
+}
+.avatar-forest-status-2630 {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #86efac;
+  border: 3px solid #15803d;
+  box-shadow: 0 0 9px rgba(134,239,172,.45);
+}
+@keyframes forestLeaf2630 {
+  from {
+    transform: rotate(-5deg) scale(.95);
+  }
+  to {
+    transform: rotate(5deg) scale(1.05);
+  }
+}
+  `,
+  },
+  {
+    id: 2631,
+    name: "Sunset Avatar",
+    preview: (
+      <div className="avatar-preview-2631">
+        <div className="avatar-sunset-2631">
+          <div className="avatar-sunset-glow-2631"></div>
+          <div className="avatar-sunset-icon-2631">
+            <i className="ri-sun-line"></i>
+          </div>
+          <div className="avatar-sunset-status-2631"></div>
+        </div>
+      </div>
+    ),
+    html: `
+<div class="avatar-sunset-2631">
+  <div class="avatar-sunset-glow-2631"></div>
+  <div class="avatar-sunset-icon-2631">
+    <i class="ri-sun-line"></i>
+  </div>
+  <div class="avatar-sunset-status-2631"></div>
+</div>
+  `,
+    css: `
+.avatar-preview-2631 {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar-sunset-2631 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg,#fb923c,#ea580c);
+  box-shadow: 0 12px 30px rgba(234,88,12,.25);
+}
+.avatar-sunset-glow-2631 {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: rgba(254,215,170,.3);
+  filter: blur(10px);
+  animation: sunsetGlow2631 2.8s ease-in-out infinite;
+}
+.avatar-sunset-icon-2631 {
+  width: 55px;
+  height: 55px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(154,52,18,.32);
+  color: #fff7ed;
+  font-size: 29px;
+}
+.avatar-sunset-status-2631 {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #22c55e;
+  border: 3px solid #ea580c;
+}
+@keyframes sunsetGlow2631 {
+  0%,
+  100% {
+    transform: scale(.8);
+    opacity: .4;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+  `,
+  },
+  {
+    id: 2632,
+    name: "Lavender Avatar",
+    preview: (
+      <div className="avatar-preview-2632">
+        <div className="avatar-lavender-2632">
+          <div className="avatar-lavender-ring-2632"></div>
+          <div className="avatar-lavender-icon-2632">
+            <i className="ri-magic-line"></i>
+          </div>
+          <div className="avatar-lavender-status-2632"></div>
+        </div>
+      </div>
+    ),
+    html: `
+<div class="avatar-lavender-2632">
+  <div class="avatar-lavender-ring-2632"></div>
+  <div class="avatar-lavender-icon-2632">
+    <i class="ri-magic-line"></i>
+  </div>
+  <div class="avatar-lavender-status-2632"></div>
+</div>
+  `,
+    css: `
+.avatar-preview-2632 {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar-lavender-2632 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg,#a855f7,#7e22ce);
+  box-shadow: 0 12px 30px rgba(126,34,206,.25);
+}
+.avatar-lavender-ring-2632 {
+  position: absolute;
+  inset: 5px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.25);
+  animation: lavenderRing2632 3.5s linear infinite;
+}
+.avatar-lavender-icon-2632 {
+  width: 55px;
+  height: 55px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255,255,255,.12);
+  color: #f5f3ff;
+  font-size: 30px;
+}
+.avatar-lavender-status-2632 {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #22c55e;
+  border: 3px solid #7e22ce;
+}
+@keyframes lavenderRing2632 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+  `,
+  },
+  {
+    id: 2633,
+    name: "Midnight Avatar",
+    preview: (
+      <div className="avatar-preview-2633">
+        <div className="avatar-midnight-2633">
+          <div className="avatar-midnight-stars-2633"></div>
+          <div className="avatar-midnight-icon-2633">
+            <i className="ri-moon-line"></i>
+          </div>
+          <div className="avatar-midnight-status-2633"></div>
+        </div>
+      </div>
+    ),
+    html: `
+<div class="avatar-midnight-2633">
+  <div class="avatar-midnight-stars-2633"></div>
+  <div class="avatar-midnight-icon-2633">
+    <i class="ri-moon-line"></i>
+  </div>
+  <div class="avatar-midnight-status-2633"></div>
+</div>
+  `,
+    css: `
+.avatar-preview-2633 {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar-midnight-2633 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg,#312e81,#172554);
+  box-shadow: 0 12px 30px rgba(23,37,84,.3);
+}
+.avatar-midnight-stars-2633 {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 25%,#fff 0 1px,transparent 1.5px),
+    radial-gradient(circle at 70% 20%,#bfdbfe 0 1px,transparent 1.5px),
+    radial-gradient(circle at 35% 75%,#fff 0 1px,transparent 1.5px),
+    radial-gradient(circle at 82% 68%,#c4b5fd 0 1px,transparent 1.5px);
+  opacity: .65;
+  animation: midnightStars2633 4s ease-in-out infinite alternate;
+}
+.avatar-midnight-icon-2633 {
+  width: 55px;
+  height: 55px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #e0e7ff;
+  background: rgba(15,23,42,.38);
+  font-size: 30px;
+}
+.avatar-midnight-status-2633 {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #22c55e;
+  border: 3px solid #172554;
+}
+@keyframes midnightStars2633 {
+  from {
+    opacity: .35;
+    transform: scale(1);
+  }
+  to {
+    opacity: .8;
+    transform: scale(1.08);
+  }
+}
+  `,
+  },
+  {
+    id: 2634,
+    name: "Rose Gold Avatar",
+    preview: (
+      <div className="avatar-preview-2634">
+        <div className="avatar-rosegold-2634">
+          <div className="avatar-rosegold-shine-2634"></div>
+          <div className="avatar-rosegold-icon-2634">
+            <i className="ri-heart-3-line"></i>
+          </div>
+          <div className="avatar-rosegold-status-2634"></div>
+        </div>
+      </div>
+    ),
+    html: `
+<div class="avatar-rosegold-2634">
+  <div class="avatar-rosegold-shine-2634"></div>
+  <div class="avatar-rosegold-icon-2634">
+    <i class="ri-heart-3-line"></i>
+  </div>
+  <div class="avatar-rosegold-status-2634"></div>
+</div>
+  `,
+    css: `
+.avatar-preview-2634 {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar-rosegold-2634 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg,#fda4af,#be123c);
+  box-shadow: 0 12px 30px rgba(190,18,60,.22);
+}
+.avatar-rosegold-shine-2634 {
+  position: absolute;
+  width: 50px;
+  height: 150px;
+  left: 5px;
+  top: -25px;
+  transform: rotate(28deg);
+  background: linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent);
+  animation: roseGoldShine2634 3.5s linear infinite;
+}
+.avatar-rosegold-icon-2634 {
+  width: 55px;
+  height: 55px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(127,29,29,.25);
+  color: #fff1f2;
+  font-size: 29px;
+}
+.avatar-rosegold-status-2634 {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #22c55e;
+  border: 3px solid #be123c;
+}
+@keyframes roseGoldShine2634 {
+  from {
+    transform: translateX(-70px) rotate(28deg);
+  }
+  to {
+    transform: translateX(150px) rotate(28deg);
+  }
+}
+  `,
+  },
+  {
+    id: 2635,
+    name: "Arctic Avatar",
+    preview: (
+      <div className="avatar-preview-2635">
+        <div className="avatar-arctic-2635">
+          <div className="avatar-arctic-snow-2635"></div>
+          <div className="avatar-arctic-icon-2635">
+            <i className="ri-snowflake-line"></i>
+          </div>
+          <div className="avatar-arctic-status-2635"></div>
+        </div>
+      </div>
+    ),
+    html: `
+<div class="avatar-arctic-2635">
+  <div class="avatar-arctic-snow-2635"></div>
+  <div class="avatar-arctic-icon-2635">
+    <i class="ri-snowflake-line"></i>
+  </div>
+  <div class="avatar-arctic-status-2635"></div>
+</div>
+  `,
+    css: `
+.avatar-preview-2635 {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar-arctic-2635 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg,#67e8f9,#2563eb);
+  box-shadow: 0 12px 30px rgba(37,99,235,.22);
+}
+.avatar-arctic-snow-2635 {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 20%,rgba(255,255,255,.7) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 75% 25%,rgba(255,255,255,.6) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 35% 75%,rgba(255,255,255,.55) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 82% 76%,rgba(255,255,255,.7) 0 1px,transparent 1.5px);
+  animation: arcticSnow2635 5s linear infinite;
+}
+.avatar-arctic-icon-2635 {
+  width: 55px;
+  height: 55px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(224,242,254,.16);
+  color: #eff6ff;
+  font-size: 30px;
+}
+.avatar-arctic-status-2635 {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #22c55e;
+  border: 3px solid #2563eb;
+}
+@keyframes arcticSnow2635 {
+  from {
+    transform: translateY(-5px);
+  }
+  to {
+    transform: translateY(5px);
+  }
+}
+  `,
+  },
+  {
+    id: 2636,
+    name: "Emerald Avatar",
+    preview: (
+      <div className="avatar-preview-2636">
+        <div className="avatar-emerald-2636">
+          <div className="avatar-emerald-core-2636"></div>
+          <div className="avatar-emerald-icon-2636">
+            <i className="ri-vip-diamond-line"></i>
+          </div>
+          <div className="avatar-emerald-status-2636"></div>
+        </div>
+      </div>
+    ),
+    html: `
+<div class="avatar-emerald-2636">
+  <div class="avatar-emerald-core-2636"></div>
+  <div class="avatar-emerald-icon-2636">
+    <i class="ri-vip-diamond-line"></i>
+  </div>
+  <div class="avatar-emerald-status-2636"></div>
+</div>
+  `,
+    css: `
+.avatar-preview-2636 {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar-emerald-2636 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg,#34d399,#047857);
+  box-shadow: 0 12px 30px rgba(4,120,87,.25);
+}
+.avatar-emerald-core-2636 {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: radial-gradient(circle,rgba(167,243,208,.25),transparent 65%);
+  animation: emeraldCore2636 3s ease-in-out infinite;
+}
+.avatar-emerald-icon-2636 {
+  width: 55px;
+  height: 55px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(6,78,59,.32);
+  color: #d1fae5;
+  font-size: 29px;
+}
+.avatar-emerald-status-2636 {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #22c55e;
+  border: 3px solid #047857;
+}
+@keyframes emeraldCore2636 {
+  0%,
+  100% {
+    transform: scale(.8);
+    opacity: .45;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+}
+  `,
+  },
+  {
+    id: 2637,
+    name: "Carbon Avatar",
+    preview: (
+      <div className="avatar-preview-2637">
+        <div className="avatar-carbon-2637">
+          <div className="avatar-carbon-lines-2637"></div>
+          <div className="avatar-carbon-icon-2637">
+            <i className="ri-shield-user-line"></i>
+          </div>
+          <div className="avatar-carbon-status-2637"></div>
+        </div>
+      </div>
+    ),
+    html: `
+<div class="avatar-carbon-2637">
+  <div class="avatar-carbon-lines-2637"></div>
+  <div class="avatar-carbon-icon-2637">
+    <i class="ri-shield-user-line"></i>
+  </div>
+  <div class="avatar-carbon-status-2637"></div>
+</div>
+  `,
+    css: `
+.avatar-preview-2637 {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar-carbon-2637 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg,#334155,#0f172a);
+  border: 2px solid rgba(148,163,184,.35);
+  box-shadow:
+    0 12px 30px rgba(15,23,42,.3),
+    inset 0 0 25px rgba(255,255,255,.03);
+}
+.avatar-carbon-lines-2637 {
+  position: absolute;
+  inset: -20px;
+  background:
+    repeating-linear-gradient(
+      135deg,
+      transparent 0 12px,
+      rgba(148,163,184,.05) 12px 13px
+    );
+  animation: carbonLines2637 7s linear infinite;
+}
+.avatar-carbon-icon-2637 {
+  width: 55px;
+  height: 55px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(15,23,42,.72);
+  border: 1px solid rgba(148,163,184,.18);
+  color: #e2e8f0;
+  font-size: 29px;
+}
+.avatar-carbon-status-2637 {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #22c55e;
+  border: 3px solid #0f172a;
+  box-shadow: 0 0 9px rgba(34,197,94,.4);
+}
+@keyframes carbonLines2637 {
+  from {
+    transform: translate(-12px,-12px);
+  }
+  to {
+    transform: translate(12px,12px);
+  }
+}
+  `,
+  },
 ];

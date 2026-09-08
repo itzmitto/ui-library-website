@@ -1,6 +1,6 @@
  import { useState } from "react";
 import Header from "../components/Header";
-import { alerts } from "../data/componentsData";
+import { alerts } from "../data/alertsData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Alerts.css";

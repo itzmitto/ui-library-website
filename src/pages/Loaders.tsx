@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { loaders } from "../data/componentsData";
+import { loaders } from "../data/loadersData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Loaders.css";

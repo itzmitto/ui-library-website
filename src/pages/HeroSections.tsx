@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { heroSections } from "../data/componentsData";
+import { heroSections } from "../data/heroSectionsData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/HeroSections.css";

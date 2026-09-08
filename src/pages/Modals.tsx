@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { modals } from "../data/componentsData";
+import { modals } from "../data/modalsData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Modals.css";

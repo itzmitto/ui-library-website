@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { badges } from "../data/componentsData";
+import { badges } from "../data/badgesData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Badges.css";

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { skeletons } from "../data/componentsData";
+import { skeletons } from "../data/skeletonsData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Skeletons.css";

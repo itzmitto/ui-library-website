@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import { sidebars } from "../data/componentsData";
+import { sidebars } from "../data/sidebarsData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Sidebars.css";
