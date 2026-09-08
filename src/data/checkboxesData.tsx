@@ -9779,123 +9779,1165 @@ export const checkboxes = [
 `,
   },
   {
-    id: 2694,
-    name: "Soft Square Checkbox",
-    code: `<label class="cb-soft-square"><input type="checkbox"><span></span></label>`,
-    css: `.cb-soft-square{display:inline-flex;align-items:center;justify-content:center;cursor:pointer}.cb-soft-square input{display:none}.cb-soft-square span{width:24px;height:24px;border:2px solid #777;border-radius:6px;display:block;position:relative;transition:.25s ease}.cb-soft-square input:checked+span{border-color:#fff;background:#fff;box-shadow:0 0 14px rgba(255,255,255,.4)}.cb-soft-square input:checked+span:after{content:"";position:absolute;width:7px;height:12px;border-right:2px solid #111;border-bottom:2px solid #111;transform:rotate(45deg);left:7px;top:3px}`,
+    id: 2714,
+    name: "Rainbow Outline Square",
+    preview: (
+      <label className="cb-2714">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2714__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2714">
+    <input type="checkbox" checked />
+    <span class="cb-2714__box"></span>
+</label>`,
+    css: `.cb-2714 {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.cb-2714 input {
+    display: none;
+}
+.cb-2714__box {
+    width: 22px;
+    height: 22px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background:
+        linear-gradient(#0b0b0e, #0b0b0e) padding-box,
+        linear-gradient(135deg, #ff3b30, #ff9f0a, #ffe600, #34c759, #00c7ff, #5856d6, #ff2d55) border-box;
+    position: relative;
+    transition: .25s ease;
+}
+.cb-2714 input:checked + .cb-2714__box {
+    animation: cb-2714__rainbow 2.5s linear infinite;
+    box-shadow: 0 0 12px rgba(255, 0, 170, .35);
+}
+.cb-2714 input:checked + .cb-2714__box::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 11px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 2px;
+}
+@keyframes cb-2714__rainbow {
+    to {
+        filter: hue-rotate(360deg);
+    }
+}`,
   },
   {
-    id: 2695,
-    name: "Soft Circle Checkbox",
-    code: `<label class="cb-soft-circle"><input type="checkbox"><span></span></label>`,
-    css: `.cb-soft-circle{display:inline-flex;align-items:center;justify-content:center;cursor:pointer}.cb-soft-circle input{display:none}.cb-soft-circle span{width:24px;height:24px;border:2px solid #777;border-radius:50%;display:block;position:relative;transition:.25s ease}.cb-soft-circle input:checked+span{border-color:#fff;background:#fff;box-shadow:0 0 14px rgba(255,255,255,.35)}.cb-soft-circle input:checked+span:after{content:"";position:absolute;width:7px;height:12px;border-right:2px solid #111;border-bottom:2px solid #111;transform:rotate(45deg);left:7px;top:3px}`,
+    id: 2715,
+    name: "Rainbow Outline Circle",
+    preview: (
+      <label className="cb-2715">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2715__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2715">
+    <input type="checkbox" checked />
+    <span class="cb-2715__box"></span>
+</label>`,
+    css: `.cb-2715 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2715 input {
+    display: none;
+}
+.cb-2715__box {
+    width: 23px;
+    height: 23px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background:
+        linear-gradient(#0b0b0e, #0b0b0e) padding-box,
+        linear-gradient(135deg, #ff004c, #ff8a00, #ffe600, #00e676, #00d9ff, #7b61ff, #ff00cc) border-box;
+    position: relative;
+    transition: .25s ease;
+}
+.cb-2715 input:checked + .cb-2715__box {
+    animation: cb-2715__spin 2s linear infinite;
+    box-shadow: 0 0 14px rgba(0, 220, 255, .35);
+}
+.cb-2715 input:checked + .cb-2715__box::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 3px;
+}
+@keyframes cb-2715__spin {
+    to {
+        filter: hue-rotate(360deg);
+    }
+}`,
   },
   {
-    id: 2696,
-    name: "Inner Dot Square",
-    code: `<label class="cb-inner-dot-square"><input type="checkbox"><span></span></label>`,
-    css: `.cb-inner-dot-square{display:inline-flex;cursor:pointer}.cb-inner-dot-square input{display:none}.cb-inner-dot-square span{width:22px;height:22px;border:2px solid #666;border-radius:4px;display:block;position:relative;transition:.25s ease}.cb-inner-dot-square input:checked+span{border-color:#5ee7ff;box-shadow:0 0 10px rgba(94,231,255,.35)}.cb-inner-dot-square input:checked+span:after{content:"";position:absolute;width:8px;height:8px;background:#5ee7ff;border-radius:2px;left:5px;top:5px;box-shadow:0 0 8px #5ee7ff}`,
+    id: 2716,
+    name: "Aurora Square",
+    preview: (
+      <label className="cb-2716">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2716__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2716">
+    <input type="checkbox" checked />
+    <span class="cb-2716__box"></span>
+</label>`,
+    css: `.cb-2716 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2716 input {
+    display: none;
+}
+.cb-2716__box {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #4d5966;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background: #0b0c10;
+}
+.cb-2716__box::before {
+    content: "";
+    position: absolute;
+    inset: -8px;
+    background: conic-gradient(#00e5ff, #7b61ff, #ff2db2, #00e5ff);
+    filter: blur(5px);
+    opacity: .15;
+    transition: .3s ease;
+}
+.cb-2716 input:checked + .cb-2716__box {
+    border-color: #7cffff;
+    box-shadow: 0 0 14px rgba(0, 229, 255, .4);
+}
+.cb-2716 input:checked + .cb-2716__box::before {
+    opacity: .75;
+    animation: cb-2716__aurora 2s linear infinite;
+}
+.cb-2716 input:checked + .cb-2716__box::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 3px;
+}
+@keyframes cb-2716__aurora {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
   },
   {
-    id: 2697,
-    name: "Inner Dot Circle",
-    code: `<label class="cb-inner-dot-circle"><input type="checkbox"><span></span></label>`,
-    css: `.cb-inner-dot-circle{display:inline-flex;cursor:pointer}.cb-inner-dot-circle input{display:none}.cb-inner-dot-circle span{width:24px;height:24px;border:2px solid #666;border-radius:50%;display:block;position:relative;transition:.25s ease}.cb-inner-dot-circle input:checked+span{border-color:#a86cff;box-shadow:0 0 12px rgba(168,108,255,.4)}.cb-inner-dot-circle input:checked+span:after{content:"";position:absolute;width:8px;height:8px;background:#a86cff;border-radius:50%;left:6px;top:6px;box-shadow:0 0 9px #a86cff}`,
+    id: 2717,
+    name: "Aurora Circle",
+    preview: (
+      <label className="cb-2717">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2717__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2717">
+    <input type="checkbox" checked />
+    <span class="cb-2717__box"></span>
+</label>`,
+    css: `.cb-2717 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2717 input {
+    display: none;
+}
+.cb-2717__box {
+    width: 23px;
+    height: 23px;
+    border: 2px solid #4d5966;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    background: #0b0c10;
+}
+.cb-2717__box::before {
+    content: "";
+    position: absolute;
+    inset: -8px;
+    background: conic-gradient(#00e5ff, #7b61ff, #ff2db2, #ffe600, #00e5ff);
+    filter: blur(5px);
+    opacity: .15;
+}
+.cb-2717 input:checked + .cb-2717__box {
+    border-color: #ff78dc;
+    box-shadow: 0 0 15px rgba(255, 80, 220, .4);
+}
+.cb-2717 input:checked + .cb-2717__box::before {
+    opacity: .8;
+    animation: cb-2717__aurora 2.2s linear infinite;
+}
+.cb-2717 input:checked + .cb-2717__box::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 3px;
+}
+@keyframes cb-2717__aurora {
+    to {
+        transform: rotate(-360deg);
+    }
+}`,
   },
   {
-    id: 2698,
-    name: "Double Border Square",
-    code: `<label class="cb-double-square"><input type="checkbox"><span></span></label>`,
-    css: `.cb-double-square{display:inline-flex;cursor:pointer}.cb-double-square input{display:none}.cb-double-square span{width:23px;height:23px;border:2px solid #777;border-radius:5px;display:block;position:relative;transition:.25s ease}.cb-double-square span:before{content:"";position:absolute;inset:4px;border:1px solid #555;border-radius:3px;transition:.25s ease}.cb-double-square input:checked+span{border-color:#fff;box-shadow:0 0 10px rgba(255,255,255,.25)}.cb-double-square input:checked+span:before{border-color:#fff;background:rgba(255,255,255,.08)}`,
+    id: 2718,
+    name: "Prism Square",
+    preview: (
+      <label className="cb-2718">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2718__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2718">
+    <input type="checkbox" checked />
+    <span class="cb-2718__box"></span>
+</label>`,
+    css: `.cb-2718 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2718 input {
+    display: none;
+}
+.cb-2718__box {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #6d6d78;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #15151c, #09090c);
+    position: relative;
+    transition: .3s ease;
+}
+.cb-2718__box::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border: 1px solid transparent;
+    background: linear-gradient(135deg, #ff00cc, #00d9ff, #ffe600) border-box;
+    -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: .35;
+}
+.cb-2718 input:checked + .cb-2718__box {
+    transform: rotate(45deg);
+    border-color: #fff;
+    box-shadow: 0 0 15px rgba(255, 0, 204, .3);
+}
+.cb-2718 input:checked + .cb-2718__box::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 11px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(-45deg);
+    left: 6px;
+    top: 2px;
+}
+}`,
   },
   {
-    id: 2699,
-    name: "Double Border Circle",
-    code: `<label class="cb-double-circle"><input type="checkbox"><span></span></label>`,
-    css: `.cb-double-circle{display:inline-flex;cursor:pointer}.cb-double-circle input{display:none}.cb-double-circle span{width:24px;height:24px;border:2px solid #777;border-radius:50%;display:block;position:relative;transition:.25s ease}.cb-double-circle span:before{content:"";position:absolute;inset:4px;border:1px solid #555;border-radius:50%;transition:.25s ease}.cb-double-circle input:checked+span{border-color:#fff;box-shadow:0 0 12px rgba(255,255,255,.3)}.cb-double-circle input:checked+span:before{border-color:#fff;background:rgba(255,255,255,.08)}`,
+    id: 2719,
+    name: "Prism Circle",
+    preview: (
+      <label className="cb-2719">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2719__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2719">
+    <input type="checkbox" checked />
+    <span class="cb-2719__box"></span>
+</label>`,
+    css: `.cb-2719 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2719 input {
+    display: none;
+}
+.cb-2719__box {
+    width: 23px;
+    height: 23px;
+    border: 2px solid #70707c;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #15151c, #09090c);
+    position: relative;
+    transition: .3s ease;
+}
+.cb-2719__box::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    box-shadow: 0 0 7px rgba(0, 220, 255, .4);
+}
+.cb-2719 input:checked + .cb-2719__box {
+    border-color: #ff4fd8;
+    box-shadow: 0 0 15px rgba(0, 220, 255, .35);
+}
+.cb-2719 input:checked + .cb-2719__box::before {
+    animation: cb-2719__pulse 1.4s ease-in-out infinite;
+}
+.cb-2719 input:checked + .cb-2719__box::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 3px;
+}
+@keyframes cb-2719__pulse {
+    50% {
+        transform: scale(.7);
+        opacity: .35;
+    }
+}`,
   },
   {
-    id: 2700,
-    name: "Blue Glow Square",
-    code: `<label class="cb-blue-glow"><input type="checkbox"><span></span></label>`,
-    css: `.cb-blue-glow{display:inline-flex;cursor:pointer}.cb-blue-glow input{display:none}.cb-blue-glow span{width:24px;height:24px;border:2px solid #4da6ff;border-radius:5px;display:block;position:relative;transition:.3s ease}.cb-blue-glow input:checked+span{background:#4da6ff;box-shadow:0 0 8px #4da6ff,0 0 20px rgba(77,166,255,.65)}.cb-blue-glow input:checked+span:after{content:"";position:absolute;width:7px;height:12px;border-right:2px solid #06111d;border-bottom:2px solid #06111d;transform:rotate(45deg);left:7px;top:3px}`,
+    id: 2720,
+    name: "Rainbow Pulse Square",
+    preview: (
+      <label className="cb-2720">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2720__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2720">
+    <input type="checkbox" checked />
+    <span class="cb-2720__box"></span>
+</label>`,
+    css: `.cb-2720 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2720 input {
+    display: none;
+}
+.cb-2720__box {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #777;
+    border-radius: 5px;
+    position: relative;
+    background: #0c0c10;
+}
+.cb-2720 input:checked + .cb-2720__box {
+    border-color: #ff3bff;
+    animation: cb-2720__pulse 1.5s ease-in-out infinite;
+}
+.cb-2720 input:checked + .cb-2720__box::before {
+    content: "";
+    position: absolute;
+    inset: -5px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #ff004c, #ffe600, #00e676, #00c7ff, #9b5cff, #ff004c) border-box;
+    -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    animation: cb-2720__spin 1.2s linear infinite;
+}
+.cb-2720 input:checked + .cb-2720__box::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 11px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 2px;
+}
+@keyframes cb-2720__pulse {
+    50% {
+        box-shadow: 0 0 18px rgba(255, 0, 204, .7);
+    }
+}
+@keyframes cb-2720__spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
   },
   {
-    id: 2701,
-    name: "Purple Glow Circle",
-    code: `<label class="cb-purple-glow"><input type="checkbox"><span></span></label>`,
-    css: `.cb-purple-glow{display:inline-flex;cursor:pointer}.cb-purple-glow input{display:none}.cb-purple-glow span{width:24px;height:24px;border:2px solid #9b5cff;border-radius:50%;display:block;position:relative;transition:.3s ease}.cb-purple-glow input:checked+span{background:#9b5cff;box-shadow:0 0 8px #9b5cff,0 0 22px rgba(155,92,255,.7)}.cb-purple-glow input:checked+span:after{content:"";position:absolute;width:7px;height:12px;border-right:2px solid #170b27;border-bottom:2px solid #170b27;transform:rotate(45deg);left:7px;top:3px}`,
+    id: 2721,
+    name: "Rainbow Pulse Circle",
+    preview: (
+      <label className="cb-2721">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2721__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2721">
+    <input type="checkbox" checked />
+    <span class="cb-2721__box"></span>
+</label>`,
+    css: `.cb-2721 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2721 input {
+    display: none;
+}
+.cb-2721__box {
+    width: 23px;
+    height: 23px;
+    border: 2px solid #777;
+    border-radius: 50%;
+    position: relative;
+    background: #0c0c10;
+}
+.cb-2721 input:checked + .cb-2721__box {
+    border-color: #ff4fd8;
+    animation: cb-2721__pulse 1.5s ease-in-out infinite;
+}
+.cb-2721 input:checked + .cb-2721__box::before {
+    content: "";
+    position: absolute;
+    inset: -5px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #ff004c, #ffe600, #00e676, #00c7ff, #9b5cff, #ff004c) border-box;
+    -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    animation: cb-2721__spin 1.2s linear infinite;
+}
+.cb-2721 input:checked + .cb-2721__box::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 3px;
+}
+@keyframes cb-2721__pulse {
+    50% {
+        box-shadow: 0 0 18px rgba(0, 220, 255, .7);
+    }
+}
+@keyframes cb-2721__spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
   },
   {
-    id: 2702,
-    name: "Cyan Ring Checkbox",
-    code: `<label class="cb-cyan-ring"><input type="checkbox"><span></span></label>`,
-    css: `.cb-cyan-ring{display:inline-flex;cursor:pointer}.cb-cyan-ring input{display:none}.cb-cyan-ring span{width:25px;height:25px;border:2px solid #555;border-radius:50%;display:block;position:relative;transition:.3s ease}.cb-cyan-ring input:checked+span{border-color:#00e5ff;box-shadow:0 0 12px rgba(0,229,255,.6)}.cb-cyan-ring input:checked+span:before{content:"";position:absolute;inset:4px;border-radius:50%;background:#00e5ff;box-shadow:0 0 8px #00e5ff}.cb-cyan-ring input:checked+span:after{content:"";position:absolute;inset:-5px;border:1px solid rgba(0,229,255,.3);border-radius:50%;animation:cb-cyan-spin 2s linear infinite}@keyframes cb-cyan-spin{to{transform:rotate(360deg)}}`,
+    id: 2722,
+    name: "Chromatic Glow",
+    preview: (
+      <label className="cb-2722">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2722__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2722">
+    <input type="checkbox" checked />
+    <span class="cb-2722__box"></span>
+</label>`,
+    css: `.cb-2722 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2722 input {
+    display: none;
+}
+.cb-2722__box {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #666;
+    border-radius: 5px;
+    position: relative;
+    background: #0b0b0f;
+    transition: .3s ease;
+}
+.cb-2722 input:checked + .cb-2722__box {
+    animation: cb-2722__chromatic 1.8s linear infinite;
+    box-shadow:
+        0 0 7px #ff004c,
+        0 0 13px #00c7ff,
+        0 0 20px rgba(174, 0, 255, .5);
+}
+.cb-2722 input:checked + .cb-2722__box::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 11px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 2px;
+}
+@keyframes cb-2722__chromatic {
+    0% { border-color: #ff004c; }
+    20% { border-color: #ff8a00; }
+    40% { border-color: #ffe600; }
+    60% { border-color: #00e676; }
+    80% { border-color: #00c7ff; }
+    100% { border-color: #ff00cc; }
+}`,
   },
   {
-    id: 2703,
-    name: "Orange Ring Checkbox",
-    code: `<label class="cb-orange-ring"><input type="checkbox"><span></span></label>`,
-    css: `.cb-orange-ring{display:inline-flex;cursor:pointer}.cb-orange-ring input{display:none}.cb-orange-ring span{width:25px;height:25px;border:2px solid #666;border-radius:50%;display:block;position:relative;transition:.3s ease}.cb-orange-ring input:checked+span{border-color:#ff8a00;box-shadow:0 0 12px rgba(255,138,0,.6)}.cb-orange-ring input:checked+span:before{content:"";position:absolute;inset:5px;border-radius:50%;background:#ff8a00;box-shadow:0 0 8px #ff8a00}.cb-orange-ring input:checked+span:after{content:"";position:absolute;inset:-5px;border:1px dashed rgba(255,138,0,.45);border-radius:50%;animation:cb-orange-spin 2.5s linear infinite}@keyframes cb-orange-spin{to{transform:rotate(-360deg)}}`,
+    id: 2723,
+    name: "Chromatic Ring",
+    preview: (
+      <label className="cb-2723">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2723__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2723">
+    <input type="checkbox" checked />
+    <span class="cb-2723__box"></span>
+</label>`,
+    css: `.cb-2723 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2723 input {
+    display: none;
+}
+.cb-2723__box {
+    width: 23px;
+    height: 23px;
+    border: 2px solid #666;
+    border-radius: 50%;
+    position: relative;
+    background: #0b0b0f;
+}
+.cb-2723 input:checked + .cb-2723__box {
+    animation: cb-2723__chromatic 1.8s linear infinite;
+    box-shadow: 0 0 9px rgba(255, 0, 204, .6);
+}
+.cb-2723 input:checked + .cb-2723__box::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 8px #fff;
+}
+@keyframes cb-2723__chromatic {
+    0% { border-color: #ff004c; }
+    20% { border-color: #ff8a00; }
+    40% { border-color: #ffe600; }
+    60% { border-color: #00e676; }
+    80% { border-color: #00c7ff; }
+    100% { border-color: #ff00cc; }
+}`,
   },
   {
-    id: 2704,
-    name: "Dashed Square",
-    code: `<label class="cb-dashed-square"><input type="checkbox"><span></span></label>`,
-    css: `.cb-dashed-square{display:inline-flex;cursor:pointer}.cb-dashed-square input{display:none}.cb-dashed-square span{width:24px;height:24px;border:2px dashed #666;border-radius:4px;display:block;position:relative;transition:.25s ease}.cb-dashed-square input:checked+span{border-color:#fff;box-shadow:0 0 10px rgba(255,255,255,.25)}.cb-dashed-square input:checked+span:after{content:"";position:absolute;width:7px;height:12px;border-right:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(45deg);left:7px;top:3px}`,
+    id: 2724,
+    name: "Spectrum Dash",
+    preview: (
+      <label className="cb-2724">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2724__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2724">
+    <input type="checkbox" checked />
+    <span class="cb-2724__box"></span>
+</label>`,
+    css: `.cb-2724 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2724 input {
+    display: none;
+}
+.cb-2724__box {
+    width: 22px;
+    height: 22px;
+    border: 2px dashed #666;
+    border-radius: 5px;
+    position: relative;
+    transition: .3s ease;
+}
+.cb-2724 input:checked + .cb-2724__box {
+    border-color: #00e5ff;
+    animation: cb-2724__dash 1.2s linear infinite;
+    box-shadow: 0 0 12px rgba(0, 229, 255, .35);
+}
+.cb-2724 input:checked + .cb-2724__box::before {
+    content: "";
+    position: absolute;
+    inset: -4px;
+    border-radius: 7px;
+    background: linear-gradient(90deg, #ff004c, #ffe600, #00e676, #00c7ff, #a855f7);
+    opacity: .25;
+    filter: blur(4px);
+    z-index: -1;
+}
+.cb-2724 input:checked + .cb-2724__box::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 11px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 2px;
+}
+@keyframes cb-2724__dash {
+    to {
+        filter: hue-rotate(360deg);
+    }
+}`,
   },
   {
-    id: 2705,
-    name: "Dashed Circle",
-    code: `<label class="cb-dashed-circle"><input type="checkbox"><span></span></label>`,
-    css: `.cb-dashed-circle{display:inline-flex;cursor:pointer}.cb-dashed-circle input{display:none}.cb-dashed-circle span{width:25px;height:25px;border:2px dashed #666;border-radius:50%;display:block;position:relative;transition:.25s ease}.cb-dashed-circle input:checked+span{border-color:#fff;box-shadow:0 0 10px rgba(255,255,255,.25)}.cb-dashed-circle input:checked+span:after{content:"";position:absolute;width:7px;height:12px;border-right:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(45deg);left:7px;top:3px}`,
+    id: 2725,
+    name: "Spectrum Dash Circle",
+    preview: (
+      <label className="cb-2725">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2725__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2725">
+    <input type="checkbox" checked />
+    <span class="cb-2725__box"></span>
+</label>`,
+    css: `.cb-2725 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2725 input {
+    display: none;
+}
+.cb-2725__box {
+    width: 23px;
+    height: 23px;
+    border: 2px dashed #666;
+    border-radius: 50%;
+    position: relative;
+}
+.cb-2725 input:checked + .cb-2725__box {
+    border-color: #ff4fd8;
+    animation: cb-2725__dash 1.2s linear infinite;
+    box-shadow: 0 0 13px rgba(255, 0, 204, .4);
+}
+.cb-2725 input:checked + .cb-2725__box::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #fff, #00d9ff 40%, transparent 72%);
+    animation: cb-2725__core 1.2s ease-in-out infinite;
+}
+@keyframes cb-2725__dash {
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+@keyframes cb-2725__core {
+    50% {
+        transform: scale(.6);
+    }
+}`,
   },
   {
-    id: 2706,
-    name: "Glass Square",
-    code: `<label class="cb-glass-square"><input type="checkbox"><span></span></label>`,
-    css: `.cb-glass-square{display:inline-flex;cursor:pointer}.cb-glass-square input{display:none}.cb-glass-square span{width:25px;height:25px;border:1px solid rgba(255,255,255,.3);border-radius:6px;display:block;position:relative;background:rgba(255,255,255,.04);backdrop-filter:blur(6px);transition:.3s ease}.cb-glass-square input:checked+span{background:rgba(255,255,255,.18);border-color:rgba(255,255,255,.75);box-shadow:inset 0 0 10px rgba(255,255,255,.12),0 0 15px rgba(255,255,255,.18)}.cb-glass-square input:checked+span:after{content:"";position:absolute;width:7px;height:12px;border-right:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(45deg);left:7px;top:3px}`,
+    id: 2726,
+    name: "Neon Rainbow Square",
+    preview: (
+      <label className="cb-2726">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2726__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2726">
+    <input type="checkbox" checked />
+    <span class="cb-2726__box"></span>
+</label>`,
+    css: `.cb-2726 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2726 input {
+    display: none;
+}
+.cb-2726__box {
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    border: 2px solid #888;
+    background: #08090d;
+    position: relative;
+}
+.cb-2726 input:checked + .cb-2726__box {
+    border-color: #00eaff;
+    box-shadow:
+        0 0 5px #00eaff,
+        0 0 10px #8b5cf6,
+        0 0 18px #ff2db2;
+    animation: cb-2726__neon 1.8s linear infinite;
+}
+.cb-2726 input:checked + .cb-2726__box::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 11px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 2px;
+}
+@keyframes cb-2726__neon {
+    0% { border-color: #ff004c; }
+    25% { border-color: #ffe600; }
+    50% { border-color: #00e676; }
+    75% { border-color: #00c7ff; }
+    100% { border-color: #ff00cc; }
+}`,
   },
   {
-    id: 2707,
-    name: "Glass Circle",
-    code: `<label class="cb-glass-circle"><input type="checkbox"><span></span></label>`,
-    css: `.cb-glass-circle{display:inline-flex;cursor:pointer}.cb-glass-circle input{display:none}.cb-glass-circle span{width:25px;height:25px;border:1px solid rgba(255,255,255,.3);border-radius:50%;display:block;position:relative;background:rgba(255,255,255,.04);backdrop-filter:blur(6px);transition:.3s ease}.cb-glass-circle input:checked+span{background:rgba(255,255,255,.18);border-color:rgba(255,255,255,.75);box-shadow:inset 0 0 10px rgba(255,255,255,.12),0 0 15px rgba(255,255,255,.18)}.cb-glass-circle input:checked+span:after{content:"";position:absolute;width:7px;height:12px;border-right:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(45deg);left:7px;top:3px}`,
+    id: 2727,
+    name: "Neon Rainbow Circle",
+    preview: (
+      <label className="cb-2727">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2727__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2727">
+    <input type="checkbox" checked />
+    <span class="cb-2727__box"></span>
+</label>`,
+    css: `.cb-2727 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2727 input {
+    display: none;
+}
+.cb-2727__box {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 2px solid #888;
+    background: #08090d;
+    position: relative;
+}
+.cb-2727 input:checked + .cb-2727__box {
+    box-shadow:
+        0 0 5px #ff00cc,
+        0 0 11px #00eaff,
+        0 0 20px rgba(139, 92, 246, .7);
+    animation: cb-2727__neon 1.8s linear infinite;
+}
+.cb-2727 input:checked + .cb-2727__box::before {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 7px #fff;
+}
+@keyframes cb-2727__neon {
+    0% { border-color: #ff004c; }
+    25% { border-color: #ffe600; }
+    50% { border-color: #00e676; }
+    75% { border-color: #00c7ff; }
+    100% { border-color: #ff00cc; }
+}`,
   },
   {
-    id: 2708,
-    name: "Rainbow Border Square",
-    code: `<label class="cb-rainbow-square"><input type="checkbox"><span></span></label>`,
-    css: `.cb-rainbow-square{display:inline-flex;cursor:pointer}.cb-rainbow-square input{display:none}.cb-rainbow-square span{width:25px;height:25px;border-radius:6px;padding:2px;background:linear-gradient(45deg,#ff004c,#ff8a00,#ffe600,#00e676,#00cfff,#8a5cff,#ff00c8);display:block;transition:.35s ease}.cb-rainbow-square span:before{content:"";display:block;width:100%;height:100%;border-radius:4px;background:#101010}.cb-rainbow-square input:checked+span{box-shadow:0 0 10px rgba(255,0,180,.35),0 0 18px rgba(0,220,255,.25);transform:scale(1.08)}.cb-rainbow-square input:checked+span:after{content:"✓";position:absolute;color:#fff;font-size:16px;line-height:25px;transform:translate(-21px,0);text-align:center;width:25px;height:25px}`,
+    id: 2728,
+    name: "Rainbow Scan Square",
+    preview: (
+      <label className="cb-2728">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2728__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2728">
+    <input type="checkbox" checked />
+    <span class="cb-2728__box"></span>
+</label>`,
+    css: `.cb-2728 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2728 input {
+    display: none;
+}
+.cb-2728__box {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #555;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    background: #09090d;
+}
+.cb-2728__box::before {
+    content: "";
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, rgba(255, 0, 204, .8), rgba(0, 229, 255, .8), transparent);
+    opacity: 0;
+}
+.cb-2728 input:checked + .cb-2728__box {
+    border-color: #fff;
+}
+.cb-2728 input:checked + .cb-2728__box::before {
+    opacity: 1;
+    animation: cb-2728__scan 1.1s linear infinite;
+}
+.cb-2728 input:checked + .cb-2728__box::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 11px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 2px;
+}
+@keyframes cb-2728__scan {
+    to {
+        top: 100%;
+    }
+}`,
   },
   {
-    id: 2709,
-    name: "Rainbow Border Circle",
-    code: `<label class="cb-rainbow-circle"><input type="checkbox"><span></span></label>`,
-    css: `.cb-rainbow-circle{display:inline-flex;cursor:pointer}.cb-rainbow-circle input{display:none}.cb-rainbow-circle span{width:25px;height:25px;border-radius:50%;padding:2px;background:linear-gradient(45deg,#ff004c,#ff8a00,#ffe600,#00e676,#00cfff,#8a5cff,#ff00c8);display:block;transition:.35s ease}.cb-rainbow-circle span:before{content:"";display:block;width:100%;height:100%;border-radius:50%;background:#101010}.cb-rainbow-circle input:checked+span{box-shadow:0 0 10px rgba(255,0,180,.35),0 0 18px rgba(0,220,255,.25);transform:scale(1.08)}.cb-rainbow-circle input:checked+span:after{content:"✓";position:absolute;color:#fff;font-size:16px;line-height:25px;transform:translate(-21px,0);text-align:center;width:25px;height:25px}`,
+    id: 2729,
+    name: "Rainbow Scan Circle",
+    preview: (
+      <label className="cb-2729">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2729__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2729">
+    <input type="checkbox" checked />
+    <span class="cb-2729__box"></span>
+</label>`,
+    css: `.cb-2729 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2729 input {
+    display: none;
+}
+.cb-2729__box {
+    width: 23px;
+    height: 23px;
+    border: 2px solid #555;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    background: #09090d;
+}
+.cb-2729__box::before {
+    content: "";
+    position: absolute;
+    top: -100%;
+    left: -20%;
+    width: 140%;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, rgba(0, 229, 255, .8), rgba(255, 0, 204, .7), transparent);
+    opacity: 0;
+}
+.cb-2729 input:checked + .cb-2729__box {
+    border-color: #fff;
+    box-shadow: 0 0 12px rgba(255, 0, 204, .4);
+}
+.cb-2729 input:checked + .cb-2729__box::before {
+    opacity: 1;
+    animation: cb-2729__scan 1.1s linear infinite;
+}
+@keyframes cb-2729__scan {
+    to {
+        top: 100%;
+    }
+}`,
   },
   {
-    id: 2710,
-    name: "Red Pulse Checkbox",
-    code: `<label class="cb-red-pulse"><input type="checkbox"><span></span></label>`,
-    css: `.cb-red-pulse{display:inline-flex;cursor:pointer}.cb-red-pulse input{display:none}.cb-red-pulse span{width:24px;height:24px;border:2px solid #ff3b4f;border-radius:5px;display:block;position:relative;transition:.25s ease}.cb-red-pulse input:checked+span{background:#ff3b4f;box-shadow:0 0 8px #ff3b4f,0 0 22px rgba(255,59,79,.55);animation:cb-red-pulse 1.3s ease-in-out infinite}.cb-red-pulse input:checked+span:after{content:"";position:absolute;width:7px;height:12px;border-right:2px solid #190306;border-bottom:2px solid #190306;transform:rotate(45deg);left:7px;top:3px}@keyframes cb-red-pulse{50%{box-shadow:0 0 14px #ff3b4f,0 0 32px rgba(255,59,79,.75)}}`,
+    id: 2730,
+    name: "Holographic Square",
+    preview: (
+      <label className="cb-2730">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2730__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2730">
+    <input type="checkbox" checked />
+    <span class="cb-2730__box"></span>
+</label>`,
+    css: `.cb-2730 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2730 input {
+    display: none;
+}
+.cb-2730__box {
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,.35);
+    background: linear-gradient(135deg, rgba(255,0,200,.1), rgba(0,220,255,.08));
+    position: relative;
+    backdrop-filter: blur(5px);
+}
+.cb-2730 input:checked + .cb-2730__box {
+    border-color: rgba(255,255,255,.8);
+    box-shadow: 0 0 13px rgba(0,220,255,.35);
+}
+.cb-2730 input:checked + .cb-2730__box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, transparent, rgba(255,255,255,.5), transparent);
+    animation: cb-2730__shine 1.4s linear infinite;
+}
+.cb-2730 input:checked + .cb-2730__box::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 11px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 2px;
+}
+@keyframes cb-2730__shine {
+    from {
+        transform: translateX(-130%);
+    }
+    to {
+        transform: translateX(130%);
+    }
+}`,
   },
   {
-    id: 2711,
-    name: "Green Pulse Circle",
-    code: `<label class="cb-green-pulse"><input type="checkbox"><span></span></label>`,
-    css: `.cb-green-pulse{display:inline-flex;cursor:pointer}.cb-green-pulse input{display:none}.cb-green-pulse span{width:24px;height:24px;border:2px solid #23e68a;border-radius:50%;display:block;position:relative;transition:.25s ease}.cb-green-pulse input:checked+span{background:#23e68a;box-shadow:0 0 8px #23e68a,0 0 22px rgba(35,230,138,.55);animation:cb-green-pulse 1.3s ease-in-out infinite}.cb-green-pulse input:checked+span:after{content:"";position:absolute;width:7px;height:12px;border-right:2px solid #03140c;border-bottom:2px solid #03140c;transform:rotate(45deg);left:7px;top:3px}@keyframes cb-green-pulse{50%{box-shadow:0 0 14px #23e68a,0 0 32px rgba(35,230,138,.72)}}`,
+    id: 2731,
+    name: "Holographic Circle",
+    preview: (
+      <label className="cb-2731">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2731__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2731">
+    <input type="checkbox" checked />
+    <span class="cb-2731__box"></span>
+</label>`,
+    css: `.cb-2731 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2731 input {
+    display: none;
+}
+.cb-2731__box {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,.35);
+    background: linear-gradient(135deg, rgba(255,0,200,.1), rgba(0,220,255,.08));
+    position: relative;
+    overflow: hidden;
+}
+.cb-2731 input:checked + .cb-2731__box {
+    border-color: rgba(255,255,255,.9);
+    box-shadow: 0 0 15px rgba(255,0,200,.3);
+}
+.cb-2731 input:checked + .cb-2731__box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, transparent, rgba(255,255,255,.55), transparent);
+    animation: cb-2731__shine 1.4s linear infinite;
+}
+.cb-2731 input:checked + .cb-2731__box::after {
+    content: "";
+    position: absolute;
+    inset: 6px;
+    background: radial-gradient(circle, #fff, #8b5cf6 60%, transparent);
+    border-radius: 50%;
+    box-shadow: 0 0 6px #fff;
+}
+@keyframes cb-2731__shine {
+    from {
+        transform: translateX(-130%);
+    }
+    to {
+        transform: translateX(130%);
+    }
+}`,
   },
   {
-    id: 2712,
-    name: "Yellow Dot Checkbox",
-    code: `<label class="cb-yellow-dot"><input type="checkbox"><span></span></label>`,
-    css: `.cb-yellow-dot{display:inline-flex;cursor:pointer}.cb-yellow-dot input{display:none}.cb-yellow-dot span{width:24px;height:24px;border:2px solid #767676;border-radius:5px;display:block;position:relative;transition:.25s ease}.cb-yellow-dot input:checked+span{border-color:#ffd43b;box-shadow:0 0 10px rgba(255,212,59,.35)}.cb-yellow-dot input:checked+span:after{content:"";position:absolute;width:8px;height:8px;background:#ffd43b;border-radius:50%;left:6px;top:6px;box-shadow:0 0 8px #ffd43b}`,
+    id: 2732,
+    name: "Cosmic Rainbow Square",
+    preview: (
+      <label className="cb-2732">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2732__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2732">
+    <input type="checkbox" checked />
+    <span class="cb-2732__box"></span>
+</label>`,
+    css: `.cb-2732 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2732 input {
+    display: none;
+}
+.cb-2732__box {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #6b6b72;
+    border-radius: 5px;
+    position: relative;
+    background: #08090d;
+}
+.cb-2732 input:checked + .cb-2732__box {
+    border-color: #fff;
+    box-shadow:
+        0 0 8px #ff00cc,
+        0 0 14px #00d9ff;
+}
+.cb-2732 input:checked + .cb-2732__box::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 3px;
+    background:
+        radial-gradient(circle at 20% 30%, #ff004c 0 1px, transparent 2px),
+        radial-gradient(circle at 70% 25%, #00e5ff 0 1px, transparent 2px),
+        radial-gradient(circle at 40% 70%, #ffe600 0 1px, transparent 2px),
+        radial-gradient(circle at 80% 75%, #00e676 0 1px, transparent 2px);
+    animation: cb-2732__space 1.2s ease-in-out infinite alternate;
+}
+.cb-2732 input:checked + .cb-2732__box::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 11px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 2px;
+}
+@keyframes cb-2732__space {
+    to {
+        transform: scale(1.25);
+        filter: hue-rotate(90deg);
+    }
+}`,
   },
   {
-    id: 2713,
-    name: "Rainbow Animated Circle",
-    code: `<label class="cb-rainbow-spin"><input type="checkbox"><span></span></label>`,
-    css: `.cb-rainbow-spin{display:inline-flex;cursor:pointer}.cb-rainbow-spin input{display:none}.cb-rainbow-spin span{width:25px;height:25px;border:2px solid transparent;border-radius:50%;display:block;position:relative;background:linear-gradient(#0d0d0d,#0d0d0d) padding-box,linear-gradient(0deg,#ff004c,#ff8a00,#ffe600,#00e676,#00cfff,#8a5cff,#ff00c8) border-box;transition:.3s ease}.cb-rainbow-spin input:checked+span{animation:cb-rainbow-spin 2s linear infinite;box-shadow:0 0 14px rgba(255,0,180,.4),0 0 20px rgba(0,220,255,.25)}.cb-rainbow-spin input:checked+span:after{content:"";position:absolute;width:7px;height:12px;border-right:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(45deg);left:7px;top:3px}@keyframes cb-rainbow-spin{to{filter:hue-rotate(360deg)}}`,
+    id: 2733,
+    name: "Cosmic Rainbow Circle",
+    preview: (
+      <label className="cb-2733">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-2733__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-2733">
+    <input type="checkbox" checked />
+    <span class="cb-2733__box"></span>
+</label>`,
+    css: `.cb-2733 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-2733 input {
+    display: none;
+}
+.cb-2733__box {
+    width: 23px;
+    height: 23px;
+    border: 2px solid #6b6b72;
+    border-radius: 50%;
+    position: relative;
+    background: #08090d;
+}
+.cb-2733 input:checked + .cb-2733__box {
+    border-color: #fff;
+    box-shadow:
+        0 0 8px #ff00cc,
+        0 0 15px #00d9ff;
+}
+.cb-2733 input:checked + .cb-2733__box::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at 25% 25%, #ff004c 0 1px, transparent 2px),
+        radial-gradient(circle at 70% 30%, #00e5ff 0 1px, transparent 2px),
+        radial-gradient(circle at 35% 72%, #ffe600 0 1px, transparent 2px),
+        radial-gradient(circle at 75% 70%, #00e676 0 1px, transparent 2px);
+    animation: cb-2733__space 1.2s ease-in-out infinite alternate;
+}
+.cb-2733 input:checked + .cb-2733__box::after {
+    content: "";
+    position: absolute;
+    inset: 7px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 7px #fff;
+}
+@keyframes cb-2733__space {
+    to {
+        transform: scale(1.3);
+        filter: hue-rotate(90deg);
+    }
+}`,
   },
 ];
