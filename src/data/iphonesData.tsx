@@ -7149,4 +7149,1812 @@ export const iphones = [
     transform: translateY(-2px);
 }`,
   },
+  {
+    id: 2638,
+    name: "Titanium Dynamic Island iPhone",
+    preview: (
+      <div className="iphone-preview-2638">
+        <div className="iphone-frame-2638">
+          <div className="iphone-screen-2638">
+            <div className="iphone-status-2638">
+              <span>9:41</span>
+              <div className="iphone-island-2638"></div>
+              <div className="iphone-status-icons-2638">
+                <i className="ri-signal-wifi-fill"></i>
+                <i className="ri-wifi-fill"></i>
+                <i className="ri-battery-fill"></i>
+              </div>
+            </div>
+            <div className="iphone-wallpaper-2638">
+              <div className="iphone-glow-2638 iphone-glow-one-2638"></div>
+              <div className="iphone-glow-2638 iphone-glow-two-2638"></div>
+              <div className="iphone-glow-2638 iphone-glow-three-2638"></div>
+            </div>
+            <div className="iphone-content-2638">
+              <div className="iphone-date-2638">Tuesday, September 8</div>
+              <div className="iphone-time-2638">9:41</div>
+              <div className="iphone-widget-grid-2638">
+                <div className="iphone-widget-2638 weather-widget-2638">
+                  <div className="widget-top-2638">
+                    <span>WEATHER</span>
+                    <i className="ri-sun-fill"></i>
+                  </div>
+                  <strong>21°</strong>
+                  <p>Mostly sunny</p>
+                </div>
+                <div className="iphone-widget-2638 activity-widget-2638">
+                  <div className="widget-top-2638">
+                    <span>ACTIVITY</span>
+                    <i className="ri-run-fill"></i>
+                  </div>
+                  <strong>7.8k</strong>
+                  <p>steps today</p>
+                </div>
+              </div>
+              <div className="iphone-notification-2638">
+                <div className="notification-icon-2638">
+                  <i className="ri-message-3-fill"></i>
+                </div>
+                <div className="notification-text-2638">
+                  <div className="notification-top-2638">
+                    <strong>Messages</strong>
+                    <span>now</span>
+                  </div>
+                  <p>Everything is ready for you.</p>
+                </div>
+                <i className="ri-arrow-right-s-line notification-arrow-2638"></i>
+              </div>
+              <div className="iphone-shortcuts-2638">
+                <div className="shortcut-2638">
+                  <i className="ri-flashlight-fill"></i>
+                </div>
+                <div className="shortcut-2638">
+                  <i className="ri-camera-3-fill"></i>
+                </div>
+              </div>
+            </div>
+            <div className="iphone-home-indicator-2638"></div>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="iphone-ui-2638">
+  <div class="iphone-frame-2638">
+    <div class="iphone-screen-2638">
+      <div class="iphone-status-2638">
+        <span>9:41</span>
+        <div class="iphone-island-2638"></div>
+        <div class="iphone-status-icons-2638">
+          <i class="ri-signal-wifi-fill"></i>
+          <i class="ri-wifi-fill"></i>
+          <i class="ri-battery-fill"></i>
+        </div>
+      </div>
+      <div class="iphone-wallpaper-2638">
+        <div class="iphone-glow-2638 iphone-glow-one-2638"></div>
+        <div class="iphone-glow-2638 iphone-glow-two-2638"></div>
+        <div class="iphone-glow-2638 iphone-glow-three-2638"></div>
+      </div>
+      <div class="iphone-content-2638">
+        <div class="iphone-date-2638">Tuesday, September 8</div>
+        <div class="iphone-time-2638">9:41</div>
+        <div class="iphone-widget-grid-2638">
+          <div class="iphone-widget-2638 weather-widget-2638">
+            <div class="widget-top-2638">
+              <span>WEATHER</span>
+              <i class="ri-sun-fill"></i>
+            </div>
+            <strong>21°</strong>
+            <p>Mostly sunny</p>
+          </div>
+          <div class="iphone-widget-2638 activity-widget-2638">
+            <div class="widget-top-2638">
+              <span>ACTIVITY</span>
+              <i class="ri-run-fill"></i>
+            </div>
+            <strong>7.8k</strong>
+            <p>steps today</p>
+          </div>
+        </div>
+        <div class="iphone-notification-2638">
+          <div class="notification-icon-2638">
+            <i class="ri-message-3-fill"></i>
+          </div>
+          <div class="notification-text-2638">
+            <div class="notification-top-2638">
+              <strong>Messages</strong>
+              <span>now</span>
+            </div>
+            <p>Everything is ready for you.</p>
+          </div>
+          <i class="ri-arrow-right-s-line notification-arrow-2638"></i>
+        </div>
+        <div class="iphone-shortcuts-2638">
+          <div class="shortcut-2638">
+            <i class="ri-flashlight-fill"></i>
+          </div>
+          <div class="shortcut-2638">
+            <i class="ri-camera-3-fill"></i>
+          </div>
+        </div>
+      </div>
+      <div class="iphone-home-indicator-2638"></div>
+    </div>
+  </div>
+</div>`,
+    css: `
+.iphone-preview-2638 {
+  width: 100%;
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 35%, rgba(99, 102, 241, 0.2), transparent 28%),
+    radial-gradient(circle at 50% 70%, rgba(56, 189, 248, 0.12), transparent 30%),
+    #09090b;
+}
+.iphone-frame-2638 {
+  width: 270px;
+  height: 550px;
+  padding: 7px;
+  position: relative;
+  border-radius: 46px;
+  background: linear-gradient(145deg, #4b5563, #111827 35%, #030712 75%, #6b7280);
+  box-shadow:
+    0 35px 80px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(255, 255, 255, 0.12),
+    inset 0 0 20px rgba(255, 255, 255, 0.08);
+  animation: iphoneFloat2638 5s ease-in-out infinite;
+}
+.iphone-frame-2638::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border-radius: 44px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  pointer-events: none;
+}
+.iphone-screen-2638 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 40px;
+  background: #020617;
+}
+.iphone-screen-2638::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(125deg, rgba(255,255,255,0.08), transparent 25%, transparent 75%, rgba(255,255,255,0.05));
+  pointer-events: none;
+  z-index: 8;
+}
+.iphone-status-2638 {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  right: 20px;
+  z-index: 7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+}
+.iphone-island-2638 {
+  position: absolute;
+  left: 50%;
+  top: -3px;
+  width: 92px;
+  height: 25px;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: #000000;
+  box-shadow:
+    inset 0 0 8px rgba(255, 255, 255, 0.03),
+    0 1px 3px rgba(0, 0, 0, 0.8);
+}
+.iphone-status-icons-2638 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+}
+.iphone-wallpaper-2638 {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background:
+    linear-gradient(155deg, #111827 0%, #312e81 38%, #0f172a 72%, #020617 100%);
+}
+.iphone-glow-2638 {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(34px);
+}
+.iphone-glow-one-2638 {
+  width: 190px;
+  height: 190px;
+  top: 40px;
+  left: -60px;
+  background: rgba(168, 85, 247, 0.33);
+  animation: iphoneGlowOne2638 6s ease-in-out infinite;
+}
+.iphone-glow-two-2638 {
+  width: 180px;
+  height: 180px;
+  right: -75px;
+  top: 210px;
+  background: rgba(59, 130, 246, 0.28);
+  animation: iphoneGlowTwo2638 7s ease-in-out infinite;
+}
+.iphone-glow-three-2638 {
+  width: 150px;
+  height: 150px;
+  left: 50px;
+  bottom: 20px;
+  background: rgba(236, 72, 153, 0.18);
+  animation: iphoneGlowThree2638 5s ease-in-out infinite;
+}
+.iphone-content-2638 {
+  position: relative;
+  z-index: 5;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 74px 17px 35px;
+  box-sizing: border-box;
+}
+.iphone-date-2638 {
+  color: rgba(255, 255, 255, 0.76);
+  text-align: center;
+  font-size: 9px;
+  font-weight: 600;
+}
+.iphone-time-2638 {
+  margin-top: 2px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 52px;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: -0.05em;
+  text-shadow: 0 5px 20px rgba(0,0,0,0.22);
+}
+.iphone-widget-grid-2638 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 18px;
+}
+.iphone-widget-2638 {
+  min-height: 93px;
+  padding: 11px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 17px;
+  background: rgba(15, 23, 42, 0.42);
+  backdrop-filter: blur(16px);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
+}
+.widget-top-2638 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255,255,255,0.62);
+  font-size: 7px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+.widget-top-2638 i {
+  font-size: 13px;
+  color: rgba(255,255,255,0.92);
+}
+.iphone-widget-2638 strong {
+  display: block;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 500;
+}
+.iphone-widget-2638 p {
+  margin: 5px 0 0;
+  color: rgba(255,255,255,0.52);
+  font-size: 8px;
+}
+.iphone-notification-2638 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px;
+  background: rgba(15,23,42,0.48);
+  backdrop-filter: blur(18px);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.06),
+    0 8px 25px rgba(0,0,0,0.18);
+}
+.notification-icon-2638 {
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: rgba(59,130,246,0.25);
+  color: #bfdbfe;
+  font-size: 14px;
+}
+.notification-text-2638 {
+  min-width: 0;
+  flex: 1;
+}
+.notification-top-2638 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.notification-top-2638 strong {
+  color: #ffffff;
+  font-size: 9px;
+}
+.notification-top-2638 span {
+  color: rgba(255,255,255,0.42);
+  font-size: 7px;
+}
+.notification-text-2638 p {
+  margin: 3px 0 0;
+  color: rgba(255,255,255,0.58);
+  font-size: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.notification-arrow-2638 {
+  color: rgba(255,255,255,0.4);
+  font-size: 15px;
+}
+.iphone-shortcuts-2638 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+.shortcut-2638 {
+  width: 37px;
+  height: 37px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(15,23,42,0.52);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: #ffffff;
+  backdrop-filter: blur(14px);
+  font-size: 15px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.16);
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+.shortcut-2638:hover {
+  transform: translateY(-3px) scale(1.04);
+  background: rgba(255,255,255,0.12);
+}
+.iphone-home-indicator-2638 {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  width: 82px;
+  height: 4px;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.88);
+  z-index: 7;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.35);
+}
+@keyframes iphoneFloat2638 {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-7px) rotate(0.6deg);
+  }
+}
+@keyframes iphoneGlowOne2638 {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(18px, 12px) scale(1.12);
+  }
+}
+@keyframes iphoneGlowTwo2638 {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(-15px, -10px) scale(1.08);
+  }
+}
+@keyframes iphoneGlowThree2638 {
+  0%, 100% {
+    transform: scale(0.9);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.9;
+  }
+}
+@media (max-width: 600px) {
+  .iphone-preview-2638 {
+    min-height: 520px;
+  }
+  .iphone-frame-2638 {
+    transform: scale(0.92);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .iphone-frame-2638,
+  .iphone-glow-one-2638,
+  .iphone-glow-two-2638,
+  .iphone-glow-three-2638 {
+    animation: none;
+  }
+}
+`,
+  },
+  {
+    id: 2639,
+    name: "MacBook Aurora Desktop",
+    preview: (
+      <div className="macbook-preview-2639">
+        <div className="macbook-shell-2639">
+          <div className="macbook-display-2639">
+            <div className="macbook-camera-2639"></div>
+            <div className="macbook-screen-2639">
+              <div className="macbook-wallpaper-2639">
+                <div className="macbook-aurora-2639 macbook-aurora-one-2639"></div>
+                <div className="macbook-aurora-2639 macbook-aurora-two-2639"></div>
+                <div className="macbook-aurora-2639 macbook-aurora-three-2639"></div>
+              </div>
+              <div className="macbook-menubar-2639">
+                <div className="macbook-menu-left-2639">
+                  <i className="ri-apple-fill"></i>
+                  <span>Finder</span>
+                  <span>File</span>
+                  <span>Edit</span>
+                  <span>View</span>
+                  <span>Go</span>
+                  <span>Window</span>
+                  <span>Help</span>
+                </div>
+                <div className="macbook-menu-right-2639">
+                  <i className="ri-wifi-fill"></i>
+                  <i className="ri-bluetooth-fill"></i>
+                  <i className="ri-search-line"></i>
+                  <i className="ri-sun-line"></i>
+                  <span>Tue Sep 8</span>
+                  <span>9:41 AM</span>
+                </div>
+              </div>
+              <div className="macbook-desktop-content-2639">
+                <div className="macbook-widget-weather-2639 macbook-glass-2639">
+                  <div className="macbook-widget-label-2639">AMSTERDAM</div>
+                  <div className="macbook-weather-main-2639">
+                    <strong>21°</strong>
+                    <i className="ri-sun-fill"></i>
+                  </div>
+                  <div className="macbook-weather-text-2639">Mostly sunny</div>
+                  <div className="macbook-weather-footer-2639">
+                    <span>H 24°</span>
+                    <span>L 16°</span>
+                  </div>
+                </div>
+                <div className="macbook-calendar-2639 macbook-glass-2639">
+                  <div className="macbook-calendar-top-2639">
+                    <span>Tuesday</span>
+                    <strong>8</strong>
+                  </div>
+                  <div className="macbook-calendar-event-2639">
+                    <span></span>
+                    <div>
+                      <strong>Design meeting</strong>
+                      <small>10:00 – 11:00</small>
+                    </div>
+                  </div>
+                  <div className="macbook-calendar-event-2639">
+                    <span></span>
+                    <div>
+                      <strong>Lunch</strong>
+                      <small>12:30 – 13:30</small>
+                    </div>
+                  </div>
+                  <div className="macbook-calendar-event-2639">
+                    <span></span>
+                    <div>
+                      <strong>Product sync</strong>
+                      <small>15:00 – 16:00</small>
+                    </div>
+                  </div>
+                </div>
+                <div className="macbook-music-2639 macbook-glass-2639">
+                  <div className="macbook-music-cover-2639">
+                    <i className="ri-music-2-fill"></i>
+                  </div>
+                  <div className="macbook-music-info-2639">
+                    <strong>Midnight</strong>
+                    <span>Tame Impala</span>
+                  </div>
+                  <i className="ri-spotify-fill macbook-spotify-2639"></i>
+                  <div className="macbook-music-controls-2639">
+                    <i className="ri-skip-back-fill"></i>
+                    <i className="ri-pause-fill"></i>
+                    <i className="ri-skip-forward-fill"></i>
+                  </div>
+                </div>
+                <div className="macbook-notes-2639 macbook-glass-2639">
+                  <div className="macbook-notes-header-2639">
+                    <i className="ri-sticky-note-fill"></i>
+                    <strong>Notes</strong>
+                  </div>
+                  <p>Finish design system</p>
+                  <p>Review pull requests</p>
+                  <p>Plan next sprint</p>
+                  <span>09:15</span>
+                </div>
+                <div className="macbook-window-2639">
+                  <div className="macbook-window-toolbar-2639">
+                    <div className="macbook-window-dots-2639">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div className="macbook-window-title-2639">
+                      <i className="ri-folder-3-fill"></i>
+                      Projects
+                    </div>
+                    <div className="macbook-window-actions-2639">
+                      <i className="ri-search-line"></i>
+                      <i className="ri-more-2-fill"></i>
+                    </div>
+                  </div>
+                  <div className="macbook-window-body-2639">
+                    <div className="macbook-sidebar-2639">
+                      <span className="active">
+                        <i className="ri-home-5-fill"></i> Home
+                      </span>
+                      <span>
+                        <i className="ri-folder-fill"></i> Projects
+                      </span>
+                      <span>
+                        <i className="ri-download-2-fill"></i> Downloads
+                      </span>
+                      <span>
+                        <i className="ri-cloud-fill"></i> iCloud Drive
+                      </span>
+                    </div>
+                    <div className="macbook-files-2639">
+                      <div className="macbook-file-2639">
+                        <div className="macbook-file-icon-2639 purple">
+                          <i className="ri-reactjs-line"></i>
+                        </div>
+                        <span>dashboard</span>
+                      </div>
+                      <div className="macbook-file-2639">
+                        <div className="macbook-file-icon-2639 blue">
+                          <i className="ri-code-s-slash-line"></i>
+                        </div>
+                        <span>components</span>
+                      </div>
+                      <div className="macbook-file-2639">
+                        <div className="macbook-file-icon-2639 orange">
+                          <i className="ri-folder-3-fill"></i>
+                        </div>
+                        <span>assets</span>
+                      </div>
+                      <div className="macbook-file-2639">
+                        <div className="macbook-file-icon-2639 green">
+                          <i className="ri-git-branch-fill"></i>
+                        </div>
+                        <span>github</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="macbook-dock-2639">
+                  <div className="macbook-dock-item-2639 finder">
+                    <i className="ri-mac-fill"></i>
+                    <span>Finder</span>
+                  </div>
+                  <div className="macbook-dock-item-2639">
+                    <i className="ri-apps-2-fill"></i>
+                    <span>Launchpad</span>
+                  </div>
+                  <div className="macbook-dock-item-2639">
+                    <i className="ri-safari-fill"></i>
+                    <span>Safari</span>
+                  </div>
+                  <div className="macbook-dock-item-2639">
+                    <i className="ri-mail-fill"></i>
+                    <span>Mail</span>
+                  </div>
+                  <div className="macbook-dock-item-2639">
+                    <i className="ri-message-3-fill"></i>
+                    <span>Messages</span>
+                  </div>
+                  <div className="macbook-dock-item-2639">
+                    <i className="ri-calendar-fill"></i>
+                    <span>Calendar</span>
+                  </div>
+                  <div className="macbook-dock-item-2639">
+                    <i className="ri-image-2-fill"></i>
+                    <span>Photos</span>
+                  </div>
+                  <div className="macbook-dock-item-2639">
+                    <i className="ri-sticky-note-fill"></i>
+                    <span>Notes</span>
+                  </div>
+                  <div className="macbook-dock-item-2639">
+                    <i className="ri-settings-4-fill"></i>
+                    <span>Settings</span>
+                  </div>
+                  <div className="macbook-dock-divider-2639"></div>
+                  <div className="macbook-dock-item-2639">
+                    <i className="ri-vscode-fill"></i>
+                    <span>VS Code</span>
+                  </div>
+                  <div className="macbook-dock-item-2639">
+                    <i className="ri-terminal-box-fill"></i>
+                    <span>Terminal</span>
+                  </div>
+                  <div className="macbook-dock-item-2639 trash">
+                    <i className="ri-delete-bin-6-fill"></i>
+                    <span>Trash</span>
+                  </div>
+                </div>
+              </div>
+              <div className="macbook-reflection-2639"></div>
+            </div>
+          </div>
+          <div className="macbook-base-2639">
+            <div className="macbook-hinge-2639"></div>
+            <div className="macbook-notch-2639"></div>
+          </div>
+          <div className="macbook-shadow-2639"></div>
+        </div>
+      </div>
+    ),
+    html: `<div class="macbook-ui-2639">
+  <div class="macbook-shell-2639">
+    <div class="macbook-display-2639">
+      <div class="macbook-camera-2639"></div>
+      <div class="macbook-screen-2639">
+        <div class="macbook-wallpaper-2639">
+          <div class="macbook-aurora-2639 macbook-aurora-one-2639"></div>
+          <div class="macbook-aurora-2639 macbook-aurora-two-2639"></div>
+          <div class="macbook-aurora-2639 macbook-aurora-three-2639"></div>
+        </div>
+        <div class="macbook-menubar-2639">
+          <div class="macbook-menu-left-2639">
+            <i class="ri-apple-fill"></i>
+            <span>Finder</span>
+            <span>File</span>
+            <span>Edit</span>
+            <span>View</span>
+            <span>Go</span>
+            <span>Window</span>
+            <span>Help</span>
+          </div>
+          <div class="macbook-menu-right-2639">
+            <i class="ri-wifi-fill"></i>
+            <i class="ri-bluetooth-fill"></i>
+            <i class="ri-search-line"></i>
+            <i class="ri-sun-line"></i>
+            <span>Tue Sep 8</span>
+            <span>9:41 AM</span>
+          </div>
+        </div>
+        <div class="macbook-desktop-content-2639">
+          <div class="macbook-widget-weather-2639 macbook-glass-2639">
+            <div class="macbook-widget-label-2639">AMSTERDAM</div>
+            <div class="macbook-weather-main-2639">
+              <strong>21°</strong>
+              <i class="ri-sun-fill"></i>
+            </div>
+            <div class="macbook-weather-text-2639">Mostly sunny</div>
+            <div class="macbook-weather-footer-2639">
+              <span>H 24°</span>
+              <span>L 16°</span>
+            </div>
+          </div>
+          <div class="macbook-calendar-2639 macbook-glass-2639">
+            <div class="macbook-calendar-top-2639">
+              <span>Tuesday</span>
+              <strong>8</strong>
+            </div>
+            <div class="macbook-calendar-event-2639">
+              <span></span>
+              <div>
+                <strong>Design meeting</strong>
+                <small>10:00 – 11:00</small>
+              </div>
+            </div>
+            <div class="macbook-calendar-event-2639">
+              <span></span>
+              <div>
+                <strong>Lunch</strong>
+                <small>12:30 – 13:30</small>
+              </div>
+            </div>
+            <div class="macbook-calendar-event-2639">
+              <span></span>
+              <div>
+                <strong>Product sync</strong>
+                <small>15:00 – 16:00</small>
+              </div>
+            </div>
+          </div>
+          <div class="macbook-music-2639 macbook-glass-2639">
+            <div class="macbook-music-cover-2639">
+              <i class="ri-music-2-fill"></i>
+            </div>
+            <div class="macbook-music-info-2639">
+              <strong>Midnight</strong>
+              <span>Tame Impala</span>
+            </div>
+            <i class="ri-spotify-fill macbook-spotify-2639"></i>
+            <div class="macbook-music-controls-2639">
+              <i class="ri-skip-back-fill"></i>
+              <i class="ri-pause-fill"></i>
+              <i class="ri-skip-forward-fill"></i>
+            </div>
+          </div>
+          <div class="macbook-notes-2639 macbook-glass-2639">
+            <div class="macbook-notes-header-2639">
+              <i class="ri-sticky-note-fill"></i>
+              <strong>Notes</strong>
+            </div>
+            <p>Finish design system</p>
+            <p>Review pull requests</p>
+            <p>Plan next sprint</p>
+            <span>09:15</span>
+          </div>
+          <div class="macbook-window-2639">
+            <div class="macbook-window-toolbar-2639">
+              <div class="macbook-window-dots-2639">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="macbook-window-title-2639">
+                <i class="ri-folder-3-fill"></i>
+                Projects
+              </div>
+              <div class="macbook-window-actions-2639">
+                <i class="ri-search-line"></i>
+                <i class="ri-more-2-fill"></i>
+              </div>
+            </div>
+            <div class="macbook-window-body-2639">
+              <div class="macbook-sidebar-2639">
+                <span class="active"><i class="ri-home-5-fill"></i> Home</span>
+                <span><i class="ri-folder-fill"></i> Projects</span>
+                <span><i class="ri-download-2-fill"></i> Downloads</span>
+                <span><i class="ri-cloud-fill"></i> iCloud Drive</span>
+              </div>
+              <div class="macbook-files-2639">
+                <div class="macbook-file-2639">
+                  <div class="macbook-file-icon-2639 purple"><i class="ri-reactjs-line"></i></div>
+                  <span>dashboard</span>
+                </div>
+                <div class="macbook-file-2639">
+                  <div class="macbook-file-icon-2639 blue"><i class="ri-code-s-slash-line"></i></div>
+                  <span>components</span>
+                </div>
+                <div class="macbook-file-2639">
+                  <div class="macbook-file-icon-2639 orange"><i class="ri-folder-3-fill"></i></div>
+                  <span>assets</span>
+                </div>
+                <div class="macbook-file-2639">
+                  <div class="macbook-file-icon-2639 green"><i class="ri-git-branch-fill"></i></div>
+                  <span>github</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="macbook-dock-2639">
+            <div class="macbook-dock-item-2639 finder"><i class="ri-mac-fill"></i><span>Finder</span></div>
+            <div class="macbook-dock-item-2639"><i class="ri-apps-2-fill"></i><span>Launchpad</span></div>
+            <div class="macbook-dock-item-2639"><i class="ri-safari-fill"></i><span>Safari</span></div>
+            <div class="macbook-dock-item-2639"><i class="ri-mail-fill"></i><span>Mail</span></div>
+            <div class="macbook-dock-item-2639"><i class="ri-message-3-fill"></i><span>Messages</span></div>
+            <div class="macbook-dock-item-2639"><i class="ri-calendar-fill"></i><span>Calendar</span></div>
+            <div class="macbook-dock-item-2639"><i class="ri-image-2-fill"></i><span>Photos</span></div>
+            <div class="macbook-dock-item-2639"><i class="ri-sticky-note-fill"></i><span>Notes</span></div>
+            <div class="macbook-dock-item-2639"><i class="ri-settings-4-fill"></i><span>Settings</span></div>
+            <div class="macbook-dock-divider-2639"></div>
+            <div class="macbook-dock-item-2639"><i class="ri-vscode-fill"></i><span>VS Code</span></div>
+            <div class="macbook-dock-item-2639"><i class="ri-terminal-box-fill"></i><span>Terminal</span></div>
+            <div class="macbook-dock-item-2639 trash"><i class="ri-delete-bin-6-fill"></i><span>Trash</span></div>
+          </div>
+        </div>
+        <div class="macbook-reflection-2639"></div>
+      </div>
+    </div>
+    <div class="macbook-base-2639">
+      <div class="macbook-hinge-2639"></div>
+      <div class="macbook-notch-2639"></div>
+    </div>
+    <div class="macbook-shadow-2639"></div>
+  </div>
+</div>`,
+    css: `
+.macbook-preview-2639 {
+  width: 100%;
+  min-height: 620px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  background:
+    radial-gradient(circle at 50% 25%, rgba(99,102,241,0.18), transparent 30%),
+    radial-gradient(circle at 50% 80%, rgba(59,130,246,0.12), transparent 35%),
+    #080b16;
+}
+.macbook-shell-2639 {
+  width: min(900px, 94%);
+  position: relative;
+  transform: perspective(1400px) rotateX(1deg);
+}
+.macbook-display-2639 {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  padding: 8px;
+  border-radius: 22px 22px 10px 10px;
+  background: linear-gradient(145deg,#d4d8df,#747985 38%,#20242d 72%,#c5cad3);
+  box-shadow:
+    0 28px 70px rgba(0,0,0,0.5),
+    0 0 0 1px rgba(255,255,255,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.45);
+}
+.macbook-camera-2639 {
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  width: 7px;
+  height: 7px;
+  z-index: 5;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: #111827;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.12);
+}
+.macbook-screen-2639 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px 16px 7px 7px;
+  background: #020617;
+}
+.macbook-wallpaper-2639 {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background:
+    linear-gradient(135deg,#090d1f 0%,#17104c 37%,#071633 72%,#020617 100%);
+}
+.macbook-aurora-2639 {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(65px);
+}
+.macbook-aurora-one-2639 {
+  width: 480px;
+  height: 190px;
+  top: 35px;
+  left: 4%;
+  background: rgba(88,80,255,0.42);
+  transform: rotate(-18deg);
+  animation: macbookAuroraOne2639 8s ease-in-out infinite;
+}
+.macbook-aurora-two-2639 {
+  width: 520px;
+  height: 210px;
+  right: 2%;
+  top: 90px;
+  background: rgba(29,78,216,0.35);
+  transform: rotate(22deg);
+  animation: macbookAuroraTwo2639 9s ease-in-out infinite;
+}
+.macbook-aurora-three-2639 {
+  width: 400px;
+  height: 170px;
+  left: 28%;
+  bottom: 0;
+  background: rgba(168,85,247,0.25);
+  animation: macbookAuroraThree2639 7s ease-in-out infinite;
+}
+.macbook-menubar-2639 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 28px;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  box-sizing: border-box;
+  color: rgba(255,255,255,0.92);
+  font-size: 8px;
+  background: rgba(10,12,25,0.34);
+  backdrop-filter: blur(16px);
+}
+.macbook-menu-left-2639,
+.macbook-menu-right-2639 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.macbook-menu-left-2639 i {
+  font-size: 11px;
+}
+.macbook-menu-right-2639 {
+  gap: 8px;
+  color: rgba(255,255,255,0.8);
+}
+.macbook-menu-right-2639 i {
+  font-size: 10px;
+}
+.macbook-desktop-content-2639 {
+  position: absolute;
+  inset: 28px 0 0;
+}
+.macbook-glass-2639 {
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(15,23,42,0.42);
+  backdrop-filter: blur(20px);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.05),
+    0 15px 35px rgba(0,0,0,0.18);
+}
+.macbook-widget-weather-2639 {
+  position: absolute;
+  left: 22px;
+  top: 22px;
+  width: 145px;
+  padding: 14px;
+  border-radius: 17px;
+  color: white;
+}
+.macbook-widget-label-2639 {
+  color: rgba(255,255,255,0.54);
+  font-size: 7px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+.macbook-weather-main-2639 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+.macbook-weather-main-2639 strong {
+  font-size: 31px;
+  font-weight: 300;
+}
+.macbook-weather-main-2639 i {
+  font-size: 22px;
+  color: #facc15;
+}
+.macbook-weather-text-2639 {
+  margin-top: 2px;
+  color: rgba(255,255,255,0.72);
+  font-size: 9px;
+}
+.macbook-weather-footer-2639 {
+  display: flex;
+  gap: 15px;
+  margin-top: 13px;
+  padding-top: 9px;
+  border-top: 1px solid rgba(255,255,255,0.09);
+  color: rgba(255,255,255,0.46);
+  font-size: 7px;
+}
+.macbook-calendar-2639 {
+  position: absolute;
+  right: 22px;
+  top: 22px;
+  width: 155px;
+  padding: 14px;
+  border-radius: 17px;
+}
+.macbook-calendar-top-2639 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  color: rgba(255,255,255,0.68);
+}
+.macbook-calendar-top-2639 span {
+  font-size: 9px;
+}
+.macbook-calendar-top-2639 strong {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+}
+.macbook-calendar-event-2639 {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 9px;
+}
+.macbook-calendar-event-2639 > span {
+  width: 3px;
+  min-width: 3px;
+  height: 24px;
+  margin-top: 1px;
+  border-radius: 999px;
+  background: #a78bfa;
+}
+.macbook-calendar-event-2639:nth-child(3) > span {
+  background: #38bdf8;
+}
+.macbook-calendar-event-2639:nth-child(4) > span {
+  background: #60a5fa;
+}
+.macbook-calendar-event-2639 div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.macbook-calendar-event-2639 strong {
+  color: rgba(255,255,255,0.88);
+  font-size: 8px;
+}
+.macbook-calendar-event-2639 small {
+  color: rgba(255,255,255,0.43);
+  font-size: 6px;
+}
+.macbook-music-2639 {
+  position: absolute;
+  right: 22px;
+  top: 185px;
+  width: 155px;
+  padding: 11px;
+  border-radius: 17px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.macbook-music-cover-2639 {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  background: linear-gradient(135deg,#8b5cf6,#2563eb);
+  color: white;
+  font-size: 16px;
+}
+.macbook-music-info-2639 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+.macbook-music-info-2639 strong {
+  color: white;
+  font-size: 8px;
+}
+.macbook-music-info-2639 span {
+  color: rgba(255,255,255,0.43);
+  font-size: 6px;
+}
+.macbook-spotify-2639 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #22c55e;
+  font-size: 11px;
+}
+.macbook-music-controls-2639 {
+  position: absolute;
+  left: 53px;
+  bottom: 8px;
+  display: flex;
+  gap: 10px;
+  color: rgba(255,255,255,0.65);
+  font-size: 10px;
+}
+.macbook-music-controls-2639 i:nth-child(2) {
+  color: white;
+}
+.macbook-notes-2639 {
+  position: absolute;
+  right: 22px;
+  top: 294px;
+  width: 155px;
+  padding: 13px;
+  border-radius: 17px;
+}
+.macbook-notes-header-2639 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: white;
+  font-size: 8px;
+}
+.macbook-notes-header-2639 i {
+  color: #fbbf24;
+  font-size: 11px;
+}
+.macbook-notes-2639 p {
+  margin: 7px 0 0;
+  color: rgba(255,255,255,0.66);
+  font-size: 7px;
+}
+.macbook-notes-2639 span {
+  display: block;
+  margin-top: 10px;
+  color: rgba(255,255,255,0.32);
+  font-size: 6px;
+}
+.macbook-window-2639 {
+  position: absolute;
+  left: 50%;
+  top: 46px;
+  width: 390px;
+  height: 260px;
+  transform: translateX(-50%);
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.13);
+  border-radius: 13px;
+  background: rgba(245,247,250,0.92);
+  box-shadow:
+    0 25px 60px rgba(0,0,0,0.28),
+    0 0 0 1px rgba(255,255,255,0.12);
+  backdrop-filter: blur(24px);
+}
+.macbook-window-toolbar-2639 {
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 11px;
+  border-bottom: 1px solid rgba(15,23,42,0.08);
+  background: rgba(255,255,255,0.7);
+}
+.macbook-window-dots-2639 {
+  display: flex;
+  gap: 5px;
+}
+.macbook-window-dots-2639 span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #d4d4d8;
+}
+.macbook-window-dots-2639 span:first-child {
+  background: #f87171;
+}
+.macbook-window-dots-2639 span:nth-child(2) {
+  background: #facc15;
+}
+.macbook-window-dots-2639 span:last-child {
+  background: #4ade80;
+}
+.macbook-window-title-2639 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #334155;
+  font-size: 8px;
+  font-weight: 700;
+}
+.macbook-window-title-2639 i {
+  color: #60a5fa;
+  font-size: 11px;
+}
+.macbook-window-actions-2639 {
+  display: flex;
+  gap: 8px;
+  color: #64748b;
+  font-size: 10px;
+}
+.macbook-window-body-2639 {
+  height: calc(100% - 34px);
+  display: flex;
+}
+.macbook-sidebar-2639 {
+  width: 105px;
+  padding: 12px 7px;
+  box-sizing: border-box;
+  background: rgba(226,232,240,0.62);
+  border-right: 1px solid rgba(15,23,42,0.07);
+}
+.macbook-sidebar-2639 span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 7px;
+  margin-bottom: 3px;
+  border-radius: 6px;
+  color: #64748b;
+  font-size: 7px;
+}
+.macbook-sidebar-2639 span.active {
+  background: rgba(255,255,255,0.8);
+  color: #334155;
+  box-shadow: 0 2px 8px rgba(15,23,42,0.05);
+}
+.macbook-sidebar-2639 i {
+  font-size: 9px;
+}
+.macbook-files-2639 {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-content: start;
+  gap: 17px;
+  padding: 18px;
+}
+.macbook-file-2639 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.macbook-file-2639 > span {
+  color: #475569;
+  font-size: 6px;
+}
+.macbook-file-icon-2639 {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 11px;
+  color: white;
+  font-size: 18px;
+  box-shadow: 0 8px 18px rgba(15,23,42,0.1);
+}
+.macbook-file-icon-2639.purple {
+  background: linear-gradient(135deg,#8b5cf6,#6366f1);
+}
+.macbook-file-icon-2639.blue {
+  background: linear-gradient(135deg,#38bdf8,#2563eb);
+}
+.macbook-file-icon-2639.orange {
+  background: linear-gradient(135deg,#fb923c,#f97316);
+}
+.macbook-file-icon-2639.green {
+  background: linear-gradient(135deg,#34d399,#059669);
+}
+.macbook-dock-2639 {
+  position: absolute;
+  left: 50%;
+  bottom: 11px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: flex-end;
+  gap: 7px;
+  padding: 7px 9px;
+  border: 1px solid rgba(255,255,255,0.13);
+  border-radius: 16px;
+  background: rgba(20,24,39,0.48);
+  backdrop-filter: blur(22px);
+  box-shadow:
+    0 15px 35px rgba(0,0,0,0.24),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+}
+.macbook-dock-item-2639 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  transition: transform 0.25s ease;
+}
+.macbook-dock-item-2639:hover {
+  transform: translateY(-10px) scale(1.25);
+}
+.macbook-dock-item-2639::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 3px;
+  height: 3px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: rgba(255,255,255,0.55);
+  opacity: 0;
+}
+.macbook-dock-item-2639.finder::after,
+.macbook-dock-item-2639:nth-child(3)::after,
+.macbook-dock-item-2639:nth-child(5)::after,
+.macbook-dock-item-2639:nth-child(11)::after {
+  opacity: 1;
+}
+.macbook-dock-item-2639:nth-child(1) {
+  color: #60a5fa;
+}
+.macbook-dock-item-2639:nth-child(2) {
+  color: #c4b5fd;
+}
+.macbook-dock-item-2639:nth-child(3) {
+  color: #38bdf8;
+}
+.macbook-dock-item-2639:nth-child(4) {
+  color: #93c5fd;
+}
+.macbook-dock-item-2639:nth-child(5) {
+  color: #4ade80;
+}
+.macbook-dock-item-2639:nth-child(6) {
+  color: #fb7185;
+}
+.macbook-dock-item-2639:nth-child(7) {
+  color: #facc15;
+}
+.macbook-dock-item-2639:nth-child(8) {
+  color: #fbbf24;
+}
+.macbook-dock-item-2639:nth-child(9) {
+  color: #d4d4d8;
+}
+.macbook-dock-item-2639:nth-child(11) {
+  color: #93c5fd;
+}
+.macbook-dock-item-2639:nth-child(12) {
+  color: #a1a1aa;
+}
+.macbook-dock-item-2639.trash {
+  color: #d4d4d8;
+}
+.macbook-dock-item-2639 span {
+  position: absolute;
+  bottom: 42px;
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  padding: 4px 6px;
+  border-radius: 5px;
+  background: rgba(10,10,15,0.9);
+  color: white;
+  font-size: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.macbook-dock-item-2639:hover span {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+.macbook-dock-divider-2639 {
+  width: 1px;
+  height: 26px;
+  margin: 0 2px;
+  background: rgba(255,255,255,0.15);
+}
+.macbook-reflection-2639 {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  pointer-events: none;
+  background: linear-gradient(120deg,rgba(255,255,255,0.08),transparent 26%,transparent 70%,rgba(255,255,255,0.03));
+}
+.macbook-base-2639 {
+  width: 103%;
+  height: 18px;
+  position: relative;
+  left: -1.5%;
+  border-radius: 0 0 28px 28px;
+  background: linear-gradient(180deg,#aeb4bf,#686e79 48%,#3b4049);
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.3),
+    inset 0 1px 0 rgba(255,255,255,0.5);
+}
+.macbook-hinge-2639 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 150px;
+  height: 5px;
+  transform: translateX(-50%);
+  border-radius: 0 0 10px 10px;
+  background: rgba(30,35,45,0.45);
+}
+.macbook-notch-2639 {
+  position: absolute;
+  left: 50%;
+  top: -1px;
+  width: 120px;
+  height: 5px;
+  transform: translateX(-50%);
+  border-radius: 0 0 12px 12px;
+  background: rgba(20,24,32,0.35);
+}
+.macbook-shadow-2639 {
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  bottom: -26px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.38);
+  filter: blur(18px);
+  z-index: -1;
+}
+@keyframes macbookAuroraOne2639 {
+  0%,100% {
+    transform: translate(0,0) rotate(-18deg) scale(1);
+  }
+  50% {
+    transform: translate(35px,14px) rotate(-12deg) scale(1.08);
+  }
+}
+@keyframes macbookAuroraTwo2639 {
+  0%,100% {
+    transform: translate(0,0) rotate(22deg) scale(1);
+  }
+  50% {
+    transform: translate(-28px,-16px) rotate(16deg) scale(1.06);
+  }
+}
+@keyframes macbookAuroraThree2639 {
+  0%,100% {
+    transform: translateY(0) scale(0.92);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-14px) scale(1.1);
+    opacity: 0.95;
+  }
+}
+@media (max-width: 900px) {
+  .macbook-shell-2639 {
+    transform: scale(0.86);
+  }
+}
+@media (max-width: 650px) {
+  .macbook-shell-2639 {
+    transform: scale(0.68);
+  }
+  .macbook-preview-2639 {
+    min-height: 480px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .macbook-shell-2639,
+  .macbook-aurora-one-2639,
+  .macbook-aurora-two-2639,
+  .macbook-aurora-three-2639 {
+    animation: none;
+  }
+  .macbook-dock-item-2639 {
+    transition: none;
+  }
+}
+`,
+  },
+  {
+    id: 2640,
+    name: "macOS Glass Dock",
+    preview: (
+      <div className="dock-preview-2640">
+        <div className="macos-dock-2640">
+          <div className="dock-item-2640 active">
+            <i className="ri-mac-fill"></i>
+            <span>Finder</span>
+          </div>
+          <div className="dock-item-2640">
+            <i className="ri-apps-2-fill"></i>
+            <span>Launchpad</span>
+          </div>
+          <div className="dock-item-2640">
+            <i className="ri-safari-fill"></i>
+            <span>Safari</span>
+          </div>
+          <div className="dock-item-2640">
+            <i className="ri-mail-fill"></i>
+            <span>Mail</span>
+          </div>
+          <div className="dock-item-2640">
+            <i className="ri-message-3-fill"></i>
+            <span>Messages</span>
+          </div>
+          <div className="dock-item-2640">
+            <i className="ri-calendar-fill"></i>
+            <span>Calendar</span>
+          </div>
+          <div className="dock-item-2640">
+            <i className="ri-image-2-fill"></i>
+            <span>Photos</span>
+          </div>
+          <div className="dock-item-2640">
+            <i className="ri-sticky-note-fill"></i>
+            <span>Notes</span>
+          </div>
+          <div className="dock-item-2640">
+            <i className="ri-music-2-fill"></i>
+            <span>Music</span>
+          </div>
+          <div className="dock-item-2640">
+            <i className="ri-settings-4-fill"></i>
+            <span>Settings</span>
+          </div>
+          <div className="dock-divider-2640"></div>
+          <div className="dock-item-2640">
+            <i className="ri-code-box-fill"></i>
+            <span>VS Code</span>
+          </div>
+          <div className="dock-item-2640">
+            <i className="ri-terminal-box-fill"></i>
+            <span>Terminal</span>
+          </div>
+          <div className="dock-item-2640 trash">
+            <i className="ri-delete-bin-6-fill"></i>
+            <span>Trash</span>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="dock-ui-2640">
+  <div class="macos-dock-2640">
+    <div class="dock-item-2640 active">
+      <i class="ri-mac-fill"></i>
+      <span>Finder</span>
+    </div>
+    <div class="dock-item-2640">
+      <i class="ri-apps-2-fill"></i>
+      <span>Launchpad</span>
+    </div>
+    <div class="dock-item-2640">
+      <i class="ri-safari-fill"></i>
+      <span>Safari</span>
+    </div>
+    <div class="dock-item-2640">
+      <i class="ri-mail-fill"></i>
+      <span>Mail</span>
+    </div>
+    <div class="dock-item-2640">
+      <i class="ri-message-3-fill"></i>
+      <span>Messages</span>
+    </div>
+    <div class="dock-item-2640">
+      <i class="ri-calendar-fill"></i>
+      <span>Calendar</span>
+    </div>
+    <div class="dock-item-2640">
+      <i class="ri-image-2-fill"></i>
+      <span>Photos</span>
+    </div>
+    <div class="dock-item-2640">
+      <i class="ri-sticky-note-fill"></i>
+      <span>Notes</span>
+    </div>
+    <div class="dock-item-2640">
+      <i class="ri-music-2-fill"></i>
+      <span>Music</span>
+    </div>
+    <div class="dock-item-2640">
+      <i class="ri-settings-4-fill"></i>
+      <span>Settings</span>
+    </div>
+    <div class="dock-divider-2640"></div>
+    <div class="dock-item-2640">
+      <i class="ri-code-box-fill"></i>
+      <span>VS Code</span>
+    </div>
+    <div class="dock-item-2640">
+      <i class="ri-terminal-box-fill"></i>
+      <span>Terminal</span>
+    </div>
+    <div class="dock-item-2640 trash">
+      <i class="ri-delete-bin-6-fill"></i>
+      <span>Trash</span>
+    </div>
+  </div>
+</div>`,
+    css: `
+.dock-preview-2640 {
+  width: 100%;
+  min-height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(99,102,241,0.12), transparent 35%),
+    linear-gradient(145deg, #09090b, #111827 55%, #030712);
+}
+.macos-dock-2640 {
+  display: flex;
+  align-items: flex-end;
+  gap: 7px;
+  padding: 9px 10px 11px;
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 22px;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.14),
+      rgba(255,255,255,0.06)
+    ),
+    rgba(20,24,33,0.62);
+  box-shadow:
+    0 25px 55px rgba(0,0,0,0.4),
+    0 5px 15px rgba(0,0,0,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.1),
+    inset 0 -1px 0 rgba(0,0,0,0.2);
+  backdrop-filter: blur(28px) saturate(140%);
+  -webkit-backdrop-filter: blur(28px) saturate(140%);
+}
+.dock-item-2640 {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border-radius: 14px;
+  color: #fff;
+  font-size: 27px;
+  cursor: pointer;
+  transform-origin: bottom center;
+  transition:
+    transform 0.24s cubic-bezier(0.22,1,0.36,1),
+    filter 0.24s ease,
+    background 0.2s ease;
+}
+.dock-item-2640:hover {
+  transform: translateY(-13px) scale(1.28);
+  background: rgba(255,255,255,0.08);
+  filter: brightness(1.08);
+}
+.dock-item-2640:hover + .dock-item-2640 {
+  transform: translateY(-6px) scale(1.08);
+}
+.dock-item-2640:has(+ .dock-item-2640:hover) {
+  transform: translateY(-6px) scale(1.08);
+}
+.dock-item-2640 span {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 15px);
+  transform: translateX(-50%) translateY(5px);
+  padding: 5px 8px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 7px;
+  background: rgba(8,10,16,0.92);
+  color: #fff;
+  font-size: 9px;
+  font-weight: 600;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  backdrop-filter: blur(14px);
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease;
+}
+.dock-item-2640 span::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  width: 7px;
+  height: 7px;
+  transform: translateX(-50%) rotate(45deg);
+  background: rgba(8,10,16,0.92);
+  border-right: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.dock-item-2640:hover span {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+.dock-item-2640:nth-child(1) {
+  color: #60a5fa;
+}
+.dock-item-2640:nth-child(2) {
+  color: #c4b5fd;
+}
+.dock-item-2640:nth-child(3) {
+  color: #38bdf8;
+}
+.dock-item-2640:nth-child(4) {
+  color: #93c5fd;
+}
+.dock-item-2640:nth-child(5) {
+  color: #4ade80;
+}
+.dock-item-2640:nth-child(6) {
+  color: #fb7185;
+}
+.dock-item-2640:nth-child(7) {
+  color: #fbbf24;
+}
+.dock-item-2640:nth-child(8) {
+  color: #fde68a;
+}
+.dock-item-2640:nth-child(9) {
+  color: #a78bfa;
+}
+.dock-item-2640:nth-child(10) {
+  color: #d4d4d8;
+}
+.dock-item-2640:nth-child(12) {
+  color: #60a5fa;
+}
+.dock-item-2640:nth-child(13) {
+  color: #a1a1aa;
+}
+.dock-item-2640.trash {
+  color: #d4d4d8;
+}
+.dock-item-2640.active::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: rgba(255,255,255,0.92);
+  box-shadow: 0 0 8px rgba(255,255,255,0.5);
+}
+.dock-divider-2640 {
+  width: 1px;
+  height: 42px;
+  margin: 0 2px;
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(255,255,255,0.2) 20%,
+    rgba(255,255,255,0.2) 80%,
+    transparent
+  );
+}
+@media (max-width: 800px) {
+  .macos-dock-2640 {
+    gap: 5px;
+    padding: 8px;
+    transform: scale(0.88);
+  }
+}
+@media (max-width: 600px) {
+  .macos-dock-2640 {
+    gap: 3px;
+    transform: scale(0.7);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dock-item-2640 {
+    transition: none;
+  }
+}
+`,
+  },
 ];
