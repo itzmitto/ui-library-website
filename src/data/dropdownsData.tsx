@@ -2697,4 +2697,871 @@ export const dropdowns = [
     }
 }`,
   },
+  {
+    id: 2744,
+    name: "Enterprise Navigation Dropdown",
+    preview: (
+      <div className="dd-2744">
+        <button className="dd-2744__trigger">
+          <span className="dd-2744__brand">N</span>
+          <span>Solutions</span>
+          <i className="ri-arrow-down-s-line"></i>
+        </button>
+        <div className="dd-2744__menu">
+          <div className="dd-2744__item">
+            <span className="dd-2744__icon">
+              <i className="ri-building-4-line"></i>
+            </span>
+            <span>
+              <strong>Enterprise</strong>
+              <small>Solutions for large teams</small>
+            </span>
+            <i className="ri-arrow-right-s-line"></i>
+          </div>
+          <div className="dd-2744__item">
+            <span className="dd-2744__icon">
+              <i className="ri-team-line"></i>
+            </span>
+            <span>
+              <strong>Teams</strong>
+              <small>Collaboration tools</small>
+            </span>
+            <i className="ri-arrow-right-s-line"></i>
+          </div>
+          <div className="dd-2744__item">
+            <span className="dd-2744__icon">
+              <i className="ri-line-chart-line"></i>
+            </span>
+            <span>
+              <strong>Analytics</strong>
+              <small>Insights and reporting</small>
+            </span>
+            <i className="ri-arrow-right-s-line"></i>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="dd-2744">
+    <button class="dd-2744__trigger">
+        <span class="dd-2744__brand">N</span>
+        <span>Solutions</span>
+        <i class="ri-arrow-down-s-line"></i>
+    </button>
+    <div class="dd-2744__menu">
+        <div class="dd-2744__item">
+            <span class="dd-2744__icon"><i class="ri-building-4-line"></i></span>
+            <span><strong>Enterprise</strong><small>Solutions for large teams</small></span>
+            <i class="ri-arrow-right-s-line"></i>
+        </div>
+        <div class="dd-2744__item">
+            <span class="dd-2744__icon"><i class="ri-team-line"></i></span>
+            <span><strong>Teams</strong><small>Collaboration tools</small></span>
+            <i class="ri-arrow-right-s-line"></i>
+        </div>
+        <div class="dd-2744__item">
+            <span class="dd-2744__icon"><i class="ri-line-chart-line"></i></span>
+            <span><strong>Analytics</strong><small>Insights and reporting</small></span>
+            <i class="ri-arrow-right-s-line"></i>
+        </div>
+    </div>
+</div>`,
+    css: `.dd-2744 {
+    position: relative;
+    width: 245px;
+    font-family: inherit;
+}
+.dd-2744__trigger {
+    width: 100%;
+    height: 46px;
+    padding: 0 12px;
+    border: 1px solid #252934;
+    border-radius: 9px;
+    background: #111318;
+    color: #e7e9ed;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.dd-2744__trigger:hover {
+    border-color: #3a404d;
+    background: #14161b;
+}
+.dd-2744__brand {
+    width: 28px;
+    height: 28px;
+    border-radius: 7px;
+    display: grid;
+    place-items: center;
+    background: #fff;
+    color: #101217;
+    font-size: 12px;
+    font-weight: 700;
+}
+.dd-2744__trigger i {
+    margin-left: auto;
+    color: #747b88;
+}
+.dd-2744__menu {
+    margin-top: 7px;
+    padding: 7px;
+    border: 1px solid #242832;
+    border-radius: 10px;
+    background: #101217;
+    box-shadow: 0 18px 40px rgba(0,0,0,.35);
+}
+.dd-2744__item {
+    min-height: 60px;
+    padding: 7px 8px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #8f97a5;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.dd-2744__item:hover {
+    background: #171a20;
+    color: #fff;
+}
+.dd-2744__icon {
+    width: 34px;
+    height: 34px;
+    flex: 0 0 34px;
+    border: 1px solid #2b303b;
+    border-radius: 7px;
+    display: grid;
+    place-items: center;
+    background: #15181e;
+    color: #c4c9d2;
+}
+.dd-2744__item > span:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+}
+.dd-2744__item strong {
+    color: #e4e7eb;
+    font-size: 12px;
+    font-weight: 600;
+}
+.dd-2744__item small {
+    color: #717987;
+    font-size: 10px;
+}
+.dd-2744__item > i:last-child {
+    margin-left: auto;
+    color: #545c69;
+    font-size: 16px;
+}`,
+  },
+  {
+    id: 2745,
+    name: "Corporate Account Dropdown",
+    preview: (
+      <div className="dd-2745">
+        <button className="dd-2745__trigger">
+          <span className="dd-2745__avatar">
+            <i className="ri-user-3-line"></i>
+          </span>
+          <span className="dd-2745__identity">
+            <strong>John Carter</strong>
+            <small>Administrator</small>
+          </span>
+          <i className="ri-arrow-down-s-line"></i>
+        </button>
+        <div className="dd-2745__menu">
+          <div className="dd-2745__account">
+            <span className="dd-2745__big-avatar">JC</span>
+            <span>
+              <strong>John Carter</strong>
+              <small>john@company.com</small>
+            </span>
+          </div>
+          <div className="dd-2745__divider"></div>
+          <div className="dd-2745__item">
+            <i className="ri-user-settings-line"></i>
+            <span>Account settings</span>
+          </div>
+          <div className="dd-2745__item">
+            <i className="ri-team-line"></i>
+            <span>Team members</span>
+          </div>
+          <div className="dd-2745__item">
+            <i className="ri-bank-card-line"></i>
+            <span>Billing</span>
+          </div>
+          <div className="dd-2745__divider"></div>
+          <div className="dd-2745__item dd-2745__logout">
+            <i className="ri-logout-box-r-line"></i>
+            <span>Sign out</span>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="dd-2745">
+    <button class="dd-2745__trigger">
+        <span class="dd-2745__avatar"><i class="ri-user-3-line"></i></span>
+        <span class="dd-2745__identity"><strong>John Carter</strong><small>Administrator</small></span>
+        <i class="ri-arrow-down-s-line"></i>
+    </button>
+    <div class="dd-2745__menu">
+        <div class="dd-2745__account">
+            <span class="dd-2745__big-avatar">JC</span>
+            <span><strong>John Carter</strong><small>john@company.com</small></span>
+        </div>
+        <div class="dd-2745__divider"></div>
+        <div class="dd-2745__item"><i class="ri-user-settings-line"></i><span>Account settings</span></div>
+        <div class="dd-2745__item"><i class="ri-team-line"></i><span>Team members</span></div>
+        <div class="dd-2745__item"><i class="ri-bank-card-line"></i><span>Billing</span></div>
+        <div class="dd-2745__divider"></div>
+        <div class="dd-2745__item dd-2745__logout"><i class="ri-logout-box-r-line"></i><span>Sign out</span></div>
+    </div>
+</div>`,
+    css: `.dd-2745 {
+    position: relative;
+    width: 220px;
+    font-family: inherit;
+}
+.dd-2745__trigger {
+    width: 100%;
+    height: 48px;
+    padding: 5px 10px;
+    border: 1px solid #252a33;
+    border-radius: 10px;
+    background: #111318;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #e8eaee;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.dd-2745__trigger:hover {
+    border-color: #363c48;
+    background: #14161c;
+}
+.dd-2745__avatar,
+.dd-2745__big-avatar {
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: #22262e;
+    color: #e8ebef;
+}
+.dd-2745__avatar {
+    width: 32px;
+    height: 32px;
+}
+.dd-2745__identity {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+}
+.dd-2745__identity strong {
+    font-size: 12px;
+    font-weight: 600;
+}
+.dd-2745__identity small {
+    color: #747c89;
+    font-size: 10px;
+}
+.dd-2745__trigger > i:last-child {
+    margin-left: auto;
+    color: #6d7582;
+}
+.dd-2745__menu {
+    margin-top: 7px;
+    padding: 7px;
+    border: 1px solid #242832;
+    border-radius: 11px;
+    background: #101217;
+    box-shadow: 0 18px 40px rgba(0,0,0,.4);
+}
+.dd-2745__account {
+    min-height: 53px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dd-2745__big-avatar {
+    width: 36px;
+    height: 36px;
+    background: #1b2028;
+    border: 1px solid #303641;
+    font-size: 10px;
+    font-weight: 700;
+}
+.dd-2745__account > span:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.dd-2745__account strong {
+    color: #e5e8ed;
+    font-size: 12px;
+}
+.dd-2745__account small {
+    color: #69717f;
+    font-size: 10px;
+}
+.dd-2745__divider {
+    height: 1px;
+    margin: 6px 4px;
+    background: #242933;
+}
+.dd-2745__item {
+    min-height: 37px;
+    padding: 0 9px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #929aa7;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.dd-2745__item i {
+    width: 17px;
+    color: #7c8492;
+    font-size: 16px;
+}
+.dd-2745__item:hover {
+    color: #fff;
+    background: #181b21;
+}
+.dd-2745__logout {
+    color: #a47a80;
+}
+.dd-2745__logout i {
+    color: #d15f6f;
+}
+.dd-2745__logout:hover {
+    background: rgba(209,95,111,.08);
+    color: #ef9ca7;
+}`,
+  },
+  {
+    id: 2746,
+    name: "Business Workspace Dropdown",
+    preview: (
+      <div className="dd-2746">
+        <button className="dd-2746__trigger">
+          <span className="dd-2746__workspace">
+            <i className="ri-building-2-line"></i>
+          </span>
+          <span className="dd-2746__label">
+            <small>WORKSPACE</small>
+            <strong>Acme Inc.</strong>
+          </span>
+          <i className="ri-expand-up-down-line"></i>
+        </button>
+        <div className="dd-2746__menu">
+          <div className="dd-2746__heading">YOUR WORKSPACES</div>
+          <div className="dd-2746__item dd-2746__active">
+            <span className="dd-2746__logo">A</span>
+            <span>
+              <strong>Acme Inc.</strong>
+              <small>12 members</small>
+            </span>
+            <i className="ri-check-line"></i>
+          </div>
+          <div className="dd-2746__item">
+            <span className="dd-2746__logo">D</span>
+            <span>
+              <strong>Design Team</strong>
+              <small>8 members</small>
+            </span>
+          </div>
+          <div className="dd-2746__item">
+            <span className="dd-2746__logo">M</span>
+            <span>
+              <strong>Marketing</strong>
+              <small>6 members</small>
+            </span>
+          </div>
+          <div className="dd-2746__divider"></div>
+          <div className="dd-2746__action">
+            <i className="ri-add-line"></i>
+            <span>Create workspace</span>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="dd-2746">
+    <button class="dd-2746__trigger">
+        <span class="dd-2746__workspace"><i class="ri-building-2-line"></i></span>
+        <span class="dd-2746__label"><small>WORKSPACE</small><strong>Acme Inc.</strong></span>
+        <i class="ri-expand-up-down-line"></i>
+    </button>
+    <div class="dd-2746__menu">
+        <div class="dd-2746__heading">YOUR WORKSPACES</div>
+        <div class="dd-2746__item dd-2746__active">
+            <span class="dd-2746__logo">A</span>
+            <span><strong>Acme Inc.</strong><small>12 members</small></span>
+            <i class="ri-check-line"></i>
+        </div>
+        <div class="dd-2746__item">
+            <span class="dd-2746__logo">D</span>
+            <span><strong>Design Team</strong><small>8 members</small></span>
+        </div>
+        <div class="dd-2746__item">
+            <span class="dd-2746__logo">M</span>
+            <span><strong>Marketing</strong><small>6 members</small></span>
+        </div>
+        <div class="dd-2746__divider"></div>
+        <div class="dd-2746__action"><i class="ri-add-line"></i><span>Create workspace</span></div>
+    </div>
+</div>`,
+    css: `.dd-2746 {
+    position: relative;
+    width: 215px;
+    font-family: inherit;
+}
+.dd-2746__trigger {
+    width: 100%;
+    height: 50px;
+    padding: 5px 10px;
+    border: 1px solid #252a32;
+    border-radius: 9px;
+    background: #121419;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.dd-2746__trigger:hover {
+    border-color: #3a414d;
+}
+.dd-2746__workspace {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    background: #e9ebef;
+    color: #17191d;
+}
+.dd-2746__label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+}
+.dd-2746__label small {
+    color: #68707d;
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+.dd-2746__label strong {
+    color: #e7e9ed;
+    font-size: 12px;
+}
+.dd-2746__trigger > i:last-child {
+    margin-left: auto;
+    color: #707886;
+}
+.dd-2746__menu {
+    margin-top: 7px;
+    padding: 7px;
+    border: 1px solid #252a33;
+    border-radius: 10px;
+    background: #101217;
+    box-shadow: 0 18px 40px rgba(0,0,0,.4);
+}
+.dd-2746__heading {
+    padding: 7px 9px 6px;
+    color: #59616f;
+    font-size: 8px;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+}
+.dd-2746__item {
+    min-height: 45px;
+    padding: 4px 8px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #9ba2ae;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.dd-2746__item:hover {
+    background: #181b21;
+    color: #fff;
+}
+.dd-2746__logo {
+    width: 27px;
+    height: 27px;
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+    background: #1d222a;
+    border: 1px solid #303641;
+    color: #bfc5ce;
+    font-size: 10px;
+    font-weight: 700;
+}
+.dd-2746__item > span:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.dd-2746__item strong {
+    color: #dce0e5;
+    font-size: 11px;
+}
+.dd-2746__item small {
+    color: #68717f;
+    font-size: 9px;
+}
+.dd-2746__item > i {
+    margin-left: auto;
+    color: #45c58a;
+}
+.dd-2746__active {
+    background: #171a20;
+}
+.dd-2746__divider {
+    height: 1px;
+    margin: 6px 3px;
+    background: #252a33;
+}
+.dd-2746__action {
+    height: 36px;
+    padding: 0 9px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #858e9c;
+    border-radius: 7px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.dd-2746__action i {
+    font-size: 16px;
+}
+.dd-2746__action:hover {
+    color: #fff;
+    background: #181b21;
+}`,
+  },
+  {
+    id: 2747,
+    name: "Professional Resource Dropdown",
+    preview: (
+      <div className="dd-2747">
+        <button className="dd-2747__trigger">
+          <span>Resources</span>
+          <i className="ri-arrow-down-s-line"></i>
+        </button>
+        <div className="dd-2747__menu">
+          <div className="dd-2747__item">
+            <span className="dd-2747__icon">
+              <i className="ri-book-open-line"></i>
+            </span>
+            <span>
+              <strong>Documentation</strong>
+              <small>Learn how everything works</small>
+            </span>
+          </div>
+          <div className="dd-2747__item">
+            <span className="dd-2747__icon">
+              <i className="ri-graduation-cap-line"></i>
+            </span>
+            <span>
+              <strong>Guides</strong>
+              <small>Step-by-step tutorials</small>
+            </span>
+          </div>
+          <div className="dd-2747__item">
+            <span className="dd-2747__icon">
+              <i className="ri-question-line"></i>
+            </span>
+            <span>
+              <strong>Help Center</strong>
+              <small>Answers and support</small>
+            </span>
+          </div>
+          <div className="dd-2747__footer">
+            <span>Need help?</span>
+            <i className="ri-arrow-right-up-line"></i>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="dd-2747">
+    <button class="dd-2747__trigger">
+        <span>Resources</span>
+        <i class="ri-arrow-down-s-line"></i>
+    </button>
+    <div class="dd-2747__menu">
+        <div class="dd-2747__item">
+            <span class="dd-2747__icon"><i class="ri-book-open-line"></i></span>
+            <span><strong>Documentation</strong><small>Learn how everything works</small></span>
+        </div>
+        <div class="dd-2747__item">
+            <span class="dd-2747__icon"><i class="ri-graduation-cap-line"></i></span>
+            <span><strong>Guides</strong><small>Step-by-step tutorials</small></span>
+        </div>
+        <div class="dd-2747__item">
+            <span class="dd-2747__icon"><i class="ri-question-line"></i></span>
+            <span><strong>Help Center</strong><small>Answers and support</small></span>
+        </div>
+        <div class="dd-2747__footer">
+            <span>Need help?</span>
+            <i class="ri-arrow-right-up-line"></i>
+        </div>
+    </div>
+</div>`,
+    css: `.dd-2747 {
+    position: relative;
+    width: 205px;
+    font-family: inherit;
+}
+.dd-2747__trigger {
+    width: 100%;
+    height: 44px;
+    padding: 0 13px;
+    border: 1px solid #282d36;
+    border-radius: 8px;
+    background: #121419;
+    color: #e4e7eb;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.dd-2747__trigger:hover {
+    background: #16191f;
+    border-color: #3a404b;
+}
+.dd-2747__trigger i {
+    margin-left: auto;
+    color: #707987;
+}
+.dd-2747__menu {
+    margin-top: 7px;
+    padding: 6px;
+    border: 1px solid #272c35;
+    border-radius: 10px;
+    background: #101217;
+    box-shadow: 0 18px 42px rgba(0,0,0,.4);
+}
+.dd-2747__item {
+    min-height: 53px;
+    padding: 6px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.dd-2747__item:hover {
+    background: #181b21;
+}
+.dd-2747__icon {
+    width: 31px;
+    height: 31px;
+    border-radius: 7px;
+    display: grid;
+    place-items: center;
+    background: #191c22;
+    border: 1px solid #2b3039;
+    color: #b7bec9;
+}
+.dd-2747__item > span:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.dd-2747__item strong {
+    color: #e4e7ec;
+    font-size: 11px;
+    font-weight: 600;
+}
+.dd-2747__item small {
+    color: #707987;
+    font-size: 9px;
+}
+.dd-2747__footer {
+    margin-top: 4px;
+    padding: 9px 8px 6px;
+    border-top: 1px solid #252a32;
+    display: flex;
+    align-items: center;
+    color: #747c89;
+    font-size: 10px;
+}
+.dd-2747__footer i {
+    margin-left: auto;
+    color: #929aa7;
+}`,
+  },
+  {
+    id: 2748,
+    name: "Executive Settings Dropdown",
+    preview: (
+      <div className="dd-2748">
+        <button className="dd-2748__trigger">
+          <span>
+            <i className="ri-settings-3-line"></i>
+          </span>
+          <strong>Settings</strong>
+          <i className="ri-arrow-down-s-line"></i>
+        </button>
+        <div className="dd-2748__menu">
+          <div className="dd-2748__section">GENERAL</div>
+          <div className="dd-2748__item">
+            <i className="ri-user-settings-line"></i>
+            <span>Account</span>
+            <kbd>⌘ A</kbd>
+          </div>
+          <div className="dd-2748__item">
+            <i className="ri-notification-4-line"></i>
+            <span>Notifications</span>
+            <kbd>⌘ N</kbd>
+          </div>
+          <div className="dd-2748__item">
+            <i className="ri-palette-line"></i>
+            <span>Appearance</span>
+            <kbd>⌘ P</kbd>
+          </div>
+          <div className="dd-2748__section dd-2748__section-second">
+            SECURITY
+          </div>
+          <div className="dd-2748__item">
+            <i className="ri-shield-check-line"></i>
+            <span>Security</span>
+            <kbd>⌘ S</kbd>
+          </div>
+          <div className="dd-2748__item">
+            <i className="ri-lock-password-line"></i>
+            <span>Privacy</span>
+            <kbd>⌘ L</kbd>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="dd-2748">
+    <button class="dd-2748__trigger">
+        <span><i class="ri-settings-3-line"></i></span>
+        <strong>Settings</strong>
+        <i class="ri-arrow-down-s-line"></i>
+    </button>
+    <div class="dd-2748__menu">
+        <div class="dd-2748__section">GENERAL</div>
+        <div class="dd-2748__item"><i class="ri-user-settings-line"></i><span>Account</span><kbd>⌘ A</kbd></div>
+        <div class="dd-2748__item"><i class="ri-notification-4-line"></i><span>Notifications</span><kbd>⌘ N</kbd></div>
+        <div class="dd-2748__item"><i class="ri-palette-line"></i><span>Appearance</span><kbd>⌘ P</kbd></div>
+        <div class="dd-2748__section dd-2748__section-second">SECURITY</div>
+        <div class="dd-2748__item"><i class="ri-shield-check-line"></i><span>Security</span><kbd>⌘ S</kbd></div>
+        <div class="dd-2748__item"><i class="ri-lock-password-line"></i><span>Privacy</span><kbd>⌘ L</kbd></div>
+    </div>
+</div>`,
+    css: `.dd-2748 {
+    position: relative;
+    width: 205px;
+    font-family: inherit;
+}
+.dd-2748__trigger {
+    width: 100%;
+    height: 45px;
+    padding: 0 11px;
+    border: 1px solid #292e37;
+    border-radius: 8px;
+    background: #121419;
+    color: #e5e8ec;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.dd-2748__trigger:hover {
+    border-color: #3b424e;
+    background: #15181e;
+}
+.dd-2748__trigger > span {
+    width: 29px;
+    height: 29px;
+    border-radius: 7px;
+    background: #1a1d23;
+    display: grid;
+    place-items: center;
+    color: #b7bec8;
+}
+.dd-2748__trigger strong {
+    font-size: 12px;
+    font-weight: 600;
+}
+.dd-2748__trigger > i:last-child {
+    margin-left: auto;
+    color: #6c7481;
+}
+.dd-2748__menu {
+    margin-top: 7px;
+    padding: 7px;
+    border: 1px solid #272c34;
+    border-radius: 10px;
+    background: #101217;
+    box-shadow: 0 18px 40px rgba(0,0,0,.4);
+}
+.dd-2748__section {
+    padding: 6px 9px 5px;
+    color: #565f6d;
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+}
+.dd-2748__section-second {
+    margin-top: 3px;
+    border-top: 1px solid #252a32;
+    padding-top: 10px;
+}
+.dd-2748__item {
+    height: 38px;
+    padding: 0 9px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #969eaa;
+    font-size: 11px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.dd-2748__item i {
+    width: 17px;
+    color: #757e8c;
+    font-size: 16px;
+}
+.dd-2748__item:hover {
+    color: #fff;
+    background: #181b21;
+}
+.dd-2748__item:hover i {
+    color: #c0c6cf;
+}
+.dd-2748__item kbd {
+    margin-left: auto;
+    padding: 2px 5px;
+    border: 1px solid #292e37;
+    border-radius: 4px;
+    background: #15181d;
+    color: #5f6875;
+    font-size: 8px;
+}`,
+  },
 ];
