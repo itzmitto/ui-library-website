@@ -8946,4 +8946,1463 @@ export const toggles = [
   100% { background-position:600% 50%; }
 }`,
   },
+  {
+    id: 2740,
+    name: "Simple Toggle",
+    preview: (
+      <label className="toggle-2740">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2740__track">
+          <span className="toggle-2740__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2740">
+    <input type="checkbox" checked />
+    <span class="toggle-2740__track">
+        <span class="toggle-2740__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2740 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2740 input {
+    display: none;
+}
+.toggle-2740__track {
+    width: 42px;
+    height: 24px;
+    padding: 3px;
+    border-radius: 20px;
+    background: #30343b;
+    transition: .25s ease;
+}
+.toggle-2740__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #fff;
+    transition: .25s ease;
+}
+.toggle-2740 input:checked + .toggle-2740__track {
+    background: #6c63ff;
+}
+.toggle-2740 input:checked + .toggle-2740__track .toggle-2740__thumb {
+    transform: translateX(18px);
+}`,
+  },
+  {
+    id: 2741,
+    name: "Minimal Toggle",
+    preview: (
+      <label className="toggle-2741">
+        <input type="checkbox" />
+        <span className="toggle-2741__track">
+          <span className="toggle-2741__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2741">
+    <input type="checkbox" />
+    <span class="toggle-2741__track">
+        <span class="toggle-2741__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2741 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2741 input {
+    display: none;
+}
+.toggle-2741__track {
+    width: 40px;
+    height: 22px;
+    border: 1px solid #454a53;
+    border-radius: 20px;
+    background: transparent;
+    padding: 2px;
+    transition: .25s ease;
+}
+.toggle-2741__thumb {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #7b818b;
+    transition: .25s ease;
+}
+.toggle-2741 input:checked + .toggle-2741__track {
+    border-color: #8c7cff;
+}
+.toggle-2741 input:checked + .toggle-2741__track .toggle-2741__thumb {
+    background: #8c7cff;
+    transform: translateX(18px);
+}`,
+  },
+  {
+    id: 2742,
+    name: "Blue Toggle",
+    preview: (
+      <label className="toggle-2742">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2742__track">
+          <span className="toggle-2742__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2742">
+    <input type="checkbox" checked />
+    <span class="toggle-2742__track">
+        <span class="toggle-2742__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2742 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2742 input {
+    display: none;
+}
+.toggle-2742__track {
+    width: 44px;
+    height: 24px;
+    border-radius: 20px;
+    background: #303944;
+    padding: 3px;
+    transition: .25s ease;
+}
+.toggle-2742__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c5cbd3;
+    transition: .25s ease;
+}
+.toggle-2742 input:checked + .toggle-2742__track {
+    background: #3b82f6;
+}
+.toggle-2742 input:checked + .toggle-2742__track .toggle-2742__thumb {
+    background: #fff;
+    transform: translateX(20px);
+}`,
+  },
+  {
+    id: 2743,
+    name: "Green Toggle",
+    preview: (
+      <label className="toggle-2743">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2743__track">
+          <span className="toggle-2743__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2743">
+    <input type="checkbox" checked />
+    <span class="toggle-2743__track">
+        <span class="toggle-2743__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2743 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2743 input {
+    display: none;
+}
+.toggle-2743__track {
+    width: 44px;
+    height: 24px;
+    border-radius: 20px;
+    background: #303944;
+    padding: 3px;
+    transition: .25s ease;
+}
+.toggle-2743__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c5cbd3;
+    transition: .25s ease;
+}
+.toggle-2743 input:checked + .toggle-2743__track {
+    background: #22c55e;
+}
+.toggle-2743 input:checked + .toggle-2743__track .toggle-2743__thumb {
+    background: #fff;
+    transform: translateX(20px);
+}`,
+  },
+  {
+    id: 2744,
+    name: "Red Toggle",
+    preview: (
+      <label className="toggle-2744">
+        <input type="checkbox" />
+        <span className="toggle-2744__track">
+          <span className="toggle-2744__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2744">
+    <input type="checkbox" />
+    <span class="toggle-2744__track">
+        <span class="toggle-2744__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2744 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2744 input {
+    display: none;
+}
+.toggle-2744__track {
+    width: 44px;
+    height: 24px;
+    border-radius: 20px;
+    background: #30343b;
+    padding: 3px;
+    transition: .25s ease;
+}
+.toggle-2744__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c6cad1;
+    transition: .25s ease;
+}
+.toggle-2744 input:checked + .toggle-2744__track {
+    background: #ef4444;
+}
+.toggle-2744 input:checked + .toggle-2744__track .toggle-2744__thumb {
+    background: #fff;
+    transform: translateX(20px);
+}`,
+  },
+  {
+    id: 2745,
+    name: "Yellow Toggle",
+    preview: (
+      <label className="toggle-2745">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2745__track">
+          <span className="toggle-2745__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2745">
+    <input type="checkbox" checked />
+    <span class="toggle-2745__track">
+        <span class="toggle-2745__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2745 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2745 input {
+    display: none;
+}
+.toggle-2745__track {
+    width: 44px;
+    height: 24px;
+    border-radius: 20px;
+    background: #30343b;
+    padding: 3px;
+    transition: .25s ease;
+}
+.toggle-2745__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c6cad1;
+    transition: .25s ease;
+}
+.toggle-2745 input:checked + .toggle-2745__track {
+    background: #eab308;
+}
+.toggle-2745 input:checked + .toggle-2745__track .toggle-2745__thumb {
+    background: #fff;
+    transform: translateX(20px);
+}`,
+  },
+  {
+    id: 2746,
+    name: "Orange Toggle",
+    preview: (
+      <label className="toggle-2746">
+        <input type="checkbox" />
+        <span className="toggle-2746__track">
+          <span className="toggle-2746__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2746">
+    <input type="checkbox" />
+    <span class="toggle-2746__track">
+        <span class="toggle-2746__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2746 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2746 input {
+    display: none;
+}
+.toggle-2746__track {
+    width: 44px;
+    height: 24px;
+    border-radius: 20px;
+    background: #30343b;
+    padding: 3px;
+    transition: .25s ease;
+}
+.toggle-2746__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c6cad1;
+    transition: .25s ease;
+}
+.toggle-2746 input:checked + .toggle-2746__track {
+    background: #f97316;
+}
+.toggle-2746 input:checked + .toggle-2746__track .toggle-2746__thumb {
+    background: #fff;
+    transform: translateX(20px);
+}`,
+  },
+  {
+    id: 2747,
+    name: "Pink Toggle",
+    preview: (
+      <label className="toggle-2747">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2747__track">
+          <span className="toggle-2747__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2747">
+    <input type="checkbox" checked />
+    <span class="toggle-2747__track">
+        <span class="toggle-2747__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2747 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2747 input {
+    display: none;
+}
+.toggle-2747__track {
+    width: 44px;
+    height: 24px;
+    border-radius: 20px;
+    background: #30343b;
+    padding: 3px;
+    transition: .25s ease;
+}
+.toggle-2747__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c6cad1;
+    transition: .25s ease;
+}
+.toggle-2747 input:checked + .toggle-2747__track {
+    background: #ec4899;
+}
+.toggle-2747 input:checked + .toggle-2747__track .toggle-2747__thumb {
+    background: #fff;
+    transform: translateX(20px);
+}`,
+  },
+  {
+    id: 2748,
+    name: "Purple Toggle",
+    preview: (
+      <label className="toggle-2748">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2748__track">
+          <span className="toggle-2748__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2748">
+    <input type="checkbox" checked />
+    <span class="toggle-2748__track">
+        <span class="toggle-2748__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2748 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2748 input {
+    display: none;
+}
+.toggle-2748__track {
+    width: 44px;
+    height: 24px;
+    border-radius: 20px;
+    background: #30343b;
+    padding: 3px;
+    transition: .25s ease;
+}
+.toggle-2748__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c6cad1;
+    transition: .25s ease;
+}
+.toggle-2748 input:checked + .toggle-2748__track {
+    background: #8b5cf6;
+}
+.toggle-2748 input:checked + .toggle-2748__track .toggle-2748__thumb {
+    background: #fff;
+    transform: translateX(20px);
+}`,
+  },
+  {
+    id: 2749,
+    name: "Cyan Toggle",
+    preview: (
+      <label className="toggle-2749">
+        <input type="checkbox" />
+        <span className="toggle-2749__track">
+          <span className="toggle-2749__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2749">
+    <input type="checkbox" />
+    <span class="toggle-2749__track">
+        <span class="toggle-2749__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2749 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2749 input {
+    display: none;
+}
+.toggle-2749__track {
+    width: 44px;
+    height: 24px;
+    border-radius: 20px;
+    background: #30343b;
+    padding: 3px;
+    transition: .25s ease;
+}
+.toggle-2749__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c6cad1;
+    transition: .25s ease;
+}
+.toggle-2749 input:checked + .toggle-2749__track {
+    background: #06b6d4;
+}
+.toggle-2749 input:checked + .toggle-2749__track .toggle-2749__thumb {
+    background: #fff;
+    transform: translateX(20px);
+}`,
+  },
+  {
+    id: 2750,
+    name: "Compact Toggle",
+    preview: (
+      <label className="toggle-2750">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2750__track">
+          <span className="toggle-2750__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2750">
+    <input type="checkbox" checked />
+    <span class="toggle-2750__track">
+        <span class="toggle-2750__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2750 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2750 input {
+    display: none;
+}
+.toggle-2750__track {
+    width: 34px;
+    height: 19px;
+    border-radius: 20px;
+    background: #333840;
+    padding: 2px;
+    transition: .25s ease;
+}
+.toggle-2750__thumb {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #c5cad2;
+    transition: .25s ease;
+}
+.toggle-2750 input:checked + .toggle-2750__track {
+    background: #6366f1;
+}
+.toggle-2750 input:checked + .toggle-2750__track .toggle-2750__thumb {
+    transform: translateX(15px);
+    background: #fff;
+}`,
+  },
+  {
+    id: 2751,
+    name: "Large Toggle",
+    preview: (
+      <label className="toggle-2751">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2751__track">
+          <span className="toggle-2751__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2751">
+    <input type="checkbox" checked />
+    <span class="toggle-2751__track">
+        <span class="toggle-2751__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2751 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2751 input {
+    display: none;
+}
+.toggle-2751__track {
+    width: 56px;
+    height: 30px;
+    border-radius: 20px;
+    background: #30343b;
+    padding: 4px;
+    transition: .25s ease;
+}
+.toggle-2751__thumb {
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #c5cad2;
+    transition: .25s ease;
+}
+.toggle-2751 input:checked + .toggle-2751__track {
+    background: #7c3aed;
+}
+.toggle-2751 input:checked + .toggle-2751__track .toggle-2751__thumb {
+    transform: translateX(26px);
+    background: #fff;
+}`,
+  },
+  {
+    id: 2752,
+    name: "Square Toggle",
+    preview: (
+      <label className="toggle-2752">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2752__track">
+          <span className="toggle-2752__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2752">
+    <input type="checkbox" checked />
+    <span class="toggle-2752__track">
+        <span class="toggle-2752__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2752 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2752 input {
+    display: none;
+}
+.toggle-2752__track {
+    width: 43px;
+    height: 24px;
+    padding: 3px;
+    border-radius: 6px;
+    background: #30343b;
+    transition: .25s ease;
+}
+.toggle-2752__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    background: #c6cad1;
+    transition: .25s ease;
+}
+.toggle-2752 input:checked + .toggle-2752__track {
+    background: #2563eb;
+}
+.toggle-2752 input:checked + .toggle-2752__track .toggle-2752__thumb {
+    transform: translateX(19px);
+    background: #fff;
+}`,
+  },
+  {
+    id: 2753,
+    name: "Outline Toggle",
+    preview: (
+      <label className="toggle-2753">
+        <input type="checkbox" />
+        <span className="toggle-2753__track">
+          <span className="toggle-2753__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2753">
+    <input type="checkbox" />
+    <span class="toggle-2753__track">
+        <span class="toggle-2753__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2753 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2753 input {
+    display: none;
+}
+.toggle-2753__track {
+    width: 44px;
+    height: 24px;
+    padding: 2px;
+    border: 2px solid #464b54;
+    border-radius: 20px;
+    background: transparent;
+    transition: .25s ease;
+}
+.toggle-2753__thumb {
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-top: 1px;
+    border-radius: 50%;
+    background: #737983;
+    transition: .25s ease;
+}
+.toggle-2753 input:checked + .toggle-2753__track {
+    border-color: #22c55e;
+}
+.toggle-2753 input:checked + .toggle-2753__track .toggle-2753__thumb {
+    transform: translateX(20px);
+    background: #22c55e;
+}`,
+  },
+  {
+    id: 2754,
+    name: "Glass Toggle",
+    preview: (
+      <label className="toggle-2754">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2754__track">
+          <span className="toggle-2754__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2754">
+    <input type="checkbox" checked />
+    <span class="toggle-2754__track">
+        <span class="toggle-2754__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2754 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2754 input {
+    display: none;
+}
+.toggle-2754__track {
+    width: 45px;
+    height: 25px;
+    padding: 3px;
+    border: 1px solid rgba(255,255,255,.18);
+    border-radius: 20px;
+    background: rgba(255,255,255,.06);
+    backdrop-filter: blur(8px);
+    transition: .25s ease;
+}
+.toggle-2754__thumb {
+    display: block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.65);
+    transition: .25s ease;
+}
+.toggle-2754 input:checked + .toggle-2754__track {
+    background: rgba(99,102,241,.3);
+    border-color: rgba(129,140,248,.7);
+}
+.toggle-2754 input:checked + .toggle-2754__track .toggle-2754__thumb {
+    transform: translateX(19px);
+    background: #fff;
+}`,
+  },
+  {
+    id: 2755,
+    name: "Dot Toggle",
+    preview: (
+      <label className="toggle-2755">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2755__track">
+          <span className="toggle-2755__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2755">
+    <input type="checkbox" checked />
+    <span class="toggle-2755__track">
+        <span class="toggle-2755__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2755 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2755 input {
+    display: none;
+}
+.toggle-2755__track {
+    width: 38px;
+    height: 22px;
+    border: 1px solid #414650;
+    border-radius: 20px;
+    background: #252930;
+    padding: 3px;
+    transition: .25s ease;
+}
+.toggle-2755__thumb {
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #8a9099;
+    transition: .25s ease;
+}
+.toggle-2755 input:checked + .toggle-2755__track {
+    background: #18251f;
+    border-color: #36d68d;
+}
+.toggle-2755 input:checked + .toggle-2755__track .toggle-2755__thumb {
+    transform: translateX(16px);
+    background: #36d68d;
+    box-shadow: 0 0 8px rgba(54,214,141,.65);
+}`,
+  },
+  {
+    id: 2756,
+    name: "White Toggle",
+    preview: (
+      <label className="toggle-2756">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2756__track">
+          <span className="toggle-2756__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2756">
+    <input type="checkbox" checked />
+    <span class="toggle-2756__track">
+        <span class="toggle-2756__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2756 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2756 input {
+    display: none;
+}
+.toggle-2756__track {
+    width: 44px;
+    height: 24px;
+    padding: 3px;
+    border-radius: 20px;
+    background: #2e3239;
+    transition: .25s ease;
+}
+.toggle-2756__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #9aa0a9;
+    transition: .25s ease;
+}
+.toggle-2756 input:checked + .toggle-2756__track {
+    background: #f1f3f5;
+}
+.toggle-2756 input:checked + .toggle-2756__track .toggle-2756__thumb {
+    transform: translateX(20px);
+    background: #202329;
+}`,
+  },
+  {
+    id: 2757,
+    name: "Black Toggle",
+    preview: (
+      <label className="toggle-2757">
+        <input type="checkbox" />
+        <span className="toggle-2757__track">
+          <span className="toggle-2757__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2757">
+    <input type="checkbox" />
+    <span class="toggle-2757__track">
+        <span class="toggle-2757__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2757 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2757 input {
+    display: none;
+}
+.toggle-2757__track {
+    width: 44px;
+    height: 24px;
+    padding: 3px;
+    border: 1px solid #3c4149;
+    border-radius: 20px;
+    background: #17191d;
+    transition: .25s ease;
+}
+.toggle-2757__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #676d76;
+    transition: .25s ease;
+}
+.toggle-2757 input:checked + .toggle-2757__track {
+    background: #08090b;
+    border-color: #656b75;
+}
+.toggle-2757 input:checked + .toggle-2757__track .toggle-2757__thumb {
+    transform: translateX(20px);
+    background: #f4f5f6;
+}`,
+  },
+  {
+    id: 2758,
+    name: "Soft Gray Toggle",
+    preview: (
+      <label className="toggle-2758">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2758__track">
+          <span className="toggle-2758__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2758">
+    <input type="checkbox" checked />
+    <span class="toggle-2758__track">
+        <span class="toggle-2758__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2758 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2758 input {
+    display: none;
+}
+.toggle-2758__track {
+    width: 44px;
+    height: 24px;
+    padding: 3px;
+    border-radius: 20px;
+    background: #3b3f46;
+    transition: .25s ease;
+}
+.toggle-2758__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c4c8ce;
+    transition: .25s ease;
+}
+.toggle-2758 input:checked + .toggle-2758__track {
+    background: #8a9099;
+}
+.toggle-2758 input:checked + .toggle-2758__track .toggle-2758__thumb {
+    transform: translateX(20px);
+    background: #fff;
+}`,
+  },
+  {
+    id: 2759,
+    name: "Indigo Toggle",
+    preview: (
+      <label className="toggle-2759">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2759__track">
+          <span className="toggle-2759__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2759">
+    <input type="checkbox" checked />
+    <span class="toggle-2759__track">
+        <span class="toggle-2759__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2759 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2759 input {
+    display: none;
+}
+.toggle-2759__track {
+    width: 44px;
+    height: 24px;
+    padding: 3px;
+    border-radius: 20px;
+    background: #343841;
+    transition: .25s ease;
+}
+.toggle-2759__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #bfc4cc;
+    transition: .25s ease;
+}
+.toggle-2759 input:checked + .toggle-2759__track {
+    background: #4f46e5;
+}
+.toggle-2759 input:checked + .toggle-2759__track .toggle-2759__thumb {
+    transform: translateX(20px);
+    background: #fff;
+}`,
+  },
+  {
+    id: 2760,
+    name: "Teal Toggle",
+    preview: (
+      <label className="toggle-2760">
+        <input type="checkbox" />
+        <span className="toggle-2760__track">
+          <span className="toggle-2760__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2760">
+    <input type="checkbox" />
+    <span class="toggle-2760__track">
+        <span class="toggle-2760__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2760 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2760 input {
+    display: none;
+}
+.toggle-2760__track {
+    width: 44px;
+    height: 24px;
+    padding: 3px;
+    border-radius: 20px;
+    background: #303940;
+    transition: .25s ease;
+}
+.toggle-2760__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c2c7ce;
+    transition: .25s ease;
+}
+.toggle-2760 input:checked + .toggle-2760__track {
+    background: #14b8a6;
+}
+.toggle-2760 input:checked + .toggle-2760__track .toggle-2760__thumb {
+    transform: translateX(20px);
+    background: #fff;
+}`,
+  },
+  {
+    id: 2761,
+    name: "Sky Toggle",
+    preview: (
+      <label className="toggle-2761">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2761__track">
+          <span className="toggle-2761__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2761">
+    <input type="checkbox" checked />
+    <span class="toggle-2761__track">
+        <span class="toggle-2761__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2761 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2761 input {
+    display: none;
+}
+.toggle-2761__track {
+    width: 44px;
+    height: 24px;
+    padding: 3px;
+    border-radius: 20px;
+    background: #303941;
+    transition: .25s ease;
+}
+.toggle-2761__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c3c8cf;
+    transition: .25s ease;
+}
+.toggle-2761 input:checked + .toggle-2761__track {
+    background: #0ea5e9;
+}
+.toggle-2761 input:checked + .toggle-2761__track .toggle-2761__thumb {
+    transform: translateX(20px);
+    background: #fff;
+}`,
+  },
+  {
+    id: 2762,
+    name: "Rose Toggle",
+    preview: (
+      <label className="toggle-2762">
+        <input type="checkbox" />
+        <span className="toggle-2762__track">
+          <span className="toggle-2762__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2762">
+    <input type="checkbox" />
+    <span class="toggle-2762__track">
+        <span class="toggle-2762__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2762 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2762 input {
+    display: none;
+}
+.toggle-2762__track {
+    width: 44px;
+    height: 24px;
+    padding: 3px;
+    border-radius: 20px;
+    background: #30343c;
+    transition: .25s ease;
+}
+.toggle-2762__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c4c9d0;
+    transition: .25s ease;
+}
+.toggle-2762 input:checked + .toggle-2762__track {
+    background: #f43f5e;
+}
+.toggle-2762 input:checked + .toggle-2762__track .toggle-2762__thumb {
+    transform: translateX(20px);
+    background: #fff;
+}`,
+  },
+  {
+    id: 2763,
+    name: "Lime Toggle",
+    preview: (
+      <label className="toggle-2763">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2763__track">
+          <span className="toggle-2763__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2763">
+    <input type="checkbox" checked />
+    <span class="toggle-2763__track">
+        <span class="toggle-2763__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2763 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2763 input {
+    display: none;
+}
+.toggle-2763__track {
+    width: 44px;
+    height: 24px;
+    padding: 3px;
+    border-radius: 20px;
+    background: #30353a;
+    transition: .25s ease;
+}
+.toggle-2763__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c8ccd1;
+    transition: .25s ease;
+}
+.toggle-2763 input:checked + .toggle-2763__track {
+    background: #84cc16;
+}
+.toggle-2763 input:checked + .toggle-2763__track .toggle-2763__thumb {
+    transform: translateX(20px);
+    background: #fff;
+}`,
+  },
+  {
+    id: 2764,
+    name: "Bordered Toggle",
+    preview: (
+      <label className="toggle-2764">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2764__track">
+          <span className="toggle-2764__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2764">
+    <input type="checkbox" checked />
+    <span class="toggle-2764__track">
+        <span class="toggle-2764__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2764 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2764 input {
+    display: none;
+}
+.toggle-2764__track {
+    width: 45px;
+    height: 25px;
+    padding: 3px;
+    border: 1px solid #474d56;
+    border-radius: 20px;
+    background: #22252b;
+    transition: .25s ease;
+}
+.toggle-2764__thumb {
+    display: block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #858b95;
+    transition: .25s ease;
+}
+.toggle-2764 input:checked + .toggle-2764__track {
+    border-color: #6366f1;
+    background: #252536;
+}
+.toggle-2764 input:checked + .toggle-2764__track .toggle-2764__thumb {
+    transform: translateX(19px);
+    background: #818cf8;
+}`,
+  },
+  {
+    id: 2765,
+    name: "Flat Toggle",
+    preview: (
+      <label className="toggle-2765">
+        <input type="checkbox" />
+        <span className="toggle-2765__track">
+          <span className="toggle-2765__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2765">
+    <input type="checkbox" />
+    <span class="toggle-2765__track">
+        <span class="toggle-2765__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2765 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2765 input {
+    display: none;
+}
+.toggle-2765__track {
+    width: 42px;
+    height: 23px;
+    border-radius: 20px;
+    background: #454a52;
+    padding: 3px;
+    transition: .25s ease;
+}
+.toggle-2765__thumb {
+    display: block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #d2d5da;
+    transition: .25s ease;
+}
+.toggle-2765 input:checked + .toggle-2765__track {
+    background: #475569;
+}
+.toggle-2765 input:checked + .toggle-2765__track .toggle-2765__thumb {
+    transform: translateX(19px);
+    background: #fff;
+}`,
+  },
+  {
+    id: 2766,
+    name: "Soft Purple Toggle",
+    preview: (
+      <label className="toggle-2766">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2766__track">
+          <span className="toggle-2766__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2766">
+    <input type="checkbox" checked />
+    <span class="toggle-2766__track">
+        <span class="toggle-2766__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2766 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2766 input {
+    display: none;
+}
+.toggle-2766__track {
+    width: 44px;
+    height: 24px;
+    padding: 3px;
+    border-radius: 20px;
+    background: #34353d;
+    transition: .25s ease;
+}
+.toggle-2766__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c6c8cf;
+    transition: .25s ease;
+}
+.toggle-2766 input:checked + .toggle-2766__track {
+    background: #6d5dfc;
+    box-shadow: 0 0 10px rgba(109,93,252,.2);
+}
+.toggle-2766 input:checked + .toggle-2766__track .toggle-2766__thumb {
+    transform: translateX(20px);
+    background: #fff;
+}`,
+  },
+  {
+    id: 2767,
+    name: "Soft Blue Toggle",
+    preview: (
+      <label className="toggle-2767">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2767__track">
+          <span className="toggle-2767__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2767">
+    <input type="checkbox" checked />
+    <span class="toggle-2767__track">
+        <span class="toggle-2767__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2767 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2767 input {
+    display: none;
+}
+.toggle-2767__track {
+    width: 44px;
+    height: 24px;
+    padding: 3px;
+    border-radius: 20px;
+    background: #343940;
+    transition: .25s ease;
+}
+.toggle-2767__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c6cbd1;
+    transition: .25s ease;
+}
+.toggle-2767 input:checked + .toggle-2767__track {
+    background: #4d94ff;
+    box-shadow: 0 0 10px rgba(77,148,255,.18);
+}
+.toggle-2767 input:checked + .toggle-2767__track .toggle-2767__thumb {
+    transform: translateX(20px);
+    background: #fff;
+}`,
+  },
+  {
+    id: 2768,
+    name: "Soft Green Toggle",
+    preview: (
+      <label className="toggle-2768">
+        <input type="checkbox" />
+        <span className="toggle-2768__track">
+          <span className="toggle-2768__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2768">
+    <input type="checkbox" />
+    <span class="toggle-2768__track">
+        <span class="toggle-2768__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2768 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2768 input {
+    display: none;
+}
+.toggle-2768__track {
+    width: 44px;
+    height: 24px;
+    padding: 3px;
+    border-radius: 20px;
+    background: #343940;
+    transition: .25s ease;
+}
+.toggle-2768__thumb {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c6cbd1;
+    transition: .25s ease;
+}
+.toggle-2768 input:checked + .toggle-2768__track {
+    background: #32c77a;
+    box-shadow: 0 0 10px rgba(50,199,122,.16);
+}
+.toggle-2768 input:checked + .toggle-2768__track .toggle-2768__thumb {
+    transform: translateX(20px);
+    background: #fff;
+}`,
+  },
+  {
+    id: 2769,
+    name: "Modern Toggle",
+    preview: (
+      <label className="toggle-2769">
+        <input type="checkbox" defaultChecked />
+        <span className="toggle-2769__track">
+          <span className="toggle-2769__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-2769">
+    <input type="checkbox" checked />
+    <span class="toggle-2769__track">
+        <span class="toggle-2769__thumb"></span>
+    </span>
+</label>`,
+    css: `.toggle-2769 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.toggle-2769 input {
+    display: none;
+}
+.toggle-2769__track {
+    width: 46px;
+    height: 25px;
+    padding: 3px;
+    border: 1px solid #343942;
+    border-radius: 20px;
+    background: #24272d;
+    transition: .25s ease;
+}
+.toggle-2769__thumb {
+    display: block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #a3a8b0;
+    transition: .25s ease;
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+.toggle-2769 input:checked + .toggle-2769__track {
+    background: #635bff;
+    border-color: #756eff;
+}
+.toggle-2769 input:checked + .toggle-2769__track .toggle-2769__thumb {
+    transform: translateX(21px);
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+}`,
+  },
 ];

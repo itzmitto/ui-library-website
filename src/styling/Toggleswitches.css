@@ -6531,7 +6531,18 @@
   transition: 0.2s ease;
 }
 .toggle-2400 input:checked + span {
-  background: linear-gradient(90deg, #ff0000, #ff7a00, #ffee00, #22c55e, #00d9ff, #3b82f6, #a855f7, #ff00aa, #ff0000);
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #ff7a00,
+    #ffee00,
+    #22c55e,
+    #00d9ff,
+    #3b82f6,
+    #a855f7,
+    #ff00aa,
+    #ff0000
+  );
   background-size: 400% 100%;
   animation: rainbow-2400 4s linear infinite;
 }
@@ -6577,7 +6588,17 @@
   transition: 0.2s ease;
 }
 .toggle-2401 input:checked + span {
-  background: linear-gradient(90deg, #ff004c, #ff8a00, #ffe600, #00e676, #00cfff, #2962ff, #8e24aa, #ff004c);
+  background: linear-gradient(
+    90deg,
+    #ff004c,
+    #ff8a00,
+    #ffe600,
+    #00e676,
+    #00cfff,
+    #2962ff,
+    #8e24aa,
+    #ff004c
+  );
   background-size: 300% 100%;
   animation: rainbow-2401 3s linear infinite;
 }
@@ -6623,9 +6644,21 @@
   transition: 0.2s ease;
 }
 .toggle-2402 input:checked + span {
-  background: linear-gradient(90deg, #ff0055, #ff8800, #ffee00, #00ff85, #00e5ff, #3772ff, #a000ff, #ff0055);
+  background: linear-gradient(
+    90deg,
+    #ff0055,
+    #ff8800,
+    #ffee00,
+    #00ff85,
+    #00e5ff,
+    #3772ff,
+    #a000ff,
+    #ff0055
+  );
   background-size: 500% 100%;
-  box-shadow: 0 0 8px #ff0055, 0 0 16px #00e5ff;
+  box-shadow:
+    0 0 8px #ff0055,
+    0 0 16px #00e5ff;
   animation: rainbow-2402 5s linear infinite;
 }
 .toggle-2402 input:checked + span::before {
@@ -6669,7 +6702,17 @@
   transition: 0.2s ease;
 }
 .toggle-2403 input:checked + span {
-  background: linear-gradient(90deg, #ff9aa2, #ffb7b2, #ffdac1, #e2f0cb, #b5ead7, #c7ceea, #d8b4fe, #ff9aa2);
+  background: linear-gradient(
+    90deg,
+    #ff9aa2,
+    #ffb7b2,
+    #ffdac1,
+    #e2f0cb,
+    #b5ead7,
+    #c7ceea,
+    #d8b4fe,
+    #ff9aa2
+  );
   background-size: 350% 100%;
   animation: rainbow-2403 6s linear infinite;
 }
@@ -6714,7 +6757,17 @@
   transition: 0.2s ease;
 }
 .toggle-2404 input:checked + span {
-  background: conic-gradient(from 0deg, #ff0000, #ff8c00, #ffff00, #00ff66, #00ffff, #0066ff, #cc00ff, #ff0000);
+  background: conic-gradient(
+    from 0deg,
+    #ff0000,
+    #ff8c00,
+    #ffff00,
+    #00ff66,
+    #00ffff,
+    #0066ff,
+    #cc00ff,
+    #ff0000
+  );
   animation: spin-2404 2.8s linear infinite;
   box-shadow: 0 0 10px rgba(0, 255, 255, 0.35);
 }
@@ -6759,7 +6812,16 @@
   transition: 0.2s ease;
 }
 .toggle-2405 input:checked + span {
-  background: linear-gradient(120deg, #22c55e, #06b6d4, #3b82f6, #8b5cf6, #ec4899, #f97316, #22c55e);
+  background: linear-gradient(
+    120deg,
+    #22c55e,
+    #06b6d4,
+    #3b82f6,
+    #8b5cf6,
+    #ec4899,
+    #f97316,
+    #22c55e
+  );
   background-size: 250% 250%;
   animation: rainbow-2405 4s ease-in-out infinite;
 }
@@ -6807,7 +6869,16 @@
   transition: 0.2s ease;
 }
 .toggle-2406 input:checked + span {
-  background: linear-gradient(110deg, #ff0080, #ff8c00, #fff000, #00ff8c, #00d9ff, #624cff, #ff0080);
+  background: linear-gradient(
+    110deg,
+    #ff0080,
+    #ff8c00,
+    #fff000,
+    #00ff8c,
+    #00d9ff,
+    #624cff,
+    #ff0080
+  );
   background-size: 400% 100%;
   animation: holo-2406 3.5s ease-in-out infinite;
 }
@@ -6855,7 +6926,18 @@
   transition: 0.2s ease;
 }
 .toggle-2407 input:checked + span {
-  background: linear-gradient(90deg, #ff8fab, #ffb3c6, #ffd6a5, #fdffb6, #caffbf, #9bf6ff, #bdb2ff, #ffc6ff, #ff8fab);
+  background: linear-gradient(
+    90deg,
+    #ff8fab,
+    #ffb3c6,
+    #ffd6a5,
+    #fdffb6,
+    #caffbf,
+    #9bf6ff,
+    #bdb2ff,
+    #ffc6ff,
+    #ff8fab
+  );
   background-size: 450% 100%;
   animation: rainbow-2407 7s linear infinite;
 }
@@ -6900,7 +6982,17 @@
   transition: 0.2s ease;
 }
 .toggle-2408 input:checked + span {
-  background: linear-gradient(100deg, #ff1744, #ff9100, #ffea00, #00e676, #00b0ff, #651fff, #d500f9, #ff1744);
+  background: linear-gradient(
+    100deg,
+    #ff1744,
+    #ff9100,
+    #ffea00,
+    #00e676,
+    #00b0ff,
+    #651fff,
+    #d500f9,
+    #ff1744
+  );
   background-size: 320% 100%;
   animation: prism-2408 2.2s linear infinite;
 }
@@ -6946,7 +7038,18 @@
   transition: 0.2s ease;
 }
 .toggle-2409 input:checked + span {
-  background: linear-gradient(90deg, #ff0000, #ff8000, #ffff00, #00ff00, #00ffff, #0000ff, #8000ff, #ff00ff, #ff0000);
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #ff8000,
+    #ffff00,
+    #00ff00,
+    #00ffff,
+    #0000ff,
+    #8000ff,
+    #ff00ff,
+    #ff0000
+  );
   background-size: 600% 100%;
   animation: spectrum-2409 4.5s linear infinite;
 }
