@@ -1588,23 +1588,35 @@ export const dropdowns = [
   },
 
   {
-  id: 2734,
-  name: "Neon Command Dropdown",
-  preview: (
-    <div className="dd-2734">
-      <button className="dd-2734__trigger">
-        <i className="ri-command-line"></i>
-        <span>Command</span>
-        <i className="ri-arrow-down-s-line"></i>
-      </button>
-      <div className="dd-2734__menu">
-        <div className="dd-2734__item"><i className="ri-dashboard-line"></i><span>Dashboard</span><i className="ri-arrow-right-s-line"></i></div>
-        <div className="dd-2734__item"><i className="ri-code-s-slash-line"></i><span>Developer</span><i className="ri-arrow-right-s-line"></i></div>
-        <div className="dd-2734__item"><i className="ri-settings-4-line"></i><span>Settings</span><i className="ri-arrow-right-s-line"></i></div>
+    id: 2734,
+    name: "Neon Command Dropdown",
+    preview: (
+      <div className="dd-2734">
+        <button className="dd-2734__trigger">
+          <i className="ri-command-line"></i>
+          <span>Command</span>
+          <i className="ri-arrow-down-s-line"></i>
+        </button>
+        <div className="dd-2734__menu">
+          <div className="dd-2734__item">
+            <i className="ri-dashboard-line"></i>
+            <span>Dashboard</span>
+            <i className="ri-arrow-right-s-line"></i>
+          </div>
+          <div className="dd-2734__item">
+            <i className="ri-code-s-slash-line"></i>
+            <span>Developer</span>
+            <i className="ri-arrow-right-s-line"></i>
+          </div>
+          <div className="dd-2734__item">
+            <i className="ri-settings-4-line"></i>
+            <span>Settings</span>
+            <i className="ri-arrow-right-s-line"></i>
+          </div>
+        </div>
       </div>
-    </div>
-  ),
-  html: `<div class="dd-2734">
+    ),
+    html: `<div class="dd-2734">
     <button class="dd-2734__trigger">
         <i class="ri-command-line"></i>
         <span>Command</span>
@@ -1616,7 +1628,7 @@ export const dropdowns = [
         <div class="dd-2734__item"><i class="ri-settings-4-line"></i><span>Settings</span><i class="ri-arrow-right-s-line"></i></div>
     </div>
 </div>`,
-  css: `.dd-2734 {
+    css: `.dd-2734 {
     position: relative;
     width: 190px;
     font-family: inherit;
@@ -1674,27 +1686,44 @@ export const dropdowns = [
     background: rgba(0,220,255,.08);
     transform: translateX(2px);
 }`,
-},
-{
-  id: 2735,
-  name: "Glass Profile Dropdown",
-  preview: (
-    <div className="dd-2735">
-      <button className="dd-2735__trigger">
-        <span className="dd-2735__avatar"><i className="ri-user-3-line"></i></span>
-        <span className="dd-2735__text"><strong>André</strong><small>Developer</small></span>
-        <i className="ri-arrow-down-s-line"></i>
-      </button>
-      <div className="dd-2735__menu">
-        <div className="dd-2735__item"><i className="ri-user-line"></i><span>Profile</span></div>
-        <div className="dd-2735__item"><i className="ri-notification-3-line"></i><span>Notifications</span></div>
-        <div className="dd-2735__item"><i className="ri-settings-3-line"></i><span>Account Settings</span></div>
-        <div className="dd-2735__divider"></div>
-        <div className="dd-2735__item dd-2735__danger"><i className="ri-logout-box-r-line"></i><span>Sign Out</span></div>
+  },
+  {
+    id: 2735,
+    name: "Glass Profile Dropdown",
+    preview: (
+      <div className="dd-2735">
+        <button className="dd-2735__trigger">
+          <span className="dd-2735__avatar">
+            <i className="ri-user-3-line"></i>
+          </span>
+          <span className="dd-2735__text">
+            <strong>André</strong>
+            <small>Developer</small>
+          </span>
+          <i className="ri-arrow-down-s-line"></i>
+        </button>
+        <div className="dd-2735__menu">
+          <div className="dd-2735__item">
+            <i className="ri-user-line"></i>
+            <span>Profile</span>
+          </div>
+          <div className="dd-2735__item">
+            <i className="ri-notification-3-line"></i>
+            <span>Notifications</span>
+          </div>
+          <div className="dd-2735__item">
+            <i className="ri-settings-3-line"></i>
+            <span>Account Settings</span>
+          </div>
+          <div className="dd-2735__divider"></div>
+          <div className="dd-2735__item dd-2735__danger">
+            <i className="ri-logout-box-r-line"></i>
+            <span>Sign Out</span>
+          </div>
+        </div>
       </div>
-    </div>
-  ),
-  html: `<div class="dd-2735">
+    ),
+    html: `<div class="dd-2735">
     <button class="dd-2735__trigger">
         <span class="dd-2735__avatar"><i class="ri-user-3-line"></i></span>
         <span class="dd-2735__text"><strong>André</strong><small>Developer</small></span>
@@ -1708,7 +1737,7 @@ export const dropdowns = [
         <div class="dd-2735__item dd-2735__danger"><i class="ri-logout-box-r-line"></i><span>Sign Out</span></div>
     </div>
 </div>`,
-  css: `.dd-2735 {
+    css: `.dd-2735 {
     position: relative;
     width: 205px;
 }
@@ -1792,26 +1821,38 @@ export const dropdowns = [
 .dd-2735__danger:hover {
     background: rgba(255,70,100,.08);
 }`,
-},
-{
-  id: 2736,
-  name: "Rainbow Action Dropdown",
-  preview: (
-    <div className="dd-2736">
-      <button className="dd-2736__trigger">
-        <i className="ri-magic-line"></i>
-        <span>Actions</span>
-        <i className="ri-arrow-down-s-line"></i>
-      </button>
-      <div className="dd-2736__menu">
-        <div className="dd-2736__item"><i className="ri-add-line"></i><span>Create</span></div>
-        <div className="dd-2736__item"><i className="ri-edit-line"></i><span>Edit</span></div>
-        <div className="dd-2736__item"><i className="ri-share-line"></i><span>Share</span></div>
-        <div className="dd-2736__item"><i className="ri-delete-bin-line"></i><span>Delete</span></div>
+  },
+  {
+    id: 2736,
+    name: "Rainbow Action Dropdown",
+    preview: (
+      <div className="dd-2736">
+        <button className="dd-2736__trigger">
+          <i className="ri-magic-line"></i>
+          <span>Actions</span>
+          <i className="ri-arrow-down-s-line"></i>
+        </button>
+        <div className="dd-2736__menu">
+          <div className="dd-2736__item">
+            <i className="ri-add-line"></i>
+            <span>Create</span>
+          </div>
+          <div className="dd-2736__item">
+            <i className="ri-edit-line"></i>
+            <span>Edit</span>
+          </div>
+          <div className="dd-2736__item">
+            <i className="ri-share-line"></i>
+            <span>Share</span>
+          </div>
+          <div className="dd-2736__item">
+            <i className="ri-delete-bin-line"></i>
+            <span>Delete</span>
+          </div>
+        </div>
       </div>
-    </div>
-  ),
-  html: `<div class="dd-2736">
+    ),
+    html: `<div class="dd-2736">
     <button class="dd-2736__trigger">
         <i class="ri-magic-line"></i>
         <span>Actions</span>
@@ -1824,7 +1865,7 @@ export const dropdowns = [
         <div class="dd-2736__item"><i class="ri-delete-bin-line"></i><span>Delete</span></div>
     </div>
 </div>`,
-  css: `.dd-2736 {
+    css: `.dd-2736 {
     position: relative;
     width: 180px;
 }
@@ -1886,26 +1927,38 @@ export const dropdowns = [
         filter: hue-rotate(360deg);
     }
 }`,
-},
-{
-  id: 2737,
-  name: "Cyber Select Dropdown",
-  preview: (
-    <div className="dd-2737">
-      <button className="dd-2737__trigger">
-        <i className="ri-terminal-box-line"></i>
-        <span>Environment</span>
-        <strong>DEV</strong>
-        <i className="ri-arrow-down-s-line"></i>
-      </button>
-      <div className="dd-2737__menu">
-        <div className="dd-2737__item"><span className="dd-2737__dot dd-2737__green"></span><span>Production</span><b>PROD</b></div>
-        <div className="dd-2737__item"><span className="dd-2737__dot dd-2737__yellow"></span><span>Staging</span><b>STG</b></div>
-        <div className="dd-2737__item"><span className="dd-2737__dot dd-2737__cyan"></span><span>Development</span><b>DEV</b></div>
+  },
+  {
+    id: 2737,
+    name: "Cyber Select Dropdown",
+    preview: (
+      <div className="dd-2737">
+        <button className="dd-2737__trigger">
+          <i className="ri-terminal-box-line"></i>
+          <span>Environment</span>
+          <strong>DEV</strong>
+          <i className="ri-arrow-down-s-line"></i>
+        </button>
+        <div className="dd-2737__menu">
+          <div className="dd-2737__item">
+            <span className="dd-2737__dot dd-2737__green"></span>
+            <span>Production</span>
+            <b>PROD</b>
+          </div>
+          <div className="dd-2737__item">
+            <span className="dd-2737__dot dd-2737__yellow"></span>
+            <span>Staging</span>
+            <b>STG</b>
+          </div>
+          <div className="dd-2737__item">
+            <span className="dd-2737__dot dd-2737__cyan"></span>
+            <span>Development</span>
+            <b>DEV</b>
+          </div>
+        </div>
       </div>
-    </div>
-  ),
-  html: `<div class="dd-2737">
+    ),
+    html: `<div class="dd-2737">
     <button class="dd-2737__trigger">
         <i class="ri-terminal-box-line"></i>
         <span>Environment</span>
@@ -1918,7 +1971,7 @@ export const dropdowns = [
         <div class="dd-2737__item"><span class="dd-2737__dot dd-2737__cyan"></span><span>Development</span><b>DEV</b></div>
     </div>
 </div>`,
-  css: `.dd-2737 {
+    css: `.dd-2737 {
     position: relative;
     width: 220px;
     font-family: monospace;
@@ -1986,26 +2039,46 @@ export const dropdowns = [
     font-size: 9px;
     color: #56636f;
 }`,
-},
-{
-  id: 2738,
-  name: "Floating Icon Dropdown",
-  preview: (
-    <div className="dd-2738">
-      <button className="dd-2738__trigger">
-        <i className="ri-apps-2-line"></i>
-        <span>Apps</span>
-        <i className="ri-more-2-fill"></i>
-      </button>
-      <div className="dd-2738__menu">
-        <div className="dd-2738__item"><span><i className="ri-github-fill"></i></span><small>GitHub</small></div>
-        <div className="dd-2738__item"><span><i className="ri-discord-fill"></i></span><small>Discord</small></div>
-        <div className="dd-2738__item"><span><i className="ri-layout-grid-line"></i></span><small>Library</small></div>
-        <div className="dd-2738__item"><span><i className="ri-folder-5-line"></i></span><small>Files</small></div>
+  },
+  {
+    id: 2738,
+    name: "Floating Icon Dropdown",
+    preview: (
+      <div className="dd-2738">
+        <button className="dd-2738__trigger">
+          <i className="ri-apps-2-line"></i>
+          <span>Apps</span>
+          <i className="ri-more-2-fill"></i>
+        </button>
+        <div className="dd-2738__menu">
+          <div className="dd-2738__item">
+            <span>
+              <i className="ri-github-fill"></i>
+            </span>
+            <small>GitHub</small>
+          </div>
+          <div className="dd-2738__item">
+            <span>
+              <i className="ri-discord-fill"></i>
+            </span>
+            <small>Discord</small>
+          </div>
+          <div className="dd-2738__item">
+            <span>
+              <i className="ri-layout-grid-line"></i>
+            </span>
+            <small>Library</small>
+          </div>
+          <div className="dd-2738__item">
+            <span>
+              <i className="ri-folder-5-line"></i>
+            </span>
+            <small>Files</small>
+          </div>
+        </div>
       </div>
-    </div>
-  ),
-  html: `<div class="dd-2738">
+    ),
+    html: `<div class="dd-2738">
     <button class="dd-2738__trigger">
         <i class="ri-apps-2-line"></i>
         <span>Apps</span>
@@ -2018,7 +2091,7 @@ export const dropdowns = [
         <div class="dd-2738__item"><span><i class="ri-folder-5-line"></i></span><small>Files</small></div>
     </div>
 </div>`,
-  css: `.dd-2738 {
+    css: `.dd-2738 {
     position: relative;
     width: 170px;
 }
@@ -2083,26 +2156,34 @@ export const dropdowns = [
     background: rgba(255,255,255,.07);
     box-shadow: 0 8px 20px rgba(0,0,0,.25);
 }`,
-},
-{
-  id: 2739,
-  name: "Gradient Status Dropdown",
-  preview: (
-    <div className="dd-2739">
-      <button className="dd-2739__trigger">
-        <span className="dd-2739__status"></span>
-        <span>Online</span>
-        <i className="ri-arrow-down-s-line"></i>
-      </button>
-      <div className="dd-2739__menu">
-        <div className="dd-2739__item"><span className="dd-2739__dot dd-2739__online"></span>Online</div>
-        <div className="dd-2739__item"><span className="dd-2739__dot dd-2739__away"></span>Away</div>
-        <div className="dd-2739__item"><span className="dd-2739__dot dd-2739__busy"></span>Do Not Disturb</div>
-        <div className="dd-2739__item"><span className="dd-2739__dot dd-2739__offline"></span>Invisible</div>
+  },
+  {
+    id: 2739,
+    name: "Gradient Status Dropdown",
+    preview: (
+      <div className="dd-2739">
+        <button className="dd-2739__trigger">
+          <span className="dd-2739__status"></span>
+          <span>Online</span>
+          <i className="ri-arrow-down-s-line"></i>
+        </button>
+        <div className="dd-2739__menu">
+          <div className="dd-2739__item">
+            <span className="dd-2739__dot dd-2739__online"></span>Online
+          </div>
+          <div className="dd-2739__item">
+            <span className="dd-2739__dot dd-2739__away"></span>Away
+          </div>
+          <div className="dd-2739__item">
+            <span className="dd-2739__dot dd-2739__busy"></span>Do Not Disturb
+          </div>
+          <div className="dd-2739__item">
+            <span className="dd-2739__dot dd-2739__offline"></span>Invisible
+          </div>
+        </div>
       </div>
-    </div>
-  ),
-  html: `<div class="dd-2739">
+    ),
+    html: `<div class="dd-2739">
     <button class="dd-2739__trigger">
         <span class="dd-2739__status"></span>
         <span>Online</span>
@@ -2115,7 +2196,7 @@ export const dropdowns = [
         <div class="dd-2739__item"><span class="dd-2739__dot dd-2739__offline"></span>Invisible</div>
     </div>
 </div>`,
-  css: `.dd-2739 {
+    css: `.dd-2739 {
     position: relative;
     width: 180px;
 }
@@ -2174,25 +2255,34 @@ export const dropdowns = [
 .dd-2739__away { background: #ffcf33; box-shadow: 0 0 8px #ffcf33; }
 .dd-2739__busy { background: #ff405b; box-shadow: 0 0 8px #ff405b; }
 .dd-2739__offline { background: #666d78; }`,
-},
-{
-  id: 2740,
-  name: "Luxury Gold Dropdown",
-  preview: (
-    <div className="dd-2740">
-      <button className="dd-2740__trigger">
-        <i className="ri-vip-crown-line"></i>
-        <span>Premium</span>
-        <i className="ri-arrow-down-s-line"></i>
-      </button>
-      <div className="dd-2740__menu">
-        <div className="dd-2740__item"><i className="ri-sparkling-2-line"></i><span>Pro Features</span></div>
-        <div className="dd-2740__item"><i className="ri-star-smile-line"></i><span>Exclusive Themes</span></div>
-        <div className="dd-2740__item"><i className="ri-flashlight-line"></i><span>Priority Access</span></div>
+  },
+  {
+    id: 2740,
+    name: "Luxury Gold Dropdown",
+    preview: (
+      <div className="dd-2740">
+        <button className="dd-2740__trigger">
+          <i className="ri-vip-crown-line"></i>
+          <span>Premium</span>
+          <i className="ri-arrow-down-s-line"></i>
+        </button>
+        <div className="dd-2740__menu">
+          <div className="dd-2740__item">
+            <i className="ri-sparkling-2-line"></i>
+            <span>Pro Features</span>
+          </div>
+          <div className="dd-2740__item">
+            <i className="ri-star-smile-line"></i>
+            <span>Exclusive Themes</span>
+          </div>
+          <div className="dd-2740__item">
+            <i className="ri-flashlight-line"></i>
+            <span>Priority Access</span>
+          </div>
+        </div>
       </div>
-    </div>
-  ),
-  html: `<div class="dd-2740">
+    ),
+    html: `<div class="dd-2740">
     <button class="dd-2740__trigger">
         <i class="ri-vip-crown-line"></i>
         <span>Premium</span>
@@ -2204,7 +2294,7 @@ export const dropdowns = [
         <div class="dd-2740__item"><i class="ri-flashlight-line"></i><span>Priority Access</span></div>
     </div>
 </div>`,
-  css: `.dd-2740 {
+    css: `.dd-2740 {
     position: relative;
     width: 190px;
 }
@@ -2255,26 +2345,35 @@ export const dropdowns = [
     color: #fff0c2;
     background: rgba(255,201,73,.08);
 }`,
-},
-{
-  id: 2741,
-  name: "Rainbow User Menu",
-  preview: (
-    <div className="dd-2741">
-      <button className="dd-2741__trigger">
-        <span className="dd-2741__avatar">A</span>
-        <span>My Account</span>
-        <i className="ri-arrow-down-s-line"></i>
-      </button>
-      <div className="dd-2741__menu">
-        <div className="dd-2741__header">ACCOUNT</div>
-        <div className="dd-2741__item"><i className="ri-user-3-line"></i><span>Profile</span></div>
-        <div className="dd-2741__item"><i className="ri-palette-line"></i><span>Appearance</span></div>
-        <div className="dd-2741__item"><i className="ri-settings-4-line"></i><span>Settings</span></div>
+  },
+  {
+    id: 2741,
+    name: "Rainbow User Menu",
+    preview: (
+      <div className="dd-2741">
+        <button className="dd-2741__trigger">
+          <span className="dd-2741__avatar">A</span>
+          <span>My Account</span>
+          <i className="ri-arrow-down-s-line"></i>
+        </button>
+        <div className="dd-2741__menu">
+          <div className="dd-2741__header">ACCOUNT</div>
+          <div className="dd-2741__item">
+            <i className="ri-user-3-line"></i>
+            <span>Profile</span>
+          </div>
+          <div className="dd-2741__item">
+            <i className="ri-palette-line"></i>
+            <span>Appearance</span>
+          </div>
+          <div className="dd-2741__item">
+            <i className="ri-settings-4-line"></i>
+            <span>Settings</span>
+          </div>
+        </div>
       </div>
-    </div>
-  ),
-  html: `<div class="dd-2741">
+    ),
+    html: `<div class="dd-2741">
     <button class="dd-2741__trigger">
         <span class="dd-2741__avatar">A</span>
         <span>My Account</span>
@@ -2287,7 +2386,7 @@ export const dropdowns = [
         <div class="dd-2741__item"><i class="ri-settings-4-line"></i><span>Settings</span></div>
     </div>
 </div>`,
-  css: `.dd-2741 {
+    css: `.dd-2741 {
     position: relative;
     width: 195px;
 }
@@ -2359,25 +2458,37 @@ export const dropdowns = [
         filter: hue-rotate(360deg);
     }
 }`,
-},
-{
-  id: 2742,
-  name: "Cyber Profile Dropdown",
-  preview: (
-    <div className="dd-2742">
-      <button className="dd-2742__trigger">
-        <i className="ri-shield-user-line"></i>
-        <span>Admin</span>
-        <i className="ri-arrow-down-s-line"></i>
-      </button>
-      <div className="dd-2742__menu">
-        <div className="dd-2742__item"><i className="ri-dashboard-3-line"></i><span>Control Panel</span><kbd>⌘1</kbd></div>
-        <div className="dd-2742__item"><i className="ri-bar-chart-box-line"></i><span>Analytics</span><kbd>⌘2</kbd></div>
-        <div className="dd-2742__item"><i className="ri-shield-check-line"></i><span>Security</span><kbd>⌘3</kbd></div>
+  },
+  {
+    id: 2742,
+    name: "Cyber Profile Dropdown",
+    preview: (
+      <div className="dd-2742">
+        <button className="dd-2742__trigger">
+          <i className="ri-shield-user-line"></i>
+          <span>Admin</span>
+          <i className="ri-arrow-down-s-line"></i>
+        </button>
+        <div className="dd-2742__menu">
+          <div className="dd-2742__item">
+            <i className="ri-dashboard-3-line"></i>
+            <span>Control Panel</span>
+            <kbd>⌘1</kbd>
+          </div>
+          <div className="dd-2742__item">
+            <i className="ri-bar-chart-box-line"></i>
+            <span>Analytics</span>
+            <kbd>⌘2</kbd>
+          </div>
+          <div className="dd-2742__item">
+            <i className="ri-shield-check-line"></i>
+            <span>Security</span>
+            <kbd>⌘3</kbd>
+          </div>
+        </div>
       </div>
-    </div>
-  ),
-  html: `<div class="dd-2742">
+    ),
+    html: `<div class="dd-2742">
     <button class="dd-2742__trigger">
         <i class="ri-shield-user-line"></i>
         <span>Admin</span>
@@ -2389,7 +2500,7 @@ export const dropdowns = [
         <div class="dd-2742__item"><i class="ri-shield-check-line"></i><span>Security</span><kbd>⌘3</kbd></div>
     </div>
 </div>`,
-  css: `.dd-2742 {
+    css: `.dd-2742 {
     position: relative;
     width: 215px;
     font-family: inherit;
@@ -2448,26 +2559,44 @@ export const dropdowns = [
     background: #11141a;
     font-size: 9px;
 }`,
-},
-{
-  id: 2743,
-  name: "Ultimate Spectrum Dropdown",
-  preview: (
-    <div className="dd-2743">
-      <button className="dd-2743__trigger">
-        <span className="dd-2743__icon"><i className="ri-sparkling-fill"></i></span>
-        <span>Components</span>
-        <i className="ri-arrow-down-s-line"></i>
-      </button>
-      <div className="dd-2743__menu">
-        <div className="dd-2743__item"><i className="ri-checkbox-multiple-line"></i><span>Checkboxes</span><strong>120+</strong></div>
-        <div className="dd-2743__item"><i className="ri-toggle-line"></i><span>Toggles</span><strong>80+</strong></div>
-        <div className="dd-2743__item"><i className="ri-layout-2-line"></i><span>Cards</span><strong>200+</strong></div>
-        <div className="dd-2743__item"><i className="ri-loader-4-line"></i><span>Loaders</span><strong>150+</strong></div>
+  },
+  {
+    id: 2743,
+    name: "Ultimate Spectrum Dropdown",
+    preview: (
+      <div className="dd-2743">
+        <button className="dd-2743__trigger">
+          <span className="dd-2743__icon">
+            <i className="ri-sparkling-fill"></i>
+          </span>
+          <span>Components</span>
+          <i className="ri-arrow-down-s-line"></i>
+        </button>
+        <div className="dd-2743__menu">
+          <div className="dd-2743__item">
+            <i className="ri-checkbox-multiple-line"></i>
+            <span>Checkboxes</span>
+            <strong>120+</strong>
+          </div>
+          <div className="dd-2743__item">
+            <i className="ri-toggle-line"></i>
+            <span>Toggles</span>
+            <strong>80+</strong>
+          </div>
+          <div className="dd-2743__item">
+            <i className="ri-layout-2-line"></i>
+            <span>Cards</span>
+            <strong>200+</strong>
+          </div>
+          <div className="dd-2743__item">
+            <i className="ri-loader-4-line"></i>
+            <span>Loaders</span>
+            <strong>150+</strong>
+          </div>
+        </div>
       </div>
-    </div>
-  ),
-  html: `<div class="dd-2743">
+    ),
+    html: `<div class="dd-2743">
     <button class="dd-2743__trigger">
         <span class="dd-2743__icon"><i class="ri-sparkling-fill"></i></span>
         <span>Components</span>
@@ -2480,7 +2609,7 @@ export const dropdowns = [
         <div class="dd-2743__item"><i class="ri-loader-4-line"></i><span>Loaders</span><strong>150+</strong></div>
     </div>
 </div>`,
-  css: `.dd-2743 {
+    css: `.dd-2743 {
     position: relative;
     width: 215px;
 }
@@ -2567,5 +2696,5 @@ export const dropdowns = [
         background-position: 0% 50%;
     }
 }`,
-},
+  },
 ];
