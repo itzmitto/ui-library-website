@@ -2986,4 +2986,1319 @@ export const tooltips = [
     transform: translate(-50%,0);
 }`,
   },
+  {
+    id: 2750,
+    name: "Clean Info Tooltip",
+    preview: (
+      <div className="tip-2750">
+        <button className="tip-2750__target">
+          <i className="ri-information-line"></i>
+        </button>
+        <span className="tip-2750__tooltip">Hallo mijn naam is André</span>
+      </div>
+    ),
+    html: `<div class="tip-2750">
+    <button class="tip-2750__target">
+        <i class="ri-information-line"></i>
+    </button>
+    <span class="tip-2750__tooltip">Hallo mijn naam is André</span>
+</div>`,
+    css: `.tip-2750 {
+    position: relative;
+    display: inline-flex;
+}
+.tip-2750__target {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #d9dde3;
+    border-radius: 50%;
+    background: #fff;
+    color: #56606f;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.tip-2750__target:hover {
+    border-color: #9aa3af;
+    color: #20242a;
+}
+.tip-2750__tooltip {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 9px);
+    transform: translateX(-50%) translateY(5px);
+    padding: 8px 11px;
+    border-radius: 7px;
+    background: #20242a;
+    color: #fff;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .2s ease;
+    box-shadow: 0 7px 20px rgba(0,0,0,.15);
+}
+.tip-2750__tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: #20242a;
+}
+.tip-2750:hover .tip-2750__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}`,
+  },
+  {
+    id: 2751,
+    name: "Dark Info Tooltip",
+    preview: (
+      <div className="tip-2751">
+        <button className="tip-2751__target">
+          <i className="ri-question-line"></i>
+        </button>
+        <span className="tip-2751__tooltip">Hallo mijn naam is André</span>
+      </div>
+    ),
+    html: `<div class="tip-2751">
+    <button class="tip-2751__target">
+        <i class="ri-question-line"></i>
+    </button>
+    <span class="tip-2751__tooltip">Hallo mijn naam is André</span>
+</div>`,
+    css: `.tip-2751 {
+    position: relative;
+    display: inline-flex;
+}
+.tip-2751__target {
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 8px;
+    background: #272b32;
+    color: #dce1e8;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.tip-2751__target:hover {
+    background: #323740;
+}
+.tip-2751__tooltip {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 9px);
+    transform: translateX(-50%) translateY(5px);
+    padding: 8px 12px;
+    border-radius: 7px;
+    background: #111318;
+    border: 1px solid #303641;
+    color: #edf0f4;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .2s ease;
+    box-shadow: 0 8px 22px rgba(0,0,0,.28);
+}
+.tip-2751__tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: #303641;
+}
+.tip-2751:hover .tip-2751__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}`,
+  },
+  {
+    id: 2752,
+    name: "Blue Tooltip",
+    preview: (
+      <div className="tip-2752">
+        <button className="tip-2752__target">
+          <i className="ri-lightbulb-line"></i>
+        </button>
+        <span className="tip-2752__tooltip">Hallo mijn naam is André</span>
+      </div>
+    ),
+    html: `<div class="tip-2752">
+    <button class="tip-2752__target">
+        <i class="ri-lightbulb-line"></i>
+    </button>
+    <span class="tip-2752__tooltip">Hallo mijn naam is André</span>
+</div>`,
+    css: `.tip-2752 {
+    position: relative;
+    display: inline-flex;
+}
+.tip-2752__target {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #bfd5f5;
+    border-radius: 8px;
+    background: #f8fbff;
+    color: #3274d8;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.tip-2752__target:hover {
+    border-color: #8eb6ec;
+    background: #f1f7ff;
+}
+.tip-2752__tooltip {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 9px);
+    transform: translateX(-50%) translateY(5px);
+    padding: 8px 12px;
+    border-radius: 7px;
+    background: #2563eb;
+    color: #fff;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .2s ease;
+    box-shadow: 0 8px 20px rgba(37,99,235,.2);
+}
+.tip-2752__tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: #2563eb;
+}
+.tip-2752:hover .tip-2752__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}`,
+  },
+  {
+    id: 2753,
+    name: "Green Success Tooltip",
+    preview: (
+      <div className="tip-2753">
+        <button className="tip-2753__target">
+          <i className="ri-check-line"></i>
+        </button>
+        <span className="tip-2753__tooltip">Hallo mijn naam is André</span>
+      </div>
+    ),
+    html: `<div class="tip-2753">
+    <button class="tip-2753__target">
+        <i class="ri-check-line"></i>
+    </button>
+    <span class="tip-2753__tooltip">Hallo mijn naam is André</span>
+</div>`,
+    css: `.tip-2753 {
+    position: relative;
+    display: inline-flex;
+}
+.tip-2753__target {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #bfe4cf;
+    border-radius: 8px;
+    background: #f5fcf8;
+    color: #23945b;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.tip-2753__target:hover {
+    background: #edfaf2;
+    border-color: #8bcda9;
+}
+.tip-2753__tooltip {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 9px);
+    transform: translateX(-50%) translateY(5px);
+    padding: 8px 12px;
+    border-radius: 7px;
+    background: #16834d;
+    color: #fff;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .2s ease;
+    box-shadow: 0 8px 20px rgba(22,131,77,.18);
+}
+.tip-2753__tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: #16834d;
+}
+.tip-2753:hover .tip-2753__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}`,
+  },
+  {
+    id: 2754,
+    name: "Warning Tooltip",
+    preview: (
+      <div className="tip-2754">
+        <button className="tip-2754__target">
+          <i className="ri-alert-line"></i>
+        </button>
+        <span className="tip-2754__tooltip">Hallo mijn naam is André</span>
+      </div>
+    ),
+    html: `<div class="tip-2754">
+    <button class="tip-2754__target">
+        <i class="ri-alert-line"></i>
+    </button>
+    <span class="tip-2754__tooltip">Hallo mijn naam is André</span>
+</div>`,
+    css: `.tip-2754 {
+    position: relative;
+    display: inline-flex;
+}
+.tip-2754__target {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #f0d79d;
+    border-radius: 8px;
+    background: #fffaf0;
+    color: #bf8215;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.tip-2754__target:hover {
+    background: #fff6df;
+    border-color: #e7c16b;
+}
+.tip-2754__tooltip {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 9px);
+    transform: translateX(-50%) translateY(5px);
+    padding: 8px 12px;
+    border-radius: 7px;
+    background: #b66e00;
+    color: #fff;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .2s ease;
+    box-shadow: 0 8px 20px rgba(182,110,0,.18);
+}
+.tip-2754__tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: #b66e00;
+}
+.tip-2754:hover .tip-2754__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}`,
+  },
+  {
+    id: 2755,
+    name: "Bottom Tooltip",
+    preview: (
+      <div className="tip-2755">
+        <button className="tip-2755__target">
+          <i className="ri-chat-3-line"></i>
+        </button>
+        <span className="tip-2755__tooltip">Hallo mijn naam is André</span>
+      </div>
+    ),
+    html: `<div class="tip-2755">
+    <button class="tip-2755__target">
+        <i class="ri-chat-3-line"></i>
+    </button>
+    <span class="tip-2755__tooltip">Hallo mijn naam is André</span>
+</div>`,
+    css: `.tip-2755 {
+    position: relative;
+    display: inline-flex;
+}
+.tip-2755__target {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #d7dce3;
+    border-radius: 8px;
+    background: #fff;
+    color: #616b79;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.tip-2755__target:hover {
+    background: #f5f6f8;
+    color: #252a31;
+}
+.tip-2755__tooltip {
+    position: absolute;
+    left: 50%;
+    top: calc(100% + 9px);
+    transform: translateX(-50%) translateY(-5px);
+    padding: 8px 12px;
+    border-radius: 7px;
+    background: #20242a;
+    color: #fff;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .2s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+}
+.tip-2755__tooltip::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-bottom-color: #20242a;
+}
+.tip-2755:hover .tip-2755__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}`,
+  },
+  {
+    id: 2756,
+    name: "Left Tooltip",
+    preview: (
+      <div className="tip-2756">
+        <button className="tip-2756__target">
+          <i className="ri-arrow-left-line"></i>
+        </button>
+        <span className="tip-2756__tooltip">Hallo mijn naam is André</span>
+      </div>
+    ),
+    html: `<div class="tip-2756">
+    <button class="tip-2756__target">
+        <i class="ri-arrow-left-line"></i>
+    </button>
+    <span class="tip-2756__tooltip">Hallo mijn naam is André</span>
+</div>`,
+    css: `.tip-2756 {
+    position: relative;
+    display: inline-flex;
+}
+.tip-2756__target {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #d7dce3;
+    border-radius: 8px;
+    background: #fff;
+    color: #596473;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.tip-2756__target:hover {
+    background: #f4f6f8;
+}
+.tip-2756__tooltip {
+    position: absolute;
+    right: calc(100% + 9px);
+    top: 50%;
+    transform: translateY(-50%) translateX(5px);
+    padding: 8px 12px;
+    border-radius: 7px;
+    background: #20242a;
+    color: #fff;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .2s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+}
+.tip-2756__tooltip::after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 5px solid transparent;
+    border-left-color: #20242a;
+}
+.tip-2756:hover .tip-2756__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%) translateX(0);
+}`,
+  },
+  {
+    id: 2757,
+    name: "Right Tooltip",
+    preview: (
+      <div className="tip-2757">
+        <button className="tip-2757__target">
+          <i className="ri-arrow-right-line"></i>
+        </button>
+        <span className="tip-2757__tooltip">Hallo mijn naam is André</span>
+      </div>
+    ),
+    html: `<div class="tip-2757">
+    <button class="tip-2757__target">
+        <i class="ri-arrow-right-line"></i>
+    </button>
+    <span class="tip-2757__tooltip">Hallo mijn naam is André</span>
+</div>`,
+    css: `.tip-2757 {
+    position: relative;
+    display: inline-flex;
+}
+.tip-2757__target {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #d7dce3;
+    border-radius: 8px;
+    background: #fff;
+    color: #596473;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.tip-2757__target:hover {
+    background: #f4f6f8;
+}
+.tip-2757__tooltip {
+    position: absolute;
+    left: calc(100% + 9px);
+    top: 50%;
+    transform: translateY(-50%) translateX(-5px);
+    padding: 8px 12px;
+    border-radius: 7px;
+    background: #20242a;
+    color: #fff;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .2s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+}
+.tip-2757__tooltip::after {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 5px solid transparent;
+    border-right-color: #20242a;
+}
+.tip-2757:hover .tip-2757__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%) translateX(0);
+}`,
+  },
+  {
+    id: 2758,
+    name: "Border Tooltip",
+    preview: (
+      <div className="tip-2758">
+        <button className="tip-2758__target">
+          <i className="ri-information-2-line"></i>
+        </button>
+        <span className="tip-2758__tooltip">Hallo mijn naam is André</span>
+      </div>
+    ),
+    html: `<div class="tip-2758">
+    <button class="tip-2758__target">
+        <i class="ri-information-2-line"></i>
+    </button>
+    <span class="tip-2758__tooltip">Hallo mijn naam is André</span>
+</div>`,
+    css: `.tip-2758 {
+    position: relative;
+    display: inline-flex;
+}
+.tip-2758__target {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #cfd5dd;
+    border-radius: 6px;
+    background: #fff;
+    color: #586271;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.tip-2758__target:hover {
+    border-color: #8e98a5;
+}
+.tip-2758__tooltip {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 9px);
+    transform: translateX(-50%) translateY(5px);
+    padding: 8px 12px;
+    border: 1px solid #cfd5dd;
+    border-radius: 7px;
+    background: #fff;
+    color: #303641;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .2s ease;
+    box-shadow: 0 8px 24px rgba(0,0,0,.12);
+}
+.tip-2758__tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border-right: 1px solid #cfd5dd;
+    border-bottom: 1px solid #cfd5dd;
+    transform: translate(-50%,-5px) rotate(45deg);
+}
+.tip-2758:hover .tip-2758__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}`,
+  },
+  {
+    id: 2759,
+    name: "Modern Accent Tooltip",
+    preview: (
+      <div className="tip-2759">
+        <button className="tip-2759__target">
+          <i className="ri-sparkling-line"></i>
+        </button>
+        <span className="tip-2759__tooltip">
+          <span className="tip-2759__dot"></span>
+          Hallo mijn naam is André
+        </span>
+      </div>
+    ),
+    html: `<div class="tip-2759">
+    <button class="tip-2759__target">
+        <i class="ri-sparkling-line"></i>
+    </button>
+    <span class="tip-2759__tooltip">
+        <span class="tip-2759__dot"></span>
+        Hallo mijn naam is André
+    </span>
+</div>`,
+    css: `.tip-2759 {
+    position: relative;
+    display: inline-flex;
+}
+.tip-2759__target {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #d8dce2;
+    border-radius: 9px;
+    background: #fff;
+    color: #7658d9;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.tip-2759__target:hover {
+    border-color: #b9aaf0;
+    background: #faf9ff;
+}
+.tip-2759__tooltip {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 10px);
+    transform: translateX(-50%) translateY(5px);
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 12px;
+    border: 1px solid #d9d1f5;
+    border-radius: 8px;
+    background: #faf9ff;
+    color: #403a54;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .2s ease;
+    box-shadow: 0 8px 22px rgba(72,52,135,.12);
+}
+.tip-2759__dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #7c5cff;
+}
+.tip-2759__tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background: #faf9ff;
+    border-right: 1px solid #d9d1f5;
+    border-bottom: 1px solid #d9d1f5;
+    transform: translate(-50%,-5px) rotate(45deg);
+}
+.tip-2759:hover .tip-2759__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}`,
+  },
+  {
+    id: 2760,
+    name: "Cyber Terminal Tooltip",
+    preview: (
+      <div className="tip-2760">
+        <button className="tip-2760__button">
+          <i className="ri-terminal-box-line"></i>
+          <span>TERMINAL</span>
+        </button>
+        <div className="tip-2760__tooltip">
+          <span className="tip-2760__prompt">&gt;</span>
+          <span className="tip-2760__text">Hallo mijn naam is André</span>
+          <span className="tip-2760__cursor"></span>
+        </div>
+      </div>
+    ),
+    html: `<div class="tip-2760">
+    <button class="tip-2760__button">
+        <i class="ri-terminal-box-line"></i>
+        <span>TERMINAL</span>
+    </button>
+    <div class="tip-2760__tooltip">
+        <span class="tip-2760__prompt">&gt;</span>
+        <span class="tip-2760__text">Hallo mijn naam is André</span>
+        <span class="tip-2760__cursor"></span>
+    </div>
+</div>`,
+    css: `.tip-2760 {
+    position: relative;
+    display: inline-flex;
+    font-family: "Courier New", monospace;
+}
+.tip-2760__button {
+    height: 42px;
+    padding: 0 16px;
+    border: 1px solid #315b52;
+    border-radius: 6px;
+    background: rgba(10,30,25,.72);
+    color: #5effc0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font: inherit;
+    font-size: 11px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.tip-2760__button i {
+    font-size: 16px;
+}
+.tip-2760__button:hover {
+    border-color: #5effc0;
+    box-shadow: 0 0 16px rgba(94,255,192,.18);
+    text-shadow: 0 0 8px #5effc0;
+}
+.tip-2760__tooltip {
+    position: absolute;
+    bottom: calc(100% + 12px);
+    left: 50%;
+    transform: translate(-50%,8px);
+    padding: 10px 13px;
+    border: 1px solid #35665b;
+    border-radius: 5px;
+    background: rgba(7,20,17,.96);
+    color: #cffff0;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 11px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .25s ease;
+    box-shadow: 0 0 20px rgba(0,255,160,.12);
+}
+.tip-2760__prompt {
+    color: #5effc0;
+    animation: tip-2760__blink .8s infinite;
+}
+.tip-2760__cursor {
+    width: 5px;
+    height: 12px;
+    background: #5effc0;
+    animation: tip-2760__cursor 1s steps(2) infinite;
+}
+.tip-2760:hover .tip-2760__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%,0);
+}
+@keyframes tip-2760__blink {
+    50% {
+        opacity: .3;
+    }
+}
+@keyframes tip-2760__cursor {
+    50% {
+        opacity: 0;
+    }
+}`,
+  },
+  {
+    id: 2761,
+    name: "Digital Scan Tooltip",
+    preview: (
+      <div className="tip-2761">
+        <button className="tip-2761__button">
+          <i className="ri-radar-line"></i>
+          <span>SCAN</span>
+        </button>
+        <div className="tip-2761__tooltip">
+          <span className="tip-2761__scanline"></span>
+          <span className="tip-2761__icon">
+            <i className="ri-radar-line"></i>
+          </span>
+          <span className="tip-2761__content">
+            <strong>IDENTITY FOUND</strong>
+            <small>Hallo mijn naam is André</small>
+          </span>
+        </div>
+      </div>
+    ),
+    html: `<div class="tip-2761">
+    <button class="tip-2761__button">
+        <i class="ri-radar-line"></i>
+        <span>SCAN</span>
+    </button>
+    <div class="tip-2761__tooltip">
+        <span class="tip-2761__scanline"></span>
+        <span class="tip-2761__icon"><i class="ri-radar-line"></i></span>
+        <span class="tip-2761__content">
+            <strong>IDENTITY FOUND</strong>
+            <small>Hallo mijn naam is André</small>
+        </span>
+    </div>
+</div>`,
+    css: `.tip-2761 {
+    position: relative;
+    display: inline-flex;
+    font-family: inherit;
+}
+.tip-2761__button {
+    height: 42px;
+    padding: 0 17px;
+    border: 1px solid #3d5872;
+    border-radius: 8px;
+    background: rgba(14,24,35,.78);
+    color: #6ec8ff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.tip-2761__button i {
+    font-size: 17px;
+}
+.tip-2761__button:hover {
+    border-color: #6ec8ff;
+    box-shadow: 0 0 18px rgba(60,180,255,.2);
+}
+.tip-2761__tooltip {
+    position: absolute;
+    bottom: calc(100% + 13px);
+    left: 50%;
+    transform: translate(-50%,7px);
+    min-width: 235px;
+    padding: 11px;
+    border: 1px solid rgba(110,200,255,.4);
+    border-radius: 8px;
+    background: rgba(9,16,24,.97);
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .25s ease;
+    box-shadow: 0 0 25px rgba(0,150,255,.12);
+}
+.tip-2761__scanline {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    background: linear-gradient(180deg,transparent,rgba(80,200,255,.12),transparent);
+}
+.tip-2761__icon {
+    width: 31px;
+    height: 31px;
+    border-radius: 7px;
+    display: grid;
+    place-items: center;
+    background: rgba(55,160,255,.08);
+    color: #5dc5ff;
+    flex: 0 0 31px;
+}
+.tip-2761__content {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.tip-2761__content strong {
+    color: #bce8ff;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+.tip-2761__content small {
+    color: #8393a2;
+    font-size: 10px;
+}
+.tip-2761:hover .tip-2761__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%,0);
+}
+.tip-2761:hover .tip-2761__scanline {
+    animation: tip-2761__scan 1.1s linear infinite;
+}
+@keyframes tip-2761__scan {
+    from {
+        top: -40%;
+    }
+    to {
+        top: 110%;
+    }
+}`,
+  },
+  {
+    id: 2762,
+    name: "Glitch Label Tooltip",
+    preview: (
+      <div className="tip-2762">
+        <button className="tip-2762__button">
+          <i className="ri-bug-line"></i>
+          <span>DEBUG</span>
+        </button>
+        <div className="tip-2762__tooltip" data-text="Hallo mijn naam is André">
+          <span>Hallo mijn naam is André</span>
+        </div>
+      </div>
+    ),
+    html: `<div class="tip-2762">
+    <button class="tip-2762__button">
+        <i class="ri-bug-line"></i>
+        <span>DEBUG</span>
+    </button>
+    <div class="tip-2762__tooltip" data-text="Hallo mijn naam is André">
+        <span>Hallo mijn naam is André</span>
+    </div>
+</div>`,
+    css: `.tip-2762 {
+    position: relative;
+    display: inline-flex;
+    font-family: inherit;
+}
+.tip-2762__button {
+    height: 43px;
+    padding: 0 18px;
+    border: 1px solid #68415f;
+    border-radius: 4px;
+    background: rgba(28,14,25,.78);
+    color: #ff75ce;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.tip-2762__button:hover {
+    border-color: #ff75ce;
+    box-shadow: 0 0 18px rgba(255,70,190,.18);
+}
+.tip-2762__tooltip {
+    position: absolute;
+    bottom: calc(100% + 12px);
+    left: 50%;
+    transform: translate(-50%,7px);
+    padding: 10px 15px;
+    border: 1px solid #68415f;
+    border-radius: 4px;
+    background: rgba(20,11,19,.97);
+    color: #f5e4f1;
+    font-size: 11px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .2s ease;
+    box-shadow: 0 0 22px rgba(255,60,190,.12);
+}
+.tip-2762__tooltip::before {
+    content: attr(data-text);
+    position: absolute;
+    inset: 0;
+    padding: 10px 15px;
+    color: #00e5ff;
+    opacity: 0;
+}
+.tip-2762__tooltip::after {
+    content: "";
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    height: 2px;
+    top: 50%;
+    background: #ff4fc9;
+    opacity: 0;
+}
+.tip-2762:hover .tip-2762__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%,0);
+    animation: tip-2762__glitch .7s steps(2) infinite;
+}
+.tip-2762:hover .tip-2762__tooltip::before {
+    opacity: .45;
+    animation: tip-2762__offset .45s steps(2) infinite;
+}
+.tip-2762:hover .tip-2762__tooltip::after {
+    opacity: .5;
+    animation: tip-2762__slice .8s linear infinite;
+}
+@keyframes tip-2762__glitch {
+    0%,100% {
+        transform: translate(-50%,0);
+    }
+    30% {
+        transform: translate(calc(-50% + 1px),0);
+    }
+    60% {
+        transform: translate(calc(-50% - 1px),0);
+    }
+}
+@keyframes tip-2762__offset {
+    0% {
+        clip-path: inset(0 0 80% 0);
+        transform: translate(2px,0);
+    }
+    50% {
+        clip-path: inset(30% 0 30% 0);
+        transform: translate(-2px,0);
+    }
+    100% {
+        clip-path: inset(75% 0 0 0);
+        transform: translate(1px,0);
+    }
+}
+@keyframes tip-2762__slice {
+    0% {
+        top: 15%;
+    }
+    50% {
+        top: 70%;
+    }
+    100% {
+        top: 35%;
+    }
+}`,
+  },
+  {
+    id: 2763,
+    name: "Hologram Tooltip",
+    preview: (
+      <div className="tip-2763">
+        <button className="tip-2763__button">
+          <i className="ri-shining-2-line"></i>
+          <span>HOLOGRAM</span>
+        </button>
+        <div className="tip-2763__tooltip">
+          <span className="tip-2763__glow"></span>
+          <i className="ri-sparkling-2-line"></i>
+          <span>Hallo mijn naam is André</span>
+        </div>
+      </div>
+    ),
+    html: `<div class="tip-2763">
+    <button class="tip-2763__button">
+        <i class="ri-shining-2-line"></i>
+        <span>HOLOGRAM</span>
+    </button>
+    <div class="tip-2763__tooltip">
+        <span class="tip-2763__glow"></span>
+        <i class="ri-sparkling-2-line"></i>
+        <span>Hallo mijn naam is André</span>
+    </div>
+</div>`,
+    css: `.tip-2763 {
+    position: relative;
+    display: inline-flex;
+    font-family: inherit;
+}
+.tip-2763__button {
+    height: 44px;
+    padding: 0 17px;
+    border: 1px solid rgba(167,113,255,.45);
+    border-radius: 10px;
+    background: rgba(24,17,39,.75);
+    color: #c09bff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.tip-2763__button:hover {
+    border-color: #c09bff;
+    box-shadow: 0 0 20px rgba(170,100,255,.18);
+}
+.tip-2763__tooltip {
+    position: absolute;
+    bottom: calc(100% + 13px);
+    left: 50%;
+    transform: translate(-50%,9px);
+    padding: 11px 15px;
+    border: 1px solid rgba(180,120,255,.5);
+    border-radius: 9px;
+    background: rgba(24,17,35,.92);
+    backdrop-filter: blur(12px);
+    color: #eee5ff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    overflow: hidden;
+    transition: .3s ease;
+    box-shadow: 0 0 25px rgba(170,90,255,.18);
+}
+.tip-2763__tooltip i {
+    color: #e0bfff;
+    font-size: 16px;
+    position: relative;
+    z-index: 2;
+}
+.tip-2763__glow {
+    position: absolute;
+    inset: -50%;
+    background: conic-gradient(#ff4dc4,#815dff,#39dfff,#ff4dc4);
+    opacity: .14;
+    filter: blur(12px);
+}
+.tip-2763:hover .tip-2763__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%,0);
+}
+.tip-2763:hover .tip-2763__glow {
+    animation: tip-2763__rotate 3s linear infinite;
+}
+@keyframes tip-2763__rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+  {
+    id: 2764,
+    name: "Matrix Data Tooltip",
+    preview: (
+      <div className="tip-2764">
+        <button className="tip-2764__button">
+          <i className="ri-database-2-line"></i>
+          <span>DATA</span>
+        </button>
+        <div className="tip-2764__tooltip">
+          <span className="tip-2764__matrix"></span>
+          <span className="tip-2764__content">
+            <i className="ri-database-2-line"></i>
+            <span>Hallo mijn naam is André</span>
+          </span>
+        </div>
+      </div>
+    ),
+    html: `<div class="tip-2764">
+    <button class="tip-2764__button">
+        <i class="ri-database-2-line"></i>
+        <span>DATA</span>
+    </button>
+    <div class="tip-2764__tooltip">
+        <span class="tip-2764__matrix"></span>
+        <span class="tip-2764__content">
+            <i class="ri-database-2-line"></i>
+            <span>Hallo mijn naam is André</span>
+        </span>
+    </div>
+</div>`,
+    css: `.tip-2764 {
+    position: relative;
+    display: inline-flex;
+    font-family: "Courier New", monospace;
+}
+.tip-2764__button {
+    height: 42px;
+    padding: 0 17px;
+    border: 1px solid #345d4c;
+    border-radius: 5px;
+    background: rgba(8,24,17,.8);
+    color: #66e69e;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font: inherit;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.tip-2764__button:hover {
+    border-color: #66e69e;
+    box-shadow: 0 0 18px rgba(70,220,140,.16);
+}
+.tip-2764__tooltip {
+    position: absolute;
+    bottom: calc(100% + 12px);
+    left: 50%;
+    transform: translate(-50%,7px);
+    width: 230px;
+    min-height: 48px;
+    padding: 10px;
+    border: 1px solid #365b4d;
+    border-radius: 5px;
+    background: rgba(5,16,11,.97);
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .25s ease;
+    box-shadow: 0 0 22px rgba(0,255,130,.1);
+}
+.tip-2764__matrix {
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+        0deg,
+        transparent 0,
+        transparent 4px,
+        rgba(67,220,135,.07) 4px,
+        rgba(67,220,135,.07) 5px
+    );
+    animation: tip-2764__matrix 1s linear infinite;
+}
+.tip-2764__content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #c5f6d9;
+    font-size: 10px;
+}
+.tip-2764__content i {
+    width: 27px;
+    height: 27px;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    color: #66e69e;
+    background: rgba(60,200,125,.08);
+    flex: 0 0 27px;
+}
+.tip-2764:hover .tip-2764__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%,0);
+}
+@keyframes tip-2764__matrix {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 10px;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .tip-2760__prompt,
+    .tip-2760__cursor,
+    .tip-2761__scanline,
+    .tip-2762__tooltip,
+    .tip-2762__tooltip::before,
+    .tip-2762__tooltip::after,
+    .tip-2763__glow,
+    .tip-2764__matrix {
+        animation: none;
+    }
+}
+`,
+  },
 ];
