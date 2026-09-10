@@ -31,6 +31,11 @@ const sidebarItems = [
   { label: "Sidebars", path: "/elements/sidebars" },
   { label: "Hero Sections", path: "/elements/hero-sections", active: true },
   { label: "Iphone", path: "/elements/iphone" },
+  { label: "Toasts", path: "/elements/toasts" },
+  { label: "Accordions", path: "/elements/accordions" },
+  { label: "Carousels", path: "/elements/carousels" },
+  { label: "Progress Bars", path: "/elements/progress-bars" },
+  { label: "Tables", path: "/elements/tables" },
 ];
 
 const CARD_HEIGHT = 252;
