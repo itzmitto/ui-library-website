@@ -1,0 +1,1 @@
+export function initCarousel(id: number, element: Element): void;

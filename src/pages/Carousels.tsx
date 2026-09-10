@@ -1,6 +1,7 @@
 import { memo, useCallback, useEffect, useRef, useState } from "react";
 import Header from "../components/Header";
 import { carousels } from "../data/CarouselsData";
+import { initCarousel } from "../scripts/CarouselsScript.js";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Carousels.css";
@@ -58,6 +59,25 @@ const CarouselCard = memo(
   }) => {
     const row = Math.floor(index / columns);
     const column = index % columns;
+    const previewRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+      const preview = previewRef.current;
+
+      if (!preview || !item.scriptId) {
+        return;
+      }
+
+      const element = preview.querySelector(
+        `[data-carousel-id="${item.scriptId}"]`,
+      );
+
+      if (!element) {
+        return;
+      }
+
+      initCarousel(item.scriptId, element);
+    }, [item]);
 
     return (
       <div
@@ -76,7 +96,10 @@ const CarouselCard = memo(
           cursor: "pointer",
         }}
       >
-        <div className="all-card-preview">{item.preview}</div>
+        <div ref={previewRef} className="all-card-preview">
+          {item.preview}
+        </div>
+
         <div className="all-card-footer">
           <span className="all-card-name">{item.name}</span>
         </div>
@@ -185,6 +208,7 @@ export default function Carousels() {
   return (
     <div className="all-page">
       <Header />
+
       <div className="all-layout">
         <aside className="sidebar">
           {sidebarItems.map((item) => (
@@ -199,11 +223,13 @@ export default function Carousels() {
             </a>
           ))}
         </aside>
+
         <main className="all-main">
           <div className="all-header">
             <h1>Carousels</h1>
             <p>Open-Source carousels made with CSS or Tailwind</p>
           </div>
+
           <div
             ref={gridRef}
             className="all-grid"
@@ -228,6 +254,7 @@ export default function Carousels() {
           </div>
         </main>
       </div>
+
       <ComponentModal item={selected} onClose={() => setSelected(null)} />
     </div>
   );
