@@ -22,6 +22,11 @@ import { skeletons } from "./skeletonsData";
 import { sidebars } from "./sidebarsData";
 import { heroSections } from "./heroSectionsData";
 import { iphones } from "./iphonesData";
+import { toasts } from "./ToastsData";
+import { accordions } from "./AccordionsData";
+import { carousels } from "./CarouselsData";
+import { progressBars } from "./ProgressBarsData";
+import { tables } from "./TablesData";
 
 export {
   buttons,
@@ -48,6 +53,11 @@ export {
   sidebars,
   heroSections,
   iphones,
+  toasts,
+  accordions,
+  carousels,
+  progressBars,
+  tables,
 };
 
 export const allComponents = [
@@ -75,6 +85,11 @@ export const allComponents = [
   ...sidebars,
   ...heroSections,
   ...iphones,
+  ...toasts,
+  ...accordions,
+  ...carousels,
+  ...progressBars,
+  ...tables,
 ];
 // { dit de de voorbeeld
 // id: 1, name: "wat de naam ook maar is", preview: <button className="wat de naam ook maar is">Get started</button>,

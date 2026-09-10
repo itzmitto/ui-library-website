@@ -25,6 +25,11 @@ import Skeletons from "./pages/Skeletons";
 import Sidebars from "./pages/Sidebars";
 import HeroSections from "./pages/HeroSections";
 import Iphone from "./pages/Iphone";
+import Toasts from "./pages/Toasts";
+import Accordions from "./pages/Accordions";
+import Carousels from "./pages/Carousels";
+import ProgressBars from "./pages/ProgressBars";
+import Tables from "./pages/Tables";
 import "./App.css";
 import "./styling/media.css";
 
@@ -77,6 +82,11 @@ function App() {
         <Route path="/elements/sidebars" element={<Sidebars />} />
         <Route path="/elements/hero-sections" element={<HeroSections />} />
         <Route path="/elements/iphone" element={<Iphone />} />
+        <Route path="/elements/toasts" element={<Toasts />} />
+        <Route path="/elements/accordions" element={<Accordions />} />
+        <Route path="/elements/carousels" element={<Carousels />} />
+        <Route path="/elements/progress-bars" element={<ProgressBars />} />
+        <Route path="/elements/tables" element={<Tables />} />
       </Routes>
     </BrowserRouter>
   );
