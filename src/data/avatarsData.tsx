@@ -7639,4 +7639,722 @@ export const avatars = [
 }
   `,
   },
+  {
+    id: 2990,
+    name: "Neon Pulse Avatar",
+    preview: <div className="avatar-2990">AB</div>,
+    html: `<div class="Avatar">AB</div>`,
+    css: `.Avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border: 2px solid #00f5ff;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #07111f, #12304a);
+  color: #00f5ff;
+  font-size: 22px;
+  font-weight: 800;
+  box-shadow: 0 0 12px rgba(0, 245, 255, 0.7), inset 0 0 18px rgba(0, 245, 255, 0.2);
+  animation: pulse 1.8s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 12px rgba(0, 245, 255, 0.7), inset 0 0 18px rgba(0, 245, 255, 0.2);
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow: 0 0 28px rgba(0, 245, 255, 1), inset 0 0 25px rgba(0, 245, 255, 0.35);
+  }
+}`,
+  },
+  {
+    id: 2991,
+    name: "Hologram Orbit Avatar",
+    preview: <div className="avatar-2991">IT</div>,
+    html: `<div class="Avatar">IT</div>`,
+    css: `.Avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  background: linear-gradient(145deg, #25134f, #0d0820);
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 800;
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.65);
+  animation: float 2.5s ease-in-out infinite;
+}
+.Avatar::before,
+.Avatar::after {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border: 2px solid transparent;
+  border-top-color: #a855f7;
+  border-bottom-color: #22d3ee;
+  border-radius: 50%;
+  animation: orbit 2s linear infinite;
+}
+.Avatar::after {
+  inset: -13px;
+  border-top-color: #22d3ee;
+  border-bottom-color: #a855f7;
+  animation-duration: 3s;
+  animation-direction: reverse;
+}
+@keyframes orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}`,
+  },
+  {
+    id: 2992,
+    name: "RGB Spin Avatar",
+    preview: <div className="avatar-2992">JS</div>,
+    html: `<div class="Avatar">JS</div>`,
+    css: `.Avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: #090909;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 800;
+  z-index: 1;
+}
+.Avatar::before {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  background: conic-gradient(#ff004c, #00f0ff, #7c3aed, #ff004c);
+  z-index: -1;
+  animation: spin 2s linear infinite;
+}
+.Avatar::after {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 50%;
+  background: #090909;
+  z-index: -1;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}`,
+  },
+  {
+    id: 2993,
+    name: "Energy Flame Avatar",
+    preview: <div className="avatar-2993">RX</div>,
+    html: `<div class="Avatar">RX</div>`,
+    css: `.Avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 35%, #fff7b2 0%, #ff9d00 28%, #ff3d00 65%, #220600 100%);
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 900;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 20px rgba(255, 80, 0, 0.8);
+  animation: flame 1.2s ease-in-out infinite alternate;
+}
+.Avatar::before {
+  content: "";
+  position: absolute;
+  inset: -7px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 165, 0, 0.7);
+  animation: energy 1.4s ease-in-out infinite;
+}
+@keyframes flame {
+  from {
+    transform: scale(1) translateY(0);
+  }
+  to {
+    transform: scale(1.06) translateY(-3px);
+  }
+}
+@keyframes energy {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.2;
+  }
+}`,
+  },
+  {
+    id: 2994,
+    name: "Glitch Avatar",
+    preview: <div className="avatar-2994">NX</div>,
+    html: `<div class="Avatar">NX</div>`,
+    css: `.Avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 74px;
+  height: 74px;
+  border: 2px solid #ffffff;
+  border-radius: 18px;
+  background: #0a0a0a;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 900;
+  overflow: hidden;
+  animation: glitch 2.5s infinite;
+}
+.Avatar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 4px,
+    rgba(255, 255, 255, 0.08) 5px
+  );
+  pointer-events: none;
+}
+.Avatar::after {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 2px;
+  background: #00ffff;
+  box-shadow: 0 0 10px #00ffff;
+  animation: scan 1.8s linear infinite;
+}
+@keyframes scan {
+  0% {
+    top: -5%;
+  }
+  100% {
+    top: 105%;
+  }
+}
+@keyframes glitch {
+  0%, 90%, 100% {
+    transform: translate(0);
+  }
+  92% {
+    transform: translate(-2px, 1px);
+  }
+  94% {
+    transform: translate(2px, -1px);
+  }
+  96% {
+    transform: translate(-1px, 0);
+  }
+}`,
+  },
+  {
+    id: 2995,
+    name: "Rainbow Aura Avatar",
+    preview: <div className="avatar-2995">RA</div>,
+    html: `<div class="Avatar">RA</div>`,
+    css: `.Avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff006e, #8338ec, #3a86ff, #06d6a0, #ffbe0b);
+  background-size: 300% 300%;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 900;
+  animation: rainbow 4s ease infinite;
+  box-shadow: 0 0 25px rgba(255, 0, 110, 0.7);
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}`,
+  },
+  {
+    id: 2996,
+    name: "Prism Spin Avatar",
+    preview: <div className="avatar-2996">PR</div>,
+    html: `<div class="Avatar">PR</div>`,
+    css: `.Avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: #111111;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 900;
+  z-index: 1;
+}
+.Avatar::before {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #ff0000,
+    #ff7a00,
+    #ffee00,
+    #00ff66,
+    #00d9ff,
+    #0055ff,
+    #9b00ff,
+    #ff00aa,
+    #ff0000
+  );
+  animation: prism 2s linear infinite;
+  z-index: -1;
+}
+.Avatar::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  background: #111111;
+  z-index: -1;
+}
+@keyframes prism {
+  to {
+    transform: rotate(360deg);
+  }
+}`,
+  },
+  {
+    id: 2997,
+    name: "Rainbow Pulse Avatar",
+    preview: <div className="avatar-2997">RP</div>,
+    html: `<div class="Avatar">RP</div>`,
+    css: `.Avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff0080, #7928ff, #00c6ff);
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 900;
+  box-shadow: 0 0 20px rgba(121, 40, 255, 0.7);
+  animation: pulse 1.6s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  50% {
+    transform: scale(1.12);
+    filter: brightness(1.35);
+    box-shadow: 0 0 38px rgba(0, 198, 255, 0.95);
+  }
+}`,
+  },
+  {
+    id: 2998,
+    name: "Chromatic Orbit Avatar",
+    preview: <div className="avatar-2998">CO</div>,
+    html: `<div class="Avatar">CO</div>`,
+    css: `.Avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #141414;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+}
+.Avatar::before,
+.Avatar::after {
+  content: "";
+  position: absolute;
+  inset: -10px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+}
+.Avatar::before {
+  border-top-color: #ff006e;
+  border-right-color: #00e5ff;
+  border-bottom-color: #7c3aed;
+  animation: orbit 2s linear infinite;
+}
+.Avatar::after {
+  inset: -16px;
+  border-left-color: #ffe600;
+  border-top-color: #00ff85;
+  animation: orbitReverse 3s linear infinite;
+}
+@keyframes orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes orbitReverse {
+  to {
+    transform: rotate(-360deg);
+  }
+}`,
+  },
+  {
+    id: 2999,
+    name: "Neon Rainbow Avatar",
+    preview: <div className="avatar-2999">NR</div>,
+    html: `<div class="Avatar">NR</div>`,
+    css: `.Avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 74px;
+  height: 74px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #0f0f18, #1b102c);
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 900;
+  overflow: hidden;
+  box-shadow:
+    0 0 15px #ff006e,
+    0 0 30px rgba(0, 229, 255, 0.4);
+  animation: neonShift 3s linear infinite;
+}
+.Avatar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent 20%,
+    rgba(255, 0, 110, 0.5),
+    rgba(0, 229, 255, 0.5),
+    transparent 80%
+  );
+  transform: translateX(-120%);
+  animation: shine 2s linear infinite;
+}
+@keyframes neonShift {
+  0% {
+    box-shadow: 0 0 15px #ff006e;
+  }
+  33% {
+    box-shadow: 0 0 20px #00e5ff;
+  }
+  66% {
+    box-shadow: 0 0 20px #8b5cf6;
+  }
+  100% {
+    box-shadow: 0 0 15px #ff006e;
+  }
+}
+@keyframes shine {
+  to {
+    transform: translateX(120%);
+  }
+}`,
+  },
+  {
+    id: 3000,
+    name: "Galaxy Rainbow Avatar",
+    preview: <div className="avatar-3000">GX</div>,
+    html: `<div class="Avatar">GX</div>`,
+    css: `.Avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 30% 30%, #ff00cc, transparent 35%),
+    radial-gradient(circle at 70% 70%, #00eaff, transparent 35%),
+    linear-gradient(135deg, #12002b, #001f3f);
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 900;
+  box-shadow: 0 0 28px rgba(140, 0, 255, 0.8);
+  animation: galaxy 5s linear infinite;
+}
+.Avatar::before {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-left-color: #ff00cc;
+  border-right-color: #00eaff;
+  border-radius: 50%;
+  animation: galaxyOrbit 2.5s linear infinite;
+}
+@keyframes galaxy {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.08) rotate(180deg);
+  }
+}
+@keyframes galaxyOrbit {
+  to {
+    transform: rotate(360deg);
+  }
+}`,
+  },
+  {
+    id: 3001,
+    name: "Color Wave Avatar",
+    preview: <div className="avatar-3001">CW</div>,
+    html: `<div class="Avatar">CW</div>`,
+    css: `.Avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: linear-gradient(
+    90deg,
+    #ff006e,
+    #ffbe0b,
+    #06d6a0,
+    #00bbf9,
+    #8338ec,
+    #ff006e
+  );
+  background-size: 500% 100%;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 900;
+  animation: wave 5s linear infinite;
+}
+.Avatar::before {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.3);
+}
+@keyframes wave {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 500% 50%;
+  }
+}`,
+  },
+  {
+    id: 3002,
+    name: "Rainbow Ring Avatar",
+    preview: <div className="avatar-3002">RR</div>,
+    html: `<div class="Avatar">RR</div>`,
+    css: `.Avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #090909;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  z-index: 1;
+}
+.Avatar::before {
+  content: "";
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #ff0055,
+    #ff9900,
+    #ffee00,
+    #00ff77,
+    #00ddff,
+    #3366ff,
+    #aa00ff,
+    #ff0055
+  );
+  animation: ring 1.8s linear infinite;
+  z-index: -1;
+}
+.Avatar::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border-radius: 50%;
+  background: #090909;
+  z-index: -1;
+}
+@keyframes ring {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.06);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}`,
+  },
+  {
+    id: 3003,
+    name: "Rainbow Glitch Avatar",
+    preview: <div className="avatar-3003">GL</div>,
+    html: `<div class="Avatar">GL</div>`,
+    css: `.Avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 74px;
+  height: 74px;
+  border-radius: 16px;
+  background: #101010;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 900;
+  box-shadow: 0 0 18px rgba(255, 0, 255, 0.6);
+  animation: glitch 2.2s infinite;
+  overflow: hidden;
+}
+.Avatar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 90, 0.35),
+    transparent,
+    rgba(0, 220, 255, 0.35)
+  );
+  animation: rainbowGlitch 1.5s linear infinite;
+}
+@keyframes glitch {
+  0%, 85%, 100% {
+    transform: translate(0);
+  }
+  87% {
+    transform: translate(-3px, 1px);
+  }
+  89% {
+    transform: translate(3px, -1px);
+  }
+  91% {
+    transform: translate(-2px, 0);
+  }
+}
+@keyframes rainbowGlitch {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}`,
+  },
+  {
+    id: 3004,
+    name: "Spectrum Energy Avatar",
+    preview: <div className="avatar-3004">SE</div>,
+    html: `<div class="Avatar">SE</div>`,
+    css: `.Avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff006e, #8338ec, #00e5ff);
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 900;
+  box-shadow:
+    0 0 12px #ff006e,
+    0 0 25px #8338ec,
+    0 0 38px #00e5ff;
+  animation: spectrum 2s ease-in-out infinite;
+}
+.Avatar::before {
+  content: "";
+  position: absolute;
+  inset: -10px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-top-color: #ff006e;
+  border-right-color: #ffbe0b;
+  border-bottom-color: #00e5ff;
+  border-left-color: #8338ec;
+  animation: spectrumRing 1.5s linear infinite;
+}
+@keyframes spectrum {
+  0%, 100% {
+    transform: scale(1);
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    transform: scale(1.1);
+    filter: hue-rotate(90deg);
+  }
+}
+@keyframes spectrumRing {
+  to {
+    transform: rotate(360deg);
+  }
+}`,
+  },
 ];
