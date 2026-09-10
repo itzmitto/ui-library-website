@@ -4301,4 +4301,1386 @@ export const tooltips = [
 }
 `,
   },
+  {
+    id: 2765,
+    name: "Legendary Quantum Holographic Tooltip",
+    preview: (
+      <div className="tip-2765">
+        <div className="tip-2765__ambient">
+          <span className="tip-2765__ambient-ring tip-2765__ambient-ring-one"></span>
+          <span className="tip-2765__ambient-ring tip-2765__ambient-ring-two"></span>
+          <span className="tip-2765__ambient-ring tip-2765__ambient-ring-three"></span>
+          <span className="tip-2765__ambient-glow"></span>
+        </div>
+        <div className="tip-2765__source">
+          <button className="tip-2765__button">
+            <span className="tip-2765__button-shine"></span>
+            <span className="tip-2765__button-grid"></span>
+            <span className="tip-2765__button-icon">
+              <i className="ri-sparkling-2-line"></i>
+            </span>
+            <span className="tip-2765__button-content">
+              <small>INTERFACE</small>
+              <strong>QUANTUM</strong>
+            </span>
+            <span className="tip-2765__button-signal"></span>
+            <i className="ri-arrow-up-right-line tip-2765__button-arrow"></i>
+          </button>
+          <div className="tip-2765__tooltip">
+            <div className="tip-2765__scan"></div>
+            <div className="tip-2765__scan-two"></div>
+            <div className="tip-2765__noise"></div>
+            <div className="tip-2765__frame"></div>
+            <div className="tip-2765__frame-glow"></div>
+            <div className="tip-2765__corner tip-2765__corner-one"></div>
+            <div className="tip-2765__corner tip-2765__corner-two"></div>
+            <div className="tip-2765__corner tip-2765__corner-three"></div>
+            <div className="tip-2765__corner tip-2765__corner-four"></div>
+            <div className="tip-2765__header">
+              <div className="tip-2765__header-left">
+                <span className="tip-2765__header-indicator">
+                  <span></span>
+                </span>
+                <span className="tip-2765__header-title">SYSTEM INTERFACE</span>
+              </div>
+              <div className="tip-2765__header-right">
+                <span>ONLINE</span>
+                <i className="ri-broadcast-line"></i>
+              </div>
+            </div>
+            <div className="tip-2765__main">
+              <div className="tip-2765__visual">
+                <div className="tip-2765__orbital orbital-one"></div>
+                <div className="tip-2765__orbital orbital-two"></div>
+                <div className="tip-2765__orbital orbital-three"></div>
+                <div className="tip-2765__orbital orbital-four"></div>
+                <div className="tip-2765__core">
+                  <span className="tip-2765__core-inner"></span>
+                  <span className="tip-2765__core-light"></span>
+                  <span className="tip-2765__core-symbol">
+                    <i className="ri-user-3-line"></i>
+                  </span>
+                </div>
+                <span className="tip-2765__particle particle-one"></span>
+                <span className="tip-2765__particle particle-two"></span>
+                <span className="tip-2765__particle particle-three"></span>
+                <span className="tip-2765__particle particle-four"></span>
+                <span className="tip-2765__particle particle-five"></span>
+                <span className="tip-2765__particle particle-six"></span>
+                <span className="tip-2765__particle particle-seven"></span>
+                <span className="tip-2765__particle particle-eight"></span>
+              </div>
+              <div className="tip-2765__identity">
+                <div className="tip-2765__identity-top">
+                  <div className="tip-2765__identity-title">
+                    <span className="tip-2765__mini-label">
+                      IDENTITY VERIFIED
+                    </span>
+                    <strong>André</strong>
+                  </div>
+                  <span className="tip-2765__verified">
+                    <i className="ri-check-line"></i>
+                  </span>
+                </div>
+                <div className="tip-2765__message">
+                  <span className="tip-2765__message-prefix">&gt;</span>
+                  <span className="tip-2765__typing">
+                    Hallo mijn naam is André
+                  </span>
+                  <span className="tip-2765__caret"></span>
+                </div>
+                <div className="tip-2765__subline">
+                  <span>Personal interface signal detected</span>
+                </div>
+              </div>
+            </div>
+            <div className="tip-2765__data">
+              <div className="tip-2765__data-card">
+                <span className="tip-2765__data-icon">
+                  <i className="ri-shield-check-line"></i>
+                </span>
+                <span className="tip-2765__data-content">
+                  <small>SECURITY</small>
+                  <strong>SECURE</strong>
+                </span>
+                <span className="tip-2765__data-status"></span>
+              </div>
+              <div className="tip-2765__data-card">
+                <span className="tip-2765__data-icon">
+                  <i className="ri-pulse-line"></i>
+                </span>
+                <span className="tip-2765__data-content">
+                  <small>STATUS</small>
+                  <strong>STABLE</strong>
+                </span>
+                <span className="tip-2765__data-status"></span>
+              </div>
+              <div className="tip-2765__data-card">
+                <span className="tip-2765__data-icon">
+                  <i className="ri-speed-up-line"></i>
+                </span>
+                <span className="tip-2765__data-content">
+                  <small>LATENCY</small>
+                  <strong>4.2MS</strong>
+                </span>
+                <span className="tip-2765__data-status"></span>
+              </div>
+            </div>
+            <div className="tip-2765__progress">
+              <div className="tip-2765__progress-top">
+                <span>INTERFACE SYNCHRONIZATION</span>
+                <strong>98%</strong>
+              </div>
+              <div className="tip-2765__progress-track">
+                <span></span>
+              </div>
+              <div className="tip-2765__progress-points">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div className="tip-2765__command">
+              <div className="tip-2765__command-left">
+                <i className="ri-terminal-box-line"></i>
+                <span>SESSION READY</span>
+              </div>
+              <div className="tip-2765__command-right">
+                <span className="tip-2765__command-dot"></span>
+                <span>LIVE</span>
+              </div>
+            </div>
+            <div className="tip-2765__footer">
+              <div className="tip-2765__footer-left">
+                <span className="tip-2765__footer-icon">
+                  <i className="ri-fingerprint-line"></i>
+                </span>
+                <span>
+                  <small>USER SIGNATURE</small>
+                  <strong>ANDRÉ-042</strong>
+                </span>
+              </div>
+              <div className="tip-2765__footer-right">
+                <span>v4.8.1</span>
+                <i className="ri-arrow-right-up-line"></i>
+              </div>
+            </div>
+            <div className="tip-2765__binary">
+              <span>01001000</span>
+              <span>01100101</span>
+              <span>01101100</span>
+              <span>01101100</span>
+              <span>01101111</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="tip-2765">
+    <div class="tip-2765__ambient">
+        <span class="tip-2765__ambient-ring tip-2765__ambient-ring-one"></span>
+        <span class="tip-2765__ambient-ring tip-2765__ambient-ring-two"></span>
+        <span class="tip-2765__ambient-ring tip-2765__ambient-ring-three"></span>
+        <span class="tip-2765__ambient-glow"></span>
+    </div>
+    <div class="tip-2765__source">
+        <button class="tip-2765__button">
+            <span class="tip-2765__button-shine"></span>
+            <span class="tip-2765__button-grid"></span>
+            <span class="tip-2765__button-icon">
+                <i class="ri-sparkling-2-line"></i>
+            </span>
+            <span class="tip-2765__button-content">
+                <small>INTERFACE</small>
+                <strong>QUANTUM</strong>
+            </span>
+            <span class="tip-2765__button-signal"></span>
+            <i class="ri-arrow-up-right-line tip-2765__button-arrow"></i>
+        </button>
+        <div class="tip-2765__tooltip">
+            <div class="tip-2765__scan"></div>
+            <div class="tip-2765__scan-two"></div>
+            <div class="tip-2765__noise"></div>
+            <div class="tip-2765__frame"></div>
+            <div class="tip-2765__frame-glow"></div>
+            <div class="tip-2765__corner tip-2765__corner-one"></div>
+            <div class="tip-2765__corner tip-2765__corner-two"></div>
+            <div class="tip-2765__corner tip-2765__corner-three"></div>
+            <div class="tip-2765__corner tip-2765__corner-four"></div>
+            <div class="tip-2765__header">
+                <div class="tip-2765__header-left">
+                    <span class="tip-2765__header-indicator">
+                        <span></span>
+                    </span>
+                    <span class="tip-2765__header-title">SYSTEM INTERFACE</span>
+                </div>
+                <div class="tip-2765__header-right">
+                    <span>ONLINE</span>
+                    <i class="ri-broadcast-line"></i>
+                </div>
+            </div>
+            <div class="tip-2765__main">
+                <div class="tip-2765__visual">
+                    <div class="tip-2765__orbital orbital-one"></div>
+                    <div class="tip-2765__orbital orbital-two"></div>
+                    <div class="tip-2765__orbital orbital-three"></div>
+                    <div class="tip-2765__orbital orbital-four"></div>
+                    <div class="tip-2765__core">
+                        <span class="tip-2765__core-inner"></span>
+                        <span class="tip-2765__core-light"></span>
+                        <span class="tip-2765__core-symbol">
+                            <i class="ri-user-3-line"></i>
+                        </span>
+                    </div>
+                    <span class="tip-2765__particle particle-one"></span>
+                    <span class="tip-2765__particle particle-two"></span>
+                    <span class="tip-2765__particle particle-three"></span>
+                    <span class="tip-2765__particle particle-four"></span>
+                    <span class="tip-2765__particle particle-five"></span>
+                    <span class="tip-2765__particle particle-six"></span>
+                    <span class="tip-2765__particle particle-seven"></span>
+                    <span class="tip-2765__particle particle-eight"></span>
+                </div>
+                <div class="tip-2765__identity">
+                    <div class="tip-2765__identity-top">
+                        <div class="tip-2765__identity-title">
+                            <span class="tip-2765__mini-label">IDENTITY VERIFIED</span>
+                            <strong>André</strong>
+                        </div>
+                        <span class="tip-2765__verified">
+                            <i class="ri-check-line"></i>
+                        </span>
+                    </div>
+                    <div class="tip-2765__message">
+                        <span class="tip-2765__message-prefix">&gt;</span>
+                        <span class="tip-2765__typing">Hallo mijn naam is André</span>
+                        <span class="tip-2765__caret"></span>
+                    </div>
+                    <div class="tip-2765__subline">
+                        <span>Personal interface signal detected</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tip-2765__data">
+                <div class="tip-2765__data-card">
+                    <span class="tip-2765__data-icon">
+                        <i class="ri-shield-check-line"></i>
+                    </span>
+                    <span class="tip-2765__data-content">
+                        <small>SECURITY</small>
+                        <strong>SECURE</strong>
+                    </span>
+                    <span class="tip-2765__data-status"></span>
+                </div>
+                <div class="tip-2765__data-card">
+                    <span class="tip-2765__data-icon">
+                        <i class="ri-pulse-line"></i>
+                    </span>
+                    <span class="tip-2765__data-content">
+                        <small>STATUS</small>
+                        <strong>STABLE</strong>
+                    </span>
+                    <span class="tip-2765__data-status"></span>
+                </div>
+                <div class="tip-2765__data-card">
+                    <span class="tip-2765__data-icon">
+                        <i class="ri-speed-up-line"></i>
+                    </span>
+                    <span class="tip-2765__data-content">
+                        <small>LATENCY</small>
+                        <strong>4.2MS</strong>
+                    </span>
+                    <span class="tip-2765__data-status"></span>
+                </div>
+            </div>
+            <div class="tip-2765__progress">
+                <div class="tip-2765__progress-top">
+                    <span>INTERFACE SYNCHRONIZATION</span>
+                    <strong>98%</strong>
+                </div>
+                <div class="tip-2765__progress-track">
+                    <span></span>
+                </div>
+                <div class="tip-2765__progress-points">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="tip-2765__command">
+                <div class="tip-2765__command-left">
+                    <i class="ri-terminal-box-line"></i>
+                    <span>SESSION READY</span>
+                </div>
+                <div class="tip-2765__command-right">
+                    <span class="tip-2765__command-dot"></span>
+                    <span>LIVE</span>
+                </div>
+            </div>
+            <div class="tip-2765__footer">
+                <div class="tip-2765__footer-left">
+                    <span class="tip-2765__footer-icon">
+                        <i class="ri-fingerprint-line"></i>
+                    </span>
+                    <span>
+                        <small>USER SIGNATURE</small>
+                        <strong>ANDRÉ-042</strong>
+                    </span>
+                </div>
+                <div class="tip-2765__footer-right">
+                    <span>v4.8.1</span>
+                    <i class="ri-arrow-right-up-line"></i>
+                </div>
+            </div>
+            <div class="tip-2765__binary">
+                <span>01001000</span>
+                <span>01100101</span>
+                <span>01101100</span>
+                <span>01101100</span>
+                <span>01101111</span>
+            </div>
+        </div>
+    </div>
+</div>`,
+    css: `.tip-2765 {
+    position: relative;
+    width: 100%;
+    min-height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    font-family: "Inter", "Segoe UI", sans-serif;
+    isolation: isolate;
+}
+.tip-2765__ambient {
+    position: absolute;
+    width: 470px;
+    height: 470px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+}
+.tip-2765__ambient-ring {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 1px solid rgba(92,120,255,.12);
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+.tip-2765__ambient-ring-one {
+    width: 210px;
+    height: 210px;
+    animation: tip-2765__ambientSpin 15s linear infinite;
+}
+.tip-2765__ambient-ring-two {
+    width: 320px;
+    height: 320px;
+    border-style: dashed;
+    animation: tip-2765__ambientSpinReverse 22s linear infinite;
+}
+.tip-2765__ambient-ring-three {
+    width: 430px;
+    height: 430px;
+    border-color: rgba(0,220,255,.07);
+    animation: tip-2765__ambientSpin 30s linear infinite;
+}
+.tip-2765__ambient-glow {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background: radial-gradient(circle,rgba(78,112,255,.13),rgba(82,48,255,.05) 35%,transparent 72%);
+    filter: blur(15px);
+    animation: tip-2765__ambientPulse 4s ease-in-out infinite;
+}
+.tip-2765__source {
+    position: relative;
+    z-index: 5;
+}
+.tip-2765__button {
+    position: relative;
+    width: 178px;
+    height: 58px;
+    padding: 5px 10px;
+    border: 1px solid rgba(103,129,255,.45);
+    border-radius: 14px;
+    background: linear-gradient(145deg,rgba(23,27,46,.96),rgba(10,13,25,.96));
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow:
+        0 0 30px rgba(64,83,255,.12),
+        inset 0 1px 0 rgba(255,255,255,.06);
+    transition: .35s ease;
+}
+.tip-2765__button:hover {
+    border-color: rgba(121,147,255,.9);
+    box-shadow:
+        0 0 25px rgba(74,104,255,.25),
+        0 0 55px rgba(0,195,255,.1),
+        inset 0 1px 0 rgba(255,255,255,.09);
+    transform: translateY(-3px) scale(1.02);
+}
+.tip-2765__button-shine {
+    position: absolute;
+    width: 70%;
+    height: 160%;
+    left: -90%;
+    top: -30%;
+    transform: rotate(18deg);
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.12),transparent);
+    animation: tip-2765__buttonShine 4s linear infinite;
+}
+.tip-2765__button-grid {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(rgba(92,120,255,.035) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(92,120,255,.035) 1px,transparent 1px);
+    background-size: 12px 12px;
+    mask-image: linear-gradient(90deg,transparent,#000 20%,#000 80%,transparent);
+}
+.tip-2765__button-icon {
+    position: relative;
+    width: 39px;
+    height: 39px;
+    flex: 0 0 39px;
+    border-radius: 11px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(145deg,#27315b,#15192d);
+    border: 1px solid rgba(117,144,255,.42);
+    color: #8aa4ff;
+    font-size: 19px;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.05),
+        0 0 18px rgba(80,105,255,.12);
+    z-index: 2;
+    animation: tip-2765__iconPulse 3s ease-in-out infinite;
+}
+.tip-2765__button-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    text-align: left;
+}
+.tip-2765__button-content small {
+    color: #646f8b;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.tip-2765__button-content strong {
+    color: #e7ebff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tip-2765__button-signal {
+    position: relative;
+    z-index: 2;
+    width: 6px;
+    height: 6px;
+    margin-left: auto;
+    border-radius: 50%;
+    background: #50e0a1;
+    box-shadow: 0 0 10px rgba(80,224,161,.8);
+    animation: tip-2765__signal 1.6s ease-in-out infinite;
+}
+.tip-2765__button-arrow {
+    position: relative;
+    z-index: 2;
+    color: #68728b;
+    font-size: 15px;
+}
+.tip-2765__tooltip {
+    position: absolute;
+    width: 430px;
+    left: 50%;
+    bottom: calc(100% + 25px);
+    transform: translateX(-50%) translateY(15px) scale(.94);
+    padding: 14px;
+    border: 1px solid rgba(93,125,255,.6);
+    border-radius: 18px;
+    background:
+        radial-gradient(circle at 85% 10%,rgba(84,103,255,.13),transparent 28%),
+        radial-gradient(circle at 10% 80%,rgba(0,214,255,.07),transparent 32%),
+        rgba(8,11,20,.97);
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    overflow: hidden;
+    box-shadow:
+        0 35px 70px rgba(0,0,0,.55),
+        0 0 45px rgba(69,96,255,.14),
+        inset 0 1px 0 rgba(255,255,255,.045);
+    backdrop-filter: blur(18px);
+    transition: opacity .4s ease,visibility .4s ease,transform .4s cubic-bezier(.2,.7,.2,1);
+}
+.tip-2765__tooltip::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 18px;
+    height: 18px;
+    border-right: 1px solid rgba(93,125,255,.55);
+    border-bottom: 1px solid rgba(93,125,255,.55);
+    background: #0b0e18;
+    transform: translate(-50%,-9px) rotate(45deg);
+    box-shadow: 8px 8px 18px rgba(0,0,0,.15);
+}
+.tip-2765:hover .tip-2765__tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0) scale(1);
+}
+.tip-2765__frame {
+    position: absolute;
+    inset: 6px;
+    border: 1px solid rgba(255,255,255,.045);
+    border-radius: 13px;
+    pointer-events: none;
+}
+.tip-2765__frame::before,
+.tip-2765__frame::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 1px;
+    background: #6684ff;
+    box-shadow: 0 0 8px rgba(102,132,255,.7);
+}
+.tip-2765__frame::before {
+    left: 16px;
+    top: -1px;
+}
+.tip-2765__frame::after {
+    right: 16px;
+    bottom: -1px;
+}
+.tip-2765__frame-glow {
+    position: absolute;
+    inset: 1px;
+    border-radius: 17px;
+    border: 1px solid transparent;
+    background:
+        linear-gradient(#0b0e18,#0b0e18) padding-box,
+        linear-gradient(120deg,rgba(88,113,255,.5),transparent 25%,transparent 70%,rgba(0,210,255,.38)) border-box;
+    opacity: .7;
+    pointer-events: none;
+}
+.tip-2765__scan {
+    position: absolute;
+    left: -20%;
+    top: -25%;
+    width: 140%;
+    height: 22%;
+    background: linear-gradient(180deg,transparent,rgba(81,143,255,.06),rgba(73,208,255,.12),transparent);
+    filter: blur(2px);
+    animation: tip-2765__scanMove 3.2s linear infinite;
+    pointer-events: none;
+}
+.tip-2765__scan-two {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 1px;
+    background: linear-gradient(90deg,transparent,#65ddff,transparent);
+    box-shadow: 0 0 12px rgba(101,221,255,.7);
+    opacity: .5;
+    animation: tip-2765__scanLine 2.4s linear infinite;
+    pointer-events: none;
+}
+.tip-2765__noise {
+    position: absolute;
+    inset: 0;
+    opacity: .16;
+    background-image:
+        radial-gradient(circle at 12% 19%,rgba(255,255,255,.15) 0 1px,transparent 1px),
+        radial-gradient(circle at 70% 70%,rgba(100,180,255,.13) 0 1px,transparent 1px),
+        radial-gradient(circle at 35% 85%,rgba(255,100,200,.12) 0 1px,transparent 1px);
+    background-size: 70px 70px,110px 110px,90px 90px;
+    animation: tip-2765__noiseMove 7s linear infinite;
+    pointer-events: none;
+}
+.tip-2765__corner {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-color: rgba(106,139,255,.7);
+    border-style: solid;
+    z-index: 4;
+    pointer-events: none;
+}
+.tip-2765__corner-one {
+    left: 10px;
+    top: 10px;
+    border-width: 1px 0 0 1px;
+}
+.tip-2765__corner-two {
+    right: 10px;
+    top: 10px;
+    border-width: 1px 1px 0 0;
+}
+.tip-2765__corner-three {
+    left: 10px;
+    bottom: 10px;
+    border-width: 0 0 1px 1px;
+}
+.tip-2765__corner-four {
+    right: 10px;
+    bottom: 10px;
+    border-width: 0 1px 1px 0;
+}
+.tip-2765__header {
+    position: relative;
+    z-index: 5;
+    height: 33px;
+    padding: 0 7px 0 6px;
+    border-bottom: 1px solid rgba(255,255,255,.055);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tip-2765__header-left {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.tip-2765__header-indicator {
+    width: 17px;
+    height: 17px;
+    border: 1px solid rgba(86,135,255,.35);
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    background: rgba(68,98,255,.07);
+}
+.tip-2765__header-indicator span {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #66a0ff;
+    box-shadow: 0 0 7px #66a0ff;
+    animation: tip-2765__signal 1.5s ease-in-out infinite;
+}
+.tip-2765__header-title {
+    color: #737e93;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.tip-2765__header-right {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #4fd79a;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tip-2765__header-right i {
+    font-size: 13px;
+    animation: tip-2765__broadcast 2s ease-in-out infinite;
+}
+.tip-2765__main {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    gap: 14px;
+    min-height: 123px;
+    padding: 15px 7px 13px;
+}
+.tip-2765__visual {
+    position: relative;
+    width: 108px;
+    height: 95px;
+    flex: 0 0 108px;
+    display: grid;
+    place-items: center;
+}
+.tip-2765__orbital {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    border: 1px solid rgba(77,150,255,.3);
+    transform: translate(-50%,-50%);
+}
+.tip-2765__orbital::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #6de6ff;
+    box-shadow: 0 0 9px #6de6ff;
+    transform: translateX(-50%);
+}
+.tip-2765__orbital::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    right: 10%;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #aa78ff;
+    box-shadow: 0 0 8px #aa78ff;
+}
+.tip-2765__orbital.orbital-one {
+    width: 46px;
+    height: 46px;
+    animation: tip-2765__orbitOne 3.2s linear infinite;
+}
+.tip-2765__orbital.orbital-two {
+    width: 68px;
+    height: 68px;
+    border-color: rgba(163,90,255,.23);
+    transform: translate(-50%,-50%) rotate(50deg);
+    animation: tip-2765__orbitTwo 4.2s linear infinite;
+}
+.tip-2765__orbital.orbital-three {
+    width: 89px;
+    height: 89px;
+    border-color: rgba(35,219,255,.15);
+    border-style: dashed;
+    transform: translate(-50%,-50%) rotate(-35deg);
+    animation: tip-2765__orbitThree 7s linear infinite;
+}
+.tip-2765__orbital.orbital-four {
+    width: 103px;
+    height: 50px;
+    border-color: rgba(125,109,255,.12);
+    transform: translate(-50%,-50%) rotate(68deg);
+    animation: tip-2765__orbitFour 5s linear infinite;
+}
+.tip-2765__core {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: radial-gradient(circle at 35% 30%,#8eefff,#456bff 45%,#2b145d 100%);
+    border: 1px solid rgba(180,225,255,.65);
+    box-shadow:
+        0 0 15px rgba(76,154,255,.55),
+        0 0 35px rgba(119,73,255,.25),
+        inset 0 0 15px rgba(255,255,255,.18);
+    animation: tip-2765__corePulse 2.4s ease-in-out infinite;
+    z-index: 2;
+}
+.tip-2765__core-inner {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,.55);
+    box-shadow: inset 0 0 9px rgba(255,255,255,.2);
+}
+.tip-2765__core-light {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 12px #dff8ff;
+    opacity: .75;
+    animation: tip-2765__coreLight 1.8s ease-in-out infinite;
+}
+.tip-2765__core-symbol {
+    position: relative;
+    z-index: 5;
+    color: #fff;
+    font-size: 15px;
+    text-shadow: 0 0 8px rgba(255,255,255,.7);
+}
+.tip-2765__particle {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #79dcff;
+    box-shadow: 0 0 7px #79dcff;
+}
+.tip-2765__particle.particle-one {
+    left: 5px;
+    top: 22px;
+    animation: tip-2765__particleFloat 2.4s ease-in-out infinite;
+}
+.tip-2765__particle.particle-two {
+    right: 4px;
+    top: 13px;
+    animation: tip-2765__particleFloat 2.9s ease-in-out infinite .2s;
+}
+.tip-2765__particle.particle-three {
+    left: 15px;
+    bottom: 12px;
+    animation: tip-2765__particleFloat 3.1s ease-in-out infinite .5s;
+}
+.tip-2765__particle.particle-four {
+    right: 17px;
+    bottom: 17px;
+    background: #b66fff;
+    box-shadow: 0 0 7px #b66fff;
+    animation: tip-2765__particleFloat 2.2s ease-in-out infinite .7s;
+}
+.tip-2765__particle.particle-five {
+    left: 31px;
+    top: 3px;
+    animation: tip-2765__particleFloat 2.8s ease-in-out infinite 1s;
+}
+.tip-2765__particle.particle-six {
+    right: 30px;
+    bottom: 4px;
+    background: #ff63c8;
+    box-shadow: 0 0 7px #ff63c8;
+    animation: tip-2765__particleFloat 3.5s ease-in-out infinite 1.2s;
+}
+.tip-2765__particle.particle-seven {
+    left: 4px;
+    bottom: 35px;
+    animation: tip-2765__particleFloat 2.6s ease-in-out infinite .3s;
+}
+.tip-2765__particle.particle-eight {
+    right: 1px;
+    top: 43px;
+    background: #ffe76a;
+    box-shadow: 0 0 7px #ffe76a;
+    animation: tip-2765__particleFloat 3s ease-in-out infinite .8s;
+}
+.tip-2765__identity {
+    min-width: 0;
+    flex: 1;
+    padding-top: 8px;
+}
+.tip-2765__identity-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.tip-2765__identity-title {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.tip-2765__mini-label {
+    color: #69778f;
+    font-size: 7px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+.tip-2765__identity-title strong {
+    color: #e9edf8;
+    font-size: 18px;
+    font-weight: 650;
+}
+.tip-2765__verified {
+    width: 23px;
+    height: 23px;
+    border-radius: 7px;
+    display: grid;
+    place-items: center;
+    color: #64dcac;
+    border: 1px solid rgba(66,220,154,.2);
+    background: rgba(50,210,144,.07);
+    box-shadow: 0 0 10px rgba(50,210,144,.08);
+}
+.tip-2765__verified i {
+    font-size: 13px;
+}
+.tip-2765__message {
+    min-height: 36px;
+    margin-top: 13px;
+    padding: 8px 9px;
+    border: 1px solid rgba(95,129,255,.13);
+    border-radius: 8px;
+    background: rgba(47,69,126,.055);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    overflow: hidden;
+}
+.tip-2765__message-prefix {
+    color: #62d9ff;
+    font-family: monospace;
+    font-size: 12px;
+}
+.tip-2765__typing {
+    color: #d9e6ff;
+    font-family: "Courier New",monospace;
+    font-size: 10px;
+    white-space: nowrap;
+}
+.tip-2765__caret {
+    width: 4px;
+    height: 11px;
+    background: #62d9ff;
+    animation: tip-2765__caret 1s steps(2) infinite;
+}
+.tip-2765__subline {
+    margin-top: 8px;
+    color: #596477;
+    font-size: 8px;
+}
+.tip-2765__data {
+    position: relative;
+    z-index: 5;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7px;
+    padding: 0 7px 12px;
+}
+.tip-2765__data-card {
+    min-height: 50px;
+    padding: 7px;
+    border: 1px solid rgba(255,255,255,.055);
+    border-radius: 9px;
+    background: rgba(255,255,255,.018);
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    transition: .25s ease;
+}
+.tip-2765__data-card:hover {
+    border-color: rgba(102,137,255,.25);
+    background: rgba(79,105,255,.045);
+    transform: translateY(-2px);
+}
+.tip-2765__data-icon {
+    width: 27px;
+    height: 27px;
+    border-radius: 7px;
+    display: grid;
+    place-items: center;
+    background: rgba(77,110,255,.08);
+    color: #7397ff;
+    flex: 0 0 27px;
+}
+.tip-2765__data-icon i {
+    font-size: 13px;
+}
+.tip-2765__data-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+}
+.tip-2765__data-content small {
+    color: #596476;
+    font-size: 6px;
+    letter-spacing: .8px;
+    font-weight: 700;
+}
+.tip-2765__data-content strong {
+    color: #cdd5e4;
+    font-size: 8px;
+    letter-spacing: .4px;
+}
+.tip-2765__data-status {
+    width: 5px;
+    height: 5px;
+    margin-left: auto;
+    border-radius: 50%;
+    background: #4bdc9b;
+    box-shadow: 0 0 8px rgba(75,220,155,.8);
+}
+.tip-2765__progress {
+    position: relative;
+    z-index: 5;
+    padding: 1px 7px 10px;
+}
+.tip-2765__progress-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #687389;
+    font-size: 7px;
+    font-weight: 700;
+    letter-spacing: .9px;
+}
+.tip-2765__progress-top strong {
+    color: #86a3ff;
+    font-size: 8px;
+}
+.tip-2765__progress-track {
+    height: 5px;
+    margin-top: 7px;
+    border-radius: 10px;
+    background: #181c26;
+    overflow: hidden;
+}
+.tip-2765__progress-track span {
+    display: block;
+    width: 98%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg,#4e71ff,#647dff,#53d7ff);
+    box-shadow: 0 0 12px rgba(76,130,255,.45);
+    animation: tip-2765__progressGlow 2.2s ease-in-out infinite;
+}
+.tip-2765__progress-points {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.tip-2765__progress-points span {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: #394254;
+}
+.tip-2765__progress-points span:nth-child(-n+7) {
+    background: #6186ff;
+    box-shadow: 0 0 5px rgba(97,134,255,.5);
+}
+.tip-2765__command {
+    position: relative;
+    z-index: 5;
+    margin: 2px 7px 8px;
+    padding: 7px 9px;
+    border: 1px solid rgba(70,218,170,.1);
+    border-radius: 7px;
+    background: rgba(36,160,120,.025);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tip-2765__command-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #6fcba7;
+    font-family: "Courier New",monospace;
+    font-size: 8px;
+    letter-spacing: .6px;
+}
+.tip-2765__command-left i {
+    font-size: 13px;
+}
+.tip-2765__command-right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #4bd99a;
+    font-size: 7px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tip-2765__command-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #4bd99a;
+    box-shadow: 0 0 8px #4bd99a;
+    animation: tip-2765__signal 1.5s ease-in-out infinite;
+}
+.tip-2765__footer {
+    position: relative;
+    z-index: 5;
+    margin: 0 7px;
+    padding: 10px 0 6px;
+    border-top: 1px solid rgba(255,255,255,.045);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tip-2765__footer-left {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.tip-2765__footer-icon {
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgba(96,128,255,.18);
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+    background: rgba(76,105,255,.055);
+    color: #7395ff;
+}
+.tip-2765__footer-icon i {
+    font-size: 12px;
+}
+.tip-2765__footer-left > span:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.tip-2765__footer-left small {
+    color: #505a6b;
+    font-size: 6px;
+    letter-spacing: 1px;
+}
+.tip-2765__footer-left strong {
+    color: #8995aa;
+    font-family: "Courier New",monospace;
+    font-size: 8px;
+    letter-spacing: .5px;
+}
+.tip-2765__footer-right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #505a6c;
+    font-family: "Courier New",monospace;
+    font-size: 7px;
+}
+.tip-2765__footer-right i {
+    color: #6f86d4;
+    font-size: 11px;
+}
+.tip-2765__binary {
+    position: relative;
+    z-index: 5;
+    margin-top: 1px;
+    padding: 4px 7px 3px;
+    display: flex;
+    justify-content: space-between;
+    color: #293140;
+    font-family: "Courier New",monospace;
+    font-size: 5px;
+    letter-spacing: 1px;
+    opacity: .8;
+}
+@keyframes tip-2765__ambientSpin {
+    to {
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+@keyframes tip-2765__ambientSpinReverse {
+    to {
+        transform: translate(-50%,-50%) rotate(-360deg);
+    }
+}
+@keyframes tip-2765__ambientPulse {
+    0%,100% {
+        opacity: .65;
+        transform: translate(-50%,-50%) scale(.92);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(-50%,-50%) scale(1.08);
+    }
+}
+@keyframes tip-2765__buttonShine {
+    0% {
+        left: -90%;
+    }
+    100% {
+        left: 150%;
+    }
+}
+@keyframes tip-2765__iconPulse {
+    0%,100% {
+        box-shadow:
+            inset 0 1px 0 rgba(255,255,255,.05),
+            0 0 18px rgba(80,105,255,.12);
+    }
+    50% {
+        box-shadow:
+            inset 0 1px 0 rgba(255,255,255,.08),
+            0 0 25px rgba(80,140,255,.27);
+    }
+}
+@keyframes tip-2765__signal {
+    0%,100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: .5;
+        transform: scale(.65);
+    }
+}
+@keyframes tip-2765__scanMove {
+    0% {
+        top: -30%;
+    }
+    100% {
+        top: 125%;
+    }
+}
+@keyframes tip-2765__scanLine {
+    0% {
+        top: 5%;
+        opacity: 0;
+    }
+    10% {
+        opacity: .55;
+    }
+    50% {
+        opacity: .35;
+    }
+    90% {
+        opacity: .55;
+    }
+    100% {
+        top: 95%;
+        opacity: 0;
+    }
+}
+@keyframes tip-2765__noiseMove {
+    0% {
+        transform: translate3d(0,0,0);
+    }
+    25% {
+        transform: translate3d(3px,-2px,0);
+    }
+    50% {
+        transform: translate3d(-2px,3px,0);
+    }
+    75% {
+        transform: translate3d(2px,2px,0);
+    }
+    100% {
+        transform: translate3d(0,0,0);
+    }
+}
+@keyframes tip-2765__orbitOne {
+    to {
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+@keyframes tip-2765__orbitTwo {
+    to {
+        transform: translate(-50%,-50%) rotate(410deg);
+    }
+}
+@keyframes tip-2765__orbitThree {
+    to {
+        transform: translate(-50%,-50%) rotate(325deg);
+    }
+}
+@keyframes tip-2765__orbitFour {
+    to {
+        transform: translate(-50%,-50%) rotate(428deg);
+    }
+}
+@keyframes tip-2765__corePulse {
+    0%,100% {
+        transform: scale(.96);
+        box-shadow:
+            0 0 15px rgba(76,154,255,.55),
+            0 0 35px rgba(119,73,255,.25),
+            inset 0 0 15px rgba(255,255,255,.18);
+    }
+    50% {
+        transform: scale(1.04);
+        box-shadow:
+            0 0 23px rgba(76,174,255,.72),
+            0 0 48px rgba(119,73,255,.4),
+            inset 0 0 17px rgba(255,255,255,.25);
+    }
+}
+@keyframes tip-2765__coreLight {
+    0%,100% {
+        opacity: .55;
+        transform: scale(.75);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+@keyframes tip-2765__particleFloat {
+    0%,100% {
+        transform: translate3d(0,0,0) scale(1);
+        opacity: .45;
+    }
+    50% {
+        transform: translate3d(0,-7px,0) scale(1.3);
+        opacity: 1;
+    }
+}
+@keyframes tip-2765__caret {
+    0%,45% {
+        opacity: 1;
+    }
+    46%,100% {
+        opacity: 0;
+    }
+}
+@keyframes tip-2765__broadcast {
+    0%,100% {
+        opacity: .5;
+        transform: scale(.9);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
+@keyframes tip-2765__progressGlow {
+    0%,100% {
+        filter: brightness(.95);
+    }
+    50% {
+        filter: brightness(1.25);
+    }
+}
+@media (max-width: 560px) {
+    .tip-2765 {
+        min-height: 570px;
+        transform: scale(.88);
+    }
+}
+@media (max-width: 430px) {
+    .tip-2765 {
+        transform: scale(.76);
+        transform-origin: center center;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .tip-2765__ambient-ring,
+    .tip-2765__ambient-glow,
+    .tip-2765__button-shine,
+    .tip-2765__button-icon,
+    .tip-2765__button-signal,
+    .tip-2765__header-indicator span,
+    .tip-2765__header-right i,
+    .tip-2765__orbital,
+    .tip-2765__core,
+    .tip-2765__core-light,
+    .tip-2765__particle,
+    .tip-2765__caret,
+    .tip-2765__scan,
+    .tip-2765__scan-two,
+    .tip-2765__noise,
+    .tip-2765__progress-track span,
+    .tip-2765__command-dot {
+        animation: none;
+    }
+}
+`,
+  },
 ];
