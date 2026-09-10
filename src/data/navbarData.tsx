@@ -10909,4 +10909,1751 @@ export const navbar = [
     cursor: pointer;
 }`,
   },
+  {
+    id: 3100,
+    name: "Aurora Glass",
+    preview: (
+      <div className="nv-3100">
+        <div className="nv-3100__logo">
+          <i className="ri-sparkling-2-fill"></i> Aurora
+        </div>
+        <nav className="nv-3100__nav">
+          <a href="#" className="nv-3100__link nv-3100__link--active">
+            Home
+          </a>
+          <a href="#" className="nv-3100__link">
+            Explore
+          </a>
+          <a href="#" className="nv-3100__link">
+            Features
+          </a>
+          <a href="#" className="nv-3100__link">
+            Pricing
+          </a>
+        </nav>
+        <button className="nv-3100__btn">Get started</button>
+      </div>
+    ),
+    html: `<div class="Navbar">
+    <div class="Navbar__logo"><i class="ri-sparkling-2-fill"></i> Aurora</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Home</a>
+        <a href="#" class="Navbar__link">Explore</a>
+        <a href="#" class="Navbar__link">Features</a>
+        <a href="#" class="Navbar__link">Pricing</a>
+    </nav>
+    <button class="Navbar__btn">Get started</button>
+</div>`,
+    css: `.Navbar {
+    width: 100%;
+    max-width: 620px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 10px 12px 10px 18px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 18px;
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(18px);
+}
+.Navbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+.Navbar__logo i {
+    color: #c4b5fd;
+    font-size: 17px;
+}
+.Navbar__nav {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    flex: 1;
+}
+.Navbar__link {
+    padding: 7px 11px;
+    border-radius: 9px;
+    color: #a1a1aa;
+    text-decoration: none;
+    font-size: 11px;
+    transition: 0.2s;
+}
+.Navbar__link:hover,
+.Navbar__link--active {
+    color: #fff;
+    background: rgba(255,255,255,0.09);
+}
+.Navbar__btn {
+    border: 0;
+    border-radius: 10px;
+    padding: 8px 14px;
+    background: linear-gradient(135deg,#7c3aed,#a855f7);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 800;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: 0 0 20px rgba(168,85,247,0.25);
+}`,
+  },
+  {
+    id: 3101,
+    name: "Neon Cyber",
+    preview: (
+      <div className="nv-3101">
+        <div className="nv-3101__logo">
+          <span></span>NEXUS
+        </div>
+        <nav className="nv-3101__nav">
+          <a href="#" className="nv-3101__link nv-3101__link--active">
+            Systems
+          </a>
+          <a href="#" className="nv-3101__link">
+            Network
+          </a>
+          <a href="#" className="nv-3101__link">
+            Security
+          </a>
+          <a href="#" className="nv-3101__link">
+            Archive
+          </a>
+        </nav>
+        <button className="nv-3101__btn">
+          <i className="ri-login-box-line"></i> Enter
+        </button>
+      </div>
+    ),
+    html: `<div class="Navbar">
+    <div class="Navbar__logo"><span></span>NEXUS</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Systems</a>
+        <a href="#" class="Navbar__link">Network</a>
+        <a href="#" class="Navbar__link">Security</a>
+        <a href="#" class="Navbar__link">Archive</a>
+    </nav>
+    <button class="Navbar__btn"><i class="ri-login-box-line"></i> Enter</button>
+</div>`,
+    css: `.Navbar {
+    position: relative;
+    width: 100%;
+    max-width: 620px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    border: 1px solid #164e63;
+    background: #031116;
+    overflow: hidden;
+}
+.Navbar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,transparent,rgba(34,211,238,0.1),transparent);
+    animation: cyberSweep 3s linear infinite;
+}
+.Navbar__logo,
+.Navbar__nav,
+.Navbar__btn {
+    position: relative;
+    z-index: 1;
+}
+.Navbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #67e8f9;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.Navbar__logo span {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #22d3ee;
+    box-shadow: 0 0 12px #22d3ee;
+    animation: cyberPulse 1.1s infinite;
+}
+.Navbar__nav {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    flex: 1;
+}
+.Navbar__link {
+    padding: 7px 10px;
+    color: #52737b;
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+.Navbar__link:hover,
+.Navbar__link--active {
+    color: #67e8f9;
+    text-shadow: 0 0 10px #22d3ee;
+}
+.Navbar__btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #0891b2;
+    padding: 7px 12px;
+    background: rgba(8,145,178,0.08);
+    color: #67e8f9;
+    font-size: 10px;
+    font-weight: 800;
+    cursor: pointer;
+}
+@keyframes cyberSweep {
+    to { left: 100%; }
+}
+@keyframes cyberPulse {
+    50% { transform: scale(1.5); opacity: 0.4; }
+}`,
+  },
+  {
+    id: 3102,
+    name: "Floating Pill",
+    preview: (
+      <div className="nv-3102">
+        <div className="nv-3102__logo">
+          Flow<span>.</span>
+        </div>
+        <nav className="nv-3102__nav">
+          <a href="#" className="nv-3102__link nv-3102__link--active">
+            Overview
+          </a>
+          <a href="#" className="nv-3102__link">
+            Products
+          </a>
+          <a href="#" className="nv-3102__link">
+            Company
+          </a>
+          <a href="#" className="nv-3102__link">
+            Resources
+          </a>
+        </nav>
+        <button className="nv-3102__user">
+          <i className="ri-user-3-fill"></i>
+        </button>
+      </div>
+    ),
+    html: `<div class="Navbar">
+    <div class="Navbar__logo">Flow<span>.</span></div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Overview</a>
+        <a href="#" class="Navbar__link">Products</a>
+        <a href="#" class="Navbar__link">Company</a>
+        <a href="#" class="Navbar__link">Resources</a>
+    </nav>
+    <button class="Navbar__user"><i class="ri-user-3-fill"></i></button>
+</div>`,
+    css: `.Navbar {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 8px 9px;
+    box-sizing: border-box;
+    border-radius: 999px;
+    background: #fff;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+.Navbar__logo {
+    padding-left: 12px;
+    color: #18181b;
+    font-size: 15px;
+    font-weight: 900;
+}
+.Navbar__logo span {
+    color: #8b5cf6;
+}
+.Navbar__nav {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    flex: 1;
+}
+.Navbar__link {
+    padding: 8px 11px;
+    border-radius: 999px;
+    color: #71717a;
+    text-decoration: none;
+    font-size: 11px;
+    transition: 0.2s;
+}
+.Navbar__link:hover,
+.Navbar__link--active {
+    color: #18181b;
+    background: #f4f4f5;
+}
+.Navbar__user {
+    width: 33px;
+    height: 33px;
+    border: 0;
+    border-radius: 50%;
+    background: #18181b;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}`,
+  },
+  {
+    id: 3103,
+    name: "Luxury Gold",
+    preview: (
+      <div className="nv-3103">
+        <div className="nv-3103__logo">
+          <i className="ri-vip-crown-2-fill"></i> ÉLITE
+        </div>
+        <nav className="nv-3103__nav">
+          <a href="#" className="nv-3103__link nv-3103__link--active">
+            Collection
+          </a>
+          <a href="#" className="nv-3103__link">
+            Journal
+          </a>
+          <a href="#" className="nv-3103__link">
+            Maison
+          </a>
+          <a href="#" className="nv-3103__link">
+            Contact
+          </a>
+        </nav>
+        <button className="nv-3103__bag">
+          <i className="ri-shopping-bag-3-line"></i>
+          <span>0</span>
+        </button>
+      </div>
+    ),
+    html: `<div class="Navbar">
+    <div class="Navbar__logo"><i class="ri-vip-crown-2-fill"></i> ÉLITE</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Collection</a>
+        <a href="#" class="Navbar__link">Journal</a>
+        <a href="#" class="Navbar__link">Maison</a>
+        <a href="#" class="Navbar__link">Contact</a>
+    </nav>
+    <button class="Navbar__bag"><i class="ri-shopping-bag-3-line"></i><span>0</span></button>
+</div>`,
+    css: `.Navbar {
+    width: 100%;
+    max-width: 620px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 13px 20px;
+    box-sizing: border-box;
+    border-top: 1px solid #a16207;
+    border-bottom: 1px solid #a16207;
+    background: #090806;
+}
+.Navbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #f4d47c;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+.Navbar__logo i {
+    font-size: 17px;
+}
+.Navbar__nav {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 2px;
+}
+.Navbar__link {
+    position: relative;
+    padding: 7px 11px;
+    color: #82775f;
+    text-decoration: none;
+    font-size: 10px;
+    transition: 0.25s;
+}
+.Navbar__link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background: #f4d47c;
+    transition: 0.25s;
+}
+.Navbar__link:hover,
+.Navbar__link--active {
+    color: #f4d47c;
+}
+.Navbar__link:hover::after,
+.Navbar__link--active::after {
+    left: 15%;
+    width: 70%;
+}
+.Navbar__bag {
+    position: relative;
+    border: 0;
+    background: transparent;
+    color: #f4d47c;
+    font-size: 17px;
+    cursor: pointer;
+}
+.Navbar__bag span {
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    width: 13px;
+    height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #f4d47c;
+    color: #090806;
+    font-size: 7px;
+    font-weight: 900;
+}`,
+  },
+  {
+    id: 3104,
+    name: "Gradient Motion",
+    preview: (
+      <div className="nv-3104">
+        <div className="nv-3104__logo">LUMA</div>
+        <nav className="nv-3104__nav">
+          <a href="#" className="nv-3104__link nv-3104__link--active">
+            Discover
+          </a>
+          <a href="#" className="nv-3104__link">
+            Creators
+          </a>
+          <a href="#" className="nv-3104__link">
+            Trending
+          </a>
+          <a href="#" className="nv-3104__link">
+            Community
+          </a>
+        </nav>
+        <button className="nv-3104__btn">Join now</button>
+      </div>
+    ),
+    html: `<div class="Navbar">
+    <div class="Navbar__logo">LUMA</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Discover</a>
+        <a href="#" class="Navbar__link">Creators</a>
+        <a href="#" class="Navbar__link">Trending</a>
+        <a href="#" class="Navbar__link">Community</a>
+    </nav>
+    <button class="Navbar__btn">Join now</button>
+</div>`,
+    css: `.Navbar {
+    width: 100%;
+    max-width: 620px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 12px 15px 12px 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: linear-gradient(100deg,#7c3aed,#db2777,#f97316,#7c3aed);
+    background-size: 300% 100%;
+    animation: gradientMove 7s linear infinite;
+}
+.Navbar__logo,
+.Navbar__nav,
+.Navbar__btn {
+    position: relative;
+    z-index: 1;
+}
+.Navbar__logo {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.Navbar__nav {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    flex: 1;
+}
+.Navbar__link {
+    padding: 7px 10px;
+    border-radius: 8px;
+    color: rgba(255,255,255,0.72);
+    text-decoration: none;
+    font-size: 10px;
+    transition: 0.2s;
+}
+.Navbar__link:hover,
+.Navbar__link--active {
+    color: #fff;
+    background: rgba(255,255,255,0.16);
+}
+.Navbar__btn {
+    padding: 8px 14px;
+    border: 0;
+    border-radius: 10px;
+    background: #fff;
+    color: #7c3aed;
+    font-size: 10px;
+    font-weight: 900;
+    cursor: pointer;
+}
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}`,
+  },
+  {
+    id: 3105,
+    name: "Command Center",
+    preview: (
+      <div className="nv-3105">
+        <div className="nv-3105__status">
+          <i className="ri-pulse-line"></i> SYSTEM ONLINE
+        </div>
+        <nav className="nv-3105__nav">
+          <a href="#" className="nv-3105__link nv-3105__link--active">
+            <i className="ri-dashboard-3-fill"></i> Dashboard
+          </a>
+          <a href="#" className="nv-3105__link">
+            <i className="ri-bar-chart-box-line"></i> Analytics
+          </a>
+          <a href="#" className="nv-3105__link">
+            <i className="ri-server-line"></i> Servers
+          </a>
+          <a href="#" className="nv-3105__link">
+            <i className="ri-settings-4-line"></i> Settings
+          </a>
+        </nav>
+        <button className="nv-3105__user">
+          <i className="ri-user-line"></i>
+        </button>
+      </div>
+    ),
+    html: `<div class="Navbar">
+    <div class="Navbar__status"><i class="ri-pulse-line"></i> SYSTEM ONLINE</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active"><i class="ri-dashboard-3-fill"></i> Dashboard</a>
+        <a href="#" class="Navbar__link"><i class="ri-bar-chart-box-line"></i> Analytics</a>
+        <a href="#" class="Navbar__link"><i class="ri-server-line"></i> Servers</a>
+        <a href="#" class="Navbar__link"><i class="ri-settings-4-line"></i> Settings</a>
+    </nav>
+    <button class="Navbar__user"><i class="ri-user-line"></i></button>
+</div>`,
+    css: `.Navbar {
+    width: 100%;
+    max-width: 660px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 10px;
+    box-sizing: border-box;
+    border: 1px solid #27272a;
+    background: #09090b;
+}
+.Navbar__status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 9px;
+    border: 1px solid rgba(34,197,94,0.18);
+    border-radius: 7px;
+    background: rgba(34,197,94,0.05);
+    color: #4ade80;
+    font-size: 7px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+.Navbar__status i {
+    animation: statusPulse 1.2s infinite;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    flex: 1;
+}
+.Navbar__link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 9px;
+    border-radius: 6px;
+    color: #71717a;
+    text-decoration: none;
+    font-size: 9px;
+    transition: 0.2s;
+}
+.Navbar__link:hover,
+.Navbar__link--active {
+    color: #e4e4e7;
+    background: #18181b;
+}
+.Navbar__link i {
+    font-size: 13px;
+}
+.Navbar__user {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #27272a;
+    background: #111113;
+    color: #a1a1aa;
+    cursor: pointer;
+}
+@keyframes statusPulse {
+    50% { opacity: 0.3; }
+}`,
+  },
+  {
+    id: 3106,
+    name: "Ocean Glass",
+    preview: (
+      <div className="nv-3106">
+        <div className="nv-3106__logo">
+          <i className="ri-water-flash-fill"></i> Tide
+        </div>
+        <nav className="nv-3106__nav">
+          <a href="#" className="nv-3106__link nv-3106__link--active">
+            Home
+          </a>
+          <a href="#" className="nv-3106__link">
+            Waves
+          </a>
+          <a href="#" className="nv-3106__link">
+            Stories
+          </a>
+          <a href="#" className="nv-3106__link">
+            Explore
+          </a>
+        </nav>
+        <button className="nv-3106__btn">
+          <i className="ri-search-line"></i>
+        </button>
+      </div>
+    ),
+    html: `<div class="Navbar">
+    <div class="Navbar__logo"><i class="ri-water-flash-fill"></i> Tide</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Home</a>
+        <a href="#" class="Navbar__link">Waves</a>
+        <a href="#" class="Navbar__link">Stories</a>
+        <a href="#" class="Navbar__link">Explore</a>
+    </nav>
+    <button class="Navbar__btn"><i class="ri-search-line"></i></button>
+</div>`,
+    css: `.Navbar {
+    position: relative;
+    width: 100%;
+    max-width: 620px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding: 12px 15px;
+    box-sizing: border-box;
+    border: 1px solid rgba(125,211,252,0.18);
+    border-radius: 16px;
+    background: rgba(2,132,199,0.1);
+    backdrop-filter: blur(20px);
+    overflow: hidden;
+}
+.Navbar::before {
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 20%;
+    width: 220px;
+    height: 150px;
+    border-radius: 50%;
+    background: rgba(56,189,248,0.18);
+    filter: blur(35px);
+    animation: oceanGlow 4s ease-in-out infinite;
+}
+.Navbar__logo,
+.Navbar__nav,
+.Navbar__btn {
+    position: relative;
+    z-index: 1;
+}
+.Navbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #bae6fd;
+    font-size: 14px;
+    font-weight: 900;
+}
+.Navbar__logo i {
+    color: #38bdf8;
+    font-size: 17px;
+}
+.Navbar__nav {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    flex: 1;
+}
+.Navbar__link {
+    padding: 7px 11px;
+    border-radius: 8px;
+    color: #78a5b8;
+    text-decoration: none;
+    font-size: 10px;
+    transition: 0.2s;
+}
+.Navbar__link:hover,
+.Navbar__link--active {
+    color: #e0f2fe;
+    background: rgba(125,211,252,0.1);
+}
+.Navbar__btn {
+    width: 32px;
+    height: 32px;
+    border: 1px solid rgba(125,211,252,0.2);
+    border-radius: 9px;
+    background: rgba(255,255,255,0.04);
+    color: #7dd3fc;
+    cursor: pointer;
+}
+@keyframes oceanGlow {
+    0%,100% { transform: translateX(-20px) scale(0.8); opacity: 0.5; }
+    50% { transform: translateX(70px) scale(1.2); opacity: 1; }
+}`,
+  },
+  {
+    id: 3107,
+    name: "Minimal Studio",
+    preview: (
+      <div className="nv-3107">
+        <div className="nv-3107__logo">
+          <i className="ri-shapes-fill"></i> Studio
+        </div>
+        <nav className="nv-3107__nav">
+          <a href="#" className="nv-3107__link nv-3107__link--active">
+            Work
+          </a>
+          <a href="#" className="nv-3107__link">
+            About
+          </a>
+          <a href="#" className="nv-3107__link">
+            Services
+          </a>
+          <a href="#" className="nv-3107__link">
+            Contact
+          </a>
+        </nav>
+        <button className="nv-3107__menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    ),
+    html: `<div class="Navbar">
+    <div class="Navbar__logo"><i class="ri-shapes-fill"></i> Studio</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Work</a>
+        <a href="#" class="Navbar__link">About</a>
+        <a href="#" class="Navbar__link">Services</a>
+        <a href="#" class="Navbar__link">Contact</a>
+    </nav>
+    <button class="Navbar__menu"><span></span><span></span></button>
+</div>`,
+    css: `.Navbar {
+    width: 100%;
+    max-width: 580px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 13px 18px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #27272a;
+    background: #fafafa;
+}
+.Navbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #18181b;
+    font-size: 13px;
+    font-weight: 800;
+}
+.Navbar__logo i {
+    font-size: 16px;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+    flex: 1;
+}
+.Navbar__link {
+    position: relative;
+    color: #71717a;
+    text-decoration: none;
+    font-size: 10px;
+    transition: 0.2s;
+}
+.Navbar__link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -7px;
+    width: 0;
+    height: 2px;
+    border-radius: 999px;
+    background: #18181b;
+    transition: 0.2s;
+}
+.Navbar__link:hover,
+.Navbar__link--active {
+    color: #18181b;
+}
+.Navbar__link:hover::after,
+.Navbar__link--active::after {
+    left: 0;
+    width: 100%;
+}
+.Navbar__menu {
+    width: 31px;
+    height: 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border: 1px solid #d4d4d8;
+    border-radius: 7px;
+    background: #fff;
+    cursor: pointer;
+}
+.Navbar__menu span {
+    width: 11px;
+    height: 1.5px;
+    background: #18181b;
+}`,
+  },
+  {
+    id: 3108,
+    name: "Black Aura",
+    preview: (
+      <div className="nv-3108">
+        <div className="nv-3108__aura"></div>
+        <div className="nv-3108__logo">
+          <i className="ri-ghost-2-fill"></i> VOID
+        </div>
+        <nav className="nv-3108__nav">
+          <a href="#" className="nv-3108__link nv-3108__link--active">
+            Realm
+          </a>
+          <a href="#" className="nv-3108__link">
+            Entities
+          </a>
+          <a href="#" className="nv-3108__link">
+            Archives
+          </a>
+          <a href="#" className="nv-3108__link">
+            Portal
+          </a>
+        </nav>
+        <button className="nv-3108__btn">
+          <i className="ri-arrow-right-up-line"></i>
+        </button>
+      </div>
+    ),
+    html: `<div class="Navbar">
+    <div class="Navbar__aura"></div>
+    <div class="Navbar__logo"><i class="ri-ghost-2-fill"></i> VOID</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Realm</a>
+        <a href="#" class="Navbar__link">Entities</a>
+        <a href="#" class="Navbar__link">Archives</a>
+        <a href="#" class="Navbar__link">Portal</a>
+    </nav>
+    <button class="Navbar__btn"><i class="ri-arrow-right-up-line"></i></button>
+</div>`,
+    css: `.Navbar {
+    position: relative;
+    width: 100%;
+    max-width: 620px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 12px 14px 12px 19px;
+    box-sizing: border-box;
+    border: 1px solid #27272a;
+    border-radius: 16px;
+    background: #050505;
+    overflow: hidden;
+    box-shadow: 0 0 35px rgba(0,0,0,0.9);
+}
+.Navbar__aura {
+    position: absolute;
+    left: 22%;
+    top: -70px;
+    width: 260px;
+    height: 145px;
+    border-radius: 50%;
+    background: radial-gradient(circle,#7c3aed,transparent 68%);
+    filter: blur(35px);
+    opacity: 0.18;
+    animation: auraMove 4s ease-in-out infinite;
+}
+.Navbar__logo,
+.Navbar__nav,
+.Navbar__btn {
+    position: relative;
+    z-index: 1;
+}
+.Navbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #f4f4f5;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.Navbar__logo i {
+    color: #c084fc;
+    font-size: 17px;
+    text-shadow: 0 0 12px #a855f7;
+}
+.Navbar__nav {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    flex: 1;
+}
+.Navbar__link {
+    padding: 7px 11px;
+    border-radius: 8px;
+    color: #71717a;
+    text-decoration: none;
+    font-size: 10px;
+    transition: 0.25s;
+}
+.Navbar__link:hover,
+.Navbar__link--active {
+    color: #e9d5ff;
+    background: rgba(168,85,247,0.08);
+    text-shadow: 0 0 10px rgba(168,85,247,0.55);
+}
+.Navbar__btn {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #3f3f46;
+    border-radius: 9px;
+    background: #09090b;
+    color: #c084fc;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.Navbar__btn:hover {
+    border-color: #a855f7;
+    box-shadow: 0 0 20px rgba(168,85,247,0.25);
+}
+@keyframes auraMove {
+    0%,100% { transform: translateX(-30px) scale(0.8); opacity: 0.12; }
+    50% { transform: translateX(80px) scale(1.2); opacity: 0.3; }
+}`,
+  },
+  {
+    id: 3109,
+    name: "Emerald Command",
+    preview: (
+      <div className="nv-3109">
+        <div className="nv-3109__logo">
+          <i className="ri-leaf-fill"></i> VERDANT
+        </div>
+        <nav className="nv-3109__nav">
+          <a href="#" className="nv-3109__link nv-3109__link--active">
+            Garden
+          </a>
+          <a href="#" className="nv-3109__link">
+            Elements
+          </a>
+          <a href="#" className="nv-3109__link">
+            Growth
+          </a>
+          <a href="#" className="nv-3109__link">
+            World
+          </a>
+        </nav>
+        <div className="nv-3109__online">
+          <i className="ri-radar-line"></i> LIVE
+        </div>
+      </div>
+    ),
+    html: `<div class="Navbar">
+    <div class="Navbar__logo"><i class="ri-leaf-fill"></i> VERDANT</div>
+    <nav class="Navbar__nav">
+        <a href="#" class="Navbar__link Navbar__link--active">Garden</a>
+        <a href="#" class="Navbar__link">Elements</a>
+        <a href="#" class="Navbar__link">Growth</a>
+        <a href="#" class="Navbar__link">World</a>
+    </nav>
+    <div class="Navbar__online"><i class="ri-radar-line"></i> LIVE</div>
+</div>`,
+    css: `.Navbar {
+    position: relative;
+    width: 100%;
+    max-width: 630px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding: 11px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(74,222,128,0.18);
+    border-radius: 13px;
+    background: linear-gradient(110deg,#03130a,#081c10,#03130a);
+    overflow: hidden;
+}
+.Navbar::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg,transparent,rgba(74,222,128,0.06),transparent);
+    animation: greenSweep 4s linear infinite;
+}
+.Navbar__logo,
+.Navbar__nav,
+.Navbar__online {
+    position: relative;
+    z-index: 1;
+}
+.Navbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #bbf7d0;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1.8px;
+    white-space: nowrap;
+}
+.Navbar__logo i {
+    color: #4ade80;
+    font-size: 16px;
+    text-shadow: 0 0 12px #22c55e;
+    animation: leafPulse 2s ease-in-out infinite;
+}
+.Navbar__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    flex: 1;
+}
+.Navbar__link {
+    padding: 7px 11px;
+    border-radius: 8px;
+    color: #6d9278;
+    text-decoration: none;
+    font-size: 10px;
+    transition: 0.2s;
+}
+.Navbar__link:hover,
+.Navbar__link--active {
+    color: #dcfce7;
+    background: rgba(74,222,128,0.08);
+}
+.Navbar__online {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 9px;
+    border: 1px solid rgba(74,222,128,0.2);
+    border-radius: 999px;
+    color: #4ade80;
+    background: rgba(34,197,94,0.05);
+    font-size: 7px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.Navbar__online i {
+    text-shadow: 0 0 9px #22c55e;
+}
+@keyframes greenSweep {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(100%); }
+}
+@keyframes leafPulse {
+    0%,100% { transform: scale(1) rotate(0); }
+    50% { transform: scale(1.15) rotate(-8deg); }
+}`,
+  },
+  {
+    id: 3110,
+    name: "Cyber Command",
+    preview: (
+      <div className="nv-3110">
+        <div className="nv-3110__brand">
+          <i className="ri-cpu-fill"></i>
+          NEXUS
+        </div>
+        <div className="nv-3110__links">
+          <a href="#">SYSTEM</a>
+          <a href="#">NETWORK</a>
+          <a href="#">ACCESS</a>
+        </div>
+        <div className="nv-3110__status">
+          <span></span>
+          ONLINE
+        </div>
+      </div>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="ri-cpu-fill"></i>
+        NEXUS
+    </div>
+    <div class="Navbar-links">
+        <a href="#">SYSTEM</a>
+        <a href="#">NETWORK</a>
+        <a href="#">ACCESS</a>
+    </div>
+    <div class="Navbar-status">
+        <span></span>
+        ONLINE
+    </div>
+</nav>`,
+    css: `.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 12px 16px;
+    border: 1px solid #22d3ee;
+    background: #030712;
+    color: #67e8f9;
+    font-family: monospace;
+    box-shadow: 0 0 22px rgba(34,211,238,.18), inset 0 0 20px rgba(34,211,238,.03);
+}
+.Navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.Navbar-brand i {
+    color: #22d3ee;
+    font-size: 12px;
+    text-shadow: 0 0 12px #22d3ee;
+}
+.Navbar-links {
+    display: flex;
+    gap: 22px;
+}
+.Navbar-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 7px;
+    transition: .2s ease;
+}
+.Navbar-links a:hover {
+    color: #67e8f9;
+    text-shadow: 0 0 8px #22d3ee;
+}
+.Navbar-status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 7px;
+    color: #4ade80;
+}
+.Navbar-status span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 10px #22c55e;
+    animation: pulse-3110 1.5s infinite;
+}
+@keyframes pulse-3110 {
+    50% {
+        opacity: .35;
+    }
+}`,
+  },
+  {
+    id: 3111,
+    name: "Void Protocol",
+    preview: (
+      <div className="nv-3111">
+        <div className="nv-3111__brand">
+          <i className="ri-ghost-2-fill"></i>
+          VOID
+        </div>
+        <div className="nv-3111__links">
+          <a href="#">REALM</a>
+          <a href="#">ENTITIES</a>
+          <a href="#">PORTAL</a>
+        </div>
+        <div className="nv-3111__core">
+          <span></span>
+          <i className="ri-radar-line"></i>
+        </div>
+      </div>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="ri-ghost-2-fill"></i>
+        VOID
+    </div>
+    <div class="Navbar-links">
+        <a href="#">REALM</a>
+        <a href="#">ENTITIES</a>
+        <a href="#">PORTAL</a>
+    </div>
+    <div class="Navbar-core">
+        <span></span>
+        <i class="ri-radar-line"></i>
+    </div>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 13px 17px;
+    border: 1px solid #581c87;
+    background: #030005;
+    color: #d8b4fe;
+    font-family: monospace;
+    overflow: hidden;
+    box-shadow: 0 0 28px rgba(88,28,135,.22), inset 0 0 25px rgba(168,85,247,.025);
+}
+.Navbar::before {
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 35%;
+    width: 180px;
+    height: 110px;
+    border-radius: 50%;
+    background: #7e22ce;
+    filter: blur(45px);
+    opacity: .13;
+    animation: void-glow-3111 4s ease-in-out infinite;
+}
+.Navbar-brand {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.Navbar-brand i {
+    color: #c084fc;
+    font-size: 13px;
+    text-shadow: 0 0 15px #a855f7;
+    animation: void-icon-3111 2.5s ease-in-out infinite;
+}
+.Navbar-links {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: 25px;
+}
+.Navbar-links a {
+    position: relative;
+    color: #6b5b7a;
+    text-decoration: none;
+    font-size: 7px;
+    transition: .25s ease;
+}
+.Navbar-links a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -7px;
+    width: 0;
+    height: 1px;
+    background: #c084fc;
+    box-shadow: 0 0 8px #a855f7;
+    transition: .25s ease;
+}
+.Navbar-links a:hover {
+    color: #e9d5ff;
+}
+.Navbar-links a:hover::after {
+    left: 0;
+    width: 100%;
+}
+.Navbar-core {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #a855f7;
+}
+.Navbar-core span {
+    width: 6px;
+    height: 6px;
+    border: 1px solid #c084fc;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #a855f7;
+    animation: core-pulse-3111 1.3s infinite;
+}
+.Navbar-core i {
+    font-size: 12px;
+    animation: core-spin-3111 3s linear infinite;
+}
+@keyframes void-glow-3111 {
+    0%,100% {
+        transform: translateX(-50px) scale(.8);
+        opacity: .4;
+    }
+    50% {
+        transform: translateX(60px) scale(1.2);
+        opacity: 1;
+    }
+}
+@keyframes void-icon-3111 {
+    0%,100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-3px);
+    }
+}
+@keyframes core-pulse-3111 {
+    50% {
+        transform: scale(1.5);
+        opacity: .35;
+    }
+}
+@keyframes core-spin-3111 {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+  {
+    id: 3112,
+    name: "Emerald Network",
+    preview: (
+      <div className="nv-3112">
+        <div className="nv-3112__brand">
+          <i className="ri-leaf-fill"></i>
+          VERDANT
+        </div>
+        <div className="nv-3112__links">
+          <a href="#">GARDEN</a>
+          <a href="#">GROWTH</a>
+          <a href="#">WORLD</a>
+        </div>
+        <div className="nv-3112__energy">
+          <div></div>
+          98%
+        </div>
+      </div>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="ri-leaf-fill"></i>
+        VERDANT
+    </div>
+    <div class="Navbar-links">
+        <a href="#">GARDEN</a>
+        <a href="#">GROWTH</a>
+        <a href="#">WORLD</a>
+    </div>
+    <div class="Navbar-energy">
+        <div></div>
+        98%
+    </div>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 12px 16px;
+    border: 1px solid #166534;
+    background: #021008;
+    color: #86efac;
+    font-family: monospace;
+    overflow: hidden;
+    box-shadow: 0 0 24px rgba(34,197,94,.15), inset 0 0 22px rgba(34,197,94,.025);
+}
+.Navbar::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg,transparent,rgba(74,222,128,.06),transparent);
+    transform: translateX(-100%);
+    animation: energy-sweep-3112 4s linear infinite;
+}
+.Navbar-brand {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.Navbar-brand i {
+    color: #4ade80;
+    font-size: 12px;
+    text-shadow: 0 0 12px #22c55e;
+    animation: leaf-float-3112 2.5s ease-in-out infinite;
+}
+.Navbar-links {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: 22px;
+}
+.Navbar-links a {
+    color: #577762;
+    text-decoration: none;
+    font-size: 7px;
+    transition: .2s ease;
+}
+.Navbar-links a:hover {
+    color: #bbf7d0;
+    text-shadow: 0 0 8px #22c55e;
+}
+.Navbar-energy {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #4ade80;
+    font-size: 7px;
+    font-weight: 900;
+}
+.Navbar-energy div {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #4ade80;
+    box-shadow: 0 0 12px #22c55e;
+    animation: energy-pulse-3112 1.5s infinite;
+}
+@keyframes energy-sweep-3112 {
+    to {
+        transform: translateX(100%);
+    }
+}
+@keyframes leaf-float-3112 {
+    0%,100% {
+        transform: rotate(0) scale(1);
+    }
+    50% {
+        transform: rotate(-8deg) scale(1.15);
+    }
+}
+@keyframes energy-pulse-3112 {
+    50% {
+        transform: scale(1.5);
+        opacity: .35;
+    }
+}`,
+  },
+  {
+    id: 3113,
+    name: "Solar Command",
+    preview: (
+      <div className="nv-3113">
+        <div className="nv-3113__brand">
+          <i className="ri-sun-fill"></i>
+          HELIOS
+        </div>
+        <div className="nv-3113__links">
+          <a href="#">ORBIT</a>
+          <a href="#">MISSIONS</a>
+          <a href="#">CONTROL</a>
+        </div>
+        <div className="nv-3113__signal">
+          <i className="ri-radar-fill"></i>
+          4.7 AU
+        </div>
+      </div>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="ri-sun-fill"></i>
+        HELIOS
+    </div>
+    <div class="Navbar-links">
+        <a href="#">ORBIT</a>
+        <a href="#">MISSIONS</a>
+        <a href="#">CONTROL</a>
+    </div>
+    <div class="Navbar-signal">
+        <i class="ri-radar-fill"></i>
+        4.7 AU
+    </div>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 13px 17px;
+    border: 1px solid #ca8a04;
+    background: #0c0903;
+    color: #fde68a;
+    font-family: monospace;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(245,158,11,.16), inset 0 0 24px rgba(245,158,11,.025);
+}
+.Navbar::before {
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 34%;
+    width: 170px;
+    height: 130px;
+    border-radius: 50%;
+    background: #f59e0b;
+    filter: blur(42px);
+    opacity: .12;
+    animation: solar-glow-3113 3.5s ease-in-out infinite;
+}
+.Navbar-brand {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fef3c7;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.Navbar-brand i {
+    color: #fbbf24;
+    font-size: 12px;
+    text-shadow: 0 0 14px #f59e0b;
+    animation: solar-spin-3113 5s linear infinite;
+}
+.Navbar-links {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: 21px;
+}
+.Navbar-links a {
+    color: #8b7650;
+    text-decoration: none;
+    font-size: 7px;
+    transition: .2s ease;
+}
+.Navbar-links a:hover {
+    color: #fde68a;
+    text-shadow: 0 0 9px #f59e0b;
+}
+.Navbar-signal {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #fbbf24;
+    font-size: 7px;
+}
+.Navbar-signal i {
+    font-size: 11px;
+    animation: signal-spin-3113 2.5s linear infinite;
+}
+@keyframes solar-glow-3113 {
+    0%,100% {
+        transform: scale(.8);
+        opacity: .35;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: .8;
+    }
+}
+@keyframes solar-spin-3113 {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes signal-spin-3113 {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+  {
+    id: 3114,
+    name: "Crimson Security",
+    preview: (
+      <div className="nv-3114">
+        <div className="nv-3114__brand">
+          <i className="ri-shield-keyhole-fill"></i>
+          REDLINE
+        </div>
+        <div className="nv-3114__links">
+          <a href="#">COMMAND</a>
+          <a href="#">SECURITY</a>
+          <a href="#">LOGS</a>
+        </div>
+        <div className="nv-3114__alert">
+          <span></span>
+          SECURE
+        </div>
+      </div>
+    ),
+    html: `<nav class="Navbar">
+    <div class="Navbar-brand">
+        <i class="ri-shield-keyhole-fill"></i>
+        REDLINE
+    </div>
+    <div class="Navbar-links">
+        <a href="#">COMMAND</a>
+        <a href="#">SECURITY</a>
+        <a href="#">LOGS</a>
+    </div>
+    <div class="Navbar-alert">
+        <span></span>
+        SECURE
+    </div>
+</nav>`,
+    css: `.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 520px;
+    padding: 12px 16px;
+    border: 1px solid #991b1b;
+    background: #0c0303;
+    color: #fca5a5;
+    font-family: monospace;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(220,38,38,.16), inset 0 0 22px rgba(220,38,38,.025);
+}
+.Navbar::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -30%;
+    width: 2px;
+    height: 100%;
+    background: #ef4444;
+    box-shadow: 0 0 15px #ef4444;
+    opacity: .35;
+    animation: security-scan-3114 4s linear infinite;
+}
+.Navbar-brand {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fecaca;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.Navbar-brand i {
+    color: #ef4444;
+    font-size: 12px;
+    text-shadow: 0 0 13px #dc2626;
+    animation: shield-pulse-3114 1.8s ease-in-out infinite;
+}
+.Navbar-links {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: 21px;
+}
+.Navbar-links a {
+    color: #805858;
+    text-decoration: none;
+    font-size: 7px;
+    transition: .2s ease;
+}
+.Navbar-links a:hover {
+    color: #fca5a5;
+    text-shadow: 0 0 8px #ef4444;
+}
+.Navbar-alert {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #4ade80;
+    font-size: 7px;
+    font-weight: 900;
+}
+.Navbar-alert span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 10px #22c55e;
+    animation: secure-pulse-3114 1.4s infinite;
+}
+@keyframes security-scan-3114 {
+    from {
+        left: -10%;
+    }
+    to {
+        left: 110%;
+    }
+}
+@keyframes shield-pulse-3114 {
+    0%,100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.12);
+    }
+}
+@keyframes secure-pulse-3114 {
+    50% {
+        opacity: .3;
+        transform: scale(1.5);
+    }
+}`,
+  },
 ];

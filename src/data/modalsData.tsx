@@ -7193,4 +7193,4840 @@ export const modals = [
 }
   `,
   },
+  {
+    id: 3065,
+    name: "Neon Glass Modal",
+    preview: (
+      <div className="modal-3065">
+        <div className="modal-3065-box">
+          <div className="modal-3065-glow"></div>
+          <span className="modal-3065-label">WELCOME</span>
+          <h3>Neon Experience</h3>
+          <p>Step into a futuristic interface.</p>
+          <button>Continue</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <span class="Modal__label">WELCOME</span>
+    <h3>Neon Experience</h3>
+    <p>Step into a futuristic interface.</p>
+    <button>Continue</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2, 6, 23, 0.72);
+  backdrop-filter: blur(10px);
+}
+.Modal__box {
+  position: relative;
+  width: 360px;
+  padding: 28px;
+  border: 1px solid rgba(34, 211, 238, 0.5);
+  border-radius: 20px;
+  background: rgba(7, 15, 28, 0.92);
+  color: #ffffff;
+  box-shadow: 0 0 45px rgba(34, 211, 238, 0.25);
+  overflow: hidden;
+  animation: modalIn 0.5s ease;
+}
+.Modal__label {
+  color: #22d3ee;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box h3 {
+  margin: 10px 0 8px;
+  font-size: 25px;
+}
+.Modal__box p {
+  margin: 0 0 22px;
+  color: #94a3b8;
+}
+.Modal__box button {
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 10px;
+  background: #06b6d4;
+  color: #ffffff;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 0 18px rgba(6, 182, 212, 0.5);
+}
+.Modal__glow {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: -100px;
+  right: -80px;
+  border-radius: 50%;
+  background: #06b6d4;
+  filter: blur(80px);
+  opacity: 0.25;
+}
+@keyframes modalIn {
+  from {
+    opacity: 0;
+    transform: translateY(25px) scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}`,
+  },
+  {
+    id: 3066,
+    name: "Cyber Command Modal",
+    preview: (
+      <div className="modal-3066">
+        <div className="modal-3066-box">
+          <span>SYSTEM ONLINE</span>
+          <h3>Command Center</h3>
+          <p>All systems are operating normally.</p>
+          <div className="modal-3066-actions">
+            <button>Deploy</button>
+            <button>Cancel</button>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <span>SYSTEM ONLINE</span>
+    <h3>Command Center</h3>
+    <p>All systems are operating normally.</p>
+    <div class="Modal__actions">
+      <button>Deploy</button>
+      <button>Cancel</button>
+    </div>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.82);
+}
+.Modal__box {
+  position: relative;
+  width: 370px;
+  padding: 26px;
+  border: 1px solid #22c55e;
+  border-radius: 14px;
+  background:
+    linear-gradient(145deg, #030712, #07140a);
+  color: #ffffff;
+  box-shadow:
+    0 0 25px rgba(34, 197, 94, 0.25),
+    inset 0 0 25px rgba(34, 197, 94, 0.04);
+  animation: commandIn 0.4s ease;
+}
+.Modal__box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 5px,
+    rgba(34, 197, 94, 0.04) 6px
+  );
+  pointer-events: none;
+}
+.Modal__box > span {
+  color: #4ade80;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box h3 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+.Modal__box p {
+  color: #86efac;
+}
+.Modal__actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.Modal__actions button {
+  padding: 9px 16px;
+  border: 1px solid #22c55e;
+  border-radius: 8px;
+  background: transparent;
+  color: #4ade80;
+  font-weight: 800;
+}
+@keyframes commandIn {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}`,
+  },
+  {
+    id: 3067,
+    name: "Holographic Modal",
+    preview: (
+      <div className="modal-3067">
+        <div className="modal-3067-box">
+          <div className="modal-3067-icon">✦</div>
+          <h3>Holographic Access</h3>
+          <p>A new dimension of interface design.</p>
+          <button>Enter</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__icon">✦</div>
+    <h3>Holographic Access</h3>
+    <p>A new dimension of interface design.</p>
+    <button>Enter</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(15, 23, 42, 0.78);
+  backdrop-filter: blur(12px);
+}
+.Modal__box {
+  position: relative;
+  width: 350px;
+  padding: 30px;
+  border: 1px solid transparent;
+  border-radius: 24px;
+  background:
+    linear-gradient(#0f172a, #0f172a) padding-box,
+    linear-gradient(
+      90deg,
+      #ec4899,
+      #8b5cf6,
+      #22d3ee,
+      #34d399,
+      #ec4899
+    ) border-box;
+  background-size: auto, 300% 100%;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 45px rgba(139, 92, 246, 0.3);
+  animation: holo 4s linear infinite;
+}
+.Modal__icon {
+  font-size: 35px;
+  color: #c4b5fd;
+  text-shadow:
+    0 0 10px #ec4899,
+    0 0 20px #22d3ee;
+  animation: sparkle 1.5s ease-in-out infinite;
+}
+.Modal__box h3 {
+  margin: 14px 0 8px;
+  font-size: 24px;
+}
+.Modal__box p {
+  color: #cbd5e1;
+}
+.Modal__box button {
+  margin-top: 15px;
+  padding: 10px 22px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ec4899, #8b5cf6, #22d3ee);
+  color: #ffffff;
+  font-weight: 900;
+}
+@keyframes holo {
+  to {
+    background-position: 0 0, 300% 0;
+  }
+}
+@keyframes sparkle {
+  0%,100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15) rotate(8deg);
+  }
+}`,
+  },
+  {
+    id: 3068,
+    name: "Warning Energy Modal",
+    preview: (
+      <div className="modal-3068">
+        <div className="modal-3068-box">
+          <div className="modal-3068-icon">!</div>
+          <h3>Warning Detected</h3>
+          <p>Something requires your attention.</p>
+          <button>Review</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__icon">!</div>
+    <h3>Warning Detected</h3>
+    <p>Something requires your attention.</p>
+    <button>Review</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(23, 10, 0, 0.82);
+}
+.Modal__box {
+  width: 340px;
+  padding: 28px;
+  border: 1px solid #f59e0b;
+  border-radius: 18px;
+  background: linear-gradient(145deg, #170d00, #281600);
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 35px rgba(245, 158, 11, 0.3);
+  animation: warning 1.3s ease-in-out infinite alternate;
+}
+.Modal__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  border: 2px solid #fbbf24;
+  border-radius: 50%;
+  color: #fbbf24;
+  font-size: 30px;
+  font-weight: 900;
+  box-shadow: 0 0 22px rgba(251, 191, 36, 0.5);
+}
+.Modal__box h3 {
+  margin: 16px 0 8px;
+}
+.Modal__box p {
+  color: #fde68a;
+}
+.Modal__box button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 9px;
+  background: #f59e0b;
+  color: #18181b;
+  font-weight: 900;
+}
+@keyframes warning {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.02);
+    box-shadow: 0 0 45px rgba(245, 158, 11, 0.5);
+  }
+}`,
+  },
+  {
+    id: 3069,
+    name: "Rainbow Portal Modal",
+    preview: (
+      <div className="modal-3069">
+        <div className="modal-3069-box">
+          <div className="modal-3069-ring"></div>
+          <h3>Rainbow Portal</h3>
+          <p>Choose your next destination.</p>
+          <button>Open Portal</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__ring"></div>
+    <h3>Rainbow Portal</h3>
+    <p>Choose your next destination.</p>
+    <button>Open Portal</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(3, 7, 18, 0.82);
+}
+.Modal__box {
+  position: relative;
+  width: 355px;
+  padding: 32px;
+  border: 1px solid transparent;
+  border-radius: 22px;
+  background:
+    linear-gradient(145deg, #09090b, #18181b) padding-box,
+    linear-gradient(
+      90deg,
+      #ff0055,
+      #ff9900,
+      #ffee00,
+      #00ff77,
+      #00ddff,
+      #7c3aed,
+      #ff0055
+    ) border-box;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 45px rgba(124, 58, 237, 0.3);
+  overflow: hidden;
+}
+.Modal__ring {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 18px;
+  border: 5px solid transparent;
+  border-top-color: #ff0055;
+  border-right-color: #ff9900;
+  border-bottom-color: #00ddff;
+  border-left-color: #7c3aed;
+  border-radius: 50%;
+  animation: portal 1.5s linear infinite;
+}
+.Modal__box h3 {
+  font-size: 25px;
+}
+.Modal__box p {
+  color: #a1a1aa;
+}
+.Modal__box button {
+  margin-top: 14px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ff0055, #7c3aed, #00ddff);
+  color: #ffffff;
+  font-weight: 900;
+}
+@keyframes portal {
+  to {
+    transform: rotate(360deg);
+  }
+}`,
+  },
+  {
+    id: 3070,
+    name: "Glass Success Modal",
+    preview: (
+      <div className="modal-3070">
+        <div className="modal-3070-box">
+          <div className="modal-3070-check">✓</div>
+          <h3>Successfully Complete</h3>
+          <p>Your operation was completed.</p>
+          <button>Done</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__check">✓</div>
+    <h3>Successfully Complete</h3>
+    <p>Your operation was completed.</p>
+    <button>Done</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2, 6, 23, 0.7);
+  backdrop-filter: blur(14px);
+}
+.Modal__box {
+  width: 350px;
+  padding: 30px;
+  border: 1px solid rgba(52, 211, 153, 0.45);
+  border-radius: 22px;
+  background: rgba(6, 27, 21, 0.8);
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 40px rgba(52, 211, 153, 0.2);
+  animation: successIn 0.6s cubic-bezier(.2,.8,.2,1);
+}
+.Modal__check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #10b981;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 900;
+  box-shadow: 0 0 25px rgba(16, 185, 129, 0.55);
+  animation: checkPop 0.7s ease;
+}
+.Modal__box h3 {
+  margin: 17px 0 8px;
+}
+.Modal__box p {
+  color: #a7f3d0;
+}
+.Modal__box button {
+  margin-top: 15px;
+  padding: 10px 22px;
+  border: 0;
+  border-radius: 10px;
+  background: #10b981;
+  color: #022c22;
+  font-weight: 900;
+}
+@keyframes successIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes checkPop {
+  0% {
+    transform: scale(0);
+  }
+  70% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}`,
+  },
+  {
+    id: 3071,
+    name: "Purple Energy Modal",
+    preview: (
+      <div className="modal-3071">
+        <div className="modal-3071-box">
+          <div className="modal-3071-energy"></div>
+          <h3>Energy Unlocked</h3>
+          <p>A powerful new feature is available.</p>
+          <button>Activate</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__energy"></div>
+    <h3>Energy Unlocked</h3>
+    <p>A powerful new feature is available.</p>
+    <button>Activate</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(7, 3, 16, 0.85);
+}
+.Modal__box {
+  position: relative;
+  width: 360px;
+  padding: 30px;
+  border: 1px solid #8b5cf6;
+  border-radius: 20px;
+  background: #0d0718;
+  color: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 0 45px rgba(139, 92, 246, 0.3);
+}
+.Modal__energy {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: -50px;
+  top: -50px;
+  border-radius: 50%;
+  background: #a855f7;
+  filter: blur(65px);
+  opacity: 0.25;
+  animation: energy 2s ease-in-out infinite alternate;
+}
+.Modal__box h3 {
+  position: relative;
+  font-size: 25px;
+}
+.Modal__box p {
+  position: relative;
+  color: #c4b5fd;
+}
+.Modal__box button {
+  position: relative;
+  margin-top: 15px;
+  padding: 10px 21px;
+  border: 0;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #7c3aed, #c026d3);
+  color: #ffffff;
+  font-weight: 900;
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.4);
+}
+@keyframes energy {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1.25);
+  }
+}`,
+  },
+  {
+    id: 3072,
+    name: "Cyber Scan Modal",
+    preview: (
+      <div className="modal-3072">
+        <div className="modal-3072-box">
+          <div className="modal-3072-scan"></div>
+          <span>SECURITY CHECK</span>
+          <h3>Identity Verified</h3>
+          <p>Access has been granted successfully.</p>
+          <button>Enter System</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__scan"></div>
+    <span>SECURITY CHECK</span>
+    <h3>Identity Verified</h3>
+    <p>Access has been granted successfully.</p>
+    <button>Enter System</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2, 6, 23, 0.85);
+}
+.Modal__box {
+  position: relative;
+  width: 370px;
+  padding: 28px;
+  border: 1px solid #00e5ff;
+  border-radius: 12px;
+  background: #020b12;
+  color: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 229, 255, 0.22);
+}
+.Modal__box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 6px,
+    rgba(0, 229, 255, 0.04) 7px
+  );
+}
+.Modal__scan {
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 100%;
+  height: 2px;
+  background: #22d3ee;
+  box-shadow: 0 0 15px #22d3ee;
+  animation: scan 2s linear infinite;
+}
+.Modal__box > span,
+.Modal__box h3,
+.Modal__box p,
+.Modal__box button {
+  position: relative;
+}
+.Modal__box > span {
+  color: #22d3ee;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box h3 {
+  margin: 10px 0 8px;
+}
+.Modal__box p {
+  color: #94a3b8;
+}
+.Modal__box button {
+  margin-top: 15px;
+  padding: 10px 18px;
+  border: 1px solid #22d3ee;
+  border-radius: 8px;
+  background: transparent;
+  color: #22d3ee;
+  font-weight: 900;
+}
+@keyframes scan {
+  from {
+    top: 0;
+  }
+  to {
+    top: 100%;
+  }
+}`,
+  },
+  {
+    id: 3073,
+    name: "Rainbow Glass Modal",
+    preview: (
+      <div className="modal-3073">
+        <div className="modal-3073-box">
+          <h3>Color Universe</h3>
+          <p>Explore a world of animated components.</p>
+          <div className="modal-3073-line"></div>
+          <button>Explore</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <h3>Color Universe</h3>
+    <p>Explore a world of animated components.</p>
+    <div class="Modal__line"></div>
+    <button>Explore</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(15, 23, 42, 0.72);
+  backdrop-filter: blur(14px);
+}
+.Modal__box {
+  position: relative;
+  width: 360px;
+  padding: 30px;
+  border: 1px solid transparent;
+  border-radius: 24px;
+  background:
+    linear-gradient(145deg, rgba(15,23,42,.92), rgba(24,24,27,.92)) padding-box,
+    linear-gradient(90deg,#ff0055,#ff9900,#00ff77,#00ddff,#7c3aed,#ff0055) border-box;
+  color: #ffffff;
+  box-shadow: 0 0 45px rgba(168,85,247,.25);
+  animation: rainbowModal 4s linear infinite;
+  background-size: auto, 500% 100%;
+}
+.Modal__box h3 {
+  font-size: 26px;
+}
+.Modal__box p {
+  color: #cbd5e1;
+}
+.Modal__line {
+  width: 100%;
+  height: 2px;
+  margin: 20px 0;
+  background: linear-gradient(90deg,#ff0055,#ff9900,#00ff77,#00ddff,#7c3aed);
+  background-size: 300% 100%;
+  animation: line 3s linear infinite;
+}
+.Modal__box button {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #111827;
+  font-weight: 900;
+}
+@keyframes rainbowModal {
+  to {
+    background-position: 0 0, 500% 0;
+  }
+}
+@keyframes line {
+  to {
+    background-position: 300% 0;
+  }
+}`,
+  },
+  {
+    id: 3074,
+    name: "Ultimate Cosmic Modal",
+    preview: (
+      <div className="modal-3074">
+        <div className="modal-3074-box">
+          <div className="modal-3074-orb"></div>
+          <div className="modal-3074-stars"></div>
+          <span>ULTIMATE MODE</span>
+          <h3>Cosmic Gateway</h3>
+          <p>Enter the next generation of UI.</p>
+          <button>Launch</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__orb"></div>
+    <div class="Modal__stars"></div>
+    <span>ULTIMATE MODE</span>
+    <h3>Cosmic Gateway</h3>
+    <p>Enter the next generation of UI.</p>
+    <button>Launch</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(1, 3, 10, 0.88);
+  backdrop-filter: blur(12px);
+}
+.Modal__box {
+  position: relative;
+  width: 380px;
+  padding: 32px;
+  border: 1px solid transparent;
+  border-radius: 24px;
+  background:
+    linear-gradient(145deg,#050510,#0d1024) padding-box,
+    linear-gradient(90deg,#00e5ff,#7c3aed,#ec4899,#00e5ff) border-box;
+  color: #ffffff;
+  overflow: hidden;
+  box-shadow:
+    0 0 35px rgba(124,58,237,.35),
+    0 0 70px rgba(0,229,255,.12);
+  animation: cosmicModal 3s ease-in-out infinite;
+}
+.Modal__orb {
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  top: -110px;
+  right: -80px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #00e5ff,
+    #7c3aed,
+    #ec4899,
+    #00e5ff
+  );
+  filter: blur(30px);
+  opacity: .22;
+  animation: orb 4s linear infinite;
+}
+.Modal__stars {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(
+    circle,
+    rgba(255,255,255,.65) 1px,
+    transparent 1px
+  );
+  background-size: 22px 22px;
+  opacity: .22;
+  animation: stars 5s linear infinite;
+}
+.Modal__box > * {
+  position: relative;
+}
+.Modal__box > span {
+  color: #67e8f9;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box h3 {
+  margin: 10px 0 8px;
+  font-size: 27px;
+}
+.Modal__box p {
+  color: #c4b5fd;
+}
+.Modal__box button {
+  margin-top: 18px;
+  padding: 11px 24px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg,#00e5ff,#7c3aed,#ec4899);
+  color: #ffffff;
+  font-weight: 900;
+  box-shadow: 0 0 22px rgba(124,58,237,.4);
+}
+@keyframes cosmicModal {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+@keyframes orb {
+  to {
+    transform: rotate(360deg) scale(1.15);
+  }
+}
+@keyframes stars {
+  to {
+    background-position: 44px 44px;
+  }
+}`,
+  },
+  {
+    id: 3075,
+    name: "Neon Profile Modal",
+    preview: (
+      <div className="modal-3075">
+        <div className="modal-3075-box">
+          <button className="modal-3075-close">
+            <i className="ri-close-line"></i>
+          </button>
+          <div className="modal-3075-avatar">
+            <i className="ri-user-3-fill"></i>
+          </div>
+          <span className="modal-3075-status">
+            <i className="ri-checkbox-circle-fill"></i> ONLINE
+          </span>
+          <h3>Welcome Back</h3>
+          <p>Your profile is ready for another adventure.</p>
+          <div className="modal-3075-stats">
+            <div>
+              <i className="ri-fire-fill"></i>
+              <strong>284</strong>
+              <span>Streak</span>
+            </div>
+            <div>
+              <i className="ri-star-fill"></i>
+              <strong>9.8K</strong>
+              <span>Points</span>
+            </div>
+            <div>
+              <i className="ri-trophy-fill"></i>
+              <strong>42</strong>
+              <span>Awards</span>
+            </div>
+          </div>
+          <button className="modal-3075-action">
+            <i className="ri-arrow-right-line"></i> Continue
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <button class="Modal__close"><i class="ri-close-line"></i></button>
+    <div class="Modal__avatar"><i class="ri-user-3-fill"></i></div>
+    <span class="Modal__status"><i class="ri-checkbox-circle-fill"></i> ONLINE</span>
+    <h3>Welcome Back</h3>
+    <p>Your profile is ready for another adventure.</p>
+    <div class="Modal__stats">
+      <div><i class="ri-fire-fill"></i><strong>284</strong><span>Streak</span></div>
+      <div><i class="ri-star-fill"></i><strong>9.8K</strong><span>Points</span></div>
+      <div><i class="ri-trophy-fill"></i><strong>42</strong><span>Awards</span></div>
+    </div>
+    <button class="Modal__action"><i class="ri-arrow-right-line"></i> Continue</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2, 6, 23, 0.82);
+  backdrop-filter: blur(12px);
+}
+.Modal__box {
+  position: relative;
+  width: 390px;
+  padding: 30px;
+  border: 1px solid rgba(56, 189, 248, 0.45);
+  border-radius: 24px;
+  background: linear-gradient(145deg, #06121f, #0c1728);
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 45px rgba(14, 165, 233, 0.25);
+  animation: profileIn 0.55s ease;
+}
+.Modal__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 50%;
+  background: rgba(255,255,255,.04);
+  color: #94a3b8;
+  cursor: pointer;
+}
+.Modal__avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 12px;
+  border: 2px solid #22d3ee;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #083344, #172554);
+  color: #67e8f9;
+  font-size: 30px;
+  box-shadow: 0 0 28px rgba(34,211,238,.45);
+  animation: profilePulse 1.8s ease-in-out infinite;
+}
+.Modal__status {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #4ade80;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box h3 {
+  margin: 10px 0 6px;
+  font-size: 26px;
+}
+.Modal__box p {
+  color: #94a3b8;
+}
+.Modal__stats {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 8px;
+  margin: 22px 0;
+}
+.Modal__stats div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 12px 5px;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 12px;
+  background: rgba(255,255,255,.03);
+}
+.Modal__stats i {
+  color: #22d3ee;
+  font-size: 17px;
+}
+.Modal__stats strong {
+  font-size: 15px;
+}
+.Modal__stats span {
+  color: #64748b;
+  font-size: 8px;
+}
+.Modal__action {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 11px 22px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg,#06b6d4,#3b82f6);
+  color: #ffffff;
+  font-weight: 900;
+  box-shadow: 0 0 22px rgba(6,182,212,.35);
+  cursor: pointer;
+}
+@keyframes profileIn {
+  from { opacity: 0; transform: translateY(25px) scale(.94); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes profilePulse {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(1.07); }
+}`,
+  },
+  {
+    id: 3076,
+    name: "Cyber Security Modal",
+    preview: (
+      <div className="modal-3076">
+        <div className="modal-3076-box">
+          <div className="modal-3076-grid"></div>
+          <div className="modal-3076-icon">
+            <i className="ri-shield-keyhole-fill"></i>
+          </div>
+          <span className="modal-3076-tag">
+            <i className="ri-radar-line"></i> SECURITY PROTOCOL
+          </span>
+          <h3>Protected Access</h3>
+          <p>Your connection has been encrypted and verified.</p>
+          <div className="modal-3076-checks">
+            <span>
+              <i className="ri-check-line"></i> Identity verified
+            </span>
+            <span>
+              <i className="ri-check-line"></i> Connection secure
+            </span>
+            <span>
+              <i className="ri-check-line"></i> Encryption active
+            </span>
+          </div>
+          <button>
+            <i className="ri-lock-unlock-line"></i> Enter Secure Area
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__grid"></div>
+    <div class="Modal__icon"><i class="ri-shield-keyhole-fill"></i></div>
+    <span class="Modal__tag"><i class="ri-radar-line"></i> SECURITY PROTOCOL</span>
+    <h3>Protected Access</h3>
+    <p>Your connection has been encrypted and verified.</p>
+    <div class="Modal__checks">
+      <span><i class="ri-check-line"></i> Identity verified</span>
+      <span><i class="ri-check-line"></i> Connection secure</span>
+      <span><i class="ri-check-line"></i> Encryption active</span>
+    </div>
+    <button><i class="ri-lock-unlock-line"></i> Enter Secure Area</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,.88);
+}
+.Modal__box {
+  position: relative;
+  width: 390px;
+  padding: 30px;
+  border: 1px solid #22c55e;
+  border-radius: 18px;
+  background: #020b06;
+  color: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(34,197,94,.22);
+  animation: securityIn .45s ease;
+}
+.Modal__grid {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(34,197,94,.06) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(34,197,94,.06) 1px,transparent 1px);
+  background-size: 20px 20px;
+  animation: gridMove 4s linear infinite;
+}
+.Modal__icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border: 1px solid #4ade80;
+  border-radius: 16px;
+  background: rgba(34,197,94,.08);
+  color: #4ade80;
+  font-size: 28px;
+  box-shadow: 0 0 22px rgba(34,197,94,.25);
+}
+.Modal__tag,
+.Modal__box h3,
+.Modal__box p,
+.Modal__checks,
+.Modal__box button {
+  position: relative;
+}
+.Modal__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 18px;
+  color: #4ade80;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box h3 {
+  margin: 10px 0 7px;
+  font-size: 25px;
+}
+.Modal__box p {
+  color: #86efac;
+}
+.Modal__checks {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 20px 0;
+}
+.Modal__checks span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #bbf7d0;
+  font-size: 11px;
+}
+.Modal__checks i {
+  color: #4ade80;
+}
+.Modal__box button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 11px 18px;
+  border: 1px solid #22c55e;
+  border-radius: 10px;
+  background: rgba(34,197,94,.1);
+  color: #4ade80;
+  font-weight: 900;
+  cursor: pointer;
+}
+@keyframes securityIn {
+  from { opacity: 0; transform: translateX(30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes gridMove {
+  to { background-position: 20px 20px; }
+}`,
+  },
+  {
+    id: 3077,
+    name: "AI Core Modal",
+    preview: (
+      <div className="modal-3077">
+        <div className="modal-3077-box">
+          <div className="modal-3077-core">
+            <i className="ri-brain-line"></i>
+          </div>
+          <span>AI CORE ACTIVE</span>
+          <h3>Neural Interface</h3>
+          <p>Artificial intelligence is ready for your command.</p>
+          <div className="modal-3077-wave">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+          </div>
+          <button>
+            <i className="ri-magic-line"></i> Initialize
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__core"><i class="ri-brain-line"></i></div>
+    <span>AI CORE ACTIVE</span>
+    <h3>Neural Interface</h3>
+    <p>Artificial intelligence is ready for your command.</p>
+    <div class="Modal__wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <button><i class="ri-magic-line"></i> Initialize</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(3,0,15,.88);
+}
+.Modal__box {
+  position: relative;
+  width: 350px;
+  padding: 30px;
+  border: 1px solid #a855f7;
+  border-radius: 22px;
+  background: linear-gradient(145deg,#0b0317,#18052c);
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 45px rgba(168,85,247,.28);
+  animation: aiIn .6s ease;
+}
+.Modal__core {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 78px;
+  height: 78px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  background: radial-gradient(circle,#d8b4fe 0%,#8b5cf6 35%,#2e1065 100%);
+  color: #ffffff;
+  font-size: 31px;
+  box-shadow: 0 0 35px rgba(139,92,246,.7);
+  animation: core 2s ease-in-out infinite;
+}
+.Modal__box > span {
+  color: #c4b5fd;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box h3 {
+  margin: 10px 0 7px;
+  font-size: 25px;
+}
+.Modal__box p {
+  color: #c4b5fd;
+}
+.Modal__wave {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 40px;
+  margin: 18px 0;
+}
+.Modal__wave i {
+  width: 4px;
+  height: 15px;
+  border-radius: 999px;
+  background: #a855f7;
+  box-shadow: 0 0 8px #a855f7;
+  animation: wave 1s ease-in-out infinite;
+}
+.Modal__wave i:nth-child(2) { animation-delay: .1s; }
+.Modal__wave i:nth-child(3) { animation-delay: .2s; }
+.Modal__wave i:nth-child(4) { animation-delay: .3s; }
+.Modal__wave i:nth-child(5) { animation-delay: .4s; }
+.Modal__wave i:nth-child(6) { animation-delay: .5s; }
+.Modal__wave i:nth-child(7) { animation-delay: .6s; }
+.Modal__box button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 22px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg,#7c3aed,#c026d3);
+  color: #ffffff;
+  font-weight: 900;
+  box-shadow: 0 0 22px rgba(168,85,247,.4);
+}
+@keyframes aiIn {
+  from { opacity: 0; transform: scale(.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes core {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+}
+@keyframes wave {
+  0%,100% { height: 12px; }
+  50% { height: 32px; }
+}`,
+  },
+  {
+    id: 3078,
+    name: "Premium Payment Modal",
+    preview: (
+      <div className="modal-3078">
+        <div className="modal-3078-box">
+          <button className="modal-3078-close">
+            <i className="ri-close-line"></i>
+          </button>
+          <div className="modal-3078-icon">
+            <i className="ri-bank-card-fill"></i>
+          </div>
+          <span>
+            <i className="ri-shield-check-fill"></i> SECURE PAYMENT
+          </span>
+          <h3>Upgrade Premium</h3>
+          <p>Unlock all premium features and elevate your experience.</p>
+          <div className="modal-3078-price">
+            <small>€</small>19<small>.99 / month</small>
+          </div>
+          <div className="modal-3078-feature">
+            <i className="ri-check-double-line"></i> Unlimited components
+          </div>
+          <div className="modal-3078-feature">
+            <i className="ri-check-double-line"></i> Premium animations
+          </div>
+          <div className="modal-3078-feature">
+            <i className="ri-check-double-line"></i> Priority updates
+          </div>
+          <button className="modal-3078-pay">
+            <i className="ri-secure-payment-line"></i> Upgrade Now
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <button class="Modal__close"><i class="ri-close-line"></i></button>
+    <div class="Modal__icon"><i class="ri-bank-card-fill"></i></div>
+    <span><i class="ri-shield-check-fill"></i> SECURE PAYMENT</span>
+    <h3>Upgrade Premium</h3>
+    <p>Unlock all premium features and elevate your experience.</p>
+    <div class="Modal__price"><small>€</small>19<small>.99 / month</small></div>
+    <div class="Modal__feature"><i class="ri-check-double-line"></i> Unlimited components</div>
+    <div class="Modal__feature"><i class="ri-check-double-line"></i> Premium animations</div>
+    <div class="Modal__feature"><i class="ri-check-double-line"></i> Priority updates</div>
+    <button class="Modal__pay"><i class="ri-secure-payment-line"></i> Upgrade Now</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2,6,23,.82);
+  backdrop-filter: blur(10px);
+}
+.Modal__box {
+  position: relative;
+  width: 370px;
+  padding: 28px;
+  border: 1px solid transparent;
+  border-radius: 22px;
+  background:
+    linear-gradient(145deg,#0b0b10,#18131f) padding-box,
+    linear-gradient(90deg,#f59e0b,#facc15,#ffffff,#f59e0b) border-box;
+  color: #ffffff;
+  box-shadow: 0 0 45px rgba(245,158,11,.2);
+  overflow: hidden;
+  animation: paymentIn .55s ease;
+}
+.Modal__close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  border: 0;
+  background: transparent;
+  color: #71717a;
+  font-size: 18px;
+}
+.Modal__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 14px;
+  border-radius: 16px;
+  background: linear-gradient(135deg,#854d0e,#f59e0b);
+  color: #fff7ed;
+  font-size: 28px;
+  box-shadow: 0 0 24px rgba(245,158,11,.35);
+}
+.Modal__box > span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #facc15;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box h3 {
+  margin: 10px 0 7px;
+  font-size: 25px;
+}
+.Modal__box p {
+  color: #a1a1aa;
+}
+.Modal__price {
+  margin: 18px 0;
+  font-size: 45px;
+  font-weight: 900;
+  color: #facc15;
+  text-shadow: 0 0 15px rgba(250,204,21,.3);
+}
+.Modal__price small {
+  font-size: 13px;
+  color: #a1a1aa;
+}
+.Modal__feature {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 9px 0;
+  color: #d4d4d8;
+  font-size: 11px;
+}
+.Modal__feature i {
+  color: #facc15;
+}
+.Modal__pay {
+  width: 100%;
+  margin-top: 17px;
+  padding: 11px;
+  border: 0;
+  border-radius: 10px;
+  background: linear-gradient(90deg,#d97706,#facc15);
+  color: #111827;
+  font-weight: 900;
+  box-shadow: 0 0 20px rgba(245,158,11,.3);
+}
+@keyframes paymentIn {
+  from { opacity: 0; transform: translateY(20px) scale(.95); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}`,
+  },
+  {
+    id: 3079,
+    name: "Mission Control Modal",
+    preview: (
+      <div className="modal-3079">
+        <div className="modal-3079-box">
+          <div className="modal-3079-header">
+            <span>
+              <i className="ri-radar-fill"></i> MISSION CONTROL
+            </span>
+            <i className="ri-more-2-fill"></i>
+          </div>
+          <div className="modal-3079-orbit">
+            <i className="ri-rocket-2-fill"></i>
+          </div>
+          <h3>Launch Sequence</h3>
+          <p>Everything is prepared for launch.</p>
+          <div className="modal-3079-progress">
+            <span></span>
+          </div>
+          <div className="modal-3079-info">
+            <span>
+              <i className="ri-checkbox-circle-line"></i> Systems Ready
+            </span>
+            <strong>98%</strong>
+          </div>
+          <button>
+            <i className="ri-rocket-2-line"></i> Launch Mission
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__header">
+      <span><i class="ri-radar-fill"></i> MISSION CONTROL</span>
+      <i class="ri-more-2-fill"></i>
+    </div>
+    <div class="Modal__orbit"><i class="ri-rocket-2-fill"></i></div>
+    <h3>Launch Sequence</h3>
+    <p>Everything is prepared for launch.</p>
+    <div class="Modal__progress"><span></span></div>
+    <div class="Modal__info">
+      <span><i class="ri-checkbox-circle-line"></i> Systems Ready</span>
+      <strong>98%</strong>
+    </div>
+    <button><i class="ri-rocket-2-line"></i> Launch Mission</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2,6,23,.88);
+}
+.Modal__box {
+  position: relative;
+  width: 370px;
+  padding: 25px;
+  border: 1px solid #334155;
+  border-radius: 20px;
+  background: radial-gradient(circle at 50% 0%,#18233d,#070b14 70%);
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 0 45px rgba(59,130,246,.18);
+}
+.Modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #60a5fa;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__orbit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  margin: 20px auto;
+  border: 2px dashed #3b82f6;
+  border-radius: 50%;
+  color: #60a5fa;
+  font-size: 30px;
+  box-shadow: 0 0 25px rgba(59,130,246,.25);
+  animation: orbit 4s linear infinite;
+}
+.Modal__box h3 {
+  font-size: 25px;
+}
+.Modal__box p {
+  color: #94a3b8;
+}
+.Modal__progress {
+  height: 7px;
+  margin: 20px 0 12px;
+  border-radius: 999px;
+  background: #172033;
+  overflow: hidden;
+}
+.Modal__progress span {
+  display: block;
+  width: 98%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg,#2563eb,#22d3ee);
+  box-shadow: 0 0 12px #22d3ee;
+  animation: progress 2s ease-in-out infinite alternate;
+}
+.Modal__info {
+  display: flex;
+  justify-content: space-between;
+  color: #64748b;
+  font-size: 10px;
+}
+.Modal__info span {
+  display: flex;
+  gap: 5px;
+}
+.Modal__info i,
+.Modal__info strong {
+  color: #22d3ee;
+}
+.Modal__box button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 20px;
+  padding: 11px 20px;
+  border: 0;
+  border-radius: 10px;
+  background: linear-gradient(90deg,#2563eb,#06b6d4);
+  color: #ffffff;
+  font-weight: 900;
+}
+@keyframes orbit {
+  to { transform: rotate(360deg); }
+}
+@keyframes progress {
+  from { width: 94%; }
+  to { width: 99%; }
+}`,
+  },
+  {
+    id: 3080,
+    name: "Magic Portal Modal",
+    preview: (
+      <div className="modal-3080">
+        <div className="modal-3080-box">
+          <div className="modal-3080-portal">
+            <i className="ri-magic-fill"></i>
+          </div>
+          <span>
+            <i className="ri-sparkling-fill"></i> MYSTIC GATEWAY
+          </span>
+          <h3>Enter The Portal</h3>
+          <p>A mysterious new destination awaits you.</p>
+          <div className="modal-3080-options">
+            <button>
+              <i className="ri-map-pin-2-fill"></i> Explore
+            </button>
+            <button>
+              <i className="ri-close-line"></i> Close
+            </button>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__portal">
+      <i class="ri-magic-fill"></i>
+    </div>
+    <span><i class="ri-sparkling-fill"></i> MYSTIC GATEWAY</span>
+    <h3>Enter The Portal</h3>
+    <p>A mysterious new destination awaits you.</p>
+    <div class="Modal__options">
+      <button><i class="ri-map-pin-2-fill"></i> Explore</button>
+      <button><i class="ri-close-line"></i> Close</button>
+    </div>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(8,2,20,.86);
+  backdrop-filter: blur(10px);
+}
+.Modal__box {
+  position: relative;
+  width: 360px;
+  padding: 30px;
+  border: 1px solid #a855f7;
+  border-radius: 24px;
+  background: linear-gradient(145deg,#0f0620,#1b0b33);
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 50px rgba(168,85,247,.32);
+  overflow: hidden;
+}
+.Modal__portal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88px;
+  height: 88px;
+  margin: 0 auto 16px;
+  border: 3px solid transparent;
+  border-top-color: #ec4899;
+  border-right-color: #a855f7;
+  border-bottom-color: #22d3ee;
+  border-left-color: #8b5cf6;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 30px;
+  box-shadow: 0 0 28px rgba(168,85,247,.4);
+  animation: portal 2s linear infinite;
+}
+.Modal__box > span {
+  color: #e9d5ff;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box h3 {
+  margin: 10px 0 8px;
+  font-size: 26px;
+}
+.Modal__box p {
+  color: #c4b5fd;
+}
+.Modal__options {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.Modal__options button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.Modal__options button:first-child {
+  border: 0;
+  background: linear-gradient(90deg,#7c3aed,#ec4899);
+  color: #ffffff;
+  box-shadow: 0 0 18px rgba(168,85,247,.35);
+}
+.Modal__options button:last-child {
+  border: 1px solid #475569;
+  background: transparent;
+  color: #94a3b8;
+}
+@keyframes portal {
+  to { transform: rotate(360deg); }
+}`,
+  },
+  {
+    id: 3081,
+    name: "Music Player Modal",
+    preview: (
+      <div className="modal-3081">
+        <div className="modal-3081-box">
+          <div className="modal-3081-cover">
+            <i className="ri-music-2-fill"></i>
+          </div>
+          <span>
+            <i className="ri-headphone-fill"></i> NOW PLAYING
+          </span>
+          <h3>Neon Dreams</h3>
+          <p>Future Sounds • 03:42</p>
+          <div className="modal-3081-bars">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+          </div>
+          <div className="modal-3081-controls">
+            <button>
+              <i className="ri-skip-back-fill"></i>
+            </button>
+            <button>
+              <i className="ri-pause-fill"></i>
+            </button>
+            <button>
+              <i className="ri-skip-forward-fill"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__cover"><i class="ri-music-2-fill"></i></div>
+    <span><i class="ri-headphone-fill"></i> NOW PLAYING</span>
+    <h3>Neon Dreams</h3>
+    <p>Future Sounds • 03:42</p>
+    <div class="Modal__bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="Modal__controls">
+      <button><i class="ri-skip-back-fill"></i></button>
+      <button><i class="ri-pause-fill"></i></button>
+      <button><i class="ri-skip-forward-fill"></i></button>
+    </div>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2,6,23,.82);
+  backdrop-filter: blur(12px);
+}
+.Modal__box {
+  width: 340px;
+  padding: 28px;
+  border: 1px solid #ec4899;
+  border-radius: 22px;
+  background: linear-gradient(145deg,#16000d,#10051c);
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 40px rgba(236,72,153,.25);
+}
+.Modal__cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 17px;
+  border-radius: 18px;
+  background: linear-gradient(135deg,#ec4899,#7c3aed,#06b6d4);
+  color: #ffffff;
+  font-size: 35px;
+  box-shadow: 0 0 28px rgba(236,72,153,.35);
+  animation: cover 2s linear infinite;
+}
+.Modal__box > span {
+  color: #f9a8d4;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box h3 {
+  margin: 9px 0 4px;
+  font-size: 25px;
+}
+.Modal__box p {
+  color: #a1a1aa;
+}
+.Modal__bars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 45px;
+  margin: 20px 0;
+}
+.Modal__bars i {
+  width: 4px;
+  height: 15px;
+  border-radius: 999px;
+  background: linear-gradient(#ec4899,#22d3ee);
+  animation: music 1s ease-in-out infinite;
+}
+.Modal__bars i:nth-child(2) { animation-delay: .1s; }
+.Modal__bars i:nth-child(3) { animation-delay: .2s; }
+.Modal__bars i:nth-child(4) { animation-delay: .3s; }
+.Modal__bars i:nth-child(5) { animation-delay: .4s; }
+.Modal__bars i:nth-child(6) { animation-delay: .5s; }
+.Modal__bars i:nth-child(7) { animation-delay: .6s; }
+.Modal__bars i:nth-child(8) { animation-delay: .7s; }
+.Modal__bars i:nth-child(9) { animation-delay: .8s; }
+.Modal__bars i:nth-child(10) { animation-delay: .9s; }
+.Modal__controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.Modal__controls button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid #3f1d46;
+  border-radius: 50%;
+  background: #170b1d;
+  color: #f9a8d4;
+}
+.Modal__controls button:nth-child(2) {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg,#ec4899,#7c3aed);
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(236,72,153,.35);
+}
+@keyframes cover {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+}
+@keyframes music {
+  0%,100% { height: 10px; }
+  50% { height: 38px; }
+}`,
+  },
+  {
+    id: 3082,
+    name: "Achievement Modal",
+    preview: (
+      <div className="modal-3082">
+        <div className="modal-3082-box">
+          <div className="modal-3082-burst">
+            <i className="ri-trophy-fill"></i>
+          </div>
+          <span>
+            <i className="ri-medal-fill"></i> ACHIEVEMENT UNLOCKED
+          </span>
+          <h3>Legendary Status</h3>
+          <p>You've reached a new milestone.</p>
+          <div className="modal-3082-reward">
+            <i className="ri-star-fill"></i>
+            <strong>+5,000 XP</strong>
+          </div>
+          <button>
+            <i className="ri-share-forward-fill"></i> Share Achievement
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__burst"><i class="ri-trophy-fill"></i></div>
+    <span><i class="ri-medal-fill"></i> ACHIEVEMENT UNLOCKED</span>
+    <h3>Legendary Status</h3>
+    <p>You've reached a new milestone.</p>
+    <div class="Modal__reward">
+      <i class="ri-star-fill"></i>
+      <strong>+5,000 XP</strong>
+    </div>
+    <button><i class="ri-share-forward-fill"></i> Share Achievement</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(7,4,0,.84);
+}
+.Modal__box {
+  position: relative;
+  width: 350px;
+  padding: 30px;
+  border: 1px solid #facc15;
+  border-radius: 22px;
+  background: linear-gradient(145deg,#171000,#2a1a00);
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 45px rgba(250,204,21,.28);
+  overflow: hidden;
+  animation: achievementIn .6s cubic-bezier(.2,.8,.2,1);
+}
+.Modal__burst {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85px;
+  height: 85px;
+  margin: 0 auto 17px;
+  border: 3px solid #facc15;
+  border-radius: 50%;
+  background: radial-gradient(circle,#fef3c7,#f59e0b,#713f12);
+  color: #ffffff;
+  font-size: 34px;
+  box-shadow: 0 0 32px rgba(250,204,21,.65);
+  animation: trophy 1.5s ease-in-out infinite;
+}
+.Modal__box > span {
+  color: #fde68a;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box h3 {
+  margin: 10px 0 7px;
+  font-size: 25px;
+}
+.Modal__box p {
+  color: #d6d3d1;
+}
+.Modal__reward {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin: 19px 0;
+  color: #facc15;
+  font-size: 20px;
+}
+.Modal__reward i {
+  text-shadow: 0 0 12px #facc15;
+}
+.Modal__box button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 19px;
+  border: 0;
+  border-radius: 10px;
+  background: #facc15;
+  color: #422006;
+  font-weight: 900;
+  box-shadow: 0 0 20px rgba(250,204,21,.35);
+}
+@keyframes achievementIn {
+  from { opacity: 0; transform: scale(.7) rotate(-5deg); }
+  to { opacity: 1; transform: scale(1) rotate(0); }
+}
+@keyframes trophy {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-5px) scale(1.06); }
+}`,
+  },
+  {
+    id: 3083,
+    name: "Rainbow Settings Modal",
+    preview: (
+      <div className="modal-3083">
+        <div className="modal-3083-box">
+          <div className="modal-3083-top">
+            <div>
+              <i className="ri-settings-5-fill"></i>
+              <span>SETTINGS</span>
+            </div>
+            <i className="ri-close-line"></i>
+          </div>
+          <h3>Customize Experience</h3>
+          <p>Make the interface feel like yours.</p>
+          <div className="modal-3083-setting">
+            <span>
+              <i className="ri-moon-fill"></i> Dark Mode
+            </span>
+            <b></b>
+          </div>
+          <div className="modal-3083-setting">
+            <span>
+              <i className="ri-notification-3-fill"></i> Notifications
+            </span>
+            <b className="active"></b>
+          </div>
+          <div className="modal-3083-setting">
+            <span>
+              <i className="ri-flashlight-fill"></i> Animations
+            </span>
+            <b className="active"></b>
+          </div>
+          <button>
+            <i className="ri-check-line"></i> Save Changes
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__top">
+      <div><i class="ri-settings-5-fill"></i><span>SETTINGS</span></div>
+      <i class="ri-close-line"></i>
+    </div>
+    <h3>Customize Experience</h3>
+    <p>Make the interface feel like yours.</p>
+    <div class="Modal__setting"><span><i class="ri-moon-fill"></i> Dark Mode</span><b></b></div>
+    <div class="Modal__setting"><span><i class="ri-notification-3-fill"></i> Notifications</span><b class="active"></b></div>
+    <div class="Modal__setting"><span><i class="ri-flashlight-fill"></i> Animations</span><b class="active"></b></div>
+    <button><i class="ri-check-line"></i> Save Changes</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(5,7,18,.82);
+  backdrop-filter: blur(12px);
+}
+.Modal__box {
+  position: relative;
+  width: 370px;
+  padding: 26px;
+  border: 1px solid transparent;
+  border-radius: 22px;
+  background:
+    linear-gradient(145deg,#0b0b12,#151522) padding-box,
+    linear-gradient(90deg,#ff0055,#ff9900,#00ff77,#00ddff,#7c3aed,#ff0055) border-box;
+  background-size: auto,500% 100%;
+  color: #ffffff;
+  box-shadow: 0 0 45px rgba(124,58,237,.25);
+  animation: settingsRainbow 5s linear infinite;
+}
+.Modal__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Modal__top > div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #c4b5fd;
+}
+.Modal__top > div i {
+  color: #22d3ee;
+  text-shadow: 0 0 10px #22d3ee;
+}
+.Modal__top > div span {
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__top > i {
+  color: #71717a;
+}
+.Modal__box h3 {
+  margin: 18px 0 6px;
+  font-size: 25px;
+}
+.Modal__box p {
+  color: #94a3b8;
+}
+.Modal__setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+.Modal__setting span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #d4d4d8;
+  font-size: 11px;
+}
+.Modal__setting span i {
+  color: #a855f7;
+}
+.Modal__setting b {
+  display: block;
+  width: 34px;
+  height: 18px;
+  border-radius: 999px;
+  background: #27272a;
+  position: relative;
+}
+.Modal__setting b::after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #71717a;
+  transition: .3s ease;
+}
+.Modal__setting b.active {
+  background: linear-gradient(90deg,#ec4899,#7c3aed,#22d3ee);
+}
+.Modal__setting b.active::after {
+  left: 18px;
+  background: #ffffff;
+}
+.Modal__box > button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 20px;
+  padding: 10px 19px;
+  border: 0;
+  border-radius: 10px;
+  background: linear-gradient(90deg,#ec4899,#7c3aed,#22d3ee);
+  color: #ffffff;
+  font-weight: 900;
+  box-shadow: 0 0 20px rgba(168,85,247,.3);
+}
+@keyframes settingsRainbow {
+  to {
+    background-position: 0 0,500% 0;
+  }
+}`,
+  },
+  {
+    id: 3084,
+    name: "Ultimate Command Modal",
+    preview: (
+      <div className="modal-3084">
+        <div className="modal-3084-box">
+          <div className="modal-3084-header">
+            <div>
+              <i className="ri-command-fill"></i>
+              <span>ULTIMATE COMMAND</span>
+            </div>
+            <i className="ri-more-fill"></i>
+          </div>
+          <div className="modal-3084-icon">
+            <i className="ri-cpu-fill"></i>
+          </div>
+          <h3>System Override</h3>
+          <p>You are about to activate an advanced system mode.</p>
+          <div className="modal-3084-warning">
+            <i className="ri-error-warning-fill"></i>
+            <span>Advanced permissions required</span>
+          </div>
+          <div className="modal-3084-buttons">
+            <button>
+              <i className="ri-flashlight-fill"></i> Activate
+            </button>
+            <button>
+              <i className="ri-arrow-left-line"></i> Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__header">
+      <div><i class="ri-command-fill"></i><span>ULTIMATE COMMAND</span></div>
+      <i class="ri-more-fill"></i>
+    </div>
+    <div class="Modal__icon"><i class="ri-cpu-fill"></i></div>
+    <h3>System Override</h3>
+    <p>You are about to activate an advanced system mode.</p>
+    <div class="Modal__warning"><i class="ri-error-warning-fill"></i><span>Advanced permissions required</span></div>
+    <div class="Modal__buttons">
+      <button><i class="ri-flashlight-fill"></i> Activate</button>
+      <button><i class="ri-arrow-left-line"></i> Cancel</button>
+    </div>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,.9);
+}
+.Modal__box {
+  position: relative;
+  width: 390px;
+  padding: 28px;
+  border: 1px solid transparent;
+  border-radius: 18px;
+  background:
+    linear-gradient(145deg,#06070b,#10131c) padding-box,
+    linear-gradient(90deg,#00e5ff,#7c3aed,#ec4899,#facc15,#00e5ff) border-box;
+  background-size: auto,400% 100%;
+  color: #ffffff;
+  box-shadow:
+    0 0 35px rgba(0,229,255,.22),
+    0 0 55px rgba(124,58,237,.18);
+  overflow: hidden;
+  animation: commandRainbow 4s linear infinite;
+}
+.Modal__box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(0,229,255,.04) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(0,229,255,.04) 1px,transparent 1px);
+  background-size: 18px 18px;
+  animation: commandGrid 3s linear infinite;
+}
+.Modal__header,
+.Modal__icon,
+.Modal__box h3,
+.Modal__box p,
+.Modal__warning,
+.Modal__buttons {
+  position: relative;
+}
+.Modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Modal__header > div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #67e8f9;
+}
+.Modal__header > div i {
+  font-size: 16px;
+  text-shadow: 0 0 10px #22d3ee;
+}
+.Modal__header span {
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__header > i {
+  color: #64748b;
+}
+.Modal__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 76px;
+  margin: 25px auto 15px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background:
+    linear-gradient(#090d16,#090d16) padding-box,
+    linear-gradient(135deg,#00e5ff,#7c3aed,#ec4899) border-box;
+  color: #67e8f9;
+  font-size: 30px;
+  box-shadow: 0 0 28px rgba(0,229,255,.28);
+  animation: commandCore 2s ease-in-out infinite;
+}
+.Modal__box h3 {
+  text-align: center;
+  font-size: 27px;
+  margin: 0 0 7px;
+}
+.Modal__box p {
+  text-align: center;
+  color: #94a3b8;
+}
+.Modal__warning {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  padding: 11px;
+  border: 1px solid rgba(250,204,21,.2);
+  border-radius: 10px;
+  background: rgba(250,204,21,.05);
+  color: #fde68a;
+  font-size: 10px;
+}
+.Modal__warning i {
+  color: #facc15;
+  font-size: 17px;
+  text-shadow: 0 0 8px #facc15;
+}
+.Modal__buttons {
+  display: flex;
+  gap: 9px;
+  margin-top: 18px;
+}
+.Modal__buttons button {
+  flex: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 10px;
+  border-radius: 9px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.Modal__buttons button:first-child {
+  border: 0;
+  background: linear-gradient(90deg,#00bcd4,#7c3aed,#ec4899);
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(124,58,237,.35);
+}
+.Modal__buttons button:last-child {
+  border: 1px solid #334155;
+  background: rgba(255,255,255,.03);
+  color: #94a3b8;
+}
+@keyframes commandRainbow {
+  to {
+    background-position: 0 0,400% 0;
+  }
+}
+@keyframes commandGrid {
+  to {
+    background-position: 18px 18px;
+  }
+}
+@keyframes commandCore {
+  0%,100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08) rotate(2deg);
+  }
+}`,
+  },
+  {
+    id: 3085,
+    name: "Frost Guardian",
+    preview: (
+      <div className="modal-3085">
+        <div className="modal-3085-box">
+          <button className="modal-3085-close">
+            <i className="ri-close-line"></i>
+          </button>
+          <div className="modal-3085-crystal">
+            <i className="ri-shield-star-fill"></i>
+          </div>
+          <span>
+            <i className="ri-snowflake-fill"></i> FROST PROTOCOL
+          </span>
+          <h3>Frost Guardian</h3>
+          <p>
+            The frozen core is protecting your system from incoming threats.
+          </p>
+          <div className="modal-3085-status">
+            <i className="ri-checkbox-circle-fill"></i>
+            <span>ICE SHIELD ACTIVE</span>
+          </div>
+          <button className="modal-3085-action">
+            <i className="ri-shield-check-fill"></i>
+            Activate Shield
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <button class="Modal__close"><i class="ri-close-line"></i></button>
+    <div class="Modal__crystal">
+      <i class="ri-shield-star-fill"></i>
+    </div>
+    <span><i class="ri-snowflake-fill"></i> FROST PROTOCOL</span>
+    <h3>Frost Guardian</h3>
+    <p>The frozen core is protecting your system from incoming threats.</p>
+    <div class="Modal__status">
+      <i class="ri-checkbox-circle-fill"></i>
+      <span>ICE SHIELD ACTIVE</span>
+    </div>
+    <button class="Modal__action">
+      <i class="ri-shield-check-fill"></i>
+      Activate Shield
+    </button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2, 10, 20, 0.86);
+  backdrop-filter: blur(12px);
+}
+.Modal__box {
+  position: relative;
+  width: 360px;
+  padding: 30px;
+  border: 1px solid transparent;
+  border-radius: 22px;
+  background:
+    linear-gradient(145deg,#02101d,#082b43) padding-box,
+    linear-gradient(90deg,#0ea5e9,#67e8f9,#ffffff,#38bdf8,#0ea5e9) border-box;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 42px rgba(56,189,248,.28);
+  overflow: hidden;
+}
+.Modal__box::before {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  background: radial-gradient(circle,rgba(186,230,253,.12),transparent 55%);
+  animation: guardianGlow 4s ease-in-out infinite;
+}
+.Modal__close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(186,230,253,.18);
+  border-radius: 50%;
+  background: rgba(2,15,28,.65);
+  color: #bae6fd;
+}
+.Modal__crystal {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 78px;
+  height: 78px;
+  margin: 0 auto 16px;
+  border: 2px solid #67e8f9;
+  border-radius: 20px;
+  background: linear-gradient(145deg,#0c4a6e,#082f49);
+  color: #e0f2fe;
+  font-size: 31px;
+  box-shadow:
+    0 0 20px rgba(56,189,248,.4),
+    inset 0 0 20px rgba(186,230,253,.08);
+  animation: guardianCrystal 2s ease-in-out infinite;
+}
+.Modal__box > span {
+  position: relative;
+  color: #bae6fd;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box > span i {
+  color: #67e8f9;
+  text-shadow: 0 0 10px #38bdf8;
+}
+.Modal__box h3 {
+  position: relative;
+  margin: 10px 0 8px;
+  font-size: 26px;
+}
+.Modal__box p {
+  position: relative;
+  color: #a5cfe5;
+}
+.Modal__status {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin: 18px 0;
+  color: #67e8f9;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.Modal__status i {
+  text-shadow: 0 0 9px #22d3ee;
+}
+.Modal__action {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 11px 20px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg,#0284c7,#22d3ee);
+  color: #ffffff;
+  font-weight: 900;
+  box-shadow: 0 0 22px rgba(34,211,238,.35);
+}
+@keyframes guardianGlow {
+  0%,100% {
+    transform: scale(1);
+    opacity: .5;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: .9;
+  }
+}
+@keyframes guardianCrystal {
+  0%,100% {
+    transform: scale(1) rotate(0);
+  }
+  50% {
+    transform: scale(1.07) rotate(2deg);
+  }
+}`,
+  },
+  {
+    id: 3086,
+    name: "Glacial Portal",
+    preview: (
+      <div className="modal-3086">
+        <div className="modal-3086-box">
+          <div className="modal-3086-ring">
+            <div>
+              <i className="ri-snowflake-line"></i>
+            </div>
+          </div>
+          <span>
+            <i className="ri-temp-cold-fill"></i> GLACIAL GATEWAY
+          </span>
+          <h3>Enter The Frozen Realm</h3>
+          <p>A portal has opened inside the eternal ice.</p>
+          <div className="modal-3086-actions">
+            <button>
+              <i className="ri-door-open-fill"></i> Enter
+            </button>
+            <button>
+              <i className="ri-close-line"></i> Close
+            </button>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__ring">
+      <div><i class="ri-snowflake-line"></i></div>
+    </div>
+    <span><i class="ri-temp-cold-fill"></i> GLACIAL GATEWAY</span>
+    <h3>Enter The Frozen Realm</h3>
+    <p>A portal has opened inside the eternal ice.</p>
+    <div class="Modal__actions">
+      <button><i class="ri-door-open-fill"></i> Enter</button>
+      <button><i class="ri-close-line"></i> Close</button>
+    </div>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(1,12,24,.88);
+}
+.Modal__box {
+  position: relative;
+  width: 370px;
+  padding: 28px;
+  border: 1px solid #38bdf8;
+  border-radius: 24px;
+  background: radial-gradient(circle at 50% 35%,#0c4a6e,#020617 68%);
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  box-shadow:
+    0 0 35px rgba(56,189,248,.3),
+    inset 0 0 30px rgba(125,211,252,.05);
+}
+.Modal__ring {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 105px;
+  height: 105px;
+  margin: 0 auto 17px;
+  border: 2px dashed #7dd3fc;
+  border-radius: 50%;
+  box-shadow:
+    0 0 18px rgba(56,189,248,.25),
+    inset 0 0 18px rgba(56,189,248,.1);
+  animation: portalRing 5s linear infinite;
+}
+.Modal__ring div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border: 2px solid #bae6fd;
+  border-radius: 50%;
+  background: rgba(14,116,144,.25);
+  color: #e0f2fe;
+  font-size: 29px;
+  box-shadow: 0 0 25px rgba(34,211,238,.4);
+  animation: portalCore 2s ease-in-out infinite;
+}
+.Modal__box > span {
+  color: #bae6fd;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box > span i {
+  color: #67e8f9;
+  text-shadow: 0 0 10px #38bdf8;
+}
+.Modal__box h3 {
+  margin: 11px 0 8px;
+  font-size: 25px;
+}
+.Modal__box p {
+  color: #9cc7dc;
+}
+.Modal__actions {
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+  margin-top: 20px;
+}
+.Modal__actions button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 900;
+}
+.Modal__actions button:first-child {
+  border: 0;
+  background: linear-gradient(90deg,#0284c7,#22d3ee);
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(34,211,238,.35);
+}
+.Modal__actions button:last-child {
+  border: 1px solid #164e63;
+  background: rgba(2,15,28,.6);
+  color: #7dd3fc;
+}
+@keyframes portalRing {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes portalCore {
+  0%,100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 38px rgba(34,211,238,.65);
+  }
+}`,
+  },
+  {
+    id: 3087,
+    name: "Ice Crystal Vault",
+    preview: (
+      <div className="modal-3087">
+        <div className="modal-3087-box">
+          <div className="modal-3087-crystals">
+            <i className="ri-gem-fill"></i>
+            <i className="ri-gem-fill"></i>
+            <i className="ri-gem-fill"></i>
+          </div>
+          <div className="modal-3087-icon">
+            <i className="ri-lock-star-fill"></i>
+          </div>
+          <span>
+            <i className="ri-key-2-fill"></i> FROZEN VAULT
+          </span>
+          <h3>Crystal Chamber</h3>
+          <p>An ancient frozen vault has been discovered.</p>
+          <div className="modal-3087-code">
+            <span>ICE</span>
+            <strong>7 4 9</strong>
+            <span>Ω</span>
+          </div>
+          <button>
+            <i className="ri-lock-unlock-fill"></i> Unlock Vault
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__crystals">
+      <i class="ri-gem-fill"></i>
+      <i class="ri-gem-fill"></i>
+      <i class="ri-gem-fill"></i>
+    </div>
+    <div class="Modal__icon"><i class="ri-lock-star-fill"></i></div>
+    <span><i class="ri-key-2-fill"></i> FROZEN VAULT</span>
+    <h3>Crystal Chamber</h3>
+    <p>An ancient frozen vault has been discovered.</p>
+    <div class="Modal__code">
+      <span>ICE</span>
+      <strong>7 4 9</strong>
+      <span>Ω</span>
+    </div>
+    <button><i class="ri-lock-unlock-fill"></i> Unlock Vault</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2,8,18,.9);
+}
+.Modal__box {
+  position: relative;
+  width: 360px;
+  padding: 30px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background:
+    linear-gradient(145deg,#06121d,#0b2435) padding-box,
+    linear-gradient(135deg,#38bdf8,#bae6fd,#ffffff,#0ea5e9) border-box;
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(14,165,233,.27);
+}
+.Modal__crystals {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.Modal__crystals i {
+  position: absolute;
+  color: #bae6fd;
+  text-shadow: 0 0 12px #38bdf8;
+  opacity: .35;
+  animation: crystalFloat 4s ease-in-out infinite;
+}
+.Modal__crystals i:nth-child(1) {
+  top: 25px;
+  left: 30px;
+  font-size: 15px;
+}
+.Modal__crystals i:nth-child(2) {
+  top: 80px;
+  right: 28px;
+  font-size: 11px;
+  animation-delay: .8s;
+}
+.Modal__crystals i:nth-child(3) {
+  bottom: 30px;
+  left: 22px;
+  font-size: 9px;
+  animation-delay: 1.5s;
+}
+.Modal__icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 15px;
+  border: 1px solid #7dd3fc;
+  border-radius: 18px;
+  background: linear-gradient(145deg,#0c4a6e,#082f49);
+  color: #e0f2fe;
+  font-size: 29px;
+  box-shadow: 0 0 25px rgba(56,189,248,.38);
+  animation: vaultPulse 2s ease-in-out infinite;
+}
+.Modal__box > span {
+  color: #bae6fd;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box > span i {
+  color: #67e8f9;
+  text-shadow: 0 0 9px #38bdf8;
+}
+.Modal__box h3 {
+  margin: 10px 0 7px;
+  font-size: 25px;
+}
+.Modal__box p {
+  color: #9cc7dc;
+}
+.Modal__code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 20px 0;
+  padding: 13px;
+  border: 1px solid rgba(125,211,252,.18);
+  border-radius: 12px;
+  background: rgba(2,15,28,.6);
+}
+.Modal__code span {
+  color: #67e8f9;
+  font-size: 9px;
+  font-weight: 900;
+  text-shadow: 0 0 8px #22d3ee;
+}
+.Modal__code strong {
+  color: #e0f2fe;
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+.Modal__box > button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 20px;
+  border: 1px solid #38bdf8;
+  border-radius: 10px;
+  background: rgba(14,165,233,.12);
+  color: #bae6fd;
+  font-weight: 900;
+  box-shadow: 0 0 18px rgba(56,189,248,.22);
+}
+@keyframes crystalFloat {
+  0%,100% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(-8px) rotate(15deg);
+  }
+}
+@keyframes vaultPulse {
+  0%,100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+}`,
+  },
+  {
+    id: 3088,
+    name: "Frozen Storm",
+    preview: (
+      <div className="modal-3088">
+        <div className="modal-3088-box">
+          <div className="modal-3088-storm"></div>
+          <div className="modal-3088-icon">
+            <i className="ri-temp-cold-fill"></i>
+          </div>
+          <span>
+            <i className="ri-windy-fill"></i> EXTREME WEATHER
+          </span>
+          <h3>Frozen Storm</h3>
+          <p>A powerful arctic storm is approaching your current location.</p>
+          <div className="modal-3088-data">
+            <div>
+              <i className="ri-temp-cold-line"></i>
+              <strong>-24°C</strong>
+              <span>TEMPERATURE</span>
+            </div>
+            <div>
+              <i className="ri-windy-line"></i>
+              <strong>91 km/h</strong>
+              <span>WIND</span>
+            </div>
+          </div>
+          <button>
+            <i className="ri-map-pin-line"></i> Track Storm
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__storm"></div>
+    <div class="Modal__icon"><i class="ri-temp-cold-fill"></i></div>
+    <span><i class="ri-windy-fill"></i> EXTREME WEATHER</span>
+    <h3>Frozen Storm</h3>
+    <p>A powerful arctic storm is approaching your current location.</p>
+    <div class="Modal__data">
+      <div><i class="ri-temp-cold-line"></i><strong>-24°C</strong><span>TEMPERATURE</span></div>
+      <div><i class="ri-windy-line"></i><strong>91 km/h</strong><span>WIND</span></div>
+    </div>
+    <button><i class="ri-map-pin-line"></i> Track Storm</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(1,7,15,.88);
+}
+.Modal__box {
+  position: relative;
+  width: 380px;
+  padding: 30px;
+  border: 1px solid #7dd3fc;
+  border-radius: 22px;
+  background: linear-gradient(145deg,#02101c,#07263c);
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 0 45px rgba(56,189,248,.25);
+}
+.Modal__storm {
+  position: absolute;
+  inset: -50%;
+  background: conic-gradient(
+    from 0deg,
+    rgba(14,165,233,.0),
+    rgba(125,211,252,.15),
+    rgba(255,255,255,.06),
+    rgba(14,165,233,.0)
+  );
+  animation: stormSpin 6s linear infinite;
+}
+.Modal__icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  background: radial-gradient(circle,#e0f2fe,#38bdf8,#075985);
+  color: #ffffff;
+  font-size: 30px;
+  box-shadow: 0 0 30px rgba(56,189,248,.55);
+  animation: stormPulse 1.8s ease-in-out infinite;
+}
+.Modal__box > span,
+.Modal__box h3,
+.Modal__box p,
+.Modal__data,
+.Modal__box > button {
+  position: relative;
+}
+.Modal__box > span {
+  color: #bae6fd;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box > span i {
+  color: #67e8f9;
+  text-shadow: 0 0 10px #38bdf8;
+}
+.Modal__box h3 {
+  margin: 10px 0 7px;
+  font-size: 26px;
+}
+.Modal__box p {
+  color: #a5cfe5;
+}
+.Modal__data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px;
+  margin: 20px 0;
+}
+.Modal__data div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 13px 8px;
+  border: 1px solid rgba(125,211,252,.16);
+  border-radius: 12px;
+  background: rgba(2,15,28,.5);
+}
+.Modal__data i {
+  color: #67e8f9;
+  font-size: 18px;
+}
+.Modal__data strong {
+  color: #e0f2fe;
+  font-size: 16px;
+}
+.Modal__data span {
+  color: #647b8c;
+  font-size: 7px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.Modal__box > button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 21px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg,#0284c7,#38bdf8);
+  color: #ffffff;
+  font-weight: 900;
+  box-shadow: 0 0 20px rgba(56,189,248,.35);
+}
+@keyframes stormSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes stormPulse {
+  0%,100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow: 0 0 42px rgba(56,189,248,.7);
+  }
+}`,
+  },
+  {
+    id: 3089,
+    name: "Absolute Zero",
+    preview: (
+      <div className="modal-3089">
+        <div className="modal-3089-box">
+          <div className="modal-3089-rays"></div>
+          <div className="modal-3089-core">
+            <i className="ri-snowflake-fill"></i>
+          </div>
+          <span>
+            <i className="ri-flashlight-fill"></i> ABSOLUTE ZERO
+          </span>
+          <h3>Frozen Core Online</h3>
+          <p>The temperature has reached a critical freezing state.</p>
+          <div className="modal-3089-meter">
+            <div className="modal-3089-meter-fill"></div>
+          </div>
+          <div className="modal-3089-reading">
+            <span>CORE TEMPERATURE</span>
+            <strong>-273.15°C</strong>
+          </div>
+          <div className="modal-3089-actions">
+            <button>
+              <i className="ri-snowflake-fill"></i> Stabilize
+            </button>
+            <button>
+              <i className="ri-close-line"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__rays"></div>
+    <div class="Modal__core">
+      <i class="ri-snowflake-fill"></i>
+    </div>
+    <span><i class="ri-flashlight-fill"></i> ABSOLUTE ZERO</span>
+    <h3>Frozen Core Online</h3>
+    <p>The temperature has reached a critical freezing state.</p>
+    <div class="Modal__meter">
+      <div class="Modal__meter-fill"></div>
+    </div>
+    <div class="Modal__reading">
+      <span>CORE TEMPERATURE</span>
+      <strong>-273.15°C</strong>
+    </div>
+    <div class="Modal__actions">
+      <button><i class="ri-snowflake-fill"></i> Stabilize</button>
+      <button><i class="ri-close-line"></i></button>
+    </div>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,5,15,.92);
+  backdrop-filter: blur(14px);
+}
+.Modal__box {
+  position: relative;
+  width: 370px;
+  padding: 30px;
+  border: 1px solid transparent;
+  border-radius: 24px;
+  background:
+    linear-gradient(145deg,#020617,#061b30) padding-box,
+    linear-gradient(90deg,#0284c7,#67e8f9,#ffffff,#22d3ee,#0284c7) border-box;
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  box-shadow:
+    0 0 40px rgba(34,211,238,.3),
+    inset 0 0 30px rgba(125,211,252,.05);
+}
+.Modal__rays {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  top: -110px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background:
+    repeating-conic-gradient(
+      from 0deg,
+      rgba(125,211,252,.12) 0deg 8deg,
+      transparent 8deg 18deg
+    );
+  animation: zeroRays 8s linear infinite;
+}
+.Modal__core {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 86px;
+  height: 86px;
+  margin: 0 auto 16px;
+  border: 2px solid #e0f2fe;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    #ffffff 0%,
+    #bae6fd 25%,
+    #38bdf8 50%,
+    #075985 100%
+  );
+  color: #082f49;
+  font-size: 34px;
+  box-shadow:
+    0 0 20px rgba(224,242,254,.7),
+    0 0 50px rgba(56,189,248,.4);
+  animation: zeroCore 1.8s ease-in-out infinite;
+}
+.Modal__box > span {
+  position: relative;
+  color: #bae6fd;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box > span i {
+  color: #67e8f9;
+  text-shadow: 0 0 9px #22d3ee;
+}
+.Modal__box h3 {
+  position: relative;
+  margin: 10px 0 7px;
+  font-size: 25px;
+}
+.Modal__box p {
+  position: relative;
+  color: #9cc7dc;
+}
+.Modal__meter {
+  position: relative;
+  height: 7px;
+  margin: 20px 0 13px;
+  border-radius: 999px;
+  background: #082f49;
+  overflow: hidden;
+}
+.Modal__meter-fill {
+  width: 92%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg,#0284c7,#67e8f9,#ffffff);
+  box-shadow: 0 0 12px #67e8f9;
+  animation: zeroMeter 1.8s ease-in-out infinite alternate;
+}
+.Modal__reading {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #647b8c;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.Modal__reading strong {
+  color: #e0f2fe;
+  font-size: 13px;
+  text-shadow: 0 0 9px #38bdf8;
+}
+.Modal__actions {
+  position: relative;
+  display: flex;
+  gap: 9px;
+  margin-top: 20px;
+}
+.Modal__actions button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 900;
+}
+.Modal__actions button:first-child {
+  flex: 1;
+  border: 0;
+  background: linear-gradient(90deg,#0369a1,#22d3ee);
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(34,211,238,.35);
+}
+.Modal__actions button:last-child {
+  width: 42px;
+  border: 1px solid #164e63;
+  background: rgba(2,15,28,.6);
+  color: #7dd3fc;
+}
+@keyframes zeroRays {
+  to {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
+@keyframes zeroCore {
+  0%,100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow:
+      0 0 30px rgba(224,242,254,.85),
+      0 0 65px rgba(56,189,248,.55);
+  }
+}
+@keyframes zeroMeter {
+  from {
+    width: 88%;
+  }
+  to {
+    width: 97%;
+  }
+}`,
+  },
+  {
+    id: 3090,
+    name: "Verdant Guardian",
+    preview: (
+      <div className="modal-3090">
+        <div className="modal-3090-box">
+          <button className="modal-3090-close">
+            <i className="ri-close-line"></i>
+          </button>
+          <div className="modal-3090-orb">
+            <i className="ri-plant-fill"></i>
+          </div>
+          <span>
+            <i className="ri-leaf-fill"></i> VERDANT CORE
+          </span>
+          <h3>Verdant Guardian</h3>
+          <p>
+            The ancient forest has awakened and is protecting the living world.
+          </p>
+          <div className="modal-3090-status">
+            <i className="ri-checkbox-circle-fill"></i>
+            <span>NATURE SHIELD ACTIVE</span>
+          </div>
+          <button className="modal-3090-action">
+            <i className="ri-seedling-fill"></i>
+            Awaken Guardian
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <button class="Modal__close"><i class="ri-close-line"></i></button>
+    <div class="Modal__orb"><i class="ri-plant-fill"></i></div>
+    <span><i class="ri-leaf-fill"></i> VERDANT CORE</span>
+    <h3>Verdant Guardian</h3>
+    <p>The ancient forest has awakened and is protecting the living world.</p>
+    <div class="Modal__status">
+      <i class="ri-checkbox-circle-fill"></i>
+      <span>NATURE SHIELD ACTIVE</span>
+    </div>
+    <button class="Modal__action">
+      <i class="ri-seedling-fill"></i>
+      Awaken Guardian
+    </button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(1, 12, 6, 0.86);
+  backdrop-filter: blur(12px);
+}
+.Modal__box {
+  position: relative;
+  width: 365px;
+  padding: 30px;
+  border: 1px solid transparent;
+  border-radius: 24px;
+  background:
+    linear-gradient(145deg, #03130a, #092e18) padding-box,
+    linear-gradient(90deg, #16a34a, #4ade80, #bbf7d0, #22c55e, #16a34a) border-box;
+  color: #ffffff;
+  text-align: center;
+  box-shadow:
+    0 0 40px rgba(34, 197, 94, 0.28),
+    inset 0 0 25px rgba(74, 222, 128, 0.05);
+  overflow: hidden;
+}
+.Modal__box::before {
+  content: "";
+  position: absolute;
+  inset: -50%;
+  background: radial-gradient(circle, rgba(74, 222, 128, 0.14), transparent 55%);
+  animation: guardianGlow 4s ease-in-out infinite;
+}
+.Modal__box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(74, 222, 128, 0.15) 1px, transparent 2px),
+    radial-gradient(circle at 80% 70%, rgba(187, 247, 208, 0.12) 1px, transparent 2px);
+  background-size: 38px 38px, 52px 52px;
+  animation: leafParticles 7s linear infinite;
+}
+.Modal__close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 3;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(74, 222, 128, 0.2);
+  border-radius: 50%;
+  background: rgba(2, 15, 8, 0.7);
+  color: #86efac;
+}
+.Modal__orb {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 82px;
+  height: 82px;
+  margin: 0 auto 16px;
+  border: 2px solid #4ade80;
+  border-radius: 50%;
+  background: radial-gradient(circle, #86efac, #16a34a 45%, #052e16);
+  color: #ecfdf5;
+  font-size: 32px;
+  box-shadow:
+    0 0 22px rgba(74, 222, 128, 0.6),
+    inset 0 0 20px rgba(187, 247, 208, 0.15);
+  animation: guardianOrb 2.3s ease-in-out infinite;
+}
+.Modal__box > span,
+.Modal__box h3,
+.Modal__box p,
+.Modal__status,
+.Modal__action {
+  position: relative;
+  z-index: 2;
+}
+.Modal__box > span {
+  color: #bbf7d0;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box > span i {
+  color: #4ade80;
+  text-shadow: 0 0 10px #22c55e;
+}
+.Modal__box h3 {
+  margin: 10px 0 8px;
+  font-size: 26px;
+}
+.Modal__box p {
+  color: #a7d6b4;
+}
+.Modal__status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin: 18px 0;
+  color: #4ade80;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.Modal__status i {
+  text-shadow: 0 0 9px #22c55e;
+}
+.Modal__action {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 11px 21px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #15803d, #22c55e, #4ade80);
+  color: #ffffff;
+  font-weight: 900;
+  box-shadow: 0 0 22px rgba(34, 197, 94, 0.4);
+}
+@keyframes guardianGlow {
+  0%, 100% {
+    transform: scale(0.9);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+}
+@keyframes guardianOrb {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow:
+      0 0 38px rgba(74, 222, 128, 0.75),
+      inset 0 0 25px rgba(187, 247, 208, 0.2);
+  }
+}
+@keyframes leafParticles {
+  to {
+    background-position: 38px 38px, -52px 52px;
+  }
+}`,
+  },
+  {
+    id: 3091,
+    name: "Nature Awakening",
+    preview: (
+      <div className="modal-3091">
+        <div className="modal-3091-box">
+          <div className="modal-3091-vines">
+            <i className="ri-leaf-line"></i>
+            <i className="ri-leaf-2-fill"></i>
+            <i className="ri-leaf-fill"></i>
+            <i className="ri-seedling-fill"></i>
+          </div>
+          <div className="modal-3091-icon">
+            <i className="ri-seedling-fill"></i>
+          </div>
+          <span>
+            <i className="ri-sparkling-fill"></i> NATURE AWAKENING
+          </span>
+          <h3>Life Force Rising</h3>
+          <p>The earth energy is spreading through the entire ecosystem.</p>
+          <div className="modal-3091-energy">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <button>
+            <i className="ri-sun-foggy-fill"></i> Restore Nature
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__vines">
+      <i class="ri-leaf-line"></i>
+      <i class="ri-leaf-2-fill"></i>
+      <i class="ri-leaf-fill"></i>
+      <i class="ri-seedling-fill"></i>
+    </div>
+    <div class="Modal__icon"><i class="ri-seedling-fill"></i></div>
+    <span><i class="ri-sparkling-fill"></i> NATURE AWAKENING</span>
+    <h3>Life Force Rising</h3>
+    <p>The earth energy is spreading through the entire ecosystem.</p>
+    <div class="Modal__energy">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <button><i class="ri-sun-foggy-fill"></i> Restore Nature</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2, 15, 7, 0.9);
+}
+.Modal__box {
+  position: relative;
+  width: 370px;
+  padding: 30px;
+  border: 1px solid #22c55e;
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at 50% 0%, #14532d, #03130a 65%);
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 0 42px rgba(34, 197, 94, 0.26);
+}
+.Modal__vines {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.Modal__vines i {
+  position: absolute;
+  color: #4ade80;
+  opacity: 0.35;
+  text-shadow: 0 0 10px #22c55e;
+  animation: vineFloat 4s ease-in-out infinite;
+}
+.Modal__vines i:nth-child(1) {
+  top: 20px;
+  left: 22px;
+  font-size: 19px;
+  transform: rotate(-25deg);
+}
+.Modal__vines i:nth-child(2) {
+  top: 70px;
+  right: 26px;
+  font-size: 13px;
+  animation-delay: 0.8s;
+}
+.Modal__vines i:nth-child(3) {
+  bottom: 45px;
+  left: 25px;
+  font-size: 15px;
+  animation-delay: 1.4s;
+}
+.Modal__vines i:nth-child(4) {
+  bottom: 25px;
+  right: 28px;
+  font-size: 11px;
+  animation-delay: 2s;
+}
+.Modal__icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 78px;
+  height: 78px;
+  margin: 0 auto 16px;
+  border: 2px solid #86efac;
+  border-radius: 24px 24px 24px 6px;
+  background: linear-gradient(145deg, #166534, #052e16);
+  color: #bbf7d0;
+  font-size: 30px;
+  box-shadow:
+    0 0 25px rgba(74, 222, 128, 0.4),
+    inset 0 0 20px rgba(134, 239, 172, 0.08);
+  animation: seedling 2.2s ease-in-out infinite;
+}
+.Modal__box > span {
+  color: #86efac;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box h3 {
+  margin: 10px 0 7px;
+  font-size: 25px;
+}
+.Modal__box p {
+  color: #a7d6b4;
+}
+.Modal__energy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 45px;
+  margin: 20px 0;
+}
+.Modal__energy div {
+  width: 6px;
+  height: 15px;
+  border-radius: 999px;
+  background: linear-gradient(#22c55e, #86efac);
+  box-shadow: 0 0 10px #22c55e;
+  animation: lifeWave 1.1s ease-in-out infinite;
+}
+.Modal__energy div:nth-child(2) {
+  animation-delay: .15s;
+}
+.Modal__energy div:nth-child(3) {
+  animation-delay: .3s;
+}
+.Modal__energy div:nth-child(4) {
+  animation-delay: .45s;
+}
+.Modal__energy div:nth-child(5) {
+  animation-delay: .6s;
+}
+.Modal__box > button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 21px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #15803d, #22c55e);
+  color: #ffffff;
+  font-weight: 900;
+  box-shadow: 0 0 22px rgba(34, 197, 94, 0.32);
+}
+@keyframes vineFloat {
+  0%, 100% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(-7px) rotate(8deg);
+  }
+}
+@keyframes seedling {
+  0%, 100% {
+    transform: scale(1) rotate(0);
+  }
+  50% {
+    transform: scale(1.07) rotate(-2deg);
+  }
+}
+@keyframes lifeWave {
+  0%, 100% {
+    height: 10px;
+  }
+  50% {
+    height: 36px;
+  }
+}`,
+  },
+  {
+    id: 3092,
+    name: "Emerald Grove",
+    preview: (
+      <div className="modal-3092">
+        <div className="modal-3092-box">
+          <div className="modal-3092-sun">
+            <i className="ri-sun-fill"></i>
+          </div>
+          <div className="modal-3092-tree">
+            <i className="ri-tree-fill"></i>
+          </div>
+          <span>
+            <i className="ri-leaf-4-fill"></i> EMERALD GROVE
+          </span>
+          <h3>Forest Sanctuary</h3>
+          <p>A hidden sanctuary surrounded by ancient emerald energy.</p>
+          <div className="modal-3092-info">
+            <div>
+              <i className="ri-temp-hot-line"></i>
+              <strong>24°C</strong>
+              <span>CLIMATE</span>
+            </div>
+            <div>
+              <i className="ri-drop-fill"></i>
+              <strong>82%</strong>
+              <span>MOISTURE</span>
+            </div>
+            <div>
+              <i className="ri-windy-fill"></i>
+              <strong>12 km/h</strong>
+              <span>WIND</span>
+            </div>
+          </div>
+          <button>
+            <i className="ri-map-pin-2-fill"></i> Enter Grove
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__sun"><i class="ri-sun-fill"></i></div>
+    <div class="Modal__tree"><i class="ri-tree-fill"></i></div>
+    <span><i class="ri-leaf-4-fill"></i> EMERALD GROVE</span>
+    <h3>Forest Sanctuary</h3>
+    <p>A hidden sanctuary surrounded by ancient emerald energy.</p>
+    <div class="Modal__info">
+      <div><i class="ri-temp-hot-line"></i><strong>24°C</strong><span>CLIMATE</span></div>
+      <div><i class="ri-drop-fill"></i><strong>82%</strong><span>MOISTURE</span></div>
+      <div><i class="ri-windy-fill"></i><strong>12 km/h</strong><span>WIND</span></div>
+    </div>
+    <button><i class="ri-map-pin-2-fill"></i> Enter Grove</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(1, 10, 4, 0.9);
+}
+.Modal__box {
+  position: relative;
+  width: 385px;
+  padding: 30px;
+  border: 1px solid #34d399;
+  border-radius: 25px;
+  background:
+    radial-gradient(circle at 50% 0%, #14532d, #03140a 62%),
+    #03140a;
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 0 48px rgba(52, 211, 153, 0.26);
+}
+.Modal__box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 25%, rgba(74, 222, 128, 0.14) 1px, transparent 2px),
+    radial-gradient(circle at 70% 60%, rgba(187, 247, 208, 0.12) 1px, transparent 2px);
+  background-size: 30px 30px, 45px 45px;
+  animation: groveParticles 6s linear infinite;
+}
+.Modal__sun {
+  position: absolute;
+  top: -45px;
+  right: -25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fef08a, #facc15, transparent 68%);
+  color: #fef9c3;
+  font-size: 32px;
+  opacity: 0.5;
+  animation: groveSun 4s ease-in-out infinite;
+}
+.Modal__tree {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 84px;
+  margin: 5px auto 15px;
+  border: 2px solid #4ade80;
+  border-radius: 50%;
+  background: radial-gradient(circle, #166534, #052e16);
+  color: #86efac;
+  font-size: 35px;
+  box-shadow:
+    0 0 25px rgba(34, 197, 94, 0.45),
+    inset 0 0 20px rgba(134, 239, 172, 0.08);
+  animation: treePulse 2.5s ease-in-out infinite;
+}
+.Modal__box > span {
+  color: #a7f3d0;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box > span i {
+  color: #4ade80;
+  text-shadow: 0 0 10px #22c55e;
+}
+.Modal__box h3 {
+  position: relative;
+  margin: 10px 0 7px;
+  font-size: 26px;
+}
+.Modal__box p {
+  position: relative;
+  color: #a7d6b4;
+}
+.Modal__info {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 20px 0;
+}
+.Modal__info div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 11px 5px;
+  border: 1px solid rgba(134, 239, 172, 0.12);
+  border-radius: 12px;
+  background: rgba(2, 20, 9, 0.55);
+}
+.Modal__info i {
+  color: #4ade80;
+  font-size: 17px;
+}
+.Modal__info strong {
+  color: #dcfce7;
+  font-size: 13px;
+}
+.Modal__info span {
+  color: #5d8067;
+  font-size: 7px;
+  font-weight: 900;
+}
+.Modal__box > button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 11px 22px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #15803d, #34d399);
+  color: #ffffff;
+  font-weight: 900;
+  box-shadow: 0 0 22px rgba(52, 211, 153, 0.35);
+}
+@keyframes groveParticles {
+  to {
+    background-position: 30px 30px, -45px 45px;
+  }
+}
+@keyframes groveSun {
+  0%, 100% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+@keyframes treePulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}`,
+  },
+  {
+    id: 3093,
+    name: "Poison Bloom",
+    preview: (
+      <div className="modal-3093">
+        <div className="modal-3093-box">
+          <div className="modal-3093-bloom">
+            <i className="ri-flower-fill"></i>
+          </div>
+          <span>
+            <i className="ri-skull-2-fill"></i> TOXIC BOTANICA
+          </span>
+          <h3>Poison Bloom</h3>
+          <p>A rare flower has released a powerful natural toxin.</p>
+          <div className="modal-3093-warning">
+            <i className="ri-error-warning-fill"></i>
+            <span>TOXICITY LEVEL: CRITICAL</span>
+          </div>
+          <div className="modal-3093-meter">
+            <span></span>
+          </div>
+          <button>
+            <i className="ri-shield-cross-fill"></i> Contain Poison
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__bloom">
+      <i class="ri-flower-fill"></i>
+    </div>
+    <span><i class="ri-skull-2-fill"></i> TOXIC BOTANICA</span>
+    <h3>Poison Bloom</h3>
+    <p>A rare flower has released a powerful natural toxin.</p>
+    <div class="Modal__warning">
+      <i class="ri-error-warning-fill"></i>
+      <span>TOXICITY LEVEL: CRITICAL</span>
+    </div>
+    <div class="Modal__meter">
+      <span></span>
+    </div>
+    <button><i class="ri-shield-cross-fill"></i> Contain Poison</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(4, 10, 1, 0.9);
+}
+.Modal__box {
+  position: relative;
+  width: 355px;
+  padding: 30px;
+  border: 1px solid #84cc16;
+  border-radius: 22px;
+  background: linear-gradient(145deg, #081300, #192900);
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 42px rgba(132, 204, 22, 0.25);
+  overflow: hidden;
+}
+.Modal__box::before {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: -80px;
+  right: -70px;
+  border-radius: 50%;
+  background: #84cc16;
+  filter: blur(70px);
+  opacity: 0.18;
+  animation: poisonGlow 2s ease-in-out infinite alternate;
+}
+.Modal__bloom {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 82px;
+  height: 82px;
+  margin: 0 auto 16px;
+  border: 2px solid #a3e635;
+  border-radius: 50%;
+  background: radial-gradient(circle, #bef264, #65a30d 45%, #1a2e05);
+  color: #f7fee7;
+  font-size: 34px;
+  box-shadow:
+    0 0 25px rgba(132, 204, 22, 0.55),
+    inset 0 0 20px rgba(217, 249, 157, 0.15);
+  animation: poisonBloom 1.8s ease-in-out infinite;
+}
+.Modal__box > span {
+  color: #bef264;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box > span i {
+  color: #a3e635;
+  text-shadow: 0 0 10px #84cc16;
+}
+.Modal__box h3 {
+  margin: 10px 0 7px;
+  font-size: 26px;
+}
+.Modal__box p {
+  color: #b7c99a;
+}
+.Modal__warning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin: 19px 0 12px;
+  padding: 10px;
+  border: 1px solid rgba(190, 242, 100, 0.2);
+  border-radius: 10px;
+  background: rgba(132, 204, 22, 0.06);
+  color: #d9f99d;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.Modal__warning i {
+  color: #bef264;
+  font-size: 17px;
+  text-shadow: 0 0 9px #84cc16;
+}
+.Modal__meter {
+  height: 8px;
+  margin: 0 0 20px;
+  border-radius: 999px;
+  background: #172305;
+  overflow: hidden;
+}
+.Modal__meter span {
+  display: block;
+  width: 91%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #65a30d, #bef264, #facc15);
+  box-shadow: 0 0 12px #a3e635;
+  animation: poisonMeter 1.5s ease-in-out infinite alternate;
+}
+.Modal__box > button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 20px;
+  border: 1px solid #84cc16;
+  border-radius: 999px;
+  background: rgba(132, 204, 22, 0.1);
+  color: #d9f99d;
+  font-weight: 900;
+  box-shadow: 0 0 18px rgba(132, 204, 22, 0.22);
+}
+@keyframes poisonGlow {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1.25);
+  }
+}
+@keyframes poisonBloom {
+  0%, 100% {
+    transform: scale(1) rotate(0);
+  }
+  50% {
+    transform: scale(1.08) rotate(4deg);
+  }
+}
+@keyframes poisonMeter {
+  from {
+    width: 86%;
+  }
+  to {
+    width: 96%;
+  }
+}`,
+  },
+  {
+    id: 3094,
+    name: "Earthheart Nexus",
+    preview: (
+      <div className="modal-3094">
+        <div className="modal-3094-box">
+          <div className="modal-3094-orbit orbit-one"></div>
+          <div className="modal-3094-orbit orbit-two"></div>
+          <div className="modal-3094-core">
+            <i className="ri-earth-fill"></i>
+          </div>
+          <span>
+            <i className="ri-earth-fill"></i> EARTHHEART NEXUS
+          </span>
+          <h3>Nature's Core</h3>
+          <p>
+            The planet's living energy is synchronized with the ancient
+            earthheart.
+          </p>
+          <div className="modal-3094-energy">
+            <span>
+              <i className="ri-leaf-fill"></i> FOREST
+            </span>
+            <span>
+              <i className="ri-drop-fill"></i> WATER
+            </span>
+            <span>
+              <i className="ri-sun-fill"></i> SUN
+            </span>
+            <span>
+              <i className="ri-plant-fill"></i> LIFE
+            </span>
+          </div>
+          <button>
+            <i className="ri-links-fill"></i> Synchronize
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <div class="Modal__box">
+    <div class="Modal__orbit orbit-one"></div>
+    <div class="Modal__orbit orbit-two"></div>
+    <div class="Modal__core">
+      <i class="ri-earth-fill"></i>
+    </div>
+    <span><i class="ri-earth-fill"></i> EARTHHEART NEXUS</span>
+    <h3>Nature's Core</h3>
+    <p>The planet's living energy is synchronized with the ancient earthheart.</p>
+    <div class="Modal__energy">
+      <span><i class="ri-leaf-fill"></i> FOREST</span>
+      <span><i class="ri-drop-fill"></i> WATER</span>
+      <span><i class="ri-sun-fill"></i> SUN</span>
+      <span><i class="ri-plant-fill"></i> LIFE</span>
+    </div>
+    <button><i class="ri-links-fill"></i> Synchronize</button>
+  </div>
+</div>`,
+    css: `.Modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(1, 8, 4, 0.92);
+  backdrop-filter: blur(14px);
+}
+.Modal__box {
+  position: relative;
+  width: 390px;
+  padding: 32px;
+  border: 1px solid transparent;
+  border-radius: 26px;
+  background:
+    linear-gradient(145deg, #03130a, #092a18) padding-box,
+    linear-gradient(90deg, #166534, #22c55e, #86efac, #4ade80, #166534) border-box;
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  box-shadow:
+    0 0 45px rgba(34, 197, 94, 0.3),
+    inset 0 0 30px rgba(74, 222, 128, 0.05);
+}
+.Modal__orbit {
+  position: absolute;
+  left: 50%;
+  top: 105px;
+  border: 1px solid rgba(134, 239, 172, 0.35);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.orbit-one {
+  width: 180px;
+  height: 70px;
+  animation: earthOrbitOne 4s linear infinite;
+}
+.orbit-two {
+  width: 130px;
+  height: 50px;
+  border-color: rgba(74, 222, 128, 0.25);
+  animation: earthOrbitTwo 3s linear infinite reverse;
+}
+.Modal__core {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88px;
+  height: 88px;
+  margin: 10px auto 18px;
+  border: 2px solid #4ade80;
+  border-radius: 50%;
+  background: radial-gradient(circle, #bbf7d0 0%, #22c55e 35%, #14532d 70%, #022c14 100%);
+  color: #ecfdf5;
+  font-size: 34px;
+  box-shadow:
+    0 0 25px rgba(74, 222, 128, 0.65),
+    0 0 55px rgba(34, 197, 94, 0.3);
+  animation: earthCore 2.4s ease-in-out infinite;
+}
+.Modal__box > span,
+.Modal__box h3,
+.Modal__box p,
+.Modal__energy,
+.Modal__box > button {
+  position: relative;
+}
+.Modal__box > span {
+  color: #86efac;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.Modal__box > span i {
+  color: #4ade80;
+  text-shadow: 0 0 10px #22c55e;
+}
+.Modal__box h3 {
+  margin: 10px 0 7px;
+  font-size: 27px;
+}
+.Modal__box p {
+  color: #a7d6b4;
+}
+.Modal__energy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 21px 0;
+}
+.Modal__energy span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 9px 5px;
+  border: 1px solid rgba(134, 239, 172, 0.12);
+  border-radius: 10px;
+  background: rgba(2, 20, 9, 0.5);
+  color: #a7f3d0;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.Modal__energy i {
+  color: #4ade80;
+  font-size: 14px;
+  text-shadow: 0 0 8px #22c55e;
+}
+.Modal__box > button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 11px 23px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #166534, #22c55e, #4ade80);
+  color: #ffffff;
+  font-weight: 900;
+  box-shadow: 0 0 24px rgba(34, 197, 94, 0.4);
+}
+@keyframes earthOrbitOne {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes earthOrbitTwo {
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+@keyframes earthCore {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow:
+      0 0 35px rgba(74, 222, 128, 0.8),
+      0 0 70px rgba(34, 197, 94, 0.4);
+  }
+}`,
+  },
+  {
+    id: 3095,
+    name: "Void Emperor",
+    preview: (
+      <div className="modal-3095">
+        <div className="modal-3095-box">
+          <button className="modal-3095-close">
+            <i className="ri-close-line"></i>
+          </button>
+          <div className="modal-3095-aura"></div>
+          <div className="modal-3095-crown">
+            <i className="ri-vip-crown-fill"></i>
+          </div>
+          <span>
+            <i className="ri-skull-2-fill"></i> BLACK AURA
+          </span>
+          <h3>Void Emperor</h3>
+          <p>The darkness has chosen its ruler.</p>
+          <div className="modal-3095-power">
+            <span>VOID POWER</span>
+            <strong>99.8%</strong>
+          </div>
+          <button className="modal-3095-action">
+            <i className="ri-flashlight-fill"></i>
+            Awaken
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <button class="Modal-close"><i class="ri-close-line"></i></button>
+  <div class="Modal-aura"></div>
+  <div class="Modal-icon"><i class="ri-vip-crown-fill"></i></div>
+  <span><i class="ri-skull-2-fill"></i> BLACK AURA</span>
+  <h3>Void Emperor</h3>
+  <p>The darkness has chosen its ruler.</p>
+  <div class="Modal-power">
+    <span>VOID POWER</span>
+    <strong>99.8%</strong>
+  </div>
+  <button class="Modal-action"><i class="ri-flashlight-fill"></i>Awaken</button>
+</div>`,
+    css: `.Modal {
+  position: relative;
+  width: 380px;
+  padding: 30px;
+  border: 1px solid #3f3f46;
+  border-radius: 24px;
+  background: linear-gradient(145deg, #030303, #111113);
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.9);
+}
+.Modal-aura {
+  position: absolute;
+  inset: -80px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.22), transparent 62%);
+  animation: voidAura 3s ease-in-out infinite;
+}
+@keyframes voidAura {
+  0%, 100% { transform: scale(0.85); opacity: 0.45; }
+  50% { transform: scale(1.15); opacity: 1; }
+}`,
+    javascript: `const button = document.querySelector(".Modal-action");
+button.addEventListener("click", () => {
+  button.innerHTML = '<i class="ri-loader-4-line"></i> Awakening...';
+});`,
+  },
+  {
+    id: 3096,
+    name: "Shadow Singularity",
+    preview: (
+      <div className="modal-3096">
+        <div className="modal-3096-box">
+          <button className="modal-3096-close">
+            <i className="ri-close-line"></i>
+          </button>
+          <div className="modal-3096-singularity">
+            <i className="ri-planet-fill"></i>
+          </div>
+          <span>
+            <i className="ri-radar-fill"></i> SINGULARITY DETECTED
+          </span>
+          <h3>Shadow Singularity</h3>
+          <p>A collapsed core consuming every trace of light.</p>
+          <div className="modal-3096-stats">
+            <div>
+              <i className="ri-flashlight-fill"></i>
+              <strong>0%</strong>
+              <span>LIGHT</span>
+            </div>
+            <div>
+              <i className="ri-timer-flash-fill"></i>
+              <strong>∞</strong>
+              <span>TIME</span>
+            </div>
+            <div>
+              <i className="ri-infinity-line"></i>
+              <strong>MAX</strong>
+              <span>GRAVITY</span>
+            </div>
+          </div>
+          <button className="modal-3096-action">
+            <i className="ri-search-eye-line"></i>
+            Enter Void
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <button class="Modal-close"><i class="ri-close-line"></i></button>
+  <div class="Modal-singularity"><i class="ri-planet-fill"></i></div>
+  <span><i class="ri-radar-fill"></i> SINGULARITY DETECTED</span>
+  <h3>Shadow Singularity</h3>
+  <p>A collapsed core consuming every trace of light.</p>
+  <div class="Modal-stats">
+    <div><i class="ri-flashlight-fill"></i><strong>0%</strong><span>LIGHT</span></div>
+    <div><i class="ri-timer-flash-line"></i><strong>∞</strong><span>TIME</span></div>
+    <div><i class="ri-infinity-line"></i><strong>MAX</strong><span>GRAVITY</span></div>
+  </div>
+  <button class="Modal-action"><i class="ri-search-eye-line"></i>Enter Void</button>
+</div>`,
+    css: `.Modal {
+  width: 390px;
+  padding: 32px;
+  border: 1px solid #27272a;
+  border-radius: 26px;
+  background: radial-gradient(circle at 50% 30%, #18181b, #000000 72%);
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 55px rgba(0, 0, 0, 1);
+}
+.Modal-singularity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95px;
+  height: 95px;
+  margin: 0 auto 18px;
+  border: 2px solid #71717a;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffffff 0%, #52525b 8%, #18181b 34%, #000000 70%);
+  color: #ffffff;
+  font-size: 34px;
+  box-shadow: 0 0 35px rgba(139, 92, 246, 0.4);
+  animation: singularityPulse 2s ease-in-out infinite;
+}
+.Modal-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 20px 0;
+}
+.Modal-stats div {
+  padding: 12px 5px;
+  border: 1px solid #27272a;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+}
+.Modal-stats i {
+  display: block;
+  margin-bottom: 5px;
+  color: #a78bfa;
+}
+.Modal-stats strong {
+  display: block;
+  font-size: 15px;
+}
+.Modal-stats span {
+  color: #71717a;
+  font-size: 7px;
+  font-weight: 900;
+}
+@keyframes singularityPulse {
+  0%, 100% { transform: scale(1) rotate(0); }
+  50% { transform: scale(1.1) rotate(180deg); }
+}`,
+    javascript: `const button = document.querySelector(".Modal-action");
+button.addEventListener("click", () => {
+  document.querySelector(".Modal-singularity").style.transform = "scale(1.5)";
+});`,
+  },
+  {
+    id: 3097,
+    name: "Dark Phantom",
+    preview: (
+      <div className="modal-3097">
+        <div className="modal-3097-box">
+          <div className="modal-3097-smoke"></div>
+          <button className="modal-3097-close">
+            <i className="ri-close-line"></i>
+          </button>
+          <div className="modal-3097-mask">
+            <i className="ri-ghost-2-fill"></i>
+          </div>
+          <span>
+            <i className="ri-eye-close-fill"></i> PHANTOM ENTITY
+          </span>
+          <h3>Dark Phantom</h3>
+          <p>Something is watching from beyond the shadows.</p>
+          <div className="modal-3097-scan">
+            <span>ENTITY SIGNAL</span>
+            <div>
+              <i></i>
+            </div>
+            <strong>UNSTABLE</strong>
+          </div>
+          <button className="modal-3097-action">
+            <i className="ri-scan-2-line"></i>
+            Scan Entity
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <button class="Modal-close"><i class="ri-close-line"></i></button>
+  <div class="Modal-mask"><i class="ri-ghost-2-fill"></i></div>
+  <span><i class="ri-eye-close-fill"></i> PHANTOM ENTITY</span>
+  <h3>Dark Phantom</h3>
+  <p>Something is watching from beyond the shadows.</p>
+  <div class="Modal-scan">
+    <span>ENTITY SIGNAL</span>
+    <div><i></i></div>
+    <strong>UNSTABLE</strong>
+  </div>
+  <button class="Modal-action"><i class="ri-scan-2-line"></i>Scan Entity</button>
+</div>`,
+    css: `.Modal {
+  position: relative;
+  width: 370px;
+  padding: 30px;
+  border: 1px solid #312e81;
+  border-radius: 24px;
+  background: linear-gradient(160deg, #050505, #09090b);
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 0 50px rgba(49, 46, 129, 0.35);
+}
+.Modal-mask {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 82px;
+  height: 82px;
+  margin: 0 auto 17px;
+  border-radius: 24px;
+  background: #09090b;
+  color: #c4b5fd;
+  font-size: 34px;
+  box-shadow: 0 0 30px rgba(124, 58, 237, 0.35);
+  animation: phantomFloat 2.5s ease-in-out infinite;
+}
+.Modal-scan {
+  margin: 20px 0;
+  text-align: left;
+}
+.Modal-scan > span {
+  color: #71717a;
+  font-size: 8px;
+  font-weight: 900;
+}
+.Modal-scan div {
+  height: 7px;
+  margin: 7px 0;
+  border-radius: 999px;
+  background: #18181b;
+  overflow: hidden;
+}
+.Modal-scan i {
+  display: block;
+  width: 72%;
+  height: 100%;
+  background: linear-gradient(90deg, #4c1d95, #a78bfa);
+  animation: phantomScan 1.6s ease-in-out infinite alternate;
+}
+.Modal-scan strong {
+  color: #a78bfa;
+  font-size: 8px;
+}
+@keyframes phantomFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+@keyframes phantomScan {
+  from { width: 45%; }
+  to { width: 90%; }
+}`,
+    javascript: `const button = document.querySelector(".Modal-action");
+button.addEventListener("click", () => {
+  button.textContent = "Scanning...";
+});`,
+  },
+  {
+    id: 3098,
+    name: "Abyss Reactor",
+    preview: (
+      <div className="modal-3098">
+        <div className="modal-3098-box">
+          <button className="modal-3098-close">
+            <i className="ri-close-line"></i>
+          </button>
+          <div className="modal-3098-reactor">
+            <div className="modal-3098-ring ring-one"></div>
+            <div className="modal-3098-ring ring-two"></div>
+            <i className="ri-cpu-fill"></i>
+          </div>
+          <span>
+            <i className="ri-battery-charge-fill"></i> DARK ENERGY CORE
+          </span>
+          <h3>Abyss Reactor</h3>
+          <p>Forbidden energy source operating beyond safe limits.</p>
+          <div className="modal-3098-energy">
+            <div>
+              <span>OUTPUT</span>
+              <strong>847%</strong>
+            </div>
+            <div>
+              <span>CORE</span>
+              <strong>OVERLOAD</strong>
+            </div>
+          </div>
+          <button className="modal-3098-action">
+            <i className="ri-flashlight-fill"></i>
+            Stabilize
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <button class="Modal-close"><i class="ri-close-line"></i></button>
+  <div class="Modal-reactor">
+    <i class="ri-cpu-fill"></i>
+  </div>
+  <span><i class="ri-battery-charge-fill"></i> DARK ENERGY CORE</span>
+  <h3>Abyss Reactor</h3>
+  <p>Forbidden energy source operating beyond safe limits.</p>
+  <div class="Modal-energy">
+    <div><span>OUTPUT</span><strong>847%</strong></div>
+    <div><span>CORE</span><strong>OVERLOAD</strong></div>
+  </div>
+  <button class="Modal-action"><i class="ri-flashlight-fill"></i>Stabilize</button>
+</div>`,
+    css: `.Modal {
+  width: 390px;
+  padding: 30px;
+  border: 1px solid #3f3f46;
+  border-radius: 24px;
+  background: linear-gradient(145deg, #050505, #141414);
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.95);
+}
+.Modal-reactor {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 18px;
+  border: 2px solid #71717a;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffffff 0%, #52525b 7%, #18181b 35%, #020202 70%);
+  color: #e4e4e7;
+  font-size: 30px;
+  box-shadow: 0 0 35px rgba(168, 85, 247, 0.4);
+  animation: reactorSpin 4s linear infinite;
+}
+.Modal-energy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 20px 0;
+}
+.Modal-energy div {
+  padding: 12px;
+  border: 1px solid #27272a;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+}
+.Modal-energy span {
+  display: block;
+  color: #71717a;
+  font-size: 7px;
+  font-weight: 900;
+}
+.Modal-energy strong {
+  color: #c4b5fd;
+  font-size: 14px;
+}
+@keyframes reactorSpin {
+  to { transform: rotate(360deg); }
+}`,
+    javascript: `const button = document.querySelector(".Modal-action");
+button.addEventListener("click", () => {
+  button.innerHTML = '<i class="ri-loader-4-line"></i> Stabilizing...';
+});`,
+  },
+  {
+    id: 3099,
+    name: "Eclipse Throne",
+    preview: (
+      <div className="modal-3099">
+        <div className="modal-3099-box">
+          <button className="modal-3099-close">
+            <i className="ri-close-line"></i>
+          </button>
+          <div className="modal-3099-eclipse">
+            <div className="modal-3099-core">
+              <i className="ri-moon-fill"></i>
+            </div>
+          </div>
+          <span>
+            <i className="ri-moon-clear-fill"></i> ETERNAL ECLIPSE
+          </span>
+          <h3>Eclipse Throne</h3>
+          <p>Where light disappears and the black aura becomes infinite.</p>
+          <div className="modal-3099-status">
+            <i className="ri-radio-button-line"></i>
+            AURA ASCENSION
+          </div>
+          <button className="modal-3099-action">
+            <i className="ri-sword-fill"></i>
+            Claim Throne
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Modal">
+  <button class="Modal-close"><i class="ri-close-line"></i></button>
+  <div class="Modal-eclipse">
+    <div class="Modal-core"><i class="ri-moon-fill"></i></div>
+  </div>
+  <span><i class="ri-moon-clear-fill"></i> ETERNAL ECLIPSE</span>
+  <h3>Eclipse Throne</h3>
+  <p>Where light disappears and the black aura becomes infinite.</p>
+  <div class="Modal-status"><i class="ri-radio-button-line"></i>AURA ASCENSION</div>
+  <button class="Modal-action"><i class="ri-sword-fill"></i>Claim Throne</button>
+</div>`,
+    css: `.Modal {
+  width: 385px;
+  padding: 32px;
+  border: 1px solid #52525b;
+  border-radius: 26px;
+  background: radial-gradient(circle at 50% 35%, #18181b, #000000 75%);
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 0 60px rgba(88, 28, 135, 0.35);
+}
+.Modal-eclipse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, #000000, #7e22ce, #000000, #a855f7, #000000);
+  animation: eclipseRotate 6s linear infinite;
+}
+.Modal-core {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #27272a, #000000 70%);
+  color: #c084fc;
+  font-size: 29px;
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.6);
+}
+.Modal-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin: 20px 0;
+  color: #c084fc;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.Modal-status i {
+  text-shadow: 0 0 10px #a855f7;
+  animation: statusPulse 1s ease-in-out infinite;
+}
+@keyframes eclipseRotate {
+  to { transform: rotate(360deg); }
+}
+@keyframes statusPulse {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 1; }
+}`,
+    javascript: `const button = document.querySelector(".Modal-action");
+button.addEventListener("click", () => {
+  button.innerHTML = '<i class="ri-flashlight-fill"></i> Throne Claimed';
+});`,
+  },
 ];
