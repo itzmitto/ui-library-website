@@ -4692,4 +4692,337 @@ export const dropdowns = [
     }
 }`,
   },
+  {
+    id: 2750,
+    name: "Aurora Glass Dropdown",
+    preview: (
+      <div className="dropdown-2750">
+        <button className="dropdown-2750__trigger">
+          <span className="dropdown-2750__orb">
+            <i className="fa-solid fa-wand-magic-sparkles"></i>
+          </span>
+          Creative space<i className="fa-solid fa-chevron-down"></i>
+        </button>
+        <div className="dropdown-2750__menu">
+          <div className="dropdown-2750__shine"></div>
+          <small>YOUR UNIVERSE</small>
+          <button className="active">
+            <i className="fa-solid fa-earth-americas"></i>
+            <span>
+              <strong>Aurora</strong>
+              <em>12 collaborators</em>
+            </span>
+            <i className="fa-solid fa-check"></i>
+          </button>
+          <button>
+            <i className="fa-solid fa-star"></i>
+            <span>
+              <strong>Starlight</strong>
+              <em>4 new ideas</em>
+            </span>
+          </button>
+          <button>
+            <i className="fa-solid fa-moon"></i>
+            <span>
+              <strong>Afterglow</strong>
+              <em>Private workspace</em>
+            </span>
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Dropdown">
+    <button class="Dropdown-trigger">
+        <span class="Dropdown-orb"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+        Creative space
+        <i class="fa-solid fa-chevron-down"></i>
+    </button>
+    <div class="Dropdown-menu">
+        <small>YOUR UNIVERSE</small>
+        <button class="active"><i class="fa-solid fa-earth-americas"></i><span><strong>Aurora</strong><em>12 collaborators</em></span><i class="fa-solid fa-check"></i></button>
+        <button><i class="fa-solid fa-star"></i><span><strong>Starlight</strong><em>4 new ideas</em></span></button>
+        <button><i class="fa-solid fa-moon"></i><span><strong>Afterglow</strong><em>Private workspace</em></span></button>
+    </div>
+</div>`,
+    css: `.Dropdown { width: 260px; }
+.Dropdown-trigger { width: 100%; display: flex; align-items: center; gap: 9px; padding: 9px; border: 1px solid rgba(255,255,255,.45); border-radius: 14px; background: linear-gradient(135deg,rgba(255,255,255,.74),rgba(232,222,255,.62)); backdrop-filter: blur(14px); }
+.Dropdown-orb { width: 28px; height: 28px; display: grid; place-items: center; border-radius: 9px; background: linear-gradient(135deg,#7c3aed,#ec4899); color: white; }
+.Dropdown-menu { margin-top: 7px; padding: 7px; border: 1px solid rgba(255,255,255,.55); border-radius: 15px; background: rgba(250,248,255,.76); backdrop-filter: blur(18px); }
+.Dropdown-menu button { width: 100%; display: flex; align-items: center; gap: 9px; padding: 8px; border: 0; border-radius: 10px; background: transparent; }
+.Dropdown-menu button.active { background: rgba(124,58,237,.12); }`,
+  },
+  {
+    id: 2751,
+    name: "Studio Mega Menu",
+    preview: (
+      <div className="dropdown-2751">
+        <button className="dropdown-2751__trigger">
+          Explore studio <i className="fa-solid fa-arrow-down"></i>
+        </button>
+        <div className="dropdown-2751__menu">
+          <div className="dropdown-2751__feature">
+            <span>
+              <i className="fa-solid fa-sparkles"></i>
+            </span>
+            <div>
+              <small>NEW RELEASE</small>
+              <strong>Design systems, made social.</strong>
+              <em>
+                Meet the collaborative canvas{" "}
+                <i className="fa-solid fa-arrow-right"></i>
+              </em>
+            </div>
+          </div>
+          <div className="dropdown-2751__links">
+            <div>
+              <small>CREATE</small>
+              <a href="#">
+                <i className="fa-solid fa-pen-ruler"></i>Templates
+              </a>
+              <a href="#">
+                <i className="fa-solid fa-cubes"></i>Components
+              </a>
+            </div>
+            <div>
+              <small>CONNECT</small>
+              <a href="#">
+                <i className="fa-solid fa-users"></i>Community
+              </a>
+              <a href="#">
+                <i className="fa-solid fa-book-open"></i>Resources
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="Dropdown">
+    <button class="Dropdown-trigger">Explore studio <i class="fa-solid fa-arrow-down"></i></button>
+    <div class="Dropdown-menu">
+        <div class="Dropdown-feature"><span><i class="fa-solid fa-sparkles"></i></span><div><small>NEW RELEASE</small><strong>Design systems, made social.</strong><em>Meet the collaborative canvas <i class="fa-solid fa-arrow-right"></i></em></div></div>
+        <div class="Dropdown-links"><div><small>CREATE</small><a href="#"><i class="fa-solid fa-pen-ruler"></i>Templates</a><a href="#"><i class="fa-solid fa-cubes"></i>Components</a></div><div><small>CONNECT</small><a href="#"><i class="fa-solid fa-users"></i>Community</a><a href="#"><i class="fa-solid fa-book-open"></i>Resources</a></div></div>
+    </div>
+</div>`,
+    css: `.Dropdown { width: 330px; }
+.Dropdown-trigger { border: 0; background: transparent; font: inherit; font-size: 11px; font-weight: 700; }
+.Dropdown-menu { margin-top: 10px; padding: 8px; border: 1px solid #e8e8ef; border-radius: 16px; background: white; box-shadow: 0 20px 42px rgba(31,25,61,.13); }
+.Dropdown-feature { padding: 13px; border-radius: 11px; background: #151226; color: white; display: flex; gap: 10px; }
+.Dropdown-links { display: grid; grid-template-columns: repeat(2,1fr); gap: 14px; padding: 13px 8px 5px; }
+.Dropdown-links a { display: block; margin-top: 9px; color: #55515f; text-decoration: none; font-size: 9px; }`,
+  },
+  {
+    id: 2752,
+    name: "Gradient Profile Dropdown",
+    preview: (
+      <div className="dropdown-2752">
+        <button className="dropdown-2752__trigger">
+          <span className="dropdown-2752__avatar">ML</span>
+          <span>
+            Marie Laurent<small>Pro member</small>
+          </span>
+          <i className="fa-solid fa-ellipsis"></i>
+        </button>
+        <div className="dropdown-2752__menu">
+          <div className="dropdown-2752__cover"></div>
+          <div className="dropdown-2752__identity">
+            <span>ML</span>
+            <div>
+              <strong>Marie Laurent</strong>
+              <small>marie@atelier.co</small>
+            </div>
+            <i className="fa-solid fa-circle-check"></i>
+          </div>
+          <div className="dropdown-2752__stats">
+            <span>
+              <strong>24</strong>Projects
+            </span>
+            <span>
+              <strong>1.8k</strong>Followers
+            </span>
+            <span>
+              <strong>96%</strong>Score
+            </span>
+          </div>
+          <a href="#">
+            <i className="fa-regular fa-user"></i>View profile
+            <i className="fa-solid fa-arrow-right"></i>
+          </a>
+          <button>
+            <i className="fa-solid fa-arrow-right-from-bracket"></i>Switch
+            account
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Dropdown">
+    <button class="Dropdown-trigger"><span class="Dropdown-avatar">ML</span><span>Marie Laurent<small>Pro member</small></span><i class="fa-solid fa-ellipsis"></i></button>
+    <div class="Dropdown-menu"><div class="Dropdown-cover"></div><div class="Dropdown-identity"><span>ML</span><div><strong>Marie Laurent</strong><small>marie@atelier.co</small></div><i class="fa-solid fa-circle-check"></i></div><div class="Dropdown-stats"><span><strong>24</strong>Projects</span><span><strong>1.8k</strong>Followers</span><span><strong>96%</strong>Score</span></div><a href="#"><i class="fa-regular fa-user"></i>View profile<i class="fa-solid fa-arrow-right"></i></a><button><i class="fa-solid fa-arrow-right-from-bracket"></i>Switch account</button></div>
+</div>`,
+    css: `.Dropdown { width: 255px; }
+.Dropdown-trigger { width: 100%; display: flex; align-items: center; gap: 9px; padding: 7px; border: 1px solid #eeeaf5; border-radius: 13px; background: white; }
+.Dropdown-avatar,.Dropdown-identity > span { display: grid; place-items: center; border-radius: 50%; background: linear-gradient(135deg,#ff8a5b,#db2777); color: white; font-weight: 800; }
+.Dropdown-menu { margin-top: 7px; overflow: hidden; border: 1px solid #eeeaf5; border-radius: 15px; background: white; box-shadow: 0 18px 36px rgba(46,25,76,.12); }
+.Dropdown-cover { height: 48px; background: linear-gradient(120deg,#fb7185,#a855f7,#38bdf8); }
+.Dropdown-identity,.Dropdown-menu a,.Dropdown-menu button { display: flex; align-items: center; gap: 8px; padding: 9px 12px; }`,
+  },
+  {
+    id: 2753,
+    name: "Spotlight Command Dropdown",
+    preview: (
+      <div className="dropdown-2753">
+        <button className="dropdown-2753__trigger">
+          <i className="fa-solid fa-terminal"></i>Jump to anything{" "}
+          <kbd>⌘ K</kbd>
+        </button>
+        <div className="dropdown-2753__menu">
+          <div className="dropdown-2753__search">
+            <i className="fa-solid fa-magnifying-glass"></i>
+            <span>Search commands...</span>
+            <kbd>ESC</kbd>
+          </div>
+          <small>SUGGESTED</small>
+          <button className="active">
+            <span className="dropdown-2753__icon purple">
+              <i className="fa-solid fa-wand-magic-sparkles"></i>
+            </span>
+            <span>
+              <strong>Generate with AI</strong>
+              <em>Draft something brilliant</em>
+            </span>
+            <kbd>G</kbd>
+          </button>
+          <button>
+            <span className="dropdown-2753__icon blue">
+              <i className="fa-solid fa-file-circle-plus"></i>
+            </span>
+            <span>
+              <strong>New project</strong>
+              <em>Start from a blank canvas</em>
+            </span>
+            <kbd>N</kbd>
+          </button>
+          <button>
+            <span className="dropdown-2753__icon orange">
+              <i className="fa-solid fa-user-plus"></i>
+            </span>
+            <span>
+              <strong>Invite people</strong>
+              <em>Grow your workspace</em>
+            </span>
+            <kbd>I</kbd>
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Dropdown">
+    <button class="Dropdown-trigger"><i class="fa-solid fa-terminal"></i>Jump to anything <kbd>⌘ K</kbd></button>
+    <div class="Dropdown-menu"><div class="Dropdown-search"><i class="fa-solid fa-magnifying-glass"></i><span>Search commands...</span><kbd>ESC</kbd></div><small>SUGGESTED</small><button class="active"><span class="Dropdown-icon purple"><i class="fa-solid fa-wand-magic-sparkles"></i></span><span><strong>Generate with AI</strong><em>Draft something brilliant</em></span><kbd>G</kbd></button><button><span class="Dropdown-icon blue"><i class="fa-solid fa-file-circle-plus"></i></span><span><strong>New project</strong><em>Start from a blank canvas</em></span><kbd>N</kbd></button></div>
+</div>`,
+    css: `.Dropdown { width: 290px; }
+.Dropdown-trigger,.Dropdown-search { display: flex; align-items: center; gap: 8px; }
+.Dropdown-trigger { width: 100%; padding: 9px 10px; border: 1px solid #30323c; border-radius: 10px; background: #171820; color: #bec1cd; }
+.Dropdown-menu { margin-top: 7px; padding: 7px; border: 1px solid #30323c; border-radius: 13px; background: #171820; color: white; box-shadow: 0 20px 35px rgba(0,0,0,.25); }
+.Dropdown-search { padding: 9px; border-bottom: 1px solid #30323c; color: #797d8c; }.Dropdown-menu > small { display: block; padding: 10px 8px 5px; color: #727685; font-size: 7px; letter-spacing: 1px; }
+.Dropdown-menu button { width: 100%; display: flex; align-items: center; gap: 8px; padding: 7px; border: 0; border-radius: 8px; background: transparent; color: white; text-align: left; }.Dropdown-menu button.active,.Dropdown-menu button:hover { background: #292b36; }`,
+  },
+  {
+    id: 2754,
+    name: "Activity Notification Dropdown",
+    preview: (
+      <div className="dropdown-2754">
+        <button className="dropdown-2754__trigger">
+          <i className="fa-regular fa-bell"></i>
+          <span></span>
+        </button>
+        <div className="dropdown-2754__menu">
+          <div className="dropdown-2754__header">
+            <div>
+              <small>INBOX</small>
+              <strong>Activity</strong>
+            </div>
+            <button>Mark read</button>
+          </div>
+          <div className="dropdown-2754__item unread">
+            <span className="dropdown-2754__photo one">SK</span>
+            <div>
+              <strong>Sofia liked your concept</strong>
+              <small>“Aurora landing page” · 2m</small>
+            </div>
+            <i className="fa-solid fa-heart"></i>
+          </div>
+          <div className="dropdown-2754__item">
+            <span className="dropdown-2754__photo two">JD</span>
+            <div>
+              <strong>Jon left a comment</strong>
+              <small>“This is looking incredible!” · 1h</small>
+            </div>
+            <i className="fa-regular fa-comment"></i>
+          </div>
+          <div className="dropdown-2754__item">
+            <span className="dropdown-2754__photo three">
+              <i className="fa-solid fa-rocket"></i>
+            </span>
+            <div>
+              <strong>Version 2.4 shipped</strong>
+              <small>Everything is running smoothly · 3h</small>
+            </div>
+            <i className="fa-solid fa-check"></i>
+          </div>
+          <a href="#">
+            Open activity center <i className="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    ),
+    html: `<div class="Dropdown">
+    <button class="Dropdown-trigger"><i class="fa-regular fa-bell"></i><span></span></button>
+    <div class="Dropdown-menu"><div class="Dropdown-header"><div><small>INBOX</small><strong>Activity</strong></div><button>Mark read</button></div><div class="Dropdown-item unread"><span class="Dropdown-photo one">SK</span><div><strong>Sofia liked your concept</strong><small>“Aurora landing page” · 2m</small></div><i class="fa-solid fa-heart"></i></div><div class="Dropdown-item"><span class="Dropdown-photo two">JD</span><div><strong>Jon left a comment</strong><small>“This is looking incredible!” · 1h</small></div><i class="fa-regular fa-comment"></i></div><a href="#">Open activity center <i class="fa-solid fa-arrow-right"></i></a></div>
+</div>`,
+    css: `.Dropdown { width: 300px; }.Dropdown-trigger { position: relative; width: 42px; height: 42px; border: 0; border-radius: 13px; background: #171b2d; color: white; }.Dropdown-trigger > span { position: absolute; top: 8px; right: 9px; width: 7px; height: 7px; border: 2px solid #171b2d; border-radius: 50%; background: #fb7185; }.Dropdown-menu { margin-top: 8px; padding: 7px; border: 1px solid #e8e9f1; border-radius: 15px; background: white; box-shadow: 0 18px 40px rgba(25,31,65,.13); }.Dropdown-item { display: flex; align-items: center; gap: 9px; padding: 9px; border-radius: 10px; }.Dropdown-item.unread { background: #f5f7ff; }.Dropdown-photo { width: 29px; height: 29px; display: grid; place-items: center; border-radius: 9px; color: white; font-size: 8px; font-weight: 700; }`,
+  },
+  {
+    id: 2755,
+    name: "Nested Project Dropdown",
+    preview: (
+      <div className="dropdown-2755">
+        <button className="dropdown-2755__trigger">
+          <span>
+            <i className="fa-solid fa-layer-group"></i>
+          </span>
+          Project actions<i className="fa-solid fa-chevron-down"></i>
+        </button>
+        <div className="dropdown-2755__menu">
+          <button>
+            <i className="fa-regular fa-pen-to-square"></i>Edit project{" "}
+            <kbd>E</kbd>
+          </button>
+          <button>
+            <i className="fa-solid fa-user-group"></i>Manage team{" "}
+            <i className="fa-solid fa-chevron-right"></i>
+          </button>
+          <div className="dropdown-2755__submenu">
+            <small>TEAM ACCESS</small>
+            <button>
+              <i className="fa-solid fa-user-plus"></i>Invite member
+            </button>
+            <button>
+              <i className="fa-solid fa-shield-halved"></i>Permissions
+            </button>
+          </div>
+          <button>
+            <i className="fa-solid fa-box-archive"></i>Archive project
+          </button>
+          <div className="dropdown-2755__divider"></div>
+          <button className="dropdown-2755__danger">
+            <i className="fa-regular fa-trash-can"></i>Delete project
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Dropdown">
+    <button class="Dropdown-trigger"><span><i class="fa-solid fa-layer-group"></i></span>Project actions<i class="fa-solid fa-chevron-down"></i></button>
+    <div class="Dropdown-menu"><button><i class="fa-regular fa-pen-to-square"></i>Edit project <kbd>E</kbd></button><button><i class="fa-solid fa-user-group"></i>Manage team <i class="fa-solid fa-chevron-right"></i></button><div class="Dropdown-submenu"><small>TEAM ACCESS</small><button><i class="fa-solid fa-user-plus"></i>Invite member</button><button><i class="fa-solid fa-shield-halved"></i>Permissions</button></div><button><i class="fa-solid fa-box-archive"></i>Archive project</button><div class="Dropdown-divider"></div><button class="Dropdown-danger"><i class="fa-regular fa-trash-can"></i>Delete project</button></div>
+</div>`,
+    css: `.Dropdown { width: 265px; }.Dropdown-trigger { width: 100%; display: flex; align-items: center; gap: 8px; padding: 8px; border: 1px solid #dbe5e3; border-radius: 11px; background: white; color: #253331; }.Dropdown-trigger > span { width: 26px; height: 26px; display: grid; place-items: center; border-radius: 7px; background: #dff7ee; color: #0d8a62; }.Dropdown-trigger > i:last-child { margin-left: auto; }.Dropdown-menu { margin-top: 7px; padding: 6px; border: 1px solid #dbe5e3; border-radius: 13px; background: white; box-shadow: 0 15px 30px rgba(21,66,55,.1); }.Dropdown-menu > button,.Dropdown-submenu button { width: 100%; display: flex; align-items: center; gap: 8px; padding: 8px; border: 0; border-radius: 7px; background: transparent; color: #455553; text-align: left; }.Dropdown-submenu { margin: 3px 0; padding: 5px; border-left: 2px solid #66d5aa; background: #f4fbf8; }.Dropdown-danger { color: #dc4a4a !important; }`,
+  },
 ];
