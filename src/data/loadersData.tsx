@@ -15218,4 +15218,3192 @@ export const loaders = [
     }
 }`,
   },
+  {
+    id: 3117,
+    name: "Ancient Green Elemental",
+    preview: (
+      <div className="ld-3117">
+        <div className="ld-3117-aura ld-3117-aura--1" />
+        <div className="ld-3117-aura ld-3117-aura--2" />
+        <div className="ld-3117-aura ld-3117-aura--3" />
+
+        <div className="ld-3117-rune-ring ld-3117-rune-ring--outer">
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+        </div>
+
+        <div className="ld-3117-rune-ring ld-3117-rune-ring--middle">
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+        </div>
+
+        <div className="ld-3117-orbit ld-3117-orbit--1">
+          <span />
+        </div>
+
+        <div className="ld-3117-orbit ld-3117-orbit--2">
+          <span />
+        </div>
+
+        <div className="ld-3117-orbit ld-3117-orbit--3">
+          <span />
+        </div>
+
+        <div className="ld-3117-vine ld-3117-vine--1">
+          <span className="ld-3117-leaf ld-3117-leaf--1" />
+          <span className="ld-3117-leaf ld-3117-leaf--2" />
+          <span className="ld-3117-leaf ld-3117-leaf--3" />
+        </div>
+
+        <div className="ld-3117-vine ld-3117-vine--2">
+          <span className="ld-3117-leaf ld-3117-leaf--4" />
+          <span className="ld-3117-leaf ld-3117-leaf--5" />
+          <span className="ld-3117-leaf ld-3117-leaf--6" />
+        </div>
+
+        <div className="ld-3117-vine ld-3117-vine--3">
+          <span className="ld-3117-leaf ld-3117-leaf--7" />
+          <span className="ld-3117-leaf ld-3117-leaf--8" />
+          <span className="ld-3117-leaf ld-3117-leaf--9" />
+        </div>
+
+        <div className="ld-3117-vine ld-3117-vine--4">
+          <span className="ld-3117-leaf ld-3117-leaf--10" />
+          <span className="ld-3117-leaf ld-3117-leaf--11" />
+          <span className="ld-3117-leaf ld-3117-leaf--12" />
+        </div>
+
+        <div className="ld-3117-root ld-3117-root--1" />
+        <div className="ld-3117-root ld-3117-root--2" />
+        <div className="ld-3117-root ld-3117-root--3" />
+        <div className="ld-3117-root ld-3117-root--4" />
+        <div className="ld-3117-root ld-3117-root--5" />
+        <div className="ld-3117-root ld-3117-root--6" />
+
+        <div className="ld-3117-wave ld-3117-wave--1" />
+        <div className="ld-3117-wave ld-3117-wave--2" />
+        <div className="ld-3117-wave ld-3117-wave--3" />
+
+        <span className="ld-3117-spore ld-3117-spore--1" />
+        <span className="ld-3117-spore ld-3117-spore--2" />
+        <span className="ld-3117-spore ld-3117-spore--3" />
+        <span className="ld-3117-spore ld-3117-spore--4" />
+        <span className="ld-3117-spore ld-3117-spore--5" />
+        <span className="ld-3117-spore ld-3117-spore--6" />
+        <span className="ld-3117-spore ld-3117-spore--7" />
+        <span className="ld-3117-spore ld-3117-spore--8" />
+        <span className="ld-3117-spore ld-3117-spore--9" />
+        <span className="ld-3117-spore ld-3117-spore--10" />
+        <span className="ld-3117-spore ld-3117-spore--11" />
+        <span className="ld-3117-spore ld-3117-spore--12" />
+        <span className="ld-3117-spore ld-3117-spore--13" />
+        <span className="ld-3117-spore ld-3117-spore--14" />
+        <span className="ld-3117-spore ld-3117-spore--15" />
+        <span className="ld-3117-spore ld-3117-spore--16" />
+
+        <div className="ld-3117-shell">
+          <div className="ld-3117-shell-ring" />
+
+          <div className="ld-3117-core">
+            <div className="ld-3117-core-glow" />
+
+            <div className="ld-3117-symbol">
+              <span className="ld-3117-symbol-stem" />
+              <span className="ld-3117-symbol-leaf ld-3117-symbol-leaf--left" />
+              <span className="ld-3117-symbol-leaf ld-3117-symbol-leaf--right" />
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-aura Loader-aura--1"></div>
+    <div class="Loader-aura Loader-aura--2"></div>
+    <div class="Loader-aura Loader-aura--3"></div>
+
+    <div class="Loader-rune-ring Loader-rune-ring--outer">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="Loader-rune-ring Loader-rune-ring--middle">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="Loader-orbit Loader-orbit--1">
+        <span></span>
+    </div>
+
+    <div class="Loader-orbit Loader-orbit--2">
+        <span></span>
+    </div>
+
+    <div class="Loader-orbit Loader-orbit--3">
+        <span></span>
+    </div>
+
+    <div class="Loader-vine Loader-vine--1">
+        <span class="Loader-leaf Loader-leaf--1"></span>
+        <span class="Loader-leaf Loader-leaf--2"></span>
+        <span class="Loader-leaf Loader-leaf--3"></span>
+    </div>
+
+    <div class="Loader-vine Loader-vine--2">
+        <span class="Loader-leaf Loader-leaf--4"></span>
+        <span class="Loader-leaf Loader-leaf--5"></span>
+        <span class="Loader-leaf Loader-leaf--6"></span>
+    </div>
+
+    <div class="Loader-vine Loader-vine--3">
+        <span class="Loader-leaf Loader-leaf--7"></span>
+        <span class="Loader-leaf Loader-leaf--8"></span>
+        <span class="Loader-leaf Loader-leaf--9"></span>
+    </div>
+
+    <div class="Loader-vine Loader-vine--4">
+        <span class="Loader-leaf Loader-leaf--10"></span>
+        <span class="Loader-leaf Loader-leaf--11"></span>
+        <span class="Loader-leaf Loader-leaf--12"></span>
+    </div>
+
+    <div class="Loader-root Loader-root--1"></div>
+    <div class="Loader-root Loader-root--2"></div>
+    <div class="Loader-root Loader-root--3"></div>
+    <div class="Loader-root Loader-root--4"></div>
+    <div class="Loader-root Loader-root--5"></div>
+    <div class="Loader-root Loader-root--6"></div>
+
+    <div class="Loader-wave Loader-wave--1"></div>
+    <div class="Loader-wave Loader-wave--2"></div>
+    <div class="Loader-wave Loader-wave--3"></div>
+
+    <span class="Loader-spore Loader-spore--1"></span>
+    <span class="Loader-spore Loader-spore--2"></span>
+    <span class="Loader-spore Loader-spore--3"></span>
+    <span class="Loader-spore Loader-spore--4"></span>
+    <span class="Loader-spore Loader-spore--5"></span>
+    <span class="Loader-spore Loader-spore--6"></span>
+    <span class="Loader-spore Loader-spore--7"></span>
+    <span class="Loader-spore Loader-spore--8"></span>
+    <span class="Loader-spore Loader-spore--9"></span>
+    <span class="Loader-spore Loader-spore--10"></span>
+    <span class="Loader-spore Loader-spore--11"></span>
+    <span class="Loader-spore Loader-spore--12"></span>
+    <span class="Loader-spore Loader-spore--13"></span>
+    <span class="Loader-spore Loader-spore--14"></span>
+    <span class="Loader-spore Loader-spore--15"></span>
+    <span class="Loader-spore Loader-spore--16"></span>
+
+    <div class="Loader-shell">
+        <div class="Loader-shell-ring"></div>
+
+        <div class="Loader-core">
+            <div class="Loader-core-glow"></div>
+
+            <div class="Loader-symbol">
+                <span class="Loader-symbol-stem"></span>
+                <span class="Loader-symbol-leaf Loader-symbol-leaf--left"></span>
+                <span class="Loader-symbol-leaf Loader-symbol-leaf--right"></span>
+            </div>
+        </div>
+    </div>
+</div>`,
+    css: `.Loader {
+    --green-white: #f0fff4;
+    --green-mint: #bbf7d0;
+    --green-light: #86efac;
+    --green-main: #22c55e;
+    --green-bright: #4ade80;
+    --green-emerald: #10b981;
+    --green-deep: #15803d;
+    --green-dark: #052e16;
+
+    position: relative;
+    width: 190px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    isolation: isolate;
+}
+
+.Loader::before {
+    content: "";
+    position: absolute;
+    inset: -26px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(240, 255, 244, 0.12) 0%,
+            rgba(134, 239, 172, 0.12) 14%,
+            rgba(34, 197, 94, 0.1) 28%,
+            rgba(16, 185, 129, 0.06) 45%,
+            transparent 70%
+        );
+    filter: blur(13px);
+    animation: Loader-atmosphere 2.4s ease-in-out infinite alternate;
+}
+
+.Loader::after {
+    content: "";
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background:
+        repeating-conic-gradient(
+            from 0deg,
+            transparent 0deg 10deg,
+            rgba(134, 239, 172, 0.12) 10deg 11deg,
+            transparent 11deg 22deg
+        );
+    mask:
+        radial-gradient(
+            circle,
+            transparent 0 68%,
+            #000 69% 71%,
+            transparent 72%
+        );
+    -webkit-mask:
+        radial-gradient(
+            circle,
+            transparent 0 68%,
+            #000 69% 71%,
+            transparent 72%
+        );
+    animation: Loader-ancient-spin 24s linear infinite;
+}
+
+.Loader-aura {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.Loader-aura--1 {
+    width: 164px;
+    height: 164px;
+    background:
+        radial-gradient(
+            circle,
+            transparent 45%,
+            rgba(34, 197, 94, 0.08) 54%,
+            rgba(74, 222, 128, 0.06) 65%,
+            transparent 76%
+        );
+    filter: blur(4px);
+    animation: Loader-aura-one 2s ease-in-out infinite;
+}
+
+.Loader-aura--2 {
+    width: 142px;
+    height: 142px;
+    border: 1px solid rgba(74, 222, 128, 0.1);
+    box-shadow:
+        0 0 16px rgba(34, 197, 94, 0.12),
+        inset 0 0 16px rgba(34, 197, 94, 0.07);
+    animation: Loader-aura-two 3.4s ease-in-out infinite;
+}
+
+.Loader-aura--3 {
+    width: 118px;
+    height: 118px;
+    background:
+        conic-gradient(
+            from 0deg,
+            transparent,
+            rgba(134, 239, 172, 0.12),
+            transparent 18%,
+            rgba(34, 197, 94, 0.12),
+            transparent 40%,
+            rgba(16, 185, 129, 0.1),
+            transparent 65%
+        );
+    mask:
+        radial-gradient(
+            circle,
+            transparent 0 86%,
+            #000 87%
+        );
+    -webkit-mask:
+        radial-gradient(
+            circle,
+            transparent 0 86%,
+            #000 87%
+        );
+    animation: Loader-aura-three 5s linear infinite;
+}
+
+.Loader-rune-ring {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.Loader-rune-ring--outer {
+    width: 170px;
+    height: 170px;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(74, 222, 128, 0.18);
+    box-shadow:
+        0 0 12px rgba(34, 197, 94, 0.12),
+        inset 0 0 16px rgba(16, 185, 129, 0.08);
+    animation: Loader-rune-outer 12s linear infinite;
+}
+
+.Loader-rune-ring--middle {
+    width: 130px;
+    height: 130px;
+    transform: translate(-50%, -50%);
+    border: 1px dashed rgba(134, 239, 172, 0.22);
+    animation: Loader-rune-middle 8s linear infinite reverse;
+}
+
+.Loader-rune-ring span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 3px;
+    height: 12px;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            180deg,
+            #dcfce7,
+            #4ade80,
+            transparent
+        );
+    transform-origin: center;
+    box-shadow:
+        0 0 5px rgba(74, 222, 128, 0.8);
+}
+
+.Loader-rune-ring--outer span:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(0deg) translateY(-84px);
+}
+
+.Loader-rune-ring--outer span:nth-child(2) {
+    transform: translate(-50%, -50%) rotate(30deg) translateY(-84px);
+}
+
+.Loader-rune-ring--outer span:nth-child(3) {
+    transform: translate(-50%, -50%) rotate(60deg) translateY(-84px);
+}
+
+.Loader-rune-ring--outer span:nth-child(4) {
+    transform: translate(-50%, -50%) rotate(90deg) translateY(-84px);
+}
+
+.Loader-rune-ring--outer span:nth-child(5) {
+    transform: translate(-50%, -50%) rotate(120deg) translateY(-84px);
+}
+
+.Loader-rune-ring--outer span:nth-child(6) {
+    transform: translate(-50%, -50%) rotate(150deg) translateY(-84px);
+}
+
+.Loader-rune-ring--outer span:nth-child(7) {
+    transform: translate(-50%, -50%) rotate(180deg) translateY(-84px);
+}
+
+.Loader-rune-ring--outer span:nth-child(8) {
+    transform: translate(-50%, -50%) rotate(210deg) translateY(-84px);
+}
+
+.Loader-rune-ring--outer span:nth-child(9) {
+    transform: translate(-50%, -50%) rotate(240deg) translateY(-84px);
+}
+
+.Loader-rune-ring--outer span:nth-child(10) {
+    transform: translate(-50%, -50%) rotate(270deg) translateY(-84px);
+}
+
+.Loader-rune-ring--outer span:nth-child(11) {
+    transform: translate(-50%, -50%) rotate(300deg) translateY(-84px);
+}
+
+.Loader-rune-ring--outer span:nth-child(12) {
+    transform: translate(-50%, -50%) rotate(330deg) translateY(-84px);
+}
+
+.Loader-rune-ring--middle span {
+    width: 2px;
+    height: 8px;
+}
+
+.Loader-rune-ring--middle span:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(0deg) translateY(-64px);
+}
+
+.Loader-rune-ring--middle span:nth-child(2) {
+    transform: translate(-50%, -50%) rotate(45deg) translateY(-64px);
+}
+
+.Loader-rune-ring--middle span:nth-child(3) {
+    transform: translate(-50%, -50%) rotate(90deg) translateY(-64px);
+}
+
+.Loader-rune-ring--middle span:nth-child(4) {
+    transform: translate(-50%, -50%) rotate(135deg) translateY(-64px);
+}
+
+.Loader-rune-ring--middle span:nth-child(5) {
+    transform: translate(-50%, -50%) rotate(180deg) translateY(-64px);
+}
+
+.Loader-rune-ring--middle span:nth-child(6) {
+    transform: translate(-50%, -50%) rotate(225deg) translateY(-64px);
+}
+
+.Loader-rune-ring--middle span:nth-child(7) {
+    transform: translate(-50%, -50%) rotate(270deg) translateY(-64px);
+}
+
+.Loader-rune-ring--middle span:nth-child(8) {
+    transform: translate(-50%, -50%) rotate(315deg) translateY(-64px);
+}
+
+.Loader-orbit {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 142px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid rgba(74, 222, 128, 0.18);
+    pointer-events: none;
+}
+
+.Loader-orbit span {
+    position: absolute;
+    left: -3px;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    margin-top: -3.5px;
+    border-radius: 50%;
+    background: #dcfce7;
+    box-shadow:
+        0 0 4px #ffffff,
+        0 0 8px #86efac,
+        0 0 15px #22c55e,
+        0 0 25px rgba(16, 185, 129, 0.8);
+}
+
+.Loader-orbit--1 {
+    animation: Loader-orbit-one 5s linear infinite;
+}
+
+.Loader-orbit--2 {
+    animation: Loader-orbit-two 4.2s linear infinite reverse;
+}
+
+.Loader-orbit--3 {
+    animation: Loader-orbit-three 5.8s linear infinite;
+}
+
+.Loader-vine {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 95px;
+    height: 18px;
+    border-top: 2px solid rgba(34, 197, 94, 0.6);
+    border-radius: 50%;
+    transform-origin: left center;
+    filter: drop-shadow(0 0 5px rgba(34, 197, 94, 0.4));
+}
+
+.Loader-vine--1 {
+    transform: rotate(20deg) translateX(22px);
+    animation: Loader-vine-one 2.4s ease-in-out infinite alternate;
+}
+
+.Loader-vine--2 {
+    transform: rotate(110deg) translateX(22px);
+    animation: Loader-vine-two 2.8s ease-in-out infinite alternate;
+}
+
+.Loader-vine--3 {
+    transform: rotate(200deg) translateX(22px);
+    animation: Loader-vine-three 2.6s ease-in-out infinite alternate;
+}
+
+.Loader-vine--4 {
+    transform: rotate(290deg) translateX(22px);
+    animation: Loader-vine-four 3s ease-in-out infinite alternate;
+}
+
+.Loader-leaf {
+    position: absolute;
+    width: 14px;
+    height: 8px;
+    border-radius: 100% 0 100% 0;
+    background:
+        linear-gradient(
+            135deg,
+            #bbf7d0,
+            #4ade80 38%,
+            #16a34a 70%,
+            #14532d
+        );
+    box-shadow:
+        0 0 6px rgba(74, 222, 128, 0.75),
+        inset 0 0 3px rgba(255, 255, 255, 0.25);
+    transform-origin: center;
+    animation: Loader-leaf-pulse 1.6s ease-in-out infinite alternate;
+}
+
+.Loader-leaf::after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    top: 50%;
+    height: 1px;
+    background: rgba(220, 252, 231, 0.55);
+    transform: rotate(-20deg);
+}
+
+.Loader-leaf--1,
+.Loader-leaf--4,
+.Loader-leaf--7,
+.Loader-leaf--10 {
+    left: 25px;
+    top: -7px;
+}
+
+.Loader-leaf--2,
+.Loader-leaf--5,
+.Loader-leaf--8,
+.Loader-leaf--11 {
+    left: 50px;
+    top: 4px;
+    transform: rotate(180deg);
+    animation-delay: 0.3s;
+}
+
+.Loader-leaf--3,
+.Loader-leaf--6,
+.Loader-leaf--9,
+.Loader-leaf--12 {
+    left: 72px;
+    top: -7px;
+    animation-delay: 0.6s;
+}
+
+.Loader-root {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 70px;
+    height: 16px;
+    border-bottom: 2px solid rgba(21, 128, 61, 0.7);
+    border-radius: 50%;
+    transform-origin: left center;
+    opacity: 0.65;
+    filter: drop-shadow(0 0 4px rgba(34, 197, 94, 0.4));
+}
+
+.Loader-root--1 {
+    transform: rotate(5deg) translateX(30px);
+    animation: Loader-root-pulse 1.9s ease-in-out infinite;
+}
+
+.Loader-root--2 {
+    transform: rotate(65deg) translateX(30px);
+    animation: Loader-root-pulse 2.1s ease-in-out infinite 0.2s;
+}
+
+.Loader-root--3 {
+    transform: rotate(125deg) translateX(30px);
+    animation: Loader-root-pulse 2s ease-in-out infinite 0.4s;
+}
+
+.Loader-root--4 {
+    transform: rotate(185deg) translateX(30px);
+    animation: Loader-root-pulse 2.2s ease-in-out infinite 0.6s;
+}
+
+.Loader-root--5 {
+    transform: rotate(245deg) translateX(30px);
+    animation: Loader-root-pulse 1.8s ease-in-out infinite 0.8s;
+}
+
+.Loader-root--6 {
+    transform: rotate(305deg) translateX(30px);
+    animation: Loader-root-pulse 2.3s ease-in-out infinite 1s;
+}
+
+.Loader-wave {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 62px;
+    height: 62px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px solid rgba(74, 222, 128, 0.55);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.Loader-wave--1 {
+    animation: Loader-wave 2s ease-out infinite;
+}
+
+.Loader-wave--2 {
+    animation: Loader-wave 2s ease-out infinite 0.66s;
+}
+
+.Loader-wave--3 {
+    animation: Loader-wave 2s ease-out infinite 1.32s;
+}
+
+.Loader-spore {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 4px;
+    height: 4px;
+    margin: -2px;
+    border-radius: 50%;
+    background: #dcfce7;
+    box-shadow:
+        0 0 4px #ffffff,
+        0 0 9px #86efac,
+        0 0 14px #22c55e;
+    opacity: 0;
+}
+
+.Loader-spore--1 {
+    animation: Loader-spore-one 2.5s ease-out infinite;
+}
+
+.Loader-spore--2 {
+    animation: Loader-spore-two 2.9s ease-out infinite 0.15s;
+}
+
+.Loader-spore--3 {
+    animation: Loader-spore-three 2.3s ease-out infinite 0.4s;
+}
+
+.Loader-spore--4 {
+    animation: Loader-spore-four 2.7s ease-out infinite 0.6s;
+}
+
+.Loader-spore--5 {
+    animation: Loader-spore-five 3.1s ease-out infinite 0.2s;
+}
+
+.Loader-spore--6 {
+    animation: Loader-spore-six 2.4s ease-out infinite 0.7s;
+}
+
+.Loader-spore--7 {
+    animation: Loader-spore-seven 2.8s ease-out infinite 0.9s;
+}
+
+.Loader-spore--8 {
+    animation: Loader-spore-eight 2.2s ease-out infinite 1.1s;
+}
+
+.Loader-spore--9 {
+    animation: Loader-spore-nine 2.6s ease-out infinite 0.45s;
+}
+
+.Loader-spore--10 {
+    animation: Loader-spore-ten 3s ease-out infinite 0.75s;
+}
+
+.Loader-spore--11 {
+    animation: Loader-spore-eleven 2.35s ease-out infinite 1.2s;
+}
+
+.Loader-spore--12 {
+    animation: Loader-spore-twelve 2.75s ease-out infinite 1.4s;
+}
+
+.Loader-spore--13 {
+    animation: Loader-spore-thirteen 2.55s ease-out infinite 0.95s;
+}
+
+.Loader-spore--14 {
+    animation: Loader-spore-fourteen 2.85s ease-out infinite 1.6s;
+}
+
+.Loader-spore--15 {
+    animation: Loader-spore-fifteen 3.2s ease-out infinite 0.35s;
+}
+
+.Loader-spore--16 {
+    animation: Loader-spore-sixteen 2.45s ease-out infinite 1.8s;
+}
+
+.Loader-shell {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 84px;
+    height: 84px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(220, 252, 231, 0.08),
+            rgba(74, 222, 128, 0.08) 35%,
+            rgba(22, 163, 74, 0.05) 55%,
+            transparent 72%
+        );
+    box-shadow:
+        0 0 24px rgba(34, 197, 94, 0.16),
+        inset 0 0 18px rgba(134, 239, 172, 0.09);
+    animation: Loader-shell-breathe 1.7s ease-in-out infinite;
+}
+
+.Loader-shell-ring {
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background:
+        conic-gradient(
+            from 0deg,
+            transparent 0deg 24deg,
+            rgba(220, 252, 231, 0.8) 24deg 27deg,
+            transparent 27deg 82deg,
+            #4ade80 82deg 86deg,
+            transparent 86deg 142deg,
+            #22c55e 142deg 146deg,
+            transparent 146deg 219deg,
+            rgba(187, 247, 208, 0.75) 219deg 222deg,
+            transparent 222deg 290deg,
+            #10b981 290deg 295deg,
+            transparent 295deg 360deg
+        );
+    mask:
+        radial-gradient(
+            circle,
+            transparent 0 84%,
+            #000 85%
+        );
+    -webkit-mask:
+        radial-gradient(
+            circle,
+            transparent 0 84%,
+            #000 85%
+        );
+    filter:
+        drop-shadow(0 0 4px #4ade80)
+        drop-shadow(0 0 9px rgba(34, 197, 94, 0.65));
+    animation: Loader-shell-ring 2s linear infinite;
+}
+
+.Loader-core {
+    position: relative;
+    z-index: 10;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 39% 34%,
+            #f0fff4 0%,
+            #dcfce7 7%,
+            #bbf7d0 14%,
+            #86efac 24%,
+            #4ade80 36%,
+            #22c55e 50%,
+            #16a34a 67%,
+            #14532d 84%,
+            #052e16 100%
+        );
+    box-shadow:
+        0 0 6px #dcfce7,
+        0 0 14px #86efac,
+        0 0 24px #4ade80,
+        0 0 38px #22c55e,
+        0 0 58px rgba(16, 185, 129, 0.7),
+        inset 0 0 10px rgba(255, 255, 255, 0.35);
+    animation:
+        Loader-core-breathe 0.9s ease-in-out infinite alternate,
+        Loader-core-flicker 0.18s steps(2, end) infinite;
+}
+
+.Loader-core::before {
+    content: "";
+    position: absolute;
+    inset: 6px;
+    border-radius: 50%;
+    border: 1px solid rgba(220, 252, 231, 0.6);
+    box-shadow:
+        inset 0 0 10px rgba(220, 252, 231, 0.45),
+        0 0 8px rgba(134, 239, 172, 0.4);
+    animation: Loader-core-inner 1.3s ease-in-out infinite alternate;
+}
+
+.Loader-core::after {
+    content: "";
+    position: absolute;
+    left: 11px;
+    top: 9px;
+    width: 11px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.78);
+    filter: blur(2px);
+}
+
+.Loader-core-glow {
+    position: absolute;
+    inset: -15px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(134, 239, 172, 0.2),
+            rgba(34, 197, 94, 0.11) 40%,
+            transparent 70%
+        );
+    animation: Loader-core-glow 1.2s ease-in-out infinite alternate;
+}
+
+.Loader-symbol {
+    position: relative;
+    z-index: 20;
+    width: 30px;
+    height: 36px;
+    filter:
+        drop-shadow(0 0 3px #f0fff4)
+        drop-shadow(0 0 8px #86efac);
+}
+
+.Loader-symbol-stem {
+    position: absolute;
+    left: 50%;
+    bottom: 4px;
+    width: 3px;
+    height: 25px;
+    transform: translateX(-50%);
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            180deg,
+            #f0fff4,
+            #bbf7d0,
+            #4ade80
+        );
+}
+
+.Loader-symbol-stem::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    top: -5px;
+    width: 1px;
+    height: 12px;
+    background: #dcfce7;
+    transform: rotate(25deg);
+    transform-origin: bottom;
+}
+
+.Loader-symbol-leaf {
+    position: absolute;
+    width: 14px;
+    height: 9px;
+    background:
+        linear-gradient(
+            135deg,
+            #f0fff4,
+            #86efac 35%,
+            #22c55e
+        );
+    border-radius: 100% 0 100% 0;
+    animation: Loader-symbol-leaf 1.1s ease-in-out infinite alternate;
+}
+
+.Loader-symbol-leaf--left {
+    left: 1px;
+    top: 11px;
+    transform: rotate(25deg);
+}
+
+.Loader-symbol-leaf--right {
+    right: 1px;
+    top: 6px;
+    transform: scaleX(-1) rotate(25deg);
+    animation-delay: 0.3s;
+}
+
+@keyframes Loader-atmosphere {
+    from {
+        opacity: 0.55;
+        transform: scale(0.94);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.07);
+    }
+}
+
+@keyframes Loader-ancient-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes Loader-aura-one {
+    0%,
+    100% {
+        opacity: 0.5;
+        transform: translate(-50%, -50%) scale(0.95);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.06);
+    }
+}
+
+@keyframes Loader-aura-two {
+    0%,
+    100% {
+        opacity: 0.35;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    50% {
+        opacity: 0.85;
+        transform: translate(-50%, -50%) scale(1.08);
+    }
+}
+
+@keyframes Loader-aura-three {
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes Loader-rune-outer {
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes Loader-rune-middle {
+    to {
+        transform: translate(-50%, -50%) rotate(-360deg);
+    }
+}
+
+@keyframes Loader-orbit-one {
+    from {
+        transform: translate(-50%, -50%) rotate(18deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(378deg);
+    }
+}
+
+@keyframes Loader-orbit-two {
+    from {
+        transform: translate(-50%, -50%) rotate(78deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(-282deg);
+    }
+}
+
+@keyframes Loader-orbit-three {
+    from {
+        transform: translate(-50%, -50%) rotate(138deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(498deg);
+    }
+}
+
+@keyframes Loader-vine-one {
+    from {
+        transform: rotate(17deg) translateX(22px) scaleX(0.92);
+    }
+
+    to {
+        transform: rotate(24deg) translateX(22px) scaleX(1.05);
+    }
+}
+
+@keyframes Loader-vine-two {
+    from {
+        transform: rotate(106deg) translateX(22px) scaleX(0.93);
+    }
+
+    to {
+        transform: rotate(114deg) translateX(22px) scaleX(1.06);
+    }
+}
+
+@keyframes Loader-vine-three {
+    from {
+        transform: rotate(196deg) translateX(22px) scaleX(0.94);
+    }
+
+    to {
+        transform: rotate(204deg) translateX(22px) scaleX(1.04);
+    }
+}
+
+@keyframes Loader-vine-four {
+    from {
+        transform: rotate(286deg) translateX(22px) scaleX(0.92);
+    }
+
+    to {
+        transform: rotate(294deg) translateX(22px) scaleX(1.07);
+    }
+}
+
+@keyframes Loader-leaf-pulse {
+    from {
+        opacity: 0.55;
+        filter: brightness(0.8);
+    }
+
+    to {
+        opacity: 1;
+        filter: brightness(1.4);
+    }
+}
+
+@keyframes Loader-root-pulse {
+    0%,
+    100% {
+        opacity: 0.25;
+        width: 52px;
+    }
+
+    50% {
+        opacity: 0.9;
+        width: 78px;
+    }
+}
+
+@keyframes Loader-wave {
+    0% {
+        opacity: 0.8;
+        transform: translate(-50%, -50%) scale(0.5);
+        box-shadow:
+            0 0 10px rgba(74, 222, 128, 0.4),
+            inset 0 0 10px rgba(34, 197, 94, 0.2);
+    }
+
+    65% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(2.6);
+    }
+}
+
+@keyframes Loader-shell-breathe {
+    0%,
+    100% {
+        transform: translate(-50%, -50%) scale(0.95);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.06);
+    }
+}
+
+@keyframes Loader-shell-ring {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes Loader-core-breathe {
+    from {
+        transform: scale(0.92);
+        box-shadow:
+            0 0 5px #dcfce7,
+            0 0 11px #86efac,
+            0 0 20px #4ade80,
+            0 0 28px #22c55e,
+            0 0 42px rgba(16, 185, 129, 0.55);
+    }
+
+    to {
+        transform: scale(1.1);
+        box-shadow:
+            0 0 8px #ffffff,
+            0 0 18px #bbf7d0,
+            0 0 32px #4ade80,
+            0 0 50px #22c55e,
+            0 0 75px rgba(16, 185, 129, 0.85);
+    }
+}
+
+@keyframes Loader-core-flicker {
+    0% {
+        filter: brightness(0.95);
+    }
+
+    50% {
+        filter: brightness(1.16);
+    }
+
+    100% {
+        filter: brightness(1);
+    }
+}
+
+@keyframes Loader-core-inner {
+    from {
+        opacity: 0.45;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.08);
+    }
+}
+
+@keyframes Loader-core-glow {
+    from {
+        opacity: 0.45;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.25);
+    }
+}
+
+@keyframes Loader-symbol-leaf {
+    from {
+        filter: brightness(0.8);
+    }
+
+    to {
+        filter: brightness(1.5);
+    }
+}
+
+@keyframes Loader-spore-one {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.3);
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(79px, -72px) scale(1.1);
+    }
+}
+
+@keyframes Loader-spore-two {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.4);
+    }
+
+    18% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-85px, -60px) scale(0.8);
+    }
+}
+
+@keyframes Loader-spore-three {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.25);
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(91px, 31px) scale(1.2);
+    }
+}
+
+@keyframes Loader-spore-four {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.5);
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-74px, 81px) scale(0.8);
+    }
+}
+
+@keyframes Loader-spore-five {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.3);
+    }
+
+    19% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(25px, -102px) scale(1);
+    }
+}
+
+@keyframes Loader-spore-six {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.35);
+    }
+
+    26% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-31px, 97px) scale(0.9);
+    }
+}
+
+@keyframes Loader-spore-seven {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.4);
+    }
+
+    21% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(101px, -13px) scale(1.1);
+    }
+}
+
+@keyframes Loader-spore-eight {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.5);
+    }
+
+    18% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-99px, 16px) scale(0.7);
+    }
+}
+
+@keyframes Loader-spore-nine {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.3);
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(62px, 87px) scale(1);
+    }
+}
+
+@keyframes Loader-spore-ten {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.45);
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-56px, -92px) scale(0.9);
+    }
+}
+
+@keyframes Loader-spore-eleven {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.3);
+    }
+
+    23% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(90px, 68px) scale(1.2);
+    }
+}
+
+@keyframes Loader-spore-twelve {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.4);
+    }
+
+    19% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-93px, 57px) scale(0.8);
+    }
+}
+
+@keyframes Loader-spore-thirteen {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.35);
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(47px, -108px) scale(1.1);
+    }
+}
+
+@keyframes Loader-spore-fourteen {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.3);
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-46px, 107px) scale(0.9);
+    }
+}
+
+@keyframes Loader-spore-fifteen {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.45);
+    }
+
+    18% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(110px, 5px) scale(0.8);
+    }
+}
+
+@keyframes Loader-spore-sixteen {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.35);
+    }
+
+    22% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-109px, -8px) scale(1);
+    }
+}`,
+  },
+  {
+    id: 3118,
+    name: "Ancient Dune Singularity",
+    preview: (
+      <div className="ld-3118">
+        <div className="ld-3118-atmosphere" />
+
+        <div className="ld-3118-sun ld-3118-sun--1" />
+        <div className="ld-3118-sun ld-3118-sun--2" />
+
+        <div className="ld-3118-rune-ring ld-3118-rune-ring--outer">
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+        </div>
+
+        <div className="ld-3118-rune-ring ld-3118-rune-ring--inner">
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+        </div>
+
+        <div className="ld-3118-dune-ring ld-3118-dune-ring--1" />
+        <div className="ld-3118-dune-ring ld-3118-dune-ring--2" />
+        <div className="ld-3118-dune-ring ld-3118-dune-ring--3" />
+
+        <div className="ld-3118-orbit ld-3118-orbit--1">
+          <span />
+        </div>
+
+        <div className="ld-3118-orbit ld-3118-orbit--2">
+          <span />
+        </div>
+
+        <div className="ld-3118-orbit ld-3118-orbit--3">
+          <span />
+        </div>
+
+        <span className="ld-3118-shard ld-3118-shard--1" />
+        <span className="ld-3118-shard ld-3118-shard--2" />
+        <span className="ld-3118-shard ld-3118-shard--3" />
+        <span className="ld-3118-shard ld-3118-shard--4" />
+        <span className="ld-3118-shard ld-3118-shard--5" />
+        <span className="ld-3118-shard ld-3118-shard--6" />
+        <span className="ld-3118-shard ld-3118-shard--7" />
+        <span className="ld-3118-shard ld-3118-shard--8" />
+        <span className="ld-3118-shard ld-3118-shard--9" />
+        <span className="ld-3118-shard ld-3118-shard--10" />
+        <span className="ld-3118-shard ld-3118-shard--11" />
+        <span className="ld-3118-shard ld-3118-shard--12" />
+
+        <div className="ld-3118-wind ld-3118-wind--1" />
+        <div className="ld-3118-wind ld-3118-wind--2" />
+        <div className="ld-3118-wind ld-3118-wind--3" />
+        <div className="ld-3118-wind ld-3118-wind--4" />
+
+        <span className="ld-3118-sand ld-3118-sand--1" />
+        <span className="ld-3118-sand ld-3118-sand--2" />
+        <span className="ld-3118-sand ld-3118-sand--3" />
+        <span className="ld-3118-sand ld-3118-sand--4" />
+        <span className="ld-3118-sand ld-3118-sand--5" />
+        <span className="ld-3118-sand ld-3118-sand--6" />
+        <span className="ld-3118-sand ld-3118-sand--7" />
+        <span className="ld-3118-sand ld-3118-sand--8" />
+        <span className="ld-3118-sand ld-3118-sand--9" />
+        <span className="ld-3118-sand ld-3118-sand--10" />
+        <span className="ld-3118-sand ld-3118-sand--11" />
+        <span className="ld-3118-sand ld-3118-sand--12" />
+        <span className="ld-3118-sand ld-3118-sand--13" />
+        <span className="ld-3118-sand ld-3118-sand--14" />
+        <span className="ld-3118-sand ld-3118-sand--15" />
+        <span className="ld-3118-sand ld-3118-sand--16" />
+        <span className="ld-3118-sand ld-3118-sand--17" />
+        <span className="ld-3118-sand ld-3118-sand--18" />
+        <span className="ld-3118-sand ld-3118-sand--19" />
+        <span className="ld-3118-sand ld-3118-sand--20" />
+
+        <div className="ld-3118-wave ld-3118-wave--1" />
+        <div className="ld-3118-wave ld-3118-wave--2" />
+        <div className="ld-3118-wave ld-3118-wave--3" />
+
+        <div className="ld-3118-core-shell">
+          <div className="ld-3118-core-ring" />
+
+          <div className="ld-3118-core">
+            <div className="ld-3118-core-flare" />
+
+            <div className="ld-3118-crystal">
+              <span className="ld-3118-crystal-face ld-3118-crystal-face--1" />
+              <span className="ld-3118-crystal-face ld-3118-crystal-face--2" />
+              <span className="ld-3118-crystal-face ld-3118-crystal-face--3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-atmosphere"></div>
+
+    <div class="Loader-sun Loader-sun--1"></div>
+    <div class="Loader-sun Loader-sun--2"></div>
+
+    <div class="Loader-rune-ring Loader-rune-ring--outer">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="Loader-rune-ring Loader-rune-ring--inner">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="Loader-dune-ring Loader-dune-ring--1"></div>
+    <div class="Loader-dune-ring Loader-dune-ring--2"></div>
+    <div class="Loader-dune-ring Loader-dune-ring--3"></div>
+
+    <div class="Loader-orbit Loader-orbit--1">
+        <span></span>
+    </div>
+
+    <div class="Loader-orbit Loader-orbit--2">
+        <span></span>
+    </div>
+
+    <div class="Loader-orbit Loader-orbit--3">
+        <span></span>
+    </div>
+
+    <span class="Loader-shard Loader-shard--1"></span>
+    <span class="Loader-shard Loader-shard--2"></span>
+    <span class="Loader-shard Loader-shard--3"></span>
+    <span class="Loader-shard Loader-shard--4"></span>
+    <span class="Loader-shard Loader-shard--5"></span>
+    <span class="Loader-shard Loader-shard--6"></span>
+    <span class="Loader-shard Loader-shard--7"></span>
+    <span class="Loader-shard Loader-shard--8"></span>
+    <span class="Loader-shard Loader-shard--9"></span>
+    <span class="Loader-shard Loader-shard--10"></span>
+    <span class="Loader-shard Loader-shard--11"></span>
+    <span class="Loader-shard Loader-shard--12"></span>
+
+    <div class="Loader-wind Loader-wind--1"></div>
+    <div class="Loader-wind Loader-wind--2"></div>
+    <div class="Loader-wind Loader-wind--3"></div>
+    <div class="Loader-wind Loader-wind--4"></div>
+
+    <span class="Loader-sand Loader-sand--1"></span>
+    <span class="Loader-sand Loader-sand--2"></span>
+    <span class="Loader-sand Loader-sand--3"></span>
+    <span class="Loader-sand Loader-sand--4"></span>
+    <span class="Loader-sand Loader-sand--5"></span>
+    <span class="Loader-sand Loader-sand--6"></span>
+    <span class="Loader-sand Loader-sand--7"></span>
+    <span class="Loader-sand Loader-sand--8"></span>
+    <span class="Loader-sand Loader-sand--9"></span>
+    <span class="Loader-sand Loader-sand--10"></span>
+    <span class="Loader-sand Loader-sand--11"></span>
+    <span class="Loader-sand Loader-sand--12"></span>
+    <span class="Loader-sand Loader-sand--13"></span>
+    <span class="Loader-sand Loader-sand--14"></span>
+    <span class="Loader-sand Loader-sand--15"></span>
+    <span class="Loader-sand Loader-sand--16"></span>
+    <span class="Loader-sand Loader-sand--17"></span>
+    <span class="Loader-sand Loader-sand--18"></span>
+    <span class="Loader-sand Loader-sand--19"></span>
+    <span class="Loader-sand Loader-sand--20"></span>
+
+    <div class="Loader-wave Loader-wave--1"></div>
+    <div class="Loader-wave Loader-wave--2"></div>
+    <div class="Loader-wave Loader-wave--3"></div>
+
+    <div class="Loader-core-shell">
+        <div class="Loader-core-ring"></div>
+
+        <div class="Loader-core">
+            <div class="Loader-core-flare"></div>
+
+            <div class="Loader-crystal">
+                <span class="Loader-crystal-face Loader-crystal-face--1"></span>
+                <span class="Loader-crystal-face Loader-crystal-face--2"></span>
+                <span class="Loader-crystal-face Loader-crystal-face--3"></span>
+            </div>
+        </div>
+    </div>
+</div>`,
+    css: `.Loader {
+    --sand-white: #fff7d6;
+    --sand-light: #fde68a;
+    --sand-gold: #fbbf24;
+    --sand-main: #f59e0b;
+    --sand-orange: #d97706;
+    --sand-bronze: #b45309;
+    --sand-brown: #78350f;
+    --sand-dark: #451a03;
+
+    position: relative;
+    width: 190px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    isolation: isolate;
+}
+
+.Loader::before {
+    content: "";
+    position: absolute;
+    inset: -30px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(255, 247, 214, 0.12) 0%,
+            rgba(253, 230, 138, 0.11) 16%,
+            rgba(245, 158, 11, 0.1) 30%,
+            rgba(180, 83, 9, 0.06) 48%,
+            transparent 72%
+        );
+    filter: blur(14px);
+    animation: Loader-desert-aura 2.3s ease-in-out infinite alternate;
+}
+
+.Loader::after {
+    content: "";
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background:
+        repeating-conic-gradient(
+            from 0deg,
+            transparent 0deg 9deg,
+            rgba(251, 191, 36, 0.12) 9deg 10deg,
+            transparent 10deg 18deg
+        );
+    mask:
+        radial-gradient(
+            circle,
+            transparent 0 70%,
+            #000 71% 73%,
+            transparent 74%
+        );
+    -webkit-mask:
+        radial-gradient(
+            circle,
+            transparent 0 70%,
+            #000 71% 73%,
+            transparent 74%
+        );
+    animation: Loader-desert-runes 20s linear infinite;
+}
+
+.Loader-atmosphere {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background:
+        conic-gradient(
+            from 0deg,
+            rgba(245, 158, 11, 0),
+            rgba(245, 158, 11, 0.08),
+            rgba(251, 191, 36, 0),
+            rgba(217, 119, 6, 0.07),
+            rgba(245, 158, 11, 0)
+        );
+    filter: blur(3px);
+    animation: Loader-atmosphere-spin 8s linear infinite;
+}
+
+.Loader-sun {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.Loader-sun--1 {
+    width: 154px;
+    height: 154px;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(251, 191, 36, 0.12);
+    box-shadow:
+        0 0 16px rgba(245, 158, 11, 0.12),
+        inset 0 0 20px rgba(217, 119, 6, 0.07);
+    animation: Loader-sun-one 2.4s ease-in-out infinite;
+}
+
+.Loader-sun--2 {
+    width: 118px;
+    height: 118px;
+    transform: translate(-50%, -50%);
+    background:
+        radial-gradient(
+            circle,
+            transparent 55%,
+            rgba(251, 191, 36, 0.08) 62%,
+            transparent 72%
+        );
+    animation: Loader-sun-two 2s ease-in-out infinite alternate;
+}
+
+.Loader-rune-ring {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.Loader-rune-ring--outer {
+    width: 174px;
+    height: 174px;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(251, 191, 36, 0.16);
+    animation: Loader-rune-outer 13s linear infinite;
+}
+
+.Loader-rune-ring--inner {
+    width: 132px;
+    height: 132px;
+    transform: translate(-50%, -50%);
+    border: 1px dashed rgba(245, 158, 11, 0.22);
+    animation: Loader-rune-inner 7s linear infinite reverse;
+}
+
+.Loader-rune-ring span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 3px;
+    height: 12px;
+    border-radius: 2px;
+    background:
+        linear-gradient(
+            180deg,
+            #fff7d6,
+            #fbbf24 38%,
+            #d97706 70%,
+            transparent
+        );
+    box-shadow:
+        0 0 5px rgba(251, 191, 36, 0.75);
+}
+
+.Loader-rune-ring--outer span:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(0deg) translateY(-86px);
+}
+
+.Loader-rune-ring--outer span:nth-child(2) {
+    transform: translate(-50%, -50%) rotate(30deg) translateY(-86px);
+}
+
+.Loader-rune-ring--outer span:nth-child(3) {
+    transform: translate(-50%, -50%) rotate(60deg) translateY(-86px);
+}
+
+.Loader-rune-ring--outer span:nth-child(4) {
+    transform: translate(-50%, -50%) rotate(90deg) translateY(-86px);
+}
+
+.Loader-rune-ring--outer span:nth-child(5) {
+    transform: translate(-50%, -50%) rotate(120deg) translateY(-86px);
+}
+
+.Loader-rune-ring--outer span:nth-child(6) {
+    transform: translate(-50%, -50%) rotate(150deg) translateY(-86px);
+}
+
+.Loader-rune-ring--outer span:nth-child(7) {
+    transform: translate(-50%, -50%) rotate(180deg) translateY(-86px);
+}
+
+.Loader-rune-ring--outer span:nth-child(8) {
+    transform: translate(-50%, -50%) rotate(210deg) translateY(-86px);
+}
+
+.Loader-rune-ring--outer span:nth-child(9) {
+    transform: translate(-50%, -50%) rotate(240deg) translateY(-86px);
+}
+
+.Loader-rune-ring--outer span:nth-child(10) {
+    transform: translate(-50%, -50%) rotate(270deg) translateY(-86px);
+}
+
+.Loader-rune-ring--outer span:nth-child(11) {
+    transform: translate(-50%, -50%) rotate(300deg) translateY(-86px);
+}
+
+.Loader-rune-ring--outer span:nth-child(12) {
+    transform: translate(-50%, -50%) rotate(330deg) translateY(-86px);
+}
+
+.Loader-rune-ring--inner span {
+    width: 2px;
+    height: 8px;
+}
+
+.Loader-rune-ring--inner span:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(0deg) translateY(-65px);
+}
+
+.Loader-rune-ring--inner span:nth-child(2) {
+    transform: translate(-50%, -50%) rotate(45deg) translateY(-65px);
+}
+
+.Loader-rune-ring--inner span:nth-child(3) {
+    transform: translate(-50%, -50%) rotate(90deg) translateY(-65px);
+}
+
+.Loader-rune-ring--inner span:nth-child(4) {
+    transform: translate(-50%, -50%) rotate(135deg) translateY(-65px);
+}
+
+.Loader-rune-ring--inner span:nth-child(5) {
+    transform: translate(-50%, -50%) rotate(180deg) translateY(-65px);
+}
+
+.Loader-rune-ring--inner span:nth-child(6) {
+    transform: translate(-50%, -50%) rotate(225deg) translateY(-65px);
+}
+
+.Loader-rune-ring--inner span:nth-child(7) {
+    transform: translate(-50%, -50%) rotate(270deg) translateY(-65px);
+}
+
+.Loader-rune-ring--inner span:nth-child(8) {
+    transform: translate(-50%, -50%) rotate(315deg) translateY(-65px);
+}
+
+.Loader-dune-ring {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.Loader-dune-ring--1 {
+    width: 145px;
+    height: 62px;
+    border: 1px solid rgba(245, 158, 11, 0.24);
+    animation: Loader-dune-one 5.5s linear infinite;
+}
+
+.Loader-dune-ring--2 {
+    width: 130px;
+    height: 48px;
+    border: 1px solid rgba(251, 191, 36, 0.18);
+    animation: Loader-dune-two 4.2s linear infinite reverse;
+}
+
+.Loader-dune-ring--3 {
+    width: 112px;
+    height: 38px;
+    border: 1px dashed rgba(253, 230, 138, 0.22);
+    animation: Loader-dune-three 3.4s linear infinite;
+}
+
+.Loader-orbit {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 142px;
+    height: 54px;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.Loader-orbit span {
+    position: absolute;
+    top: 50%;
+    left: -4px;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    border-radius: 50%;
+    background: #fff7d6;
+    box-shadow:
+        0 0 4px #ffffff,
+        0 0 9px #fde68a,
+        0 0 16px #f59e0b,
+        0 0 25px rgba(217, 119, 6, 0.75);
+}
+
+.Loader-orbit--1 {
+    animation: Loader-orbit-one 4.6s linear infinite;
+}
+
+.Loader-orbit--2 {
+    animation: Loader-orbit-two 5.2s linear infinite reverse;
+}
+
+.Loader-orbit--3 {
+    animation: Loader-orbit-three 3.9s linear infinite;
+}
+
+.Loader-shard {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 8px;
+    height: 21px;
+    clip-path:
+        polygon(
+            50% 0,
+            100% 35%,
+            73% 100%,
+            24% 88%,
+            0 32%
+        );
+    background:
+        linear-gradient(
+            135deg,
+            #fff7d6 0%,
+            #fbbf24 26%,
+            #d97706 58%,
+            #78350f 100%
+        );
+    box-shadow:
+        0 0 7px rgba(245, 158, 11, 0.7);
+    filter:
+        drop-shadow(0 0 4px rgba(251, 191, 36, 0.5));
+    transform-origin: center;
+}
+
+.Loader-shard--1 {
+    animation: Loader-shard-one 3s ease-in-out infinite;
+}
+
+.Loader-shard--2 {
+    animation: Loader-shard-two 3.3s ease-in-out infinite 0.2s;
+}
+
+.Loader-shard--3 {
+    animation: Loader-shard-three 2.8s ease-in-out infinite 0.4s;
+}
+
+.Loader-shard--4 {
+    animation: Loader-shard-four 3.5s ease-in-out infinite 0.1s;
+}
+
+.Loader-shard--5 {
+    animation: Loader-shard-five 3.1s ease-in-out infinite 0.5s;
+}
+
+.Loader-shard--6 {
+    animation: Loader-shard-six 3.7s ease-in-out infinite 0.7s;
+}
+
+.Loader-shard--7 {
+    animation: Loader-shard-seven 2.9s ease-in-out infinite 0.35s;
+}
+
+.Loader-shard--8 {
+    animation: Loader-shard-eight 3.2s ease-in-out infinite 0.6s;
+}
+
+.Loader-shard--9 {
+    animation: Loader-shard-nine 3.6s ease-in-out infinite 0.8s;
+}
+
+.Loader-shard--10 {
+    animation: Loader-shard-ten 3.25s ease-in-out infinite 0.15s;
+}
+
+.Loader-shard--11 {
+    animation: Loader-shard-eleven 2.95s ease-in-out infinite 0.55s;
+}
+
+.Loader-shard--12 {
+    animation: Loader-shard-twelve 3.45s ease-in-out infinite 0.75s;
+}
+
+.Loader-wind {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 20px;
+    border-top: 2px solid rgba(251, 191, 36, 0.34);
+    border-radius: 50%;
+    transform-origin: left center;
+    filter:
+        drop-shadow(0 0 5px rgba(245, 158, 11, 0.35));
+    pointer-events: none;
+}
+
+.Loader-wind--1 {
+    animation: Loader-wind-one 2s ease-in-out infinite;
+}
+
+.Loader-wind--2 {
+    animation: Loader-wind-two 2.4s ease-in-out infinite 0.3s;
+}
+
+.Loader-wind--3 {
+    animation: Loader-wind-three 2.2s ease-in-out infinite 0.6s;
+}
+
+.Loader-wind--4 {
+    animation: Loader-wind-four 2.6s ease-in-out infinite 0.9s;
+}
+
+.Loader-sand {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 3px;
+    height: 3px;
+    margin: -1.5px;
+    border-radius: 50%;
+    background: #fde68a;
+    box-shadow:
+        0 0 3px #fbbf24,
+        0 0 7px rgba(245, 158, 11, 0.8);
+    opacity: 0;
+}
+
+.Loader-sand:nth-of-type(odd) {
+    width: 2px;
+    height: 2px;
+}
+
+.Loader-sand--1 {
+    animation: Loader-sand-one 2.1s ease-out infinite;
+}
+
+.Loader-sand--2 {
+    animation: Loader-sand-two 2.5s ease-out infinite 0.1s;
+}
+
+.Loader-sand--3 {
+    animation: Loader-sand-three 1.9s ease-out infinite 0.3s;
+}
+
+.Loader-sand--4 {
+    animation: Loader-sand-four 2.6s ease-out infinite 0.5s;
+}
+
+.Loader-sand--5 {
+    animation: Loader-sand-five 2.3s ease-out infinite 0.7s;
+}
+
+.Loader-sand--6 {
+    animation: Loader-sand-six 2.8s ease-out infinite 0.2s;
+}
+
+.Loader-sand--7 {
+    animation: Loader-sand-seven 2s ease-out infinite 0.9s;
+}
+
+.Loader-sand--8 {
+    animation: Loader-sand-eight 2.45s ease-out infinite 1.1s;
+}
+
+.Loader-sand--9 {
+    animation: Loader-sand-nine 2.7s ease-out infinite 0.4s;
+}
+
+.Loader-sand--10 {
+    animation: Loader-sand-ten 2.2s ease-out infinite 1.3s;
+}
+
+.Loader-sand--11 {
+    animation: Loader-sand-eleven 2.55s ease-out infinite 0.65s;
+}
+
+.Loader-sand--12 {
+    animation: Loader-sand-twelve 2.15s ease-out infinite 1.5s;
+}
+
+.Loader-sand--13 {
+    animation: Loader-sand-thirteen 2.9s ease-out infinite 0.8s;
+}
+
+.Loader-sand--14 {
+    animation: Loader-sand-fourteen 2.35s ease-out infinite 1.7s;
+}
+
+.Loader-sand--15 {
+    animation: Loader-sand-fifteen 2.65s ease-out infinite 0.95s;
+}
+
+.Loader-sand--16 {
+    animation: Loader-sand-sixteen 2.05s ease-out infinite 1.9s;
+}
+
+.Loader-sand--17 {
+    animation: Loader-sand-seventeen 2.75s ease-out infinite 0.25s;
+}
+
+.Loader-sand--18 {
+    animation: Loader-sand-eighteen 2.4s ease-out infinite 1.2s;
+}
+
+.Loader-sand--19 {
+    animation: Loader-sand-nineteen 2.85s ease-out infinite 0.55s;
+}
+
+.Loader-sand--20 {
+    animation: Loader-sand-twenty 2.25s ease-out infinite 1.55s;
+}
+
+.Loader-wave {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 65px;
+    height: 65px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px solid rgba(251, 191, 36, 0.45);
+    opacity: 0;
+}
+
+.Loader-wave--1 {
+    animation: Loader-wave 2.1s ease-out infinite;
+}
+
+.Loader-wave--2 {
+    animation: Loader-wave 2.1s ease-out infinite 0.7s;
+}
+
+.Loader-wave--3 {
+    animation: Loader-wave 2.1s ease-out infinite 1.4s;
+}
+
+.Loader-core-shell {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 86px;
+    height: 86px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(253, 230, 138, 0.12),
+            rgba(245, 158, 11, 0.08) 35%,
+            rgba(180, 83, 9, 0.04) 60%,
+            transparent 72%
+        );
+    box-shadow:
+        0 0 22px rgba(245, 158, 11, 0.2),
+        inset 0 0 18px rgba(251, 191, 36, 0.08);
+    animation: Loader-shell-pulse 1.5s ease-in-out infinite;
+}
+
+.Loader-core-ring {
+    position: absolute;
+    inset: 3px;
+    border-radius: 50%;
+    background:
+        conic-gradient(
+            from 0deg,
+            transparent 0deg 24deg,
+            #fff7d6 24deg 27deg,
+            transparent 27deg 78deg,
+            #fbbf24 78deg 82deg,
+            transparent 82deg 141deg,
+            #d97706 141deg 146deg,
+            transparent 146deg 210deg,
+            #fde68a 210deg 214deg,
+            transparent 214deg 280deg,
+            #f59e0b 280deg 285deg,
+            transparent 285deg 360deg
+        );
+    mask:
+        radial-gradient(
+            circle,
+            transparent 0 84%,
+            #000 85%
+        );
+    -webkit-mask:
+        radial-gradient(
+            circle,
+            transparent 0 84%,
+            #000 85%
+        );
+    filter:
+        drop-shadow(0 0 4px #fbbf24)
+        drop-shadow(0 0 9px rgba(245, 158, 11, 0.7));
+    animation: Loader-core-ring 2s linear infinite;
+}
+
+.Loader-core {
+    position: relative;
+    z-index: 10;
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 38% 32%,
+            #fff7d6 0%,
+            #fde68a 10%,
+            #fbbf24 23%,
+            #f59e0b 39%,
+            #d97706 57%,
+            #92400e 75%,
+            #451a03 100%
+        );
+    box-shadow:
+        0 0 6px #fff7d6,
+        0 0 14px #fde68a,
+        0 0 26px #fbbf24,
+        0 0 42px #f59e0b,
+        0 0 62px rgba(217, 119, 6, 0.7),
+        inset 0 0 12px rgba(255, 255, 255, 0.28);
+    animation:
+        Loader-core-pulse 0.92s ease-in-out infinite alternate,
+        Loader-core-flicker 0.22s steps(2, end) infinite;
+}
+
+.Loader-core::before {
+    content: "";
+    position: absolute;
+    inset: 7px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 247, 214, 0.56);
+    box-shadow:
+        inset 0 0 9px rgba(253, 230, 138, 0.5),
+        0 0 8px rgba(251, 191, 36, 0.4);
+    animation: Loader-core-inner 1.1s ease-in-out infinite alternate;
+}
+
+.Loader-core-flare {
+    position: absolute;
+    inset: -20px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(253, 230, 138, 0.22),
+            rgba(245, 158, 11, 0.1) 42%,
+            transparent 72%
+        );
+    animation: Loader-core-flare 1.2s ease-in-out infinite alternate;
+}
+
+.Loader-crystal {
+    position: relative;
+    z-index: 20;
+    width: 25px;
+    height: 39px;
+    clip-path:
+        polygon(
+            50% 0,
+            94% 30%,
+            75% 82%,
+            50% 100%,
+            22% 82%,
+            6% 30%
+        );
+    background:
+        linear-gradient(
+            135deg,
+            #fff7d6 0%,
+            #fde68a 24%,
+            #fbbf24 45%,
+            #d97706 70%,
+            #78350f 100%
+        );
+    box-shadow:
+        0 0 8px #fff7d6,
+        0 0 16px #fbbf24;
+    filter:
+        drop-shadow(0 0 4px #fde68a)
+        drop-shadow(0 0 9px #f59e0b);
+    animation: Loader-crystal-hover 1.4s ease-in-out infinite alternate;
+}
+
+.Loader-crystal::before {
+    content: "";
+    position: absolute;
+    left: 46%;
+    top: 4px;
+    width: 2px;
+    height: 31px;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.8),
+            rgba(255, 255, 255, 0.1)
+        );
+    transform: rotate(8deg);
+}
+
+.Loader-crystal::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 8px;
+    width: 8px;
+    height: 16px;
+    background:
+        linear-gradient(
+            140deg,
+            rgba(255, 255, 255, 0.55),
+            transparent
+        );
+    clip-path:
+        polygon(
+            0 0,
+            100% 24%,
+            53% 100%,
+            0 80%
+        );
+}
+
+.Loader-crystal-face {
+    position: absolute;
+    opacity: 0.6;
+}
+
+.Loader-crystal-face--1 {
+    inset: 8px 4px 17px 12px;
+    background: rgba(255, 255, 255, 0.36);
+    clip-path:
+        polygon(
+            50% 0,
+            100% 100%,
+            0 80%
+        );
+}
+
+.Loader-crystal-face--2 {
+    left: 4px;
+    bottom: 4px;
+    width: 10px;
+    height: 13px;
+    background: rgba(120, 53, 15, 0.4);
+    clip-path:
+        polygon(
+            0 0,
+            100% 20%,
+            70% 100%
+        );
+}
+
+.Loader-crystal-face--3 {
+    right: 4px;
+    bottom: 5px;
+    width: 9px;
+    height: 14px;
+    background: rgba(255, 237, 158, 0.3);
+    clip-path:
+        polygon(
+            20% 0,
+            100% 20%,
+            30% 100%
+        );
+}
+
+@keyframes Loader-desert-aura {
+    from {
+        opacity: 0.55;
+        transform: scale(0.94);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.08);
+    }
+}
+
+@keyframes Loader-desert-runes {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes Loader-atmosphere-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes Loader-sun-one {
+    0%,
+    100% {
+        opacity: 0.35;
+        transform: translate(-50%, -50%) scale(0.96);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.05);
+    }
+}
+
+@keyframes Loader-sun-two {
+    from {
+        opacity: 0.45;
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.12);
+    }
+}
+
+@keyframes Loader-rune-outer {
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes Loader-rune-inner {
+    to {
+        transform: translate(-50%, -50%) rotate(-360deg);
+    }
+}
+
+@keyframes Loader-dune-one {
+    from {
+        transform: translate(-50%, -50%) rotate(10deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(370deg);
+    }
+}
+
+@keyframes Loader-dune-two {
+    from {
+        transform: translate(-50%, -50%) rotate(70deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(-290deg);
+    }
+}
+
+@keyframes Loader-dune-three {
+    from {
+        transform: translate(-50%, -50%) rotate(130deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(490deg);
+    }
+}
+
+@keyframes Loader-orbit-one {
+    from {
+        transform: translate(-50%, -50%) rotate(20deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(380deg);
+    }
+}
+
+@keyframes Loader-orbit-two {
+    from {
+        transform: translate(-50%, -50%) rotate(80deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(-280deg);
+    }
+}
+
+@keyframes Loader-orbit-three {
+    from {
+        transform: translate(-50%, -50%) rotate(140deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(500deg);
+    }
+}
+
+@keyframes Loader-shard-one {
+    0%,
+    100% {
+        transform: translate(-73px, -61px) rotate(-10deg) scale(0.85);
+    }
+
+    50% {
+        transform: translate(-78px, -69px) rotate(15deg) scale(1.08);
+    }
+}
+
+@keyframes Loader-shard-two {
+    0%,
+    100% {
+        transform: translate(-25px, -91px) rotate(28deg) scale(0.9);
+    }
+
+    50% {
+        transform: translate(-21px, -99px) rotate(52deg) scale(1.05);
+    }
+}
+
+@keyframes Loader-shard-three {
+    0%,
+    100% {
+        transform: translate(35px, -85px) rotate(62deg) scale(0.8);
+    }
+
+    50% {
+        transform: translate(43px, -91px) rotate(89deg) scale(1.12);
+    }
+}
+
+@keyframes Loader-shard-four {
+    0%,
+    100% {
+        transform: translate(75px, -48px) rotate(88deg) scale(0.86);
+    }
+
+    50% {
+        transform: translate(83px, -43px) rotate(111deg) scale(1.04);
+    }
+}
+
+@keyframes Loader-shard-five {
+    0%,
+    100% {
+        transform: translate(87px, 10px) rotate(123deg) scale(0.8);
+    }
+
+    50% {
+        transform: translate(94px, 18px) rotate(146deg) scale(1.08);
+    }
+}
+
+@keyframes Loader-shard-six {
+    0%,
+    100% {
+        transform: translate(54px, 66px) rotate(150deg) scale(0.9);
+    }
+
+    50% {
+        transform: translate(59px, 74px) rotate(174deg) scale(1.1);
+    }
+}
+
+@keyframes Loader-shard-seven {
+    0%,
+    100% {
+        transform: translate(4px, 83px) rotate(183deg) scale(0.82);
+    }
+
+    50% {
+        transform: translate(-2px, 91px) rotate(208deg) scale(1.08);
+    }
+}
+
+@keyframes Loader-shard-eight {
+    0%,
+    100% {
+        transform: translate(-55px, 70px) rotate(210deg) scale(0.88);
+    }
+
+    50% {
+        transform: translate(-61px, 77px) rotate(236deg) scale(1.06);
+    }
+}
+
+@keyframes Loader-shard-nine {
+    0%,
+    100% {
+        transform: translate(-89px, 22px) rotate(245deg) scale(0.78);
+    }
+
+    50% {
+        transform: translate(-97px, 15px) rotate(272deg) scale(1.1);
+    }
+}
+
+@keyframes Loader-shard-ten {
+    0%,
+    100% {
+        transform: translate(-85px, -24px) rotate(274deg) scale(0.86);
+    }
+
+    50% {
+        transform: translate(-93px, -29px) rotate(298deg) scale(1.08);
+    }
+}
+
+@keyframes Loader-shard-eleven {
+    0%,
+    100% {
+        transform: translate(72px, 46px) rotate(310deg) scale(0.82);
+    }
+
+    50% {
+        transform: translate(79px, 53px) rotate(335deg) scale(1.05);
+    }
+}
+
+@keyframes Loader-shard-twelve {
+    0%,
+    100% {
+        transform: translate(26px, 91px) rotate(345deg) scale(0.88);
+    }
+
+    50% {
+        transform: translate(31px, 99px) rotate(370deg) scale(1.08);
+    }
+}
+
+@keyframes Loader-wind-one {
+    0%,
+    100% {
+        opacity: 0.15;
+        transform: rotate(10deg) translateX(22px) scaleX(0.75);
+    }
+
+    50% {
+        opacity: 0.85;
+        transform: rotate(18deg) translateX(26px) scaleX(1.08);
+    }
+}
+
+@keyframes Loader-wind-two {
+    0%,
+    100% {
+        opacity: 0.2;
+        transform: rotate(100deg) translateX(20px) scaleX(0.8);
+    }
+
+    50% {
+        opacity: 0.8;
+        transform: rotate(108deg) translateX(25px) scaleX(1.05);
+    }
+}
+
+@keyframes Loader-wind-three {
+    0%,
+    100% {
+        opacity: 0.15;
+        transform: rotate(190deg) translateX(22px) scaleX(0.72);
+    }
+
+    50% {
+        opacity: 0.9;
+        transform: rotate(198deg) translateX(27px) scaleX(1.1);
+    }
+}
+
+@keyframes Loader-wind-four {
+    0%,
+    100% {
+        opacity: 0.2;
+        transform: rotate(280deg) translateX(20px) scaleX(0.78);
+    }
+
+    50% {
+        opacity: 0.78;
+        transform: rotate(288deg) translateX(25px) scaleX(1.06);
+    }
+}
+
+@keyframes Loader-wave {
+    0% {
+        opacity: 0.75;
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+
+    65% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(2.55);
+    }
+}
+
+@keyframes Loader-shell-pulse {
+    0%,
+    100% {
+        transform: translate(-50%, -50%) scale(0.95);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.06);
+    }
+}
+
+@keyframes Loader-core-ring {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes Loader-core-pulse {
+    from {
+        transform: scale(0.91);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes Loader-core-flicker {
+    0% {
+        filter: brightness(0.94);
+    }
+
+    50% {
+        filter: brightness(1.15);
+    }
+
+    100% {
+        filter: brightness(1);
+    }
+}
+
+@keyframes Loader-core-inner {
+    from {
+        opacity: 0.4;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.07);
+    }
+}
+
+@keyframes Loader-core-flare {
+    from {
+        opacity: 0.35;
+        transform: scale(0.88);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.22);
+    }
+}
+
+@keyframes Loader-crystal-hover {
+    from {
+        transform: translateY(2px) rotate(-2deg) scale(0.94);
+    }
+
+    to {
+        transform: translateY(-3px) rotate(2deg) scale(1.06);
+    }
+}
+
+@keyframes Loader-sand-one {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(100px, -54px);
+    }
+}
+
+@keyframes Loader-sand-two {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    25% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-96px, -64px);
+    }
+}
+
+@keyframes Loader-sand-three {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    18% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(106px, 21px);
+    }
+}
+
+@keyframes Loader-sand-four {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    22% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-108px, 34px);
+    }
+}
+
+@keyframes Loader-sand-five {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(58px, 96px);
+    }
+}
+
+@keyframes Loader-sand-six {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    24% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-57px, 102px);
+    }
+}
+
+@keyframes Loader-sand-seven {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    18% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(34px, -108px);
+    }
+}
+
+@keyframes Loader-sand-eight {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    26% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-43px, -103px);
+    }
+}
+
+@keyframes Loader-sand-nine {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(112px, -13px);
+    }
+}
+
+@keyframes Loader-sand-ten {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    23% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-111px, -9px);
+    }
+}
+
+@keyframes Loader-sand-eleven {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    19% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(87px, 71px);
+    }
+}
+
+@keyframes Loader-sand-twelve {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-86px, 77px);
+    }
+}
+
+@keyframes Loader-sand-thirteen {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    21% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(72px, -90px);
+    }
+}
+
+@keyframes Loader-sand-fourteen {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    18% {
+        opacity: 0.85;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-73px, -91px);
+    }
+}
+
+@keyframes Loader-sand-fifteen {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(17px, 114px);
+    }
+}
+
+@keyframes Loader-sand-sixteen {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-17px, -116px);
+    }
+}
+
+@keyframes Loader-sand-seventeen {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    22% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(104px, 50px);
+    }
+}
+
+@keyframes Loader-sand-eighteen {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    26% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-103px, 53px);
+    }
+}
+
+@keyframes Loader-sand-nineteen {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    21% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(52px, -105px);
+    }
+}
+
+@keyframes Loader-sand-twenty {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    18% {
+        opacity: 0.95;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-55px, 106px);
+    }
+}`,
+  },
 ];
