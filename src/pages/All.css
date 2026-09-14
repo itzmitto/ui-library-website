@@ -117,12 +117,12 @@
   animation-play-state: paused !important;
 }
 
-.all-card:hover .all-card-preview,
-.all-card:hover .all-card-preview *,
-.all-card:hover .all-card-preview::before,
-.all-card:hover .all-card-preview::after,
-.all-card:hover .all-card-preview *::before,
-.all-card:hover .all-card-preview *::after {
+.all-card--animation-active .all-card-preview,
+.all-card--animation-active .all-card-preview *,
+.all-card--animation-active .all-card-preview::before,
+.all-card--animation-active .all-card-preview::after,
+.all-card--animation-active .all-card-preview *::before,
+.all-card--animation-active .all-card-preview *::after {
   animation-play-state: running !important;
 }
 
