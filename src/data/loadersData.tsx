@@ -12142,4 +12142,390 @@ export const loaders = [
 }
 `,
   },
+
+  {
+    id: 3115,
+    name: "Lightning Core Loader",
+    preview: (
+      <>
+        <style>{`
+        .loader-3115 {
+          position: relative;
+          width: 92px;
+          height: 92px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          filter: drop-shadow(0 0 14px rgba(59, 130, 246, 0.7));
+        }
+
+        .loader-3115-ring {
+          position: absolute;
+          inset: 8px;
+          border-radius: 50%;
+          border: 2px solid rgba(96, 165, 250, 0.12);
+          border-top-color: #60a5fa;
+          border-right-color: #2563eb;
+          box-shadow:
+            0 0 12px rgba(59, 130, 246, 0.7),
+            inset 0 0 10px rgba(59, 130, 246, 0.25);
+          animation: loader-3115-spin 1.1s linear infinite;
+        }
+
+        .loader-3115-ring::before {
+          content: "";
+          position: absolute;
+          inset: 7px;
+          border-radius: 50%;
+          border: 1px dashed rgba(147, 197, 253, 0.45);
+          animation: loader-3115-spin-reverse 1.6s linear infinite;
+        }
+
+        .loader-3115-core {
+          position: relative;
+          width: 34px;
+          height: 34px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          background:
+            radial-gradient(
+              circle,
+              #ffffff 0%,
+              #bfdbfe 16%,
+              #3b82f6 40%,
+              #1d4ed8 65%,
+              rgba(30, 64, 175, 0.15) 72%
+            );
+          box-shadow:
+            0 0 8px #ffffff,
+            0 0 18px #60a5fa,
+            0 0 34px #2563eb,
+            0 0 48px rgba(37, 99, 235, 0.45);
+          animation: loader-3115-core-pulse 0.75s ease-in-out infinite alternate;
+        }
+
+        .loader-3115-bolt {
+          position: absolute;
+          width: 4px;
+          height: 28px;
+          background: #ffffff;
+          clip-path: polygon(
+            55% 0,
+            100% 0,
+            67% 40%,
+            100% 40%,
+            25% 100%,
+            43% 56%,
+            0 56%
+          );
+          filter:
+            drop-shadow(0 0 4px #ffffff)
+            drop-shadow(0 0 8px #60a5fa);
+          animation: loader-3115-flash 0.38s steps(2, end) infinite;
+        }
+
+        .loader-3115-arc {
+          position: absolute;
+          width: 42px;
+          height: 2px;
+          background: linear-gradient(
+            90deg,
+            transparent,
+            #ffffff,
+            #60a5fa,
+            transparent
+          );
+          transform-origin: center;
+          opacity: 0;
+          box-shadow: 0 0 8px #60a5fa;
+          animation: loader-3115-arc 0.9s ease-in-out infinite;
+        }
+
+        .loader-3115-arc:nth-child(3) {
+          transform: rotate(45deg) translateX(29px);
+          animation-delay: 0.15s;
+        }
+
+        .loader-3115-arc:nth-child(4) {
+          transform: rotate(135deg) translateX(29px);
+          animation-delay: 0.35s;
+        }
+
+        .loader-3115-arc:nth-child(5) {
+          transform: rotate(225deg) translateX(29px);
+          animation-delay: 0.55s;
+        }
+
+        .loader-3115-arc:nth-child(6) {
+          transform: rotate(315deg) translateX(29px);
+          animation-delay: 0.75s;
+        }
+
+        @keyframes loader-3115-spin {
+          to {
+            transform: rotate(360deg);
+          }
+        }
+
+        @keyframes loader-3115-spin-reverse {
+          to {
+            transform: rotate(-360deg);
+          }
+        }
+
+        @keyframes loader-3115-core-pulse {
+          from {
+            transform: scale(0.88);
+            filter: brightness(0.9);
+          }
+
+          to {
+            transform: scale(1.08);
+            filter: brightness(1.35);
+          }
+        }
+
+        @keyframes loader-3115-flash {
+          0%,
+          35% {
+            opacity: 1;
+            transform: scale(1);
+          }
+
+          36%,
+          55% {
+            opacity: 0.35;
+            transform: scale(0.9);
+          }
+
+          56%,
+          100% {
+            opacity: 1;
+            transform: scale(1.08);
+          }
+        }
+
+        @keyframes loader-3115-arc {
+          0% {
+            opacity: 0;
+            width: 12px;
+          }
+
+          35% {
+            opacity: 1;
+            width: 44px;
+          }
+
+          70%,
+          100% {
+            opacity: 0;
+            width: 20px;
+          }
+        }
+      `}</style>
+
+        <div className="loader-3115">
+          <div className="loader-3115-ring" />
+
+          <div className="loader-3115-core">
+            <span className="loader-3115-bolt" />
+          </div>
+
+          <span className="loader-3115-arc" />
+          <span className="loader-3115-arc" />
+          <span className="loader-3115-arc" />
+          <span className="loader-3115-arc" />
+        </div>
+      </>
+    ),
+    html: `<div class="Loader">
+    <div class="Loader-ring"></div>
+
+    <div class="Loader-core">
+        <span class="Loader-bolt"></span>
+    </div>
+
+    <span class="Loader-arc"></span>
+    <span class="Loader-arc"></span>
+    <span class="Loader-arc"></span>
+    <span class="Loader-arc"></span>
+</div>`,
+    css: `.Loader {
+    position: relative;
+    width: 92px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0 0 14px rgba(59, 130, 246, 0.7));
+}
+
+.Loader-ring {
+    position: absolute;
+    inset: 8px;
+    border-radius: 50%;
+    border: 2px solid rgba(96, 165, 250, 0.12);
+    border-top-color: #60a5fa;
+    border-right-color: #2563eb;
+    box-shadow:
+        0 0 12px rgba(59, 130, 246, 0.7),
+        inset 0 0 10px rgba(59, 130, 246, 0.25);
+    animation: Loader-spin 1.1s linear infinite;
+}
+
+.Loader-ring::before {
+    content: "";
+    position: absolute;
+    inset: 7px;
+    border-radius: 50%;
+    border: 1px dashed rgba(147, 197, 253, 0.45);
+    animation: Loader-spin-reverse 1.6s linear infinite;
+}
+
+.Loader-core {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            #ffffff 0%,
+            #bfdbfe 16%,
+            #3b82f6 40%,
+            #1d4ed8 65%,
+            rgba(30, 64, 175, 0.15) 72%
+        );
+    box-shadow:
+        0 0 8px #ffffff,
+        0 0 18px #60a5fa,
+        0 0 34px #2563eb,
+        0 0 48px rgba(37, 99, 235, 0.45);
+    animation: Loader-core-pulse 0.75s ease-in-out infinite alternate;
+}
+
+.Loader-bolt {
+    position: absolute;
+    width: 4px;
+    height: 28px;
+    background: #ffffff;
+    clip-path: polygon(
+        55% 0,
+        100% 0,
+        67% 40%,
+        100% 40%,
+        25% 100%,
+        43% 56%,
+        0 56%
+    );
+    filter:
+        drop-shadow(0 0 4px #ffffff)
+        drop-shadow(0 0 8px #60a5fa);
+    animation: Loader-flash 0.38s steps(2, end) infinite;
+}
+
+.Loader-arc {
+    position: absolute;
+    width: 42px;
+    height: 2px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        #ffffff,
+        #60a5fa,
+        transparent
+    );
+    transform-origin: center;
+    opacity: 0;
+    box-shadow: 0 0 8px #60a5fa;
+    animation: Loader-arc 0.9s ease-in-out infinite;
+}
+
+.Loader-arc:nth-child(3) {
+    transform: rotate(45deg) translateX(29px);
+    animation-delay: 0.15s;
+}
+
+.Loader-arc:nth-child(4) {
+    transform: rotate(135deg) translateX(29px);
+    animation-delay: 0.35s;
+}
+
+.Loader-arc:nth-child(5) {
+    transform: rotate(225deg) translateX(29px);
+    animation-delay: 0.55s;
+}
+
+.Loader-arc:nth-child(6) {
+    transform: rotate(315deg) translateX(29px);
+    animation-delay: 0.75s;
+}
+
+@keyframes Loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes Loader-spin-reverse {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes Loader-core-pulse {
+    from {
+        transform: scale(0.88);
+        filter: brightness(0.9);
+    }
+
+    to {
+        transform: scale(1.08);
+        filter: brightness(1.35);
+    }
+}
+
+@keyframes Loader-flash {
+    0%,
+    35% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    36%,
+    55% {
+        opacity: 0.35;
+        transform: scale(0.9);
+    }
+
+    56%,
+    100% {
+        opacity: 1;
+        transform: scale(1.08);
+    }
+}
+
+@keyframes Loader-arc {
+    0% {
+        opacity: 0;
+        width: 12px;
+    }
+
+    35% {
+        opacity: 1;
+        width: 44px;
+    }
+
+    70%,
+    100% {
+        opacity: 0;
+        width: 20px;
+    }
+}`,
+  },
 ];
