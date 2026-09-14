@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Header from "./components/Header";
 import Buttons from "./pages/Buttons";
 import All from "./pages/All";
 import Checkboxes from "./pages/Checkboxes";
@@ -33,21 +32,197 @@ import Tables from "./pages/Tables";
 import "./App.css";
 import "./styling/media.css";
 
+const features = [
+  {
+    icon: "ri-flashlight-line",
+    title: "Modern Design",
+    description: "Clean and modern components.",
+  },
+  {
+    icon: "ri-code-s-slash-line",
+    title: "Copy & Use",
+    description: "Just copy the HTML/CSS.",
+  },
+  {
+    icon: "ri-group-line",
+    title: "Community Driven",
+    description: "Built by developers, for developers.",
+  },
+  {
+    icon: "ri-heart-3-line",
+    title: "Open Source",
+    description: "Free to use. Forever.",
+  },
+];
+
+const stats = [
+  {
+    icon: "ri-box-3-line",
+    value: "3000+",
+    label: "Components",
+  },
+  {
+    icon: "ri-stack-line",
+    value: "50+",
+    label: "Categories",
+  },
+  {
+    icon: "ri-code-s-slash-line",
+    value: "HTML / CSS",
+    label: "Ready to use",
+  },
+  {
+    icon: "ri-star-line",
+    value: "100%",
+    label: "Open Source",
+  },
+];
+
 function Home() {
   return (
-    <div>
-      <Header />
-      <section className="hero">
-        <div className="hero-content">
-          <h1 className="hero-title">My Library of Open-Source UI</h1>
-          <p className="hero-description">
-            Community-built library of UI elements. Copy as HTML/CSS.
-          </p>
-          <Link to="/elements" className="hero-button">
-            Explore Library
+    <div className="home-page">
+      <header className="home-header">
+        <div className="home-header-inner">
+          <Link to="/" className="home-logo">
+            <span className="home-logo-mark">
+              <i className="ri-sparkling-2-fill"></i>
+            </span>
+            <span className="home-logo-text">André&apos;s UI library</span>
+          </Link>
+
+          <nav className="home-nav">
+            <Link to="/elements" className="home-nav-link">
+              <span>Elements</span>
+              <i className="ri-arrow-down-s-line"></i>
+            </Link>
+            <a href="#features" className="home-nav-link">
+              About
+            </a>
+            <a href="#cta" className="home-nav-link">
+              Contact
+            </a>
+          </nav>
+
+          <Link to="/elements" className="home-header-button">
+            Get Started
           </Link>
         </div>
-      </section>
+      </header>
+
+      <main className="home-main">
+        <section className="hero">
+          <div className="hero-side hero-side--left">
+            <div className="hero-side-line"></div>
+            <p className="hero-side-title">
+              BUILD
+              <br />
+              BEAUTIFUL
+              <br />
+              FASTER
+            </p>
+            <div className="hero-side-line short"></div>
+            <p className="hero-side-text">
+              SAME BUILDERS.
+              <br />A BRIGHTER WEB.
+            </p>
+          </div>
+
+          <div className="hero-side hero-side--right">
+            <div className="hero-side-line"></div>
+            <p className="hero-side-title">
+              OPEN
+              <br />
+              SOURCE
+              <br />
+              FOR A BRIGHTER
+              <br />
+              WEB
+            </p>
+            <div className="hero-side-line short"></div>
+            <p className="hero-side-text">
+              UI COMPONENTS
+              <br />
+              FOR WHAT&apos;S NEXT.
+            </p>
+          </div>
+
+          <div className="hero-content">
+            <p className="hero-eyebrow">
+              <span></span>
+              OPEN SOURCE UI LIBRARY
+              <span></span>
+            </p>
+
+            <h1 className="hero-title">
+              My Library of Open
+              <br />
+              <span className="hero-title-highlight">Source UI</span>
+            </h1>
+
+            <p className="hero-description">
+              Community-built library of UI elements. Copy as HTML/CSS
+              <br />
+              and build beautiful interfaces faster.
+            </p>
+
+            <Link to="/elements" className="hero-button">
+              <span>Explore Library</span>
+              <i className="ri-arrow-right-line"></i>
+            </Link>
+          </div>
+
+          <div className="hero-features" id="features">
+            {features.map((feature) => (
+              <article key={feature.title} className="hero-feature-card">
+                <div className="hero-feature-icon">
+                  <i className={feature.icon}></i>
+                </div>
+                <div className="hero-feature-info">
+                  <h3>{feature.title}</h3>
+                  <p>{feature.description}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <section className="stats-section">
+            <div className="stats-container">
+              {stats.map((stat) => (
+                <div key={stat.label} className="stat-item">
+                  <div className="stat-icon">
+                    <i className={stat.icon}></i>
+                  </div>
+                  <div className="stat-content">
+                    <strong>{stat.value}</strong>
+                    <span>{stat.label}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className="cta-section" id="cta">
+            <p className="cta-eyebrow">
+              <span></span>
+              READY TO START?
+              <span></span>
+            </p>
+
+            <h2 className="cta-title">
+              Build Something <span>Amazing</span>
+            </h2>
+
+            <p className="cta-description">
+              Open source. Free forever. Made for developers.
+            </p>
+
+            <Link to="/elements" className="cta-button">
+              <span>Explore Library</span>
+              <i className="ri-arrow-right-line"></i>
+            </Link>
+          </section>
+        </section>
+      </main>
     </div>
   );
 }
