@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Buttons from "./pages/Buttons";
 import All from "./pages/All";
@@ -30,7 +31,6 @@ import Carousels from "./pages/Carousels";
 import ProgressBars from "./pages/ProgressBars";
 import Tables from "./pages/Tables";
 import "./App.css";
-import "./styling/media.css";
 
 const features = [
   {
@@ -78,7 +78,233 @@ const stats = [
   },
 ];
 
+const elementRoutes = [
+  {
+    name: "All Components",
+    path: "/elements",
+    icon: "ri-grid-fill",
+  },
+  {
+    name: "Buttons",
+    path: "/elements/buttons",
+    icon: "ri-cursor-line",
+  },
+  {
+    name: "Checkboxes",
+    path: "/elements/checkboxes",
+    icon: "ri-checkbox-line",
+  },
+  {
+    name: "Toggle Switches",
+    path: "/elements/toggleswitches",
+    icon: "ri-toggle-line",
+  },
+  {
+    name: "Cards",
+    path: "/elements/cards",
+    icon: "ri-layout-grid-line",
+  },
+  {
+    name: "Loaders",
+    path: "/elements/loaders",
+    icon: "ri-loader-4-line",
+  },
+  {
+    name: "Inputs",
+    path: "/elements/inputs",
+    icon: "ri-input-field",
+  },
+  {
+    name: "Radio Buttons",
+    path: "/elements/radio-buttons",
+    icon: "ri-radio-button-line",
+  },
+  {
+    name: "Forms",
+    path: "/elements/forms",
+    icon: "ri-file-list-3-line",
+  },
+  {
+    name: "Patterns",
+    path: "/elements/patterns",
+    icon: "ri-shape-line",
+  },
+  {
+    name: "Tooltips",
+    path: "/elements/tooltips",
+    icon: "ri-message-2-line",
+  },
+  {
+    name: "Navbars",
+    path: "/elements/navbar",
+    icon: "ri-menu-line",
+  },
+  {
+    name: "Logins",
+    path: "/elements/logins",
+    icon: "ri-login-box-line",
+  },
+  {
+    name: "Dropdowns",
+    path: "/elements/dropdowns",
+    icon: "ri-arrow-down-s-square-line",
+  },
+  {
+    name: "Modals",
+    path: "/elements/modals",
+    icon: "ri-window-line",
+  },
+  {
+    name: "Alerts",
+    path: "/elements/alerts",
+    icon: "ri-notification-3-line",
+  },
+  {
+    name: "Badges",
+    path: "/elements/badges",
+    icon: "ri-price-tag-3-line",
+  },
+  {
+    name: "Avatars",
+    path: "/elements/avatars",
+    icon: "ri-user-3-line",
+  },
+  {
+    name: "Tabs",
+    path: "/elements/tabs",
+    icon: "ri-folder-line",
+  },
+  {
+    name: "Breadcrumbs",
+    path: "/elements/breadcrumbs",
+    icon: "ri-arrow-right-s-line",
+  },
+  {
+    name: "Pagination",
+    path: "/elements/pagination",
+    icon: "ri-more-line",
+  },
+  {
+    name: "Skeletons",
+    path: "/elements/skeletons",
+    icon: "ri-layout-masonry-line",
+  },
+  {
+    name: "Sidebars",
+    path: "/elements/sidebars",
+    icon: "ri-sidebar-fold-line",
+  },
+  {
+    name: "Hero Sections",
+    path: "/elements/hero-sections",
+    icon: "ri-layout-top-line",
+  },
+  {
+    name: "iPhone",
+    path: "/elements/iphone",
+    icon: "ri-smartphone-line",
+  },
+  {
+    name: "Toasts",
+    path: "/elements/toasts",
+    icon: "ri-notification-badge-line",
+  },
+  {
+    name: "Accordions",
+    path: "/elements/accordions",
+    icon: "ri-expand-up-down-line",
+  },
+  {
+    name: "Carousels",
+    path: "/elements/carousels",
+    icon: "ri-carousel-view",
+  },
+  {
+    name: "Progress Bars",
+    path: "/elements/progress-bars",
+    icon: "ri-progress-5-line",
+  },
+  {
+    name: "Tables",
+    path: "/elements/tables",
+    icon: "ri-table-line",
+  },
+];
+
 function Home() {
+  const [isHovered, setIsHovered] = useState(false);
+  const [isPinned, setIsPinned] = useState(false);
+
+  const dropdownRef = useRef<HTMLDivElement>(null);
+  const hoverTimeoutRef = useRef<number | null>(null);
+
+  const isElementsOpen = isHovered || isPinned;
+
+  function clearHoverTimeout() {
+    if (hoverTimeoutRef.current !== null) {
+      window.clearTimeout(hoverTimeoutRef.current);
+      hoverTimeoutRef.current = null;
+    }
+  }
+
+  function openDropdownHover() {
+    clearHoverTimeout();
+    setIsHovered(true);
+  }
+
+  function closeDropdownHover() {
+    clearHoverTimeout();
+
+    hoverTimeoutRef.current = window.setTimeout(() => {
+      setIsHovered(false);
+      hoverTimeoutRef.current = null;
+    }, 250);
+  }
+
+  function closeDropdown() {
+    clearHoverTimeout();
+    setIsHovered(false);
+    setIsPinned(false);
+  }
+
+  function toggleDropdown() {
+    clearHoverTimeout();
+    setIsPinned((current) => !current);
+  }
+
+  useEffect(() => {
+    function handleOutsideClick(event: MouseEvent) {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        clearHoverTimeout();
+        setIsHovered(false);
+        setIsPinned(false);
+      }
+    }
+
+    function handleEscape(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        clearHoverTimeout();
+        setIsHovered(false);
+        setIsPinned(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleOutsideClick);
+    document.addEventListener("keydown", handleEscape);
+
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+      document.removeEventListener("keydown", handleEscape);
+
+      if (hoverTimeoutRef.current !== null) {
+        window.clearTimeout(hoverTimeoutRef.current);
+      }
+    };
+  }, []);
+
   return (
     <div className="home-page">
       <header className="home-header">
@@ -87,20 +313,78 @@ function Home() {
             <span className="home-logo-mark">
               <i className="ri-sparkling-2-fill"></i>
             </span>
+
             <span className="home-logo-text">André&apos;s UI library</span>
           </Link>
 
           <nav className="home-nav">
-            <Link to="/elements" className="home-nav-link">
-              <span>Elements</span>
-              <i className="ri-arrow-down-s-line"></i>
-            </Link>
-            <a href="#features" className="home-nav-link">
-              About
-            </a>
-            <a href="#cta" className="home-nav-link">
-              Contact
-            </a>
+            <div
+              ref={dropdownRef}
+              className="home-nav-dropdown"
+              onMouseEnter={openDropdownHover}
+              onMouseLeave={closeDropdownHover}
+            >
+              <button
+                type="button"
+                className={`home-nav-link home-nav-button ${
+                  isElementsOpen ? "home-nav-link--active" : ""
+                }`}
+                onClick={toggleDropdown}
+                aria-expanded={isElementsOpen}
+              >
+                <span>Elements</span>
+
+                <i
+                  className={`ri-arrow-down-s-line home-nav-arrow ${
+                    isElementsOpen ? "home-nav-arrow--open" : ""
+                  }`}
+                ></i>
+              </button>
+
+              <div
+                className={`home-elements-dropdown ${
+                  isElementsOpen ? "home-elements-dropdown--open" : ""
+                }`}
+                onMouseEnter={openDropdownHover}
+                onMouseLeave={closeDropdownHover}
+              >
+                <div className="home-dropdown-header">
+                  <div>
+                    <span className="home-dropdown-eyebrow">
+                      COMPONENT LIBRARY
+                    </span>
+
+                    <h3>Browse Elements</h3>
+                  </div>
+
+                  <Link
+                    to="/elements"
+                    className="home-dropdown-view-all"
+                    onClick={closeDropdown}
+                  >
+                    View all
+                    <i className="ri-arrow-right-line"></i>
+                  </Link>
+                </div>
+
+                <div className="home-dropdown-grid">
+                  {elementRoutes.map((item) => (
+                    <Link
+                      key={item.path}
+                      to={item.path}
+                      className="home-dropdown-item"
+                      onClick={closeDropdown}
+                    >
+                      <span className="home-dropdown-icon">
+                        <i className={item.icon}></i>
+                      </span>
+
+                      <span>{item.name}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
           </nav>
 
           <Link to="/elements" className="home-header-button">
@@ -113,6 +397,7 @@ function Home() {
         <section className="hero">
           <div className="hero-side hero-side--left">
             <div className="hero-side-line"></div>
+
             <p className="hero-side-title">
               BUILD
               <br />
@@ -120,7 +405,9 @@ function Home() {
               <br />
               FASTER
             </p>
+
             <div className="hero-side-line short"></div>
+
             <p className="hero-side-text">
               SAME BUILDERS.
               <br />A BRIGHTER WEB.
@@ -129,6 +416,7 @@ function Home() {
 
           <div className="hero-side hero-side--right">
             <div className="hero-side-line"></div>
+
             <p className="hero-side-title">
               OPEN
               <br />
@@ -138,7 +426,9 @@ function Home() {
               <br />
               WEB
             </p>
+
             <div className="hero-side-line short"></div>
+
             <p className="hero-side-text">
               UI COMPONENTS
               <br />
@@ -171,12 +461,13 @@ function Home() {
             </Link>
           </div>
 
-          <div className="hero-features" id="features">
+          <div className="hero-features">
             {features.map((feature) => (
               <article key={feature.title} className="hero-feature-card">
                 <div className="hero-feature-icon">
                   <i className={feature.icon}></i>
                 </div>
+
                 <div className="hero-feature-info">
                   <h3>{feature.title}</h3>
                   <p>{feature.description}</p>
@@ -192,6 +483,7 @@ function Home() {
                   <div className="stat-icon">
                     <i className={stat.icon}></i>
                   </div>
+
                   <div className="stat-content">
                     <strong>{stat.value}</strong>
                     <span>{stat.label}</span>
@@ -199,27 +491,6 @@ function Home() {
                 </div>
               ))}
             </div>
-          </section>
-
-          <section className="cta-section" id="cta">
-            <p className="cta-eyebrow">
-              <span></span>
-              READY TO START?
-              <span></span>
-            </p>
-
-            <h2 className="cta-title">
-              Build Something <span>Amazing</span>
-            </h2>
-
-            <p className="cta-description">
-              Open source. Free forever. Made for developers.
-            </p>
-
-            <Link to="/elements" className="cta-button">
-              <span>Explore Library</span>
-              <i className="ri-arrow-right-line"></i>
-            </Link>
           </section>
         </section>
       </main>
