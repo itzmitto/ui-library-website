@@ -16562,4 +16562,1376 @@ export const navbar = [
     }
 }`,
   },
+
+    {
+    id: 3155,
+    name: "Light Elemental Navbar",
+    preview: (
+      <nav className="navbar-3155">
+        <div className="navbar-3155-aura navbar-3155-aura-blue"></div>
+        <div className="navbar-3155-aura navbar-3155-aura-green"></div>
+        <div className="navbar-3155-aura navbar-3155-aura-orange"></div>
+
+        <a
+          href="#"
+          className="navbar-3155-brand"
+          onClick={(event) => event.preventDefault()}
+        >
+          <div className="navbar-3155-emblem">
+            <span className="navbar-3155-emblem-ring"></span>
+
+            <div className="navbar-3155-emblem-core">
+              <i className="ri-sun-line"></i>
+            </div>
+
+            <span className="navbar-3155-emblem-particle navbar-3155-emblem-particle-1"></span>
+            <span className="navbar-3155-emblem-particle navbar-3155-emblem-particle-2"></span>
+            <span className="navbar-3155-emblem-particle navbar-3155-emblem-particle-3"></span>
+          </div>
+
+          <div className="navbar-3155-brand-text">
+            <strong>ELEMENTA</strong>
+            <span>NATURAL SYSTEMS</span>
+          </div>
+        </a>
+
+        <div className="navbar-3155-links">
+          <a
+            href="#"
+            className="navbar-3155-active"
+            onClick={(event) => event.preventDefault()}
+          >
+            Home
+          </a>
+
+          <a
+            href="#"
+            onClick={(event) => event.preventDefault()}
+          >
+            Discover
+          </a>
+
+          <a
+            href="#"
+            onClick={(event) => event.preventDefault()}
+          >
+            Worlds
+          </a>
+
+          <a
+            href="#"
+            onClick={(event) => event.preventDefault()}
+          >
+            Journal
+          </a>
+        </div>
+
+        <div className="navbar-3155-elements">
+          <button
+            type="button"
+            className="navbar-3155-element navbar-3155-water"
+          >
+            <span>
+              <i className="ri-drop-fill"></i>
+            </span>
+
+            <small>Water</small>
+          </button>
+
+          <button
+            type="button"
+            className="navbar-3155-element navbar-3155-air"
+          >
+            <span>
+              <i className="ri-windy-line"></i>
+            </span>
+
+            <small>Air</small>
+          </button>
+
+          <button
+            type="button"
+            className="navbar-3155-element navbar-3155-earth"
+          >
+            <span>
+              <i className="ri-leaf-fill"></i>
+            </span>
+
+            <small>Earth</small>
+          </button>
+
+          <button
+            type="button"
+            className="navbar-3155-element navbar-3155-fire"
+          >
+            <span>
+              <i className="ri-fire-fill"></i>
+            </span>
+
+            <small>Fire</small>
+          </button>
+        </div>
+
+        <button
+          type="button"
+          className="navbar-3155-explore"
+        >
+          <span>Explore</span>
+
+          <i className="ri-arrow-right-up-line"></i>
+
+          <span className="navbar-3155-explore-glow"></span>
+        </button>
+      </nav>
+    ),
+
+    html: `<nav class="navbar-3155">
+    <div class="navbar-3155-aura navbar-3155-aura-blue"></div>
+    <div class="navbar-3155-aura navbar-3155-aura-green"></div>
+    <div class="navbar-3155-aura navbar-3155-aura-orange"></div>
+
+    <a href="#" class="navbar-3155-brand">
+        <div class="navbar-3155-emblem">
+            <span class="navbar-3155-emblem-ring"></span>
+
+            <div class="navbar-3155-emblem-core">
+                <i class="ri-sun-line"></i>
+            </div>
+
+            <span class="navbar-3155-emblem-particle navbar-3155-emblem-particle-1"></span>
+            <span class="navbar-3155-emblem-particle navbar-3155-emblem-particle-2"></span>
+            <span class="navbar-3155-emblem-particle navbar-3155-emblem-particle-3"></span>
+        </div>
+
+        <div class="navbar-3155-brand-text">
+            <strong>ELEMENTA</strong>
+            <span>NATURAL SYSTEMS</span>
+        </div>
+    </a>
+
+    <div class="navbar-3155-links">
+        <a href="#" class="navbar-3155-active">Home</a>
+        <a href="#">Discover</a>
+        <a href="#">Worlds</a>
+        <a href="#">Journal</a>
+    </div>
+
+    <div class="navbar-3155-elements">
+        <button
+            type="button"
+            class="navbar-3155-element navbar-3155-water"
+        >
+            <span>
+                <i class="ri-drop-fill"></i>
+            </span>
+
+            <small>Water</small>
+        </button>
+
+        <button
+            type="button"
+            class="navbar-3155-element navbar-3155-air"
+        >
+            <span>
+                <i class="ri-windy-line"></i>
+            </span>
+
+            <small>Air</small>
+        </button>
+
+        <button
+            type="button"
+            class="navbar-3155-element navbar-3155-earth"
+        >
+            <span>
+                <i class="ri-leaf-fill"></i>
+            </span>
+
+            <small>Earth</small>
+        </button>
+
+        <button
+            type="button"
+            class="navbar-3155-element navbar-3155-fire"
+        >
+            <span>
+                <i class="ri-fire-fill"></i>
+            </span>
+
+            <small>Fire</small>
+        </button>
+    </div>
+
+    <button
+        type="button"
+        class="navbar-3155-explore"
+    >
+        <span>Explore</span>
+
+        <i class="ri-arrow-right-up-line"></i>
+
+        <span class="navbar-3155-explore-glow"></span>
+    </button>
+</nav>`,
+
+    css: `.navbar-3155 {
+    position: relative;
+
+    width: 100%;
+    min-height: 78px;
+
+    padding:
+        0
+        18px;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+
+    border:
+        1px solid
+        rgba(189, 207, 201, .58);
+
+    border-radius: 20px;
+
+    color: #26362f;
+
+    background:
+        radial-gradient(
+            circle at 7% 20%,
+            rgba(125, 211, 252, .17),
+            transparent 25%
+        ),
+        radial-gradient(
+            circle at 76% 0%,
+            rgba(134, 239, 172, .17),
+            transparent 24%
+        ),
+        radial-gradient(
+            circle at 96% 100%,
+            rgba(253, 186, 116, .15),
+            transparent 26%
+        ),
+        linear-gradient(
+            135deg,
+            rgba(255, 255, 255, .98),
+            rgba(248, 253, 250, .96)
+        );
+
+    box-shadow:
+        0 18px 45px
+        rgba(58, 92, 74, .09),
+        inset 0 1px 0
+        rgba(255, 255, 255, .95);
+
+    backdrop-filter:
+        blur(18px);
+
+    font-family:
+        Inter,
+        Arial,
+        sans-serif;
+
+    isolation: isolate;
+}
+
+.navbar-3155,
+.navbar-3155 * {
+    box-sizing: border-box;
+}
+
+.navbar-3155::before {
+    content: "";
+
+    position: absolute;
+
+    left: -20%;
+    right: -20%;
+    bottom: -50px;
+
+    height: 60px;
+
+    z-index: -3;
+
+    pointer-events: none;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(56, 189, 248, .16),
+            rgba(74, 222, 128, .16),
+            rgba(250, 204, 21, .14),
+            rgba(251, 146, 60, .15),
+            transparent
+        );
+
+    filter:
+        blur(24px);
+
+    animation:
+        navbar3155Energy
+        7s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3155::after {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    z-index: -4;
+
+    opacity: .23;
+
+    pointer-events: none;
+
+    background-image:
+        radial-gradient(
+            circle,
+            rgba(63, 117, 92, .16) 1px,
+            transparent 1px
+        );
+
+    background-size:
+        18px 18px;
+
+    mask-image:
+        linear-gradient(
+            90deg,
+            transparent,
+            black 15%,
+            black 85%,
+            transparent
+        );
+
+    -webkit-mask-image:
+        linear-gradient(
+            90deg,
+            transparent,
+            black 15%,
+            black 85%,
+            transparent
+        );
+}
+
+.navbar-3155-aura {
+    position: absolute;
+
+    z-index: -2;
+
+    border-radius: 999px;
+
+    pointer-events: none;
+
+    filter:
+        blur(24px);
+
+    opacity: .55;
+}
+
+.navbar-3155-aura-blue {
+    width: 110px;
+    height: 80px;
+
+    left: 5%;
+    top: -50px;
+
+    background:
+        rgba(56, 189, 248, .22);
+
+    animation:
+        navbar3155AuraBlue
+        7s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.navbar-3155-aura-green {
+    width: 130px;
+    height: 85px;
+
+    left: 52%;
+    bottom: -65px;
+
+    background:
+        rgba(74, 222, 128, .18);
+
+    animation:
+        navbar3155AuraGreen
+        9s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.navbar-3155-aura-orange {
+    width: 100px;
+    height: 75px;
+
+    right: 1%;
+    top: -44px;
+
+    background:
+        rgba(251, 146, 60, .17);
+
+    animation:
+        navbar3155AuraOrange
+        8s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.navbar-3155-brand {
+    position: relative;
+
+    z-index: 3;
+
+    min-width: max-content;
+
+    display: flex;
+    align-items: center;
+
+    gap: 9px;
+
+    color: #293a32;
+
+    text-decoration: none;
+}
+
+.navbar-3155-emblem {
+    position: relative;
+
+    width: 42px;
+    height: 42px;
+
+    flex: 0 0 42px;
+
+    display: grid;
+
+    place-items: center;
+}
+
+.navbar-3155-emblem-ring {
+    position: absolute;
+
+    inset: 0;
+
+    border:
+        1px solid
+        rgba(78, 142, 111, .23);
+
+    border-radius: 50%;
+
+    animation:
+        navbar3155Ring
+        12s
+        linear
+        infinite;
+}
+
+.navbar-3155-emblem-ring::before {
+    content: "";
+
+    position: absolute;
+
+    left: 50%;
+    top: -3px;
+
+    width: 6px;
+    height: 6px;
+
+    transform:
+        translateX(-50%);
+
+    border-radius: 50%;
+
+    background: #65b98e;
+
+    box-shadow:
+        0 0 8px
+        rgba(71, 180, 129, .5);
+}
+
+.navbar-3155-emblem-core {
+    position: relative;
+
+    width: 30px;
+    height: 30px;
+
+    display: grid;
+
+    place-items: center;
+
+    overflow: hidden;
+
+    border:
+        1px solid
+        rgba(255, 184, 76, .32);
+
+    border-radius: 50%;
+
+    color: #d99420;
+
+    background:
+        radial-gradient(
+            circle at 35% 28%,
+            #fff8cd,
+            #ffeaaa 40%,
+            #fff 75%
+        );
+
+    box-shadow:
+        0 5px 14px
+        rgba(211, 165, 73, .16),
+        inset 0 1px 0
+        rgba(255, 255, 255, .9);
+
+    animation:
+        navbar3155Core
+        4s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3155-emblem-core::before {
+    content: "";
+
+    position: absolute;
+
+    width: 45px;
+    height: 7px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, .9),
+            transparent
+        );
+
+    transform:
+        rotate(-45deg)
+        translateY(-24px);
+
+    animation:
+        navbar3155CoreShine
+        5s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3155-emblem-core i {
+    position: relative;
+
+    z-index: 2;
+
+    font-size: 15px;
+}
+
+.navbar-3155-emblem-particle {
+    position: absolute;
+
+    width: 4px;
+    height: 4px;
+
+    border-radius: 50%;
+
+    background: #72c69b;
+
+    box-shadow:
+        0 0 6px
+        rgba(80, 180, 130, .35);
+}
+
+.navbar-3155-emblem-particle-1 {
+    left: 1px;
+    top: 9px;
+
+    background: #67c5e8;
+
+    animation:
+        navbar3155ParticleOne
+        3.8s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3155-emblem-particle-2 {
+    right: 2px;
+    bottom: 7px;
+
+    background: #f4b85c;
+
+    animation:
+        navbar3155ParticleTwo
+        4.4s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3155-emblem-particle-3 {
+    left: 11px;
+    bottom: 0;
+
+    background: #6ecb89;
+
+    animation:
+        navbar3155ParticleThree
+        4.8s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3155-brand-text {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 3px;
+}
+
+.navbar-3155-brand-text strong {
+    color: #30453b;
+
+    font-size: 10px;
+
+    font-weight: 900;
+
+    letter-spacing: .16em;
+}
+
+.navbar-3155-brand-text span {
+    color: #92a49b;
+
+    font-size: 5px;
+
+    font-weight: 800;
+
+    letter-spacing: .13em;
+}
+
+.navbar-3155-links {
+    position: relative;
+
+    z-index: 3;
+
+    margin:
+        0
+        auto;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 3px;
+}
+
+.navbar-3155-links a {
+    position: relative;
+
+    padding:
+        9px
+        10px;
+
+    border-radius: 9px;
+
+    color: #829189;
+
+    font-size: 7px;
+
+    font-weight: 700;
+
+    text-decoration: none;
+
+    transition:
+        color .2s ease,
+        background .2s ease,
+        transform .2s ease;
+}
+
+.navbar-3155-links a:hover,
+.navbar-3155-links .navbar-3155-active {
+    color: #356e55;
+
+    background:
+        rgba(99, 177, 139, .08);
+}
+
+.navbar-3155-links a:hover {
+    transform:
+        translateY(-1px);
+}
+
+.navbar-3155-links a::after {
+    content: "";
+
+    position: absolute;
+
+    left: 50%;
+    bottom: 4px;
+
+    width: 0;
+    height: 2px;
+
+    transform:
+        translateX(-50%);
+
+    border-radius: 999px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #5dc2e7,
+            #66bd85
+        );
+
+    transition:
+        width .22s ease;
+}
+
+.navbar-3155-links a:hover::after,
+.navbar-3155-links
+.navbar-3155-active::after {
+    width: 20px;
+}
+
+.navbar-3155-elements {
+    position: relative;
+
+    z-index: 3;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 4px;
+
+    padding: 4px;
+
+    border:
+        1px solid
+        rgba(193, 208, 202, .55);
+
+    border-radius: 13px;
+
+    background:
+        rgba(255, 255, 255, .62);
+
+    box-shadow:
+        inset 0 1px 0
+        rgba(255, 255, 255, .9);
+}
+
+.navbar-3155-element {
+    width: 40px;
+    height: 43px;
+
+    padding: 3px 2px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 2px;
+
+    cursor: pointer;
+
+    border:
+        1px solid
+        transparent;
+
+    border-radius: 9px;
+
+    background:
+        transparent;
+
+    transition:
+        transform .22s ease,
+        background .22s ease,
+        border-color .22s ease,
+        box-shadow .22s ease;
+}
+
+.navbar-3155-element > span {
+    width: 23px;
+    height: 23px;
+
+    display: grid;
+
+    place-items: center;
+
+    border-radius: 50%;
+
+    transition:
+        transform .22s ease;
+}
+
+.navbar-3155-element > span i {
+    font-size: 12px;
+}
+
+.navbar-3155-element small {
+    color: #89968f;
+
+    font-size: 4px;
+
+    font-weight: 800;
+}
+
+.navbar-3155-water > span {
+    color: #2995c8;
+
+    background:
+        linear-gradient(
+            145deg,
+            #e4f8ff,
+            #ccefff
+        );
+
+    box-shadow:
+        inset 0 1px 0
+        rgba(255, 255, 255, .95);
+
+    animation:
+        navbar3155Water
+        3s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3155-water:hover {
+    border-color:
+        #c5e8f5;
+
+    background:
+        #f1fbff;
+
+    box-shadow:
+        0 6px 15px
+        rgba(56, 189, 248, .1);
+
+    transform:
+        translateY(-2px);
+}
+
+.navbar-3155-air > span {
+    color: #6ba0b3;
+
+    background:
+        linear-gradient(
+            145deg,
+            #f4fbfd,
+            #e9f3f6
+        );
+
+    animation:
+        navbar3155Air
+        3.5s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3155-air:hover {
+    border-color:
+        #d7e7eb;
+
+    background:
+        #f8fcfd;
+
+    box-shadow:
+        0 6px 15px
+        rgba(110, 165, 186, .1);
+
+    transform:
+        translateY(-2px);
+}
+
+.navbar-3155-earth > span {
+    color: #439d61;
+
+    background:
+        linear-gradient(
+            145deg,
+            #ecfaef,
+            #dff5e5
+        );
+
+    animation:
+        navbar3155Earth
+        4s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3155-earth:hover {
+    border-color:
+        #d0ead6;
+
+    background:
+        #f2fbf4;
+
+    box-shadow:
+        0 6px 15px
+        rgba(74, 180, 105, .1);
+
+    transform:
+        translateY(-2px);
+}
+
+.navbar-3155-fire > span {
+    color: #dc7d2b;
+
+    background:
+        linear-gradient(
+            145deg,
+            #fff6df,
+            #ffe8c5
+        );
+
+    animation:
+        navbar3155Fire
+        2.4s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3155-fire:hover {
+    border-color:
+        #f2ddba;
+
+    background:
+        #fff9ee;
+
+    box-shadow:
+        0 6px 15px
+        rgba(249, 149, 59, .11);
+
+    transform:
+        translateY(-2px);
+}
+
+.navbar-3155-element:hover > span {
+    transform:
+        scale(1.1);
+}
+
+.navbar-3155-explore {
+    position: relative;
+
+    z-index: 3;
+
+    min-width: max-content;
+
+    height: 38px;
+
+    padding:
+        0
+        13px;
+
+    overflow: hidden;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 6px;
+
+    cursor: pointer;
+
+    border:
+        1px solid
+        rgba(63, 121, 94, .17);
+
+    border-radius: 10px;
+
+    color: #ffffff;
+
+    background:
+        linear-gradient(
+            100deg,
+            #4b9d76,
+            #5ca987,
+            #569ba7,
+            #4b9d76
+        );
+
+    background-size:
+        250% 100%;
+
+    box-shadow:
+        0 8px 18px
+        rgba(65, 131, 99, .18);
+
+    font-size: 7px;
+
+    font-weight: 900;
+
+    animation:
+        navbar3155ExploreGradient
+        7s
+        linear
+        infinite;
+
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+}
+
+.navbar-3155-explore:hover {
+    transform:
+        translateY(-2px);
+
+    box-shadow:
+        0 12px 24px
+        rgba(65, 131, 99, .25);
+}
+
+.navbar-3155-explore > span:first-child,
+.navbar-3155-explore > i {
+    position: relative;
+
+    z-index: 2;
+}
+
+.navbar-3155-explore > i {
+    font-size: 11px;
+
+    transition:
+        transform .2s ease;
+}
+
+.navbar-3155-explore:hover > i {
+    transform:
+        translate(
+            2px,
+            -2px
+        );
+}
+
+.navbar-3155-explore-glow {
+    position: absolute;
+
+    top: -80%;
+    left: -45%;
+
+    width: 25%;
+    height: 260%;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, .65),
+            transparent
+        );
+
+    transform:
+        rotate(18deg);
+
+    animation:
+        navbar3155ButtonShine
+        4s
+        ease-in-out
+        infinite;
+}
+
+@keyframes navbar3155Energy {
+    0%,
+    100% {
+        transform:
+            translateX(-10%)
+            scaleX(.85);
+
+        opacity: .5;
+    }
+
+    50% {
+        transform:
+            translateX(10%)
+            scaleX(1.1);
+
+        opacity: .9;
+    }
+}
+
+@keyframes navbar3155AuraBlue {
+    from {
+        transform:
+            translateX(-15px)
+            scale(.85);
+    }
+
+    to {
+        transform:
+            translateX(30px)
+            scale(1.15);
+    }
+}
+
+@keyframes navbar3155AuraGreen {
+    from {
+        transform:
+            translateX(20px)
+            scale(.9);
+    }
+
+    to {
+        transform:
+            translateX(-35px)
+            scale(1.2);
+    }
+}
+
+@keyframes navbar3155AuraOrange {
+    from {
+        transform:
+            translateX(14px)
+            scale(.9);
+    }
+
+    to {
+        transform:
+            translateX(-25px)
+            scale(1.14);
+    }
+}
+
+@keyframes navbar3155Ring {
+    to {
+        transform:
+            rotate(360deg);
+    }
+}
+
+@keyframes navbar3155Core {
+    0%,
+    100% {
+        transform:
+            scale(1);
+
+        box-shadow:
+            0 5px 14px
+            rgba(211, 165, 73, .16),
+            0 0 0
+            rgba(255, 199, 77, 0);
+    }
+
+    50% {
+        transform:
+            scale(1.06);
+
+        box-shadow:
+            0 5px 14px
+            rgba(211, 165, 73, .2),
+            0 0 15px
+            rgba(255, 199, 77, .18);
+    }
+}
+
+@keyframes navbar3155CoreShine {
+    0%,
+    38% {
+        transform:
+            rotate(-45deg)
+            translateY(-25px);
+
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    68%,
+    100% {
+        transform:
+            rotate(-45deg)
+            translateY(28px);
+
+        opacity: 0;
+    }
+}
+
+@keyframes navbar3155ParticleOne {
+    0%,
+    100% {
+        transform:
+            translate(
+                0,
+                0
+            );
+
+        opacity: .45;
+    }
+
+    50% {
+        transform:
+            translate(
+                -2px,
+                -4px
+            );
+
+        opacity: 1;
+    }
+}
+
+@keyframes navbar3155ParticleTwo {
+    0%,
+    100% {
+        transform:
+            translate(
+                0,
+                0
+            )
+            scale(.8);
+
+        opacity: .5;
+    }
+
+    50% {
+        transform:
+            translate(
+                3px,
+                2px
+            )
+            scale(1.2);
+
+        opacity: 1;
+    }
+}
+
+@keyframes navbar3155ParticleThree {
+    0%,
+    100% {
+        transform:
+            translateY(0);
+
+        opacity: .5;
+    }
+
+    50% {
+        transform:
+            translateY(4px);
+
+        opacity: 1;
+    }
+}
+
+@keyframes navbar3155Water {
+    0%,
+    100% {
+        transform:
+            translateY(0)
+            scale(1);
+    }
+
+    50% {
+        transform:
+            translateY(-2px)
+            scale(1.05);
+    }
+}
+
+@keyframes navbar3155Air {
+    0%,
+    100% {
+        transform:
+            translateX(-1px);
+    }
+
+    50% {
+        transform:
+            translateX(2px);
+    }
+}
+
+@keyframes navbar3155Earth {
+    0%,
+    100% {
+        transform:
+            rotate(-2deg);
+    }
+
+    50% {
+        transform:
+            rotate(5deg);
+    }
+}
+
+@keyframes navbar3155Fire {
+    0%,
+    100% {
+        transform:
+            scale(1)
+            translateY(0);
+
+        filter:
+            brightness(1);
+    }
+
+    30% {
+        transform:
+            scale(1.08, .96)
+            translateY(-1px);
+
+        filter:
+            brightness(1.08);
+    }
+
+    65% {
+        transform:
+            scale(.96, 1.08)
+            translateY(-2px);
+
+        filter:
+            brightness(.98);
+    }
+}
+
+@keyframes navbar3155ExploreGradient {
+    from {
+        background-position:
+            0% 50%;
+    }
+
+    to {
+        background-position:
+            250% 50%;
+    }
+}
+
+@keyframes navbar3155ButtonShine {
+    0%,
+    58% {
+        left: -45%;
+
+        opacity: 0;
+    }
+
+    68% {
+        opacity: 1;
+    }
+
+    85%,
+    100% {
+        left: 125%;
+
+        opacity: 0;
+    }
+}`,
+  },
 ];
