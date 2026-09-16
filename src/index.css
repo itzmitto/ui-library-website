@@ -6,14 +6,18 @@
 
 :root {
   color-scheme: dark;
+
   --bg: #060b16;
   --panel: #0c1220;
   --panel-2: #0f172a;
+
   --border: rgba(255, 255, 255, 0.08);
   --border-strong: rgba(255, 255, 255, 0.12);
+
   --text: #ffffff;
   --text-soft: #a8b3cf;
   --text-muted: #7e8aa8;
+
   --blue: #3b82f6;
   --blue-strong: #2563eb;
 }
@@ -60,6 +64,7 @@ canvas {
   left: 0;
   right: 0;
   z-index: 100;
+
   background: rgba(6, 11, 24, 0.72);
   border-bottom: 1px solid var(--border);
   backdrop-filter: blur(12px);
@@ -70,6 +75,7 @@ canvas {
   margin: 0 auto;
   padding: 0 24px;
   height: 56px;
+
   display: flex;
   align-items: center;
   gap: 32px;
@@ -96,9 +102,11 @@ canvas {
   padding: 6px 12px;
   border-radius: 6px;
   cursor: pointer;
+
   display: flex;
   align-items: center;
   gap: 4px;
+
   text-decoration: none;
 }
 
@@ -113,13 +121,18 @@ canvas {
   left: 0;
   margin-top: 8px;
   padding: 8px;
+
   background: #18181b;
   border: 1px solid var(--border-strong);
   border-radius: 10px;
+
   min-width: 200px;
+
   flex-direction: column;
   gap: 2px;
+
   z-index: 200;
+
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
 }
 
@@ -140,8 +153,10 @@ canvas {
   color: #a1a1aa;
   text-decoration: none;
   font-size: 14px;
+
   padding: 8px 12px;
   border-radius: 6px;
+
   transition:
     background 0.15s,
     color 0.15s;
@@ -161,14 +176,20 @@ canvas {
 .sidebar {
   width: 220px;
   padding: 24px 12px;
+
   border-right: 1px solid var(--border);
+
   position: sticky;
   top: 56px;
+
   height: calc(100vh - 56px);
+
   overflow-y: auto;
+
   display: flex;
   flex-direction: column;
   gap: 2px;
+
   background: rgba(7, 12, 24, 0.78);
   backdrop-filter: blur(10px);
 }
@@ -177,8 +198,10 @@ canvas {
   color: var(--text-muted);
   text-decoration: none;
   font-size: 14px;
+
   padding: 10px 12px;
   border-radius: 8px;
+
   transition:
     background 0.15s,
     color 0.15s;
@@ -222,7 +245,9 @@ canvas {
   background: #111318;
   border: 1px solid var(--border);
   border-radius: 12px;
+
   overflow: hidden;
+
   transition:
     border-color 0.15s,
     transform 0.15s;
@@ -235,9 +260,11 @@ canvas {
 
 .component-preview {
   height: 160px;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   background: #0d0f14;
 }
 
@@ -259,8 +286,10 @@ canvas {
   .sidebar {
     width: 100%;
     height: auto;
+
     position: relative;
     top: 0;
+
     border-right: none;
     border-bottom: 1px solid var(--border);
   }
