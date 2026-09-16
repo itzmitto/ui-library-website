@@ -7,12 +7,52 @@ import {
   useState,
   type ReactNode,
 } from "react";
+import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import { allComponents } from "../data/componentsData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 
-import.meta.glob("./*.css", { eager: true });
+const previewStyleModules = import.meta.glob("../styling/*.css", {
+  eager: true,
+  query: "?inline",
+  import: "default",
+}) as Record<string, string>;
+
+const previewStyles = Object.values(previewStyleModules).join("\n");
+
+const sidebarItems = [
+  { label: "All", path: "/elements", active: true },
+  { label: "Buttons", path: "/elements/buttons" },
+  { label: "Checkboxes", path: "/elements/checkboxes" },
+  { label: "Toggleswitches", path: "/elements/toggleswitches" },
+  { label: "Cards", path: "/elements/cards" },
+  { label: "Loaders", path: "/elements/loaders" },
+  { label: "Inputs", path: "/elements/inputs" },
+  { label: "Radio-buttons", path: "/elements/radio-buttons" },
+  { label: "Forms", path: "/elements/forms" },
+  { label: "Patterns", path: "/elements/patterns" },
+  { label: "Tooltips", path: "/elements/tooltips" },
+  { label: "Navbar", path: "/elements/navbar" },
+  { label: "Logins", path: "/elements/logins" },
+  { label: "Dropdowns", path: "/elements/dropdowns" },
+  { label: "Modals", path: "/elements/modals" },
+  { label: "Alerts", path: "/elements/alerts" },
+  { label: "Badges", path: "/elements/badges" },
+  { label: "Avatars", path: "/elements/avatars" },
+  { label: "Tabs", path: "/elements/tabs" },
+  { label: "Breadcrumbs", path: "/elements/breadcrumbs" },
+  { label: "Pagination", path: "/elements/pagination" },
+  { label: "Skeletons", path: "/elements/skeletons" },
+  { label: "Sidebars", path: "/elements/sidebars" },
+  { label: "Hero Sections", path: "/elements/hero-sections" },
+  { label: "Iphone", path: "/elements/iphone" },
+  { label: "Toasts", path: "/elements/toasts" },
+  { label: "Accordions", path: "/elements/accordions" },
+  { label: "Carousels", path: "/elements/carousels" },
+  { label: "Progress Bars", path: "/elements/progress-bars" },
+  { label: "Tables", path: "/elements/tables" },
+];
 
 const CARD_HEIGHT = 252;
 const GRID_GAP = 12;
@@ -71,6 +111,7 @@ export default function All() {
   const [viewportHeight, setViewportHeight] = useState(
     typeof window !== "undefined" ? window.innerHeight : 800,
   );
+  const [gridTop, setGridTop] = useState(0);
 
   const gridRef = useRef<HTMLDivElement>(null);
   const frameRef = useRef<number | null>(null);
@@ -95,6 +136,7 @@ export default function All() {
         );
 
         setColumns(nextColumns);
+        setGridTop(grid.getBoundingClientRect().top + window.scrollY);
       }
 
       frameRef.current = null;
@@ -133,20 +175,8 @@ export default function All() {
 
     observer.observe(grid);
 
-    return () => {
-      observer.disconnect();
-    };
+    return () => observer.disconnect();
   }, [updateLayout]);
-
-  const gridTop = useMemo(() => {
-    const grid = gridRef.current;
-
-    if (!grid) {
-      return 0;
-    }
-
-    return grid.getBoundingClientRect().top + window.scrollY;
-  }, [viewportHeight, columns]);
 
   const rowHeight = CARD_HEIGHT + GRID_GAP;
 
@@ -181,135 +211,28 @@ export default function All() {
 
   return (
     <div className="all-page">
+      <style>{previewStyles}</style>
+
       <Header />
 
       <div className="all-layout">
         <aside className="sidebar">
-          <a href="/elements" className="sidebar-item sidebar-item--active">
-            All
-          </a>
-
-          <a href="/elements/buttons" className="sidebar-item">
-            Buttons
-          </a>
-
-          <a href="/elements/checkboxes" className="sidebar-item">
-            Checkboxes
-          </a>
-
-          <a href="/elements/toggleswitches" className="sidebar-item">
-            Toggleswitches
-          </a>
-
-          <a href="/elements/cards" className="sidebar-item">
-            Cards
-          </a>
-
-          <a href="/elements/loaders" className="sidebar-item">
-            Loaders
-          </a>
-
-          <a href="/elements/inputs" className="sidebar-item">
-            Inputs
-          </a>
-
-          <a href="/elements/radio-buttons" className="sidebar-item">
-            Radio-buttons
-          </a>
-
-          <a href="/elements/forms" className="sidebar-item">
-            Forms
-          </a>
-
-          <a href="/elements/patterns" className="sidebar-item">
-            Patterns
-          </a>
-
-          <a href="/elements/tooltips" className="sidebar-item">
-            Tooltips
-          </a>
-
-          <a href="/elements/navbar" className="sidebar-item">
-            Navbar
-          </a>
-
-          <a href="/elements/logins" className="sidebar-item">
-            Logins
-          </a>
-
-          <a href="/elements/dropdowns" className="sidebar-item">
-            Dropdowns
-          </a>
-
-          <a href="/elements/modals" className="sidebar-item">
-            Modals
-          </a>
-
-          <a href="/elements/alerts" className="sidebar-item">
-            Alerts
-          </a>
-
-          <a href="/elements/badges" className="sidebar-item">
-            Badges
-          </a>
-
-          <a href="/elements/avatars" className="sidebar-item">
-            Avatars
-          </a>
-
-          <a href="/elements/tabs" className="sidebar-item">
-            Tabs
-          </a>
-
-          <a href="/elements/breadcrumbs" className="sidebar-item">
-            Breadcrumbs
-          </a>
-
-          <a href="/elements/pagination" className="sidebar-item">
-            Pagination
-          </a>
-
-          <a href="/elements/skeletons" className="sidebar-item">
-            Skeletons
-          </a>
-
-          <a href="/elements/sidebars" className="sidebar-item">
-            Sidebars
-          </a>
-
-          <a href="/elements/hero-sections" className="sidebar-item">
-            Hero Sections
-          </a>
-
-          <a href="/elements/iphone" className="sidebar-item">
-            Iphone
-          </a>
-
-          <a href="/elements/toasts" className="sidebar-item">
-            Toasts
-          </a>
-
-          <a href="/elements/accordions" className="sidebar-item">
-            Accordions
-          </a>
-
-          <a href="/elements/carousels" className="sidebar-item">
-            Carousels
-          </a>
-
-          <a href="/elements/progress-bars" className="sidebar-item">
-            Progress Bars
-          </a>
-
-          <a href="/elements/tables" className="sidebar-item">
-            Tables
-          </a>
+          {sidebarItems.map((item) => (
+            <Link
+              key={item.path}
+              to={item.path}
+              className={`sidebar-item ${
+                item.active ? "sidebar-item--active" : ""
+              }`}
+            >
+              {item.label}
+            </Link>
+          ))}
         </aside>
 
         <main className="all-main">
           <div className="all-header">
             <h1>Browse all</h1>
-
             <p>Open-Source UI elements made with CSS or Tailwind</p>
           </div>
 
@@ -340,9 +263,9 @@ export default function All() {
 
       <ComponentModal item={selected} onClose={() => setSelected(null)} />
 
-      <a href="/elements/navbar" className="floating-navbar-button">
+      <Link to="/elements/navbar" className="floating-navbar-button">
         Navbar →
-      </a>
+      </Link>
     </div>
   );
 }
