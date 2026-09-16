@@ -9800,4 +9800,4242 @@ export const logins = [
     }
 }`,
   },
+  {
+  id: 3128,
+  name: "Astral Command Login",
+  preview: (
+    <div className="login-3128">
+      <div className="login-3128-background"></div>
+      <div className="login-3128-grid"></div>
+      <div className="login-3128-glow login-3128-glow-1"></div>
+      <div className="login-3128-glow login-3128-glow-2"></div>
+      <div className="login-3128-glow login-3128-glow-3"></div>
+
+      <div className="login-3128-stars">
+        <span className="login-3128-star login-3128-star-1"></span>
+        <span className="login-3128-star login-3128-star-2"></span>
+        <span className="login-3128-star login-3128-star-3"></span>
+        <span className="login-3128-star login-3128-star-4"></span>
+        <span className="login-3128-star login-3128-star-5"></span>
+        <span className="login-3128-star login-3128-star-6"></span>
+        <span className="login-3128-star login-3128-star-7"></span>
+        <span className="login-3128-star login-3128-star-8"></span>
+        <span className="login-3128-star login-3128-star-9"></span>
+        <span className="login-3128-star login-3128-star-10"></span>
+        <span className="login-3128-star login-3128-star-11"></span>
+        <span className="login-3128-star login-3128-star-12"></span>
+        <span className="login-3128-star login-3128-star-13"></span>
+        <span className="login-3128-star login-3128-star-14"></span>
+        <span className="login-3128-star login-3128-star-15"></span>
+        <span className="login-3128-star login-3128-star-16"></span>
+        <span className="login-3128-star login-3128-star-17"></span>
+        <span className="login-3128-star login-3128-star-18"></span>
+      </div>
+
+      <div className="login-3128-ring login-3128-ring-1"></div>
+      <div className="login-3128-ring login-3128-ring-2"></div>
+      <div className="login-3128-ring login-3128-ring-3"></div>
+
+      <div className="login-3128-orb">
+        <div className="login-3128-orb-core"></div>
+        <div className="login-3128-orb-light"></div>
+      </div>
+
+      <div className="login-3128-scanline"></div>
+
+      <span className="login-3128-corner login-3128-corner-tl"></span>
+      <span className="login-3128-corner login-3128-corner-tr"></span>
+      <span className="login-3128-corner login-3128-corner-bl"></span>
+      <span className="login-3128-corner login-3128-corner-br"></span>
+
+      <div className="login-3128-card">
+        <div className="login-3128-top">
+          <div className="login-3128-brand">
+            <div className="login-3128-brand-icon">
+              <i className="ri-sparkling-2-fill"></i>
+            </div>
+
+            <div className="login-3128-brand-text">
+              <strong>ASTRAL</strong>
+              <span>COMMAND NETWORK</span>
+            </div>
+          </div>
+
+          <div className="login-3128-security">
+            <span className="login-3128-security-dot"></span>
+            SECURE
+          </div>
+        </div>
+
+        <div className="login-3128-heading">
+          <span className="login-3128-eyebrow">
+            AUTHORIZATION PORTAL
+          </span>
+
+          <h2>
+            Welcome
+            <span> back.</span>
+          </h2>
+
+          <p>
+            Enter your access credentials to reconnect with the command network.
+          </p>
+        </div>
+
+        <div className="login-3128-form">
+          <label className="login-3128-field">
+            <span className="login-3128-field-icon">
+              <i className="ri-mail-line"></i>
+            </span>
+
+            <input
+              type="email"
+              placeholder="Email address"
+            />
+
+            <span className="login-3128-field-line"></span>
+          </label>
+
+          <label className="login-3128-field">
+            <span className="login-3128-field-icon">
+              <i className="ri-lock-2-line"></i>
+            </span>
+
+            <input
+              type="password"
+              placeholder="Password"
+            />
+
+            <span className="login-3128-eye">
+              <i className="ri-eye-line"></i>
+            </span>
+
+            <span className="login-3128-field-line"></span>
+          </label>
+
+          <div className="login-3128-options">
+            <label className="login-3128-remember">
+              <input
+                type="checkbox"
+                defaultChecked
+              />
+
+              <span className="login-3128-checkbox">
+                <i className="ri-check-line"></i>
+              </span>
+
+              <span>Remember me</span>
+            </label>
+
+            <a
+              href="#"
+              onClick={(event) => event.preventDefault()}
+            >
+              Forgot password?
+            </a>
+          </div>
+
+          <button
+            className="login-3128-submit"
+            type="button"
+          >
+            <span>ENTER COMMAND</span>
+
+            <span className="login-3128-submit-icon">
+              <i className="ri-arrow-right-up-line"></i>
+            </span>
+
+            <span className="login-3128-submit-shine"></span>
+          </button>
+        </div>
+
+        <div className="login-3128-divider">
+          <span></span>
+          <p>OR CONTINUE WITH</p>
+          <span></span>
+        </div>
+
+        <div className="login-3128-socials">
+          <button type="button">
+            <i className="ri-google-fill"></i>
+          </button>
+
+          <button type="button">
+            <i className="ri-github-fill"></i>
+          </button>
+
+          <button type="button">
+            <i className="ri-apple-fill"></i>
+          </button>
+        </div>
+
+        <div className="login-3128-footer">
+          <span>
+            New operator?
+            <a
+              href="#"
+              onClick={(event) => event.preventDefault()}
+            >
+              Create identity
+            </a>
+          </span>
+
+          <span className="login-3128-encrypted">
+            <i className="ri-shield-check-line"></i>
+            AES-256
+          </span>
+        </div>
+      </div>
+    </div>
+  ),
+
+  html: `<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<div class="Login">
+    <div class="Login-background"></div>
+    <div class="Login-grid"></div>
+
+    <div class="Login-glow Login-glow-1"></div>
+    <div class="Login-glow Login-glow-2"></div>
+    <div class="Login-glow Login-glow-3"></div>
+
+    <div class="Login-stars">
+        <span class="Login-star Login-star-1"></span>
+        <span class="Login-star Login-star-2"></span>
+        <span class="Login-star Login-star-3"></span>
+        <span class="Login-star Login-star-4"></span>
+        <span class="Login-star Login-star-5"></span>
+        <span class="Login-star Login-star-6"></span>
+        <span class="Login-star Login-star-7"></span>
+        <span class="Login-star Login-star-8"></span>
+        <span class="Login-star Login-star-9"></span>
+        <span class="Login-star Login-star-10"></span>
+        <span class="Login-star Login-star-11"></span>
+        <span class="Login-star Login-star-12"></span>
+        <span class="Login-star Login-star-13"></span>
+        <span class="Login-star Login-star-14"></span>
+        <span class="Login-star Login-star-15"></span>
+        <span class="Login-star Login-star-16"></span>
+        <span class="Login-star Login-star-17"></span>
+        <span class="Login-star Login-star-18"></span>
+    </div>
+
+    <div class="Login-ring Login-ring-1"></div>
+    <div class="Login-ring Login-ring-2"></div>
+    <div class="Login-ring Login-ring-3"></div>
+
+    <div class="Login-orb">
+        <div class="Login-orb-core"></div>
+        <div class="Login-orb-light"></div>
+    </div>
+
+    <div class="Login-scanline"></div>
+
+    <span class="Login-corner Login-corner-tl"></span>
+    <span class="Login-corner Login-corner-tr"></span>
+    <span class="Login-corner Login-corner-bl"></span>
+    <span class="Login-corner Login-corner-br"></span>
+
+    <div class="Login-card">
+        <div class="Login-top">
+            <div class="Login-brand">
+                <div class="Login-brand-icon">
+                    <i class="ri-sparkling-2-fill"></i>
+                </div>
+
+                <div class="Login-brand-text">
+                    <strong>ASTRAL</strong>
+                    <span>COMMAND NETWORK</span>
+                </div>
+            </div>
+
+            <div class="Login-security">
+                <span class="Login-security-dot"></span>
+                SECURE
+            </div>
+        </div>
+
+        <div class="Login-heading">
+            <span class="Login-eyebrow">
+                AUTHORIZATION PORTAL
+            </span>
+
+            <h2>
+                Welcome
+                <span> back.</span>
+            </h2>
+
+            <p>
+                Enter your access credentials to reconnect with the command network.
+            </p>
+        </div>
+
+        <div class="Login-form">
+            <label class="Login-field">
+                <span class="Login-field-icon">
+                    <i class="ri-mail-line"></i>
+                </span>
+
+                <input
+                    type="email"
+                    placeholder="Email address"
+                >
+
+                <span class="Login-field-line"></span>
+            </label>
+
+            <label class="Login-field">
+                <span class="Login-field-icon">
+                    <i class="ri-lock-2-line"></i>
+                </span>
+
+                <input
+                    type="password"
+                    placeholder="Password"
+                >
+
+                <span class="Login-eye">
+                    <i class="ri-eye-line"></i>
+                </span>
+
+                <span class="Login-field-line"></span>
+            </label>
+
+            <div class="Login-options">
+                <label class="Login-remember">
+                    <input
+                        type="checkbox"
+                        checked
+                    >
+
+                    <span class="Login-checkbox">
+                        <i class="ri-check-line"></i>
+                    </span>
+
+                    <span>Remember me</span>
+                </label>
+
+                <a href="#">
+                    Forgot password?
+                </a>
+            </div>
+
+            <button
+                class="Login-submit"
+                type="button"
+            >
+                <span>ENTER COMMAND</span>
+
+                <span class="Login-submit-icon">
+                    <i class="ri-arrow-right-up-line"></i>
+                </span>
+
+                <span class="Login-submit-shine"></span>
+            </button>
+        </div>
+
+        <div class="Login-divider">
+            <span></span>
+            <p>OR CONTINUE WITH</p>
+            <span></span>
+        </div>
+
+        <div class="Login-socials">
+            <button type="button">
+                <i class="ri-google-fill"></i>
+            </button>
+
+            <button type="button">
+                <i class="ri-github-fill"></i>
+            </button>
+
+            <button type="button">
+                <i class="ri-apple-fill"></i>
+            </button>
+        </div>
+
+        <div class="Login-footer">
+            <span>
+                New operator?
+                <a href="#">
+                    Create identity
+                </a>
+            </span>
+
+            <span class="Login-encrypted">
+                <i class="ri-shield-check-line"></i>
+                AES-256
+            </span>
+        </div>
+    </div>
+</div>`,
+
+  css: `.Login {
+    --bg: #040712;
+    --panel: rgba(7, 13, 31, 0.88);
+    --panel-strong: rgba(10, 18, 41, 0.96);
+    --blue: #63b3ff;
+    --cyan: #67e8f9;
+    --indigo: #6366f1;
+    --purple: #a855f7;
+    --pink: #ec4899;
+    --text: #f8fbff;
+    --soft: #b8c5df;
+    --muted: #73819d;
+    --border: rgba(116, 170, 255, 0.2);
+
+    position: relative;
+    width: 380px;
+    min-height: 560px;
+
+    overflow: hidden;
+
+    border: 1px solid rgba(108, 165, 255, 0.25);
+    border-radius: 28px;
+
+    color: var(--text);
+
+    background:
+        radial-gradient(
+            circle at 16% 9%,
+            rgba(58, 134, 255, 0.2),
+            transparent 26%
+        ),
+        radial-gradient(
+            circle at 91% 17%,
+            rgba(143, 93, 255, 0.16),
+            transparent 28%
+        ),
+        linear-gradient(
+            145deg,
+            #07101f 0%,
+            #040815 48%,
+            #070717 100%
+        );
+
+    box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.52),
+        0 0 60px rgba(59, 130, 246, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.04);
+
+    isolation: isolate;
+
+    font-family:
+        Inter,
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+}
+
+.Login,
+.Login * {
+    box-sizing: border-box;
+}
+
+.Login button,
+.Login input {
+    font: inherit;
+}
+
+.Login-background {
+    position: absolute;
+
+    inset: -70%;
+
+    z-index: -12;
+
+    background:
+        conic-gradient(
+            from 180deg at 50% 50%,
+            rgba(59, 130, 246, 0) 0deg,
+            rgba(59, 130, 246, 0.22) 48deg,
+            rgba(99, 102, 241, 0.2) 95deg,
+            rgba(168, 85, 247, 0.15) 142deg,
+            rgba(236, 72, 153, 0.1) 190deg,
+            rgba(34, 211, 238, 0.18) 240deg,
+            rgba(59, 130, 246, 0) 310deg,
+            rgba(59, 130, 246, 0.2) 350deg,
+            rgba(59, 130, 246, 0) 360deg
+        );
+
+    filter: blur(55px);
+
+    opacity: 0.8;
+
+    transform-origin: center;
+
+    animation:
+        login-3128-aurora 18s
+        linear
+        infinite;
+}
+
+.Login-grid {
+    position: absolute;
+
+    inset: 0;
+
+    z-index: -11;
+
+    opacity: 0.24;
+
+    background-image:
+        linear-gradient(
+            rgba(89, 148, 255, 0.08) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(89, 148, 255, 0.08) 1px,
+            transparent 1px
+        );
+
+    background-size:
+        26px 26px;
+
+    mask-image:
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.9),
+            transparent 94%
+        );
+
+    -webkit-mask-image:
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.9),
+            transparent 94%
+        );
+
+    animation:
+        login-3128-grid
+        14s
+        linear
+        infinite;
+}
+
+.Login-glow {
+    position: absolute;
+
+    z-index: -10;
+
+    border-radius: 999px;
+
+    pointer-events: none;
+
+    filter: blur(38px);
+}
+
+.Login-glow-1 {
+    width: 220px;
+    height: 220px;
+
+    left: -110px;
+    top: -75px;
+
+    background:
+        rgba(46, 127, 255, 0.18);
+
+    animation:
+        login-3128-glow-1
+        8s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.Login-glow-2 {
+    width: 190px;
+    height: 190px;
+
+    right: -92px;
+    top: 65px;
+
+    background:
+        rgba(138, 92, 246, 0.15);
+
+    animation:
+        login-3128-glow-2
+        10s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.Login-glow-3 {
+    width: 230px;
+    height: 150px;
+
+    left: 72px;
+    bottom: -94px;
+
+    background:
+        rgba(45, 212, 191, 0.1);
+
+    animation:
+        login-3128-glow-3
+        9s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.Login-stars {
+    position: absolute;
+
+    inset: 0;
+
+    z-index: -9;
+
+    pointer-events: none;
+}
+
+.Login-star {
+    position: absolute;
+
+    width: 2px;
+    height: 2px;
+
+    border-radius: 999px;
+
+    background:
+        rgba(225, 242, 255, 0.9);
+
+    box-shadow:
+        0 0 7px rgba(116, 199, 255, 0.9);
+
+    animation:
+        login-3128-star
+        4s
+        ease-in-out
+        infinite;
+}
+
+.Login-star-1 {
+    left: 8%;
+    top: 11%;
+}
+
+.Login-star-2 {
+    left: 19%;
+    top: 27%;
+
+    animation-delay: -1.2s;
+}
+
+.Login-star-3 {
+    left: 30%;
+    top: 8%;
+
+    animation-delay: -2s;
+}
+
+.Login-star-4 {
+    left: 43%;
+    top: 18%;
+
+    animation-delay: -0.8s;
+}
+
+.Login-star-5 {
+    left: 55%;
+    top: 6%;
+
+    animation-delay: -2.6s;
+}
+
+.Login-star-6 {
+    left: 66%;
+    top: 26%;
+
+    animation-delay: -1.6s;
+}
+
+.Login-star-7 {
+    left: 79%;
+    top: 13%;
+
+    animation-delay: -3s;
+}
+
+.Login-star-8 {
+    left: 92%;
+    top: 35%;
+
+    animation-delay: -0.5s;
+}
+
+.Login-star-9 {
+    left: 11%;
+    top: 47%;
+
+    animation-delay: -2.2s;
+}
+
+.Login-star-10 {
+    left: 24%;
+    top: 61%;
+
+    animation-delay: -1.1s;
+}
+
+.Login-star-11 {
+    left: 38%;
+    top: 51%;
+
+    animation-delay: -3.2s;
+}
+
+.Login-star-12 {
+    left: 49%;
+    top: 70%;
+
+    animation-delay: -1.8s;
+}
+
+.Login-star-13 {
+    left: 62%;
+    top: 57%;
+
+    animation-delay: -2.8s;
+}
+
+.Login-star-14 {
+    left: 74%;
+    top: 76%;
+
+    animation-delay: -0.9s;
+}
+
+.Login-star-15 {
+    left: 87%;
+    top: 63%;
+
+    animation-delay: -2.4s;
+}
+
+.Login-star-16 {
+    left: 15%;
+    top: 84%;
+
+    animation-delay: -1.4s;
+}
+
+.Login-star-17 {
+    left: 46%;
+    top: 89%;
+
+    animation-delay: -3.1s;
+}
+
+.Login-star-18 {
+    left: 91%;
+    top: 91%;
+
+    animation-delay: -1.9s;
+}
+
+.Login-ring {
+    position: absolute;
+
+    z-index: -8;
+
+    border-radius: 999px;
+
+    pointer-events: none;
+}
+
+.Login-ring-1 {
+    width: 240px;
+    height: 240px;
+
+    right: -127px;
+    top: -118px;
+
+    border:
+        1px solid
+        rgba(105, 180, 255, 0.13);
+
+    animation:
+        login-3128-ring
+        18s
+        linear
+        infinite;
+}
+
+.Login-ring-2 {
+    width: 192px;
+    height: 192px;
+
+    right: -103px;
+    top: -94px;
+
+    border:
+        1px dashed
+        rgba(137, 111, 255, 0.13);
+
+    animation:
+        login-3128-ring-reverse
+        13s
+        linear
+        infinite;
+}
+
+.Login-ring-3 {
+    width: 140px;
+    height: 140px;
+
+    right: -77px;
+    top: -67px;
+
+    border:
+        1px solid
+        rgba(83, 221, 255, 0.11);
+
+    animation:
+        login-3128-ring
+        9s
+        linear
+        infinite;
+}
+
+.Login-orb {
+    position: absolute;
+
+    right: 20px;
+    top: 19px;
+
+    z-index: -7;
+
+    width: 22px;
+    height: 22px;
+
+    display: grid;
+
+    place-items: center;
+
+    animation:
+        login-3128-orb-float
+        4s
+        ease-in-out
+        infinite;
+}
+
+.Login-orb-core {
+    width: 9px;
+    height: 9px;
+
+    border-radius: 999px;
+
+    background:
+        radial-gradient(
+            circle,
+            #ffffff 0%,
+            #8cddff 30%,
+            #6f76ff 60%,
+            transparent 74%
+        );
+
+    box-shadow:
+        0 0 10px rgba(112, 221, 255, 0.95),
+        0 0 24px rgba(102, 121, 255, 0.7);
+
+    animation:
+        login-3128-orb-pulse
+        2s
+        ease-in-out
+        infinite;
+}
+
+.Login-orb-light {
+    position: absolute;
+
+    inset: -9px;
+
+    border-radius: 999px;
+
+    border:
+        1px solid
+        rgba(125, 207, 255, 0.15);
+
+    animation:
+        login-3128-orb-light
+        2s
+        ease-in-out
+        infinite;
+}
+
+.Login-scanline {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    top: -160px;
+
+    z-index: 10;
+
+    height: 130px;
+
+    pointer-events: none;
+
+    background:
+        linear-gradient(
+            180deg,
+            transparent,
+            rgba(119, 195, 255, 0.03),
+            rgba(166, 215, 255, 0.1),
+            rgba(119, 195, 255, 0.03),
+            transparent
+        );
+
+    animation:
+        login-3128-scan
+        8s
+        linear
+        infinite;
+}
+
+.Login-corner {
+    position: absolute;
+
+    z-index: 8;
+
+    width: 26px;
+    height: 26px;
+
+    pointer-events: none;
+}
+
+.Login-corner::before,
+.Login-corner::after {
+    content: "";
+
+    position: absolute;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(100, 183, 255, 0.55),
+            transparent
+        );
+}
+
+.Login-corner::before {
+    width: 19px;
+    height: 1px;
+}
+
+.Login-corner::after {
+    width: 1px;
+    height: 19px;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(100, 183, 255, 0.55),
+            transparent
+        );
+}
+
+.Login-corner-tl {
+    left: 10px;
+    top: 10px;
+}
+
+.Login-corner-tr {
+    right: 10px;
+    top: 10px;
+
+    transform:
+        rotate(90deg);
+}
+
+.Login-corner-bl {
+    left: 10px;
+    bottom: 10px;
+
+    transform:
+        rotate(-90deg);
+}
+
+.Login-corner-br {
+    right: 10px;
+    bottom: 10px;
+
+    transform:
+        rotate(180deg);
+}
+
+.Login-card {
+    position: relative;
+
+    z-index: 4;
+
+    min-height: 560px;
+
+    padding:
+        29px
+        28px
+        24px;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+.Login-top {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 14px;
+
+    margin-bottom: 32px;
+}
+
+.Login-brand {
+    min-width: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 11px;
+}
+
+.Login-brand-icon {
+    position: relative;
+
+    width: 39px;
+    height: 39px;
+
+    flex: 0 0 39px;
+
+    display: grid;
+
+    place-items: center;
+
+    overflow: hidden;
+
+    border:
+        1px solid
+        rgba(123, 190, 255, 0.3);
+
+    border-radius: 12px;
+
+    color: #c0e7ff;
+
+    background:
+        radial-gradient(
+            circle at 30% 25%,
+            rgba(111, 208, 255, 0.25),
+            transparent 42%
+        ),
+        linear-gradient(
+            145deg,
+            rgba(57, 113, 232, 0.35),
+            rgba(72, 36, 143, 0.3)
+        );
+
+    box-shadow:
+        0 0 23px
+            rgba(76, 148, 255, 0.2),
+        inset 0 1px 0
+            rgba(255, 255, 255, 0.09);
+}
+
+.Login-brand-icon::before {
+    content: "";
+
+    position: absolute;
+
+    width: 55px;
+    height: 10px;
+
+    border-radius: 999px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(114, 239, 255, 0.85),
+            transparent
+        );
+
+    transform:
+        rotate(-42deg)
+        translateY(-27px);
+
+    animation:
+        login-3128-brand-shine
+        4.5s
+        ease-in-out
+        infinite;
+}
+
+.Login-brand-icon i {
+    position: relative;
+
+    z-index: 1;
+
+    font-size: 21px;
+
+    filter:
+        drop-shadow(
+            0 0 7px
+            rgba(118, 205, 255, 0.55)
+        );
+}
+
+.Login-brand-text {
+    min-width: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4px;
+}
+
+.Login-brand-text strong {
+    color: #f5faff;
+
+    font-size: 13px;
+
+    line-height: 1;
+
+    font-weight: 900;
+
+    letter-spacing: 0.17em;
+}
+
+.Login-brand-text span {
+    color: #7287ad;
+
+    font-size: 7px;
+
+    line-height: 1;
+
+    font-weight: 800;
+
+    letter-spacing: 0.12em;
+}
+
+.Login-security {
+    height: 29px;
+
+    padding: 0 10px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    border:
+        1px solid
+        rgba(102, 225, 184, 0.16);
+
+    border-radius: 999px;
+
+    color: #a2f4d3;
+
+    background:
+        rgba(29, 115, 84, 0.1);
+
+    font-size: 7px;
+
+    font-weight: 900;
+
+    letter-spacing: 0.12em;
+}
+
+.Login-security-dot {
+    width: 6px;
+    height: 6px;
+
+    border-radius: 999px;
+
+    background: #6cebb8;
+
+    box-shadow:
+        0 0 9px
+        rgba(108, 235, 184, 0.9);
+
+    animation:
+        login-3128-secure
+        2s
+        ease-in-out
+        infinite;
+}
+
+.Login-heading {
+    margin-bottom: 24px;
+}
+
+.Login-eyebrow {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color: #72baff;
+
+    font-size: 8px;
+
+    font-weight: 900;
+
+    letter-spacing: 0.22em;
+}
+
+.Login-heading h2 {
+    margin: 0;
+
+    color: #f9fbff;
+
+    font-size: 36px;
+
+    line-height: 0.95;
+
+    font-weight: 900;
+
+    letter-spacing: -0.055em;
+
+    text-shadow:
+        0 0 26px
+        rgba(71, 143, 255, 0.14);
+}
+
+.Login-heading h2 span {
+    color: transparent;
+
+    background:
+        linear-gradient(
+            90deg,
+            #a8ddff,
+            #7b9dff 52%,
+            #bb83ff
+        );
+
+    background-clip: text;
+
+    -webkit-background-clip: text;
+}
+
+.Login-heading p {
+    max-width: 290px;
+
+    margin:
+        12px
+        0
+        0;
+
+    color:
+        rgba(
+            188,
+            207,
+            238,
+            0.66
+        );
+
+    font-size: 11px;
+
+    line-height: 1.55;
+}
+
+.Login-form {
+    display: grid;
+
+    gap: 11px;
+}
+
+.Login-field {
+    position: relative;
+
+    height: 49px;
+
+    display: flex;
+
+    align-items: center;
+
+    overflow: hidden;
+
+    border:
+        1px solid
+        rgba(121, 164, 235, 0.16);
+
+    border-radius: 13px;
+
+    background:
+        rgba(
+            5,
+            11,
+            28,
+            0.7
+        );
+
+    box-shadow:
+        inset 0 1px 0
+        rgba(255, 255, 255, 0.02);
+
+    transition:
+        border-color 0.25s ease,
+        background 0.25s ease,
+        box-shadow 0.25s ease,
+        transform 0.25s ease;
+}
+
+.Login-field:hover {
+    border-color:
+        rgba(
+            122,
+            181,
+            255,
+            0.28
+        );
+
+    background:
+        rgba(
+            8,
+            15,
+            36,
+            0.82
+        );
+}
+
+.Login-field:focus-within {
+    border-color:
+        rgba(
+            102,
+            181,
+            255,
+            0.6
+        );
+
+    background:
+        rgba(
+            9,
+            17,
+            40,
+            0.94
+        );
+
+    box-shadow:
+        0 0 0 3px
+        rgba(82, 148, 255, 0.07),
+        0 0 23px
+        rgba(67, 137, 255, 0.09);
+
+    transform:
+        translateY(-1px);
+}
+
+.Login-field-icon {
+    width: 45px;
+
+    flex: 0 0 45px;
+
+    display: grid;
+
+    place-items: center;
+
+    color: #6e94ca;
+
+    font-size: 17px;
+
+    transition:
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.Login-field:focus-within
+.Login-field-icon {
+    color: #92ceff;
+
+    transform:
+        scale(1.08);
+}
+
+.Login-field input {
+    width: 100%;
+
+    min-width: 0;
+
+    height: 100%;
+
+    padding:
+        0
+        10px
+        0
+        0;
+
+    outline: none;
+
+    border: 0;
+
+    color: #eef6ff;
+
+    background: transparent;
+
+    font-size: 11px;
+
+    caret-color: #77c9ff;
+}
+
+.Login-field input::placeholder {
+    color: #5d6d8e;
+
+    opacity: 1;
+}
+
+.Login-eye {
+    width: 44px;
+
+    flex: 0 0 44px;
+
+    display: grid;
+
+    place-items: center;
+
+    color: #7188ae;
+
+    font-size: 16px;
+}
+
+.Login-field-line {
+    position: absolute;
+
+    left: 12px;
+    right: 12px;
+    bottom: 0;
+
+    height: 1px;
+
+    opacity: 0;
+
+    transform:
+        scaleX(0.25);
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #6bc7ff,
+            #8c7dff,
+            transparent
+        );
+
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
+}
+
+.Login-field:focus-within
+.Login-field-line {
+    opacity: 1;
+
+    transform:
+        scaleX(1);
+}
+
+.Login-options {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 10px;
+
+    margin:
+        1px
+        1px
+        4px;
+}
+
+.Login-remember {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+    cursor: pointer;
+
+    color: #8798b9;
+
+    font-size: 9px;
+
+    user-select: none;
+}
+
+.Login-remember input {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+
+    opacity: 0;
+}
+
+.Login-checkbox {
+    width: 15px;
+    height: 15px;
+
+    display: grid;
+
+    place-items: center;
+
+    border:
+        1px solid
+        rgba(123, 165, 230, 0.3);
+
+    border-radius: 4px;
+
+    color: #03101d;
+
+    background:
+        rgba(
+            7,
+            15,
+            34,
+            0.82
+        );
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.Login-checkbox i {
+    opacity: 0;
+
+    font-size: 10px;
+
+    font-weight: 900;
+
+    transform:
+        scale(0.5);
+
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease;
+}
+
+.Login-remember input:checked
++
+.Login-checkbox {
+    border-color:
+        rgba(
+            105,
+            207,
+            255,
+            0.7
+        );
+
+    background:
+        linear-gradient(
+            135deg,
+            #66e4ff,
+            #7c8fff
+        );
+
+    box-shadow:
+        0 0 14px
+        rgba(
+            88,
+            173,
+            255,
+            0.3
+        );
+}
+
+.Login-remember input:checked
++
+.Login-checkbox i {
+    opacity: 1;
+
+    transform:
+        scale(1);
+}
+
+.Login-options a {
+    position: relative;
+
+    color: #82bdff;
+
+    text-decoration: none;
+
+    font-size: 9px;
+
+    font-weight: 800;
+}
+
+.Login-options a::after {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    right: 100%;
+    bottom: -3px;
+
+    height: 1px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #67c9ff,
+            #a17cff
+        );
+
+    transition:
+        right
+        0.2s
+        ease;
+}
+
+.Login-options a:hover::after {
+    right: 0;
+}
+
+.Login-submit {
+    position: relative;
+
+    width: 100%;
+
+    height: 49px;
+
+    overflow: hidden;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    cursor: pointer;
+
+    border:
+        1px solid
+        rgba(
+            129,
+            201,
+            255,
+            0.62
+        );
+
+    border-radius: 13px;
+
+    color: #ffffff;
+
+    background:
+        linear-gradient(
+            90deg,
+            #22d3ee,
+            #6366f1,
+            #a855f7,
+            #ec4899,
+            #22d3ee
+        );
+
+    background-size:
+        300% 100%;
+
+    box-shadow:
+        0 10px 28px
+        rgba(
+            65,
+            89,
+            225,
+            0.28
+        ),
+        0 0 23px
+        rgba(
+            79,
+            151,
+            255,
+            0.18
+        ),
+        inset 0 1px 0
+        rgba(
+            255,
+            255,
+            255,
+            0.3
+        );
+
+    font-size: 10px;
+
+    font-weight: 900;
+
+    letter-spacing: 0.12em;
+
+    animation:
+        login-3128-button-gradient
+        7s
+        linear
+        infinite;
+
+    transition:
+        transform 0.2s ease,
+        filter 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.Login-submit:hover {
+    filter:
+        brightness(1.1);
+
+    transform:
+        translateY(-2px);
+
+    box-shadow:
+        0 13px 33px
+        rgba(
+            65,
+            89,
+            225,
+            0.34
+        ),
+        0 0 30px
+        rgba(
+            79,
+            151,
+            255,
+            0.24
+        ),
+        inset 0 1px 0
+        rgba(
+            255,
+            255,
+            255,
+            0.35
+        );
+}
+
+.Login-submit:active {
+    transform:
+        translateY(0)
+        scale(0.985);
+}
+
+.Login-submit-icon {
+    width: 22px;
+    height: 22px;
+
+    display: grid;
+
+    place-items: center;
+
+    border-radius: 7px;
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.1
+        );
+
+    transition:
+        transform
+        0.2s
+        ease;
+}
+
+.Login-submit:hover
+.Login-submit-icon {
+    transform:
+        translate(
+            2px,
+            -2px
+        );
+}
+
+.Login-submit-shine {
+    position: absolute;
+
+    top: -90%;
+    left: -42%;
+
+    width: 28%;
+    height: 280%;
+
+    pointer-events: none;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(
+                255,
+                255,
+                255,
+                0.52
+            ),
+            transparent
+        );
+
+    transform:
+        rotate(19deg);
+
+    animation:
+        login-3128-button-shine
+        4s
+        ease-in-out
+        infinite;
+}
+
+.Login-divider {
+    margin:
+        20px
+        0
+        15px;
+
+    display: grid;
+
+    grid-template-columns:
+        1fr
+        auto
+        1fr;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+.Login-divider > span {
+    height: 1px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(
+                124,
+                164,
+                230,
+                0.18
+            )
+        );
+}
+
+.Login-divider > span:last-child {
+    transform:
+        rotate(180deg);
+}
+
+.Login-divider p {
+    margin: 0;
+
+    color: #60708f;
+
+    font-size: 7px;
+
+    font-weight: 900;
+
+    letter-spacing: 0.16em;
+}
+
+.Login-socials {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            3,
+            minmax(0, 1fr)
+        );
+
+    gap: 8px;
+}
+
+.Login-socials button {
+    position: relative;
+
+    height: 43px;
+
+    display: grid;
+
+    place-items: center;
+
+    overflow: hidden;
+
+    cursor: pointer;
+
+    border:
+        1px solid
+        rgba(
+            119,
+            160,
+            224,
+            0.15
+        );
+
+    border-radius: 12px;
+
+    color: #91a8cd;
+
+    background:
+        rgba(
+            6,
+            13,
+            30,
+            0.6
+        );
+
+    font-size: 18px;
+
+    transition:
+        color 0.2s ease,
+        border-color 0.2s ease,
+        background 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.Login-socials button::before {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    opacity: 0;
+
+    background:
+        radial-gradient(
+            circle at 50% 120%,
+            rgba(
+                84,
+                153,
+                255,
+                0.16
+            ),
+            transparent 70%
+        );
+
+    transition:
+        opacity
+        0.2s
+        ease;
+}
+
+.Login-socials button:hover {
+    color: #e7f4ff;
+
+    border-color:
+        rgba(
+            113,
+            187,
+            255,
+            0.34
+        );
+
+    background:
+        rgba(
+            17,
+            31,
+            66,
+            0.74
+        );
+
+    transform:
+        translateY(-2px);
+
+    box-shadow:
+        0 8px 24px
+        rgba(
+            0,
+            0,
+            0,
+            0.18
+        ),
+        0 0 18px
+        rgba(
+            74,
+            137,
+            255,
+            0.08
+        );
+}
+
+.Login-socials button:hover::before {
+    opacity: 1;
+}
+
+.Login-socials button i {
+    position: relative;
+
+    z-index: 1;
+}
+
+.Login-footer {
+    margin-top: auto;
+
+    padding-top: 23px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 12px;
+
+    color: #70809f;
+
+    font-size: 8px;
+}
+
+.Login-footer a {
+    margin-left: 4px;
+
+    color: #8fc0ff;
+
+    font-weight: 800;
+
+    text-decoration: none;
+}
+
+.Login-footer a:hover {
+    color: #c4e4ff;
+}
+
+.Login-encrypted {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 5px;
+
+    color: #60708e;
+
+    white-space: nowrap;
+}
+
+.Login-encrypted i {
+    color: #63d9af;
+
+    font-size: 11px;
+}
+
+@keyframes login-3128-aurora {
+    0% {
+        transform:
+            rotate(0deg)
+            scale(1);
+    }
+
+    50% {
+        transform:
+            rotate(180deg)
+            scale(1.08);
+    }
+
+    100% {
+        transform:
+            rotate(360deg)
+            scale(1);
+    }
+}
+
+@keyframes login-3128-grid {
+    0% {
+        background-position:
+            0 0,
+            0 0;
+    }
+
+    100% {
+        background-position:
+            26px 26px,
+            26px 26px;
+    }
+}
+
+@keyframes login-3128-glow-1 {
+    from {
+        transform:
+            translate(
+                -12px,
+                -7px
+            )
+            scale(0.9);
+    }
+
+    to {
+        transform:
+            translate(
+                32px,
+                27px
+            )
+            scale(1.15);
+    }
+}
+
+@keyframes login-3128-glow-2 {
+    from {
+        transform:
+            translate(
+                13px,
+                -18px
+            )
+            scale(0.92);
+    }
+
+    to {
+        transform:
+            translate(
+                -34px,
+                22px
+            )
+            scale(1.16);
+    }
+}
+
+@keyframes login-3128-glow-3 {
+    from {
+        transform:
+            translateX(-18px)
+            scale(0.88);
+    }
+
+    to {
+        transform:
+            translateX(26px)
+            scale(1.14);
+    }
+}
+
+@keyframes login-3128-star {
+    0%,
+    100% {
+        opacity: 0.16;
+
+        transform:
+            scale(0.7);
+    }
+
+    45% {
+        opacity: 1;
+
+        transform:
+            scale(1.35);
+    }
+
+    72% {
+        opacity: 0.48;
+
+        transform:
+            scale(0.9);
+    }
+}
+
+@keyframes login-3128-ring {
+    from {
+        transform:
+            rotate(0deg);
+    }
+
+    to {
+        transform:
+            rotate(360deg);
+    }
+}
+
+@keyframes login-3128-ring-reverse {
+    from {
+        transform:
+            rotate(360deg);
+    }
+
+    to {
+        transform:
+            rotate(0deg);
+    }
+}
+
+@keyframes login-3128-orb-float {
+    0%,
+    100% {
+        transform:
+            translateY(0);
+    }
+
+    50% {
+        transform:
+            translateY(-6px);
+    }
+}
+
+@keyframes login-3128-orb-pulse {
+    0%,
+    100% {
+        transform:
+            scale(0.85);
+
+        filter:
+            brightness(0.9);
+    }
+
+    50% {
+        transform:
+            scale(1.25);
+
+        filter:
+            brightness(1.25);
+    }
+}
+
+@keyframes login-3128-orb-light {
+    0%,
+    100% {
+        opacity: 0.18;
+
+        transform:
+            scale(0.8);
+    }
+
+    50% {
+        opacity: 0.8;
+
+        transform:
+            scale(1.2);
+    }
+}
+
+@keyframes login-3128-scan {
+    from {
+        transform:
+            translateY(-150px);
+    }
+
+    to {
+        transform:
+            translateY(780px);
+    }
+}
+
+@keyframes login-3128-brand-shine {
+    0%,
+    34% {
+        transform:
+            rotate(-42deg)
+            translateY(-31px);
+
+        opacity: 0;
+    }
+
+    48% {
+        opacity: 1;
+    }
+
+    66%,
+    100% {
+        transform:
+            rotate(-42deg)
+            translateY(34px);
+
+        opacity: 0;
+    }
+}
+
+@keyframes login-3128-secure {
+    0%,
+    100% {
+        opacity: 0.48;
+
+        transform:
+            scale(0.8);
+    }
+
+    50% {
+        opacity: 1;
+
+        transform:
+            scale(1.22);
+    }
+}
+
+@keyframes login-3128-button-gradient {
+    0% {
+        background-position:
+            0% 50%;
+    }
+
+    100% {
+        background-position:
+            300% 50%;
+    }
+}
+
+@keyframes login-3128-button-shine {
+    0%,
+    53% {
+        left: -42%;
+
+        opacity: 0;
+    }
+
+    64% {
+        opacity: 1;
+    }
+
+    83%,
+    100% {
+        left: 125%;
+
+        opacity: 0;
+    }
+}
+
+@media (max-width: 430px) {
+    .Login {
+        width: 100%;
+
+        min-height: auto;
+    }
+
+    .Login-card {
+        min-height: 540px;
+
+        padding:
+            26px
+            21px
+            22px;
+    }
+
+    .Login-heading h2 {
+        font-size: 31px;
+    }
+
+    .Login-security {
+        display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .Login *,
+    .Login *::before,
+    .Login *::after {
+        animation-duration:
+            0.001ms
+            !important;
+
+        animation-iteration-count:
+            1
+            !important;
+
+        transition-duration:
+            0.001ms
+            !important;
+    }
+}`,
+},
+{
+  id: 3129,
+  name: "Quantum Vault Login",
+  preview: (
+    <div className="Login login-3129">
+      <div className="Login-space">
+        <span className="Login-nebula Login-nebula-1"></span>
+        <span className="Login-nebula Login-nebula-2"></span>
+        <span className="Login-nebula Login-nebula-3"></span>
+        <span className="Login-grid"></span>
+        <span className="Login-scan"></span>
+
+        <span className="Login-star Login-star-1"></span>
+        <span className="Login-star Login-star-2"></span>
+        <span className="Login-star Login-star-3"></span>
+        <span className="Login-star Login-star-4"></span>
+        <span className="Login-star Login-star-5"></span>
+        <span className="Login-star Login-star-6"></span>
+        <span className="Login-star Login-star-7"></span>
+        <span className="Login-star Login-star-8"></span>
+        <span className="Login-star Login-star-9"></span>
+        <span className="Login-star Login-star-10"></span>
+        <span className="Login-star Login-star-11"></span>
+        <span className="Login-star Login-star-12"></span>
+        <span className="Login-star Login-star-13"></span>
+        <span className="Login-star Login-star-14"></span>
+        <span className="Login-star Login-star-15"></span>
+        <span className="Login-star Login-star-16"></span>
+        <span className="Login-star Login-star-17"></span>
+        <span className="Login-star Login-star-18"></span>
+        <span className="Login-star Login-star-19"></span>
+        <span className="Login-star Login-star-20"></span>
+        <span className="Login-star Login-star-21"></span>
+        <span className="Login-star Login-star-22"></span>
+        <span className="Login-star Login-star-23"></span>
+        <span className="Login-star Login-star-24"></span>
+      </div>
+
+      <div className="Login-orbit Login-orbit-1"></div>
+      <div className="Login-orbit Login-orbit-2"></div>
+      <div className="Login-orbit Login-orbit-3"></div>
+
+      <div className="Login-core">
+        <span className="Login-core-halo Login-core-halo-1"></span>
+        <span className="Login-core-halo Login-core-halo-2"></span>
+        <span className="Login-core-center">
+          <i className="ri-fingerprint-line"></i>
+        </span>
+      </div>
+
+      <span className="Login-corner Login-corner-tl"></span>
+      <span className="Login-corner Login-corner-tr"></span>
+      <span className="Login-corner Login-corner-bl"></span>
+      <span className="Login-corner Login-corner-br"></span>
+
+      <div className="Login-panel">
+        <div className="Login-topbar">
+          <div className="Login-brand">
+            <span className="Login-brand-icon">
+              <i className="ri-sparkling-2-fill"></i>
+            </span>
+
+            <span className="Login-brand-copy">
+              <strong>QUANTUM VAULT</strong>
+              <small>IDENTITY GATEWAY</small>
+            </span>
+          </div>
+
+          <span className="Login-status">
+            <span></span>
+            ONLINE
+          </span>
+        </div>
+
+        <div className="Login-heading">
+          <span className="Login-kicker">SECURE SESSION // 3129</span>
+
+          <h2>
+            Enter the
+            <span> vault.</span>
+          </h2>
+
+          <p>
+            Authenticate your identity and restore access to your encrypted
+            workspace.
+          </p>
+        </div>
+
+        <div className="Login-form">
+          <label className="Login-field">
+            <span className="Login-field-icon">
+              <i className="ri-at-line"></i>
+            </span>
+
+            <span className="Login-field-content">
+              <span className="Login-label">EMAIL ADDRESS</span>
+              <input type="email" placeholder="operator@nexus.io" />
+            </span>
+
+            <span className="Login-field-state">
+              <i className="ri-checkbox-circle-line"></i>
+            </span>
+
+            <span className="Login-field-beam"></span>
+          </label>
+
+          <label className="Login-field">
+            <span className="Login-field-icon">
+              <i className="ri-key-2-line"></i>
+            </span>
+
+            <span className="Login-field-content">
+              <span className="Login-label">ACCESS KEY</span>
+              <input type="password" placeholder="••••••••••••" />
+            </span>
+
+            <span className="Login-field-state Login-field-eye">
+              <i className="ri-eye-line"></i>
+            </span>
+
+            <span className="Login-field-beam"></span>
+          </label>
+
+          <div className="Login-options">
+            <label className="Login-remember">
+              <input type="checkbox" defaultChecked />
+
+              <span className="Login-checkbox">
+                <i className="ri-check-line"></i>
+              </span>
+
+              <span>Trust this device</span>
+            </label>
+
+            <a href="#" onClick={(event) => event.preventDefault()}>
+              Recover key
+            </a>
+          </div>
+
+          <button className="Login-submit" type="button">
+            <span className="Login-submit-glow"></span>
+            <span className="Login-submit-shine"></span>
+
+            <span className="Login-submit-content">
+              <span className="Login-submit-icon">
+                <i className="ri-shield-keyhole-line"></i>
+              </span>
+
+              <span className="Login-submit-copy">
+                <strong>UNLOCK VAULT</strong>
+                <small>256-bit encrypted handshake</small>
+              </span>
+
+              <i className="ri-arrow-right-up-line Login-submit-arrow"></i>
+            </span>
+          </button>
+        </div>
+
+        <div className="Login-divider">
+          <span></span>
+          <small>ALTERNATIVE IDENTITY</small>
+          <span></span>
+        </div>
+
+        <div className="Login-socials">
+          <button type="button">
+            <span className="Login-social-icon">
+              <i className="ri-google-fill"></i>
+            </span>
+            <span>Google</span>
+          </button>
+
+          <button type="button">
+            <span className="Login-social-icon">
+              <i className="ri-github-fill"></i>
+            </span>
+            <span>GitHub</span>
+          </button>
+
+          <button type="button">
+            <span className="Login-social-icon">
+              <i className="ri-apple-fill"></i>
+            </span>
+            <span>Apple</span>
+          </button>
+        </div>
+
+        <div className="Login-footer">
+          <span className="Login-register">
+            No identity?
+            <a href="#" onClick={(event) => event.preventDefault()}>
+              Create access
+            </a>
+          </span>
+
+          <span className="Login-encryption">
+            <i className="ri-lock-star-line"></i>
+            AES-256
+          </span>
+        </div>
+      </div>
+    </div>
+  ),
+  html: `<link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+
+<div class="Login login-3129">
+  <div class="Login-space">
+    <span class="Login-nebula Login-nebula-1"></span>
+    <span class="Login-nebula Login-nebula-2"></span>
+    <span class="Login-nebula Login-nebula-3"></span>
+    <span class="Login-grid"></span>
+    <span class="Login-scan"></span>
+
+    <span class="Login-star Login-star-1"></span>
+    <span class="Login-star Login-star-2"></span>
+    <span class="Login-star Login-star-3"></span>
+    <span class="Login-star Login-star-4"></span>
+    <span class="Login-star Login-star-5"></span>
+    <span class="Login-star Login-star-6"></span>
+    <span class="Login-star Login-star-7"></span>
+    <span class="Login-star Login-star-8"></span>
+    <span class="Login-star Login-star-9"></span>
+    <span class="Login-star Login-star-10"></span>
+    <span class="Login-star Login-star-11"></span>
+    <span class="Login-star Login-star-12"></span>
+    <span class="Login-star Login-star-13"></span>
+    <span class="Login-star Login-star-14"></span>
+    <span class="Login-star Login-star-15"></span>
+    <span class="Login-star Login-star-16"></span>
+    <span class="Login-star Login-star-17"></span>
+    <span class="Login-star Login-star-18"></span>
+    <span class="Login-star Login-star-19"></span>
+    <span class="Login-star Login-star-20"></span>
+    <span class="Login-star Login-star-21"></span>
+    <span class="Login-star Login-star-22"></span>
+    <span class="Login-star Login-star-23"></span>
+    <span class="Login-star Login-star-24"></span>
+  </div>
+
+  <div class="Login-orbit Login-orbit-1"></div>
+  <div class="Login-orbit Login-orbit-2"></div>
+  <div class="Login-orbit Login-orbit-3"></div>
+
+  <div class="Login-core">
+    <span class="Login-core-halo Login-core-halo-1"></span>
+    <span class="Login-core-halo Login-core-halo-2"></span>
+    <span class="Login-core-center">
+      <i class="ri-fingerprint-line"></i>
+    </span>
+  </div>
+
+  <span class="Login-corner Login-corner-tl"></span>
+  <span class="Login-corner Login-corner-tr"></span>
+  <span class="Login-corner Login-corner-bl"></span>
+  <span class="Login-corner Login-corner-br"></span>
+
+  <div class="Login-panel">
+    <div class="Login-topbar">
+      <div class="Login-brand">
+        <span class="Login-brand-icon">
+          <i class="ri-sparkling-2-fill"></i>
+        </span>
+
+        <span class="Login-brand-copy">
+          <strong>QUANTUM VAULT</strong>
+          <small>IDENTITY GATEWAY</small>
+        </span>
+      </div>
+
+      <span class="Login-status">
+        <span></span>
+        ONLINE
+      </span>
+    </div>
+
+    <div class="Login-heading">
+      <span class="Login-kicker">SECURE SESSION // 3129</span>
+
+      <h2>
+        Enter the
+        <span> vault.</span>
+      </h2>
+
+      <p>
+        Authenticate your identity and restore access to your encrypted
+        workspace.
+      </p>
+    </div>
+
+    <div class="Login-form">
+      <label class="Login-field">
+        <span class="Login-field-icon">
+          <i class="ri-at-line"></i>
+        </span>
+
+        <span class="Login-field-content">
+          <span class="Login-label">EMAIL ADDRESS</span>
+          <input type="email" placeholder="operator@nexus.io" />
+        </span>
+
+        <span class="Login-field-state">
+          <i class="ri-checkbox-circle-line"></i>
+        </span>
+
+        <span class="Login-field-beam"></span>
+      </label>
+
+      <label class="Login-field">
+        <span class="Login-field-icon">
+          <i class="ri-key-2-line"></i>
+        </span>
+
+        <span class="Login-field-content">
+          <span class="Login-label">ACCESS KEY</span>
+          <input type="password" placeholder="••••••••••••" />
+        </span>
+
+        <span class="Login-field-state Login-field-eye">
+          <i class="ri-eye-line"></i>
+        </span>
+
+        <span class="Login-field-beam"></span>
+      </label>
+
+      <div class="Login-options">
+        <label class="Login-remember">
+          <input type="checkbox" checked />
+
+          <span class="Login-checkbox">
+            <i class="ri-check-line"></i>
+          </span>
+
+          <span>Trust this device</span>
+        </label>
+
+        <a href="#">Recover key</a>
+      </div>
+
+      <button class="Login-submit" type="button">
+        <span class="Login-submit-glow"></span>
+        <span class="Login-submit-shine"></span>
+
+        <span class="Login-submit-content">
+          <span class="Login-submit-icon">
+            <i class="ri-shield-keyhole-line"></i>
+          </span>
+
+          <span class="Login-submit-copy">
+            <strong>UNLOCK VAULT</strong>
+            <small>256-bit encrypted handshake</small>
+          </span>
+
+          <i class="ri-arrow-right-up-line Login-submit-arrow"></i>
+        </span>
+      </button>
+    </div>
+
+    <div class="Login-divider">
+      <span></span>
+      <small>ALTERNATIVE IDENTITY</small>
+      <span></span>
+    </div>
+
+    <div class="Login-socials">
+      <button type="button">
+        <span class="Login-social-icon">
+          <i class="ri-google-fill"></i>
+        </span>
+        <span>Google</span>
+      </button>
+
+      <button type="button">
+        <span class="Login-social-icon">
+          <i class="ri-github-fill"></i>
+        </span>
+        <span>GitHub</span>
+      </button>
+
+      <button type="button">
+        <span class="Login-social-icon">
+          <i class="ri-apple-fill"></i>
+        </span>
+        <span>Apple</span>
+      </button>
+    </div>
+
+    <div class="Login-footer">
+      <span class="Login-register">
+        No identity?
+        <a href="#">Create access</a>
+      </span>
+
+      <span class="Login-encryption">
+        <i class="ri-lock-star-line"></i>
+        AES-256
+      </span>
+    </div>
+  </div>
+</div>`,
+  css: `.login-3129.Login {
+  --qv-bg: #020611;
+  --qv-panel: rgba(7, 13, 31, 0.9);
+  --qv-panel-soft: rgba(10, 18, 42, 0.78);
+  --qv-blue: #5eb6ff;
+  --qv-cyan: #61e9ff;
+  --qv-indigo: #6e74ff;
+  --qv-violet: #a878ff;
+  --qv-pink: #ec6ed0;
+  --qv-text: #f8fbff;
+  --qv-soft: #b9c8e5;
+  --qv-muted: #71809f;
+  --qv-line: rgba(115, 170, 255, 0.2);
+  --qv-green: #6ce9b7;
+
+  position: relative;
+  width: min(100%, 760px);
+  min-height: 470px;
+  overflow: hidden;
+  border: 1px solid rgba(106, 167, 255, 0.24);
+  border-radius: 30px;
+  color: var(--qv-text);
+  background:
+    radial-gradient(
+      circle at 15% 8%,
+      rgba(52, 132, 255, 0.2),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 88% 13%,
+      rgba(151, 87, 255, 0.16),
+      transparent 28%
+    ),
+    linear-gradient(
+      145deg,
+      #07101e 0%,
+      #030712 48%,
+      #080818 100%
+    );
+  box-shadow:
+    0 35px 100px rgba(0, 0, 0, 0.56),
+    0 0 70px rgba(59, 130, 246, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  isolation: isolate;
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+.login-3129,
+.login-3129 * {
+  box-sizing: border-box;
+}
+
+.login-3129 button,
+.login-3129 input {
+  font: inherit;
+}
+
+.login-3129 button {
+  appearance: none;
+}
+
+.login-3129 .Login-space {
+  position: absolute;
+  inset: 0;
+  z-index: -20;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.login-3129 .Login-space::before {
+  content: "";
+  position: absolute;
+  inset: -65%;
+  background:
+    conic-gradient(
+      from 180deg at 50% 50%,
+      rgba(58, 130, 246, 0) 0deg,
+      rgba(58, 130, 246, 0.22) 42deg,
+      rgba(99, 102, 241, 0.18) 90deg,
+      rgba(168, 85, 247, 0.15) 142deg,
+      rgba(236, 72, 153, 0.09) 190deg,
+      rgba(34, 211, 238, 0.16) 240deg,
+      rgba(58, 130, 246, 0) 310deg,
+      rgba(58, 130, 246, 0.2) 350deg,
+      rgba(58, 130, 246, 0) 360deg
+    );
+  filter: blur(50px);
+  opacity: 0.82;
+  transform-origin: center;
+  animation: login-3129-aurora 20s linear infinite;
+}
+
+.login-3129 .Login-space::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.045;
+  background-image:
+    radial-gradient(circle at 20% 30%, #fff 0 0.7px, transparent 1px),
+    radial-gradient(circle at 70% 46%, #fff 0 0.6px, transparent 0.9px),
+    radial-gradient(circle at 42% 82%, #fff 0 0.7px, transparent 1px);
+  background-size:
+    10px 13px,
+    15px 17px,
+    9px 14px;
+  mix-blend-mode: screen;
+}
+
+.login-3129 .Login-nebula {
+  position: absolute;
+  display: block;
+  border-radius: 999px;
+  filter: blur(48px);
+  opacity: 0.6;
+}
+
+.login-3129 .Login-nebula-1 {
+  width: 360px;
+  height: 240px;
+  left: -140px;
+  top: -110px;
+  background: rgba(43, 132, 255, 0.18);
+  animation: login-3129-nebula-one 9s ease-in-out infinite alternate;
+}
+
+.login-3129 .Login-nebula-2 {
+  width: 300px;
+  height: 260px;
+  right: -130px;
+  top: 40px;
+  background: rgba(142, 84, 255, 0.14);
+  animation: login-3129-nebula-two 11s ease-in-out infinite alternate;
+}
+
+.login-3129 .Login-nebula-3 {
+  width: 320px;
+  height: 190px;
+  left: 32%;
+  bottom: -120px;
+  background: rgba(42, 218, 255, 0.09);
+  animation: login-3129-nebula-three 10s ease-in-out infinite alternate;
+}
+
+.login-3129 .Login-grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.22;
+  background-image:
+    linear-gradient(
+      rgba(91, 151, 255, 0.07) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(91, 151, 255, 0.07) 1px,
+      transparent 1px
+    );
+  background-size: 28px 28px;
+  mask-image: linear-gradient(to bottom, #000, transparent 95%);
+  -webkit-mask-image: linear-gradient(to bottom, #000, transparent 95%);
+  animation: login-3129-grid-drift 15s linear infinite;
+}
+
+.login-3129 .Login-scan {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -180px;
+  height: 150px;
+  opacity: 0.75;
+  background:
+    linear-gradient(
+      to bottom,
+      transparent,
+      rgba(104, 191, 255, 0.025),
+      rgba(169, 216, 255, 0.1),
+      rgba(104, 191, 255, 0.025),
+      transparent
+    );
+  animation: login-3129-scan 9s linear infinite;
+}
+
+.login-3129 .Login-star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 999px;
+  background: rgba(224, 243, 255, 0.9);
+  box-shadow: 0 0 8px rgba(115, 202, 255, 0.88);
+  animation: login-3129-star 4.2s ease-in-out infinite;
+}
+
+.login-3129 .Login-star-1 {
+  left: 5%;
+  top: 8%;
+  animation-delay: -0.4s;
+}
+
+.login-3129 .Login-star-2 {
+  left: 13%;
+  top: 22%;
+  animation-delay: -1.1s;
+}
+
+.login-3129 .Login-star-3 {
+  left: 21%;
+  top: 12%;
+  animation-delay: -2.5s;
+}
+
+.login-3129 .Login-star-4 {
+  left: 31%;
+  top: 32%;
+  animation-delay: -1.7s;
+}
+
+.login-3129 .Login-star-5 {
+  left: 41%;
+  top: 7%;
+  animation-delay: -3.1s;
+}
+
+.login-3129 .Login-star-6 {
+  left: 50%;
+  top: 18%;
+  animation-delay: -0.8s;
+}
+
+.login-3129 .Login-star-7 {
+  left: 59%;
+  top: 5%;
+  animation-delay: -2.2s;
+}
+
+.login-3129 .Login-star-8 {
+  left: 68%;
+  top: 27%;
+  animation-delay: -3.4s;
+}
+
+.login-3129 .Login-star-9 {
+  left: 77%;
+  top: 10%;
+  animation-delay: -1.4s;
+}
+
+.login-3129 .Login-star-10 {
+  left: 88%;
+  top: 20%;
+  animation-delay: -2.9s;
+}
+
+.login-3129 .Login-star-11 {
+  left: 96%;
+  top: 38%;
+  animation-delay: -0.6s;
+}
+
+.login-3129 .Login-star-12 {
+  left: 9%;
+  top: 49%;
+  animation-delay: -2.3s;
+}
+
+.login-3129 .Login-star-13 {
+  left: 18%;
+  top: 62%;
+  animation-delay: -1.6s;
+}
+
+.login-3129 .Login-star-14 {
+  left: 28%;
+  top: 77%;
+  animation-delay: -3.5s;
+}
+
+.login-3129 .Login-star-15 {
+  left: 38%;
+  top: 55%;
+  animation-delay: -0.9s;
+}
+
+.login-3129 .Login-star-16 {
+  left: 47%;
+  top: 69%;
+  animation-delay: -2.1s;
+}
+
+.login-3129 .Login-star-17 {
+  left: 56%;
+  top: 87%;
+  animation-delay: -3s;
+}
+
+.login-3129 .Login-star-18 {
+  left: 65%;
+  top: 58%;
+  animation-delay: -1.2s;
+}
+
+.login-3129 .Login-star-19 {
+  left: 73%;
+  top: 72%;
+  animation-delay: -2.7s;
+}
+
+.login-3129 .Login-star-20 {
+  left: 82%;
+  top: 89%;
+  animation-delay: -0.5s;
+}
+
+.login-3129 .Login-star-21 {
+  left: 91%;
+  top: 64%;
+  animation-delay: -2s;
+}
+
+.login-3129 .Login-star-22 {
+  left: 98%;
+  top: 84%;
+  animation-delay: -3.2s;
+}
+
+.login-3129 .Login-star-23 {
+  left: 35%;
+  top: 92%;
+  animation-delay: -1.8s;
+}
+
+.login-3129 .Login-star-24 {
+  left: 12%;
+  top: 91%;
+  animation-delay: -2.6s;
+}
+
+.login-3129 .Login-orbit {
+  position: absolute;
+  z-index: -14;
+  border-radius: 999px;
+  pointer-events: none;
+  transform-origin: center;
+}
+
+.login-3129 .Login-orbit-1 {
+  width: 330px;
+  height: 330px;
+  right: -190px;
+  top: -180px;
+  border: 1px solid rgba(100, 181, 255, 0.12);
+  animation: login-3129-orbit-one 24s linear infinite;
+}
+
+.login-3129 .Login-orbit-2 {
+  width: 270px;
+  height: 270px;
+  right: -160px;
+  top: -150px;
+  border: 1px dashed rgba(137, 109, 255, 0.12);
+  animation: login-3129-orbit-two 18s linear infinite reverse;
+}
+
+.login-3129 .Login-orbit-3 {
+  width: 205px;
+  height: 205px;
+  right: -128px;
+  top: -117px;
+  border: 1px solid rgba(83, 223, 255, 0.1);
+  animation: login-3129-orbit-three 12s linear infinite;
+}
+
+.login-3129 .Login-core {
+  position: absolute;
+  right: 30px;
+  top: 27px;
+  z-index: -11;
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  animation: login-3129-core-float 5s ease-in-out infinite;
+}
+
+.login-3129 .Login-core-halo {
+  position: absolute;
+  border-radius: 999px;
+}
+
+.login-3129 .Login-core-halo-1 {
+  inset: 0;
+  border: 1px solid rgba(116, 210, 255, 0.15);
+  animation: login-3129-halo-one 3s ease-in-out infinite;
+}
+
+.login-3129 .Login-core-halo-2 {
+  inset: 9px;
+  border: 1px dashed rgba(139, 119, 255, 0.18);
+  animation: login-3129-halo-two 5s linear infinite;
+}
+
+.login-3129 .Login-core-center {
+  width: 25px;
+  height: 25px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(128, 205, 255, 0.22);
+  border-radius: 999px;
+  color: #a8e4ff;
+  background:
+    radial-gradient(
+      circle,
+      rgba(135, 221, 255, 0.3),
+      rgba(97, 113, 255, 0.13) 48%,
+      rgba(5, 9, 23, 0.7) 72%
+    );
+  box-shadow:
+    0 0 14px rgba(103, 209, 255, 0.4),
+    0 0 30px rgba(103, 117, 255, 0.24);
+  animation: login-3129-core-pulse 2.4s ease-in-out infinite;
+}
+
+.login-3129 .Login-core-center i {
+  font-size: 13px;
+}
+
+.login-3129 .Login-corner {
+  position: absolute;
+  z-index: 6;
+  width: 30px;
+  height: 30px;
+  pointer-events: none;
+}
+
+.login-3129 .Login-corner::before,
+.login-3129 .Login-corner::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(
+    90deg,
+    rgba(105, 187, 255, 0.52),
+    transparent
+  );
+}
+
+.login-3129 .Login-corner::before {
+  width: 22px;
+  height: 1px;
+}
+
+.login-3129 .Login-corner::after {
+  width: 1px;
+  height: 22px;
+  background: linear-gradient(
+    180deg,
+    rgba(105, 187, 255, 0.52),
+    transparent
+  );
+}
+
+.login-3129 .Login-corner-tl {
+  left: 12px;
+  top: 12px;
+}
+
+.login-3129 .Login-corner-tr {
+  right: 12px;
+  top: 12px;
+  transform: rotate(90deg);
+}
+
+.login-3129 .Login-corner-bl {
+  left: 12px;
+  bottom: 12px;
+  transform: rotate(-90deg);
+}
+
+.login-3129 .Login-corner-br {
+  right: 12px;
+  bottom: 12px;
+  transform: rotate(180deg);
+}
+
+.login-3129 .Login-panel {
+  position: relative;
+  z-index: 5;
+  min-height: 470px;
+  padding: 30px 32px 26px;
+  display: flex;
+  flex-direction: column;
+  background:
+    linear-gradient(
+      145deg,
+      rgba(8, 14, 34, 0.91),
+      rgba(4, 8, 21, 0.83)
+    );
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    inset 0 0 90px rgba(67, 124, 255, 0.025);
+}
+
+.login-3129 .Login-panel::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -220px;
+  width: 120px;
+  height: 700px;
+  transform: translateX(-50%) rotate(18deg);
+  border-radius: 999px;
+  pointer-events: none;
+  background:
+    linear-gradient(
+      to bottom,
+      transparent,
+      rgba(79, 160, 255, 0.08),
+      rgba(130, 101, 255, 0.06),
+      transparent
+    );
+  filter: blur(20px);
+  animation: login-3129-panel-beam 8s ease-in-out infinite alternate;
+}
+
+.login-3129 .Login-topbar {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 34px;
+}
+
+.login-3129 .Login-brand {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.login-3129 .Login-brand-icon {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid rgba(124, 192, 255, 0.29);
+  border-radius: 13px;
+  color: #c7ecff;
+  background:
+    radial-gradient(
+      circle at 30% 24%,
+      rgba(116, 213, 255, 0.24),
+      transparent 42%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(58, 115, 233, 0.35),
+      rgba(72, 35, 143, 0.28)
+    );
+  box-shadow:
+    0 0 24px rgba(77, 149, 255, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.09);
+}
+
+.login-3129 .Login-brand-icon::before {
+  content: "";
+  position: absolute;
+  width: 58px;
+  height: 10px;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(113, 238, 255, 0.82),
+    transparent
+  );
+  transform: rotate(-42deg) translateY(-29px);
+  animation: login-3129-brand-shine 4.6s ease-in-out infinite;
+}
+
+.login-3129 .Login-brand-icon i {
+  position: relative;
+  z-index: 1;
+  font-size: 21px;
+  filter: drop-shadow(0 0 8px rgba(116, 207, 255, 0.5));
+}
+
+.login-3129 .Login-brand-copy {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.login-3129 .Login-brand-copy strong {
+  color: #f6faff;
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+}
+
+.login-3129 .Login-brand-copy small {
+  color: #7186ad;
+  font-size: 7px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.login-3129 .Login-status {
+  height: 30px;
+  padding: 0 11px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid rgba(104, 227, 185, 0.16);
+  border-radius: 999px;
+  color: #a3f5d4;
+  background: rgba(29, 117, 84, 0.1);
+  font-size: 7px;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+}
+
+.login-3129 .Login-status > span {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--qv-green);
+  box-shadow: 0 0 9px rgba(108, 233, 183, 0.9);
+  animation: login-3129-status-pulse 2.1s ease-in-out infinite;
+}
+
+.login-3129 .Login-heading {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 25px;
+}
+
+.login-3129 .Login-kicker {
+  display: block;
+  margin-bottom: 8px;
+  color: #74bdff;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.22em;
+}
+
+.login-3129 .Login-heading h2 {
+  margin: 0;
+  color: #f9fbff;
+  font-size: 38px;
+  line-height: 0.95;
+  font-weight: 900;
+  letter-spacing: -0.055em;
+  text-shadow: 0 0 26px rgba(72, 145, 255, 0.13);
+}
+
+.login-3129 .Login-heading h2 span {
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    #a9ddff,
+    #7c9dff 50%,
+    #bb82ff
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.login-3129 .Login-heading p {
+  max-width: 410px;
+  margin: 12px 0 0;
+  color: rgba(190, 209, 239, 0.65);
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.login-3129 .Login-form {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  gap: 11px;
+}
+
+.login-3129 .Login-field {
+  position: relative;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid rgba(121, 164, 235, 0.16);
+  border-radius: 15px;
+  background: rgba(5, 11, 28, 0.7);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.02),
+    0 0 0 rgba(73, 144, 255, 0);
+  transition:
+    border-color 0.24s ease,
+    background 0.24s ease,
+    box-shadow 0.24s ease,
+    transform 0.24s ease;
+}
+
+.login-3129 .Login-field:hover {
+  border-color: rgba(124, 181, 255, 0.28);
+  background: rgba(8, 15, 36, 0.82);
+}
+
+.login-3129 .Login-field:focus-within {
+  border-color: rgba(104, 182, 255, 0.62);
+  background: rgba(9, 18, 42, 0.94);
+  box-shadow:
+    0 0 0 3px rgba(82, 148, 255, 0.07),
+    0 0 24px rgba(67, 137, 255, 0.09);
+  transform: translateY(-1px);
+}
+
+.login-3129 .Login-field-icon {
+  width: 52px;
+  flex: 0 0 52px;
+  display: grid;
+  place-items: center;
+  color: #7196ca;
+  font-size: 18px;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.login-3129 .Login-field:focus-within .Login-field-icon {
+  color: #94d0ff;
+  transform: scale(1.08);
+}
+
+.login-3129 .Login-field-content {
+  min-width: 0;
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+
+.login-3129 .Login-label {
+  color: #667c9f;
+  font-size: 7px;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+}
+
+.login-3129 .Login-field input {
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+  color: #edf6ff;
+  background: transparent;
+  font-size: 11px;
+  font-weight: 600;
+  caret-color: #7acbff;
+}
+
+.login-3129 .Login-field input::placeholder {
+  color: #566985;
+  opacity: 1;
+}
+
+.login-3129 .Login-field-state {
+  width: 47px;
+  flex: 0 0 47px;
+  display: grid;
+  place-items: center;
+  color: #5f7396;
+  font-size: 16px;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.login-3129 .Login-field:hover .Login-field-state {
+  color: #85b9e9;
+}
+
+.login-3129 .Login-field:focus-within .Login-field-state {
+  color: #7ecbff;
+  transform: scale(1.05);
+}
+
+.login-3129 .Login-field-beam {
+  position: absolute;
+  left: 13px;
+  right: 13px;
+  bottom: 0;
+  height: 1px;
+  opacity: 0;
+  transform: scaleX(0.2);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #68c9ff,
+    #8d7dff,
+    transparent
+  );
+  transition:
+    opacity 0.24s ease,
+    transform 0.24s ease;
+}
+
+.login-3129 .Login-field:focus-within .Login-field-beam {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.login-3129 .Login-options {
+  margin: 1px 2px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.login-3129 .Login-remember {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  color: #8798b9;
+  font-size: 9px;
+  user-select: none;
+}
+
+.login-3129 .Login-remember input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.login-3129 .Login-checkbox {
+  width: 16px;
+  height: 16px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(123, 165, 230, 0.3);
+  border-radius: 5px;
+  color: #03101d;
+  background: rgba(7, 15, 34, 0.82);
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.login-3129 .Login-checkbox i {
+  opacity: 0;
+  font-size: 11px;
+  font-weight: 900;
+  transform: scale(0.5);
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease;
+}
+
+.login-3129 .Login-remember:hover .Login-checkbox {
+  border-color: rgba(122, 191, 255, 0.52);
+  transform: translateY(-1px);
+}
+
+.login-3129 .Login-remember input:checked + .Login-checkbox {
+  border-color: rgba(105, 207, 255, 0.72);
+  background: linear-gradient(135deg, #68e4ff, #7e8fff);
+  box-shadow: 0 0 14px rgba(88, 173, 255, 0.3);
+}
+
+.login-3129 .Login-remember input:checked + .Login-checkbox i {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.login-3129 .Login-options a {
+  position: relative;
+  color: #84beff;
+  text-decoration: none;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.login-3129 .Login-options a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: -3px;
+  height: 1px;
+  background: linear-gradient(90deg, #68caff, #a17cff);
+  transition: right 0.2s ease;
+}
+
+.login-3129 .Login-options a:hover::after {
+  right: 0;
+}
+
+.login-3129 .Login-submit {
+  position: relative;
+  width: 100%;
+  min-height: 60px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid rgba(128, 200, 255, 0.62);
+  border-radius: 15px;
+  color: #fff;
+  background:
+    linear-gradient(
+      90deg,
+      #22d3ee,
+      #6366f1,
+      #a855f7,
+      #ec4899,
+      #22d3ee
+    );
+  background-size: 300% 100%;
+  box-shadow:
+    0 11px 30px rgba(65, 89, 225, 0.28),
+    0 0 25px rgba(79, 151, 255, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  animation: login-3129-submit-gradient 8s linear infinite;
+  transition:
+    transform 0.2s ease,
+    filter 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.login-3129 .Login-submit:hover {
+  filter: brightness(1.09);
+  transform: translateY(-2px);
+  box-shadow:
+    0 15px 35px rgba(65, 89, 225, 0.35),
+    0 0 34px rgba(79, 151, 255, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.34);
+}
+
+.login-3129 .Login-submit:active {
+  transform: translateY(0) scale(0.986);
+}
+
+.login-3129 .Login-submit-glow {
+  position: absolute;
+  inset: 0;
+  opacity: 0.32;
+  background:
+    radial-gradient(
+      circle at 50% 130%,
+      rgba(255, 255, 255, 0.45),
+      transparent 65%
+    );
+  transition: opacity 0.2s ease;
+}
+
+.login-3129 .Login-submit:hover .Login-submit-glow {
+  opacity: 0.55;
+}
+
+.login-3129 .Login-submit-shine {
+  position: absolute;
+  top: -90%;
+  left: -38%;
+  width: 25%;
+  height: 280%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.52),
+    transparent
+  );
+  transform: rotate(18deg);
+  animation: login-3129-submit-shine 4.2s ease-in-out infinite;
+}
+
+.login-3129 .Login-submit-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  min-height: 58px;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 11px;
+}
+
+.login-3129 .Login-submit-icon {
+  width: 33px;
+  height: 33px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.09);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.login-3129 .Login-submit-icon i {
+  font-size: 16px;
+}
+
+.login-3129 .Login-submit-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+
+.login-3129 .Login-submit-copy strong {
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.login-3129 .Login-submit-copy small {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 7px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.login-3129 .Login-submit-arrow {
+  font-size: 17px;
+  transition: transform 0.2s ease;
+}
+
+.login-3129 .Login-submit:hover .Login-submit-arrow {
+  transform: translate(3px, -3px);
+}
+
+.login-3129 .Login-divider {
+  margin: 21px 0 15px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 11px;
+}
+
+.login-3129 .Login-divider > span {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(124, 164, 230, 0.18)
+  );
+}
+
+.login-3129 .Login-divider > span:last-child {
+  transform: rotate(180deg);
+}
+
+.login-3129 .Login-divider small {
+  color: #60708f;
+  font-size: 7px;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+}
+
+.login-3129 .Login-socials {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.login-3129 .Login-socials button {
+  position: relative;
+  height: 48px;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  border: 1px solid rgba(119, 160, 224, 0.15);
+  border-radius: 13px;
+  color: #93a9cd;
+  background: rgba(6, 13, 30, 0.6);
+  font-size: 9px;
+  font-weight: 800;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.login-3129 .Login-socials button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  background:
+    radial-gradient(
+      circle at 50% 120%,
+      rgba(84, 153, 255, 0.16),
+      transparent 70%
+    );
+  transition: opacity 0.2s ease;
+}
+
+.login-3129 .Login-socials button:hover {
+  color: #e7f4ff;
+  border-color: rgba(113, 187, 255, 0.34);
+  background: rgba(17, 31, 66, 0.74);
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.18),
+    0 0 18px rgba(74, 137, 255, 0.08);
+}
+
+.login-3129 .Login-socials button:hover::before {
+  opacity: 1;
+}
+
+.login-3129 .Login-social-icon,
+.login-3129 .Login-socials button > span:last-child {
+  position: relative;
+  z-index: 1;
+}
+
+.login-3129 .Login-social-icon {
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.login-3129 .Login-social-icon i {
+  font-size: 14px;
+}
+
+.login-3129 .Login-footer {
+  margin-top: auto;
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: #70809f;
+  font-size: 8px;
+}
+
+.login-3129 .Login-register {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.login-3129 .Login-register a {
+  color: #8fc0ff;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.login-3129 .Login-register a:hover {
+  color: #c5e4ff;
+}
+
+.login-3129 .Login-encryption {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #61718f;
+  white-space: nowrap;
+}
+
+.login-3129 .Login-encryption i {
+  color: #64dcb1;
+  font-size: 11px;
+}
+
+@keyframes login-3129-aurora {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(180deg) scale(1.08);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes login-3129-nebula-one {
+  from {
+    transform: translate(-20px, -10px) scale(0.92);
+  }
+
+  to {
+    transform: translate(55px, 42px) scale(1.15);
+  }
+}
+
+@keyframes login-3129-nebula-two {
+  from {
+    transform: translate(20px, -28px) scale(0.9);
+  }
+
+  to {
+    transform: translate(-58px, 36px) scale(1.16);
+  }
+}
+
+@keyframes login-3129-nebula-three {
+  from {
+    transform: translateX(-34px) scale(0.9);
+  }
+
+  to {
+    transform: translateX(42px) scale(1.14);
+  }
+}
+
+@keyframes login-3129-grid-drift {
+  0% {
+    background-position: 0 0, 0 0;
+  }
+
+  100% {
+    background-position: 28px 28px, 28px 28px;
+  }
+}
+
+@keyframes login-3129-scan {
+  from {
+    transform: translateY(-180px);
+  }
+
+  to {
+    transform: translateY(820px);
+  }
+}
+
+@keyframes login-3129-star {
+  0%,
+  100% {
+    opacity: 0.16;
+    transform: scale(0.7);
+  }
+
+  44% {
+    opacity: 1;
+    transform: scale(1.35);
+  }
+
+  72% {
+    opacity: 0.48;
+    transform: scale(0.9);
+  }
+}
+
+@keyframes login-3129-orbit-one {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes login-3129-orbit-two {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes login-3129-orbit-three {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes login-3129-core-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+@keyframes login-3129-halo-one {
+  0%,
+  100% {
+    opacity: 0.18;
+    transform: scale(0.82);
+  }
+
+  50% {
+    opacity: 0.7;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes login-3129-halo-two {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes login-3129-core-pulse {
+  0%,
+  100% {
+    transform: scale(0.88);
+    filter: brightness(0.9);
+  }
+
+  50% {
+    transform: scale(1.18);
+    filter: brightness(1.25);
+  }
+}
+
+@keyframes login-3129-panel-beam {
+  from {
+    transform: translateX(-50%) rotate(10deg) scaleX(0.88);
+    opacity: 0.45;
+  }
+
+  to {
+    transform: translateX(-50%) rotate(26deg) scaleX(1.15);
+    opacity: 0.9;
+  }
+}
+
+@keyframes login-3129-brand-shine {
+  0%,
+  35% {
+    transform: rotate(-42deg) translateY(-32px);
+    opacity: 0;
+  }
+
+  48% {
+    opacity: 1;
+  }
+
+  66%,
+  100% {
+    transform: rotate(-42deg) translateY(35px);
+    opacity: 0;
+  }
+}
+
+@keyframes login-3129-status-pulse {
+  0%,
+  100% {
+    opacity: 0.48;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.22);
+  }
+}
+
+@keyframes login-3129-submit-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 300% 50%;
+  }
+}
+
+@keyframes login-3129-submit-shine {
+  0%,
+  54% {
+    left: -38%;
+    opacity: 0;
+  }
+
+  65% {
+    opacity: 1;
+  }
+
+  83%,
+  100% {
+    left: 126%;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .login-3129.Login {
+    width: min(100%, 430px);
+  }
+
+  .login-3129 .Login-panel {
+    padding: 27px 24px 24px;
+  }
+
+  .login-3129 .Login-heading h2 {
+    font-size: 34px;
+  }
+
+  .login-3129 .Login-core {
+    opacity: 0.7;
+  }
+}
+
+@media (max-width: 460px) {
+  .login-3129.Login {
+    min-height: 540px;
+    border-radius: 24px;
+  }
+
+  .login-3129 .Login-panel {
+    min-height: 540px;
+    padding: 24px 19px 21px;
+  }
+
+  .login-3129 .Login-topbar {
+    margin-bottom: 28px;
+  }
+
+  .login-3129 .Login-status {
+    display: none;
+  }
+
+  .login-3129 .Login-heading h2 {
+    font-size: 31px;
+  }
+
+  .login-3129 .Login-socials button > span:last-child {
+    display: none;
+  }
+
+  .login-3129 .Login-socials button {
+    height: 44px;
+  }
+
+  .login-3129 .Login-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .login-3129 *,
+  .login-3129 *::before,
+  .login-3129 *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}`,
+},
+
 ];
