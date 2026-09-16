@@ -14037,5 +14037,3302 @@ export const logins = [
   }
 }`,
 },
+  {
+    id: 3130,
+    name: "Aurora Glass Login",
+    preview: (
+      <div className="login-3130">
+        <div className="login-3130-orb login-3130-orb-1"></div>
+        <div className="login-3130-orb login-3130-orb-2"></div>
+
+        <div className="login-3130-card">
+          <div className="login-3130-logo">
+            <i className="ri-shining-2-fill"></i>
+          </div>
+
+          <div className="login-3130-heading">
+            <span>WELCOME BACK</span>
+            <h2>Sign in to Aurora</h2>
+            <p>Continue to your workspace and manage your projects.</p>
+          </div>
+
+          <div className="login-3130-form">
+            <label>
+              <span>Email address</span>
+              <div className="login-3130-input">
+                <i className="ri-mail-line"></i>
+                <input type="email" placeholder="name@company.com" />
+              </div>
+            </label>
+
+            <label>
+              <div className="login-3130-label-row">
+                <span>Password</span>
+                <a href="#" onClick={(event) => event.preventDefault()}>
+                  Forgot?
+                </a>
+              </div>
+
+              <div className="login-3130-input">
+                <i className="ri-lock-2-line"></i>
+                <input type="password" placeholder="••••••••" />
+                <i className="ri-eye-line"></i>
+              </div>
+            </label>
+
+            <label className="login-3130-remember">
+              <input type="checkbox" defaultChecked />
+              <span>Keep me signed in</span>
+            </label>
+
+            <button type="button" className="login-3130-submit">
+              Sign in
+              <i className="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+          <div className="login-3130-divider">
+            <span></span>
+            <p>OR</p>
+            <span></span>
+          </div>
+
+          <div className="login-3130-socials">
+            <button type="button">
+              <i className="ri-google-fill"></i>
+              Google
+            </button>
+
+            <button type="button">
+              <i className="ri-github-fill"></i>
+              GitHub
+            </button>
+          </div>
+
+          <p className="login-3130-footer">
+            New to Aurora?
+            <a href="#" onClick={(event) => event.preventDefault()}>
+              Create account
+            </a>
+          </p>
+        </div>
+      </div>
+    ),
+    html: `<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<div class="login-3130">
+    <div class="login-3130-orb login-3130-orb-1"></div>
+    <div class="login-3130-orb login-3130-orb-2"></div>
+
+    <div class="login-3130-card">
+        <div class="login-3130-logo">
+            <i class="ri-shining-2-fill"></i>
+        </div>
+
+        <div class="login-3130-heading">
+            <span>WELCOME BACK</span>
+            <h2>Sign in to Aurora</h2>
+            <p>Continue to your workspace and manage your projects.</p>
+        </div>
+
+        <div class="login-3130-form">
+            <label>
+                <span>Email address</span>
+
+                <div class="login-3130-input">
+                    <i class="ri-mail-line"></i>
+                    <input type="email" placeholder="name@company.com">
+                </div>
+            </label>
+
+            <label>
+                <div class="login-3130-label-row">
+                    <span>Password</span>
+                    <a href="#">Forgot?</a>
+                </div>
+
+                <div class="login-3130-input">
+                    <i class="ri-lock-2-line"></i>
+                    <input type="password" placeholder="••••••••">
+                    <i class="ri-eye-line"></i>
+                </div>
+            </label>
+
+            <label class="login-3130-remember">
+                <input type="checkbox" checked>
+                <span>Keep me signed in</span>
+            </label>
+
+            <button class="login-3130-submit" type="button">
+                Sign in
+                <i class="ri-arrow-right-line"></i>
+            </button>
+        </div>
+
+        <div class="login-3130-divider">
+            <span></span>
+            <p>OR</p>
+            <span></span>
+        </div>
+
+        <div class="login-3130-socials">
+            <button type="button">
+                <i class="ri-google-fill"></i>
+                Google
+            </button>
+
+            <button type="button">
+                <i class="ri-github-fill"></i>
+                GitHub
+            </button>
+        </div>
+
+        <p class="login-3130-footer">
+            New to Aurora?
+            <a href="#">Create account</a>
+        </p>
+    </div>
+</div>`,
+    css: `.login-3130 {
+    position: relative;
+    width: 340px;
+    padding: 28px;
+    overflow: hidden;
+    border-radius: 26px;
+    color: #f8fafc;
+    background: #080d19;
+    font-family: Inter, Arial, sans-serif;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, .45);
+}
+
+.login-3130 * {
+    box-sizing: border-box;
+}
+
+.login-3130-orb {
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(45px);
+    pointer-events: none;
+    animation: login3130Float 7s ease-in-out infinite alternate;
+}
+
+.login-3130-orb-1 {
+    width: 180px;
+    height: 180px;
+    left: -80px;
+    top: -70px;
+    background: rgba(59, 130, 246, .24);
+}
+
+.login-3130-orb-2 {
+    width: 170px;
+    height: 170px;
+    right: -85px;
+    bottom: -65px;
+    background: rgba(168, 85, 247, .2);
+    animation-delay: -3s;
+}
+
+.login-3130-card {
+    position: relative;
+    z-index: 2;
+}
+
+.login-3130-logo {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 22px;
+    border: 1px solid rgba(148, 190, 255, .22);
+    border-radius: 13px;
+    color: #9acbff;
+    background: rgba(255, 255, 255, .06);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .08);
+}
+
+.login-3130-logo i {
+    font-size: 20px;
+}
+
+.login-3130-heading > span {
+    color: #6faeff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .2em;
+}
+
+.login-3130-heading h2 {
+    margin: 7px 0 7px;
+    font-size: 27px;
+    letter-spacing: -.04em;
+}
+
+.login-3130-heading p {
+    margin: 0;
+    color: #8492ad;
+    font-size: 11px;
+    line-height: 1.55;
+}
+
+.login-3130-form {
+    margin-top: 24px;
+    display: grid;
+    gap: 14px;
+}
+
+.login-3130-form label > span,
+.login-3130-label-row span {
+    color: #aab5ca;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.login-3130-label-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-3130-label-row a {
+    color: #75b4ff;
+    font-size: 8px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.login-3130-input {
+    height: 44px;
+    margin-top: 6px;
+    padding: 0 13px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(136, 159, 198, .17);
+    border-radius: 11px;
+    background: rgba(4, 9, 19, .66);
+    transition: .2s ease;
+}
+
+.login-3130-input:focus-within {
+    border-color: #4e9cff;
+    box-shadow: 0 0 0 3px rgba(78, 156, 255, .1);
+    transform: translateY(-1px);
+}
+
+.login-3130-input i {
+    color: #6d7d99;
+    font-size: 14px;
+}
+
+.login-3130-input input {
+    width: 100%;
+    outline: none;
+    border: 0;
+    color: #edf6ff;
+    background: transparent;
+    font-size: 10px;
+}
+
+.login-3130-input input::placeholder {
+    color: #526078;
+}
+
+.login-3130-remember {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.login-3130-remember input {
+    accent-color: #579cff;
+}
+
+.login-3130-submit {
+    position: relative;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0;
+    border-radius: 11px;
+    color: white;
+    background: linear-gradient(100deg, #3b82f6, #6366f1, #8b5cf6);
+    background-size: 200% 100%;
+    font-size: 10px;
+    font-weight: 800;
+    animation: login3130Button 5s linear infinite;
+    transition: .2s ease;
+}
+
+.login-3130-submit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(76, 100, 255, .28);
+}
+
+.login-3130-submit i {
+    transition: transform .2s ease;
+}
+
+.login-3130-submit:hover i {
+    transform: translateX(4px);
+}
+
+.login-3130-divider {
+    margin: 18px 0;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-3130-divider span {
+    height: 1px;
+    background: rgba(148, 163, 184, .15);
+}
+
+.login-3130-divider p {
+    margin: 0;
+    color: #5d6b83;
+    font-size: 7px;
+}
+
+.login-3130-socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9px;
+}
+
+.login-3130-socials button {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointer;
+    border: 1px solid rgba(139, 160, 196, .16);
+    border-radius: 10px;
+    color: #b6c1d6;
+    background: rgba(255, 255, 255, .035);
+    font-size: 9px;
+    font-weight: 700;
+    transition: .2s ease;
+}
+
+.login-3130-socials button:hover {
+    color: white;
+    border-color: rgba(104, 167, 255, .4);
+    background: rgba(80, 135, 255, .08);
+    transform: translateY(-2px);
+}
+
+.login-3130-footer {
+    margin: 19px 0 0;
+    color: #78859c;
+    font-size: 9px;
+    text-align: center;
+}
+
+.login-3130-footer a {
+    margin-left: 4px;
+    color: #79b8ff;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+@keyframes login3130Float {
+    from {
+        transform: translate(0, 0) scale(1);
+    }
+
+    to {
+        transform: translate(25px, 20px) scale(1.15);
+    }
+}
+
+@keyframes login3130Button {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 200% 50%;
+    }
+}`,
+  },
+
+  {
+    id: 3131,
+    name: "Fintech Secure Login",
+    preview: (
+      <div className="login-3131">
+        <div className="login-3131-header">
+          <div className="login-3131-logo">
+            <i className="ri-bank-card-line"></i>
+          </div>
+
+          <div>
+            <strong>Finora</strong>
+            <span>Secure banking</span>
+          </div>
+        </div>
+
+        <div className="login-3131-title">
+          <h2>Welcome back</h2>
+          <p>Sign in securely to continue to your account.</p>
+        </div>
+
+        <div className="login-3131-notice">
+          <i className="ri-shield-check-line"></i>
+          Protected by bank-level encryption
+        </div>
+
+        <div className="login-3131-form">
+          <label>
+            Email
+            <div>
+              <i className="ri-user-3-line"></i>
+              <input type="email" placeholder="you@example.com" />
+            </div>
+          </label>
+
+          <label>
+            Password
+            <div>
+              <i className="ri-lock-line"></i>
+              <input type="password" placeholder="Enter password" />
+              <i className="ri-eye-line"></i>
+            </div>
+          </label>
+
+          <button type="button">
+            Secure login
+            <i className="ri-lock-unlock-line"></i>
+          </button>
+        </div>
+
+        <div className="login-3131-help">
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            Forgot password?
+          </a>
+
+          <span>•</span>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            Need help?
+          </a>
+        </div>
+      </div>
+    ),
+    html: `<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<div class="login-3131">
+    <div class="login-3131-header">
+        <div class="login-3131-logo">
+            <i class="ri-bank-card-line"></i>
+        </div>
+
+        <div>
+            <strong>Finora</strong>
+            <span>Secure banking</span>
+        </div>
+    </div>
+
+    <div class="login-3131-title">
+        <h2>Welcome back</h2>
+        <p>Sign in securely to continue to your account.</p>
+    </div>
+
+    <div class="login-3131-notice">
+        <i class="ri-shield-check-line"></i>
+        Protected by bank-level encryption
+    </div>
+
+    <div class="login-3131-form">
+        <label>
+            Email
+
+            <div>
+                <i class="ri-user-3-line"></i>
+                <input type="email" placeholder="you@example.com">
+            </div>
+        </label>
+
+        <label>
+            Password
+
+            <div>
+                <i class="ri-lock-line"></i>
+                <input type="password" placeholder="Enter password">
+                <i class="ri-eye-line"></i>
+            </div>
+        </label>
+
+        <button type="button">
+            Secure login
+            <i class="ri-lock-unlock-line"></i>
+        </button>
+    </div>
+
+    <div class="login-3131-help">
+        <a href="#">Forgot password?</a>
+        <span>•</span>
+        <a href="#">Need help?</a>
+    </div>
+</div>`,
+    css: `.login-3131 {
+    width: 340px;
+    padding: 27px;
+    border: 1px solid #dce6e1;
+    border-radius: 20px;
+    color: #17211d;
+    background: #ffffff;
+    box-shadow: 0 18px 50px rgba(30, 54, 44, .1);
+    font-family: Inter, Arial, sans-serif;
+}
+
+.login-3131 * {
+    box-sizing: border-box;
+}
+
+.login-3131-header {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.login-3131-logo {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    color: #fff;
+    background: #0f7a55;
+    box-shadow: 0 7px 18px rgba(15, 122, 85, .24);
+    animation: login3131Logo 4s ease-in-out infinite;
+}
+
+.login-3131-logo i {
+    font-size: 19px;
+}
+
+.login-3131-header > div:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-3131-header strong {
+    font-size: 13px;
+}
+
+.login-3131-header span {
+    margin-top: 2px;
+    color: #839189;
+    font-size: 8px;
+}
+
+.login-3131-title {
+    margin-top: 27px;
+}
+
+.login-3131-title h2 {
+    margin: 0;
+    font-size: 25px;
+    letter-spacing: -.035em;
+}
+
+.login-3131-title p {
+    margin: 7px 0 0;
+    color: #748079;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.login-3131-notice {
+    margin-top: 17px;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border: 1px solid #d8eee5;
+    border-radius: 10px;
+    color: #39745e;
+    background: #f2faf7;
+    font-size: 8px;
+    font-weight: 700;
+}
+
+.login-3131-notice i {
+    color: #159063;
+    font-size: 13px;
+}
+
+.login-3131-form {
+    margin-top: 20px;
+    display: grid;
+    gap: 14px;
+}
+
+.login-3131-form label {
+    color: #536159;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.login-3131-form label > div {
+    height: 44px;
+    margin-top: 6px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    border: 1px solid #d9e2dd;
+    border-radius: 10px;
+    background: #fbfcfc;
+    transition: .2s ease;
+}
+
+.login-3131-form label > div:focus-within {
+    border-color: #2e9c76;
+    background: #fff;
+    box-shadow: 0 0 0 3px rgba(46, 156, 118, .08);
+}
+
+.login-3131-form label i {
+    color: #93a19a;
+    font-size: 14px;
+}
+
+.login-3131-form input {
+    width: 100%;
+    outline: none;
+    border: 0;
+    color: #18211d;
+    background: transparent;
+    font-size: 10px;
+}
+
+.login-3131-form input::placeholder {
+    color: #a8b1ac;
+}
+
+.login-3131-form button {
+    height: 44px;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background: #0f7a55;
+    font-size: 10px;
+    font-weight: 800;
+    box-shadow: 0 8px 20px rgba(15, 122, 85, .2);
+    transition: .2s ease;
+}
+
+.login-3131-form button:hover {
+    background: #0b6949;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(15, 122, 85, .25);
+}
+
+.login-3131-help {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    color: #a1aaa5;
+    font-size: 8px;
+}
+
+.login-3131-help a {
+    color: #47816b;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@keyframes login3131Logo {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-3px);
+    }
+}`,
+  },
+
+  {
+    id: 3132,
+    name: "Minimal SaaS Login",
+    preview: (
+      <div className="login-3132">
+        <div className="login-3132-brand">
+          <span>
+            <i className="ri-shape-2-fill"></i>
+          </span>
+          <strong>Frame</strong>
+        </div>
+
+        <div className="login-3132-heading">
+          <h2>Sign in</h2>
+          <p>Enter your details to access your workspace.</p>
+        </div>
+
+        <div className="login-3132-form">
+          <input type="email" placeholder="Email address" />
+
+          <input type="password" placeholder="Password" />
+
+          <div className="login-3132-row">
+            <label>
+              <input type="checkbox" defaultChecked />
+              Remember me
+            </label>
+
+            <a href="#" onClick={(event) => event.preventDefault()}>
+              Forgot password
+            </a>
+          </div>
+
+          <button type="button">Continue</button>
+        </div>
+
+        <div className="login-3132-separator">
+          <span></span>
+          <p>OR</p>
+          <span></span>
+        </div>
+
+        <button className="login-3132-google" type="button">
+          <i className="ri-google-fill"></i>
+          Continue with Google
+        </button>
+
+        <p className="login-3132-register">
+          Don't have an account?
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            Sign up
+          </a>
+        </p>
+      </div>
+    ),
+    html: `<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<div class="login-3132">
+    <div class="login-3132-brand">
+        <span>
+            <i class="ri-shape-2-fill"></i>
+        </span>
+        <strong>Frame</strong>
+    </div>
+
+    <div class="login-3132-heading">
+        <h2>Sign in</h2>
+        <p>Enter your details to access your workspace.</p>
+    </div>
+
+    <div class="login-3132-form">
+        <input type="email" placeholder="Email address">
+        <input type="password" placeholder="Password">
+
+        <div class="login-3132-row">
+            <label>
+                <input type="checkbox" checked>
+                Remember me
+            </label>
+
+            <a href="#">Forgot password</a>
+        </div>
+
+        <button type="button">Continue</button>
+    </div>
+
+    <div class="login-3132-separator">
+        <span></span>
+        <p>OR</p>
+        <span></span>
+    </div>
+
+    <button class="login-3132-google" type="button">
+        <i class="ri-google-fill"></i>
+        Continue with Google
+    </button>
+
+    <p class="login-3132-register">
+        Don't have an account?
+        <a href="#">Sign up</a>
+    </p>
+</div>`,
+    css: `.login-3132 {
+    width: 330px;
+    padding: 30px;
+    border: 1px solid #e7e7eb;
+    border-radius: 18px;
+    color: #18181b;
+    background: #ffffff;
+    box-shadow: 0 20px 60px rgba(24, 24, 27, .08);
+    font-family: Inter, Arial, sans-serif;
+}
+
+.login-3132 * {
+    box-sizing: border-box;
+}
+
+.login-3132-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.login-3132-brand span {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    color: white;
+    background: #18181b;
+}
+
+.login-3132-brand strong {
+    font-size: 13px;
+    letter-spacing: -.02em;
+}
+
+.login-3132-heading {
+    margin-top: 31px;
+}
+
+.login-3132-heading h2 {
+    margin: 0;
+    font-size: 26px;
+    letter-spacing: -.04em;
+}
+
+.login-3132-heading p {
+    margin: 7px 0 0;
+    color: #71717a;
+    font-size: 10px;
+}
+
+.login-3132-form {
+    margin-top: 23px;
+    display: grid;
+    gap: 11px;
+}
+
+.login-3132-form > input {
+    height: 44px;
+    padding: 0 13px;
+    outline: none;
+    border: 1px solid #e0e0e5;
+    border-radius: 9px;
+    color: #18181b;
+    background: #fff;
+    font-size: 10px;
+    transition: .2s ease;
+}
+
+.login-3132-form > input:focus {
+    border-color: #18181b;
+    box-shadow: 0 0 0 3px rgba(24, 24, 27, .06);
+}
+
+.login-3132-form > input::placeholder {
+    color: #a1a1aa;
+}
+
+.login-3132-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.login-3132-row label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #71717a;
+    font-size: 8px;
+}
+
+.login-3132-row input {
+    accent-color: #18181b;
+}
+
+.login-3132-row a {
+    color: #18181b;
+    font-size: 8px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.login-3132-form > button {
+    height: 43px;
+    margin-top: 4px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 9px;
+    color: white;
+    background: #18181b;
+    font-size: 10px;
+    font-weight: 700;
+    transition: .2s ease;
+}
+
+.login-3132-form > button:hover {
+    background: #303036;
+    transform: translateY(-1px);
+}
+
+.login-3132-separator {
+    margin: 20px 0 15px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 9px;
+}
+
+.login-3132-separator span {
+    height: 1px;
+    background: #ececf0;
+}
+
+.login-3132-separator p {
+    margin: 0;
+    color: #a1a1aa;
+    font-size: 7px;
+}
+
+.login-3132-google {
+    width: 100%;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointer;
+    border: 1px solid #dedee3;
+    border-radius: 9px;
+    color: #3f3f46;
+    background: white;
+    font-size: 9px;
+    font-weight: 700;
+    transition: .2s ease;
+}
+
+.login-3132-google:hover {
+    background: #fafafa;
+    border-color: #cfcfd5;
+    transform: translateY(-1px);
+}
+
+.login-3132-google i {
+    font-size: 14px;
+}
+
+.login-3132-register {
+    margin: 22px 0 0;
+    color: #71717a;
+    font-size: 9px;
+    text-align: center;
+}
+
+.login-3132-register a {
+    margin-left: 4px;
+    color: #18181b;
+    font-weight: 800;
+    text-decoration: none;
+}`,
+  },
+
+  {
+    id: 3133,
+    name: "Warm Studio Login",
+    preview: (
+      <div className="login-3133">
+        <div className="login-3133-decoration login-3133-decoration-1"></div>
+        <div className="login-3133-decoration login-3133-decoration-2"></div>
+
+        <div className="login-3133-brand">
+          <div>
+            <i className="ri-palette-line"></i>
+          </div>
+
+          <span>Canvas Studio</span>
+        </div>
+
+        <div className="login-3133-heading">
+          <h2>Hello again.</h2>
+          <p>Sign in and continue creating something wonderful.</p>
+        </div>
+
+        <div className="login-3133-form">
+          <label>
+            Email
+            <input type="email" placeholder="hello@studio.com" />
+          </label>
+
+          <label>
+            Password
+            <input type="password" placeholder="Your password" />
+          </label>
+
+          <div className="login-3133-options">
+            <label>
+              <input type="checkbox" defaultChecked />
+              Remember
+            </label>
+
+            <a href="#" onClick={(event) => event.preventDefault()}>
+              Reset password
+            </a>
+          </div>
+
+          <button type="button">
+            Sign in
+            <i className="ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+        <p className="login-3133-footer">
+          No account yet?
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            Join the studio
+          </a>
+        </p>
+      </div>
+    ),
+    html: `<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<div class="login-3133">
+    <div class="login-3133-decoration login-3133-decoration-1"></div>
+    <div class="login-3133-decoration login-3133-decoration-2"></div>
+
+    <div class="login-3133-brand">
+        <div>
+            <i class="ri-palette-line"></i>
+        </div>
+
+        <span>Canvas Studio</span>
+    </div>
+
+    <div class="login-3133-heading">
+        <h2>Hello again.</h2>
+        <p>Sign in and continue creating something wonderful.</p>
+    </div>
+
+    <div class="login-3133-form">
+        <label>
+            Email
+            <input type="email" placeholder="hello@studio.com">
+        </label>
+
+        <label>
+            Password
+            <input type="password" placeholder="Your password">
+        </label>
+
+        <div class="login-3133-options">
+            <label>
+                <input type="checkbox" checked>
+                Remember
+            </label>
+
+            <a href="#">Reset password</a>
+        </div>
+
+        <button type="button">
+            Sign in
+            <i class="ri-arrow-right-line"></i>
+        </button>
+    </div>
+
+    <p class="login-3133-footer">
+        No account yet?
+        <a href="#">Join the studio</a>
+    </p>
+</div>`,
+    css: `.login-3133 {
+    position: relative;
+    width: 335px;
+    padding: 29px;
+    overflow: hidden;
+    border: 1px solid #f0dfd4;
+    border-radius: 24px;
+    color: #38271f;
+    background: #fffaf6;
+    box-shadow: 0 24px 60px rgba(95, 58, 39, .12);
+    font-family: Inter, Arial, sans-serif;
+}
+
+.login-3133 * {
+    box-sizing: border-box;
+}
+
+.login-3133-decoration {
+    position: absolute;
+    border-radius: 999px;
+    pointer-events: none;
+    animation: login3133Float 8s ease-in-out infinite alternate;
+}
+
+.login-3133-decoration-1 {
+    width: 130px;
+    height: 130px;
+    right: -55px;
+    top: -50px;
+    background: #ffd8c2;
+}
+
+.login-3133-decoration-2 {
+    width: 90px;
+    height: 90px;
+    left: -45px;
+    bottom: -34px;
+    background: #f6c8b6;
+    animation-delay: -3s;
+}
+
+.login-3133-brand {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.login-3133-brand > div {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border-radius: 11px;
+    color: white;
+    background: #d76f49;
+}
+
+.login-3133-brand span {
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.login-3133-heading {
+    position: relative;
+    z-index: 2;
+    margin-top: 32px;
+}
+
+.login-3133-heading h2 {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 31px;
+    font-weight: 500;
+    letter-spacing: -.035em;
+}
+
+.login-3133-heading p {
+    max-width: 245px;
+    margin: 8px 0 0;
+    color: #8b7468;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.login-3133-form {
+    position: relative;
+    z-index: 2;
+    margin-top: 25px;
+    display: grid;
+    gap: 14px;
+}
+
+.login-3133-form > label {
+    color: #6f574c;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.login-3133-form > label input {
+    width: 100%;
+    height: 44px;
+    margin-top: 6px;
+    padding: 0 13px;
+    outline: none;
+    border: 1px solid #ead7cd;
+    border-radius: 11px;
+    color: #38271f;
+    background: rgba(255, 255, 255, .8);
+    font-size: 10px;
+    transition: .2s ease;
+}
+
+.login-3133-form > label input:focus {
+    border-color: #d76f49;
+    box-shadow: 0 0 0 3px rgba(215, 111, 73, .08);
+}
+
+.login-3133-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-3133-options label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #8b7468;
+    font-size: 8px;
+}
+
+.login-3133-options input {
+    accent-color: #d76f49;
+}
+
+.login-3133-options a {
+    color: #bd5b39;
+    font-size: 8px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.login-3133-form > button {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 12px;
+    color: white;
+    background: #d76f49;
+    font-size: 10px;
+    font-weight: 800;
+    box-shadow: 0 10px 24px rgba(190, 89, 53, .2);
+    transition: .2s ease;
+}
+
+.login-3133-form > button:hover {
+    background: #c85f3b;
+    transform: translateY(-2px);
+}
+
+.login-3133-form > button i {
+    transition: transform .2s ease;
+}
+
+.login-3133-form > button:hover i {
+    transform: translateX(4px);
+}
+
+.login-3133-footer {
+    position: relative;
+    z-index: 2;
+    margin: 22px 0 0;
+    color: #907b70;
+    font-size: 9px;
+    text-align: center;
+}
+
+.login-3133-footer a {
+    margin-left: 4px;
+    color: #bd5b39;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+@keyframes login3133Float {
+    from {
+        transform: translate(0, 0) scale(1);
+    }
+
+    to {
+        transform: translate(-16px, 18px) scale(1.1);
+    }
+}`,
+  },
+
+  {
+    id: 3134,
+    name: "Corporate Portal Login",
+    preview: (
+      <div className="login-3134">
+        <div className="login-3134-header">
+          <div className="login-3134-company">
+            <span>
+              <i className="ri-building-4-line"></i>
+            </span>
+
+            <div>
+              <strong>Northstar</strong>
+              <p>Enterprise Portal</p>
+            </div>
+          </div>
+
+          <i className="ri-shield-check-fill login-3134-shield"></i>
+        </div>
+
+        <div className="login-3134-heading">
+          <h2>Employee sign in</h2>
+          <p>Use your company credentials to access the portal.</p>
+        </div>
+
+        <div className="login-3134-form">
+          <label>
+            Work email
+            <div>
+              <i className="ri-mail-line"></i>
+              <input type="email" placeholder="name@northstar.com" />
+            </div>
+          </label>
+
+          <label>
+            Password
+            <div>
+              <i className="ri-key-2-line"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+          </label>
+
+          <button type="button">
+            Sign in to portal
+          </button>
+        </div>
+
+        <div className="login-3134-sso">
+          <span></span>
+
+          <button type="button">
+            <i className="ri-microsoft-fill"></i>
+            Continue with Microsoft
+          </button>
+        </div>
+
+        <p className="login-3134-help">
+          Trouble signing in?
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            Contact IT support
+          </a>
+        </p>
+      </div>
+    ),
+    html: `<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<div class="login-3134">
+    <div class="login-3134-header">
+        <div class="login-3134-company">
+            <span>
+                <i class="ri-building-4-line"></i>
+            </span>
+
+            <div>
+                <strong>Northstar</strong>
+                <p>Enterprise Portal</p>
+            </div>
+        </div>
+
+        <i class="ri-shield-check-fill login-3134-shield"></i>
+    </div>
+
+    <div class="login-3134-heading">
+        <h2>Employee sign in</h2>
+        <p>Use your company credentials to access the portal.</p>
+    </div>
+
+    <div class="login-3134-form">
+        <label>
+            Work email
+
+            <div>
+                <i class="ri-mail-line"></i>
+                <input type="email" placeholder="name@northstar.com">
+            </div>
+        </label>
+
+        <label>
+            Password
+
+            <div>
+                <i class="ri-key-2-line"></i>
+                <input type="password" placeholder="Password">
+            </div>
+        </label>
+
+        <button type="button">
+            Sign in to portal
+        </button>
+    </div>
+
+    <div class="login-3134-sso">
+        <span></span>
+
+        <button type="button">
+            <i class="ri-microsoft-fill"></i>
+            Continue with Microsoft
+        </button>
+    </div>
+
+    <p class="login-3134-help">
+        Trouble signing in?
+        <a href="#">Contact IT support</a>
+    </p>
+</div>`,
+    css: `.login-3134 {
+    width: 345px;
+    overflow: hidden;
+    border: 1px solid #dce4ef;
+    border-radius: 18px;
+    color: #142033;
+    background: white;
+    box-shadow: 0 20px 60px rgba(34, 62, 101, .11);
+    font-family: Inter, Arial, sans-serif;
+}
+
+.login-3134 * {
+    box-sizing: border-box;
+}
+
+.login-3134-header {
+    padding: 21px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e7edf4;
+    background: #f8fafc;
+}
+
+.login-3134-company {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-3134-company > span {
+    width: 37px;
+    height: 37px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    color: white;
+    background: #1d4ed8;
+}
+
+.login-3134-company > span i {
+    font-size: 17px;
+}
+
+.login-3134-company div {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-3134-company strong {
+    font-size: 12px;
+}
+
+.login-3134-company p {
+    margin: 2px 0 0;
+    color: #8190a5;
+    font-size: 7px;
+}
+
+.login-3134-shield {
+    color: #1f9b68;
+    font-size: 20px;
+    animation: login3134Shield 3s ease-in-out infinite;
+}
+
+.login-3134-heading {
+    padding: 27px 25px 0;
+}
+
+.login-3134-heading h2 {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: -.03em;
+}
+
+.login-3134-heading p {
+    margin: 7px 0 0;
+    color: #77869b;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.login-3134-form {
+    padding: 23px 25px 0;
+    display: grid;
+    gap: 14px;
+}
+
+.login-3134-form label {
+    color: #56657a;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.login-3134-form label > div {
+    height: 43px;
+    margin-top: 6px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    border: 1px solid #dce4ee;
+    border-radius: 9px;
+    background: #fff;
+    transition: .2s ease;
+}
+
+.login-3134-form label > div:focus-within {
+    border-color: #3978ef;
+    box-shadow: 0 0 0 3px rgba(57, 120, 239, .08);
+}
+
+.login-3134-form i {
+    color: #8393aa;
+}
+
+.login-3134-form input {
+    width: 100%;
+    outline: none;
+    border: 0;
+    color: #162235;
+    background: transparent;
+    font-size: 10px;
+}
+
+.login-3134-form input::placeholder {
+    color: #a5b0c0;
+}
+
+.login-3134-form > button {
+    height: 44px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 9px;
+    color: white;
+    background: #1d4ed8;
+    font-size: 10px;
+    font-weight: 800;
+    box-shadow: 0 7px 17px rgba(29, 78, 216, .2);
+    transition: .2s ease;
+}
+
+.login-3134-form > button:hover {
+    background: #1b44bb;
+    transform: translateY(-1px);
+}
+
+.login-3134-sso {
+    margin: 21px 25px 0;
+}
+
+.login-3134-sso > span {
+    display: block;
+    height: 1px;
+    margin-bottom: 17px;
+    background: #e5eaf1;
+}
+
+.login-3134-sso button {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    border: 1px solid #dbe3ed;
+    border-radius: 9px;
+    color: #42516a;
+    background: white;
+    font-size: 9px;
+    font-weight: 700;
+    transition: .2s ease;
+}
+
+.login-3134-sso button:hover {
+    background: #f8fafc;
+    border-color: #cbd6e3;
+}
+
+.login-3134-sso i {
+    color: #2563eb;
+    font-size: 14px;
+}
+
+.login-3134-help {
+    margin: 22px 0 0;
+    padding: 16px 25px;
+    color: #8896a8;
+    background: #f8fafc;
+    font-size: 8px;
+    text-align: center;
+}
+
+.login-3134-help a {
+    margin-left: 3px;
+    color: #2563eb;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@keyframes login3134Shield {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.08);
+    }
+}`,
+  },
+
+  {
+    id: 3135,
+    name: "Soft Gradient Login",
+    preview: (
+      <div className="login-3135">
+        <div className="login-3135-blob login-3135-blob-a"></div>
+        <div className="login-3135-blob login-3135-blob-b"></div>
+
+        <div className="login-3135-card">
+          <div className="login-3135-icon">
+            <i className="ri-cloud-line"></i>
+          </div>
+
+          <h2>Welcome to Luma</h2>
+          <p>Sign in to sync your work across every device.</p>
+
+          <div className="login-3135-form">
+            <div className="login-3135-input">
+              <i className="ri-mail-line"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+
+            <div className="login-3135-input">
+              <i className="ri-lock-line"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+
+            <button type="button">
+              Continue
+              <i className="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+          <div className="login-3135-socials">
+            <button type="button">
+              <i className="ri-google-fill"></i>
+            </button>
+
+            <button type="button">
+              <i className="ri-apple-fill"></i>
+            </button>
+
+            <button type="button">
+              <i className="ri-github-fill"></i>
+            </button>
+          </div>
+
+          <p className="login-3135-footer">
+            Don't have an account?
+            <a href="#" onClick={(event) => event.preventDefault()}>
+              Get started
+            </a>
+          </p>
+        </div>
+      </div>
+    ),
+    html: `<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<div class="login-3135">
+    <div class="login-3135-blob login-3135-blob-a"></div>
+    <div class="login-3135-blob login-3135-blob-b"></div>
+
+    <div class="login-3135-card">
+        <div class="login-3135-icon">
+            <i class="ri-cloud-line"></i>
+        </div>
+
+        <h2>Welcome to Luma</h2>
+        <p>Sign in to sync your work across every device.</p>
+
+        <div class="login-3135-form">
+            <div class="login-3135-input">
+                <i class="ri-mail-line"></i>
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="login-3135-input">
+                <i class="ri-lock-line"></i>
+                <input type="password" placeholder="Password">
+            </div>
+
+            <button type="button">
+                Continue
+                <i class="ri-arrow-right-line"></i>
+            </button>
+        </div>
+
+        <div class="login-3135-socials">
+            <button type="button">
+                <i class="ri-google-fill"></i>
+            </button>
+
+            <button type="button">
+                <i class="ri-apple-fill"></i>
+            </button>
+
+            <button type="button">
+                <i class="ri-github-fill"></i>
+            </button>
+        </div>
+
+        <p class="login-3135-footer">
+            Don't have an account?
+            <a href="#">Get started</a>
+        </p>
+    </div>
+</div>`,
+    css: `.login-3135 {
+    position: relative;
+    width: 335px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 27px;
+    background: linear-gradient(145deg, #eff6ff, #f5f3ff, #fff1f8);
+    font-family: Inter, Arial, sans-serif;
+}
+
+.login-3135 * {
+    box-sizing: border-box;
+}
+
+.login-3135-blob {
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(30px);
+    animation: login3135Blob 7s ease-in-out infinite alternate;
+}
+
+.login-3135-blob-a {
+    width: 120px;
+    height: 120px;
+    right: -30px;
+    top: -30px;
+    background: rgba(167, 139, 250, .35);
+}
+
+.login-3135-blob-b {
+    width: 130px;
+    height: 130px;
+    left: -50px;
+    bottom: -50px;
+    background: rgba(96, 165, 250, .3);
+    animation-delay: -3s;
+}
+
+.login-3135-card {
+    position: relative;
+    z-index: 2;
+    padding: 27px;
+    border: 1px solid rgba(255, 255, 255, .8);
+    border-radius: 21px;
+    color: #26243b;
+    background: rgba(255, 255, 255, .72);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 20px 45px rgba(85, 79, 135, .1);
+}
+
+.login-3135-icon {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    border-radius: 13px;
+    color: white;
+    background: linear-gradient(135deg, #60a5fa, #8b5cf6);
+    box-shadow: 0 8px 22px rgba(100, 100, 230, .22);
+    animation: login3135Icon 4s ease-in-out infinite;
+}
+
+.login-3135-icon i {
+    font-size: 19px;
+}
+
+.login-3135-card h2 {
+    margin: 19px 0 0;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: -.035em;
+}
+
+.login-3135-card > p {
+    margin: 8px auto 0;
+    max-width: 230px;
+    color: #7b7893;
+    font-size: 10px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.login-3135-form {
+    margin-top: 22px;
+    display: grid;
+    gap: 10px;
+}
+
+.login-3135-input {
+    height: 43px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    border: 1px solid rgba(129, 127, 171, .15);
+    border-radius: 11px;
+    background: rgba(255, 255, 255, .7);
+    transition: .2s ease;
+}
+
+.login-3135-input:focus-within {
+    border-color: #9183f5;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(145, 131, 245, .08);
+}
+
+.login-3135-input i {
+    color: #918ca7;
+}
+
+.login-3135-input input {
+    width: 100%;
+    outline: none;
+    border: 0;
+    color: #312e4e;
+    background: transparent;
+    font-size: 10px;
+}
+
+.login-3135-input input::placeholder {
+    color: #aaa6bb;
+}
+
+.login-3135-form > button {
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 11px;
+    color: white;
+    background: linear-gradient(100deg, #60a5fa, #8b5cf6, #ec4899);
+    background-size: 200% 100%;
+    font-size: 10px;
+    font-weight: 800;
+    box-shadow: 0 9px 22px rgba(113, 92, 230, .2);
+    animation: login3135Gradient 6s linear infinite;
+    transition: .2s ease;
+}
+
+.login-3135-form > button:hover {
+    transform: translateY(-2px);
+}
+
+.login-3135-socials {
+    margin-top: 17px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.login-3135-socials button {
+    height: 38px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    border: 1px solid rgba(126, 123, 163, .15);
+    border-radius: 10px;
+    color: #6d6887;
+    background: rgba(255, 255, 255, .6);
+    transition: .2s ease;
+}
+
+.login-3135-socials button:hover {
+    color: #5f55bb;
+    background: white;
+    transform: translateY(-2px);
+}
+
+.login-3135-footer {
+    margin-top: 18px !important;
+    color: #89849c !important;
+    font-size: 8px !important;
+}
+
+.login-3135-footer a {
+    margin-left: 3px;
+    color: #7564dc;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+@keyframes login3135Blob {
+    from {
+        transform: translate(0, 0) scale(1);
+    }
+
+    to {
+        transform: translate(20px, 18px) scale(1.15);
+    }
+}
+
+@keyframes login3135Icon {
+    0%,
+    100% {
+        transform: translateY(0) rotate(0);
+    }
+
+    50% {
+        transform: translateY(-4px) rotate(3deg);
+    }
+}
+
+@keyframes login3135Gradient {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 200% 50%;
+    }
+}`,
+  },
+
+  {
+    id: 3136,
+    name: "Developer Portal Login",
+    preview: (
+      <div className="login-3136">
+        <div className="login-3136-grid"></div>
+
+        <div className="login-3136-header">
+          <div className="login-3136-terminal">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div className="login-3136-status">
+            <span></span>
+            API ONLINE
+          </div>
+        </div>
+
+        <div className="login-3136-brand">
+          <i className="ri-code-s-slash-line"></i>
+          <span>DEVSTACK</span>
+        </div>
+
+        <div className="login-3136-heading">
+          <span>// authentication</span>
+          <h2>Developer login</h2>
+          <p>Authenticate to continue to your development environment.</p>
+        </div>
+
+        <div className="login-3136-form">
+          <label>
+            <span>EMAIL</span>
+            <div>
+              <i className="ri-at-line"></i>
+              <input type="email" placeholder="dev@example.com" />
+            </div>
+          </label>
+
+          <label>
+            <span>PASSWORD</span>
+            <div>
+              <i className="ri-key-2-line"></i>
+              <input type="password" placeholder="••••••••" />
+            </div>
+          </label>
+
+          <button type="button">
+            <i className="ri-terminal-box-line"></i>
+            Authenticate
+          </button>
+        </div>
+
+        <div className="login-3136-footer">
+          <span>v2.8.4</span>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            Use SSH key
+          </a>
+        </div>
+      </div>
+    ),
+    html: `<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<div class="login-3136">
+    <div class="login-3136-grid"></div>
+
+    <div class="login-3136-header">
+        <div class="login-3136-terminal">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="login-3136-status">
+            <span></span>
+            API ONLINE
+        </div>
+    </div>
+
+    <div class="login-3136-brand">
+        <i class="ri-code-s-slash-line"></i>
+        <span>DEVSTACK</span>
+    </div>
+
+    <div class="login-3136-heading">
+        <span>// authentication</span>
+        <h2>Developer login</h2>
+        <p>Authenticate to continue to your development environment.</p>
+    </div>
+
+    <div class="login-3136-form">
+        <label>
+            <span>EMAIL</span>
+
+            <div>
+                <i class="ri-at-line"></i>
+                <input type="email" placeholder="dev@example.com">
+            </div>
+        </label>
+
+        <label>
+            <span>PASSWORD</span>
+
+            <div>
+                <i class="ri-key-2-line"></i>
+                <input type="password" placeholder="••••••••">
+            </div>
+        </label>
+
+        <button type="button">
+            <i class="ri-terminal-box-line"></i>
+            Authenticate
+        </button>
+    </div>
+
+    <div class="login-3136-footer">
+        <span>v2.8.4</span>
+        <a href="#">Use SSH key</a>
+    </div>
+</div>`,
+    css: `.login-3136 {
+    position: relative;
+    width: 345px;
+    padding: 23px;
+    overflow: hidden;
+    border: 1px solid #1e3a32;
+    border-radius: 16px;
+    color: #d7ffe9;
+    background: #07100d;
+    box-shadow:
+        0 25px 65px rgba(0, 0, 0, .55),
+        0 0 35px rgba(16, 185, 129, .05);
+    font-family: "Courier New", monospace;
+}
+
+.login-3136 * {
+    box-sizing: border-box;
+}
+
+.login-3136-grid {
+    position: absolute;
+    inset: 0;
+    opacity: .11;
+    background-image:
+        linear-gradient(rgba(34, 197, 94, .18) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(34, 197, 94, .18) 1px, transparent 1px);
+    background-size: 18px 18px;
+    animation: login3136Grid 10s linear infinite;
+}
+
+.login-3136-header {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-3136-terminal {
+    display: flex;
+    gap: 5px;
+}
+
+.login-3136-terminal span {
+    width: 7px;
+    height: 7px;
+    border-radius: 999px;
+}
+
+.login-3136-terminal span:nth-child(1) {
+    background: #ef4444;
+}
+
+.login-3136-terminal span:nth-child(2) {
+    background: #f59e0b;
+}
+
+.login-3136-terminal span:nth-child(3) {
+    background: #22c55e;
+}
+
+.login-3136-status {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #55dc99;
+    font-size: 6px;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.login-3136-status span {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #34d399;
+    box-shadow: 0 0 8px #34d399;
+    animation: login3136Pulse 2s ease-in-out infinite;
+}
+
+.login-3136-brand {
+    position: relative;
+    z-index: 2;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #57e6a2;
+}
+
+.login-3136-brand i {
+    font-size: 18px;
+}
+
+.login-3136-brand span {
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: .15em;
+}
+
+.login-3136-heading {
+    position: relative;
+    z-index: 2;
+    margin-top: 23px;
+}
+
+.login-3136-heading > span {
+    color: #3b9e71;
+    font-size: 8px;
+}
+
+.login-3136-heading h2 {
+    margin: 7px 0 7px;
+    color: #ecfff5;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 25px;
+    letter-spacing: -.04em;
+}
+
+.login-3136-heading p {
+    margin: 0;
+    color: #719085;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 9px;
+    line-height: 1.55;
+}
+
+.login-3136-form {
+    position: relative;
+    z-index: 2;
+    margin-top: 23px;
+    display: grid;
+    gap: 14px;
+}
+
+.login-3136-form label > span {
+    color: #4f8b72;
+    font-size: 7px;
+    font-weight: 900;
+    letter-spacing: .12em;
+}
+
+.login-3136-form label > div {
+    height: 42px;
+    margin-top: 6px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    border: 1px solid #17372c;
+    border-radius: 8px;
+    background: rgba(4, 14, 10, .85);
+    transition: .2s ease;
+}
+
+.login-3136-form label > div:focus-within {
+    border-color: #248b61;
+    box-shadow: 0 0 0 3px rgba(36, 139, 97, .08);
+}
+
+.login-3136-form label i {
+    color: #367859;
+}
+
+.login-3136-form input {
+    width: 100%;
+    outline: none;
+    border: 0;
+    color: #d8ffeb;
+    background: transparent;
+    font-family: inherit;
+    font-size: 9px;
+}
+
+.login-3136-form input::placeholder {
+    color: #365b4c;
+}
+
+.login-3136-form button {
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    border: 1px solid #20a36e;
+    border-radius: 8px;
+    color: #baffdc;
+    background: rgba(21, 128, 86, .14);
+    font-family: inherit;
+    font-size: 9px;
+    font-weight: 900;
+    transition: .2s ease;
+}
+
+.login-3136-form button:hover {
+    color: #06110c;
+    background: #4be0a1;
+    box-shadow: 0 0 24px rgba(75, 224, 161, .18);
+    transform: translateY(-1px);
+}
+
+.login-3136-footer {
+    position: relative;
+    z-index: 2;
+    margin-top: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #38604e;
+    font-size: 7px;
+}
+
+.login-3136-footer a {
+    color: #4aaa7d;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+@keyframes login3136Grid {
+    from {
+        background-position: 0 0, 0 0;
+    }
+
+    to {
+        background-position: 18px 18px, 18px 18px;
+    }
+}
+
+@keyframes login3136Pulse {
+    0%,
+    100% {
+        opacity: .4;
+        transform: scale(.8);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}`,
+  },
+
+  {
+    id: 3137,
+    name: "Calm Care Login",
+    preview: (
+      <div className="login-3137">
+        <div className="login-3137-header">
+          <div className="login-3137-logo">
+            <i className="ri-heart-pulse-line"></i>
+          </div>
+
+          <div>
+            <strong>WellCare</strong>
+            <span>Your health portal</span>
+          </div>
+        </div>
+
+        <div className="login-3137-heading">
+          <h2>Welcome back</h2>
+          <p>Sign in to securely view your appointments and health information.</p>
+        </div>
+
+        <div className="login-3137-form">
+          <label>
+            Email address
+            <input type="email" placeholder="you@example.com" />
+          </label>
+
+          <label>
+            Password
+            <input type="password" placeholder="Password" />
+          </label>
+
+          <button type="button">
+            Sign in securely
+          </button>
+        </div>
+
+        <div className="login-3137-security">
+          <i className="ri-lock-2-line"></i>
+          Your personal information is protected.
+        </div>
+
+        <p className="login-3137-footer">
+          Need an account?
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            Register here
+          </a>
+        </p>
+      </div>
+    ),
+    html: `<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<div class="login-3137">
+    <div class="login-3137-header">
+        <div class="login-3137-logo">
+            <i class="ri-heart-pulse-line"></i>
+        </div>
+
+        <div>
+            <strong>WellCare</strong>
+            <span>Your health portal</span>
+        </div>
+    </div>
+
+    <div class="login-3137-heading">
+        <h2>Welcome back</h2>
+        <p>Sign in to securely view your appointments and health information.</p>
+    </div>
+
+    <div class="login-3137-form">
+        <label>
+            Email address
+            <input type="email" placeholder="you@example.com">
+        </label>
+
+        <label>
+            Password
+            <input type="password" placeholder="Password">
+        </label>
+
+        <button type="button">
+            Sign in securely
+        </button>
+    </div>
+
+    <div class="login-3137-security">
+        <i class="ri-lock-2-line"></i>
+        Your personal information is protected.
+    </div>
+
+    <p class="login-3137-footer">
+        Need an account?
+        <a href="#">Register here</a>
+    </p>
+</div>`,
+    css: `.login-3137 {
+    width: 340px;
+    padding: 29px;
+    border: 1px solid #dcece8;
+    border-radius: 22px;
+    color: #20342f;
+    background: linear-gradient(145deg, #ffffff, #f7fcfa);
+    box-shadow: 0 20px 55px rgba(50, 94, 82, .1);
+    font-family: Inter, Arial, sans-serif;
+}
+
+.login-3137 * {
+    box-sizing: border-box;
+}
+
+.login-3137-header {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.login-3137-logo {
+    width: 41px;
+    height: 41px;
+    display: grid;
+    place-items: center;
+    border-radius: 13px;
+    color: #ffffff;
+    background: #3aa786;
+    box-shadow: 0 8px 20px rgba(58, 167, 134, .2);
+    animation: login3137Heart 3s ease-in-out infinite;
+}
+
+.login-3137-logo i {
+    font-size: 19px;
+}
+
+.login-3137-header > div:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-3137-header strong {
+    font-size: 13px;
+}
+
+.login-3137-header span {
+    margin-top: 2px;
+    color: #839b94;
+    font-size: 8px;
+}
+
+.login-3137-heading {
+    margin-top: 29px;
+}
+
+.login-3137-heading h2 {
+    margin: 0;
+    font-size: 26px;
+    letter-spacing: -.035em;
+}
+
+.login-3137-heading p {
+    margin: 8px 0 0;
+    color: #728983;
+    font-size: 10px;
+    line-height: 1.55;
+}
+
+.login-3137-form {
+    margin-top: 23px;
+    display: grid;
+    gap: 14px;
+}
+
+.login-3137-form label {
+    color: #5d726c;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.login-3137-form input {
+    width: 100%;
+    height: 43px;
+    margin-top: 6px;
+    padding: 0 13px;
+    outline: none;
+    border: 1px solid #d9e7e3;
+    border-radius: 10px;
+    color: #20342f;
+    background: white;
+    font-size: 10px;
+    transition: .2s ease;
+}
+
+.login-3137-form input:focus {
+    border-color: #50ad91;
+    box-shadow: 0 0 0 3px rgba(80, 173, 145, .08);
+}
+
+.login-3137-form input::placeholder {
+    color: #9eafaa;
+}
+
+.login-3137-form button {
+    height: 44px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background: #3aa786;
+    font-size: 10px;
+    font-weight: 800;
+    box-shadow: 0 8px 20px rgba(58, 167, 134, .18);
+    transition: .2s ease;
+}
+
+.login-3137-form button:hover {
+    background: #329576;
+    transform: translateY(-1px);
+}
+
+.login-3137-security {
+    margin-top: 18px;
+    padding: 10px 11px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border-radius: 9px;
+    color: #64827a;
+    background: #eff8f5;
+    font-size: 8px;
+}
+
+.login-3137-security i {
+    color: #3aa786;
+    font-size: 12px;
+}
+
+.login-3137-footer {
+    margin: 20px 0 0;
+    color: #82958f;
+    font-size: 9px;
+    text-align: center;
+}
+
+.login-3137-footer a {
+    margin-left: 3px;
+    color: #31876d;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+@keyframes login3137Heart {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    45% {
+        transform: scale(1.06);
+    }
+
+    55% {
+        transform: scale(.98);
+    }
+}`,
+  },
+
+  {
+    id: 3138,
+    name: "Monochrome Luxury Login",
+    preview: (
+      <div className="login-3138">
+        <div className="login-3138-line"></div>
+
+        <div className="login-3138-brand">
+          <span>M</span>
+          <p>MONARCH</p>
+        </div>
+
+        <div className="login-3138-heading">
+          <span>MEMBER ACCESS</span>
+          <h2>Welcome back.</h2>
+          <p>Enter your credentials to access your private account.</p>
+        </div>
+
+        <div className="login-3138-form">
+          <label>
+            EMAIL
+            <input type="email" placeholder="your@email.com" />
+          </label>
+
+          <label>
+            PASSWORD
+            <input type="password" placeholder="••••••••" />
+          </label>
+
+          <div className="login-3138-row">
+            <label>
+              <input type="checkbox" defaultChecked />
+              Stay signed in
+            </label>
+
+            <a href="#" onClick={(event) => event.preventDefault()}>
+              Recover
+            </a>
+          </div>
+
+          <button type="button">
+            ENTER
+          </button>
+        </div>
+
+        <div className="login-3138-footer">
+          <span>PRIVATE ACCESS</span>
+          <i className="ri-lock-2-line"></i>
+        </div>
+      </div>
+    ),
+    html: `<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<div class="login-3138">
+    <div class="login-3138-line"></div>
+
+    <div class="login-3138-brand">
+        <span>M</span>
+        <p>MONARCH</p>
+    </div>
+
+    <div class="login-3138-heading">
+        <span>MEMBER ACCESS</span>
+        <h2>Welcome back.</h2>
+        <p>Enter your credentials to access your private account.</p>
+    </div>
+
+    <div class="login-3138-form">
+        <label>
+            EMAIL
+            <input type="email" placeholder="your@email.com">
+        </label>
+
+        <label>
+            PASSWORD
+            <input type="password" placeholder="••••••••">
+        </label>
+
+        <div class="login-3138-row">
+            <label>
+                <input type="checkbox" checked>
+                Stay signed in
+            </label>
+
+            <a href="#">Recover</a>
+        </div>
+
+        <button type="button">
+            ENTER
+        </button>
+    </div>
+
+    <div class="login-3138-footer">
+        <span>PRIVATE ACCESS</span>
+        <i class="ri-lock-2-line"></i>
+    </div>
+</div>`,
+    css: `.login-3138 {
+    position: relative;
+    width: 335px;
+    padding: 31px;
+    overflow: hidden;
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+    color: #f5f5f5;
+    background: #0b0b0b;
+    box-shadow: 0 26px 70px rgba(0, 0, 0, .55);
+    font-family: Arial, sans-serif;
+}
+
+.login-3138 * {
+    box-sizing: border-box;
+}
+
+.login-3138-line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #e5e5e5, transparent);
+    animation: login3138Line 5s ease-in-out infinite;
+}
+
+.login-3138-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-3138-brand span {
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #bdbdbd;
+    font-family: Georgia, serif;
+    font-size: 17px;
+}
+
+.login-3138-brand p {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: .32em;
+}
+
+.login-3138-heading {
+    margin-top: 36px;
+}
+
+.login-3138-heading > span {
+    color: #777;
+    font-size: 7px;
+    font-weight: 700;
+    letter-spacing: .24em;
+}
+
+.login-3138-heading h2 {
+    margin: 8px 0 8px;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -.025em;
+}
+
+.login-3138-heading p {
+    margin: 0;
+    color: #7d7d7d;
+    font-size: 9px;
+    line-height: 1.55;
+}
+
+.login-3138-form {
+    margin-top: 27px;
+    display: grid;
+    gap: 17px;
+}
+
+.login-3138-form > label {
+    color: #777;
+    font-size: 7px;
+    font-weight: 700;
+    letter-spacing: .16em;
+}
+
+.login-3138-form > label input {
+    width: 100%;
+    height: 41px;
+    margin-top: 7px;
+    padding: 0;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #343434;
+    color: #eee;
+    background: transparent;
+    font-size: 10px;
+    transition: border-color .2s ease;
+}
+
+.login-3138-form > label input:focus {
+    border-bottom-color: #bfbfbf;
+}
+
+.login-3138-form > label input::placeholder {
+    color: #4d4d4d;
+}
+
+.login-3138-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-3138-row label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #777;
+    font-size: 8px;
+}
+
+.login-3138-row input {
+    accent-color: #d4d4d4;
+}
+
+.login-3138-row a {
+    color: #aaa;
+    font-size: 8px;
+    text-decoration: none;
+}
+
+.login-3138-form > button {
+    height: 44px;
+    cursor: pointer;
+    border: 1px solid #d4d4d4;
+    border-radius: 0;
+    color: #0b0b0b;
+    background: #e7e7e7;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .25em;
+    transition: .25s ease;
+}
+
+.login-3138-form > button:hover {
+    color: #fff;
+    background: transparent;
+    transform: translateY(-2px);
+}
+
+.login-3138-footer {
+    margin-top: 28px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #1f1f1f;
+    color: #525252;
+}
+
+.login-3138-footer span {
+    font-size: 6px;
+    letter-spacing: .18em;
+}
+
+.login-3138-footer i {
+    font-size: 11px;
+}
+
+@keyframes login3138Line {
+    0%,
+    100% {
+        opacity: .25;
+        transform: scaleX(.4);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}`,
+  },
+
+  {
+    id: 3139,
+    name: "Friendly Workspace Login",
+    preview: (
+      <div className="login-3139">
+        <div className="login-3139-illustration">
+          <div className="login-3139-face">
+            <span></span>
+            <span></span>
+            <div></div>
+          </div>
+
+          <div className="login-3139-spark login-3139-spark-1">
+            <i className="ri-star-fill"></i>
+          </div>
+
+          <div className="login-3139-spark login-3139-spark-2">
+            <i className="ri-sparkling-fill"></i>
+          </div>
+        </div>
+
+        <div className="login-3139-heading">
+          <span>HEY THERE 👋</span>
+          <h2>Welcome back!</h2>
+          <p>Your workspace missed you. Sign in to continue.</p>
+        </div>
+
+        <div className="login-3139-form">
+          <div className="login-3139-input">
+            <i className="ri-mail-line"></i>
+            <input type="email" placeholder="Email address" />
+          </div>
+
+          <div className="login-3139-input">
+            <i className="ri-lock-line"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+
+          <div className="login-3139-options">
+            <label>
+              <input type="checkbox" defaultChecked />
+              Remember me
+            </label>
+
+            <a href="#" onClick={(event) => event.preventDefault()}>
+              Forgot?
+            </a>
+          </div>
+
+          <button type="button">
+            Let's go
+            <i className="ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+        <p className="login-3139-footer">
+          First time here?
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            Create an account
+          </a>
+        </p>
+      </div>
+    ),
+    html: `<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<div class="login-3139">
+    <div class="login-3139-illustration">
+        <div class="login-3139-face">
+            <span></span>
+            <span></span>
+            <div></div>
+        </div>
+
+        <div class="login-3139-spark login-3139-spark-1">
+            <i class="ri-star-fill"></i>
+        </div>
+
+        <div class="login-3139-spark login-3139-spark-2">
+            <i class="ri-sparkling-fill"></i>
+        </div>
+    </div>
+
+    <div class="login-3139-heading">
+        <span>HEY THERE 👋</span>
+        <h2>Welcome back!</h2>
+        <p>Your workspace missed you. Sign in to continue.</p>
+    </div>
+
+    <div class="login-3139-form">
+        <div class="login-3139-input">
+            <i class="ri-mail-line"></i>
+            <input type="email" placeholder="Email address">
+        </div>
+
+        <div class="login-3139-input">
+            <i class="ri-lock-line"></i>
+            <input type="password" placeholder="Password">
+        </div>
+
+        <div class="login-3139-options">
+            <label>
+                <input type="checkbox" checked>
+                Remember me
+            </label>
+
+            <a href="#">Forgot?</a>
+        </div>
+
+        <button type="button">
+            Let's go
+            <i class="ri-arrow-right-line"></i>
+        </button>
+    </div>
+
+    <p class="login-3139-footer">
+        First time here?
+        <a href="#">Create an account</a>
+    </p>
+</div>`,
+    css: `.login-3139 {
+    position: relative;
+    width: 335px;
+    padding: 27px;
+    overflow: hidden;
+    border: 1px solid #e7e5f5;
+    border-radius: 25px;
+    color: #332f47;
+    background: #fcfbff;
+    box-shadow: 0 22px 55px rgba(69, 58, 117, .1);
+    font-family: Inter, Arial, sans-serif;
+}
+
+.login-3139 * {
+    box-sizing: border-box;
+}
+
+.login-3139-illustration {
+    position: relative;
+    width: 82px;
+    height: 63px;
+    margin: 0 auto;
+}
+
+.login-3139-face {
+    position: absolute;
+    left: 14px;
+    top: 3px;
+    width: 54px;
+    height: 54px;
+    border-radius: 18px;
+    background: linear-gradient(145deg, #8b5cf6, #6366f1);
+    box-shadow: 0 10px 24px rgba(99, 102, 241, .22);
+    animation: login3139Face 4s ease-in-out infinite;
+}
+
+.login-3139-face > span {
+    position: absolute;
+    top: 19px;
+    width: 5px;
+    height: 7px;
+    border-radius: 999px;
+    background: white;
+}
+
+.login-3139-face > span:nth-child(1) {
+    left: 15px;
+}
+
+.login-3139-face > span:nth-child(2) {
+    right: 15px;
+}
+
+.login-3139-face > div {
+    position: absolute;
+    left: 50%;
+    bottom: 12px;
+    width: 18px;
+    height: 8px;
+    transform: translateX(-50%);
+    border-bottom: 2px solid white;
+    border-radius: 0 0 999px 999px;
+}
+
+.login-3139-spark {
+    position: absolute;
+    color: #f59e0b;
+    animation: login3139Spark 2.5s ease-in-out infinite;
+}
+
+.login-3139-spark-1 {
+    left: 0;
+    top: 12px;
+    font-size: 12px;
+}
+
+.login-3139-spark-2 {
+    right: 0;
+    top: 28px;
+    color: #ec4899;
+    font-size: 13px;
+    animation-delay: -1s;
+}
+
+.login-3139-heading {
+    text-align: center;
+}
+
+.login-3139-heading > span {
+    color: #8b5cf6;
+    font-size: 7px;
+    font-weight: 900;
+    letter-spacing: .14em;
+}
+
+.login-3139-heading h2 {
+    margin: 6px 0 6px;
+    font-size: 27px;
+    letter-spacing: -.04em;
+}
+
+.login-3139-heading p {
+    margin: 0 auto;
+    max-width: 240px;
+    color: #858098;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.login-3139-form {
+    margin-top: 22px;
+    display: grid;
+    gap: 10px;
+}
+
+.login-3139-input {
+    height: 43px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    border: 1px solid #e5e2ef;
+    border-radius: 11px;
+    background: white;
+    transition: .2s ease;
+}
+
+.login-3139-input:focus-within {
+    border-color: #9983ec;
+    box-shadow: 0 0 0 3px rgba(153, 131, 236, .08);
+}
+
+.login-3139-input i {
+    color: #9a94ab;
+    font-size: 14px;
+}
+
+.login-3139-input input {
+    width: 100%;
+    outline: none;
+    border: 0;
+    color: #3c3751;
+    background: transparent;
+    font-size: 10px;
+}
+
+.login-3139-input input::placeholder {
+    color: #aaa6b8;
+}
+
+.login-3139-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-3139-options label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #827d91;
+    font-size: 8px;
+}
+
+.login-3139-options input {
+    accent-color: #7c64db;
+}
+
+.login-3139-options a {
+    color: #7c64db;
+    font-size: 8px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.login-3139-form > button {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 12px;
+    color: white;
+    background: linear-gradient(100deg, #8b5cf6, #6366f1);
+    font-size: 10px;
+    font-weight: 800;
+    box-shadow: 0 9px 22px rgba(99, 102, 241, .2);
+    transition: .2s ease;
+}
+
+.login-3139-form > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(99, 102, 241, .27);
+}
+
+.login-3139-form > button i {
+    transition: transform .2s ease;
+}
+
+.login-3139-form > button:hover i {
+    transform: translateX(4px);
+}
+
+.login-3139-footer {
+    margin: 20px 0 0;
+    color: #8b8699;
+    font-size: 9px;
+    text-align: center;
+}
+
+.login-3139-footer a {
+    margin-left: 4px;
+    color: #765ed3;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+@keyframes login3139Face {
+    0%,
+    100% {
+        transform: translateY(0) rotate(0);
+    }
+
+    50% {
+        transform: translateY(-4px) rotate(2deg);
+    }
+}
+
+@keyframes login3139Spark {
+    0%,
+    100% {
+        opacity: .4;
+        transform: scale(.8) rotate(0);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2) rotate(15deg);
+    }
+}`,
+  },
 
 ];

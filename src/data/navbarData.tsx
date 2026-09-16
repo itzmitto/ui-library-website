@@ -12656,4 +12656,1634 @@ export const navbar = [
     }
 }`,
   },
+  {
+    id: 3140,
+    name: "Cyber Neon Command Navbar",
+    preview: (
+      <nav className="navbar-3140">
+        <div className="navbar-3140-scan"></div>
+
+        <a
+          href="#"
+          className="navbar-3140-logo"
+          onClick={(event) => event.preventDefault()}
+        >
+          <span className="navbar-3140-logo-icon">
+            <i className="ri-command-fill"></i>
+          </span>
+
+          <span className="navbar-3140-logo-text">
+            CYBER
+            <strong>NEXUS</strong>
+          </span>
+        </a>
+
+        <div className="navbar-3140-links">
+          <a
+            href="#"
+            className="navbar-3140-active"
+            onClick={(event) => event.preventDefault()}
+          >
+            HOME
+          </a>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            NETWORK
+          </a>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            SYSTEMS
+          </a>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            ARCHIVE
+          </a>
+        </div>
+
+        <div className="navbar-3140-right">
+          <span className="navbar-3140-status">
+            <span></span>
+            ONLINE
+          </span>
+
+          <button type="button">
+            CONNECT
+            <i className="ri-arrow-right-up-line"></i>
+          </button>
+        </div>
+      </nav>
+    ),
+    html: `<nav class="navbar-3140">
+    <div class="navbar-3140-scan"></div>
+
+    <a href="#" class="navbar-3140-logo">
+        <span class="navbar-3140-logo-icon">
+            <i class="ri-command-fill"></i>
+        </span>
+
+        <span class="navbar-3140-logo-text">
+            CYBER
+            <strong>NEXUS</strong>
+        </span>
+    </a>
+
+    <div class="navbar-3140-links">
+        <a href="#" class="navbar-3140-active">HOME</a>
+        <a href="#">NETWORK</a>
+        <a href="#">SYSTEMS</a>
+        <a href="#">ARCHIVE</a>
+    </div>
+
+    <div class="navbar-3140-right">
+        <span class="navbar-3140-status">
+            <span></span>
+            ONLINE
+        </span>
+
+        <button type="button">
+            CONNECT
+            <i class="ri-arrow-right-up-line"></i>
+        </button>
+    </div>
+</nav>`,
+    css: `.navbar-3140 {
+    position: relative;
+    width: 100%;
+    min-height: 70px;
+    padding: 0 22px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1px solid rgba(74, 222, 255, .18);
+    border-radius: 14px;
+    color: #dff8ff;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(5, 16, 28, .97),
+            rgba(3, 10, 20, .98)
+        );
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, .35),
+        0 0 30px rgba(34, 211, 238, .06),
+        inset 0 1px 0 rgba(255, 255, 255, .04);
+    font-family: Inter, Arial, sans-serif;
+}
+
+.navbar-3140 * {
+    box-sizing: border-box;
+}
+
+.navbar-3140::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: .18;
+    background-image:
+        linear-gradient(
+            rgba(34, 211, 238, .09) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(34, 211, 238, .09) 1px,
+            transparent 1px
+        );
+    background-size: 22px 22px;
+    mask-image: linear-gradient(
+        90deg,
+        transparent,
+        #000 22%,
+        #000 78%,
+        transparent
+    );
+}
+
+.navbar-3140-scan {
+    position: absolute;
+    left: -30%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(69, 227, 255, .08),
+        rgba(143, 240, 255, .18),
+        rgba(69, 227, 255, .08),
+        transparent
+    );
+    transform: skewX(-20deg);
+    animation: navbar3140Scan 6s linear infinite;
+}
+
+.navbar-3140-logo {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #e9fbff;
+    text-decoration: none;
+}
+
+.navbar-3140-logo-icon {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border: 1px solid rgba(75, 220, 255, .35);
+    border-radius: 9px;
+    color: #67e8f9;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(14, 116, 144, .26),
+            rgba(17, 24, 39, .5)
+        );
+    box-shadow:
+        0 0 18px rgba(34, 211, 238, .15),
+        inset 0 1px 0 rgba(255, 255, 255, .07);
+}
+
+.navbar-3140-logo-icon::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(124, 238, 255, .8),
+        transparent
+    );
+    transform: rotate(-45deg) translateY(-22px);
+    animation: navbar3140Logo 4s ease-in-out infinite;
+}
+
+.navbar-3140-logo-icon i {
+    position: relative;
+    z-index: 2;
+    font-size: 18px;
+}
+
+.navbar-3140-logo-text {
+    display: flex;
+    flex-direction: column;
+    color: #7e92a7;
+    font-size: 6px;
+    font-weight: 800;
+    letter-spacing: .22em;
+}
+
+.navbar-3140-logo-text strong {
+    margin-top: 2px;
+    color: #dffaff;
+    font-size: 10px;
+    letter-spacing: .15em;
+}
+
+.navbar-3140-links {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar-3140-links a {
+    position: relative;
+    padding: 10px 11px;
+    color: #677d91;
+    font-size: 7px;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-decoration: none;
+    transition:
+        color .2s ease,
+        background .2s ease;
+}
+
+.navbar-3140-links a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 4px;
+    width: 0;
+    height: 1px;
+    transform: translateX(-50%);
+    background: #67e8f9;
+    box-shadow: 0 0 8px #22d3ee;
+    transition: width .2s ease;
+}
+
+.navbar-3140-links a:hover,
+.navbar-3140-links .navbar-3140-active {
+    color: #dffaff;
+}
+
+.navbar-3140-links a:hover::after,
+.navbar-3140-links .navbar-3140-active::after {
+    width: 45%;
+}
+
+.navbar-3140-right {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-3140-status {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #55e5b1;
+    font-size: 6px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.navbar-3140-status > span {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #4ade80;
+    box-shadow: 0 0 8px #4ade80;
+    animation: navbar3140Pulse 2s ease-in-out infinite;
+}
+
+.navbar-3140-right button {
+    height: 34px;
+    padding: 0 13px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    border: 1px solid rgba(53, 218, 255, .42);
+    border-radius: 8px;
+    color: #b9f5ff;
+    background: rgba(8, 145, 178, .11);
+    font-size: 7px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    transition: .2s ease;
+}
+
+.navbar-3140-right button:hover {
+    color: #031016;
+    background: #67e8f9;
+    box-shadow: 0 0 22px rgba(34, 211, 238, .32);
+    transform: translateY(-1px);
+}
+
+@keyframes navbar3140Scan {
+    from {
+        left: -35%;
+    }
+
+    to {
+        left: 120%;
+    }
+}
+
+@keyframes navbar3140Logo {
+    0%,
+    35% {
+        transform: rotate(-45deg) translateY(-25px);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    70%,
+    100% {
+        transform: rotate(-45deg) translateY(27px);
+        opacity: 0;
+    }
+}
+
+@keyframes navbar3140Pulse {
+    0%,
+    100% {
+        opacity: .45;
+        transform: scale(.8);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}`,
+  },
+
+  {
+    id: 3141,
+    name: "Cyber Terminal Navbar",
+    preview: (
+      <nav className="navbar-3141">
+        <div className="navbar-3141-brand">
+          <span className="navbar-3141-terminal-icon">
+            <i className="ri-terminal-box-fill"></i>
+          </span>
+
+          <div>
+            <strong>VOID.OS</strong>
+            <span>v4.2.0</span>
+          </div>
+        </div>
+
+        <div className="navbar-3141-command">
+          <span>root@void:</span>
+          <strong>~/navigation$</strong>
+          <span className="navbar-3141-cursor"></span>
+        </div>
+
+        <div className="navbar-3141-links">
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            ./home
+          </a>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            ./projects
+          </a>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            ./docs
+          </a>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            ./contact
+          </a>
+        </div>
+
+        <button type="button" className="navbar-3141-login">
+          <i className="ri-login-circle-line"></i>
+          LOGIN
+        </button>
+      </nav>
+    ),
+    html: `<nav class="navbar-3141">
+    <div class="navbar-3141-brand">
+        <span class="navbar-3141-terminal-icon">
+            <i class="ri-terminal-box-fill"></i>
+        </span>
+
+        <div>
+            <strong>VOID.OS</strong>
+            <span>v4.2.0</span>
+        </div>
+    </div>
+
+    <div class="navbar-3141-command">
+        <span>root@void:</span>
+        <strong>~/navigation$</strong>
+        <span class="navbar-3141-cursor"></span>
+    </div>
+
+    <div class="navbar-3141-links">
+        <a href="#">./home</a>
+        <a href="#">./projects</a>
+        <a href="#">./docs</a>
+        <a href="#">./contact</a>
+    </div>
+
+    <button
+        type="button"
+        class="navbar-3141-login"
+    >
+        <i class="ri-login-circle-line"></i>
+        LOGIN
+    </button>
+</nav>`,
+    css: `.navbar-3141 {
+    position: relative;
+    width: 100%;
+    min-height: 68px;
+    padding: 0 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    border: 1px solid #164531;
+    border-radius: 10px;
+    color: #b7ffd6;
+    background: #06110c;
+    box-shadow:
+        0 18px 45px rgba(0, 0, 0, .4),
+        inset 0 1px 0 rgba(93, 255, 169, .025);
+    font-family: "Courier New", monospace;
+}
+
+.navbar-3141 * {
+    box-sizing: border-box;
+}
+
+.navbar-3141::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: .12;
+    pointer-events: none;
+    background-image:
+        linear-gradient(
+            rgba(52, 211, 153, .17) 1px,
+            transparent 1px
+        );
+    background-size: 100% 4px;
+}
+
+.navbar-3141-brand {
+    position: relative;
+    z-index: 2;
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar-3141-terminal-icon {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #1b6849;
+    border-radius: 7px;
+    color: #55e59c;
+    background: #091b13;
+    box-shadow: 0 0 15px rgba(52, 211, 153, .1);
+}
+
+.navbar-3141-terminal-icon i {
+    font-size: 17px;
+}
+
+.navbar-3141-brand > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-3141-brand strong {
+    color: #a8f9cd;
+    font-size: 8px;
+    letter-spacing: .1em;
+}
+
+.navbar-3141-brand > div span {
+    margin-top: 2px;
+    color: #35684f;
+    font-size: 6px;
+}
+
+.navbar-3141-command {
+    position: relative;
+    z-index: 2;
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 6px;
+}
+
+.navbar-3141-command > span:first-child {
+    color: #4ade80;
+}
+
+.navbar-3141-command strong {
+    color: #819f8e;
+    font-weight: 400;
+}
+
+.navbar-3141-cursor {
+    width: 5px;
+    height: 10px;
+    display: block;
+    background: #63f6a8;
+    animation: navbar3141Cursor 1s steps(1) infinite;
+}
+
+.navbar-3141-links {
+    position: relative;
+    z-index: 2;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.navbar-3141-links a {
+    padding: 9px 8px;
+    color: #48735d;
+    font-size: 7px;
+    font-weight: 700;
+    text-decoration: none;
+    transition:
+        color .18s ease,
+        text-shadow .18s ease;
+}
+
+.navbar-3141-links a:hover {
+    color: #70f2af;
+    text-shadow: 0 0 10px rgba(52, 211, 153, .5);
+}
+
+.navbar-3141-login {
+    position: relative;
+    z-index: 2;
+    height: 33px;
+    padding: 0 11px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    border: 1px solid #1a7a50;
+    border-radius: 6px;
+    color: #63f6a8;
+    background: rgba(16, 185, 129, .07);
+    font-family: inherit;
+    font-size: 7px;
+    font-weight: 800;
+    transition: .2s ease;
+}
+
+.navbar-3141-login:hover {
+    color: #04110b;
+    background: #63f6a8;
+    box-shadow: 0 0 18px rgba(52, 211, 153, .23);
+}
+
+@keyframes navbar3141Cursor {
+    0%,
+    45% {
+        opacity: 1;
+    }
+
+    50%,
+    100% {
+        opacity: 0;
+    }
+}`,
+  },
+
+  {
+    id: 3142,
+    name: "Cyber Glass Navbar",
+    preview: (
+      <nav className="navbar-3142">
+        <div className="navbar-3142-glow"></div>
+
+        <a
+          className="navbar-3142-logo"
+          href="#"
+          onClick={(event) => event.preventDefault()}
+        >
+          <span>
+            <i className="ri-focus-3-line"></i>
+          </span>
+
+          <strong>VORTEX</strong>
+        </a>
+
+        <div className="navbar-3142-center">
+          <a
+            href="#"
+            className="navbar-3142-active"
+            onClick={(event) => event.preventDefault()}
+          >
+            Overview
+          </a>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            Protocol
+          </a>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            Nodes
+          </a>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            Intelligence
+          </a>
+        </div>
+
+        <div className="navbar-3142-actions">
+          <button type="button" className="navbar-3142-icon-button">
+            <i className="ri-notification-3-line"></i>
+            <span></span>
+          </button>
+
+          <button type="button" className="navbar-3142-profile">
+            <span>AX</span>
+
+            <div>
+              <strong>Operator</strong>
+              <small>LEVEL 08</small>
+            </div>
+
+            <i className="ri-arrow-down-s-line"></i>
+          </button>
+        </div>
+      </nav>
+    ),
+    html: `<nav class="navbar-3142">
+    <div class="navbar-3142-glow"></div>
+
+    <a class="navbar-3142-logo" href="#">
+        <span>
+            <i class="ri-focus-3-line"></i>
+        </span>
+
+        <strong>VORTEX</strong>
+    </a>
+
+    <div class="navbar-3142-center">
+        <a href="#" class="navbar-3142-active">Overview</a>
+        <a href="#">Protocol</a>
+        <a href="#">Nodes</a>
+        <a href="#">Intelligence</a>
+    </div>
+
+    <div class="navbar-3142-actions">
+        <button
+            type="button"
+            class="navbar-3142-icon-button"
+        >
+            <i class="ri-notification-3-line"></i>
+            <span></span>
+        </button>
+
+        <button
+            type="button"
+            class="navbar-3142-profile"
+        >
+            <span>AX</span>
+
+            <div>
+                <strong>Operator</strong>
+                <small>LEVEL 08</small>
+            </div>
+
+            <i class="ri-arrow-down-s-line"></i>
+        </button>
+    </div>
+</nav>`,
+    css: `.navbar-3142 {
+    position: relative;
+    width: 100%;
+    min-height: 72px;
+    padding: 0 18px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    border: 1px solid rgba(125, 114, 255, .18);
+    border-radius: 18px;
+    color: #edf2ff;
+    background:
+        linear-gradient(
+            120deg,
+            rgba(16, 20, 43, .9),
+            rgba(7, 10, 26, .92)
+        );
+    box-shadow:
+        0 18px 55px rgba(0, 0, 0, .35),
+        inset 0 1px 0 rgba(255, 255, 255, .04);
+    backdrop-filter: blur(22px);
+    font-family: Inter, Arial, sans-serif;
+}
+
+.navbar-3142 * {
+    box-sizing: border-box;
+}
+
+.navbar-3142-glow {
+    position: absolute;
+    left: 30%;
+    top: -85px;
+    width: 240px;
+    height: 150px;
+    border-radius: 999px;
+    pointer-events: none;
+    background: rgba(93, 75, 255, .14);
+    filter: blur(45px);
+    animation: navbar3142Glow 6s ease-in-out infinite alternate;
+}
+
+.navbar-3142-logo {
+    position: relative;
+    z-index: 2;
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #f1f4ff;
+    text-decoration: none;
+}
+
+.navbar-3142-logo > span {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(123, 115, 255, .28);
+    border-radius: 11px;
+    color: #b5afff;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(99, 102, 241, .25),
+            rgba(76, 29, 149, .18)
+        );
+}
+
+.navbar-3142-logo > span::after {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    border: 1px dashed rgba(165, 160, 255, .2);
+    border-radius: 50%;
+    animation: navbar3142Spin 9s linear infinite;
+}
+
+.navbar-3142-logo i {
+    position: relative;
+    z-index: 2;
+    font-size: 17px;
+}
+
+.navbar-3142-logo strong {
+    font-size: 9px;
+    letter-spacing: .19em;
+}
+
+.navbar-3142-center {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    border: 1px solid rgba(124, 123, 167, .11);
+    border-radius: 11px;
+    background: rgba(255, 255, 255, .025);
+}
+
+.navbar-3142-center a {
+    padding: 8px 10px;
+    border-radius: 7px;
+    color: #747b99;
+    font-size: 7px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+.navbar-3142-center a:hover,
+.navbar-3142-center .navbar-3142-active {
+    color: #d9dcff;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(99, 102, 241, .17),
+            rgba(168, 85, 247, .08)
+        );
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, .04);
+}
+
+.navbar-3142-actions {
+    position: relative;
+    z-index: 2;
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar-3142-icon-button {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    border: 1px solid rgba(122, 128, 174, .14);
+    border-radius: 10px;
+    color: #7780a1;
+    background: rgba(255, 255, 255, .025);
+    transition: .2s ease;
+}
+
+.navbar-3142-icon-button:hover {
+    color: #d6d9ff;
+    border-color: rgba(129, 120, 255, .32);
+    background: rgba(99, 102, 241, .08);
+}
+
+.navbar-3142-icon-button > span {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #121529;
+    border-radius: 50%;
+    background: #f472b6;
+    box-shadow: 0 0 7px rgba(244, 114, 182, .7);
+}
+
+.navbar-3142-profile {
+    height: 42px;
+    padding: 4px 8px 4px 4px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+    border: 1px solid rgba(121, 128, 174, .14);
+    border-radius: 11px;
+    color: #cfd4ea;
+    background: rgba(255, 255, 255, .025);
+}
+
+.navbar-3142-profile > span {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    color: #fff;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    font-size: 7px;
+    font-weight: 900;
+}
+
+.navbar-3142-profile > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navbar-3142-profile strong {
+    font-size: 7px;
+}
+
+.navbar-3142-profile small {
+    margin-top: 2px;
+    color: #6d7592;
+    font-size: 5px;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+
+.navbar-3142-profile > i {
+    color: #606985;
+}
+
+@keyframes navbar3142Glow {
+    from {
+        transform: translateX(-30px) scale(.9);
+    }
+
+    to {
+        transform: translateX(70px) scale(1.2);
+    }
+}
+
+@keyframes navbar3142Spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+
+  {
+    id: 3143,
+    name: "Cyber Red Alert Navbar",
+    preview: (
+      <nav className="navbar-3143">
+        <div className="navbar-3143-warning-line"></div>
+
+        <div className="navbar-3143-brand">
+          <span>
+            <i className="ri-radar-line"></i>
+          </span>
+
+          <div>
+            <strong>REDLINE</strong>
+            <small>SECURITY GRID</small>
+          </div>
+        </div>
+
+        <div className="navbar-3143-links">
+          <a
+            href="#"
+            className="navbar-3143-active"
+            onClick={(event) => event.preventDefault()}
+          >
+            Dashboard
+          </a>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            Threats
+          </a>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            Firewall
+          </a>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            Logs
+          </a>
+        </div>
+
+        <div className="navbar-3143-alert">
+          <div className="navbar-3143-alert-text">
+            <span>
+              <i className="ri-alert-fill"></i>
+            </span>
+
+            <div>
+              <strong>THREAT LEVEL</strong>
+              <small>MONITORING</small>
+            </div>
+          </div>
+
+          <button type="button">OPEN CONSOLE</button>
+        </div>
+      </nav>
+    ),
+    html: `<nav class="navbar-3143">
+    <div class="navbar-3143-warning-line"></div>
+
+    <div class="navbar-3143-brand">
+        <span>
+            <i class="ri-radar-line"></i>
+        </span>
+
+        <div>
+            <strong>REDLINE</strong>
+            <small>SECURITY GRID</small>
+        </div>
+    </div>
+
+    <div class="navbar-3143-links">
+        <a href="#" class="navbar-3143-active">Dashboard</a>
+        <a href="#">Threats</a>
+        <a href="#">Firewall</a>
+        <a href="#">Logs</a>
+    </div>
+
+    <div class="navbar-3143-alert">
+        <div class="navbar-3143-alert-text">
+            <span>
+                <i class="ri-alert-fill"></i>
+            </span>
+
+            <div>
+                <strong>THREAT LEVEL</strong>
+                <small>MONITORING</small>
+            </div>
+        </div>
+
+        <button type="button">
+            OPEN CONSOLE
+        </button>
+    </div>
+</nav>`,
+    css: `.navbar-3143 {
+    position: relative;
+    width: 100%;
+    min-height: 72px;
+    padding: 0 18px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgba(239, 68, 68, .19);
+    border-radius: 12px;
+    color: #f3f4f6;
+    background:
+        linear-gradient(
+            180deg,
+            #130809,
+            #0a0708
+        );
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, .42),
+        0 0 30px rgba(239, 68, 68, .04);
+    font-family: Inter, Arial, sans-serif;
+}
+
+.navbar-3143 * {
+    box-sizing: border-box;
+}
+
+.navbar-3143::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: .12;
+    pointer-events: none;
+    background:
+        repeating-linear-gradient(
+            90deg,
+            transparent 0,
+            transparent 29px,
+            rgba(239, 68, 68, .09) 30px
+        );
+}
+
+.navbar-3143-warning-line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35%;
+    height: 2px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        #ef4444,
+        #fb7185,
+        transparent
+    );
+    box-shadow: 0 0 12px rgba(239, 68, 68, .7);
+    animation: navbar3143Line 4s ease-in-out infinite;
+}
+
+.navbar-3143-brand {
+    position: relative;
+    z-index: 2;
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.navbar-3143-brand > span {
+    width: 37px;
+    height: 37px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(239, 68, 68, .32);
+    border-radius: 9px;
+    color: #fb7185;
+    background: rgba(127, 29, 29, .15);
+    box-shadow:
+        inset 0 0 15px rgba(239, 68, 68, .06),
+        0 0 15px rgba(239, 68, 68, .07);
+}
+
+.navbar-3143-brand > span i {
+    font-size: 18px;
+    animation: navbar3143Radar 5s linear infinite;
+}
+
+.navbar-3143-brand > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-3143-brand strong {
+    color: #ffe7e9;
+    font-size: 9px;
+    letter-spacing: .16em;
+}
+
+.navbar-3143-brand small {
+    margin-top: 3px;
+    color: #76535a;
+    font-size: 5px;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.navbar-3143-links {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    display: flex;
+    gap: 4px;
+}
+
+.navbar-3143-links a {
+    padding: 9px 10px;
+    border-radius: 7px;
+    color: #79626a;
+    font-size: 7px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+.navbar-3143-links a:hover,
+.navbar-3143-links .navbar-3143-active {
+    color: #ffced3;
+    background: rgba(239, 68, 68, .08);
+}
+
+.navbar-3143-alert {
+    position: relative;
+    z-index: 2;
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-3143-alert-text {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.navbar-3143-alert-text > span {
+    width: 29px;
+    height: 29px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    color: #fb7185;
+    background: rgba(239, 68, 68, .08);
+    animation: navbar3143Alert 2s ease-in-out infinite;
+}
+
+.navbar-3143-alert-text > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-3143-alert-text strong {
+    color: #e997a1;
+    font-size: 5px;
+    letter-spacing: .09em;
+}
+
+.navbar-3143-alert-text small {
+    margin-top: 2px;
+    color: #65434a;
+    font-size: 5px;
+}
+
+.navbar-3143-alert > button {
+    height: 34px;
+    padding: 0 11px;
+    cursor: pointer;
+    border: 1px solid rgba(239, 68, 68, .33);
+    border-radius: 7px;
+    color: #ffb5bd;
+    background: rgba(127, 29, 29, .14);
+    font-size: 6px;
+    font-weight: 900;
+    letter-spacing: .08em;
+    transition: .2s ease;
+}
+
+.navbar-3143-alert > button:hover {
+    color: white;
+    background: #c72f3d;
+    box-shadow: 0 0 18px rgba(239, 68, 68, .22);
+}
+
+@keyframes navbar3143Line {
+    0% {
+        left: -35%;
+    }
+
+    100% {
+        left: 105%;
+    }
+}
+
+@keyframes navbar3143Radar {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes navbar3143Alert {
+    0%,
+    100% {
+        box-shadow: 0 0 0 rgba(239, 68, 68, 0);
+    }
+
+    50% {
+        box-shadow: 0 0 18px rgba(239, 68, 68, .18);
+    }
+}`,
+  },
+
+  {
+    id: 3144,
+    name: "Cyber Hologram Navbar",
+    preview: (
+      <nav className="navbar-3144">
+        <div className="navbar-3144-hologram"></div>
+
+        <a
+          href="#"
+          className="navbar-3144-logo"
+          onClick={(event) => event.preventDefault()}
+        >
+          <div className="navbar-3144-mark">
+            <span></span>
+            <span></span>
+            <i className="ri-triangle-line"></i>
+          </div>
+
+          <div>
+            <strong>NEURAL</strong>
+            <small>INTERFACE</small>
+          </div>
+        </a>
+
+        <div className="navbar-3144-nav">
+          <a
+            href="#"
+            className="navbar-3144-selected"
+            onClick={(event) => event.preventDefault()}
+          >
+            <i className="ri-home-5-line"></i>
+            <span>Home</span>
+          </a>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            <i className="ri-cpu-line"></i>
+            <span>Core</span>
+          </a>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            <i className="ri-database-2-line"></i>
+            <span>Data</span>
+          </a>
+
+          <a href="#" onClick={(event) => event.preventDefault()}>
+            <i className="ri-global-line"></i>
+            <span>Network</span>
+          </a>
+        </div>
+
+        <div className="navbar-3144-right">
+          <div className="navbar-3144-energy">
+            <span>ENERGY</span>
+
+            <div>
+              <i></i>
+            </div>
+
+            <strong>87%</strong>
+          </div>
+
+          <button type="button">
+            <i className="ri-user-3-line"></i>
+          </button>
+        </div>
+      </nav>
+    ),
+    html: `<nav class="navbar-3144">
+    <div class="navbar-3144-hologram"></div>
+
+    <a href="#" class="navbar-3144-logo">
+        <div class="navbar-3144-mark">
+            <span></span>
+            <span></span>
+            <i class="ri-triangle-line"></i>
+        </div>
+
+        <div>
+            <strong>NEURAL</strong>
+            <small>INTERFACE</small>
+        </div>
+    </a>
+
+    <div class="navbar-3144-nav">
+        <a href="#" class="navbar-3144-selected">
+            <i class="ri-home-5-line"></i>
+            <span>Home</span>
+        </a>
+
+        <a href="#">
+            <i class="ri-cpu-line"></i>
+            <span>Core</span>
+        </a>
+
+        <a href="#">
+            <i class="ri-database-2-line"></i>
+            <span>Data</span>
+        </a>
+
+        <a href="#">
+            <i class="ri-global-line"></i>
+            <span>Network</span>
+        </a>
+    </div>
+
+    <div class="navbar-3144-right">
+        <div class="navbar-3144-energy">
+            <span>ENERGY</span>
+
+            <div>
+                <i></i>
+            </div>
+
+            <strong>87%</strong>
+        </div>
+
+        <button type="button">
+            <i class="ri-user-3-line"></i>
+        </button>
+    </div>
+</nav>`,
+    css: `.navbar-3144 {
+    position: relative;
+    width: 100%;
+    min-height: 74px;
+    padding: 0 18px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    border: 1px solid rgba(56, 189, 248, .18);
+    border-radius: 16px;
+    color: #dbf8ff;
+    background:
+        radial-gradient(
+            circle at 50% 130%,
+            rgba(14, 165, 233, .12),
+            transparent 50%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(4, 14, 26, .97),
+            rgba(2, 8, 17, .98)
+        );
+    box-shadow:
+        0 18px 50px rgba(0, 0, 0, .4),
+        inset 0 1px 0 rgba(255, 255, 255, .04);
+    font-family: Inter, Arial, sans-serif;
+}
+
+.navbar-3144 * {
+    box-sizing: border-box;
+}
+
+.navbar-3144-hologram {
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    bottom: -12px;
+    height: 20px;
+    opacity: .6;
+    pointer-events: none;
+    border-radius: 50%;
+    background: rgba(34, 211, 238, .14);
+    filter: blur(12px);
+    animation: navbar3144Hologram 3s ease-in-out infinite;
+}
+
+.navbar-3144-logo {
+    position: relative;
+    z-index: 2;
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #ddf8ff;
+    text-decoration: none;
+}
+
+.navbar-3144-mark {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+}
+
+.navbar-3144-mark > span {
+    position: absolute;
+    inset: 2px;
+    border: 1px solid rgba(63, 214, 255, .28);
+    border-radius: 50%;
+    animation: navbar3144Ring 9s linear infinite;
+}
+
+.navbar-3144-mark > span:nth-child(2) {
+    inset: 8px;
+    border-style: dashed;
+    border-color: rgba(139, 126, 255, .26);
+    animation-duration: 6s;
+    animation-direction: reverse;
+}
+
+.navbar-3144-mark i {
+    position: relative;
+    z-index: 2;
+    color: #67e8f9;
+    font-size: 17px;
+    filter: drop-shadow(0 0 6px rgba(34, 211, 238, .6));
+}
+
+.navbar-3144-logo > div:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-3144-logo strong {
+    font-size: 9px;
+    letter-spacing: .17em;
+}
+
+.navbar-3144-logo small {
+    margin-top: 2px;
+    color: #51748a;
+    font-size: 5px;
+    font-weight: 800;
+    letter-spacing: .15em;
+}
+
+.navbar-3144-nav {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.navbar-3144-nav a {
+    min-width: 58px;
+    padding: 8px 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: #55778a;
+    font-size: 7px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+.navbar-3144-nav a i {
+    font-size: 11px;
+}
+
+.navbar-3144-nav a:hover,
+.navbar-3144-nav .navbar-3144-selected {
+    color: #c9f7ff;
+    border-color: rgba(60, 207, 255, .15);
+    background: rgba(34, 211, 238, .06);
+    box-shadow:
+        inset 0 0 14px rgba(34, 211, 238, .035);
+}
+
+.navbar-3144-right {
+    position: relative;
+    z-index: 2;
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-3144-energy {
+    display: grid;
+    grid-template-columns: auto 45px auto;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar-3144-energy > span {
+    color: #4f7184;
+    font-size: 5px;
+    font-weight: 900;
+    letter-spacing: .1em;
+}
+
+.navbar-3144-energy > div {
+    height: 4px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #102431;
+}
+
+.navbar-3144-energy > div i {
+    display: block;
+    width: 87%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #22d3ee, #60a5fa);
+    box-shadow: 0 0 8px rgba(34, 211, 238, .45);
+    animation: navbar3144Energy 3s ease-in-out infinite;
+}
+
+.navbar-3144-energy strong {
+    color: #71cfdf;
+    font-size: 6px;
+}
+
+.navbar-3144-right > button {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    border: 1px solid rgba(61, 193, 230, .2);
+    border-radius: 9px;
+    color: #75cce0;
+    background: rgba(15, 85, 112, .08);
+    transition: .2s ease;
+}
+
+.navbar-3144-right > button:hover {
+    color: #041219;
+    background: #67e8f9;
+    box-shadow: 0 0 20px rgba(34, 211, 238, .23);
+}
+
+@keyframes navbar3144Hologram {
+    0%,
+    100% {
+        opacity: .25;
+        transform: scaleX(.75);
+    }
+
+    50% {
+        opacity: .75;
+        transform: scaleX(1.1);
+    }
+}
+
+@keyframes navbar3144Ring {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes navbar3144Energy {
+    0%,
+    100% {
+        opacity: .7;
+        filter: brightness(.9);
+    }
+
+    50% {
+        opacity: 1;
+        filter: brightness(1.35);
+    }
+}`,
+  },
 ];
