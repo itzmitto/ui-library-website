@@ -16563,7 +16563,7 @@ export const navbar = [
 }`,
   },
 
-    {
+  {
     id: 3155,
     name: "Light Elemental Navbar",
     preview: (
@@ -16604,24 +16604,15 @@ export const navbar = [
             Home
           </a>
 
-          <a
-            href="#"
-            onClick={(event) => event.preventDefault()}
-          >
+          <a href="#" onClick={(event) => event.preventDefault()}>
             Discover
           </a>
 
-          <a
-            href="#"
-            onClick={(event) => event.preventDefault()}
-          >
+          <a href="#" onClick={(event) => event.preventDefault()}>
             Worlds
           </a>
 
-          <a
-            href="#"
-            onClick={(event) => event.preventDefault()}
-          >
+          <a href="#" onClick={(event) => event.preventDefault()}>
             Journal
           </a>
         </div>
@@ -16638,10 +16629,7 @@ export const navbar = [
             <small>Water</small>
           </button>
 
-          <button
-            type="button"
-            className="navbar-3155-element navbar-3155-air"
-          >
+          <button type="button" className="navbar-3155-element navbar-3155-air">
             <span>
               <i className="ri-windy-line"></i>
             </span>
@@ -16672,10 +16660,7 @@ export const navbar = [
           </button>
         </div>
 
-        <button
-          type="button"
-          className="navbar-3155-explore"
-        >
+        <button type="button" className="navbar-3155-explore">
           <span>Explore</span>
 
           <i className="ri-arrow-right-up-line"></i>
@@ -17930,6 +17915,1537 @@ export const navbar = [
     100% {
         left: 125%;
 
+        opacity: 0;
+    }
+}`,
+  },
+  {
+    id: 3156,
+    name: "Dark Elemental Navbar",
+    preview: (
+      <nav className="navbar-3156">
+        <div className="navbar-3156-darkness"></div>
+
+        <div className="navbar-3156-smoke navbar-3156-smoke-1"></div>
+        <div className="navbar-3156-smoke navbar-3156-smoke-2"></div>
+        <div className="navbar-3156-smoke navbar-3156-smoke-3"></div>
+
+        <div className="navbar-3156-ember-field">
+          <span className="navbar-3156-ember navbar-3156-ember-1"></span>
+          <span className="navbar-3156-ember navbar-3156-ember-2"></span>
+          <span className="navbar-3156-ember navbar-3156-ember-3"></span>
+          <span className="navbar-3156-ember navbar-3156-ember-4"></span>
+          <span className="navbar-3156-ember navbar-3156-ember-5"></span>
+          <span className="navbar-3156-ember navbar-3156-ember-6"></span>
+          <span className="navbar-3156-ember navbar-3156-ember-7"></span>
+          <span className="navbar-3156-ember navbar-3156-ember-8"></span>
+        </div>
+
+        <a href="#" className="navbar-3156-brand">
+          <div className="navbar-3156-sigil">
+            <span className="navbar-3156-sigil-ring navbar-3156-sigil-ring-1"></span>
+            <span className="navbar-3156-sigil-ring navbar-3156-sigil-ring-2"></span>
+
+            <div className="navbar-3156-sigil-core">
+              <i className="ri-moon-clear-fill"></i>
+            </div>
+
+            <span className="navbar-3156-rune navbar-3156-rune-1"></span>
+            <span className="navbar-3156-rune navbar-3156-rune-2"></span>
+            <span className="navbar-3156-rune navbar-3156-rune-3"></span>
+          </div>
+
+          <div className="navbar-3156-brand-text">
+            <strong>NOCTURN</strong>
+            <span>ELEMENTAL ORDER</span>
+          </div>
+        </a>
+
+        <div className="navbar-3156-links">
+          <a href="#" className="navbar-3156-active">
+            Sanctum
+          </a>
+
+          <a href="#">Realms</a>
+
+          <a href="#">Relics</a>
+
+          <a href="#">Codex</a>
+        </div>
+
+        <div className="navbar-3156-elements">
+          <button
+            type="button"
+            className="navbar-3156-element navbar-3156-void"
+          >
+            <span className="navbar-3156-element-orb">
+              <i className="ri-moon-fill"></i>
+            </span>
+
+            <span className="navbar-3156-element-info">
+              <small>VOID</small>
+              <strong>Shadow</strong>
+            </span>
+          </button>
+
+          <button
+            type="button"
+            className="navbar-3156-element navbar-3156-storm"
+          >
+            <span className="navbar-3156-element-orb">
+              <i className="ri-flashlight-fill"></i>
+            </span>
+
+            <span className="navbar-3156-element-info">
+              <small>STORM</small>
+              <strong>Arc</strong>
+            </span>
+          </button>
+
+          <button
+            type="button"
+            className="navbar-3156-element navbar-3156-ember-element"
+          >
+            <span className="navbar-3156-element-orb">
+              <i className="ri-fire-fill"></i>
+            </span>
+
+            <span className="navbar-3156-element-info">
+              <small>EMBER</small>
+              <strong>Inferno</strong>
+            </span>
+          </button>
+
+          <button
+            type="button"
+            className="navbar-3156-element navbar-3156-frost"
+          >
+            <span className="navbar-3156-element-orb">
+              <i className="ri-temp-cold-line"></i>
+            </span>
+
+            <span className="navbar-3156-element-info">
+              <small>FROST</small>
+              <strong>Glacier</strong>
+            </span>
+          </button>
+        </div>
+
+        <div className="navbar-3156-divider"></div>
+
+        <div className="navbar-3156-power">
+          <div className="navbar-3156-power-top">
+            <span>ESSENCE</span>
+            <strong>82%</strong>
+          </div>
+
+          <div className="navbar-3156-power-track">
+            <span></span>
+          </div>
+        </div>
+
+        <button type="button" className="navbar-3156-enter">
+          <span className="navbar-3156-enter-bg"></span>
+
+          <span className="navbar-3156-enter-content">
+            ENTER
+            <i className="ri-arrow-right-up-line"></i>
+          </span>
+
+          <span className="navbar-3156-enter-shine"></span>
+        </button>
+      </nav>
+    ),
+
+    html: `<nav class="navbar-3156">
+    <div class="navbar-3156-darkness"></div>
+
+    <div class="navbar-3156-smoke navbar-3156-smoke-1"></div>
+    <div class="navbar-3156-smoke navbar-3156-smoke-2"></div>
+    <div class="navbar-3156-smoke navbar-3156-smoke-3"></div>
+
+    <div class="navbar-3156-ember-field">
+        <span class="navbar-3156-ember navbar-3156-ember-1"></span>
+        <span class="navbar-3156-ember navbar-3156-ember-2"></span>
+        <span class="navbar-3156-ember navbar-3156-ember-3"></span>
+        <span class="navbar-3156-ember navbar-3156-ember-4"></span>
+        <span class="navbar-3156-ember navbar-3156-ember-5"></span>
+        <span class="navbar-3156-ember navbar-3156-ember-6"></span>
+        <span class="navbar-3156-ember navbar-3156-ember-7"></span>
+        <span class="navbar-3156-ember navbar-3156-ember-8"></span>
+    </div>
+
+    <a href="#" class="navbar-3156-brand">
+        <div class="navbar-3156-sigil">
+            <span class="navbar-3156-sigil-ring navbar-3156-sigil-ring-1"></span>
+            <span class="navbar-3156-sigil-ring navbar-3156-sigil-ring-2"></span>
+
+            <div class="navbar-3156-sigil-core">
+                <i class="ri-moon-clear-fill"></i>
+            </div>
+
+            <span class="navbar-3156-rune navbar-3156-rune-1"></span>
+            <span class="navbar-3156-rune navbar-3156-rune-2"></span>
+            <span class="navbar-3156-rune navbar-3156-rune-3"></span>
+        </div>
+
+        <div class="navbar-3156-brand-text">
+            <strong>NOCTURN</strong>
+            <span>ELEMENTAL ORDER</span>
+        </div>
+    </a>
+
+    <div class="navbar-3156-links">
+        <a href="#" class="navbar-3156-active">
+            Sanctum
+        </a>
+
+        <a href="#">
+            Realms
+        </a>
+
+        <a href="#">
+            Relics
+        </a>
+
+        <a href="#">
+            Codex
+        </a>
+    </div>
+
+    <div class="navbar-3156-elements">
+        <button
+            type="button"
+            class="navbar-3156-element navbar-3156-void"
+        >
+            <span class="navbar-3156-element-orb">
+                <i class="ri-moon-fill"></i>
+            </span>
+
+            <span class="navbar-3156-element-info">
+                <small>VOID</small>
+                <strong>Shadow</strong>
+            </span>
+        </button>
+
+        <button
+            type="button"
+            class="navbar-3156-element navbar-3156-storm"
+        >
+            <span class="navbar-3156-element-orb">
+                <i class="ri-flashlight-fill"></i>
+            </span>
+
+            <span class="navbar-3156-element-info">
+                <small>STORM</small>
+                <strong>Arc</strong>
+            </span>
+        </button>
+
+        <button
+            type="button"
+            class="navbar-3156-element navbar-3156-ember-element"
+        >
+            <span class="navbar-3156-element-orb">
+                <i class="ri-fire-fill"></i>
+            </span>
+
+            <span class="navbar-3156-element-info">
+                <small>EMBER</small>
+                <strong>Inferno</strong>
+            </span>
+        </button>
+
+        <button
+            type="button"
+            class="navbar-3156-element navbar-3156-frost"
+        >
+            <span class="navbar-3156-element-orb">
+                <i class="ri-temp-cold-line"></i>
+            </span>
+
+            <span class="navbar-3156-element-info">
+                <small>FROST</small>
+                <strong>Glacier</strong>
+            </span>
+        </button>
+    </div>
+
+    <div class="navbar-3156-divider"></div>
+
+    <div class="navbar-3156-power">
+        <div class="navbar-3156-power-top">
+            <span>ESSENCE</span>
+            <strong>82%</strong>
+        </div>
+
+        <div class="navbar-3156-power-track">
+            <span></span>
+        </div>
+    </div>
+
+    <button
+        type="button"
+        class="navbar-3156-enter"
+    >
+        <span class="navbar-3156-enter-bg"></span>
+
+        <span class="navbar-3156-enter-content">
+            ENTER
+            <i class="ri-arrow-right-up-line"></i>
+        </span>
+
+        <span class="navbar-3156-enter-shine"></span>
+    </button>
+</nav>`,
+
+    css: `.navbar-3156 {
+    position: relative;
+    width: 100%;
+    min-height: 82px;
+    padding: 0 17px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid rgba(99, 72, 119, .31);
+    border-radius: 18px;
+    color: #eee7f4;
+    background:
+        radial-gradient(
+            circle at 6% 20%,
+            rgba(91, 33, 182, .17),
+            transparent 27%
+        ),
+        radial-gradient(
+            circle at 73% 100%,
+            rgba(127, 29, 29, .13),
+            transparent 25%
+        ),
+        radial-gradient(
+            circle at 94% 5%,
+            rgba(30, 64, 175, .13),
+            transparent 26%
+        ),
+        linear-gradient(
+            150deg,
+            #09070d 0%,
+            #0b0710 38%,
+            #08090f 68%,
+            #07080c 100%
+        );
+    box-shadow:
+        0 25px 65px rgba(0, 0, 0, .55),
+        0 0 35px rgba(88, 28, 135, .08),
+        inset 0 1px 0 rgba(255, 255, 255, .035);
+    font-family: Inter, Arial, sans-serif;
+    isolation: isolate;
+}
+
+.navbar-3156,
+.navbar-3156 * {
+    box-sizing: border-box;
+}
+
+.navbar-3156-darkness {
+    position: absolute;
+    inset: 0;
+    z-index: -10;
+    pointer-events: none;
+    opacity: .22;
+    background-image:
+        linear-gradient(
+            rgba(148, 80, 190, .07) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(148, 80, 190, .07) 1px,
+            transparent 1px
+        );
+    background-size: 26px 26px;
+    mask-image:
+        linear-gradient(
+            90deg,
+            transparent,
+            #000 12%,
+            #000 88%,
+            transparent
+        );
+    -webkit-mask-image:
+        linear-gradient(
+            90deg,
+            transparent,
+            #000 12%,
+            #000 88%,
+            transparent
+        );
+    animation:
+        navbar3156Grid
+        15s
+        linear
+        infinite;
+}
+
+.navbar-3156::before {
+    content: "";
+    position: absolute;
+    left: -10%;
+    bottom: -72px;
+    width: 120%;
+    height: 90px;
+    z-index: -7;
+    pointer-events: none;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(126, 34, 206, .14),
+            rgba(239, 68, 68, .1),
+            rgba(59, 130, 246, .1),
+            transparent
+        );
+    filter: blur(30px);
+    animation:
+        navbar3156BottomAura
+        8s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3156::after {
+    content: "";
+    position: absolute;
+    left: -25%;
+    top: -1px;
+    width: 25%;
+    height: 1px;
+    pointer-events: none;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #a855f7,
+            #e879f9,
+            transparent
+        );
+    box-shadow:
+        0 0 10px rgba(168, 85, 247, .75);
+    animation:
+        navbar3156TopLine
+        5s
+        linear
+        infinite;
+}
+
+.navbar-3156-smoke {
+    position: absolute;
+    z-index: -8;
+    border-radius: 999px;
+    pointer-events: none;
+    filter: blur(30px);
+}
+
+.navbar-3156-smoke-1 {
+    width: 180px;
+    height: 85px;
+    left: -70px;
+    top: -45px;
+    background: rgba(112, 46, 157, .14);
+    animation:
+        navbar3156SmokeOne
+        9s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.navbar-3156-smoke-2 {
+    width: 200px;
+    height: 90px;
+    left: 41%;
+    bottom: -70px;
+    background: rgba(116, 32, 32, .11);
+    animation:
+        navbar3156SmokeTwo
+        11s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.navbar-3156-smoke-3 {
+    width: 160px;
+    height: 85px;
+    right: -50px;
+    top: -47px;
+    background: rgba(38, 79, 157, .12);
+    animation:
+        navbar3156SmokeThree
+        10s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.navbar-3156-ember-field {
+    position: absolute;
+    inset: 0;
+    z-index: -5;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.navbar-3156-ember {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: #fb923c;
+    box-shadow:
+        0 0 7px rgba(251, 146, 60, .8);
+    animation:
+        navbar3156Ember
+        5s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3156-ember-1 {
+    left: 7%;
+    bottom: 12%;
+    animation-delay: -.3s;
+}
+
+.navbar-3156-ember-2 {
+    left: 18%;
+    bottom: 23%;
+    animation-delay: -2.2s;
+}
+
+.navbar-3156-ember-3 {
+    left: 34%;
+    bottom: 10%;
+    animation-delay: -1.1s;
+}
+
+.navbar-3156-ember-4 {
+    left: 51%;
+    bottom: 18%;
+    animation-delay: -3.6s;
+}
+
+.navbar-3156-ember-5 {
+    left: 66%;
+    bottom: 9%;
+    animation-delay: -1.7s;
+}
+
+.navbar-3156-ember-6 {
+    left: 77%;
+    bottom: 22%;
+    animation-delay: -4.2s;
+}
+
+.navbar-3156-ember-7 {
+    left: 89%;
+    bottom: 13%;
+    animation-delay: -2.7s;
+}
+
+.navbar-3156-ember-8 {
+    left: 59%;
+    bottom: 31%;
+    animation-delay: -.8s;
+}
+
+.navbar-3156-brand {
+    position: relative;
+    z-index: 3;
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #ede7f4;
+    text-decoration: none;
+}
+
+.navbar-3156-sigil {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    flex: 0 0 45px;
+    display: grid;
+    place-items: center;
+}
+
+.navbar-3156-sigil-ring {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.navbar-3156-sigil-ring-1 {
+    inset: 0;
+    border: 1px solid rgba(183, 103, 255, .34);
+    animation:
+        navbar3156SigilSpin
+        13s
+        linear
+        infinite;
+}
+
+.navbar-3156-sigil-ring-1::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -3px;
+    width: 6px;
+    height: 6px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #c084fc;
+    box-shadow:
+        0 0 10px rgba(192, 132, 252, .9);
+}
+
+.navbar-3156-sigil-ring-2 {
+    inset: 6px;
+    border: 1px dashed rgba(125, 86, 161, .38);
+    animation:
+        navbar3156SigilReverse
+        8s
+        linear
+        infinite;
+}
+
+.navbar-3156-sigil-core {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border: 1px solid rgba(178, 106, 232, .28);
+    border-radius: 50%;
+    color: #d8b4fe;
+    background:
+        radial-gradient(
+            circle at 40% 35%,
+            rgba(168, 85, 247, .3),
+            rgba(46, 16, 62, .84) 55%,
+            rgba(9, 5, 13, .98) 100%
+        );
+    box-shadow:
+        0 0 17px rgba(126, 34, 206, .25),
+        inset 0 0 14px rgba(192, 132, 252, .08);
+    animation:
+        navbar3156CorePulse
+        3.5s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3156-sigil-core::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: -17px;
+    width: 55px;
+    height: 8px;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(230, 190, 255, .72),
+            transparent
+        );
+    transform: rotate(-45deg);
+    animation:
+        navbar3156CoreShine
+        5s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3156-sigil-core i {
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    filter:
+        drop-shadow(
+            0 0 5px
+            rgba(192, 132, 252, .65)
+        );
+}
+
+.navbar-3156-rune {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 1px;
+    transform: rotate(45deg);
+    background: #a855f7;
+    box-shadow:
+        0 0 6px
+        rgba(168, 85, 247, .7);
+}
+
+.navbar-3156-rune-1 {
+    left: 0;
+    top: 18px;
+    animation:
+        navbar3156RuneOne
+        4s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3156-rune-2 {
+    right: 1px;
+    top: 8px;
+    background: #fb7185;
+    box-shadow:
+        0 0 6px
+        rgba(251, 113, 133, .65);
+    animation:
+        navbar3156RuneTwo
+        4.5s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3156-rune-3 {
+    right: 5px;
+    bottom: 2px;
+    background: #60a5fa;
+    box-shadow:
+        0 0 6px
+        rgba(96, 165, 250, .65);
+    animation:
+        navbar3156RuneThree
+        5s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3156-brand-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.navbar-3156-brand-text strong {
+    color: #ede5f5;
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: .17em;
+    text-shadow:
+        0 0 12px
+        rgba(168, 85, 247, .16);
+}
+
+.navbar-3156-brand-text span {
+    color: #685971;
+    font-size: 5px;
+    font-weight: 800;
+    letter-spacing: .13em;
+}
+
+.navbar-3156-links {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.navbar-3156-links a {
+    position: relative;
+    padding: 9px 8px;
+    border-radius: 8px;
+    color: #73677a;
+    font-size: 7px;
+    font-weight: 700;
+    text-decoration: none;
+    transition:
+        color .2s ease,
+        background .2s ease,
+        transform .2s ease,
+        text-shadow .2s ease;
+}
+
+.navbar-3156-links a:hover,
+.navbar-3156-links .navbar-3156-active {
+    color: #e5d9ed;
+    background: rgba(142, 73, 191, .08);
+    text-shadow:
+        0 0 8px
+        rgba(192, 132, 252, .2);
+}
+
+.navbar-3156-links a:hover {
+    transform: translateY(-1px);
+}
+
+.navbar-3156-links a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 3px;
+    width: 0;
+    height: 1px;
+    transform: translateX(-50%);
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #c084fc,
+            transparent
+        );
+    box-shadow:
+        0 0 6px
+        rgba(192, 132, 252, .5);
+    transition: width .2s ease;
+}
+
+.navbar-3156-links a:hover::after,
+.navbar-3156-links
+.navbar-3156-active::after {
+    width: 70%;
+}
+
+.navbar-3156-elements {
+    position: relative;
+    z-index: 3;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.navbar-3156-element {
+    position: relative;
+    height: 43px;
+    padding: 4px 7px 4px 4px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    border: 1px solid rgba(95, 80, 103, .22);
+    border-radius: 10px;
+    color: #9d919f;
+    background:
+        rgba(255, 255, 255, .018);
+    transition:
+        transform .22s ease,
+        border-color .22s ease,
+        background .22s ease,
+        box-shadow .22s ease;
+}
+
+.navbar-3156-element-orb {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    flex: 0 0 30px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 9px;
+}
+
+.navbar-3156-element-orb::before {
+    content: "";
+    position: absolute;
+    inset: -12px;
+    border-radius: 50%;
+    opacity: .45;
+}
+
+.navbar-3156-element-orb i {
+    position: relative;
+    z-index: 2;
+    font-size: 13px;
+}
+
+.navbar-3156-element-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.navbar-3156-element-info small {
+    font-size: 4px;
+    font-weight: 900;
+    letter-spacing: .11em;
+}
+
+.navbar-3156-element-info strong {
+    font-size: 6px;
+    font-weight: 700;
+}
+
+.navbar-3156-void
+.navbar-3156-element-orb {
+    color: #d8b4fe;
+    border: 1px solid rgba(168, 85, 247, .22);
+    background:
+        linear-gradient(
+            145deg,
+            rgba(107, 33, 168, .25),
+            rgba(28, 11, 37, .76)
+        );
+    box-shadow:
+        inset 0 0 13px
+        rgba(168, 85, 247, .08);
+}
+
+.navbar-3156-void
+.navbar-3156-element-orb::before {
+    background:
+        conic-gradient(
+            transparent,
+            rgba(192, 132, 252, .34),
+            transparent
+        );
+    animation:
+        navbar3156Void
+        5s
+        linear
+        infinite;
+}
+
+.navbar-3156-void:hover {
+    color: #e9d5ff;
+    border-color: rgba(168, 85, 247, .38);
+    background: rgba(107, 33, 168, .1);
+    box-shadow:
+        0 0 18px
+        rgba(126, 34, 206, .12);
+    transform: translateY(-2px);
+}
+
+.navbar-3156-storm
+.navbar-3156-element-orb {
+    color: #a5b4fc;
+    border: 1px solid rgba(99, 102, 241, .22);
+    background:
+        linear-gradient(
+            145deg,
+            rgba(67, 56, 202, .21),
+            rgba(12, 14, 36, .78)
+        );
+}
+
+.navbar-3156-storm
+.navbar-3156-element-orb::before {
+    background:
+        radial-gradient(
+            circle,
+            rgba(129, 140, 248, .4),
+            transparent 66%
+        );
+    animation:
+        navbar3156Storm
+        2.2s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3156-storm:hover {
+    color: #c7d2fe;
+    border-color: rgba(99, 102, 241, .4);
+    background: rgba(67, 56, 202, .09);
+    box-shadow:
+        0 0 18px
+        rgba(99, 102, 241, .12);
+    transform: translateY(-2px);
+}
+
+.navbar-3156-ember-element
+.navbar-3156-element-orb {
+    color: #fdba74;
+    border: 1px solid rgba(249, 115, 22, .24);
+    background:
+        linear-gradient(
+            145deg,
+            rgba(154, 52, 18, .27),
+            rgba(35, 11, 8, .78)
+        );
+}
+
+.navbar-3156-ember-element
+.navbar-3156-element-orb::before {
+    background:
+        radial-gradient(
+            circle,
+            rgba(249, 115, 22, .5),
+            transparent 65%
+        );
+    animation:
+        navbar3156Fire
+        1.9s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3156-ember-element:hover {
+    color: #fed7aa;
+    border-color: rgba(249, 115, 22, .42);
+    background: rgba(154, 52, 18, .1);
+    box-shadow:
+        0 0 18px
+        rgba(249, 115, 22, .13);
+    transform: translateY(-2px);
+}
+
+.navbar-3156-frost
+.navbar-3156-element-orb {
+    color: #93c5fd;
+    border: 1px solid rgba(59, 130, 246, .22);
+    background:
+        linear-gradient(
+            145deg,
+            rgba(30, 64, 175, .22),
+            rgba(8, 16, 32, .82)
+        );
+}
+
+.navbar-3156-frost
+.navbar-3156-element-orb::before {
+    background:
+        radial-gradient(
+            circle,
+            rgba(96, 165, 250, .42),
+            transparent 66%
+        );
+    animation:
+        navbar3156Frost
+        3s
+        ease-in-out
+        infinite;
+}
+
+.navbar-3156-frost:hover {
+    color: #bfdbfe;
+    border-color: rgba(59, 130, 246, .4);
+    background: rgba(30, 64, 175, .09);
+    box-shadow:
+        0 0 18px
+        rgba(59, 130, 246, .12);
+    transform: translateY(-2px);
+}
+
+.navbar-3156-divider {
+    position: relative;
+    z-index: 3;
+    width: 1px;
+    height: 34px;
+    background:
+        linear-gradient(
+            to bottom,
+            transparent,
+            rgba(139, 115, 151, .24),
+            transparent
+        );
+}
+
+.navbar-3156-power {
+    position: relative;
+    z-index: 3;
+    width: 76px;
+    flex: 0 0 76px;
+}
+
+.navbar-3156-power-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-3156-power-top span {
+    color: #655d69;
+    font-size: 4px;
+    font-weight: 900;
+    letter-spacing: .1em;
+}
+
+.navbar-3156-power-top strong {
+    color: #a88fb2;
+    font-size: 5px;
+}
+
+.navbar-3156-power-track {
+    position: relative;
+    height: 4px;
+    margin-top: 5px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #1d1820;
+}
+
+.navbar-3156-power-track span {
+    position: relative;
+    display: block;
+    width: 82%;
+    height: 100%;
+    border-radius: inherit;
+    background:
+        linear-gradient(
+            90deg,
+            #7e22ce,
+            #a855f7,
+            #ef4444
+        );
+    background-size: 200% 100%;
+    box-shadow:
+        0 0 8px
+        rgba(168, 85, 247, .38);
+    animation:
+        navbar3156Essence
+        4s
+        linear
+        infinite;
+}
+
+.navbar-3156-power-track span::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #f0c5ff;
+    box-shadow:
+        0 0 7px
+        rgba(224, 172, 255, .8);
+}
+
+.navbar-3156-enter {
+    position: relative;
+    z-index: 3;
+    height: 38px;
+    min-width: 74px;
+    padding: 0 12px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid rgba(175, 102, 225, .28);
+    border-radius: 9px;
+    color: #eadcf1;
+    background: #140d19;
+    box-shadow:
+        inset 0 1px 0
+        rgba(255, 255, 255, .035),
+        0 7px 17px
+        rgba(0, 0, 0, .24);
+    transition:
+        transform .2s ease,
+        border-color .2s ease,
+        box-shadow .2s ease;
+}
+
+.navbar-3156-enter-bg {
+    position: absolute;
+    inset: 0;
+    opacity: .56;
+    background:
+        linear-gradient(
+            100deg,
+            rgba(88, 28, 135, .5),
+            rgba(126, 34, 206, .32),
+            rgba(127, 29, 29, .36),
+            rgba(88, 28, 135, .5)
+        );
+    background-size: 250% 100%;
+    animation:
+        navbar3156EnterGradient
+        6s
+        linear
+        infinite;
+}
+
+.navbar-3156-enter-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 6px;
+    font-weight: 900;
+    letter-spacing: .12em;
+}
+
+.navbar-3156-enter-content i {
+    font-size: 10px;
+    transition:
+        transform .2s ease;
+}
+
+.navbar-3156-enter:hover {
+    border-color: rgba(192, 132, 252, .48);
+    transform: translateY(-2px);
+    box-shadow:
+        0 10px 23px
+        rgba(0, 0, 0, .3),
+        0 0 18px
+        rgba(126, 34, 206, .13);
+}
+
+.navbar-3156-enter:hover
+.navbar-3156-enter-content i {
+    transform: translate(2px, -2px);
+}
+
+.navbar-3156-enter-shine {
+    position: absolute;
+    top: -80%;
+    left: -50%;
+    width: 25%;
+    height: 260%;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(230, 195, 255, .42),
+            transparent
+        );
+    transform: rotate(18deg);
+    animation:
+        navbar3156ButtonShine
+        4.5s
+        ease-in-out
+        infinite;
+}
+
+@keyframes navbar3156Grid {
+    from {
+        background-position:
+            0 0,
+            0 0;
+    }
+
+    to {
+        background-position:
+            26px 26px,
+            26px 26px;
+    }
+}
+
+@keyframes navbar3156BottomAura {
+    0%,
+    100% {
+        transform:
+            translateX(-8%)
+            scaleX(.86);
+        opacity: .45;
+    }
+
+    50% {
+        transform:
+            translateX(8%)
+            scaleX(1.08);
+        opacity: .85;
+    }
+}
+
+@keyframes navbar3156TopLine {
+    from {
+        left: -28%;
+    }
+
+    to {
+        left: 110%;
+    }
+}
+
+@keyframes navbar3156SmokeOne {
+    from {
+        transform:
+            translate(-10px, 0)
+            scale(.9);
+    }
+
+    to {
+        transform:
+            translate(50px, 16px)
+            scale(1.2);
+    }
+}
+
+@keyframes navbar3156SmokeTwo {
+    from {
+        transform:
+            translateX(-40px)
+            scale(.85);
+    }
+
+    to {
+        transform:
+            translateX(45px)
+            scale(1.15);
+    }
+}
+
+@keyframes navbar3156SmokeThree {
+    from {
+        transform:
+            translate(15px, 0)
+            scale(.9);
+    }
+
+    to {
+        transform:
+            translate(-40px, 18px)
+            scale(1.17);
+    }
+}
+
+@keyframes navbar3156Ember {
+    0% {
+        opacity: 0;
+        transform:
+            translateY(9px)
+            scale(.5);
+    }
+
+    25% {
+        opacity: .7;
+    }
+
+    65% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform:
+            translateY(-45px)
+            translateX(8px)
+            scale(1.2);
+    }
+}
+
+@keyframes navbar3156SigilSpin {
+    to {
+        transform:
+            rotate(360deg);
+    }
+}
+
+@keyframes navbar3156SigilReverse {
+    to {
+        transform:
+            rotate(-360deg);
+    }
+}
+
+@keyframes navbar3156CorePulse {
+    0%,
+    100% {
+        transform: scale(.95);
+        filter: brightness(.9);
+    }
+
+    50% {
+        transform: scale(1.08);
+        filter: brightness(1.2);
+    }
+}
+
+@keyframes navbar3156CoreShine {
+    0%,
+    38% {
+        transform:
+            rotate(-45deg)
+            translateY(-25px);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    68%,
+    100% {
+        transform:
+            rotate(-45deg)
+            translateY(32px);
+        opacity: 0;
+    }
+}
+
+@keyframes navbar3156RuneOne {
+    0%,
+    100% {
+        opacity: .3;
+        transform:
+            rotate(45deg)
+            scale(.7);
+    }
+
+    50% {
+        opacity: 1;
+        transform:
+            rotate(135deg)
+            scale(1.15);
+    }
+}
+
+@keyframes navbar3156RuneTwo {
+    0%,
+    100% {
+        opacity: .35;
+        transform:
+            rotate(45deg)
+            translateY(0);
+    }
+
+    50% {
+        opacity: 1;
+        transform:
+            rotate(90deg)
+            translateY(-3px);
+    }
+}
+
+@keyframes navbar3156RuneThree {
+    0%,
+    100% {
+        opacity: .35;
+        transform:
+            rotate(45deg)
+            scale(.8);
+    }
+
+    50% {
+        opacity: 1;
+        transform:
+            rotate(-45deg)
+            scale(1.2);
+    }
+}
+
+@keyframes navbar3156Void {
+    to {
+        transform:
+            rotate(360deg);
+    }
+}
+
+@keyframes navbar3156Storm {
+    0%,
+    100% {
+        opacity: .3;
+        transform: scale(.8);
+    }
+
+    12% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+
+    18% {
+        opacity: .35;
+        transform: scale(.9);
+    }
+
+    28% {
+        opacity: .9;
+        transform: scale(1.08);
+    }
+
+    40%,
+    100% {
+        opacity: .35;
+        transform: scale(.9);
+    }
+}
+
+@keyframes navbar3156Fire {
+    0%,
+    100% {
+        opacity: .35;
+        transform:
+            translateY(2px)
+            scale(.9, 1);
+    }
+
+    35% {
+        opacity: .85;
+        transform:
+            translateY(-2px)
+            scale(1.1, .92);
+    }
+
+    70% {
+        opacity: .55;
+        transform:
+            translateY(-1px)
+            scale(.95, 1.12);
+    }
+}
+
+@keyframes navbar3156Frost {
+    0%,
+    100% {
+        opacity: .25;
+        transform:
+            rotate(0)
+            scale(.85);
+    }
+
+    50% {
+        opacity: .72;
+        transform:
+            rotate(180deg)
+            scale(1.13);
+    }
+}
+
+@keyframes navbar3156Essence {
+    from {
+        background-position:
+            0% 50%;
+    }
+
+    to {
+        background-position:
+            200% 50%;
+    }
+}
+
+@keyframes navbar3156EnterGradient {
+    from {
+        background-position:
+            0% 50%;
+    }
+
+    to {
+        background-position:
+            250% 50%;
+    }
+}
+
+@keyframes navbar3156ButtonShine {
+    0%,
+    58% {
+        left: -50%;
+        opacity: 0;
+    }
+
+    67% {
+        opacity: 1;
+    }
+
+    86%,
+    100% {
+        left: 130%;
         opacity: 0;
     }
 }`,
