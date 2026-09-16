@@ -1,37 +1,36 @@
-import { lazy, Suspense, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Buttons from "./pages/Buttons";
+import All from "./pages/All";
+import Checkboxes from "./pages/Checkboxes";
+import Cards from "./pages/Cards";
+import Loaders from "./pages/Loaders";
+import Toggleswitches from "./pages/Toggleswitches";
+import Inputs from "./pages/Inputs";
+import RadioButtons from "./pages/RadioButtons";
+import Forms from "./pages/Forms";
+import Patterns from "./pages/Patterns";
+import Tooltips from "./pages/Tooltips";
+import Navbar from "./pages/Navbar";
+import Logins from "./pages/Logins";
+import Dropdowns from "./pages/Dropdowns";
+import Modals from "./pages/Modals";
+import Alerts from "./pages/Alerts";
+import Badges from "./pages/Badges";
+import Avatars from "./pages/Avatars";
+import Tabs from "./pages/Tabs";
+import Breadcrumbs from "./pages/Breadcrumbs";
+import Pagination from "./pages/Pagination";
+import Skeletons from "./pages/Skeletons";
+import Sidebars from "./pages/Sidebars";
+import HeroSections from "./pages/HeroSections";
+import Iphone from "./pages/Iphone";
+import Toasts from "./pages/Toasts";
+import Accordions from "./pages/Accordions";
+import Carousels from "./pages/Carousels";
+import ProgressBars from "./pages/ProgressBars";
+import Tables from "./pages/Tables";
 import "./App.css";
-
-const All = lazy(() => import("./pages/All"));
-const Buttons = lazy(() => import("./pages/Buttons"));
-const Checkboxes = lazy(() => import("./pages/Checkboxes"));
-const Cards = lazy(() => import("./pages/Cards"));
-const Loaders = lazy(() => import("./pages/Loaders"));
-const Toggleswitches = lazy(() => import("./pages/Toggleswitches"));
-const Inputs = lazy(() => import("./pages/Inputs"));
-const RadioButtons = lazy(() => import("./pages/RadioButtons"));
-const Forms = lazy(() => import("./pages/Forms"));
-const Patterns = lazy(() => import("./pages/Patterns"));
-const Tooltips = lazy(() => import("./pages/Tooltips"));
-const Navbar = lazy(() => import("./pages/Navbar"));
-const Logins = lazy(() => import("./pages/Logins"));
-const Dropdowns = lazy(() => import("./pages/Dropdowns"));
-const Modals = lazy(() => import("./pages/Modals"));
-const Alerts = lazy(() => import("./pages/Alerts"));
-const Badges = lazy(() => import("./pages/Badges"));
-const Avatars = lazy(() => import("./pages/Avatars"));
-const Tabs = lazy(() => import("./pages/Tabs"));
-const Breadcrumbs = lazy(() => import("./pages/Breadcrumbs"));
-const Pagination = lazy(() => import("./pages/Pagination"));
-const Skeletons = lazy(() => import("./pages/Skeletons"));
-const Sidebars = lazy(() => import("./pages/Sidebars"));
-const HeroSections = lazy(() => import("./pages/HeroSections"));
-const Iphone = lazy(() => import("./pages/Iphone"));
-const Toasts = lazy(() => import("./pages/Toasts"));
-const Accordions = lazy(() => import("./pages/Accordions"));
-const Carousels = lazy(() => import("./pages/Carousels"));
-const ProgressBars = lazy(() => import("./pages/ProgressBars"));
-const Tables = lazy(() => import("./pages/Tables"));
 
 const features = [
   {
@@ -499,31 +498,11 @@ function Home() {
   );
 }
 
-function RouteLoading() {
+function App() {
   return (
-    <div
-      style={{
-        minHeight: "100vh",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        background: "#09090b",
-        color: "#a1a1aa",
-        fontFamily: '"Inter", sans-serif',
-        fontSize: "14px",
-      }}
-    >
-      Loading components...
-    </div>
-  );
-}
-
-function AppRoutes() {
-  return (
-    <Suspense fallback={<RouteLoading />}>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-
         <Route path="/elements" element={<All />} />
         <Route path="/elements/buttons" element={<Buttons />} />
         <Route path="/elements/checkboxes" element={<Checkboxes />} />
@@ -555,14 +534,6 @@ function AppRoutes() {
         <Route path="/elements/progress-bars" element={<ProgressBars />} />
         <Route path="/elements/tables" element={<Tables />} />
       </Routes>
-    </Suspense>
-  );
-}
-
-function App() {
-  return (
-    <BrowserRouter>
-      <AppRoutes />
     </BrowserRouter>
   );
 }

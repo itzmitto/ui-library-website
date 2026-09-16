@@ -12,6 +12,8 @@ import { allComponents } from "../data/componentsData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 
+import.meta.glob("./*.css", { eager: true });
+
 const CARD_HEIGHT = 252;
 const GRID_GAP = 12;
 const OVERSCAN_ROWS = 4;
@@ -51,6 +53,7 @@ const ComponentCard = memo(
         }}
       >
         <div className="all-card-preview">{item.preview as ReactNode}</div>
+
         <div className="all-card-footer">
           <span className="all-card-name">{item.name}</span>
         </div>
@@ -85,6 +88,7 @@ export default function All() {
 
       if (grid) {
         const width = grid.clientWidth;
+
         const nextColumns = Math.max(
           1,
           Math.floor((width + GRID_GAP) / (240 + GRID_GAP)),
@@ -100,7 +104,10 @@ export default function All() {
   useEffect(() => {
     updateLayout();
 
-    window.addEventListener("scroll", updateLayout, { passive: true });
+    window.addEventListener("scroll", updateLayout, {
+      passive: true,
+    });
+
     window.addEventListener("resize", updateLayout);
 
     return () => {
@@ -126,7 +133,9 @@ export default function All() {
 
     observer.observe(grid);
 
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+    };
   }, [updateLayout]);
 
   const gridTop = useMemo(() => {
@@ -140,7 +149,9 @@ export default function All() {
   }, [viewportHeight, columns]);
 
   const rowHeight = CARD_HEIGHT + GRID_GAP;
+
   const totalRows = Math.ceil(allComponents.length / columns);
+
   const totalHeight = totalRows > 0 ? totalRows * rowHeight - GRID_GAP : 0;
 
   const relativeScrollTop = Math.max(0, scrollTop - gridTop);
@@ -156,6 +167,7 @@ export default function All() {
   );
 
   const startIndex = startRow * columns;
+
   const endIndex = Math.min(allComponents.length, endRow * columns);
 
   const visibleComponents = useMemo(
@@ -297,6 +309,7 @@ export default function All() {
         <main className="all-main">
           <div className="all-header">
             <h1>Browse all</h1>
+
             <p>Open-Source UI elements made with CSS or Tailwind</p>
           </div>
 
