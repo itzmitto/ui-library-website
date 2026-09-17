@@ -4,6 +4,8 @@ import { loaders } from "../data/loadersData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Loaders.css";
+import "../styling/Loaders2.css";
+import "../styling/Loaders3.css";
 
 const sidebarItems = [
   { label: "All", path: "/elements" },

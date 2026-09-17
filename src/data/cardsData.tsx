@@ -1,7 +1,6 @@
 import "../pages/All.css";
 
 export const cards = [
-    
   {
     id: 7,
     name: "Profile Card",
@@ -8464,6 +8463,7179 @@ export const cards = [
     color: #18181b;
     font-size: 10px;
     font-weight: 600;
+}`,
+  },
+  {
+    id: 3416,
+    name: "Glass Profile Card",
+    preview: (
+      <div className="card-3416">
+        <div className="card-3416-glow card-3416-glow-1" />
+        <div className="card-3416-glow card-3416-glow-2" />
+
+        <div className="card-3416-avatar">
+          <span>AB</span>
+        </div>
+
+        <div className="card-3416-content">
+          <span className="card-3416-badge">Available</span>
+
+          <h3>André Babirian</h3>
+          <p className="card-3416-role">Frontend Developer</p>
+
+          <p className="card-3416-description">
+            Building modern interfaces, interactive experiences and reusable
+            components.
+          </p>
+
+          <div className="card-3416-stats">
+            <div>
+              <strong>42</strong>
+              <span>Projects</span>
+            </div>
+
+            <div>
+              <strong>128</strong>
+              <span>Components</span>
+            </div>
+
+            <div>
+              <strong>4.9</strong>
+              <span>Rating</span>
+            </div>
+          </div>
+
+          <button className="card-3416-button">View profile</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3416">
+    <div class="card-3416-glow card-3416-glow-1"></div>
+    <div class="card-3416-glow card-3416-glow-2"></div>
+
+    <div class="card-3416-avatar">
+        <span>AB</span>
+    </div>
+
+    <div class="card-3416-content">
+        <span class="card-3416-badge">Available</span>
+
+        <h3>André Babirian</h3>
+        <p class="card-3416-role">Frontend Developer</p>
+
+        <p class="card-3416-description">
+            Building modern interfaces, interactive experiences and reusable components.
+        </p>
+
+        <div class="card-3416-stats">
+            <div>
+                <strong>42</strong>
+                <span>Projects</span>
+            </div>
+
+            <div>
+                <strong>128</strong>
+                <span>Components</span>
+            </div>
+
+            <div>
+                <strong>4.9</strong>
+                <span>Rating</span>
+            </div>
+        </div>
+
+        <button class="card-3416-button">View profile</button>
+    </div>
+</div>`,
+    css: `.card-3416 {
+    position: relative;
+    width: 300px;
+    padding: 24px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 24px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255,255,255,.09),
+            rgba(255,255,255,.03)
+        );
+    backdrop-filter: blur(18px);
+    box-shadow:
+        0 20px 50px rgba(0,0,0,.3),
+        inset 0 1px 0 rgba(255,255,255,.08);
+    color: #ffffff;
+}
+
+.card-3416-glow {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(45px);
+    pointer-events: none;
+}
+
+.card-3416-glow-1 {
+    width: 130px;
+    height: 130px;
+    right: -45px;
+    top: -40px;
+    background: rgba(99,102,241,.35);
+}
+
+.card-3416-glow-2 {
+    width: 110px;
+    height: 110px;
+    left: -45px;
+    bottom: -50px;
+    background: rgba(34,211,238,.22);
+}
+
+.card-3416-avatar {
+    position: relative;
+    z-index: 2;
+    width: 68px;
+    height: 68px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 18px;
+    border: 1px solid rgba(255,255,255,.14);
+    border-radius: 20px;
+    background:
+        linear-gradient(
+            135deg,
+            #6366f1,
+            #8b5cf6,
+            #22d3ee
+        );
+    box-shadow:
+        0 10px 24px rgba(99,102,241,.28);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.card-3416-content {
+    position: relative;
+    z-index: 2;
+}
+
+.card-3416-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 9px;
+    margin-bottom: 11px;
+    border: 1px solid rgba(134,239,172,.2);
+    border-radius: 999px;
+    background: rgba(34,197,94,.11);
+    color: #86efac;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.card-3416 h3 {
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.15;
+}
+
+.card-3416-role {
+    margin: 6px 0 0;
+    color: #a5b4fc;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.card-3416-description {
+    margin: 15px 0 20px;
+    color: #a8b0bf;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.card-3416-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.card-3416-stats div {
+    padding: 10px 6px;
+    border: 1px solid rgba(255,255,255,.07);
+    border-radius: 12px;
+    background: rgba(255,255,255,.035);
+    text-align: center;
+}
+
+.card-3416-stats strong,
+.card-3416-stats span {
+    display: block;
+}
+
+.card-3416-stats strong {
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+
+.card-3416-stats span {
+    color: #7f8898;
+    font-size: 9px;
+}
+
+.card-3416-button {
+    width: 100%;
+    padding: 11px 14px;
+    border: 0;
+    border-radius: 12px;
+    background:
+        linear-gradient(
+            90deg,
+            #6366f1,
+            #8b5cf6
+        );
+    color: #ffffff;
+    font: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+.card-3416-button:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        0 10px 22px rgba(99,102,241,.28);
+}`,
+  },
+  {
+    id: 3417,
+    name: "Neon Product Card",
+    preview: (
+      <div className="card-3417">
+        <span className="card-3417-label">NEW DROP</span>
+
+        <div className="card-3417-product">
+          <span className="card-3417-orbit card-3417-orbit-1" />
+          <span className="card-3417-orbit card-3417-orbit-2" />
+
+          <div className="card-3417-product-core">
+            <span className="card-3417-product-light" />
+          </div>
+        </div>
+
+        <div className="card-3417-content">
+          <div className="card-3417-heading">
+            <div>
+              <span className="card-3417-category">LIMITED SERIES</span>
+              <h3>Quantum Core</h3>
+            </div>
+
+            <strong>$149</strong>
+          </div>
+
+          <p>
+            Experimental energy module with a high-intensity neon containment
+            field.
+          </p>
+
+          <div className="card-3417-colors">
+            <span className="card-3417-color card-3417-color-1" />
+            <span className="card-3417-color card-3417-color-2" />
+            <span className="card-3417-color card-3417-color-3" />
+          </div>
+
+          <button className="card-3417-button">
+            <span>Add to collection</span>
+            <span>→</span>
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3417">
+    <span class="card-3417-label">NEW DROP</span>
+
+    <div class="card-3417-product">
+        <span class="card-3417-orbit card-3417-orbit-1"></span>
+        <span class="card-3417-orbit card-3417-orbit-2"></span>
+
+        <div class="card-3417-product-core">
+            <span class="card-3417-product-light"></span>
+        </div>
+    </div>
+
+    <div class="card-3417-content">
+        <div class="card-3417-heading">
+            <div>
+                <span class="card-3417-category">LIMITED SERIES</span>
+                <h3>Quantum Core</h3>
+            </div>
+
+            <strong>$149</strong>
+        </div>
+
+        <p>
+            Experimental energy module with a high-intensity neon containment field.
+        </p>
+
+        <div class="card-3417-colors">
+            <span class="card-3417-color card-3417-color-1"></span>
+            <span class="card-3417-color card-3417-color-2"></span>
+            <span class="card-3417-color card-3417-color-3"></span>
+        </div>
+
+        <button class="card-3417-button">
+            <span>Add to collection</span>
+            <span>→</span>
+        </button>
+    </div>
+</div>`,
+    css: `.card-3417 {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid #243244;
+    border-radius: 22px;
+    background: #080b11;
+    color: #ffffff;
+    box-shadow:
+        0 20px 50px rgba(0,0,0,.4);
+}
+
+.card-3417::before {
+    content: "";
+    position: absolute;
+    left: -60px;
+    top: -70px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: rgba(34,211,238,.09);
+    filter: blur(40px);
+}
+
+.card-3417-label {
+    position: absolute;
+    z-index: 5;
+    left: 16px;
+    top: 16px;
+    padding: 5px 8px;
+    border: 1px solid rgba(34,211,238,.28);
+    border-radius: 999px;
+    background: rgba(8,145,178,.12);
+    color: #67e8f9;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.card-3417-product {
+    position: relative;
+    height: 175px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background:
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(34,211,238,.1),
+            transparent 58%
+        );
+}
+
+.card-3417-product::after {
+    content: "";
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    bottom: 17px;
+    height: 1px;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(34,211,238,.5),
+            transparent
+        );
+}
+
+.card-3417-product-core {
+    position: relative;
+    z-index: 3;
+    width: 63px;
+    height: 63px;
+    border-radius: 18px;
+    transform: rotate(45deg);
+    background:
+        linear-gradient(
+            135deg,
+            #101827,
+            #1e293b 45%,
+            #0f172a
+        );
+    border: 1px solid rgba(103,232,249,.35);
+    box-shadow:
+        0 0 13px rgba(34,211,238,.4),
+        0 0 35px rgba(37,99,235,.2);
+    animation: card3417Core 3s ease-in-out infinite;
+}
+
+.card-3417-product-light {
+    position: absolute;
+    inset: 15px;
+    border-radius: 8px;
+    background: #67e8f9;
+    box-shadow:
+        0 0 12px #22d3ee,
+        0 0 25px rgba(34,211,238,.8);
+    animation: card3417Light 1.4s ease-in-out infinite alternate;
+}
+
+.card-3417-orbit {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 1px solid rgba(34,211,238,.25);
+    border-radius: 50%;
+}
+
+.card-3417-orbit-1 {
+    width: 130px;
+    height: 48px;
+    margin: -24px 0 0 -65px;
+    transform: rotate(-20deg);
+    animation: card3417OrbitOne 5s linear infinite;
+}
+
+.card-3417-orbit-2 {
+    width: 103px;
+    height: 90px;
+    margin: -45px 0 0 -51.5px;
+    border-color: rgba(139,92,246,.24);
+    transform: rotate(38deg);
+    animation: card3417OrbitTwo 6s linear infinite reverse;
+}
+
+.card-3417-content {
+    padding: 19px;
+    border-top: 1px solid rgba(255,255,255,.055);
+}
+
+.card-3417-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.card-3417-category {
+    color: #22d3ee;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.card-3417 h3 {
+    margin: 4px 0 0;
+    font-size: 20px;
+}
+
+.card-3417-heading strong {
+    margin-top: 8px;
+    color: #67e8f9;
+    font-size: 18px;
+}
+
+.card-3417-content p {
+    margin: 13px 0;
+    color: #8993a3;
+    font-size: 12px;
+    line-height: 1.55;
+}
+
+.card-3417-colors {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 15px;
+}
+
+.card-3417-color {
+    width: 13px;
+    height: 13px;
+    border: 2px solid #080b11;
+    border-radius: 50%;
+    outline: 1px solid rgba(255,255,255,.12);
+}
+
+.card-3417-color-1 {
+    background: #22d3ee;
+}
+
+.card-3417-color-2 {
+    background: #8b5cf6;
+}
+
+.card-3417-color-3 {
+    background: #f472b6;
+}
+
+.card-3417-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 13px;
+    border: 1px solid rgba(34,211,238,.22);
+    border-radius: 11px;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(8,145,178,.16),
+            rgba(37,99,235,.08)
+        );
+    color: #e0f2fe;
+    font: inherit;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    transition:
+        border-color .25s ease,
+        background .25s ease;
+}
+
+.card-3417-button:hover {
+    border-color: rgba(34,211,238,.5);
+    background:
+        linear-gradient(
+            90deg,
+            rgba(8,145,178,.26),
+            rgba(37,99,235,.14)
+        );
+}
+
+@keyframes card3417Core {
+    0%,
+    100% {
+        transform: rotate(45deg) translateY(2px);
+    }
+
+    50% {
+        transform: rotate(225deg) translateY(-3px);
+    }
+}
+
+@keyframes card3417Light {
+    from {
+        opacity: .55;
+        transform: scale(.78);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.08);
+    }
+}
+
+@keyframes card3417OrbitOne {
+    to {
+        transform: rotate(340deg);
+    }
+}
+
+@keyframes card3417OrbitTwo {
+    to {
+        transform: rotate(398deg);
+    }
+}`,
+  },
+  {
+    id: 3418,
+    name: "Minimal Article Card",
+    preview: (
+      <article className="card-3418">
+        <div className="card-3418-image">
+          <span className="card-3418-shape card-3418-shape-1" />
+          <span className="card-3418-shape card-3418-shape-2" />
+          <span className="card-3418-shape card-3418-shape-3" />
+        </div>
+
+        <div className="card-3418-content">
+          <div className="card-3418-meta">
+            <span>DESIGN</span>
+            <span>8 MIN READ</span>
+          </div>
+
+          <h3>Building interfaces people remember.</h3>
+
+          <p>
+            A practical look at spacing, hierarchy and motion in modern digital
+            products.
+          </p>
+
+          <div className="card-3418-footer">
+            <div className="card-3418-author">
+              <span className="card-3418-avatar">A</span>
+
+              <div>
+                <strong>André</strong>
+                <small>Sep 17, 2026</small>
+              </div>
+            </div>
+
+            <span className="card-3418-arrow">↗</span>
+          </div>
+        </div>
+      </article>
+    ),
+    html: `<article class="card-3418">
+    <div class="card-3418-image">
+        <span class="card-3418-shape card-3418-shape-1"></span>
+        <span class="card-3418-shape card-3418-shape-2"></span>
+        <span class="card-3418-shape card-3418-shape-3"></span>
+    </div>
+
+    <div class="card-3418-content">
+        <div class="card-3418-meta">
+            <span>DESIGN</span>
+            <span>8 MIN READ</span>
+        </div>
+
+        <h3>Building interfaces people remember.</h3>
+
+        <p>
+            A practical look at spacing, hierarchy and motion in modern digital products.
+        </p>
+
+        <div class="card-3418-footer">
+            <div class="card-3418-author">
+                <span class="card-3418-avatar">A</span>
+
+                <div>
+                    <strong>André</strong>
+                    <small>Sep 17, 2026</small>
+                </div>
+            </div>
+
+            <span class="card-3418-arrow">↗</span>
+        </div>
+    </div>
+</article>`,
+    css: `.card-3418 {
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow:
+        0 12px 35px rgba(15,23,42,.08);
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+.card-3418:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 20px 45px rgba(15,23,42,.12);
+}
+
+.card-3418-image {
+    position: relative;
+    height: 150px;
+    overflow: hidden;
+    background:
+        linear-gradient(
+            135deg,
+            #f8fafc,
+            #e0e7ff
+        );
+}
+
+.card-3418-shape {
+    position: absolute;
+    transition: transform .5s ease;
+}
+
+.card-3418-shape-1 {
+    left: 34px;
+    top: 24px;
+    width: 88px;
+    height: 88px;
+    border-radius: 28px;
+    background:
+        linear-gradient(
+            135deg,
+            #6366f1,
+            #8b5cf6
+        );
+    transform: rotate(15deg);
+}
+
+.card-3418-shape-2 {
+    right: 45px;
+    top: 31px;
+    width: 72px;
+    height: 72px;
+    border: 13px solid #22d3ee;
+    border-radius: 50%;
+}
+
+.card-3418-shape-3 {
+    left: 123px;
+    bottom: -25px;
+    width: 90px;
+    height: 90px;
+    border-radius: 24px;
+    background: #fbbf24;
+    transform: rotate(45deg);
+    opacity: .9;
+}
+
+.card-3418:hover .card-3418-shape-1 {
+    transform: rotate(28deg) scale(1.06);
+}
+
+.card-3418:hover .card-3418-shape-2 {
+    transform: translateX(7px) rotate(-10deg);
+}
+
+.card-3418:hover .card-3418-shape-3 {
+    transform: rotate(55deg) translateY(-5px);
+}
+
+.card-3418-content {
+    padding: 19px;
+}
+
+.card-3418-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+    color: #6366f1;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.card-3418 h3 {
+    margin: 0;
+    font-size: 21px;
+    line-height: 1.25;
+    letter-spacing: -.025em;
+}
+
+.card-3418-content > p {
+    margin: 12px 0 18px;
+    color: #6b7280;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.card-3418-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 14px;
+    border-top: 1px solid #f1f5f9;
+}
+
+.card-3418-author {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.card-3418-avatar {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #111827;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.card-3418-author strong,
+.card-3418-author small {
+    display: block;
+}
+
+.card-3418-author strong {
+    margin-bottom: 2px;
+    font-size: 10px;
+}
+
+.card-3418-author small {
+    color: #9ca3af;
+    font-size: 8px;
+}
+
+.card-3418-arrow {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #f3f4f6;
+    font-size: 14px;
+    transition:
+        transform .25s ease,
+        background .25s ease;
+}
+
+.card-3418:hover .card-3418-arrow {
+    transform: rotate(45deg);
+    background: #e0e7ff;
+}`,
+  },
+  {
+    id: 3419,
+    name: "Cosmic Stats Card",
+    preview: (
+      <div className="card-3419">
+        <div className="card-3419-space">
+          <span className="card-3419-star card-3419-star-1" />
+          <span className="card-3419-star card-3419-star-2" />
+          <span className="card-3419-star card-3419-star-3" />
+          <span className="card-3419-star card-3419-star-4" />
+          <span className="card-3419-star card-3419-star-5" />
+
+          <span className="card-3419-orbit card-3419-orbit-1" />
+          <span className="card-3419-orbit card-3419-orbit-2" />
+
+          <span className="card-3419-planet" />
+        </div>
+
+        <div className="card-3419-top">
+          <div>
+            <span className="card-3419-label">COSMIC NETWORK</span>
+            <h3>Orion Node</h3>
+          </div>
+
+          <span className="card-3419-status">
+            <span />
+            Online
+          </span>
+        </div>
+
+        <div className="card-3419-metric">
+          <strong>98.7%</strong>
+          <span>Network stability</span>
+        </div>
+
+        <div className="card-3419-progress">
+          <span />
+        </div>
+
+        <div className="card-3419-grid">
+          <div>
+            <span>LATENCY</span>
+            <strong>18ms</strong>
+          </div>
+
+          <div>
+            <span>SECTORS</span>
+            <strong>248</strong>
+          </div>
+
+          <div>
+            <span>POWER</span>
+            <strong>4.2TW</strong>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3419">
+    <div class="card-3419-space">
+        <span class="card-3419-star card-3419-star-1"></span>
+        <span class="card-3419-star card-3419-star-2"></span>
+        <span class="card-3419-star card-3419-star-3"></span>
+        <span class="card-3419-star card-3419-star-4"></span>
+        <span class="card-3419-star card-3419-star-5"></span>
+
+        <span class="card-3419-orbit card-3419-orbit-1"></span>
+        <span class="card-3419-orbit card-3419-orbit-2"></span>
+
+        <span class="card-3419-planet"></span>
+    </div>
+
+    <div class="card-3419-top">
+        <div>
+            <span class="card-3419-label">COSMIC NETWORK</span>
+            <h3>Orion Node</h3>
+        </div>
+
+        <span class="card-3419-status">
+            <span></span>
+            Online
+        </span>
+    </div>
+
+    <div class="card-3419-metric">
+        <strong>98.7%</strong>
+        <span>Network stability</span>
+    </div>
+
+    <div class="card-3419-progress">
+        <span></span>
+    </div>
+
+    <div class="card-3419-grid">
+        <div>
+            <span>LATENCY</span>
+            <strong>18ms</strong>
+        </div>
+
+        <div>
+            <span>SECTORS</span>
+            <strong>248</strong>
+        </div>
+
+        <div>
+            <span>POWER</span>
+            <strong>4.2TW</strong>
+        </div>
+    </div>
+</div>`,
+    css: `.card-3419 {
+    position: relative;
+    width: 300px;
+    padding: 21px;
+    overflow: hidden;
+    border: 1px solid rgba(129,140,248,.18);
+    border-radius: 22px;
+    background:
+        linear-gradient(
+            145deg,
+            #080a14,
+            #0d1020
+        );
+    color: #ffffff;
+    box-shadow:
+        0 20px 50px rgba(0,0,0,.4);
+}
+
+.card-3419-space {
+    position: absolute;
+    right: -14px;
+    top: -14px;
+    width: 145px;
+    height: 145px;
+    opacity: .85;
+}
+
+.card-3419-space::before {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(99,102,241,.18),
+            rgba(59,130,246,.08) 42%,
+            transparent 70%
+        );
+}
+
+.card-3419-star {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0 0 5px currentColor;
+    animation: card3419Star 1.5s ease-in-out infinite alternate;
+}
+
+.card-3419-star-1 {
+    left: 25px;
+    top: 28px;
+    color: #67e8f9;
+}
+
+.card-3419-star-2 {
+    right: 24px;
+    top: 18px;
+    color: #f9a8d4;
+    animation-delay: -.4s;
+}
+
+.card-3419-star-3 {
+    right: 12px;
+    top: 71px;
+    color: #ffffff;
+    animation-delay: -.8s;
+}
+
+.card-3419-star-4 {
+    left: 20px;
+    bottom: 26px;
+    color: #c4b5fd;
+    animation-delay: -1.2s;
+}
+
+.card-3419-star-5 {
+    right: 47px;
+    bottom: 17px;
+    color: #67e8f9;
+    animation-delay: -.6s;
+}
+
+.card-3419-orbit {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    border: 1px solid rgba(129,140,248,.2);
+}
+
+.card-3419-orbit-1 {
+    width: 98px;
+    height: 48px;
+    margin: -24px 0 0 -49px;
+    transform: rotate(-20deg);
+    animation: card3419OrbitOne 6s linear infinite;
+}
+
+.card-3419-orbit-2 {
+    width: 69px;
+    height: 80px;
+    margin: -40px 0 0 -34.5px;
+    border-color: rgba(34,211,238,.17);
+    animation: card3419OrbitTwo 5s linear infinite reverse;
+}
+
+.card-3419-planet {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 25px;
+    height: 25px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 32% 27%,
+            #ffffff,
+            #818cf8 26%,
+            #4338ca 58%,
+            #1e1b4b
+        );
+    box-shadow:
+        0 0 13px rgba(99,102,241,.5);
+}
+
+.card-3419-top {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.card-3419-label {
+    color: #818cf8;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .13em;
+}
+
+.card-3419 h3 {
+    margin: 5px 0 0;
+    font-size: 20px;
+}
+
+.card-3419-status {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 8px;
+    border: 1px solid rgba(74,222,128,.15);
+    border-radius: 999px;
+    background: rgba(34,197,94,.08);
+    color: #86efac;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.card-3419-status > span {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #4ade80;
+    box-shadow: 0 0 6px #4ade80;
+    animation: card3419Status 1.2s ease-in-out infinite;
+}
+
+.card-3419-metric {
+    position: relative;
+    z-index: 3;
+    margin-top: 34px;
+}
+
+.card-3419-metric strong,
+.card-3419-metric span {
+    display: block;
+}
+
+.card-3419-metric strong {
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: -.05em;
+    background:
+        linear-gradient(
+            90deg,
+            #ffffff,
+            #a5b4fc,
+            #67e8f9
+        );
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.card-3419-metric span {
+    margin-top: 6px;
+    color: #788297;
+    font-size: 10px;
+}
+
+.card-3419-progress {
+    position: relative;
+    z-index: 3;
+    height: 5px;
+    margin: 17px 0;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #171c2e;
+}
+
+.card-3419-progress > span {
+    display: block;
+    width: 87%;
+    height: 100%;
+    border-radius: inherit;
+    background:
+        linear-gradient(
+            90deg,
+            #6366f1,
+            #8b5cf6,
+            #22d3ee
+        );
+    box-shadow:
+        0 0 8px rgba(34,211,238,.35);
+    animation: card3419Progress 2.6s ease-in-out infinite alternate;
+}
+
+.card-3419-grid {
+    position: relative;
+    z-index: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid rgba(255,255,255,.06);
+}
+
+.card-3419-grid div {
+    padding: 14px 8px 0;
+    text-align: center;
+}
+
+.card-3419-grid div + div {
+    border-left: 1px solid rgba(255,255,255,.06);
+}
+
+.card-3419-grid span,
+.card-3419-grid strong {
+    display: block;
+}
+
+.card-3419-grid span {
+    margin-bottom: 5px;
+    color: #657086;
+    font-size: 7px;
+    font-weight: 800;
+    letter-spacing: .1em;
+}
+
+.card-3419-grid strong {
+    font-size: 12px;
+}
+
+@keyframes card3419Star {
+    from {
+        transform: scale(.4);
+        opacity: .25;
+    }
+
+    to {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}
+
+@keyframes card3419OrbitOne {
+    to {
+        transform: rotate(340deg);
+    }
+}
+
+@keyframes card3419OrbitTwo {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes card3419Status {
+    0%,
+    100% {
+        opacity: .35;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes card3419Progress {
+    from {
+        width: 74%;
+    }
+
+    to {
+        width: 94%;
+    }
+}`,
+  },
+  {
+    id: 3420,
+    name: "Gradient Developer Card",
+    preview: (
+      <div className="card-3420">
+        <div className="card-3420-header">
+          <div className="card-3420-icon">
+            <span>&lt;/&gt;</span>
+          </div>
+
+          <span className="card-3420-number">05</span>
+        </div>
+
+        <div className="card-3420-content">
+          <span className="card-3420-eyebrow">FRONTEND</span>
+
+          <h3>Component Studio</h3>
+
+          <p>
+            A flexible collection of polished components built for modern web
+            interfaces.
+          </p>
+
+          <div className="card-3420-tags">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>CSS</span>
+          </div>
+        </div>
+
+        <div className="card-3420-footer">
+          <span>Explore project</span>
+
+          <span className="card-3420-arrow">→</span>
+        </div>
+
+        <span className="card-3420-decoration card-3420-decoration-1" />
+        <span className="card-3420-decoration card-3420-decoration-2" />
+      </div>
+    ),
+    html: `<div class="card-3420">
+    <div class="card-3420-header">
+        <div class="card-3420-icon">
+            <span>&lt;/&gt;</span>
+        </div>
+
+        <span class="card-3420-number">05</span>
+    </div>
+
+    <div class="card-3420-content">
+        <span class="card-3420-eyebrow">FRONTEND</span>
+
+        <h3>Component Studio</h3>
+
+        <p>
+            A flexible collection of polished components built for modern web interfaces.
+        </p>
+
+        <div class="card-3420-tags">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>CSS</span>
+        </div>
+    </div>
+
+    <div class="card-3420-footer">
+        <span>Explore project</span>
+        <span class="card-3420-arrow">→</span>
+    </div>
+
+    <span class="card-3420-decoration card-3420-decoration-1"></span>
+    <span class="card-3420-decoration card-3420-decoration-2"></span>
+</div>`,
+    css: `.card-3420 {
+    position: relative;
+    width: 300px;
+    min-height: 330px;
+    padding: 22px;
+    overflow: hidden;
+    border-radius: 24px;
+    background:
+        linear-gradient(
+            145deg,
+            #eef2ff 0%,
+            #fdf2f8 48%,
+            #ecfeff 100%
+        );
+    color: #18181b;
+    box-shadow:
+        0 18px 45px rgba(99,102,241,.12);
+}
+
+.card-3420::before {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    border-radius: 23px;
+    border: 1px solid rgba(255,255,255,.9);
+    pointer-events: none;
+}
+
+.card-3420-header {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card-3420-icon {
+    width: 47px;
+    height: 47px;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+    background: #18181b;
+    color: #ffffff;
+    box-shadow:
+        0 10px 22px rgba(24,24,27,.15);
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.card-3420-number {
+    color: rgba(24,24,27,.16);
+    font-size: 34px;
+    font-weight: 900;
+    letter-spacing: -.06em;
+}
+
+.card-3420-content {
+    position: relative;
+    z-index: 3;
+    margin-top: 55px;
+}
+
+.card-3420-eyebrow {
+    color: #7c3aed;
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: .14em;
+}
+
+.card-3420 h3 {
+    margin: 7px 0 0;
+    font-size: 25px;
+    line-height: 1.1;
+    letter-spacing: -.035em;
+}
+
+.card-3420-content p {
+    max-width: 235px;
+    margin: 13px 0 17px;
+    color: #71717a;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.card-3420-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.card-3420-tags span {
+    padding: 5px 8px;
+    border: 1px solid rgba(99,102,241,.12);
+    border-radius: 999px;
+    background: rgba(255,255,255,.62);
+    color: #52525b;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.card-3420-footer {
+    position: absolute;
+    z-index: 3;
+    left: 22px;
+    right: 22px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #27272a;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.card-3420-arrow {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow:
+        0 8px 18px rgba(99,102,241,.1);
+    font-size: 14px;
+    transition:
+        transform .3s ease,
+        background .3s ease;
+}
+
+.card-3420:hover .card-3420-arrow {
+    transform: translateX(4px);
+    background: #18181b;
+    color: #ffffff;
+}
+
+.card-3420-decoration {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(2px);
+    transition: transform .5s ease;
+}
+
+.card-3420-decoration-1 {
+    width: 120px;
+    height: 120px;
+    right: -45px;
+    top: 53px;
+    background:
+        radial-gradient(
+            circle,
+            rgba(192,132,252,.28),
+            transparent 70%
+        );
+}
+
+.card-3420-decoration-2 {
+    width: 100px;
+    height: 100px;
+    left: -42px;
+    bottom: 34px;
+    background:
+        radial-gradient(
+            circle,
+            rgba(34,211,238,.22),
+            transparent 70%
+        );
+}
+
+.card-3420:hover .card-3420-decoration-1 {
+    transform: translate(-10px, 7px) scale(1.12);
+}
+
+.card-3420:hover .card-3420-decoration-2 {
+    transform: translate(9px, -7px) scale(1.08);
+}`,
+  },
+  {
+    id: 3421,
+    name: "Nebula Glass Card",
+    preview: (
+      <div className="card-3421">
+        <span className="card-3421-orb card-3421-orb-1"></span>
+        <span className="card-3421-orb card-3421-orb-2"></span>
+
+        <div className="card-3421-top">
+          <span className="card-3421-label">COSMIC PROFILE</span>
+          <span className="card-3421-badge">ONLINE</span>
+        </div>
+
+        <div className="card-3421-content">
+          <h3>André Studio</h3>
+          <p className="card-3421-role">Interface Explorer</p>
+          <p className="card-3421-text">
+            Elegant cosmic-inspired UI card with layered glow tones and a glassy
+            dark surface.
+          </p>
+
+          <div className="card-3421-stats">
+            <div>
+              <strong>124</strong>
+              <span>Projects</span>
+            </div>
+
+            <div>
+              <strong>58</strong>
+              <span>Templates</span>
+            </div>
+
+            <div>
+              <strong>99%</strong>
+              <span>Focus</span>
+            </div>
+          </div>
+
+          <button className="card-3421-button">Open Profile</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3421">
+    <span class="card-3421-orb card-3421-orb-1"></span>
+    <span class="card-3421-orb card-3421-orb-2"></span>
+
+    <div class="card-3421-top">
+        <span class="card-3421-label">COSMIC PROFILE</span>
+        <span class="card-3421-badge">ONLINE</span>
+    </div>
+
+    <div class="card-3421-content">
+        <h3>André Studio</h3>
+        <p class="card-3421-role">Interface Explorer</p>
+        <p class="card-3421-text">
+            Elegant cosmic-inspired UI card with layered glow tones and a glassy dark surface.
+        </p>
+
+        <div class="card-3421-stats">
+            <div>
+                <strong>124</strong>
+                <span>Projects</span>
+            </div>
+
+            <div>
+                <strong>58</strong>
+                <span>Templates</span>
+            </div>
+
+            <div>
+                <strong>99%</strong>
+                <span>Focus</span>
+            </div>
+        </div>
+
+        <button class="card-3421-button">Open Profile</button>
+    </div>
+</div>`,
+    css: `.card-3421 {
+    position: relative;
+    width: 300px;
+    padding: 22px;
+    overflow: hidden;
+    border: 1px solid rgba(147, 197, 253, 0.16);
+    border-radius: 24px;
+    background:
+        linear-gradient(145deg, rgba(9, 12, 28, 0.98), rgba(18, 13, 40, 0.96));
+    box-shadow:
+        0 18px 42px rgba(0, 0, 0, 0.34),
+        inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    color: #ffffff;
+}
+
+.card-3421-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(35px);
+    pointer-events: none;
+}
+
+.card-3421-orb-1 {
+    top: -38px;
+    right: -32px;
+    width: 120px;
+    height: 120px;
+    background: rgba(56, 189, 248, 0.22);
+}
+
+.card-3421-orb-2 {
+    bottom: -48px;
+    left: -40px;
+    width: 140px;
+    height: 140px;
+    background: rgba(168, 85, 247, 0.18);
+}
+
+.card-3421-top {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.card-3421-label {
+    color: #93c5fd;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+}
+
+.card-3421-badge {
+    padding: 5px 9px;
+    border: 1px solid rgba(134, 239, 172, 0.18);
+    border-radius: 999px;
+    background: rgba(34, 197, 94, 0.08);
+    color: #86efac;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.card-3421-content {
+    position: relative;
+    z-index: 2;
+    margin-top: 18px;
+}
+
+.card-3421-content h3 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+}
+
+.card-3421-role {
+    margin: 7px 0 0;
+    color: #c084fc;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.card-3421-text {
+    margin: 15px 0 18px;
+    color: #9ca3af;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.card-3421-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.card-3421-stats div {
+    padding: 11px 8px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.03);
+    text-align: center;
+}
+
+.card-3421-stats strong,
+.card-3421-stats span {
+    display: block;
+}
+
+.card-3421-stats strong {
+    margin-bottom: 3px;
+    color: #f8fafc;
+    font-size: 15px;
+}
+
+.card-3421-stats span {
+    color: #6b7280;
+    font-size: 9px;
+}
+
+.card-3421-button {
+    width: 100%;
+    padding: 11px 14px;
+    border: none;
+    border-radius: 14px;
+    background: linear-gradient(90deg, #0ea5e9, #8b5cf6);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3422,
+    name: "Galaxy Panel Card",
+    preview: (
+      <div className="card-3422">
+        <div className="card-3422-header">
+          <span className="card-3422-mini-label">STAR PANEL</span>
+          <span className="card-3422-chip">V.02</span>
+        </div>
+
+        <div className="card-3422-body">
+          <h3>Deep Galaxy</h3>
+          <p>
+            Soft violet, blue and pink cosmic tones inside a clean premium
+            panel.
+          </p>
+
+          <div className="card-3422-panel">
+            <span className="card-3422-dot card-3422-dot-1"></span>
+            <span className="card-3422-dot card-3422-dot-2"></span>
+            <span className="card-3422-dot card-3422-dot-3"></span>
+          </div>
+
+          <div className="card-3422-footer">
+            <div>
+              <strong>72%</strong>
+              <span>Charge</span>
+            </div>
+
+            <div>
+              <strong>48h</strong>
+              <span>Output</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3422">
+    <div class="card-3422-header">
+        <span class="card-3422-mini-label">STAR PANEL</span>
+        <span class="card-3422-chip">V.02</span>
+    </div>
+
+    <div class="card-3422-body">
+        <h3>Deep Galaxy</h3>
+        <p>
+            Soft violet, blue and pink cosmic tones inside a clean premium panel.
+        </p>
+
+        <div class="card-3422-panel">
+            <span class="card-3422-dot card-3422-dot-1"></span>
+            <span class="card-3422-dot card-3422-dot-2"></span>
+            <span class="card-3422-dot card-3422-dot-3"></span>
+        </div>
+
+        <div class="card-3422-footer">
+            <div>
+                <strong>72%</strong>
+                <span>Charge</span>
+            </div>
+
+            <div>
+                <strong>48h</strong>
+                <span>Output</span>
+            </div>
+        </div>
+    </div>
+</div>`,
+    css: `.card-3422 {
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    border-radius: 22px;
+    background:
+        linear-gradient(150deg, #090b18 0%, #11152d 48%, #170f2e 100%);
+    box-shadow: 0 20px 44px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+}
+
+.card-3422-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 18px 0;
+}
+
+.card-3422-mini-label {
+    color: #93c5fd;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+}
+
+.card-3422-chip {
+    padding: 5px 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.04);
+    color: #cbd5e1;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.card-3422-body {
+    padding: 18px;
+}
+
+.card-3422-body h3 {
+    margin: 0;
+    font-size: 23px;
+    letter-spacing: -0.03em;
+}
+
+.card-3422-body p {
+    margin: 12px 0 16px;
+    color: #94a3b8;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.card-3422-panel {
+    height: 120px;
+    margin-bottom: 16px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 18px;
+    background:
+        radial-gradient(circle at 30% 30%, rgba(56, 189, 248, 0.18), transparent 35%),
+        radial-gradient(circle at 70% 35%, rgba(244, 114, 182, 0.16), transparent 35%),
+        radial-gradient(circle at 52% 76%, rgba(168, 85, 247, 0.18), transparent 38%),
+        linear-gradient(145deg, rgba(15, 23, 42, 0.9), rgba(17, 24, 39, 0.98));
+}
+
+.card-3422-dot {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.card-3422-dot-1 {
+    width: 20px;
+    height: 20px;
+    left: 28px;
+    top: 30px;
+    background: #38bdf8;
+    box-shadow: 0 0 18px rgba(56, 189, 248, 0.4);
+}
+
+.card-3422-dot-2 {
+    width: 14px;
+    height: 14px;
+    right: 44px;
+    top: 26px;
+    background: #f472b6;
+    box-shadow: 0 0 18px rgba(244, 114, 182, 0.4);
+}
+
+.card-3422-dot-3 {
+    width: 34px;
+    height: 34px;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #8b5cf6;
+    box-shadow: 0 0 22px rgba(139, 92, 246, 0.42);
+}
+
+.card-3422-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.card-3422-footer div {
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.card-3422-footer strong,
+.card-3422-footer span {
+    display: block;
+}
+
+.card-3422-footer strong {
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+
+.card-3422-footer span {
+    color: #94a3b8;
+    font-size: 10px;
+}`,
+  },
+  {
+    id: 3423,
+    name: "Nova Info Card",
+    preview: (
+      <div className="card-3423">
+        <span className="card-3423-line card-3423-line-1"></span>
+        <span className="card-3423-line card-3423-line-2"></span>
+
+        <div className="card-3423-top">
+          <span className="card-3423-pill">NOVA ENTRY</span>
+        </div>
+
+        <h3>Cosmic Archive</h3>
+
+        <p className="card-3423-text">
+          Store gradients, styles and component ideas inside a polished
+          deep-space card block.
+        </p>
+
+        <div className="card-3423-grid">
+          <div>
+            <span>Theme</span>
+            <strong>Starlight</strong>
+          </div>
+
+          <div>
+            <span>Level</span>
+            <strong>Premium</strong>
+          </div>
+
+          <div>
+            <span>Space</span>
+            <strong>12.4 GB</strong>
+          </div>
+
+          <div>
+            <span>Status</span>
+            <strong>Stable</strong>
+          </div>
+        </div>
+
+        <button className="card-3423-button">View Collection</button>
+      </div>
+    ),
+    html: `<div class="card-3423">
+    <span class="card-3423-line card-3423-line-1"></span>
+    <span class="card-3423-line card-3423-line-2"></span>
+
+    <div class="card-3423-top">
+        <span class="card-3423-pill">NOVA ENTRY</span>
+    </div>
+
+    <h3>Cosmic Archive</h3>
+
+    <p class="card-3423-text">
+        Store gradients, styles and component ideas inside a polished deep-space card block.
+    </p>
+
+    <div class="card-3423-grid">
+        <div>
+            <span>Theme</span>
+            <strong>Starlight</strong>
+        </div>
+
+        <div>
+            <span>Level</span>
+            <strong>Premium</strong>
+        </div>
+
+        <div>
+            <span>Space</span>
+            <strong>12.4 GB</strong>
+        </div>
+
+        <div>
+            <span>Status</span>
+            <strong>Stable</strong>
+        </div>
+    </div>
+
+    <button class="card-3423-button">View Collection</button>
+</div>`,
+    css: `.card-3423 {
+    position: relative;
+    width: 300px;
+    padding: 22px;
+    overflow: hidden;
+    border: 1px solid rgba(96, 165, 250, 0.12);
+    border-radius: 24px;
+    background:
+        linear-gradient(145deg, #070b17 0%, #10172a 45%, #180f29 100%);
+    color: #ffffff;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.3);
+}
+
+.card-3423-line {
+    position: absolute;
+    display: block;
+    border-radius: 999px;
+    pointer-events: none;
+}
+
+.card-3423-line-1 {
+    top: 18px;
+    right: -18px;
+    width: 88px;
+    height: 88px;
+    border: 1px solid rgba(56, 189, 248, 0.18);
+}
+
+.card-3423-line-2 {
+    bottom: -30px;
+    left: -24px;
+    width: 110px;
+    height: 110px;
+    border: 1px solid rgba(168, 85, 247, 0.14);
+}
+
+.card-3423-top {
+    margin-bottom: 16px;
+}
+
+.card-3423-pill {
+    display: inline-block;
+    padding: 5px 9px;
+    border: 1px solid rgba(125, 211, 252, 0.16);
+    border-radius: 999px;
+    background: rgba(14, 165, 233, 0.08);
+    color: #7dd3fc;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+}
+
+.card-3423 h3 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+}
+
+.card-3423-text {
+    margin: 12px 0 18px;
+    color: #9ca3af;
+    font-size: 12px;
+    line-height: 1.65;
+}
+
+.card-3423-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.card-3423-grid div {
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.card-3423-grid span,
+.card-3423-grid strong {
+    display: block;
+}
+
+.card-3423-grid span {
+    margin-bottom: 5px;
+    color: #64748b;
+    font-size: 9px;
+}
+
+.card-3423-grid strong {
+    font-size: 13px;
+    color: #f8fafc;
+}
+
+.card-3423-button {
+    width: 100%;
+    padding: 11px 14px;
+    border: none;
+    border-radius: 14px;
+    background: linear-gradient(90deg, #8b5cf6, #ec4899);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3424,
+    name: "Stellar Dashboard Card",
+    preview: (
+      <div className="card-3424">
+        <div className="card-3424-head">
+          <div>
+            <span className="card-3424-label">DASHBOARD</span>
+            <h3>Stellar Pulse</h3>
+          </div>
+
+          <span className="card-3424-dot"></span>
+        </div>
+
+        <div className="card-3424-visual">
+          <span className="card-3424-glow card-3424-glow-1"></span>
+          <span className="card-3424-glow card-3424-glow-2"></span>
+
+          <div className="card-3424-bars">
+            <span className="card-3424-bar card-3424-bar-1"></span>
+            <span className="card-3424-bar card-3424-bar-2"></span>
+            <span className="card-3424-bar card-3424-bar-3"></span>
+            <span className="card-3424-bar card-3424-bar-4"></span>
+          </div>
+        </div>
+
+        <p className="card-3424-text">
+          Smooth cosmic overview card with bright static energy bars and layered
+          galactic glow.
+        </p>
+
+        <div className="card-3424-bottom">
+          <strong>+18.4%</strong>
+          <span>Growth this week</span>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3424">
+    <div class="card-3424-head">
+        <div>
+            <span class="card-3424-label">DASHBOARD</span>
+            <h3>Stellar Pulse</h3>
+        </div>
+
+        <span class="card-3424-dot"></span>
+    </div>
+
+    <div class="card-3424-visual">
+        <span class="card-3424-glow card-3424-glow-1"></span>
+        <span class="card-3424-glow card-3424-glow-2"></span>
+
+        <div class="card-3424-bars">
+            <span class="card-3424-bar card-3424-bar-1"></span>
+            <span class="card-3424-bar card-3424-bar-2"></span>
+            <span class="card-3424-bar card-3424-bar-3"></span>
+            <span class="card-3424-bar card-3424-bar-4"></span>
+        </div>
+    </div>
+
+    <p class="card-3424-text">
+        Smooth cosmic overview card with bright static energy bars and layered galactic glow.
+    </p>
+
+    <div class="card-3424-bottom">
+        <strong>+18.4%</strong>
+        <span>Growth this week</span>
+    </div>
+</div>`,
+    css: `.card-3424 {
+    width: 300px;
+    padding: 22px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 24px;
+    background:
+        linear-gradient(145deg, #080b14 0%, #0f172a 50%, #1a1031 100%);
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.32);
+    color: #ffffff;
+}
+
+.card-3424-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.card-3424-label {
+    color: #7dd3fc;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+}
+
+.card-3424-head h3 {
+    margin: 6px 0 0;
+    font-size: 22px;
+    line-height: 1.1;
+}
+
+.card-3424-dot {
+    width: 12px;
+    height: 12px;
+    margin-top: 3px;
+    border-radius: 50%;
+    background: #c084fc;
+    box-shadow: 0 0 16px rgba(192, 132, 252, 0.45);
+}
+
+.card-3424-visual {
+    position: relative;
+    height: 132px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 18px;
+    background:
+        linear-gradient(145deg, rgba(15, 23, 42, 0.92), rgba(17, 24, 39, 0.98));
+}
+
+.card-3424-glow {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(26px);
+    pointer-events: none;
+}
+
+.card-3424-glow-1 {
+    width: 90px;
+    height: 90px;
+    top: 10px;
+    left: 22px;
+    background: rgba(56, 189, 248, 0.2);
+}
+
+.card-3424-glow-2 {
+    width: 86px;
+    height: 86px;
+    right: 20px;
+    bottom: 14px;
+    background: rgba(168, 85, 247, 0.2);
+}
+
+.card-3424-bars {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 18px;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.card-3424-bar {
+    flex: 1;
+    border-radius: 999px 999px 8px 8px;
+    background: linear-gradient(to top, #38bdf8, #818cf8, #c084fc);
+    box-shadow: 0 0 16px rgba(129, 140, 248, 0.22);
+}
+
+.card-3424-bar-1 { height: 36px; }
+.card-3424-bar-2 { height: 68px; }
+.card-3424-bar-3 { height: 52px; }
+.card-3424-bar-4 { height: 86px; }
+
+.card-3424-text {
+    margin: 0 0 16px;
+    color: #94a3b8;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.card-3424-bottom strong,
+.card-3424-bottom span {
+    display: block;
+}
+
+.card-3424-bottom strong {
+    color: #f8fafc;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.card-3424-bottom span {
+    margin-top: 5px;
+    color: #64748b;
+    font-size: 10px;
+}`,
+  },
+  {
+    id: 3425,
+    name: "Aurora Space Card",
+    preview: (
+      <div className="card-3425">
+        <div className="card-3425-banner">
+          <span className="card-3425-aura card-3425-aura-1"></span>
+          <span className="card-3425-aura card-3425-aura-2"></span>
+        </div>
+
+        <div className="card-3425-content">
+          <span className="card-3425-kicker">SPACE COLLECTION</span>
+
+          <h3>Polar Aurora</h3>
+
+          <p>
+            Bright layered card with soft cosmic gradients and a refined premium
+            dark base.
+          </p>
+
+          <div className="card-3425-tags">
+            <span>Cosmic</span>
+            <span>Gradient</span>
+            <span>Luxury</span>
+          </div>
+
+          <div className="card-3425-footer">
+            <strong>$84</strong>
+            <button>View Card</button>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3425">
+    <div class="card-3425-banner">
+        <span class="card-3425-aura card-3425-aura-1"></span>
+        <span class="card-3425-aura card-3425-aura-2"></span>
+    </div>
+
+    <div class="card-3425-content">
+        <span class="card-3425-kicker">SPACE COLLECTION</span>
+
+        <h3>Polar Aurora</h3>
+
+        <p>
+            Bright layered card with soft cosmic gradients and a refined premium dark base.
+        </p>
+
+        <div class="card-3425-tags">
+            <span>Cosmic</span>
+            <span>Gradient</span>
+            <span>Luxury</span>
+        </div>
+
+        <div class="card-3425-footer">
+            <strong>$84</strong>
+            <button>View Card</button>
+        </div>
+    </div>
+</div>`,
+    css: `.card-3425 {
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid rgba(191, 219, 254, 0.08);
+    border-radius: 24px;
+    background:
+        linear-gradient(145deg, #090d17 0%, #111827 48%, #1a1030 100%);
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.32);
+    color: #ffffff;
+}
+
+.card-3425-banner {
+    position: relative;
+    height: 126px;
+    overflow: hidden;
+    background:
+        linear-gradient(145deg, rgba(15, 23, 42, 0.95), rgba(17, 24, 39, 0.98));
+}
+
+.card-3425-aura {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(24px);
+}
+
+.card-3425-aura-1 {
+    width: 120px;
+    height: 120px;
+    top: 10px;
+    left: 18px;
+    background: rgba(34, 211, 238, 0.22);
+}
+
+.card-3425-aura-2 {
+    width: 130px;
+    height: 130px;
+    right: 14px;
+    top: -10px;
+    background: rgba(192, 132, 252, 0.24);
+}
+
+.card-3425-content {
+    padding: 20px;
+}
+
+.card-3425-kicker {
+    color: #93c5fd;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+}
+
+.card-3425-content h3 {
+    margin: 7px 0 0;
+    font-size: 24px;
+    line-height: 1.1;
+}
+
+.card-3425-content p {
+    margin: 12px 0 16px;
+    color: #9ca3af;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.card-3425-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 18px;
+}
+
+.card-3425-tags span {
+    padding: 5px 9px;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.03);
+    color: #cbd5e1;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.card-3425-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.card-3425-footer strong {
+    font-size: 24px;
+    letter-spacing: -0.03em;
+}
+
+.card-3425-footer button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #06b6d4, #8b5cf6, #ec4899);
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3426,
+    name: "Void Horizon Card",
+    preview: (
+      <div className="card-3426">
+        <div className="card-3426-horizon">
+          <span className="card-3426-glow card-3426-glow-1" />
+          <span className="card-3426-glow card-3426-glow-2" />
+          <span className="card-3426-core" />
+        </div>
+
+        <div className="card-3426-content">
+          <span className="card-3426-label">VOID SYSTEM</span>
+          <h3>Event Horizon</h3>
+          <p>
+            A dark cosmic panel inspired by deep-space singularities and violet
+            energy fields.
+          </p>
+
+          <div className="card-3426-details">
+            <div>
+              <span>Mass</span>
+              <strong>8.4M</strong>
+            </div>
+
+            <div>
+              <span>Radius</span>
+              <strong>124 AU</strong>
+            </div>
+
+            <div>
+              <span>State</span>
+              <strong>Stable</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3426">
+    <div class="card-3426-horizon">
+        <span class="card-3426-glow card-3426-glow-1"></span>
+        <span class="card-3426-glow card-3426-glow-2"></span>
+        <span class="card-3426-core"></span>
+    </div>
+
+    <div class="card-3426-content">
+        <span class="card-3426-label">VOID SYSTEM</span>
+        <h3>Event Horizon</h3>
+        <p>
+            A dark cosmic panel inspired by deep-space singularities and violet energy fields.
+        </p>
+
+        <div class="card-3426-details">
+            <div>
+                <span>Mass</span>
+                <strong>8.4M</strong>
+            </div>
+
+            <div>
+                <span>Radius</span>
+                <strong>124 AU</strong>
+            </div>
+
+            <div>
+                <span>State</span>
+                <strong>Stable</strong>
+            </div>
+        </div>
+    </div>
+</div>`,
+    css: `.card-3426 {
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid rgba(168,85,247,.12);
+    border-radius: 24px;
+    background: linear-gradient(150deg,#05060d,#0b0a19 45%,#170b29);
+    color: #ffffff;
+    box-shadow: 0 20px 45px rgba(0,0,0,.35);
+}
+
+.card-3426-horizon {
+    position: relative;
+    height: 145px;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 50% 60%,rgba(126,34,206,.16),transparent 48%),
+        linear-gradient(180deg,#070911,#0a0710);
+}
+
+.card-3426-glow {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(26px);
+}
+
+.card-3426-glow-1 {
+    width: 100px;
+    height: 100px;
+    left: 37px;
+    top: 28px;
+    background: rgba(34,211,238,.18);
+}
+
+.card-3426-glow-2 {
+    width: 115px;
+    height: 115px;
+    right: 30px;
+    top: 18px;
+    background: rgba(192,132,252,.2);
+}
+
+.card-3426-core {
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    width: 61px;
+    height: 61px;
+    transform: translate(-50%,-50%);
+    border: 5px solid #7c3aed;
+    border-radius: 50%;
+    background: #020205;
+    box-shadow:
+        0 0 0 7px rgba(168,85,247,.12),
+        0 0 28px rgba(192,132,252,.4),
+        inset 0 0 18px #000000;
+}
+
+.card-3426-content {
+    padding: 20px;
+}
+
+.card-3426-label {
+    color: #c084fc;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .14em;
+}
+
+.card-3426 h3 {
+    margin: 7px 0 0;
+    font-size: 24px;
+}
+
+.card-3426 p {
+    margin: 12px 0 17px;
+    color: #9299aa;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.card-3426-details {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7px;
+}
+
+.card-3426-details div {
+    padding: 10px 6px;
+    border: 1px solid rgba(255,255,255,.055);
+    border-radius: 12px;
+    background: rgba(255,255,255,.025);
+    text-align: center;
+}
+
+.card-3426-details span,
+.card-3426-details strong {
+    display: block;
+}
+
+.card-3426-details span {
+    margin-bottom: 4px;
+    color: #667085;
+    font-size: 8px;
+}
+
+.card-3426-details strong {
+    font-size: 11px;
+}`,
+  },
+  {
+    id: 3427,
+    name: "Nebula Resource Card",
+    preview: (
+      <div className="card-3427">
+        <div className="card-3427-header">
+          <div>
+            <span className="card-3427-label">NEBULA STORAGE</span>
+            <h3>Celestial Vault</h3>
+          </div>
+
+          <span className="card-3427-status">ACTIVE</span>
+        </div>
+
+        <div className="card-3427-space">
+          <span className="card-3427-cloud card-3427-cloud-1" />
+          <span className="card-3427-cloud card-3427-cloud-2" />
+          <span className="card-3427-cloud card-3427-cloud-3" />
+          <span className="card-3427-star card-3427-star-1" />
+          <span className="card-3427-star card-3427-star-2" />
+          <span className="card-3427-star card-3427-star-3" />
+          <span className="card-3427-star card-3427-star-4" />
+        </div>
+
+        <div className="card-3427-capacity">
+          <div>
+            <span>Used capacity</span>
+            <strong>68%</strong>
+          </div>
+
+          <div className="card-3427-track">
+            <span />
+          </div>
+        </div>
+
+        <div className="card-3427-footer">
+          <span>2.8 TB available</span>
+          <span>4.0 TB total</span>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3427">
+    <div class="card-3427-header">
+        <div>
+            <span class="card-3427-label">NEBULA STORAGE</span>
+            <h3>Celestial Vault</h3>
+        </div>
+
+        <span class="card-3427-status">ACTIVE</span>
+    </div>
+
+    <div class="card-3427-space">
+        <span class="card-3427-cloud card-3427-cloud-1"></span>
+        <span class="card-3427-cloud card-3427-cloud-2"></span>
+        <span class="card-3427-cloud card-3427-cloud-3"></span>
+        <span class="card-3427-star card-3427-star-1"></span>
+        <span class="card-3427-star card-3427-star-2"></span>
+        <span class="card-3427-star card-3427-star-3"></span>
+        <span class="card-3427-star card-3427-star-4"></span>
+    </div>
+
+    <div class="card-3427-capacity">
+        <div>
+            <span>Used capacity</span>
+            <strong>68%</strong>
+        </div>
+
+        <div class="card-3427-track">
+            <span></span>
+        </div>
+    </div>
+
+    <div class="card-3427-footer">
+        <span>2.8 TB available</span>
+        <span>4.0 TB total</span>
+    </div>
+</div>`,
+    css: `.card-3427 {
+    width: 300px;
+    padding: 21px;
+    overflow: hidden;
+    border: 1px solid rgba(56,189,248,.1);
+    border-radius: 24px;
+    background: linear-gradient(145deg,#07101b,#0d1224 55%,#140e2b);
+    color: #ffffff;
+    box-shadow: 0 20px 44px rgba(0,0,0,.32);
+}
+
+.card-3427-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.card-3427-label {
+    color: #67e8f9;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .14em;
+}
+
+.card-3427 h3 {
+    margin: 6px 0 0;
+    font-size: 21px;
+}
+
+.card-3427-status {
+    padding: 5px 8px;
+    border: 1px solid rgba(134,239,172,.14);
+    border-radius: 999px;
+    background: rgba(34,197,94,.07);
+    color: #86efac;
+    font-size: 8px;
+    font-weight: 800;
+}
+
+.card-3427-space {
+    position: relative;
+    height: 120px;
+    margin: 18px 0;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.05);
+    border-radius: 17px;
+    background: #090c18;
+}
+
+.card-3427-cloud {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(25px);
+}
+
+.card-3427-cloud-1 {
+    width: 100px;
+    height: 78px;
+    left: 10px;
+    top: 17px;
+    background: rgba(14,165,233,.24);
+}
+
+.card-3427-cloud-2 {
+    width: 110px;
+    height: 80px;
+    right: 8px;
+    top: 10px;
+    background: rgba(147,51,234,.23);
+}
+
+.card-3427-cloud-3 {
+    width: 90px;
+    height: 70px;
+    left: 96px;
+    bottom: -10px;
+    background: rgba(236,72,153,.15);
+}
+
+.card-3427-star {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0 0 5px currentColor;
+}
+
+.card-3427-star-1 {
+    left: 28px;
+    top: 25px;
+    color: #67e8f9;
+}
+
+.card-3427-star-2 {
+    right: 39px;
+    top: 27px;
+    color: #f9a8d4;
+}
+
+.card-3427-star-3 {
+    left: 87px;
+    bottom: 24px;
+    color: #ffffff;
+}
+
+.card-3427-star-4 {
+    right: 80px;
+    bottom: 16px;
+    color: #c4b5fd;
+}
+
+.card-3427-capacity > div:first-child {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+}
+
+.card-3427-capacity span {
+    color: #8f98a9;
+    font-size: 10px;
+}
+
+.card-3427-capacity strong {
+    color: #e0f2fe;
+    font-size: 11px;
+}
+
+.card-3427-track {
+    height: 5px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #171c2b;
+}
+
+.card-3427-track span {
+    display: block;
+    width: 68%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg,#06b6d4,#6366f1,#a855f7);
+}
+
+.card-3427-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.card-3427-footer span {
+    color: #677184;
+    font-size: 9px;
+}`,
+  },
+  {
+    id: 3428,
+    name: "Cosmic Membership Card",
+    preview: (
+      <div className="card-3428">
+        <span className="card-3428-light card-3428-light-1" />
+        <span className="card-3428-light card-3428-light-2" />
+
+        <div className="card-3428-top">
+          <span>CELESTIAL ACCESS</span>
+          <strong>∞</strong>
+        </div>
+
+        <div className="card-3428-main">
+          <span className="card-3428-tier">ULTRA</span>
+          <h3>Cosmic Pass</h3>
+          <p>Unlimited access to the outer sectors.</p>
+        </div>
+
+        <div className="card-3428-code">
+          <span>MEMBER</span>
+          <strong>AB-3428-X7</strong>
+        </div>
+
+        <div className="card-3428-bottom">
+          <span>VALID THROUGH</span>
+          <strong>∞ / ∞</strong>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3428">
+    <span class="card-3428-light card-3428-light-1"></span>
+    <span class="card-3428-light card-3428-light-2"></span>
+
+    <div class="card-3428-top">
+        <span>CELESTIAL ACCESS</span>
+        <strong>∞</strong>
+    </div>
+
+    <div class="card-3428-main">
+        <span class="card-3428-tier">ULTRA</span>
+        <h3>Cosmic Pass</h3>
+        <p>Unlimited access to the outer sectors.</p>
+    </div>
+
+    <div class="card-3428-code">
+        <span>MEMBER</span>
+        <strong>AB-3428-X7</strong>
+    </div>
+
+    <div class="card-3428-bottom">
+        <span>VALID THROUGH</span>
+        <strong>∞ / ∞</strong>
+    </div>
+</div>`,
+    css: `.card-3428 {
+    position: relative;
+    width: 300px;
+    min-height: 190px;
+    padding: 22px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.11);
+    border-radius: 22px;
+    background:
+        radial-gradient(circle at 78% 20%,rgba(56,189,248,.16),transparent 28%),
+        radial-gradient(circle at 15% 88%,rgba(236,72,153,.16),transparent 30%),
+        linear-gradient(135deg,#070914,#11142b 50%,#211139);
+    color: #ffffff;
+    box-shadow: 0 20px 45px rgba(0,0,0,.32);
+}
+
+.card-3428-light {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(24px);
+}
+
+.card-3428-light-1 {
+    width: 90px;
+    height: 90px;
+    right: -22px;
+    top: -20px;
+    background: rgba(34,211,238,.18);
+}
+
+.card-3428-light-2 {
+    width: 90px;
+    height: 90px;
+    left: -28px;
+    bottom: -30px;
+    background: rgba(217,70,239,.18);
+}
+
+.card-3428-top,
+.card-3428-main,
+.card-3428-code,
+.card-3428-bottom {
+    position: relative;
+    z-index: 2;
+}
+
+.card-3428-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-3428-top span {
+    color: #93c5fd;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .16em;
+}
+
+.card-3428-top strong {
+    color: #c4b5fd;
+    font-size: 24px;
+}
+
+.card-3428-main {
+    margin-top: 22px;
+}
+
+.card-3428-tier {
+    color: #f0abfc;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .16em;
+}
+
+.card-3428 h3 {
+    margin: 5px 0 0;
+    font-size: 25px;
+    letter-spacing: -.03em;
+}
+
+.card-3428-main p {
+    margin: 7px 0 0;
+    color: #8d96a8;
+    font-size: 10px;
+}
+
+.card-3428-code {
+    margin-top: 22px;
+}
+
+.card-3428-code span,
+.card-3428-code strong {
+    display: block;
+}
+
+.card-3428-code span {
+    margin-bottom: 3px;
+    color: #606a7d;
+    font-size: 7px;
+    letter-spacing: .12em;
+}
+
+.card-3428-code strong {
+    font-size: 11px;
+    letter-spacing: .13em;
+}
+
+.card-3428-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+    padding-top: 13px;
+    border-top: 1px solid rgba(255,255,255,.06);
+}
+
+.card-3428-bottom span {
+    color: #606a7d;
+    font-size: 7px;
+    letter-spacing: .12em;
+}
+
+.card-3428-bottom strong {
+    font-size: 9px;
+}`,
+  },
+  {
+    id: 3429,
+    name: "Planet Discovery Card",
+    preview: (
+      <div className="card-3429">
+        <div className="card-3429-planet-section">
+          <span className="card-3429-planet">
+            <span className="card-3429-ring" />
+          </span>
+
+          <span className="card-3429-moon card-3429-moon-1" />
+          <span className="card-3429-moon card-3429-moon-2" />
+        </div>
+
+        <div className="card-3429-content">
+          <span className="card-3429-label">NEW DISCOVERY</span>
+          <h3>Vespera IX</h3>
+
+          <p>
+            A violet gas giant surrounded by a luminous ring system in the
+            Vesper sector.
+          </p>
+
+          <div className="card-3429-grid">
+            <div>
+              <span>Type</span>
+              <strong>Gas Giant</strong>
+            </div>
+
+            <div>
+              <span>Moons</span>
+              <strong>14</strong>
+            </div>
+
+            <div>
+              <span>Temp</span>
+              <strong>-148°</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3429">
+    <div class="card-3429-planet-section">
+        <span class="card-3429-planet">
+            <span class="card-3429-ring"></span>
+        </span>
+
+        <span class="card-3429-moon card-3429-moon-1"></span>
+        <span class="card-3429-moon card-3429-moon-2"></span>
+    </div>
+
+    <div class="card-3429-content">
+        <span class="card-3429-label">NEW DISCOVERY</span>
+        <h3>Vespera IX</h3>
+
+        <p>
+            A violet gas giant surrounded by a luminous ring system in the Vesper sector.
+        </p>
+
+        <div class="card-3429-grid">
+            <div>
+                <span>Type</span>
+                <strong>Gas Giant</strong>
+            </div>
+
+            <div>
+                <span>Moons</span>
+                <strong>14</strong>
+            </div>
+
+            <div>
+                <span>Temp</span>
+                <strong>-148°</strong>
+            </div>
+        </div>
+    </div>
+</div>`,
+    css: `.card-3429 {
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid rgba(168,85,247,.11);
+    border-radius: 24px;
+    background: linear-gradient(145deg,#080a15,#101224 55%,#190d2e);
+    color: #ffffff;
+    box-shadow: 0 20px 46px rgba(0,0,0,.33);
+}
+
+.card-3429-planet-section {
+    position: relative;
+    height: 150px;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 50% 50%,rgba(139,92,246,.13),transparent 42%),
+        linear-gradient(180deg,#080a16,#0a0b15);
+}
+
+.card-3429-planet {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 72px;
+    height: 72px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at 32% 26%,#f5d0fe,#c084fc 21%,#7e22ce 52%,#2e1065 82%,#160723);
+    box-shadow:
+        0 0 18px rgba(168,85,247,.42),
+        0 0 38px rgba(76,29,149,.25);
+}
+
+.card-3429-ring {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 118px;
+    height: 27px;
+    transform: translate(-50%,-50%) rotate(-14deg);
+    border: 3px solid rgba(216,180,254,.58);
+    border-radius: 50%;
+    box-shadow: 0 0 9px rgba(192,132,252,.25);
+}
+
+.card-3429-moon {
+    position: absolute;
+    border-radius: 50%;
+    background: #cbd5e1;
+}
+
+.card-3429-moon-1 {
+    width: 8px;
+    height: 8px;
+    left: 41px;
+    top: 41px;
+}
+
+.card-3429-moon-2 {
+    width: 5px;
+    height: 5px;
+    right: 53px;
+    bottom: 27px;
+    background: #93c5fd;
+}
+
+.card-3429-content {
+    padding: 20px;
+}
+
+.card-3429-label {
+    color: #c084fc;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .14em;
+}
+
+.card-3429 h3 {
+    margin: 6px 0 0;
+    font-size: 24px;
+}
+
+.card-3429 p {
+    margin: 12px 0 17px;
+    color: #9299a9;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.card-3429-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7px;
+}
+
+.card-3429-grid div {
+    padding: 9px 6px;
+    border-radius: 11px;
+    background: rgba(255,255,255,.03);
+    text-align: center;
+}
+
+.card-3429-grid span,
+.card-3429-grid strong {
+    display: block;
+}
+
+.card-3429-grid span {
+    margin-bottom: 4px;
+    color: #636d80;
+    font-size: 8px;
+}
+
+.card-3429-grid strong {
+    font-size: 10px;
+}`,
+  },
+  {
+    id: 3430,
+    name: "Cosmic Project Card",
+    preview: (
+      <div className="card-3430">
+        <div className="card-3430-top">
+          <span className="card-3430-label">PROJECT 08</span>
+          <span className="card-3430-state">COMPLETE</span>
+        </div>
+
+        <h3>Stellar Interface</h3>
+
+        <p className="card-3430-description">
+          A UI system built around dark space surfaces, spectral gradients and
+          luminous accents.
+        </p>
+
+        <div className="card-3430-preview">
+          <span className="card-3430-block card-3430-block-1" />
+          <span className="card-3430-block card-3430-block-2" />
+          <span className="card-3430-block card-3430-block-3" />
+        </div>
+
+        <div className="card-3430-tags">
+          <span>Interface</span>
+          <span>Cosmic</span>
+          <span>UI System</span>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3430">
+    <div class="card-3430-top">
+        <span class="card-3430-label">PROJECT 08</span>
+        <span class="card-3430-state">COMPLETE</span>
+    </div>
+
+    <h3>Stellar Interface</h3>
+
+    <p class="card-3430-description">
+        A UI system built around dark space surfaces, spectral gradients and luminous accents.
+    </p>
+
+    <div class="card-3430-preview">
+        <span class="card-3430-block card-3430-block-1"></span>
+        <span class="card-3430-block card-3430-block-2"></span>
+        <span class="card-3430-block card-3430-block-3"></span>
+    </div>
+
+    <div class="card-3430-tags">
+        <span>Interface</span>
+        <span>Cosmic</span>
+        <span>UI System</span>
+    </div>
+</div>`,
+    css: `.card-3430 {
+    width: 300px;
+    padding: 21px;
+    border: 1px solid rgba(103,232,249,.09);
+    border-radius: 24px;
+    background: linear-gradient(145deg,#070a13,#0f1425 50%,#18102c);
+    color: #ffffff;
+    box-shadow: 0 19px 42px rgba(0,0,0,.3);
+}
+
+.card-3430-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-3430-label {
+    color: #67e8f9;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .14em;
+}
+
+.card-3430-state {
+    color: #86efac;
+    font-size: 8px;
+    font-weight: 800;
+}
+
+.card-3430 h3 {
+    margin: 18px 0 0;
+    font-size: 24px;
+    letter-spacing: -.03em;
+}
+
+.card-3430-description {
+    margin: 11px 0 17px;
+    color: #8e97a9;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.card-3430-preview {
+    position: relative;
+    height: 112px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.055);
+    border-radius: 17px;
+    background:
+        radial-gradient(circle at 75% 25%,rgba(192,132,252,.18),transparent 32%),
+        radial-gradient(circle at 23% 80%,rgba(34,211,238,.14),transparent 34%),
+        #090d17;
+}
+
+.card-3430-block {
+    position: absolute;
+    display: block;
+    border-radius: 12px;
+}
+
+.card-3430-block-1 {
+    left: 19px;
+    top: 20px;
+    width: 81px;
+    height: 28px;
+    background: linear-gradient(90deg,#0ea5e9,#6366f1);
+}
+
+.card-3430-block-2 {
+    left: 19px;
+    bottom: 19px;
+    width: 125px;
+    height: 31px;
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.05);
+}
+
+.card-3430-block-3 {
+    right: 21px;
+    top: 22px;
+    width: 65px;
+    height: 68px;
+    background: linear-gradient(145deg,#7c3aed,#db2777);
+    opacity: .76;
+}
+
+.card-3430-tags {
+    display: flex;
+    gap: 6px;
+    margin-top: 14px;
+}
+
+.card-3430-tags span {
+    padding: 5px 8px;
+    border: 1px solid rgba(255,255,255,.06);
+    border-radius: 999px;
+    background: rgba(255,255,255,.025);
+    color: #9da6b5;
+    font-size: 8px;
+}`,
+  },
+  {
+    id: 3431,
+    name: "Supernova Metric Card",
+    preview: (
+      <div className="card-3431">
+        <span className="card-3431-flare card-3431-flare-1" />
+        <span className="card-3431-flare card-3431-flare-2" />
+
+        <div className="card-3431-header">
+          <span>SUPERNOVA ENERGY</span>
+          <strong>LIVE</strong>
+        </div>
+
+        <div className="card-3431-value">
+          <strong>94.8</strong>
+          <span>petajoules</span>
+        </div>
+
+        <div className="card-3431-scale">
+          <span className="card-3431-scale-fill" />
+        </div>
+
+        <div className="card-3431-data">
+          <div>
+            <span>CORE</span>
+            <strong>9,420 K</strong>
+          </div>
+
+          <div>
+            <span>OUTPUT</span>
+            <strong>+24.8%</strong>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3431">
+    <span class="card-3431-flare card-3431-flare-1"></span>
+    <span class="card-3431-flare card-3431-flare-2"></span>
+
+    <div class="card-3431-header">
+        <span>SUPERNOVA ENERGY</span>
+        <strong>LIVE</strong>
+    </div>
+
+    <div class="card-3431-value">
+        <strong>94.8</strong>
+        <span>petajoules</span>
+    </div>
+
+    <div class="card-3431-scale">
+        <span class="card-3431-scale-fill"></span>
+    </div>
+
+    <div class="card-3431-data">
+        <div>
+            <span>CORE</span>
+            <strong>9,420 K</strong>
+        </div>
+
+        <div>
+            <span>OUTPUT</span>
+            <strong>+24.8%</strong>
+        </div>
+    </div>
+</div>`,
+    css: `.card-3431 {
+    position: relative;
+    width: 300px;
+    padding: 22px;
+    overflow: hidden;
+    border: 1px solid rgba(244,114,182,.11);
+    border-radius: 24px;
+    background: linear-gradient(145deg,#080a14,#151025 50%,#27112d);
+    color: #ffffff;
+    box-shadow: 0 20px 44px rgba(0,0,0,.32);
+}
+
+.card-3431-flare {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(34px);
+}
+
+.card-3431-flare-1 {
+    width: 130px;
+    height: 130px;
+    right: -40px;
+    top: -43px;
+    background: rgba(244,114,182,.2);
+}
+
+.card-3431-flare-2 {
+    width: 120px;
+    height: 120px;
+    left: -50px;
+    bottom: -50px;
+    background: rgba(99,102,241,.18);
+}
+
+.card-3431-header,
+.card-3431-value,
+.card-3431-scale,
+.card-3431-data {
+    position: relative;
+    z-index: 2;
+}
+
+.card-3431-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-3431-header span {
+    color: #f9a8d4;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .14em;
+}
+
+.card-3431-header strong {
+    padding: 4px 7px;
+    border-radius: 999px;
+    background: rgba(236,72,153,.1);
+    color: #f9a8d4;
+    font-size: 8px;
+}
+
+.card-3431-value {
+    margin-top: 30px;
+}
+
+.card-3431-value strong {
+    display: block;
+    font-size: 43px;
+    line-height: .9;
+    letter-spacing: -.05em;
+    background: linear-gradient(90deg,#ffffff,#f9a8d4,#c4b5fd);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.card-3431-value span {
+    display: block;
+    margin-top: 8px;
+    color: #747e91;
+    font-size: 10px;
+}
+
+.card-3431-scale {
+    height: 6px;
+    margin: 20px 0;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #211827;
+}
+
+.card-3431-scale-fill {
+    display: block;
+    width: 82%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg,#8b5cf6,#ec4899,#f9a8d4);
+}
+
+.card-3431-data {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+}
+
+.card-3431-data div {
+    padding: 11px;
+    border-radius: 13px;
+    background: rgba(255,255,255,.03);
+}
+
+.card-3431-data span,
+.card-3431-data strong {
+    display: block;
+}
+
+.card-3431-data span {
+    margin-bottom: 5px;
+    color: #616b80;
+    font-size: 7px;
+    letter-spacing: .12em;
+}
+
+.card-3431-data strong {
+    font-size: 12px;
+}`,
+  },
+  {
+    id: 3432,
+    name: "Astral Notes Card",
+    preview: (
+      <div className="card-3432">
+        <div className="card-3432-header">
+          <span>ASTRAL NOTES</span>
+          <span>04 / 12</span>
+        </div>
+
+        <h3>Beyond the Blue Nebula</h3>
+
+        <p>
+          Observations from a quiet region where the blue stellar clouds begin
+          to fade into violet darkness.
+        </p>
+
+        <div className="card-3432-divider" />
+
+        <div className="card-3432-footer">
+          <div>
+            <span>SECTOR</span>
+            <strong>VX-09</strong>
+          </div>
+
+          <div>
+            <span>DATE</span>
+            <strong>17.09.26</strong>
+          </div>
+        </div>
+
+        <span className="card-3432-glow" />
+      </div>
+    ),
+    html: `<div class="card-3432">
+    <div class="card-3432-header">
+        <span>ASTRAL NOTES</span>
+        <span>04 / 12</span>
+    </div>
+
+    <h3>Beyond the Blue Nebula</h3>
+
+    <p>
+        Observations from a quiet region where the blue stellar clouds begin to fade into violet darkness.
+    </p>
+
+    <div class="card-3432-divider"></div>
+
+    <div class="card-3432-footer">
+        <div>
+            <span>SECTOR</span>
+            <strong>VX-09</strong>
+        </div>
+
+        <div>
+            <span>DATE</span>
+            <strong>17.09.26</strong>
+        </div>
+    </div>
+
+    <span class="card-3432-glow"></span>
+</div>`,
+    css: `.card-3432 {
+    position: relative;
+    width: 300px;
+    padding: 24px;
+    overflow: hidden;
+    border: 1px solid rgba(125,211,252,.1);
+    border-radius: 22px;
+    background:
+        linear-gradient(145deg,rgba(8,13,25,.98),rgba(12,16,34,.98)),
+        #0b1020;
+    color: #ffffff;
+    box-shadow: 0 18px 40px rgba(0,0,0,.3);
+}
+
+.card-3432-header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.card-3432-header span:first-child {
+    color: #7dd3fc;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .15em;
+}
+
+.card-3432-header span:last-child {
+    color: #667085;
+    font-size: 9px;
+}
+
+.card-3432 h3 {
+    position: relative;
+    z-index: 2;
+    margin: 34px 0 0;
+    max-width: 230px;
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: -.04em;
+}
+
+.card-3432 > p {
+    position: relative;
+    z-index: 2;
+    margin: 14px 0 24px;
+    max-width: 240px;
+    color: #959dad;
+    font-size: 12px;
+    line-height: 1.65;
+}
+
+.card-3432-divider {
+    position: relative;
+    z-index: 2;
+    height: 1px;
+    background: linear-gradient(90deg,rgba(125,211,252,.35),rgba(192,132,252,.18),transparent);
+}
+
+.card-3432-footer {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    gap: 35px;
+    margin-top: 17px;
+}
+
+.card-3432-footer span,
+.card-3432-footer strong {
+    display: block;
+}
+
+.card-3432-footer span {
+    margin-bottom: 5px;
+    color: #5d677b;
+    font-size: 7px;
+    letter-spacing: .12em;
+}
+
+.card-3432-footer strong {
+    font-size: 10px;
+}
+
+.card-3432-glow {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: -55px;
+    bottom: -65px;
+    border-radius: 50%;
+    background: rgba(99,102,241,.2);
+    filter: blur(45px);
+}`,
+  },
+  {
+    id: 3433,
+    name: "Quantum Signal Card",
+    preview: (
+      <div className="card-3433">
+        <div className="card-3433-top">
+          <span className="card-3433-label">QUANTUM SIGNAL</span>
+          <span className="card-3433-value">87.4%</span>
+        </div>
+
+        <div className="card-3433-field">
+          <span className="card-3433-line card-3433-line-1" />
+          <span className="card-3433-line card-3433-line-2" />
+          <span className="card-3433-line card-3433-line-3" />
+          <span className="card-3433-core" />
+        </div>
+
+        <h3>Deep Link</h3>
+
+        <p>
+          High-bandwidth communication channel connected through a stabilized
+          interstellar relay.
+        </p>
+
+        <div className="card-3433-bottom">
+          <span>LATENCY 12MS</span>
+          <span>SECURE LINK</span>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3433">
+    <div class="card-3433-top">
+        <span class="card-3433-label">QUANTUM SIGNAL</span>
+        <span class="card-3433-value">87.4%</span>
+    </div>
+
+    <div class="card-3433-field">
+        <span class="card-3433-line card-3433-line-1"></span>
+        <span class="card-3433-line card-3433-line-2"></span>
+        <span class="card-3433-line card-3433-line-3"></span>
+        <span class="card-3433-core"></span>
+    </div>
+
+    <h3>Deep Link</h3>
+
+    <p>
+        High-bandwidth communication channel connected through a stabilized interstellar relay.
+    </p>
+
+    <div class="card-3433-bottom">
+        <span>LATENCY 12MS</span>
+        <span>SECURE LINK</span>
+    </div>
+</div>`,
+    css: `.card-3433 {
+    width: 300px;
+    padding: 21px;
+    border: 1px solid rgba(34,211,238,.11);
+    border-radius: 24px;
+    background: linear-gradient(145deg,#060b14,#0c1527 54%,#16102b);
+    color: #ffffff;
+    box-shadow: 0 18px 42px rgba(0,0,0,.32);
+}
+
+.card-3433-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-3433-label {
+    color: #67e8f9;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .14em;
+}
+
+.card-3433-value {
+    color: #c4b5fd;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.card-3433-field {
+    position: relative;
+    height: 105px;
+    margin: 17px 0;
+    overflow: hidden;
+    border-radius: 17px;
+    background:
+        radial-gradient(circle at center,rgba(34,211,238,.1),transparent 40%),
+        #090e1a;
+}
+
+.card-3433-line {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 1px solid;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.card-3433-line-1 {
+    width: 85px;
+    height: 35px;
+    border-color: rgba(34,211,238,.38);
+}
+
+.card-3433-line-2 {
+    width: 112px;
+    height: 55px;
+    border-color: rgba(129,140,248,.24);
+}
+
+.card-3433-line-3 {
+    width: 145px;
+    height: 77px;
+    border-color: rgba(192,132,252,.17);
+}
+
+.card-3433-core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 18px;
+    height: 18px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background: radial-gradient(circle,#ffffff,#67e8f9 38%,#6366f1);
+    box-shadow:
+        0 0 10px rgba(34,211,238,.65),
+        0 0 25px rgba(99,102,241,.3);
+}
+
+.card-3433 h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.card-3433 > p {
+    margin: 11px 0 17px;
+    color: #8e98aa;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.card-3433-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+    border-top: 1px solid rgba(255,255,255,.055);
+}
+
+.card-3433-bottom span {
+    color: #667085;
+    font-size: 7px;
+    font-weight: 800;
+    letter-spacing: .1em;
+}`,
+  },
+  {
+    id: 3434,
+    name: "Lunar Collection Card",
+    preview: (
+      <div className="card-3434">
+        <div className="card-3434-moon">
+          <span className="card-3434-crater card-3434-crater-1" />
+          <span className="card-3434-crater card-3434-crater-2" />
+          <span className="card-3434-crater card-3434-crater-3" />
+        </div>
+
+        <div className="card-3434-content">
+          <span className="card-3434-label">LUNAR SERIES</span>
+          <h3>Eclipse White</h3>
+
+          <p>
+            A clean lunar card combining soft moonlight with deep navy and
+            violet space tones.
+          </p>
+
+          <div className="card-3434-footer">
+            <div>
+              <strong>02</strong>
+              <span>Edition</span>
+            </div>
+
+            <div>
+              <strong>Rare</strong>
+              <span>Class</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3434">
+    <div class="card-3434-moon">
+        <span class="card-3434-crater card-3434-crater-1"></span>
+        <span class="card-3434-crater card-3434-crater-2"></span>
+        <span class="card-3434-crater card-3434-crater-3"></span>
+    </div>
+
+    <div class="card-3434-content">
+        <span class="card-3434-label">LUNAR SERIES</span>
+        <h3>Eclipse White</h3>
+
+        <p>
+            A clean lunar card combining soft moonlight with deep navy and violet space tones.
+        </p>
+
+        <div class="card-3434-footer">
+            <div>
+                <strong>02</strong>
+                <span>Edition</span>
+            </div>
+
+            <div>
+                <strong>Rare</strong>
+                <span>Class</span>
+            </div>
+        </div>
+    </div>
+</div>`,
+    css: `.card-3434 {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid rgba(226,232,240,.1);
+    border-radius: 24px;
+    background: linear-gradient(145deg,#090c16,#11172a 52%,#191129);
+    color: #ffffff;
+    box-shadow: 0 20px 45px rgba(0,0,0,.33);
+}
+
+.card-3434-moon {
+    position: relative;
+    width: 112px;
+    height: 112px;
+    margin: 30px auto 10px;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at 35% 30%,#ffffff,#e2e8f0 35%,#94a3b8 74%,#475569);
+    box-shadow:
+        0 0 24px rgba(226,232,240,.28),
+        0 0 55px rgba(99,102,241,.13);
+}
+
+.card-3434-crater {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(71,85,105,.16);
+    box-shadow: inset 2px 2px 4px rgba(15,23,42,.16);
+}
+
+.card-3434-crater-1 {
+    width: 21px;
+    height: 21px;
+    left: 20px;
+    top: 33px;
+}
+
+.card-3434-crater-2 {
+    width: 14px;
+    height: 14px;
+    right: 24px;
+    top: 24px;
+}
+
+.card-3434-crater-3 {
+    width: 28px;
+    height: 28px;
+    right: 21px;
+    bottom: 18px;
+}
+
+.card-3434-content {
+    padding: 20px;
+}
+
+.card-3434-label {
+    color: #cbd5e1;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .15em;
+}
+
+.card-3434 h3 {
+    margin: 6px 0 0;
+    font-size: 24px;
+}
+
+.card-3434 p {
+    margin: 11px 0 17px;
+    color: #9099aa;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.card-3434-footer {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+}
+
+.card-3434-footer div {
+    padding: 10px;
+    border-radius: 12px;
+    background: rgba(255,255,255,.03);
+}
+
+.card-3434-footer strong,
+.card-3434-footer span {
+    display: block;
+}
+
+.card-3434-footer strong {
+    margin-bottom: 3px;
+    font-size: 13px;
+}
+
+.card-3434-footer span {
+    color: #657084;
+    font-size: 8px;
+}`,
+  },
+  {
+    id: 3435,
+    name: "Aurora Portfolio Card",
+    preview: (
+      <div className="card-3435">
+        <div className="card-3435-visual">
+          <span className="card-3435-wave card-3435-wave-1" />
+          <span className="card-3435-wave card-3435-wave-2" />
+          <span className="card-3435-wave card-3435-wave-3" />
+        </div>
+
+        <div className="card-3435-content">
+          <span className="card-3435-label">FEATURED WORK</span>
+          <h3>Aurora Studio</h3>
+
+          <p>
+            A polished interface concept combining cyan aurora light with
+            lavender and magenta cosmic tones.
+          </p>
+
+          <div className="card-3435-meta">
+            <span>UI / UX</span>
+            <span>2026</span>
+          </div>
+
+          <button className="card-3435-button">Explore Project</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3435">
+    <div class="card-3435-visual">
+        <span class="card-3435-wave card-3435-wave-1"></span>
+        <span class="card-3435-wave card-3435-wave-2"></span>
+        <span class="card-3435-wave card-3435-wave-3"></span>
+    </div>
+
+    <div class="card-3435-content">
+        <span class="card-3435-label">FEATURED WORK</span>
+        <h3>Aurora Studio</h3>
+
+        <p>
+            A polished interface concept combining cyan aurora light with lavender and magenta cosmic tones.
+        </p>
+
+        <div class="card-3435-meta">
+            <span>UI / UX</span>
+            <span>2026</span>
+        </div>
+
+        <button class="card-3435-button">Explore Project</button>
+    </div>
+</div>`,
+    css: `.card-3435 {
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid rgba(103,232,249,.09);
+    border-radius: 24px;
+    background: linear-gradient(145deg,#070b14,#101525 52%,#190f2d);
+    color: #ffffff;
+    box-shadow: 0 20px 45px rgba(0,0,0,.34);
+}
+
+.card-3435-visual {
+    position: relative;
+    height: 145px;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 25% 45%,rgba(34,211,238,.17),transparent 34%),
+        radial-gradient(circle at 78% 40%,rgba(217,70,239,.17),transparent 37%),
+        #090d18;
+}
+
+.card-3435-wave {
+    position: absolute;
+    left: -10%;
+    width: 120%;
+    border-radius: 50%;
+}
+
+.card-3435-wave-1 {
+    height: 55px;
+    bottom: 10px;
+    border-top: 5px solid rgba(34,211,238,.55);
+    transform: rotate(-7deg);
+    box-shadow: 0 -6px 15px rgba(34,211,238,.2);
+}
+
+.card-3435-wave-2 {
+    height: 66px;
+    bottom: -2px;
+    border-top: 5px solid rgba(139,92,246,.56);
+    transform: rotate(4deg);
+    box-shadow: 0 -6px 15px rgba(139,92,246,.2);
+}
+
+.card-3435-wave-3 {
+    height: 76px;
+    bottom: -18px;
+    border-top: 5px solid rgba(236,72,153,.5);
+    transform: rotate(-2deg);
+}
+
+.card-3435-content {
+    padding: 20px;
+}
+
+.card-3435-label {
+    color: #67e8f9;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .14em;
+}
+
+.card-3435 h3 {
+    margin: 6px 0 0;
+    font-size: 24px;
+}
+
+.card-3435 p {
+    margin: 11px 0 15px;
+    color: #929bad;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.card-3435-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.card-3435-meta span {
+    color: #687286;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: .1em;
+}
+
+.card-3435-button {
+    width: 100%;
+    padding: 11px 13px;
+    border: 1px solid rgba(103,232,249,.16);
+    border-radius: 13px;
+    background: linear-gradient(90deg,rgba(6,182,212,.18),rgba(139,92,246,.18),rgba(236,72,153,.18));
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3436,
+    name: "Professional Service Card",
+    preview: (
+      <div className="card-3436">
+        <span className="card-3436-label">WEB DEVELOPMENT</span>
+
+        <h3>Modern websites built for growth.</h3>
+
+        <p>
+          Fast, responsive and maintainable websites designed around your brand,
+          customers and business goals.
+        </p>
+
+        <div className="card-3436-list">
+          <span>Responsive development</span>
+          <span>Performance optimization</span>
+          <span>Accessible components</span>
+        </div>
+
+        <div className="card-3436-footer">
+          <strong>From €1,250</strong>
+          <button>Learn more</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3436">
+    <span class="card-3436-label">WEB DEVELOPMENT</span>
+
+    <h3>Modern websites built for growth.</h3>
+
+    <p>
+        Fast, responsive and maintainable websites designed around your brand, customers and business goals.
+    </p>
+
+    <div class="card-3436-list">
+        <span>Responsive development</span>
+        <span>Performance optimization</span>
+        <span>Accessible components</span>
+    </div>
+
+    <div class="card-3436-footer">
+        <strong>From €1,250</strong>
+        <button>Learn more</button>
+    </div>
+</div>`,
+    css: `.card-3436 {
+    width: 310px;
+    padding: 24px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.07);
+}
+
+.card-3436-label {
+    display: inline-block;
+    margin-bottom: 14px;
+    color: #2563eb;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.card-3436 h3 {
+    margin: 0;
+    font-size: 23px;
+    line-height: 1.25;
+    letter-spacing: -.025em;
+}
+
+.card-3436 > p {
+    margin: 13px 0 19px;
+    color: #6b7280;
+    font-size: 12px;
+    line-height: 1.65;
+}
+
+.card-3436-list {
+    display: grid;
+    gap: 9px;
+    margin-bottom: 22px;
+}
+
+.card-3436-list span {
+    position: relative;
+    padding-left: 14px;
+    color: #374151;
+    font-size: 11px;
+}
+
+.card-3436-list span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #2563eb;
+}
+
+.card-3436-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding-top: 17px;
+    border-top: 1px solid #f1f5f9;
+}
+
+.card-3436-footer strong {
+    font-size: 13px;
+}
+
+.card-3436-footer button {
+    padding: 9px 13px;
+    border: none;
+    border-radius: 10px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3437,
+    name: "SaaS Pricing Card",
+    preview: (
+      <div className="card-3437">
+        <div className="card-3437-header">
+          <div>
+            <span className="card-3437-label">PRO PLAN</span>
+            <h3>For growing teams</h3>
+          </div>
+
+          <span className="card-3437-badge">POPULAR</span>
+        </div>
+
+        <div className="card-3437-price">
+          <strong>€29</strong>
+          <span>/ month</span>
+        </div>
+
+        <p>
+          Everything your team needs to collaborate, manage projects and scale
+          your workflow.
+        </p>
+
+        <div className="card-3437-features">
+          <span>Unlimited projects</span>
+          <span>10 team members</span>
+          <span>Advanced analytics</span>
+          <span>Priority support</span>
+        </div>
+
+        <button className="card-3437-button">Start free trial</button>
+
+        <span className="card-3437-note">No credit card required</span>
+      </div>
+    ),
+    html: `<div class="card-3437">
+    <div class="card-3437-header">
+        <div>
+            <span class="card-3437-label">PRO PLAN</span>
+            <h3>For growing teams</h3>
+        </div>
+
+        <span class="card-3437-badge">POPULAR</span>
+    </div>
+
+    <div class="card-3437-price">
+        <strong>€29</strong>
+        <span>/ month</span>
+    </div>
+
+    <p>
+        Everything your team needs to collaborate, manage projects and scale your workflow.
+    </p>
+
+    <div class="card-3437-features">
+        <span>Unlimited projects</span>
+        <span>10 team members</span>
+        <span>Advanced analytics</span>
+        <span>Priority support</span>
+    </div>
+
+    <button class="card-3437-button">Start free trial</button>
+
+    <span class="card-3437-note">No credit card required</span>
+</div>`,
+    css: `.card-3437 {
+    width: 310px;
+    padding: 25px;
+    border: 1px solid #dbeafe;
+    border-radius: 20px;
+    background: linear-gradient(180deg,#ffffff,#f8fbff);
+    color: #111827;
+    box-shadow: 0 16px 38px rgba(37,99,235,.09);
+}
+
+.card-3437-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.card-3437-label {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .12em;
+}
+
+.card-3437 h3 {
+    margin: 5px 0 0;
+    font-size: 18px;
+}
+
+.card-3437-badge {
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: #dbeafe;
+    color: #1d4ed8;
+    font-size: 8px;
+    font-weight: 800;
+}
+
+.card-3437-price {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    margin-top: 26px;
+}
+
+.card-3437-price strong {
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -.05em;
+}
+
+.card-3437-price span {
+    margin-bottom: 4px;
+    color: #6b7280;
+    font-size: 11px;
+}
+
+.card-3437 > p {
+    margin: 15px 0 19px;
+    color: #6b7280;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.card-3437-features {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 21px;
+}
+
+.card-3437-features span {
+    padding-left: 14px;
+    position: relative;
+    color: #374151;
+    font-size: 11px;
+}
+
+.card-3437-features span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #3b82f6;
+}
+
+.card-3437-button {
+    width: 100%;
+    padding: 11px 14px;
+    border: none;
+    border-radius: 11px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card-3437-note {
+    display: block;
+    margin-top: 9px;
+    color: #9ca3af;
+    font-size: 9px;
+    text-align: center;
+}`,
+  },
+  {
+    id: 3438,
+    name: "Client Testimonial Card",
+    preview: (
+      <div className="card-3438">
+        <span className="card-3438-rating">★★★★★</span>
+
+        <p className="card-3438-quote">
+          “The new website feels much faster, looks more professional and made
+          it much easier for customers to understand what we offer.”
+        </p>
+
+        <div className="card-3438-client">
+          <span className="card-3438-avatar">SM</span>
+
+          <div>
+            <strong>Sophie Meijer</strong>
+            <span>Marketing Manager, Northline</span>
+          </div>
+        </div>
+
+        <div className="card-3438-result">
+          <div>
+            <strong>+42%</strong>
+            <span>Conversions</span>
+          </div>
+
+          <div>
+            <strong>-31%</strong>
+            <span>Bounce rate</span>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3438">
+    <span class="card-3438-rating">★★★★★</span>
+
+    <p class="card-3438-quote">
+        “The new website feels much faster, looks more professional and made it much easier for customers to understand what we offer.”
+    </p>
+
+    <div class="card-3438-client">
+        <span class="card-3438-avatar">SM</span>
+
+        <div>
+            <strong>Sophie Meijer</strong>
+            <span>Marketing Manager, Northline</span>
+        </div>
+    </div>
+
+    <div class="card-3438-result">
+        <div>
+            <strong>+42%</strong>
+            <span>Conversions</span>
+        </div>
+
+        <div>
+            <strong>-31%</strong>
+            <span>Bounce rate</span>
+        </div>
+    </div>
+</div>`,
+    css: `.card-3438 {
+    width: 310px;
+    padding: 24px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.07);
+}
+
+.card-3438-rating {
+    color: #f59e0b;
+    font-size: 12px;
+    letter-spacing: .08em;
+}
+
+.card-3438-quote {
+    margin: 16px 0 20px;
+    color: #374151;
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+.card-3438-client {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.card-3438-avatar {
+    width: 39px;
+    height: 39px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #111827;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.card-3438-client strong,
+.card-3438-client span {
+    display: block;
+}
+
+.card-3438-client strong {
+    margin-bottom: 3px;
+    font-size: 11px;
+}
+
+.card-3438-client span {
+    color: #9ca3af;
+    font-size: 9px;
+}
+
+.card-3438-result {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    margin-top: 20px;
+    padding-top: 17px;
+    border-top: 1px solid #f1f5f9;
+}
+
+.card-3438-result div {
+    padding: 10px;
+    border-radius: 12px;
+    background: #f8fafc;
+}
+
+.card-3438-result strong,
+.card-3438-result span {
+    display: block;
+}
+
+.card-3438-result strong {
+    margin-bottom: 3px;
+    color: #2563eb;
+    font-size: 15px;
+}
+
+.card-3438-result span {
+    color: #9ca3af;
+    font-size: 9px;
+}`,
+  },
+  {
+    id: 3439,
+    name: "Business Team Card",
+    preview: (
+      <div className="card-3439">
+        <div className="card-3439-photo">
+          <span>JL</span>
+        </div>
+
+        <div className="card-3439-content">
+          <span className="card-3439-department">PRODUCT DESIGN</span>
+
+          <h3>Julia Linden</h3>
+
+          <p className="card-3439-role">Senior Product Designer</p>
+
+          <p className="card-3439-text">
+            Focused on turning complex workflows into simple, intuitive digital
+            experiences.
+          </p>
+
+          <div className="card-3439-details">
+            <div>
+              <span>Experience</span>
+              <strong>8 years</strong>
+            </div>
+
+            <div>
+              <span>Projects</span>
+              <strong>64</strong>
+            </div>
+          </div>
+
+          <button className="card-3439-button">View profile</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3439">
+    <div class="card-3439-photo">
+        <span>JL</span>
+    </div>
+
+    <div class="card-3439-content">
+        <span class="card-3439-department">PRODUCT DESIGN</span>
+
+        <h3>Julia Linden</h3>
+
+        <p class="card-3439-role">Senior Product Designer</p>
+
+        <p class="card-3439-text">
+            Focused on turning complex workflows into simple, intuitive digital experiences.
+        </p>
+
+        <div class="card-3439-details">
+            <div>
+                <span>Experience</span>
+                <strong>8 years</strong>
+            </div>
+
+            <div>
+                <span>Projects</span>
+                <strong>64</strong>
+            </div>
+        </div>
+
+        <button class="card-3439-button">View profile</button>
+    </div>
+</div>`,
+    css: `.card-3439 {
+    width: 310px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.07);
+}
+
+.card-3439-photo {
+    height: 140px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg,#e0e7ff,#dbeafe,#f3e8ff);
+}
+
+.card-3439-photo span {
+    width: 72px;
+    height: 72px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #4338ca;
+    box-shadow: 0 10px 24px rgba(79,70,229,.12);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.card-3439-content {
+    padding: 21px;
+}
+
+.card-3439-department {
+    color: #6366f1;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3439 h3 {
+    margin: 6px 0 0;
+    font-size: 21px;
+}
+
+.card-3439-role {
+    margin: 5px 0 0;
+    color: #6b7280;
+    font-size: 11px;
+}
+
+.card-3439-text {
+    margin: 14px 0 17px;
+    color: #6b7280;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.card-3439-details {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.card-3439-details div {
+    padding: 10px;
+    border-radius: 11px;
+    background: #f8fafc;
+}
+
+.card-3439-details span,
+.card-3439-details strong {
+    display: block;
+}
+
+.card-3439-details span {
+    margin-bottom: 4px;
+    color: #9ca3af;
+    font-size: 8px;
+}
+
+.card-3439-details strong {
+    font-size: 11px;
+}
+
+.card-3439-button {
+    width: 100%;
+    padding: 10px 13px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #111827;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3440,
+    name: "Professional Blog Card",
+    preview: (
+      <article className="card-3440">
+        <div className="card-3440-image">
+          <span className="card-3440-image-label">INSIGHTS</span>
+        </div>
+
+        <div className="card-3440-content">
+          <div className="card-3440-meta">
+            <span>Strategy</span>
+            <span>6 min read</span>
+          </div>
+
+          <h3>How better UX turns visitors into customers.</h3>
+
+          <p>
+            Learn how clear navigation, strong hierarchy and better page
+            structure can improve conversion rates.
+          </p>
+
+          <div className="card-3440-footer">
+            <div>
+              <strong>Daniel Vos</strong>
+              <span>September 17, 2026</span>
+            </div>
+
+            <button>Read article</button>
+          </div>
+        </div>
+      </article>
+    ),
+    html: `<article class="card-3440">
+    <div class="card-3440-image">
+        <span class="card-3440-image-label">INSIGHTS</span>
+    </div>
+
+    <div class="card-3440-content">
+        <div class="card-3440-meta">
+            <span>Strategy</span>
+            <span>6 min read</span>
+        </div>
+
+        <h3>How better UX turns visitors into customers.</h3>
+
+        <p>
+            Learn how clear navigation, strong hierarchy and better page structure can improve conversion rates.
+        </p>
+
+        <div class="card-3440-footer">
+            <div>
+                <strong>Daniel Vos</strong>
+                <span>September 17, 2026</span>
+            </div>
+
+            <button>Read article</button>
+        </div>
+    </div>
+</article>`,
+    css: `.card-3440 {
+    width: 310px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.07);
+}
+
+.card-3440-image {
+    height: 145px;
+    display: flex;
+    align-items: flex-end;
+    padding: 16px;
+    background:
+        linear-gradient(135deg,rgba(15,23,42,.2),rgba(37,99,235,.1)),
+        linear-gradient(135deg,#c7d2fe,#bfdbfe,#e0f2fe);
+}
+
+.card-3440-image-label {
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #1d4ed8;
+    font-size: 8px;
+    font-weight: 800;
+}
+
+.card-3440-content {
+    padding: 20px;
+}
+
+.card-3440-meta {
+    display: flex;
+    justify-content: space-between;
+    color: #9ca3af;
+    font-size: 9px;
+}
+
+.card-3440 h3 {
+    margin: 12px 0 0;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.card-3440-content > p {
+    margin: 12px 0 18px;
+    color: #6b7280;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3440-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 15px;
+    border-top: 1px solid #f1f5f9;
+}
+
+.card-3440-footer strong,
+.card-3440-footer span {
+    display: block;
+}
+
+.card-3440-footer strong {
+    margin-bottom: 3px;
+    font-size: 10px;
+}
+
+.card-3440-footer span {
+    color: #9ca3af;
+    font-size: 8px;
+}
+
+.card-3440-footer button {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 9px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3441,
+    name: "Case Study Result Card",
+    preview: (
+      <div className="card-3441">
+        <div className="card-3441-header">
+          <span className="card-3441-label">CASE STUDY</span>
+          <span className="card-3441-year">2026</span>
+        </div>
+
+        <h3>Scaling an ecommerce platform across Europe.</h3>
+
+        <p>
+          We redesigned the buying journey and improved performance across
+          mobile and desktop storefronts.
+        </p>
+
+        <div className="card-3441-results">
+          <div>
+            <strong>+63%</strong>
+            <span>Checkout completion</span>
+          </div>
+
+          <div>
+            <strong>1.4s</strong>
+            <span>Average load time</span>
+          </div>
+
+          <div>
+            <strong>+38%</strong>
+            <span>Mobile revenue</span>
+          </div>
+        </div>
+
+        <button className="card-3441-button">Read case study</button>
+      </div>
+    ),
+    html: `<div class="card-3441">
+    <div class="card-3441-header">
+        <span class="card-3441-label">CASE STUDY</span>
+        <span class="card-3441-year">2026</span>
+    </div>
+
+    <h3>Scaling an ecommerce platform across Europe.</h3>
+
+    <p>
+        We redesigned the buying journey and improved performance across mobile and desktop storefronts.
+    </p>
+
+    <div class="card-3441-results">
+        <div>
+            <strong>+63%</strong>
+            <span>Checkout completion</span>
+        </div>
+
+        <div>
+            <strong>1.4s</strong>
+            <span>Average load time</span>
+        </div>
+
+        <div>
+            <strong>+38%</strong>
+            <span>Mobile revenue</span>
+        </div>
+    </div>
+
+    <button class="card-3441-button">Read case study</button>
+</div>`,
+    css: `.card-3441 {
+    width: 310px;
+    padding: 24px;
+    border-radius: 18px;
+    background: #111827;
+    color: #ffffff;
+    box-shadow: 0 16px 35px rgba(17,24,39,.2);
+}
+
+.card-3441-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-3441-label {
+    color: #93c5fd;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3441-year {
+    color: #6b7280;
+    font-size: 9px;
+}
+
+.card-3441 h3 {
+    margin: 22px 0 0;
+    font-size: 22px;
+    line-height: 1.3;
+}
+
+.card-3441 > p {
+    margin: 13px 0 20px;
+    color: #9ca3af;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3441-results {
+    display: grid;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.card-3441-results div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 11px 12px;
+    border: 1px solid rgba(255,255,255,.06);
+    border-radius: 11px;
+    background: rgba(255,255,255,.03);
+}
+
+.card-3441-results strong {
+    color: #60a5fa;
+    font-size: 16px;
+}
+
+.card-3441-results span {
+    color: #9ca3af;
+    font-size: 9px;
+}
+
+.card-3441-button {
+    width: 100%;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #111827;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3442,
+    name: "Business Statistics Card",
+    preview: (
+      <div className="card-3442">
+        <div className="card-3442-header">
+          <div>
+            <span className="card-3442-label">MONTHLY REVENUE</span>
+            <h3>€84,260</h3>
+          </div>
+
+          <span className="card-3442-change">+12.8%</span>
+        </div>
+
+        <p>Compared with €74,680 in the previous month.</p>
+
+        <div className="card-3442-chart">
+          <span className="card-3442-bar card-3442-bar-1"></span>
+          <span className="card-3442-bar card-3442-bar-2"></span>
+          <span className="card-3442-bar card-3442-bar-3"></span>
+          <span className="card-3442-bar card-3442-bar-4"></span>
+          <span className="card-3442-bar card-3442-bar-5"></span>
+          <span className="card-3442-bar card-3442-bar-6"></span>
+          <span className="card-3442-bar card-3442-bar-7"></span>
+        </div>
+
+        <div className="card-3442-footer">
+          <div>
+            <span>Orders</span>
+            <strong>1,248</strong>
+          </div>
+
+          <div>
+            <span>Average order</span>
+            <strong>€67.52</strong>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3442">
+    <div class="card-3442-header">
+        <div>
+            <span class="card-3442-label">MONTHLY REVENUE</span>
+            <h3>€84,260</h3>
+        </div>
+
+        <span class="card-3442-change">+12.8%</span>
+    </div>
+
+    <p>Compared with €74,680 in the previous month.</p>
+
+    <div class="card-3442-chart">
+        <span class="card-3442-bar card-3442-bar-1"></span>
+        <span class="card-3442-bar card-3442-bar-2"></span>
+        <span class="card-3442-bar card-3442-bar-3"></span>
+        <span class="card-3442-bar card-3442-bar-4"></span>
+        <span class="card-3442-bar card-3442-bar-5"></span>
+        <span class="card-3442-bar card-3442-bar-6"></span>
+        <span class="card-3442-bar card-3442-bar-7"></span>
+    </div>
+
+    <div class="card-3442-footer">
+        <div>
+            <span>Orders</span>
+            <strong>1,248</strong>
+        </div>
+
+        <div>
+            <span>Average order</span>
+            <strong>€67.52</strong>
+        </div>
+    </div>
+</div>`,
+    css: `.card-3442 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.07);
+}
+
+.card-3442-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.card-3442-label {
+    color: #9ca3af;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.card-3442 h3 {
+    margin: 6px 0 0;
+    font-size: 27px;
+    letter-spacing: -.04em;
+}
+
+.card-3442-change {
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: #dcfce7;
+    color: #15803d;
+    font-size: 9px;
+    font-weight: 800;
+}
+
+.card-3442 > p {
+    margin: 10px 0 20px;
+    color: #9ca3af;
+    font-size: 10px;
+}
+
+.card-3442-chart {
+    height: 90px;
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    padding: 0 4px;
+}
+
+.card-3442-bar {
+    flex: 1;
+    border-radius: 5px 5px 2px 2px;
+    background: #dbeafe;
+}
+
+.card-3442-bar-1 { height: 38%; }
+.card-3442-bar-2 { height: 52%; }
+.card-3442-bar-3 { height: 47%; }
+.card-3442-bar-4 { height: 68%; }
+.card-3442-bar-5 { height: 61%; }
+.card-3442-bar-6 { height: 79%; }
+.card-3442-bar-7 {
+    height: 92%;
+    background: #2563eb;
+}
+
+.card-3442-footer {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    margin-top: 18px;
+    padding-top: 15px;
+    border-top: 1px solid #f1f5f9;
+}
+
+.card-3442-footer span,
+.card-3442-footer strong {
+    display: block;
+}
+
+.card-3442-footer span {
+    margin-bottom: 4px;
+    color: #9ca3af;
+    font-size: 8px;
+}
+
+.card-3442-footer strong {
+    font-size: 12px;
+}`,
+  },
+  {
+    id: 3443,
+    name: "Company Contact Card",
+    preview: (
+      <div className="card-3443">
+        <span className="card-3443-label">GET IN TOUCH</span>
+
+        <h3>Have a project in mind?</h3>
+
+        <p>
+          Tell us what you are working on and we will help you find the right
+          approach for your website or digital product.
+        </p>
+
+        <div className="card-3443-details">
+          <div>
+            <span>Email</span>
+            <strong>hello@studio.com</strong>
+          </div>
+
+          <div>
+            <span>Phone</span>
+            <strong>+31 20 123 45 67</strong>
+          </div>
+
+          <div>
+            <span>Response time</span>
+            <strong>Within one business day</strong>
+          </div>
+        </div>
+
+        <button className="card-3443-button">Start a conversation</button>
+      </div>
+    ),
+    html: `<div class="card-3443">
+    <span class="card-3443-label">GET IN TOUCH</span>
+
+    <h3>Have a project in mind?</h3>
+
+    <p>
+        Tell us what you are working on and we will help you find the right approach for your website or digital product.
+    </p>
+
+    <div class="card-3443-details">
+        <div>
+            <span>Email</span>
+            <strong>hello@studio.com</strong>
+        </div>
+
+        <div>
+            <span>Phone</span>
+            <strong>+31 20 123 45 67</strong>
+        </div>
+
+        <div>
+            <span>Response time</span>
+            <strong>Within one business day</strong>
+        </div>
+    </div>
+
+    <button class="card-3443-button">Start a conversation</button>
+</div>`,
+    css: `.card-3443 {
+    width: 310px;
+    padding: 25px;
+    border-radius: 18px;
+    background: #f8fafc;
+    color: #111827;
+    border: 1px solid #e2e8f0;
+}
+
+.card-3443-label {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3443 h3 {
+    margin: 11px 0 0;
+    font-size: 25px;
+    line-height: 1.2;
+    letter-spacing: -.03em;
+}
+
+.card-3443 > p {
+    margin: 13px 0 20px;
+    color: #64748b;
+    font-size: 12px;
+    line-height: 1.65;
+}
+
+.card-3443-details {
+    display: grid;
+    gap: 9px;
+    margin-bottom: 19px;
+}
+
+.card-3443-details div {
+    padding: 11px 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 11px;
+    background: #ffffff;
+}
+
+.card-3443-details span,
+.card-3443-details strong {
+    display: block;
+}
+
+.card-3443-details span {
+    margin-bottom: 4px;
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.card-3443-details strong {
+    font-size: 11px;
+}
+
+.card-3443-button {
+    width: 100%;
+    padding: 11px 13px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3444,
+    name: "Job Vacancy Card",
+    preview: (
+      <div className="card-3444">
+        <div className="card-3444-top">
+          <span className="card-3444-team">ENGINEERING</span>
+          <span className="card-3444-type">FULL-TIME</span>
+        </div>
+
+        <h3>Frontend Developer</h3>
+
+        <p className="card-3444-location">Amsterdam · Hybrid</p>
+
+        <p className="card-3444-description">
+          Join our product team and build fast, accessible interfaces used by
+          thousands of customers every day.
+        </p>
+
+        <div className="card-3444-tags">
+          <span>React</span>
+          <span>TypeScript</span>
+          <span>CSS</span>
+          <span>Design Systems</span>
+        </div>
+
+        <div className="card-3444-footer">
+          <div>
+            <span>Salary</span>
+            <strong>€3,800 – €5,200</strong>
+          </div>
+
+          <button>View position</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3444">
+    <div class="card-3444-top">
+        <span class="card-3444-team">ENGINEERING</span>
+        <span class="card-3444-type">FULL-TIME</span>
+    </div>
+
+    <h3>Frontend Developer</h3>
+
+    <p class="card-3444-location">Amsterdam · Hybrid</p>
+
+    <p class="card-3444-description">
+        Join our product team and build fast, accessible interfaces used by thousands of customers every day.
+    </p>
+
+    <div class="card-3444-tags">
+        <span>React</span>
+        <span>TypeScript</span>
+        <span>CSS</span>
+        <span>Design Systems</span>
+    </div>
+
+    <div class="card-3444-footer">
+        <div>
+            <span>Salary</span>
+            <strong>€3,800 – €5,200</strong>
+        </div>
+
+        <button>View position</button>
+    </div>
+</div>`,
+    css: `.card-3444 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3444-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-3444-team {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3444-type {
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: #f1f5f9;
+    color: #475569;
+    font-size: 8px;
+    font-weight: 700;
+}
+
+.card-3444 h3 {
+    margin: 19px 0 0;
+    font-size: 23px;
+}
+
+.card-3444-location {
+    margin: 5px 0 0;
+    color: #64748b;
+    font-size: 10px;
+}
+
+.card-3444-description {
+    margin: 14px 0 16px;
+    color: #6b7280;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3444-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 20px;
+}
+
+.card-3444-tags span {
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: #eff6ff;
+    color: #1d4ed8;
+    font-size: 8px;
+    font-weight: 700;
+}
+
+.card-3444-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 16px;
+    border-top: 1px solid #f1f5f9;
+}
+
+.card-3444-footer span,
+.card-3444-footer strong {
+    display: block;
+}
+
+.card-3444-footer span {
+    margin-bottom: 3px;
+    color: #9ca3af;
+    font-size: 8px;
+}
+
+.card-3444-footer strong {
+    font-size: 11px;
+}
+
+.card-3444-footer button {
+    padding: 9px 11px;
+    border: none;
+    border-radius: 9px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3445,
+    name: "Business Feature Card",
+    preview: (
+      <div className="card-3445">
+        <span className="card-3445-number">01</span>
+
+        <span className="card-3445-label">PLATFORM FEATURE</span>
+
+        <h3>Everything your team needs in one workspace.</h3>
+
+        <p>
+          Plan projects, communicate with your team and keep important work
+          organized without switching between multiple tools.
+        </p>
+
+        <div className="card-3445-example">
+          <div>
+            <span>Active projects</span>
+            <strong>24</strong>
+          </div>
+
+          <div>
+            <span>Tasks completed</span>
+            <strong>1,842</strong>
+          </div>
+
+          <div>
+            <span>Team members</span>
+            <strong>16</strong>
+          </div>
+        </div>
+
+        <button className="card-3445-button">Explore the platform</button>
+      </div>
+    ),
+    html: `<div class="card-3445">
+    <span class="card-3445-number">01</span>
+
+    <span class="card-3445-label">PLATFORM FEATURE</span>
+
+    <h3>Everything your team needs in one workspace.</h3>
+
+    <p>
+        Plan projects, communicate with your team and keep important work organized without switching between multiple tools.
+    </p>
+
+    <div class="card-3445-example">
+        <div>
+            <span>Active projects</span>
+            <strong>24</strong>
+        </div>
+
+        <div>
+            <span>Tasks completed</span>
+            <strong>1,842</strong>
+        </div>
+
+        <div>
+            <span>Team members</span>
+            <strong>16</strong>
+        </div>
+    </div>
+
+    <button class="card-3445-button">Explore the platform</button>
+</div>`,
+    css: `.card-3445 {
+    position: relative;
+    width: 310px;
+    padding: 25px;
+    overflow: hidden;
+    border: 1px solid #dbe3ef;
+    border-radius: 20px;
+    background: linear-gradient(145deg,#ffffff,#f8fafc);
+    color: #111827;
+    box-shadow: 0 14px 34px rgba(15,23,42,.07);
+}
+
+.card-3445-number {
+    position: absolute;
+    right: 17px;
+    top: 12px;
+    color: #e2e8f0;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -.06em;
+}
+
+.card-3445-label {
+    position: relative;
+    z-index: 2;
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .14em;
+}
+
+.card-3445 h3 {
+    position: relative;
+    z-index: 2;
+    margin: 19px 0 0;
+    max-width: 250px;
+    font-size: 23px;
+    line-height: 1.25;
+    letter-spacing: -.03em;
+}
+
+.card-3445 > p {
+    position: relative;
+    z-index: 2;
+    margin: 13px 0 20px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3445-example {
+    display: grid;
+    gap: 7px;
+    margin-bottom: 18px;
+}
+
+.card-3445-example div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 11px 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 11px;
+    background: #ffffff;
+}
+
+.card-3445-example span {
+    color: #6b7280;
+    font-size: 9px;
+}
+
+.card-3445-example strong {
+    font-size: 12px;
+}
+
+.card-3445-button {
+    width: 100%;
+    padding: 11px 13px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3446,
+    name: "Company About Card",
+    preview: (
+      <div className="card-3446">
+        <span className="card-3446-label">ABOUT OUR COMPANY</span>
+
+        <h3>Digital products designed around real business goals.</h3>
+
+        <p>
+          We help companies turn ideas into clear, scalable and user-friendly
+          digital experiences.
+        </p>
+
+        <div className="card-3446-values">
+          <div>
+            <strong>12+</strong>
+            <span>Years experience</span>
+          </div>
+
+          <div>
+            <strong>180</strong>
+            <span>Projects delivered</span>
+          </div>
+
+          <div>
+            <strong>32</strong>
+            <span>Team members</span>
+          </div>
+        </div>
+
+        <button className="card-3446-button">About our company</button>
+      </div>
+    ),
+    html: `<div class="card-3446">
+    <span class="card-3446-label">ABOUT OUR COMPANY</span>
+
+    <h3>Digital products designed around real business goals.</h3>
+
+    <p>
+        We help companies turn ideas into clear, scalable and user-friendly digital experiences.
+    </p>
+
+    <div class="card-3446-values">
+        <div>
+            <strong>12+</strong>
+            <span>Years experience</span>
+        </div>
+
+        <div>
+            <strong>180</strong>
+            <span>Projects delivered</span>
+        </div>
+
+        <div>
+            <strong>32</strong>
+            <span>Team members</span>
+        </div>
+    </div>
+
+    <button class="card-3446-button">About our company</button>
+</div>`,
+    css: `.card-3446 {
+    width: 310px;
+    padding: 25px;
+    border: 1px solid #e5e7eb;
+    border-radius: 19px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.07);
+}
+
+.card-3446-label {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .14em;
+}
+
+.card-3446 h3 {
+    margin: 14px 0 0;
+    font-size: 23px;
+    line-height: 1.3;
+    letter-spacing: -.03em;
+}
+
+.card-3446 > p {
+    margin: 13px 0 21px;
+    color: #64748b;
+    font-size: 12px;
+    line-height: 1.65;
+}
+
+.card-3446-values {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7px;
+    margin-bottom: 20px;
+}
+
+.card-3446-values div {
+    padding: 11px 7px;
+    border-radius: 12px;
+    background: #f8fafc;
+    text-align: center;
+}
+
+.card-3446-values strong,
+.card-3446-values span {
+    display: block;
+}
+
+.card-3446-values strong {
+    margin-bottom: 4px;
+    color: #1d4ed8;
+    font-size: 17px;
+}
+
+.card-3446-values span {
+    color: #94a3b8;
+    font-size: 8px;
+    line-height: 1.3;
+}
+
+.card-3446-button {
+    width: 100%;
+    padding: 11px 13px;
+    border: none;
+    border-radius: 10px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3447,
+    name: "Newsletter Signup Card",
+    preview: (
+      <div className="card-3447">
+        <span className="card-3447-label">NEWSLETTER</span>
+
+        <h3>Useful ideas, once a week.</h3>
+
+        <p>
+          Join more than 8,000 readers receiving practical articles about
+          design, development and digital products.
+        </p>
+
+        <div className="card-3447-form">
+          <input type="email" placeholder="Your email address" />
+          <button>Subscribe</button>
+        </div>
+
+        <span className="card-3447-note">
+          No spam. Unsubscribe whenever you want.
+        </span>
+      </div>
+    ),
+    html: `<div class="card-3447">
+    <span class="card-3447-label">NEWSLETTER</span>
+
+    <h3>Useful ideas, once a week.</h3>
+
+    <p>
+        Join more than 8,000 readers receiving practical articles about design, development and digital products.
+    </p>
+
+    <div class="card-3447-form">
+        <input type="email" placeholder="Your email address">
+        <button>Subscribe</button>
+    </div>
+
+    <span class="card-3447-note">
+        No spam. Unsubscribe whenever you want.
+    </span>
+</div>`,
+    css: `.card-3447 {
+    width: 310px;
+    padding: 25px;
+    border: 1px solid #e2e8f0;
+    border-radius: 19px;
+    background: #f8fafc;
+    color: #111827;
+}
+
+.card-3447-label {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .14em;
+}
+
+.card-3447 h3 {
+    margin: 12px 0 0;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: -.03em;
+}
+
+.card-3447 > p {
+    margin: 13px 0 19px;
+    color: #64748b;
+    font-size: 12px;
+    line-height: 1.65;
+}
+
+.card-3447-form {
+    display: grid;
+    gap: 8px;
+}
+
+.card-3447-form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px 12px;
+    border: 1px solid #dbe3ee;
+    border-radius: 10px;
+    outline: none;
+    background: #ffffff;
+    color: #111827;
+    font: inherit;
+    font-size: 10px;
+}
+
+.card-3447-form input::placeholder {
+    color: #94a3b8;
+}
+
+.card-3447-form button {
+    padding: 11px 13px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card-3447-note {
+    display: block;
+    margin-top: 10px;
+    color: #94a3b8;
+    font-size: 8px;
+    text-align: center;
+}`,
+  },
+  {
+    id: 3448,
+    name: "Event Registration Card",
+    preview: (
+      <div className="card-3448">
+        <div className="card-3448-date">
+          <strong>24</strong>
+          <span>OCT</span>
+        </div>
+
+        <div className="card-3448-content">
+          <span className="card-3448-label">ONLINE EVENT</span>
+
+          <h3>Designing better digital products in 2027.</h3>
+
+          <p>
+            A practical session covering product strategy, user experience and
+            modern frontend workflows.
+          </p>
+
+          <div className="card-3448-details">
+            <span>14:00 – 15:30 CET</span>
+            <span>Online webinar</span>
+            <span>Free registration</span>
+          </div>
+
+          <button className="card-3448-button">Reserve your seat</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3448">
+    <div class="card-3448-date">
+        <strong>24</strong>
+        <span>OCT</span>
+    </div>
+
+    <div class="card-3448-content">
+        <span class="card-3448-label">ONLINE EVENT</span>
+
+        <h3>Designing better digital products in 2027.</h3>
+
+        <p>
+            A practical session covering product strategy, user experience and modern frontend workflows.
+        </p>
+
+        <div class="card-3448-details">
+            <span>14:00 – 15:30 CET</span>
+            <span>Online webinar</span>
+            <span>Free registration</span>
+        </div>
+
+        <button class="card-3448-button">Reserve your seat</button>
+    </div>
+</div>`,
+    css: `.card-3448 {
+    width: 310px;
+    padding: 22px;
+    border: 1px solid #e5e7eb;
+    border-radius: 19px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.07);
+}
+
+.card-3448-date {
+    width: 55px;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+    background: #eff6ff;
+    text-align: center;
+}
+
+.card-3448-date strong,
+.card-3448-date span {
+    display: block;
+}
+
+.card-3448-date strong {
+    color: #1d4ed8;
+    font-size: 23px;
+    line-height: 1;
+}
+
+.card-3448-date span {
+    margin-top: 4px;
+    color: #3b82f6;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .12em;
+}
+
+.card-3448-label {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3448 h3 {
+    margin: 8px 0 0;
+    font-size: 22px;
+    line-height: 1.3;
+}
+
+.card-3448 p {
+    margin: 12px 0 17px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3448-details {
+    display: grid;
+    gap: 7px;
+    margin-bottom: 18px;
+}
+
+.card-3448-details span {
+    padding: 8px 10px;
+    border-radius: 9px;
+    background: #f8fafc;
+    color: #475569;
+    font-size: 9px;
+}
+
+.card-3448-button {
+    width: 100%;
+    padding: 11px 13px;
+    border: none;
+    border-radius: 10px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3449,
+    name: "Customer Support Card",
+    preview: (
+      <div className="card-3449">
+        <span className="card-3449-label">CUSTOMER SUPPORT</span>
+
+        <h3>Need help with your account?</h3>
+
+        <p>
+          Our support team can help you with billing, account settings,
+          technical questions and general product support.
+        </p>
+
+        <div className="card-3449-response">
+          <div>
+            <span>Average response</span>
+            <strong>18 minutes</strong>
+          </div>
+
+          <div>
+            <span>Support hours</span>
+            <strong>08:00 – 18:00</strong>
+          </div>
+        </div>
+
+        <div className="card-3449-buttons">
+          <button className="card-3449-primary">Contact support</button>
+          <button className="card-3449-secondary">Help center</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3449">
+    <span class="card-3449-label">CUSTOMER SUPPORT</span>
+
+    <h3>Need help with your account?</h3>
+
+    <p>
+        Our support team can help you with billing, account settings, technical questions and general product support.
+    </p>
+
+    <div class="card-3449-response">
+        <div>
+            <span>Average response</span>
+            <strong>18 minutes</strong>
+        </div>
+
+        <div>
+            <span>Support hours</span>
+            <strong>08:00 – 18:00</strong>
+        </div>
+    </div>
+
+    <div class="card-3449-buttons">
+        <button class="card-3449-primary">Contact support</button>
+        <button class="card-3449-secondary">Help center</button>
+    </div>
+</div>`,
+    css: `.card-3449 {
+    width: 310px;
+    padding: 24px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3449-label {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3449 h3 {
+    margin: 12px 0 0;
+    font-size: 23px;
+    line-height: 1.25;
+}
+
+.card-3449 > p {
+    margin: 13px 0 19px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3449-response {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.card-3449-response div {
+    padding: 11px;
+    border-radius: 11px;
+    background: #f8fafc;
+}
+
+.card-3449-response span,
+.card-3449-response strong {
+    display: block;
+}
+
+.card-3449-response span {
+    margin-bottom: 4px;
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.card-3449-response strong {
+    font-size: 10px;
+}
+
+.card-3449-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.card-3449-buttons button {
+    padding: 10px 8px;
+    border-radius: 10px;
+    font-size: 9px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card-3449-primary {
+    border: none;
+    background: #2563eb;
+    color: #ffffff;
+}
+
+.card-3449-secondary {
+    border: 1px solid #dbe3ee;
+    background: #ffffff;
+    color: #111827;
+}`,
+  },
+  {
+    id: 3450,
+    name: "Product Feature Card",
+    preview: (
+      <div className="card-3450">
+        <div className="card-3450-preview">
+          <div className="card-3450-window">
+            <span className="card-3450-row card-3450-row-1" />
+            <span className="card-3450-row card-3450-row-2" />
+            <span className="card-3450-row card-3450-row-3" />
+          </div>
+        </div>
+
+        <div className="card-3450-content">
+          <span className="card-3450-label">AUTOMATION</span>
+
+          <h3>Save time on repetitive work.</h3>
+
+          <p>
+            Automate routine tasks and keep your team focused on work that
+            actually needs human attention.
+          </p>
+
+          <a className="card-3450-link" href="#">
+            Discover automation
+          </a>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3450">
+    <div class="card-3450-preview">
+        <div class="card-3450-window">
+            <span class="card-3450-row card-3450-row-1"></span>
+            <span class="card-3450-row card-3450-row-2"></span>
+            <span class="card-3450-row card-3450-row-3"></span>
+        </div>
+    </div>
+
+    <div class="card-3450-content">
+        <span class="card-3450-label">AUTOMATION</span>
+
+        <h3>Save time on repetitive work.</h3>
+
+        <p>
+            Automate routine tasks and keep your team focused on work that actually needs human attention.
+        </p>
+
+        <a class="card-3450-link" href="#">Discover automation</a>
+    </div>
+</div>`,
+    css: `.card-3450 {
+    width: 310px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    border-radius: 19px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.07);
+}
+
+.card-3450-preview {
+    height: 145px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg,#eff6ff,#f8fafc);
+}
+
+.card-3450-window {
+    width: 210px;
+    padding: 16px;
+    border: 1px solid #dbeafe;
+    border-radius: 13px;
+    background: #ffffff;
+    box-shadow: 0 10px 25px rgba(37,99,235,.09);
+}
+
+.card-3450-row {
+    display: block;
+    height: 9px;
+    border-radius: 999px;
+    background: #e2e8f0;
+}
+
+.card-3450-row + .card-3450-row {
+    margin-top: 10px;
+}
+
+.card-3450-row-1 {
+    width: 78%;
+    background: #93c5fd;
+}
+
+.card-3450-row-2 {
+    width: 100%;
+}
+
+.card-3450-row-3 {
+    width: 61%;
+}
+
+.card-3450-content {
+    padding: 20px;
+}
+
+.card-3450-label {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3450 h3 {
+    margin: 8px 0 0;
+    font-size: 21px;
+    line-height: 1.3;
+}
+
+.card-3450 p {
+    margin: 12px 0 15px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3450-link {
+    color: #2563eb;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+}`,
+  },
+  {
+    id: 3451,
+    name: "Project Overview Card",
+    preview: (
+      <div className="card-3451">
+        <div className="card-3451-header">
+          <div>
+            <span className="card-3451-label">CURRENT PROJECT</span>
+            <h3>Website Redesign</h3>
+          </div>
+
+          <span className="card-3451-status">IN PROGRESS</span>
+        </div>
+
+        <p>
+          Complete redesign of the company website including a new design
+          system, responsive layouts and improved content structure.
+        </p>
+
+        <div className="card-3451-progress">
+          <div>
+            <span>Overall progress</span>
+            <strong>72%</strong>
+          </div>
+
+          <div className="card-3451-track">
+            <span />
+          </div>
+        </div>
+
+        <div className="card-3451-footer">
+          <div>
+            <span>Deadline</span>
+            <strong>November 28</strong>
+          </div>
+
+          <div>
+            <span>Team</span>
+            <strong>6 people</strong>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3451">
+    <div class="card-3451-header">
+        <div>
+            <span class="card-3451-label">CURRENT PROJECT</span>
+            <h3>Website Redesign</h3>
+        </div>
+
+        <span class="card-3451-status">IN PROGRESS</span>
+    </div>
+
+    <p>
+        Complete redesign of the company website including a new design system, responsive layouts and improved content structure.
+    </p>
+
+    <div class="card-3451-progress">
+        <div>
+            <span>Overall progress</span>
+            <strong>72%</strong>
+        </div>
+
+        <div class="card-3451-track">
+            <span></span>
+        </div>
+    </div>
+
+    <div class="card-3451-footer">
+        <div>
+            <span>Deadline</span>
+            <strong>November 28</strong>
+        </div>
+
+        <div>
+            <span>Team</span>
+            <strong>6 people</strong>
+        </div>
+    </div>
+</div>`,
+    css: `.card-3451 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3451-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.card-3451-label {
+    color: #64748b;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .12em;
+}
+
+.card-3451 h3 {
+    margin: 6px 0 0;
+    font-size: 20px;
+}
+
+.card-3451-status {
+    padding: 5px 7px;
+    border-radius: 999px;
+    background: #fef3c7;
+    color: #a16207;
+    font-size: 7px;
+    font-weight: 800;
+}
+
+.card-3451 > p {
+    margin: 16px 0 20px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3451-progress > div:first-child {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.card-3451-progress span {
+    color: #64748b;
+    font-size: 9px;
+}
+
+.card-3451-progress strong {
+    font-size: 10px;
+}
+
+.card-3451-track {
+    height: 6px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #e5e7eb;
+}
+
+.card-3451-track span {
+    display: block;
+    width: 72%;
+    height: 100%;
+    background: #2563eb;
+}
+
+.card-3451-footer {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    margin-top: 19px;
+    padding-top: 15px;
+    border-top: 1px solid #f1f5f9;
+}
+
+.card-3451-footer span,
+.card-3451-footer strong {
+    display: block;
+}
+
+.card-3451-footer span {
+    margin-bottom: 4px;
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.card-3451-footer strong {
+    font-size: 10px;
+}`,
+  },
+  {
+    id: 3452,
+    name: "FAQ Answer Card",
+    preview: (
+      <div className="card-3452">
+        <span className="card-3452-label">FREQUENTLY ASKED</span>
+
+        <h3>How long does a typical website project take?</h3>
+
+        <p>
+          Most company websites take between four and eight weeks. The exact
+          timeline depends on the number of pages, integrations and how quickly
+          content can be provided.
+        </p>
+
+        <div className="card-3452-info">
+          <div>
+            <span>Small website</span>
+            <strong>3–4 weeks</strong>
+          </div>
+
+          <div>
+            <span>Business website</span>
+            <strong>5–8 weeks</strong>
+          </div>
+        </div>
+
+        <a className="card-3452-link" href="#">
+          View all questions
+        </a>
+      </div>
+    ),
+    html: `<div class="card-3452">
+    <span class="card-3452-label">FREQUENTLY ASKED</span>
+
+    <h3>How long does a typical website project take?</h3>
+
+    <p>
+        Most company websites take between four and eight weeks. The exact timeline depends on the number of pages, integrations and how quickly content can be provided.
+    </p>
+
+    <div class="card-3452-info">
+        <div>
+            <span>Small website</span>
+            <strong>3–4 weeks</strong>
+        </div>
+
+        <div>
+            <span>Business website</span>
+            <strong>5–8 weeks</strong>
+        </div>
+    </div>
+
+    <a class="card-3452-link" href="#">View all questions</a>
+</div>`,
+    css: `.card-3452 {
+    width: 310px;
+    padding: 24px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3452-label {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3452 h3 {
+    margin: 12px 0 0;
+    font-size: 22px;
+    line-height: 1.3;
+}
+
+.card-3452 > p {
+    margin: 13px 0 19px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+.card-3452-info {
+    display: grid;
+    gap: 7px;
+    margin-bottom: 18px;
+}
+
+.card-3452-info div {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 11px;
+    border-radius: 10px;
+    background: #f8fafc;
+}
+
+.card-3452-info span {
+    color: #64748b;
+    font-size: 9px;
+}
+
+.card-3452-info strong {
+    font-size: 9px;
+}
+
+.card-3452-link {
+    color: #2563eb;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+}`,
+  },
+  {
+    id: 3453,
+    name: "Account Summary Card",
+    preview: (
+      <div className="card-3453">
+        <div className="card-3453-header">
+          <div>
+            <span className="card-3453-label">ACCOUNT</span>
+            <h3>Professional Workspace</h3>
+          </div>
+
+          <span className="card-3453-plan">PRO</span>
+        </div>
+
+        <div className="card-3453-details">
+          <div>
+            <span>Workspace members</span>
+            <strong>12 / 20</strong>
+          </div>
+
+          <div>
+            <span>Storage used</span>
+            <strong>48.2 GB</strong>
+          </div>
+
+          <div>
+            <span>Next billing date</span>
+            <strong>October 17</strong>
+          </div>
+
+          <div>
+            <span>Monthly total</span>
+            <strong>€89.00</strong>
+          </div>
+        </div>
+
+        <button className="card-3453-button">Manage subscription</button>
+      </div>
+    ),
+    html: `<div class="card-3453">
+    <div class="card-3453-header">
+        <div>
+            <span class="card-3453-label">ACCOUNT</span>
+            <h3>Professional Workspace</h3>
+        </div>
+
+        <span class="card-3453-plan">PRO</span>
+    </div>
+
+    <div class="card-3453-details">
+        <div>
+            <span>Workspace members</span>
+            <strong>12 / 20</strong>
+        </div>
+
+        <div>
+            <span>Storage used</span>
+            <strong>48.2 GB</strong>
+        </div>
+
+        <div>
+            <span>Next billing date</span>
+            <strong>October 17</strong>
+        </div>
+
+        <div>
+            <span>Monthly total</span>
+            <strong>€89.00</strong>
+        </div>
+    </div>
+
+    <button class="card-3453-button">Manage subscription</button>
+</div>`,
+    css: `.card-3453 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3453-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.card-3453-label {
+    color: #64748b;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .12em;
+}
+
+.card-3453 h3 {
+    margin: 6px 0 0;
+    font-size: 19px;
+}
+
+.card-3453-plan {
+    align-self: flex-start;
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: #dbeafe;
+    color: #1d4ed8;
+    font-size: 8px;
+    font-weight: 900;
+}
+
+.card-3453-details {
+    display: grid;
+    gap: 2px;
+    margin-bottom: 18px;
+}
+
+.card-3453-details div {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 11px 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.card-3453-details span {
+    color: #64748b;
+    font-size: 9px;
+}
+
+.card-3453-details strong {
+    font-size: 9px;
+}
+
+.card-3453-button {
+    width: 100%;
+    padding: 10px 13px;
+    border: 1px solid #dbe3ee;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #111827;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3454,
+    name: "Office Location Card",
+    preview: (
+      <div className="card-3454">
+        <div className="card-3454-map">
+          <span className="card-3454-road card-3454-road-1" />
+          <span className="card-3454-road card-3454-road-2" />
+          <span className="card-3454-road card-3454-road-3" />
+          <span className="card-3454-location-dot" />
+        </div>
+
+        <div className="card-3454-content">
+          <span className="card-3454-label">OUR OFFICE</span>
+
+          <h3>Amsterdam</h3>
+
+          <p>
+            Wibautstraat 131-D
+            <br />
+            1091 GL Amsterdam
+            <br />
+            The Netherlands
+          </p>
+
+          <div className="card-3454-hours">
+            <span>Monday – Friday</span>
+            <strong>09:00 – 17:30</strong>
+          </div>
+
+          <button className="card-3454-button">View directions</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3454">
+    <div class="card-3454-map">
+        <span class="card-3454-road card-3454-road-1"></span>
+        <span class="card-3454-road card-3454-road-2"></span>
+        <span class="card-3454-road card-3454-road-3"></span>
+        <span class="card-3454-location-dot"></span>
+    </div>
+
+    <div class="card-3454-content">
+        <span class="card-3454-label">OUR OFFICE</span>
+
+        <h3>Amsterdam</h3>
+
+        <p>
+            Wibautstraat 131-D<br>
+            1091 GL Amsterdam<br>
+            The Netherlands
+        </p>
+
+        <div class="card-3454-hours">
+            <span>Monday – Friday</span>
+            <strong>09:00 – 17:30</strong>
+        </div>
+
+        <button class="card-3454-button">View directions</button>
+    </div>
+</div>`,
+    css: `.card-3454 {
+    width: 310px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    border-radius: 19px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3454-map {
+    position: relative;
+    height: 135px;
+    overflow: hidden;
+    background: #f1f5f9;
+}
+
+.card-3454-road {
+    position: absolute;
+    display: block;
+    border-radius: 999px;
+    background: #ffffff;
+}
+
+.card-3454-road-1 {
+    width: 360px;
+    height: 10px;
+    left: -35px;
+    top: 62px;
+    transform: rotate(-12deg);
+}
+
+.card-3454-road-2 {
+    width: 210px;
+    height: 9px;
+    left: 72px;
+    top: 20px;
+    transform: rotate(58deg);
+}
+
+.card-3454-road-3 {
+    width: 170px;
+    height: 7px;
+    left: -15px;
+    bottom: 23px;
+    transform: rotate(27deg);
+}
+
+.card-3454-location-dot {
+    position: absolute;
+    left: 56%;
+    top: 46%;
+    width: 16px;
+    height: 16px;
+    transform: translate(-50%,-50%);
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    background: #2563eb;
+    box-shadow: 0 4px 10px rgba(37,99,235,.25);
+}
+
+.card-3454-content {
+    padding: 20px;
+}
+
+.card-3454-label {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3454 h3 {
+    margin: 7px 0 0;
+    font-size: 22px;
+}
+
+.card-3454 p {
+    margin: 11px 0 16px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3454-hours {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 11px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    background: #f8fafc;
+}
+
+.card-3454-hours span {
+    color: #64748b;
+    font-size: 9px;
+}
+
+.card-3454-hours strong {
+    font-size: 9px;
+}
+
+.card-3454-button {
+    width: 100%;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 10px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3455,
+    name: "Partner Program Card",
+    preview: (
+      <div className="card-3455">
+        <span className="card-3455-label">PARTNER PROGRAM</span>
+
+        <h3>Grow your business together with us.</h3>
+
+        <p>
+          Join our partner network and get access to dedicated support, shared
+          opportunities and better tools for your customers.
+        </p>
+
+        <div className="card-3455-benefits">
+          <div>
+            <span>Partner commission</span>
+            <strong>Up to 25%</strong>
+          </div>
+
+          <div>
+            <span>Dedicated support</span>
+            <strong>Included</strong>
+          </div>
+
+          <div>
+            <span>Marketing resources</span>
+            <strong>Included</strong>
+          </div>
+        </div>
+
+        <div className="card-3455-footer">
+          <button className="card-3455-primary">Become a partner</button>
+          <button className="card-3455-secondary">Learn more</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3455">
+    <span class="card-3455-label">PARTNER PROGRAM</span>
+
+    <h3>Grow your business together with us.</h3>
+
+    <p>
+        Join our partner network and get access to dedicated support, shared opportunities and better tools for your customers.
+    </p>
+
+    <div class="card-3455-benefits">
+        <div>
+            <span>Partner commission</span>
+            <strong>Up to 25%</strong>
+        </div>
+
+        <div>
+            <span>Dedicated support</span>
+            <strong>Included</strong>
+        </div>
+
+        <div>
+            <span>Marketing resources</span>
+            <strong>Included</strong>
+        </div>
+    </div>
+
+    <div class="card-3455-footer">
+        <button class="card-3455-primary">Become a partner</button>
+        <button class="card-3455-secondary">Learn more</button>
+    </div>
+</div>`,
+    css: `.card-3455 {
+    width: 310px;
+    padding: 25px;
+    border-radius: 19px;
+    background: #111827;
+    color: #ffffff;
+    box-shadow: 0 16px 36px rgba(17,24,39,.2);
+}
+
+.card-3455-label {
+    color: #93c5fd;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3455 h3 {
+    margin: 13px 0 0;
+    font-size: 23px;
+    line-height: 1.28;
+}
+
+.card-3455 > p {
+    margin: 13px 0 19px;
+    color: #9ca3af;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3455-benefits {
+    display: grid;
+    gap: 7px;
+    margin-bottom: 20px;
+}
+
+.card-3455-benefits div {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 11px;
+    border: 1px solid rgba(255,255,255,.06);
+    border-radius: 10px;
+    background: rgba(255,255,255,.03);
+}
+
+.card-3455-benefits span {
+    color: #9ca3af;
+    font-size: 9px;
+}
+
+.card-3455-benefits strong {
+    color: #ffffff;
+    font-size: 9px;
+}
+
+.card-3455-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.card-3455-footer button {
+    padding: 10px 8px;
+    border-radius: 10px;
+    font-size: 9px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card-3455-primary {
+    border: none;
+    background: #ffffff;
+    color: #111827;
+}
+
+.card-3455-secondary {
+    border: 1px solid rgba(255,255,255,.12);
+    background: transparent;
+    color: #ffffff;
 }`,
   },
 ];
