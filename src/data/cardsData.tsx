@@ -15638,4 +15638,3101 @@ export const cards = [
     color: #ffffff;
 }`,
   },
+  {
+    id: 3456,
+    name: "Invoice Summary Card",
+    preview: (
+      <div className="card-3456">
+        <div className="card-3456-head">
+          <div>
+            <span>INVOICE</span>
+            <h3>#INV-2026-1842</h3>
+          </div>
+          <span className="card-3456-status">PAID</span>
+        </div>
+
+        <div className="card-3456-client">
+          <span>Billed to</span>
+          <strong>Northline Digital B.V.</strong>
+          <small>billing@northline.nl</small>
+        </div>
+
+        <div className="card-3456-rows">
+          <div>
+            <span>Website development</span>
+            <strong>€2,450.00</strong>
+          </div>
+          <div>
+            <span>Hosting & support</span>
+            <strong>€149.00</strong>
+          </div>
+          <div>
+            <span>VAT</span>
+            <strong>€545.79</strong>
+          </div>
+        </div>
+
+        <div className="card-3456-total">
+          <span>Total</span>
+          <strong>€3,144.79</strong>
+        </div>
+
+        <button className="card-3456-button">View invoice</button>
+      </div>
+    ),
+    html: `<div class="card-3456">
+    <div class="card-3456-head">
+        <div>
+            <span>INVOICE</span>
+            <h3>#INV-2026-1842</h3>
+        </div>
+        <span class="card-3456-status">PAID</span>
+    </div>
+
+    <div class="card-3456-client">
+        <span>Billed to</span>
+        <strong>Northline Digital B.V.</strong>
+        <small>billing@northline.nl</small>
+    </div>
+
+    <div class="card-3456-rows">
+        <div><span>Website development</span><strong>€2,450.00</strong></div>
+        <div><span>Hosting & support</span><strong>€149.00</strong></div>
+        <div><span>VAT</span><strong>€545.79</strong></div>
+    </div>
+
+    <div class="card-3456-total">
+        <span>Total</span>
+        <strong>€3,144.79</strong>
+    </div>
+
+    <button class="card-3456-button">View invoice</button>
+</div>`,
+    css: `.card-3456 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3456-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.card-3456-head span {
+    color: #94a3b8;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.card-3456-head h3 {
+    margin: 5px 0 0;
+    font-size: 18px;
+}
+
+.card-3456-status {
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: #dcfce7;
+    color: #15803d !important;
+}
+
+.card-3456-client {
+    margin: 20px 0;
+    padding: 12px;
+    border-radius: 11px;
+    background: #f8fafc;
+}
+
+.card-3456-client span,
+.card-3456-client strong,
+.card-3456-client small {
+    display: block;
+}
+
+.card-3456-client span,
+.card-3456-client small {
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.card-3456-client strong {
+    margin: 5px 0 3px;
+    font-size: 11px;
+}
+
+.card-3456-rows {
+    display: grid;
+    gap: 10px;
+}
+
+.card-3456-rows div,
+.card-3456-total {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.card-3456-rows span {
+    color: #64748b;
+    font-size: 9px;
+}
+
+.card-3456-rows strong {
+    font-size: 9px;
+}
+
+.card-3456-total {
+    margin-top: 15px;
+    padding-top: 14px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.card-3456-total span {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.card-3456-total strong {
+    font-size: 15px;
+}
+
+.card-3456-button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3457,
+    name: "Client Project Card",
+    preview: (
+      <div className="card-3457">
+        <div className="card-3457-top">
+          <span>CLIENT PROJECT</span>
+          <span className="card-3457-status">ON TRACK</span>
+        </div>
+
+        <h3>Northline Platform</h3>
+        <p>
+          Redesign and frontend implementation of the customer platform and
+          account environment.
+        </p>
+
+        <div className="card-3457-progress">
+          <div>
+            <span>Project progress</span>
+            <strong>68%</strong>
+          </div>
+          <div className="card-3457-track">
+            <span />
+          </div>
+        </div>
+
+        <div className="card-3457-details">
+          <div>
+            <span>Deadline</span>
+            <strong>Nov 14</strong>
+          </div>
+          <div>
+            <span>Budget</span>
+            <strong>€18.4K</strong>
+          </div>
+          <div>
+            <span>Tasks</span>
+            <strong>34 / 51</strong>
+          </div>
+        </div>
+
+        <button className="card-3457-button">Open project</button>
+      </div>
+    ),
+    html: `<div class="card-3457">
+    <div class="card-3457-top">
+        <span>CLIENT PROJECT</span>
+        <span class="card-3457-status">ON TRACK</span>
+    </div>
+
+    <h3>Northline Platform</h3>
+
+    <p>
+        Redesign and frontend implementation of the customer platform and account environment.
+    </p>
+
+    <div class="card-3457-progress">
+        <div>
+            <span>Project progress</span>
+            <strong>68%</strong>
+        </div>
+        <div class="card-3457-track"><span></span></div>
+    </div>
+
+    <div class="card-3457-details">
+        <div><span>Deadline</span><strong>Nov 14</strong></div>
+        <div><span>Budget</span><strong>€18.4K</strong></div>
+        <div><span>Tasks</span><strong>34 / 51</strong></div>
+    </div>
+
+    <button class="card-3457-button">Open project</button>
+</div>`,
+    css: `.card-3457 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3457-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #64748b;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.card-3457-status {
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.card-3457 h3 {
+    margin: 18px 0 0;
+    font-size: 22px;
+}
+
+.card-3457 > p {
+    margin: 11px 0 19px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3457-progress > div:first-child {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.card-3457-progress span {
+    color: #64748b;
+    font-size: 9px;
+}
+
+.card-3457-progress strong {
+    font-size: 10px;
+}
+
+.card-3457-track {
+    height: 6px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #e5e7eb;
+}
+
+.card-3457-track span {
+    display: block;
+    width: 68%;
+    height: 100%;
+    background: #2563eb;
+}
+
+.card-3457-details {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7px;
+    margin: 18px 0;
+}
+
+.card-3457-details div {
+    padding: 10px 6px;
+    border-radius: 10px;
+    background: #f8fafc;
+    text-align: center;
+}
+
+.card-3457-details span,
+.card-3457-details strong {
+    display: block;
+}
+
+.card-3457-details span {
+    margin-bottom: 4px;
+    color: #94a3b8;
+    font-size: 7px;
+}
+
+.card-3457-details strong {
+    font-size: 9px;
+}
+
+.card-3457-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3458,
+    name: "Appointment Card",
+    preview: (
+      <div className="card-3458">
+        <span className="card-3458-label">UPCOMING APPOINTMENT</span>
+
+        <div className="card-3458-date">
+          <strong>21</strong>
+          <div>
+            <span>September 2026</span>
+            <small>Monday</small>
+          </div>
+        </div>
+
+        <h3>Project review meeting</h3>
+
+        <p>
+          Review the latest design iteration and discuss the development
+          planning for the next sprint.
+        </p>
+
+        <div className="card-3458-info">
+          <div>
+            <span>Time</span>
+            <strong>10:30 – 11:30</strong>
+          </div>
+          <div>
+            <span>Location</span>
+            <strong>Meeting room 3</strong>
+          </div>
+        </div>
+
+        <div className="card-3458-actions">
+          <button className="card-3458-primary">View details</button>
+          <button className="card-3458-secondary">Reschedule</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3458">
+    <span class="card-3458-label">UPCOMING APPOINTMENT</span>
+
+    <div class="card-3458-date">
+        <strong>21</strong>
+        <div>
+            <span>September 2026</span>
+            <small>Monday</small>
+        </div>
+    </div>
+
+    <h3>Project review meeting</h3>
+
+    <p>
+        Review the latest design iteration and discuss the development planning for the next sprint.
+    </p>
+
+    <div class="card-3458-info">
+        <div><span>Time</span><strong>10:30 – 11:30</strong></div>
+        <div><span>Location</span><strong>Meeting room 3</strong></div>
+    </div>
+
+    <div class="card-3458-actions">
+        <button class="card-3458-primary">View details</button>
+        <button class="card-3458-secondary">Reschedule</button>
+    </div>
+</div>`,
+    css: `.card-3458 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3458-label {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3458-date {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin: 18px 0;
+}
+
+.card-3458-date > strong {
+    width: 47px;
+    height: 47px;
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    background: #eff6ff;
+    color: #1d4ed8;
+    font-size: 20px;
+}
+
+.card-3458-date span,
+.card-3458-date small {
+    display: block;
+}
+
+.card-3458-date span {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.card-3458-date small {
+    margin-top: 3px;
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.card-3458 h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.card-3458 > p {
+    margin: 11px 0 17px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3458-info {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.card-3458-info div {
+    padding: 10px;
+    border-radius: 10px;
+    background: #f8fafc;
+}
+
+.card-3458-info span,
+.card-3458-info strong {
+    display: block;
+}
+
+.card-3458-info span {
+    margin-bottom: 4px;
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.card-3458-info strong {
+    font-size: 9px;
+}
+
+.card-3458-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.card-3458-actions button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 9px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card-3458-primary {
+    border: none;
+    background: #2563eb;
+    color: #ffffff;
+}
+
+.card-3458-secondary {
+    border: 1px solid #dbe3ee;
+    background: #ffffff;
+    color: #111827;
+}`,
+  },
+  {
+    id: 3459,
+    name: "Resource Download Card",
+    preview: (
+      <div className="card-3459">
+        <div className="card-3459-cover">
+          <span>2026</span>
+          <strong>Digital Strategy Report</strong>
+        </div>
+
+        <div className="card-3459-content">
+          <span className="card-3459-label">FREE REPORT</span>
+          <h3>Digital trends shaping modern businesses.</h3>
+
+          <p>
+            A practical 38-page report covering customer experience, automation
+            and digital growth.
+          </p>
+
+          <div className="card-3459-meta">
+            <span>PDF · 4.8 MB</span>
+            <span>38 pages</span>
+          </div>
+
+          <button className="card-3459-button">Download report</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3459">
+    <div class="card-3459-cover">
+        <span>2026</span>
+        <strong>Digital Strategy Report</strong>
+    </div>
+
+    <div class="card-3459-content">
+        <span class="card-3459-label">FREE REPORT</span>
+        <h3>Digital trends shaping modern businesses.</h3>
+
+        <p>
+            A practical 38-page report covering customer experience, automation and digital growth.
+        </p>
+
+        <div class="card-3459-meta">
+            <span>PDF · 4.8 MB</span>
+            <span>38 pages</span>
+        </div>
+
+        <button class="card-3459-button">Download report</button>
+    </div>
+</div>`,
+    css: `.card-3459 {
+    width: 310px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    border-radius: 19px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3459-cover {
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    background: linear-gradient(135deg,#1d4ed8,#2563eb,#60a5fa);
+    color: #ffffff;
+}
+
+.card-3459-cover span {
+    margin-bottom: 6px;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .14em;
+}
+
+.card-3459-cover strong {
+    max-width: 180px;
+    font-size: 22px;
+    line-height: 1.15;
+}
+
+.card-3459-content {
+    padding: 20px;
+}
+
+.card-3459-label {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3459 h3 {
+    margin: 8px 0 0;
+    font-size: 19px;
+    line-height: 1.3;
+}
+
+.card-3459 p {
+    margin: 11px 0 15px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3459-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.card-3459-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3460,
+    name: "Product Comparison Card",
+    preview: (
+      <div className="card-3460">
+        <span className="card-3460-label">PLAN COMPARISON</span>
+        <h3>Professional</h3>
+        <p>For companies that need more control and collaboration.</p>
+
+        <div className="card-3460-price">
+          <strong>€49</strong>
+          <span>/ month</span>
+        </div>
+
+        <div className="card-3460-list">
+          <div>
+            <span>Projects</span>
+            <strong>Unlimited</strong>
+          </div>
+          <div>
+            <span>Members</span>
+            <strong>25</strong>
+          </div>
+          <div>
+            <span>Storage</span>
+            <strong>500 GB</strong>
+          </div>
+          <div>
+            <span>Support</span>
+            <strong>Priority</strong>
+          </div>
+          <div>
+            <span>Analytics</span>
+            <strong>Advanced</strong>
+          </div>
+        </div>
+
+        <button className="card-3460-button">Choose Professional</button>
+      </div>
+    ),
+    html: `<div class="card-3460">
+    <span class="card-3460-label">PLAN COMPARISON</span>
+    <h3>Professional</h3>
+    <p>For companies that need more control and collaboration.</p>
+
+    <div class="card-3460-price">
+        <strong>€49</strong>
+        <span>/ month</span>
+    </div>
+
+    <div class="card-3460-list">
+        <div><span>Projects</span><strong>Unlimited</strong></div>
+        <div><span>Members</span><strong>25</strong></div>
+        <div><span>Storage</span><strong>500 GB</strong></div>
+        <div><span>Support</span><strong>Priority</strong></div>
+        <div><span>Analytics</span><strong>Advanced</strong></div>
+    </div>
+
+    <button class="card-3460-button">Choose Professional</button>
+</div>`,
+    css: `.card-3460 {
+    width: 310px;
+    padding: 24px;
+    border: 1px solid #dbeafe;
+    border-radius: 19px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 14px 34px rgba(37,99,235,.08);
+}
+
+.card-3460-label {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3460 h3 {
+    margin: 8px 0 0;
+    font-size: 23px;
+}
+
+.card-3460 > p {
+    margin: 8px 0 20px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.card-3460-price {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.card-3460-price strong {
+    font-size: 38px;
+    line-height: 1;
+}
+
+.card-3460-price span {
+    margin-bottom: 4px;
+    color: #94a3b8;
+    font-size: 10px;
+}
+
+.card-3460-list {
+    display: grid;
+    gap: 1px;
+    margin-bottom: 18px;
+}
+
+.card-3460-list div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.card-3460-list span {
+    color: #64748b;
+    font-size: 9px;
+}
+
+.card-3460-list strong {
+    font-size: 9px;
+}
+
+.card-3460-button {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3461,
+    name: "Analytics KPI Card",
+    preview: (
+      <div className="card-3461">
+        <div className="card-3461-header">
+          <span>CONVERSION RATE</span>
+          <span className="card-3461-growth">+8.4%</span>
+        </div>
+
+        <strong className="card-3461-value">6.82%</strong>
+
+        <p>Compared with 6.29% during the previous 30-day period.</p>
+
+        <div className="card-3461-chart">
+          <span className="card-3461-bar card-3461-bar-1" />
+          <span className="card-3461-bar card-3461-bar-2" />
+          <span className="card-3461-bar card-3461-bar-3" />
+          <span className="card-3461-bar card-3461-bar-4" />
+          <span className="card-3461-bar card-3461-bar-5" />
+          <span className="card-3461-bar card-3461-bar-6" />
+          <span className="card-3461-bar card-3461-bar-7" />
+        </div>
+
+        <div className="card-3461-footer">
+          <span>12,840 visitors</span>
+          <span>876 conversions</span>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3461">
+    <div class="card-3461-header">
+        <span>CONVERSION RATE</span>
+        <span class="card-3461-growth">+8.4%</span>
+    </div>
+
+    <strong class="card-3461-value">6.82%</strong>
+
+    <p>Compared with 6.29% during the previous 30-day period.</p>
+
+    <div class="card-3461-chart">
+        <span class="card-3461-bar card-3461-bar-1"></span>
+        <span class="card-3461-bar card-3461-bar-2"></span>
+        <span class="card-3461-bar card-3461-bar-3"></span>
+        <span class="card-3461-bar card-3461-bar-4"></span>
+        <span class="card-3461-bar card-3461-bar-5"></span>
+        <span class="card-3461-bar card-3461-bar-6"></span>
+        <span class="card-3461-bar card-3461-bar-7"></span>
+    </div>
+
+    <div class="card-3461-footer">
+        <span>12,840 visitors</span>
+        <span>876 conversions</span>
+    </div>
+</div>`,
+    css: `.card-3461 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3461-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #64748b;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.card-3461-growth {
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: #dcfce7;
+    color: #15803d;
+    letter-spacing: 0;
+}
+
+.card-3461-value {
+    display: block;
+    margin-top: 22px;
+    font-size: 38px;
+    letter-spacing: -.05em;
+}
+
+.card-3461 > p {
+    margin: 8px 0 18px;
+    color: #94a3b8;
+    font-size: 9px;
+}
+
+.card-3461-chart {
+    height: 85px;
+    display: flex;
+    align-items: flex-end;
+    gap: 7px;
+}
+
+.card-3461-bar {
+    flex: 1;
+    border-radius: 4px 4px 1px 1px;
+    background: #dbeafe;
+}
+
+.card-3461-bar-1 { height: 42%; }
+.card-3461-bar-2 { height: 51%; }
+.card-3461-bar-3 { height: 47%; }
+.card-3461-bar-4 { height: 63%; }
+.card-3461-bar-5 { height: 58%; }
+.card-3461-bar-6 { height: 74%; }
+.card-3461-bar-7 { height: 88%; background: #2563eb; }
+
+.card-3461-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-top: 13px;
+    border-top: 1px solid #f1f5f9;
+    color: #94a3b8;
+    font-size: 8px;
+}`,
+  },
+  {
+    id: 3462,
+    name: "Trial Expiry Card",
+    preview: (
+      <div className="card-3462">
+        <span className="card-3462-label">FREE TRIAL</span>
+        <h3>Your trial ends in 4 days.</h3>
+
+        <p>
+          Upgrade now to keep access to your projects, team members and advanced
+          workspace features.
+        </p>
+
+        <div className="card-3462-summary">
+          <div>
+            <span>Current plan</span>
+            <strong>Professional Trial</strong>
+          </div>
+          <div>
+            <span>Trial ends</span>
+            <strong>September 21</strong>
+          </div>
+          <div>
+            <span>After trial</span>
+            <strong>€29 / month</strong>
+          </div>
+        </div>
+
+        <button className="card-3462-primary">Upgrade workspace</button>
+        <button className="card-3462-secondary">Compare plans</button>
+      </div>
+    ),
+    html: `<div class="card-3462">
+    <span class="card-3462-label">FREE TRIAL</span>
+    <h3>Your trial ends in 4 days.</h3>
+
+    <p>
+        Upgrade now to keep access to your projects, team members and advanced workspace features.
+    </p>
+
+    <div class="card-3462-summary">
+        <div><span>Current plan</span><strong>Professional Trial</strong></div>
+        <div><span>Trial ends</span><strong>September 21</strong></div>
+        <div><span>After trial</span><strong>€29 / month</strong></div>
+    </div>
+
+    <button class="card-3462-primary">Upgrade workspace</button>
+    <button class="card-3462-secondary">Compare plans</button>
+</div>`,
+    css: `.card-3462 {
+    width: 310px;
+    padding: 24px;
+    border: 1px solid #fde68a;
+    border-radius: 18px;
+    background: #fffbeb;
+    color: #111827;
+}
+
+.card-3462-label {
+    color: #b45309;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3462 h3 {
+    margin: 12px 0 0;
+    font-size: 23px;
+    line-height: 1.25;
+}
+
+.card-3462 > p {
+    margin: 13px 0 19px;
+    color: #78716c;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3462-summary {
+    display: grid;
+    gap: 1px;
+    margin-bottom: 18px;
+}
+
+.card-3462-summary div {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid #fde68a;
+}
+
+.card-3462-summary span {
+    color: #78716c;
+    font-size: 9px;
+}
+
+.card-3462-summary strong {
+    font-size: 9px;
+}
+
+.card-3462-primary,
+.card-3462-secondary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card-3462-primary {
+    border: none;
+    background: #92400e;
+    color: #ffffff;
+}
+
+.card-3462-secondary {
+    margin-top: 7px;
+    border: 1px solid #fcd34d;
+    background: transparent;
+    color: #92400e;
+}`,
+  },
+  {
+    id: 3463,
+    name: "Order Summary Card",
+    preview: (
+      <div className="card-3463">
+        <div className="card-3463-head">
+          <span>ORDER SUMMARY</span>
+          <strong>#84029</strong>
+        </div>
+
+        <div className="card-3463-items">
+          <div>
+            <span>Premium Workspace</span>
+            <strong>€149.00</strong>
+          </div>
+          <div>
+            <span>Additional storage</span>
+            <strong>€24.00</strong>
+          </div>
+          <div>
+            <span>Support package</span>
+            <strong>€39.00</strong>
+          </div>
+        </div>
+
+        <div className="card-3463-row">
+          <span>Subtotal</span>
+          <strong>€212.00</strong>
+        </div>
+        <div className="card-3463-row">
+          <span>VAT</span>
+          <strong>€44.52</strong>
+        </div>
+
+        <div className="card-3463-total">
+          <span>Total</span>
+          <strong>€256.52</strong>
+        </div>
+
+        <button className="card-3463-button">Proceed to checkout</button>
+      </div>
+    ),
+    html: `<div class="card-3463">
+    <div class="card-3463-head">
+        <span>ORDER SUMMARY</span>
+        <strong>#84029</strong>
+    </div>
+
+    <div class="card-3463-items">
+        <div><span>Premium Workspace</span><strong>€149.00</strong></div>
+        <div><span>Additional storage</span><strong>€24.00</strong></div>
+        <div><span>Support package</span><strong>€39.00</strong></div>
+    </div>
+
+    <div class="card-3463-row"><span>Subtotal</span><strong>€212.00</strong></div>
+    <div class="card-3463-row"><span>VAT</span><strong>€44.52</strong></div>
+
+    <div class="card-3463-total">
+        <span>Total</span>
+        <strong>€256.52</strong>
+    </div>
+
+    <button class="card-3463-button">Proceed to checkout</button>
+</div>`,
+    css: `.card-3463 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3463-head {
+    display: flex;
+    justify-content: space-between;
+    color: #64748b;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.card-3463-head strong {
+    color: #111827;
+    font-size: 9px;
+}
+
+.card-3463-items {
+    display: grid;
+    gap: 8px;
+    margin: 20px 0;
+    padding: 14px;
+    border-radius: 11px;
+    background: #f8fafc;
+}
+
+.card-3463-items div,
+.card-3463-row,
+.card-3463-total {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.card-3463-items span,
+.card-3463-row span {
+    color: #64748b;
+    font-size: 9px;
+}
+
+.card-3463-items strong,
+.card-3463-row strong {
+    font-size: 9px;
+}
+
+.card-3463-row {
+    padding: 6px 0;
+}
+
+.card-3463-total {
+    margin-top: 10px;
+    padding-top: 13px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.card-3463-total span {
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.card-3463-total strong {
+    font-size: 16px;
+}
+
+.card-3463-button {
+    width: 100%;
+    margin-top: 17px;
+    padding: 11px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3464,
+    name: "Customer Profile Card",
+    preview: (
+      <div className="card-3464">
+        <div className="card-3464-avatar">MV</div>
+
+        <div className="card-3464-head">
+          <div>
+            <h3>Mark van Dijk</h3>
+            <p>Operations Manager</p>
+          </div>
+          <span>ACTIVE</span>
+        </div>
+
+        <div className="card-3464-details">
+          <div>
+            <span>Company</span>
+            <strong>Atlas Logistics</strong>
+          </div>
+          <div>
+            <span>Email</span>
+            <strong>mark@atlas.nl</strong>
+          </div>
+          <div>
+            <span>Customer since</span>
+            <strong>March 2024</strong>
+          </div>
+        </div>
+
+        <div className="card-3464-stats">
+          <div>
+            <strong>18</strong>
+            <span>Orders</span>
+          </div>
+          <div>
+            <strong>€12.8K</strong>
+            <span>Revenue</span>
+          </div>
+          <div>
+            <strong>4.9</strong>
+            <span>Rating</span>
+          </div>
+        </div>
+
+        <button className="card-3464-button">View customer</button>
+      </div>
+    ),
+    html: `<div class="card-3464">
+    <div class="card-3464-avatar">MV</div>
+
+    <div class="card-3464-head">
+        <div>
+            <h3>Mark van Dijk</h3>
+            <p>Operations Manager</p>
+        </div>
+        <span>ACTIVE</span>
+    </div>
+
+    <div class="card-3464-details">
+        <div><span>Company</span><strong>Atlas Logistics</strong></div>
+        <div><span>Email</span><strong>mark@atlas.nl</strong></div>
+        <div><span>Customer since</span><strong>March 2024</strong></div>
+    </div>
+
+    <div class="card-3464-stats">
+        <div><strong>18</strong><span>Orders</span></div>
+        <div><strong>€12.8K</strong><span>Revenue</span></div>
+        <div><strong>4.9</strong><span>Rating</span></div>
+    </div>
+
+    <button class="card-3464-button">View customer</button>
+</div>`,
+    css: `.card-3464 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3464-avatar {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 14px;
+    border-radius: 50%;
+    background: #e0e7ff;
+    color: #4338ca;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.card-3464-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card-3464-head h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.card-3464-head p {
+    margin: 4px 0 0;
+    color: #64748b;
+    font-size: 9px;
+}
+
+.card-3464-head > span {
+    padding: 5px 7px;
+    border-radius: 999px;
+    background: #dcfce7;
+    color: #15803d;
+    font-size: 7px;
+    font-weight: 800;
+}
+
+.card-3464-details {
+    display: grid;
+    gap: 8px;
+    margin: 19px 0;
+}
+
+.card-3464-details div {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.card-3464-details span {
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.card-3464-details strong {
+    font-size: 9px;
+}
+
+.card-3464-stats {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7px;
+    margin-bottom: 17px;
+}
+
+.card-3464-stats div {
+    padding: 10px 6px;
+    border-radius: 10px;
+    background: #f8fafc;
+    text-align: center;
+}
+
+.card-3464-stats strong,
+.card-3464-stats span {
+    display: block;
+}
+
+.card-3464-stats strong {
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+
+.card-3464-stats span {
+    color: #94a3b8;
+    font-size: 7px;
+}
+
+.card-3464-button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dbe3ee;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #111827;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3465,
+    name: "Team Availability Card",
+    preview: (
+      <div className="card-3465">
+        <div className="card-3465-head">
+          <div>
+            <span>TEAM AVAILABILITY</span>
+            <h3>Frontend Team</h3>
+          </div>
+          <strong>6 members</strong>
+        </div>
+
+        <div className="card-3465-members">
+          <div>
+            <span>Emma</span>
+            <strong className="card-3465-free">Available</strong>
+          </div>
+          <div>
+            <span>Joshua</span>
+            <strong className="card-3465-busy">In meeting</strong>
+          </div>
+          <div>
+            <span>Noah</span>
+            <strong className="card-3465-free">Available</strong>
+          </div>
+          <div>
+            <span>Sophie</span>
+            <strong className="card-3465-away">Away</strong>
+          </div>
+        </div>
+
+        <div className="card-3465-summary">
+          <div>
+            <strong>3</strong>
+            <span>Available</span>
+          </div>
+          <div>
+            <strong>2</strong>
+            <span>Busy</span>
+          </div>
+          <div>
+            <strong>1</strong>
+            <span>Away</span>
+          </div>
+        </div>
+
+        <button className="card-3465-button">Open team overview</button>
+      </div>
+    ),
+    html: `<div class="card-3465">
+    <div class="card-3465-head">
+        <div>
+            <span>TEAM AVAILABILITY</span>
+            <h3>Frontend Team</h3>
+        </div>
+        <strong>6 members</strong>
+    </div>
+
+    <div class="card-3465-members">
+        <div><span>Emma</span><strong class="card-3465-free">Available</strong></div>
+        <div><span>Joshua</span><strong class="card-3465-busy">In meeting</strong></div>
+        <div><span>Noah</span><strong class="card-3465-free">Available</strong></div>
+        <div><span>Sophie</span><strong class="card-3465-away">Away</strong></div>
+    </div>
+
+    <div class="card-3465-summary">
+        <div><strong>3</strong><span>Available</span></div>
+        <div><strong>2</strong><span>Busy</span></div>
+        <div><strong>1</strong><span>Away</span></div>
+    </div>
+
+    <button class="card-3465-button">Open team overview</button>
+</div>`,
+    css: `.card-3465 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3465-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card-3465-head span {
+    color: #64748b;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.card-3465-head h3 {
+    margin: 5px 0 0;
+    font-size: 19px;
+}
+
+.card-3465-head > strong {
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.card-3465-members {
+    display: grid;
+    gap: 1px;
+    margin: 19px 0;
+}
+
+.card-3465-members div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.card-3465-members span {
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.card-3465-members strong {
+    font-size: 8px;
+}
+
+.card-3465-free { color: #15803d; }
+.card-3465-busy { color: #b45309; }
+.card-3465-away { color: #64748b; }
+
+.card-3465-summary {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7px;
+    margin-bottom: 17px;
+}
+
+.card-3465-summary div {
+    padding: 9px;
+    border-radius: 10px;
+    background: #f8fafc;
+    text-align: center;
+}
+
+.card-3465-summary strong,
+.card-3465-summary span {
+    display: block;
+}
+
+.card-3465-summary strong {
+    font-size: 13px;
+}
+
+.card-3465-summary span {
+    margin-top: 3px;
+    color: #94a3b8;
+    font-size: 7px;
+}
+
+.card-3465-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3466,
+    name: "Security Status Card",
+    preview: (
+      <div className="card-3466">
+        <div className="card-3466-top">
+          <span>SECURITY STATUS</span>
+          <span className="card-3466-good">PROTECTED</span>
+        </div>
+
+        <h3>Your workspace is secure.</h3>
+
+        <p>
+          All recommended security settings are currently enabled for your
+          organization.
+        </p>
+
+        <div className="card-3466-checks">
+          <div>
+            <span>Two-factor authentication</span>
+            <strong>Enabled</strong>
+          </div>
+          <div>
+            <span>Single sign-on</span>
+            <strong>Enabled</strong>
+          </div>
+          <div>
+            <span>Backup recovery</span>
+            <strong>Enabled</strong>
+          </div>
+          <div>
+            <span>Login monitoring</span>
+            <strong>Enabled</strong>
+          </div>
+        </div>
+
+        <div className="card-3466-footer">
+          <span>Last security scan</span>
+          <strong>Today, 09:42</strong>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3466">
+    <div class="card-3466-top">
+        <span>SECURITY STATUS</span>
+        <span class="card-3466-good">PROTECTED</span>
+    </div>
+
+    <h3>Your workspace is secure.</h3>
+
+    <p>
+        All recommended security settings are currently enabled for your organization.
+    </p>
+
+    <div class="card-3466-checks">
+        <div><span>Two-factor authentication</span><strong>Enabled</strong></div>
+        <div><span>Single sign-on</span><strong>Enabled</strong></div>
+        <div><span>Backup recovery</span><strong>Enabled</strong></div>
+        <div><span>Login monitoring</span><strong>Enabled</strong></div>
+    </div>
+
+    <div class="card-3466-footer">
+        <span>Last security scan</span>
+        <strong>Today, 09:42</strong>
+    </div>
+</div>`,
+    css: `.card-3466 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #bbf7d0;
+    border-radius: 18px;
+    background: #f0fdf4;
+    color: #111827;
+}
+
+.card-3466-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #15803d;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .12em;
+}
+
+.card-3466-good {
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: #dcfce7;
+}
+
+.card-3466 h3 {
+    margin: 20px 0 0;
+    font-size: 22px;
+}
+
+.card-3466 > p {
+    margin: 10px 0 18px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3466-checks {
+    display: grid;
+    gap: 1px;
+}
+
+.card-3466-checks div {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid #dcfce7;
+}
+
+.card-3466-checks span {
+    color: #475569;
+    font-size: 9px;
+}
+
+.card-3466-checks strong {
+    color: #15803d;
+    font-size: 8px;
+}
+
+.card-3466-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    color: #64748b;
+    font-size: 8px;
+}
+
+.card-3466-footer strong {
+    color: #166534;
+}`,
+  },
+  {
+    id: 3467,
+    name: "Integration Card",
+    preview: (
+      <div className="card-3467">
+        <div className="card-3467-brand">API</div>
+
+        <span className="card-3467-label">INTEGRATION</span>
+        <h3>Connect your internal systems.</h3>
+
+        <p>
+          Synchronize customer, product and order data through a secure API
+          connection.
+        </p>
+
+        <div className="card-3467-details">
+          <div>
+            <span>Status</span>
+            <strong>Connected</strong>
+          </div>
+          <div>
+            <span>Last sync</span>
+            <strong>4 minutes ago</strong>
+          </div>
+          <div>
+            <span>Records synced</span>
+            <strong>48,204</strong>
+          </div>
+        </div>
+
+        <div className="card-3467-actions">
+          <button className="card-3467-primary">Manage</button>
+          <button className="card-3467-secondary">Documentation</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3467">
+    <div class="card-3467-brand">API</div>
+
+    <span class="card-3467-label">INTEGRATION</span>
+    <h3>Connect your internal systems.</h3>
+
+    <p>
+        Synchronize customer, product and order data through a secure API connection.
+    </p>
+
+    <div class="card-3467-details">
+        <div><span>Status</span><strong>Connected</strong></div>
+        <div><span>Last sync</span><strong>4 minutes ago</strong></div>
+        <div><span>Records synced</span><strong>48,204</strong></div>
+    </div>
+
+    <div class="card-3467-actions">
+        <button class="card-3467-primary">Manage</button>
+        <button class="card-3467-secondary">Documentation</button>
+    </div>
+</div>`,
+    css: `.card-3467 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3467-brand {
+    width: 43px;
+    height: 43px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 17px;
+    border-radius: 11px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.card-3467-label {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3467 h3 {
+    margin: 7px 0 0;
+    font-size: 21px;
+    line-height: 1.3;
+}
+
+.card-3467 > p {
+    margin: 11px 0 18px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3467-details {
+    display: grid;
+    gap: 1px;
+    margin-bottom: 18px;
+}
+
+.card-3467-details div {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.card-3467-details span {
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.card-3467-details strong {
+    font-size: 8px;
+}
+
+.card-3467-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.card-3467-actions button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 9px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card-3467-primary {
+    border: none;
+    background: #2563eb;
+    color: #ffffff;
+}
+
+.card-3467-secondary {
+    border: 1px solid #dbe3ee;
+    background: #ffffff;
+    color: #111827;
+}`,
+  },
+  {
+    id: 3468,
+    name: "Service Package Card",
+    preview: (
+      <div className="card-3468">
+        <span className="card-3468-label">SERVICE PACKAGE</span>
+        <h3>Website Care</h3>
+
+        <p>
+          Ongoing technical maintenance and support for business-critical
+          websites.
+        </p>
+
+        <div className="card-3468-price">
+          <strong>€149</strong>
+          <span>/ month</span>
+        </div>
+
+        <div className="card-3468-services">
+          <span>Monthly software updates</span>
+          <span>Performance monitoring</span>
+          <span>Daily backups</span>
+          <span>2 hours development support</span>
+          <span>Security monitoring</span>
+        </div>
+
+        <button className="card-3468-button">Request package</button>
+      </div>
+    ),
+    html: `<div class="card-3468">
+    <span class="card-3468-label">SERVICE PACKAGE</span>
+    <h3>Website Care</h3>
+
+    <p>
+        Ongoing technical maintenance and support for business-critical websites.
+    </p>
+
+    <div class="card-3468-price">
+        <strong>€149</strong>
+        <span>/ month</span>
+    </div>
+
+    <div class="card-3468-services">
+        <span>Monthly software updates</span>
+        <span>Performance monitoring</span>
+        <span>Daily backups</span>
+        <span>2 hours development support</span>
+        <span>Security monitoring</span>
+    </div>
+
+    <button class="card-3468-button">Request package</button>
+</div>`,
+    css: `.card-3468 {
+    width: 310px;
+    padding: 24px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3468-label {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3468 h3 {
+    margin: 8px 0 0;
+    font-size: 24px;
+}
+
+.card-3468 > p {
+    margin: 10px 0 18px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3468-price {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    margin-bottom: 19px;
+}
+
+.card-3468-price strong {
+    font-size: 36px;
+    line-height: 1;
+}
+
+.card-3468-price span {
+    margin-bottom: 4px;
+    color: #94a3b8;
+    font-size: 9px;
+}
+
+.card-3468-services {
+    display: grid;
+    gap: 9px;
+    margin-bottom: 20px;
+}
+
+.card-3468-services span {
+    position: relative;
+    padding-left: 14px;
+    color: #475569;
+    font-size: 9px;
+}
+
+.card-3468-services span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #2563eb;
+}
+
+.card-3468-button {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 10px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3469,
+    name: "Online Course Card",
+    preview: (
+      <div className="card-3469">
+        <div className="card-3469-cover">
+          <span>FRONTEND</span>
+          <strong>Modern Web Development</strong>
+        </div>
+
+        <div className="card-3469-content">
+          <span className="card-3469-level">INTERMEDIATE</span>
+
+          <h3>Build professional interfaces from scratch.</h3>
+
+          <p>
+            Learn layout, responsive design, component architecture and
+            practical frontend workflows.
+          </p>
+
+          <div className="card-3469-meta">
+            <span>18 lessons</span>
+            <span>7.5 hours</span>
+            <span>Certificate</span>
+          </div>
+
+          <div className="card-3469-footer">
+            <strong>€79</strong>
+            <button>View course</button>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3469">
+    <div class="card-3469-cover">
+        <span>FRONTEND</span>
+        <strong>Modern Web Development</strong>
+    </div>
+
+    <div class="card-3469-content">
+        <span class="card-3469-level">INTERMEDIATE</span>
+
+        <h3>Build professional interfaces from scratch.</h3>
+
+        <p>
+            Learn layout, responsive design, component architecture and practical frontend workflows.
+        </p>
+
+        <div class="card-3469-meta">
+            <span>18 lessons</span>
+            <span>7.5 hours</span>
+            <span>Certificate</span>
+        </div>
+
+        <div class="card-3469-footer">
+            <strong>€79</strong>
+            <button>View course</button>
+        </div>
+    </div>
+</div>`,
+    css: `.card-3469 {
+    width: 310px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    border-radius: 19px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3469-cover {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    background: linear-gradient(135deg,#111827,#1e3a8a);
+    color: #ffffff;
+}
+
+.card-3469-cover span {
+    margin-bottom: 6px;
+    color: #bfdbfe;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .14em;
+}
+
+.card-3469-cover strong {
+    max-width: 200px;
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+.card-3469-content {
+    padding: 20px;
+}
+
+.card-3469-level {
+    color: #2563eb;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .12em;
+}
+
+.card-3469 h3 {
+    margin: 8px 0 0;
+    font-size: 19px;
+    line-height: 1.3;
+}
+
+.card-3469 p {
+    margin: 11px 0 15px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3469-meta {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 17px;
+}
+
+.card-3469-meta span {
+    padding: 5px 7px;
+    border-radius: 999px;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 8px;
+}
+
+.card-3469-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-3469-footer strong {
+    font-size: 21px;
+}
+
+.card-3469-footer button {
+    padding: 9px 12px;
+    border: none;
+    border-radius: 9px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3470,
+    name: "Property Listing Card",
+    preview: (
+      <div className="card-3470">
+        <div className="card-3470-image">
+          <span>FOR RENT</span>
+        </div>
+
+        <div className="card-3470-content">
+          <div className="card-3470-title">
+            <div>
+              <h3>Modern City Apartment</h3>
+              <p>Amsterdam, Noord-Holland</p>
+            </div>
+            <strong>€1,850</strong>
+          </div>
+
+          <div className="card-3470-details">
+            <span>82 m²</span>
+            <span>2 bedrooms</span>
+            <span>1 bathroom</span>
+          </div>
+
+          <p className="card-3470-description">
+            Bright renovated apartment with balcony, open kitchen and excellent
+            public transport connections.
+          </p>
+
+          <button className="card-3470-button">View property</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3470">
+    <div class="card-3470-image">
+        <span>FOR RENT</span>
+    </div>
+
+    <div class="card-3470-content">
+        <div class="card-3470-title">
+            <div>
+                <h3>Modern City Apartment</h3>
+                <p>Amsterdam, Noord-Holland</p>
+            </div>
+            <strong>€1,850</strong>
+        </div>
+
+        <div class="card-3470-details">
+            <span>82 m²</span>
+            <span>2 bedrooms</span>
+            <span>1 bathroom</span>
+        </div>
+
+        <p class="card-3470-description">
+            Bright renovated apartment with balcony, open kitchen and excellent public transport connections.
+        </p>
+
+        <button class="card-3470-button">View property</button>
+    </div>
+</div>`,
+    css: `.card-3470 {
+    width: 310px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    border-radius: 19px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3470-image {
+    height: 145px;
+    display: flex;
+    align-items: flex-end;
+    padding: 16px;
+    background: linear-gradient(135deg,#dbeafe,#cbd5e1,#bfdbfe);
+}
+
+.card-3470-image span {
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #1d4ed8;
+    font-size: 8px;
+    font-weight: 800;
+}
+
+.card-3470-content {
+    padding: 19px;
+}
+
+.card-3470-title {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card-3470-title h3 {
+    margin: 0;
+    font-size: 17px;
+}
+
+.card-3470-title p {
+    margin: 4px 0 0;
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.card-3470-title > strong {
+    font-size: 15px;
+}
+
+.card-3470-details {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+.card-3470-details span {
+    padding: 5px 7px;
+    border-radius: 999px;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 8px;
+}
+
+.card-3470-description {
+    margin: 0 0 16px;
+    color: #64748b;
+    font-size: 10px;
+    line-height: 1.6;
+}
+
+.card-3470-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3471,
+    name: "Marketing Campaign Card",
+    preview: (
+      <div className="card-3471">
+        <div className="card-3471-head">
+          <div>
+            <span>CAMPAIGN</span>
+            <h3>Autumn Launch</h3>
+          </div>
+          <span className="card-3471-live">LIVE</span>
+        </div>
+
+        <p>
+          Multi-channel campaign focused on product awareness and new customer
+          acquisition.
+        </p>
+
+        <div className="card-3471-stats">
+          <div>
+            <span>Impressions</span>
+            <strong>842K</strong>
+          </div>
+          <div>
+            <span>Clicks</span>
+            <strong>24.8K</strong>
+          </div>
+          <div>
+            <span>CTR</span>
+            <strong>2.94%</strong>
+          </div>
+          <div>
+            <span>Spend</span>
+            <strong>€8,420</strong>
+          </div>
+        </div>
+
+        <div className="card-3471-budget">
+          <div>
+            <span>Budget used</span>
+            <strong>64%</strong>
+          </div>
+          <div className="card-3471-track">
+            <span />
+          </div>
+        </div>
+
+        <button className="card-3471-button">View campaign</button>
+      </div>
+    ),
+    html: `<div class="card-3471">
+    <div class="card-3471-head">
+        <div>
+            <span>CAMPAIGN</span>
+            <h3>Autumn Launch</h3>
+        </div>
+        <span class="card-3471-live">LIVE</span>
+    </div>
+
+    <p>
+        Multi-channel campaign focused on product awareness and new customer acquisition.
+    </p>
+
+    <div class="card-3471-stats">
+        <div><span>Impressions</span><strong>842K</strong></div>
+        <div><span>Clicks</span><strong>24.8K</strong></div>
+        <div><span>CTR</span><strong>2.94%</strong></div>
+        <div><span>Spend</span><strong>€8,420</strong></div>
+    </div>
+
+    <div class="card-3471-budget">
+        <div><span>Budget used</span><strong>64%</strong></div>
+        <div class="card-3471-track"><span></span></div>
+    </div>
+
+    <button class="card-3471-button">View campaign</button>
+</div>`,
+    css: `.card-3471 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3471-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card-3471-head span:first-child {
+    color: #64748b;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.card-3471-head h3 {
+    margin: 5px 0 0;
+    font-size: 20px;
+}
+
+.card-3471-live {
+    padding: 5px 8px;
+    border-radius: 999px;
+    background: #dcfce7;
+    color: #15803d;
+    font-size: 7px;
+    font-weight: 800;
+}
+
+.card-3471 > p {
+    margin: 13px 0 17px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.card-3471-stats {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 7px;
+    margin-bottom: 17px;
+}
+
+.card-3471-stats div {
+    padding: 10px;
+    border-radius: 10px;
+    background: #f8fafc;
+}
+
+.card-3471-stats span,
+.card-3471-stats strong {
+    display: block;
+}
+
+.card-3471-stats span {
+    margin-bottom: 4px;
+    color: #94a3b8;
+    font-size: 7px;
+}
+
+.card-3471-stats strong {
+    font-size: 12px;
+}
+
+.card-3471-budget > div:first-child {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+    font-size: 8px;
+}
+
+.card-3471-track {
+    height: 6px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #e5e7eb;
+}
+
+.card-3471-track span {
+    display: block;
+    width: 64%;
+    height: 100%;
+    background: #2563eb;
+}
+
+.card-3471-button {
+    width: 100%;
+    margin-top: 17px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3472,
+    name: "Document Approval Card",
+    preview: (
+      <div className="card-3472">
+        <span className="card-3472-label">REQUIRES APPROVAL</span>
+
+        <h3>Website Proposal v3</h3>
+        <p>
+          Final commercial proposal including scope, planning and updated
+          project costs.
+        </p>
+
+        <div className="card-3472-file">
+          <div>
+            <strong>Website-Proposal-v3.pdf</strong>
+            <span>PDF · 2.4 MB</span>
+          </div>
+          <span>V3</span>
+        </div>
+
+        <div className="card-3472-details">
+          <div>
+            <span>Created by</span>
+            <strong>Lisa Jansen</strong>
+          </div>
+          <div>
+            <span>Submitted</span>
+            <strong>Today, 11:28</strong>
+          </div>
+        </div>
+
+        <div className="card-3472-actions">
+          <button className="card-3472-primary">Approve</button>
+          <button className="card-3472-secondary">Review document</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3472">
+    <span class="card-3472-label">REQUIRES APPROVAL</span>
+
+    <h3>Website Proposal v3</h3>
+
+    <p>
+        Final commercial proposal including scope, planning and updated project costs.
+    </p>
+
+    <div class="card-3472-file">
+        <div>
+            <strong>Website-Proposal-v3.pdf</strong>
+            <span>PDF · 2.4 MB</span>
+        </div>
+        <span>V3</span>
+    </div>
+
+    <div class="card-3472-details">
+        <div><span>Created by</span><strong>Lisa Jansen</strong></div>
+        <div><span>Submitted</span><strong>Today, 11:28</strong></div>
+    </div>
+
+    <div class="card-3472-actions">
+        <button class="card-3472-primary">Approve</button>
+        <button class="card-3472-secondary">Review document</button>
+    </div>
+</div>`,
+    css: `.card-3472 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #fde68a;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3472-label {
+    color: #b45309;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .12em;
+}
+
+.card-3472 h3 {
+    margin: 11px 0 0;
+    font-size: 21px;
+}
+
+.card-3472 > p {
+    margin: 10px 0 17px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.card-3472-file {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 11px;
+    background: #f8fafc;
+}
+
+.card-3472-file strong,
+.card-3472-file span {
+    display: block;
+}
+
+.card-3472-file strong {
+    font-size: 9px;
+}
+
+.card-3472-file div span {
+    margin-top: 3px;
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.card-3472-file > span {
+    padding: 5px 7px;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #64748b;
+    font-size: 8px;
+    font-weight: 800;
+}
+
+.card-3472-details {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    margin: 15px 0 17px;
+}
+
+.card-3472-details span,
+.card-3472-details strong {
+    display: block;
+}
+
+.card-3472-details span {
+    margin-bottom: 3px;
+    color: #94a3b8;
+    font-size: 7px;
+}
+
+.card-3472-details strong {
+    font-size: 9px;
+}
+
+.card-3472-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.card-3472-actions button {
+    padding: 10px 7px;
+    border-radius: 10px;
+    font-size: 9px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card-3472-primary {
+    border: none;
+    background: #15803d;
+    color: #ffffff;
+}
+
+.card-3472-secondary {
+    border: 1px solid #dbe3ee;
+    background: #ffffff;
+    color: #111827;
+}`,
+  },
+  {
+    id: 3473,
+    name: "Booking Summary Card",
+    preview: (
+      <div className="card-3473">
+        <span className="card-3473-label">BOOKING CONFIRMED</span>
+
+        <h3>Strategy Consultation</h3>
+        <p>
+          A 60-minute consultation about your upcoming website and digital
+          strategy.
+        </p>
+
+        <div className="card-3473-box">
+          <div>
+            <span>Date</span>
+            <strong>October 6, 2026</strong>
+          </div>
+          <div>
+            <span>Time</span>
+            <strong>14:00 – 15:00</strong>
+          </div>
+          <div>
+            <span>Meeting</span>
+            <strong>Online</strong>
+          </div>
+          <div>
+            <span>Consultant</span>
+            <strong>Sarah de Boer</strong>
+          </div>
+        </div>
+
+        <div className="card-3473-footer">
+          <button className="card-3473-primary">View booking</button>
+          <button className="card-3473-secondary">Cancel</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3473">
+    <span class="card-3473-label">BOOKING CONFIRMED</span>
+
+    <h3>Strategy Consultation</h3>
+
+    <p>
+        A 60-minute consultation about your upcoming website and digital strategy.
+    </p>
+
+    <div class="card-3473-box">
+        <div><span>Date</span><strong>October 6, 2026</strong></div>
+        <div><span>Time</span><strong>14:00 – 15:00</strong></div>
+        <div><span>Meeting</span><strong>Online</strong></div>
+        <div><span>Consultant</span><strong>Sarah de Boer</strong></div>
+    </div>
+
+    <div class="card-3473-footer">
+        <button class="card-3473-primary">View booking</button>
+        <button class="card-3473-secondary">Cancel</button>
+    </div>
+</div>`,
+    css: `.card-3473 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #bbf7d0;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3473-label {
+    color: #15803d;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .12em;
+}
+
+.card-3473 h3 {
+    margin: 12px 0 0;
+    font-size: 21px;
+}
+
+.card-3473 > p {
+    margin: 10px 0 18px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.card-3473-box {
+    display: grid;
+    gap: 1px;
+    margin-bottom: 18px;
+    padding: 5px 12px;
+    border-radius: 11px;
+    background: #f8fafc;
+}
+
+.card-3473-box div {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.card-3473-box div:last-child {
+    border-bottom: none;
+}
+
+.card-3473-box span {
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.card-3473-box strong {
+    font-size: 9px;
+}
+
+.card-3473-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.card-3473-footer button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 9px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card-3473-primary {
+    border: none;
+    background: #111827;
+    color: #ffffff;
+}
+
+.card-3473-secondary {
+    border: 1px solid #dbe3ee;
+    background: #ffffff;
+    color: #64748b;
+}`,
+  },
+  {
+    id: 3474,
+    name: "Support Ticket Card",
+    preview: (
+      <div className="card-3474">
+        <div className="card-3474-head">
+          <span>SUPPORT TICKET</span>
+          <span className="card-3474-priority">HIGH PRIORITY</span>
+        </div>
+
+        <h3>#4821 · Checkout error</h3>
+
+        <p>
+          Customers receive an unexpected error after submitting payment on the
+          checkout page.
+        </p>
+
+        <div className="card-3474-details">
+          <div>
+            <span>Customer</span>
+            <strong>Atlas Commerce</strong>
+          </div>
+          <div>
+            <span>Assigned to</span>
+            <strong>Technical Support</strong>
+          </div>
+          <div>
+            <span>Created</span>
+            <strong>38 minutes ago</strong>
+          </div>
+          <div>
+            <span>Status</span>
+            <strong>Investigating</strong>
+          </div>
+        </div>
+
+        <button className="card-3474-button">Open ticket</button>
+      </div>
+    ),
+    html: `<div class="card-3474">
+    <div class="card-3474-head">
+        <span>SUPPORT TICKET</span>
+        <span class="card-3474-priority">HIGH PRIORITY</span>
+    </div>
+
+    <h3>#4821 · Checkout error</h3>
+
+    <p>
+        Customers receive an unexpected error after submitting payment on the checkout page.
+    </p>
+
+    <div class="card-3474-details">
+        <div><span>Customer</span><strong>Atlas Commerce</strong></div>
+        <div><span>Assigned to</span><strong>Technical Support</strong></div>
+        <div><span>Created</span><strong>38 minutes ago</strong></div>
+        <div><span>Status</span><strong>Investigating</strong></div>
+    </div>
+
+    <button class="card-3474-button">Open ticket</button>
+</div>`,
+    css: `.card-3474 {
+    width: 310px;
+    padding: 23px;
+    border: 1px solid #fecaca;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 12px 30px rgba(15,23,42,.06);
+}
+
+.card-3474-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #64748b;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .12em;
+}
+
+.card-3474-priority {
+    padding: 5px 7px;
+    border-radius: 999px;
+    background: #fee2e2;
+    color: #b91c1c;
+    font-size: 7px;
+    letter-spacing: 0;
+}
+
+.card-3474 h3 {
+    margin: 18px 0 0;
+    font-size: 20px;
+}
+
+.card-3474 > p {
+    margin: 11px 0 18px;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.card-3474-details {
+    display: grid;
+    gap: 1px;
+    margin-bottom: 18px;
+}
+
+.card-3474-details div {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.card-3474-details span {
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.card-3474-details strong {
+    font-size: 8px;
+}
+
+.card-3474-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #111827;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
+  {
+    id: 3475,
+    name: "Customer Success Story Card",
+    preview: (
+      <div className="card-3475">
+        <span className="card-3475-label">CUSTOMER STORY</span>
+
+        <h3>How Lumina increased online revenue by 84%.</h3>
+
+        <p>
+          A redesigned ecommerce experience helped Lumina simplify product
+          discovery and improve mobile checkout performance.
+        </p>
+
+        <div className="card-3475-results">
+          <div>
+            <strong>+84%</strong>
+            <span>Online revenue</span>
+          </div>
+          <div>
+            <strong>+51%</strong>
+            <span>Mobile conversion</span>
+          </div>
+          <div>
+            <strong>-38%</strong>
+            <span>Checkout exits</span>
+          </div>
+        </div>
+
+        <blockquote>
+          “The results exceeded our expectations within the first three months.”
+        </blockquote>
+
+        <div className="card-3475-footer">
+          <div>
+            <strong>Eva Vermeer</strong>
+            <span>Digital Director, Lumina</span>
+          </div>
+          <button>Read story</button>
+        </div>
+      </div>
+    ),
+    html: `<div class="card-3475">
+    <span class="card-3475-label">CUSTOMER STORY</span>
+
+    <h3>How Lumina increased online revenue by 84%.</h3>
+
+    <p>
+        A redesigned ecommerce experience helped Lumina simplify product discovery and improve mobile checkout performance.
+    </p>
+
+    <div class="card-3475-results">
+        <div><strong>+84%</strong><span>Online revenue</span></div>
+        <div><strong>+51%</strong><span>Mobile conversion</span></div>
+        <div><strong>-38%</strong><span>Checkout exits</span></div>
+    </div>
+
+    <blockquote>
+        “The results exceeded our expectations within the first three months.”
+    </blockquote>
+
+    <div class="card-3475-footer">
+        <div>
+            <strong>Eva Vermeer</strong>
+            <span>Digital Director, Lumina</span>
+        </div>
+        <button>Read story</button>
+    </div>
+</div>`,
+    css: `.card-3475 {
+    width: 310px;
+    padding: 24px;
+    border-radius: 18px;
+    background: #111827;
+    color: #ffffff;
+    box-shadow: 0 16px 36px rgba(17,24,39,.2);
+}
+
+.card-3475-label {
+    color: #93c5fd;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.card-3475 h3 {
+    margin: 13px 0 0;
+    font-size: 22px;
+    line-height: 1.3;
+}
+
+.card-3475 > p {
+    margin: 12px 0 18px;
+    color: #9ca3af;
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+.card-3475-results {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7px;
+    margin-bottom: 18px;
+}
+
+.card-3475-results div {
+    padding: 10px 6px;
+    border-radius: 10px;
+    background: rgba(255,255,255,.05);
+    text-align: center;
+}
+
+.card-3475-results strong,
+.card-3475-results span {
+    display: block;
+}
+
+.card-3475-results strong {
+    margin-bottom: 4px;
+    color: #60a5fa;
+    font-size: 14px;
+}
+
+.card-3475-results span {
+    color: #9ca3af;
+    font-size: 7px;
+}
+
+.card-3475 blockquote {
+    margin: 0 0 18px;
+    padding: 13px;
+    border-left: 2px solid #60a5fa;
+    border-radius: 0 9px 9px 0;
+    background: rgba(255,255,255,.035);
+    color: #d1d5db;
+    font-size: 10px;
+    line-height: 1.6;
+}
+
+.card-3475-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card-3475-footer strong,
+.card-3475-footer span {
+    display: block;
+}
+
+.card-3475-footer strong {
+    margin-bottom: 3px;
+    font-size: 9px;
+}
+
+.card-3475-footer span {
+    color: #6b7280;
+    font-size: 7px;
+}
+
+.card-3475-footer button {
+    padding: 9px 11px;
+    border: none;
+    border-radius: 9px;
+    background: #ffffff;
+    color: #111827;
+    font-size: 9px;
+    font-weight: 700;
+    cursor: pointer;
+}`,
+  },
 ];
