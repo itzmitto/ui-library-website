@@ -32287,4 +32287,10888 @@ export const loaders = [
     }
 }`,
   },
+
+  {
+    id: 3158,
+    name: "Realistic Water Chamber Loader",
+    preview: (
+      <div className="loader-3158">
+        <div className="loader-3158-ambient">
+          <span className="loader-3158-ambient-glow loader-3158-ambient-glow-1"></span>
+          <span className="loader-3158-ambient-glow loader-3158-ambient-glow-2"></span>
+          <span className="loader-3158-ambient-glow loader-3158-ambient-glow-3"></span>
+        </div>
+
+        <div className="loader-3158-chamber-shadow"></div>
+
+        <div className="loader-3158-chamber">
+          <div className="loader-3158-glass-back"></div>
+
+          <div className="loader-3158-glass-reflection loader-3158-glass-reflection-left"></div>
+          <div className="loader-3158-glass-reflection loader-3158-glass-reflection-right"></div>
+
+          <div className="loader-3158-glass-edge loader-3158-glass-edge-left"></div>
+          <div className="loader-3158-glass-edge loader-3158-glass-edge-right"></div>
+
+          <div className="loader-3158-top-rim">
+            <span className="loader-3158-top-rim-highlight"></span>
+            <span className="loader-3158-top-rim-shadow"></span>
+          </div>
+
+          <div className="loader-3158-water">
+            <div className="loader-3158-water-deep"></div>
+            <div className="loader-3158-water-mid"></div>
+            <div className="loader-3158-water-light"></div>
+
+            <div className="loader-3158-caustics">
+              <span className="loader-3158-caustic loader-3158-caustic-1"></span>
+              <span className="loader-3158-caustic loader-3158-caustic-2"></span>
+              <span className="loader-3158-caustic loader-3158-caustic-3"></span>
+              <span className="loader-3158-caustic loader-3158-caustic-4"></span>
+              <span className="loader-3158-caustic loader-3158-caustic-5"></span>
+              <span className="loader-3158-caustic loader-3158-caustic-6"></span>
+              <span className="loader-3158-caustic loader-3158-caustic-7"></span>
+              <span className="loader-3158-caustic loader-3158-caustic-8"></span>
+              <span className="loader-3158-caustic loader-3158-caustic-9"></span>
+              <span className="loader-3158-caustic loader-3158-caustic-10"></span>
+              <span className="loader-3158-caustic loader-3158-caustic-11"></span>
+              <span className="loader-3158-caustic loader-3158-caustic-12"></span>
+            </div>
+
+            <div className="loader-3158-light-rays">
+              <span className="loader-3158-light-ray loader-3158-light-ray-1"></span>
+              <span className="loader-3158-light-ray loader-3158-light-ray-2"></span>
+              <span className="loader-3158-light-ray loader-3158-light-ray-3"></span>
+              <span className="loader-3158-light-ray loader-3158-light-ray-4"></span>
+            </div>
+
+            <div className="loader-3158-bubbles">
+              <span className="loader-3158-bubble loader-3158-bubble-1"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-2"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-3"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-4"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-5"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-6"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-7"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-8"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-9"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-10"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-11"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-12"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-13"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-14"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-15"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-16"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-17"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-18"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-19"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-20"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-21"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-22"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-23"></span>
+              <span className="loader-3158-bubble loader-3158-bubble-24"></span>
+            </div>
+
+            <div className="loader-3158-particles">
+              <span className="loader-3158-particle loader-3158-particle-1"></span>
+              <span className="loader-3158-particle loader-3158-particle-2"></span>
+              <span className="loader-3158-particle loader-3158-particle-3"></span>
+              <span className="loader-3158-particle loader-3158-particle-4"></span>
+              <span className="loader-3158-particle loader-3158-particle-5"></span>
+              <span className="loader-3158-particle loader-3158-particle-6"></span>
+              <span className="loader-3158-particle loader-3158-particle-7"></span>
+              <span className="loader-3158-particle loader-3158-particle-8"></span>
+              <span className="loader-3158-particle loader-3158-particle-9"></span>
+              <span className="loader-3158-particle loader-3158-particle-10"></span>
+              <span className="loader-3158-particle loader-3158-particle-11"></span>
+              <span className="loader-3158-particle loader-3158-particle-12"></span>
+            </div>
+
+            <div className="loader-3158-wave-container">
+              <div className="loader-3158-wave loader-3158-wave-back"></div>
+              <div className="loader-3158-wave loader-3158-wave-mid"></div>
+              <div className="loader-3158-wave loader-3158-wave-front"></div>
+            </div>
+
+            <div className="loader-3158-surface">
+              <div className="loader-3158-surface-body"></div>
+
+              <div className="loader-3158-surface-highlight"></div>
+
+              <span className="loader-3158-surface-foam loader-3158-surface-foam-1"></span>
+              <span className="loader-3158-surface-foam loader-3158-surface-foam-2"></span>
+              <span className="loader-3158-surface-foam loader-3158-surface-foam-3"></span>
+              <span className="loader-3158-surface-foam loader-3158-surface-foam-4"></span>
+              <span className="loader-3158-surface-foam loader-3158-surface-foam-5"></span>
+              <span className="loader-3158-surface-foam loader-3158-surface-foam-6"></span>
+
+              <span className="loader-3158-surface-glint loader-3158-surface-glint-1"></span>
+              <span className="loader-3158-surface-glint loader-3158-surface-glint-2"></span>
+              <span className="loader-3158-surface-glint loader-3158-surface-glint-3"></span>
+            </div>
+
+            <div className="loader-3158-ripple loader-3158-ripple-1"></div>
+            <div className="loader-3158-ripple loader-3158-ripple-2"></div>
+            <div className="loader-3158-ripple loader-3158-ripple-3"></div>
+          </div>
+
+          <div className="loader-3158-drop-system">
+            <div className="loader-3158-drop-trail"></div>
+
+            <div className="loader-3158-drop">
+              <span className="loader-3158-drop-highlight"></span>
+              <span className="loader-3158-drop-shadow"></span>
+            </div>
+
+            <span className="loader-3158-mini-drop loader-3158-mini-drop-1"></span>
+            <span className="loader-3158-mini-drop loader-3158-mini-drop-2"></span>
+            <span className="loader-3158-mini-drop loader-3158-mini-drop-3"></span>
+          </div>
+
+          <div className="loader-3158-splash">
+            <span className="loader-3158-splash-drop loader-3158-splash-drop-1"></span>
+            <span className="loader-3158-splash-drop loader-3158-splash-drop-2"></span>
+            <span className="loader-3158-splash-drop loader-3158-splash-drop-3"></span>
+            <span className="loader-3158-splash-drop loader-3158-splash-drop-4"></span>
+            <span className="loader-3158-splash-drop loader-3158-splash-drop-5"></span>
+            <span className="loader-3158-splash-drop loader-3158-splash-drop-6"></span>
+          </div>
+
+          <div className="loader-3158-front-glass">
+            <div className="loader-3158-front-glass-shine"></div>
+            <div className="loader-3158-front-glass-shine-soft"></div>
+          </div>
+
+          <div className="loader-3158-bottom-rim">
+            <span></span>
+          </div>
+        </div>
+
+        <div className="loader-3158-status">
+          <div className="loader-3158-status-heading">
+            <span className="loader-3158-status-icon">
+              <i className="ri-drop-fill"></i>
+            </span>
+
+            <div>
+              <strong>HYDRO SYNC</strong>
+              <small>FLUID SYSTEM ACTIVE</small>
+            </div>
+          </div>
+
+          <div className="loader-3158-meter">
+            <div className="loader-3158-meter-track">
+              <span className="loader-3158-meter-fill"></span>
+              <span className="loader-3158-meter-shine"></span>
+            </div>
+
+            <div className="loader-3158-meter-labels">
+              <span>LOADING</span>
+              <strong>68%</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
+
+    html: `<div class="loader-3158">
+    <div class="loader-3158-ambient">
+        <span class="loader-3158-ambient-glow loader-3158-ambient-glow-1"></span>
+        <span class="loader-3158-ambient-glow loader-3158-ambient-glow-2"></span>
+        <span class="loader-3158-ambient-glow loader-3158-ambient-glow-3"></span>
+    </div>
+
+    <div class="loader-3158-chamber-shadow"></div>
+
+    <div class="loader-3158-chamber">
+        <div class="loader-3158-glass-back"></div>
+
+        <div class="loader-3158-glass-reflection loader-3158-glass-reflection-left"></div>
+        <div class="loader-3158-glass-reflection loader-3158-glass-reflection-right"></div>
+
+        <div class="loader-3158-glass-edge loader-3158-glass-edge-left"></div>
+        <div class="loader-3158-glass-edge loader-3158-glass-edge-right"></div>
+
+        <div class="loader-3158-top-rim">
+            <span class="loader-3158-top-rim-highlight"></span>
+            <span class="loader-3158-top-rim-shadow"></span>
+        </div>
+
+        <div class="loader-3158-water">
+            <div class="loader-3158-water-deep"></div>
+            <div class="loader-3158-water-mid"></div>
+            <div class="loader-3158-water-light"></div>
+
+            <div class="loader-3158-caustics">
+                <span class="loader-3158-caustic loader-3158-caustic-1"></span>
+                <span class="loader-3158-caustic loader-3158-caustic-2"></span>
+                <span class="loader-3158-caustic loader-3158-caustic-3"></span>
+                <span class="loader-3158-caustic loader-3158-caustic-4"></span>
+                <span class="loader-3158-caustic loader-3158-caustic-5"></span>
+                <span class="loader-3158-caustic loader-3158-caustic-6"></span>
+                <span class="loader-3158-caustic loader-3158-caustic-7"></span>
+                <span class="loader-3158-caustic loader-3158-caustic-8"></span>
+                <span class="loader-3158-caustic loader-3158-caustic-9"></span>
+                <span class="loader-3158-caustic loader-3158-caustic-10"></span>
+                <span class="loader-3158-caustic loader-3158-caustic-11"></span>
+                <span class="loader-3158-caustic loader-3158-caustic-12"></span>
+            </div>
+
+            <div class="loader-3158-light-rays">
+                <span class="loader-3158-light-ray loader-3158-light-ray-1"></span>
+                <span class="loader-3158-light-ray loader-3158-light-ray-2"></span>
+                <span class="loader-3158-light-ray loader-3158-light-ray-3"></span>
+                <span class="loader-3158-light-ray loader-3158-light-ray-4"></span>
+            </div>
+
+            <div class="loader-3158-bubbles">
+                <span class="loader-3158-bubble loader-3158-bubble-1"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-2"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-3"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-4"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-5"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-6"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-7"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-8"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-9"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-10"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-11"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-12"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-13"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-14"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-15"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-16"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-17"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-18"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-19"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-20"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-21"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-22"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-23"></span>
+                <span class="loader-3158-bubble loader-3158-bubble-24"></span>
+            </div>
+
+            <div class="loader-3158-particles">
+                <span class="loader-3158-particle loader-3158-particle-1"></span>
+                <span class="loader-3158-particle loader-3158-particle-2"></span>
+                <span class="loader-3158-particle loader-3158-particle-3"></span>
+                <span class="loader-3158-particle loader-3158-particle-4"></span>
+                <span class="loader-3158-particle loader-3158-particle-5"></span>
+                <span class="loader-3158-particle loader-3158-particle-6"></span>
+                <span class="loader-3158-particle loader-3158-particle-7"></span>
+                <span class="loader-3158-particle loader-3158-particle-8"></span>
+                <span class="loader-3158-particle loader-3158-particle-9"></span>
+                <span class="loader-3158-particle loader-3158-particle-10"></span>
+                <span class="loader-3158-particle loader-3158-particle-11"></span>
+                <span class="loader-3158-particle loader-3158-particle-12"></span>
+            </div>
+
+            <div class="loader-3158-wave-container">
+                <div class="loader-3158-wave loader-3158-wave-back"></div>
+                <div class="loader-3158-wave loader-3158-wave-mid"></div>
+                <div class="loader-3158-wave loader-3158-wave-front"></div>
+            </div>
+
+            <div class="loader-3158-surface">
+                <div class="loader-3158-surface-body"></div>
+                <div class="loader-3158-surface-highlight"></div>
+
+                <span class="loader-3158-surface-foam loader-3158-surface-foam-1"></span>
+                <span class="loader-3158-surface-foam loader-3158-surface-foam-2"></span>
+                <span class="loader-3158-surface-foam loader-3158-surface-foam-3"></span>
+                <span class="loader-3158-surface-foam loader-3158-surface-foam-4"></span>
+                <span class="loader-3158-surface-foam loader-3158-surface-foam-5"></span>
+                <span class="loader-3158-surface-foam loader-3158-surface-foam-6"></span>
+
+                <span class="loader-3158-surface-glint loader-3158-surface-glint-1"></span>
+                <span class="loader-3158-surface-glint loader-3158-surface-glint-2"></span>
+                <span class="loader-3158-surface-glint loader-3158-surface-glint-3"></span>
+            </div>
+
+            <div class="loader-3158-ripple loader-3158-ripple-1"></div>
+            <div class="loader-3158-ripple loader-3158-ripple-2"></div>
+            <div class="loader-3158-ripple loader-3158-ripple-3"></div>
+        </div>
+
+        <div class="loader-3158-drop-system">
+            <div class="loader-3158-drop-trail"></div>
+
+            <div class="loader-3158-drop">
+                <span class="loader-3158-drop-highlight"></span>
+                <span class="loader-3158-drop-shadow"></span>
+            </div>
+
+            <span class="loader-3158-mini-drop loader-3158-mini-drop-1"></span>
+            <span class="loader-3158-mini-drop loader-3158-mini-drop-2"></span>
+            <span class="loader-3158-mini-drop loader-3158-mini-drop-3"></span>
+        </div>
+
+        <div class="loader-3158-splash">
+            <span class="loader-3158-splash-drop loader-3158-splash-drop-1"></span>
+            <span class="loader-3158-splash-drop loader-3158-splash-drop-2"></span>
+            <span class="loader-3158-splash-drop loader-3158-splash-drop-3"></span>
+            <span class="loader-3158-splash-drop loader-3158-splash-drop-4"></span>
+            <span class="loader-3158-splash-drop loader-3158-splash-drop-5"></span>
+            <span class="loader-3158-splash-drop loader-3158-splash-drop-6"></span>
+        </div>
+
+        <div class="loader-3158-front-glass">
+            <div class="loader-3158-front-glass-shine"></div>
+            <div class="loader-3158-front-glass-shine-soft"></div>
+        </div>
+
+        <div class="loader-3158-bottom-rim">
+            <span></span>
+        </div>
+    </div>
+
+    <div class="loader-3158-status">
+        <div class="loader-3158-status-heading">
+            <span class="loader-3158-status-icon">
+                <i class="ri-drop-fill"></i>
+            </span>
+
+            <div>
+                <strong>HYDRO SYNC</strong>
+                <small>FLUID SYSTEM ACTIVE</small>
+            </div>
+        </div>
+
+        <div class="loader-3158-meter">
+            <div class="loader-3158-meter-track">
+                <span class="loader-3158-meter-fill"></span>
+                <span class="loader-3158-meter-shine"></span>
+            </div>
+
+            <div class="loader-3158-meter-labels">
+                <span>LOADING</span>
+                <strong>68%</strong>
+            </div>
+        </div>
+    </div>
+</div>`,
+
+    css: `.loader-3158 {
+    --loader3158-water-dark: #075985;
+    --loader3158-water-mid: #0284c7;
+    --loader3158-water-main: #0ea5e9;
+    --loader3158-water-light: #38bdf8;
+    --loader3158-water-pale: #bae6fd;
+    --loader3158-white: #f0f9ff;
+
+    position: relative;
+    width: 290px;
+    min-height: 390px;
+    padding: 26px 26px 22px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(186, 230, 253, .14);
+    border-radius: 32px;
+    color: #e0f2fe;
+    background:
+        radial-gradient(
+            circle at 20% 10%,
+            rgba(56, 189, 248, .1),
+            transparent 32%
+        ),
+        radial-gradient(
+            circle at 85% 80%,
+            rgba(14, 165, 233, .09),
+            transparent 35%
+        ),
+        linear-gradient(
+            160deg,
+            #06131d,
+            #071722 48%,
+            #051019
+        );
+    box-shadow:
+        0 35px 90px rgba(0, 0, 0, .5),
+        0 0 55px rgba(14, 165, 233, .055),
+        inset 0 1px 0 rgba(255, 255, 255, .035);
+    font-family: Inter, Arial, sans-serif;
+    isolation: isolate;
+}
+
+.loader-3158,
+.loader-3158 * {
+    box-sizing: border-box;
+}
+
+.loader-3158::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -10;
+    opacity: .16;
+    pointer-events: none;
+    background-image:
+        radial-gradient(
+            circle,
+            rgba(186, 230, 253, .2) .7px,
+            transparent .9px
+        );
+    background-size: 17px 17px;
+    animation:
+        loader3158BackgroundDrift
+        18s
+        linear
+        infinite;
+}
+
+.loader-3158::after {
+    content: "";
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    bottom: -55px;
+    height: 95px;
+    z-index: -9;
+    border-radius: 50%;
+    pointer-events: none;
+    background:
+        rgba(14, 165, 233, .18);
+    filter:
+        blur(34px);
+    animation:
+        loader3158GroundGlow
+        5s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-ambient {
+    position: absolute;
+    inset: 0;
+    z-index: -8;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.loader-3158-ambient-glow {
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(35px);
+    opacity: .38;
+}
+
+.loader-3158-ambient-glow-1 {
+    width: 140px;
+    height: 140px;
+    left: -60px;
+    top: 25px;
+    background: rgba(14, 165, 233, .2);
+    animation:
+        loader3158AmbientOne
+        8s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.loader-3158-ambient-glow-2 {
+    width: 150px;
+    height: 150px;
+    right: -75px;
+    top: 115px;
+    background: rgba(56, 189, 248, .17);
+    animation:
+        loader3158AmbientTwo
+        10s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.loader-3158-ambient-glow-3 {
+    width: 130px;
+    height: 100px;
+    left: 70px;
+    bottom: -60px;
+    background: rgba(2, 132, 199, .15);
+    animation:
+        loader3158AmbientThree
+        9s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.loader-3158-chamber-shadow {
+    position: absolute;
+    left: 50%;
+    top: 244px;
+    width: 172px;
+    height: 28px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .5);
+    filter: blur(15px);
+    animation:
+        loader3158ChamberShadow
+        4s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-chamber {
+    position: relative;
+    width: 166px;
+    height: 225px;
+    overflow: visible;
+    border: 1px solid rgba(186, 230, 253, .22);
+    border-radius:
+        38px
+        38px
+        42px
+        42px;
+    background:
+        linear-gradient(
+            100deg,
+            rgba(255, 255, 255, .06),
+            rgba(255, 255, 255, .018) 30%,
+            rgba(255, 255, 255, .025) 70%,
+            rgba(255, 255, 255, .07)
+        );
+    box-shadow:
+        inset 10px 0 18px rgba(255, 255, 255, .025),
+        inset -10px 0 18px rgba(255, 255, 255, .025),
+        inset 0 1px 0 rgba(255, 255, 255, .13),
+        0 16px 40px rgba(0, 0, 0, .32),
+        0 0 30px rgba(56, 189, 248, .05);
+    backdrop-filter: blur(4px);
+    transform-style: preserve-3d;
+}
+
+.loader-3158-glass-back {
+    position: absolute;
+    inset: 5px;
+    z-index: 0;
+    overflow: hidden;
+    border-radius:
+        32px
+        32px
+        37px
+        37px;
+    background:
+        linear-gradient(
+            100deg,
+            rgba(255, 255, 255, .035),
+            transparent 40%,
+            rgba(255, 255, 255, .025)
+        );
+}
+
+.loader-3158-glass-back::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: .55;
+    background:
+        linear-gradient(
+            115deg,
+            transparent 0%,
+            rgba(255, 255, 255, .02) 30%,
+            rgba(255, 255, 255, .055) 46%,
+            transparent 55%
+        );
+    animation:
+        loader3158GlassBack
+        8s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-glass-reflection {
+    position: absolute;
+    z-index: 12;
+    pointer-events: none;
+    border-radius: 999px;
+}
+
+.loader-3158-glass-reflection-left {
+    left: 13px;
+    top: 28px;
+    width: 7px;
+    height: 128px;
+    background:
+        linear-gradient(
+            to bottom,
+            transparent,
+            rgba(255, 255, 255, .27),
+            rgba(255, 255, 255, .1),
+            transparent
+        );
+    filter: blur(.5px);
+    opacity: .75;
+}
+
+.loader-3158-glass-reflection-right {
+    right: 15px;
+    top: 42px;
+    width: 4px;
+    height: 96px;
+    background:
+        linear-gradient(
+            to bottom,
+            transparent,
+            rgba(255, 255, 255, .14),
+            transparent
+        );
+    filter: blur(.4px);
+}
+
+.loader-3158-glass-edge {
+    position: absolute;
+    top: 27px;
+    bottom: 25px;
+    z-index: 11;
+    width: 1px;
+    pointer-events: none;
+}
+
+.loader-3158-glass-edge-left {
+    left: 7px;
+    background:
+        linear-gradient(
+            to bottom,
+            transparent,
+            rgba(186, 230, 253, .12),
+            rgba(255, 255, 255, .18),
+            transparent
+        );
+}
+
+.loader-3158-glass-edge-right {
+    right: 7px;
+    background:
+        linear-gradient(
+            to bottom,
+            transparent,
+            rgba(186, 230, 253, .1),
+            rgba(255, 255, 255, .13),
+            transparent
+        );
+}
+
+.loader-3158-top-rim {
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    top: -3px;
+    height: 17px;
+    z-index: 20;
+    border: 1px solid rgba(186, 230, 253, .19);
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 255, 255, .085),
+            rgba(255, 255, 255, .015)
+        );
+    box-shadow:
+        inset 0 2px 2px rgba(255, 255, 255, .08),
+        0 3px 8px rgba(0, 0, 0, .15);
+}
+
+.loader-3158-top-rim-highlight {
+    position: absolute;
+    left: 18%;
+    top: 3px;
+    width: 46%;
+    height: 2px;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, .5),
+            transparent
+        );
+    filter: blur(.3px);
+}
+
+.loader-3158-top-rim-shadow {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    bottom: 2px;
+    height: 2px;
+    border-radius: 999px;
+    background:
+        rgba(0, 67, 101, .22);
+    filter: blur(1px);
+}
+
+.loader-3158-water {
+    position: absolute;
+    left: 6px;
+    right: 6px;
+    bottom: 7px;
+    height: 68%;
+    z-index: 2;
+    overflow: hidden;
+    border-radius:
+        4px
+        4px
+        34px
+        34px;
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(56, 189, 248, .48),
+            rgba(14, 165, 233, .7) 32%,
+            rgba(2, 132, 199, .82) 66%,
+            rgba(7, 89, 133, .92)
+        );
+    box-shadow:
+        inset 0 5px 12px rgba(255, 255, 255, .08),
+        inset 12px 0 20px rgba(125, 211, 252, .06),
+        inset -12px 0 20px rgba(3, 105, 161, .16);
+    animation:
+        loader3158WaterLevel
+        4.8s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-water::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    pointer-events: none;
+    background:
+        linear-gradient(
+            100deg,
+            rgba(255, 255, 255, .06),
+            transparent 23%,
+            transparent 70%,
+            rgba(255, 255, 255, .035)
+        );
+}
+
+.loader-3158-water::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 8;
+    pointer-events: none;
+    opacity: .25;
+    background-image:
+        radial-gradient(
+            circle at 10px 12px,
+            rgba(255, 255, 255, .16) .7px,
+            transparent 1px
+        );
+    background-size: 31px 27px;
+    animation:
+        loader3158WaterTexture
+        12s
+        linear
+        infinite;
+}
+
+.loader-3158-water-deep {
+    position: absolute;
+    inset: 55% 0 0;
+    z-index: 0;
+    background:
+        linear-gradient(
+            to bottom,
+            transparent,
+            rgba(3, 105, 161, .28),
+            rgba(7, 89, 133, .5)
+        );
+}
+
+.loader-3158-water-mid {
+    position: absolute;
+    left: -20%;
+    top: 17%;
+    width: 140%;
+    height: 44%;
+    z-index: 0;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            ellipse,
+            rgba(125, 211, 252, .11),
+            transparent 65%
+        );
+    transform: rotate(-7deg);
+    animation:
+        loader3158WaterMid
+        7s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.loader-3158-water-light {
+    position: absolute;
+    left: 8%;
+    top: 5%;
+    width: 24%;
+    height: 75%;
+    z-index: 1;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, .15),
+            rgba(186, 230, 253, .08),
+            transparent
+        );
+    filter: blur(4px);
+    opacity: .7;
+    transform: rotate(5deg);
+    animation:
+        loader3158WaterLight
+        6s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-caustics {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    overflow: hidden;
+    pointer-events: none;
+    opacity: .75;
+    mix-blend-mode: screen;
+}
+
+.loader-3158-caustic {
+    position: absolute;
+    border: 1px solid rgba(224, 242, 254, .14);
+    border-radius: 50%;
+    filter: blur(.4px);
+    animation:
+        loader3158Caustic
+        7s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.loader-3158-caustic-1 {
+    width: 41px;
+    height: 15px;
+    left: 5%;
+    top: 17%;
+    transform: rotate(16deg);
+    animation-delay: -.8s;
+}
+
+.loader-3158-caustic-2 {
+    width: 52px;
+    height: 17px;
+    left: 31%;
+    top: 10%;
+    transform: rotate(-14deg);
+    animation-delay: -2.6s;
+}
+
+.loader-3158-caustic-3 {
+    width: 36px;
+    height: 13px;
+    right: 3%;
+    top: 29%;
+    transform: rotate(27deg);
+    animation-delay: -4.1s;
+}
+
+.loader-3158-caustic-4 {
+    width: 47px;
+    height: 18px;
+    left: -5%;
+    top: 43%;
+    transform: rotate(-20deg);
+    animation-delay: -1.7s;
+}
+
+.loader-3158-caustic-5 {
+    width: 56px;
+    height: 19px;
+    left: 35%;
+    top: 48%;
+    transform: rotate(9deg);
+    animation-delay: -3.4s;
+}
+
+.loader-3158-caustic-6 {
+    width: 34px;
+    height: 11px;
+    right: 2%;
+    top: 57%;
+    transform: rotate(-31deg);
+    animation-delay: -.4s;
+}
+
+.loader-3158-caustic-7 {
+    width: 44px;
+    height: 15px;
+    left: 12%;
+    top: 69%;
+    transform: rotate(22deg);
+    animation-delay: -5.3s;
+}
+
+.loader-3158-caustic-8 {
+    width: 58px;
+    height: 18px;
+    left: 48%;
+    top: 75%;
+    transform: rotate(-13deg);
+    animation-delay: -2.1s;
+}
+
+.loader-3158-caustic-9 {
+    width: 27px;
+    height: 9px;
+    left: 27%;
+    top: 30%;
+    transform: rotate(34deg);
+    animation-delay: -3.8s;
+}
+
+.loader-3158-caustic-10 {
+    width: 32px;
+    height: 10px;
+    right: 16%;
+    top: 17%;
+    transform: rotate(-28deg);
+    animation-delay: -1.1s;
+}
+
+.loader-3158-caustic-11 {
+    width: 39px;
+    height: 13px;
+    left: 13%;
+    top: 87%;
+    transform: rotate(11deg);
+    animation-delay: -4.6s;
+}
+
+.loader-3158-caustic-12 {
+    width: 48px;
+    height: 14px;
+    right: 7%;
+    top: 88%;
+    transform: rotate(-16deg);
+    animation-delay: -2.9s;
+}
+
+.loader-3158-light-rays {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+    opacity: .42;
+}
+
+.loader-3158-light-ray {
+    position: absolute;
+    top: -18%;
+    width: 18px;
+    height: 120%;
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(224, 242, 254, .2),
+            rgba(186, 230, 253, .05),
+            transparent
+        );
+    filter: blur(8px);
+    transform: rotate(8deg);
+    animation:
+        loader3158LightRay
+        8s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.loader-3158-light-ray-1 {
+    left: 8%;
+    animation-delay: -2s;
+}
+
+.loader-3158-light-ray-2 {
+    left: 29%;
+    width: 11px;
+    opacity: .6;
+    animation-delay: -5s;
+}
+
+.loader-3158-light-ray-3 {
+    right: 30%;
+    width: 16px;
+    transform: rotate(-5deg);
+    animation-delay: -3.2s;
+}
+
+.loader-3158-light-ray-4 {
+    right: 7%;
+    width: 10px;
+    opacity: .5;
+    transform: rotate(-9deg);
+    animation-delay: -.7s;
+}
+
+.loader-3158-bubbles {
+    position: absolute;
+    inset: 0;
+    z-index: 6;
+    pointer-events: none;
+}
+
+.loader-3158-bubble {
+    position: absolute;
+    bottom: -18px;
+    border: 1px solid rgba(224, 242, 254, .42);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 30% 25%,
+            rgba(255, 255, 255, .45),
+            rgba(255, 255, 255, .08) 22%,
+            rgba(125, 211, 252, .04) 45%,
+            transparent 72%
+        );
+    box-shadow:
+        inset -2px -2px 4px rgba(2, 132, 199, .12),
+        0 0 5px rgba(186, 230, 253, .09);
+    animation:
+        loader3158BubbleRise
+        7s
+        ease-in
+        infinite;
+}
+
+.loader-3158-bubble::before {
+    content: "";
+    position: absolute;
+    left: 22%;
+    top: 18%;
+    width: 26%;
+    height: 18%;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .55);
+    filter: blur(.3px);
+}
+
+.loader-3158-bubble-1 {
+    left: 5%;
+    width: 8px;
+    height: 8px;
+    animation-delay: -.3s;
+    animation-duration: 6.8s;
+}
+
+.loader-3158-bubble-2 {
+    left: 11%;
+    width: 4px;
+    height: 4px;
+    animation-delay: -4.1s;
+    animation-duration: 8.4s;
+}
+
+.loader-3158-bubble-3 {
+    left: 17%;
+    width: 11px;
+    height: 11px;
+    animation-delay: -2.7s;
+    animation-duration: 7.6s;
+}
+
+.loader-3158-bubble-4 {
+    left: 23%;
+    width: 5px;
+    height: 5px;
+    animation-delay: -6.2s;
+    animation-duration: 9.3s;
+}
+
+.loader-3158-bubble-5 {
+    left: 29%;
+    width: 7px;
+    height: 7px;
+    animation-delay: -1.2s;
+    animation-duration: 6.5s;
+}
+
+.loader-3158-bubble-6 {
+    left: 35%;
+    width: 3px;
+    height: 3px;
+    animation-delay: -5.5s;
+    animation-duration: 7.9s;
+}
+
+.loader-3158-bubble-7 {
+    left: 41%;
+    width: 10px;
+    height: 10px;
+    animation-delay: -3.8s;
+    animation-duration: 8.8s;
+}
+
+.loader-3158-bubble-8 {
+    left: 47%;
+    width: 6px;
+    height: 6px;
+    animation-delay: -.8s;
+    animation-duration: 6.9s;
+}
+
+.loader-3158-bubble-9 {
+    left: 53%;
+    width: 4px;
+    height: 4px;
+    animation-delay: -7.1s;
+    animation-duration: 9.6s;
+}
+
+.loader-3158-bubble-10 {
+    left: 59%;
+    width: 9px;
+    height: 9px;
+    animation-delay: -2.2s;
+    animation-duration: 7.4s;
+}
+
+.loader-3158-bubble-11 {
+    left: 65%;
+    width: 5px;
+    height: 5px;
+    animation-delay: -4.7s;
+    animation-duration: 8.2s;
+}
+
+.loader-3158-bubble-12 {
+    left: 71%;
+    width: 12px;
+    height: 12px;
+    animation-delay: -1.7s;
+    animation-duration: 9s;
+}
+
+.loader-3158-bubble-13 {
+    left: 77%;
+    width: 4px;
+    height: 4px;
+    animation-delay: -5.9s;
+    animation-duration: 7.2s;
+}
+
+.loader-3158-bubble-14 {
+    left: 83%;
+    width: 8px;
+    height: 8px;
+    animation-delay: -3.1s;
+    animation-duration: 8.7s;
+}
+
+.loader-3158-bubble-15 {
+    left: 90%;
+    width: 5px;
+    height: 5px;
+    animation-delay: -6.6s;
+    animation-duration: 9.5s;
+}
+
+.loader-3158-bubble-16 {
+    left: 95%;
+    width: 3px;
+    height: 3px;
+    animation-delay: -.6s;
+    animation-duration: 6.7s;
+}
+
+.loader-3158-bubble-17 {
+    left: 14%;
+    width: 6px;
+    height: 6px;
+    animation-delay: -7.4s;
+    animation-duration: 10.1s;
+}
+
+.loader-3158-bubble-18 {
+    left: 32%;
+    width: 4px;
+    height: 4px;
+    animation-delay: -3.6s;
+    animation-duration: 9.2s;
+}
+
+.loader-3158-bubble-19 {
+    left: 44%;
+    width: 7px;
+    height: 7px;
+    animation-delay: -8.1s;
+    animation-duration: 10.4s;
+}
+
+.loader-3158-bubble-20 {
+    left: 56%;
+    width: 3px;
+    height: 3px;
+    animation-delay: -4.4s;
+    animation-duration: 8.5s;
+}
+
+.loader-3158-bubble-21 {
+    left: 68%;
+    width: 5px;
+    height: 5px;
+    animation-delay: -7.7s;
+    animation-duration: 9.8s;
+}
+
+.loader-3158-bubble-22 {
+    left: 79%;
+    width: 7px;
+    height: 7px;
+    animation-delay: -2.9s;
+    animation-duration: 8.1s;
+}
+
+.loader-3158-bubble-23 {
+    left: 87%;
+    width: 4px;
+    height: 4px;
+    animation-delay: -5.2s;
+    animation-duration: 9.1s;
+}
+
+.loader-3158-bubble-24 {
+    left: 38%;
+    width: 5px;
+    height: 5px;
+    animation-delay: -6.8s;
+    animation-duration: 10.2s;
+}
+
+.loader-3158-particles {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.loader-3158-particle {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    background: rgba(224, 242, 254, .85);
+    box-shadow: 0 0 4px rgba(186, 230, 253, .55);
+    animation:
+        loader3158ParticleDrift
+        7s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-particle-1 {
+    left: 7%;
+    top: 16%;
+}
+
+.loader-3158-particle-2 {
+    left: 18%;
+    top: 48%;
+    animation-delay: -2s;
+}
+
+.loader-3158-particle-3 {
+    left: 29%;
+    top: 72%;
+    animation-delay: -4s;
+}
+
+.loader-3158-particle-4 {
+    left: 39%;
+    top: 29%;
+    animation-delay: -1s;
+}
+
+.loader-3158-particle-5 {
+    left: 48%;
+    top: 61%;
+    animation-delay: -5s;
+}
+
+.loader-3158-particle-6 {
+    left: 58%;
+    top: 19%;
+    animation-delay: -3s;
+}
+
+.loader-3158-particle-7 {
+    left: 67%;
+    top: 78%;
+    animation-delay: -6s;
+}
+
+.loader-3158-particle-8 {
+    left: 77%;
+    top: 39%;
+    animation-delay: -2.7s;
+}
+
+.loader-3158-particle-9 {
+    left: 88%;
+    top: 67%;
+    animation-delay: -4.7s;
+}
+
+.loader-3158-particle-10 {
+    left: 93%;
+    top: 23%;
+    animation-delay: -.6s;
+}
+
+.loader-3158-particle-11 {
+    left: 53%;
+    top: 88%;
+    animation-delay: -5.7s;
+}
+
+.loader-3158-particle-12 {
+    left: 12%;
+    top: 87%;
+    animation-delay: -3.7s;
+}
+
+.loader-3158-wave-container {
+    position: absolute;
+    left: -18%;
+    right: -18%;
+    top: -16px;
+    height: 40px;
+    z-index: 15;
+    pointer-events: none;
+}
+
+.loader-3158-wave {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 160%;
+    height: 35px;
+    border-radius: 45%;
+    transform-origin: center;
+}
+
+.loader-3158-wave-back {
+    top: 9px;
+    background:
+        rgba(7, 89, 133, .3);
+    opacity: .58;
+    animation:
+        loader3158WaveBack
+        6s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-wave-mid {
+    top: 5px;
+    background:
+        rgba(14, 165, 233, .38);
+    opacity: .7;
+    animation:
+        loader3158WaveMid
+        4.8s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-wave-front {
+    top: 1px;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(125, 211, 252, .44),
+            rgba(56, 189, 248, .17)
+        );
+    box-shadow:
+        inset 0 3px 4px rgba(255, 255, 255, .08);
+    animation:
+        loader3158WaveFront
+        3.9s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-surface {
+    position: absolute;
+    left: -4px;
+    right: -4px;
+    top: -9px;
+    height: 28px;
+    z-index: 18;
+    overflow: visible;
+    pointer-events: none;
+}
+
+.loader-3158-surface-body {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 8px;
+    height: 10px;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(224, 242, 254, .36),
+            rgba(56, 189, 248, .16)
+        );
+    box-shadow:
+        inset 0 2px 3px rgba(255, 255, 255, .17),
+        0 2px 5px rgba(2, 132, 199, .18);
+    animation:
+        loader3158SurfaceBody
+        3.7s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-surface-highlight {
+    position: absolute;
+    left: 18%;
+    top: 10px;
+    width: 55%;
+    height: 3px;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, .6),
+            rgba(224, 242, 254, .3),
+            transparent
+        );
+    filter: blur(.4px);
+    animation:
+        loader3158SurfaceHighlight
+        4s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-surface-foam {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(224, 242, 254, .38);
+    filter: blur(.2px);
+    animation:
+        loader3158Foam
+        4s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-surface-foam-1 {
+    left: 9%;
+    top: 10px;
+    width: 8px;
+    height: 3px;
+}
+
+.loader-3158-surface-foam-2 {
+    left: 22%;
+    top: 7px;
+    width: 11px;
+    height: 4px;
+    animation-delay: -.7s;
+}
+
+.loader-3158-surface-foam-3 {
+    left: 42%;
+    top: 11px;
+    width: 6px;
+    height: 2px;
+    animation-delay: -1.4s;
+}
+
+.loader-3158-surface-foam-4 {
+    right: 32%;
+    top: 8px;
+    width: 9px;
+    height: 3px;
+    animation-delay: -2.1s;
+}
+
+.loader-3158-surface-foam-5 {
+    right: 17%;
+    top: 11px;
+    width: 7px;
+    height: 2px;
+    animation-delay: -2.8s;
+}
+
+.loader-3158-surface-foam-6 {
+    right: 5%;
+    top: 7px;
+    width: 10px;
+    height: 3px;
+    animation-delay: -3.4s;
+}
+
+.loader-3158-surface-glint {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow:
+        0 0 5px rgba(255, 255, 255, .9);
+    animation:
+        loader3158SurfaceGlint
+        3s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-surface-glint-1 {
+    left: 29%;
+    top: 5px;
+}
+
+.loader-3158-surface-glint-2 {
+    left: 61%;
+    top: 9px;
+    animation-delay: -1s;
+}
+
+.loader-3158-surface-glint-3 {
+    right: 9%;
+    top: 6px;
+    animation-delay: -2s;
+}
+
+.loader-3158-ripple {
+    position: absolute;
+    left: 50%;
+    top: 3px;
+    z-index: 19;
+    width: 20px;
+    height: 6px;
+    transform: translateX(-50%);
+    border: 1px solid rgba(224, 242, 254, .38);
+    border-radius: 50%;
+    opacity: 0;
+    animation:
+        loader3158Ripple
+        4s
+        ease-out
+        infinite;
+}
+
+.loader-3158-ripple-2 {
+    animation-delay: -1.33s;
+}
+
+.loader-3158-ripple-3 {
+    animation-delay: -2.66s;
+}
+
+.loader-3158-drop-system {
+    position: absolute;
+    left: 50%;
+    top: -72px;
+    z-index: 30;
+    width: 38px;
+    height: 110px;
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+
+.loader-3158-drop-trail {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 1px;
+    height: 55px;
+    transform: translateX(-50%);
+    background:
+        linear-gradient(
+            to bottom,
+            transparent,
+            rgba(125, 211, 252, .08),
+            rgba(186, 230, 253, .18),
+            transparent
+        );
+    opacity: .6;
+}
+
+.loader-3158-drop {
+    position: absolute;
+    left: 50%;
+    top: 3px;
+    width: 14px;
+    height: 18px;
+    transform:
+        translateX(-50%)
+        rotate(45deg);
+    overflow: hidden;
+    border: 1px solid rgba(186, 230, 253, .38);
+    border-radius:
+        70%
+        30%
+        65%
+        35%;
+    background:
+        radial-gradient(
+            circle at 28% 26%,
+            rgba(255, 255, 255, .7),
+            rgba(186, 230, 253, .36) 23%,
+            rgba(56, 189, 248, .52) 52%,
+            rgba(2, 132, 199, .7)
+        );
+    box-shadow:
+        inset -3px -3px 4px rgba(3, 105, 161, .18),
+        0 3px 8px rgba(14, 165, 233, .2);
+    animation:
+        loader3158DropFall
+        4s
+        cubic-bezier(.5, 0, .7, 1)
+        infinite;
+}
+
+.loader-3158-drop-highlight {
+    position: absolute;
+    left: 2px;
+    top: 3px;
+    width: 5px;
+    height: 7px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .5);
+    filter: blur(.5px);
+}
+
+.loader-3158-drop-shadow {
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    width: 6px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(3, 105, 161, .2);
+    filter: blur(1px);
+}
+
+.loader-3158-mini-drop {
+    position: absolute;
+    width: 4px;
+    height: 5px;
+    border-radius:
+        60%
+        40%
+        60%
+        40%;
+    background: #7dd3fc;
+    opacity: 0;
+}
+
+.loader-3158-mini-drop-1 {
+    left: 3px;
+    bottom: 3px;
+    animation:
+        loader3158MiniDropOne
+        4s
+        ease-out
+        infinite;
+}
+
+.loader-3158-mini-drop-2 {
+    right: 4px;
+    bottom: 6px;
+    animation:
+        loader3158MiniDropTwo
+        4s
+        ease-out
+        infinite;
+}
+
+.loader-3158-mini-drop-3 {
+    left: 18px;
+    bottom: 0;
+    width: 3px;
+    height: 4px;
+    animation:
+        loader3158MiniDropThree
+        4s
+        ease-out
+        infinite;
+}
+
+.loader-3158-splash {
+    position: absolute;
+    left: 50%;
+    top: 67px;
+    z-index: 31;
+    width: 80px;
+    height: 28px;
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+
+.loader-3158-splash-drop {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 4px;
+    height: 6px;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            180deg,
+            #bae6fd,
+            #38bdf8
+        );
+    opacity: 0;
+}
+
+.loader-3158-splash-drop-1 {
+    animation:
+        loader3158SplashOne
+        4s
+        ease-out
+        infinite;
+}
+
+.loader-3158-splash-drop-2 {
+    animation:
+        loader3158SplashTwo
+        4s
+        ease-out
+        infinite;
+}
+
+.loader-3158-splash-drop-3 {
+    animation:
+        loader3158SplashThree
+        4s
+        ease-out
+        infinite;
+}
+
+.loader-3158-splash-drop-4 {
+    animation:
+        loader3158SplashFour
+        4s
+        ease-out
+        infinite;
+}
+
+.loader-3158-splash-drop-5 {
+    animation:
+        loader3158SplashFive
+        4s
+        ease-out
+        infinite;
+}
+
+.loader-3158-splash-drop-6 {
+    animation:
+        loader3158SplashSix
+        4s
+        ease-out
+        infinite;
+}
+
+.loader-3158-front-glass {
+    position: absolute;
+    inset: 5px;
+    z-index: 40;
+    overflow: hidden;
+    pointer-events: none;
+    border-radius:
+        32px
+        32px
+        37px
+        37px;
+}
+
+.loader-3158-front-glass-shine {
+    position: absolute;
+    left: -40px;
+    top: -20px;
+    width: 54px;
+    height: 280px;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, .055),
+            rgba(255, 255, 255, .11),
+            rgba(255, 255, 255, .03),
+            transparent
+        );
+    transform: rotate(13deg);
+    animation:
+        loader3158FrontShine
+        8s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-front-glass-shine-soft {
+    position: absolute;
+    right: 13px;
+    top: 25px;
+    width: 7px;
+    height: 120px;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            to bottom,
+            transparent,
+            rgba(255, 255, 255, .07),
+            transparent
+        );
+    filter: blur(2px);
+}
+
+.loader-3158-bottom-rim {
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    bottom: -3px;
+    z-index: 45;
+    height: 15px;
+    border: 1px solid rgba(186, 230, 253, .12);
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 255, 255, .03),
+            rgba(0, 0, 0, .08)
+        );
+}
+
+.loader-3158-bottom-rim span {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 2px;
+    height: 1px;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(186, 230, 253, .18),
+            transparent
+        );
+}
+
+.loader-3158-status {
+    width: 185px;
+    margin-top: 27px;
+}
+
+.loader-3158-status-heading {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.loader-3158-status-icon {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(56, 189, 248, .2);
+    border-radius: 9px;
+    color: #7dd3fc;
+    background:
+        rgba(14, 165, 233, .07);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, .035);
+}
+
+.loader-3158-status-icon i {
+    font-size: 14px;
+    animation:
+        loader3158StatusDrop
+        2.6s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-status-heading > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.loader-3158-status-heading strong {
+    color: #c8edff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.loader-3158-status-heading small {
+    color: #52778a;
+    font-size: 4px;
+    font-weight: 800;
+    letter-spacing: .1em;
+}
+
+.loader-3158-meter {
+    margin-top: 14px;
+}
+
+.loader-3158-meter-track {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #0a2837;
+    box-shadow:
+        inset 0 1px 2px rgba(0, 0, 0, .3);
+}
+
+.loader-3158-meter-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 68%;
+    height: 100%;
+    border-radius: inherit;
+    background:
+        linear-gradient(
+            90deg,
+            #0284c7,
+            #0ea5e9,
+            #38bdf8,
+            #7dd3fc
+        );
+    background-size: 220% 100%;
+    box-shadow:
+        0 0 8px rgba(56, 189, 248, .45);
+    animation:
+        loader3158MeterFlow
+        3.5s
+        linear
+        infinite;
+}
+
+.loader-3158-meter-fill::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #e0f2fe;
+    box-shadow:
+        0 0 7px rgba(125, 211, 252, .9);
+}
+
+.loader-3158-meter-shine {
+    position: absolute;
+    left: -30%;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, .7),
+            transparent
+        );
+    animation:
+        loader3158MeterShine
+        2.8s
+        ease-in-out
+        infinite;
+}
+
+.loader-3158-meter-labels {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loader-3158-meter-labels span {
+    color: #4e7182;
+    font-size: 4px;
+    font-weight: 900;
+    letter-spacing: .14em;
+}
+
+.loader-3158-meter-labels strong {
+    color: #88d9fb;
+    font-size: 6px;
+    font-weight: 900;
+}
+
+@keyframes loader3158BackgroundDrift {
+    from {
+        background-position:
+            0 0;
+    }
+
+    to {
+        background-position:
+            34px 34px;
+    }
+}
+
+@keyframes loader3158GroundGlow {
+    0%,
+    100% {
+        opacity: .45;
+        transform: scaleX(.8);
+    }
+
+    50% {
+        opacity: .82;
+        transform: scaleX(1.1);
+    }
+}
+
+@keyframes loader3158AmbientOne {
+    from {
+        transform:
+            translate(-20px, -10px)
+            scale(.85);
+    }
+
+    to {
+        transform:
+            translate(42px, 30px)
+            scale(1.2);
+    }
+}
+
+@keyframes loader3158AmbientTwo {
+    from {
+        transform:
+            translate(30px, -5px)
+            scale(.9);
+    }
+
+    to {
+        transform:
+            translate(-40px, 25px)
+            scale(1.18);
+    }
+}
+
+@keyframes loader3158AmbientThree {
+    from {
+        transform:
+            translateX(-25px)
+            scale(.9);
+    }
+
+    to {
+        transform:
+            translateX(35px)
+            scale(1.15);
+    }
+}
+
+@keyframes loader3158ChamberShadow {
+    0%,
+    100% {
+        width: 165px;
+        opacity: .55;
+    }
+
+    50% {
+        width: 178px;
+        opacity: .68;
+    }
+}
+
+@keyframes loader3158GlassBack {
+    0%,
+    100% {
+        transform:
+            translateX(-20px);
+    }
+
+    50% {
+        transform:
+            translateX(30px);
+    }
+}
+
+@keyframes loader3158WaterLevel {
+    0%,
+    100% {
+        height: 67%;
+    }
+
+    50% {
+        height: 69%;
+    }
+}
+
+@keyframes loader3158WaterTexture {
+    from {
+        background-position:
+            0 0;
+    }
+
+    to {
+        background-position:
+            31px 27px;
+    }
+}
+
+@keyframes loader3158WaterMid {
+    from {
+        transform:
+            translateX(-15px)
+            rotate(-7deg)
+            scale(.9);
+    }
+
+    to {
+        transform:
+            translateX(20px)
+            rotate(5deg)
+            scale(1.15);
+    }
+}
+
+@keyframes loader3158WaterLight {
+    0%,
+    100% {
+        opacity: .38;
+        transform:
+            translateX(-4px)
+            rotate(5deg);
+    }
+
+    50% {
+        opacity: .8;
+        transform:
+            translateX(10px)
+            rotate(2deg);
+    }
+}
+
+@keyframes loader3158Caustic {
+    0% {
+        opacity: .15;
+        transform:
+            translate(-7px, -3px)
+            rotate(-8deg)
+            scale(.8);
+    }
+
+    45% {
+        opacity: .75;
+    }
+
+    100% {
+        opacity: .22;
+        transform:
+            translate(13px, 7px)
+            rotate(12deg)
+            scale(1.18);
+    }
+}
+
+@keyframes loader3158LightRay {
+    from {
+        opacity: .2;
+        transform:
+            translateX(-8px)
+            rotate(8deg)
+            scaleX(.8);
+    }
+
+    to {
+        opacity: .65;
+        transform:
+            translateX(15px)
+            rotate(3deg)
+            scaleX(1.2);
+    }
+}
+
+@keyframes loader3158BubbleRise {
+    0% {
+        opacity: 0;
+        transform:
+            translate(0, 15px)
+            scale(.65);
+    }
+
+    12% {
+        opacity: .65;
+    }
+
+    45% {
+        transform:
+            translate(5px, -55px)
+            scale(.9);
+    }
+
+    75% {
+        opacity: .9;
+        transform:
+            translate(-3px, -105px)
+            scale(1.05);
+    }
+
+    100% {
+        opacity: 0;
+        transform:
+            translate(5px, -165px)
+            scale(1.2);
+    }
+}
+
+@keyframes loader3158ParticleDrift {
+    0%,
+    100% {
+        opacity: .12;
+        transform:
+            translate(0, 0);
+    }
+
+    35% {
+        opacity: .75;
+        transform:
+            translate(4px, -7px);
+    }
+
+    70% {
+        opacity: .3;
+        transform:
+            translate(-3px, -13px);
+    }
+}
+
+@keyframes loader3158WaveBack {
+    0%,
+    100% {
+        transform:
+            translateX(-7%)
+            rotate(1deg)
+            scaleY(.8);
+    }
+
+    50% {
+        transform:
+            translateX(6%)
+            rotate(-1deg)
+            scaleY(1.15);
+    }
+}
+
+@keyframes loader3158WaveMid {
+    0%,
+    100% {
+        transform:
+            translateX(5%)
+            rotate(-1deg)
+            scaleY(.9);
+    }
+
+    50% {
+        transform:
+            translateX(-7%)
+            rotate(1deg)
+            scaleY(1.2);
+    }
+}
+
+@keyframes loader3158WaveFront {
+    0%,
+    100% {
+        transform:
+            translateX(-5%)
+            scaleY(.9)
+            rotate(.8deg);
+    }
+
+    50% {
+        transform:
+            translateX(5%)
+            scaleY(1.16)
+            rotate(-.8deg);
+    }
+}
+
+@keyframes loader3158SurfaceBody {
+    0%,
+    100% {
+        transform:
+            rotate(.8deg)
+            scaleX(.97);
+    }
+
+    50% {
+        transform:
+            rotate(-.8deg)
+            scaleX(1.04);
+    }
+}
+
+@keyframes loader3158SurfaceHighlight {
+    0%,
+    100% {
+        opacity: .25;
+        transform:
+            translateX(-10px)
+            scaleX(.8);
+    }
+
+    50% {
+        opacity: .85;
+        transform:
+            translateX(18px)
+            scaleX(1.15);
+    }
+}
+
+@keyframes loader3158Foam {
+    0%,
+    100% {
+        opacity: .2;
+        transform:
+            translateX(-4px)
+            scale(.8);
+    }
+
+    50% {
+        opacity: .7;
+        transform:
+            translateX(6px)
+            scale(1.2);
+    }
+}
+
+@keyframes loader3158SurfaceGlint {
+    0%,
+    100% {
+        opacity: .1;
+        transform: scale(.6);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.4);
+    }
+}
+
+@keyframes loader3158Ripple {
+    0%,
+    62% {
+        width: 9px;
+        height: 3px;
+        opacity: 0;
+    }
+
+    67% {
+        opacity: .6;
+    }
+
+    100% {
+        width: 105px;
+        height: 22px;
+        opacity: 0;
+    }
+}
+
+@keyframes loader3158DropFall {
+    0% {
+        top: 0;
+        opacity: 0;
+        transform:
+            translateX(-50%)
+            rotate(45deg)
+            scale(.75);
+    }
+
+    12% {
+        opacity: 1;
+    }
+
+    56% {
+        top: 57px;
+        opacity: 1;
+        transform:
+            translateX(-50%)
+            rotate(45deg)
+            scale(1);
+    }
+
+    63% {
+        top: 68px;
+        opacity: .2;
+        transform:
+            translateX(-50%)
+            rotate(45deg)
+            scale(.6, 1.35);
+    }
+
+    66%,
+    100% {
+        top: 70px;
+        opacity: 0;
+    }
+}
+
+@keyframes loader3158MiniDropOne {
+    0%,
+    63% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    66% {
+        opacity: .8;
+    }
+
+    78% {
+        opacity: 0;
+        transform:
+            translate(-10px, -15px)
+            scale(.6);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes loader3158MiniDropTwo {
+    0%,
+    63% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    66% {
+        opacity: .8;
+    }
+
+    80% {
+        opacity: 0;
+        transform:
+            translate(11px, -18px)
+            scale(.7);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes loader3158MiniDropThree {
+    0%,
+    64% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    67% {
+        opacity: .75;
+    }
+
+    81% {
+        opacity: 0;
+        transform:
+            translate(4px, -22px)
+            scale(.5);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes loader3158SplashOne {
+    0%,
+    63% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    66% {
+        opacity: .9;
+    }
+
+    78% {
+        opacity: 0;
+        transform:
+            translate(-27px, -18px)
+            rotate(-20deg);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes loader3158SplashTwo {
+    0%,
+    63% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    66% {
+        opacity: .85;
+    }
+
+    79% {
+        opacity: 0;
+        transform:
+            translate(-17px, -24px)
+            rotate(-12deg);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes loader3158SplashThree {
+    0%,
+    63% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    66% {
+        opacity: .9;
+    }
+
+    80% {
+        opacity: 0;
+        transform:
+            translate(-7px, -27px);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes loader3158SplashFour {
+    0%,
+    63% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    66% {
+        opacity: .9;
+    }
+
+    78% {
+        opacity: 0;
+        transform:
+            translate(9px, -27px);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes loader3158SplashFive {
+    0%,
+    63% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    66% {
+        opacity: .85;
+    }
+
+    79% {
+        opacity: 0;
+        transform:
+            translate(19px, -23px)
+            rotate(12deg);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes loader3158SplashSix {
+    0%,
+    63% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    66% {
+        opacity: .9;
+    }
+
+    78% {
+        opacity: 0;
+        transform:
+            translate(29px, -17px)
+            rotate(20deg);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes loader3158FrontShine {
+    0%,
+    28% {
+        left: -55px;
+        opacity: 0;
+    }
+
+    42% {
+        opacity: .8;
+    }
+
+    72%,
+    100% {
+        left: 185px;
+        opacity: 0;
+    }
+}
+
+@keyframes loader3158StatusDrop {
+    0%,
+    100% {
+        transform: translateY(0);
+        filter:
+            drop-shadow(
+                0 0 0
+                rgba(56, 189, 248, 0)
+            );
+    }
+
+    50% {
+        transform: translateY(-2px);
+        filter:
+            drop-shadow(
+                0 0 5px
+                rgba(56, 189, 248, .55)
+            );
+    }
+}
+
+@keyframes loader3158MeterFlow {
+    from {
+        background-position:
+            0% 50%;
+    }
+
+    to {
+        background-position:
+            220% 50%;
+    }
+}
+
+@keyframes loader3158MeterShine {
+    0%,
+    40% {
+        left: -30%;
+        opacity: 0;
+    }
+
+    52% {
+        opacity: 1;
+    }
+
+    75%,
+    100% {
+        left: 115%;
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .loader-3158 *,
+    .loader-3158 *::before,
+    .loader-3158 *::after,
+    .loader-3158::before,
+    .loader-3158::after {
+        animation-duration: .001ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}`,
+  },
+  {
+    id: 3159,
+    name: "Ember Ring Loader",
+    preview: (
+      <div className="loader-3159">
+        <span className="loader-3159-ring"></span>
+        <span className="loader-3159-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-3159">
+    <span class="loader-3159-ring"></span>
+    <span class="loader-3159-core"></span>
+</div>`,
+    css: `.loader-3159 {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3159-ring {
+    position: absolute;
+    inset: 0;
+    border: 3px solid #25130d;
+    border-top-color: #ff5a1f;
+    border-right-color: #ff9f1c;
+    border-radius: 50%;
+    box-shadow:
+        0 0 10px rgba(255, 90, 31, .35),
+        inset 0 0 8px rgba(255, 90, 31, .08);
+    animation: loader3159Spin .9s linear infinite;
+}
+
+.loader-3159-core {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ff7a18;
+    box-shadow:
+        0 0 8px #ff5a1f,
+        0 0 16px rgba(255, 90, 31, .5);
+    animation: loader3159Pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes loader3159Spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader3159Pulse {
+    0%,
+    100% {
+        transform: scale(.7);
+        opacity: .55;
+    }
+
+    50% {
+        transform: scale(1.15);
+        opacity: 1;
+    }
+}`,
+  },
+
+  {
+    id: 3160,
+    name: "Fire Dots Loader",
+    preview: (
+      <div className="loader-3160">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-3160">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-3160 {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.loader-3160 span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #ffd166, #ff7a18 55%, #e53912);
+    box-shadow:
+        0 0 8px rgba(255, 91, 31, .55),
+        0 0 16px rgba(255, 91, 31, .2);
+    animation: loader3160Bounce 1s ease-in-out infinite;
+}
+
+.loader-3160 span:nth-child(2) {
+    animation-delay: .14s;
+}
+
+.loader-3160 span:nth-child(3) {
+    animation-delay: .28s;
+}
+
+@keyframes loader3160Bounce {
+    0%,
+    100% {
+        transform: translateY(0) scale(.85);
+        filter: brightness(.8);
+    }
+
+    50% {
+        transform: translateY(-8px) scale(1.05);
+        filter: brightness(1.3);
+    }
+}`,
+  },
+
+  {
+    id: 3161,
+    name: "Flame Progress Bar",
+    preview: (
+      <div className="loader-3161">
+        <div className="loader-3161-track">
+          <span className="loader-3161-fill"></span>
+          <span className="loader-3161-shine"></span>
+        </div>
+      </div>
+    ),
+    html: `<div class="loader-3161">
+    <div class="loader-3161-track">
+        <span class="loader-3161-fill"></span>
+        <span class="loader-3161-shine"></span>
+    </div>
+</div>`,
+    css: `.loader-3161 {
+    width: 110px;
+}
+
+.loader-3161-track {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #26120d;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+.loader-3161-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 45%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(
+        90deg,
+        #e53612,
+        #ff5b1f,
+        #ff9f1c,
+        #ffd166
+    );
+    background-size: 220% 100%;
+    box-shadow:
+        0 0 8px rgba(255, 90, 31, .6);
+    animation: loader3161Load 2s ease-in-out infinite;
+}
+
+.loader-3161-shine {
+    position: absolute;
+    top: 0;
+    left: -20%;
+    width: 18%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, .8),
+        transparent
+    );
+    animation: loader3161Shine 1.6s ease-in-out infinite;
+}
+
+@keyframes loader3161Load {
+    0% {
+        width: 12%;
+        background-position: 0% 50%;
+    }
+
+    50% {
+        width: 78%;
+    }
+
+    100% {
+        width: 12%;
+        background-position: 220% 50%;
+    }
+}
+
+@keyframes loader3161Shine {
+    from {
+        left: -20%;
+    }
+
+    to {
+        left: 115%;
+    }
+}`,
+  },
+
+  {
+    id: 3162,
+    name: "Inferno Dual Ring",
+    preview: (
+      <div className="loader-3162">
+        <span className="loader-3162-outer"></span>
+        <span className="loader-3162-inner"></span>
+      </div>
+    ),
+    html: `<div class="loader-3162">
+    <span class="loader-3162-outer"></span>
+    <span class="loader-3162-inner"></span>
+</div>`,
+    css: `.loader-3162 {
+    position: relative;
+    width: 38px;
+    height: 38px;
+}
+
+.loader-3162-outer,
+.loader-3162-inner {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.loader-3162-outer {
+    inset: 0;
+    border: 3px solid transparent;
+    border-top-color: #ff3d00;
+    border-right-color: #ff8c1a;
+    border-bottom-color: #30130a;
+    border-left-color: #30130a;
+    filter: drop-shadow(0 0 5px rgba(255, 71, 20, .45));
+    animation: loader3162Outer .9s linear infinite;
+}
+
+.loader-3162-inner {
+    inset: 8px;
+    border: 3px solid transparent;
+    border-top-color: #ffd166;
+    border-left-color: #ff6b1a;
+    filter: drop-shadow(0 0 4px rgba(255, 166, 31, .5));
+    animation: loader3162Inner .65s linear infinite reverse;
+}
+
+@keyframes loader3162Outer {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader3162Inner {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+
+  {
+    id: 3163,
+    name: "Ember Pulse Loader",
+    preview: (
+      <div className="loader-3163">
+        <span className="loader-3163-wave loader-3163-wave-1"></span>
+        <span className="loader-3163-wave loader-3163-wave-2"></span>
+        <span className="loader-3163-dot"></span>
+      </div>
+    ),
+    html: `<div class="loader-3163">
+    <span class="loader-3163-wave loader-3163-wave-1"></span>
+    <span class="loader-3163-wave loader-3163-wave-2"></span>
+    <span class="loader-3163-dot"></span>
+</div>`,
+    css: `.loader-3163 {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3163-dot {
+    position: relative;
+    z-index: 3;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle at 35% 30%,
+        #ffe194,
+        #ff8418 45%,
+        #e53d13
+    );
+    box-shadow:
+        0 0 8px #ff6b1a,
+        0 0 17px rgba(255, 82, 20, .45);
+    animation: loader3163Dot .9s ease-in-out infinite;
+}
+
+.loader-3163-wave {
+    position: absolute;
+    border: 1px solid rgba(255, 91, 31, .65);
+    border-radius: 50%;
+    animation: loader3163Wave 1.7s ease-out infinite;
+}
+
+.loader-3163-wave-2 {
+    animation-delay: .85s;
+}
+
+@keyframes loader3163Dot {
+    0%,
+    100% {
+        transform: scale(.8);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+}
+
+@keyframes loader3163Wave {
+    0% {
+        width: 10px;
+        height: 10px;
+        opacity: .9;
+    }
+
+    100% {
+        width: 40px;
+        height: 40px;
+        opacity: 0;
+    }
+}`,
+  },
+
+  {
+    id: 3164,
+    name: "Fire Equalizer Loader",
+    preview: (
+      <div className="loader-3164">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-3164">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-3164 {
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.loader-3164 span {
+    width: 5px;
+    height: 10px;
+    border-radius: 3px 3px 1px 1px;
+    background: linear-gradient(
+        to top,
+        #d93412,
+        #ff641e,
+        #ffad21,
+        #ffe08a
+    );
+    box-shadow:
+        0 0 7px rgba(255, 90, 31, .35);
+    transform-origin: bottom;
+    animation: loader3164Flame 1s ease-in-out infinite;
+}
+
+.loader-3164 span:nth-child(2) {
+    animation-delay: -.2s;
+}
+
+.loader-3164 span:nth-child(3) {
+    animation-delay: -.4s;
+}
+
+.loader-3164 span:nth-child(4) {
+    animation-delay: -.6s;
+}
+
+.loader-3164 span:nth-child(5) {
+    animation-delay: -.8s;
+}
+
+@keyframes loader3164Flame {
+    0%,
+    100% {
+        height: 7px;
+        opacity: .55;
+    }
+
+    50% {
+        height: 28px;
+        opacity: 1;
+        filter: brightness(1.25);
+    }
+}`,
+  },
+
+  {
+    id: 3165,
+    name: "Magma Segmented Loader",
+    preview: (
+      <div className="loader-3165">
+        <span className="loader-3165-segment loader-3165-segment-1"></span>
+        <span className="loader-3165-segment loader-3165-segment-2"></span>
+        <span className="loader-3165-segment loader-3165-segment-3"></span>
+        <span className="loader-3165-segment loader-3165-segment-4"></span>
+        <span className="loader-3165-segment loader-3165-segment-5"></span>
+        <span className="loader-3165-segment loader-3165-segment-6"></span>
+        <span className="loader-3165-segment loader-3165-segment-7"></span>
+        <span className="loader-3165-segment loader-3165-segment-8"></span>
+      </div>
+    ),
+    html: `<div class="loader-3165">
+    <span class="loader-3165-segment loader-3165-segment-1"></span>
+    <span class="loader-3165-segment loader-3165-segment-2"></span>
+    <span class="loader-3165-segment loader-3165-segment-3"></span>
+    <span class="loader-3165-segment loader-3165-segment-4"></span>
+    <span class="loader-3165-segment loader-3165-segment-5"></span>
+    <span class="loader-3165-segment loader-3165-segment-6"></span>
+    <span class="loader-3165-segment loader-3165-segment-7"></span>
+    <span class="loader-3165-segment loader-3165-segment-8"></span>
+</div>`,
+    css: `.loader-3165 {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    animation: loader3165Rotate 1.4s linear infinite;
+}
+
+.loader-3165-segment {
+    position: absolute;
+    left: 17px;
+    top: 1px;
+    width: 4px;
+    height: 10px;
+    border-radius: 999px;
+    transform-origin: 2px 18px;
+    background: #ff6b1a;
+    box-shadow: 0 0 7px rgba(255, 91, 31, .6);
+}
+
+.loader-3165-segment-1 {
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+.loader-3165-segment-2 {
+    transform: rotate(45deg);
+    opacity: .88;
+}
+
+.loader-3165-segment-3 {
+    transform: rotate(90deg);
+    opacity: .76;
+}
+
+.loader-3165-segment-4 {
+    transform: rotate(135deg);
+    opacity: .64;
+}
+
+.loader-3165-segment-5 {
+    transform: rotate(180deg);
+    opacity: .52;
+}
+
+.loader-3165-segment-6 {
+    transform: rotate(225deg);
+    opacity: .4;
+}
+
+.loader-3165-segment-7 {
+    transform: rotate(270deg);
+    opacity: .28;
+}
+
+.loader-3165-segment-8 {
+    transform: rotate(315deg);
+    opacity: .16;
+}
+
+@keyframes loader3165Rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+
+  {
+    id: 3166,
+    name: "Burning Line Loader",
+    preview: (
+      <div className="loader-3166">
+        <span className="loader-3166-track"></span>
+        <span className="loader-3166-flame"></span>
+      </div>
+    ),
+    html: `<div class="loader-3166">
+    <span class="loader-3166-track"></span>
+    <span class="loader-3166-flame"></span>
+</div>`,
+    css: `.loader-3166 {
+    position: relative;
+    width: 112px;
+    height: 10px;
+}
+
+.loader-3166-track {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 4px;
+    height: 3px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #25120d;
+}
+
+.loader-3166-track::before {
+    content: "";
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(
+        90deg,
+        #d93612,
+        #ff641e,
+        #ffb222
+    );
+    box-shadow: 0 0 8px rgba(255, 91, 31, .55);
+    animation: loader3166Fill 1.8s ease-in-out infinite;
+}
+
+.loader-3166-flame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    border-radius: 60% 40% 65% 35%;
+    background: linear-gradient(
+        135deg,
+        #fff19a,
+        #ff9b1a 45%,
+        #ff4215
+    );
+    box-shadow:
+        0 0 7px #ff6b1a,
+        0 0 15px rgba(255, 75, 20, .4);
+    transform: rotate(45deg);
+    animation: loader3166Flame 1.8s ease-in-out infinite;
+}
+
+@keyframes loader3166Fill {
+    0%,
+    100% {
+        width: 12%;
+    }
+
+    50% {
+        width: 92%;
+    }
+}
+
+@keyframes loader3166Flame {
+    0%,
+    100% {
+        left: 7%;
+        transform: rotate(45deg) scale(.8);
+    }
+
+    50% {
+        left: 88%;
+        transform: rotate(45deg) scale(1.1);
+    }
+}`,
+  },
+
+  {
+    id: 3167,
+    name: "Fire Orbit Loader",
+    preview: (
+      <div className="loader-3167">
+        <span className="loader-3167-orbit"></span>
+        <span className="loader-3167-fireball"></span>
+        <span className="loader-3167-center"></span>
+      </div>
+    ),
+    html: `<div class="loader-3167">
+    <span class="loader-3167-orbit"></span>
+    <span class="loader-3167-fireball"></span>
+    <span class="loader-3167-center"></span>
+</div>`,
+    css: `.loader-3167 {
+    position: relative;
+    width: 42px;
+    height: 42px;
+}
+
+.loader-3167-orbit {
+    position: absolute;
+    inset: 3px;
+    border: 1px solid rgba(255, 100, 30, .22);
+    border-radius: 50%;
+}
+
+.loader-3167-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 9px;
+    height: 9px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #43160d;
+    box-shadow:
+        inset 0 0 5px rgba(255, 91, 31, .45),
+        0 0 8px rgba(255, 91, 31, .16);
+}
+
+.loader-3167-fireball {
+    position: absolute;
+    left: 17px;
+    top: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle at 35% 30%,
+        #fff09a,
+        #ff8b1a 45%,
+        #e63d13
+    );
+    box-shadow:
+        0 0 8px #ff5d1b,
+        0 0 16px rgba(255, 80, 20, .4);
+    transform-origin: 4px 21px;
+    animation: loader3167Orbit 1.25s linear infinite;
+}
+
+@keyframes loader3167Orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+
+  {
+    id: 3168,
+    name: "Heat Scanner Loader",
+    preview: (
+      <div className="loader-3168">
+        <span className="loader-3168-track"></span>
+        <span className="loader-3168-scan"></span>
+        <span className="loader-3168-glow"></span>
+      </div>
+    ),
+    html: `<div class="loader-3168">
+    <span class="loader-3168-track"></span>
+    <span class="loader-3168-scan"></span>
+    <span class="loader-3168-glow"></span>
+</div>`,
+    css: `.loader-3168 {
+    position: relative;
+    width: 112px;
+    height: 18px;
+    overflow: hidden;
+}
+
+.loader-3168-track {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 8px;
+    height: 2px;
+    border-radius: 999px;
+    background: #28130d;
+    box-shadow:
+        inset 0 1px 2px rgba(0, 0, 0, .55);
+}
+
+.loader-3168-scan {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 4px;
+    height: 8px;
+    border-radius: 999px;
+    background: #ffd166;
+    box-shadow:
+        0 0 7px #ff9b1a,
+        0 0 14px #ff4b16;
+    animation: loader3168Scan 1.6s ease-in-out infinite;
+}
+
+.loader-3168-glow {
+    position: absolute;
+    top: 4px;
+    left: -20px;
+    width: 38px;
+    height: 10px;
+    border-radius: 999px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 82, 20, .3),
+        transparent
+    );
+    filter: blur(4px);
+    animation: loader3168Glow 1.6s ease-in-out infinite;
+}
+
+@keyframes loader3168Scan {
+    0%,
+    100% {
+        left: 0;
+    }
+
+    50% {
+        left: calc(100% - 4px);
+    }
+}
+
+@keyframes loader3168Glow {
+    0%,
+    100% {
+        left: -20px;
+    }
+
+    50% {
+        left: calc(100% - 18px);
+    }
+}`,
+  },
+  {
+    id: 3169,
+    name: "Flame Arc Loader",
+    preview: (
+      <div className="loader-3169">
+        <span className="loader-3169-arc"></span>
+        <span className="loader-3169-tip"></span>
+      </div>
+    ),
+    html: `<div class="loader-3169">
+    <span class="loader-3169-arc"></span>
+    <span class="loader-3169-tip"></span>
+</div>`,
+    css: `.loader-3169 {
+    position: relative;
+    width: 42px;
+    height: 42px;
+}
+
+.loader-3169-arc {
+    position: absolute;
+    inset: 3px;
+    border: 4px solid #26120c;
+    border-top-color: #ff3d14;
+    border-right-color: #ff7c18;
+    border-bottom-color: #ffb224;
+    border-radius: 50%;
+    box-shadow:
+        0 0 9px rgba(255, 83, 20, .4),
+        inset 0 0 8px rgba(255, 91, 31, .06);
+    animation: loader3169Arc 1s linear infinite;
+}
+
+.loader-3169-tip {
+    position: absolute;
+    left: 17px;
+    top: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 60% 40% 65% 35%;
+    background: linear-gradient(135deg, #fff0a3, #ff9a1e 45%, #ff4216);
+    box-shadow:
+        0 0 7px #ff6a17,
+        0 0 13px rgba(255, 69, 20, .45);
+    transform-origin: 4px 21px;
+    animation: loader3169Tip 1s linear infinite;
+}
+
+@keyframes loader3169Arc {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader3169Tip {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+
+  {
+    id: 3170,
+    name: "Lava Bubble Loader",
+    preview: (
+      <div className="loader-3170">
+        <span className="loader-3170-bubble loader-3170-bubble-1"></span>
+        <span className="loader-3170-bubble loader-3170-bubble-2"></span>
+        <span className="loader-3170-bubble loader-3170-bubble-3"></span>
+        <span className="loader-3170-bubble loader-3170-bubble-4"></span>
+      </div>
+    ),
+    html: `<div class="loader-3170">
+    <span class="loader-3170-bubble loader-3170-bubble-1"></span>
+    <span class="loader-3170-bubble loader-3170-bubble-2"></span>
+    <span class="loader-3170-bubble loader-3170-bubble-3"></span>
+    <span class="loader-3170-bubble loader-3170-bubble-4"></span>
+</div>`,
+    css: `.loader-3170 {
+    position: relative;
+    width: 50px;
+    height: 34px;
+}
+
+.loader-3170-bubble {
+    position: absolute;
+    bottom: 0;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle at 35% 30%,
+        #ffe08a,
+        #ff8a18 45%,
+        #d93a13 78%
+    );
+    box-shadow:
+        0 0 8px rgba(255, 83, 20, .55);
+    animation: loader3170Bubble 1.6s ease-in-out infinite;
+}
+
+.loader-3170-bubble-1 {
+    left: 2px;
+    width: 7px;
+    height: 7px;
+}
+
+.loader-3170-bubble-2 {
+    left: 15px;
+    width: 11px;
+    height: 11px;
+    animation-delay: -.4s;
+}
+
+.loader-3170-bubble-3 {
+    left: 30px;
+    width: 8px;
+    height: 8px;
+    animation-delay: -.8s;
+}
+
+.loader-3170-bubble-4 {
+    right: 1px;
+    width: 5px;
+    height: 5px;
+    animation-delay: -1.2s;
+}
+
+@keyframes loader3170Bubble {
+    0% {
+        transform: translateY(0) scale(.7);
+        opacity: .35;
+    }
+
+    50% {
+        transform: translateY(-20px) scale(1.15);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-30px) scale(.5);
+        opacity: 0;
+    }
+}`,
+  },
+
+  {
+    id: 3171,
+    name: "Ember Trail Loader",
+    preview: (
+      <div className="loader-3171">
+        <span className="loader-3171-track"></span>
+        <span className="loader-3171-head"></span>
+        <span className="loader-3171-ember loader-3171-ember-1"></span>
+        <span className="loader-3171-ember loader-3171-ember-2"></span>
+        <span className="loader-3171-ember loader-3171-ember-3"></span>
+      </div>
+    ),
+    html: `<div class="loader-3171">
+    <span class="loader-3171-track"></span>
+    <span class="loader-3171-head"></span>
+    <span class="loader-3171-ember loader-3171-ember-1"></span>
+    <span class="loader-3171-ember loader-3171-ember-2"></span>
+    <span class="loader-3171-ember loader-3171-ember-3"></span>
+</div>`,
+    css: `.loader-3171 {
+    position: relative;
+    width: 112px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.loader-3171-track {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 9px;
+    height: 2px;
+    border-radius: 999px;
+    background: #25120d;
+}
+
+.loader-3171-head {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle at 35% 30%,
+        #fff4b0,
+        #ff8e19 46%,
+        #ef4014
+    );
+    box-shadow:
+        0 0 8px #ff6518,
+        0 0 17px rgba(255, 70, 20, .42);
+    animation: loader3171Head 1.8s ease-in-out infinite;
+}
+
+.loader-3171-ember {
+    position: absolute;
+    top: 8px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #ff8c1a;
+    box-shadow: 0 0 5px #ff5d18;
+    animation: loader3171Ember 1.8s ease-in-out infinite;
+}
+
+.loader-3171-ember-1 {
+    animation-delay: -.12s;
+}
+
+.loader-3171-ember-2 {
+    animation-delay: -.24s;
+}
+
+.loader-3171-ember-3 {
+    animation-delay: -.36s;
+}
+
+@keyframes loader3171Head {
+    0%,
+    100% {
+        left: 0;
+    }
+
+    50% {
+        left: calc(100% - 10px);
+    }
+}
+
+@keyframes loader3171Ember {
+    0%,
+    100% {
+        left: 2px;
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+    50% {
+        left: calc(100% - 18px);
+        opacity: 1;
+        transform: translateY(-5px);
+    }
+
+    65% {
+        opacity: 0;
+    }
+}`,
+  },
+
+  {
+    id: 3172,
+    name: "Heat Pulse Ring",
+    preview: (
+      <div className="loader-3172">
+        <span className="loader-3172-ring loader-3172-ring-1"></span>
+        <span className="loader-3172-ring loader-3172-ring-2"></span>
+        <span className="loader-3172-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-3172">
+    <span class="loader-3172-ring loader-3172-ring-1"></span>
+    <span class="loader-3172-ring loader-3172-ring-2"></span>
+    <span class="loader-3172-core"></span>
+</div>`,
+    css: `.loader-3172 {
+    position: relative;
+    width: 46px;
+    height: 46px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3172-core {
+    position: relative;
+    z-index: 3;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ff7a18;
+    box-shadow:
+        0 0 8px #ff5a18,
+        0 0 18px rgba(255, 75, 20, .46);
+    animation: loader3172Core .9s ease-in-out infinite;
+}
+
+.loader-3172-ring {
+    position: absolute;
+    border: 1px solid rgba(255, 98, 25, .7);
+    border-radius: 50%;
+    animation: loader3172Ring 1.8s ease-out infinite;
+}
+
+.loader-3172-ring-2 {
+    animation-delay: .9s;
+}
+
+@keyframes loader3172Core {
+    0%,
+    100% {
+        transform: scale(.75);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes loader3172Ring {
+    0% {
+        width: 8px;
+        height: 8px;
+        opacity: .9;
+        box-shadow: 0 0 6px rgba(255, 90, 20, .4);
+    }
+
+    100% {
+        width: 44px;
+        height: 44px;
+        opacity: 0;
+    }
+}`,
+  },
+
+  {
+    id: 3173,
+    name: "Molten Progress Loader",
+    preview: (
+      <div className="loader-3173">
+        <div className="loader-3173-track">
+          <span className="loader-3173-fill"></span>
+          <span className="loader-3173-hotspot"></span>
+        </div>
+      </div>
+    ),
+    html: `<div class="loader-3173">
+    <div class="loader-3173-track">
+        <span class="loader-3173-fill"></span>
+        <span class="loader-3173-hotspot"></span>
+    </div>
+</div>`,
+    css: `.loader-3173 {
+    width: 116px;
+}
+
+.loader-3173-track {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #22100b;
+    box-shadow:
+        inset 0 1px 3px rgba(0, 0, 0, .55);
+}
+
+.loader-3173-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 55%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(
+        90deg,
+        #be2e0e,
+        #ef4614,
+        #ff7518,
+        #ffb31f,
+        #ffe47a
+    );
+    background-size: 250% 100%;
+    box-shadow:
+        0 0 8px rgba(255, 89, 20, .5);
+    animation: loader3173Fill 2.2s ease-in-out infinite;
+}
+
+.loader-3173-hotspot {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 17px;
+    height: 5px;
+    border-radius: 999px;
+    background: rgba(255, 243, 174, .85);
+    filter: blur(2px);
+    animation: loader3173Hotspot 2.2s ease-in-out infinite;
+}
+
+@keyframes loader3173Fill {
+    0% {
+        width: 16%;
+        background-position: 0% 50%;
+    }
+
+    50% {
+        width: 90%;
+    }
+
+    100% {
+        width: 16%;
+        background-position: 250% 50%;
+    }
+}
+
+@keyframes loader3173Hotspot {
+    0%,
+    100% {
+        left: 0;
+        opacity: .25;
+    }
+
+    50% {
+        left: calc(90% - 17px);
+        opacity: 1;
+    }
+}`,
+  },
+
+  {
+    id: 3174,
+    name: "Spark Wheel Loader",
+    preview: (
+      <div className="loader-3174">
+        <span className="loader-3174-spark loader-3174-spark-1"></span>
+        <span className="loader-3174-spark loader-3174-spark-2"></span>
+        <span className="loader-3174-spark loader-3174-spark-3"></span>
+        <span className="loader-3174-spark loader-3174-spark-4"></span>
+        <span className="loader-3174-spark loader-3174-spark-5"></span>
+        <span className="loader-3174-spark loader-3174-spark-6"></span>
+      </div>
+    ),
+    html: `<div class="loader-3174">
+    <span class="loader-3174-spark loader-3174-spark-1"></span>
+    <span class="loader-3174-spark loader-3174-spark-2"></span>
+    <span class="loader-3174-spark loader-3174-spark-3"></span>
+    <span class="loader-3174-spark loader-3174-spark-4"></span>
+    <span class="loader-3174-spark loader-3174-spark-5"></span>
+    <span class="loader-3174-spark loader-3174-spark-6"></span>
+</div>`,
+    css: `.loader-3174 {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    animation: loader3174Wheel 1.2s linear infinite;
+}
+
+.loader-3174-spark {
+    position: absolute;
+    left: 18px;
+    top: 1px;
+    width: 6px;
+    height: 10px;
+    border-radius: 999px;
+    transform-origin: 3px 20px;
+    background: linear-gradient(
+        to bottom,
+        #fff1a2,
+        #ff9b1c,
+        #ff4715
+    );
+    box-shadow:
+        0 0 6px rgba(255, 87, 20, .5);
+}
+
+.loader-3174-spark-1 {
+    transform: rotate(0deg);
+}
+
+.loader-3174-spark-2 {
+    transform: rotate(60deg);
+    opacity: .85;
+}
+
+.loader-3174-spark-3 {
+    transform: rotate(120deg);
+    opacity: .7;
+}
+
+.loader-3174-spark-4 {
+    transform: rotate(180deg);
+    opacity: .55;
+}
+
+.loader-3174-spark-5 {
+    transform: rotate(240deg);
+    opacity: .4;
+}
+
+.loader-3174-spark-6 {
+    transform: rotate(300deg);
+    opacity: .25;
+}
+
+@keyframes loader3174Wheel {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+
+  {
+    id: 3175,
+    name: "Burning Blocks Loader",
+    preview: (
+      <div className="loader-3175">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-3175">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-3175 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.loader-3175 span {
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background: linear-gradient(
+        145deg,
+        #ffba29,
+        #ff6718 55%,
+        #d83210
+    );
+    box-shadow:
+        0 0 6px rgba(255, 76, 20, .35);
+    animation: loader3175Block 1.2s ease-in-out infinite;
+}
+
+.loader-3175 span:nth-child(2) {
+    animation-delay: .15s;
+}
+
+.loader-3175 span:nth-child(3) {
+    animation-delay: .3s;
+}
+
+.loader-3175 span:nth-child(4) {
+    animation-delay: .45s;
+}
+
+@keyframes loader3175Block {
+    0%,
+    100% {
+        transform: translateY(0) rotate(0deg) scale(.8);
+        opacity: .45;
+    }
+
+    50% {
+        transform: translateY(-9px) rotate(45deg) scale(1.05);
+        opacity: 1;
+        filter: brightness(1.25);
+    }
+}`,
+  },
+
+  {
+    id: 3176,
+    name: "Torch Wave Loader",
+    preview: (
+      <div className="loader-3176">
+        <span className="loader-3176-bar loader-3176-bar-1"></span>
+        <span className="loader-3176-bar loader-3176-bar-2"></span>
+        <span className="loader-3176-bar loader-3176-bar-3"></span>
+        <span className="loader-3176-bar loader-3176-bar-4"></span>
+        <span className="loader-3176-bar loader-3176-bar-5"></span>
+        <span className="loader-3176-bar loader-3176-bar-6"></span>
+      </div>
+    ),
+    html: `<div class="loader-3176">
+    <span class="loader-3176-bar loader-3176-bar-1"></span>
+    <span class="loader-3176-bar loader-3176-bar-2"></span>
+    <span class="loader-3176-bar loader-3176-bar-3"></span>
+    <span class="loader-3176-bar loader-3176-bar-4"></span>
+    <span class="loader-3176-bar loader-3176-bar-5"></span>
+    <span class="loader-3176-bar loader-3176-bar-6"></span>
+</div>`,
+    css: `.loader-3176 {
+    height: 32px;
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+}
+
+.loader-3176-bar {
+    width: 5px;
+    height: 8px;
+    border-radius: 3px 3px 1px 1px;
+    background: linear-gradient(
+        to top,
+        #c92d0f,
+        #ff5117,
+        #ff8d1a,
+        #ffe07d
+    );
+    box-shadow:
+        0 0 6px rgba(255, 80, 20, .4);
+    transform-origin: bottom;
+    animation: loader3176Wave 1.1s ease-in-out infinite;
+}
+
+.loader-3176-bar-1 {
+    animation-delay: 0s;
+}
+
+.loader-3176-bar-2 {
+    animation-delay: .1s;
+}
+
+.loader-3176-bar-3 {
+    animation-delay: .2s;
+}
+
+.loader-3176-bar-4 {
+    animation-delay: .3s;
+}
+
+.loader-3176-bar-5 {
+    animation-delay: .4s;
+}
+
+.loader-3176-bar-6 {
+    animation-delay: .5s;
+}
+
+@keyframes loader3176Wave {
+    0%,
+    100% {
+        height: 7px;
+        opacity: .4;
+    }
+
+    50% {
+        height: 30px;
+        opacity: 1;
+        filter: brightness(1.25);
+    }
+}`,
+  },
+
+  {
+    id: 3177,
+    name: "Molten Orbit Loader",
+    preview: (
+      <div className="loader-3177">
+        <span className="loader-3177-ring"></span>
+        <span className="loader-3177-ring loader-3177-ring-inner"></span>
+        <span className="loader-3177-orb"></span>
+      </div>
+    ),
+    html: `<div class="loader-3177">
+    <span class="loader-3177-ring"></span>
+    <span class="loader-3177-ring loader-3177-ring-inner"></span>
+    <span class="loader-3177-orb"></span>
+</div>`,
+    css: `.loader-3177 {
+    position: relative;
+    width: 44px;
+    height: 44px;
+}
+
+.loader-3177-ring {
+    position: absolute;
+    inset: 2px;
+    border: 1px solid rgba(255, 90, 25, .25);
+    border-radius: 50%;
+}
+
+.loader-3177-ring-inner {
+    inset: 9px;
+    border-color: rgba(255, 178, 36, .17);
+}
+
+.loader-3177-orb {
+    position: absolute;
+    left: 18px;
+    top: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ff9e1c;
+    box-shadow:
+        0 0 8px #ff5a18,
+        0 0 15px rgba(255, 75, 20, .45);
+    transform-origin: 4px 22px;
+    animation: loader3177Orbit 1.15s linear infinite;
+}
+
+.loader-3177::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: radial-gradient(
+        circle,
+        #ff7e18,
+        #6e1c0c 70%
+    );
+    box-shadow:
+        0 0 8px rgba(255, 82, 20, .26);
+    animation: loader3177Core 1.3s ease-in-out infinite;
+}
+
+@keyframes loader3177Orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader3177Core {
+    0%,
+    100% {
+        transform: translate(-50%, -50%) scale(.75);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+}`,
+  },
+
+  {
+    id: 3178,
+    name: "Ash Flicker Loader",
+    preview: (
+      <div className="loader-3178">
+        <span className="loader-3178-flame"></span>
+        <span className="loader-3178-ash loader-3178-ash-1"></span>
+        <span className="loader-3178-ash loader-3178-ash-2"></span>
+        <span className="loader-3178-ash loader-3178-ash-3"></span>
+        <span className="loader-3178-ash loader-3178-ash-4"></span>
+      </div>
+    ),
+    html: `<div class="loader-3178">
+    <span class="loader-3178-flame"></span>
+    <span class="loader-3178-ash loader-3178-ash-1"></span>
+    <span class="loader-3178-ash loader-3178-ash-2"></span>
+    <span class="loader-3178-ash loader-3178-ash-3"></span>
+    <span class="loader-3178-ash loader-3178-ash-4"></span>
+</div>`,
+    css: `.loader-3178 {
+    position: relative;
+    width: 42px;
+    height: 48px;
+}
+
+.loader-3178-flame {
+    position: absolute;
+    left: 12px;
+    bottom: 2px;
+    width: 18px;
+    height: 26px;
+    border-radius:
+        70%
+        30%
+        65%
+        35%;
+    background: linear-gradient(
+        135deg,
+        #fff2a2 5%,
+        #ffb120 35%,
+        #ff6917 67%,
+        #d93410
+    );
+    box-shadow:
+        0 0 10px rgba(255, 88, 20, .55),
+        0 0 20px rgba(255, 70, 15, .2);
+    transform: rotate(45deg);
+    animation: loader3178Flame .9s ease-in-out infinite;
+}
+
+.loader-3178-flame::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 7px;
+    width: 8px;
+    height: 12px;
+    border-radius: 60% 40% 60% 40%;
+    background: #fff2a2;
+    opacity: .55;
+}
+
+.loader-3178-ash {
+    position: absolute;
+    bottom: 12px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #ff8a18;
+    box-shadow: 0 0 5px #ff5a18;
+    animation: loader3178Ash 2s ease-out infinite;
+}
+
+.loader-3178-ash-1 {
+    left: 10px;
+}
+
+.loader-3178-ash-2 {
+    left: 18px;
+    animation-delay: -.5s;
+}
+
+.loader-3178-ash-3 {
+    right: 11px;
+    animation-delay: -1s;
+}
+
+.loader-3178-ash-4 {
+    right: 4px;
+    animation-delay: -1.5s;
+}
+
+@keyframes loader3178Flame {
+    0%,
+    100% {
+        transform: rotate(45deg) scale(.9, 1);
+        filter: brightness(.9);
+    }
+
+    35% {
+        transform: rotate(42deg) scale(1.08, .94);
+        filter: brightness(1.2);
+    }
+
+    70% {
+        transform: rotate(48deg) scale(.95, 1.1);
+    }
+}
+
+@keyframes loader3178Ash {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(.6);
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(6px, -38px) scale(.2);
+    }
+}`,
+  },
+  {
+    id: 3179,
+    name: "Diamond Spin Loader",
+    preview: (
+      <div className="loader-3179">
+        <span className="loader-3179-diamond">
+          <span className="loader-3179-face loader-3179-face-1"></span>
+          <span className="loader-3179-face loader-3179-face-2"></span>
+          <span className="loader-3179-face loader-3179-face-3"></span>
+          <span className="loader-3179-face loader-3179-face-4"></span>
+        </span>
+      </div>
+    ),
+    html: `<div class="loader-3179">
+    <span class="loader-3179-diamond">
+        <span class="loader-3179-face loader-3179-face-1"></span>
+        <span class="loader-3179-face loader-3179-face-2"></span>
+        <span class="loader-3179-face loader-3179-face-3"></span>
+        <span class="loader-3179-face loader-3179-face-4"></span>
+    </span>
+</div>`,
+    css: `.loader-3179 {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    perspective: 120px;
+}
+
+.loader-3179-diamond {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    transform: rotate(45deg);
+    background:
+        linear-gradient(
+            135deg,
+            #ecfeff,
+            #67e8f9 35%,
+            #6366f1 70%,
+            #a855f7
+        );
+    box-shadow:
+        0 0 8px rgba(103, 232, 249, .45),
+        0 0 18px rgba(99, 102, 241, .25);
+    animation: loader3179Diamond 1.8s ease-in-out infinite;
+}
+
+.loader-3179-face {
+    position: absolute;
+    background: rgba(255, 255, 255, .22);
+}
+
+.loader-3179-face-1 {
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+}
+
+.loader-3179-face-2 {
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    background: rgba(255, 255, 255, .08);
+}
+
+.loader-3179-face-3 {
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 50%;
+    background: rgba(10, 30, 80, .12);
+}
+
+.loader-3179-face-4 {
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 50%;
+    background: rgba(255, 255, 255, .14);
+}
+
+@keyframes loader3179Diamond {
+    0%,
+    100% {
+        transform: rotate(45deg) rotateY(0deg) scale(.85);
+        filter: brightness(.8);
+    }
+
+    50% {
+        transform: rotate(225deg) rotateY(180deg) scale(1.05);
+        filter: brightness(1.3);
+    }
+}`,
+  },
+
+  {
+    id: 3180,
+    name: "Crystal Dots Loader",
+    preview: (
+      <div className="loader-3180">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-3180">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-3180 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.loader-3180 span {
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background:
+        linear-gradient(
+            135deg,
+            #f0f9ff,
+            #7dd3fc 40%,
+            #818cf8 75%,
+            #c084fc
+        );
+    box-shadow:
+        0 0 7px rgba(125, 211, 252, .5),
+        0 0 12px rgba(129, 140, 248, .18);
+    animation: loader3180Crystal 1.1s ease-in-out infinite;
+}
+
+.loader-3180 span:nth-child(2) {
+    animation-delay: .15s;
+}
+
+.loader-3180 span:nth-child(3) {
+    animation-delay: .3s;
+}
+
+@keyframes loader3180Crystal {
+    0%,
+    100% {
+        transform: rotate(45deg) translateY(0) scale(.7);
+        opacity: .4;
+    }
+
+    50% {
+        transform: rotate(135deg) translateY(-5px) scale(1);
+        opacity: 1;
+        filter: brightness(1.35);
+    }
+}`,
+  },
+
+  {
+    id: 3181,
+    name: "Crystal Progress Bar",
+    preview: (
+      <div className="loader-3181">
+        <div className="loader-3181-track">
+          <span className="loader-3181-fill"></span>
+          <span className="loader-3181-prism"></span>
+        </div>
+      </div>
+    ),
+    html: `<div class="loader-3181">
+    <div class="loader-3181-track">
+        <span class="loader-3181-fill"></span>
+        <span class="loader-3181-prism"></span>
+    </div>
+</div>`,
+    css: `.loader-3181 {
+    width: 116px;
+}
+
+.loader-3181-track {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    overflow: hidden;
+    border: 1px solid rgba(125, 211, 252, .12);
+    border-radius: 999px;
+    background: #101722;
+}
+
+.loader-3181-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    border-radius: inherit;
+    background:
+        linear-gradient(
+            90deg,
+            #38bdf8,
+            #67e8f9,
+            #818cf8,
+            #c084fc,
+            #f0abfc
+        );
+    background-size: 250% 100%;
+    box-shadow:
+        0 0 8px rgba(103, 232, 249, .42);
+    animation: loader3181Fill 2.2s ease-in-out infinite;
+}
+
+.loader-3181-prism {
+    position: absolute;
+    top: -2px;
+    left: -18px;
+    width: 18px;
+    height: 10px;
+    transform: skewX(-25deg);
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, .9),
+            transparent
+        );
+    filter: blur(.5px);
+    animation: loader3181Prism 1.7s ease-in-out infinite;
+}
+
+@keyframes loader3181Fill {
+    0% {
+        width: 15%;
+        background-position: 0% 50%;
+    }
+
+    50% {
+        width: 90%;
+    }
+
+    100% {
+        width: 15%;
+        background-position: 250% 50%;
+    }
+}
+
+@keyframes loader3181Prism {
+    from {
+        left: -18px;
+    }
+
+    to {
+        left: 120px;
+    }
+}`,
+  },
+
+  {
+    id: 3182,
+    name: "Prism Ring Loader",
+    preview: (
+      <div className="loader-3182">
+        <span className="loader-3182-ring"></span>
+        <span className="loader-3182-gem"></span>
+      </div>
+    ),
+    html: `<div class="loader-3182">
+    <span class="loader-3182-ring"></span>
+    <span class="loader-3182-gem"></span>
+</div>`,
+    css: `.loader-3182 {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3182-ring {
+    position: absolute;
+    inset: 2px;
+    border: 3px solid transparent;
+    border-top-color: #67e8f9;
+    border-right-color: #818cf8;
+    border-bottom-color: #c084fc;
+    border-radius: 50%;
+    filter:
+        drop-shadow(0 0 4px rgba(103, 232, 249, .45));
+    animation: loader3182Ring 1s linear infinite;
+}
+
+.loader-3182-gem {
+    width: 11px;
+    height: 11px;
+    transform: rotate(45deg);
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #7dd3fc 45%,
+            #8b5cf6
+        );
+    box-shadow:
+        0 0 8px rgba(125, 211, 252, .55);
+    animation: loader3182Gem 1.2s ease-in-out infinite;
+}
+
+@keyframes loader3182Ring {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader3182Gem {
+    0%,
+    100% {
+        transform: rotate(45deg) scale(.75);
+    }
+
+    50% {
+        transform: rotate(135deg) scale(1.1);
+    }
+}`,
+  },
+
+  {
+    id: 3183,
+    name: "Crystal Equalizer Loader",
+    preview: (
+      <div className="loader-3183">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-3183">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-3183 {
+    height: 32px;
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.loader-3183 span {
+    width: 6px;
+    height: 9px;
+    clip-path:
+        polygon(
+            50% 0%,
+            100% 22%,
+            86% 100%,
+            14% 100%,
+            0% 22%
+        );
+    background:
+        linear-gradient(
+            to top,
+            #4338ca,
+            #6366f1,
+            #67e8f9,
+            #ecfeff
+        );
+    box-shadow:
+        0 0 7px rgba(103, 232, 249, .35);
+    transform-origin: bottom;
+    animation: loader3183CrystalBar 1.1s ease-in-out infinite;
+}
+
+.loader-3183 span:nth-child(2) {
+    animation-delay: -.2s;
+}
+
+.loader-3183 span:nth-child(3) {
+    animation-delay: -.4s;
+}
+
+.loader-3183 span:nth-child(4) {
+    animation-delay: -.6s;
+}
+
+.loader-3183 span:nth-child(5) {
+    animation-delay: -.8s;
+}
+
+@keyframes loader3183CrystalBar {
+    0%,
+    100% {
+        height: 7px;
+        opacity: .4;
+    }
+
+    50% {
+        height: 30px;
+        opacity: 1;
+        filter: brightness(1.35);
+    }
+}`,
+  },
+
+  {
+    id: 3184,
+    name: "Diamond Orbit Loader",
+    preview: (
+      <div className="loader-3184">
+        <span className="loader-3184-orbit"></span>
+        <span className="loader-3184-center"></span>
+        <span className="loader-3184-diamond"></span>
+      </div>
+    ),
+    html: `<div class="loader-3184">
+    <span class="loader-3184-orbit"></span>
+    <span class="loader-3184-center"></span>
+    <span class="loader-3184-diamond"></span>
+</div>`,
+    css: `.loader-3184 {
+    position: relative;
+    width: 46px;
+    height: 46px;
+}
+
+.loader-3184-orbit {
+    position: absolute;
+    inset: 4px;
+    border: 1px solid rgba(129, 140, 248, .2);
+    border-radius: 50%;
+}
+
+.loader-3184-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    transform:
+        translate(-50%, -50%)
+        rotate(45deg);
+    background:
+        linear-gradient(
+            135deg,
+            #e0f2fe,
+            #818cf8
+        );
+    box-shadow:
+        0 0 8px rgba(129, 140, 248, .4);
+    animation: loader3184Center 1.4s ease-in-out infinite;
+}
+
+.loader-3184-diamond {
+    position: absolute;
+    left: 19px;
+    top: 0;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    background:
+        linear-gradient(
+            135deg,
+            white,
+            #67e8f9,
+            #a855f7
+        );
+    box-shadow:
+        0 0 7px rgba(103, 232, 249, .55);
+    transform-origin: 4px 23px;
+    animation: loader3184Orbit 1.25s linear infinite;
+}
+
+@keyframes loader3184Orbit {
+    to {
+        transform:
+            rotate(405deg);
+    }
+}
+
+@keyframes loader3184Center {
+    0%,
+    100% {
+        transform:
+            translate(-50%, -50%)
+            rotate(45deg)
+            scale(.75);
+    }
+
+    50% {
+        transform:
+            translate(-50%, -50%)
+            rotate(135deg)
+            scale(1.1);
+    }
+}`,
+  },
+
+  {
+    id: 3185,
+    name: "Crystal Shard Loader",
+    preview: (
+      <div className="loader-3185">
+        <span className="loader-3185-shard loader-3185-shard-1"></span>
+        <span className="loader-3185-shard loader-3185-shard-2"></span>
+        <span className="loader-3185-shard loader-3185-shard-3"></span>
+        <span className="loader-3185-shard loader-3185-shard-4"></span>
+      </div>
+    ),
+    html: `<div class="loader-3185">
+    <span class="loader-3185-shard loader-3185-shard-1"></span>
+    <span class="loader-3185-shard loader-3185-shard-2"></span>
+    <span class="loader-3185-shard loader-3185-shard-3"></span>
+    <span class="loader-3185-shard loader-3185-shard-4"></span>
+</div>`,
+    css: `.loader-3185 {
+    position: relative;
+    width: 48px;
+    height: 40px;
+}
+
+.loader-3185-shard {
+    position: absolute;
+    bottom: 3px;
+    width: 10px;
+    clip-path:
+        polygon(
+            50% 0%,
+            100% 35%,
+            78% 100%,
+            22% 100%,
+            0% 35%
+        );
+    background:
+        linear-gradient(
+            135deg,
+            #f0f9ff,
+            #7dd3fc 40%,
+            #6366f1 75%,
+            #a855f7
+        );
+    box-shadow:
+        0 0 7px rgba(125, 211, 252, .35);
+    transform-origin: bottom;
+    animation: loader3185Shard 1.4s ease-in-out infinite;
+}
+
+.loader-3185-shard-1 {
+    left: 1px;
+    height: 18px;
+}
+
+.loader-3185-shard-2 {
+    left: 13px;
+    height: 30px;
+    animation-delay: -.35s;
+}
+
+.loader-3185-shard-3 {
+    left: 26px;
+    height: 24px;
+    animation-delay: -.7s;
+}
+
+.loader-3185-shard-4 {
+    left: 38px;
+    height: 15px;
+    animation-delay: -1.05s;
+}
+
+@keyframes loader3185Shard {
+    0%,
+    100% {
+        transform: scaleY(.65);
+        opacity: .45;
+    }
+
+    50% {
+        transform: scaleY(1.05);
+        opacity: 1;
+        filter: brightness(1.35);
+    }
+}`,
+  },
+
+  {
+    id: 3186,
+    name: "Prismatic Scanner Loader",
+    preview: (
+      <div className="loader-3186">
+        <span className="loader-3186-line"></span>
+        <span className="loader-3186-prism"></span>
+        <span className="loader-3186-glow"></span>
+      </div>
+    ),
+    html: `<div class="loader-3186">
+    <span class="loader-3186-line"></span>
+    <span class="loader-3186-prism"></span>
+    <span class="loader-3186-glow"></span>
+</div>`,
+    css: `.loader-3186 {
+    position: relative;
+    width: 116px;
+    height: 22px;
+    overflow: hidden;
+}
+
+.loader-3186-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+    height: 2px;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            90deg,
+            #111827,
+            #1e293b,
+            #111827
+        );
+}
+
+.loader-3186-prism {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #67e8f9 35%,
+            #818cf8 65%,
+            #f0abfc
+        );
+    box-shadow:
+        0 0 8px rgba(103, 232, 249, .5);
+    animation: loader3186Prism 1.7s ease-in-out infinite;
+}
+
+.loader-3186-glow {
+    position: absolute;
+    left: -24px;
+    top: 5px;
+    width: 45px;
+    height: 12px;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(129, 140, 248, .22),
+            rgba(103, 232, 249, .25),
+            transparent
+        );
+    filter: blur(4px);
+    animation: loader3186Glow 1.7s ease-in-out infinite;
+}
+
+@keyframes loader3186Prism {
+    0%,
+    100% {
+        left: 0;
+        transform: rotate(45deg);
+    }
+
+    50% {
+        left: calc(100% - 10px);
+        transform: rotate(225deg);
+    }
+}
+
+@keyframes loader3186Glow {
+    0%,
+    100% {
+        left: -24px;
+    }
+
+    50% {
+        left: calc(100% - 21px);
+    }
+}`,
+  },
+
+  {
+    id: 3187,
+    name: "Crystal Pulse Loader",
+    preview: (
+      <div className="loader-3187">
+        <span className="loader-3187-ring loader-3187-ring-1"></span>
+        <span className="loader-3187-ring loader-3187-ring-2"></span>
+        <span className="loader-3187-diamond"></span>
+      </div>
+    ),
+    html: `<div class="loader-3187">
+    <span class="loader-3187-ring loader-3187-ring-1"></span>
+    <span class="loader-3187-ring loader-3187-ring-2"></span>
+    <span class="loader-3187-diamond"></span>
+</div>`,
+    css: `.loader-3187 {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3187-diamond {
+    position: relative;
+    z-index: 3;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #7dd3fc 35%,
+            #818cf8 70%,
+            #c084fc
+        );
+    box-shadow:
+        0 0 8px rgba(125, 211, 252, .55);
+    animation: loader3187Diamond 1s ease-in-out infinite;
+}
+
+.loader-3187-ring {
+    position: absolute;
+    transform: rotate(45deg);
+    border: 1px solid rgba(125, 211, 252, .55);
+    opacity: 0;
+    animation: loader3187Ring 1.8s ease-out infinite;
+}
+
+.loader-3187-ring-2 {
+    border-color: rgba(192, 132, 252, .45);
+    animation-delay: .9s;
+}
+
+@keyframes loader3187Diamond {
+    0%,
+    100% {
+        transform: rotate(45deg) scale(.75);
+        filter: brightness(.85);
+    }
+
+    50% {
+        transform: rotate(135deg) scale(1.15);
+        filter: brightness(1.4);
+    }
+}
+
+@keyframes loader3187Ring {
+    0% {
+        width: 10px;
+        height: 10px;
+        opacity: .8;
+    }
+
+    100% {
+        width: 44px;
+        height: 44px;
+        opacity: 0;
+    }
+}`,
+  },
+
+  {
+    id: 3188,
+    name: "Diamond Cluster Loader",
+    preview: (
+      <div className="loader-3188">
+        <span className="loader-3188-gem loader-3188-gem-1"></span>
+        <span className="loader-3188-gem loader-3188-gem-2"></span>
+        <span className="loader-3188-gem loader-3188-gem-3"></span>
+        <span className="loader-3188-gem loader-3188-gem-4"></span>
+        <span className="loader-3188-gem loader-3188-gem-5"></span>
+      </div>
+    ),
+    html: `<div class="loader-3188">
+    <span class="loader-3188-gem loader-3188-gem-1"></span>
+    <span class="loader-3188-gem loader-3188-gem-2"></span>
+    <span class="loader-3188-gem loader-3188-gem-3"></span>
+    <span class="loader-3188-gem loader-3188-gem-4"></span>
+    <span class="loader-3188-gem loader-3188-gem-5"></span>
+</div>`,
+    css: `.loader-3188 {
+    position: relative;
+    width: 54px;
+    height: 42px;
+}
+
+.loader-3188-gem {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    background:
+        linear-gradient(
+            135deg,
+            #f8fafc,
+            #67e8f9 36%,
+            #6366f1 68%,
+            #d946ef
+        );
+    box-shadow:
+        0 0 7px rgba(103, 232, 249, .35);
+    animation: loader3188Gem 1.6s ease-in-out infinite;
+}
+
+.loader-3188-gem-1 {
+    left: 2px;
+    top: 17px;
+}
+
+.loader-3188-gem-2 {
+    left: 13px;
+    top: 7px;
+    animation-delay: -.3s;
+}
+
+.loader-3188-gem-3 {
+    left: 23px;
+    top: 16px;
+    animation-delay: -.6s;
+}
+
+.loader-3188-gem-4 {
+    left: 33px;
+    top: 5px;
+    animation-delay: -.9s;
+}
+
+.loader-3188-gem-5 {
+    left: 42px;
+    top: 18px;
+    animation-delay: -1.2s;
+}
+
+@keyframes loader3188Gem {
+    0%,
+    100% {
+        transform: rotate(45deg) scale(.65);
+        opacity: .35;
+    }
+
+    50% {
+        transform: rotate(135deg) scale(1);
+        opacity: 1;
+        filter: brightness(1.4);
+    }
+}`,
+  },
+  {
+    id: 3189,
+    name: "Faceted Halo Diamond",
+    preview: (
+      <div className="loader-3189">
+        <span className="loader-3189-halo"></span>
+        <span className="loader-3189-halo loader-3189-halo-inner"></span>
+
+        <span className="loader-3189-gem">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+    ),
+    html: `<div class="loader-3189">
+    <span class="loader-3189-halo"></span>
+    <span class="loader-3189-halo loader-3189-halo-inner"></span>
+
+    <span class="loader-3189-gem">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </span>
+</div>`,
+    css: `.loader-3189 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3189-halo {
+    position: absolute;
+    inset: 2px;
+    border: 1px solid rgba(103, 232, 249, .25);
+    border-top-color: #67e8f9;
+    border-right-color: #818cf8;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(103, 232, 249, .13);
+    animation: loader3189Halo 2s linear infinite;
+}
+
+.loader-3189-halo-inner {
+    inset: 8px;
+    border-color: rgba(192, 132, 252, .25);
+    border-left-color: #c084fc;
+    border-bottom-color: #818cf8;
+    animation-direction: reverse;
+    animation-duration: 1.35s;
+}
+
+.loader-3189-gem {
+    position: relative;
+    z-index: 3;
+    width: 18px;
+    height: 18px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    background: linear-gradient(135deg, #fff, #7dd3fc 38%, #6366f1 70%, #c084fc);
+    box-shadow:
+        0 0 8px rgba(103, 232, 249, .5),
+        0 0 18px rgba(129, 140, 248, .25);
+    animation: loader3189Gem 1.5s ease-in-out infinite;
+}
+
+.loader-3189-gem span {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
+.loader-3189-gem span:nth-child(1) {
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, .32);
+}
+
+.loader-3189-gem span:nth-child(2) {
+    right: 0;
+    top: 0;
+    background: rgba(255, 255, 255, .1);
+}
+
+.loader-3189-gem span:nth-child(3) {
+    left: 0;
+    bottom: 0;
+    background: rgba(30, 64, 175, .18);
+}
+
+.loader-3189-gem span:nth-child(4) {
+    right: 0;
+    bottom: 0;
+    background: rgba(168, 85, 247, .18);
+}
+
+@keyframes loader3189Halo {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader3189Gem {
+    0%,
+    100% {
+        transform: rotate(45deg) scale(.76);
+        filter: brightness(.85);
+    }
+
+    50% {
+        transform: rotate(135deg) scale(1.08);
+        filter: brightness(1.35);
+    }
+}`,
+  },
+
+  {
+    id: 3190,
+    name: "Prism Cascade Loader",
+    preview: (
+      <div className="loader-3190">
+        <span className="loader-3190-prism loader-3190-prism-1"></span>
+        <span className="loader-3190-prism loader-3190-prism-2"></span>
+        <span className="loader-3190-prism loader-3190-prism-3"></span>
+        <span className="loader-3190-prism loader-3190-prism-4"></span>
+        <span className="loader-3190-prism loader-3190-prism-5"></span>
+      </div>
+    ),
+    html: `<div class="loader-3190">
+    <span class="loader-3190-prism loader-3190-prism-1"></span>
+    <span class="loader-3190-prism loader-3190-prism-2"></span>
+    <span class="loader-3190-prism loader-3190-prism-3"></span>
+    <span class="loader-3190-prism loader-3190-prism-4"></span>
+    <span class="loader-3190-prism loader-3190-prism-5"></span>
+</div>`,
+    css: `.loader-3190 {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.loader-3190-prism {
+    width: 9px;
+    height: 9px;
+    transform: rotate(45deg);
+    background: linear-gradient(135deg, #ffffff, #bae6fd 25%, #67e8f9 50%, #818cf8 75%, #d8b4fe);
+    box-shadow:
+        0 0 6px rgba(103, 232, 249, .45),
+        0 0 12px rgba(129, 140, 248, .14);
+    animation: loader3190Cascade 1.4s ease-in-out infinite;
+}
+
+.loader-3190-prism-2 {
+    animation-delay: .12s;
+}
+
+.loader-3190-prism-3 {
+    animation-delay: .24s;
+}
+
+.loader-3190-prism-4 {
+    animation-delay: .36s;
+}
+
+.loader-3190-prism-5 {
+    animation-delay: .48s;
+}
+
+@keyframes loader3190Cascade {
+    0%,
+    100% {
+        transform: rotate(45deg) translateY(0) scale(.62);
+        opacity: .28;
+    }
+
+    45% {
+        transform: rotate(135deg) translateY(-7px) scale(1.05);
+        opacity: 1;
+        filter: brightness(1.4);
+    }
+
+    70% {
+        transform: rotate(225deg) translateY(3px) scale(.82);
+        opacity: .6;
+    }
+}`,
+  },
+
+  {
+    id: 3191,
+    name: "Sapphire Diamond Bar",
+    preview: (
+      <div className="loader-3191">
+        <div className="loader-3191-track">
+          <span className="loader-3191-fill"></span>
+          <span className="loader-3191-diamond"></span>
+          <span className="loader-3191-shimmer"></span>
+        </div>
+      </div>
+    ),
+    html: `<div class="loader-3191">
+    <div class="loader-3191-track">
+        <span class="loader-3191-fill"></span>
+        <span class="loader-3191-diamond"></span>
+        <span class="loader-3191-shimmer"></span>
+    </div>
+</div>`,
+    css: `.loader-3191 {
+    width: 122px;
+}
+
+.loader-3191-track {
+    position: relative;
+    width: 100%;
+    height: 8px;
+    border: 1px solid rgba(96, 165, 250, .15);
+    border-radius: 999px;
+    background: #0c1422;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .45);
+}
+
+.loader-3191-fill {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 32%;
+    height: 4px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #2563eb, #38bdf8, #67e8f9, #818cf8);
+    background-size: 230% 100%;
+    box-shadow: 0 0 8px rgba(56, 189, 248, .45);
+    animation: loader3191Fill 2.3s ease-in-out infinite;
+}
+
+.loader-3191-diamond {
+    position: absolute;
+    left: 8%;
+    top: -3px;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    background: linear-gradient(135deg, #fff, #7dd3fc 35%, #3b82f6 68%, #6366f1);
+    box-shadow:
+        0 0 7px #38bdf8,
+        0 0 14px rgba(59, 130, 246, .3);
+    animation: loader3191Diamond 2.3s ease-in-out infinite;
+}
+
+.loader-3191-shimmer {
+    position: absolute;
+    left: -18px;
+    top: 0;
+    width: 18px;
+    height: 6px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .8), transparent);
+    filter: blur(.5px);
+    animation: loader3191Shimmer 1.7s linear infinite;
+}
+
+@keyframes loader3191Fill {
+    0%,
+    100% {
+        width: 12%;
+        background-position: 0% 50%;
+    }
+
+    50% {
+        width: 88%;
+        background-position: 230% 50%;
+    }
+}
+
+@keyframes loader3191Diamond {
+    0%,
+    100% {
+        left: 5%;
+        transform: rotate(45deg) scale(.82);
+    }
+
+    50% {
+        left: calc(88% - 8px);
+        transform: rotate(225deg) scale(1.08);
+    }
+}
+
+@keyframes loader3191Shimmer {
+    to {
+        left: 125px;
+    }
+}`,
+  },
+
+  {
+    id: 3192,
+    name: "Crystal Compass Loader",
+    preview: (
+      <div className="loader-3192">
+        <span className="loader-3192-ring"></span>
+
+        <span className="loader-3192-point loader-3192-point-1"></span>
+        <span className="loader-3192-point loader-3192-point-2"></span>
+        <span className="loader-3192-point loader-3192-point-3"></span>
+        <span className="loader-3192-point loader-3192-point-4"></span>
+
+        <span className="loader-3192-center"></span>
+      </div>
+    ),
+    html: `<div class="loader-3192">
+    <span class="loader-3192-ring"></span>
+
+    <span class="loader-3192-point loader-3192-point-1"></span>
+    <span class="loader-3192-point loader-3192-point-2"></span>
+    <span class="loader-3192-point loader-3192-point-3"></span>
+    <span class="loader-3192-point loader-3192-point-4"></span>
+
+    <span class="loader-3192-center"></span>
+</div>`,
+    css: `.loader-3192 {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    animation: loader3192Compass 2.8s linear infinite;
+}
+
+.loader-3192-ring {
+    position: absolute;
+    inset: 5px;
+    border: 1px solid rgba(125, 211, 252, .2);
+    border-radius: 50%;
+}
+
+.loader-3192-point {
+    position: absolute;
+    left: 20px;
+    top: 2px;
+    width: 8px;
+    height: 16px;
+    clip-path: polygon(50% 0%, 100% 100%, 50% 78%, 0% 100%);
+    transform-origin: 4px 22px;
+    background: linear-gradient(to bottom, #fff, #67e8f9 40%, #6366f1);
+    filter: drop-shadow(0 0 4px rgba(103, 232, 249, .45));
+}
+
+.loader-3192-point-2 {
+    transform: rotate(90deg);
+    opacity: .8;
+}
+
+.loader-3192-point-3 {
+    transform: rotate(180deg);
+    opacity: .62;
+}
+
+.loader-3192-point-4 {
+    transform: rotate(270deg);
+    opacity: .8;
+}
+
+.loader-3192-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: linear-gradient(135deg, #f8fafc, #818cf8, #c084fc);
+    box-shadow: 0 0 8px rgba(129, 140, 248, .5);
+    animation: loader3192Center .9s ease-in-out infinite;
+}
+
+@keyframes loader3192Compass {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader3192Center {
+    0%,
+    100% {
+        transform: translate(-50%, -50%) rotate(45deg) scale(.72);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) rotate(135deg) scale(1.12);
+    }
+}`,
+  },
+
+  {
+    id: 3193,
+    name: "Crystal Shard Burst",
+    preview: (
+      <div className="loader-3193">
+        <span className="loader-3193-shard loader-3193-shard-1"></span>
+        <span className="loader-3193-shard loader-3193-shard-2"></span>
+        <span className="loader-3193-shard loader-3193-shard-3"></span>
+        <span className="loader-3193-shard loader-3193-shard-4"></span>
+        <span className="loader-3193-shard loader-3193-shard-5"></span>
+        <span className="loader-3193-shard loader-3193-shard-6"></span>
+
+        <span className="loader-3193-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-3193">
+    <span class="loader-3193-shard loader-3193-shard-1"></span>
+    <span class="loader-3193-shard loader-3193-shard-2"></span>
+    <span class="loader-3193-shard loader-3193-shard-3"></span>
+    <span class="loader-3193-shard loader-3193-shard-4"></span>
+    <span class="loader-3193-shard loader-3193-shard-5"></span>
+    <span class="loader-3193-shard loader-3193-shard-6"></span>
+
+    <span class="loader-3193-core"></span>
+</div>`,
+    css: `.loader-3193 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3193-core {
+    position: relative;
+    z-index: 4;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    background: linear-gradient(135deg, #fff, #67e8f9, #818cf8);
+    box-shadow:
+        0 0 8px rgba(103, 232, 249, .6),
+        0 0 17px rgba(129, 140, 248, .25);
+    animation: loader3193Core 1.3s ease-in-out infinite;
+}
+
+.loader-3193-shard {
+    position: absolute;
+    left: 22px;
+    top: 3px;
+    width: 6px;
+    height: 15px;
+    clip-path: polygon(50% 0%, 100% 100%, 50% 82%, 0% 100%);
+    transform-origin: 3px 22px;
+    background: linear-gradient(to bottom, #f0f9ff, #7dd3fc, #6366f1);
+    filter: drop-shadow(0 0 3px rgba(125, 211, 252, .4));
+    animation: loader3193Shard 1.6s ease-in-out infinite;
+}
+
+.loader-3193-shard-2 {
+    transform: rotate(60deg);
+    animation-delay: -.25s;
+}
+
+.loader-3193-shard-3 {
+    transform: rotate(120deg);
+    animation-delay: -.5s;
+}
+
+.loader-3193-shard-4 {
+    transform: rotate(180deg);
+    animation-delay: -.75s;
+}
+
+.loader-3193-shard-5 {
+    transform: rotate(240deg);
+    animation-delay: -1s;
+}
+
+.loader-3193-shard-6 {
+    transform: rotate(300deg);
+    animation-delay: -1.25s;
+}
+
+@keyframes loader3193Core {
+    0%,
+    100% {
+        transform: rotate(45deg) scale(.72);
+    }
+
+    50% {
+        transform: rotate(135deg) scale(1.12);
+        filter: brightness(1.4);
+    }
+}
+
+@keyframes loader3193Shard {
+    0%,
+    100% {
+        opacity: .25;
+        scale: .65;
+    }
+
+    50% {
+        opacity: 1;
+        scale: 1.08;
+        filter: brightness(1.35);
+    }
+}`,
+  },
+
+  {
+    id: 3194,
+    name: "Aurora Crystal Wave",
+    preview: (
+      <div className="loader-3194">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-3194">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-3194 {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.loader-3194 span {
+    width: 7px;
+    height: 7px;
+    transform: rotate(45deg);
+    background: linear-gradient(135deg, #ecfeff, #67e8f9 35%, #818cf8 65%, #d946ef);
+    box-shadow:
+        0 0 5px rgba(103, 232, 249, .45),
+        0 0 10px rgba(217, 70, 239, .12);
+    animation: loader3194Wave 1.4s ease-in-out infinite;
+}
+
+.loader-3194 span:nth-child(2) {
+    animation-delay: .1s;
+}
+
+.loader-3194 span:nth-child(3) {
+    animation-delay: .2s;
+}
+
+.loader-3194 span:nth-child(4) {
+    animation-delay: .3s;
+}
+
+.loader-3194 span:nth-child(5) {
+    animation-delay: .4s;
+}
+
+.loader-3194 span:nth-child(6) {
+    animation-delay: .5s;
+}
+
+@keyframes loader3194Wave {
+    0%,
+    100% {
+        transform: rotate(45deg) translateY(6px) scale(.62);
+        opacity: .3;
+    }
+
+    50% {
+        transform: rotate(135deg) translateY(-7px) scale(1.05);
+        opacity: 1;
+        filter: brightness(1.45);
+    }
+}`,
+  },
+
+  {
+    id: 3195,
+    name: "Royal Gem Orbit",
+    preview: (
+      <div className="loader-3195">
+        <span className="loader-3195-ring loader-3195-ring-1"></span>
+        <span className="loader-3195-ring loader-3195-ring-2"></span>
+
+        <span className="loader-3195-gem loader-3195-gem-1"></span>
+        <span className="loader-3195-gem loader-3195-gem-2"></span>
+        <span className="loader-3195-gem loader-3195-gem-3"></span>
+
+        <span className="loader-3195-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-3195">
+    <span class="loader-3195-ring loader-3195-ring-1"></span>
+    <span class="loader-3195-ring loader-3195-ring-2"></span>
+
+    <span class="loader-3195-gem loader-3195-gem-1"></span>
+    <span class="loader-3195-gem loader-3195-gem-2"></span>
+    <span class="loader-3195-gem loader-3195-gem-3"></span>
+
+    <span class="loader-3195-core"></span>
+</div>`,
+    css: `.loader-3195 {
+    position: relative;
+    width: 52px;
+    height: 52px;
+}
+
+.loader-3195-ring {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.loader-3195-ring-1 {
+    inset: 3px;
+    border: 1px solid rgba(192, 132, 252, .24);
+}
+
+.loader-3195-ring-2 {
+    inset: 10px;
+    border: 1px dashed rgba(103, 232, 249, .2);
+    animation: loader3195Ring 4s linear infinite;
+}
+
+.loader-3195-core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 13px;
+    height: 13px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: linear-gradient(135deg, #fff, #c084fc 45%, #6366f1);
+    box-shadow:
+        0 0 8px #a855f7,
+        0 0 18px rgba(168, 85, 247, .25);
+    animation: loader3195Core 1.2s ease-in-out infinite;
+}
+
+.loader-3195-gem {
+    position: absolute;
+    left: 22px;
+    top: 0;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    transform-origin: 4px 26px;
+    background: linear-gradient(135deg, #fff, #67e8f9, #a855f7);
+    box-shadow: 0 0 6px rgba(103, 232, 249, .5);
+}
+
+.loader-3195-gem-1 {
+    animation: loader3195GemOne 2s linear infinite;
+}
+
+.loader-3195-gem-2 {
+    animation: loader3195GemTwo 2s linear infinite;
+}
+
+.loader-3195-gem-3 {
+    animation: loader3195GemThree 2s linear infinite;
+}
+
+@keyframes loader3195Ring {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader3195Core {
+    0%,
+    100% {
+        transform: translate(-50%, -50%) rotate(45deg) scale(.75);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) rotate(135deg) scale(1.12);
+    }
+}
+
+@keyframes loader3195GemOne {
+    to {
+        transform: rotate(405deg);
+    }
+}
+
+@keyframes loader3195GemTwo {
+    from {
+        transform: rotate(165deg);
+    }
+
+    to {
+        transform: rotate(525deg);
+    }
+}
+
+@keyframes loader3195GemThree {
+    from {
+        transform: rotate(285deg);
+    }
+
+    to {
+        transform: rotate(645deg);
+    }
+}`,
+  },
+
+  {
+    id: 3196,
+    name: "Diamond Step Loader",
+    preview: (
+      <div className="loader-3196">
+        <span className="loader-3196-step loader-3196-step-1"></span>
+        <span className="loader-3196-step loader-3196-step-2"></span>
+        <span className="loader-3196-step loader-3196-step-3"></span>
+        <span className="loader-3196-step loader-3196-step-4"></span>
+        <span className="loader-3196-step loader-3196-step-5"></span>
+      </div>
+    ),
+    html: `<div class="loader-3196">
+    <span class="loader-3196-step loader-3196-step-1"></span>
+    <span class="loader-3196-step loader-3196-step-2"></span>
+    <span class="loader-3196-step loader-3196-step-3"></span>
+    <span class="loader-3196-step loader-3196-step-4"></span>
+    <span class="loader-3196-step loader-3196-step-5"></span>
+</div>`,
+    css: `.loader-3196 {
+    width: 68px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.loader-3196-step {
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background: linear-gradient(135deg, #fff, #7dd3fc 38%, #6366f1 72%, #c084fc);
+    box-shadow: 0 0 6px rgba(125, 211, 252, .4);
+    animation: loader3196Step 1.5s ease-in-out infinite;
+}
+
+.loader-3196-step-2 {
+    animation-delay: .12s;
+}
+
+.loader-3196-step-3 {
+    animation-delay: .24s;
+}
+
+.loader-3196-step-4 {
+    animation-delay: .36s;
+}
+
+.loader-3196-step-5 {
+    animation-delay: .48s;
+}
+
+@keyframes loader3196Step {
+    0%,
+    100% {
+        transform: rotate(45deg) translateY(6px) scale(.6);
+        opacity: .25;
+    }
+
+    40% {
+        transform: rotate(135deg) translateY(-8px) scale(1.08);
+        opacity: 1;
+        filter: brightness(1.45);
+    }
+
+    70% {
+        transform: rotate(225deg) translateY(1px) scale(.82);
+        opacity: .55;
+    }
+}`,
+  },
+
+  {
+    id: 3197,
+    name: "Crystal Crown Loader",
+    preview: (
+      <div className="loader-3197">
+        <span className="loader-3197-crystal loader-3197-crystal-1"></span>
+        <span className="loader-3197-crystal loader-3197-crystal-2"></span>
+        <span className="loader-3197-crystal loader-3197-crystal-3"></span>
+        <span className="loader-3197-crystal loader-3197-crystal-4"></span>
+        <span className="loader-3197-crystal loader-3197-crystal-5"></span>
+
+        <span className="loader-3197-base"></span>
+      </div>
+    ),
+    html: `<div class="loader-3197">
+    <span class="loader-3197-crystal loader-3197-crystal-1"></span>
+    <span class="loader-3197-crystal loader-3197-crystal-2"></span>
+    <span class="loader-3197-crystal loader-3197-crystal-3"></span>
+    <span class="loader-3197-crystal loader-3197-crystal-4"></span>
+    <span class="loader-3197-crystal loader-3197-crystal-5"></span>
+
+    <span class="loader-3197-base"></span>
+</div>`,
+    css: `.loader-3197 {
+    position: relative;
+    width: 58px;
+    height: 44px;
+}
+
+.loader-3197-base {
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    bottom: 4px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgba(99, 102, 241, .2);
+    box-shadow:
+        0 0 8px rgba(103, 232, 249, .3),
+        0 0 16px rgba(129, 140, 248, .15);
+    animation: loader3197Base 1.8s ease-in-out infinite;
+}
+
+.loader-3197-crystal {
+    position: absolute;
+    bottom: 7px;
+    width: 9px;
+    clip-path: polygon(50% 0%, 100% 30%, 82% 100%, 18% 100%, 0% 30%);
+    background: linear-gradient(135deg, #fff, #bae6fd 25%, #67e8f9 50%, #818cf8 76%, #c084fc);
+    filter: drop-shadow(0 0 4px rgba(125, 211, 252, .45));
+    transform-origin: bottom;
+    animation: loader3197Crystal 1.8s ease-in-out infinite;
+}
+
+.loader-3197-crystal-1 {
+    left: 5px;
+    height: 18px;
+}
+
+.loader-3197-crystal-2 {
+    left: 16px;
+    height: 28px;
+    animation-delay: -.3s;
+}
+
+.loader-3197-crystal-3 {
+    left: 25px;
+    width: 10px;
+    height: 35px;
+    animation-delay: -.6s;
+}
+
+.loader-3197-crystal-4 {
+    right: 14px;
+    height: 27px;
+    animation-delay: -.9s;
+}
+
+.loader-3197-crystal-5 {
+    right: 3px;
+    height: 17px;
+    animation-delay: -1.2s;
+}
+
+@keyframes loader3197Crystal {
+    0%,
+    100% {
+        transform: scaleY(.72);
+        opacity: .45;
+        filter: brightness(.85);
+    }
+
+    50% {
+        transform: scaleY(1.05);
+        opacity: 1;
+        filter: brightness(1.4);
+    }
+}
+
+@keyframes loader3197Base {
+    0%,
+    100% {
+        transform: scaleX(.75);
+        opacity: .35;
+    }
+
+    50% {
+        transform: scaleX(1.1);
+        opacity: .8;
+    }
+}`,
+  },
+
+  {
+    id: 3198,
+    name: "Prismatic Diamond Portal",
+    preview: (
+      <div className="loader-3198">
+        <span className="loader-3198-portal loader-3198-portal-1"></span>
+        <span className="loader-3198-portal loader-3198-portal-2"></span>
+        <span className="loader-3198-portal loader-3198-portal-3"></span>
+
+        <span className="loader-3198-diamond">
+          <span className="loader-3198-face loader-3198-face-1"></span>
+          <span className="loader-3198-face loader-3198-face-2"></span>
+          <span className="loader-3198-face loader-3198-face-3"></span>
+          <span className="loader-3198-face loader-3198-face-4"></span>
+        </span>
+
+        <span className="loader-3198-glow"></span>
+      </div>
+    ),
+    html: `<div class="loader-3198">
+    <span class="loader-3198-portal loader-3198-portal-1"></span>
+    <span class="loader-3198-portal loader-3198-portal-2"></span>
+    <span class="loader-3198-portal loader-3198-portal-3"></span>
+
+    <span class="loader-3198-diamond">
+        <span class="loader-3198-face loader-3198-face-1"></span>
+        <span class="loader-3198-face loader-3198-face-2"></span>
+        <span class="loader-3198-face loader-3198-face-3"></span>
+        <span class="loader-3198-face loader-3198-face-4"></span>
+    </span>
+
+    <span class="loader-3198-glow"></span>
+</div>`,
+    css: `.loader-3198 {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3198-portal {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.loader-3198-portal-1 {
+    inset: 1px;
+    border: 1px solid rgba(103, 232, 249, .24);
+    border-top-color: #67e8f9;
+    animation: loader3198PortalOne 2.6s linear infinite;
+}
+
+.loader-3198-portal-2 {
+    inset: 7px;
+    border: 1px dashed rgba(129, 140, 248, .3);
+    animation: loader3198PortalTwo 1.8s linear infinite;
+}
+
+.loader-3198-portal-3 {
+    inset: 13px;
+    border: 1px solid rgba(217, 70, 239, .25);
+    border-left-color: #d946ef;
+    animation: loader3198PortalThree 1.2s linear infinite;
+}
+
+.loader-3198-diamond {
+    position: relative;
+    z-index: 4;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    transform: rotate(45deg);
+    background: linear-gradient(135deg, #fff, #67e8f9 34%, #818cf8 65%, #d946ef);
+    box-shadow:
+        0 0 9px rgba(103, 232, 249, .5),
+        0 0 20px rgba(217, 70, 239, .2);
+    animation: loader3198Diamond 1.4s ease-in-out infinite;
+}
+
+.loader-3198-face {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
+.loader-3198-face-1 {
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, .4);
+}
+
+.loader-3198-face-2 {
+    right: 0;
+    top: 0;
+    background: rgba(103, 232, 249, .18);
+}
+
+.loader-3198-face-3 {
+    left: 0;
+    bottom: 0;
+    background: rgba(99, 102, 241, .25);
+}
+
+.loader-3198-face-4 {
+    right: 0;
+    bottom: 0;
+    background: rgba(217, 70, 239, .22);
+}
+
+.loader-3198-glow {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgba(129, 140, 248, .22);
+    filter: blur(8px);
+    animation: loader3198Glow 1.4s ease-in-out infinite;
+}
+
+@keyframes loader3198PortalOne {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader3198PortalTwo {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes loader3198PortalThree {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader3198Diamond {
+    0%,
+    100% {
+        transform: rotate(45deg) scale(.72);
+        filter: brightness(.85);
+    }
+
+    50% {
+        transform: rotate(225deg) scale(1.12);
+        filter: brightness(1.45);
+    }
+}
+
+@keyframes loader3198Glow {
+    0%,
+    100% {
+        transform: scale(.7);
+        opacity: .25;
+    }
+
+    50% {
+        transform: scale(1.4);
+        opacity: .75;
+    }
+}`,
+  },
+  {
+    id: 3199,
+    name: "Prismatic Diamond Core Loader",
+    preview: (
+      <div className="loader-3199">
+        <div className="loader-3199-background">
+          <span className="loader-3199-background-glow loader-3199-background-glow-1"></span>
+          <span className="loader-3199-background-glow loader-3199-background-glow-2"></span>
+          <span className="loader-3199-background-glow loader-3199-background-glow-3"></span>
+        </div>
+
+        <div className="loader-3199-grid"></div>
+
+        <div className="loader-3199-rays">
+          <span className="loader-3199-ray loader-3199-ray-1"></span>
+          <span className="loader-3199-ray loader-3199-ray-2"></span>
+          <span className="loader-3199-ray loader-3199-ray-3"></span>
+          <span className="loader-3199-ray loader-3199-ray-4"></span>
+          <span className="loader-3199-ray loader-3199-ray-5"></span>
+          <span className="loader-3199-ray loader-3199-ray-6"></span>
+          <span className="loader-3199-ray loader-3199-ray-7"></span>
+          <span className="loader-3199-ray loader-3199-ray-8"></span>
+        </div>
+
+        <div className="loader-3199-stars">
+          <span className="loader-3199-star loader-3199-star-1"></span>
+          <span className="loader-3199-star loader-3199-star-2"></span>
+          <span className="loader-3199-star loader-3199-star-3"></span>
+          <span className="loader-3199-star loader-3199-star-4"></span>
+          <span className="loader-3199-star loader-3199-star-5"></span>
+          <span className="loader-3199-star loader-3199-star-6"></span>
+          <span className="loader-3199-star loader-3199-star-7"></span>
+          <span className="loader-3199-star loader-3199-star-8"></span>
+          <span className="loader-3199-star loader-3199-star-9"></span>
+          <span className="loader-3199-star loader-3199-star-10"></span>
+          <span className="loader-3199-star loader-3199-star-11"></span>
+          <span className="loader-3199-star loader-3199-star-12"></span>
+          <span className="loader-3199-star loader-3199-star-13"></span>
+          <span className="loader-3199-star loader-3199-star-14"></span>
+          <span className="loader-3199-star loader-3199-star-15"></span>
+          <span className="loader-3199-star loader-3199-star-16"></span>
+        </div>
+
+        <div className="loader-3199-stage">
+          <div className="loader-3199-stage-shadow"></div>
+
+          <div className="loader-3199-portal">
+            <span className="loader-3199-portal-ring loader-3199-portal-ring-1"></span>
+            <span className="loader-3199-portal-ring loader-3199-portal-ring-2"></span>
+            <span className="loader-3199-portal-ring loader-3199-portal-ring-3"></span>
+            <span className="loader-3199-portal-ring loader-3199-portal-ring-4"></span>
+
+            <span className="loader-3199-portal-node loader-3199-portal-node-1"></span>
+            <span className="loader-3199-portal-node loader-3199-portal-node-2"></span>
+            <span className="loader-3199-portal-node loader-3199-portal-node-3"></span>
+            <span className="loader-3199-portal-node loader-3199-portal-node-4"></span>
+            <span className="loader-3199-portal-node loader-3199-portal-node-5"></span>
+            <span className="loader-3199-portal-node loader-3199-portal-node-6"></span>
+          </div>
+
+          <div className="loader-3199-orbit loader-3199-orbit-outer">
+            <span className="loader-3199-orbit-gem loader-3199-orbit-gem-1"></span>
+            <span className="loader-3199-orbit-gem loader-3199-orbit-gem-2"></span>
+            <span className="loader-3199-orbit-gem loader-3199-orbit-gem-3"></span>
+          </div>
+
+          <div className="loader-3199-orbit loader-3199-orbit-middle">
+            <span className="loader-3199-orbit-gem loader-3199-orbit-gem-4"></span>
+            <span className="loader-3199-orbit-gem loader-3199-orbit-gem-5"></span>
+          </div>
+
+          <div className="loader-3199-orbit loader-3199-orbit-inner">
+            <span className="loader-3199-orbit-gem loader-3199-orbit-gem-6"></span>
+          </div>
+
+          <div className="loader-3199-shards">
+            <span className="loader-3199-shard loader-3199-shard-1"></span>
+            <span className="loader-3199-shard loader-3199-shard-2"></span>
+            <span className="loader-3199-shard loader-3199-shard-3"></span>
+            <span className="loader-3199-shard loader-3199-shard-4"></span>
+            <span className="loader-3199-shard loader-3199-shard-5"></span>
+            <span className="loader-3199-shard loader-3199-shard-6"></span>
+            <span className="loader-3199-shard loader-3199-shard-7"></span>
+            <span className="loader-3199-shard loader-3199-shard-8"></span>
+          </div>
+
+          <div className="loader-3199-core-aura"></div>
+
+          <div className="loader-3199-diamond">
+            <div className="loader-3199-diamond-shell">
+              <span className="loader-3199-diamond-face loader-3199-diamond-face-1"></span>
+              <span className="loader-3199-diamond-face loader-3199-diamond-face-2"></span>
+              <span className="loader-3199-diamond-face loader-3199-diamond-face-3"></span>
+              <span className="loader-3199-diamond-face loader-3199-diamond-face-4"></span>
+              <span className="loader-3199-diamond-face loader-3199-diamond-face-5"></span>
+              <span className="loader-3199-diamond-face loader-3199-diamond-face-6"></span>
+              <span className="loader-3199-diamond-face loader-3199-diamond-face-7"></span>
+              <span className="loader-3199-diamond-face loader-3199-diamond-face-8"></span>
+
+              <span className="loader-3199-diamond-highlight loader-3199-diamond-highlight-1"></span>
+              <span className="loader-3199-diamond-highlight loader-3199-diamond-highlight-2"></span>
+              <span className="loader-3199-diamond-highlight loader-3199-diamond-highlight-3"></span>
+
+              <span className="loader-3199-diamond-core"></span>
+            </div>
+          </div>
+
+          <div className="loader-3199-energy-particles">
+            <span className="loader-3199-energy-particle loader-3199-energy-particle-1"></span>
+            <span className="loader-3199-energy-particle loader-3199-energy-particle-2"></span>
+            <span className="loader-3199-energy-particle loader-3199-energy-particle-3"></span>
+            <span className="loader-3199-energy-particle loader-3199-energy-particle-4"></span>
+            <span className="loader-3199-energy-particle loader-3199-energy-particle-5"></span>
+            <span className="loader-3199-energy-particle loader-3199-energy-particle-6"></span>
+            <span className="loader-3199-energy-particle loader-3199-energy-particle-7"></span>
+            <span className="loader-3199-energy-particle loader-3199-energy-particle-8"></span>
+            <span className="loader-3199-energy-particle loader-3199-energy-particle-9"></span>
+            <span className="loader-3199-energy-particle loader-3199-energy-particle-10"></span>
+            <span className="loader-3199-energy-particle loader-3199-energy-particle-11"></span>
+            <span className="loader-3199-energy-particle loader-3199-energy-particle-12"></span>
+          </div>
+        </div>
+
+        <div className="loader-3199-info">
+          <div className="loader-3199-title">
+            <span className="loader-3199-title-gem"></span>
+
+            <div>
+              <strong>PRISMATIC CORE</strong>
+              <small>CRYSTAL SYNCHRONIZATION</small>
+            </div>
+
+            <span className="loader-3199-status-dot"></span>
+          </div>
+
+          <div className="loader-3199-progress">
+            <div className="loader-3199-progress-track">
+              <span className="loader-3199-progress-fill"></span>
+              <span className="loader-3199-progress-diamond"></span>
+              <span className="loader-3199-progress-shine"></span>
+            </div>
+
+            <div className="loader-3199-progress-meta">
+              <span>CRYSTALLIZING</span>
+              <strong>74%</strong>
+            </div>
+          </div>
+
+          <div className="loader-3199-spectrum">
+            <span className="loader-3199-spectrum-bar loader-3199-spectrum-bar-1"></span>
+            <span className="loader-3199-spectrum-bar loader-3199-spectrum-bar-2"></span>
+            <span className="loader-3199-spectrum-bar loader-3199-spectrum-bar-3"></span>
+            <span className="loader-3199-spectrum-bar loader-3199-spectrum-bar-4"></span>
+            <span className="loader-3199-spectrum-bar loader-3199-spectrum-bar-5"></span>
+            <span className="loader-3199-spectrum-bar loader-3199-spectrum-bar-6"></span>
+            <span className="loader-3199-spectrum-bar loader-3199-spectrum-bar-7"></span>
+            <span className="loader-3199-spectrum-bar loader-3199-spectrum-bar-8"></span>
+            <span className="loader-3199-spectrum-bar loader-3199-spectrum-bar-9"></span>
+            <span className="loader-3199-spectrum-bar loader-3199-spectrum-bar-10"></span>
+            <span className="loader-3199-spectrum-bar loader-3199-spectrum-bar-11"></span>
+            <span className="loader-3199-spectrum-bar loader-3199-spectrum-bar-12"></span>
+          </div>
+        </div>
+      </div>
+    ),
+
+    html: `<div class="loader-3199">
+    <div class="loader-3199-background">
+        <span class="loader-3199-background-glow loader-3199-background-glow-1"></span>
+        <span class="loader-3199-background-glow loader-3199-background-glow-2"></span>
+        <span class="loader-3199-background-glow loader-3199-background-glow-3"></span>
+    </div>
+
+    <div class="loader-3199-grid"></div>
+
+    <div class="loader-3199-rays">
+        <span class="loader-3199-ray loader-3199-ray-1"></span>
+        <span class="loader-3199-ray loader-3199-ray-2"></span>
+        <span class="loader-3199-ray loader-3199-ray-3"></span>
+        <span class="loader-3199-ray loader-3199-ray-4"></span>
+        <span class="loader-3199-ray loader-3199-ray-5"></span>
+        <span class="loader-3199-ray loader-3199-ray-6"></span>
+        <span class="loader-3199-ray loader-3199-ray-7"></span>
+        <span class="loader-3199-ray loader-3199-ray-8"></span>
+    </div>
+
+    <div class="loader-3199-stars">
+        <span class="loader-3199-star loader-3199-star-1"></span>
+        <span class="loader-3199-star loader-3199-star-2"></span>
+        <span class="loader-3199-star loader-3199-star-3"></span>
+        <span class="loader-3199-star loader-3199-star-4"></span>
+        <span class="loader-3199-star loader-3199-star-5"></span>
+        <span class="loader-3199-star loader-3199-star-6"></span>
+        <span class="loader-3199-star loader-3199-star-7"></span>
+        <span class="loader-3199-star loader-3199-star-8"></span>
+        <span class="loader-3199-star loader-3199-star-9"></span>
+        <span class="loader-3199-star loader-3199-star-10"></span>
+        <span class="loader-3199-star loader-3199-star-11"></span>
+        <span class="loader-3199-star loader-3199-star-12"></span>
+        <span class="loader-3199-star loader-3199-star-13"></span>
+        <span class="loader-3199-star loader-3199-star-14"></span>
+        <span class="loader-3199-star loader-3199-star-15"></span>
+        <span class="loader-3199-star loader-3199-star-16"></span>
+    </div>
+
+    <div class="loader-3199-stage">
+        <div class="loader-3199-stage-shadow"></div>
+
+        <div class="loader-3199-portal">
+            <span class="loader-3199-portal-ring loader-3199-portal-ring-1"></span>
+            <span class="loader-3199-portal-ring loader-3199-portal-ring-2"></span>
+            <span class="loader-3199-portal-ring loader-3199-portal-ring-3"></span>
+            <span class="loader-3199-portal-ring loader-3199-portal-ring-4"></span>
+
+            <span class="loader-3199-portal-node loader-3199-portal-node-1"></span>
+            <span class="loader-3199-portal-node loader-3199-portal-node-2"></span>
+            <span class="loader-3199-portal-node loader-3199-portal-node-3"></span>
+            <span class="loader-3199-portal-node loader-3199-portal-node-4"></span>
+            <span class="loader-3199-portal-node loader-3199-portal-node-5"></span>
+            <span class="loader-3199-portal-node loader-3199-portal-node-6"></span>
+        </div>
+
+        <div class="loader-3199-orbit loader-3199-orbit-outer">
+            <span class="loader-3199-orbit-gem loader-3199-orbit-gem-1"></span>
+            <span class="loader-3199-orbit-gem loader-3199-orbit-gem-2"></span>
+            <span class="loader-3199-orbit-gem loader-3199-orbit-gem-3"></span>
+        </div>
+
+        <div class="loader-3199-orbit loader-3199-orbit-middle">
+            <span class="loader-3199-orbit-gem loader-3199-orbit-gem-4"></span>
+            <span class="loader-3199-orbit-gem loader-3199-orbit-gem-5"></span>
+        </div>
+
+        <div class="loader-3199-orbit loader-3199-orbit-inner">
+            <span class="loader-3199-orbit-gem loader-3199-orbit-gem-6"></span>
+        </div>
+
+        <div class="loader-3199-shards">
+            <span class="loader-3199-shard loader-3199-shard-1"></span>
+            <span class="loader-3199-shard loader-3199-shard-2"></span>
+            <span class="loader-3199-shard loader-3199-shard-3"></span>
+            <span class="loader-3199-shard loader-3199-shard-4"></span>
+            <span class="loader-3199-shard loader-3199-shard-5"></span>
+            <span class="loader-3199-shard loader-3199-shard-6"></span>
+            <span class="loader-3199-shard loader-3199-shard-7"></span>
+            <span class="loader-3199-shard loader-3199-shard-8"></span>
+        </div>
+
+        <div class="loader-3199-core-aura"></div>
+
+        <div class="loader-3199-diamond">
+            <div class="loader-3199-diamond-shell">
+                <span class="loader-3199-diamond-face loader-3199-diamond-face-1"></span>
+                <span class="loader-3199-diamond-face loader-3199-diamond-face-2"></span>
+                <span class="loader-3199-diamond-face loader-3199-diamond-face-3"></span>
+                <span class="loader-3199-diamond-face loader-3199-diamond-face-4"></span>
+                <span class="loader-3199-diamond-face loader-3199-diamond-face-5"></span>
+                <span class="loader-3199-diamond-face loader-3199-diamond-face-6"></span>
+                <span class="loader-3199-diamond-face loader-3199-diamond-face-7"></span>
+                <span class="loader-3199-diamond-face loader-3199-diamond-face-8"></span>
+
+                <span class="loader-3199-diamond-highlight loader-3199-diamond-highlight-1"></span>
+                <span class="loader-3199-diamond-highlight loader-3199-diamond-highlight-2"></span>
+                <span class="loader-3199-diamond-highlight loader-3199-diamond-highlight-3"></span>
+
+                <span class="loader-3199-diamond-core"></span>
+            </div>
+        </div>
+
+        <div class="loader-3199-energy-particles">
+            <span class="loader-3199-energy-particle loader-3199-energy-particle-1"></span>
+            <span class="loader-3199-energy-particle loader-3199-energy-particle-2"></span>
+            <span class="loader-3199-energy-particle loader-3199-energy-particle-3"></span>
+            <span class="loader-3199-energy-particle loader-3199-energy-particle-4"></span>
+            <span class="loader-3199-energy-particle loader-3199-energy-particle-5"></span>
+            <span class="loader-3199-energy-particle loader-3199-energy-particle-6"></span>
+            <span class="loader-3199-energy-particle loader-3199-energy-particle-7"></span>
+            <span class="loader-3199-energy-particle loader-3199-energy-particle-8"></span>
+            <span class="loader-3199-energy-particle loader-3199-energy-particle-9"></span>
+            <span class="loader-3199-energy-particle loader-3199-energy-particle-10"></span>
+            <span class="loader-3199-energy-particle loader-3199-energy-particle-11"></span>
+            <span class="loader-3199-energy-particle loader-3199-energy-particle-12"></span>
+        </div>
+    </div>
+
+    <div class="loader-3199-info">
+        <div class="loader-3199-title">
+            <span class="loader-3199-title-gem"></span>
+
+            <div>
+                <strong>PRISMATIC CORE</strong>
+                <small>CRYSTAL SYNCHRONIZATION</small>
+            </div>
+
+            <span class="loader-3199-status-dot"></span>
+        </div>
+
+        <div class="loader-3199-progress">
+            <div class="loader-3199-progress-track">
+                <span class="loader-3199-progress-fill"></span>
+                <span class="loader-3199-progress-diamond"></span>
+                <span class="loader-3199-progress-shine"></span>
+            </div>
+
+            <div class="loader-3199-progress-meta">
+                <span>CRYSTALLIZING</span>
+                <strong>74%</strong>
+            </div>
+        </div>
+
+        <div class="loader-3199-spectrum">
+            <span class="loader-3199-spectrum-bar loader-3199-spectrum-bar-1"></span>
+            <span class="loader-3199-spectrum-bar loader-3199-spectrum-bar-2"></span>
+            <span class="loader-3199-spectrum-bar loader-3199-spectrum-bar-3"></span>
+            <span class="loader-3199-spectrum-bar loader-3199-spectrum-bar-4"></span>
+            <span class="loader-3199-spectrum-bar loader-3199-spectrum-bar-5"></span>
+            <span class="loader-3199-spectrum-bar loader-3199-spectrum-bar-6"></span>
+            <span class="loader-3199-spectrum-bar loader-3199-spectrum-bar-7"></span>
+            <span class="loader-3199-spectrum-bar loader-3199-spectrum-bar-8"></span>
+            <span class="loader-3199-spectrum-bar loader-3199-spectrum-bar-9"></span>
+            <span class="loader-3199-spectrum-bar loader-3199-spectrum-bar-10"></span>
+            <span class="loader-3199-spectrum-bar loader-3199-spectrum-bar-11"></span>
+            <span class="loader-3199-spectrum-bar loader-3199-spectrum-bar-12"></span>
+        </div>
+    </div>
+</div>`,
+
+    css: `.loader-3199 {
+    --loader3199-cyan: #67e8f9;
+    --loader3199-sky: #38bdf8;
+    --loader3199-blue: #6366f1;
+    --loader3199-purple: #8b5cf6;
+    --loader3199-violet: #a855f7;
+    --loader3199-pink: #d946ef;
+    --loader3199-white: #f8fafc;
+
+    position: relative;
+    width: 280px;
+    min-height: 390px;
+    padding: 24px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(125, 211, 252, .16);
+    border-radius: 30px;
+    color: #eaf8ff;
+    background:
+        radial-gradient(
+            circle at 18% 15%,
+            rgba(56, 189, 248, .11),
+            transparent 29%
+        ),
+        radial-gradient(
+            circle at 82% 25%,
+            rgba(168, 85, 247, .12),
+            transparent 31%
+        ),
+        radial-gradient(
+            circle at 50% 95%,
+            rgba(99, 102, 241, .12),
+            transparent 34%
+        ),
+        linear-gradient(
+            155deg,
+            #07101b,
+            #090d1b 45%,
+            #0d0b1d 72%,
+            #070b14
+        );
+    box-shadow:
+        0 32px 80px rgba(0, 0, 0, .5),
+        0 0 50px rgba(99, 102, 241, .07),
+        inset 0 1px 0 rgba(255, 255, 255, .04);
+    font-family: Inter, Arial, sans-serif;
+    isolation: isolate;
+}
+
+.loader-3199,
+.loader-3199 * {
+    box-sizing: border-box;
+}
+
+.loader-3199::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -10;
+    opacity: .18;
+    pointer-events: none;
+    background-image:
+        linear-gradient(
+            rgba(103, 232, 249, .07) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(129, 140, 248, .07) 1px,
+            transparent 1px
+        );
+    background-size: 26px 26px;
+    mask-image:
+        radial-gradient(
+            circle,
+            black,
+            transparent 80%
+        );
+    -webkit-mask-image:
+        radial-gradient(
+            circle,
+            black,
+            transparent 80%
+        );
+    animation:
+        loader3199BackgroundGrid
+        14s
+        linear
+        infinite;
+}
+
+.loader-3199::after {
+    content: "";
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    bottom: -50px;
+    height: 100px;
+    z-index: -9;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(56, 189, 248, .2),
+            rgba(99, 102, 241, .22),
+            rgba(168, 85, 247, .18)
+        );
+    filter: blur(36px);
+    animation:
+        loader3199GroundAura
+        4s
+        ease-in-out
+        infinite;
+}
+
+.loader-3199-background {
+    position: absolute;
+    inset: 0;
+    z-index: -8;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.loader-3199-background-glow {
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(36px);
+    opacity: .45;
+}
+
+.loader-3199-background-glow-1 {
+    width: 150px;
+    height: 120px;
+    left: -65px;
+    top: 50px;
+    background: rgba(56, 189, 248, .19);
+    animation:
+        loader3199BackgroundGlowOne
+        9s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.loader-3199-background-glow-2 {
+    width: 165px;
+    height: 120px;
+    right: -70px;
+    top: 120px;
+    background: rgba(168, 85, 247, .16);
+    animation:
+        loader3199BackgroundGlowTwo
+        11s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.loader-3199-background-glow-3 {
+    width: 140px;
+    height: 110px;
+    left: 60px;
+    bottom: -60px;
+    background: rgba(99, 102, 241, .14);
+    animation:
+        loader3199BackgroundGlowThree
+        10s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+.loader-3199-grid {
+    position: absolute;
+    inset: 0;
+    z-index: -7;
+    opacity: .12;
+    pointer-events: none;
+    background-image:
+        radial-gradient(
+            circle,
+            rgba(186, 230, 253, .22) 1px,
+            transparent 1px
+        );
+    background-size: 17px 17px;
+    animation:
+        loader3199DotGrid
+        16s
+        linear
+        infinite;
+}
+
+.loader-3199-rays {
+    position: absolute;
+    inset: 0;
+    z-index: -5;
+    pointer-events: none;
+}
+
+.loader-3199-ray {
+    position: absolute;
+    left: 50%;
+    top: 43%;
+    width: 2px;
+    height: 150px;
+    transform-origin: 50% 0;
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(186, 230, 253, .22),
+            rgba(129, 140, 248, .07),
+            transparent
+        );
+    filter: blur(1px);
+    opacity: .4;
+    animation:
+        loader3199RayPulse
+        4s
+        ease-in-out
+        infinite;
+}
+
+.loader-3199-ray-1 {
+    transform: rotate(0deg);
+}
+
+.loader-3199-ray-2 {
+    transform: rotate(45deg);
+    animation-delay: -.5s;
+}
+
+.loader-3199-ray-3 {
+    transform: rotate(90deg);
+    animation-delay: -1s;
+}
+
+.loader-3199-ray-4 {
+    transform: rotate(135deg);
+    animation-delay: -1.5s;
+}
+
+.loader-3199-ray-5 {
+    transform: rotate(180deg);
+    animation-delay: -2s;
+}
+
+.loader-3199-ray-6 {
+    transform: rotate(225deg);
+    animation-delay: -2.5s;
+}
+
+.loader-3199-ray-7 {
+    transform: rotate(270deg);
+    animation-delay: -3s;
+}
+
+.loader-3199-ray-8 {
+    transform: rotate(315deg);
+    animation-delay: -3.5s;
+}
+
+.loader-3199-stars {
+    position: absolute;
+    inset: 0;
+    z-index: -4;
+    pointer-events: none;
+}
+
+.loader-3199-star {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #ecfeff;
+    box-shadow:
+        0 0 6px rgba(103, 232, 249, .8);
+    animation:
+        loader3199Star
+        3s
+        ease-in-out
+        infinite;
+}
+
+.loader-3199-star::before,
+.loader-3199-star::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: rgba(224, 242, 254, .55);
+    transform: translate(-50%, -50%);
+}
+
+.loader-3199-star::before {
+    width: 9px;
+    height: 1px;
+}
+
+.loader-3199-star::after {
+    width: 1px;
+    height: 9px;
+}
+
+.loader-3199-star-1 {
+    left: 10%;
+    top: 13%;
+}
+
+.loader-3199-star-2 {
+    left: 25%;
+    top: 8%;
+    animation-delay: -.4s;
+}
+
+.loader-3199-star-3 {
+    left: 43%;
+    top: 15%;
+    animation-delay: -.8s;
+}
+
+.loader-3199-star-4 {
+    left: 70%;
+    top: 10%;
+    animation-delay: -1.2s;
+}
+
+.loader-3199-star-5 {
+    left: 88%;
+    top: 19%;
+    animation-delay: -1.6s;
+}
+
+.loader-3199-star-6 {
+    left: 7%;
+    top: 39%;
+    animation-delay: -2s;
+}
+
+.loader-3199-star-7 {
+    left: 92%;
+    top: 43%;
+    animation-delay: -2.4s;
+}
+
+.loader-3199-star-8 {
+    left: 14%;
+    top: 64%;
+    animation-delay: -2.8s;
+}
+
+.loader-3199-star-9 {
+    left: 85%;
+    top: 68%;
+    animation-delay: -.3s;
+}
+
+.loader-3199-star-10 {
+    left: 30%;
+    top: 73%;
+    animation-delay: -.7s;
+}
+
+.loader-3199-star-11 {
+    left: 66%;
+    top: 76%;
+    animation-delay: -1.1s;
+}
+
+.loader-3199-star-12 {
+    left: 48%;
+    top: 89%;
+    animation-delay: -1.5s;
+}
+
+.loader-3199-star-13 {
+    left: 5%;
+    top: 85%;
+    animation-delay: -1.9s;
+}
+
+.loader-3199-star-14 {
+    left: 94%;
+    top: 87%;
+    animation-delay: -2.3s;
+}
+
+.loader-3199-star-15 {
+    left: 37%;
+    top: 32%;
+    animation-delay: -2.7s;
+}
+
+.loader-3199-star-16 {
+    left: 74%;
+    top: 35%;
+    animation-delay: -1.3s;
+}
+
+.loader-3199-stage {
+    position: relative;
+    width: 200px;
+    height: 220px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3199-stage-shadow {
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+    width: 128px;
+    height: 22px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background:
+        rgba(17, 24, 39, .72);
+    box-shadow:
+        0 0 25px rgba(99, 102, 241, .14);
+    filter: blur(8px);
+    animation:
+        loader3199StageShadow
+        3s
+        ease-in-out
+        infinite;
+}
+
+.loader-3199-portal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 170px;
+    height: 170px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.loader-3199-portal-ring {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.loader-3199-portal-ring-1 {
+    inset: 0;
+    border:
+        1px solid
+        rgba(103, 232, 249, .18);
+    border-top-color:
+        rgba(103, 232, 249, .65);
+    border-bottom-color:
+        rgba(192, 132, 252, .42);
+    box-shadow:
+        0 0 15px
+        rgba(99, 102, 241, .09);
+    animation:
+        loader3199PortalOne
+        10s
+        linear
+        infinite;
+}
+
+.loader-3199-portal-ring-2 {
+    inset: 13px;
+    border:
+        1px dashed
+        rgba(129, 140, 248, .25);
+    animation:
+        loader3199PortalTwo
+        7s
+        linear
+        infinite;
+}
+
+.loader-3199-portal-ring-3 {
+    inset: 29px;
+    border:
+        1px solid
+        rgba(217, 70, 239, .18);
+    border-left-color:
+        rgba(217, 70, 239, .55);
+    border-right-color:
+        rgba(103, 232, 249, .55);
+    animation:
+        loader3199PortalThree
+        5s
+        linear
+        infinite;
+}
+
+.loader-3199-portal-ring-4 {
+    inset: 43px;
+    border:
+        1px dashed
+        rgba(224, 242, 254, .2);
+    animation:
+        loader3199PortalFour
+        3.7s
+        linear
+        infinite;
+}
+
+.loader-3199-portal-node {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    transform: rotate(45deg);
+    background:
+        linear-gradient(
+            135deg,
+            #fff,
+            #67e8f9,
+            #818cf8
+        );
+    box-shadow:
+        0 0 7px
+        rgba(103, 232, 249, .65);
+}
+
+.loader-3199-portal-node-1 {
+    left: 81px;
+    top: -3px;
+    animation:
+        loader3199Node
+        2s
+        ease-in-out
+        infinite;
+}
+
+.loader-3199-portal-node-2 {
+    right: 7px;
+    top: 39px;
+    animation:
+        loader3199Node
+        2s
+        ease-in-out
+        infinite
+        -.3s;
+}
+
+.loader-3199-portal-node-3 {
+    right: 8px;
+    bottom: 37px;
+    animation:
+        loader3199Node
+        2s
+        ease-in-out
+        infinite
+        -.6s;
+}
+
+.loader-3199-portal-node-4 {
+    left: 81px;
+    bottom: -3px;
+    animation:
+        loader3199Node
+        2s
+        ease-in-out
+        infinite
+        -.9s;
+}
+
+.loader-3199-portal-node-5 {
+    left: 7px;
+    bottom: 39px;
+    animation:
+        loader3199Node
+        2s
+        ease-in-out
+        infinite
+        -1.2s;
+}
+
+.loader-3199-portal-node-6 {
+    left: 7px;
+    top: 39px;
+    animation:
+        loader3199Node
+        2s
+        ease-in-out
+        infinite
+        -1.5s;
+}
+
+.loader-3199-orbit {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.loader-3199-orbit-outer {
+    width: 145px;
+    height: 62px;
+    border:
+        1px solid
+        rgba(103, 232, 249, .18);
+    transform:
+        translate(-50%, -50%)
+        rotate(-18deg);
+    animation:
+        loader3199OrbitOuter
+        6s
+        linear
+        infinite;
+}
+
+.loader-3199-orbit-middle {
+    width: 118px;
+    height: 47px;
+    border:
+        1px solid
+        rgba(129, 140, 248, .2);
+    transform:
+        translate(-50%, -50%)
+        rotate(23deg);
+    animation:
+        loader3199OrbitMiddle
+        4.8s
+        linear
+        infinite;
+}
+
+.loader-3199-orbit-inner {
+    width: 88px;
+    height: 32px;
+    border:
+        1px solid
+        rgba(217, 70, 239, .18);
+    transform:
+        translate(-50%, -50%)
+        rotate(-8deg);
+    animation:
+        loader3199OrbitInner
+        3.6s
+        linear
+        infinite;
+}
+
+.loader-3199-orbit-gem {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    background:
+        linear-gradient(
+            135deg,
+            #fff,
+            #67e8f9,
+            #818cf8,
+            #c084fc
+        );
+    box-shadow:
+        0 0 7px
+        rgba(103, 232, 249, .6);
+}
+
+.loader-3199-orbit-gem-1 {
+    left: 18px;
+    top: -3px;
+}
+
+.loader-3199-orbit-gem-2 {
+    right: 17px;
+    bottom: -3px;
+}
+
+.loader-3199-orbit-gem-3 {
+    right: -3px;
+    top: 25px;
+    background:
+        linear-gradient(
+            135deg,
+            #fff,
+            #c084fc,
+            #818cf8
+        );
+}
+
+.loader-3199-orbit-gem-4 {
+    left: 7px;
+    bottom: 2px;
+}
+
+.loader-3199-orbit-gem-5 {
+    right: 3px;
+    top: 5px;
+    background:
+        linear-gradient(
+            135deg,
+            #fff,
+            #f0abfc,
+            #818cf8
+        );
+}
+
+.loader-3199-orbit-gem-6 {
+    left: 38px;
+    top: -4px;
+}
+
+.loader-3199-shards {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.loader-3199-shard {
+    position: absolute;
+    width: 8px;
+    height: 24px;
+    clip-path:
+        polygon(
+            50% 0%,
+            100% 28%,
+            77% 100%,
+            23% 100%,
+            0% 28%
+        );
+    background:
+        linear-gradient(
+            135deg,
+            #fff,
+            #bae6fd 25%,
+            #67e8f9 50%,
+            #818cf8 78%,
+            #c084fc
+        );
+    filter:
+        drop-shadow(
+            0 0 4px
+            rgba(103, 232, 249, .5)
+        );
+    opacity: .65;
+    animation:
+        loader3199ShardFloat
+        4s
+        ease-in-out
+        infinite;
+}
+
+.loader-3199-shard-1 {
+    left: 13px;
+    top: 46px;
+    transform: rotate(-24deg);
+}
+
+.loader-3199-shard-2 {
+    left: 29px;
+    top: 125px;
+    height: 18px;
+    transform: rotate(18deg);
+    animation-delay: -.5s;
+}
+
+.loader-3199-shard-3 {
+    right: 18px;
+    top: 48px;
+    height: 20px;
+    transform: rotate(24deg);
+    animation-delay: -1s;
+}
+
+.loader-3199-shard-4 {
+    right: 28px;
+    top: 131px;
+    transform: rotate(-16deg);
+    animation-delay: -1.5s;
+}
+
+.loader-3199-shard-5 {
+    left: 74px;
+    top: 6px;
+    height: 17px;
+    transform: rotate(-5deg);
+    animation-delay: -2s;
+}
+
+.loader-3199-shard-6 {
+    right: 72px;
+    bottom: 6px;
+    height: 19px;
+    transform: rotate(7deg);
+    animation-delay: -2.5s;
+}
+
+.loader-3199-shard-7 {
+    left: 5px;
+    top: 91px;
+    height: 15px;
+    transform: rotate(-32deg);
+    animation-delay: -3s;
+}
+
+.loader-3199-shard-8 {
+    right: 4px;
+    top: 94px;
+    height: 16px;
+    transform: rotate(32deg);
+    animation-delay: -3.5s;
+}
+
+.loader-3199-core-aura {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 85px;
+    height: 85px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(103, 232, 249, .28),
+            rgba(99, 102, 241, .16) 42%,
+            rgba(168, 85, 247, .05) 65%,
+            transparent 75%
+        );
+    filter: blur(10px);
+    animation:
+        loader3199CoreAura
+        2.8s
+        ease-in-out
+        infinite;
+}
+
+.loader-3199-diamond {
+    position: relative;
+    z-index: 10;
+    width: 74px;
+    height: 74px;
+    display: grid;
+    place-items: center;
+    perspective: 300px;
+    animation:
+        loader3199DiamondFloat
+        3s
+        ease-in-out
+        infinite;
+}
+
+.loader-3199-diamond-shell {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    overflow: hidden;
+    transform: rotate(45deg);
+    border:
+        1px solid
+        rgba(224, 242, 254, .44);
+    background:
+        linear-gradient(
+            135deg,
+            #f8fafc,
+            #bae6fd 18%,
+            #67e8f9 37%,
+            #818cf8 62%,
+            #8b5cf6 78%,
+            #d946ef
+        );
+    box-shadow:
+        0 0 13px
+        rgba(103, 232, 249, .55),
+        0 0 30px
+        rgba(99, 102, 241, .3),
+        inset 0 0 16px
+        rgba(255, 255, 255, .18);
+    animation:
+        loader3199DiamondRotate
+        4s
+        ease-in-out
+        infinite;
+}
+
+.loader-3199-diamond-face {
+    position: absolute;
+    pointer-events: none;
+}
+
+.loader-3199-diamond-face-1 {
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255, 255, 255, .65),
+            rgba(186, 230, 253, .18)
+        );
+}
+
+.loader-3199-diamond-face-2 {
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    background:
+        linear-gradient(
+            225deg,
+            rgba(224, 242, 254, .34),
+            rgba(99, 102, 241, .11)
+        );
+}
+
+.loader-3199-diamond-face-3 {
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 50%;
+    background:
+        linear-gradient(
+            45deg,
+            rgba(56, 189, 248, .1),
+            rgba(99, 102, 241, .34)
+        );
+}
+
+.loader-3199-diamond-face-4 {
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 50%;
+    background:
+        linear-gradient(
+            315deg,
+            rgba(217, 70, 239, .27),
+            rgba(129, 140, 248, .16)
+        );
+}
+
+.loader-3199-diamond-face-5 {
+    left: 25%;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    background:
+        linear-gradient(
+            transparent,
+            rgba(255, 255, 255, .42),
+            transparent
+        );
+}
+
+.loader-3199-diamond-face-6 {
+    right: 25%;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    transform: rotate(45deg);
+    transform-origin: center;
+    background:
+        linear-gradient(
+            transparent,
+            rgba(224, 242, 254, .24),
+            transparent
+        );
+}
+
+.loader-3199-diamond-face-7 {
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, .28),
+            transparent
+        );
+}
+
+.loader-3199-diamond-face-8 {
+    left: 50%;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background:
+        linear-gradient(
+            transparent,
+            rgba(103, 232, 249, .3),
+            transparent
+        );
+}
+
+.loader-3199-diamond-highlight {
+    position: absolute;
+    pointer-events: none;
+    background: rgba(255, 255, 255, .8);
+    filter: blur(.4px);
+}
+
+.loader-3199-diamond-highlight-1 {
+    left: 7px;
+    top: 6px;
+    width: 17px;
+    height: 2px;
+    transform: rotate(-20deg);
+    border-radius: 999px;
+}
+
+.loader-3199-diamond-highlight-2 {
+    right: 8px;
+    top: 13px;
+    width: 8px;
+    height: 1px;
+    transform: rotate(35deg);
+    border-radius: 999px;
+    opacity: .6;
+}
+
+.loader-3199-diamond-highlight-3 {
+    left: 11px;
+    bottom: 10px;
+    width: 12px;
+    height: 1px;
+    transform: rotate(25deg);
+    opacity: .5;
+}
+
+.loader-3199-diamond-core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 15px;
+    height: 15px;
+    transform:
+        translate(-50%, -50%);
+    border-radius: 50%;
+    background:
+        #f0f9ff;
+    box-shadow:
+        0 0 8px
+        #67e8f9,
+        0 0 15px
+        #818cf8,
+        0 0 25px
+        rgba(217, 70, 239, .55);
+    animation:
+        loader3199DiamondCore
+        1.5s
+        ease-in-out
+        infinite;
+}
+
+.loader-3199-energy-particles {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.loader-3199-energy-particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    transform: rotate(45deg);
+    background:
+        linear-gradient(
+            135deg,
+            #fff,
+            #67e8f9
+        );
+    box-shadow:
+        0 0 5px
+        rgba(103, 232, 249, .7);
+    animation:
+        loader3199Particle
+        4s
+        ease-in-out
+        infinite;
+}
+
+.loader-3199-energy-particle-1 {
+    left: 18%;
+    top: 20%;
+}
+
+.loader-3199-energy-particle-2 {
+    left: 34%;
+    top: 11%;
+    animation-delay: -.3s;
+}
+
+.loader-3199-energy-particle-3 {
+    right: 28%;
+    top: 16%;
+    animation-delay: -.6s;
+}
+
+.loader-3199-energy-particle-4 {
+    right: 13%;
+    top: 32%;
+    animation-delay: -.9s;
+}
+
+.loader-3199-energy-particle-5 {
+    right: 16%;
+    top: 61%;
+    animation-delay: -1.2s;
+}
+
+.loader-3199-energy-particle-6 {
+    right: 31%;
+    bottom: 12%;
+    animation-delay: -1.5s;
+}
+
+.loader-3199-energy-particle-7 {
+    left: 40%;
+    bottom: 8%;
+    animation-delay: -1.8s;
+}
+
+.loader-3199-energy-particle-8 {
+    left: 19%;
+    bottom: 19%;
+    animation-delay: -2.1s;
+}
+
+.loader-3199-energy-particle-9 {
+    left: 9%;
+    top: 51%;
+    animation-delay: -2.4s;
+}
+
+.loader-3199-energy-particle-10 {
+    left: 48%;
+    top: 24%;
+    animation-delay: -2.7s;
+}
+
+.loader-3199-energy-particle-11 {
+    right: 39%;
+    bottom: 25%;
+    animation-delay: -3s;
+}
+
+.loader-3199-energy-particle-12 {
+    left: 27%;
+    top: 55%;
+    animation-delay: -3.3s;
+}
+
+.loader-3199-info {
+    width: 205px;
+    margin-top: 5px;
+}
+
+.loader-3199-title {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.loader-3199-title-gem {
+    width: 24px;
+    height: 24px;
+    flex: 0 0 24px;
+    transform: rotate(45deg);
+    border:
+        1px solid
+        rgba(103, 232, 249, .3);
+    background:
+        linear-gradient(
+            135deg,
+            #f8fafc,
+            #67e8f9 38%,
+            #6366f1 72%,
+            #c084fc
+        );
+    box-shadow:
+        0 0 8px
+        rgba(103, 232, 249, .4);
+    animation:
+        loader3199TitleGem
+        2s
+        ease-in-out
+        infinite;
+}
+
+.loader-3199-title > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.loader-3199-title strong {
+    color: #e6f6ff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .14em;
+}
+
+.loader-3199-title small {
+    color: #63768f;
+    font-size: 4px;
+    font-weight: 800;
+    letter-spacing: .11em;
+}
+
+.loader-3199-status-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #67e8f9;
+    box-shadow:
+        0 0 7px #67e8f9,
+        0 0 14px rgba(103, 232, 249, .45);
+    animation:
+        loader3199Status
+        1.6s
+        ease-in-out
+        infinite;
+}
+
+.loader-3199-progress {
+    margin-top: 15px;
+}
+
+.loader-3199-progress-track {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    overflow: visible;
+    border:
+        1px solid
+        rgba(125, 211, 252, .12);
+    border-radius: 999px;
+    background: #0d1728;
+    box-shadow:
+        inset 0 1px 3px
+        rgba(0, 0, 0, .45);
+}
+
+.loader-3199-progress-fill {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 74%;
+    height: 3px;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            90deg,
+            #0ea5e9,
+            #67e8f9,
+            #818cf8,
+            #a855f7,
+            #d946ef
+        );
+    background-size: 220% 100%;
+    box-shadow:
+        0 0 7px
+        rgba(103, 232, 249, .45);
+    animation:
+        loader3199ProgressFlow
+        3s
+        linear
+        infinite;
+}
+
+.loader-3199-progress-diamond {
+    position: absolute;
+    left: calc(74% - 6px);
+    top: -4px;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    background:
+        linear-gradient(
+            135deg,
+            #fff,
+            #67e8f9,
+            #818cf8
+        );
+    box-shadow:
+        0 0 8px
+        rgba(103, 232, 249, .8);
+    animation:
+        loader3199ProgressDiamond
+        1.3s
+        ease-in-out
+        infinite;
+}
+
+.loader-3199-progress-shine {
+    position: absolute;
+    left: -20px;
+    top: 0;
+    width: 20px;
+    height: 5px;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, .8),
+            transparent
+        );
+    animation:
+        loader3199ProgressShine
+        2s
+        linear
+        infinite;
+}
+
+.loader-3199-progress-meta {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loader-3199-progress-meta span {
+    color: #5f7189;
+    font-size: 4px;
+    font-weight: 900;
+    letter-spacing: .13em;
+}
+
+.loader-3199-progress-meta strong {
+    color: #8ee9fa;
+    font-size: 6px;
+    font-weight: 900;
+}
+
+.loader-3199-spectrum {
+    height: 19px;
+    margin-top: 11px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 3px;
+}
+
+.loader-3199-spectrum-bar {
+    width: 4px;
+    border-radius:
+        2px
+        2px
+        0
+        0;
+    background:
+        linear-gradient(
+            to top,
+            #6366f1,
+            #67e8f9
+        );
+    box-shadow:
+        0 0 4px
+        rgba(103, 232, 249, .28);
+    transform-origin: bottom;
+    animation:
+        loader3199Spectrum
+        1.5s
+        ease-in-out
+        infinite;
+}
+
+.loader-3199-spectrum-bar-1 {
+    height: 6px;
+}
+
+.loader-3199-spectrum-bar-2 {
+    height: 11px;
+    animation-delay: -.15s;
+}
+
+.loader-3199-spectrum-bar-3 {
+    height: 15px;
+    animation-delay: -.3s;
+}
+
+.loader-3199-spectrum-bar-4 {
+    height: 9px;
+    animation-delay: -.45s;
+}
+
+.loader-3199-spectrum-bar-5 {
+    height: 17px;
+    animation-delay: -.6s;
+}
+
+.loader-3199-spectrum-bar-6 {
+    height: 12px;
+    animation-delay: -.75s;
+}
+
+.loader-3199-spectrum-bar-7 {
+    height: 18px;
+    animation-delay: -.9s;
+}
+
+.loader-3199-spectrum-bar-8 {
+    height: 10px;
+    animation-delay: -1.05s;
+}
+
+.loader-3199-spectrum-bar-9 {
+    height: 14px;
+    animation-delay: -1.2s;
+}
+
+.loader-3199-spectrum-bar-10 {
+    height: 8px;
+    animation-delay: -1.35s;
+}
+
+.loader-3199-spectrum-bar-11 {
+    height: 13px;
+    animation-delay: -1.5s;
+}
+
+.loader-3199-spectrum-bar-12 {
+    height: 5px;
+    animation-delay: -1.65s;
+}
+
+@keyframes loader3199BackgroundGrid {
+    from {
+        background-position:
+            0 0,
+            0 0;
+    }
+
+    to {
+        background-position:
+            26px 26px,
+            26px 26px;
+    }
+}
+
+@keyframes loader3199GroundAura {
+    0%,
+    100% {
+        transform: scaleX(.75);
+        opacity: .4;
+    }
+
+    50% {
+        transform: scaleX(1.12);
+        opacity: .8;
+    }
+}
+
+@keyframes loader3199BackgroundGlowOne {
+    from {
+        transform:
+            translate(-15px, -10px)
+            scale(.9);
+    }
+
+    to {
+        transform:
+            translate(45px, 30px)
+            scale(1.2);
+    }
+}
+
+@keyframes loader3199BackgroundGlowTwo {
+    from {
+        transform:
+            translate(25px, -15px)
+            scale(.88);
+    }
+
+    to {
+        transform:
+            translate(-40px, 25px)
+            scale(1.17);
+    }
+}
+
+@keyframes loader3199BackgroundGlowThree {
+    from {
+        transform:
+            translateX(-30px)
+            scale(.9);
+    }
+
+    to {
+        transform:
+            translateX(35px)
+            scale(1.18);
+    }
+}
+
+@keyframes loader3199DotGrid {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 34px 34px;
+    }
+}
+
+@keyframes loader3199RayPulse {
+    0%,
+    100% {
+        opacity: .12;
+        filter: blur(2px);
+    }
+
+    50% {
+        opacity: .6;
+        filter: blur(.5px);
+    }
+}
+
+@keyframes loader3199Star {
+    0%,
+    100% {
+        opacity: .1;
+        transform: scale(.45);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes loader3199StageShadow {
+    0%,
+    100% {
+        transform:
+            translateX(-50%)
+            scaleX(.8);
+        opacity: .45;
+    }
+
+    50% {
+        transform:
+            translateX(-50%)
+            scaleX(1.12);
+        opacity: .75;
+    }
+}
+
+@keyframes loader3199PortalOne {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader3199PortalTwo {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes loader3199PortalThree {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader3199PortalFour {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes loader3199Node {
+    0%,
+    100% {
+        transform:
+            rotate(45deg)
+            scale(.65);
+        opacity: .3;
+    }
+
+    50% {
+        transform:
+            rotate(135deg)
+            scale(1.2);
+        opacity: 1;
+    }
+}
+
+@keyframes loader3199OrbitOuter {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(-18deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(342deg);
+    }
+}
+
+@keyframes loader3199OrbitMiddle {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(23deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(-337deg);
+    }
+}
+
+@keyframes loader3199OrbitInner {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(-8deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(352deg);
+    }
+}
+
+@keyframes loader3199ShardFloat {
+    0%,
+    100% {
+        translate: 0 3px;
+        opacity: .3;
+        filter: brightness(.8);
+    }
+
+    50% {
+        translate: 0 -5px;
+        opacity: 1;
+        filter: brightness(1.4);
+    }
+}
+
+@keyframes loader3199CoreAura {
+    0%,
+    100% {
+        transform:
+            translate(-50%, -50%)
+            scale(.72);
+        opacity: .35;
+    }
+
+    50% {
+        transform:
+            translate(-50%, -50%)
+            scale(1.15);
+        opacity: .8;
+    }
+}
+
+@keyframes loader3199DiamondFloat {
+    0%,
+    100% {
+        transform: translateY(5px);
+    }
+
+    50% {
+        transform: translateY(-7px);
+    }
+}
+
+@keyframes loader3199DiamondRotate {
+    0% {
+        transform:
+            rotate(45deg)
+            rotateY(0deg)
+            scale(.9);
+        filter: brightness(.9);
+    }
+
+    25% {
+        transform:
+            rotate(90deg)
+            rotateY(90deg)
+            scale(1);
+    }
+
+    50% {
+        transform:
+            rotate(225deg)
+            rotateY(180deg)
+            scale(1.08);
+        filter: brightness(1.4);
+    }
+
+    75% {
+        transform:
+            rotate(315deg)
+            rotateY(270deg)
+            scale(1);
+    }
+
+    100% {
+        transform:
+            rotate(405deg)
+            rotateY(360deg)
+            scale(.9);
+        filter: brightness(.9);
+    }
+}
+
+@keyframes loader3199DiamondCore {
+    0%,
+    100% {
+        transform:
+            translate(-50%, -50%)
+            scale(.65);
+        opacity: .55;
+    }
+
+    50% {
+        transform:
+            translate(-50%, -50%)
+            scale(1.2);
+        opacity: 1;
+    }
+}
+
+@keyframes loader3199Particle {
+    0%,
+    100% {
+        transform:
+            rotate(45deg)
+            translate(0, 0)
+            scale(.55);
+        opacity: .15;
+    }
+
+    35% {
+        transform:
+            rotate(90deg)
+            translate(4px, -7px)
+            scale(1);
+        opacity: 1;
+    }
+
+    70% {
+        transform:
+            rotate(160deg)
+            translate(-3px, 5px)
+            scale(.75);
+        opacity: .45;
+    }
+}
+
+@keyframes loader3199TitleGem {
+    0%,
+    100% {
+        transform:
+            rotate(45deg)
+            scale(.8);
+        filter: brightness(.9);
+    }
+
+    50% {
+        transform:
+            rotate(135deg)
+            scale(1.05);
+        filter: brightness(1.35);
+    }
+}
+
+@keyframes loader3199Status {
+    0%,
+    100% {
+        opacity: .35;
+        transform: scale(.65);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes loader3199ProgressFlow {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 220% 50%;
+    }
+}
+
+@keyframes loader3199ProgressDiamond {
+    0%,
+    100% {
+        transform:
+            rotate(45deg)
+            scale(.8);
+    }
+
+    50% {
+        transform:
+            rotate(135deg)
+            scale(1.15);
+    }
+}
+
+@keyframes loader3199ProgressShine {
+    from {
+        left: -20px;
+    }
+
+    to {
+        left: 210px;
+    }
+}
+
+@keyframes loader3199Spectrum {
+    0%,
+    100% {
+        transform: scaleY(.4);
+        opacity: .35;
+    }
+
+    50% {
+        transform: scaleY(1);
+        opacity: 1;
+        filter: brightness(1.3);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .loader-3199 *,
+    .loader-3199 *::before,
+    .loader-3199 *::after,
+    .loader-3199::before,
+    .loader-3199::after {
+        animation-duration: .001ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}`,
+  },
+  {
+    id: 3200,
+    name: "Crescent Moon Loader",
+    preview: (
+      <div className="loader-3200">
+        <span className="loader-3200-moon"></span>
+      </div>
+    ),
+    html: `<div class="loader-3200">
+    <span class="loader-3200-moon"></span>
+</div>`,
+    css: `.loader-3200 {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3200-moon {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            135deg,
+            #e0e7ff,
+            #818cf8 48%,
+            #6366f1
+        );
+    box-shadow:
+        0 0 9px rgba(129, 140, 248, .45),
+        0 0 18px rgba(99, 102, 241, .2);
+    animation:
+        loader3200Moon
+        1.7s
+        ease-in-out
+        infinite;
+}
+
+.loader-3200-moon::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -4px;
+    top: -3px;
+    border-radius: 50%;
+    background: #0b0b0e;
+}
+
+@keyframes loader3200Moon {
+    0%,
+    100% {
+        transform: rotate(-18deg) scale(.82);
+        filter: brightness(.82);
+    }
+
+    50% {
+        transform: rotate(18deg) scale(1.05);
+        filter: brightness(1.25);
+    }
+}`,
+  },
+
+  {
+    id: 3201,
+    name: "Lunar Dots Loader",
+    preview: (
+      <div className="loader-3201">
+        <span className="loader-3201-dot loader-3201-dot-1"></span>
+        <span className="loader-3201-dot loader-3201-dot-2"></span>
+        <span className="loader-3201-dot loader-3201-dot-3"></span>
+        <span className="loader-3201-dot loader-3201-dot-4"></span>
+      </div>
+    ),
+    html: `<div class="loader-3201">
+    <span class="loader-3201-dot loader-3201-dot-1"></span>
+    <span class="loader-3201-dot loader-3201-dot-2"></span>
+    <span class="loader-3201-dot loader-3201-dot-3"></span>
+    <span class="loader-3201-dot loader-3201-dot-4"></span>
+</div>`,
+    css: `.loader-3201 {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.loader-3201-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 35% 30%,
+            #f8fafc,
+            #a5b4fc 38%,
+            #6366f1 72%,
+            #4338ca
+        );
+    box-shadow:
+        0 0 7px rgba(129, 140, 248, .45);
+    animation:
+        loader3201Dot
+        1.2s
+        ease-in-out
+        infinite;
+}
+
+.loader-3201-dot-2 {
+    animation-delay: .12s;
+}
+
+.loader-3201-dot-3 {
+    animation-delay: .24s;
+}
+
+.loader-3201-dot-4 {
+    animation-delay: .36s;
+}
+
+@keyframes loader3201Dot {
+    0%,
+    100% {
+        transform: translateY(0) scale(.65);
+        opacity: .3;
+    }
+
+    50% {
+        transform: translateY(-7px) scale(1.08);
+        opacity: 1;
+        filter: brightness(1.35);
+    }
+}`,
+  },
+
+  {
+    id: 3202,
+    name: "Moonlight Progress Loader",
+    preview: (
+      <div className="loader-3202">
+        <div className="loader-3202-track">
+          <span className="loader-3202-fill"></span>
+          <span className="loader-3202-moon"></span>
+          <span className="loader-3202-shine"></span>
+        </div>
+      </div>
+    ),
+    html: `<div class="loader-3202">
+    <div class="loader-3202-track">
+        <span class="loader-3202-fill"></span>
+        <span class="loader-3202-moon"></span>
+        <span class="loader-3202-shine"></span>
+    </div>
+</div>`,
+    css: `.loader-3202 {
+    width: 116px;
+}
+
+.loader-3202-track {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    border-radius: 999px;
+    background: #1b1b24;
+    box-shadow:
+        inset 0 1px 3px rgba(0, 0, 0, .55);
+}
+
+.loader-3202-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 22%;
+    height: 100%;
+    border-radius: inherit;
+    background:
+        linear-gradient(
+            90deg,
+            #4338ca,
+            #6366f1,
+            #818cf8,
+            #c7d2fe
+        );
+    background-size: 220% 100%;
+    box-shadow:
+        0 0 8px rgba(129, 140, 248, .45);
+    animation:
+        loader3202Fill
+        2s
+        ease-in-out
+        infinite;
+}
+
+.loader-3202-moon {
+    position: absolute;
+    left: 8%;
+    top: -4px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background:
+        #e0e7ff;
+    box-shadow:
+        0 0 8px rgba(165, 180, 252, .7);
+    animation:
+        loader3202Moon
+        2s
+        ease-in-out
+        infinite;
+}
+
+.loader-3202-moon::after {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    right: -3px;
+    top: -1px;
+    border-radius: 50%;
+    background: #111119;
+}
+
+.loader-3202-shine {
+    position: absolute;
+    left: -18px;
+    top: -1px;
+    width: 18px;
+    height: 8px;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, .75),
+            transparent
+        );
+    filter: blur(1px);
+    animation:
+        loader3202Shine
+        1.7s
+        linear
+        infinite;
+}
+
+@keyframes loader3202Fill {
+    0%,
+    100% {
+        width: 14%;
+        background-position: 0% 50%;
+    }
+
+    50% {
+        width: 88%;
+        background-position: 220% 50%;
+    }
+}
+
+@keyframes loader3202Moon {
+    0%,
+    100% {
+        left: 5%;
+        transform: rotate(-25deg);
+    }
+
+    50% {
+        left: calc(88% - 11px);
+        transform: rotate(25deg);
+    }
+}
+
+@keyframes loader3202Shine {
+    to {
+        left: 120px;
+    }
+}`,
+  },
+
+  {
+    id: 3203,
+    name: "Eclipse Ring Loader",
+    preview: (
+      <div className="loader-3203">
+        <span className="loader-3203-ring"></span>
+        <span className="loader-3203-shadow"></span>
+        <span className="loader-3203-light"></span>
+      </div>
+    ),
+    html: `<div class="loader-3203">
+    <span class="loader-3203-ring"></span>
+    <span class="loader-3203-shadow"></span>
+    <span class="loader-3203-light"></span>
+</div>`,
+    css: `.loader-3203 {
+    position: relative;
+    width: 46px;
+    height: 46px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3203-ring {
+    position: absolute;
+    inset: 3px;
+    border: 3px solid #24242d;
+    border-top-color: #818cf8;
+    border-right-color: #a78bfa;
+    border-radius: 50%;
+    box-shadow:
+        0 0 9px rgba(129, 140, 248, .35);
+    animation:
+        loader3203Ring
+        1.15s
+        linear
+        infinite;
+}
+
+.loader-3203-shadow {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #09090d;
+    box-shadow:
+        inset 2px 0 4px rgba(99, 102, 241, .14);
+}
+
+.loader-3203-light {
+    position: absolute;
+    left: 7px;
+    top: 17px;
+    width: 5px;
+    height: 12px;
+    border-radius: 50%;
+    background: #c7d2fe;
+    filter: blur(2px);
+    box-shadow:
+        0 0 7px #818cf8;
+    transform-origin: 16px 6px;
+    animation:
+        loader3203Light
+        1.15s
+        linear
+        infinite;
+}
+
+@keyframes loader3203Ring {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader3203Light {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+
+  {
+    id: 3204,
+    name: "Moon Orbit Loader",
+    preview: (
+      <div className="loader-3204">
+        <span className="loader-3204-orbit"></span>
+        <span className="loader-3204-planet"></span>
+        <span className="loader-3204-moon"></span>
+      </div>
+    ),
+    html: `<div class="loader-3204">
+    <span class="loader-3204-orbit"></span>
+    <span class="loader-3204-planet"></span>
+    <span class="loader-3204-moon"></span>
+</div>`,
+    css: `.loader-3204 {
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+
+.loader-3204-orbit {
+    position: absolute;
+    inset: 4px;
+    border: 1px solid rgba(129, 140, 248, .24);
+    border-radius: 50%;
+}
+
+.loader-3204-planet {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 14px;
+    height: 14px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 35% 30%,
+            #c7d2fe,
+            #6366f1 55%,
+            #312e81
+        );
+    box-shadow:
+        0 0 8px rgba(99, 102, 241, .4);
+    animation:
+        loader3204Planet
+        1.5s
+        ease-in-out
+        infinite;
+}
+
+.loader-3204-moon {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #e0e7ff;
+    box-shadow:
+        0 0 7px rgba(199, 210, 254, .7);
+    transform-origin: 4px 24px;
+    animation:
+        loader3204Moon
+        1.45s
+        linear
+        infinite;
+}
+
+@keyframes loader3204Planet {
+    0%,
+    100% {
+        transform: translate(-50%, -50%) scale(.82);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.08);
+    }
+}
+
+@keyframes loader3204Moon {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+
+  {
+    id: 3205,
+    name: "Moon Phase Loader",
+    preview: (
+      <div className="loader-3205">
+        <span className="loader-3205-phase loader-3205-phase-1"></span>
+        <span className="loader-3205-phase loader-3205-phase-2"></span>
+        <span className="loader-3205-phase loader-3205-phase-3"></span>
+        <span className="loader-3205-phase loader-3205-phase-4"></span>
+        <span className="loader-3205-phase loader-3205-phase-5"></span>
+      </div>
+    ),
+    html: `<div class="loader-3205">
+    <span class="loader-3205-phase loader-3205-phase-1"></span>
+    <span class="loader-3205-phase loader-3205-phase-2"></span>
+    <span class="loader-3205-phase loader-3205-phase-3"></span>
+    <span class="loader-3205-phase loader-3205-phase-4"></span>
+    <span class="loader-3205-phase loader-3205-phase-5"></span>
+</div>`,
+    css: `.loader-3205 {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.loader-3205-phase {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: #a5b4fc;
+    box-shadow:
+        0 0 5px rgba(129, 140, 248, .35);
+    animation:
+        loader3205Phase
+        1.6s
+        ease-in-out
+        infinite;
+}
+
+.loader-3205-phase::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 0;
+    border-radius: 50%;
+    background: #111116;
+}
+
+.loader-3205-phase-1::after {
+    left: 0;
+}
+
+.loader-3205-phase-2::after {
+    left: 4px;
+}
+
+.loader-3205-phase-3::after {
+    left: 10px;
+}
+
+.loader-3205-phase-4::after {
+    right: 4px;
+}
+
+.loader-3205-phase-5::after {
+    right: 0;
+}
+
+.loader-3205-phase-2 {
+    animation-delay: .12s;
+}
+
+.loader-3205-phase-3 {
+    animation-delay: .24s;
+}
+
+.loader-3205-phase-4 {
+    animation-delay: .36s;
+}
+
+.loader-3205-phase-5 {
+    animation-delay: .48s;
+}
+
+@keyframes loader3205Phase {
+    0%,
+    100% {
+        transform: translateY(0) scale(.7);
+        opacity: .35;
+    }
+
+    50% {
+        transform: translateY(-6px) scale(1);
+        opacity: 1;
+        filter: brightness(1.35);
+    }
+}`,
+  },
+
+  {
+    id: 3206,
+    name: "Lunar Pulse Loader",
+    preview: (
+      <div className="loader-3206">
+        <span className="loader-3206-wave loader-3206-wave-1"></span>
+        <span className="loader-3206-wave loader-3206-wave-2"></span>
+        <span className="loader-3206-wave loader-3206-wave-3"></span>
+        <span className="loader-3206-moon"></span>
+      </div>
+    ),
+    html: `<div class="loader-3206">
+    <span class="loader-3206-wave loader-3206-wave-1"></span>
+    <span class="loader-3206-wave loader-3206-wave-2"></span>
+    <span class="loader-3206-wave loader-3206-wave-3"></span>
+    <span class="loader-3206-moon"></span>
+</div>`,
+    css: `.loader-3206 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3206-moon {
+    position: relative;
+    z-index: 4;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 35% 30%,
+            #f8fafc,
+            #a5b4fc 45%,
+            #6366f1
+        );
+    box-shadow:
+        0 0 8px rgba(129, 140, 248, .6);
+    animation:
+        loader3206Moon
+        1s
+        ease-in-out
+        infinite;
+}
+
+.loader-3206-moon::after {
+    content: "";
+    position: absolute;
+    right: -2px;
+    top: -1px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #111117;
+}
+
+.loader-3206-wave {
+    position: absolute;
+    border: 1px solid rgba(129, 140, 248, .6);
+    border-radius: 50%;
+    opacity: 0;
+    animation:
+        loader3206Wave
+        2.1s
+        ease-out
+        infinite;
+}
+
+.loader-3206-wave-2 {
+    animation-delay: .7s;
+}
+
+.loader-3206-wave-3 {
+    animation-delay: 1.4s;
+}
+
+@keyframes loader3206Moon {
+    0%,
+    100% {
+        transform: scale(.8);
+    }
+
+    50% {
+        transform: scale(1.15);
+        filter: brightness(1.35);
+    }
+}
+
+@keyframes loader3206Wave {
+    0% {
+        width: 10px;
+        height: 10px;
+        opacity: .75;
+    }
+
+    100% {
+        width: 48px;
+        height: 48px;
+        opacity: 0;
+    }
+}`,
+  },
+
+  {
+    id: 3207,
+    name: "Crater Moon Spinner",
+    preview: (
+      <div className="loader-3207">
+        <span className="loader-3207-moon">
+          <span className="loader-3207-crater loader-3207-crater-1"></span>
+          <span className="loader-3207-crater loader-3207-crater-2"></span>
+          <span className="loader-3207-crater loader-3207-crater-3"></span>
+        </span>
+      </div>
+    ),
+    html: `<div class="loader-3207">
+    <span class="loader-3207-moon">
+        <span class="loader-3207-crater loader-3207-crater-1"></span>
+        <span class="loader-3207-crater loader-3207-crater-2"></span>
+        <span class="loader-3207-crater loader-3207-crater-3"></span>
+    </span>
+</div>`,
+    css: `.loader-3207 {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3207-moon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 32% 26%,
+            #eef2ff,
+            #a5b4fc 42%,
+            #6366f1 74%,
+            #312e81
+        );
+    box-shadow:
+        0 0 9px rgba(129, 140, 248, .45);
+    animation:
+        loader3207Moon
+        2.2s
+        linear
+        infinite;
+}
+
+.loader-3207-crater {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(49, 46, 129, .28);
+    box-shadow:
+        inset 1px 1px 2px rgba(30, 27, 75, .28);
+}
+
+.loader-3207-crater-1 {
+    width: 7px;
+    height: 7px;
+    left: 7px;
+    top: 5px;
+}
+
+.loader-3207-crater-2 {
+    width: 5px;
+    height: 5px;
+    right: 6px;
+    top: 13px;
+}
+
+.loader-3207-crater-3 {
+    width: 8px;
+    height: 8px;
+    left: 11px;
+    bottom: 3px;
+}
+
+@keyframes loader3207Moon {
+    0% {
+        transform: rotate(0deg) scale(.88);
+    }
+
+    50% {
+        transform: rotate(180deg) scale(1.04);
+        filter: brightness(1.25);
+    }
+
+    100% {
+        transform: rotate(360deg) scale(.88);
+    }
+}`,
+  },
+
+  {
+    id: 3208,
+    name: "Moonbeam Scanner Loader",
+    preview: (
+      <div className="loader-3208">
+        <span className="loader-3208-line"></span>
+        <span className="loader-3208-beam"></span>
+        <span className="loader-3208-moon"></span>
+      </div>
+    ),
+    html: `<div class="loader-3208">
+    <span class="loader-3208-line"></span>
+    <span class="loader-3208-beam"></span>
+    <span class="loader-3208-moon"></span>
+</div>`,
+    css: `.loader-3208 {
+    position: relative;
+    width: 118px;
+    height: 22px;
+    overflow: hidden;
+}
+
+.loader-3208-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+    height: 2px;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            90deg,
+            #181820,
+            #252536,
+            #181820
+        );
+}
+
+.loader-3208-beam {
+    position: absolute;
+    left: -30px;
+    top: 5px;
+    width: 46px;
+    height: 12px;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(99, 102, 241, .16),
+            rgba(165, 180, 252, .36),
+            transparent
+        );
+    filter: blur(4px);
+    animation:
+        loader3208Beam
+        1.8s
+        ease-in-out
+        infinite;
+}
+
+.loader-3208-moon {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #c7d2fe;
+    box-shadow:
+        0 0 7px #818cf8,
+        0 0 14px rgba(99, 102, 241, .28);
+    animation:
+        loader3208Moon
+        1.8s
+        ease-in-out
+        infinite;
+}
+
+.loader-3208-moon::after {
+    content: "";
+    position: absolute;
+    right: -2px;
+    top: -1px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #101016;
+}
+
+@keyframes loader3208Beam {
+    0%,
+    100% {
+        left: -30px;
+    }
+
+    50% {
+        left: calc(100% - 17px);
+    }
+}
+
+@keyframes loader3208Moon {
+    0%,
+    100% {
+        left: 0;
+        transform: rotate(-20deg);
+    }
+
+    50% {
+        left: calc(100% - 11px);
+        transform: rotate(20deg);
+    }
+}`,
+  },
+
+  {
+    id: 3209,
+    name: "Moonrise Bars Loader",
+    preview: (
+      <div className="loader-3209">
+        <span className="loader-3209-bar loader-3209-bar-1"></span>
+        <span className="loader-3209-bar loader-3209-bar-2"></span>
+        <span className="loader-3209-moon"></span>
+        <span className="loader-3209-bar loader-3209-bar-3"></span>
+        <span className="loader-3209-bar loader-3209-bar-4"></span>
+      </div>
+    ),
+    html: `<div class="loader-3209">
+    <span class="loader-3209-bar loader-3209-bar-1"></span>
+    <span class="loader-3209-bar loader-3209-bar-2"></span>
+    <span class="loader-3209-moon"></span>
+    <span class="loader-3209-bar loader-3209-bar-3"></span>
+    <span class="loader-3209-bar loader-3209-bar-4"></span>
+</div>`,
+    css: `.loader-3209 {
+    height: 38px;
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.loader-3209-bar {
+    width: 5px;
+    height: 8px;
+    border-radius: 3px 3px 1px 1px;
+    background:
+        linear-gradient(
+            to top,
+            #312e81,
+            #6366f1,
+            #a5b4fc
+        );
+    box-shadow:
+        0 0 5px rgba(129, 140, 248, .3);
+    transform-origin: bottom;
+    animation:
+        loader3209Bar
+        1.2s
+        ease-in-out
+        infinite;
+}
+
+.loader-3209-bar-1 {
+    animation-delay: 0s;
+}
+
+.loader-3209-bar-2 {
+    animation-delay: .15s;
+}
+
+.loader-3209-bar-3 {
+    animation-delay: .3s;
+}
+
+.loader-3209-bar-4 {
+    animation-delay: .45s;
+}
+
+.loader-3209-moon {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    margin: 0 2px 8px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 35% 30%,
+            #fff,
+            #c7d2fe 45%,
+            #818cf8
+        );
+    box-shadow:
+        0 0 8px rgba(165, 180, 252, .55);
+    animation:
+        loader3209Moon
+        1.2s
+        ease-in-out
+        infinite;
+}
+
+.loader-3209-moon::after {
+    content: "";
+    position: absolute;
+    right: -3px;
+    top: -1px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #101016;
+}
+
+@keyframes loader3209Bar {
+    0%,
+    100% {
+        height: 6px;
+        opacity: .35;
+    }
+
+    50% {
+        height: 25px;
+        opacity: 1;
+        filter: brightness(1.3);
+    }
+}
+
+@keyframes loader3209Moon {
+    0%,
+    100% {
+        transform: translateY(4px) scale(.8);
+    }
+
+    50% {
+        transform: translateY(-5px) scale(1.08);
+        filter: brightness(1.3);
+    }
+}`,
+  },
+  {
+    id: 3210,
+    name: "Lunar Arc Loader",
+    preview: (
+      <div className="loader-3210">
+        <span className="loader-3210-ring"></span>
+        <span className="loader-3210-moon"></span>
+      </div>
+    ),
+    html: `<div class="loader-3210">
+    <span class="loader-3210-ring"></span>
+    <span class="loader-3210-moon"></span>
+</div>`,
+    css: `.loader-3210 {
+    position: relative;
+    width: 44px;
+    height: 44px;
+}
+
+.loader-3210-ring {
+    position: absolute;
+    inset: 3px;
+    border: 3px solid #20202a;
+    border-top-color: #818cf8;
+    border-right-color: #a78bfa;
+    border-radius: 50%;
+    box-shadow: 0 0 9px rgba(129, 140, 248, .3);
+    animation: loader3210Ring 1.1s linear infinite;
+}
+
+.loader-3210-moon {
+    position: absolute;
+    left: 17px;
+    top: 15px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #c7d2fe;
+    box-shadow: 0 0 8px rgba(165, 180, 252, .55);
+}
+
+.loader-3210-moon::after {
+    content: "";
+    position: absolute;
+    right: -3px;
+    top: -2px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #0b0b0e;
+}
+
+@keyframes loader3210Ring {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+
+  {
+    id: 3211,
+    name: "Twin Moon Loader",
+    preview: (
+      <div className="loader-3211">
+        <span className="loader-3211-moon loader-3211-moon-1"></span>
+        <span className="loader-3211-moon loader-3211-moon-2"></span>
+      </div>
+    ),
+    html: `<div class="loader-3211">
+    <span class="loader-3211-moon loader-3211-moon-1"></span>
+    <span class="loader-3211-moon loader-3211-moon-2"></span>
+</div>`,
+    css: `.loader-3211 {
+    position: relative;
+    width: 54px;
+    height: 34px;
+}
+
+.loader-3211-moon {
+    position: absolute;
+    top: 8px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #eef2ff, #818cf8 65%, #4f46e5);
+    box-shadow: 0 0 8px rgba(129, 140, 248, .42);
+    animation: loader3211Moon 1.5s ease-in-out infinite;
+}
+
+.loader-3211-moon::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #0b0b0e;
+}
+
+.loader-3211-moon-1 {
+    left: 4px;
+}
+
+.loader-3211-moon-1::after {
+    right: -5px;
+}
+
+.loader-3211-moon-2 {
+    right: 4px;
+    animation-delay: -.75s;
+}
+
+.loader-3211-moon-2::after {
+    left: -5px;
+}
+
+@keyframes loader3211Moon {
+    0%,
+    100% {
+        transform: translateY(3px) scale(.8);
+        opacity: .45;
+    }
+
+    50% {
+        transform: translateY(-4px) scale(1.05);
+        opacity: 1;
+        filter: brightness(1.3);
+    }
+}`,
+  },
+
+  {
+    id: 3212,
+    name: "Moon Trail Loader",
+    preview: (
+      <div className="loader-3212">
+        <span className="loader-3212-track"></span>
+        <span className="loader-3212-trail"></span>
+        <span className="loader-3212-moon"></span>
+      </div>
+    ),
+    html: `<div class="loader-3212">
+    <span class="loader-3212-track"></span>
+    <span class="loader-3212-trail"></span>
+    <span class="loader-3212-moon"></span>
+</div>`,
+    css: `.loader-3212 {
+    position: relative;
+    width: 118px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.loader-3212-track {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 9px;
+    height: 2px;
+    border-radius: 999px;
+    background: #1d1d27;
+}
+
+.loader-3212-trail {
+    position: absolute;
+    left: -25px;
+    top: 5px;
+    width: 50px;
+    height: 10px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, transparent, rgba(99, 102, 241, .18), rgba(165, 180, 252, .4));
+    filter: blur(4px);
+    animation: loader3212Trail 1.8s ease-in-out infinite;
+}
+
+.loader-3212-moon {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #e0e7ff;
+    box-shadow: 0 0 8px #818cf8;
+    animation: loader3212Moon 1.8s ease-in-out infinite;
+}
+
+.loader-3212-moon::after {
+    content: "";
+    position: absolute;
+    right: -3px;
+    top: -1px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #101016;
+}
+
+@keyframes loader3212Trail {
+    0%,
+    100% {
+        left: -25px;
+    }
+
+    50% {
+        left: calc(100% - 25px);
+    }
+}
+
+@keyframes loader3212Moon {
+    0%,
+    100% {
+        left: 0;
+        transform: rotate(-20deg);
+    }
+
+    50% {
+        left: calc(100% - 12px);
+        transform: rotate(20deg);
+    }
+}`,
+  },
+
+  {
+    id: 3213,
+    name: "Eclipse Pulse Loader",
+    preview: (
+      <div className="loader-3213">
+        <span className="loader-3213-wave loader-3213-wave-1"></span>
+        <span className="loader-3213-wave loader-3213-wave-2"></span>
+        <span className="loader-3213-eclipse"></span>
+      </div>
+    ),
+    html: `<div class="loader-3213">
+    <span class="loader-3213-wave loader-3213-wave-1"></span>
+    <span class="loader-3213-wave loader-3213-wave-2"></span>
+    <span class="loader-3213-eclipse"></span>
+</div>`,
+    css: `.loader-3213 {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3213-eclipse {
+    position: relative;
+    z-index: 3;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #09090d;
+    box-shadow:
+        4px 0 0 #818cf8,
+        7px 0 10px rgba(129, 140, 248, .55);
+    animation: loader3213Eclipse 1.2s ease-in-out infinite;
+}
+
+.loader-3213-wave {
+    position: absolute;
+    border: 1px solid rgba(129, 140, 248, .55);
+    border-radius: 50%;
+    animation: loader3213Wave 1.8s ease-out infinite;
+}
+
+.loader-3213-wave-2 {
+    animation-delay: .9s;
+}
+
+@keyframes loader3213Eclipse {
+    0%,
+    100% {
+        transform: scale(.8);
+    }
+
+    50% {
+        transform: scale(1.12);
+    }
+}
+
+@keyframes loader3213Wave {
+    0% {
+        width: 14px;
+        height: 14px;
+        opacity: .8;
+    }
+
+    100% {
+        width: 46px;
+        height: 46px;
+        opacity: 0;
+    }
+}`,
+  },
+
+  {
+    id: 3214,
+    name: "Star Moon Dots Loader",
+    preview: (
+      <div className="loader-3214">
+        <span className="loader-3214-star loader-3214-star-1"></span>
+        <span className="loader-3214-moon"></span>
+        <span className="loader-3214-star loader-3214-star-2"></span>
+        <span className="loader-3214-star loader-3214-star-3"></span>
+      </div>
+    ),
+    html: `<div class="loader-3214">
+    <span class="loader-3214-star loader-3214-star-1"></span>
+    <span class="loader-3214-moon"></span>
+    <span class="loader-3214-star loader-3214-star-2"></span>
+    <span class="loader-3214-star loader-3214-star-3"></span>
+</div>`,
+    css: `.loader-3214 {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.loader-3214-star {
+    width: 6px;
+    height: 6px;
+    transform: rotate(45deg);
+    background: #818cf8;
+    box-shadow: 0 0 6px rgba(129, 140, 248, .6);
+    animation: loader3214Star 1.4s ease-in-out infinite;
+}
+
+.loader-3214-star-2 {
+    animation-delay: -.45s;
+}
+
+.loader-3214-star-3 {
+    animation-delay: -.9s;
+}
+
+.loader-3214-moon {
+    position: relative;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #c7d2fe;
+    box-shadow: 0 0 8px rgba(165, 180, 252, .5);
+    animation: loader3214Moon 1.4s ease-in-out infinite;
+}
+
+.loader-3214-moon::after {
+    content: "";
+    position: absolute;
+    right: -4px;
+    top: -2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #0c0c10;
+}
+
+@keyframes loader3214Star {
+    0%,
+    100% {
+        transform: rotate(45deg) scale(.5);
+        opacity: .25;
+    }
+
+    50% {
+        transform: rotate(135deg) scale(1.15);
+        opacity: 1;
+    }
+}
+
+@keyframes loader3214Moon {
+    0%,
+    100% {
+        transform: translateY(3px) scale(.8);
+    }
+
+    50% {
+        transform: translateY(-4px) scale(1.05);
+    }
+}`,
+  },
+
+  {
+    id: 3215,
+    name: "Lunar Segments Loader",
+    preview: (
+      <div className="loader-3215">
+        <span className="loader-3215-segment loader-3215-segment-1"></span>
+        <span className="loader-3215-segment loader-3215-segment-2"></span>
+        <span className="loader-3215-segment loader-3215-segment-3"></span>
+        <span className="loader-3215-segment loader-3215-segment-4"></span>
+        <span className="loader-3215-segment loader-3215-segment-5"></span>
+        <span className="loader-3215-segment loader-3215-segment-6"></span>
+        <span className="loader-3215-segment loader-3215-segment-7"></span>
+        <span className="loader-3215-segment loader-3215-segment-8"></span>
+      </div>
+    ),
+    html: `<div class="loader-3215">
+    <span class="loader-3215-segment loader-3215-segment-1"></span>
+    <span class="loader-3215-segment loader-3215-segment-2"></span>
+    <span class="loader-3215-segment loader-3215-segment-3"></span>
+    <span class="loader-3215-segment loader-3215-segment-4"></span>
+    <span class="loader-3215-segment loader-3215-segment-5"></span>
+    <span class="loader-3215-segment loader-3215-segment-6"></span>
+    <span class="loader-3215-segment loader-3215-segment-7"></span>
+    <span class="loader-3215-segment loader-3215-segment-8"></span>
+</div>`,
+    css: `.loader-3215 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    animation: loader3215Spin 1.4s linear infinite;
+}
+
+.loader-3215-segment {
+    position: absolute;
+    left: 18px;
+    top: 1px;
+    width: 4px;
+    height: 9px;
+    border-radius: 999px;
+    transform-origin: 2px 19px;
+    background: linear-gradient(to bottom, #e0e7ff, #6366f1);
+    box-shadow: 0 0 5px rgba(129, 140, 248, .4);
+}
+
+.loader-3215-segment-1 { transform: rotate(0deg); opacity: 1; }
+.loader-3215-segment-2 { transform: rotate(45deg); opacity: .87; }
+.loader-3215-segment-3 { transform: rotate(90deg); opacity: .74; }
+.loader-3215-segment-4 { transform: rotate(135deg); opacity: .61; }
+.loader-3215-segment-5 { transform: rotate(180deg); opacity: .48; }
+.loader-3215-segment-6 { transform: rotate(225deg); opacity: .35; }
+.loader-3215-segment-7 { transform: rotate(270deg); opacity: .22; }
+.loader-3215-segment-8 { transform: rotate(315deg); opacity: .12; }
+
+@keyframes loader3215Spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+
+  {
+    id: 3216,
+    name: "Crescent Orbit Loader",
+    preview: (
+      <div className="loader-3216">
+        <span className="loader-3216-orbit"></span>
+        <span className="loader-3216-crescent"></span>
+        <span className="loader-3216-star"></span>
+      </div>
+    ),
+    html: `<div class="loader-3216">
+    <span class="loader-3216-orbit"></span>
+    <span class="loader-3216-crescent"></span>
+    <span class="loader-3216-star"></span>
+</div>`,
+    css: `.loader-3216 {
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+
+.loader-3216-orbit {
+    position: absolute;
+    inset: 5px;
+    border: 1px solid rgba(129, 140, 248, .22);
+    border-radius: 50%;
+}
+
+.loader-3216-crescent {
+    position: absolute;
+    left: 15px;
+    top: 14px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #a5b4fc;
+    box-shadow: 0 0 8px rgba(129, 140, 248, .45);
+}
+
+.loader-3216-crescent::after {
+    content: "";
+    position: absolute;
+    right: -4px;
+    top: -2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #0b0b0e;
+}
+
+.loader-3216-star {
+    position: absolute;
+    left: 21px;
+    top: 0;
+    width: 7px;
+    height: 7px;
+    transform: rotate(45deg);
+    transform-origin: 3.5px 24px;
+    background: #e0e7ff;
+    box-shadow: 0 0 6px #818cf8;
+    animation: loader3216Star 1.5s linear infinite;
+}
+
+@keyframes loader3216Star {
+    to {
+        transform: rotate(405deg);
+    }
+}`,
+  },
+
+  {
+    id: 3217,
+    name: "Moonbeam Equalizer Loader",
+    preview: (
+      <div className="loader-3217">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-3217">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-3217 {
+    height: 32px;
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.loader-3217 span {
+    width: 5px;
+    height: 7px;
+    border-radius: 3px 3px 1px 1px;
+    background: linear-gradient(to top, #312e81, #6366f1, #c7d2fe);
+    box-shadow: 0 0 5px rgba(129, 140, 248, .3);
+    transform-origin: bottom;
+    animation: loader3217Bar 1.1s ease-in-out infinite;
+}
+
+.loader-3217 span:nth-child(2) { animation-delay: -.18s; }
+.loader-3217 span:nth-child(3) { animation-delay: -.36s; }
+.loader-3217 span:nth-child(4) { animation-delay: -.54s; }
+.loader-3217 span:nth-child(5) { animation-delay: -.72s; }
+.loader-3217 span:nth-child(6) { animation-delay: -.9s; }
+
+@keyframes loader3217Bar {
+    0%,
+    100% {
+        height: 6px;
+        opacity: .3;
+    }
+
+    50% {
+        height: 30px;
+        opacity: 1;
+        filter: brightness(1.35);
+    }
+}`,
+  },
+
+  {
+    id: 3218,
+    name: "Full Moon Halo Loader",
+    preview: (
+      <div className="loader-3218">
+        <span className="loader-3218-halo loader-3218-halo-1"></span>
+        <span className="loader-3218-halo loader-3218-halo-2"></span>
+        <span className="loader-3218-moon"></span>
+      </div>
+    ),
+    html: `<div class="loader-3218">
+    <span class="loader-3218-halo loader-3218-halo-1"></span>
+    <span class="loader-3218-halo loader-3218-halo-2"></span>
+    <span class="loader-3218-moon"></span>
+</div>`,
+    css: `.loader-3218 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3218-moon {
+    position: relative;
+    z-index: 4;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #fff, #c7d2fe 45%, #818cf8);
+    box-shadow:
+        0 0 8px rgba(199, 210, 254, .6),
+        0 0 16px rgba(129, 140, 248, .22);
+    animation: loader3218Moon 1.4s ease-in-out infinite;
+}
+
+.loader-3218-halo {
+    position: absolute;
+    border: 1px solid rgba(129, 140, 248, .5);
+    border-radius: 50%;
+    animation: loader3218Halo 2s ease-out infinite;
+}
+
+.loader-3218-halo-2 {
+    animation-delay: 1s;
+}
+
+@keyframes loader3218Moon {
+    0%,
+    100% {
+        transform: scale(.78);
+    }
+
+    50% {
+        transform: scale(1.08);
+    }
+}
+
+@keyframes loader3218Halo {
+    0% {
+        width: 16px;
+        height: 16px;
+        opacity: .7;
+    }
+
+    100% {
+        width: 48px;
+        height: 48px;
+        opacity: 0;
+    }
+}`,
+  },
+
+  {
+    id: 3219,
+    name: "Midnight Scanner Loader",
+    preview: (
+      <div className="loader-3219">
+        <span className="loader-3219-track"></span>
+        <span className="loader-3219-light"></span>
+        <span className="loader-3219-crescent"></span>
+      </div>
+    ),
+    html: `<div class="loader-3219">
+    <span class="loader-3219-track"></span>
+    <span class="loader-3219-light"></span>
+    <span class="loader-3219-crescent"></span>
+</div>`,
+    css: `.loader-3219 {
+    position: relative;
+    width: 118px;
+    height: 22px;
+    overflow: hidden;
+}
+
+.loader-3219-track {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+    height: 2px;
+    border-radius: 999px;
+    background: #1d1d27;
+}
+
+.loader-3219-light {
+    position: absolute;
+    left: -28px;
+    top: 5px;
+    width: 48px;
+    height: 12px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, transparent, rgba(99, 102, 241, .18), rgba(199, 210, 254, .42), transparent);
+    filter: blur(4px);
+    animation: loader3219Light 1.7s ease-in-out infinite;
+}
+
+.loader-3219-crescent {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #c7d2fe;
+    box-shadow: 0 0 7px #818cf8;
+    animation: loader3219Crescent 1.7s ease-in-out infinite;
+}
+
+.loader-3219-crescent::after {
+    content: "";
+    position: absolute;
+    right: -3px;
+    top: -1px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #0f0f15;
+}
+
+@keyframes loader3219Light {
+    0%,
+    100% { left: -28px; }
+    50% { left: calc(100% - 20px); }
+}
+
+@keyframes loader3219Crescent {
+    0%,
+    100% { left: 0; }
+    50% { left: calc(100% - 12px); }
+}`,
+  },
+
+  {
+    id: 3220,
+    name: "Moon Phase Orbit Loader",
+    preview: (
+      <div className="loader-3220">
+        <span className="loader-3220-ring"></span>
+        <span className="loader-3220-phase loader-3220-phase-1"></span>
+        <span className="loader-3220-phase loader-3220-phase-2"></span>
+        <span className="loader-3220-phase loader-3220-phase-3"></span>
+        <span className="loader-3220-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-3220">
+    <span class="loader-3220-ring"></span>
+    <span class="loader-3220-phase loader-3220-phase-1"></span>
+    <span class="loader-3220-phase loader-3220-phase-2"></span>
+    <span class="loader-3220-phase loader-3220-phase-3"></span>
+    <span class="loader-3220-core"></span>
+</div>`,
+    css: `.loader-3220 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.loader-3220-ring {
+    position: absolute;
+    inset: 4px;
+    border: 1px solid rgba(129, 140, 248, .2);
+    border-radius: 50%;
+}
+
+.loader-3220-core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 11px;
+    height: 11px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #6366f1;
+    box-shadow: 0 0 8px rgba(99, 102, 241, .5);
+}
+
+.loader-3220-phase {
+    position: absolute;
+    left: 21px;
+    top: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #c7d2fe;
+    transform-origin: 4px 25px;
+}
+
+.loader-3220-phase-1 {
+    animation: loader3220One 2s linear infinite;
+}
+
+.loader-3220-phase-2 {
+    animation: loader3220Two 2s linear infinite;
+    opacity: .7;
+}
+
+.loader-3220-phase-3 {
+    animation: loader3220Three 2s linear infinite;
+    opacity: .4;
+}
+
+@keyframes loader3220One {
+    to { transform: rotate(360deg); }
+}
+
+@keyframes loader3220Two {
+    from { transform: rotate(120deg); }
+    to { transform: rotate(480deg); }
+}
+
+@keyframes loader3220Three {
+    from { transform: rotate(240deg); }
+    to { transform: rotate(600deg); }
+}`,
+  },
+
+  {
+    id: 3221,
+    name: "Lunar Comet Loader",
+    preview: (
+      <div className="loader-3221">
+        <span className="loader-3221-tail"></span>
+        <span className="loader-3221-moon"></span>
+      </div>
+    ),
+    html: `<div class="loader-3221">
+    <span class="loader-3221-tail"></span>
+    <span class="loader-3221-moon"></span>
+</div>`,
+    css: `.loader-3221 {
+    position: relative;
+    width: 110px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.loader-3221-tail {
+    position: absolute;
+    left: -50px;
+    top: 7px;
+    width: 60px;
+    height: 9px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, transparent, rgba(79, 70, 229, .12), rgba(165, 180, 252, .55));
+    filter: blur(3px);
+    animation: loader3221Tail 1.45s linear infinite;
+}
+
+.loader-3221-moon {
+    position: absolute;
+    left: -12px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #e0e7ff;
+    box-shadow:
+        0 0 8px #818cf8,
+        0 0 15px rgba(99, 102, 241, .3);
+    animation: loader3221Moon 1.45s linear infinite;
+}
+
+.loader-3221-moon::after {
+    content: "";
+    position: absolute;
+    right: -3px;
+    top: -1px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #0c0c11;
+}
+
+@keyframes loader3221Tail {
+    from { left: -50px; }
+    to { left: 110px; }
+}
+
+@keyframes loader3221Moon {
+    from {
+        left: -12px;
+        transform: rotate(-25deg);
+    }
+
+    to {
+        left: 110px;
+        transform: rotate(25deg);
+    }
+}`,
+  },
+
+  {
+    id: 3222,
+    name: "Moon Crystal Ring Loader",
+    preview: (
+      <div className="loader-3222">
+        <span className="loader-3222-ring"></span>
+        <span className="loader-3222-shard loader-3222-shard-1"></span>
+        <span className="loader-3222-shard loader-3222-shard-2"></span>
+        <span className="loader-3222-shard loader-3222-shard-3"></span>
+      </div>
+    ),
+    html: `<div class="loader-3222">
+    <span class="loader-3222-ring"></span>
+    <span class="loader-3222-shard loader-3222-shard-1"></span>
+    <span class="loader-3222-shard loader-3222-shard-2"></span>
+    <span class="loader-3222-shard loader-3222-shard-3"></span>
+</div>`,
+    css: `.loader-3222 {
+    position: relative;
+    width: 46px;
+    height: 46px;
+    animation: loader3222Spin 2s linear infinite;
+}
+
+.loader-3222-ring {
+    position: absolute;
+    inset: 5px;
+    border: 2px solid rgba(129, 140, 248, .18);
+    border-top-color: #a5b4fc;
+    border-radius: 50%;
+}
+
+.loader-3222-shard {
+    position: absolute;
+    width: 7px;
+    height: 12px;
+    clip-path: polygon(50% 0%, 100% 35%, 78% 100%, 22% 100%, 0 35%);
+    background: linear-gradient(to bottom, #fff, #a5b4fc, #6366f1);
+    filter: drop-shadow(0 0 4px rgba(129, 140, 248, .45));
+}
+
+.loader-3222-shard-1 {
+    left: 20px;
+    top: 0;
+}
+
+.loader-3222-shard-2 {
+    right: 2px;
+    bottom: 8px;
+    transform: rotate(120deg);
+}
+
+.loader-3222-shard-3 {
+    left: 2px;
+    bottom: 8px;
+    transform: rotate(-120deg);
+}
+
+@keyframes loader3222Spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+
+  {
+    id: 3223,
+    name: "Night Tide Loader",
+    preview: (
+      <div className="loader-3223">
+        <span className="loader-3223-track"></span>
+        <span className="loader-3223-wave loader-3223-wave-1"></span>
+        <span className="loader-3223-wave loader-3223-wave-2"></span>
+      </div>
+    ),
+    html: `<div class="loader-3223">
+    <span class="loader-3223-track"></span>
+    <span class="loader-3223-wave loader-3223-wave-1"></span>
+    <span class="loader-3223-wave loader-3223-wave-2"></span>
+</div>`,
+    css: `.loader-3223 {
+    position: relative;
+    width: 118px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.loader-3223-track {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 9px;
+    height: 3px;
+    border-radius: 999px;
+    background: #1d1d27;
+}
+
+.loader-3223-wave {
+    position: absolute;
+    left: -40%;
+    top: 6px;
+    width: 55%;
+    height: 8px;
+    border-radius: 50%;
+    border-top: 2px solid #818cf8;
+    filter: drop-shadow(0 0 4px rgba(129, 140, 248, .4));
+    animation: loader3223Wave 1.8s ease-in-out infinite;
+}
+
+.loader-3223-wave-2 {
+    animation-delay: -.9s;
+    border-top-color: #c4b5fd;
+}
+
+@keyframes loader3223Wave {
+    0% {
+        left: -45%;
+        transform: scaleY(.7);
+        opacity: .3;
+    }
+
+    50% {
+        opacity: 1;
+        transform: scaleY(1.3);
+    }
+
+    100% {
+        left: 100%;
+        transform: scaleY(.7);
+        opacity: .3;
+    }
+}`,
+  },
+
+  {
+    id: 3224,
+    name: "Moon Spark Wheel Loader",
+    preview: (
+      <div className="loader-3224">
+        <span className="loader-3224-spark loader-3224-spark-1"></span>
+        <span className="loader-3224-spark loader-3224-spark-2"></span>
+        <span className="loader-3224-spark loader-3224-spark-3"></span>
+        <span className="loader-3224-spark loader-3224-spark-4"></span>
+        <span className="loader-3224-spark loader-3224-spark-5"></span>
+        <span className="loader-3224-spark loader-3224-spark-6"></span>
+      </div>
+    ),
+    html: `<div class="loader-3224">
+    <span class="loader-3224-spark loader-3224-spark-1"></span>
+    <span class="loader-3224-spark loader-3224-spark-2"></span>
+    <span class="loader-3224-spark loader-3224-spark-3"></span>
+    <span class="loader-3224-spark loader-3224-spark-4"></span>
+    <span class="loader-3224-spark loader-3224-spark-5"></span>
+    <span class="loader-3224-spark loader-3224-spark-6"></span>
+</div>`,
+    css: `.loader-3224 {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    animation: loader3224Wheel 1.3s linear infinite;
+}
+
+.loader-3224-spark {
+    position: absolute;
+    left: 18px;
+    top: 1px;
+    width: 6px;
+    height: 10px;
+    border-radius: 999px;
+    transform-origin: 3px 20px;
+    background: linear-gradient(to bottom, #eef2ff, #818cf8, #4338ca);
+    box-shadow: 0 0 5px rgba(129, 140, 248, .4);
+}
+
+.loader-3224-spark-1 { transform: rotate(0deg); }
+.loader-3224-spark-2 { transform: rotate(60deg); opacity: .82; }
+.loader-3224-spark-3 { transform: rotate(120deg); opacity: .66; }
+.loader-3224-spark-4 { transform: rotate(180deg); opacity: .5; }
+.loader-3224-spark-5 { transform: rotate(240deg); opacity: .34; }
+.loader-3224-spark-6 { transform: rotate(300deg); opacity: .18; }
+
+@keyframes loader3224Wheel {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+
+  {
+    id: 3225,
+    name: "Crescent Wave Loader",
+    preview: (
+      <div className="loader-3225">
+        <span className="loader-3225-crescent loader-3225-crescent-1"></span>
+        <span className="loader-3225-crescent loader-3225-crescent-2"></span>
+        <span className="loader-3225-crescent loader-3225-crescent-3"></span>
+        <span className="loader-3225-crescent loader-3225-crescent-4"></span>
+        <span className="loader-3225-crescent loader-3225-crescent-5"></span>
+      </div>
+    ),
+    html: `<div class="loader-3225">
+    <span class="loader-3225-crescent loader-3225-crescent-1"></span>
+    <span class="loader-3225-crescent loader-3225-crescent-2"></span>
+    <span class="loader-3225-crescent loader-3225-crescent-3"></span>
+    <span class="loader-3225-crescent loader-3225-crescent-4"></span>
+    <span class="loader-3225-crescent loader-3225-crescent-5"></span>
+</div>`,
+    css: `.loader-3225 {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.loader-3225-crescent {
+    position: relative;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #a5b4fc;
+    box-shadow: 0 0 5px rgba(129, 140, 248, .35);
+    animation: loader3225Moon 1.4s ease-in-out infinite;
+}
+
+.loader-3225-crescent::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: -3px;
+    top: -2px;
+    border-radius: 50%;
+    background: #0b0b0e;
+}
+
+.loader-3225-crescent-2 { animation-delay: .12s; }
+.loader-3225-crescent-3 { animation-delay: .24s; }
+.loader-3225-crescent-4 { animation-delay: .36s; }
+.loader-3225-crescent-5 { animation-delay: .48s; }
+
+@keyframes loader3225Moon {
+    0%,
+    100% {
+        transform: translateY(5px) rotate(-15deg) scale(.65);
+        opacity: .3;
+    }
+
+    50% {
+        transform: translateY(-6px) rotate(15deg) scale(1);
+        opacity: 1;
+    }
+}`,
+  },
+
+  {
+    id: 3226,
+    name: "Lunar Radar Loader",
+    preview: (
+      <div className="loader-3226">
+        <span className="loader-3226-ring loader-3226-ring-1"></span>
+        <span className="loader-3226-ring loader-3226-ring-2"></span>
+        <span className="loader-3226-sweep"></span>
+        <span className="loader-3226-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-3226">
+    <span class="loader-3226-ring loader-3226-ring-1"></span>
+    <span class="loader-3226-ring loader-3226-ring-2"></span>
+    <span class="loader-3226-sweep"></span>
+    <span class="loader-3226-core"></span>
+</div>`,
+    css: `.loader-3226 {
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+
+.loader-3226-ring {
+    position: absolute;
+    border: 1px solid rgba(129, 140, 248, .2);
+    border-radius: 50%;
+}
+
+.loader-3226-ring-1 {
+    inset: 2px;
+}
+
+.loader-3226-ring-2 {
+    inset: 10px;
+}
+
+.loader-3226-core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #c7d2fe;
+    box-shadow: 0 0 6px #818cf8;
+}
+
+.loader-3226-sweep {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 20px;
+    height: 2px;
+    transform-origin: 0 50%;
+    background: linear-gradient(90deg, #c7d2fe, transparent);
+    box-shadow: 0 0 6px rgba(129, 140, 248, .4);
+    animation: loader3226Sweep 1.4s linear infinite;
+}
+
+@keyframes loader3226Sweep {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+
+  {
+    id: 3227,
+    name: "Moonfall Dots Loader",
+    preview: (
+      <div className="loader-3227">
+        <span className="loader-3227-dot loader-3227-dot-1"></span>
+        <span className="loader-3227-dot loader-3227-dot-2"></span>
+        <span className="loader-3227-dot loader-3227-dot-3"></span>
+        <span className="loader-3227-dot loader-3227-dot-4"></span>
+        <span className="loader-3227-dot loader-3227-dot-5"></span>
+      </div>
+    ),
+    html: `<div class="loader-3227">
+    <span class="loader-3227-dot loader-3227-dot-1"></span>
+    <span class="loader-3227-dot loader-3227-dot-2"></span>
+    <span class="loader-3227-dot loader-3227-dot-3"></span>
+    <span class="loader-3227-dot loader-3227-dot-4"></span>
+    <span class="loader-3227-dot loader-3227-dot-5"></span>
+</div>`,
+    css: `.loader-3227 {
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.loader-3227-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #fff, #a5b4fc 50%, #6366f1);
+    box-shadow: 0 0 6px rgba(129, 140, 248, .45);
+    animation: loader3227Fall 1.5s ease-in-out infinite;
+}
+
+.loader-3227-dot-2 { animation-delay: .12s; }
+.loader-3227-dot-3 { animation-delay: .24s; }
+.loader-3227-dot-4 { animation-delay: .36s; }
+.loader-3227-dot-5 { animation-delay: .48s; }
+
+@keyframes loader3227Fall {
+    0% {
+        transform: translateY(0) scale(.65);
+        opacity: .25;
+    }
+
+    50% {
+        transform: translateY(25px) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0) scale(.65);
+        opacity: .25;
+    }
+}`,
+  },
+
+  {
+    id: 3228,
+    name: "Eclipse Progress Loader",
+    preview: (
+      <div className="loader-3228">
+        <div className="loader-3228-track">
+          <span className="loader-3228-fill"></span>
+          <span className="loader-3228-eclipse"></span>
+        </div>
+      </div>
+    ),
+    html: `<div class="loader-3228">
+    <div class="loader-3228-track">
+        <span class="loader-3228-fill"></span>
+        <span class="loader-3228-eclipse"></span>
+    </div>
+</div>`,
+    css: `.loader-3228 {
+    width: 120px;
+}
+
+.loader-3228-track {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    border-radius: 999px;
+    background: #1b1b24;
+}
+
+.loader-3228-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #312e81, #6366f1, #a5b4fc);
+    box-shadow: 0 0 7px rgba(129, 140, 248, .4);
+    animation: loader3228Fill 2s ease-in-out infinite;
+}
+
+.loader-3228-eclipse {
+    position: absolute;
+    left: 5%;
+    top: -4px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #09090d;
+    box-shadow:
+        4px 0 0 #a5b4fc,
+        6px 0 8px rgba(129, 140, 248, .5);
+    animation: loader3228Eclipse 2s ease-in-out infinite;
+}
+
+@keyframes loader3228Fill {
+    0%,
+    100% { width: 14%; }
+    50% { width: 90%; }
+}
+
+@keyframes loader3228Eclipse {
+    0%,
+    100% { left: 4%; }
+    50% { left: calc(90% - 12px); }
+}`,
+  },
+
+  {
+    id: 3229,
+    name: "Celestial Moon Cluster",
+    preview: (
+      <div className="loader-3229">
+        <span className="loader-3229-moon"></span>
+        <span className="loader-3229-star loader-3229-star-1"></span>
+        <span className="loader-3229-star loader-3229-star-2"></span>
+        <span className="loader-3229-star loader-3229-star-3"></span>
+        <span className="loader-3229-star loader-3229-star-4"></span>
+        <span className="loader-3229-orbit"></span>
+      </div>
+    ),
+    html: `<div class="loader-3229">
+    <span class="loader-3229-moon"></span>
+    <span class="loader-3229-star loader-3229-star-1"></span>
+    <span class="loader-3229-star loader-3229-star-2"></span>
+    <span class="loader-3229-star loader-3229-star-3"></span>
+    <span class="loader-3229-star loader-3229-star-4"></span>
+    <span class="loader-3229-orbit"></span>
+</div>`,
+    css: `.loader-3229 {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-3229-orbit {
+    position: absolute;
+    inset: 4px;
+    border: 1px dashed rgba(129, 140, 248, .2);
+    border-radius: 50%;
+    animation: loader3229Orbit 4s linear infinite;
+}
+
+.loader-3229-moon {
+    position: relative;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #fff, #c7d2fe 45%, #6366f1);
+    box-shadow:
+        0 0 8px rgba(165, 180, 252, .55),
+        0 0 18px rgba(99, 102, 241, .2);
+    animation: loader3229Moon 1.4s ease-in-out infinite;
+}
+
+.loader-3229-moon::after {
+    content: "";
+    position: absolute;
+    right: -5px;
+    top: -2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #0b0b0e;
+}
+
+.loader-3229-star {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    transform: rotate(45deg);
+    background: #c7d2fe;
+    box-shadow: 0 0 5px #818cf8;
+    animation: loader3229Star 1.8s ease-in-out infinite;
+}
+
+.loader-3229-star-1 {
+    left: 5px;
+    top: 11px;
+}
+
+.loader-3229-star-2 {
+    right: 5px;
+    top: 8px;
+    animation-delay: -.45s;
+}
+
+.loader-3229-star-3 {
+    left: 8px;
+    bottom: 7px;
+    animation-delay: -.9s;
+}
+
+.loader-3229-star-4 {
+    right: 7px;
+    bottom: 10px;
+    animation-delay: -1.35s;
+}
+
+@keyframes loader3229Orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader3229Moon {
+    0%,
+    100% {
+        transform: rotate(-12deg) scale(.8);
+    }
+
+    50% {
+        transform: rotate(12deg) scale(1.08);
+    }
+}
+
+@keyframes loader3229Star {
+    0%,
+    100% {
+        transform: rotate(45deg) scale(.45);
+        opacity: .2;
+    }
+
+    50% {
+        transform: rotate(135deg) scale(1.15);
+        opacity: 1;
+    }
+}`,
+  },
 ];
