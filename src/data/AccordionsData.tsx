@@ -7,7 +7,7 @@ export const accordions = [
     preview: (
       <div className="accordion-2817">
         <div className="accordion-item">      
-          <button className="accordion-trigger">
+          <button className="accordion-trigger">   
             <span>What is an accordion?</span>
             <i className="ri-add-line"></i>
           </button>
@@ -22,7 +22,7 @@ export const accordions = [
           </button>
           <div className="accordion-content">
             <span>Click a section to reveal its hidden content.</span>
-          </div>
+          </div>  
         </div>
       </div>  
     ),
@@ -36,14 +36,13 @@ export const accordions = [
   border-bottom: 1px solid #e5e7eb;
 }
 .accordion-2817 .accordion-trigger {
-  width: 100%;
+  width: 100%;  
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 13px 14px;
   border: 0;
-  background: #ffffff;
-  color: #111827;
+  background: #ffffff;  
   font-size: 13px;
   cursor: pointer;
   text-align: left;
