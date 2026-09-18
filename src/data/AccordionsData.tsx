@@ -6,7 +6,7 @@ export const accordions = [
     name: "Basic Accordion",
     preview: (
       <div className="accordion-2817">
-        <div className="accordion-item">
+        <div className="accordion-item">      
           <button className="accordion-trigger">
             <span>What is an accordion?</span>
             <i className="ri-add-line"></i>
@@ -18,13 +18,13 @@ export const accordions = [
         <div className="accordion-item">
           <button className="accordion-trigger">
             <span>How does it work?</span>
-            <i className="ri-add-line"></i>
+            <i className="ri-add-line"></i>   
           </button>
           <div className="accordion-content">
             <span>Click a section to reveal its hidden content.</span>
           </div>
         </div>
-      </div>
+      </div>  
     ),
     css: `
 .accordion-2817 {
@@ -227,7 +227,7 @@ export const accordions = [
   color: #1d4ed8;
   font-size: 13px;
   cursor: pointer;
-  text-align: left;
+  text-align: left;   
 }
 .accordion-2820 .accordion-trigger i {
   font-size: 18px;
