@@ -1,0 +1,1 @@
+export function initSidebar(id: number, element: Element): void;
