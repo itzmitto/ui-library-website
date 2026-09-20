@@ -4402,8 +4402,99 @@ export const sidebars = [
             </div>
 
             <div class="Sidebar__section">
-                <spa
-}`,
-  },
-];
+                <span class="Sidebar__section-title">MANAGEMENT</span>
 
+                <a
+                    href="#"
+                    class="Sidebar__nav-link"
+                    data-sidebar-search="team people members employees"
+                >
+                    <span class="Sidebar__nav-icon">
+                        <i class="ri-team-line"></i>
+                    </span>
+
+                    <span class="Sidebar__nav-text">Team</span>
+
+                    <div class="Sidebar__avatars">
+                        <span>J</span>
+                        <span>S</span>
+                        <span>+4</span>
+                    </div>
+                </a>
+
+                <a
+                    href="#"
+                    class="Sidebar__nav-link"
+                    data-sidebar-search="clients customers contacts crm"
+                >
+                    <span class="Sidebar__nav-icon">
+                        <i class="ri-user-heart-line"></i>
+                    </span>
+
+                    <span class="Sidebar__nav-text">Clients</span>
+                </a>
+
+                <a
+                    href="#"
+                    class="Sidebar__nav-link"
+                    data-sidebar-search="invoice billing payments finance"
+                >
+                    <span class="Sidebar__nav-icon">
+                        <i class="ri-file-list-3-line"></i>
+                    </span>
+
+                    <span class="Sidebar__nav-text">Invoices</span>
+
+                    <span class="Sidebar__alert-dot"></span>
+                </a>
+
+                <a
+                    href="#"
+                    class="Sidebar__nav-link"
+                    data-sidebar-search="reports export business documents"
+                >
+                    <span class="Sidebar__nav-icon">
+                        <i class="ri-file-chart-line"></i>
+                    </span>
+
+                    <span class="Sidebar__nav-text">Reports</span>
+                </a>
+            </div>
+
+            <div class="Sidebar__section">
+                <span class="Sidebar__section-title">SYSTEM</span>
+
+                <a
+                    href="#"
+                    class="Sidebar__nav-link"
+                    data-sidebar-search="integrations applications connections api"
+                >
+                    <span class="Sidebar__nav-icon">
+                        <i class="ri-links-line"></i>
+                    </span>
+
+                    <span class="Sidebar__nav-text">Integrations</span>
+
+                    <span class="Sidebar__nav-meta">14</span>
+                </a>
+
+                <a
+                    href="#"
+                    class="Sidebar__nav-link"
+                    data-sidebar-search="settings preferences account configuration"
+                >
+                    <span class="Sidebar__nav-icon">
+                        <i class="ri-settings-3-line"></i>
+                    </span>
+
+                    <span class="Sidebar__nav-text">Settings</span>
+                </a>
+
+                <a
+                    href="#"
+                    class="Sidebar__nav-link"
+                    data-sidebar-search="help support documentation questions"
+                >
+                    <span class="Sidebar__nav-icon">
+                        <i class="ri-question-line"></i>
+        
