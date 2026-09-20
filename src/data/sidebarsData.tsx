@@ -4497,4 +4497,519 @@ export const sidebars = [
                 >
                     <span class="Sidebar__nav-icon">
                         <i class="ri-question-line"></i>
-        
+                    </span>
+
+                    <span class="Sidebar__nav-text">Help Center</span>
+                </a>
+            </div>
+
+            <div class="Sidebar__no-results">
+                <strong>No results found</strong>
+                <span>Try another search term.</span>
+            </div>
+        </nav>
+    </div>
+
+    <div class="Sidebar__storage">
+        <div class="Sidebar__storage-head">
+            <div>
+                <strong>Storage</strong>
+                <span>68 GB of 100 GB</span>
+            </div>
+
+            <strong>68%</strong>
+        </div>
+
+        <div class="Sidebar__storage-track">
+            <span></span>
+        </div>
+
+        <button class="Sidebar__storage-button" type="button">
+            Upgrade storage
+        </button>
+    </div>
+
+    <div class="Sidebar__footer">
+        <div class="Sidebar__profile">
+            <div class="Sidebar__avatar">
+                <span>AB</span>
+                <small></small>
+            </div>
+
+            <div class="Sidebar__profile-info">
+                <strong>André Babirian</strong>
+                <span>Frontend Developer</span>
+            </div>
+        </div>
+
+        <button
+            class="Sidebar__profile-button"
+            type="button"
+            aria-label="Profile options"
+        >
+            <i class="ri-more-2-fill"></i>
+        </button>
+    </div>
+</aside>`,
+    css: `.Sidebar {
+    width: 340px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid #e7eaf0;
+    border-radius: 24px;
+    background: #ffffff;
+    color: #171a21;
+    box-shadow: 0 24px 70px rgba(15, 23, 42, 0.12);
+    transition: width 0.3s ease;
+}
+
+.Sidebar * {
+    box-sizing: border-box;
+}
+
+.Sidebar__header {
+    min-height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px 17px;
+    border-bottom: 1px solid #f0f2f5;
+}
+
+.Sidebar__brand {
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.Sidebar__logo {
+    flex: 0 0 auto;
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    border-radius: 13px;
+    background:
+        linear-gradient(
+            135deg,
+            #111827 0%,
+            #1d4ed8 52%,
+            #7c3aed 100%
+        );
+    color: #ffffff;
+    box-shadow:
+        0 8px 18px rgba(37, 99, 235, 0.18);
+}
+
+.Sidebar__logo span {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.Sidebar__brand-text {
+    min-width: 0;
+}
+
+.Sidebar__brand-text strong,
+.Sidebar__brand-text span {
+    display: block;
+}
+
+.Sidebar__brand-text strong {
+    color: #111827;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.Sidebar__brand-text span {
+    margin-top: 4px;
+    color: #9aa2af;
+    font-size: 9px;
+}
+
+.Sidebar__collapse,
+.Sidebar__workspace-button,
+.Sidebar__profile-button {
+    flex: 0 0 auto;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.Sidebar__collapse {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    color: #64748b;
+    font-size: 17px;
+}
+
+.Sidebar__collapse:hover {
+    background: #f6f8fb;
+    color: #111827;
+}
+
+.Sidebar__search-wrap {
+    position: relative;
+    margin: 14px 16px 10px;
+}
+
+.Sidebar__search-wrap > i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    z-index: 2;
+    color: #9aa2af;
+    font-size: 15px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.Sidebar__search {
+    width: 100%;
+    height: 40px;
+    padding: 0 48px 0 36px;
+    border: 1px solid #e6e9ef;
+    border-radius: 11px;
+    outline: none;
+    background: #f8fafc;
+    color: #111827;
+    font: inherit;
+    font-size: 10px;
+}
+
+.Sidebar__search::placeholder {
+    color: #9ca3af;
+}
+
+.Sidebar__search:focus {
+    border-color: #bfdbfe;
+    background: #ffffff;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.08);
+}
+
+.Sidebar__shortcut {
+    position: absolute;
+    right: 9px;
+    top: 50%;
+    padding: 3px 5px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #94a3b8;
+    font-size: 7px;
+    font-weight: 700;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.Sidebar__workspace {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 3px 16px 12px;
+    padding: 11px;
+    border: 1px solid #e9ecf1;
+    border-radius: 13px;
+    background:
+        linear-gradient(
+            135deg,
+            #fbfdff,
+            #f8fafc
+        );
+}
+
+.Sidebar__workspace-icon {
+    flex: 0 0 auto;
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: #111827;
+    color: #ffffff;
+}
+
+.Sidebar__workspace-icon span {
+    font-size: 9px;
+    font-weight: 800;
+}
+
+.Sidebar__workspace-info {
+    min-width: 0;
+    flex: 1;
+}
+
+.Sidebar__workspace-info strong,
+.Sidebar__workspace-info span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Sidebar__workspace-info strong {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.Sidebar__workspace-info span {
+    margin-top: 3px;
+    color: #9ca3af;
+    font-size: 8px;
+}
+
+.Sidebar__workspace-button {
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    color: #94a3b8;
+}
+
+.Sidebar__workspace-button:hover {
+    background: #eef2f7;
+    color: #111827;
+}
+
+.Sidebar__body {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 10px 8px;
+    scrollbar-width: thin;
+    scrollbar-color: #dbe1e8 transparent;
+}
+
+.Sidebar__body::-webkit-scrollbar {
+    width: 5px;
+}
+
+.Sidebar__body::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    background: #dbe1e8;
+}
+
+.Sidebar__body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.Sidebar__nav {
+    display: grid;
+    gap: 8px;
+}
+
+.Sidebar__section {
+    display: grid;
+    gap: 3px;
+}
+
+.Sidebar__section-title {
+    display: block;
+    padding: 10px 10px 5px;
+    color: #a4acb9;
+    font-size: 7px;
+    font-weight: 900;
+    letter-spacing: 0.13em;
+}
+
+.Sidebar__nav-link {
+    position: relative;
+    width: 100%;
+    min-height: 39px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    color: #5e6878;
+    font: inherit;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Sidebar__nav-link:hover {
+    background: #f6f8fb;
+    color: #111827;
+}
+
+.Sidebar__nav-link.active {
+    background:
+        linear-gradient(
+            90deg,
+            #eff6ff,
+            #f5f7ff
+        );
+    color: #1d4ed8;
+}
+
+.Sidebar__nav-icon {
+    flex: 0 0 auto;
+    width: 22px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    color: #8590a0;
+}
+
+.Sidebar__nav-icon i {
+    font-size: 16px;
+}
+
+.Sidebar__nav-link.active .Sidebar__nav-icon {
+    color: #2563eb;
+}
+
+.Sidebar__nav-text {
+    min-width: 0;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.Sidebar__active-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.08);
+}
+
+.Sidebar__nav-meta {
+    padding: 3px 6px;
+    border-radius: 999px;
+    background: #eef2f7;
+    color: #7a8493;
+    font-size: 7px;
+    font-weight: 700;
+}
+
+.Sidebar__nav-count {
+    min-width: 20px;
+    height: 20px;
+    display: grid;
+    place-items: center;
+    padding: 0 5px;
+    border-radius: 7px;
+    background: #eef2f7;
+    color: #778292;
+    font-size: 7px;
+    font-weight: 800;
+}
+
+.Sidebar__message-count {
+    min-width: 20px;
+    height: 20px;
+    display: grid;
+    place-items: center;
+    padding: 0 6px;
+    border-radius: 999px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 7px;
+    font-weight: 800;
+}
+
+.Sidebar__alert-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.09);
+}
+
+.Sidebar__submenu {
+    display: grid;
+}
+
+.Sidebar__submenu-toggle {
+    padding-right: 8px;
+}
+
+.Sidebar__chevron {
+    margin-left: 2px;
+    color: #9aa3b0;
+    font-size: 14px;
+    transition: transform 0.2s ease;
+}
+
+.Sidebar__submenu.open .Sidebar__chevron {
+    transform: rotate(180deg);
+}
+
+.Sidebar__submenu-content {
+    display: none;
+    gap: 2px;
+    padding: 3px 0 4px 42px;
+}
+
+.Sidebar__submenu.open .Sidebar__submenu-content {
+    display: grid;
+}
+
+.Sidebar__submenu-link {
+    min-height: 33px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 9px;
+    border-radius: 8px;
+    color: #6b7280;
+    text-decoration: none;
+}
+
+.Sidebar__submenu-link:hover {
+    background: #f8fafc;
+    color: #111827;
+}
+
+.Sidebar__submenu-link > span:nth-child(2) {
+    min-width: 0;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.Sidebar__submenu-link small {
+    color: #a1a8b4;
+    font-size: 7px;
+}
+
+.Sidebar__project-color {
+    flex: 0 0 auto;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.Sidebar__project-color--blue {
+    background: #3b82f6;
+}
+
+.Sidebar__project-color--purple {
+    background: #8b5cf6;
+}
+
+.Sidebar__project-color--cyan {
+    background: #06b6d4;
+}
+
