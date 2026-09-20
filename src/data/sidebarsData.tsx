@@ -5013,3 +5013,403 @@ export const sidebars = [
     background: #06b6d4;
 }
 
+.Sidebar__avatars {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.Sidebar__avatars span {
+    width: 21px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    margin-left: -5px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background: #e2e8f0;
+    color: #475569;
+    font-size: 6px;
+    font-weight: 800;
+}
+
+.Sidebar__avatars span:nth-child(2) {
+    background: #dbeafe;
+    color: #1d4ed8;
+}
+
+.Sidebar__avatars span:nth-child(3) {
+    background: #ede9fe;
+    color: #6d28d9;
+}
+
+.Sidebar__no-results {
+    display: none;
+    padding: 28px 14px;
+    text-align: center;
+}
+
+.Sidebar__no-results.visible {
+    display: block;
+}
+
+.Sidebar__no-results strong,
+.Sidebar__no-results span {
+    display: block;
+}
+
+.Sidebar__no-results strong {
+    font-size: 10px;
+}
+
+.Sidebar__no-results span {
+    margin-top: 4px;
+    color: #9ca3af;
+    font-size: 8px;
+}
+
+.Sidebar__storage {
+    margin: 10px 15px;
+    padding: 13px;
+    border: 1px solid #e8ebf0;
+    border-radius: 13px;
+    background:
+        linear-gradient(
+            135deg,
+            #f8fafc,
+            #ffffff
+        );
+}
+
+.Sidebar__storage-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.Sidebar__storage-head div strong,
+.Sidebar__storage-head div span {
+    display: block;
+}
+
+.Sidebar__storage-head div strong {
+    font-size: 9px;
+}
+
+.Sidebar__storage-head div span {
+    margin-top: 3px;
+    color: #9ca3af;
+    font-size: 7px;
+}
+
+.Sidebar__storage-head > strong {
+    color: #2563eb;
+    font-size: 9px;
+}
+
+.Sidebar__storage-track {
+    height: 5px;
+    margin: 11px 0;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #e7ebf0;
+}
+
+.Sidebar__storage-track span {
+    display: block;
+    width: 68%;
+    height: 100%;
+    border-radius: inherit;
+    background:
+        linear-gradient(
+            90deg,
+            #2563eb,
+            #4f46e5,
+            #7c3aed
+        );
+}
+
+.Sidebar__storage-button {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #dfe4eb;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #475569;
+    font-size: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Sidebar__storage-button:hover {
+    border-color: #cbd5e1;
+    color: #111827;
+}
+
+.Sidebar__footer {
+    min-height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 12px 16px;
+    border-top: 1px solid #f0f2f5;
+}
+
+.Sidebar__profile {
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Sidebar__avatar {
+    position: relative;
+    flex: 0 0 auto;
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border-radius: 11px;
+    background:
+        linear-gradient(
+            135deg,
+            #dbeafe,
+            #e0e7ff
+        );
+    color: #1e40af;
+}
+
+.Sidebar__avatar span {
+    font-size: 9px;
+    font-weight: 900;
+}
+
+.Sidebar__avatar small {
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    width: 9px;
+    height: 9px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background: #22c55e;
+}
+
+.Sidebar__profile-info {
+    min-width: 0;
+}
+
+.Sidebar__profile-info strong,
+.Sidebar__profile-info span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Sidebar__profile-info strong {
+    font-size: 9px;
+}
+
+.Sidebar__profile-info span {
+    margin-top: 3px;
+    color: #9ca3af;
+    font-size: 7px;
+}
+
+.Sidebar__profile-button {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    color: #94a3b8;
+}
+
+.Sidebar__profile-button:hover {
+    background: #f5f7fa;
+    color: #111827;
+}
+
+.Sidebar.is-collapsed {
+    width: 86px;
+}
+
+.Sidebar.is-collapsed .Sidebar__header {
+    justify-content: center;
+    padding-inline: 12px;
+}
+
+.Sidebar.is-collapsed .Sidebar__brand-text,
+.Sidebar.is-collapsed .Sidebar__collapse,
+.Sidebar.is-collapsed .Sidebar__search,
+.Sidebar.is-collapsed .Sidebar__shortcut,
+.Sidebar.is-collapsed .Sidebar__workspace-info,
+.Sidebar.is-collapsed .Sidebar__workspace-button,
+.Sidebar.is-collapsed .Sidebar__section-title,
+.Sidebar.is-collapsed .Sidebar__nav-text,
+.Sidebar.is-collapsed .Sidebar__nav-count,
+.Sidebar.is-collapsed .Sidebar__nav-meta,
+.Sidebar.is-collapsed .Sidebar__message-count,
+.Sidebar.is-collapsed .Sidebar__active-dot,
+.Sidebar.is-collapsed .Sidebar__alert-dot,
+.Sidebar.is-collapsed .Sidebar__chevron,
+.Sidebar.is-collapsed .Sidebar__avatars,
+.Sidebar.is-collapsed .Sidebar__submenu-content,
+.Sidebar.is-collapsed .Sidebar__storage,
+.Sidebar.is-collapsed .Sidebar__profile-info,
+.Sidebar.is-collapsed .Sidebar__profile-button {
+    display: none;
+}
+
+.Sidebar.is-collapsed .Sidebar__search-wrap {
+    width: 42px;
+    height: 40px;
+    margin-inline: auto;
+    border: 1px solid #e6e9ef;
+    border-radius: 11px;
+    background: #f8fafc;
+}
+
+.Sidebar.is-collapsed .Sidebar__search-wrap > i {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Sidebar.is-collapsed .Sidebar__workspace {
+    width: 44px;
+    margin-inline: auto;
+    padding: 5px;
+    justify-content: center;
+}
+
+.Sidebar.is-collapsed .Sidebar__nav-link {
+    width: 46px;
+    margin-inline: auto;
+    justify-content: center;
+    padding-inline: 0;
+}
+
+.Sidebar.is-collapsed .Sidebar__nav-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.Sidebar.is-collapsed .Sidebar__footer {
+    justify-content: center;
+    padding-inline: 10px;
+}
+
+.Sidebar.is-collapsed .Sidebar__profile {
+    justify-content: center;
+}
+
+.Sidebar__nav-link.is-hidden,
+.Sidebar__submenu-link.is-hidden,
+.Sidebar__section.is-hidden,
+.Sidebar__submenu.is-hidden {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .Sidebar {
+        width: min(340px, calc(100vw - 24px));
+        height: 680px;
+    }
+
+    .Sidebar.is-collapsed {
+        width: 86px;
+    }
+}`,
+    javascript: `const sidebar = document.querySelector('[data-sidebar-id="3476"]');
+
+if (sidebar) {
+    const collapseButton = sidebar.querySelector(".Sidebar__collapse");
+    const searchInput = sidebar.querySelector(".Sidebar__search");
+    const submenu = sidebar.querySelector(".Sidebar__submenu");
+    const submenuToggle = sidebar.querySelector(".Sidebar__submenu-toggle");
+    const navLinks = sidebar.querySelectorAll(".Sidebar__nav-link");
+    const searchableItems = sidebar.querySelectorAll("[data-sidebar-search]");
+    const sections = sidebar.querySelectorAll(".Sidebar__section");
+    const noResults = sidebar.querySelector(".Sidebar__no-results");
+
+    collapseButton?.addEventListener("click", () => {
+        const collapsed = sidebar.classList.toggle("is-collapsed");
+
+        collapseButton.setAttribute(
+            "aria-expanded",
+            String(!collapsed)
+        );
+    });
+
+    submenuToggle?.addEventListener("click", () => {
+        if (!submenu) {
+            return;
+        }
+
+        const open = submenu.classList.toggle("open");
+
+        submenuToggle.setAttribute(
+            "aria-expanded",
+            String(open)
+        );
+    });
+
+    navLinks.forEach((link) => {
+        if (link.classList.contains("Sidebar__submenu-toggle")) {
+            return;
+        }
+
+        link.addEventListener("click", () => {
+            navLinks.forEach((item) => {
+                item.classList.remove("active");
+            });
+
+            link.classList.add("active");
+        });
+    });
+
+    searchInput?.addEventListener("input", () => {
+        const query = searchInput.value.trim().toLowerCase();
+        let visibleItems = 0;
+
+        searchableItems.forEach((item) => {
+            const searchValue = (
+                item.getAttribute("data-sidebar-search") || ""
+            ).toLowerCase();
+
+            const visible =
+                query === "" ||
+                searchValue.includes(query) ||
+                item.textContent.toLowerCase().includes(query);
+
+            item.classList.toggle("is-hidden", !visible);
+
+            if (visible) {
+                visibleItems += 1;
+            }
+        });
+
+        sections.forEach((section) => {
+            const visibleChildren = section.querySelectorAll(
+                "[data-sidebar-search]:not(.is-hidden)"
+            );
+
+            section.classList.toggle(
+                "is-hidden",
+                query !== "" && visibleChildren.length === 0
+            );
+        });
+
+        if (noResults) {
+            noResults.classList.toggle(
+                "visible",
+                query !== "" && visibleItems === 0
+            );
+        }
+    });
+}`,
+  },
+];
+
