@@ -1,6 +1,7 @@
 import { memo, useCallback, useEffect, useRef, useState } from "react";
 import Header from "../components/Header";
 import { buttons } from "../data/buttonsData";
+import { initButton } from "../scripts/ButtonsScript.js";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Buttons.css";
@@ -58,6 +59,26 @@ const ButtonCard = memo(
   }) => {
     const row = Math.floor(index / columns);
     const column = index % columns;
+    const previewRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+      const preview = previewRef.current;
+
+      if (!preview || !item.scriptId) {
+        return;
+      }
+
+      const element = preview.querySelector(
+        `[data-button-id="${item.scriptId}"]`,
+      );
+
+      if (!element) {
+        return;
+      }
+
+      initButton(item.scriptId, element);
+    }, [item]);
+
     return (
       <div
         className="all-card"
@@ -75,7 +96,10 @@ const ButtonCard = memo(
           cursor: "pointer",
         }}
       >
-        <div className="all-card-preview">{item.preview}</div>
+        <div ref={previewRef} className="all-card-preview">
+          {item.preview}
+        </div>
+
         <div className="all-card-footer">
           <span className="all-card-name">{item.name}</span>
         </div>
@@ -90,9 +114,11 @@ export default function Buttons() {
   const [selected, setSelected] = useState<ButtonItem | null>(null);
   const [columns, setColumns] = useState(1);
   const [scrollTop, setScrollTop] = useState(0);
+
   const [viewportHeight, setViewportHeight] = useState(
     typeof window !== "undefined" ? window.innerHeight : 800,
   );
+
   const [gridTop, setGridTop] = useState(0);
 
   const gridRef = useRef<HTMLDivElement>(null);
@@ -111,12 +137,14 @@ export default function Buttons() {
 
       if (grid) {
         const width = grid.clientWidth;
+
         const nextColumns = Math.max(
           1,
           Math.floor((width + GRID_GAP) / (240 + GRID_GAP)),
         );
 
         setColumns(nextColumns);
+
         setGridTop(grid.getBoundingClientRect().top + window.scrollY);
       }
 
@@ -127,7 +155,10 @@ export default function Buttons() {
   useEffect(() => {
     updateLayout();
 
-    window.addEventListener("scroll", updateLayout, { passive: true });
+    window.addEventListener("scroll", updateLayout, {
+      passive: true,
+    });
+
     window.addEventListener("resize", updateLayout);
 
     return () => {
@@ -153,11 +184,15 @@ export default function Buttons() {
 
     observer.observe(grid);
 
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+    };
   }, [updateLayout]);
 
   const rowHeight = CARD_HEIGHT + GRID_GAP;
+
   const totalRows = Math.ceil(buttons.length / columns);
+
   const totalHeight = totalRows > 0 ? totalRows * rowHeight - GRID_GAP : 0;
 
   const relativeScrollTop = Math.max(0, scrollTop - gridTop);
@@ -173,6 +208,7 @@ export default function Buttons() {
   );
 
   const startIndex = startRow * columns;
+
   const endIndex = Math.min(buttons.length, endRow * columns);
 
   const visibleButtons = buttons.slice(startIndex, endIndex);
@@ -184,6 +220,7 @@ export default function Buttons() {
   return (
     <div className="all-page">
       <Header />
+
       <div className="all-layout">
         <aside className="sidebar">
           {sidebarItems.map((item) => (
@@ -198,11 +235,14 @@ export default function Buttons() {
             </a>
           ))}
         </aside>
+
         <main className="all-main">
           <div className="all-header">
             <h1>Buttons</h1>
+
             <p>Open-Source buttons made with CSS or Tailwind</p>
           </div>
+
           <div
             ref={gridRef}
             className="all-grid"
@@ -227,6 +267,7 @@ export default function Buttons() {
           </div>
         </main>
       </div>
+
       <ComponentModal item={selected} onClose={() => setSelected(null)} />
     </div>
   );

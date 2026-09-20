@@ -5411,4 +5411,2116 @@ if (sidebar) {
     });
 }`,
   },
+  {
+    id: 3477,
+    name: "Professional Slide-Out Workspace Sidebar",
+    scriptId: 3477,
+    preview: (
+      <div className="sidebar-3477-demo" data-sidebar-id="3477">
+        <div className="sidebar-3477-page">
+          <div className="sidebar-3477-page-header">
+            <button
+              className="sidebar-3477-open"
+              type="button"
+              aria-label="Open sidebar"
+              aria-expanded="false"
+            >
+              <i className="ri-menu-2-line"></i>
+              <span>Menu</span>
+            </button>
+
+            <div className="sidebar-3477-page-brand">
+              <strong>Northstar</strong>
+              <span>Workspace</span>
+            </div>
+
+            <div className="sidebar-3477-page-user">AB</div>
+          </div>
+
+          <div className="sidebar-3477-page-content">
+            <span>PROJECT OVERVIEW</span>
+            <strong>Build better products.</strong>
+            <p>
+              Manage projects, clients, team members and company activity from
+              one workspace.
+            </p>
+
+            <div className="sidebar-3477-page-stats">
+              <div>
+                <strong>24</strong>
+                <span>Projects</span>
+              </div>
+
+              <div>
+                <strong>18</strong>
+                <span>Clients</span>
+              </div>
+
+              <div>
+                <strong>42</strong>
+                <span>Tasks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="sidebar-3477-overlay"></div>
+
+        <aside className="sidebar-3477-panel" aria-hidden="true">
+          <div className="sidebar-3477-header">
+            <div className="sidebar-3477-brand">
+              <div className="sidebar-3477-logo">N</div>
+
+              <div>
+                <strong>Northstar</strong>
+                <span>Professional Workspace</span>
+              </div>
+            </div>
+
+            <button
+              className="sidebar-3477-close"
+              type="button"
+              aria-label="Close sidebar"
+            >
+              <i className="ri-close-line"></i>
+            </button>
+          </div>
+
+          <div className="sidebar-3477-workspace">
+            <div className="sidebar-3477-workspace-logo">NW</div>
+
+            <div className="sidebar-3477-workspace-info">
+              <strong>Northstar Studio</strong>
+              <span>Business workspace</span>
+            </div>
+
+            <button
+              className="sidebar-3477-workspace-more"
+              type="button"
+              aria-label="Workspace options"
+            >
+              <i className="ri-more-2-fill"></i>
+            </button>
+          </div>
+
+          <div className="sidebar-3477-search">
+            <i className="ri-search-line"></i>
+
+            <input
+              type="text"
+              placeholder="Search workspace..."
+              aria-label="Search workspace"
+            />
+
+            <span>⌘K</span>
+          </div>
+
+          <div className="sidebar-3477-content">
+            <nav className="sidebar-3477-nav">
+              <div className="sidebar-3477-section">
+                <span className="sidebar-3477-section-title">OVERVIEW</span>
+
+                <a className="sidebar-3477-link active" href="#">
+                  <i className="ri-home-5-line"></i>
+                  <span>Dashboard</span>
+                </a>
+
+                <a className="sidebar-3477-link" href="#">
+                  <i className="ri-bar-chart-box-line"></i>
+                  <span>Analytics</span>
+
+                  <small>Live</small>
+                </a>
+
+                <a className="sidebar-3477-link" href="#">
+                  <i className="ri-pulse-line"></i>
+                  <span>Activity</span>
+                </a>
+              </div>
+
+              <div className="sidebar-3477-section">
+                <span className="sidebar-3477-section-title">WORKSPACE</span>
+
+                <a className="sidebar-3477-link" href="#">
+                  <i className="ri-folder-6-line"></i>
+                  <span>Projects</span>
+
+                  <strong>12</strong>
+                </a>
+
+                <a className="sidebar-3477-link" href="#">
+                  <i className="ri-checkbox-circle-line"></i>
+                  <span>Tasks</span>
+
+                  <strong>24</strong>
+                </a>
+
+                <a className="sidebar-3477-link" href="#">
+                  <i className="ri-calendar-line"></i>
+                  <span>Calendar</span>
+                </a>
+
+                <a className="sidebar-3477-link" href="#">
+                  <i className="ri-message-3-line"></i>
+                  <span>Messages</span>
+
+                  <b>8</b>
+                </a>
+              </div>
+
+              <div className="sidebar-3477-projects">
+                <div className="sidebar-3477-projects-header">
+                  <span>RECENT PROJECTS</span>
+
+                  <button type="button">View all</button>
+                </div>
+
+                <a href="#" className="sidebar-3477-project">
+                  <span className="sidebar-3477-project-dot sidebar-3477-project-blue"></span>
+
+                  <div>
+                    <strong>Website Redesign</strong>
+                    <span>18 tasks remaining</span>
+                  </div>
+
+                  <small>68%</small>
+                </a>
+
+                <a href="#" className="sidebar-3477-project">
+                  <span className="sidebar-3477-project-dot sidebar-3477-project-purple"></span>
+
+                  <div>
+                    <strong>Mobile Platform</strong>
+                    <span>9 tasks remaining</span>
+                  </div>
+
+                  <small>81%</small>
+                </a>
+
+                <a href="#" className="sidebar-3477-project">
+                  <span className="sidebar-3477-project-dot sidebar-3477-project-cyan"></span>
+
+                  <div>
+                    <strong>Design System</strong>
+                    <span>24 components</span>
+                  </div>
+
+                  <small>54%</small>
+                </a>
+              </div>
+
+              <div className="sidebar-3477-section">
+                <span className="sidebar-3477-section-title">MANAGEMENT</span>
+
+                <a className="sidebar-3477-link" href="#">
+                  <i className="ri-team-line"></i>
+                  <span>Team</span>
+                </a>
+
+                <a className="sidebar-3477-link" href="#">
+                  <i className="ri-user-heart-line"></i>
+                  <span>Clients</span>
+                </a>
+
+                <a className="sidebar-3477-link" href="#">
+                  <i className="ri-file-list-3-line"></i>
+                  <span>Invoices</span>
+
+                  <span className="sidebar-3477-alert"></span>
+                </a>
+              </div>
+
+              <div className="sidebar-3477-section">
+                <span className="sidebar-3477-section-title">SYSTEM</span>
+
+                <a className="sidebar-3477-link" href="#">
+                  <i className="ri-settings-3-line"></i>
+                  <span>Settings</span>
+                </a>
+
+                <a className="sidebar-3477-link" href="#">
+                  <i className="ri-question-line"></i>
+                  <span>Help Center</span>
+                </a>
+              </div>
+            </nav>
+          </div>
+
+          <div className="sidebar-3477-upgrade">
+            <div className="sidebar-3477-upgrade-top">
+              <div>
+                <strong>Professional Plan</strong>
+                <span>68 GB of 100 GB used</span>
+              </div>
+
+              <strong>68%</strong>
+            </div>
+
+            <div className="sidebar-3477-progress">
+              <span></span>
+            </div>
+
+            <button type="button">Upgrade workspace</button>
+          </div>
+
+          <div className="sidebar-3477-footer">
+            <div className="sidebar-3477-profile">
+              <div className="sidebar-3477-avatar">
+                AB
+                <span></span>
+              </div>
+
+              <div>
+                <strong>André Babirian</strong>
+                <span>Frontend Developer</span>
+              </div>
+            </div>
+
+            <button
+              className="sidebar-3477-profile-more"
+              type="button"
+              aria-label="Profile options"
+            >
+              <i className="ri-more-2-fill"></i>
+            </button>
+          </div>
+        </aside>
+      </div>
+    ),
+    html: `<div class="Sidebar3477Demo" data-sidebar-id="3477">
+    <main class="Sidebar3477Demo__page">
+        <header class="Sidebar3477Demo__header">
+            <button
+                class="Sidebar3477Open"
+                type="button"
+                aria-label="Open sidebar"
+                aria-expanded="false"
+            >
+                <i class="ri-menu-2-line"></i>
+                <span>Menu</span>
+            </button>
+
+            <div class="Sidebar3477Demo__brand">
+                <strong>Northstar</strong>
+                <span>Workspace</span>
+            </div>
+
+            <div class="Sidebar3477Demo__user">AB</div>
+        </header>
+
+        <section class="Sidebar3477Demo__content">
+            <span>PROJECT OVERVIEW</span>
+            <h1>Build better products.</h1>
+
+            <p>
+                Manage projects, clients, team members and company activity from one workspace.
+            </p>
+        </section>
+    </main>
+
+    <div class="Sidebar3477Overlay"></div>
+
+    <aside class="Sidebar3477" aria-hidden="true">
+        <div class="Sidebar3477__header">
+            <div class="Sidebar3477__brand">
+                <div class="Sidebar3477__logo">N</div>
+
+                <div>
+                    <strong>Northstar</strong>
+                    <span>Professional Workspace</span>
+                </div>
+            </div>
+
+            <button
+                class="Sidebar3477__close"
+                type="button"
+                aria-label="Close sidebar"
+            >
+                <i class="ri-close-line"></i>
+            </button>
+        </div>
+
+        <div class="Sidebar3477__workspace">
+            <div class="Sidebar3477__workspace-logo">NW</div>
+
+            <div class="Sidebar3477__workspace-info">
+                <strong>Northstar Studio</strong>
+                <span>Business workspace</span>
+            </div>
+
+            <button
+                class="Sidebar3477__workspace-more"
+                type="button"
+                aria-label="Workspace options"
+            >
+                <i class="ri-more-2-fill"></i>
+            </button>
+        </div>
+
+        <div class="Sidebar3477__search">
+            <i class="ri-search-line"></i>
+
+            <input
+                type="text"
+                placeholder="Search workspace..."
+                aria-label="Search workspace"
+            >
+
+            <span>⌘K</span>
+        </div>
+
+        <div class="Sidebar3477__content">
+            <nav class="Sidebar3477__nav">
+                <div class="Sidebar3477__section">
+                    <span class="Sidebar3477__section-title">
+                        OVERVIEW
+                    </span>
+
+                    <a class="Sidebar3477__link active" href="#">
+                        <i class="ri-home-5-line"></i>
+                        <span>Dashboard</span>
+                    </a>
+
+                    <a class="Sidebar3477__link" href="#">
+                        <i class="ri-bar-chart-box-line"></i>
+                        <span>Analytics</span>
+                        <small>Live</small>
+                    </a>
+
+                    <a class="Sidebar3477__link" href="#">
+                        <i class="ri-pulse-line"></i>
+                        <span>Activity</span>
+                    </a>
+                </div>
+
+                <div class="Sidebar3477__section">
+                    <span class="Sidebar3477__section-title">
+                        WORKSPACE
+                    </span>
+
+                    <a class="Sidebar3477__link" href="#">
+                        <i class="ri-folder-6-line"></i>
+                        <span>Projects</span>
+                        <strong>12</strong>
+                    </a>
+
+                    <a class="Sidebar3477__link" href="#">
+                        <i class="ri-checkbox-circle-line"></i>
+                        <span>Tasks</span>
+                        <strong>24</strong>
+                    </a>
+
+                    <a class="Sidebar3477__link" href="#">
+                        <i class="ri-calendar-line"></i>
+                        <span>Calendar</span>
+                    </a>
+
+                    <a class="Sidebar3477__link" href="#">
+                        <i class="ri-message-3-line"></i>
+                        <span>Messages</span>
+                        <b>8</b>
+                    </a>
+                </div>
+
+                <div class="Sidebar3477__projects">
+                    <div class="Sidebar3477__projects-header">
+                        <span>RECENT PROJECTS</span>
+                        <button type="button">View all</button>
+                    </div>
+
+                    <a href="#" class="Sidebar3477__project">
+                        <span class="Sidebar3477__project-dot Sidebar3477__project-dot--blue"></span>
+
+                        <div>
+                            <strong>Website Redesign</strong>
+                            <span>18 tasks remaining</span>
+                        </div>
+
+                        <small>68%</small>
+                    </a>
+
+                    <a href="#" class="Sidebar3477__project">
+                        <span class="Sidebar3477__project-dot Sidebar3477__project-dot--purple"></span>
+
+                        <div>
+                            <strong>Mobile Platform</strong>
+                            <span>9 tasks remaining</span>
+                        </div>
+
+                        <small>81%</small>
+                    </a>
+
+                    <a href="#" class="Sidebar3477__project">
+                        <span class="Sidebar3477__project-dot Sidebar3477__project-dot--cyan"></span>
+
+                        <div>
+                            <strong>Design System</strong>
+                            <span>24 components</span>
+                        </div>
+
+                        <small>54%</small>
+                    </a>
+                </div>
+
+                <div class="Sidebar3477__section">
+                    <span class="Sidebar3477__section-title">
+                        MANAGEMENT
+                    </span>
+
+                    <a class="Sidebar3477__link" href="#">
+                        <i class="ri-team-line"></i>
+                        <span>Team</span>
+                    </a>
+
+                    <a class="Sidebar3477__link" href="#">
+                        <i class="ri-user-heart-line"></i>
+                        <span>Clients</span>
+                    </a>
+
+                    <a class="Sidebar3477__link" href="#">
+                        <i class="ri-file-list-3-line"></i>
+                        <span>Invoices</span>
+                        <span class="Sidebar3477__alert"></span>
+                    </a>
+                </div>
+
+                <div class="Sidebar3477__section">
+                    <span class="Sidebar3477__section-title">
+                        SYSTEM
+                    </span>
+
+                    <a class="Sidebar3477__link" href="#">
+                        <i class="ri-settings-3-line"></i>
+                        <span>Settings</span>
+                    </a>
+
+                    <a class="Sidebar3477__link" href="#">
+                        <i class="ri-question-line"></i>
+                        <span>Help Center</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="Sidebar3477__upgrade">
+            <div class="Sidebar3477__upgrade-top">
+                <div>
+                    <strong>Professional Plan</strong>
+                    <span>68 GB of 100 GB used</span>
+                </div>
+
+                <strong>68%</strong>
+            </div>
+
+            <div class="Sidebar3477__progress">
+                <span></span>
+            </div>
+
+            <button type="button">
+                Upgrade workspace
+            </button>
+        </div>
+
+        <div class="Sidebar3477__footer">
+            <div class="Sidebar3477__profile">
+                <div class="Sidebar3477__avatar">
+                    AB
+                    <span></span>
+                </div>
+
+                <div>
+                    <strong>André Babirian</strong>
+                    <span>Frontend Developer</span>
+                </div>
+            </div>
+
+            <button
+                class="Sidebar3477__profile-more"
+                type="button"
+                aria-label="Profile options"
+            >
+                <i class="ri-more-2-fill"></i>
+            </button>
+        </div>
+    </aside>
+</div>`,
+    css: `.Sidebar3477Demo {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #f7f8fb;
+    color: #111827;
+}
+
+.Sidebar3477Demo__page {
+    min-height: 100vh;
+}
+
+.Sidebar3477Demo__header {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    border-bottom: 1px solid #e5e7eb;
+    background: #ffffff;
+}
+
+.Sidebar3477Open {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #111827;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Sidebar3477Open i {
+    font-size: 18px;
+}
+
+.Sidebar3477Demo__brand {
+    text-align: center;
+}
+
+.Sidebar3477Demo__brand strong,
+.Sidebar3477Demo__brand span {
+    display: block;
+}
+
+.Sidebar3477Demo__brand strong {
+    font-size: 14px;
+}
+
+.Sidebar3477Demo__brand span {
+    margin-top: 2px;
+    color: #94a3b8;
+    font-size: 10px;
+}
+
+.Sidebar3477Demo__user {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    border-radius: 11px;
+    background: #e0e7ff;
+    color: #3730a3;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.Sidebar3477Demo__content {
+    max-width: 760px;
+    padding: 90px 40px;
+}
+
+.Sidebar3477Demo__content > span {
+    color: #2563eb;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+}
+
+.Sidebar3477Demo__content h1 {
+    margin: 12px 0 0;
+    font-size: clamp(36px, 7vw, 72px);
+    line-height: 1;
+    letter-spacing: -0.05em;
+}
+
+.Sidebar3477Demo__content p {
+    max-width: 560px;
+    margin-top: 20px;
+    color: #64748b;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.Sidebar3477Overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 90;
+    background: rgba(15, 23, 42, 0.45);
+    backdrop-filter: blur(3px);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+.Sidebar3477Overlay.is-open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Sidebar3477 {
+    position: fixed;
+    z-index: 100;
+    left: 18px;
+    top: 18px;
+    bottom: 18px;
+    width: min(350px, calc(100vw - 36px));
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    background: #0d111c;
+    color: #ffffff;
+    box-shadow: 0 28px 80px rgba(0, 0, 0, 0.35);
+    transform: translateX(calc(-100% - 30px));
+    transition: transform 0.32s cubic-bezier(.22, .9, .32, 1);
+}
+
+.Sidebar3477.is-open {
+    transform: translateX(0);
+}
+
+.Sidebar3477__header {
+    min-height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.Sidebar3477__brand {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.Sidebar3477__logo {
+    width: 41px;
+    height: 41px;
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 900;
+    box-shadow: 0 8px 24px rgba(79, 70, 229, 0.25);
+}
+
+.Sidebar3477__brand strong,
+.Sidebar3477__brand span {
+    display: block;
+}
+
+.Sidebar3477__brand strong {
+    font-size: 13px;
+}
+
+.Sidebar3477__brand span {
+    margin-top: 3px;
+    color: #727d91;
+    font-size: 8px;
+}
+
+.Sidebar3477__close,
+.Sidebar3477__workspace-more,
+.Sidebar3477__profile-more {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.Sidebar3477__close {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #9aa5b8;
+    font-size: 19px;
+}
+
+.Sidebar3477__close:hover {
+    background: rgba(255, 255, 255, 0.09);
+    color: #ffffff;
+}
+
+.Sidebar3477__workspace {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 14px 15px 9px;
+    padding: 11px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 13px;
+    background: rgba(255, 255, 255, 0.035);
+}
+
+.Sidebar3477__workspace-logo {
+    flex: 0 0 auto;
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #111827;
+    font-size: 9px;
+    font-weight: 900;
+}
+
+.Sidebar3477__workspace-info {
+    min-width: 0;
+    flex: 1;
+}
+
+.Sidebar3477__workspace-info strong,
+.Sidebar3477__workspace-info span {
+    display: block;
+}
+
+.Sidebar3477__workspace-info strong {
+    font-size: 10px;
+}
+
+.Sidebar3477__workspace-info span {
+    margin-top: 3px;
+    color: #667085;
+    font-size: 8px;
+}
+
+.Sidebar3477__workspace-more {
+    color: #6b7280;
+    font-size: 16px;
+}
+
+.Sidebar3477__search {
+    position: relative;
+    margin: 0 15px 11px;
+}
+
+.Sidebar3477__search > i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    color: #687386;
+    font-size: 15px;
+    transform: translateY(-50%);
+}
+
+.Sidebar3477__search input {
+    width: 100%;
+    height: 39px;
+    padding: 0 43px 0 36px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.035);
+    color: #ffffff;
+    font: inherit;
+    font-size: 9px;
+}
+
+.Sidebar3477__search input::placeholder {
+    color: #5f6a7d;
+}
+
+.Sidebar3477__search > span {
+    position: absolute;
+    right: 9px;
+    top: 50%;
+    padding: 3px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+    color: #5e697b;
+    font-size: 6px;
+    transform: translateY(-50%);
+}
+
+.Sidebar3477__content {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 0 10px 12px;
+    scrollbar-width: thin;
+    scrollbar-color: #293044 transparent;
+}
+
+.Sidebar3477__nav {
+    display: grid;
+    gap: 8px;
+}
+
+.Sidebar3477__section {
+    display: grid;
+    gap: 3px;
+}
+
+.Sidebar3477__section-title {
+    padding: 10px 10px 4px;
+    color: #525d70;
+    font-size: 7px;
+    font-weight: 900;
+    letter-spacing: 0.14em;
+}
+
+.Sidebar3477__link {
+    min-height: 39px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    color: #8b95a7;
+    text-decoration: none;
+}
+
+.Sidebar3477__link:hover {
+    background: rgba(255, 255, 255, 0.045);
+    color: #ffffff;
+}
+
+.Sidebar3477__link.active {
+    background: linear-gradient(
+        90deg,
+        rgba(37, 99, 235, 0.18),
+        rgba(124, 58, 237, 0.09)
+    );
+    color: #ffffff;
+}
+
+.Sidebar3477__link > i {
+    flex: 0 0 auto;
+    width: 23px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.Sidebar3477__link > span:nth-child(2) {
+    flex: 1;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.Sidebar3477__link small {
+    padding: 3px 6px;
+    border-radius: 999px;
+    background: rgba(59, 130, 246, 0.12);
+    color: #60a5fa;
+    font-size: 6px;
+    font-weight: 800;
+}
+
+.Sidebar3477__link > strong {
+    min-width: 19px;
+    height: 19px;
+    display: grid;
+    place-items: center;
+    padding: 0 4px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.06);
+    color: #8490a3;
+    font-size: 6px;
+}
+
+.Sidebar3477__link > b {
+    min-width: 19px;
+    height: 19px;
+    display: grid;
+    place-items: center;
+    padding: 0 5px;
+    border-radius: 999px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 6px;
+}
+
+.Sidebar3477__alert {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.08);
+}
+
+.Sidebar3477__projects {
+    margin: 4px 4px;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.055);
+    border-radius: 13px;
+    background: rgba(255, 255, 255, 0.025);
+}
+
+.Sidebar3477__projects-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+.Sidebar3477__projects-header span {
+    color: #525d70;
+    font-size: 7px;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+}
+
+.Sidebar3477__projects-header button {
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #64748b;
+    font-size: 7px;
+    cursor: pointer;
+}
+
+.Sidebar3477__project {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 2px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.Sidebar3477__project + .Sidebar3477__project {
+    border-top: 1px solid rgba(255, 255, 255, 0.045);
+}
+
+.Sidebar3477__project-dot {
+    flex: 0 0 auto;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.Sidebar3477__project-dot--blue {
+    background: #3b82f6;
+}
+
+.Sidebar3477__project-dot--purple {
+    background: #8b5cf6;
+}
+
+.Sidebar3477__project-dot--cyan {
+    background: #06b6d4;
+}
+
+.Sidebar3477__project div {
+    min-width: 0;
+    flex: 1;
+}
+
+.Sidebar3477__project strong,
+.Sidebar3477__project span {
+    display: block;
+}
+
+.Sidebar3477__project strong {
+    overflow: hidden;
+    color: #cfd5df;
+    font-size: 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Sidebar3477__project span {
+    margin-top: 3px;
+    color: #596476;
+    font-size: 6px;
+}
+
+.Sidebar3477__project small {
+    color: #677286;
+    font-size: 7px;
+}
+
+.Sidebar3477__upgrade {
+    margin: 8px 15px 10px;
+    padding: 12px;
+    border: 1px solid rgba(99, 102, 241, 0.14);
+    border-radius: 13px;
+    background: linear-gradient(
+        145deg,
+        rgba(37, 99, 235, 0.08),
+        rgba(124, 58, 237, 0.07)
+    );
+}
+
+.Sidebar3477__upgrade-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.Sidebar3477__upgrade-top div strong,
+.Sidebar3477__upgrade-top div span {
+    display: block;
+}
+
+.Sidebar3477__upgrade-top div strong {
+    font-size: 8px;
+}
+
+.Sidebar3477__upgrade-top div span {
+    margin-top: 3px;
+    color: #647084;
+    font-size: 6px;
+}
+
+.Sidebar3477__upgrade-top > strong {
+    color: #818cf8;
+    font-size: 8px;
+}
+
+.Sidebar3477__progress {
+    height: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.Sidebar3477__progress span {
+    display: block;
+    width: 68%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #2563eb, #7c3aed);
+}
+
+.Sidebar3477__upgrade > button {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.045);
+    color: #a5afbf;
+    font-size: 7px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Sidebar3477__footer {
+    min-height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 12px 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.055);
+}
+
+.Sidebar3477__profile {
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.Sidebar3477__avatar {
+    position: relative;
+    flex: 0 0 auto;
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #dbeafe, #ddd6fe);
+    color: #3730a3;
+    font-size: 8px;
+    font-weight: 900;
+}
+
+.Sidebar3477__avatar span {
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #0d111c;
+    border-radius: 50%;
+    background: #22c55e;
+}
+
+.Sidebar3477__profile > div:last-child {
+    min-width: 0;
+}
+
+.Sidebar3477__profile strong,
+.Sidebar3477__profile > div:last-child span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Sidebar3477__profile strong {
+    font-size: 8px;
+}
+
+.Sidebar3477__profile > div:last-child span {
+    margin-top: 3px;
+    color: #5e697a;
+    font-size: 6px;
+}
+
+.Sidebar3477__profile-more {
+    color: #657084;
+    font-size: 16px;
+}
+
+body.Sidebar3477Locked {
+    overflow: hidden;
+}`,
+    javascript: `const component = document.querySelector('[data-sidebar-id="3477"]');
+
+if (component) {
+    const sidebar = component.querySelector(".Sidebar3477");
+    const overlay = component.querySelector(".Sidebar3477Overlay");
+    const openButton = component.querySelector(".Sidebar3477Open");
+    const closeButton = component.querySelector(".Sidebar3477__close");
+    const links = component.querySelectorAll(".Sidebar3477__link");
+
+    function openSidebar() {
+        sidebar.classList.add("is-open");
+        overlay.classList.add("is-open");
+
+        sidebar.setAttribute("aria-hidden", "false");
+        openButton.setAttribute("aria-expanded", "true");
+
+        document.body.classList.add("Sidebar3477Locked");
+    }
+
+    function closeSidebar() {
+        sidebar.classList.remove("is-open");
+        overlay.classList.remove("is-open");
+
+        sidebar.setAttribute("aria-hidden", "true");
+        openButton.setAttribute("aria-expanded", "false");
+
+        document.body.classList.remove("Sidebar3477Locked");
+    }
+
+    openButton.addEventListener("click", openSidebar);
+    closeButton.addEventListener("click", closeSidebar);
+    overlay.addEventListener("click", closeSidebar);
+
+    links.forEach((link) => {
+        link.addEventListener("click", () => {
+            links.forEach((item) => {
+                item.classList.remove("active");
+            });
+
+            link.classList.add("active");
+        });
+    });
+
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+            closeSidebar();
+        }
+    });
+}`,
+  },
+  {
+    id: 3478,
+    name: "Expandable Professional Sidebar",
+    scriptId: 3478,
+    preview: (
+      <aside className="sidebar-3478" data-sidebar-id="3478">
+        <div className="sidebar-3478-header">
+          <div className="sidebar-3478-brand">
+            <div className="sidebar-3478-logo">N</div>
+
+            <div className="sidebar-3478-brand-text">
+              <strong>Nexa</strong>
+              <span>Workspace</span>
+            </div>
+          </div>
+
+          <button
+            className="sidebar-3478-toggle"
+            type="button"
+            aria-label="Expand sidebar"
+            aria-expanded="false"
+          >
+            <i className="ri-arrow-right-s-line"></i>
+          </button>
+        </div>
+
+        <div className="sidebar-3478-workspace">
+          <div className="sidebar-3478-workspace-icon">
+            <span>NW</span>
+          </div>
+
+          <div className="sidebar-3478-workspace-info">
+            <strong>Nexa Studio</strong>
+            <span>Professional</span>
+          </div>
+
+          <button
+            className="sidebar-3478-workspace-more"
+            type="button"
+            aria-label="Workspace options"
+          >
+            <i className="ri-more-2-fill"></i>
+          </button>
+        </div>
+
+        <div className="sidebar-3478-divider"></div>
+
+        <nav className="sidebar-3478-nav">
+          <span className="sidebar-3478-section-title">MAIN</span>
+
+          <a href="#" className="sidebar-3478-link active">
+            <span className="sidebar-3478-icon">
+              <i className="ri-dashboard-3-line"></i>
+            </span>
+
+            <span className="sidebar-3478-text">Dashboard</span>
+
+            <span className="sidebar-3478-active-indicator"></span>
+          </a>
+
+          <a href="#" className="sidebar-3478-link">
+            <span className="sidebar-3478-icon">
+              <i className="ri-folder-6-line"></i>
+            </span>
+
+            <span className="sidebar-3478-text">Projects</span>
+
+            <span className="sidebar-3478-count">12</span>
+          </a>
+
+          <a href="#" className="sidebar-3478-link">
+            <span className="sidebar-3478-icon">
+              <i className="ri-checkbox-circle-line"></i>
+            </span>
+
+            <span className="sidebar-3478-text">Tasks</span>
+
+            <span className="sidebar-3478-count">24</span>
+          </a>
+
+          <a href="#" className="sidebar-3478-link">
+            <span className="sidebar-3478-icon">
+              <i className="ri-calendar-line"></i>
+            </span>
+
+            <span className="sidebar-3478-text">Calendar</span>
+          </a>
+
+          <a href="#" className="sidebar-3478-link">
+            <span className="sidebar-3478-icon">
+              <i className="ri-message-3-line"></i>
+            </span>
+
+            <span className="sidebar-3478-text">Messages</span>
+
+            <span className="sidebar-3478-message-count">8</span>
+          </a>
+
+          <span className="sidebar-3478-section-title">BUSINESS</span>
+
+          <a href="#" className="sidebar-3478-link">
+            <span className="sidebar-3478-icon">
+              <i className="ri-team-line"></i>
+            </span>
+
+            <span className="sidebar-3478-text">Team</span>
+          </a>
+
+          <a href="#" className="sidebar-3478-link">
+            <span className="sidebar-3478-icon">
+              <i className="ri-user-heart-line"></i>
+            </span>
+
+            <span className="sidebar-3478-text">Clients</span>
+          </a>
+
+          <a href="#" className="sidebar-3478-link">
+            <span className="sidebar-3478-icon">
+              <i className="ri-file-list-3-line"></i>
+            </span>
+
+            <span className="sidebar-3478-text">Invoices</span>
+
+            <span className="sidebar-3478-alert"></span>
+          </a>
+
+          <a href="#" className="sidebar-3478-link">
+            <span className="sidebar-3478-icon">
+              <i className="ri-bar-chart-box-line"></i>
+            </span>
+
+            <span className="sidebar-3478-text">Analytics</span>
+          </a>
+
+          <span className="sidebar-3478-section-title">SYSTEM</span>
+
+          <a href="#" className="sidebar-3478-link">
+            <span className="sidebar-3478-icon">
+              <i className="ri-links-line"></i>
+            </span>
+
+            <span className="sidebar-3478-text">Integrations</span>
+
+            <span className="sidebar-3478-meta">14</span>
+          </a>
+
+          <a href="#" className="sidebar-3478-link">
+            <span className="sidebar-3478-icon">
+              <i className="ri-settings-3-line"></i>
+            </span>
+
+            <span className="sidebar-3478-text">Settings</span>
+          </a>
+        </nav>
+
+        <div className="sidebar-3478-plan">
+          <div className="sidebar-3478-plan-icon">
+            <i className="ri-database-2-line"></i>
+          </div>
+
+          <div className="sidebar-3478-plan-content">
+            <div className="sidebar-3478-plan-head">
+              <div>
+                <strong>Storage</strong>
+                <span>68 GB of 100 GB</span>
+              </div>
+
+              <strong>68%</strong>
+            </div>
+
+            <div className="sidebar-3478-progress">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div className="sidebar-3478-footer">
+          <div className="sidebar-3478-avatar">
+            AB
+            <span></span>
+          </div>
+
+          <div className="sidebar-3478-profile">
+            <strong>André Babirian</strong>
+            <span>Frontend Developer</span>
+          </div>
+
+          <button
+            className="sidebar-3478-profile-more"
+            type="button"
+            aria-label="Profile options"
+          >
+            <i className="ri-more-2-fill"></i>
+          </button>
+        </div>
+      </aside>
+    ),
+    html: `<aside class="Sidebar3478" data-sidebar-id="3478">
+    <div class="Sidebar3478__header">
+        <div class="Sidebar3478__brand">
+            <div class="Sidebar3478__logo">N</div>
+
+            <div class="Sidebar3478__brand-text">
+                <strong>Nexa</strong>
+                <span>Workspace</span>
+            </div>
+        </div>
+
+        <button
+            class="Sidebar3478__toggle"
+            type="button"
+            aria-label="Expand sidebar"
+            aria-expanded="false"
+        >
+            <i class="ri-arrow-right-s-line"></i>
+        </button>
+    </div>
+
+    <div class="Sidebar3478__workspace">
+        <div class="Sidebar3478__workspace-icon">
+            <span>NW</span>
+        </div>
+
+        <div class="Sidebar3478__workspace-info">
+            <strong>Nexa Studio</strong>
+            <span>Professional</span>
+        </div>
+
+        <button
+            class="Sidebar3478__workspace-more"
+            type="button"
+            aria-label="Workspace options"
+        >
+            <i class="ri-more-2-fill"></i>
+        </button>
+    </div>
+
+    <div class="Sidebar3478__divider"></div>
+
+    <nav class="Sidebar3478__nav">
+        <span class="Sidebar3478__section-title">MAIN</span>
+
+        <a href="#" class="Sidebar3478__link active">
+            <span class="Sidebar3478__icon">
+                <i class="ri-dashboard-3-line"></i>
+            </span>
+
+            <span class="Sidebar3478__text">Dashboard</span>
+
+            <span class="Sidebar3478__active-indicator"></span>
+        </a>
+
+        <a href="#" class="Sidebar3478__link">
+            <span class="Sidebar3478__icon">
+                <i class="ri-folder-6-line"></i>
+            </span>
+
+            <span class="Sidebar3478__text">Projects</span>
+
+            <span class="Sidebar3478__count">12</span>
+        </a>
+
+        <a href="#" class="Sidebar3478__link">
+            <span class="Sidebar3478__icon">
+                <i class="ri-checkbox-circle-line"></i>
+            </span>
+
+            <span class="Sidebar3478__text">Tasks</span>
+
+            <span class="Sidebar3478__count">24</span>
+        </a>
+
+        <a href="#" class="Sidebar3478__link">
+            <span class="Sidebar3478__icon">
+                <i class="ri-calendar-line"></i>
+            </span>
+
+            <span class="Sidebar3478__text">Calendar</span>
+        </a>
+
+        <a href="#" class="Sidebar3478__link">
+            <span class="Sidebar3478__icon">
+                <i class="ri-message-3-line"></i>
+            </span>
+
+            <span class="Sidebar3478__text">Messages</span>
+
+            <span class="Sidebar3478__message-count">8</span>
+        </a>
+
+        <span class="Sidebar3478__section-title">BUSINESS</span>
+
+        <a href="#" class="Sidebar3478__link">
+            <span class="Sidebar3478__icon">
+                <i class="ri-team-line"></i>
+            </span>
+
+            <span class="Sidebar3478__text">Team</span>
+        </a>
+
+        <a href="#" class="Sidebar3478__link">
+            <span class="Sidebar3478__icon">
+                <i class="ri-user-heart-line"></i>
+            </span>
+
+            <span class="Sidebar3478__text">Clients</span>
+        </a>
+
+        <a href="#" class="Sidebar3478__link">
+            <span class="Sidebar3478__icon">
+                <i class="ri-file-list-3-line"></i>
+            </span>
+
+            <span class="Sidebar3478__text">Invoices</span>
+
+            <span class="Sidebar3478__alert"></span>
+        </a>
+
+        <a href="#" class="Sidebar3478__link">
+            <span class="Sidebar3478__icon">
+                <i class="ri-bar-chart-box-line"></i>
+            </span>
+
+            <span class="Sidebar3478__text">Analytics</span>
+        </a>
+
+        <span class="Sidebar3478__section-title">SYSTEM</span>
+
+        <a href="#" class="Sidebar3478__link">
+            <span class="Sidebar3478__icon">
+                <i class="ri-links-line"></i>
+            </span>
+
+            <span class="Sidebar3478__text">Integrations</span>
+
+            <span class="Sidebar3478__meta">14</span>
+        </a>
+
+        <a href="#" class="Sidebar3478__link">
+            <span class="Sidebar3478__icon">
+                <i class="ri-settings-3-line"></i>
+            </span>
+
+            <span class="Sidebar3478__text">Settings</span>
+        </a>
+    </nav>
+
+    <div class="Sidebar3478__plan">
+        <div class="Sidebar3478__plan-icon">
+            <i class="ri-database-2-line"></i>
+        </div>
+
+        <div class="Sidebar3478__plan-content">
+            <div class="Sidebar3478__plan-head">
+                <div>
+                    <strong>Storage</strong>
+                    <span>68 GB of 100 GB</span>
+                </div>
+
+                <strong>68%</strong>
+            </div>
+
+            <div class="Sidebar3478__progress">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="Sidebar3478__footer">
+        <div class="Sidebar3478__avatar">
+            AB
+            <span></span>
+        </div>
+
+        <div class="Sidebar3478__profile">
+            <strong>André Babirian</strong>
+            <span>Frontend Developer</span>
+        </div>
+
+        <button
+            class="Sidebar3478__profile-more"
+            type="button"
+            aria-label="Profile options"
+        >
+            <i class="ri-more-2-fill"></i>
+        </button>
+    </div>
+</aside>`,
+    css: `.Sidebar3478 {
+    width: 82px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-right: 1px solid #e5e7eb;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 8px 0 35px rgba(15, 23, 42, 0.06);
+    transition: width 0.3s cubic-bezier(.22, .9, .32, 1);
+}
+
+.Sidebar3478 * {
+    box-sizing: border-box;
+}
+
+.Sidebar3478.is-expanded {
+    width: 300px;
+}
+
+.Sidebar3478__header {
+    min-height: 74px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.Sidebar3478__brand {
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    flex: 1;
+}
+
+.Sidebar3478__logo {
+    flex: 0 0 auto;
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    border-radius: 13px;
+    background: linear-gradient(135deg, #2563eb, #4f46e5, #7c3aed);
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 900;
+    box-shadow: 0 9px 20px rgba(79, 70, 229, 0.2);
+}
+
+.Sidebar3478__brand-text {
+    min-width: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-8px);
+    transition: opacity 0.2s ease, transform 0.3s ease, visibility 0.2s ease;
+}
+
+.Sidebar3478.is-expanded .Sidebar3478__brand-text {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.Sidebar3478__brand-text strong,
+.Sidebar3478__brand-text span {
+    display: block;
+    white-space: nowrap;
+}
+
+.Sidebar3478__brand-text strong {
+    font-size: 14px;
+}
+
+.Sidebar3478__brand-text span {
+    margin-top: 3px;
+    color: #94a3b8;
+    font-size: 9px;
+}
+
+.Sidebar3478__toggle {
+    position: absolute;
+    left: 64px;
+    top: 24px;
+    z-index: 5;
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    border: 1px solid #e2e8f0;
+    border-radius: 9px;
+    background: #ffffff;
+    color: #64748b;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+    transition: left 0.3s cubic-bezier(.22, .9, .32, 1), transform 0.3s ease;
+}
+
+.Sidebar3478.is-expanded .Sidebar3478__toggle {
+    left: 282px;
+    transform: rotate(180deg);
+}
+
+.Sidebar3478__workspace {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 13px;
+    padding: 8px;
+    border: 1px solid #e8ecf2;
+    border-radius: 12px;
+    background: #f8fafc;
+}
+
+.Sidebar3478__workspace-icon {
+    flex: 0 0 auto;
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: #111827;
+    color: #ffffff;
+}
+
+.Sidebar3478__workspace-icon span {
+    font-size: 8px;
+    font-weight: 900;
+}
+
+.Sidebar3478__workspace-info {
+    min-width: 0;
+    flex: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.Sidebar3478.is-expanded .Sidebar3478__workspace-info {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Sidebar3478__workspace-info strong,
+.Sidebar3478__workspace-info span {
+    display: block;
+    white-space: nowrap;
+}
+
+.Sidebar3478__workspace-info strong {
+    font-size: 10px;
+}
+
+.Sidebar3478__workspace-info span {
+    margin-top: 3px;
+    color: #94a3b8;
+    font-size: 8px;
+}
+
+.Sidebar3478__workspace-more {
+    display: none;
+    border: none;
+    background: transparent;
+    color: #94a3b8;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.Sidebar3478.is-expanded .Sidebar3478__workspace-more {
+    display: block;
+}
+
+.Sidebar3478__divider {
+    height: 1px;
+    margin: 0 13px 4px;
+    background: #f1f5f9;
+}
+
+.Sidebar3478__nav {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 5px 12px 12px;
+    scrollbar-width: thin;
+    scrollbar-color: #dbe1e8 transparent;
+}
+
+.Sidebar3478__section-title {
+    display: block;
+    height: 28px;
+    padding: 12px 10px 5px;
+    overflow: hidden;
+    color: #a0a8b5;
+    font-size: 7px;
+    font-weight: 900;
+    letter-spacing: .13em;
+    white-space: nowrap;
+    opacity: 0;
+}
+
+.Sidebar3478.is-expanded .Sidebar3478__section-title {
+    opacity: 1;
+}
+
+.Sidebar3478__link {
+    position: relative;
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 3px;
+    padding: 7px 10px;
+    border-radius: 11px;
+    color: #64748b;
+    text-decoration: none;
+}
+
+.Sidebar3478__link:hover {
+    background: #f8fafc;
+    color: #111827;
+}
+
+.Sidebar3478__link.active {
+    background: #eff6ff;
+    color: #1d4ed8;
+}
+
+.Sidebar3478__icon {
+    flex: 0 0 auto;
+    width: 26px;
+    height: 26px;
+    display: grid;
+    place-items: center;
+}
+
+.Sidebar3478__icon i {
+    font-size: 17px;
+}
+
+.Sidebar3478__text {
+    min-width: 0;
+    flex: 1;
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-6px);
+    transition: opacity 0.2s ease, transform 0.3s ease;
+}
+
+.Sidebar3478.is-expanded .Sidebar3478__text {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.Sidebar3478__count,
+.Sidebar3478__message-count,
+.Sidebar3478__meta,
+.Sidebar3478__alert,
+.Sidebar3478__active-indicator {
+    display: none;
+}
+
+.Sidebar3478.is-expanded .Sidebar3478__count {
+    min-width: 20px;
+    height: 20px;
+    display: grid;
+    place-items: center;
+    padding: 0 5px;
+    border-radius: 7px;
+    background: #eef2f7;
+    color: #64748b;
+    font-size: 7px;
+    font-weight: 800;
+}
+
+.Sidebar3478.is-expanded .Sidebar3478__message-count {
+    min-width: 20px;
+    height: 20px;
+    display: grid;
+    place-items: center;
+    padding: 0 5px;
+    border-radius: 999px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 7px;
+    font-weight: 800;
+}
+
+.Sidebar3478.is-expanded .Sidebar3478__meta {
+    display: block;
+    padding: 3px 6px;
+    border-radius: 999px;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 7px;
+}
+
+.Sidebar3478.is-expanded .Sidebar3478__alert {
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.08);
+}
+
+.Sidebar3478.is-expanded .Sidebar3478__active-indicator {
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #2563eb;
+}
+
+.Sidebar3478__plan {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 9px 13px;
+    padding: 8px;
+    border: 1px solid #e8ecf2;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f8fafc, #ffffff);
+}
+
+.Sidebar3478__plan-icon {
+    flex: 0 0 auto;
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: #eef2ff;
+    color: #4f46e5;
+    font-size: 16px;
+}
+
+.Sidebar3478__plan-content {
+    min-width: 0;
+    flex: 1;
+    display: none;
+}
+
+.Sidebar3478.is-expanded .Sidebar3478__plan-content {
+    display: block;
+}
+
+.Sidebar3478__plan-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.Sidebar3478__plan-head div strong,
+.Sidebar3478__plan-head div span {
+    display: block;
+}
+
+.Sidebar3478__plan-head div strong {
+    font-size: 8px;
+}
+
+.Sidebar3478__plan-head div span {
+    margin-top: 3px;
+    color: #94a3b8;
+    font-size: 7px;
+}
+
+.Sidebar3478__plan-head > strong {
+    color: #4f46e5;
+    font-size: 8px;
+}
+
+.Sidebar3478__progress {
+    height: 4px;
+    margin-top: 8px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #e2e8f0;
+}
+
+.Sidebar3478__progress span {
+    display: block;
+    width: 68%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #2563eb, #7c3aed);
+}
+
+.Sidebar3478__footer {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 16px;
+    border-top: 1px solid #f1f5f9;
+}
+
+.Sidebar3478__avatar {
+    position: relative;
+    flex: 0 0 auto;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 11px;
+    background: linear-gradient(135deg, #dbeafe, #ddd6fe);
+    color: #3730a3;
+    font-size: 9px;
+    font-weight: 900;
+}
+
+.Sidebar3478__avatar > span {
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    width: 9px;
+    height: 9px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background: #22c55e;
+}
+
+.Sidebar3478__profile {
+    min-width: 0;
+    flex: 1;
+    display: none;
+}
+
+.Sidebar3478.is-expanded .Sidebar3478__profile {
+    display: block;
+}
+
+.Sidebar3478__profile strong,
+.Sidebar3478__profile span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Sidebar3478__profile strong {
+    font-size: 9px;
+}
+
+.Sidebar3478__profile span {
+    margin-top: 3px;
+    color: #94a3b8;
+    font-size: 7px;
+}
+
+.Sidebar3478__profile-more {
+    display: none;
+    border: none;
+    background: transparent;
+    color: #94a3b8;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Sidebar3478.is-expanded .Sidebar3478__profile-more {
+    display: block;
+}`,
+    javascript: `const sidebar = document.querySelector('[data-sidebar-id="3478"]');
+
+if (sidebar) {
+    const toggleButton = sidebar.querySelector(".Sidebar3478__toggle");
+    const links = sidebar.querySelectorAll(".Sidebar3478__link");
+
+    toggleButton.addEventListener("click", () => {
+        const expanded = sidebar.classList.toggle("is-expanded");
+
+        toggleButton.setAttribute(
+            "aria-expanded",
+            String(expanded)
+        );
+
+        toggleButton.setAttribute(
+            "aria-label",
+            expanded ? "Collapse sidebar" : "Expand sidebar"
+        );
+    });
+
+    links.forEach((link) => {
+        link.addEventListener("click", (event) => {
+            event.preventDefault();
+
+            links.forEach((item) => {
+                item.classList.remove("active");
+            });
+
+            link.classList.add("active");
+        });
+    });
+}`,
+  },
 ];

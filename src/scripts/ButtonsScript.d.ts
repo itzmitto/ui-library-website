@@ -1,0 +1,1 @@
+export function initButton(id: number, element: Element): void;

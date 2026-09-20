@@ -16094,4 +16094,794 @@ export const buttons = [
 }
 `,
   },
+  {
+    id: 3479,
+    name: "Interactive Save Button",
+    scriptId: 3479,
+    preview: (
+      <button className="button-3479" type="button" data-button-id="3479">
+        <span className="button-3479-content">
+          <i className="ri-save-line button-3479-icon"></i>
+
+          <span className="button-3479-text">Save Changes</span>
+        </span>
+
+        <span className="button-3479-loader">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+
+        <span className="button-3479-success">
+          <i className="ri-check-line"></i>
+          <span>Saved!</span>
+        </span>
+      </button>
+    ),
+    html: `<button class="Button" type="button" data-button-id="3479">
+    <span class="Button__content">
+        <i class="ri-save-line Button__icon"></i>
+        <span class="Button__text">Save Changes</span>
+    </span>
+
+    <span class="Button__loader">
+        <span></span>
+        <span></span>
+        <span></span>
+    </span>
+
+    <span class="Button__success">
+        <i class="ri-check-line"></i>
+        <span>Saved!</span>
+    </span>
+</button>`,
+    css: `.Button {
+    position: relative;
+    width: 170px;
+    height: 48px;
+    overflow: hidden;
+    padding: 0 20px;
+    border: none;
+    border-radius: 13px;
+    background: #111827;
+    color: #ffffff;
+    font: inherit;
+    cursor: pointer;
+    box-shadow:
+        0 10px 24px rgba(15, 23, 42, 0.18),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    transition:
+        background 0.25s ease,
+        transform 0.2s ease,
+        box-shadow 0.25s ease;
+}
+
+.Button:hover {
+    background: #1f2937;
+    transform: translateY(-2px);
+    box-shadow:
+        0 14px 28px rgba(15, 23, 42, 0.22),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.Button:active {
+    transform: translateY(0);
+}
+
+.Button:disabled {
+    cursor: default;
+}
+
+.Button__content,
+.Button__loader,
+.Button__success {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button__content {
+    gap: 8px;
+    opacity: 1;
+    transform: translateY(0);
+    transition:
+        opacity 0.2s ease,
+        transform 0.25s ease;
+}
+
+.Button__icon {
+    font-size: 17px;
+}
+
+.Button__text {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.Button__loader {
+    gap: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.Button__loader span {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #ffffff;
+    animation: ButtonLoader 0.8s ease-in-out infinite alternate;
+}
+
+.Button__loader span:nth-child(2) {
+    animation-delay: 0.15s;
+}
+
+.Button__loader span:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.Button__success {
+    gap: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.85);
+    transition:
+        opacity 0.2s ease,
+        transform 0.25s ease;
+}
+
+.Button__success i {
+    font-size: 18px;
+}
+
+.Button__success span {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.Button.is-loading {
+    background: #2563eb;
+}
+
+.Button.is-loading .Button__content {
+    opacity: 0;
+    transform: translateY(-12px);
+}
+
+.Button.is-loading .Button__loader {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Button.is-success {
+    background: #16a34a;
+    box-shadow:
+        0 12px 26px rgba(22, 163, 74, 0.22),
+        inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.Button.is-success .Button__content,
+.Button.is-success .Button__loader {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.Button.is-success .Button__success {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+@keyframes ButtonLoader {
+    from {
+        transform: translateY(3px);
+        opacity: 0.35;
+    }
+
+    to {
+        transform: translateY(-3px);
+        opacity: 1;
+    }
+}`,
+    javascript: `const button = document.querySelector('[data-button-id="3479"]');
+
+if (button) {
+    let busy = false;
+
+    button.addEventListener("click", () => {
+        if (busy) {
+            return;
+        }
+
+        busy = true;
+        button.disabled = true;
+
+        button.classList.remove("is-success");
+        button.classList.add("is-loading");
+
+        setTimeout(() => {
+            button.classList.remove("is-loading");
+            button.classList.add("is-success");
+
+            setTimeout(() => {
+                button.classList.remove("is-success");
+
+                button.disabled = false;
+                busy = false;
+            }, 1600);
+        }, 1100);
+    });
+}`,
+  },
+  {
+    id: 3480,
+    name: "Launch Deployment Button",
+    scriptId: 3480,
+    preview: (
+      <button
+        className="button-3480"
+        type="button"
+        data-button-id="3480"
+        aria-label="Deploy project"
+      >
+        <span className="button-3480-background"></span>
+
+        <span className="button-3480-glow"></span>
+
+        <span className="button-3480-content">
+          <span className="button-3480-icon">
+            <i className="ri-rocket-2-line"></i>
+          </span>
+
+          <span className="button-3480-labels">
+            <strong className="button-3480-title">Deploy Project</strong>
+
+            <span className="button-3480-subtitle">Production</span>
+          </span>
+
+          <span className="button-3480-arrow">
+            <i className="ri-arrow-right-line"></i>
+          </span>
+        </span>
+
+        <span className="button-3480-loading">
+          <span className="button-3480-loading-top">
+            <span>Deploying</span>
+
+            <strong className="button-3480-percent">0%</strong>
+          </span>
+
+          <span className="button-3480-progress">
+            <span className="button-3480-progress-fill"></span>
+          </span>
+        </span>
+
+        <span className="button-3480-success">
+          <span className="button-3480-success-icon">
+            <i className="ri-check-line"></i>
+          </span>
+
+          <span>
+            <strong>Deployment Live</strong>
+            <small>Production updated</small>
+          </span>
+        </span>
+
+        <span className="button-3480-particle button-3480-particle-1"></span>
+        <span className="button-3480-particle button-3480-particle-2"></span>
+        <span className="button-3480-particle button-3480-particle-3"></span>
+        <span className="button-3480-particle button-3480-particle-4"></span>
+        <span className="button-3480-particle button-3480-particle-5"></span>
+        <span className="button-3480-particle button-3480-particle-6"></span>
+      </button>
+    ),
+    html: `<button
+    class="Button"
+    type="button"
+    data-button-id="3480"
+    aria-label="Deploy project"
+>
+    <span class="Button__background"></span>
+
+    <span class="Button__glow"></span>
+
+    <span class="Button__content">
+        <span class="Button__icon">
+            <i class="ri-rocket-2-line"></i>
+        </span>
+
+        <span class="Button__labels">
+            <strong class="Button__title">
+                Deploy Project
+            </strong>
+
+            <span class="Button__subtitle">
+                Production
+            </span>
+        </span>
+
+        <span class="Button__arrow">
+            <i class="ri-arrow-right-line"></i>
+        </span>
+    </span>
+
+    <span class="Button__loading">
+        <span class="Button__loading-top">
+            <span>Deploying</span>
+
+            <strong class="Button__percent">
+                0%
+            </strong>
+        </span>
+
+        <span class="Button__progress">
+            <span class="Button__progress-fill"></span>
+        </span>
+    </span>
+
+    <span class="Button__success">
+        <span class="Button__success-icon">
+            <i class="ri-check-line"></i>
+        </span>
+
+        <span>
+            <strong>Deployment Live</strong>
+            <small>Production updated</small>
+        </span>
+    </span>
+
+    <span class="Button__particle Button__particle--1"></span>
+    <span class="Button__particle Button__particle--2"></span>
+    <span class="Button__particle Button__particle--3"></span>
+    <span class="Button__particle Button__particle--4"></span>
+    <span class="Button__particle Button__particle--5"></span>
+    <span class="Button__particle Button__particle--6"></span>
+</button>`,
+    css: `.Button {
+    position: relative;
+    width: 230px;
+    height: 64px;
+    overflow: hidden;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 18px;
+    background: #090d18;
+    color: #ffffff;
+    font: inherit;
+    cursor: pointer;
+    isolation: isolate;
+    box-shadow:
+        0 16px 35px rgba(15, 23, 42, 0.22),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.Button:hover {
+    transform: translateY(-3px);
+    border-color: rgba(96, 165, 250, 0.35);
+    box-shadow:
+        0 20px 42px rgba(15, 23, 42, 0.3),
+        0 0 28px rgba(37, 99, 235, 0.12),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.Button:active {
+    transform: translateY(-1px) scale(0.99);
+}
+
+.Button:disabled {
+    cursor: default;
+}
+
+.Button__background {
+    position: absolute;
+    inset: 0;
+    z-index: -3;
+    background:
+        radial-gradient(
+            circle at 20% 20%,
+            rgba(59, 130, 246, 0.18),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #111827,
+            #0b1120
+        );
+}
+
+.Button__glow {
+    position: absolute;
+    z-index: -2;
+    width: 110px;
+    height: 110px;
+    left: -45px;
+    top: -55px;
+    border-radius: 50%;
+    background: #2563eb;
+    filter: blur(45px);
+    opacity: 0.18;
+}
+
+.Button__content,
+.Button__loading,
+.Button__success {
+    position: absolute;
+    inset: 0;
+}
+
+.Button__content {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 0 15px;
+    opacity: 1;
+    transform: translateY(0);
+    transition:
+        opacity 0.22s ease,
+        transform 0.3s ease;
+}
+
+.Button__icon {
+    flex: 0 0 auto;
+    width: 37px;
+    height: 37px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(96, 165, 250, 0.2);
+    border-radius: 11px;
+    background: rgba(37, 99, 235, 0.12);
+    color: #60a5fa;
+}
+
+.Button__icon i {
+    font-size: 18px;
+}
+
+.Button__labels {
+    min-width: 0;
+    flex: 1;
+    text-align: left;
+}
+
+.Button__title,
+.Button__subtitle {
+    display: block;
+}
+
+.Button__title {
+    font-size: 12px;
+    font-weight: 750;
+    letter-spacing: -0.01em;
+}
+
+.Button__subtitle {
+    margin-top: 3px;
+    color: #718096;
+    font-size: 8px;
+}
+
+.Button__arrow {
+    flex: 0 0 auto;
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #94a3b8;
+}
+
+.Button__arrow i {
+    font-size: 14px;
+    transition: transform 0.25s ease;
+}
+
+.Button:hover .Button__arrow i {
+    transform: translateX(3px);
+}
+
+.Button__loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 18px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(12px);
+    transition:
+        opacity 0.22s ease,
+        transform 0.3s ease,
+        visibility 0.22s ease;
+}
+
+.Button__loading-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 9px;
+}
+
+.Button__loading-top > span {
+    color: #cbd5e1;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.Button__percent {
+    color: #60a5fa;
+    font-size: 10px;
+}
+
+.Button__progress {
+    width: 100%;
+    height: 5px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.Button__progress-fill {
+    display: block;
+    width: 0%;
+    height: 100%;
+    border-radius: inherit;
+    background:
+        linear-gradient(
+            90deg,
+            #2563eb,
+            #3b82f6,
+            #8b5cf6
+        );
+    box-shadow:
+        0 0 12px rgba(59, 130, 246, 0.5);
+    transition: width 0.12s linear;
+}
+
+.Button__success {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.86);
+    transition:
+        opacity 0.25s ease,
+        transform 0.3s ease,
+        visibility 0.25s ease;
+}
+
+.Button__success-icon {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: rgba(34, 197, 94, 0.14);
+    color: #4ade80;
+    box-shadow:
+        0 0 0 6px rgba(34, 197, 94, 0.05);
+}
+
+.Button__success-icon i {
+    font-size: 18px;
+}
+
+.Button__success > span:last-child {
+    text-align: left;
+}
+
+.Button__success strong,
+.Button__success small {
+    display: block;
+}
+
+.Button__success strong {
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.Button__success small {
+    margin-top: 3px;
+    color: #4ade80;
+    font-size: 7px;
+}
+
+.Button__particle {
+    position: absolute;
+    z-index: 5;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #60a5fa;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.Button__particle--1 {
+    left: 28%;
+    top: 50%;
+}
+
+.Button__particle--2 {
+    left: 40%;
+    top: 42%;
+}
+
+.Button__particle--3 {
+    left: 50%;
+    top: 55%;
+}
+
+.Button__particle--4 {
+    right: 35%;
+    top: 44%;
+}
+
+.Button__particle--5 {
+    right: 24%;
+    top: 55%;
+}
+
+.Button__particle--6 {
+    right: 43%;
+    top: 50%;
+}
+
+.Button.is-deploying .Button__content {
+    opacity: 0;
+    transform: translateY(-12px);
+}
+
+.Button.is-deploying .Button__loading {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.Button.is-deploying {
+    border-color: rgba(59, 130, 246, 0.3);
+    box-shadow:
+        0 18px 38px rgba(15, 23, 42, 0.28),
+        0 0 30px rgba(37, 99, 235, 0.14);
+}
+
+.Button.is-success {
+    border-color: rgba(74, 222, 128, 0.25);
+    background: #07130d;
+    box-shadow:
+        0 18px 38px rgba(15, 23, 42, 0.28),
+        0 0 30px rgba(34, 197, 94, 0.12);
+}
+
+.Button.is-success .Button__content,
+.Button.is-success .Button__loading {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.Button.is-success .Button__success {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.Button.is-success .Button__particle {
+    animation: Button3480Particle 0.65s ease-out forwards;
+}
+
+.Button.is-success .Button__particle--1 {
+    --x: -42px;
+    --y: -20px;
+}
+
+.Button.is-success .Button__particle--2 {
+    --x: -20px;
+    --y: -32px;
+    animation-delay: 0.04s;
+}
+
+.Button.is-success .Button__particle--3 {
+    --x: 0px;
+    --y: 34px;
+    animation-delay: 0.08s;
+}
+
+.Button.is-success .Button__particle--4 {
+    --x: 22px;
+    --y: -30px;
+    animation-delay: 0.06s;
+}
+
+.Button.is-success .Button__particle--5 {
+    --x: 42px;
+    --y: 18px;
+    animation-delay: 0.1s;
+}
+
+.Button.is-success .Button__particle--6 {
+    --x: 12px;
+    --y: 35px;
+    animation-delay: 0.02s;
+}
+
+@keyframes Button3480Particle {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.4);
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(var(--x), var(--y)) scale(1);
+    }
+}`,
+    javascript: `const button = document.querySelector('[data-button-id="3480"]');
+
+if (button) {
+    const percent = button.querySelector(".Button__percent");
+    const progress = button.querySelector(".Button__progress-fill");
+
+    let running = false;
+    let progressTimer = null;
+    let successTimer = null;
+
+    button.addEventListener("click", () => {
+        if (running) {
+            return;
+        }
+
+        running = true;
+        button.disabled = true;
+
+        button.classList.remove("is-success");
+        button.classList.add("is-deploying");
+
+        let value = 0;
+
+        percent.textContent = "0%";
+        progress.style.width = "0%";
+
+        progressTimer = setInterval(() => {
+            value += Math.floor(Math.random() * 9) + 3;
+
+            if (value >= 100) {
+                value = 100;
+            }
+
+            percent.textContent = value + "%";
+            progress.style.width = value + "%";
+
+            if (value === 100) {
+                clearInterval(progressTimer);
+
+                setTimeout(() => {
+                    button.classList.remove("is-deploying");
+                    button.classList.add("is-success");
+
+                    successTimer = setTimeout(() => {
+                        button.classList.remove("is-success");
+
+                        percent.textContent = "0%";
+                        progress.style.width = "0%";
+
+                        button.disabled = false;
+                        running = false;
+                    }, 1800);
+                }, 350);
+            }
+        }, 120);
+    });
+}`,
+  },
 ];

@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { initButton } from "../scripts/ButtonsScript.js";
 import { initCarousel } from "../scripts/CarouselsScript.js";
 import { initSidebar } from "../scripts/SidebarsScript.js";
 import "./ComponentModal.css";
@@ -20,13 +21,16 @@ interface Props {
 
 export default function ComponentModal({ item, onClose }: Props) {
   const [tab, setTab] = useState<"html" | "css" | "javascript">("html");
+
   const [copied, setCopied] = useState(false);
+
   const previewRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (item) {
       setTab("html");
       setCopied(false);
+
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "";
@@ -46,6 +50,14 @@ export default function ComponentModal({ item, onClose }: Props) {
 
     if (!preview) {
       return;
+    }
+
+    const buttonElement = preview.querySelector(
+      `[data-button-id="${item.scriptId}"]`,
+    );
+
+    if (buttonElement) {
+      initButton(item.scriptId, buttonElement);
     }
 
     const carouselElement = preview.querySelector(
@@ -78,6 +90,7 @@ export default function ComponentModal({ item, onClose }: Props) {
 
   function handleCopy() {
     navigator.clipboard.writeText(code);
+
     setCopied(true);
 
     setTimeout(() => {
