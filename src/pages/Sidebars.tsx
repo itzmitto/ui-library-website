@@ -1,6 +1,7 @@
 import { memo, useCallback, useEffect, useRef, useState } from "react";
 import Header from "../components/Header";
 import { sidebars } from "../data/sidebarsData";
+import { initSidebar } from "../scripts/SidebarsScript.js";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Sidebars.css";
@@ -58,6 +59,25 @@ const SidebarCard = memo(
   }) => {
     const row = Math.floor(index / columns);
     const column = index % columns;
+    const previewRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+      const preview = previewRef.current;
+
+      if (!preview || !item.scriptId) {
+        return;
+      }
+
+      const element = preview.querySelector(
+        `[data-sidebar-id="${item.scriptId}"]`,
+      );
+
+      if (!element) {
+        return;
+      }
+
+      initSidebar(item.scriptId, element);
+    }, [item]);
 
     return (
       <div
@@ -76,7 +96,10 @@ const SidebarCard = memo(
           cursor: "pointer",
         }}
       >
-        <div className="all-card-preview">{item.preview}</div>
+        <div ref={previewRef} className="all-card-preview">
+          {item.preview}
+        </div>
+
         <div className="all-card-footer">
           <span className="all-card-name">{item.name}</span>
         </div>
@@ -91,9 +114,11 @@ export default function Sidebars() {
   const [selected, setSelected] = useState<SidebarItem | null>(null);
   const [columns, setColumns] = useState(1);
   const [scrollTop, setScrollTop] = useState(0);
+
   const [viewportHeight, setViewportHeight] = useState(
     typeof window !== "undefined" ? window.innerHeight : 800,
   );
+
   const [gridTop, setGridTop] = useState(0);
 
   const gridRef = useRef<HTMLDivElement>(null);
@@ -119,6 +144,7 @@ export default function Sidebars() {
         );
 
         setColumns(nextColumns);
+
         setGridTop(grid.getBoundingClientRect().top + window.scrollY);
       }
 
@@ -158,10 +184,13 @@ export default function Sidebars() {
 
     observer.observe(grid);
 
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+    };
   }, [updateLayout]);
 
   const rowHeight = CARD_HEIGHT + GRID_GAP;
+
   const totalRows = Math.ceil(sidebars.length / columns);
 
   const totalHeight = totalRows > 0 ? totalRows * rowHeight - GRID_GAP : 0;
@@ -179,6 +208,7 @@ export default function Sidebars() {
   );
 
   const startIndex = startRow * columns;
+
   const endIndex = Math.min(sidebars.length, endRow * columns);
 
   const visibleSidebars = sidebars.slice(startIndex, endIndex);
@@ -209,6 +239,7 @@ export default function Sidebars() {
         <main className="all-main">
           <div className="all-header">
             <h1>Sidebars</h1>
+
             <p>Open-Source sidebars made with CSS or Tailwind</p>
           </div>
 

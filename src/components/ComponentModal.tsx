@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { initCarousel } from "../scripts/CarouselsScript.js";
+import { initSidebar } from "../scripts/SidebarsScript.js";
 import "./ComponentModal.css";
 
 interface ComponentItem {
@@ -47,18 +48,26 @@ export default function ComponentModal({ item, onClose }: Props) {
       return;
     }
 
-    const element = preview.querySelector(
+    const carouselElement = preview.querySelector(
       `[data-carousel-id="${item.scriptId}"]`,
     );
 
-    if (!element) {
-      return;
+    if (carouselElement) {
+      initCarousel(item.scriptId, carouselElement);
     }
 
-    initCarousel(item.scriptId, element);
+    const sidebarElement = preview.querySelector(
+      `[data-sidebar-id="${item.scriptId}"]`,
+    );
+
+    if (sidebarElement) {
+      initSidebar(item.scriptId, sidebarElement);
+    }
   }, [item]);
 
-  if (!item) return null;
+  if (!item) {
+    return null;
+  }
 
   const code =
     tab === "html"
@@ -70,15 +79,19 @@ export default function ComponentModal({ item, onClose }: Props) {
   function handleCopy() {
     navigator.clipboard.writeText(code);
     setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+
+    setTimeout(() => {
+      setCopied(false);
+    }, 2000);
   }
 
   return (
     <div className="cm-overlay" onClick={onClose}>
-      <div className="cm-modal" onClick={(e) => e.stopPropagation()}>
+      <div className="cm-modal" onClick={(event) => event.stopPropagation()}>
         <div className="cm-header">
           <span className="cm-title">{item.name}</span>
-          <button className="cm-close" onClick={onClose}>
+
+          <button className="cm-close" type="button" onClick={onClose}>
             ✕
           </button>
         </div>
@@ -90,6 +103,7 @@ export default function ComponentModal({ item, onClose }: Props) {
         <div className="cm-tabs">
           <button
             className={`cm-tab ${tab === "html" ? "cm-tab--active" : ""}`}
+            type="button"
             onClick={() => setTab("html")}
           >
             HTML
@@ -97,6 +111,7 @@ export default function ComponentModal({ item, onClose }: Props) {
 
           <button
             className={`cm-tab ${tab === "css" ? "cm-tab--active" : ""}`}
+            type="button"
             onClick={() => setTab("css")}
           >
             CSS
@@ -104,12 +119,13 @@ export default function ComponentModal({ item, onClose }: Props) {
 
           <button
             className={`cm-tab ${tab === "javascript" ? "cm-tab--active" : ""}`}
+            type="button"
             onClick={() => setTab("javascript")}
           >
             JavaScript
           </button>
 
-          <button className="cm-copy" onClick={handleCopy}>
+          <button className="cm-copy" type="button" onClick={handleCopy}>
             {copied ? "✓ Copied!" : "Copy"}
           </button>
         </div>
