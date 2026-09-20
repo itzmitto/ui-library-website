@@ -3840,4 +3840,570 @@ export const sidebars = [
     text-shadow: 0 0 8px #818cf8;
 }`,
   },
+  {
+    id: 3476,
+    name: "Professional Workspace Sidebar",
+    scriptId: 3476,
+    preview: (
+      <aside className="sidebar-3476" data-sidebar-id="3476">
+        <div className="sidebar-3476-header">
+          <div className="sidebar-3476-brand">
+            <div className="sidebar-3476-logo">
+              <span>A</span>
+            </div>
+
+            <div className="sidebar-3476-brand-text">
+              <strong>Axis</strong>
+              <span>Workspace</span>
+            </div>
+          </div>
+
+          <button
+            className="sidebar-3476-collapse"
+            type="button"
+            aria-label="Collapse sidebar"
+            aria-expanded="true"
+          >
+            <i className="ri-layout-left-2-line"></i>
+          </button>
+        </div>
+
+        <div className="sidebar-3476-search-wrap">
+          <i className="ri-search-line"></i>
+
+          <input
+            className="sidebar-3476-search"
+            type="text"
+            placeholder="Search workspace..."
+            aria-label="Search sidebar"
+          />
+
+          <span className="sidebar-3476-shortcut">⌘K</span>
+        </div>
+
+        <div className="sidebar-3476-workspace">
+          <div className="sidebar-3476-workspace-icon">
+            <span>AW</span>
+          </div>
+
+          <div className="sidebar-3476-workspace-info">
+            <strong>Axis Workspace</strong>
+            <span>Professional plan</span>
+          </div>
+
+          <button
+            className="sidebar-3476-workspace-button"
+            type="button"
+            aria-label="Workspace options"
+          >
+            <i className="ri-more-2-fill"></i>
+          </button>
+        </div>
+
+        <div className="sidebar-3476-body">
+          <nav className="sidebar-3476-nav">
+            <div className="sidebar-3476-section">
+              <span className="sidebar-3476-section-title">OVERVIEW</span>
+
+              <a
+                href="#"
+                className="sidebar-3476-nav-link active"
+                data-sidebar-search="dashboard overview home"
+              >
+                <span className="sidebar-3476-nav-icon">
+                  <i className="ri-dashboard-line"></i>
+                </span>
+
+                <span className="sidebar-3476-nav-text">Dashboard</span>
+
+                <span className="sidebar-3476-active-dot"></span>
+              </a>
+
+              <a
+                href="#"
+                className="sidebar-3476-nav-link"
+                data-sidebar-search="analytics statistics insights reports"
+              >
+                <span className="sidebar-3476-nav-icon">
+                  <i className="ri-bar-chart-box-line"></i>
+                </span>
+
+                <span className="sidebar-3476-nav-text">Analytics</span>
+
+                <span className="sidebar-3476-nav-meta">Live</span>
+              </a>
+
+              <a
+                href="#"
+                className="sidebar-3476-nav-link"
+                data-sidebar-search="activity recent history updates"
+              >
+                <span className="sidebar-3476-nav-icon">
+                  <i className="ri-pulse-line"></i>
+                </span>
+
+                <span className="sidebar-3476-nav-text">Activity</span>
+              </a>
+            </div>
+
+            <div className="sidebar-3476-section">
+              <span className="sidebar-3476-section-title">WORKSPACE</span>
+
+              <div className="sidebar-3476-submenu open">
+                <button
+                  className="sidebar-3476-nav-link sidebar-3476-submenu-toggle"
+                  type="button"
+                  aria-expanded="true"
+                  data-sidebar-search="projects websites applications development"
+                >
+                  <span className="sidebar-3476-nav-icon">
+                    <i className="ri-folder-6-line"></i>
+                  </span>
+
+                  <span className="sidebar-3476-nav-text">Projects</span>
+
+                  <span className="sidebar-3476-nav-count">12</span>
+
+                  <i className="ri-arrow-down-s-line sidebar-3476-chevron"></i>
+                </button>
+
+                <div className="sidebar-3476-submenu-content">
+                  <a
+                    href="#"
+                    className="sidebar-3476-submenu-link"
+                    data-sidebar-search="website redesign northline"
+                  >
+                    <span className="sidebar-3476-project-color sidebar-3476-project-blue"></span>
+
+                    <span>Website Redesign</span>
+
+                    <small>68%</small>
+                  </a>
+
+                  <a
+                    href="#"
+                    className="sidebar-3476-submenu-link"
+                    data-sidebar-search="mobile application app"
+                  >
+                    <span className="sidebar-3476-project-color sidebar-3476-project-purple"></span>
+
+                    <span>Mobile Application</span>
+
+                    <small>42%</small>
+                  </a>
+
+                  <a
+                    href="#"
+                    className="sidebar-3476-submenu-link"
+                    data-sidebar-search="design system components ui"
+                  >
+                    <span className="sidebar-3476-project-color sidebar-3476-project-cyan"></span>
+
+                    <span>Design System</span>
+
+                    <small>81%</small>
+                  </a>
+                </div>
+              </div>
+
+              <a
+                href="#"
+                className="sidebar-3476-nav-link"
+                data-sidebar-search="tasks work todo planning"
+              >
+                <span className="sidebar-3476-nav-icon">
+                  <i className="ri-checkbox-circle-line"></i>
+                </span>
+
+                <span className="sidebar-3476-nav-text">Tasks</span>
+
+                <span className="sidebar-3476-nav-count">24</span>
+              </a>
+
+              <a
+                href="#"
+                className="sidebar-3476-nav-link"
+                data-sidebar-search="calendar schedule meetings events"
+              >
+                <span className="sidebar-3476-nav-icon">
+                  <i className="ri-calendar-line"></i>
+                </span>
+
+                <span className="sidebar-3476-nav-text">Calendar</span>
+              </a>
+
+              <a
+                href="#"
+                className="sidebar-3476-nav-link"
+                data-sidebar-search="messages chat inbox conversations"
+              >
+                <span className="sidebar-3476-nav-icon">
+                  <i className="ri-message-3-line"></i>
+                </span>
+
+                <span className="sidebar-3476-nav-text">Messages</span>
+
+                <span className="sidebar-3476-message-count">8</span>
+              </a>
+            </div>
+
+            <div className="sidebar-3476-section">
+              <span className="sidebar-3476-section-title">MANAGEMENT</span>
+
+              <a
+                href="#"
+                className="sidebar-3476-nav-link"
+                data-sidebar-search="team people members employees"
+              >
+                <span className="sidebar-3476-nav-icon">
+                  <i className="ri-team-line"></i>
+                </span>
+
+                <span className="sidebar-3476-nav-text">Team</span>
+
+                <div className="sidebar-3476-avatars">
+                  <span>J</span>
+                  <span>S</span>
+                  <span>+4</span>
+                </div>
+              </a>
+
+              <a
+                href="#"
+                className="sidebar-3476-nav-link"
+                data-sidebar-search="clients customers contacts crm"
+              >
+                <span className="sidebar-3476-nav-icon">
+                  <i className="ri-user-heart-line"></i>
+                </span>
+
+                <span className="sidebar-3476-nav-text">Clients</span>
+              </a>
+
+              <a
+                href="#"
+                className="sidebar-3476-nav-link"
+                data-sidebar-search="invoice billing payments finance"
+              >
+                <span className="sidebar-3476-nav-icon">
+                  <i className="ri-file-list-3-line"></i>
+                </span>
+
+                <span className="sidebar-3476-nav-text">Invoices</span>
+
+                <span className="sidebar-3476-alert-dot"></span>
+              </a>
+
+              <a
+                href="#"
+                className="sidebar-3476-nav-link"
+                data-sidebar-search="reports export business documents"
+              >
+                <span className="sidebar-3476-nav-icon">
+                  <i className="ri-file-chart-line"></i>
+                </span>
+
+                <span className="sidebar-3476-nav-text">Reports</span>
+              </a>
+            </div>
+
+            <div className="sidebar-3476-section">
+              <span className="sidebar-3476-section-title">SYSTEM</span>
+
+              <a
+                href="#"
+                className="sidebar-3476-nav-link"
+                data-sidebar-search="integrations applications connections api"
+              >
+                <span className="sidebar-3476-nav-icon">
+                  <i className="ri-links-line"></i>
+                </span>
+
+                <span className="sidebar-3476-nav-text">Integrations</span>
+
+                <span className="sidebar-3476-nav-meta">14</span>
+              </a>
+
+              <a
+                href="#"
+                className="sidebar-3476-nav-link"
+                data-sidebar-search="settings preferences account configuration"
+              >
+                <span className="sidebar-3476-nav-icon">
+                  <i className="ri-settings-3-line"></i>
+                </span>
+
+                <span className="sidebar-3476-nav-text">Settings</span>
+              </a>
+
+              <a
+                href="#"
+                className="sidebar-3476-nav-link"
+                data-sidebar-search="help support documentation questions"
+              >
+                <span className="sidebar-3476-nav-icon">
+                  <i className="ri-question-line"></i>
+                </span>
+
+                <span className="sidebar-3476-nav-text">Help Center</span>
+              </a>
+            </div>
+
+            <div className="sidebar-3476-no-results">
+              <strong>No results found</strong>
+              <span>Try another search term.</span>
+            </div>
+          </nav>
+        </div>
+
+        <div className="sidebar-3476-storage">
+          <div className="sidebar-3476-storage-head">
+            <div>
+              <strong>Storage</strong>
+              <span>68 GB of 100 GB</span>
+            </div>
+
+            <strong>68%</strong>
+          </div>
+
+          <div className="sidebar-3476-storage-track">
+            <span></span>
+          </div>
+
+          <button className="sidebar-3476-storage-button" type="button">
+            Upgrade storage
+          </button>
+        </div>
+
+        <div className="sidebar-3476-footer">
+          <div className="sidebar-3476-profile">
+            <div className="sidebar-3476-avatar">
+              <span>AB</span>
+
+              <small></small>
+            </div>
+
+            <div className="sidebar-3476-profile-info">
+              <strong>André Babirian</strong>
+              <span>Frontend Developer</span>
+            </div>
+          </div>
+
+          <button
+            className="sidebar-3476-profile-button"
+            type="button"
+            aria-label="Profile options"
+          >
+            <i className="ri-more-2-fill"></i>
+          </button>
+        </div>
+      </aside>
+    ),
+    html: `<aside class="Sidebar" data-sidebar-id="3476">
+    <div class="Sidebar__header">
+        <div class="Sidebar__brand">
+            <div class="Sidebar__logo">
+                <span>A</span>
+            </div>
+
+            <div class="Sidebar__brand-text">
+                <strong>Axis</strong>
+                <span>Workspace</span>
+            </div>
+        </div>
+
+        <button
+            class="Sidebar__collapse"
+            type="button"
+            aria-label="Collapse sidebar"
+            aria-expanded="true"
+        >
+            <i class="ri-layout-left-2-line"></i>
+        </button>
+    </div>
+
+    <div class="Sidebar__search-wrap">
+        <i class="ri-search-line"></i>
+
+        <input
+            class="Sidebar__search"
+            type="text"
+            placeholder="Search workspace..."
+            aria-label="Search sidebar"
+        >
+
+        <span class="Sidebar__shortcut">⌘K</span>
+    </div>
+
+    <div class="Sidebar__workspace">
+        <div class="Sidebar__workspace-icon">
+            <span>AW</span>
+        </div>
+
+        <div class="Sidebar__workspace-info">
+            <strong>Axis Workspace</strong>
+            <span>Professional plan</span>
+        </div>
+
+        <button
+            class="Sidebar__workspace-button"
+            type="button"
+            aria-label="Workspace options"
+        >
+            <i class="ri-more-2-fill"></i>
+        </button>
+    </div>
+
+    <div class="Sidebar__body">
+        <nav class="Sidebar__nav">
+            <div class="Sidebar__section">
+                <span class="Sidebar__section-title">OVERVIEW</span>
+
+                <a
+                    href="#"
+                    class="Sidebar__nav-link active"
+                    data-sidebar-search="dashboard overview home"
+                >
+                    <span class="Sidebar__nav-icon">
+                        <i class="ri-dashboard-line"></i>
+                    </span>
+
+                    <span class="Sidebar__nav-text">Dashboard</span>
+
+                    <span class="Sidebar__active-dot"></span>
+                </a>
+
+                <a
+                    href="#"
+                    class="Sidebar__nav-link"
+                    data-sidebar-search="analytics statistics insights reports"
+                >
+                    <span class="Sidebar__nav-icon">
+                        <i class="ri-bar-chart-box-line"></i>
+                    </span>
+
+                    <span class="Sidebar__nav-text">Analytics</span>
+
+                    <span class="Sidebar__nav-meta">Live</span>
+                </a>
+
+                <a
+                    href="#"
+                    class="Sidebar__nav-link"
+                    data-sidebar-search="activity recent history updates"
+                >
+                    <span class="Sidebar__nav-icon">
+                        <i class="ri-pulse-line"></i>
+                    </span>
+
+                    <span class="Sidebar__nav-text">Activity</span>
+                </a>
+            </div>
+
+            <div class="Sidebar__section">
+                <span class="Sidebar__section-title">WORKSPACE</span>
+
+                <div class="Sidebar__submenu open">
+                    <button
+                        class="Sidebar__nav-link Sidebar__submenu-toggle"
+                        type="button"
+                        aria-expanded="true"
+                        data-sidebar-search="projects websites applications development"
+                    >
+                        <span class="Sidebar__nav-icon">
+                            <i class="ri-folder-6-line"></i>
+                        </span>
+
+                        <span class="Sidebar__nav-text">Projects</span>
+
+                        <span class="Sidebar__nav-count">12</span>
+
+                        <i class="ri-arrow-down-s-line Sidebar__chevron"></i>
+                    </button>
+
+                    <div class="Sidebar__submenu-content">
+                        <a
+                            href="#"
+                            class="Sidebar__submenu-link"
+                            data-sidebar-search="website redesign northline"
+                        >
+                            <span class="Sidebar__project-color Sidebar__project-color--blue"></span>
+
+                            <span>Website Redesign</span>
+
+                            <small>68%</small>
+                        </a>
+
+                        <a
+                            href="#"
+                            class="Sidebar__submenu-link"
+                            data-sidebar-search="mobile application app"
+                        >
+                            <span class="Sidebar__project-color Sidebar__project-color--purple"></span>
+
+                            <span>Mobile Application</span>
+
+                            <small>42%</small>
+                        </a>
+
+                        <a
+                            href="#"
+                            class="Sidebar__submenu-link"
+                            data-sidebar-search="design system components ui"
+                        >
+                            <span class="Sidebar__project-color Sidebar__project-color--cyan"></span>
+
+                            <span>Design System</span>
+
+                            <small>81%</small>
+                        </a>
+                    </div>
+                </div>
+
+                <a
+                    href="#"
+                    class="Sidebar__nav-link"
+                    data-sidebar-search="tasks work todo planning"
+                >
+                    <span class="Sidebar__nav-icon">
+                        <i class="ri-checkbox-circle-line"></i>
+                    </span>
+
+                    <span class="Sidebar__nav-text">Tasks</span>
+
+                    <span class="Sidebar__nav-count">24</span>
+                </a>
+
+                <a
+                    href="#"
+                    class="Sidebar__nav-link"
+                    data-sidebar-search="calendar schedule meetings events"
+                >
+                    <span class="Sidebar__nav-icon">
+                        <i class="ri-calendar-line"></i>
+                    </span>
+
+                    <span class="Sidebar__nav-text">Calendar</span>
+                </a>
+
+                <a
+                    href="#"
+                    class="Sidebar__nav-link"
+                    data-sidebar-search="messages chat inbox conversations"
+                >
+                    <span class="Sidebar__nav-icon">
+                        <i class="ri-message-3-line"></i>
+                    </span>
+
+                    <span class="Sidebar__nav-text">Messages</span>
+
+                    <span class="Sidebar__message-count">8</span>
+                </a>
+            </div>
+
+            <div class="Sidebar__section">
+                <spa
+}`,
+  },
 ];
+
