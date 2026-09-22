@@ -1,13 +1,14 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { initButton } from "../scripts/ButtonsScript.js";
 import { initCarousel } from "../scripts/CarouselsScript.js";
 import { initSidebar } from "../scripts/SidebarsScript.js";
+import { initCheckbox } from "../scripts/CheckboxesScript.js";
 import "./ComponentModal.css";
 
 interface ComponentItem {
   id: number;
   name: string;
-  preview: React.ReactNode;
+  preview: ReactNode;
   html?: string;
   css?: string;
   javascript?: string;
@@ -58,6 +59,14 @@ export default function ComponentModal({ item, onClose }: Props) {
 
     if (buttonElement) {
       initButton(item.scriptId, buttonElement);
+    }
+
+    const checkboxElement = preview.querySelector(
+      `[data-checkbox-id="${item.scriptId}"]`,
+    );
+
+    if (checkboxElement) {
+      initCheckbox(item.scriptId, checkboxElement);
     }
 
     const carouselElement = preview.querySelector(

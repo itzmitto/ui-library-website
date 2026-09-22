@@ -1,0 +1,1 @@
+export function initCheckbox(id: number, element: Element): void;

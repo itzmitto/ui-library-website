@@ -1,6 +1,7 @@
 import { memo, useCallback, useEffect, useRef, useState } from "react";
 import Header from "../components/Header";
 import { checkboxes } from "../data/checkboxesData";
+import { initCheckbox } from "../scripts/CheckboxesScript.js";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Checkboxes.css";
@@ -58,6 +59,25 @@ const CheckboxCard = memo(
   }) => {
     const row = Math.floor(index / columns);
     const column = index % columns;
+    const previewRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+      const preview = previewRef.current;
+
+      if (!preview || !item.scriptId) {
+        return;
+      }
+
+      const element = preview.querySelector(
+        `[data-checkbox-id="${item.scriptId}"]`,
+      );
+
+      if (!element) {
+        return;
+      }
+
+      initCheckbox(item.scriptId, element);
+    }, [item]);
 
     return (
       <div
@@ -76,7 +96,10 @@ const CheckboxCard = memo(
           cursor: "pointer",
         }}
       >
-        <div className="all-card-preview">{item.preview}</div>
+        <div ref={previewRef} className="all-card-preview">
+          {item.preview}
+        </div>
+
         <div className="all-card-footer">
           <span className="all-card-name">{item.name}</span>
         </div>
@@ -91,9 +114,11 @@ export default function Checkboxes() {
   const [selected, setSelected] = useState<CheckboxItem | null>(null);
   const [columns, setColumns] = useState(1);
   const [scrollTop, setScrollTop] = useState(0);
+
   const [viewportHeight, setViewportHeight] = useState(
     typeof window !== "undefined" ? window.innerHeight : 800,
   );
+
   const [gridTop, setGridTop] = useState(0);
 
   const gridRef = useRef<HTMLDivElement>(null);
@@ -112,12 +137,14 @@ export default function Checkboxes() {
 
       if (grid) {
         const width = grid.clientWidth;
+
         const nextColumns = Math.max(
           1,
           Math.floor((width + GRID_GAP) / (240 + GRID_GAP)),
         );
 
         setColumns(nextColumns);
+
         setGridTop(grid.getBoundingClientRect().top + window.scrollY);
       }
 
@@ -127,7 +154,11 @@ export default function Checkboxes() {
 
   useEffect(() => {
     updateLayout();
-    window.addEventListener("scroll", updateLayout, { passive: true });
+
+    window.addEventListener("scroll", updateLayout, {
+      passive: true,
+    });
+
     window.addEventListener("resize", updateLayout);
 
     return () => {
@@ -153,11 +184,15 @@ export default function Checkboxes() {
 
     observer.observe(grid);
 
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+    };
   }, [updateLayout]);
 
   const rowHeight = CARD_HEIGHT + GRID_GAP;
+
   const totalRows = Math.ceil(checkboxes.length / columns);
+
   const totalHeight = totalRows > 0 ? totalRows * rowHeight - GRID_GAP : 0;
 
   const relativeScrollTop = Math.max(0, scrollTop - gridTop);
@@ -173,7 +208,9 @@ export default function Checkboxes() {
   );
 
   const startIndex = startRow * columns;
+
   const endIndex = Math.min(checkboxes.length, endRow * columns);
+
   const visibleCheckboxes = checkboxes.slice(startIndex, endIndex);
 
   const handleSelect = useCallback((item: CheckboxItem) => {
@@ -183,6 +220,7 @@ export default function Checkboxes() {
   return (
     <div className="all-page">
       <Header />
+
       <div className="all-layout">
         <aside className="sidebar">
           {sidebarItems.map((item) => (
@@ -197,11 +235,14 @@ export default function Checkboxes() {
             </a>
           ))}
         </aside>
+
         <main className="all-main">
           <div className="all-header">
             <h1>Checkboxes</h1>
+
             <p>Open-Source checkboxes made with CSS or Tailwind</p>
           </div>
+
           <div
             ref={gridRef}
             className="all-grid"
@@ -226,6 +267,7 @@ export default function Checkboxes() {
           </div>
         </main>
       </div>
+
       <ComponentModal item={selected} onClose={() => setSelected(null)} />
     </div>
   );

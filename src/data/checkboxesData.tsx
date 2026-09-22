@@ -10940,4 +10940,5254 @@ export const checkboxes = [
     }
 }`,
   },
+  {
+    id: 3481,
+    name: "Smart Sync Checkbox",
+    scriptId: 3481,
+    preview: (
+      <div className="checkbox-3481" data-checkbox-id="3481">
+        <label className="checkbox-3481-main">
+          <input className="checkbox-3481-input" type="checkbox" />
+
+          <span className="checkbox-3481-box">
+            <i className="ri-check-line"></i>
+          </span>
+
+          <span className="checkbox-3481-copy">
+            <span className="checkbox-3481-title-row">
+              <strong>Smart Sync</strong>
+
+              <span className="checkbox-3481-status">
+                <span className="checkbox-3481-status-dot"></span>
+
+                <span className="checkbox-3481-status-text">Inactive</span>
+              </span>
+            </span>
+
+            <span className="checkbox-3481-description">
+              Keep your workspace synchronized across all connected devices.
+            </span>
+          </span>
+        </label>
+
+        <div className="checkbox-3481-footer">
+          <span className="checkbox-3481-footer-icon">
+            <i className="ri-device-line"></i>
+          </span>
+
+          <span className="checkbox-3481-message">
+            Sync is currently disabled.
+          </span>
+        </div>
+      </div>
+    ),
+    html: `<div class="Checkbox" data-checkbox-id="3481">
+    <label class="Checkbox__main">
+        <input
+            class="Checkbox__input"
+            type="checkbox"
+        >
+
+        <span class="Checkbox__box">
+            <i class="ri-check-line"></i>
+        </span>
+
+        <span class="Checkbox__copy">
+            <span class="Checkbox__title-row">
+                <strong>Smart Sync</strong>
+
+                <span class="Checkbox__status">
+                    <span class="Checkbox__status-dot"></span>
+
+                    <span class="Checkbox__status-text">
+                        Inactive
+                    </span>
+                </span>
+            </span>
+
+            <span class="Checkbox__description">
+                Keep your workspace synchronized across all connected devices.
+            </span>
+        </span>
+    </label>
+
+    <div class="Checkbox__footer">
+        <span class="Checkbox__footer-icon">
+            <i class="ri-device-line"></i>
+        </span>
+
+        <span class="Checkbox__message">
+            Sync is currently disabled.
+        </span>
+    </div>
+</div>`,
+    css: `.Checkbox {
+    width: 290px;
+    padding: 17px;
+    box-sizing: border-box;
+    border: 1px solid #e5e7eb;
+    border-radius: 17px;
+    background: #ffffff;
+    color: #111827;
+    box-shadow:
+        0 12px 30px rgba(15, 23, 42, 0.08);
+    transition:
+        border-color 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.25s ease;
+}
+
+.Checkbox.is-checked {
+    border-color: #bfdbfe;
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #f8fbff
+        );
+    box-shadow:
+        0 14px 34px rgba(37, 99, 235, 0.1);
+}
+
+.Checkbox__main {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.Checkbox__input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.Checkbox__box {
+    flex: 0 0 auto;
+    width: 26px;
+    height: 26px;
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #ffffff;
+    transition:
+        background 0.22s ease,
+        border-color 0.22s ease,
+        transform 0.2s ease,
+        box-shadow 0.22s ease;
+}
+
+.Checkbox__box i {
+    font-size: 15px;
+    opacity: 0;
+    transform: scale(0.4);
+    transition:
+        opacity 0.18s ease,
+        transform 0.22s ease;
+}
+
+.Checkbox__input:checked + .Checkbox__box {
+    border-color: #2563eb;
+    background:
+        linear-gradient(
+            135deg,
+            #2563eb,
+            #4f46e5
+        );
+    box-shadow:
+        0 5px 14px rgba(37, 99, 235, 0.24);
+}
+
+.Checkbox__input:checked + .Checkbox__box i {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.Checkbox__input:focus-visible + .Checkbox__box {
+    outline: 3px solid rgba(59, 130, 246, 0.16);
+    outline-offset: 2px;
+}
+
+.Checkbox__copy {
+    min-width: 0;
+    flex: 1;
+}
+
+.Checkbox__title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.Checkbox__title-row > strong {
+    font-size: 12px;
+    font-weight: 750;
+}
+
+.Checkbox__status {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 7px;
+    border-radius: 999px;
+    background: #f1f5f9;
+    color: #64748b;
+    transition:
+        background 0.25s ease,
+        color 0.25s ease;
+}
+
+.Checkbox__status-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #94a3b8;
+    transition:
+        background 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.Checkbox__status-text {
+    font-size: 7px;
+    font-weight: 800;
+}
+
+.Checkbox__description {
+    display: block;
+    margin-top: 7px;
+    color: #64748b;
+    font-size: 9px;
+    line-height: 1.55;
+}
+
+.Checkbox__footer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f8fafc;
+    transition: background 0.25s ease;
+}
+
+.Checkbox__footer-icon {
+    width: 24px;
+    height: 24px;
+    display: grid;
+    place-items: center;
+    border-radius: 7px;
+    background: #e2e8f0;
+    color: #64748b;
+    transition:
+        background 0.25s ease,
+        color 0.25s ease;
+}
+
+.Checkbox__footer-icon i {
+    font-size: 13px;
+}
+
+.Checkbox__message {
+    color: #64748b;
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.Checkbox.is-checked .Checkbox__status {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.Checkbox.is-checked .Checkbox__status-dot {
+    background: #22c55e;
+    box-shadow:
+        0 0 0 3px rgba(34, 197, 94, 0.12);
+}
+
+.Checkbox.is-checked .Checkbox__footer {
+    background: #eff6ff;
+}
+
+.Checkbox.is-checked .Checkbox__footer-icon {
+    background: #dbeafe;
+    color: #2563eb;
+}
+
+.Checkbox.is-checked .Checkbox__message {
+    color: #1d4ed8;
+}`,
+    javascript: `const checkbox = document.querySelector('[data-checkbox-id="3481"]');
+
+if (checkbox) {
+    const input = checkbox.querySelector(".Checkbox__input");
+    const statusText = checkbox.querySelector(".Checkbox__status-text");
+    const message = checkbox.querySelector(".Checkbox__message");
+
+    function updateCheckbox() {
+        const checked = input.checked;
+
+        checkbox.classList.toggle(
+            "is-checked",
+            checked
+        );
+
+        statusText.textContent = checked
+            ? "Active"
+            : "Inactive";
+
+        message.textContent = checked
+            ? "Secure sync is active across 4 devices."
+            : "Sync is currently disabled.";
+    }
+
+    input.addEventListener(
+        "change",
+        updateCheckbox
+    );
+
+    updateCheckbox();
+}`,
+  },
+  {
+    id: 3482,
+    name: "Autopilot Security Checkbox",
+    scriptId: 3482,
+    preview: (
+      <section className="checkbox-3482" data-checkbox-id="3482" tabIndex={0}>
+        <div className="checkbox-3482-header">
+          <label className="checkbox-3482-control">
+            <input className="checkbox-3482-input" type="checkbox" />
+
+            <span className="checkbox-3482-box">
+              <span className="checkbox-3482-check">
+                <i className="ri-check-line"></i>
+              </span>
+            </span>
+
+            <span className="checkbox-3482-heading">
+              <span className="checkbox-3482-title-row">
+                <strong>Autopilot Protection</strong>
+
+                <span className="checkbox-3482-status">
+                  <span className="checkbox-3482-status-dot"></span>
+
+                  <span className="checkbox-3482-status-text">Offline</span>
+                </span>
+              </span>
+
+              <span className="checkbox-3482-description">
+                Automatically secure, synchronize and monitor your connected
+                workspace.
+              </span>
+            </span>
+          </label>
+        </div>
+
+        <div className="checkbox-3482-progress-area">
+          <div className="checkbox-3482-progress-head">
+            <span className="checkbox-3482-phase">Waiting for activation</span>
+
+            <strong className="checkbox-3482-percent">0%</strong>
+          </div>
+
+          <div className="checkbox-3482-progress">
+            <span className="checkbox-3482-progress-fill"></span>
+          </div>
+        </div>
+
+        <div className="checkbox-3482-metrics">
+          <div className="checkbox-3482-metric">
+            <span className="checkbox-3482-metric-icon">
+              <i className="ri-shield-check-line"></i>
+            </span>
+
+            <div>
+              <span>Health</span>
+              <strong className="checkbox-3482-health">—</strong>
+            </div>
+          </div>
+
+          <div className="checkbox-3482-metric">
+            <span className="checkbox-3482-metric-icon">
+              <i className="ri-device-line"></i>
+            </span>
+
+            <div>
+              <span>Devices</span>
+              <strong className="checkbox-3482-devices">0</strong>
+            </div>
+          </div>
+
+          <div className="checkbox-3482-metric">
+            <span className="checkbox-3482-metric-icon">
+              <i className="ri-speed-up-line"></i>
+            </span>
+
+            <div>
+              <span>Latency</span>
+              <strong className="checkbox-3482-latency">—</strong>
+            </div>
+          </div>
+        </div>
+
+        <div className="checkbox-3482-steps">
+          <div className="checkbox-3482-step" data-step="0">
+            <span className="checkbox-3482-step-icon">
+              <i className="ri-links-line"></i>
+            </span>
+
+            <div className="checkbox-3482-step-copy">
+              <strong>Secure handshake</strong>
+              <span>Waiting</span>
+            </div>
+
+            <span className="checkbox-3482-step-state">—</span>
+          </div>
+
+          <div className="checkbox-3482-step" data-step="1">
+            <span className="checkbox-3482-step-icon">
+              <i className="ri-lock-2-line"></i>
+            </span>
+
+            <div className="checkbox-3482-step-copy">
+              <strong>Encryption</strong>
+              <span>Waiting</span>
+            </div>
+
+            <span className="checkbox-3482-step-state">—</span>
+          </div>
+
+          <div className="checkbox-3482-step" data-step="2">
+            <span className="checkbox-3482-step-icon">
+              <i className="ri-refresh-line"></i>
+            </span>
+
+            <div className="checkbox-3482-step-copy">
+              <strong>Device synchronization</strong>
+              <span>Waiting</span>
+            </div>
+
+            <span className="checkbox-3482-step-state">—</span>
+          </div>
+
+          <div className="checkbox-3482-step" data-step="3">
+            <span className="checkbox-3482-step-icon">
+              <i className="ri-radar-line"></i>
+            </span>
+
+            <div className="checkbox-3482-step-copy">
+              <strong>Live monitoring</strong>
+              <span>Waiting</span>
+            </div>
+
+            <span className="checkbox-3482-step-state">—</span>
+          </div>
+        </div>
+
+        <div className="checkbox-3482-monitor">
+          <div className="checkbox-3482-monitor-head">
+            <div>
+              <span>LIVE MONITOR</span>
+              <strong className="checkbox-3482-monitor-title">
+                Monitoring unavailable
+              </strong>
+            </div>
+
+            <span className="checkbox-3482-monitor-badge">IDLE</span>
+          </div>
+
+          <div className="checkbox-3482-monitor-grid">
+            <div>
+              <span>Requests</span>
+              <strong className="checkbox-3482-requests">0</strong>
+            </div>
+
+            <div>
+              <span>Threats blocked</span>
+              <strong className="checkbox-3482-threats">0</strong>
+            </div>
+
+            <div>
+              <span>Uptime</span>
+              <strong className="checkbox-3482-uptime">00:00</strong>
+            </div>
+          </div>
+        </div>
+
+        <div className="checkbox-3482-actions">
+          <button
+            className="checkbox-3482-action checkbox-3482-diagnostics"
+            type="button"
+            disabled
+          >
+            <i className="ri-stethoscope-line"></i>
+            <span>Run check</span>
+          </button>
+
+          <button
+            className="checkbox-3482-action checkbox-3482-pause"
+            type="button"
+            disabled
+          >
+            <i className="ri-pause-line"></i>
+            <span>Pause</span>
+          </button>
+
+          <button
+            className="checkbox-3482-action checkbox-3482-reset"
+            type="button"
+          >
+            <i className="ri-restart-line"></i>
+            <span>Reset</span>
+          </button>
+        </div>
+
+        <div className="checkbox-3482-activity">
+          <div className="checkbox-3482-activity-head">
+            <div>
+              <span className="checkbox-3482-activity-dot"></span>
+              <strong>Activity</strong>
+            </div>
+
+            <span className="checkbox-3482-clock">--:--:--</span>
+          </div>
+
+          <div className="checkbox-3482-log">
+            <div className="checkbox-3482-log-item">
+              <span className="checkbox-3482-log-time">SYSTEM</span>
+
+              <span>Autopilot is ready to be enabled.</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="checkbox-3482-footer">
+          <span>
+            <i className="ri-keyboard-line"></i>
+            Space or Enter to toggle
+          </span>
+
+          <span className="checkbox-3482-footer-state">
+            Protection disabled
+          </span>
+        </div>
+      </section>
+    ),
+    html: `<section
+    class="Checkbox3482"
+    data-checkbox-id="3482"
+    tabindex="0"
+>
+    <div class="Checkbox3482__header">
+        <label class="Checkbox3482__control">
+            <input
+                class="Checkbox3482__input"
+                type="checkbox"
+            >
+
+            <span class="Checkbox3482__box">
+                <span class="Checkbox3482__check">
+                    <i class="ri-check-line"></i>
+                </span>
+            </span>
+
+            <span class="Checkbox3482__heading">
+                <span class="Checkbox3482__title-row">
+                    <strong>
+                        Autopilot Protection
+                    </strong>
+
+                    <span class="Checkbox3482__status">
+                        <span class="Checkbox3482__status-dot"></span>
+
+                        <span class="Checkbox3482__status-text">
+                            Offline
+                        </span>
+                    </span>
+                </span>
+
+                <span class="Checkbox3482__description">
+                    Automatically secure, synchronize and monitor your connected workspace.
+                </span>
+            </span>
+        </label>
+    </div>
+
+    <div class="Checkbox3482__progress-area">
+        <div class="Checkbox3482__progress-head">
+            <span class="Checkbox3482__phase">
+                Waiting for activation
+            </span>
+
+            <strong class="Checkbox3482__percent">
+                0%
+            </strong>
+        </div>
+
+        <div class="Checkbox3482__progress">
+            <span class="Checkbox3482__progress-fill"></span>
+        </div>
+    </div>
+
+    <div class="Checkbox3482__metrics">
+        <div class="Checkbox3482__metric">
+            <span class="Checkbox3482__metric-icon">
+                <i class="ri-shield-check-line"></i>
+            </span>
+
+            <div>
+                <span>Health</span>
+
+                <strong class="Checkbox3482__health">
+                    —
+                </strong>
+            </div>
+        </div>
+
+        <div class="Checkbox3482__metric">
+            <span class="Checkbox3482__metric-icon">
+                <i class="ri-device-line"></i>
+            </span>
+
+            <div>
+                <span>Devices</span>
+
+                <strong class="Checkbox3482__devices">
+                    0
+                </strong>
+            </div>
+        </div>
+
+        <div class="Checkbox3482__metric">
+            <span class="Checkbox3482__metric-icon">
+                <i class="ri-speed-up-line"></i>
+            </span>
+
+            <div>
+                <span>Latency</span>
+
+                <strong class="Checkbox3482__latency">
+                    —
+                </strong>
+            </div>
+        </div>
+    </div>
+
+    <div class="Checkbox3482__steps">
+        <div
+            class="Checkbox3482__step"
+            data-step="0"
+        >
+            <span class="Checkbox3482__step-icon">
+                <i class="ri-links-line"></i>
+            </span>
+
+            <div class="Checkbox3482__step-copy">
+                <strong>Secure handshake</strong>
+                <span>Waiting</span>
+            </div>
+
+            <span class="Checkbox3482__step-state">
+                —
+            </span>
+        </div>
+
+        <div
+            class="Checkbox3482__step"
+            data-step="1"
+        >
+            <span class="Checkbox3482__step-icon">
+                <i class="ri-lock-2-line"></i>
+            </span>
+
+            <div class="Checkbox3482__step-copy">
+                <strong>Encryption</strong>
+                <span>Waiting</span>
+            </div>
+
+            <span class="Checkbox3482__step-state">
+                —
+            </span>
+        </div>
+
+        <div
+            class="Checkbox3482__step"
+            data-step="2"
+        >
+            <span class="Checkbox3482__step-icon">
+                <i class="ri-refresh-line"></i>
+            </span>
+
+            <div class="Checkbox3482__step-copy">
+                <strong>Device synchronization</strong>
+                <span>Waiting</span>
+            </div>
+
+            <span class="Checkbox3482__step-state">
+                —
+            </span>
+        </div>
+
+        <div
+            class="Checkbox3482__step"
+            data-step="3"
+        >
+            <span class="Checkbox3482__step-icon">
+                <i class="ri-radar-line"></i>
+            </span>
+
+            <div class="Checkbox3482__step-copy">
+                <strong>Live monitoring</strong>
+                <span>Waiting</span>
+            </div>
+
+            <span class="Checkbox3482__step-state">
+                —
+            </span>
+        </div>
+    </div>
+
+    <div class="Checkbox3482__monitor">
+        <div class="Checkbox3482__monitor-head">
+            <div>
+                <span>LIVE MONITOR</span>
+
+                <strong class="Checkbox3482__monitor-title">
+                    Monitoring unavailable
+                </strong>
+            </div>
+
+            <span class="Checkbox3482__monitor-badge">
+                IDLE
+            </span>
+        </div>
+
+        <div class="Checkbox3482__monitor-grid">
+            <div>
+                <span>Requests</span>
+
+                <strong class="Checkbox3482__requests">
+                    0
+                </strong>
+            </div>
+
+            <div>
+                <span>Threats blocked</span>
+
+                <strong class="Checkbox3482__threats">
+                    0
+                </strong>
+            </div>
+
+            <div>
+                <span>Uptime</span>
+
+                <strong class="Checkbox3482__uptime">
+                    00:00
+                </strong>
+            </div>
+        </div>
+    </div>
+
+    <div class="Checkbox3482__actions">
+        <button
+            class="Checkbox3482__action Checkbox3482__diagnostics"
+            type="button"
+            disabled
+        >
+            <i class="ri-stethoscope-line"></i>
+            <span>Run check</span>
+        </button>
+
+        <button
+            class="Checkbox3482__action Checkbox3482__pause"
+            type="button"
+            disabled
+        >
+            <i class="ri-pause-line"></i>
+            <span>Pause</span>
+        </button>
+
+        <button
+            class="Checkbox3482__action Checkbox3482__reset"
+            type="button"
+        >
+            <i class="ri-restart-line"></i>
+            <span>Reset</span>
+        </button>
+    </div>
+
+    <div class="Checkbox3482__activity">
+        <div class="Checkbox3482__activity-head">
+            <div>
+                <span class="Checkbox3482__activity-dot"></span>
+                <strong>Activity</strong>
+            </div>
+
+            <span class="Checkbox3482__clock">
+                --:--:--
+            </span>
+        </div>
+
+        <div class="Checkbox3482__log">
+            <div class="Checkbox3482__log-item">
+                <span class="Checkbox3482__log-time">
+                    SYSTEM
+                </span>
+
+                <span>
+                    Autopilot is ready to be enabled.
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="Checkbox3482__footer">
+        <span>
+            <i class="ri-keyboard-line"></i>
+            Space or Enter to toggle
+        </span>
+
+        <span class="Checkbox3482__footer-state">
+            Protection disabled
+        </span>
+    </div>
+</section>`,
+    css: `.Checkbox3482 {
+    width: 420px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid #202938;
+    border-radius: 22px;
+    outline: none;
+    background:
+        linear-gradient(
+            145deg,
+            #0f1520,
+            #0a0e16
+        );
+    color: #f8fafc;
+    font-family:
+        Inter,
+        ui-sans-serif,
+        system-ui,
+        sans-serif;
+    box-shadow:
+        0 28px 70px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    transition:
+        border-color 0.25s ease,
+        box-shadow 0.25s ease,
+        transform 0.25s ease;
+}
+
+.Checkbox3482:focus-visible {
+    border-color: rgba(59, 130, 246, 0.65);
+    box-shadow:
+        0 0 0 4px rgba(59, 130, 246, 0.12),
+        0 28px 70px rgba(0, 0, 0, 0.3);
+}
+
+.Checkbox3482.is-active {
+    border-color: rgba(34, 197, 94, 0.24);
+    box-shadow:
+        0 28px 70px rgba(0, 0, 0, 0.32),
+        0 0 45px rgba(34, 197, 94, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.Checkbox3482.is-processing {
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+.Checkbox3482.is-paused {
+    border-color: rgba(245, 158, 11, 0.3);
+}
+
+.Checkbox3482.is-diagnostics {
+    border-color: rgba(168, 85, 247, 0.35);
+}
+
+.Checkbox3482 * {
+    box-sizing: border-box;
+}
+
+.Checkbox3482__header {
+    padding: 20px 20px 17px;
+}
+
+.Checkbox3482__control {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+    cursor: pointer;
+}
+
+.Checkbox3482__input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.Checkbox3482__box {
+    position: relative;
+    flex: 0 0 auto;
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border: 1px solid #344055;
+    border-radius: 10px;
+    background: #151d29;
+    color: #ffffff;
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    transition:
+        border-color 0.22s ease,
+        background 0.22s ease,
+        box-shadow 0.22s ease,
+        transform 0.2s ease;
+}
+
+.Checkbox3482__control:hover .Checkbox3482__box {
+    border-color: #4b5b73;
+    transform: translateY(-1px);
+}
+
+.Checkbox3482__check {
+    width: 21px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border-radius: 7px;
+    background:
+        linear-gradient(
+            135deg,
+            #22c55e,
+            #14b8a6
+        );
+    opacity: 0;
+    transform: scale(0.45) rotate(-15deg);
+    transition:
+        opacity 0.2s ease,
+        transform 0.25s ease;
+}
+
+.Checkbox3482__check i {
+    font-size: 14px;
+}
+
+.Checkbox3482__input:checked + .Checkbox3482__box {
+    border-color: rgba(34, 197, 94, 0.6);
+    background: rgba(34, 197, 94, 0.08);
+    box-shadow:
+        0 0 0 4px rgba(34, 197, 94, 0.07);
+}
+
+.Checkbox3482__input:checked + .Checkbox3482__box .Checkbox3482__check {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+}
+
+.Checkbox3482__heading {
+    min-width: 0;
+    flex: 1;
+}
+
+.Checkbox3482__title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.Checkbox3482__title-row > strong {
+    color: #f8fafc;
+    font-size: 13px;
+    font-weight: 750;
+    letter-spacing: -0.01em;
+}
+
+.Checkbox3482__description {
+    display: block;
+    max-width: 300px;
+    margin-top: 6px;
+    color: #6f7c91;
+    font-size: 9px;
+    line-height: 1.55;
+}
+
+.Checkbox3482__status {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 8px;
+    border: 1px solid rgba(148, 163, 184, 0.1);
+    border-radius: 999px;
+    background: rgba(148, 163, 184, 0.06);
+    color: #7f8ba0;
+    transition:
+        color 0.25s ease,
+        background 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.Checkbox3482__status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #64748b;
+    transition:
+        background 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.Checkbox3482__status-text {
+    font-size: 7px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.Checkbox3482.is-processing .Checkbox3482__status {
+    border-color: rgba(59, 130, 246, 0.17);
+    background: rgba(59, 130, 246, 0.08);
+    color: #60a5fa;
+}
+
+.Checkbox3482.is-processing .Checkbox3482__status-dot {
+    background: #3b82f6;
+    box-shadow:
+        0 0 0 4px rgba(59, 130, 246, 0.1);
+}
+
+.Checkbox3482.is-active .Checkbox3482__status {
+    border-color: rgba(34, 197, 94, 0.18);
+    background: rgba(34, 197, 94, 0.08);
+    color: #4ade80;
+}
+
+.Checkbox3482.is-active .Checkbox3482__status-dot {
+    background: #22c55e;
+    box-shadow:
+        0 0 0 4px rgba(34, 197, 94, 0.1);
+}
+
+.Checkbox3482.is-paused .Checkbox3482__status {
+    border-color: rgba(245, 158, 11, 0.18);
+    background: rgba(245, 158, 11, 0.08);
+    color: #fbbf24;
+}
+
+.Checkbox3482.is-paused .Checkbox3482__status-dot {
+    background: #f59e0b;
+    box-shadow:
+        0 0 0 4px rgba(245, 158, 11, 0.1);
+}
+
+.Checkbox3482.is-diagnostics .Checkbox3482__status {
+    border-color: rgba(168, 85, 247, 0.18);
+    background: rgba(168, 85, 247, 0.08);
+    color: #c084fc;
+}
+
+.Checkbox3482.is-diagnostics .Checkbox3482__status-dot {
+    background: #a855f7;
+    box-shadow:
+        0 0 0 4px rgba(168, 85, 247, 0.1);
+}
+
+.Checkbox3482__progress-area {
+    padding: 0 20px 18px;
+}
+
+.Checkbox3482__progress-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.Checkbox3482__phase {
+    color: #6f7c91;
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.Checkbox3482__percent {
+    color: #94a3b8;
+    font-size: 9px;
+}
+
+.Checkbox3482__progress {
+    width: 100%;
+    height: 5px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.055);
+}
+
+.Checkbox3482__progress-fill {
+    display: block;
+    width: 0%;
+    height: 100%;
+    border-radius: inherit;
+    background:
+        linear-gradient(
+            90deg,
+            #2563eb,
+            #3b82f6,
+            #22c55e
+        );
+    box-shadow:
+        0 0 14px rgba(59, 130, 246, 0.35);
+    transition:
+        width 0.16s ease,
+        background 0.25s ease;
+}
+
+.Checkbox3482.is-active .Checkbox3482__progress-fill {
+    background:
+        linear-gradient(
+            90deg,
+            #16a34a,
+            #22c55e,
+            #14b8a6
+        );
+    box-shadow:
+        0 0 14px rgba(34, 197, 94, 0.3);
+}
+
+.Checkbox3482__metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+    padding: 0 20px 18px;
+}
+
+.Checkbox3482__metric {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    min-width: 0;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.055);
+    border-radius: 11px;
+    background: rgba(255, 255, 255, 0.025);
+}
+
+.Checkbox3482__metric-icon {
+    flex: 0 0 auto;
+    width: 27px;
+    height: 27px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: rgba(59, 130, 246, 0.08);
+    color: #60a5fa;
+}
+
+.Checkbox3482__metric-icon i {
+    font-size: 13px;
+}
+
+.Checkbox3482__metric > div {
+    min-width: 0;
+}
+
+.Checkbox3482__metric span,
+.Checkbox3482__metric strong {
+    display: block;
+}
+
+.Checkbox3482__metric > div > span {
+    color: #596579;
+    font-size: 6px;
+}
+
+.Checkbox3482__metric > div > strong {
+    margin-top: 3px;
+    overflow: hidden;
+    color: #cbd5e1;
+    font-size: 9px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Checkbox3482__steps {
+    display: grid;
+    gap: 5px;
+    padding: 0 20px 18px;
+}
+
+.Checkbox3482__step {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    min-height: 43px;
+    padding: 8px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.018);
+    transition:
+        border-color 0.2s ease,
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+.Checkbox3482__step.is-current {
+    border-color: rgba(59, 130, 246, 0.2);
+    background: rgba(59, 130, 246, 0.055);
+    transform: translateX(2px);
+}
+
+.Checkbox3482__step.is-complete {
+    border-color: rgba(34, 197, 94, 0.11);
+    background: rgba(34, 197, 94, 0.035);
+}
+
+.Checkbox3482__step.is-error {
+    border-color: rgba(239, 68, 68, 0.16);
+    background: rgba(239, 68, 68, 0.045);
+}
+
+.Checkbox3482__step-icon {
+    flex: 0 0 auto;
+    width: 29px;
+    height: 29px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: rgba(148, 163, 184, 0.06);
+    color: #64748b;
+    transition:
+        background 0.2s ease,
+        color 0.2s ease;
+}
+
+.Checkbox3482__step-icon i {
+    font-size: 13px;
+}
+
+.Checkbox3482__step.is-current .Checkbox3482__step-icon {
+    background: rgba(59, 130, 246, 0.1);
+    color: #60a5fa;
+}
+
+.Checkbox3482__step.is-complete .Checkbox3482__step-icon {
+    background: rgba(34, 197, 94, 0.1);
+    color: #4ade80;
+}
+
+.Checkbox3482__step.is-error .Checkbox3482__step-icon {
+    background: rgba(239, 68, 68, 0.1);
+    color: #f87171;
+}
+
+.Checkbox3482__step-copy {
+    min-width: 0;
+    flex: 1;
+}
+
+.Checkbox3482__step-copy strong,
+.Checkbox3482__step-copy span {
+    display: block;
+}
+
+.Checkbox3482__step-copy strong {
+    color: #b9c2d0;
+    font-size: 8px;
+}
+
+.Checkbox3482__step-copy span {
+    margin-top: 3px;
+    color: #566176;
+    font-size: 6px;
+}
+
+.Checkbox3482__step-state {
+    flex: 0 0 auto;
+    color: #526077;
+    font-size: 7px;
+    font-weight: 700;
+}
+
+.Checkbox3482__step.is-current .Checkbox3482__step-state {
+    color: #60a5fa;
+}
+
+.Checkbox3482__step.is-complete .Checkbox3482__step-state {
+    color: #4ade80;
+}
+
+.Checkbox3482__step.is-error .Checkbox3482__step-state {
+    color: #f87171;
+}
+
+.Checkbox3482__monitor {
+    margin: 0 20px 18px;
+    padding: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.055);
+    border-radius: 13px;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(37, 99, 235, 0.035),
+            rgba(15, 23, 42, 0.18)
+        );
+}
+
+.Checkbox3482__monitor-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.Checkbox3482__monitor-head > div > span,
+.Checkbox3482__monitor-head > div > strong {
+    display: block;
+}
+
+.Checkbox3482__monitor-head > div > span {
+    color: #4f5d72;
+    font-size: 6px;
+    font-weight: 900;
+    letter-spacing: 0.14em;
+}
+
+.Checkbox3482__monitor-title {
+    margin-top: 4px;
+    color: #aeb8c7;
+    font-size: 8px;
+}
+
+.Checkbox3482__monitor-badge {
+    padding: 4px 7px;
+    border-radius: 999px;
+    background: rgba(148, 163, 184, 0.07);
+    color: #64748b;
+    font-size: 6px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+}
+
+.Checkbox3482.is-active .Checkbox3482__monitor-badge {
+    background: rgba(34, 197, 94, 0.08);
+    color: #4ade80;
+}
+
+.Checkbox3482.is-paused .Checkbox3482__monitor-badge {
+    background: rgba(245, 158, 11, 0.08);
+    color: #fbbf24;
+}
+
+.Checkbox3482.is-diagnostics .Checkbox3482__monitor-badge {
+    background: rgba(168, 85, 247, 0.09);
+    color: #c084fc;
+}
+
+.Checkbox3482__monitor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    margin-top: 12px;
+}
+
+.Checkbox3482__monitor-grid > div {
+    padding: 9px;
+    border-radius: 9px;
+    background: rgba(255, 255, 255, 0.025);
+}
+
+.Checkbox3482__monitor-grid span,
+.Checkbox3482__monitor-grid strong {
+    display: block;
+}
+
+.Checkbox3482__monitor-grid span {
+    color: #526077;
+    font-size: 6px;
+}
+
+.Checkbox3482__monitor-grid strong {
+    margin-top: 4px;
+    color: #cbd5e1;
+    font-size: 10px;
+}
+
+.Checkbox3482__actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+    padding: 0 20px 18px;
+}
+
+.Checkbox3482__action {
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 9px;
+    background: rgba(255, 255, 255, 0.03);
+    color: #8995a8;
+    font: inherit;
+    font-size: 7px;
+    font-weight: 700;
+    cursor: pointer;
+    transition:
+        color 0.2s ease,
+        background 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.Checkbox3482__action:not(:disabled):hover {
+    border-color: rgba(96, 165, 250, 0.2);
+    background: rgba(59, 130, 246, 0.07);
+    color: #dbeafe;
+    transform: translateY(-1px);
+}
+
+.Checkbox3482__action:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+.Checkbox3482__action i {
+    font-size: 11px;
+}
+
+.Checkbox3482__activity {
+    margin: 0 20px 18px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+}
+
+.Checkbox3482__activity-head {
+    min-height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 11px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.045);
+    background: rgba(255, 255, 255, 0.022);
+}
+
+.Checkbox3482__activity-head > div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.Checkbox3482__activity-head strong {
+    color: #9ca7b8;
+    font-size: 7px;
+}
+
+.Checkbox3482__activity-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #64748b;
+}
+
+.Checkbox3482.is-active .Checkbox3482__activity-dot {
+    background: #22c55e;
+}
+
+.Checkbox3482__clock {
+    color: #526077;
+    font-size: 6px;
+    font-variant-numeric: tabular-nums;
+}
+
+.Checkbox3482__log {
+    max-height: 112px;
+    overflow-y: auto;
+    padding: 4px 0;
+    scrollbar-width: thin;
+    scrollbar-color: #293244 transparent;
+}
+
+.Checkbox3482__log-item {
+    display: grid;
+    grid-template-columns: 52px 1fr;
+    gap: 7px;
+    padding: 7px 10px;
+    color: #6f7c91;
+    font-size: 6px;
+    line-height: 1.45;
+}
+
+.Checkbox3482__log-item + .Checkbox3482__log-item {
+    border-top: 1px solid rgba(255, 255, 255, 0.025);
+}
+
+.Checkbox3482__log-item.is-success {
+    color: #65a77d;
+}
+
+.Checkbox3482__log-item.is-info {
+    color: #7196c8;
+}
+
+.Checkbox3482__log-item.is-warning {
+    color: #b7985b;
+}
+
+.Checkbox3482__log-item.is-error {
+    color: #c86f76;
+}
+
+.Checkbox3482__log-time {
+    color: #47546a;
+    font-size: 5px;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+}
+
+.Checkbox3482__footer {
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 0 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.045);
+    background: rgba(255, 255, 255, 0.015);
+}
+
+.Checkbox3482__footer > span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #4f5c70;
+    font-size: 6px;
+}
+
+.Checkbox3482__footer-state {
+    color: #64748b !important;
+}
+
+.Checkbox3482.is-active .Checkbox3482__footer-state {
+    color: #4ade80 !important;
+}
+
+.Checkbox3482.is-paused .Checkbox3482__footer-state {
+    color: #fbbf24 !important;
+}
+
+@media (max-width: 480px) {
+    .Checkbox3482 {
+        width: 100%;
+    }
+
+    .Checkbox3482__metrics,
+    .Checkbox3482__monitor-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .Checkbox3482__actions {
+        grid-template-columns: 1fr;
+    }
+}`,
+    javascript: `const component = document.querySelector('[data-checkbox-id="3482"]');
+
+if (component) {
+    const input = component.querySelector(".Checkbox3482__input");
+    const statusText = component.querySelector(".Checkbox3482__status-text");
+    const phaseText = component.querySelector(".Checkbox3482__phase");
+    const percentText = component.querySelector(".Checkbox3482__percent");
+    const progressFill = component.querySelector(".Checkbox3482__progress-fill");
+
+    const healthValue = component.querySelector(".Checkbox3482__health");
+    const devicesValue = component.querySelector(".Checkbox3482__devices");
+    const latencyValue = component.querySelector(".Checkbox3482__latency");
+
+    const monitorTitle = component.querySelector(".Checkbox3482__monitor-title");
+    const monitorBadge = component.querySelector(".Checkbox3482__monitor-badge");
+
+    const requestsValue = component.querySelector(".Checkbox3482__requests");
+    const threatsValue = component.querySelector(".Checkbox3482__threats");
+    const uptimeValue = component.querySelector(".Checkbox3482__uptime");
+
+    const diagnosticsButton = component.querySelector(".Checkbox3482__diagnostics");
+    const pauseButton = component.querySelector(".Checkbox3482__pause");
+    const resetButton = component.querySelector(".Checkbox3482__reset");
+
+    const pauseButtonIcon = pauseButton.querySelector("i");
+    const pauseButtonText = pauseButton.querySelector("span");
+
+    const log = component.querySelector(".Checkbox3482__log");
+    const clock = component.querySelector(".Checkbox3482__clock");
+    const footerState = component.querySelector(".Checkbox3482__footer-state");
+
+    const steps = Array.from(
+        component.querySelectorAll(".Checkbox3482__step")
+    );
+
+    const state = {
+        active: false,
+        activating: false,
+        paused: false,
+        diagnostics: false,
+        progress: 0,
+        stepIndex: -1,
+        requests: 0,
+        threats: 0,
+        devices: 0,
+        latency: 0,
+        health: 0,
+        startedAt: null,
+        sequenceTimer: null,
+        monitorTimer: null,
+        clockTimer: null,
+        diagnosticsTimer: null,
+        diagnosticsFinishTimer: null,
+        delayedTimer: null,
+        logIndex: 0
+    };
+
+    function isMounted() {
+        return component.isConnected;
+    }
+
+    function clearTimer(name) {
+        const timer = state[name];
+
+        if (!timer) {
+            return;
+        }
+
+        clearTimeout(timer);
+        clearInterval(timer);
+
+        state[name] = null;
+    }
+
+    function clearAllTimers() {
+        clearTimer("sequenceTimer");
+        clearTimer("monitorTimer");
+        clearTimer("clockTimer");
+        clearTimer("diagnosticsTimer");
+        clearTimer("diagnosticsFinishTimer");
+        clearTimer("delayedTimer");
+    }
+
+    function randomBetween(min, max) {
+        return Math.floor(
+            Math.random() * (max - min + 1)
+        ) + min;
+    }
+
+    function pad(value) {
+        return String(value).padStart(2, "0");
+    }
+
+    function getTimeString() {
+        const now = new Date();
+
+        return [
+            pad(now.getHours()),
+            pad(now.getMinutes()),
+            pad(now.getSeconds())
+        ].join(":");
+    }
+
+    function formatUptime() {
+        if (!state.startedAt) {
+            return "00:00";
+        }
+
+        const seconds = Math.max(
+            0,
+            Math.floor(
+                (Date.now() - state.startedAt) / 1000
+            )
+        );
+
+        const minutes = Math.floor(
+            seconds / 60
+        );
+
+        const remainingSeconds =
+            seconds % 60;
+
+        return (
+            pad(minutes) +
+            ":" +
+            pad(remainingSeconds)
+        );
+    }
+
+    function addLog(message, type = "info") {
+        if (!isMounted()) {
+            clearAllTimers();
+            return;
+        }
+
+        state.logIndex += 1;
+
+        const item =
+            document.createElement("div");
+
+        item.className =
+            "Checkbox3482__log-item " +
+            "is-" +
+            type;
+
+        const time =
+            document.createElement("span");
+
+        time.className =
+            "Checkbox3482__log-time";
+
+        time.textContent =
+            getTimeString();
+
+        const content =
+            document.createElement("span");
+
+        content.textContent =
+            message;
+
+        item.append(
+            time,
+            content
+        );
+
+        log.prepend(item);
+
+        while (
+            log.children.length > 8
+        ) {
+            log.removeChild(
+                log.lastElementChild
+            );
+        }
+    }
+
+    function setComponentMode(mode) {
+        component.classList.remove(
+            "is-active",
+            "is-processing",
+            "is-paused",
+            "is-diagnostics"
+        );
+
+        if (mode === "active") {
+            component.classList.add(
+                "is-active"
+            );
+        }
+
+        if (mode === "processing") {
+            component.classList.add(
+                "is-processing"
+            );
+        }
+
+        if (mode === "paused") {
+            component.classList.add(
+                "is-active",
+                "is-paused"
+            );
+        }
+
+        if (mode === "diagnostics") {
+            component.classList.add(
+                "is-active",
+                "is-diagnostics"
+            );
+        }
+    }
+
+    function renderProgress() {
+        const value = Math.max(
+            0,
+            Math.min(
+                100,
+                Math.round(state.progress)
+            )
+        );
+
+        percentText.textContent =
+            value + "%";
+
+        progressFill.style.width =
+            value + "%";
+    }
+
+    function renderMetrics() {
+        healthValue.textContent =
+            state.health > 0
+                ? state.health + "%"
+                : "—";
+
+        devicesValue.textContent =
+            String(state.devices);
+
+        latencyValue.textContent =
+            state.latency > 0
+                ? state.latency + " ms"
+                : "—";
+
+        requestsValue.textContent =
+            state.requests.toLocaleString();
+
+        threatsValue.textContent =
+            String(state.threats);
+
+        uptimeValue.textContent =
+            formatUptime();
+    }
+
+    function resetSteps() {
+        steps.forEach((step) => {
+            step.classList.remove(
+                "is-current",
+                "is-complete",
+                "is-error"
+            );
+
+            const copy =
+                step.querySelector(
+                    ".Checkbox3482__step-copy span"
+                );
+
+            const status =
+                step.querySelector(
+                    ".Checkbox3482__step-state"
+                );
+
+            copy.textContent =
+                "Waiting";
+
+            status.textContent =
+                "—";
+        });
+
+        state.stepIndex = -1;
+    }
+
+    function updateStep(
+        index,
+        mode,
+        description
+    ) {
+        const step =
+            steps[index];
+
+        if (!step) {
+            return;
+        }
+
+        step.classList.remove(
+            "is-current",
+            "is-complete",
+            "is-error"
+        );
+
+        const copy =
+            step.querySelector(
+                ".Checkbox3482__step-copy span"
+            );
+
+        const status =
+            step.querySelector(
+                ".Checkbox3482__step-state"
+            );
+
+        if (mode === "current") {
+            step.classList.add(
+                "is-current"
+            );
+
+            status.textContent =
+                "RUN";
+
+            copy.textContent =
+                description ||
+                "Processing";
+        }
+
+        if (mode === "complete") {
+            step.classList.add(
+                "is-complete"
+            );
+
+            status.textContent =
+                "OK";
+
+            copy.textContent =
+                description ||
+                "Completed";
+        }
+
+        if (mode === "error") {
+            step.classList.add(
+                "is-error"
+            );
+
+            status.textContent =
+                "ERR";
+
+            copy.textContent =
+                description ||
+                "Failed";
+        }
+
+        if (mode === "waiting") {
+            status.textContent =
+                "—";
+
+            copy.textContent =
+                description ||
+                "Waiting";
+        }
+    }
+
+    function emitState() {
+        component.dispatchEvent(
+            new CustomEvent(
+                "checkbox3482:statechange",
+                {
+                    bubbles: true,
+                    detail: {
+                        active: state.active,
+                        activating:
+                            state.activating,
+                        paused:
+                            state.paused,
+                        diagnostics:
+                            state.diagnostics,
+                        progress:
+                            state.progress,
+                        health:
+                            state.health,
+                        devices:
+                            state.devices,
+                        latency:
+                            state.latency,
+                        requests:
+                            state.requests,
+                        threats:
+                            state.threats
+                    }
+                }
+            )
+        );
+    }
+
+    function updateClock() {
+        if (!isMounted()) {
+            clearAllTimers();
+            return;
+        }
+
+        clock.textContent =
+            getTimeString();
+
+        if (state.active) {
+            uptimeValue.textContent =
+                formatUptime();
+        }
+    }
+
+    function startClock() {
+        clearTimer("clockTimer");
+
+        updateClock();
+
+        state.clockTimer =
+            setInterval(
+                updateClock,
+                1000
+            );
+    }
+
+    function stopMonitor() {
+        clearTimer(
+            "monitorTimer"
+        );
+    }
+
+    function monitorTick() {
+        if (!isMounted()) {
+            clearAllTimers();
+            return;
+        }
+
+        if (
+            !state.active ||
+            state.paused ||
+            state.diagnostics
+        ) {
+            return;
+        }
+
+        state.requests +=
+            randomBetween(4, 22);
+
+        if (
+            Math.random() > 0.76
+        ) {
+            state.threats += 1;
+
+            addLog(
+                "Suspicious request blocked automatically.",
+                "warning"
+            );
+        }
+
+        state.latency =
+            randomBetween(18, 46);
+
+        state.health =
+            randomBetween(96, 100);
+
+        renderMetrics();
+
+        emitState();
+    }
+
+    function startMonitor() {
+        stopMonitor();
+
+        monitorTick();
+
+        state.monitorTimer =
+            setInterval(
+                monitorTick,
+                1500
+            );
+    }
+
+    function setReadyState() {
+        state.active = true;
+        state.activating = false;
+        state.paused = false;
+        state.diagnostics = false;
+
+        state.progress = 100;
+        state.health = 99;
+        state.devices = 4;
+        state.latency =
+            randomBetween(20, 35);
+
+        if (!state.startedAt) {
+            state.startedAt =
+                Date.now();
+        }
+
+        setComponentMode(
+            "active"
+        );
+
+        statusText.textContent =
+            "Protected";
+
+        phaseText.textContent =
+            "All systems operational";
+
+        monitorTitle.textContent =
+            "Workspace protected";
+
+        monitorBadge.textContent =
+            "LIVE";
+
+        footerState.textContent =
+            "Protection active";
+
+        diagnosticsButton.disabled =
+            false;
+
+        pauseButton.disabled =
+            false;
+
+        pauseButtonIcon.className =
+            "ri-pause-line";
+
+        pauseButtonText.textContent =
+            "Pause";
+
+        renderProgress();
+        renderMetrics();
+
+        addLog(
+            "Autopilot protection is fully active.",
+            "success"
+        );
+
+        startMonitor();
+
+        emitState();
+    }
+
+    function finishStep(
+        index,
+        message
+    ) {
+        updateStep(
+            index,
+            "complete",
+            message
+        );
+    }
+
+    function runActivationStep0() {
+        if (
+            !state.activating ||
+            !input.checked
+        ) {
+            return;
+        }
+
+        state.stepIndex = 0;
+        state.progress = 8;
+
+        phaseText.textContent =
+            "Establishing secure handshake";
+
+        updateStep(
+            0,
+            "current",
+            "Negotiating secure connection"
+        );
+
+        renderProgress();
+
+        addLog(
+            "Secure handshake started.",
+            "info"
+        );
+
+        state.sequenceTimer =
+            setTimeout(
+                runActivationStep1,
+                650
+            );
+    }
+
+    function runActivationStep1() {
+        if (
+            !state.activating ||
+            !input.checked
+        ) {
+            return;
+        }
+
+        finishStep(
+            0,
+            "Connection verified"
+        );
+
+        state.stepIndex = 1;
+        state.progress = 34;
+
+        phaseText.textContent =
+            "Generating encryption keys";
+
+        updateStep(
+            1,
+            "current",
+            "Creating session keys"
+        );
+
+        state.latency = 28;
+        state.health = 98;
+
+        renderProgress();
+        renderMetrics();
+
+        addLog(
+            "Secure handshake completed.",
+            "success"
+        );
+
+        addLog(
+            "AES session keys generated.",
+            "info"
+        );
+
+        state.sequenceTimer =
+            setTimeout(
+                runActivationStep2,
+                700
+            );
+    }
+
+    function runActivationStep2() {
+        if (
+            !state.activating ||
+            !input.checked
+        ) {
+            return;
+        }
+
+        finishStep(
+            1,
+            "Encryption enabled"
+        );
+
+        state.stepIndex = 2;
+        state.progress = 61;
+        state.devices = 2;
+
+        phaseText.textContent =
+            "Synchronizing devices";
+
+        updateStep(
+            2,
+            "current",
+            "Discovering connected devices"
+        );
+
+        renderProgress();
+        renderMetrics();
+
+        addLog(
+            "End-to-end encryption enabled.",
+            "success"
+        );
+
+        state.sequenceTimer =
+            setTimeout(
+                runActivationStep3,
+                760
+            );
+    }
+
+    function runActivationStep3() {
+        if (
+            !state.activating ||
+            !input.checked
+        ) {
+            return;
+        }
+
+        finishStep(
+            2,
+            "4 devices synchronized"
+        );
+
+        state.stepIndex = 3;
+        state.progress = 84;
+        state.devices = 4;
+
+        phaseText.textContent =
+            "Starting live monitor";
+
+        updateStep(
+            3,
+            "current",
+            "Initializing monitor"
+        );
+
+        renderProgress();
+        renderMetrics();
+
+        addLog(
+            "4 trusted devices synchronized.",
+            "success"
+        );
+
+        state.sequenceTimer =
+            setTimeout(
+                finishActivation,
+                720
+            );
+    }
+
+    function finishActivation() {
+        if (
+            !state.activating ||
+            !input.checked
+        ) {
+            return;
+        }
+
+        finishStep(
+            3,
+            "Monitoring active"
+        );
+
+        setReadyState();
+    }
+
+    function startActivation() {
+        clearAllTimers();
+
+        state.active = false;
+        state.activating = true;
+        state.paused = false;
+        state.diagnostics = false;
+
+        state.progress = 0;
+        state.health = 0;
+        state.devices = 0;
+        state.latency = 0;
+        state.requests = 0;
+        state.threats = 0;
+        state.startedAt = null;
+
+        resetSteps();
+
+        setComponentMode(
+            "processing"
+        );
+
+        statusText.textContent =
+            "Starting";
+
+        phaseText.textContent =
+            "Preparing protection";
+
+        monitorTitle.textContent =
+            "Starting services";
+
+        monitorBadge.textContent =
+            "BOOT";
+
+        footerState.textContent =
+            "Initializing";
+
+        diagnosticsButton.disabled =
+            true;
+
+        pauseButton.disabled =
+            true;
+
+        renderProgress();
+        renderMetrics();
+
+        addLog(
+            "Autopilot activation requested.",
+            "info"
+        );
+
+        emitState();
+
+        state.delayedTimer =
+            setTimeout(
+                runActivationStep0,
+                220
+            );
+
+        startClock();
+    }
+
+    function disableProtection(
+        fromReset = false
+    ) {
+        clearAllTimers();
+
+        state.active = false;
+        state.activating = false;
+        state.paused = false;
+        state.diagnostics = false;
+
+        state.progress = 0;
+        state.stepIndex = -1;
+        state.requests = 0;
+        state.threats = 0;
+        state.devices = 0;
+        state.latency = 0;
+        state.health = 0;
+        state.startedAt = null;
+
+        setComponentMode(
+            "idle"
+        );
+
+        statusText.textContent =
+            "Offline";
+
+        phaseText.textContent =
+            "Waiting for activation";
+
+        monitorTitle.textContent =
+            "Monitoring unavailable";
+
+        monitorBadge.textContent =
+            "IDLE";
+
+        footerState.textContent =
+            "Protection disabled";
+
+        diagnosticsButton.disabled =
+            true;
+
+        pauseButton.disabled =
+            true;
+
+        pauseButtonIcon.className =
+            "ri-pause-line";
+
+        pauseButtonText.textContent =
+            "Pause";
+
+        resetSteps();
+        renderProgress();
+        renderMetrics();
+
+        uptimeValue.textContent =
+            "00:00";
+
+        if (!fromReset) {
+            addLog(
+                "Autopilot protection disabled.",
+                "warning"
+            );
+        }
+
+        startClock();
+
+        emitState();
+    }
+
+    function togglePause() {
+        if (
+            !state.active ||
+            state.diagnostics
+        ) {
+            return;
+        }
+
+        state.paused =
+            !state.paused;
+
+        if (state.paused) {
+            stopMonitor();
+
+            setComponentMode(
+                "paused"
+            );
+
+            statusText.textContent =
+                "Paused";
+
+            monitorTitle.textContent =
+                "Monitoring paused";
+
+            monitorBadge.textContent =
+                "PAUSED";
+
+            footerState.textContent =
+                "Protection paused";
+
+            pauseButtonIcon.className =
+                "ri-play-line";
+
+            pauseButtonText.textContent =
+                "Resume";
+
+            addLog(
+                "Live monitoring paused.",
+                "warning"
+            );
+        } else {
+            setComponentMode(
+                "active"
+            );
+
+            statusText.textContent =
+                "Protected";
+
+            monitorTitle.textContent =
+                "Workspace protected";
+
+            monitorBadge.textContent =
+                "LIVE";
+
+            footerState.textContent =
+                "Protection active";
+
+            pauseButtonIcon.className =
+                "ri-pause-line";
+
+            pauseButtonText.textContent =
+                "Pause";
+
+            addLog(
+                "Live monitoring resumed.",
+                "success"
+            );
+
+            startMonitor();
+        }
+
+        emitState();
+    }
+
+    function finishDiagnostics() {
+        if (
+            !state.active ||
+            !state.diagnostics
+        ) {
+            return;
+        }
+
+        state.diagnostics = false;
+
+        state.health =
+            randomBetween(98, 100);
+
+        state.latency =
+            randomBetween(18, 30);
+
+        setComponentMode(
+            state.paused
+                ? "paused"
+                : "active"
+        );
+
+        statusText.textContent =
+            state.paused
+                ? "Paused"
+                : "Protected";
+
+        phaseText.textContent =
+            "Diagnostics complete";
+
+        monitorTitle.textContent =
+            state.paused
+                ? "Monitoring paused"
+                : "Workspace protected";
+
+        monitorBadge.textContent =
+            state.paused
+                ? "PAUSED"
+                : "LIVE";
+
+        diagnosticsButton.disabled =
+            false;
+
+        pauseButton.disabled =
+            false;
+
+        renderMetrics();
+
+        addLog(
+            "Diagnostics completed with no critical issues.",
+            "success"
+        );
+
+        if (!state.paused) {
+            startMonitor();
+        }
+
+        emitState();
+    }
+
+    function runDiagnostics() {
+        if (
+            !state.active ||
+            state.diagnostics
+        ) {
+            return;
+        }
+
+        stopMonitor();
+
+        state.diagnostics = true;
+
+        setComponentMode(
+            "diagnostics"
+        );
+
+        statusText.textContent =
+            "Checking";
+
+        phaseText.textContent =
+            "Running diagnostics";
+
+        monitorTitle.textContent =
+            "Inspecting workspace";
+
+        monitorBadge.textContent =
+            "CHECK";
+
+        diagnosticsButton.disabled =
+            true;
+
+        pauseButton.disabled =
+            true;
+
+        addLog(
+            "Deep diagnostics started.",
+            "info"
+        );
+
+        let diagnosticProgress = 0;
+
+        state.diagnosticsTimer =
+            setInterval(() => {
+                if (!isMounted()) {
+                    clearAllTimers();
+                    return;
+                }
+
+                diagnosticProgress +=
+                    randomBetween(8, 18);
+
+                if (
+                    diagnosticProgress >= 100
+                ) {
+                    diagnosticProgress = 100;
+                }
+
+                phaseText.textContent =
+                    "Diagnostics " +
+                    diagnosticProgress +
+                    "%";
+
+                if (
+                    diagnosticProgress === 100
+                ) {
+                    clearTimer(
+                        "diagnosticsTimer"
+                    );
+
+                    state.diagnosticsFinishTimer =
+                        setTimeout(
+                            finishDiagnostics,
+                            450
+                        );
+                }
+            }, 180);
+
+        emitState();
+    }
+
+    function resetEverything() {
+        clearAllTimers();
+
+        input.checked =
+            false;
+
+        log.innerHTML = "";
+
+        const item =
+            document.createElement("div");
+
+        item.className =
+            "Checkbox3482__log-item";
+
+        item.innerHTML =
+            '<span class="Checkbox3482__log-time">SYSTEM</span>' +
+            "<span>Autopilot has been reset.</span>";
+
+        log.appendChild(item);
+
+        disableProtection(
+            true
+        );
+    }
+
+    input.addEventListener(
+        "change",
+        () => {
+            if (input.checked) {
+                startActivation();
+            } else {
+                disableProtection();
+            }
+        }
+    );
+
+    diagnosticsButton.addEventListener(
+        "click",
+        (event) => {
+            event.preventDefault();
+            event.stopPropagation();
+
+            runDiagnostics();
+        }
+    );
+
+    pauseButton.addEventListener(
+        "click",
+        (event) => {
+            event.preventDefault();
+            event.stopPropagation();
+
+            togglePause();
+        }
+    );
+
+    resetButton.addEventListener(
+        "click",
+        (event) => {
+            event.preventDefault();
+            event.stopPropagation();
+
+            resetEverything();
+        }
+    );
+
+    component.addEventListener(
+        "click",
+        (event) => {
+            event.stopPropagation();
+        }
+    );
+
+    component.addEventListener(
+        "keydown",
+        (event) => {
+            const target =
+                event.target;
+
+            if (
+                target instanceof HTMLButtonElement ||
+                target instanceof HTMLInputElement
+            ) {
+                return;
+            }
+
+            if (
+                event.key === " " ||
+                event.key === "Enter"
+            ) {
+                event.preventDefault();
+
+                input.checked =
+                    !input.checked;
+
+                input.dispatchEvent(
+                    new Event(
+                        "change",
+                        {
+                            bubbles: true
+                        }
+                    )
+                );
+            }
+        }
+    );
+
+    startClock();
+    resetSteps();
+    renderProgress();
+    renderMetrics();
+}`,
+  },
+  {
+    id: 3483,
+    name: "Plasma Orb Checkbox",
+    preview: (
+      <label className="cb-3483">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3483__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3483">
+    <input type="checkbox" checked />
+    <span class="cb-3483__box"></span>
+</label>`,
+    css: `.cb-3483 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3483 input {
+    display: none;
+}
+.cb-3483__box {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    border: 2px solid #4b5563;
+    border-radius: 50%;
+    background: #05070d;
+}
+.cb-3483 input:checked + .cb-3483__box {
+    border-color: #a855f7;
+    box-shadow:
+        0 0 8px #a855f7,
+        0 0 18px #2563eb;
+}
+.cb-3483 input:checked + .cb-3483__box::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at 30% 25%, #fff 0 1px, transparent 2px),
+        radial-gradient(circle at 70% 35%, #c084fc 0 2px, transparent 3px),
+        radial-gradient(circle at 45% 75%, #60a5fa 0 1px, transparent 2px),
+        linear-gradient(135deg, #7c3aed, #2563eb);
+    animation: cb3483Plasma 1.1s ease-in-out infinite alternate;
+}
+@keyframes cb3483Plasma {
+    to {
+        transform: scale(1.12) rotate(25deg);
+        filter: hue-rotate(35deg);
+    }
+}`,
+  },
+  {
+    id: 3484,
+    name: "Hologram Ring Checkbox",
+    preview: (
+      <label className="cb-3484">
+        <input type="checkbox" />
+        <span className="cb-3484__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3484">
+    <input type="checkbox" />
+    <span class="cb-3484__box"></span>
+</label>`,
+    css: `.cb-3484 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3484 input {
+    display: none;
+}
+.cb-3484__box {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    border: 2px solid #475569;
+    border-radius: 50%;
+    background: #071015;
+}
+.cb-3484 input:checked + .cb-3484__box {
+    border-color: #22d3ee;
+    box-shadow:
+        0 0 8px #22d3ee,
+        inset 0 0 8px #22d3ee;
+}
+.cb-3484 input:checked + .cb-3484__box::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border: 2px dashed #67e8f9;
+    border-radius: 50%;
+    animation: cb3484Ring 1.4s linear infinite;
+}
+.cb-3484 input:checked + .cb-3484__box::after {
+    content: "";
+    position: absolute;
+    inset: 8px;
+    border-radius: 50%;
+    background: #cffafe;
+    box-shadow: 0 0 8px #22d3ee;
+}
+@keyframes cb3484Ring {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+  {
+    id: 3485,
+    name: "Cyber Core Checkbox",
+    preview: (
+      <label className="cb-3485">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3485__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3485">
+    <input type="checkbox" checked />
+    <span class="cb-3485__box"></span>
+</label>`,
+    css: `.cb-3485 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3485 input {
+    display: none;
+}
+.cb-3485__box {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    border: 2px solid #334155;
+    border-radius: 7px;
+    background: #05080d;
+}
+.cb-3485 input:checked + .cb-3485__box {
+    border-color: #00ff9d;
+    box-shadow: 0 0 12px #00ff9d66;
+}
+.cb-3485 input:checked + .cb-3485__box::before {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    border: 1px solid #00ff9d;
+    transform: rotate(45deg);
+    background: #003d2b;
+    box-shadow:
+        0 0 8px #00ff9d,
+        inset 0 0 6px #00ff9d;
+    animation: cb3485Core 0.9s ease-in-out infinite alternate;
+}
+@keyframes cb3485Core {
+    to {
+        transform: rotate(135deg) scale(0.8);
+    }
+}`,
+  },
+  {
+    id: 3486,
+    name: "Solar Flare Checkbox",
+    preview: (
+      <label className="cb-3486">
+        <input type="checkbox" />
+        <span className="cb-3486__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3486">
+    <input type="checkbox" />
+    <span class="cb-3486__box"></span>
+</label>`,
+    css: `.cb-3486 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3486 input {
+    display: none;
+}
+.cb-3486__box {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    border: 2px solid #665d4b;
+    border-radius: 50%;
+    background: #100805;
+}
+.cb-3486 input:checked + .cb-3486__box {
+    border-color: #f97316;
+    box-shadow:
+        0 0 10px #f97316,
+        0 0 20px #eab308;
+}
+.cb-3486 input:checked + .cb-3486__box::before {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #fff7ae, #f97316 55%, #dc2626);
+    box-shadow: 0 0 12px #f97316;
+    animation: cb3486Sun 0.65s ease-in-out infinite alternate;
+}
+@keyframes cb3486Sun {
+    to {
+        transform: scale(1.25);
+        filter: brightness(1.4);
+    }
+}`,
+  },
+  {
+    id: 3487,
+    name: "Matrix Pulse Checkbox",
+    preview: (
+      <label className="cb-3487">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3487__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3487">
+    <input type="checkbox" checked />
+    <span class="cb-3487__box"></span>
+</label>`,
+    css: `.cb-3487 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3487 input {
+    display: none;
+}
+.cb-3487__box {
+    width: 27px;
+    height: 27px;
+    position: relative;
+    border: 2px solid #36513d;
+    border-radius: 5px;
+    background: #020805;
+}
+.cb-3487 input:checked + .cb-3487__box {
+    border-color: #22c55e;
+    box-shadow:
+        0 0 8px #22c55e,
+        inset 0 0 12px #052e16;
+}
+.cb-3487 input:checked + .cb-3487__box::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    top: 4px;
+    height: 2px;
+    background: #4ade80;
+    box-shadow:
+        0 5px #22c55e,
+        0 10px #16a34a,
+        0 15px #4ade80;
+    animation: cb3487Matrix 0.8s ease-in-out infinite alternate;
+}
+@keyframes cb3487Matrix {
+    to {
+        opacity: 0.35;
+        transform: translateY(2px);
+    }
+}`,
+  },
+  {
+    id: 3488,
+    name: "Neon Target Checkbox",
+    preview: (
+      <label className="cb-3488">
+        <input type="checkbox" />
+        <span className="cb-3488__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3488">
+    <input type="checkbox" />
+    <span class="cb-3488__box"></span>
+</label>`,
+    css: `.cb-3488 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3488 input {
+    display: none;
+}
+.cb-3488__box {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    border: 2px solid #52525b;
+    border-radius: 50%;
+    background: #09090b;
+}
+.cb-3488 input:checked + .cb-3488__box {
+    border-color: #f43f5e;
+    box-shadow: 0 0 10px #f43f5e;
+}
+.cb-3488 input:checked + .cb-3488__box::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border: 2px solid #fb7185;
+    border-radius: 50%;
+    box-shadow: inset 0 0 5px #fb7185;
+}
+.cb-3488 input:checked + .cb-3488__box::after {
+    content: "";
+    position: absolute;
+    inset: 9px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 8px #f43f5e;
+}
+`,
+  },
+  {
+    id: 3489,
+    name: "Aurora Core Checkbox",
+    preview: (
+      <label className="cb-3489">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3489__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3489">
+    <input type="checkbox" checked />
+    <span class="cb-3489__box"></span>
+</label>`,
+    css: `.cb-3489 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3489 input {
+    display: none;
+}
+.cb-3489__box {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #475569;
+    border-radius: 8px;
+    background: #071017;
+}
+.cb-3489 input:checked + .cb-3489__box {
+    border-color: #2dd4bf;
+    box-shadow: 0 0 12px #2dd4bf55;
+}
+.cb-3489 input:checked + .cb-3489__box::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 12px;
+    left: -5px;
+    top: 6px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #22c55e, #22d3ee, #a855f7);
+    filter: blur(3px);
+    animation: cb3489Aurora 1.2s ease-in-out infinite alternate;
+}
+@keyframes cb3489Aurora {
+    to {
+        transform: translateY(6px) rotate(-12deg);
+        filter: blur(2px) hue-rotate(50deg);
+    }
+}`,
+  },
+  {
+    id: 3490,
+    name: "Quantum Spark Checkbox",
+    preview: (
+      <label className="cb-3490">
+        <input type="checkbox" />
+        <span className="cb-3490__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3490">
+    <input type="checkbox" />
+    <span class="cb-3490__box"></span>
+</label>`,
+    css: `.cb-3490 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3490 input {
+    display: none;
+}
+.cb-3490__box {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    border: 2px solid #4b5563;
+    border-radius: 6px;
+    background: #050811;
+}
+.cb-3490 input:checked + .cb-3490__box {
+    border-color: #60a5fa;
+    box-shadow:
+        0 0 10px #3b82f6,
+        inset 0 0 8px #1d4ed8;
+}
+.cb-3490 input:checked + .cb-3490__box::before {
+    content: "";
+    position: absolute;
+    inset: 6px 9px;
+    background: #fff;
+    transform: skew(-25deg);
+    box-shadow:
+        -5px 4px #60a5fa,
+        5px -4px #c084fc;
+    animation: cb3490Spark 0.45s steps(2) infinite;
+}
+@keyframes cb3490Spark {
+    50% {
+        transform: skew(25deg) scaleY(1.3);
+    }
+}`,
+  },
+  {
+    id: 3491,
+    name: "Eclipse Checkbox",
+    preview: (
+      <label className="cb-3491">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3491__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3491">
+    <input type="checkbox" checked />
+    <span class="cb-3491__box"></span>
+</label>`,
+    css: `.cb-3491 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3491 input {
+    display: none;
+}
+.cb-3491__box {
+    width: 27px;
+    height: 27px;
+    position: relative;
+    border: 2px solid #52525b;
+    border-radius: 50%;
+    background: #050505;
+}
+.cb-3491 input:checked + .cb-3491__box {
+    border-color: #f59e0b;
+    box-shadow:
+        0 0 10px #f59e0b,
+        0 0 20px #f97316aa;
+}
+.cb-3491 input:checked + .cb-3491__box::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background: #fbbf24;
+    box-shadow: 0 0 8px #f97316;
+}
+.cb-3491 input:checked + .cb-3491__box::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 3px;
+    left: 8px;
+    border-radius: 50%;
+    background: #050505;
+    animation: cb3491Eclipse 1.6s ease-in-out infinite alternate;
+}
+@keyframes cb3491Eclipse {
+    to {
+        transform: translateX(-6px);
+    }
+}`,
+  },
+  {
+    id: 3492,
+    name: "Toxic Pulse Checkbox",
+    preview: (
+      <label className="cb-3492">
+        <input type="checkbox" />
+        <span className="cb-3492__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3492">
+    <input type="checkbox" />
+    <span class="cb-3492__box"></span>
+</label>`,
+    css: `.cb-3492 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3492 input {
+    display: none;
+}
+.cb-3492__box {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    border: 2px solid #4b5563;
+    border-radius: 50%;
+    background: #071005;
+}
+.cb-3492 input:checked + .cb-3492__box {
+    border-color: #a3e635;
+    box-shadow: 0 0 12px #84cc16;
+}
+.cb-3492 input:checked + .cb-3492__box::before {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at 30% 30%, #ecfccb 0 2px, transparent 3px),
+        radial-gradient(circle at 70% 60%, #bef264 0 2px, transparent 3px),
+        #365314;
+    animation: cb3492Toxic 0.8s ease-in-out infinite alternate;
+}
+@keyframes cb3492Toxic {
+    to {
+        transform: scale(1.2);
+        box-shadow: 0 0 10px #a3e635;
+    }
+}`,
+  },
+  {
+    id: 3493,
+    name: "Lava Core Checkbox",
+    preview: (
+      <label className="cb-3493">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3493__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3493">
+    <input type="checkbox" checked />
+    <span class="cb-3493__box"></span>
+</label>`,
+    css: `.cb-3493 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3493 input {
+    display: none;
+}
+.cb-3493__box {
+    width: 27px;
+    height: 27px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #57534e;
+    border-radius: 8px;
+    background: #140604;
+}
+.cb-3493 input:checked + .cb-3493__box {
+    border-color: #ef4444;
+    box-shadow: 0 0 12px #ef4444;
+}
+.cb-3493 input:checked + .cb-3493__box::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: 6px;
+    background:
+        radial-gradient(circle at 30% 70%, #fde047 0 2px, transparent 3px),
+        radial-gradient(circle at 65% 30%, #fb923c 0 3px, transparent 4px),
+        linear-gradient(#dc2626, #7f1d1d);
+    animation: cb3493Lava 1s ease-in-out infinite alternate;
+}
+@keyframes cb3493Lava {
+    to {
+        transform: translateY(-3px) scale(1.08);
+        filter: brightness(1.3);
+    }
+}`,
+  },
+  {
+    id: 3494,
+    name: "Ice Crystal Checkbox",
+    preview: (
+      <label className="cb-3494">
+        <input type="checkbox" />
+        <span className="cb-3494__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3494">
+    <input type="checkbox" />
+    <span class="cb-3494__box"></span>
+</label>`,
+    css: `.cb-3494 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3494 input {
+    display: none;
+}
+.cb-3494__box {
+    width: 27px;
+    height: 27px;
+    position: relative;
+    border: 2px solid #64748b;
+    border-radius: 6px;
+    background: #07111d;
+}
+.cb-3494 input:checked + .cb-3494__box {
+    border-color: #bae6fd;
+    box-shadow:
+        0 0 10px #38bdf8,
+        inset 0 0 8px #0ea5e9;
+}
+.cb-3494 input:checked + .cb-3494__box::before {
+    content: "✦";
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: #e0f2fe;
+    font-size: 18px;
+    text-shadow: 0 0 8px #38bdf8;
+    animation: cb3494Ice 1.3s ease-in-out infinite alternate;
+}
+@keyframes cb3494Ice {
+    to {
+        transform: rotate(45deg) scale(1.15);
+    }
+}`,
+  },
+  {
+    id: 3495,
+    name: "Electric Arc Checkbox",
+    preview: (
+      <label className="cb-3495">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3495__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3495">
+    <input type="checkbox" checked />
+    <span class="cb-3495__box"></span>
+</label>`,
+    css: `.cb-3495 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3495 input {
+    display: none;
+}
+.cb-3495__box {
+    width: 27px;
+    height: 27px;
+    position: relative;
+    border: 2px solid #52525b;
+    border-radius: 6px;
+    background: #080812;
+}
+.cb-3495 input:checked + .cb-3495__box {
+    border-color: #818cf8;
+    box-shadow: 0 0 12px #6366f1;
+}
+.cb-3495 input:checked + .cb-3495__box::before {
+    content: "ϟ";
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #818cf8;
+    animation: cb3495Arc 0.22s steps(2) infinite;
+}
+@keyframes cb3495Arc {
+    50% {
+        opacity: 0.6;
+        transform: translateX(1px) scale(1.08);
+    }
+}`,
+  },
+  {
+    id: 3496,
+    name: "RGB Reactor Checkbox",
+    preview: (
+      <label className="cb-3496">
+        <input type="checkbox" />
+        <span className="cb-3496__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3496">
+    <input type="checkbox" />
+    <span class="cb-3496__box"></span>
+</label>`,
+    css: `.cb-3496 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3496 input {
+    display: none;
+}
+.cb-3496__box {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    border-radius: 50%;
+    background: #09090b;
+}
+.cb-3496__box::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: 50%;
+    background: #3f3f46;
+    z-index: -1;
+}
+.cb-3496 input:checked + .cb-3496__box::before {
+    background: conic-gradient(
+        #ff004c,
+        #ffea00,
+        #00ff88,
+        #00d9ff,
+        #7c3aed,
+        #ff004c
+    );
+    animation: cb3496Rgb 1s linear infinite;
+}
+.cb-3496 input:checked + .cb-3496__box::after {
+    content: "";
+    position: absolute;
+    inset: 7px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 8px #fff;
+}
+@keyframes cb3496Rgb {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+  },
+  {
+    id: 3497,
+    name: "Comet Core Checkbox",
+    preview: (
+      <label className="cb-3497">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3497__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3497">
+    <input type="checkbox" checked />
+    <span class="cb-3497__box"></span>
+</label>`,
+    css: `.cb-3497 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3497 input {
+    display: none;
+}
+.cb-3497__box {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #475569;
+    border-radius: 50%;
+    background: #020617;
+}
+.cb-3497 input:checked + .cb-3497__box {
+    border-color: #60a5fa;
+    box-shadow: 0 0 10px #3b82f6;
+}
+.cb-3497 input:checked + .cb-3497__box::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 3px;
+    top: 9px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow:
+        5px 0 6px #60a5fa,
+        10px 0 9px #2563eb;
+    animation: cb3497Comet 1.1s ease-in-out infinite;
+}
+@keyframes cb3497Comet {
+    0% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(22px);
+    }
+}`,
+  },
+  {
+    id: 3498,
+    name: "Prism Pulse Checkbox",
+    preview: (
+      <label className="cb-3498">
+        <input type="checkbox" />
+        <span className="cb-3498__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3498">
+    <input type="checkbox" />
+    <span class="cb-3498__box"></span>
+</label>`,
+    css: `.cb-3498 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3498 input {
+    display: none;
+}
+.cb-3498__box {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    border: 2px solid #52525b;
+    border-radius: 7px;
+    background: #09090b;
+}
+.cb-3498 input:checked + .cb-3498__box {
+    border-color: #e879f9;
+    box-shadow: 0 0 12px #c026d3;
+}
+.cb-3498 input:checked + .cb-3498__box::before {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    clip-path: polygon(50% 0%, 100% 100%, 0 100%);
+    background: linear-gradient(
+        135deg,
+        #f43f5e,
+        #facc15,
+        #22c55e,
+        #3b82f6,
+        #a855f7
+    );
+    animation: cb3498Prism 1.2s ease-in-out infinite alternate;
+}
+@keyframes cb3498Prism {
+    to {
+        transform: rotate(180deg) scale(1.18);
+        filter: hue-rotate(90deg);
+    }
+}`,
+  },
+  {
+    id: 3499,
+    name: "Void Star Checkbox",
+    preview: (
+      <label className="cb-3499">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3499__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3499">
+    <input type="checkbox" checked />
+    <span class="cb-3499__box"></span>
+</label>`,
+    css: `.cb-3499 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3499 input {
+    display: none;
+}
+.cb-3499__box {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    border: 2px solid #3f3f46;
+    border-radius: 50%;
+    background: #020203;
+}
+.cb-3499 input:checked + .cb-3499__box {
+    border-color: #8b5cf6;
+    box-shadow:
+        0 0 10px #7c3aed,
+        inset 0 0 12px #4c1d95;
+}
+.cb-3499 input:checked + .cb-3499__box::before {
+    content: "✦";
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: #ddd6fe;
+    font-size: 16px;
+    text-shadow: 0 0 8px #a78bfa;
+    animation: cb3499Void 1.4s ease-in-out infinite alternate;
+}
+@keyframes cb3499Void {
+    to {
+        transform: scale(0.65) rotate(90deg);
+        opacity: 0.55;
+    }
+}`,
+  },
+  {
+    id: 3500,
+    name: "Pixel Energy Checkbox",
+    preview: (
+      <label className="cb-3500">
+        <input type="checkbox" />
+        <span className="cb-3500__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3500">
+    <input type="checkbox" />
+    <span class="cb-3500__box"></span>
+</label>`,
+    css: `.cb-3500 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3500 input {
+    display: none;
+}
+.cb-3500__box {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    border: 2px solid #52525b;
+    border-radius: 2px;
+    background: #08090d;
+}
+.cb-3500 input:checked + .cb-3500__box {
+    border-color: #22d3ee;
+    box-shadow: 0 0 8px #22d3ee;
+}
+.cb-3500 input:checked + .cb-3500__box::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 5px;
+    top: 5px;
+    background: #22d3ee;
+    box-shadow:
+        6px 0 #a855f7,
+        12px 0 #f43f5e,
+        0 6px #22c55e,
+        6px 6px #fff,
+        12px 6px #facc15,
+        0 12px #3b82f6,
+        6px 12px #e879f9,
+        12px 12px #22d3ee;
+    animation: cb3500Pixel 0.7s steps(2) infinite alternate;
+}
+@keyframes cb3500Pixel {
+    to {
+        filter: hue-rotate(120deg);
+        transform: scale(0.9);
+    }
+}`,
+  },
+  {
+    id: 3501,
+    name: "Bio Cell Checkbox",
+    preview: (
+      <label className="cb-3501">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3501__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3501">
+    <input type="checkbox" checked />
+    <span class="cb-3501__box"></span>
+</label>`,
+    css: `.cb-3501 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3501 input {
+    display: none;
+}
+.cb-3501__box {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    border: 2px solid #3f5145;
+    border-radius: 40% 60% 45% 55%;
+    background: #06100a;
+}
+.cb-3501 input:checked + .cb-3501__box {
+    border-color: #4ade80;
+    box-shadow: 0 0 12px #22c55e;
+}
+.cb-3501 input:checked + .cb-3501__box::before {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    border-radius: 55% 45% 60% 40%;
+    background:
+        radial-gradient(circle at 35% 30%, #bbf7d0 0 2px, transparent 3px),
+        radial-gradient(circle at 70% 70%, #86efac 0 2px, transparent 3px),
+        #15803d;
+    animation: cb3501Bio 1.1s ease-in-out infinite alternate;
+}
+@keyframes cb3501Bio {
+    to {
+        border-radius: 60% 40% 45% 55%;
+        transform: rotate(20deg) scale(1.15);
+    }
+}`,
+  },
+  {
+    id: 3502,
+    name: "Galaxy Spin Checkbox",
+    preview: (
+      <label className="cb-3502">
+        <input type="checkbox" />
+        <span className="cb-3502__box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3502">
+    <input type="checkbox" />
+    <span class="cb-3502__box"></span>
+</label>`,
+    css: `.cb-3502 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3502 input {
+    display: none;
+}
+.cb-3502__box {
+    width: 29px;
+    height: 29px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #4b5563;
+    border-radius: 50%;
+    background: #020617;
+}
+.cb-3502 input:checked + .cb-3502__box {
+    border-color: #c084fc;
+    box-shadow:
+        0 0 10px #a855f7,
+        0 0 18px #3b82f6;
+}
+.cb-3502 input:checked + .cb-3502__box::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 9px;
+    left: 1px;
+    top: 8px;
+    border-radius: 50%;
+    border: 2px solid #60a5fa;
+    border-left-color: #e879f9;
+    border-right-color: #22d3ee;
+    transform: rotate(-25deg);
+    animation: cb3502Galaxy 1.2s linear infinite;
+}
+.cb-3502 input:checked + .cb-3502__box::after {
+    content: "";
+    position: absolute;
+    inset: 9px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow:
+        0 0 7px #fff,
+        0 0 12px #a855f7;
+}
+@keyframes cb3502Galaxy {
+    to {
+        transform: rotate(335deg);
+    }
+}`,
+  },
+  {
+    id: 3503,
+    name: "Crystal Diamond Checkbox",
+    preview: (
+      <label className="cb-3503">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3503__box">
+          <span className="cb-3503__diamond">
+            <span className="cb-3503__face cb-3503__face-1"></span>
+            <span className="cb-3503__face cb-3503__face-2"></span>
+            <span className="cb-3503__face cb-3503__face-3"></span>
+            <span className="cb-3503__face cb-3503__face-4"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3503">
+    <input type="checkbox" checked />
+    <span class="cb-3503__box">
+        <span class="cb-3503__diamond">
+            <span class="cb-3503__face cb-3503__face-1"></span>
+            <span class="cb-3503__face cb-3503__face-2"></span>
+            <span class="cb-3503__face cb-3503__face-3"></span>
+            <span class="cb-3503__face cb-3503__face-4"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.cb-3503 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3503 input {
+    display: none;
+}
+.cb-3503__box {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    perspective: 100px;
+}
+.cb-3503__diamond {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    transform: rotate(45deg);
+    border: 1px solid rgba(255, 255, 255, .45);
+    background: linear-gradient(
+        135deg,
+        #ecfeff,
+        #67e8f9 35%,
+        #6366f1 70%,
+        #a855f7
+    );
+    box-shadow:
+        0 0 8px rgba(103, 232, 249, .5),
+        0 0 18px rgba(99, 102, 241, .3);
+    opacity: .35;
+    transition: opacity .25s ease;
+}
+.cb-3503 input:checked + .cb-3503__box .cb-3503__diamond {
+    opacity: 1;
+    animation: cb3503Diamond 1.8s ease-in-out infinite;
+}
+.cb-3503__face {
+    position: absolute;
+}
+.cb-3503__face-1 {
+    inset: 0 50% 50% 0;
+    background: rgba(255, 255, 255, .35);
+}
+.cb-3503__face-2 {
+    inset: 0 0 50% 50%;
+    background: rgba(255, 255, 255, .08);
+}
+.cb-3503__face-3 {
+    inset: 50% 50% 0 0;
+    background: rgba(15, 23, 42, .16);
+}
+.cb-3503__face-4 {
+    inset: 50% 0 0 50%;
+    background: rgba(255, 255, 255, .18);
+}
+@keyframes cb3503Diamond {
+    0%,
+    100% {
+        transform: rotate(45deg) rotateY(0deg) scale(.88);
+        filter: brightness(.85);
+    }
+    50% {
+        transform: rotate(225deg) rotateY(180deg) scale(1.06);
+        filter: brightness(1.35);
+    }
+}`,
+  },
+  {
+    id: 3504,
+    name: "Aurora Crystal Checkbox",
+    preview: (
+      <label className="cb-3504">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3504__box">
+          <span className="cb-3504__crystal"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3504">
+    <input type="checkbox" checked />
+    <span class="cb-3504__box">
+        <span class="cb-3504__crystal"></span>
+    </span>
+</label>`,
+    css: `.cb-3504 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3504 input {
+    display: none;
+}
+.cb-3504__box {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+}
+.cb-3504__crystal {
+    width: 24px;
+    height: 24px;
+    clip-path: polygon(
+        50% 0%,
+        88% 20%,
+        100% 62%,
+        50% 100%,
+        0% 62%,
+        12% 20%
+    );
+    background: linear-gradient(
+        135deg,
+        #d9f99d,
+        #5eead4 30%,
+        #38bdf8 58%,
+        #c084fc
+    );
+    box-shadow: 0 0 14px rgba(94, 234, 212, .3);
+    opacity: .35;
+}
+.cb-3504 input:checked + .cb-3504__box .cb-3504__crystal {
+    opacity: 1;
+    animation: cb3504Aurora 1.6s ease-in-out infinite alternate;
+}
+@keyframes cb3504Aurora {
+    to {
+        transform: rotate(18deg) scale(1.14);
+        filter: hue-rotate(70deg) brightness(1.25);
+    }
+}`,
+  },
+  {
+    id: 3505,
+    name: "Prism Cut Checkbox",
+    preview: (
+      <label className="cb-3505">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3505__box">
+          <span className="cb-3505__gem"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3505">
+    <input type="checkbox" checked />
+    <span class="cb-3505__box">
+        <span class="cb-3505__gem"></span>
+    </span>
+</label>`,
+    css: `.cb-3505 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3505 input {
+    display: none;
+}
+.cb-3505__box {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+}
+.cb-3505__gem {
+    position: relative;
+    width: 26px;
+    height: 23px;
+    clip-path: polygon(
+        20% 0,
+        80% 0,
+        100% 32%,
+        50% 100%,
+        0 32%
+    );
+    background: linear-gradient(
+        135deg,
+        #fff 0%,
+        #67e8f9 18%,
+        #60a5fa 40%,
+        #a855f7 68%,
+        #f472b6 100%
+    );
+    opacity: .35;
+}
+.cb-3505 input:checked + .cb-3505__box .cb-3505__gem {
+    opacity: 1;
+    box-shadow: 0 0 15px #a855f7;
+    animation: cb3505Prism 1.5s ease-in-out infinite alternate;
+}
+@keyframes cb3505Prism {
+    to {
+        transform: translateY(-2px) scale(1.1);
+        filter: hue-rotate(90deg) brightness(1.25);
+    }
+}`,
+  },
+  {
+    id: 3506,
+    name: "Sapphire Shard Checkbox",
+    preview: (
+      <label className="cb-3506">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3506__box">
+          <span className="cb-3506__shard"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3506">
+    <input type="checkbox" checked />
+    <span class="cb-3506__box">
+        <span class="cb-3506__shard"></span>
+    </span>
+</label>`,
+    css: `.cb-3506 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3506 input {
+    display: none;
+}
+.cb-3506__box {
+    width: 34px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+}
+.cb-3506__shard {
+    width: 18px;
+    height: 30px;
+    clip-path: polygon(
+        50% 0,
+        100% 25%,
+        78% 100%,
+        22% 100%,
+        0 25%
+    );
+    background: linear-gradient(
+        115deg,
+        #e0f2fe,
+        #38bdf8 28%,
+        #2563eb 62%,
+        #312e81
+    );
+    opacity: .35;
+}
+.cb-3506 input:checked + .cb-3506__box .cb-3506__shard {
+    opacity: 1;
+    filter: drop-shadow(0 0 7px #3b82f6);
+    animation: cb3506Shard 1.8s ease-in-out infinite alternate;
+}
+@keyframes cb3506Shard {
+    to {
+        transform: rotateY(180deg) scale(1.08);
+        filter:
+            drop-shadow(0 0 10px #38bdf8)
+            brightness(1.25);
+    }
+}`,
+  },
+  {
+    id: 3507,
+    name: "Amethyst Jewel Checkbox",
+    preview: (
+      <label className="cb-3507">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3507__box">
+          <span className="cb-3507__jewel"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3507">
+    <input type="checkbox" checked />
+    <span class="cb-3507__box">
+        <span class="cb-3507__jewel"></span>
+    </span>
+</label>`,
+    css: `.cb-3507 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3507 input {
+    display: none;
+}
+.cb-3507__box {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+}
+.cb-3507__jewel {
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    border-radius: 4px;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.75),
+            transparent 35%
+        ),
+        linear-gradient(
+            315deg,
+            #581c87,
+            #9333ea 45%,
+            #e879f9
+        );
+    opacity: .35;
+}
+.cb-3507 input:checked + .cb-3507__box .cb-3507__jewel {
+    opacity: 1;
+    box-shadow:
+        0 0 8px #c084fc,
+        0 0 20px #7e22ce;
+    animation: cb3507Amethyst 1.6s ease-in-out infinite alternate;
+}
+@keyframes cb3507Amethyst {
+    to {
+        transform: rotate(225deg) scale(.9);
+        filter: brightness(1.35);
+    }
+}`,
+  },
+  {
+    id: 3508,
+    name: "Frozen Crystal Checkbox",
+    preview: (
+      <label className="cb-3508">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3508__box">
+          <span className="cb-3508__ice"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3508">
+    <input type="checkbox" checked />
+    <span class="cb-3508__box">
+        <span class="cb-3508__ice"></span>
+    </span>
+</label>`,
+    css: `.cb-3508 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3508 input {
+    display: none;
+}
+.cb-3508__box {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+}
+.cb-3508__ice {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    clip-path: polygon(
+        50% 0,
+        90% 22%,
+        100% 70%,
+        50% 100%,
+        0 70%,
+        10% 22%
+    );
+    background:
+        linear-gradient(
+            140deg,
+            #ffffff,
+            #e0f2fe 25%,
+            #7dd3fc 55%,
+            #2563eb
+        );
+    opacity: .4;
+}
+.cb-3508 input:checked + .cb-3508__box .cb-3508__ice {
+    opacity: 1;
+    filter: drop-shadow(0 0 7px #7dd3fc);
+    animation: cb3508Ice 1.7s ease-in-out infinite alternate;
+}
+.cb-3508 input:checked + .cb-3508__box .cb-3508__ice::before {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    background: rgba(255, 255, 255, .55);
+    clip-path: polygon(
+        50% 0,
+        100% 100%,
+        0 75%
+    );
+}
+@keyframes cb3508Ice {
+    to {
+        transform: scale(1.12) rotate(-12deg);
+        filter:
+            drop-shadow(0 0 10px #38bdf8)
+            brightness(1.25);
+    }
+}`,
+  },
+  {
+    id: 3509,
+    name: "Emerald Cut Checkbox",
+    preview: (
+      <label className="cb-3509">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3509__box">
+          <span className="cb-3509__emerald"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3509">
+    <input type="checkbox" checked />
+    <span class="cb-3509__box">
+        <span class="cb-3509__emerald"></span>
+    </span>
+</label>`,
+    css: `.cb-3509 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3509 input {
+    display: none;
+}
+.cb-3509__box {
+    width: 38px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+}
+.cb-3509__emerald {
+    width: 27px;
+    height: 21px;
+    clip-path: polygon(
+        16% 0,
+        84% 0,
+        100% 25%,
+        100% 75%,
+        84% 100%,
+        16% 100%,
+        0 75%,
+        0 25%
+    );
+    background:
+        linear-gradient(
+            135deg,
+            #dcfce7,
+            #4ade80 30%,
+            #059669 62%,
+            #064e3b
+        );
+    opacity: .35;
+}
+.cb-3509 input:checked + .cb-3509__box .cb-3509__emerald {
+    opacity: 1;
+    box-shadow:
+        0 0 8px #22c55e,
+        0 0 18px rgba(16, 185, 129, .4);
+    animation: cb3509Emerald 1.5s ease-in-out infinite alternate;
+}
+@keyframes cb3509Emerald {
+    to {
+        transform: scale(1.12);
+        filter: brightness(1.35) saturate(1.3);
+    }
+}`,
+  },
+  {
+    id: 3510,
+    name: "Ruby Diamond Checkbox",
+    preview: (
+      <label className="cb-3510">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3510__box">
+          <span className="cb-3510__ruby"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3510">
+    <input type="checkbox" checked />
+    <span class="cb-3510__box">
+        <span class="cb-3510__ruby"></span>
+    </span>
+</label>`,
+    css: `.cb-3510 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3510 input {
+    display: none;
+}
+.cb-3510__box {
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+}
+.cb-3510__ruby {
+    width: 24px;
+    height: 24px;
+    transform: rotate(45deg);
+    background:
+        linear-gradient(
+            135deg,
+            #ffe4e6,
+            #fb7185 30%,
+            #e11d48 65%,
+            #881337
+        );
+    border: 1px solid rgba(255, 255, 255, .22);
+    opacity: .35;
+}
+.cb-3510 input:checked + .cb-3510__box .cb-3510__ruby {
+    opacity: 1;
+    box-shadow:
+        0 0 8px #f43f5e,
+        0 0 19px rgba(225, 29, 72, .4);
+    animation: cb3510Ruby 1.5s ease-in-out infinite alternate;
+}
+@keyframes cb3510Ruby {
+    to {
+        transform: rotate(135deg) scale(1.13);
+        filter: brightness(1.4);
+    }
+}`,
+  },
+  {
+    id: 3511,
+    name: "Holographic Gem Checkbox",
+    preview: (
+      <label className="cb-3511">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3511__box">
+          <span className="cb-3511__gem"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3511">
+    <input type="checkbox" checked />
+    <span class="cb-3511__box">
+        <span class="cb-3511__gem"></span>
+    </span>
+</label>`,
+    css: `.cb-3511 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3511 input {
+    display: none;
+}
+.cb-3511__box {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    perspective: 100px;
+}
+.cb-3511__gem {
+    width: 25px;
+    height: 25px;
+    clip-path: polygon(
+        50% 0,
+        88% 20%,
+        100% 60%,
+        50% 100%,
+        0 60%,
+        12% 20%
+    );
+    background:
+        conic-gradient(
+            from 45deg,
+            #67e8f9,
+            #c084fc,
+            #f9a8d4,
+            #fde68a,
+            #86efac,
+            #67e8f9
+        );
+    opacity: .35;
+}
+.cb-3511 input:checked + .cb-3511__box .cb-3511__gem {
+    opacity: 1;
+    filter: drop-shadow(0 0 8px rgba(192, 132, 252, .6));
+    animation: cb3511Holo 1.7s linear infinite;
+}
+@keyframes cb3511Holo {
+    to {
+        transform: rotateY(360deg) rotateZ(360deg);
+        filter:
+            drop-shadow(0 0 9px rgba(103, 232, 249, .7))
+            hue-rotate(120deg);
+    }
+}`,
+  },
+  {
+    id: 3512,
+    name: "Celestial Diamond Checkbox",
+    preview: (
+      <label className="cb-3512">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3512__box">
+          <span className="cb-3512__diamond"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3512">
+    <input type="checkbox" checked />
+    <span class="cb-3512__box">
+        <span class="cb-3512__diamond"></span>
+    </span>
+</label>`,
+    css: `.cb-3512 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3512 input {
+    display: none;
+}
+.cb-3512__box {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+}
+.cb-3512__diamond {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    transform: rotate(45deg);
+    border: 1px solid rgba(255, 255, 255, .35);
+    background:
+        radial-gradient(
+            circle at 25% 25%,
+            #fff 0 2px,
+            transparent 3px
+        ),
+        radial-gradient(
+            circle at 72% 68%,
+            #e9d5ff 0 1px,
+            transparent 2px
+        ),
+        linear-gradient(
+            135deg,
+            #dbeafe,
+            #818cf8 35%,
+            #7c3aed 68%,
+            #1e1b4b
+        );
+    opacity: .35;
+}
+.cb-3512 input:checked + .cb-3512__box .cb-3512__diamond {
+    opacity: 1;
+    box-shadow:
+        0 0 9px #818cf8,
+        0 0 22px rgba(124, 58, 237, .45);
+    animation: cb3512Celestial 2s ease-in-out infinite;
+}
+.cb-3512 input:checked + .cb-3512__box .cb-3512__diamond::before {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    border: 1px solid rgba(255, 255, 255, .45);
+    background: rgba(255, 255, 255, .08);
+}
+@keyframes cb3512Celestial {
+    0%,
+    100% {
+        transform: rotate(45deg) scale(.88);
+        filter: brightness(.85);
+    }
+    50% {
+        transform: rotate(225deg) scale(1.1);
+        filter: brightness(1.4) hue-rotate(35deg);
+    }
+}`,
+  },
+  {
+    id: 3513,
+    name: "Obsidian Prism Checkbox",
+    preview: (
+      <label className="cb-3513">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3513__box">
+          <span className="cb-3513__gem">
+            <span className="cb-3513__shine"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3513">
+    <input type="checkbox" checked />
+    <span class="cb-3513__box">
+        <span class="cb-3513__gem">
+            <span class="cb-3513__shine"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.cb-3513 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3513 input {
+    display: none;
+}
+.cb-3513__box {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+}
+.cb-3513__gem {
+    position: relative;
+    width: 27px;
+    height: 27px;
+    clip-path: polygon(
+        50% 0,
+        90% 22%,
+        100% 70%,
+        50% 100%,
+        0 70%,
+        10% 22%
+    );
+    background:
+        linear-gradient(
+            145deg,
+            #52525b,
+            #18181b 32%,
+            #312e81 68%,
+            #09090b
+        );
+    border: 1px solid rgba(255,255,255,.12);
+    opacity: .28;
+    transition:
+        opacity .2s ease,
+        filter .2s ease;
+}
+.cb-3513__shine {
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    left: 4px;
+    top: 2px;
+    clip-path: polygon(0 0,100% 0,35% 100%);
+    background: rgba(255,255,255,.22);
+}
+.cb-3513 input:checked + .cb-3513__box .cb-3513__gem {
+    opacity: 1;
+    filter:
+        drop-shadow(0 0 5px #6366f1)
+        drop-shadow(0 0 10px rgba(99,102,241,.45));
+}`,
+  },
+  {
+    id: 3514,
+    name: "Frost Quartz Checkbox",
+    preview: (
+      <label className="cb-3514">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3514__box">
+          <span className="cb-3514__crystal"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3514">
+    <input type="checkbox" checked />
+    <span class="cb-3514__box">
+        <span class="cb-3514__crystal"></span>
+    </span>
+</label>`,
+    css: `.cb-3514 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3514 input {
+    display: none;
+}
+.cb-3514__box {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+}
+.cb-3514__crystal {
+    width: 28px;
+    height: 26px;
+    clip-path: polygon(
+        50% 0,
+        82% 12%,
+        100% 50%,
+        76% 100%,
+        24% 100%,
+        0 50%,
+        18% 12%
+    );
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #e0f2fe 24%,
+            #bae6fd 47%,
+            #7dd3fc 72%,
+            #2563eb
+        );
+    opacity: .3;
+    transition:
+        opacity .2s ease,
+        filter .2s ease;
+}
+.cb-3514 input:checked + .cb-3514__box .cb-3514__crystal {
+    opacity: 1;
+    filter:
+        drop-shadow(0 0 5px #bae6fd)
+        drop-shadow(0 0 11px rgba(56,189,248,.45));
+}`,
+  },
+  {
+    id: 3515,
+    name: "Rose Quartz Checkbox",
+    preview: (
+      <label className="cb-3515">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3515__box">
+          <span className="cb-3515__gem"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3515">
+    <input type="checkbox" checked />
+    <span class="cb-3515__box">
+        <span class="cb-3515__gem"></span>
+    </span>
+</label>`,
+    css: `.cb-3515 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3515 input {
+    display: none;
+}
+.cb-3515__box {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+}
+.cb-3515__gem {
+    position: relative;
+    width: 28px;
+    height: 24px;
+    clip-path: polygon(
+        18% 0,
+        82% 0,
+        100% 35%,
+        50% 100%,
+        0 35%
+    );
+    background:
+        linear-gradient(
+            135deg,
+            #fff1f2,
+            #fda4af 32%,
+            #fb7185 62%,
+            #be123c
+        );
+    opacity: .3;
+    transition:
+        opacity .2s ease,
+        filter .2s ease;
+}
+.cb-3515__gem::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    width: 10px;
+    height: 15px;
+    background: rgba(255,255,255,.3);
+    clip-path: polygon(0 0,100% 0,30% 100%);
+}
+.cb-3515 input:checked + .cb-3515__box .cb-3515__gem {
+    opacity: 1;
+    filter:
+        drop-shadow(0 0 5px #fb7185)
+        drop-shadow(0 0 12px rgba(244,63,94,.4));
+}`,
+  },
+  {
+    id: 3516,
+    name: "Moonstone Crystal Checkbox",
+    preview: (
+      <label className="cb-3516">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3516__box">
+          <span className="cb-3516__stone"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3516">
+    <input type="checkbox" checked />
+    <span class="cb-3516__box">
+        <span class="cb-3516__stone"></span>
+    </span>
+</label>`,
+    css: `.cb-3516 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3516 input {
+    display: none;
+}
+.cb-3516__box {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+}
+.cb-3516__stone {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border-radius: 48% 52% 46% 54%;
+    background:
+        radial-gradient(
+            circle at 30% 25%,
+            rgba(255,255,255,.9),
+            transparent 22%
+        ),
+        linear-gradient(
+            140deg,
+            #f8fafc,
+            #dbeafe 35%,
+            #c4b5fd 65%,
+            #818cf8
+        );
+    opacity: .3;
+    transition:
+        opacity .2s ease,
+        filter .2s ease;
+}
+.cb-3516__stone::after {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    border-radius: inherit;
+    border: 1px solid rgba(255,255,255,.28);
+}
+.cb-3516 input:checked + .cb-3516__box .cb-3516__stone {
+    opacity: 1;
+    filter:
+        drop-shadow(0 0 5px #c4b5fd)
+        drop-shadow(0 0 12px rgba(129,140,248,.4));
+}`,
+  },
+  {
+    id: 3517,
+    name: "Citrine Crown Checkbox",
+    preview: (
+      <label className="cb-3517">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3517__box">
+          <span className="cb-3517__gem"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3517">
+    <input type="checkbox" checked />
+    <span class="cb-3517__box">
+        <span class="cb-3517__gem"></span>
+    </span>
+</label>`,
+    css: `.cb-3517 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3517 input {
+    display: none;
+}
+.cb-3517__box {
+    width: 40px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+}
+.cb-3517__gem {
+    width: 30px;
+    height: 24px;
+    clip-path: polygon(
+        0 30%,
+        20% 0,
+        38% 28%,
+        50% 0,
+        62% 28%,
+        80% 0,
+        100% 30%,
+        86% 100%,
+        14% 100%
+    );
+    background:
+        linear-gradient(
+            135deg,
+            #fef9c3,
+            #fde047 32%,
+            #f59e0b 68%,
+            #92400e
+        );
+    opacity: .3;
+    transition:
+        opacity .2s ease,
+        filter .2s ease;
+}
+.cb-3517 input:checked + .cb-3517__box .cb-3517__gem {
+    opacity: 1;
+    filter:
+        drop-shadow(0 0 5px #facc15)
+        drop-shadow(0 0 12px rgba(245,158,11,.4));
+}`,
+  },
+  {
+    id: 3518,
+    name: "Aquamarine Jewel Checkbox",
+    preview: (
+      <label className="cb-3518">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3518__box">
+          <span className="cb-3518__gem"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3518">
+    <input type="checkbox" checked />
+    <span class="cb-3518__box">
+        <span class="cb-3518__gem"></span>
+    </span>
+</label>`,
+    css: `.cb-3518 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3518 input {
+    display: none;
+}
+.cb-3518__box {
+    width: 40px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+}
+.cb-3518__gem {
+    position: relative;
+    width: 29px;
+    height: 23px;
+    clip-path: polygon(
+        15% 0,
+        85% 0,
+        100% 25%,
+        100% 75%,
+        85% 100%,
+        15% 100%,
+        0 75%,
+        0 25%
+    );
+    background:
+        linear-gradient(
+            135deg,
+            #ecfeff,
+            #99f6e4 28%,
+            #2dd4bf 58%,
+            #0f766e
+        );
+    opacity: .3;
+    transition:
+        opacity .2s ease,
+        filter .2s ease;
+}
+.cb-3518__gem::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border: 1px solid rgba(255,255,255,.38);
+    clip-path: inherit;
+}
+.cb-3518 input:checked + .cb-3518__box .cb-3518__gem {
+    opacity: 1;
+    filter:
+        drop-shadow(0 0 5px #5eead4)
+        drop-shadow(0 0 12px rgba(45,212,191,.4));
+}`,
+  },
+  {
+    id: 3519,
+    name: "Black Opal Checkbox",
+    preview: (
+      <label className="cb-3519">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3519__box">
+          <span className="cb-3519__opal"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3519">
+    <input type="checkbox" checked />
+    <span class="cb-3519__box">
+        <span class="cb-3519__opal"></span>
+    </span>
+</label>`,
+    css: `.cb-3519 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3519 input {
+    display: none;
+}
+.cb-3519__box {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+}
+.cb-3519__opal {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 30% 25%,
+            rgba(255,255,255,.5),
+            transparent 18%
+        ),
+        radial-gradient(
+            circle at 70% 65%,
+            #22d3ee,
+            transparent 20%
+        ),
+        radial-gradient(
+            circle at 38% 72%,
+            #f43f5e,
+            transparent 21%
+        ),
+        radial-gradient(
+            circle at 70% 30%,
+            #a855f7,
+            transparent 22%
+        ),
+        #09090b;
+    border: 1px solid #27272a;
+    opacity: .35;
+    transition:
+        opacity .2s ease,
+        filter .2s ease;
+}
+.cb-3519 input:checked + .cb-3519__box .cb-3519__opal {
+    opacity: 1;
+    filter:
+        drop-shadow(0 0 5px #a855f7)
+        drop-shadow(0 0 12px rgba(34,211,238,.35));
+}`,
+  },
+  {
+    id: 3520,
+    name: "Celestial Quartz Checkbox",
+    preview: (
+      <label className="cb-3520">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3520__box">
+          <span className="cb-3520__quartz"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3520">
+    <input type="checkbox" checked />
+    <span class="cb-3520__box">
+        <span class="cb-3520__quartz"></span>
+    </span>
+</label>`,
+    css: `.cb-3520 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3520 input {
+    display: none;
+}
+.cb-3520__box {
+    width: 40px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+}
+.cb-3520__quartz {
+    position: relative;
+    width: 23px;
+    height: 32px;
+    clip-path: polygon(
+        50% 0,
+        88% 25%,
+        78% 100%,
+        22% 100%,
+        12% 25%
+    );
+    background:
+        radial-gradient(
+            circle at 35% 22%,
+            #fff 0 1px,
+            transparent 2px
+        ),
+        radial-gradient(
+            circle at 68% 62%,
+            #ddd6fe 0 1px,
+            transparent 2px
+        ),
+        linear-gradient(
+            145deg,
+            #dbeafe,
+            #818cf8 38%,
+            #7c3aed 72%,
+            #312e81
+        );
+    opacity: .3;
+    transition:
+        opacity .2s ease,
+        filter .2s ease;
+}
+.cb-3520__quartz::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 21px;
+    left: 4px;
+    top: 4px;
+    background: rgba(255,255,255,.18);
+    clip-path: polygon(0 0,100% 16%,40% 100%);
+}
+.cb-3520 input:checked + .cb-3520__box .cb-3520__quartz {
+    opacity: 1;
+    filter:
+        drop-shadow(0 0 5px #818cf8)
+        drop-shadow(0 0 13px rgba(124,58,237,.4));
+}`,
+  },
+  {
+    id: 3521,
+    name: "Emerald Crown Crystal Checkbox",
+    preview: (
+      <label className="cb-3521">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3521__box">
+          <span className="cb-3521__crystal"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3521">
+    <input type="checkbox" checked />
+    <span class="cb-3521__box">
+        <span class="cb-3521__crystal"></span>
+    </span>
+</label>`,
+    css: `.cb-3521 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3521 input {
+    display: none;
+}
+.cb-3521__box {
+    width: 42px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+}
+.cb-3521__crystal {
+    width: 31px;
+    height: 27px;
+    clip-path: polygon(
+        10% 15%,
+        32% 0,
+        50% 20%,
+        68% 0,
+        90% 15%,
+        100% 62%,
+        50% 100%,
+        0 62%
+    );
+    background:
+        linear-gradient(
+            135deg,
+            #dcfce7,
+            #86efac 25%,
+            #22c55e 52%,
+            #059669 76%,
+            #064e3b
+        );
+    opacity: .3;
+    transition:
+        opacity .2s ease,
+        filter .2s ease;
+}
+.cb-3521 input:checked + .cb-3521__box .cb-3521__crystal {
+    opacity: 1;
+    filter:
+        drop-shadow(0 0 5px #4ade80)
+        drop-shadow(0 0 13px rgba(34,197,94,.38));
+}`,
+  },
+  {
+    id: 3522,
+    name: "Aurora Facet Checkbox",
+    preview: (
+      <label className="cb-3522">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3522__box">
+          <span className="cb-3522__gem">
+            <span className="cb-3522__facet cb-3522__facet-1"></span>
+            <span className="cb-3522__facet cb-3522__facet-2"></span>
+            <span className="cb-3522__facet cb-3522__facet-3"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3522">
+    <input type="checkbox" checked />
+    <span class="cb-3522__box">
+        <span class="cb-3522__gem">
+            <span class="cb-3522__facet cb-3522__facet-1"></span>
+            <span class="cb-3522__facet cb-3522__facet-2"></span>
+            <span class="cb-3522__facet cb-3522__facet-3"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.cb-3522 {
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3522 input {
+    display: none;
+}
+.cb-3522__box {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+}
+.cb-3522__gem {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(
+        50% 0,
+        88% 18%,
+        100% 58%,
+        76% 100%,
+        24% 100%,
+        0 58%,
+        12% 18%
+    );
+    background:
+        linear-gradient(
+            135deg,
+            #ecfeff,
+            #5eead4 24%,
+            #60a5fa 48%,
+            #c084fc 72%,
+            #f9a8d4
+        );
+    opacity: .3;
+    transition:
+        opacity .2s ease,
+        filter .2s ease;
+}
+.cb-3522__facet {
+    position: absolute;
+}
+.cb-3522__facet-1 {
+    width: 14px;
+    height: 18px;
+    left: 3px;
+    top: 2px;
+    background: rgba(255,255,255,.28);
+    clip-path: polygon(0 0,100% 20%,30% 100%);
+}
+.cb-3522__facet-2 {
+    width: 14px;
+    height: 18px;
+    right: 2px;
+    top: 4px;
+    background: rgba(255,255,255,.09);
+    clip-path: polygon(60% 0,100% 30%,0 100%);
+}
+.cb-3522__facet-3 {
+    width: 18px;
+    height: 12px;
+    left: 6px;
+    bottom: 2px;
+    background: rgba(49,46,129,.2);
+    clip-path: polygon(0 0,100% 0,50% 100%);
+}
+.cb-3522 input:checked + .cb-3522__box .cb-3522__gem {
+    opacity: 1;
+    filter:
+        drop-shadow(0 0 6px #67e8f9)
+        drop-shadow(0 0 14px rgba(168,85,247,.4));
+}`,
+  },
 ];
