@@ -7,7 +7,9 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
+  overflow: hidden;
 }
+
 .cm-modal {
   background: #111113;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -17,32 +19,98 @@
   max-height: 90vh;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
   animation: cm-in 0.2s ease;
+  overscroll-behavior: contain;
 }
+
+.cm-modal-2 {
+  background: #111113;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  width: 100%;
+  max-width: 950px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  animation: cm-in 0.2s ease;
+  overscroll-behavior: contain;
+}
+
+.cm-modal-3 {
+  background: #111113;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  width: 100%;
+  max-width: 2000px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  animation: cm-in 0.2s ease;
+  overscroll-behavior: contain;
+}
+
+.cm-modal::-webkit-scrollbar,
+.cm-modal-2::-webkit-scrollbar,
+.cm-modal-3::-webkit-scrollbar {
+  width: 8px;
+}
+
+.cm-modal::-webkit-scrollbar-track,
+.cm-modal-2::-webkit-scrollbar-track,
+.cm-modal-3::-webkit-scrollbar-track {
+  background: #111113;
+}
+
+.cm-modal::-webkit-scrollbar-thumb,
+.cm-modal-2::-webkit-scrollbar-thumb,
+.cm-modal-3::-webkit-scrollbar-thumb {
+  background: #2b2b30;
+  border-radius: 999px;
+}
+
+.cm-modal::-webkit-scrollbar-thumb:hover,
+.cm-modal-2::-webkit-scrollbar-thumb:hover,
+.cm-modal-3::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
 @keyframes cm-in {
   from {
     opacity: 0;
     transform: scale(0.95) translateY(10px);
   }
+
   to {
     opacity: 1;
     transform: scale(1) translateY(0);
   }
 }
+
 .cm-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 16px 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background: #111113;
   flex-shrink: 0;
 }
+
 .cm-title {
   font-size: 15px;
   font-weight: 600;
   color: #fff;
 }
+
 .cm-close {
   background: none;
   border: none;
@@ -56,11 +124,14 @@
     background 0.15s;
   line-height: 1;
 }
+
 .cm-close:hover {
   color: #fff;
   background: rgba(255, 255, 255, 0.06);
 }
+
 .cm-preview {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,16 +139,28 @@
   min-height: 160px;
   padding: 32px 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  flex: none;
+  overflow: visible;
+}
+
+.cm-preview > * {
+  width: 100%;
   flex-shrink: 0;
 }
+
 .cm-tabs {
+  position: sticky;
+  top: 57px;
+  z-index: 19;
   display: flex;
   align-items: center;
   gap: 4px;
   padding: 10px 16px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background: #111113;
   flex-shrink: 0;
 }
+
 .cm-tab {
   background: none;
   border: none;
@@ -90,14 +173,17 @@
   transition: all 0.15s;
   font-family: inherit;
 }
+
 .cm-tab:hover {
   color: #fff;
   background: rgba(255, 255, 255, 0.05);
 }
+
 .cm-tab--active {
   color: #fff;
   background: rgba(255, 255, 255, 0.08);
 }
+
 .cm-copy {
   margin-left: auto;
   background: #7c3aed;
@@ -111,15 +197,19 @@
   transition: background 0.15s;
   font-family: inherit;
 }
+
 .cm-copy:hover {
   background: #6d28d9;
 }
+
 .cm-code {
-  overflow-y: auto;
-  flex: 1;
-  padding: 16px 20px;
+  width: 100%;
+  flex: none;
+  padding: 16px 20px 28px;
   background: #0a0a0c;
+  overflow: visible;
 }
+
 .cm-code pre {
   margin: 0;
   font-family: "Fira Code", "Cascadia Code", monospace;
@@ -129,37 +219,49 @@
   white-space: pre-wrap;
   word-break: break-word;
 }
+
 @media (max-width: 700px) {
   .cm-overlay {
     padding: 10px;
   }
-  .cm-modal {
+
+  .cm-modal,
+  .cm-modal-2,
+  .cm-modal-3 {
     max-height: 94vh;
   }
+
   .cm-header {
     padding: 14px 16px;
   }
+
   .cm-preview {
     min-height: 140px;
     padding: 24px 14px;
   }
+
   .cm-tabs {
+    top: 53px;
     padding: 8px 10px;
     gap: 2px;
     overflow-x: auto;
   }
+
   .cm-tab {
     white-space: nowrap;
     padding: 5px 9px;
     font-size: 12px;
   }
+
   .cm-copy {
     padding: 5px 12px;
     white-space: nowrap;
   }
+
   .cm-code {
-    padding: 14px;
+    padding: 14px 14px 24px;
   }
+
   .cm-code pre {
     font-size: 12px;
   }

@@ -77,6 +77,7 @@ const HeroSectionCard = memo(
         }}
       >
         <div className="all-card-preview">{item.preview}</div>
+
         <div className="all-card-footer">
           <span className="all-card-name">{item.name}</span>
         </div>
@@ -91,9 +92,11 @@ export default function HeroSections() {
   const [selected, setSelected] = useState<HeroSectionItem | null>(null);
   const [columns, setColumns] = useState(1);
   const [scrollTop, setScrollTop] = useState(0);
+
   const [viewportHeight, setViewportHeight] = useState(
     typeof window !== "undefined" ? window.innerHeight : 800,
   );
+
   const [gridTop, setGridTop] = useState(0);
 
   const gridRef = useRef<HTMLDivElement>(null);
@@ -237,7 +240,11 @@ export default function HeroSections() {
         </main>
       </div>
 
-      <ComponentModal item={selected} onClose={() => setSelected(null)} />
+      <ComponentModal
+        item={selected}
+        onClose={() => setSelected(null)}
+        size="large"
+      />
     </div>
   );
 }

@@ -19,9 +19,14 @@ interface ComponentItem {
 interface Props {
   item: ComponentItem | null;
   onClose: () => void;
+  size?: "default" | "large" | "extra-large";
 }
 
-export default function ComponentModal({ item, onClose }: Props) {
+export default function ComponentModal({
+  item,
+  onClose,
+  size = "default",
+}: Props) {
   const [tab, setTab] = useState<"html" | "css" | "javascript">("html");
   const [copied, setCopied] = useState(false);
 
@@ -104,6 +109,13 @@ export default function ComponentModal({ item, onClose }: Props) {
         ? item.css || "/* geen css beschikbaar */"
         : item.javascript || "// geen javascript beschikbaar";
 
+  const modalClassName =
+    size === "large"
+      ? "cm-modal cm-modal-2"
+      : size === "extra-large"
+        ? "cm-modal cm-modal-3"
+        : "cm-modal";
+
   function handleCopy() {
     navigator.clipboard.writeText(code);
 
@@ -116,7 +128,10 @@ export default function ComponentModal({ item, onClose }: Props) {
 
   return (
     <div className="cm-overlay" onClick={onClose}>
-      <div className="cm-modal" onClick={(event) => event.stopPropagation()}>
+      <div
+        className={modalClassName}
+        onClick={(event) => event.stopPropagation()}
+      >
         <div className="cm-header">
           <span className="cm-title">{item.name}</span>
 
