@@ -16190,4 +16190,2953 @@ if (component) {
         drop-shadow(0 0 14px rgba(168,85,247,.4));
 }`,
   },
+  {
+    id: 3523,
+    name: "Diamond Halo Checkbox",
+    preview: (
+      <label className="cb-3523">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3523__box">
+          <span className="cb-3523__halo"></span>
+          <span className="cb-3523__diamond">
+            <span className="cb-3523__facet cb-3523__facet-1"></span>
+            <span className="cb-3523__facet cb-3523__facet-2"></span>
+            <span className="cb-3523__facet cb-3523__facet-3"></span>
+            <span className="cb-3523__facet cb-3523__facet-4"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3523">
+    <input type="checkbox" checked />
+    <span class="cb-3523__box">
+        <span class="cb-3523__halo"></span>
+        <span class="cb-3523__diamond">
+            <span class="cb-3523__facet cb-3523__facet-1"></span>
+            <span class="cb-3523__facet cb-3523__facet-2"></span>
+            <span class="cb-3523__facet cb-3523__facet-3"></span>
+            <span class="cb-3523__facet cb-3523__facet-4"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.cb-3523 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3523 input {
+    display: none;
+}
+
+.cb-3523__box {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+}
+
+.cb-3523__halo {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    border: 1px solid rgba(103, 232, 249, .22);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(103, 232, 249, .1),
+            transparent 68%
+        );
+    opacity: .25;
+    transition:
+        opacity .2s ease,
+        box-shadow .2s ease;
+}
+
+.cb-3523__diamond {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, .28);
+    background:
+        linear-gradient(
+            135deg,
+            #ecfeff,
+            #67e8f9 28%,
+            #818cf8 62%,
+            #7c3aed
+        );
+    opacity: .28;
+    transition:
+        opacity .2s ease,
+        filter .2s ease,
+        transform .2s ease;
+}
+
+.cb-3523__facet {
+    position: absolute;
+}
+
+.cb-3523__facet-1 {
+    inset: 0 50% 50% 0;
+    background: rgba(255, 255, 255, .42);
+}
+
+.cb-3523__facet-2 {
+    inset: 0 0 50% 50%;
+    background: rgba(255, 255, 255, .12);
+}
+
+.cb-3523__facet-3 {
+    inset: 50% 50% 0 0;
+    background: rgba(30, 41, 59, .18);
+}
+
+.cb-3523__facet-4 {
+    inset: 50% 0 0 50%;
+    background: rgba(255, 255, 255, .2);
+}
+
+.cb-3523 input:checked + .cb-3523__box .cb-3523__halo {
+    opacity: 1;
+    box-shadow:
+        0 0 12px rgba(103, 232, 249, .28),
+        inset 0 0 10px rgba(129, 140, 248, .16);
+}
+
+.cb-3523 input:checked + .cb-3523__box .cb-3523__diamond {
+    opacity: 1;
+    transform: rotate(45deg) scale(1.06);
+    filter:
+        drop-shadow(0 0 5px #67e8f9)
+        drop-shadow(0 0 11px rgba(124, 58, 237, .45));
+}`,
+  },
+  {
+    id: 3524,
+    name: "Split Prism Checkbox",
+    preview: (
+      <label className="cb-3524">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3524__box">
+          <span className="cb-3524__prism">
+            <span className="cb-3524__left"></span>
+            <span className="cb-3524__right"></span>
+            <span className="cb-3524__center"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3524">
+    <input type="checkbox" checked />
+    <span class="cb-3524__box">
+        <span class="cb-3524__prism">
+            <span class="cb-3524__left"></span>
+            <span class="cb-3524__right"></span>
+            <span class="cb-3524__center"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.cb-3524 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3524 input {
+    display: none;
+}
+
+.cb-3524__box {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+}
+
+.cb-3524__prism {
+    position: relative;
+    width: 30px;
+    height: 29px;
+    clip-path: polygon(
+        50% 0,
+        100% 82%,
+        78% 100%,
+        22% 100%,
+        0 82%
+    );
+    background: #111827;
+    opacity: .3;
+    transition:
+        opacity .2s ease,
+        filter .2s ease,
+        transform .2s ease;
+}
+
+.cb-3524__left {
+    position: absolute;
+    inset: 0 50% 0 0;
+    background:
+        linear-gradient(
+            145deg,
+            #ecfeff,
+            #22d3ee 48%,
+            #2563eb
+        );
+    clip-path: polygon(
+        100% 0,
+        100% 100%,
+        0 82%
+    );
+}
+
+.cb-3524__right {
+    position: absolute;
+    inset: 0 0 0 50%;
+    background:
+        linear-gradient(
+            215deg,
+            #fdf4ff,
+            #c084fc 48%,
+            #7c3aed
+        );
+    clip-path: polygon(
+        0 0,
+        100% 82%,
+        0 100%
+    );
+}
+
+.cb-3524__center {
+    position: absolute;
+    width: 5px;
+    height: 21px;
+    left: 50%;
+    top: 4px;
+    transform: translateX(-50%);
+    background:
+        linear-gradient(
+            #ffffff,
+            rgba(255, 255, 255, .08)
+        );
+    opacity: .65;
+}
+
+.cb-3524 input:checked + .cb-3524__box .cb-3524__prism {
+    opacity: 1;
+    transform: scale(1.06);
+    filter:
+        drop-shadow(-3px 0 6px rgba(34, 211, 238, .45))
+        drop-shadow(3px 0 6px rgba(192, 132, 252, .45));
+}`,
+  },
+  {
+    id: 3525,
+    name: "Royal Crystal Checkbox",
+    preview: (
+      <label className="cb-3525">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3525__box">
+          <span className="cb-3525__crystal">
+            <span className="cb-3525__core"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3525">
+    <input type="checkbox" checked />
+    <span class="cb-3525__box">
+        <span class="cb-3525__crystal">
+            <span class="cb-3525__core"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.cb-3525 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3525 input {
+    display: none;
+}
+
+.cb-3525__box {
+    width: 46px;
+    height: 46px;
+    display: grid;
+    place-items: center;
+}
+
+.cb-3525__crystal {
+    position: relative;
+    width: 32px;
+    height: 31px;
+    clip-path: polygon(
+        50% 0,
+        78% 12%,
+        100% 42%,
+        84% 82%,
+        50% 100%,
+        16% 82%,
+        0 42%,
+        22% 12%
+    );
+    background:
+        linear-gradient(
+            145deg,
+            #f5f3ff,
+            #c4b5fd 25%,
+            #8b5cf6 50%,
+            #6d28d9 72%,
+            #312e81
+        );
+    opacity: .3;
+    transition:
+        opacity .2s ease,
+        filter .2s ease,
+        transform .2s ease;
+}
+
+.cb-3525__crystal::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 3px;
+    top: 2px;
+    background: rgba(255, 255, 255, .3);
+    clip-path: polygon(
+        0 0,
+        100% 16%,
+        42% 100%
+    );
+}
+
+.cb-3525__crystal::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    right: 2px;
+    bottom: 2px;
+    background: rgba(30, 27, 75, .28);
+    clip-path: polygon(
+        58% 0,
+        100% 100%,
+        0 78%
+    );
+}
+
+.cb-3525__core {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: rgba(255, 255, 255, .8);
+    box-shadow:
+        0 0 7px rgba(255, 255, 255, .55);
+}
+
+.cb-3525 input:checked + .cb-3525__box .cb-3525__crystal {
+    opacity: 1;
+    transform: scale(1.05);
+    filter:
+        drop-shadow(0 0 5px #a78bfa)
+        drop-shadow(0 0 13px rgba(109, 40, 217, .45));
+}`,
+  },
+  {
+    id: 3526,
+    name: "Crystal Star Checkbox",
+    preview: (
+      <label className="cb-3526">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3526__box">
+          <span className="cb-3526__star">
+            <span className="cb-3526__inner"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3526">
+    <input type="checkbox" checked />
+    <span class="cb-3526__box">
+        <span class="cb-3526__star">
+            <span class="cb-3526__inner"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.cb-3526 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3526 input {
+    display: none;
+}
+
+.cb-3526__box {
+    width: 46px;
+    height: 46px;
+    display: grid;
+    place-items: center;
+}
+
+.cb-3526__star {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    clip-path: polygon(
+        50% 0,
+        61% 34%,
+        100% 50%,
+        64% 62%,
+        50% 100%,
+        37% 64%,
+        0 50%,
+        35% 36%
+    );
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #a5f3fc 24%,
+            #60a5fa 50%,
+            #818cf8 72%,
+            #c084fc
+        );
+    opacity: .28;
+    transition:
+        opacity .2s ease,
+        filter .2s ease,
+        transform .2s ease;
+}
+
+.cb-3526__star::before {
+    content: "";
+    position: absolute;
+    inset: 7px;
+    background:
+        linear-gradient(
+            315deg,
+            rgba(255, 255, 255, .06),
+            rgba(255, 255, 255, .72)
+        );
+    clip-path: inherit;
+}
+
+.cb-3526__inner {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #ffffff;
+    box-shadow:
+        0 0 8px rgba(255, 255, 255, .7);
+}
+
+.cb-3526 input:checked + .cb-3526__box .cb-3526__star {
+    opacity: 1;
+    transform: scale(1.07);
+    filter:
+        drop-shadow(0 0 5px #67e8f9)
+        drop-shadow(0 0 13px rgba(129, 140, 248, .45));
+}`,
+  },
+  {
+    id: 3527,
+    name: "Void Crystal Checkbox",
+    preview: (
+      <label className="cb-3527">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3527__box">
+          <span className="cb-3527__outer">
+            <span className="cb-3527__void"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="cb-3527">
+    <input type="checkbox" checked />
+    <span class="cb-3527__box">
+        <span class="cb-3527__outer">
+            <span class="cb-3527__void"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.cb-3527 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3527 input {
+    display: none;
+}
+
+.cb-3527__box {
+    width: 46px;
+    height: 46px;
+    display: grid;
+    place-items: center;
+}
+
+.cb-3527__outer {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    clip-path: polygon(
+        50% 0,
+        86% 14%,
+        100% 50%,
+        86% 86%,
+        50% 100%,
+        14% 86%,
+        0 50%,
+        14% 14%
+    );
+    background:
+        linear-gradient(
+            135deg,
+            #e9d5ff,
+            #a855f7 26%,
+            #4c1d95 58%,
+            #09090b 82%
+        );
+    opacity: .3;
+    transition:
+        opacity .2s ease,
+        filter .2s ease,
+        transform .2s ease;
+}
+
+.cb-3527__outer::before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 16px;
+    height: 14px;
+    background: rgba(255, 255, 255, .25);
+    clip-path: polygon(
+        0 0,
+        100% 15%,
+        35% 100%
+    );
+}
+
+.cb-3527__void {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background:
+        linear-gradient(
+            135deg,
+            #020617,
+            #1e1b4b
+        );
+    border: 1px solid rgba(216, 180, 254, .4);
+    box-shadow:
+        inset 0 0 7px rgba(168, 85, 247, .35);
+}
+
+.cb-3527 input:checked + .cb-3527__box .cb-3527__outer {
+    opacity: 1;
+    transform: scale(1.06);
+    filter:
+        drop-shadow(0 0 5px #a855f7)
+        drop-shadow(0 0 14px rgba(76, 29, 149, .55));
+}`,
+  },
+  {
+    id: 3528,
+    name: "Diamond Crystal Checkbox",
+    preview: (
+      <label className="cb-3528">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3528__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3528">
+    <input type="checkbox" checked />
+    <span class="cb-3528__checkmark"></span>
+</label>`,
+    css: `.cb-3528 {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cb-3528 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3528__checkmark {
+    position: relative;
+    width: 27px;
+    height: 27px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #67e8f9;
+    border-radius: 5px;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.08),
+            rgba(103,232,249,.04)
+        );
+    transition:
+        background .2s ease,
+        border-color .2s ease,
+        box-shadow .2s ease;
+}
+
+.cb-3528__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.95) 0 18%,
+            transparent 18% 42%,
+            rgba(255,255,255,.2) 42% 55%,
+            transparent 55%
+        ),
+        linear-gradient(
+            45deg,
+            #ecfeff,
+            #a5f3fc 28%,
+            #67e8f9 52%,
+            #38bdf8 74%,
+            #e0f2fe
+        );
+    transition: opacity .2s ease;
+}
+
+.cb-3528__checkmark::after {
+    content: "";
+    position: relative;
+    z-index: 2;
+    width: 6px;
+    height: 12px;
+    margin-bottom: 3px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+    filter: drop-shadow(0 0 3px #ffffff);
+}
+
+.cb-3528 input:checked ~ .cb-3528__checkmark {
+    border-color: #cffafe;
+    box-shadow:
+        0 0 7px rgba(103,232,249,.75),
+        0 0 15px rgba(56,189,248,.35),
+        inset 0 0 7px rgba(255,255,255,.22);
+}
+
+.cb-3528 input:checked ~ .cb-3528__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3528 input:checked ~ .cb-3528__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3529,
+    name: "Lapis Crystal Checkbox",
+    preview: (
+      <label className="cb-3529">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3529__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3529">
+    <input type="checkbox" checked />
+    <span class="cb-3529__checkmark"></span>
+</label>`,
+    css: `.cb-3529 {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cb-3529 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3529__checkmark {
+    position: relative;
+    width: 27px;
+    height: 27px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3b82f6;
+    border-radius: 5px;
+    background: #070f28;
+    transition:
+        background .2s ease,
+        border-color .2s ease,
+        box-shadow .2s ease;
+}
+
+.cb-3529__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    background:
+        radial-gradient(
+            circle at 25% 28%,
+            #facc15 0 1px,
+            transparent 2px
+        ),
+        radial-gradient(
+            circle at 72% 62%,
+            #fde68a 0 1px,
+            transparent 2px
+        ),
+        radial-gradient(
+            circle at 62% 18%,
+            #facc15 0 1px,
+            transparent 2px
+        ),
+        linear-gradient(
+            135deg,
+            #1e3a8a,
+            #1d4ed8 35%,
+            #172554 72%,
+            #0f172a
+        );
+    transition: opacity .2s ease;
+}
+
+.cb-3529__checkmark::after {
+    content: "";
+    position: relative;
+    z-index: 2;
+    width: 6px;
+    height: 12px;
+    margin-bottom: 3px;
+    border: solid #fef3c7;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+    filter:
+        drop-shadow(0 0 3px #facc15);
+}
+
+.cb-3529 input:checked ~ .cb-3529__checkmark {
+    border-color: #60a5fa;
+    box-shadow:
+        0 0 7px rgba(37,99,235,.7),
+        0 0 14px rgba(29,78,216,.35),
+        inset 0 0 8px rgba(96,165,250,.2);
+}
+
+.cb-3529 input:checked ~ .cb-3529__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3529 input:checked ~ .cb-3529__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3530,
+    name: "Gold Crystal Checkbox",
+    preview: (
+      <label className="cb-3530">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3530__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3530">
+    <input type="checkbox" checked />
+    <span class="cb-3530__checkmark"></span>
+</label>`,
+    css: `.cb-3530 {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cb-3530 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3530__checkmark {
+    position: relative;
+    width: 27px;
+    height: 27px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #d97706;
+    border-radius: 5px;
+    background: #1c1204;
+    transition:
+        background .2s ease,
+        border-color .2s ease,
+        box-shadow .2s ease;
+}
+
+.cb-3530__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255,255,255,.75) 0 12%,
+            transparent 13% 42%,
+            rgba(255,255,255,.15) 43% 55%,
+            transparent 56%
+        ),
+        linear-gradient(
+            135deg,
+            #fef3c7,
+            #fde047 25%,
+            #f59e0b 55%,
+            #b45309 78%,
+            #78350f
+        );
+    transition: opacity .2s ease;
+}
+
+.cb-3530__checkmark::after {
+    content: "";
+    position: relative;
+    z-index: 2;
+    width: 6px;
+    height: 12px;
+    margin-bottom: 3px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+    filter:
+        drop-shadow(0 0 3px #fef3c7);
+}
+
+.cb-3530 input:checked ~ .cb-3530__checkmark {
+    border-color: #fde047;
+    box-shadow:
+        0 0 7px rgba(250,204,21,.65),
+        0 0 14px rgba(245,158,11,.32),
+        inset 0 0 7px rgba(255,255,255,.2);
+}
+
+.cb-3530 input:checked ~ .cb-3530__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3530 input:checked ~ .cb-3530__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3531,
+    name: "Iron Crystal Checkbox",
+    preview: (
+      <label className="cb-3531">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3531__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3531">
+    <input type="checkbox" checked />
+    <span class="cb-3531__checkmark"></span>
+</label>`,
+    css: `.cb-3531 {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cb-3531 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3531__checkmark {
+    position: relative;
+    width: 27px;
+    height: 27px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #71717a;
+    border-radius: 5px;
+    background: #18181b;
+    transition:
+        background .2s ease,
+        border-color .2s ease,
+        box-shadow .2s ease;
+}
+
+.cb-3531__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.4) 0 14%,
+            transparent 15% 38%,
+            rgba(255,255,255,.1) 39% 54%,
+            transparent 55%
+        ),
+        linear-gradient(
+            145deg,
+            #e4e4e7,
+            #a1a1aa 27%,
+            #71717a 52%,
+            #3f3f46 78%,
+            #18181b
+        );
+    transition: opacity .2s ease;
+}
+
+.cb-3531__checkmark::after {
+    content: "";
+    position: relative;
+    z-index: 2;
+    width: 6px;
+    height: 12px;
+    margin-bottom: 3px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+    filter:
+        drop-shadow(0 0 2px #ffffff);
+}
+
+.cb-3531 input:checked ~ .cb-3531__checkmark {
+    border-color: #d4d4d8;
+    box-shadow:
+        0 0 6px rgba(212,212,216,.4),
+        inset 0 0 8px rgba(255,255,255,.12);
+}
+
+.cb-3531 input:checked ~ .cb-3531__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3531 input:checked ~ .cb-3531__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3532,
+    name: "Emerald Crystal Checkbox",
+    preview: (
+      <label className="cb-3532">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3532__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3532">
+    <input type="checkbox" checked />
+    <span class="cb-3532__checkmark"></span>
+</label>`,
+    css: `.cb-3532 {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cb-3532 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3532__checkmark {
+    position: relative;
+    width: 27px;
+    height: 27px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #10b981;
+    border-radius: 5px;
+    background: #04130d;
+    transition:
+        background .2s ease,
+        border-color .2s ease,
+        box-shadow .2s ease;
+}
+
+.cb-3532__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.65) 0 15%,
+            transparent 16% 40%,
+            rgba(255,255,255,.14) 41% 54%,
+            transparent 55%
+        ),
+        linear-gradient(
+            145deg,
+            #d1fae5,
+            #6ee7b7 24%,
+            #10b981 52%,
+            #047857 75%,
+            #064e3b
+        );
+    transition: opacity .2s ease;
+}
+
+.cb-3532__checkmark::after {
+    content: "";
+    position: relative;
+    z-index: 2;
+    width: 6px;
+    height: 12px;
+    margin-bottom: 3px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+    filter:
+        drop-shadow(0 0 3px #6ee7b7);
+}
+
+.cb-3532 input:checked ~ .cb-3532__checkmark {
+    border-color: #34d399;
+    box-shadow:
+        0 0 7px rgba(16,185,129,.7),
+        0 0 14px rgba(5,150,105,.35),
+        inset 0 0 8px rgba(110,231,183,.18);
+}
+
+.cb-3532 input:checked ~ .cb-3532__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3532 input:checked ~ .cb-3532__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3533,
+    name: "Coal Ore Checkbox",
+    preview: (
+      <label className="cb-3533">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3533__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3533">
+    <input type="checkbox" checked />
+    <span class="cb-3533__checkmark"></span>
+</label>`,
+    css: `.cb-3533 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3533 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3533__checkmark {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border: 2px solid #52525b;
+    border-radius: 3px;
+    background:
+        linear-gradient(135deg, #71717a, #3f3f46);
+    box-shadow:
+        inset 3px 3px 0 rgba(255,255,255,.08),
+        inset -3px -3px 0 rgba(0,0,0,.18);
+    transition:
+        border-color .2s ease,
+        box-shadow .2s ease,
+        filter .2s ease;
+}
+
+.cb-3533__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background:
+        radial-gradient(circle at 18% 25%, #09090b 0 3px, transparent 4px),
+        radial-gradient(circle at 72% 22%, #18181b 0 3px, transparent 4px),
+        radial-gradient(circle at 40% 65%, #09090b 0 4px, transparent 5px),
+        radial-gradient(circle at 82% 78%, #27272a 0 3px, transparent 4px);
+    opacity: .25;
+    transition: opacity .2s ease;
+}
+
+.cb-3533__checkmark::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 7px;
+    height: 13px;
+    left: 10px;
+    top: 5px;
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+}
+
+.cb-3533 input:checked + .cb-3533__checkmark {
+    border-color: #27272a;
+    filter: brightness(.9);
+    box-shadow:
+        0 0 7px rgba(24,24,27,.65),
+        inset 3px 3px 0 rgba(255,255,255,.08),
+        inset -3px -3px 0 rgba(0,0,0,.28);
+}
+
+.cb-3533 input:checked + .cb-3533__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3533 input:checked + .cb-3533__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3534,
+    name: "Iron Ore Checkbox",
+    preview: (
+      <label className="cb-3534">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3534__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3534">
+    <input type="checkbox" checked />
+    <span class="cb-3534__checkmark"></span>
+</label>`,
+    css: `.cb-3534 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3534 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3534__checkmark {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border: 2px solid #78716c;
+    border-radius: 3px;
+    background:
+        linear-gradient(135deg, #737373, #404040);
+    box-shadow:
+        inset 3px 3px 0 rgba(255,255,255,.08),
+        inset -3px -3px 0 rgba(0,0,0,.2);
+}
+
+.cb-3534__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background:
+        radial-gradient(circle at 22% 26%, #d6b49a 0 3px, transparent 4px),
+        radial-gradient(circle at 72% 20%, #c59a7d 0 3px, transparent 4px),
+        radial-gradient(circle at 46% 70%, #e0b99b 0 4px, transparent 5px),
+        radial-gradient(circle at 82% 72%, #a8795f 0 2px, transparent 3px);
+    opacity: .25;
+    transition: opacity .2s ease;
+}
+
+.cb-3534__checkmark::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 7px;
+    height: 13px;
+    left: 10px;
+    top: 5px;
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+}
+
+.cb-3534 input:checked + .cb-3534__checkmark {
+    border-color: #d6b49a;
+    box-shadow:
+        0 0 7px rgba(214,180,154,.42),
+        inset 3px 3px 0 rgba(255,255,255,.08),
+        inset -3px -3px 0 rgba(0,0,0,.2);
+}
+
+.cb-3534 input:checked + .cb-3534__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3534 input:checked + .cb-3534__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3535,
+    name: "Copper Ore Checkbox",
+    preview: (
+      <label className="cb-3535">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3535__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3535">
+    <input type="checkbox" checked />
+    <span class="cb-3535__checkmark"></span>
+</label>`,
+    css: `.cb-3535 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3535 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3535__checkmark {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border: 2px solid #78716c;
+    border-radius: 3px;
+    background:
+        linear-gradient(135deg, #737373, #404040);
+}
+
+.cb-3535__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background:
+        radial-gradient(circle at 18% 24%, #ea8c55 0 3px, transparent 4px),
+        radial-gradient(circle at 66% 18%, #b85d3d 0 4px, transparent 5px),
+        radial-gradient(circle at 38% 72%, #d97745 0 3px, transparent 4px),
+        radial-gradient(circle at 82% 68%, #4da08f 0 3px, transparent 4px);
+    opacity: .25;
+    transition: opacity .2s ease;
+}
+
+.cb-3535__checkmark::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 7px;
+    height: 13px;
+    left: 10px;
+    top: 5px;
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+}
+
+.cb-3535 input:checked + .cb-3535__checkmark {
+    border-color: #d97745;
+    box-shadow:
+        0 0 7px rgba(217,119,69,.5),
+        inset 0 0 8px rgba(77,160,143,.1);
+}
+
+.cb-3535 input:checked + .cb-3535__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3535 input:checked + .cb-3535__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3536,
+    name: "Gold Ore Checkbox",
+    preview: (
+      <label className="cb-3536">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3536__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3536">
+    <input type="checkbox" checked />
+    <span class="cb-3536__checkmark"></span>
+</label>`,
+    css: `.cb-3536 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3536 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3536__checkmark {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border: 2px solid #a16207;
+    border-radius: 3px;
+    background:
+        linear-gradient(135deg, #737373, #404040);
+}
+
+.cb-3536__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background:
+        radial-gradient(circle at 22% 22%, #facc15 0 3px, transparent 4px),
+        radial-gradient(circle at 70% 28%, #fde047 0 3px, transparent 4px),
+        radial-gradient(circle at 36% 72%, #eab308 0 4px, transparent 5px),
+        radial-gradient(circle at 82% 72%, #f59e0b 0 3px, transparent 4px);
+    opacity: .25;
+    transition: opacity .2s ease;
+}
+
+.cb-3536__checkmark::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 7px;
+    height: 13px;
+    left: 10px;
+    top: 5px;
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+}
+
+.cb-3536 input:checked + .cb-3536__checkmark {
+    border-color: #fde047;
+    box-shadow:
+        0 0 8px rgba(250,204,21,.65),
+        inset 0 0 8px rgba(234,179,8,.14);
+}
+
+.cb-3536 input:checked + .cb-3536__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3536 input:checked + .cb-3536__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3537,
+    name: "Redstone Ore Checkbox",
+    preview: (
+      <label className="cb-3537">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3537__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3537">
+    <input type="checkbox" checked />
+    <span class="cb-3537__checkmark"></span>
+</label>`,
+    css: `.cb-3537 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3537 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3537__checkmark {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border: 2px solid #7f1d1d;
+    border-radius: 3px;
+    background:
+        linear-gradient(135deg, #737373, #404040);
+}
+
+.cb-3537__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background:
+        radial-gradient(circle at 20% 22%, #ef4444 0 3px, transparent 4px),
+        radial-gradient(circle at 72% 26%, #dc2626 0 3px, transparent 4px),
+        radial-gradient(circle at 40% 72%, #b91c1c 0 4px, transparent 5px),
+        radial-gradient(circle at 82% 72%, #f87171 0 2px, transparent 3px);
+    opacity: .25;
+    transition: opacity .2s ease;
+}
+
+.cb-3537__checkmark::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 7px;
+    height: 13px;
+    left: 10px;
+    top: 5px;
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+}
+
+.cb-3537 input:checked + .cb-3537__checkmark {
+    border-color: #ef4444;
+    box-shadow:
+        0 0 8px rgba(239,68,68,.78),
+        0 0 14px rgba(220,38,38,.35),
+        inset 0 0 8px rgba(239,68,68,.14);
+}
+
+.cb-3537 input:checked + .cb-3537__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3537 input:checked + .cb-3537__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3538,
+    name: "Lapis Lazuli Ore Checkbox",
+    preview: (
+      <label className="cb-3538">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3538__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3538">
+    <input type="checkbox" checked />
+    <span class="cb-3538__checkmark"></span>
+</label>`,
+    css: `.cb-3538 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3538 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3538__checkmark {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border: 2px solid #1d4ed8;
+    border-radius: 3px;
+    background:
+        linear-gradient(135deg, #737373, #404040);
+}
+
+.cb-3538__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background:
+        radial-gradient(circle at 18% 26%, #2563eb 0 3px, transparent 4px),
+        radial-gradient(circle at 70% 20%, #1d4ed8 0 4px, transparent 5px),
+        radial-gradient(circle at 42% 72%, #3b82f6 0 4px, transparent 5px),
+        radial-gradient(circle at 82% 72%, #1e40af 0 3px, transparent 4px);
+    opacity: .25;
+    transition: opacity .2s ease;
+}
+
+.cb-3538__checkmark::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 7px;
+    height: 13px;
+    left: 10px;
+    top: 5px;
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+}
+
+.cb-3538 input:checked + .cb-3538__checkmark {
+    border-color: #60a5fa;
+    box-shadow:
+        0 0 8px rgba(37,99,235,.7),
+        inset 0 0 8px rgba(59,130,246,.14);
+}
+
+.cb-3538 input:checked + .cb-3538__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3538 input:checked + .cb-3538__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3539,
+    name: "Diamond Ore Checkbox",
+    preview: (
+      <label className="cb-3539">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3539__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3539">
+    <input type="checkbox" checked />
+    <span class="cb-3539__checkmark"></span>
+</label>`,
+    css: `.cb-3539 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3539 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3539__checkmark {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border: 2px solid #22d3ee;
+    border-radius: 3px;
+    background:
+        linear-gradient(135deg, #737373, #404040);
+}
+
+.cb-3539__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background:
+        radial-gradient(circle at 20% 22%, #67e8f9 0 3px, transparent 4px),
+        radial-gradient(circle at 72% 24%, #22d3ee 0 4px, transparent 5px),
+        radial-gradient(circle at 38% 72%, #a5f3fc 0 4px, transparent 5px),
+        radial-gradient(circle at 82% 72%, #06b6d4 0 3px, transparent 4px);
+    opacity: .25;
+    transition: opacity .2s ease;
+}
+
+.cb-3539__checkmark::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 7px;
+    height: 13px;
+    left: 10px;
+    top: 5px;
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+    filter: drop-shadow(0 0 3px #67e8f9);
+}
+
+.cb-3539 input:checked + .cb-3539__checkmark {
+    border-color: #a5f3fc;
+    box-shadow:
+        0 0 8px rgba(34,211,238,.75),
+        0 0 14px rgba(6,182,212,.32);
+}
+
+.cb-3539 input:checked + .cb-3539__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3539 input:checked + .cb-3539__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3540,
+    name: "Emerald Ore Checkbox",
+    preview: (
+      <label className="cb-3540">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3540__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3540">
+    <input type="checkbox" checked />
+    <span class="cb-3540__checkmark"></span>
+</label>`,
+    css: `.cb-3540 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3540 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3540__checkmark {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border: 2px solid #10b981;
+    border-radius: 3px;
+    background:
+        linear-gradient(135deg, #737373, #404040);
+}
+
+.cb-3540__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background:
+        radial-gradient(circle at 20% 24%, #34d399 0 3px, transparent 4px),
+        radial-gradient(circle at 70% 20%, #10b981 0 4px, transparent 5px),
+        radial-gradient(circle at 40% 72%, #6ee7b7 0 4px, transparent 5px),
+        radial-gradient(circle at 82% 72%, #059669 0 3px, transparent 4px);
+    opacity: .25;
+    transition: opacity .2s ease;
+}
+
+.cb-3540__checkmark::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 7px;
+    height: 13px;
+    left: 10px;
+    top: 5px;
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+    filter: drop-shadow(0 0 3px #34d399);
+}
+
+.cb-3540 input:checked + .cb-3540__checkmark {
+    border-color: #34d399;
+    box-shadow:
+        0 0 8px rgba(16,185,129,.72),
+        0 0 14px rgba(5,150,105,.3);
+}
+
+.cb-3540 input:checked + .cb-3540__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3540 input:checked + .cb-3540__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3541,
+    name: "Nether Quartz Ore Checkbox",
+    preview: (
+      <label className="cb-3541">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3541__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3541">
+    <input type="checkbox" checked />
+    <span class="cb-3541__checkmark"></span>
+</label>`,
+    css: `.cb-3541 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3541 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3541__checkmark {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border: 2px solid #7f1d1d;
+    border-radius: 3px;
+    background:
+        linear-gradient(
+            135deg,
+            #7f1d1d,
+            #450a0a
+        );
+}
+
+.cb-3541__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background:
+        radial-gradient(circle at 18% 25%, #f8fafc 0 3px, transparent 4px),
+        radial-gradient(circle at 70% 20%, #e7e5e4 0 4px, transparent 5px),
+        radial-gradient(circle at 42% 72%, #ffffff 0 3px, transparent 4px),
+        radial-gradient(circle at 82% 72%, #d6d3d1 0 3px, transparent 4px);
+    opacity: .25;
+    transition: opacity .2s ease;
+}
+
+.cb-3541__checkmark::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 7px;
+    height: 13px;
+    left: 10px;
+    top: 5px;
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+}
+
+.cb-3541 input:checked + .cb-3541__checkmark {
+    border-color: #f5f5f4;
+    box-shadow:
+        0 0 8px rgba(245,245,244,.42),
+        inset 0 0 8px rgba(255,255,255,.08);
+}
+
+.cb-3541 input:checked + .cb-3541__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3541 input:checked + .cb-3541__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3542,
+    name: "Nether Gold Ore Checkbox",
+    preview: (
+      <label className="cb-3542">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3542__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3542">
+    <input type="checkbox" checked />
+    <span class="cb-3542__checkmark"></span>
+</label>`,
+    css: `.cb-3542 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3542 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3542__checkmark {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border: 2px solid #92400e;
+    border-radius: 3px;
+    background:
+        linear-gradient(
+            135deg,
+            #7f1d1d,
+            #450a0a
+        );
+}
+
+.cb-3542__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background:
+        radial-gradient(circle at 18% 22%, #fde047 0 3px, transparent 4px),
+        radial-gradient(circle at 70% 24%, #facc15 0 3px, transparent 4px),
+        radial-gradient(circle at 38% 72%, #eab308 0 4px, transparent 5px),
+        radial-gradient(circle at 82% 72%, #f59e0b 0 3px, transparent 4px);
+    opacity: .25;
+    transition: opacity .2s ease;
+}
+
+.cb-3542__checkmark::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 7px;
+    height: 13px;
+    left: 10px;
+    top: 5px;
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+}
+
+.cb-3542 input:checked + .cb-3542__checkmark {
+    border-color: #fde047;
+    box-shadow:
+        0 0 8px rgba(250,204,21,.58),
+        inset 0 0 8px rgba(245,158,11,.12);
+}
+
+.cb-3542 input:checked + .cb-3542__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3542 input:checked + .cb-3542__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3543,
+    name: "Ancient Debris Checkbox",
+    preview: (
+      <label className="cb-3543">
+        <input type="checkbox" defaultChecked />
+        <span className="cb-3543__checkmark"></span>
+      </label>
+    ),
+    html: `<label class="cb-3543">
+    <input type="checkbox" checked />
+    <span class="cb-3543__checkmark"></span>
+</label>`,
+    css: `.cb-3543 {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.cb-3543 input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.cb-3543__checkmark {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border: 2px solid #7c2d12;
+    border-radius: 3px;
+    background:
+        linear-gradient(
+            135deg,
+            #78350f,
+            #3f1d13 55%,
+            #1c1917
+        );
+}
+
+.cb-3543__checkmark::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background:
+        linear-gradient(
+            25deg,
+            transparent 0 22%,
+            #9a5a3a 23% 31%,
+            transparent 32% 48%,
+            #5c3325 49% 58%,
+            transparent 59%
+        ),
+        linear-gradient(
+            -35deg,
+            transparent 0 28%,
+            #b06b48 29% 36%,
+            transparent 37% 62%,
+            #6f3f2c 63% 72%,
+            transparent 73%
+        );
+    opacity: .3;
+    transition: opacity .2s ease;
+}
+
+.cb-3543__checkmark::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 7px;
+    height: 13px;
+    left: 10px;
+    top: 5px;
+    border: solid #f5f5f4;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg) scale(0);
+    transition: transform .2s ease;
+    filter: drop-shadow(0 0 2px #f97316);
+}
+
+.cb-3543 input:checked + .cb-3543__checkmark {
+    border-color: #b45309;
+    box-shadow:
+        0 0 7px rgba(180,83,9,.48),
+        inset 0 0 9px rgba(120,53,15,.24);
+}
+
+.cb-3543 input:checked + .cb-3543__checkmark::before {
+    opacity: 1;
+}
+
+.cb-3543 input:checked + .cb-3543__checkmark::after {
+    transform: rotate(45deg) scale(1);
+}`,
+  },
+  {
+    id: 3544,
+    name: "Coal Ore Jelly Checkbox",
+    preview: (
+      <label className="cb-3544-cntr">
+        <input type="checkbox" className="cb-3544-hidden" defaultChecked />
+        <span className="cb-3544-box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3544-cntr">
+    <input type="checkbox" class="cb-3544-hidden" checked />
+    <span class="cb-3544-box"></span>
+</label>`,
+    css: `.cb-3544-cntr {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3544-hidden {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.cb-3544-box {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #71717a;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #71717a, #3f3f46);
+    transition:
+        border-color .25s ease,
+        box-shadow .25s ease,
+        filter .25s ease;
+}
+.cb-3544-box::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    opacity: .3;
+    background:
+        radial-gradient(circle at 20% 22%, #09090b 0 3px, transparent 4px),
+        radial-gradient(circle at 73% 25%, #18181b 0 3px, transparent 4px),
+        radial-gradient(circle at 38% 72%, #09090b 0 4px, transparent 5px),
+        radial-gradient(circle at 82% 76%, #27272a 0 3px, transparent 4px);
+    transition: opacity .25s ease;
+}
+.cb-3544-box::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    width: 7px;
+    height: 14px;
+    z-index: 2;
+    opacity: 0;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    transform: rotate(45deg) scale(0);
+    transition: all .3s ease;
+    transition-delay: .1s;
+}
+.cb-3544-hidden:checked + .cb-3544-box {
+    border-color: #27272a;
+    box-shadow:
+        0 0 8px rgba(24, 24, 27, .7),
+        inset 0 0 8px rgba(0, 0, 0, .24);
+    animation: cb3544Jelly .6s ease;
+}
+.cb-3544-hidden:checked + .cb-3544-box::before {
+    opacity: 1;
+}
+.cb-3544-hidden:checked + .cb-3544-box::after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+@keyframes cb3544Jelly {
+    0%, 100% { transform: scale(1); }
+    30% { transform: scale(1.25, .75); }
+    40% { transform: scale(.75, 1.25); }
+    50% { transform: scale(1.15, .85); }
+    65% { transform: scale(.95, 1.05); }
+    75% { transform: scale(1.05, .95); }
+}`,
+  },
+  {
+    id: 3545,
+    name: "Iron Ore Jelly Checkbox",
+    preview: (
+      <label className="cb-3545-cntr">
+        <input type="checkbox" className="cb-3545-hidden" defaultChecked />
+        <span className="cb-3545-box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3545-cntr">
+    <input type="checkbox" class="cb-3545-hidden" checked />
+    <span class="cb-3545-box"></span>
+</label>`,
+    css: `.cb-3545-cntr {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3545-hidden {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.cb-3545-box {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #a8a29e;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #78716c, #44403c);
+    transition:
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+.cb-3545-box::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    opacity: .3;
+    background:
+        radial-gradient(circle at 20% 24%, #e7c0a2 0 3px, transparent 4px),
+        radial-gradient(circle at 72% 20%, #c99474 0 3px, transparent 4px),
+        radial-gradient(circle at 40% 72%, #d6a786 0 4px, transparent 5px),
+        radial-gradient(circle at 83% 73%, #b77959 0 3px, transparent 4px);
+    transition: opacity .25s ease;
+}
+.cb-3545-box::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    width: 7px;
+    height: 14px;
+    z-index: 2;
+    opacity: 0;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    transform: rotate(45deg) scale(0);
+    transition: all .3s ease;
+    transition-delay: .1s;
+}
+.cb-3545-hidden:checked + .cb-3545-box {
+    border-color: #e7c0a2;
+    box-shadow:
+        0 0 8px rgba(214, 167, 134, .55),
+        inset 0 0 8px rgba(255, 255, 255, .09);
+    animation: cb3545Jelly .6s ease;
+}
+.cb-3545-hidden:checked + .cb-3545-box::before {
+    opacity: 1;
+}
+.cb-3545-hidden:checked + .cb-3545-box::after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+@keyframes cb3545Jelly {
+    0%, 100% { transform: scale(1); }
+    30% { transform: scale(1.25, .75); }
+    40% { transform: scale(.75, 1.25); }
+    50% { transform: scale(1.15, .85); }
+    65% { transform: scale(.95, 1.05); }
+    75% { transform: scale(1.05, .95); }
+}`,
+  },
+  {
+    id: 3546,
+    name: "Copper Ore Jelly Checkbox",
+    preview: (
+      <label className="cb-3546-cntr">
+        <input type="checkbox" className="cb-3546-hidden" defaultChecked />
+        <span className="cb-3546-box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3546-cntr">
+    <input type="checkbox" class="cb-3546-hidden" checked />
+    <span class="cb-3546-box"></span>
+</label>`,
+    css: `.cb-3546-cntr {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3546-hidden {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.cb-3546-box {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #a85f45;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #737373, #404040);
+    transition:
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+.cb-3546-box::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    opacity: .3;
+    background:
+        radial-gradient(circle at 19% 22%, #ea8855 0 3px, transparent 4px),
+        radial-gradient(circle at 69% 18%, #b85d3d 0 4px, transparent 5px),
+        radial-gradient(circle at 39% 71%, #dc7448 0 3px, transparent 4px),
+        radial-gradient(circle at 82% 70%, #4fa58f 0 3px, transparent 4px);
+    transition: opacity .25s ease;
+}
+.cb-3546-box::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    width: 7px;
+    height: 14px;
+    z-index: 2;
+    opacity: 0;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    transform: rotate(45deg) scale(0);
+    transition: all .3s ease;
+    transition-delay: .1s;
+}
+.cb-3546-hidden:checked + .cb-3546-box {
+    border-color: #f08a5d;
+    box-shadow:
+        0 0 8px rgba(234, 136, 85, .62),
+        inset 0 0 9px rgba(79, 165, 143, .12);
+    animation: cb3546Jelly .6s ease;
+}
+.cb-3546-hidden:checked + .cb-3546-box::before {
+    opacity: 1;
+}
+.cb-3546-hidden:checked + .cb-3546-box::after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+@keyframes cb3546Jelly {
+    0%, 100% { transform: scale(1); }
+    30% { transform: scale(1.25, .75); }
+    40% { transform: scale(.75, 1.25); }
+    50% { transform: scale(1.15, .85); }
+    65% { transform: scale(.95, 1.05); }
+    75% { transform: scale(1.05, .95); }
+}`,
+  },
+  {
+    id: 3547,
+    name: "Gold Ore Jelly Checkbox",
+    preview: (
+      <label className="cb-3547-cntr">
+        <input type="checkbox" className="cb-3547-hidden" defaultChecked />
+        <span className="cb-3547-box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3547-cntr">
+    <input type="checkbox" class="cb-3547-hidden" checked />
+    <span class="cb-3547-box"></span>
+</label>`,
+    css: `.cb-3547-cntr {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3547-hidden {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.cb-3547-box {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #a16207;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #737373, #404040);
+    transition:
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+.cb-3547-box::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    opacity: .3;
+    background:
+        radial-gradient(circle at 21% 22%, #fde047 0 3px, transparent 4px),
+        radial-gradient(circle at 72% 26%, #facc15 0 3px, transparent 4px),
+        radial-gradient(circle at 38% 71%, #eab308 0 4px, transparent 5px),
+        radial-gradient(circle at 82% 73%, #f59e0b 0 3px, transparent 4px);
+    transition: opacity .25s ease;
+}
+.cb-3547-box::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    width: 7px;
+    height: 14px;
+    z-index: 2;
+    opacity: 0;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    transform: rotate(45deg) scale(0);
+    transition: all .3s ease;
+    transition-delay: .1s;
+}
+.cb-3547-hidden:checked + .cb-3547-box {
+    border-color: #fde047;
+    box-shadow:
+        0 0 8px rgba(250, 204, 21, .75),
+        0 0 14px rgba(234, 179, 8, .28);
+    animation: cb3547Jelly .6s ease;
+}
+.cb-3547-hidden:checked + .cb-3547-box::before {
+    opacity: 1;
+}
+.cb-3547-hidden:checked + .cb-3547-box::after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+@keyframes cb3547Jelly {
+    0%, 100% { transform: scale(1); }
+    30% { transform: scale(1.25, .75); }
+    40% { transform: scale(.75, 1.25); }
+    50% { transform: scale(1.15, .85); }
+    65% { transform: scale(.95, 1.05); }
+    75% { transform: scale(1.05, .95); }
+}`,
+  },
+  {
+    id: 3548,
+    name: "Redstone Ore Jelly Checkbox",
+    preview: (
+      <label className="cb-3548-cntr">
+        <input type="checkbox" className="cb-3548-hidden" defaultChecked />
+        <span className="cb-3548-box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3548-cntr">
+    <input type="checkbox" class="cb-3548-hidden" checked />
+    <span class="cb-3548-box"></span>
+</label>`,
+    css: `.cb-3548-cntr {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3548-hidden {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.cb-3548-box {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #991b1b;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #737373, #404040);
+    transition:
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+.cb-3548-box::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    opacity: .3;
+    background:
+        radial-gradient(circle at 20% 22%, #f87171 0 3px, transparent 4px),
+        radial-gradient(circle at 72% 25%, #dc2626 0 3px, transparent 4px),
+        radial-gradient(circle at 40% 72%, #b91c1c 0 4px, transparent 5px),
+        radial-gradient(circle at 83% 74%, #ef4444 0 3px, transparent 4px);
+    transition: opacity .25s ease;
+}
+.cb-3548-box::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    width: 7px;
+    height: 14px;
+    z-index: 2;
+    opacity: 0;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    transform: rotate(45deg) scale(0);
+    transition: all .3s ease;
+    transition-delay: .1s;
+}
+.cb-3548-hidden:checked + .cb-3548-box {
+    border-color: #ef4444;
+    box-shadow:
+        0 0 8px rgba(239, 68, 68, .82),
+        0 0 16px rgba(220, 38, 38, .38),
+        inset 0 0 8px rgba(239, 68, 68, .15);
+    animation: cb3548Jelly .6s ease;
+}
+.cb-3548-hidden:checked + .cb-3548-box::before {
+    opacity: 1;
+}
+.cb-3548-hidden:checked + .cb-3548-box::after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+@keyframes cb3548Jelly {
+    0%, 100% { transform: scale(1); }
+    30% { transform: scale(1.25, .75); }
+    40% { transform: scale(.75, 1.25); }
+    50% { transform: scale(1.15, .85); }
+    65% { transform: scale(.95, 1.05); }
+    75% { transform: scale(1.05, .95); }
+}`,
+  },
+  {
+    id: 3549,
+    name: "Lapis Ore Jelly Checkbox",
+    preview: (
+      <label className="cb-3549-cntr">
+        <input type="checkbox" className="cb-3549-hidden" defaultChecked />
+        <span className="cb-3549-box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3549-cntr">
+    <input type="checkbox" class="cb-3549-hidden" checked />
+    <span class="cb-3549-box"></span>
+</label>`,
+    css: `.cb-3549-cntr {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3549-hidden {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.cb-3549-box {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #1d4ed8;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #737373, #404040);
+    transition:
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+.cb-3549-box::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    opacity: .3;
+    background:
+        radial-gradient(circle at 18% 22%, #60a5fa 0 3px, transparent 4px),
+        radial-gradient(circle at 70% 20%, #1d4ed8 0 4px, transparent 5px),
+        radial-gradient(circle at 42% 72%, #2563eb 0 4px, transparent 5px),
+        radial-gradient(circle at 82% 72%, #1e40af 0 3px, transparent 4px);
+    transition: opacity .25s ease;
+}
+.cb-3549-box::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    width: 7px;
+    height: 14px;
+    z-index: 2;
+    opacity: 0;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    transform: rotate(45deg) scale(0);
+    transition: all .3s ease;
+    transition-delay: .1s;
+}
+.cb-3549-hidden:checked + .cb-3549-box {
+    border-color: #60a5fa;
+    box-shadow:
+        0 0 8px rgba(37, 99, 235, .8),
+        0 0 15px rgba(29, 78, 216, .32);
+    animation: cb3549Jelly .6s ease;
+}
+.cb-3549-hidden:checked + .cb-3549-box::before {
+    opacity: 1;
+}
+.cb-3549-hidden:checked + .cb-3549-box::after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+@keyframes cb3549Jelly {
+    0%, 100% { transform: scale(1); }
+    30% { transform: scale(1.25, .75); }
+    40% { transform: scale(.75, 1.25); }
+    50% { transform: scale(1.15, .85); }
+    65% { transform: scale(.95, 1.05); }
+    75% { transform: scale(1.05, .95); }
+}`,
+  },
+  {
+    id: 3550,
+    name: "Diamond Ore Jelly Checkbox",
+    preview: (
+      <label className="cb-3550-cntr">
+        <input type="checkbox" className="cb-3550-hidden" defaultChecked />
+        <span className="cb-3550-box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3550-cntr">
+    <input type="checkbox" class="cb-3550-hidden" checked />
+    <span class="cb-3550-box"></span>
+</label>`,
+    css: `.cb-3550-cntr {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3550-hidden {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.cb-3550-box {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #22d3ee;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #737373, #404040);
+    transition:
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+.cb-3550-box::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    opacity: .3;
+    background:
+        radial-gradient(circle at 20% 22%, #a5f3fc 0 3px, transparent 4px),
+        radial-gradient(circle at 72% 22%, #22d3ee 0 4px, transparent 5px),
+        radial-gradient(circle at 39% 72%, #67e8f9 0 4px, transparent 5px),
+        radial-gradient(circle at 82% 73%, #06b6d4 0 3px, transparent 4px);
+    transition: opacity .25s ease;
+}
+.cb-3550-box::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    width: 7px;
+    height: 14px;
+    z-index: 2;
+    opacity: 0;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    transform: rotate(45deg) scale(0);
+    filter: drop-shadow(0 0 3px #67e8f9);
+    transition: all .3s ease;
+    transition-delay: .1s;
+}
+.cb-3550-hidden:checked + .cb-3550-box {
+    border-color: #a5f3fc;
+    box-shadow:
+        0 0 8px rgba(34, 211, 238, .82),
+        0 0 16px rgba(6, 182, 212, .35),
+        inset 0 0 8px rgba(165, 243, 252, .14);
+    animation: cb3550Jelly .6s ease;
+}
+.cb-3550-hidden:checked + .cb-3550-box::before {
+    opacity: 1;
+}
+.cb-3550-hidden:checked + .cb-3550-box::after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+@keyframes cb3550Jelly {
+    0%, 100% { transform: scale(1); }
+    30% { transform: scale(1.25, .75); }
+    40% { transform: scale(.75, 1.25); }
+    50% { transform: scale(1.15, .85); }
+    65% { transform: scale(.95, 1.05); }
+    75% { transform: scale(1.05, .95); }
+}`,
+  },
+  {
+    id: 3551,
+    name: "Emerald Ore Jelly Checkbox",
+    preview: (
+      <label className="cb-3551-cntr">
+        <input type="checkbox" className="cb-3551-hidden" defaultChecked />
+        <span className="cb-3551-box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3551-cntr">
+    <input type="checkbox" class="cb-3551-hidden" checked />
+    <span class="cb-3551-box"></span>
+</label>`,
+    css: `.cb-3551-cntr {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3551-hidden {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.cb-3551-box {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #10b981;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #737373, #404040);
+    transition:
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+.cb-3551-box::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    opacity: .3;
+    background:
+        radial-gradient(circle at 20% 22%, #6ee7b7 0 3px, transparent 4px),
+        radial-gradient(circle at 70% 20%, #10b981 0 4px, transparent 5px),
+        radial-gradient(circle at 40% 72%, #34d399 0 4px, transparent 5px),
+        radial-gradient(circle at 82% 72%, #059669 0 3px, transparent 4px);
+    transition: opacity .25s ease;
+}
+.cb-3551-box::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    width: 7px;
+    height: 14px;
+    z-index: 2;
+    opacity: 0;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    transform: rotate(45deg) scale(0);
+    filter: drop-shadow(0 0 3px #34d399);
+    transition: all .3s ease;
+    transition-delay: .1s;
+}
+.cb-3551-hidden:checked + .cb-3551-box {
+    border-color: #34d399;
+    box-shadow:
+        0 0 8px rgba(16, 185, 129, .8),
+        0 0 15px rgba(5, 150, 105, .32);
+    animation: cb3551Jelly .6s ease;
+}
+.cb-3551-hidden:checked + .cb-3551-box::before {
+    opacity: 1;
+}
+.cb-3551-hidden:checked + .cb-3551-box::after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+@keyframes cb3551Jelly {
+    0%, 100% { transform: scale(1); }
+    30% { transform: scale(1.25, .75); }
+    40% { transform: scale(.75, 1.25); }
+    50% { transform: scale(1.15, .85); }
+    65% { transform: scale(.95, 1.05); }
+    75% { transform: scale(1.05, .95); }
+}`,
+  },
+  {
+    id: 3552,
+    name: "Nether Quartz Ore Jelly Checkbox",
+    preview: (
+      <label className="cb-3552-cntr">
+        <input type="checkbox" className="cb-3552-hidden" defaultChecked />
+        <span className="cb-3552-box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3552-cntr">
+    <input type="checkbox" class="cb-3552-hidden" checked />
+    <span class="cb-3552-box"></span>
+</label>`,
+    css: `.cb-3552-cntr {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3552-hidden {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.cb-3552-box {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #991b1b;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #7f1d1d, #450a0a);
+    transition:
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+.cb-3552-box::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    opacity: .3;
+    background:
+        radial-gradient(circle at 19% 23%, #ffffff 0 3px, transparent 4px),
+        radial-gradient(circle at 70% 20%, #e7e5e4 0 4px, transparent 5px),
+        radial-gradient(circle at 40% 72%, #fafaf9 0 3px, transparent 4px),
+        radial-gradient(circle at 82% 72%, #d6d3d1 0 3px, transparent 4px);
+    transition: opacity .25s ease;
+}
+.cb-3552-box::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    width: 7px;
+    height: 14px;
+    z-index: 2;
+    opacity: 0;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    transform: rotate(45deg) scale(0);
+    transition: all .3s ease;
+    transition-delay: .1s;
+}
+.cb-3552-hidden:checked + .cb-3552-box {
+    border-color: #fafaf9;
+    box-shadow:
+        0 0 8px rgba(245, 245, 244, .52),
+        inset 0 0 9px rgba(255, 255, 255, .1);
+    animation: cb3552Jelly .6s ease;
+}
+.cb-3552-hidden:checked + .cb-3552-box::before {
+    opacity: 1;
+}
+.cb-3552-hidden:checked + .cb-3552-box::after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+@keyframes cb3552Jelly {
+    0%, 100% { transform: scale(1); }
+    30% { transform: scale(1.25, .75); }
+    40% { transform: scale(.75, 1.25); }
+    50% { transform: scale(1.15, .85); }
+    65% { transform: scale(.95, 1.05); }
+    75% { transform: scale(1.05, .95); }
+}`,
+  },
+  {
+    id: 3553,
+    name: "Nether Gold Ore Jelly Checkbox",
+    preview: (
+      <label className="cb-3553-cntr">
+        <input type="checkbox" className="cb-3553-hidden" defaultChecked />
+        <span className="cb-3553-box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3553-cntr">
+    <input type="checkbox" class="cb-3553-hidden" checked />
+    <span class="cb-3553-box"></span>
+</label>`,
+    css: `.cb-3553-cntr {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3553-hidden {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.cb-3553-box {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #92400e;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #7f1d1d, #450a0a);
+    transition:
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+.cb-3553-box::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    opacity: .3;
+    background:
+        radial-gradient(circle at 20% 22%, #fde047 0 3px, transparent 4px),
+        radial-gradient(circle at 70% 24%, #facc15 0 3px, transparent 4px),
+        radial-gradient(circle at 39% 72%, #eab308 0 4px, transparent 5px),
+        radial-gradient(circle at 82% 72%, #f59e0b 0 3px, transparent 4px);
+    transition: opacity .25s ease;
+}
+.cb-3553-box::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    width: 7px;
+    height: 14px;
+    z-index: 2;
+    opacity: 0;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    transform: rotate(45deg) scale(0);
+    transition: all .3s ease;
+    transition-delay: .1s;
+}
+.cb-3553-hidden:checked + .cb-3553-box {
+    border-color: #fde047;
+    box-shadow:
+        0 0 8px rgba(250, 204, 21, .68),
+        0 0 14px rgba(245, 158, 11, .28);
+    animation: cb3553Jelly .6s ease;
+}
+.cb-3553-hidden:checked + .cb-3553-box::before {
+    opacity: 1;
+}
+.cb-3553-hidden:checked + .cb-3553-box::after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+@keyframes cb3553Jelly {
+    0%, 100% { transform: scale(1); }
+    30% { transform: scale(1.25, .75); }
+    40% { transform: scale(.75, 1.25); }
+    50% { transform: scale(1.15, .85); }
+    65% { transform: scale(.95, 1.05); }
+    75% { transform: scale(1.05, .95); }
+}`,
+  },
+  {
+    id: 3554,
+    name: "Ancient Debris Jelly Checkbox",
+    preview: (
+      <label className="cb-3554-cntr">
+        <input type="checkbox" className="cb-3554-hidden" defaultChecked />
+        <span className="cb-3554-box"></span>
+      </label>
+    ),
+    html: `<label class="cb-3554-cntr">
+    <input type="checkbox" class="cb-3554-hidden" checked />
+    <span class="cb-3554-box"></span>
+</label>`,
+    css: `.cb-3554-cntr {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+}
+.cb-3554-hidden {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.cb-3554-box {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #7c2d12;
+    border-radius: 4px;
+    background:
+        linear-gradient(
+            135deg,
+            #78350f,
+            #3f1d13 55%,
+            #1c1917
+        );
+    transition:
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+.cb-3554-box::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    opacity: .32;
+    background:
+        linear-gradient(
+            28deg,
+            transparent 0 18%,
+            #a65f3f 19% 29%,
+            transparent 30% 47%,
+            #633728 48% 59%,
+            transparent 60%
+        ),
+        linear-gradient(
+            -38deg,
+            transparent 0 26%,
+            #b66b48 27% 36%,
+            transparent 37% 60%,
+            #74432f 61% 72%,
+            transparent 73%
+        );
+    transition: opacity .25s ease;
+}
+.cb-3554-box::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    width: 7px;
+    height: 14px;
+    z-index: 2;
+    opacity: 0;
+    border-right: 2px solid #f5f5f4;
+    border-bottom: 2px solid #f5f5f4;
+    transform: rotate(45deg) scale(0);
+    filter: drop-shadow(0 0 2px #f97316);
+    transition: all .3s ease;
+    transition-delay: .1s;
+}
+.cb-3554-hidden:checked + .cb-3554-box {
+    border-color: #b45309;
+    box-shadow:
+        0 0 8px rgba(180, 83, 9, .58),
+        inset 0 0 9px rgba(120, 53, 15, .28);
+    animation: cb3554Jelly .6s ease;
+}
+.cb-3554-hidden:checked + .cb-3554-box::before {
+    opacity: 1;
+}
+.cb-3554-hidden:checked + .cb-3554-box::after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+@keyframes cb3554Jelly {
+    0%, 100% { transform: scale(1); }
+    30% { transform: scale(1.25, .75); }
+    40% { transform: scale(.75, 1.25); }
+    50% { transform: scale(1.15, .85); }
+    65% { transform: scale(.95, 1.05); }
+    75% { transform: scale(1.05, .95); }
+}`,
+  },
+
+  
 ];

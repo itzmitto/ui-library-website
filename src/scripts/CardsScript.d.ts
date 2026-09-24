@@ -1,0 +1,1 @@
+export function initCard(id: number, element: Element): void;

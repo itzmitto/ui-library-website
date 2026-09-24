@@ -18735,4 +18735,1191 @@ export const cards = [
     cursor: pointer;
 }`,
   },
+  {
+    id: 3560,
+    name: "Crystal Reactor Card",
+    preview: (
+      <div className="card-3560" data-card-id="3560">
+        <div className="card-3560__glow"></div>
+
+        <div className="card-3560__header">
+          <div>
+            <span className="card-3560__eyebrow">CRYSTAL SYSTEM</span>
+            <h3 className="card-3560__title">Prism Reactor</h3>
+          </div>
+
+          <span className="card-3560__status">
+            <span className="card-3560__status-dot"></span>
+            Stable
+          </span>
+        </div>
+
+        <div className="card-3560__reactor">
+          <div className="card-3560__ring card-3560__ring-1"></div>
+          <div className="card-3560__ring card-3560__ring-2"></div>
+
+          <div className="card-3560__crystal">
+            <span className="card-3560__facet card-3560__facet-1"></span>
+            <span className="card-3560__facet card-3560__facet-2"></span>
+            <span className="card-3560__facet card-3560__facet-3"></span>
+          </div>
+
+          <div className="card-3560__reactor-value">
+            <strong className="card-3560__charge">68</strong>
+            <span>%</span>
+          </div>
+        </div>
+
+        <div className="card-3560__energy">
+          <div className="card-3560__energy-top">
+            <span>Reactor charge</span>
+            <span className="card-3560__energy-label">68%</span>
+          </div>
+
+          <div className="card-3560__track">
+            <span className="card-3560__fill"></span>
+          </div>
+        </div>
+
+        <div className="card-3560__stats">
+          <div className="card-3560__stat">
+            <span>Crystals</span>
+            <strong>12</strong>
+          </div>
+
+          <div className="card-3560__stat">
+            <span>Output</span>
+            <strong className="card-3560__output">4.8 GW</strong>
+          </div>
+
+          <div className="card-3560__stat">
+            <span>Core</span>
+            <strong className="card-3560__core-state">Stable</strong>
+          </div>
+        </div>
+
+        <div className="card-3560__details">
+          <div>
+            <span>Temperature</span>
+            <strong>1,428 K</strong>
+          </div>
+
+          <div>
+            <span>Containment</span>
+            <strong>99.8%</strong>
+          </div>
+
+          <div>
+            <span>Crystal purity</span>
+            <strong>Ultra</strong>
+          </div>
+        </div>
+
+        <div className="card-3560__actions">
+          <button
+            className="card-3560__button card-3560__button-primary"
+            type="button"
+          >
+            <i className="ri-flashlight-fill"></i>
+            <span>Boost reactor</span>
+          </button>
+
+          <button
+            className="card-3560__button card-3560__button-secondary"
+            type="button"
+            aria-expanded="false"
+          >
+            <span>Details</span>
+            <i className="ri-arrow-down-s-line"></i>
+          </button>
+        </div>
+      </div>
+    ),
+    html: `<div class="Card3560" data-card-id="3560">
+    <div class="Card3560__glow"></div>
+
+    <div class="Card3560__header">
+        <div>
+            <span class="Card3560__eyebrow">CRYSTAL SYSTEM</span>
+            <h3 class="Card3560__title">Prism Reactor</h3>
+        </div>
+
+        <span class="Card3560__status">
+            <span class="Card3560__status-dot"></span>
+            Stable
+        </span>
+    </div>
+
+    <div class="Card3560__reactor">
+        <div class="Card3560__ring Card3560__ring--1"></div>
+        <div class="Card3560__ring Card3560__ring--2"></div>
+
+        <div class="Card3560__crystal">
+            <span class="Card3560__facet Card3560__facet--1"></span>
+            <span class="Card3560__facet Card3560__facet--2"></span>
+            <span class="Card3560__facet Card3560__facet--3"></span>
+        </div>
+
+        <div class="Card3560__reactor-value">
+            <strong class="Card3560__charge">68</strong>
+            <span>%</span>
+        </div>
+    </div>
+
+    <div class="Card3560__energy">
+        <div class="Card3560__energy-top">
+            <span>Reactor charge</span>
+            <span class="Card3560__energy-label">68%</span>
+        </div>
+
+        <div class="Card3560__track">
+            <span class="Card3560__fill"></span>
+        </div>
+    </div>
+
+    <div class="Card3560__stats">
+        <div class="Card3560__stat">
+            <span>Crystals</span>
+            <strong>12</strong>
+        </div>
+
+        <div class="Card3560__stat">
+            <span>Output</span>
+            <strong class="Card3560__output">4.8 GW</strong>
+        </div>
+
+        <div class="Card3560__stat">
+            <span>Core</span>
+            <strong class="Card3560__core-state">Stable</strong>
+        </div>
+    </div>
+
+    <div class="Card3560__details">
+        <div>
+            <span>Temperature</span>
+            <strong>1,428 K</strong>
+        </div>
+
+        <div>
+            <span>Containment</span>
+            <strong>99.8%</strong>
+        </div>
+
+        <div>
+            <span>Crystal purity</span>
+            <strong>Ultra</strong>
+        </div>
+    </div>
+
+    <div class="Card3560__actions">
+        <button class="Card3560__button Card3560__button--primary" type="button">
+            <i class="ri-flashlight-fill"></i>
+            <span>Boost reactor</span>
+        </button>
+
+        <button
+            class="Card3560__button Card3560__button--secondary"
+            type="button"
+            aria-expanded="false"
+        >
+            <span>Details</span>
+            <i class="ri-arrow-down-s-line"></i>
+        </button>
+    </div>
+</div>`,
+    css: `.Card3560 {
+    --rx: 0deg;
+    --ry: 0deg;
+    position: relative;
+    width: 340px;
+    padding: 22px;
+    overflow: hidden;
+    border: 1px solid rgba(103, 232, 249, .2);
+    border-radius: 24px;
+    background:
+        radial-gradient(
+            circle at 50% 15%,
+            rgba(99, 102, 241, .16),
+            transparent 36%
+        ),
+        linear-gradient(
+            145deg,
+            #111827,
+            #070b15 65%,
+            #05070d
+        );
+    color: #f8fafc;
+    box-shadow:
+        0 22px 50px rgba(0, 0, 0, .35),
+        inset 0 1px 0 rgba(255, 255, 255, .06);
+    transform:
+        perspective(900px)
+        rotateX(var(--rx))
+        rotateY(var(--ry));
+    transform-style: preserve-3d;
+    transition:
+        transform .18s ease,
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+
+.Card3560:hover {
+    border-color: rgba(103, 232, 249, .4);
+    box-shadow:
+        0 28px 60px rgba(0, 0, 0, .45),
+        0 0 30px rgba(99, 102, 241, .1),
+        inset 0 1px 0 rgba(255, 255, 255, .08);
+}
+
+.Card3560__glow {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 50%;
+    top: 70px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    pointer-events: none;
+    background: rgba(34, 211, 238, .08);
+    filter: blur(45px);
+}
+
+.Card3560__header {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.Card3560__eyebrow {
+    display: block;
+    margin-bottom: 5px;
+    color: #67e8f9;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .18em;
+}
+
+.Card3560__title {
+    margin: 0;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.Card3560__status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 9px;
+    border: 1px solid rgba(52, 211, 153, .18);
+    border-radius: 999px;
+    background: rgba(16, 185, 129, .08);
+    color: #6ee7b7;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.Card3560__status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #34d399;
+    box-shadow: 0 0 7px #34d399;
+}
+
+.Card3560__reactor {
+    position: relative;
+    width: 142px;
+    height: 142px;
+    margin: 20px auto 18px;
+    display: grid;
+    place-items: center;
+}
+
+.Card3560__ring {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.Card3560__ring--1 {
+    inset: 5px;
+    border: 1px solid rgba(103, 232, 249, .18);
+    box-shadow:
+        inset 0 0 18px rgba(103, 232, 249, .08),
+        0 0 12px rgba(103, 232, 249, .08);
+}
+
+.Card3560__ring--2 {
+    inset: 20px;
+    border: 1px dashed rgba(167, 139, 250, .3);
+}
+
+.Card3560__crystal {
+    position: relative;
+    width: 58px;
+    height: 68px;
+    overflow: hidden;
+    clip-path: polygon(
+        50% 0,
+        88% 25%,
+        74% 100%,
+        26% 100%,
+        12% 25%
+    );
+    background:
+        linear-gradient(
+            145deg,
+            #ecfeff,
+            #67e8f9 25%,
+            #6366f1 62%,
+            #a855f7
+        );
+    filter:
+        drop-shadow(0 0 10px rgba(103, 232, 249, .55));
+    transition:
+        filter .25s ease,
+        transform .25s ease;
+}
+
+.Card3560__facet {
+    position: absolute;
+}
+
+.Card3560__facet--1 {
+    width: 30px;
+    height: 48px;
+    left: 3px;
+    top: 3px;
+    background: rgba(255, 255, 255, .28);
+    clip-path: polygon(
+        0 0,
+        100% 12%,
+        42% 100%
+    );
+}
+
+.Card3560__facet--2 {
+    width: 28px;
+    height: 48px;
+    right: 2px;
+    top: 4px;
+    background: rgba(255, 255, 255, .08);
+    clip-path: polygon(
+        58% 0,
+        100% 35%,
+        0 100%
+    );
+}
+
+.Card3560__facet--3 {
+    width: 34px;
+    height: 25px;
+    left: 12px;
+    bottom: 1px;
+    background: rgba(30, 27, 75, .22);
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        50% 100%
+    );
+}
+
+.Card3560__reactor-value {
+    position: absolute;
+    left: 50%;
+    bottom: 3px;
+    transform: translateX(-50%);
+    padding: 4px 8px;
+    border: 1px solid rgba(103, 232, 249, .16);
+    border-radius: 999px;
+    background: rgba(5, 7, 13, .82);
+    color: #c4b5fd;
+    font-size: 9px;
+    backdrop-filter: blur(8px);
+}
+
+.Card3560__reactor-value strong {
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.Card3560__energy {
+    position: relative;
+    z-index: 2;
+}
+
+.Card3560__energy-top {
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    color: #94a3b8;
+    font-size: 10px;
+}
+
+.Card3560__energy-label {
+    color: #67e8f9;
+    font-weight: 700;
+}
+
+.Card3560__track {
+    height: 6px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .06);
+}
+
+.Card3560__fill {
+    display: block;
+    width: 68%;
+    height: 100%;
+    border-radius: inherit;
+    background:
+        linear-gradient(
+            90deg,
+            #22d3ee,
+            #6366f1,
+            #a855f7
+        );
+    box-shadow: 0 0 8px rgba(99, 102, 241, .55);
+    transition: width .35s ease;
+}
+
+.Card3560__stats {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.Card3560__stat {
+    padding: 10px 8px;
+    border: 1px solid rgba(148, 163, 184, .1);
+    border-radius: 11px;
+    background: rgba(255, 255, 255, .025);
+}
+
+.Card3560__stat span {
+    display: block;
+    margin-bottom: 4px;
+    color: #64748b;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+}
+
+.Card3560__stat strong {
+    color: #e2e8f0;
+    font-size: 10px;
+}
+
+.Card3560__details {
+    position: relative;
+    z-index: 2;
+    max-height: 0;
+    margin-top: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: grid;
+    gap: 7px;
+    transition:
+        max-height .3s ease,
+        opacity .25s ease,
+        margin-top .3s ease;
+}
+
+.Card3560.is-expanded .Card3560__details {
+    max-height: 120px;
+    margin-top: 14px;
+    opacity: 1;
+}
+
+.Card3560__details div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(148, 163, 184, .08);
+    color: #64748b;
+    font-size: 9px;
+}
+
+.Card3560__details strong {
+    color: #cbd5e1;
+    font-size: 9px;
+}
+
+.Card3560__actions {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.Card3560__button {
+    height: 35px;
+    border: 0;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    cursor: pointer;
+    font: inherit;
+    font-size: 10px;
+    font-weight: 700;
+    transition:
+        transform .18s ease,
+        background .18s ease,
+        box-shadow .18s ease;
+}
+
+.Card3560__button:active {
+    transform: scale(.96);
+}
+
+.Card3560__button--primary {
+    flex: 1;
+    color: #07111d;
+    background:
+        linear-gradient(
+            135deg,
+            #67e8f9,
+            #818cf8
+        );
+    box-shadow: 0 0 12px rgba(99, 102, 241, .24);
+}
+
+.Card3560__button--secondary {
+    padding: 0 13px;
+    color: #cbd5e1;
+    border: 1px solid rgba(148, 163, 184, .14);
+    background: rgba(255, 255, 255, .04);
+}
+
+.Card3560.is-overcharged .Card3560__crystal {
+    transform: scale(1.08);
+    filter:
+        drop-shadow(0 0 12px #67e8f9)
+        drop-shadow(0 0 22px #a855f7);
+}
+
+.Card3560.is-overcharged .Card3560__status {
+    color: #f0abfc;
+    border-color: rgba(232, 121, 249, .28);
+    background: rgba(168, 85, 247, .1);
+}
+
+.Card3560.is-overcharged .Card3560__status-dot {
+    background: #e879f9;
+    box-shadow: 0 0 8px #e879f9;
+}`,
+    javascript: `const card = document.querySelector('.Card3560');
+
+if (card) {
+    const boostButton = card.querySelector('.Card3560__button--primary');
+    const detailsButton = card.querySelector('.Card3560__button--secondary');
+    const charge = card.querySelector('.Card3560__charge');
+    const energyLabel = card.querySelector('.Card3560__energy-label');
+    const fill = card.querySelector('.Card3560__fill');
+    const output = card.querySelector('.Card3560__output');
+    const coreState = card.querySelector('.Card3560__core-state');
+    const status = card.querySelector('.Card3560__status');
+
+    let level = 68;
+
+    card.addEventListener('mousemove', (event) => {
+        const rect = card.getBoundingClientRect();
+
+        const x = (event.clientX - rect.left) / rect.width;
+        const y = (event.clientY - rect.top) / rect.height;
+
+        const rotateY = (x - 0.5) * 8;
+        const rotateX = (0.5 - y) * 8;
+
+        card.style.setProperty('--rx', rotateX + 'deg');
+        card.style.setProperty('--ry', rotateY + 'deg');
+    });
+
+    card.addEventListener('mouseleave', () => {
+        card.style.setProperty('--rx', '0deg');
+        card.style.setProperty('--ry', '0deg');
+    });
+
+    boostButton.addEventListener('click', () => {
+        level = Math.min(100, level + Math.floor(Math.random() * 10) + 6);
+
+        charge.textContent = level;
+        energyLabel.textContent = level + '%';
+        fill.style.width = level + '%';
+
+        const power = (level / 14.2).toFixed(1);
+        output.textContent = power + ' GW';
+
+        if (level >= 100) {
+            card.classList.add('is-overcharged');
+            coreState.textContent = 'Maximum';
+            status.lastChild.textContent = ' Maximum';
+            boostButton.querySelector('span').textContent = 'Fully charged';
+        } else if (level >= 85) {
+            coreState.textContent = 'High';
+            status.lastChild.textContent = ' High output';
+        } else {
+            coreState.textContent = 'Stable';
+            status.lastChild.textContent = ' Stable';
+        }
+    });
+
+    detailsButton.addEventListener('click', () => {
+        const expanded = card.classList.toggle('is-expanded');
+
+        detailsButton.setAttribute('aria-expanded', String(expanded));
+        detailsButton.querySelector('span').textContent =
+            expanded ? 'Close' : 'Details';
+
+        const icon = detailsButton.querySelector('i');
+
+        if (icon) {
+            icon.className = expanded
+                ? 'ri-arrow-up-s-line'
+                : 'ri-arrow-down-s-line';
+        }
+    });
+}`,
+    scriptId: 3560,
+  },
+
+  {
+    id: 3561,
+    name: "Prismatic 3D Card",
+    preview: (
+      <div className="card-3561-scene">
+        <div className="card-3561" data-card-id="3561">
+          <div className="card-3561__glare"></div>
+          <div className="card-3561__aurora"></div>
+
+          <div className="card-3561__top">
+            <div className="card-3561__brand">
+              <span className="card-3561__brand-icon">
+                <i className="ri-gemini-fill"></i>
+              </span>
+
+              <div>
+                <span className="card-3561__brand-small">PRISM</span>
+                <strong>CRYSTAL</strong>
+              </div>
+            </div>
+
+            <span className="card-3561__badge">ELITE</span>
+          </div>
+
+          <div className="card-3561__crystal">
+            <span className="card-3561__crystal-face card-3561__crystal-face-1"></span>
+            <span className="card-3561__crystal-face card-3561__crystal-face-2"></span>
+            <span className="card-3561__crystal-face card-3561__crystal-face-3"></span>
+            <span className="card-3561__crystal-face card-3561__crystal-face-4"></span>
+          </div>
+
+          <div className="card-3561__number">
+            <span>4582</span>
+            <span>9017</span>
+            <span>6640</span>
+            <span>3561</span>
+          </div>
+
+          <div className="card-3561__bottom">
+            <div className="card-3561__owner">
+              <span>CARD HOLDER</span>
+              <strong>ANDRE</strong>
+            </div>
+
+            <div className="card-3561__valid">
+              <span>VALID THRU</span>
+              <strong>09 / 30</strong>
+            </div>
+
+            <div className="card-3561__signal">
+              <i className="ri-wifi-line"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="Card3561Scene">
+    <div class="Card3561" data-card-id="3561">
+        <div class="Card3561__glare"></div>
+        <div class="Card3561__aurora"></div>
+
+        <div class="Card3561__top">
+            <div class="Card3561__brand">
+                <span class="Card3561__brand-icon">
+                    <i class="ri-gemini-fill"></i>
+                </span>
+
+                <div>
+                    <span class="Card3561__brand-small">PRISM</span>
+                    <strong>CRYSTAL</strong>
+                </div>
+            </div>
+
+            <span class="Card3561__badge">ELITE</span>
+        </div>
+
+        <div class="Card3561__crystal">
+            <span class="Card3561__crystal-face Card3561__crystal-face--1"></span>
+            <span class="Card3561__crystal-face Card3561__crystal-face--2"></span>
+            <span class="Card3561__crystal-face Card3561__crystal-face--3"></span>
+            <span class="Card3561__crystal-face Card3561__crystal-face--4"></span>
+        </div>
+
+        <div class="Card3561__number">
+            <span>4582</span>
+            <span>9017</span>
+            <span>6640</span>
+            <span>3561</span>
+        </div>
+
+        <div class="Card3561__bottom">
+            <div class="Card3561__owner">
+                <span>CARD HOLDER</span>
+                <strong>ANDRE</strong>
+            </div>
+
+            <div class="Card3561__valid">
+                <span>VALID THRU</span>
+                <strong>09 / 30</strong>
+            </div>
+
+            <div class="Card3561__signal">
+                <i class="ri-wifi-line"></i>
+            </div>
+        </div>
+    </div>
+</div>`,
+    css: `.Card3561Scene {
+    width: 100%;
+    max-width: 390px;
+    perspective: 1100px;
+}
+
+.Card3561 {
+    --rotate-x: 0deg;
+    --rotate-y: 0deg;
+    --glare-x: 50%;
+    --glare-y: 50%;
+
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1.586 / 1;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, .22);
+    border-radius: clamp(18px, 5vw, 26px);
+    background:
+        radial-gradient(
+            circle at 12% 10%,
+            rgba(255, 255, 255, .22),
+            transparent 25%
+        ),
+        radial-gradient(
+            circle at 85% 80%,
+            rgba(168, 85, 247, .28),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #0f172a 0%,
+            #172554 35%,
+            #312e81 64%,
+            #581c87 100%
+        );
+    color: #ffffff;
+    box-shadow:
+        0 28px 60px rgba(0, 0, 0, .42),
+        0 0 30px rgba(99, 102, 241, .12),
+        inset 0 1px 0 rgba(255, 255, 255, .18);
+    transform:
+        rotateX(var(--rotate-x))
+        rotateY(var(--rotate-y));
+    transform-style: preserve-3d;
+    transition:
+        transform .18s ease,
+        box-shadow .25s ease;
+    will-change: transform;
+}
+
+.Card3561::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+        linear-gradient(
+            115deg,
+            transparent 15%,
+            rgba(103, 232, 249, .08) 35%,
+            rgba(255, 255, 255, .14) 48%,
+            rgba(232, 121, 249, .08) 62%,
+            transparent 82%
+        );
+}
+
+.Card3561::after {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    border-radius: inherit;
+    pointer-events: none;
+    border: 1px solid rgba(255, 255, 255, .06);
+}
+
+.Card3561__glare {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0;
+    background:
+        radial-gradient(
+            circle at var(--glare-x) var(--glare-y),
+            rgba(255, 255, 255, .38),
+            rgba(103, 232, 249, .12) 18%,
+            transparent 44%
+        );
+    mix-blend-mode: screen;
+    transition: opacity .22s ease;
+}
+
+.Card3561:hover .Card3561__glare {
+    opacity: 1;
+}
+
+.Card3561__aurora {
+    position: absolute;
+    width: 70%;
+    height: 115%;
+    right: -25%;
+    top: -30%;
+    border-radius: 50%;
+    pointer-events: none;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(34, 211, 238, .32),
+            rgba(99, 102, 241, .18),
+            rgba(217, 70, 239, .3)
+        );
+    filter: blur(36px);
+    transform: translateZ(5px);
+}
+
+.Card3561__top {
+    position: absolute;
+    z-index: 3;
+    top: 9%;
+    left: 7%;
+    right: 7%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    transform: translateZ(34px);
+}
+
+.Card3561__brand {
+    display: flex;
+    align-items: center;
+    gap: clamp(7px, 2vw, 11px);
+}
+
+.Card3561__brand-icon {
+    width: clamp(30px, 9vw, 40px);
+    height: clamp(30px, 9vw, 40px);
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255, 255, 255, .24);
+    border-radius: 11px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, .19),
+            rgba(255, 255, 255, .05)
+        );
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, .2),
+        0 6px 16px rgba(0, 0, 0, .14);
+    backdrop-filter: blur(8px);
+}
+
+.Card3561__brand-icon i {
+    color: #a5f3fc;
+    font-size: clamp(15px, 5vw, 20px);
+    filter: drop-shadow(0 0 5px #22d3ee);
+}
+
+.Card3561__brand-small {
+    display: block;
+    margin-bottom: 1px;
+    color: #94a3b8;
+    font-size: clamp(6px, 2vw, 8px);
+    font-weight: 700;
+    letter-spacing: .2em;
+}
+
+.Card3561__brand strong {
+    display: block;
+    color: #f8fafc;
+    font-size: clamp(10px, 3vw, 14px);
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+
+.Card3561__badge {
+    padding: clamp(4px, 1.4vw, 6px) clamp(7px, 2vw, 10px);
+    border: 1px solid rgba(165, 243, 252, .22);
+    border-radius: 999px;
+    background: rgba(103, 232, 249, .08);
+    color: #a5f3fc;
+    font-size: clamp(6px, 2vw, 8px);
+    font-weight: 800;
+    letter-spacing: .12em;
+    backdrop-filter: blur(8px);
+}
+
+.Card3561__crystal {
+    position: absolute;
+    z-index: 2;
+    width: 25%;
+    aspect-ratio: .82;
+    top: 24%;
+    right: 11%;
+    overflow: hidden;
+    clip-path: polygon(
+        50% 0,
+        88% 19%,
+        100% 57%,
+        72% 100%,
+        28% 100%,
+        0 57%,
+        12% 19%
+    );
+    background:
+        linear-gradient(
+            145deg,
+            #ecfeff 0%,
+            #67e8f9 21%,
+            #818cf8 54%,
+            #a855f7 78%,
+            #581c87 100%
+        );
+    filter:
+        drop-shadow(0 0 8px rgba(103, 232, 249, .55))
+        drop-shadow(0 0 14px rgba(168, 85, 247, .22));
+    transform:
+        translateZ(48px)
+        rotate(7deg);
+    transition:
+        transform .25s ease,
+        filter .25s ease;
+}
+
+.Card3561:hover .Card3561__crystal {
+    transform:
+        translateZ(58px)
+        rotate(3deg)
+        scale(1.04);
+    filter:
+        drop-shadow(0 0 12px rgba(103, 232, 249, .72))
+        drop-shadow(0 0 20px rgba(168, 85, 247, .38));
+}
+
+.Card3561__crystal-face {
+    position: absolute;
+    display: block;
+}
+
+.Card3561__crystal-face--1 {
+    width: 52%;
+    height: 58%;
+    left: 3%;
+    top: 2%;
+    background: rgba(255, 255, 255, .35);
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        58% 100%
+    );
+}
+
+.Card3561__crystal-face--2 {
+    width: 49%;
+    height: 56%;
+    right: 2%;
+    top: 2%;
+    background: rgba(255, 255, 255, .1);
+    clip-path: polygon(
+        0 0,
+        100% 35%,
+        20% 100%
+    );
+}
+
+.Card3561__crystal-face--3 {
+    width: 53%;
+    height: 52%;
+    left: 4%;
+    bottom: 1%;
+    background: rgba(34, 211, 238, .17);
+    clip-path: polygon(
+        50% 0,
+        100% 100%,
+        0 100%
+    );
+}
+
+.Card3561__crystal-face--4 {
+    width: 52%;
+    height: 54%;
+    right: 2%;
+    bottom: 1%;
+    background: rgba(30, 27, 75, .24);
+    clip-path: polygon(
+        35% 0,
+        100% 100%,
+        0 100%
+    );
+}
+
+.Card3561__number {
+    position: absolute;
+    z-index: 4;
+    left: 7%;
+    bottom: 30%;
+    display: flex;
+    gap: clamp(8px, 3vw, 16px);
+    transform: translateZ(42px);
+    font-family: monospace;
+    font-size: clamp(11px, 3.7vw, 17px);
+    font-weight: 600;
+    letter-spacing: .08em;
+    color: rgba(255, 255, 255, .92);
+    text-shadow:
+        0 2px 7px rgba(0, 0, 0, .45),
+        0 0 9px rgba(103, 232, 249, .18);
+}
+
+.Card3561__bottom {
+    position: absolute;
+    z-index: 4;
+    left: 7%;
+    right: 7%;
+    bottom: 9%;
+    display: flex;
+    align-items: flex-end;
+    gap: 10%;
+    transform: translateZ(31px);
+}
+
+.Card3561__owner,
+.Card3561__valid {
+    min-width: 0;
+}
+
+.Card3561__owner span,
+.Card3561__valid span {
+    display: block;
+    margin-bottom: 3px;
+    color: #94a3b8;
+    font-size: clamp(5px, 1.7vw, 7px);
+    font-weight: 700;
+    letter-spacing: .13em;
+}
+
+.Card3561__owner strong,
+.Card3561__valid strong {
+    display: block;
+    color: #e2e8f0;
+    font-size: clamp(8px, 2.5vw, 11px);
+    font-weight: 700;
+    letter-spacing: .06em;
+    white-space: nowrap;
+}
+
+.Card3561__signal {
+    margin-left: auto;
+    color: #c4b5fd;
+    font-size: clamp(17px, 5vw, 23px);
+    transform: rotate(90deg);
+    filter: drop-shadow(0 0 5px rgba(196, 181, 253, .45));
+}
+
+@media (max-width: 420px) {
+    .Card3561Scene {
+        max-width: 100%;
+    }
+
+    .Card3561 {
+        border-radius: 18px;
+    }
+}`,
+    javascript: `const card = document.querySelector('.Card3561');
+
+if (card) {
+    const clamp = (value, min, max) =>
+        Math.min(Math.max(value, min), max);
+
+    const updateCard = (event) => {
+        const rect = card.getBoundingClientRect();
+
+        const x = clamp(
+            (event.clientX - rect.left) / rect.width,
+            0,
+            1
+        );
+
+        const y = clamp(
+            (event.clientY - rect.top) / rect.height,
+            0,
+            1
+        );
+
+        const rotateY = (x - 0.5) * 22;
+        const rotateX = (0.5 - y) * 18;
+
+        card.style.setProperty(
+            '--rotate-x',
+            rotateX + 'deg'
+        );
+
+        card.style.setProperty(
+            '--rotate-y',
+            rotateY + 'deg'
+        );
+
+        card.style.setProperty(
+            '--glare-x',
+            x * 100 + '%'
+        );
+
+        card.style.setProperty(
+            '--glare-y',
+            y * 100 + '%'
+        );
+    };
+
+    const resetCard = () => {
+        card.style.setProperty('--rotate-x', '0deg');
+        card.style.setProperty('--rotate-y', '0deg');
+        card.style.setProperty('--glare-x', '50%');
+        card.style.setProperty('--glare-y', '50%');
+    };
+
+    card.addEventListener('pointermove', updateCard);
+    card.addEventListener('pointerleave', resetCard);
+}`,
+    scriptId: 3561,
+  },
 ];

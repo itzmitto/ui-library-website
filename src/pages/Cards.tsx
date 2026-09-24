@@ -2,6 +2,7 @@ import { memo, useCallback, useEffect, useRef, useState } from "react";
 import Header from "../components/Header";
 import { cards } from "../data/componentsData";
 import ComponentModal from "../components/ComponentModal";
+import { initCard } from "../scripts/CardsScript.js";
 import "./All.css";
 import "../styling/Cards.css";
 
@@ -58,6 +59,27 @@ const CardComponent = memo(
   }) => {
     const row = Math.floor(index / columns);
     const column = index % columns;
+
+    const previewRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+      const preview = previewRef.current;
+
+      if (!preview || !item.scriptId) {
+        return;
+      }
+
+      const element = preview.querySelector(
+        `[data-card-id="${item.scriptId}"]`,
+      );
+
+      if (!element) {
+        return;
+      }
+
+      initCard(item.scriptId, element);
+    }, [item]);
+
     return (
       <div
         className="all-card"
@@ -75,7 +97,10 @@ const CardComponent = memo(
           cursor: "pointer",
         }}
       >
-        <div className="all-card-preview">{item.preview}</div>
+        <div ref={previewRef} className="all-card-preview">
+          {item.preview}
+        </div>
+
         <div className="all-card-footer">
           <span className="all-card-name">{item.name}</span>
         </div>
@@ -90,9 +115,11 @@ export default function Cards() {
   const [selected, setSelected] = useState<CardItem | null>(null);
   const [columns, setColumns] = useState(1);
   const [scrollTop, setScrollTop] = useState(0);
+
   const [viewportHeight, setViewportHeight] = useState(
     typeof window !== "undefined" ? window.innerHeight : 800,
   );
+
   const [gridTop, setGridTop] = useState(0);
 
   const gridRef = useRef<HTMLDivElement>(null);
@@ -118,6 +145,7 @@ export default function Cards() {
         );
 
         setColumns(nextColumns);
+
         setGridTop(grid.getBoundingClientRect().top + window.scrollY);
       }
 
@@ -136,6 +164,7 @@ export default function Cards() {
 
     return () => {
       window.removeEventListener("scroll", updateLayout);
+
       window.removeEventListener("resize", updateLayout);
 
       if (frameRef.current !== null) {
@@ -157,7 +186,9 @@ export default function Cards() {
 
     observer.observe(grid);
 
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+    };
   }, [updateLayout]);
 
   const rowHeight = CARD_HEIGHT + GRID_GAP;
@@ -178,6 +209,7 @@ export default function Cards() {
   );
 
   const startIndex = startRow * columns;
+
   const endIndex = Math.min(cards.length, endRow * columns);
 
   const visibleCards = cards.slice(startIndex, endIndex);
@@ -189,6 +221,7 @@ export default function Cards() {
   return (
     <div className="all-page">
       <Header />
+
       <div className="all-layout">
         <aside className="sidebar">
           {sidebarItems.map((item) => (

@@ -2207,4 +2207,3341 @@ export const heroSections = [
     backdrop-filter: blur(8px);
 }`,
   },
+
+  {
+    id: 3592,
+    name: "Aurora SaaS Hero",
+    preview: (
+      <section className="hero-3592">
+        <div className="hero-3592__glow hero-3592__glow-1"></div>
+        <div className="hero-3592__glow hero-3592__glow-2"></div>
+
+        <nav className="hero-3592__nav">
+          <div className="hero-3592__brand">
+            <span className="hero-3592__brand-icon">
+              <i className="ri-shape-fill"></i>
+            </span>
+            <strong>Nova</strong>
+          </div>
+
+          <div className="hero-3592__nav-links">
+            <a href="#features">Features</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#pricing">Pricing</a>
+          </div>
+
+          <button className="hero-3592__nav-button" type="button">
+            Get started
+          </button>
+        </nav>
+
+        <div className="hero-3592__content">
+          <div className="hero-3592__copy">
+            <div className="hero-3592__badge">
+              <span></span>
+              Built for modern teams
+            </div>
+
+            <h1>
+              Build products
+              <span> people remember.</span>
+            </h1>
+
+            <p>
+              A modern platform for designing, launching and scaling digital
+              products without slowing down your team.
+            </p>
+
+            <div className="hero-3592__actions">
+              <button className="hero-3592__primary" type="button">
+                Start building
+                <i className="ri-arrow-right-line"></i>
+              </button>
+
+              <button className="hero-3592__secondary" type="button">
+                <i className="ri-play-circle-line"></i>
+                Watch demo
+              </button>
+            </div>
+
+            <div className="hero-3592__proof">
+              <div className="hero-3592__avatars">
+                <span>A</span>
+                <span>M</span>
+                <span>J</span>
+                <span>S</span>
+              </div>
+
+              <div>
+                <strong>12,000+</strong>
+                <span>creators already building</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="hero-3592__visual">
+            <div className="hero-3592__dashboard">
+              <div className="hero-3592__dashboard-top">
+                <div className="hero-3592__dots">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <span className="hero-3592__dashboard-title">
+                  Product overview
+                </span>
+
+                <span className="hero-3592__live">
+                  <span></span>
+                  Live
+                </span>
+              </div>
+
+              <div className="hero-3592__dashboard-body">
+                <div className="hero-3592__sidebar">
+                  <span className="hero-3592__sidebar-active">
+                    <i className="ri-layout-grid-fill"></i>
+                  </span>
+                  <span>
+                    <i className="ri-bar-chart-box-line"></i>
+                  </span>
+                  <span>
+                    <i className="ri-team-line"></i>
+                  </span>
+                  <span>
+                    <i className="ri-settings-3-line"></i>
+                  </span>
+                </div>
+
+                <div className="hero-3592__main">
+                  <div className="hero-3592__metric-row">
+                    <div className="hero-3592__metric">
+                      <span>Revenue</span>
+                      <strong>$84.2K</strong>
+                      <small>+18.4%</small>
+                    </div>
+
+                    <div className="hero-3592__metric">
+                      <span>Customers</span>
+                      <strong>8,429</strong>
+                      <small>+12.8%</small>
+                    </div>
+                  </div>
+
+                  <div className="hero-3592__chart">
+                    <div className="hero-3592__chart-head">
+                      <span>Performance</span>
+                      <strong>+34.8%</strong>
+                    </div>
+
+                    <div className="hero-3592__bars">
+                      <span style={{ height: "30%" }}></span>
+                      <span style={{ height: "42%" }}></span>
+                      <span style={{ height: "37%" }}></span>
+                      <span style={{ height: "61%" }}></span>
+                      <span style={{ height: "53%" }}></span>
+                      <span style={{ height: "76%" }}></span>
+                      <span style={{ height: "68%" }}></span>
+                      <span style={{ height: "89%" }}></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="hero-3592__floating-card">
+              <span className="hero-3592__floating-icon">
+                <i className="ri-flashlight-fill"></i>
+              </span>
+
+              <div>
+                <span>Automation</span>
+                <strong>32 tasks completed</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    ),
+    html: `<section class="hero-3592">
+    <div class="hero-3592__glow hero-3592__glow-1"></div>
+    <div class="hero-3592__glow hero-3592__glow-2"></div>
+
+    <nav class="hero-3592__nav">
+        <div class="hero-3592__brand">
+            <span class="hero-3592__brand-icon">
+                <i class="ri-shape-fill"></i>
+            </span>
+            <strong>Nova</strong>
+        </div>
+
+        <div class="hero-3592__nav-links">
+            <a href="#features">Features</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#pricing">Pricing</a>
+        </div>
+
+        <button class="hero-3592__nav-button" type="button">
+            Get started
+        </button>
+    </nav>
+
+    <div class="hero-3592__content">
+        <div class="hero-3592__copy">
+            <div class="hero-3592__badge">
+                <span></span>
+                Built for modern teams
+            </div>
+
+            <h1>
+                Build products
+                <span> people remember.</span>
+            </h1>
+
+            <p>
+                A modern platform for designing, launching and scaling digital products without slowing down your team.
+            </p>
+
+            <div class="hero-3592__actions">
+                <button class="hero-3592__primary" type="button">
+                    Start building
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+
+                <button class="hero-3592__secondary" type="button">
+                    <i class="ri-play-circle-line"></i>
+                    Watch demo
+                </button>
+            </div>
+
+            <div class="hero-3592__proof">
+                <div class="hero-3592__avatars">
+                    <span>A</span>
+                    <span>M</span>
+                    <span>J</span>
+                    <span>S</span>
+                </div>
+
+                <div>
+                    <strong>12,000+</strong>
+                    <span>creators already building</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-3592__visual">
+            <div class="hero-3592__dashboard">
+                <div class="hero-3592__dashboard-top">
+                    <div class="hero-3592__dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span class="hero-3592__dashboard-title">
+                        Product overview
+                    </span>
+
+                    <span class="hero-3592__live">
+                        <span></span>
+                        Live
+                    </span>
+                </div>
+
+                <div class="hero-3592__dashboard-body">
+                    <div class="hero-3592__sidebar">
+                        <span class="hero-3592__sidebar-active">
+                            <i class="ri-layout-grid-fill"></i>
+                        </span>
+                        <span>
+                            <i class="ri-bar-chart-box-line"></i>
+                        </span>
+                        <span>
+                            <i class="ri-team-line"></i>
+                        </span>
+                        <span>
+                            <i class="ri-settings-3-line"></i>
+                        </span>
+                    </div>
+
+                    <div class="hero-3592__main">
+                        <div class="hero-3592__metric-row">
+                            <div class="hero-3592__metric">
+                                <span>Revenue</span>
+                                <strong>$84.2K</strong>
+                                <small>+18.4%</small>
+                            </div>
+
+                            <div class="hero-3592__metric">
+                                <span>Customers</span>
+                                <strong>8,429</strong>
+                                <small>+12.8%</small>
+                            </div>
+                        </div>
+
+                        <div class="hero-3592__chart">
+                            <div class="hero-3592__chart-head">
+                                <span>Performance</span>
+                                <strong>+34.8%</strong>
+                            </div>
+
+                            <div class="hero-3592__bars">
+                                <span style="height:30%"></span>
+                                <span style="height:42%"></span>
+                                <span style="height:37%"></span>
+                                <span style="height:61%"></span>
+                                <span style="height:53%"></span>
+                                <span style="height:76%"></span>
+                                <span style="height:68%"></span>
+                                <span style="height:89%"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-3592__floating-card">
+                <span class="hero-3592__floating-icon">
+                    <i class="ri-flashlight-fill"></i>
+                </span>
+
+                <div>
+                    <span>Automation</span>
+                    <strong>32 tasks completed</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>`,
+    css: `.hero-3592 {
+    position: relative;
+    width: 100%;
+    min-height: 620px;
+    overflow: hidden;
+    padding: 24px 42px 54px;
+    border-radius: 28px;
+    background:
+        radial-gradient(
+            circle at 10% 20%,
+            rgba(124, 58, 237, .16),
+            transparent 31%
+        ),
+        radial-gradient(
+            circle at 90% 65%,
+            rgba(6, 182, 212, .13),
+            transparent 34%
+        ),
+        linear-gradient(
+            145deg,
+            #070812,
+            #0b1020 55%,
+            #080b16
+        );
+    color: #ffffff;
+}
+
+.hero-3592__glow {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    filter: blur(70px);
+}
+
+.hero-3592__glow-1 {
+    width: 280px;
+    height: 280px;
+    left: -120px;
+    top: 130px;
+    background: rgba(124, 58, 237, .18);
+}
+
+.hero-3592__glow-2 {
+    width: 330px;
+    height: 330px;
+    right: -130px;
+    bottom: -80px;
+    background: rgba(6, 182, 212, .12);
+}
+
+.hero-3592__nav {
+    position: relative;
+    z-index: 5;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.hero-3592__brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-3592__brand-icon {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255, 255, 255, .12);
+    border-radius: 10px;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(124, 58, 237, .3),
+            rgba(6, 182, 212, .18)
+        );
+    color: #c4b5fd;
+}
+
+.hero-3592__brand strong {
+    font-size: 16px;
+    letter-spacing: -.02em;
+}
+
+.hero-3592__nav-links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.hero-3592__nav-links a {
+    color: #94a3b8;
+    font-size: 12px;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.hero-3592__nav-links a:hover {
+    color: #ffffff;
+}
+
+.hero-3592__nav-button {
+    padding: 10px 15px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .05);
+    color: #ffffff;
+    font: inherit;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero-3592__content {
+    position: relative;
+    z-index: 3;
+    max-width: 1180px;
+    min-height: 510px;
+    margin: 30px auto 0;
+    display: grid;
+    grid-template-columns: minmax(0, .92fr) minmax(420px, 1.08fr);
+    align-items: center;
+    gap: 58px;
+}
+
+.hero-3592__copy {
+    max-width: 530px;
+}
+
+.hero-3592__badge {
+    width: fit-content;
+    margin-bottom: 20px;
+    padding: 7px 11px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border: 1px solid rgba(167, 139, 250, .18);
+    border-radius: 999px;
+    background: rgba(124, 58, 237, .07);
+    color: #c4b5fd;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.hero-3592__badge > span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #8b5cf6;
+    box-shadow: 0 0 7px rgba(139, 92, 246, .7);
+}
+
+.hero-3592 h1 {
+    margin: 0;
+    color: #f8fafc;
+    font-size: clamp(42px, 6vw, 72px);
+    line-height: .98;
+    letter-spacing: -.055em;
+}
+
+.hero-3592 h1 span {
+    display: block;
+    background:
+        linear-gradient(
+            90deg,
+            #c4b5fd,
+            #67e8f9
+        );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.hero-3592__copy > p {
+    max-width: 470px;
+    margin: 22px 0 0;
+    color: #94a3b8;
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+.hero-3592__actions {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-3592__actions button {
+    height: 43px;
+    padding: 0 17px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    border-radius: 11px;
+    font: inherit;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    transition:
+        transform .2s ease,
+        border-color .2s ease,
+        background .2s ease;
+}
+
+.hero-3592__actions button:hover {
+    transform: translateY(-2px);
+}
+
+.hero-3592__primary {
+    border: 0;
+    background:
+        linear-gradient(
+            135deg,
+            #8b5cf6,
+            #6366f1
+        );
+    color: #ffffff;
+    box-shadow:
+        0 10px 25px rgba(99, 102, 241, .25);
+}
+
+.hero-3592__secondary {
+    border: 1px solid rgba(255, 255, 255, .1);
+    background: rgba(255, 255, 255, .03);
+    color: #cbd5e1;
+}
+
+.hero-3592__proof {
+    margin-top: 31px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.hero-3592__avatars {
+    display: flex;
+}
+
+.hero-3592__avatars span {
+    width: 27px;
+    height: 27px;
+    margin-left: -7px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #080b16;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            145deg,
+            #1e293b,
+            #334155
+        );
+    color: #cbd5e1;
+    font-size: 8px;
+    font-weight: 700;
+}
+
+.hero-3592__avatars span:first-child {
+    margin-left: 0;
+}
+
+.hero-3592__proof > div:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-3592__proof strong {
+    color: #e2e8f0;
+    font-size: 10px;
+}
+
+.hero-3592__proof > div:last-child span {
+    margin-top: 1px;
+    color: #64748b;
+    font-size: 8px;
+}
+
+.hero-3592__visual {
+    position: relative;
+}
+
+.hero-3592__dashboard {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(148, 163, 184, .13);
+    border-radius: 22px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(15, 23, 42, .96),
+            rgba(8, 13, 27, .98)
+        );
+    box-shadow:
+        0 35px 70px rgba(0, 0, 0, .38),
+        inset 0 1px 0 rgba(255, 255, 255, .04);
+    transform: perspective(1100px) rotateY(-5deg) rotateX(2deg);
+    transition: transform .35s ease;
+}
+
+.hero-3592__visual:hover .hero-3592__dashboard {
+    transform: perspective(1100px) rotateY(-2deg) rotateX(1deg) translateY(-4px);
+}
+
+.hero-3592__dashboard-top {
+    height: 43px;
+    padding: 0 13px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    border-bottom: 1px solid rgba(148, 163, 184, .08);
+}
+
+.hero-3592__dots {
+    display: flex;
+    gap: 5px;
+}
+
+.hero-3592__dots span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #334155;
+}
+
+.hero-3592__dashboard-title {
+    color: #64748b;
+    font-size: 8px;
+}
+
+.hero-3592__live {
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #4ade80;
+    font-size: 7px;
+}
+
+.hero-3592__live > span {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 5px rgba(34, 197, 94, .7);
+}
+
+.hero-3592__dashboard-body {
+    min-height: 330px;
+    display: grid;
+    grid-template-columns: 55px 1fr;
+}
+
+.hero-3592__sidebar {
+    padding-top: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    border-right: 1px solid rgba(148, 163, 184, .07);
+}
+
+.hero-3592__sidebar > span {
+    width: 29px;
+    height: 29px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    color: #475569;
+    font-size: 13px;
+}
+
+.hero-3592__sidebar-active {
+    background: rgba(124, 58, 237, .12);
+    color: #a78bfa !important;
+}
+
+.hero-3592__main {
+    padding: 20px;
+}
+
+.hero-3592__metric-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.hero-3592__metric {
+    padding: 15px;
+    border: 1px solid rgba(148, 163, 184, .08);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, .02);
+}
+
+.hero-3592__metric > span {
+    display: block;
+    color: #64748b;
+    font-size: 8px;
+}
+
+.hero-3592__metric strong {
+    display: block;
+    margin-top: 6px;
+    color: #e2e8f0;
+    font-size: 20px;
+}
+
+.hero-3592__metric small {
+    display: block;
+    margin-top: 5px;
+    color: #4ade80;
+    font-size: 7px;
+}
+
+.hero-3592__chart {
+    height: 175px;
+    margin-top: 11px;
+    padding: 15px;
+    border: 1px solid rgba(148, 163, 184, .08);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, .018);
+}
+
+.hero-3592__chart-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-3592__chart-head span {
+    color: #64748b;
+    font-size: 8px;
+}
+
+.hero-3592__chart-head strong {
+    color: #67e8f9;
+    font-size: 8px;
+}
+
+.hero-3592__bars {
+    height: 118px;
+    margin-top: 12px;
+    display: flex;
+    align-items: flex-end;
+    gap: 7px;
+}
+
+.hero-3592__bars span {
+    flex: 1;
+    min-width: 5px;
+    border-radius: 4px 4px 2px 2px;
+    background:
+        linear-gradient(
+            180deg,
+            #8b5cf6,
+            #312e81
+        );
+}
+
+.hero-3592__floating-card {
+    position: absolute;
+    right: -16px;
+    bottom: 24px;
+    padding: 11px 13px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    border: 1px solid rgba(255, 255, 255, .11);
+    border-radius: 12px;
+    background: rgba(15, 23, 42, .88);
+    box-shadow: 0 18px 30px rgba(0, 0, 0, .28);
+    backdrop-filter: blur(12px);
+}
+
+.hero-3592__floating-icon {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: rgba(6, 182, 212, .11);
+    color: #67e8f9;
+}
+
+.hero-3592__floating-card > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-3592__floating-card > div span {
+    color: #64748b;
+    font-size: 7px;
+}
+
+.hero-3592__floating-card > div strong {
+    margin-top: 2px;
+    color: #e2e8f0;
+    font-size: 9px;
+}
+
+@media (max-width: 900px) {
+    .hero-3592 {
+        padding: 22px 24px 42px;
+    }
+
+    .hero-3592__nav-links {
+        display: none;
+    }
+
+    .hero-3592__content {
+        grid-template-columns: 1fr;
+        gap: 42px;
+    }
+
+    .hero-3592__copy {
+        max-width: 650px;
+    }
+
+    .hero-3592__visual {
+        max-width: 620px;
+    }
+}
+
+@media (max-width: 560px) {
+    .hero-3592 {
+        padding: 18px 16px 32px;
+        border-radius: 20px;
+    }
+
+    .hero-3592__nav-button {
+        display: none;
+    }
+
+    .hero-3592 h1 {
+        font-size: 42px;
+    }
+
+    .hero-3592__actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .hero-3592__actions button {
+        width: 100%;
+    }
+
+    .hero-3592__dashboard-body {
+        grid-template-columns: 42px 1fr;
+    }
+
+    .hero-3592__main {
+        padding: 12px;
+    }
+
+    .hero-3592__metric-row {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-3592__floating-card {
+        display: none;
+    }
+}`,
+  },
+  {
+    id: 3593,
+    name: "Developer Studio Hero",
+    preview: (
+      <section className="hero-3593">
+        <div className="hero-3593__topline">
+          <div className="hero-3593__brand">
+            <span>&lt;/&gt;</span>
+            VOID STUDIO
+          </div>
+
+          <span className="hero-3593__availability">
+            AVAILABLE FOR PROJECTS
+          </span>
+        </div>
+
+        <div className="hero-3593__main">
+          <div className="hero-3593__copy">
+            <span className="hero-3593__eyebrow">
+              DIGITAL DESIGN + DEVELOPMENT
+            </span>
+
+            <h1>
+              WE BUILD
+              <span>LOUD</span>
+              DIGITAL EXPERIENCES.
+            </h1>
+
+            <div className="hero-3593__bottom-copy">
+              <p>
+                Creative development for brands that want their digital presence
+                to feel distinct, fast and unforgettable.
+              </p>
+
+              <button type="button">
+                START A PROJECT
+                <i className="ri-arrow-right-up-line"></i>
+              </button>
+            </div>
+          </div>
+
+          <div className="hero-3593__poster">
+            <div className="hero-3593__poster-grid"></div>
+
+            <span className="hero-3593__poster-label">
+              SELECTED WORK / 2026
+            </span>
+
+            <div className="hero-3593__poster-shape">
+              <span></span>
+            </div>
+
+            <div className="hero-3593__poster-type">
+              <span>WEB</span>
+              <strong>03</strong>
+            </div>
+
+            <div className="hero-3593__poster-footer">
+              <span>CREATIVE DEV</span>
+              <span>AMSTERDAM / NL</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="hero-3593__ticker">
+          <span>WEB DESIGN</span>
+          <i></i>
+          <span>CREATIVE DEVELOPMENT</span>
+          <i></i>
+          <span>INTERACTIVE EXPERIENCES</span>
+          <i></i>
+          <span>DIGITAL PRODUCTS</span>
+        </div>
+      </section>
+    ),
+    html: `<section class="hero-3593">
+    <div class="hero-3593__topline">
+        <div class="hero-3593__brand">
+            <span>&lt;/&gt;</span>
+            VOID STUDIO
+        </div>
+
+        <span class="hero-3593__availability">
+            AVAILABLE FOR PROJECTS
+        </span>
+    </div>
+
+    <div class="hero-3593__main">
+        <div class="hero-3593__copy">
+            <span class="hero-3593__eyebrow">
+                DIGITAL DESIGN + DEVELOPMENT
+            </span>
+
+            <h1>
+                WE BUILD
+                <span>LOUD</span>
+                DIGITAL EXPERIENCES.
+            </h1>
+
+            <div class="hero-3593__bottom-copy">
+                <p>
+                    Creative development for brands that want their digital presence to feel distinct, fast and unforgettable.
+                </p>
+
+                <button type="button">
+                    START A PROJECT
+                    <i class="ri-arrow-right-up-line"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="hero-3593__poster">
+            <div class="hero-3593__poster-grid"></div>
+
+            <span class="hero-3593__poster-label">
+                SELECTED WORK / 2026
+            </span>
+
+            <div class="hero-3593__poster-shape">
+                <span></span>
+            </div>
+
+            <div class="hero-3593__poster-type">
+                <span>WEB</span>
+                <strong>03</strong>
+            </div>
+
+            <div class="hero-3593__poster-footer">
+                <span>CREATIVE DEV</span>
+                <span>AMSTERDAM / NL</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-3593__ticker">
+        <span>WEB DESIGN</span>
+        <i></i>
+        <span>CREATIVE DEVELOPMENT</span>
+        <i></i>
+        <span>INTERACTIVE EXPERIENCES</span>
+        <i></i>
+        <span>DIGITAL PRODUCTS</span>
+    </div>
+</section>`,
+    css: `.hero-3593 {
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #222222;
+    border-radius: 18px;
+    background: #efefea;
+    color: #111111;
+}
+
+.hero-3593__topline {
+    min-height: 64px;
+    padding: 0 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #161616;
+}
+
+.hero-3593__brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: .08em;
+}
+
+.hero-3593__brand span {
+    color: #ff3d00;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.hero-3593__availability {
+    padding: 7px 10px;
+    border: 1px solid #111111;
+    border-radius: 999px;
+    font-size: 7px;
+    font-weight: 800;
+    letter-spacing: .14em;
+}
+
+.hero-3593__main {
+    min-height: 520px;
+    display: grid;
+    grid-template-columns: 1.25fr .75fr;
+}
+
+.hero-3593__copy {
+    padding: 48px 36px 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #161616;
+}
+
+.hero-3593__eyebrow {
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .2em;
+}
+
+.hero-3593 h1 {
+    max-width: 690px;
+    margin: 45px 0;
+    font-size: clamp(56px, 8vw, 108px);
+    line-height: .81;
+    letter-spacing: -.075em;
+    font-weight: 950;
+}
+
+.hero-3593 h1 span {
+    color: #ff3d00;
+}
+
+.hero-3593__bottom-copy {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.hero-3593__bottom-copy p {
+    max-width: 360px;
+    margin: 0;
+    color: #444444;
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+.hero-3593__bottom-copy button {
+    height: 45px;
+    padding: 0 17px;
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+    border: 1px solid #111111;
+    background: #111111;
+    color: #ffffff;
+    font: inherit;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    cursor: pointer;
+    transition:
+        background .2s ease,
+        color .2s ease,
+        transform .2s ease;
+}
+
+.hero-3593__bottom-copy button:hover {
+    transform: translateY(-2px);
+    background: #ff3d00;
+    color: #ffffff;
+}
+
+.hero-3593__poster {
+    position: relative;
+    overflow: hidden;
+    min-height: 520px;
+    background: #111111;
+    color: #ffffff;
+}
+
+.hero-3593__poster-grid {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            rgba(255, 255, 255, .045) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(255, 255, 255, .045) 1px,
+            transparent 1px
+        );
+    background-size: 36px 36px;
+}
+
+.hero-3593__poster-label {
+    position: absolute;
+    left: 24px;
+    top: 22px;
+    font-size: 7px;
+    font-weight: 800;
+    letter-spacing: .18em;
+}
+
+.hero-3593__poster-shape {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border: 3px solid #ff3d00;
+}
+
+.hero-3593__poster-shape::before {
+    content: "";
+    position: absolute;
+    inset: 22px;
+    border: 1px solid rgba(255, 255, 255, .45);
+}
+
+.hero-3593__poster-shape span {
+    position: absolute;
+    inset: 52px;
+    background: #ff3d00;
+}
+
+.hero-3593__poster-type {
+    position: absolute;
+    left: 25px;
+    bottom: 63px;
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.hero-3593__poster-type span {
+    font-size: 25px;
+    font-weight: 950;
+    letter-spacing: -.05em;
+}
+
+.hero-3593__poster-type strong {
+    color: #ff3d00;
+    font-size: 10px;
+}
+
+.hero-3593__poster-footer {
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    bottom: 22px;
+    display: flex;
+    justify-content: space-between;
+    color: #737373;
+    font-size: 6px;
+    letter-spacing: .14em;
+}
+
+.hero-3593__ticker {
+    min-height: 47px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    overflow: hidden;
+    border-top: 1px solid #111111;
+    background: #ff3d00;
+    color: #111111;
+}
+
+.hero-3593__ticker span {
+    white-space: nowrap;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .08em;
+}
+
+.hero-3593__ticker i {
+    width: 5px;
+    height: 5px;
+    flex: 0 0 5px;
+    border-radius: 50%;
+    background: #111111;
+}
+
+@media (max-width: 850px) {
+    .hero-3593__main {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-3593__copy {
+        border-right: 0;
+        border-bottom: 1px solid #161616;
+    }
+
+    .hero-3593__poster {
+        min-height: 430px;
+    }
+}
+
+@media (max-width: 560px) {
+    .hero-3593__topline {
+        padding: 0 16px;
+    }
+
+    .hero-3593__availability {
+        display: none;
+    }
+
+    .hero-3593__copy {
+        padding: 34px 20px 28px;
+    }
+
+    .hero-3593 h1 {
+        margin: 38px 0;
+        font-size: 60px;
+    }
+
+    .hero-3593__bottom-copy {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .hero-3593__bottom-copy button {
+        width: fit-content;
+    }
+
+    .hero-3593__ticker {
+        justify-content: flex-start;
+    }
+}`,
+  },
+  {
+    id: 3594,
+    name: "AI Command Hero",
+    preview: (
+      <section className="hero-3594">
+        <div className="hero-3594__grid"></div>
+
+        <div className="hero-3594__header">
+          <div className="hero-3594__logo">
+            <span>
+              <i className="ri-command-fill"></i>
+            </span>
+            Axiom
+          </div>
+
+          <div className="hero-3594__nav">
+            <a href="#platform">Platform</a>
+            <a href="#models">Models</a>
+            <a href="#developers">Developers</a>
+          </div>
+
+          <button type="button">Launch console</button>
+        </div>
+
+        <div className="hero-3594__content">
+          <div className="hero-3594__copy">
+            <div className="hero-3594__status">
+              <span></span>
+              AXIOM CORE V4 ONLINE
+            </div>
+
+            <h1>
+              Intelligence
+              <span>at command.</span>
+            </h1>
+
+            <p>
+              Build, orchestrate and deploy intelligent workflows from one
+              high-performance developer platform.
+            </p>
+
+            <div className="hero-3594__actions">
+              <button className="hero-3594__primary" type="button">
+                Start building
+                <i className="ri-arrow-right-line"></i>
+              </button>
+
+              <button className="hero-3594__ghost" type="button">
+                Read documentation
+              </button>
+            </div>
+
+            <div className="hero-3594__stats">
+              <div>
+                <strong>24ms</strong>
+                <span>AVG LATENCY</span>
+              </div>
+
+              <div>
+                <strong>99.99%</strong>
+                <span>UPTIME</span>
+              </div>
+
+              <div>
+                <strong>14.2B</strong>
+                <span>TOKENS / DAY</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="hero-3594__terminal">
+            <div className="hero-3594__terminal-head">
+              <div>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              <span>axiom / workflow.ts</span>
+
+              <i className="ri-more-fill"></i>
+            </div>
+
+            <div className="hero-3594__terminal-body">
+              <div className="hero-3594__line">
+                <span>01</span>
+                <code>
+                  <b>const</b> agent = <em>axiom.create</em>({"{"}
+                </code>
+              </div>
+
+              <div className="hero-3594__line">
+                <span>02</span>
+                <code>
+                  &nbsp;&nbsp;model: <strong>"axiom-v4"</strong>,
+                </code>
+              </div>
+
+              <div className="hero-3594__line">
+                <span>03</span>
+                <code>
+                  &nbsp;&nbsp;mode: <strong>"autonomous"</strong>,
+                </code>
+              </div>
+
+              <div className="hero-3594__line">
+                <span>04</span>
+                <code>{"});"}</code>
+              </div>
+
+              <div className="hero-3594__line hero-3594__line-muted">
+                <span>05</span>
+                <code></code>
+              </div>
+
+              <div className="hero-3594__line">
+                <span>06</span>
+                <code>
+                  <b>await</b> agent.run(
+                </code>
+              </div>
+
+              <div className="hero-3594__line">
+                <span>07</span>
+                <code>
+                  &nbsp;&nbsp;<strong>"Analyze customer activity"</strong>
+                </code>
+              </div>
+
+              <div className="hero-3594__line">
+                <span>08</span>
+                <code>);</code>
+              </div>
+            </div>
+
+            <div className="hero-3594__terminal-result">
+              <div>
+                <span className="hero-3594__terminal-dot"></span>
+                Workflow complete
+              </div>
+
+              <strong>1.42s</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+    ),
+    html: `<section class="hero-3594">
+    <div class="hero-3594__grid"></div>
+
+    <div class="hero-3594__header">
+        <div class="hero-3594__logo">
+            <span>
+                <i class="ri-command-fill"></i>
+            </span>
+            Axiom
+        </div>
+
+        <div class="hero-3594__nav">
+            <a href="#platform">Platform</a>
+            <a href="#models">Models</a>
+            <a href="#developers">Developers</a>
+        </div>
+
+        <button type="button">Launch console</button>
+    </div>
+
+    <div class="hero-3594__content">
+        <div class="hero-3594__copy">
+            <div class="hero-3594__status">
+                <span></span>
+                AXIOM CORE V4 ONLINE
+            </div>
+
+            <h1>
+                Intelligence
+                <span>at command.</span>
+            </h1>
+
+            <p>
+                Build, orchestrate and deploy intelligent workflows from one high-performance developer platform.
+            </p>
+
+            <div class="hero-3594__actions">
+                <button class="hero-3594__primary" type="button">
+                    Start building
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+
+                <button class="hero-3594__ghost" type="button">
+                    Read documentation
+                </button>
+            </div>
+
+            <div class="hero-3594__stats">
+                <div>
+                    <strong>24ms</strong>
+                    <span>AVG LATENCY</span>
+                </div>
+
+                <div>
+                    <strong>99.99%</strong>
+                    <span>UPTIME</span>
+                </div>
+
+                <div>
+                    <strong>14.2B</strong>
+                    <span>TOKENS / DAY</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-3594__terminal">
+            <div class="hero-3594__terminal-head">
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <span>axiom / workflow.ts</span>
+
+                <i class="ri-more-fill"></i>
+            </div>
+
+            <div class="hero-3594__terminal-body">
+                <div class="hero-3594__line">
+                    <span>01</span>
+                    <code><b>const</b> agent = <em>axiom.create</em>({</code>
+                </div>
+
+                <div class="hero-3594__line">
+                    <span>02</span>
+                    <code>&nbsp;&nbsp;model: <strong>"axiom-v4"</strong>,</code>
+                </div>
+
+                <div class="hero-3594__line">
+                    <span>03</span>
+                    <code>&nbsp;&nbsp;mode: <strong>"autonomous"</strong>,</code>
+                </div>
+
+                <div class="hero-3594__line">
+                    <span>04</span>
+                    <code>});</code>
+                </div>
+
+                <div class="hero-3594__line hero-3594__line-muted">
+                    <span>05</span>
+                    <code></code>
+                </div>
+
+                <div class="hero-3594__line">
+                    <span>06</span>
+                    <code><b>await</b> agent.run(</code>
+                </div>
+
+                <div class="hero-3594__line">
+                    <span>07</span>
+                    <code>&nbsp;&nbsp;<strong>"Analyze customer activity"</strong></code>
+                </div>
+
+                <div class="hero-3594__line">
+                    <span>08</span>
+                    <code>);</code>
+                </div>
+            </div>
+
+            <div class="hero-3594__terminal-result">
+                <div>
+                    <span class="hero-3594__terminal-dot"></span>
+                    Workflow complete
+                </div>
+
+                <strong>1.42s</strong>
+            </div>
+        </div>
+    </div>
+</section>`,
+    css: `.hero-3594 {
+    position: relative;
+    width: 100%;
+    min-height: 620px;
+    overflow: hidden;
+    padding: 25px 40px 55px;
+    border: 1px solid rgba(56, 189, 248, .16);
+    border-radius: 25px;
+    background:
+        radial-gradient(
+            circle at 75% 50%,
+            rgba(8, 145, 178, .12),
+            transparent 32%
+        ),
+        #03070b;
+    color: #ffffff;
+}
+
+.hero-3594__grid {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            rgba(56, 189, 248, .035) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(56, 189, 248, .035) 1px,
+            transparent 1px
+        );
+    background-size: 44px 44px;
+    mask-image:
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, .8),
+            transparent
+        );
+}
+
+.hero-3594__header {
+    position: relative;
+    z-index: 4;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-3594__logo {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #e0f2fe;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.hero-3594__logo > span {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(56, 189, 248, .18);
+    border-radius: 8px;
+    background: rgba(56, 189, 248, .06);
+    color: #38bdf8;
+}
+
+.hero-3594__nav {
+    display: flex;
+    gap: 28px;
+}
+
+.hero-3594__nav a {
+    color: #64748b;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.hero-3594__nav a:hover {
+    color: #bae6fd;
+}
+
+.hero-3594__header > button {
+    height: 36px;
+    padding: 0 13px;
+    border: 1px solid rgba(56, 189, 248, .22);
+    border-radius: 8px;
+    background: rgba(14, 165, 233, .06);
+    color: #bae6fd;
+    font: inherit;
+    font-size: 9px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero-3594__content {
+    position: relative;
+    z-index: 3;
+    max-width: 1180px;
+    min-height: 510px;
+    margin: 34px auto 0;
+    display: grid;
+    grid-template-columns: minmax(0, .95fr) minmax(410px, 1.05fr);
+    align-items: center;
+    gap: 58px;
+}
+
+.hero-3594__status {
+    width: fit-content;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #38bdf8;
+    font-family: monospace;
+    font-size: 8px;
+    letter-spacing: .12em;
+}
+
+.hero-3594__status span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 7px #22c55e;
+}
+
+.hero-3594 h1 {
+    margin: 0;
+    max-width: 580px;
+    color: #f8fafc;
+    font-size: clamp(46px, 7vw, 79px);
+    line-height: .96;
+    letter-spacing: -.055em;
+}
+
+.hero-3594 h1 span {
+    display: block;
+    color: #38bdf8;
+}
+
+.hero-3594__copy > p {
+    max-width: 490px;
+    margin: 23px 0 0;
+    color: #64748b;
+    font-size: 13px;
+    line-height: 1.75;
+}
+
+.hero-3594__actions {
+    margin-top: 27px;
+    display: flex;
+    gap: 9px;
+}
+
+.hero-3594__actions button {
+    height: 42px;
+    padding: 0 15px;
+    border-radius: 9px;
+    font: inherit;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform .2s ease;
+}
+
+.hero-3594__actions button:hover {
+    transform: translateY(-2px);
+}
+
+.hero-3594__primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #0ea5e9;
+    background: #0ea5e9;
+    color: #001018;
+    box-shadow:
+        0 9px 25px rgba(14, 165, 233, .2);
+}
+
+.hero-3594__ghost {
+    border: 1px solid rgba(148, 163, 184, .13);
+    background: rgba(255, 255, 255, .025);
+    color: #94a3b8;
+}
+
+.hero-3594__stats {
+    margin-top: 37px;
+    display: flex;
+    gap: 35px;
+}
+
+.hero-3594__stats > div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.hero-3594__stats strong {
+    color: #e0f2fe;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.hero-3594__stats span {
+    color: #475569;
+    font-family: monospace;
+    font-size: 6px;
+    letter-spacing: .12em;
+}
+
+.hero-3594__terminal {
+    overflow: hidden;
+    border: 1px solid rgba(56, 189, 248, .16);
+    border-radius: 16px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(5, 15, 24, .98),
+            rgba(2, 8, 14, .98)
+        );
+    box-shadow:
+        0 32px 70px rgba(0, 0, 0, .4),
+        0 0 35px rgba(14, 165, 233, .05);
+}
+
+.hero-3594__terminal-head {
+    height: 43px;
+    padding: 0 13px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    border-bottom: 1px solid rgba(56, 189, 248, .08);
+}
+
+.hero-3594__terminal-head > div {
+    display: flex;
+    gap: 5px;
+}
+
+.hero-3594__terminal-head > div span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #1e293b;
+}
+
+.hero-3594__terminal-head > span {
+    color: #475569;
+    font-family: monospace;
+    font-size: 7px;
+}
+
+.hero-3594__terminal-head > i {
+    justify-self: end;
+    color: #334155;
+}
+
+.hero-3594__terminal-body {
+    padding: 19px 0;
+}
+
+.hero-3594__line {
+    min-height: 29px;
+    display: grid;
+    grid-template-columns: 37px 1fr;
+    align-items: center;
+}
+
+.hero-3594__line > span {
+    padding-right: 10px;
+    color: #1e3a4b;
+    font-family: monospace;
+    font-size: 8px;
+    text-align: right;
+}
+
+.hero-3594__line code {
+    padding-left: 14px;
+    border-left: 1px solid rgba(56, 189, 248, .06);
+    color: #94a3b8;
+    font-size: 10px;
+}
+
+.hero-3594__line code b {
+    color: #c084fc;
+    font-weight: 500;
+}
+
+.hero-3594__line code em {
+    color: #38bdf8;
+    font-style: normal;
+}
+
+.hero-3594__line code strong {
+    color: #86efac;
+    font-weight: 500;
+}
+
+.hero-3594__line-muted {
+    opacity: .3;
+}
+
+.hero-3594__terminal-result {
+    min-height: 47px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(56, 189, 248, .08);
+    background: rgba(34, 197, 94, .025);
+}
+
+.hero-3594__terminal-result > div {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #6ee7b7;
+    font-family: monospace;
+    font-size: 8px;
+}
+
+.hero-3594__terminal-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 6px rgba(34, 197, 94, .7);
+}
+
+.hero-3594__terminal-result strong {
+    color: #475569;
+    font-family: monospace;
+    font-size: 8px;
+}
+
+@media (max-width: 900px) {
+    .hero-3594 {
+        padding: 22px 24px 45px;
+    }
+
+    .hero-3594__nav {
+        display: none;
+    }
+
+    .hero-3594__content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .hero-3594__terminal {
+        max-width: 620px;
+    }
+}
+
+@media (max-width: 560px) {
+    .hero-3594 {
+        padding: 18px 15px 32px;
+    }
+
+    .hero-3594__header > button {
+        display: none;
+    }
+
+    .hero-3594 h1 {
+        font-size: 47px;
+    }
+
+    .hero-3594__actions {
+        flex-direction: column;
+    }
+
+    .hero-3594__actions button {
+        width: 100%;
+    }
+
+    .hero-3594__stats {
+        gap: 17px;
+        justify-content: space-between;
+    }
+}`,
+  },
+  {
+    id: 3595,
+    name: "Luxury Editorial Hero",
+    preview: (
+      <section className="hero-3595">
+        <header className="hero-3595__header">
+          <div className="hero-3595__logo">MONO</div>
+
+          <nav>
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#journal">Journal</a>
+          </nav>
+
+          <button type="button">
+            Menu
+            <span></span>
+          </button>
+        </header>
+
+        <div className="hero-3595__content">
+          <div className="hero-3595__intro">
+            <span>INDEPENDENT CREATIVE STUDIO</span>
+
+            <p>
+              Strategy, identity and digital experiences for ambitious global
+              brands.
+            </p>
+          </div>
+
+          <div className="hero-3595__headline">
+            <h1>
+              Ideas made
+              <em>visible.</em>
+            </h1>
+          </div>
+
+          <div className="hero-3595__feature">
+            <div className="hero-3595__image">
+              <div className="hero-3595__image-shape"></div>
+
+              <span className="hero-3595__image-number">01</span>
+
+              <div className="hero-3595__image-caption">
+                <span>SELECTED PROJECT</span>
+                <strong>Atelier No. 7</strong>
+              </div>
+            </div>
+
+            <div className="hero-3595__project">
+              <span>FEATURED WORK / 2026</span>
+
+              <h2>
+                Identity built with
+                <br />
+                intention.
+              </h2>
+
+              <p>
+                A refined visual system balancing editorial restraint with
+                contemporary digital interaction.
+              </p>
+
+              <a href="#project">
+                View project
+                <i className="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    ),
+    html: `<section class="hero-3595">
+    <header class="hero-3595__header">
+        <div class="hero-3595__logo">MONO</div>
+
+        <nav>
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#journal">Journal</a>
+        </nav>
+
+        <button type="button">
+            Menu
+            <span></span>
+        </button>
+    </header>
+
+    <div class="hero-3595__content">
+        <div class="hero-3595__intro">
+            <span>INDEPENDENT CREATIVE STUDIO</span>
+
+            <p>
+                Strategy, identity and digital experiences for ambitious global brands.
+            </p>
+        </div>
+
+        <div class="hero-3595__headline">
+            <h1>
+                Ideas made
+                <em>visible.</em>
+            </h1>
+        </div>
+
+        <div class="hero-3595__feature">
+            <div class="hero-3595__image">
+                <div class="hero-3595__image-shape"></div>
+
+                <span class="hero-3595__image-number">01</span>
+
+                <div class="hero-3595__image-caption">
+                    <span>SELECTED PROJECT</span>
+                    <strong>Atelier No. 7</strong>
+                </div>
+            </div>
+
+            <div class="hero-3595__project">
+                <span>FEATURED WORK / 2026</span>
+
+                <h2>
+                    Identity built with
+                    <br>
+                    intention.
+                </h2>
+
+                <p>
+                    A refined visual system balancing editorial restraint with contemporary digital interaction.
+                </p>
+
+                <a href="#project">
+                    View project
+                    <i class="ri-arrow-right-up-line"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>`,
+    css: `.hero-3595 {
+    width: 100%;
+    min-height: 670px;
+    overflow: hidden;
+    border-radius: 24px;
+    background: #f3f0e9;
+    color: #171717;
+}
+
+.hero-3595__header {
+    min-height: 70px;
+    padding: 0 34px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    border-bottom: 1px solid rgba(23, 23, 23, .13);
+}
+
+.hero-3595__logo {
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: .18em;
+}
+
+.hero-3595__header nav {
+    display: flex;
+    gap: 27px;
+}
+
+.hero-3595__header nav a {
+    color: #44403c;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.hero-3595__header nav a:hover {
+    color: #000000;
+}
+
+.hero-3595__header button {
+    justify-self: end;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    border: 0;
+    background: transparent;
+    color: #171717;
+    font: inherit;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.hero-3595__header button span {
+    width: 18px;
+    height: 1px;
+    background: #171717;
+    box-shadow: 0 5px 0 #171717;
+}
+
+.hero-3595__content {
+    padding: 30px 34px 36px;
+}
+
+.hero-3595__intro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero-3595__intro > span {
+    color: #78716c;
+    font-size: 7px;
+    font-weight: 700;
+    letter-spacing: .18em;
+}
+
+.hero-3595__intro p {
+    max-width: 310px;
+    margin: 0;
+    color: #57534e;
+    font-size: 10px;
+    line-height: 1.65;
+}
+
+.hero-3595__headline {
+    margin-top: 35px;
+}
+
+.hero-3595 h1 {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: clamp(67px, 11vw, 145px);
+    line-height: .78;
+    letter-spacing: -.075em;
+    font-weight: 400;
+}
+
+.hero-3595 h1 em {
+    display: block;
+    margin-left: 16%;
+    color: #8d543a;
+    font-weight: 400;
+}
+
+.hero-3595__feature {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1.3fr .7fr;
+    min-height: 260px;
+    border-top: 1px solid rgba(23, 23, 23, .15);
+}
+
+.hero-3595__image {
+    position: relative;
+    overflow: hidden;
+    min-height: 270px;
+    margin-top: 20px;
+    background:
+        linear-gradient(
+            145deg,
+            #d6d3d1,
+            #b7afa6
+        );
+}
+
+.hero-3595__image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255, 255, 255, .2),
+            transparent 45%
+        );
+}
+
+.hero-3595__image-shape {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(24deg);
+    border-radius: 50% 10% 45% 20%;
+    background: #8d543a;
+    opacity: .85;
+    transition:
+        transform .35s ease,
+        border-radius .35s ease;
+}
+
+.hero-3595__image:hover .hero-3595__image-shape {
+    transform: translate(-50%, -50%) rotate(30deg) scale(1.04);
+    border-radius: 30% 50% 20% 50%;
+}
+
+.hero-3595__image-number {
+    position: absolute;
+    left: 15px;
+    top: 14px;
+    color: rgba(23, 23, 23, .55);
+    font-size: 8px;
+}
+
+.hero-3595__image-caption {
+    position: absolute;
+    left: 15px;
+    bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.hero-3595__image-caption span {
+    color: rgba(23, 23, 23, .55);
+    font-size: 6px;
+    letter-spacing: .16em;
+}
+
+.hero-3595__image-caption strong {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hero-3595__project {
+    padding: 30px 0 0 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-3595__project > span {
+    color: #78716c;
+    font-size: 7px;
+    letter-spacing: .15em;
+}
+
+.hero-3595__project h2 {
+    margin: 32px 0 0;
+    font-family: Georgia, serif;
+    font-size: 28px;
+    line-height: 1.05;
+    font-weight: 400;
+}
+
+.hero-3595__project p {
+    max-width: 280px;
+    margin: 20px 0 0;
+    color: #78716c;
+    font-size: 10px;
+    line-height: 1.65;
+}
+
+.hero-3595__project a {
+    margin-top: auto;
+    padding-bottom: 4px;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid #171717;
+    color: #171717;
+    font-size: 9px;
+    text-decoration: none;
+}
+
+@media (max-width: 780px) {
+    .hero-3595__header {
+        grid-template-columns: 1fr auto;
+    }
+
+    .hero-3595__header nav {
+        display: none;
+    }
+
+    .hero-3595 h1 em {
+        margin-left: 8%;
+    }
+
+    .hero-3595__feature {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-3595__project {
+        padding: 28px 0 0;
+        min-height: 230px;
+    }
+}
+
+@media (max-width: 520px) {
+    .hero-3595__header {
+        padding: 0 18px;
+    }
+
+    .hero-3595__content {
+        padding: 24px 18px 28px;
+    }
+
+    .hero-3595__intro {
+        flex-direction: column;
+    }
+
+    .hero-3595 h1 {
+        font-size: 72px;
+    }
+
+    .hero-3595 h1 em {
+        margin-left: 0;
+    }
+}`,
+  },
+  {
+    id: 3596,
+    name: "Product Launch Hero",
+    preview: (
+      <section className="hero-3596">
+        <div className="hero-3596__noise"></div>
+
+        <nav className="hero-3596__nav">
+          <div className="hero-3596__logo">
+            <span className="hero-3596__logo-mark"></span>
+            orbit
+          </div>
+
+          <div className="hero-3596__links">
+            <a href="#product">Product</a>
+            <a href="#customers">Customers</a>
+            <a href="#company">Company</a>
+          </div>
+
+          <button type="button">
+            Join waitlist
+            <i className="ri-arrow-right-line"></i>
+          </button>
+        </nav>
+
+        <div className="hero-3596__main">
+          <div className="hero-3596__copy">
+            <div className="hero-3596__announcement">
+              <span>NEW</span>
+              Orbit 2.0 is now in private beta
+              <i className="ri-arrow-right-s-line"></i>
+            </div>
+
+            <h1>
+              One workspace.
+              <span>Zero chaos.</span>
+            </h1>
+
+            <p>
+              Organize projects, conversations and decisions in one focused
+              workspace built for teams that move fast.
+            </p>
+
+            <form className="hero-3596__form">
+              <div>
+                <i className="ri-mail-line"></i>
+                <input type="email" placeholder="you@company.com" />
+              </div>
+
+              <button type="button">Request access</button>
+            </form>
+
+            <div className="hero-3596__trust">
+              <span>No credit card</span>
+              <i></i>
+              <span>Free during beta</span>
+              <i></i>
+              <span>Cancel anytime</span>
+            </div>
+          </div>
+
+          <div className="hero-3596__product">
+            <div className="hero-3596__window">
+              <div className="hero-3596__window-bar">
+                <div>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <strong>Orbit Workspace</strong>
+
+                <button type="button">
+                  <i className="ri-add-line"></i>
+                </button>
+              </div>
+
+              <div className="hero-3596__window-body">
+                <aside>
+                  <div className="hero-3596__workspace">
+                    <span>O</span>
+                    <div>
+                      <strong>Orbit Studio</strong>
+                      <small>12 members</small>
+                    </div>
+                  </div>
+
+                  <div className="hero-3596__menu">
+                    <span className="hero-3596__menu-active">
+                      <i className="ri-home-5-line"></i>
+                      Home
+                    </span>
+
+                    <span>
+                      <i className="ri-checkbox-multiple-line"></i>
+                      Projects
+                    </span>
+
+                    <span>
+                      <i className="ri-chat-3-line"></i>
+                      Messages
+                    </span>
+
+                    <span>
+                      <i className="ri-folder-3-line"></i>
+                      Files
+                    </span>
+                  </div>
+                </aside>
+
+                <main>
+                  <div className="hero-3596__main-head">
+                    <div>
+                      <span>GOOD MORNING</span>
+                      <strong>Team overview</strong>
+                    </div>
+
+                    <button type="button">
+                      <i className="ri-add-line"></i>
+                      New task
+                    </button>
+                  </div>
+
+                  <div className="hero-3596__cards">
+                    <div>
+                      <span>In progress</span>
+                      <strong>24</strong>
+                      <small>8 due this week</small>
+                    </div>
+
+                    <div>
+                      <span>Completed</span>
+                      <strong>138</strong>
+                      <small>+19 this month</small>
+                    </div>
+
+                    <div>
+                      <span>Team activity</span>
+                      <strong>87%</strong>
+                      <small>Highly active</small>
+                    </div>
+                  </div>
+
+                  <div className="hero-3596__tasks">
+                    <div className="hero-3596__task-head">
+                      <span>Recent tasks</span>
+                      <button type="button">View all</button>
+                    </div>
+
+                    <div className="hero-3596__task">
+                      <span className="hero-3596__check"></span>
+                      <div>
+                        <strong>Finalize homepage design</strong>
+                        <small>Website redesign</small>
+                      </div>
+                      <span className="hero-3596__person">AM</span>
+                    </div>
+
+                    <div className="hero-3596__task">
+                      <span className="hero-3596__check"></span>
+                      <div>
+                        <strong>Prepare launch assets</strong>
+                        <small>Marketing campaign</small>
+                      </div>
+                      <span className="hero-3596__person">JS</span>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+
+            <div className="hero-3596__notification">
+              <span>
+                <i className="ri-check-line"></i>
+              </span>
+
+              <div>
+                <strong>Project updated</strong>
+                <small>3 tasks completed</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    ),
+    html: `<section class="hero-3596">
+    <div class="hero-3596__noise"></div>
+
+    <nav class="hero-3596__nav">
+        <div class="hero-3596__logo">
+            <span class="hero-3596__logo-mark"></span>
+            orbit
+        </div>
+
+        <div class="hero-3596__links">
+            <a href="#product">Product</a>
+            <a href="#customers">Customers</a>
+            <a href="#company">Company</a>
+        </div>
+
+        <button type="button">
+            Join waitlist
+            <i class="ri-arrow-right-line"></i>
+        </button>
+    </nav>
+
+    <div class="hero-3596__main">
+        <div class="hero-3596__copy">
+            <div class="hero-3596__announcement">
+                <span>NEW</span>
+                Orbit 2.0 is now in private beta
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+
+            <h1>
+                One workspace.
+                <span>Zero chaos.</span>
+            </h1>
+
+            <p>
+                Organize projects, conversations and decisions in one focused workspace built for teams that move fast.
+            </p>
+
+            <form class="hero-3596__form">
+                <div>
+                    <i class="ri-mail-line"></i>
+                    <input type="email" placeholder="you@company.com">
+                </div>
+
+                <button type="button">Request access</button>
+            </form>
+
+            <div class="hero-3596__trust">
+                <span>No credit card</span>
+                <i></i>
+                <span>Free during beta</span>
+                <i></i>
+                <span>Cancel anytime</span>
+            </div>
+        </div>
+
+        <div class="hero-3596__product">
+            <div class="hero-3596__window">
+                <div class="hero-3596__window-bar">
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <strong>Orbit Workspace</strong>
+
+                    <button type="button">
+                        <i class="ri-add-line"></i>
+                    </button>
+                </div>
+
+                <div class="hero-3596__window-body">
+                    <aside>
+                        <div class="hero-3596__workspace">
+                            <span>O</span>
+                            <div>
+                                <strong>Orbit Studio</strong>
+                                <small>12 members</small>
+                            </div>
+                        </div>
+
+                        <div class="hero-3596__menu">
+                            <span class="hero-3596__menu-active">
+                                <i class="ri-home-5-line"></i>
+                                Home
+                            </span>
+
+                            <span>
+                                <i class="ri-checkbox-multiple-line"></i>
+                                Projects
+                            </span>
+
+                            <span>
+                                <i class="ri-chat-3-line"></i>
+                                Messages
+                            </span>
+
+                            <span>
+                                <i class="ri-folder-3-line"></i>
+                                Files
+                            </span>
+                        </div>
+                    </aside>
+
+                    <main>
+                        <div class="hero-3596__main-head">
+                            <div>
+                                <span>GOOD MORNING</span>
+                                <strong>Team overview</strong>
+                            </div>
+
+                            <button type="button">
+                                <i class="ri-add-line"></i>
+                                New task
+                            </button>
+                        </div>
+
+                        <div class="hero-3596__cards">
+                            <div>
+                                <span>In progress</span>
+                                <strong>24</strong>
+                                <small>8 due this week</small>
+                            </div>
+
+                            <div>
+                                <span>Completed</span>
+                                <strong>138</strong>
+                                <small>+19 this month</small>
+                            </div>
+
+                            <div>
+                                <span>Team activity</span>
+                                <strong>87%</strong>
+                                <small>Highly active</small>
+                            </div>
+                        </div>
+
+                        <div class="hero-3596__tasks">
+                            <div class="hero-3596__task-head">
+                                <span>Recent tasks</span>
+                                <button type="button">View all</button>
+                            </div>
+
+                            <div class="hero-3596__task">
+                                <span class="hero-3596__check"></span>
+                                <div>
+                                    <strong>Finalize homepage design</strong>
+                                    <small>Website redesign</small>
+                                </div>
+                                <span class="hero-3596__person">AM</span>
+                            </div>
+
+                            <div class="hero-3596__task">
+                                <span class="hero-3596__check"></span>
+                                <div>
+                                    <strong>Prepare launch assets</strong>
+                                    <small>Marketing campaign</small>
+                                </div>
+                                <span class="hero-3596__person">JS</span>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+
+            <div class="hero-3596__notification">
+                <span>
+                    <i class="ri-check-line"></i>
+                </span>
+
+                <div>
+                    <strong>Project updated</strong>
+                    <small>3 tasks completed</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>`,
+    css: `.hero-3596 {
+    position: relative;
+    width: 100%;
+    min-height: 640px;
+    overflow: hidden;
+    padding: 24px 38px 52px;
+    border-radius: 27px;
+    background:
+        radial-gradient(
+            circle at 82% 42%,
+            rgba(99, 102, 241, .12),
+            transparent 35%
+        ),
+        linear-gradient(
+            145deg,
+            #0f1017,
+            #151722
+        );
+    color: #ffffff;
+}
+
+.hero-3596__noise {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: .18;
+    background-image:
+        radial-gradient(
+            rgba(255, 255, 255, .16) .5px,
+            transparent .5px
+        );
+    background-size: 7px 7px;
+}
+
+.hero-3596__nav {
+    position: relative;
+    z-index: 5;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-3596__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #f8fafc;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: -.02em;
+}
+
+.hero-3596__logo-mark {
+    width: 18px;
+    height: 18px;
+    border: 5px solid #818cf8;
+    border-radius: 50%;
+    box-shadow: 0 0 12px rgba(129, 140, 248, .4);
+}
+
+.hero-3596__links {
+    display: flex;
+    gap: 28px;
+}
+
+.hero-3596__links a {
+    color: #71717a;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.hero-3596__links a:hover {
+    color: #d4d4d8;
+}
+
+.hero-3596__nav > button {
+    height: 37px;
+    padding: 0 13px;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: 9px;
+    background: rgba(255, 255, 255, .04);
+    color: #e4e4e7;
+    font: inherit;
+    font-size: 9px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero-3596__main {
+    position: relative;
+    z-index: 3;
+    max-width: 1180px;
+    min-height: 530px;
+    margin: 34px auto 0;
+    display: grid;
+    grid-template-columns: minmax(0, .85fr) minmax(440px, 1.15fr);
+    align-items: center;
+    gap: 52px;
+}
+
+.hero-3596__announcement {
+    width: fit-content;
+    margin-bottom: 20px;
+    padding: 6px 9px 6px 6px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border: 1px solid rgba(129, 140, 248, .16);
+    border-radius: 999px;
+    background: rgba(99, 102, 241, .05);
+    color: #a1a1aa;
+    font-size: 8px;
+}
+
+.hero-3596__announcement > span {
+    padding: 4px 6px;
+    border-radius: 999px;
+    background: #6366f1;
+    color: #ffffff;
+    font-size: 6px;
+    font-weight: 800;
+    letter-spacing: .07em;
+}
+
+.hero-3596__announcement i {
+    color: #818cf8;
+}
+
+.hero-3596 h1 {
+    margin: 0;
+    max-width: 580px;
+    font-size: clamp(47px, 7vw, 82px);
+    line-height: .96;
+    letter-spacing: -.06em;
+}
+
+.hero-3596 h1 span {
+    display: block;
+    color: #818cf8;
+}
+
+.hero-3596__copy > p {
+    max-width: 500px;
+    margin: 23px 0 0;
+    color: #71717a;
+    font-size: 13px;
+    line-height: 1.75;
+}
+
+.hero-3596__form {
+    max-width: 470px;
+    margin-top: 27px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 5px;
+    border: 1px solid rgba(255, 255, 255, .09);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, .025);
+}
+
+.hero-3596__form > div {
+    min-width: 0;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.hero-3596__form i {
+    color: #52525b;
+}
+
+.hero-3596__form input {
+    width: 100%;
+    min-width: 0;
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: #e4e4e7;
+    font: inherit;
+    font-size: 10px;
+}
+
+.hero-3596__form input::placeholder {
+    color: #52525b;
+}
+
+.hero-3596__form button {
+    height: 38px;
+    padding: 0 13px;
+    border: 0;
+    border-radius: 8px;
+    background: #6366f1;
+    color: #ffffff;
+    font: inherit;
+    font-size: 9px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero-3596__trust {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #52525b;
+    font-size: 7px;
+}
+
+.hero-3596__trust i {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #3f3f46;
+}
+
+.hero-3596__product {
+    position: relative;
+}
+
+.hero-3596__window {
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: 18px;
+    background: #11131c;
+    box-shadow:
+        0 35px 80px rgba(0, 0, 0, .42);
+    transform: perspective(1200px) rotateY(-4deg);
+    transition: transform .35s ease;
+}
+
+.hero-3596__product:hover .hero-3596__window {
+    transform: perspective(1200px) rotateY(-1deg) translateY(-4px);
+}
+
+.hero-3596__window-bar {
+    height: 42px;
+    padding: 0 12px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, .06);
+}
+
+.hero-3596__window-bar > div {
+    display: flex;
+    gap: 5px;
+}
+
+.hero-3596__window-bar > div span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #3f3f46;
+}
+
+.hero-3596__window-bar strong {
+    color: #71717a;
+    font-size: 7px;
+    font-weight: 500;
+}
+
+.hero-3596__window-bar > button {
+    justify-self: end;
+    width: 23px;
+    height: 23px;
+    display: grid;
+    place-items: center;
+    border: 0;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, .04);
+    color: #71717a;
+}
+
+.hero-3596__window-body {
+    min-height: 350px;
+    display: grid;
+    grid-template-columns: 135px 1fr;
+}
+
+.hero-3596__window-body aside {
+    padding: 16px 10px;
+    border-right: 1px solid rgba(255, 255, 255, .055);
+    background: #0d0f17;
+}
+
+.hero-3596__workspace {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.hero-3596__workspace > span {
+    width: 27px;
+    height: 27px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: #6366f1;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 800;
+}
+
+.hero-3596__workspace > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-3596__workspace strong {
+    color: #d4d4d8;
+    font-size: 8px;
+}
+
+.hero-3596__workspace small {
+    margin-top: 2px;
+    color: #52525b;
+    font-size: 6px;
+}
+
+.hero-3596__menu {
+    margin-top: 22px;
+    display: grid;
+    gap: 5px;
+}
+
+.hero-3596__menu > span {
+    min-height: 30px;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 7px;
+    color: #52525b;
+    font-size: 7px;
+}
+
+.hero-3596__menu-active {
+    background: rgba(99, 102, 241, .08);
+    color: #a5b4fc !important;
+}
+
+.hero-3596__window-body main {
+    padding: 18px;
+}
+
+.hero-3596__main-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-3596__main-head > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-3596__main-head span {
+    color: #52525b;
+    font-size: 6px;
+    letter-spacing: .12em;
+}
+
+.hero-3596__main-head strong {
+    margin-top: 3px;
+    color: #e4e4e7;
+    font-size: 13px;
+}
+
+.hero-3596__main-head button {
+    height: 29px;
+    padding: 0 9px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    border: 0;
+    border-radius: 7px;
+    background: #6366f1;
+    color: #ffffff;
+    font-size: 7px;
+}
+
+.hero-3596__cards {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.hero-3596__cards > div {
+    padding: 11px;
+    border: 1px solid rgba(255, 255, 255, .06);
+    border-radius: 9px;
+    background: rgba(255, 255, 255, .02);
+}
+
+.hero-3596__cards span {
+    display: block;
+    color: #52525b;
+    font-size: 6px;
+}
+
+.hero-3596__cards strong {
+    display: block;
+    margin-top: 5px;
+    color: #e4e4e7;
+    font-size: 16px;
+}
+
+.hero-3596__cards small {
+    display: block;
+    margin-top: 4px;
+    color: #6366f1;
+    font-size: 6px;
+}
+
+.hero-3596__tasks {
+    margin-top: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, .06);
+    border-radius: 9px;
+}
+
+.hero-3596__task-head {
+    min-height: 35px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, .05);
+}
+
+.hero-3596__task-head > span {
+    color: #a1a1aa;
+    font-size: 7px;
+}
+
+.hero-3596__task-head button {
+    border: 0;
+    background: transparent;
+    color: #6366f1;
+    font-size: 6px;
+}
+
+.hero-3596__task {
+    min-height: 46px;
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: 15px 1fr auto;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, .04);
+}
+
+.hero-3596__task:last-child {
+    border-bottom: 0;
+}
+
+.hero-3596__check {
+    width: 11px;
+    height: 11px;
+    border: 1px solid #6366f1;
+    border-radius: 3px;
+}
+
+.hero-3596__task > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-3596__task strong {
+    color: #a1a1aa;
+    font-size: 7px;
+}
+
+.hero-3596__task small {
+    margin-top: 2px;
+    color: #3f3f46;
+    font-size: 6px;
+}
+
+.hero-3596__person {
+    width: 22px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #27272a;
+    color: #a1a1aa;
+    font-size: 6px;
+}
+
+.hero-3596__notification {
+    position: absolute;
+    right: -15px;
+    bottom: 27px;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid rgba(255, 255, 255, .09);
+    border-radius: 11px;
+    background: rgba(24, 24, 27, .92);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, .28);
+    backdrop-filter: blur(10px);
+}
+
+.hero-3596__notification > span {
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: rgba(34, 197, 94, .1);
+    color: #4ade80;
+}
+
+.hero-3596__notification > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-3596__notification strong {
+    color: #d4d4d8;
+    font-size: 7px;
+}
+
+.hero-3596__notification small {
+    margin-top: 2px;
+    color: #52525b;
+    font-size: 6px;
+}
+
+@media (max-width: 930px) {
+    .hero-3596 {
+        padding: 22px 24px 44px;
+    }
+
+    .hero-3596__links {
+        display: none;
+    }
+
+    .hero-3596__main {
+        grid-template-columns: 1fr;
+        gap: 42px;
+    }
+
+    .hero-3596__product {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 580px) {
+    .hero-3596 {
+        padding: 18px 15px 32px;
+    }
+
+    .hero-3596__nav > button {
+        display: none;
+    }
+
+    .hero-3596 h1 {
+        font-size: 47px;
+    }
+
+    .hero-3596__form {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-3596__form button {
+        width: 100%;
+    }
+
+    .hero-3596__trust {
+        flex-wrap: wrap;
+    }
+
+    .hero-3596__window-body {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-3596__window-body aside {
+        display: none;
+    }
+
+    .hero-3596__cards {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-3596__notification {
+        display: none;
+    }
+}`,
+  },
 ];

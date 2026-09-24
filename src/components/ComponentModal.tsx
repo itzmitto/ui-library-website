@@ -3,6 +3,7 @@ import { initButton } from "../scripts/ButtonsScript.js";
 import { initCarousel } from "../scripts/CarouselsScript.js";
 import { initSidebar } from "../scripts/SidebarsScript.js";
 import { initCheckbox } from "../scripts/CheckboxesScript.js";
+import { initCard } from "../scripts/CardsScript.js";
 import "./ComponentModal.css";
 
 interface ComponentItem {
@@ -22,7 +23,6 @@ interface Props {
 
 export default function ComponentModal({ item, onClose }: Props) {
   const [tab, setTab] = useState<"html" | "css" | "javascript">("html");
-
   const [copied, setCopied] = useState(false);
 
   const previewRef = useRef<HTMLDivElement>(null);
@@ -31,7 +31,6 @@ export default function ComponentModal({ item, onClose }: Props) {
     if (item) {
       setTab("html");
       setCopied(false);
-
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "";
@@ -83,6 +82,14 @@ export default function ComponentModal({ item, onClose }: Props) {
 
     if (sidebarElement) {
       initSidebar(item.scriptId, sidebarElement);
+    }
+
+    const cardElement = preview.querySelector(
+      `[data-card-id="${item.scriptId}"]`,
+    );
+
+    if (cardElement) {
+      initCard(item.scriptId, cardElement);
     }
   }, [item]);
 

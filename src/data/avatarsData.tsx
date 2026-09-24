@@ -8357,4 +8357,653 @@ export const avatars = [
   }
 }`,
   },
+  {
+    id: 3555,
+    name: "Diamond Crystal Avatar",
+    preview: (
+      <div className="avatar-3555">
+        <div className="avatar-3555__diamond">
+          <div className="avatar-3555__inner">
+            <span className="avatar-3555__initials">AB</span>
+          </div>
+        </div>
+        <span className="avatar-3555__status"></span>
+      </div>
+    ),
+    html: `<div class="Avatar3555">
+    <div class="Avatar3555__diamond">
+        <div class="Avatar3555__inner">
+            <span class="Avatar3555__initials">AB</span>
+        </div>
+    </div>
+    <span class="Avatar3555__status"></span>
+</div>`,
+    css: `.Avatar3555 {
+    position: relative;
+    width: 72px;
+    height: 72px;
+    display: grid;
+    place-items: center;
+}
+
+.Avatar3555__diamond {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+    transform: rotate(45deg);
+    border: 1px solid rgba(255, 255, 255, .55);
+    background:
+        linear-gradient(
+            135deg,
+            #ecfeff 0%,
+            #67e8f9 30%,
+            #6366f1 68%,
+            #a855f7 100%
+        );
+    box-shadow:
+        0 0 10px rgba(103, 232, 249, .55),
+        0 0 24px rgba(99, 102, 241, .3);
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+.Avatar3555__diamond::before {
+    content: "";
+    position: absolute;
+    inset: 3px 50% 50% 3px;
+    background: rgba(255, 255, 255, .32);
+}
+
+.Avatar3555__diamond::after {
+    content: "";
+    position: absolute;
+    inset: 50% 3px 3px 50%;
+    background: rgba(30, 41, 59, .16);
+}
+
+.Avatar3555__inner {
+    position: relative;
+    z-index: 2;
+    width: 39px;
+    height: 39px;
+    display: grid;
+    place-items: center;
+    transform: rotate(-45deg);
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            145deg,
+            #172554,
+            #312e81
+        );
+    box-shadow:
+        inset 0 0 10px rgba(255, 255, 255, .12);
+}
+
+.Avatar3555__initials {
+    color: #ecfeff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-shadow: 0 0 7px #67e8f9;
+}
+
+.Avatar3555__status {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    z-index: 4;
+    width: 13px;
+    height: 13px;
+    border: 2px solid #111827;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 7px rgba(34, 197, 94, .7);
+}
+
+.Avatar3555:hover .Avatar3555__diamond {
+    transform: rotate(45deg) scale(1.06);
+    box-shadow:
+        0 0 14px rgba(103, 232, 249, .7),
+        0 0 30px rgba(168, 85, 247, .4);
+}`,
+  },
+  {
+    id: 3556,
+    name: "Amethyst Crown Avatar",
+    preview: (
+      <div className="avatar-3556">
+        <div className="avatar-3556__gem">
+          <div className="avatar-3556__facet avatar-3556__facet-1"></div>
+          <div className="avatar-3556__facet avatar-3556__facet-2"></div>
+          <div className="avatar-3556__portrait">
+            <span>A</span>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="Avatar3556">
+    <div class="Avatar3556__gem">
+        <div class="Avatar3556__facet Avatar3556__facet--1"></div>
+        <div class="Avatar3556__facet Avatar3556__facet--2"></div>
+        <div class="Avatar3556__portrait">
+            <span>A</span>
+        </div>
+    </div>
+</div>`,
+    css: `.Avatar3556 {
+    width: 74px;
+    height: 74px;
+    display: grid;
+    place-items: center;
+}
+
+.Avatar3556__gem {
+    position: relative;
+    width: 62px;
+    height: 62px;
+    display: grid;
+    place-items: center;
+    clip-path: polygon(
+        50% 0,
+        82% 10%,
+        100% 38%,
+        90% 75%,
+        50% 100%,
+        10% 75%,
+        0 38%,
+        18% 10%
+    );
+    background:
+        linear-gradient(
+            135deg,
+            #f5f3ff,
+            #c084fc 25%,
+            #9333ea 50%,
+            #6d28d9 76%,
+            #312e81
+        );
+    filter: drop-shadow(0 0 9px rgba(168, 85, 247, .55));
+    transition:
+        transform .25s ease,
+        filter .25s ease;
+}
+
+.Avatar3556__facet {
+    position: absolute;
+}
+
+.Avatar3556__facet--1 {
+    width: 31px;
+    height: 31px;
+    left: 2px;
+    top: 1px;
+    background: rgba(255, 255, 255, .28);
+    clip-path: polygon(
+        0 0,
+        100% 10%,
+        45% 100%
+    );
+}
+
+.Avatar3556__facet--2 {
+    width: 30px;
+    height: 32px;
+    right: 1px;
+    bottom: 1px;
+    background: rgba(30, 27, 75, .26);
+    clip-path: polygon(
+        55% 0,
+        100% 100%,
+        0 82%
+    );
+}
+
+.Avatar3556__portrait {
+    position: relative;
+    z-index: 3;
+    width: 43px;
+    height: 43px;
+    display: grid;
+    place-items: center;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 35% 25%,
+            #a78bfa,
+            #4c1d95 70%
+        );
+    box-shadow:
+        inset 0 0 13px rgba(255, 255, 255, .14);
+}
+
+.Avatar3556__portrait span {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 800;
+    text-shadow:
+        0 0 6px #e879f9,
+        0 0 10px #a855f7;
+}
+
+.Avatar3556:hover .Avatar3556__gem {
+    transform: translateY(-2px) scale(1.05);
+    filter:
+        drop-shadow(0 0 11px rgba(192, 132, 252, .7))
+        drop-shadow(0 0 20px rgba(109, 40, 217, .35));
+}`,
+  },
+  {
+    id: 3557,
+    name: "Emerald Crystal Avatar",
+    preview: (
+      <div className="avatar-3557">
+        <div className="avatar-3557__frame">
+          <div className="avatar-3557__portrait">
+            <span>AV</span>
+          </div>
+        </div>
+        <span className="avatar-3557__crystal avatar-3557__crystal-1"></span>
+        <span className="avatar-3557__crystal avatar-3557__crystal-2"></span>
+        <span className="avatar-3557__crystal avatar-3557__crystal-3"></span>
+      </div>
+    ),
+    html: `<div class="Avatar3557">
+    <div class="Avatar3557__frame">
+        <div class="Avatar3557__portrait">
+            <span>AV</span>
+        </div>
+    </div>
+    <span class="Avatar3557__crystal Avatar3557__crystal--1"></span>
+    <span class="Avatar3557__crystal Avatar3557__crystal--2"></span>
+    <span class="Avatar3557__crystal Avatar3557__crystal--3"></span>
+</div>`,
+    css: `.Avatar3557 {
+    position: relative;
+    width: 76px;
+    height: 76px;
+    display: grid;
+    place-items: center;
+}
+
+.Avatar3557__frame {
+    width: 59px;
+    height: 59px;
+    display: grid;
+    place-items: center;
+    clip-path: polygon(
+        25% 0,
+        75% 0,
+        100% 25%,
+        100% 75%,
+        75% 100%,
+        25% 100%,
+        0 75%,
+        0 25%
+    );
+    background:
+        linear-gradient(
+            135deg,
+            #dcfce7,
+            #4ade80 28%,
+            #10b981 56%,
+            #047857
+        );
+    filter:
+        drop-shadow(0 0 8px rgba(16, 185, 129, .55));
+    transition:
+        transform .25s ease,
+        filter .25s ease;
+}
+
+.Avatar3557__portrait {
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    clip-path: inherit;
+    background:
+        linear-gradient(
+            145deg,
+            #064e3b,
+            #022c22
+        );
+    box-shadow:
+        inset 0 0 10px rgba(110, 231, 183, .18);
+}
+
+.Avatar3557__portrait span {
+    color: #d1fae5;
+    font-size: 13px;
+    font-weight: 800;
+    text-shadow: 0 0 6px #34d399;
+}
+
+.Avatar3557__crystal {
+    position: absolute;
+    display: block;
+    background:
+        linear-gradient(
+            135deg,
+            #d1fae5,
+            #34d399 45%,
+            #047857
+        );
+    clip-path: polygon(
+        50% 0,
+        100% 100%,
+        0 100%
+    );
+    filter: drop-shadow(0 0 4px #10b981);
+}
+
+.Avatar3557__crystal--1 {
+    width: 11px;
+    height: 16px;
+    left: 4px;
+    bottom: 8px;
+    transform: rotate(-24deg);
+}
+
+.Avatar3557__crystal--2 {
+    width: 9px;
+    height: 13px;
+    left: 12px;
+    bottom: 1px;
+    transform: rotate(-5deg);
+}
+
+.Avatar3557__crystal--3 {
+    width: 10px;
+    height: 15px;
+    right: 5px;
+    top: 4px;
+    transform: rotate(28deg);
+}
+
+.Avatar3557:hover .Avatar3557__frame {
+    transform: scale(1.06);
+    filter:
+        drop-shadow(0 0 10px rgba(52, 211, 153, .72))
+        drop-shadow(0 0 19px rgba(5, 150, 105, .3));
+}`,
+  },
+  {
+    id: 3558,
+    name: "Prismatic Diamond Avatar",
+    preview: (
+      <div className="avatar-3558">
+        <div className="avatar-3558__ring">
+          <div className="avatar-3558__face">
+            <span>UI</span>
+          </div>
+        </div>
+        <span className="avatar-3558__shine"></span>
+      </div>
+    ),
+    html: `<div class="Avatar3558">
+    <div class="Avatar3558__ring">
+        <div class="Avatar3558__face">
+            <span>UI</span>
+        </div>
+    </div>
+    <span class="Avatar3558__shine"></span>
+</div>`,
+    css: `.Avatar3558 {
+    position: relative;
+    width: 78px;
+    height: 78px;
+    display: grid;
+    place-items: center;
+}
+
+.Avatar3558__ring {
+    width: 63px;
+    height: 63px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background:
+        conic-gradient(
+            from 35deg,
+            #67e8f9,
+            #60a5fa,
+            #a855f7,
+            #f472b6,
+            #facc15,
+            #4ade80,
+            #67e8f9
+        );
+    padding: 3px;
+    box-shadow:
+        0 0 11px rgba(96, 165, 250, .42),
+        0 0 22px rgba(168, 85, 247, .2);
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+.Avatar3558__face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 32% 24%,
+            #312e81,
+            #111827 58%,
+            #020617
+        );
+    overflow: hidden;
+}
+
+.Avatar3558__face::before {
+    content: "";
+    position: absolute;
+    width: 38px;
+    height: 23px;
+    left: -4px;
+    top: 5px;
+    transform: rotate(-32deg);
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, .2),
+            transparent
+        );
+}
+
+.Avatar3558__face span {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+
+.Avatar3558__shine {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 5px;
+    top: 7px;
+    background: #ffffff;
+    clip-path: polygon(
+        50% 0,
+        62% 38%,
+        100% 50%,
+        62% 62%,
+        50% 100%,
+        38% 62%,
+        0 50%,
+        38% 38%
+    );
+    filter:
+        drop-shadow(0 0 4px #ffffff)
+        drop-shadow(0 0 8px #67e8f9);
+}
+
+.Avatar3558:hover .Avatar3558__ring {
+    transform: scale(1.06);
+    box-shadow:
+        0 0 14px rgba(96, 165, 250, .6),
+        0 0 28px rgba(168, 85, 247, .35);
+}`,
+  },
+  {
+    id: 3559,
+    name: "Void Diamond Avatar",
+    preview: (
+      <div className="avatar-3559">
+        <div className="avatar-3559__outer">
+          <div className="avatar-3559__middle">
+            <div className="avatar-3559__portrait">
+              <span>VX</span>
+            </div>
+          </div>
+        </div>
+        <span className="avatar-3559__status"></span>
+      </div>
+    ),
+    html: `<div class="Avatar3559">
+    <div class="Avatar3559__outer">
+        <div class="Avatar3559__middle">
+            <div class="Avatar3559__portrait">
+                <span>VX</span>
+            </div>
+        </div>
+    </div>
+    <span class="Avatar3559__status"></span>
+</div>`,
+    css: `.Avatar3559 {
+    position: relative;
+    width: 78px;
+    height: 78px;
+    display: grid;
+    place-items: center;
+}
+
+.Avatar3559__outer {
+    width: 64px;
+    height: 64px;
+    display: grid;
+    place-items: center;
+    transform: rotate(45deg);
+    clip-path: polygon(
+        18% 0,
+        82% 0,
+        100% 18%,
+        100% 82%,
+        82% 100%,
+        18% 100%,
+        0 82%,
+        0 18%
+    );
+    background:
+        linear-gradient(
+            135deg,
+            #e9d5ff,
+            #a855f7 24%,
+            #4c1d95 58%,
+            #09090b
+        );
+    filter:
+        drop-shadow(0 0 9px rgba(168, 85, 247, .55));
+    transition:
+        transform .25s ease,
+        filter .25s ease;
+}
+
+.Avatar3559__outer::before {
+    content: "";
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 3px;
+    top: 3px;
+    background: rgba(255, 255, 255, .2);
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        35% 100%
+    );
+}
+
+.Avatar3559__middle {
+    position: relative;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    background:
+        linear-gradient(
+            135deg,
+            #312e81,
+            #09090b
+        );
+}
+
+.Avatar3559__portrait {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    transform: rotate(-45deg);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 40% 30%,
+            #312e81,
+            #020617 68%
+        );
+    border: 1px solid rgba(216, 180, 254, .32);
+    box-shadow:
+        inset 0 0 10px rgba(168, 85, 247, .18);
+}
+
+.Avatar3559__portrait span {
+    color: #f5f3ff;
+    font-size: 12px;
+    font-weight: 800;
+    text-shadow:
+        0 0 5px #c084fc,
+        0 0 9px #7c3aed;
+}
+
+.Avatar3559__status {
+    position: absolute;
+    right: 3px;
+    bottom: 4px;
+    z-index: 5;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            135deg,
+            #c084fc,
+            #7c3aed
+        );
+    box-shadow:
+        0 0 7px rgba(168, 85, 247, .75);
+}
+
+.Avatar3559:hover .Avatar3559__outer {
+    transform: rotate(45deg) scale(1.06);
+    filter:
+        drop-shadow(0 0 12px rgba(192, 132, 252, .7))
+        drop-shadow(0 0 22px rgba(76, 29, 149, .42));
+}`,
+  },
 ];

@@ -4457,4 +4457,1084 @@ export const badges = [
   55%,100% { transform: translateX(120%); }
 }`,
   },
+  {
+    id: 3570,
+    name: "Blue Ice Badge",
+    preview: (
+      <span className="badge-3570">
+        <span className="badge-3570__flake">❄</span>
+        <span className="badge-3570__text">Blue Ice</span>
+      </span>
+    ),
+    html: `<span class="Badge3570">
+    <span class="Badge3570__flake">❄</span>
+    <span class="Badge3570__text">Blue Ice</span>
+</span>`,
+    css: `.Badge3570 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 14px;
+    overflow: hidden;
+    border: 1px solid rgba(186, 230, 253, .9);
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            135deg,
+            #f0f9ff 0%,
+            #bae6fd 24%,
+            #7dd3fc 52%,
+            #38bdf8 76%,
+            #0ea5e9 100%
+        );
+    color: #082f49;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .04em;
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, .85),
+        inset 0 -2px 5px rgba(3, 105, 161, .12),
+        0 5px 14px rgba(14, 165, 233, .24);
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+}
+
+.Badge3570::before {
+    content: "";
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: -10px;
+    top: -22px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .5);
+    filter: blur(8px);
+    pointer-events: none;
+}
+
+.Badge3570::after {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    border: 1px solid rgba(255, 255, 255, .28);
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+.Badge3570__flake {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    width: 17px;
+    height: 17px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 1;
+    text-shadow:
+        0 0 5px rgba(255, 255, 255, .9),
+        0 0 8px rgba(14, 165, 233, .45);
+}
+
+.Badge3570__text {
+    position: relative;
+    z-index: 1;
+}
+
+.Badge3570:hover {
+    transform: translateY(-1px);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, .9),
+        inset 0 -2px 5px rgba(3, 105, 161, .14),
+        0 8px 18px rgba(14, 165, 233, .32);
+}`,
+  },
+  {
+    id: 3571,
+    name: "Blue-Eyes White Dragon Badge",
+    preview: (
+      <div className="badge-3571">
+        <div className="badge-3571__aura badge-3571__aura-1"></div>
+        <div className="badge-3571__aura badge-3571__aura-2"></div>
+        <div className="badge-3571__aura badge-3571__aura-3"></div>
+
+        <div className="badge-3571__lightning badge-3571__lightning-1"></div>
+        <div className="badge-3571__lightning badge-3571__lightning-2"></div>
+        <div className="badge-3571__lightning badge-3571__lightning-3"></div>
+        <div className="badge-3571__lightning badge-3571__lightning-4"></div>
+
+        <div className="badge-3571__wing badge-3571__wing-left">
+          <span className="badge-3571__wing-bone badge-3571__wing-bone-1"></span>
+          <span className="badge-3571__wing-bone badge-3571__wing-bone-2"></span>
+          <span className="badge-3571__wing-bone badge-3571__wing-bone-3"></span>
+          <span className="badge-3571__wing-panel badge-3571__wing-panel-1"></span>
+          <span className="badge-3571__wing-panel badge-3571__wing-panel-2"></span>
+          <span className="badge-3571__wing-panel badge-3571__wing-panel-3"></span>
+        </div>
+
+        <div className="badge-3571__wing badge-3571__wing-right">
+          <span className="badge-3571__wing-bone badge-3571__wing-bone-1"></span>
+          <span className="badge-3571__wing-bone badge-3571__wing-bone-2"></span>
+          <span className="badge-3571__wing-bone badge-3571__wing-bone-3"></span>
+          <span className="badge-3571__wing-panel badge-3571__wing-panel-1"></span>
+          <span className="badge-3571__wing-panel badge-3571__wing-panel-2"></span>
+          <span className="badge-3571__wing-panel badge-3571__wing-panel-3"></span>
+        </div>
+
+        <div className="badge-3571__dragon">
+          <div className="badge-3571__horn badge-3571__horn-left"></div>
+          <div className="badge-3571__horn badge-3571__horn-right"></div>
+
+          <div className="badge-3571__back-horn badge-3571__back-horn-left"></div>
+          <div className="badge-3571__back-horn badge-3571__back-horn-right"></div>
+
+          <div className="badge-3571__head">
+            <div className="badge-3571__forehead">
+              <span className="badge-3571__forehead-plate badge-3571__forehead-plate-1"></span>
+              <span className="badge-3571__forehead-plate badge-3571__forehead-plate-2"></span>
+              <span className="badge-3571__forehead-plate badge-3571__forehead-plate-3"></span>
+            </div>
+
+            <div className="badge-3571__eye badge-3571__eye-left">
+              <span></span>
+            </div>
+
+            <div className="badge-3571__eye badge-3571__eye-right">
+              <span></span>
+            </div>
+
+            <div className="badge-3571__cheek badge-3571__cheek-left"></div>
+            <div className="badge-3571__cheek badge-3571__cheek-right"></div>
+
+            <div className="badge-3571__snout">
+              <span className="badge-3571__nose badge-3571__nose-left"></span>
+              <span className="badge-3571__nose badge-3571__nose-right"></span>
+            </div>
+
+            <div className="badge-3571__jaw">
+              <span className="badge-3571__tooth badge-3571__tooth-1"></span>
+              <span className="badge-3571__tooth badge-3571__tooth-2"></span>
+              <span className="badge-3571__tooth badge-3571__tooth-3"></span>
+              <span className="badge-3571__tooth badge-3571__tooth-4"></span>
+            </div>
+          </div>
+
+          <div className="badge-3571__neck">
+            <span className="badge-3571__neck-plate badge-3571__neck-plate-1"></span>
+            <span className="badge-3571__neck-plate badge-3571__neck-plate-2"></span>
+            <span className="badge-3571__neck-plate badge-3571__neck-plate-3"></span>
+          </div>
+        </div>
+
+        <div className="badge-3571__content">
+          <div className="badge-3571__title">
+            <span className="badge-3571__title-small">LEGENDARY</span>
+            <strong>BLUE-EYES</strong>
+          </div>
+
+          <span className="badge-3571__divider"></span>
+
+          <div className="badge-3571__subtitle">WHITE DRAGON</div>
+        </div>
+
+        <div className="badge-3571__level">
+          <span className="badge-3571__star">★</span>
+          <span className="badge-3571__star">★</span>
+          <span className="badge-3571__star">★</span>
+          <span className="badge-3571__star">★</span>
+          <span className="badge-3571__star">★</span>
+          <span className="badge-3571__star">★</span>
+          <span className="badge-3571__star">★</span>
+          <span className="badge-3571__star">★</span>
+        </div>
+      </div>
+    ),
+    html: `<div class="Badge3571">
+    <div class="Badge3571__aura Badge3571__aura--1"></div>
+    <div class="Badge3571__aura Badge3571__aura--2"></div>
+    <div class="Badge3571__aura Badge3571__aura--3"></div>
+
+    <div class="Badge3571__lightning Badge3571__lightning--1"></div>
+    <div class="Badge3571__lightning Badge3571__lightning--2"></div>
+    <div class="Badge3571__lightning Badge3571__lightning--3"></div>
+    <div class="Badge3571__lightning Badge3571__lightning--4"></div>
+
+    <div class="Badge3571__wing Badge3571__wing--left">
+        <span class="Badge3571__wing-bone Badge3571__wing-bone--1"></span>
+        <span class="Badge3571__wing-bone Badge3571__wing-bone--2"></span>
+        <span class="Badge3571__wing-bone Badge3571__wing-bone--3"></span>
+        <span class="Badge3571__wing-panel Badge3571__wing-panel--1"></span>
+        <span class="Badge3571__wing-panel Badge3571__wing-panel--2"></span>
+        <span class="Badge3571__wing-panel Badge3571__wing-panel--3"></span>
+    </div>
+
+    <div class="Badge3571__wing Badge3571__wing--right">
+        <span class="Badge3571__wing-bone Badge3571__wing-bone--1"></span>
+        <span class="Badge3571__wing-bone Badge3571__wing-bone--2"></span>
+        <span class="Badge3571__wing-bone Badge3571__wing-bone--3"></span>
+        <span class="Badge3571__wing-panel Badge3571__wing-panel--1"></span>
+        <span class="Badge3571__wing-panel Badge3571__wing-panel--2"></span>
+        <span class="Badge3571__wing-panel Badge3571__wing-panel--3"></span>
+    </div>
+
+    <div class="Badge3571__dragon">
+        <div class="Badge3571__horn Badge3571__horn--left"></div>
+        <div class="Badge3571__horn Badge3571__horn--right"></div>
+
+        <div class="Badge3571__back-horn Badge3571__back-horn--left"></div>
+        <div class="Badge3571__back-horn Badge3571__back-horn--right"></div>
+
+        <div class="Badge3571__head">
+            <div class="Badge3571__forehead">
+                <span class="Badge3571__forehead-plate Badge3571__forehead-plate--1"></span>
+                <span class="Badge3571__forehead-plate Badge3571__forehead-plate--2"></span>
+                <span class="Badge3571__forehead-plate Badge3571__forehead-plate--3"></span>
+            </div>
+
+            <div class="Badge3571__eye Badge3571__eye--left">
+                <span></span>
+            </div>
+
+            <div class="Badge3571__eye Badge3571__eye--right">
+                <span></span>
+            </div>
+
+            <div class="Badge3571__cheek Badge3571__cheek--left"></div>
+            <div class="Badge3571__cheek Badge3571__cheek--right"></div>
+
+            <div class="Badge3571__snout">
+                <span class="Badge3571__nose Badge3571__nose--left"></span>
+                <span class="Badge3571__nose Badge3571__nose--right"></span>
+            </div>
+
+            <div class="Badge3571__jaw">
+                <span class="Badge3571__tooth Badge3571__tooth--1"></span>
+                <span class="Badge3571__tooth Badge3571__tooth--2"></span>
+                <span class="Badge3571__tooth Badge3571__tooth--3"></span>
+                <span class="Badge3571__tooth Badge3571__tooth--4"></span>
+            </div>
+        </div>
+
+        <div class="Badge3571__neck">
+            <span class="Badge3571__neck-plate Badge3571__neck-plate--1"></span>
+            <span class="Badge3571__neck-plate Badge3571__neck-plate--2"></span>
+            <span class="Badge3571__neck-plate Badge3571__neck-plate--3"></span>
+        </div>
+    </div>
+
+    <div class="Badge3571__content">
+        <div class="Badge3571__title">
+            <span class="Badge3571__title-small">LEGENDARY</span>
+            <strong>BLUE-EYES</strong>
+        </div>
+
+        <span class="Badge3571__divider"></span>
+
+        <div class="Badge3571__subtitle">
+            WHITE DRAGON
+        </div>
+    </div>
+
+    <div class="Badge3571__level">
+        <span>★</span>
+        <span>★</span>
+        <span>★</span>
+        <span>★</span>
+        <span>★</span>
+        <span>★</span>
+        <span>★</span>
+        <span>★</span>
+    </div>
+</div>`,
+    css: `.Badge3571 {
+    position: relative;
+    width: 310px;
+    height: 116px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 14px 18px 14px 126px;
+    border: 1px solid rgba(191, 219, 254, .72);
+    border-radius: 20px;
+    background:
+        radial-gradient(
+            circle at 21% 46%,
+            rgba(147, 197, 253, .22),
+            transparent 27%
+        ),
+        radial-gradient(
+            circle at 84% 10%,
+            rgba(255, 255, 255, .11),
+            transparent 24%
+        ),
+        linear-gradient(
+            120deg,
+            #020617 0%,
+            #07162b 30%,
+            #0c2a50 61%,
+            #061327 100%
+        );
+    color: #ffffff;
+    box-shadow:
+        0 14px 35px rgba(2, 6, 23, .5),
+        0 0 24px rgba(59, 130, 246, .18),
+        inset 0 1px 0 rgba(255, 255, 255, .14),
+        inset 0 -1px 0 rgba(59, 130, 246, .15);
+    isolation: isolate;
+    transition:
+        transform .25s ease,
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+
+.Badge3571::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    z-index: -1;
+    border-radius: 16px;
+    border: 1px solid rgba(219, 234, 254, .08);
+    pointer-events: none;
+}
+
+.Badge3571::after {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: -52px;
+    top: -32px;
+    z-index: -2;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(96, 165, 250, .24),
+            rgba(37, 99, 235, .06) 45%,
+            transparent 70%
+        );
+    filter: blur(5px);
+}
+
+.Badge3571__aura {
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+}
+
+.Badge3571__aura--1 {
+    width: 112px;
+    height: 112px;
+    left: 1px;
+    top: 1px;
+    border:
+        1px solid rgba(147, 197, 253, .16);
+    box-shadow:
+        inset 0 0 25px rgba(59, 130, 246, .12),
+        0 0 20px rgba(59, 130, 246, .12);
+}
+
+.Badge3571__aura--2 {
+    width: 86px;
+    height: 86px;
+    left: 14px;
+    top: 15px;
+    border:
+        1px dashed rgba(191, 219, 254, .19);
+}
+
+.Badge3571__aura--3 {
+    width: 61px;
+    height: 61px;
+    left: 27px;
+    top: 28px;
+    background:
+        radial-gradient(
+            circle,
+            rgba(255, 255, 255, .08),
+            rgba(96, 165, 250, .08) 48%,
+            transparent 72%
+        );
+}
+
+.Badge3571__lightning {
+    position: absolute;
+    z-index: 1;
+    height: 2px;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #dbeafe,
+            #60a5fa,
+            transparent
+        );
+    box-shadow:
+        0 0 4px #93c5fd,
+        0 0 8px rgba(59, 130, 246, .55);
+    opacity: .7;
+    transform-origin: left center;
+}
+
+.Badge3571__lightning--1 {
+    width: 39px;
+    left: 8px;
+    top: 25px;
+    transform: rotate(22deg);
+}
+
+.Badge3571__lightning--2 {
+    width: 34px;
+    left: 75px;
+    top: 20px;
+    transform: rotate(-23deg);
+}
+
+.Badge3571__lightning--3 {
+    width: 42px;
+    left: 8px;
+    bottom: 22px;
+    transform: rotate(-17deg);
+}
+
+.Badge3571__lightning--4 {
+    width: 38px;
+    left: 74px;
+    bottom: 19px;
+    transform: rotate(20deg);
+}
+
+.Badge3571__wing {
+    position: absolute;
+    z-index: 2;
+    width: 57px;
+    height: 69px;
+    top: 22px;
+    pointer-events: none;
+}
+
+.Badge3571__wing--left {
+    left: -2px;
+    transform: rotate(-17deg);
+}
+
+.Badge3571__wing--right {
+    left: 69px;
+    transform: scaleX(-1) rotate(-17deg);
+}
+
+.Badge3571__wing-bone {
+    position: absolute;
+    left: 28px;
+    bottom: 8px;
+    height: 2px;
+    transform-origin: left center;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            90deg,
+            #f8fafc,
+            #cbd5e1,
+            #60a5fa
+        );
+    box-shadow:
+        0 0 4px rgba(147, 197, 253, .5);
+}
+
+.Badge3571__wing-bone--1 {
+    width: 34px;
+    transform: rotate(-58deg);
+}
+
+.Badge3571__wing-bone--2 {
+    width: 40px;
+    transform: rotate(-31deg);
+}
+
+.Badge3571__wing-bone--3 {
+    width: 38px;
+    transform: rotate(-5deg);
+}
+
+.Badge3571__wing-panel {
+    position: absolute;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(248, 250, 252, .9),
+            rgba(191, 219, 254, .58) 42%,
+            rgba(96, 165, 250, .18)
+        );
+    border:
+        1px solid rgba(219, 234, 254, .48);
+    filter:
+        drop-shadow(
+            0 0 4px rgba(96, 165, 250, .26)
+        );
+}
+
+.Badge3571__wing-panel--1 {
+    width: 28px;
+    height: 29px;
+    left: 25px;
+    top: 3px;
+    clip-path:
+        polygon(
+            0 100%,
+            22% 8%,
+            100% 0,
+            49% 100%
+        );
+}
+
+.Badge3571__wing-panel--2 {
+    width: 34px;
+    height: 29px;
+    left: 25px;
+    top: 27px;
+    clip-path:
+        polygon(
+            0 54%,
+            100% 0,
+            70% 100%,
+            0 100%
+        );
+}
+
+.Badge3571__wing-panel--3 {
+    width: 30px;
+    height: 19px;
+    left: 27px;
+    bottom: 0;
+    clip-path:
+        polygon(
+            0 0,
+            100% 0,
+            61% 100%,
+            15% 74%
+        );
+}
+
+.Badge3571__dragon {
+    position: absolute;
+    z-index: 5;
+    width: 91px;
+    height: 103px;
+    left: 20px;
+    top: 7px;
+    filter:
+        drop-shadow(
+            0 4px 5px rgba(2, 6, 23, .55)
+        )
+        drop-shadow(
+            0 0 7px rgba(147, 197, 253, .2)
+        );
+}
+
+.Badge3571__head {
+    position: absolute;
+    width: 56px;
+    height: 61px;
+    left: 18px;
+    top: 17px;
+    border:
+        1px solid rgba(255, 255, 255, .65);
+    clip-path:
+        polygon(
+            50% 0,
+            81% 12%,
+            100% 39%,
+            87% 72%,
+            69% 100%,
+            31% 100%,
+            13% 72%,
+            0 39%,
+            19% 12%
+        );
+    background:
+        linear-gradient(
+            145deg,
+            #ffffff 0%,
+            #e2e8f0 20%,
+            #bfdbfe 46%,
+            #94a3b8 74%,
+            #64748b 100%
+        );
+    box-shadow:
+        inset 7px 6px 11px rgba(255, 255, 255, .48),
+        inset -8px -8px 13px rgba(15, 23, 42, .2);
+}
+
+.Badge3571__head::before {
+    content: "";
+    position: absolute;
+    width: 34px;
+    height: 36px;
+    left: 11px;
+    top: 7px;
+    clip-path:
+        polygon(
+            50% 0,
+            100% 54%,
+            72% 100%,
+            28% 100%,
+            0 54%
+        );
+    border-top:
+        1px solid rgba(255, 255, 255, .6);
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, .35),
+            rgba(96, 165, 250, .05)
+        );
+}
+
+.Badge3571__forehead {
+    position: absolute;
+    width: 30px;
+    height: 24px;
+    left: 13px;
+    top: 4px;
+}
+
+.Badge3571__forehead-plate {
+    position: absolute;
+    background:
+        linear-gradient(
+            145deg,
+            #ffffff,
+            #cbd5e1 55%,
+            #94a3b8
+        );
+    border:
+        1px solid rgba(255, 255, 255, .5);
+}
+
+.Badge3571__forehead-plate--1 {
+    width: 10px;
+    height: 21px;
+    left: 10px;
+    top: -3px;
+    clip-path:
+        polygon(
+            50% 0,
+            100% 100%,
+            0 100%
+        );
+}
+
+.Badge3571__forehead-plate--2 {
+    width: 13px;
+    height: 17px;
+    left: 1px;
+    top: 5px;
+    transform: rotate(-25deg);
+    clip-path:
+        polygon(
+            50% 0,
+            100% 100%,
+            0 80%
+        );
+}
+
+.Badge3571__forehead-plate--3 {
+    width: 13px;
+    height: 17px;
+    right: 1px;
+    top: 5px;
+    transform: rotate(25deg);
+    clip-path:
+        polygon(
+            50% 0,
+            100% 80%,
+            0 100%
+        );
+}
+
+.Badge3571__eye {
+    position: absolute;
+    z-index: 6;
+    width: 13px;
+    height: 7px;
+    top: 27px;
+    overflow: hidden;
+    background: #082f49;
+    clip-path:
+        polygon(
+            0 24%,
+            100% 0,
+            78% 100%,
+            16% 79%
+        );
+}
+
+.Badge3571__eye--left {
+    left: 9px;
+}
+
+.Badge3571__eye--right {
+    right: 9px;
+    transform: scaleX(-1);
+}
+
+.Badge3571__eye span {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: 5px;
+    top: 1px;
+    border-radius: 50%;
+    background: #38bdf8;
+    box-shadow:
+        0 0 3px #ffffff,
+        0 0 7px #38bdf8,
+        0 0 11px #2563eb;
+}
+
+.Badge3571__cheek {
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    top: 34px;
+    background:
+        linear-gradient(
+            145deg,
+            #e2e8f0,
+            #94a3b8
+        );
+}
+
+.Badge3571__cheek--left {
+    left: 2px;
+    clip-path:
+        polygon(
+            0 0,
+            100% 22%,
+            74% 100%,
+            24% 73%
+        );
+}
+
+.Badge3571__cheek--right {
+    right: 2px;
+    clip-path:
+        polygon(
+            100% 0,
+            0 22%,
+            26% 100%,
+            76% 73%
+        );
+}
+
+.Badge3571__snout {
+    position: absolute;
+    z-index: 4;
+    width: 28px;
+    height: 20px;
+    left: 14px;
+    bottom: 6px;
+    clip-path:
+        polygon(
+            20% 0,
+            80% 0,
+            100% 68%,
+            78% 100%,
+            22% 100%,
+            0 68%
+        );
+    background:
+        linear-gradient(
+            180deg,
+            #dbeafe,
+            #94a3b8
+        );
+}
+
+.Badge3571__nose {
+    position: absolute;
+    width: 5px;
+    height: 3px;
+    top: 7px;
+    border-radius: 50%;
+    background: #334155;
+}
+
+.Badge3571__nose--left {
+    left: 6px;
+}
+
+.Badge3571__nose--right {
+    right: 6px;
+}
+
+.Badge3571__jaw {
+    position: absolute;
+    z-index: 3;
+    width: 31px;
+    height: 11px;
+    left: 13px;
+    bottom: -1px;
+    border-radius: 3px 3px 8px 8px;
+    background:
+        linear-gradient(
+            180deg,
+            #475569,
+            #0f172a
+        );
+}
+
+.Badge3571__tooth {
+    position: absolute;
+    width: 4px;
+    height: 6px;
+    top: -1px;
+    background: #ffffff;
+    clip-path:
+        polygon(
+            0 0,
+            100% 0,
+            50% 100%
+        );
+}
+
+.Badge3571__tooth--1 {
+    left: 4px;
+}
+
+.Badge3571__tooth--2 {
+    left: 10px;
+}
+
+.Badge3571__tooth--3 {
+    right: 10px;
+}
+
+.Badge3571__tooth--4 {
+    right: 4px;
+}
+
+.Badge3571__horn {
+    position: absolute;
+    z-index: 1;
+    width: 10px;
+    height: 38px;
+    top: 2px;
+    background:
+        linear-gradient(
+            90deg,
+            #94a3b8,
+            #ffffff 45%,
+            #93c5fd
+        );
+    clip-path:
+        polygon(
+            50% 0,
+            100% 100%,
+            0 100%
+        );
+}
+
+.Badge3571__horn--left {
+    left: 25px;
+    transform: rotate(-24deg);
+}
+
+.Badge3571__horn--right {
+    right: 25px;
+    transform: rotate(24deg);
+}
+
+.Badge3571__back-horn {
+    position: absolute;
+    z-index: 0;
+    width: 9px;
+    height: 32px;
+    top: 17px;
+    background:
+        linear-gradient(
+            90deg,
+            #64748b,
+            #e2e8f0
+        );
+    clip-path:
+        polygon(
+            50% 0,
+            100% 100%,
+            0 100%
+        );
+}
+
+.Badge3571__back-horn--left {
+    left: 14px;
+    transform: rotate(-54deg);
+}
+
+.Badge3571__back-horn--right {
+    right: 14px;
+    transform: rotate(54deg);
+}
+
+.Badge3571__neck {
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 44px;
+    left: 26px;
+    top: 65px;
+    clip-path:
+        polygon(
+            15% 0,
+            85% 0,
+            100% 100%,
+            0 100%
+        );
+    background:
+        linear-gradient(
+            145deg,
+            #cbd5e1,
+            #64748b
+        );
+}
+
+.Badge3571__neck-plate {
+    position: absolute;
+    left: 4px;
+    width: 32px;
+    height: 10px;
+    border:
+        1px solid rgba(255, 255, 255, .26);
+    clip-path:
+        polygon(
+            10% 0,
+            90% 0,
+            100% 100%,
+            0 100%
+        );
+    background:
+        linear-gradient(
+            180deg,
+            #e2e8f0,
+            #94a3b8
+        );
+}
+
+.Badge3571__neck-plate--1 {
+    top: 3px;
+}
+
+.Badge3571__neck-plate--2 {
+    top: 15px;
+}
+
+.Badge3571__neck-plate--3 {
+    top: 27px;
+}
+
+.Badge3571__content {
+    position: relative;
+    z-index: 8;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Badge3571__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.Badge3571__title-small {
+    margin-bottom: 2px;
+    color: #93c5fd;
+    font-size: 7px;
+    font-weight: 800;
+    letter-spacing: .3em;
+    text-shadow:
+        0 0 7px rgba(59, 130, 246, .45);
+}
+
+.Badge3571__title strong {
+    color: #f8fafc;
+    font-size: 17px;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: .07em;
+    text-shadow:
+        0 1px 0 #64748b,
+        0 0 8px rgba(191, 219, 254, .3);
+}
+
+.Badge3571__divider {
+    width: 100%;
+    height: 1px;
+    margin: 7px 0 5px;
+    background:
+        linear-gradient(
+            90deg,
+            #60a5fa,
+            rgba(147, 197, 253, .15),
+            transparent
+        );
+    box-shadow:
+        0 0 5px rgba(59, 130, 246, .28);
+}
+
+.Badge3571__subtitle {
+    color: #bfdbfe;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: .19em;
+}
+
+.Badge3571__level {
+    position: absolute;
+    z-index: 8;
+    right: 13px;
+    bottom: 10px;
+    display: flex;
+    gap: 1px;
+}
+
+.Badge3571__level span {
+    color: #fbbf24;
+    font-size: 7px;
+    text-shadow:
+        0 0 4px rgba(251, 191, 36, .5);
+}
+
+.Badge3571:hover {
+    transform:
+        translateY(-2px)
+        scale(1.015);
+    border-color:
+        rgba(219, 234, 254, .9);
+    box-shadow:
+        0 18px 40px rgba(2, 6, 23, .58),
+        0 0 30px rgba(59, 130, 246, .26),
+        inset 0 1px 0 rgba(255, 255, 255, .2),
+        inset 0 -1px 0 rgba(59, 130, 246, .18);
+}
+
+.Badge3571:hover .Badge3571__eye span {
+    box-shadow:
+        0 0 3px #ffffff,
+        0 0 9px #38bdf8,
+        0 0 16px #2563eb;
+}
+
+.Badge3571:hover .Badge3571__dragon {
+    filter:
+        drop-shadow(
+            0 5px 7px rgba(2, 6, 23, .6)
+        )
+        drop-shadow(
+            0 0 10px rgba(147, 197, 253, .32)
+        );
+}`,
+  },
 ];
