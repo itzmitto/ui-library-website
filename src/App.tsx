@@ -71,7 +71,7 @@ const features = [
   {
     icon: "ri-code-s-slash-line",
     title: "Copy & Use",
-    description: "Just copy the HTML/CSS.",
+    description: "Just copy the HTML/CSS/JAVASCRIPT.",
   },
   {
     icon: "ri-group-line",
@@ -98,7 +98,7 @@ const stats = [
   },
   {
     icon: "ri-code-s-slash-line",
-    value: "HTML / CSS",
+    value: "HTML / CSS / javascript",
     label: "Ready to use",
   },
   {
@@ -486,7 +486,7 @@ function Home() {
             </h1>
 
             <p className="hero-description">
-              Community-built library of UI elements. Copy as HTML/CSS
+              Community-built library of UI elements. Copy as HTML/CSS/JAVASCRIPT
               <br />
               and build beautiful interfaces faster.
             </p>

@@ -1,6 +1,7 @@
 import { memo, useCallback, useEffect, useRef, useState } from "react";
 import Header from "../components/Header";
 import { dropdowns } from "../data/dropdownsData";
+import { initDropdown } from "../scripts/DropdownsScript.js";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
 import "../styling/Dropdowns.css";
@@ -58,11 +59,44 @@ const DropdownCard = memo(
   }) => {
     const row = Math.floor(index / columns);
     const column = index % columns;
+    const previewRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+      const preview = previewRef.current;
+
+      if (!preview || !item.scriptId) {
+        return;
+      }
+
+      const element = preview.querySelector(
+        `[data-dropdown-id="${item.scriptId}"]`,
+      );
+
+      if (!element) {
+        return;
+      }
+
+      initDropdown(item.scriptId, element);
+    }, [item]);
+
+    const handleCardClick = (event: React.MouseEvent<HTMLDivElement>) => {
+      const target = event.target as HTMLElement;
+
+      if (
+        target.closest(
+          "button, input, select, textarea, a, [data-dropdown-menu]",
+        )
+      ) {
+        return;
+      }
+
+      onSelect(item);
+    };
 
     return (
       <div
         className="all-card"
-        onClick={() => onSelect(item)}
+        onClick={handleCardClick}
         style={{
           position: "absolute",
           top: row * (CARD_HEIGHT + GRID_GAP),
@@ -76,7 +110,10 @@ const DropdownCard = memo(
           cursor: "pointer",
         }}
       >
-        <div className="all-card-preview">{item.preview}</div>
+        <div ref={previewRef} className="all-card-preview">
+          {item.preview}
+        </div>
+
         <div className="all-card-footer">
           <span className="all-card-name">{item.name}</span>
         </div>
@@ -91,9 +128,11 @@ export default function Dropdown() {
   const [selected, setSelected] = useState<DropdownItem | null>(null);
   const [columns, setColumns] = useState(1);
   const [scrollTop, setScrollTop] = useState(0);
+
   const [viewportHeight, setViewportHeight] = useState(
     typeof window !== "undefined" ? window.innerHeight : 800,
   );
+
   const [gridTop, setGridTop] = useState(0);
 
   const gridRef = useRef<HTMLDivElement>(null);
@@ -112,12 +151,14 @@ export default function Dropdown() {
 
       if (grid) {
         const width = grid.clientWidth;
+
         const nextColumns = Math.max(
           1,
           Math.floor((width + GRID_GAP) / (240 + GRID_GAP)),
         );
 
         setColumns(nextColumns);
+
         setGridTop(grid.getBoundingClientRect().top + window.scrollY);
       }
 
@@ -157,10 +198,13 @@ export default function Dropdown() {
 
     observer.observe(grid);
 
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+    };
   }, [updateLayout]);
 
   const rowHeight = CARD_HEIGHT + GRID_GAP;
+
   const totalRows = Math.ceil(dropdowns.length / columns);
 
   const totalHeight = totalRows > 0 ? totalRows * rowHeight - GRID_GAP : 0;
@@ -178,6 +222,7 @@ export default function Dropdown() {
   );
 
   const startIndex = startRow * columns;
+
   const endIndex = Math.min(dropdowns.length, endRow * columns);
 
   const visibleDropdowns = dropdowns.slice(startIndex, endIndex);
@@ -208,6 +253,7 @@ export default function Dropdown() {
         <main className="all-main">
           <div className="all-header">
             <h1>Dropdowns</h1>
+
             <p>Open-Source dropdowns made with CSS or Tailwind</p>
           </div>
 

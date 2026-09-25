@@ -4,6 +4,7 @@ import { initCarousel } from "../scripts/CarouselsScript.js";
 import { initSidebar } from "../scripts/SidebarsScript.js";
 import { initCheckbox } from "../scripts/CheckboxesScript.js";
 import { initCard } from "../scripts/CardsScript.js";
+import { initDropdown } from "../scripts/DropdownsScript.js";
 import "./ComponentModal.css";
 
 interface ComponentItem {
@@ -95,6 +96,14 @@ export default function ComponentModal({
 
     if (cardElement) {
       initCard(item.scriptId, cardElement);
+    }
+
+    const dropdownElement = preview.querySelector(
+      `[data-dropdown-id="${item.scriptId}"]`,
+    );
+
+    if (dropdownElement) {
+      initDropdown(item.scriptId, dropdownElement);
     }
   }, [item]);
 

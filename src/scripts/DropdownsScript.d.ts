@@ -1,0 +1,1 @@
+export function initDropdown(id: number, element: Element): void;
