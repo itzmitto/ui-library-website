@@ -10405,4 +10405,25501 @@ export const toggles = [
     box-shadow: 0 2px 5px rgba(0,0,0,.3);
 }`,
   },
+  {
+    id: 3719,
+    name: "Neo-Brutalism Toggle",
+    preview: (
+      <label
+        className="toggle-3719"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Neo-Brutalism Toggle" />
+        <span className="toggle-3719__track">
+          <span className="toggle-3719__off">OFF</span>
+          <span className="toggle-3719__on">ON</span>
+          <span className="toggle-3719__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-off">OFF</span>
+        <span class="Toggle-on">ON</span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 82px;
+    height: 42px;
+    overflow: hidden;
+    border: 3px solid #0a0a0a;
+    border-radius: 3px;
+    background: #f7f43d;
+    box-shadow: 5px 5px 0 #0a0a0a;
+    transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3px;
+    left: 4px;
+    border: 3px solid #0a0a0a;
+    background: #ff5c8a;
+    transition: left 0.2s ease, background 0.2s ease;
+}
+.Toggle-off,
+.Toggle-on {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    color: #0a0a0a;
+    font: 900 9px/1 Arial, sans-serif;
+    transform: translateY(-50%);
+}
+.Toggle-off { right: 8px; }
+.Toggle-on { left: 8px; opacity: 0; }
+.Toggle:hover .Toggle-track {
+    transform: translate(-1px, -1px);
+    box-shadow: 7px 7px 0 #0a0a0a;
+}
+.Toggle input:checked + .Toggle-track { background: #7dd3fc; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 42px;
+    background: #ffffff;
+}
+.Toggle input:checked + .Toggle-track .Toggle-off { opacity: 0; }
+.Toggle input:checked + .Toggle-track .Toggle-on { opacity: 1; }
+.Toggle input:focus-visible + .Toggle-track {
+    outline: 3px solid #60a5fa;
+    outline-offset: 4px;
+}`,
+  },
+  {
+    id: 3720,
+    name: "Y2K Toggle",
+    preview: (
+      <label
+        className="toggle-3720"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Y2K Toggle" />
+        <span className="toggle-3720__track">
+          <span className="toggle-3720__shine"></span>
+          <span className="toggle-3720__star">✦</span>
+          <span className="toggle-3720__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-shine"></span>
+        <span class="Toggle-star">✦</span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 84px;
+    height: 42px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 999px;
+    background: linear-gradient(135deg, rgba(255,255,255,.8), transparent 40%), linear-gradient(120deg, #ff9de2, #a5b4fc 48%, #67e8f9);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.9), 0 8px 18px rgba(147,51,234,.22);
+}
+.Toggle-shine {
+    position: absolute;
+    width: 52px;
+    height: 16px;
+    top: 2px;
+    left: 11px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.42);
+    filter: blur(5px);
+}
+.Toggle-star {
+    position: absolute;
+    top: 12px;
+    left: 53px;
+    color: #fff;
+    font-size: 13px;
+    text-shadow: 0 0 8px #fff;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 4px;
+    left: 5px;
+    border: 1px solid rgba(255,255,255,.85);
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 25%, #fff 0 18%, transparent 20%), linear-gradient(145deg, #e0f2fe, #c4b5fd 55%, #f9a8d4);
+    box-shadow: inset -4px -5px 8px rgba(99,102,241,.18), 0 3px 9px rgba(79,70,229,.25);
+    transition: left .25s ease;
+}
+.Toggle:hover .Toggle-thumb {
+    box-shadow: inset -4px -5px 8px rgba(99,102,241,.2), 0 0 16px rgba(255,255,255,.8);
+}
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 46px; }
+.Toggle input:focus-visible + .Toggle-track {
+    outline: 2px solid #e879f9;
+    outline-offset: 4px;
+}`,
+  },
+  {
+    id: 3721,
+    name: "Pixel Art Toggle",
+    preview: (
+      <label
+        className="toggle-3721"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Pixel Art Toggle" />
+        <span className="toggle-3721__track">
+          <span className="toggle-3721__pixels"></span>
+          <span className="toggle-3721__thumb">
+            <span></span>
+            <span></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-pixels"></span>
+        <span class="Toggle-thumb"><span></span><span></span></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    image-rendering: pixelated;
+    border: 4px solid #171717;
+    background: #52525b;
+    box-shadow: inset 4px 4px 0 #27272a, inset -4px -4px 0 #71717a;
+}
+.Toggle-pixels {
+    position: absolute;
+    inset: 0;
+    opacity: .3;
+    background-image: linear-gradient(90deg, transparent 75%, #fff 75%), linear-gradient(transparent 75%, #fff 75%);
+    background-size: 8px 8px;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 2px;
+    left: 3px;
+    z-index: 2;
+    border: 3px solid #111;
+    background: #ef4444;
+    box-shadow: inset 3px 3px 0 #fca5a5, inset -3px -3px 0 #991b1b;
+    transition: left .12s steps(3);
+}
+.Toggle-thumb span {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    top: 8px;
+    background: #111;
+}
+.Toggle-thumb span:first-child { left: 5px; }
+.Toggle-thumb span:last-child { right: 5px; }
+.Toggle:hover .Toggle-track { background: #60606b; }
+.Toggle input:checked + .Toggle-track {
+    background: #22c55e;
+    box-shadow: inset 4px 4px 0 #15803d, inset -4px -4px 0 #86efac;
+}
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 41px;
+    background: #facc15;
+}`,
+  },
+  {
+    id: 3722,
+    name: "Synthwave Toggle",
+    preview: (
+      <label
+        className="toggle-3722"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Synthwave Toggle" />
+        <span className="toggle-3722__track">
+          <span className="toggle-3722__sun"></span>
+          <span className="toggle-3722__grid"></span>
+          <span className="toggle-3722__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-sun"></span>
+        <span class="Toggle-grid"></span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 88px;
+    height: 43px;
+    overflow: hidden;
+    border: 1px solid #ec4899;
+    border-radius: 8px;
+    background: linear-gradient(#170c3d, #31105c 58%, #111827);
+    box-shadow: 0 0 12px rgba(236,72,153,.35), inset 0 0 12px rgba(34,211,238,.1);
+}
+.Toggle-sun {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 8px;
+    right: 10px;
+    border-radius: 50%;
+    background: linear-gradient(#fdf2f8, #fb7185 45%, #f97316);
+    box-shadow: 0 0 10px rgba(251,113,133,.8);
+}
+.Toggle-grid {
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(34,211,238,.25) 1px, transparent 1px), linear-gradient(90deg, rgba(34,211,238,.25) 1px, transparent 1px);
+    background-size: 9px 7px;
+    transform: perspective(30px) rotateX(40deg);
+    transform-origin: bottom;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: 5px;
+    left: 5px;
+    border: 1px solid #22d3ee;
+    border-radius: 7px;
+    background: rgba(8,15,39,.92);
+    box-shadow: 0 0 9px #22d3ee, inset 0 0 8px rgba(236,72,153,.45);
+    transition: left .22s ease;
+}
+.Toggle:hover .Toggle-track {
+    box-shadow: 0 0 18px rgba(236,72,153,.55), inset 0 0 14px rgba(34,211,238,.16);
+}
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 50px; }`,
+  },
+  {
+    id: 3723,
+    name: "Glassmorphism Toggle",
+    preview: (
+      <label
+        className="toggle-3723"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Glassmorphism Toggle" />
+        <span className="toggle-3723__track">
+          <span className="toggle-3723__reflection"></span>
+          <span className="toggle-3723__thumb">
+            <span className="toggle-3723__thumb-shine"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-reflection"></span>
+        <span class="Toggle-thumb"><span class="Toggle-thumb-shine"></span></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 82px;
+    height: 42px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 999px;
+    background: linear-gradient(135deg, rgba(255,255,255,.16), rgba(255,255,255,.05)), rgba(30,41,59,.65);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.18), 0 10px 25px rgba(0,0,0,.16);
+    backdrop-filter: blur(14px);
+}
+.Toggle-reflection {
+    position: absolute;
+    width: 50px;
+    height: 12px;
+    top: 4px;
+    left: 12px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.14);
+    filter: blur(2px);
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 4px;
+    left: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.48);
+    border-radius: 50%;
+    background: rgba(255,255,255,.72);
+    box-shadow: inset 0 1px 0 #fff, 0 4px 10px rgba(15,23,42,.28);
+    transition: left .24s ease, background .24s ease;
+}
+.Toggle-thumb-shine {
+    position: absolute;
+    width: 13px;
+    height: 8px;
+    top: 4px;
+    left: 5px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.9);
+    transform: rotate(-25deg);
+}
+.Toggle:hover .Toggle-track { border-color: rgba(255,255,255,.5); }
+.Toggle input:checked + .Toggle-track {
+    background: linear-gradient(135deg, rgba(125,211,252,.28), rgba(129,140,248,.2)), rgba(30,41,59,.68);
+}
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 44px;
+    background: rgba(186,230,253,.92);
+}`,
+  },
+  {
+    id: 3724,
+    name: "Neumorphism Toggle",
+    preview: (
+      <label
+        className="toggle-3724"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Neumorphism Toggle" />
+        <span className="toggle-3724__track">
+          <span className="toggle-3724__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track"><span class="Toggle-thumb"></span></span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 82px;
+    height: 42px;
+    border-radius: 999px;
+    background: #e4e7ec;
+    box-shadow: inset 5px 5px 9px #c4c8cf, inset -5px -5px 9px #fff;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: 5px;
+    left: 6px;
+    border-radius: 50%;
+    background: #e4e7ec;
+    box-shadow: 5px 5px 9px #bcc0c7, -5px -5px 9px #fff;
+    transition: left .24s ease, background .24s ease;
+}
+.Toggle:hover .Toggle-thumb {
+    box-shadow: 6px 6px 11px #b9bdc4, -6px -6px 11px #fff;
+}
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 45px;
+    background: #93c5fd;
+}`,
+  },
+  {
+    id: 3725,
+    name: "Swiss Design Toggle",
+    preview: (
+      <label
+        className="toggle-3725"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Swiss Design Toggle" />
+        <span className="toggle-3725__track">
+          <span className="toggle-3725__number">01</span>
+          <span className="toggle-3725__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-number">01</span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 84px;
+    height: 40px;
+    overflow: hidden;
+    border: 2px solid #111;
+    background: #f5f5f3;
+}
+.Toggle-number {
+    position: absolute;
+    right: 7px;
+    top: 5px;
+    color: #111;
+    font: 800 8px/1 Arial, sans-serif;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 5px;
+    top: 4px;
+    background: #ef2b2d;
+    transition: left .2s ease, width .2s ease;
+}
+.Toggle:hover .Toggle-thumb { width: 31px; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 47px;
+    background: #111;
+}`,
+  },
+  {
+    id: 3726,
+    name: "Minimalism Toggle",
+    preview: (
+      <label
+        className="toggle-3726"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Minimalism Toggle" />
+        <span className="toggle-3726__track">
+          <span className="toggle-3726__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track"><span class="Toggle-thumb"></span></span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 72px;
+    height: 36px;
+    border: 1px solid #d4d4d8;
+    border-radius: 999px;
+    background: #fafafa;
+    transition: background .2s ease, border-color .2s ease;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 4px;
+    top: 4px;
+    border-radius: 50%;
+    background: #a1a1aa;
+    transition: left .2s ease, background .2s ease;
+}
+.Toggle:hover .Toggle-track { border-color: #a1a1aa; }
+.Toggle input:checked + .Toggle-track {
+    border-color: #18181b;
+    background: #18181b;
+}
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 40px;
+    background: #fff;
+}`,
+  },
+  {
+    id: 3727,
+    name: "Maximalism Toggle",
+    preview: (
+      <label
+        className="toggle-3727"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Maximalism Toggle" />
+        <span className="toggle-3727__track">
+          <span className="toggle-3727__shape toggle-3727__shape-1"></span>
+          <span className="toggle-3727__shape toggle-3727__shape-2"></span>
+          <span className="toggle-3727__shape toggle-3727__shape-3"></span>
+          <span className="toggle-3727__thumb">★</span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-shape Toggle-shape-1"></span>
+        <span class="Toggle-shape Toggle-shape-2"></span>
+        <span class="Toggle-shape Toggle-shape-3"></span>
+        <span class="Toggle-thumb">★</span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 90px;
+    height: 44px;
+    overflow: hidden;
+    border: 2px solid #111827;
+    border-radius: 16px 7px 15px 8px;
+    background: linear-gradient(120deg, #facc15, #fb7185 38%, #a78bfa 72%, #22d3ee);
+    box-shadow: 4px 4px 0 #111827;
+}
+.Toggle-shape { position: absolute; pointer-events: none; }
+.Toggle-shape-1 { width: 17px; height: 17px; top: 4px; right: 10px; border-radius: 50%; background: #22c55e; }
+.Toggle-shape-2 { width: 10px; height: 10px; right: 31px; bottom: 5px; background: #2563eb; transform: rotate(22deg); }
+.Toggle-shape-3 { width: 25px; height: 4px; right: 6px; top: 25px; background: #111827; transform: rotate(-10deg); }
+.Toggle-thumb {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 4px;
+    top: 3px;
+    display: grid;
+    place-items: center;
+    border: 2px solid #111827;
+    border-radius: 12px 6px 13px 7px;
+    background: #fff;
+    color: #111827;
+    font-size: 13px;
+    transition: left .22s ease, transform .22s ease;
+}
+.Toggle:hover .Toggle-thumb { transform: rotate(-6deg); }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 49px;
+    transform: rotate(6deg);
+}`,
+  },
+  {
+    id: 3728,
+    name: "Victorian Toggle",
+    preview: (
+      <label
+        className="toggle-3728"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Victorian Toggle" />
+        <span className="toggle-3728__track">
+          <span className="toggle-3728__ornament toggle-3728__ornament-left">
+            ◆
+          </span>
+          <span className="toggle-3728__ornament toggle-3728__ornament-right">
+            ◆
+          </span>
+          <span className="toggle-3728__thumb">✦</span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-ornament Toggle-ornament-left">◆</span>
+        <span class="Toggle-ornament Toggle-ornament-right">◆</span>
+        <span class="Toggle-thumb">✦</span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 88px;
+    height: 42px;
+    border: 2px solid #8b6f47;
+    border-radius: 999px;
+    background: radial-gradient(circle at center, rgba(201,169,110,.15), transparent 60%), #261f1a;
+    box-shadow: inset 0 0 0 2px #3c3026, 0 5px 12px rgba(0,0,0,.25);
+}
+.Toggle-ornament { position: absolute; top: 12px; color: #b89967; font-size: 10px; }
+.Toggle-ornament-left { left: 11px; }
+.Toggle-ornament-right { right: 11px; }
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: 3px;
+    left: 4px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #d8bc84;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #f1d8a3, #a17745);
+    color: #3b2918;
+    font-size: 11px;
+    box-shadow: inset 0 0 0 2px #6d4e2f, 0 3px 7px #0006;
+    transition: left .25s ease;
+}
+.Toggle:hover .Toggle-track { border-color: #d4b475; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 49px; }`,
+  },
+  {
+    id: 3729,
+    name: "Cyberpunk Toggle",
+    preview: (
+      <label
+        className="toggle-3729"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Cyberpunk Toggle" />
+        <span className="toggle-3729__track">
+          <span className="toggle-3729__code">SYS</span>
+          <span className="toggle-3729__slash"></span>
+          <span className="toggle-3729__thumb">
+            <i className="ri-flashlight-line"></i>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-code">SYS</span>
+        <span class="Toggle-slash"></span>
+        <span class="Toggle-thumb"><i class="ri-flashlight-line"></i></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 92px;
+    height: 42px;
+    overflow: hidden;
+    clip-path: polygon(7% 0,100% 0,100% 76%,92% 100%,0 100%,0 20%);
+    background: #0a0d10;
+    box-shadow: inset 0 0 0 1px #22d3ee;
+}
+.Toggle-code { position: absolute; top: 6px; right: 8px; color: #22d3ee; font: 700 7px/1 monospace; }
+.Toggle-slash { position: absolute; width: 32px; height: 2px; right: 5px; bottom: 8px; background: #facc15; transform: rotate(-18deg); }
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 5px;
+    top: 5px;
+    display: grid;
+    place-items: center;
+    clip-path: polygon(15% 0,100% 0,100% 82%,84% 100%,0 100%,0 18%);
+    background: #ec4899;
+    color: #111827;
+    box-shadow: 0 0 12px rgba(236,72,153,.7);
+    transition: left .2s ease;
+}
+.Toggle:hover .Toggle-thumb { background: #f472b6; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 56px;
+    background: #22d3ee;
+}`,
+  },
+  {
+    id: 3730,
+    name: "Cybercore Toggle",
+    preview: (
+      <label
+        className="toggle-3730"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Cybercore Toggle" />
+        <span className="toggle-3730__track">
+          <span className="toggle-3730__bars">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+          <span className="toggle-3730__thumb">01</span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-bars"><i></i><i></i><i></i><i></i></span>
+        <span class="Toggle-thumb">01</span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 92px;
+    height: 42px;
+    border: 1px solid #334155;
+    border-radius: 5px;
+    background: #080b0f;
+    box-shadow: inset 0 0 18px rgba(34,211,238,.06), 0 0 0 1px #111827;
+}
+.Toggle-bars {
+    position: absolute;
+    right: 8px;
+    top: 9px;
+    display: flex;
+    gap: 2px;
+    align-items: flex-end;
+}
+.Toggle-bars i { width: 3px; background: #22d3ee; }
+.Toggle-bars i:nth-child(1) { height: 8px; }
+.Toggle-bars i:nth-child(2) { height: 16px; }
+.Toggle-bars i:nth-child(3) { height: 11px; }
+.Toggle-bars i:nth-child(4) { height: 20px; }
+.Toggle-thumb {
+    position: absolute;
+    width: 34px;
+    height: 30px;
+    left: 5px;
+    top: 5px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #22d3ee;
+    border-radius: 3px;
+    background: #101820;
+    color: #22d3ee;
+    font: 700 9px/1 monospace;
+    box-shadow: inset 0 0 8px rgba(34,211,238,.16);
+    transition: left .2s ease;
+}
+.Toggle:hover .Toggle-thumb {
+    box-shadow: inset 0 0 10px rgba(34,211,238,.28), 0 0 8px rgba(34,211,238,.3);
+}
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 52px;
+    border-color: #a3e635;
+    color: #a3e635;
+}`,
+  },
+  {
+    id: 3731,
+    name: "Minimal Glass Toggle",
+    preview: (
+      <label
+        className="toggle-3731"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Minimal Glass Toggle" />
+        <span className="toggle-3731__track">
+          <span className="toggle-3731__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track"><span class="Toggle-thumb"></span></span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 78px;
+    height: 38px;
+    border: 1px solid rgba(255,255,255,.26);
+    border-radius: 999px;
+    background: rgba(255,255,255,.08);
+    box-shadow: inset 0 1px rgba(255,255,255,.18), 0 8px 20px rgba(15,23,42,.18);
+    backdrop-filter: blur(12px);
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 4px;
+    left: 5px;
+    border: 1px solid rgba(255,255,255,.52);
+    border-radius: 50%;
+    background: rgba(255,255,255,.62);
+    box-shadow: 0 3px 10px rgba(15,23,42,.16);
+    transition: left .22s ease, background .22s ease;
+}
+.Toggle:hover .Toggle-track { background: rgba(255,255,255,.12); }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 43px;
+    background: rgba(125,211,252,.9);
+}`,
+  },
+  {
+    id: 3732,
+    name: "Nova Glass Toggle",
+    preview: (
+      <label
+        className="toggle-3732"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Nova Glass Toggle" />
+        <span className="toggle-3732__track">
+          <span className="toggle-3732__nova"></span>
+          <span className="toggle-3732__spark toggle-3732__spark-1"></span>
+          <span className="toggle-3732__spark toggle-3732__spark-2"></span>
+          <span className="toggle-3732__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-nova"></span>
+        <span class="Toggle-spark Toggle-spark-1"></span>
+        <span class="Toggle-spark Toggle-spark-2"></span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 88px;
+    height: 43px;
+    overflow: hidden;
+    border: 1px solid rgba(196,181,253,.42);
+    border-radius: 999px;
+    background: rgba(24,20,46,.72);
+    box-shadow: inset 0 0 16px rgba(139,92,246,.18), 0 10px 24px rgba(76,29,149,.2);
+    backdrop-filter: blur(16px);
+}
+.Toggle-nova {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: -13px;
+    right: -4px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,255,255,.9), rgba(168,85,247,.44) 30%, transparent 70%);
+}
+.Toggle-spark { position: absolute; width: 3px; height: 3px; border-radius: 50%; background: #fff; box-shadow: 0 0 7px #fff; }
+.Toggle-spark-1 { left: 48px; top: 9px; }
+.Toggle-spark-2 { right: 14px; bottom: 8px; }
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 5px;
+    top: 5px;
+    border: 1px solid rgba(255,255,255,.62);
+    border-radius: 50%;
+    background: linear-gradient(145deg, rgba(255,255,255,.92), rgba(196,181,253,.65));
+    box-shadow: 0 0 12px rgba(196,181,253,.45);
+    transition: left .24s ease;
+}
+.Toggle:hover .Toggle-track { border-color: rgba(216,180,254,.7); }
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 50px; }`,
+  },
+  {
+    id: 3733,
+    name: "Liquid Glass Toggle",
+    preview: (
+      <label
+        className="toggle-3733"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Liquid Glass Toggle" />
+        <span className="toggle-3733__track">
+          <span className="toggle-3733__blob toggle-3733__blob-1"></span>
+          <span className="toggle-3733__blob toggle-3733__blob-2"></span>
+          <span className="toggle-3733__thumb">
+            <span></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-blob Toggle-blob-1"></span>
+        <span class="Toggle-blob Toggle-blob-2"></span>
+        <span class="Toggle-thumb"><span></span></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 88px;
+    height: 43px;
+    overflow: hidden;
+    border: 1px solid rgba(186,230,253,.42);
+    border-radius: 21px 24px 20px 25px;
+    background: linear-gradient(130deg, rgba(56,189,248,.2), rgba(99,102,241,.2));
+    box-shadow: inset 0 1px rgba(255,255,255,.25), 0 10px 24px rgba(14,165,233,.14);
+    backdrop-filter: blur(12px);
+}
+.Toggle-blob { position: absolute; border-radius: 50%; filter: blur(6px); }
+.Toggle-blob-1 { width: 35px; height: 35px; top: -10px; right: 8px; background: rgba(34,211,238,.38); }
+.Toggle-blob-2 { width: 28px; height: 28px; left: 26px; bottom: -12px; background: rgba(167,139,250,.45); }
+.Toggle-thumb {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 5px;
+    top: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.64);
+    border-radius: 45% 55% 52% 48%;
+    background: rgba(255,255,255,.46);
+    box-shadow: inset 0 0 8px rgba(255,255,255,.35), 0 4px 10px rgba(15,23,42,.18);
+    transition: left .24s ease, border-radius .24s ease;
+}
+.Toggle-thumb span {
+    position: absolute;
+    width: 15px;
+    height: 7px;
+    top: 4px;
+    left: 6px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.58);
+}
+.Toggle:hover .Toggle-thumb { border-radius: 55% 45% 46% 54%; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 50px; }`,
+  },
+  {
+    id: 3734,
+    name: "Bauhaus Toggle",
+    preview: (
+      <label
+        className="toggle-3734"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Bauhaus Toggle" />
+        <span className="toggle-3734__track">
+          <span className="toggle-3734__circle"></span>
+          <span className="toggle-3734__square"></span>
+          <span className="toggle-3734__triangle"></span>
+          <span className="toggle-3734__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-circle"></span>
+        <span class="Toggle-square"></span>
+        <span class="Toggle-triangle"></span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 88px;
+    height: 42px;
+    overflow: hidden;
+    border: 2px solid #111;
+    background: #f8f3df;
+}
+.Toggle-circle { position: absolute; width: 21px; height: 21px; top: 3px; right: 6px; border-radius: 50%; background: #e63946; }
+.Toggle-square { position: absolute; width: 12px; height: 12px; right: 28px; bottom: 4px; background: #2563eb; }
+.Toggle-triangle { position: absolute; width: 0; height: 0; top: 6px; left: 39px; border-left: 7px solid transparent; border-right: 7px solid transparent; border-bottom: 13px solid #facc15; }
+.Toggle-thumb {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    top: 4px;
+    border: 2px solid #111;
+    border-radius: 50%;
+    background: #111;
+    transition: left .2s ease, border-radius .2s ease;
+}
+.Toggle:hover .Toggle-thumb { border-radius: 3px; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 49px;
+    background: #e63946;
+}`,
+  },
+  {
+    id: 3735,
+    name: "Art Deco Toggle",
+    preview: (
+      <label
+        className="toggle-3735"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Art Deco Toggle" />
+        <span className="toggle-3735__track">
+          <span className="toggle-3735__line toggle-3735__line-1"></span>
+          <span className="toggle-3735__line toggle-3735__line-2"></span>
+          <span className="toggle-3735__line toggle-3735__line-3"></span>
+          <span className="toggle-3735__thumb">◆</span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-line Toggle-line-1"></span>
+        <span class="Toggle-line Toggle-line-2"></span>
+        <span class="Toggle-line Toggle-line-3"></span>
+        <span class="Toggle-thumb">◆</span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 88px;
+    height: 42px;
+    overflow: hidden;
+    border: 1px solid #c8a65b;
+    border-radius: 3px;
+    background: #11110f;
+    box-shadow: inset 0 0 0 3px #201f19, 0 5px 14px rgba(0,0,0,.3);
+}
+.Toggle-line { position: absolute; height: 1px; background: #c8a65b; }
+.Toggle-line-1 { width: 28px; top: 8px; right: 7px; }
+.Toggle-line-2 { width: 21px; top: 20px; right: 7px; }
+.Toggle-line-3 { width: 28px; bottom: 8px; right: 7px; }
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: 4px;
+    left: 5px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #c8a65b;
+    background: linear-gradient(145deg, #332b18, #171510);
+    color: #d9bd78;
+    font-size: 10px;
+    clip-path: polygon(50% 0,100% 50%,50% 100%,0 50%);
+    transition: left .22s ease;
+}
+.Toggle:hover .Toggle-thumb { color: #fff3c4; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 50px; }`,
+  },
+  {
+    id: 3736,
+    name: "Material Design Toggle",
+    preview: (
+      <label
+        className="toggle-3736"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Material Design Toggle"
+        />
+        <span className="toggle-3736__track">
+          <span className="toggle-3736__thumb">
+            <span className="toggle-3736__ripple"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-thumb"><span class="Toggle-ripple"></span></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 72px;
+    height: 34px;
+    border-radius: 999px;
+    background: #cbd5e1;
+    transition: background .2s ease;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 5px;
+    top: 5px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 2px 3px rgba(0,0,0,.16), 0 3px 8px rgba(0,0,0,.12);
+    transition: left .2s cubic-bezier(.4,0,.2,1), box-shadow .2s ease;
+}
+.Toggle-ripple {
+    position: absolute;
+    inset: -6px;
+    border-radius: 50%;
+    background: rgba(59,130,246,.12);
+    opacity: 0;
+}
+.Toggle:hover .Toggle-ripple { opacity: 1; }
+.Toggle input:checked + .Toggle-track { background: #93c5fd; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 43px;
+    background: #2563eb;
+}`,
+  },
+  {
+    id: 3737,
+    name: "Claymorphism Toggle",
+    preview: (
+      <label
+        className="toggle-3737"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Claymorphism Toggle" />
+        <span className="toggle-3737__track">
+          <span className="toggle-3737__thumb">
+            <span className="toggle-3737__face"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-thumb"><span class="Toggle-face"></span></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 82px;
+    height: 42px;
+    border-radius: 18px;
+    background: #d9c9ff;
+    box-shadow: inset 4px 4px 7px rgba(122,92,181,.16), inset -4px -4px 7px rgba(255,255,255,.65);
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 4px;
+    left: 5px;
+    display: grid;
+    place-items: center;
+    border-radius: 13px;
+    background: #ffa8c7;
+    box-shadow: inset -4px -5px 8px rgba(183,65,110,.15), inset 4px 4px 8px rgba(255,255,255,.58), 0 5px 8px rgba(79,70,229,.16);
+    transition: left .22s ease, transform .22s ease;
+}
+.Toggle-face {
+    width: 13px;
+    height: 6px;
+    border-bottom: 2px solid #7c3aed;
+    border-radius: 50%;
+}
+.Toggle:hover .Toggle-thumb { transform: translateY(-1px); }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 44px;
+    background: #8dd7c7;
+}`,
+  },
+  {
+    id: 3738,
+    name: "Retro Web Toggle",
+    preview: (
+      <label
+        className="toggle-3738"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Retro Web Toggle" />
+        <span className="toggle-3738__track">
+          <span className="toggle-3738__label-off">0</span>
+          <span className="toggle-3738__label-on">1</span>
+          <span className="toggle-3738__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-label-off">0</span>
+        <span class="Toggle-label-on">1</span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 80px;
+    height: 38px;
+    border: 2px outset #d4d0c8;
+    background: #c0c0c0;
+}
+.Toggle-label-off,
+.Toggle-label-on {
+    position: absolute;
+    top: 11px;
+    color: #000080;
+    font: 700 10px/1 "Courier New", monospace;
+}
+.Toggle-label-off { right: 10px; }
+.Toggle-label-on { left: 10px; }
+.Toggle-thumb {
+    position: absolute;
+    width: 30px;
+    height: 28px;
+    left: 3px;
+    top: 3px;
+    border: 2px outset #eee;
+    background: #d4d0c8;
+    transition: left .14s ease;
+}
+.Toggle:hover .Toggle-thumb { background: #e4e2dc; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 43px; }`,
+  },
+  {
+    id: 3739,
+    name: "Aurora Glass Toggle",
+    preview: (
+      <label
+        className="toggle-3739"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Aurora Glass Toggle" />
+        <span className="toggle-3739__track">
+          <span className="toggle-3739__aurora toggle-3739__aurora-1"></span>
+          <span className="toggle-3739__aurora toggle-3739__aurora-2"></span>
+          <span className="toggle-3739__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-aurora Toggle-aurora-1"></span>
+        <span class="Toggle-aurora Toggle-aurora-2"></span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 88px;
+    height: 43px;
+    overflow: hidden;
+    border: 1px solid rgba(167,243,208,.45);
+    border-radius: 999px;
+    background: rgba(15,23,42,.82);
+    box-shadow: inset 0 0 18px rgba(45,212,191,.12), 0 8px 22px rgba(15,23,42,.2);
+}
+.Toggle-aurora { position: absolute; border-radius: 50%; filter: blur(8px); }
+.Toggle-aurora-1 { width: 55px; height: 27px; top: -5px; left: 20px; background: rgba(45,212,191,.56); transform: rotate(-15deg); }
+.Toggle-aurora-2 { width: 55px; height: 25px; right: -10px; bottom: -5px; background: rgba(129,140,248,.54); transform: rotate(12deg); }
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 5px;
+    top: 5px;
+    border: 1px solid rgba(255,255,255,.65);
+    border-radius: 50%;
+    background: rgba(255,255,255,.72);
+    box-shadow: 0 0 13px rgba(94,234,212,.48);
+    transition: left .24s ease;
+}
+.Toggle:hover .Toggle-track { border-color: rgba(94,234,212,.75); }
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 50px; }`,
+  },
+  {
+    id: 3740,
+    name: "Holographic Toggle",
+    preview: (
+      <label
+        className="toggle-3740"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Holographic Toggle" />
+        <span className="toggle-3740__track">
+          <span className="toggle-3740__spectrum"></span>
+          <span className="toggle-3740__scanline"></span>
+          <span className="toggle-3740__thumb">✧</span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-spectrum"></span>
+        <span class="Toggle-scanline"></span>
+        <span class="Toggle-thumb">✧</span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 88px;
+    height: 43px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.65);
+    border-radius: 999px;
+    background: linear-gradient(115deg, #f9a8d4, #c4b5fd 32%, #67e8f9 63%, #fde68a);
+    box-shadow: inset 0 0 8px rgba(255,255,255,.55), 0 8px 18px rgba(139,92,246,.18);
+}
+.Toggle-spectrum {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(110deg, transparent, rgba(255,255,255,.55), transparent);
+    transform: translateX(-50%);
+    transition: transform .25s ease;
+}
+.Toggle-scanline {
+    position: absolute;
+    inset: 0;
+    opacity: .18;
+    background-image: repeating-linear-gradient(0deg, transparent 0 3px, #fff 3px 4px);
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 5px;
+    top: 4px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255,255,255,.85);
+    border-radius: 50%;
+    background: rgba(255,255,255,.58);
+    color: #fff;
+    font-size: 14px;
+    text-shadow: 0 0 6px #fff;
+    box-shadow: 0 4px 9px rgba(109,40,217,.16);
+    transition: left .24s ease;
+}
+.Toggle:hover .Toggle-spectrum { transform: translateX(45%); }
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 49px; }`,
+  },
+  {
+    id: 3741,
+    name: "Frosted Glass Toggle",
+    preview: (
+      <label
+        className="toggle-3741"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Frosted Glass Toggle" />
+        <span className="toggle-3741__track">
+          <span className="toggle-3741__frost"></span>
+          <span className="toggle-3741__thumb">
+            <i className="ri-snowflake-line"></i>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-frost"></span>
+        <span class="Toggle-thumb"><i class="ri-snowflake-line"></i></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 84px;
+    height: 42px;
+    overflow: hidden;
+    border: 1px solid rgba(226,232,240,.72);
+    border-radius: 999px;
+    background: linear-gradient(135deg, rgba(255,255,255,.46), rgba(203,213,225,.2)), rgba(148,163,184,.3);
+    box-shadow: inset 0 1px rgba(255,255,255,.7), 0 8px 18px rgba(71,85,105,.16);
+    backdrop-filter: blur(16px);
+}
+.Toggle-frost {
+    position: absolute;
+    inset: 0;
+    opacity: .3;
+    background-image: radial-gradient(circle at 20% 35%, #fff 0 1px, transparent 2px), radial-gradient(circle at 70% 60%, #fff 0 1px, transparent 2px);
+    background-size: 14px 14px;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: 5px;
+    left: 5px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255,255,255,.8);
+    border-radius: 50%;
+    background: rgba(241,245,249,.82);
+    color: #38bdf8;
+    box-shadow: inset 0 1px #fff, 0 4px 10px rgba(51,65,85,.16);
+    transition: left .24s ease;
+}
+.Toggle:hover .Toggle-thumb { color: #0ea5e9; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 46px; }`,
+  },
+  {
+    id: 3742,
+    name: "Dark Neumorphism Toggle",
+    preview: (
+      <label
+        className="toggle-3742"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Dark Neumorphism Toggle"
+        />
+        <span className="toggle-3742__track">
+          <span className="toggle-3742__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track"><span class="Toggle-thumb"></span></span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 82px;
+    height: 42px;
+    border-radius: 999px;
+    background: #20242b;
+    box-shadow: inset 5px 5px 10px #15181d, inset -5px -5px 10px #2b3039;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: 5px;
+    left: 6px;
+    border-radius: 50%;
+    background: #20242b;
+    box-shadow: 5px 5px 9px #14171b, -5px -5px 9px #2c313a;
+    transition: left .22s ease, background .22s ease;
+}
+.Toggle:hover .Toggle-thumb {
+    box-shadow: 6px 6px 11px #111419, -6px -6px 11px #303641;
+}
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 45px;
+    background: #60a5fa;
+}`,
+  },
+  {
+    id: 3743,
+    name: "Soft Neumorphism Toggle",
+    preview: (
+      <label
+        className="toggle-3743"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Soft Neumorphism Toggle" />
+        <span className="toggle-3743__track">
+          <span className="toggle-3743__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track"><span class="Toggle-thumb"></span></span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 82px;
+    height: 42px;
+    border-radius: 999px;
+    background: #e9eef5;
+    box-shadow: inset 4px 4px 8px #d2d8df, inset -4px -4px 8px #fff;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: 5px;
+    left: 6px;
+    border-radius: 50%;
+    background: #e9eef5;
+    box-shadow: 4px 4px 8px #ccd2d9, -4px -4px 8px #fff;
+    transition: left .23s ease, background .23s ease, transform .2s ease;
+}
+.Toggle:hover .Toggle-thumb { transform: scale(1.03); }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 45px;
+    background: #86efac;
+}`,
+  },
+  {
+    id: 3744,
+    name: "Sci-Fi HUD Toggle",
+    preview: (
+      <label
+        className="toggle-3744"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Sci-Fi HUD Toggle" />
+        <span className="toggle-3744__track">
+          <span className="toggle-3744__hud-label">SYS</span>
+          <span className="toggle-3744__ticks"></span>
+          <span className="toggle-3744__thumb">
+            <span></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-hud-label">SYS</span>
+        <span class="Toggle-ticks"></span>
+        <span class="Toggle-thumb"><span></span></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 94px;
+    height: 43px;
+    overflow: hidden;
+    clip-path: polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);
+    background: #061418;
+    box-shadow: inset 0 0 0 1px #22d3ee;
+}
+.Toggle-hud-label { position: absolute; right: 7px; top: 6px; color: #22d3ee; font: 700 7px/1 monospace; }
+.Toggle-ticks {
+    position: absolute;
+    width: 35px;
+    height: 5px;
+    right: 7px;
+    bottom: 7px;
+    background: repeating-linear-gradient(90deg,#22d3ee 0 2px,transparent 2px 6px);
+    opacity: .6;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 32px;
+    height: 31px;
+    left: 5px;
+    top: 5px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #22d3ee;
+    clip-path: polygon(6px 0,100% 0,100% calc(100% - 6px),calc(100% - 6px) 100%,0 100%,0 6px);
+    background: #09252b;
+    box-shadow: inset 0 0 10px rgba(34,211,238,.24);
+    transition: left .2s ease;
+}
+.Toggle-thumb span { width: 10px; height: 10px; border: 2px solid #22d3ee; border-radius: 50%; }
+.Toggle:hover .Toggle-track {
+    box-shadow: inset 0 0 0 1px #67e8f9, 0 0 10px rgba(34,211,238,.3);
+}
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 57px; border-color: #a3e635; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb span { border-color: #a3e635; }`,
+  },
+  {
+    id: 3745,
+    name: "Futuristic Light Toggle",
+    preview: (
+      <label
+        className="toggle-3745"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Futuristic Light Toggle" />
+        <span className="toggle-3745__track">
+          <span className="toggle-3745__beam"></span>
+          <span className="toggle-3745__thumb">
+            <i className="ri-flashlight-line"></i>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-beam"></span>
+        <span class="Toggle-thumb"><i class="ri-flashlight-line"></i></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 86px;
+    height: 40px;
+    overflow: hidden;
+    border: 1px solid #dbeafe;
+    border-radius: 999px;
+    background: #f8fbff;
+    box-shadow: inset 0 0 14px rgba(59,130,246,.06), 0 8px 18px rgba(59,130,246,.1);
+}
+.Toggle-beam {
+    position: absolute;
+    width: 42px;
+    height: 14px;
+    right: 5px;
+    top: 13px;
+    background: linear-gradient(90deg,transparent,rgba(59,130,246,.18));
+    clip-path: polygon(0 40%,100% 0,100% 100%,0 60%);
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    top: 4px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #fff;
+    color: #60a5fa;
+    box-shadow: 0 3px 9px rgba(59,130,246,.16), inset 0 0 0 1px #dbeafe;
+    transition: left .22s ease, color .22s ease;
+}
+.Toggle:hover .Toggle-thumb { color: #2563eb; }
+.Toggle input:checked + .Toggle-track { background: #eff6ff; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 50px;
+    color: #2563eb;
+}`,
+  },
+  {
+    id: 3746,
+    name: "Neon Noir Toggle",
+    preview: (
+      <label
+        className="toggle-3746"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Neon Noir Toggle" />
+        <span className="toggle-3746__track">
+          <span className="toggle-3746__glow"></span>
+          <span className="toggle-3746__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-glow"></span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 88px;
+    height: 42px;
+    overflow: hidden;
+    border: 1px solid #2f1748;
+    border-radius: 999px;
+    background: #07070a;
+    box-shadow: inset 0 0 14px rgba(217,70,239,.08);
+}
+.Toggle-glow {
+    position: absolute;
+    width: 38px;
+    height: 14px;
+    right: 6px;
+    top: 13px;
+    border-radius: 50%;
+    background: #d946ef;
+    filter: blur(10px);
+    opacity: .4;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 5px;
+    top: 5px;
+    border: 1px solid #52525b;
+    border-radius: 50%;
+    background: #18181b;
+    box-shadow: inset 0 0 8px rgba(255,255,255,.03);
+    transition: left .22s ease, border-color .22s ease, box-shadow .22s ease;
+}
+.Toggle:hover .Toggle-thumb { border-color: #d946ef; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 50px;
+    border-color: #e879f9;
+    box-shadow: 0 0 12px rgba(217,70,239,.7), inset 0 0 8px rgba(236,72,153,.35);
+}`,
+  },
+  {
+    id: 3747,
+    name: "Vaporwave Toggle",
+    preview: (
+      <label
+        className="toggle-3747"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Vaporwave Toggle" />
+        <span className="toggle-3747__track">
+          <span className="toggle-3747__sun"></span>
+          <span className="toggle-3747__lines"></span>
+          <span className="toggle-3747__thumb">夢</span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-sun"></span>
+        <span class="Toggle-lines"></span>
+        <span class="Toggle-thumb">夢</span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 90px;
+    height: 43px;
+    overflow: hidden;
+    border: 1px solid #c084fc;
+    border-radius: 7px;
+    background: linear-gradient(#20124d,#7131a4);
+}
+.Toggle-sun {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 8px;
+    top: 5px;
+    border-radius: 50%;
+    background: repeating-linear-gradient(0deg,#f9a8d4 0 3px,#fb7185 3px 5px);
+}
+.Toggle-lines {
+    position: absolute;
+    inset: auto 0 0;
+    height: 15px;
+    opacity: .45;
+    background: repeating-linear-gradient(0deg,#67e8f9 0 1px,transparent 1px 4px);
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 33px;
+    height: 31px;
+    left: 5px;
+    top: 5px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #22d3ee;
+    border-radius: 5px;
+    background: #251052;
+    color: #f9a8d4;
+    font-size: 12px;
+    box-shadow: 0 0 9px rgba(34,211,238,.38);
+    transition: left .22s ease;
+}
+.Toggle:hover .Toggle-thumb { color: #fff; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 51px; }`,
+  },
+  {
+    id: 3748,
+    name: "Frutiger Aero Toggle",
+    preview: (
+      <label
+        className="toggle-3748"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Frutiger Aero Toggle"
+        />
+        <span className="toggle-3748__track">
+          <span className="toggle-3748__sky"></span>
+          <span className="toggle-3748__grass"></span>
+          <span className="toggle-3748__bubble toggle-3748__bubble-1"></span>
+          <span className="toggle-3748__bubble toggle-3748__bubble-2"></span>
+          <span className="toggle-3748__thumb">
+            <i className="ri-leaf-line"></i>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-sky"></span>
+        <span class="Toggle-grass"></span>
+        <span class="Toggle-bubble Toggle-bubble-1"></span>
+        <span class="Toggle-bubble Toggle-bubble-2"></span>
+        <span class="Toggle-thumb"><i class="ri-leaf-line"></i></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 92px;
+    height: 44px;
+    overflow: hidden;
+    border: 1px solid #7dd3fc;
+    border-radius: 999px;
+    background: #7dd3fc;
+    box-shadow: inset 0 2px 4px rgba(255,255,255,.55), 0 8px 15px rgba(14,165,233,.16);
+}
+.Toggle-sky { position: absolute; inset: 0 0 13px; background: linear-gradient(#7dd3fc,#bae6fd); }
+.Toggle-grass { position: absolute; inset: auto 0 0; height: 15px; background: linear-gradient(#86efac,#22c55e); }
+.Toggle-bubble { position: absolute; border: 1px solid rgba(255,255,255,.8); border-radius: 50%; background: rgba(255,255,255,.22); }
+.Toggle-bubble-1 { width: 8px; height: 8px; top: 7px; right: 14px; }
+.Toggle-bubble-2 { width: 5px; height: 5px; top: 17px; right: 28px; }
+.Toggle-thumb {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 5px;
+    top: 5px;
+    display: grid;
+    place-items: center;
+    border: 2px solid rgba(255,255,255,.85);
+    border-radius: 50%;
+    background: linear-gradient(145deg,#fff,#d9f99d);
+    color: #16a34a;
+    box-shadow: inset -3px -4px 6px rgba(34,197,94,.16), 0 4px 8px rgba(14,116,144,.22);
+    transition: left .24s ease;
+}
+.Toggle:hover .Toggle-thumb { color: #15803d; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 52px; }`,
+  },
+  {
+    id: 3749,
+    name: "Flat Design Toggle",
+    preview: (
+      <label
+        className="toggle-3749"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Flat Design Toggle" />
+        <span className="toggle-3749__track">
+          <span className="toggle-3749__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track"><span class="Toggle-thumb"></span></span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 76px;
+    height: 38px;
+    border-radius: 999px;
+    background: #cbd5e1;
+    transition: background .18s ease;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    background: #fff;
+    transition: left .18s ease;
+}
+.Toggle:hover .Toggle-track { background: #b6c2d2; }
+.Toggle input:checked + .Toggle-track { background: #3b82f6; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 43px; }`,
+  },
+  {
+    id: 3750,
+    name: "Fluent Design Toggle",
+    preview: (
+      <label
+        className="toggle-3750"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Fluent Design Toggle"
+        />
+        <span className="toggle-3750__track">
+          <span className="toggle-3750__reveal"></span>
+          <span className="toggle-3750__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-reveal"></span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 82px;
+    height: 40px;
+    overflow: hidden;
+    border: 1px solid rgba(148,163,184,.4);
+    border-radius: 999px;
+    background: rgba(248,250,252,.78);
+    box-shadow: inset 0 1px #fff, 0 6px 16px rgba(15,23,42,.1);
+    backdrop-filter: blur(10px);
+}
+.Toggle-reveal {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -15px;
+    left: -20px;
+    border-radius: 50%;
+    background: radial-gradient(circle,rgba(59,130,246,.18),transparent 70%);
+    opacity: 0;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 3px 7px rgba(15,23,42,.13), inset 0 0 0 1px rgba(148,163,184,.18);
+    transition: left .22s ease, background .22s ease;
+}
+.Toggle:hover .Toggle-reveal { opacity: 1; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 46px;
+    background: #60a5fa;
+}`,
+  },
+  {
+    id: 3751,
+    name: "Bento Toggle",
+    preview: (
+      <label
+        className="toggle-3751"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Bento Toggle" />
+        <span className="toggle-3751__track">
+          <span className="toggle-3751__cell toggle-3751__cell-1"></span>
+          <span className="toggle-3751__cell toggle-3751__cell-2"></span>
+          <span className="toggle-3751__cell toggle-3751__cell-3"></span>
+          <span className="toggle-3751__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-cell Toggle-cell-1"></span>
+        <span class="Toggle-cell Toggle-cell-2"></span>
+        <span class="Toggle-cell Toggle-cell-3"></span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 88px;
+    height: 43px;
+    overflow: hidden;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    background: #fafafa;
+    box-shadow: 0 8px 20px rgba(24,24,27,.08);
+}
+.Toggle-cell { position: absolute; border-radius: 5px; background: #e4e4e7; }
+.Toggle-cell-1 { width: 22px; height: 13px; right: 6px; top: 5px; }
+.Toggle-cell-2 { width: 10px; height: 13px; right: 18px; bottom: 5px; }
+.Toggle-cell-3 { width: 10px; height: 13px; right: 6px; bottom: 5px; }
+.Toggle-thumb {
+    position: absolute;
+    width: 34px;
+    height: 31px;
+    left: 5px;
+    top: 5px;
+    border-radius: 9px;
+    background: #18181b;
+    transition: left .22s ease, background .22s ease;
+}
+.Toggle:hover .Toggle-thumb { background: #27272a; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 48px;
+    background: #60a5fa;
+}`,
+  },
+  {
+    id: 3752,
+    name: "Editorial Toggle",
+    preview: (
+      <label
+        className="toggle-3752"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Editorial Toggle" />
+        <span className="toggle-3752__track">
+          <span className="toggle-3752__index">A.</span>
+          <span className="toggle-3752__thumb"></span>
+          <span className="toggle-3752__edition">01</span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-index">A.</span>
+        <span class="Toggle-thumb"></span>
+        <span class="Toggle-edition">01</span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 92px;
+    height: 42px;
+    border-top: 2px solid #111;
+    border-bottom: 2px solid #111;
+    background: #f4f0e8;
+}
+.Toggle-index,
+.Toggle-edition {
+    position: absolute;
+    top: 14px;
+    color: #111;
+    font: 700 8px/1 Georgia, serif;
+}
+.Toggle-index { left: 7px; }
+.Toggle-edition { right: 7px; }
+.Toggle-thumb {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 5px;
+    left: 26px;
+    border: 1px solid #111;
+    background: #b91c1c;
+    transform: rotate(45deg);
+    transition: left .22s ease, transform .22s ease;
+}
+.Toggle:hover .Toggle-thumb { transform: rotate(45deg) scale(1.06); }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 56px;
+    background: #111;
+}`,
+  },
+  {
+    id: 3753,
+    name: "Monochrome Toggle",
+    preview: (
+      <label
+        className="toggle-3753"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Monochrome Toggle" />
+        <span className="toggle-3753__track">
+          <span className="toggle-3753__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track"><span class="Toggle-thumb"></span></span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 78px;
+    height: 38px;
+    border: 2px solid #000;
+    border-radius: 999px;
+    background: #fff;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 3px;
+    left: 4px;
+    border-radius: 50%;
+    background: #000;
+    transition: left .18s ease, background .18s ease, transform .18s ease;
+}
+.Toggle:hover .Toggle-thumb { transform: scale(1.04); }
+.Toggle input:checked + .Toggle-track { background: #000; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 42px;
+    background: #fff;
+}`,
+  },
+  {
+    id: 3754,
+    name: "Dark Academia Toggle",
+    preview: (
+      <label
+        className="toggle-3754"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Dark Academia Toggle"
+        />
+        <span className="toggle-3754__track">
+          <span className="toggle-3754__ornament">❦</span>
+          <span className="toggle-3754__thumb">A</span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-ornament">❦</span>
+        <span class="Toggle-thumb">A</span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 88px;
+    height: 42px;
+    overflow: hidden;
+    border: 1px solid #6f5a40;
+    border-radius: 4px;
+    background: linear-gradient(rgba(255,255,255,.02),transparent), #211b16;
+    box-shadow: inset 0 0 0 2px #30271f, 0 6px 15px rgba(0,0,0,.28);
+}
+.Toggle-ornament {
+    position: absolute;
+    right: 9px;
+    top: 11px;
+    color: #b69a73;
+    font-family: Georgia, serif;
+    font-size: 15px;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 5px;
+    top: 4px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #8d7350;
+    border-radius: 50%;
+    background: #3c2f24;
+    color: #e7d2aa;
+    font: 700 12px/1 Georgia, serif;
+    box-shadow: inset 0 0 7px rgba(0,0,0,.32);
+    transition: left .22s ease;
+}
+.Toggle:hover .Toggle-thumb { color: #fff; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 50px; }`,
+  },
+  {
+    id: 3755,
+    name: "Japandi Toggle",
+    preview: (
+      <label
+        className="toggle-3755"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Japandi Toggle" />
+        <span className="toggle-3755__track">
+          <span className="toggle-3755__sun"></span>
+          <span className="toggle-3755__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-sun"></span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 82px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #d9d2c3;
+    box-shadow: inset 0 0 0 1px #c6bdad;
+}
+.Toggle-sun {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    right: 10px;
+    top: 10px;
+    border-radius: 50%;
+    background: #b85c45;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    top: 5px;
+    border-radius: 48% 52% 47% 53%;
+    background: #756b5b;
+    transition: left .22s ease, border-radius .22s ease;
+}
+.Toggle:hover .Toggle-thumb { border-radius: 55% 45% 52% 48%; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 47px;
+    background: #526856;
+}`,
+  },
+  {
+    id: 3756,
+    name: "Wabi-Sabi Toggle",
+    preview: (
+      <label
+        className="toggle-3756"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Wabi-Sabi Toggle" />
+        <span className="toggle-3756__track">
+          <span className="toggle-3756__texture"></span>
+          <span className="toggle-3756__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-texture"></span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 84px;
+    height: 40px;
+    overflow: hidden;
+    border: 1px solid #9b8e78;
+    border-radius: 17px 23px 16px 21px;
+    background: #b9ad96;
+}
+.Toggle-texture {
+    position: absolute;
+    inset: 0;
+    opacity: .14;
+    background-image: radial-gradient(circle at 20% 30%,#2f2921 0 1px,transparent 1.5px), radial-gradient(circle at 70% 70%,#2f2921 0 1px,transparent 1.5px);
+    background-size: 9px 11px;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    top: 5px;
+    border-radius: 54% 46% 51% 49%;
+    background: #615b4e;
+    box-shadow: inset -3px -4px 6px rgba(0,0,0,.12);
+    transition: left .22s ease, border-radius .22s ease;
+}
+.Toggle:hover .Toggle-thumb { border-radius: 45% 55% 48% 52%; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 48px;
+    background: #6e7860;
+}`,
+  },
+  {
+    id: 3757,
+    name: "Memphis Toggle",
+    preview: (
+      <label
+        className="toggle-3757"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Memphis Toggle" />
+        <span className="toggle-3757__track">
+          <span className="toggle-3757__shape toggle-3757__circle"></span>
+          <span className="toggle-3757__shape toggle-3757__triangle"></span>
+          <span className="toggle-3757__shape toggle-3757__zigzag">⌁</span>
+          <span className="toggle-3757__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-shape Toggle-circle"></span>
+        <span class="Toggle-shape Toggle-triangle"></span>
+        <span class="Toggle-shape Toggle-zigzag">⌁</span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 90px;
+    height: 43px;
+    overflow: hidden;
+    border: 2px solid #111827;
+    border-radius: 4px;
+    background: #f8f1e3;
+}
+.Toggle-shape { position: absolute; }
+.Toggle-circle { width: 15px; height: 15px; right: 6px; top: 5px; border-radius: 50%; background: #ef4444; }
+.Toggle-triangle { width: 0; height: 0; right: 24px; bottom: 4px; border-left: 7px solid transparent; border-right: 7px solid transparent; border-bottom: 12px solid #3b82f6; }
+.Toggle-zigzag { right: 5px; bottom: 1px; color: #111827; font-size: 17px; }
+.Toggle-thumb {
+    position: absolute;
+    width: 33px;
+    height: 31px;
+    left: 5px;
+    top: 4px;
+    border: 2px solid #111827;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 3px 3px 0 #111827;
+    transition: left .2s ease, transform .2s ease;
+}
+.Toggle:hover .Toggle-thumb { transform: rotate(-8deg); }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 49px;
+    background: #f472b6;
+    transform: rotate(8deg);
+}`,
+  },
+  {
+    id: 3758,
+    name: "Pop Art Toggle",
+    preview: (
+      <label
+        className="toggle-3758"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Pop Art Toggle" />
+        <span className="toggle-3758__track">
+          <span className="toggle-3758__dots"></span>
+          <span className="toggle-3758__burst">WOW!</span>
+          <span className="toggle-3758__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-dots"></span>
+        <span class="Toggle-burst">WOW!</span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 92px;
+    height: 44px;
+    overflow: hidden;
+    border: 3px solid #111;
+    background: #facc15;
+    box-shadow: 4px 4px 0 #111;
+}
+.Toggle-dots {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(#ef4444 1.5px, transparent 1.5px);
+    background-size: 7px 7px;
+    opacity: .55;
+}
+.Toggle-burst {
+    position: absolute;
+    right: 4px;
+    top: 7px;
+    z-index: 2;
+    padding: 4px;
+    background: #fff;
+    color: #111;
+    font: 900 7px/1 Arial, sans-serif;
+    transform: rotate(7deg);
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 5px;
+    top: 4px;
+    z-index: 3;
+    border: 2px solid #111;
+    border-radius: 50%;
+    background: #22d3ee;
+    transition: left .2s ease, transform .2s ease;
+}
+.Toggle:hover .Toggle-thumb { transform: scale(1.07); }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 51px;
+    background: #f43f5e;
+}`,
+  },
+  {
+    id: 3759,
+    name: "Grunge Toggle",
+    preview: (
+      <label
+        className="toggle-3759"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Grunge Toggle" />
+        <span className="toggle-3759__track">
+          <span className="toggle-3759__noise"></span>
+          <span className="toggle-3759__scratch toggle-3759__scratch-1"></span>
+          <span className="toggle-3759__scratch toggle-3759__scratch-2"></span>
+          <span className="toggle-3759__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-noise"></span>
+        <span class="Toggle-scratch Toggle-scratch-1"></span>
+        <span class="Toggle-scratch Toggle-scratch-2"></span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 88px;
+    height: 42px;
+    overflow: hidden;
+    border: 1px solid #57534e;
+    background: #292524;
+    box-shadow: inset 0 0 10px rgba(0,0,0,.45), 0 5px 12px rgba(0,0,0,.25);
+}
+.Toggle-noise {
+    position: absolute;
+    inset: 0;
+    opacity: .13;
+    background-image: linear-gradient(27deg,transparent 45%,#fff 46% 48%,transparent 49%), linear-gradient(-35deg,transparent 45%,#000 46% 47%,transparent 48%);
+    background-size: 11px 13px;
+}
+.Toggle-scratch { position: absolute; height: 1px; background: #a8a29e; opacity: .4; }
+.Toggle-scratch-1 { width: 36px; right: 7px; top: 13px; transform: rotate(-13deg); }
+.Toggle-scratch-2 { width: 29px; right: 11px; bottom: 10px; transform: rotate(8deg); }
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 5px;
+    top: 5px;
+    border: 1px solid #78716c;
+    background: #44403c;
+    box-shadow: inset 0 0 6px #1c1917, 2px 2px 0 #111;
+    transition: left .2s ease, background .2s ease;
+}
+.Toggle:hover .Toggle-thumb { background: #57534e; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 51px;
+    background: #b45309;
+}`,
+  },
+  {
+    id: 3760,
+    name: "Scrapbook Toggle",
+    preview: (
+      <label
+        className="toggle-3760"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Scrapbook Toggle" />
+        <span className="toggle-3760__track">
+          <span className="toggle-3760__tape"></span>
+          <span className="toggle-3760__scribble">♡</span>
+          <span className="toggle-3760__thumb">YES</span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-tape"></span>
+        <span class="Toggle-scribble">♡</span>
+        <span class="Toggle-thumb">YES</span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 92px;
+    height: 44px;
+    overflow: hidden;
+    border: 1px solid #d6c3a5;
+    border-radius: 4px;
+    background: #f3e8d3;
+    box-shadow: 0 6px 12px rgba(120,91,55,.12);
+    transform: rotate(-1deg);
+}
+.Toggle-tape {
+    position: absolute;
+    width: 30px;
+    height: 9px;
+    right: 3px;
+    top: 2px;
+    background: rgba(250,204,21,.35);
+    transform: rotate(6deg);
+}
+.Toggle-scribble {
+    position: absolute;
+    right: 13px;
+    bottom: 5px;
+    color: #be185d;
+    font-size: 15px;
+    transform: rotate(-8deg);
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 36px;
+    height: 29px;
+    left: 5px;
+    top: 6px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #c7a97c;
+    background: #fffdf7;
+    color: #7c2d12;
+    font: 800 7px/1 Arial, sans-serif;
+    box-shadow: 2px 3px 5px rgba(120,91,55,.15);
+    transform: rotate(2deg);
+    transition: left .22s ease, transform .22s ease;
+}
+.Toggle:hover .Toggle-thumb { transform: rotate(-2deg); }
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 50px; }`,
+  },
+  {
+    id: 3761,
+    name: "Skeuomorphism Toggle",
+    preview: (
+      <label
+        className="toggle-3761"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Skeuomorphism Toggle" />
+        <span className="toggle-3761__plate">
+          <span className="toggle-3761__screw toggle-3761__screw-1"></span>
+          <span className="toggle-3761__screw toggle-3761__screw-2"></span>
+          <span className="toggle-3761__track">
+            <span className="toggle-3761__thumb"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-plate">
+        <span class="Toggle-screw Toggle-screw-1"></span>
+        <span class="Toggle-screw Toggle-screw-2"></span>
+        <span class="Toggle-track"><span class="Toggle-thumb"></span></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-plate {
+    position: relative;
+    width: 92px;
+    height: 48px;
+    display: block;
+    border: 1px solid #7c6f60;
+    border-radius: 7px;
+    background: linear-gradient(#a99c89,#827666);
+    box-shadow: inset 0 1px #d7cbbb, 0 6px 12px rgba(0,0,0,.25);
+}
+.Toggle-screw {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: 5px;
+    border-radius: 50%;
+    background: linear-gradient(45deg,transparent 43%,#5c5248 44% 56%,transparent 57%), #beb09e;
+    box-shadow: inset 0 0 0 1px #6f6458;
+}
+.Toggle-screw-1 { left: 6px; }
+.Toggle-screw-2 { right: 6px; }
+.Toggle-track {
+    position: absolute;
+    width: 68px;
+    height: 28px;
+    left: 11px;
+    bottom: 6px;
+    border: 1px solid #4b433a;
+    border-radius: 999px;
+    background: #564d43;
+    box-shadow: inset 3px 3px 5px rgba(0,0,0,.42), inset -2px -2px 4px rgba(255,255,255,.08);
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 3px;
+    top: 2px;
+    border: 1px solid #d9d0c5;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 25%,#f2ede7,#948878);
+    box-shadow: 0 2px 4px rgba(0,0,0,.38), inset -2px -3px 4px rgba(0,0,0,.15);
+    transition: left .22s ease;
+}
+.Toggle:hover .Toggle-thumb { filter: brightness(1.08); }
+.Toggle input:checked + .Toggle-plate .Toggle-thumb { left: 41px; }`,
+  },
+  {
+    id: 3762,
+    name: "Terminal Toggle",
+    preview: (
+      <label
+        className="toggle-3762"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Terminal Toggle" />
+        <span className="toggle-3762__track">
+          <span className="toggle-3762__prompt">&gt;_</span>
+          <span className="toggle-3762__status">1</span>
+          <span className="toggle-3762__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-prompt">&gt;_</span>
+        <span class="Toggle-status">1</span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 92px;
+    height: 42px;
+    overflow: hidden;
+    border: 1px solid #22c55e;
+    border-radius: 3px;
+    background: #050805;
+    box-shadow: inset 0 0 13px rgba(34,197,94,.09), 0 0 8px rgba(34,197,94,.15);
+}
+.Toggle-prompt,
+.Toggle-status {
+    position: absolute;
+    top: 13px;
+    color: #4ade80;
+    font: 700 9px/1 monospace;
+}
+.Toggle-prompt { left: 8px; }
+.Toggle-status { right: 10px; }
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 29px;
+    left: 5px;
+    top: 5px;
+    border: 1px solid #22c55e;
+    background: #07150b;
+    box-shadow: inset 0 0 8px rgba(34,197,94,.15);
+    transition: left .16s ease;
+}
+.Toggle:hover .Toggle-thumb {
+    box-shadow: inset 0 0 9px rgba(34,197,94,.25), 0 0 7px rgba(34,197,94,.25);
+}
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 56px;
+    background: #0d2b16;
+}`,
+  },
+  {
+    id: 3763,
+    name: "Blueprint Toggle",
+    preview: (
+      <label
+        className="toggle-3763"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Blueprint Toggle" />
+        <span className="toggle-3763__track">
+          <span className="toggle-3763__grid"></span>
+          <span className="toggle-3763__dimension">42</span>
+          <span className="toggle-3763__thumb">
+            <span></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-grid"></span>
+        <span class="Toggle-dimension">42</span>
+        <span class="Toggle-thumb"><span></span></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 92px;
+    height: 43px;
+    overflow: hidden;
+    border: 1px solid #bfdbfe;
+    border-radius: 4px;
+    background: #0f5ca8;
+    box-shadow: 0 6px 14px rgba(30,64,175,.2);
+}
+.Toggle-grid {
+    position: absolute;
+    inset: 0;
+    opacity: .22;
+    background-image: linear-gradient(#dbeafe 1px,transparent 1px), linear-gradient(90deg,#dbeafe 1px,transparent 1px);
+    background-size: 8px 8px;
+}
+.Toggle-dimension {
+    position: absolute;
+    right: 6px;
+    top: 5px;
+    color: #dbeafe;
+    font: 700 7px/1 monospace;
+}
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 5px;
+    top: 5px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #dbeafe;
+    background: #0b4a88;
+    transition: left .22s ease;
+}
+.Toggle-thumb span {
+    width: 13px;
+    height: 13px;
+    border: 1px solid #dbeafe;
+    border-radius: 50%;
+}
+.Toggle:hover .Toggle-track { background: #1167bb; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 56px; }`,
+  },
+  {
+    id: 3764,
+    name: "High Contrast Toggle",
+    preview: (
+      <label
+        className="toggle-3764"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="High Contrast Toggle"
+        />
+        <span className="toggle-3764__track">
+          <span className="toggle-3764__off">OFF</span>
+          <span className="toggle-3764__on">ON</span>
+          <span className="toggle-3764__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-off">OFF</span>
+        <span class="Toggle-on">ON</span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 86px;
+    height: 42px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 999px;
+    background: #000;
+    box-shadow: 0 0 0 2px #000;
+}
+.Toggle-off,
+.Toggle-on {
+    position: absolute;
+    top: 14px;
+    font: 900 8px/1 Arial, sans-serif;
+}
+.Toggle-off { right: 8px; color: #fff; }
+.Toggle-on { left: 9px; color: #000; }
+.Toggle-thumb {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3px;
+    left: 4px;
+    border-radius: 50%;
+    background: #fff;
+    transition: left .18s ease;
+}
+.Toggle:hover .Toggle-track {
+    box-shadow: 0 0 0 2px #000, 0 0 0 5px #facc15;
+}
+.Toggle input:checked + .Toggle-track { background: #fff; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 46px;
+    background: #000;
+}`,
+  },
+  {
+    id: 3765,
+    name: "Pastel Toggle",
+    preview: (
+      <label
+        className="toggle-3765"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Pastel Toggle" />
+        <span className="toggle-3765__track">
+          <span className="toggle-3765__cloud"></span>
+          <span className="toggle-3765__spark">✦</span>
+          <span className="toggle-3765__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-cloud"></span>
+        <span class="Toggle-spark">✦</span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 84px;
+    height: 42px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: linear-gradient(120deg,#fbcfe8,#ddd6fe 48%,#bae6fd);
+    box-shadow: inset 0 1px rgba(255,255,255,.7), 0 7px 16px rgba(168,85,247,.12);
+}
+.Toggle-cloud {
+    position: absolute;
+    width: 24px;
+    height: 9px;
+    right: 8px;
+    bottom: 9px;
+    border-radius: 999px;
+    background: rgba(255,255,255,.68);
+}
+.Toggle-cloud::before,
+.Toggle-cloud::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background: inherit;
+}
+.Toggle-cloud::before { width: 10px; height: 10px; left: 3px; top: -5px; }
+.Toggle-cloud::after { width: 13px; height: 13px; right: 2px; top: -7px; }
+.Toggle-spark { position: absolute; right: 16px; top: 6px; z-index: 2; color: #fff; font-size: 9px; }
+.Toggle-thumb {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 5px;
+    top: 5px;
+    border: 1px solid rgba(255,255,255,.75);
+    border-radius: 50%;
+    background: #fff7ed;
+    box-shadow: inset -3px -4px 6px rgba(244,114,182,.1), 0 4px 8px rgba(168,85,247,.12);
+    transition: left .23s ease;
+}
+.Toggle:hover .Toggle-thumb { background: #fff; }
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 48px; }`,
+  },
+  {
+    id: 3766,
+    name: "Organic Toggle",
+    preview: (
+      <label
+        className="toggle-3766"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Organic Toggle" />
+        <span className="toggle-3766__track">
+          <span className="toggle-3766__leaf toggle-3766__leaf-1"></span>
+          <span className="toggle-3766__leaf toggle-3766__leaf-2"></span>
+          <span className="toggle-3766__thumb">
+            <i className="ri-leaf-line"></i>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-leaf Toggle-leaf-1"></span>
+        <span class="Toggle-leaf Toggle-leaf-2"></span>
+        <span class="Toggle-thumb"><i class="ri-leaf-line"></i></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 86px;
+    height: 42px;
+    overflow: hidden;
+    border: 1px solid #9caf88;
+    border-radius: 21px 26px 20px 24px;
+    background: #dce7ce;
+    box-shadow: inset 0 2px 4px rgba(255,255,255,.5), 0 7px 14px rgba(54,83,43,.12);
+}
+.Toggle-leaf {
+    position: absolute;
+    width: 16px;
+    height: 9px;
+    border-radius: 100% 0 100% 0;
+    background: #7e9b68;
+}
+.Toggle-leaf-1 { right: 9px; top: 8px; transform: rotate(20deg); }
+.Toggle-leaf-2 { right: 20px; bottom: 7px; transform: rotate(-15deg); }
+.Toggle-thumb {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 5px;
+    top: 5px;
+    display: grid;
+    place-items: center;
+    border-radius: 48% 52% 46% 54%;
+    background: #f5f1df;
+    color: #5f7a50;
+    box-shadow: 0 3px 8px rgba(67,91,55,.15);
+    transition: left .22s ease, transform .22s ease;
+}
+.Toggle:hover .Toggle-thumb { transform: rotate(-8deg); }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 49px;
+    color: #3f6634;
+    transform: rotate(8deg);
+}`,
+  },
+  {
+    id: 3767,
+    name: "Kinetic Typography Toggle",
+    preview: (
+      <label
+        className="toggle-3767"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Kinetic Typography Toggle" />
+        <span className="toggle-3767__track">
+          <span className="toggle-3767__word toggle-3767__word-off">OFF</span>
+          <span className="toggle-3767__word toggle-3767__word-on">ON</span>
+          <span className="toggle-3767__thumb">GO</span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-word Toggle-word-off">OFF</span>
+        <span class="Toggle-word Toggle-word-on">ON</span>
+        <span class="Toggle-thumb">GO</span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 94px;
+    height: 43px;
+    overflow: hidden;
+    border: 2px solid #111;
+    background: #f8fafc;
+}
+.Toggle-word {
+    position: absolute;
+    top: 12px;
+    color: #111;
+    font: 900 11px/1 Arial Black, Arial, sans-serif;
+    letter-spacing: -1px;
+    transition: transform .2s ease;
+}
+.Toggle-word-off { right: 7px; }
+.Toggle-word-on { left: 8px; transform: translateY(30px); }
+.Toggle-thumb {
+    position: absolute;
+    width: 35px;
+    height: 31px;
+    left: 5px;
+    top: 4px;
+    display: grid;
+    place-items: center;
+    background: #111;
+    color: #fff;
+    font: 900 9px/1 Arial Black, Arial, sans-serif;
+    transition: left .22s cubic-bezier(.65,0,.35,1), transform .22s ease;
+}
+.Toggle:hover .Toggle-thumb { transform: skewX(-6deg); }
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 52px;
+    background: #2563eb;
+}
+.Toggle input:checked + .Toggle-track .Toggle-word-off { transform: translateY(-30px); }
+.Toggle input:checked + .Toggle-track .Toggle-word-on { transform: translateY(0); }`,
+  },
+  {
+    id: 3768,
+    name: "Gradient Mesh Toggle",
+    preview: (
+      <label
+        className="toggle-3768"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Gradient Mesh Toggle"
+        />
+        <span className="toggle-3768__track">
+          <span className="toggle-3768__mesh"></span>
+          <span className="toggle-3768__orb toggle-3768__orb-1"></span>
+          <span className="toggle-3768__orb toggle-3768__orb-2"></span>
+          <span className="toggle-3768__orb toggle-3768__orb-3"></span>
+          <span className="toggle-3768__thumb">
+            <span></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-mesh"></span>
+        <span class="Toggle-orb Toggle-orb-1"></span>
+        <span class="Toggle-orb Toggle-orb-2"></span>
+        <span class="Toggle-orb Toggle-orb-3"></span>
+        <span class="Toggle-thumb"><span></span></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.Toggle-track {
+    position: relative;
+    width: 90px;
+    height: 44px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.32);
+    border-radius: 999px;
+    background: #211244;
+    box-shadow: inset 0 0 18px rgba(255,255,255,.08), 0 8px 22px rgba(99,102,241,.18);
+}
+.Toggle-mesh {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 10% 10%,#22d3ee,transparent 38%), radial-gradient(circle at 80% 15%,#f472b6,transparent 42%), radial-gradient(circle at 70% 90%,#facc15,transparent 40%), radial-gradient(circle at 25% 85%,#8b5cf6,transparent 42%);
+    opacity: .8;
+}
+.Toggle-orb { position: absolute; border-radius: 50%; filter: blur(4px); }
+.Toggle-orb-1 { width: 20px; height: 20px; right: 8px; top: 3px; background: rgba(244,114,182,.5); }
+.Toggle-orb-2 { width: 18px; height: 18px; right: 25px; bottom: -5px; background: rgba(250,204,21,.42); }
+.Toggle-orb-3 { width: 15px; height: 15px; left: 29px; top: -4px; background: rgba(34,211,238,.5); }
+.Toggle-thumb {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 5px;
+    top: 5px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255,255,255,.7);
+    border-radius: 50%;
+    background: rgba(255,255,255,.5);
+    box-shadow: inset 0 1px rgba(255,255,255,.65), 0 4px 9px rgba(30,41,59,.22);
+    backdrop-filter: blur(8px);
+    transition: left .25s ease;
+}
+.Toggle-thumb span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 9px #fff;
+}
+.Toggle:hover .Toggle-track {
+    box-shadow: inset 0 0 22px rgba(255,255,255,.13), 0 10px 27px rgba(99,102,241,.28);
+}
+.Toggle input:checked + .Toggle-track .Toggle-thumb { left: 51px; }`,
+  },
+  {
+    id: 3769,
+    name: "Comic Burst Pop Toggle",
+    preview: (
+      <label
+        className="toggle-3769"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Comic Burst Pop Toggle" />
+        <span className="toggle-3769__track">
+          <span className="toggle-3769__dots"></span>
+          <span className="toggle-3769__burst">POW!</span>
+          <span className="toggle-3769__thumb">
+            <span className="toggle-3769__thumb-star">★</span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-dots"></span>
+        <span class="Toggle-burst">POW!</span>
+        <span class="Toggle-thumb">
+            <span class="Toggle-thumb-star">★</span>
+        </span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.Toggle-track {
+    position: relative;
+    width: 94px;
+    height: 46px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    border-radius: 7px;
+    background: #facc15;
+    box-shadow: 5px 5px 0 #111111;
+    transition:
+        transform 0.18s ease,
+        box-shadow 0.18s ease,
+        background 0.2s ease;
+}
+
+.Toggle-dots {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(
+        #ef4444 1.6px,
+        transparent 1.6px
+    );
+    background-size: 7px 7px;
+    opacity: 0.7;
+}
+
+.Toggle-burst {
+    position: absolute;
+    right: 5px;
+    top: 11px;
+    z-index: 2;
+    padding: 4px 5px;
+    border: 2px solid #111111;
+    background: #ffffff;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transform: rotate(7deg);
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease;
+}
+
+.Toggle-thumb {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 5px;
+    top: 3px;
+    z-index: 3;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #22d3ee;
+    box-shadow: 3px 3px 0 #111111;
+    transition:
+        left 0.22s cubic-bezier(0.65, 0, 0.35, 1),
+        transform 0.22s ease,
+        background 0.22s ease;
+}
+
+.Toggle-thumb-star {
+    color: #111111;
+    font-size: 13px;
+    line-height: 1;
+}
+
+.Toggle:hover .Toggle-track {
+    transform: translate(-1px, -1px);
+    box-shadow: 7px 7px 0 #111111;
+}
+
+.Toggle:hover .Toggle-burst {
+    transform: rotate(-5deg) scale(1.05);
+}
+
+.Toggle input:checked + .Toggle-track {
+    background: #f472b6;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 52px;
+    background: #a3e635;
+    transform: rotate(12deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-burst {
+    background: #67e8f9;
+}
+
+.Toggle input:focus-visible + .Toggle-track {
+    outline: 3px solid #3b82f6;
+    outline-offset: 5px;
+}`,
+  },
+  {
+    id: 3770,
+    name: "Halftone Shock Pop Toggle",
+    preview: (
+      <label
+        className="toggle-3770"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Halftone Shock Pop Toggle"
+        />
+        <span className="toggle-3770__track">
+          <span className="toggle-3770__halftone"></span>
+          <span className="toggle-3770__flash"></span>
+          <span className="toggle-3770__label toggle-3770__label-off">NO</span>
+          <span className="toggle-3770__label toggle-3770__label-on">YES</span>
+          <span className="toggle-3770__thumb"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-halftone"></span>
+        <span class="Toggle-flash"></span>
+        <span class="Toggle-label Toggle-label-off">NO</span>
+        <span class="Toggle-label Toggle-label-on">YES</span>
+        <span class="Toggle-thumb"></span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.Toggle-track {
+    position: relative;
+    width: 96px;
+    height: 46px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    background: #60a5fa;
+    box-shadow: 4px 4px 0 #111111;
+    transform: skewX(-4deg);
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.Toggle-halftone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(
+        rgba(17, 17, 17, 0.65) 1.4px,
+        transparent 1.5px
+    );
+    background-size: 7px 7px;
+    opacity: 0.5;
+}
+
+.Toggle-flash {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    right: 4px;
+    top: 1px;
+    background: #facc15;
+    clip-path: polygon(
+        50% 0,
+        61% 31%,
+        90% 16%,
+        73% 44%,
+        100% 50%,
+        71% 60%,
+        86% 88%,
+        58% 73%,
+        50% 100%,
+        40% 73%,
+        12% 87%,
+        29% 59%,
+        0 50%,
+        29% 42%,
+        12% 14%,
+        40% 29%
+    );
+    transition:
+        transform 0.22s ease,
+        background 0.22s ease;
+}
+
+.Toggle-label {
+    position: absolute;
+    top: 17px;
+    z-index: 2;
+    color: #111111;
+    font: 900 8px/1 Arial Black, Arial, sans-serif;
+}
+
+.Toggle-label-off {
+    right: 12px;
+}
+
+.Toggle-label-on {
+    left: 10px;
+    opacity: 0;
+}
+
+.Toggle-thumb {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 5px;
+    top: 4px;
+    z-index: 3;
+    border: 3px solid #111111;
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff 0 45%,
+            #f43f5e 45% 55%,
+            #ffffff 55% 100%
+        );
+    box-shadow: 3px 3px 0 #111111;
+    transition:
+        left 0.22s ease,
+        transform 0.22s ease,
+        background 0.22s ease;
+}
+
+.Toggle:hover .Toggle-track {
+    transform: skewX(-4deg) translateY(-2px);
+    box-shadow: 6px 6px 0 #111111;
+}
+
+.Toggle:hover .Toggle-flash {
+    transform: rotate(13deg) scale(1.08);
+}
+
+.Toggle input:checked + .Toggle-track {
+    background: #fb7185;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 54px;
+    transform: rotate(8deg);
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff 0 45%,
+            #22d3ee 45% 55%,
+            #ffffff 55% 100%
+        );
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-label-off {
+    opacity: 0;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-label-on {
+    opacity: 1;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-flash {
+    background: #a3e635;
+    transform: rotate(-10deg);
+}
+
+.Toggle input:focus-visible + .Toggle-track {
+    outline: 3px solid #111111;
+    outline-offset: 5px;
+}`,
+  },
+  {
+    id: 3771,
+    name: "Speech Bubble Pop Toggle",
+    preview: (
+      <label
+        className="toggle-3771"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Speech Bubble Pop Toggle" />
+        <span className="toggle-3771__track">
+          <span className="toggle-3771__bubble toggle-3771__bubble-off">
+            OFF!
+          </span>
+          <span className="toggle-3771__bubble toggle-3771__bubble-on">
+            ON!
+          </span>
+          <span className="toggle-3771__thumb">
+            <span>!</span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-bubble Toggle-bubble-off">OFF!</span>
+        <span class="Toggle-bubble Toggle-bubble-on">ON!</span>
+        <span class="Toggle-thumb">
+            <span>!</span>
+        </span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.Toggle-track {
+    position: relative;
+    width: 102px;
+    height: 48px;
+    overflow: visible;
+    border: 3px solid #111111;
+    border-radius: 12px;
+    background: #67e8f9;
+    box-shadow: 5px 5px 0 #111111;
+    transition:
+        background 0.22s ease,
+        box-shadow 0.22s ease,
+        transform 0.22s ease;
+}
+
+.Toggle-bubble {
+    position: absolute;
+    top: 9px;
+    z-index: 2;
+    padding: 5px 7px;
+    border: 2px solid #111111;
+    background: #ffffff;
+    color: #111111;
+    font: 900 8px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity 0.18s ease,
+        transform 0.22s ease,
+        background 0.22s ease;
+}
+
+.Toggle-bubble::after {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    bottom: -5px;
+    background: inherit;
+    border-right: 2px solid #111111;
+    border-bottom: 2px solid #111111;
+    transform: rotate(45deg);
+}
+
+.Toggle-bubble-off {
+    right: 6px;
+    transform: rotate(3deg);
+}
+
+.Toggle-bubble-off::after {
+    right: 8px;
+}
+
+.Toggle-bubble-on {
+    left: 7px;
+    opacity: 0;
+    transform: rotate(-5deg) scale(0.8);
+}
+
+.Toggle-bubble-on::after {
+    left: 8px;
+}
+
+.Toggle-thumb {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 5px;
+    top: 4px;
+    z-index: 4;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 3px 3px 0 #111111;
+    transition:
+        left 0.24s cubic-bezier(0.65, 0, 0.35, 1),
+        transform 0.24s ease,
+        background 0.24s ease;
+}
+
+.Toggle-thumb span {
+    color: #111111;
+    font: 900 18px/1 Arial Black, Arial, sans-serif;
+}
+
+.Toggle:hover .Toggle-track {
+    transform: translateY(-2px);
+    box-shadow: 7px 7px 0 #111111;
+}
+
+.Toggle:hover .Toggle-thumb {
+    transform: rotate(-9deg);
+}
+
+.Toggle input:checked + .Toggle-track {
+    background: #f472b6;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 59px;
+    background: #a3e635;
+    transform: rotate(9deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-bubble-off {
+    opacity: 0;
+    transform: rotate(6deg) scale(0.8);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-bubble-on {
+    opacity: 1;
+    transform: rotate(-3deg) scale(1);
+}
+
+.Toggle input:focus-visible + .Toggle-track {
+    outline: 3px solid #8b5cf6;
+    outline-offset: 5px;
+}`,
+  },
+  {
+    id: 3772,
+    name: "Retro Comic Panel Toggle",
+    preview: (
+      <label
+        className="toggle-3772"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Retro Comic Panel Toggle"
+        />
+        <span className="toggle-3772__track">
+          <span className="toggle-3772__panel toggle-3772__panel-left"></span>
+          <span className="toggle-3772__panel toggle-3772__panel-right"></span>
+          <span className="toggle-3772__speed toggle-3772__speed-1"></span>
+          <span className="toggle-3772__speed toggle-3772__speed-2"></span>
+          <span className="toggle-3772__thumb">
+            <span className="toggle-3772__thumb-text">GO</span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-panel Toggle-panel-left"></span>
+        <span class="Toggle-panel Toggle-panel-right"></span>
+        <span class="Toggle-speed Toggle-speed-1"></span>
+        <span class="Toggle-speed Toggle-speed-2"></span>
+        <span class="Toggle-thumb">
+            <span class="Toggle-thumb-text">GO</span>
+        </span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.Toggle-track {
+    position: relative;
+    width: 98px;
+    height: 46px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    background: #fef3c7;
+    box-shadow: 5px 5px 0 #111111;
+}
+
+.Toggle-panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transition:
+        width 0.24s ease,
+        background 0.24s ease;
+}
+
+.Toggle-panel-left {
+    left: 0;
+    width: 50%;
+    background:
+        radial-gradient(
+            #ef4444 1.2px,
+            transparent 1.3px
+        );
+    background-color: #fca5a5;
+    background-size: 6px 6px;
+}
+
+.Toggle-panel-right {
+    right: 0;
+    width: 50%;
+    background:
+        radial-gradient(
+            #2563eb 1.2px,
+            transparent 1.3px
+        );
+    background-color: #93c5fd;
+    background-size: 6px 6px;
+}
+
+.Toggle-speed {
+    position: absolute;
+    z-index: 2;
+    width: 26px;
+    height: 3px;
+    background: #111111;
+    transform: skewX(-25deg);
+    transition:
+        transform 0.22s ease,
+        opacity 0.22s ease;
+}
+
+.Toggle-speed-1 {
+    right: 8px;
+    top: 11px;
+}
+
+.Toggle-speed-2 {
+    right: 14px;
+    bottom: 10px;
+}
+
+.Toggle-thumb {
+    position: absolute;
+    width: 36px;
+    height: 34px;
+    left: 5px;
+    top: 3px;
+    z-index: 4;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #facc15;
+    clip-path: polygon(
+        12% 0,
+        100% 0,
+        88% 100%,
+        0 100%
+    );
+    box-shadow: 3px 3px 0 #111111;
+    transition:
+        left 0.24s ease,
+        background 0.24s ease,
+        transform 0.24s ease;
+}
+
+.Toggle-thumb-text {
+    color: #111111;
+    font: 900 9px/1 Arial Black, Arial, sans-serif;
+}
+
+.Toggle:hover .Toggle-thumb {
+    transform: skewX(-5deg) scale(1.04);
+}
+
+.Toggle:hover .Toggle-speed-1 {
+    transform: translateX(-4px) skewX(-25deg);
+}
+
+.Toggle:hover .Toggle-speed-2 {
+    transform: translateX(-7px) skewX(-25deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 55px;
+    background: #a3e635;
+    transform: skewX(5deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-panel-left {
+    width: 35%;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-panel-right {
+    width: 65%;
+    background-color: #67e8f9;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-speed-1,
+.Toggle input:checked + .Toggle-track .Toggle-speed-2 {
+    transform: translateX(-35px) skewX(-25deg);
+}
+
+.Toggle input:focus-visible + .Toggle-track {
+    outline: 3px solid #111111;
+    outline-offset: 5px;
+}`,
+  },
+  {
+    id: 3773,
+    name: "Pop Explosion Toggle",
+    preview: (
+      <label
+        className="toggle-3773"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Pop Explosion Toggle" />
+        <span className="toggle-3773__track">
+          <span className="toggle-3773__rays"></span>
+          <span className="toggle-3773__cloud">
+            <span className="toggle-3773__cloud-text">POP</span>
+          </span>
+          <span className="toggle-3773__thumb">
+            <span></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+    <span class="Toggle-track">
+        <span class="Toggle-rays"></span>
+        <span class="Toggle-cloud">
+            <span class="Toggle-cloud-text">POP</span>
+        </span>
+        <span class="Toggle-thumb">
+            <span></span>
+        </span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.Toggle-track {
+    position: relative;
+    width: 100px;
+    height: 48px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    border-radius: 999px;
+    background: #fb7185;
+    box-shadow: 5px 5px 0 #111111;
+    transition:
+        background 0.25s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.Toggle-rays {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    right: -9px;
+    top: -12px;
+    background: repeating-conic-gradient(
+        from 0deg,
+        #facc15 0deg 12deg,
+        transparent 12deg 25deg
+    );
+    opacity: 0.85;
+    transition:
+        transform 0.3s ease,
+        opacity 0.2s ease;
+}
+
+.Toggle-cloud {
+    position: absolute;
+    width: 38px;
+    height: 20px;
+    right: 7px;
+    top: 12px;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: rotate(-5deg);
+    transition:
+        transform 0.22s ease,
+        background 0.22s ease;
+}
+
+.Toggle-cloud::before,
+.Toggle-cloud::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: inherit;
+}
+
+.Toggle-cloud::before {
+    width: 18px;
+    height: 18px;
+    left: -7px;
+    top: 0;
+}
+
+.Toggle-cloud::after {
+    width: 17px;
+    height: 17px;
+    right: -6px;
+    top: 1px;
+}
+
+.Toggle-cloud-text {
+    position: relative;
+    z-index: 3;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+}
+
+.Toggle-thumb {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 5px;
+    top: 3px;
+    z-index: 5;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #22d3ee;
+    box-shadow: 3px 3px 0 #111111;
+    transition:
+        left 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+        transform 0.25s ease,
+        background 0.25s ease;
+}
+
+.Toggle-thumb span {
+    width: 13px;
+    height: 13px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.Toggle:hover .Toggle-track {
+    transform: translateY(-2px);
+    box-shadow: 7px 7px 0 #111111;
+}
+
+.Toggle:hover .Toggle-rays {
+    transform: rotate(15deg);
+}
+
+.Toggle:hover .Toggle-cloud {
+    transform: rotate(5deg) scale(1.05);
+}
+
+.Toggle input:checked + .Toggle-track {
+    background: #60a5fa;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 56px;
+    background: #a3e635;
+    transform: rotate(180deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-rays {
+    transform: rotate(-20deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-cloud {
+    background: #fef08a;
+    transform: rotate(4deg);
+}
+
+.Toggle input:focus-visible + .Toggle-track {
+    outline: 3px solid #8b5cf6;
+    outline-offset: 5px;
+}`,
+  },
+
+  {
+    id: 3774,
+    name: "Comic Book Hero Panel Toggle",
+    preview: (
+      <label
+        className="toggle-3774"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Comic Book Hero Panel Toggle" />
+
+        <span className="toggle-3774__track">
+          <span className="toggle-3774__panel toggle-3774__panel-left"></span>
+          <span className="toggle-3774__panel toggle-3774__panel-right"></span>
+
+          <span className="toggle-3774__halftone"></span>
+
+          <span className="toggle-3774__speed toggle-3774__speed-1"></span>
+          <span className="toggle-3774__speed toggle-3774__speed-2"></span>
+          <span className="toggle-3774__speed toggle-3774__speed-3"></span>
+
+          <span className="toggle-3774__star toggle-3774__star-1">★</span>
+          <span className="toggle-3774__star toggle-3774__star-2">★</span>
+
+          <span className="toggle-3774__bubble">
+            <span className="toggle-3774__bubble-off">OFF!</span>
+            <span className="toggle-3774__bubble-on">HERO!</span>
+          </span>
+
+          <span className="toggle-3774__thumb">
+            <span className="toggle-3774__thumb-ring"></span>
+            <span className="toggle-3774__thumb-symbol">⚡</span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+
+    <span class="Toggle-track">
+        <span class="Toggle-panel Toggle-panel-left"></span>
+        <span class="Toggle-panel Toggle-panel-right"></span>
+
+        <span class="Toggle-halftone"></span>
+
+        <span class="Toggle-speed Toggle-speed-1"></span>
+        <span class="Toggle-speed Toggle-speed-2"></span>
+        <span class="Toggle-speed Toggle-speed-3"></span>
+
+        <span class="Toggle-star Toggle-star-1">★</span>
+        <span class="Toggle-star Toggle-star-2">★</span>
+
+        <span class="Toggle-bubble">
+            <span class="Toggle-bubble-off">OFF!</span>
+            <span class="Toggle-bubble-on">HERO!</span>
+        </span>
+
+        <span class="Toggle-thumb">
+            <span class="Toggle-thumb-ring"></span>
+            <span class="Toggle-thumb-symbol">⚡</span>
+        </span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.Toggle-track {
+    position: relative;
+    width: 126px;
+    height: 58px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 10px;
+    background: #2563eb;
+    box-shadow: 6px 6px 0 #111111;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.25s ease;
+}
+
+.Toggle-panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transition:
+        width 0.3s ease,
+        transform 0.3s ease,
+        background 0.3s ease;
+}
+
+.Toggle-panel-left {
+    left: 0;
+    width: 58%;
+    background: #2563eb;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        78% 100%,
+        0 100%
+    );
+}
+
+.Toggle-panel-right {
+    right: 0;
+    width: 56%;
+    background: #ef4444;
+    clip-path: polygon(
+        24% 0,
+        100% 0,
+        100% 100%,
+        0 100%
+    );
+}
+
+.Toggle-halftone {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-image: radial-gradient(
+        rgba(17, 17, 17, 0.65) 1.5px,
+        transparent 1.7px
+    );
+    background-size: 7px 7px;
+    opacity: 0.38;
+}
+
+.Toggle-speed {
+    position: absolute;
+    z-index: 2;
+    height: 3px;
+    background: #111111;
+    transform: skewX(-28deg);
+    transition:
+        transform 0.25s ease,
+        opacity 0.25s ease;
+}
+
+.Toggle-speed-1 {
+    width: 32px;
+    right: 9px;
+    top: 10px;
+}
+
+.Toggle-speed-2 {
+    width: 24px;
+    right: 16px;
+    top: 18px;
+}
+
+.Toggle-speed-3 {
+    width: 37px;
+    right: 7px;
+    bottom: 8px;
+}
+
+.Toggle-star {
+    position: absolute;
+    z-index: 3;
+    color: #facc15;
+    -webkit-text-stroke: 1px #111111;
+    transition:
+        transform 0.25s ease,
+        color 0.25s ease;
+}
+
+.Toggle-star-1 {
+    right: 42px;
+    top: 4px;
+    font-size: 12px;
+    transform: rotate(-10deg);
+}
+
+.Toggle-star-2 {
+    right: 36px;
+    bottom: 4px;
+    font-size: 8px;
+    transform: rotate(14deg);
+}
+
+.Toggle-bubble {
+    position: absolute;
+    width: 43px;
+    height: 24px;
+    right: 8px;
+    top: 14px;
+    z-index: 4;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    color: #111111;
+    transform: rotate(5deg);
+    box-shadow: 2px 2px 0 #111111;
+    transition:
+        transform 0.25s ease,
+        background 0.25s ease;
+}
+
+.Toggle-bubble::after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    right: 5px;
+    bottom: -7px;
+    border-right: 3px solid #111111;
+    border-bottom: 3px solid #111111;
+    background: inherit;
+    transform: rotate(45deg);
+}
+
+.Toggle-bubble-off,
+.Toggle-bubble-on {
+    position: absolute;
+    font: 900 8px/1 Arial Black, Arial, sans-serif;
+    letter-spacing: -0.3px;
+    transition:
+        opacity 0.18s ease,
+        transform 0.25s ease;
+}
+
+.Toggle-bubble-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.Toggle-bubble-on {
+    opacity: 0;
+    transform: scale(0.65) rotate(-8deg);
+}
+
+.Toggle-thumb {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 5px;
+    top: 3px;
+    z-index: 6;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 4px 4px 0 #111111;
+    transition:
+        left 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+        transform 0.3s ease,
+        background 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.Toggle-thumb-ring {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.Toggle-thumb-symbol {
+    position: relative;
+    z-index: 2;
+    color: #ef4444;
+    font-size: 18px;
+    line-height: 1;
+    transform: rotate(-8deg);
+    transition:
+        color 0.25s ease,
+        transform 0.3s ease;
+}
+
+.Toggle:hover .Toggle-track {
+    transform: translate(-2px, -2px);
+    box-shadow: 8px 8px 0 #111111;
+}
+
+.Toggle:hover .Toggle-thumb {
+    transform: rotate(-8deg) scale(1.05);
+    box-shadow: 5px 5px 0 #111111;
+}
+
+.Toggle:hover .Toggle-bubble {
+    transform: rotate(-4deg) scale(1.05);
+}
+
+.Toggle:hover .Toggle-star-1 {
+    transform: rotate(14deg) scale(1.25);
+}
+
+.Toggle:hover .Toggle-star-2 {
+    transform: rotate(-12deg) scale(1.2);
+}
+
+.Toggle input:checked + .Toggle-track {
+    background: #f43f5e;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-panel-left {
+    width: 42%;
+    background: #22d3ee;
+    transform: translateX(-5px);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-panel-right {
+    width: 72%;
+    background: #f43f5e;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 69px;
+    background: #a3e635;
+    transform: rotate(8deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-thumb-symbol {
+    color: #2563eb;
+    transform: rotate(8deg) scale(1.12);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-bubble {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(-5deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-bubble::after {
+    left: 5px;
+    right: auto;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-bubble-off {
+    opacity: 0;
+    transform: scale(0.65) rotate(8deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-bubble-on {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-speed-1 {
+    transform: translateX(-52px) skewX(-28deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-speed-2 {
+    transform: translateX(-43px) skewX(-28deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-speed-3 {
+    transform: translateX(-56px) skewX(-28deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-star {
+    color: #ffffff;
+}
+
+.Toggle input:focus-visible + .Toggle-track {
+    outline: 3px solid #8b5cf6;
+    outline-offset: 6px;
+}`,
+  },
+
+  {
+    id: 3775,
+    name: "Hero Clash Comic Toggle",
+    preview: (
+      <label
+        className="toggle-3775"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Hero Clash Comic Toggle" />
+
+        <span className="toggle-3775__track">
+          <span className="toggle-3775__side toggle-3775__side-left"></span>
+          <span className="toggle-3775__side toggle-3775__side-right"></span>
+
+          <span className="toggle-3775__dots toggle-3775__dots-left"></span>
+          <span className="toggle-3775__dots toggle-3775__dots-right"></span>
+
+          <span className="toggle-3775__slash"></span>
+
+          <span className="toggle-3775__speed toggle-3775__speed-1"></span>
+          <span className="toggle-3775__speed toggle-3775__speed-2"></span>
+          <span className="toggle-3775__speed toggle-3775__speed-3"></span>
+
+          <span className="toggle-3775__burst">
+            <span className="toggle-3775__burst-off">READY?</span>
+            <span className="toggle-3775__burst-on">BOOM!</span>
+          </span>
+
+          <span className="toggle-3775__thumb">
+            <span className="toggle-3775__shield">
+              <span className="toggle-3775__star">★</span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" aria-label="Toggle setting">
+
+    <span class="Toggle-track">
+        <span class="Toggle-side Toggle-side-left"></span>
+        <span class="Toggle-side Toggle-side-right"></span>
+
+        <span class="Toggle-dots Toggle-dots-left"></span>
+        <span class="Toggle-dots Toggle-dots-right"></span>
+
+        <span class="Toggle-slash"></span>
+
+        <span class="Toggle-speed Toggle-speed-1"></span>
+        <span class="Toggle-speed Toggle-speed-2"></span>
+        <span class="Toggle-speed Toggle-speed-3"></span>
+
+        <span class="Toggle-burst">
+            <span class="Toggle-burst-off">READY?</span>
+            <span class="Toggle-burst-on">BOOM!</span>
+        </span>
+
+        <span class="Toggle-thumb">
+            <span class="Toggle-shield">
+                <span class="Toggle-star">★</span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.Toggle-track {
+    position: relative;
+    width: 132px;
+    height: 60px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 7px 7px 0 #111111;
+    transition:
+        transform 0.22s ease,
+        box-shadow 0.22s ease;
+}
+
+.Toggle-side {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transition:
+        width 0.3s ease,
+        transform 0.3s ease,
+        background 0.3s ease;
+}
+
+.Toggle-side-left {
+    left: 0;
+    width: 62%;
+    background: #2563eb;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        76% 100%,
+        0 100%
+    );
+}
+
+.Toggle-side-right {
+    right: 0;
+    width: 58%;
+    background: #ef4444;
+    clip-path: polygon(
+        26% 0,
+        100% 0,
+        100% 100%,
+        0 100%
+    );
+}
+
+.Toggle-dots {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background-image: radial-gradient(
+        rgba(17, 17, 17, 0.7) 1.5px,
+        transparent 1.7px
+    );
+    background-size: 7px 7px;
+    opacity: 0.45;
+}
+
+.Toggle-dots-left {
+    left: 0;
+    width: 58%;
+}
+
+.Toggle-dots-right {
+    right: 0;
+    width: 54%;
+}
+
+.Toggle-slash {
+    position: absolute;
+    width: 10px;
+    height: 82px;
+    left: 61px;
+    top: -11px;
+    z-index: 2;
+    border-left: 3px solid #111111;
+    border-right: 3px solid #111111;
+    background: #facc15;
+    transform: rotate(18deg);
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease;
+}
+
+.Toggle-speed {
+    position: absolute;
+    z-index: 2;
+    height: 3px;
+    background: #111111;
+    transform: skewX(-30deg);
+    transition: transform 0.3s ease;
+}
+
+.Toggle-speed-1 {
+    width: 35px;
+    right: 9px;
+    top: 10px;
+}
+
+.Toggle-speed-2 {
+    width: 25px;
+    right: 17px;
+    top: 19px;
+}
+
+.Toggle-speed-3 {
+    width: 38px;
+    right: 8px;
+    bottom: 9px;
+}
+
+.Toggle-burst {
+    position: absolute;
+    width: 45px;
+    height: 28px;
+    right: 8px;
+    top: 12px;
+    z-index: 4;
+    display: grid;
+    place-items: center;
+    background: #ffffff;
+    border: 3px solid #111111;
+    clip-path: polygon(
+        50% 0,
+        60% 20%,
+        82% 8%,
+        78% 32%,
+        100% 38%,
+        81% 53%,
+        96% 72%,
+        72% 72%,
+        68% 100%,
+        50% 80%,
+        31% 100%,
+        29% 76%,
+        5% 79%,
+        19% 57%,
+        0 44%,
+        22% 34%,
+        16% 10%,
+        40% 21%
+    );
+    transition:
+        transform 0.25s ease,
+        background 0.25s ease;
+}
+
+.Toggle-burst-off,
+.Toggle-burst-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity 0.18s ease,
+        transform 0.25s ease;
+}
+
+.Toggle-burst-off {
+    opacity: 1;
+}
+
+.Toggle-burst-on {
+    opacity: 0;
+    transform: scale(0.5) rotate(-10deg);
+}
+
+.Toggle-thumb {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 5px;
+    top: 2px;
+    z-index: 6;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 4px 4px 0 #111111;
+    transition:
+        left 0.32s cubic-bezier(0.34, 1.56, 0.64, 1),
+        transform 0.3s ease,
+        background 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.Toggle-shield {
+    position: relative;
+    width: 29px;
+    height: 33px;
+    display: grid;
+    place-items: center;
+    background: #ffffff;
+    border: 3px solid #111111;
+    clip-path: polygon(
+        50% 0,
+        93% 15%,
+        84% 70%,
+        50% 100%,
+        16% 70%,
+        7% 15%
+    );
+}
+
+.Toggle-star {
+    color: #ef4444;
+    font-size: 14px;
+    line-height: 1;
+    transition:
+        color 0.25s ease,
+        transform 0.3s ease;
+}
+
+.Toggle:hover .Toggle-track {
+    transform: translate(-2px, -2px);
+    box-shadow: 9px 9px 0 #111111;
+}
+
+.Toggle:hover .Toggle-thumb {
+    transform: rotate(-8deg) scale(1.05);
+    box-shadow: 5px 5px 0 #111111;
+}
+
+.Toggle:hover .Toggle-burst {
+    transform: rotate(-6deg) scale(1.08);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-side-left {
+    width: 43%;
+    background: #22d3ee;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-side-right {
+    width: 76%;
+    background: #f43f5e;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-slash {
+    background: #a3e635;
+    transform: translateX(-8px) rotate(-18deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 72px;
+    background: #a3e635;
+    transform: rotate(8deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-star {
+    color: #2563eb;
+    transform: rotate(18deg) scale(1.15);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-burst {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(-5deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-burst-off {
+    opacity: 0;
+    transform: scale(0.5) rotate(10deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-burst-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-speed-1 {
+    transform: translateX(-58px) skewX(-30deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-speed-2 {
+    transform: translateX(-48px) skewX(-30deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-speed-3 {
+    transform: translateX(-60px) skewX(-30deg);
+}
+
+.Toggle input:focus-visible + .Toggle-track {
+    outline: 3px solid #8b5cf6;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3776,
+    name: "Comic Rift Portal Toggle",
+    preview: (
+      <label
+        className="toggle-3776"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Comic Rift Portal Toggle"
+        />
+
+        <span className="toggle-3776__track">
+          <span className="toggle-3776__background"></span>
+          <span className="toggle-3776__halftone"></span>
+
+          <span className="toggle-3776__energy toggle-3776__energy-1"></span>
+          <span className="toggle-3776__energy toggle-3776__energy-2"></span>
+          <span className="toggle-3776__energy toggle-3776__energy-3"></span>
+          <span className="toggle-3776__energy toggle-3776__energy-4"></span>
+
+          <span className="toggle-3776__portal">
+            <span className="toggle-3776__portal-ring toggle-3776__portal-ring-1"></span>
+            <span className="toggle-3776__portal-ring toggle-3776__portal-ring-2"></span>
+            <span className="toggle-3776__portal-core"></span>
+          </span>
+
+          <span className="toggle-3776__caption">
+            <span className="toggle-3776__caption-off">SEALED</span>
+            <span className="toggle-3776__caption-on">OPEN!</span>
+          </span>
+
+          <span className="toggle-3776__thumb">
+            <span className="toggle-3776__thumb-burst"></span>
+            <span className="toggle-3776__thumb-mark">!</span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="Toggle">
+    <input type="checkbox" checked aria-label="Toggle setting">
+
+    <span class="Toggle-track">
+        <span class="Toggle-background"></span>
+        <span class="Toggle-halftone"></span>
+
+        <span class="Toggle-energy Toggle-energy-1"></span>
+        <span class="Toggle-energy Toggle-energy-2"></span>
+        <span class="Toggle-energy Toggle-energy-3"></span>
+        <span class="Toggle-energy Toggle-energy-4"></span>
+
+        <span class="Toggle-portal">
+            <span class="Toggle-portal-ring Toggle-portal-ring-1"></span>
+            <span class="Toggle-portal-ring Toggle-portal-ring-2"></span>
+            <span class="Toggle-portal-core"></span>
+        </span>
+
+        <span class="Toggle-caption">
+            <span class="Toggle-caption-off">SEALED</span>
+            <span class="Toggle-caption-on">OPEN!</span>
+        </span>
+
+        <span class="Toggle-thumb">
+            <span class="Toggle-thumb-burst"></span>
+            <span class="Toggle-thumb-mark">!</span>
+        </span>
+    </span>
+</label>`,
+    css: `.Toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Toggle input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.Toggle-track {
+    position: relative;
+    width: 136px;
+    height: 62px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 12px;
+    background: #29104a;
+    box-shadow: 7px 7px 0 #111111;
+    transition:
+        transform 0.22s ease,
+        box-shadow 0.22s ease,
+        background 0.3s ease;
+}
+
+.Toggle-background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle at 78% 50%,
+            rgba(34, 211, 238, 0.4),
+            transparent 29%
+        ),
+        linear-gradient(
+            125deg,
+            #21103e 0 45%,
+            #6d28d9 45% 62%,
+            #ec4899 62% 100%
+        );
+    transition:
+        filter 0.3s ease,
+        transform 0.3s ease;
+}
+
+.Toggle-halftone {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-image: radial-gradient(
+        rgba(0, 0, 0, 0.72) 1.5px,
+        transparent 1.7px
+    );
+    background-size: 8px 8px;
+    opacity: 0.4;
+}
+
+.Toggle-energy {
+    position: absolute;
+    z-index: 3;
+    height: 4px;
+    background: #facc15;
+    border: 1px solid #111111;
+    transform-origin: left center;
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease;
+}
+
+.Toggle-energy-1 {
+    width: 36px;
+    right: 13px;
+    top: 9px;
+    transform: rotate(-13deg);
+}
+
+.Toggle-energy-2 {
+    width: 29px;
+    right: 5px;
+    top: 24px;
+    transform: rotate(8deg);
+}
+
+.Toggle-energy-3 {
+    width: 34px;
+    right: 11px;
+    bottom: 10px;
+    transform: rotate(16deg);
+}
+
+.Toggle-energy-4 {
+    width: 22px;
+    right: 29px;
+    bottom: 4px;
+    transform: rotate(-22deg);
+}
+
+.Toggle-portal {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    right: 9px;
+    top: 4px;
+    z-index: 4;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #111111;
+    box-shadow:
+        0 0 0 3px #22d3ee,
+        0 0 0 6px #111111;
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.3s ease;
+}
+
+.Toggle-portal-ring {
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid;
+    transition:
+        transform 0.35s ease,
+        border-color 0.3s ease;
+}
+
+.Toggle-portal-ring-1 {
+    width: 34px;
+    height: 34px;
+    border-color: #a855f7;
+}
+
+.Toggle-portal-ring-2 {
+    width: 23px;
+    height: 23px;
+    border-color: #f472b6;
+}
+
+.Toggle-portal-core {
+    width: 11px;
+    height: 11px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0 0 9px #ffffff;
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease;
+}
+
+.Toggle-caption {
+    position: absolute;
+    width: 47px;
+    height: 23px;
+    left: 9px;
+    top: 16px;
+    z-index: 5;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(-4deg);
+    transition:
+        transform 0.25s ease,
+        background 0.25s ease;
+}
+
+.Toggle-caption::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 5px;
+    bottom: -6px;
+    border-right: 3px solid #111111;
+    border-bottom: 3px solid #111111;
+    background: inherit;
+    transform: rotate(45deg);
+}
+
+.Toggle-caption-off,
+.Toggle-caption-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity 0.18s ease,
+        transform 0.25s ease;
+}
+
+.Toggle-caption-off {
+    opacity: 1;
+}
+
+.Toggle-caption-on {
+    opacity: 0;
+    transform: scale(0.5) rotate(8deg);
+}
+
+.Toggle-thumb {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 5px;
+    top: 3px;
+    z-index: 7;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 4px 4px 0 #111111;
+    transition:
+        left 0.34s cubic-bezier(0.34, 1.56, 0.64, 1),
+        transform 0.32s ease,
+        background 0.28s ease,
+        box-shadow 0.28s ease;
+}
+
+.Toggle-thumb-burst {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    background: #ef4444;
+    clip-path: polygon(
+        50% 0,
+        61% 27%,
+        84% 9%,
+        75% 37%,
+        100% 43%,
+        74% 56%,
+        91% 79%,
+        62% 72%,
+        50% 100%,
+        39% 73%,
+        12% 88%,
+        26% 59%,
+        0 50%,
+        28% 39%,
+        11% 15%,
+        39% 27%
+    );
+    transition:
+        transform 0.32s ease,
+        background 0.28s ease;
+}
+
+.Toggle-thumb-mark {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    font: 900 19px/1 Arial Black, Arial, sans-serif;
+    -webkit-text-stroke: 1px #111111;
+}
+
+.Toggle:hover .Toggle-track {
+    transform: translate(-2px, -2px);
+    box-shadow: 9px 9px 0 #111111;
+}
+
+.Toggle:hover .Toggle-thumb {
+    transform: rotate(-9deg) scale(1.05);
+    box-shadow: 5px 5px 0 #111111;
+}
+
+.Toggle:hover .Toggle-portal {
+    transform: rotate(12deg) scale(1.06);
+}
+
+.Toggle:hover .Toggle-caption {
+    transform: rotate(5deg) scale(1.05);
+}
+
+.Toggle input:checked + .Toggle-track {
+    background: #0891b2;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-background {
+    filter: hue-rotate(35deg) brightness(1.15);
+    transform: scale(1.08);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-thumb {
+    left: 76px;
+    background: #22d3ee;
+    transform: rotate(9deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-thumb-burst {
+    background: #a3e635;
+    transform: rotate(45deg) scale(1.08);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-portal {
+    left: 9px;
+    right: auto;
+    transform: rotate(-18deg) scale(1.08);
+    box-shadow:
+        0 0 0 3px #a3e635,
+        0 0 0 6px #111111;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-portal-ring-1 {
+    border-color: #22d3ee;
+    transform: rotate(35deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-portal-ring-2 {
+    border-color: #facc15;
+    transform: rotate(-45deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-portal-core {
+    background: #fef08a;
+    transform: scale(1.3);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-caption {
+    left: auto;
+    right: 8px;
+    background: #fef08a;
+    transform: rotate(4deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-caption::before {
+    left: auto;
+    right: 5px;
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-caption-off {
+    opacity: 0;
+    transform: scale(0.5) rotate(-8deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-caption-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-energy-1 {
+    background: #a3e635;
+    transform: translateX(-64px) rotate(13deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-energy-2 {
+    background: #22d3ee;
+    transform: translateX(-70px) rotate(-9deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-energy-3 {
+    background: #facc15;
+    transform: translateX(-61px) rotate(-16deg);
+}
+
+.Toggle input:checked + .Toggle-track .Toggle-energy-4 {
+    background: #ffffff;
+    transform: translateX(-53px) rotate(22deg);
+}
+
+.Toggle input:focus-visible + .Toggle-track {
+    outline: 3px solid #22d3ee;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3777,
+    name: "Comic Thunder Strike Toggle",
+    preview: (
+      <label
+        className="toggle-3777"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Comic Thunder Strike Toggle" />
+
+        <span className="toggle-3777__track">
+          <span className="toggle-3777__blue-panel"></span>
+          <span className="toggle-3777__red-panel"></span>
+          <span className="toggle-3777__halftone"></span>
+
+          <span className="toggle-3777__ray toggle-3777__ray-1"></span>
+          <span className="toggle-3777__ray toggle-3777__ray-2"></span>
+          <span className="toggle-3777__ray toggle-3777__ray-3"></span>
+          <span className="toggle-3777__ray toggle-3777__ray-4"></span>
+
+          <span className="toggle-3777__burst">
+            <span className="toggle-3777__burst-off">WAIT!</span>
+            <span className="toggle-3777__burst-on">ZAP!</span>
+          </span>
+
+          <span className="toggle-3777__thumb">
+            <span className="toggle-3777__thumb-inner">
+              <span className="toggle-3777__bolt">⚡</span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3777">
+    <input type="checkbox" aria-label="Comic Thunder Strike Toggle">
+
+    <span class="toggle-3777__track">
+        <span class="toggle-3777__blue-panel"></span>
+        <span class="toggle-3777__red-panel"></span>
+        <span class="toggle-3777__halftone"></span>
+
+        <span class="toggle-3777__ray toggle-3777__ray-1"></span>
+        <span class="toggle-3777__ray toggle-3777__ray-2"></span>
+        <span class="toggle-3777__ray toggle-3777__ray-3"></span>
+        <span class="toggle-3777__ray toggle-3777__ray-4"></span>
+
+        <span class="toggle-3777__burst">
+            <span class="toggle-3777__burst-off">WAIT!</span>
+            <span class="toggle-3777__burst-on">ZAP!</span>
+        </span>
+
+        <span class="toggle-3777__thumb">
+            <span class="toggle-3777__thumb-inner">
+                <span class="toggle-3777__bolt">⚡</span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3777 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3777 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3777__track {
+    position: relative;
+    width: 140px;
+    height: 64px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 11px;
+    background: #2563eb;
+    box-shadow: 7px 7px 0 #111111;
+    transition:
+        transform 0.22s ease,
+        box-shadow 0.22s ease;
+}
+
+.toggle-3777__blue-panel {
+    position: absolute;
+    inset: 0;
+    background: #2563eb;
+    clip-path: polygon(
+        0 0,
+        68% 0,
+        48% 100%,
+        0 100%
+    );
+    transition:
+        clip-path 0.3s ease,
+        background 0.3s ease;
+}
+
+.toggle-3777__red-panel {
+    position: absolute;
+    inset: 0;
+    background: #ef4444;
+    clip-path: polygon(
+        68% 0,
+        100% 0,
+        100% 100%,
+        48% 100%
+    );
+    transition:
+        clip-path 0.3s ease,
+        background 0.3s ease;
+}
+
+.toggle-3777__halftone {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-image: radial-gradient(
+        rgba(17, 17, 17, 0.7) 1.6px,
+        transparent 1.8px
+    );
+    background-size: 8px 8px;
+    opacity: 0.42;
+}
+
+.toggle-3777__ray {
+    position: absolute;
+    z-index: 2;
+    height: 4px;
+    background: #111111;
+    transform-origin: left center;
+    transition:
+        transform 0.32s ease,
+        background 0.25s ease;
+}
+
+.toggle-3777__ray-1 {
+    width: 38px;
+    right: 9px;
+    top: 9px;
+    transform: rotate(-12deg);
+}
+
+.toggle-3777__ray-2 {
+    width: 28px;
+    right: 6px;
+    top: 22px;
+    transform: rotate(5deg);
+}
+
+.toggle-3777__ray-3 {
+    width: 36px;
+    right: 10px;
+    bottom: 11px;
+    transform: rotate(14deg);
+}
+
+.toggle-3777__ray-4 {
+    width: 23px;
+    right: 30px;
+    bottom: 5px;
+    transform: rotate(-16deg);
+}
+
+.toggle-3777__burst {
+    position: absolute;
+    width: 49px;
+    height: 31px;
+    right: 7px;
+    top: 12px;
+    z-index: 4;
+    display: grid;
+    place-items: center;
+    background: #ffffff;
+    border: 3px solid #111111;
+    clip-path: polygon(
+        50% 0,
+        61% 21%,
+        84% 7%,
+        78% 32%,
+        100% 39%,
+        79% 53%,
+        95% 75%,
+        70% 72%,
+        65% 100%,
+        49% 80%,
+        29% 100%,
+        28% 75%,
+        3% 79%,
+        19% 57%,
+        0 43%,
+        22% 34%,
+        14% 10%,
+        40% 21%
+    );
+    transition:
+        transform 0.25s ease,
+        background 0.25s ease;
+}
+
+.toggle-3777__burst-off,
+.toggle-3777__burst-on {
+    position: absolute;
+    color: #111111;
+    font: 900 8px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity 0.18s ease,
+        transform 0.25s ease;
+}
+
+.toggle-3777__burst-off {
+    opacity: 1;
+}
+
+.toggle-3777__burst-on {
+    opacity: 0;
+    transform: scale(0.45) rotate(-12deg);
+}
+
+.toggle-3777__thumb {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 5px;
+    top: 3px;
+    z-index: 6;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 4px 4px 0 #111111;
+    transition:
+        left 0.34s cubic-bezier(0.34, 1.56, 0.64, 1),
+        transform 0.3s ease,
+        background 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.toggle-3777__thumb-inner {
+    width: 31px;
+    height: 31px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+    transition:
+        transform 0.3s ease,
+        background 0.25s ease;
+}
+
+.toggle-3777__bolt {
+    color: #ef4444;
+    font-size: 19px;
+    line-height: 1;
+    transform: rotate(-7deg);
+    transition:
+        color 0.25s ease,
+        transform 0.3s ease;
+}
+
+.toggle-3777:hover .toggle-3777__track {
+    transform: translate(-2px, -2px);
+    box-shadow: 9px 9px 0 #111111;
+}
+
+.toggle-3777:hover .toggle-3777__thumb {
+    transform: rotate(-8deg) scale(1.06);
+    box-shadow: 5px 5px 0 #111111;
+}
+
+.toggle-3777:hover .toggle-3777__burst {
+    transform: rotate(-6deg) scale(1.08);
+}
+
+.toggle-3777:hover .toggle-3777__bolt {
+    transform: rotate(7deg) scale(1.15);
+}
+
+.toggle-3777 input:checked + .toggle-3777__track .toggle-3777__blue-panel {
+    background: #22d3ee;
+    clip-path: polygon(
+        0 0,
+        40% 0,
+        57% 100%,
+        0 100%
+    );
+}
+
+.toggle-3777 input:checked + .toggle-3777__track .toggle-3777__red-panel {
+    background: #f43f5e;
+    clip-path: polygon(
+        40% 0,
+        100% 0,
+        100% 100%,
+        57% 100%
+    );
+}
+
+.toggle-3777 input:checked + .toggle-3777__track .toggle-3777__thumb {
+    left: 79px;
+    background: #a3e635;
+    transform: rotate(8deg);
+}
+
+.toggle-3777 input:checked + .toggle-3777__track .toggle-3777__thumb-inner {
+    background: #fef08a;
+    transform: rotate(12deg);
+}
+
+.toggle-3777 input:checked + .toggle-3777__track .toggle-3777__bolt {
+    color: #2563eb;
+    transform: rotate(8deg) scale(1.15);
+}
+
+.toggle-3777 input:checked + .toggle-3777__track .toggle-3777__burst {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(-5deg);
+}
+
+.toggle-3777 input:checked + .toggle-3777__track .toggle-3777__burst-off {
+    opacity: 0;
+    transform: scale(0.45) rotate(12deg);
+}
+
+.toggle-3777 input:checked + .toggle-3777__track .toggle-3777__burst-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3777 input:checked + .toggle-3777__track .toggle-3777__ray-1 {
+    background: #facc15;
+    transform: translateX(-70px) rotate(12deg);
+}
+
+.toggle-3777 input:checked + .toggle-3777__track .toggle-3777__ray-2 {
+    background: #ffffff;
+    transform: translateX(-66px) rotate(-7deg);
+}
+
+.toggle-3777 input:checked + .toggle-3777__track .toggle-3777__ray-3 {
+    background: #a3e635;
+    transform: translateX(-69px) rotate(-14deg);
+}
+
+.toggle-3777 input:checked + .toggle-3777__track .toggle-3777__ray-4 {
+    background: #ffffff;
+    transform: translateX(-55px) rotate(18deg);
+}
+
+.toggle-3777 input:focus-visible + .toggle-3777__track {
+    outline: 3px solid #8b5cf6;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3778,
+    name: "Comic Ink Impact Toggle",
+    preview: (
+      <label
+        className="toggle-3778"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Comic Ink Impact Toggle"
+        />
+
+        <span className="toggle-3778__track">
+          <span className="toggle-3778__paper"></span>
+
+          <span className="toggle-3778__ink toggle-3778__ink-1"></span>
+          <span className="toggle-3778__ink toggle-3778__ink-2"></span>
+          <span className="toggle-3778__ink toggle-3778__ink-3"></span>
+
+          <span className="toggle-3778__line toggle-3778__line-1"></span>
+          <span className="toggle-3778__line toggle-3778__line-2"></span>
+          <span className="toggle-3778__line toggle-3778__line-3"></span>
+          <span className="toggle-3778__line toggle-3778__line-4"></span>
+
+          <span className="toggle-3778__caption">
+            <span className="toggle-3778__caption-off">...</span>
+            <span className="toggle-3778__caption-on">BAM!</span>
+          </span>
+
+          <span className="toggle-3778__thumb">
+            <span className="toggle-3778__impact"></span>
+            <span className="toggle-3778__impact-text">!</span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3778">
+    <input type="checkbox" checked aria-label="Comic Ink Impact Toggle">
+
+    <span class="toggle-3778__track">
+        <span class="toggle-3778__paper"></span>
+
+        <span class="toggle-3778__ink toggle-3778__ink-1"></span>
+        <span class="toggle-3778__ink toggle-3778__ink-2"></span>
+        <span class="toggle-3778__ink toggle-3778__ink-3"></span>
+
+        <span class="toggle-3778__line toggle-3778__line-1"></span>
+        <span class="toggle-3778__line toggle-3778__line-2"></span>
+        <span class="toggle-3778__line toggle-3778__line-3"></span>
+        <span class="toggle-3778__line toggle-3778__line-4"></span>
+
+        <span class="toggle-3778__caption">
+            <span class="toggle-3778__caption-off">...</span>
+            <span class="toggle-3778__caption-on">BAM!</span>
+        </span>
+
+        <span class="toggle-3778__thumb">
+            <span class="toggle-3778__impact"></span>
+            <span class="toggle-3778__impact-text">!</span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3778 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3778 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3778__track {
+    position: relative;
+    width: 142px;
+    height: 64px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    background: #f8f5ed;
+    box-shadow: 7px 7px 0 #111111;
+    transform: rotate(-1deg);
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.3s ease;
+}
+
+.toggle-3778__paper {
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(
+            rgba(17, 17, 17, 0.16) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            115deg,
+            transparent 0 47%,
+            rgba(17, 17, 17, 0.06) 48%,
+            transparent 49%
+        );
+    background-size:
+        8px 8px,
+        23px 23px;
+}
+
+.toggle-3778__ink {
+    position: absolute;
+    z-index: 1;
+    background: #111111;
+    transition:
+        transform 0.35s ease,
+        opacity 0.3s ease;
+}
+
+.toggle-3778__ink-1 {
+    width: 54px;
+    height: 31px;
+    right: -8px;
+    top: -4px;
+    border-radius: 52% 48% 61% 39%;
+    transform: rotate(13deg);
+}
+
+.toggle-3778__ink-2 {
+    width: 37px;
+    height: 22px;
+    right: 19px;
+    bottom: -8px;
+    border-radius: 41% 59% 35% 65%;
+    transform: rotate(-17deg);
+}
+
+.toggle-3778__ink-3 {
+    width: 13px;
+    height: 13px;
+    right: 51px;
+    top: 8px;
+    border-radius: 50%;
+}
+
+.toggle-3778__line {
+    position: absolute;
+    z-index: 2;
+    height: 3px;
+    background: #111111;
+    transform-origin: left center;
+    transition:
+        transform 0.32s ease,
+        background 0.3s ease;
+}
+
+.toggle-3778__line-1 {
+    width: 39px;
+    right: 9px;
+    top: 9px;
+    transform: rotate(-15deg);
+}
+
+.toggle-3778__line-2 {
+    width: 30px;
+    right: 4px;
+    top: 25px;
+    transform: rotate(4deg);
+}
+
+.toggle-3778__line-3 {
+    width: 38px;
+    right: 8px;
+    bottom: 11px;
+    transform: rotate(14deg);
+}
+
+.toggle-3778__line-4 {
+    width: 23px;
+    right: 40px;
+    bottom: 5px;
+    transform: rotate(-12deg);
+}
+
+.toggle-3778__caption {
+    position: absolute;
+    width: 47px;
+    height: 26px;
+    right: 7px;
+    top: 13px;
+    z-index: 4;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(5deg);
+    transition:
+        left 0.3s ease,
+        right 0.3s ease,
+        transform 0.25s ease,
+        background 0.25s ease;
+}
+
+.toggle-3778__caption::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 6px;
+    bottom: -7px;
+    border-right: 3px solid #111111;
+    border-bottom: 3px solid #111111;
+    background: inherit;
+    transform: rotate(45deg);
+}
+
+.toggle-3778__caption-off,
+.toggle-3778__caption-on {
+    position: absolute;
+    color: #111111;
+    font: 900 9px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity 0.18s ease,
+        transform 0.25s ease;
+}
+
+.toggle-3778__caption-off {
+    opacity: 1;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.toggle-3778__caption-on {
+    opacity: 0;
+    transform: scale(0.5) rotate(-10deg);
+}
+
+.toggle-3778__thumb {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 5px;
+    top: 2px;
+    z-index: 6;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 4px 4px 0 #111111;
+    transition:
+        left 0.34s cubic-bezier(0.34, 1.56, 0.64, 1),
+        transform 0.32s ease,
+        background 0.3s ease,
+        box-shadow 0.25s ease;
+}
+
+.toggle-3778__impact {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    background: #ef4444;
+    clip-path: polygon(
+        50% 0,
+        61% 28%,
+        86% 8%,
+        76% 37%,
+        100% 45%,
+        74% 57%,
+        92% 82%,
+        63% 72%,
+        50% 100%,
+        38% 72%,
+        10% 90%,
+        27% 59%,
+        0 50%,
+        27% 39%,
+        9% 15%,
+        39% 28%
+    );
+    transition:
+        transform 0.35s ease,
+        background 0.3s ease;
+}
+
+.toggle-3778__impact-text {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    font: 900 21px/1 Arial Black, Arial, sans-serif;
+    -webkit-text-stroke: 1px #111111;
+}
+
+.toggle-3778:hover .toggle-3778__track {
+    transform: translate(-2px, -2px) rotate(1deg);
+    box-shadow: 9px 9px 0 #111111;
+}
+
+.toggle-3778:hover .toggle-3778__thumb {
+    transform: rotate(-10deg) scale(1.06);
+    box-shadow: 5px 5px 0 #111111;
+}
+
+.toggle-3778:hover .toggle-3778__impact {
+    transform: rotate(18deg) scale(1.08);
+}
+
+.toggle-3778:hover .toggle-3778__caption {
+    transform: rotate(-5deg) scale(1.05);
+}
+
+.toggle-3778 input:checked + .toggle-3778__track {
+    background: #facc15;
+}
+
+.toggle-3778 input:checked + .toggle-3778__track .toggle-3778__thumb {
+    left: 80px;
+    background: #22d3ee;
+    transform: rotate(9deg);
+}
+
+.toggle-3778 input:checked + .toggle-3778__track .toggle-3778__impact {
+    background: #f43f5e;
+    transform: rotate(45deg) scale(1.08);
+}
+
+.toggle-3778 input:checked + .toggle-3778__track .toggle-3778__caption {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(-5deg);
+}
+
+.toggle-3778 input:checked + .toggle-3778__track .toggle-3778__caption::after {
+    left: 6px;
+    right: auto;
+}
+
+.toggle-3778 input:checked + .toggle-3778__track .toggle-3778__caption-off {
+    opacity: 0;
+    transform: scale(0.5) rotate(10deg);
+}
+
+.toggle-3778 input:checked + .toggle-3778__track .toggle-3778__caption-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3778 input:checked + .toggle-3778__track .toggle-3778__ink-1 {
+    transform: translateX(-82px) rotate(-12deg) scale(1.15);
+}
+
+.toggle-3778 input:checked + .toggle-3778__track .toggle-3778__ink-2 {
+    transform: translateX(-74px) rotate(18deg);
+}
+
+.toggle-3778 input:checked + .toggle-3778__track .toggle-3778__ink-3 {
+    transform: translateX(-66px) scale(1.25);
+}
+
+.toggle-3778 input:checked + .toggle-3778__track .toggle-3778__line-1 {
+    background: #ef4444;
+    transform: translateX(-75px) rotate(15deg);
+}
+
+.toggle-3778 input:checked + .toggle-3778__track .toggle-3778__line-2 {
+    background: #2563eb;
+    transform: translateX(-78px) rotate(-5deg);
+}
+
+.toggle-3778 input:checked + .toggle-3778__track .toggle-3778__line-3 {
+    background: #ef4444;
+    transform: translateX(-73px) rotate(-14deg);
+}
+
+.toggle-3778 input:checked + .toggle-3778__track .toggle-3778__line-4 {
+    background: #2563eb;
+    transform: translateX(-60px) rotate(13deg);
+}
+
+.toggle-3778 input:focus-visible + .toggle-3778__track {
+    outline: 3px solid #ef4444;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3779,
+    name: "Hero Signal Toggle",
+    preview: (
+      <label
+        className="toggle-3779"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Hero Signal Toggle" />
+        <span className="toggle-3779__track">
+          <span className="toggle-3779__sky"></span>
+          <span className="toggle-3779__city"></span>
+          <span className="toggle-3779__beam"></span>
+          <span className="toggle-3779__badge">
+            <span className="toggle-3779__badge-core"></span>
+          </span>
+          <span className="toggle-3779__caption toggle-3779__caption-off">
+            OFF
+          </span>
+          <span className="toggle-3779__caption toggle-3779__caption-on">
+            HERO
+          </span>
+          <span className="toggle-3779__thumb">
+            <span className="toggle-3779__thumb-mark"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3779">
+    <input type="checkbox" checked aria-label="Hero Signal Toggle" />
+    <span class="toggle-3779__track">
+        <span class="toggle-3779__sky"></span>
+        <span class="toggle-3779__city"></span>
+        <span class="toggle-3779__beam"></span>
+        <span class="toggle-3779__badge">
+            <span class="toggle-3779__badge-core"></span>
+        </span>
+        <span class="toggle-3779__caption toggle-3779__caption-off">OFF</span>
+        <span class="toggle-3779__caption toggle-3779__caption-on">HERO</span>
+        <span class="toggle-3779__thumb">
+            <span class="toggle-3779__thumb-mark"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3779 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3779 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3779__track {
+    position: relative;
+    width: 144px;
+    height: 66px;
+    overflow: hidden;
+    border: 4px solid #0f172a;
+    border-radius: 14px;
+    background: #0f172a;
+    box-shadow: 7px 7px 0 #0f172a;
+    transition: transform .22s ease, box-shadow .22s ease, background .25s ease;
+}
+.toggle-3779__sky {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 75% 22%, rgba(250, 204, 21, .22), transparent 20%),
+        linear-gradient(180deg, #2563eb 0%, #1d4ed8 45%, #111827 100%);
+    transition: background .25s ease;
+}
+.toggle-3779__city {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 23px;
+    background: #111827;
+    clip-path: polygon(0 100%, 0 45%, 7% 45%, 7% 25%, 13% 25%, 13% 56%, 20% 56%, 20% 14%, 28% 14%, 28% 47%, 34% 47%, 34% 34%, 40% 34%, 40% 62%, 46% 62%, 46% 20%, 55% 20%, 55% 48%, 63% 48%, 63% 30%, 69% 30%, 69% 54%, 77% 54%, 77% 18%, 85% 18%, 85% 44%, 92% 44%, 92% 27%, 100% 27%, 100% 100%);
+}
+.toggle-3779__beam {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    right: 16px;
+    top: 6px;
+    background: rgba(255, 255, 255, .24);
+    clip-path: polygon(50% 0%, 62% 20%, 86% 7%, 76% 35%, 100% 50%, 76% 65%, 86% 93%, 62% 80%, 50% 100%, 38% 80%, 14% 93%, 24% 65%, 0% 50%, 24% 35%, 14% 7%, 38% 20%);
+    transform: scale(.82);
+    transition: transform .26s ease, background .26s ease, opacity .22s ease;
+}
+.toggle-3779__badge {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 34px;
+    height: 34px;
+    border: 3px solid #0f172a;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 2px 2px 0 #0f172a;
+    transition: transform .28s ease, background .26s ease, left .3s ease, right .3s ease;
+}
+.toggle-3779__badge-core {
+    position: absolute;
+    inset: 7px;
+    background: #111827;
+    clip-path: polygon(50% 0, 61% 24%, 84% 10%, 75% 37%, 100% 50%, 75% 63%, 84% 90%, 61% 76%, 50% 100%, 39% 76%, 16% 90%, 25% 63%, 0 50%, 25% 37%, 16% 10%, 39% 24%);
+}
+.toggle-3779__caption {
+    position: absolute;
+    left: 46px;
+    top: 22px;
+    z-index: 3;
+    color: #ffffff;
+    font: 900 10px/1 Arial Black, Arial, sans-serif;
+    letter-spacing: 1px;
+    transition: opacity .2s ease, transform .24s ease;
+}
+.toggle-3779__caption-off {
+    opacity: 0;
+    transform: translateY(6px);
+}
+.toggle-3779__caption-on {
+    opacity: 1;
+    transform: translateY(0);
+}
+.toggle-3779__thumb {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    width: 52px;
+    height: 50px;
+    border: 4px solid #0f172a;
+    border-radius: 12px;
+    background: #f8fafc;
+    box-shadow: 4px 4px 0 #0f172a;
+    transition: left .32s cubic-bezier(.34,1.56,.64,1), transform .24s ease, background .25s ease, box-shadow .25s ease;
+}
+.toggle-3779__thumb-mark {
+    position: absolute;
+    inset: 11px;
+    background:
+        linear-gradient(135deg, transparent 40%, #2563eb 41% 59%, transparent 60%),
+        linear-gradient(225deg, transparent 40%, #facc15 41% 59%, transparent 60%);
+    border: 3px solid #0f172a;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+.toggle-3779:hover .toggle-3779__track {
+    transform: translate(-2px, -2px);
+    box-shadow: 9px 9px 0 #0f172a;
+}
+.toggle-3779:hover .toggle-3779__thumb {
+    transform: rotate(-4deg) scale(1.03);
+}
+.toggle-3779:hover .toggle-3779__badge {
+    transform: rotate(10deg) scale(1.05);
+}
+.toggle-3779 input:checked + .toggle-3779__track .toggle-3779__thumb {
+    left: 86px;
+    background: #fde68a;
+}
+.toggle-3779 input:checked + .toggle-3779__track .toggle-3779__caption-off {
+    opacity: 0;
+    transform: translateY(6px);
+}
+.toggle-3779 input:not(:checked) + .toggle-3779__track .toggle-3779__caption-off {
+    opacity: 1;
+    transform: translateY(0);
+    color: #cbd5e1;
+}
+.toggle-3779 input:not(:checked) + .toggle-3779__track .toggle-3779__caption-on {
+    opacity: 0;
+    transform: translateY(-6px);
+}
+.toggle-3779 input:not(:checked) + .toggle-3779__track .toggle-3779__badge {
+    background: #334155;
+}
+.toggle-3779 input:not(:checked) + .toggle-3779__track .toggle-3779__beam {
+    transform: scale(.45);
+    opacity: .25;
+    background: rgba(255,255,255,.08);
+}
+.toggle-3779 input:focus-visible + .toggle-3779__track {
+    outline: 3px solid #93c5fd;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3780,
+    name: "Metro Pow Toggle",
+    preview: (
+      <label
+        className="toggle-3780"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Metro Pow Toggle" />
+        <span className="toggle-3780__track">
+          <span className="toggle-3780__left"></span>
+          <span className="toggle-3780__right"></span>
+          <span className="toggle-3780__dots"></span>
+          <span className="toggle-3780__pow">
+            <span className="toggle-3780__pow-off">HUSH</span>
+            <span className="toggle-3780__pow-on">POW!</span>
+          </span>
+          <span className="toggle-3780__thumb">
+            <span className="toggle-3780__thumb-core"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3780">
+    <input type="checkbox" aria-label="Metro Pow Toggle" />
+    <span class="toggle-3780__track">
+        <span class="toggle-3780__left"></span>
+        <span class="toggle-3780__right"></span>
+        <span class="toggle-3780__dots"></span>
+        <span class="toggle-3780__pow">
+            <span class="toggle-3780__pow-off">HUSH</span>
+            <span class="toggle-3780__pow-on">POW!</span>
+        </span>
+        <span class="toggle-3780__thumb">
+            <span class="toggle-3780__thumb-core"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3780 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3780 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3780__track {
+    position: relative;
+    width: 146px;
+    height: 66px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 7px 7px 0 #111111;
+    transition: transform .22s ease, box-shadow .22s ease;
+}
+.toggle-3780__left {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 54%;
+    background: #facc15;
+    clip-path: polygon(0 0, 100% 0, 79% 100%, 0 100%);
+    transition: width .28s ease, background .25s ease, clip-path .28s ease;
+}
+.toggle-3780__right {
+    position: absolute;
+    inset: 0 0 0 auto;
+    width: 54%;
+    background: #ef4444;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+    transition: width .28s ease, background .25s ease, clip-path .28s ease;
+}
+.toggle-3780__dots {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(17,17,17,.48) 1.5px, transparent 1.7px);
+    background-size: 8px 8px;
+    opacity: .45;
+}
+.toggle-3780__pow {
+    position: absolute;
+    left: 47px;
+    top: 15px;
+    width: 49px;
+    height: 28px;
+    z-index: 3;
+    display: grid;
+    place-items: center;
+    background: #ffffff;
+    border: 3px solid #111111;
+    box-shadow: 3px 3px 0 #111111;
+    clip-path: polygon(50% 0, 61% 21%, 84% 8%, 78% 33%, 100% 39%, 79% 54%, 95% 75%, 69% 71%, 64% 100%, 49% 80%, 30% 100%, 27% 75%, 3% 79%, 19% 57%, 0 44%, 21% 34%, 14% 10%, 39% 21%);
+    transition: transform .25s ease, background .25s ease;
+}
+.toggle-3780__pow-off,
+.toggle-3780__pow-on {
+    position: absolute;
+    color: #111111;
+    font: 900 8px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3780__pow-off {
+    opacity: 1;
+}
+.toggle-3780__pow-on {
+    opacity: 0;
+    transform: scale(.5) rotate(-12deg);
+}
+.toggle-3780__thumb {
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    width: 50px;
+    height: 50px;
+    z-index: 4;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 4px 4px 0 #111111;
+    transition: left .32s cubic-bezier(.34,1.56,.64,1), transform .24s ease, background .25s ease;
+}
+.toggle-3780__thumb-core {
+    position: absolute;
+    inset: 9px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at 35% 35%, #ffffff 0 18%, transparent 19%),
+        linear-gradient(135deg, #2563eb 0 50%, #ffffff 50% 100%);
+}
+.toggle-3780:hover .toggle-3780__track {
+    transform: translate(-2px, -2px);
+    box-shadow: 9px 9px 0 #111111;
+}
+.toggle-3780:hover .toggle-3780__thumb {
+    transform: scale(1.04) rotate(-6deg);
+}
+.toggle-3780:hover .toggle-3780__pow {
+    transform: rotate(-7deg) scale(1.08);
+}
+.toggle-3780 input:checked + .toggle-3780__track .toggle-3780__thumb {
+    left: 88px;
+    background: #dbeafe;
+}
+.toggle-3780 input:checked + .toggle-3780__track .toggle-3780__left {
+    background: #22c55e;
+    width: 48%;
+    clip-path: polygon(0 0, 100% 0, 92% 100%, 0 100%);
+}
+.toggle-3780 input:checked + .toggle-3780__track .toggle-3780__right {
+    background: #2563eb;
+    width: 58%;
+    clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
+}
+.toggle-3780 input:checked + .toggle-3780__track .toggle-3780__pow {
+    background: #fef08a;
+}
+.toggle-3780 input:checked + .toggle-3780__track .toggle-3780__pow-off {
+    opacity: 0;
+    transform: scale(.5) rotate(10deg);
+}
+.toggle-3780 input:checked + .toggle-3780__track .toggle-3780__pow-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3780 input:focus-visible + .toggle-3780__track {
+    outline: 3px solid #60a5fa;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3781,
+    name: "Noir Vigilante Comic Toggle",
+    preview: (
+      <label
+        className="toggle-3781"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Noir Vigilante Comic Toggle" />
+
+        <span className="toggle-3781__track">
+          <span className="toggle-3781__night"></span>
+          <span className="toggle-3781__moon"></span>
+          <span className="toggle-3781__city"></span>
+          <span className="toggle-3781__rain toggle-3781__rain-1"></span>
+          <span className="toggle-3781__rain toggle-3781__rain-2"></span>
+          <span className="toggle-3781__rain toggle-3781__rain-3"></span>
+          <span className="toggle-3781__rain toggle-3781__rain-4"></span>
+
+          <span className="toggle-3781__signal">
+            <span className="toggle-3781__signal-core"></span>
+          </span>
+
+          <span className="toggle-3781__caption">
+            <span className="toggle-3781__caption-off">DARK</span>
+            <span className="toggle-3781__caption-on">RISE</span>
+          </span>
+
+          <span className="toggle-3781__thumb">
+            <span className="toggle-3781__mask">
+              <span className="toggle-3781__eye toggle-3781__eye-left"></span>
+              <span className="toggle-3781__eye toggle-3781__eye-right"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3781">
+    <input type="checkbox" aria-label="Noir Vigilante Comic Toggle">
+
+    <span class="toggle-3781__track">
+        <span class="toggle-3781__night"></span>
+        <span class="toggle-3781__moon"></span>
+        <span class="toggle-3781__city"></span>
+
+        <span class="toggle-3781__rain toggle-3781__rain-1"></span>
+        <span class="toggle-3781__rain toggle-3781__rain-2"></span>
+        <span class="toggle-3781__rain toggle-3781__rain-3"></span>
+        <span class="toggle-3781__rain toggle-3781__rain-4"></span>
+
+        <span class="toggle-3781__signal">
+            <span class="toggle-3781__signal-core"></span>
+        </span>
+
+        <span class="toggle-3781__caption">
+            <span class="toggle-3781__caption-off">DARK</span>
+            <span class="toggle-3781__caption-on">RISE</span>
+        </span>
+
+        <span class="toggle-3781__thumb">
+            <span class="toggle-3781__mask">
+                <span class="toggle-3781__eye toggle-3781__eye-left"></span>
+                <span class="toggle-3781__eye toggle-3781__eye-right"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3781 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3781 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3781__track {
+    position: relative;
+    width: 148px;
+    height: 68px;
+    overflow: hidden;
+    border: 4px solid #050505;
+    border-radius: 10px;
+    background: #111827;
+    box-shadow: 8px 8px 0 #050505;
+    transition:
+        transform 0.22s ease,
+        box-shadow 0.22s ease,
+        background 0.3s ease;
+}
+
+.toggle-3781__night {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            180deg,
+            #18181b 0%,
+            #27272a 44%,
+            #09090b 100%
+        );
+    transition:
+        background 0.3s ease,
+        filter 0.3s ease;
+}
+
+.toggle-3781__moon {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 14px;
+    top: 7px;
+    border: 3px solid #050505;
+    border-radius: 50%;
+    background: #f5f5f4;
+    box-shadow:
+        0 0 0 3px rgba(255,255,255,.08),
+        0 0 18px rgba(255,255,255,.2);
+    transition:
+        background 0.3s ease,
+        transform 0.35s ease,
+        box-shadow 0.3s ease;
+}
+
+.toggle-3781__city {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 29px;
+    z-index: 2;
+    background: #050505;
+    clip-path: polygon(
+        0 100%,
+        0 46%,
+        7% 46%,
+        7% 19%,
+        13% 19%,
+        13% 59%,
+        20% 59%,
+        20% 31%,
+        28% 31%,
+        28% 8%,
+        34% 8%,
+        34% 53%,
+        41% 53%,
+        41% 24%,
+        48% 24%,
+        48% 64%,
+        56% 64%,
+        56% 39%,
+        62% 39%,
+        62% 15%,
+        70% 15%,
+        70% 56%,
+        77% 56%,
+        77% 29%,
+        84% 29%,
+        84% 49%,
+        91% 49%,
+        91% 20%,
+        100% 20%,
+        100% 100%
+    );
+}
+
+.toggle-3781__rain {
+    position: absolute;
+    z-index: 3;
+    width: 2px;
+    height: 20px;
+    background: rgba(255,255,255,.45);
+    transform: rotate(24deg);
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease;
+}
+
+.toggle-3781__rain-1 {
+    left: 53px;
+    top: 2px;
+}
+
+.toggle-3781__rain-2 {
+    left: 71px;
+    top: 15px;
+}
+
+.toggle-3781__rain-3 {
+    right: 58px;
+    top: 1px;
+}
+
+.toggle-3781__rain-4 {
+    right: 43px;
+    top: 24px;
+}
+
+.toggle-3781__signal {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    right: 10px;
+    top: 4px;
+    z-index: 4;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: rgba(250,204,21,.14);
+    opacity: 0.25;
+    transform: scale(0.65);
+    transition:
+        opacity 0.25s ease,
+        transform 0.35s ease,
+        background 0.3s ease;
+}
+
+.toggle-3781__signal-core {
+    width: 26px;
+    height: 17px;
+    background: #facc15;
+    clip-path: polygon(
+        0 57%,
+        21% 33%,
+        36% 43%,
+        50% 0,
+        63% 43%,
+        79% 33%,
+        100% 57%,
+        77% 61%,
+        66% 100%,
+        50% 68%,
+        34% 100%,
+        23% 61%
+    );
+}
+
+.toggle-3781__caption {
+    position: absolute;
+    width: 43px;
+    height: 24px;
+    right: 12px;
+    bottom: 8px;
+    z-index: 6;
+    display: grid;
+    place-items: center;
+    border: 3px solid #050505;
+    background: #f5f5f4;
+    box-shadow: 3px 3px 0 #050505;
+    transform: rotate(4deg);
+    transition:
+        left 0.3s ease,
+        right 0.3s ease,
+        transform 0.25s ease,
+        background 0.25s ease;
+}
+
+.toggle-3781__caption-off,
+.toggle-3781__caption-on {
+    position: absolute;
+    color: #050505;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    letter-spacing: .4px;
+    transition:
+        opacity 0.18s ease,
+        transform 0.25s ease;
+}
+
+.toggle-3781__caption-off {
+    opacity: 1;
+}
+
+.toggle-3781__caption-on {
+    opacity: 0;
+    transform: scale(.5) rotate(-10deg);
+}
+
+.toggle-3781__thumb {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 6px;
+    top: 4px;
+    z-index: 8;
+    display: grid;
+    place-items: center;
+    border: 4px solid #050505;
+    border-radius: 50%;
+    background: #3f3f46;
+    box-shadow: 5px 5px 0 #050505;
+    transition:
+        left 0.34s cubic-bezier(.34,1.56,.64,1),
+        transform 0.3s ease,
+        background 0.3s ease,
+        box-shadow 0.25s ease;
+}
+
+.toggle-3781__mask {
+    position: relative;
+    width: 32px;
+    height: 27px;
+    border: 3px solid #050505;
+    background: #18181b;
+    clip-path: polygon(
+        0 10%,
+        33% 0,
+        50% 20%,
+        67% 0,
+        100% 10%,
+        88% 81%,
+        50% 100%,
+        12% 81%
+    );
+    transition:
+        background 0.3s ease,
+        transform 0.3s ease;
+}
+
+.toggle-3781__eye {
+    position: absolute;
+    width: 8px;
+    height: 4px;
+    top: 9px;
+    background: #f5f5f4;
+    clip-path: polygon(0 20%, 100% 0, 82% 100%, 12% 80%);
+    transition:
+        background 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.toggle-3781__eye-left {
+    left: 4px;
+}
+
+.toggle-3781__eye-right {
+    right: 4px;
+    transform: scaleX(-1);
+}
+
+.toggle-3781:hover .toggle-3781__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #050505;
+}
+
+.toggle-3781:hover .toggle-3781__thumb {
+    transform: rotate(-7deg) scale(1.05);
+    box-shadow: 6px 6px 0 #050505;
+}
+
+.toggle-3781:hover .toggle-3781__caption {
+    transform: rotate(-5deg) scale(1.05);
+}
+
+.toggle-3781 input:checked + .toggle-3781__track .toggle-3781__night {
+    background:
+        linear-gradient(
+            180deg,
+            #1e3a5f 0%,
+            #111827 48%,
+            #020617 100%
+        );
+}
+
+.toggle-3781 input:checked + .toggle-3781__track .toggle-3781__moon {
+    background: #fef08a;
+    transform: scale(1.08);
+    box-shadow:
+        0 0 0 4px rgba(250,204,21,.14),
+        0 0 24px rgba(250,204,21,.45);
+}
+
+.toggle-3781 input:checked + .toggle-3781__track .toggle-3781__signal {
+    opacity: 1;
+    transform: scale(1);
+    background: rgba(250,204,21,.22);
+}
+
+.toggle-3781 input:checked + .toggle-3781__track .toggle-3781__thumb {
+    left: 86px;
+    background: #facc15;
+    transform: rotate(7deg);
+}
+
+.toggle-3781 input:checked + .toggle-3781__track .toggle-3781__mask {
+    background: #111827;
+    transform: scale(1.08);
+}
+
+.toggle-3781 input:checked + .toggle-3781__track .toggle-3781__eye {
+    background: #67e8f9;
+    box-shadow: 0 0 7px #22d3ee;
+}
+
+.toggle-3781 input:checked + .toggle-3781__track .toggle-3781__caption {
+    left: 9px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(-4deg);
+}
+
+.toggle-3781 input:checked + .toggle-3781__track .toggle-3781__caption-off {
+    opacity: 0;
+    transform: scale(.5) rotate(10deg);
+}
+
+.toggle-3781 input:checked + .toggle-3781__track .toggle-3781__caption-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3781 input:checked + .toggle-3781__track .toggle-3781__rain-1 {
+    transform: translateX(-58px) rotate(-24deg);
+}
+
+.toggle-3781 input:checked + .toggle-3781__track .toggle-3781__rain-2 {
+    transform: translateX(-64px) rotate(-24deg);
+}
+
+.toggle-3781 input:checked + .toggle-3781__track .toggle-3781__rain-3 {
+    transform: translateX(-72px) rotate(-24deg);
+}
+
+.toggle-3781 input:checked + .toggle-3781__track .toggle-3781__rain-4 {
+    transform: translateX(-68px) rotate(-24deg);
+}
+
+.toggle-3781 input:focus-visible + .toggle-3781__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3782,
+    name: "Cosmic Hero Splash Toggle",
+    preview: (
+      <label
+        className="toggle-3782"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Cosmic Hero Splash Toggle"
+        />
+
+        <span className="toggle-3782__track">
+          <span className="toggle-3782__space"></span>
+          <span className="toggle-3782__planet"></span>
+
+          <span className="toggle-3782__star toggle-3782__star-1"></span>
+          <span className="toggle-3782__star toggle-3782__star-2"></span>
+          <span className="toggle-3782__star toggle-3782__star-3"></span>
+
+          <span className="toggle-3782__ray toggle-3782__ray-1"></span>
+          <span className="toggle-3782__ray toggle-3782__ray-2"></span>
+          <span className="toggle-3782__ray toggle-3782__ray-3"></span>
+
+          <span className="toggle-3782__burst">
+            <span className="toggle-3782__burst-off">IDLE</span>
+            <span className="toggle-3782__burst-on">COSMIC!</span>
+          </span>
+
+          <span className="toggle-3782__thumb">
+            <span className="toggle-3782__emblem">
+              <span className="toggle-3782__emblem-core"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3782">
+    <input type="checkbox" checked aria-label="Cosmic Hero Splash Toggle">
+
+    <span class="toggle-3782__track">
+        <span class="toggle-3782__space"></span>
+        <span class="toggle-3782__planet"></span>
+
+        <span class="toggle-3782__star toggle-3782__star-1"></span>
+        <span class="toggle-3782__star toggle-3782__star-2"></span>
+        <span class="toggle-3782__star toggle-3782__star-3"></span>
+
+        <span class="toggle-3782__ray toggle-3782__ray-1"></span>
+        <span class="toggle-3782__ray toggle-3782__ray-2"></span>
+        <span class="toggle-3782__ray toggle-3782__ray-3"></span>
+
+        <span class="toggle-3782__burst">
+            <span class="toggle-3782__burst-off">IDLE</span>
+            <span class="toggle-3782__burst-on">COSMIC!</span>
+        </span>
+
+        <span class="toggle-3782__thumb">
+            <span class="toggle-3782__emblem">
+                <span class="toggle-3782__emblem-core"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3782 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3782 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3782__track {
+    position: relative;
+    width: 150px;
+    height: 68px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #312e81;
+    box-shadow: 8px 8px 0 #111111;
+    transition:
+        transform 0.22s ease,
+        box-shadow 0.22s ease,
+        background 0.3s ease;
+}
+
+.toggle-3782__space {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle at 20% 25%,
+            rgba(34,211,238,.9) 0 2px,
+            transparent 3px
+        ),
+        radial-gradient(
+            circle at 50% 68%,
+            rgba(255,255,255,.85) 0 1px,
+            transparent 2px
+        ),
+        radial-gradient(
+            circle at 76% 17%,
+            rgba(244,114,182,.9) 0 2px,
+            transparent 3px
+        ),
+        linear-gradient(
+            115deg,
+            #172554,
+            #4c1d95 50%,
+            #831843
+        );
+    background-size:
+        27px 27px,
+        19px 19px,
+        33px 33px,
+        auto;
+    transition:
+        filter 0.3s ease,
+        transform 0.35s ease;
+}
+
+.toggle-3782__planet {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    right: 14px;
+    top: 8px;
+    z-index: 2;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            145deg,
+            #fb7185,
+            #a855f7 58%,
+            #3b82f6
+        );
+    box-shadow:
+        inset -6px -6px 0 rgba(17,17,17,.2),
+        0 0 16px rgba(168,85,247,.4);
+    transition:
+        transform 0.35s ease,
+        background 0.3s ease;
+}
+
+.toggle-3782__planet::after {
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 14px;
+    left: -10px;
+    top: 12px;
+    border: 4px solid #facc15;
+    border-radius: 50%;
+    transform: rotate(-17deg);
+}
+
+.toggle-3782__star {
+    position: absolute;
+    z-index: 3;
+    width: 7px;
+    height: 7px;
+    background: #ffffff;
+    clip-path: polygon(
+        50% 0,
+        60% 38%,
+        100% 50%,
+        60% 60%,
+        50% 100%,
+        40% 60%,
+        0 50%,
+        40% 38%
+    );
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease;
+}
+
+.toggle-3782__star-1 {
+    left: 61px;
+    top: 8px;
+}
+
+.toggle-3782__star-2 {
+    left: 73px;
+    bottom: 8px;
+    transform: scale(.7);
+}
+
+.toggle-3782__star-3 {
+    right: 60px;
+    top: 26px;
+    transform: scale(.55);
+}
+
+.toggle-3782__ray {
+    position: absolute;
+    z-index: 3;
+    height: 3px;
+    background: #facc15;
+    border: 1px solid #111111;
+    transition:
+        transform 0.35s ease,
+        background 0.3s ease;
+}
+
+.toggle-3782__ray-1 {
+    width: 34px;
+    right: 8px;
+    top: 8px;
+    transform: rotate(-14deg);
+}
+
+.toggle-3782__ray-2 {
+    width: 28px;
+    right: 3px;
+    top: 28px;
+    transform: rotate(4deg);
+}
+
+.toggle-3782__ray-3 {
+    width: 36px;
+    right: 10px;
+    bottom: 8px;
+    transform: rotate(15deg);
+}
+
+.toggle-3782__burst {
+    position: absolute;
+    width: 51px;
+    height: 31px;
+    right: 7px;
+    top: 14px;
+    z-index: 5;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    clip-path: polygon(
+        50% 0,
+        60% 20%,
+        82% 7%,
+        77% 32%,
+        100% 39%,
+        79% 53%,
+        96% 73%,
+        71% 71%,
+        66% 100%,
+        50% 80%,
+        30% 100%,
+        29% 75%,
+        4% 79%,
+        19% 57%,
+        0 44%,
+        22% 34%,
+        15% 10%,
+        40% 21%
+    );
+    transition:
+        left 0.3s ease,
+        right 0.3s ease,
+        background 0.3s ease,
+        transform 0.25s ease;
+}
+
+.toggle-3782__burst-off,
+.toggle-3782__burst-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity 0.18s ease,
+        transform 0.25s ease;
+}
+
+.toggle-3782__burst-off {
+    opacity: 1;
+}
+
+.toggle-3782__burst-on {
+    opacity: 0;
+    transform: scale(.45) rotate(-12deg);
+}
+
+.toggle-3782__thumb {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 6px;
+    top: 4px;
+    z-index: 8;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #22d3ee;
+    box-shadow: 5px 5px 0 #111111;
+    transition:
+        left 0.35s cubic-bezier(.34,1.56,.64,1),
+        transform 0.32s ease,
+        background 0.3s ease,
+        box-shadow 0.25s ease;
+}
+
+.toggle-3782__emblem {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #dbeafe
+        );
+    transition:
+        transform 0.35s ease,
+        background 0.3s ease;
+}
+
+.toggle-3782__emblem-core {
+    width: 19px;
+    height: 19px;
+    background: #f43f5e;
+    clip-path: polygon(
+        50% 0,
+        61% 31%,
+        95% 18%,
+        73% 47%,
+        100% 70%,
+        62% 67%,
+        50% 100%,
+        38% 67%,
+        0 70%,
+        27% 47%,
+        5% 18%,
+        39% 31%
+    );
+    transition:
+        background 0.3s ease,
+        transform 0.35s ease;
+}
+
+.toggle-3782:hover .toggle-3782__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3782:hover .toggle-3782__thumb {
+    transform: rotate(-8deg) scale(1.05);
+    box-shadow: 6px 6px 0 #111111;
+}
+
+.toggle-3782:hover .toggle-3782__planet {
+    transform: rotate(14deg) scale(1.05);
+}
+
+.toggle-3782:hover .toggle-3782__burst {
+    transform: rotate(-6deg) scale(1.08);
+}
+
+.toggle-3782 input:checked + .toggle-3782__track .toggle-3782__space {
+    filter: hue-rotate(35deg) brightness(1.18);
+    transform: scale(1.08);
+}
+
+.toggle-3782 input:checked + .toggle-3782__track .toggle-3782__planet {
+    left: 13px;
+    right: auto;
+    background:
+        linear-gradient(
+            145deg,
+            #22d3ee,
+            #3b82f6 55%,
+            #a3e635
+        );
+    transform: rotate(-18deg);
+}
+
+.toggle-3782 input:checked + .toggle-3782__track .toggle-3782__thumb {
+    left: 88px;
+    background: #facc15;
+    transform: rotate(8deg);
+}
+
+.toggle-3782 input:checked + .toggle-3782__track .toggle-3782__emblem {
+    background:
+        linear-gradient(
+            135deg,
+            #fef08a,
+            #ffffff
+        );
+    transform: rotate(24deg);
+}
+
+.toggle-3782 input:checked + .toggle-3782__track .toggle-3782__emblem-core {
+    background: #2563eb;
+    transform: rotate(-38deg) scale(1.12);
+}
+
+.toggle-3782 input:checked + .toggle-3782__track .toggle-3782__burst {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(-5deg);
+}
+
+.toggle-3782 input:checked + .toggle-3782__track .toggle-3782__burst-off {
+    opacity: 0;
+    transform: scale(.45) rotate(12deg);
+}
+
+.toggle-3782 input:checked + .toggle-3782__track .toggle-3782__burst-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3782 input:checked + .toggle-3782__track .toggle-3782__ray-1 {
+    background: #22d3ee;
+    transform: translateX(-79px) rotate(14deg);
+}
+
+.toggle-3782 input:checked + .toggle-3782__track .toggle-3782__ray-2 {
+    background: #ffffff;
+    transform: translateX(-72px) rotate(-5deg);
+}
+
+.toggle-3782 input:checked + .toggle-3782__track .toggle-3782__ray-3 {
+    background: #a3e635;
+    transform: translateX(-78px) rotate(-15deg);
+}
+
+.toggle-3782 input:checked + .toggle-3782__track .toggle-3782__star-1 {
+    transform: translateX(-20px) rotate(45deg) scale(1.35);
+}
+
+.toggle-3782 input:checked + .toggle-3782__track .toggle-3782__star-2 {
+    background: #facc15;
+    transform: translateX(-28px) rotate(-35deg);
+}
+
+.toggle-3782 input:checked + .toggle-3782__track .toggle-3782__star-3 {
+    background: #22d3ee;
+    transform: translateX(-35px) scale(1.15);
+}
+
+.toggle-3782 input:focus-visible + .toggle-3782__track {
+    outline: 3px solid #22d3ee;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3783,
+    name: "Shonen Burst Toggle",
+    preview: (
+      <label
+        className="toggle-3783"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Shonen Burst Toggle"
+        />
+        <span className="toggle-3783__track">
+          <span className="toggle-3783__bg"></span>
+          <span className="toggle-3783__burst"></span>
+          <span className="toggle-3783__speed toggle-3783__speed-1"></span>
+          <span className="toggle-3783__speed toggle-3783__speed-2"></span>
+          <span className="toggle-3783__speed toggle-3783__speed-3"></span>
+          <span className="toggle-3783__text toggle-3783__text-off">IDLE</span>
+          <span className="toggle-3783__text toggle-3783__text-on">POWER!</span>
+          <span className="toggle-3783__thumb">
+            <span className="toggle-3783__core"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3783">
+    <input type="checkbox" checked aria-label="Shonen Burst Toggle">
+    <span class="toggle-3783__track">
+        <span class="toggle-3783__bg"></span>
+        <span class="toggle-3783__burst"></span>
+        <span class="toggle-3783__speed toggle-3783__speed-1"></span>
+        <span class="toggle-3783__speed toggle-3783__speed-2"></span>
+        <span class="toggle-3783__speed toggle-3783__speed-3"></span>
+        <span class="toggle-3783__text toggle-3783__text-off">IDLE</span>
+        <span class="toggle-3783__text toggle-3783__text-on">POWER!</span>
+        <span class="toggle-3783__thumb">
+            <span class="toggle-3783__core"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3783 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3783 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3783__track {
+    position: relative;
+    width: 146px;
+    height: 68px;
+    overflow: hidden;
+    border: 4px solid #111;
+    border-radius: 999px;
+    background: #f8fafc;
+    box-shadow: 7px 7px 0 #111;
+    transition: transform .25s ease, box-shadow .25s ease, background .25s ease;
+}
+.toggle-3783__bg {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 30% 50%, rgba(255,255,255,.95), transparent 24%),
+        linear-gradient(135deg, #dbeafe, #93c5fd 45%, #60a5fa 100%);
+    transition: background .25s ease;
+}
+.toggle-3783__burst {
+    position: absolute;
+    right: 13px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #111;
+    background: #fde047;
+    clip-path: polygon(50% 0,62% 21%,85% 6%,79% 31%,100% 42%,79% 55%,96% 76%,71% 73%,66% 100%,50% 81%,34% 100%,28% 73%,4% 78%,19% 55%,0 42%,21% 31%,15% 6%,38% 21%);
+    box-shadow: 3px 3px 0 #111;
+    transition: right .25s ease, left .25s ease, transform .25s ease, background .25s ease;
+}
+.toggle-3783__speed {
+    position: absolute;
+    height: 4px;
+    border: 2px solid #111;
+    background: #111;
+    transition: transform .25s ease, opacity .25s ease, background .25s ease;
+}
+.toggle-3783__speed-1 {
+    width: 20px;
+    left: 16px;
+    top: 16px;
+}
+.toggle-3783__speed-2 {
+    width: 26px;
+    left: 8px;
+    top: 31px;
+}
+.toggle-3783__speed-3 {
+    width: 18px;
+    left: 18px;
+    top: 46px;
+}
+.toggle-3783__text {
+    position: absolute;
+    z-index: 3;
+    font: 900 9px/1 Arial Black, Arial, sans-serif;
+    letter-spacing: .4px;
+    color: #111;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3783__text-off {
+    right: 10px;
+    bottom: 7px;
+    opacity: 0;
+    transform: scale(.5) rotate(-8deg);
+}
+.toggle-3783__text-on {
+    left: 17px;
+    bottom: 7px;
+    opacity: 1;
+}
+.toggle-3783__thumb {
+    position: absolute;
+    left: 88px;
+    top: 6px;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 4px 4px 0 #111;
+    transition: left .28s cubic-bezier(.34,1.56,.64,1), background .25s ease, transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3783__core {
+    width: 23px;
+    height: 23px;
+    border: 3px solid #111;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: inset 0 0 0 4px #fde047;
+    transition: box-shadow .25s ease, transform .25s ease;
+}
+.toggle-3783:hover .toggle-3783__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 9px 9px 0 #111;
+}
+.toggle-3783:hover .toggle-3783__thumb {
+    transform: rotate(-8deg) scale(1.03);
+}
+.toggle-3783 input:checked + .toggle-3783__track .toggle-3783__thumb {
+    left: 88px;
+    background: #ef4444;
+}
+.toggle-3783 input:not(:checked) + .toggle-3783__track .toggle-3783__thumb {
+    left: 6px;
+    background: #2563eb;
+}
+.toggle-3783 input:not(:checked) + .toggle-3783__track .toggle-3783__bg {
+    background:
+        radial-gradient(circle at 70% 40%, rgba(255,255,255,.9), transparent 22%),
+        linear-gradient(135deg, #fee2e2, #fda4af 40%, #fb7185 100%);
+}
+.toggle-3783 input:not(:checked) + .toggle-3783__track .toggle-3783__burst {
+    left: 12px;
+    right: auto;
+    background: #22c55e;
+    transform: rotate(-8deg);
+}
+.toggle-3783 input:not(:checked) + .toggle-3783__track .toggle-3783__speed-1 {
+    transform: translateX(92px);
+}
+.toggle-3783 input:not(:checked) + .toggle-3783__track .toggle-3783__speed-2 {
+    transform: translateX(98px);
+}
+.toggle-3783 input:not(:checked) + .toggle-3783__track .toggle-3783__speed-3 {
+    transform: translateX(90px);
+}
+.toggle-3783 input:not(:checked) + .toggle-3783__track .toggle-3783__text-on {
+    opacity: 0;
+    transform: scale(.5) rotate(10deg);
+}
+.toggle-3783 input:not(:checked) + .toggle-3783__track .toggle-3783__text-off {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3783 input:not(:checked) + .toggle-3783__track .toggle-3783__core {
+    box-shadow: inset 0 0 0 4px #93c5fd;
+}
+.toggle-3783 input:focus-visible + .toggle-3783__track {
+    outline: 3px solid #2563eb;
+    outline-offset: 5px;
+}`,
+  },
+  {
+    id: 3784,
+    name: "Magical Girl Toggle",
+    preview: (
+      <label
+        className="toggle-3784"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Magical Girl Toggle"
+        />
+        <span className="toggle-3784__track">
+          <span className="toggle-3784__sky"></span>
+          <span className="toggle-3784__sparkle toggle-3784__sparkle-1"></span>
+          <span className="toggle-3784__sparkle toggle-3784__sparkle-2"></span>
+          <span className="toggle-3784__sparkle toggle-3784__sparkle-3"></span>
+          <span className="toggle-3784__ribbon"></span>
+          <span className="toggle-3784__badge">
+            <span className="toggle-3784__badge-off">MOON</span>
+            <span className="toggle-3784__badge-on">MAGIC</span>
+          </span>
+          <span className="toggle-3784__thumb">
+            <span className="toggle-3784__gem"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3784">
+    <input type="checkbox" checked aria-label="Magical Girl Toggle">
+    <span class="toggle-3784__track">
+        <span class="toggle-3784__sky"></span>
+        <span class="toggle-3784__sparkle toggle-3784__sparkle-1"></span>
+        <span class="toggle-3784__sparkle toggle-3784__sparkle-2"></span>
+        <span class="toggle-3784__sparkle toggle-3784__sparkle-3"></span>
+        <span class="toggle-3784__ribbon"></span>
+        <span class="toggle-3784__badge">
+            <span class="toggle-3784__badge-off">MOON</span>
+            <span class="toggle-3784__badge-on">MAGIC</span>
+        </span>
+        <span class="toggle-3784__thumb">
+            <span class="toggle-3784__gem"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3784 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3784 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3784__track {
+    position: relative;
+    width: 146px;
+    height: 68px;
+    overflow: hidden;
+    border: 4px solid #111;
+    border-radius: 999px;
+    background: #fdf2f8;
+    box-shadow: 7px 7px 0 #111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3784__sky {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 25% 25%, rgba(255,255,255,.8), transparent 25%),
+        linear-gradient(135deg, #fdf2f8, #f9a8d4 45%, #c084fc 100%);
+    transition: background .25s ease;
+}
+.toggle-3784__sparkle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #111;
+    clip-path: polygon(50% 0,62% 38%,100% 50%,62% 62%,50% 100%,38% 62%,0 50%,38% 38%);
+    box-shadow: 2px 2px 0 #111;
+    transition: transform .25s ease, opacity .25s ease;
+}
+.toggle-3784__sparkle-1 {
+    left: 18px;
+    top: 14px;
+}
+.toggle-3784__sparkle-2 {
+    left: 34px;
+    top: 40px;
+    transform: scale(.7);
+}
+.toggle-3784__sparkle-3 {
+    right: 42px;
+    top: 18px;
+    transform: scale(.85);
+}
+.toggle-3784__ribbon {
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    width: 34px;
+    height: 25px;
+    border: 3px solid #111;
+    border-radius: 999px 999px 12px 12px;
+    background: #fb7185;
+    box-shadow: 3px 3px 0 #111;
+    transition: right .25s ease, left .25s ease, background .25s ease, transform .25s ease;
+}
+.toggle-3784__ribbon::before,
+.toggle-3784__ribbon::after {
+    content: "";
+    position: absolute;
+    bottom: -11px;
+    width: 10px;
+    height: 14px;
+    border: 3px solid #111;
+    background: #fb7185;
+}
+.toggle-3784__ribbon::before {
+    left: 4px;
+    clip-path: polygon(0 0,100% 0,100% 100%,50% 74%,0 100%);
+}
+.toggle-3784__ribbon::after {
+    right: 4px;
+    clip-path: polygon(0 0,100% 0,100% 100%,50% 74%,0 100%);
+}
+.toggle-3784__badge {
+    position: absolute;
+    left: 15px;
+    bottom: 8px;
+    z-index: 3;
+    width: 47px;
+    height: 20px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111;
+    border-radius: 999px;
+    background: #fff;
+    box-shadow: 2px 2px 0 #111;
+    transition: left .25s ease, right .25s ease, transform .25s ease, background .25s ease;
+}
+.toggle-3784__badge-off,
+.toggle-3784__badge-on {
+    position: absolute;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    color: #111;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3784__badge-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3784__badge-on {
+    opacity: 1;
+}
+.toggle-3784__thumb {
+    position: absolute;
+    left: 88px;
+    top: 6px;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 4px 4px 0 #111;
+    transition: left .28s cubic-bezier(.34,1.56,.64,1), background .25s ease, transform .25s ease;
+}
+.toggle-3784__gem {
+    width: 22px;
+    height: 22px;
+    border: 3px solid #111;
+    background: linear-gradient(135deg, #f472b6, #c084fc);
+    transform: rotate(45deg);
+    box-shadow: inset 0 0 0 3px rgba(255,255,255,.28);
+    transition: background .25s ease, transform .25s ease;
+}
+.toggle-3784:hover .toggle-3784__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 9px 9px 0 #111;
+}
+.toggle-3784:hover .toggle-3784__thumb {
+    transform: rotate(-8deg) scale(1.03);
+}
+.toggle-3784 input:checked + .toggle-3784__track .toggle-3784__thumb {
+    left: 88px;
+}
+.toggle-3784 input:not(:checked) + .toggle-3784__track .toggle-3784__thumb {
+    left: 6px;
+    background: #fef3c7;
+}
+.toggle-3784 input:not(:checked) + .toggle-3784__track .toggle-3784__sky {
+    background:
+        radial-gradient(circle at 75% 30%, rgba(255,255,255,.75), transparent 22%),
+        linear-gradient(135deg, #ecfccb, #86efac 40%, #22c55e 100%);
+}
+.toggle-3784 input:not(:checked) + .toggle-3784__track .toggle-3784__ribbon {
+    left: 16px;
+    right: auto;
+    background: #22c55e;
+    transform: rotate(-10deg);
+}
+.toggle-3784 input:not(:checked) + .toggle-3784__track .toggle-3784__ribbon::before,
+.toggle-3784 input:not(:checked) + .toggle-3784__track .toggle-3784__ribbon::after {
+    background: #22c55e;
+}
+.toggle-3784 input:not(:checked) + .toggle-3784__track .toggle-3784__badge {
+    left: auto;
+    right: 10px;
+    background: #fef9c3;
+}
+.toggle-3784 input:not(:checked) + .toggle-3784__track .toggle-3784__badge-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3784 input:not(:checked) + .toggle-3784__track .toggle-3784__badge-off {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3784 input:not(:checked) + .toggle-3784__track .toggle-3784__gem {
+    background: linear-gradient(135deg, #fde047, #4ade80);
+    transform: rotate(45deg) scale(1.06);
+}
+.toggle-3784 input:focus-visible + .toggle-3784__track {
+    outline: 3px solid #c084fc;
+    outline-offset: 5px;
+}`,
+  },
+  {
+    id: 3785,
+    name: "Mecha Core Toggle",
+    preview: (
+      <label
+        className="toggle-3785"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Mecha Core Toggle" />
+        <span className="toggle-3785__track">
+          <span className="toggle-3785__panel"></span>
+          <span className="toggle-3785__grid"></span>
+          <span className="toggle-3785__status toggle-3785__status-off">
+            SAFE
+          </span>
+          <span className="toggle-3785__status toggle-3785__status-on">
+            CORE
+          </span>
+          <span className="toggle-3785__module"></span>
+          <span className="toggle-3785__thumb">
+            <span className="toggle-3785__lens"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3785">
+    <input type="checkbox" aria-label="Mecha Core Toggle">
+    <span class="toggle-3785__track">
+        <span class="toggle-3785__panel"></span>
+        <span class="toggle-3785__grid"></span>
+        <span class="toggle-3785__status toggle-3785__status-off">SAFE</span>
+        <span class="toggle-3785__status toggle-3785__status-on">CORE</span>
+        <span class="toggle-3785__module"></span>
+        <span class="toggle-3785__thumb">
+            <span class="toggle-3785__lens"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3785 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3785 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3785__track {
+    position: relative;
+    width: 148px;
+    height: 68px;
+    overflow: hidden;
+    border: 4px solid #111;
+    border-radius: 16px;
+    background: #e2e8f0;
+    box-shadow: 7px 7px 0 #111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3785__panel {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(135deg, #cbd5e1, #94a3b8 55%, #64748b 100%);
+    transition: background .25s ease;
+}
+.toggle-3785__grid {
+    position: absolute;
+    inset: 9px 54px 9px 9px;
+    border: 3px solid #111;
+    background:
+        linear-gradient(to right, rgba(17,17,17,.18) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(17,17,17,.18) 1px, transparent 1px),
+        #f8fafc;
+    background-size: 9px 9px;
+    transition: inset .25s ease, background .25s ease;
+}
+.toggle-3785__status {
+    position: absolute;
+    bottom: 8px;
+    left: 13px;
+    font: 900 8px/1 Arial Black, Arial, sans-serif;
+    color: #111;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3785__status-off {
+    opacity: 1;
+}
+.toggle-3785__status-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3785__module {
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    width: 38px;
+    height: 47px;
+    border: 3px solid #111;
+    border-radius: 10px;
+    background:
+        linear-gradient(to bottom, #111 0 7px, transparent 7px),
+        linear-gradient(135deg, #f87171, #f59e0b);
+    box-shadow: 3px 3px 0 #111;
+    transition: right .25s ease, left .25s ease, background .25s ease;
+}
+.toggle-3785__module::before,
+.toggle-3785__module::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    right: 6px;
+    height: 5px;
+    border: 2px solid #111;
+    background: #fff;
+}
+.toggle-3785__module::before {
+    top: 13px;
+}
+.toggle-3785__module::after {
+    top: 25px;
+}
+.toggle-3785__thumb {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111;
+    border-radius: 14px;
+    background: #1e293b;
+    box-shadow: 4px 4px 0 #111;
+    transition: left .28s cubic-bezier(.34,1.56,.64,1), background .25s ease, transform .25s ease;
+}
+.toggle-3785__lens {
+    width: 24px;
+    height: 24px;
+    border: 3px solid #111;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, #fff, #60a5fa 45%, #1d4ed8 100%);
+    transition: background .25s ease, transform .25s ease;
+}
+.toggle-3785:hover .toggle-3785__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 9px 9px 0 #111;
+}
+.toggle-3785:hover .toggle-3785__thumb {
+    transform: rotate(-6deg) scale(1.03);
+}
+.toggle-3785 input:checked + .toggle-3785__track .toggle-3785__thumb {
+    left: 90px;
+    background: #dc2626;
+}
+.toggle-3785 input:checked + .toggle-3785__track .toggle-3785__lens {
+    background: radial-gradient(circle at 35% 35%, #fff, #fde047 40%, #f97316 100%);
+    transform: scale(1.08);
+}
+.toggle-3785 input:checked + .toggle-3785__track .toggle-3785__panel {
+    background: linear-gradient(135deg, #fee2e2, #fca5a5 50%, #ef4444 100%);
+}
+.toggle-3785 input:checked + .toggle-3785__track .toggle-3785__grid {
+    inset: 9px 9px 9px 54px;
+    background:
+        linear-gradient(to right, rgba(17,17,17,.22) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(17,17,17,.22) 1px, transparent 1px),
+        #fff7ed;
+}
+.toggle-3785 input:checked + .toggle-3785__track .toggle-3785__status-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3785 input:checked + .toggle-3785__track .toggle-3785__status-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3785 input:checked + .toggle-3785__track .toggle-3785__module {
+    left: 8px;
+    right: auto;
+    background:
+        linear-gradient(to bottom, #111 0 7px, transparent 7px),
+        linear-gradient(135deg, #22c55e, #14b8a6);
+}
+.toggle-3785 input:focus-visible + .toggle-3785__track {
+    outline: 3px solid #2563eb;
+    outline-offset: 5px;
+}`,
+  },
+  {
+    id: 3786,
+    name: "Oni Slash Toggle",
+    preview: (
+      <label
+        className="toggle-3786"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Oni Slash Toggle" />
+        <span className="toggle-3786__track">
+          <span className="toggle-3786__bg"></span>
+          <span className="toggle-3786__slash toggle-3786__slash-1"></span>
+          <span className="toggle-3786__slash toggle-3786__slash-2"></span>
+          <span className="toggle-3786__horns"></span>
+          <span className="toggle-3786__speech">
+            <span className="toggle-3786__speech-off">CALM</span>
+            <span className="toggle-3786__speech-on">RAGE</span>
+          </span>
+          <span className="toggle-3786__thumb">
+            <span className="toggle-3786__face">
+              <span className="toggle-3786__eye toggle-3786__eye-left"></span>
+              <span className="toggle-3786__eye toggle-3786__eye-right"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3786">
+    <input type="checkbox" checked aria-label="Oni Slash Toggle">
+    <span class="toggle-3786__track">
+        <span class="toggle-3786__bg"></span>
+        <span class="toggle-3786__slash toggle-3786__slash-1"></span>
+        <span class="toggle-3786__slash toggle-3786__slash-2"></span>
+        <span class="toggle-3786__horns"></span>
+        <span class="toggle-3786__speech">
+            <span class="toggle-3786__speech-off">CALM</span>
+            <span class="toggle-3786__speech-on">RAGE</span>
+        </span>
+        <span class="toggle-3786__thumb">
+            <span class="toggle-3786__face">
+                <span class="toggle-3786__eye toggle-3786__eye-left"></span>
+                <span class="toggle-3786__eye toggle-3786__eye-right"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3786 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3786 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3786__track {
+    position: relative;
+    width: 146px;
+    height: 68px;
+    overflow: hidden;
+    border: 4px solid #111;
+    border-radius: 18px;
+    background: #fee2e2;
+    box-shadow: 7px 7px 0 #111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3786__bg {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(135deg, #fca5a5, #ef4444 45%, #991b1b 100%);
+    transition: background .25s ease;
+}
+.toggle-3786__slash {
+    position: absolute;
+    width: 58px;
+    height: 5px;
+    border: 2px solid #111;
+    background: #fff;
+    transform: rotate(-24deg);
+    box-shadow: 2px 2px 0 #111;
+    transition: transform .25s ease, opacity .25s ease;
+}
+.toggle-3786__slash-1 {
+    left: 10px;
+    top: 20px;
+}
+.toggle-3786__slash-2 {
+    left: 20px;
+    top: 37px;
+}
+.toggle-3786__horns {
+    position: absolute;
+    right: 21px;
+    top: 7px;
+    width: 26px;
+    height: 16px;
+    transition: right .25s ease, left .25s ease, transform .25s ease;
+}
+.toggle-3786__horns::before,
+.toggle-3786__horns::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 11px;
+    height: 16px;
+    border: 3px solid #111;
+    background: #fde68a;
+    clip-path: polygon(50% 0,100% 100%,0 100%);
+}
+.toggle-3786__horns::before {
+    left: 0;
+}
+.toggle-3786__horns::after {
+    right: 0;
+}
+.toggle-3786__speech {
+    position: absolute;
+    right: 11px;
+    bottom: 7px;
+    z-index: 3;
+    width: 42px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111;
+    background: #fff;
+    box-shadow: 3px 3px 0 #111;
+    clip-path: polygon(0 0,100% 0,100% 82%,33% 82%,22% 100%,24% 82%,0 82%);
+    transition: right .25s ease, left .25s ease, background .25s ease;
+}
+.toggle-3786__speech-off,
+.toggle-3786__speech-on {
+    position: absolute;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    color: #111;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3786__speech-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3786__speech-on {
+    opacity: 1;
+}
+.toggle-3786__thumb {
+    position: absolute;
+    left: 88px;
+    top: 6px;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111;
+    border-radius: 50%;
+    background: #fef2f2;
+    box-shadow: 4px 4px 0 #111;
+    transition: left .28s cubic-bezier(.34,1.56,.64,1), background .25s ease, transform .25s ease;
+}
+.toggle-3786__face {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #111;
+    border-radius: 50%;
+    background: #ef4444;
+    transition: background .25s ease;
+}
+.toggle-3786__eye {
+    position: absolute;
+    top: 10px;
+    width: 8px;
+    height: 4px;
+    background: #fff;
+    clip-path: polygon(0 50%,100% 0,80% 100%,0 55%);
+    transition: background .25s ease, box-shadow .25s ease;
+}
+.toggle-3786__eye-left {
+    left: 4px;
+}
+.toggle-3786__eye-right {
+    right: 4px;
+    transform: scaleX(-1);
+}
+.toggle-3786:hover .toggle-3786__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 9px 9px 0 #111;
+}
+.toggle-3786:hover .toggle-3786__thumb {
+    transform: rotate(-7deg) scale(1.03);
+}
+.toggle-3786 input:checked + .toggle-3786__track .toggle-3786__thumb {
+    left: 88px;
+}
+.toggle-3786 input:not(:checked) + .toggle-3786__track .toggle-3786__thumb {
+    left: 6px;
+    background: #ecfeff;
+}
+.toggle-3786 input:not(:checked) + .toggle-3786__track .toggle-3786__bg {
+    background: linear-gradient(135deg, #dbeafe, #67e8f9 45%, #0ea5e9 100%);
+}
+.toggle-3786 input:not(:checked) + .toggle-3786__track .toggle-3786__slash-1 {
+    transform: translateX(76px) rotate(24deg);
+}
+.toggle-3786 input:not(:checked) + .toggle-3786__track .toggle-3786__slash-2 {
+    transform: translateX(76px) rotate(24deg);
+}
+.toggle-3786 input:not(:checked) + .toggle-3786__track .toggle-3786__horns {
+    left: 21px;
+    right: auto;
+    transform: scale(.9);
+}
+.toggle-3786 input:not(:checked) + .toggle-3786__track .toggle-3786__speech {
+    left: 10px;
+    right: auto;
+    background: #ecfeff;
+}
+.toggle-3786 input:not(:checked) + .toggle-3786__track .toggle-3786__speech-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3786 input:not(:checked) + .toggle-3786__track .toggle-3786__speech-off {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3786 input:not(:checked) + .toggle-3786__track .toggle-3786__face {
+    background: #0ea5e9;
+}
+.toggle-3786 input:not(:checked) + .toggle-3786__track .toggle-3786__eye {
+    background: #fff;
+    box-shadow: 0 0 0 1px rgba(255,255,255,.2);
+}
+.toggle-3786 input:focus-visible + .toggle-3786__track {
+    outline: 3px solid #ef4444;
+    outline-offset: 5px;
+}`,
+  },
+  {
+    id: 3787,
+    name: "Manga Panel Toggle",
+    preview: (
+      <label
+        className="toggle-3787"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Manga Panel Toggle" />
+        <span className="toggle-3787__track">
+          <span className="toggle-3787__panel toggle-3787__panel-1"></span>
+          <span className="toggle-3787__panel toggle-3787__panel-2"></span>
+          <span className="toggle-3787__panel toggle-3787__panel-3"></span>
+          <span className="toggle-3787__ink"></span>
+          <span className="toggle-3787__bubble">
+            <span className="toggle-3787__bubble-off">QUIET</span>
+            <span className="toggle-3787__bubble-on">GO!</span>
+          </span>
+          <span className="toggle-3787__thumb">
+            <span className="toggle-3787__brush"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3787">
+    <input type="checkbox" checked aria-label="Manga Panel Toggle">
+    <span class="toggle-3787__track">
+        <span class="toggle-3787__panel toggle-3787__panel-1"></span>
+        <span class="toggle-3787__panel toggle-3787__panel-2"></span>
+        <span class="toggle-3787__panel toggle-3787__panel-3"></span>
+        <span class="toggle-3787__ink"></span>
+        <span class="toggle-3787__bubble">
+            <span class="toggle-3787__bubble-off">QUIET</span>
+            <span class="toggle-3787__bubble-on">GO!</span>
+        </span>
+        <span class="toggle-3787__thumb">
+            <span class="toggle-3787__brush"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3787 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3787 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3787__track {
+    position: relative;
+    width: 148px;
+    height: 68px;
+    overflow: hidden;
+    border: 4px solid #111;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 7px 7px 0 #111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3787__panel {
+    position: absolute;
+    border: 3px solid #111;
+    background: #fff;
+    transition: background .25s ease, transform .25s ease;
+}
+.toggle-3787__panel-1 {
+    left: 6px;
+    top: 6px;
+    width: 54px;
+    height: 25px;
+    background:
+        repeating-linear-gradient(-35deg, rgba(17,17,17,.12) 0 2px, transparent 2px 6px),
+        #fff;
+}
+.toggle-3787__panel-2 {
+    left: 6px;
+    bottom: 6px;
+    width: 38px;
+    height: 20px;
+    background:
+        radial-gradient(circle at 70% 40%, #111 0 2px, transparent 2px),
+        #fff;
+}
+.toggle-3787__panel-3 {
+    right: 7px;
+    top: 7px;
+    width: 52px;
+    height: 23px;
+    background:
+        linear-gradient(135deg, transparent 0 40%, rgba(17,17,17,.12) 40% 50%, transparent 50% 100%),
+        #fff;
+}
+.toggle-3787__ink {
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+    width: 33px;
+    height: 16px;
+    border: 3px solid #111;
+    border-radius: 50%;
+    background: #111;
+    transform: rotate(-8deg);
+    transition: left .25s ease, right .25s ease, background .25s ease;
+}
+.toggle-3787__bubble {
+    position: absolute;
+    right: 13px;
+    bottom: 7px;
+    z-index: 2;
+    width: 38px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111;
+    border-radius: 999px;
+    background: #fff;
+    box-shadow: 2px 2px 0 #111;
+    transition: left .25s ease, right .25s ease, transform .25s ease, background .25s ease;
+}
+.toggle-3787__bubble-off,
+.toggle-3787__bubble-on {
+    position: absolute;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    color: #111;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3787__bubble-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3787__bubble-on {
+    opacity: 1;
+}
+.toggle-3787__thumb {
+    position: absolute;
+    left: 88px;
+    top: 6px;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 4px 4px 0 #111;
+    transition: left .28s cubic-bezier(.34,1.56,.64,1), background .25s ease, transform .25s ease;
+}
+.toggle-3787__brush {
+    width: 24px;
+    height: 24px;
+    border: 3px solid #111;
+    background:
+        linear-gradient(135deg, #111 0 50%, #fff 50% 100%);
+    transform: rotate(45deg);
+    transition: transform .25s ease, background .25s ease;
+}
+.toggle-3787:hover .toggle-3787__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 9px 9px 0 #111;
+}
+.toggle-3787:hover .toggle-3787__thumb {
+    transform: rotate(-7deg) scale(1.03);
+}
+.toggle-3787 input:checked + .toggle-3787__track .toggle-3787__thumb {
+    left: 88px;
+}
+.toggle-3787 input:not(:checked) + .toggle-3787__track .toggle-3787__thumb {
+    left: 6px;
+    background: #f3f4f6;
+}
+.toggle-3787 input:not(:checked) + .toggle-3787__track .toggle-3787__panel-1 {
+    background:
+        repeating-linear-gradient(35deg, rgba(17,17,17,.12) 0 2px, transparent 2px 6px),
+        #fff;
+}
+.toggle-3787 input:not(:checked) + .toggle-3787__track .toggle-3787__ink {
+    left: auto;
+    right: 48px;
+    background: #2563eb;
+}
+.toggle-3787 input:not(:checked) + .toggle-3787__track .toggle-3787__bubble {
+    left: 10px;
+    right: auto;
+    background: #dbeafe;
+}
+.toggle-3787 input:not(:checked) + .toggle-3787__track .toggle-3787__bubble-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3787 input:not(:checked) + .toggle-3787__track .toggle-3787__bubble-off {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3787 input:not(:checked) + .toggle-3787__track .toggle-3787__brush {
+    background: linear-gradient(135deg, #2563eb 0 50%, #fff 50% 100%);
+    transform: rotate(45deg) scale(1.06);
+}
+.toggle-3787 input:focus-visible + .toggle-3787__track {
+    outline: 3px solid #111;
+    outline-offset: 5px;
+}`,
+  },
+  {
+    id: 3788,
+    name: "Shonen Awakening Aura Toggle",
+    preview: (
+      <label
+        className="toggle-3788"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Shonen Awakening Aura Toggle" />
+        <span className="toggle-3788__track">
+          <span className="toggle-3788__paper"></span>
+          <span className="toggle-3788__aura"></span>
+          <span className="toggle-3788__line toggle-3788__line-1"></span>
+          <span className="toggle-3788__line toggle-3788__line-2"></span>
+          <span className="toggle-3788__line toggle-3788__line-3"></span>
+          <span className="toggle-3788__line toggle-3788__line-4"></span>
+          <span className="toggle-3788__kanji">覚</span>
+          <span className="toggle-3788__state toggle-3788__state-off">
+            DORMANT
+          </span>
+          <span className="toggle-3788__state toggle-3788__state-on">
+            AWAKEN
+          </span>
+          <span className="toggle-3788__thumb">
+            <span className="toggle-3788__core"></span>
+            <span className="toggle-3788__spark toggle-3788__spark-1"></span>
+            <span className="toggle-3788__spark toggle-3788__spark-2"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3788">
+    <input type="checkbox" aria-label="Shonen Awakening Aura Toggle">
+
+    <span class="toggle-3788__track">
+        <span class="toggle-3788__paper"></span>
+        <span class="toggle-3788__aura"></span>
+
+        <span class="toggle-3788__line toggle-3788__line-1"></span>
+        <span class="toggle-3788__line toggle-3788__line-2"></span>
+        <span class="toggle-3788__line toggle-3788__line-3"></span>
+        <span class="toggle-3788__line toggle-3788__line-4"></span>
+
+        <span class="toggle-3788__kanji">覚</span>
+
+        <span class="toggle-3788__state toggle-3788__state-off">DORMANT</span>
+        <span class="toggle-3788__state toggle-3788__state-on">AWAKEN</span>
+
+        <span class="toggle-3788__thumb">
+            <span class="toggle-3788__core"></span>
+            <span class="toggle-3788__spark toggle-3788__spark-1"></span>
+            <span class="toggle-3788__spark toggle-3788__spark-2"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3788 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3788 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3788__track {
+    position: relative;
+    width: 152px;
+    height: 70px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 12px;
+    background: #f8fafc;
+    box-shadow: 8px 8px 0 #111111;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+
+.toggle-3788__paper {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            rgba(17,17,17,.16) 1.2px,
+            transparent 1.3px
+        );
+    background-size: 7px 7px;
+}
+
+.toggle-3788__aura {
+    position: absolute;
+    width: 75px;
+    height: 90px;
+    right: -5px;
+    top: -11px;
+    background: #d4d4d8;
+    clip-path: polygon(
+        50% 0,
+        59% 18%,
+        72% 4%,
+        75% 24%,
+        94% 14%,
+        86% 34%,
+        100% 39%,
+        85% 52%,
+        98% 66%,
+        78% 66%,
+        82% 88%,
+        63% 76%,
+        50% 100%,
+        39% 77%,
+        20% 90%,
+        25% 67%,
+        4% 69%,
+        17% 52%,
+        0 40%,
+        17% 33%,
+        6% 14%,
+        28% 24%,
+        29% 4%,
+        42% 18%
+    );
+    opacity: .45;
+    transition:
+        background .3s ease,
+        transform .35s ease,
+        opacity .3s ease;
+}
+
+.toggle-3788__line {
+    position: absolute;
+    z-index: 2;
+    height: 3px;
+    background: #111111;
+    transform-origin: right center;
+    transition:
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3788__line-1 {
+    width: 40px;
+    left: 8px;
+    top: 11px;
+    transform: rotate(10deg);
+}
+
+.toggle-3788__line-2 {
+    width: 30px;
+    left: 4px;
+    top: 28px;
+    transform: rotate(1deg);
+}
+
+.toggle-3788__line-3 {
+    width: 43px;
+    left: 9px;
+    bottom: 12px;
+    transform: rotate(-12deg);
+}
+
+.toggle-3788__line-4 {
+    width: 24px;
+    left: 37px;
+    bottom: 5px;
+    transform: rotate(-24deg);
+}
+
+.toggle-3788__kanji {
+    position: absolute;
+    right: 23px;
+    top: 14px;
+    z-index: 3;
+    color: #111111;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1;
+    opacity: .32;
+    transform: rotate(8deg);
+    transition:
+        opacity .3s ease,
+        transform .35s ease,
+        color .3s ease;
+}
+
+.toggle-3788__state {
+    position: absolute;
+    z-index: 4;
+    top: 27px;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    letter-spacing: .4px;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3788__state-off {
+    right: 12px;
+    opacity: 1;
+}
+
+.toggle-3788__state-on {
+    left: 12px;
+    opacity: 0;
+    transform: translateY(10px) scale(.7);
+}
+
+.toggle-3788__thumb {
+    position: absolute;
+    left: 6px;
+    top: 5px;
+    z-index: 7;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #e5e7eb;
+    box-shadow: 5px 5px 0 #111111;
+    transition:
+        left .34s cubic-bezier(.34,1.56,.64,1),
+        background .3s ease,
+        transform .3s ease,
+        box-shadow .25s ease;
+}
+
+.toggle-3788__core {
+    width: 27px;
+    height: 27px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: inset 0 0 0 5px #9ca3af;
+    transition:
+        box-shadow .3s ease,
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3788__spark {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background: #111111;
+    clip-path: polygon(
+        50% 0,
+        61% 38%,
+        100% 50%,
+        61% 62%,
+        50% 100%,
+        39% 62%,
+        0 50%,
+        39% 38%
+    );
+    opacity: 0;
+    transition:
+        opacity .25s ease,
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3788__spark-1 {
+    right: -6px;
+    top: 5px;
+}
+
+.toggle-3788__spark-2 {
+    right: 1px;
+    bottom: -5px;
+    transform: scale(.65);
+}
+
+.toggle-3788:hover .toggle-3788__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3788:hover .toggle-3788__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+
+.toggle-3788 input:checked + .toggle-3788__track {
+    background: #fff7ed;
+}
+
+.toggle-3788 input:checked + .toggle-3788__track .toggle-3788__thumb {
+    left: 90px;
+    background: #facc15;
+    transform: rotate(8deg);
+}
+
+.toggle-3788 input:checked + .toggle-3788__track .toggle-3788__core {
+    background: #fff7ed;
+    box-shadow:
+        inset 0 0 0 5px #f97316,
+        0 0 15px #f97316;
+    transform: scale(1.08);
+}
+
+.toggle-3788 input:checked + .toggle-3788__track .toggle-3788__aura {
+    background: #fb923c;
+    opacity: .85;
+    transform: scale(1.16) rotate(8deg);
+}
+
+.toggle-3788 input:checked + .toggle-3788__track .toggle-3788__kanji {
+    left: 24px;
+    right: auto;
+    color: #dc2626;
+    opacity: .72;
+    transform: rotate(-8deg) scale(1.2);
+}
+
+.toggle-3788 input:checked + .toggle-3788__track .toggle-3788__state-off {
+    opacity: 0;
+    transform: translateY(-10px) scale(.7);
+}
+
+.toggle-3788 input:checked + .toggle-3788__track .toggle-3788__state-on {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.toggle-3788 input:checked + .toggle-3788__track .toggle-3788__line-1 {
+    background: #dc2626;
+    transform: translateX(78px) rotate(-10deg);
+}
+
+.toggle-3788 input:checked + .toggle-3788__track .toggle-3788__line-2 {
+    background: #f97316;
+    transform: translateX(92px) rotate(-2deg);
+}
+
+.toggle-3788 input:checked + .toggle-3788__track .toggle-3788__line-3 {
+    background: #dc2626;
+    transform: translateX(76px) rotate(12deg);
+}
+
+.toggle-3788 input:checked + .toggle-3788__track .toggle-3788__line-4 {
+    background: #facc15;
+    transform: translateX(66px) rotate(24deg);
+}
+
+.toggle-3788 input:checked + .toggle-3788__track .toggle-3788__spark {
+    opacity: 1;
+    background: #fef08a;
+}
+
+.toggle-3788 input:checked + .toggle-3788__track .toggle-3788__spark-1 {
+    transform: rotate(45deg) scale(1.15);
+}
+
+.toggle-3788 input:checked + .toggle-3788__track .toggle-3788__spark-2 {
+    transform: rotate(-35deg) scale(.8);
+}
+
+.toggle-3788 input:focus-visible + .toggle-3788__track {
+    outline: 3px solid #f97316;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3789,
+    name: "Shonen Rival Clash Toggle",
+    preview: (
+      <label
+        className="toggle-3789"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Shonen Rival Clash Toggle"
+        />
+        <span className="toggle-3789__track">
+          <span className="toggle-3789__side toggle-3789__side-a"></span>
+          <span className="toggle-3789__side toggle-3789__side-b"></span>
+          <span className="toggle-3789__tone"></span>
+          <span className="toggle-3789__clash"></span>
+          <span className="toggle-3789__mark toggle-3789__mark-a">A</span>
+          <span className="toggle-3789__mark toggle-3789__mark-b">B</span>
+          <span className="toggle-3789__text">
+            <span className="toggle-3789__text-off">VS</span>
+            <span className="toggle-3789__text-on">CLASH!</span>
+          </span>
+          <span className="toggle-3789__thumb">
+            <span className="toggle-3789__eye toggle-3789__eye-a"></span>
+            <span className="toggle-3789__eye toggle-3789__eye-b"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3789">
+    <input type="checkbox" checked aria-label="Shonen Rival Clash Toggle">
+
+    <span class="toggle-3789__track">
+        <span class="toggle-3789__side toggle-3789__side-a"></span>
+        <span class="toggle-3789__side toggle-3789__side-b"></span>
+        <span class="toggle-3789__tone"></span>
+        <span class="toggle-3789__clash"></span>
+
+        <span class="toggle-3789__mark toggle-3789__mark-a">A</span>
+        <span class="toggle-3789__mark toggle-3789__mark-b">B</span>
+
+        <span class="toggle-3789__text">
+            <span class="toggle-3789__text-off">VS</span>
+            <span class="toggle-3789__text-on">CLASH!</span>
+        </span>
+
+        <span class="toggle-3789__thumb">
+            <span class="toggle-3789__eye toggle-3789__eye-a"></span>
+            <span class="toggle-3789__eye toggle-3789__eye-b"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3789 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3789 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3789__track {
+    position: relative;
+    width: 154px;
+    height: 70px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 8px 8px 0 #111111;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+.toggle-3789__side {
+    position: absolute;
+    inset-block: 0;
+    width: 60%;
+    transition:
+        width .3s ease,
+        background .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3789__side-a {
+    left: 0;
+    background: #1d4ed8;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        72% 100%,
+        0 100%
+    );
+}
+
+.toggle-3789__side-b {
+    right: 0;
+    background: #dc2626;
+    clip-path: polygon(
+        28% 0,
+        100% 0,
+        100% 100%,
+        0 100%
+    );
+}
+
+.toggle-3789__tone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(
+        rgba(17,17,17,.65) 1.4px,
+        transparent 1.6px
+    );
+    background-size: 7px 7px;
+    opacity: .35;
+}
+
+.toggle-3789__clash {
+    position: absolute;
+    left: 65px;
+    top: -10px;
+    z-index: 2;
+    width: 25px;
+    height: 92px;
+    border-inline: 3px solid #111111;
+    background: #facc15;
+    transform: rotate(16deg);
+    transition:
+        transform .3s ease,
+        width .3s ease,
+        background .3s ease;
+}
+
+.toggle-3789__mark {
+    position: absolute;
+    top: 7px;
+    z-index: 3;
+    display: grid;
+    place-items: center;
+    width: 22px;
+    height: 22px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #111111;
+    font: 900 9px/1 Arial Black, Arial, sans-serif;
+    box-shadow: 2px 2px 0 #111111;
+}
+
+.toggle-3789__mark-a {
+    left: 14px;
+}
+
+.toggle-3789__mark-b {
+    right: 14px;
+}
+
+.toggle-3789__text {
+    position: absolute;
+    left: 55px;
+    top: 23px;
+    z-index: 5;
+    width: 45px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(-4deg);
+    transition:
+        transform .25s ease,
+        background .25s ease;
+}
+
+.toggle-3789__text-off,
+.toggle-3789__text-on {
+    position: absolute;
+    color: #111111;
+    font: 900 8px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3789__text-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3789__text-on {
+    opacity: 1;
+}
+
+.toggle-3789__thumb {
+    position: absolute;
+    left: 92px;
+    top: 6px;
+    z-index: 7;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            135deg,
+            #dbeafe 0 50%,
+            #fee2e2 50% 100%
+        );
+    box-shadow: 5px 5px 0 #111111;
+    transition:
+        left .34s cubic-bezier(.34,1.56,.64,1),
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3789__eye {
+    position: absolute;
+    top: 21px;
+    width: 17px;
+    height: 7px;
+    border: 2px solid #111111;
+    background: #ffffff;
+    clip-path: polygon(
+        0 55%,
+        100% 0,
+        82% 100%,
+        15% 86%
+    );
+    transition:
+        background .3s ease,
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+.toggle-3789__eye-a {
+    left: 6px;
+}
+
+.toggle-3789__eye-b {
+    right: 6px;
+    transform: scaleX(-1);
+}
+
+.toggle-3789:hover .toggle-3789__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3789:hover .toggle-3789__thumb {
+    transform: rotate(-6deg) scale(1.04);
+}
+
+.toggle-3789:hover .toggle-3789__text {
+    transform: rotate(5deg) scale(1.06);
+}
+
+.toggle-3789 input:not(:checked) + .toggle-3789__track .toggle-3789__thumb {
+    left: 6px;
+}
+
+.toggle-3789 input:not(:checked) + .toggle-3789__track .toggle-3789__side-a {
+    width: 75%;
+}
+
+.toggle-3789 input:not(:checked) + .toggle-3789__track .toggle-3789__side-b {
+    width: 42%;
+}
+
+.toggle-3789 input:not(:checked) + .toggle-3789__track .toggle-3789__clash {
+    transform: translateX(10px) rotate(-16deg);
+    background: #e5e7eb;
+}
+
+.toggle-3789 input:not(:checked) + .toggle-3789__track .toggle-3789__text {
+    left: 94px;
+    background: #dbeafe;
+    transform: rotate(5deg);
+}
+
+.toggle-3789 input:not(:checked) + .toggle-3789__track .toggle-3789__text-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3789 input:not(:checked) + .toggle-3789__track .toggle-3789__text-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3789 input:not(:checked) + .toggle-3789__track .toggle-3789__eye-a {
+    background: #60a5fa;
+    box-shadow: 0 0 8px #2563eb;
+}
+
+.toggle-3789 input:checked + .toggle-3789__track .toggle-3789__side-a {
+    width: 47%;
+    background: #0ea5e9;
+}
+
+.toggle-3789 input:checked + .toggle-3789__track .toggle-3789__side-b {
+    width: 74%;
+    background: #f43f5e;
+}
+
+.toggle-3789 input:checked + .toggle-3789__track .toggle-3789__clash {
+    width: 31px;
+    background: #facc15;
+    transform: rotate(20deg);
+}
+
+.toggle-3789 input:checked + .toggle-3789__track .toggle-3789__eye-b {
+    background: #fb7185;
+    box-shadow: 0 0 8px #ef4444;
+    transform: scaleX(-1) scale(1.08);
+}
+
+.toggle-3789 input:focus-visible + .toggle-3789__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3790,
+    name: "Shonen Speed Dash Toggle",
+    preview: (
+      <label
+        className="toggle-3790"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Shonen Speed Dash Toggle" />
+        <span className="toggle-3790__track">
+          <span className="toggle-3790__background"></span>
+          <span className="toggle-3790__speed toggle-3790__speed-1"></span>
+          <span className="toggle-3790__speed toggle-3790__speed-2"></span>
+          <span className="toggle-3790__speed toggle-3790__speed-3"></span>
+          <span className="toggle-3790__speed toggle-3790__speed-4"></span>
+          <span className="toggle-3790__speed toggle-3790__speed-5"></span>
+          <span className="toggle-3790__burst">
+            <span className="toggle-3790__burst-off">READY</span>
+            <span className="toggle-3790__burst-on">DASH!</span>
+          </span>
+          <span className="toggle-3790__thumb">
+            <span className="toggle-3790__arrow"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3790">
+    <input type="checkbox" aria-label="Shonen Speed Dash Toggle">
+
+    <span class="toggle-3790__track">
+        <span class="toggle-3790__background"></span>
+
+        <span class="toggle-3790__speed toggle-3790__speed-1"></span>
+        <span class="toggle-3790__speed toggle-3790__speed-2"></span>
+        <span class="toggle-3790__speed toggle-3790__speed-3"></span>
+        <span class="toggle-3790__speed toggle-3790__speed-4"></span>
+        <span class="toggle-3790__speed toggle-3790__speed-5"></span>
+
+        <span class="toggle-3790__burst">
+            <span class="toggle-3790__burst-off">READY</span>
+            <span class="toggle-3790__burst-on">DASH!</span>
+        </span>
+
+        <span class="toggle-3790__thumb">
+            <span class="toggle-3790__arrow"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3790 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3790 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3790__track {
+    position: relative;
+    width: 154px;
+    height: 68px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 9px;
+    background: #f8fafc;
+    box-shadow: 8px 8px 0 #111111;
+    transition:
+        transform .22s ease,
+        box-shadow .22s ease,
+        background .3s ease;
+}
+
+.toggle-3790__background {
+    position: absolute;
+    inset: 0;
+    background:
+        repeating-linear-gradient(
+            -12deg,
+            #ffffff 0 6px,
+            #e5e7eb 6px 9px
+        );
+    transition:
+        background .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3790__speed {
+    position: absolute;
+    z-index: 2;
+    height: 4px;
+    background: #111111;
+    transform: skewX(-28deg);
+    transition:
+        transform .35s cubic-bezier(.4,0,.2,1),
+        background .3s ease;
+}
+
+.toggle-3790__speed-1 {
+    width: 45px;
+    right: 9px;
+    top: 8px;
+}
+
+.toggle-3790__speed-2 {
+    width: 34px;
+    right: 20px;
+    top: 19px;
+}
+
+.toggle-3790__speed-3 {
+    width: 49px;
+    right: 4px;
+    top: 31px;
+}
+
+.toggle-3790__speed-4 {
+    width: 31px;
+    right: 17px;
+    bottom: 18px;
+}
+
+.toggle-3790__speed-5 {
+    width: 42px;
+    right: 8px;
+    bottom: 7px;
+}
+
+.toggle-3790__burst {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+    z-index: 4;
+    width: 48px;
+    height: 27px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #facc15;
+    box-shadow: 3px 3px 0 #111111;
+    clip-path: polygon(
+        0 11%,
+        100% 0,
+        91% 50%,
+        100% 100%,
+        0 88%,
+        12% 50%
+    );
+    transition:
+        left .28s ease,
+        right .28s ease,
+        transform .25s ease,
+        background .25s ease;
+}
+
+.toggle-3790__burst-off,
+.toggle-3790__burst-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .18s ease,
+        transform .25s ease;
+}
+
+.toggle-3790__burst-off {
+    opacity: 1;
+}
+
+.toggle-3790__burst-on {
+    opacity: 0;
+    transform: translateX(-10px) scale(.6);
+}
+
+.toggle-3790__thumb {
+    position: absolute;
+    left: 6px;
+    top: 5px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 14px;
+    background: #ffffff;
+    box-shadow: 5px 5px 0 #111111;
+    transition:
+        left .28s cubic-bezier(.34,1.56,.64,1),
+        background .3s ease,
+        transform .3s ease,
+        box-shadow .25s ease;
+}
+
+.toggle-3790__arrow {
+    width: 28px;
+    height: 24px;
+    border: 3px solid #111111;
+    background: #9ca3af;
+    clip-path: polygon(
+        0 33%,
+        58% 33%,
+        58% 0,
+        100% 50%,
+        58% 100%,
+        58% 67%,
+        0 67%
+    );
+    transition:
+        background .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3790:hover .toggle-3790__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3790:hover .toggle-3790__thumb {
+    transform: skewX(-7deg) scale(1.04);
+}
+
+.toggle-3790 input:checked + .toggle-3790__track {
+    background: #eff6ff;
+}
+
+.toggle-3790 input:checked + .toggle-3790__track .toggle-3790__background {
+    background:
+        repeating-linear-gradient(
+            -12deg,
+            #dbeafe 0 6px,
+            #93c5fd 6px 9px
+        );
+    transform: translateX(6px);
+}
+
+.toggle-3790 input:checked + .toggle-3790__track .toggle-3790__thumb {
+    left: 92px;
+    background: #22d3ee;
+    transform: skewX(7deg);
+}
+
+.toggle-3790 input:checked + .toggle-3790__track .toggle-3790__arrow {
+    background: #facc15;
+    transform: translateX(3px) scale(1.12);
+}
+
+.toggle-3790 input:checked + .toggle-3790__track .toggle-3790__burst {
+    left: 9px;
+    right: auto;
+    background: #a3e635;
+    transform: skewX(-6deg);
+}
+
+.toggle-3790 input:checked + .toggle-3790__track .toggle-3790__burst-off {
+    opacity: 0;
+    transform: translateX(10px) scale(.6);
+}
+
+.toggle-3790 input:checked + .toggle-3790__track .toggle-3790__burst-on {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+}
+
+.toggle-3790 input:checked + .toggle-3790__track .toggle-3790__speed-1 {
+    background: #2563eb;
+    transform: translateX(-92px) skewX(28deg);
+}
+
+.toggle-3790 input:checked + .toggle-3790__track .toggle-3790__speed-2 {
+    background: #0ea5e9;
+    transform: translateX(-84px) skewX(28deg);
+}
+
+.toggle-3790 input:checked + .toggle-3790__track .toggle-3790__speed-3 {
+    background: #2563eb;
+    transform: translateX(-97px) skewX(28deg);
+}
+
+.toggle-3790 input:checked + .toggle-3790__track .toggle-3790__speed-4 {
+    background: #0ea5e9;
+    transform: translateX(-80px) skewX(28deg);
+}
+
+.toggle-3790 input:checked + .toggle-3790__track .toggle-3790__speed-5 {
+    background: #2563eb;
+    transform: translateX(-91px) skewX(28deg);
+}
+
+.toggle-3790 input:focus-visible + .toggle-3790__track {
+    outline: 3px solid #0ea5e9;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3791,
+    name: "Shonen Spirit Seal Toggle",
+    preview: (
+      <label
+        className="toggle-3791"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Shonen Spirit Seal Toggle"
+        />
+        <span className="toggle-3791__track">
+          <span className="toggle-3791__paper"></span>
+          <span className="toggle-3791__seal">
+            <span className="toggle-3791__seal-ring"></span>
+            <span className="toggle-3791__seal-symbol">力</span>
+          </span>
+          <span className="toggle-3791__tag toggle-3791__tag-1"></span>
+          <span className="toggle-3791__tag toggle-3791__tag-2"></span>
+          <span className="toggle-3791__tag toggle-3791__tag-3"></span>
+          <span className="toggle-3791__state">
+            <span className="toggle-3791__state-off">SEALED</span>
+            <span className="toggle-3791__state-on">RELEASE</span>
+          </span>
+          <span className="toggle-3791__thumb">
+            <span className="toggle-3791__glyph">封</span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3791">
+    <input type="checkbox" checked aria-label="Shonen Spirit Seal Toggle">
+
+    <span class="toggle-3791__track">
+        <span class="toggle-3791__paper"></span>
+
+        <span class="toggle-3791__seal">
+            <span class="toggle-3791__seal-ring"></span>
+            <span class="toggle-3791__seal-symbol">力</span>
+        </span>
+
+        <span class="toggle-3791__tag toggle-3791__tag-1"></span>
+        <span class="toggle-3791__tag toggle-3791__tag-2"></span>
+        <span class="toggle-3791__tag toggle-3791__tag-3"></span>
+
+        <span class="toggle-3791__state">
+            <span class="toggle-3791__state-off">SEALED</span>
+            <span class="toggle-3791__state-on">RELEASE</span>
+        </span>
+
+        <span class="toggle-3791__thumb">
+            <span class="toggle-3791__glyph">封</span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3791 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3791 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3791__track {
+    position: relative;
+    width: 152px;
+    height: 70px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 13px;
+    background: #f4ead7;
+    box-shadow: 8px 8px 0 #111111;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+
+.toggle-3791__paper {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            90deg,
+            transparent 49%,
+            rgba(17,17,17,.06) 50%,
+            transparent 51%
+        ),
+        linear-gradient(
+            transparent 49%,
+            rgba(17,17,17,.06) 50%,
+            transparent 51%
+        );
+    background-size: 18px 18px;
+}
+
+.toggle-3791__seal {
+    position: absolute;
+    right: 15px;
+    top: 9px;
+    z-index: 3;
+    width: 43px;
+    height: 43px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #dc2626;
+    box-shadow: 3px 3px 0 #111111;
+    transition:
+        left .3s ease,
+        right .3s ease,
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3791__seal-ring {
+    position: absolute;
+    inset: 6px;
+    border: 2px dashed #fef2f2;
+    border-radius: 50%;
+    transition: transform .35s ease;
+}
+
+.toggle-3791__seal-symbol {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.toggle-3791__tag {
+    position: absolute;
+    z-index: 2;
+    width: 17px;
+    height: 37px;
+    border: 2px solid #111111;
+    background: #fef3c7;
+    transition:
+        transform .35s ease,
+        opacity .3s ease,
+        background .3s ease;
+}
+
+.toggle-3791__tag::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 5px;
+    width: 2px;
+    height: 23px;
+    background: #dc2626;
+}
+
+.toggle-3791__tag-1 {
+    left: 42px;
+    top: -6px;
+    transform: rotate(-12deg);
+}
+
+.toggle-3791__tag-2 {
+    left: 60px;
+    bottom: -8px;
+    transform: rotate(9deg);
+}
+
+.toggle-3791__tag-3 {
+    right: 59px;
+    top: 10px;
+    transform: rotate(16deg);
+}
+
+.toggle-3791__state {
+    position: absolute;
+    left: 11px;
+    top: 24px;
+    z-index: 4;
+    width: 53px;
+    height: 23px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(-3deg);
+    transition:
+        left .3s ease,
+        right .3s ease,
+        background .3s ease,
+        transform .25s ease;
+}
+
+.toggle-3791__state-off,
+.toggle-3791__state-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3791__state-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3791__state-on {
+    opacity: 1;
+}
+
+.toggle-3791__thumb {
+    position: absolute;
+    left: 90px;
+    top: 6px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 8px;
+    background: #111111;
+    box-shadow: 5px 5px 0 rgba(17,17,17,.35);
+    transition:
+        left .34s cubic-bezier(.34,1.56,.64,1),
+        background .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3791__glyph {
+    color: #fef3c7;
+    font-size: 21px;
+    font-weight: 900;
+    transition:
+        color .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3791:hover .toggle-3791__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3791:hover .toggle-3791__thumb {
+    transform: rotate(-7deg) scale(1.04);
+}
+
+.toggle-3791:hover .toggle-3791__seal-ring {
+    transform: rotate(25deg);
+}
+
+.toggle-3791 input:not(:checked) + .toggle-3791__track {
+    background: #e5e7eb;
+}
+
+.toggle-3791 input:not(:checked) + .toggle-3791__track .toggle-3791__thumb {
+    left: 6px;
+    background: #4b5563;
+}
+
+.toggle-3791 input:not(:checked) + .toggle-3791__track .toggle-3791__glyph {
+    color: #ffffff;
+    transform: scale(.9);
+}
+
+.toggle-3791 input:not(:checked) + .toggle-3791__track .toggle-3791__seal {
+    left: 14px;
+    right: auto;
+    background: #6b7280;
+    transform: rotate(-15deg) scale(.9);
+}
+
+.toggle-3791 input:not(:checked) + .toggle-3791__track .toggle-3791__state {
+    left: auto;
+    right: 9px;
+    background: #f3f4f6;
+    transform: rotate(3deg);
+}
+
+.toggle-3791 input:not(:checked) + .toggle-3791__track .toggle-3791__state-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3791 input:not(:checked) + .toggle-3791__track .toggle-3791__state-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3791 input:not(:checked) + .toggle-3791__track .toggle-3791__tag-1 {
+    transform: translateX(79px) rotate(14deg);
+    background: #d1d5db;
+}
+
+.toggle-3791 input:not(:checked) + .toggle-3791__track .toggle-3791__tag-2 {
+    transform: translateX(66px) rotate(-11deg);
+    background: #d1d5db;
+}
+
+.toggle-3791 input:not(:checked) + .toggle-3791__track .toggle-3791__tag-3 {
+    transform: translateX(-61px) rotate(-18deg);
+    background: #d1d5db;
+}
+
+.toggle-3791 input:checked + .toggle-3791__track .toggle-3791__seal {
+    transform: rotate(12deg) scale(1.06);
+}
+
+.toggle-3791 input:checked + .toggle-3791__track .toggle-3791__seal-ring {
+    transform: rotate(45deg);
+}
+
+.toggle-3791 input:checked + .toggle-3791__track .toggle-3791__tag-1 {
+    transform: translateY(-8px) rotate(-18deg);
+}
+
+.toggle-3791 input:checked + .toggle-3791__track .toggle-3791__tag-2 {
+    transform: translateY(8px) rotate(14deg);
+}
+
+.toggle-3791 input:checked + .toggle-3791__track .toggle-3791__tag-3 {
+    transform: rotate(24deg);
+}
+
+.toggle-3791 input:focus-visible + .toggle-3791__track {
+    outline: 3px solid #dc2626;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3792,
+    name: "Shonen Final Form Toggle",
+    preview: (
+      <label
+        className="toggle-3792"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Shonen Final Form Toggle" />
+        <span className="toggle-3792__track">
+          <span className="toggle-3792__energy"></span>
+          <span className="toggle-3792__tone"></span>
+          <span className="toggle-3792__flare toggle-3792__flare-1"></span>
+          <span className="toggle-3792__flare toggle-3792__flare-2"></span>
+          <span className="toggle-3792__flare toggle-3792__flare-3"></span>
+          <span className="toggle-3792__flare toggle-3792__flare-4"></span>
+          <span className="toggle-3792__title">
+            <span className="toggle-3792__title-off">BASE</span>
+            <span className="toggle-3792__title-on">FINAL</span>
+          </span>
+          <span className="toggle-3792__thumb">
+            <span className="toggle-3792__ring"></span>
+            <span className="toggle-3792__diamond"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3792">
+    <input type="checkbox" aria-label="Shonen Final Form Toggle">
+
+    <span class="toggle-3792__track">
+        <span class="toggle-3792__energy"></span>
+        <span class="toggle-3792__tone"></span>
+
+        <span class="toggle-3792__flare toggle-3792__flare-1"></span>
+        <span class="toggle-3792__flare toggle-3792__flare-2"></span>
+        <span class="toggle-3792__flare toggle-3792__flare-3"></span>
+        <span class="toggle-3792__flare toggle-3792__flare-4"></span>
+
+        <span class="toggle-3792__title">
+            <span class="toggle-3792__title-off">BASE</span>
+            <span class="toggle-3792__title-on">FINAL</span>
+        </span>
+
+        <span class="toggle-3792__thumb">
+            <span class="toggle-3792__ring"></span>
+            <span class="toggle-3792__diamond"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3792 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3792 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3792__track {
+    position: relative;
+    width: 156px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #111827;
+    box-shadow: 8px 8px 0 #111111;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .35s ease;
+}
+
+.toggle-3792__energy {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle at 25% 50%,
+            #475569 0 8%,
+            transparent 9%
+        ),
+        linear-gradient(
+            120deg,
+            #0f172a,
+            #334155 48%,
+            #111827
+        );
+    transition:
+        filter .35s ease,
+        transform .4s ease,
+        background .35s ease;
+}
+
+.toggle-3792__tone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(
+        rgba(255,255,255,.17) 1.4px,
+        transparent 1.6px
+    );
+    background-size: 8px 8px;
+}
+
+.toggle-3792__flare {
+    position: absolute;
+    z-index: 2;
+    height: 4px;
+    border: 1px solid #111111;
+    background: #94a3b8;
+    transition:
+        transform .4s ease,
+        background .35s ease,
+        box-shadow .35s ease;
+}
+
+.toggle-3792__flare-1 {
+    width: 43px;
+    right: 8px;
+    top: 9px;
+    transform: rotate(-15deg);
+}
+
+.toggle-3792__flare-2 {
+    width: 31px;
+    right: 3px;
+    top: 27px;
+    transform: rotate(4deg);
+}
+
+.toggle-3792__flare-3 {
+    width: 46px;
+    right: 9px;
+    bottom: 10px;
+    transform: rotate(15deg);
+}
+
+.toggle-3792__flare-4 {
+    width: 24px;
+    right: 43px;
+    bottom: 5px;
+    transform: rotate(-21deg);
+}
+
+.toggle-3792__title {
+    position: absolute;
+    right: 10px;
+    top: 23px;
+    z-index: 4;
+    width: 48px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #f8fafc;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(4deg);
+    transition:
+        left .3s ease,
+        right .3s ease,
+        background .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3792__title-off,
+.toggle-3792__title-on {
+    position: absolute;
+    color: #111111;
+    font: 900 8px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .3s ease;
+}
+
+.toggle-3792__title-off {
+    opacity: 1;
+}
+
+.toggle-3792__title-on {
+    opacity: 0;
+    transform: scale(.4) rotate(-14deg);
+}
+
+.toggle-3792__thumb {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    z-index: 7;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #64748b;
+    box-shadow: 5px 5px 0 #111111;
+    transition:
+        left .36s cubic-bezier(.34,1.56,.64,1),
+        background .35s ease,
+        transform .35s ease,
+        box-shadow .3s ease;
+}
+
+.toggle-3792__ring {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border: 3px solid #e2e8f0;
+    border-radius: 50%;
+    transition:
+        transform .4s ease,
+        border-color .35s ease,
+        box-shadow .35s ease;
+}
+
+.toggle-3792__diamond {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border: 3px solid #111111;
+    background: #e2e8f0;
+    transform: rotate(45deg);
+    transition:
+        background .35s ease,
+        transform .4s ease,
+        box-shadow .35s ease;
+}
+
+.toggle-3792:hover .toggle-3792__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3792:hover .toggle-3792__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+
+.toggle-3792:hover .toggle-3792__ring {
+    transform: rotate(30deg);
+}
+
+.toggle-3792 input:checked + .toggle-3792__track {
+    background: #312e81;
+}
+
+.toggle-3792 input:checked + .toggle-3792__track .toggle-3792__energy {
+    background:
+        radial-gradient(
+            circle at 73% 50%,
+            rgba(255,255,255,.9) 0 5%,
+            transparent 6% 13%,
+            rgba(168,85,247,.45) 14%,
+            transparent 34%
+        ),
+        linear-gradient(
+            120deg,
+            #1e1b4b,
+            #6d28d9 47%,
+            #db2777
+        );
+    filter: brightness(1.2);
+    transform: scale(1.08);
+}
+
+.toggle-3792 input:checked + .toggle-3792__track .toggle-3792__thumb {
+    left: 94px;
+    background: #a855f7;
+    transform: rotate(8deg);
+}
+
+.toggle-3792 input:checked + .toggle-3792__track .toggle-3792__ring {
+    border-color: #fef08a;
+    transform: rotate(90deg) scale(1.08);
+    box-shadow:
+        0 0 9px #facc15,
+        inset 0 0 8px rgba(250,204,21,.45);
+}
+
+.toggle-3792 input:checked + .toggle-3792__track .toggle-3792__diamond {
+    background: #ffffff;
+    transform: rotate(135deg) scale(1.08);
+    box-shadow: 0 0 12px #ffffff;
+}
+
+.toggle-3792 input:checked + .toggle-3792__track .toggle-3792__title {
+    left: 9px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(-5deg);
+}
+
+.toggle-3792 input:checked + .toggle-3792__track .toggle-3792__title-off {
+    opacity: 0;
+    transform: scale(.4) rotate(14deg);
+}
+
+.toggle-3792 input:checked + .toggle-3792__track .toggle-3792__title-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3792 input:checked + .toggle-3792__track .toggle-3792__flare-1 {
+    background: #22d3ee;
+    box-shadow: 0 0 7px #22d3ee;
+    transform: translateX(-92px) rotate(15deg);
+}
+
+.toggle-3792 input:checked + .toggle-3792__track .toggle-3792__flare-2 {
+    background: #facc15;
+    box-shadow: 0 0 7px #facc15;
+    transform: translateX(-85px) rotate(-5deg);
+}
+
+.toggle-3792 input:checked + .toggle-3792__track .toggle-3792__flare-3 {
+    background: #f472b6;
+    box-shadow: 0 0 7px #f472b6;
+    transform: translateX(-94px) rotate(-15deg);
+}
+
+.toggle-3792 input:checked + .toggle-3792__track .toggle-3792__flare-4 {
+    background: #ffffff;
+    box-shadow: 0 0 7px #ffffff;
+    transform: translateX(-68px) rotate(22deg);
+}
+
+.toggle-3792 input:focus-visible + .toggle-3792__track {
+    outline: 3px solid #a855f7;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3793,
+    name: "Shonen Ki Charge Toggle",
+    preview: (
+      <label
+        className="toggle-3793"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Shonen Ki Charge Toggle" />
+        <span className="toggle-3793__track">
+          <span className="toggle-3793__field"></span>
+          <span className="toggle-3793__wave toggle-3793__wave-1"></span>
+          <span className="toggle-3793__wave toggle-3793__wave-2"></span>
+          <span className="toggle-3793__wave toggle-3793__wave-3"></span>
+          <span className="toggle-3793__label">
+            <span className="toggle-3793__label-off">0%</span>
+            <span className="toggle-3793__label-on">100%</span>
+          </span>
+          <span className="toggle-3793__thumb">
+            <span className="toggle-3793__energy">
+              <span className="toggle-3793__energy-core"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3793">
+    <input type="checkbox" aria-label="Shonen Ki Charge Toggle">
+    <span class="toggle-3793__track">
+        <span class="toggle-3793__field"></span>
+        <span class="toggle-3793__wave toggle-3793__wave-1"></span>
+        <span class="toggle-3793__wave toggle-3793__wave-2"></span>
+        <span class="toggle-3793__wave toggle-3793__wave-3"></span>
+        <span class="toggle-3793__label">
+            <span class="toggle-3793__label-off">0%</span>
+            <span class="toggle-3793__label-on">100%</span>
+        </span>
+        <span class="toggle-3793__thumb">
+            <span class="toggle-3793__energy">
+                <span class="toggle-3793__energy-core"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3793 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3793 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3793__track {
+    position: relative;
+    width: 154px;
+    height: 70px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #e5e7eb;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3793__field {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 28% 50%, rgba(255,255,255,.92), transparent 11%),
+        repeating-radial-gradient(circle at 28% 50%, transparent 0 8px, rgba(17,17,17,.11) 9px 10px);
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3793__wave {
+    position: absolute;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    opacity: .35;
+    transition: transform .35s ease, border-color .3s ease, opacity .3s ease;
+}
+.toggle-3793__wave-1 {
+    width: 28px;
+    height: 28px;
+    left: 20px;
+    top: 17px;
+}
+.toggle-3793__wave-2 {
+    width: 44px;
+    height: 44px;
+    left: 12px;
+    top: 9px;
+}
+.toggle-3793__wave-3 {
+    width: 61px;
+    height: 61px;
+    left: 4px;
+    top: 1px;
+}
+.toggle-3793__label {
+    position: absolute;
+    right: 13px;
+    top: 24px;
+    z-index: 4;
+    width: 42px;
+    height: 23px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(4deg);
+}
+.toggle-3793__label-off,
+.toggle-3793__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 8px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3793__label-off {
+    opacity: 1;
+}
+.toggle-3793__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3793__thumb {
+    position: absolute;
+    left: 6px;
+    top: 5px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #d1d5db;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), background .3s ease, transform .3s ease;
+}
+.toggle-3793__energy {
+    width: 33px;
+    height: 33px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #f8fafc;
+    transition: background .3s ease, transform .35s ease, box-shadow .3s ease;
+}
+.toggle-3793__energy-core {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #9ca3af;
+    transition: background .3s ease, transform .35s ease, box-shadow .3s ease;
+}
+.toggle-3793:hover .toggle-3793__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3793:hover .toggle-3793__thumb {
+    transform: scale(1.05);
+}
+.toggle-3793 input:checked + .toggle-3793__track {
+    background: #dbeafe;
+}
+.toggle-3793 input:checked + .toggle-3793__track .toggle-3793__thumb {
+    left: 92px;
+    background: #2563eb;
+}
+.toggle-3793 input:checked + .toggle-3793__track .toggle-3793__energy {
+    background: #22d3ee;
+    transform: scale(1.1);
+    box-shadow: 0 0 12px #22d3ee;
+}
+.toggle-3793 input:checked + .toggle-3793__track .toggle-3793__energy-core {
+    background: #ffffff;
+    transform: scale(1.15);
+    box-shadow: 0 0 12px #ffffff;
+}
+.toggle-3793 input:checked + .toggle-3793__track .toggle-3793__wave-1 {
+    transform: translateX(87px) scale(1.2);
+    border-color: #2563eb;
+    opacity: .8;
+}
+.toggle-3793 input:checked + .toggle-3793__track .toggle-3793__wave-2 {
+    transform: translateX(87px) scale(1.15);
+    border-color: #0ea5e9;
+    opacity: .6;
+}
+.toggle-3793 input:checked + .toggle-3793__track .toggle-3793__wave-3 {
+    transform: translateX(87px) scale(1.08);
+    border-color: #22d3ee;
+    opacity: .42;
+}
+.toggle-3793 input:checked + .toggle-3793__track .toggle-3793__label {
+    left: 10px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(-4deg);
+}
+.toggle-3793 input:checked + .toggle-3793__track .toggle-3793__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3793 input:checked + .toggle-3793__track .toggle-3793__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3793 input:focus-visible + .toggle-3793__track {
+    outline: 3px solid #2563eb;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3794,
+    name: "Shonen Sword Draw Toggle",
+    preview: (
+      <label
+        className="toggle-3794"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Shonen Sword Draw Toggle"
+        />
+        <span className="toggle-3794__track">
+          <span className="toggle-3794__ink"></span>
+          <span className="toggle-3794__slash"></span>
+          <span className="toggle-3794__blade"></span>
+          <span className="toggle-3794__speed toggle-3794__speed-1"></span>
+          <span className="toggle-3794__speed toggle-3794__speed-2"></span>
+          <span className="toggle-3794__state">
+            <span className="toggle-3794__state-off">SHEATHED</span>
+            <span className="toggle-3794__state-on">DRAW!</span>
+          </span>
+          <span className="toggle-3794__thumb">
+            <span className="toggle-3794__guard"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3794">
+    <input type="checkbox" checked aria-label="Shonen Sword Draw Toggle">
+    <span class="toggle-3794__track">
+        <span class="toggle-3794__ink"></span>
+        <span class="toggle-3794__slash"></span>
+        <span class="toggle-3794__blade"></span>
+        <span class="toggle-3794__speed toggle-3794__speed-1"></span>
+        <span class="toggle-3794__speed toggle-3794__speed-2"></span>
+        <span class="toggle-3794__state">
+            <span class="toggle-3794__state-off">SHEATHED</span>
+            <span class="toggle-3794__state-on">DRAW!</span>
+        </span>
+        <span class="toggle-3794__thumb">
+            <span class="toggle-3794__guard"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3794 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3794 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3794__track {
+    position: relative;
+    width: 156px;
+    height: 68px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 10px;
+    background: #f5f5f4;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3794__ink {
+    position: absolute;
+    inset: 0;
+    background:
+        repeating-linear-gradient(-25deg, transparent 0 7px, rgba(17,17,17,.08) 7px 9px);
+}
+.toggle-3794__slash {
+    position: absolute;
+    left: 47px;
+    top: -20px;
+    width: 12px;
+    height: 105px;
+    border-inline: 3px solid #111111;
+    background: #d1d5db;
+    transform: rotate(28deg);
+    transition: left .35s ease, transform .35s ease, background .3s ease, width .3s ease;
+}
+.toggle-3794__blade {
+    position: absolute;
+    left: 12px;
+    top: 31px;
+    width: 68px;
+    height: 7px;
+    border: 3px solid #111111;
+    background: #ffffff;
+    transform: rotate(-10deg);
+    transition: width .35s ease, transform .35s ease, background .3s ease;
+}
+.toggle-3794__speed {
+    position: absolute;
+    height: 3px;
+    background: #111111;
+    transition: transform .3s ease, background .3s ease;
+}
+.toggle-3794__speed-1 {
+    width: 35px;
+    right: 11px;
+    top: 14px;
+}
+.toggle-3794__speed-2 {
+    width: 43px;
+    right: 4px;
+    bottom: 12px;
+}
+.toggle-3794__state {
+    position: absolute;
+    right: 10px;
+    top: 22px;
+    z-index: 4;
+    width: 54px;
+    height: 24px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(3deg);
+}
+.toggle-3794__state-off,
+.toggle-3794__state-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3794__state-off {
+    opacity: 0;
+}
+.toggle-3794__state-on {
+    opacity: 1;
+}
+.toggle-3794__thumb {
+    position: absolute;
+    left: 94px;
+    top: 6px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .33s cubic-bezier(.34,1.56,.64,1), background .3s ease, transform .3s ease;
+}
+.toggle-3794__guard {
+    width: 29px;
+    height: 11px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    transform: rotate(-10deg);
+    transition: transform .3s ease, background .3s ease;
+}
+.toggle-3794:hover .toggle-3794__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3794:hover .toggle-3794__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3794 input:not(:checked) + .toggle-3794__track .toggle-3794__thumb {
+    left: 6px;
+    background: #64748b;
+}
+.toggle-3794 input:not(:checked) + .toggle-3794__track .toggle-3794__slash {
+    left: 83px;
+    background: #9ca3af;
+    transform: rotate(-28deg);
+}
+.toggle-3794 input:not(:checked) + .toggle-3794__track .toggle-3794__blade {
+    width: 32px;
+    transform: translateX(79px) rotate(10deg);
+    background: #d1d5db;
+}
+.toggle-3794 input:not(:checked) + .toggle-3794__track .toggle-3794__state {
+    left: 91px;
+    right: auto;
+    background: #e5e7eb;
+}
+.toggle-3794 input:not(:checked) + .toggle-3794__track .toggle-3794__state-on {
+    opacity: 0;
+}
+.toggle-3794 input:not(:checked) + .toggle-3794__track .toggle-3794__state-off {
+    opacity: 1;
+}
+.toggle-3794 input:checked + .toggle-3794__track .toggle-3794__slash {
+    background: #facc15;
+    width: 16px;
+}
+.toggle-3794 input:checked + .toggle-3794__track .toggle-3794__blade {
+    width: 93px;
+    background: #ffffff;
+    transform: rotate(-10deg);
+}
+.toggle-3794 input:checked + .toggle-3794__track .toggle-3794__speed-1 {
+    background: #dc2626;
+    transform: translateX(-85px);
+}
+.toggle-3794 input:checked + .toggle-3794__track .toggle-3794__speed-2 {
+    background: #dc2626;
+    transform: translateX(-91px);
+}
+.toggle-3794 input:focus-visible + .toggle-3794__track {
+    outline: 3px solid #dc2626;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3795,
+    name: "Shonen Beast Instinct Toggle",
+    preview: (
+      <label
+        className="toggle-3795"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Shonen Beast Instinct Toggle" />
+        <span className="toggle-3795__track">
+          <span className="toggle-3795__tone"></span>
+          <span className="toggle-3795__claw toggle-3795__claw-1"></span>
+          <span className="toggle-3795__claw toggle-3795__claw-2"></span>
+          <span className="toggle-3795__claw toggle-3795__claw-3"></span>
+          <span className="toggle-3795__state">
+            <span className="toggle-3795__state-off">CALM</span>
+            <span className="toggle-3795__state-on">BEAST</span>
+          </span>
+          <span className="toggle-3795__thumb">
+            <span className="toggle-3795__face">
+              <span className="toggle-3795__eye toggle-3795__eye-left"></span>
+              <span className="toggle-3795__eye toggle-3795__eye-right"></span>
+              <span className="toggle-3795__fang toggle-3795__fang-left"></span>
+              <span className="toggle-3795__fang toggle-3795__fang-right"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3795">
+    <input type="checkbox" aria-label="Shonen Beast Instinct Toggle">
+    <span class="toggle-3795__track">
+        <span class="toggle-3795__tone"></span>
+        <span class="toggle-3795__claw toggle-3795__claw-1"></span>
+        <span class="toggle-3795__claw toggle-3795__claw-2"></span>
+        <span class="toggle-3795__claw toggle-3795__claw-3"></span>
+        <span class="toggle-3795__state">
+            <span class="toggle-3795__state-off">CALM</span>
+            <span class="toggle-3795__state-on">BEAST</span>
+        </span>
+        <span class="toggle-3795__thumb">
+            <span class="toggle-3795__face">
+                <span class="toggle-3795__eye toggle-3795__eye-left"></span>
+                <span class="toggle-3795__eye toggle-3795__eye-right"></span>
+                <span class="toggle-3795__fang toggle-3795__fang-left"></span>
+                <span class="toggle-3795__fang toggle-3795__fang-right"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3795 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3795 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3795__track {
+    position: relative;
+    width: 154px;
+    height: 70px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 18px;
+    background: #e7e5e4;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3795__tone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(#111111 1.2px, transparent 1.4px);
+    background-size: 8px 8px;
+    opacity: .18;
+}
+.toggle-3795__claw {
+    position: absolute;
+    width: 74px;
+    height: 5px;
+    border: 2px solid #111111;
+    background: #ffffff;
+    transform: rotate(-22deg);
+    transition: transform .3s ease, background .3s ease;
+}
+.toggle-3795__claw-1 {
+    right: 4px;
+    top: 12px;
+}
+.toggle-3795__claw-2 {
+    right: 0;
+    top: 31px;
+}
+.toggle-3795__claw-3 {
+    right: 7px;
+    bottom: 10px;
+}
+.toggle-3795__state {
+    position: absolute;
+    right: 12px;
+    top: 23px;
+    z-index: 4;
+    width: 47px;
+    height: 24px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(4deg);
+}
+.toggle-3795__state-off,
+.toggle-3795__state-on {
+    position: absolute;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    color: #111111;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3795__state-off {
+    opacity: 1;
+}
+.toggle-3795__state-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3795__thumb {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #a8a29e;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), background .3s ease, transform .3s ease;
+}
+.toggle-3795__face {
+    position: relative;
+    width: 31px;
+    height: 31px;
+    border: 3px solid #111111;
+    border-radius: 45% 45% 50% 50%;
+    background: #f5f5f4;
+    transition: background .3s ease, transform .3s ease;
+}
+.toggle-3795__eye {
+    position: absolute;
+    top: 9px;
+    width: 8px;
+    height: 5px;
+    background: #111111;
+    clip-path: polygon(0 20%,100% 0,75% 100%,10% 75%);
+}
+.toggle-3795__eye-left {
+    left: 4px;
+}
+.toggle-3795__eye-right {
+    right: 4px;
+    transform: scaleX(-1);
+}
+.toggle-3795__fang {
+    position: absolute;
+    bottom: 3px;
+    width: 6px;
+    height: 8px;
+    background: #ffffff;
+    border: 2px solid #111111;
+    clip-path: polygon(0 0,100% 0,50% 100%);
+}
+.toggle-3795__fang-left {
+    left: 7px;
+}
+.toggle-3795__fang-right {
+    right: 7px;
+}
+.toggle-3795:hover .toggle-3795__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3795:hover .toggle-3795__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3795 input:checked + .toggle-3795__track {
+    background: #fee2e2;
+}
+.toggle-3795 input:checked + .toggle-3795__track .toggle-3795__thumb {
+    left: 92px;
+    background: #dc2626;
+    transform: rotate(8deg);
+}
+.toggle-3795 input:checked + .toggle-3795__track .toggle-3795__face {
+    background: #ef4444;
+    transform: scale(1.08);
+}
+.toggle-3795 input:checked + .toggle-3795__track .toggle-3795__state {
+    left: 10px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(-4deg);
+}
+.toggle-3795 input:checked + .toggle-3795__track .toggle-3795__state-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3795 input:checked + .toggle-3795__track .toggle-3795__state-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3795 input:checked + .toggle-3795__track .toggle-3795__claw-1 {
+    background: #dc2626;
+    transform: translateX(-84px) rotate(22deg);
+}
+.toggle-3795 input:checked + .toggle-3795__track .toggle-3795__claw-2 {
+    background: #ef4444;
+    transform: translateX(-90px) rotate(22deg);
+}
+.toggle-3795 input:checked + .toggle-3795__track .toggle-3795__claw-3 {
+    background: #dc2626;
+    transform: translateX(-82px) rotate(22deg);
+}
+.toggle-3795 input:focus-visible + .toggle-3795__track {
+    outline: 3px solid #dc2626;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3796,
+    name: "Shonen Tournament Toggle",
+    preview: (
+      <label
+        className="toggle-3796"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Shonen Tournament Toggle"
+        />
+        <span className="toggle-3796__track">
+          <span className="toggle-3796__arena"></span>
+          <span className="toggle-3796__crowd"></span>
+          <span className="toggle-3796__bell">
+            <span className="toggle-3796__bell-core"></span>
+          </span>
+          <span className="toggle-3796__plate">
+            <span className="toggle-3796__plate-off">WAIT</span>
+            <span className="toggle-3796__plate-on">FIGHT!</span>
+          </span>
+          <span className="toggle-3796__thumb">
+            <span className="toggle-3796__fist"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3796">
+    <input type="checkbox" checked aria-label="Shonen Tournament Toggle">
+    <span class="toggle-3796__track">
+        <span class="toggle-3796__arena"></span>
+        <span class="toggle-3796__crowd"></span>
+        <span class="toggle-3796__bell">
+            <span class="toggle-3796__bell-core"></span>
+        </span>
+        <span class="toggle-3796__plate">
+            <span class="toggle-3796__plate-off">WAIT</span>
+            <span class="toggle-3796__plate-on">FIGHT!</span>
+        </span>
+        <span class="toggle-3796__thumb">
+            <span class="toggle-3796__fist"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3796 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3796 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3796__track {
+    position: relative;
+    width: 158px;
+    height: 70px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 12px;
+    background: #fef3c7;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3796__arena {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #60a5fa 0 48%, #fbbf24 48% 100%);
+}
+.toggle-3796__crowd {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 24px;
+    height: 16px;
+    background-image: radial-gradient(#111111 2px, transparent 2.2px);
+    background-size: 9px 8px;
+    opacity: .5;
+}
+.toggle-3796__bell {
+    position: absolute;
+    right: 16px;
+    top: 8px;
+    width: 34px;
+    height: 34px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 3px 3px 0 #111111;
+    transition: transform .3s ease, left .3s ease, right .3s ease;
+}
+.toggle-3796__bell-core {
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    left: 6px;
+    top: 7px;
+    border: 3px solid #111111;
+    border-radius: 10px 10px 3px 3px;
+    background: #ffffff;
+}
+.toggle-3796__plate {
+    position: absolute;
+    right: 8px;
+    bottom: 7px;
+    z-index: 4;
+    width: 45px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(3deg);
+}
+.toggle-3796__plate-off,
+.toggle-3796__plate-on {
+    position: absolute;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    color: #111111;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3796__plate-off {
+    opacity: 0;
+}
+.toggle-3796__plate-on {
+    opacity: 1;
+}
+.toggle-3796__thumb {
+    position: absolute;
+    left: 96px;
+    top: 6px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .34s cubic-bezier(.34,1.56,.64,1), background .3s ease, transform .3s ease;
+}
+.toggle-3796__fist {
+    width: 24px;
+    height: 22px;
+    border: 3px solid #111111;
+    border-radius: 8px 8px 11px 11px;
+    background: #fef3c7;
+    box-shadow: inset 0 5px 0 rgba(255,255,255,.4);
+    transform: rotate(-10deg);
+}
+.toggle-3796:hover .toggle-3796__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3796:hover .toggle-3796__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3796:hover .toggle-3796__bell {
+    transform: rotate(10deg);
+}
+.toggle-3796 input:not(:checked) + .toggle-3796__track .toggle-3796__thumb {
+    left: 6px;
+    background: #64748b;
+}
+.toggle-3796 input:not(:checked) + .toggle-3796__track .toggle-3796__bell {
+    left: 15px;
+    right: auto;
+    transform: rotate(-10deg);
+}
+.toggle-3796 input:not(:checked) + .toggle-3796__track .toggle-3796__plate {
+    left: 95px;
+    right: auto;
+    background: #e5e7eb;
+}
+.toggle-3796 input:not(:checked) + .toggle-3796__track .toggle-3796__plate-on {
+    opacity: 0;
+}
+.toggle-3796 input:not(:checked) + .toggle-3796__track .toggle-3796__plate-off {
+    opacity: 1;
+}
+.toggle-3796 input:focus-visible + .toggle-3796__track {
+    outline: 3px solid #ef4444;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3797,
+    name: "Shonen Spirit Companion Toggle",
+    preview: (
+      <label
+        className="toggle-3797"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Shonen Spirit Companion Toggle" />
+        <span className="toggle-3797__track">
+          <span className="toggle-3797__fog"></span>
+          <span className="toggle-3797__spirit">
+            <span className="toggle-3797__ear toggle-3797__ear-left"></span>
+            <span className="toggle-3797__ear toggle-3797__ear-right"></span>
+            <span className="toggle-3797__spirit-eye toggle-3797__spirit-eye-left"></span>
+            <span className="toggle-3797__spirit-eye toggle-3797__spirit-eye-right"></span>
+          </span>
+          <span className="toggle-3797__label">
+            <span className="toggle-3797__label-off">ALONE</span>
+            <span className="toggle-3797__label-on">BOUND</span>
+          </span>
+          <span className="toggle-3797__thumb">
+            <span className="toggle-3797__symbol">魂</span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3797">
+    <input type="checkbox" aria-label="Shonen Spirit Companion Toggle">
+    <span class="toggle-3797__track">
+        <span class="toggle-3797__fog"></span>
+        <span class="toggle-3797__spirit">
+            <span class="toggle-3797__ear toggle-3797__ear-left"></span>
+            <span class="toggle-3797__ear toggle-3797__ear-right"></span>
+            <span class="toggle-3797__spirit-eye toggle-3797__spirit-eye-left"></span>
+            <span class="toggle-3797__spirit-eye toggle-3797__spirit-eye-right"></span>
+        </span>
+        <span class="toggle-3797__label">
+            <span class="toggle-3797__label-off">ALONE</span>
+            <span class="toggle-3797__label-on">BOUND</span>
+        </span>
+        <span class="toggle-3797__thumb">
+            <span class="toggle-3797__symbol">魂</span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3797 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3797 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3797__track {
+    position: relative;
+    width: 154px;
+    height: 70px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #1e1b4b;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3797__fog {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 25% 30%, rgba(255,255,255,.25), transparent 25%),
+        radial-gradient(circle at 65% 65%, rgba(167,139,250,.3), transparent 28%),
+        linear-gradient(135deg, #312e81, #581c87);
+    transition: filter .3s ease, transform .35s ease;
+}
+.toggle-3797__spirit {
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    width: 43px;
+    height: 40px;
+    border: 3px solid #111111;
+    border-radius: 48% 48% 42% 42%;
+    background: #ede9fe;
+    box-shadow: 3px 3px 0 #111111;
+    transition: left .3s ease, right .3s ease, transform .35s ease, background .3s ease;
+}
+.toggle-3797__ear {
+    position: absolute;
+    top: -10px;
+    width: 15px;
+    height: 16px;
+    border: 3px solid #111111;
+    background: #ede9fe;
+    clip-path: polygon(50% 0,100% 100%,0 100%);
+}
+.toggle-3797__ear-left {
+    left: 3px;
+    transform: rotate(-12deg);
+}
+.toggle-3797__ear-right {
+    right: 3px;
+    transform: rotate(12deg);
+}
+.toggle-3797__spirit-eye {
+    position: absolute;
+    top: 14px;
+    width: 8px;
+    height: 5px;
+    background: #7c3aed;
+    box-shadow: 0 0 6px #8b5cf6;
+}
+.toggle-3797__spirit-eye-left {
+    left: 7px;
+}
+.toggle-3797__spirit-eye-right {
+    right: 7px;
+}
+.toggle-3797__label {
+    position: absolute;
+    right: 9px;
+    bottom: 7px;
+    z-index: 4;
+    width: 47px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3797__label-off,
+.toggle-3797__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3797__label-off {
+    opacity: 1;
+}
+.toggle-3797__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3797__thumb {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #475569;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .34s cubic-bezier(.34,1.56,.64,1), background .3s ease, transform .3s ease;
+}
+.toggle-3797__symbol {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 900;
+    transition: transform .3s ease, color .3s ease;
+}
+.toggle-3797:hover .toggle-3797__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3797:hover .toggle-3797__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3797 input:checked + .toggle-3797__track .toggle-3797__thumb {
+    left: 92px;
+    background: #8b5cf6;
+}
+.toggle-3797 input:checked + .toggle-3797__track .toggle-3797__symbol {
+    color: #fef08a;
+    transform: rotate(10deg) scale(1.12);
+}
+.toggle-3797 input:checked + .toggle-3797__track .toggle-3797__spirit {
+    left: 12px;
+    right: auto;
+    background: #f5f3ff;
+    transform: rotate(-7deg) scale(1.08);
+}
+.toggle-3797 input:checked + .toggle-3797__track .toggle-3797__label {
+    left: 10px;
+    right: auto;
+    background: #fef08a;
+}
+.toggle-3797 input:checked + .toggle-3797__track .toggle-3797__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3797 input:checked + .toggle-3797__track .toggle-3797__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3797 input:checked + .toggle-3797__track .toggle-3797__fog {
+    filter: hue-rotate(32deg) brightness(1.18);
+    transform: scale(1.08);
+}
+.toggle-3797 input:focus-visible + .toggle-3797__track {
+    outline: 3px solid #a78bfa;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3798,
+    name: "Shonen Limit Break Gauge Toggle",
+    preview: (
+      <label
+        className="toggle-3798"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Shonen Limit Break Gauge Toggle"
+        />
+        <span className="toggle-3798__track">
+          <span className="toggle-3798__gauge">
+            <span className="toggle-3798__bar toggle-3798__bar-1"></span>
+            <span className="toggle-3798__bar toggle-3798__bar-2"></span>
+            <span className="toggle-3798__bar toggle-3798__bar-3"></span>
+            <span className="toggle-3798__bar toggle-3798__bar-4"></span>
+            <span className="toggle-3798__bar toggle-3798__bar-5"></span>
+          </span>
+          <span className="toggle-3798__burst">
+            <span className="toggle-3798__burst-off">NORMAL</span>
+            <span className="toggle-3798__burst-on">LIMIT!</span>
+          </span>
+          <span className="toggle-3798__thumb">
+            <span className="toggle-3798__mark">MAX</span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3798">
+    <input type="checkbox" checked aria-label="Shonen Limit Break Gauge Toggle">
+    <span class="toggle-3798__track">
+        <span class="toggle-3798__gauge">
+            <span class="toggle-3798__bar toggle-3798__bar-1"></span>
+            <span class="toggle-3798__bar toggle-3798__bar-2"></span>
+            <span class="toggle-3798__bar toggle-3798__bar-3"></span>
+            <span class="toggle-3798__bar toggle-3798__bar-4"></span>
+            <span class="toggle-3798__bar toggle-3798__bar-5"></span>
+        </span>
+        <span class="toggle-3798__burst">
+            <span class="toggle-3798__burst-off">NORMAL</span>
+            <span class="toggle-3798__burst-on">LIMIT!</span>
+        </span>
+        <span class="toggle-3798__thumb">
+            <span class="toggle-3798__mark">MAX</span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3798 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3798 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3798__track {
+    position: relative;
+    width: 158px;
+    height: 70px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 10px;
+    background: #111827;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3798__gauge {
+    position: absolute;
+    left: 11px;
+    top: 13px;
+    width: 77px;
+    height: 42px;
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    padding: 5px;
+    border: 3px solid #111111;
+    background: #f8fafc;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3798__bar {
+    flex: 1;
+    border: 2px solid #111111;
+    background: #9ca3af;
+    transition: height .3s ease, background .3s ease, box-shadow .3s ease;
+}
+.toggle-3798__bar-1 {
+    height: 9px;
+}
+.toggle-3798__bar-2 {
+    height: 14px;
+}
+.toggle-3798__bar-3 {
+    height: 19px;
+}
+.toggle-3798__bar-4 {
+    height: 25px;
+}
+.toggle-3798__bar-5 {
+    height: 30px;
+}
+.toggle-3798__burst {
+    position: absolute;
+    right: 9px;
+    top: 20px;
+    z-index: 4;
+    width: 52px;
+    height: 29px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #e5e7eb;
+    clip-path: polygon(50% 0,61% 20%,82% 8%,78% 32%,100% 40%,80% 54%,95% 76%,71% 72%,65% 100%,50% 80%,31% 100%,29% 75%,4% 79%,19% 57%,0 44%,21% 34%,15% 10%,40% 21%);
+}
+.toggle-3798__burst-off,
+.toggle-3798__burst-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3798__burst-off {
+    opacity: 0;
+}
+.toggle-3798__burst-on {
+    opacity: 1;
+}
+.toggle-3798__thumb {
+    position: absolute;
+    left: 96px;
+    top: 6px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .34s cubic-bezier(.34,1.56,.64,1), background .3s ease, transform .3s ease;
+}
+.toggle-3798__mark {
+    color: #111111;
+    font: 900 9px/1 Arial Black, Arial, sans-serif;
+    transform: rotate(-7deg);
+}
+.toggle-3798:hover .toggle-3798__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3798:hover .toggle-3798__thumb {
+    transform: rotate(-8deg) scale(1.05);
+}
+.toggle-3798 input:not(:checked) + .toggle-3798__track .toggle-3798__thumb {
+    left: 6px;
+    background: #64748b;
+}
+.toggle-3798 input:not(:checked) + .toggle-3798__track .toggle-3798__burst {
+    background: #e5e7eb;
+}
+.toggle-3798 input:not(:checked) + .toggle-3798__track .toggle-3798__burst-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3798 input:not(:checked) + .toggle-3798__track .toggle-3798__burst-off {
+    opacity: 1;
+}
+.toggle-3798 input:checked + .toggle-3798__track {
+    background: #7f1d1d;
+}
+.toggle-3798 input:checked + .toggle-3798__track .toggle-3798__bar-1 {
+    height: 30px;
+    background: #22c55e;
+}
+.toggle-3798 input:checked + .toggle-3798__track .toggle-3798__bar-2 {
+    height: 30px;
+    background: #84cc16;
+}
+.toggle-3798 input:checked + .toggle-3798__track .toggle-3798__bar-3 {
+    height: 30px;
+    background: #facc15;
+}
+.toggle-3798 input:checked + .toggle-3798__track .toggle-3798__bar-4 {
+    height: 30px;
+    background: #f97316;
+}
+.toggle-3798 input:checked + .toggle-3798__track .toggle-3798__bar-5 {
+    height: 30px;
+    background: #ef4444;
+    box-shadow: 0 0 8px #ef4444;
+}
+.toggle-3798 input:checked + .toggle-3798__track .toggle-3798__burst {
+    background: #fef08a;
+}
+.toggle-3798 input:focus-visible + .toggle-3798__track {
+    outline: 3px solid #ef4444;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3799,
+    name: "Shonen Thunder Step Toggle",
+    preview: (
+      <label
+        className="toggle-3799"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Shonen Thunder Step Toggle" />
+        <span className="toggle-3799__track">
+          <span className="toggle-3799__storm"></span>
+          <span className="toggle-3799__bolt toggle-3799__bolt-1"></span>
+          <span className="toggle-3799__bolt toggle-3799__bolt-2"></span>
+          <span className="toggle-3799__bolt toggle-3799__bolt-3"></span>
+          <span className="toggle-3799__text">
+            <span className="toggle-3799__text-off">STILL</span>
+            <span className="toggle-3799__text-on">FLASH</span>
+          </span>
+          <span className="toggle-3799__thumb">
+            <span className="toggle-3799__spark"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3799">
+    <input type="checkbox" aria-label="Shonen Thunder Step Toggle">
+    <span class="toggle-3799__track">
+        <span class="toggle-3799__storm"></span>
+        <span class="toggle-3799__bolt toggle-3799__bolt-1"></span>
+        <span class="toggle-3799__bolt toggle-3799__bolt-2"></span>
+        <span class="toggle-3799__bolt toggle-3799__bolt-3"></span>
+        <span class="toggle-3799__text">
+            <span class="toggle-3799__text-off">STILL</span>
+            <span class="toggle-3799__text-on">FLASH</span>
+        </span>
+        <span class="toggle-3799__thumb">
+            <span class="toggle-3799__spark"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3799 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3799 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3799__track {
+    position: relative;
+    width: 154px;
+    height: 70px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #27272a;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3799__storm {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 70% 25%, rgba(255,255,255,.15), transparent 20%),
+        linear-gradient(135deg, #18181b, #3f3f46 50%, #1f2937);
+    transition: background .3s ease, filter .3s ease;
+}
+.toggle-3799__bolt {
+    position: absolute;
+    z-index: 2;
+    background: #71717a;
+    clip-path: polygon(42% 0,100% 0,65% 38%,100% 38%,25% 100%,44% 53%,8% 53%);
+    transition: transform .35s ease, background .3s ease, filter .3s ease;
+}
+.toggle-3799__bolt-1 {
+    width: 18px;
+    height: 39px;
+    right: 13px;
+    top: 8px;
+}
+.toggle-3799__bolt-2 {
+    width: 13px;
+    height: 29px;
+    right: 38px;
+    top: 25px;
+}
+.toggle-3799__bolt-3 {
+    width: 11px;
+    height: 25px;
+    right: 58px;
+    top: 6px;
+}
+.toggle-3799__text {
+    position: absolute;
+    right: 9px;
+    bottom: 7px;
+    z-index: 4;
+    width: 46px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3799__text-off,
+.toggle-3799__text-on {
+    position: absolute;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    color: #111111;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3799__text-off {
+    opacity: 1;
+}
+.toggle-3799__text-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3799__thumb {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #52525b;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .33s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3799__spark {
+    width: 26px;
+    height: 31px;
+    border: 3px solid #111111;
+    background: #a1a1aa;
+    clip-path: polygon(42% 0,100% 0,63% 40%,100% 40%,23% 100%,43% 54%,5% 54%);
+    transition: background .3s ease, transform .3s ease, box-shadow .3s ease;
+}
+.toggle-3799:hover .toggle-3799__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3799:hover .toggle-3799__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3799 input:checked + .toggle-3799__track {
+    background: #1e3a8a;
+}
+.toggle-3799 input:checked + .toggle-3799__track .toggle-3799__thumb {
+    left: 92px;
+    background: #facc15;
+}
+.toggle-3799 input:checked + .toggle-3799__track .toggle-3799__spark {
+    background: #ffffff;
+    transform: scale(1.08);
+    box-shadow: 0 0 10px #facc15;
+}
+.toggle-3799 input:checked + .toggle-3799__track .toggle-3799__bolt-1 {
+    background: #facc15;
+    filter: drop-shadow(0 0 5px #facc15);
+    transform: translateX(-83px);
+}
+.toggle-3799 input:checked + .toggle-3799__track .toggle-3799__bolt-2 {
+    background: #ffffff;
+    transform: translateX(-72px) scale(1.15);
+}
+.toggle-3799 input:checked + .toggle-3799__track .toggle-3799__bolt-3 {
+    background: #fde047;
+    transform: translateX(-59px) scale(.9);
+}
+.toggle-3799 input:checked + .toggle-3799__track .toggle-3799__text {
+    left: 10px;
+    right: auto;
+    background: #fef08a;
+}
+.toggle-3799 input:checked + .toggle-3799__track .toggle-3799__text-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3799 input:checked + .toggle-3799__track .toggle-3799__text-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3799 input:focus-visible + .toggle-3799__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3800,
+    name: "Shonen Shadow Rush Toggle",
+    preview: (
+      <label
+        className="toggle-3800"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Shonen Shadow Rush Toggle"
+        />
+        <span className="toggle-3800__track">
+          <span className="toggle-3800__smoke"></span>
+          <span className="toggle-3800__shadow toggle-3800__shadow-1"></span>
+          <span className="toggle-3800__shadow toggle-3800__shadow-2"></span>
+          <span className="toggle-3800__shadow toggle-3800__shadow-3"></span>
+          <span className="toggle-3800__label">
+            <span className="toggle-3800__label-off">ONE</span>
+            <span className="toggle-3800__label-on">RUSH!</span>
+          </span>
+          <span className="toggle-3800__thumb">
+            <span className="toggle-3800__mask"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3800">
+    <input type="checkbox" checked aria-label="Shonen Shadow Rush Toggle">
+    <span class="toggle-3800__track">
+        <span class="toggle-3800__smoke"></span>
+        <span class="toggle-3800__shadow toggle-3800__shadow-1"></span>
+        <span class="toggle-3800__shadow toggle-3800__shadow-2"></span>
+        <span class="toggle-3800__shadow toggle-3800__shadow-3"></span>
+        <span class="toggle-3800__label">
+            <span class="toggle-3800__label-off">ONE</span>
+            <span class="toggle-3800__label-on">RUSH!</span>
+        </span>
+        <span class="toggle-3800__thumb">
+            <span class="toggle-3800__mask"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3800 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3800 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3800__track {
+    position: relative;
+    width: 156px;
+    height: 70px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 13px;
+    background: #18181b;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3800__smoke {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 18% 70%, rgba(255,255,255,.25), transparent 22%),
+        radial-gradient(circle at 65% 25%, rgba(255,255,255,.15), transparent 20%);
+}
+.toggle-3800__shadow {
+    position: absolute;
+    top: 15px;
+    width: 30px;
+    height: 38px;
+    border: 3px solid #111111;
+    border-radius: 50% 50% 45% 45%;
+    background: #52525b;
+    opacity: .35;
+    transition: transform .35s ease, opacity .3s ease, background .3s ease;
+}
+.toggle-3800__shadow-1 {
+    right: 11px;
+}
+.toggle-3800__shadow-2 {
+    right: 37px;
+}
+.toggle-3800__shadow-3 {
+    right: 64px;
+}
+.toggle-3800__label {
+    position: absolute;
+    right: 9px;
+    bottom: 6px;
+    z-index: 4;
+    width: 45px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3800__label-off,
+.toggle-3800__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3800__label-off {
+    opacity: 0;
+}
+.toggle-3800__label-on {
+    opacity: 1;
+}
+.toggle-3800__thumb {
+    position: absolute;
+    left: 94px;
+    top: 6px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #27272a;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3800__mask {
+    width: 28px;
+    height: 23px;
+    border: 3px solid #111111;
+    background: #fafafa;
+    clip-path: polygon(0 20%,50% 0,100% 20%,87% 100%,50% 77%,13% 100%);
+    transition: background .3s ease, transform .3s ease;
+}
+.toggle-3800:hover .toggle-3800__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3800:hover .toggle-3800__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3800 input:not(:checked) + .toggle-3800__track .toggle-3800__thumb {
+    left: 6px;
+    background: #52525b;
+}
+.toggle-3800 input:not(:checked) + .toggle-3800__track .toggle-3800__shadow-1 {
+    transform: translateX(-80px);
+    opacity: .15;
+}
+.toggle-3800 input:not(:checked) + .toggle-3800__track .toggle-3800__shadow-2 {
+    transform: translateX(-57px);
+    opacity: .1;
+}
+.toggle-3800 input:not(:checked) + .toggle-3800__track .toggle-3800__shadow-3 {
+    transform: translateX(-34px);
+    opacity: .05;
+}
+.toggle-3800 input:not(:checked) + .toggle-3800__track .toggle-3800__label {
+    left: 95px;
+    right: auto;
+    background: #e5e7eb;
+}
+.toggle-3800 input:not(:checked) + .toggle-3800__track .toggle-3800__label-on {
+    opacity: 0;
+}
+.toggle-3800 input:not(:checked) + .toggle-3800__track .toggle-3800__label-off {
+    opacity: 1;
+}
+.toggle-3800 input:checked + .toggle-3800__track .toggle-3800__shadow-1 {
+    transform: translateX(-83px);
+    opacity: .75;
+    background: #7c3aed;
+}
+.toggle-3800 input:checked + .toggle-3800__track .toggle-3800__shadow-2 {
+    transform: translateX(-59px);
+    opacity: .48;
+    background: #8b5cf6;
+}
+.toggle-3800 input:checked + .toggle-3800__track .toggle-3800__shadow-3 {
+    transform: translateX(-36px);
+    opacity: .25;
+    background: #a78bfa;
+}
+.toggle-3800 input:checked + .toggle-3800__track .toggle-3800__mask {
+    background: #c4b5fd;
+    transform: scale(1.08);
+}
+.toggle-3800 input:focus-visible + .toggle-3800__track {
+    outline: 3px solid #8b5cf6;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3801,
+    name: "Shonen Dragon Aura Toggle",
+    preview: (
+      <label
+        className="toggle-3801"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Shonen Dragon Aura Toggle" />
+        <span className="toggle-3801__track">
+          <span className="toggle-3801__cloud"></span>
+          <span className="toggle-3801__dragon">
+            <span className="toggle-3801__head"></span>
+            <span className="toggle-3801__body"></span>
+          </span>
+          <span className="toggle-3801__label">
+            <span className="toggle-3801__label-off">SLEEP</span>
+            <span className="toggle-3801__label-on">ROAR!</span>
+          </span>
+          <span className="toggle-3801__thumb">
+            <span className="toggle-3801__orb"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3801">
+    <input type="checkbox" aria-label="Shonen Dragon Aura Toggle">
+    <span class="toggle-3801__track">
+        <span class="toggle-3801__cloud"></span>
+        <span class="toggle-3801__dragon">
+            <span class="toggle-3801__head"></span>
+            <span class="toggle-3801__body"></span>
+        </span>
+        <span class="toggle-3801__label">
+            <span class="toggle-3801__label-off">SLEEP</span>
+            <span class="toggle-3801__label-on">ROAR!</span>
+        </span>
+        <span class="toggle-3801__thumb">
+            <span class="toggle-3801__orb"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3801 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3801 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3801__track {
+    position: relative;
+    width: 158px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #dbeafe;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3801__cloud {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 22% 72%, rgba(255,255,255,.85) 0 12%, transparent 13%),
+        radial-gradient(circle at 44% 30%, rgba(255,255,255,.55) 0 10%, transparent 11%),
+        linear-gradient(135deg, #bfdbfe, #60a5fa);
+    transition: filter .3s ease, transform .35s ease;
+}
+.toggle-3801__dragon {
+    position: absolute;
+    right: 11px;
+    top: 8px;
+    width: 55px;
+    height: 47px;
+    transition: left .35s ease, right .35s ease, transform .35s ease;
+}
+.toggle-3801__head {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 27px;
+    height: 23px;
+    border: 3px solid #111111;
+    border-radius: 55% 45% 45% 55%;
+    background: #22c55e;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3801__head::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 6px;
+    width: 6px;
+    height: 4px;
+    background: #ffffff;
+    border: 1px solid #111111;
+}
+.toggle-3801__body {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 42px;
+    height: 29px;
+    border: 4px solid #111111;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-radius: 50%;
+    transform: rotate(-12deg);
+}
+.toggle-3801__label {
+    position: absolute;
+    right: 11px;
+    bottom: 6px;
+    z-index: 4;
+    width: 45px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3801__label-off,
+.toggle-3801__label-on {
+    position: absolute;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    color: #111111;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3801__label-off {
+    opacity: 1;
+}
+.toggle-3801__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3801__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #93c5fd;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), background .3s ease, transform .3s ease;
+}
+.toggle-3801__orb {
+    width: 25px;
+    height: 25px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: inset 0 0 0 5px #60a5fa;
+    transition: box-shadow .3s ease, transform .3s ease;
+}
+.toggle-3801:hover .toggle-3801__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3801:hover .toggle-3801__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3801 input:checked + .toggle-3801__track {
+    background: #dcfce7;
+}
+.toggle-3801 input:checked + .toggle-3801__track .toggle-3801__thumb {
+    left: 96px;
+    background: #22c55e;
+}
+.toggle-3801 input:checked + .toggle-3801__track .toggle-3801__orb {
+    box-shadow: inset 0 0 0 5px #facc15, 0 0 11px #facc15;
+    transform: scale(1.08);
+}
+.toggle-3801 input:checked + .toggle-3801__track .toggle-3801__dragon {
+    left: 10px;
+    right: auto;
+    transform: scale(1.1) rotate(-8deg);
+}
+.toggle-3801 input:checked + .toggle-3801__track .toggle-3801__label {
+    left: 10px;
+    right: auto;
+    background: #fef08a;
+}
+.toggle-3801 input:checked + .toggle-3801__track .toggle-3801__label-off {
+    opacity: 0;
+}
+.toggle-3801 input:checked + .toggle-3801__track .toggle-3801__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3801 input:checked + .toggle-3801__track .toggle-3801__cloud {
+    filter: hue-rotate(38deg) brightness(1.08);
+    transform: scale(1.08);
+}
+.toggle-3801 input:focus-visible + .toggle-3801__track {
+    outline: 3px solid #22c55e;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3802,
+    name: "Shonen Victory Chapter Toggle",
+    preview: (
+      <label
+        className="toggle-3802"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Shonen Victory Chapter Toggle"
+        />
+        <span className="toggle-3802__track">
+          <span className="toggle-3802__page"></span>
+          <span className="toggle-3802__panel toggle-3802__panel-1"></span>
+          <span className="toggle-3802__panel toggle-3802__panel-2"></span>
+          <span className="toggle-3802__sun"></span>
+          <span className="toggle-3802__caption">
+            <span className="toggle-3802__caption-off">CHAPTER</span>
+            <span className="toggle-3802__caption-on">VICTORY!</span>
+          </span>
+          <span className="toggle-3802__thumb">
+            <span className="toggle-3802__v">V</span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3802">
+    <input type="checkbox" checked aria-label="Shonen Victory Chapter Toggle">
+    <span class="toggle-3802__track">
+        <span class="toggle-3802__page"></span>
+        <span class="toggle-3802__panel toggle-3802__panel-1"></span>
+        <span class="toggle-3802__panel toggle-3802__panel-2"></span>
+        <span class="toggle-3802__sun"></span>
+        <span class="toggle-3802__caption">
+            <span class="toggle-3802__caption-off">CHAPTER</span>
+            <span class="toggle-3802__caption-on">VICTORY!</span>
+        </span>
+        <span class="toggle-3802__thumb">
+            <span class="toggle-3802__v">V</span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3802 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3802 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3802__track {
+    position: relative;
+    width: 160px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3802__page {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(#111111 1px, transparent 1.2px);
+    background-size: 9px 9px;
+    opacity: .13;
+}
+.toggle-3802__panel {
+    position: absolute;
+    border: 3px solid #111111;
+    background: #f8fafc;
+    transition: transform .3s ease, background .3s ease;
+}
+.toggle-3802__panel-1 {
+    left: 8px;
+    top: 8px;
+    width: 48px;
+    height: 24px;
+    transform: rotate(-3deg);
+}
+.toggle-3802__panel-2 {
+    left: 18px;
+    bottom: 7px;
+    width: 37px;
+    height: 21px;
+    transform: rotate(3deg);
+}
+.toggle-3802__sun {
+    position: absolute;
+    right: 18px;
+    top: 9px;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #d1d5db;
+    box-shadow: 3px 3px 0 #111111;
+    transition: background .3s ease, transform .35s ease, left .3s ease, right .3s ease;
+}
+.toggle-3802__caption {
+    position: absolute;
+    right: 8px;
+    bottom: 6px;
+    z-index: 4;
+    width: 55px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(3deg);
+}
+.toggle-3802__caption-off,
+.toggle-3802__caption-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3802__caption-off {
+    opacity: 0;
+}
+.toggle-3802__caption-on {
+    opacity: 1;
+}
+.toggle-3802__thumb {
+    position: absolute;
+    left: 98px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), background .3s ease, transform .3s ease;
+}
+.toggle-3802__v {
+    color: #111111;
+    font: 900 22px/1 Arial Black, Arial, sans-serif;
+    transform: rotate(-8deg);
+    transition: transform .3s ease, color .3s ease;
+}
+.toggle-3802:hover .toggle-3802__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3802:hover .toggle-3802__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3802 input:not(:checked) + .toggle-3802__track .toggle-3802__thumb {
+    left: 6px;
+    background: #d1d5db;
+}
+.toggle-3802 input:not(:checked) + .toggle-3802__track .toggle-3802__sun {
+    left: 15px;
+    right: auto;
+    background: #9ca3af;
+}
+.toggle-3802 input:not(:checked) + .toggle-3802__track .toggle-3802__caption {
+    left: 93px;
+    right: auto;
+    background: #e5e7eb;
+}
+.toggle-3802 input:not(:checked) + .toggle-3802__track .toggle-3802__caption-on {
+    opacity: 0;
+}
+.toggle-3802 input:not(:checked) + .toggle-3802__track .toggle-3802__caption-off {
+    opacity: 1;
+}
+.toggle-3802 input:not(:checked) + .toggle-3802__track .toggle-3802__panel-1 {
+    transform: translateX(85px) rotate(4deg);
+}
+.toggle-3802 input:not(:checked) + .toggle-3802__track .toggle-3802__panel-2 {
+    transform: translateX(77px) rotate(-3deg);
+}
+.toggle-3802 input:checked + .toggle-3802__track {
+    background: #fff7ed;
+}
+.toggle-3802 input:checked + .toggle-3802__track .toggle-3802__sun {
+    background: #facc15;
+    transform: scale(1.1);
+}
+.toggle-3802 input:checked + .toggle-3802__track .toggle-3802__panel-1 {
+    background: #dbeafe;
+    transform: rotate(-5deg);
+}
+.toggle-3802 input:checked + .toggle-3802__track .toggle-3802__panel-2 {
+    background: #dcfce7;
+    transform: rotate(5deg);
+}
+.toggle-3802 input:checked + .toggle-3802__track .toggle-3802__v {
+    color: #dc2626;
+    transform: rotate(8deg) scale(1.15);
+}
+.toggle-3802 input:focus-visible + .toggle-3802__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3803,
+    name: "Shonen Curse Mark Toggle",
+    preview: (
+      <label
+        className="toggle-3803"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Shonen Curse Mark Toggle" />
+        <span className="toggle-3803__track">
+          <span className="toggle-3803__paper"></span>
+          <span className="toggle-3803__mark">
+            <span className="toggle-3803__mark-core"></span>
+          </span>
+          <span className="toggle-3803__vein toggle-3803__vein-1"></span>
+          <span className="toggle-3803__vein toggle-3803__vein-2"></span>
+          <span className="toggle-3803__vein toggle-3803__vein-3"></span>
+          <span className="toggle-3803__state">
+            <span className="toggle-3803__state-off">SEALED</span>
+            <span className="toggle-3803__state-on">CURSE</span>
+          </span>
+          <span className="toggle-3803__thumb">
+            <span className="toggle-3803__symbol">印</span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3803">
+    <input type="checkbox" aria-label="Shonen Curse Mark Toggle">
+    <span class="toggle-3803__track">
+        <span class="toggle-3803__paper"></span>
+        <span class="toggle-3803__mark">
+            <span class="toggle-3803__mark-core"></span>
+        </span>
+        <span class="toggle-3803__vein toggle-3803__vein-1"></span>
+        <span class="toggle-3803__vein toggle-3803__vein-2"></span>
+        <span class="toggle-3803__vein toggle-3803__vein-3"></span>
+        <span class="toggle-3803__state">
+            <span class="toggle-3803__state-off">SEALED</span>
+            <span class="toggle-3803__state-on">CURSE</span>
+        </span>
+        <span class="toggle-3803__thumb">
+            <span class="toggle-3803__symbol">印</span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3803 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3803 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3803__track {
+    position: relative;
+    width: 156px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 13px;
+    background: #e7e5e4;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3803__paper {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(#111111 1px, transparent 1.2px);
+    background-size: 8px 8px;
+    opacity: .12;
+}
+.toggle-3803__mark {
+    position: absolute;
+    right: 13px;
+    top: 10px;
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #a8a29e;
+    box-shadow: 3px 3px 0 #111111;
+    transition: left .3s ease, right .3s ease, background .3s ease, transform .35s ease;
+}
+.toggle-3803__mark-core {
+    width: 25px;
+    height: 25px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: conic-gradient(#111111 0 25%, #d6d3d1 25% 50%, #111111 50% 75%, #d6d3d1 75%);
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3803__vein {
+    position: absolute;
+    z-index: 2;
+    height: 3px;
+    background: #57534e;
+    transform-origin: right center;
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3803__vein-1 {
+    width: 42px;
+    right: 47px;
+    top: 17px;
+    transform: rotate(15deg);
+}
+.toggle-3803__vein-2 {
+    width: 35px;
+    right: 53px;
+    top: 35px;
+    transform: rotate(-3deg);
+}
+.toggle-3803__vein-3 {
+    width: 46px;
+    right: 43px;
+    bottom: 12px;
+    transform: rotate(-17deg);
+}
+.toggle-3803__state {
+    position: absolute;
+    left: 9px;
+    top: 24px;
+    z-index: 4;
+    width: 52px;
+    height: 23px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(-3deg);
+}
+.toggle-3803__state-off,
+.toggle-3803__state-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3803__state-off {
+    opacity: 1;
+}
+.toggle-3803__state-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3803__thumb {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #78716c;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), background .3s ease, transform .3s ease;
+}
+.toggle-3803__symbol {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 900;
+    transition: color .3s ease, transform .3s ease;
+}
+.toggle-3803:hover .toggle-3803__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3803:hover .toggle-3803__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3803 input:checked + .toggle-3803__track {
+    background: #f3e8ff;
+}
+.toggle-3803 input:checked + .toggle-3803__track .toggle-3803__thumb {
+    left: 94px;
+    background: #7e22ce;
+}
+.toggle-3803 input:checked + .toggle-3803__track .toggle-3803__symbol {
+    color: #fef08a;
+    transform: rotate(12deg) scale(1.12);
+}
+.toggle-3803 input:checked + .toggle-3803__track .toggle-3803__mark {
+    left: 12px;
+    right: auto;
+    background: #a855f7;
+    transform: rotate(22deg) scale(1.08);
+}
+.toggle-3803 input:checked + .toggle-3803__track .toggle-3803__mark-core {
+    background: conic-gradient(#111111 0 25%, #f0abfc 25% 50%, #111111 50% 75%, #f0abfc 75%);
+    transform: rotate(90deg);
+}
+.toggle-3803 input:checked + .toggle-3803__track .toggle-3803__vein-1 {
+    background: #7e22ce;
+    transform: translateX(-77px) rotate(-15deg);
+}
+.toggle-3803 input:checked + .toggle-3803__track .toggle-3803__vein-2 {
+    background: #a855f7;
+    transform: translateX(-76px) rotate(4deg);
+}
+.toggle-3803 input:checked + .toggle-3803__track .toggle-3803__vein-3 {
+    background: #7e22ce;
+    transform: translateX(-80px) rotate(17deg);
+}
+.toggle-3803 input:checked + .toggle-3803__track .toggle-3803__state {
+    left: auto;
+    right: 8px;
+    background: #f5d0fe;
+    transform: rotate(4deg);
+}
+.toggle-3803 input:checked + .toggle-3803__track .toggle-3803__state-off {
+    opacity: 0;
+}
+.toggle-3803 input:checked + .toggle-3803__track .toggle-3803__state-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3803 input:focus-visible + .toggle-3803__track {
+    outline: 3px solid #a855f7;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3804,
+    name: "Shonen Flame Fist Toggle",
+    preview: (
+      <label
+        className="toggle-3804"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Shonen Flame Fist Toggle"
+        />
+        <span className="toggle-3804__track">
+          <span className="toggle-3804__tone"></span>
+          <span className="toggle-3804__flame toggle-3804__flame-1"></span>
+          <span className="toggle-3804__flame toggle-3804__flame-2"></span>
+          <span className="toggle-3804__flame toggle-3804__flame-3"></span>
+          <span className="toggle-3804__label">
+            <span className="toggle-3804__label-off">COOL</span>
+            <span className="toggle-3804__label-on">IGNITE!</span>
+          </span>
+          <span className="toggle-3804__thumb">
+            <span className="toggle-3804__fist">
+              <span className="toggle-3804__knuckle toggle-3804__knuckle-1"></span>
+              <span className="toggle-3804__knuckle toggle-3804__knuckle-2"></span>
+              <span className="toggle-3804__knuckle toggle-3804__knuckle-3"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3804">
+    <input type="checkbox" checked aria-label="Shonen Flame Fist Toggle">
+    <span class="toggle-3804__track">
+        <span class="toggle-3804__tone"></span>
+        <span class="toggle-3804__flame toggle-3804__flame-1"></span>
+        <span class="toggle-3804__flame toggle-3804__flame-2"></span>
+        <span class="toggle-3804__flame toggle-3804__flame-3"></span>
+        <span class="toggle-3804__label">
+            <span class="toggle-3804__label-off">COOL</span>
+            <span class="toggle-3804__label-on">IGNITE!</span>
+        </span>
+        <span class="toggle-3804__thumb">
+            <span class="toggle-3804__fist">
+                <span class="toggle-3804__knuckle toggle-3804__knuckle-1"></span>
+                <span class="toggle-3804__knuckle toggle-3804__knuckle-2"></span>
+                <span class="toggle-3804__knuckle toggle-3804__knuckle-3"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3804 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3804 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3804__track {
+    position: relative;
+    width: 158px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #dbeafe;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3804__tone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(17,17,17,.22) 1.2px, transparent 1.4px);
+    background-size: 8px 8px;
+}
+.toggle-3804__flame {
+    position: absolute;
+    z-index: 2;
+    background: #94a3b8;
+    clip-path: polygon(50% 0,70% 35%,100% 20%,82% 62%,100% 100%,50% 83%,0 100%,19% 61%,0 22%,30% 36%);
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3804__flame-1 {
+    width: 31px;
+    height: 40px;
+    right: 12px;
+    top: 7px;
+}
+.toggle-3804__flame-2 {
+    width: 24px;
+    height: 31px;
+    right: 42px;
+    bottom: 5px;
+}
+.toggle-3804__flame-3 {
+    width: 18px;
+    height: 25px;
+    right: 68px;
+    top: 8px;
+}
+.toggle-3804__label {
+    position: absolute;
+    right: 9px;
+    bottom: 6px;
+    z-index: 4;
+    width: 48px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3804__label-off,
+.toggle-3804__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3804__label-off {
+    opacity: 0;
+}
+.toggle-3804__label-on {
+    opacity: 1;
+}
+.toggle-3804__thumb {
+    position: absolute;
+    left: 96px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), background .3s ease, transform .3s ease;
+}
+.toggle-3804__fist {
+    position: relative;
+    width: 29px;
+    height: 24px;
+    border: 3px solid #111111;
+    border-radius: 8px 8px 12px 12px;
+    background: #fde68a;
+    transform: rotate(-8deg);
+}
+.toggle-3804__knuckle {
+    position: absolute;
+    top: -7px;
+    width: 8px;
+    height: 10px;
+    border: 2px solid #111111;
+    border-radius: 4px;
+    background: #fde68a;
+}
+.toggle-3804__knuckle-1 {
+    left: 1px;
+}
+.toggle-3804__knuckle-2 {
+    left: 9px;
+}
+.toggle-3804__knuckle-3 {
+    left: 17px;
+}
+.toggle-3804:hover .toggle-3804__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3804:hover .toggle-3804__thumb {
+    transform: rotate(-8deg) scale(1.05);
+}
+.toggle-3804 input:not(:checked) + .toggle-3804__track .toggle-3804__thumb {
+    left: 6px;
+    background: #60a5fa;
+}
+.toggle-3804 input:not(:checked) + .toggle-3804__track .toggle-3804__flame-1 {
+    transform: translateX(-91px);
+}
+.toggle-3804 input:not(:checked) + .toggle-3804__track .toggle-3804__flame-2 {
+    transform: translateX(-71px);
+}
+.toggle-3804 input:not(:checked) + .toggle-3804__track .toggle-3804__flame-3 {
+    transform: translateX(-52px);
+}
+.toggle-3804 input:not(:checked) + .toggle-3804__track .toggle-3804__label {
+    left: 97px;
+    right: auto;
+    background: #dbeafe;
+}
+.toggle-3804 input:not(:checked) + .toggle-3804__track .toggle-3804__label-on {
+    opacity: 0;
+}
+.toggle-3804 input:not(:checked) + .toggle-3804__track .toggle-3804__label-off {
+    opacity: 1;
+}
+.toggle-3804 input:checked + .toggle-3804__track {
+    background: #ffedd5;
+}
+.toggle-3804 input:checked + .toggle-3804__track .toggle-3804__flame-1 {
+    background: #ef4444;
+    transform: scale(1.18);
+}
+.toggle-3804 input:checked + .toggle-3804__track .toggle-3804__flame-2 {
+    background: #f97316;
+    transform: scale(1.12);
+}
+.toggle-3804 input:checked + .toggle-3804__track .toggle-3804__flame-3 {
+    background: #facc15;
+    transform: scale(1.08);
+}
+.toggle-3804 input:focus-visible + .toggle-3804__track {
+    outline: 3px solid #ef4444;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3805,
+    name: "Shonen Water Blade Toggle",
+    preview: (
+      <label
+        className="toggle-3805"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Shonen Water Blade Toggle" />
+        <span className="toggle-3805__track">
+          <span className="toggle-3805__water"></span>
+          <span className="toggle-3805__wave toggle-3805__wave-1"></span>
+          <span className="toggle-3805__wave toggle-3805__wave-2"></span>
+          <span className="toggle-3805__slash"></span>
+          <span className="toggle-3805__label">
+            <span className="toggle-3805__label-off">STILL</span>
+            <span className="toggle-3805__label-on">FLOW!</span>
+          </span>
+          <span className="toggle-3805__thumb">
+            <span className="toggle-3805__drop"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3805">
+    <input type="checkbox" aria-label="Shonen Water Blade Toggle">
+    <span class="toggle-3805__track">
+        <span class="toggle-3805__water"></span>
+        <span class="toggle-3805__wave toggle-3805__wave-1"></span>
+        <span class="toggle-3805__wave toggle-3805__wave-2"></span>
+        <span class="toggle-3805__slash"></span>
+        <span class="toggle-3805__label">
+            <span class="toggle-3805__label-off">STILL</span>
+            <span class="toggle-3805__label-on">FLOW!</span>
+        </span>
+        <span class="toggle-3805__thumb">
+            <span class="toggle-3805__drop"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3805 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3805 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3805__track {
+    position: relative;
+    width: 158px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 15px;
+    background: #e0f2fe;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3805__water {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(145deg, #e0f2fe, #7dd3fc 50%, #0284c7);
+}
+.toggle-3805__wave {
+    position: absolute;
+    border: 4px solid #111111;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    transition: transform .35s ease, border-color .3s ease;
+}
+.toggle-3805__wave-1 {
+    width: 55px;
+    height: 55px;
+    right: 3px;
+    top: 10px;
+    transform: rotate(-35deg);
+}
+.toggle-3805__wave-2 {
+    width: 39px;
+    height: 39px;
+    right: 42px;
+    bottom: -9px;
+    transform: rotate(-42deg);
+}
+.toggle-3805__slash {
+    position: absolute;
+    left: 44px;
+    top: -18px;
+    width: 10px;
+    height: 110px;
+    border-inline: 3px solid #111111;
+    background: rgba(255,255,255,.8);
+    transform: rotate(31deg);
+    transition: transform .35s ease, left .35s ease, background .3s ease;
+}
+.toggle-3805__label {
+    position: absolute;
+    right: 9px;
+    bottom: 6px;
+    z-index: 4;
+    width: 46px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3805__label-off,
+.toggle-3805__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3805__label-off {
+    opacity: 1;
+}
+.toggle-3805__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3805__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #93c5fd;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3805__drop {
+    width: 25px;
+    height: 31px;
+    border: 3px solid #111111;
+    border-radius: 50% 50% 55% 45%;
+    background: #ffffff;
+    clip-path: polygon(50% 0,100% 62%,88% 87%,67% 100%,33% 100%,12% 87%,0 62%);
+    transition: background .3s ease, transform .3s ease;
+}
+.toggle-3805:hover .toggle-3805__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3805:hover .toggle-3805__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3805 input:checked + .toggle-3805__track .toggle-3805__thumb {
+    left: 96px;
+    background: #0284c7;
+}
+.toggle-3805 input:checked + .toggle-3805__track .toggle-3805__drop {
+    background: #67e8f9;
+    transform: rotate(18deg) scale(1.08);
+}
+.toggle-3805 input:checked + .toggle-3805__track .toggle-3805__slash {
+    left: 87px;
+    background: #ffffff;
+    transform: rotate(-31deg);
+}
+.toggle-3805 input:checked + .toggle-3805__track .toggle-3805__wave-1 {
+    transform: translateX(-88px) rotate(35deg) scale(1.12);
+}
+.toggle-3805 input:checked + .toggle-3805__track .toggle-3805__wave-2 {
+    transform: translateX(-74px) rotate(42deg) scale(1.08);
+}
+.toggle-3805 input:checked + .toggle-3805__track .toggle-3805__label {
+    left: 10px;
+    right: auto;
+    background: #cffafe;
+}
+.toggle-3805 input:checked + .toggle-3805__track .toggle-3805__label-off {
+    opacity: 0;
+}
+.toggle-3805 input:checked + .toggle-3805__track .toggle-3805__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3805 input:focus-visible + .toggle-3805__track {
+    outline: 3px solid #0284c7;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3806,
+    name: "Shonen Wind Step Toggle",
+    preview: (
+      <label
+        className="toggle-3806"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Shonen Wind Step Toggle"
+        />
+        <span className="toggle-3806__track">
+          <span className="toggle-3806__air"></span>
+          <span className="toggle-3806__feather toggle-3806__feather-1"></span>
+          <span className="toggle-3806__feather toggle-3806__feather-2"></span>
+          <span className="toggle-3806__feather toggle-3806__feather-3"></span>
+          <span className="toggle-3806__line toggle-3806__line-1"></span>
+          <span className="toggle-3806__line toggle-3806__line-2"></span>
+          <span className="toggle-3806__label">
+            <span className="toggle-3806__label-off">STEP</span>
+            <span className="toggle-3806__label-on">WIND!</span>
+          </span>
+          <span className="toggle-3806__thumb">
+            <span className="toggle-3806__spiral"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3806">
+    <input type="checkbox" checked aria-label="Shonen Wind Step Toggle">
+    <span class="toggle-3806__track">
+        <span class="toggle-3806__air"></span>
+        <span class="toggle-3806__feather toggle-3806__feather-1"></span>
+        <span class="toggle-3806__feather toggle-3806__feather-2"></span>
+        <span class="toggle-3806__feather toggle-3806__feather-3"></span>
+        <span class="toggle-3806__line toggle-3806__line-1"></span>
+        <span class="toggle-3806__line toggle-3806__line-2"></span>
+        <span class="toggle-3806__label">
+            <span class="toggle-3806__label-off">STEP</span>
+            <span class="toggle-3806__label-on">WIND!</span>
+        </span>
+        <span class="toggle-3806__thumb">
+            <span class="toggle-3806__spiral"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3806 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3806 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3806__track {
+    position: relative;
+    width: 156px;
+    height: 70px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #ecfccb;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3806__air {
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(-12deg, transparent 0 9px, rgba(17,17,17,.1) 9px 11px);
+}
+.toggle-3806__feather {
+    position: absolute;
+    width: 19px;
+    height: 9px;
+    border: 2px solid #111111;
+    border-radius: 100% 0 100% 0;
+    background: #ffffff;
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3806__feather-1 {
+    right: 15px;
+    top: 10px;
+    transform: rotate(-15deg);
+}
+.toggle-3806__feather-2 {
+    right: 40px;
+    top: 27px;
+    transform: rotate(14deg) scale(.8);
+}
+.toggle-3806__feather-3 {
+    right: 18px;
+    bottom: 8px;
+    transform: rotate(-22deg) scale(.7);
+}
+.toggle-3806__line {
+    position: absolute;
+    height: 3px;
+    background: #111111;
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3806__line-1 {
+    width: 47px;
+    right: 7px;
+    top: 20px;
+}
+.toggle-3806__line-2 {
+    width: 35px;
+    right: 15px;
+    bottom: 17px;
+}
+.toggle-3806__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 45px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3806__label-off,
+.toggle-3806__label-on {
+    position: absolute;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    color: #111111;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3806__label-off {
+    opacity: 0;
+}
+.toggle-3806__label-on {
+    opacity: 1;
+}
+.toggle-3806__thumb {
+    position: absolute;
+    left: 94px;
+    top: 6px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #4ade80;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .34s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3806__spiral {
+    width: 27px;
+    height: 27px;
+    border: 4px solid #111111;
+    border-right-color: transparent;
+    border-radius: 50%;
+    transition: transform .35s ease, border-color .3s ease;
+}
+.toggle-3806:hover .toggle-3806__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3806:hover .toggle-3806__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3806 input:not(:checked) + .toggle-3806__track .toggle-3806__thumb {
+    left: 6px;
+    background: #a3a3a3;
+}
+.toggle-3806 input:not(:checked) + .toggle-3806__track .toggle-3806__label {
+    left: 96px;
+    right: auto;
+    background: #e5e7eb;
+}
+.toggle-3806 input:not(:checked) + .toggle-3806__track .toggle-3806__label-on {
+    opacity: 0;
+}
+.toggle-3806 input:not(:checked) + .toggle-3806__track .toggle-3806__label-off {
+    opacity: 1;
+}
+.toggle-3806 input:checked + .toggle-3806__track .toggle-3806__spiral {
+    transform: rotate(270deg) scale(1.08);
+    border-color: #ffffff;
+    border-right-color: transparent;
+}
+.toggle-3806 input:checked + .toggle-3806__track .toggle-3806__line-1 {
+    background: #16a34a;
+    transform: translateX(-91px);
+}
+.toggle-3806 input:checked + .toggle-3806__track .toggle-3806__line-2 {
+    background: #22c55e;
+    transform: translateX(-84px);
+}
+.toggle-3806 input:checked + .toggle-3806__track .toggle-3806__feather-1 {
+    transform: translateX(-89px) rotate(18deg);
+}
+.toggle-3806 input:checked + .toggle-3806__track .toggle-3806__feather-2 {
+    transform: translateX(-73px) rotate(-17deg) scale(.9);
+}
+.toggle-3806 input:checked + .toggle-3806__track .toggle-3806__feather-3 {
+    transform: translateX(-87px) rotate(24deg) scale(.8);
+}
+.toggle-3806 input:focus-visible + .toggle-3806__track {
+    outline: 3px solid #22c55e;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3807,
+    name: "Shonen Gravity Crush Toggle",
+    preview: (
+      <label
+        className="toggle-3807"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Shonen Gravity Crush Toggle" />
+        <span className="toggle-3807__track">
+          <span className="toggle-3807__space"></span>
+          <span className="toggle-3807__orbit toggle-3807__orbit-1"></span>
+          <span className="toggle-3807__orbit toggle-3807__orbit-2"></span>
+          <span className="toggle-3807__debris toggle-3807__debris-1"></span>
+          <span className="toggle-3807__debris toggle-3807__debris-2"></span>
+          <span className="toggle-3807__label">
+            <span className="toggle-3807__label-off">ZERO</span>
+            <span className="toggle-3807__label-on">CRUSH</span>
+          </span>
+          <span className="toggle-3807__thumb">
+            <span className="toggle-3807__singularity"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3807">
+    <input type="checkbox" aria-label="Shonen Gravity Crush Toggle">
+    <span class="toggle-3807__track">
+        <span class="toggle-3807__space"></span>
+        <span class="toggle-3807__orbit toggle-3807__orbit-1"></span>
+        <span class="toggle-3807__orbit toggle-3807__orbit-2"></span>
+        <span class="toggle-3807__debris toggle-3807__debris-1"></span>
+        <span class="toggle-3807__debris toggle-3807__debris-2"></span>
+        <span class="toggle-3807__label">
+            <span class="toggle-3807__label-off">ZERO</span>
+            <span class="toggle-3807__label-on">CRUSH</span>
+        </span>
+        <span class="toggle-3807__thumb">
+            <span class="toggle-3807__singularity"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3807 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3807 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3807__track {
+    position: relative;
+    width: 158px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #18181b;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3807__space {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 70% 50%, rgba(168,85,247,.35), transparent 30%), linear-gradient(135deg, #18181b, #312e81);
+}
+.toggle-3807__orbit {
+    position: absolute;
+    border: 3px solid #a78bfa;
+    border-radius: 50%;
+    opacity: .4;
+    transition: transform .4s ease, border-color .3s ease, opacity .3s ease;
+}
+.toggle-3807__orbit-1 {
+    width: 49px;
+    height: 49px;
+    right: 10px;
+    top: 8px;
+}
+.toggle-3807__orbit-2 {
+    width: 65px;
+    height: 65px;
+    right: 2px;
+    top: 0;
+}
+.toggle-3807__debris {
+    position: absolute;
+    width: 11px;
+    height: 8px;
+    border: 2px solid #111111;
+    background: #a1a1aa;
+    transition: transform .4s ease, background .3s ease;
+}
+.toggle-3807__debris-1 {
+    right: 59px;
+    top: 12px;
+    transform: rotate(22deg);
+}
+.toggle-3807__debris-2 {
+    right: 67px;
+    bottom: 10px;
+    transform: rotate(-17deg);
+}
+.toggle-3807__label {
+    position: absolute;
+    right: 9px;
+    bottom: 6px;
+    z-index: 4;
+    width: 47px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3807__label-off,
+.toggle-3807__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3807__label-off {
+    opacity: 1;
+}
+.toggle-3807__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3807__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #52525b;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), background .3s ease, transform .3s ease;
+}
+.toggle-3807__singularity {
+    width: 28px;
+    height: 28px;
+    border: 4px solid #a78bfa;
+    border-radius: 50%;
+    background: #09090b;
+    box-shadow: inset 0 0 8px #7c3aed;
+    transition: transform .4s ease, box-shadow .3s ease, border-color .3s ease;
+}
+.toggle-3807:hover .toggle-3807__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3807:hover .toggle-3807__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3807 input:checked + .toggle-3807__track .toggle-3807__thumb {
+    left: 96px;
+    background: #7c3aed;
+}
+.toggle-3807 input:checked + .toggle-3807__track .toggle-3807__singularity {
+    transform: scale(1.18) rotate(90deg);
+    border-color: #ffffff;
+    box-shadow: 0 0 15px #a855f7, inset 0 0 9px #7e22ce;
+}
+.toggle-3807 input:checked + .toggle-3807__track .toggle-3807__orbit-1 {
+    transform: translateX(-91px) rotate(90deg) scale(.8);
+    border-color: #ffffff;
+    opacity: .75;
+}
+.toggle-3807 input:checked + .toggle-3807__track .toggle-3807__orbit-2 {
+    transform: translateX(-91px) rotate(-90deg) scale(.7);
+    border-color: #c084fc;
+    opacity: .55;
+}
+.toggle-3807 input:checked + .toggle-3807__track .toggle-3807__debris-1 {
+    transform: translateX(-73px) translateY(13px) rotate(80deg) scale(.7);
+    background: #d8b4fe;
+}
+.toggle-3807 input:checked + .toggle-3807__track .toggle-3807__debris-2 {
+    transform: translateX(-70px) translateY(-11px) rotate(-70deg) scale(.7);
+    background: #c084fc;
+}
+.toggle-3807 input:checked + .toggle-3807__track .toggle-3807__label {
+    left: 9px;
+    right: auto;
+    background: #f3e8ff;
+}
+.toggle-3807 input:checked + .toggle-3807__track .toggle-3807__label-off {
+    opacity: 0;
+}
+.toggle-3807 input:checked + .toggle-3807__track .toggle-3807__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3807 input:focus-visible + .toggle-3807__track {
+    outline: 3px solid #a855f7;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3808,
+    name: "Shonen Phoenix Rebirth Toggle",
+    preview: (
+      <label
+        className="toggle-3808"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Shonen Phoenix Rebirth Toggle"
+        />
+        <span className="toggle-3808__track">
+          <span className="toggle-3808__sun"></span>
+          <span className="toggle-3808__wing toggle-3808__wing-left"></span>
+          <span className="toggle-3808__wing toggle-3808__wing-right"></span>
+          <span className="toggle-3808__label">
+            <span className="toggle-3808__label-off">ASH</span>
+            <span className="toggle-3808__label-on">REBORN</span>
+          </span>
+          <span className="toggle-3808__thumb">
+            <span className="toggle-3808__feather"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3808">
+    <input type="checkbox" checked aria-label="Shonen Phoenix Rebirth Toggle">
+    <span class="toggle-3808__track">
+        <span class="toggle-3808__sun"></span>
+        <span class="toggle-3808__wing toggle-3808__wing-left"></span>
+        <span class="toggle-3808__wing toggle-3808__wing-right"></span>
+        <span class="toggle-3808__label">
+            <span class="toggle-3808__label-off">ASH</span>
+            <span class="toggle-3808__label-on">REBORN</span>
+        </span>
+        <span class="toggle-3808__thumb">
+            <span class="toggle-3808__feather"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3808 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3808 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3808__track {
+    position: relative;
+    width: 160px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #292524;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3808__sun {
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    width: 42px;
+    height: 42px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #78716c;
+    transition: left .3s ease, right .3s ease, background .3s ease, transform .35s ease, box-shadow .3s ease;
+}
+.toggle-3808__wing {
+    position: absolute;
+    top: 15px;
+    width: 39px;
+    height: 31px;
+    border: 3px solid #111111;
+    background: #a8a29e;
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3808__wing-left {
+    right: 49px;
+    clip-path: polygon(100% 50%,0 0,18% 50%,0 100%);
+}
+.toggle-3808__wing-right {
+    right: 4px;
+    clip-path: polygon(0 50%,100% 0,82% 50%,100% 100%);
+}
+.toggle-3808__label {
+    position: absolute;
+    right: 9px;
+    bottom: 5px;
+    z-index: 4;
+    width: 51px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3808__label-off,
+.toggle-3808__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3808__label-off {
+    opacity: 0;
+}
+.toggle-3808__label-on {
+    opacity: 1;
+}
+.toggle-3808__thumb {
+    position: absolute;
+    left: 98px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #f97316;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), background .3s ease, transform .3s ease;
+}
+.toggle-3808__feather {
+    width: 19px;
+    height: 31px;
+    border: 3px solid #111111;
+    border-radius: 80% 0 80% 0;
+    background: #fef08a;
+    transform: rotate(35deg);
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3808:hover .toggle-3808__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3808:hover .toggle-3808__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3808 input:not(:checked) + .toggle-3808__track .toggle-3808__thumb {
+    left: 6px;
+    background: #57534e;
+}
+.toggle-3808 input:not(:checked) + .toggle-3808__track .toggle-3808__sun {
+    left: 14px;
+    right: auto;
+}
+.toggle-3808 input:not(:checked) + .toggle-3808__track .toggle-3808__label {
+    left: 100px;
+    right: auto;
+    background: #d6d3d1;
+}
+.toggle-3808 input:not(:checked) + .toggle-3808__track .toggle-3808__label-on {
+    opacity: 0;
+}
+.toggle-3808 input:not(:checked) + .toggle-3808__track .toggle-3808__label-off {
+    opacity: 1;
+}
+.toggle-3808 input:checked + .toggle-3808__track {
+    background: #7f1d1d;
+}
+.toggle-3808 input:checked + .toggle-3808__track .toggle-3808__sun {
+    background: #facc15;
+    transform: scale(1.12);
+    box-shadow: 0 0 14px #f97316;
+}
+.toggle-3808 input:checked + .toggle-3808__track .toggle-3808__wing-left {
+    background: #ef4444;
+    transform: translateX(-86px) rotate(-15deg) scale(1.1);
+}
+.toggle-3808 input:checked + .toggle-3808__track .toggle-3808__wing-right {
+    background: #f97316;
+    transform: translateX(-91px) rotate(15deg) scale(1.1);
+}
+.toggle-3808 input:checked + .toggle-3808__track .toggle-3808__feather {
+    background: #ffffff;
+    transform: rotate(215deg) scale(1.12);
+}
+.toggle-3808 input:focus-visible + .toggle-3808__track {
+    outline: 3px solid #f97316;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3809,
+    name: "Shonen Chain Break Toggle",
+    preview: (
+      <label
+        className="toggle-3809"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Shonen Chain Break Toggle" />
+        <span className="toggle-3809__track">
+          <span className="toggle-3809__tone"></span>
+          <span className="toggle-3809__chain toggle-3809__chain-left"></span>
+          <span className="toggle-3809__chain toggle-3809__chain-right"></span>
+          <span className="toggle-3809__burst"></span>
+          <span className="toggle-3809__label">
+            <span className="toggle-3809__label-off">LOCKED</span>
+            <span className="toggle-3809__label-on">BREAK!</span>
+          </span>
+          <span className="toggle-3809__thumb">
+            <span className="toggle-3809__link"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3809">
+    <input type="checkbox" aria-label="Shonen Chain Break Toggle">
+    <span class="toggle-3809__track">
+        <span class="toggle-3809__tone"></span>
+        <span class="toggle-3809__chain toggle-3809__chain-left"></span>
+        <span class="toggle-3809__chain toggle-3809__chain-right"></span>
+        <span class="toggle-3809__burst"></span>
+        <span class="toggle-3809__label">
+            <span class="toggle-3809__label-off">LOCKED</span>
+            <span class="toggle-3809__label-on">BREAK!</span>
+        </span>
+        <span class="toggle-3809__thumb">
+            <span class="toggle-3809__link"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3809 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3809 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3809__track {
+    position: relative;
+    width: 158px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 12px;
+    background: #d1d5db;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3809__tone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(#111111 1.2px, transparent 1.4px);
+    background-size: 8px 8px;
+    opacity: .18;
+}
+.toggle-3809__chain {
+    position: absolute;
+    top: 24px;
+    width: 55px;
+    height: 17px;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #9ca3af;
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3809__chain-left {
+    left: 12px;
+    transform: rotate(-7deg);
+}
+.toggle-3809__chain-right {
+    right: 12px;
+    transform: rotate(7deg);
+}
+.toggle-3809__burst {
+    position: absolute;
+    left: 61px;
+    top: 18px;
+    width: 35px;
+    height: 35px;
+    background: #ffffff;
+    clip-path: polygon(50% 0,61% 27%,86% 8%,76% 37%,100% 45%,74% 57%,92% 82%,63% 72%,50% 100%,38% 72%,10% 90%,27% 59%,0 50%,27% 39%,9% 15%,39% 28%);
+    opacity: 0;
+    transition: opacity .3s ease, transform .35s ease, background .3s ease;
+}
+.toggle-3809__label {
+    position: absolute;
+    right: 9px;
+    bottom: 5px;
+    z-index: 4;
+    width: 50px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3809__label-off,
+.toggle-3809__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3809__label-off {
+    opacity: 1;
+}
+.toggle-3809__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3809__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #6b7280;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), background .3s ease, transform .3s ease;
+}
+.toggle-3809__link {
+    width: 27px;
+    height: 15px;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: transparent;
+    transform: rotate(-28deg);
+    transition: transform .35s ease, border-color .3s ease;
+}
+.toggle-3809:hover .toggle-3809__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3809:hover .toggle-3809__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3809 input:checked + .toggle-3809__track {
+    background: #fee2e2;
+}
+.toggle-3809 input:checked + .toggle-3809__track .toggle-3809__thumb {
+    left: 96px;
+    background: #ef4444;
+}
+.toggle-3809 input:checked + .toggle-3809__track .toggle-3809__link {
+    border-color: #fef08a;
+    transform: rotate(32deg) scale(1.15);
+}
+.toggle-3809 input:checked + .toggle-3809__track .toggle-3809__chain-left {
+    background: #ef4444;
+    transform: translateX(-35px) translateY(11px) rotate(-30deg);
+}
+.toggle-3809 input:checked + .toggle-3809__track .toggle-3809__chain-right {
+    background: #f97316;
+    transform: translateX(35px) translateY(-10px) rotate(31deg);
+}
+.toggle-3809 input:checked + .toggle-3809__track .toggle-3809__burst {
+    opacity: 1;
+    background: #facc15;
+    transform: rotate(45deg) scale(1.15);
+}
+.toggle-3809 input:checked + .toggle-3809__track .toggle-3809__label {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+}
+.toggle-3809 input:checked + .toggle-3809__track .toggle-3809__label-off {
+    opacity: 0;
+}
+.toggle-3809 input:checked + .toggle-3809__track .toggle-3809__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3809 input:focus-visible + .toggle-3809__track {
+    outline: 3px solid #ef4444;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3810,
+    name: "Shonen Demon Eye Toggle",
+    preview: (
+      <label
+        className="toggle-3810"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Shonen Demon Eye Toggle"
+        />
+        <span className="toggle-3810__track">
+          <span className="toggle-3810__dark"></span>
+          <span className="toggle-3810__vein toggle-3810__vein-1"></span>
+          <span className="toggle-3810__vein toggle-3810__vein-2"></span>
+          <span className="toggle-3810__vein toggle-3810__vein-3"></span>
+          <span className="toggle-3810__caption">
+            <span className="toggle-3810__caption-off">CLOSED</span>
+            <span className="toggle-3810__caption-on">SEE</span>
+          </span>
+          <span className="toggle-3810__thumb">
+            <span className="toggle-3810__eye">
+              <span className="toggle-3810__iris"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3810">
+    <input type="checkbox" checked aria-label="Shonen Demon Eye Toggle">
+    <span class="toggle-3810__track">
+        <span class="toggle-3810__dark"></span>
+        <span class="toggle-3810__vein toggle-3810__vein-1"></span>
+        <span class="toggle-3810__vein toggle-3810__vein-2"></span>
+        <span class="toggle-3810__vein toggle-3810__vein-3"></span>
+        <span class="toggle-3810__caption">
+            <span class="toggle-3810__caption-off">CLOSED</span>
+            <span class="toggle-3810__caption-on">SEE</span>
+        </span>
+        <span class="toggle-3810__thumb">
+            <span class="toggle-3810__eye">
+                <span class="toggle-3810__iris"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3810 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3810 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3810__track {
+    position: relative;
+    width: 158px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #18181b;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3810__dark {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 72% 50%, rgba(127,29,29,.55), transparent 30%), linear-gradient(135deg, #09090b, #27272a);
+}
+.toggle-3810__vein {
+    position: absolute;
+    z-index: 2;
+    height: 3px;
+    background: #7f1d1d;
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3810__vein-1 {
+    width: 48px;
+    right: 8px;
+    top: 13px;
+    transform: rotate(-12deg);
+}
+.toggle-3810__vein-2 {
+    width: 38px;
+    right: 15px;
+    top: 32px;
+}
+.toggle-3810__vein-3 {
+    width: 45px;
+    right: 9px;
+    bottom: 12px;
+    transform: rotate(13deg);
+}
+.toggle-3810__caption {
+    position: absolute;
+    right: 9px;
+    bottom: 6px;
+    z-index: 4;
+    width: 49px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3810__caption-off,
+.toggle-3810__caption-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3810__caption-off {
+    opacity: 0;
+}
+.toggle-3810__caption-on {
+    opacity: 1;
+}
+.toggle-3810__thumb {
+    position: absolute;
+    left: 96px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #7f1d1d;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), background .3s ease, transform .3s ease;
+}
+.toggle-3810__eye {
+    width: 34px;
+    height: 19px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+    transition: height .3s ease, background .3s ease;
+}
+.toggle-3810__iris {
+    width: 13px;
+    height: 13px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 0 0 8px #ef4444;
+    transition: transform .35s ease, background .3s ease, box-shadow .3s ease;
+}
+.toggle-3810:hover .toggle-3810__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3810:hover .toggle-3810__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3810 input:not(:checked) + .toggle-3810__track .toggle-3810__thumb {
+    left: 6px;
+    background: #3f3f46;
+}
+.toggle-3810 input:not(:checked) + .toggle-3810__track .toggle-3810__eye {
+    height: 4px;
+    background: #a1a1aa;
+}
+.toggle-3810 input:not(:checked) + .toggle-3810__track .toggle-3810__iris {
+    transform: scale(0);
+}
+.toggle-3810 input:not(:checked) + .toggle-3810__track .toggle-3810__caption {
+    left: 96px;
+    right: auto;
+    background: #d4d4d8;
+}
+.toggle-3810 input:not(:checked) + .toggle-3810__track .toggle-3810__caption-on {
+    opacity: 0;
+}
+.toggle-3810 input:not(:checked) + .toggle-3810__track .toggle-3810__caption-off {
+    opacity: 1;
+}
+.toggle-3810 input:checked + .toggle-3810__track .toggle-3810__iris {
+    transform: rotate(180deg) scale(1.12);
+    background: #f43f5e;
+    box-shadow: 0 0 13px #ef4444;
+}
+.toggle-3810 input:checked + .toggle-3810__track .toggle-3810__vein-1 {
+    transform: translateX(-88px) rotate(12deg);
+}
+.toggle-3810 input:checked + .toggle-3810__track .toggle-3810__vein-2 {
+    transform: translateX(-80px);
+}
+.toggle-3810 input:checked + .toggle-3810__track .toggle-3810__vein-3 {
+    transform: translateX(-87px) rotate(-13deg);
+}
+.toggle-3810 input:focus-visible + .toggle-3810__track {
+    outline: 3px solid #ef4444;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3811,
+    name: "Manga Impact Frame Toggle",
+    preview: (
+      <label
+        className="toggle-3811"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Manga Impact Frame Toggle" />
+        <span className="toggle-3811__track">
+          <span className="toggle-3811__rays"></span>
+          <span className="toggle-3811__panel"></span>
+          <span className="toggle-3811__word">
+            <span className="toggle-3811__word-off">...</span>
+            <span className="toggle-3811__word-on">ドン!</span>
+          </span>
+          <span className="toggle-3811__thumb">
+            <span className="toggle-3811__burst"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3811">
+    <input type="checkbox" aria-label="Manga Impact Frame Toggle">
+    <span class="toggle-3811__track">
+        <span class="toggle-3811__rays"></span>
+        <span class="toggle-3811__panel"></span>
+        <span class="toggle-3811__word">
+            <span class="toggle-3811__word-off">...</span>
+            <span class="toggle-3811__word-on">ドン!</span>
+        </span>
+        <span class="toggle-3811__thumb">
+            <span class="toggle-3811__burst"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3811 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3811 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3811__track {
+    position: relative;
+    width: 158px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3811__rays {
+    position: absolute;
+    inset: -40px;
+    background: repeating-conic-gradient(#111111 0 3deg, transparent 3deg 11deg);
+    opacity: .15;
+    transition: transform .4s ease, opacity .3s ease;
+}
+.toggle-3811__panel {
+    position: absolute;
+    inset: 8px;
+    border: 3px solid #111111;
+    background: rgba(255,255,255,.78);
+    transform: skewX(-5deg);
+    transition: background .3s ease, transform .3s ease;
+}
+.toggle-3811__word {
+    position: absolute;
+    right: 12px;
+    top: 21px;
+    z-index: 4;
+    width: 49px;
+    height: 27px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(5deg);
+}
+.toggle-3811__word-off,
+.toggle-3811__word-on {
+    position: absolute;
+    color: #111111;
+    font: 900 10px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3811__word-off {
+    opacity: 1;
+}
+.toggle-3811__word-on {
+    opacity: 0;
+    transform: scale(.5) rotate(-10deg);
+}
+.toggle-3811__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #e5e7eb;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3811__burst {
+    width: 31px;
+    height: 31px;
+    border: 3px solid #111111;
+    background: #ffffff;
+    clip-path: polygon(50% 0,61% 26%,84% 8%,75% 36%,100% 45%,74% 58%,92% 82%,63% 72%,50% 100%,38% 72%,10% 90%,27% 59%,0 50%,27% 39%,9% 15%,39% 28%);
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3811:hover .toggle-3811__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3811:hover .toggle-3811__thumb {
+    transform: rotate(-8deg) scale(1.05);
+}
+.toggle-3811 input:checked + .toggle-3811__track .toggle-3811__thumb {
+    left: 96px;
+    background: #111111;
+}
+.toggle-3811 input:checked + .toggle-3811__track .toggle-3811__burst {
+    background: #facc15;
+    transform: rotate(45deg) scale(1.12);
+}
+.toggle-3811 input:checked + .toggle-3811__track .toggle-3811__rays {
+    opacity: .38;
+    transform: rotate(20deg) scale(1.15);
+}
+.toggle-3811 input:checked + .toggle-3811__track .toggle-3811__panel {
+    background: rgba(254,240,138,.75);
+    transform: skewX(5deg) scale(1.03);
+}
+.toggle-3811 input:checked + .toggle-3811__track .toggle-3811__word {
+    left: 10px;
+    right: auto;
+    background: #facc15;
+    transform: rotate(-6deg);
+}
+.toggle-3811 input:checked + .toggle-3811__track .toggle-3811__word-off {
+    opacity: 0;
+}
+.toggle-3811 input:checked + .toggle-3811__track .toggle-3811__word-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3811 input:focus-visible + .toggle-3811__track {
+    outline: 3px solid #111111;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3812,
+    name: "Shonen Champion Ascension Toggle",
+    preview: (
+      <label
+        className="toggle-3812"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Shonen Champion Ascension Toggle"
+        />
+        <span className="toggle-3812__track">
+          <span className="toggle-3812__sky"></span>
+          <span className="toggle-3812__ray toggle-3812__ray-1"></span>
+          <span className="toggle-3812__ray toggle-3812__ray-2"></span>
+          <span className="toggle-3812__ray toggle-3812__ray-3"></span>
+          <span className="toggle-3812__crown"></span>
+          <span className="toggle-3812__label">
+            <span className="toggle-3812__label-off">ROOKIE</span>
+            <span className="toggle-3812__label-on">CHAMP!</span>
+          </span>
+          <span className="toggle-3812__thumb">
+            <span className="toggle-3812__star">★</span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3812">
+    <input type="checkbox" checked aria-label="Shonen Champion Ascension Toggle">
+    <span class="toggle-3812__track">
+        <span class="toggle-3812__sky"></span>
+        <span class="toggle-3812__ray toggle-3812__ray-1"></span>
+        <span class="toggle-3812__ray toggle-3812__ray-2"></span>
+        <span class="toggle-3812__ray toggle-3812__ray-3"></span>
+        <span class="toggle-3812__crown"></span>
+        <span class="toggle-3812__label">
+            <span class="toggle-3812__label-off">ROOKIE</span>
+            <span class="toggle-3812__label-on">CHAMP!</span>
+        </span>
+        <span class="toggle-3812__thumb">
+            <span class="toggle-3812__star">★</span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3812 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3812 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3812__track {
+    position: relative;
+    width: 160px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #dbeafe;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3812__sky {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #dbeafe, #93c5fd 48%, #60a5fa);
+    transition: background .3s ease;
+}
+.toggle-3812__ray {
+    position: absolute;
+    z-index: 2;
+    height: 4px;
+    background: #ffffff;
+    border: 1px solid #111111;
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3812__ray-1 {
+    width: 46px;
+    right: 8px;
+    top: 12px;
+    transform: rotate(-14deg);
+}
+.toggle-3812__ray-2 {
+    width: 36px;
+    right: 9px;
+    top: 33px;
+}
+.toggle-3812__ray-3 {
+    width: 43px;
+    right: 8px;
+    bottom: 10px;
+    transform: rotate(14deg);
+}
+.toggle-3812__crown {
+    position: absolute;
+    right: 19px;
+    top: 9px;
+    z-index: 3;
+    width: 38px;
+    height: 29px;
+    border: 3px solid #111111;
+    background: #facc15;
+    clip-path: polygon(0 28%,25% 52%,43% 0,61% 52%,86% 22%,100% 100%,0 100%);
+    box-shadow: 3px 3px 0 #111111;
+    transition: left .3s ease, right .3s ease, transform .35s ease, background .3s ease;
+}
+.toggle-3812__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 52px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3812__label-off,
+.toggle-3812__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3812__label-off {
+    opacity: 0;
+}
+.toggle-3812__label-on {
+    opacity: 1;
+}
+.toggle-3812__thumb {
+    position: absolute;
+    left: 98px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3812__star {
+    color: #111111;
+    font-size: 23px;
+    line-height: 1;
+    transition: color .3s ease, transform .35s ease;
+}
+.toggle-3812:hover .toggle-3812__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3812:hover .toggle-3812__thumb {
+    transform: rotate(-8deg) scale(1.05);
+}
+.toggle-3812:hover .toggle-3812__crown {
+    transform: rotate(7deg) scale(1.07);
+}
+.toggle-3812 input:not(:checked) + .toggle-3812__track {
+    background: #e5e7eb;
+}
+.toggle-3812 input:not(:checked) + .toggle-3812__track .toggle-3812__thumb {
+    left: 6px;
+    background: #94a3b8;
+}
+.toggle-3812 input:not(:checked) + .toggle-3812__track .toggle-3812__star {
+    color: #475569;
+    transform: scale(.8);
+}
+.toggle-3812 input:not(:checked) + .toggle-3812__track .toggle-3812__crown {
+    left: 18px;
+    right: auto;
+    background: #9ca3af;
+    transform: rotate(-8deg) scale(.85);
+}
+.toggle-3812 input:not(:checked) + .toggle-3812__track .toggle-3812__label {
+    left: 99px;
+    right: auto;
+    background: #e5e7eb;
+}
+.toggle-3812 input:not(:checked) + .toggle-3812__track .toggle-3812__label-on {
+    opacity: 0;
+}
+.toggle-3812 input:not(:checked) + .toggle-3812__track .toggle-3812__label-off {
+    opacity: 1;
+}
+.toggle-3812 input:checked + .toggle-3812__track {
+    background: #fff7ed;
+}
+.toggle-3812 input:checked + .toggle-3812__track .toggle-3812__sky {
+    background: linear-gradient(135deg, #fef3c7, #fde047 48%, #fb923c);
+}
+.toggle-3812 input:checked + .toggle-3812__track .toggle-3812__star {
+    color: #dc2626;
+    transform: rotate(18deg) scale(1.15);
+}
+.toggle-3812 input:checked + .toggle-3812__track .toggle-3812__ray-1 {
+    background: #fef08a;
+    transform: translateX(-93px) rotate(14deg);
+}
+.toggle-3812 input:checked + .toggle-3812__track .toggle-3812__ray-2 {
+    background: #ffffff;
+    transform: translateX(-87px);
+}
+.toggle-3812 input:checked + .toggle-3812__track .toggle-3812__ray-3 {
+    background: #fef08a;
+    transform: translateX(-92px) rotate(-14deg);
+}
+.toggle-3812 input:focus-visible + .toggle-3812__track {
+    outline: 3px solid #f59e0b;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3813,
+    name: "Spider Web Hero Toggle",
+    preview: (
+      <label
+        className="toggle-3813"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Spider Web Hero Toggle"
+        />
+        <span className="toggle-3813__track">
+          <span className="toggle-3813__web"></span>
+          <span className="toggle-3813__web-center"></span>
+          <span className="toggle-3813__label">
+            <span className="toggle-3813__label-off">CITY</span>
+            <span className="toggle-3813__label-on">SWING!</span>
+          </span>
+          <span className="toggle-3813__thumb">
+            <span className="toggle-3813__mask">
+              <span className="toggle-3813__eye toggle-3813__eye-left"></span>
+              <span className="toggle-3813__eye toggle-3813__eye-right"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3813">
+    <input type="checkbox" checked aria-label="Spider Web Hero Toggle">
+    <span class="toggle-3813__track">
+        <span class="toggle-3813__web"></span>
+        <span class="toggle-3813__web-center"></span>
+        <span class="toggle-3813__label">
+            <span class="toggle-3813__label-off">CITY</span>
+            <span class="toggle-3813__label-on">SWING!</span>
+        </span>
+        <span class="toggle-3813__thumb">
+            <span class="toggle-3813__mask">
+                <span class="toggle-3813__eye toggle-3813__eye-left"></span>
+                <span class="toggle-3813__eye toggle-3813__eye-right"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3813 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3813 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3813__track {
+    position: relative;
+    width: 160px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #1d4ed8;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3813__web {
+    position: absolute;
+    inset: -20px;
+    background:
+        repeating-conic-gradient(from 0deg, transparent 0 13deg, rgba(255,255,255,.5) 13deg 15deg),
+        repeating-radial-gradient(circle at 74% 50%, transparent 0 11px, rgba(255,255,255,.45) 12px 14px);
+    transition: transform .4s ease, opacity .3s ease;
+}
+.toggle-3813__web-center {
+    position: absolute;
+    right: 25px;
+    top: 19px;
+    width: 28px;
+    height: 28px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    opacity: .75;
+    transition: left .35s ease, right .35s ease, transform .35s ease;
+}
+.toggle-3813__label {
+    position: absolute;
+    right: 9px;
+    bottom: 5px;
+    z-index: 4;
+    width: 49px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(3deg);
+}
+.toggle-3813__label-off,
+.toggle-3813__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3813__label-off {
+    opacity: 0;
+}
+.toggle-3813__label-on {
+    opacity: 1;
+}
+.toggle-3813__thumb {
+    position: absolute;
+    left: 98px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #dc2626;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3813__mask {
+    position: relative;
+    width: 31px;
+    height: 35px;
+    border: 3px solid #111111;
+    border-radius: 50% 50% 45% 45%;
+    background:
+        linear-gradient(90deg, transparent 47%, #111111 47% 53%, transparent 53%),
+        linear-gradient(#dc2626, #ef4444);
+}
+.toggle-3813__eye {
+    position: absolute;
+    top: 10px;
+    width: 9px;
+    height: 14px;
+    border: 2px solid #111111;
+    background: #ffffff;
+    clip-path: polygon(0 0,100% 24%,68% 100%,8% 72%);
+}
+.toggle-3813__eye-left {
+    left: 3px;
+}
+.toggle-3813__eye-right {
+    right: 3px;
+    transform: scaleX(-1);
+}
+.toggle-3813:hover .toggle-3813__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3813:hover .toggle-3813__thumb {
+    transform: rotate(-8deg) scale(1.05);
+}
+.toggle-3813 input:not(:checked) + .toggle-3813__track {
+    background: #172554;
+}
+.toggle-3813 input:not(:checked) + .toggle-3813__track .toggle-3813__thumb {
+    left: 6px;
+    background: #991b1b;
+}
+.toggle-3813 input:not(:checked) + .toggle-3813__track .toggle-3813__web-center {
+    left: 23px;
+    right: auto;
+    transform: scale(.7);
+}
+.toggle-3813 input:not(:checked) + .toggle-3813__track .toggle-3813__label {
+    left: 100px;
+    right: auto;
+    background: #dbeafe;
+}
+.toggle-3813 input:not(:checked) + .toggle-3813__track .toggle-3813__label-on {
+    opacity: 0;
+}
+.toggle-3813 input:not(:checked) + .toggle-3813__track .toggle-3813__label-off {
+    opacity: 1;
+}
+.toggle-3813 input:checked + .toggle-3813__track .toggle-3813__web {
+    transform: rotate(18deg) scale(1.08);
+}
+.toggle-3813 input:checked + .toggle-3813__track .toggle-3813__web-center {
+    transform: scale(1.12);
+}
+.toggle-3813 input:focus-visible + .toggle-3813__track {
+    outline: 3px solid #ef4444;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3814,
+    name: "Arc Reactor Armor Toggle",
+    preview: (
+      <label
+        className="toggle-3814"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Arc Reactor Armor Toggle" />
+        <span className="toggle-3814__track">
+          <span className="toggle-3814__armor"></span>
+          <span className="toggle-3814__panel toggle-3814__panel-1"></span>
+          <span className="toggle-3814__panel toggle-3814__panel-2"></span>
+          <span className="toggle-3814__status">
+            <span className="toggle-3814__status-off">STANDBY</span>
+            <span className="toggle-3814__status-on">ONLINE</span>
+          </span>
+          <span className="toggle-3814__thumb">
+            <span className="toggle-3814__reactor">
+              <span className="toggle-3814__reactor-core"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3814">
+    <input type="checkbox" aria-label="Arc Reactor Armor Toggle">
+    <span class="toggle-3814__track">
+        <span class="toggle-3814__armor"></span>
+        <span class="toggle-3814__panel toggle-3814__panel-1"></span>
+        <span class="toggle-3814__panel toggle-3814__panel-2"></span>
+        <span class="toggle-3814__status">
+            <span class="toggle-3814__status-off">STANDBY</span>
+            <span class="toggle-3814__status-on">ONLINE</span>
+        </span>
+        <span class="toggle-3814__thumb">
+            <span class="toggle-3814__reactor">
+                <span class="toggle-3814__reactor-core"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3814 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3814 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3814__track {
+    position: relative;
+    width: 160px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 15px;
+    background: #7f1d1d;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3814__armor {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(135deg, #991b1b 0 40%, #dc2626 40% 65%, #7f1d1d 65%),
+        #991b1b;
+}
+.toggle-3814__panel {
+    position: absolute;
+    border: 3px solid #111111;
+    background: #facc15;
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3814__panel-1 {
+    right: 10px;
+    top: 10px;
+    width: 38px;
+    height: 17px;
+    clip-path: polygon(15% 0,100% 0,85% 100%,0 100%);
+}
+.toggle-3814__panel-2 {
+    right: 19px;
+    bottom: 9px;
+    width: 29px;
+    height: 15px;
+    clip-path: polygon(0 0,100% 0,84% 100%,12% 100%);
+}
+.toggle-3814__status {
+    position: absolute;
+    right: 9px;
+    bottom: 5px;
+    z-index: 4;
+    width: 52px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #fef3c7;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3814__status-off,
+.toggle-3814__status-on {
+    position: absolute;
+    color: #111111;
+    font: 900 6px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3814__status-off {
+    opacity: 1;
+}
+.toggle-3814__status-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3814__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #991b1b;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3814__reactor {
+    width: 33px;
+    height: 33px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #475569;
+    transition: background .3s ease, transform .35s ease, box-shadow .3s ease;
+}
+.toggle-3814__reactor-core {
+    width: 14px;
+    height: 14px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #94a3b8;
+    transition: background .3s ease, box-shadow .3s ease, transform .35s ease;
+}
+.toggle-3814:hover .toggle-3814__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3814:hover .toggle-3814__thumb {
+    transform: rotate(-7deg) scale(1.04);
+}
+.toggle-3814 input:checked + .toggle-3814__track .toggle-3814__thumb {
+    left: 98px;
+    background: #dc2626;
+}
+.toggle-3814 input:checked + .toggle-3814__track .toggle-3814__reactor {
+    background: #cffafe;
+    transform: rotate(90deg) scale(1.08);
+    box-shadow: 0 0 13px #22d3ee;
+}
+.toggle-3814 input:checked + .toggle-3814__track .toggle-3814__reactor-core {
+    background: #ffffff;
+    box-shadow: 0 0 12px #ffffff;
+    transform: scale(1.1);
+}
+.toggle-3814 input:checked + .toggle-3814__track .toggle-3814__status {
+    left: 8px;
+    right: auto;
+    background: #cffafe;
+}
+.toggle-3814 input:checked + .toggle-3814__track .toggle-3814__status-off {
+    opacity: 0;
+}
+.toggle-3814 input:checked + .toggle-3814__track .toggle-3814__status-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3814 input:checked + .toggle-3814__track .toggle-3814__panel-1 {
+    background: #22d3ee;
+    transform: translateX(-94px);
+}
+.toggle-3814 input:checked + .toggle-3814__track .toggle-3814__panel-2 {
+    background: #facc15;
+    transform: translateX(-86px);
+}
+.toggle-3814 input:focus-visible + .toggle-3814__track {
+    outline: 3px solid #22d3ee;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3815,
+    name: "Gamma Smash Toggle",
+    preview: (
+      <label
+        className="toggle-3815"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" defaultChecked aria-label="Gamma Smash Toggle" />
+        <span className="toggle-3815__track">
+          <span className="toggle-3815__crack"></span>
+          <span className="toggle-3815__debris toggle-3815__debris-1"></span>
+          <span className="toggle-3815__debris toggle-3815__debris-2"></span>
+          <span className="toggle-3815__debris toggle-3815__debris-3"></span>
+          <span className="toggle-3815__label">
+            <span className="toggle-3815__label-off">CALM</span>
+            <span className="toggle-3815__label-on">SMASH!</span>
+          </span>
+          <span className="toggle-3815__thumb">
+            <span className="toggle-3815__fist"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3815">
+    <input type="checkbox" checked aria-label="Gamma Smash Toggle">
+    <span class="toggle-3815__track">
+        <span class="toggle-3815__crack"></span>
+        <span class="toggle-3815__debris toggle-3815__debris-1"></span>
+        <span class="toggle-3815__debris toggle-3815__debris-2"></span>
+        <span class="toggle-3815__debris toggle-3815__debris-3"></span>
+        <span class="toggle-3815__label">
+            <span class="toggle-3815__label-off">CALM</span>
+            <span class="toggle-3815__label-on">SMASH!</span>
+        </span>
+        <span class="toggle-3815__thumb">
+            <span class="toggle-3815__fist"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3815 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3815 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3815__track {
+    position: relative;
+    width: 160px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 13px;
+    background: #e9d5ff;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3815__crack {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(115deg, transparent 0 45%, #111111 46% 48%, transparent 49%),
+        linear-gradient(70deg, transparent 0 54%, #111111 55% 57%, transparent 58%),
+        linear-gradient(145deg, transparent 0 63%, #111111 64% 66%, transparent 67%);
+    opacity: .28;
+    transition: transform .35s ease, opacity .3s ease;
+}
+.toggle-3815__debris {
+    position: absolute;
+    border: 3px solid #111111;
+    background: #7e22ce;
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3815__debris-1 {
+    width: 14px;
+    height: 10px;
+    right: 14px;
+    top: 9px;
+    transform: rotate(20deg);
+}
+.toggle-3815__debris-2 {
+    width: 11px;
+    height: 13px;
+    right: 42px;
+    top: 26px;
+    transform: rotate(-12deg);
+}
+.toggle-3815__debris-3 {
+    width: 16px;
+    height: 9px;
+    right: 17px;
+    bottom: 7px;
+    transform: rotate(9deg);
+}
+.toggle-3815__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 50px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3815__label-off,
+.toggle-3815__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3815__label-off {
+    opacity: 0;
+}
+.toggle-3815__label-on {
+    opacity: 1;
+}
+.toggle-3815__thumb {
+    position: absolute;
+    left: 98px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3815__fist {
+    width: 27px;
+    height: 24px;
+    border: 3px solid #111111;
+    border-radius: 8px 8px 12px 12px;
+    background: #86efac;
+    box-shadow:
+        inset 0 5px 0 rgba(255,255,255,.25),
+        4px -5px 0 -1px #86efac,
+        10px -5px 0 -1px #86efac;
+    transform: rotate(-8deg);
+}
+.toggle-3815:hover .toggle-3815__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3815:hover .toggle-3815__thumb {
+    transform: rotate(-8deg) scale(1.06);
+}
+.toggle-3815 input:not(:checked) + .toggle-3815__track {
+    background: #e5e7eb;
+}
+.toggle-3815 input:not(:checked) + .toggle-3815__track .toggle-3815__thumb {
+    left: 6px;
+    background: #94a3b8;
+}
+.toggle-3815 input:not(:checked) + .toggle-3815__track .toggle-3815__label {
+    left: 99px;
+    right: auto;
+    background: #e5e7eb;
+}
+.toggle-3815 input:not(:checked) + .toggle-3815__track .toggle-3815__label-on {
+    opacity: 0;
+}
+.toggle-3815 input:not(:checked) + .toggle-3815__track .toggle-3815__label-off {
+    opacity: 1;
+}
+.toggle-3815 input:checked + .toggle-3815__track {
+    background: #dcfce7;
+}
+.toggle-3815 input:checked + .toggle-3815__track .toggle-3815__crack {
+    transform: scale(1.2);
+    opacity: .72;
+}
+.toggle-3815 input:checked + .toggle-3815__track .toggle-3815__debris-1 {
+    transform: translateX(-98px) translateY(14px) rotate(70deg);
+}
+.toggle-3815 input:checked + .toggle-3815__track .toggle-3815__debris-2 {
+    transform: translateX(-71px) translateY(-17px) rotate(-75deg);
+}
+.toggle-3815 input:checked + .toggle-3815__track .toggle-3815__debris-3 {
+    transform: translateX(-91px) translateY(-12px) rotate(50deg);
+}
+.toggle-3815 input:focus-visible + .toggle-3815__track {
+    outline: 3px solid #22c55e;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3816,
+    name: "Thunder Hammer Toggle",
+    preview: (
+      <label
+        className="toggle-3816"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Thunder Hammer Toggle" />
+        <span className="toggle-3816__track">
+          <span className="toggle-3816__storm"></span>
+          <span className="toggle-3816__bolt toggle-3816__bolt-1"></span>
+          <span className="toggle-3816__bolt toggle-3816__bolt-2"></span>
+          <span className="toggle-3816__label">
+            <span className="toggle-3816__label-off">SILENT</span>
+            <span className="toggle-3816__label-on">THUNDER</span>
+          </span>
+          <span className="toggle-3816__thumb">
+            <span className="toggle-3816__hammer">
+              <span className="toggle-3816__handle"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3816">
+    <input type="checkbox" aria-label="Thunder Hammer Toggle">
+    <span class="toggle-3816__track">
+        <span class="toggle-3816__storm"></span>
+        <span class="toggle-3816__bolt toggle-3816__bolt-1"></span>
+        <span class="toggle-3816__bolt toggle-3816__bolt-2"></span>
+        <span class="toggle-3816__label">
+            <span class="toggle-3816__label-off">SILENT</span>
+            <span class="toggle-3816__label-on">THUNDER</span>
+        </span>
+        <span class="toggle-3816__thumb">
+            <span class="toggle-3816__hammer">
+                <span class="toggle-3816__handle"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3816 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3816 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3816__track {
+    position: relative;
+    width: 160px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #334155;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3816__storm {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 72% 28%, rgba(255,255,255,.18), transparent 24%), linear-gradient(135deg, #1e293b, #475569);
+}
+.toggle-3816__bolt {
+    position: absolute;
+    z-index: 2;
+    background: #94a3b8;
+    clip-path: polygon(43% 0,100% 0,65% 37%,100% 37%,26% 100%,45% 54%,8% 54%);
+    transition: transform .35s ease, background .3s ease, filter .3s ease;
+}
+.toggle-3816__bolt-1 {
+    width: 19px;
+    height: 39px;
+    right: 17px;
+    top: 8px;
+}
+.toggle-3816__bolt-2 {
+    width: 13px;
+    height: 29px;
+    right: 50px;
+    bottom: 7px;
+}
+.toggle-3816__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 54px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3816__label-off,
+.toggle-3816__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 6px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3816__label-off {
+    opacity: 1;
+}
+.toggle-3816__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3816__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #64748b;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3816__hammer {
+    position: relative;
+    width: 27px;
+    height: 19px;
+    border: 3px solid #111111;
+    border-radius: 4px;
+    background: #cbd5e1;
+    transform: rotate(-14deg);
+    transition: background .3s ease, transform .35s ease, box-shadow .3s ease;
+}
+.toggle-3816__handle {
+    position: absolute;
+    width: 7px;
+    height: 25px;
+    left: 9px;
+    top: 15px;
+    border: 2px solid #111111;
+    background: #92400e;
+}
+.toggle-3816:hover .toggle-3816__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3816:hover .toggle-3816__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3816 input:checked + .toggle-3816__track {
+    background: #1d4ed8;
+}
+.toggle-3816 input:checked + .toggle-3816__track .toggle-3816__thumb {
+    left: 98px;
+    background: #60a5fa;
+}
+.toggle-3816 input:checked + .toggle-3816__track .toggle-3816__hammer {
+    background: #f8fafc;
+    transform: rotate(14deg) scale(1.08);
+    box-shadow: 0 0 11px #ffffff;
+}
+.toggle-3816 input:checked + .toggle-3816__track .toggle-3816__bolt-1 {
+    background: #facc15;
+    filter: drop-shadow(0 0 5px #facc15);
+    transform: translateX(-91px);
+}
+.toggle-3816 input:checked + .toggle-3816__track .toggle-3816__bolt-2 {
+    background: #ffffff;
+    transform: translateX(-75px) scale(1.15);
+}
+.toggle-3816 input:checked + .toggle-3816__track .toggle-3816__label {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+}
+.toggle-3816 input:checked + .toggle-3816__track .toggle-3816__label-off {
+    opacity: 0;
+}
+.toggle-3816 input:checked + .toggle-3816__track .toggle-3816__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3816 input:focus-visible + .toggle-3816__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3817,
+    name: "Star Shield Hero Toggle",
+    preview: (
+      <label
+        className="toggle-3817"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Star Shield Hero Toggle"
+        />
+        <span className="toggle-3817__track">
+          <span className="toggle-3817__stripes"></span>
+          <span className="toggle-3817__star toggle-3817__star-1">★</span>
+          <span className="toggle-3817__star toggle-3817__star-2">★</span>
+          <span className="toggle-3817__label">
+            <span className="toggle-3817__label-off">DOWN</span>
+            <span className="toggle-3817__label-on">ASSEMBLE</span>
+          </span>
+          <span className="toggle-3817__thumb">
+            <span className="toggle-3817__shield">
+              <span className="toggle-3817__shield-star">★</span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3817">
+    <input type="checkbox" checked aria-label="Star Shield Hero Toggle">
+    <span class="toggle-3817__track">
+        <span class="toggle-3817__stripes"></span>
+        <span class="toggle-3817__star toggle-3817__star-1">★</span>
+        <span class="toggle-3817__star toggle-3817__star-2">★</span>
+        <span class="toggle-3817__label">
+            <span class="toggle-3817__label-off">DOWN</span>
+            <span class="toggle-3817__label-on">ASSEMBLE</span>
+        </span>
+        <span class="toggle-3817__thumb">
+            <span class="toggle-3817__shield">
+                <span class="toggle-3817__shield-star">★</span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3817 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3817 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3817__track {
+    position: relative;
+    width: 160px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #1d4ed8;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3817__stripes {
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(-25deg, transparent 0 14px, rgba(255,255,255,.22) 14px 23px);
+}
+.toggle-3817__star {
+    position: absolute;
+    z-index: 2;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #111111;
+    transition: transform .35s ease, color .3s ease;
+}
+.toggle-3817__star-1 {
+    right: 22px;
+    top: 8px;
+    font-size: 18px;
+}
+.toggle-3817__star-2 {
+    right: 53px;
+    bottom: 8px;
+    font-size: 10px;
+}
+.toggle-3817__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 4;
+    width: 57px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3817__label-off,
+.toggle-3817__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 6px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3817__label-off {
+    opacity: 0;
+}
+.toggle-3817__label-on {
+    opacity: 1;
+}
+.toggle-3817__thumb {
+    position: absolute;
+    left: 98px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #f8fafc;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3817__shield {
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle, #2563eb 0 27%, #ffffff 28% 42%, #dc2626 43% 62%, #ffffff 63% 73%, #dc2626 74%);
+    transition: transform .35s ease, box-shadow .3s ease;
+}
+.toggle-3817__shield-star {
+    color: #ffffff;
+    font-size: 11px;
+    -webkit-text-stroke: 1px #111111;
+}
+.toggle-3817:hover .toggle-3817__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3817:hover .toggle-3817__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3817 input:not(:checked) + .toggle-3817__track {
+    background: #64748b;
+}
+.toggle-3817 input:not(:checked) + .toggle-3817__track .toggle-3817__thumb {
+    left: 6px;
+    background: #cbd5e1;
+}
+.toggle-3817 input:not(:checked) + .toggle-3817__track .toggle-3817__shield {
+    transform: rotate(-45deg) scale(.88);
+}
+.toggle-3817 input:not(:checked) + .toggle-3817__track .toggle-3817__label {
+    left: 99px;
+    right: auto;
+    background: #e5e7eb;
+}
+.toggle-3817 input:not(:checked) + .toggle-3817__track .toggle-3817__label-on {
+    opacity: 0;
+}
+.toggle-3817 input:not(:checked) + .toggle-3817__track .toggle-3817__label-off {
+    opacity: 1;
+}
+.toggle-3817 input:checked + .toggle-3817__track .toggle-3817__shield {
+    transform: rotate(360deg) scale(1.08);
+    box-shadow: 0 0 10px #ffffff;
+}
+.toggle-3817 input:checked + .toggle-3817__track .toggle-3817__star-1 {
+    transform: translateX(-90px) rotate(45deg);
+}
+.toggle-3817 input:checked + .toggle-3817__track .toggle-3817__star-2 {
+    transform: translateX(-68px) rotate(-45deg) scale(1.3);
+}
+.toggle-3817 input:focus-visible + .toggle-3817__track {
+    outline: 3px solid #2563eb;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3818,
+    name: "Vibranium Panther Toggle",
+    preview: (
+      <label
+        className="toggle-3818"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Vibranium Panther Toggle" />
+        <span className="toggle-3818__track">
+          <span className="toggle-3818__energy"></span>
+          <span className="toggle-3818__claw toggle-3818__claw-1"></span>
+          <span className="toggle-3818__claw toggle-3818__claw-2"></span>
+          <span className="toggle-3818__claw toggle-3818__claw-3"></span>
+          <span className="toggle-3818__label">
+            <span className="toggle-3818__label-off">SILENT</span>
+            <span className="toggle-3818__label-on">KINETIC</span>
+          </span>
+          <span className="toggle-3818__thumb">
+            <span className="toggle-3818__mask">
+              <span className="toggle-3818__eye toggle-3818__eye-left"></span>
+              <span className="toggle-3818__eye toggle-3818__eye-right"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3818">
+    <input type="checkbox" aria-label="Vibranium Panther Toggle">
+    <span class="toggle-3818__track">
+        <span class="toggle-3818__energy"></span>
+        <span class="toggle-3818__claw toggle-3818__claw-1"></span>
+        <span class="toggle-3818__claw toggle-3818__claw-2"></span>
+        <span class="toggle-3818__claw toggle-3818__claw-3"></span>
+        <span class="toggle-3818__label">
+            <span class="toggle-3818__label-off">SILENT</span>
+            <span class="toggle-3818__label-on">KINETIC</span>
+        </span>
+        <span class="toggle-3818__thumb">
+            <span class="toggle-3818__mask">
+                <span class="toggle-3818__eye toggle-3818__eye-left"></span>
+                <span class="toggle-3818__eye toggle-3818__eye-right"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3818 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3818 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3818__track {
+    position: relative;
+    width: 160px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #09090b;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3818__energy {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 70% 50%, rgba(168,85,247,.5), transparent 31%), linear-gradient(135deg, #09090b, #18181b);
+    transition: filter .3s ease, transform .35s ease;
+}
+.toggle-3818__claw {
+    position: absolute;
+    height: 4px;
+    background: #7c3aed;
+    box-shadow: 0 0 6px #8b5cf6;
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3818__claw-1 {
+    width: 47px;
+    right: 9px;
+    top: 14px;
+    transform: rotate(-13deg);
+}
+.toggle-3818__claw-2 {
+    width: 40px;
+    right: 7px;
+    top: 32px;
+}
+.toggle-3818__claw-3 {
+    width: 46px;
+    right: 10px;
+    bottom: 12px;
+    transform: rotate(13deg);
+}
+.toggle-3818__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 52px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3818__label-off,
+.toggle-3818__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 6px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3818__label-off {
+    opacity: 1;
+}
+.toggle-3818__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3818__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #27272a;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3818__mask {
+    position: relative;
+    width: 31px;
+    height: 31px;
+    border: 3px solid #a855f7;
+    background: #111111;
+    clip-path: polygon(50% 0,70% 17%,91% 8%,86% 36%,100% 52%,80% 100%,50% 82%,20% 100%,0 52%,14% 36%,9% 8%,30% 17%);
+    transition: border-color .3s ease, transform .35s ease, filter .3s ease;
+}
+.toggle-3818__eye {
+    position: absolute;
+    top: 10px;
+    width: 8px;
+    height: 4px;
+    background: #a855f7;
+    box-shadow: 0 0 5px #a855f7;
+}
+.toggle-3818__eye-left {
+    left: 4px;
+}
+.toggle-3818__eye-right {
+    right: 4px;
+}
+.toggle-3818:hover .toggle-3818__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3818:hover .toggle-3818__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3818 input:checked + .toggle-3818__track .toggle-3818__thumb {
+    left: 98px;
+    background: #581c87;
+}
+.toggle-3818 input:checked + .toggle-3818__track .toggle-3818__mask {
+    border-color: #e9d5ff;
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 5px #a855f7);
+}
+.toggle-3818 input:checked + .toggle-3818__track .toggle-3818__energy {
+    filter: brightness(1.35);
+    transform: scale(1.08);
+}
+.toggle-3818 input:checked + .toggle-3818__track .toggle-3818__claw-1 {
+    background: #d8b4fe;
+    transform: translateX(-91px) rotate(13deg);
+}
+.toggle-3818 input:checked + .toggle-3818__track .toggle-3818__claw-2 {
+    background: #a855f7;
+    transform: translateX(-86px);
+}
+.toggle-3818 input:checked + .toggle-3818__track .toggle-3818__claw-3 {
+    background: #d8b4fe;
+    transform: translateX(-90px) rotate(-13deg);
+}
+.toggle-3818 input:checked + .toggle-3818__track .toggle-3818__label {
+    left: 8px;
+    right: auto;
+    background: #f3e8ff;
+}
+.toggle-3818 input:checked + .toggle-3818__track .toggle-3818__label-off {
+    opacity: 0;
+}
+.toggle-3818 input:checked + .toggle-3818__track .toggle-3818__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3818 input:focus-visible + .toggle-3818__track {
+    outline: 3px solid #a855f7;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3819,
+    name: "Mystic Portal Toggle",
+    preview: (
+      <label
+        className="toggle-3819"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Mystic Portal Toggle"
+        />
+        <span className="toggle-3819__track">
+          <span className="toggle-3819__space"></span>
+          <span className="toggle-3819__rune toggle-3819__rune-1">✦</span>
+          <span className="toggle-3819__rune toggle-3819__rune-2">◇</span>
+          <span className="toggle-3819__label">
+            <span className="toggle-3819__label-off">CLOSED</span>
+            <span className="toggle-3819__label-on">OPEN</span>
+          </span>
+          <span className="toggle-3819__thumb">
+            <span className="toggle-3819__portal">
+              <span className="toggle-3819__ring toggle-3819__ring-1"></span>
+              <span className="toggle-3819__ring toggle-3819__ring-2"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3819">
+    <input type="checkbox" checked aria-label="Mystic Portal Toggle">
+    <span class="toggle-3819__track">
+        <span class="toggle-3819__space"></span>
+        <span class="toggle-3819__rune toggle-3819__rune-1">✦</span>
+        <span class="toggle-3819__rune toggle-3819__rune-2">◇</span>
+        <span class="toggle-3819__label">
+            <span class="toggle-3819__label-off">CLOSED</span>
+            <span class="toggle-3819__label-on">OPEN</span>
+        </span>
+        <span class="toggle-3819__thumb">
+            <span class="toggle-3819__portal">
+                <span class="toggle-3819__ring toggle-3819__ring-1"></span>
+                <span class="toggle-3819__ring toggle-3819__ring-2"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3819 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3819 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3819__track {
+    position: relative;
+    width: 160px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #312e81;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3819__space {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 68% 45%, rgba(249,115,22,.38), transparent 29%), linear-gradient(135deg, #1e1b4b, #581c87);
+    transition: filter .3s ease, transform .35s ease;
+}
+.toggle-3819__rune {
+    position: absolute;
+    color: #facc15;
+    text-shadow: 0 0 7px #f97316;
+    transition: transform .35s ease, color .3s ease;
+}
+.toggle-3819__rune-1 {
+    right: 26px;
+    top: 8px;
+    font-size: 17px;
+}
+.toggle-3819__rune-2 {
+    right: 55px;
+    bottom: 8px;
+    font-size: 13px;
+}
+.toggle-3819__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 50px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3819__label-off,
+.toggle-3819__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3819__label-off {
+    opacity: 0;
+}
+.toggle-3819__label-on {
+    opacity: 1;
+}
+.toggle-3819__thumb {
+    position: absolute;
+    left: 98px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #f97316;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3819__portal {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #111827;
+}
+.toggle-3819__ring {
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #facc15;
+    transition: transform .4s ease, border-color .3s ease;
+}
+.toggle-3819__ring-1 {
+    width: 29px;
+    height: 29px;
+    border-style: dashed;
+}
+.toggle-3819__ring-2 {
+    width: 17px;
+    height: 17px;
+    border-color: #ffffff;
+}
+.toggle-3819:hover .toggle-3819__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3819:hover .toggle-3819__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3819 input:not(:checked) + .toggle-3819__track .toggle-3819__thumb {
+    left: 6px;
+    background: #475569;
+}
+.toggle-3819 input:not(:checked) + .toggle-3819__track .toggle-3819__ring-1 {
+    transform: scale(.65);
+    border-color: #64748b;
+}
+.toggle-3819 input:not(:checked) + .toggle-3819__track .toggle-3819__ring-2 {
+    transform: scale(.4);
+}
+.toggle-3819 input:not(:checked) + .toggle-3819__track .toggle-3819__label {
+    left: 99px;
+    right: auto;
+    background: #e5e7eb;
+}
+.toggle-3819 input:not(:checked) + .toggle-3819__track .toggle-3819__label-on {
+    opacity: 0;
+}
+.toggle-3819 input:not(:checked) + .toggle-3819__track .toggle-3819__label-off {
+    opacity: 1;
+}
+.toggle-3819 input:checked + .toggle-3819__track .toggle-3819__ring-1 {
+    transform: rotate(180deg);
+}
+.toggle-3819 input:checked + .toggle-3819__track .toggle-3819__ring-2 {
+    transform: rotate(-180deg) scale(1.1);
+}
+.toggle-3819 input:checked + .toggle-3819__track .toggle-3819__rune-1 {
+    transform: translateX(-92px) rotate(45deg) scale(1.2);
+}
+.toggle-3819 input:checked + .toggle-3819__track .toggle-3819__rune-2 {
+    transform: translateX(-69px) rotate(-45deg) scale(1.2);
+}
+.toggle-3819 input:focus-visible + .toggle-3819__track {
+    outline: 3px solid #f97316;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3820,
+    name: "Mercenary Chaos Toggle",
+    preview: (
+      <label
+        className="toggle-3820"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Mercenary Chaos Toggle" />
+        <span className="toggle-3820__track">
+          <span className="toggle-3820__halftone"></span>
+          <span className="toggle-3820__slash toggle-3820__slash-1"></span>
+          <span className="toggle-3820__slash toggle-3820__slash-2"></span>
+          <span className="toggle-3820__bubble">
+            <span className="toggle-3820__bubble-off">SHH...</span>
+            <span className="toggle-3820__bubble-on">CHAOS!</span>
+          </span>
+          <span className="toggle-3820__thumb">
+            <span className="toggle-3820__mask">
+              <span className="toggle-3820__eye toggle-3820__eye-left"></span>
+              <span className="toggle-3820__eye toggle-3820__eye-right"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3820">
+    <input type="checkbox" aria-label="Mercenary Chaos Toggle">
+    <span class="toggle-3820__track">
+        <span class="toggle-3820__halftone"></span>
+        <span class="toggle-3820__slash toggle-3820__slash-1"></span>
+        <span class="toggle-3820__slash toggle-3820__slash-2"></span>
+        <span class="toggle-3820__bubble">
+            <span class="toggle-3820__bubble-off">SHH...</span>
+            <span class="toggle-3820__bubble-on">CHAOS!</span>
+        </span>
+        <span class="toggle-3820__thumb">
+            <span class="toggle-3820__mask">
+                <span class="toggle-3820__eye toggle-3820__eye-left"></span>
+                <span class="toggle-3820__eye toggle-3820__eye-right"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3820 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3820 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3820__track {
+    position: relative;
+    width: 160px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 15px;
+    background: #991b1b;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3820__halftone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(#111111 1.5px, transparent 1.7px);
+    background-size: 8px 8px;
+    opacity: .36;
+}
+.toggle-3820__slash {
+    position: absolute;
+    z-index: 2;
+    width: 65px;
+    height: 5px;
+    border: 2px solid #111111;
+    background: #ffffff;
+    transform: rotate(-24deg);
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3820__slash-1 {
+    right: 2px;
+    top: 17px;
+}
+.toggle-3820__slash-2 {
+    right: 8px;
+    bottom: 14px;
+}
+.toggle-3820__bubble {
+    position: absolute;
+    right: 8px;
+    top: 22px;
+    z-index: 4;
+    width: 51px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(4deg);
+}
+.toggle-3820__bubble-off,
+.toggle-3820__bubble-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3820__bubble-off {
+    opacity: 1;
+}
+.toggle-3820__bubble-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3820__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #dc2626;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3820__mask {
+    position: relative;
+    width: 30px;
+    height: 34px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #111111 0 28%, #dc2626 28% 72%, #111111 72%);
+}
+.toggle-3820__eye {
+    position: absolute;
+    top: 10px;
+    width: 7px;
+    height: 12px;
+    background: #ffffff;
+    clip-path: polygon(0 0,100% 25%,68% 100%,8% 75%);
+}
+.toggle-3820__eye-left {
+    left: 4px;
+}
+.toggle-3820__eye-right {
+    right: 4px;
+    transform: scaleX(-1);
+}
+.toggle-3820:hover .toggle-3820__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3820:hover .toggle-3820__thumb {
+    transform: rotate(-10deg) scale(1.06);
+}
+.toggle-3820 input:checked + .toggle-3820__track {
+    background: #ef4444;
+}
+.toggle-3820 input:checked + .toggle-3820__track .toggle-3820__thumb {
+    left: 98px;
+    transform: rotate(10deg);
+}
+.toggle-3820 input:checked + .toggle-3820__track .toggle-3820__bubble {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(-5deg);
+}
+.toggle-3820 input:checked + .toggle-3820__track .toggle-3820__bubble-off {
+    opacity: 0;
+}
+.toggle-3820 input:checked + .toggle-3820__track .toggle-3820__bubble-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3820 input:checked + .toggle-3820__track .toggle-3820__slash-1 {
+    transform: translateX(-91px) rotate(24deg);
+}
+.toggle-3820 input:checked + .toggle-3820__track .toggle-3820__slash-2 {
+    transform: translateX(-87px) rotate(24deg);
+}
+.toggle-3820 input:focus-visible + .toggle-3820__track {
+    outline: 3px solid #ef4444;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3821,
+    name: "Adamantium Claw Toggle",
+    preview: (
+      <label
+        className="toggle-3821"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Adamantium Claw Toggle"
+        />
+        <span className="toggle-3821__track">
+          <span className="toggle-3821__metal"></span>
+          <span className="toggle-3821__claw toggle-3821__claw-1"></span>
+          <span className="toggle-3821__claw toggle-3821__claw-2"></span>
+          <span className="toggle-3821__claw toggle-3821__claw-3"></span>
+          <span className="toggle-3821__label">
+            <span className="toggle-3821__label-off">RETRACT</span>
+            <span className="toggle-3821__label-on">SNIKT!</span>
+          </span>
+          <span className="toggle-3821__thumb">
+            <span className="toggle-3821__mask"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3821">
+    <input type="checkbox" checked aria-label="Adamantium Claw Toggle">
+    <span class="toggle-3821__track">
+        <span class="toggle-3821__metal"></span>
+        <span class="toggle-3821__claw toggle-3821__claw-1"></span>
+        <span class="toggle-3821__claw toggle-3821__claw-2"></span>
+        <span class="toggle-3821__claw toggle-3821__claw-3"></span>
+        <span class="toggle-3821__label">
+            <span class="toggle-3821__label-off">RETRACT</span>
+            <span class="toggle-3821__label-on">SNIKT!</span>
+        </span>
+        <span class="toggle-3821__thumb">
+            <span class="toggle-3821__mask"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3821 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3821 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3821__track {
+    position: relative;
+    width: 160px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 13px;
+    background: #facc15;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3821__metal {
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(-20deg, transparent 0 11px, rgba(17,17,17,.13) 11px 13px);
+}
+.toggle-3821__claw {
+    position: absolute;
+    z-index: 2;
+    width: 69px;
+    height: 7px;
+    border: 2px solid #111111;
+    border-radius: 999px 0 0 999px;
+    background: linear-gradient(#ffffff, #94a3b8);
+    transform-origin: right center;
+    transition: transform .35s ease, width .35s ease;
+}
+.toggle-3821__claw-1 {
+    right: 7px;
+    top: 14px;
+    transform: rotate(-9deg);
+}
+.toggle-3821__claw-2 {
+    right: 4px;
+    top: 31px;
+}
+.toggle-3821__claw-3 {
+    right: 7px;
+    bottom: 13px;
+    transform: rotate(9deg);
+}
+.toggle-3821__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 4;
+    width: 55px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3821__label-off,
+.toggle-3821__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 6px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3821__label-off {
+    opacity: 0;
+}
+.toggle-3821__label-on {
+    opacity: 1;
+}
+.toggle-3821__thumb {
+    position: absolute;
+    left: 98px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #2563eb;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3821__mask {
+    width: 31px;
+    height: 31px;
+    border: 3px solid #111111;
+    background: #facc15;
+    clip-path: polygon(0 0,30% 15%,50% 0,70% 15%,100% 0,83% 58%,65% 100%,50% 70%,35% 100%,17% 58%);
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3821:hover .toggle-3821__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3821:hover .toggle-3821__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3821 input:not(:checked) + .toggle-3821__track {
+    background: #d1d5db;
+}
+.toggle-3821 input:not(:checked) + .toggle-3821__track .toggle-3821__thumb {
+    left: 6px;
+    background: #64748b;
+}
+.toggle-3821 input:not(:checked) + .toggle-3821__track .toggle-3821__claw-1 {
+    width: 21px;
+    transform: rotate(-9deg);
+}
+.toggle-3821 input:not(:checked) + .toggle-3821__track .toggle-3821__claw-2 {
+    width: 21px;
+}
+.toggle-3821 input:not(:checked) + .toggle-3821__track .toggle-3821__claw-3 {
+    width: 21px;
+    transform: rotate(9deg);
+}
+.toggle-3821 input:not(:checked) + .toggle-3821__track .toggle-3821__label {
+    left: 97px;
+    right: auto;
+    background: #e5e7eb;
+}
+.toggle-3821 input:not(:checked) + .toggle-3821__track .toggle-3821__label-on {
+    opacity: 0;
+}
+.toggle-3821 input:not(:checked) + .toggle-3821__track .toggle-3821__label-off {
+    opacity: 1;
+}
+.toggle-3821 input:checked + .toggle-3821__track .toggle-3821__claw-1 {
+    transform: translateX(-88px) rotate(9deg);
+}
+.toggle-3821 input:checked + .toggle-3821__track .toggle-3821__claw-2 {
+    transform: translateX(-91px);
+}
+.toggle-3821 input:checked + .toggle-3821__track .toggle-3821__claw-3 {
+    transform: translateX(-88px) rotate(-9deg);
+}
+.toggle-3821 input:checked + .toggle-3821__track .toggle-3821__mask {
+    transform: scale(1.08);
+}
+.toggle-3821 input:focus-visible + .toggle-3821__track {
+    outline: 3px solid #2563eb;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3822,
+    name: "Symbiote Surge Toggle",
+    preview: (
+      <label
+        className="toggle-3822"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Symbiote Surge Toggle" />
+        <span className="toggle-3822__track">
+          <span className="toggle-3822__goo"></span>
+          <span className="toggle-3822__tendril toggle-3822__tendril-1"></span>
+          <span className="toggle-3822__tendril toggle-3822__tendril-2"></span>
+          <span className="toggle-3822__tendril toggle-3822__tendril-3"></span>
+          <span className="toggle-3822__label">
+            <span className="toggle-3822__label-off">HOST</span>
+            <span className="toggle-3822__label-on">VENOM</span>
+          </span>
+          <span className="toggle-3822__thumb">
+            <span className="toggle-3822__face">
+              <span className="toggle-3822__eye toggle-3822__eye-left"></span>
+              <span className="toggle-3822__eye toggle-3822__eye-right"></span>
+              <span className="toggle-3822__mouth"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3822">
+    <input type="checkbox" aria-label="Symbiote Surge Toggle">
+    <span class="toggle-3822__track">
+        <span class="toggle-3822__goo"></span>
+        <span class="toggle-3822__tendril toggle-3822__tendril-1"></span>
+        <span class="toggle-3822__tendril toggle-3822__tendril-2"></span>
+        <span class="toggle-3822__tendril toggle-3822__tendril-3"></span>
+        <span class="toggle-3822__label">
+            <span class="toggle-3822__label-off">HOST</span>
+            <span class="toggle-3822__label-on">VENOM</span>
+        </span>
+        <span class="toggle-3822__thumb">
+            <span class="toggle-3822__face">
+                <span class="toggle-3822__eye toggle-3822__eye-left"></span>
+                <span class="toggle-3822__eye toggle-3822__eye-right"></span>
+                <span class="toggle-3822__mouth"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3822 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3822 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3822__track {
+    position: relative;
+    width: 160px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #27272a;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3822__goo {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 72% 26%, rgba(255,255,255,.09), transparent 18%),
+        radial-gradient(circle at 55% 76%, rgba(255,255,255,.06), transparent 22%),
+        #18181b;
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3822__tendril {
+    position: absolute;
+    z-index: 2;
+    height: 8px;
+    border: 3px solid #111111;
+    border-radius: 999px;
+    background: #3f3f46;
+    transition: transform .4s ease, background .3s ease;
+}
+.toggle-3822__tendril-1 {
+    width: 58px;
+    right: 7px;
+    top: 10px;
+    transform: rotate(-13deg);
+}
+.toggle-3822__tendril-2 {
+    width: 45px;
+    right: 4px;
+    top: 31px;
+    transform: rotate(6deg);
+}
+.toggle-3822__tendril-3 {
+    width: 54px;
+    right: 12px;
+    bottom: 8px;
+    transform: rotate(16deg);
+}
+.toggle-3822__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 49px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3822__label-off,
+.toggle-3822__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3822__label-off {
+    opacity: 1;
+}
+.toggle-3822__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3822__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #52525b;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3822__face {
+    position: relative;
+    width: 33px;
+    height: 35px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #18181b;
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3822__eye {
+    position: absolute;
+    top: 7px;
+    width: 10px;
+    height: 12px;
+    background: #ffffff;
+    clip-path: polygon(0 0,100% 28%,63% 100%,5% 69%);
+}
+.toggle-3822__eye-left {
+    left: 3px;
+}
+.toggle-3822__eye-right {
+    right: 3px;
+    transform: scaleX(-1);
+}
+.toggle-3822__mouth {
+    position: absolute;
+    left: 6px;
+    right: 6px;
+    bottom: 4px;
+    height: 7px;
+    border: 2px solid #ffffff;
+    border-top: 0;
+    border-radius: 0 0 50% 50%;
+}
+.toggle-3822:hover .toggle-3822__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3822:hover .toggle-3822__thumb {
+    transform: rotate(-8deg) scale(1.05);
+}
+.toggle-3822 input:checked + .toggle-3822__track {
+    background: #09090b;
+}
+.toggle-3822 input:checked + .toggle-3822__track .toggle-3822__thumb {
+    left: 98px;
+    background: #18181b;
+}
+.toggle-3822 input:checked + .toggle-3822__track .toggle-3822__face {
+    background: #050505;
+    transform: scale(1.1);
+}
+.toggle-3822 input:checked + .toggle-3822__track .toggle-3822__goo {
+    transform: scale(1.12);
+    background:
+        radial-gradient(circle at 72% 26%, rgba(255,255,255,.15), transparent 18%),
+        radial-gradient(circle at 55% 76%, rgba(255,255,255,.1), transparent 22%),
+        #050505;
+}
+.toggle-3822 input:checked + .toggle-3822__track .toggle-3822__tendril-1 {
+    background: #050505;
+    transform: translateX(-95px) rotate(20deg) scaleY(1.2);
+}
+.toggle-3822 input:checked + .toggle-3822__track .toggle-3822__tendril-2 {
+    background: #111111;
+    transform: translateX(-88px) rotate(-8deg) scaleY(1.2);
+}
+.toggle-3822 input:checked + .toggle-3822__track .toggle-3822__tendril-3 {
+    background: #050505;
+    transform: translateX(-91px) rotate(-18deg) scaleY(1.2);
+}
+.toggle-3822 input:checked + .toggle-3822__track .toggle-3822__label {
+    left: 8px;
+    right: auto;
+    background: #f3f4f6;
+}
+.toggle-3822 input:checked + .toggle-3822__track .toggle-3822__label-off {
+    opacity: 0;
+}
+.toggle-3822 input:checked + .toggle-3822__track .toggle-3822__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3822 input:focus-visible + .toggle-3822__track {
+    outline: 3px solid #ffffff;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3823,
+    name: "Gotham Bat Signal Toggle",
+    preview: (
+      <label
+        className="toggle-3823"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Gotham Bat Signal Toggle"
+        />
+        <span className="toggle-3823__track">
+          <span className="toggle-3823__sky"></span>
+          <span className="toggle-3823__city"></span>
+          <span className="toggle-3823__moon"></span>
+          <span className="toggle-3823__signal">
+            <span className="toggle-3823__bat"></span>
+          </span>
+          <span className="toggle-3823__label">
+            <span className="toggle-3823__label-off">NIGHT</span>
+            <span className="toggle-3823__label-on">SIGNAL</span>
+          </span>
+          <span className="toggle-3823__thumb">
+            <span className="toggle-3823__mask">
+              <span className="toggle-3823__eye toggle-3823__eye-left"></span>
+              <span className="toggle-3823__eye toggle-3823__eye-right"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3823">
+    <input type="checkbox" checked aria-label="Gotham Bat Signal Toggle">
+    <span class="toggle-3823__track">
+        <span class="toggle-3823__sky"></span>
+        <span class="toggle-3823__city"></span>
+        <span class="toggle-3823__moon"></span>
+        <span class="toggle-3823__signal">
+            <span class="toggle-3823__bat"></span>
+        </span>
+        <span class="toggle-3823__label">
+            <span class="toggle-3823__label-off">NIGHT</span>
+            <span class="toggle-3823__label-on">SIGNAL</span>
+        </span>
+        <span class="toggle-3823__thumb">
+            <span class="toggle-3823__mask">
+                <span class="toggle-3823__eye toggle-3823__eye-left"></span>
+                <span class="toggle-3823__eye toggle-3823__eye-right"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3823 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3823 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3823__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #050505;
+    border-radius: 14px;
+    background: #111827;
+    box-shadow: 8px 8px 0 #050505;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3823__sky {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #172554 0%, #111827 48%, #09090b 100%);
+}
+.toggle-3823__city {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    background: #050505;
+    clip-path: polygon(0 100%,0 48%,8% 48%,8% 21%,14% 21%,14% 61%,22% 61%,22% 33%,28% 33%,28% 8%,35% 8%,35% 54%,43% 54%,43% 28%,51% 28%,51% 62%,59% 62%,59% 19%,67% 19%,67% 49%,75% 49%,75% 29%,83% 29%,83% 56%,91% 56%,91% 16%,100% 16%,100% 100%);
+}
+.toggle-3823__moon {
+    position: absolute;
+    right: 13px;
+    top: 8px;
+    width: 44px;
+    height: 44px;
+    border: 3px solid #050505;
+    border-radius: 50%;
+    background: #d4d4d8;
+    transition: left .35s ease, right .35s ease, background .3s ease, box-shadow .3s ease, transform .35s ease;
+}
+.toggle-3823__signal {
+    position: absolute;
+    right: 17px;
+    top: 12px;
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    opacity: .3;
+    transition: opacity .3s ease, transform .35s ease, left .35s ease, right .35s ease;
+}
+.toggle-3823__bat {
+    width: 26px;
+    height: 16px;
+    background: #111111;
+    clip-path: polygon(0 35%,18% 45%,29% 20%,39% 42%,50% 0,61% 42%,71% 20%,82% 45%,100% 35%,84% 65%,65% 69%,50% 100%,35% 69%,16% 65%);
+}
+.toggle-3823__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 52px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #050505;
+    background: #f4f4f5;
+    box-shadow: 3px 3px 0 #050505;
+}
+.toggle-3823__label-off,
+.toggle-3823__label-on {
+    position: absolute;
+    color: #050505;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3823__label-off {
+    opacity: 0;
+}
+.toggle-3823__label-on {
+    opacity: 1;
+}
+.toggle-3823__thumb {
+    position: absolute;
+    left: 100px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #050505;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 5px 5px 0 #050505;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3823__mask {
+    position: relative;
+    width: 31px;
+    height: 31px;
+    border: 3px solid #050505;
+    background: #18181b;
+    clip-path: polygon(0 0,28% 17%,50% 0,72% 17%,100% 0,86% 62%,50% 100%,14% 62%);
+}
+.toggle-3823__eye {
+    position: absolute;
+    top: 11px;
+    width: 8px;
+    height: 4px;
+    background: #ffffff;
+}
+.toggle-3823__eye-left {
+    left: 4px;
+    transform: rotate(8deg);
+}
+.toggle-3823__eye-right {
+    right: 4px;
+    transform: rotate(-8deg);
+}
+.toggle-3823:hover .toggle-3823__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #050505;
+}
+.toggle-3823:hover .toggle-3823__thumb {
+    transform: rotate(-7deg) scale(1.04);
+}
+.toggle-3823 input:not(:checked) + .toggle-3823__track .toggle-3823__thumb {
+    left: 6px;
+    background: #3f3f46;
+}
+.toggle-3823 input:not(:checked) + .toggle-3823__track .toggle-3823__moon {
+    left: 14px;
+    right: auto;
+    background: #71717a;
+}
+.toggle-3823 input:not(:checked) + .toggle-3823__track .toggle-3823__signal {
+    left: 18px;
+    right: auto;
+    opacity: .1;
+    transform: scale(.6);
+}
+.toggle-3823 input:not(:checked) + .toggle-3823__track .toggle-3823__label {
+    left: 101px;
+    right: auto;
+    background: #d4d4d8;
+}
+.toggle-3823 input:not(:checked) + .toggle-3823__track .toggle-3823__label-on {
+    opacity: 0;
+}
+.toggle-3823 input:not(:checked) + .toggle-3823__track .toggle-3823__label-off {
+    opacity: 1;
+}
+.toggle-3823 input:checked + .toggle-3823__track .toggle-3823__moon {
+    background: #fef08a;
+    box-shadow: 0 0 17px rgba(250,204,21,.55);
+}
+.toggle-3823 input:checked + .toggle-3823__track .toggle-3823__signal {
+    opacity: 1;
+    transform: scale(1.12);
+}
+.toggle-3823 input:focus-visible + .toggle-3823__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3824,
+    name: "Kryptonian Solar Charge Toggle",
+    preview: (
+      <label
+        className="toggle-3824"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Kryptonian Solar Charge Toggle" />
+        <span className="toggle-3824__track">
+          <span className="toggle-3824__sky"></span>
+          <span className="toggle-3824__sun"></span>
+          <span className="toggle-3824__ray toggle-3824__ray-1"></span>
+          <span className="toggle-3824__ray toggle-3824__ray-2"></span>
+          <span className="toggle-3824__ray toggle-3824__ray-3"></span>
+          <span className="toggle-3824__label">
+            <span className="toggle-3824__label-off">EARTH</span>
+            <span className="toggle-3824__label-on">SOLAR</span>
+          </span>
+          <span className="toggle-3824__thumb">
+            <span className="toggle-3824__crest">
+              <span className="toggle-3824__crest-core">S</span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3824">
+    <input type="checkbox" aria-label="Kryptonian Solar Charge Toggle">
+    <span class="toggle-3824__track">
+        <span class="toggle-3824__sky"></span>
+        <span class="toggle-3824__sun"></span>
+        <span class="toggle-3824__ray toggle-3824__ray-1"></span>
+        <span class="toggle-3824__ray toggle-3824__ray-2"></span>
+        <span class="toggle-3824__ray toggle-3824__ray-3"></span>
+        <span class="toggle-3824__label">
+            <span class="toggle-3824__label-off">EARTH</span>
+            <span class="toggle-3824__label-on">SOLAR</span>
+        </span>
+        <span class="toggle-3824__thumb">
+            <span class="toggle-3824__crest">
+                <span class="toggle-3824__crest-core">S</span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3824 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3824 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3824__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #60a5fa;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3824__sky {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #dbeafe, #60a5fa 48%, #2563eb);
+    transition: background .3s ease, filter .3s ease;
+}
+.toggle-3824__sun {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: 44px;
+    height: 44px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 0 0 10px rgba(250,204,21,.4);
+    transition: left .35s ease, right .35s ease, transform .35s ease, box-shadow .3s ease;
+}
+.toggle-3824__ray {
+    position: absolute;
+    z-index: 2;
+    height: 4px;
+    border: 1px solid #111111;
+    background: #fef08a;
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3824__ray-1 {
+    width: 43px;
+    right: 9px;
+    top: 9px;
+    transform: rotate(-14deg);
+}
+.toggle-3824__ray-2 {
+    width: 34px;
+    right: 5px;
+    top: 32px;
+}
+.toggle-3824__ray-3 {
+    width: 42px;
+    right: 9px;
+    bottom: 9px;
+    transform: rotate(14deg);
+}
+.toggle-3824__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 49px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3824__label-off,
+.toggle-3824__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3824__label-off {
+    opacity: 1;
+}
+.toggle-3824__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3824__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #2563eb;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3824__crest {
+    width: 31px;
+    height: 27px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #facc15;
+    clip-path: polygon(50% 0,100% 26%,82% 76%,50% 100%,18% 76%,0 26%);
+    transition: transform .35s ease, background .3s ease, box-shadow .3s ease;
+}
+.toggle-3824__crest-core {
+    color: #dc2626;
+    font: 900 13px/1 Arial Black, Arial, sans-serif;
+}
+.toggle-3824:hover .toggle-3824__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3824:hover .toggle-3824__thumb {
+    transform: rotate(-7deg) scale(1.04);
+}
+.toggle-3824 input:checked + .toggle-3824__track .toggle-3824__thumb {
+    left: 100px;
+    background: #dc2626;
+}
+.toggle-3824 input:checked + .toggle-3824__track .toggle-3824__crest {
+    transform: scale(1.12);
+    background: #fde047;
+    box-shadow: 0 0 10px #facc15;
+}
+.toggle-3824 input:checked + .toggle-3824__track .toggle-3824__sun {
+    left: 13px;
+    right: auto;
+    transform: scale(1.15);
+    box-shadow: 0 0 17px #facc15;
+}
+.toggle-3824 input:checked + .toggle-3824__track .toggle-3824__ray-1 {
+    transform: translateX(-96px) rotate(14deg);
+}
+.toggle-3824 input:checked + .toggle-3824__track .toggle-3824__ray-2 {
+    transform: translateX(-90px);
+}
+.toggle-3824 input:checked + .toggle-3824__track .toggle-3824__ray-3 {
+    transform: translateX(-95px) rotate(-14deg);
+}
+.toggle-3824 input:checked + .toggle-3824__track .toggle-3824__label {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+}
+.toggle-3824 input:checked + .toggle-3824__track .toggle-3824__label-off {
+    opacity: 0;
+}
+.toggle-3824 input:checked + .toggle-3824__track .toggle-3824__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3824 input:focus-visible + .toggle-3824__track {
+    outline: 3px solid #dc2626;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3825,
+    name: "Amazon Warrior Lasso Toggle",
+    preview: (
+      <label
+        className="toggle-3825"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Amazon Warrior Lasso Toggle"
+        />
+        <span className="toggle-3825__track">
+          <span className="toggle-3825__red"></span>
+          <span className="toggle-3825__stars"></span>
+          <span className="toggle-3825__lasso"></span>
+          <span className="toggle-3825__label">
+            <span className="toggle-3825__label-off">PEACE</span>
+            <span className="toggle-3825__label-on">TRUTH</span>
+          </span>
+          <span className="toggle-3825__thumb">
+            <span className="toggle-3825__tiara">
+              <span className="toggle-3825__star">★</span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3825">
+    <input type="checkbox" checked aria-label="Amazon Warrior Lasso Toggle">
+    <span class="toggle-3825__track">
+        <span class="toggle-3825__red"></span>
+        <span class="toggle-3825__stars"></span>
+        <span class="toggle-3825__lasso"></span>
+        <span class="toggle-3825__label">
+            <span class="toggle-3825__label-off">PEACE</span>
+            <span class="toggle-3825__label-on">TRUTH</span>
+        </span>
+        <span class="toggle-3825__thumb">
+            <span class="toggle-3825__tiara">
+                <span class="toggle-3825__star">★</span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3825 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3825 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3825__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 15px;
+    background: #1d4ed8;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3825__red {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 58%;
+    height: 100%;
+    background: #dc2626;
+    clip-path: polygon(0 0,100% 0,77% 100%,0 100%);
+}
+.toggle-3825__stars {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(#ffffff 1.6px, transparent 1.8px);
+    background-size: 17px 17px;
+    opacity: .5;
+}
+.toggle-3825__lasso {
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    width: 43px;
+    height: 43px;
+    border: 5px solid #facc15;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #facc15;
+    transition: left .35s ease, right .35s ease, transform .4s ease, box-shadow .3s ease;
+}
+.toggle-3825__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 48px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3825__label-off,
+.toggle-3825__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3825__label-off {
+    opacity: 0;
+}
+.toggle-3825__label-on {
+    opacity: 1;
+}
+.toggle-3825__thumb {
+    position: absolute;
+    left: 100px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3825__tiara {
+    width: 31px;
+    height: 23px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #fde047;
+    clip-path: polygon(0 35%,22% 52%,50% 0,78% 52%,100% 35%,85% 100%,15% 100%);
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3825__star {
+    color: #dc2626;
+    font-size: 10px;
+}
+.toggle-3825:hover .toggle-3825__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3825:hover .toggle-3825__thumb {
+    transform: rotate(-7deg) scale(1.04);
+}
+.toggle-3825 input:not(:checked) + .toggle-3825__track .toggle-3825__thumb {
+    left: 6px;
+    background: #94a3b8;
+}
+.toggle-3825 input:not(:checked) + .toggle-3825__track .toggle-3825__lasso {
+    left: 14px;
+    right: auto;
+    border-color: #a1a1aa;
+    box-shadow: none;
+    transform: scale(.8);
+}
+.toggle-3825 input:not(:checked) + .toggle-3825__track .toggle-3825__label {
+    left: 101px;
+    right: auto;
+    background: #e5e7eb;
+}
+.toggle-3825 input:not(:checked) + .toggle-3825__track .toggle-3825__label-on {
+    opacity: 0;
+}
+.toggle-3825 input:not(:checked) + .toggle-3825__track .toggle-3825__label-off {
+    opacity: 1;
+}
+.toggle-3825 input:checked + .toggle-3825__track .toggle-3825__lasso {
+    transform: rotate(180deg) scale(1.1);
+    box-shadow: 0 0 13px #facc15;
+}
+.toggle-3825 input:checked + .toggle-3825__track .toggle-3825__tiara {
+    transform: scale(1.1) rotate(7deg);
+}
+.toggle-3825 input:focus-visible + .toggle-3825__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3826,
+    name: "Speed Force Lightning Toggle",
+    preview: (
+      <label
+        className="toggle-3826"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Speed Force Lightning Toggle" />
+        <span className="toggle-3826__track">
+          <span className="toggle-3826__speed"></span>
+          <span className="toggle-3826__bolt toggle-3826__bolt-1"></span>
+          <span className="toggle-3826__bolt toggle-3826__bolt-2"></span>
+          <span className="toggle-3826__bolt toggle-3826__bolt-3"></span>
+          <span className="toggle-3826__label">
+            <span className="toggle-3826__label-off">READY</span>
+            <span className="toggle-3826__label-on">RUN!</span>
+          </span>
+          <span className="toggle-3826__thumb">
+            <span className="toggle-3826__emblem">
+              <span className="toggle-3826__flash"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3826">
+    <input type="checkbox" aria-label="Speed Force Lightning Toggle">
+    <span class="toggle-3826__track">
+        <span class="toggle-3826__speed"></span>
+        <span class="toggle-3826__bolt toggle-3826__bolt-1"></span>
+        <span class="toggle-3826__bolt toggle-3826__bolt-2"></span>
+        <span class="toggle-3826__bolt toggle-3826__bolt-3"></span>
+        <span class="toggle-3826__label">
+            <span class="toggle-3826__label-off">READY</span>
+            <span class="toggle-3826__label-on">RUN!</span>
+        </span>
+        <span class="toggle-3826__thumb">
+            <span class="toggle-3826__emblem">
+                <span class="toggle-3826__flash"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3826 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3826 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3826__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #7f1d1d;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3826__speed {
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(-12deg, transparent 0 9px, rgba(255,255,255,.12) 9px 12px);
+}
+.toggle-3826__bolt {
+    position: absolute;
+    z-index: 2;
+    background: #facc15;
+    clip-path: polygon(42% 0,100% 0,63% 38%,100% 38%,24% 100%,44% 53%,7% 53%);
+    transition: transform .35s ease, filter .3s ease, background .3s ease;
+}
+.toggle-3826__bolt-1 {
+    width: 19px;
+    height: 40px;
+    right: 13px;
+    top: 7px;
+}
+.toggle-3826__bolt-2 {
+    width: 14px;
+    height: 31px;
+    right: 44px;
+    bottom: 6px;
+}
+.toggle-3826__bolt-3 {
+    width: 11px;
+    height: 25px;
+    right: 67px;
+    top: 7px;
+}
+.toggle-3826__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 47px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3826__label-off,
+.toggle-3826__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3826__label-off {
+    opacity: 1;
+}
+.toggle-3826__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3826__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #b91c1c;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .32s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3826__emblem {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+}
+.toggle-3826__flash {
+    width: 16px;
+    height: 25px;
+    background: #facc15;
+    clip-path: polygon(42% 0,100% 0,62% 38%,100% 38%,20% 100%,42% 54%,7% 54%);
+    transition: transform .3s ease, filter .3s ease;
+}
+.toggle-3826:hover .toggle-3826__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3826:hover .toggle-3826__thumb {
+    transform: skewX(-7deg) scale(1.05);
+}
+.toggle-3826 input:checked + .toggle-3826__track {
+    background: #dc2626;
+}
+.toggle-3826 input:checked + .toggle-3826__track .toggle-3826__thumb {
+    left: 100px;
+    background: #ef4444;
+    transform: skewX(7deg);
+}
+.toggle-3826 input:checked + .toggle-3826__track .toggle-3826__flash {
+    transform: scale(1.18);
+    filter: drop-shadow(0 0 5px #facc15);
+}
+.toggle-3826 input:checked + .toggle-3826__track .toggle-3826__bolt-1 {
+    transform: translateX(-99px);
+    filter: drop-shadow(0 0 5px #facc15);
+}
+.toggle-3826 input:checked + .toggle-3826__track .toggle-3826__bolt-2 {
+    transform: translateX(-79px) scale(1.1);
+}
+.toggle-3826 input:checked + .toggle-3826__track .toggle-3826__bolt-3 {
+    transform: translateX(-64px) scale(.9);
+}
+.toggle-3826 input:checked + .toggle-3826__track .toggle-3826__label {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+}
+.toggle-3826 input:checked + .toggle-3826__track .toggle-3826__label-off {
+    opacity: 0;
+}
+.toggle-3826 input:checked + .toggle-3826__track .toggle-3826__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3826 input:focus-visible + .toggle-3826__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3827,
+    name: "Emerald Construct Ring Toggle",
+    preview: (
+      <label
+        className="toggle-3827"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Emerald Construct Ring Toggle"
+        />
+        <span className="toggle-3827__track">
+          <span className="toggle-3827__space"></span>
+          <span className="toggle-3827__construct"></span>
+          <span className="toggle-3827__ray toggle-3827__ray-1"></span>
+          <span className="toggle-3827__ray toggle-3827__ray-2"></span>
+          <span className="toggle-3827__label">
+            <span className="toggle-3827__label-off">EMPTY</span>
+            <span className="toggle-3827__label-on">WILL</span>
+          </span>
+          <span className="toggle-3827__thumb">
+            <span className="toggle-3827__ring">
+              <span className="toggle-3827__ring-core"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3827">
+    <input type="checkbox" checked aria-label="Emerald Construct Ring Toggle">
+    <span class="toggle-3827__track">
+        <span class="toggle-3827__space"></span>
+        <span class="toggle-3827__construct"></span>
+        <span class="toggle-3827__ray toggle-3827__ray-1"></span>
+        <span class="toggle-3827__ray toggle-3827__ray-2"></span>
+        <span class="toggle-3827__label">
+            <span class="toggle-3827__label-off">EMPTY</span>
+            <span class="toggle-3827__label-on">WILL</span>
+        </span>
+        <span class="toggle-3827__thumb">
+            <span class="toggle-3827__ring">
+                <span class="toggle-3827__ring-core"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3827 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3827 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3827__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #050505;
+    border-radius: 999px;
+    background: #052e16;
+    box-shadow: 8px 8px 0 #050505;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3827__space {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 72% 50%, rgba(34,197,94,.45), transparent 30%), linear-gradient(135deg, #020617, #14532d);
+}
+.toggle-3827__construct {
+    position: absolute;
+    right: 15px;
+    top: 11px;
+    width: 42px;
+    height: 42px;
+    border: 4px solid #22c55e;
+    border-radius: 8px;
+    box-shadow: 0 0 9px #22c55e;
+    transform: rotate(45deg);
+    transition: left .35s ease, right .35s ease, transform .4s ease, box-shadow .3s ease;
+}
+.toggle-3827__ray {
+    position: absolute;
+    height: 4px;
+    background: #4ade80;
+    box-shadow: 0 0 6px #22c55e;
+    transition: transform .35s ease;
+}
+.toggle-3827__ray-1 {
+    width: 42px;
+    right: 13px;
+    top: 13px;
+}
+.toggle-3827__ray-2 {
+    width: 37px;
+    right: 9px;
+    bottom: 12px;
+}
+.toggle-3827__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 48px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #050505;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #050505;
+}
+.toggle-3827__label-off,
+.toggle-3827__label-on {
+    position: absolute;
+    color: #050505;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3827__label-off {
+    opacity: 0;
+}
+.toggle-3827__label-on {
+    opacity: 1;
+}
+.toggle-3827__thumb {
+    position: absolute;
+    left: 100px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #050505;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 5px 5px 0 #050505;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3827__ring {
+    width: 33px;
+    height: 33px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #050505;
+    border-radius: 50%;
+    background: #dcfce7;
+    transition: transform .4s ease, box-shadow .3s ease;
+}
+.toggle-3827__ring-core {
+    width: 17px;
+    height: 11px;
+    border: 3px solid #050505;
+    border-left: 0;
+    border-right: 0;
+    background: #22c55e;
+}
+.toggle-3827:hover .toggle-3827__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #050505;
+}
+.toggle-3827:hover .toggle-3827__thumb {
+    transform: rotate(-7deg) scale(1.04);
+}
+.toggle-3827 input:not(:checked) + .toggle-3827__track .toggle-3827__thumb {
+    left: 6px;
+    background: #374151;
+}
+.toggle-3827 input:not(:checked) + .toggle-3827__track .toggle-3827__construct {
+    left: 16px;
+    right: auto;
+    border-color: #4b5563;
+    box-shadow: none;
+    transform: rotate(45deg) scale(.65);
+}
+.toggle-3827 input:not(:checked) + .toggle-3827__track .toggle-3827__label {
+    left: 101px;
+    right: auto;
+    background: #d1d5db;
+}
+.toggle-3827 input:not(:checked) + .toggle-3827__track .toggle-3827__label-on {
+    opacity: 0;
+}
+.toggle-3827 input:not(:checked) + .toggle-3827__track .toggle-3827__label-off {
+    opacity: 1;
+}
+.toggle-3827 input:checked + .toggle-3827__track .toggle-3827__ring {
+    transform: rotate(180deg) scale(1.08);
+    box-shadow: 0 0 12px #22c55e;
+}
+.toggle-3827 input:checked + .toggle-3827__track .toggle-3827__construct {
+    transform: rotate(225deg) scale(1.08);
+}
+.toggle-3827 input:checked + .toggle-3827__track .toggle-3827__ray-1 {
+    transform: translateX(-97px);
+}
+.toggle-3827 input:checked + .toggle-3827__track .toggle-3827__ray-2 {
+    transform: translateX(-93px);
+}
+.toggle-3827 input:focus-visible + .toggle-3827__track {
+    outline: 3px solid #22c55e;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3828,
+    name: "Atlantean Trident Tide Toggle",
+    preview: (
+      <label
+        className="toggle-3828"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Atlantean Trident Tide Toggle" />
+        <span className="toggle-3828__track">
+          <span className="toggle-3828__sea"></span>
+          <span className="toggle-3828__wave toggle-3828__wave-1"></span>
+          <span className="toggle-3828__wave toggle-3828__wave-2"></span>
+          <span className="toggle-3828__label">
+            <span className="toggle-3828__label-off">CALM</span>
+            <span className="toggle-3828__label-on">KING</span>
+          </span>
+          <span className="toggle-3828__thumb">
+            <span className="toggle-3828__trident"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3828">
+    <input type="checkbox" aria-label="Atlantean Trident Tide Toggle">
+    <span class="toggle-3828__track">
+        <span class="toggle-3828__sea"></span>
+        <span class="toggle-3828__wave toggle-3828__wave-1"></span>
+        <span class="toggle-3828__wave toggle-3828__wave-2"></span>
+        <span class="toggle-3828__label">
+            <span class="toggle-3828__label-off">CALM</span>
+            <span class="toggle-3828__label-on">KING</span>
+        </span>
+        <span class="toggle-3828__thumb">
+            <span class="toggle-3828__trident"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3828 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3828 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3828__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #0e7490;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3828__sea {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #67e8f9 0%, #0891b2 50%, #164e63 100%);
+}
+.toggle-3828__wave {
+    position: absolute;
+    border: 4px solid #ffffff;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    opacity: .75;
+    transition: transform .4s ease;
+}
+.toggle-3828__wave-1 {
+    width: 58px;
+    height: 58px;
+    right: 1px;
+    top: 9px;
+    transform: rotate(-38deg);
+}
+.toggle-3828__wave-2 {
+    width: 40px;
+    height: 40px;
+    right: 48px;
+    bottom: -9px;
+    transform: rotate(-45deg);
+}
+.toggle-3828__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 46px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3828__label-off,
+.toggle-3828__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3828__label-off {
+    opacity: 1;
+}
+.toggle-3828__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3828__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #0891b2;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3828__trident {
+    position: relative;
+    width: 7px;
+    height: 31px;
+    border: 2px solid #111111;
+    background: #facc15;
+}
+.toggle-3828__trident::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: -6px;
+    width: 23px;
+    height: 15px;
+    border: 4px solid #111111;
+    border-bottom: 0;
+    background: #facc15;
+    clip-path: polygon(0 0,30% 48%,50% 0,70% 48%,100% 0,82% 100%,18% 100%);
+}
+.toggle-3828:hover .toggle-3828__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3828:hover .toggle-3828__thumb {
+    transform: rotate(-7deg) scale(1.04);
+}
+.toggle-3828 input:checked + .toggle-3828__track .toggle-3828__thumb {
+    left: 100px;
+    background: #f97316;
+}
+.toggle-3828 input:checked + .toggle-3828__track .toggle-3828__wave-1 {
+    transform: translateX(-97px) rotate(38deg) scale(1.12);
+}
+.toggle-3828 input:checked + .toggle-3828__track .toggle-3828__wave-2 {
+    transform: translateX(-80px) rotate(45deg) scale(1.1);
+}
+.toggle-3828 input:checked + .toggle-3828__track .toggle-3828__label {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+}
+.toggle-3828 input:checked + .toggle-3828__track .toggle-3828__label-off {
+    opacity: 0;
+}
+.toggle-3828 input:checked + .toggle-3828__track .toggle-3828__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3828 input:focus-visible + .toggle-3828__track {
+    outline: 3px solid #06b6d4;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3829,
+    name: "Gotham Chaos Card Toggle",
+    preview: (
+      <label
+        className="toggle-3829"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Gotham Chaos Card Toggle"
+        />
+        <span className="toggle-3829__track">
+          <span className="toggle-3829__halftone"></span>
+          <span className="toggle-3829__card toggle-3829__card-1">J</span>
+          <span className="toggle-3829__card toggle-3829__card-2">?</span>
+          <span className="toggle-3829__smile"></span>
+          <span className="toggle-3829__label">
+            <span className="toggle-3829__label-off">SANE</span>
+            <span className="toggle-3829__label-on">HAHA!</span>
+          </span>
+          <span className="toggle-3829__thumb">
+            <span className="toggle-3829__flower">
+              <span className="toggle-3829__flower-core"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3829">
+    <input type="checkbox" checked aria-label="Gotham Chaos Card Toggle">
+    <span class="toggle-3829__track">
+        <span class="toggle-3829__halftone"></span>
+        <span class="toggle-3829__card toggle-3829__card-1">J</span>
+        <span class="toggle-3829__card toggle-3829__card-2">?</span>
+        <span class="toggle-3829__smile"></span>
+        <span class="toggle-3829__label">
+            <span class="toggle-3829__label-off">SANE</span>
+            <span class="toggle-3829__label-on">HAHA!</span>
+        </span>
+        <span class="toggle-3829__thumb">
+            <span class="toggle-3829__flower">
+                <span class="toggle-3829__flower-core"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3829 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3829 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3829__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 12px;
+    background: #6b21a8;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3829__halftone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(#111111 1.5px, transparent 1.7px);
+    background-size: 8px 8px;
+    opacity: .32;
+}
+.toggle-3829__card {
+    position: absolute;
+    z-index: 2;
+    width: 25px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 4px;
+    background: #ffffff;
+    color: #dc2626;
+    font: 900 13px/1 Arial Black, Arial, sans-serif;
+    box-shadow: 3px 3px 0 #111111;
+    transition: transform .35s ease, left .35s ease, right .35s ease;
+}
+.toggle-3829__card-1 {
+    right: 16px;
+    top: 8px;
+    transform: rotate(11deg);
+}
+.toggle-3829__card-2 {
+    right: 46px;
+    top: 23px;
+    color: #7e22ce;
+    transform: rotate(-12deg);
+}
+.toggle-3829__smile {
+    position: absolute;
+    right: 17px;
+    bottom: 9px;
+    width: 36px;
+    height: 15px;
+    border: 4px solid #111111;
+    border-top: 0;
+    border-radius: 0 0 50% 50%;
+    transition: left .35s ease, right .35s ease, transform .35s ease;
+}
+.toggle-3829__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 4;
+    width: 48px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #a3e635;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(4deg);
+}
+.toggle-3829__label-off,
+.toggle-3829__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3829__label-off {
+    opacity: 0;
+}
+.toggle-3829__label-on {
+    opacity: 1;
+}
+.toggle-3829__thumb {
+    position: absolute;
+    left: 100px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #a3e635;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3829__flower {
+    position: relative;
+    width: 31px;
+    height: 31px;
+    background: #facc15;
+    clip-path: polygon(50% 0,62% 31%,90% 13%,75% 42%,100% 50%,75% 60%,90% 88%,61% 72%,50% 100%,39% 72%,10% 88%,25% 60%,0 50%,25% 42%,10% 13%,38% 31%);
+}
+.toggle-3829__flower-core {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 10px;
+    top: 10px;
+    border-radius: 50%;
+    background: #dc2626;
+}
+.toggle-3829:hover .toggle-3829__track {
+    transform: translate(-2px,-2px) rotate(1deg);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3829:hover .toggle-3829__thumb {
+    transform: rotate(-12deg) scale(1.06);
+}
+.toggle-3829 input:not(:checked) + .toggle-3829__track {
+    background: #374151;
+}
+.toggle-3829 input:not(:checked) + .toggle-3829__track .toggle-3829__thumb {
+    left: 6px;
+    background: #9ca3af;
+}
+.toggle-3829 input:not(:checked) + .toggle-3829__track .toggle-3829__card-1 {
+    left: 15px;
+    right: auto;
+    transform: rotate(-5deg);
+}
+.toggle-3829 input:not(:checked) + .toggle-3829__track .toggle-3829__card-2 {
+    left: 43px;
+    right: auto;
+    transform: rotate(5deg);
+}
+.toggle-3829 input:not(:checked) + .toggle-3829__track .toggle-3829__smile {
+    left: 17px;
+    right: auto;
+    transform: scale(.55);
+}
+.toggle-3829 input:not(:checked) + .toggle-3829__track .toggle-3829__label {
+    left: 101px;
+    right: auto;
+    background: #e5e7eb;
+    transform: rotate(-3deg);
+}
+.toggle-3829 input:not(:checked) + .toggle-3829__track .toggle-3829__label-on {
+    opacity: 0;
+}
+.toggle-3829 input:not(:checked) + .toggle-3829__track .toggle-3829__label-off {
+    opacity: 1;
+}
+.toggle-3829 input:checked + .toggle-3829__track .toggle-3829__flower {
+    transform: rotate(180deg) scale(1.1);
+}
+.toggle-3829 input:focus-visible + .toggle-3829__track {
+    outline: 3px solid #a3e635;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3830,
+    name: "Cyborg Motherbox Toggle",
+    preview: (
+      <label
+        className="toggle-3830"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Cyborg Motherbox Toggle" />
+        <span className="toggle-3830__track">
+          <span className="toggle-3830__grid"></span>
+          <span className="toggle-3830__node toggle-3830__node-1"></span>
+          <span className="toggle-3830__node toggle-3830__node-2"></span>
+          <span className="toggle-3830__node toggle-3830__node-3"></span>
+          <span className="toggle-3830__label">
+            <span className="toggle-3830__label-off">OFFLINE</span>
+            <span className="toggle-3830__label-on">LINKED</span>
+          </span>
+          <span className="toggle-3830__thumb">
+            <span className="toggle-3830__core">
+              <span className="toggle-3830__core-eye"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3830">
+    <input type="checkbox" aria-label="Cyborg Motherbox Toggle">
+    <span class="toggle-3830__track">
+        <span class="toggle-3830__grid"></span>
+        <span class="toggle-3830__node toggle-3830__node-1"></span>
+        <span class="toggle-3830__node toggle-3830__node-2"></span>
+        <span class="toggle-3830__node toggle-3830__node-3"></span>
+        <span class="toggle-3830__label">
+            <span class="toggle-3830__label-off">OFFLINE</span>
+            <span class="toggle-3830__label-on">LINKED</span>
+        </span>
+        <span class="toggle-3830__thumb">
+            <span class="toggle-3830__core">
+                <span class="toggle-3830__core-eye"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3830 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3830 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3830__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 13px;
+    background: #374151;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3830__grid {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(to right, rgba(255,255,255,.12) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,.12) 1px, transparent 1px);
+    background-size: 12px 12px;
+}
+.toggle-3830__node {
+    position: absolute;
+    border: 3px solid #111111;
+    background: #64748b;
+    transition: transform .35s ease, background .3s ease, box-shadow .3s ease;
+}
+.toggle-3830__node-1 {
+    right: 12px;
+    top: 10px;
+    width: 29px;
+    height: 19px;
+}
+.toggle-3830__node-2 {
+    right: 46px;
+    top: 31px;
+    width: 18px;
+    height: 18px;
+}
+.toggle-3830__node-3 {
+    right: 14px;
+    bottom: 9px;
+    width: 35px;
+    height: 14px;
+}
+.toggle-3830__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 52px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #e5e7eb;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3830__label-off,
+.toggle-3830__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 6px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3830__label-off {
+    opacity: 1;
+}
+.toggle-3830__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3830__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #64748b;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3830__core {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 8px;
+    background: #1f2937;
+    transform: rotate(45deg);
+    transition: transform .4s ease, background .3s ease, box-shadow .3s ease;
+}
+.toggle-3830__core-eye {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ef4444;
+    transform: rotate(-45deg);
+    transition: background .3s ease, box-shadow .3s ease;
+}
+.toggle-3830:hover .toggle-3830__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3830:hover .toggle-3830__thumb {
+    transform: rotate(-7deg) scale(1.04);
+}
+.toggle-3830 input:checked + .toggle-3830__track {
+    background: #111827;
+}
+.toggle-3830 input:checked + .toggle-3830__track .toggle-3830__thumb {
+    left: 100px;
+    background: #dc2626;
+}
+.toggle-3830 input:checked + .toggle-3830__track .toggle-3830__core {
+    background: #374151;
+    transform: rotate(225deg) scale(1.08);
+    box-shadow: 0 0 12px #ef4444;
+}
+.toggle-3830 input:checked + .toggle-3830__track .toggle-3830__core-eye {
+    background: #ffffff;
+    box-shadow: 0 0 8px #ef4444;
+}
+.toggle-3830 input:checked + .toggle-3830__track .toggle-3830__node-1 {
+    background: #ef4444;
+    box-shadow: 0 0 7px #ef4444;
+    transform: translateX(-97px);
+}
+.toggle-3830 input:checked + .toggle-3830__track .toggle-3830__node-2 {
+    background: #22d3ee;
+    transform: translateX(-79px);
+}
+.toggle-3830 input:checked + .toggle-3830__track .toggle-3830__node-3 {
+    background: #ef4444;
+    transform: translateX(-95px);
+}
+.toggle-3830 input:checked + .toggle-3830__track .toggle-3830__label {
+    left: 8px;
+    right: auto;
+    background: #fecaca;
+}
+.toggle-3830 input:checked + .toggle-3830__track .toggle-3830__label-off {
+    opacity: 0;
+}
+.toggle-3830 input:checked + .toggle-3830__track .toggle-3830__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3830 input:focus-visible + .toggle-3830__track {
+    outline: 3px solid #ef4444;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3831,
+    name: "Martian Shapeshift Toggle",
+    preview: (
+      <label
+        className="toggle-3831"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Martian Shapeshift Toggle"
+        />
+        <span className="toggle-3831__track">
+          <span className="toggle-3831__space"></span>
+          <span className="toggle-3831__phase toggle-3831__phase-1"></span>
+          <span className="toggle-3831__phase toggle-3831__phase-2"></span>
+          <span className="toggle-3831__label">
+            <span className="toggle-3831__label-off">HUMAN</span>
+            <span className="toggle-3831__label-on">MARTIAN</span>
+          </span>
+          <span className="toggle-3831__thumb">
+            <span className="toggle-3831__face">
+              <span className="toggle-3831__eye toggle-3831__eye-left"></span>
+              <span className="toggle-3831__eye toggle-3831__eye-right"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3831">
+    <input type="checkbox" checked aria-label="Martian Shapeshift Toggle">
+    <span class="toggle-3831__track">
+        <span class="toggle-3831__space"></span>
+        <span class="toggle-3831__phase toggle-3831__phase-1"></span>
+        <span class="toggle-3831__phase toggle-3831__phase-2"></span>
+        <span class="toggle-3831__label">
+            <span class="toggle-3831__label-off">HUMAN</span>
+            <span class="toggle-3831__label-on">MARTIAN</span>
+        </span>
+        <span class="toggle-3831__thumb">
+            <span class="toggle-3831__face">
+                <span class="toggle-3831__eye toggle-3831__eye-left"></span>
+                <span class="toggle-3831__eye toggle-3831__eye-right"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3831 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3831 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3831__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #14532d;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3831__space {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 70% 45%, rgba(74,222,128,.35), transparent 29%), linear-gradient(135deg, #052e16, #166534);
+    transition: filter .3s ease, transform .35s ease;
+}
+.toggle-3831__phase {
+    position: absolute;
+    border: 3px solid #86efac;
+    border-radius: 50%;
+    opacity: .45;
+    transition: transform .4s ease, opacity .3s ease, border-color .3s ease;
+}
+.toggle-3831__phase-1 {
+    right: 10px;
+    top: 8px;
+    width: 47px;
+    height: 47px;
+}
+.toggle-3831__phase-2 {
+    right: 3px;
+    top: 1px;
+    width: 61px;
+    height: 61px;
+}
+.toggle-3831__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 51px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3831__label-off,
+.toggle-3831__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 6px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3831__label-off {
+    opacity: 0;
+}
+.toggle-3831__label-on {
+    opacity: 1;
+}
+.toggle-3831__thumb {
+    position: absolute;
+    left: 100px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease, border-radius .3s ease;
+}
+.toggle-3831__face {
+    position: relative;
+    width: 29px;
+    height: 34px;
+    border: 3px solid #111111;
+    border-radius: 48% 48% 55% 55%;
+    background: #4ade80;
+    transition: background .3s ease, transform .35s ease, border-radius .35s ease;
+}
+.toggle-3831__eye {
+    position: absolute;
+    top: 10px;
+    width: 8px;
+    height: 6px;
+    border-radius: 50%;
+    background: #dc2626;
+    box-shadow: 0 0 5px #ef4444;
+}
+.toggle-3831__eye-left {
+    left: 4px;
+}
+.toggle-3831__eye-right {
+    right: 4px;
+}
+.toggle-3831:hover .toggle-3831__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3831:hover .toggle-3831__thumb {
+    transform: rotate(-7deg) scale(1.04);
+}
+.toggle-3831 input:not(:checked) + .toggle-3831__track {
+    background: #475569;
+}
+.toggle-3831 input:not(:checked) + .toggle-3831__track .toggle-3831__thumb {
+    left: 6px;
+    background: #d1d5db;
+    border-radius: 15px;
+}
+.toggle-3831 input:not(:checked) + .toggle-3831__track .toggle-3831__face {
+    background: #fde68a;
+    border-radius: 50%;
+    transform: scale(.9);
+}
+.toggle-3831 input:not(:checked) + .toggle-3831__track .toggle-3831__eye {
+    background: #111111;
+    box-shadow: none;
+}
+.toggle-3831 input:not(:checked) + .toggle-3831__track .toggle-3831__label {
+    left: 101px;
+    right: auto;
+    background: #e5e7eb;
+}
+.toggle-3831 input:not(:checked) + .toggle-3831__track .toggle-3831__label-on {
+    opacity: 0;
+}
+.toggle-3831 input:not(:checked) + .toggle-3831__track .toggle-3831__label-off {
+    opacity: 1;
+}
+.toggle-3831 input:checked + .toggle-3831__track .toggle-3831__phase-1 {
+    transform: translateX(-96px) scale(.8);
+    opacity: .8;
+}
+.toggle-3831 input:checked + .toggle-3831__track .toggle-3831__phase-2 {
+    transform: translateX(-96px) scale(.68);
+    opacity: .55;
+}
+.toggle-3831 input:checked + .toggle-3831__track .toggle-3831__face {
+    transform: scale(1.1);
+}
+.toggle-3831 input:focus-visible + .toggle-3831__track {
+    outline: 3px solid #22c55e;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3832,
+    name: "Justice League Beacon Toggle",
+    preview: (
+      <label
+        className="toggle-3832"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Justice League Beacon Toggle" />
+        <span className="toggle-3832__track">
+          <span className="toggle-3832__space"></span>
+          <span className="toggle-3832__star toggle-3832__star-1">★</span>
+          <span className="toggle-3832__star toggle-3832__star-2">★</span>
+          <span className="toggle-3832__star toggle-3832__star-3">★</span>
+          <span className="toggle-3832__beacon"></span>
+          <span className="toggle-3832__label">
+            <span className="toggle-3832__label-off">SOLO</span>
+            <span className="toggle-3832__label-on">UNITE!</span>
+          </span>
+          <span className="toggle-3832__thumb">
+            <span className="toggle-3832__crest">
+              <span className="toggle-3832__crest-star">★</span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3832">
+    <input type="checkbox" aria-label="Justice League Beacon Toggle">
+    <span class="toggle-3832__track">
+        <span class="toggle-3832__space"></span>
+        <span class="toggle-3832__star toggle-3832__star-1">★</span>
+        <span class="toggle-3832__star toggle-3832__star-2">★</span>
+        <span class="toggle-3832__star toggle-3832__star-3">★</span>
+        <span class="toggle-3832__beacon"></span>
+        <span class="toggle-3832__label">
+            <span class="toggle-3832__label-off">SOLO</span>
+            <span class="toggle-3832__label-on">UNITE!</span>
+        </span>
+        <span class="toggle-3832__thumb">
+            <span class="toggle-3832__crest">
+                <span class="toggle-3832__crest-star">★</span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3832 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3832 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3832__track {
+    position: relative;
+    width: 164px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #172554;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3832__space {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 72% 45%, rgba(59,130,246,.45), transparent 30%),
+        linear-gradient(135deg, #0f172a, #1e3a8a 55%, #312e81);
+    transition: filter .3s ease, transform .35s ease;
+}
+.toggle-3832__star {
+    position: absolute;
+    z-index: 2;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #111111;
+    transition: transform .4s ease, color .3s ease;
+}
+.toggle-3832__star-1 {
+    right: 18px;
+    top: 9px;
+    font-size: 14px;
+}
+.toggle-3832__star-2 {
+    right: 50px;
+    top: 28px;
+    font-size: 9px;
+}
+.toggle-3832__star-3 {
+    right: 23px;
+    bottom: 8px;
+    font-size: 8px;
+}
+.toggle-3832__beacon {
+    position: absolute;
+    right: 11px;
+    top: 8px;
+    width: 48px;
+    height: 48px;
+    border: 3px solid rgba(255,255,255,.65);
+    border-radius: 50%;
+    box-shadow:
+        0 0 0 6px rgba(59,130,246,.18),
+        0 0 17px rgba(96,165,250,.45);
+    opacity: .3;
+    transition: left .35s ease, right .35s ease, transform .4s ease, opacity .3s ease;
+}
+.toggle-3832__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 50px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3832__label-off,
+.toggle-3832__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3832__label-off {
+    opacity: 1;
+}
+.toggle-3832__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3832__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #475569;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3832__crest {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #e2e8f0;
+    transition: transform .4s ease, background .3s ease, box-shadow .3s ease;
+}
+.toggle-3832__crest-star {
+    color: #64748b;
+    font-size: 16px;
+    transition: color .3s ease, transform .4s ease;
+}
+.toggle-3832:hover .toggle-3832__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3832:hover .toggle-3832__thumb {
+    transform: rotate(-7deg) scale(1.04);
+}
+.toggle-3832 input:checked + .toggle-3832__track {
+    background: #1e3a8a;
+}
+.toggle-3832 input:checked + .toggle-3832__track .toggle-3832__thumb {
+    left: 102px;
+    background: #2563eb;
+}
+.toggle-3832 input:checked + .toggle-3832__track .toggle-3832__crest {
+    background: #facc15;
+    transform: rotate(360deg) scale(1.1);
+    box-shadow: 0 0 11px #facc15;
+}
+.toggle-3832 input:checked + .toggle-3832__track .toggle-3832__crest-star {
+    color: #dc2626;
+    transform: scale(1.15);
+}
+.toggle-3832 input:checked + .toggle-3832__track .toggle-3832__beacon {
+    left: 10px;
+    right: auto;
+    opacity: 1;
+    transform: scale(1.1);
+}
+.toggle-3832 input:checked + .toggle-3832__track .toggle-3832__star-1 {
+    transform: translateX(-102px) rotate(45deg) scale(1.2);
+    color: #facc15;
+}
+.toggle-3832 input:checked + .toggle-3832__track .toggle-3832__star-2 {
+    transform: translateX(-77px) rotate(-35deg) scale(1.3);
+    color: #22d3ee;
+}
+.toggle-3832 input:checked + .toggle-3832__track .toggle-3832__star-3 {
+    transform: translateX(-97px) rotate(30deg) scale(1.2);
+    color: #ef4444;
+}
+.toggle-3832 input:checked + .toggle-3832__track .toggle-3832__label {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+}
+.toggle-3832 input:checked + .toggle-3832__track .toggle-3832__label-off {
+    opacity: 0;
+}
+.toggle-3832 input:checked + .toggle-3832__track .toggle-3832__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3832 input:focus-visible + .toggle-3832__track {
+    outline: 3px solid #60a5fa;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3833,
+    name: "Shazam Magic Lightning Toggle",
+    preview: (
+      <label
+        className="toggle-3833"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Shazam Magic Lightning Toggle"
+        />
+        <span className="toggle-3833__track">
+          <span className="toggle-3833__storm"></span>
+          <span className="toggle-3833__bolt toggle-3833__bolt-1"></span>
+          <span className="toggle-3833__bolt toggle-3833__bolt-2"></span>
+          <span className="toggle-3833__burst"></span>
+          <span className="toggle-3833__label">
+            <span className="toggle-3833__label-off">MORTAL</span>
+            <span className="toggle-3833__label-on">SHAZAM!</span>
+          </span>
+          <span className="toggle-3833__thumb">
+            <span className="toggle-3833__crest">
+              <span className="toggle-3833__crest-bolt"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3833">
+    <input type="checkbox" checked aria-label="Shazam Magic Lightning Toggle">
+    <span class="toggle-3833__track">
+        <span class="toggle-3833__storm"></span>
+        <span class="toggle-3833__bolt toggle-3833__bolt-1"></span>
+        <span class="toggle-3833__bolt toggle-3833__bolt-2"></span>
+        <span class="toggle-3833__burst"></span>
+        <span class="toggle-3833__label">
+            <span class="toggle-3833__label-off">MORTAL</span>
+            <span class="toggle-3833__label-on">SHAZAM!</span>
+        </span>
+        <span class="toggle-3833__thumb">
+            <span class="toggle-3833__crest">
+                <span class="toggle-3833__crest-bolt"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3833 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3833 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3833__track {
+    position: relative;
+    width: 164px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 14px;
+    background: #7f1d1d;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3833__storm {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 72% 36%, rgba(250,204,21,.3), transparent 25%),
+        linear-gradient(135deg, #7f1d1d, #dc2626 54%, #991b1b);
+}
+.toggle-3833__bolt {
+    position: absolute;
+    z-index: 2;
+    background: #facc15;
+    clip-path: polygon(42% 0,100% 0,64% 39%,100% 39%,22% 100%,43% 53%,6% 53%);
+    transition: transform .38s ease, filter .3s ease;
+}
+.toggle-3833__bolt-1 {
+    width: 20px;
+    height: 44px;
+    right: 15px;
+    top: 6px;
+}
+.toggle-3833__bolt-2 {
+    width: 13px;
+    height: 30px;
+    right: 49px;
+    bottom: 7px;
+}
+.toggle-3833__burst {
+    position: absolute;
+    right: 9px;
+    top: 10px;
+    width: 48px;
+    height: 48px;
+    border: 3px solid #111111;
+    background: rgba(254,240,138,.35);
+    clip-path: polygon(50% 0,61% 25%,86% 7%,77% 35%,100% 45%,75% 58%,92% 84%,62% 73%,50% 100%,37% 73%,8% 88%,26% 59%,0 50%,27% 38%,8% 13%,39% 27%);
+    opacity: .35;
+    transition: left .35s ease, right .35s ease, transform .4s ease, opacity .3s ease;
+}
+.toggle-3833__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 54px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3833__label-off,
+.toggle-3833__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 6px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3833__label-off {
+    opacity: 0;
+}
+.toggle-3833__label-on {
+    opacity: 1;
+}
+.toggle-3833__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #f8fafc;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3833__crest {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #dc2626;
+    transition: transform .4s ease, box-shadow .3s ease;
+}
+.toggle-3833__crest-bolt {
+    width: 15px;
+    height: 24px;
+    background: #facc15;
+    clip-path: polygon(42% 0,100% 0,62% 38%,100% 38%,20% 100%,42% 54%,7% 54%);
+}
+.toggle-3833:hover .toggle-3833__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3833:hover .toggle-3833__thumb {
+    transform: rotate(-8deg) scale(1.05);
+}
+.toggle-3833 input:not(:checked) + .toggle-3833__track {
+    background: #475569;
+}
+.toggle-3833 input:not(:checked) + .toggle-3833__track .toggle-3833__thumb {
+    left: 6px;
+    background: #cbd5e1;
+}
+.toggle-3833 input:not(:checked) + .toggle-3833__track .toggle-3833__burst {
+    left: 10px;
+    right: auto;
+    opacity: .08;
+    transform: scale(.55);
+}
+.toggle-3833 input:not(:checked) + .toggle-3833__track .toggle-3833__label {
+    left: 102px;
+    right: auto;
+    background: #e5e7eb;
+}
+.toggle-3833 input:not(:checked) + .toggle-3833__track .toggle-3833__label-on {
+    opacity: 0;
+}
+.toggle-3833 input:not(:checked) + .toggle-3833__track .toggle-3833__label-off {
+    opacity: 1;
+}
+.toggle-3833 input:checked + .toggle-3833__track .toggle-3833__crest {
+    transform: rotate(360deg) scale(1.1);
+    box-shadow: 0 0 12px #facc15;
+}
+.toggle-3833 input:checked + .toggle-3833__track .toggle-3833__bolt-1 {
+    transform: translateX(-101px);
+    filter: drop-shadow(0 0 5px #facc15);
+}
+.toggle-3833 input:checked + .toggle-3833__track .toggle-3833__bolt-2 {
+    transform: translateX(-79px) scale(1.15);
+}
+.toggle-3833 input:checked + .toggle-3833__track .toggle-3833__burst {
+    opacity: .8;
+    transform: rotate(35deg) scale(1.12);
+}
+.toggle-3833 input:focus-visible + .toggle-3833__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3834,
+    name: "Nightwing Escrima Toggle",
+    preview: (
+      <label
+        className="toggle-3834"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Nightwing Escrima Toggle" />
+        <span className="toggle-3834__track">
+          <span className="toggle-3834__gotham"></span>
+          <span className="toggle-3834__stick toggle-3834__stick-1"></span>
+          <span className="toggle-3834__stick toggle-3834__stick-2"></span>
+          <span className="toggle-3834__wing"></span>
+          <span className="toggle-3834__label">
+            <span className="toggle-3834__label-off">SHADOW</span>
+            <span className="toggle-3834__label-on">STRIKE</span>
+          </span>
+          <span className="toggle-3834__thumb">
+            <span className="toggle-3834__mask">
+              <span className="toggle-3834__eye toggle-3834__eye-left"></span>
+              <span className="toggle-3834__eye toggle-3834__eye-right"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3834">
+    <input type="checkbox" aria-label="Nightwing Escrima Toggle">
+    <span class="toggle-3834__track">
+        <span class="toggle-3834__gotham"></span>
+        <span class="toggle-3834__stick toggle-3834__stick-1"></span>
+        <span class="toggle-3834__stick toggle-3834__stick-2"></span>
+        <span class="toggle-3834__wing"></span>
+        <span class="toggle-3834__label">
+            <span class="toggle-3834__label-off">SHADOW</span>
+            <span class="toggle-3834__label-on">STRIKE</span>
+        </span>
+        <span class="toggle-3834__thumb">
+            <span class="toggle-3834__mask">
+                <span class="toggle-3834__eye toggle-3834__eye-left"></span>
+                <span class="toggle-3834__eye toggle-3834__eye-right"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3834 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3834 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3834__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #050505;
+    border-radius: 999px;
+    background: #09090b;
+    box-shadow: 8px 8px 0 #050505;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3834__gotham {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #09090b, #172554 52%, #0c4a6e);
+}
+.toggle-3834__stick {
+    position: absolute;
+    z-index: 2;
+    width: 65px;
+    height: 7px;
+    border: 2px solid #050505;
+    border-radius: 999px;
+    background: #38bdf8;
+    box-shadow: 0 0 7px #0ea5e9;
+    transition: transform .35s ease;
+}
+.toggle-3834__stick-1 {
+    right: 5px;
+    top: 18px;
+    transform: rotate(-19deg);
+}
+.toggle-3834__stick-2 {
+    right: 5px;
+    bottom: 16px;
+    transform: rotate(19deg);
+}
+.toggle-3834__wing {
+    position: absolute;
+    right: 19px;
+    top: 16px;
+    width: 44px;
+    height: 35px;
+    background: #0ea5e9;
+    clip-path: polygon(0 0,38% 33%,50% 0,62% 33%,100% 0,76% 55%,50% 100%,24% 55%);
+    opacity: .35;
+    transition: left .35s ease, right .35s ease, transform .35s ease, opacity .3s ease;
+}
+.toggle-3834__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 4;
+    width: 52px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #050505;
+    background: #e0f2fe;
+    box-shadow: 3px 3px 0 #050505;
+}
+.toggle-3834__label-off,
+.toggle-3834__label-on {
+    position: absolute;
+    color: #050505;
+    font: 900 6px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3834__label-off {
+    opacity: 1;
+}
+.toggle-3834__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3834__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #050505;
+    border-radius: 50%;
+    background: #18181b;
+    box-shadow: 5px 5px 0 #050505;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3834__mask {
+    position: relative;
+    width: 33px;
+    height: 18px;
+    background: #0ea5e9;
+    clip-path: polygon(0 26%,34% 0,50% 22%,66% 0,100% 26%,81% 100%,50% 65%,19% 100%);
+}
+.toggle-3834__eye {
+    position: absolute;
+    top: 6px;
+    width: 8px;
+    height: 4px;
+    background: #ffffff;
+}
+.toggle-3834__eye-left {
+    left: 6px;
+}
+.toggle-3834__eye-right {
+    right: 6px;
+}
+.toggle-3834:hover .toggle-3834__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #050505;
+}
+.toggle-3834:hover .toggle-3834__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3834 input:checked + .toggle-3834__track .toggle-3834__thumb {
+    left: 100px;
+    background: #0369a1;
+}
+.toggle-3834 input:checked + .toggle-3834__track .toggle-3834__stick-1 {
+    transform: translateX(-99px) rotate(19deg);
+}
+.toggle-3834 input:checked + .toggle-3834__track .toggle-3834__stick-2 {
+    transform: translateX(-99px) rotate(-19deg);
+}
+.toggle-3834 input:checked + .toggle-3834__track .toggle-3834__wing {
+    left: 14px;
+    right: auto;
+    opacity: .9;
+    transform: scale(1.15);
+}
+.toggle-3834 input:checked + .toggle-3834__track .toggle-3834__label {
+    left: 8px;
+    right: auto;
+    background: #bae6fd;
+}
+.toggle-3834 input:checked + .toggle-3834__track .toggle-3834__label-off {
+    opacity: 0;
+}
+.toggle-3834 input:checked + .toggle-3834__track .toggle-3834__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3834 input:focus-visible + .toggle-3834__track {
+    outline: 3px solid #0ea5e9;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3835,
+    name: "Green Arrow Trick Shot Toggle",
+    preview: (
+      <label
+        className="toggle-3835"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Green Arrow Trick Shot Toggle"
+        />
+        <span className="toggle-3835__track">
+          <span className="toggle-3835__halftone"></span>
+          <span className="toggle-3835__target"></span>
+          <span className="toggle-3835__arrow">
+            <span className="toggle-3835__arrow-head"></span>
+          </span>
+          <span className="toggle-3835__label">
+            <span className="toggle-3835__label-off">AIM</span>
+            <span className="toggle-3835__label-on">HIT!</span>
+          </span>
+          <span className="toggle-3835__thumb">
+            <span className="toggle-3835__hood">
+              <span className="toggle-3835__eye toggle-3835__eye-left"></span>
+              <span className="toggle-3835__eye toggle-3835__eye-right"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3835">
+    <input type="checkbox" checked aria-label="Green Arrow Trick Shot Toggle">
+    <span class="toggle-3835__track">
+        <span class="toggle-3835__halftone"></span>
+        <span class="toggle-3835__target"></span>
+        <span class="toggle-3835__arrow">
+            <span class="toggle-3835__arrow-head"></span>
+        </span>
+        <span class="toggle-3835__label">
+            <span class="toggle-3835__label-off">AIM</span>
+            <span class="toggle-3835__label-on">HIT!</span>
+        </span>
+        <span class="toggle-3835__thumb">
+            <span class="toggle-3835__hood">
+                <span class="toggle-3835__eye toggle-3835__eye-left"></span>
+                <span class="toggle-3835__eye toggle-3835__eye-right"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3835 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3835 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3835__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 14px;
+    background: #166534;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3835__halftone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(17,17,17,.5) 1.4px, transparent 1.6px);
+    background-size: 8px 8px;
+}
+.toggle-3835__target {
+    position: absolute;
+    right: 13px;
+    top: 9px;
+    width: 45px;
+    height: 45px;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ef4444 0 15%, #ffffff 16% 32%, #ef4444 33% 49%, #ffffff 50% 66%, #111111 67%);
+    transition: left .35s ease, right .35s ease, transform .4s ease;
+}
+.toggle-3835__arrow {
+    position: absolute;
+    right: 45px;
+    top: 32px;
+    z-index: 3;
+    width: 45px;
+    height: 5px;
+    border: 2px solid #111111;
+    background: #facc15;
+    transition: transform .4s ease;
+}
+.toggle-3835__arrow-head {
+    position: absolute;
+    right: -12px;
+    top: -6px;
+    width: 13px;
+    height: 13px;
+    border: 2px solid #111111;
+    background: #facc15;
+    clip-path: polygon(0 0,100% 50%,0 100%);
+}
+.toggle-3835__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 44px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3835__label-off,
+.toggle-3835__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3835__label-off {
+    opacity: 0;
+}
+.toggle-3835__label-on {
+    opacity: 1;
+}
+.toggle-3835__thumb {
+    position: absolute;
+    left: 100px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3835__hood {
+    position: relative;
+    width: 31px;
+    height: 31px;
+    border: 3px solid #111111;
+    background: #14532d;
+    clip-path: polygon(50% 0,90% 24%,100% 75%,50% 100%,0 75%,10% 24%);
+}
+.toggle-3835__eye {
+    position: absolute;
+    top: 11px;
+    width: 8px;
+    height: 4px;
+    background: #ffffff;
+}
+.toggle-3835__eye-left {
+    left: 4px;
+}
+.toggle-3835__eye-right {
+    right: 4px;
+}
+.toggle-3835:hover .toggle-3835__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3835:hover .toggle-3835__thumb {
+    transform: rotate(-7deg) scale(1.04);
+}
+.toggle-3835 input:not(:checked) + .toggle-3835__track .toggle-3835__thumb {
+    left: 6px;
+    background: #64748b;
+}
+.toggle-3835 input:not(:checked) + .toggle-3835__track .toggle-3835__target {
+    left: 13px;
+    right: auto;
+    transform: scale(.8);
+}
+.toggle-3835 input:not(:checked) + .toggle-3835__track .toggle-3835__arrow {
+    transform: translateX(-84px) scaleX(.45);
+}
+.toggle-3835 input:not(:checked) + .toggle-3835__track .toggle-3835__label {
+    left: 104px;
+    right: auto;
+    background: #e5e7eb;
+}
+.toggle-3835 input:not(:checked) + .toggle-3835__track .toggle-3835__label-on {
+    opacity: 0;
+}
+.toggle-3835 input:not(:checked) + .toggle-3835__track .toggle-3835__label-off {
+    opacity: 1;
+}
+.toggle-3835 input:checked + .toggle-3835__track .toggle-3835__target {
+    transform: rotate(180deg) scale(1.06);
+}
+.toggle-3835 input:checked + .toggle-3835__track .toggle-3835__arrow {
+    transform: translateX(8px);
+}
+.toggle-3835 input:focus-visible + .toggle-3835__track {
+    outline: 3px solid #22c55e;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3836,
+    name: "Blue Beetle Scarab Toggle",
+    preview: (
+      <label
+        className="toggle-3836"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Blue Beetle Scarab Toggle" />
+        <span className="toggle-3836__track">
+          <span className="toggle-3836__tech"></span>
+          <span className="toggle-3836__wing toggle-3836__wing-left"></span>
+          <span className="toggle-3836__wing toggle-3836__wing-right"></span>
+          <span className="toggle-3836__node toggle-3836__node-1"></span>
+          <span className="toggle-3836__node toggle-3836__node-2"></span>
+          <span className="toggle-3836__label">
+            <span className="toggle-3836__label-off">DORMANT</span>
+            <span className="toggle-3836__label-on">SCARAB</span>
+          </span>
+          <span className="toggle-3836__thumb">
+            <span className="toggle-3836__scarab">
+              <span className="toggle-3836__scarab-core"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3836">
+    <input type="checkbox" aria-label="Blue Beetle Scarab Toggle">
+    <span class="toggle-3836__track">
+        <span class="toggle-3836__tech"></span>
+        <span class="toggle-3836__wing toggle-3836__wing-left"></span>
+        <span class="toggle-3836__wing toggle-3836__wing-right"></span>
+        <span class="toggle-3836__node toggle-3836__node-1"></span>
+        <span class="toggle-3836__node toggle-3836__node-2"></span>
+        <span class="toggle-3836__label">
+            <span class="toggle-3836__label-off">DORMANT</span>
+            <span class="toggle-3836__label-on">SCARAB</span>
+        </span>
+        <span class="toggle-3836__thumb">
+            <span class="toggle-3836__scarab">
+                <span class="toggle-3836__scarab-core"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3836 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3836 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3836__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #050505;
+    border-radius: 14px;
+    background: #082f49;
+    box-shadow: 8px 8px 0 #050505;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3836__tech {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(to right, rgba(34,211,238,.18) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(34,211,238,.18) 1px, transparent 1px),
+        radial-gradient(circle at 72% 50%, rgba(6,182,212,.45), transparent 30%);
+    background-size: 12px 12px, 12px 12px, auto;
+}
+.toggle-3836__wing {
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    width: 40px;
+    height: 39px;
+    border: 3px solid #050505;
+    background: rgba(34,211,238,.45);
+    transition: transform .4s ease, background .3s ease;
+}
+.toggle-3836__wing-left {
+    right: 43px;
+    clip-path: polygon(100% 50%,0 0,22% 50%,0 100%);
+}
+.toggle-3836__wing-right {
+    right: 5px;
+    clip-path: polygon(0 50%,100% 0,78% 50%,100% 100%);
+}
+.toggle-3836__node {
+    position: absolute;
+    border-radius: 50%;
+    background: #22d3ee;
+    box-shadow: 0 0 6px #22d3ee;
+    transition: transform .35s ease;
+}
+.toggle-3836__node-1 {
+    width: 7px;
+    height: 7px;
+    right: 18px;
+    top: 10px;
+}
+.toggle-3836__node-2 {
+    width: 6px;
+    height: 6px;
+    right: 61px;
+    bottom: 9px;
+}
+.toggle-3836__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 52px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #050505;
+    background: #cffafe;
+    box-shadow: 3px 3px 0 #050505;
+}
+.toggle-3836__label-off,
+.toggle-3836__label-on {
+    position: absolute;
+    color: #050505;
+    font: 900 6px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3836__label-off {
+    opacity: 1;
+}
+.toggle-3836__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3836__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #050505;
+    border-radius: 50%;
+    background: #164e63;
+    box-shadow: 5px 5px 0 #050505;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3836__scarab {
+    position: relative;
+    width: 29px;
+    height: 34px;
+    border: 3px solid #050505;
+    border-radius: 50% 50% 42% 42%;
+    background: #0891b2;
+    transition: transform .4s ease, background .3s ease, box-shadow .3s ease;
+}
+.toggle-3836__scarab::before,
+.toggle-3836__scarab::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    width: 9px;
+    height: 18px;
+    border: 3px solid #050505;
+    background: #22d3ee;
+}
+.toggle-3836__scarab::before {
+    left: -8px;
+    transform: rotate(-25deg);
+}
+.toggle-3836__scarab::after {
+    right: -8px;
+    transform: rotate(25deg);
+}
+.toggle-3836__scarab-core {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 8px;
+    height: 14px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0 0 7px #22d3ee;
+}
+.toggle-3836:hover .toggle-3836__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #050505;
+}
+.toggle-3836:hover .toggle-3836__thumb {
+    transform: rotate(-7deg) scale(1.04);
+}
+.toggle-3836 input:checked + .toggle-3836__track .toggle-3836__thumb {
+    left: 100px;
+    background: #0e7490;
+}
+.toggle-3836 input:checked + .toggle-3836__track .toggle-3836__scarab {
+    background: #06b6d4;
+    transform: scale(1.12);
+    box-shadow: 0 0 12px #22d3ee;
+}
+.toggle-3836 input:checked + .toggle-3836__track .toggle-3836__wing-left {
+    transform: translateX(-95px) rotate(-18deg) scale(1.12);
+    background: rgba(103,232,249,.75);
+}
+.toggle-3836 input:checked + .toggle-3836__track .toggle-3836__wing-right {
+    transform: translateX(-101px) rotate(18deg) scale(1.12);
+    background: rgba(103,232,249,.75);
+}
+.toggle-3836 input:checked + .toggle-3836__track .toggle-3836__node-1 {
+    transform: translateX(-103px) scale(1.4);
+}
+.toggle-3836 input:checked + .toggle-3836__track .toggle-3836__node-2 {
+    transform: translateX(-66px) scale(1.4);
+}
+.toggle-3836 input:checked + .toggle-3836__track .toggle-3836__label {
+    left: 8px;
+    right: auto;
+    background: #a5f3fc;
+}
+.toggle-3836 input:checked + .toggle-3836__track .toggle-3836__label-off {
+    opacity: 0;
+}
+.toggle-3836 input:checked + .toggle-3836__track .toggle-3836__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3836 input:focus-visible + .toggle-3836__track {
+    outline: 3px solid #22d3ee;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3837,
+    name: "Raven Soul Self Toggle",
+    preview: (
+      <label
+        className="toggle-3837"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Raven Soul Self Toggle"
+        />
+        <span className="toggle-3837__track">
+          <span className="toggle-3837__void"></span>
+          <span className="toggle-3837__raven"></span>
+          <span className="toggle-3837__orb toggle-3837__orb-1"></span>
+          <span className="toggle-3837__orb toggle-3837__orb-2"></span>
+          <span className="toggle-3837__label">
+            <span className="toggle-3837__label-off">CALM</span>
+            <span className="toggle-3837__label-on">AZARATH</span>
+          </span>
+          <span className="toggle-3837__thumb">
+            <span className="toggle-3837__gem"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3837">
+    <input type="checkbox" checked aria-label="Raven Soul Self Toggle">
+    <span class="toggle-3837__track">
+        <span class="toggle-3837__void"></span>
+        <span class="toggle-3837__raven"></span>
+        <span class="toggle-3837__orb toggle-3837__orb-1"></span>
+        <span class="toggle-3837__orb toggle-3837__orb-2"></span>
+        <span class="toggle-3837__label">
+            <span class="toggle-3837__label-off">CALM</span>
+            <span class="toggle-3837__label-on">AZARATH</span>
+        </span>
+        <span class="toggle-3837__thumb">
+            <span class="toggle-3837__gem"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3837 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3837 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3837__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #050505;
+    border-radius: 999px;
+    background: #312e81;
+    box-shadow: 8px 8px 0 #050505;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3837__void {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 73% 50%, rgba(139,92,246,.5), transparent 30%),
+        linear-gradient(135deg, #18181b, #312e81 52%, #581c87);
+    transition: filter .3s ease, transform .35s ease;
+}
+.toggle-3837__raven {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 48px;
+    height: 39px;
+    background: #111111;
+    clip-path: polygon(0 38%,22% 26%,35% 0,50% 31%,65% 0,78% 26%,100% 38%,74% 54%,66% 100%,50% 69%,34% 100%,26% 54%);
+    opacity: .45;
+    transition: left .35s ease, right .35s ease, transform .4s ease, opacity .3s ease;
+}
+.toggle-3837__orb {
+    position: absolute;
+    border-radius: 50%;
+    background: #a78bfa;
+    box-shadow: 0 0 8px #8b5cf6;
+    transition: transform .4s ease;
+}
+.toggle-3837__orb-1 {
+    width: 9px;
+    height: 9px;
+    right: 21px;
+    top: 8px;
+}
+.toggle-3837__orb-2 {
+    width: 6px;
+    height: 6px;
+    right: 57px;
+    bottom: 8px;
+}
+.toggle-3837__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 52px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #050505;
+    background: #ede9fe;
+    box-shadow: 3px 3px 0 #050505;
+}
+.toggle-3837__label-off,
+.toggle-3837__label-on {
+    position: absolute;
+    color: #050505;
+    font: 900 6px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3837__label-off {
+    opacity: 0;
+}
+.toggle-3837__label-on {
+    opacity: 1;
+}
+.toggle-3837__thumb {
+    position: absolute;
+    left: 100px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #050505;
+    border-radius: 50%;
+    background: #7c3aed;
+    box-shadow: 5px 5px 0 #050505;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3837__gem {
+    width: 24px;
+    height: 24px;
+    border: 3px solid #050505;
+    background: #dc2626;
+    transform: rotate(45deg);
+    box-shadow: 0 0 7px #ef4444;
+    transition: transform .4s ease, background .3s ease, box-shadow .3s ease;
+}
+.toggle-3837:hover .toggle-3837__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #050505;
+}
+.toggle-3837:hover .toggle-3837__thumb {
+    transform: rotate(-7deg) scale(1.04);
+}
+.toggle-3837 input:not(:checked) + .toggle-3837__track {
+    background: #3f3f46;
+}
+.toggle-3837 input:not(:checked) + .toggle-3837__track .toggle-3837__thumb {
+    left: 6px;
+    background: #52525b;
+}
+.toggle-3837 input:not(:checked) + .toggle-3837__track .toggle-3837__raven {
+    left: 12px;
+    right: auto;
+    opacity: .18;
+    transform: scale(.7);
+}
+.toggle-3837 input:not(:checked) + .toggle-3837__track .toggle-3837__label {
+    left: 101px;
+    right: auto;
+    background: #d4d4d8;
+}
+.toggle-3837 input:not(:checked) + .toggle-3837__track .toggle-3837__label-on {
+    opacity: 0;
+}
+.toggle-3837 input:not(:checked) + .toggle-3837__track .toggle-3837__label-off {
+    opacity: 1;
+}
+.toggle-3837 input:checked + .toggle-3837__track .toggle-3837__raven {
+    opacity: .9;
+    transform: scale(1.15);
+}
+.toggle-3837 input:checked + .toggle-3837__track .toggle-3837__gem {
+    transform: rotate(225deg) scale(1.12);
+    box-shadow: 0 0 13px #ef4444;
+}
+.toggle-3837 input:checked + .toggle-3837__track .toggle-3837__orb-1 {
+    transform: translateX(-100px) scale(1.3);
+}
+.toggle-3837 input:checked + .toggle-3837__track .toggle-3837__orb-2 {
+    transform: translateX(-68px) scale(1.4);
+}
+.toggle-3837 input:focus-visible + .toggle-3837__track {
+    outline: 3px solid #8b5cf6;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3838,
+    name: "Red Hood Outlaw Toggle",
+    preview: (
+      <label
+        className="toggle-3838"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Red Hood Outlaw Toggle" />
+        <span className="toggle-3838__track">
+          <span className="toggle-3838__city"></span>
+          <span className="toggle-3838__slash toggle-3838__slash-1"></span>
+          <span className="toggle-3838__slash toggle-3838__slash-2"></span>
+          <span className="toggle-3838__target"></span>
+          <span className="toggle-3838__label">
+            <span className="toggle-3838__label-off">HIDDEN</span>
+            <span className="toggle-3838__label-on">OUTLAW</span>
+          </span>
+          <span className="toggle-3838__thumb">
+            <span className="toggle-3838__helmet">
+              <span className="toggle-3838__visor"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3838">
+    <input type="checkbox" aria-label="Red Hood Outlaw Toggle">
+    <span class="toggle-3838__track">
+        <span class="toggle-3838__city"></span>
+        <span class="toggle-3838__slash toggle-3838__slash-1"></span>
+        <span class="toggle-3838__slash toggle-3838__slash-2"></span>
+        <span class="toggle-3838__target"></span>
+        <span class="toggle-3838__label">
+            <span class="toggle-3838__label-off">HIDDEN</span>
+            <span class="toggle-3838__label-on">OUTLAW</span>
+        </span>
+        <span class="toggle-3838__thumb">
+            <span class="toggle-3838__helmet">
+                <span class="toggle-3838__visor"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3838 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3838 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3838__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #050505;
+    border-radius: 13px;
+    background: #18181b;
+    box-shadow: 8px 8px 0 #050505;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.toggle-3838__city {
+    position: absolute;
+    inset: 0;
+    background:
+        repeating-linear-gradient(-20deg, transparent 0 13px, rgba(220,38,38,.12) 13px 16px),
+        linear-gradient(135deg, #09090b, #27272a);
+}
+.toggle-3838__slash {
+    position: absolute;
+    z-index: 2;
+    width: 66px;
+    height: 5px;
+    border: 2px solid #050505;
+    background: #dc2626;
+    transition: transform .35s ease;
+}
+.toggle-3838__slash-1 {
+    right: 4px;
+    top: 18px;
+    transform: rotate(-18deg);
+}
+.toggle-3838__slash-2 {
+    right: 7px;
+    bottom: 15px;
+    transform: rotate(18deg);
+}
+.toggle-3838__target {
+    position: absolute;
+    right: 17px;
+    top: 10px;
+    width: 42px;
+    height: 42px;
+    border: 3px solid #dc2626;
+    border-radius: 50%;
+    box-shadow:
+        inset 0 0 0 6px #18181b,
+        inset 0 0 0 9px #dc2626;
+    opacity: .5;
+    transition: left .35s ease, right .35s ease, transform .4s ease, opacity .3s ease;
+}
+.toggle-3838__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 51px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #050505;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #050505;
+}
+.toggle-3838__label-off,
+.toggle-3838__label-on {
+    position: absolute;
+    color: #050505;
+    font: 900 6px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3838__label-off {
+    opacity: 1;
+}
+.toggle-3838__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3838__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #050505;
+    border-radius: 50%;
+    background: #3f3f46;
+    box-shadow: 5px 5px 0 #050505;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3838__helmet {
+    position: relative;
+    width: 31px;
+    height: 35px;
+    border: 3px solid #050505;
+    border-radius: 48% 48% 38% 38%;
+    background: #991b1b;
+    transition: background .3s ease, transform .35s ease, box-shadow .3s ease;
+}
+.toggle-3838__visor {
+    position: absolute;
+    left: 4px;
+    right: 4px;
+    top: 10px;
+    height: 7px;
+    border: 2px solid #050505;
+    background: #ef4444;
+    box-shadow: 0 0 5px #ef4444;
+}
+.toggle-3838:hover .toggle-3838__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #050505;
+}
+.toggle-3838:hover .toggle-3838__thumb {
+    transform: rotate(-8deg) scale(1.04);
+}
+.toggle-3838 input:checked + .toggle-3838__track .toggle-3838__thumb {
+    left: 100px;
+    background: #7f1d1d;
+}
+.toggle-3838 input:checked + .toggle-3838__track .toggle-3838__helmet {
+    background: #dc2626;
+    transform: scale(1.08);
+    box-shadow: 0 0 9px rgba(239,68,68,.5);
+}
+.toggle-3838 input:checked + .toggle-3838__track .toggle-3838__target {
+    left: 14px;
+    right: auto;
+    opacity: 1;
+    transform: rotate(180deg) scale(1.08);
+}
+.toggle-3838 input:checked + .toggle-3838__track .toggle-3838__slash-1 {
+    transform: translateX(-99px) rotate(18deg);
+}
+.toggle-3838 input:checked + .toggle-3838__track .toggle-3838__slash-2 {
+    transform: translateX(-96px) rotate(-18deg);
+}
+.toggle-3838 input:checked + .toggle-3838__track .toggle-3838__label {
+    left: 8px;
+    right: auto;
+    background: #fecaca;
+}
+.toggle-3838 input:checked + .toggle-3838__track .toggle-3838__label-off {
+    opacity: 0;
+}
+.toggle-3838 input:checked + .toggle-3838__track .toggle-3838__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3838 input:focus-visible + .toggle-3838__track {
+    outline: 3px solid #ef4444;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3839,
+    name: "Harley Chaos Mallet Toggle",
+    preview: (
+      <label
+        className="toggle-3839"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Harley Chaos Mallet Toggle"
+        />
+        <span className="toggle-3839__track">
+          <span className="toggle-3839__halftone"></span>
+          <span className="toggle-3839__diamond toggle-3839__diamond-1"></span>
+          <span className="toggle-3839__diamond toggle-3839__diamond-2"></span>
+          <span className="toggle-3839__bubble">
+            <span className="toggle-3839__bubble-off">QUIET</span>
+            <span className="toggle-3839__bubble-on">BAM!</span>
+          </span>
+          <span className="toggle-3839__thumb">
+            <span className="toggle-3839__mallet">
+              <span className="toggle-3839__handle"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3839">
+    <input type="checkbox" checked aria-label="Harley Chaos Mallet Toggle">
+    <span class="toggle-3839__track">
+        <span class="toggle-3839__halftone"></span>
+        <span class="toggle-3839__diamond toggle-3839__diamond-1"></span>
+        <span class="toggle-3839__diamond toggle-3839__diamond-2"></span>
+        <span class="toggle-3839__bubble">
+            <span class="toggle-3839__bubble-off">QUIET</span>
+            <span class="toggle-3839__bubble-on">BAM!</span>
+        </span>
+        <span class="toggle-3839__thumb">
+            <span class="toggle-3839__mallet">
+                <span class="toggle-3839__handle"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3839 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3839 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3839__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #ef4444 0 50%, #111827 50%);
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3839__halftone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,.5) 1.4px, transparent 1.6px);
+    background-size: 8px 8px;
+    opacity: .35;
+}
+.toggle-3839__diamond {
+    position: absolute;
+    width: 19px;
+    height: 26px;
+    border: 3px solid #111111;
+    background: #ffffff;
+    transform: rotate(45deg);
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3839__diamond-1 {
+    right: 16px;
+    top: 9px;
+}
+.toggle-3839__diamond-2 {
+    right: 53px;
+    bottom: 9px;
+    transform: rotate(45deg) scale(.72);
+}
+.toggle-3839__bubble {
+    position: absolute;
+    right: 8px;
+    top: 23px;
+    z-index: 4;
+    width: 47px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(5deg);
+}
+.toggle-3839__bubble-off,
+.toggle-3839__bubble-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3839__bubble-off {
+    opacity: 0;
+}
+.toggle-3839__bubble-on {
+    opacity: 1;
+}
+.toggle-3839__thumb {
+    position: absolute;
+    left: 100px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #f9a8d4;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3839__mallet {
+    position: relative;
+    width: 31px;
+    height: 19px;
+    border: 3px solid #111111;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #ef4444 0 50%, #111827 50%);
+    transform: rotate(-14deg);
+    transition: transform .35s ease;
+}
+.toggle-3839__handle {
+    position: absolute;
+    left: 11px;
+    top: 15px;
+    width: 7px;
+    height: 25px;
+    border: 2px solid #111111;
+    background: #facc15;
+}
+.toggle-3839:hover .toggle-3839__track {
+    transform: translate(-2px,-2px) rotate(1deg);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3839:hover .toggle-3839__thumb {
+    transform: rotate(-12deg) scale(1.06);
+}
+.toggle-3839 input:not(:checked) + .toggle-3839__track {
+    background: linear-gradient(90deg, #64748b 0 50%, #27272a 50%);
+}
+.toggle-3839 input:not(:checked) + .toggle-3839__track .toggle-3839__thumb {
+    left: 6px;
+    background: #d1d5db;
+}
+.toggle-3839 input:not(:checked) + .toggle-3839__track .toggle-3839__bubble {
+    left: 102px;
+    right: auto;
+    background: #e5e7eb;
+    transform: rotate(-4deg);
+}
+.toggle-3839 input:not(:checked) + .toggle-3839__track .toggle-3839__bubble-on {
+    opacity: 0;
+}
+.toggle-3839 input:not(:checked) + .toggle-3839__track .toggle-3839__bubble-off {
+    opacity: 1;
+}
+.toggle-3839 input:checked + .toggle-3839__track .toggle-3839__mallet {
+    transform: rotate(18deg) scale(1.1);
+}
+.toggle-3839 input:checked + .toggle-3839__track .toggle-3839__diamond-1 {
+    transform: translateX(-101px) rotate(135deg);
+}
+.toggle-3839 input:checked + .toggle-3839__track .toggle-3839__diamond-2 {
+    transform: translateX(-72px) rotate(-45deg) scale(.9);
+}
+.toggle-3839 input:focus-visible + .toggle-3839__track {
+    outline: 3px solid #f472b6;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3840,
+    name: "Constantine Hellblazer Toggle",
+    preview: (
+      <label
+        className="toggle-3840"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Constantine Hellblazer Toggle" />
+        <span className="toggle-3840__track">
+          <span className="toggle-3840__paper"></span>
+          <span className="toggle-3840__circle"></span>
+          <span className="toggle-3840__rune toggle-3840__rune-1">✦</span>
+          <span className="toggle-3840__rune toggle-3840__rune-2">×</span>
+          <span className="toggle-3840__label">
+            <span className="toggle-3840__label-off">CLOSED</span>
+            <span className="toggle-3840__label-on">CAST</span>
+          </span>
+          <span className="toggle-3840__thumb">
+            <span className="toggle-3840__sigil"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3840">
+    <input type="checkbox" aria-label="Constantine Hellblazer Toggle">
+    <span class="toggle-3840__track">
+        <span class="toggle-3840__paper"></span>
+        <span class="toggle-3840__circle"></span>
+        <span class="toggle-3840__rune toggle-3840__rune-1">✦</span>
+        <span class="toggle-3840__rune toggle-3840__rune-2">×</span>
+        <span class="toggle-3840__label">
+            <span class="toggle-3840__label-off">CLOSED</span>
+            <span class="toggle-3840__label-on">CAST</span>
+        </span>
+        <span class="toggle-3840__thumb">
+            <span class="toggle-3840__sigil"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3840 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3840 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3840__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 13px;
+    background: #d6d3d1;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3840__paper {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(rgba(17,17,17,.15) 1px, transparent 1.2px),
+        linear-gradient(135deg, #e7e5e4, #a8a29e);
+    background-size: 8px 8px, auto;
+}
+.toggle-3840__circle {
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    width: 45px;
+    height: 45px;
+    border: 3px dashed #7f1d1d;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 5px rgba(127,29,29,.12);
+    transition: left .35s ease, right .35s ease, transform .4s ease, border-color .3s ease, box-shadow .3s ease;
+}
+.toggle-3840__rune {
+    position: absolute;
+    z-index: 2;
+    color: #7f1d1d;
+    font-weight: 900;
+    transition: transform .35s ease, color .3s ease;
+}
+.toggle-3840__rune-1 {
+    right: 19px;
+    top: 13px;
+}
+.toggle-3840__rune-2 {
+    right: 52px;
+    bottom: 9px;
+}
+.toggle-3840__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 50px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3840__label-off,
+.toggle-3840__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 6px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3840__label-off {
+    opacity: 1;
+}
+.toggle-3840__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3840__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #78716c;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3840__sigil {
+    width: 31px;
+    height: 31px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background:
+        linear-gradient(45deg, transparent 44%, #7f1d1d 45% 55%, transparent 56%),
+        linear-gradient(-45deg, transparent 44%, #7f1d1d 45% 55%, transparent 56%),
+        #fef3c7;
+    transition: transform .4s ease, box-shadow .3s ease, background .3s ease;
+}
+.toggle-3840:hover .toggle-3840__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3840:hover .toggle-3840__thumb {
+    transform: rotate(-7deg) scale(1.04);
+}
+.toggle-3840 input:checked + .toggle-3840__track {
+    background: #7f1d1d;
+}
+.toggle-3840 input:checked + .toggle-3840__track .toggle-3840__thumb {
+    left: 100px;
+    background: #f97316;
+}
+.toggle-3840 input:checked + .toggle-3840__track .toggle-3840__sigil {
+    transform: rotate(180deg) scale(1.1);
+    background:
+        linear-gradient(45deg, transparent 44%, #f97316 45% 55%, transparent 56%),
+        linear-gradient(-45deg, transparent 44%, #f97316 45% 55%, transparent 56%),
+        #fef08a;
+    box-shadow: 0 0 11px #f97316;
+}
+.toggle-3840 input:checked + .toggle-3840__track .toggle-3840__circle {
+    left: 13px;
+    right: auto;
+    border-color: #f97316;
+    transform: rotate(180deg) scale(1.08);
+    box-shadow: inset 0 0 0 5px rgba(249,115,22,.18), 0 0 10px #f97316;
+}
+.toggle-3840 input:checked + .toggle-3840__track .toggle-3840__rune-1 {
+    color: #facc15;
+    transform: translateX(-102px) rotate(45deg);
+}
+.toggle-3840 input:checked + .toggle-3840__track .toggle-3840__rune-2 {
+    color: #f97316;
+    transform: translateX(-72px) rotate(-45deg);
+}
+.toggle-3840 input:checked + .toggle-3840__track .toggle-3840__label {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+}
+.toggle-3840 input:checked + .toggle-3840__track .toggle-3840__label-off {
+    opacity: 0;
+}
+.toggle-3840 input:checked + .toggle-3840__track .toggle-3840__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3840 input:focus-visible + .toggle-3840__track {
+    outline: 3px solid #f97316;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3841,
+    name: "Omega Beam Tyrant Toggle",
+    preview: (
+      <label
+        className="toggle-3841"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Omega Beam Tyrant Toggle"
+        />
+        <span className="toggle-3841__track">
+          <span className="toggle-3841__stone"></span>
+          <span className="toggle-3841__beam toggle-3841__beam-left"></span>
+          <span className="toggle-3841__beam toggle-3841__beam-right"></span>
+          <span className="toggle-3841__omega">Ω</span>
+          <span className="toggle-3841__label">
+            <span className="toggle-3841__label-off">IDLE</span>
+            <span className="toggle-3841__label-on">OMEGA</span>
+          </span>
+          <span className="toggle-3841__thumb">
+            <span className="toggle-3841__face">
+              <span className="toggle-3841__eye toggle-3841__eye-left"></span>
+              <span className="toggle-3841__eye toggle-3841__eye-right"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3841">
+    <input type="checkbox" checked aria-label="Omega Beam Tyrant Toggle">
+    <span class="toggle-3841__track">
+        <span class="toggle-3841__stone"></span>
+        <span class="toggle-3841__beam toggle-3841__beam-left"></span>
+        <span class="toggle-3841__beam toggle-3841__beam-right"></span>
+        <span class="toggle-3841__omega">Ω</span>
+        <span class="toggle-3841__label">
+            <span class="toggle-3841__label-off">IDLE</span>
+            <span class="toggle-3841__label-on">OMEGA</span>
+        </span>
+        <span class="toggle-3841__thumb">
+            <span class="toggle-3841__face">
+                <span class="toggle-3841__eye toggle-3841__eye-left"></span>
+                <span class="toggle-3841__eye toggle-3841__eye-right"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3841 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3841 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3841__track {
+    position: relative;
+    width: 164px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #050505;
+    border-radius: 13px;
+    background: #292524;
+    box-shadow: 8px 8px 0 #050505;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3841__stone {
+    position: absolute;
+    inset: 0;
+    background:
+        repeating-linear-gradient(28deg, transparent 0 13px, rgba(255,255,255,.05) 13px 15px),
+        linear-gradient(135deg, #292524, #44403c 55%, #1c1917);
+}
+.toggle-3841__beam {
+    position: absolute;
+    z-index: 3;
+    height: 5px;
+    background: #ef4444;
+    box-shadow: 0 0 7px #ef4444;
+    transition: transform .4s ease, width .35s ease;
+}
+.toggle-3841__beam-left {
+    width: 52px;
+    right: 39px;
+    top: 23px;
+    transform: rotate(-16deg);
+}
+.toggle-3841__beam-right {
+    width: 43px;
+    right: 8px;
+    top: 34px;
+    transform: rotate(18deg);
+}
+.toggle-3841__omega {
+    position: absolute;
+    right: 17px;
+    top: 9px;
+    z-index: 2;
+    color: #ef4444;
+    font: 900 31px/1 Arial Black, Arial, sans-serif;
+    text-shadow: 0 0 9px #ef4444;
+    opacity: .5;
+    transition: left .35s ease, right .35s ease, transform .4s ease, opacity .3s ease;
+}
+.toggle-3841__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 49px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #050505;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #050505;
+}
+.toggle-3841__label-off,
+.toggle-3841__label-on {
+    position: absolute;
+    color: #050505;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3841__label-off {
+    opacity: 0;
+}
+.toggle-3841__label-on {
+    opacity: 1;
+}
+.toggle-3841__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #050505;
+    border-radius: 50%;
+    background: #57534e;
+    box-shadow: 5px 5px 0 #050505;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3841__face {
+    position: relative;
+    width: 31px;
+    height: 34px;
+    border: 3px solid #050505;
+    border-radius: 45% 45% 38% 38%;
+    background: #78716c;
+    transition: background .3s ease, transform .35s ease;
+}
+.toggle-3841__eye {
+    position: absolute;
+    top: 10px;
+    width: 8px;
+    height: 5px;
+    background: #ef4444;
+    box-shadow: 0 0 7px #ef4444;
+}
+.toggle-3841__eye-left {
+    left: 4px;
+}
+.toggle-3841__eye-right {
+    right: 4px;
+}
+.toggle-3841:hover .toggle-3841__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #050505;
+}
+.toggle-3841:hover .toggle-3841__thumb {
+    transform: rotate(-7deg) scale(1.04);
+}
+.toggle-3841 input:not(:checked) + .toggle-3841__track {
+    background: #3f3f46;
+}
+.toggle-3841 input:not(:checked) + .toggle-3841__track .toggle-3841__thumb {
+    left: 6px;
+    background: #71717a;
+}
+.toggle-3841 input:not(:checked) + .toggle-3841__track .toggle-3841__omega {
+    left: 16px;
+    right: auto;
+    opacity: .15;
+    transform: scale(.65);
+}
+.toggle-3841 input:not(:checked) + .toggle-3841__track .toggle-3841__beam-left,
+.toggle-3841 input:not(:checked) + .toggle-3841__track .toggle-3841__beam-right {
+    width: 12px;
+    opacity: .25;
+}
+.toggle-3841 input:not(:checked) + .toggle-3841__track .toggle-3841__label {
+    left: 103px;
+    right: auto;
+    background: #d4d4d8;
+}
+.toggle-3841 input:not(:checked) + .toggle-3841__track .toggle-3841__label-on {
+    opacity: 0;
+}
+.toggle-3841 input:not(:checked) + .toggle-3841__track .toggle-3841__label-off {
+    opacity: 1;
+}
+.toggle-3841 input:checked + .toggle-3841__track .toggle-3841__face {
+    background: #57534e;
+    transform: scale(1.1);
+}
+.toggle-3841 input:checked + .toggle-3841__track .toggle-3841__omega {
+    opacity: .95;
+    transform: scale(1.15);
+}
+.toggle-3841 input:checked + .toggle-3841__track .toggle-3841__beam-left {
+    transform: translateX(-94px) rotate(16deg);
+}
+.toggle-3841 input:checked + .toggle-3841__track .toggle-3841__beam-right {
+    transform: translateX(-101px) rotate(-18deg);
+}
+.toggle-3841 input:focus-visible + .toggle-3841__track {
+    outline: 3px solid #ef4444;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3842,
+    name: "Robin Gotham Acrobat Toggle",
+    preview: (
+      <label
+        className="toggle-3842"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Robin Gotham Acrobat Toggle" />
+        <span className="toggle-3842__track">
+          <span className="toggle-3842__city"></span>
+          <span className="toggle-3842__rope"></span>
+          <span className="toggle-3842__wing toggle-3842__wing-1"></span>
+          <span className="toggle-3842__wing toggle-3842__wing-2"></span>
+          <span className="toggle-3842__label">
+            <span className="toggle-3842__label-off">READY</span>
+            <span className="toggle-3842__label-on">FLY!</span>
+          </span>
+          <span className="toggle-3842__thumb">
+            <span className="toggle-3842__badge">
+              <span className="toggle-3842__r">R</span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3842">
+    <input type="checkbox" aria-label="Robin Gotham Acrobat Toggle">
+    <span class="toggle-3842__track">
+        <span class="toggle-3842__city"></span>
+        <span class="toggle-3842__rope"></span>
+        <span class="toggle-3842__wing toggle-3842__wing-1"></span>
+        <span class="toggle-3842__wing toggle-3842__wing-2"></span>
+        <span class="toggle-3842__label">
+            <span class="toggle-3842__label-off">READY</span>
+            <span class="toggle-3842__label-on">FLY!</span>
+        </span>
+        <span class="toggle-3842__thumb">
+            <span class="toggle-3842__badge">
+                <span class="toggle-3842__r">R</span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3842 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3842 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3842__track {
+    position: relative;
+    width: 162px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 999px;
+    background: #14532d;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+.toggle-3842__city {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, #1e3a8a 0 47%, transparent 48%),
+        #14532d;
+}
+.toggle-3842__city::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 28px;
+    background: #111111;
+    clip-path: polygon(0 100%,0 45%,8% 45%,8% 20%,16% 20%,16% 62%,25% 62%,25% 33%,34% 33%,34% 8%,43% 8%,43% 55%,52% 55%,52% 29%,61% 29%,61% 64%,70% 64%,70% 22%,79% 22%,79% 50%,89% 50%,89% 18%,100% 18%,100% 100%);
+}
+.toggle-3842__rope {
+    position: absolute;
+    right: 26px;
+    top: -18px;
+    width: 62px;
+    height: 62px;
+    border: 4px solid #facc15;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    transform: rotate(26deg);
+    transition: transform .4s ease, left .35s ease, right .35s ease;
+}
+.toggle-3842__wing {
+    position: absolute;
+    z-index: 2;
+    width: 27px;
+    height: 17px;
+    border: 3px solid #111111;
+    background: #facc15;
+    transition: transform .35s ease;
+}
+.toggle-3842__wing-1 {
+    right: 15px;
+    top: 12px;
+    clip-path: polygon(0 50%,100% 0,72% 100%);
+}
+.toggle-3842__wing-2 {
+    right: 49px;
+    bottom: 9px;
+    clip-path: polygon(100% 50%,0 0,28% 100%);
+}
+.toggle-3842__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 4;
+    width: 46px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+}
+.toggle-3842__label-off,
+.toggle-3842__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3842__label-off {
+    opacity: 1;
+}
+.toggle-3842__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3842__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 6;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #dc2626;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+.toggle-3842__badge {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    transition: transform .35s ease, background .3s ease;
+}
+.toggle-3842__r {
+    color: #111111;
+    font: 900 16px/1 Arial Black, Arial, sans-serif;
+}
+.toggle-3842:hover .toggle-3842__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+.toggle-3842:hover .toggle-3842__thumb {
+    transform: rotate(-8deg) scale(1.05);
+}
+.toggle-3842 input:checked + .toggle-3842__track .toggle-3842__thumb {
+    left: 100px;
+    background: #22c55e;
+}
+.toggle-3842 input:checked + .toggle-3842__track .toggle-3842__badge {
+    background: #fde047;
+    transform: rotate(15deg) scale(1.08);
+}
+.toggle-3842 input:checked + .toggle-3842__track .toggle-3842__rope {
+    left: 16px;
+    right: auto;
+    transform: rotate(-26deg) scale(1.08);
+}
+.toggle-3842 input:checked + .toggle-3842__track .toggle-3842__wing-1 {
+    transform: translateX(-103px) rotate(-20deg);
+}
+.toggle-3842 input:checked + .toggle-3842__track .toggle-3842__wing-2 {
+    transform: translateX(-72px) rotate(20deg);
+}
+.toggle-3842 input:checked + .toggle-3842__track .toggle-3842__label {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+}
+.toggle-3842 input:checked + .toggle-3842__track .toggle-3842__label-off {
+    opacity: 0;
+}
+.toggle-3842 input:checked + .toggle-3842__track .toggle-3842__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3842 input:focus-visible + .toggle-3842__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3853,
+    name: "Spider-Man Web Sense Toggle",
+    preview: (
+      <label
+        className="toggle-3853"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Spider-Man Web Sense Toggle"
+        />
+        <span className="toggle-3853__track">
+          <span className="toggle-3853__sky"></span>
+          <span className="toggle-3853__city"></span>
+          <span className="toggle-3853__web">
+            <span className="toggle-3853__web-ring toggle-3853__web-ring-1"></span>
+            <span className="toggle-3853__web-ring toggle-3853__web-ring-2"></span>
+            <span className="toggle-3853__web-ring toggle-3853__web-ring-3"></span>
+            <span className="toggle-3853__web-line toggle-3853__web-line-1"></span>
+            <span className="toggle-3853__web-line toggle-3853__web-line-2"></span>
+            <span className="toggle-3853__web-line toggle-3853__web-line-3"></span>
+            <span className="toggle-3853__web-line toggle-3853__web-line-4"></span>
+          </span>
+          <span className="toggle-3853__sense toggle-3853__sense-1"></span>
+          <span className="toggle-3853__sense toggle-3853__sense-2"></span>
+          <span className="toggle-3853__sense toggle-3853__sense-3"></span>
+          <span className="toggle-3853__bubble">
+            <span className="toggle-3853__bubble-off">PATROL</span>
+            <span className="toggle-3853__bubble-on">THWIP!</span>
+          </span>
+          <span className="toggle-3853__thumb">
+            <span className="toggle-3853__mask">
+              <span className="toggle-3853__mask-web"></span>
+              <span className="toggle-3853__eye toggle-3853__eye-left"></span>
+              <span className="toggle-3853__eye toggle-3853__eye-right"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3853">
+    <input type="checkbox" checked aria-label="Spider-Man Web Sense Toggle">
+    <span class="toggle-3853__track">
+        <span class="toggle-3853__sky"></span>
+        <span class="toggle-3853__city"></span>
+        <span class="toggle-3853__web">
+            <span class="toggle-3853__web-ring toggle-3853__web-ring-1"></span>
+            <span class="toggle-3853__web-ring toggle-3853__web-ring-2"></span>
+            <span class="toggle-3853__web-ring toggle-3853__web-ring-3"></span>
+            <span class="toggle-3853__web-line toggle-3853__web-line-1"></span>
+            <span class="toggle-3853__web-line toggle-3853__web-line-2"></span>
+            <span class="toggle-3853__web-line toggle-3853__web-line-3"></span>
+            <span class="toggle-3853__web-line toggle-3853__web-line-4"></span>
+        </span>
+        <span class="toggle-3853__sense toggle-3853__sense-1"></span>
+        <span class="toggle-3853__sense toggle-3853__sense-2"></span>
+        <span class="toggle-3853__sense toggle-3853__sense-3"></span>
+        <span class="toggle-3853__bubble">
+            <span class="toggle-3853__bubble-off">PATROL</span>
+            <span class="toggle-3853__bubble-on">THWIP!</span>
+        </span>
+        <span class="toggle-3853__thumb">
+            <span class="toggle-3853__mask">
+                <span class="toggle-3853__mask-web"></span>
+                <span class="toggle-3853__eye toggle-3853__eye-left"></span>
+                <span class="toggle-3853__eye toggle-3853__eye-right"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3853 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle-3853 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+.toggle-3853__track {
+    position: relative;
+    width: 168px;
+    height: 76px;
+    overflow: hidden;
+    border: 4px solid #09090b;
+    border-radius: 18px;
+    background: #1d4ed8;
+    box-shadow: 8px 8px 0 #09090b;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+.toggle-3853__sky {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 77% 18%, rgba(255,255,255,.24), transparent 24%),
+        linear-gradient(135deg, #172554 0%, #1d4ed8 48%, #2563eb 100%);
+    transition: background .3s ease, filter .3s ease;
+}
+.toggle-3853__city {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 31px;
+    background: #09090b;
+    clip-path: polygon(
+        0 100%,
+        0 50%,
+        7% 50%,
+        7% 22%,
+        14% 22%,
+        14% 64%,
+        21% 64%,
+        21% 37%,
+        29% 37%,
+        29% 9%,
+        36% 9%,
+        36% 56%,
+        44% 56%,
+        44% 29%,
+        52% 29%,
+        52% 68%,
+        60% 68%,
+        60% 18%,
+        68% 18%,
+        68% 51%,
+        76% 51%,
+        76% 31%,
+        84% 31%,
+        84% 61%,
+        92% 61%,
+        92% 16%,
+        100% 16%,
+        100% 100%
+    );
+}
+.toggle-3853__city::after {
+    content: "";
+    position: absolute;
+    inset: 7px 8px 5px;
+    background-image: radial-gradient(#facc15 1.5px, transparent 1.8px);
+    background-size: 12px 9px;
+    opacity: .62;
+}
+.toggle-3853__web {
+    position: absolute;
+    right: -13px;
+    top: -15px;
+    width: 89px;
+    height: 89px;
+    transition: transform .45s ease;
+}
+.toggle-3853__web-ring {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 2px solid rgba(255,255,255,.82);
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+.toggle-3853__web-ring-1 {
+    width: 26px;
+    height: 26px;
+}
+.toggle-3853__web-ring-2 {
+    width: 51px;
+    height: 51px;
+}
+.toggle-3853__web-ring-3 {
+    width: 78px;
+    height: 78px;
+}
+.toggle-3853__web-line {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 84px;
+    height: 2px;
+    background: rgba(255,255,255,.82);
+    transform-origin: center;
+}
+.toggle-3853__web-line-1 {
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+.toggle-3853__web-line-2 {
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+.toggle-3853__web-line-3 {
+    transform: translate(-50%,-50%) rotate(90deg);
+}
+.toggle-3853__web-line-4 {
+    transform: translate(-50%,-50%) rotate(135deg);
+}
+.toggle-3853__sense {
+    position: absolute;
+    z-index: 3;
+    border: 3px solid #facc15;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    opacity: 0;
+    transition:
+        opacity .25s ease,
+        transform .4s ease,
+        left .35s ease,
+        right .35s ease;
+}
+.toggle-3853__sense-1 {
+    right: 25px;
+    top: 14px;
+    width: 31px;
+    height: 31px;
+}
+.toggle-3853__sense-2 {
+    right: 17px;
+    top: 6px;
+    width: 47px;
+    height: 47px;
+}
+.toggle-3853__sense-3 {
+    right: 8px;
+    top: -3px;
+    width: 65px;
+    height: 65px;
+}
+.toggle-3853__bubble {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 5;
+    width: 52px;
+    height: 24px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #09090b;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #09090b;
+    transform: rotate(4deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        background .3s ease,
+        transform .3s ease;
+}
+.toggle-3853__bubble::after {
+    content: "";
+    position: absolute;
+    right: 5px;
+    bottom: -8px;
+    width: 10px;
+    height: 10px;
+    border-right: 3px solid #09090b;
+    border-bottom: 3px solid #09090b;
+    background: inherit;
+    transform: rotate(45deg);
+}
+.toggle-3853__bubble-off,
+.toggle-3853__bubble-on {
+    position: absolute;
+    z-index: 2;
+    color: #09090b;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    letter-spacing: -.2px;
+    transition: opacity .2s ease, transform .25s ease;
+}
+.toggle-3853__bubble-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3853__bubble-on {
+    opacity: 1;
+}
+.toggle-3853__thumb {
+    position: absolute;
+    left: 104px;
+    top: 7px;
+    z-index: 7;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #09090b;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 5px 5px 0 #09090b;
+    transition:
+        left .36s cubic-bezier(.34,1.56,.64,1),
+        transform .3s ease,
+        background .3s ease;
+}
+.toggle-3853__mask {
+    position: relative;
+    width: 34px;
+    height: 39px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-radius: 50% 50% 44% 44%;
+    background: #dc2626;
+    transition:
+        transform .35s ease,
+        background .3s ease,
+        box-shadow .3s ease;
+}
+.toggle-3853__mask-web {
+    position: absolute;
+    inset: -7px;
+    background:
+        repeating-conic-gradient(
+            from 0deg,
+            transparent 0 21deg,
+            #09090b 21deg 24deg
+        ),
+        repeating-radial-gradient(
+            circle at 50% 50%,
+            transparent 0 7px,
+            rgba(9,9,11,.9) 8px 9px
+        );
+    opacity: .72;
+}
+.toggle-3853__eye {
+    position: absolute;
+    top: 9px;
+    z-index: 3;
+    width: 11px;
+    height: 18px;
+    border: 3px solid #09090b;
+    background: #ffffff;
+    transition:
+        width .3s ease,
+        height .3s ease,
+        transform .3s ease;
+}
+.toggle-3853__eye-left {
+    left: 3px;
+    clip-path: polygon(0 0,100% 20%,66% 100%,8% 72%);
+    transform: rotate(-4deg);
+}
+.toggle-3853__eye-right {
+    right: 3px;
+    clip-path: polygon(100% 0,0 20%,34% 100%,92% 72%);
+    transform: rotate(4deg);
+}
+.toggle-3853:hover .toggle-3853__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #09090b;
+}
+.toggle-3853:hover .toggle-3853__thumb {
+    transform: rotate(-7deg) scale(1.06);
+}
+.toggle-3853:hover .toggle-3853__web {
+    transform: rotate(12deg) scale(1.06);
+}
+.toggle-3853 input:not(:checked) + .toggle-3853__track {
+    background: #172554;
+}
+.toggle-3853 input:not(:checked) + .toggle-3853__track .toggle-3853__sky {
+    filter: grayscale(.4) brightness(.65);
+}
+.toggle-3853 input:not(:checked) + .toggle-3853__track .toggle-3853__thumb {
+    left: 6px;
+    background: #1e3a8a;
+}
+.toggle-3853 input:not(:checked) + .toggle-3853__track .toggle-3853__mask {
+    background: #991b1b;
+    transform: scale(.92);
+}
+.toggle-3853 input:not(:checked) + .toggle-3853__track .toggle-3853__eye {
+    width: 8px;
+    height: 13px;
+}
+.toggle-3853 input:not(:checked) + .toggle-3853__track .toggle-3853__bubble {
+    left: 107px;
+    right: auto;
+    background: #dbeafe;
+    transform: rotate(-3deg);
+}
+.toggle-3853 input:not(:checked) + .toggle-3853__track .toggle-3853__bubble-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3853 input:not(:checked) + .toggle-3853__track .toggle-3853__bubble-off {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3853 input:checked + .toggle-3853__track {
+    background: #2563eb;
+}
+.toggle-3853 input:checked + .toggle-3853__track .toggle-3853__thumb {
+    left: 104px;
+    background: #ef4444;
+}
+.toggle-3853 input:checked + .toggle-3853__track .toggle-3853__mask {
+    background: #dc2626;
+    transform: scale(1.08);
+    box-shadow: 0 0 8px rgba(239,68,68,.55);
+}
+.toggle-3853 input:checked + .toggle-3853__track .toggle-3853__eye {
+    width: 12px;
+    height: 19px;
+}
+.toggle-3853 input:checked + .toggle-3853__track .toggle-3853__web {
+    transform: translateX(-4px) rotate(18deg) scale(1.1);
+}
+.toggle-3853 input:checked + .toggle-3853__track .toggle-3853__sense {
+    opacity: 1;
+}
+.toggle-3853 input:checked + .toggle-3853__track .toggle-3853__sense-1 {
+    left: 20px;
+    right: auto;
+    transform: rotate(-135deg) scale(.85);
+}
+.toggle-3853 input:checked + .toggle-3853__track .toggle-3853__sense-2 {
+    left: 12px;
+    right: auto;
+    transform: rotate(-135deg) scale(.9);
+}
+.toggle-3853 input:checked + .toggle-3853__track .toggle-3853__sense-3 {
+    left: 3px;
+    right: auto;
+    transform: rotate(-135deg) scale(.95);
+}
+.toggle-3853 input:checked + .toggle-3853__track .toggle-3853__bubble {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(-5deg);
+}
+.toggle-3853 input:checked + .toggle-3853__track .toggle-3853__bubble-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+.toggle-3853 input:checked + .toggle-3853__track .toggle-3853__bubble-on {
+    opacity: 1;
+    transform: scale(1);
+}
+.toggle-3853 input:focus-visible + .toggle-3853__track {
+    outline: 3px solid #ef4444;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3854,
+    name: "Ultimate Spider-Man Comic City Toggle",
+    preview: (
+      <label
+        className="toggle-3854"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Ultimate Spider-Man Comic City Toggle"
+        />
+
+        <span className="toggle-3854__track">
+          <span className="toggle-3854__background"></span>
+          <span className="toggle-3854__halftone"></span>
+
+          <span className="toggle-3854__moon">
+            <span className="toggle-3854__moon-crater toggle-3854__moon-crater-1"></span>
+            <span className="toggle-3854__moon-crater toggle-3854__moon-crater-2"></span>
+            <span className="toggle-3854__moon-crater toggle-3854__moon-crater-3"></span>
+          </span>
+
+          <span className="toggle-3854__cloud toggle-3854__cloud-1"></span>
+          <span className="toggle-3854__cloud toggle-3854__cloud-2"></span>
+
+          <span className="toggle-3854__speed-field">
+            <span className="toggle-3854__speed toggle-3854__speed-1"></span>
+            <span className="toggle-3854__speed toggle-3854__speed-2"></span>
+            <span className="toggle-3854__speed toggle-3854__speed-3"></span>
+            <span className="toggle-3854__speed toggle-3854__speed-4"></span>
+            <span className="toggle-3854__speed toggle-3854__speed-5"></span>
+            <span className="toggle-3854__speed toggle-3854__speed-6"></span>
+          </span>
+
+          <span className="toggle-3854__building toggle-3854__building-1">
+            <span className="toggle-3854__antenna"></span>
+            <span className="toggle-3854__window toggle-3854__window-1"></span>
+            <span className="toggle-3854__window toggle-3854__window-2"></span>
+            <span className="toggle-3854__window toggle-3854__window-3"></span>
+            <span className="toggle-3854__window toggle-3854__window-4"></span>
+          </span>
+
+          <span className="toggle-3854__building toggle-3854__building-2">
+            <span className="toggle-3854__window toggle-3854__window-5"></span>
+            <span className="toggle-3854__window toggle-3854__window-6"></span>
+            <span className="toggle-3854__window toggle-3854__window-7"></span>
+            <span className="toggle-3854__window toggle-3854__window-8"></span>
+          </span>
+
+          <span className="toggle-3854__building toggle-3854__building-3">
+            <span className="toggle-3854__window toggle-3854__window-9"></span>
+            <span className="toggle-3854__window toggle-3854__window-10"></span>
+            <span className="toggle-3854__window toggle-3854__window-11"></span>
+          </span>
+
+          <span className="toggle-3854__water-tower">
+            <span className="toggle-3854__water-tank"></span>
+            <span className="toggle-3854__water-leg toggle-3854__water-leg-1"></span>
+            <span className="toggle-3854__water-leg toggle-3854__water-leg-2"></span>
+            <span className="toggle-3854__water-cross"></span>
+          </span>
+
+          <span className="toggle-3854__rooftop"></span>
+
+          <span className="toggle-3854__web-zone">
+            <span className="toggle-3854__web-ring toggle-3854__web-ring-1"></span>
+            <span className="toggle-3854__web-ring toggle-3854__web-ring-2"></span>
+            <span className="toggle-3854__web-ring toggle-3854__web-ring-3"></span>
+            <span className="toggle-3854__web-ring toggle-3854__web-ring-4"></span>
+
+            <span className="toggle-3854__web-ray toggle-3854__web-ray-1"></span>
+            <span className="toggle-3854__web-ray toggle-3854__web-ray-2"></span>
+            <span className="toggle-3854__web-ray toggle-3854__web-ray-3"></span>
+            <span className="toggle-3854__web-ray toggle-3854__web-ray-4"></span>
+            <span className="toggle-3854__web-ray toggle-3854__web-ray-5"></span>
+            <span className="toggle-3854__web-ray toggle-3854__web-ray-6"></span>
+          </span>
+
+          <span className="toggle-3854__web-shot">
+            <span className="toggle-3854__web-shot-line"></span>
+            <span className="toggle-3854__web-shot-burst">
+              <span className="toggle-3854__web-shot-core"></span>
+            </span>
+          </span>
+
+          <span className="toggle-3854__spider-sense">
+            <span className="toggle-3854__sense-ring toggle-3854__sense-ring-1"></span>
+            <span className="toggle-3854__sense-ring toggle-3854__sense-ring-2"></span>
+            <span className="toggle-3854__sense-ring toggle-3854__sense-ring-3"></span>
+            <span className="toggle-3854__sense-mark toggle-3854__sense-mark-1"></span>
+            <span className="toggle-3854__sense-mark toggle-3854__sense-mark-2"></span>
+            <span className="toggle-3854__sense-mark toggle-3854__sense-mark-3"></span>
+          </span>
+
+          <span className="toggle-3854__comic-burst">
+            <span className="toggle-3854__burst-text-off">PATROL</span>
+            <span className="toggle-3854__burst-text-on">THWIP!</span>
+          </span>
+
+          <span className="toggle-3854__panel-tag">
+            <span className="toggle-3854__panel-tag-off">ISSUE #01</span>
+            <span className="toggle-3854__panel-tag-on">SPIDER!</span>
+          </span>
+
+          <span className="toggle-3854__spider-emblem">
+            <span className="toggle-3854__spider-body"></span>
+            <span className="toggle-3854__spider-leg toggle-3854__spider-leg-1"></span>
+            <span className="toggle-3854__spider-leg toggle-3854__spider-leg-2"></span>
+            <span className="toggle-3854__spider-leg toggle-3854__spider-leg-3"></span>
+            <span className="toggle-3854__spider-leg toggle-3854__spider-leg-4"></span>
+          </span>
+
+          <span className="toggle-3854__thumb">
+            <span className="toggle-3854__thumb-ring"></span>
+
+            <span className="toggle-3854__mask">
+              <span className="toggle-3854__mask-base"></span>
+
+              <span className="toggle-3854__mask-web">
+                <span className="toggle-3854__mask-ring toggle-3854__mask-ring-1"></span>
+                <span className="toggle-3854__mask-ring toggle-3854__mask-ring-2"></span>
+                <span className="toggle-3854__mask-ring toggle-3854__mask-ring-3"></span>
+
+                <span className="toggle-3854__mask-line toggle-3854__mask-line-1"></span>
+                <span className="toggle-3854__mask-line toggle-3854__mask-line-2"></span>
+                <span className="toggle-3854__mask-line toggle-3854__mask-line-3"></span>
+                <span className="toggle-3854__mask-line toggle-3854__mask-line-4"></span>
+                <span className="toggle-3854__mask-line toggle-3854__mask-line-5"></span>
+                <span className="toggle-3854__mask-line toggle-3854__mask-line-6"></span>
+              </span>
+
+              <span className="toggle-3854__eye toggle-3854__eye-left">
+                <span className="toggle-3854__eye-inner"></span>
+              </span>
+
+              <span className="toggle-3854__eye toggle-3854__eye-right">
+                <span className="toggle-3854__eye-inner"></span>
+              </span>
+            </span>
+          </span>
+
+          <span className="toggle-3854__bottom-red"></span>
+          <span className="toggle-3854__bottom-blue"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3854">
+    <input type="checkbox" checked aria-label="Ultimate Spider-Man Comic City Toggle">
+
+    <span class="toggle-3854__track">
+        <span class="toggle-3854__background"></span>
+        <span class="toggle-3854__halftone"></span>
+
+        <span class="toggle-3854__moon">
+            <span class="toggle-3854__moon-crater toggle-3854__moon-crater-1"></span>
+            <span class="toggle-3854__moon-crater toggle-3854__moon-crater-2"></span>
+            <span class="toggle-3854__moon-crater toggle-3854__moon-crater-3"></span>
+        </span>
+
+        <span class="toggle-3854__cloud toggle-3854__cloud-1"></span>
+        <span class="toggle-3854__cloud toggle-3854__cloud-2"></span>
+
+        <span class="toggle-3854__speed-field">
+            <span class="toggle-3854__speed toggle-3854__speed-1"></span>
+            <span class="toggle-3854__speed toggle-3854__speed-2"></span>
+            <span class="toggle-3854__speed toggle-3854__speed-3"></span>
+            <span class="toggle-3854__speed toggle-3854__speed-4"></span>
+            <span class="toggle-3854__speed toggle-3854__speed-5"></span>
+            <span class="toggle-3854__speed toggle-3854__speed-6"></span>
+        </span>
+
+        <span class="toggle-3854__building toggle-3854__building-1">
+            <span class="toggle-3854__antenna"></span>
+            <span class="toggle-3854__window toggle-3854__window-1"></span>
+            <span class="toggle-3854__window toggle-3854__window-2"></span>
+            <span class="toggle-3854__window toggle-3854__window-3"></span>
+            <span class="toggle-3854__window toggle-3854__window-4"></span>
+        </span>
+
+        <span class="toggle-3854__building toggle-3854__building-2">
+            <span class="toggle-3854__window toggle-3854__window-5"></span>
+            <span class="toggle-3854__window toggle-3854__window-6"></span>
+            <span class="toggle-3854__window toggle-3854__window-7"></span>
+            <span class="toggle-3854__window toggle-3854__window-8"></span>
+        </span>
+
+        <span class="toggle-3854__building toggle-3854__building-3">
+            <span class="toggle-3854__window toggle-3854__window-9"></span>
+            <span class="toggle-3854__window toggle-3854__window-10"></span>
+            <span class="toggle-3854__window toggle-3854__window-11"></span>
+        </span>
+
+        <span class="toggle-3854__water-tower">
+            <span class="toggle-3854__water-tank"></span>
+            <span class="toggle-3854__water-leg toggle-3854__water-leg-1"></span>
+            <span class="toggle-3854__water-leg toggle-3854__water-leg-2"></span>
+            <span class="toggle-3854__water-cross"></span>
+        </span>
+
+        <span class="toggle-3854__rooftop"></span>
+
+        <span class="toggle-3854__web-zone">
+            <span class="toggle-3854__web-ring toggle-3854__web-ring-1"></span>
+            <span class="toggle-3854__web-ring toggle-3854__web-ring-2"></span>
+            <span class="toggle-3854__web-ring toggle-3854__web-ring-3"></span>
+            <span class="toggle-3854__web-ring toggle-3854__web-ring-4"></span>
+
+            <span class="toggle-3854__web-ray toggle-3854__web-ray-1"></span>
+            <span class="toggle-3854__web-ray toggle-3854__web-ray-2"></span>
+            <span class="toggle-3854__web-ray toggle-3854__web-ray-3"></span>
+            <span class="toggle-3854__web-ray toggle-3854__web-ray-4"></span>
+            <span class="toggle-3854__web-ray toggle-3854__web-ray-5"></span>
+            <span class="toggle-3854__web-ray toggle-3854__web-ray-6"></span>
+        </span>
+
+        <span class="toggle-3854__web-shot">
+            <span class="toggle-3854__web-shot-line"></span>
+            <span class="toggle-3854__web-shot-burst">
+                <span class="toggle-3854__web-shot-core"></span>
+            </span>
+        </span>
+
+        <span class="toggle-3854__spider-sense">
+            <span class="toggle-3854__sense-ring toggle-3854__sense-ring-1"></span>
+            <span class="toggle-3854__sense-ring toggle-3854__sense-ring-2"></span>
+            <span class="toggle-3854__sense-ring toggle-3854__sense-ring-3"></span>
+
+            <span class="toggle-3854__sense-mark toggle-3854__sense-mark-1"></span>
+            <span class="toggle-3854__sense-mark toggle-3854__sense-mark-2"></span>
+            <span class="toggle-3854__sense-mark toggle-3854__sense-mark-3"></span>
+        </span>
+
+        <span class="toggle-3854__comic-burst">
+            <span class="toggle-3854__burst-text-off">PATROL</span>
+            <span class="toggle-3854__burst-text-on">THWIP!</span>
+        </span>
+
+        <span class="toggle-3854__panel-tag">
+            <span class="toggle-3854__panel-tag-off">ISSUE #01</span>
+            <span class="toggle-3854__panel-tag-on">SPIDER!</span>
+        </span>
+
+        <span class="toggle-3854__spider-emblem">
+            <span class="toggle-3854__spider-body"></span>
+            <span class="toggle-3854__spider-leg toggle-3854__spider-leg-1"></span>
+            <span class="toggle-3854__spider-leg toggle-3854__spider-leg-2"></span>
+            <span class="toggle-3854__spider-leg toggle-3854__spider-leg-3"></span>
+            <span class="toggle-3854__spider-leg toggle-3854__spider-leg-4"></span>
+        </span>
+
+        <span class="toggle-3854__thumb">
+            <span class="toggle-3854__thumb-ring"></span>
+
+            <span class="toggle-3854__mask">
+                <span class="toggle-3854__mask-base"></span>
+
+                <span class="toggle-3854__mask-web">
+                    <span class="toggle-3854__mask-ring toggle-3854__mask-ring-1"></span>
+                    <span class="toggle-3854__mask-ring toggle-3854__mask-ring-2"></span>
+                    <span class="toggle-3854__mask-ring toggle-3854__mask-ring-3"></span>
+
+                    <span class="toggle-3854__mask-line toggle-3854__mask-line-1"></span>
+                    <span class="toggle-3854__mask-line toggle-3854__mask-line-2"></span>
+                    <span class="toggle-3854__mask-line toggle-3854__mask-line-3"></span>
+                    <span class="toggle-3854__mask-line toggle-3854__mask-line-4"></span>
+                    <span class="toggle-3854__mask-line toggle-3854__mask-line-5"></span>
+                    <span class="toggle-3854__mask-line toggle-3854__mask-line-6"></span>
+                </span>
+
+                <span class="toggle-3854__eye toggle-3854__eye-left">
+                    <span class="toggle-3854__eye-inner"></span>
+                </span>
+
+                <span class="toggle-3854__eye toggle-3854__eye-right">
+                    <span class="toggle-3854__eye-inner"></span>
+                </span>
+            </span>
+        </span>
+
+        <span class="toggle-3854__bottom-red"></span>
+        <span class="toggle-3854__bottom-blue"></span>
+    </span>
+</label>`,
+    css: `.toggle-3854 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3854 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3854__track {
+    position: relative;
+    width: 218px;
+    height: 92px;
+    overflow: hidden;
+    border: 5px solid #070707;
+    border-radius: 20px;
+    background: #1d4ed8;
+    box-shadow:
+        9px 9px 0 #070707,
+        inset 0 0 0 2px rgba(255,255,255,.12);
+    isolation: isolate;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+
+.toggle-3854__background {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background:
+        radial-gradient(
+            circle at 78% 18%,
+            rgba(255,255,255,.25) 0 8%,
+            transparent 9% 100%
+        ),
+        linear-gradient(
+            148deg,
+            #172554 0%,
+            #1e40af 30%,
+            #2563eb 62%,
+            #172554 100%
+        );
+    transition:
+        filter .35s ease,
+        transform .4s ease;
+}
+
+.toggle-3854__halftone {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-image:
+        radial-gradient(
+            rgba(0,0,0,.45) 1.25px,
+            transparent 1.5px
+        );
+    background-size: 8px 8px;
+    opacity: .25;
+    mix-blend-mode: multiply;
+    transition:
+        opacity .3s ease,
+        transform .4s ease;
+}
+
+.toggle-3854__moon {
+    position: absolute;
+    right: 15px;
+    top: 9px;
+    z-index: 2;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    border: 4px solid #070707;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 35% 30%,
+            #ffffff 0 8%,
+            transparent 9%
+        ),
+        linear-gradient(
+            145deg,
+            #f8fafc,
+            #cbd5e1
+        );
+    box-shadow:
+        3px 3px 0 #070707,
+        0 0 12px rgba(255,255,255,.35);
+    transition:
+        left .4s ease,
+        right .4s ease,
+        transform .4s ease,
+        background .3s ease,
+        box-shadow .3s ease;
+}
+
+.toggle-3854__moon-crater {
+    position: absolute;
+    border: 2px solid rgba(15,23,42,.25);
+    border-radius: 50%;
+    background: rgba(148,163,184,.25);
+}
+
+.toggle-3854__moon-crater-1 {
+    width: 11px;
+    height: 11px;
+    left: 8px;
+    top: 9px;
+}
+
+.toggle-3854__moon-crater-2 {
+    width: 7px;
+    height: 7px;
+    right: 8px;
+    top: 15px;
+}
+
+.toggle-3854__moon-crater-3 {
+    width: 9px;
+    height: 9px;
+    left: 19px;
+    bottom: 6px;
+}
+
+.toggle-3854__cloud {
+    position: absolute;
+    z-index: 2;
+    height: 9px;
+    border: 3px solid #070707;
+    border-radius: 999px;
+    background: rgba(255,255,255,.85);
+    transition:
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3854__cloud::before,
+.toggle-3854__cloud::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    border: 3px solid #070707;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.toggle-3854__cloud::before {
+    width: 13px;
+    height: 13px;
+    left: 4px;
+}
+
+.toggle-3854__cloud::after {
+    width: 10px;
+    height: 10px;
+    right: 3px;
+}
+
+.toggle-3854__cloud-1 {
+    width: 39px;
+    left: 71px;
+    top: 12px;
+    opacity: .72;
+}
+
+.toggle-3854__cloud-2 {
+    width: 29px;
+    left: 105px;
+    top: 34px;
+    opacity: .5;
+    transform: scale(.8);
+}
+
+.toggle-3854__speed-field {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.toggle-3854__speed {
+    position: absolute;
+    height: 3px;
+    border-radius: 999px;
+    background: rgba(255,255,255,.8);
+    transform-origin: right center;
+    transition:
+        transform .4s ease,
+        width .4s ease,
+        opacity .3s ease,
+        background .3s ease;
+}
+
+.toggle-3854__speed-1 {
+    width: 48px;
+    right: 7px;
+    top: 12px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3854__speed-2 {
+    width: 34px;
+    right: 14px;
+    top: 28px;
+}
+
+.toggle-3854__speed-3 {
+    width: 53px;
+    right: 3px;
+    top: 44px;
+    transform: rotate(6deg);
+}
+
+.toggle-3854__speed-4 {
+    width: 41px;
+    right: 8px;
+    bottom: 28px;
+    transform: rotate(10deg);
+}
+
+.toggle-3854__speed-5 {
+    width: 30px;
+    right: 27px;
+    bottom: 12px;
+}
+
+.toggle-3854__speed-6 {
+    width: 46px;
+    right: 1px;
+    bottom: 5px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3854__building {
+    position: absolute;
+    z-index: 3;
+    bottom: 13px;
+    border: 3px solid #070707;
+    background:
+        linear-gradient(
+            90deg,
+            #111827,
+            #1f2937
+        );
+    box-shadow: inset -5px 0 0 rgba(0,0,0,.35);
+    transition:
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3854__building-1 {
+    left: -5px;
+    width: 43px;
+    height: 45px;
+}
+
+.toggle-3854__building-2 {
+    left: 33px;
+    width: 47px;
+    height: 57px;
+}
+
+.toggle-3854__building-3 {
+    left: 74px;
+    width: 39px;
+    height: 37px;
+}
+
+.toggle-3854__antenna {
+    position: absolute;
+    left: 18px;
+    top: -21px;
+    width: 4px;
+    height: 20px;
+    border: 1px solid #070707;
+    background: #94a3b8;
+}
+
+.toggle-3854__antenna::after {
+    content: "";
+    position: absolute;
+    left: -3px;
+    top: -6px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #070707;
+    border-radius: 50%;
+    background: #ef4444;
+}
+
+.toggle-3854__window {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border: 2px solid #070707;
+    background: #facc15;
+    box-shadow: 0 0 4px rgba(250,204,21,.45);
+}
+
+.toggle-3854__window-1 {
+    left: 6px;
+    top: 8px;
+}
+
+.toggle-3854__window-2 {
+    right: 6px;
+    top: 8px;
+}
+
+.toggle-3854__window-3 {
+    left: 6px;
+    top: 23px;
+}
+
+.toggle-3854__window-4 {
+    right: 6px;
+    top: 23px;
+}
+
+.toggle-3854__window-5 {
+    left: 7px;
+    top: 7px;
+}
+
+.toggle-3854__window-6 {
+    right: 7px;
+    top: 7px;
+}
+
+.toggle-3854__window-7 {
+    left: 7px;
+    top: 24px;
+}
+
+.toggle-3854__window-8 {
+    right: 7px;
+    top: 24px;
+}
+
+.toggle-3854__window-9 {
+    left: 6px;
+    top: 7px;
+}
+
+.toggle-3854__window-10 {
+    right: 6px;
+    top: 7px;
+}
+
+.toggle-3854__window-11 {
+    left: 15px;
+    top: 21px;
+}
+
+.toggle-3854__water-tower {
+    position: absolute;
+    left: 83px;
+    bottom: 48px;
+    z-index: 4;
+    width: 28px;
+    height: 32px;
+    transition:
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3854__water-tank {
+    position: absolute;
+    left: 2px;
+    top: 0;
+    width: 24px;
+    height: 16px;
+    border: 3px solid #070707;
+    border-radius: 50% 50% 28% 28%;
+    background: #64748b;
+}
+
+.toggle-3854__water-tank::after {
+    content: "";
+    position: absolute;
+    left: -3px;
+    right: -3px;
+    bottom: 2px;
+    height: 4px;
+    background: #070707;
+}
+
+.toggle-3854__water-leg {
+    position: absolute;
+    top: 15px;
+    width: 3px;
+    height: 18px;
+    background: #070707;
+}
+
+.toggle-3854__water-leg-1 {
+    left: 6px;
+    transform: rotate(10deg);
+}
+
+.toggle-3854__water-leg-2 {
+    right: 6px;
+    transform: rotate(-10deg);
+}
+
+.toggle-3854__water-cross {
+    position: absolute;
+    left: 5px;
+    top: 23px;
+    width: 18px;
+    height: 3px;
+    background: #070707;
+}
+
+.toggle-3854__rooftop {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    z-index: 4;
+    height: 8px;
+    border-top: 4px solid #070707;
+    background:
+        repeating-linear-gradient(
+            90deg,
+            #111827 0 15px,
+            #1f2937 15px 28px
+        );
+}
+
+.toggle-3854__web-zone {
+    position: absolute;
+    right: -27px;
+    top: -30px;
+    z-index: 4;
+    width: 120px;
+    height: 120px;
+    transition:
+        transform .5s ease,
+        right .4s ease,
+        left .4s ease;
+}
+
+.toggle-3854__web-ring {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 2px solid rgba(255,255,255,.88);
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3854__web-ring-1 {
+    width: 24px;
+    height: 24px;
+}
+
+.toggle-3854__web-ring-2 {
+    width: 48px;
+    height: 48px;
+}
+
+.toggle-3854__web-ring-3 {
+    width: 76px;
+    height: 76px;
+}
+
+.toggle-3854__web-ring-4 {
+    width: 106px;
+    height: 106px;
+}
+
+.toggle-3854__web-ray {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 110px;
+    height: 2px;
+    background: rgba(255,255,255,.88);
+    transform-origin: center center;
+}
+
+.toggle-3854__web-ray-1 {
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+
+.toggle-3854__web-ray-2 {
+    transform: translate(-50%,-50%) rotate(30deg);
+}
+
+.toggle-3854__web-ray-3 {
+    transform: translate(-50%,-50%) rotate(60deg);
+}
+
+.toggle-3854__web-ray-4 {
+    transform: translate(-50%,-50%) rotate(90deg);
+}
+
+.toggle-3854__web-ray-5 {
+    transform: translate(-50%,-50%) rotate(120deg);
+}
+
+.toggle-3854__web-ray-6 {
+    transform: translate(-50%,-50%) rotate(150deg);
+}
+
+.toggle-3854__web-shot {
+    position: absolute;
+    z-index: 5;
+    left: 110px;
+    top: 42px;
+    width: 67px;
+    height: 27px;
+    transition:
+        left .4s ease,
+        top .4s ease,
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3854__web-shot-line {
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 55px;
+    height: 4px;
+    border: 1px solid #070707;
+    border-radius: 999px;
+    background: #ffffff;
+    transform: rotate(-10deg);
+}
+
+.toggle-3854__web-shot-burst {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 24px;
+    height: 24px;
+    border: 3px solid #070707;
+    background: #ffffff;
+    clip-path: polygon(
+        50% 0,
+        61% 27%,
+        87% 7%,
+        77% 37%,
+        100% 47%,
+        75% 59%,
+        91% 86%,
+        62% 73%,
+        50% 100%,
+        38% 73%,
+        8% 88%,
+        26% 59%,
+        0 48%,
+        27% 38%,
+        9% 10%,
+        39% 27%
+    );
+}
+
+.toggle-3854__web-shot-core {
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #dbeafe;
+}
+
+.toggle-3854__spider-sense {
+    position: absolute;
+    left: 10px;
+    top: 6px;
+    z-index: 6;
+    width: 68px;
+    height: 68px;
+    opacity: 0;
+    transition:
+        opacity .3s ease,
+        transform .4s ease;
+}
+
+.toggle-3854__sense-ring {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 3px solid #facc15;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    transform:
+        translate(-50%,-50%)
+        rotate(-45deg);
+}
+
+.toggle-3854__sense-ring-1 {
+    width: 28px;
+    height: 28px;
+}
+
+.toggle-3854__sense-ring-2 {
+    width: 45px;
+    height: 45px;
+}
+
+.toggle-3854__sense-ring-3 {
+    width: 62px;
+    height: 62px;
+}
+
+.toggle-3854__sense-mark {
+    position: absolute;
+    width: 5px;
+    height: 18px;
+    border-radius: 999px;
+    background: #facc15;
+    box-shadow: 0 0 5px rgba(250,204,21,.65);
+}
+
+.toggle-3854__sense-mark-1 {
+    left: 6px;
+    top: 4px;
+    transform: rotate(-37deg);
+}
+
+.toggle-3854__sense-mark-2 {
+    left: 30px;
+    top: -4px;
+}
+
+.toggle-3854__sense-mark-3 {
+    right: 6px;
+    top: 4px;
+    transform: rotate(37deg);
+}
+
+.toggle-3854__comic-burst {
+    position: absolute;
+    left: 11px;
+    top: 15px;
+    z-index: 8;
+    width: 63px;
+    height: 37px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #070707;
+    background: #ffffff;
+    clip-path: polygon(
+        50% 0,
+        60% 22%,
+        78% 5%,
+        77% 27%,
+        100% 23%,
+        83% 43%,
+        100% 55%,
+        78% 59%,
+        87% 87%,
+        62% 71%,
+        50% 100%,
+        40% 72%,
+        13% 90%,
+        23% 61%,
+        0 55%,
+        18% 41%,
+        0 24%,
+        24% 28%,
+        20% 4%,
+        41% 22%
+    );
+    box-shadow: 3px 3px 0 #070707;
+    transform: rotate(-5deg);
+    transition:
+        left .4s ease,
+        right .4s ease,
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3854__burst-text-off,
+.toggle-3854__burst-text-on {
+    position: absolute;
+    color: #070707;
+    font: 900 9px/1 Arial Black, Arial, sans-serif;
+    letter-spacing: -.4px;
+    transition:
+        opacity .2s ease,
+        transform .3s ease;
+}
+
+.toggle-3854__burst-text-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3854__burst-text-on {
+    opacity: 1;
+    transform: rotate(-4deg);
+}
+
+.toggle-3854__panel-tag {
+    position: absolute;
+    left: 11px;
+    bottom: 9px;
+    z-index: 8;
+    width: 59px;
+    height: 20px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #070707;
+    background: #facc15;
+    box-shadow: 3px 3px 0 #070707;
+    transform: rotate(2deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        background .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3854__panel-tag-off,
+.toggle-3854__panel-tag-on {
+    position: absolute;
+    color: #070707;
+    font: 900 6px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3854__panel-tag-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3854__panel-tag-on {
+    opacity: 1;
+}
+
+.toggle-3854__spider-emblem {
+    position: absolute;
+    left: 78px;
+    top: 26px;
+    z-index: 7;
+    width: 30px;
+    height: 37px;
+    opacity: .55;
+    transition:
+        transform .4s ease,
+        opacity .3s ease,
+        left .4s ease,
+        right .4s ease;
+}
+
+.toggle-3854__spider-body {
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    width: 10px;
+    height: 23px;
+    border: 3px solid #070707;
+    border-radius: 50%;
+    background: #dc2626;
+}
+
+.toggle-3854__spider-body::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -8px;
+    width: 7px;
+    height: 8px;
+    border: 2px solid #070707;
+    border-radius: 50%;
+    background: #dc2626;
+}
+
+.toggle-3854__spider-leg {
+    position: absolute;
+    left: 13px;
+    width: 23px;
+    height: 4px;
+    border-radius: 999px;
+    background: #070707;
+    transform-origin: left center;
+}
+
+.toggle-3854__spider-leg-1 {
+    top: 10px;
+    transform: rotate(-32deg);
+}
+
+.toggle-3854__spider-leg-2 {
+    top: 16px;
+    transform: rotate(-12deg);
+}
+
+.toggle-3854__spider-leg-3 {
+    top: 22px;
+    transform: rotate(12deg);
+}
+
+.toggle-3854__spider-leg-4 {
+    top: 28px;
+    transform: rotate(32deg);
+}
+
+.toggle-3854__spider-leg::after {
+    content: "";
+    position: absolute;
+    left: -26px;
+    top: 0;
+    width: 23px;
+    height: 4px;
+    border-radius: 999px;
+    background: #070707;
+    transform: scaleX(-1);
+}
+
+.toggle-3854__thumb {
+    position: absolute;
+    left: 145px;
+    top: 8px;
+    z-index: 15;
+    width: 64px;
+    height: 64px;
+    display: grid;
+    place-items: center;
+    border: 5px solid #070707;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            145deg,
+            #ef4444,
+            #b91c1c
+        );
+    box-shadow:
+        6px 6px 0 #070707,
+        inset 0 0 0 3px rgba(255,255,255,.12);
+    transition:
+        left .4s cubic-bezier(.34,1.56,.64,1),
+        transform .32s ease,
+        background .3s ease,
+        box-shadow .3s ease;
+}
+
+.toggle-3854__thumb-ring {
+    position: absolute;
+    inset: 5px;
+    border: 2px dashed rgba(255,255,255,.5);
+    border-radius: 50%;
+    transition:
+        transform .5s ease,
+        opacity .3s ease;
+}
+
+.toggle-3854__mask {
+    position: relative;
+    z-index: 2;
+    width: 43px;
+    height: 49px;
+    overflow: hidden;
+    border: 4px solid #070707;
+    border-radius: 50% 50% 44% 44%;
+    background: #dc2626;
+    box-shadow:
+        inset 0 0 0 2px rgba(255,255,255,.08);
+    transition:
+        transform .35s ease,
+        background .3s ease,
+        box-shadow .3s ease;
+}
+
+.toggle-3854__mask-base {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(255,255,255,.1),
+            transparent 45%
+        ),
+        #dc2626;
+}
+
+.toggle-3854__mask-web {
+    position: absolute;
+    inset: -4px;
+    z-index: 2;
+}
+
+.toggle-3854__mask-ring {
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    border: 2px solid #070707;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3854__mask-ring-1 {
+    width: 15px;
+    height: 17px;
+}
+
+.toggle-3854__mask-ring-2 {
+    width: 28px;
+    height: 32px;
+}
+
+.toggle-3854__mask-ring-3 {
+    width: 42px;
+    height: 47px;
+}
+
+.toggle-3854__mask-line {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 52px;
+    height: 2px;
+    background: #070707;
+    transform-origin: center;
+}
+
+.toggle-3854__mask-line-1 {
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+
+.toggle-3854__mask-line-2 {
+    transform: translate(-50%,-50%) rotate(30deg);
+}
+
+.toggle-3854__mask-line-3 {
+    transform: translate(-50%,-50%) rotate(60deg);
+}
+
+.toggle-3854__mask-line-4 {
+    transform: translate(-50%,-50%) rotate(90deg);
+}
+
+.toggle-3854__mask-line-5 {
+    transform: translate(-50%,-50%) rotate(120deg);
+}
+
+.toggle-3854__mask-line-6 {
+    transform: translate(-50%,-50%) rotate(150deg);
+}
+
+.toggle-3854__eye {
+    position: absolute;
+    top: 11px;
+    z-index: 5;
+    width: 14px;
+    height: 23px;
+    border: 4px solid #070707;
+    background: #ffffff;
+    transition:
+        width .3s ease,
+        height .3s ease,
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3854__eye-left {
+    left: 3px;
+    clip-path: polygon(
+        0 0,
+        100% 17%,
+        70% 100%,
+        9% 73%
+    );
+    transform: rotate(-5deg);
+}
+
+.toggle-3854__eye-right {
+    right: 3px;
+    clip-path: polygon(
+        100% 0,
+        0 17%,
+        30% 100%,
+        91% 73%
+    );
+    transform: rotate(5deg);
+}
+
+.toggle-3854__eye-inner {
+    position: absolute;
+    inset: 2px;
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #dbeafe
+        );
+}
+
+.toggle-3854__bottom-red {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 12;
+    width: 46%;
+    height: 7px;
+    background: #dc2626;
+    border-top: 3px solid #070707;
+    clip-path: polygon(0 0,100% 0,91% 100%,0 100%);
+}
+
+.toggle-3854__bottom-blue {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 12;
+    width: 58%;
+    height: 7px;
+    background: #2563eb;
+    border-top: 3px solid #070707;
+    clip-path: polygon(9% 0,100% 0,100% 100%,0 100%);
+}
+
+.toggle-3854:hover .toggle-3854__track {
+    transform: translate(-3px,-3px);
+    box-shadow:
+        12px 12px 0 #070707,
+        inset 0 0 0 2px rgba(255,255,255,.15);
+}
+
+.toggle-3854:hover .toggle-3854__thumb {
+    transform:
+        rotate(-8deg)
+        scale(1.06);
+    box-shadow:
+        7px 7px 0 #070707,
+        0 0 13px rgba(239,68,68,.45);
+}
+
+.toggle-3854:hover .toggle-3854__thumb-ring {
+    transform: rotate(35deg);
+}
+
+.toggle-3854:hover .toggle-3854__mask {
+    transform: scale(1.04);
+}
+
+.toggle-3854:hover .toggle-3854__web-zone {
+    transform:
+        rotate(15deg)
+        scale(1.07);
+}
+
+.toggle-3854:hover .toggle-3854__spider-emblem {
+    transform:
+        rotate(-7deg)
+        scale(1.12);
+    opacity: .9;
+}
+
+.toggle-3854:hover .toggle-3854__comic-burst {
+    transform:
+        rotate(-8deg)
+        scale(1.06);
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track {
+    background: #0f172a;
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__background {
+    filter:
+        grayscale(.35)
+        brightness(.65);
+    transform: scale(1.02);
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__halftone {
+    opacity: .38;
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__moon {
+    left: 15px;
+    right: auto;
+    background:
+        linear-gradient(
+            145deg,
+            #94a3b8,
+            #475569
+        );
+    box-shadow: 3px 3px 0 #070707;
+    transform: scale(.84);
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__cloud-1 {
+    transform:
+        translateX(64px)
+        scale(.8);
+    opacity: .35;
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__cloud-2 {
+    transform:
+        translateX(51px)
+        scale(.6);
+    opacity: .25;
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__building-1 {
+    transform: translateX(94px);
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__building-2 {
+    transform: translateX(105px);
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__building-3 {
+    transform: translateX(113px);
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__water-tower {
+    transform:
+        translateX(105px)
+        scale(.82);
+    opacity: .65;
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__web-zone {
+    left: -28px;
+    right: auto;
+    transform:
+        rotate(-18deg)
+        scale(.8);
+    opacity: .45;
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__web-shot {
+    left: 38px;
+    top: 48px;
+    transform:
+        rotate(17deg)
+        scale(.6);
+    opacity: .35;
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__spider-sense {
+    opacity: 0;
+    transform: scale(.55);
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__comic-burst {
+    left: 149px;
+    background: #dbeafe;
+    transform:
+        rotate(4deg)
+        scale(.85);
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__burst-text-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__burst-text-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__panel-tag {
+    left: 147px;
+    background: #94a3b8;
+    transform: rotate(-2deg);
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__panel-tag-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__panel-tag-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__spider-emblem {
+    left: 126px;
+    opacity: .18;
+    transform:
+        rotate(25deg)
+        scale(.72);
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__thumb {
+    left: 7px;
+    background:
+        linear-gradient(
+            145deg,
+            #1e3a8a,
+            #172554
+        );
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__thumb-ring {
+    opacity: .25;
+    transform: rotate(-35deg);
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__mask {
+    background: #991b1b;
+    transform: scale(.93);
+    box-shadow: none;
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__mask-base {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(255,255,255,.05),
+            transparent 45%
+        ),
+        #991b1b;
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__eye {
+    width: 10px;
+    height: 17px;
+    background: #cbd5e1;
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__speed-1 {
+    transform:
+        translateX(80px)
+        rotate(-8deg);
+    opacity: .15;
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__speed-2 {
+    transform: translateX(72px);
+    opacity: .12;
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__speed-3 {
+    transform:
+        translateX(84px)
+        rotate(6deg);
+    opacity: .16;
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__speed-4 {
+    transform:
+        translateX(78px)
+        rotate(10deg);
+    opacity: .12;
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__speed-5 {
+    transform: translateX(69px);
+    opacity: .1;
+}
+
+.toggle-3854 input:not(:checked) + .toggle-3854__track .toggle-3854__speed-6 {
+    transform:
+        translateX(83px)
+        rotate(-8deg);
+    opacity: .13;
+}
+
+.toggle-3854 input:checked + .toggle-3854__track {
+    background: #2563eb;
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__background {
+    filter:
+        saturate(1.15)
+        brightness(1.08);
+    transform: scale(1.04);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__halftone {
+    opacity: .22;
+    transform: translateX(-3px);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__moon {
+    right: 15px;
+    left: auto;
+    transform: scale(1.08);
+    background:
+        radial-gradient(
+            circle at 35% 30%,
+            #ffffff 0 8%,
+            transparent 9%
+        ),
+        linear-gradient(
+            145deg,
+            #ffffff,
+            #dbeafe
+        );
+    box-shadow:
+        3px 3px 0 #070707,
+        0 0 16px rgba(255,255,255,.5);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__building-1 {
+    transform: translateX(0);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__building-2 {
+    transform: translateX(0);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__building-3 {
+    transform: translateX(0);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__water-tower {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__web-zone {
+    right: -27px;
+    left: auto;
+    transform:
+        rotate(19deg)
+        scale(1.08);
+    opacity: 1;
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__web-shot {
+    left: 102px;
+    top: 36px;
+    transform:
+        rotate(-7deg)
+        scale(1);
+    opacity: 1;
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__spider-sense {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__sense-ring-1 {
+    transform:
+        translate(-50%,-50%)
+        rotate(135deg)
+        scale(.9);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__sense-ring-2 {
+    transform:
+        translate(-50%,-50%)
+        rotate(135deg)
+        scale(.95);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__sense-ring-3 {
+    transform:
+        translate(-50%,-50%)
+        rotate(135deg)
+        scale(1);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__comic-burst {
+    left: 11px;
+    right: auto;
+    background: #fef08a;
+    transform:
+        rotate(-6deg)
+        scale(1);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__burst-text-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__burst-text-on {
+    opacity: 1;
+    transform:
+        rotate(-4deg)
+        scale(1);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__panel-tag {
+    left: 11px;
+    right: auto;
+    background: #facc15;
+    transform: rotate(2deg);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__panel-tag-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__panel-tag-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__spider-emblem {
+    left: 82px;
+    opacity: .75;
+    transform:
+        rotate(-5deg)
+        scale(1);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__thumb {
+    left: 145px;
+    background:
+        linear-gradient(
+            145deg,
+            #ef4444,
+            #b91c1c
+        );
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__thumb-ring {
+    opacity: .7;
+    transform: rotate(35deg);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__mask {
+    background: #dc2626;
+    transform: scale(1.06);
+    box-shadow:
+        0 0 10px rgba(239,68,68,.5);
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__eye {
+    width: 14px;
+    height: 23px;
+    background: #ffffff;
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__speed-1 {
+    transform:
+        translateX(-122px)
+        rotate(8deg);
+    opacity: .85;
+    background: #fef08a;
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__speed-2 {
+    transform: translateX(-117px);
+    opacity: .72;
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__speed-3 {
+    transform:
+        translateX(-129px)
+        rotate(-6deg);
+    opacity: .82;
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__speed-4 {
+    transform:
+        translateX(-121px)
+        rotate(-10deg);
+    opacity: .7;
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__speed-5 {
+    transform: translateX(-112px);
+    opacity: .64;
+}
+
+.toggle-3854 input:checked + .toggle-3854__track .toggle-3854__speed-6 {
+    transform:
+        translateX(-125px)
+        rotate(8deg);
+    opacity: .75;
+}
+
+.toggle-3854 input:focus-visible + .toggle-3854__track {
+    outline: 4px solid #ef4444;
+    outline-offset: 7px;
+}`,
+  },
+  {
+    id: 3855,
+    name: "Spider-Man Web Swing Comic Toggle",
+    preview: (
+      <label
+        className="toggle-3855"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Spider-Man Web Swing Comic Toggle" />
+
+        <span className="toggle-3855__track">
+          <span className="toggle-3855__red-panel"></span>
+          <span className="toggle-3855__blue-panel"></span>
+          <span className="toggle-3855__halftone"></span>
+
+          <span className="toggle-3855__sky-glow"></span>
+
+          <span className="toggle-3855__city">
+            <span className="toggle-3855__building toggle-3855__building-1">
+              <span className="toggle-3855__window toggle-3855__window-1"></span>
+              <span className="toggle-3855__window toggle-3855__window-2"></span>
+              <span className="toggle-3855__window toggle-3855__window-3"></span>
+            </span>
+
+            <span className="toggle-3855__building toggle-3855__building-2">
+              <span className="toggle-3855__window toggle-3855__window-4"></span>
+              <span className="toggle-3855__window toggle-3855__window-5"></span>
+              <span className="toggle-3855__window toggle-3855__window-6"></span>
+              <span className="toggle-3855__window toggle-3855__window-7"></span>
+            </span>
+
+            <span className="toggle-3855__building toggle-3855__building-3">
+              <span className="toggle-3855__antenna"></span>
+              <span className="toggle-3855__window toggle-3855__window-8"></span>
+              <span className="toggle-3855__window toggle-3855__window-9"></span>
+              <span className="toggle-3855__window toggle-3855__window-10"></span>
+            </span>
+
+            <span className="toggle-3855__building toggle-3855__building-4">
+              <span className="toggle-3855__window toggle-3855__window-11"></span>
+              <span className="toggle-3855__window toggle-3855__window-12"></span>
+            </span>
+          </span>
+
+          <span className="toggle-3855__web-anchor"></span>
+
+          <span className="toggle-3855__web-arc">
+            <span className="toggle-3855__web-thread toggle-3855__web-thread-1"></span>
+            <span className="toggle-3855__web-thread toggle-3855__web-thread-2"></span>
+            <span className="toggle-3855__web-thread toggle-3855__web-thread-3"></span>
+          </span>
+
+          <span className="toggle-3855__web-net">
+            <span className="toggle-3855__web-circle toggle-3855__web-circle-1"></span>
+            <span className="toggle-3855__web-circle toggle-3855__web-circle-2"></span>
+            <span className="toggle-3855__web-circle toggle-3855__web-circle-3"></span>
+
+            <span className="toggle-3855__web-ray toggle-3855__web-ray-1"></span>
+            <span className="toggle-3855__web-ray toggle-3855__web-ray-2"></span>
+            <span className="toggle-3855__web-ray toggle-3855__web-ray-3"></span>
+            <span className="toggle-3855__web-ray toggle-3855__web-ray-4"></span>
+          </span>
+
+          <span className="toggle-3855__motion">
+            <span className="toggle-3855__motion-line toggle-3855__motion-line-1"></span>
+            <span className="toggle-3855__motion-line toggle-3855__motion-line-2"></span>
+            <span className="toggle-3855__motion-line toggle-3855__motion-line-3"></span>
+            <span className="toggle-3855__motion-line toggle-3855__motion-line-4"></span>
+            <span className="toggle-3855__motion-line toggle-3855__motion-line-5"></span>
+          </span>
+
+          <span className="toggle-3855__sense">
+            <span className="toggle-3855__sense-arc toggle-3855__sense-arc-1"></span>
+            <span className="toggle-3855__sense-arc toggle-3855__sense-arc-2"></span>
+            <span className="toggle-3855__sense-arc toggle-3855__sense-arc-3"></span>
+          </span>
+
+          <span className="toggle-3855__spider">
+            <span className="toggle-3855__spider-head"></span>
+            <span className="toggle-3855__spider-body"></span>
+            <span className="toggle-3855__spider-leg toggle-3855__spider-leg-1"></span>
+            <span className="toggle-3855__spider-leg toggle-3855__spider-leg-2"></span>
+            <span className="toggle-3855__spider-leg toggle-3855__spider-leg-3"></span>
+            <span className="toggle-3855__spider-leg toggle-3855__spider-leg-4"></span>
+          </span>
+
+          <span className="toggle-3855__bubble">
+            <span className="toggle-3855__bubble-off">READY</span>
+            <span className="toggle-3855__bubble-on">SWING!</span>
+          </span>
+
+          <span className="toggle-3855__web-impact">
+            <span className="toggle-3855__impact-center"></span>
+          </span>
+
+          <span className="toggle-3855__thumb">
+            <span className="toggle-3855__thumb-web"></span>
+
+            <span className="toggle-3855__mask">
+              <span className="toggle-3855__mask-highlight"></span>
+
+              <span className="toggle-3855__mask-web">
+                <span className="toggle-3855__mask-ring toggle-3855__mask-ring-1"></span>
+                <span className="toggle-3855__mask-ring toggle-3855__mask-ring-2"></span>
+                <span className="toggle-3855__mask-ring toggle-3855__mask-ring-3"></span>
+
+                <span className="toggle-3855__mask-line toggle-3855__mask-line-1"></span>
+                <span className="toggle-3855__mask-line toggle-3855__mask-line-2"></span>
+                <span className="toggle-3855__mask-line toggle-3855__mask-line-3"></span>
+                <span className="toggle-3855__mask-line toggle-3855__mask-line-4"></span>
+                <span className="toggle-3855__mask-line toggle-3855__mask-line-5"></span>
+                <span className="toggle-3855__mask-line toggle-3855__mask-line-6"></span>
+              </span>
+
+              <span className="toggle-3855__eye toggle-3855__eye-left">
+                <span className="toggle-3855__eye-glass"></span>
+              </span>
+
+              <span className="toggle-3855__eye toggle-3855__eye-right">
+                <span className="toggle-3855__eye-glass"></span>
+              </span>
+            </span>
+          </span>
+
+          <span className="toggle-3855__comic-border"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3855">
+    <input type="checkbox" aria-label="Spider-Man Web Swing Comic Toggle">
+
+    <span class="toggle-3855__track">
+        <span class="toggle-3855__red-panel"></span>
+        <span class="toggle-3855__blue-panel"></span>
+        <span class="toggle-3855__halftone"></span>
+
+        <span class="toggle-3855__sky-glow"></span>
+
+        <span class="toggle-3855__city">
+            <span class="toggle-3855__building toggle-3855__building-1">
+                <span class="toggle-3855__window toggle-3855__window-1"></span>
+                <span class="toggle-3855__window toggle-3855__window-2"></span>
+                <span class="toggle-3855__window toggle-3855__window-3"></span>
+            </span>
+
+            <span class="toggle-3855__building toggle-3855__building-2">
+                <span class="toggle-3855__window toggle-3855__window-4"></span>
+                <span class="toggle-3855__window toggle-3855__window-5"></span>
+                <span class="toggle-3855__window toggle-3855__window-6"></span>
+                <span class="toggle-3855__window toggle-3855__window-7"></span>
+            </span>
+
+            <span class="toggle-3855__building toggle-3855__building-3">
+                <span class="toggle-3855__antenna"></span>
+                <span class="toggle-3855__window toggle-3855__window-8"></span>
+                <span class="toggle-3855__window toggle-3855__window-9"></span>
+                <span class="toggle-3855__window toggle-3855__window-10"></span>
+            </span>
+
+            <span class="toggle-3855__building toggle-3855__building-4">
+                <span class="toggle-3855__window toggle-3855__window-11"></span>
+                <span class="toggle-3855__window toggle-3855__window-12"></span>
+            </span>
+        </span>
+
+        <span class="toggle-3855__web-anchor"></span>
+
+        <span class="toggle-3855__web-arc">
+            <span class="toggle-3855__web-thread toggle-3855__web-thread-1"></span>
+            <span class="toggle-3855__web-thread toggle-3855__web-thread-2"></span>
+            <span class="toggle-3855__web-thread toggle-3855__web-thread-3"></span>
+        </span>
+
+        <span class="toggle-3855__web-net">
+            <span class="toggle-3855__web-circle toggle-3855__web-circle-1"></span>
+            <span class="toggle-3855__web-circle toggle-3855__web-circle-2"></span>
+            <span class="toggle-3855__web-circle toggle-3855__web-circle-3"></span>
+
+            <span class="toggle-3855__web-ray toggle-3855__web-ray-1"></span>
+            <span class="toggle-3855__web-ray toggle-3855__web-ray-2"></span>
+            <span class="toggle-3855__web-ray toggle-3855__web-ray-3"></span>
+            <span class="toggle-3855__web-ray toggle-3855__web-ray-4"></span>
+        </span>
+
+        <span class="toggle-3855__motion">
+            <span class="toggle-3855__motion-line toggle-3855__motion-line-1"></span>
+            <span class="toggle-3855__motion-line toggle-3855__motion-line-2"></span>
+            <span class="toggle-3855__motion-line toggle-3855__motion-line-3"></span>
+            <span class="toggle-3855__motion-line toggle-3855__motion-line-4"></span>
+            <span class="toggle-3855__motion-line toggle-3855__motion-line-5"></span>
+        </span>
+
+        <span class="toggle-3855__sense">
+            <span class="toggle-3855__sense-arc toggle-3855__sense-arc-1"></span>
+            <span class="toggle-3855__sense-arc toggle-3855__sense-arc-2"></span>
+            <span class="toggle-3855__sense-arc toggle-3855__sense-arc-3"></span>
+        </span>
+
+        <span class="toggle-3855__spider">
+            <span class="toggle-3855__spider-head"></span>
+            <span class="toggle-3855__spider-body"></span>
+            <span class="toggle-3855__spider-leg toggle-3855__spider-leg-1"></span>
+            <span class="toggle-3855__spider-leg toggle-3855__spider-leg-2"></span>
+            <span class="toggle-3855__spider-leg toggle-3855__spider-leg-3"></span>
+            <span class="toggle-3855__spider-leg toggle-3855__spider-leg-4"></span>
+        </span>
+
+        <span class="toggle-3855__bubble">
+            <span class="toggle-3855__bubble-off">READY</span>
+            <span class="toggle-3855__bubble-on">SWING!</span>
+        </span>
+
+        <span class="toggle-3855__web-impact">
+            <span class="toggle-3855__impact-center"></span>
+        </span>
+
+        <span class="toggle-3855__thumb">
+            <span class="toggle-3855__thumb-web"></span>
+
+            <span class="toggle-3855__mask">
+                <span class="toggle-3855__mask-highlight"></span>
+
+                <span class="toggle-3855__mask-web">
+                    <span class="toggle-3855__mask-ring toggle-3855__mask-ring-1"></span>
+                    <span class="toggle-3855__mask-ring toggle-3855__mask-ring-2"></span>
+                    <span class="toggle-3855__mask-ring toggle-3855__mask-ring-3"></span>
+
+                    <span class="toggle-3855__mask-line toggle-3855__mask-line-1"></span>
+                    <span class="toggle-3855__mask-line toggle-3855__mask-line-2"></span>
+                    <span class="toggle-3855__mask-line toggle-3855__mask-line-3"></span>
+                    <span class="toggle-3855__mask-line toggle-3855__mask-line-4"></span>
+                    <span class="toggle-3855__mask-line toggle-3855__mask-line-5"></span>
+                    <span class="toggle-3855__mask-line toggle-3855__mask-line-6"></span>
+                </span>
+
+                <span class="toggle-3855__eye toggle-3855__eye-left">
+                    <span class="toggle-3855__eye-glass"></span>
+                </span>
+
+                <span class="toggle-3855__eye toggle-3855__eye-right">
+                    <span class="toggle-3855__eye-glass"></span>
+                </span>
+            </span>
+        </span>
+
+        <span class="toggle-3855__comic-border"></span>
+    </span>
+</label>`,
+    css: `.toggle-3855 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3855 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3855__track {
+    position: relative;
+    width: 224px;
+    height: 94px;
+    overflow: hidden;
+    border: 5px solid #080808;
+    border-radius: 20px;
+    background: #1d4ed8;
+    box-shadow:
+        9px 9px 0 #080808,
+        inset 0 0 0 2px rgba(255,255,255,.12);
+    isolation: isolate;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .35s ease;
+}
+
+.toggle-3855__red-panel {
+    position: absolute;
+    inset: 0 auto 0 0;
+    z-index: 0;
+    width: 58%;
+    background:
+        linear-gradient(
+            145deg,
+            #7f1d1d 0%,
+            #dc2626 45%,
+            #ef4444 100%
+        );
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        72% 100%,
+        0 100%
+    );
+    transition:
+        width .4s ease,
+        transform .4s ease,
+        filter .3s ease;
+}
+
+.toggle-3855__blue-panel {
+    position: absolute;
+    inset: 0 0 0 auto;
+    z-index: 0;
+    width: 60%;
+    background:
+        linear-gradient(
+            145deg,
+            #1e3a8a 0%,
+            #1d4ed8 45%,
+            #2563eb 100%
+        );
+    clip-path: polygon(
+        29% 0,
+        100% 0,
+        100% 100%,
+        0 100%
+    );
+    transition:
+        width .4s ease,
+        transform .4s ease,
+        filter .3s ease;
+}
+
+.toggle-3855__halftone {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-image:
+        radial-gradient(
+            rgba(8,8,8,.55) 1.4px,
+            transparent 1.7px
+        );
+    background-size: 8px 8px;
+    opacity: .24;
+    transition:
+        opacity .3s ease,
+        transform .4s ease;
+}
+
+.toggle-3855__sky-glow {
+    position: absolute;
+    right: 11px;
+    top: 5px;
+    z-index: 1;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(255,255,255,.42) 0%,
+            rgba(147,197,253,.25) 35%,
+            transparent 69%
+        );
+    transition:
+        left .4s ease,
+        right .4s ease,
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3855__city {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.toggle-3855__building {
+    position: absolute;
+    bottom: 7px;
+    border: 3px solid #080808;
+    background:
+        linear-gradient(
+            90deg,
+            #111827,
+            #1f2937
+        );
+    box-shadow:
+        inset -5px 0 0 rgba(0,0,0,.35);
+    transition:
+        transform .42s ease,
+        opacity .3s ease;
+}
+
+.toggle-3855__building-1 {
+    left: -4px;
+    width: 42px;
+    height: 40px;
+}
+
+.toggle-3855__building-2 {
+    left: 31px;
+    width: 48px;
+    height: 54px;
+}
+
+.toggle-3855__building-3 {
+    left: 72px;
+    width: 43px;
+    height: 67px;
+}
+
+.toggle-3855__building-4 {
+    left: 108px;
+    width: 37px;
+    height: 35px;
+}
+
+.toggle-3855__window {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border: 2px solid #080808;
+    background: #fde047;
+    box-shadow:
+        0 0 4px rgba(250,204,21,.45);
+}
+
+.toggle-3855__window-1 {
+    left: 6px;
+    top: 8px;
+}
+
+.toggle-3855__window-2 {
+    right: 6px;
+    top: 8px;
+}
+
+.toggle-3855__window-3 {
+    left: 16px;
+    top: 23px;
+}
+
+.toggle-3855__window-4 {
+    left: 7px;
+    top: 8px;
+}
+
+.toggle-3855__window-5 {
+    right: 7px;
+    top: 8px;
+}
+
+.toggle-3855__window-6 {
+    left: 7px;
+    top: 25px;
+}
+
+.toggle-3855__window-7 {
+    right: 7px;
+    top: 25px;
+}
+
+.toggle-3855__window-8 {
+    left: 7px;
+    top: 10px;
+}
+
+.toggle-3855__window-9 {
+    right: 7px;
+    top: 10px;
+}
+
+.toggle-3855__window-10 {
+    left: 17px;
+    top: 31px;
+}
+
+.toggle-3855__window-11 {
+    left: 6px;
+    top: 7px;
+}
+
+.toggle-3855__window-12 {
+    right: 6px;
+    top: 7px;
+}
+
+.toggle-3855__antenna {
+    position: absolute;
+    left: 18px;
+    top: -22px;
+    width: 4px;
+    height: 21px;
+    border: 1px solid #080808;
+    background: #94a3b8;
+}
+
+.toggle-3855__antenna::before {
+    content: "";
+    position: absolute;
+    left: -4px;
+    top: -6px;
+    width: 10px;
+    height: 7px;
+    border: 2px solid #080808;
+    border-radius: 50%;
+    background: #ef4444;
+}
+
+.toggle-3855__web-anchor {
+    position: absolute;
+    right: 14px;
+    top: 8px;
+    z-index: 3;
+    width: 16px;
+    height: 16px;
+    border: 3px solid #080808;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow:
+        0 0 0 3px rgba(255,255,255,.2);
+    transition:
+        left .4s ease,
+        right .4s ease,
+        transform .4s ease;
+}
+
+.toggle-3855__web-arc {
+    position: absolute;
+    right: 16px;
+    top: -18px;
+    z-index: 4;
+    width: 136px;
+    height: 91px;
+    border: 4px solid #ffffff;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    transform: rotate(10deg);
+    filter: drop-shadow(2px 2px 0 #080808);
+    transition:
+        left .42s ease,
+        right .42s ease,
+        transform .5s ease,
+        opacity .3s ease;
+}
+
+.toggle-3855__web-thread {
+    position: absolute;
+    height: 2px;
+    background: #ffffff;
+    box-shadow:
+        1px 1px 0 #080808;
+    transform-origin: left center;
+}
+
+.toggle-3855__web-thread-1 {
+    left: 50px;
+    top: 15px;
+    width: 31px;
+    transform: rotate(43deg);
+}
+
+.toggle-3855__web-thread-2 {
+    left: 72px;
+    top: 27px;
+    width: 33px;
+    transform: rotate(26deg);
+}
+
+.toggle-3855__web-thread-3 {
+    left: 88px;
+    top: 43px;
+    width: 27px;
+    transform: rotate(10deg);
+}
+
+.toggle-3855__web-net {
+    position: absolute;
+    right: -17px;
+    top: -19px;
+    z-index: 3;
+    width: 88px;
+    height: 88px;
+    transition:
+        transform .5s ease,
+        left .4s ease,
+        right .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3855__web-circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 2px solid rgba(255,255,255,.9);
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3855__web-circle-1 {
+    width: 24px;
+    height: 24px;
+}
+
+.toggle-3855__web-circle-2 {
+    width: 49px;
+    height: 49px;
+}
+
+.toggle-3855__web-circle-3 {
+    width: 78px;
+    height: 78px;
+}
+
+.toggle-3855__web-ray {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 82px;
+    height: 2px;
+    background: rgba(255,255,255,.9);
+    transform-origin: center;
+}
+
+.toggle-3855__web-ray-1 {
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+
+.toggle-3855__web-ray-2 {
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+
+.toggle-3855__web-ray-3 {
+    transform: translate(-50%,-50%) rotate(90deg);
+}
+
+.toggle-3855__web-ray-4 {
+    transform: translate(-50%,-50%) rotate(135deg);
+}
+
+.toggle-3855__motion {
+    position: absolute;
+    inset: 0;
+    z-index: 4;
+    pointer-events: none;
+}
+
+.toggle-3855__motion-line {
+    position: absolute;
+    height: 4px;
+    border: 1px solid #080808;
+    border-radius: 999px;
+    background: #ffffff;
+    transform-origin: right center;
+    transition:
+        transform .4s ease,
+        opacity .3s ease,
+        background .3s ease;
+}
+
+.toggle-3855__motion-line-1 {
+    right: 6px;
+    top: 18px;
+    width: 57px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3855__motion-line-2 {
+    right: 12px;
+    top: 34px;
+    width: 44px;
+}
+
+.toggle-3855__motion-line-3 {
+    right: 1px;
+    top: 49px;
+    width: 66px;
+    transform: rotate(6deg);
+}
+
+.toggle-3855__motion-line-4 {
+    right: 11px;
+    bottom: 22px;
+    width: 49px;
+    transform: rotate(9deg);
+}
+
+.toggle-3855__motion-line-5 {
+    right: 4px;
+    bottom: 8px;
+    width: 58px;
+    transform: rotate(-7deg);
+}
+
+.toggle-3855__sense {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    z-index: 5;
+    width: 63px;
+    height: 63px;
+    opacity: 0;
+    transition:
+        opacity .3s ease,
+        transform .4s ease;
+}
+
+.toggle-3855__sense-arc {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 3px solid #facc15;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    transform:
+        translate(-50%,-50%)
+        rotate(-45deg);
+}
+
+.toggle-3855__sense-arc-1 {
+    width: 27px;
+    height: 27px;
+}
+
+.toggle-3855__sense-arc-2 {
+    width: 44px;
+    height: 44px;
+}
+
+.toggle-3855__sense-arc-3 {
+    width: 60px;
+    height: 60px;
+}
+
+.toggle-3855__spider {
+    position: absolute;
+    left: 91px;
+    top: 27px;
+    z-index: 7;
+    width: 35px;
+    height: 43px;
+    opacity: .65;
+    transition:
+        left .4s ease,
+        right .4s ease,
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3855__spider-head {
+    position: absolute;
+    left: 13px;
+    top: 2px;
+    width: 9px;
+    height: 10px;
+    border: 3px solid #080808;
+    border-radius: 50%;
+    background: #dc2626;
+}
+
+.toggle-3855__spider-body {
+    position: absolute;
+    left: 11px;
+    top: 12px;
+    width: 13px;
+    height: 26px;
+    border: 3px solid #080808;
+    border-radius: 48%;
+    background: #dc2626;
+}
+
+.toggle-3855__spider-leg {
+    position: absolute;
+    left: 16px;
+    width: 26px;
+    height: 4px;
+    border-radius: 999px;
+    background: #080808;
+    transform-origin: left center;
+}
+
+.toggle-3855__spider-leg::after {
+    content: "";
+    position: absolute;
+    right: 29px;
+    top: 0;
+    width: 26px;
+    height: 4px;
+    border-radius: 999px;
+    background: #080808;
+}
+
+.toggle-3855__spider-leg-1 {
+    top: 12px;
+    transform: rotate(-32deg);
+}
+
+.toggle-3855__spider-leg-2 {
+    top: 19px;
+    transform: rotate(-11deg);
+}
+
+.toggle-3855__spider-leg-3 {
+    top: 26px;
+    transform: rotate(11deg);
+}
+
+.toggle-3855__spider-leg-4 {
+    top: 33px;
+    transform: rotate(32deg);
+}
+
+.toggle-3855__bubble {
+    position: absolute;
+    left: 10px;
+    top: 11px;
+    z-index: 10;
+    width: 67px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #080808;
+    background: #ffffff;
+    box-shadow: 4px 4px 0 #080808;
+    clip-path: polygon(
+        4% 14%,
+        21% 18%,
+        27% 0,
+        40% 17%,
+        52% 4%,
+        61% 18%,
+        82% 7%,
+        77% 28%,
+        100% 37%,
+        82% 49%,
+        96% 70%,
+        73% 69%,
+        70% 100%,
+        53% 78%,
+        38% 96%,
+        32% 75%,
+        10% 89%,
+        17% 65%,
+        0 53%,
+        18% 39%
+    );
+    transform: rotate(-4deg);
+    transition:
+        left .4s ease,
+        right .4s ease,
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3855__bubble-off,
+.toggle-3855__bubble-on {
+    position: absolute;
+    color: #080808;
+    font: 900 9px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .3s ease;
+}
+
+.toggle-3855__bubble-off {
+    opacity: 1;
+}
+
+.toggle-3855__bubble-on {
+    opacity: 0;
+    transform: scale(.45) rotate(-10deg);
+}
+
+.toggle-3855__web-impact {
+    position: absolute;
+    left: 78px;
+    top: 11px;
+    z-index: 8;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #080808;
+    background: #ffffff;
+    clip-path: polygon(
+        50% 0,
+        61% 28%,
+        86% 7%,
+        77% 37%,
+        100% 47%,
+        73% 58%,
+        92% 85%,
+        62% 73%,
+        50% 100%,
+        38% 73%,
+        8% 88%,
+        27% 59%,
+        0 50%,
+        27% 38%,
+        8% 13%,
+        39% 28%
+    );
+    opacity: .25;
+    transition:
+        transform .4s ease,
+        opacity .3s ease,
+        left .4s ease;
+}
+
+.toggle-3855__impact-center {
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    width: 9px;
+    height: 9px;
+    border: 2px solid #080808;
+    border-radius: 50%;
+    background: #dbeafe;
+}
+
+.toggle-3855__thumb {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    z-index: 15;
+    width: 66px;
+    height: 66px;
+    display: grid;
+    place-items: center;
+    border: 5px solid #080808;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            145deg,
+            #1e3a8a,
+            #1d4ed8
+        );
+    box-shadow:
+        6px 6px 0 #080808,
+        inset 0 0 0 3px rgba(255,255,255,.12);
+    transition:
+        left .42s cubic-bezier(.34,1.56,.64,1),
+        transform .32s ease,
+        background .3s ease,
+        box-shadow .3s ease;
+}
+
+.toggle-3855__thumb-web {
+    position: absolute;
+    inset: 4px;
+    border: 2px dashed rgba(255,255,255,.55);
+    border-radius: 50%;
+    transition:
+        transform .55s ease,
+        opacity .3s ease;
+}
+
+.toggle-3855__mask {
+    position: relative;
+    width: 44px;
+    height: 50px;
+    overflow: hidden;
+    border: 4px solid #080808;
+    border-radius: 50% 50% 43% 43%;
+    background: #b91c1c;
+    transition:
+        transform .35s ease,
+        background .3s ease,
+        box-shadow .3s ease;
+}
+
+.toggle-3855__mask-highlight {
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    z-index: 1;
+    width: 12px;
+    height: 38px;
+    border-radius: 50%;
+    background: linear-gradient(
+        90deg,
+        rgba(255,255,255,.16),
+        transparent
+    );
+    transform: rotate(13deg);
+}
+
+.toggle-3855__mask-web {
+    position: absolute;
+    inset: -5px;
+    z-index: 2;
+}
+
+.toggle-3855__mask-ring {
+    position: absolute;
+    left: 50%;
+    top: 39%;
+    border: 2px solid #080808;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3855__mask-ring-1 {
+    width: 15px;
+    height: 18px;
+}
+
+.toggle-3855__mask-ring-2 {
+    width: 29px;
+    height: 34px;
+}
+
+.toggle-3855__mask-ring-3 {
+    width: 44px;
+    height: 50px;
+}
+
+.toggle-3855__mask-line {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 54px;
+    height: 2px;
+    background: #080808;
+    transform-origin: center;
+}
+
+.toggle-3855__mask-line-1 {
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+
+.toggle-3855__mask-line-2 {
+    transform: translate(-50%,-50%) rotate(30deg);
+}
+
+.toggle-3855__mask-line-3 {
+    transform: translate(-50%,-50%) rotate(60deg);
+}
+
+.toggle-3855__mask-line-4 {
+    transform: translate(-50%,-50%) rotate(90deg);
+}
+
+.toggle-3855__mask-line-5 {
+    transform: translate(-50%,-50%) rotate(120deg);
+}
+
+.toggle-3855__mask-line-6 {
+    transform: translate(-50%,-50%) rotate(150deg);
+}
+
+.toggle-3855__eye {
+    position: absolute;
+    top: 11px;
+    z-index: 5;
+    width: 14px;
+    height: 24px;
+    overflow: hidden;
+    border: 4px solid #080808;
+    background: #ffffff;
+    transition:
+        width .3s ease,
+        height .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3855__eye-left {
+    left: 3px;
+    clip-path: polygon(
+        0 0,
+        100% 19%,
+        67% 100%,
+        8% 72%
+    );
+    transform: rotate(-5deg);
+}
+
+.toggle-3855__eye-right {
+    right: 3px;
+    clip-path: polygon(
+        100% 0,
+        0 19%,
+        33% 100%,
+        92% 72%
+    );
+    transform: rotate(5deg);
+}
+
+.toggle-3855__eye-glass {
+    position: absolute;
+    inset: 2px;
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #dbeafe 70%,
+            #bfdbfe
+        );
+}
+
+.toggle-3855__comic-border {
+    position: absolute;
+    inset: 4px;
+    z-index: 20;
+    border: 2px solid rgba(255,255,255,.18);
+    border-radius: 12px;
+    pointer-events: none;
+}
+
+.toggle-3855:hover .toggle-3855__track {
+    transform: translate(-3px,-3px);
+    box-shadow:
+        12px 12px 0 #080808,
+        inset 0 0 0 2px rgba(255,255,255,.15);
+}
+
+.toggle-3855:hover .toggle-3855__thumb {
+    transform:
+        rotate(-8deg)
+        scale(1.06);
+    box-shadow:
+        7px 7px 0 #080808,
+        0 0 13px rgba(239,68,68,.45);
+}
+
+.toggle-3855:hover .toggle-3855__thumb-web {
+    transform: rotate(35deg);
+}
+
+.toggle-3855:hover .toggle-3855__mask {
+    transform: scale(1.04);
+}
+
+.toggle-3855:hover .toggle-3855__web-net {
+    transform:
+        rotate(14deg)
+        scale(1.08);
+}
+
+.toggle-3855:hover .toggle-3855__spider {
+    transform:
+        rotate(-8deg)
+        scale(1.12);
+    opacity: .95;
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__red-panel {
+    width: 44%;
+    filter: brightness(.72);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__blue-panel {
+    width: 67%;
+    filter: brightness(.68);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__halftone {
+    opacity: .36;
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__thumb {
+    left: 8px;
+    background:
+        linear-gradient(
+            145deg,
+            #172554,
+            #1e3a8a
+        );
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__mask {
+    background: #991b1b;
+    transform: scale(.93);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__eye {
+    width: 10px;
+    height: 18px;
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__thumb-web {
+    transform: rotate(-30deg);
+    opacity: .3;
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__bubble {
+    left: 86px;
+    background: #dbeafe;
+    transform:
+        rotate(3deg)
+        scale(.88);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__bubble-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__bubble-on {
+    opacity: 0;
+    transform: scale(.45);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__web-arc {
+    left: -34px;
+    right: auto;
+    opacity: .38;
+    transform:
+        rotate(-11deg)
+        scale(.75);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__web-net {
+    left: -21px;
+    right: auto;
+    opacity: .35;
+    transform:
+        rotate(-15deg)
+        scale(.72);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__web-anchor {
+    left: 14px;
+    right: auto;
+    transform: scale(.7);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__sense {
+    opacity: 0;
+    transform: scale(.55);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__spider {
+    left: 151px;
+    opacity: .18;
+    transform:
+        rotate(20deg)
+        scale(.7);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__web-impact {
+    left: 151px;
+    opacity: .1;
+    transform: scale(.5);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__building-1 {
+    transform: translateX(98px);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__building-2 {
+    transform: translateX(112px);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__building-3 {
+    transform: translateX(121px);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__building-4 {
+    transform: translateX(130px);
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__motion-line-1 {
+    transform:
+        translateX(86px)
+        rotate(-8deg);
+    opacity: .16;
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__motion-line-2 {
+    transform: translateX(76px);
+    opacity: .12;
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__motion-line-3 {
+    transform:
+        translateX(94px)
+        rotate(6deg);
+    opacity: .15;
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__motion-line-4 {
+    transform:
+        translateX(79px)
+        rotate(9deg);
+    opacity: .11;
+}
+
+.toggle-3855 input:not(:checked) + .toggle-3855__track .toggle-3855__motion-line-5 {
+    transform:
+        translateX(91px)
+        rotate(-7deg);
+    opacity: .14;
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__red-panel {
+    width: 61%;
+    filter: brightness(1.05);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__blue-panel {
+    width: 57%;
+    filter: brightness(1.08);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__halftone {
+    opacity: .22;
+    transform: translateX(-3px);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__thumb {
+    left: 150px;
+    background:
+        linear-gradient(
+            145deg,
+            #ef4444,
+            #b91c1c
+        );
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__mask {
+    background: #dc2626;
+    transform: scale(1.06);
+    box-shadow:
+        0 0 10px rgba(239,68,68,.55);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__eye {
+    width: 14px;
+    height: 24px;
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__thumb-web {
+    transform: rotate(35deg);
+    opacity: .72;
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__bubble {
+    left: 10px;
+    right: auto;
+    background: #fef08a;
+    transform:
+        rotate(-6deg)
+        scale(1);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__bubble-off {
+    opacity: 0;
+    transform: scale(.45);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__bubble-on {
+    opacity: 1;
+    transform:
+        scale(1)
+        rotate(-3deg);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__web-anchor {
+    right: 14px;
+    left: auto;
+    transform: scale(1);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__web-arc {
+    right: 16px;
+    left: auto;
+    opacity: 1;
+    transform:
+        rotate(13deg)
+        scale(1.05);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__web-net {
+    right: -17px;
+    left: auto;
+    opacity: 1;
+    transform:
+        rotate(16deg)
+        scale(1.05);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__sense {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__sense-arc-1 {
+    transform:
+        translate(-50%,-50%)
+        rotate(135deg)
+        scale(.9);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__sense-arc-2 {
+    transform:
+        translate(-50%,-50%)
+        rotate(135deg)
+        scale(.95);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__sense-arc-3 {
+    transform:
+        translate(-50%,-50%)
+        rotate(135deg)
+        scale(1);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__spider {
+    left: 93px;
+    opacity: .78;
+    transform:
+        rotate(-5deg)
+        scale(1);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__web-impact {
+    left: 81px;
+    opacity: .85;
+    transform:
+        rotate(45deg)
+        scale(1.05);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__building-1,
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__building-2,
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__building-3,
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__building-4 {
+    transform: translateX(0);
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__motion-line-1 {
+    transform:
+        translateX(-136px)
+        rotate(8deg);
+    opacity: .88;
+    background: #fef08a;
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__motion-line-2 {
+    transform: translateX(-126px);
+    opacity: .75;
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__motion-line-3 {
+    transform:
+        translateX(-144px)
+        rotate(-6deg);
+    opacity: .84;
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__motion-line-4 {
+    transform:
+        translateX(-129px)
+        rotate(-9deg);
+    opacity: .71;
+}
+
+.toggle-3855 input:checked + .toggle-3855__track .toggle-3855__motion-line-5 {
+    transform:
+        translateX(-141px)
+        rotate(7deg);
+    opacity: .8;
+}
+
+.toggle-3855 input:focus-visible + .toggle-3855__track {
+    outline: 4px solid #ef4444;
+    outline-offset: 7px;
+}`,
+  },{
+  id: 3856,
+  name: "DC Joker Chaos Toggle",
+  preview: (
+    <label
+      className="toggle-3856"
+      onClick={(event) => event.stopPropagation()}
+    >
+      <input
+        type="checkbox"
+        defaultChecked
+        aria-label="DC Joker Chaos Toggle"
+      />
+
+      <span className="toggle-3856__track">
+        <span className="toggle-3856__bg"></span>
+        <span className="toggle-3856__glow"></span>
+        <span className="toggle-3856__smoke toggle-3856__smoke-1"></span>
+        <span className="toggle-3856__smoke toggle-3856__smoke-2"></span>
+        <span className="toggle-3856__smoke toggle-3856__smoke-3"></span>
+
+        <span className="toggle-3856__card toggle-3856__card-left">
+          <span className="toggle-3856__card-dot"></span>
+        </span>
+
+        <span className="toggle-3856__card toggle-3856__card-right">
+          <span className="toggle-3856__card-dot"></span>
+        </span>
+
+        <span className="toggle-3856__laugh toggle-3856__laugh-1">HA</span>
+        <span className="toggle-3856__laugh toggle-3856__laugh-2">HA</span>
+        <span className="toggle-3856__laugh toggle-3856__laugh-3">HA</span>
+
+        <span className="toggle-3856__label toggle-3856__label-off">
+          GLOOM
+        </span>
+
+        <span className="toggle-3856__label toggle-3856__label-on">
+          CHAOS
+        </span>
+
+        <span className="toggle-3856__thumb">
+          <span className="toggle-3856__hair"></span>
+          <span className="toggle-3856__face">
+            <span className="toggle-3856__eye toggle-3856__eye-left"></span>
+            <span className="toggle-3856__eye toggle-3856__eye-right"></span>
+            <span className="toggle-3856__nose"></span>
+            <span className="toggle-3856__mouth"></span>
+            <span className="toggle-3856__scar toggle-3856__scar-left"></span>
+            <span className="toggle-3856__scar toggle-3856__scar-right"></span>
+          </span>
+          <span className="toggle-3856__collar"></span>
+        </span>
+
+        <span className="toggle-3856__frame"></span>
+      </span>
+    </label>
+  ),
+  html: `<label class="toggle-3856">
+    <input type="checkbox" checked aria-label="DC Joker Chaos Toggle" />
+
+    <span class="toggle-3856__track">
+        <span class="toggle-3856__bg"></span>
+        <span class="toggle-3856__glow"></span>
+        <span class="toggle-3856__smoke toggle-3856__smoke-1"></span>
+        <span class="toggle-3856__smoke toggle-3856__smoke-2"></span>
+        <span class="toggle-3856__smoke toggle-3856__smoke-3"></span>
+
+        <span class="toggle-3856__card toggle-3856__card-left">
+            <span class="toggle-3856__card-dot"></span>
+        </span>
+
+        <span class="toggle-3856__card toggle-3856__card-right">
+            <span class="toggle-3856__card-dot"></span>
+        </span>
+
+        <span class="toggle-3856__laugh toggle-3856__laugh-1">HA</span>
+        <span class="toggle-3856__laugh toggle-3856__laugh-2">HA</span>
+        <span class="toggle-3856__laugh toggle-3856__laugh-3">HA</span>
+
+        <span class="toggle-3856__label toggle-3856__label-off">GLOOM</span>
+        <span class="toggle-3856__label toggle-3856__label-on">CHAOS</span>
+
+        <span class="toggle-3856__thumb">
+            <span class="toggle-3856__hair"></span>
+            <span class="toggle-3856__face">
+                <span class="toggle-3856__eye toggle-3856__eye-left"></span>
+                <span class="toggle-3856__eye toggle-3856__eye-right"></span>
+                <span class="toggle-3856__nose"></span>
+                <span class="toggle-3856__mouth"></span>
+                <span class="toggle-3856__scar toggle-3856__scar-left"></span>
+                <span class="toggle-3856__scar toggle-3856__scar-right"></span>
+            </span>
+            <span class="toggle-3856__collar"></span>
+        </span>
+
+        <span class="toggle-3856__frame"></span>
+    </span>
+</label>`,
+  css: `.toggle-3856 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3856 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3856__track {
+    position: relative;
+    width: 210px;
+    height: 92px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 20px;
+    background: #23122f;
+    box-shadow:
+        8px 8px 0 #111111,
+        inset 0 0 0 2px rgba(255,255,255,.05);
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+    isolation: isolate;
+}
+
+.toggle-3856__bg {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(166,255,0,.12), transparent 25%),
+        radial-gradient(circle at 80% 30%, rgba(255,0,102,.1), transparent 24%),
+        linear-gradient(135deg, #1b1023 0%, #291535 48%, #170c1f 100%);
+    transition: opacity .3s ease, filter .3s ease;
+}
+
+.toggle-3856__glow {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(132,255,0,.22) 0%, rgba(132,255,0,.08) 35%, transparent 70%);
+    transform: translate(-50%, -50%);
+    transition: transform .35s ease, opacity .35s ease;
+}
+
+.toggle-3856__smoke {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(173,255,47,.08);
+    filter: blur(2px);
+    transition: transform .35s ease, opacity .35s ease;
+}
+
+.toggle-3856__smoke-1 {
+    left: 48px;
+    top: 15px;
+    width: 34px;
+    height: 20px;
+}
+
+.toggle-3856__smoke-2 {
+    left: 72px;
+    bottom: 12px;
+    width: 42px;
+    height: 24px;
+}
+
+.toggle-3856__smoke-3 {
+    right: 30px;
+    top: 22px;
+    width: 36px;
+    height: 21px;
+}
+
+.toggle-3856__card {
+    position: absolute;
+    top: 13px;
+    width: 24px;
+    height: 34px;
+    border: 3px solid #111111;
+    border-radius: 6px;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 rgba(17,17,17,.28);
+    transition: transform .35s ease, opacity .35s ease;
+}
+
+.toggle-3856__card::before,
+.toggle-3856__card::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #ef4444;
+}
+
+.toggle-3856__card::before {
+    left: 4px;
+    top: 4px;
+}
+
+.toggle-3856__card::after {
+    right: 4px;
+    bottom: 4px;
+}
+
+.toggle-3856__card-dot {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #111111;
+    transform: translate(-50%, -50%);
+}
+
+.toggle-3856__card-left {
+    left: 62px;
+    transform: rotate(-10deg);
+}
+
+.toggle-3856__card-right {
+    right: 20px;
+    transform: rotate(12deg);
+}
+
+.toggle-3856__laugh {
+    position: absolute;
+    color: #91ff00;
+    font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: .5px;
+    text-shadow:
+        1px 1px 0 #111111,
+        0 0 8px rgba(145,255,0,.25);
+    transition: transform .35s ease, opacity .35s ease;
+}
+
+.toggle-3856__laugh-1 {
+    left: 18px;
+    top: 10px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3856__laugh-2 {
+    left: 20px;
+    bottom: 16px;
+    transform: rotate(6deg);
+}
+
+.toggle-3856__laugh-3 {
+    right: 18px;
+    bottom: 10px;
+    transform: rotate(-10deg);
+}
+
+.toggle-3856__label {
+    position: absolute;
+    top: 50%;
+    font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transform: translateY(-50%);
+    transition: opacity .25s ease, transform .35s ease;
+}
+
+.toggle-3856__label-off {
+    right: 24px;
+    color: #d1d5db;
+    opacity: 0;
+    transform: translateY(-50%) translateX(8px);
+}
+
+.toggle-3856__label-on {
+    left: 20px;
+    color: #a3ff12;
+    text-shadow: 1px 1px 0 #111111;
+}
+
+.toggle-3856__thumb {
+    position: absolute;
+    left: 128px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    transition:
+        left .35s cubic-bezier(.34,1.56,.64,1),
+        transform .28s ease;
+    z-index: 5;
+}
+
+.toggle-3856__hair {
+    position: absolute;
+    left: 8px;
+    top: 0;
+    width: 54px;
+    height: 22px;
+    border: 4px solid #111111;
+    border-bottom: 0;
+    border-radius: 20px 20px 12px 12px;
+    background: linear-gradient(180deg, #9aff00, #4ade80);
+    transform: skewX(-10deg);
+    z-index: 3;
+}
+
+.toggle-3856__face {
+    position: absolute;
+    left: 9px;
+    top: 10px;
+    width: 52px;
+    height: 46px;
+    border: 4px solid #111111;
+    border-radius: 18px 18px 20px 20px;
+    background: #fff7ed;
+    box-shadow: inset 0 -8px 0 rgba(0,0,0,.05);
+    z-index: 2;
+}
+
+.toggle-3856__eye {
+    position: absolute;
+    top: 13px;
+    width: 10px;
+    height: 8px;
+    border-top: 4px solid #111111;
+    border-radius: 50%;
+}
+
+.toggle-3856__eye-left {
+    left: 8px;
+    transform: rotate(-10deg);
+}
+
+.toggle-3856__eye-right {
+    right: 8px;
+    transform: rotate(8deg);
+}
+
+.toggle-3856__nose {
+    position: absolute;
+    left: 23px;
+    top: 18px;
+    width: 4px;
+    height: 7px;
+    border-radius: 999px;
+    background: #111111;
+}
+
+.toggle-3856__mouth {
+    position: absolute;
+    left: 9px;
+    bottom: 7px;
+    width: 30px;
+    height: 10px;
+    border-bottom: 4px solid #dc2626;
+    border-radius: 0 0 20px 20px;
+    transform: rotate(-2deg);
+}
+
+.toggle-3856__scar {
+    position: absolute;
+    bottom: 10px;
+    width: 10px;
+    height: 3px;
+    border-radius: 999px;
+    background: #dc2626;
+}
+
+.toggle-3856__scar-left {
+    left: 1px;
+    transform: rotate(-20deg);
+}
+
+.toggle-3856__scar-right {
+    right: 1px;
+    transform: rotate(18deg);
+}
+
+.toggle-3856__collar {
+    position: absolute;
+    left: 14px;
+    bottom: 0;
+    width: 42px;
+    height: 18px;
+    border: 4px solid #111111;
+    border-top: 0;
+    border-radius: 0 0 14px 14px;
+    background: linear-gradient(180deg, #7e22ce, #581c87);
+    z-index: 1;
+}
+
+.toggle-3856__frame {
+    position: absolute;
+    inset: 5px;
+    border: 2px solid rgba(255,255,255,.12);
+    border-radius: 13px;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.toggle-3856:hover .toggle-3856__track {
+    transform: translate(-2px, -2px);
+    box-shadow:
+        10px 10px 0 #111111,
+        inset 0 0 0 2px rgba(255,255,255,.06);
+}
+
+.toggle-3856:hover .toggle-3856__thumb {
+    transform: rotate(-4deg) scale(1.03);
+}
+
+.toggle-3856 input:checked + .toggle-3856__track .toggle-3856__thumb {
+    left: 128px;
+}
+
+.toggle-3856 input:checked + .toggle-3856__track .toggle-3856__label-on {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0);
+}
+
+.toggle-3856 input:checked + .toggle-3856__track .toggle-3856__label-off {
+    opacity: 0;
+    transform: translateY(-50%) translateX(8px);
+}
+
+.toggle-3856 input:checked + .toggle-3856__track .toggle-3856__laugh-1 {
+    opacity: 1;
+    transform: rotate(-8deg) scale(1);
+}
+
+.toggle-3856 input:checked + .toggle-3856__track .toggle-3856__laugh-2 {
+    opacity: 1;
+    transform: rotate(6deg) scale(1);
+}
+
+.toggle-3856 input:checked + .toggle-3856__track .toggle-3856__laugh-3 {
+    opacity: 1;
+    transform: rotate(-10deg) scale(1);
+}
+
+.toggle-3856 input:checked + .toggle-3856__track .toggle-3856__glow {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.toggle-3856 input:not(:checked) + .toggle-3856__track {
+    background: #20242c;
+}
+
+.toggle-3856 input:not(:checked) + .toggle-3856__track .toggle-3856__bg {
+    background:
+        linear-gradient(135deg, #111827 0%, #1f2937 45%, #0f172a 100%);
+    filter: grayscale(.2);
+}
+
+.toggle-3856 input:not(:checked) + .toggle-3856__track .toggle-3856__thumb {
+    left: 12px;
+}
+
+.toggle-3856 input:not(:checked) + .toggle-3856__track .toggle-3856__hair {
+    background: linear-gradient(180deg, #6ee7b7, #16a34a);
+}
+
+.toggle-3856 input:not(:checked) + .toggle-3856__track .toggle-3856__glow {
+    opacity: .18;
+    transform: translate(-50%, -50%) scale(.82);
+}
+
+.toggle-3856 input:not(:checked) + .toggle-3856__track .toggle-3856__label-on {
+    opacity: 0;
+    transform: translateY(-50%) translateX(-10px);
+}
+
+.toggle-3856 input:not(:checked) + .toggle-3856__track .toggle-3856__label-off {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0);
+}
+
+.toggle-3856 input:not(:checked) + .toggle-3856__track .toggle-3856__laugh-1,
+.toggle-3856 input:not(:checked) + .toggle-3856__track .toggle-3856__laugh-2,
+.toggle-3856 input:not(:checked) + .toggle-3856__track .toggle-3856__laugh-3 {
+    opacity: .18;
+    transform: scale(.8);
+}
+
+.toggle-3856 input:not(:checked) + .toggle-3856__track .toggle-3856__card-left {
+    transform: rotate(-14deg) translateX(-8px);
+    opacity: .55;
+}
+
+.toggle-3856 input:not(:checked) + .toggle-3856__track .toggle-3856__card-right {
+    transform: rotate(14deg) translateX(8px);
+    opacity: .55;
+}
+
+.toggle-3856 input:not(:checked) + .toggle-3856__track .toggle-3856__smoke-1 {
+    transform: translateX(14px) scale(.8);
+    opacity: .45;
+}
+
+.toggle-3856 input:not(:checked) + .toggle-3856__track .toggle-3856__smoke-2 {
+    transform: translateX(12px) scale(.82);
+    opacity: .38;
+}
+
+.toggle-3856 input:not(:checked) + .toggle-3856__track .toggle-3856__smoke-3 {
+    transform: translateX(10px) scale(.78);
+    opacity: .35;
+}
+
+.toggle-3856 input:focus-visible + .toggle-3856__track {
+    outline: 4px solid #91ff00;
+    outline-offset: 6px;
+}`,
+},
 ];
