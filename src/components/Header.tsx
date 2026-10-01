@@ -32,6 +32,7 @@ const categories = [
   { label: "Carousels", path: "/elements/carousels" },
   { label: "Progress Bars", path: "/elements/progress-bars" },
   { label: "Tables", path: "/elements/tables" },
+  { label: "Comicbooks", path: "/elements/comicbooks" },
 ];
 
 export default function Header() {

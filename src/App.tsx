@@ -3,64 +3,36 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 
 const All = lazy(() => import("./pages/All"));
-
 const Buttons = lazy(() => import("./pages/Buttons"));
-
 const Checkboxes = lazy(() => import("./pages/Checkboxes"));
-
 const Cards = lazy(() => import("./pages/Cards"));
-
 const Loaders = lazy(() => import("./pages/Loaders"));
-
 const Toggleswitches = lazy(() => import("./pages/Toggleswitches"));
-
 const Inputs = lazy(() => import("./pages/Inputs"));
-
 const RadioButtons = lazy(() => import("./pages/RadioButtons"));
-
 const Forms = lazy(() => import("./pages/Forms"));
-
 const Patterns = lazy(() => import("./pages/Patterns"));
-
 const Tooltips = lazy(() => import("./pages/Tooltips"));
-
 const Navbar = lazy(() => import("./pages/Navbar"));
-
 const Logins = lazy(() => import("./pages/Logins"));
-
 const Dropdowns = lazy(() => import("./pages/Dropdowns"));
-
 const Modals = lazy(() => import("./pages/Modals"));
-
 const Alerts = lazy(() => import("./pages/Alerts"));
-
 const Badges = lazy(() => import("./pages/Badges"));
-
 const Avatars = lazy(() => import("./pages/Avatars"));
-
 const Tabs = lazy(() => import("./pages/Tabs"));
-
 const Breadcrumbs = lazy(() => import("./pages/Breadcrumbs"));
-
 const Pagination = lazy(() => import("./pages/Pagination"));
-
 const Skeletons = lazy(() => import("./pages/Skeletons"));
-
 const Sidebars = lazy(() => import("./pages/Sidebars"));
-
 const HeroSections = lazy(() => import("./pages/HeroSections"));
-
 const Iphone = lazy(() => import("./pages/Iphone"));
-
 const Toasts = lazy(() => import("./pages/Toasts"));
-
 const Accordions = lazy(() => import("./pages/Accordions"));
-
 const Carousels = lazy(() => import("./pages/Carousels"));
-
 const ProgressBars = lazy(() => import("./pages/ProgressBars"));
-
 const Tables = lazy(() => import("./pages/Tables"));
+const Comicbooks = lazy(() => import("./pages/Comicbooks"));
 
 const features = [
   {
@@ -259,23 +231,23 @@ const elementRoutes = [
     path: "/elements/tables",
     icon: "ri-table-line",
   },
+  {
+    name: "Comicbooks",
+    path: "/elements/comicbooks",
+    icon: "ri-book-open-line",
+  },
 ];
 
 function Home() {
   const [isHovered, setIsHovered] = useState(false);
-
   const [isPinned, setIsPinned] = useState(false);
-
   const dropdownRef = useRef<HTMLDivElement>(null);
-
   const hoverTimeoutRef = useRef<number | null>(null);
-
   const isElementsOpen = isHovered || isPinned;
 
   function clearHoverTimeout() {
     if (hoverTimeoutRef.current !== null) {
       window.clearTimeout(hoverTimeoutRef.current);
-
       hoverTimeoutRef.current = null;
     }
   }
@@ -302,7 +274,6 @@ function Home() {
 
   function toggleDropdown() {
     clearHoverTimeout();
-
     setIsPinned((current) => !current);
   }
 
@@ -327,12 +298,10 @@ function Home() {
     }
 
     document.addEventListener("mousedown", handleOutsideClick);
-
     document.addEventListener("keydown", handleEscape);
 
     return () => {
       document.removeEventListener("mousedown", handleOutsideClick);
-
       document.removeEventListener("keydown", handleEscape);
 
       if (hoverTimeoutRef.current !== null) {
@@ -349,8 +318,7 @@ function Home() {
             <span className="home-logo-mark">
               <i className="ri-sparkling-2-fill"></i>
             </span>
-
-            <span className="home-logo-text">André&apos;s UI library</span>
+            <span className="home-logo-text">André's UI library</span>
           </Link>
 
           <nav className="home-nav">
@@ -369,7 +337,6 @@ function Home() {
                 aria-expanded={isElementsOpen}
               >
                 <span>Elements</span>
-
                 <i
                   className={`ri-arrow-down-s-line home-nav-arrow ${
                     isElementsOpen ? "home-nav-arrow--open" : ""
@@ -389,7 +356,6 @@ function Home() {
                     <span className="home-dropdown-eyebrow">
                       COMPONENT LIBRARY
                     </span>
-
                     <h3>Browse Elements</h3>
                   </div>
 
@@ -414,7 +380,6 @@ function Home() {
                       <span className="home-dropdown-icon">
                         <i className={item.icon}></i>
                       </span>
-
                       <span>{item.name}</span>
                     </Link>
                   ))}
@@ -468,7 +433,7 @@ function Home() {
             <p className="hero-side-text">
               UI COMPONENTS
               <br />
-              FOR WHAT&apos;S NEXT.
+              FOR WHAT'S NEXT.
             </p>
           </div>
 
@@ -486,14 +451,14 @@ function Home() {
             </h1>
 
             <p className="hero-description">
-              Community-built library of UI elements. Copy as HTML/CSS/JAVASCRIPT
+              Community-built library of UI elements. Copy as
+              HTML/CSS/JAVASCRIPT
               <br />
               and build beautiful interfaces faster.
             </p>
 
             <Link to="/elements" className="hero-button">
               <span>Explore Library</span>
-
               <i className="ri-arrow-right-line"></i>
             </Link>
           </div>
@@ -507,7 +472,6 @@ function Home() {
 
                 <div className="hero-feature-info">
                   <h3>{feature.title}</h3>
-
                   <p>{feature.description}</p>
                 </div>
               </article>
@@ -524,7 +488,6 @@ function Home() {
 
                   <div className="stat-content">
                     <strong>{stat.value}</strong>
-
                     <span>{stat.label}</span>
                   </div>
                 </div>
@@ -562,66 +525,37 @@ function App() {
       <Suspense fallback={<RouteLoading />}>
         <Routes>
           <Route path="/" element={<Home />} />
-
           <Route path="/elements" element={<All />} />
-
           <Route path="/elements/buttons" element={<Buttons />} />
-
           <Route path="/elements/checkboxes" element={<Checkboxes />} />
-
           <Route path="/elements/toggleswitches" element={<Toggleswitches />} />
-
           <Route path="/elements/cards" element={<Cards />} />
-
           <Route path="/elements/loaders" element={<Loaders />} />
-
           <Route path="/elements/inputs" element={<Inputs />} />
-
           <Route path="/elements/radio-buttons" element={<RadioButtons />} />
-
           <Route path="/elements/forms" element={<Forms />} />
-
           <Route path="/elements/patterns" element={<Patterns />} />
-
           <Route path="/elements/tooltips" element={<Tooltips />} />
-
           <Route path="/elements/navbar" element={<Navbar />} />
-
           <Route path="/elements/logins" element={<Logins />} />
-
           <Route path="/elements/dropdowns" element={<Dropdowns />} />
-
           <Route path="/elements/modals" element={<Modals />} />
-
           <Route path="/elements/alerts" element={<Alerts />} />
-
           <Route path="/elements/badges" element={<Badges />} />
-
           <Route path="/elements/avatars" element={<Avatars />} />
-
           <Route path="/elements/tabs" element={<Tabs />} />
-
           <Route path="/elements/breadcrumbs" element={<Breadcrumbs />} />
-
           <Route path="/elements/pagination" element={<Pagination />} />
-
           <Route path="/elements/skeletons" element={<Skeletons />} />
-
           <Route path="/elements/sidebars" element={<Sidebars />} />
-
           <Route path="/elements/hero-sections" element={<HeroSections />} />
-
           <Route path="/elements/iphone" element={<Iphone />} />
-
           <Route path="/elements/toasts" element={<Toasts />} />
-
           <Route path="/elements/accordions" element={<Accordions />} />
-
           <Route path="/elements/carousels" element={<Carousels />} />
-
           <Route path="/elements/progress-bars" element={<ProgressBars />} />
-
           <Route path="/elements/tables" element={<Tables />} />
+          <Route path="/elements/comicbooks" element={<Comicbooks />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

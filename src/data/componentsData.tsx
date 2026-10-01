@@ -27,6 +27,7 @@ import { accordions } from "./AccordionsData";
 import { carousels } from "./CarouselsData";
 import { progressBars } from "./ProgressBarsData";
 import { tables } from "./TablesData";
+import { comicbooks } from "./comicbooksData";
 
 export {
   buttons,
@@ -58,6 +59,7 @@ export {
   carousels,
   progressBars,
   tables,
+  comicbooks,
 };
 
 export const allComponents = [
@@ -90,6 +92,7 @@ export const allComponents = [
   ...carousels,
   ...progressBars,
   ...tables,
+  ...comicbooks,
 ];
 // { dit de de voorbeeld
 // id: 1, name: "wat de naam ook maar is", preview: <button className="wat de naam ook maar is">Get started</button>,

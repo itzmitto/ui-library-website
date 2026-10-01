@@ -1,28 +1,12 @@
-import {
-  memo,
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-  type ReactNode,
-} from "react";
-import { Link } from "react-router-dom";
+import { memo, useCallback, useEffect, useRef, useState } from "react";
 import Header from "../components/Header";
-import { allComponents } from "../data/componentsData";
+import { comicbooks } from "../data/comicbooksData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
-
-const previewStyleModules = import.meta.glob("../styling/*.css", {
-  eager: true,
-  query: "?inline",
-  import: "default",
-}) as Record<string, string>;
-
-const previewStyles = Object.values(previewStyleModules).join("\n");
+import "../styling/comicbooks.css";
 
 const sidebarItems = [
-  { label: "All", path: "/elements", active: true },
+  { label: "All", path: "/elements" },
   { label: "Buttons", path: "/elements/buttons" },
   { label: "Checkboxes", path: "/elements/checkboxes" },
   { label: "Toggleswitches", path: "/elements/toggleswitches" },
@@ -52,26 +36,26 @@ const sidebarItems = [
   { label: "Carousels", path: "/elements/carousels" },
   { label: "Progress Bars", path: "/elements/progress-bars" },
   { label: "Tables", path: "/elements/tables" },
-  { label: "Comicbooks", path: "/elements/comicbooks" },
+  { label: "Comicbooks", path: "/elements/comicbooks", active: true },
 ];
 
-const CARD_HEIGHT = 252;
+const CARD_HEIGHT = 380;
 const GRID_GAP = 12;
 const OVERSCAN_ROWS = 4;
 
-type ComponentItem = (typeof allComponents)[0];
+type ComicbooksItem = (typeof comicbooks)[0];
 
-const ComponentCard = memo(
+const ComicbooksCard = memo(
   ({
     item,
     index,
     columns,
     onSelect,
   }: {
-    item: ComponentItem;
+    item: ComicbooksItem;
     index: number;
     columns: number;
-    onSelect: (item: ComponentItem) => void;
+    onSelect: (item: ComicbooksItem) => void;
   }) => {
     const row = Math.floor(index / columns);
     const column = index % columns;
@@ -93,7 +77,7 @@ const ComponentCard = memo(
           cursor: "pointer",
         }}
       >
-        <div className="all-card-preview">{item.preview as ReactNode}</div>
+        <div className="all-card-preview">{item.preview}</div>
 
         <div className="all-card-footer">
           <span className="all-card-name">{item.name}</span>
@@ -103,45 +87,56 @@ const ComponentCard = memo(
   },
 );
 
-ComponentCard.displayName = "ComponentCard";
+ComicbooksCard.displayName = "ComicbooksCard";
 
-export default function All() {
-  const [selected, setSelected] = useState<ComponentItem | null>(null);
+export default function Comicbooks() {
+  const [selected, setSelected] = useState<ComicbooksItem | null>(null);
   const [columns, setColumns] = useState(1);
   const [scrollTop, setScrollTop] = useState(0);
   const [viewportHeight, setViewportHeight] = useState(
     typeof window !== "undefined" ? window.innerHeight : 800,
   );
   const [gridTop, setGridTop] = useState(0);
+
   const gridRef = useRef<HTMLDivElement>(null);
   const frameRef = useRef<number | null>(null);
+
   const updateLayout = useCallback(() => {
     if (frameRef.current !== null) {
       cancelAnimationFrame(frameRef.current);
     }
+
     frameRef.current = requestAnimationFrame(() => {
       setScrollTop(window.scrollY);
       setViewportHeight(window.innerHeight);
+
       const grid = gridRef.current;
+
       if (grid) {
         const width = grid.clientWidth;
+
         const nextColumns = Math.max(
           1,
           Math.floor((width + GRID_GAP) / (240 + GRID_GAP)),
         );
+
         setColumns(nextColumns);
         setGridTop(grid.getBoundingClientRect().top + window.scrollY);
       }
+
       frameRef.current = null;
     });
   }, []);
 
   useEffect(() => {
     updateLayout();
+
     window.addEventListener("scroll", updateLayout, {
       passive: true,
     });
+
     window.addEventListener("resize", updateLayout);
+
     return () => {
       window.removeEventListener("scroll", updateLayout);
       window.removeEventListener("resize", updateLayout);
@@ -160,56 +155,53 @@ export default function All() {
       updateLayout();
     });
     observer.observe(grid);
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+    };
   }, [updateLayout]);
 
   const rowHeight = CARD_HEIGHT + GRID_GAP;
-  const totalRows = Math.ceil(allComponents.length / columns);
+  const totalRows = Math.ceil(comicbooks.length / columns);
   const totalHeight = totalRows > 0 ? totalRows * rowHeight - GRID_GAP : 0;
   const relativeScrollTop = Math.max(0, scrollTop - gridTop);
   const startRow = Math.max(
     0,
     Math.floor(relativeScrollTop / rowHeight) - OVERSCAN_ROWS,
   );
-
   const endRow = Math.min(
     totalRows,
     Math.ceil((relativeScrollTop + viewportHeight) / rowHeight) + OVERSCAN_ROWS,
   );
   const startIndex = startRow * columns;
-  const endIndex = Math.min(allComponents.length, endRow * columns);
-  const visibleComponents = useMemo(
-    () => allComponents.slice(startIndex, endIndex),
-    [startIndex, endIndex],
-  );
-  const handleSelect = useCallback((item: ComponentItem) => {
+  const endIndex = Math.min(comicbooks.length, endRow * columns);
+  const visibleComicbooks = comicbooks.slice(startIndex, endIndex);
+  const handleSelect = useCallback((item: ComicbooksItem) => {
     setSelected(item);
   }, []);
+
   return (
     <div className="all-page">
-      <style>{previewStyles}</style>
-
       <Header />
 
       <div className="all-layout">
         <aside className="sidebar">
           {sidebarItems.map((item) => (
-            <Link
+            <a
               key={item.path}
-              to={item.path}
+              href={item.path}
               className={`sidebar-item ${
                 item.active ? "sidebar-item--active" : ""
               }`}
             >
               {item.label}
-            </Link>
+            </a>
           ))}
         </aside>
 
         <main className="all-main">
           <div className="all-header">
-            <h1>Browse all</h1>
-            <p>Open-Source UI elements made with CSS or Tailwind</p>
+            <h1>Comic Books</h1>
+            <p>Comic book inspired components made with HTML and CSS</p>
           </div>
 
           <div
@@ -220,11 +212,11 @@ export default function All() {
               height: totalHeight,
             }}
           >
-            {visibleComponents.map((item, offset) => {
+            {visibleComicbooks.map((item, offset) => {
               const index = startIndex + offset;
 
               return (
-                <ComponentCard
+                <ComicbooksCard
                   key={item.id}
                   item={item}
                   index={index}
@@ -238,10 +230,6 @@ export default function All() {
       </div>
 
       <ComponentModal item={selected} onClose={() => setSelected(null)} />
-
-      <Link to="/elements/navbar" className="floating-navbar-button">
-        Navbar →
-      </Link>
     </div>
   );
 }

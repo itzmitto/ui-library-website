@@ -35376,65 +35376,66 @@ export const toggles = [
     outline: 4px solid #ef4444;
     outline-offset: 7px;
 }`,
-  },{
-  id: 3856,
-  name: "DC Joker Chaos Toggle",
-  preview: (
-    <label
-      className="toggle-3856"
-      onClick={(event) => event.stopPropagation()}
-    >
-      <input
-        type="checkbox"
-        defaultChecked
-        aria-label="DC Joker Chaos Toggle"
-      />
+  },
+  {
+    id: 3856,
+    name: "DC Joker Chaos Toggle",
+    preview: (
+      <label
+        className="toggle-3856"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="DC Joker Chaos Toggle"
+        />
 
-      <span className="toggle-3856__track">
-        <span className="toggle-3856__bg"></span>
-        <span className="toggle-3856__glow"></span>
-        <span className="toggle-3856__smoke toggle-3856__smoke-1"></span>
-        <span className="toggle-3856__smoke toggle-3856__smoke-2"></span>
-        <span className="toggle-3856__smoke toggle-3856__smoke-3"></span>
+        <span className="toggle-3856__track">
+          <span className="toggle-3856__bg"></span>
+          <span className="toggle-3856__glow"></span>
+          <span className="toggle-3856__smoke toggle-3856__smoke-1"></span>
+          <span className="toggle-3856__smoke toggle-3856__smoke-2"></span>
+          <span className="toggle-3856__smoke toggle-3856__smoke-3"></span>
 
-        <span className="toggle-3856__card toggle-3856__card-left">
-          <span className="toggle-3856__card-dot"></span>
-        </span>
-
-        <span className="toggle-3856__card toggle-3856__card-right">
-          <span className="toggle-3856__card-dot"></span>
-        </span>
-
-        <span className="toggle-3856__laugh toggle-3856__laugh-1">HA</span>
-        <span className="toggle-3856__laugh toggle-3856__laugh-2">HA</span>
-        <span className="toggle-3856__laugh toggle-3856__laugh-3">HA</span>
-
-        <span className="toggle-3856__label toggle-3856__label-off">
-          GLOOM
-        </span>
-
-        <span className="toggle-3856__label toggle-3856__label-on">
-          CHAOS
-        </span>
-
-        <span className="toggle-3856__thumb">
-          <span className="toggle-3856__hair"></span>
-          <span className="toggle-3856__face">
-            <span className="toggle-3856__eye toggle-3856__eye-left"></span>
-            <span className="toggle-3856__eye toggle-3856__eye-right"></span>
-            <span className="toggle-3856__nose"></span>
-            <span className="toggle-3856__mouth"></span>
-            <span className="toggle-3856__scar toggle-3856__scar-left"></span>
-            <span className="toggle-3856__scar toggle-3856__scar-right"></span>
+          <span className="toggle-3856__card toggle-3856__card-left">
+            <span className="toggle-3856__card-dot"></span>
           </span>
-          <span className="toggle-3856__collar"></span>
-        </span>
 
-        <span className="toggle-3856__frame"></span>
-      </span>
-    </label>
-  ),
-  html: `<label class="toggle-3856">
+          <span className="toggle-3856__card toggle-3856__card-right">
+            <span className="toggle-3856__card-dot"></span>
+          </span>
+
+          <span className="toggle-3856__laugh toggle-3856__laugh-1">HA</span>
+          <span className="toggle-3856__laugh toggle-3856__laugh-2">HA</span>
+          <span className="toggle-3856__laugh toggle-3856__laugh-3">HA</span>
+
+          <span className="toggle-3856__label toggle-3856__label-off">
+            GLOOM
+          </span>
+
+          <span className="toggle-3856__label toggle-3856__label-on">
+            CHAOS
+          </span>
+
+          <span className="toggle-3856__thumb">
+            <span className="toggle-3856__hair"></span>
+            <span className="toggle-3856__face">
+              <span className="toggle-3856__eye toggle-3856__eye-left"></span>
+              <span className="toggle-3856__eye toggle-3856__eye-right"></span>
+              <span className="toggle-3856__nose"></span>
+              <span className="toggle-3856__mouth"></span>
+              <span className="toggle-3856__scar toggle-3856__scar-left"></span>
+              <span className="toggle-3856__scar toggle-3856__scar-right"></span>
+            </span>
+            <span className="toggle-3856__collar"></span>
+          </span>
+
+          <span className="toggle-3856__frame"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3856">
     <input type="checkbox" checked aria-label="DC Joker Chaos Toggle" />
 
     <span class="toggle-3856__track">
@@ -35475,7 +35476,7 @@ export const toggles = [
         <span class="toggle-3856__frame"></span>
     </span>
 </label>`,
-  css: `.toggle-3856 {
+    css: `.toggle-3856 {
     position: relative;
     display: inline-flex;
     cursor: pointer;
@@ -35899,6 +35900,18602 @@ export const toggles = [
 
 .toggle-3856 input:focus-visible + .toggle-3856__track {
     outline: 4px solid #91ff00;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3857,
+    name: "DC Joker Gotham Chaos Comic Toggle",
+    preview: (
+      <label
+        className="toggle-3857"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="DC Joker Gotham Chaos Comic Toggle"
+        />
+
+        <span className="toggle-3857__track">
+          <span className="toggle-3857__background"></span>
+          <span className="toggle-3857__halftone"></span>
+          <span className="toggle-3857__acid-glow"></span>
+
+          <span className="toggle-3857__moon">
+            <span className="toggle-3857__moon-mark toggle-3857__moon-mark-1"></span>
+            <span className="toggle-3857__moon-mark toggle-3857__moon-mark-2"></span>
+          </span>
+
+          <span className="toggle-3857__city">
+            <span className="toggle-3857__building toggle-3857__building-1">
+              <span className="toggle-3857__window toggle-3857__window-1"></span>
+              <span className="toggle-3857__window toggle-3857__window-2"></span>
+              <span className="toggle-3857__window toggle-3857__window-3"></span>
+            </span>
+
+            <span className="toggle-3857__building toggle-3857__building-2">
+              <span className="toggle-3857__window toggle-3857__window-4"></span>
+              <span className="toggle-3857__window toggle-3857__window-5"></span>
+              <span className="toggle-3857__window toggle-3857__window-6"></span>
+              <span className="toggle-3857__window toggle-3857__window-7"></span>
+            </span>
+
+            <span className="toggle-3857__building toggle-3857__building-3">
+              <span className="toggle-3857__antenna"></span>
+              <span className="toggle-3857__window toggle-3857__window-8"></span>
+              <span className="toggle-3857__window toggle-3857__window-9"></span>
+              <span className="toggle-3857__window toggle-3857__window-10"></span>
+            </span>
+
+            <span className="toggle-3857__building toggle-3857__building-4">
+              <span className="toggle-3857__window toggle-3857__window-11"></span>
+              <span className="toggle-3857__window toggle-3857__window-12"></span>
+            </span>
+          </span>
+
+          <span className="toggle-3857__smoke toggle-3857__smoke-1"></span>
+          <span className="toggle-3857__smoke toggle-3857__smoke-2"></span>
+          <span className="toggle-3857__smoke toggle-3857__smoke-3"></span>
+          <span className="toggle-3857__smoke toggle-3857__smoke-4"></span>
+
+          <span className="toggle-3857__laugh-field">
+            <span className="toggle-3857__laugh toggle-3857__laugh-1">HA</span>
+            <span className="toggle-3857__laugh toggle-3857__laugh-2">HA!</span>
+            <span className="toggle-3857__laugh toggle-3857__laugh-3">HA</span>
+            <span className="toggle-3857__laugh toggle-3857__laugh-4">HA!</span>
+            <span className="toggle-3857__laugh toggle-3857__laugh-5">
+              HAHA
+            </span>
+          </span>
+
+          <span className="toggle-3857__card toggle-3857__card-1">
+            <span className="toggle-3857__card-letter">J</span>
+            <span className="toggle-3857__card-symbol">♠</span>
+          </span>
+
+          <span className="toggle-3857__card toggle-3857__card-2">
+            <span className="toggle-3857__card-letter">J</span>
+            <span className="toggle-3857__card-symbol">♦</span>
+          </span>
+
+          <span className="toggle-3857__card toggle-3857__card-3">
+            <span className="toggle-3857__card-letter">?</span>
+            <span className="toggle-3857__card-symbol">♣</span>
+          </span>
+
+          <span className="toggle-3857__graffiti">
+            <span className="toggle-3857__graffiti-text">HA HA!</span>
+          </span>
+
+          <span className="toggle-3857__burst">
+            <span className="toggle-3857__burst-off">GOTHAM</span>
+            <span className="toggle-3857__burst-on">CHAOS!</span>
+          </span>
+
+          <span className="toggle-3857__flower">
+            <span className="toggle-3857__flower-petal toggle-3857__flower-petal-1"></span>
+            <span className="toggle-3857__flower-petal toggle-3857__flower-petal-2"></span>
+            <span className="toggle-3857__flower-petal toggle-3857__flower-petal-3"></span>
+            <span className="toggle-3857__flower-petal toggle-3857__flower-petal-4"></span>
+            <span className="toggle-3857__flower-core"></span>
+            <span className="toggle-3857__acid-drop toggle-3857__acid-drop-1"></span>
+            <span className="toggle-3857__acid-drop toggle-3857__acid-drop-2"></span>
+          </span>
+
+          <span className="toggle-3857__thumb">
+            <span className="toggle-3857__thumb-aura"></span>
+
+            <span className="toggle-3857__hair">
+              <span className="toggle-3857__hair-spike toggle-3857__hair-spike-1"></span>
+              <span className="toggle-3857__hair-spike toggle-3857__hair-spike-2"></span>
+              <span className="toggle-3857__hair-spike toggle-3857__hair-spike-3"></span>
+              <span className="toggle-3857__hair-spike toggle-3857__hair-spike-4"></span>
+              <span className="toggle-3857__hair-spike toggle-3857__hair-spike-5"></span>
+            </span>
+
+            <span className="toggle-3857__head">
+              <span className="toggle-3857__face-shadow"></span>
+
+              <span className="toggle-3857__brow toggle-3857__brow-left"></span>
+              <span className="toggle-3857__brow toggle-3857__brow-right"></span>
+
+              <span className="toggle-3857__eye toggle-3857__eye-left">
+                <span className="toggle-3857__pupil"></span>
+              </span>
+
+              <span className="toggle-3857__eye toggle-3857__eye-right">
+                <span className="toggle-3857__pupil"></span>
+              </span>
+
+              <span className="toggle-3857__nose"></span>
+
+              <span className="toggle-3857__cheek toggle-3857__cheek-left"></span>
+              <span className="toggle-3857__cheek toggle-3857__cheek-right"></span>
+
+              <span className="toggle-3857__smile">
+                <span className="toggle-3857__teeth">
+                  <span className="toggle-3857__tooth toggle-3857__tooth-1"></span>
+                  <span className="toggle-3857__tooth toggle-3857__tooth-2"></span>
+                  <span className="toggle-3857__tooth toggle-3857__tooth-3"></span>
+                  <span className="toggle-3857__tooth toggle-3857__tooth-4"></span>
+                  <span className="toggle-3857__tooth toggle-3857__tooth-5"></span>
+                </span>
+              </span>
+
+              <span className="toggle-3857__smile-cut toggle-3857__smile-cut-left"></span>
+              <span className="toggle-3857__smile-cut toggle-3857__smile-cut-right"></span>
+            </span>
+
+            <span className="toggle-3857__suit">
+              <span className="toggle-3857__lapel toggle-3857__lapel-left"></span>
+              <span className="toggle-3857__lapel toggle-3857__lapel-right"></span>
+              <span className="toggle-3857__shirt"></span>
+              <span className="toggle-3857__tie"></span>
+            </span>
+          </span>
+
+          <span className="toggle-3857__bottom-stripe"></span>
+          <span className="toggle-3857__inner-frame"></span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3857">
+    <input type="checkbox" checked aria-label="DC Joker Gotham Chaos Comic Toggle">
+
+    <span class="toggle-3857__track">
+        <span class="toggle-3857__background"></span>
+        <span class="toggle-3857__halftone"></span>
+        <span class="toggle-3857__acid-glow"></span>
+
+        <span class="toggle-3857__moon">
+            <span class="toggle-3857__moon-mark toggle-3857__moon-mark-1"></span>
+            <span class="toggle-3857__moon-mark toggle-3857__moon-mark-2"></span>
+        </span>
+
+        <span class="toggle-3857__city">
+            <span class="toggle-3857__building toggle-3857__building-1">
+                <span class="toggle-3857__window toggle-3857__window-1"></span>
+                <span class="toggle-3857__window toggle-3857__window-2"></span>
+                <span class="toggle-3857__window toggle-3857__window-3"></span>
+            </span>
+
+            <span class="toggle-3857__building toggle-3857__building-2">
+                <span class="toggle-3857__window toggle-3857__window-4"></span>
+                <span class="toggle-3857__window toggle-3857__window-5"></span>
+                <span class="toggle-3857__window toggle-3857__window-6"></span>
+                <span class="toggle-3857__window toggle-3857__window-7"></span>
+            </span>
+
+            <span class="toggle-3857__building toggle-3857__building-3">
+                <span class="toggle-3857__antenna"></span>
+                <span class="toggle-3857__window toggle-3857__window-8"></span>
+                <span class="toggle-3857__window toggle-3857__window-9"></span>
+                <span class="toggle-3857__window toggle-3857__window-10"></span>
+            </span>
+
+            <span class="toggle-3857__building toggle-3857__building-4">
+                <span class="toggle-3857__window toggle-3857__window-11"></span>
+                <span class="toggle-3857__window toggle-3857__window-12"></span>
+            </span>
+        </span>
+
+        <span class="toggle-3857__smoke toggle-3857__smoke-1"></span>
+        <span class="toggle-3857__smoke toggle-3857__smoke-2"></span>
+        <span class="toggle-3857__smoke toggle-3857__smoke-3"></span>
+        <span class="toggle-3857__smoke toggle-3857__smoke-4"></span>
+
+        <span class="toggle-3857__laugh-field">
+            <span class="toggle-3857__laugh toggle-3857__laugh-1">HA</span>
+            <span class="toggle-3857__laugh toggle-3857__laugh-2">HA!</span>
+            <span class="toggle-3857__laugh toggle-3857__laugh-3">HA</span>
+            <span class="toggle-3857__laugh toggle-3857__laugh-4">HA!</span>
+            <span class="toggle-3857__laugh toggle-3857__laugh-5">HAHA</span>
+        </span>
+
+        <span class="toggle-3857__card toggle-3857__card-1">
+            <span class="toggle-3857__card-letter">J</span>
+            <span class="toggle-3857__card-symbol">♠</span>
+        </span>
+
+        <span class="toggle-3857__card toggle-3857__card-2">
+            <span class="toggle-3857__card-letter">J</span>
+            <span class="toggle-3857__card-symbol">♦</span>
+        </span>
+
+        <span class="toggle-3857__card toggle-3857__card-3">
+            <span class="toggle-3857__card-letter">?</span>
+            <span class="toggle-3857__card-symbol">♣</span>
+        </span>
+
+        <span class="toggle-3857__graffiti">
+            <span class="toggle-3857__graffiti-text">HA HA!</span>
+        </span>
+
+        <span class="toggle-3857__burst">
+            <span class="toggle-3857__burst-off">GOTHAM</span>
+            <span class="toggle-3857__burst-on">CHAOS!</span>
+        </span>
+
+        <span class="toggle-3857__flower">
+            <span class="toggle-3857__flower-petal toggle-3857__flower-petal-1"></span>
+            <span class="toggle-3857__flower-petal toggle-3857__flower-petal-2"></span>
+            <span class="toggle-3857__flower-petal toggle-3857__flower-petal-3"></span>
+            <span class="toggle-3857__flower-petal toggle-3857__flower-petal-4"></span>
+            <span class="toggle-3857__flower-core"></span>
+            <span class="toggle-3857__acid-drop toggle-3857__acid-drop-1"></span>
+            <span class="toggle-3857__acid-drop toggle-3857__acid-drop-2"></span>
+        </span>
+
+        <span class="toggle-3857__thumb">
+            <span class="toggle-3857__thumb-aura"></span>
+
+            <span class="toggle-3857__hair">
+                <span class="toggle-3857__hair-spike toggle-3857__hair-spike-1"></span>
+                <span class="toggle-3857__hair-spike toggle-3857__hair-spike-2"></span>
+                <span class="toggle-3857__hair-spike toggle-3857__hair-spike-3"></span>
+                <span class="toggle-3857__hair-spike toggle-3857__hair-spike-4"></span>
+                <span class="toggle-3857__hair-spike toggle-3857__hair-spike-5"></span>
+            </span>
+
+            <span class="toggle-3857__head">
+                <span class="toggle-3857__face-shadow"></span>
+
+                <span class="toggle-3857__brow toggle-3857__brow-left"></span>
+                <span class="toggle-3857__brow toggle-3857__brow-right"></span>
+
+                <span class="toggle-3857__eye toggle-3857__eye-left">
+                    <span class="toggle-3857__pupil"></span>
+                </span>
+
+                <span class="toggle-3857__eye toggle-3857__eye-right">
+                    <span class="toggle-3857__pupil"></span>
+                </span>
+
+                <span class="toggle-3857__nose"></span>
+
+                <span class="toggle-3857__cheek toggle-3857__cheek-left"></span>
+                <span class="toggle-3857__cheek toggle-3857__cheek-right"></span>
+
+                <span class="toggle-3857__smile">
+                    <span class="toggle-3857__teeth">
+                        <span class="toggle-3857__tooth toggle-3857__tooth-1"></span>
+                        <span class="toggle-3857__tooth toggle-3857__tooth-2"></span>
+                        <span class="toggle-3857__tooth toggle-3857__tooth-3"></span>
+                        <span class="toggle-3857__tooth toggle-3857__tooth-4"></span>
+                        <span class="toggle-3857__tooth toggle-3857__tooth-5"></span>
+                    </span>
+                </span>
+
+                <span class="toggle-3857__smile-cut toggle-3857__smile-cut-left"></span>
+                <span class="toggle-3857__smile-cut toggle-3857__smile-cut-right"></span>
+            </span>
+
+            <span class="toggle-3857__suit">
+                <span class="toggle-3857__lapel toggle-3857__lapel-left"></span>
+                <span class="toggle-3857__lapel toggle-3857__lapel-right"></span>
+                <span class="toggle-3857__shirt"></span>
+                <span class="toggle-3857__tie"></span>
+            </span>
+        </span>
+
+        <span class="toggle-3857__bottom-stripe"></span>
+        <span class="toggle-3857__inner-frame"></span>
+    </span>
+</label>`,
+    css: `.toggle-3857 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3857 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3857__track {
+    position: relative;
+    width: 238px;
+    height: 102px;
+    overflow: hidden;
+    border: 5px solid #09090b;
+    border-radius: 21px;
+    background: #2e1065;
+    box-shadow:
+        10px 10px 0 #09090b,
+        inset 0 0 0 2px rgba(255,255,255,.08);
+    isolation: isolate;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .35s ease;
+}
+
+.toggle-3857__background {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background:
+        radial-gradient(
+            circle at 78% 23%,
+            rgba(163,230,53,.26) 0 8%,
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 19% 29%,
+            rgba(236,72,153,.14),
+            transparent 27%
+        ),
+        linear-gradient(
+            145deg,
+            #1b1027 0%,
+            #3b0764 32%,
+            #581c87 62%,
+            #18111f 100%
+        );
+    transition:
+        transform .4s ease,
+        filter .35s ease;
+}
+
+.toggle-3857__halftone {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-image:
+        radial-gradient(
+            rgba(0,0,0,.52) 1.45px,
+            transparent 1.75px
+        );
+    background-size: 8px 8px;
+    opacity: .27;
+    mix-blend-mode: multiply;
+    transition:
+        opacity .3s ease,
+        transform .4s ease;
+}
+
+.toggle-3857__acid-glow {
+    position: absolute;
+    right: -11px;
+    top: -22px;
+    z-index: 1;
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(163,230,53,.43) 0%,
+            rgba(132,204,22,.17) 34%,
+            transparent 69%
+        );
+    transition:
+        left .4s ease,
+        right .4s ease,
+        transform .45s ease,
+        opacity .3s ease;
+}
+
+.toggle-3857__moon {
+    position: absolute;
+    right: 17px;
+    top: 10px;
+    z-index: 2;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border: 4px solid #09090b;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            145deg,
+            #d9f99d,
+            #84cc16
+        );
+    box-shadow:
+        3px 3px 0 #09090b,
+        0 0 12px rgba(163,230,53,.35);
+    transition:
+        left .4s ease,
+        right .4s ease,
+        transform .4s ease,
+        background .3s ease,
+        box-shadow .3s ease;
+}
+
+.toggle-3857__moon-mark {
+    position: absolute;
+    border: 2px solid rgba(17,24,39,.25);
+    border-radius: 50%;
+    background: rgba(63,98,18,.18);
+}
+
+.toggle-3857__moon-mark-1 {
+    left: 8px;
+    top: 9px;
+    width: 10px;
+    height: 10px;
+}
+
+.toggle-3857__moon-mark-2 {
+    right: 8px;
+    bottom: 8px;
+    width: 7px;
+    height: 7px;
+}
+
+.toggle-3857__city {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+}
+
+.toggle-3857__building {
+    position: absolute;
+    bottom: 8px;
+    border: 3px solid #09090b;
+    background:
+        linear-gradient(
+            90deg,
+            #111827,
+            #27272a
+        );
+    box-shadow:
+        inset -5px 0 0 rgba(0,0,0,.4);
+    transition:
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3857__building-1 {
+    left: -6px;
+    width: 41px;
+    height: 39px;
+}
+
+.toggle-3857__building-2 {
+    left: 31px;
+    width: 46px;
+    height: 55px;
+}
+
+.toggle-3857__building-3 {
+    left: 70px;
+    width: 42px;
+    height: 66px;
+}
+
+.toggle-3857__building-4 {
+    left: 107px;
+    width: 36px;
+    height: 34px;
+}
+
+.toggle-3857__antenna {
+    position: absolute;
+    left: 17px;
+    top: -22px;
+    width: 4px;
+    height: 21px;
+    border: 1px solid #09090b;
+    background: #94a3b8;
+}
+
+.toggle-3857__antenna::after {
+    content: "";
+    position: absolute;
+    left: -3px;
+    top: -6px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #a3e635;
+    box-shadow: 0 0 6px #a3e635;
+}
+
+.toggle-3857__window {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border: 2px solid #09090b;
+    background: #bef264;
+    box-shadow: 0 0 4px rgba(163,230,53,.45);
+}
+
+.toggle-3857__window-1 {
+    left: 6px;
+    top: 8px;
+}
+
+.toggle-3857__window-2 {
+    right: 6px;
+    top: 8px;
+}
+
+.toggle-3857__window-3 {
+    left: 16px;
+    top: 23px;
+}
+
+.toggle-3857__window-4 {
+    left: 7px;
+    top: 8px;
+}
+
+.toggle-3857__window-5 {
+    right: 7px;
+    top: 8px;
+}
+
+.toggle-3857__window-6 {
+    left: 7px;
+    top: 26px;
+}
+
+.toggle-3857__window-7 {
+    right: 7px;
+    top: 26px;
+}
+
+.toggle-3857__window-8 {
+    left: 7px;
+    top: 9px;
+}
+
+.toggle-3857__window-9 {
+    right: 7px;
+    top: 9px;
+}
+
+.toggle-3857__window-10 {
+    left: 17px;
+    top: 31px;
+}
+
+.toggle-3857__window-11 {
+    left: 6px;
+    top: 7px;
+}
+
+.toggle-3857__window-12 {
+    right: 6px;
+    top: 7px;
+}
+
+.toggle-3857__smoke {
+    position: absolute;
+    z-index: 3;
+    border: 3px solid rgba(9,9,11,.35);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(190,242,100,.68),
+            rgba(101,163,13,.25) 58%,
+            transparent 70%
+        );
+    filter: blur(.4px);
+    transition:
+        transform .4s ease,
+        opacity .3s ease,
+        left .4s ease,
+        right .4s ease;
+}
+
+.toggle-3857__smoke-1 {
+    left: 43px;
+    top: 12px;
+    width: 37px;
+    height: 24px;
+    transform: rotate(-11deg);
+}
+
+.toggle-3857__smoke-2 {
+    left: 71px;
+    top: 26px;
+    width: 50px;
+    height: 29px;
+}
+
+.toggle-3857__smoke-3 {
+    left: 102px;
+    bottom: 12px;
+    width: 45px;
+    height: 25px;
+    transform: rotate(13deg);
+}
+
+.toggle-3857__smoke-4 {
+    right: 18px;
+    top: 30px;
+    width: 39px;
+    height: 25px;
+    transform: rotate(-16deg);
+}
+
+.toggle-3857__laugh-field {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.toggle-3857__laugh {
+    position: absolute;
+    color: #bef264;
+    font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+    line-height: 1;
+    letter-spacing: .5px;
+    text-shadow:
+        2px 2px 0 #09090b,
+        0 0 8px rgba(163,230,53,.35);
+    transition:
+        transform .4s ease,
+        opacity .3s ease,
+        color .3s ease;
+}
+
+.toggle-3857__laugh-1 {
+    left: 11px;
+    top: 9px;
+    font-size: 16px;
+    transform: rotate(-11deg);
+}
+
+.toggle-3857__laugh-2 {
+    left: 17px;
+    top: 30px;
+    font-size: 12px;
+    transform: rotate(7deg);
+}
+
+.toggle-3857__laugh-3 {
+    left: 8px;
+    bottom: 14px;
+    font-size: 14px;
+    transform: rotate(-5deg);
+}
+
+.toggle-3857__laugh-4 {
+    left: 84px;
+    top: 8px;
+    font-size: 11px;
+    transform: rotate(9deg);
+}
+
+.toggle-3857__laugh-5 {
+    right: 11px;
+    bottom: 10px;
+    font-size: 11px;
+    transform: rotate(-9deg);
+}
+
+.toggle-3857__card {
+    position: absolute;
+    z-index: 7;
+    width: 27px;
+    height: 38px;
+    border: 3px solid #09090b;
+    border-radius: 5px;
+    background: #fffdf5;
+    box-shadow: 3px 3px 0 #09090b;
+    transition:
+        transform .4s ease,
+        opacity .3s ease,
+        left .4s ease,
+        right .4s ease;
+}
+
+.toggle-3857__card-letter {
+    position: absolute;
+    left: 3px;
+    top: 2px;
+    color: #dc2626;
+    font: 900 10px/1 Georgia, serif;
+}
+
+.toggle-3857__card-symbol {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #09090b;
+    font-size: 13px;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3857__card-1 {
+    left: 116px;
+    top: 9px;
+    transform: rotate(-13deg);
+}
+
+.toggle-3857__card-2 {
+    left: 138px;
+    top: 22px;
+    transform: rotate(9deg) scale(.9);
+}
+
+.toggle-3857__card-2 .toggle-3857__card-symbol {
+    color: #dc2626;
+}
+
+.toggle-3857__card-3 {
+    right: 13px;
+    top: 13px;
+    transform: rotate(18deg) scale(.78);
+}
+
+.toggle-3857__graffiti {
+    position: absolute;
+    left: 75px;
+    bottom: 9px;
+    z-index: 8;
+    width: 66px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #09090b;
+    background: #a3e635;
+    box-shadow: 3px 3px 0 #09090b;
+    transform: rotate(-4deg);
+    transition:
+        transform .35s ease,
+        left .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3857__graffiti-text {
+    color: #581c87;
+    font: 900 9px/1 Impact, "Arial Black", sans-serif;
+    letter-spacing: .6px;
+}
+
+.toggle-3857__burst {
+    position: absolute;
+    left: 10px;
+    top: 51px;
+    z-index: 9;
+    width: 64px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #09090b;
+    background: #ffffff;
+    clip-path: polygon(
+        50% 0,
+        61% 24%,
+        83% 6%,
+        77% 31%,
+        100% 28%,
+        82% 47%,
+        100% 60%,
+        77% 63%,
+        87% 91%,
+        62% 74%,
+        50% 100%,
+        39% 75%,
+        12% 91%,
+        23% 62%,
+        0 57%,
+        19% 44%,
+        1% 27%,
+        24% 31%,
+        19% 6%,
+        40% 23%
+    );
+    box-shadow: 3px 3px 0 #09090b;
+    transform: rotate(3deg);
+    transition:
+        left .4s ease,
+        right .4s ease,
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3857__burst-off,
+.toggle-3857__burst-on {
+    position: absolute;
+    color: #09090b;
+    font: 900 8px/1 Impact, "Arial Black", sans-serif;
+    letter-spacing: .3px;
+    transition:
+        opacity .2s ease,
+        transform .3s ease;
+}
+
+.toggle-3857__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3857__burst-on {
+    opacity: 1;
+    transform: rotate(-3deg);
+}
+
+.toggle-3857__flower {
+    position: absolute;
+    left: 147px;
+    bottom: 11px;
+    z-index: 9;
+    width: 36px;
+    height: 36px;
+    transition:
+        transform .4s ease,
+        left .4s ease,
+        right .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3857__flower-petal {
+    position: absolute;
+    left: 12px;
+    top: 3px;
+    width: 13px;
+    height: 15px;
+    border: 2px solid #09090b;
+    border-radius: 50% 50% 45% 45%;
+    background: #facc15;
+    transform-origin: 6px 15px;
+}
+
+.toggle-3857__flower-petal-1 {
+    transform: rotate(0deg);
+}
+
+.toggle-3857__flower-petal-2 {
+    transform: rotate(90deg);
+}
+
+.toggle-3857__flower-petal-3 {
+    transform: rotate(180deg);
+}
+
+.toggle-3857__flower-petal-4 {
+    transform: rotate(270deg);
+}
+
+.toggle-3857__flower-core {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    z-index: 2;
+    width: 12px;
+    height: 12px;
+    border: 3px solid #09090b;
+    border-radius: 50%;
+    background: #ef4444;
+}
+
+.toggle-3857__acid-drop {
+    position: absolute;
+    bottom: -8px;
+    width: 7px;
+    height: 12px;
+    border: 2px solid #09090b;
+    border-radius: 50% 50% 60% 60%;
+    background: #a3e635;
+    opacity: .85;
+}
+
+.toggle-3857__acid-drop-1 {
+    left: 7px;
+}
+
+.toggle-3857__acid-drop-2 {
+    right: 5px;
+    transform: scale(.7);
+}
+
+.toggle-3857__thumb {
+    position: absolute;
+    left: 155px;
+    top: 8px;
+    z-index: 15;
+    width: 73px;
+    height: 82px;
+    transition:
+        left .42s cubic-bezier(.34,1.56,.64,1),
+        transform .32s ease;
+}
+
+.toggle-3857__thumb-aura {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 72px;
+    height: 72px;
+    border: 4px solid #09090b;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(163,230,53,.33),
+            rgba(88,28,135,.2) 54%,
+            transparent 70%
+        );
+    box-shadow:
+        5px 5px 0 #09090b,
+        0 0 12px rgba(163,230,53,.32);
+    transition:
+        transform .4s ease,
+        background .3s ease,
+        box-shadow .3s ease;
+}
+
+.toggle-3857__hair {
+    position: absolute;
+    left: 9px;
+    top: 0;
+    z-index: 6;
+    width: 56px;
+    height: 30px;
+}
+
+.toggle-3857__hair-spike {
+    position: absolute;
+    bottom: 0;
+    width: 17px;
+    height: 28px;
+    border: 3px solid #09090b;
+    background:
+        linear-gradient(
+            180deg,
+            #bef264,
+            #4d7c0f
+        );
+    clip-path: polygon(
+        50% 0,
+        100% 100%,
+        0 100%
+    );
+    transform-origin: bottom center;
+}
+
+.toggle-3857__hair-spike-1 {
+    left: 0;
+    transform: rotate(-30deg);
+}
+
+.toggle-3857__hair-spike-2 {
+    left: 10px;
+    transform: rotate(-15deg);
+}
+
+.toggle-3857__hair-spike-3 {
+    left: 20px;
+    height: 31px;
+}
+
+.toggle-3857__hair-spike-4 {
+    right: 10px;
+    transform: rotate(15deg);
+}
+
+.toggle-3857__hair-spike-5 {
+    right: 0;
+    transform: rotate(30deg);
+}
+
+.toggle-3857__head {
+    position: absolute;
+    left: 10px;
+    top: 19px;
+    z-index: 5;
+    width: 54px;
+    height: 51px;
+    overflow: hidden;
+    border: 4px solid #09090b;
+    border-radius: 45% 45% 48% 48%;
+    background:
+        linear-gradient(
+            145deg,
+            #ffffff,
+            #e5e7eb
+        );
+    box-shadow:
+        inset -7px -5px 0 rgba(0,0,0,.07);
+    transition:
+        transform .35s ease,
+        background .3s ease,
+        box-shadow .3s ease;
+}
+
+.toggle-3857__face-shadow {
+    position: absolute;
+    right: -3px;
+    top: -1px;
+    width: 24px;
+    height: 55px;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(126,34,206,.16)
+        );
+    transform: rotate(8deg);
+}
+
+.toggle-3857__brow {
+    position: absolute;
+    top: 12px;
+    width: 14px;
+    height: 4px;
+    border-radius: 999px;
+    background: #166534;
+    z-index: 3;
+}
+
+.toggle-3857__brow-left {
+    left: 6px;
+    transform: rotate(-17deg);
+}
+
+.toggle-3857__brow-right {
+    right: 6px;
+    transform: rotate(17deg);
+}
+
+.toggle-3857__eye {
+    position: absolute;
+    top: 18px;
+    z-index: 4;
+    width: 11px;
+    height: 8px;
+    overflow: hidden;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #f8fafc;
+}
+
+.toggle-3857__eye-left {
+    left: 7px;
+    transform: rotate(-6deg);
+}
+
+.toggle-3857__eye-right {
+    right: 7px;
+    transform: rotate(6deg);
+}
+
+.toggle-3857__pupil {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #09090b;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3857__nose {
+    position: absolute;
+    left: 24px;
+    top: 23px;
+    z-index: 4;
+    width: 5px;
+    height: 9px;
+    border-radius: 50%;
+    background: #d1d5db;
+    box-shadow: 1px 1px 0 #09090b;
+}
+
+.toggle-3857__cheek {
+    position: absolute;
+    top: 29px;
+    width: 12px;
+    height: 5px;
+    border-top: 2px solid rgba(220,38,38,.6);
+    border-radius: 50%;
+}
+
+.toggle-3857__cheek-left {
+    left: 4px;
+    transform: rotate(8deg);
+}
+
+.toggle-3857__cheek-right {
+    right: 4px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3857__smile {
+    position: absolute;
+    left: 7px;
+    bottom: 4px;
+    z-index: 5;
+    width: 36px;
+    height: 17px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-radius: 8px 8px 50% 50%;
+    background: #dc2626;
+    transform: rotate(-2deg);
+    transition:
+        width .3s ease,
+        height .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3857__teeth {
+    position: absolute;
+    left: 4px;
+    right: 4px;
+    top: 3px;
+    height: 8px;
+    display: flex;
+    gap: 1px;
+}
+
+.toggle-3857__tooth {
+    flex: 1;
+    height: 8px;
+    border: 1px solid #09090b;
+    border-radius: 1px;
+    background: #ffffff;
+}
+
+.toggle-3857__tooth-1 {
+    transform: rotate(3deg);
+}
+
+.toggle-3857__tooth-2 {
+    transform: rotate(-2deg);
+}
+
+.toggle-3857__tooth-3 {
+    transform: translateY(1px);
+}
+
+.toggle-3857__tooth-4 {
+    transform: rotate(2deg);
+}
+
+.toggle-3857__tooth-5 {
+    transform: rotate(-3deg);
+}
+
+.toggle-3857__smile-cut {
+    position: absolute;
+    bottom: 10px;
+    z-index: 6;
+    width: 11px;
+    height: 3px;
+    border-radius: 999px;
+    background: #dc2626;
+}
+
+.toggle-3857__smile-cut-left {
+    left: 0;
+    transform: rotate(-22deg);
+}
+
+.toggle-3857__smile-cut-right {
+    right: 0;
+    transform: rotate(22deg);
+}
+
+.toggle-3857__suit {
+    position: absolute;
+    left: 7px;
+    bottom: 0;
+    z-index: 4;
+    width: 61px;
+    height: 27px;
+    overflow: hidden;
+    border: 4px solid #09090b;
+    border-radius: 8px 8px 15px 15px;
+    background:
+        linear-gradient(
+            90deg,
+            #6b21a8,
+            #7e22ce
+        );
+}
+
+.toggle-3857__lapel {
+    position: absolute;
+    top: 1px;
+    width: 24px;
+    height: 25px;
+    border: 2px solid #09090b;
+    background: #9333ea;
+}
+
+.toggle-3857__lapel-left {
+    left: 2px;
+    clip-path: polygon(
+        0 0,
+        100% 39%,
+        56% 100%,
+        0 68%
+    );
+}
+
+.toggle-3857__lapel-right {
+    right: 2px;
+    clip-path: polygon(
+        100% 0,
+        0 39%,
+        44% 100%,
+        100% 68%
+    );
+}
+
+.toggle-3857__shirt {
+    position: absolute;
+    left: 23px;
+    top: 0;
+    width: 15px;
+    height: 27px;
+    border-left: 2px solid #09090b;
+    border-right: 2px solid #09090b;
+    background: #facc15;
+}
+
+.toggle-3857__tie {
+    position: absolute;
+    left: 27px;
+    top: 2px;
+    width: 8px;
+    height: 19px;
+    border: 2px solid #09090b;
+    background: #22c55e;
+    clip-path: polygon(
+        50% 0,
+        100% 35%,
+        72% 100%,
+        28% 100%,
+        0 35%
+    );
+}
+
+.toggle-3857__bottom-stripe {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 12;
+    height: 8px;
+    border-top: 3px solid #09090b;
+    background:
+        linear-gradient(
+            90deg,
+            #7e22ce 0 33%,
+            #a3e635 33% 66%,
+            #dc2626 66% 100%
+        );
+}
+
+.toggle-3857__inner-frame {
+    position: absolute;
+    inset: 5px;
+    z-index: 20;
+    border: 2px solid rgba(255,255,255,.1);
+    border-radius: 13px;
+    pointer-events: none;
+}
+
+.toggle-3857:hover .toggle-3857__track {
+    transform: translate(-3px,-3px);
+    box-shadow:
+        13px 13px 0 #09090b,
+        inset 0 0 0 2px rgba(255,255,255,.1);
+}
+
+.toggle-3857:hover .toggle-3857__thumb {
+    transform:
+        rotate(-5deg)
+        scale(1.04);
+}
+
+.toggle-3857:hover .toggle-3857__thumb-aura {
+    transform: rotate(10deg) scale(1.06);
+    box-shadow:
+        6px 6px 0 #09090b,
+        0 0 17px rgba(163,230,53,.5);
+}
+
+.toggle-3857:hover .toggle-3857__head {
+    transform: scale(1.04);
+}
+
+.toggle-3857:hover .toggle-3857__smile {
+    width: 39px;
+    height: 18px;
+    transform:
+        translateX(-1px)
+        rotate(-3deg);
+}
+
+.toggle-3857:hover .toggle-3857__flower {
+    transform:
+        rotate(20deg)
+        scale(1.08);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track {
+    background: #1f2937;
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__background {
+    filter:
+        grayscale(.62)
+        brightness(.58);
+    transform: scale(1.02);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__halftone {
+    opacity: .4;
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__acid-glow {
+    left: -12px;
+    right: auto;
+    opacity: .17;
+    transform: scale(.7);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__moon {
+    left: 15px;
+    right: auto;
+    background:
+        linear-gradient(
+            145deg,
+            #9ca3af,
+            #4b5563
+        );
+    box-shadow: 3px 3px 0 #09090b;
+    transform: scale(.78);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__building-1 {
+    transform: translateX(94px);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__building-2 {
+    transform: translateX(103px);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__building-3 {
+    transform: translateX(111px);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__building-4 {
+    transform: translateX(119px);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__smoke-1 {
+    transform:
+        translateX(77px)
+        scale(.65);
+    opacity: .25;
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__smoke-2 {
+    transform:
+        translateX(69px)
+        scale(.68);
+    opacity: .2;
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__smoke-3 {
+    transform:
+        translateX(58px)
+        scale(.7);
+    opacity: .18;
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__smoke-4 {
+    transform: scale(.55);
+    opacity: .16;
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__laugh {
+    color: #9ca3af;
+    opacity: .12;
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__laugh-1 {
+    transform:
+        translateX(123px)
+        rotate(9deg)
+        scale(.7);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__laugh-2 {
+    transform:
+        translateX(116px)
+        rotate(-7deg)
+        scale(.7);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__laugh-3 {
+    transform:
+        translateX(120px)
+        rotate(5deg)
+        scale(.72);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__laugh-4 {
+    transform:
+        translateX(69px)
+        rotate(-9deg)
+        scale(.65);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__laugh-5 {
+    transform:
+        rotate(9deg)
+        scale(.65);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__card-1 {
+    left: 166px;
+    opacity: .35;
+    transform:
+        rotate(12deg)
+        scale(.72);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__card-2 {
+    left: 190px;
+    opacity: .26;
+    transform:
+        rotate(-10deg)
+        scale(.65);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__card-3 {
+    opacity: .18;
+    transform:
+        rotate(-20deg)
+        scale(.6);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__graffiti {
+    left: 162px;
+    opacity: .2;
+    transform:
+        rotate(5deg)
+        scale(.72);
+    background: #9ca3af;
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__flower {
+    left: 192px;
+    opacity: .35;
+    transform:
+        rotate(-30deg)
+        scale(.7);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__burst {
+    left: 164px;
+    right: auto;
+    background: #d1d5db;
+    transform:
+        rotate(-3deg)
+        scale(.83);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__burst-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__burst-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__thumb {
+    left: 8px;
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__thumb-aura {
+    background:
+        radial-gradient(
+            circle,
+            rgba(148,163,184,.2),
+            rgba(71,85,105,.18) 54%,
+            transparent 70%
+        );
+    box-shadow: 5px 5px 0 #09090b;
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__hair-spike {
+    background:
+        linear-gradient(
+            180deg,
+            #6b7280,
+            #374151
+        );
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__head {
+    background:
+        linear-gradient(
+            145deg,
+            #d1d5db,
+            #9ca3af
+        );
+    transform: scale(.94);
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__brow {
+    background: #4b5563;
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__smile {
+    width: 27px;
+    height: 12px;
+    left: 12px;
+    background: #7f1d1d;
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__smile-cut {
+    opacity: .25;
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__suit {
+    background:
+        linear-gradient(
+            90deg,
+            #4b5563,
+            #374151
+        );
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__lapel {
+    background: #52525b;
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__shirt {
+    background: #d1d5db;
+}
+
+.toggle-3857 input:not(:checked) + .toggle-3857__track .toggle-3857__tie {
+    background: #64748b;
+}
+
+.toggle-3857 input:checked + .toggle-3857__track {
+    background: #3b0764;
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__background {
+    filter:
+        saturate(1.2)
+        brightness(1.05);
+    transform: scale(1.04);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__halftone {
+    opacity: .25;
+    transform: translateX(-3px);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__acid-glow {
+    right: -11px;
+    left: auto;
+    opacity: 1;
+    transform: scale(1.08);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__moon {
+    right: 17px;
+    left: auto;
+    transform: scale(1.08);
+    background:
+        linear-gradient(
+            145deg,
+            #d9f99d,
+            #84cc16
+        );
+    box-shadow:
+        3px 3px 0 #09090b,
+        0 0 15px rgba(163,230,53,.52);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__building-1,
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__building-2,
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__building-3,
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__building-4 {
+    transform: translateX(0);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__smoke-1 {
+    transform:
+        translateX(-5px)
+        rotate(-14deg)
+        scale(1.05);
+    opacity: .8;
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__smoke-2 {
+    transform:
+        translateX(-3px)
+        scale(1.08);
+    opacity: .82;
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__smoke-3 {
+    transform:
+        translateX(-6px)
+        rotate(15deg)
+        scale(1.05);
+    opacity: .72;
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__smoke-4 {
+    transform:
+        rotate(-17deg)
+        scale(1.08);
+    opacity: .68;
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__laugh {
+    opacity: 1;
+    color: #bef264;
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__laugh-1 {
+    transform:
+        rotate(-13deg)
+        scale(1.08);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__laugh-2 {
+    transform:
+        rotate(9deg)
+        scale(1.12);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__laugh-3 {
+    transform:
+        rotate(-6deg)
+        scale(1.08);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__laugh-4 {
+    transform:
+        rotate(11deg)
+        scale(1.1);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__laugh-5 {
+    transform:
+        rotate(-11deg)
+        scale(1.08);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__card-1 {
+    left: 114px;
+    opacity: 1;
+    transform:
+        rotate(-15deg)
+        scale(1);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__card-2 {
+    left: 137px;
+    opacity: 1;
+    transform:
+        rotate(11deg)
+        scale(.9);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__card-3 {
+    opacity: .9;
+    transform:
+        rotate(20deg)
+        scale(.78);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__graffiti {
+    left: 76px;
+    opacity: 1;
+    transform:
+        rotate(-5deg)
+        scale(1);
+    background: #a3e635;
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__flower {
+    left: 145px;
+    opacity: 1;
+    transform:
+        rotate(20deg)
+        scale(1);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__burst {
+    left: 10px;
+    right: auto;
+    background: #fef08a;
+    transform:
+        rotate(4deg)
+        scale(1);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__burst-on {
+    opacity: 1;
+    transform:
+        rotate(-3deg)
+        scale(1);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__thumb {
+    left: 155px;
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__thumb-aura {
+    background:
+        radial-gradient(
+            circle,
+            rgba(190,242,100,.38),
+            rgba(126,34,206,.24) 54%,
+            transparent 70%
+        );
+    transform: scale(1.06);
+    box-shadow:
+        5px 5px 0 #09090b,
+        0 0 16px rgba(163,230,53,.5);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__hair-spike {
+    background:
+        linear-gradient(
+            180deg,
+            #bef264,
+            #4d7c0f
+        );
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__head {
+    background:
+        linear-gradient(
+            145deg,
+            #ffffff,
+            #e5e7eb
+        );
+    transform: scale(1.03);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__smile {
+    width: 39px;
+    height: 18px;
+    left: 6px;
+    background: #dc2626;
+    transform: rotate(-3deg);
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__smile-cut {
+    opacity: 1;
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__suit {
+    background:
+        linear-gradient(
+            90deg,
+            #6b21a8,
+            #7e22ce
+        );
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__lapel {
+    background: #9333ea;
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__shirt {
+    background: #facc15;
+}
+
+.toggle-3857 input:checked + .toggle-3857__track .toggle-3857__tie {
+    background: #22c55e;
+}
+
+.toggle-3857 input:focus-visible + .toggle-3857__track {
+    outline: 4px solid #a3e635;
+    outline-offset: 7px;
+}`,
+  },
+  {
+    id: 3858,
+    name: "Joker Wild Card Toggle",
+    preview: (
+      <label
+        className="toggle-3858"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Joker Wild Card Toggle" />
+
+        <span className="toggle-3858__track">
+          <span className="toggle-3858__halftone"></span>
+
+          <span className="toggle-3858__card">
+            <span className="toggle-3858__card-letter">J</span>
+            <span className="toggle-3858__card-symbol">♠</span>
+          </span>
+
+          <span className="toggle-3858__laugh toggle-3858__laugh-1">HA!</span>
+
+          <span className="toggle-3858__laugh toggle-3858__laugh-2">HA</span>
+
+          <span className="toggle-3858__label">
+            <span className="toggle-3858__label-off">CALM</span>
+
+            <span className="toggle-3858__label-on">JOKER!</span>
+          </span>
+
+          <span className="toggle-3858__thumb">
+            <span className="toggle-3858__hair"></span>
+
+            <span className="toggle-3858__face">
+              <span className="toggle-3858__brow toggle-3858__brow-left"></span>
+              <span className="toggle-3858__brow toggle-3858__brow-right"></span>
+
+              <span className="toggle-3858__eye toggle-3858__eye-left"></span>
+              <span className="toggle-3858__eye toggle-3858__eye-right"></span>
+
+              <span className="toggle-3858__smile">
+                <span className="toggle-3858__tooth toggle-3858__tooth-1"></span>
+                <span className="toggle-3858__tooth toggle-3858__tooth-2"></span>
+                <span className="toggle-3858__tooth toggle-3858__tooth-3"></span>
+                <span className="toggle-3858__tooth toggle-3858__tooth-4"></span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3858">
+    <input type="checkbox" aria-label="Joker Wild Card Toggle">
+
+    <span class="toggle-3858__track">
+        <span class="toggle-3858__halftone"></span>
+
+        <span class="toggle-3858__card">
+            <span class="toggle-3858__card-letter">J</span>
+            <span class="toggle-3858__card-symbol">♠</span>
+        </span>
+
+        <span class="toggle-3858__laugh toggle-3858__laugh-1">HA!</span>
+        <span class="toggle-3858__laugh toggle-3858__laugh-2">HA</span>
+
+        <span class="toggle-3858__label">
+            <span class="toggle-3858__label-off">CALM</span>
+            <span class="toggle-3858__label-on">JOKER!</span>
+        </span>
+
+        <span class="toggle-3858__thumb">
+            <span class="toggle-3858__hair"></span>
+
+            <span class="toggle-3858__face">
+                <span class="toggle-3858__brow toggle-3858__brow-left"></span>
+                <span class="toggle-3858__brow toggle-3858__brow-right"></span>
+
+                <span class="toggle-3858__eye toggle-3858__eye-left"></span>
+                <span class="toggle-3858__eye toggle-3858__eye-right"></span>
+
+                <span class="toggle-3858__smile">
+                    <span class="toggle-3858__tooth toggle-3858__tooth-1"></span>
+                    <span class="toggle-3858__tooth toggle-3858__tooth-2"></span>
+                    <span class="toggle-3858__tooth toggle-3858__tooth-3"></span>
+                    <span class="toggle-3858__tooth toggle-3858__tooth-4"></span>
+                </span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3858 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3858 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3858__track {
+    position: relative;
+    width: 162px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 14px;
+    background: #3b0764;
+    box-shadow: 8px 8px 0 #111111;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+
+.toggle-3858__halftone {
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(
+            rgba(17,17,17,.55) 1.4px,
+            transparent 1.6px
+        );
+    background-size: 8px 8px;
+    opacity: .27;
+}
+
+.toggle-3858__card {
+    position: absolute;
+    right: 11px;
+    top: 8px;
+    width: 30px;
+    height: 40px;
+    border: 3px solid #111111;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(11deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .35s ease,
+        opacity .3s ease;
+}
+
+.toggle-3858__card-letter {
+    position: absolute;
+    left: 4px;
+    top: 3px;
+    color: #dc2626;
+    font: 900 10px/1 Georgia, serif;
+}
+
+.toggle-3858__card-symbol {
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    color: #111111;
+    font-size: 14px;
+    transform: translate(-50%, -50%);
+}
+
+.toggle-3858__laugh {
+    position: absolute;
+    z-index: 3;
+    color: #a3e635;
+    font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+    font-weight: 900;
+    text-shadow: 2px 2px 0 #111111;
+    transition:
+        transform .35s ease,
+        opacity .3s ease;
+}
+
+.toggle-3858__laugh-1 {
+    right: 46px;
+    top: 8px;
+    font-size: 14px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3858__laugh-2 {
+    right: 43px;
+    bottom: 8px;
+    font-size: 10px;
+    transform: rotate(8deg);
+}
+
+.toggle-3858__label {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    z-index: 5;
+    width: 49px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(3deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        background .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3858__label-off,
+.toggle-3858__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3858__label-off {
+    opacity: 1;
+}
+
+.toggle-3858__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3858__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 7;
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #52525b;
+    box-shadow: 5px 5px 0 #111111;
+    transition:
+        left .35s cubic-bezier(.34,1.56,.64,1),
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3858__hair {
+    position: absolute;
+    left: 9px;
+    top: 4px;
+    z-index: 4;
+    width: 34px;
+    height: 16px;
+    border: 3px solid #111111;
+    background: #84cc16;
+    clip-path: polygon(
+        0 100%,
+        8% 28%,
+        25% 56%,
+        36% 0,
+        50% 48%,
+        65% 0,
+        76% 54%,
+        93% 25%,
+        100% 100%
+    );
+    transition:
+        background .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3858__face {
+    position: relative;
+    width: 34px;
+    height: 36px;
+    margin-top: 7px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    border-radius: 47% 47% 45% 45%;
+    background: #f8fafc;
+    transition:
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3858__brow {
+    position: absolute;
+    top: 8px;
+    width: 10px;
+    height: 3px;
+    border-radius: 999px;
+    background: #166534;
+}
+
+.toggle-3858__brow-left {
+    left: 4px;
+    transform: rotate(-17deg);
+}
+
+.toggle-3858__brow-right {
+    right: 4px;
+    transform: rotate(17deg);
+}
+
+.toggle-3858__eye {
+    position: absolute;
+    top: 13px;
+    width: 7px;
+    height: 5px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.toggle-3858__eye-left {
+    left: 5px;
+}
+
+.toggle-3858__eye-right {
+    right: 5px;
+}
+
+.toggle-3858__smile {
+    position: absolute;
+    left: 5px;
+    bottom: 4px;
+    width: 20px;
+    height: 9px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    border-radius: 4px 4px 50% 50%;
+    background: #dc2626;
+    transition:
+        width .3s ease,
+        height .3s ease,
+        left .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3858__tooth {
+    position: absolute;
+    top: 1px;
+    width: 4px;
+    height: 5px;
+    border-right: 1px solid #111111;
+    background: #ffffff;
+}
+
+.toggle-3858__tooth-1 {
+    left: 1px;
+}
+
+.toggle-3858__tooth-2 {
+    left: 5px;
+}
+
+.toggle-3858__tooth-3 {
+    left: 9px;
+}
+
+.toggle-3858__tooth-4 {
+    left: 13px;
+}
+
+.toggle-3858:hover .toggle-3858__track {
+    transform: translate(-2px, -2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3858:hover .toggle-3858__thumb {
+    transform: rotate(-8deg) scale(1.05);
+}
+
+.toggle-3858 input:checked + .toggle-3858__track {
+    background:
+        linear-gradient(
+            135deg,
+            #581c87,
+            #7e22ce
+        );
+}
+
+.toggle-3858 input:checked + .toggle-3858__track .toggle-3858__thumb {
+    left: 100px;
+    background: #a3e635;
+}
+
+.toggle-3858 input:checked + .toggle-3858__track .toggle-3858__hair {
+    background: #a3e635;
+    transform: scale(1.08);
+}
+
+.toggle-3858 input:checked + .toggle-3858__track .toggle-3858__face {
+    background: #ffffff;
+    transform: scale(1.07);
+}
+
+.toggle-3858 input:checked + .toggle-3858__track .toggle-3858__smile {
+    left: 3px;
+    width: 24px;
+    height: 11px;
+    transform: rotate(-3deg);
+}
+
+.toggle-3858 input:checked + .toggle-3858__track .toggle-3858__card {
+    left: 11px;
+    right: auto;
+    transform: rotate(-13deg);
+}
+
+.toggle-3858 input:checked + .toggle-3858__track .toggle-3858__laugh-1 {
+    transform:
+        translateX(-88px)
+        rotate(8deg)
+        scale(1.08);
+}
+
+.toggle-3858 input:checked + .toggle-3858__track .toggle-3858__laugh-2 {
+    transform:
+        translateX(-85px)
+        rotate(-8deg)
+        scale(1.1);
+}
+
+.toggle-3858 input:checked + .toggle-3858__track .toggle-3858__label {
+    left: 8px;
+    right: auto;
+    background: #d9f99d;
+    transform: rotate(-3deg);
+}
+
+.toggle-3858 input:checked + .toggle-3858__track .toggle-3858__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3858 input:checked + .toggle-3858__track .toggle-3858__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3858 input:not(:checked) + .toggle-3858__track .toggle-3858__card {
+    opacity: .55;
+}
+
+.toggle-3858 input:not(:checked) + .toggle-3858__track .toggle-3858__laugh {
+    opacity: .35;
+}
+
+.toggle-3858 input:not(:checked) + .toggle-3858__track .toggle-3858__hair {
+    background: #65a30d;
+}
+
+.toggle-3858 input:not(:checked) + .toggle-3858__track .toggle-3858__face {
+    background: #d1d5db;
+}
+
+.toggle-3858 input:focus-visible + .toggle-3858__track {
+    outline: 3px solid #a3e635;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3859,
+    name: "Joker HA HA Chaos Toggle",
+    preview: (
+      <label
+        className="toggle-3859"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Joker HA HA Chaos Toggle"
+        />
+
+        <span className="toggle-3859__track">
+          <span className="toggle-3859__background"></span>
+          <span className="toggle-3859__halftone"></span>
+
+          <span className="toggle-3859__laugh toggle-3859__laugh-1">HA</span>
+          <span className="toggle-3859__laugh toggle-3859__laugh-2">HA!</span>
+          <span className="toggle-3859__laugh toggle-3859__laugh-3">HAHA</span>
+          <span className="toggle-3859__laugh toggle-3859__laugh-4">HA</span>
+          <span className="toggle-3859__laugh toggle-3859__laugh-5">HA!</span>
+          <span className="toggle-3859__laugh toggle-3859__laugh-6">HAHA</span>
+
+          <span className="toggle-3859__card">
+            <span className="toggle-3859__card-letter">J</span>
+            <span className="toggle-3859__card-symbol">♣</span>
+          </span>
+
+          <span className="toggle-3859__bubble">
+            <span className="toggle-3859__bubble-off">QUIET</span>
+            <span className="toggle-3859__bubble-on">HAHA!</span>
+          </span>
+
+          <span className="toggle-3859__thumb">
+            <span className="toggle-3859__hair">
+              <span className="toggle-3859__hair-point toggle-3859__hair-point-1"></span>
+              <span className="toggle-3859__hair-point toggle-3859__hair-point-2"></span>
+              <span className="toggle-3859__hair-point toggle-3859__hair-point-3"></span>
+              <span className="toggle-3859__hair-point toggle-3859__hair-point-4"></span>
+            </span>
+
+            <span className="toggle-3859__face">
+              <span className="toggle-3859__brow toggle-3859__brow-left"></span>
+              <span className="toggle-3859__brow toggle-3859__brow-right"></span>
+
+              <span className="toggle-3859__eye toggle-3859__eye-left"></span>
+              <span className="toggle-3859__eye toggle-3859__eye-right"></span>
+
+              <span className="toggle-3859__nose"></span>
+
+              <span className="toggle-3859__smile">
+                <span className="toggle-3859__teeth"></span>
+              </span>
+            </span>
+
+            <span className="toggle-3859__collar"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3859">
+    <input type="checkbox" checked aria-label="Joker HA HA Chaos Toggle">
+
+    <span class="toggle-3859__track">
+        <span class="toggle-3859__background"></span>
+        <span class="toggle-3859__halftone"></span>
+
+        <span class="toggle-3859__laugh toggle-3859__laugh-1">HA</span>
+        <span class="toggle-3859__laugh toggle-3859__laugh-2">HA!</span>
+        <span class="toggle-3859__laugh toggle-3859__laugh-3">HAHA</span>
+        <span class="toggle-3859__laugh toggle-3859__laugh-4">HA</span>
+        <span class="toggle-3859__laugh toggle-3859__laugh-5">HA!</span>
+        <span class="toggle-3859__laugh toggle-3859__laugh-6">HAHA</span>
+
+        <span class="toggle-3859__card">
+            <span class="toggle-3859__card-letter">J</span>
+            <span class="toggle-3859__card-symbol">♣</span>
+        </span>
+
+        <span class="toggle-3859__bubble">
+            <span class="toggle-3859__bubble-off">QUIET</span>
+            <span class="toggle-3859__bubble-on">HAHA!</span>
+        </span>
+
+        <span class="toggle-3859__thumb">
+            <span class="toggle-3859__hair">
+                <span class="toggle-3859__hair-point toggle-3859__hair-point-1"></span>
+                <span class="toggle-3859__hair-point toggle-3859__hair-point-2"></span>
+                <span class="toggle-3859__hair-point toggle-3859__hair-point-3"></span>
+                <span class="toggle-3859__hair-point toggle-3859__hair-point-4"></span>
+            </span>
+
+            <span class="toggle-3859__face">
+                <span class="toggle-3859__brow toggle-3859__brow-left"></span>
+                <span class="toggle-3859__brow toggle-3859__brow-right"></span>
+
+                <span class="toggle-3859__eye toggle-3859__eye-left"></span>
+                <span class="toggle-3859__eye toggle-3859__eye-right"></span>
+
+                <span class="toggle-3859__nose"></span>
+
+                <span class="toggle-3859__smile">
+                    <span class="toggle-3859__teeth"></span>
+                </span>
+            </span>
+
+            <span class="toggle-3859__collar"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3859 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3859 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3859__track {
+    position: relative;
+    width: 164px;
+    height: 72px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 14px;
+    background: #581c87;
+    box-shadow: 8px 8px 0 #111111;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+
+.toggle-3859__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle at 75% 35%,
+            rgba(163,230,53,.34),
+            transparent 32%
+        ),
+        linear-gradient(
+            135deg,
+            #3b0764,
+            #6b21a8 55%,
+            #3f6212
+        );
+    transition:
+        filter .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3859__halftone {
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(
+            rgba(17,17,17,.5) 1.3px,
+            transparent 1.6px
+        );
+    background-size: 8px 8px;
+    opacity: .28;
+}
+
+.toggle-3859__laugh {
+    position: absolute;
+    z-index: 2;
+    color: #bef264;
+    font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+    font-weight: 900;
+    line-height: 1;
+    text-shadow:
+        2px 2px 0 #111111;
+    transition:
+        transform .35s ease,
+        opacity .3s ease,
+        color .3s ease;
+}
+
+.toggle-3859__laugh-1 {
+    left: 8px;
+    top: 8px;
+    font-size: 13px;
+    transform: rotate(-12deg);
+}
+
+.toggle-3859__laugh-2 {
+    left: 31px;
+    top: 11px;
+    font-size: 9px;
+    transform: rotate(8deg);
+}
+
+.toggle-3859__laugh-3 {
+    left: 8px;
+    top: 28px;
+    font-size: 10px;
+    transform: rotate(5deg);
+}
+
+.toggle-3859__laugh-4 {
+    left: 35px;
+    bottom: 9px;
+    font-size: 12px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3859__laugh-5 {
+    right: 10px;
+    top: 8px;
+    font-size: 10px;
+    transform: rotate(11deg);
+}
+
+.toggle-3859__laugh-6 {
+    right: 5px;
+    bottom: 10px;
+    font-size: 9px;
+    transform: rotate(-7deg);
+}
+
+.toggle-3859__card {
+    position: absolute;
+    right: 12px;
+    top: 16px;
+    z-index: 3;
+    width: 27px;
+    height: 36px;
+    border: 3px solid #111111;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(11deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .35s ease,
+        opacity .3s ease;
+}
+
+.toggle-3859__card-letter {
+    position: absolute;
+    left: 3px;
+    top: 2px;
+    color: #dc2626;
+    font: 900 9px/1 Georgia, serif;
+}
+
+.toggle-3859__card-symbol {
+    position: absolute;
+    left: 50%;
+    top: 56%;
+    color: #111111;
+    font-size: 13px;
+    transform: translate(-50%, -50%);
+}
+
+.toggle-3859__bubble {
+    position: absolute;
+    right: 7px;
+    bottom: 4px;
+    z-index: 5;
+    width: 49px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(3deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        background .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3859__bubble::after {
+    content: "";
+    position: absolute;
+    right: 5px;
+    bottom: -7px;
+    width: 9px;
+    height: 9px;
+    border-right: 3px solid #111111;
+    border-bottom: 3px solid #111111;
+    background: inherit;
+    transform: rotate(45deg);
+}
+
+.toggle-3859__bubble-off,
+.toggle-3859__bubble-on {
+    position: absolute;
+    z-index: 2;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3859__bubble-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3859__bubble-on {
+    opacity: 1;
+}
+
+.toggle-3859__thumb {
+    position: absolute;
+    left: 100px;
+    top: 7px;
+    z-index: 8;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #a3e635;
+    box-shadow: 5px 5px 0 #111111;
+    transition:
+        left .35s cubic-bezier(.34,1.56,.64,1),
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3859__hair {
+    position: absolute;
+    left: 7px;
+    top: 2px;
+    z-index: 5;
+    width: 38px;
+    height: 18px;
+}
+
+.toggle-3859__hair-point {
+    position: absolute;
+    bottom: 0;
+    width: 13px;
+    height: 17px;
+    border: 2px solid #111111;
+    background: #84cc16;
+    clip-path: polygon(
+        50% 0,
+        100% 100%,
+        0 100%
+    );
+    transform-origin: bottom center;
+    transition:
+        background .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3859__hair-point-1 {
+    left: 0;
+    transform: rotate(-26deg);
+}
+
+.toggle-3859__hair-point-2 {
+    left: 9px;
+    transform: rotate(-9deg);
+}
+
+.toggle-3859__hair-point-3 {
+    right: 9px;
+    transform: rotate(9deg);
+}
+
+.toggle-3859__hair-point-4 {
+    right: 0;
+    transform: rotate(26deg);
+}
+
+.toggle-3859__face {
+    position: absolute;
+    left: 8px;
+    top: 11px;
+    z-index: 4;
+    width: 36px;
+    height: 34px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    border-radius: 46% 46% 48% 48%;
+    background: #ffffff;
+    transition:
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3859__brow {
+    position: absolute;
+    top: 7px;
+    width: 10px;
+    height: 3px;
+    border-radius: 999px;
+    background: #166534;
+}
+
+.toggle-3859__brow-left {
+    left: 4px;
+    transform: rotate(-17deg);
+}
+
+.toggle-3859__brow-right {
+    right: 4px;
+    transform: rotate(17deg);
+}
+
+.toggle-3859__eye {
+    position: absolute;
+    top: 12px;
+    width: 7px;
+    height: 5px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.toggle-3859__eye-left {
+    left: 5px;
+}
+
+.toggle-3859__eye-right {
+    right: 5px;
+}
+
+.toggle-3859__nose {
+    position: absolute;
+    left: 15px;
+    top: 16px;
+    width: 4px;
+    height: 5px;
+    border-radius: 50%;
+    background: #d1d5db;
+}
+
+.toggle-3859__smile {
+    position: absolute;
+    left: 4px;
+    bottom: 3px;
+    width: 23px;
+    height: 9px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    border-radius: 4px 4px 50% 50%;
+    background: #dc2626;
+    transform: rotate(-2deg);
+    transition:
+        left .3s ease,
+        width .3s ease,
+        height .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3859__teeth {
+    position: absolute;
+    left: 3px;
+    right: 3px;
+    top: 2px;
+    height: 5px;
+    background:
+        repeating-linear-gradient(
+            90deg,
+            #ffffff 0 4px,
+            #111111 4px 5px
+        );
+}
+
+.toggle-3859__collar {
+    position: absolute;
+    left: 12px;
+    bottom: 1px;
+    z-index: 3;
+    width: 28px;
+    height: 12px;
+    border: 3px solid #111111;
+    border-top: 0;
+    background: #7e22ce;
+    clip-path: polygon(
+        0 0,
+        50% 100%,
+        100% 0,
+        83% 100%,
+        17% 100%
+    );
+}
+
+.toggle-3859:hover .toggle-3859__track {
+    transform: translate(-2px, -2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3859:hover .toggle-3859__thumb {
+    transform:
+        rotate(-8deg)
+        scale(1.05);
+}
+
+.toggle-3859:hover .toggle-3859__smile {
+    left: 2px;
+    width: 27px;
+    height: 11px;
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track {
+    background: #27272a;
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track .toggle-3859__background {
+    filter:
+        grayscale(.65)
+        brightness(.65);
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track .toggle-3859__thumb {
+    left: 6px;
+    background: #71717a;
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track .toggle-3859__face {
+    background: #d4d4d8;
+    transform: scale(.92);
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track .toggle-3859__hair-point {
+    background: #4b5563;
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track .toggle-3859__laugh {
+    color: #9ca3af;
+    opacity: .22;
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track .toggle-3859__laugh-1 {
+    transform:
+        translateX(83px)
+        rotate(10deg)
+        scale(.7);
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track .toggle-3859__laugh-2 {
+    transform:
+        translateX(70px)
+        rotate(-8deg)
+        scale(.7);
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track .toggle-3859__laugh-3 {
+    transform:
+        translateX(80px)
+        rotate(-5deg)
+        scale(.7);
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track .toggle-3859__laugh-4 {
+    transform:
+        translateX(67px)
+        rotate(8deg)
+        scale(.7);
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track .toggle-3859__laugh-5 {
+    opacity: .15;
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track .toggle-3859__laugh-6 {
+    opacity: .15;
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track .toggle-3859__card {
+    left: 112px;
+    right: auto;
+    opacity: .45;
+    transform:
+        rotate(-10deg)
+        scale(.8);
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track .toggle-3859__bubble {
+    left: 105px;
+    right: auto;
+    background: #e5e7eb;
+    transform: rotate(-3deg);
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track .toggle-3859__bubble-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3859 input:not(:checked) + .toggle-3859__track .toggle-3859__bubble-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3859 input:checked + .toggle-3859__track {
+    background: #581c87;
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__background {
+    filter:
+        saturate(1.15)
+        brightness(1.05);
+    transform: scale(1.03);
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__thumb {
+    left: 100px;
+    background: #a3e635;
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__face {
+    background: #ffffff;
+    transform: scale(1.05);
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__hair-point {
+    background: #84cc16;
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__smile {
+    left: 2px;
+    width: 27px;
+    height: 11px;
+    transform: rotate(-3deg);
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__laugh {
+    opacity: 1;
+    color: #bef264;
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__laugh-1 {
+    transform:
+        rotate(-14deg)
+        scale(1.08);
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__laugh-2 {
+    transform:
+        rotate(10deg)
+        scale(1.08);
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__laugh-3 {
+    transform:
+        rotate(7deg)
+        scale(1.08);
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__laugh-4 {
+    transform:
+        rotate(-10deg)
+        scale(1.08);
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__laugh-5 {
+    transform:
+        rotate(13deg)
+        scale(1.08);
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__laugh-6 {
+    transform:
+        rotate(-9deg)
+        scale(1.08);
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__card {
+    left: 10px;
+    right: auto;
+    opacity: 1;
+    transform:
+        rotate(-13deg)
+        scale(1);
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__bubble {
+    left: 8px;
+    right: auto;
+    background: #d9f99d;
+    transform: rotate(-4deg);
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__bubble-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3859 input:checked + .toggle-3859__track .toggle-3859__bubble-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3859 input:focus-visible + .toggle-3859__track {
+    outline: 3px solid #a3e635;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3860,
+    name: "Two-Face Coin Flip Toggle",
+    preview: (
+      <label
+        className="toggle-3860"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Two-Face Coin Flip Toggle" />
+
+        <span className="toggle-3860__track">
+          <span className="toggle-3860__left-panel"></span>
+          <span className="toggle-3860__right-panel"></span>
+          <span className="toggle-3860__halftone"></span>
+
+          <span className="toggle-3860__city"></span>
+
+          <span className="toggle-3860__scratch toggle-3860__scratch-1"></span>
+          <span className="toggle-3860__scratch toggle-3860__scratch-2"></span>
+          <span className="toggle-3860__scratch toggle-3860__scratch-3"></span>
+
+          <span className="toggle-3860__coin">
+            <span className="toggle-3860__coin-ring"></span>
+            <span className="toggle-3860__coin-face">2</span>
+            <span className="toggle-3860__coin-cut"></span>
+          </span>
+
+          <span className="toggle-3860__label">
+            <span className="toggle-3860__label-off">HEADS</span>
+            <span className="toggle-3860__label-on">TAILS</span>
+          </span>
+
+          <span className="toggle-3860__thumb">
+            <span className="toggle-3860__hair"></span>
+
+            <span className="toggle-3860__face">
+              <span className="toggle-3860__face-good"></span>
+              <span className="toggle-3860__face-bad"></span>
+
+              <span className="toggle-3860__brow toggle-3860__brow-left"></span>
+              <span className="toggle-3860__brow toggle-3860__brow-right"></span>
+
+              <span className="toggle-3860__eye toggle-3860__eye-left"></span>
+              <span className="toggle-3860__eye toggle-3860__eye-right"></span>
+
+              <span className="toggle-3860__nose"></span>
+
+              <span className="toggle-3860__mouth">
+                <span className="toggle-3860__mouth-good"></span>
+                <span className="toggle-3860__mouth-bad"></span>
+              </span>
+
+              <span className="toggle-3860__scar toggle-3860__scar-1"></span>
+              <span className="toggle-3860__scar toggle-3860__scar-2"></span>
+            </span>
+
+            <span className="toggle-3860__suit">
+              <span className="toggle-3860__suit-good"></span>
+              <span className="toggle-3860__suit-bad"></span>
+              <span className="toggle-3860__tie"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3860">
+    <input type="checkbox" aria-label="Two-Face Coin Flip Toggle">
+
+    <span class="toggle-3860__track">
+        <span class="toggle-3860__left-panel"></span>
+        <span class="toggle-3860__right-panel"></span>
+        <span class="toggle-3860__halftone"></span>
+
+        <span class="toggle-3860__city"></span>
+
+        <span class="toggle-3860__scratch toggle-3860__scratch-1"></span>
+        <span class="toggle-3860__scratch toggle-3860__scratch-2"></span>
+        <span class="toggle-3860__scratch toggle-3860__scratch-3"></span>
+
+        <span class="toggle-3860__coin">
+            <span class="toggle-3860__coin-ring"></span>
+            <span class="toggle-3860__coin-face">2</span>
+            <span class="toggle-3860__coin-cut"></span>
+        </span>
+
+        <span class="toggle-3860__label">
+            <span class="toggle-3860__label-off">HEADS</span>
+            <span class="toggle-3860__label-on">TAILS</span>
+        </span>
+
+        <span class="toggle-3860__thumb">
+            <span class="toggle-3860__hair"></span>
+
+            <span class="toggle-3860__face">
+                <span class="toggle-3860__face-good"></span>
+                <span class="toggle-3860__face-bad"></span>
+
+                <span class="toggle-3860__brow toggle-3860__brow-left"></span>
+                <span class="toggle-3860__brow toggle-3860__brow-right"></span>
+
+                <span class="toggle-3860__eye toggle-3860__eye-left"></span>
+                <span class="toggle-3860__eye toggle-3860__eye-right"></span>
+
+                <span class="toggle-3860__nose"></span>
+
+                <span class="toggle-3860__mouth">
+                    <span class="toggle-3860__mouth-good"></span>
+                    <span class="toggle-3860__mouth-bad"></span>
+                </span>
+
+                <span class="toggle-3860__scar toggle-3860__scar-1"></span>
+                <span class="toggle-3860__scar toggle-3860__scar-2"></span>
+            </span>
+
+            <span class="toggle-3860__suit">
+                <span class="toggle-3860__suit-good"></span>
+                <span class="toggle-3860__suit-bad"></span>
+                <span class="toggle-3860__tie"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3860 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3860 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3860__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 14px;
+    background: #27272a;
+    box-shadow: 8px 8px 0 #111111;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+
+.toggle-3860__left-panel {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 54%;
+    background:
+        linear-gradient(
+            135deg,
+            #e5e7eb,
+            #9ca3af
+        );
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        76% 100%,
+        0 100%
+    );
+    transition:
+        width .35s ease,
+        filter .3s ease;
+}
+
+.toggle-3860__right-panel {
+    position: absolute;
+    inset: 0 0 0 auto;
+    width: 57%;
+    background:
+        linear-gradient(
+            135deg,
+            #581c87,
+            #7e22ce 55%,
+            #3b0764
+        );
+    clip-path: polygon(
+        26% 0,
+        100% 0,
+        100% 100%,
+        0 100%
+    );
+    transition:
+        width .35s ease,
+        filter .3s ease;
+}
+
+.toggle-3860__halftone {
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(
+            rgba(17,17,17,.5) 1.3px,
+            transparent 1.6px
+        );
+    background-size: 8px 8px;
+    opacity: .25;
+}
+
+.toggle-3860__city {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 23px;
+    background: #111111;
+    clip-path: polygon(
+        0 100%,
+        0 53%,
+        8% 53%,
+        8% 22%,
+        16% 22%,
+        16% 68%,
+        26% 68%,
+        26% 35%,
+        35% 35%,
+        35% 8%,
+        44% 8%,
+        44% 61%,
+        54% 61%,
+        54% 30%,
+        64% 30%,
+        64% 69%,
+        74% 69%,
+        74% 24%,
+        84% 24%,
+        84% 57%,
+        93% 57%,
+        93% 16%,
+        100% 16%,
+        100% 100%
+    );
+    opacity: .8;
+}
+
+.toggle-3860__scratch {
+    position: absolute;
+    z-index: 3;
+    height: 3px;
+    border: 1px solid #111111;
+    background: #f8fafc;
+    transition:
+        transform .35s ease,
+        opacity .3s ease;
+}
+
+.toggle-3860__scratch-1 {
+    right: 14px;
+    top: 11px;
+    width: 40px;
+    transform: rotate(-17deg);
+}
+
+.toggle-3860__scratch-2 {
+    right: 8px;
+    top: 26px;
+    width: 33px;
+    transform: rotate(13deg);
+}
+
+.toggle-3860__scratch-3 {
+    right: 23px;
+    bottom: 11px;
+    width: 42px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3860__coin {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    z-index: 4;
+    width: 42px;
+    height: 42px;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            135deg,
+            #f8fafc,
+            #9ca3af
+        );
+    box-shadow:
+        4px 4px 0 #111111;
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .45s ease,
+        background .3s ease;
+}
+
+.toggle-3860__coin-ring {
+    position: absolute;
+    inset: 5px;
+    border: 2px solid #71717a;
+    border-radius: 50%;
+}
+
+.toggle-3860__coin-face {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #27272a;
+    font: 900 14px/1 Georgia, serif;
+    transform: translate(-50%, -50%);
+}
+
+.toggle-3860__coin-cut {
+    position: absolute;
+    right: 1px;
+    top: 2px;
+    width: 18px;
+    height: 34px;
+    border-radius: 0 50% 50% 0;
+    background:
+        repeating-linear-gradient(
+            -35deg,
+            #71717a 0 3px,
+            #d4d4d8 3px 6px
+        );
+    clip-path: polygon(
+        45% 0,
+        100% 0,
+        100% 100%,
+        30% 100%,
+        55% 80%,
+        31% 63%,
+        53% 45%,
+        28% 25%
+    );
+    transition:
+        opacity .3s ease,
+        background .3s ease;
+}
+
+.toggle-3860__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 5;
+    width: 49px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(2deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        background .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3860__label-off,
+.toggle-3860__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3860__label-off {
+    opacity: 1;
+}
+
+.toggle-3860__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3860__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 8;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #d4d4d8;
+    box-shadow: 5px 5px 0 #111111;
+    transition:
+        left .35s cubic-bezier(.34,1.56,.64,1),
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3860__hair {
+    position: absolute;
+    left: 8px;
+    top: 3px;
+    z-index: 5;
+    width: 36px;
+    height: 13px;
+    border: 3px solid #111111;
+    border-bottom: 0;
+    border-radius: 50% 50% 0 0;
+    background:
+        linear-gradient(
+            90deg,
+            #292524 0 50%,
+            #f8fafc 50%
+        );
+    transform: rotate(-2deg);
+}
+
+.toggle-3860__face {
+    position: absolute;
+    left: 8px;
+    top: 10px;
+    z-index: 4;
+    width: 36px;
+    height: 35px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    border-radius: 47% 47% 46% 46%;
+}
+
+.toggle-3860__face-good {
+    position: absolute;
+    inset: 0 50% 0 0;
+    background: #fde7cf;
+}
+
+.toggle-3860__face-bad {
+    position: absolute;
+    inset: 0 0 0 50%;
+    background:
+        repeating-linear-gradient(
+            -35deg,
+            #7e22ce 0 4px,
+            #581c87 4px 8px
+        );
+}
+
+.toggle-3860__brow {
+    position: absolute;
+    top: 7px;
+    z-index: 3;
+    width: 10px;
+    height: 3px;
+    border-radius: 999px;
+    background: #111111;
+}
+
+.toggle-3860__brow-left {
+    left: 4px;
+    transform: rotate(-12deg);
+}
+
+.toggle-3860__brow-right {
+    right: 4px;
+    background: #f8fafc;
+    transform: rotate(18deg);
+}
+
+.toggle-3860__eye {
+    position: absolute;
+    top: 12px;
+    z-index: 4;
+    width: 7px;
+    height: 5px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+}
+
+.toggle-3860__eye-left {
+    left: 5px;
+    background: #ffffff;
+}
+
+.toggle-3860__eye-right {
+    right: 5px;
+    background: #facc15;
+    box-shadow:
+        0 0 5px #facc15;
+}
+
+.toggle-3860__nose {
+    position: absolute;
+    left: 15px;
+    top: 16px;
+    z-index: 4;
+    width: 4px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(17,17,17,.45);
+}
+
+.toggle-3860__mouth {
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    z-index: 4;
+    width: 24px;
+    height: 8px;
+    overflow: hidden;
+    border: 2px solid #111111;
+    border-radius: 0 0 50% 50%;
+}
+
+.toggle-3860__mouth-good {
+    position: absolute;
+    inset: 0 50% 0 0;
+    background: #ffffff;
+}
+
+.toggle-3860__mouth-bad {
+    position: absolute;
+    inset: 0 0 0 50%;
+    background: #dc2626;
+}
+
+.toggle-3860__scar {
+    position: absolute;
+    z-index: 5;
+    width: 10px;
+    height: 2px;
+    background: #f8fafc;
+}
+
+.toggle-3860__scar-1 {
+    right: 1px;
+    top: 9px;
+    transform: rotate(-31deg);
+}
+
+.toggle-3860__scar-2 {
+    right: 2px;
+    top: 23px;
+    transform: rotate(28deg);
+}
+
+.toggle-3860__suit {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    z-index: 3;
+    width: 32px;
+    height: 13px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+}
+
+.toggle-3860__suit-good {
+    position: absolute;
+    inset: 0 50% 0 0;
+    background: #27272a;
+}
+
+.toggle-3860__suit-bad {
+    position: absolute;
+    inset: 0 0 0 50%;
+    background: #7e22ce;
+}
+
+.toggle-3860__tie {
+    position: absolute;
+    left: 13px;
+    top: 0;
+    z-index: 4;
+    width: 6px;
+    height: 11px;
+    border: 1px solid #111111;
+    background: #dc2626;
+    clip-path: polygon(
+        50% 0,
+        100% 35%,
+        70% 100%,
+        30% 100%,
+        0 35%
+    );
+}
+
+.toggle-3860:hover .toggle-3860__track {
+    transform: translate(-2px, -2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3860:hover .toggle-3860__thumb {
+    transform:
+        rotate(-7deg)
+        scale(1.05);
+}
+
+.toggle-3860:hover .toggle-3860__coin {
+    transform:
+        rotate(25deg)
+        scale(1.06);
+}
+
+.toggle-3860 input:not(:checked) + .toggle-3860__track .toggle-3860__left-panel {
+    width: 67%;
+}
+
+.toggle-3860 input:not(:checked) + .toggle-3860__track .toggle-3860__right-panel {
+    width: 42%;
+    filter: grayscale(.5);
+}
+
+.toggle-3860 input:not(:checked) + .toggle-3860__track .toggle-3860__thumb {
+    left: 6px;
+    background: #e5e7eb;
+}
+
+.toggle-3860 input:not(:checked) + .toggle-3860__track .toggle-3860__coin {
+    left: 110px;
+    right: auto;
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #d4d4d8
+        );
+    transform: rotate(-18deg);
+}
+
+.toggle-3860 input:not(:checked) + .toggle-3860__track .toggle-3860__coin-cut {
+    opacity: .3;
+}
+
+.toggle-3860 input:not(:checked) + .toggle-3860__track .toggle-3860__scratch {
+    opacity: .2;
+}
+
+.toggle-3860 input:not(:checked) + .toggle-3860__track .toggle-3860__scratch-1 {
+    transform:
+        translateX(12px)
+        rotate(-17deg);
+}
+
+.toggle-3860 input:not(:checked) + .toggle-3860__track .toggle-3860__scratch-2 {
+    transform:
+        translateX(16px)
+        rotate(13deg);
+}
+
+.toggle-3860 input:not(:checked) + .toggle-3860__track .toggle-3860__scratch-3 {
+    transform:
+        translateX(10px)
+        rotate(-8deg);
+}
+
+.toggle-3860 input:not(:checked) + .toggle-3860__track .toggle-3860__label {
+    left: 107px;
+    right: auto;
+    background: #ffffff;
+    transform: rotate(-2deg);
+}
+
+.toggle-3860 input:not(:checked) + .toggle-3860__track .toggle-3860__label-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3860 input:not(:checked) + .toggle-3860__track .toggle-3860__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3860 input:checked + .toggle-3860__track .toggle-3860__left-panel {
+    width: 43%;
+    filter: brightness(.72);
+}
+
+.toggle-3860 input:checked + .toggle-3860__track .toggle-3860__right-panel {
+    width: 70%;
+    filter:
+        saturate(1.2)
+        brightness(1.08);
+}
+
+.toggle-3860 input:checked + .toggle-3860__track .toggle-3860__thumb {
+    left: 102px;
+    background: #7e22ce;
+}
+
+.toggle-3860 input:checked + .toggle-3860__track .toggle-3860__coin {
+    left: 10px;
+    right: auto;
+    background:
+        linear-gradient(
+            135deg,
+            #a1a1aa,
+            #52525b
+        );
+    transform: rotate(195deg);
+}
+
+.toggle-3860 input:checked + .toggle-3860__track .toggle-3860__coin-cut {
+    opacity: 1;
+    background:
+        repeating-linear-gradient(
+            -35deg,
+            #3f3f46 0 3px,
+            #a1a1aa 3px 6px
+        );
+}
+
+.toggle-3860 input:checked + .toggle-3860__track .toggle-3860__scratch {
+    opacity: 1;
+}
+
+.toggle-3860 input:checked + .toggle-3860__track .toggle-3860__scratch-1 {
+    transform:
+        translateX(-98px)
+        rotate(17deg);
+}
+
+.toggle-3860 input:checked + .toggle-3860__track .toggle-3860__scratch-2 {
+    transform:
+        translateX(-91px)
+        rotate(-13deg);
+}
+
+.toggle-3860 input:checked + .toggle-3860__track .toggle-3860__scratch-3 {
+    transform:
+        translateX(-96px)
+        rotate(8deg);
+}
+
+.toggle-3860 input:checked + .toggle-3860__track .toggle-3860__label {
+    left: 8px;
+    right: auto;
+    background: #e9d5ff;
+    transform: rotate(3deg);
+}
+
+.toggle-3860 input:checked + .toggle-3860__track .toggle-3860__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3860 input:checked + .toggle-3860__track .toggle-3860__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3860 input:focus-visible + .toggle-3860__track {
+    outline: 3px solid #a855f7;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3861,
+    name: "Riddler Question Mark Toggle",
+    preview: (
+      <label
+        className="toggle-3861"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Riddler Question Mark Toggle"
+        />
+
+        <span className="toggle-3861__track">
+          <span className="toggle-3861__background"></span>
+          <span className="toggle-3861__halftone"></span>
+
+          <span className="toggle-3861__question toggle-3861__question-1">
+            ?
+          </span>
+          <span className="toggle-3861__question toggle-3861__question-2">
+            ?
+          </span>
+          <span className="toggle-3861__question toggle-3861__question-3">
+            ?
+          </span>
+          <span className="toggle-3861__question toggle-3861__question-4">
+            ?
+          </span>
+
+          <span className="toggle-3861__cane">
+            <span className="toggle-3861__cane-hook"></span>
+          </span>
+
+          <span className="toggle-3861__card">
+            <span className="toggle-3861__card-mark">?</span>
+            <span className="toggle-3861__card-line toggle-3861__card-line-1"></span>
+            <span className="toggle-3861__card-line toggle-3861__card-line-2"></span>
+          </span>
+
+          <span className="toggle-3861__label">
+            <span className="toggle-3861__label-off">CLUE</span>
+            <span className="toggle-3861__label-on">SOLVED?</span>
+          </span>
+
+          <span className="toggle-3861__thumb">
+            <span className="toggle-3861__hat">
+              <span className="toggle-3861__hat-band"></span>
+              <span className="toggle-3861__hat-mark">?</span>
+            </span>
+
+            <span className="toggle-3861__face">
+              <span className="toggle-3861__mask">
+                <span className="toggle-3861__eye toggle-3861__eye-left"></span>
+                <span className="toggle-3861__eye toggle-3861__eye-right"></span>
+              </span>
+
+              <span className="toggle-3861__nose"></span>
+              <span className="toggle-3861__smirk"></span>
+            </span>
+
+            <span className="toggle-3861__suit">
+              <span className="toggle-3861__lapel toggle-3861__lapel-left"></span>
+              <span className="toggle-3861__lapel toggle-3861__lapel-right"></span>
+              <span className="toggle-3861__tie">?</span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3861">
+    <input type="checkbox" checked aria-label="Riddler Question Mark Toggle">
+
+    <span class="toggle-3861__track">
+        <span class="toggle-3861__background"></span>
+        <span class="toggle-3861__halftone"></span>
+
+        <span class="toggle-3861__question toggle-3861__question-1">?</span>
+        <span class="toggle-3861__question toggle-3861__question-2">?</span>
+        <span class="toggle-3861__question toggle-3861__question-3">?</span>
+        <span class="toggle-3861__question toggle-3861__question-4">?</span>
+
+        <span class="toggle-3861__cane">
+            <span class="toggle-3861__cane-hook"></span>
+        </span>
+
+        <span class="toggle-3861__card">
+            <span class="toggle-3861__card-mark">?</span>
+            <span class="toggle-3861__card-line toggle-3861__card-line-1"></span>
+            <span class="toggle-3861__card-line toggle-3861__card-line-2"></span>
+        </span>
+
+        <span class="toggle-3861__label">
+            <span class="toggle-3861__label-off">CLUE</span>
+            <span class="toggle-3861__label-on">SOLVED?</span>
+        </span>
+
+        <span class="toggle-3861__thumb">
+            <span class="toggle-3861__hat">
+                <span class="toggle-3861__hat-band"></span>
+                <span class="toggle-3861__hat-mark">?</span>
+            </span>
+
+            <span class="toggle-3861__face">
+                <span class="toggle-3861__mask">
+                    <span class="toggle-3861__eye toggle-3861__eye-left"></span>
+                    <span class="toggle-3861__eye toggle-3861__eye-right"></span>
+                </span>
+
+                <span class="toggle-3861__nose"></span>
+                <span class="toggle-3861__smirk"></span>
+            </span>
+
+            <span class="toggle-3861__suit">
+                <span class="toggle-3861__lapel toggle-3861__lapel-left"></span>
+                <span class="toggle-3861__lapel toggle-3861__lapel-right"></span>
+                <span class="toggle-3861__tie">?</span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3861 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3861 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3861__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 14px;
+    background: #166534;
+    box-shadow: 8px 8px 0 #111111;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+
+.toggle-3861__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle at 76% 32%,
+            rgba(192,132,252,.36),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #14532d 0%,
+            #16a34a 48%,
+            #581c87 100%
+        );
+    transition:
+        filter .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3861__halftone {
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(
+            rgba(17,17,17,.52) 1.3px,
+            transparent 1.6px
+        );
+    background-size: 8px 8px;
+    opacity: .25;
+}
+
+.toggle-3861__question {
+    position: absolute;
+    z-index: 2;
+    color: #d9f99d;
+    font-family: Impact, Haettenschweiler, "Arial Black", sans-serif;
+    line-height: 1;
+    text-shadow: 2px 2px 0 #111111;
+    transition:
+        transform .35s ease,
+        opacity .3s ease,
+        color .3s ease;
+}
+
+.toggle-3861__question-1 {
+    left: 9px;
+    top: 7px;
+    font-size: 20px;
+    transform: rotate(-12deg);
+}
+
+.toggle-3861__question-2 {
+    left: 35px;
+    top: 12px;
+    font-size: 11px;
+    transform: rotate(10deg);
+}
+
+.toggle-3861__question-3 {
+    left: 16px;
+    bottom: 8px;
+    font-size: 14px;
+    transform: rotate(8deg);
+}
+
+.toggle-3861__question-4 {
+    right: 10px;
+    top: 8px;
+    font-size: 13px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3861__cane {
+    position: absolute;
+    right: 23px;
+    top: 15px;
+    z-index: 3;
+    width: 6px;
+    height: 44px;
+    border: 2px solid #111111;
+    border-radius: 999px;
+    background: #facc15;
+    transform: rotate(13deg);
+    transform-origin: bottom center;
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .4s ease;
+}
+
+.toggle-3861__cane-hook {
+    position: absolute;
+    left: -8px;
+    top: -10px;
+    width: 19px;
+    height: 17px;
+    border: 5px solid #facc15;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 0 #111111);
+}
+
+.toggle-3861__card {
+    position: absolute;
+    right: 45px;
+    top: 9px;
+    z-index: 3;
+    width: 28px;
+    height: 37px;
+    border: 3px solid #111111;
+    border-radius: 4px;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(-9deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .35s ease,
+        opacity .3s ease;
+}
+
+.toggle-3861__card-mark {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    color: #7e22ce;
+    font: 900 17px/1 Impact, "Arial Black", sans-serif;
+    transform: translateX(-50%);
+}
+
+.toggle-3861__card-line {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    height: 2px;
+    background: #d1d5db;
+}
+
+.toggle-3861__card-line-1 {
+    bottom: 9px;
+}
+
+.toggle-3861__card-line-2 {
+    bottom: 5px;
+}
+
+.toggle-3861__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 5;
+    width: 51px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(2deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        background .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3861__label-off,
+.toggle-3861__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3861__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3861__label-on {
+    opacity: 1;
+}
+
+.toggle-3861__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 8;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #a3e635;
+    box-shadow: 5px 5px 0 #111111;
+    transition:
+        left .35s cubic-bezier(.34,1.56,.64,1),
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3861__hat {
+    position: absolute;
+    left: 7px;
+    top: 2px;
+    z-index: 6;
+    width: 38px;
+    height: 18px;
+    border: 3px solid #111111;
+    border-radius: 50% 50% 5px 5px;
+    background: #16a34a;
+    transition:
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3861__hat::after {
+    content: "";
+    position: absolute;
+    left: -6px;
+    right: -6px;
+    bottom: -5px;
+    height: 7px;
+    border: 3px solid #111111;
+    border-radius: 999px;
+    background: #15803d;
+}
+
+.toggle-3861__hat-band {
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    bottom: 1px;
+    height: 5px;
+    background: #7e22ce;
+}
+
+.toggle-3861__hat-mark {
+    position: absolute;
+    left: 50%;
+    top: -1px;
+    z-index: 3;
+    color: #d9f99d;
+    font: 900 11px/1 Impact, "Arial Black", sans-serif;
+    transform: translateX(-50%);
+}
+
+.toggle-3861__face {
+    position: absolute;
+    left: 9px;
+    top: 15px;
+    z-index: 4;
+    width: 34px;
+    height: 31px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    border-radius: 46% 46% 48% 48%;
+    background: #f2d0ae;
+    transition:
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3861__mask {
+    position: absolute;
+    left: 2px;
+    top: 7px;
+    width: 26px;
+    height: 11px;
+    background: #7e22ce;
+    clip-path: polygon(
+        0 25%,
+        30% 0,
+        50% 28%,
+        70% 0,
+        100% 25%,
+        83% 100%,
+        50% 72%,
+        17% 100%
+    );
+}
+
+.toggle-3861__eye {
+    position: absolute;
+    top: 3px;
+    width: 6px;
+    height: 4px;
+    background: #ffffff;
+}
+
+.toggle-3861__eye-left {
+    left: 5px;
+}
+
+.toggle-3861__eye-right {
+    right: 5px;
+}
+
+.toggle-3861__nose {
+    position: absolute;
+    left: 14px;
+    top: 17px;
+    width: 4px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgba(17,17,17,.38);
+}
+
+.toggle-3861__smirk {
+    position: absolute;
+    left: 8px;
+    bottom: 4px;
+    width: 17px;
+    height: 6px;
+    border-bottom: 3px solid #111111;
+    border-radius: 0 0 50% 50%;
+    transform: rotate(-5deg);
+}
+
+.toggle-3861__suit {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    z-index: 3;
+    width: 32px;
+    height: 12px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #16a34a;
+}
+
+.toggle-3861__lapel {
+    position: absolute;
+    top: 0;
+    width: 15px;
+    height: 12px;
+    background: #7e22ce;
+}
+
+.toggle-3861__lapel-left {
+    left: 0;
+    clip-path: polygon(
+        0 0,
+        100% 30%,
+        62% 100%,
+        0 68%
+    );
+}
+
+.toggle-3861__lapel-right {
+    right: 0;
+    clip-path: polygon(
+        100% 0,
+        0 30%,
+        38% 100%,
+        100% 68%
+    );
+}
+
+.toggle-3861__tie {
+    position: absolute;
+    left: 12px;
+    top: 0;
+    z-index: 2;
+    width: 8px;
+    height: 11px;
+    display: grid;
+    place-items: center;
+    color: #111111;
+    font: 900 8px/1 Impact, "Arial Black", sans-serif;
+    background: #facc15;
+}
+
+.toggle-3861:hover .toggle-3861__track {
+    transform: translate(-2px, -2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3861:hover .toggle-3861__thumb {
+    transform:
+        rotate(-7deg)
+        scale(1.05);
+}
+
+.toggle-3861:hover .toggle-3861__hat {
+    transform:
+        translateY(-2px)
+        rotate(4deg);
+}
+
+.toggle-3861:hover .toggle-3861__cane {
+    transform:
+        rotate(18deg)
+        scale(1.05);
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track {
+    background: #374151;
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__background {
+    filter:
+        grayscale(.65)
+        brightness(.7);
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__thumb {
+    left: 6px;
+    background: #64748b;
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__hat {
+    background: #4b5563;
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__hat::after {
+    background: #374151;
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__mask {
+    background: #52525b;
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__suit {
+    background: #4b5563;
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__question {
+    color: #9ca3af;
+    opacity: .2;
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__question-1 {
+    transform:
+        translateX(94px)
+        rotate(9deg)
+        scale(.7);
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__question-2 {
+    transform:
+        translateX(72px)
+        rotate(-10deg)
+        scale(.7);
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__question-3 {
+    transform:
+        translateX(87px)
+        rotate(-8deg)
+        scale(.7);
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__question-4 {
+    opacity: .1;
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__cane {
+    left: 117px;
+    right: auto;
+    background: #9ca3af;
+    transform:
+        rotate(-10deg)
+        scale(.82);
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__card {
+    left: 108px;
+    right: auto;
+    opacity: .4;
+    transform:
+        rotate(8deg)
+        scale(.82);
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__label {
+    left: 106px;
+    right: auto;
+    background: #e5e7eb;
+    transform: rotate(-2deg);
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3861 input:not(:checked) + .toggle-3861__track .toggle-3861__label-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3861 input:checked + .toggle-3861__track {
+    background: #166534;
+}
+
+.toggle-3861 input:checked + .toggle-3861__track .toggle-3861__background {
+    filter:
+        saturate(1.15)
+        brightness(1.05);
+    transform: scale(1.03);
+}
+
+.toggle-3861 input:checked + .toggle-3861__track .toggle-3861__thumb {
+    left: 102px;
+    background: #a3e635;
+}
+
+.toggle-3861 input:checked + .toggle-3861__track .toggle-3861__question {
+    color: #d9f99d;
+    opacity: 1;
+}
+
+.toggle-3861 input:checked + .toggle-3861__track .toggle-3861__question-1 {
+    transform:
+        rotate(-14deg)
+        scale(1.08);
+}
+
+.toggle-3861 input:checked + .toggle-3861__track .toggle-3861__question-2 {
+    transform:
+        rotate(12deg)
+        scale(1.1);
+}
+
+.toggle-3861 input:checked + .toggle-3861__track .toggle-3861__question-3 {
+    transform:
+        rotate(9deg)
+        scale(1.08);
+}
+
+.toggle-3861 input:checked + .toggle-3861__track .toggle-3861__question-4 {
+    transform:
+        rotate(-10deg)
+        scale(1.08);
+}
+
+.toggle-3861 input:checked + .toggle-3861__track .toggle-3861__cane {
+    left: 11px;
+    right: auto;
+    background: #facc15;
+    transform:
+        rotate(-15deg)
+        scale(1);
+}
+
+.toggle-3861 input:checked + .toggle-3861__track .toggle-3861__card {
+    left: 43px;
+    right: auto;
+    opacity: 1;
+    transform:
+        rotate(-11deg)
+        scale(1);
+}
+
+.toggle-3861 input:checked + .toggle-3861__track .toggle-3861__label {
+    left: 8px;
+    right: auto;
+    background: #d9f99d;
+    transform: rotate(3deg);
+}
+
+.toggle-3861 input:checked + .toggle-3861__track .toggle-3861__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3861 input:checked + .toggle-3861__track .toggle-3861__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3861 input:focus-visible + .toggle-3861__track {
+    outline: 3px solid #a3e635;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3862,
+    name: "Mr. Freeze Cryo Core Toggle",
+    preview: (
+      <label
+        className="toggle-3862"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Mr. Freeze Cryo Core Toggle"
+        />
+
+        <span className="toggle-3862__track">
+          <span className="toggle-3862__background"></span>
+          <span className="toggle-3862__frost"></span>
+
+          <span className="toggle-3862__ice-crack toggle-3862__ice-crack-1"></span>
+          <span className="toggle-3862__ice-crack toggle-3862__ice-crack-2"></span>
+          <span className="toggle-3862__ice-crack toggle-3862__ice-crack-3"></span>
+
+          <span className="toggle-3862__snow toggle-3862__snow-1"></span>
+          <span className="toggle-3862__snow toggle-3862__snow-2"></span>
+          <span className="toggle-3862__snow toggle-3862__snow-3"></span>
+          <span className="toggle-3862__snow toggle-3862__snow-4"></span>
+
+          <span className="toggle-3862__meter">
+            <span className="toggle-3862__meter-fill"></span>
+            <span className="toggle-3862__meter-line toggle-3862__meter-line-1"></span>
+            <span className="toggle-3862__meter-line toggle-3862__meter-line-2"></span>
+            <span className="toggle-3862__meter-line toggle-3862__meter-line-3"></span>
+          </span>
+
+          <span className="toggle-3862__crystal toggle-3862__crystal-1"></span>
+          <span className="toggle-3862__crystal toggle-3862__crystal-2"></span>
+          <span className="toggle-3862__crystal toggle-3862__crystal-3"></span>
+
+          <span className="toggle-3862__label">
+            <span className="toggle-3862__label-off">THAW</span>
+            <span className="toggle-3862__label-on">FREEZE</span>
+          </span>
+
+          <span className="toggle-3862__thumb">
+            <span className="toggle-3862__dome"></span>
+
+            <span className="toggle-3862__head">
+              <span className="toggle-3862__goggle toggle-3862__goggle-left"></span>
+              <span className="toggle-3862__goggle toggle-3862__goggle-right"></span>
+              <span className="toggle-3862__nose"></span>
+              <span className="toggle-3862__mask"></span>
+            </span>
+
+            <span className="toggle-3862__armor">
+              <span className="toggle-3862__armor-line toggle-3862__armor-line-left"></span>
+              <span className="toggle-3862__armor-line toggle-3862__armor-line-right"></span>
+              <span className="toggle-3862__core"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3862">
+    <input type="checkbox" checked aria-label="Mr. Freeze Cryo Core Toggle">
+
+    <span class="toggle-3862__track">
+        <span class="toggle-3862__background"></span>
+        <span class="toggle-3862__frost"></span>
+
+        <span class="toggle-3862__ice-crack toggle-3862__ice-crack-1"></span>
+        <span class="toggle-3862__ice-crack toggle-3862__ice-crack-2"></span>
+        <span class="toggle-3862__ice-crack toggle-3862__ice-crack-3"></span>
+
+        <span class="toggle-3862__snow toggle-3862__snow-1"></span>
+        <span class="toggle-3862__snow toggle-3862__snow-2"></span>
+        <span class="toggle-3862__snow toggle-3862__snow-3"></span>
+        <span class="toggle-3862__snow toggle-3862__snow-4"></span>
+
+        <span class="toggle-3862__meter">
+            <span class="toggle-3862__meter-fill"></span>
+            <span class="toggle-3862__meter-line toggle-3862__meter-line-1"></span>
+            <span class="toggle-3862__meter-line toggle-3862__meter-line-2"></span>
+            <span class="toggle-3862__meter-line toggle-3862__meter-line-3"></span>
+        </span>
+
+        <span class="toggle-3862__crystal toggle-3862__crystal-1"></span>
+        <span class="toggle-3862__crystal toggle-3862__crystal-2"></span>
+        <span class="toggle-3862__crystal toggle-3862__crystal-3"></span>
+
+        <span class="toggle-3862__label">
+            <span class="toggle-3862__label-off">THAW</span>
+            <span class="toggle-3862__label-on">FREEZE</span>
+        </span>
+
+        <span class="toggle-3862__thumb">
+            <span class="toggle-3862__dome"></span>
+
+            <span class="toggle-3862__head">
+                <span class="toggle-3862__goggle toggle-3862__goggle-left"></span>
+                <span class="toggle-3862__goggle toggle-3862__goggle-right"></span>
+                <span class="toggle-3862__nose"></span>
+                <span class="toggle-3862__mask"></span>
+            </span>
+
+            <span class="toggle-3862__armor">
+                <span class="toggle-3862__armor-line toggle-3862__armor-line-left"></span>
+                <span class="toggle-3862__armor-line toggle-3862__armor-line-right"></span>
+                <span class="toggle-3862__core"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3862 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3862 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3862__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111827;
+    border-radius: 14px;
+    background: #0f172a;
+    box-shadow: 8px 8px 0 #111827;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+
+.toggle-3862__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle at 76% 35%,
+            rgba(103,232,249,.42),
+            transparent 31%
+        ),
+        linear-gradient(
+            135deg,
+            #172554 0%,
+            #075985 47%,
+            #164e63 100%
+        );
+    transition:
+        filter .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3862__frost {
+    position: absolute;
+    inset: 0;
+    background:
+        repeating-linear-gradient(
+            118deg,
+            transparent 0 12px,
+            rgba(255,255,255,.09) 12px 14px
+        );
+    opacity: .8;
+}
+
+.toggle-3862__ice-crack {
+    position: absolute;
+    z-index: 3;
+    width: 42px;
+    height: 3px;
+    border: 1px solid #164e63;
+    background: #e0f2fe;
+    box-shadow: 0 0 5px rgba(186,230,253,.7);
+    transition:
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3862__ice-crack::after {
+    content: "";
+    position: absolute;
+    right: 8px;
+    top: -8px;
+    width: 18px;
+    height: 3px;
+    border: 1px solid #164e63;
+    background: #e0f2fe;
+    transform: rotate(50deg);
+}
+
+.toggle-3862__ice-crack-1 {
+    right: 6px;
+    top: 13px;
+    transform: rotate(-15deg);
+}
+
+.toggle-3862__ice-crack-2 {
+    right: 11px;
+    top: 35px;
+    width: 34px;
+    transform: rotate(10deg);
+}
+
+.toggle-3862__ice-crack-3 {
+    right: 26px;
+    bottom: 9px;
+    width: 40px;
+    transform: rotate(-7deg);
+}
+
+.toggle-3862__snow {
+    position: absolute;
+    z-index: 2;
+    width: 7px;
+    height: 7px;
+    border: 2px solid #e0f2fe;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0 0 6px rgba(255,255,255,.7);
+    transition:
+        transform .35s ease,
+        opacity .3s ease;
+}
+
+.toggle-3862__snow-1 {
+    left: 11px;
+    top: 9px;
+}
+
+.toggle-3862__snow-2 {
+    left: 37px;
+    top: 15px;
+    transform: scale(.65);
+}
+
+.toggle-3862__snow-3 {
+    left: 20px;
+    bottom: 10px;
+    transform: scale(.8);
+}
+
+.toggle-3862__snow-4 {
+    left: 53px;
+    bottom: 16px;
+    transform: scale(.55);
+}
+
+.toggle-3862__meter {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    z-index: 4;
+    width: 46px;
+    height: 14px;
+    overflow: hidden;
+    border: 3px solid #111827;
+    border-radius: 4px;
+    background: #020617;
+    box-shadow: 2px 2px 0 #111827;
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .35s ease;
+}
+
+.toggle-3862__meter-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 22%;
+    height: 100%;
+    background: #94a3b8;
+    transition:
+        width .4s ease,
+        background .3s ease,
+        box-shadow .3s ease;
+}
+
+.toggle-3862__meter-line {
+    position: absolute;
+    top: 2px;
+    width: 2px;
+    height: 5px;
+    background: rgba(255,255,255,.55);
+}
+
+.toggle-3862__meter-line-1 {
+    left: 12px;
+}
+
+.toggle-3862__meter-line-2 {
+    left: 24px;
+}
+
+.toggle-3862__meter-line-3 {
+    left: 36px;
+}
+
+.toggle-3862__crystal {
+    position: absolute;
+    z-index: 3;
+    border: 3px solid #111827;
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #67e8f9 55%,
+            #0891b2
+        );
+    clip-path: polygon(
+        50% 0,
+        100% 67%,
+        72% 100%,
+        28% 100%,
+        0 67%
+    );
+    transition:
+        transform .4s ease,
+        opacity .3s ease,
+        left .35s ease,
+        right .35s ease;
+}
+
+.toggle-3862__crystal-1 {
+    right: 11px;
+    bottom: 7px;
+    width: 19px;
+    height: 30px;
+    transform: rotate(7deg);
+}
+
+.toggle-3862__crystal-2 {
+    right: 33px;
+    bottom: 5px;
+    width: 14px;
+    height: 22px;
+    transform: rotate(-11deg);
+}
+
+.toggle-3862__crystal-3 {
+    right: 51px;
+    bottom: 7px;
+    width: 11px;
+    height: 18px;
+    transform: rotate(13deg);
+}
+
+.toggle-3862__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 5;
+    width: 50px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111827;
+    background: #e0f2fe;
+    box-shadow: 3px 3px 0 #111827;
+    transform: rotate(2deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        background .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3862__label-off,
+.toggle-3862__label-on {
+    position: absolute;
+    color: #111827;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3862__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3862__label-on {
+    opacity: 1;
+}
+
+.toggle-3862__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 8;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #111827;
+    border-radius: 50%;
+    background: #0891b2;
+    box-shadow: 5px 5px 0 #111827;
+    transition:
+        left .35s cubic-bezier(.34,1.56,.64,1),
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3862__dome {
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    z-index: 6;
+    width: 40px;
+    height: 38px;
+    border: 3px solid #111827;
+    border-radius: 50% 50% 42% 42%;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.65),
+            rgba(103,232,249,.22)
+        );
+    box-shadow:
+        inset 0 0 7px rgba(255,255,255,.5);
+    transition:
+        background .3s ease,
+        box-shadow .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3862__head {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    z-index: 7;
+    width: 28px;
+    height: 29px;
+    border: 3px solid #111827;
+    border-radius: 45% 45% 40% 40%;
+    background: #bfdbfe;
+    transition:
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3862__goggle {
+    position: absolute;
+    top: 8px;
+    width: 8px;
+    height: 7px;
+    border: 2px solid #111827;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 0 0 5px #ef4444;
+    transition:
+        background .3s ease,
+        box-shadow .3s ease;
+}
+
+.toggle-3862__goggle-left {
+    left: 3px;
+}
+
+.toggle-3862__goggle-right {
+    right: 3px;
+}
+
+.toggle-3862__nose {
+    position: absolute;
+    left: 11px;
+    top: 15px;
+    width: 4px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgba(15,23,42,.45);
+}
+
+.toggle-3862__mask {
+    position: absolute;
+    left: 4px;
+    right: 4px;
+    bottom: 3px;
+    height: 8px;
+    border: 2px solid #111827;
+    border-radius: 2px 2px 7px 7px;
+    background:
+        repeating-linear-gradient(
+            90deg,
+            #475569 0 3px,
+            #94a3b8 3px 5px
+        );
+}
+
+.toggle-3862__armor {
+    position: absolute;
+    left: 9px;
+    bottom: 0;
+    z-index: 5;
+    width: 34px;
+    height: 14px;
+    overflow: hidden;
+    border: 3px solid #111827;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #475569;
+}
+
+.toggle-3862__armor-line {
+    position: absolute;
+    top: 0;
+    width: 13px;
+    height: 12px;
+    background: #64748b;
+}
+
+.toggle-3862__armor-line-left {
+    left: 0;
+    clip-path: polygon(
+        0 0,
+        100% 30%,
+        60% 100%,
+        0 100%
+    );
+}
+
+.toggle-3862__armor-line-right {
+    right: 0;
+    clip-path: polygon(
+        100% 0,
+        0 30%,
+        40% 100%,
+        100% 100%
+    );
+}
+
+.toggle-3862__core {
+    position: absolute;
+    left: 50%;
+    top: 2px;
+    width: 9px;
+    height: 9px;
+    border: 2px solid #111827;
+    border-radius: 50%;
+    background: #22d3ee;
+    box-shadow: 0 0 5px #22d3ee;
+    transform: translateX(-50%);
+    transition:
+        background .3s ease,
+        box-shadow .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3862:hover .toggle-3862__track {
+    transform: translate(-2px, -2px);
+    box-shadow: 10px 10px 0 #111827;
+}
+
+.toggle-3862:hover .toggle-3862__thumb {
+    transform:
+        rotate(-7deg)
+        scale(1.05);
+}
+
+.toggle-3862:hover .toggle-3862__dome {
+    transform: scale(1.04);
+}
+
+.toggle-3862:hover .toggle-3862__core {
+    transform:
+        translateX(-50%)
+        scale(1.15);
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track {
+    background: #334155;
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__background {
+    filter:
+        grayscale(.65)
+        brightness(.65);
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__thumb {
+    left: 6px;
+    background: #64748b;
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__dome {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.35),
+            rgba(148,163,184,.16)
+        );
+    box-shadow: none;
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__head {
+    background: #94a3b8;
+    transform: scale(.94);
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__goggle {
+    background: #64748b;
+    box-shadow: none;
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__core {
+    background: #64748b;
+    box-shadow: none;
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__meter {
+    left: 109px;
+    right: auto;
+    transform: scale(.9);
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__meter-fill {
+    width: 22%;
+    background: #94a3b8;
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__crystal-1 {
+    left: 112px;
+    right: auto;
+    opacity: .35;
+    transform:
+        rotate(-7deg)
+        scale(.65);
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__crystal-2 {
+    left: 132px;
+    right: auto;
+    opacity: .25;
+    transform:
+        rotate(10deg)
+        scale(.6);
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__crystal-3 {
+    left: 146px;
+    right: auto;
+    opacity: .18;
+    transform:
+        rotate(-12deg)
+        scale(.55);
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__ice-crack {
+    opacity: .16;
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__snow {
+    opacity: .15;
+    transform: scale(.5);
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__label {
+    left: 107px;
+    right: auto;
+    background: #e2e8f0;
+    transform: rotate(-2deg);
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3862 input:not(:checked) + .toggle-3862__track .toggle-3862__label-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track {
+    background: #075985;
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__background {
+    filter:
+        saturate(1.2)
+        brightness(1.08);
+    transform: scale(1.03);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__thumb {
+    left: 102px;
+    background: #0891b2;
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__dome {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.75),
+            rgba(103,232,249,.3)
+        );
+    box-shadow:
+        inset 0 0 8px rgba(255,255,255,.65),
+        0 0 8px rgba(34,211,238,.4);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__head {
+    background: #bfdbfe;
+    transform: scale(1.04);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__goggle {
+    background: #ef4444;
+    box-shadow: 0 0 6px #ef4444;
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__core {
+    background: #22d3ee;
+    box-shadow: 0 0 7px #22d3ee;
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__meter {
+    left: 9px;
+    right: auto;
+    transform: scale(1);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__meter-fill {
+    width: 100%;
+    background:
+        linear-gradient(
+            90deg,
+            #67e8f9,
+            #22d3ee,
+            #0ea5e9
+        );
+    box-shadow: 0 0 7px #22d3ee;
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__crystal-1 {
+    left: 11px;
+    right: auto;
+    opacity: 1;
+    transform:
+        rotate(-8deg)
+        scale(1);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__crystal-2 {
+    left: 33px;
+    right: auto;
+    opacity: .9;
+    transform:
+        rotate(10deg)
+        scale(.9);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__crystal-3 {
+    left: 50px;
+    right: auto;
+    opacity: .8;
+    transform:
+        rotate(-12deg)
+        scale(.85);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__ice-crack {
+    opacity: 1;
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__ice-crack-1 {
+    transform:
+        translateX(-99px)
+        rotate(15deg);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__ice-crack-2 {
+    transform:
+        translateX(-91px)
+        rotate(-10deg);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__ice-crack-3 {
+    transform:
+        translateX(-82px)
+        rotate(7deg);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__snow-1 {
+    transform:
+        translateX(83px)
+        translateY(3px)
+        scale(1);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__snow-2 {
+    transform:
+        translateX(62px)
+        translateY(9px)
+        scale(.8);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__snow-3 {
+    transform:
+        translateX(72px)
+        translateY(-6px)
+        scale(.9);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__snow-4 {
+    transform:
+        translateX(55px)
+        translateY(-8px)
+        scale(.7);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__label {
+    left: 8px;
+    right: auto;
+    background: #cffafe;
+    transform: rotate(3deg);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3862 input:checked + .toggle-3862__track .toggle-3862__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3862 input:focus-visible + .toggle-3862__track {
+    outline: 3px solid #22d3ee;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3863,
+    name: "Scarecrow Fear Toxin Toggle",
+    preview: (
+      <label
+        className="toggle-3863"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Scarecrow Fear Toxin Toggle"
+        />
+
+        <span className="toggle-3863__track">
+          <span className="toggle-3863__background"></span>
+          <span className="toggle-3863__halftone"></span>
+
+          <span className="toggle-3863__moon"></span>
+
+          <span className="toggle-3863__gas toggle-3863__gas-1"></span>
+          <span className="toggle-3863__gas toggle-3863__gas-2"></span>
+          <span className="toggle-3863__gas toggle-3863__gas-3"></span>
+
+          <span className="toggle-3863__crow toggle-3863__crow-1"></span>
+          <span className="toggle-3863__crow toggle-3863__crow-2"></span>
+
+          <span className="toggle-3863__straw toggle-3863__straw-1"></span>
+          <span className="toggle-3863__straw toggle-3863__straw-2"></span>
+          <span className="toggle-3863__straw toggle-3863__straw-3"></span>
+
+          <span className="toggle-3863__bubble">
+            <span className="toggle-3863__bubble-off">CALM</span>
+            <span className="toggle-3863__bubble-on">FEAR!</span>
+          </span>
+
+          <span className="toggle-3863__thumb">
+            <span className="toggle-3863__hood"></span>
+
+            <span className="toggle-3863__face">
+              <span className="toggle-3863__stitch toggle-3863__stitch-1"></span>
+              <span className="toggle-3863__stitch toggle-3863__stitch-2"></span>
+              <span className="toggle-3863__stitch toggle-3863__stitch-3"></span>
+
+              <span className="toggle-3863__eye toggle-3863__eye-left"></span>
+              <span className="toggle-3863__eye toggle-3863__eye-right"></span>
+
+              <span className="toggle-3863__nose"></span>
+
+              <span className="toggle-3863__mouth">
+                <span className="toggle-3863__mouth-stitch toggle-3863__mouth-stitch-1"></span>
+                <span className="toggle-3863__mouth-stitch toggle-3863__mouth-stitch-2"></span>
+                <span className="toggle-3863__mouth-stitch toggle-3863__mouth-stitch-3"></span>
+              </span>
+            </span>
+
+            <span className="toggle-3863__collar">
+              <span className="toggle-3863__collar-straw toggle-3863__collar-straw-1"></span>
+              <span className="toggle-3863__collar-straw toggle-3863__collar-straw-2"></span>
+              <span className="toggle-3863__collar-straw toggle-3863__collar-straw-3"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3863">
+    <input type="checkbox" checked aria-label="Scarecrow Fear Toxin Toggle">
+
+    <span class="toggle-3863__track">
+        <span class="toggle-3863__background"></span>
+        <span class="toggle-3863__halftone"></span>
+
+        <span class="toggle-3863__moon"></span>
+
+        <span class="toggle-3863__gas toggle-3863__gas-1"></span>
+        <span class="toggle-3863__gas toggle-3863__gas-2"></span>
+        <span class="toggle-3863__gas toggle-3863__gas-3"></span>
+
+        <span class="toggle-3863__crow toggle-3863__crow-1"></span>
+        <span class="toggle-3863__crow toggle-3863__crow-2"></span>
+
+        <span class="toggle-3863__straw toggle-3863__straw-1"></span>
+        <span class="toggle-3863__straw toggle-3863__straw-2"></span>
+        <span class="toggle-3863__straw toggle-3863__straw-3"></span>
+
+        <span class="toggle-3863__bubble">
+            <span class="toggle-3863__bubble-off">CALM</span>
+            <span class="toggle-3863__bubble-on">FEAR!</span>
+        </span>
+
+        <span class="toggle-3863__thumb">
+            <span class="toggle-3863__hood"></span>
+
+            <span class="toggle-3863__face">
+                <span class="toggle-3863__stitch toggle-3863__stitch-1"></span>
+                <span class="toggle-3863__stitch toggle-3863__stitch-2"></span>
+                <span class="toggle-3863__stitch toggle-3863__stitch-3"></span>
+
+                <span class="toggle-3863__eye toggle-3863__eye-left"></span>
+                <span class="toggle-3863__eye toggle-3863__eye-right"></span>
+
+                <span class="toggle-3863__nose"></span>
+
+                <span class="toggle-3863__mouth">
+                    <span class="toggle-3863__mouth-stitch toggle-3863__mouth-stitch-1"></span>
+                    <span class="toggle-3863__mouth-stitch toggle-3863__mouth-stitch-2"></span>
+                    <span class="toggle-3863__mouth-stitch toggle-3863__mouth-stitch-3"></span>
+                </span>
+            </span>
+
+            <span class="toggle-3863__collar">
+                <span class="toggle-3863__collar-straw toggle-3863__collar-straw-1"></span>
+                <span class="toggle-3863__collar-straw toggle-3863__collar-straw-2"></span>
+                <span class="toggle-3863__collar-straw toggle-3863__collar-straw-3"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3863 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3863 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3863__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 14px;
+    background: #292524;
+    box-shadow: 8px 8px 0 #111111;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+
+.toggle-3863__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle at 75% 28%,
+            rgba(190,242,100,.23),
+            transparent 27%
+        ),
+        linear-gradient(
+            135deg,
+            #1c1917,
+            #44403c 48%,
+            #365314
+        );
+    transition:
+        filter .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3863__halftone {
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(
+            rgba(17,17,17,.55) 1.3px,
+            transparent 1.6px
+        );
+    background-size: 8px 8px;
+    opacity: .3;
+}
+
+.toggle-3863__moon {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    z-index: 2;
+    width: 39px;
+    height: 39px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #d9f99d;
+    box-shadow:
+        3px 3px 0 #111111,
+        0 0 9px rgba(190,242,100,.35);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3863__gas {
+    position: absolute;
+    z-index: 3;
+    border: 3px solid rgba(17,17,17,.35);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(190,242,100,.68),
+            rgba(101,163,13,.34) 58%,
+            transparent 72%
+        );
+    transition:
+        transform .4s ease,
+        opacity .3s ease,
+        left .35s ease,
+        right .35s ease;
+}
+
+.toggle-3863__gas-1 {
+    right: 10px;
+    bottom: 7px;
+    width: 45px;
+    height: 25px;
+}
+
+.toggle-3863__gas-2 {
+    right: 40px;
+    top: 14px;
+    width: 38px;
+    height: 23px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3863__gas-3 {
+    right: 45px;
+    bottom: 6px;
+    width: 31px;
+    height: 19px;
+    transform: rotate(12deg);
+}
+
+.toggle-3863__crow {
+    position: absolute;
+    z-index: 4;
+    width: 25px;
+    height: 13px;
+    background: #111111;
+    clip-path: polygon(
+        0 50%,
+        32% 20%,
+        50% 48%,
+        68% 20%,
+        100% 50%,
+        66% 42%,
+        50% 78%,
+        34% 42%
+    );
+    transition:
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3863__crow-1 {
+    right: 14px;
+    top: 11px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3863__crow-2 {
+    right: 48px;
+    top: 7px;
+    transform:
+        rotate(7deg)
+        scale(.7);
+}
+
+.toggle-3863__straw {
+    position: absolute;
+    z-index: 4;
+    width: 28px;
+    height: 4px;
+    border: 1px solid #111111;
+    border-radius: 999px;
+    background: #facc15;
+    transform-origin: left center;
+    transition:
+        transform .35s ease,
+        opacity .3s ease;
+}
+
+.toggle-3863__straw-1 {
+    right: 12px;
+    bottom: 10px;
+    transform: rotate(-22deg);
+}
+
+.toggle-3863__straw-2 {
+    right: 31px;
+    bottom: 6px;
+    transform: rotate(12deg);
+}
+
+.toggle-3863__straw-3 {
+    right: 49px;
+    bottom: 13px;
+    transform:
+        rotate(-8deg)
+        scale(.8);
+}
+
+.toggle-3863__bubble {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 6;
+    width: 48px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #fef3c7;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(3deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        background .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3863__bubble::after {
+    content: "";
+    position: absolute;
+    right: 5px;
+    bottom: -7px;
+    width: 9px;
+    height: 9px;
+    border-right: 3px solid #111111;
+    border-bottom: 3px solid #111111;
+    background: inherit;
+    transform: rotate(45deg);
+}
+
+.toggle-3863__bubble-off,
+.toggle-3863__bubble-on {
+    position: absolute;
+    z-index: 2;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3863__bubble-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3863__bubble-on {
+    opacity: 1;
+}
+
+.toggle-3863__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 8;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #78716c;
+    box-shadow: 5px 5px 0 #111111;
+    transition:
+        left .35s cubic-bezier(.34,1.56,.64,1),
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3863__hood {
+    position: absolute;
+    left: 6px;
+    top: 1px;
+    z-index: 3;
+    width: 40px;
+    height: 45px;
+    border: 3px solid #111111;
+    border-radius: 50% 50% 42% 42%;
+    background: #44403c;
+    clip-path: polygon(
+        50% 0,
+        86% 15%,
+        100% 54%,
+        82% 100%,
+        18% 100%,
+        0 54%,
+        14% 15%
+    );
+}
+
+.toggle-3863__face {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    z-index: 4;
+    width: 32px;
+    height: 35px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    border-radius: 43% 43% 37% 37%;
+    background:
+        repeating-linear-gradient(
+            25deg,
+            #a16207 0 4px,
+            #ca8a04 4px 8px
+        );
+    transition:
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3863__stitch {
+    position: absolute;
+    z-index: 3;
+    width: 13px;
+    height: 2px;
+    background: #292524;
+}
+
+.toggle-3863__stitch::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: -3px;
+    width: 2px;
+    height: 8px;
+    background: #292524;
+}
+
+.toggle-3863__stitch-1 {
+    left: 2px;
+    top: 7px;
+    transform: rotate(24deg);
+}
+
+.toggle-3863__stitch-2 {
+    right: 1px;
+    top: 9px;
+    transform: rotate(-21deg);
+}
+
+.toggle-3863__stitch-3 {
+    right: 3px;
+    bottom: 8px;
+    transform: rotate(18deg);
+}
+
+.toggle-3863__eye {
+    position: absolute;
+    top: 12px;
+    z-index: 5;
+    width: 8px;
+    height: 6px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #fb923c;
+    box-shadow: 0 0 6px #f97316;
+    transition:
+        background .3s ease,
+        box-shadow .3s ease;
+}
+
+.toggle-3863__eye-left {
+    left: 4px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3863__eye-right {
+    right: 4px;
+    transform: rotate(8deg);
+}
+
+.toggle-3863__nose {
+    position: absolute;
+    left: 13px;
+    top: 17px;
+    width: 5px;
+    height: 7px;
+    border-radius: 50%;
+    background: #78350f;
+}
+
+.toggle-3863__mouth {
+    position: absolute;
+    left: 5px;
+    bottom: 4px;
+    width: 18px;
+    height: 6px;
+    border-bottom: 3px solid #111111;
+}
+
+.toggle-3863__mouth-stitch {
+    position: absolute;
+    top: 1px;
+    width: 2px;
+    height: 7px;
+    background: #111111;
+}
+
+.toggle-3863__mouth-stitch-1 {
+    left: 3px;
+    transform: rotate(-10deg);
+}
+
+.toggle-3863__mouth-stitch-2 {
+    left: 8px;
+}
+
+.toggle-3863__mouth-stitch-3 {
+    right: 3px;
+    transform: rotate(10deg);
+}
+
+.toggle-3863__collar {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 5;
+    width: 36px;
+    height: 14px;
+    border: 3px solid #111111;
+    border-top: 0;
+    background: #57534e;
+    clip-path: polygon(
+        0 0,
+        22% 25%,
+        15% 100%,
+        50% 55%,
+        85% 100%,
+        78% 25%,
+        100% 0
+    );
+}
+
+.toggle-3863__collar-straw {
+    position: absolute;
+    top: 1px;
+    width: 13px;
+    height: 3px;
+    background: #facc15;
+}
+
+.toggle-3863__collar-straw-1 {
+    left: 1px;
+    transform: rotate(-30deg);
+}
+
+.toggle-3863__collar-straw-2 {
+    left: 11px;
+    transform: rotate(12deg);
+}
+
+.toggle-3863__collar-straw-3 {
+    right: 1px;
+    transform: rotate(29deg);
+}
+
+.toggle-3863:hover .toggle-3863__track {
+    transform: translate(-2px, -2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3863:hover .toggle-3863__thumb {
+    transform:
+        rotate(-7deg)
+        scale(1.05);
+}
+
+.toggle-3863:hover .toggle-3863__face {
+    transform: scale(1.04);
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track {
+    background: #44403c;
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track .toggle-3863__background {
+    filter:
+        grayscale(.7)
+        brightness(.65);
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track .toggle-3863__thumb {
+    left: 6px;
+    background: #57534e;
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track .toggle-3863__face {
+    background:
+        repeating-linear-gradient(
+            25deg,
+            #78716c 0 4px,
+            #57534e 4px 8px
+        );
+    transform: scale(.94);
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track .toggle-3863__eye {
+    background: #78716c;
+    box-shadow: none;
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track .toggle-3863__moon {
+    left: 14px;
+    right: auto;
+    background: #a8a29e;
+    transform: scale(.8);
+    box-shadow: 3px 3px 0 #111111;
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track .toggle-3863__gas-1 {
+    left: 112px;
+    right: auto;
+    opacity: .18;
+    transform: scale(.6);
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track .toggle-3863__gas-2 {
+    left: 125px;
+    right: auto;
+    opacity: .14;
+    transform:
+        rotate(8deg)
+        scale(.55);
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track .toggle-3863__gas-3 {
+    left: 137px;
+    right: auto;
+    opacity: .1;
+    transform:
+        rotate(-12deg)
+        scale(.5);
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track .toggle-3863__crow {
+    opacity: .25;
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track .toggle-3863__crow-1 {
+    transform:
+        translateX(-91px)
+        rotate(8deg)
+        scale(.7);
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track .toggle-3863__crow-2 {
+    transform:
+        translateX(-57px)
+        rotate(-7deg)
+        scale(.55);
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track .toggle-3863__straw {
+    opacity: .25;
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track .toggle-3863__bubble {
+    left: 106px;
+    right: auto;
+    background: #e7e5e4;
+    transform: rotate(-3deg);
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track .toggle-3863__bubble-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3863 input:not(:checked) + .toggle-3863__track .toggle-3863__bubble-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3863 input:checked + .toggle-3863__track {
+    background: #365314;
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__background {
+    filter:
+        saturate(1.2)
+        brightness(1.03);
+    transform: scale(1.03);
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__thumb {
+    left: 102px;
+    background: #78716c;
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__face {
+    background:
+        repeating-linear-gradient(
+            25deg,
+            #a16207 0 4px,
+            #ca8a04 4px 8px
+        );
+    transform: scale(1.04);
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__eye {
+    background: #fb923c;
+    box-shadow: 0 0 7px #f97316;
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__moon {
+    right: 12px;
+    left: auto;
+    background: #d9f99d;
+    transform: scale(1.06);
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__gas-1 {
+    left: 9px;
+    right: auto;
+    opacity: .9;
+    transform: scale(1.08);
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__gas-2 {
+    left: 34px;
+    right: auto;
+    opacity: .78;
+    transform:
+        rotate(8deg)
+        scale(1);
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__gas-3 {
+    left: 54px;
+    right: auto;
+    opacity: .7;
+    transform:
+        rotate(-12deg)
+        scale(.9);
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__crow-1 {
+    transform:
+        translateX(-99px)
+        rotate(10deg)
+        scale(1);
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__crow-2 {
+    transform:
+        translateX(-71px)
+        rotate(-8deg)
+        scale(.8);
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__straw-1 {
+    transform:
+        translateX(-98px)
+        rotate(22deg);
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__straw-2 {
+    transform:
+        translateX(-87px)
+        rotate(-12deg);
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__straw-3 {
+    transform:
+        translateX(-71px)
+        rotate(8deg)
+        scale(.9);
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__bubble {
+    left: 8px;
+    right: auto;
+    background: #d9f99d;
+    transform: rotate(4deg);
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__bubble-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3863 input:checked + .toggle-3863__track .toggle-3863__bubble-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3863 input:focus-visible + .toggle-3863__track {
+    outline: 3px solid #bef264;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3864,
+    name: "Penguin Umbrella Arsenal Toggle",
+    preview: (
+      <label
+        className="toggle-3864"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Penguin Umbrella Arsenal Toggle"
+        />
+
+        <span className="toggle-3864__track">
+          <span className="toggle-3864__background"></span>
+          <span className="toggle-3864__halftone"></span>
+
+          <span className="toggle-3864__moon"></span>
+
+          <span className="toggle-3864__city">
+            <span className="toggle-3864__building toggle-3864__building-1"></span>
+            <span className="toggle-3864__building toggle-3864__building-2"></span>
+            <span className="toggle-3864__building toggle-3864__building-3"></span>
+            <span className="toggle-3864__building toggle-3864__building-4"></span>
+          </span>
+
+          <span className="toggle-3864__rain toggle-3864__rain-1"></span>
+          <span className="toggle-3864__rain toggle-3864__rain-2"></span>
+          <span className="toggle-3864__rain toggle-3864__rain-3"></span>
+          <span className="toggle-3864__rain toggle-3864__rain-4"></span>
+          <span className="toggle-3864__rain toggle-3864__rain-5"></span>
+
+          <span className="toggle-3864__umbrella">
+            <span className="toggle-3864__umbrella-top"></span>
+            <span className="toggle-3864__umbrella-tip"></span>
+            <span className="toggle-3864__umbrella-handle"></span>
+          </span>
+
+          <span className="toggle-3864__burst">
+            <span className="toggle-3864__burst-off">WADDLE</span>
+            <span className="toggle-3864__burst-on">BANG!</span>
+          </span>
+
+          <span className="toggle-3864__thumb">
+            <span className="toggle-3864__hat">
+              <span className="toggle-3864__hat-band"></span>
+            </span>
+
+            <span className="toggle-3864__face">
+              <span className="toggle-3864__brow toggle-3864__brow-left"></span>
+              <span className="toggle-3864__brow toggle-3864__brow-right"></span>
+
+              <span className="toggle-3864__eye toggle-3864__eye-left"></span>
+
+              <span className="toggle-3864__monocle">
+                <span className="toggle-3864__monocle-eye"></span>
+              </span>
+
+              <span className="toggle-3864__nose"></span>
+              <span className="toggle-3864__smirk"></span>
+            </span>
+
+            <span className="toggle-3864__coat">
+              <span className="toggle-3864__lapel toggle-3864__lapel-left"></span>
+              <span className="toggle-3864__lapel toggle-3864__lapel-right"></span>
+              <span className="toggle-3864__shirt"></span>
+              <span className="toggle-3864__bowtie"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3864">
+    <input type="checkbox" checked aria-label="Penguin Umbrella Arsenal Toggle">
+
+    <span class="toggle-3864__track">
+        <span class="toggle-3864__background"></span>
+        <span class="toggle-3864__halftone"></span>
+
+        <span class="toggle-3864__moon"></span>
+
+        <span class="toggle-3864__city">
+            <span class="toggle-3864__building toggle-3864__building-1"></span>
+            <span class="toggle-3864__building toggle-3864__building-2"></span>
+            <span class="toggle-3864__building toggle-3864__building-3"></span>
+            <span class="toggle-3864__building toggle-3864__building-4"></span>
+        </span>
+
+        <span class="toggle-3864__rain toggle-3864__rain-1"></span>
+        <span class="toggle-3864__rain toggle-3864__rain-2"></span>
+        <span class="toggle-3864__rain toggle-3864__rain-3"></span>
+        <span class="toggle-3864__rain toggle-3864__rain-4"></span>
+        <span class="toggle-3864__rain toggle-3864__rain-5"></span>
+
+        <span class="toggle-3864__umbrella">
+            <span class="toggle-3864__umbrella-top"></span>
+            <span class="toggle-3864__umbrella-tip"></span>
+            <span class="toggle-3864__umbrella-handle"></span>
+        </span>
+
+        <span class="toggle-3864__burst">
+            <span class="toggle-3864__burst-off">WADDLE</span>
+            <span class="toggle-3864__burst-on">BANG!</span>
+        </span>
+
+        <span class="toggle-3864__thumb">
+            <span class="toggle-3864__hat">
+                <span class="toggle-3864__hat-band"></span>
+            </span>
+
+            <span class="toggle-3864__face">
+                <span class="toggle-3864__brow toggle-3864__brow-left"></span>
+                <span class="toggle-3864__brow toggle-3864__brow-right"></span>
+
+                <span class="toggle-3864__eye toggle-3864__eye-left"></span>
+
+                <span class="toggle-3864__monocle">
+                    <span class="toggle-3864__monocle-eye"></span>
+                </span>
+
+                <span class="toggle-3864__nose"></span>
+                <span class="toggle-3864__smirk"></span>
+            </span>
+
+            <span class="toggle-3864__coat">
+                <span class="toggle-3864__lapel toggle-3864__lapel-left"></span>
+                <span class="toggle-3864__lapel toggle-3864__lapel-right"></span>
+                <span class="toggle-3864__shirt"></span>
+                <span class="toggle-3864__bowtie"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3864 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3864 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3864__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #09090b;
+    border-radius: 14px;
+    background: #1e1b4b;
+    box-shadow: 8px 8px 0 #09090b;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+
+.toggle-3864__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle at 76% 25%,
+            rgba(216,180,254,.26),
+            transparent 27%
+        ),
+        linear-gradient(
+            135deg,
+            #0f172a 0%,
+            #312e81 48%,
+            #581c87 100%
+        );
+    transition:
+        filter .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3864__halftone {
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(
+            rgba(9,9,11,.55) 1.3px,
+            transparent 1.6px
+        );
+    background-size: 8px 8px;
+    opacity: .28;
+}
+
+.toggle-3864__moon {
+    position: absolute;
+    right: 13px;
+    top: 8px;
+    z-index: 2;
+    width: 38px;
+    height: 38px;
+    border: 3px solid #09090b;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            135deg,
+            #f8fafc,
+            #c4b5fd
+        );
+    box-shadow:
+        3px 3px 0 #09090b,
+        0 0 10px rgba(196,181,253,.4);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .35s ease;
+}
+
+.toggle-3864__city {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+}
+
+.toggle-3864__building {
+    position: absolute;
+    bottom: 0;
+    border: 2px solid #09090b;
+    background: #111827;
+}
+
+.toggle-3864__building::after {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    background-image:
+        radial-gradient(
+            #facc15 1.3px,
+            transparent 1.5px
+        );
+    background-size: 9px 9px;
+    opacity: .65;
+}
+
+.toggle-3864__building-1 {
+    left: -4px;
+    width: 35px;
+    height: 27px;
+}
+
+.toggle-3864__building-2 {
+    left: 27px;
+    width: 37px;
+    height: 38px;
+}
+
+.toggle-3864__building-3 {
+    left: 59px;
+    width: 32px;
+    height: 24px;
+}
+
+.toggle-3864__building-4 {
+    left: 87px;
+    width: 31px;
+    height: 33px;
+}
+
+.toggle-3864__rain {
+    position: absolute;
+    z-index: 3;
+    width: 2px;
+    height: 18px;
+    border-radius: 999px;
+    background: #bae6fd;
+    transform: rotate(20deg);
+    opacity: .65;
+    transition:
+        transform .35s ease,
+        opacity .3s ease;
+}
+
+.toggle-3864__rain-1 {
+    left: 13px;
+    top: 7px;
+}
+
+.toggle-3864__rain-2 {
+    left: 36px;
+    top: 14px;
+}
+
+.toggle-3864__rain-3 {
+    left: 57px;
+    top: 4px;
+}
+
+.toggle-3864__rain-4 {
+    right: 43px;
+    top: 7px;
+}
+
+.toggle-3864__rain-5 {
+    right: 18px;
+    top: 26px;
+}
+
+.toggle-3864__umbrella {
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    z-index: 5;
+    width: 49px;
+    height: 52px;
+    transform: rotate(8deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3864__umbrella-top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 44px;
+    height: 25px;
+    border: 3px solid #09090b;
+    border-radius: 50% 50% 7px 7px;
+    background:
+        linear-gradient(
+            90deg,
+            #7e22ce 0 25%,
+            #18181b 25% 50%,
+            #7e22ce 50% 75%,
+            #18181b 75%
+        );
+    clip-path: polygon(
+        50% 0,
+        100% 80%,
+        76% 72%,
+        51% 100%,
+        27% 72%,
+        0 80%
+    );
+}
+
+.toggle-3864__umbrella-tip {
+    position: absolute;
+    left: 21px;
+    top: -8px;
+    width: 5px;
+    height: 12px;
+    border: 2px solid #09090b;
+    background: #cbd5e1;
+}
+
+.toggle-3864__umbrella-handle {
+    position: absolute;
+    left: 21px;
+    top: 22px;
+    width: 5px;
+    height: 25px;
+    border: 2px solid #09090b;
+    border-radius: 999px;
+    background: #cbd5e1;
+}
+
+.toggle-3864__umbrella-handle::after {
+    content: "";
+    position: absolute;
+    left: -8px;
+    bottom: -4px;
+    width: 12px;
+    height: 10px;
+    border: 4px solid #cbd5e1;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-radius: 50%;
+}
+
+.toggle-3864__burst {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 6;
+    width: 50px;
+    height: 23px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #09090b;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #09090b;
+    clip-path: polygon(
+        0 16%,
+        21% 21%,
+        30% 0,
+        43% 20%,
+        61% 4%,
+        68% 23%,
+        100% 16%,
+        84% 46%,
+        100% 62%,
+        73% 67%,
+        67% 100%,
+        49% 78%,
+        31% 97%,
+        25% 73%,
+        0 83%,
+        15% 52%
+    );
+    transform: rotate(3deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3864__burst-off,
+.toggle-3864__burst-on {
+    position: absolute;
+    color: #09090b;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3864__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3864__burst-on {
+    opacity: 1;
+}
+
+.toggle-3864__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 9;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #09090b;
+    border-radius: 50%;
+    background: #7e22ce;
+    box-shadow: 5px 5px 0 #09090b;
+    transition:
+        left .35s cubic-bezier(.34,1.56,.64,1),
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3864__hat {
+    position: absolute;
+    left: 8px;
+    top: 0;
+    z-index: 7;
+    width: 36px;
+    height: 19px;
+    border: 3px solid #09090b;
+    border-radius: 5px 5px 2px 2px;
+    background: #18181b;
+    transition:
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3864__hat::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: -7px;
+    width: 22px;
+    height: 11px;
+    border: 3px solid #09090b;
+    border-radius: 3px 3px 0 0;
+    background: #18181b;
+}
+
+.toggle-3864__hat::after {
+    content: "";
+    position: absolute;
+    left: -7px;
+    right: -7px;
+    bottom: -5px;
+    height: 7px;
+    border: 3px solid #09090b;
+    border-radius: 999px;
+    background: #27272a;
+}
+
+.toggle-3864__hat-band {
+    position: absolute;
+    left: 3px;
+    right: 3px;
+    bottom: 2px;
+    height: 4px;
+    background: #7e22ce;
+}
+
+.toggle-3864__face {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    z-index: 5;
+    width: 32px;
+    height: 30px;
+    border: 3px solid #09090b;
+    border-radius: 43% 43% 48% 48%;
+    background: #f1d0af;
+    transition:
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3864__brow {
+    position: absolute;
+    top: 7px;
+    width: 8px;
+    height: 3px;
+    border-radius: 999px;
+    background: #09090b;
+}
+
+.toggle-3864__brow-left {
+    left: 3px;
+    transform: rotate(-14deg);
+}
+
+.toggle-3864__brow-right {
+    right: 3px;
+    transform: rotate(14deg);
+}
+
+.toggle-3864__eye {
+    position: absolute;
+    top: 12px;
+    width: 6px;
+    height: 5px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.toggle-3864__eye-left {
+    left: 4px;
+}
+
+.toggle-3864__monocle {
+    position: absolute;
+    right: 2px;
+    top: 9px;
+    width: 11px;
+    height: 11px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: rgba(186,230,253,.5);
+    box-shadow: 0 0 4px rgba(186,230,253,.5);
+}
+
+.toggle-3864__monocle::after {
+    content: "";
+    position: absolute;
+    right: -4px;
+    top: 9px;
+    width: 2px;
+    height: 13px;
+    background: #09090b;
+    transform: rotate(-10deg);
+}
+
+.toggle-3864__monocle-eye {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #09090b;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3864__nose {
+    position: absolute;
+    left: 13px;
+    top: 14px;
+    width: 12px;
+    height: 7px;
+    border: 2px solid #09090b;
+    border-left: 0;
+    border-radius: 0 70% 70% 0;
+    background: #e9b98b;
+    transform: rotate(6deg);
+}
+
+.toggle-3864__smirk {
+    position: absolute;
+    left: 8px;
+    bottom: 3px;
+    width: 15px;
+    height: 5px;
+    border-bottom: 3px solid #7f1d1d;
+    border-radius: 0 0 50% 50%;
+    transform: rotate(-5deg);
+}
+
+.toggle-3864__coat {
+    position: absolute;
+    left: 9px;
+    bottom: 0;
+    z-index: 4;
+    width: 34px;
+    height: 13px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-top: 0;
+    border-radius: 0 0 9px 9px;
+    background: #581c87;
+}
+
+.toggle-3864__lapel {
+    position: absolute;
+    top: 0;
+    width: 14px;
+    height: 12px;
+    background: #7e22ce;
+}
+
+.toggle-3864__lapel-left {
+    left: 0;
+    clip-path: polygon(
+        0 0,
+        100% 33%,
+        62% 100%,
+        0 72%
+    );
+}
+
+.toggle-3864__lapel-right {
+    right: 0;
+    clip-path: polygon(
+        100% 0,
+        0 33%,
+        38% 100%,
+        100% 72%
+    );
+}
+
+.toggle-3864__shirt {
+    position: absolute;
+    left: 12px;
+    top: 0;
+    width: 10px;
+    height: 13px;
+    background: #ffffff;
+}
+
+.toggle-3864__bowtie {
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    z-index: 3;
+    width: 14px;
+    height: 7px;
+    background: #a3e635;
+    clip-path: polygon(
+        0 0,
+        50% 35%,
+        100% 0,
+        77% 100%,
+        50% 65%,
+        23% 100%
+    );
+}
+
+.toggle-3864:hover .toggle-3864__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #09090b;
+}
+
+.toggle-3864:hover .toggle-3864__thumb {
+    transform:
+        rotate(-7deg)
+        scale(1.05);
+}
+
+.toggle-3864:hover .toggle-3864__hat {
+    transform:
+        translateY(-2px)
+        rotate(3deg);
+}
+
+.toggle-3864:hover .toggle-3864__umbrella {
+    transform:
+        rotate(14deg)
+        scale(1.06);
+}
+
+.toggle-3864 input:not(:checked) + .toggle-3864__track {
+    background: #334155;
+}
+
+.toggle-3864 input:not(:checked) + .toggle-3864__track .toggle-3864__background {
+    filter:
+        grayscale(.65)
+        brightness(.62);
+}
+
+.toggle-3864 input:not(:checked) + .toggle-3864__track .toggle-3864__thumb {
+    left: 6px;
+    background: #52525b;
+}
+
+.toggle-3864 input:not(:checked) + .toggle-3864__track .toggle-3864__coat {
+    background: #3f3f46;
+}
+
+.toggle-3864 input:not(:checked) + .toggle-3864__track .toggle-3864__lapel {
+    background: #52525b;
+}
+
+.toggle-3864 input:not(:checked) + .toggle-3864__track .toggle-3864__bowtie {
+    background: #9ca3af;
+}
+
+.toggle-3864 input:not(:checked) + .toggle-3864__track .toggle-3864__moon {
+    left: 13px;
+    right: auto;
+    transform: scale(.8);
+    background: #94a3b8;
+    box-shadow: 3px 3px 0 #09090b;
+}
+
+.toggle-3864 input:not(:checked) + .toggle-3864__track .toggle-3864__umbrella {
+    left: 108px;
+    right: auto;
+    opacity: .4;
+    transform:
+        rotate(-12deg)
+        scale(.78);
+}
+
+.toggle-3864 input:not(:checked) + .toggle-3864__track .toggle-3864__rain-1 {
+    transform:
+        translateX(89px)
+        rotate(20deg);
+    opacity: .2;
+}
+
+.toggle-3864 input:not(:checked) + .toggle-3864__track .toggle-3864__rain-2 {
+    transform:
+        translateX(72px)
+        rotate(20deg);
+    opacity: .18;
+}
+
+.toggle-3864 input:not(:checked) + .toggle-3864__track .toggle-3864__rain-3 {
+    transform:
+        translateX(55px)
+        rotate(20deg);
+    opacity: .16;
+}
+
+.toggle-3864 input:not(:checked) + .toggle-3864__track .toggle-3864__rain-4,
+.toggle-3864 input:not(:checked) + .toggle-3864__track .toggle-3864__rain-5 {
+    opacity: .12;
+}
+
+.toggle-3864 input:not(:checked) + .toggle-3864__track .toggle-3864__burst {
+    left: 106px;
+    right: auto;
+    background: #e5e7eb;
+    transform: rotate(-3deg);
+}
+
+.toggle-3864 input:not(:checked) + .toggle-3864__track .toggle-3864__burst-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3864 input:not(:checked) + .toggle-3864__track .toggle-3864__burst-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3864 input:checked + .toggle-3864__track {
+    background: #312e81;
+}
+
+.toggle-3864 input:checked + .toggle-3864__track .toggle-3864__background {
+    filter:
+        saturate(1.15)
+        brightness(1.05);
+    transform: scale(1.03);
+}
+
+.toggle-3864 input:checked + .toggle-3864__track .toggle-3864__thumb {
+    left: 102px;
+    background: #7e22ce;
+}
+
+.toggle-3864 input:checked + .toggle-3864__track .toggle-3864__moon {
+    right: 13px;
+    left: auto;
+    transform: scale(1.06);
+}
+
+.toggle-3864 input:checked + .toggle-3864__track .toggle-3864__umbrella {
+    left: 9px;
+    right: auto;
+    opacity: 1;
+    transform:
+        rotate(-15deg)
+        scale(1);
+}
+
+.toggle-3864 input:checked + .toggle-3864__track .toggle-3864__rain-1 {
+    transform:
+        translateX(96px)
+        translateY(5px)
+        rotate(20deg);
+    opacity: .85;
+}
+
+.toggle-3864 input:checked + .toggle-3864__track .toggle-3864__rain-2 {
+    transform:
+        translateX(78px)
+        translateY(7px)
+        rotate(20deg);
+    opacity: .75;
+}
+
+.toggle-3864 input:checked + .toggle-3864__track .toggle-3864__rain-3 {
+    transform:
+        translateX(62px)
+        translateY(4px)
+        rotate(20deg);
+    opacity: .8;
+}
+
+.toggle-3864 input:checked + .toggle-3864__track .toggle-3864__rain-4 {
+    transform:
+        translateX(-66px)
+        rotate(20deg);
+    opacity: .7;
+}
+
+.toggle-3864 input:checked + .toggle-3864__track .toggle-3864__rain-5 {
+    transform:
+        translateX(-79px)
+        rotate(20deg);
+    opacity: .72;
+}
+
+.toggle-3864 input:checked + .toggle-3864__track .toggle-3864__burst {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(4deg);
+}
+
+.toggle-3864 input:checked + .toggle-3864__track .toggle-3864__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3864 input:checked + .toggle-3864__track .toggle-3864__burst-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3864 input:focus-visible + .toggle-3864__track {
+    outline: 3px solid #a855f7;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3865,
+    name: "Deadshot Target Lock Toggle",
+    preview: (
+      <label
+        className="toggle-3865"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Deadshot Target Lock Toggle"
+        />
+
+        <span className="toggle-3865__track">
+          <span className="toggle-3865__background"></span>
+          <span className="toggle-3865__halftone"></span>
+
+          <span className="toggle-3865__crosshair">
+            <span className="toggle-3865__crosshair-ring"></span>
+            <span className="toggle-3865__crosshair-line toggle-3865__crosshair-line-h"></span>
+            <span className="toggle-3865__crosshair-line toggle-3865__crosshair-line-v"></span>
+            <span className="toggle-3865__crosshair-dot"></span>
+          </span>
+
+          <span className="toggle-3865__bullet toggle-3865__bullet-1"></span>
+          <span className="toggle-3865__bullet toggle-3865__bullet-2"></span>
+          <span className="toggle-3865__bullet toggle-3865__bullet-3"></span>
+
+          <span className="toggle-3865__spark toggle-3865__spark-1"></span>
+          <span className="toggle-3865__spark toggle-3865__spark-2"></span>
+
+          <span className="toggle-3865__label">
+            <span className="toggle-3865__label-off">MISS</span>
+            <span className="toggle-3865__label-on">LOCKED!</span>
+          </span>
+
+          <span className="toggle-3865__thumb">
+            <span className="toggle-3865__helmet">
+              <span className="toggle-3865__plate toggle-3865__plate-left"></span>
+              <span className="toggle-3865__plate toggle-3865__plate-right"></span>
+
+              <span className="toggle-3865__eye toggle-3865__eye-left"></span>
+
+              <span className="toggle-3865__scope">
+                <span className="toggle-3865__scope-ring"></span>
+                <span className="toggle-3865__scope-dot"></span>
+              </span>
+
+              <span className="toggle-3865__mouth"></span>
+            </span>
+
+            <span className="toggle-3865__armor">
+              <span className="toggle-3865__armor-panel toggle-3865__armor-panel-left"></span>
+              <span className="toggle-3865__armor-panel toggle-3865__armor-panel-right"></span>
+              <span className="toggle-3865__armor-core"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3865">
+    <input type="checkbox" checked aria-label="Deadshot Target Lock Toggle">
+
+    <span class="toggle-3865__track">
+        <span class="toggle-3865__background"></span>
+        <span class="toggle-3865__halftone"></span>
+
+        <span class="toggle-3865__crosshair">
+            <span class="toggle-3865__crosshair-ring"></span>
+            <span class="toggle-3865__crosshair-line toggle-3865__crosshair-line-h"></span>
+            <span class="toggle-3865__crosshair-line toggle-3865__crosshair-line-v"></span>
+            <span class="toggle-3865__crosshair-dot"></span>
+        </span>
+
+        <span class="toggle-3865__bullet toggle-3865__bullet-1"></span>
+        <span class="toggle-3865__bullet toggle-3865__bullet-2"></span>
+        <span class="toggle-3865__bullet toggle-3865__bullet-3"></span>
+
+        <span class="toggle-3865__spark toggle-3865__spark-1"></span>
+        <span class="toggle-3865__spark toggle-3865__spark-2"></span>
+
+        <span class="toggle-3865__label">
+            <span class="toggle-3865__label-off">MISS</span>
+            <span class="toggle-3865__label-on">LOCKED!</span>
+        </span>
+
+        <span class="toggle-3865__thumb">
+            <span class="toggle-3865__helmet">
+                <span class="toggle-3865__plate toggle-3865__plate-left"></span>
+                <span class="toggle-3865__plate toggle-3865__plate-right"></span>
+
+                <span class="toggle-3865__eye toggle-3865__eye-left"></span>
+
+                <span class="toggle-3865__scope">
+                    <span class="toggle-3865__scope-ring"></span>
+                    <span class="toggle-3865__scope-dot"></span>
+                </span>
+
+                <span class="toggle-3865__mouth"></span>
+            </span>
+
+            <span class="toggle-3865__armor">
+                <span class="toggle-3865__armor-panel toggle-3865__armor-panel-left"></span>
+                <span class="toggle-3865__armor-panel toggle-3865__armor-panel-right"></span>
+                <span class="toggle-3865__armor-core"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3865 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3865 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3865__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #09090b;
+    border-radius: 14px;
+    background: #27272a;
+    box-shadow: 8px 8px 0 #09090b;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+
+.toggle-3865__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle at 76% 33%,
+            rgba(239,68,68,.35),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #18181b 0%,
+            #3f3f46 48%,
+            #7f1d1d 100%
+        );
+    transition:
+        filter .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3865__halftone {
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(
+            rgba(9,9,11,.55) 1.3px,
+            transparent 1.6px
+        );
+    background-size: 8px 8px;
+    opacity: .28;
+}
+
+.toggle-3865__crosshair {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    z-index: 3;
+    width: 45px;
+    height: 45px;
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3865__crosshair-ring {
+    position: absolute;
+    inset: 3px;
+    border: 3px solid #ef4444;
+    border-radius: 50%;
+    box-shadow:
+        0 0 7px rgba(239,68,68,.7);
+}
+
+.toggle-3865__crosshair-line {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #ef4444;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 4px rgba(239,68,68,.7);
+}
+
+.toggle-3865__crosshair-line-h {
+    width: 45px;
+    height: 3px;
+}
+
+.toggle-3865__crosshair-line-v {
+    width: 3px;
+    height: 45px;
+}
+
+.toggle-3865__crosshair-dot {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3865__bullet {
+    position: absolute;
+    z-index: 4;
+    height: 5px;
+    border: 2px solid #09090b;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            90deg,
+            #facc15,
+            #f97316
+        );
+    transition:
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3865__bullet::after {
+    content: "";
+    position: absolute;
+    right: -6px;
+    top: -2px;
+    width: 8px;
+    height: 5px;
+    background: #fde68a;
+    clip-path: polygon(
+        0 0,
+        100% 50%,
+        0 100%
+    );
+}
+
+.toggle-3865__bullet-1 {
+    right: 16px;
+    top: 14px;
+    width: 34px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3865__bullet-2 {
+    right: 30px;
+    top: 35px;
+    width: 42px;
+    transform: rotate(4deg);
+}
+
+.toggle-3865__bullet-3 {
+    right: 12px;
+    bottom: 10px;
+    width: 31px;
+    transform: rotate(-5deg);
+}
+
+.toggle-3865__spark {
+    position: absolute;
+    z-index: 4;
+    width: 17px;
+    height: 17px;
+    border: 2px solid #09090b;
+    background: #facc15;
+    clip-path: polygon(
+        50% 0,
+        61% 29%,
+        87% 8%,
+        77% 38%,
+        100% 50%,
+        73% 60%,
+        89% 90%,
+        60% 73%,
+        50% 100%,
+        39% 73%,
+        10% 90%,
+        27% 60%,
+        0 50%,
+        24% 38%,
+        9% 9%,
+        39% 29%
+    );
+    transition:
+        transform .35s ease,
+        opacity .3s ease;
+}
+
+.toggle-3865__spark-1 {
+    right: 49px;
+    top: 9px;
+}
+
+.toggle-3865__spark-2 {
+    right: 11px;
+    bottom: 7px;
+    transform: scale(.65);
+}
+
+.toggle-3865__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 6;
+    width: 51px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #09090b;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #09090b;
+    transform: rotate(2deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        background .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3865__label-off,
+.toggle-3865__label-on {
+    position: absolute;
+    color: #09090b;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3865__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3865__label-on {
+    opacity: 1;
+}
+
+.toggle-3865__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 9;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #09090b;
+    border-radius: 50%;
+    background: #dc2626;
+    box-shadow: 5px 5px 0 #09090b;
+    transition:
+        left .35s cubic-bezier(.34,1.56,.64,1),
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3865__helmet {
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    z-index: 5;
+    width: 36px;
+    height: 37px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-radius: 45% 45% 40% 40%;
+    background: #d1d5db;
+    transition:
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3865__plate {
+    position: absolute;
+    top: 0;
+    width: 18px;
+    height: 38px;
+}
+
+.toggle-3865__plate-left {
+    left: 0;
+    background: #e5e7eb;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        76% 100%,
+        0 88%
+    );
+}
+
+.toggle-3865__plate-right {
+    right: 0;
+    background: #b91c1c;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 88%,
+        24% 100%
+    );
+}
+
+.toggle-3865__eye {
+    position: absolute;
+    left: 5px;
+    top: 12px;
+    z-index: 5;
+    width: 8px;
+    height: 6px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.toggle-3865__scope {
+    position: absolute;
+    right: 2px;
+    top: 8px;
+    z-index: 6;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #09090b;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow:
+        0 0 7px #ef4444;
+    transition:
+        transform .35s ease,
+        background .3s ease,
+        box-shadow .3s ease;
+}
+
+.toggle-3865__scope-ring {
+    position: absolute;
+    inset: 2px;
+    border: 1px solid #fecaca;
+    border-radius: 50%;
+}
+
+.toggle-3865__scope-dot {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3865__mouth {
+    position: absolute;
+    left: 8px;
+    bottom: 5px;
+    width: 18px;
+    height: 6px;
+    border-bottom: 3px solid #09090b;
+    border-radius: 0 0 50% 50%;
+}
+
+.toggle-3865__armor {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 4;
+    width: 36px;
+    height: 13px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #27272a;
+}
+
+.toggle-3865__armor-panel {
+    position: absolute;
+    top: 0;
+    width: 15px;
+    height: 13px;
+}
+
+.toggle-3865__armor-panel-left {
+    left: 0;
+    background: #71717a;
+    clip-path: polygon(
+        0 0,
+        100% 30%,
+        60% 100%,
+        0 100%
+    );
+}
+
+.toggle-3865__armor-panel-right {
+    right: 0;
+    background: #991b1b;
+    clip-path: polygon(
+        100% 0,
+        0 30%,
+        40% 100%,
+        100% 100%
+    );
+}
+
+.toggle-3865__armor-core {
+    position: absolute;
+    left: 50%;
+    top: 2px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #ef4444;
+    transform: translateX(-50%);
+    box-shadow: 0 0 5px #ef4444;
+}
+
+.toggle-3865:hover .toggle-3865__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #09090b;
+}
+
+.toggle-3865:hover .toggle-3865__thumb {
+    transform:
+        rotate(-7deg)
+        scale(1.05);
+}
+
+.toggle-3865:hover .toggle-3865__scope {
+    transform: scale(1.15);
+}
+
+.toggle-3865:hover .toggle-3865__crosshair {
+    transform:
+        rotate(14deg)
+        scale(1.05);
+}
+
+.toggle-3865 input:not(:checked) + .toggle-3865__track {
+    background: #3f3f46;
+}
+
+.toggle-3865 input:not(:checked) + .toggle-3865__track .toggle-3865__background {
+    filter:
+        grayscale(.7)
+        brightness(.65);
+}
+
+.toggle-3865 input:not(:checked) + .toggle-3865__track .toggle-3865__thumb {
+    left: 6px;
+    background: #71717a;
+}
+
+.toggle-3865 input:not(:checked) + .toggle-3865__track .toggle-3865__helmet {
+    background: #9ca3af;
+    transform: scale(.94);
+}
+
+.toggle-3865 input:not(:checked) + .toggle-3865__track .toggle-3865__scope {
+    background: #71717a;
+    box-shadow: none;
+    transform: scale(.85);
+}
+
+.toggle-3865 input:not(:checked) + .toggle-3865__track .toggle-3865__armor-core {
+    background: #71717a;
+    box-shadow: none;
+}
+
+.toggle-3865 input:not(:checked) + .toggle-3865__track .toggle-3865__crosshair {
+    left: 111px;
+    right: auto;
+    opacity: .28;
+    transform:
+        rotate(-20deg)
+        scale(.72);
+}
+
+.toggle-3865 input:not(:checked) + .toggle-3865__track .toggle-3865__bullet-1 {
+    transform:
+        translateX(-86px)
+        rotate(8deg)
+        scale(.65);
+    opacity: .25;
+}
+
+.toggle-3865 input:not(:checked) + .toggle-3865__track .toggle-3865__bullet-2 {
+    transform:
+        translateX(-75px)
+        rotate(-4deg)
+        scale(.65);
+    opacity: .2;
+}
+
+.toggle-3865 input:not(:checked) + .toggle-3865__track .toggle-3865__bullet-3 {
+    transform:
+        translateX(-91px)
+        rotate(5deg)
+        scale(.65);
+    opacity: .18;
+}
+
+.toggle-3865 input:not(:checked) + .toggle-3865__track .toggle-3865__spark {
+    opacity: .18;
+    transform: scale(.5);
+}
+
+.toggle-3865 input:not(:checked) + .toggle-3865__track .toggle-3865__label {
+    left: 107px;
+    right: auto;
+    background: #e5e7eb;
+    transform: rotate(-2deg);
+}
+
+.toggle-3865 input:not(:checked) + .toggle-3865__track .toggle-3865__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3865 input:not(:checked) + .toggle-3865__track .toggle-3865__label-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3865 input:checked + .toggle-3865__track {
+    background: #7f1d1d;
+}
+
+.toggle-3865 input:checked + .toggle-3865__track .toggle-3865__background {
+    filter:
+        saturate(1.2)
+        brightness(1.05);
+    transform: scale(1.03);
+}
+
+.toggle-3865 input:checked + .toggle-3865__track .toggle-3865__thumb {
+    left: 102px;
+    background: #dc2626;
+}
+
+.toggle-3865 input:checked + .toggle-3865__track .toggle-3865__helmet {
+    background: #d1d5db;
+    transform: scale(1.04);
+}
+
+.toggle-3865 input:checked + .toggle-3865__track .toggle-3865__scope {
+    background: #ef4444;
+    box-shadow:
+        0 0 8px #ef4444;
+    transform: scale(1.08);
+}
+
+.toggle-3865 input:checked + .toggle-3865__track .toggle-3865__armor-core {
+    background: #ef4444;
+    box-shadow:
+        0 0 6px #ef4444;
+}
+
+.toggle-3865 input:checked + .toggle-3865__track .toggle-3865__crosshair {
+    left: 9px;
+    right: auto;
+    opacity: 1;
+    transform:
+        rotate(180deg)
+        scale(1.05);
+}
+
+.toggle-3865 input:checked + .toggle-3865__track .toggle-3865__bullet-1 {
+    transform:
+        translateX(-103px)
+        rotate(8deg)
+        scale(1);
+    opacity: 1;
+}
+
+.toggle-3865 input:checked + .toggle-3865__track .toggle-3865__bullet-2 {
+    transform:
+        translateX(-91px)
+        rotate(-4deg)
+        scale(1);
+    opacity: .9;
+}
+
+.toggle-3865 input:checked + .toggle-3865__track .toggle-3865__bullet-3 {
+    transform:
+        translateX(-104px)
+        rotate(5deg)
+        scale(1);
+    opacity: .82;
+}
+
+.toggle-3865 input:checked + .toggle-3865__track .toggle-3865__spark-1 {
+    transform:
+        translateX(-98px)
+        rotate(45deg)
+        scale(1.1);
+    opacity: 1;
+}
+
+.toggle-3865 input:checked + .toggle-3865__track .toggle-3865__spark-2 {
+    transform:
+        translateX(-99px)
+        rotate(-45deg)
+        scale(.85);
+    opacity: .8;
+}
+
+.toggle-3865 input:checked + .toggle-3865__track .toggle-3865__label {
+    left: 8px;
+    right: auto;
+    background: #fecaca;
+    transform: rotate(3deg);
+}
+
+.toggle-3865 input:checked + .toggle-3865__track .toggle-3865__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3865 input:checked + .toggle-3865__track .toggle-3865__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3865 input:focus-visible + .toggle-3865__track {
+    outline: 3px solid #ef4444;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3866,
+    name: "Batgirl Gotham Strike Toggle",
+    preview: (
+      <label
+        className="toggle-3866"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Batgirl Gotham Strike Toggle"
+        />
+
+        <span className="toggle-3866__track">
+          <span className="toggle-3866__background"></span>
+          <span className="toggle-3866__halftone"></span>
+
+          <span className="toggle-3866__moon"></span>
+
+          <span className="toggle-3866__city">
+            <span className="toggle-3866__building toggle-3866__building-1"></span>
+            <span className="toggle-3866__building toggle-3866__building-2"></span>
+            <span className="toggle-3866__building toggle-3866__building-3"></span>
+            <span className="toggle-3866__building toggle-3866__building-4"></span>
+          </span>
+
+          <span className="toggle-3866__signal">
+            <span className="toggle-3866__signal-wing toggle-3866__signal-wing-left"></span>
+            <span className="toggle-3866__signal-body"></span>
+            <span className="toggle-3866__signal-wing toggle-3866__signal-wing-right"></span>
+          </span>
+
+          <span className="toggle-3866__grapple">
+            <span className="toggle-3866__grapple-line"></span>
+            <span className="toggle-3866__grapple-hook"></span>
+          </span>
+
+          <span className="toggle-3866__speed toggle-3866__speed-1"></span>
+          <span className="toggle-3866__speed toggle-3866__speed-2"></span>
+          <span className="toggle-3866__speed toggle-3866__speed-3"></span>
+
+          <span className="toggle-3866__burst">
+            <span className="toggle-3866__burst-off">WATCH</span>
+            <span className="toggle-3866__burst-on">STRIKE!</span>
+          </span>
+
+          <span className="toggle-3866__thumb">
+            <span className="toggle-3866__cape"></span>
+
+            <span className="toggle-3866__cowl">
+              <span className="toggle-3866__ear toggle-3866__ear-left"></span>
+              <span className="toggle-3866__ear toggle-3866__ear-right"></span>
+
+              <span className="toggle-3866__mask">
+                <span className="toggle-3866__eye toggle-3866__eye-left"></span>
+                <span className="toggle-3866__eye toggle-3866__eye-right"></span>
+              </span>
+
+              <span className="toggle-3866__face"></span>
+              <span className="toggle-3866__mouth"></span>
+            </span>
+
+            <span className="toggle-3866__suit">
+              <span className="toggle-3866__chest">
+                <span className="toggle-3866__chest-wing toggle-3866__chest-wing-left"></span>
+                <span className="toggle-3866__chest-body"></span>
+                <span className="toggle-3866__chest-wing toggle-3866__chest-wing-right"></span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3866">
+    <input type="checkbox" checked aria-label="Batgirl Gotham Strike Toggle">
+
+    <span class="toggle-3866__track">
+        <span class="toggle-3866__background"></span>
+        <span class="toggle-3866__halftone"></span>
+
+        <span class="toggle-3866__moon"></span>
+
+        <span class="toggle-3866__city">
+            <span class="toggle-3866__building toggle-3866__building-1"></span>
+            <span class="toggle-3866__building toggle-3866__building-2"></span>
+            <span class="toggle-3866__building toggle-3866__building-3"></span>
+            <span class="toggle-3866__building toggle-3866__building-4"></span>
+        </span>
+
+        <span class="toggle-3866__signal">
+            <span class="toggle-3866__signal-wing toggle-3866__signal-wing-left"></span>
+            <span class="toggle-3866__signal-body"></span>
+            <span class="toggle-3866__signal-wing toggle-3866__signal-wing-right"></span>
+        </span>
+
+        <span class="toggle-3866__grapple">
+            <span class="toggle-3866__grapple-line"></span>
+            <span class="toggle-3866__grapple-hook"></span>
+        </span>
+
+        <span class="toggle-3866__speed toggle-3866__speed-1"></span>
+        <span class="toggle-3866__speed toggle-3866__speed-2"></span>
+        <span class="toggle-3866__speed toggle-3866__speed-3"></span>
+
+        <span class="toggle-3866__burst">
+            <span class="toggle-3866__burst-off">WATCH</span>
+            <span class="toggle-3866__burst-on">STRIKE!</span>
+        </span>
+
+        <span class="toggle-3866__thumb">
+            <span class="toggle-3866__cape"></span>
+
+            <span class="toggle-3866__cowl">
+                <span class="toggle-3866__ear toggle-3866__ear-left"></span>
+                <span class="toggle-3866__ear toggle-3866__ear-right"></span>
+
+                <span class="toggle-3866__mask">
+                    <span class="toggle-3866__eye toggle-3866__eye-left"></span>
+                    <span class="toggle-3866__eye toggle-3866__eye-right"></span>
+                </span>
+
+                <span class="toggle-3866__face"></span>
+                <span class="toggle-3866__mouth"></span>
+            </span>
+
+            <span class="toggle-3866__suit">
+                <span class="toggle-3866__chest">
+                    <span class="toggle-3866__chest-wing toggle-3866__chest-wing-left"></span>
+                    <span class="toggle-3866__chest-body"></span>
+                    <span class="toggle-3866__chest-wing toggle-3866__chest-wing-right"></span>
+                </span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3866 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3866 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3866__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #09090b;
+    border-radius: 14px;
+    background: #1e1b4b;
+    box-shadow: 8px 8px 0 #09090b;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+
+.toggle-3866__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle at 77% 27%,
+            rgba(250,204,21,.23),
+            transparent 27%
+        ),
+        linear-gradient(
+            135deg,
+            #09090b 0%,
+            #312e81 47%,
+            #581c87 100%
+        );
+    transition:
+        filter .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3866__halftone {
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(
+            rgba(9,9,11,.55) 1.3px,
+            transparent 1.6px
+        );
+    background-size: 8px 8px;
+    opacity: .28;
+}
+
+.toggle-3866__moon {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    z-index: 2;
+    width: 39px;
+    height: 39px;
+    border: 3px solid #09090b;
+    border-radius: 50%;
+    background: #fde047;
+    box-shadow:
+        3px 3px 0 #09090b,
+        0 0 11px rgba(250,204,21,.42);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3866__city {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+}
+
+.toggle-3866__building {
+    position: absolute;
+    bottom: 0;
+    border: 2px solid #09090b;
+    background: #111827;
+    box-shadow: inset -4px 0 0 rgba(0,0,0,.3);
+    transition:
+        transform .35s ease,
+        opacity .3s ease;
+}
+
+.toggle-3866__building::after {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    background-image:
+        radial-gradient(
+            #fde047 1.2px,
+            transparent 1.5px
+        );
+    background-size: 9px 9px;
+    opacity: .6;
+}
+
+.toggle-3866__building-1 {
+    left: -5px;
+    width: 36px;
+    height: 26px;
+}
+
+.toggle-3866__building-2 {
+    left: 27px;
+    width: 36px;
+    height: 42px;
+}
+
+.toggle-3866__building-3 {
+    left: 59px;
+    width: 33px;
+    height: 31px;
+}
+
+.toggle-3866__building-4 {
+    left: 88px;
+    width: 31px;
+    height: 49px;
+}
+
+.toggle-3866__signal {
+    position: absolute;
+    right: 13px;
+    top: 15px;
+    z-index: 4;
+    width: 37px;
+    height: 22px;
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3866__signal-body {
+    position: absolute;
+    left: 14px;
+    top: 7px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #09090b;
+    background: #09090b;
+    transform: rotate(45deg);
+}
+
+.toggle-3866__signal-wing {
+    position: absolute;
+    top: 3px;
+    width: 18px;
+    height: 15px;
+    background: #09090b;
+}
+
+.toggle-3866__signal-wing-left {
+    left: 0;
+    clip-path: polygon(
+        100% 35%,
+        68% 15%,
+        0 0,
+        22% 44%,
+        0 100%,
+        70% 75%
+    );
+}
+
+.toggle-3866__signal-wing-right {
+    right: 0;
+    clip-path: polygon(
+        0 35%,
+        32% 15%,
+        100% 0,
+        78% 44%,
+        100% 100%,
+        30% 75%
+    );
+}
+
+.toggle-3866__grapple {
+    position: absolute;
+    right: 43px;
+    top: 7px;
+    z-index: 5;
+    width: 65px;
+    height: 39px;
+    transition:
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3866__grapple-line {
+    position: absolute;
+    left: 6px;
+    top: 24px;
+    width: 58px;
+    height: 3px;
+    border: 1px solid #09090b;
+    border-radius: 999px;
+    background: #facc15;
+    transform: rotate(-24deg);
+    transform-origin: right center;
+}
+
+.toggle-3866__grapple-hook {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 12px;
+    height: 15px;
+    border-top: 4px solid #facc15;
+    border-left: 4px solid #facc15;
+    border-radius: 8px 0 0 0;
+    transform: rotate(18deg);
+    filter: drop-shadow(1px 1px 0 #09090b);
+}
+
+.toggle-3866__grapple-hook::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: -4px;
+    width: 11px;
+    height: 14px;
+    border-top: 4px solid #facc15;
+    border-right: 4px solid #facc15;
+    border-radius: 0 8px 0 0;
+}
+
+.toggle-3866__speed {
+    position: absolute;
+    z-index: 4;
+    height: 4px;
+    border: 1px solid #09090b;
+    border-radius: 999px;
+    background: #fde047;
+    transition:
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3866__speed-1 {
+    right: 9px;
+    top: 12px;
+    width: 38px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3866__speed-2 {
+    right: 17px;
+    top: 38px;
+    width: 50px;
+    transform: rotate(4deg);
+}
+
+.toggle-3866__speed-3 {
+    right: 8px;
+    bottom: 9px;
+    width: 35px;
+    transform: rotate(-5deg);
+}
+
+.toggle-3866__burst {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 6;
+    width: 51px;
+    height: 23px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #09090b;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #09090b;
+    clip-path: polygon(
+        50% 0,
+        60% 22%,
+        80% 6%,
+        75% 30%,
+        100% 28%,
+        82% 47%,
+        100% 63%,
+        76% 65%,
+        86% 93%,
+        61% 76%,
+        50% 100%,
+        39% 76%,
+        13% 93%,
+        24% 65%,
+        0 61%,
+        18% 47%,
+        0 29%,
+        25% 31%,
+        19% 6%,
+        40% 22%
+    );
+    transform: rotate(3deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3866__burst-off,
+.toggle-3866__burst-on {
+    position: absolute;
+    color: #09090b;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3866__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3866__burst-on {
+    opacity: 1;
+}
+
+.toggle-3866__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 9;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #09090b;
+    border-radius: 50%;
+    background: #7e22ce;
+    box-shadow: 5px 5px 0 #09090b;
+    transition:
+        left .35s cubic-bezier(.34,1.56,.64,1),
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3866__cape {
+    position: absolute;
+    left: 4px;
+    top: 12px;
+    z-index: 2;
+    width: 44px;
+    height: 36px;
+    border: 3px solid #09090b;
+    background: #facc15;
+    clip-path: polygon(
+        50% 0,
+        100% 28%,
+        82% 48%,
+        100% 70%,
+        73% 72%,
+        67% 100%,
+        50% 80%,
+        31% 100%,
+        25% 72%,
+        0 70%,
+        18% 48%,
+        0 28%
+    );
+    transition:
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3866__cowl {
+    position: absolute;
+    left: 9px;
+    top: 6px;
+    z-index: 5;
+    width: 34px;
+    height: 37px;
+    border: 3px solid #09090b;
+    border-radius: 46% 46% 43% 43%;
+    background: #5b21b6;
+    transition:
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3866__ear {
+    position: absolute;
+    top: -11px;
+    width: 10px;
+    height: 17px;
+    border: 3px solid #09090b;
+    background: #5b21b6;
+    clip-path: polygon(
+        50% 0,
+        100% 100%,
+        0 100%
+    );
+}
+
+.toggle-3866__ear-left {
+    left: 2px;
+    transform: rotate(-7deg);
+}
+
+.toggle-3866__ear-right {
+    right: 2px;
+    transform: rotate(7deg);
+}
+
+.toggle-3866__mask {
+    position: absolute;
+    left: 2px;
+    top: 10px;
+    width: 24px;
+    height: 12px;
+    background: #312e81;
+    clip-path: polygon(
+        0 20%,
+        28% 0,
+        50% 25%,
+        72% 0,
+        100% 20%,
+        82% 100%,
+        50% 72%,
+        18% 100%
+    );
+}
+
+.toggle-3866__eye {
+    position: absolute;
+    top: 3px;
+    width: 6px;
+    height: 4px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.toggle-3866__eye-left {
+    left: 4px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3866__eye-right {
+    right: 4px;
+    transform: rotate(8deg);
+}
+
+.toggle-3866__face {
+    position: absolute;
+    left: 6px;
+    top: 21px;
+    width: 16px;
+    height: 10px;
+    border: 2px solid #09090b;
+    border-top: 0;
+    border-radius: 0 0 50% 50%;
+    background: #f1c7a4;
+}
+
+.toggle-3866__mouth {
+    position: absolute;
+    left: 9px;
+    bottom: 3px;
+    width: 11px;
+    height: 4px;
+    border-bottom: 2px solid #7f1d1d;
+    border-radius: 0 0 50% 50%;
+}
+
+.toggle-3866__suit {
+    position: absolute;
+    left: 9px;
+    bottom: 0;
+    z-index: 4;
+    width: 34px;
+    height: 13px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #312e81;
+}
+
+.toggle-3866__chest {
+    position: absolute;
+    left: 7px;
+    top: 2px;
+    width: 20px;
+    height: 9px;
+}
+
+.toggle-3866__chest-body {
+    position: absolute;
+    left: 8px;
+    top: 3px;
+    width: 5px;
+    height: 5px;
+    background: #facc15;
+    transform: rotate(45deg);
+}
+
+.toggle-3866__chest-wing {
+    position: absolute;
+    top: 1px;
+    width: 10px;
+    height: 7px;
+    background: #facc15;
+}
+
+.toggle-3866__chest-wing-left {
+    left: 0;
+    clip-path: polygon(
+        100% 35%,
+        65% 10%,
+        0 0,
+        25% 50%,
+        0 100%,
+        70% 72%
+    );
+}
+
+.toggle-3866__chest-wing-right {
+    right: 0;
+    clip-path: polygon(
+        0 35%,
+        35% 10%,
+        100% 0,
+        75% 50%,
+        100% 100%,
+        30% 72%
+    );
+}
+
+.toggle-3866:hover .toggle-3866__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #09090b;
+}
+
+.toggle-3866:hover .toggle-3866__thumb {
+    transform:
+        rotate(-7deg)
+        scale(1.05);
+}
+
+.toggle-3866:hover .toggle-3866__cape {
+    transform:
+        rotate(7deg)
+        scale(1.05);
+}
+
+.toggle-3866:hover .toggle-3866__signal {
+    transform:
+        scale(1.12)
+        rotate(-4deg);
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track {
+    background: #27272a;
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__background {
+    filter:
+        grayscale(.7)
+        brightness(.62);
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__thumb {
+    left: 6px;
+    background: #52525b;
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__cowl {
+    background: #3f3f46;
+    transform: scale(.94);
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__ear {
+    background: #3f3f46;
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__mask {
+    background: #27272a;
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__cape {
+    background: #a1a1aa;
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__chest-body,
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__chest-wing {
+    background: #a1a1aa;
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__moon {
+    left: 13px;
+    right: auto;
+    transform: scale(.8);
+    background: #a1a1aa;
+    box-shadow: 3px 3px 0 #09090b;
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__signal {
+    left: 114px;
+    right: auto;
+    opacity: .25;
+    transform:
+        rotate(12deg)
+        scale(.75);
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__grapple {
+    transform:
+        translateX(-71px)
+        translateY(15px)
+        rotate(18deg)
+        scale(.7);
+    opacity: .22;
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__speed-1 {
+    transform:
+        translateX(-93px)
+        rotate(8deg)
+        scale(.6);
+    opacity: .18;
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__speed-2 {
+    transform:
+        translateX(-82px)
+        rotate(-4deg)
+        scale(.6);
+    opacity: .16;
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__speed-3 {
+    transform:
+        translateX(-96px)
+        rotate(5deg)
+        scale(.6);
+    opacity: .14;
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__burst {
+    left: 106px;
+    right: auto;
+    background: #e5e7eb;
+    transform: rotate(-3deg);
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__burst-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3866 input:not(:checked) + .toggle-3866__track .toggle-3866__burst-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3866 input:checked + .toggle-3866__track {
+    background: #312e81;
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__background {
+    filter:
+        saturate(1.18)
+        brightness(1.05);
+    transform: scale(1.03);
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__thumb {
+    left: 102px;
+    background: #7e22ce;
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__cowl {
+    background: #5b21b6;
+    transform: scale(1.04);
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__ear {
+    background: #5b21b6;
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__cape {
+    background: #facc15;
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__moon {
+    right: 12px;
+    left: auto;
+    transform: scale(1.06);
+    background: #fde047;
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__signal {
+    left: 9px;
+    right: auto;
+    opacity: 1;
+    transform:
+        rotate(-7deg)
+        scale(1.06);
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__grapple {
+    transform:
+        translateX(-82px)
+        translateY(2px)
+        rotate(-6deg)
+        scale(1);
+    opacity: 1;
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__speed-1 {
+    transform:
+        translateX(-103px)
+        rotate(8deg)
+        scale(1);
+    opacity: 1;
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__speed-2 {
+    transform:
+        translateX(-91px)
+        rotate(-4deg)
+        scale(1);
+    opacity: .9;
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__speed-3 {
+    transform:
+        translateX(-104px)
+        rotate(5deg)
+        scale(1);
+    opacity: .82;
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__building-1 {
+    transform: translateX(4px);
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__building-2 {
+    transform: translateX(-2px);
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__building-3 {
+    transform: translateX(-5px);
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__building-4 {
+    transform: translateX(-8px);
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__burst {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(4deg);
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3866 input:checked + .toggle-3866__track .toggle-3866__burst-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3866 input:focus-visible + .toggle-3866__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3867,
+    name: "Sinestro Fear Construct Toggle",
+    preview: (
+      <label
+        className="toggle-3867"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Sinestro Fear Construct Toggle"
+        />
+
+        <span className="toggle-3867__track">
+          <span className="toggle-3867__background"></span>
+          <span className="toggle-3867__halftone"></span>
+
+          <span className="toggle-3867__star toggle-3867__star-1"></span>
+          <span className="toggle-3867__star toggle-3867__star-2"></span>
+          <span className="toggle-3867__star toggle-3867__star-3"></span>
+          <span className="toggle-3867__star toggle-3867__star-4"></span>
+
+          <span className="toggle-3867__energy-ring">
+            <span className="toggle-3867__energy-core"></span>
+            <span className="toggle-3867__energy-ray toggle-3867__energy-ray-1"></span>
+            <span className="toggle-3867__energy-ray toggle-3867__energy-ray-2"></span>
+            <span className="toggle-3867__energy-ray toggle-3867__energy-ray-3"></span>
+            <span className="toggle-3867__energy-ray toggle-3867__energy-ray-4"></span>
+          </span>
+
+          <span className="toggle-3867__construct">
+            <span className="toggle-3867__construct-top"></span>
+            <span className="toggle-3867__construct-middle"></span>
+            <span className="toggle-3867__construct-bottom"></span>
+          </span>
+
+          <span className="toggle-3867__ring">
+            <span className="toggle-3867__ring-band"></span>
+            <span className="toggle-3867__ring-gem"></span>
+          </span>
+
+          <span className="toggle-3867__speed toggle-3867__speed-1"></span>
+          <span className="toggle-3867__speed toggle-3867__speed-2"></span>
+          <span className="toggle-3867__speed toggle-3867__speed-3"></span>
+
+          <span className="toggle-3867__label">
+            <span className="toggle-3867__label-off">DOUBT</span>
+            <span className="toggle-3867__label-on">FEAR!</span>
+          </span>
+
+          <span className="toggle-3867__thumb">
+            <span className="toggle-3867__aura"></span>
+
+            <span className="toggle-3867__hair"></span>
+
+            <span className="toggle-3867__face">
+              <span className="toggle-3867__brow toggle-3867__brow-left"></span>
+              <span className="toggle-3867__brow toggle-3867__brow-right"></span>
+
+              <span className="toggle-3867__eye toggle-3867__eye-left"></span>
+              <span className="toggle-3867__eye toggle-3867__eye-right"></span>
+
+              <span className="toggle-3867__nose"></span>
+
+              <span className="toggle-3867__mustache">
+                <span className="toggle-3867__mustache-left"></span>
+                <span className="toggle-3867__mustache-right"></span>
+              </span>
+
+              <span className="toggle-3867__mouth"></span>
+            </span>
+
+            <span className="toggle-3867__suit">
+              <span className="toggle-3867__shoulder toggle-3867__shoulder-left"></span>
+              <span className="toggle-3867__shoulder toggle-3867__shoulder-right"></span>
+
+              <span className="toggle-3867__emblem">
+                <span className="toggle-3867__emblem-ring"></span>
+                <span className="toggle-3867__emblem-bar"></span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3867">
+    <input type="checkbox" checked aria-label="Sinestro Fear Construct Toggle">
+
+    <span class="toggle-3867__track">
+        <span class="toggle-3867__background"></span>
+        <span class="toggle-3867__halftone"></span>
+
+        <span class="toggle-3867__star toggle-3867__star-1"></span>
+        <span class="toggle-3867__star toggle-3867__star-2"></span>
+        <span class="toggle-3867__star toggle-3867__star-3"></span>
+        <span class="toggle-3867__star toggle-3867__star-4"></span>
+
+        <span class="toggle-3867__energy-ring">
+            <span class="toggle-3867__energy-core"></span>
+            <span class="toggle-3867__energy-ray toggle-3867__energy-ray-1"></span>
+            <span class="toggle-3867__energy-ray toggle-3867__energy-ray-2"></span>
+            <span class="toggle-3867__energy-ray toggle-3867__energy-ray-3"></span>
+            <span class="toggle-3867__energy-ray toggle-3867__energy-ray-4"></span>
+        </span>
+
+        <span class="toggle-3867__construct">
+            <span class="toggle-3867__construct-top"></span>
+            <span class="toggle-3867__construct-middle"></span>
+            <span class="toggle-3867__construct-bottom"></span>
+        </span>
+
+        <span class="toggle-3867__ring">
+            <span class="toggle-3867__ring-band"></span>
+            <span class="toggle-3867__ring-gem"></span>
+        </span>
+
+        <span class="toggle-3867__speed toggle-3867__speed-1"></span>
+        <span class="toggle-3867__speed toggle-3867__speed-2"></span>
+        <span class="toggle-3867__speed toggle-3867__speed-3"></span>
+
+        <span class="toggle-3867__label">
+            <span class="toggle-3867__label-off">DOUBT</span>
+            <span class="toggle-3867__label-on">FEAR!</span>
+        </span>
+
+        <span class="toggle-3867__thumb">
+            <span class="toggle-3867__aura"></span>
+
+            <span class="toggle-3867__hair"></span>
+
+            <span class="toggle-3867__face">
+                <span class="toggle-3867__brow toggle-3867__brow-left"></span>
+                <span class="toggle-3867__brow toggle-3867__brow-right"></span>
+
+                <span class="toggle-3867__eye toggle-3867__eye-left"></span>
+                <span class="toggle-3867__eye toggle-3867__eye-right"></span>
+
+                <span class="toggle-3867__nose"></span>
+
+                <span class="toggle-3867__mustache">
+                    <span class="toggle-3867__mustache-left"></span>
+                    <span class="toggle-3867__mustache-right"></span>
+                </span>
+
+                <span class="toggle-3867__mouth"></span>
+            </span>
+
+            <span class="toggle-3867__suit">
+                <span class="toggle-3867__shoulder toggle-3867__shoulder-left"></span>
+                <span class="toggle-3867__shoulder toggle-3867__shoulder-right"></span>
+
+                <span class="toggle-3867__emblem">
+                    <span class="toggle-3867__emblem-ring"></span>
+                    <span class="toggle-3867__emblem-bar"></span>
+                </span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3867 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3867 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3867__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #09090b;
+    border-radius: 14px;
+    background: #18181b;
+    box-shadow: 8px 8px 0 #09090b;
+    isolation: isolate;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+
+.toggle-3867__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle at 77% 32%,
+            rgba(250,204,21,.45),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 26% 70%,
+            rgba(168,85,247,.16),
+            transparent 32%
+        ),
+        linear-gradient(
+            135deg,
+            #09090b 0%,
+            #27272a 46%,
+            #713f12 100%
+        );
+    transition:
+        filter .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3867__halftone {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-image:
+        radial-gradient(
+            rgba(0,0,0,.55) 1.3px,
+            transparent 1.6px
+        );
+    background-size: 8px 8px;
+    opacity: .25;
+}
+
+.toggle-3867__star {
+    position: absolute;
+    z-index: 2;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fef9c3;
+    box-shadow: 0 0 6px #fde047;
+    transition:
+        transform .35s ease,
+        opacity .3s ease;
+}
+
+.toggle-3867__star::before,
+.toggle-3867__star::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #fef9c3;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3867__star::before {
+    width: 11px;
+    height: 2px;
+}
+
+.toggle-3867__star::after {
+    width: 2px;
+    height: 11px;
+}
+
+.toggle-3867__star-1 {
+    left: 11px;
+    top: 11px;
+}
+
+.toggle-3867__star-2 {
+    left: 39px;
+    top: 7px;
+    transform: scale(.65);
+}
+
+.toggle-3867__star-3 {
+    left: 27px;
+    bottom: 13px;
+    transform: scale(.8);
+}
+
+.toggle-3867__star-4 {
+    right: 11px;
+    top: 13px;
+    transform: scale(.7);
+}
+
+.toggle-3867__energy-ring {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    z-index: 3;
+    width: 46px;
+    height: 46px;
+    border: 3px solid #facc15;
+    border-radius: 50%;
+    box-shadow:
+        0 0 7px #facc15,
+        inset 0 0 8px rgba(250,204,21,.38);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3867__energy-ring::before {
+    content: "";
+    position: absolute;
+    inset: 8px;
+    border: 2px solid #fde047;
+    border-radius: 50%;
+}
+
+.toggle-3867__energy-core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    border: 3px solid #09090b;
+    border-radius: 50%;
+    background: #fef08a;
+    box-shadow: 0 0 8px #fde047;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3867__energy-ray {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 55px;
+    height: 3px;
+    border-radius: 999px;
+    background: #fde047;
+    transform-origin: center;
+    box-shadow: 0 0 5px rgba(250,204,21,.65);
+}
+
+.toggle-3867__energy-ray-1 {
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+
+.toggle-3867__energy-ray-2 {
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+
+.toggle-3867__energy-ray-3 {
+    transform: translate(-50%,-50%) rotate(90deg);
+}
+
+.toggle-3867__energy-ray-4 {
+    transform: translate(-50%,-50%) rotate(135deg);
+}
+
+.toggle-3867__construct {
+    position: absolute;
+    right: 45px;
+    bottom: 7px;
+    z-index: 4;
+    width: 36px;
+    height: 40px;
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3867__construct-top {
+    position: absolute;
+    left: 9px;
+    top: 0;
+    width: 18px;
+    height: 15px;
+    border: 3px solid #09090b;
+    background: #fde047;
+    clip-path: polygon(
+        50% 0,
+        100% 100%,
+        0 100%
+    );
+}
+
+.toggle-3867__construct-middle {
+    position: absolute;
+    left: 5px;
+    top: 13px;
+    width: 26px;
+    height: 18px;
+    border: 3px solid #09090b;
+    background:
+        linear-gradient(
+            135deg,
+            #fef08a,
+            #eab308
+        );
+    clip-path: polygon(
+        15% 0,
+        85% 0,
+        100% 50%,
+        80% 100%,
+        20% 100%,
+        0 50%
+    );
+}
+
+.toggle-3867__construct-bottom {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    width: 16px;
+    height: 13px;
+    border: 3px solid #09090b;
+    background: #facc15;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        77% 100%,
+        23% 100%
+    );
+}
+
+.toggle-3867__ring {
+    position: absolute;
+    right: 13px;
+    bottom: 8px;
+    z-index: 5;
+    width: 30px;
+    height: 24px;
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3867__ring-band {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    width: 16px;
+    height: 15px;
+    border: 4px solid #09090b;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.toggle-3867__ring-gem {
+    position: absolute;
+    left: 7px;
+    top: 0;
+    width: 18px;
+    height: 11px;
+    border: 3px solid #09090b;
+    border-radius: 50%;
+    background: #fde047;
+    box-shadow: 0 0 7px #facc15;
+}
+
+.toggle-3867__speed {
+    position: absolute;
+    z-index: 3;
+    height: 4px;
+    border: 1px solid #09090b;
+    border-radius: 999px;
+    background: #fde047;
+    transition:
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3867__speed-1 {
+    right: 9px;
+    top: 11px;
+    width: 35px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3867__speed-2 {
+    right: 18px;
+    top: 35px;
+    width: 46px;
+    transform: rotate(4deg);
+}
+
+.toggle-3867__speed-3 {
+    right: 7px;
+    bottom: 9px;
+    width: 38px;
+    transform: rotate(-5deg);
+}
+
+.toggle-3867__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 7;
+    width: 50px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #09090b;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #09090b;
+    transform: rotate(2deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        background .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3867__label-off,
+.toggle-3867__label-on {
+    position: absolute;
+    color: #09090b;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3867__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3867__label-on {
+    opacity: 1;
+}
+
+.toggle-3867__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 10;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #09090b;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 5px 5px 0 #09090b;
+    transition:
+        left .35s cubic-bezier(.34,1.56,.64,1),
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3867__aura {
+    position: absolute;
+    inset: -5px;
+    z-index: 1;
+    border: 3px solid rgba(253,224,71,.7);
+    border-radius: 50%;
+    box-shadow:
+        0 0 8px rgba(250,204,21,.65),
+        inset 0 0 7px rgba(250,204,21,.35);
+    transition:
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3867__hair {
+    position: absolute;
+    left: 9px;
+    top: 3px;
+    z-index: 6;
+    width: 34px;
+    height: 15px;
+    border: 3px solid #09090b;
+    border-bottom: 0;
+    border-radius: 55% 55% 15% 15%;
+    background: #09090b;
+    clip-path: polygon(
+        0 100%,
+        7% 35%,
+        30% 0,
+        50% 10%,
+        72% 0,
+        94% 35%,
+        100% 100%
+    );
+}
+
+.toggle-3867__face {
+    position: absolute;
+    left: 9px;
+    top: 12px;
+    z-index: 5;
+    width: 34px;
+    height: 33px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-radius: 46% 46% 48% 48%;
+    background:
+        linear-gradient(
+            135deg,
+            #c084fc,
+            #a855f7
+        );
+    transition:
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3867__brow {
+    position: absolute;
+    top: 7px;
+    width: 10px;
+    height: 3px;
+    border-radius: 999px;
+    background: #09090b;
+}
+
+.toggle-3867__brow-left {
+    left: 4px;
+    transform: rotate(-14deg);
+}
+
+.toggle-3867__brow-right {
+    right: 4px;
+    transform: rotate(14deg);
+}
+
+.toggle-3867__eye {
+    position: absolute;
+    top: 12px;
+    width: 7px;
+    height: 5px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #fde047;
+    box-shadow: 0 0 4px rgba(250,204,21,.75);
+}
+
+.toggle-3867__eye-left {
+    left: 5px;
+}
+
+.toggle-3867__eye-right {
+    right: 5px;
+}
+
+.toggle-3867__nose {
+    position: absolute;
+    left: 14px;
+    top: 16px;
+    width: 5px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(88,28,135,.6);
+}
+
+.toggle-3867__mustache {
+    position: absolute;
+    left: 7px;
+    bottom: 6px;
+    width: 20px;
+    height: 7px;
+}
+
+.toggle-3867__mustache-left,
+.toggle-3867__mustache-right {
+    position: absolute;
+    top: 1px;
+    width: 12px;
+    height: 5px;
+    background: #09090b;
+}
+
+.toggle-3867__mustache-left {
+    left: 0;
+    border-radius: 100% 0 100% 0;
+    transform: rotate(12deg);
+}
+
+.toggle-3867__mustache-right {
+    right: 0;
+    border-radius: 0 100% 0 100%;
+    transform: rotate(-12deg);
+}
+
+.toggle-3867__mouth {
+    position: absolute;
+    left: 11px;
+    bottom: 2px;
+    width: 12px;
+    height: 4px;
+    border-bottom: 2px solid #581c87;
+    border-radius: 0 0 50% 50%;
+}
+
+.toggle-3867__suit {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 4;
+    width: 36px;
+    height: 14px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #111111;
+}
+
+.toggle-3867__shoulder {
+    position: absolute;
+    top: 0;
+    width: 15px;
+    height: 14px;
+    background: #facc15;
+}
+
+.toggle-3867__shoulder-left {
+    left: 0;
+    clip-path: polygon(
+        0 0,
+        100% 30%,
+        58% 100%,
+        0 100%
+    );
+}
+
+.toggle-3867__shoulder-right {
+    right: 0;
+    clip-path: polygon(
+        100% 0,
+        0 30%,
+        42% 100%,
+        100% 100%
+    );
+}
+
+.toggle-3867__emblem {
+    position: absolute;
+    left: 50%;
+    top: 2px;
+    width: 11px;
+    height: 10px;
+    transform: translateX(-50%);
+}
+
+.toggle-3867__emblem-ring {
+    position: absolute;
+    inset: 0;
+    border: 2px solid #facc15;
+    border-radius: 50%;
+}
+
+.toggle-3867__emblem-bar {
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 4px;
+    height: 2px;
+    background: #facc15;
+}
+
+.toggle-3867:hover .toggle-3867__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #09090b;
+}
+
+.toggle-3867:hover .toggle-3867__thumb {
+    transform:
+        rotate(-7deg)
+        scale(1.05);
+}
+
+.toggle-3867:hover .toggle-3867__aura {
+    transform:
+        rotate(18deg)
+        scale(1.08);
+}
+
+.toggle-3867:hover .toggle-3867__energy-ring {
+    transform:
+        rotate(22deg)
+        scale(1.08);
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track {
+    background: #27272a;
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__background {
+    filter:
+        grayscale(.75)
+        brightness(.62);
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__thumb {
+    left: 6px;
+    background: #52525b;
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__face {
+    background:
+        linear-gradient(
+            135deg,
+            #a1a1aa,
+            #71717a
+        );
+    transform: scale(.94);
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__eye {
+    background: #d4d4d8;
+    box-shadow: none;
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__shoulder {
+    background: #71717a;
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__emblem-ring {
+    border-color: #71717a;
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__emblem-bar {
+    background: #71717a;
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__aura {
+    opacity: .18;
+    transform: scale(.7);
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__energy-ring {
+    left: 112px;
+    right: auto;
+    opacity: .2;
+    transform:
+        rotate(-25deg)
+        scale(.7);
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__construct {
+    left: 119px;
+    right: auto;
+    opacity: .2;
+    transform:
+        rotate(15deg)
+        scale(.6);
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__ring {
+    left: 127px;
+    right: auto;
+    opacity: .25;
+    transform:
+        rotate(-20deg)
+        scale(.7);
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__speed-1 {
+    transform:
+        translateX(-91px)
+        rotate(8deg)
+        scale(.6);
+    opacity: .16;
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__speed-2 {
+    transform:
+        translateX(-79px)
+        rotate(-4deg)
+        scale(.6);
+    opacity: .14;
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__speed-3 {
+    transform:
+        translateX(-94px)
+        rotate(5deg)
+        scale(.6);
+    opacity: .12;
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__star {
+    opacity: .2;
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__label {
+    left: 107px;
+    right: auto;
+    background: #e5e7eb;
+    transform: rotate(-2deg);
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3867 input:not(:checked) + .toggle-3867__track .toggle-3867__label-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3867 input:checked + .toggle-3867__track {
+    background: #713f12;
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__background {
+    filter:
+        saturate(1.25)
+        brightness(1.06);
+    transform: scale(1.03);
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__thumb {
+    left: 102px;
+    background: #facc15;
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__face {
+    background:
+        linear-gradient(
+            135deg,
+            #c084fc,
+            #a855f7
+        );
+    transform: scale(1.04);
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__eye {
+    background: #fde047;
+    box-shadow: 0 0 6px #facc15;
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__aura {
+    opacity: 1;
+    transform:
+        rotate(15deg)
+        scale(1.06);
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__energy-ring {
+    left: 8px;
+    right: auto;
+    opacity: 1;
+    transform:
+        rotate(180deg)
+        scale(1.05);
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__construct {
+    left: 47px;
+    right: auto;
+    opacity: 1;
+    transform:
+        rotate(-8deg)
+        scale(1);
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__ring {
+    left: 72px;
+    right: auto;
+    opacity: 1;
+    transform:
+        rotate(12deg)
+        scale(1);
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__speed-1 {
+    transform:
+        translateX(-103px)
+        rotate(8deg)
+        scale(1);
+    opacity: 1;
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__speed-2 {
+    transform:
+        translateX(-91px)
+        rotate(-4deg)
+        scale(1);
+    opacity: .9;
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__speed-3 {
+    transform:
+        translateX(-104px)
+        rotate(5deg)
+        scale(1);
+    opacity: .82;
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__star-1 {
+    transform:
+        translateX(82px)
+        rotate(45deg)
+        scale(1);
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__star-2 {
+    transform:
+        translateX(63px)
+        rotate(-45deg)
+        scale(.8);
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__star-3 {
+    transform:
+        translateX(72px)
+        rotate(45deg)
+        scale(.9);
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__star-4 {
+    transform:
+        translateX(-72px)
+        rotate(-45deg)
+        scale(.8);
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__label {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(3deg);
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3867 input:checked + .toggle-3867__track .toggle-3867__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3867 input:focus-visible + .toggle-3867__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3868,
+    name: "Brainiac Bottle City Toggle",
+    preview: (
+      <label
+        className="toggle-3868"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Brainiac Bottle City Toggle"
+        />
+
+        <span className="toggle-3868__track">
+          <span className="toggle-3868__background"></span>
+          <span className="toggle-3868__grid"></span>
+          <span className="toggle-3868__halftone"></span>
+
+          <span className="toggle-3868__ship">
+            <span className="toggle-3868__ship-dome"></span>
+            <span className="toggle-3868__ship-eye toggle-3868__ship-eye-left"></span>
+            <span className="toggle-3868__ship-eye toggle-3868__ship-eye-right"></span>
+            <span className="toggle-3868__ship-core"></span>
+            <span className="toggle-3868__ship-tentacle toggle-3868__ship-tentacle-1"></span>
+            <span className="toggle-3868__ship-tentacle toggle-3868__ship-tentacle-2"></span>
+          </span>
+
+          <span className="toggle-3868__bottle">
+            <span className="toggle-3868__bottle-neck"></span>
+            <span className="toggle-3868__bottle-glass"></span>
+
+            <span className="toggle-3868__mini-city">
+              <span className="toggle-3868__tower toggle-3868__tower-1"></span>
+              <span className="toggle-3868__tower toggle-3868__tower-2"></span>
+              <span className="toggle-3868__tower toggle-3868__tower-3"></span>
+            </span>
+          </span>
+
+          <span className="toggle-3868__circuit toggle-3868__circuit-1"></span>
+          <span className="toggle-3868__circuit toggle-3868__circuit-2"></span>
+          <span className="toggle-3868__circuit toggle-3868__circuit-3"></span>
+
+          <span className="toggle-3868__node toggle-3868__node-1"></span>
+          <span className="toggle-3868__node toggle-3868__node-2"></span>
+          <span className="toggle-3868__node toggle-3868__node-3"></span>
+          <span className="toggle-3868__node toggle-3868__node-4"></span>
+
+          <span className="toggle-3868__scan">
+            <span className="toggle-3868__scan-ring toggle-3868__scan-ring-1"></span>
+            <span className="toggle-3868__scan-ring toggle-3868__scan-ring-2"></span>
+            <span className="toggle-3868__scan-dot"></span>
+          </span>
+
+          <span className="toggle-3868__label">
+            <span className="toggle-3868__label-off">SCAN</span>
+            <span className="toggle-3868__label-on">COLLECT!</span>
+          </span>
+
+          <span className="toggle-3868__thumb">
+            <span className="toggle-3868__aura"></span>
+
+            <span className="toggle-3868__head">
+              <span className="toggle-3868__head-plate"></span>
+
+              <span className="toggle-3868__sensor toggle-3868__sensor-1"></span>
+              <span className="toggle-3868__sensor toggle-3868__sensor-2"></span>
+              <span className="toggle-3868__sensor toggle-3868__sensor-3"></span>
+
+              <span className="toggle-3868__brow toggle-3868__brow-left"></span>
+              <span className="toggle-3868__brow toggle-3868__brow-right"></span>
+
+              <span className="toggle-3868__eye toggle-3868__eye-left"></span>
+              <span className="toggle-3868__eye toggle-3868__eye-right"></span>
+
+              <span className="toggle-3868__nose"></span>
+              <span className="toggle-3868__mouth"></span>
+            </span>
+
+            <span className="toggle-3868__armor">
+              <span className="toggle-3868__shoulder toggle-3868__shoulder-left"></span>
+              <span className="toggle-3868__shoulder toggle-3868__shoulder-right"></span>
+
+              <span className="toggle-3868__chest-core">
+                <span className="toggle-3868__chest-core-inner"></span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3868">
+    <input type="checkbox" checked aria-label="Brainiac Bottle City Toggle">
+
+    <span class="toggle-3868__track">
+        <span class="toggle-3868__background"></span>
+        <span class="toggle-3868__grid"></span>
+        <span class="toggle-3868__halftone"></span>
+
+        <span class="toggle-3868__ship">
+            <span class="toggle-3868__ship-dome"></span>
+            <span class="toggle-3868__ship-eye toggle-3868__ship-eye-left"></span>
+            <span class="toggle-3868__ship-eye toggle-3868__ship-eye-right"></span>
+            <span class="toggle-3868__ship-core"></span>
+            <span class="toggle-3868__ship-tentacle toggle-3868__ship-tentacle-1"></span>
+            <span class="toggle-3868__ship-tentacle toggle-3868__ship-tentacle-2"></span>
+        </span>
+
+        <span class="toggle-3868__bottle">
+            <span class="toggle-3868__bottle-neck"></span>
+            <span class="toggle-3868__bottle-glass"></span>
+
+            <span class="toggle-3868__mini-city">
+                <span class="toggle-3868__tower toggle-3868__tower-1"></span>
+                <span class="toggle-3868__tower toggle-3868__tower-2"></span>
+                <span class="toggle-3868__tower toggle-3868__tower-3"></span>
+            </span>
+        </span>
+
+        <span class="toggle-3868__circuit toggle-3868__circuit-1"></span>
+        <span class="toggle-3868__circuit toggle-3868__circuit-2"></span>
+        <span class="toggle-3868__circuit toggle-3868__circuit-3"></span>
+
+        <span class="toggle-3868__node toggle-3868__node-1"></span>
+        <span class="toggle-3868__node toggle-3868__node-2"></span>
+        <span class="toggle-3868__node toggle-3868__node-3"></span>
+        <span class="toggle-3868__node toggle-3868__node-4"></span>
+
+        <span class="toggle-3868__scan">
+            <span class="toggle-3868__scan-ring toggle-3868__scan-ring-1"></span>
+            <span class="toggle-3868__scan-ring toggle-3868__scan-ring-2"></span>
+            <span class="toggle-3868__scan-dot"></span>
+        </span>
+
+        <span class="toggle-3868__label">
+            <span class="toggle-3868__label-off">SCAN</span>
+            <span class="toggle-3868__label-on">COLLECT!</span>
+        </span>
+
+        <span class="toggle-3868__thumb">
+            <span class="toggle-3868__aura"></span>
+
+            <span class="toggle-3868__head">
+                <span class="toggle-3868__head-plate"></span>
+
+                <span class="toggle-3868__sensor toggle-3868__sensor-1"></span>
+                <span class="toggle-3868__sensor toggle-3868__sensor-2"></span>
+                <span class="toggle-3868__sensor toggle-3868__sensor-3"></span>
+
+                <span class="toggle-3868__brow toggle-3868__brow-left"></span>
+                <span class="toggle-3868__brow toggle-3868__brow-right"></span>
+
+                <span class="toggle-3868__eye toggle-3868__eye-left"></span>
+                <span class="toggle-3868__eye toggle-3868__eye-right"></span>
+
+                <span class="toggle-3868__nose"></span>
+                <span class="toggle-3868__mouth"></span>
+            </span>
+
+            <span class="toggle-3868__armor">
+                <span class="toggle-3868__shoulder toggle-3868__shoulder-left"></span>
+                <span class="toggle-3868__shoulder toggle-3868__shoulder-right"></span>
+
+                <span class="toggle-3868__chest-core">
+                    <span class="toggle-3868__chest-core-inner"></span>
+                </span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3868 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3868 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3868__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #09090b;
+    border-radius: 14px;
+    background: #111827;
+    box-shadow: 8px 8px 0 #09090b;
+    isolation: isolate;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+
+.toggle-3868__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle at 76% 31%,
+            rgba(74,222,128,.38),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 26% 67%,
+            rgba(168,85,247,.22),
+            transparent 31%
+        ),
+        linear-gradient(
+            135deg,
+            #09090b 0%,
+            #312e81 47%,
+            #14532d 100%
+        );
+    transition:
+        filter .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3868__grid {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-image:
+        linear-gradient(
+            rgba(74,222,128,.13) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(74,222,128,.13) 1px,
+            transparent 1px
+        );
+    background-size: 13px 13px;
+    opacity: .55;
+    transition:
+        opacity .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3868__halftone {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background-image:
+        radial-gradient(
+            rgba(0,0,0,.5) 1.2px,
+            transparent 1.5px
+        );
+    background-size: 8px 8px;
+    opacity: .22;
+}
+
+.toggle-3868__ship {
+    position: absolute;
+    right: 11px;
+    top: 7px;
+    z-index: 4;
+    width: 48px;
+    height: 45px;
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3868__ship-dome {
+    position: absolute;
+    left: 6px;
+    top: 0;
+    width: 36px;
+    height: 28px;
+    border: 3px solid #09090b;
+    border-radius: 50% 50% 37% 37%;
+    background:
+        linear-gradient(
+            135deg,
+            #475569,
+            #111827
+        );
+    box-shadow:
+        inset 0 0 0 2px rgba(74,222,128,.13);
+}
+
+.toggle-3868__ship-dome::before {
+    content: "";
+    position: absolute;
+    left: 7px;
+    right: 7px;
+    top: 5px;
+    height: 5px;
+    border-radius: 999px;
+    background: #4ade80;
+    box-shadow: 0 0 5px #22c55e;
+}
+
+.toggle-3868__ship-eye {
+    position: absolute;
+    top: 13px;
+    z-index: 3;
+    width: 7px;
+    height: 6px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 0 0 5px #ef4444;
+}
+
+.toggle-3868__ship-eye-left {
+    left: 14px;
+}
+
+.toggle-3868__ship-eye-right {
+    right: 14px;
+}
+
+.toggle-3868__ship-core {
+    position: absolute;
+    left: 19px;
+    top: 23px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #4ade80;
+    box-shadow: 0 0 6px #22c55e;
+}
+
+.toggle-3868__ship-tentacle {
+    position: absolute;
+    top: 28px;
+    width: 7px;
+    height: 20px;
+    border: 3px solid #09090b;
+    border-top: 0;
+    background: #475569;
+    transform-origin: top center;
+}
+
+.toggle-3868__ship-tentacle-1 {
+    left: 10px;
+    transform: rotate(20deg);
+}
+
+.toggle-3868__ship-tentacle-2 {
+    right: 10px;
+    transform: rotate(-20deg);
+}
+
+.toggle-3868__bottle {
+    position: absolute;
+    right: 48px;
+    bottom: 6px;
+    z-index: 5;
+    width: 32px;
+    height: 45px;
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3868__bottle-neck {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 12px;
+    height: 10px;
+    border: 3px solid #09090b;
+    border-bottom: 0;
+    background: rgba(187,247,208,.7);
+}
+
+.toggle-3868__bottle-glass {
+    position: absolute;
+    left: 3px;
+    top: 8px;
+    width: 26px;
+    height: 35px;
+    border: 3px solid #09090b;
+    border-radius: 7px 7px 11px 11px;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(220,252,231,.72),
+            rgba(74,222,128,.24)
+        );
+    box-shadow:
+        inset 4px 0 0 rgba(255,255,255,.2),
+        0 0 6px rgba(74,222,128,.38);
+}
+
+.toggle-3868__mini-city {
+    position: absolute;
+    left: 7px;
+    bottom: 5px;
+    width: 18px;
+    height: 22px;
+}
+
+.toggle-3868__tower {
+    position: absolute;
+    bottom: 0;
+    border: 1px solid #09090b;
+    background: #1e3a8a;
+}
+
+.toggle-3868__tower::after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 3px;
+    width: 2px;
+    height: 2px;
+    background: #facc15;
+    box-shadow:
+        5px 0 0 #facc15,
+        0 5px 0 #facc15;
+}
+
+.toggle-3868__tower-1 {
+    left: 0;
+    width: 7px;
+    height: 13px;
+}
+
+.toggle-3868__tower-2 {
+    left: 6px;
+    width: 8px;
+    height: 19px;
+}
+
+.toggle-3868__tower-3 {
+    right: 0;
+    width: 6px;
+    height: 10px;
+}
+
+.toggle-3868__circuit {
+    position: absolute;
+    z-index: 3;
+    height: 3px;
+    border-radius: 999px;
+    background: #4ade80;
+    box-shadow: 0 0 4px rgba(74,222,128,.5);
+    transition:
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3868__circuit::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -6px;
+    width: 3px;
+    height: 9px;
+    background: #4ade80;
+}
+
+.toggle-3868__circuit-1 {
+    right: 8px;
+    top: 12px;
+    width: 44px;
+}
+
+.toggle-3868__circuit-2 {
+    right: 22px;
+    top: 36px;
+    width: 49px;
+}
+
+.toggle-3868__circuit-3 {
+    right: 9px;
+    bottom: 10px;
+    width: 39px;
+}
+
+.toggle-3868__node {
+    position: absolute;
+    z-index: 4;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 0 0 5px rgba(239,68,68,.7);
+    transition:
+        transform .35s ease,
+        opacity .3s ease;
+}
+
+.toggle-3868__node-1 {
+    right: 12px;
+    top: 9px;
+}
+
+.toggle-3868__node-2 {
+    right: 54px;
+    top: 31px;
+    transform: scale(.75);
+}
+
+.toggle-3868__node-3 {
+    right: 31px;
+    bottom: 7px;
+    transform: scale(.65);
+}
+
+.toggle-3868__node-4 {
+    right: 73px;
+    top: 8px;
+    transform: scale(.55);
+}
+
+.toggle-3868__scan {
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    z-index: 4;
+    width: 44px;
+    height: 44px;
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .45s ease,
+        opacity .3s ease;
+}
+
+.toggle-3868__scan-ring {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 2px solid #4ade80;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 5px rgba(74,222,128,.5);
+}
+
+.toggle-3868__scan-ring-1 {
+    width: 25px;
+    height: 25px;
+}
+
+.toggle-3868__scan-ring-2 {
+    width: 42px;
+    height: 42px;
+}
+
+.toggle-3868__scan-dot {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 0 0 6px #ef4444;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3868__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 7;
+    width: 52px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #09090b;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #09090b;
+    transform: rotate(2deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        background .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3868__label-off,
+.toggle-3868__label-on {
+    position: absolute;
+    color: #09090b;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3868__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3868__label-on {
+    opacity: 1;
+}
+
+.toggle-3868__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 10;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #09090b;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 5px 5px 0 #09090b;
+    transition:
+        left .35s cubic-bezier(.34,1.56,.64,1),
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3868__aura {
+    position: absolute;
+    inset: -5px;
+    z-index: 1;
+    border: 3px solid rgba(74,222,128,.65);
+    border-radius: 50%;
+    box-shadow:
+        0 0 8px rgba(74,222,128,.55),
+        inset 0 0 6px rgba(74,222,128,.3);
+    transition:
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3868__head {
+    position: absolute;
+    left: 9px;
+    top: 7px;
+    z-index: 5;
+    width: 34px;
+    height: 37px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-radius: 45% 45% 48% 48%;
+    background:
+        linear-gradient(
+            135deg,
+            #86efac,
+            #22c55e
+        );
+    transition:
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3868__head-plate {
+    position: absolute;
+    left: 5px;
+    top: 0;
+    width: 24px;
+    height: 10px;
+    border-bottom: 2px solid #09090b;
+    background:
+        linear-gradient(
+            90deg,
+            #374151,
+            #111827,
+            #374151
+        );
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        80% 100%,
+        20% 100%
+    );
+}
+
+.toggle-3868__sensor {
+    position: absolute;
+    z-index: 4;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 0 0 4px #ef4444;
+}
+
+.toggle-3868__sensor-1 {
+    left: 5px;
+    top: 3px;
+}
+
+.toggle-3868__sensor-2 {
+    left: 14px;
+    top: 2px;
+}
+
+.toggle-3868__sensor-3 {
+    right: 5px;
+    top: 3px;
+}
+
+.toggle-3868__brow {
+    position: absolute;
+    top: 13px;
+    z-index: 3;
+    width: 9px;
+    height: 3px;
+    border-radius: 999px;
+    background: #09090b;
+}
+
+.toggle-3868__brow-left {
+    left: 5px;
+    transform: rotate(-13deg);
+}
+
+.toggle-3868__brow-right {
+    right: 5px;
+    transform: rotate(13deg);
+}
+
+.toggle-3868__eye {
+    position: absolute;
+    top: 18px;
+    z-index: 4;
+    width: 7px;
+    height: 5px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 0 0 5px #ef4444;
+}
+
+.toggle-3868__eye-left {
+    left: 5px;
+}
+
+.toggle-3868__eye-right {
+    right: 5px;
+}
+
+.toggle-3868__nose {
+    position: absolute;
+    left: 14px;
+    top: 22px;
+    width: 4px;
+    height: 6px;
+    border-radius: 50%;
+    background: #166534;
+}
+
+.toggle-3868__mouth {
+    position: absolute;
+    left: 8px;
+    bottom: 4px;
+    width: 16px;
+    height: 5px;
+    border-bottom: 3px solid #09090b;
+    border-radius: 0 0 50% 50%;
+}
+
+.toggle-3868__armor {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 4;
+    width: 36px;
+    height: 14px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #312e81;
+}
+
+.toggle-3868__shoulder {
+    position: absolute;
+    top: 0;
+    width: 15px;
+    height: 14px;
+    background: #7e22ce;
+}
+
+.toggle-3868__shoulder-left {
+    left: 0;
+    clip-path: polygon(
+        0 0,
+        100% 30%,
+        58% 100%,
+        0 100%
+    );
+}
+
+.toggle-3868__shoulder-right {
+    right: 0;
+    clip-path: polygon(
+        100% 0,
+        0 30%,
+        42% 100%,
+        100% 100%
+    );
+}
+
+.toggle-3868__chest-core {
+    position: absolute;
+    left: 50%;
+    top: 1px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 5px #22c55e;
+    transform: translateX(-50%);
+}
+
+.toggle-3868__chest-core-inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #ef4444;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3868:hover .toggle-3868__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #09090b;
+}
+
+.toggle-3868:hover .toggle-3868__thumb {
+    transform:
+        rotate(-7deg)
+        scale(1.05);
+}
+
+.toggle-3868:hover .toggle-3868__aura {
+    transform:
+        rotate(18deg)
+        scale(1.08);
+}
+
+.toggle-3868:hover .toggle-3868__scan {
+    transform:
+        rotate(22deg)
+        scale(1.08);
+}
+
+.toggle-3868:hover .toggle-3868__bottle {
+    transform:
+        rotate(-4deg)
+        scale(1.05);
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track {
+    background: #27272a;
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__background {
+    filter:
+        grayscale(.72)
+        brightness(.62);
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__grid {
+    opacity: .18;
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__thumb {
+    left: 6px;
+    background: #52525b;
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__head {
+    background:
+        linear-gradient(
+            135deg,
+            #9ca3af,
+            #64748b
+        );
+    transform: scale(.94);
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__sensor {
+    background: #71717a;
+    box-shadow: none;
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__eye {
+    background: #71717a;
+    box-shadow: none;
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__shoulder {
+    background: #52525b;
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__chest-core {
+    background: #71717a;
+    box-shadow: none;
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__aura {
+    opacity: .16;
+    transform: scale(.72);
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__ship {
+    left: 111px;
+    right: auto;
+    opacity: .25;
+    transform:
+        rotate(-13deg)
+        scale(.7);
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__bottle {
+    left: 120px;
+    right: auto;
+    opacity: .25;
+    transform:
+        rotate(12deg)
+        scale(.65);
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__scan {
+    left: 112px;
+    right: auto;
+    opacity: .2;
+    transform:
+        rotate(-25deg)
+        scale(.7);
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__circuit-1 {
+    transform:
+        translateX(-92px)
+        scale(.6);
+    opacity: .18;
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__circuit-2 {
+    transform:
+        translateX(-78px)
+        scale(.6);
+    opacity: .15;
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__circuit-3 {
+    transform:
+        translateX(-95px)
+        scale(.6);
+    opacity: .13;
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__node {
+    opacity: .18;
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__label {
+    left: 107px;
+    right: auto;
+    background: #e5e7eb;
+    transform: rotate(-2deg);
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3868 input:not(:checked) + .toggle-3868__track .toggle-3868__label-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3868 input:checked + .toggle-3868__track {
+    background: #14532d;
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__background {
+    filter:
+        saturate(1.2)
+        brightness(1.05);
+    transform: scale(1.03);
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__grid {
+    opacity: .7;
+    transform: translateX(-3px);
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__thumb {
+    left: 102px;
+    background: #22c55e;
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__head {
+    background:
+        linear-gradient(
+            135deg,
+            #86efac,
+            #22c55e
+        );
+    transform: scale(1.04);
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__sensor {
+    background: #ef4444;
+    box-shadow: 0 0 5px #ef4444;
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__eye {
+    background: #ef4444;
+    box-shadow: 0 0 6px #ef4444;
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__aura {
+    opacity: 1;
+    transform:
+        rotate(15deg)
+        scale(1.06);
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__ship {
+    left: 9px;
+    right: auto;
+    opacity: 1;
+    transform:
+        rotate(5deg)
+        scale(.92);
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__bottle {
+    left: 54px;
+    right: auto;
+    opacity: 1;
+    transform:
+        rotate(-4deg)
+        scale(1);
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__scan {
+    left: 8px;
+    right: auto;
+    opacity: 1;
+    transform:
+        rotate(180deg)
+        scale(1.05);
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__circuit-1 {
+    transform:
+        translateX(-103px)
+        scale(1);
+    opacity: 1;
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__circuit-2 {
+    transform:
+        translateX(-91px)
+        scale(1);
+    opacity: .9;
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__circuit-3 {
+    transform:
+        translateX(-104px)
+        scale(1);
+    opacity: .82;
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__node-1 {
+    transform:
+        translateX(-103px)
+        scale(1);
+    opacity: 1;
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__node-2 {
+    transform:
+        translateX(-74px)
+        scale(.9);
+    opacity: .9;
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__node-3 {
+    transform:
+        translateX(-91px)
+        scale(.8);
+    opacity: .85;
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__node-4 {
+    transform:
+        translateX(-49px)
+        scale(.7);
+    opacity: .8;
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__label {
+    left: 8px;
+    right: auto;
+    background: #bbf7d0;
+    transform: rotate(3deg);
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3868 input:checked + .toggle-3868__track .toggle-3868__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3868 input:focus-visible + .toggle-3868__track {
+    outline: 3px solid #4ade80;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3869,
+    name: "Starfire Tamaranean Starbolt Toggle",
+    preview: (
+      <label
+        className="toggle-3869"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Starfire Tamaranean Starbolt Toggle"
+        />
+
+        <span className="toggle-3869__track">
+          <span className="toggle-3869__background"></span>
+          <span className="toggle-3869__halftone"></span>
+
+          <span className="toggle-3869__planet">
+            <span className="toggle-3869__planet-ring"></span>
+          </span>
+
+          <span className="toggle-3869__star toggle-3869__star-1"></span>
+          <span className="toggle-3869__star toggle-3869__star-2"></span>
+          <span className="toggle-3869__star toggle-3869__star-3"></span>
+          <span className="toggle-3869__star toggle-3869__star-4"></span>
+
+          <span className="toggle-3869__starbolt toggle-3869__starbolt-1">
+            <span className="toggle-3869__starbolt-core"></span>
+          </span>
+
+          <span className="toggle-3869__starbolt toggle-3869__starbolt-2">
+            <span className="toggle-3869__starbolt-core"></span>
+          </span>
+
+          <span className="toggle-3869__energy-line toggle-3869__energy-line-1"></span>
+          <span className="toggle-3869__energy-line toggle-3869__energy-line-2"></span>
+          <span className="toggle-3869__energy-line toggle-3869__energy-line-3"></span>
+
+          <span className="toggle-3869__burst">
+            <span className="toggle-3869__burst-off">CALM</span>
+            <span className="toggle-3869__burst-on">STARBOLT!</span>
+          </span>
+
+          <span className="toggle-3869__thumb">
+            <span className="toggle-3869__aura"></span>
+
+            <span className="toggle-3869__hair">
+              <span className="toggle-3869__hair-wave toggle-3869__hair-wave-1"></span>
+              <span className="toggle-3869__hair-wave toggle-3869__hair-wave-2"></span>
+              <span className="toggle-3869__hair-wave toggle-3869__hair-wave-3"></span>
+            </span>
+
+            <span className="toggle-3869__face">
+              <span className="toggle-3869__brow toggle-3869__brow-left"></span>
+              <span className="toggle-3869__brow toggle-3869__brow-right"></span>
+
+              <span className="toggle-3869__eye toggle-3869__eye-left">
+                <span className="toggle-3869__eye-core"></span>
+              </span>
+
+              <span className="toggle-3869__eye toggle-3869__eye-right">
+                <span className="toggle-3869__eye-core"></span>
+              </span>
+
+              <span className="toggle-3869__nose"></span>
+              <span className="toggle-3869__mouth"></span>
+            </span>
+
+            <span className="toggle-3869__suit">
+              <span className="toggle-3869__shoulder toggle-3869__shoulder-left"></span>
+              <span className="toggle-3869__shoulder toggle-3869__shoulder-right"></span>
+
+              <span className="toggle-3869__gem">
+                <span className="toggle-3869__gem-core"></span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3869">
+    <input type="checkbox" checked aria-label="Starfire Tamaranean Starbolt Toggle">
+
+    <span class="toggle-3869__track">
+        <span class="toggle-3869__background"></span>
+        <span class="toggle-3869__halftone"></span>
+
+        <span class="toggle-3869__planet">
+            <span class="toggle-3869__planet-ring"></span>
+        </span>
+
+        <span class="toggle-3869__star toggle-3869__star-1"></span>
+        <span class="toggle-3869__star toggle-3869__star-2"></span>
+        <span class="toggle-3869__star toggle-3869__star-3"></span>
+        <span class="toggle-3869__star toggle-3869__star-4"></span>
+
+        <span class="toggle-3869__starbolt toggle-3869__starbolt-1">
+            <span class="toggle-3869__starbolt-core"></span>
+        </span>
+
+        <span class="toggle-3869__starbolt toggle-3869__starbolt-2">
+            <span class="toggle-3869__starbolt-core"></span>
+        </span>
+
+        <span class="toggle-3869__energy-line toggle-3869__energy-line-1"></span>
+        <span class="toggle-3869__energy-line toggle-3869__energy-line-2"></span>
+        <span class="toggle-3869__energy-line toggle-3869__energy-line-3"></span>
+
+        <span class="toggle-3869__burst">
+            <span class="toggle-3869__burst-off">CALM</span>
+            <span class="toggle-3869__burst-on">STARBOLT!</span>
+        </span>
+
+        <span class="toggle-3869__thumb">
+            <span class="toggle-3869__aura"></span>
+
+            <span class="toggle-3869__hair">
+                <span class="toggle-3869__hair-wave toggle-3869__hair-wave-1"></span>
+                <span class="toggle-3869__hair-wave toggle-3869__hair-wave-2"></span>
+                <span class="toggle-3869__hair-wave toggle-3869__hair-wave-3"></span>
+            </span>
+
+            <span class="toggle-3869__face">
+                <span class="toggle-3869__brow toggle-3869__brow-left"></span>
+                <span class="toggle-3869__brow toggle-3869__brow-right"></span>
+
+                <span class="toggle-3869__eye toggle-3869__eye-left">
+                    <span class="toggle-3869__eye-core"></span>
+                </span>
+
+                <span class="toggle-3869__eye toggle-3869__eye-right">
+                    <span class="toggle-3869__eye-core"></span>
+                </span>
+
+                <span class="toggle-3869__nose"></span>
+                <span class="toggle-3869__mouth"></span>
+            </span>
+
+            <span class="toggle-3869__suit">
+                <span class="toggle-3869__shoulder toggle-3869__shoulder-left"></span>
+                <span class="toggle-3869__shoulder toggle-3869__shoulder-right"></span>
+
+                <span class="toggle-3869__gem">
+                    <span class="toggle-3869__gem-core"></span>
+                </span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3869 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3869 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3869__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #09090b;
+    border-radius: 14px;
+    background: #3b0764;
+    box-shadow: 8px 8px 0 #09090b;
+    isolation: isolate;
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .3s ease;
+}
+
+.toggle-3869__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle at 78% 31%,
+            rgba(74,222,128,.42),
+            transparent 29%
+        ),
+        radial-gradient(
+            circle at 25% 72%,
+            rgba(249,115,22,.28),
+            transparent 31%
+        ),
+        linear-gradient(
+            135deg,
+            #2e1065 0%,
+            #7e22ce 46%,
+            #c2410c 100%
+        );
+    transition:
+        filter .3s ease,
+        transform .35s ease;
+}
+
+.toggle-3869__halftone {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-image:
+        radial-gradient(
+            rgba(9,9,11,.48) 1.3px,
+            transparent 1.6px
+        );
+    background-size: 8px 8px;
+    opacity: .23;
+}
+
+.toggle-3869__planet {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    z-index: 2;
+    width: 38px;
+    height: 38px;
+    border: 3px solid #09090b;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            135deg,
+            #fb923c,
+            #ea580c
+        );
+    box-shadow:
+        3px 3px 0 #09090b,
+        0 0 8px rgba(249,115,22,.45);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3869__planet::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: rgba(124,45,18,.4);
+}
+
+.toggle-3869__planet::after {
+    content: "";
+    position: absolute;
+    right: 7px;
+    bottom: 7px;
+    width: 9px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgba(124,45,18,.34);
+}
+
+.toggle-3869__planet-ring {
+    position: absolute;
+    left: -10px;
+    top: 14px;
+    width: 53px;
+    height: 9px;
+    border: 3px solid #facc15;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    transform: rotate(-17deg);
+}
+
+.toggle-3869__star {
+    position: absolute;
+    z-index: 3;
+    width: 5px;
+    height: 5px;
+    background: #ffffff;
+    transform: rotate(45deg);
+    box-shadow: 0 0 6px rgba(255,255,255,.8);
+    transition:
+        transform .35s ease,
+        opacity .3s ease;
+}
+
+.toggle-3869__star::before,
+.toggle-3869__star::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #ffffff;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3869__star::before {
+    width: 11px;
+    height: 2px;
+}
+
+.toggle-3869__star::after {
+    width: 2px;
+    height: 11px;
+}
+
+.toggle-3869__star-1 {
+    left: 12px;
+    top: 10px;
+}
+
+.toggle-3869__star-2 {
+    left: 41px;
+    top: 7px;
+    transform: rotate(45deg) scale(.65);
+}
+
+.toggle-3869__star-3 {
+    left: 25px;
+    bottom: 11px;
+    transform: rotate(45deg) scale(.8);
+}
+
+.toggle-3869__star-4 {
+    right: 52px;
+    top: 15px;
+    transform: rotate(45deg) scale(.6);
+}
+
+.toggle-3869__starbolt {
+    position: absolute;
+    z-index: 5;
+    width: 32px;
+    height: 32px;
+    border: 3px solid #09090b;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            #ffffff 0 15%,
+            #bbf7d0 16% 34%,
+            #4ade80 35% 58%,
+            #16a34a 59% 100%
+        );
+    box-shadow:
+        0 0 9px rgba(74,222,128,.72);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3869__starbolt::before,
+.toggle-3869__starbolt::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #86efac;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 5px #4ade80;
+}
+
+.toggle-3869__starbolt::before {
+    width: 44px;
+    height: 4px;
+}
+
+.toggle-3869__starbolt::after {
+    width: 4px;
+    height: 44px;
+}
+
+.toggle-3869__starbolt-1 {
+    right: 14px;
+    top: 10px;
+}
+
+.toggle-3869__starbolt-2 {
+    right: 43px;
+    bottom: 7px;
+    width: 24px;
+    height: 24px;
+    opacity: .75;
+    transform: scale(.8);
+}
+
+.toggle-3869__starbolt-core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 3;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3869__energy-line {
+    position: absolute;
+    z-index: 4;
+    height: 4px;
+    border: 1px solid #09090b;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            90deg,
+            #4ade80,
+            #bbf7d0
+        );
+    box-shadow: 0 0 5px rgba(74,222,128,.5);
+    transition:
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3869__energy-line-1 {
+    right: 8px;
+    top: 13px;
+    width: 40px;
+    transform: rotate(-9deg);
+}
+
+.toggle-3869__energy-line-2 {
+    right: 18px;
+    top: 36px;
+    width: 49px;
+    transform: rotate(4deg);
+}
+
+.toggle-3869__energy-line-3 {
+    right: 7px;
+    bottom: 10px;
+    width: 38px;
+    transform: rotate(-5deg);
+}
+
+.toggle-3869__burst {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 7;
+    width: 54px;
+    height: 23px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #09090b;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #09090b;
+    clip-path: polygon(
+        50% 0,
+        61% 23%,
+        83% 6%,
+        77% 31%,
+        100% 28%,
+        82% 48%,
+        100% 63%,
+        76% 65%,
+        88% 92%,
+        61% 77%,
+        50% 100%,
+        39% 77%,
+        12% 92%,
+        24% 65%,
+        0 62%,
+        18% 48%,
+        0 28%,
+        24% 31%,
+        18% 6%,
+        39% 23%
+    );
+    transform: rotate(3deg);
+    transition:
+        left .35s ease,
+        right .35s ease,
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3869__burst-off,
+.toggle-3869__burst-on {
+    position: absolute;
+    color: #09090b;
+    font: 900 6.5px/1 Arial Black, Arial, sans-serif;
+    transition:
+        opacity .2s ease,
+        transform .25s ease;
+}
+
+.toggle-3869__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3869__burst-on {
+    opacity: 1;
+}
+
+.toggle-3869__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 10;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #09090b;
+    border-radius: 50%;
+    background: #f97316;
+    box-shadow: 5px 5px 0 #09090b;
+    transition:
+        left .35s cubic-bezier(.34,1.56,.64,1),
+        transform .3s ease,
+        background .3s ease;
+}
+
+.toggle-3869__aura {
+    position: absolute;
+    inset: -5px;
+    z-index: 1;
+    border: 3px solid rgba(74,222,128,.75);
+    border-radius: 50%;
+    box-shadow:
+        0 0 9px rgba(74,222,128,.7),
+        inset 0 0 7px rgba(74,222,128,.3);
+    transition:
+        transform .4s ease,
+        opacity .3s ease;
+}
+
+.toggle-3869__hair {
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    z-index: 3;
+    width: 44px;
+    height: 47px;
+    transition:
+        transform .35s ease,
+        opacity .3s ease;
+}
+
+.toggle-3869__hair-wave {
+    position: absolute;
+    top: 3px;
+    width: 16px;
+    height: 43px;
+    border: 3px solid #09090b;
+    border-radius: 60% 45% 60% 40%;
+    background:
+        linear-gradient(
+            180deg,
+            #dc2626,
+            #f97316 52%,
+            #fb923c
+        );
+    transform-origin: top center;
+}
+
+.toggle-3869__hair-wave-1 {
+    left: 2px;
+    transform: rotate(13deg);
+}
+
+.toggle-3869__hair-wave-2 {
+    left: 14px;
+    height: 47px;
+    transform: rotate(-2deg);
+}
+
+.toggle-3869__hair-wave-3 {
+    right: 2px;
+    transform: rotate(-14deg);
+}
+
+.toggle-3869__face {
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    z-index: 6;
+    width: 32px;
+    height: 36px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-radius: 48% 48% 46% 46%;
+    background:
+        linear-gradient(
+            135deg,
+            #fdba74,
+            #f97316
+        );
+    transition:
+        transform .35s ease,
+        background .3s ease;
+}
+
+.toggle-3869__brow {
+    position: absolute;
+    top: 8px;
+    width: 9px;
+    height: 3px;
+    border-radius: 999px;
+    background: #9a3412;
+}
+
+.toggle-3869__brow-left {
+    left: 4px;
+    transform: rotate(-14deg);
+}
+
+.toggle-3869__brow-right {
+    right: 4px;
+    transform: rotate(14deg);
+}
+
+.toggle-3869__eye {
+    position: absolute;
+    top: 13px;
+    z-index: 4;
+    width: 8px;
+    height: 6px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #4ade80;
+    box-shadow: 0 0 6px #22c55e;
+    transition:
+        background .3s ease,
+        box-shadow .3s ease,
+        transform .3s ease;
+}
+
+.toggle-3869__eye-left {
+    left: 4px;
+    transform: rotate(-5deg);
+}
+
+.toggle-3869__eye-right {
+    right: 4px;
+    transform: rotate(5deg);
+}
+
+.toggle-3869__eye-core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3869__nose {
+    position: absolute;
+    left: 13px;
+    top: 18px;
+    width: 5px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(154,52,18,.42);
+}
+
+.toggle-3869__mouth {
+    position: absolute;
+    left: 8px;
+    bottom: 4px;
+    width: 15px;
+    height: 5px;
+    border-bottom: 3px solid #9f1239;
+    border-radius: 0 0 50% 50%;
+}
+
+.toggle-3869__suit {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 5;
+    width: 36px;
+    height: 14px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #581c87;
+}
+
+.toggle-3869__shoulder {
+    position: absolute;
+    top: 0;
+    width: 15px;
+    height: 14px;
+    background: #9333ea;
+}
+
+.toggle-3869__shoulder-left {
+    left: 0;
+    clip-path: polygon(
+        0 0,
+        100% 30%,
+        58% 100%,
+        0 100%
+    );
+}
+
+.toggle-3869__shoulder-right {
+    right: 0;
+    clip-path: polygon(
+        100% 0,
+        0 30%,
+        42% 100%,
+        100% 100%
+    );
+}
+
+.toggle-3869__gem {
+    position: absolute;
+    left: 50%;
+    top: 1px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #09090b;
+    background: #4ade80;
+    transform:
+        translateX(-50%)
+        rotate(45deg);
+    box-shadow: 0 0 5px #22c55e;
+}
+
+.toggle-3869__gem-core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 4px;
+    height: 4px;
+    background: #ffffff;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3869:hover .toggle-3869__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #09090b;
+}
+
+.toggle-3869:hover .toggle-3869__thumb {
+    transform:
+        rotate(-7deg)
+        scale(1.05);
+}
+
+.toggle-3869:hover .toggle-3869__aura {
+    transform:
+        rotate(18deg)
+        scale(1.08);
+}
+
+.toggle-3869:hover .toggle-3869__hair {
+    transform: scale(1.05);
+}
+
+.toggle-3869:hover .toggle-3869__starbolt-1 {
+    transform:
+        rotate(18deg)
+        scale(1.08);
+}
+
+.toggle-3869:hover .toggle-3869__starbolt-2 {
+    transform:
+        rotate(-15deg)
+        scale(.9);
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track {
+    background: #3f3f46;
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__background {
+    filter:
+        grayscale(.72)
+        brightness(.64);
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__thumb {
+    left: 6px;
+    background: #78716c;
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__aura {
+    opacity: .16;
+    transform: scale(.72);
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__face {
+    background:
+        linear-gradient(
+            135deg,
+            #d6d3d1,
+            #a8a29e
+        );
+    transform: scale(.94);
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__hair-wave {
+    background:
+        linear-gradient(
+            180deg,
+            #78716c,
+            #57534e
+        );
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__eye {
+    background: #a1a1aa;
+    box-shadow: none;
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__suit {
+    background: #52525b;
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__shoulder {
+    background: #71717a;
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__gem {
+    background: #71717a;
+    box-shadow: none;
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__planet {
+    left: 13px;
+    right: auto;
+    opacity: .45;
+    transform: scale(.78);
+    filter: grayscale(1);
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__starbolt-1 {
+    left: 113px;
+    right: auto;
+    opacity: .2;
+    transform:
+        rotate(-17deg)
+        scale(.68);
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__starbolt-2 {
+    left: 132px;
+    right: auto;
+    opacity: .12;
+    transform:
+        rotate(17deg)
+        scale(.55);
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__energy-line-1 {
+    transform:
+        translateX(-92px)
+        rotate(8deg)
+        scale(.6);
+    opacity: .18;
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__energy-line-2 {
+    transform:
+        translateX(-79px)
+        rotate(-4deg)
+        scale(.6);
+    opacity: .15;
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__energy-line-3 {
+    transform:
+        translateX(-95px)
+        rotate(5deg)
+        scale(.6);
+    opacity: .13;
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__star {
+    opacity: .18;
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__burst {
+    left: 105px;
+    right: auto;
+    background: #e7e5e4;
+    transform: rotate(-3deg);
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__burst-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3869 input:not(:checked) + .toggle-3869__track .toggle-3869__burst-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3869 input:checked + .toggle-3869__track {
+    background: #7e22ce;
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__background {
+    filter:
+        saturate(1.2)
+        brightness(1.06);
+    transform: scale(1.03);
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__thumb {
+    left: 102px;
+    background: #f97316;
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__aura {
+    opacity: 1;
+    transform:
+        rotate(15deg)
+        scale(1.06);
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__face {
+    background:
+        linear-gradient(
+            135deg,
+            #fdba74,
+            #f97316
+        );
+    transform: scale(1.04);
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__eye {
+    background: #4ade80;
+    box-shadow: 0 0 7px #22c55e;
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__planet {
+    left: 8px;
+    right: auto;
+    opacity: 1;
+    transform:
+        rotate(-10deg)
+        scale(.92);
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__starbolt-1 {
+    left: 34px;
+    right: auto;
+    opacity: 1;
+    transform:
+        rotate(18deg)
+        scale(1);
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__starbolt-2 {
+    left: 66px;
+    right: auto;
+    opacity: .85;
+    transform:
+        rotate(-14deg)
+        scale(.82);
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__energy-line-1 {
+    transform:
+        translateX(-103px)
+        rotate(8deg)
+        scale(1);
+    opacity: 1;
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__energy-line-2 {
+    transform:
+        translateX(-91px)
+        rotate(-4deg)
+        scale(1);
+    opacity: .9;
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__energy-line-3 {
+    transform:
+        translateX(-104px)
+        rotate(5deg)
+        scale(1);
+    opacity: .82;
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__star-1 {
+    transform:
+        translateX(84px)
+        rotate(90deg)
+        scale(1);
+    opacity: 1;
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__star-2 {
+    transform:
+        translateX(64px)
+        rotate(90deg)
+        scale(.8);
+    opacity: .85;
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__star-3 {
+    transform:
+        translateX(72px)
+        rotate(90deg)
+        scale(.9);
+    opacity: .9;
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__star-4 {
+    transform:
+        translateX(-69px)
+        rotate(90deg)
+        scale(.75);
+    opacity: .8;
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__burst {
+    left: 8px;
+    right: auto;
+    background: #bbf7d0;
+    transform: rotate(4deg);
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3869 input:checked + .toggle-3869__track .toggle-3869__burst-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3869 input:focus-visible + .toggle-3869__track {
+    outline: 3px solid #4ade80;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3870,
+    name: "Beast Boy Shapeshift Toggle",
+    preview: (
+      <label
+        className="toggle-3870"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Beast Boy Shapeshift Toggle"
+        />
+
+        <span className="toggle-3870__track">
+          <span className="toggle-3870__background"></span>
+          <span className="toggle-3870__halftone"></span>
+
+          <span className="toggle-3870__claw toggle-3870__claw-1"></span>
+          <span className="toggle-3870__claw toggle-3870__claw-2"></span>
+          <span className="toggle-3870__claw toggle-3870__claw-3"></span>
+
+          <span className="toggle-3870__paw">
+            <span className="toggle-3870__paw-core"></span>
+            <span className="toggle-3870__toe toggle-3870__toe-1"></span>
+            <span className="toggle-3870__toe toggle-3870__toe-2"></span>
+            <span className="toggle-3870__toe toggle-3870__toe-3"></span>
+          </span>
+
+          <span className="toggle-3870__tail"></span>
+
+          <span className="toggle-3870__burst">
+            <span className="toggle-3870__burst-off">HUMAN</span>
+            <span className="toggle-3870__burst-on">BEAST!</span>
+          </span>
+
+          <span className="toggle-3870__thumb">
+            <span className="toggle-3870__ear toggle-3870__ear-left"></span>
+            <span className="toggle-3870__ear toggle-3870__ear-right"></span>
+
+            <span className="toggle-3870__hair"></span>
+
+            <span className="toggle-3870__face">
+              <span className="toggle-3870__brow toggle-3870__brow-left"></span>
+              <span className="toggle-3870__brow toggle-3870__brow-right"></span>
+
+              <span className="toggle-3870__eye toggle-3870__eye-left"></span>
+              <span className="toggle-3870__eye toggle-3870__eye-right"></span>
+
+              <span className="toggle-3870__nose"></span>
+
+              <span className="toggle-3870__fang toggle-3870__fang-left"></span>
+              <span className="toggle-3870__fang toggle-3870__fang-right"></span>
+
+              <span className="toggle-3870__mouth"></span>
+            </span>
+
+            <span className="toggle-3870__suit">
+              <span className="toggle-3870__collar"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3870">
+    <input type="checkbox" checked aria-label="Beast Boy Shapeshift Toggle">
+
+    <span class="toggle-3870__track">
+        <span class="toggle-3870__background"></span>
+        <span class="toggle-3870__halftone"></span>
+
+        <span class="toggle-3870__claw toggle-3870__claw-1"></span>
+        <span class="toggle-3870__claw toggle-3870__claw-2"></span>
+        <span class="toggle-3870__claw toggle-3870__claw-3"></span>
+
+        <span class="toggle-3870__paw">
+            <span class="toggle-3870__paw-core"></span>
+            <span class="toggle-3870__toe toggle-3870__toe-1"></span>
+            <span class="toggle-3870__toe toggle-3870__toe-2"></span>
+            <span class="toggle-3870__toe toggle-3870__toe-3"></span>
+        </span>
+
+        <span class="toggle-3870__tail"></span>
+
+        <span class="toggle-3870__burst">
+            <span class="toggle-3870__burst-off">HUMAN</span>
+            <span class="toggle-3870__burst-on">BEAST!</span>
+        </span>
+
+        <span class="toggle-3870__thumb">
+            <span class="toggle-3870__ear toggle-3870__ear-left"></span>
+            <span class="toggle-3870__ear toggle-3870__ear-right"></span>
+            <span class="toggle-3870__hair"></span>
+
+            <span class="toggle-3870__face">
+                <span class="toggle-3870__brow toggle-3870__brow-left"></span>
+                <span class="toggle-3870__brow toggle-3870__brow-right"></span>
+
+                <span class="toggle-3870__eye toggle-3870__eye-left"></span>
+                <span class="toggle-3870__eye toggle-3870__eye-right"></span>
+
+                <span class="toggle-3870__nose"></span>
+
+                <span class="toggle-3870__fang toggle-3870__fang-left"></span>
+                <span class="toggle-3870__fang toggle-3870__fang-right"></span>
+
+                <span class="toggle-3870__mouth"></span>
+            </span>
+
+            <span class="toggle-3870__suit">
+                <span class="toggle-3870__collar"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3870 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3870 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3870__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #09090b;
+    border-radius: 14px;
+    background: #14532d;
+    box-shadow: 8px 8px 0 #09090b;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+
+.toggle-3870__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 77% 30%, rgba(192,132,252,.38), transparent 30%),
+        linear-gradient(135deg, #14532d, #16a34a 48%, #581c87);
+    transition: filter .3s ease, transform .35s ease;
+}
+
+.toggle-3870__halftone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(9,9,11,.52) 1.3px, transparent 1.6px);
+    background-size: 8px 8px;
+    opacity: .25;
+}
+
+.toggle-3870__claw {
+    position: absolute;
+    z-index: 3;
+    width: 43px;
+    height: 5px;
+    border: 2px solid #09090b;
+    border-radius: 999px;
+    background: #d9f99d;
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3870__claw-1 {
+    right: 9px;
+    top: 13px;
+    transform: rotate(-17deg);
+}
+
+.toggle-3870__claw-2 {
+    right: 15px;
+    top: 31px;
+    transform: rotate(-5deg);
+}
+
+.toggle-3870__claw-3 {
+    right: 8px;
+    bottom: 13px;
+    transform: rotate(10deg);
+}
+
+.toggle-3870__paw {
+    position: absolute;
+    right: 18px;
+    top: 10px;
+    z-index: 4;
+    width: 38px;
+    height: 40px;
+    transition: left .35s ease, right .35s ease, transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3870__paw-core {
+    position: absolute;
+    left: 8px;
+    bottom: 2px;
+    width: 23px;
+    height: 22px;
+    border: 3px solid #09090b;
+    border-radius: 50% 50% 45% 45%;
+    background: #86efac;
+}
+
+.toggle-3870__toe {
+    position: absolute;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    border: 3px solid #09090b;
+    border-radius: 50%;
+    background: #bbf7d0;
+}
+
+.toggle-3870__toe-1 {
+    left: 1px;
+    transform: rotate(-18deg);
+}
+
+.toggle-3870__toe-2 {
+    left: 13px;
+}
+
+.toggle-3870__toe-3 {
+    right: 1px;
+    transform: rotate(18deg);
+}
+
+.toggle-3870__tail {
+    position: absolute;
+    right: 8px;
+    bottom: -9px;
+    z-index: 3;
+    width: 65px;
+    height: 38px;
+    border: 6px solid #4ade80;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-radius: 50%;
+    transform: rotate(-12deg);
+    filter: drop-shadow(2px 2px 0 #09090b);
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3870__burst {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 6;
+    width: 51px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #09090b;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #09090b;
+    clip-path: polygon(
+        50% 0,
+        61% 22%,
+        84% 5%,
+        77% 31%,
+        100% 28%,
+        82% 48%,
+        100% 64%,
+        76% 66%,
+        87% 94%,
+        61% 77%,
+        50% 100%,
+        39% 77%,
+        12% 93%,
+        24% 65%,
+        0 61%,
+        18% 48%,
+        0 28%,
+        24% 31%,
+        18% 6%,
+        39% 22%
+    );
+    transition: left .35s ease, right .35s ease, transform .3s ease, background .3s ease;
+}
+
+.toggle-3870__burst-off,
+.toggle-3870__burst-on {
+    position: absolute;
+    color: #09090b;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+
+.toggle-3870__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3870__burst-on {
+    opacity: 1;
+}
+
+.toggle-3870__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 9;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #09090b;
+    border-radius: 50%;
+    background: #4ade80;
+    box-shadow: 5px 5px 0 #09090b;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+
+.toggle-3870__ear {
+    position: absolute;
+    top: 5px;
+    z-index: 5;
+    width: 13px;
+    height: 17px;
+    border: 3px solid #09090b;
+    background: #4ade80;
+    clip-path: polygon(50% 100%, 0 0, 100% 25%);
+}
+
+.toggle-3870__ear-left {
+    left: 2px;
+    transform: rotate(-20deg);
+}
+
+.toggle-3870__ear-right {
+    right: 2px;
+    transform: scaleX(-1) rotate(-20deg);
+}
+
+.toggle-3870__hair {
+    position: absolute;
+    left: 9px;
+    top: 3px;
+    z-index: 7;
+    width: 34px;
+    height: 15px;
+    border: 3px solid #09090b;
+    background: #312e81;
+    clip-path: polygon(
+        0 100%,
+        8% 35%,
+        25% 65%,
+        38% 0,
+        50% 59%,
+        65% 0,
+        76% 62%,
+        93% 32%,
+        100% 100%
+    );
+}
+
+.toggle-3870__face {
+    position: absolute;
+    left: 9px;
+    top: 12px;
+    z-index: 6;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-radius: 46% 46% 48% 48%;
+    background: #4ade80;
+    transition: transform .35s ease, background .3s ease;
+}
+
+.toggle-3870__brow {
+    position: absolute;
+    top: 7px;
+    width: 10px;
+    height: 3px;
+    border-radius: 999px;
+    background: #312e81;
+}
+
+.toggle-3870__brow-left {
+    left: 4px;
+    transform: rotate(-14deg);
+}
+
+.toggle-3870__brow-right {
+    right: 4px;
+    transform: rotate(14deg);
+}
+
+.toggle-3870__eye {
+    position: absolute;
+    top: 12px;
+    width: 7px;
+    height: 5px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.toggle-3870__eye-left {
+    left: 5px;
+}
+
+.toggle-3870__eye-right {
+    right: 5px;
+}
+
+.toggle-3870__nose {
+    position: absolute;
+    left: 14px;
+    top: 17px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #166534;
+}
+
+.toggle-3870__mouth {
+    position: absolute;
+    left: 8px;
+    bottom: 4px;
+    width: 16px;
+    height: 6px;
+    border-bottom: 3px solid #09090b;
+    border-radius: 0 0 50% 50%;
+}
+
+.toggle-3870__fang {
+    position: absolute;
+    bottom: 3px;
+    z-index: 4;
+    width: 5px;
+    height: 8px;
+    border: 2px solid #09090b;
+    background: #ffffff;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.toggle-3870__fang-left {
+    left: 7px;
+}
+
+.toggle-3870__fang-right {
+    right: 7px;
+}
+
+.toggle-3870__suit {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 4;
+    width: 36px;
+    height: 14px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #581c87;
+}
+
+.toggle-3870__collar {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    top: 1px;
+    height: 7px;
+    background: #111827;
+    clip-path: polygon(0 0, 50% 100%, 100% 0, 77% 100%, 23% 100%);
+}
+
+.toggle-3870:hover .toggle-3870__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #09090b;
+}
+
+.toggle-3870:hover .toggle-3870__thumb {
+    transform: rotate(-7deg) scale(1.05);
+}
+
+.toggle-3870:hover .toggle-3870__tail {
+    transform: rotate(-3deg) scale(1.08);
+}
+
+.toggle-3870:hover .toggle-3870__paw {
+    transform: rotate(8deg) scale(1.08);
+}
+
+.toggle-3870 input:not(:checked) + .toggle-3870__track {
+    background: #3f3f46;
+}
+
+.toggle-3870 input:not(:checked) + .toggle-3870__track .toggle-3870__background {
+    filter: grayscale(.75) brightness(.62);
+}
+
+.toggle-3870 input:not(:checked) + .toggle-3870__track .toggle-3870__thumb {
+    left: 6px;
+    background: #71717a;
+}
+
+.toggle-3870 input:not(:checked) + .toggle-3870__track .toggle-3870__face,
+.toggle-3870 input:not(:checked) + .toggle-3870__track .toggle-3870__ear {
+    background: #9ca3af;
+}
+
+.toggle-3870 input:not(:checked) + .toggle-3870__track .toggle-3870__face {
+    transform: scale(.94);
+}
+
+.toggle-3870 input:not(:checked) + .toggle-3870__track .toggle-3870__paw {
+    left: 116px;
+    right: auto;
+    opacity: .25;
+    transform: rotate(-12deg) scale(.7);
+}
+
+.toggle-3870 input:not(:checked) + .toggle-3870__track .toggle-3870__tail {
+    opacity: .15;
+    transform: translateX(-69px) rotate(15deg) scale(.7);
+}
+
+.toggle-3870 input:not(:checked) + .toggle-3870__track .toggle-3870__claw {
+    opacity: .16;
+}
+
+.toggle-3870 input:not(:checked) + .toggle-3870__track .toggle-3870__burst {
+    left: 106px;
+    right: auto;
+    background: #e5e7eb;
+    transform: rotate(-3deg);
+}
+
+.toggle-3870 input:not(:checked) + .toggle-3870__track .toggle-3870__burst-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3870 input:not(:checked) + .toggle-3870__track .toggle-3870__burst-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3870 input:checked + .toggle-3870__track .toggle-3870__thumb {
+    left: 102px;
+    background: #4ade80;
+}
+
+.toggle-3870 input:checked + .toggle-3870__track .toggle-3870__face {
+    background: #4ade80;
+    transform: scale(1.04);
+}
+
+.toggle-3870 input:checked + .toggle-3870__track .toggle-3870__paw {
+    left: 8px;
+    right: auto;
+    opacity: 1;
+    transform: rotate(-7deg) scale(1);
+}
+
+.toggle-3870 input:checked + .toggle-3870__track .toggle-3870__tail {
+    opacity: 1;
+    transform: translateX(-83px) rotate(8deg) scale(1);
+}
+
+.toggle-3870 input:checked + .toggle-3870__track .toggle-3870__claw-1 {
+    transform: translateX(-103px) rotate(17deg);
+}
+
+.toggle-3870 input:checked + .toggle-3870__track .toggle-3870__claw-2 {
+    transform: translateX(-92px) rotate(5deg);
+}
+
+.toggle-3870 input:checked + .toggle-3870__track .toggle-3870__claw-3 {
+    transform: translateX(-104px) rotate(-10deg);
+}
+
+.toggle-3870 input:checked + .toggle-3870__track .toggle-3870__burst {
+    left: 8px;
+    right: auto;
+    background: #d9f99d;
+    transform: rotate(4deg);
+}
+
+.toggle-3870 input:checked + .toggle-3870__track .toggle-3870__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3870 input:checked + .toggle-3870__track .toggle-3870__burst-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3870 input:focus-visible + .toggle-3870__track {
+    outline: 3px solid #4ade80;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3871,
+    name: "Hawkgirl Nth Metal Strike Toggle",
+    preview: (
+      <label
+        className="toggle-3871"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Hawkgirl Nth Metal Strike Toggle" />
+
+        <span className="toggle-3871__track">
+          <span className="toggle-3871__background"></span>
+          <span className="toggle-3871__sun"></span>
+
+          <span className="toggle-3871__wing toggle-3871__wing-left"></span>
+          <span className="toggle-3871__wing toggle-3871__wing-right"></span>
+
+          <span className="toggle-3871__feather toggle-3871__feather-1"></span>
+          <span className="toggle-3871__feather toggle-3871__feather-2"></span>
+          <span className="toggle-3871__feather toggle-3871__feather-3"></span>
+
+          <span className="toggle-3871__mace">
+            <span className="toggle-3871__mace-head"></span>
+            <span className="toggle-3871__mace-handle"></span>
+          </span>
+
+          <span className="toggle-3871__label">
+            <span className="toggle-3871__label-off">GLIDE</span>
+            <span className="toggle-3871__label-on">STRIKE!</span>
+          </span>
+
+          <span className="toggle-3871__thumb">
+            <span className="toggle-3871__helmet">
+              <span className="toggle-3871__helmet-wing toggle-3871__helmet-wing-left"></span>
+              <span className="toggle-3871__helmet-wing toggle-3871__helmet-wing-right"></span>
+              <span className="toggle-3871__helmet-beak"></span>
+
+              <span className="toggle-3871__eye toggle-3871__eye-left"></span>
+              <span className="toggle-3871__eye toggle-3871__eye-right"></span>
+            </span>
+
+            <span className="toggle-3871__face"></span>
+
+            <span className="toggle-3871__armor">
+              <span className="toggle-3871__chest"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3871">
+    <input type="checkbox" aria-label="Hawkgirl Nth Metal Strike Toggle">
+
+    <span class="toggle-3871__track">
+        <span class="toggle-3871__background"></span>
+        <span class="toggle-3871__sun"></span>
+
+        <span class="toggle-3871__wing toggle-3871__wing-left"></span>
+        <span class="toggle-3871__wing toggle-3871__wing-right"></span>
+
+        <span class="toggle-3871__feather toggle-3871__feather-1"></span>
+        <span class="toggle-3871__feather toggle-3871__feather-2"></span>
+        <span class="toggle-3871__feather toggle-3871__feather-3"></span>
+
+        <span class="toggle-3871__mace">
+            <span class="toggle-3871__mace-head"></span>
+            <span class="toggle-3871__mace-handle"></span>
+        </span>
+
+        <span class="toggle-3871__label">
+            <span class="toggle-3871__label-off">GLIDE</span>
+            <span class="toggle-3871__label-on">STRIKE!</span>
+        </span>
+
+        <span class="toggle-3871__thumb">
+            <span class="toggle-3871__helmet">
+                <span class="toggle-3871__helmet-wing toggle-3871__helmet-wing-left"></span>
+                <span class="toggle-3871__helmet-wing toggle-3871__helmet-wing-right"></span>
+                <span class="toggle-3871__helmet-beak"></span>
+
+                <span class="toggle-3871__eye toggle-3871__eye-left"></span>
+                <span class="toggle-3871__eye toggle-3871__eye-right"></span>
+            </span>
+
+            <span class="toggle-3871__face"></span>
+
+            <span class="toggle-3871__armor">
+                <span class="toggle-3871__chest"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3871 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3871 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3871__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 14px;
+    background: #78350f;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+
+.toggle-3871__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 76% 27%, rgba(254,240,138,.4), transparent 27%),
+        linear-gradient(135deg, #7c2d12, #d97706 48%, #1e3a8a);
+    transition: filter .3s ease, transform .35s ease;
+}
+
+.toggle-3871__sun {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    width: 39px;
+    height: 39px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #fde047;
+    box-shadow: 0 0 9px rgba(250,204,21,.55);
+    transition: left .35s ease, right .35s ease, transform .35s ease;
+}
+
+.toggle-3871__wing {
+    position: absolute;
+    z-index: 3;
+    width: 49px;
+    height: 40px;
+    border: 3px solid #111111;
+    background:
+        repeating-linear-gradient(
+            145deg,
+            #e5e7eb 0 5px,
+            #9ca3af 5px 9px
+        );
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3871__wing-left {
+    right: 51px;
+    top: 6px;
+    clip-path: polygon(100% 50%, 18% 0, 34% 32%, 0 36%, 31% 58%, 7% 100%);
+    transform: rotate(-8deg);
+}
+
+.toggle-3871__wing-right {
+    right: 6px;
+    top: 10px;
+    clip-path: polygon(0 50%, 82% 0, 66% 32%, 100% 36%, 69% 58%, 93% 100%);
+    transform: rotate(7deg);
+}
+
+.toggle-3871__feather {
+    position: absolute;
+    z-index: 4;
+    width: 27px;
+    height: 7px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #f8fafc;
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3871__feather-1 {
+    right: 9px;
+    bottom: 8px;
+    transform: rotate(-21deg);
+}
+
+.toggle-3871__feather-2 {
+    right: 37px;
+    bottom: 12px;
+    transform: rotate(13deg);
+}
+
+.toggle-3871__feather-3 {
+    right: 60px;
+    bottom: 7px;
+    transform: rotate(-8deg) scale(.8);
+}
+
+.toggle-3871__mace {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    z-index: 5;
+    width: 47px;
+    height: 50px;
+    transform: rotate(14deg);
+    transition: left .35s ease, right .35s ease, transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3871__mace-head {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px;
+    height: 28px;
+    border: 3px solid #111111;
+    background: #d4d4d8;
+    clip-path: polygon(
+        50% 0,
+        61% 25%,
+        85% 9%,
+        76% 36%,
+        100% 50%,
+        76% 63%,
+        87% 89%,
+        62% 75%,
+        50% 100%,
+        37% 75%,
+        12% 89%,
+        24% 63%,
+        0 50%,
+        24% 36%,
+        13% 9%,
+        39% 25%
+    );
+}
+
+.toggle-3871__mace-handle {
+    position: absolute;
+    left: 4px;
+    top: 24px;
+    width: 38px;
+    height: 7px;
+    border: 2px solid #111111;
+    border-radius: 999px;
+    background: #713f12;
+    transform: rotate(-43deg);
+}
+
+.toggle-3871__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 6;
+    width: 51px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transition: left .35s ease, right .35s ease, background .3s ease, transform .3s ease;
+}
+
+.toggle-3871__label-off,
+.toggle-3871__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+
+.toggle-3871__label-off {
+    opacity: 1;
+}
+
+.toggle-3871__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3871__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 9;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #b45309;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+
+.toggle-3871__helmet {
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    z-index: 6;
+    width: 36px;
+    height: 33px;
+    border: 3px solid #111111;
+    border-radius: 43% 43% 37% 37%;
+    background: #d4d4d8;
+}
+
+.toggle-3871__helmet-wing {
+    position: absolute;
+    top: 0;
+    width: 15px;
+    height: 22px;
+    border: 2px solid #111111;
+    background: #e5e7eb;
+}
+
+.toggle-3871__helmet-wing-left {
+    left: -12px;
+    clip-path: polygon(100% 40%, 20% 0, 39% 43%, 0 58%, 48% 72%, 22% 100%);
+}
+
+.toggle-3871__helmet-wing-right {
+    right: -12px;
+    clip-path: polygon(0 40%, 80% 0, 61% 43%, 100% 58%, 52% 72%, 78% 100%);
+}
+
+.toggle-3871__helmet-beak {
+    position: absolute;
+    left: 12px;
+    top: 14px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #111111;
+    background: #facc15;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+.toggle-3871__eye {
+    position: absolute;
+    top: 10px;
+    width: 7px;
+    height: 5px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.toggle-3871__eye-left {
+    left: 5px;
+}
+
+.toggle-3871__eye-right {
+    right: 5px;
+}
+
+.toggle-3871__face {
+    position: absolute;
+    left: 14px;
+    top: 29px;
+    z-index: 5;
+    width: 24px;
+    height: 14px;
+    border: 3px solid #111111;
+    border-top: 0;
+    border-radius: 0 0 50% 50%;
+    background: #d69e75;
+}
+
+.toggle-3871__armor {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 4;
+    width: 36px;
+    height: 14px;
+    border: 3px solid #111111;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #78350f;
+}
+
+.toggle-3871__chest {
+    position: absolute;
+    left: 50%;
+    top: 1px;
+    width: 12px;
+    height: 11px;
+    border: 2px solid #111111;
+    background: #facc15;
+    transform: translateX(-50%);
+    clip-path: polygon(50% 0, 100% 36%, 78% 100%, 22% 100%, 0 36%);
+}
+
+.toggle-3871:hover .toggle-3871__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3871:hover .toggle-3871__thumb {
+    transform: rotate(-7deg) scale(1.05);
+}
+
+.toggle-3871:hover .toggle-3871__mace {
+    transform: rotate(25deg) scale(1.08);
+}
+
+.toggle-3871 input:not(:checked) + .toggle-3871__track .toggle-3871__background {
+    filter: grayscale(.65) brightness(.68);
+}
+
+.toggle-3871 input:not(:checked) + .toggle-3871__track .toggle-3871__sun {
+    right: 12px;
+    transform: scale(.82);
+    background: #a1a1aa;
+}
+
+.toggle-3871 input:not(:checked) + .toggle-3871__track .toggle-3871__mace {
+    right: 13px;
+    opacity: .28;
+    transform: rotate(-12deg) scale(.75);
+}
+
+.toggle-3871 input:not(:checked) + .toggle-3871__track .toggle-3871__wing {
+    opacity: .25;
+}
+
+.toggle-3871 input:not(:checked) + .toggle-3871__track .toggle-3871__label {
+    right: 7px;
+    background: #e5e7eb;
+}
+
+.toggle-3871 input:not(:checked) + .toggle-3871__track .toggle-3871__label-off {
+    opacity: 1;
+}
+
+.toggle-3871 input:not(:checked) + .toggle-3871__track .toggle-3871__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3871 input:checked + .toggle-3871__track .toggle-3871__background {
+    filter: saturate(1.15) brightness(1.06);
+    transform: scale(1.03);
+}
+
+.toggle-3871 input:checked + .toggle-3871__track .toggle-3871__thumb {
+    left: 102px;
+    background: #d97706;
+}
+
+.toggle-3871 input:checked + .toggle-3871__track .toggle-3871__sun {
+    left: 10px;
+    right: auto;
+    transform: scale(1.05);
+    background: #fde047;
+}
+
+.toggle-3871 input:checked + .toggle-3871__track .toggle-3871__wing-left {
+    transform: translateX(-55px) rotate(9deg) scale(1.05);
+    opacity: 1;
+}
+
+.toggle-3871 input:checked + .toggle-3871__track .toggle-3871__wing-right {
+    transform: translateX(-84px) rotate(-8deg) scale(1.05);
+    opacity: 1;
+}
+
+.toggle-3871 input:checked + .toggle-3871__track .toggle-3871__mace {
+    left: 10px;
+    right: auto;
+    opacity: 1;
+    transform: rotate(-16deg) scale(1);
+}
+
+.toggle-3871 input:checked + .toggle-3871__track .toggle-3871__feather-1 {
+    transform: translateX(-101px) rotate(21deg);
+}
+
+.toggle-3871 input:checked + .toggle-3871__track .toggle-3871__feather-2 {
+    transform: translateX(-85px) rotate(-13deg);
+}
+
+.toggle-3871 input:checked + .toggle-3871__track .toggle-3871__feather-3 {
+    transform: translateX(-68px) rotate(8deg) scale(.9);
+}
+
+.toggle-3871 input:checked + .toggle-3871__track .toggle-3871__label {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(3deg);
+}
+
+.toggle-3871 input:checked + .toggle-3871__track .toggle-3871__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3871 input:checked + .toggle-3871__track .toggle-3871__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3871 input:focus-visible + .toggle-3871__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3872,
+    name: "Swamp Thing Green Awakening Toggle",
+    preview: (
+      <label
+        className="toggle-3872"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Swamp Thing Green Awakening Toggle"
+        />
+
+        <span className="toggle-3872__track">
+          <span className="toggle-3872__background"></span>
+          <span className="toggle-3872__fog"></span>
+
+          <span className="toggle-3872__vine toggle-3872__vine-1"></span>
+          <span className="toggle-3872__vine toggle-3872__vine-2"></span>
+
+          <span className="toggle-3872__leaf toggle-3872__leaf-1"></span>
+          <span className="toggle-3872__leaf toggle-3872__leaf-2"></span>
+          <span className="toggle-3872__leaf toggle-3872__leaf-3"></span>
+          <span className="toggle-3872__leaf toggle-3872__leaf-4"></span>
+
+          <span className="toggle-3872__water">
+            <span className="toggle-3872__ripple toggle-3872__ripple-1"></span>
+            <span className="toggle-3872__ripple toggle-3872__ripple-2"></span>
+          </span>
+
+          <span className="toggle-3872__label">
+            <span className="toggle-3872__label-off">DORMANT</span>
+            <span className="toggle-3872__label-on">THE GREEN</span>
+          </span>
+
+          <span className="toggle-3872__thumb">
+            <span className="toggle-3872__moss"></span>
+
+            <span className="toggle-3872__head">
+              <span className="toggle-3872__brow toggle-3872__brow-left"></span>
+              <span className="toggle-3872__brow toggle-3872__brow-right"></span>
+
+              <span className="toggle-3872__eye toggle-3872__eye-left"></span>
+              <span className="toggle-3872__eye toggle-3872__eye-right"></span>
+
+              <span className="toggle-3872__nose"></span>
+              <span className="toggle-3872__mouth"></span>
+
+              <span className="toggle-3872__root toggle-3872__root-1"></span>
+              <span className="toggle-3872__root toggle-3872__root-2"></span>
+            </span>
+
+            <span className="toggle-3872__body">
+              <span className="toggle-3872__chest-leaf toggle-3872__chest-leaf-1"></span>
+              <span className="toggle-3872__chest-leaf toggle-3872__chest-leaf-2"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3872">
+    <input type="checkbox" checked aria-label="Swamp Thing Green Awakening Toggle">
+
+    <span class="toggle-3872__track">
+        <span class="toggle-3872__background"></span>
+        <span class="toggle-3872__fog"></span>
+
+        <span class="toggle-3872__vine toggle-3872__vine-1"></span>
+        <span class="toggle-3872__vine toggle-3872__vine-2"></span>
+
+        <span class="toggle-3872__leaf toggle-3872__leaf-1"></span>
+        <span class="toggle-3872__leaf toggle-3872__leaf-2"></span>
+        <span class="toggle-3872__leaf toggle-3872__leaf-3"></span>
+        <span class="toggle-3872__leaf toggle-3872__leaf-4"></span>
+
+        <span class="toggle-3872__water">
+            <span class="toggle-3872__ripple toggle-3872__ripple-1"></span>
+            <span class="toggle-3872__ripple toggle-3872__ripple-2"></span>
+        </span>
+
+        <span class="toggle-3872__label">
+            <span class="toggle-3872__label-off">DORMANT</span>
+            <span class="toggle-3872__label-on">THE GREEN</span>
+        </span>
+
+        <span class="toggle-3872__thumb">
+            <span class="toggle-3872__moss"></span>
+
+            <span class="toggle-3872__head">
+                <span class="toggle-3872__brow toggle-3872__brow-left"></span>
+                <span class="toggle-3872__brow toggle-3872__brow-right"></span>
+
+                <span class="toggle-3872__eye toggle-3872__eye-left"></span>
+                <span class="toggle-3872__eye toggle-3872__eye-right"></span>
+
+                <span class="toggle-3872__nose"></span>
+                <span class="toggle-3872__mouth"></span>
+
+                <span class="toggle-3872__root toggle-3872__root-1"></span>
+                <span class="toggle-3872__root toggle-3872__root-2"></span>
+            </span>
+
+            <span class="toggle-3872__body">
+                <span class="toggle-3872__chest-leaf toggle-3872__chest-leaf-1"></span>
+                <span class="toggle-3872__chest-leaf toggle-3872__chest-leaf-2"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3872 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3872 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3872__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #1c1917;
+    border-radius: 14px;
+    background: #1a2e05;
+    box-shadow: 8px 8px 0 #1c1917;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+
+.toggle-3872__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 75% 28%, rgba(163,230,53,.23), transparent 30%),
+        linear-gradient(135deg, #1c1917 0%, #365314 48%, #14532d 100%);
+    transition: filter .3s ease, transform .35s ease;
+}
+
+.toggle-3872__fog {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(ellipse at 20% 70%, rgba(214,211,209,.18), transparent 35%),
+        radial-gradient(ellipse at 70% 35%, rgba(190,242,100,.12), transparent 30%);
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3872__vine {
+    position: absolute;
+    z-index: 3;
+    width: 72px;
+    height: 42px;
+    border: 5px solid #65a30d;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3872__vine-1 {
+    right: -8px;
+    top: 6px;
+    transform: rotate(18deg);
+}
+
+.toggle-3872__vine-2 {
+    right: 28px;
+    bottom: -13px;
+    transform: rotate(-22deg) scale(.8);
+}
+
+.toggle-3872__leaf {
+    position: absolute;
+    z-index: 4;
+    width: 19px;
+    height: 12px;
+    border: 2px solid #1c1917;
+    border-radius: 100% 0 100% 0;
+    background: #84cc16;
+    transition: transform .35s ease, opacity .3s ease;
+}
+
+.toggle-3872__leaf-1 {
+    right: 12px;
+    top: 11px;
+    transform: rotate(18deg);
+}
+
+.toggle-3872__leaf-2 {
+    right: 41px;
+    top: 23px;
+    transform: rotate(-13deg);
+}
+
+.toggle-3872__leaf-3 {
+    right: 15px;
+    bottom: 11px;
+    transform: rotate(34deg);
+}
+
+.toggle-3872__leaf-4 {
+    right: 58px;
+    bottom: 8px;
+    transform: rotate(-25deg) scale(.8);
+}
+
+.toggle-3872__water {
+    position: absolute;
+    right: 7px;
+    bottom: 3px;
+    z-index: 2;
+    width: 69px;
+    height: 22px;
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3872__ripple {
+    position: absolute;
+    left: 50%;
+    border: 3px solid #0ea5e9;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+.toggle-3872__ripple-1 {
+    bottom: 0;
+    width: 64px;
+    height: 17px;
+}
+
+.toggle-3872__ripple-2 {
+    bottom: 4px;
+    width: 39px;
+    height: 10px;
+}
+
+.toggle-3872__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 6;
+    width: 55px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #1c1917;
+    background: #f5f5f4;
+    box-shadow: 3px 3px 0 #1c1917;
+    transition: left .35s ease, right .35s ease, background .3s ease, transform .3s ease;
+}
+
+.toggle-3872__label-off,
+.toggle-3872__label-on {
+    position: absolute;
+    color: #1c1917;
+    font: 900 6.5px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+
+.toggle-3872__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3872__label-on {
+    opacity: 1;
+}
+
+.toggle-3872__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 9;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #1c1917;
+    border-radius: 50%;
+    background: #4d7c0f;
+    box-shadow: 5px 5px 0 #1c1917;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+
+.toggle-3872__moss {
+    position: absolute;
+    left: 3px;
+    right: 3px;
+    top: 2px;
+    height: 16px;
+    z-index: 6;
+    background:
+        radial-gradient(circle at 10% 70%, #84cc16 0 4px, transparent 5px),
+        radial-gradient(circle at 32% 30%, #65a30d 0 5px, transparent 6px),
+        radial-gradient(circle at 58% 60%, #84cc16 0 5px, transparent 6px),
+        radial-gradient(circle at 83% 30%, #4d7c0f 0 5px, transparent 6px);
+}
+
+.toggle-3872__head {
+    position: absolute;
+    left: 9px;
+    top: 8px;
+    z-index: 5;
+    width: 34px;
+    height: 36px;
+    overflow: hidden;
+    border: 3px solid #1c1917;
+    border-radius: 42% 42% 47% 47%;
+    background:
+        repeating-linear-gradient(
+            25deg,
+            #4d7c0f 0 5px,
+            #3f6212 5px 9px
+        );
+    transition: transform .35s ease, filter .3s ease;
+}
+
+.toggle-3872__brow {
+    position: absolute;
+    top: 8px;
+    width: 11px;
+    height: 4px;
+    border-radius: 999px;
+    background: #1c1917;
+}
+
+.toggle-3872__brow-left {
+    left: 3px;
+    transform: rotate(-16deg);
+}
+
+.toggle-3872__brow-right {
+    right: 3px;
+    transform: rotate(16deg);
+}
+
+.toggle-3872__eye {
+    position: absolute;
+    top: 14px;
+    width: 7px;
+    height: 5px;
+    border: 2px solid #1c1917;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 0 0 5px rgba(239,68,68,.7);
+}
+
+.toggle-3872__eye-left {
+    left: 5px;
+}
+
+.toggle-3872__eye-right {
+    right: 5px;
+}
+
+.toggle-3872__nose {
+    position: absolute;
+    left: 14px;
+    top: 19px;
+    width: 5px;
+    height: 7px;
+    background: #365314;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.toggle-3872__mouth {
+    position: absolute;
+    left: 7px;
+    bottom: 4px;
+    width: 18px;
+    height: 5px;
+    border-bottom: 3px solid #1c1917;
+}
+
+.toggle-3872__root {
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    height: 3px;
+    border-radius: 999px;
+    background: #a16207;
+}
+
+.toggle-3872__root-1 {
+    left: 2px;
+    transform: rotate(24deg);
+}
+
+.toggle-3872__root-2 {
+    right: 2px;
+    transform: rotate(-24deg);
+}
+
+.toggle-3872__body {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 4;
+    width: 36px;
+    height: 14px;
+    border: 3px solid #1c1917;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #365314;
+}
+
+.toggle-3872__chest-leaf {
+    position: absolute;
+    top: 2px;
+    width: 13px;
+    height: 8px;
+    border: 1px solid #1c1917;
+    border-radius: 100% 0 100% 0;
+    background: #84cc16;
+}
+
+.toggle-3872__chest-leaf-1 {
+    left: 5px;
+    transform: rotate(-25deg);
+}
+
+.toggle-3872__chest-leaf-2 {
+    right: 5px;
+    transform: scaleX(-1) rotate(-25deg);
+}
+
+.toggle-3872:hover .toggle-3872__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #1c1917;
+}
+
+.toggle-3872:hover .toggle-3872__thumb {
+    transform: rotate(-6deg) scale(1.05);
+}
+
+.toggle-3872:hover .toggle-3872__vine-1 {
+    transform: rotate(25deg) scale(1.07);
+}
+
+.toggle-3872 input:not(:checked) + .toggle-3872__track .toggle-3872__background {
+    filter: grayscale(.7) brightness(.65);
+}
+
+.toggle-3872 input:not(:checked) + .toggle-3872__track .toggle-3872__thumb {
+    left: 6px;
+    background: #57534e;
+}
+
+.toggle-3872 input:not(:checked) + .toggle-3872__track .toggle-3872__head {
+    filter: grayscale(.7);
+    transform: scale(.94);
+}
+
+.toggle-3872 input:not(:checked) + .toggle-3872__track .toggle-3872__vine,
+.toggle-3872 input:not(:checked) + .toggle-3872__track .toggle-3872__leaf {
+    opacity: .18;
+}
+
+.toggle-3872 input:not(:checked) + .toggle-3872__track .toggle-3872__water {
+    opacity: .25;
+}
+
+.toggle-3872 input:not(:checked) + .toggle-3872__track .toggle-3872__label {
+    left: 103px;
+    right: auto;
+    background: #e7e5e4;
+}
+
+.toggle-3872 input:not(:checked) + .toggle-3872__track .toggle-3872__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3872 input:not(:checked) + .toggle-3872__track .toggle-3872__label-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3872 input:checked + .toggle-3872__track .toggle-3872__background {
+    filter: saturate(1.18) brightness(1.05);
+    transform: scale(1.03);
+}
+
+.toggle-3872 input:checked + .toggle-3872__track .toggle-3872__thumb {
+    left: 102px;
+    background: #4d7c0f;
+}
+
+.toggle-3872 input:checked + .toggle-3872__track .toggle-3872__head {
+    filter: none;
+    transform: scale(1.04);
+}
+
+.toggle-3872 input:checked + .toggle-3872__track .toggle-3872__vine-1 {
+    transform: translateX(-94px) rotate(-18deg);
+    opacity: 1;
+}
+
+.toggle-3872 input:checked + .toggle-3872__track .toggle-3872__vine-2 {
+    transform: translateX(-77px) rotate(21deg) scale(.9);
+    opacity: .9;
+}
+
+.toggle-3872 input:checked + .toggle-3872__track .toggle-3872__leaf-1 {
+    transform: translateX(-98px) rotate(-18deg);
+}
+
+.toggle-3872 input:checked + .toggle-3872__track .toggle-3872__leaf-2 {
+    transform: translateX(-76px) rotate(13deg);
+}
+
+.toggle-3872 input:checked + .toggle-3872__track .toggle-3872__leaf-3 {
+    transform: translateX(-96px) rotate(-34deg);
+}
+
+.toggle-3872 input:checked + .toggle-3872__track .toggle-3872__leaf-4 {
+    transform: translateX(-68px) rotate(25deg) scale(.9);
+}
+
+.toggle-3872 input:checked + .toggle-3872__track .toggle-3872__water {
+    transform: translateX(-88px) scale(1.05);
+    opacity: .9;
+}
+
+.toggle-3872 input:checked + .toggle-3872__track .toggle-3872__label {
+    left: 8px;
+    right: auto;
+    background: #d9f99d;
+    transform: rotate(3deg);
+}
+
+.toggle-3872 input:checked + .toggle-3872__track .toggle-3872__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3872 input:checked + .toggle-3872__track .toggle-3872__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3872 input:focus-visible + .toggle-3872__track {
+    outline: 3px solid #84cc16;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3873,
+    name: "Reverse-Flash Negative Speed Toggle",
+    preview: (
+      <label
+        className="toggle-3873"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          aria-label="Reverse-Flash Negative Speed Toggle"
+        />
+
+        <span className="toggle-3873__track">
+          <span className="toggle-3873__background"></span>
+          <span className="toggle-3873__halftone"></span>
+
+          <span className="toggle-3873__lightning toggle-3873__lightning-1"></span>
+          <span className="toggle-3873__lightning toggle-3873__lightning-2"></span>
+          <span className="toggle-3873__lightning toggle-3873__lightning-3"></span>
+
+          <span className="toggle-3873__speed toggle-3873__speed-1"></span>
+          <span className="toggle-3873__speed toggle-3873__speed-2"></span>
+          <span className="toggle-3873__speed toggle-3873__speed-3"></span>
+          <span className="toggle-3873__speed toggle-3873__speed-4"></span>
+
+          <span className="toggle-3873__clock">
+            <span className="toggle-3873__clock-hand toggle-3873__clock-hand-hour"></span>
+            <span className="toggle-3873__clock-hand toggle-3873__clock-hand-minute"></span>
+          </span>
+
+          <span className="toggle-3873__label">
+            <span className="toggle-3873__label-off">NORMAL</span>
+            <span className="toggle-3873__label-on">REVERSE!</span>
+          </span>
+
+          <span className="toggle-3873__thumb">
+            <span className="toggle-3873__ear-bolt toggle-3873__ear-bolt-left"></span>
+            <span className="toggle-3873__ear-bolt toggle-3873__ear-bolt-right"></span>
+
+            <span className="toggle-3873__mask">
+              <span className="toggle-3873__eye toggle-3873__eye-left"></span>
+              <span className="toggle-3873__eye toggle-3873__eye-right"></span>
+
+              <span className="toggle-3873__mouth"></span>
+            </span>
+
+            <span className="toggle-3873__suit">
+              <span className="toggle-3873__emblem-ring">
+                <span className="toggle-3873__emblem-bolt"></span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3873">
+    <input type="checkbox" aria-label="Reverse-Flash Negative Speed Toggle">
+
+    <span class="toggle-3873__track">
+        <span class="toggle-3873__background"></span>
+        <span class="toggle-3873__halftone"></span>
+
+        <span class="toggle-3873__lightning toggle-3873__lightning-1"></span>
+        <span class="toggle-3873__lightning toggle-3873__lightning-2"></span>
+        <span class="toggle-3873__lightning toggle-3873__lightning-3"></span>
+
+        <span class="toggle-3873__speed toggle-3873__speed-1"></span>
+        <span class="toggle-3873__speed toggle-3873__speed-2"></span>
+        <span class="toggle-3873__speed toggle-3873__speed-3"></span>
+        <span class="toggle-3873__speed toggle-3873__speed-4"></span>
+
+        <span class="toggle-3873__clock">
+            <span class="toggle-3873__clock-hand toggle-3873__clock-hand-hour"></span>
+            <span class="toggle-3873__clock-hand toggle-3873__clock-hand-minute"></span>
+        </span>
+
+        <span class="toggle-3873__label">
+            <span class="toggle-3873__label-off">NORMAL</span>
+            <span class="toggle-3873__label-on">REVERSE!</span>
+        </span>
+
+        <span class="toggle-3873__thumb">
+            <span class="toggle-3873__ear-bolt toggle-3873__ear-bolt-left"></span>
+            <span class="toggle-3873__ear-bolt toggle-3873__ear-bolt-right"></span>
+
+            <span class="toggle-3873__mask">
+                <span class="toggle-3873__eye toggle-3873__eye-left"></span>
+                <span class="toggle-3873__eye toggle-3873__eye-right"></span>
+                <span class="toggle-3873__mouth"></span>
+            </span>
+
+            <span class="toggle-3873__suit">
+                <span class="toggle-3873__emblem-ring">
+                    <span class="toggle-3873__emblem-bolt"></span>
+                </span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3873 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3873 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3873__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #09090b;
+    border-radius: 14px;
+    background: #991b1b;
+    box-shadow: 8px 8px 0 #09090b;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+
+.toggle-3873__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 78% 32%, rgba(250,204,21,.4), transparent 30%),
+        linear-gradient(135deg, #450a0a 0%, #991b1b 46%, #ca8a04 100%);
+    transition: filter .3s ease, transform .35s ease;
+}
+
+.toggle-3873__halftone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(9,9,11,.55) 1.3px, transparent 1.6px);
+    background-size: 8px 8px;
+    opacity: .26;
+}
+
+.toggle-3873__lightning {
+    position: absolute;
+    z-index: 4;
+    width: 29px;
+    height: 48px;
+    border: 3px solid #09090b;
+    background: #facc15;
+    clip-path: polygon(
+        48% 0,
+        100% 0,
+        65% 38%,
+        100% 38%,
+        25% 100%,
+        46% 54%,
+        8% 54%
+    );
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3873__lightning-1 {
+    right: 9px;
+    top: 9px;
+    transform: rotate(8deg);
+}
+
+.toggle-3873__lightning-2 {
+    right: 41px;
+    top: 14px;
+    transform: rotate(-12deg) scale(.75);
+}
+
+.toggle-3873__lightning-3 {
+    right: 68px;
+    top: 5px;
+    transform: rotate(12deg) scale(.55);
+}
+
+.toggle-3873__speed {
+    position: absolute;
+    z-index: 3;
+    height: 4px;
+    border: 1px solid #09090b;
+    border-radius: 999px;
+    background: #fef08a;
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3873__speed-1 {
+    right: 5px;
+    top: 10px;
+    width: 48px;
+    transform: rotate(-7deg);
+}
+
+.toggle-3873__speed-2 {
+    right: 15px;
+    top: 27px;
+    width: 62px;
+}
+
+.toggle-3873__speed-3 {
+    right: 8px;
+    top: 44px;
+    width: 55px;
+    transform: rotate(5deg);
+}
+
+.toggle-3873__speed-4 {
+    right: 20px;
+    bottom: 8px;
+    width: 43px;
+    transform: rotate(-6deg);
+}
+
+.toggle-3873__clock {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    z-index: 5;
+    width: 39px;
+    height: 39px;
+    border: 3px solid #09090b;
+    border-radius: 50%;
+    background: #fef3c7;
+    box-shadow: 3px 3px 0 #09090b;
+    transition: left .35s ease, right .35s ease, transform .5s ease, opacity .3s ease;
+}
+
+.toggle-3873__clock::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border: 2px dashed #dc2626;
+    border-radius: 50%;
+}
+
+.toggle-3873__clock-hand {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 3px;
+    border-radius: 999px;
+    background: #09090b;
+    transform-origin: left center;
+}
+
+.toggle-3873__clock-hand-hour {
+    width: 10px;
+    transform: rotate(-40deg);
+}
+
+.toggle-3873__clock-hand-minute {
+    width: 14px;
+    transform: rotate(78deg);
+}
+
+.toggle-3873__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 6;
+    width: 54px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #09090b;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #09090b;
+    transition: left .35s ease, right .35s ease, background .3s ease, transform .3s ease;
+}
+
+.toggle-3873__label-off,
+.toggle-3873__label-on {
+    position: absolute;
+    color: #09090b;
+    font: 900 6.5px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+
+.toggle-3873__label-off {
+    opacity: 1;
+}
+
+.toggle-3873__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3873__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 9;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #09090b;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 5px 5px 0 #09090b;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+
+.toggle-3873__ear-bolt {
+    position: absolute;
+    top: 10px;
+    z-index: 7;
+    width: 15px;
+    height: 20px;
+    border: 2px solid #09090b;
+    background: #dc2626;
+    clip-path: polygon(50% 0, 100% 0, 65% 42%, 100% 42%, 25% 100%, 45% 55%, 0 55%);
+}
+
+.toggle-3873__ear-bolt-left {
+    left: -7px;
+    transform: rotate(7deg);
+}
+
+.toggle-3873__ear-bolt-right {
+    right: -7px;
+    transform: scaleX(-1) rotate(7deg);
+}
+
+.toggle-3873__mask {
+    position: absolute;
+    left: 9px;
+    top: 6px;
+    z-index: 6;
+    width: 34px;
+    height: 37px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-radius: 47% 47% 44% 44%;
+    background: #facc15;
+    transition: transform .35s ease, background .3s ease;
+}
+
+.toggle-3873__mask::before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    right: -6px;
+    top: 0;
+    height: 19px;
+    background: #ca8a04;
+    clip-path: polygon(0 0, 100% 0, 86% 100%, 65% 58%, 50% 88%, 35% 58%, 14% 100%);
+}
+
+.toggle-3873__eye {
+    position: absolute;
+    top: 13px;
+    z-index: 4;
+    width: 8px;
+    height: 6px;
+    border: 2px solid #09090b;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 0 0 5px #ef4444;
+}
+
+.toggle-3873__eye-left {
+    left: 5px;
+}
+
+.toggle-3873__eye-right {
+    right: 5px;
+}
+
+.toggle-3873__mouth {
+    position: absolute;
+    left: 8px;
+    bottom: 5px;
+    width: 16px;
+    height: 5px;
+    border-bottom: 3px solid #09090b;
+    border-radius: 0 0 50% 50%;
+}
+
+.toggle-3873__suit {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 5;
+    width: 36px;
+    height: 14px;
+    border: 3px solid #09090b;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #facc15;
+}
+
+.toggle-3873__emblem-ring {
+    position: absolute;
+    left: 50%;
+    top: 1px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #dc2626;
+    border-radius: 50%;
+    background: #111111;
+    transform: translateX(-50%);
+}
+
+.toggle-3873__emblem-bolt {
+    position: absolute;
+    left: 2px;
+    top: 1px;
+    width: 7px;
+    height: 9px;
+    background: #dc2626;
+    clip-path: polygon(50% 0, 100% 0, 65% 40%, 100% 40%, 25% 100%, 45% 55%, 0 55%);
+}
+
+.toggle-3873:hover .toggle-3873__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #09090b;
+}
+
+.toggle-3873:hover .toggle-3873__thumb {
+    transform: rotate(-8deg) scale(1.05);
+}
+
+.toggle-3873:hover .toggle-3873__clock {
+    transform: rotate(-25deg) scale(1.07);
+}
+
+.toggle-3873 input:not(:checked) + .toggle-3873__track .toggle-3873__background {
+    filter: grayscale(.68) brightness(.68);
+}
+
+.toggle-3873 input:not(:checked) + .toggle-3873__track .toggle-3873__thumb {
+    left: 6px;
+    background: #a1a1aa;
+}
+
+.toggle-3873 input:not(:checked) + .toggle-3873__track .toggle-3873__mask {
+    background: #a1a1aa;
+    transform: scale(.94);
+}
+
+.toggle-3873 input:not(:checked) + .toggle-3873__track .toggle-3873__mask::before {
+    background: #71717a;
+}
+
+.toggle-3873 input:not(:checked) + .toggle-3873__track .toggle-3873__ear-bolt {
+    background: #71717a;
+}
+
+.toggle-3873 input:not(:checked) + .toggle-3873__track .toggle-3873__eye {
+    background: #71717a;
+    box-shadow: none;
+}
+
+.toggle-3873 input:not(:checked) + .toggle-3873__track .toggle-3873__lightning {
+    opacity: .18;
+}
+
+.toggle-3873 input:not(:checked) + .toggle-3873__track .toggle-3873__speed {
+    opacity: .15;
+}
+
+.toggle-3873 input:not(:checked) + .toggle-3873__track .toggle-3873__clock {
+    right: 12px;
+    opacity: .45;
+    transform: rotate(0deg) scale(.8);
+}
+
+.toggle-3873 input:not(:checked) + .toggle-3873__track .toggle-3873__label {
+    right: 7px;
+    background: #e5e7eb;
+}
+
+.toggle-3873 input:not(:checked) + .toggle-3873__track .toggle-3873__label-off {
+    opacity: 1;
+}
+
+.toggle-3873 input:not(:checked) + .toggle-3873__track .toggle-3873__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3873 input:checked + .toggle-3873__track .toggle-3873__background {
+    filter: saturate(1.2) brightness(1.05);
+    transform: scale(1.03);
+}
+
+.toggle-3873 input:checked + .toggle-3873__track .toggle-3873__thumb {
+    left: 102px;
+    background: #facc15;
+}
+
+.toggle-3873 input:checked + .toggle-3873__track .toggle-3873__mask {
+    background: #facc15;
+    transform: scale(1.04);
+}
+
+.toggle-3873 input:checked + .toggle-3873__track .toggle-3873__clock {
+    left: 9px;
+    right: auto;
+    opacity: 1;
+    transform: rotate(-180deg) scale(1);
+}
+
+.toggle-3873 input:checked + .toggle-3873__track .toggle-3873__lightning-1 {
+    transform: translateX(-104px) rotate(-8deg);
+    opacity: 1;
+}
+
+.toggle-3873 input:checked + .toggle-3873__track .toggle-3873__lightning-2 {
+    transform: translateX(-88px) rotate(12deg) scale(.85);
+    opacity: .9;
+}
+
+.toggle-3873 input:checked + .toggle-3873__track .toggle-3873__lightning-3 {
+    transform: translateX(-67px) rotate(-12deg) scale(.65);
+    opacity: .8;
+}
+
+.toggle-3873 input:checked + .toggle-3873__track .toggle-3873__speed-1 {
+    transform: translateX(-105px) rotate(7deg);
+    opacity: 1;
+}
+
+.toggle-3873 input:checked + .toggle-3873__track .toggle-3873__speed-2 {
+    transform: translateX(-93px);
+    opacity: .9;
+}
+
+.toggle-3873 input:checked + .toggle-3873__track .toggle-3873__speed-3 {
+    transform: translateX(-102px) rotate(-5deg);
+    opacity: .85;
+}
+
+.toggle-3873 input:checked + .toggle-3873__track .toggle-3873__speed-4 {
+    transform: translateX(-89px) rotate(6deg);
+    opacity: .8;
+}
+
+.toggle-3873 input:checked + .toggle-3873__track .toggle-3873__label {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(3deg);
+}
+
+.toggle-3873 input:checked + .toggle-3873__track .toggle-3873__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3873 input:checked + .toggle-3873__track .toggle-3873__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3873 input:focus-visible + .toggle-3873__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3874,
+    name: "Firestorm Nuclear Matrix Toggle",
+    preview: (
+      <label
+        className="toggle-3874"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Firestorm Nuclear Matrix Toggle"
+        />
+
+        <span className="toggle-3874__track">
+          <span className="toggle-3874__background"></span>
+          <span className="toggle-3874__halftone"></span>
+
+          <span className="toggle-3874__atom">
+            <span className="toggle-3874__orbit toggle-3874__orbit-1"></span>
+            <span className="toggle-3874__orbit toggle-3874__orbit-2"></span>
+            <span className="toggle-3874__orbit toggle-3874__orbit-3"></span>
+            <span className="toggle-3874__nucleus"></span>
+          </span>
+
+          <span className="toggle-3874__flame toggle-3874__flame-1"></span>
+          <span className="toggle-3874__flame toggle-3874__flame-2"></span>
+          <span className="toggle-3874__flame toggle-3874__flame-3"></span>
+
+          <span className="toggle-3874__particle toggle-3874__particle-1"></span>
+          <span className="toggle-3874__particle toggle-3874__particle-2"></span>
+          <span className="toggle-3874__particle toggle-3874__particle-3"></span>
+          <span className="toggle-3874__particle toggle-3874__particle-4"></span>
+
+          <span className="toggle-3874__burst">
+            <span className="toggle-3874__burst-off">STABLE</span>
+            <span className="toggle-3874__burst-on">FUSION!</span>
+          </span>
+
+          <span className="toggle-3874__thumb">
+            <span className="toggle-3874__head-flame">
+              <span className="toggle-3874__head-flame-part toggle-3874__head-flame-part-1"></span>
+              <span className="toggle-3874__head-flame-part toggle-3874__head-flame-part-2"></span>
+              <span className="toggle-3874__head-flame-part toggle-3874__head-flame-part-3"></span>
+            </span>
+
+            <span className="toggle-3874__mask">
+              <span className="toggle-3874__eye toggle-3874__eye-left"></span>
+              <span className="toggle-3874__eye toggle-3874__eye-right"></span>
+              <span className="toggle-3874__mouth"></span>
+            </span>
+
+            <span className="toggle-3874__suit">
+              <span className="toggle-3874__chest-disc">
+                <span className="toggle-3874__chest-core"></span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3874">
+    <input type="checkbox" checked aria-label="Firestorm Nuclear Matrix Toggle">
+
+    <span class="toggle-3874__track">
+        <span class="toggle-3874__background"></span>
+        <span class="toggle-3874__halftone"></span>
+
+        <span class="toggle-3874__atom">
+            <span class="toggle-3874__orbit toggle-3874__orbit-1"></span>
+            <span class="toggle-3874__orbit toggle-3874__orbit-2"></span>
+            <span class="toggle-3874__orbit toggle-3874__orbit-3"></span>
+            <span class="toggle-3874__nucleus"></span>
+        </span>
+
+        <span class="toggle-3874__flame toggle-3874__flame-1"></span>
+        <span class="toggle-3874__flame toggle-3874__flame-2"></span>
+        <span class="toggle-3874__flame toggle-3874__flame-3"></span>
+
+        <span class="toggle-3874__particle toggle-3874__particle-1"></span>
+        <span class="toggle-3874__particle toggle-3874__particle-2"></span>
+        <span class="toggle-3874__particle toggle-3874__particle-3"></span>
+        <span class="toggle-3874__particle toggle-3874__particle-4"></span>
+
+        <span class="toggle-3874__burst">
+            <span class="toggle-3874__burst-off">STABLE</span>
+            <span class="toggle-3874__burst-on">FUSION!</span>
+        </span>
+
+        <span class="toggle-3874__thumb">
+            <span class="toggle-3874__head-flame">
+                <span class="toggle-3874__head-flame-part toggle-3874__head-flame-part-1"></span>
+                <span class="toggle-3874__head-flame-part toggle-3874__head-flame-part-2"></span>
+                <span class="toggle-3874__head-flame-part toggle-3874__head-flame-part-3"></span>
+            </span>
+
+            <span class="toggle-3874__mask">
+                <span class="toggle-3874__eye toggle-3874__eye-left"></span>
+                <span class="toggle-3874__eye toggle-3874__eye-right"></span>
+                <span class="toggle-3874__mouth"></span>
+            </span>
+
+            <span class="toggle-3874__suit">
+                <span class="toggle-3874__chest-disc">
+                    <span class="toggle-3874__chest-core"></span>
+                </span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3874 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3874 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3874__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 14px;
+    background: #991b1b;
+    box-shadow: 8px 8px 0 #111111;
+    isolation: isolate;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+
+.toggle-3874__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 76% 31%, rgba(250,204,21,.45), transparent 30%),
+        linear-gradient(135deg, #7f1d1d, #dc2626 48%, #f97316);
+    transition: filter .3s ease, transform .35s ease;
+}
+
+.toggle-3874__halftone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(17,17,17,.5) 1.3px, transparent 1.6px);
+    background-size: 8px 8px;
+    opacity: .25;
+}
+
+.toggle-3874__atom {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    z-index: 4;
+    width: 47px;
+    height: 47px;
+    transition: left .35s ease, right .35s ease, transform .45s ease, opacity .3s ease;
+}
+
+.toggle-3874__orbit {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 42px;
+    height: 17px;
+    border: 3px solid #fef08a;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 5px rgba(250,204,21,.5);
+}
+
+.toggle-3874__orbit-1 {
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+
+.toggle-3874__orbit-2 {
+    transform: translate(-50%,-50%) rotate(60deg);
+}
+
+.toggle-3874__orbit-3 {
+    transform: translate(-50%,-50%) rotate(120deg);
+}
+
+.toggle-3874__nucleus {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0 0 8px #facc15;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3874__flame {
+    position: absolute;
+    z-index: 3;
+    border: 3px solid #111111;
+    background: #facc15;
+    clip-path: polygon(
+        50% 0,
+        75% 39%,
+        100% 24%,
+        83% 68%,
+        50% 100%,
+        18% 68%,
+        0 27%,
+        27% 40%
+    );
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3874__flame-1 {
+    right: 10px;
+    bottom: 7px;
+    width: 24px;
+    height: 34px;
+    transform: rotate(11deg);
+}
+
+.toggle-3874__flame-2 {
+    right: 38px;
+    bottom: 9px;
+    width: 19px;
+    height: 28px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3874__flame-3 {
+    right: 59px;
+    bottom: 8px;
+    width: 15px;
+    height: 22px;
+    transform: rotate(12deg);
+}
+
+.toggle-3874__particle {
+    position: absolute;
+    z-index: 4;
+    width: 7px;
+    height: 7px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #fde047;
+    box-shadow: 0 0 6px #facc15;
+    transition: transform .35s ease, opacity .3s ease;
+}
+
+.toggle-3874__particle-1 {
+    right: 15px;
+    top: 9px;
+}
+
+.toggle-3874__particle-2 {
+    right: 46px;
+    top: 13px;
+    transform: scale(.7);
+}
+
+.toggle-3874__particle-3 {
+    right: 28px;
+    bottom: 9px;
+    transform: scale(.8);
+}
+
+.toggle-3874__particle-4 {
+    right: 68px;
+    top: 27px;
+    transform: scale(.6);
+}
+
+.toggle-3874__burst {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 6;
+    width: 51px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    clip-path: polygon(
+        50% 0,
+        61% 22%,
+        84% 5%,
+        77% 31%,
+        100% 28%,
+        82% 48%,
+        100% 64%,
+        76% 66%,
+        87% 94%,
+        61% 77%,
+        50% 100%,
+        39% 77%,
+        12% 93%,
+        24% 65%,
+        0 61%,
+        18% 48%,
+        0 28%,
+        24% 31%,
+        18% 6%,
+        39% 22%
+    );
+    transition: left .35s ease, right .35s ease, background .3s ease, transform .3s ease;
+}
+
+.toggle-3874__burst-off,
+.toggle-3874__burst-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+
+.toggle-3874__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3874__burst-on {
+    opacity: 1;
+}
+
+.toggle-3874__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 10;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+
+.toggle-3874__head-flame {
+    position: absolute;
+    left: 7px;
+    top: -9px;
+    z-index: 7;
+    width: 38px;
+    height: 25px;
+}
+
+.toggle-3874__head-flame-part {
+    position: absolute;
+    bottom: 0;
+    border: 3px solid #111111;
+    background: #facc15;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.toggle-3874__head-flame-part-1 {
+    left: 0;
+    width: 17px;
+    height: 21px;
+    transform: rotate(-18deg);
+}
+
+.toggle-3874__head-flame-part-2 {
+    left: 11px;
+    width: 18px;
+    height: 27px;
+}
+
+.toggle-3874__head-flame-part-3 {
+    right: 0;
+    width: 17px;
+    height: 21px;
+    transform: rotate(18deg);
+}
+
+.toggle-3874__mask {
+    position: absolute;
+    left: 9px;
+    top: 8px;
+    z-index: 6;
+    width: 34px;
+    height: 35px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    border-radius: 46% 46% 48% 48%;
+    background: #dc2626;
+    transition: transform .35s ease, background .3s ease;
+}
+
+.toggle-3874__mask::before {
+    content: "";
+    position: absolute;
+    left: -4px;
+    right: -4px;
+    top: 0;
+    height: 18px;
+    background: #facc15;
+    clip-path: polygon(0 0, 100% 0, 78% 100%, 50% 62%, 22% 100%);
+}
+
+.toggle-3874__eye {
+    position: absolute;
+    top: 13px;
+    z-index: 4;
+    width: 7px;
+    height: 5px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.toggle-3874__eye-left {
+    left: 5px;
+}
+
+.toggle-3874__eye-right {
+    right: 5px;
+}
+
+.toggle-3874__mouth {
+    position: absolute;
+    left: 9px;
+    bottom: 4px;
+    width: 14px;
+    height: 5px;
+    border-bottom: 3px solid #111111;
+}
+
+.toggle-3874__suit {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 5;
+    width: 36px;
+    height: 14px;
+    border: 3px solid #111111;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #dc2626;
+}
+
+.toggle-3874__chest-disc {
+    position: absolute;
+    left: 50%;
+    top: 1px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    transform: translateX(-50%);
+}
+
+.toggle-3874__chest-core {
+    position: absolute;
+    inset: 3px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.toggle-3874:hover .toggle-3874__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3874:hover .toggle-3874__thumb {
+    transform: rotate(-7deg) scale(1.05);
+}
+
+.toggle-3874:hover .toggle-3874__atom {
+    transform: rotate(24deg) scale(1.08);
+}
+
+.toggle-3874 input:not(:checked) + .toggle-3874__track .toggle-3874__background {
+    filter: grayscale(.7) brightness(.67);
+}
+
+.toggle-3874 input:not(:checked) + .toggle-3874__track .toggle-3874__thumb {
+    left: 6px;
+    background: #71717a;
+}
+
+.toggle-3874 input:not(:checked) + .toggle-3874__track .toggle-3874__mask {
+    background: #71717a;
+    transform: scale(.94);
+}
+
+.toggle-3874 input:not(:checked) + .toggle-3874__track .toggle-3874__atom {
+    left: 111px;
+    right: auto;
+    opacity: .2;
+    transform: rotate(-25deg) scale(.7);
+}
+
+.toggle-3874 input:not(:checked) + .toggle-3874__track .toggle-3874__flame,
+.toggle-3874 input:not(:checked) + .toggle-3874__track .toggle-3874__particle {
+    opacity: .16;
+}
+
+.toggle-3874 input:not(:checked) + .toggle-3874__track .toggle-3874__burst {
+    left: 106px;
+    right: auto;
+    background: #e5e7eb;
+}
+
+.toggle-3874 input:not(:checked) + .toggle-3874__track .toggle-3874__burst-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3874 input:not(:checked) + .toggle-3874__track .toggle-3874__burst-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3874 input:checked + .toggle-3874__track .toggle-3874__background {
+    filter: saturate(1.2) brightness(1.05);
+    transform: scale(1.03);
+}
+
+.toggle-3874 input:checked + .toggle-3874__track .toggle-3874__thumb {
+    left: 102px;
+    background: #facc15;
+}
+
+.toggle-3874 input:checked + .toggle-3874__track .toggle-3874__atom {
+    left: 8px;
+    right: auto;
+    opacity: 1;
+    transform: rotate(180deg) scale(1.04);
+}
+
+.toggle-3874 input:checked + .toggle-3874__track .toggle-3874__flame-1 {
+    transform: translateX(-104px) rotate(-11deg);
+    opacity: 1;
+}
+
+.toggle-3874 input:checked + .toggle-3874__track .toggle-3874__flame-2 {
+    transform: translateX(-88px) rotate(8deg);
+    opacity: .9;
+}
+
+.toggle-3874 input:checked + .toggle-3874__track .toggle-3874__flame-3 {
+    transform: translateX(-68px) rotate(-12deg);
+    opacity: .8;
+}
+
+.toggle-3874 input:checked + .toggle-3874__track .toggle-3874__particle-1 {
+    transform: translateX(-103px) scale(1);
+}
+
+.toggle-3874 input:checked + .toggle-3874__track .toggle-3874__particle-2 {
+    transform: translateX(-78px) scale(.8);
+}
+
+.toggle-3874 input:checked + .toggle-3874__track .toggle-3874__particle-3 {
+    transform: translateX(-91px) scale(.9);
+}
+
+.toggle-3874 input:checked + .toggle-3874__track .toggle-3874__particle-4 {
+    transform: translateX(-60px) scale(.7);
+}
+
+.toggle-3874 input:checked + .toggle-3874__track .toggle-3874__burst {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(3deg);
+}
+
+.toggle-3874 input:checked + .toggle-3874__track .toggle-3874__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3874 input:checked + .toggle-3874__track .toggle-3874__burst-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3874 input:focus-visible + .toggle-3874__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3875,
+    name: "Black Canary Sonic Cry Toggle",
+    preview: (
+      <label
+        className="toggle-3875"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input type="checkbox" aria-label="Black Canary Sonic Cry Toggle" />
+
+        <span className="toggle-3875__track">
+          <span className="toggle-3875__background"></span>
+          <span className="toggle-3875__halftone"></span>
+
+          <span className="toggle-3875__wave toggle-3875__wave-1"></span>
+          <span className="toggle-3875__wave toggle-3875__wave-2"></span>
+          <span className="toggle-3875__wave toggle-3875__wave-3"></span>
+
+          <span className="toggle-3875__sound-line toggle-3875__sound-line-1"></span>
+          <span className="toggle-3875__sound-line toggle-3875__sound-line-2"></span>
+          <span className="toggle-3875__sound-line toggle-3875__sound-line-3"></span>
+
+          <span className="toggle-3875__burst">
+            <span className="toggle-3875__burst-off">HUSH</span>
+            <span className="toggle-3875__burst-on">SCREAM!</span>
+          </span>
+
+          <span className="toggle-3875__thumb">
+            <span className="toggle-3875__hair">
+              <span className="toggle-3875__hair-lock toggle-3875__hair-lock-1"></span>
+              <span className="toggle-3875__hair-lock toggle-3875__hair-lock-2"></span>
+              <span className="toggle-3875__hair-lock toggle-3875__hair-lock-3"></span>
+            </span>
+
+            <span className="toggle-3875__face">
+              <span className="toggle-3875__mask"></span>
+
+              <span className="toggle-3875__eye toggle-3875__eye-left"></span>
+              <span className="toggle-3875__eye toggle-3875__eye-right"></span>
+
+              <span className="toggle-3875__nose"></span>
+              <span className="toggle-3875__mouth"></span>
+            </span>
+
+            <span className="toggle-3875__jacket">
+              <span className="toggle-3875__zipper"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3875">
+    <input type="checkbox" aria-label="Black Canary Sonic Cry Toggle">
+
+    <span class="toggle-3875__track">
+        <span class="toggle-3875__background"></span>
+        <span class="toggle-3875__halftone"></span>
+
+        <span class="toggle-3875__wave toggle-3875__wave-1"></span>
+        <span class="toggle-3875__wave toggle-3875__wave-2"></span>
+        <span class="toggle-3875__wave toggle-3875__wave-3"></span>
+
+        <span class="toggle-3875__sound-line toggle-3875__sound-line-1"></span>
+        <span class="toggle-3875__sound-line toggle-3875__sound-line-2"></span>
+        <span class="toggle-3875__sound-line toggle-3875__sound-line-3"></span>
+
+        <span class="toggle-3875__burst">
+            <span class="toggle-3875__burst-off">HUSH</span>
+            <span class="toggle-3875__burst-on">SCREAM!</span>
+        </span>
+
+        <span class="toggle-3875__thumb">
+            <span class="toggle-3875__hair">
+                <span class="toggle-3875__hair-lock toggle-3875__hair-lock-1"></span>
+                <span class="toggle-3875__hair-lock toggle-3875__hair-lock-2"></span>
+                <span class="toggle-3875__hair-lock toggle-3875__hair-lock-3"></span>
+            </span>
+
+            <span class="toggle-3875__face">
+                <span class="toggle-3875__mask"></span>
+
+                <span class="toggle-3875__eye toggle-3875__eye-left"></span>
+                <span class="toggle-3875__eye toggle-3875__eye-right"></span>
+
+                <span class="toggle-3875__nose"></span>
+                <span class="toggle-3875__mouth"></span>
+            </span>
+
+            <span class="toggle-3875__jacket">
+                <span class="toggle-3875__zipper"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3875 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3875 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3875__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #09090b;
+    border-radius: 14px;
+    background: #111827;
+    box-shadow: 8px 8px 0 #09090b;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+
+.toggle-3875__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 78% 35%, rgba(250,204,21,.34), transparent 31%),
+        linear-gradient(135deg, #09090b, #1f2937 48%, #ca8a04);
+    transition: filter .3s ease, transform .35s ease;
+}
+
+.toggle-3875__halftone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(9,9,11,.6) 1.3px, transparent 1.6px);
+    background-size: 8px 8px;
+    opacity: .27;
+}
+
+.toggle-3875__wave {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    z-index: 3;
+    border: 4px solid #facc15;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: left .35s ease, right .35s ease, transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3875__wave-1 {
+    width: 26px;
+    height: 38px;
+}
+
+.toggle-3875__wave-2 {
+    right: 15px;
+    width: 43px;
+    height: 55px;
+}
+
+.toggle-3875__wave-3 {
+    right: 22px;
+    width: 61px;
+    height: 68px;
+}
+
+.toggle-3875__sound-line {
+    position: absolute;
+    z-index: 4;
+    height: 4px;
+    border: 1px solid #09090b;
+    border-radius: 999px;
+    background: #fef08a;
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3875__sound-line-1 {
+    right: 6px;
+    top: 14px;
+    width: 40px;
+    transform: rotate(-9deg);
+}
+
+.toggle-3875__sound-line-2 {
+    right: 13px;
+    top: 35px;
+    width: 53px;
+}
+
+.toggle-3875__sound-line-3 {
+    right: 6px;
+    bottom: 12px;
+    width: 43px;
+    transform: rotate(8deg);
+}
+
+.toggle-3875__burst {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 6;
+    width: 53px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #09090b;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #09090b;
+    clip-path: polygon(
+        50% 0,
+        61% 23%,
+        83% 5%,
+        76% 31%,
+        100% 28%,
+        82% 48%,
+        100% 64%,
+        76% 66%,
+        87% 94%,
+        61% 77%,
+        50% 100%,
+        39% 77%,
+        12% 93%,
+        24% 65%,
+        0 61%,
+        18% 48%,
+        0 28%,
+        24% 31%,
+        18% 6%,
+        39% 23%
+    );
+    transition: left .35s ease, right .35s ease, transform .3s ease, background .3s ease;
+}
+
+.toggle-3875__burst-off,
+.toggle-3875__burst-on {
+    position: absolute;
+    color: #09090b;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+
+.toggle-3875__burst-off {
+    opacity: 1;
+}
+
+.toggle-3875__burst-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3875__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 9;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #09090b;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 5px 5px 0 #09090b;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+
+.toggle-3875__hair {
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    z-index: 4;
+    width: 42px;
+    height: 46px;
+}
+
+.toggle-3875__hair-lock {
+    position: absolute;
+    top: 2px;
+    width: 17px;
+    height: 42px;
+    border: 3px solid #09090b;
+    border-radius: 55% 45%;
+    background: #fde047;
+    transform-origin: top center;
+}
+
+.toggle-3875__hair-lock-1 {
+    left: 0;
+    transform: rotate(13deg);
+}
+
+.toggle-3875__hair-lock-2 {
+    left: 13px;
+}
+
+.toggle-3875__hair-lock-3 {
+    right: 0;
+    transform: rotate(-13deg);
+}
+
+.toggle-3875__face {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    z-index: 6;
+    width: 32px;
+    height: 35px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-radius: 47% 47% 48% 48%;
+    background: #f1c6a3;
+    transition: transform .35s ease;
+}
+
+.toggle-3875__mask {
+    position: absolute;
+    left: 2px;
+    top: 10px;
+    width: 26px;
+    height: 10px;
+    background: #09090b;
+    clip-path: polygon(0 20%, 27% 0, 50% 26%, 73% 0, 100% 20%, 82% 100%, 50% 70%, 18% 100%);
+}
+
+.toggle-3875__eye {
+    position: absolute;
+    top: 13px;
+    z-index: 5;
+    width: 7px;
+    height: 5px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.toggle-3875__eye-left {
+    left: 6px;
+}
+
+.toggle-3875__eye-right {
+    right: 6px;
+}
+
+.toggle-3875__nose {
+    position: absolute;
+    left: 14px;
+    top: 19px;
+    width: 4px;
+    height: 5px;
+    border-radius: 50%;
+    background: #c08457;
+}
+
+.toggle-3875__mouth {
+    position: absolute;
+    left: 7px;
+    bottom: 4px;
+    width: 17px;
+    height: 8px;
+    border: 3px solid #09090b;
+    border-radius: 50%;
+    background: #dc2626;
+    transition: height .3s ease, width .3s ease, left .3s ease;
+}
+
+.toggle-3875__jacket {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 5;
+    width: 36px;
+    height: 14px;
+    border: 3px solid #09090b;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #111111;
+}
+
+.toggle-3875__zipper {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 2px;
+    height: 12px;
+    background: #d4d4d8;
+    transform: translateX(-50%);
+}
+
+.toggle-3875:hover .toggle-3875__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #09090b;
+}
+
+.toggle-3875:hover .toggle-3875__thumb {
+    transform: rotate(-7deg) scale(1.05);
+}
+
+.toggle-3875 input:not(:checked) + .toggle-3875__track .toggle-3875__background {
+    filter: grayscale(.7) brightness(.65);
+}
+
+.toggle-3875 input:not(:checked) + .toggle-3875__track .toggle-3875__wave {
+    opacity: .15;
+}
+
+.toggle-3875 input:not(:checked) + .toggle-3875__track .toggle-3875__sound-line {
+    opacity: .12;
+}
+
+.toggle-3875 input:not(:checked) + .toggle-3875__track .toggle-3875__mouth {
+    left: 9px;
+    width: 13px;
+    height: 4px;
+    background: #7f1d1d;
+}
+
+.toggle-3875 input:not(:checked) + .toggle-3875__track .toggle-3875__burst {
+    right: 7px;
+    background: #e5e7eb;
+}
+
+.toggle-3875 input:not(:checked) + .toggle-3875__track .toggle-3875__burst-off {
+    opacity: 1;
+}
+
+.toggle-3875 input:not(:checked) + .toggle-3875__track .toggle-3875__burst-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3875 input:checked + .toggle-3875__track .toggle-3875__background {
+    filter: saturate(1.15) brightness(1.05);
+    transform: scale(1.03);
+}
+
+.toggle-3875 input:checked + .toggle-3875__track .toggle-3875__thumb {
+    left: 102px;
+    background: #facc15;
+}
+
+.toggle-3875 input:checked + .toggle-3875__track .toggle-3875__face {
+    transform: scale(1.04);
+}
+
+.toggle-3875 input:checked + .toggle-3875__track .toggle-3875__mouth {
+    left: 6px;
+    width: 19px;
+    height: 11px;
+    background: #dc2626;
+}
+
+.toggle-3875 input:checked + .toggle-3875__track .toggle-3875__wave-1 {
+    left: 14px;
+    right: auto;
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+}
+
+.toggle-3875 input:checked + .toggle-3875__track .toggle-3875__wave-2 {
+    left: 22px;
+    right: auto;
+    opacity: .9;
+    transform: translateY(-50%) scale(1);
+}
+
+.toggle-3875 input:checked + .toggle-3875__track .toggle-3875__wave-3 {
+    left: 29px;
+    right: auto;
+    opacity: .8;
+    transform: translateY(-50%) scale(1);
+}
+
+.toggle-3875 input:checked + .toggle-3875__track .toggle-3875__sound-line-1 {
+    transform: translateX(-103px) rotate(9deg);
+    opacity: 1;
+}
+
+.toggle-3875 input:checked + .toggle-3875__track .toggle-3875__sound-line-2 {
+    transform: translateX(-91px);
+    opacity: .9;
+}
+
+.toggle-3875 input:checked + .toggle-3875__track .toggle-3875__sound-line-3 {
+    transform: translateX(-103px) rotate(-8deg);
+    opacity: .82;
+}
+
+.toggle-3875 input:checked + .toggle-3875__track .toggle-3875__burst {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(3deg);
+}
+
+.toggle-3875 input:checked + .toggle-3875__track .toggle-3875__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3875 input:checked + .toggle-3875__track .toggle-3875__burst-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3875 input:focus-visible + .toggle-3875__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3876,
+    name: "Etrigan Hellfire Demon Toggle",
+    preview: (
+      <label
+        className="toggle-3876"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Etrigan Hellfire Demon Toggle"
+        />
+
+        <span className="toggle-3876__track">
+          <span className="toggle-3876__background"></span>
+          <span className="toggle-3876__halftone"></span>
+
+          <span className="toggle-3876__rune toggle-3876__rune-1">ᛉ</span>
+          <span className="toggle-3876__rune toggle-3876__rune-2">ᛟ</span>
+          <span className="toggle-3876__rune toggle-3876__rune-3">ᚱ</span>
+
+          <span className="toggle-3876__fire toggle-3876__fire-1"></span>
+          <span className="toggle-3876__fire toggle-3876__fire-2"></span>
+          <span className="toggle-3876__fire toggle-3876__fire-3"></span>
+
+          <span className="toggle-3876__pentacle">
+            <span className="toggle-3876__pentacle-inner">✦</span>
+          </span>
+
+          <span className="toggle-3876__label">
+            <span className="toggle-3876__label-off">MORTAL</span>
+            <span className="toggle-3876__label-on">DEMON!</span>
+          </span>
+
+          <span className="toggle-3876__thumb">
+            <span className="toggle-3876__horn toggle-3876__horn-left"></span>
+            <span className="toggle-3876__horn toggle-3876__horn-right"></span>
+
+            <span className="toggle-3876__head">
+              <span className="toggle-3876__brow toggle-3876__brow-left"></span>
+              <span className="toggle-3876__brow toggle-3876__brow-right"></span>
+
+              <span className="toggle-3876__eye toggle-3876__eye-left"></span>
+              <span className="toggle-3876__eye toggle-3876__eye-right"></span>
+
+              <span className="toggle-3876__nose"></span>
+
+              <span className="toggle-3876__mouth">
+                <span className="toggle-3876__fang toggle-3876__fang-1"></span>
+                <span className="toggle-3876__fang toggle-3876__fang-2"></span>
+                <span className="toggle-3876__fang toggle-3876__fang-3"></span>
+                <span className="toggle-3876__fang toggle-3876__fang-4"></span>
+              </span>
+            </span>
+
+            <span className="toggle-3876__cape"></span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3876">
+    <input type="checkbox" checked aria-label="Etrigan Hellfire Demon Toggle">
+
+    <span class="toggle-3876__track">
+        <span class="toggle-3876__background"></span>
+        <span class="toggle-3876__halftone"></span>
+
+        <span class="toggle-3876__rune toggle-3876__rune-1">ᛉ</span>
+        <span class="toggle-3876__rune toggle-3876__rune-2">ᛟ</span>
+        <span class="toggle-3876__rune toggle-3876__rune-3">ᚱ</span>
+
+        <span class="toggle-3876__fire toggle-3876__fire-1"></span>
+        <span class="toggle-3876__fire toggle-3876__fire-2"></span>
+        <span class="toggle-3876__fire toggle-3876__fire-3"></span>
+
+        <span class="toggle-3876__pentacle">
+            <span class="toggle-3876__pentacle-inner">✦</span>
+        </span>
+
+        <span class="toggle-3876__label">
+            <span class="toggle-3876__label-off">MORTAL</span>
+            <span class="toggle-3876__label-on">DEMON!</span>
+        </span>
+
+        <span class="toggle-3876__thumb">
+            <span class="toggle-3876__horn toggle-3876__horn-left"></span>
+            <span class="toggle-3876__horn toggle-3876__horn-right"></span>
+
+            <span class="toggle-3876__head">
+                <span class="toggle-3876__brow toggle-3876__brow-left"></span>
+                <span class="toggle-3876__brow toggle-3876__brow-right"></span>
+
+                <span class="toggle-3876__eye toggle-3876__eye-left"></span>
+                <span class="toggle-3876__eye toggle-3876__eye-right"></span>
+
+                <span class="toggle-3876__nose"></span>
+
+                <span class="toggle-3876__mouth">
+                    <span class="toggle-3876__fang toggle-3876__fang-1"></span>
+                    <span class="toggle-3876__fang toggle-3876__fang-2"></span>
+                    <span class="toggle-3876__fang toggle-3876__fang-3"></span>
+                    <span class="toggle-3876__fang toggle-3876__fang-4"></span>
+                </span>
+            </span>
+
+            <span class="toggle-3876__cape"></span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3876 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3876 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3876__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 14px;
+    background: #450a0a;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+
+.toggle-3876__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 77% 32%, rgba(249,115,22,.45), transparent 31%),
+        linear-gradient(135deg, #1c1917, #7f1d1d 48%, #c2410c);
+    transition: filter .3s ease, transform .35s ease;
+}
+
+.toggle-3876__halftone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(17,17,17,.55) 1.3px, transparent 1.6px);
+    background-size: 8px 8px;
+    opacity: .28;
+}
+
+.toggle-3876__rune {
+    position: absolute;
+    z-index: 3;
+    color: #facc15;
+    font-family: Georgia, serif;
+    font-weight: 900;
+    text-shadow: 2px 2px 0 #111111, 0 0 6px rgba(249,115,22,.55);
+    transition: transform .35s ease, opacity .3s ease;
+}
+
+.toggle-3876__rune-1 {
+    right: 10px;
+    top: 8px;
+    font-size: 18px;
+    transform: rotate(-10deg);
+}
+
+.toggle-3876__rune-2 {
+    right: 42px;
+    top: 15px;
+    font-size: 13px;
+    transform: rotate(8deg);
+}
+
+.toggle-3876__rune-3 {
+    right: 21px;
+    bottom: 8px;
+    font-size: 14px;
+    transform: rotate(-6deg);
+}
+
+.toggle-3876__fire {
+    position: absolute;
+    z-index: 4;
+    border: 3px solid #111111;
+    background: linear-gradient(180deg, #fde047, #f97316 65%, #dc2626);
+    clip-path: polygon(50% 0, 76% 39%, 100% 20%, 82% 68%, 50% 100%, 18% 68%, 0 20%, 27% 40%);
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3876__fire-1 {
+    right: 9px;
+    bottom: 5px;
+    width: 28px;
+    height: 38px;
+}
+
+.toggle-3876__fire-2 {
+    right: 39px;
+    bottom: 7px;
+    width: 22px;
+    height: 31px;
+    transform: rotate(-9deg);
+}
+
+.toggle-3876__fire-3 {
+    right: 65px;
+    bottom: 6px;
+    width: 16px;
+    height: 23px;
+    transform: rotate(12deg);
+}
+
+.toggle-3876__pentacle {
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #facc15;
+    border-radius: 50%;
+    box-shadow: 0 0 7px rgba(250,204,21,.5);
+    transition: left .35s ease, right .35s ease, transform .45s ease, opacity .3s ease;
+}
+
+.toggle-3876__pentacle::before,
+.toggle-3876__pentacle::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 31px;
+    height: 3px;
+    background: #facc15;
+    transform-origin: center;
+}
+
+.toggle-3876__pentacle::before {
+    transform: translate(-50%,-50%) rotate(35deg);
+}
+
+.toggle-3876__pentacle::after {
+    transform: translate(-50%,-50%) rotate(-35deg);
+}
+
+.toggle-3876__pentacle-inner {
+    position: relative;
+    z-index: 2;
+    color: #f97316;
+    font-size: 17px;
+    text-shadow: 1px 1px 0 #111111;
+}
+
+.toggle-3876__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 6;
+    width: 52px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transition: left .35s ease, right .35s ease, background .3s ease, transform .3s ease;
+}
+
+.toggle-3876__label-off,
+.toggle-3876__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+
+.toggle-3876__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3876__label-on {
+    opacity: 1;
+}
+
+.toggle-3876__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 9;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+
+.toggle-3876__horn {
+    position: absolute;
+    top: 2px;
+    z-index: 7;
+    width: 15px;
+    height: 19px;
+    border: 3px solid #111111;
+    background: #fde68a;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.toggle-3876__horn-left {
+    left: 3px;
+    transform: rotate(-20deg);
+}
+
+.toggle-3876__horn-right {
+    right: 3px;
+    transform: rotate(20deg);
+}
+
+.toggle-3876__head {
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    z-index: 6;
+    width: 34px;
+    height: 35px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    border-radius: 44% 44% 48% 48%;
+    background: #facc15;
+    transition: transform .35s ease, background .3s ease;
+}
+
+.toggle-3876__brow {
+    position: absolute;
+    top: 7px;
+    width: 11px;
+    height: 4px;
+    background: #7f1d1d;
+    border-radius: 999px;
+}
+
+.toggle-3876__brow-left {
+    left: 3px;
+    transform: rotate(-20deg);
+}
+
+.toggle-3876__brow-right {
+    right: 3px;
+    transform: rotate(20deg);
+}
+
+.toggle-3876__eye {
+    position: absolute;
+    top: 13px;
+    width: 8px;
+    height: 6px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 0 0 5px #ef4444;
+}
+
+.toggle-3876__eye-left {
+    left: 4px;
+}
+
+.toggle-3876__eye-right {
+    right: 4px;
+}
+
+.toggle-3876__nose {
+    position: absolute;
+    left: 14px;
+    top: 19px;
+    width: 5px;
+    height: 6px;
+    background: #d97706;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.toggle-3876__mouth {
+    position: absolute;
+    left: 5px;
+    bottom: 3px;
+    width: 23px;
+    height: 9px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    border-radius: 3px 3px 50% 50%;
+    background: #7f1d1d;
+}
+
+.toggle-3876__fang {
+    position: absolute;
+    top: 0;
+    width: 5px;
+    height: 7px;
+    border-right: 1px solid #111111;
+    background: #ffffff;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.toggle-3876__fang-1 {
+    left: 1px;
+}
+
+.toggle-3876__fang-2 {
+    left: 6px;
+}
+
+.toggle-3876__fang-3 {
+    right: 6px;
+}
+
+.toggle-3876__fang-4 {
+    right: 1px;
+}
+
+.toggle-3876__cape {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 5;
+    width: 36px;
+    height: 14px;
+    border: 3px solid #111111;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #dc2626;
+    clip-path: polygon(0 0, 25% 28%, 16% 100%, 50% 65%, 84% 100%, 75% 28%, 100% 0);
+}
+
+.toggle-3876:hover .toggle-3876__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3876:hover .toggle-3876__thumb {
+    transform: rotate(-7deg) scale(1.05);
+}
+
+.toggle-3876:hover .toggle-3876__pentacle {
+    transform: rotate(25deg) scale(1.07);
+}
+
+.toggle-3876 input:not(:checked) + .toggle-3876__track .toggle-3876__background {
+    filter: grayscale(.75) brightness(.62);
+}
+
+.toggle-3876 input:not(:checked) + .toggle-3876__track .toggle-3876__thumb {
+    left: 6px;
+    background: #78716c;
+}
+
+.toggle-3876 input:not(:checked) + .toggle-3876__track .toggle-3876__head {
+    background: #a8a29e;
+    transform: scale(.94);
+}
+
+.toggle-3876 input:not(:checked) + .toggle-3876__track .toggle-3876__eye {
+    background: #78716c;
+    box-shadow: none;
+}
+
+.toggle-3876 input:not(:checked) + .toggle-3876__track .toggle-3876__fire,
+.toggle-3876 input:not(:checked) + .toggle-3876__track .toggle-3876__rune {
+    opacity: .15;
+}
+
+.toggle-3876 input:not(:checked) + .toggle-3876__track .toggle-3876__pentacle {
+    left: 112px;
+    right: auto;
+    opacity: .2;
+    transform: rotate(-20deg) scale(.7);
+}
+
+.toggle-3876 input:not(:checked) + .toggle-3876__track .toggle-3876__label {
+    left: 106px;
+    right: auto;
+    background: #e7e5e4;
+}
+
+.toggle-3876 input:not(:checked) + .toggle-3876__track .toggle-3876__label-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3876 input:not(:checked) + .toggle-3876__track .toggle-3876__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3876 input:checked + .toggle-3876__track .toggle-3876__background {
+    filter: saturate(1.22) brightness(1.05);
+    transform: scale(1.03);
+}
+
+.toggle-3876 input:checked + .toggle-3876__track .toggle-3876__thumb {
+    left: 102px;
+    background: #facc15;
+}
+
+.toggle-3876 input:checked + .toggle-3876__track .toggle-3876__head {
+    background: #facc15;
+    transform: scale(1.04);
+}
+
+.toggle-3876 input:checked + .toggle-3876__track .toggle-3876__pentacle {
+    left: 9px;
+    right: auto;
+    opacity: 1;
+    transform: rotate(180deg) scale(1);
+}
+
+.toggle-3876 input:checked + .toggle-3876__track .toggle-3876__fire-1 {
+    transform: translateX(-104px) rotate(-8deg);
+    opacity: 1;
+}
+
+.toggle-3876 input:checked + .toggle-3876__track .toggle-3876__fire-2 {
+    transform: translateX(-87px) rotate(9deg);
+    opacity: .9;
+}
+
+.toggle-3876 input:checked + .toggle-3876__track .toggle-3876__fire-3 {
+    transform: translateX(-67px) rotate(-12deg);
+    opacity: .8;
+}
+
+.toggle-3876 input:checked + .toggle-3876__track .toggle-3876__rune-1 {
+    transform: translateX(-102px) rotate(10deg);
+    opacity: 1;
+}
+
+.toggle-3876 input:checked + .toggle-3876__track .toggle-3876__rune-2 {
+    transform: translateX(-79px) rotate(-8deg);
+    opacity: .9;
+}
+
+.toggle-3876 input:checked + .toggle-3876__track .toggle-3876__rune-3 {
+    transform: translateX(-92px) rotate(6deg);
+    opacity: .8;
+}
+
+.toggle-3876 input:checked + .toggle-3876__track .toggle-3876__label {
+    left: 8px;
+    right: auto;
+    background: #fed7aa;
+    transform: rotate(3deg);
+}
+
+.toggle-3876 input:checked + .toggle-3876__track .toggle-3876__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3876 input:checked + .toggle-3876__track .toggle-3876__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3876 input:focus-visible + .toggle-3876__track {
+    outline: 3px solid #f97316;
+    outline-offset: 6px;
+}`,
+  },
+  {
+    id: 3877,
+    name: "Booster Gold Future Hero Toggle",
+    preview: (
+      <label
+        className="toggle-3877"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <input
+          type="checkbox"
+          defaultChecked
+          aria-label="Booster Gold Future Hero Toggle"
+        />
+
+        <span className="toggle-3877__track">
+          <span className="toggle-3877__background"></span>
+          <span className="toggle-3877__grid"></span>
+
+          <span className="toggle-3877__star toggle-3877__star-1"></span>
+          <span className="toggle-3877__star toggle-3877__star-2"></span>
+          <span className="toggle-3877__star toggle-3877__star-3"></span>
+
+          <span className="toggle-3877__time-ring">
+            <span className="toggle-3877__time-ring-inner"></span>
+            <span className="toggle-3877__time-hand toggle-3877__time-hand-1"></span>
+            <span className="toggle-3877__time-hand toggle-3877__time-hand-2"></span>
+          </span>
+
+          <span className="toggle-3877__energy toggle-3877__energy-1"></span>
+          <span className="toggle-3877__energy toggle-3877__energy-2"></span>
+          <span className="toggle-3877__energy toggle-3877__energy-3"></span>
+
+          <span className="toggle-3877__burst">
+            <span className="toggle-3877__burst-off">NOW</span>
+            <span className="toggle-3877__burst-on">FUTURE!</span>
+          </span>
+
+          <span className="toggle-3877__thumb">
+            <span className="toggle-3877__hair"></span>
+
+            <span className="toggle-3877__face">
+              <span className="toggle-3877__visor">
+                <span className="toggle-3877__visor-eye toggle-3877__visor-eye-left"></span>
+                <span className="toggle-3877__visor-eye toggle-3877__visor-eye-right"></span>
+              </span>
+
+              <span className="toggle-3877__nose"></span>
+              <span className="toggle-3877__smile"></span>
+            </span>
+
+            <span className="toggle-3877__suit">
+              <span className="toggle-3877__shoulder toggle-3877__shoulder-left"></span>
+              <span className="toggle-3877__shoulder toggle-3877__shoulder-right"></span>
+
+              <span className="toggle-3877__chest-star"></span>
+            </span>
+          </span>
+        </span>
+      </label>
+    ),
+    html: `<label class="toggle-3877">
+    <input type="checkbox" checked aria-label="Booster Gold Future Hero Toggle">
+
+    <span class="toggle-3877__track">
+        <span class="toggle-3877__background"></span>
+        <span class="toggle-3877__grid"></span>
+
+        <span class="toggle-3877__star toggle-3877__star-1"></span>
+        <span class="toggle-3877__star toggle-3877__star-2"></span>
+        <span class="toggle-3877__star toggle-3877__star-3"></span>
+
+        <span class="toggle-3877__time-ring">
+            <span class="toggle-3877__time-ring-inner"></span>
+            <span class="toggle-3877__time-hand toggle-3877__time-hand-1"></span>
+            <span class="toggle-3877__time-hand toggle-3877__time-hand-2"></span>
+        </span>
+
+        <span class="toggle-3877__energy toggle-3877__energy-1"></span>
+        <span class="toggle-3877__energy toggle-3877__energy-2"></span>
+        <span class="toggle-3877__energy toggle-3877__energy-3"></span>
+
+        <span class="toggle-3877__burst">
+            <span class="toggle-3877__burst-off">NOW</span>
+            <span class="toggle-3877__burst-on">FUTURE!</span>
+        </span>
+
+        <span class="toggle-3877__thumb">
+            <span class="toggle-3877__hair"></span>
+
+            <span class="toggle-3877__face">
+                <span class="toggle-3877__visor">
+                    <span class="toggle-3877__visor-eye toggle-3877__visor-eye-left"></span>
+                    <span class="toggle-3877__visor-eye toggle-3877__visor-eye-right"></span>
+                </span>
+
+                <span class="toggle-3877__nose"></span>
+                <span class="toggle-3877__smile"></span>
+            </span>
+
+            <span class="toggle-3877__suit">
+                <span class="toggle-3877__shoulder toggle-3877__shoulder-left"></span>
+                <span class="toggle-3877__shoulder toggle-3877__shoulder-right"></span>
+
+                <span class="toggle-3877__chest-star"></span>
+            </span>
+        </span>
+    </span>
+</label>`,
+    css: `.toggle-3877 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3877 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3877__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #09090b;
+    border-radius: 14px;
+    background: #1e3a8a;
+    box-shadow: 8px 8px 0 #09090b;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+
+.toggle-3877__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 77% 31%, rgba(250,204,21,.4), transparent 30%),
+        linear-gradient(135deg, #172554, #2563eb 48%, #ca8a04);
+    transition: filter .3s ease, transform .35s ease;
+}
+
+.toggle-3877__grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px);
+    background-size: 12px 12px;
+    opacity: .45;
+}
+
+.toggle-3877__star {
+    position: absolute;
+    z-index: 3;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #09090b;
+    background: #facc15;
+    clip-path: polygon(50% 0, 61% 34%, 100% 38%, 69% 58%, 79% 100%, 50% 75%, 21% 100%, 31% 58%, 0 38%, 39% 34%);
+    transition: transform .35s ease, opacity .3s ease;
+}
+
+.toggle-3877__star-1 {
+    right: 11px;
+    top: 9px;
+}
+
+.toggle-3877__star-2 {
+    right: 40px;
+    top: 17px;
+    transform: scale(.7) rotate(13deg);
+}
+
+.toggle-3877__star-3 {
+    right: 20px;
+    bottom: 10px;
+    transform: scale(.6) rotate(-10deg);
+}
+
+.toggle-3877__time-ring {
+    position: absolute;
+    right: 11px;
+    top: 8px;
+    z-index: 4;
+    width: 43px;
+    height: 43px;
+    border: 3px solid #facc15;
+    border-radius: 50%;
+    box-shadow: 0 0 7px rgba(250,204,21,.6);
+    transition: left .35s ease, right .35s ease, transform .45s ease, opacity .3s ease;
+}
+
+.toggle-3877__time-ring-inner {
+    position: absolute;
+    inset: 6px;
+    border: 2px dashed #fef08a;
+    border-radius: 50%;
+}
+
+.toggle-3877__time-hand {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 3px;
+    background: #ffffff;
+    transform-origin: left center;
+}
+
+.toggle-3877__time-hand-1 {
+    width: 12px;
+    transform: rotate(-40deg);
+}
+
+.toggle-3877__time-hand-2 {
+    width: 15px;
+    transform: rotate(67deg);
+}
+
+.toggle-3877__energy {
+    position: absolute;
+    z-index: 3;
+    height: 4px;
+    border: 1px solid #09090b;
+    border-radius: 999px;
+    background: #fef08a;
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3877__energy-1 {
+    right: 7px;
+    top: 13px;
+    width: 39px;
+    transform: rotate(-8deg);
+}
+
+.toggle-3877__energy-2 {
+    right: 17px;
+    top: 36px;
+    width: 51px;
+}
+
+.toggle-3877__energy-3 {
+    right: 7px;
+    bottom: 10px;
+    width: 40px;
+    transform: rotate(7deg);
+}
+
+.toggle-3877__burst {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 6;
+    width: 53px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #09090b;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #09090b;
+    clip-path: polygon(
+        50% 0,
+        61% 23%,
+        83% 5%,
+        76% 31%,
+        100% 28%,
+        82% 48%,
+        100% 64%,
+        76% 66%,
+        87% 94%,
+        61% 77%,
+        50% 100%,
+        39% 77%,
+        12% 93%,
+        24% 65%,
+        0 61%,
+        18% 48%,
+        0 28%,
+        24% 31%,
+        18% 6%,
+        39% 23%
+    );
+    transition: left .35s ease, right .35s ease, transform .3s ease, background .3s ease;
+}
+
+.toggle-3877__burst-off,
+.toggle-3877__burst-on {
+    position: absolute;
+    color: #09090b;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+
+.toggle-3877__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3877__burst-on {
+    opacity: 1;
+}
+
+.toggle-3877__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 9;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #09090b;
+    border-radius: 50%;
+    background: #facc15;
+    box-shadow: 5px 5px 0 #09090b;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+
+.toggle-3877__hair {
+    position: absolute;
+    left: 9px;
+    top: 3px;
+    z-index: 7;
+    width: 34px;
+    height: 15px;
+    border: 3px solid #09090b;
+    border-bottom: 0;
+    background: #fde047;
+    clip-path: polygon(0 100%, 7% 35%, 26% 58%, 37% 0, 51% 48%, 67% 0, 78% 60%, 94% 29%, 100% 100%);
+}
+
+.toggle-3877__face {
+    position: absolute;
+    left: 9px;
+    top: 11px;
+    z-index: 6;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    border: 3px solid #09090b;
+    border-radius: 46% 46% 48% 48%;
+    background: #f1c6a3;
+    transition: transform .35s ease;
+}
+
+.toggle-3877__visor {
+    position: absolute;
+    left: 2px;
+    top: 9px;
+    width: 26px;
+    height: 11px;
+    border: 2px solid #09090b;
+    border-radius: 999px;
+    background: #2563eb;
+}
+
+.toggle-3877__visor-eye {
+    position: absolute;
+    top: 2px;
+    width: 7px;
+    height: 5px;
+    border-radius: 50%;
+    background: #bfdbfe;
+}
+
+.toggle-3877__visor-eye-left {
+    left: 4px;
+}
+
+.toggle-3877__visor-eye-right {
+    right: 4px;
+}
+
+.toggle-3877__nose {
+    position: absolute;
+    left: 14px;
+    top: 19px;
+    width: 4px;
+    height: 5px;
+    border-radius: 50%;
+    background: #c08457;
+}
+
+.toggle-3877__smile {
+    position: absolute;
+    left: 8px;
+    bottom: 4px;
+    width: 16px;
+    height: 5px;
+    border-bottom: 3px solid #7f1d1d;
+    border-radius: 0 0 50% 50%;
+}
+
+.toggle-3877__suit {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 5;
+    width: 36px;
+    height: 14px;
+    border: 3px solid #09090b;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #1d4ed8;
+}
+
+.toggle-3877__shoulder {
+    position: absolute;
+    top: 0;
+    width: 14px;
+    height: 14px;
+    background: #facc15;
+}
+
+.toggle-3877__shoulder-left {
+    left: 0;
+    clip-path: polygon(0 0, 100% 30%, 58% 100%, 0 100%);
+}
+
+.toggle-3877__shoulder-right {
+    right: 0;
+    clip-path: polygon(100% 0, 0 30%, 42% 100%, 100% 100%);
+}
+
+.toggle-3877__chest-star {
+    position: absolute;
+    left: 50%;
+    top: 1px;
+    width: 12px;
+    height: 12px;
+    background: #facc15;
+    transform: translateX(-50%);
+    clip-path: polygon(50% 0, 61% 34%, 100% 38%, 69% 58%, 79% 100%, 50% 75%, 21% 100%, 31% 58%, 0 38%, 39% 34%);
+}
+
+.toggle-3877:hover .toggle-3877__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #09090b;
+}
+
+.toggle-3877:hover .toggle-3877__thumb {
+    transform: rotate(-7deg) scale(1.05);
+}
+
+.toggle-3877:hover .toggle-3877__time-ring {
+    transform: rotate(25deg) scale(1.08);
+}
+
+.toggle-3877 input:not(:checked) + .toggle-3877__track .toggle-3877__background {
+    filter: grayscale(.72) brightness(.64);
+}
+
+.toggle-3877 input:not(:checked) + .toggle-3877__track .toggle-3877__thumb {
+    left: 6px;
+    background: #71717a;
+}
+
+.toggle-3877 input:not(:checked) + .toggle-3877__track .toggle-3877__face {
+    transform: scale(.94);
+}
+
+.toggle-3877 input:not(:checked) + .toggle-3877__track .toggle-3877__time-ring {
+    left: 112px;
+    right: auto;
+    opacity: .2;
+    transform: rotate(-30deg) scale(.7);
+}
+
+.toggle-3877 input:not(:checked) + .toggle-3877__track .toggle-3877__star,
+.toggle-3877 input:not(:checked) + .toggle-3877__track .toggle-3877__energy {
+    opacity: .15;
+}
+
+.toggle-3877 input:not(:checked) + .toggle-3877__track .toggle-3877__burst {
+    left: 106px;
+    right: auto;
+    background: #e5e7eb;
+}
+
+.toggle-3877 input:not(:checked) + .toggle-3877__track .toggle-3877__burst-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3877 input:not(:checked) + .toggle-3877__track .toggle-3877__burst-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3877 input:checked + .toggle-3877__track .toggle-3877__background {
+    filter: saturate(1.18) brightness(1.05);
+    transform: scale(1.03);
+}
+
+.toggle-3877 input:checked + .toggle-3877__track .toggle-3877__thumb {
+    left: 102px;
+    background: #facc15;
+}
+
+.toggle-3877 input:checked + .toggle-3877__track .toggle-3877__face {
+    transform: scale(1.04);
+}
+
+.toggle-3877 input:checked + .toggle-3877__track .toggle-3877__time-ring {
+    left: 9px;
+    right: auto;
+    opacity: 1;
+    transform: rotate(180deg) scale(1);
+}
+
+.toggle-3877 input:checked + .toggle-3877__track .toggle-3877__star-1 {
+    transform: translateX(-103px) rotate(30deg);
+    opacity: 1;
+}
+
+.toggle-3877 input:checked + .toggle-3877__track .toggle-3877__star-2 {
+    transform: translateX(-78px) rotate(-25deg) scale(.8);
+    opacity: .9;
+}
+
+.toggle-3877 input:checked + .toggle-3877__track .toggle-3877__star-3 {
+    transform: translateX(-91px) rotate(20deg) scale(.7);
+    opacity: .8;
+}
+
+.toggle-3877 input:checked + .toggle-3877__track .toggle-3877__energy-1 {
+    transform: translateX(-103px) rotate(8deg);
+    opacity: 1;
+}
+
+.toggle-3877 input:checked + .toggle-3877__track .toggle-3877__energy-2 {
+    transform: translateX(-91px);
+    opacity: .9;
+}
+
+.toggle-3877 input:checked + .toggle-3877__track .toggle-3877__energy-3 {
+    transform: translateX(-103px) rotate(-7deg);
+    opacity: .82;
+}
+
+.toggle-3877 input:checked + .toggle-3877__track .toggle-3877__burst {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(3deg);
+}
+
+.toggle-3877 input:checked + .toggle-3877__track .toggle-3877__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3877 input:checked + .toggle-3877__track .toggle-3877__burst-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3877 input:focus-visible + .toggle-3877__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+  },{
+  id: 3878,
+  name: "Flash Speed Force Surge Toggle",
+  preview: (
+    <label
+      className="toggle-3878"
+      onClick={(event) => event.stopPropagation()}
+    >
+      <input
+        type="checkbox"
+        defaultChecked
+        aria-label="Flash Speed Force Surge Toggle"
+      />
+
+      <span className="toggle-3878__track">
+        <span className="toggle-3878__background"></span>
+        <span className="toggle-3878__halftone"></span>
+
+        <span className="toggle-3878__bolt toggle-3878__bolt-1"></span>
+        <span className="toggle-3878__bolt toggle-3878__bolt-2"></span>
+        <span className="toggle-3878__bolt toggle-3878__bolt-3"></span>
+
+        <span className="toggle-3878__trail toggle-3878__trail-1"></span>
+        <span className="toggle-3878__trail toggle-3878__trail-2"></span>
+        <span className="toggle-3878__trail toggle-3878__trail-3"></span>
+        <span className="toggle-3878__trail toggle-3878__trail-4"></span>
+
+        <span className="toggle-3878__vortex">
+          <span className="toggle-3878__vortex-ring toggle-3878__vortex-ring-1"></span>
+          <span className="toggle-3878__vortex-ring toggle-3878__vortex-ring-2"></span>
+          <span className="toggle-3878__vortex-ring toggle-3878__vortex-ring-3"></span>
+          <span className="toggle-3878__vortex-core"></span>
+        </span>
+
+        <span className="toggle-3878__burst">
+          <span className="toggle-3878__burst-off">READY</span>
+          <span className="toggle-3878__burst-on">RUN!</span>
+        </span>
+
+        <span className="toggle-3878__thumb">
+          <span className="toggle-3878__ear-bolt toggle-3878__ear-bolt-left"></span>
+          <span className="toggle-3878__ear-bolt toggle-3878__ear-bolt-right"></span>
+
+          <span className="toggle-3878__mask">
+            <span className="toggle-3878__eye toggle-3878__eye-left"></span>
+            <span className="toggle-3878__eye toggle-3878__eye-right"></span>
+            <span className="toggle-3878__mouth"></span>
+          </span>
+
+          <span className="toggle-3878__suit">
+            <span className="toggle-3878__emblem">
+              <span className="toggle-3878__emblem-bolt"></span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </label>
+  ),
+  html: `<label class="toggle-3878">
+    <input type="checkbox" checked aria-label="Flash Speed Force Surge Toggle">
+
+    <span class="toggle-3878__track">
+        <span class="toggle-3878__background"></span>
+        <span class="toggle-3878__halftone"></span>
+
+        <span class="toggle-3878__bolt toggle-3878__bolt-1"></span>
+        <span class="toggle-3878__bolt toggle-3878__bolt-2"></span>
+        <span class="toggle-3878__bolt toggle-3878__bolt-3"></span>
+
+        <span class="toggle-3878__trail toggle-3878__trail-1"></span>
+        <span class="toggle-3878__trail toggle-3878__trail-2"></span>
+        <span class="toggle-3878__trail toggle-3878__trail-3"></span>
+        <span class="toggle-3878__trail toggle-3878__trail-4"></span>
+
+        <span class="toggle-3878__vortex">
+            <span class="toggle-3878__vortex-ring toggle-3878__vortex-ring-1"></span>
+            <span class="toggle-3878__vortex-ring toggle-3878__vortex-ring-2"></span>
+            <span class="toggle-3878__vortex-ring toggle-3878__vortex-ring-3"></span>
+            <span class="toggle-3878__vortex-core"></span>
+        </span>
+
+        <span class="toggle-3878__burst">
+            <span class="toggle-3878__burst-off">READY</span>
+            <span class="toggle-3878__burst-on">RUN!</span>
+        </span>
+
+        <span class="toggle-3878__thumb">
+            <span class="toggle-3878__ear-bolt toggle-3878__ear-bolt-left"></span>
+            <span class="toggle-3878__ear-bolt toggle-3878__ear-bolt-right"></span>
+
+            <span class="toggle-3878__mask">
+                <span class="toggle-3878__eye toggle-3878__eye-left"></span>
+                <span class="toggle-3878__eye toggle-3878__eye-right"></span>
+                <span class="toggle-3878__mouth"></span>
+            </span>
+
+            <span class="toggle-3878__suit">
+                <span class="toggle-3878__emblem">
+                    <span class="toggle-3878__emblem-bolt"></span>
+                </span>
+            </span>
+        </span>
+    </span>
+</label>`,
+  css: `.toggle-3878 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3878 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3878__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 14px;
+    background: #991b1b;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease, background .3s ease;
+}
+
+.toggle-3878__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 77% 31%, rgba(250,204,21,.48), transparent 30%),
+        linear-gradient(135deg, #7f1d1d, #dc2626 50%, #f59e0b);
+    transition: filter .3s ease, transform .35s ease;
+}
+
+.toggle-3878__halftone {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(17,17,17,.48) 1.3px, transparent 1.6px);
+    background-size: 8px 8px;
+    opacity: .24;
+}
+
+.toggle-3878__bolt {
+    position: absolute;
+    z-index: 4;
+    border: 3px solid #111111;
+    background: #fde047;
+    clip-path: polygon(
+        45% 0,
+        100% 0,
+        65% 39%,
+        100% 39%,
+        24% 100%,
+        45% 55%,
+        0 55%
+    );
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3878__bolt-1 {
+    right: 8px;
+    top: 8px;
+    width: 25px;
+    height: 43px;
+    transform: rotate(7deg);
+}
+
+.toggle-3878__bolt-2 {
+    right: 37px;
+    top: 15px;
+    width: 19px;
+    height: 32px;
+    transform: rotate(-11deg);
+}
+
+.toggle-3878__bolt-3 {
+    right: 62px;
+    top: 7px;
+    width: 14px;
+    height: 25px;
+    transform: rotate(13deg);
+}
+
+.toggle-3878__trail {
+    position: absolute;
+    z-index: 3;
+    height: 4px;
+    border: 1px solid #111111;
+    border-radius: 999px;
+    background: #fef08a;
+    box-shadow: 0 0 5px rgba(250,204,21,.6);
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3878__trail-1 {
+    right: 5px;
+    top: 11px;
+    width: 47px;
+    transform: rotate(-7deg);
+}
+
+.toggle-3878__trail-2 {
+    right: 17px;
+    top: 28px;
+    width: 59px;
+}
+
+.toggle-3878__trail-3 {
+    right: 8px;
+    top: 45px;
+    width: 52px;
+    transform: rotate(6deg);
+}
+
+.toggle-3878__trail-4 {
+    right: 22px;
+    bottom: 8px;
+    width: 41px;
+    transform: rotate(-5deg);
+}
+
+.toggle-3878__vortex {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    z-index: 5;
+    width: 45px;
+    height: 45px;
+    transition: left .35s ease, right .35s ease, transform .45s ease, opacity .3s ease;
+}
+
+.toggle-3878__vortex-ring {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 2px solid #fde047;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 4px #facc15;
+}
+
+.toggle-3878__vortex-ring-1 {
+    width: 42px;
+    height: 42px;
+}
+
+.toggle-3878__vortex-ring-2 {
+    width: 29px;
+    height: 29px;
+}
+
+.toggle-3878__vortex-ring-3 {
+    width: 17px;
+    height: 17px;
+}
+
+.toggle-3878__vortex-core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3878__burst {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 7;
+    width: 51px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    clip-path: polygon(
+        50% 0,
+        61% 22%,
+        84% 5%,
+        77% 31%,
+        100% 28%,
+        82% 48%,
+        100% 64%,
+        76% 66%,
+        87% 94%,
+        61% 77%,
+        50% 100%,
+        39% 77%,
+        12% 93%,
+        24% 65%,
+        0 61%,
+        18% 48%,
+        0 28%,
+        24% 31%,
+        18% 6%,
+        39% 22%
+    );
+    transition: left .35s ease, right .35s ease, background .3s ease, transform .3s ease;
+}
+
+.toggle-3878__burst-off,
+.toggle-3878__burst-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+
+.toggle-3878__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3878__burst-on {
+    opacity: 1;
+}
+
+.toggle-3878__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 10;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #dc2626;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease, background .3s ease;
+}
+
+.toggle-3878__ear-bolt {
+    position: absolute;
+    top: 9px;
+    z-index: 8;
+    width: 14px;
+    height: 20px;
+    border: 2px solid #111111;
+    background: #fde047;
+    clip-path: polygon(48% 0, 100% 0, 65% 42%, 100% 42%, 25% 100%, 45% 56%, 0 56%);
+}
+
+.toggle-3878__ear-bolt-left {
+    left: -7px;
+    transform: rotate(7deg);
+}
+
+.toggle-3878__ear-bolt-right {
+    right: -7px;
+    transform: scaleX(-1) rotate(7deg);
+}
+
+.toggle-3878__mask {
+    position: absolute;
+    left: 9px;
+    top: 6px;
+    z-index: 6;
+    width: 34px;
+    height: 37px;
+    overflow: hidden;
+    border: 3px solid #111111;
+    border-radius: 47% 47% 44% 44%;
+    background: #dc2626;
+    transition: transform .35s ease, background .3s ease;
+}
+
+.toggle-3878__mask::before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    top: 0;
+    height: 18px;
+    background: #b91c1c;
+    clip-path: polygon(0 0, 100% 0, 83% 100%, 66% 60%, 50% 88%, 34% 60%, 17% 100%);
+}
+
+.toggle-3878__eye {
+    position: absolute;
+    top: 13px;
+    z-index: 4;
+    width: 8px;
+    height: 6px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.toggle-3878__eye-left {
+    left: 5px;
+}
+
+.toggle-3878__eye-right {
+    right: 5px;
+}
+
+.toggle-3878__mouth {
+    position: absolute;
+    left: 9px;
+    bottom: 5px;
+    width: 14px;
+    height: 5px;
+    border-bottom: 3px solid #111111;
+    border-radius: 0 0 50% 50%;
+}
+
+.toggle-3878__suit {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 5;
+    width: 36px;
+    height: 14px;
+    border: 3px solid #111111;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background: #b91c1c;
+}
+
+.toggle-3878__emblem {
+    position: absolute;
+    left: 50%;
+    top: 1px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: translateX(-50%);
+}
+
+.toggle-3878__emblem-bolt {
+    position: absolute;
+    left: 3px;
+    top: 1px;
+    width: 6px;
+    height: 9px;
+    background: #facc15;
+    clip-path: polygon(50% 0, 100% 0, 65% 40%, 100% 40%, 25% 100%, 45% 55%, 0 55%);
+}
+
+.toggle-3878:hover .toggle-3878__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3878:hover .toggle-3878__thumb {
+    transform: rotate(-8deg) scale(1.05);
+}
+
+.toggle-3878:hover .toggle-3878__vortex {
+    transform: rotate(28deg) scale(1.08);
+}
+
+.toggle-3878 input:not(:checked) + .toggle-3878__track .toggle-3878__background {
+    filter: grayscale(.7) brightness(.66);
+}
+
+.toggle-3878 input:not(:checked) + .toggle-3878__track .toggle-3878__thumb {
+    left: 6px;
+    background: #71717a;
+}
+
+.toggle-3878 input:not(:checked) + .toggle-3878__track .toggle-3878__mask {
+    background: #71717a;
+    transform: scale(.94);
+}
+
+.toggle-3878 input:not(:checked) + .toggle-3878__track .toggle-3878__ear-bolt {
+    background: #a1a1aa;
+}
+
+.toggle-3878 input:not(:checked) + .toggle-3878__track .toggle-3878__bolt,
+.toggle-3878 input:not(:checked) + .toggle-3878__track .toggle-3878__trail {
+    opacity: .15;
+}
+
+.toggle-3878 input:not(:checked) + .toggle-3878__track .toggle-3878__vortex {
+    left: 111px;
+    right: auto;
+    opacity: .2;
+    transform: rotate(-24deg) scale(.7);
+}
+
+.toggle-3878 input:not(:checked) + .toggle-3878__track .toggle-3878__burst {
+    left: 106px;
+    right: auto;
+    background: #e5e7eb;
+}
+
+.toggle-3878 input:not(:checked) + .toggle-3878__track .toggle-3878__burst-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3878 input:not(:checked) + .toggle-3878__track .toggle-3878__burst-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3878 input:checked + .toggle-3878__track .toggle-3878__background {
+    filter: saturate(1.2) brightness(1.05);
+    transform: scale(1.03);
+}
+
+.toggle-3878 input:checked + .toggle-3878__track .toggle-3878__thumb {
+    left: 102px;
+    background: #dc2626;
+}
+
+.toggle-3878 input:checked + .toggle-3878__track .toggle-3878__mask {
+    background: #dc2626;
+    transform: scale(1.04);
+}
+
+.toggle-3878 input:checked + .toggle-3878__track .toggle-3878__vortex {
+    left: 8px;
+    right: auto;
+    opacity: 1;
+    transform: rotate(180deg) scale(1);
+}
+
+.toggle-3878 input:checked + .toggle-3878__track .toggle-3878__bolt-1 {
+    transform: translateX(-104px) rotate(-7deg);
+    opacity: 1;
+}
+
+.toggle-3878 input:checked + .toggle-3878__track .toggle-3878__bolt-2 {
+    transform: translateX(-87px) rotate(11deg);
+    opacity: .9;
+}
+
+.toggle-3878 input:checked + .toggle-3878__track .toggle-3878__bolt-3 {
+    transform: translateX(-66px) rotate(-13deg);
+    opacity: .8;
+}
+
+.toggle-3878 input:checked + .toggle-3878__track .toggle-3878__trail-1 {
+    transform: translateX(-104px) rotate(7deg);
+    opacity: 1;
+}
+
+.toggle-3878 input:checked + .toggle-3878__track .toggle-3878__trail-2 {
+    transform: translateX(-91px);
+    opacity: .9;
+}
+
+.toggle-3878 input:checked + .toggle-3878__track .toggle-3878__trail-3 {
+    transform: translateX(-102px) rotate(-6deg);
+    opacity: .85;
+}
+
+.toggle-3878 input:checked + .toggle-3878__track .toggle-3878__trail-4 {
+    transform: translateX(-89px) rotate(5deg);
+    opacity: .8;
+}
+
+.toggle-3878 input:checked + .toggle-3878__track .toggle-3878__burst {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(3deg);
+}
+
+.toggle-3878 input:checked + .toggle-3878__track .toggle-3878__burst-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3878 input:checked + .toggle-3878__track .toggle-3878__burst-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3878 input:focus-visible + .toggle-3878__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+},
+{
+  id: 3879,
+  name: "Flash Lightning Dash Toggle",
+  preview: (
+    <label
+      className="toggle-3879"
+      onClick={(event) => event.stopPropagation()}
+    >
+      <input
+        type="checkbox"
+        aria-label="Flash Lightning Dash Toggle"
+      />
+
+      <span className="toggle-3879__track">
+        <span className="toggle-3879__background"></span>
+
+        <span className="toggle-3879__city">
+          <span className="toggle-3879__building toggle-3879__building-1"></span>
+          <span className="toggle-3879__building toggle-3879__building-2"></span>
+          <span className="toggle-3879__building toggle-3879__building-3"></span>
+          <span className="toggle-3879__building toggle-3879__building-4"></span>
+        </span>
+
+        <span className="toggle-3879__road"></span>
+
+        <span className="toggle-3879__dash toggle-3879__dash-1"></span>
+        <span className="toggle-3879__dash toggle-3879__dash-2"></span>
+        <span className="toggle-3879__dash toggle-3879__dash-3"></span>
+        <span className="toggle-3879__dash toggle-3879__dash-4"></span>
+
+        <span className="toggle-3879__lightning">
+          <span className="toggle-3879__lightning-core"></span>
+        </span>
+
+        <span className="toggle-3879__label">
+          <span className="toggle-3879__label-off">STOP</span>
+          <span className="toggle-3879__label-on">DASH!</span>
+        </span>
+
+        <span className="toggle-3879__thumb">
+          <span className="toggle-3879__ear toggle-3879__ear-left"></span>
+          <span className="toggle-3879__ear toggle-3879__ear-right"></span>
+
+          <span className="toggle-3879__mask">
+            <span className="toggle-3879__eye toggle-3879__eye-left"></span>
+            <span className="toggle-3879__eye toggle-3879__eye-right"></span>
+            <span className="toggle-3879__smile"></span>
+          </span>
+
+          <span className="toggle-3879__suit">
+            <span className="toggle-3879__chest">
+              <span className="toggle-3879__chest-bolt"></span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </label>
+  ),
+  html: `<label class="toggle-3879">
+    <input type="checkbox" aria-label="Flash Lightning Dash Toggle">
+
+    <span class="toggle-3879__track">
+        <span class="toggle-3879__background"></span>
+
+        <span class="toggle-3879__city">
+            <span class="toggle-3879__building toggle-3879__building-1"></span>
+            <span class="toggle-3879__building toggle-3879__building-2"></span>
+            <span class="toggle-3879__building toggle-3879__building-3"></span>
+            <span class="toggle-3879__building toggle-3879__building-4"></span>
+        </span>
+
+        <span class="toggle-3879__road"></span>
+
+        <span class="toggle-3879__dash toggle-3879__dash-1"></span>
+        <span class="toggle-3879__dash toggle-3879__dash-2"></span>
+        <span class="toggle-3879__dash toggle-3879__dash-3"></span>
+        <span class="toggle-3879__dash toggle-3879__dash-4"></span>
+
+        <span class="toggle-3879__lightning">
+            <span class="toggle-3879__lightning-core"></span>
+        </span>
+
+        <span class="toggle-3879__label">
+            <span class="toggle-3879__label-off">STOP</span>
+            <span class="toggle-3879__label-on">DASH!</span>
+        </span>
+
+        <span class="toggle-3879__thumb">
+            <span class="toggle-3879__ear toggle-3879__ear-left"></span>
+            <span class="toggle-3879__ear toggle-3879__ear-right"></span>
+
+            <span class="toggle-3879__mask">
+                <span class="toggle-3879__eye toggle-3879__eye-left"></span>
+                <span class="toggle-3879__eye toggle-3879__eye-right"></span>
+                <span class="toggle-3879__smile"></span>
+            </span>
+
+            <span class="toggle-3879__suit">
+                <span class="toggle-3879__chest">
+                    <span class="toggle-3879__chest-bolt"></span>
+                </span>
+            </span>
+        </span>
+    </span>
+</label>`,
+  css: `.toggle-3879 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3879 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3879__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 14px;
+    background: #172554;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.toggle-3879__background {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, #1e3a8a 0 55%, #111827 55% 100%);
+    transition: filter .3s ease;
+}
+
+.toggle-3879__city {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+}
+
+.toggle-3879__building {
+    position: absolute;
+    bottom: 18px;
+    border: 2px solid #111111;
+    background: #1f2937;
+    transition: transform .4s ease;
+}
+
+.toggle-3879__building::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    background-image: radial-gradient(#fde047 1.3px, transparent 1.5px);
+    background-size: 8px 8px;
+}
+
+.toggle-3879__building-1 {
+    left: -4px;
+    width: 34px;
+    height: 32px;
+}
+
+.toggle-3879__building-2 {
+    left: 27px;
+    width: 33px;
+    height: 43px;
+}
+
+.toggle-3879__building-3 {
+    left: 57px;
+    width: 36px;
+    height: 28px;
+}
+
+.toggle-3879__building-4 {
+    left: 90px;
+    width: 30px;
+    height: 38px;
+}
+
+.toggle-3879__road {
+    position: absolute;
+    left: -8px;
+    right: -8px;
+    bottom: 0;
+    z-index: 3;
+    height: 22px;
+    border-top: 3px solid #111111;
+    background:
+        linear-gradient(
+            90deg,
+            transparent 0 10%,
+            #facc15 10% 20%,
+            transparent 20% 35%,
+            #facc15 35% 45%,
+            transparent 45% 60%,
+            #facc15 60% 70%,
+            transparent 70% 85%,
+            #facc15 85% 95%,
+            transparent 95%
+        ),
+        #374151;
+    transition: transform .4s ease;
+}
+
+.toggle-3879__dash {
+    position: absolute;
+    z-index: 5;
+    height: 4px;
+    border-radius: 999px;
+    border: 1px solid #111111;
+    background: #fde047;
+    box-shadow: 0 0 5px #facc15;
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3879__dash-1 {
+    right: 7px;
+    top: 10px;
+    width: 43px;
+}
+
+.toggle-3879__dash-2 {
+    right: 19px;
+    top: 25px;
+    width: 55px;
+}
+
+.toggle-3879__dash-3 {
+    right: 6px;
+    top: 40px;
+    width: 48px;
+}
+
+.toggle-3879__dash-4 {
+    right: 20px;
+    bottom: 10px;
+    width: 38px;
+}
+
+.toggle-3879__lightning {
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    z-index: 6;
+    width: 35px;
+    height: 46px;
+    border: 3px solid #111111;
+    background: #facc15;
+    clip-path: polygon(45% 0, 100% 0, 66% 39%, 100% 39%, 25% 100%, 45% 55%, 0 55%);
+    transition: left .35s ease, right .35s ease, transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3879__lightning-core {
+    position: absolute;
+    left: 12px;
+    top: 8px;
+    width: 7px;
+    height: 20px;
+    background: #fff7ed;
+    clip-path: inherit;
+}
+
+.toggle-3879__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 7;
+    width: 50px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transition: left .35s ease, right .35s ease, background .3s ease;
+}
+
+.toggle-3879__label-off,
+.toggle-3879__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+
+.toggle-3879__label-off {
+    opacity: 1;
+}
+
+.toggle-3879__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3879__thumb {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    z-index: 10;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #dc2626;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease;
+}
+
+.toggle-3879__ear {
+    position: absolute;
+    top: 9px;
+    z-index: 8;
+    width: 14px;
+    height: 20px;
+    border: 2px solid #111111;
+    background: #fde047;
+    clip-path: polygon(48% 0, 100% 0, 65% 42%, 100% 42%, 25% 100%, 45% 56%, 0 56%);
+}
+
+.toggle-3879__ear-left {
+    left: -7px;
+}
+
+.toggle-3879__ear-right {
+    right: -7px;
+    transform: scaleX(-1);
+}
+
+.toggle-3879__mask {
+    position: absolute;
+    left: 9px;
+    top: 6px;
+    z-index: 6;
+    width: 34px;
+    height: 37px;
+    border: 3px solid #111111;
+    border-radius: 47%;
+    background: #dc2626;
+}
+
+.toggle-3879__eye {
+    position: absolute;
+    top: 13px;
+    width: 8px;
+    height: 6px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.toggle-3879__eye-left {
+    left: 5px;
+}
+
+.toggle-3879__eye-right {
+    right: 5px;
+}
+
+.toggle-3879__smile {
+    position: absolute;
+    left: 9px;
+    bottom: 5px;
+    width: 14px;
+    height: 5px;
+    border-bottom: 3px solid #111111;
+}
+
+.toggle-3879__suit {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 5;
+    width: 36px;
+    height: 14px;
+    border: 3px solid #111111;
+    border-top: 0;
+    background: #b91c1c;
+}
+
+.toggle-3879__chest {
+    position: absolute;
+    left: 50%;
+    top: 1px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: translateX(-50%);
+}
+
+.toggle-3879__chest-bolt {
+    position: absolute;
+    left: 3px;
+    top: 1px;
+    width: 6px;
+    height: 9px;
+    background: #facc15;
+    clip-path: polygon(50% 0, 100% 0, 65% 40%, 100% 40%, 25% 100%, 45% 55%, 0 55%);
+}
+
+.toggle-3879:hover .toggle-3879__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3879:hover .toggle-3879__thumb {
+    transform: rotate(-7deg) scale(1.05);
+}
+
+.toggle-3879 input:not(:checked) + .toggle-3879__track .toggle-3879__background {
+    filter: grayscale(.65) brightness(.7);
+}
+
+.toggle-3879 input:not(:checked) + .toggle-3879__track .toggle-3879__dash {
+    opacity: .18;
+}
+
+.toggle-3879 input:not(:checked) + .toggle-3879__track .toggle-3879__lightning {
+    right: 12px;
+    opacity: .3;
+    transform: scale(.75);
+}
+
+.toggle-3879 input:not(:checked) + .toggle-3879__track .toggle-3879__label {
+    right: 7px;
+    background: #e5e7eb;
+}
+
+.toggle-3879 input:not(:checked) + .toggle-3879__track .toggle-3879__label-off {
+    opacity: 1;
+}
+
+.toggle-3879 input:not(:checked) + .toggle-3879__track .toggle-3879__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3879 input:checked + .toggle-3879__track .toggle-3879__thumb {
+    left: 102px;
+}
+
+.toggle-3879 input:checked + .toggle-3879__track .toggle-3879__road {
+    transform: translateX(-36px);
+}
+
+.toggle-3879 input:checked + .toggle-3879__track .toggle-3879__building-1 {
+    transform: translateX(-25px);
+}
+
+.toggle-3879 input:checked + .toggle-3879__track .toggle-3879__building-2 {
+    transform: translateX(-40px);
+}
+
+.toggle-3879 input:checked + .toggle-3879__track .toggle-3879__building-3 {
+    transform: translateX(-55px);
+}
+
+.toggle-3879 input:checked + .toggle-3879__track .toggle-3879__building-4 {
+    transform: translateX(-70px);
+}
+
+.toggle-3879 input:checked + .toggle-3879__track .toggle-3879__lightning {
+    left: 10px;
+    right: auto;
+    opacity: 1;
+    transform: rotate(-8deg) scale(1);
+}
+
+.toggle-3879 input:checked + .toggle-3879__track .toggle-3879__dash-1 {
+    transform: translateX(-103px);
+    opacity: 1;
+}
+
+.toggle-3879 input:checked + .toggle-3879__track .toggle-3879__dash-2 {
+    transform: translateX(-91px);
+    opacity: .9;
+}
+
+.toggle-3879 input:checked + .toggle-3879__track .toggle-3879__dash-3 {
+    transform: translateX(-103px);
+    opacity: .85;
+}
+
+.toggle-3879 input:checked + .toggle-3879__track .toggle-3879__dash-4 {
+    transform: translateX(-89px);
+    opacity: .8;
+}
+
+.toggle-3879 input:checked + .toggle-3879__track .toggle-3879__label {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+}
+
+.toggle-3879 input:checked + .toggle-3879__track .toggle-3879__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3879 input:checked + .toggle-3879__track .toggle-3879__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3879 input:focus-visible + .toggle-3879__track {
+    outline: 3px solid #facc15;
+    outline-offset: 6px;
+}`,
+},
+{
+  id: 3880,
+  name: "Flash Time Travel Toggle",
+  preview: (
+    <label
+      className="toggle-3880"
+      onClick={(event) => event.stopPropagation()}
+    >
+      <input
+        type="checkbox"
+        defaultChecked
+        aria-label="Flash Time Travel Toggle"
+      />
+
+      <span className="toggle-3880__track">
+        <span className="toggle-3880__background"></span>
+
+        <span className="toggle-3880__portal">
+          <span className="toggle-3880__portal-ring toggle-3880__portal-ring-1"></span>
+          <span className="toggle-3880__portal-ring toggle-3880__portal-ring-2"></span>
+          <span className="toggle-3880__portal-ring toggle-3880__portal-ring-3"></span>
+          <span className="toggle-3880__portal-core"></span>
+        </span>
+
+        <span className="toggle-3880__clock">
+          <span className="toggle-3880__clock-hand toggle-3880__clock-hand-1"></span>
+          <span className="toggle-3880__clock-hand toggle-3880__clock-hand-2"></span>
+        </span>
+
+        <span className="toggle-3880__year toggle-3880__year-past">2000</span>
+        <span className="toggle-3880__year toggle-3880__year-future">2099</span>
+
+        <span className="toggle-3880__bolt toggle-3880__bolt-1"></span>
+        <span className="toggle-3880__bolt toggle-3880__bolt-2"></span>
+
+        <span className="toggle-3880__label">
+          <span className="toggle-3880__label-off">NOW</span>
+          <span className="toggle-3880__label-on">TIME!</span>
+        </span>
+
+        <span className="toggle-3880__thumb">
+          <span className="toggle-3880__ear toggle-3880__ear-left"></span>
+          <span className="toggle-3880__ear toggle-3880__ear-right"></span>
+
+          <span className="toggle-3880__mask">
+            <span className="toggle-3880__eye toggle-3880__eye-left"></span>
+            <span className="toggle-3880__eye toggle-3880__eye-right"></span>
+            <span className="toggle-3880__mouth"></span>
+          </span>
+
+          <span className="toggle-3880__suit">
+            <span className="toggle-3880__emblem">
+              <span className="toggle-3880__emblem-bolt"></span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </label>
+  ),
+  html: `<label class="toggle-3880">
+    <input type="checkbox" checked aria-label="Flash Time Travel Toggle">
+
+    <span class="toggle-3880__track">
+        <span class="toggle-3880__background"></span>
+
+        <span class="toggle-3880__portal">
+            <span class="toggle-3880__portal-ring toggle-3880__portal-ring-1"></span>
+            <span class="toggle-3880__portal-ring toggle-3880__portal-ring-2"></span>
+            <span class="toggle-3880__portal-ring toggle-3880__portal-ring-3"></span>
+            <span class="toggle-3880__portal-core"></span>
+        </span>
+
+        <span class="toggle-3880__clock">
+            <span class="toggle-3880__clock-hand toggle-3880__clock-hand-1"></span>
+            <span class="toggle-3880__clock-hand toggle-3880__clock-hand-2"></span>
+        </span>
+
+        <span class="toggle-3880__year toggle-3880__year-past">2000</span>
+        <span class="toggle-3880__year toggle-3880__year-future">2099</span>
+
+        <span class="toggle-3880__bolt toggle-3880__bolt-1"></span>
+        <span class="toggle-3880__bolt toggle-3880__bolt-2"></span>
+
+        <span class="toggle-3880__label">
+            <span class="toggle-3880__label-off">NOW</span>
+            <span class="toggle-3880__label-on">TIME!</span>
+        </span>
+
+        <span class="toggle-3880__thumb">
+            <span class="toggle-3880__ear toggle-3880__ear-left"></span>
+            <span class="toggle-3880__ear toggle-3880__ear-right"></span>
+
+            <span class="toggle-3880__mask">
+                <span class="toggle-3880__eye toggle-3880__eye-left"></span>
+                <span class="toggle-3880__eye toggle-3880__eye-right"></span>
+                <span class="toggle-3880__mouth"></span>
+            </span>
+
+            <span class="toggle-3880__suit">
+                <span class="toggle-3880__emblem">
+                    <span class="toggle-3880__emblem-bolt"></span>
+                </span>
+            </span>
+        </span>
+    </span>
+</label>`,
+  css: `.toggle-3880 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3880 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3880__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 14px;
+    background: #3b0764;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.toggle-3880__background {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 76% 32%, rgba(250,204,21,.35), transparent 30%),
+        linear-gradient(135deg, #312e81, #7e22ce 48%, #dc2626);
+    transition: filter .3s ease;
+}
+
+.toggle-3880__portal {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    z-index: 4;
+    width: 45px;
+    height: 45px;
+    transition: left .35s ease, right .35s ease, transform .5s ease;
+}
+
+.toggle-3880__portal-ring {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.toggle-3880__portal-ring-1 {
+    width: 43px;
+    height: 43px;
+    border: 3px solid #facc15;
+}
+
+.toggle-3880__portal-ring-2 {
+    width: 31px;
+    height: 31px;
+    border: 3px dashed #fde047;
+}
+
+.toggle-3880__portal-ring-3 {
+    width: 19px;
+    height: 19px;
+    border: 2px solid #ffffff;
+}
+
+.toggle-3880__portal-core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ef4444;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 7px #ef4444;
+}
+
+.toggle-3880__clock {
+    position: absolute;
+    right: 47px;
+    top: 11px;
+    z-index: 4;
+    width: 37px;
+    height: 37px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #fef3c7;
+    box-shadow: 3px 3px 0 #111111;
+    transition: left .35s ease, right .35s ease, transform .5s ease;
+}
+
+.toggle-3880__clock::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border: 2px dashed #dc2626;
+    border-radius: 50%;
+}
+
+.toggle-3880__clock-hand {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 3px;
+    background: #111111;
+    transform-origin: left center;
+}
+
+.toggle-3880__clock-hand-1 {
+    width: 10px;
+    transform: rotate(35deg);
+}
+
+.toggle-3880__clock-hand-2 {
+    width: 13px;
+    transform: rotate(-85deg);
+}
+
+.toggle-3880__year {
+    position: absolute;
+    z-index: 5;
+    font: 900 8px/1 Arial Black, Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 0 #111111;
+    transition: transform .35s ease, opacity .3s ease;
+}
+
+.toggle-3880__year-past {
+    right: 45px;
+    bottom: 9px;
+}
+
+.toggle-3880__year-future {
+    right: 8px;
+    bottom: 9px;
+    color: #fde047;
+}
+
+.toggle-3880__bolt {
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 32px;
+    border: 2px solid #111111;
+    background: #facc15;
+    clip-path: polygon(45% 0, 100% 0, 65% 40%, 100% 40%, 25% 100%, 45% 55%, 0 55%);
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3880__bolt-1 {
+    right: 8px;
+    top: 9px;
+}
+
+.toggle-3880__bolt-2 {
+    right: 72px;
+    bottom: 8px;
+    transform: rotate(-13deg) scale(.7);
+}
+
+.toggle-3880__label {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 7;
+    width: 50px;
+    height: 21px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transition: left .35s ease, right .35s ease, background .3s ease;
+}
+
+.toggle-3880__label-off,
+.toggle-3880__label-on {
+    position: absolute;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+
+.toggle-3880__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3880__label-on {
+    opacity: 1;
+}
+
+.toggle-3880__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 10;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #dc2626;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease;
+}
+
+.toggle-3880__ear {
+    position: absolute;
+    top: 9px;
+    z-index: 8;
+    width: 14px;
+    height: 20px;
+    border: 2px solid #111111;
+    background: #fde047;
+    clip-path: polygon(48% 0, 100% 0, 65% 42%, 100% 42%, 25% 100%, 45% 56%, 0 56%);
+}
+
+.toggle-3880__ear-left {
+    left: -7px;
+}
+
+.toggle-3880__ear-right {
+    right: -7px;
+    transform: scaleX(-1);
+}
+
+.toggle-3880__mask {
+    position: absolute;
+    left: 9px;
+    top: 6px;
+    width: 34px;
+    height: 37px;
+    border: 3px solid #111111;
+    border-radius: 47%;
+    background: #dc2626;
+}
+
+.toggle-3880__eye {
+    position: absolute;
+    top: 13px;
+    width: 8px;
+    height: 6px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.toggle-3880__eye-left {
+    left: 5px;
+}
+
+.toggle-3880__eye-right {
+    right: 5px;
+}
+
+.toggle-3880__mouth {
+    position: absolute;
+    left: 9px;
+    bottom: 5px;
+    width: 14px;
+    height: 5px;
+    border-bottom: 3px solid #111111;
+}
+
+.toggle-3880__suit {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    width: 36px;
+    height: 14px;
+    border: 3px solid #111111;
+    border-top: 0;
+    background: #b91c1c;
+}
+
+.toggle-3880__emblem {
+    position: absolute;
+    left: 50%;
+    top: 1px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: translateX(-50%);
+}
+
+.toggle-3880__emblem-bolt {
+    position: absolute;
+    left: 3px;
+    top: 1px;
+    width: 6px;
+    height: 9px;
+    background: #facc15;
+    clip-path: polygon(50% 0, 100% 0, 65% 40%, 100% 40%, 25% 100%, 45% 55%, 0 55%);
+}
+
+.toggle-3880:hover .toggle-3880__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3880:hover .toggle-3880__thumb {
+    transform: rotate(-7deg) scale(1.05);
+}
+
+.toggle-3880:hover .toggle-3880__portal {
+    transform: rotate(25deg) scale(1.08);
+}
+
+.toggle-3880 input:not(:checked) + .toggle-3880__track .toggle-3880__background {
+    filter: grayscale(.7) brightness(.67);
+}
+
+.toggle-3880 input:not(:checked) + .toggle-3880__track .toggle-3880__thumb {
+    left: 6px;
+    background: #71717a;
+}
+
+.toggle-3880 input:not(:checked) + .toggle-3880__track .toggle-3880__portal {
+    left: 111px;
+    right: auto;
+    opacity: .25;
+    transform: rotate(-20deg) scale(.7);
+}
+
+.toggle-3880 input:not(:checked) + .toggle-3880__track .toggle-3880__clock {
+    right: 47px;
+    transform: rotate(0deg) scale(.8);
+    opacity: .4;
+}
+
+.toggle-3880 input:not(:checked) + .toggle-3880__track .toggle-3880__year-future {
+    opacity: .15;
+}
+
+.toggle-3880 input:not(:checked) + .toggle-3880__track .toggle-3880__bolt {
+    opacity: .15;
+}
+
+.toggle-3880 input:not(:checked) + .toggle-3880__track .toggle-3880__label {
+    left: 106px;
+    right: auto;
+    background: #e5e7eb;
+}
+
+.toggle-3880 input:not(:checked) + .toggle-3880__track .toggle-3880__label-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3880 input:not(:checked) + .toggle-3880__track .toggle-3880__label-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3880 input:checked + .toggle-3880__track .toggle-3880__thumb {
+    left: 102px;
+}
+
+.toggle-3880 input:checked + .toggle-3880__track .toggle-3880__portal {
+    left: 8px;
+    right: auto;
+    opacity: 1;
+    transform: rotate(180deg) scale(1);
+}
+
+.toggle-3880 input:checked + .toggle-3880__track .toggle-3880__clock {
+    left: 50px;
+    right: auto;
+    transform: rotate(-180deg) scale(1);
+    opacity: 1;
+}
+
+.toggle-3880 input:checked + .toggle-3880__track .toggle-3880__year-past {
+    transform: translateX(82px);
+    opacity: .2;
+}
+
+.toggle-3880 input:checked + .toggle-3880__track .toggle-3880__year-future {
+    transform: translateX(-96px);
+    opacity: 1;
+}
+
+.toggle-3880 input:checked + .toggle-3880__track .toggle-3880__bolt-1 {
+    transform: translateX(-104px) rotate(10deg);
+    opacity: 1;
+}
+
+.toggle-3880 input:checked + .toggle-3880__track .toggle-3880__bolt-2 {
+    transform: translateX(-55px) rotate(13deg) scale(.85);
+    opacity: .8;
+}
+
+.toggle-3880 input:checked + .toggle-3880__track .toggle-3880__label {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+}
+
+.toggle-3880 input:checked + .toggle-3880__track .toggle-3880__label-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3880 input:checked + .toggle-3880__track .toggle-3880__label-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3880 input:focus-visible + .toggle-3880__track {
+    outline: 3px solid #fde047;
+    outline-offset: 6px;
+}`,
+},
+{
+  id: 3881,
+  name: "Flash Central City Rescue Toggle",
+  preview: (
+    <label
+      className="toggle-3881"
+      onClick={(event) => event.stopPropagation()}
+    >
+      <input
+        type="checkbox"
+        defaultChecked
+        aria-label="Flash Central City Rescue Toggle"
+      />
+
+      <span className="toggle-3881__track">
+        <span className="toggle-3881__sky"></span>
+
+        <span className="toggle-3881__sun"></span>
+
+        <span className="toggle-3881__city">
+          <span className="toggle-3881__tower toggle-3881__tower-1"></span>
+          <span className="toggle-3881__tower toggle-3881__tower-2"></span>
+          <span className="toggle-3881__tower toggle-3881__tower-3"></span>
+          <span className="toggle-3881__tower toggle-3881__tower-4"></span>
+        </span>
+
+        <span className="toggle-3881__alarm">
+          <span className="toggle-3881__alarm-light"></span>
+          <span className="toggle-3881__alarm-ray toggle-3881__alarm-ray-1"></span>
+          <span className="toggle-3881__alarm-ray toggle-3881__alarm-ray-2"></span>
+          <span className="toggle-3881__alarm-ray toggle-3881__alarm-ray-3"></span>
+        </span>
+
+        <span className="toggle-3881__speed toggle-3881__speed-1"></span>
+        <span className="toggle-3881__speed toggle-3881__speed-2"></span>
+        <span className="toggle-3881__speed toggle-3881__speed-3"></span>
+
+        <span className="toggle-3881__bubble">
+          <span className="toggle-3881__bubble-off">PATROL</span>
+          <span className="toggle-3881__bubble-on">RESCUE!</span>
+        </span>
+
+        <span className="toggle-3881__thumb">
+          <span className="toggle-3881__ear toggle-3881__ear-left"></span>
+          <span className="toggle-3881__ear toggle-3881__ear-right"></span>
+
+          <span className="toggle-3881__mask">
+            <span className="toggle-3881__eye toggle-3881__eye-left"></span>
+            <span className="toggle-3881__eye toggle-3881__eye-right"></span>
+            <span className="toggle-3881__smile"></span>
+          </span>
+
+          <span className="toggle-3881__suit">
+            <span className="toggle-3881__emblem">
+              <span className="toggle-3881__emblem-bolt"></span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </label>
+  ),
+  html: `<label class="toggle-3881">
+    <input type="checkbox" checked aria-label="Flash Central City Rescue Toggle">
+
+    <span class="toggle-3881__track">
+        <span class="toggle-3881__sky"></span>
+        <span class="toggle-3881__sun"></span>
+
+        <span class="toggle-3881__city">
+            <span class="toggle-3881__tower toggle-3881__tower-1"></span>
+            <span class="toggle-3881__tower toggle-3881__tower-2"></span>
+            <span class="toggle-3881__tower toggle-3881__tower-3"></span>
+            <span class="toggle-3881__tower toggle-3881__tower-4"></span>
+        </span>
+
+        <span class="toggle-3881__alarm">
+            <span class="toggle-3881__alarm-light"></span>
+            <span class="toggle-3881__alarm-ray toggle-3881__alarm-ray-1"></span>
+            <span class="toggle-3881__alarm-ray toggle-3881__alarm-ray-2"></span>
+            <span class="toggle-3881__alarm-ray toggle-3881__alarm-ray-3"></span>
+        </span>
+
+        <span class="toggle-3881__speed toggle-3881__speed-1"></span>
+        <span class="toggle-3881__speed toggle-3881__speed-2"></span>
+        <span class="toggle-3881__speed toggle-3881__speed-3"></span>
+
+        <span class="toggle-3881__bubble">
+            <span class="toggle-3881__bubble-off">PATROL</span>
+            <span class="toggle-3881__bubble-on">RESCUE!</span>
+        </span>
+
+        <span class="toggle-3881__thumb">
+            <span class="toggle-3881__ear toggle-3881__ear-left"></span>
+            <span class="toggle-3881__ear toggle-3881__ear-right"></span>
+
+            <span class="toggle-3881__mask">
+                <span class="toggle-3881__eye toggle-3881__eye-left"></span>
+                <span class="toggle-3881__eye toggle-3881__eye-right"></span>
+                <span class="toggle-3881__smile"></span>
+            </span>
+
+            <span class="toggle-3881__suit">
+                <span class="toggle-3881__emblem">
+                    <span class="toggle-3881__emblem-bolt"></span>
+                </span>
+            </span>
+        </span>
+    </span>
+</label>`,
+  css: `.toggle-3881 {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.toggle-3881 input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toggle-3881__track {
+    position: relative;
+    width: 166px;
+    height: 74px;
+    overflow: hidden;
+    border: 4px solid #111111;
+    border-radius: 14px;
+    background: #38bdf8;
+    box-shadow: 8px 8px 0 #111111;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.toggle-3881__sky {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #38bdf8 0 55%, #fef3c7 55% 100%);
+    transition: filter .3s ease;
+}
+
+.toggle-3881__sun {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    z-index: 2;
+    width: 37px;
+    height: 37px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #fde047;
+    box-shadow: 0 0 8px rgba(250,204,21,.5);
+    transition: left .35s ease, right .35s ease, transform .35s ease;
+}
+
+.toggle-3881__city {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+}
+
+.toggle-3881__tower {
+    position: absolute;
+    bottom: 0;
+    border: 2px solid #111111;
+    background: #334155;
+    transition: transform .4s ease;
+}
+
+.toggle-3881__tower::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    background-image: radial-gradient(#facc15 1.2px, transparent 1.5px);
+    background-size: 8px 8px;
+}
+
+.toggle-3881__tower-1 {
+    left: -4px;
+    width: 34px;
+    height: 27px;
+}
+
+.toggle-3881__tower-2 {
+    left: 26px;
+    width: 35px;
+    height: 39px;
+}
+
+.toggle-3881__tower-3 {
+    left: 58px;
+    width: 34px;
+    height: 30px;
+}
+
+.toggle-3881__tower-4 {
+    left: 89px;
+    width: 31px;
+    height: 45px;
+}
+
+.toggle-3881__alarm {
+    position: absolute;
+    right: 15px;
+    top: 11px;
+    z-index: 5;
+    width: 37px;
+    height: 37px;
+    transition: left .35s ease, right .35s ease, transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3881__alarm-light {
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    width: 19px;
+    height: 19px;
+    border: 3px solid #111111;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 0 0 7px #ef4444;
+}
+
+.toggle-3881__alarm-ray {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 34px;
+    height: 4px;
+    border-radius: 999px;
+    background: #ef4444;
+    transform-origin: center;
+}
+
+.toggle-3881__alarm-ray-1 {
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+
+.toggle-3881__alarm-ray-2 {
+    transform: translate(-50%,-50%) rotate(60deg);
+}
+
+.toggle-3881__alarm-ray-3 {
+    transform: translate(-50%,-50%) rotate(120deg);
+}
+
+.toggle-3881__speed {
+    position: absolute;
+    z-index: 6;
+    height: 4px;
+    border: 1px solid #111111;
+    border-radius: 999px;
+    background: #fde047;
+    box-shadow: 0 0 4px #facc15;
+    transition: transform .4s ease, opacity .3s ease;
+}
+
+.toggle-3881__speed-1 {
+    right: 7px;
+    top: 12px;
+    width: 43px;
+}
+
+.toggle-3881__speed-2 {
+    right: 18px;
+    top: 34px;
+    width: 55px;
+}
+
+.toggle-3881__speed-3 {
+    right: 8px;
+    bottom: 10px;
+    width: 41px;
+}
+
+.toggle-3881__bubble {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    z-index: 7;
+    width: 53px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border: 3px solid #111111;
+    background: #ffffff;
+    box-shadow: 3px 3px 0 #111111;
+    transform: rotate(2deg);
+    transition: left .35s ease, right .35s ease, background .3s ease, transform .3s ease;
+}
+
+.toggle-3881__bubble::after {
+    content: "";
+    position: absolute;
+    right: 5px;
+    bottom: -7px;
+    width: 9px;
+    height: 9px;
+    border-right: 3px solid #111111;
+    border-bottom: 3px solid #111111;
+    background: inherit;
+    transform: rotate(45deg);
+}
+
+.toggle-3881__bubble-off,
+.toggle-3881__bubble-on {
+    position: absolute;
+    z-index: 2;
+    color: #111111;
+    font: 900 7px/1 Arial Black, Arial, sans-serif;
+    transition: opacity .2s ease, transform .25s ease;
+}
+
+.toggle-3881__bubble-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3881__bubble-on {
+    opacity: 1;
+}
+
+.toggle-3881__thumb {
+    position: absolute;
+    left: 102px;
+    top: 7px;
+    z-index: 10;
+    width: 52px;
+    height: 52px;
+    border: 4px solid #111111;
+    border-radius: 50%;
+    background: #dc2626;
+    box-shadow: 5px 5px 0 #111111;
+    transition: left .35s cubic-bezier(.34,1.56,.64,1), transform .3s ease;
+}
+
+.toggle-3881__ear {
+    position: absolute;
+    top: 9px;
+    z-index: 8;
+    width: 14px;
+    height: 20px;
+    border: 2px solid #111111;
+    background: #fde047;
+    clip-path: polygon(48% 0, 100% 0, 65% 42%, 100% 42%, 25% 100%, 45% 56%, 0 56%);
+}
+
+.toggle-3881__ear-left {
+    left: -7px;
+}
+
+.toggle-3881__ear-right {
+    right: -7px;
+    transform: scaleX(-1);
+}
+
+.toggle-3881__mask {
+    position: absolute;
+    left: 9px;
+    top: 6px;
+    width: 34px;
+    height: 37px;
+    border: 3px solid #111111;
+    border-radius: 47%;
+    background: #dc2626;
+}
+
+.toggle-3881__eye {
+    position: absolute;
+    top: 13px;
+    width: 8px;
+    height: 6px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.toggle-3881__eye-left {
+    left: 5px;
+}
+
+.toggle-3881__eye-right {
+    right: 5px;
+}
+
+.toggle-3881__smile {
+    position: absolute;
+    left: 8px;
+    bottom: 4px;
+    width: 16px;
+    height: 6px;
+    border-bottom: 3px solid #111111;
+    border-radius: 0 0 50% 50%;
+}
+
+.toggle-3881__suit {
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    width: 36px;
+    height: 14px;
+    border: 3px solid #111111;
+    border-top: 0;
+    background: #b91c1c;
+}
+
+.toggle-3881__emblem {
+    position: absolute;
+    left: 50%;
+    top: 1px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: translateX(-50%);
+}
+
+.toggle-3881__emblem-bolt {
+    position: absolute;
+    left: 3px;
+    top: 1px;
+    width: 6px;
+    height: 9px;
+    background: #facc15;
+    clip-path: polygon(50% 0, 100% 0, 65% 40%, 100% 40%, 25% 100%, 45% 55%, 0 55%);
+}
+
+.toggle-3881:hover .toggle-3881__track {
+    transform: translate(-2px,-2px);
+    box-shadow: 10px 10px 0 #111111;
+}
+
+.toggle-3881:hover .toggle-3881__thumb {
+    transform: rotate(-7deg) scale(1.05);
+}
+
+.toggle-3881:hover .toggle-3881__alarm {
+    transform: rotate(15deg) scale(1.06);
+}
+
+.toggle-3881 input:not(:checked) + .toggle-3881__track .toggle-3881__sky {
+    filter: grayscale(.65) brightness(.7);
+}
+
+.toggle-3881 input:not(:checked) + .toggle-3881__track .toggle-3881__thumb {
+    left: 6px;
+}
+
+.toggle-3881 input:not(:checked) + .toggle-3881__track .toggle-3881__sun {
+    right: 12px;
+    transform: scale(.8);
+}
+
+.toggle-3881 input:not(:checked) + .toggle-3881__track .toggle-3881__alarm {
+    right: 15px;
+    opacity: .25;
+    transform: scale(.7);
+}
+
+.toggle-3881 input:not(:checked) + .toggle-3881__track .toggle-3881__speed {
+    opacity: .15;
+}
+
+.toggle-3881 input:not(:checked) + .toggle-3881__track .toggle-3881__bubble {
+    right: 7px;
+    background: #e5e7eb;
+}
+
+.toggle-3881 input:not(:checked) + .toggle-3881__track .toggle-3881__bubble-off {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3881 input:not(:checked) + .toggle-3881__track .toggle-3881__bubble-on {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3881 input:checked + .toggle-3881__track .toggle-3881__thumb {
+    left: 102px;
+}
+
+.toggle-3881 input:checked + .toggle-3881__track .toggle-3881__sun {
+    left: 9px;
+    right: auto;
+    transform: scale(1.05);
+}
+
+.toggle-3881 input:checked + .toggle-3881__track .toggle-3881__alarm {
+    left: 49px;
+    right: auto;
+    opacity: 1;
+    transform: rotate(180deg) scale(1);
+}
+
+.toggle-3881 input:checked + .toggle-3881__track .toggle-3881__tower-1 {
+    transform: translateX(-22px);
+}
+
+.toggle-3881 input:checked + .toggle-3881__track .toggle-3881__tower-2 {
+    transform: translateX(-36px);
+}
+
+.toggle-3881 input:checked + .toggle-3881__track .toggle-3881__tower-3 {
+    transform: translateX(-51px);
+}
+
+.toggle-3881 input:checked + .toggle-3881__track .toggle-3881__tower-4 {
+    transform: translateX(-67px);
+}
+
+.toggle-3881 input:checked + .toggle-3881__track .toggle-3881__speed-1 {
+    transform: translateX(-103px);
+    opacity: 1;
+}
+
+.toggle-3881 input:checked + .toggle-3881__track .toggle-3881__speed-2 {
+    transform: translateX(-91px);
+    opacity: .9;
+}
+
+.toggle-3881 input:checked + .toggle-3881__track .toggle-3881__speed-3 {
+    transform: translateX(-103px);
+    opacity: .82;
+}
+
+.toggle-3881 input:checked + .toggle-3881__track .toggle-3881__bubble {
+    left: 8px;
+    right: auto;
+    background: #fef08a;
+    transform: rotate(-3deg);
+}
+
+.toggle-3881 input:checked + .toggle-3881__track .toggle-3881__bubble-off {
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.toggle-3881 input:checked + .toggle-3881__track .toggle-3881__bubble-on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.toggle-3881 input:focus-visible + .toggle-3881__track {
+    outline: 3px solid #facc15;
     outline-offset: 6px;
 }`,
 },
