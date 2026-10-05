@@ -68837,7 +68837,7 @@ export const loaders = [
     right: 17px;
     width: 3px;
     height: 3px;
-    animation: loader4040Dust5 1.6s ease-out infinite -1.2s;
+    animation: loader4040Dust5 1.6s ease-out infinite -1.2s; 
 }
 
 .loader-4040:hover .loader-4040-shard {
