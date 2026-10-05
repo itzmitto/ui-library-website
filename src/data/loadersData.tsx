@@ -68340,4 +68340,270 @@ export const loaders = [
     }
 }`,
   },
+  {
+    id: 4039,
+    name: "Elemental Wind Vortex Loader",
+    preview: (
+      <div className="loader-4039">
+        <span className="loader-4039-ring"></span>
+
+        <span className="loader-4039-wisp loader-4039-wisp-1"></span>
+        <span className="loader-4039-wisp loader-4039-wisp-2"></span>
+        <span className="loader-4039-wisp loader-4039-wisp-3"></span>
+        <span className="loader-4039-wisp loader-4039-wisp-4"></span>
+        <span className="loader-4039-wisp loader-4039-wisp-5"></span>
+        <span className="loader-4039-wisp loader-4039-wisp-6"></span>
+        <span className="loader-4039-wisp loader-4039-wisp-7"></span>
+        <span className="loader-4039-wisp loader-4039-wisp-8"></span>
+
+        <span className="loader-4039-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-4039">
+    <span class="loader-4039-ring"></span>
+
+    <span class="loader-4039-wisp loader-4039-wisp-1"></span>
+    <span class="loader-4039-wisp loader-4039-wisp-2"></span>
+    <span class="loader-4039-wisp loader-4039-wisp-3"></span>
+    <span class="loader-4039-wisp loader-4039-wisp-4"></span>
+    <span class="loader-4039-wisp loader-4039-wisp-5"></span>
+    <span class="loader-4039-wisp loader-4039-wisp-6"></span>
+    <span class="loader-4039-wisp loader-4039-wisp-7"></span>
+    <span class="loader-4039-wisp loader-4039-wisp-8"></span>
+
+    <span class="loader-4039-core"></span>
+</div>`,
+    css: `.loader-4039 {
+    position: relative;
+    width: 58px;
+    height: 58px;
+    animation: loader4039Rotate 2.1s linear infinite;
+}
+
+.loader-4039-ring {
+    position: absolute;
+    inset: 10px;
+    border: 1px solid rgba(125, 211, 252, .18);
+    border-radius: 50%;
+    box-shadow:
+        0 0 10px rgba(34, 211, 238, .08),
+        inset 0 0 10px rgba(125, 211, 252, .05);
+    animation: loader4039Ring 1.6s ease-in-out infinite;
+}
+
+.loader-4039-wisp {
+    position: absolute;
+    left: 26px;
+    top: 2px;
+    width: 6px;
+    height: 18px;
+    border-radius: 80% 20% 80% 20%;
+    transform-origin: 3px 27px;
+    background:
+        linear-gradient(
+            to bottom,
+            #f0f9ff,
+            #bae6fd 32%,
+            #67e8f9 68%,
+            transparent
+        );
+    filter:
+        drop-shadow(
+            0 0 4px rgba(103, 232, 249, .5)
+        );
+    animation: loader4039Wisp 1.35s ease-in-out infinite;
+}
+
+.loader-4039-wisp-1 {
+    transform: rotate(0deg);
+}
+
+.loader-4039-wisp-2 {
+    transform: rotate(45deg);
+    animation-delay: -.17s;
+}
+
+.loader-4039-wisp-3 {
+    transform: rotate(90deg);
+    animation-delay: -.34s;
+}
+
+.loader-4039-wisp-4 {
+    transform: rotate(135deg);
+    animation-delay: -.51s;
+}
+
+.loader-4039-wisp-5 {
+    transform: rotate(180deg);
+    animation-delay: -.68s;
+}
+
+.loader-4039-wisp-6 {
+    transform: rotate(225deg);
+    animation-delay: -.85s;
+}
+
+.loader-4039-wisp-7 {
+    transform: rotate(270deg);
+    animation-delay: -1.02s;
+}
+
+.loader-4039-wisp-8 {
+    transform: rotate(315deg);
+    animation-delay: -1.19s;
+}
+
+.loader-4039-core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    border: 2px solid rgba(240, 249, 255, .7);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 35% 30%,
+            #ffffff,
+            #67e8f9 45%,
+            #0284c7
+        );
+    box-shadow:
+        0 0 5px #ffffff,
+        0 0 12px rgba(103, 232, 249, .8),
+        0 0 22px rgba(14, 165, 233, .3);
+    transform: translate(-50%, -50%);
+    animation: loader4039Core 1.1s ease-in-out infinite;
+}
+
+.loader-4039::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 31px;
+    height: 31px;
+    border-top: 2px solid rgba(224, 242, 254, .75);
+    border-right: 1px solid transparent;
+    border-bottom: 2px solid rgba(103, 232, 249, .35);
+    border-left: 1px solid transparent;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: loader4039Inner 1s linear infinite reverse;
+}
+
+.loader-4039::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 46px;
+    height: 46px;
+    border-top: 1px dashed rgba(186, 230, 253, .4);
+    border-right: 1px dashed transparent;
+    border-bottom: 1px dashed rgba(34, 211, 238, .25);
+    border-left: 1px dashed transparent;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: loader4039Outer 2.6s linear infinite;
+}
+
+@keyframes loader4039Rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader4039Wisp {
+    0%,
+    100% {
+        height: 12px;
+        opacity: .25;
+        filter:
+            brightness(.8)
+            drop-shadow(
+                0 0 2px rgba(103, 232, 249, .25)
+            );
+    }
+
+    50% {
+        height: 20px;
+        opacity: 1;
+        filter:
+            brightness(1.5)
+            drop-shadow(
+                0 0 7px rgba(103, 232, 249, .75)
+            );
+    }
+}
+
+@keyframes loader4039Core {
+    0%,
+    100% {
+        transform:
+            translate(-50%, -50%)
+            scale(.78);
+        opacity: .65;
+        box-shadow:
+            0 0 4px #ffffff,
+            0 0 8px rgba(103, 232, 249, .55);
+    }
+
+    50% {
+        transform:
+            translate(-50%, -50%)
+            scale(1.15);
+        opacity: 1;
+        box-shadow:
+            0 0 7px #ffffff,
+            0 0 16px rgba(103, 232, 249, .9),
+            0 0 28px rgba(14, 165, 233, .45);
+    }
+}
+
+@keyframes loader4039Ring {
+    0%,
+    100% {
+        transform: scale(.88);
+        opacity: .3;
+    }
+
+    50% {
+        transform: scale(1.08);
+        opacity: .75;
+    }
+}
+
+@keyframes loader4039Inner {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(0deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(360deg);
+    }
+}
+
+@keyframes loader4039Outer {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(0deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(360deg);
+    }
+}`,
+  },
 ];
