@@ -69472,4 +69472,274 @@ export const loaders = [
     }
 }`,
   },
+  {
+    id: 4042,
+    name: "Elemental Air Cyclone Loader",
+    preview: (
+      <div className="loader-4042">
+        <span className="loader-4042-ring loader-4042-ring-1"></span>
+        <span className="loader-4042-ring loader-4042-ring-2"></span>
+
+        <span className="loader-4042-blade loader-4042-blade-1"></span>
+        <span className="loader-4042-blade loader-4042-blade-2"></span>
+        <span className="loader-4042-blade loader-4042-blade-3"></span>
+        <span className="loader-4042-blade loader-4042-blade-4"></span>
+        <span className="loader-4042-blade loader-4042-blade-5"></span>
+        <span className="loader-4042-blade loader-4042-blade-6"></span>
+
+        <span className="loader-4042-eye"></span>
+      </div>
+    ),
+    html: `<div class="loader-4042">
+    <span class="loader-4042-ring loader-4042-ring-1"></span>
+    <span class="loader-4042-ring loader-4042-ring-2"></span>
+
+    <span class="loader-4042-blade loader-4042-blade-1"></span>
+    <span class="loader-4042-blade loader-4042-blade-2"></span>
+    <span class="loader-4042-blade loader-4042-blade-3"></span>
+    <span class="loader-4042-blade loader-4042-blade-4"></span>
+    <span class="loader-4042-blade loader-4042-blade-5"></span>
+    <span class="loader-4042-blade loader-4042-blade-6"></span>
+
+    <span class="loader-4042-eye"></span>
+</div>`,
+    css: `.loader-4042 {
+    position: relative;
+    width: 62px;
+    height: 62px;
+    animation: loader4042Cyclone 2.4s linear infinite;
+}
+
+.loader-4042::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            transparent 32%,
+            rgba(186, 230, 253, .08) 48%,
+            rgba(103, 232, 249, .08) 62%,
+            transparent 74%
+        );
+    transform: translate(-50%, -50%);
+    animation: loader4042Aura 1.7s ease-in-out infinite;
+}
+
+.loader-4042-ring {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader-4042-ring-1 {
+    width: 48px;
+    height: 48px;
+    border-top: 2px solid #e0f2fe;
+    border-right: 1px solid transparent;
+    border-bottom: 2px solid rgba(103, 232, 249, .55);
+    border-left: 1px solid transparent;
+    filter:
+        drop-shadow(
+            0 0 4px rgba(125, 211, 252, .5)
+        );
+    animation: loader4042Ring1 1.25s linear infinite reverse;
+}
+
+.loader-4042-ring-2 {
+    width: 34px;
+    height: 34px;
+    border-top: 1px dashed #bae6fd;
+    border-right: 1px dashed transparent;
+    border-bottom: 1px dashed #22d3ee;
+    border-left: 1px dashed transparent;
+    animation: loader4042Ring2 .9s linear infinite;
+}
+
+.loader-4042-blade {
+    position: absolute;
+    left: 27px;
+    top: 2px;
+    width: 8px;
+    height: 20px;
+    border-radius: 100% 20% 100% 20%;
+    transform-origin: 4px 29px;
+    background:
+        linear-gradient(
+            to bottom,
+            #ffffff,
+            #dbeafe 25%,
+            #7dd3fc 58%,
+            #22d3ee 82%,
+            transparent
+        );
+    filter:
+        drop-shadow(
+            0 0 4px rgba(125, 211, 252, .45)
+        );
+    animation: loader4042Blade 1.15s ease-in-out infinite;
+}
+
+.loader-4042-blade-1 {
+    transform: rotate(0deg);
+}
+
+.loader-4042-blade-2 {
+    transform: rotate(60deg);
+    animation-delay: -.19s;
+}
+
+.loader-4042-blade-3 {
+    transform: rotate(120deg);
+    animation-delay: -.38s;
+}
+
+.loader-4042-blade-4 {
+    transform: rotate(180deg);
+    animation-delay: -.57s;
+}
+
+.loader-4042-blade-5 {
+    transform: rotate(240deg);
+    animation-delay: -.76s;
+}
+
+.loader-4042-blade-6 {
+    transform: rotate(300deg);
+    animation-delay: -.95s;
+}
+
+.loader-4042-eye {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 13px;
+    height: 13px;
+    border: 2px solid rgba(240, 249, 255, .8);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 35% 30%,
+            #ffffff,
+            #bae6fd 36%,
+            #38bdf8 68%,
+            #0284c7
+        );
+    box-shadow:
+        0 0 6px #ffffff,
+        0 0 13px rgba(125, 211, 252, .85),
+        0 0 23px rgba(34, 211, 238, .35);
+    transform: translate(-50%, -50%);
+    animation: loader4042Eye 1s ease-in-out infinite;
+}
+
+.loader-4042:hover .loader-4042-blade {
+    filter:
+        brightness(1.25)
+        drop-shadow(
+            0 0 7px rgba(125, 211, 252, .7)
+        );
+}
+
+@keyframes loader4042Cyclone {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader4042Ring1 {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(0deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(360deg);
+    }
+}
+
+@keyframes loader4042Ring2 {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(0deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(360deg);
+    }
+}
+
+@keyframes loader4042Blade {
+    0%,
+    100% {
+        height: 12px;
+        opacity: .25;
+        filter:
+            brightness(.8)
+            drop-shadow(
+                0 0 2px rgba(125, 211, 252, .25)
+            );
+    }
+
+    50% {
+        height: 22px;
+        opacity: 1;
+        filter:
+            brightness(1.5)
+            drop-shadow(
+                0 0 7px rgba(125, 211, 252, .75)
+            );
+    }
+}
+
+@keyframes loader4042Eye {
+    0%,
+    100% {
+        transform:
+            translate(-50%, -50%)
+            scale(.78);
+        opacity: .65;
+    }
+
+    50% {
+        transform:
+            translate(-50%, -50%)
+            scale(1.18);
+        opacity: 1;
+    }
+}
+
+@keyframes loader4042Aura {
+    0%,
+    100% {
+        transform:
+            translate(-50%, -50%)
+            scale(.82);
+        opacity: .28;
+    }
+
+    50% {
+        transform:
+            translate(-50%, -50%)
+            scale(1.18);
+        opacity: .8;
+    }
+}`,
+  },
 ];
