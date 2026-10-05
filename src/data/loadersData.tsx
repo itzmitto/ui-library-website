@@ -64859,4 +64859,1759 @@ export const loaders = [
     }
 }`,
   },
+  {
+    id: 4037,
+    name: "Elemental Stormheart Reactor Loader",
+    preview: (
+      <div className="loader-4037">
+        <span className="loader-4037__storm-glow loader-4037__storm-glow--1"></span>
+        <span className="loader-4037__storm-glow loader-4037__storm-glow--2"></span>
+        <span className="loader-4037__storm-glow loader-4037__storm-glow--3"></span>
+
+        <div className="loader-4037__rain">
+          <span className="loader-4037__rain-drop loader-4037__rain-drop--1"></span>
+          <span className="loader-4037__rain-drop loader-4037__rain-drop--2"></span>
+          <span className="loader-4037__rain-drop loader-4037__rain-drop--3"></span>
+          <span className="loader-4037__rain-drop loader-4037__rain-drop--4"></span>
+          <span className="loader-4037__rain-drop loader-4037__rain-drop--5"></span>
+          <span className="loader-4037__rain-drop loader-4037__rain-drop--6"></span>
+          <span className="loader-4037__rain-drop loader-4037__rain-drop--7"></span>
+          <span className="loader-4037__rain-drop loader-4037__rain-drop--8"></span>
+          <span className="loader-4037__rain-drop loader-4037__rain-drop--9"></span>
+          <span className="loader-4037__rain-drop loader-4037__rain-drop--10"></span>
+          <span className="loader-4037__rain-drop loader-4037__rain-drop--11"></span>
+          <span className="loader-4037__rain-drop loader-4037__rain-drop--12"></span>
+        </div>
+
+        <div className="loader-4037__shell">
+          <span className="loader-4037__corner loader-4037__corner--1"></span>
+          <span className="loader-4037__corner loader-4037__corner--2"></span>
+          <span className="loader-4037__corner loader-4037__corner--3"></span>
+          <span className="loader-4037__corner loader-4037__corner--4"></span>
+
+          <div className="loader-4037__header">
+            <div className="loader-4037__title">
+              <span className="loader-4037__title-icon">
+                <i className="ri-flashlight-fill"></i>
+              </span>
+
+              <span className="loader-4037__title-copy">
+                <small>ELEMENTAL SYSTEM</small>
+                <strong>STORMHEART</strong>
+              </span>
+            </div>
+
+            <div className="loader-4037__status">
+              <span className="loader-4037__status-light"></span>
+              <span>CHARGING</span>
+            </div>
+          </div>
+
+          <div className="loader-4037__reactor">
+            <span className="loader-4037__cloud loader-4037__cloud--1"></span>
+            <span className="loader-4037__cloud loader-4037__cloud--2"></span>
+            <span className="loader-4037__cloud loader-4037__cloud--3"></span>
+
+            <span className="loader-4037__flash loader-4037__flash--1"></span>
+            <span className="loader-4037__flash loader-4037__flash--2"></span>
+
+            <div className="loader-4037__orbit loader-4037__orbit--outer">
+              <span className="loader-4037__node loader-4037__node--1"></span>
+              <span className="loader-4037__node loader-4037__node--2"></span>
+              <span className="loader-4037__node loader-4037__node--3"></span>
+              <span className="loader-4037__node loader-4037__node--4"></span>
+            </div>
+
+            <div className="loader-4037__orbit loader-4037__orbit--middle">
+              <span className="loader-4037__electric-point loader-4037__electric-point--1"></span>
+              <span className="loader-4037__electric-point loader-4037__electric-point--2"></span>
+              <span className="loader-4037__electric-point loader-4037__electric-point--3"></span>
+              <span className="loader-4037__electric-point loader-4037__electric-point--4"></span>
+            </div>
+
+            <div className="loader-4037__orbit loader-4037__orbit--inner">
+              <span className="loader-4037__spark loader-4037__spark--1"></span>
+              <span className="loader-4037__spark loader-4037__spark--2"></span>
+              <span className="loader-4037__spark loader-4037__spark--3"></span>
+              <span className="loader-4037__spark loader-4037__spark--4"></span>
+              <span className="loader-4037__spark loader-4037__spark--5"></span>
+              <span className="loader-4037__spark loader-4037__spark--6"></span>
+            </div>
+
+            <div className="loader-4037__arc-field">
+              <span className="loader-4037__arc loader-4037__arc--1"></span>
+              <span className="loader-4037__arc loader-4037__arc--2"></span>
+              <span className="loader-4037__arc loader-4037__arc--3"></span>
+              <span className="loader-4037__arc loader-4037__arc--4"></span>
+              <span className="loader-4037__arc loader-4037__arc--5"></span>
+              <span className="loader-4037__arc loader-4037__arc--6"></span>
+            </div>
+
+            <div className="loader-4037__core">
+              <span className="loader-4037__core-ring loader-4037__core-ring--1"></span>
+              <span className="loader-4037__core-ring loader-4037__core-ring--2"></span>
+              <span className="loader-4037__core-ring loader-4037__core-ring--3"></span>
+
+              <span className="loader-4037__bolt">
+                <span className="loader-4037__bolt-shine"></span>
+              </span>
+
+              <span className="loader-4037__core-glow"></span>
+            </div>
+
+            <span className="loader-4037__particle loader-4037__particle--1"></span>
+            <span className="loader-4037__particle loader-4037__particle--2"></span>
+            <span className="loader-4037__particle loader-4037__particle--3"></span>
+            <span className="loader-4037__particle loader-4037__particle--4"></span>
+            <span className="loader-4037__particle loader-4037__particle--5"></span>
+            <span className="loader-4037__particle loader-4037__particle--6"></span>
+            <span className="loader-4037__particle loader-4037__particle--7"></span>
+            <span className="loader-4037__particle loader-4037__particle--8"></span>
+          </div>
+
+          <div className="loader-4037__metrics">
+            <div className="loader-4037__metric">
+              <span>VOLTAGE</span>
+              <strong>7.84 MV</strong>
+            </div>
+
+            <div className="loader-4037__metric">
+              <span>ION LEVEL</span>
+              <strong>94.2%</strong>
+            </div>
+
+            <div className="loader-4037__metric">
+              <span>STORM SYNC</span>
+              <strong>STABLE</strong>
+            </div>
+          </div>
+
+          <div className="loader-4037__readout">
+            <div>
+              <span className="loader-4037__readout-label">THUNDER CORE</span>
+
+              <span className="loader-4037__readout-text">
+                CHARGING
+                <span className="loader-4037__dots">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </span>
+            </div>
+
+            <div className="loader-4037__percentage">
+              <strong>91</strong>
+              <span>%</span>
+            </div>
+          </div>
+
+          <div className="loader-4037__progress">
+            <span className="loader-4037__progress-track"></span>
+            <span className="loader-4037__progress-fill"></span>
+            <span className="loader-4037__progress-head"></span>
+
+            <span className="loader-4037__progress-mark loader-4037__progress-mark--1"></span>
+            <span className="loader-4037__progress-mark loader-4037__progress-mark--2"></span>
+            <span className="loader-4037__progress-mark loader-4037__progress-mark--3"></span>
+            <span className="loader-4037__progress-mark loader-4037__progress-mark--4"></span>
+          </div>
+
+          <div className="loader-4037__footer">
+            <span>
+              <i className="ri-radar-line"></i>
+              FIELD LOCKED
+            </span>
+
+            <span>
+              <i className="ri-flashlight-fill"></i>
+              ARC STABLE
+            </span>
+
+            <span>
+              <i className="ri-shield-check-fill"></i>
+              CONTAINED
+            </span>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="loader-4037">
+    <span class="loader-4037__storm-glow loader-4037__storm-glow--1"></span>
+    <span class="loader-4037__storm-glow loader-4037__storm-glow--2"></span>
+    <span class="loader-4037__storm-glow loader-4037__storm-glow--3"></span>
+
+    <div class="loader-4037__rain">
+        <span class="loader-4037__rain-drop loader-4037__rain-drop--1"></span>
+        <span class="loader-4037__rain-drop loader-4037__rain-drop--2"></span>
+        <span class="loader-4037__rain-drop loader-4037__rain-drop--3"></span>
+        <span class="loader-4037__rain-drop loader-4037__rain-drop--4"></span>
+        <span class="loader-4037__rain-drop loader-4037__rain-drop--5"></span>
+        <span class="loader-4037__rain-drop loader-4037__rain-drop--6"></span>
+        <span class="loader-4037__rain-drop loader-4037__rain-drop--7"></span>
+        <span class="loader-4037__rain-drop loader-4037__rain-drop--8"></span>
+        <span class="loader-4037__rain-drop loader-4037__rain-drop--9"></span>
+        <span class="loader-4037__rain-drop loader-4037__rain-drop--10"></span>
+        <span class="loader-4037__rain-drop loader-4037__rain-drop--11"></span>
+        <span class="loader-4037__rain-drop loader-4037__rain-drop--12"></span>
+    </div>
+
+    <div class="loader-4037__shell">
+        <span class="loader-4037__corner loader-4037__corner--1"></span>
+        <span class="loader-4037__corner loader-4037__corner--2"></span>
+        <span class="loader-4037__corner loader-4037__corner--3"></span>
+        <span class="loader-4037__corner loader-4037__corner--4"></span>
+
+        <div class="loader-4037__header">
+            <div class="loader-4037__title">
+                <span class="loader-4037__title-icon">
+                    <i class="ri-flashlight-fill"></i>
+                </span>
+
+                <span class="loader-4037__title-copy">
+                    <small>ELEMENTAL SYSTEM</small>
+                    <strong>STORMHEART</strong>
+                </span>
+            </div>
+
+            <div class="loader-4037__status">
+                <span class="loader-4037__status-light"></span>
+                <span>CHARGING</span>
+            </div>
+        </div>
+
+        <div class="loader-4037__reactor">
+            <span class="loader-4037__cloud loader-4037__cloud--1"></span>
+            <span class="loader-4037__cloud loader-4037__cloud--2"></span>
+            <span class="loader-4037__cloud loader-4037__cloud--3"></span>
+
+            <span class="loader-4037__flash loader-4037__flash--1"></span>
+            <span class="loader-4037__flash loader-4037__flash--2"></span>
+
+            <div class="loader-4037__orbit loader-4037__orbit--outer">
+                <span class="loader-4037__node loader-4037__node--1"></span>
+                <span class="loader-4037__node loader-4037__node--2"></span>
+                <span class="loader-4037__node loader-4037__node--3"></span>
+                <span class="loader-4037__node loader-4037__node--4"></span>
+            </div>
+
+            <div class="loader-4037__orbit loader-4037__orbit--middle">
+                <span class="loader-4037__electric-point loader-4037__electric-point--1"></span>
+                <span class="loader-4037__electric-point loader-4037__electric-point--2"></span>
+                <span class="loader-4037__electric-point loader-4037__electric-point--3"></span>
+                <span class="loader-4037__electric-point loader-4037__electric-point--4"></span>
+            </div>
+
+            <div class="loader-4037__orbit loader-4037__orbit--inner">
+                <span class="loader-4037__spark loader-4037__spark--1"></span>
+                <span class="loader-4037__spark loader-4037__spark--2"></span>
+                <span class="loader-4037__spark loader-4037__spark--3"></span>
+                <span class="loader-4037__spark loader-4037__spark--4"></span>
+                <span class="loader-4037__spark loader-4037__spark--5"></span>
+                <span class="loader-4037__spark loader-4037__spark--6"></span>
+            </div>
+
+            <div class="loader-4037__arc-field">
+                <span class="loader-4037__arc loader-4037__arc--1"></span>
+                <span class="loader-4037__arc loader-4037__arc--2"></span>
+                <span class="loader-4037__arc loader-4037__arc--3"></span>
+                <span class="loader-4037__arc loader-4037__arc--4"></span>
+                <span class="loader-4037__arc loader-4037__arc--5"></span>
+                <span class="loader-4037__arc loader-4037__arc--6"></span>
+            </div>
+
+            <div class="loader-4037__core">
+                <span class="loader-4037__core-ring loader-4037__core-ring--1"></span>
+                <span class="loader-4037__core-ring loader-4037__core-ring--2"></span>
+                <span class="loader-4037__core-ring loader-4037__core-ring--3"></span>
+
+                <span class="loader-4037__bolt">
+                    <span class="loader-4037__bolt-shine"></span>
+                </span>
+
+                <span class="loader-4037__core-glow"></span>
+            </div>
+
+            <span class="loader-4037__particle loader-4037__particle--1"></span>
+            <span class="loader-4037__particle loader-4037__particle--2"></span>
+            <span class="loader-4037__particle loader-4037__particle--3"></span>
+            <span class="loader-4037__particle loader-4037__particle--4"></span>
+            <span class="loader-4037__particle loader-4037__particle--5"></span>
+            <span class="loader-4037__particle loader-4037__particle--6"></span>
+            <span class="loader-4037__particle loader-4037__particle--7"></span>
+            <span class="loader-4037__particle loader-4037__particle--8"></span>
+        </div>
+
+        <div class="loader-4037__metrics">
+            <div class="loader-4037__metric">
+                <span>VOLTAGE</span>
+                <strong>7.84 MV</strong>
+            </div>
+
+            <div class="loader-4037__metric">
+                <span>ION LEVEL</span>
+                <strong>94.2%</strong>
+            </div>
+
+            <div class="loader-4037__metric">
+                <span>STORM SYNC</span>
+                <strong>STABLE</strong>
+            </div>
+        </div>
+
+        <div class="loader-4037__readout">
+            <div>
+                <span class="loader-4037__readout-label">THUNDER CORE</span>
+
+                <span class="loader-4037__readout-text">
+                    CHARGING
+
+                    <span class="loader-4037__dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </span>
+            </div>
+
+            <div class="loader-4037__percentage">
+                <strong>91</strong>
+                <span>%</span>
+            </div>
+        </div>
+
+        <div class="loader-4037__progress">
+            <span class="loader-4037__progress-track"></span>
+            <span class="loader-4037__progress-fill"></span>
+            <span class="loader-4037__progress-head"></span>
+
+            <span class="loader-4037__progress-mark loader-4037__progress-mark--1"></span>
+            <span class="loader-4037__progress-mark loader-4037__progress-mark--2"></span>
+            <span class="loader-4037__progress-mark loader-4037__progress-mark--3"></span>
+            <span class="loader-4037__progress-mark loader-4037__progress-mark--4"></span>
+        </div>
+
+        <div class="loader-4037__footer">
+            <span><i class="ri-radar-line"></i>FIELD LOCKED</span>
+            <span><i class="ri-flashlight-fill"></i>ARC STABLE</span>
+            <span><i class="ri-shield-check-fill"></i>CONTAINED</span>
+        </div>
+    </div>
+</div>`,
+    css: `.loader-4037{
+    position:relative;
+    width:430px;
+    max-width:100%;
+    min-height:540px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    border-radius:30px;
+    background:
+        radial-gradient(circle at 50% 34%,rgba(147,197,253,.13),transparent 28%),
+        radial-gradient(circle at 16% 70%,rgba(59,130,246,.12),transparent 30%),
+        radial-gradient(circle at 87% 68%,rgba(99,102,241,.13),transparent 28%),
+        linear-gradient(145deg,#02050c,#061020 45%,#0c1632);
+    font-family:Arial,Helvetica,sans-serif;
+    isolation:isolate;
+}
+.loader-4037::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background-image:
+        linear-gradient(rgba(125,211,252,.024) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(125,211,252,.024) 1px,transparent 1px);
+    background-size:22px 22px;
+    mask-image:linear-gradient(to bottom,transparent,#000 15%,#000 88%,transparent);
+    pointer-events:none;
+}
+.loader-4037::after{
+    content:"";
+    position:absolute;
+    left:50%;
+    bottom:28px;
+    width:280px;
+    height:44px;
+    border-radius:50%;
+    background:rgba(56,189,248,.1);
+    filter:blur(22px);
+    transform:translateX(-50%);
+    animation:loader4037Ground 2.6s ease-in-out infinite;
+}
+.loader-4037__storm-glow{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(50px);
+    pointer-events:none;
+}
+.loader-4037__storm-glow--1{
+    width:190px;
+    height:190px;
+    left:-85px;
+    top:40px;
+    background:rgba(14,165,233,.14);
+    animation:loader4037Glow1 7s ease-in-out infinite;
+}
+.loader-4037__storm-glow--2{
+    width:200px;
+    height:200px;
+    right:-95px;
+    top:170px;
+    background:rgba(99,102,241,.15);
+    animation:loader4037Glow2 8s ease-in-out infinite;
+}
+.loader-4037__storm-glow--3{
+    width:160px;
+    height:160px;
+    left:130px;
+    bottom:-80px;
+    background:rgba(186,230,253,.09);
+    animation:loader4037Glow3 6s ease-in-out infinite;
+}
+.loader-4037__rain{
+    position:absolute;
+    inset:0;
+    overflow:hidden;
+    pointer-events:none;
+}
+.loader-4037__rain-drop{
+    position:absolute;
+    top:-50px;
+    width:1px;
+    height:42px;
+    background:linear-gradient(to bottom,transparent,rgba(186,230,253,.42));
+    transform:rotate(11deg);
+    animation:loader4037Rain 2s linear infinite;
+}
+.loader-4037__rain-drop--1{
+    left:5%;
+    animation-delay:-.2s;
+}
+.loader-4037__rain-drop--2{
+    left:14%;
+    height:29px;
+    animation-delay:-1.4s;
+}
+.loader-4037__rain-drop--3{
+    left:23%;
+    height:50px;
+    animation-delay:-.7s;
+}
+.loader-4037__rain-drop--4{
+    left:33%;
+    height:34px;
+    animation-delay:-1.8s;
+}
+.loader-4037__rain-drop--5{
+    left:42%;
+    height:44px;
+    animation-delay:-1s;
+}
+.loader-4037__rain-drop--6{
+    left:51%;
+    height:27px;
+    animation-delay:-.4s;
+}
+.loader-4037__rain-drop--7{
+    left:60%;
+    height:52px;
+    animation-delay:-1.6s;
+}
+.loader-4037__rain-drop--8{
+    left:68%;
+    height:32px;
+    animation-delay:-.9s;
+}
+.loader-4037__rain-drop--9{
+    left:76%;
+    height:47px;
+    animation-delay:-1.2s;
+}
+.loader-4037__rain-drop--10{
+    left:84%;
+    height:30px;
+    animation-delay:-.5s;
+}
+.loader-4037__rain-drop--11{
+    left:91%;
+    height:48px;
+    animation-delay:-1.7s;
+}
+.loader-4037__rain-drop--12{
+    left:96%;
+    height:36px;
+    animation-delay:-.1s;
+}
+.loader-4037__shell{
+    position:relative;
+    z-index:2;
+    width:calc(100% - 38px);
+    padding:16px;
+    overflow:hidden;
+    border:1px solid rgba(125,211,252,.22);
+    border-radius:22px;
+    background:
+        linear-gradient(135deg,rgba(9,17,35,.88),rgba(8,15,33,.66)),
+        rgba(2,6,23,.76);
+    box-shadow:
+        0 24px 54px rgba(0,0,0,.44),
+        inset 0 1px 0 rgba(255,255,255,.06),
+        0 0 34px rgba(56,189,248,.07);
+    backdrop-filter:blur(17px);
+}
+.loader-4037__shell::before{
+    content:"";
+    position:absolute;
+    inset:1px;
+    border-radius:21px;
+    background:
+        linear-gradient(
+            125deg,
+            rgba(255,255,255,.045),
+            transparent 26%,
+            transparent 68%,
+            rgba(96,165,250,.04)
+        );
+    pointer-events:none;
+}
+.loader-4037__shell::after{
+    content:"";
+    position:absolute;
+    top:-70px;
+    bottom:-70px;
+    left:-70px;
+    width:38px;
+    background:linear-gradient(90deg,transparent,rgba(219,234,254,.35),transparent);
+    transform:rotate(20deg);
+    animation:loader4037ShellShine 5s ease-in-out infinite;
+    pointer-events:none;
+}
+.loader-4037__corner{
+    position:absolute;
+    z-index:5;
+    width:22px;
+    height:22px;
+}
+.loader-4037__corner::before,
+.loader-4037__corner::after{
+    content:"";
+    position:absolute;
+    background:#7dd3fc;
+    box-shadow:0 0 7px rgba(125,211,252,.6);
+}
+.loader-4037__corner::before{
+    width:14px;
+    height:1px;
+}
+.loader-4037__corner::after{
+    width:1px;
+    height:14px;
+}
+.loader-4037__corner--1{
+    left:8px;
+    top:8px;
+}
+.loader-4037__corner--2{
+    right:8px;
+    top:8px;
+    transform:rotate(90deg);
+}
+.loader-4037__corner--3{
+    right:8px;
+    bottom:8px;
+    transform:rotate(180deg);
+}
+.loader-4037__corner--4{
+    left:8px;
+    bottom:8px;
+    transform:rotate(270deg);
+}
+.loader-4037__header{
+    position:relative;
+    z-index:3;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    padding-bottom:12px;
+    border-bottom:1px solid rgba(125,211,252,.1);
+}
+.loader-4037__title{
+    display:flex;
+    align-items:center;
+    gap:9px;
+}
+.loader-4037__title-icon{
+    width:35px;
+    height:35px;
+    display:grid;
+    place-items:center;
+    flex:0 0 35px;
+    border:1px solid rgba(125,211,252,.4);
+    border-radius:10px;
+    background:linear-gradient(145deg,rgba(3,105,161,.55),rgba(30,64,175,.55));
+    color:#e0f2fe;
+    font-size:16px;
+    box-shadow:
+        0 0 15px rgba(56,189,248,.15),
+        inset 0 1px 0 rgba(255,255,255,.08);
+    animation:loader4037TitleIcon 2.6s ease-in-out infinite;
+}
+.loader-4037__title-copy{
+    display:flex;
+    flex-direction:column;
+}
+.loader-4037__title-copy small{
+    color:#7dd3fc;
+    font-size:5px;
+    font-weight:900;
+    letter-spacing:1.5px;
+}
+.loader-4037__title-copy strong{
+    margin-top:3px;
+    color:#f8fafc;
+    font-size:10px;
+    font-weight:900;
+    letter-spacing:.7px;
+}
+.loader-4037__status{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    padding:5px 7px;
+    border:1px solid rgba(125,211,252,.22);
+    border-radius:999px;
+    background:rgba(7,89,133,.24);
+    color:#bae6fd;
+    font-size:5px;
+    font-weight:900;
+    letter-spacing:.9px;
+}
+.loader-4037__status-light{
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    background:#e0f2fe;
+    box-shadow:
+        0 0 5px #fff,
+        0 0 10px rgba(56,189,248,.9);
+    animation:loader4037Status 1s ease-in-out infinite;
+}
+.loader-4037__reactor{
+    position:relative;
+    width:275px;
+    height:275px;
+    margin:14px auto 8px;
+    display:grid;
+    place-items:center;
+}
+.loader-4037__reactor::before{
+    content:"";
+    position:absolute;
+    width:245px;
+    height:245px;
+    border-radius:50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(186,230,253,.12),
+            rgba(59,130,246,.06) 38%,
+            transparent 70%
+        );
+    animation:loader4037ReactorGlow 2.1s ease-in-out infinite;
+}
+.loader-4037__reactor::after{
+    content:"";
+    position:absolute;
+    width:175px;
+    height:28px;
+    bottom:14px;
+    border-radius:50%;
+    background:rgba(56,189,248,.12);
+    filter:blur(13px);
+    animation:loader4037ReactorShadow 2.4s ease-in-out infinite;
+}
+.loader-4037__cloud{
+    position:absolute;
+    z-index:1;
+    height:22px;
+    border-radius:999px;
+    background:rgba(51,65,85,.32);
+    filter:blur(2px);
+    box-shadow:0 0 18px rgba(56,189,248,.05);
+}
+.loader-4037__cloud::before,
+.loader-4037__cloud::after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    border-radius:50%;
+    background:inherit;
+}
+.loader-4037__cloud::before{
+    width:35px;
+    height:35px;
+    left:14px;
+}
+.loader-4037__cloud::after{
+    width:28px;
+    height:28px;
+    right:13px;
+}
+.loader-4037__cloud--1{
+    width:92px;
+    left:-3px;
+    top:38px;
+    animation:loader4037Cloud1 5s ease-in-out infinite;
+}
+.loader-4037__cloud--2{
+    width:105px;
+    right:-6px;
+    top:61px;
+    opacity:.7;
+    animation:loader4037Cloud2 6s ease-in-out infinite;
+}
+.loader-4037__cloud--3{
+    width:78px;
+    left:92px;
+    bottom:24px;
+    opacity:.5;
+    animation:loader4037Cloud3 5.5s ease-in-out infinite;
+}
+.loader-4037__flash{
+    position:absolute;
+    z-index:7;
+    width:2px;
+    height:105px;
+    background:linear-gradient(to bottom,transparent,#fff,#7dd3fc,transparent);
+    box-shadow:
+        0 0 8px rgba(255,255,255,.7),
+        0 0 15px rgba(56,189,248,.5);
+    opacity:0;
+    pointer-events:none;
+}
+.loader-4037__flash--1{
+    left:84px;
+    top:27px;
+    transform:rotate(18deg);
+    animation:loader4037Flash1 4.2s linear infinite;
+}
+.loader-4037__flash--2{
+    right:79px;
+    top:48px;
+    transform:rotate(-21deg);
+    animation:loader4037Flash2 5.1s linear infinite;
+}
+.loader-4037__orbit{
+    position:absolute;
+    left:50%;
+    top:50%;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+}
+.loader-4037__orbit--outer{
+    width:235px;
+    height:235px;
+    border:1px solid rgba(125,211,252,.18);
+    border-top-color:#bae6fd;
+    border-right-color:rgba(96,165,250,.7);
+    box-shadow:
+        0 0 20px rgba(56,189,248,.07),
+        inset 0 0 20px rgba(59,130,246,.04);
+    animation:loader4037OuterOrbit 7s linear infinite;
+}
+.loader-4037__orbit--middle{
+    width:185px;
+    height:185px;
+    border:1px dashed rgba(147,197,253,.28);
+    border-left-color:#7dd3fc;
+    border-bottom-color:#6366f1;
+    animation:loader4037MiddleOrbit 5.3s linear infinite reverse;
+}
+.loader-4037__orbit--inner{
+    width:134px;
+    height:134px;
+    border:1px solid rgba(186,230,253,.2);
+    border-top-color:#fff;
+    border-bottom-color:#38bdf8;
+    box-shadow:inset 0 0 22px rgba(56,189,248,.05);
+    animation:loader4037InnerOrbit 3.5s linear infinite;
+}
+.loader-4037__node{
+    position:absolute;
+    width:10px;
+    height:10px;
+    border:2px solid #020617;
+    border-radius:50%;
+    background:#e0f2fe;
+    box-shadow:
+        0 0 0 2px rgba(56,189,248,.3),
+        0 0 12px rgba(125,211,252,.9);
+    animation:loader4037Node 1.4s ease-in-out infinite;
+}
+.loader-4037__node--1{
+    left:13px;
+    top:54px;
+}
+.loader-4037__node--2{
+    right:15px;
+    top:48px;
+    animation-delay:-.35s;
+}
+.loader-4037__node--3{
+    right:34px;
+    bottom:25px;
+    animation-delay:-.7s;
+}
+.loader-4037__node--4{
+    left:28px;
+    bottom:38px;
+    animation-delay:-1.05s;
+}
+.loader-4037__electric-point{
+    position:absolute;
+    width:8px;
+    height:8px;
+    background:#93c5fd;
+    clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);
+    box-shadow:0 0 10px rgba(147,197,253,.7);
+}
+.loader-4037__electric-point--1{
+    left:50%;
+    top:-4px;
+    transform:translateX(-50%);
+}
+.loader-4037__electric-point--2{
+    right:-4px;
+    top:50%;
+    transform:translateY(-50%);
+}
+.loader-4037__electric-point--3{
+    left:50%;
+    bottom:-4px;
+    transform:translateX(-50%);
+}
+.loader-4037__electric-point--4{
+    left:-4px;
+    top:50%;
+    transform:translateY(-50%);
+}
+.loader-4037__spark{
+    position:absolute;
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    background:#fff;
+    box-shadow:
+        0 0 5px #fff,
+        0 0 11px rgba(125,211,252,.9);
+    animation:loader4037Spark 1.8s ease-in-out infinite;
+}
+.loader-4037__spark--1{
+    left:8px;
+    top:34px;
+}
+.loader-4037__spark--2{
+    right:10px;
+    top:25px;
+    animation-delay:-.3s;
+}
+.loader-4037__spark--3{
+    right:3px;
+    top:68px;
+    animation-delay:-.6s;
+}
+.loader-4037__spark--4{
+    right:27px;
+    bottom:8px;
+    animation-delay:-.9s;
+}
+.loader-4037__spark--5{
+    left:16px;
+    bottom:19px;
+    animation-delay:-1.2s;
+}
+.loader-4037__spark--6{
+    left:-1px;
+    top:70px;
+    animation-delay:-1.5s;
+}
+.loader-4037__arc-field{
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:160px;
+    height:160px;
+    transform:translate(-50%,-50%);
+    animation:loader4037ArcField 7s linear infinite;
+}
+.loader-4037__arc{
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:72px;
+    height:2px;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(255,255,255,.8),
+            rgba(125,211,252,.7),
+            transparent
+        );
+    transform-origin:left center;
+    filter:drop-shadow(0 0 3px rgba(125,211,252,.7));
+    clip-path:polygon(
+        0 40%,
+        18% 0,
+        30% 72%,
+        48% 18%,
+        62% 82%,
+        78% 20%,
+        100% 50%,
+        78% 80%,
+        62% 38%,
+        48% 82%,
+        30% 30%,
+        18% 100%
+    );
+    animation:loader4037ArcPulse 1.5s ease-in-out infinite;
+}
+.loader-4037__arc--1{
+    transform:rotate(0deg);
+}
+.loader-4037__arc--2{
+    transform:rotate(60deg);
+    animation-delay:-.25s;
+}
+.loader-4037__arc--3{
+    transform:rotate(120deg);
+    animation-delay:-.5s;
+}
+.loader-4037__arc--4{
+    transform:rotate(180deg);
+    animation-delay:-.75s;
+}
+.loader-4037__arc--5{
+    transform:rotate(240deg);
+    animation-delay:-1s;
+}
+.loader-4037__arc--6{
+    transform:rotate(300deg);
+    animation-delay:-1.25s;
+}
+.loader-4037__core{
+    position:absolute;
+    left:50%;
+    top:50%;
+    z-index:8;
+    width:104px;
+    height:104px;
+    display:grid;
+    place-items:center;
+    transform:translate(-50%,-50%);
+}
+.loader-4037__core-ring{
+    position:absolute;
+    left:50%;
+    top:50%;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+}
+.loader-4037__core-ring--1{
+    width:102px;
+    height:102px;
+    border:1px solid rgba(125,211,252,.35);
+    box-shadow:
+        0 0 18px rgba(56,189,248,.11),
+        inset 0 0 18px rgba(56,189,248,.05);
+    animation:loader4037CoreRing1 2s ease-in-out infinite;
+}
+.loader-4037__core-ring--2{
+    width:80px;
+    height:80px;
+    border:1px dashed rgba(147,197,253,.55);
+    animation:loader4037CoreRing2 3.5s linear infinite;
+}
+.loader-4037__core-ring--3{
+    width:59px;
+    height:59px;
+    border:2px solid rgba(255,255,255,.2);
+    border-top-color:#fff;
+    border-right-color:#7dd3fc;
+    border-bottom-color:#6366f1;
+    animation:loader4037CoreRing3 2.4s linear infinite reverse;
+}
+.loader-4037__bolt{
+    position:relative;
+    z-index:5;
+    width:36px;
+    height:55px;
+    overflow:hidden;
+    clip-path:polygon(
+        57% 0,
+        20% 48%,
+        46% 48%,
+        31% 100%,
+        82% 38%,
+        57% 38%
+    );
+    background:linear-gradient(145deg,#fff,#bae6fd 32%,#38bdf8 63%,#6366f1);
+    filter:
+        drop-shadow(0 0 7px rgba(255,255,255,.7))
+        drop-shadow(0 0 13px rgba(56,189,248,.6));
+    animation:loader4037Bolt 1.8s ease-in-out infinite;
+}
+.loader-4037__bolt-shine{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(110deg,transparent 20%,rgba(255,255,255,.9) 48%,transparent 72%);
+    transform:translateX(-130%);
+    animation:loader4037BoltShine 1.7s ease-in-out infinite;
+}
+.loader-4037__core-glow{
+    position:absolute;
+    z-index:1;
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    background:rgba(56,189,248,.28);
+    filter:blur(14px);
+    animation:loader4037CoreGlow 1.5s ease-in-out infinite;
+}
+.loader-4037__particle{
+    position:absolute;
+    z-index:9;
+    width:4px;
+    height:4px;
+    border-radius:50%;
+    background:#fff;
+    box-shadow:
+        0 0 6px rgba(255,255,255,.9),
+        0 0 12px rgba(56,189,248,.7);
+    opacity:0;
+}
+.loader-4037__particle--1{
+    left:50px;
+    top:118px;
+    animation:loader4037Particle1 2.2s ease-in-out infinite;
+}
+.loader-4037__particle--2{
+    right:50px;
+    top:112px;
+    animation:loader4037Particle2 2.6s ease-in-out infinite -.4s;
+}
+.loader-4037__particle--3{
+    left:76px;
+    top:49px;
+    animation:loader4037Particle3 2.4s ease-in-out infinite -.8s;
+}
+.loader-4037__particle--4{
+    right:78px;
+    top:48px;
+    animation:loader4037Particle4 2.8s ease-in-out infinite -.3s;
+}
+.loader-4037__particle--5{
+    left:65px;
+    bottom:53px;
+    animation:loader4037Particle5 2.5s ease-in-out infinite -1.1s;
+}
+.loader-4037__particle--6{
+    right:66px;
+    bottom:54px;
+    animation:loader4037Particle6 2.9s ease-in-out infinite -.7s;
+}
+.loader-4037__particle--7{
+    left:132px;
+    bottom:24px;
+    animation:loader4037Particle7 2.3s ease-in-out infinite -.5s;
+}
+.loader-4037__particle--8{
+    right:130px;
+    top:24px;
+    animation:loader4037Particle8 2.7s ease-in-out infinite -1.3s;
+}
+.loader-4037__metrics{
+    position:relative;
+    z-index:3;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:6px;
+    margin-top:-4px;
+    margin-bottom:11px;
+}
+.loader-4037__metric{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:7px 5px;
+    border:1px solid rgba(125,211,252,.1);
+    border-radius:8px;
+    background:rgba(15,23,42,.52);
+}
+.loader-4037__metric span{
+    color:#64748b;
+    font-size:4px;
+    font-weight:900;
+    letter-spacing:.7px;
+}
+.loader-4037__metric strong{
+    margin-top:3px;
+    color:#bae6fd;
+    font-size:6px;
+    letter-spacing:.4px;
+}
+.loader-4037__readout{
+    position:relative;
+    z-index:3;
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    gap:15px;
+}
+.loader-4037__readout>div:first-child{
+    display:flex;
+    flex-direction:column;
+}
+.loader-4037__readout-label{
+    color:#64748b;
+    font-size:5px;
+    font-weight:900;
+    letter-spacing:1.3px;
+}
+.loader-4037__readout-text{
+    display:flex;
+    align-items:center;
+    margin-top:4px;
+    color:#e0f2fe;
+    font-size:8px;
+    font-weight:900;
+    letter-spacing:.8px;
+}
+.loader-4037__dots{
+    display:flex;
+    gap:3px;
+    margin-left:5px;
+}
+.loader-4037__dots span{
+    width:3px;
+    height:3px;
+    border-radius:50%;
+    background:#7dd3fc;
+    box-shadow:0 0 5px rgba(125,211,252,.8);
+    animation:loader4037Dot 1s ease-in-out infinite;
+}
+.loader-4037__dots span:nth-child(2){
+    animation-delay:.12s;
+}
+.loader-4037__dots span:nth-child(3){
+    animation-delay:.24s;
+}
+.loader-4037__percentage{
+    display:flex;
+    align-items:flex-start;
+    color:#f8fafc;
+}
+.loader-4037__percentage strong{
+    font:900 24px/1 Arial Black,Arial,sans-serif;
+    text-shadow:0 0 11px rgba(56,189,248,.24);
+}
+.loader-4037__percentage span{
+    margin:2px 0 0 2px;
+    color:#7dd3fc;
+    font-size:7px;
+    font-weight:900;
+}
+.loader-4037__progress{
+    position:relative;
+    height:13px;
+    margin-top:10px;
+    padding:2px;
+    overflow:hidden;
+    border:1px solid rgba(125,211,252,.18);
+    border-radius:999px;
+    background:rgba(2,6,23,.78);
+}
+.loader-4037__progress-track{
+    position:absolute;
+    inset:2px;
+    border-radius:inherit;
+    background:
+        repeating-linear-gradient(
+            90deg,
+            rgba(255,255,255,.03) 0 7px,
+            transparent 7px 11px
+        );
+}
+.loader-4037__progress-fill{
+    position:absolute;
+    left:2px;
+    top:2px;
+    bottom:2px;
+    width:91%;
+    overflow:hidden;
+    border-radius:inherit;
+    background:linear-gradient(90deg,#2563eb,#0ea5e9,#7dd3fc,#6366f1);
+    box-shadow:0 0 11px rgba(56,189,248,.45);
+    transform-origin:left;
+    animation:loader4037Progress 3.2s ease-in-out infinite;
+}
+.loader-4037__progress-fill::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(110deg,transparent 35%,rgba(255,255,255,.65) 50%,transparent 65%);
+    animation:loader4037ProgressShine 1.4s linear infinite;
+}
+.loader-4037__progress-head{
+    position:absolute;
+    left:89%;
+    top:50%;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:rgba(186,230,253,.3);
+    filter:blur(6px);
+    transform:translate(-50%,-50%);
+    animation:loader4037ProgressHead 3.2s ease-in-out infinite;
+}
+.loader-4037__progress-mark{
+    position:absolute;
+    z-index:4;
+    top:1px;
+    width:1px;
+    height:9px;
+    background:rgba(255,255,255,.25);
+}
+.loader-4037__progress-mark--1{
+    left:25%;
+}
+.loader-4037__progress-mark--2{
+    left:50%;
+}
+.loader-4037__progress-mark--3{
+    left:75%;
+}
+.loader-4037__progress-mark--4{
+    left:90%;
+}
+.loader-4037__footer{
+    position:relative;
+    z-index:3;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:6px;
+    margin-top:10px;
+}
+.loader-4037__footer span{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:4px;
+    padding:6px 4px;
+    border:1px solid rgba(125,211,252,.09);
+    border-radius:7px;
+    background:rgba(15,23,42,.56);
+    color:#64748b;
+    font-size:4px;
+    font-weight:900;
+    letter-spacing:.4px;
+    transition:.2s ease;
+}
+.loader-4037__footer span i{
+    color:#7dd3fc;
+    font-size:8px;
+}
+.loader-4037:hover .loader-4037__shell{
+    border-color:rgba(125,211,252,.34);
+}
+.loader-4037:hover .loader-4037__bolt{
+    filter:
+        drop-shadow(0 0 9px rgba(255,255,255,.9))
+        drop-shadow(0 0 18px rgba(56,189,248,.8));
+}
+.loader-4037:hover .loader-4037__footer span{
+    border-color:rgba(125,211,252,.19);
+    background:rgba(7,89,133,.28);
+    color:#bae6fd;
+}
+.loader-4037:hover .loader-4037__orbit--outer{
+    box-shadow:
+        0 0 27px rgba(56,189,248,.14),
+        inset 0 0 25px rgba(59,130,246,.07);
+}
+@keyframes loader4037Ground{
+    0%,100%{
+        opacity:.35;
+        transform:translateX(-50%) scaleX(.72);
+    }
+    50%{
+        opacity:.8;
+        transform:translateX(-50%) scaleX(1.08);
+    }
+}
+@keyframes loader4037Glow1{
+    0%,100%{
+        transform:translate(0,0) scale(1);
+        opacity:.55;
+    }
+    50%{
+        transform:translate(30px,20px) scale(1.18);
+        opacity:1;
+    }
+}
+@keyframes loader4037Glow2{
+    0%,100%{
+        transform:translate(0,0) scale(1);
+        opacity:.5;
+    }
+    50%{
+        transform:translate(-25px,-18px) scale(1.16);
+        opacity:.95;
+    }
+}
+@keyframes loader4037Glow3{
+    0%,100%{
+        transform:translateY(0) scale(.9);
+        opacity:.45;
+    }
+    50%{
+        transform:translateY(-26px) scale(1.16);
+        opacity:.9;
+    }
+}
+@keyframes loader4037Rain{
+    0%{
+        transform:translateY(-80px) translateX(0) rotate(11deg);
+        opacity:0;
+    }
+    12%{
+        opacity:.65;
+    }
+    100%{
+        transform:translateY(650px) translateX(-110px) rotate(11deg);
+        opacity:0;
+    }
+}
+@keyframes loader4037ShellShine{
+    0%,68%{
+        left:-70px;
+        opacity:0;
+    }
+    74%{
+        opacity:.65;
+    }
+    92%{
+        left:calc(100% + 70px);
+        opacity:.65;
+    }
+    100%{
+        left:calc(100% + 70px);
+        opacity:0;
+    }
+}
+@keyframes loader4037TitleIcon{
+    0%,100%{
+        transform:rotate(0deg) scale(1);
+        box-shadow:
+            0 0 12px rgba(56,189,248,.12),
+            inset 0 1px 0 rgba(255,255,255,.08);
+    }
+    50%{
+        transform:rotate(-6deg) scale(1.08);
+        box-shadow:
+            0 0 22px rgba(56,189,248,.3),
+            inset 0 1px 0 rgba(255,255,255,.1);
+    }
+}
+@keyframes loader4037Status{
+    0%,100%{
+        transform:scale(.7);
+        opacity:.4;
+    }
+    50%{
+        transform:scale(1.35);
+        opacity:1;
+    }
+}
+@keyframes loader4037ReactorGlow{
+    0%,100%{
+        opacity:.48;
+        transform:scale(.88);
+    }
+    50%{
+        opacity:1;
+        transform:scale(1.09);
+    }
+}
+@keyframes loader4037ReactorShadow{
+    0%,100%{
+        opacity:.28;
+        transform:scaleX(.75);
+    }
+    50%{
+        opacity:.72;
+        transform:scaleX(1.18);
+    }
+}
+@keyframes loader4037Cloud1{
+    0%,100%{
+        transform:translateX(0);
+        opacity:.45;
+    }
+    50%{
+        transform:translateX(20px);
+        opacity:.72;
+    }
+}
+@keyframes loader4037Cloud2{
+    0%,100%{
+        transform:translateX(0);
+    }
+    50%{
+        transform:translateX(-24px);
+    }
+}
+@keyframes loader4037Cloud3{
+    0%,100%{
+        transform:translateX(-14px);
+    }
+    50%{
+        transform:translateX(15px);
+    }
+}
+@keyframes loader4037Flash1{
+    0%,8%,10%,12%,100%{
+        opacity:0;
+    }
+    9%{
+        opacity:1;
+    }
+    11%{
+        opacity:.75;
+    }
+}
+@keyframes loader4037Flash2{
+    0%,54%,56%,58%,100%{
+        opacity:0;
+    }
+    55%{
+        opacity:.95;
+    }
+    57%{
+        opacity:.65;
+    }
+}
+@keyframes loader4037OuterOrbit{
+    from{
+        transform:translate(-50%,-50%) rotate(0deg);
+    }
+    to{
+        transform:translate(-50%,-50%) rotate(360deg);
+    }
+}
+@keyframes loader4037MiddleOrbit{
+    from{
+        transform:translate(-50%,-50%) rotate(0deg);
+    }
+    to{
+        transform:translate(-50%,-50%) rotate(360deg);
+    }
+}
+@keyframes loader4037InnerOrbit{
+    from{
+        transform:translate(-50%,-50%) rotate(0deg);
+    }
+    to{
+        transform:translate(-50%,-50%) rotate(360deg);
+    }
+}
+@keyframes loader4037Node{
+    0%,100%{
+        transform:scale(.72);
+        opacity:.55;
+    }
+    50%{
+        transform:scale(1.35);
+        opacity:1;
+    }
+}
+@keyframes loader4037Spark{
+    0%,100%{
+        transform:scale(.6);
+        opacity:.4;
+    }
+    50%{
+        transform:scale(1.5);
+        opacity:1;
+    }
+}
+@keyframes loader4037ArcField{
+    from{
+        transform:translate(-50%,-50%) rotate(0deg);
+    }
+    to{
+        transform:translate(-50%,-50%) rotate(360deg);
+    }
+}
+@keyframes loader4037ArcPulse{
+    0%,100%{
+        opacity:.15;
+        filter:drop-shadow(0 0 2px rgba(125,211,252,.3));
+    }
+    50%{
+        opacity:.95;
+        filter:drop-shadow(0 0 6px rgba(125,211,252,.95));
+    }
+}
+@keyframes loader4037CoreRing1{
+    0%,100%{
+        transform:translate(-50%,-50%) scale(.9);
+        opacity:.45;
+    }
+    50%{
+        transform:translate(-50%,-50%) scale(1.1);
+        opacity:1;
+    }
+}
+@keyframes loader4037CoreRing2{
+    from{
+        transform:translate(-50%,-50%) rotate(0deg);
+    }
+    to{
+        transform:translate(-50%,-50%) rotate(360deg);
+    }
+}
+@keyframes loader4037CoreRing3{
+    from{
+        transform:translate(-50%,-50%) rotate(0deg);
+    }
+    to{
+        transform:translate(-50%,-50%) rotate(360deg);
+    }
+}
+@keyframes loader4037Bolt{
+    0%,100%{
+        transform:translateY(0) rotate(-2deg) scale(.94);
+    }
+    25%{
+        transform:translateY(-2px) rotate(2deg) scale(1);
+    }
+    50%{
+        transform:translateY(-5px) rotate(-1deg) scale(1.12);
+    }
+    75%{
+        transform:translateY(-2px) rotate(2deg) scale(1);
+    }
+}
+@keyframes loader4037BoltShine{
+    0%{
+        transform:translateX(-140%);
+        opacity:0;
+    }
+    30%{
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    70%{
+        opacity:0;
+    }
+    100%{
+        transform:translateX(140%);
+        opacity:0;
+    }
+}
+@keyframes loader4037CoreGlow{
+    0%,100%{
+        transform:scale(.72);
+        opacity:.38;
+    }
+    50%{
+        transform:scale(1.35);
+        opacity:1;
+    }
+}
+@keyframes loader4037Particle1{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    45%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(44px,-38px) scale(1.3);
+        opacity:0;
+    }
+}
+@keyframes loader4037Particle2{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    45%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(-42px,-42px) scale(1.25);
+        opacity:0;
+    }
+}
+@keyframes loader4037Particle3{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(28px,44px) scale(1.25);
+        opacity:0;
+    }
+}
+@keyframes loader4037Particle4{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(-27px,46px) scale(1.2);
+        opacity:0;
+    }
+}
+@keyframes loader4037Particle5{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(30px,-42px) scale(1.3);
+        opacity:0;
+    }
+}
+@keyframes loader4037Particle6{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(-29px,-44px) scale(1.25);
+        opacity:0;
+    }
+}
+@keyframes loader4037Particle7{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(4px,-52px) scale(1.3);
+        opacity:0;
+    }
+}
+@keyframes loader4037Particle8{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(-6px,50px) scale(1.25);
+        opacity:0;
+    }
+}
+@keyframes loader4037Dot{
+    0%,100%{
+        transform:translateY(0) scale(.65);
+        opacity:.3;
+    }
+    50%{
+        transform:translateY(-2px) scale(1.25);
+        opacity:1;
+    }
+}
+@keyframes loader4037Progress{
+    0%,100%{
+        width:72%;
+        filter:saturate(.9);
+    }
+    50%{
+        width:94%;
+        filter:saturate(1.4);
+    }
+}
+@keyframes loader4037ProgressShine{
+    from{
+        transform:translateX(-140%);
+    }
+    to{
+        transform:translateX(140%);
+    }
+}
+@keyframes loader4037ProgressHead{
+    0%,100%{
+        left:70%;
+        opacity:.4;
+    }
+    50%{
+        left:92%;
+        opacity:1;
+    }
+}
+@media(max-width:520px){
+    .loader-4037{
+        width:100%;
+        min-height:510px;
+    }
+    .loader-4037__shell{
+        width:calc(100% - 24px);
+        padding:13px;
+    }
+    .loader-4037__reactor{
+        width:245px;
+        height:245px;
+    }
+    .loader-4037__orbit--outer{
+        width:215px;
+        height:215px;
+    }
+    .loader-4037__orbit--middle{
+        width:168px;
+        height:168px;
+    }
+    .loader-4037__orbit--inner{
+        width:124px;
+        height:124px;
+    }
+    .loader-4037__metrics{
+        gap:4px;
+    }
+    .loader-4037__footer{
+        gap:4px;
+    }
+    .loader-4037__footer span{
+        padding:5px 2px;
+        font-size:3px;
+    }
+}`,
+  },
 ];
