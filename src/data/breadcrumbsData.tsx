@@ -2125,4 +2125,458 @@ export const breadcrumbs = [
     }
 }`,
   },
+  {
+    id: 3994,
+    name: "Simple Breadcrumb",
+    preview: (
+      <nav className="breadcrumb-3994" aria-label="Breadcrumb">
+        <a href="#">Home</a>
+        <i className="ri-arrow-right-s-line"></i>
+        <a href="#">Products</a>
+        <i className="ri-arrow-right-s-line"></i>
+        <span>Headphones</span>
+      </nav>
+    ),
+    html: `<nav class="breadcrumb-3994" aria-label="Breadcrumb">
+    <a href="#">Home</a>
+    <i class="ri-arrow-right-s-line"></i>
+    <a href="#">Products</a>
+    <i class="ri-arrow-right-s-line"></i>
+    <span>Headphones</span>
+</nav>`,
+    css: `.breadcrumb-3994{display:flex;align-items:center;gap:6px;font-family:Arial,Helvetica,sans-serif;font-size:13px}.breadcrumb-3994 a{color:#64748b;text-decoration:none;transition:color .18s ease}.breadcrumb-3994 a:hover{color:#0f172a}.breadcrumb-3994 i{color:#94a3b8;font-size:16px}.breadcrumb-3994 span{color:#0f172a;font-weight:600}`,
+  },
+  {
+    id: 3995,
+    name: "Icon Breadcrumb",
+    preview: (
+      <nav className="breadcrumb-3995" aria-label="Breadcrumb">
+        <a href="#" className="breadcrumb-3995__home" aria-label="Home">
+          <i className="ri-home-5-line"></i>
+        </a>
+
+        <i className="ri-arrow-right-s-line"></i>
+
+        <a href="#">
+          <i className="ri-folder-line"></i>
+          Projects
+        </a>
+
+        <i className="ri-arrow-right-s-line"></i>
+
+        <a href="#">Website</a>
+
+        <i className="ri-arrow-right-s-line"></i>
+
+        <span>Dashboard</span>
+      </nav>
+    ),
+    html: `<nav class="breadcrumb-3995" aria-label="Breadcrumb">
+    <a href="#" class="breadcrumb-3995__home" aria-label="Home">
+        <i class="ri-home-5-line"></i>
+    </a>
+
+    <i class="ri-arrow-right-s-line"></i>
+
+    <a href="#">
+        <i class="ri-folder-line"></i>
+        Projects
+    </a>
+
+    <i class="ri-arrow-right-s-line"></i>
+
+    <a href="#">Website</a>
+
+    <i class="ri-arrow-right-s-line"></i>
+
+    <span>Dashboard</span>
+</nav>`,
+    css: `.breadcrumb-3995{display:flex;align-items:center;gap:7px;font-family:Arial,Helvetica,sans-serif;font-size:13px}.breadcrumb-3995>a{display:flex;align-items:center;gap:5px;color:#64748b;text-decoration:none;transition:color .18s ease}.breadcrumb-3995>a:hover{color:#2563eb}.breadcrumb-3995>a>i{font-size:15px}.breadcrumb-3995>i{color:#cbd5e1;font-size:16px}.breadcrumb-3995__home{width:28px;height:28px;justify-content:center;border:1px solid #e2e8f0;border-radius:6px;background:#f8fafc}.breadcrumb-3995__home:hover{background:#eff6ff}.breadcrumb-3995 span{color:#0f172a;font-weight:600}`,
+  },
+  {
+    id: 3996,
+    name: "Contained Breadcrumb",
+    preview: (
+      <nav className="breadcrumb-3996" aria-label="Breadcrumb">
+        <a href="#">
+          <i className="ri-home-4-line"></i>
+          Home
+        </a>
+
+        <span className="breadcrumb-3996__separator">/</span>
+
+        <a href="#">Account</a>
+
+        <span className="breadcrumb-3996__separator">/</span>
+
+        <span className="breadcrumb-3996__current">
+          <i className="ri-settings-3-line"></i>
+          Settings
+        </span>
+      </nav>
+    ),
+    html: `<nav class="breadcrumb-3996" aria-label="Breadcrumb">
+    <a href="#">
+        <i class="ri-home-4-line"></i>
+        Home
+    </a>
+
+    <span class="breadcrumb-3996__separator">/</span>
+
+    <a href="#">Account</a>
+
+    <span class="breadcrumb-3996__separator">/</span>
+
+    <span class="breadcrumb-3996__current">
+        <i class="ri-settings-3-line"></i>
+        Settings
+    </span>
+</nav>`,
+    css: `.breadcrumb-3996{display:flex;align-items:center;gap:8px;width:max-content;max-width:100%;padding:8px 10px;border:1px solid #e2e8f0;border-radius:8px;background:#fff;box-shadow:0 1px 2px rgba(15,23,42,.05);font-family:Arial,Helvetica,sans-serif;font-size:12px}.breadcrumb-3996 a{display:flex;align-items:center;gap:5px;color:#64748b;text-decoration:none;transition:color .18s ease}.breadcrumb-3996 a:hover{color:#2563eb}.breadcrumb-3996 a i{font-size:14px}.breadcrumb-3996__separator{color:#cbd5e1}.breadcrumb-3996__current{display:flex;align-items:center;gap:5px;color:#0f172a;font-weight:600}.breadcrumb-3996__current i{color:#64748b;font-size:14px}`,
+  },
+  {
+    id: 3997,
+    name: "Crystal Ocean Breadcrumb",
+    preview: (
+      <div className="breadcrumb-3997-wrap">
+        <nav className="breadcrumb-3997" aria-label="Breadcrumb">
+          <a href="#">
+            <i className="fa-solid fa-water"></i>
+            OCEAN
+          </a>
+          <i className="fa-solid fa-chevron-right"></i>
+          <a href="#">DEPTHS</a>
+          <i className="fa-solid fa-chevron-right"></i>
+          <span>MARIANA</span>
+        </nav>
+      </div>
+    ),
+    html: `<div class="breadcrumb-3997-wrap">
+    <nav class="breadcrumb-3997" aria-label="Breadcrumb">
+        <a href="#">
+            <i class="fa-solid fa-water"></i>
+            OCEAN
+        </a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <a href="#">DEPTHS</a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <span>MARIANA</span>
+    </nav>
+</div>`,
+    css: `.breadcrumb-3997-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.breadcrumb-3997 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 9px 12px;
+    border: 1px solid rgba(125,211,252,.3);
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(8,47,73,.92), rgba(14,116,144,.35));
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.18), 0 8px 24px rgba(14,116,144,.22);
+    backdrop-filter: blur(12px);
+    color: #e0f2fe;
+}
+.breadcrumb-3997 a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #7dd3fc;
+    text-decoration: none;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+.breadcrumb-3997 > i {
+    color: #67e8f9;
+    font-size: 7px;
+}
+.breadcrumb-3997 span {
+    color: #f0f9ff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .08em;
+}`,
+  },
+  {
+    id: 3998,
+    name: "Rose Crystal Breadcrumb",
+    preview: (
+      <div className="breadcrumb-3998-wrap">
+        <nav className="breadcrumb-3998" aria-label="Breadcrumb">
+          <a href="#">
+            <i className="fa-solid fa-gem"></i>
+            ROSE
+          </a>
+          <i className="fa-solid fa-chevron-right"></i>
+          <a href="#">QUARTZ</a>
+          <i className="fa-solid fa-chevron-right"></i>
+          <span>CORE</span>
+        </nav>
+      </div>
+    ),
+    html: `<div class="breadcrumb-3998-wrap">
+    <nav class="breadcrumb-3998" aria-label="Breadcrumb">
+        <a href="#">
+            <i class="fa-solid fa-gem"></i>
+            ROSE
+        </a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <a href="#">QUARTZ</a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <span>CORE</span>
+    </nav>
+</div>`,
+    css: `.breadcrumb-3998-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.breadcrumb-3998 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 9px 13px;
+    border: 1px solid rgba(251,207,232,.35);
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(80,7,36,.92), rgba(190,24,93,.22));
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.18), 0 8px 24px rgba(190,24,93,.18);
+    backdrop-filter: blur(12px);
+    color: #fff1f2;
+}
+.breadcrumb-3998 a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #f9a8d4;
+    text-decoration: none;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+.breadcrumb-3998 > i {
+    color: #fbcfe8;
+    font-size: 7px;
+}
+.breadcrumb-3998 span {
+    color: #fff1f2;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .08em;
+}`,
+  },
+  {
+    id: 3999,
+    name: "Amethyst Crystal Breadcrumb",
+    preview: (
+      <div className="breadcrumb-3999-wrap">
+        <nav className="breadcrumb-3999" aria-label="Breadcrumb">
+          <a href="#">
+            <i className="fa-solid fa-sparkles"></i>
+            AMETHYST
+          </a>
+          <i className="fa-solid fa-chevron-right"></i>
+          <a href="#">SPIRE</a>
+          <i className="fa-solid fa-chevron-right"></i>
+          <span>CHAMBER</span>
+        </nav>
+      </div>
+    ),
+    html: `<div class="breadcrumb-3999-wrap">
+    <nav class="breadcrumb-3999" aria-label="Breadcrumb">
+        <a href="#">
+            <i class="fa-solid fa-sparkles"></i>
+            AMETHYST
+        </a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <a href="#">SPIRE</a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <span>CHAMBER</span>
+    </nav>
+</div>`,
+    css: `.breadcrumb-3999-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.breadcrumb-3999 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 9px 13px;
+    border: 1px solid rgba(196,181,253,.35);
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(46,16,101,.92), rgba(109,40,217,.22));
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.16), 0 8px 24px rgba(109,40,217,.2);
+    backdrop-filter: blur(12px);
+    color: #f5f3ff;
+}
+.breadcrumb-3999 a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #c4b5fd;
+    text-decoration: none;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+.breadcrumb-3999 > i {
+    color: #ddd6fe;
+    font-size: 7px;
+}
+.breadcrumb-3999 span {
+    color: #ffffff;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .08em;
+}`,
+  },
+  {
+    id: 4000,
+    name: "Emerald Crystal Breadcrumb",
+    preview: (
+      <div className="breadcrumb-4000-wrap">
+        <nav className="breadcrumb-4000" aria-label="Breadcrumb">
+          <a href="#">
+            <i className="fa-solid fa-leaf"></i>
+            EMERALD
+          </a>
+          <i className="fa-solid fa-chevron-right"></i>
+          <a href="#">GROVE</a>
+          <i className="fa-solid fa-chevron-right"></i>
+          <span>TEMPLE</span>
+        </nav>
+      </div>
+    ),
+    html: `<div class="breadcrumb-4000-wrap">
+    <nav class="breadcrumb-4000" aria-label="Breadcrumb">
+        <a href="#">
+            <i class="fa-solid fa-leaf"></i>
+            EMERALD
+        </a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <a href="#">GROVE</a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <span>TEMPLE</span>
+    </nav>
+</div>`,
+    css: `.breadcrumb-4000-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.breadcrumb-4000 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 9px 13px;
+    border: 1px solid rgba(134,239,172,.35);
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(20,83,45,.92), rgba(34,197,94,.18));
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 8px 24px rgba(34,197,94,.18);
+    backdrop-filter: blur(12px);
+    color: #ecfdf5;
+}
+.breadcrumb-4000 a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #86efac;
+    text-decoration: none;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+.breadcrumb-4000 > i {
+    color: #bbf7d0;
+    font-size: 7px;
+}
+.breadcrumb-4000 span {
+    color: #f0fdf4;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .08em;
+}`,
+  },
+  {
+    id: 4001,
+    name: "Golden Crystal Breadcrumb",
+    preview: (
+      <div className="breadcrumb-4001-wrap">
+        <nav className="breadcrumb-4001" aria-label="Breadcrumb">
+          <a href="#">
+            <i className="fa-solid fa-sun"></i>
+            GOLD
+          </a>
+          <i className="fa-solid fa-chevron-right"></i>
+          <a href="#">SHARD</a>
+          <i className="fa-solid fa-chevron-right"></i>
+          <span>CROWN</span>
+        </nav>
+      </div>
+    ),
+    html: `<div class="breadcrumb-4001-wrap">
+    <nav class="breadcrumb-4001" aria-label="Breadcrumb">
+        <a href="#">
+            <i class="fa-solid fa-sun"></i>
+            GOLD
+        </a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <a href="#">SHARD</a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <span>CROWN</span>
+    </nav>
+</div>`,
+    css: `.breadcrumb-4001-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.breadcrumb-4001 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 9px 13px;
+    border: 1px solid rgba(253,224,71,.35);
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(120,53,15,.92), rgba(245,158,11,.22));
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.18), 0 8px 24px rgba(245,158,11,.18);
+    backdrop-filter: blur(12px);
+    color: #fffbeb;
+}
+.breadcrumb-4001 a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #fde68a;
+    text-decoration: none;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+.breadcrumb-4001 > i {
+    color: #facc15;
+    font-size: 7px;
+}
+.breadcrumb-4001 span {
+    color: #fff7ed;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .08em;
+}`,
+  },
 ];
