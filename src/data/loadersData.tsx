@@ -70061,4 +70061,164 @@ export const loaders = [
     }
 }`,
   },
+  {
+    id: 4044,
+    name: "Minimal Ring Loader",
+    preview: <div className="loader-4044"></div>,
+    html: `<div class="loader-4044"></div>`,
+    css: `.loader-4044{width:34px;height:34px;border:3px solid #e5e7eb;border-top-color:#2563eb;border-radius:50%;animation:loader4044Spin .8s linear infinite}@keyframes loader4044Spin{to{transform:rotate(360deg)}}`,
+  },
+  {
+    id: 4045,
+    name: "Soft Bouncing Dots Loader",
+    preview: (
+      <div className="loader-4045">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4045">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4045{height:32px;display:flex;align-items:center;gap:6px}.loader-4045 span{width:8px;height:8px;border-radius:50%;background:#3b82f6;animation:loader4045Bounce 1s ease-in-out infinite}.loader-4045 span:nth-child(2){animation-delay:.12s}.loader-4045 span:nth-child(3){animation-delay:.24s}@keyframes loader4045Bounce{0%,100%{transform:translateY(3px);opacity:.45}50%{transform:translateY(-6px);opacity:1}}`,
+  },
+  {
+    id: 4046,
+    name: "Friendly Pulse Loader",
+    preview: (
+      <div className="loader-4046">
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4046">
+    <span></span>
+</div>`,
+    css: `.loader-4046{position:relative;width:36px;height:36px;display:grid;place-items:center}.loader-4046::before{content:"";position:absolute;width:30px;height:30px;border-radius:50%;background:rgba(59,130,246,.14);animation:loader4046Wave 1.5s ease-out infinite}.loader-4046 span{position:relative;width:12px;height:12px;border-radius:50%;background:#3b82f6;box-shadow:0 2px 8px rgba(59,130,246,.3);animation:loader4046Dot 1.5s ease-in-out infinite}@keyframes loader4046Wave{0%{transform:scale(.5);opacity:1}100%{transform:scale(1.35);opacity:0}}@keyframes loader4046Dot{0%,100%{transform:scale(.85)}50%{transform:scale(1.12)}}`,
+  },
+  {
+    id: 4047,
+    name: "Clean Equalizer Loader",
+    preview: (
+      <div className="loader-4047">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4047">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4047{height:34px;display:flex;align-items:center;gap:4px}.loader-4047 span{width:4px;height:12px;border-radius:999px;background:#2563eb;animation:loader4047Bars 1s ease-in-out infinite}.loader-4047 span:nth-child(2){animation-delay:.1s}.loader-4047 span:nth-child(3){animation-delay:.2s}.loader-4047 span:nth-child(4){animation-delay:.3s}.loader-4047 span:nth-child(5){animation-delay:.4s}@keyframes loader4047Bars{0%,100%{height:9px;opacity:.4}50%{height:28px;opacity:1}}`,
+  },
+  {
+    id: 4048,
+    name: "Dual Ring Loader",
+    preview: (
+      <div className="loader-4048">
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4048">
+    <span></span>
+</div>`,
+    css: `.loader-4048{position:relative;width:38px;height:38px;border:3px solid #e5e7eb;border-top-color:#2563eb;border-radius:50%;animation:loader4048Outer .9s linear infinite}.loader-4048 span{position:absolute;inset:6px;border:2px solid #dbeafe;border-bottom-color:#60a5fa;border-radius:50%;animation:loader4048Inner .65s linear infinite reverse}@keyframes loader4048Outer{to{transform:rotate(360deg)}}@keyframes loader4048Inner{to{transform:rotate(360deg)}}`,
+  },
+  {
+    id: 4049,
+    name: "Sliding Pills Loader",
+    preview: (
+      <div className="loader-4049">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4049">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4049{height:30px;display:flex;align-items:center;gap:5px}.loader-4049 span{width:6px;height:18px;border-radius:999px;background:#bfdbfe;animation:loader4049Pill 1.2s ease-in-out infinite}.loader-4049 span:nth-child(2){animation-delay:.12s}.loader-4049 span:nth-child(3){animation-delay:.24s}.loader-4049 span:nth-child(4){animation-delay:.36s}@keyframes loader4049Pill{0%,100%{height:12px;background:#bfdbfe;transform:translateY(2px)}50%{height:24px;background:#3b82f6;transform:translateY(-2px)}}`,
+  },
+  {
+    id: 4050,
+    name: "Minimal Progress Loader",
+    preview: (
+      <div className="loader-4050">
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4050">
+    <span></span>
+</div>`,
+    css: `.loader-4050{position:relative;width:110px;height:6px;overflow:hidden;border-radius:999px;background:#e5e7eb}.loader-4050 span{position:absolute;top:0;bottom:0;left:-40%;width:40%;border-radius:999px;background:linear-gradient(90deg,#60a5fa,#2563eb);animation:loader4050Slide 1.35s ease-in-out infinite}@keyframes loader4050Slide{0%{left:-40%;width:35%}50%{width:55%}100%{left:105%;width:35%}}`,
+  },
+  {
+    id: 4051,
+    name: "Orbit Dots Loader",
+    preview: (
+      <div className="loader-4051">
+        <span className="loader-4051-dot loader-4051-dot-1"></span>
+        <span className="loader-4051-dot loader-4051-dot-2"></span>
+        <span className="loader-4051-dot loader-4051-dot-3"></span>
+      </div>
+    ),
+    html: `<div class="loader-4051">
+    <span class="loader-4051-dot loader-4051-dot-1"></span>
+    <span class="loader-4051-dot loader-4051-dot-2"></span>
+    <span class="loader-4051-dot loader-4051-dot-3"></span>
+</div>`,
+    css: `.loader-4051{position:relative;width:40px;height:40px;animation:loader4051Rotate 1.4s linear infinite}.loader-4051-dot{position:absolute;width:8px;height:8px;border-radius:50%;background:#3b82f6;box-shadow:0 2px 6px rgba(59,130,246,.25)}.loader-4051-dot-1{left:16px;top:1px}.loader-4051-dot-2{right:2px;bottom:7px;background:#60a5fa}.loader-4051-dot-3{left:2px;bottom:7px;background:#93c5fd}@keyframes loader4051Rotate{to{transform:rotate(360deg)}}`,
+  },
+  {
+    id: 4052,
+    name: "Friendly Wave Dots Loader",
+    preview: (
+      <div className="loader-4052">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4052">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4052{height:34px;display:flex;align-items:center;gap:5px}.loader-4052 span{width:7px;height:7px;border-radius:50%;background:#60a5fa;animation:loader4052Wave 1.25s ease-in-out infinite}.loader-4052 span:nth-child(2){animation-delay:.1s}.loader-4052 span:nth-child(3){animation-delay:.2s}.loader-4052 span:nth-child(4){animation-delay:.3s}.loader-4052 span:nth-child(5){animation-delay:.4s}@keyframes loader4052Wave{0%,100%{transform:translateY(4px) scale(.8);opacity:.4}50%{transform:translateY(-5px) scale(1.08);opacity:1}}`,
+  },
+  {
+    id: 4053,
+    name: "Soft Grid Pulse Loader",
+    preview: (
+      <div className="loader-4053">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4053">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4053{width:30px;height:30px;display:grid;grid-template-columns:repeat(2,1fr);gap:4px}.loader-4053 span{border-radius:5px;background:#3b82f6;animation:loader4053Pulse 1.2s ease-in-out infinite}.loader-4053 span:nth-child(2){animation-delay:.15s}.loader-4053 span:nth-child(3){animation-delay:.45s}.loader-4053 span:nth-child(4){animation-delay:.3s}@keyframes loader4053Pulse{0%,100%{transform:scale(.7);opacity:.35}50%{transform:scale(1);opacity:1}}`,
+  },
 ];
