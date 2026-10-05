@@ -69686,7 +69686,7 @@ export const loaders = [
 }
 
 @keyframes loader4042Blade {
-    0%,
+    0%,   
     100% {
         height: 12px;
         opacity: .25;
@@ -69698,7 +69698,7 @@ export const loaders = [
     }
 
     50% {
-        height: 22px;
+        height: 22px;   
         opacity: 1;
         filter:
             brightness(1.5)
