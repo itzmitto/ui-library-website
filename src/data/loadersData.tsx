@@ -68606,4 +68606,431 @@ export const loaders = [
     }
 }`,
   },
+  {
+    id: 4040,
+    name: "Elemental Seismic Crystal Loader",
+    preview: (
+      <div className="loader-4040">
+        <span className="loader-4040-ground"></span>
+
+        <span className="loader-4040-shard loader-4040-shard-1"></span>
+        <span className="loader-4040-shard loader-4040-shard-2"></span>
+        <span className="loader-4040-shard loader-4040-shard-3"></span>
+        <span className="loader-4040-shard loader-4040-shard-4"></span>
+        <span className="loader-4040-shard loader-4040-shard-5"></span>
+        <span className="loader-4040-shard loader-4040-shard-6"></span>
+        <span className="loader-4040-shard loader-4040-shard-7"></span>
+
+        <span className="loader-4040-dust loader-4040-dust-1"></span>
+        <span className="loader-4040-dust loader-4040-dust-2"></span>
+        <span className="loader-4040-dust loader-4040-dust-3"></span>
+        <span className="loader-4040-dust loader-4040-dust-4"></span>
+        <span className="loader-4040-dust loader-4040-dust-5"></span>
+      </div>
+    ),
+    html: `<div class="loader-4040">
+    <span class="loader-4040-ground"></span>
+
+    <span class="loader-4040-shard loader-4040-shard-1"></span>
+    <span class="loader-4040-shard loader-4040-shard-2"></span>
+    <span class="loader-4040-shard loader-4040-shard-3"></span>
+    <span class="loader-4040-shard loader-4040-shard-4"></span>
+    <span class="loader-4040-shard loader-4040-shard-5"></span>
+    <span class="loader-4040-shard loader-4040-shard-6"></span>
+    <span class="loader-4040-shard loader-4040-shard-7"></span>
+
+    <span class="loader-4040-dust loader-4040-dust-1"></span>
+    <span class="loader-4040-dust loader-4040-dust-2"></span>
+    <span class="loader-4040-dust loader-4040-dust-3"></span>
+    <span class="loader-4040-dust loader-4040-dust-4"></span>
+    <span class="loader-4040-dust loader-4040-dust-5"></span>
+</div>`,
+    css: `.loader-4040 {
+    position: relative;
+    width: 78px;
+    height: 54px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 3px;
+}
+
+.loader-4040::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 3px;
+    width: 68px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(132, 204, 22, .12);
+    filter: blur(5px);
+    transform: translateX(-50%);
+    animation: loader4040Glow 1.5s ease-in-out infinite;
+}
+
+.loader-4040-ground {
+    position: absolute;
+    left: 50%;
+    bottom: 3px;
+    width: 66px;
+    height: 4px;
+    overflow: hidden;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            90deg,
+            #1c1917,
+            #44403c,
+            #292524
+        );
+    box-shadow:
+        0 0 7px rgba(132, 204, 22, .18),
+        inset 0 1px 0 rgba(255, 255, 255, .06);
+    transform: translateX(-50%);
+}
+
+.loader-4040-ground::before {
+    content: "";
+    position: absolute;
+    left: -40%;
+    top: 0;
+    width: 35%;
+    height: 100%;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #a3e635,
+            #bef264,
+            transparent
+        );
+    box-shadow: 0 0 8px rgba(163, 230, 53, .65);
+    animation: loader4040GroundLight 1.5s ease-in-out infinite;
+}
+
+.loader-4040-shard {
+    position: relative;
+    z-index: 2;
+    width: 7px;
+    height: 12px;
+    margin-bottom: 6px;
+    clip-path:
+        polygon(
+            50% 0%,
+            100% 28%,
+            82% 100%,
+            18% 100%,
+            0% 28%
+        );
+    background:
+        linear-gradient(
+            135deg,
+            #d9f99d 0%,
+            #84cc16 28%,
+            #4d7c0f 58%,
+            #292524 100%
+        );
+    filter:
+        drop-shadow(
+            0 0 3px rgba(163, 230, 53, .25)
+        );
+    transform-origin: bottom center;
+    animation: loader4040Shard 1.4s ease-in-out infinite;
+}
+
+.loader-4040-shard::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background:
+        rgba(236, 252, 203, .32);
+    transform: translateX(-50%);
+}
+
+.loader-4040-shard-1 {
+    height: 11px;
+    animation-delay: -.9s;
+}
+
+.loader-4040-shard-2 {
+    height: 18px;
+    animation-delay: -.72s;
+}
+
+.loader-4040-shard-3 {
+    height: 27px;
+    animation-delay: -.54s;
+}
+
+.loader-4040-shard-4 {
+    height: 37px;
+    width: 8px;
+    background:
+        linear-gradient(
+            135deg,
+            #ecfccb 0%,
+            #a3e635 25%,
+            #65a30d 58%,
+            #292524 100%
+        );
+    filter:
+        drop-shadow(
+            0 0 5px rgba(163, 230, 53, .42)
+        );
+    animation-delay: -.36s;
+}
+
+.loader-4040-shard-5 {
+    height: 27px;
+    animation-delay: -.18s;
+}
+
+.loader-4040-shard-6 {
+    height: 18px;
+}
+
+.loader-4040-shard-7 {
+    height: 11px;
+    animation-delay: -.18s;
+}
+
+.loader-4040-dust {
+    position: absolute;
+    z-index: 3;
+    bottom: 7px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #bef264;
+    box-shadow:
+        0 0 5px rgba(163, 230, 53, .6);
+    opacity: 0;
+}
+
+.loader-4040-dust-1 {
+    left: 18px;
+    animation: loader4040Dust1 1.6s ease-out infinite;
+}
+
+.loader-4040-dust-2 {
+    left: 27px;
+    animation: loader4040Dust2 1.6s ease-out infinite -.3s;
+}
+
+.loader-4040-dust-3 {
+    left: 37px;
+    width: 3px;
+    height: 3px;
+    animation: loader4040Dust3 1.6s ease-out infinite -.6s;
+}
+
+.loader-4040-dust-4 {
+    right: 26px;
+    animation: loader4040Dust4 1.6s ease-out infinite -.9s;
+}
+
+.loader-4040-dust-5 {
+    right: 17px;
+    width: 3px;
+    height: 3px;
+    animation: loader4040Dust5 1.6s ease-out infinite -1.2s;
+}
+
+.loader-4040:hover .loader-4040-shard {
+    filter:
+        brightness(1.18)
+        drop-shadow(
+            0 0 6px rgba(163, 230, 53, .5)
+        );
+}
+
+@keyframes loader4040Shard {
+    0%,
+    100% {
+        transform:
+            translateY(5px)
+            scaleY(.55)
+            rotate(-2deg);
+        opacity: .35;
+    }
+
+    25% {
+        transform:
+            translateY(1px)
+            scaleY(.82)
+            rotate(1deg);
+        opacity: .65;
+    }
+
+    50% {
+        transform:
+            translateY(-5px)
+            scaleY(1.08)
+            rotate(0deg);
+        opacity: 1;
+        filter:
+            brightness(1.45)
+            drop-shadow(
+                0 0 7px rgba(163, 230, 53, .55)
+            );
+    }
+
+    75% {
+        transform:
+            translateY(0)
+            scaleY(.86)
+            rotate(-1deg);
+        opacity: .7;
+    }
+}
+
+@keyframes loader4040GroundLight {
+    0%,
+    100% {
+        left: -40%;
+        opacity: 0;
+    }
+
+    20% {
+        opacity: .7;
+    }
+
+    50% {
+        left: 55%;
+        opacity: 1;
+    }
+
+    80% {
+        opacity: .5;
+    }
+
+    100% {
+        left: 110%;
+        opacity: 0;
+    }
+}
+
+@keyframes loader4040Glow {
+    0%,
+    100% {
+        width: 46px;
+        opacity: .25;
+        transform:
+            translateX(-50%)
+            scaleX(.8);
+    }
+
+    50% {
+        width: 76px;
+        opacity: .75;
+        transform:
+            translateX(-50%)
+            scaleX(1.12);
+    }
+}
+
+@keyframes loader4040Dust1 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.4);
+        opacity: 0;
+    }
+
+    30% {
+        opacity: .85;
+    }
+
+    100% {
+        transform:
+            translate(-13px, -24px)
+            scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4040Dust2 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.4);
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translate(-6px, -31px)
+            scale(.9);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4040Dust3 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.4);
+        opacity: 0;
+    }
+
+    30% {
+        opacity: .9;
+    }
+
+    100% {
+        transform:
+            translate(2px, -35px)
+            scale(1.1);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4040Dust4 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.4);
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translate(7px, -29px)
+            scale(.9);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4040Dust5 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.4);
+        opacity: 0;
+    }
+
+    30% {
+        opacity: .85;
+    }
+
+    100% {
+        transform:
+            translate(14px, -22px)
+            scale(1);
+        opacity: 0;
+    }
+}`,
+  },
 ];
