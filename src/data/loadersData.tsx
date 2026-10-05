@@ -66614,4 +66614,1730 @@ export const loaders = [
     }
 }`,
   },
+  {
+    id: 4038,
+    name: "Elemental Abyssal Tide Core Loader",
+    preview: (
+      <div className="loader-4038">
+        <span className="loader-4038__ambient loader-4038__ambient--1"></span>
+        <span className="loader-4038__ambient loader-4038__ambient--2"></span>
+        <span className="loader-4038__ambient loader-4038__ambient--3"></span>
+
+        <div className="loader-4038__bubbles">
+          <span className="loader-4038__bubble loader-4038__bubble--1"></span>
+          <span className="loader-4038__bubble loader-4038__bubble--2"></span>
+          <span className="loader-4038__bubble loader-4038__bubble--3"></span>
+          <span className="loader-4038__bubble loader-4038__bubble--4"></span>
+          <span className="loader-4038__bubble loader-4038__bubble--5"></span>
+          <span className="loader-4038__bubble loader-4038__bubble--6"></span>
+          <span className="loader-4038__bubble loader-4038__bubble--7"></span>
+          <span className="loader-4038__bubble loader-4038__bubble--8"></span>
+          <span className="loader-4038__bubble loader-4038__bubble--9"></span>
+          <span className="loader-4038__bubble loader-4038__bubble--10"></span>
+          <span className="loader-4038__bubble loader-4038__bubble--11"></span>
+          <span className="loader-4038__bubble loader-4038__bubble--12"></span>
+        </div>
+
+        <div className="loader-4038__shell">
+          <span className="loader-4038__corner loader-4038__corner--1"></span>
+          <span className="loader-4038__corner loader-4038__corner--2"></span>
+          <span className="loader-4038__corner loader-4038__corner--3"></span>
+          <span className="loader-4038__corner loader-4038__corner--4"></span>
+
+          <div className="loader-4038__header">
+            <div className="loader-4038__title">
+              <span className="loader-4038__title-icon">
+                <i className="ri-drop-fill"></i>
+              </span>
+
+              <span className="loader-4038__title-copy">
+                <small>ELEMENTAL SYSTEM</small>
+                <strong>ABYSSAL TIDE</strong>
+              </span>
+            </div>
+
+            <div className="loader-4038__status">
+              <span className="loader-4038__status-dot"></span>
+              <span>FLOWING</span>
+            </div>
+          </div>
+
+          <div className="loader-4038__reactor">
+            <span className="loader-4038__wave loader-4038__wave--1"></span>
+            <span className="loader-4038__wave loader-4038__wave--2"></span>
+            <span className="loader-4038__wave loader-4038__wave--3"></span>
+
+            <span className="loader-4038__current loader-4038__current--1"></span>
+            <span className="loader-4038__current loader-4038__current--2"></span>
+            <span className="loader-4038__current loader-4038__current--3"></span>
+
+            <div className="loader-4038__orbit loader-4038__orbit--outer">
+              <span className="loader-4038__node loader-4038__node--1"></span>
+              <span className="loader-4038__node loader-4038__node--2"></span>
+              <span className="loader-4038__node loader-4038__node--3"></span>
+              <span className="loader-4038__node loader-4038__node--4"></span>
+            </div>
+
+            <div className="loader-4038__orbit loader-4038__orbit--middle">
+              <span className="loader-4038__drop-node loader-4038__drop-node--1"></span>
+              <span className="loader-4038__drop-node loader-4038__drop-node--2"></span>
+              <span className="loader-4038__drop-node loader-4038__drop-node--3"></span>
+              <span className="loader-4038__drop-node loader-4038__drop-node--4"></span>
+            </div>
+
+            <div className="loader-4038__orbit loader-4038__orbit--inner">
+              <span className="loader-4038__spark loader-4038__spark--1"></span>
+              <span className="loader-4038__spark loader-4038__spark--2"></span>
+              <span className="loader-4038__spark loader-4038__spark--3"></span>
+              <span className="loader-4038__spark loader-4038__spark--4"></span>
+              <span className="loader-4038__spark loader-4038__spark--5"></span>
+              <span className="loader-4038__spark loader-4038__spark--6"></span>
+            </div>
+
+            <div className="loader-4038__sonar">
+              <span className="loader-4038__sonar-ring loader-4038__sonar-ring--1"></span>
+              <span className="loader-4038__sonar-ring loader-4038__sonar-ring--2"></span>
+              <span className="loader-4038__sonar-ring loader-4038__sonar-ring--3"></span>
+            </div>
+
+            <div className="loader-4038__core">
+              <span className="loader-4038__core-ring loader-4038__core-ring--1"></span>
+              <span className="loader-4038__core-ring loader-4038__core-ring--2"></span>
+              <span className="loader-4038__core-ring loader-4038__core-ring--3"></span>
+
+              <span className="loader-4038__drop">
+                <span className="loader-4038__drop-light"></span>
+                <span className="loader-4038__drop-facet loader-4038__drop-facet--1"></span>
+                <span className="loader-4038__drop-facet loader-4038__drop-facet--2"></span>
+              </span>
+
+              <span className="loader-4038__core-glow"></span>
+            </div>
+
+            <span className="loader-4038__particle loader-4038__particle--1"></span>
+            <span className="loader-4038__particle loader-4038__particle--2"></span>
+            <span className="loader-4038__particle loader-4038__particle--3"></span>
+            <span className="loader-4038__particle loader-4038__particle--4"></span>
+            <span className="loader-4038__particle loader-4038__particle--5"></span>
+            <span className="loader-4038__particle loader-4038__particle--6"></span>
+            <span className="loader-4038__particle loader-4038__particle--7"></span>
+            <span className="loader-4038__particle loader-4038__particle--8"></span>
+          </div>
+
+          <div className="loader-4038__metrics">
+            <div className="loader-4038__metric">
+              <span>DEPTH</span>
+              <strong>8,420 M</strong>
+            </div>
+
+            <div className="loader-4038__metric">
+              <span>PRESSURE</span>
+              <strong>84.6 MPa</strong>
+            </div>
+
+            <div className="loader-4038__metric">
+              <span>TIDE SYNC</span>
+              <strong>STABLE</strong>
+            </div>
+          </div>
+
+          <div className="loader-4038__readout">
+            <div>
+              <span className="loader-4038__readout-label">ABYSSAL CORE</span>
+
+              <span className="loader-4038__readout-value">
+                SYNCHRONIZING
+                <span className="loader-4038__dots">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </span>
+            </div>
+
+            <div className="loader-4038__percentage">
+              <strong>88</strong>
+              <span>%</span>
+            </div>
+          </div>
+
+          <div className="loader-4038__progress">
+            <span className="loader-4038__progress-track"></span>
+            <span className="loader-4038__progress-fill"></span>
+            <span className="loader-4038__progress-glow"></span>
+
+            <span className="loader-4038__progress-mark loader-4038__progress-mark--1"></span>
+            <span className="loader-4038__progress-mark loader-4038__progress-mark--2"></span>
+            <span className="loader-4038__progress-mark loader-4038__progress-mark--3"></span>
+            <span className="loader-4038__progress-mark loader-4038__progress-mark--4"></span>
+          </div>
+
+          <div className="loader-4038__footer">
+            <span>
+              <i className="ri-radar-line"></i>
+              SONAR LOCKED
+            </span>
+
+            <span>
+              <i className="ri-drop-fill"></i>
+              FLOW STABLE
+            </span>
+
+            <span>
+              <i className="ri-shield-check-fill"></i>
+              CORE SAFE
+            </span>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="loader-4038">
+    <span class="loader-4038__ambient loader-4038__ambient--1"></span>
+    <span class="loader-4038__ambient loader-4038__ambient--2"></span>
+    <span class="loader-4038__ambient loader-4038__ambient--3"></span>
+
+    <div class="loader-4038__bubbles">
+        <span class="loader-4038__bubble loader-4038__bubble--1"></span>
+        <span class="loader-4038__bubble loader-4038__bubble--2"></span>
+        <span class="loader-4038__bubble loader-4038__bubble--3"></span>
+        <span class="loader-4038__bubble loader-4038__bubble--4"></span>
+        <span class="loader-4038__bubble loader-4038__bubble--5"></span>
+        <span class="loader-4038__bubble loader-4038__bubble--6"></span>
+        <span class="loader-4038__bubble loader-4038__bubble--7"></span>
+        <span class="loader-4038__bubble loader-4038__bubble--8"></span>
+        <span class="loader-4038__bubble loader-4038__bubble--9"></span>
+        <span class="loader-4038__bubble loader-4038__bubble--10"></span>
+        <span class="loader-4038__bubble loader-4038__bubble--11"></span>
+        <span class="loader-4038__bubble loader-4038__bubble--12"></span>
+    </div>
+
+    <div class="loader-4038__shell">
+        <span class="loader-4038__corner loader-4038__corner--1"></span>
+        <span class="loader-4038__corner loader-4038__corner--2"></span>
+        <span class="loader-4038__corner loader-4038__corner--3"></span>
+        <span class="loader-4038__corner loader-4038__corner--4"></span>
+
+        <div class="loader-4038__header">
+            <div class="loader-4038__title">
+                <span class="loader-4038__title-icon">
+                    <i class="ri-drop-fill"></i>
+                </span>
+
+                <span class="loader-4038__title-copy">
+                    <small>ELEMENTAL SYSTEM</small>
+                    <strong>ABYSSAL TIDE</strong>
+                </span>
+            </div>
+
+            <div class="loader-4038__status">
+                <span class="loader-4038__status-dot"></span>
+                <span>FLOWING</span>
+            </div>
+        </div>
+
+        <div class="loader-4038__reactor">
+            <span class="loader-4038__wave loader-4038__wave--1"></span>
+            <span class="loader-4038__wave loader-4038__wave--2"></span>
+            <span class="loader-4038__wave loader-4038__wave--3"></span>
+
+            <span class="loader-4038__current loader-4038__current--1"></span>
+            <span class="loader-4038__current loader-4038__current--2"></span>
+            <span class="loader-4038__current loader-4038__current--3"></span>
+
+            <div class="loader-4038__orbit loader-4038__orbit--outer">
+                <span class="loader-4038__node loader-4038__node--1"></span>
+                <span class="loader-4038__node loader-4038__node--2"></span>
+                <span class="loader-4038__node loader-4038__node--3"></span>
+                <span class="loader-4038__node loader-4038__node--4"></span>
+            </div>
+
+            <div class="loader-4038__orbit loader-4038__orbit--middle">
+                <span class="loader-4038__drop-node loader-4038__drop-node--1"></span>
+                <span class="loader-4038__drop-node loader-4038__drop-node--2"></span>
+                <span class="loader-4038__drop-node loader-4038__drop-node--3"></span>
+                <span class="loader-4038__drop-node loader-4038__drop-node--4"></span>
+            </div>
+
+            <div class="loader-4038__orbit loader-4038__orbit--inner">
+                <span class="loader-4038__spark loader-4038__spark--1"></span>
+                <span class="loader-4038__spark loader-4038__spark--2"></span>
+                <span class="loader-4038__spark loader-4038__spark--3"></span>
+                <span class="loader-4038__spark loader-4038__spark--4"></span>
+                <span class="loader-4038__spark loader-4038__spark--5"></span>
+                <span class="loader-4038__spark loader-4038__spark--6"></span>
+            </div>
+
+            <div class="loader-4038__sonar">
+                <span class="loader-4038__sonar-ring loader-4038__sonar-ring--1"></span>
+                <span class="loader-4038__sonar-ring loader-4038__sonar-ring--2"></span>
+                <span class="loader-4038__sonar-ring loader-4038__sonar-ring--3"></span>
+            </div>
+
+            <div class="loader-4038__core">
+                <span class="loader-4038__core-ring loader-4038__core-ring--1"></span>
+                <span class="loader-4038__core-ring loader-4038__core-ring--2"></span>
+                <span class="loader-4038__core-ring loader-4038__core-ring--3"></span>
+
+                <span class="loader-4038__drop">
+                    <span class="loader-4038__drop-light"></span>
+                    <span class="loader-4038__drop-facet loader-4038__drop-facet--1"></span>
+                    <span class="loader-4038__drop-facet loader-4038__drop-facet--2"></span>
+                </span>
+
+                <span class="loader-4038__core-glow"></span>
+            </div>
+
+            <span class="loader-4038__particle loader-4038__particle--1"></span>
+            <span class="loader-4038__particle loader-4038__particle--2"></span>
+            <span class="loader-4038__particle loader-4038__particle--3"></span>
+            <span class="loader-4038__particle loader-4038__particle--4"></span>
+            <span class="loader-4038__particle loader-4038__particle--5"></span>
+            <span class="loader-4038__particle loader-4038__particle--6"></span>
+            <span class="loader-4038__particle loader-4038__particle--7"></span>
+            <span class="loader-4038__particle loader-4038__particle--8"></span>
+        </div>
+
+        <div class="loader-4038__metrics">
+            <div class="loader-4038__metric">
+                <span>DEPTH</span>
+                <strong>8,420 M</strong>
+            </div>
+
+            <div class="loader-4038__metric">
+                <span>PRESSURE</span>
+                <strong>84.6 MPa</strong>
+            </div>
+
+            <div class="loader-4038__metric">
+                <span>TIDE SYNC</span>
+                <strong>STABLE</strong>
+            </div>
+        </div>
+
+        <div class="loader-4038__readout">
+            <div>
+                <span class="loader-4038__readout-label">ABYSSAL CORE</span>
+
+                <span class="loader-4038__readout-value">
+                    SYNCHRONIZING
+                    <span class="loader-4038__dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </span>
+            </div>
+
+            <div class="loader-4038__percentage">
+                <strong>88</strong>
+                <span>%</span>
+            </div>
+        </div>
+
+        <div class="loader-4038__progress">
+            <span class="loader-4038__progress-track"></span>
+            <span class="loader-4038__progress-fill"></span>
+            <span class="loader-4038__progress-glow"></span>
+            <span class="loader-4038__progress-mark loader-4038__progress-mark--1"></span>
+            <span class="loader-4038__progress-mark loader-4038__progress-mark--2"></span>
+            <span class="loader-4038__progress-mark loader-4038__progress-mark--3"></span>
+            <span class="loader-4038__progress-mark loader-4038__progress-mark--4"></span>
+        </div>
+
+        <div class="loader-4038__footer">
+            <span><i class="ri-radar-line"></i>SONAR LOCKED</span>
+            <span><i class="ri-drop-fill"></i>FLOW STABLE</span>
+            <span><i class="ri-shield-check-fill"></i>CORE SAFE</span>
+        </div>
+    </div>
+</div>`,
+    css: `.loader-4038{
+    position:relative;
+    width:430px;
+    max-width:100%;
+    min-height:540px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    border-radius:30px;
+    background:
+        radial-gradient(circle at 50% 34%,rgba(34,211,238,.13),transparent 27%),
+        radial-gradient(circle at 14% 74%,rgba(14,165,233,.13),transparent 30%),
+        radial-gradient(circle at 88% 68%,rgba(37,99,235,.14),transparent 30%),
+        linear-gradient(145deg,#020617,#031b2d 45%,#082f49);
+    font-family:Arial,Helvetica,sans-serif;
+    isolation:isolate;
+}
+.loader-4038::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background-image:
+        linear-gradient(rgba(103,232,249,.02) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(103,232,249,.02) 1px,transparent 1px);
+    background-size:24px 24px;
+    mask-image:linear-gradient(to bottom,transparent,#000 16%,#000 88%,transparent);
+    pointer-events:none;
+}
+.loader-4038::after{
+    content:"";
+    position:absolute;
+    left:50%;
+    bottom:28px;
+    width:280px;
+    height:46px;
+    border-radius:50%;
+    background:rgba(34,211,238,.1);
+    filter:blur(22px);
+    transform:translateX(-50%);
+    animation:loader4038Ground 3s ease-in-out infinite;
+}
+.loader-4038__ambient{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(52px);
+    pointer-events:none;
+}
+.loader-4038__ambient--1{
+    width:190px;
+    height:190px;
+    left:-90px;
+    top:46px;
+    background:rgba(6,182,212,.14);
+    animation:loader4038Ambient1 7s ease-in-out infinite;
+}
+.loader-4038__ambient--2{
+    width:200px;
+    height:200px;
+    right:-100px;
+    top:175px;
+    background:rgba(37,99,235,.15);
+    animation:loader4038Ambient2 8s ease-in-out infinite;
+}
+.loader-4038__ambient--3{
+    width:165px;
+    height:165px;
+    left:128px;
+    bottom:-78px;
+    background:rgba(103,232,249,.1);
+    animation:loader4038Ambient3 6s ease-in-out infinite;
+}
+.loader-4038__bubbles{
+    position:absolute;
+    inset:0;
+    overflow:hidden;
+    pointer-events:none;
+}
+.loader-4038__bubble{
+    position:absolute;
+    bottom:-30px;
+    border:1px solid rgba(186,230,253,.38);
+    border-radius:50%;
+    background:rgba(255,255,255,.025);
+    box-shadow:
+        inset 1px 1px 2px rgba(255,255,255,.18),
+        0 0 6px rgba(103,232,249,.08);
+    animation:loader4038Bubble 7s linear infinite;
+}
+.loader-4038__bubble--1{
+    left:5%;
+    width:8px;
+    height:8px;
+    animation-delay:-1s;
+}
+.loader-4038__bubble--2{
+    left:13%;
+    width:14px;
+    height:14px;
+    animation-delay:-5s;
+}
+.loader-4038__bubble--3{
+    left:23%;
+    width:6px;
+    height:6px;
+    animation-delay:-2.4s;
+}
+.loader-4038__bubble--4{
+    left:32%;
+    width:11px;
+    height:11px;
+    animation-delay:-4.3s;
+}
+.loader-4038__bubble--5{
+    left:41%;
+    width:7px;
+    height:7px;
+    animation-delay:-.7s;
+}
+.loader-4038__bubble--6{
+    left:51%;
+    width:16px;
+    height:16px;
+    animation-delay:-3.4s;
+}
+.loader-4038__bubble--7{
+    left:61%;
+    width:9px;
+    height:9px;
+    animation-delay:-6s;
+}
+.loader-4038__bubble--8{
+    left:69%;
+    width:5px;
+    height:5px;
+    animation-delay:-2s;
+}
+.loader-4038__bubble--9{
+    left:77%;
+    width:13px;
+    height:13px;
+    animation-delay:-4.8s;
+}
+.loader-4038__bubble--10{
+    left:85%;
+    width:7px;
+    height:7px;
+    animation-delay:-1.8s;
+}
+.loader-4038__bubble--11{
+    left:91%;
+    width:10px;
+    height:10px;
+    animation-delay:-3s;
+}
+.loader-4038__bubble--12{
+    left:96%;
+    width:5px;
+    height:5px;
+    animation-delay:-5.7s;
+}
+.loader-4038__shell{
+    position:relative;
+    z-index:2;
+    width:calc(100% - 38px);
+    padding:16px;
+    overflow:hidden;
+    border:1px solid rgba(103,232,249,.22);
+    border-radius:22px;
+    background:
+        linear-gradient(135deg,rgba(6,24,42,.9),rgba(3,30,52,.7)),
+        rgba(2,6,23,.75);
+    box-shadow:
+        0 24px 54px rgba(0,0,0,.44),
+        inset 0 1px 0 rgba(255,255,255,.06),
+        0 0 34px rgba(34,211,238,.07);
+    backdrop-filter:blur(17px);
+}
+.loader-4038__shell::before{
+    content:"";
+    position:absolute;
+    inset:1px;
+    border-radius:21px;
+    background:
+        linear-gradient(
+            125deg,
+            rgba(255,255,255,.045),
+            transparent 25%,
+            transparent 69%,
+            rgba(103,232,249,.04)
+        );
+    pointer-events:none;
+}
+.loader-4038__shell::after{
+    content:"";
+    position:absolute;
+    top:-75px;
+    bottom:-75px;
+    left:-70px;
+    width:40px;
+    background:linear-gradient(90deg,transparent,rgba(207,250,254,.32),transparent);
+    transform:rotate(20deg);
+    animation:loader4038ShellShine 5.4s ease-in-out infinite;
+    pointer-events:none;
+}
+.loader-4038__corner{
+    position:absolute;
+    z-index:5;
+    width:22px;
+    height:22px;
+}
+.loader-4038__corner::before,
+.loader-4038__corner::after{
+    content:"";
+    position:absolute;
+    background:#67e8f9;
+    box-shadow:0 0 7px rgba(103,232,249,.55);
+}
+.loader-4038__corner::before{
+    width:14px;
+    height:1px;
+}
+.loader-4038__corner::after{
+    width:1px;
+    height:14px;
+}
+.loader-4038__corner--1{
+    left:8px;
+    top:8px;
+}
+.loader-4038__corner--2{
+    right:8px;
+    top:8px;
+    transform:rotate(90deg);
+}
+.loader-4038__corner--3{
+    right:8px;
+    bottom:8px;
+    transform:rotate(180deg);
+}
+.loader-4038__corner--4{
+    left:8px;
+    bottom:8px;
+    transform:rotate(270deg);
+}
+.loader-4038__header{
+    position:relative;
+    z-index:3;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    padding-bottom:12px;
+    border-bottom:1px solid rgba(103,232,249,.1);
+}
+.loader-4038__title{
+    display:flex;
+    align-items:center;
+    gap:9px;
+}
+.loader-4038__title-icon{
+    width:35px;
+    height:35px;
+    display:grid;
+    place-items:center;
+    flex:0 0 35px;
+    border:1px solid rgba(103,232,249,.38);
+    border-radius:10px;
+    background:linear-gradient(145deg,rgba(8,145,178,.58),rgba(30,64,175,.5));
+    color:#cffafe;
+    font-size:16px;
+    box-shadow:
+        0 0 15px rgba(34,211,238,.15),
+        inset 0 1px 0 rgba(255,255,255,.08);
+    animation:loader4038TitleIcon 3s ease-in-out infinite;
+}
+.loader-4038__title-copy{
+    display:flex;
+    flex-direction:column;
+}
+.loader-4038__title-copy small{
+    color:#67e8f9;
+    font-size:5px;
+    font-weight:900;
+    letter-spacing:1.5px;
+}
+.loader-4038__title-copy strong{
+    margin-top:3px;
+    color:#f0fdfa;
+    font-size:10px;
+    font-weight:900;
+    letter-spacing:.7px;
+}
+.loader-4038__status{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    padding:5px 7px;
+    border:1px solid rgba(34,211,238,.22);
+    border-radius:999px;
+    background:rgba(8,145,178,.2);
+    color:#a5f3fc;
+    font-size:5px;
+    font-weight:900;
+    letter-spacing:.9px;
+}
+.loader-4038__status-dot{
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    background:#67e8f9;
+    box-shadow:0 0 9px rgba(103,232,249,.9);
+    animation:loader4038Status 1.5s ease-in-out infinite;
+}
+.loader-4038__reactor{
+    position:relative;
+    width:275px;
+    height:275px;
+    margin:14px auto 8px;
+    display:grid;
+    place-items:center;
+}
+.loader-4038__reactor::before{
+    content:"";
+    position:absolute;
+    width:245px;
+    height:245px;
+    border-radius:50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(103,232,249,.12),
+            rgba(14,165,233,.055) 40%,
+            transparent 70%
+        );
+    animation:loader4038ReactorGlow 2.8s ease-in-out infinite;
+}
+.loader-4038__reactor::after{
+    content:"";
+    position:absolute;
+    width:180px;
+    height:29px;
+    bottom:13px;
+    border-radius:50%;
+    background:rgba(34,211,238,.12);
+    filter:blur(13px);
+    animation:loader4038ReactorShadow 2.8s ease-in-out infinite;
+}
+.loader-4038__wave{
+    position:absolute;
+    z-index:1;
+    left:50%;
+    width:230px;
+    height:52px;
+    border:1px solid rgba(103,232,249,.14);
+    border-left-color:transparent;
+    border-right-color:transparent;
+    border-radius:50%;
+    transform:translateX(-50%);
+}
+.loader-4038__wave--1{
+    top:51px;
+    animation:loader4038Wave1 3.3s ease-in-out infinite;
+}
+.loader-4038__wave--2{
+    top:111px;
+    width:255px;
+    opacity:.7;
+    animation:loader4038Wave2 4s ease-in-out infinite;
+}
+.loader-4038__wave--3{
+    top:171px;
+    width:218px;
+    opacity:.55;
+    animation:loader4038Wave3 3.6s ease-in-out infinite;
+}
+.loader-4038__current{
+    position:absolute;
+    z-index:2;
+    width:120px;
+    height:1px;
+    background:linear-gradient(90deg,transparent,#67e8f9,transparent);
+    box-shadow:0 0 7px rgba(103,232,249,.32);
+    transform-origin:center;
+}
+.loader-4038__current--1{
+    transform:rotate(15deg);
+    animation:loader4038Current1 4.2s linear infinite;
+}
+.loader-4038__current--2{
+    transform:rotate(75deg);
+    animation:loader4038Current2 5.2s linear infinite reverse;
+}
+.loader-4038__current--3{
+    transform:rotate(135deg);
+    animation:loader4038Current3 6s linear infinite;
+}
+.loader-4038__orbit{
+    position:absolute;
+    left:50%;
+    top:50%;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+}
+.loader-4038__orbit--outer{
+    width:235px;
+    height:235px;
+    border:1px solid rgba(103,232,249,.18);
+    border-top-color:#67e8f9;
+    border-right-color:#38bdf8;
+    box-shadow:
+        0 0 20px rgba(34,211,238,.07),
+        inset 0 0 20px rgba(14,165,233,.04);
+    animation:loader4038OuterOrbit 8s linear infinite;
+}
+.loader-4038__orbit--middle{
+    width:184px;
+    height:184px;
+    border:1px dashed rgba(125,211,252,.3);
+    border-left-color:#22d3ee;
+    border-bottom-color:#2563eb;
+    animation:loader4038MiddleOrbit 5.8s linear infinite reverse;
+}
+.loader-4038__orbit--inner{
+    width:134px;
+    height:134px;
+    border:1px solid rgba(165,243,252,.22);
+    border-top-color:#fff;
+    border-bottom-color:#06b6d4;
+    box-shadow:inset 0 0 22px rgba(34,211,238,.05);
+    animation:loader4038InnerOrbit 4s linear infinite;
+}
+.loader-4038__node{
+    position:absolute;
+    width:10px;
+    height:10px;
+    border:2px solid #020617;
+    border-radius:50%;
+    background:#a5f3fc;
+    box-shadow:
+        0 0 0 2px rgba(34,211,238,.28),
+        0 0 12px rgba(103,232,249,.85);
+    animation:loader4038Node 1.9s ease-in-out infinite;
+}
+.loader-4038__node--1{
+    left:14px;
+    top:54px;
+}
+.loader-4038__node--2{
+    right:16px;
+    top:48px;
+    animation-delay:-.45s;
+}
+.loader-4038__node--3{
+    right:34px;
+    bottom:24px;
+    animation-delay:-.9s;
+}
+.loader-4038__node--4{
+    left:28px;
+    bottom:38px;
+    animation-delay:-1.35s;
+}
+.loader-4038__drop-node{
+    position:absolute;
+    width:9px;
+    height:12px;
+    border-radius:55% 45% 60% 40%;
+    background:linear-gradient(145deg,#ecfeff,#67e8f9,#0ea5e9);
+    box-shadow:0 0 9px rgba(103,232,249,.6);
+}
+.loader-4038__drop-node--1{
+    left:50%;
+    top:-6px;
+    transform:translateX(-50%) rotate(45deg);
+}
+.loader-4038__drop-node--2{
+    right:-5px;
+    top:50%;
+    transform:translateY(-50%) rotate(135deg);
+}
+.loader-4038__drop-node--3{
+    left:50%;
+    bottom:-6px;
+    transform:translateX(-50%) rotate(225deg);
+}
+.loader-4038__drop-node--4{
+    left:-5px;
+    top:50%;
+    transform:translateY(-50%) rotate(315deg);
+}
+.loader-4038__spark{
+    position:absolute;
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    background:#fff;
+    box-shadow:
+        0 0 5px #fff,
+        0 0 11px rgba(103,232,249,.85);
+    animation:loader4038Spark 2s ease-in-out infinite;
+}
+.loader-4038__spark--1{
+    left:8px;
+    top:34px;
+}
+.loader-4038__spark--2{
+    right:10px;
+    top:25px;
+    animation-delay:-.35s;
+}
+.loader-4038__spark--3{
+    right:3px;
+    top:68px;
+    animation-delay:-.7s;
+}
+.loader-4038__spark--4{
+    right:27px;
+    bottom:8px;
+    animation-delay:-1.05s;
+}
+.loader-4038__spark--5{
+    left:16px;
+    bottom:19px;
+    animation-delay:-1.4s;
+}
+.loader-4038__spark--6{
+    left:-1px;
+    top:70px;
+    animation-delay:-1.75s;
+}
+.loader-4038__sonar{
+    position:absolute;
+    left:50%;
+    top:50%;
+    z-index:2;
+    width:170px;
+    height:170px;
+    transform:translate(-50%,-50%);
+}
+.loader-4038__sonar-ring{
+    position:absolute;
+    left:50%;
+    top:50%;
+    border:1px solid rgba(103,232,249,.38);
+    border-radius:50%;
+    transform:translate(-50%,-50%) scale(.2);
+    opacity:0;
+    animation:loader4038Sonar 3s ease-out infinite;
+}
+.loader-4038__sonar-ring--1{
+    width:150px;
+    height:150px;
+}
+.loader-4038__sonar-ring--2{
+    width:170px;
+    height:170px;
+    animation-delay:1s;
+}
+.loader-4038__sonar-ring--3{
+    width:190px;
+    height:190px;
+    animation-delay:2s;
+}
+.loader-4038__core{
+    position:absolute;
+    left:50%;
+    top:50%;
+    z-index:8;
+    width:104px;
+    height:104px;
+    display:grid;
+    place-items:center;
+    transform:translate(-50%,-50%);
+}
+.loader-4038__core-ring{
+    position:absolute;
+    left:50%;
+    top:50%;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+}
+.loader-4038__core-ring--1{
+    width:102px;
+    height:102px;
+    border:1px solid rgba(103,232,249,.34);
+    box-shadow:
+        0 0 18px rgba(34,211,238,.1),
+        inset 0 0 18px rgba(34,211,238,.05);
+    animation:loader4038CoreRing1 2.5s ease-in-out infinite;
+}
+.loader-4038__core-ring--2{
+    width:80px;
+    height:80px;
+    border:1px dashed rgba(125,211,252,.52);
+    animation:loader4038CoreRing2 4s linear infinite;
+}
+.loader-4038__core-ring--3{
+    width:59px;
+    height:59px;
+    border:2px solid rgba(255,255,255,.2);
+    border-top-color:#fff;
+    border-right-color:#67e8f9;
+    border-bottom-color:#2563eb;
+    animation:loader4038CoreRing3 2.8s linear infinite reverse;
+}
+.loader-4038__drop{
+    position:relative;
+    z-index:5;
+    width:39px;
+    height:52px;
+    overflow:hidden;
+    border-radius:58% 42% 62% 38% / 68% 47% 53% 32%;
+    background:linear-gradient(145deg,#fff,#cffafe 22%,#67e8f9 48%,#0ea5e9 70%,#2563eb);
+    box-shadow:0 0 24px rgba(34,211,238,.55);
+    filter:
+        drop-shadow(0 0 8px rgba(255,255,255,.25))
+        drop-shadow(0 0 14px rgba(34,211,238,.55));
+    transform:rotate(45deg);
+    animation:loader4038Drop 2.5s ease-in-out infinite;
+}
+.loader-4038__drop-light{
+    position:absolute;
+    left:-10%;
+    top:15%;
+    width:130%;
+    height:10px;
+    background:linear-gradient(90deg,transparent,rgba(255,255,255,.85),transparent);
+    transform:rotate(-45deg) translateX(-120%);
+    animation:loader4038DropLight 2.2s ease-in-out infinite;
+}
+.loader-4038__drop-facet{
+    position:absolute;
+    background:rgba(255,255,255,.26);
+}
+.loader-4038__drop-facet--1{
+    left:50%;
+    top:0;
+    width:1px;
+    height:100%;
+}
+.loader-4038__drop-facet--2{
+    left:0;
+    top:50%;
+    width:100%;
+    height:1px;
+}
+.loader-4038__core-glow{
+    position:absolute;
+    z-index:1;
+    width:67px;
+    height:67px;
+    border-radius:50%;
+    background:rgba(34,211,238,.28);
+    filter:blur(14px);
+    animation:loader4038CoreGlow 1.8s ease-in-out infinite;
+}
+.loader-4038__particle{
+    position:absolute;
+    z-index:9;
+    width:4px;
+    height:4px;
+    border-radius:50%;
+    background:#ecfeff;
+    box-shadow:
+        0 0 6px rgba(255,255,255,.85),
+        0 0 12px rgba(34,211,238,.65);
+    opacity:0;
+}
+.loader-4038__particle--1{
+    left:50px;
+    top:118px;
+    animation:loader4038Particle1 2.5s ease-in-out infinite;
+}
+.loader-4038__particle--2{
+    right:50px;
+    top:112px;
+    animation:loader4038Particle2 2.8s ease-in-out infinite -.4s;
+}
+.loader-4038__particle--3{
+    left:76px;
+    top:49px;
+    animation:loader4038Particle3 2.6s ease-in-out infinite -.8s;
+}
+.loader-4038__particle--4{
+    right:78px;
+    top:48px;
+    animation:loader4038Particle4 3s ease-in-out infinite -.3s;
+}
+.loader-4038__particle--5{
+    left:65px;
+    bottom:53px;
+    animation:loader4038Particle5 2.7s ease-in-out infinite -1.1s;
+}
+.loader-4038__particle--6{
+    right:66px;
+    bottom:54px;
+    animation:loader4038Particle6 3.1s ease-in-out infinite -.7s;
+}
+.loader-4038__particle--7{
+    left:132px;
+    bottom:24px;
+    animation:loader4038Particle7 2.4s ease-in-out infinite -.5s;
+}
+.loader-4038__particle--8{
+    right:130px;
+    top:24px;
+    animation:loader4038Particle8 2.9s ease-in-out infinite -1.3s;
+}
+.loader-4038__metrics{
+    position:relative;
+    z-index:3;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:6px;
+    margin-top:-4px;
+    margin-bottom:11px;
+}
+.loader-4038__metric{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:7px 5px;
+    border:1px solid rgba(103,232,249,.1);
+    border-radius:8px;
+    background:rgba(8,47,73,.34);
+}
+.loader-4038__metric span{
+    color:#64748b;
+    font-size:4px;
+    font-weight:900;
+    letter-spacing:.7px;
+}
+.loader-4038__metric strong{
+    margin-top:3px;
+    color:#a5f3fc;
+    font-size:6px;
+    letter-spacing:.4px;
+}
+.loader-4038__readout{
+    position:relative;
+    z-index:3;
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    gap:15px;
+}
+.loader-4038__readout>div:first-child{
+    display:flex;
+    flex-direction:column;
+}
+.loader-4038__readout-label{
+    color:#64748b;
+    font-size:5px;
+    font-weight:900;
+    letter-spacing:1.3px;
+}
+.loader-4038__readout-value{
+    display:flex;
+    align-items:center;
+    margin-top:4px;
+    color:#cffafe;
+    font-size:8px;
+    font-weight:900;
+    letter-spacing:.8px;
+}
+.loader-4038__dots{
+    display:flex;
+    gap:3px;
+    margin-left:5px;
+}
+.loader-4038__dots span{
+    width:3px;
+    height:3px;
+    border-radius:50%;
+    background:#67e8f9;
+    box-shadow:0 0 5px rgba(103,232,249,.75);
+    animation:loader4038Dot 1.2s ease-in-out infinite;
+}
+.loader-4038__dots span:nth-child(2){
+    animation-delay:.14s;
+}
+.loader-4038__dots span:nth-child(3){
+    animation-delay:.28s;
+}
+.loader-4038__percentage{
+    display:flex;
+    align-items:flex-start;
+    color:#f8fafc;
+}
+.loader-4038__percentage strong{
+    font:900 24px/1 Arial Black,Arial,sans-serif;
+    text-shadow:0 0 11px rgba(34,211,238,.24);
+}
+.loader-4038__percentage span{
+    margin:2px 0 0 2px;
+    color:#67e8f9;
+    font-size:7px;
+    font-weight:900;
+}
+.loader-4038__progress{
+    position:relative;
+    height:13px;
+    margin-top:10px;
+    padding:2px;
+    overflow:hidden;
+    border:1px solid rgba(103,232,249,.18);
+    border-radius:999px;
+    background:rgba(2,6,23,.78);
+}
+.loader-4038__progress-track{
+    position:absolute;
+    inset:2px;
+    border-radius:inherit;
+    background:
+        repeating-linear-gradient(
+            90deg,
+            rgba(255,255,255,.03) 0 7px,
+            transparent 7px 11px
+        );
+}
+.loader-4038__progress-fill{
+    position:absolute;
+    left:2px;
+    top:2px;
+    bottom:2px;
+    width:88%;
+    overflow:hidden;
+    border-radius:inherit;
+    background:linear-gradient(90deg,#0369a1,#0891b2,#22d3ee,#60a5fa);
+    box-shadow:0 0 11px rgba(34,211,238,.45);
+    transform-origin:left;
+    animation:loader4038Progress 3.6s ease-in-out infinite;
+}
+.loader-4038__progress-fill::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(110deg,transparent 35%,rgba(255,255,255,.65) 50%,transparent 65%);
+    animation:loader4038ProgressShine 1.6s linear infinite;
+}
+.loader-4038__progress-glow{
+    position:absolute;
+    left:86%;
+    top:50%;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:rgba(103,232,249,.3);
+    filter:blur(6px);
+    transform:translate(-50%,-50%);
+    animation:loader4038ProgressGlow 3.6s ease-in-out infinite;
+}
+.loader-4038__progress-mark{
+    position:absolute;
+    z-index:4;
+    top:1px;
+    width:1px;
+    height:9px;
+    background:rgba(255,255,255,.25);
+}
+.loader-4038__progress-mark--1{
+    left:25%;
+}
+.loader-4038__progress-mark--2{
+    left:50%;
+}
+.loader-4038__progress-mark--3{
+    left:75%;
+}
+.loader-4038__progress-mark--4{
+    left:90%;
+}
+.loader-4038__footer{
+    position:relative;
+    z-index:3;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:6px;
+    margin-top:10px;
+}
+.loader-4038__footer span{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:4px;
+    padding:6px 4px;
+    border:1px solid rgba(103,232,249,.09);
+    border-radius:7px;
+    background:rgba(8,47,73,.28);
+    color:#64748b;
+    font-size:4px;
+    font-weight:900;
+    letter-spacing:.4px;
+    transition:.2s ease;
+}
+.loader-4038__footer span i{
+    color:#67e8f9;
+    font-size:8px;
+}
+.loader-4038:hover .loader-4038__shell{
+    border-color:rgba(103,232,249,.34);
+}
+.loader-4038:hover .loader-4038__drop{
+    filter:
+        drop-shadow(0 0 10px rgba(255,255,255,.35))
+        drop-shadow(0 0 20px rgba(34,211,238,.82));
+}
+.loader-4038:hover .loader-4038__orbit--outer{
+    box-shadow:
+        0 0 28px rgba(34,211,238,.14),
+        inset 0 0 26px rgba(14,165,233,.07);
+}
+.loader-4038:hover .loader-4038__footer span{
+    border-color:rgba(103,232,249,.2);
+    background:rgba(8,145,178,.24);
+    color:#cffafe;
+}
+@keyframes loader4038Ground{
+    0%,100%{
+        opacity:.32;
+        transform:translateX(-50%) scaleX(.72);
+    }
+    50%{
+        opacity:.8;
+        transform:translateX(-50%) scaleX(1.1);
+    }
+}
+@keyframes loader4038Ambient1{
+    0%,100%{
+        transform:translate(0,0) scale(1);
+        opacity:.52;
+    }
+    50%{
+        transform:translate(30px,22px) scale(1.2);
+        opacity:1;
+    }
+}
+@keyframes loader4038Ambient2{
+    0%,100%{
+        transform:translate(0,0) scale(1);
+        opacity:.5;
+    }
+    50%{
+        transform:translate(-28px,-18px) scale(1.16);
+        opacity:.95;
+    }
+}
+@keyframes loader4038Ambient3{
+    0%,100%{
+        transform:translateY(0) scale(.9);
+        opacity:.44;
+    }
+    50%{
+        transform:translateY(-27px) scale(1.18);
+        opacity:.92;
+    }
+}
+@keyframes loader4038Bubble{
+    0%{
+        transform:translateY(0) translateX(0) scale(.55);
+        opacity:0;
+    }
+    10%{
+        opacity:.65;
+    }
+    50%{
+        transform:translateY(-280px) translateX(14px) scale(1);
+    }
+    100%{
+        transform:translateY(-600px) translateX(-10px) scale(1.18);
+        opacity:0;
+    }
+}
+@keyframes loader4038ShellShine{
+    0%,68%{
+        left:-70px;
+        opacity:0;
+    }
+    74%{
+        opacity:.62;
+    }
+    92%{
+        left:calc(100% + 70px);
+        opacity:.62;
+    }
+    100%{
+        left:calc(100% + 70px);
+        opacity:0;
+    }
+}
+@keyframes loader4038TitleIcon{
+    0%,100%{
+        transform:translateY(0) rotate(0deg) scale(1);
+    }
+    50%{
+        transform:translateY(-2px) rotate(6deg) scale(1.08);
+    }
+}
+@keyframes loader4038Status{
+    0%,100%{
+        transform:scale(.75);
+        opacity:.45;
+    }
+    50%{
+        transform:scale(1.3);
+        opacity:1;
+    }
+}
+@keyframes loader4038ReactorGlow{
+    0%,100%{
+        opacity:.46;
+        transform:scale(.88);
+    }
+    50%{
+        opacity:1;
+        transform:scale(1.1);
+    }
+}
+@keyframes loader4038ReactorShadow{
+    0%,100%{
+        opacity:.28;
+        transform:scaleX(.74);
+    }
+    50%{
+        opacity:.76;
+        transform:scaleX(1.18);
+    }
+}
+@keyframes loader4038Wave1{
+    0%,100%{
+        transform:translateX(-50%) scaleX(.85);
+        opacity:.25;
+    }
+    50%{
+        transform:translateX(-50%) scaleX(1.1);
+        opacity:.7;
+    }
+}
+@keyframes loader4038Wave2{
+    0%,100%{
+        transform:translateX(-50%) scaleX(1.05);
+        opacity:.2;
+    }
+    50%{
+        transform:translateX(-50%) scaleX(.84);
+        opacity:.62;
+    }
+}
+@keyframes loader4038Wave3{
+    0%,100%{
+        transform:translateX(-50%) scaleX(.9);
+        opacity:.18;
+    }
+    50%{
+        transform:translateX(-50%) scaleX(1.08);
+        opacity:.55;
+    }
+}
+@keyframes loader4038Current1{
+    from{
+        transform:rotate(15deg);
+    }
+    to{
+        transform:rotate(375deg);
+    }
+}
+@keyframes loader4038Current2{
+    from{
+        transform:rotate(75deg);
+    }
+    to{
+        transform:rotate(435deg);
+    }
+}
+@keyframes loader4038Current3{
+    from{
+        transform:rotate(135deg);
+    }
+    to{
+        transform:rotate(495deg);
+    }
+}
+@keyframes loader4038OuterOrbit{
+    from{
+        transform:translate(-50%,-50%) rotate(0deg);
+    }
+    to{
+        transform:translate(-50%,-50%) rotate(360deg);
+    }
+}
+@keyframes loader4038MiddleOrbit{
+    from{
+        transform:translate(-50%,-50%) rotate(0deg);
+    }
+    to{
+        transform:translate(-50%,-50%) rotate(360deg);
+    }
+}
+@keyframes loader4038InnerOrbit{
+    from{
+        transform:translate(-50%,-50%) rotate(0deg);
+    }
+    to{
+        transform:translate(-50%,-50%) rotate(360deg);
+    }
+}
+@keyframes loader4038Node{
+    0%,100%{
+        transform:scale(.72);
+        opacity:.5;
+    }
+    50%{
+        transform:scale(1.34);
+        opacity:1;
+    }
+}
+@keyframes loader4038Spark{
+    0%,100%{
+        transform:scale(.6);
+        opacity:.35;
+    }
+    50%{
+        transform:scale(1.45);
+        opacity:1;
+    }
+}
+@keyframes loader4038Sonar{
+    0%{
+        transform:translate(-50%,-50%) scale(.2);
+        opacity:0;
+    }
+    20%{
+        opacity:.7;
+    }
+    100%{
+        transform:translate(-50%,-50%) scale(1.35);
+        opacity:0;
+    }
+}
+@keyframes loader4038CoreRing1{
+    0%,100%{
+        transform:translate(-50%,-50%) scale(.9);
+        opacity:.45;
+    }
+    50%{
+        transform:translate(-50%,-50%) scale(1.1);
+        opacity:1;
+    }
+}
+@keyframes loader4038CoreRing2{
+    from{
+        transform:translate(-50%,-50%) rotate(0deg);
+    }
+    to{
+        transform:translate(-50%,-50%) rotate(360deg);
+    }
+}
+@keyframes loader4038CoreRing3{
+    from{
+        transform:translate(-50%,-50%) rotate(0deg);
+    }
+    to{
+        transform:translate(-50%,-50%) rotate(360deg);
+    }
+}
+@keyframes loader4038Drop{
+    0%,100%{
+        transform:translateY(0) rotate(45deg) scale(.94);
+    }
+    25%{
+        transform:translateY(-2px) rotate(48deg) scale(1);
+    }
+    50%{
+        transform:translateY(-5px) rotate(45deg) scale(1.1);
+    }
+    75%{
+        transform:translateY(-2px) rotate(42deg) scale(1);
+    }
+}
+@keyframes loader4038DropLight{
+    0%{
+        transform:rotate(-45deg) translateX(-140%);
+        opacity:0;
+    }
+    35%{
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    70%{
+        opacity:0;
+    }
+    100%{
+        transform:rotate(-45deg) translateX(140%);
+        opacity:0;
+    }
+}
+@keyframes loader4038CoreGlow{
+    0%,100%{
+        transform:scale(.72);
+        opacity:.34;
+    }
+    50%{
+        transform:scale(1.38);
+        opacity:1;
+    }
+}
+@keyframes loader4038Particle1{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    45%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(44px,-38px) scale(1.25);
+        opacity:0;
+    }
+}
+@keyframes loader4038Particle2{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    45%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(-42px,-42px) scale(1.25);
+        opacity:0;
+    }
+}
+@keyframes loader4038Particle3{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(28px,44px) scale(1.2);
+        opacity:0;
+    }
+}
+@keyframes loader4038Particle4{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(-27px,46px) scale(1.2);
+        opacity:0;
+    }
+}
+@keyframes loader4038Particle5{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(30px,-42px) scale(1.25);
+        opacity:0;
+    }
+}
+@keyframes loader4038Particle6{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(-29px,-44px) scale(1.25);
+        opacity:0;
+    }
+}
+@keyframes loader4038Particle7{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(4px,-52px) scale(1.28);
+        opacity:0;
+    }
+}
+@keyframes loader4038Particle8{
+    0%{
+        transform:translate(0,0) scale(.4);
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        transform:translate(-6px,50px) scale(1.25);
+        opacity:0;
+    }
+}
+@keyframes loader4038Dot{
+    0%,100%{
+        transform:translateY(0) scale(.65);
+        opacity:.3;
+    }
+    50%{
+        transform:translateY(-2px) scale(1.25);
+        opacity:1;
+    }
+}
+@keyframes loader4038Progress{
+    0%,100%{
+        width:69%;
+        filter:saturate(.9);
+    }
+    50%{
+        width:91%;
+        filter:saturate(1.4);
+    }
+}
+@keyframes loader4038ProgressShine{
+    from{
+        transform:translateX(-140%);
+    }
+    to{
+        transform:translateX(140%);
+    }
+}
+@keyframes loader4038ProgressGlow{
+    0%,100%{
+        left:67%;
+        opacity:.4;
+    }
+    50%{
+        left:89%;
+        opacity:1;
+    }
+}
+@media(max-width:520px){
+    .loader-4038{
+        width:100%;
+        min-height:510px;
+    }
+    .loader-4038__shell{
+        width:calc(100% - 24px);
+        padding:13px;
+    }
+    .loader-4038__reactor{
+        width:245px;
+        height:245px;
+    }
+    .loader-4038__orbit--outer{
+        width:215px;
+        height:215px;
+    }
+    .loader-4038__orbit--middle{
+        width:168px;
+        height:168px;
+    }
+    .loader-4038__orbit--inner{
+        width:124px;
+        height:124px;
+    }
+    .loader-4038__metrics{
+        gap:4px;
+    }
+    .loader-4038__footer{
+        gap:4px;
+    }
+    .loader-4038__footer span{
+        padding:5px 2px;
+        font-size:3px;
+    }
+}`,
+  },
 ];
