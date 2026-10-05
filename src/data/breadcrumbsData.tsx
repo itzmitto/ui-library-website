@@ -4870,5 +4870,319 @@ export const breadcrumbs = [
 @keyframes breadcrumb4032Dot{0%,100%{transform:translateY(-50%) scale(.82);opacity:.65}50%{transform:translateY(-50%) scale(1.22);opacity:1}}
 @media(max-width:620px){.breadcrumb-4032{gap:4px;padding:9px 8px}.breadcrumb-4032__item{padding:7px}.breadcrumb-4032__item--current{padding-right:22px}.breadcrumb-4032__label{font-size:6px}.breadcrumb-4032__icon{width:24px;height:24px;flex-basis:24px;font-size:11px}.breadcrumb-4032__separator{width:12px}}
 `,
-  },
+  },{
+  id: 4033,
+  name: "Fire Diamond Breadcrumb",
+  preview: (
+    <div className="breadcrumb-4033-wrap">
+      <nav className="breadcrumb-4033" aria-label="Breadcrumb">
+        <span className="breadcrumb-4033__shine"></span>
+        <span className="breadcrumb-4033__facets"></span>
+        <span className="breadcrumb-4033__flame breadcrumb-4033__flame--1"></span>
+        <span className="breadcrumb-4033__flame breadcrumb-4033__flame--2"></span>
+
+        <a href="#" className="breadcrumb-4033__item">
+          <span className="breadcrumb-4033__icon">
+            <i className="ri-fire-fill"></i>
+          </span>
+          <span className="breadcrumb-4033__label">EMBER</span>
+        </a>
+
+        <span className="breadcrumb-4033__separator">
+          <span></span>
+        </span>
+
+        <a href="#" className="breadcrumb-4033__item">
+          <span className="breadcrumb-4033__icon">
+            <i className="ri-vip-diamond-fill"></i>
+          </span>
+          <span className="breadcrumb-4033__label">PRISM</span>
+        </a>
+
+        <span className="breadcrumb-4033__separator">
+          <span></span>
+        </span>
+
+        <a href="#" className="breadcrumb-4033__item">
+          <span className="breadcrumb-4033__icon">
+            <i className="ri-flashlight-fill"></i>
+          </span>
+          <span className="breadcrumb-4033__label">SPARK</span>
+        </a>
+
+        <span className="breadcrumb-4033__separator">
+          <span></span>
+        </span>
+
+        <span className="breadcrumb-4033__item breadcrumb-4033__item--current">
+          <span className="breadcrumb-4033__icon">
+            <i className="ri-star-fire-fill"></i>
+          </span>
+          <span className="breadcrumb-4033__label">FIRE DIAMOND</span>
+          <span className="breadcrumb-4033__dot"></span>
+        </span>
+      </nav>
+    </div>
+  ),
+  html: `<div class="breadcrumb-4033-wrap">
+    <nav class="breadcrumb-4033" aria-label="Breadcrumb">
+        <span class="breadcrumb-4033__shine"></span>
+        <span class="breadcrumb-4033__facets"></span>
+        <span class="breadcrumb-4033__flame breadcrumb-4033__flame--1"></span>
+        <span class="breadcrumb-4033__flame breadcrumb-4033__flame--2"></span>
+
+        <a href="#" class="breadcrumb-4033__item">
+            <span class="breadcrumb-4033__icon">
+                <i class="ri-fire-fill"></i>
+            </span>
+            <span class="breadcrumb-4033__label">EMBER</span>
+        </a>
+
+        <span class="breadcrumb-4033__separator">
+            <span></span>
+        </span>
+
+        <a href="#" class="breadcrumb-4033__item">
+            <span class="breadcrumb-4033__icon">
+                <i class="ri-vip-diamond-fill"></i>
+            </span>
+            <span class="breadcrumb-4033__label">PRISM</span>
+        </a>
+
+        <span class="breadcrumb-4033__separator">
+            <span></span>
+        </span>
+
+        <a href="#" class="breadcrumb-4033__item">
+            <span class="breadcrumb-4033__icon">
+                <i class="ri-flashlight-fill"></i>
+            </span>
+            <span class="breadcrumb-4033__label">SPARK</span>
+        </a>
+
+        <span class="breadcrumb-4033__separator">
+            <span></span>
+        </span>
+
+        <span class="breadcrumb-4033__item breadcrumb-4033__item--current">
+            <span class="breadcrumb-4033__icon">
+                <i class="ri-star-fire-fill"></i>
+            </span>
+            <span class="breadcrumb-4033__label">FIRE DIAMOND</span>
+            <span class="breadcrumb-4033__dot"></span>
+        </span>
+    </nav>
+</div>`,
+  css: `.breadcrumb-4033-wrap{width:100%;display:flex;align-items:center;justify-content:center;padding:28px}.breadcrumb-4033{position:relative;display:flex;align-items:center;justify-content:center;gap:8px;padding:12px 16px;overflow:hidden;border:1px solid rgba(251,146,60,.28);border-radius:18px;background:linear-gradient(135deg,rgba(28,7,4,.98),rgba(60,18,8,.95),rgba(120,31,9,.92));box-shadow:0 18px 42px rgba(0,0,0,.45),0 0 0 1px rgba(255,255,255,.03) inset,0 0 24px rgba(249,115,22,.14),0 0 38px rgba(239,68,68,.12);backdrop-filter:blur(15px);-webkit-backdrop-filter:blur(15px);font-family:Arial,Helvetica,sans-serif}.breadcrumb-4033::before{content:"";position:absolute;inset:1px;border-radius:17px;background:linear-gradient(145deg,rgba(255,255,255,.06),rgba(255,255,255,0) 32%,rgba(251,146,60,.06) 62%,rgba(255,255,255,.025));pointer-events:none}.breadcrumb-4033::after{content:"";position:absolute;left:16px;right:16px;bottom:3px;height:1px;background:linear-gradient(90deg,transparent,rgba(255,237,213,.85),rgba(251,146,60,.95),rgba(239,68,68,.9),transparent);box-shadow:0 0 14px rgba(251,146,60,.6);opacity:.95}.breadcrumb-4033__facets{position:absolute;inset:0;border-radius:18px;background:linear-gradient(126deg,transparent 0 14%,rgba(255,255,255,.035) 14% 15%,transparent 15% 30%,rgba(253,186,116,.05) 30% 31%,transparent 31% 48%,rgba(255,255,255,.03) 48% 49%,transparent 49% 64%,rgba(248,113,113,.055) 64% 65%,transparent 65% 81%,rgba(255,255,255,.02) 81% 82%,transparent 82%);pointer-events:none}.breadcrumb-4033__shine{position:absolute;top:-65%;bottom:-65%;left:-90px;width:44px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.04),rgba(255,244,214,.42),rgba(251,146,60,.24),transparent);transform:rotate(22deg);animation:breadcrumb4033Shine 4.6s ease-in-out infinite;pointer-events:none}.breadcrumb-4033__flame{position:absolute;border-radius:50%;filter:blur(24px);pointer-events:none}.breadcrumb-4033__flame--1{left:-28px;top:-26px;width:92px;height:92px;background:rgba(249,115,22,.14)}.breadcrumb-4033__flame--2{right:-26px;bottom:-28px;width:104px;height:104px;background:rgba(239,68,68,.15)}.breadcrumb-4033__item{position:relative;z-index:2;display:flex;align-items:center;gap:6px;padding:8px 10px;border:1px solid transparent;border-radius:11px;color:#fed7aa;text-decoration:none;transition:transform .24s cubic-bezier(.2,.8,.2,1),background .24s ease,border-color .24s ease,box-shadow .24s ease,color .24s ease}.breadcrumb-4033__item::before{content:"";position:absolute;inset:0;border-radius:10px;background:linear-gradient(135deg,rgba(255,255,255,.05),rgba(251,146,60,.12));opacity:0;transition:opacity .24s ease}.breadcrumb-4033__item::after{content:"";position:absolute;left:10px;right:10px;bottom:4px;height:2px;border-radius:999px;background:linear-gradient(90deg,#fb923c,#fff7ed,#ef4444);box-shadow:0 0 10px rgba(251,146,60,.65);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}.breadcrumb-4033__icon{position:relative;z-index:2;width:29px;height:29px;display:grid;place-items:center;flex:0 0 29px;border:1px solid rgba(251,146,60,.26);border-radius:8px;background:linear-gradient(145deg,rgba(67,20,7,.96),rgba(124,45,18,.92));box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 0 0 1px rgba(255,255,255,.02);color:#fdba74;font-size:13px;transition:transform .26s ease,background .24s ease,color .24s ease,border-color .24s ease,box-shadow .24s ease}.breadcrumb-4033__label{position:relative;z-index:2;font-size:7px;font-weight:900;letter-spacing:.13em;white-space:nowrap}.breadcrumb-4033__separator{position:relative;z-index:2;width:18px;height:26px;display:grid;place-items:center;animation:breadcrumb4033Separator 2.4s ease-in-out infinite}.breadcrumb-4033__separator span{display:block;width:8px;height:8px;clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);background:linear-gradient(135deg,#fff7ed,#fdba74 45%,#fb923c 72%,#ef4444);border:1px solid rgba(255,255,255,.26);box-shadow:0 0 8px rgba(251,146,60,.48)}.breadcrumb-4033__item:hover{transform:translateY(-3px);border-color:rgba(251,146,60,.32);background:linear-gradient(135deg,rgba(67,20,7,.9),rgba(120,31,9,.54));color:#ffffff;box-shadow:0 10px 24px rgba(0,0,0,.32),0 0 18px rgba(251,146,60,.14)}.breadcrumb-4033__item:hover::before{opacity:1}.breadcrumb-4033__item:hover::after{transform:scaleX(1)}.breadcrumb-4033__item:hover .breadcrumb-4033__icon{transform:translateY(-2px) rotate(-8deg) scale(1.08);border-color:rgba(255,237,213,.55);background:linear-gradient(145deg,#7c2d12,#ea580c);color:#fff;box-shadow:0 8px 18px rgba(249,115,22,.18),0 0 18px rgba(251,146,60,.28),inset 0 1px 0 rgba(255,255,255,.09)}.breadcrumb-4033__item--current{padding-right:25px;border-color:rgba(251,146,60,.34);background:linear-gradient(135deg,rgba(67,20,7,.92),rgba(120,31,9,.58));color:#ffffff;box-shadow:0 0 18px rgba(251,146,60,.09),inset 0 1px 0 rgba(255,255,255,.04)}.breadcrumb-4033__item--current::before{opacity:1}.breadcrumb-4033__item--current::after{transform:scaleX(1)}.breadcrumb-4033__item--current .breadcrumb-4033__icon{border-color:rgba(255,237,213,.62);background:linear-gradient(145deg,#9a3412,#7c2d12);color:#fff7ed;box-shadow:0 0 16px rgba(251,146,60,.24),inset 0 1px 0 rgba(255,255,255,.1);animation:breadcrumb4033CurrentIcon 3s ease-in-out infinite}.breadcrumb-4033__dot{position:absolute;right:9px;top:50%;width:7px;height:7px;border-radius:50%;background:#fff7ed;border:2px solid #431407;box-shadow:0 0 0 2px rgba(251,146,60,.42),0 0 10px rgba(255,255,255,.7),0 0 18px rgba(249,115,22,.6);transform:translateY(-50%);animation:breadcrumb4033Dot 1.8s ease-in-out infinite}@keyframes breadcrumb4033Shine{0%,68%{left:-90px;opacity:0}74%{opacity:.95}90%{left:calc(100% + 90px);opacity:.95}100%{left:calc(100% + 90px);opacity:0}}@keyframes breadcrumb4033Separator{0%,100%{transform:translateX(0) scale(.9);opacity:.6}50%{transform:translateX(3px) scale(1.05);opacity:1}}@keyframes breadcrumb4033CurrentIcon{0%,100%{transform:scale(1);box-shadow:0 0 10px rgba(251,146,60,.18),inset 0 1px 0 rgba(255,255,255,.08)}50%{transform:scale(1.08);box-shadow:0 0 18px rgba(251,146,60,.32),0 0 28px rgba(239,68,68,.16),inset 0 1px 0 rgba(255,255,255,.12)}}@keyframes breadcrumb4033Dot{0%,100%{transform:translateY(-50%) scale(.82);opacity:.65}50%{transform:translateY(-50%) scale(1.2);opacity:1}}@media(max-width:620px){.breadcrumb-4033{gap:4px;padding:9px 8px}.breadcrumb-4033__item{padding:7px}.breadcrumb-4033__item--current{padding-right:22px}.breadcrumb-4033__label{font-size:6px}.breadcrumb-4033__icon{width:24px;height:24px;flex-basis:24px;font-size:11px}.breadcrumb-4033__separator{width:12px}}`,
+},
+{
+  id: 4034,
+  name: "Emerald Luxury Breadcrumb",
+  preview: (
+    <div className="breadcrumb-4034-wrap">
+      <nav className="breadcrumb-4034" aria-label="Breadcrumb">
+        <span className="breadcrumb-4034__shine"></span>
+        <span className="breadcrumb-4034__facets"></span>
+        <span className="breadcrumb-4034__glow breadcrumb-4034__glow--left"></span>
+        <span className="breadcrumb-4034__glow breadcrumb-4034__glow--right"></span>
+
+        <a href="#" className="breadcrumb-4034__item">
+          <span className="breadcrumb-4034__icon">
+            <i className="ri-building-4-fill"></i>
+          </span>
+          <span className="breadcrumb-4034__label">ESTATE</span>
+        </a>
+
+        <span className="breadcrumb-4034__separator">
+          <span></span>
+        </span>
+
+        <a href="#" className="breadcrumb-4034__item">
+          <span className="breadcrumb-4034__icon">
+            <i className="ri-vip-crown-2-fill"></i>
+          </span>
+          <span className="breadcrumb-4034__label">LUXURY</span>
+        </a>
+
+        <span className="breadcrumb-4034__separator">
+          <span></span>
+        </span>
+
+        <a href="#" className="breadcrumb-4034__item">
+          <span className="breadcrumb-4034__icon">
+            <i className="ri-bank-card-fill"></i>
+          </span>
+          <span className="breadcrumb-4034__label">SIGNATURE</span>
+        </a>
+
+        <span className="breadcrumb-4034__separator">
+          <span></span>
+        </span>
+
+        <span className="breadcrumb-4034__item breadcrumb-4034__item--current">
+          <span className="breadcrumb-4034__icon">
+            <i className="ri-gemini-fill"></i>
+          </span>
+          <span className="breadcrumb-4034__label">EMERALD</span>
+          <span className="breadcrumb-4034__dot"></span>
+        </span>
+      </nav>
+    </div>
+  ),
+  html: `<div class="breadcrumb-4034-wrap">
+    <nav class="breadcrumb-4034" aria-label="Breadcrumb">
+        <span class="breadcrumb-4034__shine"></span>
+        <span class="breadcrumb-4034__facets"></span>
+        <span class="breadcrumb-4034__glow breadcrumb-4034__glow--left"></span>
+        <span class="breadcrumb-4034__glow breadcrumb-4034__glow--right"></span>
+
+        <a href="#" class="breadcrumb-4034__item">
+            <span class="breadcrumb-4034__icon">
+                <i class="ri-building-4-fill"></i>
+            </span>
+            <span class="breadcrumb-4034__label">ESTATE</span>
+        </a>
+
+        <span class="breadcrumb-4034__separator">
+            <span></span>
+        </span>
+
+        <a href="#" class="breadcrumb-4034__item">
+            <span class="breadcrumb-4034__icon">
+                <i class="ri-vip-crown-2-fill"></i>
+            </span>
+            <span class="breadcrumb-4034__label">LUXURY</span>
+        </a>
+
+        <span class="breadcrumb-4034__separator">
+            <span></span>
+        </span>
+
+        <a href="#" class="breadcrumb-4034__item">
+            <span class="breadcrumb-4034__icon">
+                <i class="ri-bank-card-fill"></i>
+            </span>
+            <span class="breadcrumb-4034__label">SIGNATURE</span>
+        </a>
+
+        <span class="breadcrumb-4034__separator">
+            <span></span>
+        </span>
+
+        <span class="breadcrumb-4034__item breadcrumb-4034__item--current">
+            <span class="breadcrumb-4034__icon">
+                <i class="ri-gemini-fill"></i>
+            </span>
+            <span class="breadcrumb-4034__label">EMERALD</span>
+            <span class="breadcrumb-4034__dot"></span>
+        </span>
+    </nav>
+</div>`,
+  css: `.breadcrumb-4034-wrap{width:100%;display:flex;align-items:center;justify-content:center;padding:28px}.breadcrumb-4034{position:relative;display:flex;align-items:center;justify-content:center;gap:8px;padding:12px 16px;overflow:hidden;border:1px solid rgba(110,231,183,.28);border-radius:18px;background:linear-gradient(135deg,rgba(2,28,20,.97),rgba(4,47,46,.95),rgba(5,83,59,.92));box-shadow:0 18px 42px rgba(0,0,0,.44),0 0 0 1px rgba(255,255,255,.03) inset,0 0 26px rgba(16,185,129,.11),0 0 34px rgba(251,191,36,.08);backdrop-filter:blur(15px);-webkit-backdrop-filter:blur(15px);font-family:Georgia,"Times New Roman",serif}.breadcrumb-4034::before{content:"";position:absolute;inset:1px;border-radius:17px;background:linear-gradient(145deg,rgba(255,255,255,.06),rgba(255,255,255,0) 35%,rgba(110,231,183,.05) 62%,rgba(255,255,255,.02));pointer-events:none}.breadcrumb-4034::after{content:"";position:absolute;left:16px;right:16px;bottom:3px;height:1px;background:linear-gradient(90deg,transparent,rgba(236,253,245,.88),rgba(52,211,153,.95),rgba(251,191,36,.85),transparent);box-shadow:0 0 14px rgba(16,185,129,.42);opacity:.95}.breadcrumb-4034__facets{position:absolute;inset:0;border-radius:18px;background:linear-gradient(126deg,transparent 0 12%,rgba(255,255,255,.03) 12% 13%,transparent 13% 28%,rgba(110,231,183,.05) 28% 29%,transparent 29% 46%,rgba(255,255,255,.025) 46% 47%,transparent 47% 63%,rgba(251,191,36,.04) 63% 64%,transparent 64% 79%,rgba(255,255,255,.018) 79% 80%,transparent 80%);pointer-events:none}.breadcrumb-4034__shine{position:absolute;top:-65%;bottom:-65%;left:-90px;width:44px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.04),rgba(236,253,245,.42),rgba(110,231,183,.22),transparent);transform:rotate(22deg);animation:breadcrumb4034Shine 4.9s ease-in-out infinite;pointer-events:none}.breadcrumb-4034__glow{position:absolute;border-radius:50%;filter:blur(24px);pointer-events:none}.breadcrumb-4034__glow--left{left:-32px;top:-30px;width:96px;height:96px;background:rgba(16,185,129,.1)}.breadcrumb-4034__glow--right{right:-30px;bottom:-30px;width:100px;height:100px;background:rgba(251,191,36,.08)}.breadcrumb-4034__item{position:relative;z-index:2;display:flex;align-items:center;gap:6px;padding:8px 10px;border:1px solid transparent;border-radius:11px;color:#d1fae5;text-decoration:none;transition:transform .24s cubic-bezier(.2,.8,.2,1),background .24s ease,border-color .24s ease,box-shadow .24s ease,color .24s ease}.breadcrumb-4034__item::before{content:"";position:absolute;inset:0;border-radius:10px;background:linear-gradient(135deg,rgba(255,255,255,.05),rgba(16,185,129,.1));opacity:0;transition:opacity .24s ease}.breadcrumb-4034__item::after{content:"";position:absolute;left:10px;right:10px;bottom:4px;height:2px;border-radius:999px;background:linear-gradient(90deg,#6ee7b7,#ecfdf5,#fbbf24);box-shadow:0 0 10px rgba(110,231,183,.55);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}.breadcrumb-4034__icon{position:relative;z-index:2;width:29px;height:29px;display:grid;place-items:center;flex:0 0 29px;border:1px solid rgba(110,231,183,.24);border-radius:8px;background:linear-gradient(145deg,rgba(6,46,35,.96),rgba(4,78,59,.92));box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 0 0 1px rgba(255,255,255,.02);color:#fef3c7;font-size:13px;transition:transform .26s ease,background .24s ease,color .24s ease,border-color .24s ease,box-shadow .24s ease}.breadcrumb-4034__label{position:relative;z-index:2;font-size:7px;font-weight:900;letter-spacing:.14em;white-space:nowrap}.breadcrumb-4034__separator{position:relative;z-index:2;width:18px;height:26px;display:grid;place-items:center;animation:breadcrumb4034Separator 2.5s ease-in-out infinite}.breadcrumb-4034__separator span{display:block;width:8px;height:8px;clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);background:linear-gradient(135deg,#ecfdf5,#6ee7b7 45%,#10b981 72%,#fbbf24);border:1px solid rgba(255,255,255,.24);box-shadow:0 0 8px rgba(16,185,129,.4)}.breadcrumb-4034__item:hover{transform:translateY(-3px);border-color:rgba(110,231,183,.3);background:linear-gradient(135deg,rgba(6,46,35,.92),rgba(5,83,59,.54));color:#ffffff;box-shadow:0 10px 24px rgba(0,0,0,.32),0 0 18px rgba(16,185,129,.12)}.breadcrumb-4034__item:hover::before{opacity:1}.breadcrumb-4034__item:hover::after{transform:scaleX(1)}.breadcrumb-4034__item:hover .breadcrumb-4034__icon{transform:translateY(-2px) rotate(-8deg) scale(1.08);border-color:rgba(236,253,245,.58);background:linear-gradient(145deg,#065f46,#047857);color:#fff7d6;box-shadow:0 8px 18px rgba(16,185,129,.18),0 0 18px rgba(110,231,183,.22),inset 0 1px 0 rgba(255,255,255,.09)}.breadcrumb-4034__item--current{padding-right:25px;border-color:rgba(110,231,183,.32);background:linear-gradient(135deg,rgba(6,46,35,.94),rgba(5,83,59,.6));color:#ffffff;box-shadow:0 0 18px rgba(16,185,129,.08),inset 0 1px 0 rgba(255,255,255,.04)}.breadcrumb-4034__item--current::before{opacity:1}.breadcrumb-4034__item--current::after{transform:scaleX(1)}.breadcrumb-4034__item--current .breadcrumb-4034__icon{border-color:rgba(236,253,245,.64);background:linear-gradient(145deg,#047857,#065f46);color:#fff7d6;box-shadow:0 0 16px rgba(16,185,129,.22),inset 0 1px 0 rgba(255,255,255,.1);animation:breadcrumb4034CurrentIcon 3.1s ease-in-out infinite}.breadcrumb-4034__dot{position:absolute;right:9px;top:50%;width:7px;height:7px;border-radius:50%;background:#fefce8;border:2px solid #052e2b;box-shadow:0 0 0 2px rgba(110,231,183,.38),0 0 10px rgba(255,255,255,.7),0 0 18px rgba(16,185,129,.45);transform:translateY(-50%);animation:breadcrumb4034Dot 1.9s ease-in-out infinite}@keyframes breadcrumb4034Shine{0%,68%{left:-90px;opacity:0}74%{opacity:.95}90%{left:calc(100% + 90px);opacity:.95}100%{left:calc(100% + 90px);opacity:0}}@keyframes breadcrumb4034Separator{0%,100%{transform:translateX(0) scale(.9);opacity:.58}50%{transform:translateX(3px) scale(1.05);opacity:1}}@keyframes breadcrumb4034CurrentIcon{0%,100%{transform:scale(1);box-shadow:0 0 10px rgba(16,185,129,.16),inset 0 1px 0 rgba(255,255,255,.08)}50%{transform:scale(1.08);box-shadow:0 0 18px rgba(16,185,129,.3),0 0 28px rgba(251,191,36,.14),inset 0 1px 0 rgba(255,255,255,.12)}}@keyframes breadcrumb4034Dot{0%,100%{transform:translateY(-50%) scale(.82);opacity:.65}50%{transform:translateY(-50%) scale(1.22);opacity:1}}@media(max-width:620px){.breadcrumb-4034{gap:4px;padding:9px 8px}.breadcrumb-4034__item{padding:7px}.breadcrumb-4034__item--current{padding-right:22px}.breadcrumb-4034__label{font-size:6px}.breadcrumb-4034__icon{width:24px;height:24px;flex-basis:24px;font-size:11px}.breadcrumb-4034__separator{width:12px}}`,
+},
+{
+  id: 4035,
+  name: "Void Dark Matter Breadcrumb",
+  preview: (
+    <div className="breadcrumb-4035-wrap">
+      <nav className="breadcrumb-4035" aria-label="Breadcrumb">
+        <span className="breadcrumb-4035__nebula"></span>
+        <span className="breadcrumb-4035__grid"></span>
+        <span className="breadcrumb-4035__ring breadcrumb-4035__ring--1"></span>
+        <span className="breadcrumb-4035__ring breadcrumb-4035__ring--2"></span>
+
+        <a href="#" className="breadcrumb-4035__item">
+          <span className="breadcrumb-4035__icon">
+            <i className="ri-planet-fill"></i>
+          </span>
+          <span className="breadcrumb-4035__label">VOID</span>
+        </a>
+
+        <span className="breadcrumb-4035__separator">
+          <span></span>
+        </span>
+
+        <a href="#" className="breadcrumb-4035__item">
+          <span className="breadcrumb-4035__icon">
+            <i className="ri-moon-clear-fill"></i>
+          </span>
+          <span className="breadcrumb-4035__label">ORBIT</span>
+        </a>
+
+        <span className="breadcrumb-4035__separator">
+          <span></span>
+        </span>
+
+        <a href="#" className="breadcrumb-4035__item">
+          <span className="breadcrumb-4035__icon">
+            <i className="ri-sparkling-2-fill"></i>
+          </span>
+          <span className="breadcrumb-4035__label">NEBULA</span>
+        </a>
+
+        <span className="breadcrumb-4035__separator">
+          <span></span>
+        </span>
+
+        <span className="breadcrumb-4035__item breadcrumb-4035__item--current">
+          <span className="breadcrumb-4035__icon">
+            <i className="ri-focus-2-fill"></i>
+          </span>
+          <span className="breadcrumb-4035__label">DARK MATTER</span>
+          <span className="breadcrumb-4035__dot"></span>
+        </span>
+      </nav>
+    </div>
+  ),
+  html: `<div class="breadcrumb-4035-wrap">
+    <nav class="breadcrumb-4035" aria-label="Breadcrumb">
+        <span class="breadcrumb-4035__nebula"></span>
+        <span class="breadcrumb-4035__grid"></span>
+        <span class="breadcrumb-4035__ring breadcrumb-4035__ring--1"></span>
+        <span class="breadcrumb-4035__ring breadcrumb-4035__ring--2"></span>
+
+        <a href="#" class="breadcrumb-4035__item">
+            <span class="breadcrumb-4035__icon">
+                <i class="ri-planet-fill"></i>
+            </span>
+            <span class="breadcrumb-4035__label">VOID</span>
+        </a>
+
+        <span class="breadcrumb-4035__separator">
+            <span></span>
+        </span>
+
+        <a href="#" class="breadcrumb-4035__item">
+            <span class="breadcrumb-4035__icon">
+                <i class="ri-moon-clear-fill"></i>
+            </span>
+            <span class="breadcrumb-4035__label">ORBIT</span>
+        </a>
+
+        <span class="breadcrumb-4035__separator">
+            <span></span>
+        </span>
+
+        <a href="#" class="breadcrumb-4035__item">
+            <span class="breadcrumb-4035__icon">
+                <i class="ri-sparkling-2-fill"></i>
+            </span>
+            <span class="breadcrumb-4035__label">NEBULA</span>
+        </a>
+
+        <span class="breadcrumb-4035__separator">
+            <span></span>
+        </span>
+
+        <span class="breadcrumb-4035__item breadcrumb-4035__item--current">
+            <span class="breadcrumb-4035__icon">
+                <i class="ri-focus-2-fill"></i>
+            </span>
+            <span class="breadcrumb-4035__label">DARK MATTER</span>
+            <span class="breadcrumb-4035__dot"></span>
+        </span>
+    </nav>
+</div>`,
+  css: `.breadcrumb-4035-wrap{width:100%;display:flex;align-items:center;justify-content:center;padding:28px}.breadcrumb-4035{position:relative;display:flex;align-items:center;justify-content:center;gap:8px;padding:12px 16px;overflow:hidden;border:1px solid rgba(167,139,250,.22);border-radius:18px;background:linear-gradient(135deg,rgba(2,1,10,.98),rgba(13,10,30,.96),rgba(28,18,54,.94));box-shadow:0 18px 44px rgba(0,0,0,.52),0 0 0 1px rgba(255,255,255,.03) inset,0 0 24px rgba(139,92,246,.09),0 0 34px rgba(34,211,238,.06);backdrop-filter:blur(15px);-webkit-backdrop-filter:blur(15px);font-family:Arial,Helvetica,sans-serif}.breadcrumb-4035::before{content:"";position:absolute;inset:1px;border-radius:17px;background:linear-gradient(145deg,rgba(255,255,255,.05),rgba(255,255,255,0) 32%,rgba(167,139,250,.05) 62%,rgba(255,255,255,.02));pointer-events:none}.breadcrumb-4035::after{content:"";position:absolute;left:16px;right:16px;bottom:3px;height:1px;background:linear-gradient(90deg,transparent,rgba(196,181,253,.75),rgba(168,85,247,.9),rgba(34,211,238,.8),transparent);box-shadow:0 0 12px rgba(139,92,246,.35);opacity:.95}.breadcrumb-4035__nebula{position:absolute;inset:0;border-radius:18px;background:radial-gradient(circle at 18% 22%,rgba(34,211,238,.12),transparent 24%),radial-gradient(circle at 82% 18%,rgba(236,72,153,.12),transparent 26%),radial-gradient(circle at 72% 82%,rgba(139,92,246,.14),transparent 24%),radial-gradient(circle at 22% 80%,rgba(99,102,241,.12),transparent 24%);pointer-events:none}.breadcrumb-4035__grid{position:absolute;inset:0;border-radius:18px;background:linear-gradient(rgba(255,255,255,.028) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.02) 1px,transparent 1px);background-size:18px 18px,18px 18px;mask-image:linear-gradient(180deg,rgba(255,255,255,.45),rgba(255,255,255,.18));pointer-events:none}.breadcrumb-4035__ring{position:absolute;border:1px solid rgba(167,139,250,.16);border-radius:999px;pointer-events:none}.breadcrumb-4035__ring--1{width:120px;height:120px;left:-32px;top:-38px;box-shadow:0 0 28px rgba(139,92,246,.07)}.breadcrumb-4035__ring--2{width:130px;height:130px;right:-40px;bottom:-48px;border-color:rgba(34,211,238,.12);box-shadow:0 0 24px rgba(34,211,238,.06)}.breadcrumb-4035__item{position:relative;z-index:2;display:flex;align-items:center;gap:6px;padding:8px 10px;border:1px solid transparent;border-radius:11px;color:#ddd6fe;text-decoration:none;transition:transform .24s cubic-bezier(.2,.8,.2,1),background .24s ease,border-color .24s ease,box-shadow .24s ease,color .24s ease}.breadcrumb-4035__item::before{content:"";position:absolute;inset:0;border-radius:10px;background:linear-gradient(135deg,rgba(255,255,255,.04),rgba(139,92,246,.08));opacity:0;transition:opacity .24s ease}.breadcrumb-4035__item::after{content:"";position:absolute;left:10px;right:10px;bottom:4px;height:2px;border-radius:999px;background:linear-gradient(90deg,#a78bfa,#f5f3ff,#22d3ee);box-shadow:0 0 10px rgba(167,139,250,.45);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}.breadcrumb-4035__icon{position:relative;z-index:2;width:29px;height:29px;display:grid;place-items:center;flex:0 0 29px;border:1px solid rgba(167,139,250,.22);border-radius:8px;background:linear-gradient(145deg,rgba(17,24,39,.95),rgba(30,27,75,.92));box-shadow:inset 0 1px 0 rgba(255,255,255,.04),0 0 0 1px rgba(255,255,255,.018);color:#c4b5fd;font-size:13px;transition:transform .26s ease,background .24s ease,color .24s ease,border-color .24s ease,box-shadow .24s ease}.breadcrumb-4035__label{position:relative;z-index:2;font-size:7px;font-weight:900;letter-spacing:.14em;white-space:nowrap}.breadcrumb-4035__separator{position:relative;z-index:2;width:18px;height:26px;display:grid;place-items:center;animation:breadcrumb4035Separator 2.7s ease-in-out infinite}.breadcrumb-4035__separator span{display:block;width:8px;height:8px;clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);background:linear-gradient(135deg,#f5f3ff,#c4b5fd 42%,#8b5cf6 72%,#22d3ee);border:1px solid rgba(255,255,255,.22);box-shadow:0 0 8px rgba(167,139,250,.34)}.breadcrumb-4035__item:hover{transform:translateY(-3px);border-color:rgba(167,139,250,.28);background:linear-gradient(135deg,rgba(17,24,39,.92),rgba(30,27,75,.56));color:#ffffff;box-shadow:0 10px 24px rgba(0,0,0,.36),0 0 18px rgba(139,92,246,.1)}.breadcrumb-4035__item:hover::before{opacity:1}.breadcrumb-4035__item:hover::after{transform:scaleX(1)}.breadcrumb-4035__item:hover .breadcrumb-4035__icon{transform:translateY(-2px) rotate(-8deg) scale(1.08);border-color:rgba(196,181,253,.58);background:linear-gradient(145deg,#312e81,#1e1b4b);color:#ffffff;box-shadow:0 8px 18px rgba(139,92,246,.16),0 0 18px rgba(34,211,238,.14),inset 0 1px 0 rgba(255,255,255,.08)}.breadcrumb-4035__item--current{padding-right:25px;border-color:rgba(167,139,250,.3);background:linear-gradient(135deg,rgba(17,24,39,.94),rgba(30,27,75,.62));color:#ffffff;box-shadow:0 0 18px rgba(139,92,246,.08),inset 0 1px 0 rgba(255,255,255,.04)}.breadcrumb-4035__item--current::before{opacity:1}.breadcrumb-4035__item--current::after{transform:scaleX(1)}.breadcrumb-4035__item--current .breadcrumb-4035__icon{border-color:rgba(196,181,253,.64);background:linear-gradient(145deg,#1e1b4b,#312e81);color:#f5f3ff;box-shadow:0 0 16px rgba(139,92,246,.18),0 0 22px rgba(34,211,238,.08),inset 0 1px 0 rgba(255,255,255,.1);animation:breadcrumb4035CurrentIcon 3.2s ease-in-out infinite}.breadcrumb-4035__dot{position:absolute;right:9px;top:50%;width:7px;height:7px;border-radius:50%;background:#f5f3ff;border:2px solid #0f172a;box-shadow:0 0 0 2px rgba(167,139,250,.34),0 0 10px rgba(255,255,255,.6),0 0 18px rgba(139,92,246,.42);transform:translateY(-50%);animation:breadcrumb4035Dot 2s ease-in-out infinite}@keyframes breadcrumb4035Separator{0%,100%{transform:translateX(0) scale(.9);opacity:.58}50%{transform:translateX(3px) scale(1.05);opacity:1}}@keyframes breadcrumb4035CurrentIcon{0%,100%{transform:scale(1);box-shadow:0 0 10px rgba(139,92,246,.14),inset 0 1px 0 rgba(255,255,255,.08)}50%{transform:scale(1.08);box-shadow:0 0 18px rgba(139,92,246,.28),0 0 26px rgba(34,211,238,.12),inset 0 1px 0 rgba(255,255,255,.12)}}@keyframes breadcrumb4035Dot{0%,100%{transform:translateY(-50%) scale(.82);opacity:.65}50%{transform:translateY(-50%) scale(1.22);opacity:1}}@media(max-width:620px){.breadcrumb-4035{gap:4px;padding:9px 8px}.breadcrumb-4035__item{padding:7px}.breadcrumb-4035__item--current{padding-right:22px}.breadcrumb-4035__label{font-size:6px}.breadcrumb-4035__icon{width:24px;height:24px;flex-basis:24px;font-size:11px}.breadcrumb-4035__separator{width:12px}}`,
+},
 ];
