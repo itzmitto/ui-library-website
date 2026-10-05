@@ -6546,4 +6546,2517 @@ export const comicbooks = [
 .comic-3969:hover .comic-3969__pow{transform:rotate(-7deg) scale(1.08)}
 .comic-3969__footer button:hover{background:#2563eb;transform:translate(-2px,-2px)}`,
   },
+  {
+    id: 3970,
+    name: "Brave Bold Team-Up Card",
+    preview: (
+      <article className="comic-3970">
+        <div className="comic-3970__banner">
+          <span>TEAM-UP!</span>
+          <strong>ISSUE #08</strong>
+        </div>
+
+        <div className="comic-3970__heroes">
+          <div className="comic-3970__hero comic-3970__hero--bat">
+            <span>
+              <i className="ri-shield-fill"></i>
+            </span>
+            <strong>BATMAN</strong>
+          </div>
+
+          <span className="comic-3970__plus">+</span>
+
+          <div className="comic-3970__hero comic-3970__hero--beetle">
+            <span>
+              <i className="ri-bug-fill"></i>
+            </span>
+            <strong>BLUE BEETLE</strong>
+          </div>
+        </div>
+
+        <div className="comic-3970__body">
+          <small>TODAY'S ADVENTURE</small>
+          <h3>INVASION FROM ABOVE!</h3>
+          <p>
+            Two heroes. One impossible mission. Stop the invasion before Gotham
+            becomes ground zero.
+          </p>
+
+          <div className="comic-3970__tags">
+            <span>ACTION</span>
+            <span>SPACE</span>
+            <span>TEAM-UP</span>
+          </div>
+
+          <button type="button">
+            VIEW MISSION
+            <i className="ri-arrow-right-line"></i>
+          </button>
+        </div>
+      </article>
+    ),
+    html: `<article class="comic-3970">
+    <div class="comic-3970__banner">
+        <span>TEAM-UP!</span>
+        <strong>ISSUE #08</strong>
+    </div>
+
+    <div class="comic-3970__heroes">
+        <div class="comic-3970__hero comic-3970__hero--bat">
+            <span><i class="ri-shield-fill"></i></span>
+            <strong>BATMAN</strong>
+        </div>
+
+        <span class="comic-3970__plus">+</span>
+
+        <div class="comic-3970__hero comic-3970__hero--beetle">
+            <span><i class="ri-bug-fill"></i></span>
+            <strong>BLUE BEETLE</strong>
+        </div>
+    </div>
+
+    <div class="comic-3970__body">
+        <small>TODAY'S ADVENTURE</small>
+        <h3>INVASION FROM ABOVE!</h3>
+
+        <p>
+            Two heroes. One impossible mission. Stop the invasion before Gotham becomes ground zero.
+        </p>
+
+        <div class="comic-3970__tags">
+            <span>ACTION</span>
+            <span>SPACE</span>
+            <span>TEAM-UP</span>
+        </div>
+
+        <button type="button">
+            VIEW MISSION
+            <i class="ri-arrow-right-line"></i>
+        </button>
+    </div>
+</article>`,
+    css: `.comic-3970{position:relative;width:340px;max-width:100%;overflow:hidden;border:4px solid #111;background:#fff;color:#111;box-shadow:8px 8px 0 #2563eb;font-family:Arial,Helvetica,sans-serif;transition:transform .2s ease,box-shadow .2s ease}
+.comic-3970__banner{display:flex;align-items:center;justify-content:space-between;padding:9px 11px;border-bottom:4px solid #111;background:#ef4444;color:#fff;background-image:radial-gradient(rgba(17,17,17,.2) 1.1px,transparent 1.4px);background-size:7px 7px}
+.comic-3970__banner span{font:900 16px/1 Arial Black,Arial,sans-serif;font-style:italic}
+.comic-3970__banner strong{padding:4px 6px;border:2px solid #111;background:#facc15;color:#111;font-size:6px;transform:rotate(3deg)}
+.comic-3970__heroes{position:relative;display:grid;grid-template-columns:1fr 34px 1fr;align-items:center;gap:4px;padding:14px;background:#38bdf8}
+.comic-3970__heroes::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.16) 1.2px,transparent 1.5px);background-size:8px 8px}
+.comic-3970__hero{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:7px}
+.comic-3970__hero>span{width:54px;height:54px;display:grid;place-items:center;border:4px solid #111;border-radius:50%;background:#172554;color:#facc15;box-shadow:4px 4px 0 #111;font-size:23px;transition:transform .2s ease}
+.comic-3970__hero--beetle>span{background:#2563eb;color:#fff}
+.comic-3970__hero strong{padding:4px 6px;border:2px solid #111;background:#fff;font-size:6px}
+.comic-3970__plus{position:relative;z-index:2;width:34px;height:34px;display:grid;place-items:center;border:3px solid #111;background:#facc15;box-shadow:3px 3px 0 #111;font:900 18px/1 Arial Black,Arial,sans-serif;transform:rotate(5deg)}
+.comic-3970__body{padding:14px}
+.comic-3970__body>small{font-size:6px;font-weight:900;letter-spacing:1.4px;color:#2563eb}
+.comic-3970__body h3{margin:5px 0 0;font:900 17px/1 Arial Black,Arial,sans-serif}
+.comic-3970__body p{margin:8px 0 0;color:#52525b;font-size:8px;font-weight:700;line-height:1.5}
+.comic-3970__tags{display:flex;gap:5px;margin-top:10px}
+.comic-3970__tags span{padding:4px 5px;border:2px solid #111;background:#fef08a;font-size:5px;font-weight:900}
+.comic-3970__tags span:nth-child(2){background:#dbeafe}
+.comic-3970__tags span:nth-child(3){background:#fee2e2}
+.comic-3970__body button{width:100%;display:flex;align-items:center;justify-content:center;gap:6px;margin-top:12px;padding:8px;border:3px solid #111;background:#2563eb;color:#fff;box-shadow:4px 4px 0 #111;font-size:6px;font-weight:900;cursor:pointer;transition:transform .18s ease,background .18s ease}
+.comic-3970:hover{transform:translate(-2px,-2px);box-shadow:11px 11px 0 #2563eb}
+.comic-3970:hover .comic-3970__hero--bat>span{transform:rotate(-6deg) scale(1.08)}
+.comic-3970:hover .comic-3970__hero--beetle>span{transform:rotate(6deg) scale(1.08)}
+.comic-3970__body button:hover{background:#ef4444;transform:translate(-2px,-2px)}`,
+  },
+  {
+    id: 3971,
+    name: "Brave Bold Batmobile Status",
+    preview: (
+      <section className="comic-3971">
+        <div className="comic-3971__top">
+          <div>
+            <small>VEHICLE SYSTEM</small>
+            <h3>BATMOBILE</h3>
+          </div>
+
+          <span className="comic-3971__online">
+            <span></span>
+            READY
+          </span>
+        </div>
+
+        <div className="comic-3971__vehicle">
+          <i className="ri-roadster-fill"></i>
+          <span className="comic-3971__speed">184</span>
+          <small>KM/H</small>
+        </div>
+
+        <div className="comic-3971__meters">
+          <div>
+            <span>
+              <i className="ri-battery-charge-fill"></i>
+              POWER
+            </span>
+            <strong>92%</strong>
+            <div>
+              <span style={{ width: "92%" }}></span>
+            </div>
+          </div>
+
+          <div>
+            <span>
+              <i className="ri-gas-station-fill"></i>
+              FUEL
+            </span>
+            <strong>68%</strong>
+            <div>
+              <span style={{ width: "68%" }}></span>
+            </div>
+          </div>
+        </div>
+
+        <div className="comic-3971__actions">
+          <button type="button">
+            <i className="ri-map-pin-2-fill"></i>
+            LOCATE
+          </button>
+
+          <button type="button">
+            <i className="ri-key-2-fill"></i>
+            START
+          </button>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3971">
+    <div class="comic-3971__top">
+        <div>
+            <small>VEHICLE SYSTEM</small>
+            <h3>BATMOBILE</h3>
+        </div>
+
+        <span class="comic-3971__online">
+            <span></span>
+            READY
+        </span>
+    </div>
+
+    <div class="comic-3971__vehicle">
+        <i class="ri-roadster-fill"></i>
+        <span class="comic-3971__speed">184</span>
+        <small>KM/H</small>
+    </div>
+
+    <div class="comic-3971__meters">
+        <div>
+            <span>
+                <i class="ri-battery-charge-fill"></i>
+                POWER
+            </span>
+
+            <strong>92%</strong>
+
+            <div><span style="width:92%"></span></div>
+        </div>
+
+        <div>
+            <span>
+                <i class="ri-gas-station-fill"></i>
+                FUEL
+            </span>
+
+            <strong>68%</strong>
+
+            <div><span style="width:68%"></span></div>
+        </div>
+    </div>
+
+    <div class="comic-3971__actions">
+        <button type="button">
+            <i class="ri-map-pin-2-fill"></i>
+            LOCATE
+        </button>
+
+        <button type="button">
+            <i class="ri-key-2-fill"></i>
+            START
+        </button>
+    </div>
+</section>`,
+    css: `.comic-3971{position:relative;width:340px;max-width:100%;padding:15px;overflow:hidden;border:4px solid #111;background:#172554;color:#fff;box-shadow:8px 8px 0 #facc15;font-family:Arial,Helvetica,sans-serif}
+.comic-3971::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(-35deg,transparent 0 15px,rgba(96,165,250,.08) 15px 18px)}
+.comic-3971__top{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between}
+.comic-3971__top small{font-size:6px;font-weight:900;letter-spacing:1.4px;color:#93c5fd}
+.comic-3971__top h3{margin:4px 0 0;font:900 19px/1 Arial Black,Arial,sans-serif}
+.comic-3971__online{display:flex;align-items:center;gap:5px;padding:5px 6px;border:2px solid #111;background:#22c55e;color:#111;font-size:6px;font-weight:900}
+.comic-3971__online>span{width:7px;height:7px;border:2px solid #111;border-radius:50%;background:#fff}
+.comic-3971__vehicle{position:relative;z-index:2;height:89px;display:flex;align-items:center;justify-content:center;gap:8px;margin-top:13px;border:3px solid #111;background:#2563eb;box-shadow:4px 4px 0 #111}
+.comic-3971__vehicle>i{position:absolute;left:17px;font-size:39px;color:#facc15;transition:transform .2s ease}
+.comic-3971__speed{margin-left:75px;font:900 31px/.9 Arial Black,Arial,sans-serif}
+.comic-3971__vehicle small{align-self:flex-end;margin-bottom:23px;font-size:6px;font-weight:900;color:#bfdbfe}
+.comic-3971__meters{position:relative;z-index:2;display:grid;gap:8px;margin-top:12px}
+.comic-3971__meters>div{display:grid;grid-template-columns:1fr auto;align-items:center;gap:5px}
+.comic-3971__meters>div>span{display:flex;align-items:center;gap:4px;font-size:6px;font-weight:900}
+.comic-3971__meters>div>strong{font-size:6px}
+.comic-3971__meters>div>div{grid-column:1/-1;height:12px;padding:2px;border:2px solid #111;background:#fff}
+.comic-3971__meters>div>div>span{display:block;height:100%;background:#22c55e;transition:width .25s ease,background .18s ease}
+.comic-3971__meters>div:nth-child(2)>div>span{background:#facc15}
+.comic-3971__actions{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:13px}
+.comic-3971__actions button{display:flex;align-items:center;justify-content:center;gap:5px;padding:8px;border:3px solid #111;background:#fff;color:#111;box-shadow:3px 3px 0 #111;font-size:6px;font-weight:900;cursor:pointer;transition:transform .18s ease,background .18s ease}
+.comic-3971__actions button:nth-child(2){background:#facc15}
+.comic-3971:hover .comic-3971__vehicle>i{transform:translateX(7px) rotate(-3deg)}
+.comic-3971__actions button:hover{background:#38bdf8;transform:translate(-2px,-2px)}`,
+  },
+  {
+    id: 3972,
+    name: "Brave Bold Hero Stats",
+    preview: (
+      <article className="comic-3972">
+        <div className="comic-3972__profile">
+          <span className="comic-3972__avatar">
+            <i className="ri-shield-star-fill"></i>
+          </span>
+
+          <div>
+            <small>HERO PROFILE</small>
+            <h3>THE BATMAN</h3>
+            <span>TACTICAL / DETECTIVE</span>
+          </div>
+
+          <span className="comic-3972__rank">A+</span>
+        </div>
+
+        <div className="comic-3972__stats">
+          <div>
+            <span>
+              <i className="ri-brain-line"></i>
+              INTELLECT
+            </span>
+            <div>
+              <span style={{ width: "94%" }}></span>
+            </div>
+            <strong>94</strong>
+          </div>
+
+          <div>
+            <span>
+              <i className="ri-boxing-fill"></i>
+              COMBAT
+            </span>
+            <div>
+              <span style={{ width: "89%" }}></span>
+            </div>
+            <strong>89</strong>
+          </div>
+
+          <div>
+            <span>
+              <i className="ri-focus-3-line"></i>
+              STEALTH
+            </span>
+            <div>
+              <span style={{ width: "97%" }}></span>
+            </div>
+            <strong>97</strong>
+          </div>
+        </div>
+
+        <div className="comic-3972__bottom">
+          <span>
+            <strong>128</strong>
+            MISSIONS
+          </span>
+
+          <span>
+            <strong>96%</strong>
+            SUCCESS
+          </span>
+
+          <span>
+            <strong>42</strong>
+            ALLIES
+          </span>
+        </div>
+      </article>
+    ),
+    html: `<article class="comic-3972">
+    <div class="comic-3972__profile">
+        <span class="comic-3972__avatar">
+            <i class="ri-shield-star-fill"></i>
+        </span>
+
+        <div>
+            <small>HERO PROFILE</small>
+            <h3>THE BATMAN</h3>
+            <span>TACTICAL / DETECTIVE</span>
+        </div>
+
+        <span class="comic-3972__rank">A+</span>
+    </div>
+
+    <div class="comic-3972__stats">
+        <div>
+            <span><i class="ri-brain-line"></i> INTELLECT</span>
+            <div><span style="width:94%"></span></div>
+            <strong>94</strong>
+        </div>
+
+        <div>
+            <span><i class="ri-boxing-fill"></i> COMBAT</span>
+            <div><span style="width:89%"></span></div>
+            <strong>89</strong>
+        </div>
+
+        <div>
+            <span><i class="ri-focus-3-line"></i> STEALTH</span>
+            <div><span style="width:97%"></span></div>
+            <strong>97</strong>
+        </div>
+    </div>
+
+    <div class="comic-3972__bottom">
+        <span><strong>128</strong>MISSIONS</span>
+        <span><strong>96%</strong>SUCCESS</span>
+        <span><strong>42</strong>ALLIES</span>
+    </div>
+</article>`,
+    css: `.comic-3972{position:relative;width:345px;max-width:100%;padding:15px;overflow:hidden;border:4px solid #111;background:#fff;color:#111;box-shadow:8px 8px 0 #2563eb;font-family:Arial,Helvetica,sans-serif}
+.comic-3972::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.09) 1.1px,transparent 1.4px);background-size:8px 8px}
+.comic-3972__profile{position:relative;z-index:2;display:flex;align-items:center;gap:10px}
+.comic-3972__avatar{width:52px;height:52px;display:grid;place-items:center;flex:0 0 52px;border:4px solid #111;background:#172554;color:#facc15;box-shadow:4px 4px 0 #facc15;font-size:23px;transform:rotate(-4deg);transition:transform .2s ease}
+.comic-3972__profile>div{display:flex;min-width:0;flex:1;flex-direction:column}
+.comic-3972__profile small{font-size:6px;font-weight:900;letter-spacing:1.3px;color:#2563eb}
+.comic-3972__profile h3{margin:4px 0 0;font:900 17px/1 Arial Black,Arial,sans-serif}
+.comic-3972__profile>div>span{margin-top:4px;color:#64748b;font-size:5px;font-weight:900;letter-spacing:.8px}
+.comic-3972__rank{width:38px;height:38px;display:grid;place-items:center;border:3px solid #111;background:#facc15;box-shadow:3px 3px 0 #111;font:900 12px/1 Arial Black,Arial,sans-serif;transform:rotate(5deg)}
+.comic-3972__stats{position:relative;z-index:2;display:grid;gap:10px;margin-top:16px;padding:11px;border:3px solid #111;background:#f8fafc;box-shadow:4px 4px 0 #111}
+.comic-3972__stats>div{display:grid;grid-template-columns:70px 1fr 22px;align-items:center;gap:7px}
+.comic-3972__stats>div>span{display:flex;align-items:center;gap:4px;font-size:5px;font-weight:900}
+.comic-3972__stats>div>span i{font-size:11px;color:#2563eb}
+.comic-3972__stats>div>div{height:12px;padding:2px;border:2px solid #111;background:#e5e7eb}
+.comic-3972__stats>div>div>span{display:block;height:100%;background:#2563eb;transition:width .25s ease,background .18s ease}
+.comic-3972__stats>div:nth-child(2)>div>span{background:#ef4444}
+.comic-3972__stats>div:nth-child(3)>div>span{background:#facc15}
+.comic-3972__stats>div>strong{font-size:6px}
+.comic-3972__bottom{position:relative;z-index:2;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:12px}
+.comic-3972__bottom>span{display:flex;flex-direction:column;align-items:center;padding:8px 3px;border:2px solid #111;background:#dbeafe;font-size:5px;font-weight:900}
+.comic-3972__bottom strong{margin-bottom:3px;font:900 12px/1 Arial Black,Arial,sans-serif}
+.comic-3972:hover .comic-3972__avatar{transform:rotate(5deg) scale(1.08)}
+.comic-3972:hover .comic-3972__stats>div>div>span{filter:brightness(1.12)}`,
+  },
+  {
+    id: 3973,
+    name: "Brave Bold Villain Alert",
+    preview: (
+      <aside className="comic-3973" role="alert">
+        <div className="comic-3973__top">
+          <span className="comic-3973__danger">
+            <i className="ri-alarm-warning-fill"></i>
+          </span>
+
+          <div>
+            <small>VILLAIN DETECTED</small>
+            <h3>HIGH THREAT LEVEL!</h3>
+          </div>
+
+          <span className="comic-3973__level">LEVEL 5</span>
+        </div>
+
+        <div className="comic-3973__target">
+          <span className="comic-3973__avatar">
+            <i className="ri-question-mark"></i>
+          </span>
+
+          <div>
+            <small>IDENTIFIED AS</small>
+            <strong>THE RIDDLER</strong>
+            <span>Last seen · Gotham Central</span>
+          </div>
+
+          <span className="comic-3973__distance">1.8 KM</span>
+        </div>
+
+        <div className="comic-3973__actions">
+          <button type="button">
+            <i className="ri-map-pin-2-line"></i>
+            TRACK
+          </button>
+
+          <button type="button">
+            <i className="ri-shield-flash-line"></i>
+            RESPOND
+          </button>
+        </div>
+      </aside>
+    ),
+    html: `<aside class="comic-3973" role="alert">
+    <div class="comic-3973__top">
+        <span class="comic-3973__danger">
+            <i class="ri-alarm-warning-fill"></i>
+        </span>
+
+        <div>
+            <small>VILLAIN DETECTED</small>
+            <h3>HIGH THREAT LEVEL!</h3>
+        </div>
+
+        <span class="comic-3973__level">LEVEL 5</span>
+    </div>
+
+    <div class="comic-3973__target">
+        <span class="comic-3973__avatar">
+            <i class="ri-question-mark"></i>
+        </span>
+
+        <div>
+            <small>IDENTIFIED AS</small>
+            <strong>THE RIDDLER</strong>
+            <span>Last seen · Gotham Central</span>
+        </div>
+
+        <span class="comic-3973__distance">1.8 KM</span>
+    </div>
+
+    <div class="comic-3973__actions">
+        <button type="button">
+            <i class="ri-map-pin-2-line"></i>
+            TRACK
+        </button>
+
+        <button type="button">
+            <i class="ri-shield-flash-line"></i>
+            RESPOND
+        </button>
+    </div>
+</aside>`,
+    css: `.comic-3973{position:relative;width:350px;max-width:100%;padding:14px;overflow:hidden;border:4px solid #111;background:#ef4444;color:#fff;box-shadow:8px 8px 0 #111;font-family:Arial,Helvetica,sans-serif}
+.comic-3973::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.2) 1.2px,transparent 1.5px);background-size:8px 8px}
+.comic-3973__top{position:relative;z-index:2;display:flex;align-items:center;gap:9px}
+.comic-3973__danger{width:39px;height:39px;display:grid;place-items:center;flex:0 0 39px;border:3px solid #111;background:#facc15;color:#111;box-shadow:3px 3px 0 #111;font-size:18px;transform:rotate(-5deg);transition:transform .2s ease}
+.comic-3973__top>div{min-width:0;flex:1}
+.comic-3973__top small{font-size:5px;font-weight:900;letter-spacing:1.3px;color:#fee2e2}
+.comic-3973__top h3{margin:3px 0 0;font:900 13px/1 Arial Black,Arial,sans-serif}
+.comic-3973__level{padding:5px;border:3px solid #111;background:#111;color:#fff;box-shadow:2px 2px 0 #facc15;font-size:5px;font-weight:900;transform:rotate(4deg)}
+.comic-3973__target{position:relative;z-index:2;display:flex;align-items:center;gap:9px;margin-top:12px;padding:9px;border:3px solid #111;background:#fff;color:#111;box-shadow:4px 4px 0 #111}
+.comic-3973__avatar{width:42px;height:42px;display:grid;place-items:center;flex:0 0 42px;border:3px solid #111;border-radius:50%;background:#22c55e;box-shadow:3px 3px 0 #7e22ce;font:900 21px/1 Arial Black,Arial,sans-serif;transition:transform .2s ease}
+.comic-3973__target>div{display:flex;min-width:0;flex:1;flex-direction:column}
+.comic-3973__target small{font-size:5px;font-weight:900;letter-spacing:1px;color:#16a34a}
+.comic-3973__target strong{margin-top:3px;font:900 11px/1 Arial Black,Arial,sans-serif}
+.comic-3973__target>div>span{margin-top:4px;color:#64748b;font-size:6px;font-weight:700}
+.comic-3973__distance{padding:4px 5px;border:2px solid #111;background:#facc15;font-size:5px;font-weight:900}
+.comic-3973__actions{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.comic-3973__actions button{display:flex;align-items:center;justify-content:center;gap:5px;padding:8px;border:3px solid #111;background:#fff;color:#111;box-shadow:3px 3px 0 #111;font-size:6px;font-weight:900;cursor:pointer;transition:transform .18s ease,background .18s ease}
+.comic-3973__actions button:nth-child(2){background:#facc15}
+.comic-3973:hover .comic-3973__danger{transform:rotate(7deg) scale(1.1)}
+.comic-3973:hover .comic-3973__avatar{transform:rotate(-8deg) scale(1.08)}
+.comic-3973__actions button:hover{background:#2563eb;color:#fff;transform:translate(-2px,-2px)}`,
+  },
+  {
+    id: 3974,
+    name: "Brave Bold Mission Progress",
+    preview: (
+      <section className="comic-3974">
+        <div className="comic-3974__header">
+          <div>
+            <small>MISSION PROGRESS</small>
+            <h3>STOP THE INVASION</h3>
+          </div>
+
+          <span>68%</span>
+        </div>
+
+        <div className="comic-3974__progress">
+          <span></span>
+        </div>
+
+        <div className="comic-3974__steps">
+          <div className="comic-3974__step comic-3974__step--done">
+            <span>
+              <i className="ri-check-line"></i>
+            </span>
+            <div>
+              <strong>Locate signal</strong>
+              <small>Completed</small>
+            </div>
+          </div>
+
+          <div className="comic-3974__line comic-3974__line--done"></div>
+
+          <div className="comic-3974__step comic-3974__step--active">
+            <span>2</span>
+            <div>
+              <strong>Reach tower</strong>
+              <small>In progress</small>
+            </div>
+          </div>
+
+          <div className="comic-3974__line"></div>
+
+          <div className="comic-3974__step">
+            <span>3</span>
+            <div>
+              <strong>Disable device</strong>
+              <small>Locked</small>
+            </div>
+          </div>
+        </div>
+
+        <div className="comic-3974__footer">
+          <span>
+            <i className="ri-time-line"></i>
+            08:42 REMAINING
+          </span>
+
+          <button type="button">CONTINUE</button>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3974">
+    <div class="comic-3974__header">
+        <div>
+            <small>MISSION PROGRESS</small>
+            <h3>STOP THE INVASION</h3>
+        </div>
+
+        <span>68%</span>
+    </div>
+
+    <div class="comic-3974__progress">
+        <span></span>
+    </div>
+
+    <div class="comic-3974__steps">
+        <div class="comic-3974__step comic-3974__step--done">
+            <span><i class="ri-check-line"></i></span>
+
+            <div>
+                <strong>Locate signal</strong>
+                <small>Completed</small>
+            </div>
+        </div>
+
+        <div class="comic-3974__line comic-3974__line--done"></div>
+
+        <div class="comic-3974__step comic-3974__step--active">
+            <span>2</span>
+
+            <div>
+                <strong>Reach tower</strong>
+                <small>In progress</small>
+            </div>
+        </div>
+
+        <div class="comic-3974__line"></div>
+
+        <div class="comic-3974__step">
+            <span>3</span>
+
+            <div>
+                <strong>Disable device</strong>
+                <small>Locked</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="comic-3974__footer">
+        <span>
+            <i class="ri-time-line"></i>
+            08:42 REMAINING
+        </span>
+
+        <button type="button">CONTINUE</button>
+    </div>
+</section>`,
+    css: `.comic-3974{position:relative;width:350px;max-width:100%;padding:15px;overflow:hidden;border:4px solid #111;background:#facc15;color:#111;box-shadow:8px 8px 0 #2563eb;font-family:Arial,Helvetica,sans-serif}
+.comic-3974::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.13) 1.2px,transparent 1.5px);background-size:8px 8px}
+.comic-3974__header{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between}
+.comic-3974__header small{font-size:6px;font-weight:900;letter-spacing:1.4px;color:#1e3a8a}
+.comic-3974__header h3{margin:4px 0 0;font:900 16px/1 Arial Black,Arial,sans-serif}
+.comic-3974__header>span{width:41px;height:41px;display:grid;place-items:center;border:3px solid #111;border-radius:50%;background:#2563eb;color:#fff;box-shadow:3px 3px 0 #111;font:900 9px/1 Arial Black,Arial,sans-serif}
+.comic-3974__progress{position:relative;z-index:2;height:15px;margin-top:13px;padding:2px;border:3px solid #111;background:#fff}
+.comic-3974__progress span{display:block;width:68%;height:100%;background:#2563eb;transition:width .25s ease,background .18s ease}
+.comic-3974__steps{position:relative;z-index:2;margin-top:14px;padding:11px;border:3px solid #111;background:#fff;box-shadow:4px 4px 0 #111}
+.comic-3974__step{display:flex;align-items:center;gap:9px}
+.comic-3974__step>span{width:31px;height:31px;display:grid;place-items:center;flex:0 0 31px;border:3px solid #111;border-radius:50%;background:#e5e7eb;font:900 8px/1 Arial Black,Arial,sans-serif}
+.comic-3974__step>div{display:flex;flex-direction:column}
+.comic-3974__step strong{font-size:8px;font-weight:900}
+.comic-3974__step small{margin-top:3px;color:#64748b;font-size:5px;font-weight:800}
+.comic-3974__step--done>span{background:#22c55e}
+.comic-3974__step--active>span{background:#2563eb;color:#fff;box-shadow:2px 2px 0 #facc15}
+.comic-3974__line{width:3px;height:16px;margin-left:14px;background:#d1d5db}
+.comic-3974__line--done{background:#22c55e}
+.comic-3974__footer{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:13px}
+.comic-3974__footer>span{display:flex;align-items:center;gap:4px;font-size:6px;font-weight:900}
+.comic-3974__footer button{padding:8px 10px;border:3px solid #111;background:#ef4444;color:#fff;box-shadow:3px 3px 0 #111;font-size:6px;font-weight:900;cursor:pointer;transition:transform .18s ease,background .18s ease}
+.comic-3974:hover .comic-3974__progress span{width:78%;background:#ef4444}
+.comic-3974__footer button:hover{background:#2563eb;transform:translate(-2px,-2px)}`,
+  },
+  {
+    id: 3975,
+    name: "Brave Bold Action Menu",
+    preview: (
+      <section className="comic-3975">
+        <div className="comic-3975__heading">
+          <div>
+            <small>BATCOMPUTER</small>
+            <h3>QUICK ACTIONS</h3>
+          </div>
+
+          <span>
+            <i className="ri-flashlight-fill"></i>
+          </span>
+        </div>
+
+        <div className="comic-3975__menu">
+          <button type="button">
+            <span className="comic-3975__icon comic-3975__icon--blue">
+              <i className="ri-radar-line"></i>
+            </span>
+
+            <span>
+              <strong>SCAN AREA</strong>
+              <small>Search nearby threats</small>
+            </span>
+
+            <i className="ri-arrow-right-s-line"></i>
+          </button>
+
+          <button type="button">
+            <span className="comic-3975__icon comic-3975__icon--yellow">
+              <i className="ri-user-add-line"></i>
+            </span>
+
+            <span>
+              <strong>CALL ALLY</strong>
+              <small>Request backup</small>
+            </span>
+
+            <i className="ri-arrow-right-s-line"></i>
+          </button>
+
+          <button type="button">
+            <span className="comic-3975__icon comic-3975__icon--red">
+              <i className="ri-alarm-warning-line"></i>
+            </span>
+
+            <span>
+              <strong>EMERGENCY</strong>
+              <small>Send distress beacon</small>
+            </span>
+
+            <i className="ri-arrow-right-s-line"></i>
+          </button>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3975">
+    <div class="comic-3975__heading">
+        <div>
+            <small>BATCOMPUTER</small>
+            <h3>QUICK ACTIONS</h3>
+        </div>
+
+        <span>
+            <i class="ri-flashlight-fill"></i>
+        </span>
+    </div>
+
+    <div class="comic-3975__menu">
+        <button type="button">
+            <span class="comic-3975__icon comic-3975__icon--blue">
+                <i class="ri-radar-line"></i>
+            </span>
+
+            <span>
+                <strong>SCAN AREA</strong>
+                <small>Search nearby threats</small>
+            </span>
+
+            <i class="ri-arrow-right-s-line"></i>
+        </button>
+
+        <button type="button">
+            <span class="comic-3975__icon comic-3975__icon--yellow">
+                <i class="ri-user-add-line"></i>
+            </span>
+
+            <span>
+                <strong>CALL ALLY</strong>
+                <small>Request backup</small>
+            </span>
+
+            <i class="ri-arrow-right-s-line"></i>
+        </button>
+
+        <button type="button">
+            <span class="comic-3975__icon comic-3975__icon--red">
+                <i class="ri-alarm-warning-line"></i>
+            </span>
+
+            <span>
+                <strong>EMERGENCY</strong>
+                <small>Send distress beacon</small>
+            </span>
+
+            <i class="ri-arrow-right-s-line"></i>
+        </button>
+    </div>
+</section>`,
+    css: `.comic-3975{position:relative;width:330px;max-width:100%;padding:14px;overflow:hidden;border:4px solid #111;background:#38bdf8;color:#111;box-shadow:8px 8px 0 #111;font-family:Arial,Helvetica,sans-serif}
+.comic-3975::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.16) 1.1px,transparent 1.4px);background-size:8px 8px}
+.comic-3975__heading{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between}
+.comic-3975__heading small{font-size:6px;font-weight:900;letter-spacing:1.4px;color:#1e3a8a}
+.comic-3975__heading h3{margin:4px 0 0;font:900 18px/1 Arial Black,Arial,sans-serif}
+.comic-3975__heading>span{width:38px;height:38px;display:grid;place-items:center;border:3px solid #111;background:#facc15;box-shadow:3px 3px 0 #111;font-size:18px;transform:rotate(5deg);transition:transform .2s ease}
+.comic-3975__menu{position:relative;z-index:2;display:grid;gap:8px;margin-top:13px}
+.comic-3975__menu>button{width:100%;display:flex;align-items:center;gap:9px;padding:8px;border:3px solid #111;background:#fff;color:#111;box-shadow:4px 4px 0 #111;text-align:left;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
+.comic-3975__icon{width:37px;height:37px;display:grid;place-items:center;flex:0 0 37px;border:3px solid #111;font-size:17px}
+.comic-3975__icon--blue{background:#2563eb;color:#fff}
+.comic-3975__icon--yellow{background:#facc15}
+.comic-3975__icon--red{background:#ef4444;color:#fff}
+.comic-3975__menu>button>span:nth-child(2){display:flex;min-width:0;flex:1;flex-direction:column}
+.comic-3975__menu strong{font-size:8px;font-weight:900}
+.comic-3975__menu small{margin-top:3px;color:#64748b;font-size:5px;font-weight:700}
+.comic-3975__menu>button>i{font-size:17px;transition:transform .18s ease}
+.comic-3975__menu>button:hover{background:#fef08a;transform:translate(-2px,-2px);box-shadow:6px 6px 0 #2563eb}
+.comic-3975__menu>button:hover>i{transform:translateX(4px)}
+.comic-3975:hover .comic-3975__heading>span{transform:rotate(-7deg) scale(1.08)}`,
+  },
+  {
+    id: 3976,
+    name: "Batcomputer Gadget Grid",
+    preview: (
+      <section className="comic-3976">
+        <div className="comic-3976__top">
+          <div>
+            <small>BATCOMPUTER</small>
+            <h3>GADGET GRID</h3>
+          </div>
+          <span>04</span>
+        </div>
+
+        <div className="comic-3976__grid">
+          <div className="comic-3976__item">
+            <i className="ri-focus-2-fill"></i>
+            <strong>BATARANG</strong>
+            <small>READY</small>
+          </div>
+          <div className="comic-3976__item">
+            <i className="ri-links-fill"></i>
+            <strong>GRAPPLE</strong>
+            <small>ARMED</small>
+          </div>
+          <div className="comic-3976__item">
+            <i className="ri-radar-fill"></i>
+            <strong>SCANNER</strong>
+            <small>ONLINE</small>
+          </div>
+          <div className="comic-3976__item">
+            <i className="ri-flashlight-fill"></i>
+            <strong>BEACON</strong>
+            <small>ACTIVE</small>
+          </div>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3976">
+    <div class="comic-3976__top">
+        <div>
+            <small>BATCOMPUTER</small>
+            <h3>GADGET GRID</h3>
+        </div>
+        <span>04</span>
+    </div>
+
+    <div class="comic-3976__grid">
+        <div class="comic-3976__item">
+            <i class="ri-focus-2-fill"></i>
+            <strong>BATARANG</strong>
+            <small>READY</small>
+        </div>
+        <div class="comic-3976__item">
+            <i class="ri-links-fill"></i>
+            <strong>GRAPPLE</strong>
+            <small>ARMED</small>
+        </div>
+        <div class="comic-3976__item">
+            <i class="ri-radar-fill"></i>
+            <strong>SCANNER</strong>
+            <small>ONLINE</small>
+        </div>
+        <div class="comic-3976__item">
+            <i class="ri-flashlight-fill"></i>
+            <strong>BEACON</strong>
+            <small>ACTIVE</small>
+        </div>
+    </div>
+</section>`,
+    css: `.comic-3976{position:relative;width:340px;max-width:100%;padding:14px;border:4px solid #111;background:#60a5fa;color:#111;box-shadow:8px 8px 0 #111;font-family:Arial,Helvetica,sans-serif;overflow:hidden}.comic-3976::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.14) 1.1px,transparent 1.4px);background-size:8px 8px}.comic-3976__top{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between}.comic-3976__top small{font-size:6px;font-weight:900;letter-spacing:1.4px;color:#1e3a8a}.comic-3976__top h3{margin:4px 0 0;font:900 18px/1 Arial Black,Arial,sans-serif}.comic-3976__top span{width:40px;height:40px;display:grid;place-items:center;border:3px solid #111;border-radius:50%;background:#facc15;box-shadow:3px 3px 0 #111;font:900 12px/1 Arial Black,Arial,sans-serif}.comic-3976__grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:14px}.comic-3976__item{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-height:86px;padding:10px;border:3px solid #111;background:#fff;box-shadow:4px 4px 0 #111;transition:transform .18s ease,background .18s ease}.comic-3976__item i{font-size:24px;color:#2563eb}.comic-3976__item strong{font-size:7px;font-weight:900}.comic-3976__item small{padding:3px 5px;border:2px solid #111;background:#fef08a;font-size:5px;font-weight:900}.comic-3976__item:hover{transform:translate(-2px,-2px) rotate(-1deg);background:#f8fafc}`,
+  },
+  {
+    id: 3977,
+    name: "Utility Belt Loadout",
+    preview: (
+      <section className="comic-3977">
+        <div className="comic-3977__label">UTILITY BELT</div>
+
+        <div className="comic-3977__belt">
+          <div className="comic-3977__slot">
+            <i className="ri-battery-charge-fill"></i>
+          </div>
+          <div className="comic-3977__slot">
+            <i className="ri-flashlight-fill"></i>
+          </div>
+          <div className="comic-3977__buckle">BAT</div>
+          <div className="comic-3977__slot">
+            <i className="ri-focus-2-fill"></i>
+          </div>
+          <div className="comic-3977__slot">
+            <i className="ri-links-line"></i>
+          </div>
+        </div>
+
+        <div className="comic-3977__footer">
+          <span>LOADOUT READY</span>
+          <button type="button">EQUIP</button>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3977">
+    <div class="comic-3977__label">UTILITY BELT</div>
+
+    <div class="comic-3977__belt">
+        <div class="comic-3977__slot">
+            <i class="ri-battery-charge-fill"></i>
+        </div>
+        <div class="comic-3977__slot">
+            <i class="ri-flashlight-fill"></i>
+        </div>
+        <div class="comic-3977__buckle">BAT</div>
+        <div class="comic-3977__slot">
+            <i class="ri-focus-2-fill"></i>
+        </div>
+        <div class="comic-3977__slot">
+            <i class="ri-links-line"></i>
+        </div>
+    </div>
+
+    <div class="comic-3977__footer">
+        <span>LOADOUT READY</span>
+        <button type="button">EQUIP</button>
+    </div>
+</section>`,
+    css: `.comic-3977{position:relative;width:340px;max-width:100%;padding:16px;border:4px solid #111;background:#facc15;color:#111;box-shadow:8px 8px 0 #2563eb;font-family:Arial,Helvetica,sans-serif;overflow:hidden}.comic-3977::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.12) 1.1px,transparent 1.4px);background-size:8px 8px}.comic-3977__label{position:relative;z-index:1;display:inline-block;padding:5px 8px;border:3px solid #111;background:#111;color:#fff;font:900 8px/1 Arial Black,Arial,sans-serif;letter-spacing:1px}.comic-3977__belt{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr 78px 1fr 1fr;align-items:center;gap:8px;margin-top:18px;padding:8px 0}.comic-3977__belt::before{content:"";position:absolute;left:0;right:0;top:50%;height:18px;border:3px solid #111;background:#b45309;transform:translateY(-50%)}.comic-3977__slot,.comic-3977__buckle{position:relative;z-index:1;height:56px;display:grid;place-items:center;border:3px solid #111;box-shadow:3px 3px 0 #111}.comic-3977__slot{background:#fff}.comic-3977__slot i{font-size:24px;color:#1d4ed8}.comic-3977__buckle{background:#ef4444;color:#fff;font:900 13px/1 Arial Black,Arial,sans-serif}.comic-3977__footer{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;margin-top:18px}.comic-3977__footer span{font-size:6px;font-weight:900;letter-spacing:1.1px}.comic-3977__footer button{padding:8px 12px;border:3px solid #111;background:#fff;box-shadow:3px 3px 0 #111;font-size:6px;font-weight:900;cursor:pointer;transition:transform .18s ease,background .18s ease}.comic-3977__slot:hover{transform:translateY(-2px)}.comic-3977__footer button:hover{background:#60a5fa;transform:translate(-2px,-2px)}`,
+  },
+  {
+    id: 3978,
+    name: "Grapple Launcher Card",
+    preview: (
+      <article className="comic-3978">
+        <div className="comic-3978__header">
+          <small>FIELD GADGET</small>
+          <span>MK-II</span>
+        </div>
+
+        <div className="comic-3978__body">
+          <div className="comic-3978__icon">
+            <i className="ri-links-fill"></i>
+          </div>
+
+          <div className="comic-3978__info">
+            <h3>GRAPPLE LAUNCHER</h3>
+            <p>Rapid vertical access with precision line control.</p>
+          </div>
+        </div>
+
+        <div className="comic-3978__stats">
+          <span>
+            RANGE <strong>62M</strong>
+          </span>
+          <span>
+            TENSION <strong>94%</strong>
+          </span>
+        </div>
+
+        <button type="button" className="comic-3978__button">
+          DEPLOY HOOK
+        </button>
+      </article>
+    ),
+    html: `<article class="comic-3978">
+    <div class="comic-3978__header">
+        <small>FIELD GADGET</small>
+        <span>MK-II</span>
+    </div>
+
+    <div class="comic-3978__body">
+        <div class="comic-3978__icon">
+            <i class="ri-links-fill"></i>
+        </div>
+
+        <div class="comic-3978__info">
+            <h3>GRAPPLE LAUNCHER</h3>
+            <p>Rapid vertical access with precision line control.</p>
+        </div>
+    </div>
+
+    <div class="comic-3978__stats">
+        <span>RANGE <strong>62M</strong></span>
+        <span>TENSION <strong>94%</strong></span>
+    </div>
+
+    <button type="button" class="comic-3978__button">
+        DEPLOY HOOK
+    </button>
+</article>`,
+    css: `.comic-3978{position:relative;width:340px;max-width:100%;padding:14px;border:4px solid #111;background:#fff;color:#111;box-shadow:8px 8px 0 #ef4444;font-family:Arial,Helvetica,sans-serif;overflow:hidden}.comic-3978::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.08) 1.1px,transparent 1.4px);background-size:8px 8px}.comic-3978__header{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between}.comic-3978__header small{font-size:6px;font-weight:900;letter-spacing:1.4px;color:#2563eb}.comic-3978__header span{padding:4px 7px;border:2px solid #111;background:#facc15;font-size:6px;font-weight:900;transform:rotate(4deg)}.comic-3978__body{position:relative;z-index:1;display:flex;align-items:center;gap:12px;margin-top:12px}.comic-3978__icon{width:74px;height:74px;display:grid;place-items:center;flex:0 0 74px;border:4px solid #111;border-radius:50%;background:#172554;color:#facc15;box-shadow:4px 4px 0 #111;font-size:32px;transition:transform .2s ease}.comic-3978__info h3{margin:0;font:900 16px/1 Arial Black,Arial,sans-serif}.comic-3978__info p{margin:7px 0 0;color:#52525b;font-size:7px;font-weight:700;line-height:1.5}.comic-3978__stats{position:relative;z-index:1;display:flex;gap:8px;margin-top:14px}.comic-3978__stats span{flex:1;padding:8px;border:3px solid #111;background:#dbeafe;font-size:6px;font-weight:900;text-align:center}.comic-3978__stats strong{display:block;margin-top:4px;font-size:10px}.comic-3978__button{position:relative;z-index:1;width:100%;margin-top:12px;padding:9px;border:3px solid #111;background:#ef4444;color:#fff;box-shadow:4px 4px 0 #111;font-size:7px;font-weight:900;cursor:pointer;transition:transform .18s ease,background .18s ease}.comic-3978:hover .comic-3978__icon{transform:rotate(-8deg) scale(1.06)}.comic-3978__button:hover{background:#2563eb;transform:translate(-2px,-2px)}`,
+  },
+  {
+    id: 3979,
+    name: "Bat-Signal Control",
+    preview: (
+      <section className="comic-3979">
+        <div className="comic-3979__left">
+          <small>GOTHAM ROOFTOP</small>
+          <h3>BAT-SIGNAL</h3>
+          <p>Emergency city beacon linked directly to the Batcomputer.</p>
+
+          <div className="comic-3979__buttons">
+            <button type="button">ACTIVATE</button>
+            <button type="button">TEST</button>
+          </div>
+        </div>
+
+        <div className="comic-3979__right">
+          <div className="comic-3979__lamp">
+            <i className="ri-lightbulb-flash-fill"></i>
+          </div>
+          <span>ONLINE</span>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3979">
+    <div class="comic-3979__left">
+        <small>GOTHAM ROOFTOP</small>
+        <h3>BAT-SIGNAL</h3>
+        <p>Emergency city beacon linked directly to the Batcomputer.</p>
+
+        <div class="comic-3979__buttons">
+            <button type="button">ACTIVATE</button>
+            <button type="button">TEST</button>
+        </div>
+    </div>
+
+    <div class="comic-3979__right">
+        <div class="comic-3979__lamp">
+            <i class="ri-lightbulb-flash-fill"></i>
+        </div>
+        <span>ONLINE</span>
+    </div>
+</section>`,
+    css: `.comic-3979{position:relative;width:350px;max-width:100%;display:grid;grid-template-columns:1fr 110px;gap:12px;padding:14px;border:4px solid #111;background:#1e293b;color:#fff;box-shadow:8px 8px 0 #facc15;font-family:Arial,Helvetica,sans-serif;overflow:hidden}.comic-3979::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(-35deg,transparent 0 16px,rgba(96,165,250,.08) 16px 19px)}.comic-3979__left,.comic-3979__right{position:relative;z-index:1}.comic-3979__left small{font-size:6px;font-weight:900;letter-spacing:1.4px;color:#93c5fd}.comic-3979__left h3{margin:5px 0 0;font:900 18px/1 Arial Black,Arial,sans-serif}.comic-3979__left p{margin:8px 0 0;color:#cbd5e1;font-size:7px;font-weight:700;line-height:1.5}.comic-3979__buttons{display:flex;gap:8px;margin-top:14px}.comic-3979__buttons button{padding:8px 10px;border:3px solid #111;background:#fff;color:#111;box-shadow:3px 3px 0 #111;font-size:6px;font-weight:900;cursor:pointer;transition:transform .18s ease,background .18s ease}.comic-3979__buttons button:last-child{background:#facc15}.comic-3979__right{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:10px;border:3px solid #111;background:#0f172a;box-shadow:4px 4px 0 #111}.comic-3979__lamp{width:64px;height:64px;display:grid;place-items:center;border:4px solid #111;border-radius:50%;background:#facc15;color:#111;box-shadow:4px 4px 0 #111;font-size:28px;transition:transform .2s ease,box-shadow .2s ease}.comic-3979__right span{padding:4px 6px;border:2px solid #111;background:#22c55e;color:#111;font-size:6px;font-weight:900}.comic-3979:hover .comic-3979__lamp{transform:scale(1.08) rotate(6deg);box-shadow:0 0 0 #111,0 0 18px rgba(250,204,21,.5)}.comic-3979__buttons button:hover{background:#60a5fa;transform:translate(-2px,-2px)}`,
+  },
+  {
+    id: 3980,
+    name: "Communicator Contact Card",
+    preview: (
+      <article className="comic-3980">
+        <div className="comic-3980__head">
+          <span className="comic-3980__avatar">
+            <i className="ri-user-star-fill"></i>
+          </span>
+
+          <div className="comic-3980__info">
+            <small>SECURE CHANNEL</small>
+            <h3>NIGHTWING</h3>
+            <span>BLUDHAVEN LINK</span>
+          </div>
+
+          <span className="comic-3980__status">LIVE</span>
+        </div>
+
+        <div className="comic-3980__message">
+          “Signal received. Send mission coordinates and I’m in.”
+        </div>
+
+        <div className="comic-3980__actions">
+          <button type="button">CALL</button>
+          <button type="button">MESSAGE</button>
+          <button type="button">SHARE FILE</button>
+        </div>
+      </article>
+    ),
+    html: `<article class="comic-3980">
+    <div class="comic-3980__head">
+        <span class="comic-3980__avatar">
+            <i class="ri-user-star-fill"></i>
+        </span>
+
+        <div class="comic-3980__info">
+            <small>SECURE CHANNEL</small>
+            <h3>NIGHTWING</h3>
+            <span>BLUDHAVEN LINK</span>
+        </div>
+
+        <span class="comic-3980__status">LIVE</span>
+    </div>
+
+    <div class="comic-3980__message">
+        “Signal received. Send mission coordinates and I’m in.”
+    </div>
+
+    <div class="comic-3980__actions">
+        <button type="button">CALL</button>
+        <button type="button">MESSAGE</button>
+        <button type="button">SHARE FILE</button>
+    </div>
+</article>`,
+    css: `.comic-3980{position:relative;width:340px;max-width:100%;padding:14px;border:4px solid #111;background:#fff;color:#111;box-shadow:8px 8px 0 #2563eb;font-family:Arial,Helvetica,sans-serif;overflow:hidden}.comic-3980::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.1) 1.1px,transparent 1.4px);background-size:8px 8px}.comic-3980__head{position:relative;z-index:1;display:flex;align-items:center;gap:10px}.comic-3980__avatar{width:52px;height:52px;display:grid;place-items:center;flex:0 0 52px;border:4px solid #111;border-radius:50%;background:#2563eb;color:#fff;box-shadow:4px 4px 0 #111;font-size:22px;transition:transform .2s ease}.comic-3980__info{display:flex;min-width:0;flex:1;flex-direction:column}.comic-3980__info small{font-size:6px;font-weight:900;letter-spacing:1.2px;color:#2563eb}.comic-3980__info h3{margin:4px 0 0;font:900 16px/1 Arial Black,Arial,sans-serif}.comic-3980__info span{margin-top:4px;color:#64748b;font-size:5px;font-weight:900;letter-spacing:1px}.comic-3980__status{padding:4px 6px;border:2px solid #111;background:#22c55e;font-size:6px;font-weight:900}.comic-3980__message{position:relative;z-index:1;margin-top:13px;padding:12px;border:3px solid #111;background:#f8fafc;box-shadow:4px 4px 0 #111;font-size:8px;font-weight:700;line-height:1.5}.comic-3980__actions{position:relative;z-index:1;display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:12px}.comic-3980__actions button{padding:8px 6px;border:3px solid #111;background:#facc15;box-shadow:3px 3px 0 #111;font-size:5px;font-weight:900;cursor:pointer;transition:transform .18s ease,background .18s ease}.comic-3980__actions button:nth-child(2){background:#dbeafe}.comic-3980__actions button:nth-child(3){background:#fee2e2}.comic-3980:hover .comic-3980__avatar{transform:rotate(-8deg) scale(1.08)}.comic-3980__actions button:hover{background:#60a5fa;transform:translate(-2px,-2px)}`,
+  },
+  {
+    id: 3981,
+    name: "Evidence Scanner Panel",
+    preview: (
+      <section className="comic-3981">
+        <div className="comic-3981__top">
+          <div>
+            <small>DETECTIVE MODE</small>
+            <h3>EVIDENCE SCAN</h3>
+          </div>
+          <span>SCAN</span>
+        </div>
+
+        <div className="comic-3981__screen">
+          <div className="comic-3981__target">
+            <span></span>
+            <span></span>
+          </div>
+
+          <div className="comic-3981__readout">
+            <strong>FIBER TRACE</strong>
+            <small>MATCH: 87%</small>
+          </div>
+        </div>
+
+        <div className="comic-3981__meta">
+          <span>
+            TYPE <strong>CHEMICAL</strong>
+          </span>
+          <span>
+            ZONE <strong>G-12</strong>
+          </span>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3981">
+    <div class="comic-3981__top">
+        <div>
+            <small>DETECTIVE MODE</small>
+            <h3>EVIDENCE SCAN</h3>
+        </div>
+        <span>SCAN</span>
+    </div>
+
+    <div class="comic-3981__screen">
+        <div class="comic-3981__target">
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="comic-3981__readout">
+            <strong>FIBER TRACE</strong>
+            <small>MATCH: 87%</small>
+        </div>
+    </div>
+
+    <div class="comic-3981__meta">
+        <span>TYPE <strong>CHEMICAL</strong></span>
+        <span>ZONE <strong>G-12</strong></span>
+    </div>
+</section>`,
+    css: `.comic-3981{position:relative;width:340px;max-width:100%;padding:14px;border:4px solid #111;background:#0f172a;color:#fff;box-shadow:8px 8px 0 #22c55e;font-family:Arial,Helvetica,sans-serif;overflow:hidden}.comic-3981::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 14px,rgba(34,197,94,.06) 14px 15px)}.comic-3981__top{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between}.comic-3981__top small{font-size:6px;font-weight:900;letter-spacing:1.3px;color:#86efac}.comic-3981__top h3{margin:4px 0 0;font:900 17px/1 Arial Black,Arial,sans-serif}.comic-3981__top span{padding:5px 8px;border:2px solid #111;background:#22c55e;color:#111;font-size:6px;font-weight:900;transform:rotate(4deg)}.comic-3981__screen{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:14px;padding:12px;border:3px solid #111;background:#111827;box-shadow:4px 4px 0 #111}.comic-3981__target{position:relative;width:84px;height:84px;flex:0 0 84px;border:3px solid #22c55e;border-radius:50%;box-shadow:inset 0 0 0 3px rgba(34,197,94,.15),0 0 20px rgba(34,197,94,.15)}.comic-3981__target span:first-child{position:absolute;left:50%;top:0;bottom:0;width:2px;background:#22c55e;transform:translateX(-50%)}.comic-3981__target span:last-child{position:absolute;top:50%;left:0;right:0;height:2px;background:#22c55e;transform:translateY(-50%)}.comic-3981__readout{display:flex;flex:1;flex-direction:column;gap:8px}.comic-3981__readout strong{font:900 14px/1 Arial Black,Arial,sans-serif;color:#86efac}.comic-3981__readout small{display:inline-block;width:max-content;padding:4px 6px;border:2px solid #111;background:#facc15;color:#111;font-size:6px;font-weight:900}.comic-3981__meta{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}.comic-3981__meta span{padding:8px;border:3px solid #111;background:#fff;color:#111;font-size:6px;font-weight:900;text-align:center}.comic-3981__meta strong{display:block;margin-top:4px;font-size:8px}.comic-3981:hover .comic-3981__target{box-shadow:inset 0 0 0 3px rgba(34,197,94,.2),0 0 24px rgba(34,197,94,.35)}`,
+  },
+  {
+    id: 3982,
+    name: "Batcomputer Surveillance Panel",
+    preview: (
+      <section className="comic-3982">
+        <div className="comic-3982__header">
+          <div>
+            <small>LIVE SURVEILLANCE</small>
+            <h3>GOTHAM GRID</h3>
+          </div>
+
+          <span className="comic-3982__live">
+            <span></span>
+            LIVE
+          </span>
+        </div>
+
+        <div className="comic-3982__map">
+          <span className="comic-3982__road comic-3982__road--1"></span>
+          <span className="comic-3982__road comic-3982__road--2"></span>
+          <span className="comic-3982__road comic-3982__road--3"></span>
+
+          <span className="comic-3982__point comic-3982__point--1">
+            <i className="ri-shield-fill"></i>
+          </span>
+
+          <span className="comic-3982__point comic-3982__point--2">
+            <i className="ri-alarm-warning-fill"></i>
+          </span>
+
+          <span className="comic-3982__point comic-3982__point--3">
+            <i className="ri-map-pin-2-fill"></i>
+          </span>
+
+          <span className="comic-3982__scan"></span>
+        </div>
+
+        <div className="comic-3982__footer">
+          <div>
+            <small>CAMERAS</small>
+            <strong>84 / 92</strong>
+          </div>
+
+          <div>
+            <small>THREATS</small>
+            <strong>03</strong>
+          </div>
+
+          <button type="button">
+            EXPAND
+            <i className="ri-fullscreen-line"></i>
+          </button>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3982">
+    <div class="comic-3982__header">
+        <div>
+            <small>LIVE SURVEILLANCE</small>
+            <h3>GOTHAM GRID</h3>
+        </div>
+
+        <span class="comic-3982__live">
+            <span></span>
+            LIVE
+        </span>
+    </div>
+
+    <div class="comic-3982__map">
+        <span class="comic-3982__road comic-3982__road--1"></span>
+        <span class="comic-3982__road comic-3982__road--2"></span>
+        <span class="comic-3982__road comic-3982__road--3"></span>
+
+        <span class="comic-3982__point comic-3982__point--1">
+            <i class="ri-shield-fill"></i>
+        </span>
+
+        <span class="comic-3982__point comic-3982__point--2">
+            <i class="ri-alarm-warning-fill"></i>
+        </span>
+
+        <span class="comic-3982__point comic-3982__point--3">
+            <i class="ri-map-pin-2-fill"></i>
+        </span>
+
+        <span class="comic-3982__scan"></span>
+    </div>
+
+    <div class="comic-3982__footer">
+        <div>
+            <small>CAMERAS</small>
+            <strong>84 / 92</strong>
+        </div>
+
+        <div>
+            <small>THREATS</small>
+            <strong>03</strong>
+        </div>
+
+        <button type="button">
+            EXPAND
+            <i class="ri-fullscreen-line"></i>
+        </button>
+    </div>
+</section>`,
+    css: `.comic-3982{position:relative;width:350px;max-width:100%;padding:14px;border:4px solid #111;background:#172554;color:#fff;box-shadow:8px 8px 0 #facc15;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
+.comic-3982::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.08) 1.1px,transparent 1.4px);background-size:8px 8px}
+.comic-3982__header{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between}
+.comic-3982__header small{font-size:6px;font-weight:900;letter-spacing:1.4px;color:#93c5fd}
+.comic-3982__header h3{margin:4px 0 0;font:900 18px/1 Arial Black,Arial,sans-serif}
+.comic-3982__live{display:flex;align-items:center;gap:5px;padding:5px 6px;border:2px solid #111;background:#ef4444;color:#fff;font-size:6px;font-weight:900}
+.comic-3982__live>span{width:7px;height:7px;border:2px solid #111;border-radius:50%;background:#fff}
+.comic-3982__map{position:relative;height:140px;margin-top:13px;overflow:hidden;border:3px solid #111;background:#1d4ed8;box-shadow:4px 4px 0 #111}
+.comic-3982__map::before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(255,255,255,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.08) 1px,transparent 1px);background-size:22px 22px}
+.comic-3982__road{position:absolute;height:9px;border:2px solid #111;background:#93c5fd}
+.comic-3982__road--1{width:190px;left:-15px;top:42px;transform:rotate(16deg)}
+.comic-3982__road--2{width:220px;right:-35px;top:80px;transform:rotate(-18deg)}
+.comic-3982__road--3{width:145px;left:95px;top:65px;transform:rotate(72deg)}
+.comic-3982__point{position:absolute;z-index:3;width:31px;height:31px;display:grid;place-items:center;border:3px solid #111;border-radius:50%;box-shadow:3px 3px 0 #111;font-size:13px;transition:transform .2s ease}
+.comic-3982__point--1{left:45px;top:67px;background:#facc15;color:#111}
+.comic-3982__point--2{right:58px;top:30px;background:#ef4444;color:#fff}
+.comic-3982__point--3{right:100px;bottom:14px;background:#22c55e;color:#111}
+.comic-3982__scan{position:absolute;left:50%;top:50%;width:75px;height:75px;border:3px solid #22c55e;border-radius:50%;transform:translate(-50%,-50%);transition:transform .25s ease}
+.comic-3982__footer{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr auto;align-items:center;gap:7px;margin-top:12px}
+.comic-3982__footer>div{padding:7px;border:2px solid #111;background:#fff;color:#111;text-align:center}
+.comic-3982__footer small{display:block;font-size:5px;font-weight:900;color:#64748b}
+.comic-3982__footer strong{display:block;margin-top:3px;font-size:8px}
+.comic-3982__footer button{display:flex;align-items:center;gap:4px;padding:9px 7px;border:3px solid #111;background:#facc15;color:#111;box-shadow:3px 3px 0 #111;font-size:5px;font-weight:900;cursor:pointer;transition:transform .18s ease,background .18s ease}
+.comic-3982:hover .comic-3982__scan{transform:translate(-50%,-50%) scale(1.35)}
+.comic-3982:hover .comic-3982__point--2{transform:rotate(8deg) scale(1.1)}
+.comic-3982__footer button:hover{background:#fff;transform:translate(-2px,-2px)}`,
+  },
+  {
+    id: 3983,
+    name: "Batcomputer Cipher Decoder",
+    preview: (
+      <section className="comic-3983">
+        <div className="comic-3983__header">
+          <span className="comic-3983__icon">
+            <i className="ri-lock-password-fill"></i>
+          </span>
+
+          <div>
+            <small>ENCRYPTED SIGNAL</small>
+            <h3>CIPHER DECODER</h3>
+          </div>
+
+          <span className="comic-3983__percent">72%</span>
+        </div>
+
+        <div className="comic-3983__code">
+          <span>4A</span>
+          <span>?</span>
+          <span>9C</span>
+          <span>7F</span>
+          <span>?</span>
+          <span>2B</span>
+        </div>
+
+        <div className="comic-3983__progress">
+          <span></span>
+        </div>
+
+        <div className="comic-3983__actions">
+          <button type="button">
+            <i className="ri-refresh-line"></i>
+            RESCAN
+          </button>
+
+          <button type="button">
+            DECODE
+            <i className="ri-arrow-right-line"></i>
+          </button>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3983">
+    <div class="comic-3983__header">
+        <span class="comic-3983__icon">
+            <i class="ri-lock-password-fill"></i>
+        </span>
+
+        <div>
+            <small>ENCRYPTED SIGNAL</small>
+            <h3>CIPHER DECODER</h3>
+        </div>
+
+        <span class="comic-3983__percent">72%</span>
+    </div>
+
+    <div class="comic-3983__code">
+        <span>4A</span>
+        <span>?</span>
+        <span>9C</span>
+        <span>7F</span>
+        <span>?</span>
+        <span>2B</span>
+    </div>
+
+    <div class="comic-3983__progress">
+        <span></span>
+    </div>
+
+    <div class="comic-3983__actions">
+        <button type="button">
+            <i class="ri-refresh-line"></i>
+            RESCAN
+        </button>
+
+        <button type="button">
+            DECODE
+            <i class="ri-arrow-right-line"></i>
+        </button>
+    </div>
+</section>`,
+    css: `.comic-3983{position:relative;width:345px;max-width:100%;padding:15px;border:4px solid #111;background:#22c55e;color:#111;box-shadow:8px 8px 0 #6b21a8;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
+.comic-3983::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.18) 1.1px,transparent 1.4px);background-size:8px 8px}
+.comic-3983__header{position:relative;z-index:2;display:flex;align-items:center;gap:9px}
+.comic-3983__icon{width:42px;height:42px;display:grid;place-items:center;flex:0 0 42px;border:3px solid #111;background:#6b21a8;color:#fff;box-shadow:3px 3px 0 #111;font-size:19px;transform:rotate(-5deg);transition:transform .2s ease}
+.comic-3983__header>div{min-width:0;flex:1}
+.comic-3983__header small{font-size:6px;font-weight:900;letter-spacing:1.3px;color:#14532d}
+.comic-3983__header h3{margin:4px 0 0;font:900 15px/1 Arial Black,Arial,sans-serif}
+.comic-3983__percent{width:38px;height:38px;display:grid;place-items:center;border:3px solid #111;border-radius:50%;background:#facc15;box-shadow:3px 3px 0 #111;font-size:7px;font-weight:900}
+.comic-3983__code{position:relative;z-index:2;display:grid;grid-template-columns:repeat(6,1fr);gap:5px;margin-top:15px}
+.comic-3983__code span{height:42px;display:grid;place-items:center;border:3px solid #111;background:#fff;box-shadow:3px 3px 0 #111;font:900 9px/1 Arial Black,Arial,sans-serif}
+.comic-3983__code span:nth-child(2),.comic-3983__code span:nth-child(5){background:#fde047;color:#6b21a8;font-size:15px}
+.comic-3983__progress{position:relative;z-index:2;height:14px;margin-top:13px;padding:2px;border:3px solid #111;background:#fff}
+.comic-3983__progress span{display:block;width:72%;height:100%;background:#6b21a8;transition:width .25s ease,background .18s ease}
+.comic-3983__actions{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.comic-3983__actions button{display:flex;align-items:center;justify-content:center;gap:5px;padding:8px;border:3px solid #111;background:#fff;box-shadow:3px 3px 0 #111;font-size:6px;font-weight:900;cursor:pointer;transition:transform .18s ease,background .18s ease}
+.comic-3983__actions button:last-child{background:#6b21a8;color:#fff}
+.comic-3983:hover .comic-3983__icon{transform:rotate(7deg) scale(1.08)}
+.comic-3983:hover .comic-3983__progress span{width:86%;background:#facc15}
+.comic-3983__actions button:hover{background:#facc15;color:#111;transform:translate(-2px,-2px)}`,
+  },
+  {
+    id: 3984,
+    name: "Bat Suit Diagnostics",
+    preview: (
+      <section className="comic-3984">
+        <div className="comic-3984__top">
+          <div>
+            <small>SUIT SYSTEM</small>
+            <h3>DIAGNOSTICS</h3>
+          </div>
+
+          <span>MARK VII</span>
+        </div>
+
+        <div className="comic-3984__body">
+          <div className="comic-3984__suit">
+            <span className="comic-3984__head"></span>
+            <span className="comic-3984__torso"></span>
+            <span className="comic-3984__arm comic-3984__arm--left"></span>
+            <span className="comic-3984__arm comic-3984__arm--right"></span>
+          </div>
+
+          <div className="comic-3984__systems">
+            <div>
+              <span>ARMOR</span>
+              <strong>96%</strong>
+            </div>
+            <div>
+              <span>COMMS</span>
+              <strong>100%</strong>
+            </div>
+            <div>
+              <span>STEALTH</span>
+              <strong>88%</strong>
+            </div>
+            <div>
+              <span>POWER</span>
+              <strong>74%</strong>
+            </div>
+          </div>
+        </div>
+
+        <div className="comic-3984__status">
+          <i className="ri-checkbox-circle-fill"></i>
+          ALL CRITICAL SYSTEMS OPERATIONAL
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3984">
+    <div class="comic-3984__top">
+        <div>
+            <small>SUIT SYSTEM</small>
+            <h3>DIAGNOSTICS</h3>
+        </div>
+
+        <span>MARK VII</span>
+    </div>
+
+    <div class="comic-3984__body">
+        <div class="comic-3984__suit">
+            <span class="comic-3984__head"></span>
+            <span class="comic-3984__torso"></span>
+            <span class="comic-3984__arm comic-3984__arm--left"></span>
+            <span class="comic-3984__arm comic-3984__arm--right"></span>
+        </div>
+
+        <div class="comic-3984__systems">
+            <div>
+                <span>ARMOR</span>
+                <strong>96%</strong>
+            </div>
+            <div>
+                <span>COMMS</span>
+                <strong>100%</strong>
+            </div>
+            <div>
+                <span>STEALTH</span>
+                <strong>88%</strong>
+            </div>
+            <div>
+                <span>POWER</span>
+                <strong>74%</strong>
+            </div>
+        </div>
+    </div>
+
+    <div class="comic-3984__status">
+        <i class="ri-checkbox-circle-fill"></i>
+        ALL CRITICAL SYSTEMS OPERATIONAL
+    </div>
+</section>`,
+    css: `.comic-3984{position:relative;width:345px;max-width:100%;padding:14px;border:4px solid #111;background:#111827;color:#fff;box-shadow:8px 8px 0 #60a5fa;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
+.comic-3984::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(-35deg,transparent 0 15px,rgba(96,165,250,.07) 15px 18px)}
+.comic-3984__top{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between}
+.comic-3984__top small{font-size:6px;font-weight:900;letter-spacing:1.4px;color:#93c5fd}
+.comic-3984__top h3{margin:4px 0 0;font:900 17px/1 Arial Black,Arial,sans-serif}
+.comic-3984__top>span{padding:5px 7px;border:2px solid #111;background:#facc15;color:#111;font-size:6px;font-weight:900;transform:rotate(3deg)}
+.comic-3984__body{position:relative;z-index:2;display:grid;grid-template-columns:115px 1fr;gap:12px;margin-top:14px}
+.comic-3984__suit{position:relative;height:145px;border:3px solid #111;background:#1e3a8a;box-shadow:4px 4px 0 #111}
+.comic-3984__head{position:absolute;left:50%;top:15px;width:37px;height:34px;border:3px solid #111;background:#374151;transform:translateX(-50%);clip-path:polygon(12% 0,88% 0,100% 28%,83% 100%,17% 100%,0 28%)}
+.comic-3984__torso{position:absolute;left:50%;top:52px;width:55px;height:69px;border:3px solid #111;background:#374151;transform:translateX(-50%);clip-path:polygon(18% 0,82% 0,100% 22%,80% 100%,20% 100%,0 22%)}
+.comic-3984__arm{position:absolute;top:59px;width:18px;height:67px;border:3px solid #111;background:#4b5563}
+.comic-3984__arm--left{left:11px;transform:rotate(8deg)}
+.comic-3984__arm--right{right:11px;transform:rotate(-8deg)}
+.comic-3984__systems{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.comic-3984__systems div{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:8px;border:3px solid #111;background:#fff;color:#111;box-shadow:3px 3px 0 #2563eb}
+.comic-3984__systems span{font-size:5px;font-weight:900;letter-spacing:.8px;color:#64748b}
+.comic-3984__systems strong{margin-top:5px;font:900 12px/1 Arial Black,Arial,sans-serif}
+.comic-3984__systems div:nth-child(4){background:#fef08a}
+.comic-3984__status{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;gap:6px;margin-top:12px;padding:8px;border:3px solid #111;background:#22c55e;color:#111;box-shadow:3px 3px 0 #111;font-size:6px;font-weight:900}
+.comic-3984__status i{font-size:13px}
+.comic-3984:hover .comic-3984__suit{background:#2563eb}
+.comic-3984:hover .comic-3984__head{transform:translateX(-50%) scale(1.07)}`,
+  },
+  {
+    id: 3985,
+    name: "Bat Drone Controller",
+    preview: (
+      <section className="comic-3985">
+        <div className="comic-3985__header">
+          <div>
+            <small>AERIAL UNIT</small>
+            <h3>BAT-DRONE</h3>
+          </div>
+
+          <span className="comic-3985__signal">
+            <i className="ri-signal-wifi-fill"></i>
+            92%
+          </span>
+        </div>
+
+        <div className="comic-3985__radar">
+          <span className="comic-3985__circle comic-3985__circle--1"></span>
+          <span className="comic-3985__circle comic-3985__circle--2"></span>
+          <span className="comic-3985__drone">
+            <i className="ri-send-plane-fill"></i>
+          </span>
+          <span className="comic-3985__target"></span>
+        </div>
+
+        <div className="comic-3985__controls">
+          <button type="button">
+            <i className="ri-arrow-left-s-line"></i>
+          </button>
+
+          <button type="button">
+            <i className="ri-arrow-up-s-line"></i>
+          </button>
+
+          <button type="button">
+            <i className="ri-focus-3-line"></i>
+          </button>
+
+          <button type="button">
+            <i className="ri-arrow-down-s-line"></i>
+          </button>
+
+          <button type="button">
+            <i className="ri-arrow-right-s-line"></i>
+          </button>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3985">
+    <div class="comic-3985__header">
+        <div>
+            <small>AERIAL UNIT</small>
+            <h3>BAT-DRONE</h3>
+        </div>
+
+        <span class="comic-3985__signal">
+            <i class="ri-signal-wifi-fill"></i>
+            92%
+        </span>
+    </div>
+
+    <div class="comic-3985__radar">
+        <span class="comic-3985__circle comic-3985__circle--1"></span>
+        <span class="comic-3985__circle comic-3985__circle--2"></span>
+
+        <span class="comic-3985__drone">
+            <i class="ri-send-plane-fill"></i>
+        </span>
+
+        <span class="comic-3985__target"></span>
+    </div>
+
+    <div class="comic-3985__controls">
+        <button type="button"><i class="ri-arrow-left-s-line"></i></button>
+        <button type="button"><i class="ri-arrow-up-s-line"></i></button>
+        <button type="button"><i class="ri-focus-3-line"></i></button>
+        <button type="button"><i class="ri-arrow-down-s-line"></i></button>
+        <button type="button"><i class="ri-arrow-right-s-line"></i></button>
+    </div>
+</section>`,
+    css: `.comic-3985{position:relative;width:330px;max-width:100%;padding:14px;border:4px solid #111;background:#38bdf8;color:#111;box-shadow:8px 8px 0 #111;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
+.comic-3985::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.13) 1.1px,transparent 1.4px);background-size:8px 8px}
+.comic-3985__header{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between}
+.comic-3985__header small{font-size:6px;font-weight:900;letter-spacing:1.4px;color:#1e3a8a}
+.comic-3985__header h3{margin:4px 0 0;font:900 18px/1 Arial Black,Arial,sans-serif}
+.comic-3985__signal{display:flex;align-items:center;gap:4px;padding:5px 6px;border:2px solid #111;background:#22c55e;font-size:6px;font-weight:900}
+.comic-3985__radar{position:relative;height:145px;margin-top:13px;overflow:hidden;border:3px solid #111;background:#172554;box-shadow:4px 4px 0 #111}
+.comic-3985__radar::before,.comic-3985__radar::after{content:"";position:absolute;background:#2563eb}
+.comic-3985__radar::before{left:50%;top:0;width:2px;height:100%}
+.comic-3985__radar::after{left:0;top:50%;width:100%;height:2px}
+.comic-3985__circle{position:absolute;left:50%;top:50%;border:2px solid #60a5fa;border-radius:50%;transform:translate(-50%,-50%)}
+.comic-3985__circle--1{width:65px;height:65px}
+.comic-3985__circle--2{width:115px;height:115px}
+.comic-3985__drone{position:absolute;left:53px;top:39px;width:38px;height:38px;display:grid;place-items:center;border:3px solid #111;border-radius:50%;background:#facc15;color:#111;box-shadow:3px 3px 0 #111;font-size:17px;transition:transform .2s ease}
+.comic-3985__target{position:absolute;right:46px;bottom:31px;width:26px;height:26px;border:3px solid #ef4444;border-radius:50%}
+.comic-3985__target::before,.comic-3985__target::after{content:"";position:absolute;background:#ef4444}
+.comic-3985__target::before{left:50%;top:-6px;width:3px;height:34px;transform:translateX(-50%)}
+.comic-3985__target::after{left:-6px;top:50%;width:34px;height:3px;transform:translateY(-50%)}
+.comic-3985__controls{position:relative;z-index:2;display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-top:12px}
+.comic-3985__controls button{height:36px;display:grid;place-items:center;border:3px solid #111;background:#fff;box-shadow:3px 3px 0 #111;font-size:15px;cursor:pointer;transition:transform .18s ease,background .18s ease}
+.comic-3985__controls button:nth-child(3){background:#facc15}
+.comic-3985:hover .comic-3985__drone{transform:translate(14px,7px) rotate(12deg)}
+.comic-3985__controls button:hover{background:#2563eb;color:#fff;transform:translateY(-2px)}`,
+  },
+  {
+    id: 3986,
+    name: "Evidence Timeline",
+    preview: (
+      <section className="comic-3986">
+        <div className="comic-3986__header">
+          <div>
+            <small>CASE #102</small>
+            <h3>EVIDENCE TIMELINE</h3>
+          </div>
+
+          <span>6 ITEMS</span>
+        </div>
+
+        <div className="comic-3986__timeline">
+          <div className="comic-3986__entry">
+            <span className="comic-3986__marker">
+              <i className="ri-camera-fill"></i>
+            </span>
+            <div>
+              <small>21:42</small>
+              <strong>Camera footage</strong>
+              <p>Unknown vehicle enters warehouse district.</p>
+            </div>
+          </div>
+
+          <span className="comic-3986__line"></span>
+
+          <div className="comic-3986__entry">
+            <span className="comic-3986__marker comic-3986__marker--yellow">
+              <i className="ri-fingerprint-fill"></i>
+            </span>
+            <div>
+              <small>22:09</small>
+              <strong>Fingerprint match</strong>
+              <p>Partial print recovered near loading bay.</p>
+            </div>
+          </div>
+
+          <span className="comic-3986__line"></span>
+
+          <div className="comic-3986__entry">
+            <span className="comic-3986__marker comic-3986__marker--red">
+              <i className="ri-alarm-warning-fill"></i>
+            </span>
+            <div>
+              <small>22:16</small>
+              <strong>Threat detected</strong>
+              <p>Emergency signal activated inside sector B.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3986">
+    <div class="comic-3986__header">
+        <div>
+            <small>CASE #102</small>
+            <h3>EVIDENCE TIMELINE</h3>
+        </div>
+
+        <span>6 ITEMS</span>
+    </div>
+
+    <div class="comic-3986__timeline">
+        <div class="comic-3986__entry">
+            <span class="comic-3986__marker">
+                <i class="ri-camera-fill"></i>
+            </span>
+
+            <div>
+                <small>21:42</small>
+                <strong>Camera footage</strong>
+                <p>Unknown vehicle enters warehouse district.</p>
+            </div>
+        </div>
+
+        <span class="comic-3986__line"></span>
+
+        <div class="comic-3986__entry">
+            <span class="comic-3986__marker comic-3986__marker--yellow">
+                <i class="ri-fingerprint-fill"></i>
+            </span>
+
+            <div>
+                <small>22:09</small>
+                <strong>Fingerprint match</strong>
+                <p>Partial print recovered near loading bay.</p>
+            </div>
+        </div>
+
+        <span class="comic-3986__line"></span>
+
+        <div class="comic-3986__entry">
+            <span class="comic-3986__marker comic-3986__marker--red">
+                <i class="ri-alarm-warning-fill"></i>
+            </span>
+
+            <div>
+                <small>22:16</small>
+                <strong>Threat detected</strong>
+                <p>Emergency signal activated inside sector B.</p>
+            </div>
+        </div>
+    </div>
+</section>`,
+    css: `.comic-3986{position:relative;width:345px;max-width:100%;padding:14px;border:4px solid #111;background:#f8fafc;color:#111;box-shadow:8px 8px 0 #2563eb;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
+.comic-3986::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.08) 1.1px,transparent 1.4px);background-size:8px 8px}
+.comic-3986__header{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between}
+.comic-3986__header small{font-size:6px;font-weight:900;letter-spacing:1.4px;color:#2563eb}
+.comic-3986__header h3{margin:4px 0 0;font:900 16px/1 Arial Black,Arial,sans-serif}
+.comic-3986__header>span{padding:5px 6px;border:2px solid #111;background:#facc15;font-size:6px;font-weight:900;transform:rotate(3deg)}
+.comic-3986__timeline{position:relative;z-index:2;margin-top:14px;padding:11px;border:3px solid #111;background:#fff;box-shadow:4px 4px 0 #111}
+.comic-3986__entry{display:flex;align-items:flex-start;gap:9px}
+.comic-3986__marker{width:35px;height:35px;display:grid;place-items:center;flex:0 0 35px;border:3px solid #111;border-radius:50%;background:#2563eb;color:#fff;font-size:15px}
+.comic-3986__marker--yellow{background:#facc15;color:#111}
+.comic-3986__marker--red{background:#ef4444;color:#fff}
+.comic-3986__entry>div{display:flex;flex-direction:column}
+.comic-3986__entry small{font-size:5px;font-weight:900;color:#64748b}
+.comic-3986__entry strong{margin-top:2px;font-size:8px;font-weight:900}
+.comic-3986__entry p{margin:4px 0 0;color:#52525b;font-size:6px;font-weight:700;line-height:1.4}
+.comic-3986__line{display:block;width:3px;height:13px;margin-left:16px;background:#111}
+.comic-3986:hover .comic-3986__marker{transform:rotate(-6deg)}
+.comic-3986:hover .comic-3986__marker--red{transform:rotate(6deg) scale(1.06)}`,
+  },
+  {
+    id: 3987,
+    name: "Encrypted Case File",
+    preview: (
+      <article className="comic-3987">
+        <div className="comic-3987__stripe">TOP SECRET</div>
+
+        <div className="comic-3987__top">
+          <span className="comic-3987__folder">
+            <i className="ri-folder-lock-fill"></i>
+          </span>
+
+          <div>
+            <small>BATCOMPUTER ARCHIVE</small>
+            <h3>PROJECT NIGHTFALL</h3>
+          </div>
+        </div>
+
+        <div className="comic-3987__details">
+          <div>
+            <small>ACCESS</small>
+            <strong>LEVEL 7</strong>
+          </div>
+
+          <div>
+            <small>FILES</small>
+            <strong>128</strong>
+          </div>
+
+          <div>
+            <small>STATUS</small>
+            <strong>LOCKED</strong>
+          </div>
+        </div>
+
+        <div className="comic-3987__lock">
+          <i className="ri-lock-2-fill"></i>
+          <span>
+            <small>ENCRYPTION</small>
+            <strong>WAYNE-X 4096</strong>
+          </span>
+        </div>
+
+        <button type="button" className="comic-3987__button">
+          REQUEST ACCESS
+          <i className="ri-key-2-line"></i>
+        </button>
+      </article>
+    ),
+    html: `<article class="comic-3987">
+    <div class="comic-3987__stripe">TOP SECRET</div>
+
+    <div class="comic-3987__top">
+        <span class="comic-3987__folder">
+            <i class="ri-folder-lock-fill"></i>
+        </span>
+
+        <div>
+            <small>BATCOMPUTER ARCHIVE</small>
+            <h3>PROJECT NIGHTFALL</h3>
+        </div>
+    </div>
+
+    <div class="comic-3987__details">
+        <div>
+            <small>ACCESS</small>
+            <strong>LEVEL 7</strong>
+        </div>
+
+        <div>
+            <small>FILES</small>
+            <strong>128</strong>
+        </div>
+
+        <div>
+            <small>STATUS</small>
+            <strong>LOCKED</strong>
+        </div>
+    </div>
+
+    <div class="comic-3987__lock">
+        <i class="ri-lock-2-fill"></i>
+
+        <span>
+            <small>ENCRYPTION</small>
+            <strong>WAYNE-X 4096</strong>
+        </span>
+    </div>
+
+    <button type="button" class="comic-3987__button">
+        REQUEST ACCESS
+        <i class="ri-key-2-line"></i>
+    </button>
+</article>`,
+    css: `.comic-3987{position:relative;width:340px;max-width:100%;padding:17px 14px 14px;border:4px solid #111;background:#f8fafc;color:#111;box-shadow:8px 8px 0 #ef4444;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
+.comic-3987::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.08) 1.1px,transparent 1.4px);background-size:8px 8px}
+.comic-3987__stripe{position:absolute;right:-28px;top:16px;z-index:4;width:120px;padding:5px;border-top:3px solid #111;border-bottom:3px solid #111;background:#ef4444;color:#fff;text-align:center;font-size:6px;font-weight:900;letter-spacing:1px;transform:rotate(37deg)}
+.comic-3987__top{position:relative;z-index:2;display:flex;align-items:center;gap:11px;padding-right:42px}
+.comic-3987__folder{width:51px;height:51px;display:grid;place-items:center;flex:0 0 51px;border:4px solid #111;background:#facc15;box-shadow:4px 4px 0 #111;font-size:23px;transform:rotate(-4deg);transition:transform .2s ease}
+.comic-3987__top small{font-size:5px;font-weight:900;letter-spacing:1.3px;color:#2563eb}
+.comic-3987__top h3{margin:4px 0 0;font:900 14px/1 Arial Black,Arial,sans-serif}
+.comic-3987__details{position:relative;z-index:2;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:14px}
+.comic-3987__details div{padding:8px 4px;border:3px solid #111;background:#fff;text-align:center}
+.comic-3987__details small{display:block;font-size:5px;font-weight:900;color:#64748b}
+.comic-3987__details strong{display:block;margin-top:4px;font-size:7px}
+.comic-3987__details div:nth-child(3){background:#fee2e2}
+.comic-3987__lock{position:relative;z-index:2;display:flex;align-items:center;gap:9px;margin-top:11px;padding:9px;border:3px solid #111;background:#111827;color:#fff;box-shadow:4px 4px 0 #2563eb}
+.comic-3987__lock>i{font-size:20px;color:#facc15}
+.comic-3987__lock>span{display:flex;flex-direction:column}
+.comic-3987__lock small{font-size:5px;font-weight:900;letter-spacing:.9px;color:#93c5fd}
+.comic-3987__lock strong{margin-top:3px;font-size:7px}
+.comic-3987__button{position:relative;z-index:2;width:100%;display:flex;align-items:center;justify-content:center;gap:6px;margin-top:11px;padding:9px;border:3px solid #111;background:#2563eb;color:#fff;box-shadow:4px 4px 0 #111;font-size:6px;font-weight:900;cursor:pointer;transition:transform .18s ease,background .18s ease}
+.comic-3987:hover .comic-3987__folder{transform:rotate(6deg) scale(1.08)}
+.comic-3987__button:hover{background:#ef4444;transform:translate(-2px,-2px)}`,
+  },
+  {
+    id: 3988,
+    name: "Batmobile Vehicle Selector",
+    preview: (
+      <section className="comic-3988">
+        <div className="comic-3988__header">
+          <div>
+            <small>BATCAVE GARAGE</small>
+            <h3>SELECT VEHICLE</h3>
+          </div>
+          <span>03 / 06</span>
+        </div>
+
+        <div className="comic-3988__vehicle">
+          <span className="comic-3988__badge">READY!</span>
+
+          <div className="comic-3988__car">
+            <i className="ri-roadster-fill"></i>
+          </div>
+
+          <strong>BATMOBILE</strong>
+          <small>URBAN ASSAULT VEHICLE</small>
+        </div>
+
+        <div className="comic-3988__stats">
+          <div>
+            <span>SPEED</span>
+            <strong>98</strong>
+          </div>
+          <div>
+            <span>ARMOR</span>
+            <strong>94</strong>
+          </div>
+          <div>
+            <span>POWER</span>
+            <strong>91</strong>
+          </div>
+        </div>
+
+        <div className="comic-3988__controls">
+          <button type="button" aria-label="Previous vehicle">
+            <i className="ri-arrow-left-line"></i>
+          </button>
+
+          <button type="button" className="comic-3988__deploy">
+            DEPLOY
+          </button>
+
+          <button type="button" aria-label="Next vehicle">
+            <i className="ri-arrow-right-line"></i>
+          </button>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3988">
+    <div class="comic-3988__header">
+        <div>
+            <small>BATCAVE GARAGE</small>
+            <h3>SELECT VEHICLE</h3>
+        </div>
+        <span>03 / 06</span>
+    </div>
+
+    <div class="comic-3988__vehicle">
+        <span class="comic-3988__badge">READY!</span>
+
+        <div class="comic-3988__car">
+            <i class="ri-roadster-fill"></i>
+        </div>
+
+        <strong>BATMOBILE</strong>
+        <small>URBAN ASSAULT VEHICLE</small>
+    </div>
+
+    <div class="comic-3988__stats">
+        <div>
+            <span>SPEED</span>
+            <strong>98</strong>
+        </div>
+        <div>
+            <span>ARMOR</span>
+            <strong>94</strong>
+        </div>
+        <div>
+            <span>POWER</span>
+            <strong>91</strong>
+        </div>
+    </div>
+
+    <div class="comic-3988__controls">
+        <button type="button" aria-label="Previous vehicle">
+            <i class="ri-arrow-left-line"></i>
+        </button>
+
+        <button type="button" class="comic-3988__deploy">
+            DEPLOY
+        </button>
+
+        <button type="button" aria-label="Next vehicle">
+            <i class="ri-arrow-right-line"></i>
+        </button>
+    </div>
+</section>`,
+    css: `.comic-3988{position:relative;width:345px;max-width:100%;padding:14px;overflow:hidden;border:4px solid #111;background:#38bdf8;color:#111;box-shadow:8px 8px 0 #111;font-family:Arial,Helvetica,sans-serif}
+.comic-3988::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.15) 1.1px,transparent 1.4px);background-size:8px 8px}
+.comic-3988__header{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between}
+.comic-3988__header small{font-size:6px;font-weight:900;letter-spacing:1.4px;color:#1e3a8a}
+.comic-3988__header h3{margin:4px 0 0;font:900 17px/1 Arial Black,Arial,sans-serif}
+.comic-3988__header>span{padding:5px 6px;border:3px solid #111;background:#facc15;box-shadow:2px 2px 0 #111;font-size:6px;font-weight:900;transform:rotate(3deg)}
+.comic-3988__vehicle{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;margin-top:13px;padding:12px;border:3px solid #111;background:#172554;color:#fff;box-shadow:4px 4px 0 #111}
+.comic-3988__badge{position:absolute;right:7px;top:7px;padding:4px 6px;border:2px solid #111;background:#22c55e;color:#111;font-size:5px;font-weight:900;transform:rotate(5deg)}
+.comic-3988__car{font-size:55px;color:#facc15;transition:transform .22s ease}
+.comic-3988__vehicle>strong{font:900 14px/1 Arial Black,Arial,sans-serif}
+.comic-3988__vehicle>small{margin-top:4px;color:#93c5fd;font-size:5px;font-weight:900;letter-spacing:1px}
+.comic-3988__stats{position:relative;z-index:2;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:10px}
+.comic-3988__stats div{padding:7px;border:3px solid #111;background:#fff;text-align:center}
+.comic-3988__stats span{display:block;font-size:5px;font-weight:900;color:#64748b}
+.comic-3988__stats strong{display:block;margin-top:3px;font:900 11px/1 Arial Black,Arial,sans-serif}
+.comic-3988__controls{position:relative;z-index:2;display:grid;grid-template-columns:40px 1fr 40px;gap:7px;margin-top:11px}
+.comic-3988__controls button{height:38px;border:3px solid #111;background:#fff;box-shadow:3px 3px 0 #111;font-weight:900;cursor:pointer;transition:transform .18s ease,background .18s ease}
+.comic-3988__controls .comic-3988__deploy{background:#ef4444;color:#fff;font-size:6px}
+.comic-3988:hover .comic-3988__car{transform:translateX(7px) rotate(-2deg) scale(1.06)}
+.comic-3988__controls button:hover{background:#facc15;color:#111;transform:translate(-2px,-2px)}`,
+  },
+  {
+    id: 3989,
+    name: "Batcycle Speed Console",
+    preview: (
+      <section className="comic-3989">
+        <div className="comic-3989__top">
+          <span>
+            <i className="ri-motorbike-fill"></i>
+          </span>
+
+          <div>
+            <small>HIGH SPEED UNIT</small>
+            <h3>BATCYCLE</h3>
+          </div>
+
+          <strong>SPORT</strong>
+        </div>
+
+        <div className="comic-3989__speed">
+          <span>214</span>
+          <small>KM/H</small>
+
+          <div className="comic-3989__meter">
+            <span></span>
+          </div>
+        </div>
+
+        <div className="comic-3989__info">
+          <div>
+            <i className="ri-battery-charge-fill"></i>
+            <span>
+              <small>POWER</small>
+              <strong>86%</strong>
+            </span>
+          </div>
+
+          <div>
+            <i className="ri-route-fill"></i>
+            <span>
+              <small>RANGE</small>
+              <strong>126 KM</strong>
+            </span>
+          </div>
+
+          <div>
+            <i className="ri-temp-hot-line"></i>
+            <span>
+              <small>ENGINE</small>
+              <strong>92°C</strong>
+            </span>
+          </div>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3989">
+    <div class="comic-3989__top">
+        <span>
+            <i class="ri-motorbike-fill"></i>
+        </span>
+
+        <div>
+            <small>HIGH SPEED UNIT</small>
+            <h3>BATCYCLE</h3>
+        </div>
+
+        <strong>SPORT</strong>
+    </div>
+
+    <div class="comic-3989__speed">
+        <span>214</span>
+        <small>KM/H</small>
+
+        <div class="comic-3989__meter">
+            <span></span>
+        </div>
+    </div>
+
+    <div class="comic-3989__info">
+        <div>
+            <i class="ri-battery-charge-fill"></i>
+            <span>
+                <small>POWER</small>
+                <strong>86%</strong>
+            </span>
+        </div>
+
+        <div>
+            <i class="ri-route-fill"></i>
+            <span>
+                <small>RANGE</small>
+                <strong>126 KM</strong>
+            </span>
+        </div>
+
+        <div>
+            <i class="ri-temp-hot-line"></i>
+            <span>
+                <small>ENGINE</small>
+                <strong>92°C</strong>
+            </span>
+        </div>
+    </div>
+</section>`,
+    css: `.comic-3989{position:relative;width:335px;max-width:100%;padding:14px;overflow:hidden;border:4px solid #111;background:#facc15;color:#111;box-shadow:8px 8px 0 #ef4444;font-family:Arial,Helvetica,sans-serif}
+.comic-3989::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(-25deg,transparent 0 14px,rgba(17,17,17,.08) 14px 17px)}
+.comic-3989__top{position:relative;z-index:2;display:flex;align-items:center;gap:9px}
+.comic-3989__top>span{width:43px;height:43px;display:grid;place-items:center;flex:0 0 43px;border:3px solid #111;background:#111;color:#facc15;box-shadow:3px 3px 0 #ef4444;font-size:20px;transform:rotate(-5deg);transition:transform .2s ease}
+.comic-3989__top>div{flex:1}
+.comic-3989__top small{font-size:6px;font-weight:900;letter-spacing:1.2px;color:#7f1d1d}
+.comic-3989__top h3{margin:3px 0 0;font:900 17px/1 Arial Black,Arial,sans-serif}
+.comic-3989__top>strong{padding:5px;border:2px solid #111;background:#ef4444;color:#fff;font-size:5px;transform:rotate(4deg)}
+.comic-3989__speed{position:relative;z-index:2;margin-top:13px;padding:11px;border:3px solid #111;background:#fff;box-shadow:4px 4px 0 #111}
+.comic-3989__speed>span{font:900 35px/.8 Arial Black,Arial,sans-serif}
+.comic-3989__speed>small{margin-left:5px;font-size:6px;font-weight:900}
+.comic-3989__meter{height:14px;margin-top:10px;padding:2px;border:2px solid #111;background:#e5e7eb}
+.comic-3989__meter span{display:block;width:84%;height:100%;background:#ef4444;transition:width .25s ease}
+.comic-3989__info{position:relative;z-index:2;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:10px}
+.comic-3989__info>div{display:flex;align-items:center;gap:5px;padding:7px 5px;border:2px solid #111;background:#fff}
+.comic-3989__info i{font-size:13px;color:#dc2626}
+.comic-3989__info span{display:flex;flex-direction:column}
+.comic-3989__info small{font-size:4px;font-weight:900;color:#64748b}
+.comic-3989__info strong{margin-top:2px;font-size:6px}
+.comic-3989:hover .comic-3989__top>span{transform:rotate(7deg) scale(1.1)}
+.comic-3989:hover .comic-3989__meter span{width:97%}`,
+  },
+  {
+    id: 3990,
+    name: "Batwing Flight Telemetry",
+    preview: (
+      <section className="comic-3990">
+        <div className="comic-3990__header">
+          <div>
+            <small>AERIAL COMMAND</small>
+            <h3>BATWING</h3>
+          </div>
+
+          <span>
+            <i className="ri-flight-takeoff-fill"></i>
+            AIRBORNE
+          </span>
+        </div>
+
+        <div className="comic-3990__radar">
+          <span className="comic-3990__ring comic-3990__ring--1"></span>
+          <span className="comic-3990__ring comic-3990__ring--2"></span>
+
+          <span className="comic-3990__plane">
+            <i className="ri-plane-fill"></i>
+          </span>
+
+          <span className="comic-3990__contact comic-3990__contact--1"></span>
+          <span className="comic-3990__contact comic-3990__contact--2"></span>
+        </div>
+
+        <div className="comic-3990__telemetry">
+          <div>
+            <small>ALTITUDE</small>
+            <strong>7,420 FT</strong>
+          </div>
+
+          <div>
+            <small>SPEED</small>
+            <strong>612 KM/H</strong>
+          </div>
+
+          <div>
+            <small>HEADING</small>
+            <strong>NE 042°</strong>
+          </div>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3990">
+    <div class="comic-3990__header">
+        <div>
+            <small>AERIAL COMMAND</small>
+            <h3>BATWING</h3>
+        </div>
+
+        <span>
+            <i class="ri-flight-takeoff-fill"></i>
+            AIRBORNE
+        </span>
+    </div>
+
+    <div class="comic-3990__radar">
+        <span class="comic-3990__ring comic-3990__ring--1"></span>
+        <span class="comic-3990__ring comic-3990__ring--2"></span>
+
+        <span class="comic-3990__plane">
+            <i class="ri-plane-fill"></i>
+        </span>
+
+        <span class="comic-3990__contact comic-3990__contact--1"></span>
+        <span class="comic-3990__contact comic-3990__contact--2"></span>
+    </div>
+
+    <div class="comic-3990__telemetry">
+        <div>
+            <small>ALTITUDE</small>
+            <strong>7,420 FT</strong>
+        </div>
+
+        <div>
+            <small>SPEED</small>
+            <strong>612 KM/H</strong>
+        </div>
+
+        <div>
+            <small>HEADING</small>
+            <strong>NE 042°</strong>
+        </div>
+    </div>
+</section>`,
+    css: `.comic-3990{position:relative;width:345px;max-width:100%;padding:14px;border:4px solid #111;background:#172554;color:#fff;box-shadow:8px 8px 0 #38bdf8;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
+.comic-3990::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.08) 1.1px,transparent 1.4px);background-size:8px 8px}
+.comic-3990__header{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between}
+.comic-3990__header small{font-size:6px;font-weight:900;letter-spacing:1.4px;color:#7dd3fc}
+.comic-3990__header h3{margin:4px 0 0;font:900 18px/1 Arial Black,Arial,sans-serif}
+.comic-3990__header>span{display:flex;align-items:center;gap:4px;padding:5px 6px;border:2px solid #111;background:#38bdf8;color:#111;font-size:5px;font-weight:900}
+.comic-3990__radar{position:relative;height:135px;margin-top:13px;overflow:hidden;border:3px solid #111;background:#1e3a8a;box-shadow:4px 4px 0 #111}
+.comic-3990__radar::before,.comic-3990__radar::after{content:"";position:absolute;background:#2563eb}
+.comic-3990__radar::before{left:50%;top:0;width:2px;height:100%}
+.comic-3990__radar::after{left:0;top:50%;width:100%;height:2px}
+.comic-3990__ring{position:absolute;left:50%;top:50%;border:2px solid #60a5fa;border-radius:50%;transform:translate(-50%,-50%)}
+.comic-3990__ring--1{width:70px;height:70px}
+.comic-3990__ring--2{width:120px;height:120px}
+.comic-3990__plane{position:absolute;left:50%;top:50%;z-index:3;width:41px;height:41px;display:grid;place-items:center;border:3px solid #111;border-radius:50%;background:#facc15;color:#111;box-shadow:3px 3px 0 #111;font-size:18px;transform:translate(-50%,-50%) rotate(-15deg);transition:transform .22s ease}
+.comic-3990__contact{position:absolute;width:11px;height:11px;border:2px solid #111;border-radius:50%;background:#ef4444}
+.comic-3990__contact--1{left:48px;top:32px}
+.comic-3990__contact--2{right:57px;bottom:28px;background:#22c55e}
+.comic-3990__telemetry{position:relative;z-index:2;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:10px}
+.comic-3990__telemetry div{padding:7px 4px;border:2px solid #111;background:#fff;color:#111;text-align:center}
+.comic-3990__telemetry small{display:block;font-size:4px;font-weight:900;color:#64748b}
+.comic-3990__telemetry strong{display:block;margin-top:4px;font-size:6px}
+.comic-3990:hover .comic-3990__plane{transform:translate(-50%,-50%) rotate(12deg) scale(1.12)}`,
+  },
+  {
+    id: 3991,
+    name: "Batboat Sonar Console",
+    preview: (
+      <section className="comic-3991">
+        <div className="comic-3991__top">
+          <span className="comic-3991__boat">
+            <i className="ri-ship-fill"></i>
+          </span>
+
+          <div>
+            <small>MARINE UNIT</small>
+            <h3>BATBOAT SONAR</h3>
+          </div>
+
+          <span className="comic-3991__depth">28M</span>
+        </div>
+
+        <div className="comic-3991__sonar">
+          <span className="comic-3991__sonar-ring comic-3991__sonar-ring--1"></span>
+          <span className="comic-3991__sonar-ring comic-3991__sonar-ring--2"></span>
+          <span className="comic-3991__sonar-ring comic-3991__sonar-ring--3"></span>
+          <span className="comic-3991__sweep"></span>
+          <span className="comic-3991__blip comic-3991__blip--1"></span>
+          <span className="comic-3991__blip comic-3991__blip--2"></span>
+        </div>
+
+        <div className="comic-3991__footer">
+          <span>
+            <i className="ri-radar-line"></i>2 CONTACTS
+          </span>
+
+          <button type="button">PING SONAR</button>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3991">
+    <div class="comic-3991__top">
+        <span class="comic-3991__boat">
+            <i class="ri-ship-fill"></i>
+        </span>
+
+        <div>
+            <small>MARINE UNIT</small>
+            <h3>BATBOAT SONAR</h3>
+        </div>
+
+        <span class="comic-3991__depth">28M</span>
+    </div>
+
+    <div class="comic-3991__sonar">
+        <span class="comic-3991__sonar-ring comic-3991__sonar-ring--1"></span>
+        <span class="comic-3991__sonar-ring comic-3991__sonar-ring--2"></span>
+        <span class="comic-3991__sonar-ring comic-3991__sonar-ring--3"></span>
+        <span class="comic-3991__sweep"></span>
+        <span class="comic-3991__blip comic-3991__blip--1"></span>
+        <span class="comic-3991__blip comic-3991__blip--2"></span>
+    </div>
+
+    <div class="comic-3991__footer">
+        <span>
+            <i class="ri-radar-line"></i>
+            2 CONTACTS
+        </span>
+
+        <button type="button">PING SONAR</button>
+    </div>
+</section>`,
+    css: `.comic-3991{position:relative;width:330px;max-width:100%;padding:14px;border:4px solid #111;background:#0e7490;color:#fff;box-shadow:8px 8px 0 #facc15;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
+.comic-3991::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.11) 1.1px,transparent 1.4px);background-size:8px 8px}
+.comic-3991__top{position:relative;z-index:2;display:flex;align-items:center;gap:9px}
+.comic-3991__boat{width:40px;height:40px;display:grid;place-items:center;flex:0 0 40px;border:3px solid #111;background:#facc15;color:#111;box-shadow:3px 3px 0 #111;font-size:18px;transform:rotate(-5deg);transition:transform .2s ease}
+.comic-3991__top>div{flex:1}
+.comic-3991__top small{font-size:6px;font-weight:900;letter-spacing:1.3px;color:#cffafe}
+.comic-3991__top h3{margin:3px 0 0;font:900 14px/1 Arial Black,Arial,sans-serif}
+.comic-3991__depth{padding:5px 6px;border:2px solid #111;background:#fff;color:#111;font-size:6px;font-weight:900}
+.comic-3991__sonar{position:relative;width:154px;height:154px;margin:13px auto 0;border:4px solid #111;border-radius:50%;background:#083344;box-shadow:4px 4px 0 #111;overflow:hidden}
+.comic-3991__sonar::before,.comic-3991__sonar::after{content:"";position:absolute;background:#155e75}
+.comic-3991__sonar::before{left:50%;top:0;width:2px;height:100%}
+.comic-3991__sonar::after{left:0;top:50%;width:100%;height:2px}
+.comic-3991__sonar-ring{position:absolute;left:50%;top:50%;border:2px solid #0891b2;border-radius:50%;transform:translate(-50%,-50%)}
+.comic-3991__sonar-ring--1{width:45px;height:45px}
+.comic-3991__sonar-ring--2{width:86px;height:86px}
+.comic-3991__sonar-ring--3{width:124px;height:124px}
+.comic-3991__sweep{position:absolute;left:50%;top:50%;width:65px;height:3px;background:#22c55e;transform-origin:left center;transform:rotate(-35deg);transition:transform .3s ease}
+.comic-3991__blip{position:absolute;width:10px;height:10px;border:2px solid #111;border-radius:50%;background:#facc15}
+.comic-3991__blip--1{left:41px;top:37px}
+.comic-3991__blip--2{right:32px;bottom:45px;background:#ef4444}
+.comic-3991__footer{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;margin-top:11px}
+.comic-3991__footer>span{display:flex;align-items:center;gap:4px;font-size:6px;font-weight:900}
+.comic-3991__footer button{padding:8px 9px;border:3px solid #111;background:#facc15;color:#111;box-shadow:3px 3px 0 #111;font-size:6px;font-weight:900;cursor:pointer;transition:transform .18s ease,background .18s ease}
+.comic-3991:hover .comic-3991__boat{transform:rotate(6deg) scale(1.08)}
+.comic-3991:hover .comic-3991__sweep{transform:rotate(70deg)}
+.comic-3991__footer button:hover{background:#fff;transform:translate(-2px,-2px)}`,
+  },
+  {
+    id: 3992,
+    name: "Bat Garage Status Board",
+    preview: (
+      <section className="comic-3992">
+        <div className="comic-3992__header">
+          <div>
+            <small>BATCAVE</small>
+            <h3>VEHICLE BAY</h3>
+          </div>
+
+          <span>4 / 5 READY</span>
+        </div>
+
+        <div className="comic-3992__list">
+          <div className="comic-3992__row">
+            <span className="comic-3992__icon">
+              <i className="ri-roadster-fill"></i>
+            </span>
+            <span>
+              <strong>BATMOBILE</strong>
+              <small>BAY 01</small>
+            </span>
+            <strong className="comic-3992__ready">READY</strong>
+          </div>
+
+          <div className="comic-3992__row">
+            <span className="comic-3992__icon">
+              <i className="ri-motorbike-fill"></i>
+            </span>
+            <span>
+              <strong>BATCYCLE</strong>
+              <small>BAY 02</small>
+            </span>
+            <strong className="comic-3992__ready">READY</strong>
+          </div>
+
+          <div className="comic-3992__row">
+            <span className="comic-3992__icon">
+              <i className="ri-plane-fill"></i>
+            </span>
+            <span>
+              <strong>BATWING</strong>
+              <small>BAY 03</small>
+            </span>
+            <strong className="comic-3992__service">SERVICE</strong>
+          </div>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3992">
+    <div class="comic-3992__header">
+        <div>
+            <small>BATCAVE</small>
+            <h3>VEHICLE BAY</h3>
+        </div>
+
+        <span>4 / 5 READY</span>
+    </div>
+
+    <div class="comic-3992__list">
+        <div class="comic-3992__row">
+            <span class="comic-3992__icon">
+                <i class="ri-roadster-fill"></i>
+            </span>
+
+            <span>
+                <strong>BATMOBILE</strong>
+                <small>BAY 01</small>
+            </span>
+
+            <strong class="comic-3992__ready">READY</strong>
+        </div>
+
+        <div class="comic-3992__row">
+            <span class="comic-3992__icon">
+                <i class="ri-motorbike-fill"></i>
+            </span>
+
+            <span>
+                <strong>BATCYCLE</strong>
+                <small>BAY 02</small>
+            </span>
+
+            <strong class="comic-3992__ready">READY</strong>
+        </div>
+
+        <div class="comic-3992__row">
+            <span class="comic-3992__icon">
+                <i class="ri-plane-fill"></i>
+            </span>
+
+            <span>
+                <strong>BATWING</strong>
+                <small>BAY 03</small>
+            </span>
+
+            <strong class="comic-3992__service">SERVICE</strong>
+        </div>
+    </div>
+</section>`,
+    css: `.comic-3992{position:relative;width:340px;max-width:100%;padding:14px;border:4px solid #111;background:#f8fafc;color:#111;box-shadow:8px 8px 0 #2563eb;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
+.comic-3992::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.08) 1.1px,transparent 1.4px);background-size:8px 8px}
+.comic-3992__header{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between}
+.comic-3992__header small{font-size:6px;font-weight:900;letter-spacing:1.4px;color:#2563eb}
+.comic-3992__header h3{margin:4px 0 0;font:900 18px/1 Arial Black,Arial,sans-serif}
+.comic-3992__header>span{padding:5px 6px;border:2px solid #111;background:#facc15;font-size:5px;font-weight:900;transform:rotate(3deg)}
+.comic-3992__list{position:relative;z-index:2;display:grid;gap:8px;margin-top:13px}
+.comic-3992__row{display:flex;align-items:center;gap:9px;padding:8px;border:3px solid #111;background:#fff;box-shadow:3px 3px 0 #111;transition:transform .18s ease,background .18s ease}
+.comic-3992__icon{width:39px;height:39px;display:grid;place-items:center;flex:0 0 39px;border:3px solid #111;background:#2563eb;color:#fff;font-size:18px}
+.comic-3992__row>span:nth-child(2){display:flex;flex:1;flex-direction:column}
+.comic-3992__row>span:nth-child(2)>strong{font-size:8px}
+.comic-3992__row small{margin-top:3px;color:#64748b;font-size:5px;font-weight:900}
+.comic-3992__ready,.comic-3992__service{padding:4px 5px;border:2px solid #111;font-size:5px}
+.comic-3992__ready{background:#22c55e}
+.comic-3992__service{background:#ef4444;color:#fff}
+.comic-3992__row:hover{background:#dbeafe;transform:translate(-2px,-2px)}
+.comic-3992__row:hover .comic-3992__icon{background:#facc15;color:#111}`,
+  },
+  {
+    id: 3993,
+    name: "Batmobile Pursuit Console",
+    preview: (
+      <section className="comic-3993">
+        <div className="comic-3993__top">
+          <span className="comic-3993__alert">
+            <i className="ri-alarm-warning-fill"></i>
+          </span>
+
+          <div>
+            <small>PURSUIT MODE</small>
+            <h3>TARGET LOCKED</h3>
+          </div>
+
+          <span className="comic-3993__distance">1.2 KM</span>
+        </div>
+
+        <div className="comic-3993__route">
+          <span className="comic-3993__path"></span>
+
+          <span className="comic-3993__vehicle">
+            <i className="ri-roadster-fill"></i>
+          </span>
+
+          <span className="comic-3993__target">
+            <i className="ri-crosshair-2-fill"></i>
+          </span>
+
+          <span className="comic-3993__street">GOTHAM EXPRESSWAY</span>
+        </div>
+
+        <div className="comic-3993__bottom">
+          <div>
+            <small>SPEED</small>
+            <strong>196</strong>
+            <span>KM/H</span>
+          </div>
+
+          <button type="button">
+            <i className="ri-flashlight-fill"></i>
+            BOOST
+          </button>
+
+          <div>
+            <small>ETA</small>
+            <strong>01:42</strong>
+          </div>
+        </div>
+      </section>
+    ),
+    html: `<section class="comic-3993">
+    <div class="comic-3993__top">
+        <span class="comic-3993__alert">
+            <i class="ri-alarm-warning-fill"></i>
+        </span>
+
+        <div>
+            <small>PURSUIT MODE</small>
+            <h3>TARGET LOCKED</h3>
+        </div>
+
+        <span class="comic-3993__distance">1.2 KM</span>
+    </div>
+
+    <div class="comic-3993__route">
+        <span class="comic-3993__path"></span>
+
+        <span class="comic-3993__vehicle">
+            <i class="ri-roadster-fill"></i>
+        </span>
+
+        <span class="comic-3993__target">
+            <i class="ri-crosshair-2-fill"></i>
+        </span>
+
+        <span class="comic-3993__street">GOTHAM EXPRESSWAY</span>
+    </div>
+
+    <div class="comic-3993__bottom">
+        <div>
+            <small>SPEED</small>
+            <strong>196</strong>
+            <span>KM/H</span>
+        </div>
+
+        <button type="button">
+            <i class="ri-flashlight-fill"></i>
+            BOOST
+        </button>
+
+        <div>
+            <small>ETA</small>
+            <strong>01:42</strong>
+        </div>
+    </div>
+</section>`,
+    css: `.comic-3993{position:relative;width:350px;max-width:100%;padding:14px;border:4px solid #111;background:#ef4444;color:#fff;box-shadow:8px 8px 0 #111;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
+.comic-3993::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(17,17,17,.2) 1.1px,transparent 1.4px);background-size:8px 8px}
+.comic-3993__top{position:relative;z-index:2;display:flex;align-items:center;gap:9px}
+.comic-3993__alert{width:39px;height:39px;display:grid;place-items:center;flex:0 0 39px;border:3px solid #111;background:#facc15;color:#111;box-shadow:3px 3px 0 #111;font-size:18px;transform:rotate(-5deg);transition:transform .2s ease}
+.comic-3993__top>div{flex:1}
+.comic-3993__top small{font-size:6px;font-weight:900;letter-spacing:1.3px;color:#fee2e2}
+.comic-3993__top h3{margin:3px 0 0;font:900 14px/1 Arial Black,Arial,sans-serif}
+.comic-3993__distance{padding:5px 6px;border:2px solid #111;background:#fff;color:#111;font-size:6px;font-weight:900}
+.comic-3993__route{position:relative;height:130px;margin-top:13px;overflow:hidden;border:3px solid #111;background:#172554;box-shadow:4px 4px 0 #111}
+.comic-3993__route::before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(255,255,255,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.06) 1px,transparent 1px);background-size:20px 20px}
+.comic-3993__path{position:absolute;left:20px;right:20px;top:62px;height:10px;border:3px solid #111;background:#60a5fa;transform:rotate(-8deg)}
+.comic-3993__vehicle,.comic-3993__target{position:absolute;z-index:3;width:39px;height:39px;display:grid;place-items:center;border:3px solid #111;border-radius:50%;box-shadow:3px 3px 0 #111;font-size:17px;transition:transform .2s ease}
+.comic-3993__vehicle{left:43px;bottom:23px;background:#facc15;color:#111}
+.comic-3993__target{right:43px;top:23px;background:#ef4444;color:#fff}
+.comic-3993__street{position:absolute;left:9px;top:8px;padding:4px 5px;border:2px solid #111;background:#fff;color:#111;font-size:5px;font-weight:900}
+.comic-3993__bottom{position:relative;z-index:2;display:grid;grid-template-columns:1fr 95px 1fr;align-items:center;gap:7px;margin-top:11px}
+.comic-3993__bottom>div{padding:7px 4px;border:2px solid #111;background:#fff;color:#111;text-align:center}
+.comic-3993__bottom small{display:block;font-size:4px;font-weight:900;color:#64748b}
+.comic-3993__bottom strong{display:inline-block;margin-top:3px;font:900 11px/1 Arial Black,Arial,sans-serif}
+.comic-3993__bottom>div>span{margin-left:2px;font-size:4px;font-weight:900}
+.comic-3993__bottom button{height:42px;display:flex;align-items:center;justify-content:center;gap:5px;border:3px solid #111;background:#facc15;color:#111;box-shadow:3px 3px 0 #111;font-size:6px;font-weight:900;cursor:pointer;transition:transform .18s ease,background .18s ease}
+.comic-3993:hover .comic-3993__alert{transform:rotate(7deg) scale(1.1)}
+.comic-3993:hover .comic-3993__vehicle{transform:translate(16px,-4px) rotate(-5deg)}
+.comic-3993__bottom button:hover{background:#60a5fa;transform:translate(-2px,-2px)}`,
+  },
 ];
