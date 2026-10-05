@@ -69033,4 +69033,443 @@ export const loaders = [
     }
 }`,
   },
+  {
+    id: 4041,
+    name: "Elemental Ember Crown Loader",
+    preview: (
+      <div className="loader-4041">
+        <span className="loader-4041-ring"></span>
+
+        <span className="loader-4041-flame loader-4041-flame-1"></span>
+        <span className="loader-4041-flame loader-4041-flame-2"></span>
+        <span className="loader-4041-flame loader-4041-flame-3"></span>
+        <span className="loader-4041-flame loader-4041-flame-4"></span>
+        <span className="loader-4041-flame loader-4041-flame-5"></span>
+        <span className="loader-4041-flame loader-4041-flame-6"></span>
+        <span className="loader-4041-flame loader-4041-flame-7"></span>
+        <span className="loader-4041-flame loader-4041-flame-8"></span>
+        <span className="loader-4041-flame loader-4041-flame-9"></span>
+        <span className="loader-4041-flame loader-4041-flame-10"></span>
+
+        <span className="loader-4041-core">
+          <span className="loader-4041-core-inner"></span>
+        </span>
+
+        <span className="loader-4041-ember loader-4041-ember-1"></span>
+        <span className="loader-4041-ember loader-4041-ember-2"></span>
+        <span className="loader-4041-ember loader-4041-ember-3"></span>
+        <span className="loader-4041-ember loader-4041-ember-4"></span>
+      </div>
+    ),
+    html: `<div class="loader-4041">
+    <span class="loader-4041-ring"></span>
+
+    <span class="loader-4041-flame loader-4041-flame-1"></span>
+    <span class="loader-4041-flame loader-4041-flame-2"></span>
+    <span class="loader-4041-flame loader-4041-flame-3"></span>
+    <span class="loader-4041-flame loader-4041-flame-4"></span>
+    <span class="loader-4041-flame loader-4041-flame-5"></span>
+    <span class="loader-4041-flame loader-4041-flame-6"></span>
+    <span class="loader-4041-flame loader-4041-flame-7"></span>
+    <span class="loader-4041-flame loader-4041-flame-8"></span>
+    <span class="loader-4041-flame loader-4041-flame-9"></span>
+    <span class="loader-4041-flame loader-4041-flame-10"></span>
+
+    <span class="loader-4041-core">
+        <span class="loader-4041-core-inner"></span>
+    </span>
+
+    <span class="loader-4041-ember loader-4041-ember-1"></span>
+    <span class="loader-4041-ember loader-4041-ember-2"></span>
+    <span class="loader-4041-ember loader-4041-ember-3"></span>
+    <span class="loader-4041-ember loader-4041-ember-4"></span>
+</div>`,
+    css: `.loader-4041 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    animation: loader4041Rotate 2.6s linear infinite;
+}
+
+.loader-4041::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(251, 146, 60, .16),
+            rgba(239, 68, 68, .05) 55%,
+            transparent 72%
+        );
+    filter: blur(2px);
+    transform: translate(-50%, -50%);
+    animation: loader4041Aura 1.4s ease-in-out infinite;
+}
+
+.loader-4041-ring {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 38px;
+    height: 38px;
+    border: 1px solid rgba(249, 115, 22, .22);
+    border-top-color: rgba(251, 191, 36, .7);
+    border-right-color: rgba(249, 115, 22, .42);
+    border-radius: 50%;
+    box-shadow:
+        0 0 8px rgba(249, 115, 22, .12),
+        inset 0 0 8px rgba(239, 68, 68, .06);
+    transform: translate(-50%, -50%);
+    animation: loader4041Ring 1.7s linear infinite reverse;
+}
+
+.loader-4041-flame {
+    position: absolute;
+    left: 27px;
+    top: 2px;
+    width: 6px;
+    height: 16px;
+    border-radius: 70% 30% 75% 25%;
+    transform-origin: 3px 28px;
+    background:
+        linear-gradient(
+            to top,
+            #dc2626,
+            #f97316 45%,
+            #fbbf24 72%,
+            #fff7ed
+        );
+    filter:
+        drop-shadow(
+            0 0 4px rgba(249, 115, 22, .5)
+        );
+    animation: loader4041Flame 1.25s ease-in-out infinite;
+}
+
+.loader-4041-flame-1 {
+    transform: rotate(0deg);
+}
+
+.loader-4041-flame-2 {
+    transform: rotate(36deg);
+    animation-delay: -.125s;
+}
+
+.loader-4041-flame-3 {
+    transform: rotate(72deg);
+    animation-delay: -.25s;
+}
+
+.loader-4041-flame-4 {
+    transform: rotate(108deg);
+    animation-delay: -.375s;
+}
+
+.loader-4041-flame-5 {
+    transform: rotate(144deg);
+    animation-delay: -.5s;
+}
+
+.loader-4041-flame-6 {
+    transform: rotate(180deg);
+    animation-delay: -.625s;
+}
+
+.loader-4041-flame-7 {
+    transform: rotate(216deg);
+    animation-delay: -.75s;
+}
+
+.loader-4041-flame-8 {
+    transform: rotate(252deg);
+    animation-delay: -.875s;
+}
+
+.loader-4041-flame-9 {
+    transform: rotate(288deg);
+    animation-delay: -1s;
+}
+
+.loader-4041-flame-10 {
+    transform: rotate(324deg);
+    animation-delay: -1.125s;
+}
+
+.loader-4041-core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 17px;
+    height: 17px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(254, 215, 170, .68);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 35% 30%,
+            #fff7ed,
+            #fbbf24 32%,
+            #f97316 62%,
+            #b91c1c
+        );
+    box-shadow:
+        0 0 5px rgba(255, 255, 255, .45),
+        0 0 12px rgba(249, 115, 22, .8),
+        0 0 22px rgba(220, 38, 38, .38);
+    transform: translate(-50%, -50%);
+    animation: loader4041Core 1.15s ease-in-out infinite;
+}
+
+.loader-4041-core-inner {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff7ed;
+    box-shadow:
+        0 0 5px #fff7ed,
+        0 0 9px #fbbf24;
+    animation: loader4041Inner 1.15s ease-in-out infinite reverse;
+}
+
+.loader-4041-ember {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #fbbf24;
+    box-shadow:
+        0 0 4px #f97316,
+        0 0 7px rgba(239, 68, 68, .55);
+    opacity: 0;
+}
+
+.loader-4041-ember-1 {
+    left: 9px;
+    bottom: 11px;
+    animation: loader4041Ember1 1.7s ease-out infinite;
+}
+
+.loader-4041-ember-2 {
+    left: 19px;
+    bottom: 5px;
+    animation: loader4041Ember2 1.9s ease-out infinite -.4s;
+}
+
+.loader-4041-ember-3 {
+    right: 17px;
+    bottom: 6px;
+    animation: loader4041Ember3 1.6s ease-out infinite -.8s;
+}
+
+.loader-4041-ember-4 {
+    right: 8px;
+    bottom: 13px;
+    animation: loader4041Ember4 1.8s ease-out infinite -1.1s;
+}
+
+.loader-4041:hover .loader-4041-flame {
+    filter:
+        brightness(1.25)
+        drop-shadow(
+            0 0 7px rgba(249, 115, 22, .75)
+        );
+}
+
+.loader-4041:hover .loader-4041-core {
+    box-shadow:
+        0 0 7px rgba(255, 255, 255, .65),
+        0 0 16px rgba(249, 115, 22, .95),
+        0 0 28px rgba(220, 38, 38, .5);
+}
+
+@keyframes loader4041Rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader4041Ring {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(0deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(360deg);
+    }
+}
+
+@keyframes loader4041Flame {
+    0%,
+    100% {
+        height: 10px;
+        opacity: .3;
+        filter:
+            brightness(.8)
+            drop-shadow(
+                0 0 2px rgba(249, 115, 22, .3)
+            );
+    }
+
+    35% {
+        height: 14px;
+        opacity: .7;
+    }
+
+    50% {
+        height: 20px;
+        opacity: 1;
+        filter:
+            brightness(1.55)
+            drop-shadow(
+                0 0 7px rgba(249, 115, 22, .8)
+            );
+    }
+
+    70% {
+        height: 15px;
+        opacity: .75;
+    }
+}
+
+@keyframes loader4041Core {
+    0%,
+    100% {
+        transform:
+            translate(-50%, -50%)
+            scale(.8);
+        opacity: .72;
+    }
+
+    50% {
+        transform:
+            translate(-50%, -50%)
+            scale(1.18);
+        opacity: 1;
+    }
+}
+
+@keyframes loader4041Inner {
+    0%,
+    100% {
+        transform: scale(.65);
+        opacity: .55;
+    }
+
+    50% {
+        transform: scale(1.3);
+        opacity: 1;
+    }
+}
+
+@keyframes loader4041Aura {
+    0%,
+    100% {
+        transform:
+            translate(-50%, -50%)
+            scale(.76);
+        opacity: .28;
+    }
+
+    50% {
+        transform:
+            translate(-50%, -50%)
+            scale(1.25);
+        opacity: .85;
+    }
+}
+
+@keyframes loader4041Ember1 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.5);
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translate(-7px, -31px)
+            scale(1.15);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4041Ember2 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.4);
+        opacity: 0;
+    }
+
+    25% {
+        opacity: .9;
+    }
+
+    100% {
+        transform:
+            translate(3px, -38px)
+            scale(.9);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4041Ember3 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.5);
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translate(-2px, -35px)
+            scale(1.1);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4041Ember4 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.45);
+        opacity: 0;
+    }
+
+    25% {
+        opacity: .9;
+    }
+
+    100% {
+        transform:
+            translate(8px, -29px)
+            scale(1);
+        opacity: 0;
+    }
+}`,
+  },
 ];
