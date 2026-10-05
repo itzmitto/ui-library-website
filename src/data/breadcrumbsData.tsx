@@ -3598,4 +3598,1277 @@ export const breadcrumbs = [
 @keyframes breadcrumb4023Dot{0%,100%{transform:translateY(-50%) scale(.8);opacity:.55;box-shadow:0 0 0 2px rgba(202,138,4,.4),0 0 5px rgba(250,204,21,.3)}50%{transform:translateY(-50%) scale(1.2);opacity:1;box-shadow:0 0 0 3px rgba(202,138,4,.38),0 0 12px rgba(250,204,21,.7)}}
 @media(max-width:620px){.breadcrumb-4023{gap:3px;padding:8px}.breadcrumb-4023__item{padding:7px}.breadcrumb-4023__item--current{padding-right:22px}.breadcrumb-4023__label{font-size:6px}.breadcrumb-4023__icon{width:24px;height:24px;flex-basis:24px;font-size:11px}.breadcrumb-4023__separator{width:12px;font-size:12px}}`,
   },
+  {
+    id: 4024,
+    name: "Element Blue Neon Motion Breadcrumb",
+    preview: (
+      <div className="breadcrumb-4024-wrap">
+        <nav className="breadcrumb-4024" aria-label="Breadcrumb">
+          <span className="breadcrumb-4024__shine"></span>
+          <span className="breadcrumb-4024__grid"></span>
+          <span className="breadcrumb-4024__ambient breadcrumb-4024__ambient--left"></span>
+          <span className="breadcrumb-4024__ambient breadcrumb-4024__ambient--right"></span>
+
+          <a href="#" className="breadcrumb-4024__item">
+            <span className="breadcrumb-4024__icon">
+              <i className="ri-home-5-fill"></i>
+            </span>
+            <span className="breadcrumb-4024__label">HOME</span>
+          </a>
+
+          <span className="breadcrumb-4024__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <a href="#" className="breadcrumb-4024__item">
+            <span className="breadcrumb-4024__icon">
+              <i className="ri-shapes-fill"></i>
+            </span>
+            <span className="breadcrumb-4024__label">ELEMENTS</span>
+          </a>
+
+          <span className="breadcrumb-4024__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <a href="#" className="breadcrumb-4024__item">
+            <span className="breadcrumb-4024__icon">
+              <i className="ri-compass-3-fill"></i>
+            </span>
+            <span className="breadcrumb-4024__label">NAVIGATION</span>
+          </a>
+
+          <span className="breadcrumb-4024__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <span className="breadcrumb-4024__item breadcrumb-4024__item--current">
+            <span className="breadcrumb-4024__icon">
+              <i className="ri-route-fill"></i>
+            </span>
+            <span className="breadcrumb-4024__label">BREADCRUMBS</span>
+            <span className="breadcrumb-4024__dot"></span>
+          </span>
+        </nav>
+      </div>
+    ),
+    html: `<div class="breadcrumb-4024-wrap">
+    <nav class="breadcrumb-4024" aria-label="Breadcrumb">
+        <span class="breadcrumb-4024__shine"></span>
+        <span class="breadcrumb-4024__grid"></span>
+        <span class="breadcrumb-4024__ambient breadcrumb-4024__ambient--left"></span>
+        <span class="breadcrumb-4024__ambient breadcrumb-4024__ambient--right"></span>
+
+        <a href="#" class="breadcrumb-4024__item">
+            <span class="breadcrumb-4024__icon">
+                <i class="ri-home-5-fill"></i>
+            </span>
+            <span class="breadcrumb-4024__label">HOME</span>
+        </a>
+
+        <span class="breadcrumb-4024__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <a href="#" class="breadcrumb-4024__item">
+            <span class="breadcrumb-4024__icon">
+                <i class="ri-shapes-fill"></i>
+            </span>
+            <span class="breadcrumb-4024__label">ELEMENTS</span>
+        </a>
+
+        <span class="breadcrumb-4024__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <a href="#" class="breadcrumb-4024__item">
+            <span class="breadcrumb-4024__icon">
+                <i class="ri-compass-3-fill"></i>
+            </span>
+            <span class="breadcrumb-4024__label">NAVIGATION</span>
+        </a>
+
+        <span class="breadcrumb-4024__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <span class="breadcrumb-4024__item breadcrumb-4024__item--current">
+            <span class="breadcrumb-4024__icon">
+                <i class="ri-route-fill"></i>
+            </span>
+            <span class="breadcrumb-4024__label">BREADCRUMBS</span>
+            <span class="breadcrumb-4024__dot"></span>
+        </span>
+    </nav>
+</div>`,
+    css: `.breadcrumb-4024-wrap{width:100%;display:flex;align-items:center;justify-content:center;padding:26px}
+.breadcrumb-4024{position:relative;display:flex;align-items:center;justify-content:center;gap:8px;padding:10px 12px;overflow:hidden;border:1px solid rgba(56,189,248,.28);border-radius:16px;background:linear-gradient(135deg,#020617 0%,#06152d 48%,#082f49 100%);box-shadow:0 14px 36px rgba(0,0,0,.42),0 0 26px rgba(14,165,233,.1),inset 0 1px 0 rgba(125,211,252,.08);font-family:Arial,Helvetica,sans-serif}
+.breadcrumb-4024::before{content:"";position:absolute;left:10px;right:10px;bottom:3px;height:1px;background:linear-gradient(90deg,transparent,#0ea5e9,#67e8f9,#2563eb,transparent);box-shadow:0 0 8px rgba(56,189,248,.45);opacity:.6}
+.breadcrumb-4024__grid{position:absolute;inset:0;background-image:linear-gradient(rgba(56,189,248,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(56,189,248,.035) 1px,transparent 1px);background-size:14px 14px;mask-image:linear-gradient(90deg,transparent,#000 15%,#000 85%,transparent);pointer-events:none}
+.breadcrumb-4024__shine{position:absolute;z-index:1;top:-55%;bottom:-55%;left:-60px;width:40px;background:linear-gradient(90deg,transparent,rgba(103,232,249,.08),rgba(224,242,254,.38),rgba(56,189,248,.12),transparent);filter:blur(.2px);transform:rotate(22deg);animation:breadcrumb4024Shine 5s ease-in-out infinite;pointer-events:none}
+.breadcrumb-4024__ambient{position:absolute;border-radius:50%;filter:blur(22px);pointer-events:none}
+.breadcrumb-4024__ambient--left{left:-35px;top:-34px;width:100px;height:100px;background:rgba(14,165,233,.11)}
+.breadcrumb-4024__ambient--right{right:-35px;bottom:-38px;width:105px;height:105px;background:rgba(37,99,235,.1)}
+.breadcrumb-4024__item{position:relative;z-index:3;display:flex;align-items:center;gap:6px;padding:8px 9px;border:1px solid transparent;border-radius:11px;color:#94a3b8;text-decoration:none;transition:transform .22s cubic-bezier(.2,.8,.2,1),background .22s ease,border-color .22s ease,box-shadow .22s ease,color .22s ease}
+.breadcrumb-4024__item::before{content:"";position:absolute;inset:0;border-radius:10px;background:linear-gradient(135deg,rgba(14,165,233,.12),rgba(37,99,235,.03));opacity:0;transition:opacity .22s ease}
+.breadcrumb-4024__item::after{content:"";position:absolute;left:10px;right:10px;bottom:4px;height:2px;border-radius:999px;background:linear-gradient(90deg,#0284c7,#22d3ee,#60a5fa);box-shadow:0 0 9px rgba(34,211,238,.5);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.breadcrumb-4024__icon{position:relative;z-index:2;width:28px;height:28px;display:grid;place-items:center;flex:0 0 28px;border:1px solid rgba(56,189,248,.25);border-radius:8px;background:linear-gradient(145deg,#071426,#0b1f38);color:#38bdf8;box-shadow:inset 0 1px 0 rgba(125,211,252,.05),0 0 0 rgba(56,189,248,0);font-size:13px;transition:transform .28s cubic-bezier(.2,.9,.2,1),background .22s ease,color .22s ease,border-color .22s ease,box-shadow .22s ease}
+.breadcrumb-4024__label{position:relative;z-index:2;font-size:7px;font-weight:900;letter-spacing:.09em;white-space:nowrap}
+.breadcrumb-4024__separator{position:relative;z-index:3;width:18px;height:26px;display:grid;place-items:center;color:#155e75;font-size:15px;animation:breadcrumb4024Arrow 2.4s ease-in-out infinite;transition:color .22s ease,text-shadow .22s ease}
+.breadcrumb-4024__separator:nth-of-type(5){animation-delay:.18s}
+.breadcrumb-4024__separator:nth-of-type(7){animation-delay:.36s}
+.breadcrumb-4024__item[href]:hover{border-color:rgba(34,211,238,.36);background:linear-gradient(135deg,rgba(8,47,73,.7),rgba(30,64,175,.2));color:#e0f2fe;box-shadow:0 8px 22px rgba(0,0,0,.3),0 0 15px rgba(14,165,233,.12);transform:translateY(-3px)}
+.breadcrumb-4024__item[href]:hover::before{opacity:1}
+.breadcrumb-4024__item[href]:hover::after{transform:scaleX(1)}
+.breadcrumb-4024__item[href]:hover .breadcrumb-4024__icon{border-color:#22d3ee;background:linear-gradient(145deg,#0ea5e9,#2563eb);color:#fff;box-shadow:0 6px 16px rgba(14,165,233,.22),0 0 14px rgba(34,211,238,.28);transform:translateY(-2px) rotate(-7deg) scale(1.08)}
+.breadcrumb-4024__item[href]:active{transform:translateY(0) scale(.98)}
+.breadcrumb-4024__item--current{padding-right:26px;border-color:rgba(34,211,238,.38);background:linear-gradient(135deg,rgba(8,47,73,.8),rgba(30,64,175,.32));color:#e0f2fe;box-shadow:inset 0 1px 0 rgba(125,211,252,.05),0 0 16px rgba(14,165,233,.08)}
+.breadcrumb-4024__item--current::before{opacity:1}
+.breadcrumb-4024__item--current::after{transform:scaleX(1)}
+.breadcrumb-4024__item--current .breadcrumb-4024__icon{border-color:#22d3ee;background:linear-gradient(145deg,#0ea5e9,#2563eb);color:#fff;animation:breadcrumb4024CurrentIcon 3s ease-in-out infinite}
+.breadcrumb-4024__dot{position:absolute;right:9px;top:50%;width:7px;height:7px;border:2px solid #082f49;border-radius:50%;background:#67e8f9;box-shadow:0 0 0 2px rgba(14,165,233,.55),0 0 10px rgba(103,232,249,.7);transform:translateY(-50%);animation:breadcrumb4024Dot 1.9s ease-in-out infinite}
+.breadcrumb-4024:hover .breadcrumb-4024__separator{color:#38bdf8;text-shadow:0 0 8px rgba(56,189,248,.48)}
+@keyframes breadcrumb4024Shine{0%,68%{left:-60px;opacity:0}72%{opacity:.85}88%{left:calc(100% + 60px);opacity:.85}100%{left:calc(100% + 60px);opacity:0}}
+@keyframes breadcrumb4024Arrow{0%,100%{transform:translateX(0);opacity:.42}50%{transform:translateX(3px);opacity:1}}
+@keyframes breadcrumb4024CurrentIcon{0%,100%{transform:rotate(0) scale(1);box-shadow:0 3px 10px rgba(14,165,233,.18),0 0 6px rgba(34,211,238,.14)}50%{transform:rotate(4deg) scale(1.07);box-shadow:0 6px 16px rgba(14,165,233,.3),0 0 16px rgba(34,211,238,.32)}}
+@keyframes breadcrumb4024Dot{0%,100%{transform:translateY(-50%) scale(.8);opacity:.55;box-shadow:0 0 0 2px rgba(14,165,233,.35),0 0 5px rgba(103,232,249,.35)}50%{transform:translateY(-50%) scale(1.22);opacity:1;box-shadow:0 0 0 3px rgba(14,165,233,.4),0 0 13px rgba(103,232,249,.85)}}
+@media(max-width:620px){.breadcrumb-4024{gap:3px;padding:8px}.breadcrumb-4024__item{padding:7px}.breadcrumb-4024__item--current{padding-right:22px}.breadcrumb-4024__label{font-size:6px}.breadcrumb-4024__icon{width:24px;height:24px;flex-basis:24px;font-size:11px}.breadcrumb-4024__separator{width:12px;font-size:12px}}`,
+  },
+  {
+    id: 4025,
+    name: "Element Purple Neon Motion Breadcrumb",
+    preview: (
+      <div className="breadcrumb-4025-wrap">
+        <nav className="breadcrumb-4025" aria-label="Breadcrumb">
+          <span className="breadcrumb-4025__shine"></span>
+          <span className="breadcrumb-4025__grid"></span>
+          <span className="breadcrumb-4025__ambient breadcrumb-4025__ambient--left"></span>
+          <span className="breadcrumb-4025__ambient breadcrumb-4025__ambient--right"></span>
+
+          <a href="#" className="breadcrumb-4025__item">
+            <span className="breadcrumb-4025__icon">
+              <i className="ri-home-5-fill"></i>
+            </span>
+            <span className="breadcrumb-4025__label">HOME</span>
+          </a>
+
+          <span className="breadcrumb-4025__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <a href="#" className="breadcrumb-4025__item">
+            <span className="breadcrumb-4025__icon">
+              <i className="ri-shapes-fill"></i>
+            </span>
+            <span className="breadcrumb-4025__label">ELEMENTS</span>
+          </a>
+
+          <span className="breadcrumb-4025__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <a href="#" className="breadcrumb-4025__item">
+            <span className="breadcrumb-4025__icon">
+              <i className="ri-compass-3-fill"></i>
+            </span>
+            <span className="breadcrumb-4025__label">NAVIGATION</span>
+          </a>
+
+          <span className="breadcrumb-4025__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <span className="breadcrumb-4025__item breadcrumb-4025__item--current">
+            <span className="breadcrumb-4025__icon">
+              <i className="ri-route-fill"></i>
+            </span>
+            <span className="breadcrumb-4025__label">BREADCRUMBS</span>
+            <span className="breadcrumb-4025__dot"></span>
+          </span>
+        </nav>
+      </div>
+    ),
+    html: `<div class="breadcrumb-4025-wrap">
+    <nav class="breadcrumb-4025" aria-label="Breadcrumb">
+        <span class="breadcrumb-4025__shine"></span>
+        <span class="breadcrumb-4025__grid"></span>
+        <span class="breadcrumb-4025__ambient breadcrumb-4025__ambient--left"></span>
+        <span class="breadcrumb-4025__ambient breadcrumb-4025__ambient--right"></span>
+
+        <a href="#" class="breadcrumb-4025__item">
+            <span class="breadcrumb-4025__icon">
+                <i class="ri-home-5-fill"></i>
+            </span>
+            <span class="breadcrumb-4025__label">HOME</span>
+        </a>
+
+        <span class="breadcrumb-4025__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <a href="#" class="breadcrumb-4025__item">
+            <span class="breadcrumb-4025__icon">
+                <i class="ri-shapes-fill"></i>
+            </span>
+            <span class="breadcrumb-4025__label">ELEMENTS</span>
+        </a>
+
+        <span class="breadcrumb-4025__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <a href="#" class="breadcrumb-4025__item">
+            <span class="breadcrumb-4025__icon">
+                <i class="ri-compass-3-fill"></i>
+            </span>
+            <span class="breadcrumb-4025__label">NAVIGATION</span>
+        </a>
+
+        <span class="breadcrumb-4025__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <span class="breadcrumb-4025__item breadcrumb-4025__item--current">
+            <span class="breadcrumb-4025__icon">
+                <i class="ri-route-fill"></i>
+            </span>
+            <span class="breadcrumb-4025__label">BREADCRUMBS</span>
+            <span class="breadcrumb-4025__dot"></span>
+        </span>
+    </nav>
+</div>`,
+    css: `.breadcrumb-4025-wrap{width:100%;display:flex;align-items:center;justify-content:center;padding:26px}
+.breadcrumb-4025{position:relative;display:flex;align-items:center;justify-content:center;gap:8px;padding:10px 12px;overflow:hidden;border:1px solid rgba(168,85,247,.3);border-radius:16px;background:linear-gradient(135deg,#070312 0%,#130624 48%,#2e1065 100%);box-shadow:0 14px 36px rgba(0,0,0,.44),0 0 28px rgba(147,51,234,.11),inset 0 1px 0 rgba(216,180,254,.07);font-family:Arial,Helvetica,sans-serif}
+.breadcrumb-4025::before{content:"";position:absolute;left:10px;right:10px;bottom:3px;height:1px;background:linear-gradient(90deg,transparent,#7e22ce,#c084fc,#8b5cf6,transparent);box-shadow:0 0 9px rgba(192,132,252,.52);opacity:.65}
+.breadcrumb-4025__grid{position:absolute;inset:0;background-image:linear-gradient(rgba(192,132,252,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(192,132,252,.035) 1px,transparent 1px);background-size:14px 14px;mask-image:linear-gradient(90deg,transparent,#000 15%,#000 85%,transparent);pointer-events:none}
+.breadcrumb-4025__shine{position:absolute;z-index:1;top:-55%;bottom:-55%;left:-60px;width:40px;background:linear-gradient(90deg,transparent,rgba(192,132,252,.08),rgba(243,232,255,.38),rgba(168,85,247,.14),transparent);filter:blur(.2px);transform:rotate(22deg);animation:breadcrumb4025Shine 5s ease-in-out infinite;pointer-events:none}
+.breadcrumb-4025__ambient{position:absolute;border-radius:50%;filter:blur(22px);pointer-events:none}
+.breadcrumb-4025__ambient--left{left:-35px;top:-34px;width:100px;height:100px;background:rgba(147,51,234,.13)}
+.breadcrumb-4025__ambient--right{right:-35px;bottom:-38px;width:105px;height:105px;background:rgba(124,58,237,.12)}
+.breadcrumb-4025__item{position:relative;z-index:3;display:flex;align-items:center;gap:6px;padding:8px 9px;border:1px solid transparent;border-radius:11px;color:#a1a1aa;text-decoration:none;transition:transform .22s cubic-bezier(.2,.8,.2,1),background .22s ease,border-color .22s ease,box-shadow .22s ease,color .22s ease}
+.breadcrumb-4025__item::before{content:"";position:absolute;inset:0;border-radius:10px;background:linear-gradient(135deg,rgba(168,85,247,.14),rgba(124,58,237,.04));opacity:0;transition:opacity .22s ease}
+.breadcrumb-4025__item::after{content:"";position:absolute;left:10px;right:10px;bottom:4px;height:2px;border-radius:999px;background:linear-gradient(90deg,#7e22ce,#d946ef,#c084fc);box-shadow:0 0 9px rgba(217,70,239,.5);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.breadcrumb-4025__icon{position:relative;z-index:2;width:28px;height:28px;display:grid;place-items:center;flex:0 0 28px;border:1px solid rgba(192,132,252,.25);border-radius:8px;background:linear-gradient(145deg,#13081f,#211036);color:#c084fc;box-shadow:inset 0 1px 0 rgba(216,180,254,.05),0 0 0 rgba(192,132,252,0);font-size:13px;transition:transform .28s cubic-bezier(.2,.9,.2,1),background .22s ease,color .22s ease,border-color .22s ease,box-shadow .22s ease}
+.breadcrumb-4025__label{position:relative;z-index:2;font-size:7px;font-weight:900;letter-spacing:.09em;white-space:nowrap}
+.breadcrumb-4025__separator{position:relative;z-index:3;width:18px;height:26px;display:grid;place-items:center;color:#6b21a8;font-size:15px;animation:breadcrumb4025Arrow 2.4s ease-in-out infinite;transition:color .22s ease,text-shadow .22s ease}
+.breadcrumb-4025__separator:nth-of-type(5){animation-delay:.18s}
+.breadcrumb-4025__separator:nth-of-type(7){animation-delay:.36s}
+.breadcrumb-4025__item[href]:hover{border-color:rgba(216,180,254,.38);background:linear-gradient(135deg,rgba(88,28,135,.6),rgba(76,29,149,.25));color:#f3e8ff;box-shadow:0 8px 22px rgba(0,0,0,.3),0 0 16px rgba(168,85,247,.16);transform:translateY(-3px)}
+.breadcrumb-4025__item[href]:hover::before{opacity:1}
+.breadcrumb-4025__item[href]:hover::after{transform:scaleX(1)}
+.breadcrumb-4025__item[href]:hover .breadcrumb-4025__icon{border-color:#d946ef;background:linear-gradient(145deg,#a855f7,#7c3aed);color:#fff;box-shadow:0 6px 16px rgba(147,51,234,.25),0 0 15px rgba(217,70,239,.3);transform:translateY(-2px) rotate(-7deg) scale(1.08)}
+.breadcrumb-4025__item[href]:active{transform:translateY(0) scale(.98)}
+.breadcrumb-4025__item--current{padding-right:26px;border-color:rgba(216,180,254,.4);background:linear-gradient(135deg,rgba(88,28,135,.76),rgba(76,29,149,.35));color:#f3e8ff;box-shadow:inset 0 1px 0 rgba(216,180,254,.05),0 0 17px rgba(147,51,234,.1)}
+.breadcrumb-4025__item--current::before{opacity:1}
+.breadcrumb-4025__item--current::after{transform:scaleX(1)}
+.breadcrumb-4025__item--current .breadcrumb-4025__icon{border-color:#d946ef;background:linear-gradient(145deg,#a855f7,#7c3aed);color:#fff;animation:breadcrumb4025CurrentIcon 3s ease-in-out infinite}
+.breadcrumb-4025__dot{position:absolute;right:9px;top:50%;width:7px;height:7px;border:2px solid #2e1065;border-radius:50%;background:#e879f9;box-shadow:0 0 0 2px rgba(168,85,247,.55),0 0 10px rgba(232,121,249,.75);transform:translateY(-50%);animation:breadcrumb4025Dot 1.9s ease-in-out infinite}
+.breadcrumb-4025:hover .breadcrumb-4025__separator{color:#c084fc;text-shadow:0 0 8px rgba(192,132,252,.52)}
+@keyframes breadcrumb4025Shine{0%,68%{left:-60px;opacity:0}72%{opacity:.85}88%{left:calc(100% + 60px);opacity:.85}100%{left:calc(100% + 60px);opacity:0}}
+@keyframes breadcrumb4025Arrow{0%,100%{transform:translateX(0);opacity:.42}50%{transform:translateX(3px);opacity:1}}
+@keyframes breadcrumb4025CurrentIcon{0%,100%{transform:rotate(0) scale(1);box-shadow:0 3px 10px rgba(147,51,234,.2),0 0 6px rgba(217,70,239,.14)}50%{transform:rotate(4deg) scale(1.07);box-shadow:0 6px 16px rgba(147,51,234,.32),0 0 17px rgba(217,70,239,.34)}}
+@keyframes breadcrumb4025Dot{0%,100%{transform:translateY(-50%) scale(.8);opacity:.55;box-shadow:0 0 0 2px rgba(168,85,247,.35),0 0 5px rgba(232,121,249,.35)}50%{transform:translateY(-50%) scale(1.22);opacity:1;box-shadow:0 0 0 3px rgba(168,85,247,.42),0 0 14px rgba(232,121,249,.9)}}
+@media(max-width:620px){.breadcrumb-4025{gap:3px;padding:8px}.breadcrumb-4025__item{padding:7px}.breadcrumb-4025__item--current{padding-right:22px}.breadcrumb-4025__label{font-size:6px}.breadcrumb-4025__icon{width:24px;height:24px;flex-basis:24px;font-size:11px}.breadcrumb-4025__separator{width:12px;font-size:12px}}`,
+  },
+  {
+    id: 4026,
+    name: "Element Pink Magenta Neon Motion Breadcrumb",
+    preview: (
+      <div className="breadcrumb-4026-wrap">
+        <nav className="breadcrumb-4026" aria-label="Breadcrumb">
+          <span className="breadcrumb-4026__shine"></span>
+          <span className="breadcrumb-4026__grid"></span>
+          <span className="breadcrumb-4026__ambient breadcrumb-4026__ambient--left"></span>
+          <span className="breadcrumb-4026__ambient breadcrumb-4026__ambient--right"></span>
+
+          <a href="#" className="breadcrumb-4026__item">
+            <span className="breadcrumb-4026__icon">
+              <i className="ri-home-5-fill"></i>
+            </span>
+            <span className="breadcrumb-4026__label">HOME</span>
+          </a>
+
+          <span className="breadcrumb-4026__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <a href="#" className="breadcrumb-4026__item">
+            <span className="breadcrumb-4026__icon">
+              <i className="ri-shapes-fill"></i>
+            </span>
+            <span className="breadcrumb-4026__label">ELEMENTS</span>
+          </a>
+
+          <span className="breadcrumb-4026__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <a href="#" className="breadcrumb-4026__item">
+            <span className="breadcrumb-4026__icon">
+              <i className="ri-compass-3-fill"></i>
+            </span>
+            <span className="breadcrumb-4026__label">NAVIGATION</span>
+          </a>
+
+          <span className="breadcrumb-4026__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <span className="breadcrumb-4026__item breadcrumb-4026__item--current">
+            <span className="breadcrumb-4026__icon">
+              <i className="ri-route-fill"></i>
+            </span>
+            <span className="breadcrumb-4026__label">BREADCRUMBS</span>
+            <span className="breadcrumb-4026__dot"></span>
+          </span>
+        </nav>
+      </div>
+    ),
+    html: `<div class="breadcrumb-4026-wrap">
+    <nav class="breadcrumb-4026" aria-label="Breadcrumb">
+        <span class="breadcrumb-4026__shine"></span>
+        <span class="breadcrumb-4026__grid"></span>
+        <span class="breadcrumb-4026__ambient breadcrumb-4026__ambient--left"></span>
+        <span class="breadcrumb-4026__ambient breadcrumb-4026__ambient--right"></span>
+
+        <a href="#" class="breadcrumb-4026__item">
+            <span class="breadcrumb-4026__icon">
+                <i class="ri-home-5-fill"></i>
+            </span>
+            <span class="breadcrumb-4026__label">HOME</span>
+        </a>
+
+        <span class="breadcrumb-4026__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <a href="#" class="breadcrumb-4026__item">
+            <span class="breadcrumb-4026__icon">
+                <i class="ri-shapes-fill"></i>
+            </span>
+            <span class="breadcrumb-4026__label">ELEMENTS</span>
+        </a>
+
+        <span class="breadcrumb-4026__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <a href="#" class="breadcrumb-4026__item">
+            <span class="breadcrumb-4026__icon">
+                <i class="ri-compass-3-fill"></i>
+            </span>
+            <span class="breadcrumb-4026__label">NAVIGATION</span>
+        </a>
+
+        <span class="breadcrumb-4026__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <span class="breadcrumb-4026__item breadcrumb-4026__item--current">
+            <span class="breadcrumb-4026__icon">
+                <i class="ri-route-fill"></i>
+            </span>
+            <span class="breadcrumb-4026__label">BREADCRUMBS</span>
+            <span class="breadcrumb-4026__dot"></span>
+        </span>
+    </nav>
+</div>`,
+    css: `.breadcrumb-4026-wrap{width:100%;display:flex;align-items:center;justify-content:center;padding:26px}
+.breadcrumb-4026{position:relative;display:flex;align-items:center;justify-content:center;gap:8px;padding:10px 12px;overflow:hidden;border:1px solid rgba(236,72,153,.3);border-radius:16px;background:linear-gradient(135deg,#12030c 0%,#26051a 48%,#500724 100%);box-shadow:0 14px 36px rgba(0,0,0,.44),0 0 28px rgba(219,39,119,.11),inset 0 1px 0 rgba(251,207,232,.07);font-family:Arial,Helvetica,sans-serif}
+.breadcrumb-4026::before{content:"";position:absolute;left:10px;right:10px;bottom:3px;height:1px;background:linear-gradient(90deg,transparent,#db2777,#f472b6,#d946ef,transparent);box-shadow:0 0 9px rgba(244,114,182,.52);opacity:.65}
+.breadcrumb-4026__grid{position:absolute;inset:0;background-image:linear-gradient(rgba(244,114,182,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(217,70,239,.035) 1px,transparent 1px);background-size:14px 14px;mask-image:linear-gradient(90deg,transparent,#000 15%,#000 85%,transparent);pointer-events:none}
+.breadcrumb-4026__shine{position:absolute;z-index:1;top:-55%;bottom:-55%;left:-60px;width:40px;background:linear-gradient(90deg,transparent,rgba(244,114,182,.08),rgba(253,242,248,.4),rgba(217,70,239,.14),transparent);filter:blur(.2px);transform:rotate(22deg);animation:breadcrumb4026Shine 5s ease-in-out infinite;pointer-events:none}
+.breadcrumb-4026__ambient{position:absolute;border-radius:50%;filter:blur(22px);pointer-events:none}
+.breadcrumb-4026__ambient--left{left:-35px;top:-34px;width:100px;height:100px;background:rgba(219,39,119,.14)}
+.breadcrumb-4026__ambient--right{right:-35px;bottom:-38px;width:105px;height:105px;background:rgba(217,70,239,.12)}
+.breadcrumb-4026__item{position:relative;z-index:3;display:flex;align-items:center;gap:6px;padding:8px 9px;border:1px solid transparent;border-radius:11px;color:#a1a1aa;text-decoration:none;transition:transform .22s cubic-bezier(.2,.8,.2,1),background .22s ease,border-color .22s ease,box-shadow .22s ease,color .22s ease}
+.breadcrumb-4026__item::before{content:"";position:absolute;inset:0;border-radius:10px;background:linear-gradient(135deg,rgba(236,72,153,.14),rgba(217,70,239,.04));opacity:0;transition:opacity .22s ease}
+.breadcrumb-4026__item::after{content:"";position:absolute;left:10px;right:10px;bottom:4px;height:2px;border-radius:999px;background:linear-gradient(90deg,#db2777,#f472b6,#d946ef);box-shadow:0 0 9px rgba(244,114,182,.55);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.breadcrumb-4026__icon{position:relative;z-index:2;width:28px;height:28px;display:grid;place-items:center;flex:0 0 28px;border:1px solid rgba(244,114,182,.25);border-radius:8px;background:linear-gradient(145deg,#1d0715,#321029);color:#f472b6;box-shadow:inset 0 1px 0 rgba(251,207,232,.05),0 0 0 rgba(244,114,182,0);font-size:13px;transition:transform .28s cubic-bezier(.2,.9,.2,1),background .22s ease,color .22s ease,border-color .22s ease,box-shadow .22s ease}
+.breadcrumb-4026__label{position:relative;z-index:2;font-size:7px;font-weight:900;letter-spacing:.09em;white-space:nowrap}
+.breadcrumb-4026__separator{position:relative;z-index:3;width:18px;height:26px;display:grid;place-items:center;color:#831843;font-size:15px;animation:breadcrumb4026Arrow 2.4s ease-in-out infinite;transition:color .22s ease,text-shadow .22s ease}
+.breadcrumb-4026__separator:nth-of-type(5){animation-delay:.18s}
+.breadcrumb-4026__separator:nth-of-type(7){animation-delay:.36s}
+.breadcrumb-4026__item[href]:hover{border-color:rgba(244,114,182,.4);background:linear-gradient(135deg,rgba(131,24,67,.62),rgba(112,26,117,.26));color:#fdf2f8;box-shadow:0 8px 22px rgba(0,0,0,.3),0 0 16px rgba(236,72,153,.17);transform:translateY(-3px)}
+.breadcrumb-4026__item[href]:hover::before{opacity:1}
+.breadcrumb-4026__item[href]:hover::after{transform:scaleX(1)}
+.breadcrumb-4026__item[href]:hover .breadcrumb-4026__icon{border-color:#f472b6;background:linear-gradient(145deg,#ec4899,#d946ef);color:#fff;box-shadow:0 6px 16px rgba(219,39,119,.26),0 0 15px rgba(244,114,182,.32);transform:translateY(-2px) rotate(-7deg) scale(1.08)}
+.breadcrumb-4026__item[href]:active{transform:translateY(0) scale(.98)}
+.breadcrumb-4026__item--current{padding-right:26px;border-color:rgba(244,114,182,.42);background:linear-gradient(135deg,rgba(131,24,67,.78),rgba(112,26,117,.36));color:#fdf2f8;box-shadow:inset 0 1px 0 rgba(251,207,232,.05),0 0 17px rgba(236,72,153,.11)}
+.breadcrumb-4026__item--current::before{opacity:1}
+.breadcrumb-4026__item--current::after{transform:scaleX(1)}
+.breadcrumb-4026__item--current .breadcrumb-4026__icon{border-color:#f472b6;background:linear-gradient(145deg,#ec4899,#d946ef);color:#fff;animation:breadcrumb4026CurrentIcon 3s ease-in-out infinite}
+.breadcrumb-4026__dot{position:absolute;right:9px;top:50%;width:7px;height:7px;border:2px solid #500724;border-radius:50%;background:#f9a8d4;box-shadow:0 0 0 2px rgba(236,72,153,.55),0 0 10px rgba(249,168,212,.78);transform:translateY(-50%);animation:breadcrumb4026Dot 1.9s ease-in-out infinite}
+.breadcrumb-4026:hover .breadcrumb-4026__separator{color:#f472b6;text-shadow:0 0 8px rgba(244,114,182,.55)}
+@keyframes breadcrumb4026Shine{0%,68%{left:-60px;opacity:0}72%{opacity:.85}88%{left:calc(100% + 60px);opacity:.85}100%{left:calc(100% + 60px);opacity:0}}
+@keyframes breadcrumb4026Arrow{0%,100%{transform:translateX(0);opacity:.42}50%{transform:translateX(3px);opacity:1}}
+@keyframes breadcrumb4026CurrentIcon{0%,100%{transform:rotate(0) scale(1);box-shadow:0 3px 10px rgba(219,39,119,.2),0 0 6px rgba(244,114,182,.14)}50%{transform:rotate(4deg) scale(1.07);box-shadow:0 6px 16px rgba(219,39,119,.34),0 0 17px rgba(244,114,182,.38)}}
+@keyframes breadcrumb4026Dot{0%,100%{transform:translateY(-50%) scale(.8);opacity:.55;box-shadow:0 0 0 2px rgba(236,72,153,.35),0 0 5px rgba(249,168,212,.38)}50%{transform:translateY(-50%) scale(1.22);opacity:1;box-shadow:0 0 0 3px rgba(236,72,153,.44),0 0 14px rgba(249,168,212,.92)}}
+@media(max-width:620px){.breadcrumb-4026{gap:3px;padding:8px}.breadcrumb-4026__item{padding:7px}.breadcrumb-4026__item--current{padding-right:22px}.breadcrumb-4026__label{font-size:6px}.breadcrumb-4026__icon{width:24px;height:24px;flex-basis:24px;font-size:11px}.breadcrumb-4026__separator{width:12px;font-size:12px}}`,
+  },
+  {
+    id: 4027,
+    name: "Element Green Neon Motion Breadcrumb",
+    preview: (
+      <div className="breadcrumb-4027-wrap">
+        <nav className="breadcrumb-4027" aria-label="Breadcrumb">
+          <span className="breadcrumb-4027__shine"></span>
+          <span className="breadcrumb-4027__grid"></span>
+          <span className="breadcrumb-4027__ambient breadcrumb-4027__ambient--left"></span>
+          <span className="breadcrumb-4027__ambient breadcrumb-4027__ambient--right"></span>
+
+          <a href="#" className="breadcrumb-4027__item">
+            <span className="breadcrumb-4027__icon">
+              <i className="ri-home-5-fill"></i>
+            </span>
+            <span className="breadcrumb-4027__label">HOME</span>
+          </a>
+
+          <span className="breadcrumb-4027__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <a href="#" className="breadcrumb-4027__item">
+            <span className="breadcrumb-4027__icon">
+              <i className="ri-shapes-fill"></i>
+            </span>
+            <span className="breadcrumb-4027__label">ELEMENTS</span>
+          </a>
+
+          <span className="breadcrumb-4027__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <a href="#" className="breadcrumb-4027__item">
+            <span className="breadcrumb-4027__icon">
+              <i className="ri-compass-3-fill"></i>
+            </span>
+            <span className="breadcrumb-4027__label">NAVIGATION</span>
+          </a>
+
+          <span className="breadcrumb-4027__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <span className="breadcrumb-4027__item breadcrumb-4027__item--current">
+            <span className="breadcrumb-4027__icon">
+              <i className="ri-route-fill"></i>
+            </span>
+            <span className="breadcrumb-4027__label">BREADCRUMBS</span>
+            <span className="breadcrumb-4027__dot"></span>
+          </span>
+        </nav>
+      </div>
+    ),
+    html: `<div class="breadcrumb-4027-wrap">
+    <nav class="breadcrumb-4027" aria-label="Breadcrumb">
+        <span class="breadcrumb-4027__shine"></span>
+        <span class="breadcrumb-4027__grid"></span>
+        <span class="breadcrumb-4027__ambient breadcrumb-4027__ambient--left"></span>
+        <span class="breadcrumb-4027__ambient breadcrumb-4027__ambient--right"></span>
+
+        <a href="#" class="breadcrumb-4027__item">
+            <span class="breadcrumb-4027__icon">
+                <i class="ri-home-5-fill"></i>
+            </span>
+            <span class="breadcrumb-4027__label">HOME</span>
+        </a>
+
+        <span class="breadcrumb-4027__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <a href="#" class="breadcrumb-4027__item">
+            <span class="breadcrumb-4027__icon">
+                <i class="ri-shapes-fill"></i>
+            </span>
+            <span class="breadcrumb-4027__label">ELEMENTS</span>
+        </a>
+
+        <span class="breadcrumb-4027__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <a href="#" class="breadcrumb-4027__item">
+            <span class="breadcrumb-4027__icon">
+                <i class="ri-compass-3-fill"></i>
+            </span>
+            <span class="breadcrumb-4027__label">NAVIGATION</span>
+        </a>
+
+        <span class="breadcrumb-4027__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <span class="breadcrumb-4027__item breadcrumb-4027__item--current">
+            <span class="breadcrumb-4027__icon">
+                <i class="ri-route-fill"></i>
+            </span>
+            <span class="breadcrumb-4027__label">BREADCRUMBS</span>
+            <span class="breadcrumb-4027__dot"></span>
+        </span>
+    </nav>
+</div>`,
+    css: `.breadcrumb-4027-wrap{width:100%;display:flex;align-items:center;justify-content:center;padding:26px}
+.breadcrumb-4027{position:relative;display:flex;align-items:center;justify-content:center;gap:8px;padding:10px 12px;overflow:hidden;border:1px solid rgba(74,222,128,.3);border-radius:16px;background:linear-gradient(135deg,#020a05 0%,#06160c 48%,#052e16 100%);box-shadow:0 14px 36px rgba(0,0,0,.44),0 0 28px rgba(34,197,94,.1),inset 0 1px 0 rgba(187,247,208,.07);font-family:Arial,Helvetica,sans-serif}
+.breadcrumb-4027::before{content:"";position:absolute;left:10px;right:10px;bottom:3px;height:1px;background:linear-gradient(90deg,transparent,#16a34a,#4ade80,#a3e635,transparent);box-shadow:0 0 9px rgba(74,222,128,.52);opacity:.68}
+.breadcrumb-4027__grid{position:absolute;inset:0;background-image:linear-gradient(rgba(74,222,128,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(163,230,53,.03) 1px,transparent 1px);background-size:14px 14px;mask-image:linear-gradient(90deg,transparent,#000 15%,#000 85%,transparent);pointer-events:none}
+.breadcrumb-4027__shine{position:absolute;z-index:1;top:-55%;bottom:-55%;left:-60px;width:40px;background:linear-gradient(90deg,transparent,rgba(74,222,128,.08),rgba(240,253,244,.38),rgba(163,230,53,.13),transparent);filter:blur(.2px);transform:rotate(22deg);animation:breadcrumb4027Shine 5s ease-in-out infinite;pointer-events:none}
+.breadcrumb-4027__ambient{position:absolute;border-radius:50%;filter:blur(22px);pointer-events:none}
+.breadcrumb-4027__ambient--left{left:-35px;top:-34px;width:100px;height:100px;background:rgba(34,197,94,.13)}
+.breadcrumb-4027__ambient--right{right:-35px;bottom:-38px;width:105px;height:105px;background:rgba(132,204,22,.11)}
+.breadcrumb-4027__item{position:relative;z-index:3;display:flex;align-items:center;gap:6px;padding:8px 9px;border:1px solid transparent;border-radius:11px;color:#a1a1aa;text-decoration:none;transition:transform .22s cubic-bezier(.2,.8,.2,1),background .22s ease,border-color .22s ease,box-shadow .22s ease,color .22s ease}
+.breadcrumb-4027__item::before{content:"";position:absolute;inset:0;border-radius:10px;background:linear-gradient(135deg,rgba(34,197,94,.14),rgba(132,204,22,.04));opacity:0;transition:opacity .22s ease}
+.breadcrumb-4027__item::after{content:"";position:absolute;left:10px;right:10px;bottom:4px;height:2px;border-radius:999px;background:linear-gradient(90deg,#16a34a,#4ade80,#a3e635);box-shadow:0 0 9px rgba(74,222,128,.55);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.breadcrumb-4027__icon{position:relative;z-index:2;width:28px;height:28px;display:grid;place-items:center;flex:0 0 28px;border:1px solid rgba(74,222,128,.25);border-radius:8px;background:linear-gradient(145deg,#06120a,#0a2110);color:#4ade80;box-shadow:inset 0 1px 0 rgba(187,247,208,.05),0 0 0 rgba(74,222,128,0);font-size:13px;transition:transform .28s cubic-bezier(.2,.9,.2,1),background .22s ease,color .22s ease,border-color .22s ease,box-shadow .22s ease}
+.breadcrumb-4027__label{position:relative;z-index:2;font-size:7px;font-weight:900;letter-spacing:.09em;white-space:nowrap}
+.breadcrumb-4027__separator{position:relative;z-index:3;width:18px;height:26px;display:grid;place-items:center;color:#166534;font-size:15px;animation:breadcrumb4027Arrow 2.4s ease-in-out infinite;transition:color .22s ease,text-shadow .22s ease}
+.breadcrumb-4027__separator:nth-of-type(5){animation-delay:.18s}
+.breadcrumb-4027__separator:nth-of-type(7){animation-delay:.36s}
+.breadcrumb-4027__item[href]:hover{border-color:rgba(74,222,128,.4);background:linear-gradient(135deg,rgba(20,83,45,.62),rgba(54,83,20,.25));color:#f0fdf4;box-shadow:0 8px 22px rgba(0,0,0,.3),0 0 16px rgba(34,197,94,.16);transform:translateY(-3px)}
+.breadcrumb-4027__item[href]:hover::before{opacity:1}
+.breadcrumb-4027__item[href]:hover::after{transform:scaleX(1)}
+.breadcrumb-4027__item[href]:hover .breadcrumb-4027__icon{border-color:#4ade80;background:linear-gradient(145deg,#22c55e,#65a30d);color:#fff;box-shadow:0 6px 16px rgba(34,197,94,.26),0 0 15px rgba(74,222,128,.3);transform:translateY(-2px) rotate(-7deg) scale(1.08)}
+.breadcrumb-4027__item[href]:active{transform:translateY(0) scale(.98)}
+.breadcrumb-4027__item--current{padding-right:26px;border-color:rgba(74,222,128,.42);background:linear-gradient(135deg,rgba(20,83,45,.76),rgba(54,83,20,.34));color:#f0fdf4;box-shadow:inset 0 1px 0 rgba(187,247,208,.05),0 0 17px rgba(34,197,94,.1)}
+.breadcrumb-4027__item--current::before{opacity:1}
+.breadcrumb-4027__item--current::after{transform:scaleX(1)}
+.breadcrumb-4027__item--current .breadcrumb-4027__icon{border-color:#4ade80;background:linear-gradient(145deg,#22c55e,#65a30d);color:#fff;animation:breadcrumb4027CurrentIcon 3s ease-in-out infinite}
+.breadcrumb-4027__dot{position:absolute;right:9px;top:50%;width:7px;height:7px;border:2px solid #052e16;border-radius:50%;background:#86efac;box-shadow:0 0 0 2px rgba(34,197,94,.55),0 0 10px rgba(134,239,172,.78);transform:translateY(-50%);animation:breadcrumb4027Dot 1.9s ease-in-out infinite}
+.breadcrumb-4027:hover .breadcrumb-4027__separator{color:#4ade80;text-shadow:0 0 8px rgba(74,222,128,.55)}
+@keyframes breadcrumb4027Shine{0%,68%{left:-60px;opacity:0}72%{opacity:.85}88%{left:calc(100% + 60px);opacity:.85}100%{left:calc(100% + 60px);opacity:0}}
+@keyframes breadcrumb4027Arrow{0%,100%{transform:translateX(0);opacity:.42}50%{transform:translateX(3px);opacity:1}}
+@keyframes breadcrumb4027CurrentIcon{0%,100%{transform:rotate(0) scale(1);box-shadow:0 3px 10px rgba(34,197,94,.2),0 0 6px rgba(74,222,128,.14)}50%{transform:rotate(4deg) scale(1.07);box-shadow:0 6px 16px rgba(34,197,94,.34),0 0 17px rgba(74,222,128,.36)}}
+@keyframes breadcrumb4027Dot{0%,100%{transform:translateY(-50%) scale(.8);opacity:.55;box-shadow:0 0 0 2px rgba(34,197,94,.35),0 0 5px rgba(134,239,172,.38)}50%{transform:translateY(-50%) scale(1.22);opacity:1;box-shadow:0 0 0 3px rgba(34,197,94,.44),0 0 14px rgba(134,239,172,.92)}}
+@media(max-width:620px){.breadcrumb-4027{gap:3px;padding:8px}.breadcrumb-4027__item{padding:7px}.breadcrumb-4027__item--current{padding-right:22px}.breadcrumb-4027__label{font-size:6px}.breadcrumb-4027__icon{width:24px;height:24px;flex-basis:24px;font-size:11px}.breadcrumb-4027__separator{width:12px;font-size:12px}}`,
+  },
+  {
+    id: 4028,
+    name: "Element Gold Luxury Motion Breadcrumb",
+    preview: (
+      <div className="breadcrumb-4028-wrap">
+        <nav className="breadcrumb-4028" aria-label="Breadcrumb">
+          <span className="breadcrumb-4028__shine"></span>
+          <span className="breadcrumb-4028__texture"></span>
+          <span className="breadcrumb-4028__ambient breadcrumb-4028__ambient--left"></span>
+          <span className="breadcrumb-4028__ambient breadcrumb-4028__ambient--right"></span>
+
+          <a href="#" className="breadcrumb-4028__item">
+            <span className="breadcrumb-4028__icon">
+              <i className="ri-home-5-fill"></i>
+            </span>
+            <span className="breadcrumb-4028__label">HOME</span>
+          </a>
+
+          <span className="breadcrumb-4028__separator">
+            <span></span>
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <a href="#" className="breadcrumb-4028__item">
+            <span className="breadcrumb-4028__icon">
+              <i className="ri-vip-diamond-fill"></i>
+            </span>
+            <span className="breadcrumb-4028__label">COLLECTION</span>
+          </a>
+
+          <span className="breadcrumb-4028__separator">
+            <span></span>
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <a href="#" className="breadcrumb-4028__item">
+            <span className="breadcrumb-4028__icon">
+              <i className="ri-layout-grid-fill"></i>
+            </span>
+            <span className="breadcrumb-4028__label">ELEMENTS</span>
+          </a>
+
+          <span className="breadcrumb-4028__separator">
+            <span></span>
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <span className="breadcrumb-4028__item breadcrumb-4028__item--current">
+            <span className="breadcrumb-4028__icon">
+              <i className="ri-route-fill"></i>
+            </span>
+            <span className="breadcrumb-4028__label">BREADCRUMBS</span>
+            <span className="breadcrumb-4028__dot"></span>
+          </span>
+        </nav>
+      </div>
+    ),
+    html: `<div class="breadcrumb-4028-wrap">
+    <nav class="breadcrumb-4028" aria-label="Breadcrumb">
+        <span class="breadcrumb-4028__shine"></span>
+        <span class="breadcrumb-4028__texture"></span>
+        <span class="breadcrumb-4028__ambient breadcrumb-4028__ambient--left"></span>
+        <span class="breadcrumb-4028__ambient breadcrumb-4028__ambient--right"></span>
+
+        <a href="#" class="breadcrumb-4028__item">
+            <span class="breadcrumb-4028__icon">
+                <i class="ri-home-5-fill"></i>
+            </span>
+            <span class="breadcrumb-4028__label">HOME</span>
+        </a>
+
+        <span class="breadcrumb-4028__separator">
+            <span></span>
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <a href="#" class="breadcrumb-4028__item">
+            <span class="breadcrumb-4028__icon">
+                <i class="ri-vip-diamond-fill"></i>
+            </span>
+            <span class="breadcrumb-4028__label">COLLECTION</span>
+        </a>
+
+        <span class="breadcrumb-4028__separator">
+            <span></span>
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <a href="#" class="breadcrumb-4028__item">
+            <span class="breadcrumb-4028__icon">
+                <i class="ri-layout-grid-fill"></i>
+            </span>
+            <span class="breadcrumb-4028__label">ELEMENTS</span>
+        </a>
+
+        <span class="breadcrumb-4028__separator">
+            <span></span>
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <span class="breadcrumb-4028__item breadcrumb-4028__item--current">
+            <span class="breadcrumb-4028__icon">
+                <i class="ri-route-fill"></i>
+            </span>
+            <span class="breadcrumb-4028__label">BREADCRUMBS</span>
+            <span class="breadcrumb-4028__dot"></span>
+        </span>
+    </nav>
+</div>`,
+    css: `.breadcrumb-4028-wrap{width:100%;display:flex;align-items:center;justify-content:center;padding:26px}
+.breadcrumb-4028{position:relative;display:flex;align-items:center;justify-content:center;gap:8px;padding:10px 12px;overflow:hidden;border:1px solid rgba(212,175,55,.34);border-radius:16px;background:linear-gradient(135deg,#070706 0%,#11100c 46%,#1c170a 100%);box-shadow:0 16px 38px rgba(0,0,0,.46),0 0 26px rgba(212,175,55,.08),inset 0 1px 0 rgba(255,244,190,.07);font-family:Arial,Helvetica,sans-serif}
+.breadcrumb-4028::before{content:"";position:absolute;left:10px;right:10px;bottom:3px;height:1px;background:linear-gradient(90deg,transparent,#8c6a17,#f4d06f,#fff1ad,#c99a2e,transparent);box-shadow:0 0 8px rgba(244,208,111,.35);opacity:.72}
+.breadcrumb-4028::after{content:"";position:absolute;left:24px;right:24px;top:3px;height:1px;background:linear-gradient(90deg,transparent,rgba(255,241,173,.14),rgba(255,255,255,.2),rgba(255,241,173,.14),transparent)}
+.breadcrumb-4028__texture{position:absolute;inset:0;background-image:radial-gradient(rgba(255,224,128,.045) 1px,transparent 1.3px);background-size:13px 13px;mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);pointer-events:none}
+.breadcrumb-4028__shine{position:absolute;z-index:1;top:-55%;bottom:-55%;left:-65px;width:42px;background:linear-gradient(90deg,transparent,rgba(212,175,55,.06),rgba(255,246,201,.4),rgba(244,208,111,.12),transparent);filter:blur(.2px);transform:rotate(22deg);animation:breadcrumb4028Shine 5.2s ease-in-out infinite;pointer-events:none}
+.breadcrumb-4028__ambient{position:absolute;border-radius:50%;filter:blur(24px);pointer-events:none}
+.breadcrumb-4028__ambient--left{left:-38px;top:-36px;width:105px;height:105px;background:rgba(202,138,4,.1)}
+.breadcrumb-4028__ambient--right{right:-38px;bottom:-40px;width:110px;height:110px;background:rgba(245,158,11,.07)}
+.breadcrumb-4028__item{position:relative;z-index:3;display:flex;align-items:center;gap:6px;padding:8px 9px;border:1px solid transparent;border-radius:11px;color:#a8a29e;text-decoration:none;transition:transform .22s cubic-bezier(.2,.8,.2,1),background .22s ease,border-color .22s ease,box-shadow .22s ease,color .22s ease}
+.breadcrumb-4028__item::before{content:"";position:absolute;inset:0;border-radius:10px;background:linear-gradient(135deg,rgba(212,175,55,.12),rgba(255,241,173,.025));opacity:0;transition:opacity .22s ease}
+.breadcrumb-4028__item::after{content:"";position:absolute;left:10px;right:10px;bottom:4px;height:2px;border-radius:999px;background:linear-gradient(90deg,#a87918,#f4d06f,#fff1ad);box-shadow:0 0 9px rgba(244,208,111,.42);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.breadcrumb-4028__icon{position:relative;z-index:2;width:28px;height:28px;display:grid;place-items:center;flex:0 0 28px;border:1px solid rgba(212,175,55,.27);border-radius:8px;background:linear-gradient(145deg,#11100c,#1b170d);color:#d4af37;box-shadow:inset 0 1px 0 rgba(255,241,173,.055);font-size:13px;transition:transform .28s cubic-bezier(.2,.9,.2,1),background .22s ease,color .22s ease,border-color .22s ease,box-shadow .22s ease}
+.breadcrumb-4028__label{position:relative;z-index:2;font-size:7px;font-weight:900;letter-spacing:.1em;white-space:nowrap}
+.breadcrumb-4028__separator{position:relative;z-index:3;width:20px;height:26px;display:flex;align-items:center;justify-content:center;color:#80631e;font-size:14px;animation:breadcrumb4028Arrow 2.4s ease-in-out infinite;transition:color .22s ease,text-shadow .22s ease}
+.breadcrumb-4028__separator>span{position:absolute;width:5px;height:5px;border:1px solid #8c6a17;background:#181307;transform:rotate(45deg);opacity:.6}
+.breadcrumb-4028__separator>i{position:relative;z-index:2}
+.breadcrumb-4028__separator:nth-of-type(6){animation-delay:.18s}
+.breadcrumb-4028__separator:nth-of-type(8){animation-delay:.36s}
+.breadcrumb-4028__item[href]:hover{border-color:rgba(244,208,111,.38);background:linear-gradient(135deg,rgba(120,83,18,.28),rgba(38,31,12,.72));color:#fff4c2;box-shadow:0 8px 22px rgba(0,0,0,.3),0 0 16px rgba(212,175,55,.11);transform:translateY(-3px)}
+.breadcrumb-4028__item[href]:hover::before{opacity:1}
+.breadcrumb-4028__item[href]:hover::after{transform:scaleX(1)}
+.breadcrumb-4028__item[href]:hover .breadcrumb-4028__icon{border-color:#f4d06f;background:linear-gradient(145deg,#d4af37,#8c6516);color:#160f02;box-shadow:0 6px 16px rgba(212,175,55,.22),0 0 14px rgba(244,208,111,.2);transform:translateY(-2px) rotate(-7deg) scale(1.08)}
+.breadcrumb-4028__item[href]:active{transform:translateY(0) scale(.98)}
+.breadcrumb-4028__item--current{padding-right:26px;border-color:rgba(244,208,111,.4);background:linear-gradient(135deg,rgba(120,83,18,.35),rgba(38,31,12,.82));color:#fff4c2;box-shadow:inset 0 1px 0 rgba(255,241,173,.045),0 0 16px rgba(212,175,55,.08)}
+.breadcrumb-4028__item--current::before{opacity:1}
+.breadcrumb-4028__item--current::after{transform:scaleX(1)}
+.breadcrumb-4028__item--current .breadcrumb-4028__icon{border-color:#f4d06f;background:linear-gradient(145deg,#e3bd48,#9d7419);color:#150f02;animation:breadcrumb4028CurrentIcon 3s ease-in-out infinite}
+.breadcrumb-4028__dot{position:absolute;right:9px;top:50%;width:7px;height:7px;border:2px solid #2b210a;border-radius:50%;background:#ffe99a;box-shadow:0 0 0 2px rgba(212,175,55,.5),0 0 10px rgba(255,233,154,.68);transform:translateY(-50%);animation:breadcrumb4028Dot 1.9s ease-in-out infinite}
+.breadcrumb-4028:hover .breadcrumb-4028__separator{color:#f4d06f;text-shadow:0 0 8px rgba(244,208,111,.4)}
+@keyframes breadcrumb4028Shine{0%,67%{left:-65px;opacity:0}72%{opacity:.9}88%{left:calc(100% + 65px);opacity:.9}100%{left:calc(100% + 65px);opacity:0}}
+@keyframes breadcrumb4028Arrow{0%,100%{transform:translateX(0);opacity:.45}50%{transform:translateX(3px);opacity:1}}
+@keyframes breadcrumb4028CurrentIcon{0%,100%{transform:rotate(0) scale(1);box-shadow:0 3px 10px rgba(212,175,55,.16),0 0 6px rgba(244,208,111,.1)}50%{transform:rotate(4deg) scale(1.07);box-shadow:0 6px 16px rgba(212,175,55,.3),0 0 16px rgba(244,208,111,.26)}}
+@keyframes breadcrumb4028Dot{0%,100%{transform:translateY(-50%) scale(.8);opacity:.55;box-shadow:0 0 0 2px rgba(212,175,55,.3),0 0 5px rgba(255,233,154,.28)}50%{transform:translateY(-50%) scale(1.22);opacity:1;box-shadow:0 0 0 3px rgba(212,175,55,.4),0 0 14px rgba(255,233,154,.78)}}
+@media(max-width:620px){.breadcrumb-4028{gap:3px;padding:8px}.breadcrumb-4028__item{padding:7px}.breadcrumb-4028__item--current{padding-right:22px}.breadcrumb-4028__label{font-size:6px}.breadcrumb-4028__icon{width:24px;height:24px;flex-basis:24px;font-size:11px}.breadcrumb-4028__separator{width:12px;font-size:12px}}`,
+  },
+  {
+    id: 4029,
+    name: "Element Inferno Fire Motion Breadcrumb",
+    preview: (
+      <div className="breadcrumb-4029-wrap">
+        <nav className="breadcrumb-4029" aria-label="Breadcrumb">
+          <span className="breadcrumb-4029__shine"></span>
+          <span className="breadcrumb-4029__heat"></span>
+          <span className="breadcrumb-4029__ambient breadcrumb-4029__ambient--left"></span>
+          <span className="breadcrumb-4029__ambient breadcrumb-4029__ambient--right"></span>
+
+          <a href="#" className="breadcrumb-4029__item">
+            <span className="breadcrumb-4029__icon">
+              <i className="ri-home-5-fill"></i>
+            </span>
+            <span className="breadcrumb-4029__label">HOME</span>
+          </a>
+
+          <span className="breadcrumb-4029__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <a href="#" className="breadcrumb-4029__item">
+            <span className="breadcrumb-4029__icon">
+              <i className="ri-fire-fill"></i>
+            </span>
+            <span className="breadcrumb-4029__label">INFERNO</span>
+          </a>
+
+          <span className="breadcrumb-4029__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <a href="#" className="breadcrumb-4029__item">
+            <span className="breadcrumb-4029__icon">
+              <i className="ri-flashlight-fill"></i>
+            </span>
+            <span className="breadcrumb-4029__label">EMBER</span>
+          </a>
+
+          <span className="breadcrumb-4029__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <span className="breadcrumb-4029__item breadcrumb-4029__item--current">
+            <span className="breadcrumb-4029__icon">
+              <i className="ri-route-fill"></i>
+            </span>
+            <span className="breadcrumb-4029__label">FLAME CORE</span>
+            <span className="breadcrumb-4029__dot"></span>
+          </span>
+        </nav>
+      </div>
+    ),
+    html: `<div class="breadcrumb-4029-wrap">
+    <nav class="breadcrumb-4029" aria-label="Breadcrumb">
+        <span class="breadcrumb-4029__shine"></span>
+        <span class="breadcrumb-4029__heat"></span>
+        <span class="breadcrumb-4029__ambient breadcrumb-4029__ambient--left"></span>
+        <span class="breadcrumb-4029__ambient breadcrumb-4029__ambient--right"></span>
+
+        <a href="#" class="breadcrumb-4029__item">
+            <span class="breadcrumb-4029__icon">
+                <i class="ri-home-5-fill"></i>
+            </span>
+            <span class="breadcrumb-4029__label">HOME</span>
+        </a>
+
+        <span class="breadcrumb-4029__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <a href="#" class="breadcrumb-4029__item">
+            <span class="breadcrumb-4029__icon">
+                <i class="ri-fire-fill"></i>
+            </span>
+            <span class="breadcrumb-4029__label">INFERNO</span>
+        </a>
+
+        <span class="breadcrumb-4029__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <a href="#" class="breadcrumb-4029__item">
+            <span class="breadcrumb-4029__icon">
+                <i class="ri-flashlight-fill"></i>
+            </span>
+            <span class="breadcrumb-4029__label">EMBER</span>
+        </a>
+
+        <span class="breadcrumb-4029__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <span class="breadcrumb-4029__item breadcrumb-4029__item--current">
+            <span class="breadcrumb-4029__icon">
+                <i class="ri-route-fill"></i>
+            </span>
+            <span class="breadcrumb-4029__label">FLAME CORE</span>
+            <span class="breadcrumb-4029__dot"></span>
+        </span>
+    </nav>
+</div>`,
+    css: `.breadcrumb-4029-wrap{width:100%;display:flex;align-items:center;justify-content:center;padding:26px}
+.breadcrumb-4029{position:relative;display:flex;align-items:center;justify-content:center;gap:8px;padding:10px 12px;overflow:hidden;border:1px solid rgba(249,115,22,.34);border-radius:16px;background:linear-gradient(135deg,#100301 0%,#260801 46%,#450a0a 100%);box-shadow:0 15px 38px rgba(0,0,0,.46),0 0 28px rgba(249,115,22,.11),inset 0 1px 0 rgba(254,215,170,.06);font-family:Arial,Helvetica,sans-serif}
+.breadcrumb-4029::before{content:"";position:absolute;left:10px;right:10px;bottom:3px;height:1px;background:linear-gradient(90deg,transparent,#dc2626,#f97316,#facc15,#fb923c,transparent);box-shadow:0 0 9px rgba(249,115,22,.55);opacity:.72}
+.breadcrumb-4029::after{content:"";position:absolute;left:10%;right:10%;bottom:-11px;height:17px;border-radius:50%;background:rgba(249,115,22,.16);filter:blur(8px);box-shadow:0 0 15px rgba(220,38,38,.2);pointer-events:none}
+.breadcrumb-4029__heat{position:absolute;inset:0;background:radial-gradient(circle at 12% 80%,rgba(251,191,36,.09),transparent 18%),radial-gradient(circle at 47% 100%,rgba(249,115,22,.1),transparent 22%),radial-gradient(circle at 85% 78%,rgba(220,38,38,.1),transparent 18%);pointer-events:none}
+.breadcrumb-4029__shine{position:absolute;z-index:1;top:-55%;bottom:-55%;left:-65px;width:42px;background:linear-gradient(90deg,transparent,rgba(249,115,22,.05),rgba(255,237,213,.42),rgba(251,146,60,.14),transparent);filter:blur(.2px);transform:rotate(22deg);animation:breadcrumb4029Shine 5s ease-in-out infinite;pointer-events:none}
+.breadcrumb-4029__ambient{position:absolute;border-radius:50%;filter:blur(24px);pointer-events:none}
+.breadcrumb-4029__ambient--left{left:-38px;top:-38px;width:105px;height:105px;background:rgba(220,38,38,.13)}
+.breadcrumb-4029__ambient--right{right:-38px;bottom:-40px;width:110px;height:110px;background:rgba(249,115,22,.12)}
+.breadcrumb-4029__item{position:relative;z-index:3;display:flex;align-items:center;gap:6px;padding:8px 9px;border:1px solid transparent;border-radius:11px;color:#a8a29e;text-decoration:none;transition:transform .22s cubic-bezier(.2,.8,.2,1),background .22s ease,border-color .22s ease,box-shadow .22s ease,color .22s ease}
+.breadcrumb-4029__item::before{content:"";position:absolute;inset:0;border-radius:10px;background:linear-gradient(135deg,rgba(249,115,22,.15),rgba(220,38,38,.04));opacity:0;transition:opacity .22s ease}
+.breadcrumb-4029__item::after{content:"";position:absolute;left:10px;right:10px;bottom:4px;height:2px;border-radius:999px;background:linear-gradient(90deg,#dc2626,#f97316,#facc15);box-shadow:0 0 10px rgba(249,115,22,.55);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.breadcrumb-4029__icon{position:relative;z-index:2;width:28px;height:28px;display:grid;place-items:center;flex:0 0 28px;border:1px solid rgba(249,115,22,.27);border-radius:8px;background:linear-gradient(145deg,#180503,#2a0904);color:#fb923c;box-shadow:inset 0 1px 0 rgba(254,215,170,.045);font-size:13px;transition:transform .28s cubic-bezier(.2,.9,.2,1),background .22s ease,color .22s ease,border-color .22s ease,box-shadow .22s ease}
+.breadcrumb-4029__label{position:relative;z-index:2;font-size:7px;font-weight:900;letter-spacing:.09em;white-space:nowrap}
+.breadcrumb-4029__separator{position:relative;z-index:3;width:18px;height:26px;display:grid;place-items:center;color:#9a3412;font-size:15px;animation:breadcrumb4029Arrow 2.4s ease-in-out infinite;transition:color .22s ease,text-shadow .22s ease}
+.breadcrumb-4029__separator:nth-of-type(5){animation-delay:.18s}
+.breadcrumb-4029__separator:nth-of-type(7){animation-delay:.36s}
+.breadcrumb-4029__item[href]:hover{border-color:rgba(251,146,60,.42);background:linear-gradient(135deg,rgba(124,45,18,.72),rgba(69,10,10,.5));color:#fff7ed;box-shadow:0 8px 22px rgba(0,0,0,.32),0 0 17px rgba(249,115,22,.17);transform:translateY(-3px)}
+.breadcrumb-4029__item[href]:hover::before{opacity:1}
+.breadcrumb-4029__item[href]:hover::after{transform:scaleX(1)}
+.breadcrumb-4029__item[href]:hover .breadcrumb-4029__icon{border-color:#fb923c;background:linear-gradient(145deg,#f97316,#dc2626);color:#fff7ed;box-shadow:0 6px 16px rgba(249,115,22,.3),0 0 16px rgba(251,146,60,.34);transform:translateY(-2px) rotate(-7deg) scale(1.08)}
+.breadcrumb-4029__item[href]:active{transform:translateY(0) scale(.98)}
+.breadcrumb-4029__item--current{padding-right:26px;border-color:rgba(251,146,60,.44);background:linear-gradient(135deg,rgba(124,45,18,.82),rgba(69,10,10,.58));color:#fff7ed;box-shadow:inset 0 1px 0 rgba(254,215,170,.04),0 0 18px rgba(249,115,22,.11)}
+.breadcrumb-4029__item--current::before{opacity:1}
+.breadcrumb-4029__item--current::after{transform:scaleX(1)}
+.breadcrumb-4029__item--current .breadcrumb-4029__icon{border-color:#fb923c;background:linear-gradient(145deg,#f97316,#dc2626);color:#fff7ed;animation:breadcrumb4029CurrentIcon 3s ease-in-out infinite}
+.breadcrumb-4029__dot{position:absolute;right:9px;top:50%;width:7px;height:7px;border:2px solid #450a0a;border-radius:50%;background:#facc15;box-shadow:0 0 0 2px rgba(249,115,22,.55),0 0 10px rgba(250,204,21,.82);transform:translateY(-50%);animation:breadcrumb4029Dot 1.9s ease-in-out infinite}
+.breadcrumb-4029:hover .breadcrumb-4029__separator{color:#fb923c;text-shadow:0 0 8px rgba(249,115,22,.6)}
+.breadcrumb-4029:hover::after{background:rgba(249,115,22,.25);box-shadow:0 0 20px rgba(220,38,38,.28)}
+@keyframes breadcrumb4029Shine{0%,68%{left:-65px;opacity:0}72%{opacity:.9}88%{left:calc(100% + 65px);opacity:.9}100%{left:calc(100% + 65px);opacity:0}}
+@keyframes breadcrumb4029Arrow{0%,100%{transform:translateX(0);opacity:.42}50%{transform:translateX(3px);opacity:1}}
+@keyframes breadcrumb4029CurrentIcon{0%,100%{transform:rotate(0) scale(1);box-shadow:0 3px 10px rgba(249,115,22,.2),0 0 6px rgba(251,146,60,.16)}50%{transform:rotate(4deg) scale(1.08);box-shadow:0 6px 17px rgba(249,115,22,.36),0 0 18px rgba(251,146,60,.4)}}
+@keyframes breadcrumb4029Dot{0%,100%{transform:translateY(-50%) scale(.8);opacity:.55;box-shadow:0 0 0 2px rgba(249,115,22,.36),0 0 5px rgba(250,204,21,.38)}50%{transform:translateY(-50%) scale(1.24);opacity:1;box-shadow:0 0 0 3px rgba(249,115,22,.48),0 0 15px rgba(250,204,21,.95)}}
+@media(max-width:620px){.breadcrumb-4029{gap:3px;padding:8px}.breadcrumb-4029__item{padding:7px}.breadcrumb-4029__item--current{padding-right:22px}.breadcrumb-4029__label{font-size:6px}.breadcrumb-4029__icon{width:24px;height:24px;flex-basis:24px;font-size:11px}.breadcrumb-4029__separator{width:12px;font-size:12px}}`,
+  },
+  {
+    id: 4030,
+    name: "Element Frozen Ice Motion Breadcrumb",
+    preview: (
+      <div className="breadcrumb-4030-wrap">
+        <nav className="breadcrumb-4030" aria-label="Breadcrumb">
+          <span className="breadcrumb-4030__shine"></span>
+          <span className="breadcrumb-4030__frost"></span>
+          <span className="breadcrumb-4030__ambient breadcrumb-4030__ambient--left"></span>
+          <span className="breadcrumb-4030__ambient breadcrumb-4030__ambient--right"></span>
+
+          <span className="breadcrumb-4030__icicles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+
+          <a href="#" className="breadcrumb-4030__item">
+            <span className="breadcrumb-4030__icon">
+              <i className="ri-home-5-fill"></i>
+            </span>
+            <span className="breadcrumb-4030__label">HOME</span>
+          </a>
+
+          <span className="breadcrumb-4030__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <a href="#" className="breadcrumb-4030__item">
+            <span className="breadcrumb-4030__icon">
+              <i className="ri-snowflake-line"></i>
+            </span>
+            <span className="breadcrumb-4030__label">FROST</span>
+          </a>
+
+          <span className="breadcrumb-4030__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <a href="#" className="breadcrumb-4030__item">
+            <span className="breadcrumb-4030__icon">
+              <i className="ri-drop-fill"></i>
+            </span>
+            <span className="breadcrumb-4030__label">GLACIER</span>
+          </a>
+
+          <span className="breadcrumb-4030__separator">
+            <i className="ri-arrow-right-s-line"></i>
+          </span>
+
+          <span className="breadcrumb-4030__item breadcrumb-4030__item--current">
+            <span className="breadcrumb-4030__icon">
+              <i className="ri-route-fill"></i>
+            </span>
+            <span className="breadcrumb-4030__label">ICE CORE</span>
+            <span className="breadcrumb-4030__dot"></span>
+          </span>
+        </nav>
+      </div>
+    ),
+    html: `<div class="breadcrumb-4030-wrap">
+    <nav class="breadcrumb-4030" aria-label="Breadcrumb">
+        <span class="breadcrumb-4030__shine"></span>
+        <span class="breadcrumb-4030__frost"></span>
+        <span class="breadcrumb-4030__ambient breadcrumb-4030__ambient--left"></span>
+        <span class="breadcrumb-4030__ambient breadcrumb-4030__ambient--right"></span>
+
+        <span class="breadcrumb-4030__icicles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+
+        <a href="#" class="breadcrumb-4030__item">
+            <span class="breadcrumb-4030__icon">
+                <i class="ri-home-5-fill"></i>
+            </span>
+            <span class="breadcrumb-4030__label">HOME</span>
+        </a>
+
+        <span class="breadcrumb-4030__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <a href="#" class="breadcrumb-4030__item">
+            <span class="breadcrumb-4030__icon">
+                <i class="ri-snowflake-line"></i>
+            </span>
+            <span class="breadcrumb-4030__label">FROST</span>
+        </a>
+
+        <span class="breadcrumb-4030__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <a href="#" class="breadcrumb-4030__item">
+            <span class="breadcrumb-4030__icon">
+                <i class="ri-drop-fill"></i>
+            </span>
+            <span class="breadcrumb-4030__label">GLACIER</span>
+        </a>
+
+        <span class="breadcrumb-4030__separator">
+            <i class="ri-arrow-right-s-line"></i>
+        </span>
+
+        <span class="breadcrumb-4030__item breadcrumb-4030__item--current">
+            <span class="breadcrumb-4030__icon">
+                <i class="ri-route-fill"></i>
+            </span>
+            <span class="breadcrumb-4030__label">ICE CORE</span>
+            <span class="breadcrumb-4030__dot"></span>
+        </span>
+    </nav>
+</div>`,
+    css: `.breadcrumb-4030-wrap{width:100%;display:flex;align-items:center;justify-content:center;padding:26px}
+.breadcrumb-4030{position:relative;display:flex;align-items:center;justify-content:center;gap:8px;padding:11px 12px 10px;overflow:hidden;border:1px solid rgba(125,211,252,.35);border-radius:16px;background:linear-gradient(135deg,#020617 0%,#071d32 46%,#0c4a6e 100%);box-shadow:0 15px 38px rgba(0,0,0,.45),0 0 30px rgba(56,189,248,.1),inset 0 1px 0 rgba(224,242,254,.09);font-family:Arial,Helvetica,sans-serif}
+.breadcrumb-4030::before{content:"";position:absolute;left:10px;right:10px;bottom:3px;height:1px;background:linear-gradient(90deg,transparent,#0ea5e9,#67e8f9,#e0f2fe,#60a5fa,transparent);box-shadow:0 0 10px rgba(103,232,249,.58);opacity:.78}
+.breadcrumb-4030::after{content:"";position:absolute;left:10%;right:10%;bottom:-12px;height:18px;border-radius:50%;background:rgba(56,189,248,.16);filter:blur(9px);box-shadow:0 0 17px rgba(103,232,249,.16);pointer-events:none}
+.breadcrumb-4030__frost{position:absolute;inset:0;background:radial-gradient(circle at 13% 20%,rgba(224,242,254,.08),transparent 16%),radial-gradient(circle at 46% 90%,rgba(103,232,249,.09),transparent 22%),radial-gradient(circle at 83% 24%,rgba(96,165,250,.1),transparent 18%);pointer-events:none}
+.breadcrumb-4030__shine{position:absolute;z-index:1;top:-55%;bottom:-55%;left:-65px;width:42px;background:linear-gradient(90deg,transparent,rgba(125,211,252,.06),rgba(240,249,255,.48),rgba(103,232,249,.14),transparent);filter:blur(.2px);transform:rotate(22deg);animation:breadcrumb4030Shine 5s ease-in-out infinite;pointer-events:none}
+.breadcrumb-4030__ambient{position:absolute;border-radius:50%;filter:blur(24px);pointer-events:none}
+.breadcrumb-4030__ambient--left{left:-38px;top:-38px;width:105px;height:105px;background:rgba(14,165,233,.14)}
+.breadcrumb-4030__ambient--right{right:-38px;bottom:-40px;width:110px;height:110px;background:rgba(96,165,250,.13)}
+.breadcrumb-4030__icicles{position:absolute;z-index:2;left:18px;right:18px;top:0;height:8px;pointer-events:none}
+.breadcrumb-4030__icicles span{position:absolute;top:0;width:6px;background:linear-gradient(180deg,#f0f9ff,#7dd3fc 70%,#38bdf8);clip-path:polygon(0 0,100% 0,50% 100%);filter:drop-shadow(0 0 3px rgba(125,211,252,.5))}
+.breadcrumb-4030__icicles span:nth-child(1){left:8%;height:6px}
+.breadcrumb-4030__icicles span:nth-child(2){left:27%;height:9px}
+.breadcrumb-4030__icicles span:nth-child(3){left:51%;height:5px}
+.breadcrumb-4030__icicles span:nth-child(4){left:73%;height:8px}
+.breadcrumb-4030__icicles span:nth-child(5){left:92%;height:6px}
+.breadcrumb-4030__item{position:relative;z-index:3;display:flex;align-items:center;gap:6px;padding:8px 9px;border:1px solid transparent;border-radius:11px;color:#94a3b8;text-decoration:none;transition:transform .22s cubic-bezier(.2,.8,.2,1),background .22s ease,border-color .22s ease,box-shadow .22s ease,color .22s ease}
+.breadcrumb-4030__item::before{content:"";position:absolute;inset:0;border-radius:10px;background:linear-gradient(135deg,rgba(125,211,252,.15),rgba(96,165,250,.04));opacity:0;transition:opacity .22s ease}
+.breadcrumb-4030__item::after{content:"";position:absolute;left:10px;right:10px;bottom:4px;height:2px;border-radius:999px;background:linear-gradient(90deg,#0284c7,#67e8f9,#e0f2fe);box-shadow:0 0 10px rgba(103,232,249,.58);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.breadcrumb-4030__icon{position:relative;z-index:2;width:28px;height:28px;display:grid;place-items:center;flex:0 0 28px;border:1px solid rgba(125,211,252,.28);border-radius:8px;background:linear-gradient(145deg,#061523,#0b2940);color:#7dd3fc;box-shadow:inset 0 1px 0 rgba(224,242,254,.06);font-size:13px;transition:transform .28s cubic-bezier(.2,.9,.2,1),background .22s ease,color .22s ease,border-color .22s ease,box-shadow .22s ease}
+.breadcrumb-4030__label{position:relative;z-index:2;font-size:7px;font-weight:900;letter-spacing:.09em;white-space:nowrap}
+.breadcrumb-4030__separator{position:relative;z-index:3;width:18px;height:26px;display:grid;place-items:center;color:#155e75;font-size:15px;animation:breadcrumb4030Arrow 2.4s ease-in-out infinite;transition:color .22s ease,text-shadow .22s ease}
+.breadcrumb-4030__separator:nth-of-type(5){animation-delay:.18s}
+.breadcrumb-4030__separator:nth-of-type(7){animation-delay:.36s}
+.breadcrumb-4030__item[href]:hover{border-color:rgba(125,211,252,.44);background:linear-gradient(135deg,rgba(7,89,133,.62),rgba(30,64,175,.28));color:#f0f9ff;box-shadow:0 8px 22px rgba(0,0,0,.3),0 0 18px rgba(56,189,248,.17);transform:translateY(-3px)}
+.breadcrumb-4030__item[href]:hover::before{opacity:1}
+.breadcrumb-4030__item[href]:hover::after{transform:scaleX(1)}
+.breadcrumb-4030__item[href]:hover .breadcrumb-4030__icon{border-color:#67e8f9;background:linear-gradient(145deg,#7dd3fc,#2563eb);color:#fff;box-shadow:0 6px 16px rgba(56,189,248,.3),0 0 17px rgba(103,232,249,.38);transform:translateY(-2px) rotate(-7deg) scale(1.08)}
+.breadcrumb-4030__item[href]:active{transform:translateY(0) scale(.98)}
+.breadcrumb-4030__item--current{padding-right:26px;border-color:rgba(125,211,252,.46);background:linear-gradient(135deg,rgba(7,89,133,.78),rgba(30,64,175,.36));color:#f0f9ff;box-shadow:inset 0 1px 0 rgba(224,242,254,.05),0 0 18px rgba(56,189,248,.12)}
+.breadcrumb-4030__item--current::before{opacity:1}
+.breadcrumb-4030__item--current::after{transform:scaleX(1)}
+.breadcrumb-4030__item--current .breadcrumb-4030__icon{border-color:#67e8f9;background:linear-gradient(145deg,#7dd3fc,#2563eb);color:#fff;animation:breadcrumb4030CurrentIcon 3s ease-in-out infinite}
+.breadcrumb-4030__dot{position:absolute;right:9px;top:50%;width:7px;height:7px;border:2px solid #0c4a6e;border-radius:50%;background:#e0f2fe;box-shadow:0 0 0 2px rgba(56,189,248,.58),0 0 11px rgba(224,242,254,.9);transform:translateY(-50%);animation:breadcrumb4030Dot 1.9s ease-in-out infinite}
+.breadcrumb-4030:hover .breadcrumb-4030__separator{color:#7dd3fc;text-shadow:0 0 9px rgba(125,211,252,.65)}
+.breadcrumb-4030:hover::after{background:rgba(103,232,249,.22);box-shadow:0 0 22px rgba(56,189,248,.24)}
+.breadcrumb-4030:hover .breadcrumb-4030__icicles span{filter:drop-shadow(0 0 5px rgba(186,230,253,.8))}
+@keyframes breadcrumb4030Shine{0%,68%{left:-65px;opacity:0}72%{opacity:.9}88%{left:calc(100% + 65px);opacity:.9}100%{left:calc(100% + 65px);opacity:0}}
+@keyframes breadcrumb4030Arrow{0%,100%{transform:translateX(0);opacity:.42}50%{transform:translateX(3px);opacity:1}}
+@keyframes breadcrumb4030CurrentIcon{0%,100%{transform:rotate(0) scale(1);box-shadow:0 3px 10px rgba(56,189,248,.2),0 0 6px rgba(103,232,249,.16)}50%{transform:rotate(4deg) scale(1.08);box-shadow:0 6px 17px rgba(56,189,248,.36),0 0 19px rgba(103,232,249,.42)}}
+@keyframes breadcrumb4030Dot{0%,100%{transform:translateY(-50%) scale(.8);opacity:.55;box-shadow:0 0 0 2px rgba(56,189,248,.36),0 0 5px rgba(224,242,254,.4)}50%{transform:translateY(-50%) scale(1.24);opacity:1;box-shadow:0 0 0 3px rgba(56,189,248,.48),0 0 15px rgba(224,242,254,1)}}
+@media(max-width:620px){.breadcrumb-4030{gap:3px;padding:9px 8px 8px}.breadcrumb-4030__item{padding:7px}.breadcrumb-4030__item--current{padding-right:22px}.breadcrumb-4030__label{font-size:6px}.breadcrumb-4030__icon{width:24px;height:24px;flex-basis:24px;font-size:11px}.breadcrumb-4030__separator{width:12px;font-size:12px}}`,
+  },
+  {
+    id: 4031,
+    name: "Element Diamond Prism Motion Breadcrumb",
+    preview: (
+      <div className="breadcrumb-4031-wrap">
+        <nav className="breadcrumb-4031" aria-label="Breadcrumb">
+          <span className="breadcrumb-4031__shine"></span>
+          <span className="breadcrumb-4031__facets"></span>
+          <span className="breadcrumb-4031__ambient breadcrumb-4031__ambient--left"></span>
+          <span className="breadcrumb-4031__ambient breadcrumb-4031__ambient--right"></span>
+
+          <span className="breadcrumb-4031__diamond breadcrumb-4031__diamond--left"></span>
+          <span className="breadcrumb-4031__diamond breadcrumb-4031__diamond--right"></span>
+
+          <a href="#" className="breadcrumb-4031__item">
+            <span className="breadcrumb-4031__icon">
+              <i className="ri-home-5-fill"></i>
+            </span>
+            <span className="breadcrumb-4031__label">HOME</span>
+          </a>
+
+          <span className="breadcrumb-4031__separator">
+            <span></span>
+          </span>
+
+          <a href="#" className="breadcrumb-4031__item">
+            <span className="breadcrumb-4031__icon">
+              <i className="ri-vip-diamond-fill"></i>
+            </span>
+            <span className="breadcrumb-4031__label">DIAMOND</span>
+          </a>
+
+          <span className="breadcrumb-4031__separator">
+            <span></span>
+          </span>
+
+          <a href="#" className="breadcrumb-4031__item">
+            <span className="breadcrumb-4031__icon">
+              <i className="ri-sparkling-2-fill"></i>
+            </span>
+            <span className="breadcrumb-4031__label">PRISM</span>
+          </a>
+
+          <span className="breadcrumb-4031__separator">
+            <span></span>
+          </span>
+
+          <span className="breadcrumb-4031__item breadcrumb-4031__item--current">
+            <span className="breadcrumb-4031__icon">
+              <i className="ri-route-fill"></i>
+            </span>
+            <span className="breadcrumb-4031__label">CROWN JEWEL</span>
+            <span className="breadcrumb-4031__dot"></span>
+          </span>
+        </nav>
+      </div>
+    ),
+    html: `<div class="breadcrumb-4031-wrap">
+    <nav class="breadcrumb-4031" aria-label="Breadcrumb">
+        <span class="breadcrumb-4031__shine"></span>
+        <span class="breadcrumb-4031__facets"></span>
+        <span class="breadcrumb-4031__ambient breadcrumb-4031__ambient--left"></span>
+        <span class="breadcrumb-4031__ambient breadcrumb-4031__ambient--right"></span>
+
+        <span class="breadcrumb-4031__diamond breadcrumb-4031__diamond--left"></span>
+        <span class="breadcrumb-4031__diamond breadcrumb-4031__diamond--right"></span>
+
+        <a href="#" class="breadcrumb-4031__item">
+            <span class="breadcrumb-4031__icon">
+                <i class="ri-home-5-fill"></i>
+            </span>
+            <span class="breadcrumb-4031__label">HOME</span>
+        </a>
+
+        <span class="breadcrumb-4031__separator">
+            <span></span>
+        </span>
+
+        <a href="#" class="breadcrumb-4031__item">
+            <span class="breadcrumb-4031__icon">
+                <i class="ri-vip-diamond-fill"></i>
+            </span>
+            <span class="breadcrumb-4031__label">DIAMOND</span>
+        </a>
+
+        <span class="breadcrumb-4031__separator">
+            <span></span>
+        </span>
+
+        <a href="#" class="breadcrumb-4031__item">
+            <span class="breadcrumb-4031__icon">
+                <i class="ri-sparkling-2-fill"></i>
+            </span>
+            <span class="breadcrumb-4031__label">PRISM</span>
+        </a>
+
+        <span class="breadcrumb-4031__separator">
+            <span></span>
+        </span>
+
+        <span class="breadcrumb-4031__item breadcrumb-4031__item--current">
+            <span class="breadcrumb-4031__icon">
+                <i class="ri-route-fill"></i>
+            </span>
+            <span class="breadcrumb-4031__label">CROWN JEWEL</span>
+            <span class="breadcrumb-4031__dot"></span>
+        </span>
+    </nav>
+</div>`,
+    css: `.breadcrumb-4031-wrap{width:100%;display:flex;align-items:center;justify-content:center;padding:28px}
+.breadcrumb-4031{position:relative;display:flex;align-items:center;justify-content:center;gap:8px;padding:11px 16px;overflow:visible;border:1px solid rgba(165,243,252,.34);border-radius:16px;background:linear-gradient(135deg,#050814 0%,#0d1730 45%,#19143b 100%);box-shadow:0 16px 40px rgba(0,0,0,.46),0 0 28px rgba(103,232,249,.09),0 0 30px rgba(196,181,253,.08),inset 0 1px 0 rgba(255,255,255,.08);font-family:Arial,Helvetica,sans-serif}
+.breadcrumb-4031::before{content:"";position:absolute;left:12px;right:12px;bottom:3px;height:1px;background:linear-gradient(90deg,transparent,#67e8f9,#fff,#c4b5fd,#60a5fa,transparent);box-shadow:0 0 10px rgba(165,243,252,.56);opacity:.78}
+.breadcrumb-4031::after{content:"";position:absolute;left:18%;right:18%;bottom:-9px;height:14px;border-radius:50%;background:rgba(165,243,252,.13);filter:blur(9px);box-shadow:0 0 18px rgba(196,181,253,.16);pointer-events:none}
+.breadcrumb-4031__facets{position:absolute;inset:0;overflow:hidden;border-radius:16px;background:linear-gradient(120deg,transparent 0 18%,rgba(255,255,255,.025) 18% 19%,transparent 19% 42%,rgba(103,232,249,.035) 42% 43%,transparent 43% 66%,rgba(196,181,253,.035) 66% 67%,transparent 67%);pointer-events:none}
+.breadcrumb-4031__shine{position:absolute;z-index:1;top:-55%;bottom:-55%;left:-68px;width:44px;background:linear-gradient(90deg,transparent,rgba(103,232,249,.08),rgba(255,255,255,.54),rgba(196,181,253,.16),transparent);filter:blur(.2px);transform:rotate(22deg);animation:breadcrumb4031Shine 5s ease-in-out infinite;pointer-events:none}
+.breadcrumb-4031__ambient{position:absolute;border-radius:50%;filter:blur(26px);pointer-events:none}
+.breadcrumb-4031__ambient--left{left:-42px;top:-38px;width:110px;height:110px;background:rgba(34,211,238,.12)}
+.breadcrumb-4031__ambient--right{right:-42px;bottom:-42px;width:115px;height:115px;background:rgba(139,92,246,.12)}
+.breadcrumb-4031__diamond{position:absolute;z-index:4;width:17px;height:20px;clip-path:polygon(50% 0,100% 32%,80% 100%,20% 100%,0 32%);background:linear-gradient(135deg,#fff 0%,#cffafe 23%,#67e8f9 46%,#93c5fd 66%,#c4b5fd 84%,#fff 100%);filter:drop-shadow(0 0 6px rgba(165,243,252,.6));pointer-events:none;transition:transform .25s ease,filter .25s ease}
+.breadcrumb-4031__diamond--left{left:-8px;bottom:-7px;transform:rotate(-20deg)}
+.breadcrumb-4031__diamond--right{right:-8px;top:-8px;transform:rotate(25deg) scale(.88)}
+.breadcrumb-4031__item{position:relative;z-index:3;display:flex;align-items:center;gap:6px;padding:8px 9px;border:1px solid transparent;border-radius:11px;color:#a5b4c7;text-decoration:none;transition:transform .22s cubic-bezier(.2,.8,.2,1),background .22s ease,border-color .22s ease,box-shadow .22s ease,color .22s ease}
+.breadcrumb-4031__item::before{content:"";position:absolute;inset:0;border-radius:10px;background:linear-gradient(135deg,rgba(103,232,249,.12),rgba(196,181,253,.07));opacity:0;transition:opacity .22s ease}
+.breadcrumb-4031__item::after{content:"";position:absolute;left:10px;right:10px;bottom:4px;height:2px;border-radius:999px;background:linear-gradient(90deg,#67e8f9,#fff,#c4b5fd);box-shadow:0 0 10px rgba(165,243,252,.6);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.breadcrumb-4031__icon{position:relative;z-index:2;width:28px;height:28px;display:grid;place-items:center;flex:0 0 28px;border:1px solid rgba(165,243,252,.25);border-radius:8px;background:linear-gradient(145deg,#0b1328,#171a3c);color:#a5f3fc;box-shadow:inset 0 1px 0 rgba(255,255,255,.05);font-size:13px;transition:transform .28s cubic-bezier(.2,.9,.2,1),background .22s ease,color .22s ease,border-color .22s ease,box-shadow .22s ease}
+.breadcrumb-4031__label{position:relative;z-index:2;font-size:7px;font-weight:900;letter-spacing:.1em;white-space:nowrap}
+.breadcrumb-4031__separator{position:relative;z-index:3;width:19px;height:26px;display:grid;place-items:center;animation:breadcrumb4031Separator 2.4s ease-in-out infinite}
+.breadcrumb-4031__separator>span{width:7px;height:7px;border:1px solid rgba(165,243,252,.55);background:linear-gradient(135deg,#67e8f9,#fff 48%,#c4b5fd);box-shadow:0 0 7px rgba(165,243,252,.45);transform:rotate(45deg)}
+.breadcrumb-4031__separator:nth-of-type(6){animation-delay:.18s}
+.breadcrumb-4031__separator:nth-of-type(8){animation-delay:.36s}
+.breadcrumb-4031__item[href]:hover{border-color:rgba(165,243,252,.4);background:linear-gradient(135deg,rgba(8,47,73,.58),rgba(49,46,129,.3));color:#fff;box-shadow:0 8px 22px rgba(0,0,0,.3),0 0 18px rgba(103,232,249,.14),0 0 18px rgba(196,181,253,.08);transform:translateY(-3px)}
+.breadcrumb-4031__item[href]:hover::before{opacity:1}
+.breadcrumb-4031__item[href]:hover::after{transform:scaleX(1)}
+.breadcrumb-4031__item[href]:hover .breadcrumb-4031__icon{border-color:#a5f3fc;background:linear-gradient(145deg,#67e8f9,#818cf8);color:#fff;box-shadow:0 6px 16px rgba(103,232,249,.28),0 0 18px rgba(196,181,253,.32);transform:translateY(-2px) rotate(-7deg) scale(1.08)}
+.breadcrumb-4031__item[href]:active{transform:translateY(0) scale(.98)}
+.breadcrumb-4031__item--current{padding-right:26px;border-color:rgba(165,243,252,.44);background:linear-gradient(135deg,rgba(8,47,73,.68),rgba(49,46,129,.42));color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 0 18px rgba(103,232,249,.1)}
+.breadcrumb-4031__item--current::before{opacity:1}
+.breadcrumb-4031__item--current::after{transform:scaleX(1)}
+.breadcrumb-4031__item--current .breadcrumb-4031__icon{border-color:#a5f3fc;background:linear-gradient(145deg,#67e8f9,#818cf8);color:#fff;animation:breadcrumb4031CurrentIcon 3s ease-in-out infinite}
+.breadcrumb-4031__dot{position:absolute;right:9px;top:50%;width:7px;height:7px;border:2px solid #172554;border-radius:50%;background:#fff;box-shadow:0 0 0 2px rgba(103,232,249,.5),0 0 11px rgba(255,255,255,.9),0 0 16px rgba(196,181,253,.45);transform:translateY(-50%);animation:breadcrumb4031Dot 1.9s ease-in-out infinite}
+.breadcrumb-4031:hover .breadcrumb-4031__diamond--left{transform:translateY(-4px) rotate(-27deg) scale(1.08)}
+.breadcrumb-4031:hover .breadcrumb-4031__diamond--right{transform:translateY(-3px) rotate(34deg) scale(.96)}
+.breadcrumb-4031:hover .breadcrumb-4031__diamond{filter:drop-shadow(0 0 9px rgba(165,243,252,.9))}
+@keyframes breadcrumb4031Shine{0%,68%{left:-68px;opacity:0}72%{opacity:.95}88%{left:calc(100% + 68px);opacity:.95}100%{left:calc(100% + 68px);opacity:0}}
+@keyframes breadcrumb4031Separator{0%,100%{transform:translateX(0) rotate(0);opacity:.5}50%{transform:translateX(3px) rotate(90deg);opacity:1}}
+@keyframes breadcrumb4031CurrentIcon{0%,100%{transform:rotate(0) scale(1);box-shadow:0 3px 10px rgba(103,232,249,.18),0 0 6px rgba(196,181,253,.12)}50%{transform:rotate(4deg) scale(1.08);box-shadow:0 6px 17px rgba(103,232,249,.34),0 0 19px rgba(196,181,253,.4)}}
+@keyframes breadcrumb4031Dot{0%,100%{transform:translateY(-50%) scale(.8);opacity:.55;box-shadow:0 0 0 2px rgba(103,232,249,.3),0 0 6px rgba(255,255,255,.4)}50%{transform:translateY(-50%) scale(1.24);opacity:1;box-shadow:0 0 0 3px rgba(103,232,249,.45),0 0 15px rgba(255,255,255,1),0 0 20px rgba(196,181,253,.55)}}
+@media(max-width:620px){.breadcrumb-4031{gap:3px;padding:9px 8px}.breadcrumb-4031__item{padding:7px}.breadcrumb-4031__item--current{padding-right:22px}.breadcrumb-4031__label{font-size:6px}.breadcrumb-4031__icon{width:24px;height:24px;flex-basis:24px;font-size:11px}.breadcrumb-4031__separator{width:12px}.breadcrumb-4031__diamond{display:none}}`,
+  },
+  {
+    id: 4032,
+    name: "Dark Diamond Prism Breadcrumb",
+    preview: (
+      <div className="breadcrumb-4032-wrap">
+        <nav className="breadcrumb-4032" aria-label="Breadcrumb">
+          <span className="breadcrumb-4032__shine"></span>
+          <span className="breadcrumb-4032__facets"></span>
+          <span className="breadcrumb-4032__glow breadcrumb-4032__glow--left"></span>
+          <span className="breadcrumb-4032__glow breadcrumb-4032__glow--right"></span>
+
+          <a href="#" className="breadcrumb-4032__item">
+            <span className="breadcrumb-4032__icon">
+              <i className="ri-home-5-fill"></i>
+            </span>
+            <span className="breadcrumb-4032__label">HOME</span>
+          </a>
+
+          <span className="breadcrumb-4032__separator">
+            <span></span>
+          </span>
+
+          <a href="#" className="breadcrumb-4032__item">
+            <span className="breadcrumb-4032__icon">
+              <i className="ri-vip-diamond-fill"></i>
+            </span>
+            <span className="breadcrumb-4032__label">DIAMOND</span>
+          </a>
+
+          <span className="breadcrumb-4032__separator">
+            <span></span>
+          </span>
+
+          <a href="#" className="breadcrumb-4032__item">
+            <span className="breadcrumb-4032__icon">
+              <i className="ri-flashlight-fill"></i>
+            </span>
+            <span className="breadcrumb-4032__label">FROST</span>
+          </a>
+
+          <span className="breadcrumb-4032__separator">
+            <span></span>
+          </span>
+
+          <span className="breadcrumb-4032__item breadcrumb-4032__item--current">
+            <span className="breadcrumb-4032__icon">
+              <i className="ri-star-smile-fill"></i>
+            </span>
+            <span className="breadcrumb-4032__label">BLACK PRISM</span>
+            <span className="breadcrumb-4032__dot"></span>
+          </span>
+        </nav>
+      </div>
+    ),
+    html: `<div class="breadcrumb-4032-wrap">
+    <nav class="breadcrumb-4032" aria-label="Breadcrumb">
+        <span class="breadcrumb-4032__shine"></span>
+        <span class="breadcrumb-4032__facets"></span>
+        <span class="breadcrumb-4032__glow breadcrumb-4032__glow--left"></span>
+        <span class="breadcrumb-4032__glow breadcrumb-4032__glow--right"></span>
+
+        <a href="#" class="breadcrumb-4032__item">
+            <span class="breadcrumb-4032__icon">
+                <i class="ri-home-5-fill"></i>
+            </span>
+            <span class="breadcrumb-4032__label">HOME</span>
+        </a>
+
+        <span class="breadcrumb-4032__separator">
+            <span></span>
+        </span>
+
+        <a href="#" class="breadcrumb-4032__item">
+            <span class="breadcrumb-4032__icon">
+                <i class="ri-vip-diamond-fill"></i>
+            </span>
+            <span class="breadcrumb-4032__label">DIAMOND</span>
+        </a>
+
+        <span class="breadcrumb-4032__separator">
+            <span></span>
+        </span>
+
+        <a href="#" class="breadcrumb-4032__item">
+            <span class="breadcrumb-4032__icon">
+                <i class="ri-flashlight-fill"></i>
+            </span>
+            <span class="breadcrumb-4032__label">FROST</span>
+        </a>
+
+        <span class="breadcrumb-4032__separator">
+            <span></span>
+        </span>
+
+        <span class="breadcrumb-4032__item breadcrumb-4032__item--current">
+            <span class="breadcrumb-4032__icon">
+                <i class="ri-star-smile-fill"></i>
+            </span>
+            <span class="breadcrumb-4032__label">BLACK PRISM</span>
+            <span class="breadcrumb-4032__dot"></span>
+        </span>
+    </nav>
+</div>`,
+    css: `.breadcrumb-4032-wrap{width:100%;display:flex;align-items:center;justify-content:center;padding:28px}
+.breadcrumb-4032{position:relative;display:flex;align-items:center;justify-content:center;gap:8px;padding:12px 16px;overflow:hidden;border:1px solid rgba(125,211,252,.22);border-radius:18px;background:linear-gradient(135deg,rgba(2,6,23,.96),rgba(6,11,26,.94),rgba(10,14,28,.96));box-shadow:0 18px 44px rgba(0,0,0,.55),0 0 0 1px rgba(255,255,255,.03) inset,0 0 26px rgba(56,189,248,.08),0 0 34px rgba(96,165,250,.08);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);font-family:Arial,Helvetica,sans-serif}
+.breadcrumb-4032::before{content:"";position:absolute;inset:1px;border-radius:17px;background:linear-gradient(145deg,rgba(255,255,255,.05),rgba(255,255,255,0) 30%,rgba(56,189,248,.04) 60%,rgba(255,255,255,.02));pointer-events:none}
+.breadcrumb-4032::after{content:"";position:absolute;left:16px;right:16px;bottom:3px;height:1px;background:linear-gradient(90deg,transparent,rgba(186,230,253,.85),rgba(255,255,255,.9),rgba(96,165,250,.85),transparent);box-shadow:0 0 12px rgba(125,211,252,.45);opacity:.9}
+.breadcrumb-4032__facets{position:absolute;inset:0;border-radius:18px;background:linear-gradient(125deg,transparent 0 14%,rgba(255,255,255,.03) 14% 15%,transparent 15% 32%,rgba(125,211,252,.045) 32% 33%,transparent 33% 48%,rgba(255,255,255,.025) 48% 49%,transparent 49% 64%,rgba(96,165,250,.05) 64% 65%,transparent 65% 79%,rgba(255,255,255,.02) 79% 80%,transparent 80%);pointer-events:none}
+.breadcrumb-4032__shine{position:absolute;top:-60%;bottom:-60%;left:-80px;width:42px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.04),rgba(255,255,255,.45),rgba(125,211,252,.22),transparent);transform:rotate(22deg);filter:blur(.4px);animation:breadcrumb4032Shine 4.8s ease-in-out infinite;pointer-events:none}
+.breadcrumb-4032__glow{position:absolute;border-radius:50%;filter:blur(24px);pointer-events:none}
+.breadcrumb-4032__glow--left{left:-40px;top:-34px;width:110px;height:110px;background:rgba(34,211,238,.09)}
+.breadcrumb-4032__glow--right{right:-40px;bottom:-36px;width:110px;height:110px;background:rgba(59,130,246,.1)}
+.breadcrumb-4032__item{position:relative;z-index:2;display:flex;align-items:center;gap:6px;padding:8px 10px;border:1px solid transparent;border-radius:11px;color:#b6c4d6;text-decoration:none;transition:transform .24s cubic-bezier(.2,.8,.2,1),background .24s ease,border-color .24s ease,box-shadow .24s ease,color .24s ease}
+.breadcrumb-4032__item::before{content:"";position:absolute;inset:0;border-radius:10px;background:linear-gradient(135deg,rgba(255,255,255,.05),rgba(56,189,248,.08));opacity:0;transition:opacity .24s ease}
+.breadcrumb-4032__item::after{content:"";position:absolute;left:10px;right:10px;bottom:4px;height:2px;border-radius:999px;background:linear-gradient(90deg,#7dd3fc,#ffffff,#60a5fa);box-shadow:0 0 10px rgba(125,211,252,.6);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.breadcrumb-4032__icon{position:relative;z-index:2;width:29px;height:29px;display:grid;place-items:center;flex:0 0 29px;border:1px solid rgba(125,211,252,.2);border-radius:8px;background:linear-gradient(145deg,rgba(15,23,42,.95),rgba(18,28,46,.95));box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 0 0 1px rgba(255,255,255,.015);color:#bae6fd;font-size:13px;transition:transform .26s ease,background .24s ease,color .24s ease,border-color .24s ease,box-shadow .24s ease}
+.breadcrumb-4032__label{position:relative;z-index:2;font-size:7px;font-weight:900;letter-spacing:.12em;white-space:nowrap}
+.breadcrumb-4032__separator{position:relative;z-index:2;width:18px;height:26px;display:grid;place-items:center;animation:breadcrumb4032Separator 2.5s ease-in-out infinite}
+.breadcrumb-4032__separator span{display:block;width:8px;height:8px;clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);background:linear-gradient(135deg,#f8fdff,#7dd3fc 45%,#60a5fa 75%,#dbeafe);border:1px solid rgba(255,255,255,.3);box-shadow:0 0 8px rgba(125,211,252,.45)}
+.breadcrumb-4032__item:hover{transform:translateY(-3px);border-color:rgba(125,211,252,.32);background:linear-gradient(135deg,rgba(15,23,42,.88),rgba(8,47,73,.56));color:#ffffff;box-shadow:0 10px 24px rgba(0,0,0,.34),0 0 18px rgba(56,189,248,.11)}
+.breadcrumb-4032__item:hover::before{opacity:1}
+.breadcrumb-4032__item:hover::after{transform:scaleX(1)}
+.breadcrumb-4032__item:hover .breadcrumb-4032__icon{transform:translateY(-2px) rotate(-8deg) scale(1.08);border-color:rgba(186,230,253,.55);background:linear-gradient(145deg,#0f172a,#0c4a6e);color:#ffffff;box-shadow:0 8px 18px rgba(56,189,248,.18),0 0 18px rgba(125,211,252,.28),inset 0 1px 0 rgba(255,255,255,.09)}
+.breadcrumb-4032__item--current{padding-right:25px;border-color:rgba(125,211,252,.34);background:linear-gradient(135deg,rgba(12,20,36,.92),rgba(8,47,73,.58));color:#ffffff;box-shadow:0 0 18px rgba(56,189,248,.08),inset 0 1px 0 rgba(255,255,255,.04)}
+.breadcrumb-4032__item--current::before{opacity:1}
+.breadcrumb-4032__item--current::after{transform:scaleX(1)}
+.breadcrumb-4032__item--current .breadcrumb-4032__icon{border-color:rgba(186,230,253,.6);background:linear-gradient(145deg,#082f49,#0f172a);color:#e0f2fe;box-shadow:0 0 16px rgba(125,211,252,.24),inset 0 1px 0 rgba(255,255,255,.1);animation:breadcrumb4032CurrentIcon 3s ease-in-out infinite}
+.breadcrumb-4032__dot{position:absolute;right:9px;top:50%;width:7px;height:7px;border-radius:50%;background:#f8fdff;border:2px solid #0f172a;box-shadow:0 0 0 2px rgba(125,211,252,.38),0 0 10px rgba(255,255,255,.9),0 0 18px rgba(125,211,252,.55);transform:translateY(-50%);animation:breadcrumb4032Dot 1.9s ease-in-out infinite}
+@keyframes breadcrumb4032Shine{0%,68%{left:-80px;opacity:0}74%{opacity:.95}90%{left:calc(100% + 80px);opacity:.95}100%{left:calc(100% + 80px);opacity:0}}
+@keyframes breadcrumb4032Separator{0%,100%{transform:translateX(0) scale(.9);opacity:.55}50%{transform:translateX(3px) scale(1.05);opacity:1}}
+@keyframes breadcrumb4032CurrentIcon{0%,100%{transform:scale(1);box-shadow:0 0 10px rgba(125,211,252,.18),inset 0 1px 0 rgba(255,255,255,.08)}50%{transform:scale(1.08);box-shadow:0 0 20px rgba(125,211,252,.34),0 0 28px rgba(56,189,248,.18),inset 0 1px 0 rgba(255,255,255,.12)}}
+@keyframes breadcrumb4032Dot{0%,100%{transform:translateY(-50%) scale(.82);opacity:.65}50%{transform:translateY(-50%) scale(1.22);opacity:1}}
+@media(max-width:620px){.breadcrumb-4032{gap:4px;padding:9px 8px}.breadcrumb-4032__item{padding:7px}.breadcrumb-4032__item--current{padding-right:22px}.breadcrumb-4032__label{font-size:6px}.breadcrumb-4032__icon{width:24px;height:24px;flex-basis:24px;font-size:11px}.breadcrumb-4032__separator{width:12px}}
+`,
+  },
 ];
