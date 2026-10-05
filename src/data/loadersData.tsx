@@ -62679,4 +62679,2184 @@ export const loaders = [
     }
 }`,
   },
+
+  {
+    id: 4036,
+    name: "Aether Core Reactor Loader",
+    preview: (
+      <div className="loader-4036">
+        <span className="loader-4036__ambient loader-4036__ambient--1"></span>
+        <span className="loader-4036__ambient loader-4036__ambient--2"></span>
+        <span className="loader-4036__ambient loader-4036__ambient--3"></span>
+
+        <div className="loader-4036__stars">
+          <span className="loader-4036__star loader-4036__star--1"></span>
+          <span className="loader-4036__star loader-4036__star--2"></span>
+          <span className="loader-4036__star loader-4036__star--3"></span>
+          <span className="loader-4036__star loader-4036__star--4"></span>
+          <span className="loader-4036__star loader-4036__star--5"></span>
+          <span className="loader-4036__star loader-4036__star--6"></span>
+          <span className="loader-4036__star loader-4036__star--7"></span>
+          <span className="loader-4036__star loader-4036__star--8"></span>
+          <span className="loader-4036__star loader-4036__star--9"></span>
+          <span className="loader-4036__star loader-4036__star--10"></span>
+          <span className="loader-4036__star loader-4036__star--11"></span>
+          <span className="loader-4036__star loader-4036__star--12"></span>
+        </div>
+
+        <div className="loader-4036__frame">
+          <span className="loader-4036__corner loader-4036__corner--1"></span>
+          <span className="loader-4036__corner loader-4036__corner--2"></span>
+          <span className="loader-4036__corner loader-4036__corner--3"></span>
+          <span className="loader-4036__corner loader-4036__corner--4"></span>
+
+          <div className="loader-4036__header">
+            <div className="loader-4036__brand">
+              <span className="loader-4036__brand-icon">
+                <i className="ri-flashlight-fill"></i>
+              </span>
+
+              <span className="loader-4036__brand-copy">
+                <small>AETHER SYSTEM</small>
+                <strong>CORE REACTOR</strong>
+              </span>
+            </div>
+
+            <div className="loader-4036__header-status">
+              <span className="loader-4036__status-dot"></span>
+              <span>ACTIVE</span>
+            </div>
+          </div>
+
+          <div className="loader-4036__reactor">
+            <span className="loader-4036__scan loader-4036__scan--1"></span>
+            <span className="loader-4036__scan loader-4036__scan--2"></span>
+            <span className="loader-4036__scan loader-4036__scan--3"></span>
+
+            <div className="loader-4036__orbit loader-4036__orbit--outer">
+              <span className="loader-4036__orbit-notch loader-4036__orbit-notch--1"></span>
+              <span className="loader-4036__orbit-notch loader-4036__orbit-notch--2"></span>
+              <span className="loader-4036__orbit-notch loader-4036__orbit-notch--3"></span>
+              <span className="loader-4036__orbit-notch loader-4036__orbit-notch--4"></span>
+
+              <span className="loader-4036__node loader-4036__node--1"></span>
+              <span className="loader-4036__node loader-4036__node--2"></span>
+              <span className="loader-4036__node loader-4036__node--3"></span>
+              <span className="loader-4036__node loader-4036__node--4"></span>
+            </div>
+
+            <div className="loader-4036__orbit loader-4036__orbit--middle">
+              <span className="loader-4036__beam loader-4036__beam--1"></span>
+              <span className="loader-4036__beam loader-4036__beam--2"></span>
+              <span className="loader-4036__beam loader-4036__beam--3"></span>
+              <span className="loader-4036__beam loader-4036__beam--4"></span>
+            </div>
+
+            <div className="loader-4036__orbit loader-4036__orbit--inner">
+              <span className="loader-4036__spark loader-4036__spark--1"></span>
+              <span className="loader-4036__spark loader-4036__spark--2"></span>
+              <span className="loader-4036__spark loader-4036__spark--3"></span>
+              <span className="loader-4036__spark loader-4036__spark--4"></span>
+              <span className="loader-4036__spark loader-4036__spark--5"></span>
+              <span className="loader-4036__spark loader-4036__spark--6"></span>
+            </div>
+
+            <div className="loader-4036__crystals">
+              <span className="loader-4036__crystal loader-4036__crystal--1"></span>
+              <span className="loader-4036__crystal loader-4036__crystal--2"></span>
+              <span className="loader-4036__crystal loader-4036__crystal--3"></span>
+              <span className="loader-4036__crystal loader-4036__crystal--4"></span>
+              <span className="loader-4036__crystal loader-4036__crystal--5"></span>
+              <span className="loader-4036__crystal loader-4036__crystal--6"></span>
+              <span className="loader-4036__crystal loader-4036__crystal--7"></span>
+              <span className="loader-4036__crystal loader-4036__crystal--8"></span>
+            </div>
+
+            <div className="loader-4036__core">
+              <span className="loader-4036__core-ring loader-4036__core-ring--1"></span>
+              <span className="loader-4036__core-ring loader-4036__core-ring--2"></span>
+              <span className="loader-4036__core-ring loader-4036__core-ring--3"></span>
+
+              <span className="loader-4036__diamond">
+                <span className="loader-4036__diamond-face loader-4036__diamond-face--1"></span>
+                <span className="loader-4036__diamond-face loader-4036__diamond-face--2"></span>
+                <span className="loader-4036__diamond-face loader-4036__diamond-face--3"></span>
+              </span>
+
+              <span className="loader-4036__core-light"></span>
+            </div>
+
+            <span className="loader-4036__energy loader-4036__energy--1"></span>
+            <span className="loader-4036__energy loader-4036__energy--2"></span>
+            <span className="loader-4036__energy loader-4036__energy--3"></span>
+            <span className="loader-4036__energy loader-4036__energy--4"></span>
+
+            <span className="loader-4036__particle loader-4036__particle--1"></span>
+            <span className="loader-4036__particle loader-4036__particle--2"></span>
+            <span className="loader-4036__particle loader-4036__particle--3"></span>
+            <span className="loader-4036__particle loader-4036__particle--4"></span>
+            <span className="loader-4036__particle loader-4036__particle--5"></span>
+            <span className="loader-4036__particle loader-4036__particle--6"></span>
+            <span className="loader-4036__particle loader-4036__particle--7"></span>
+            <span className="loader-4036__particle loader-4036__particle--8"></span>
+          </div>
+
+          <div className="loader-4036__readout">
+            <div className="loader-4036__readout-left">
+              <span className="loader-4036__readout-label">CORE SYNC</span>
+
+              <span className="loader-4036__readout-value">
+                SYNCHRONIZING
+                <span className="loader-4036__dots">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </span>
+            </div>
+
+            <div className="loader-4036__readout-number">
+              <span>86</span>
+              <small>%</small>
+            </div>
+          </div>
+
+          <div className="loader-4036__progress">
+            <span className="loader-4036__progress-track"></span>
+            <span className="loader-4036__progress-fill"></span>
+            <span className="loader-4036__progress-glow"></span>
+
+            <span className="loader-4036__progress-mark loader-4036__progress-mark--1"></span>
+            <span className="loader-4036__progress-mark loader-4036__progress-mark--2"></span>
+            <span className="loader-4036__progress-mark loader-4036__progress-mark--3"></span>
+            <span className="loader-4036__progress-mark loader-4036__progress-mark--4"></span>
+          </div>
+
+          <div className="loader-4036__footer">
+            <span>
+              <i className="ri-radar-line"></i>
+              SIGNAL LOCKED
+            </span>
+
+            <span>
+              <i className="ri-flashlight-fill"></i>
+              ENERGY STABLE
+            </span>
+
+            <span>
+              <i className="ri-shield-check-fill"></i>
+              CORE SAFE
+            </span>
+          </div>
+        </div>
+      </div>
+    ),
+    html: `<div class="loader-4036">
+    <span class="loader-4036__ambient loader-4036__ambient--1"></span>
+    <span class="loader-4036__ambient loader-4036__ambient--2"></span>
+    <span class="loader-4036__ambient loader-4036__ambient--3"></span>
+
+    <div class="loader-4036__stars">
+        <span class="loader-4036__star loader-4036__star--1"></span>
+        <span class="loader-4036__star loader-4036__star--2"></span>
+        <span class="loader-4036__star loader-4036__star--3"></span>
+        <span class="loader-4036__star loader-4036__star--4"></span>
+        <span class="loader-4036__star loader-4036__star--5"></span>
+        <span class="loader-4036__star loader-4036__star--6"></span>
+        <span class="loader-4036__star loader-4036__star--7"></span>
+        <span class="loader-4036__star loader-4036__star--8"></span>
+        <span class="loader-4036__star loader-4036__star--9"></span>
+        <span class="loader-4036__star loader-4036__star--10"></span>
+        <span class="loader-4036__star loader-4036__star--11"></span>
+        <span class="loader-4036__star loader-4036__star--12"></span>
+    </div>
+
+    <div class="loader-4036__frame">
+        <span class="loader-4036__corner loader-4036__corner--1"></span>
+        <span class="loader-4036__corner loader-4036__corner--2"></span>
+        <span class="loader-4036__corner loader-4036__corner--3"></span>
+        <span class="loader-4036__corner loader-4036__corner--4"></span>
+
+        <div class="loader-4036__header">
+            <div class="loader-4036__brand">
+                <span class="loader-4036__brand-icon">
+                    <i class="ri-flashlight-fill"></i>
+                </span>
+
+                <span class="loader-4036__brand-copy">
+                    <small>AETHER SYSTEM</small>
+                    <strong>CORE REACTOR</strong>
+                </span>
+            </div>
+
+            <div class="loader-4036__header-status">
+                <span class="loader-4036__status-dot"></span>
+                <span>ACTIVE</span>
+            </div>
+        </div>
+
+        <div class="loader-4036__reactor">
+            <span class="loader-4036__scan loader-4036__scan--1"></span>
+            <span class="loader-4036__scan loader-4036__scan--2"></span>
+            <span class="loader-4036__scan loader-4036__scan--3"></span>
+
+            <div class="loader-4036__orbit loader-4036__orbit--outer">
+                <span class="loader-4036__orbit-notch loader-4036__orbit-notch--1"></span>
+                <span class="loader-4036__orbit-notch loader-4036__orbit-notch--2"></span>
+                <span class="loader-4036__orbit-notch loader-4036__orbit-notch--3"></span>
+                <span class="loader-4036__orbit-notch loader-4036__orbit-notch--4"></span>
+
+                <span class="loader-4036__node loader-4036__node--1"></span>
+                <span class="loader-4036__node loader-4036__node--2"></span>
+                <span class="loader-4036__node loader-4036__node--3"></span>
+                <span class="loader-4036__node loader-4036__node--4"></span>
+            </div>
+
+            <div class="loader-4036__orbit loader-4036__orbit--middle">
+                <span class="loader-4036__beam loader-4036__beam--1"></span>
+                <span class="loader-4036__beam loader-4036__beam--2"></span>
+                <span class="loader-4036__beam loader-4036__beam--3"></span>
+                <span class="loader-4036__beam loader-4036__beam--4"></span>
+            </div>
+
+            <div class="loader-4036__orbit loader-4036__orbit--inner">
+                <span class="loader-4036__spark loader-4036__spark--1"></span>
+                <span class="loader-4036__spark loader-4036__spark--2"></span>
+                <span class="loader-4036__spark loader-4036__spark--3"></span>
+                <span class="loader-4036__spark loader-4036__spark--4"></span>
+                <span class="loader-4036__spark loader-4036__spark--5"></span>
+                <span class="loader-4036__spark loader-4036__spark--6"></span>
+            </div>
+
+            <div class="loader-4036__crystals">
+                <span class="loader-4036__crystal loader-4036__crystal--1"></span>
+                <span class="loader-4036__crystal loader-4036__crystal--2"></span>
+                <span class="loader-4036__crystal loader-4036__crystal--3"></span>
+                <span class="loader-4036__crystal loader-4036__crystal--4"></span>
+                <span class="loader-4036__crystal loader-4036__crystal--5"></span>
+                <span class="loader-4036__crystal loader-4036__crystal--6"></span>
+                <span class="loader-4036__crystal loader-4036__crystal--7"></span>
+                <span class="loader-4036__crystal loader-4036__crystal--8"></span>
+            </div>
+
+            <div class="loader-4036__core">
+                <span class="loader-4036__core-ring loader-4036__core-ring--1"></span>
+                <span class="loader-4036__core-ring loader-4036__core-ring--2"></span>
+                <span class="loader-4036__core-ring loader-4036__core-ring--3"></span>
+
+                <span class="loader-4036__diamond">
+                    <span class="loader-4036__diamond-face loader-4036__diamond-face--1"></span>
+                    <span class="loader-4036__diamond-face loader-4036__diamond-face--2"></span>
+                    <span class="loader-4036__diamond-face loader-4036__diamond-face--3"></span>
+                </span>
+
+                <span class="loader-4036__core-light"></span>
+            </div>
+
+            <span class="loader-4036__energy loader-4036__energy--1"></span>
+            <span class="loader-4036__energy loader-4036__energy--2"></span>
+            <span class="loader-4036__energy loader-4036__energy--3"></span>
+            <span class="loader-4036__energy loader-4036__energy--4"></span>
+
+            <span class="loader-4036__particle loader-4036__particle--1"></span>
+            <span class="loader-4036__particle loader-4036__particle--2"></span>
+            <span class="loader-4036__particle loader-4036__particle--3"></span>
+            <span class="loader-4036__particle loader-4036__particle--4"></span>
+            <span class="loader-4036__particle loader-4036__particle--5"></span>
+            <span class="loader-4036__particle loader-4036__particle--6"></span>
+            <span class="loader-4036__particle loader-4036__particle--7"></span>
+            <span class="loader-4036__particle loader-4036__particle--8"></span>
+        </div>
+
+        <div class="loader-4036__readout">
+            <div class="loader-4036__readout-left">
+                <span class="loader-4036__readout-label">CORE SYNC</span>
+
+                <span class="loader-4036__readout-value">
+                    SYNCHRONIZING
+
+                    <span class="loader-4036__dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </span>
+            </div>
+
+            <div class="loader-4036__readout-number">
+                <span>86</span>
+                <small>%</small>
+            </div>
+        </div>
+
+        <div class="loader-4036__progress">
+            <span class="loader-4036__progress-track"></span>
+            <span class="loader-4036__progress-fill"></span>
+            <span class="loader-4036__progress-glow"></span>
+
+            <span class="loader-4036__progress-mark loader-4036__progress-mark--1"></span>
+            <span class="loader-4036__progress-mark loader-4036__progress-mark--2"></span>
+            <span class="loader-4036__progress-mark loader-4036__progress-mark--3"></span>
+            <span class="loader-4036__progress-mark loader-4036__progress-mark--4"></span>
+        </div>
+
+        <div class="loader-4036__footer">
+            <span>
+                <i class="ri-radar-line"></i>
+                SIGNAL LOCKED
+            </span>
+
+            <span>
+                <i class="ri-flashlight-fill"></i>
+                ENERGY STABLE
+            </span>
+
+            <span>
+                <i class="ri-shield-check-fill"></i>
+                CORE SAFE
+            </span>
+        </div>
+    </div>
+</div>`,
+    css: `.loader-4036 {
+    position: relative;
+    width: 430px;
+    max-width: 100%;
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 30px;
+    background:
+        radial-gradient(circle at 50% 38%, rgba(103, 232, 249, .1), transparent 28%),
+        radial-gradient(circle at 20% 80%, rgba(139, 92, 246, .1), transparent 30%),
+        linear-gradient(145deg, #020617, #061328 45%, #0f0b2d);
+    font-family: Arial, Helvetica, sans-serif;
+    isolation: isolate;
+}
+
+.loader-4036::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(103, 232, 249, .025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(103, 232, 249, .025) 1px, transparent 1px);
+    background-size: 22px 22px;
+    mask-image: linear-gradient(to bottom, transparent, #000 20%, #000 85%, transparent);
+    pointer-events: none;
+}
+
+.loader-4036::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 34px;
+    width: 270px;
+    height: 46px;
+    border-radius: 50%;
+    background: rgba(34, 211, 238, .08);
+    filter: blur(22px);
+    transform: translateX(-50%);
+    animation: loader4036Ground 3.2s ease-in-out infinite;
+}
+
+.loader-4036__ambient {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(48px);
+    pointer-events: none;
+}
+
+.loader-4036__ambient--1 {
+    width: 180px;
+    height: 180px;
+    left: -80px;
+    top: 40px;
+    background: rgba(34, 211, 238, .12);
+    animation: loader4036Ambient1 7s ease-in-out infinite;
+}
+
+.loader-4036__ambient--2 {
+    width: 190px;
+    height: 190px;
+    right: -90px;
+    top: 160px;
+    background: rgba(99, 102, 241, .14);
+    animation: loader4036Ambient2 8s ease-in-out infinite;
+}
+
+.loader-4036__ambient--3 {
+    width: 150px;
+    height: 150px;
+    left: 110px;
+    bottom: -70px;
+    background: rgba(192, 132, 252, .1);
+    animation: loader4036Ambient3 6s ease-in-out infinite;
+}
+
+.loader-4036__stars {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.loader-4036__star {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #e0f2fe;
+    box-shadow: 0 0 7px rgba(224, 242, 254, .8);
+    animation: loader4036Star 2.4s ease-in-out infinite;
+}
+
+.loader-4036__star--1 {
+    left: 8%;
+    top: 12%;
+    animation-delay: -.2s;
+}
+
+.loader-4036__star--2 {
+    left: 21%;
+    top: 21%;
+    width: 2px;
+    height: 2px;
+    animation-delay: -.8s;
+}
+
+.loader-4036__star--3 {
+    left: 73%;
+    top: 13%;
+    animation-delay: -1.4s;
+}
+
+.loader-4036__star--4 {
+    right: 8%;
+    top: 29%;
+    width: 2px;
+    height: 2px;
+    animation-delay: -.5s;
+}
+
+.loader-4036__star--5 {
+    left: 14%;
+    top: 54%;
+    animation-delay: -1.8s;
+}
+
+.loader-4036__star--6 {
+    right: 16%;
+    top: 55%;
+    animation-delay: -1.1s;
+}
+
+.loader-4036__star--7 {
+    left: 10%;
+    bottom: 18%;
+    width: 2px;
+    height: 2px;
+    animation-delay: -.6s;
+}
+
+.loader-4036__star--8 {
+    left: 33%;
+    bottom: 10%;
+    animation-delay: -1.6s;
+}
+
+.loader-4036__star--9 {
+    right: 28%;
+    bottom: 14%;
+    width: 2px;
+    height: 2px;
+    animation-delay: -2s;
+}
+
+.loader-4036__star--10 {
+    right: 9%;
+    bottom: 25%;
+    animation-delay: -.9s;
+}
+
+.loader-4036__star--11 {
+    left: 48%;
+    top: 7%;
+    width: 2px;
+    height: 2px;
+    animation-delay: -1.2s;
+}
+
+.loader-4036__star--12 {
+    left: 52%;
+    bottom: 5%;
+    animation-delay: -.4s;
+}
+
+.loader-4036__frame {
+    position: relative;
+    z-index: 2;
+    width: calc(100% - 38px);
+    padding: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(125, 211, 252, .2);
+    border-radius: 22px;
+    background:
+        linear-gradient(135deg, rgba(15, 23, 42, .84), rgba(15, 23, 42, .58)),
+        rgba(2, 6, 23, .72);
+    box-shadow:
+        0 24px 50px rgba(0, 0, 0, .4),
+        inset 0 1px 0 rgba(255, 255, 255, .06),
+        0 0 30px rgba(34, 211, 238, .06);
+    backdrop-filter: blur(16px);
+}
+
+.loader-4036__frame::before {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    border-radius: 21px;
+    background:
+        linear-gradient(
+            120deg,
+            rgba(255, 255, 255, .04),
+            transparent 24%,
+            transparent 70%,
+            rgba(103, 232, 249, .035)
+        );
+    pointer-events: none;
+}
+
+.loader-4036__frame::after {
+    content: "";
+    position: absolute;
+    top: -70px;
+    bottom: -70px;
+    left: -70px;
+    width: 38px;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, .3),
+            transparent
+        );
+    transform: rotate(20deg);
+    animation: loader4036FrameShine 5.6s ease-in-out infinite;
+    pointer-events: none;
+}
+
+.loader-4036__corner {
+    position: absolute;
+    z-index: 4;
+    width: 22px;
+    height: 22px;
+    pointer-events: none;
+}
+
+.loader-4036__corner::before,
+.loader-4036__corner::after {
+    content: "";
+    position: absolute;
+    background: #67e8f9;
+    box-shadow: 0 0 6px rgba(103, 232, 249, .55);
+}
+
+.loader-4036__corner::before {
+    width: 14px;
+    height: 1px;
+}
+
+.loader-4036__corner::after {
+    width: 1px;
+    height: 14px;
+}
+
+.loader-4036__corner--1 {
+    left: 8px;
+    top: 8px;
+}
+
+.loader-4036__corner--2 {
+    right: 8px;
+    top: 8px;
+    transform: rotate(90deg);
+}
+
+.loader-4036__corner--3 {
+    right: 8px;
+    bottom: 8px;
+    transform: rotate(180deg);
+}
+
+.loader-4036__corner--4 {
+    left: 8px;
+    bottom: 8px;
+    transform: rotate(270deg);
+}
+
+.loader-4036__header {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(125, 211, 252, .1);
+}
+
+.loader-4036__brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.loader-4036__brand-icon {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    flex: 0 0 34px;
+    border: 1px solid rgba(103, 232, 249, .35);
+    border-radius: 10px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(8, 47, 73, .9),
+            rgba(30, 64, 175, .55)
+        );
+    color: #a5f3fc;
+    box-shadow:
+        0 0 14px rgba(34, 211, 238, .12),
+        inset 0 1px 0 rgba(255, 255, 255, .06);
+    font-size: 15px;
+    animation: loader4036Brand 3s ease-in-out infinite;
+}
+
+.loader-4036__brand-copy {
+    display: flex;
+    flex-direction: column;
+}
+
+.loader-4036__brand-copy small {
+    color: #67e8f9;
+    font-size: 5px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
+.loader-4036__brand-copy strong {
+    margin-top: 3px;
+    color: #f8fafc;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: .5px;
+}
+
+.loader-4036__header-status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 7px;
+    border: 1px solid rgba(74, 222, 128, .2);
+    border-radius: 999px;
+    background: rgba(20, 83, 45, .22);
+    color: #86efac;
+    font-size: 5px;
+    font-weight: 900;
+    letter-spacing: .9px;
+}
+
+.loader-4036__status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #4ade80;
+    box-shadow: 0 0 8px rgba(74, 222, 128, .8);
+    animation: loader4036Status 1.6s ease-in-out infinite;
+}
+
+.loader-4036__reactor {
+    position: relative;
+    width: 270px;
+    height: 270px;
+    margin: 18px auto 10px;
+    display: grid;
+    place-items: center;
+}
+
+.loader-4036__reactor::before {
+    content: "";
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            rgba(103, 232, 249, .1),
+            rgba(59, 130, 246, .04) 40%,
+            transparent 70%
+        );
+    animation: loader4036ReactorGlow 3s ease-in-out infinite;
+}
+
+.loader-4036__reactor::after {
+    content: "";
+    position: absolute;
+    width: 170px;
+    height: 28px;
+    bottom: 16px;
+    border-radius: 50%;
+    background: rgba(103, 232, 249, .1);
+    filter: blur(12px);
+    animation: loader4036ReactorShadow 2.8s ease-in-out infinite;
+}
+
+.loader-4036__scan {
+    position: absolute;
+    z-index: 1;
+    width: 240px;
+    height: 1px;
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(103, 232, 249, .05),
+            rgba(103, 232, 249, .55),
+            rgba(103, 232, 249, .05),
+            transparent
+        );
+    box-shadow: 0 0 7px rgba(103, 232, 249, .3);
+    transform-origin: center;
+}
+
+.loader-4036__scan--1 {
+    transform: rotate(0deg);
+    animation: loader4036Scan1 4s linear infinite;
+}
+
+.loader-4036__scan--2 {
+    transform: rotate(60deg);
+    animation: loader4036Scan2 5.4s linear infinite reverse;
+}
+
+.loader-4036__scan--3 {
+    transform: rotate(120deg);
+    animation: loader4036Scan3 6.2s linear infinite;
+}
+
+.loader-4036__orbit {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader-4036__orbit--outer {
+    width: 230px;
+    height: 230px;
+    border:
+        1px solid rgba(103, 232, 249, .18);
+    border-top-color: rgba(103, 232, 249, .8);
+    border-right-color: rgba(129, 140, 248, .48);
+    box-shadow:
+        0 0 18px rgba(34, 211, 238, .06),
+        inset 0 0 18px rgba(59, 130, 246, .04);
+    animation: loader4036OuterOrbit 8s linear infinite;
+}
+
+.loader-4036__orbit--middle {
+    width: 180px;
+    height: 180px;
+    border:
+        1px dashed rgba(165, 243, 252, .28);
+    border-left-color: rgba(192, 132, 252, .7);
+    border-bottom-color: rgba(103, 232, 249, .7);
+    animation: loader4036MiddleOrbit 6s linear infinite reverse;
+}
+
+.loader-4036__orbit--inner {
+    width: 132px;
+    height: 132px;
+    border:
+        1px solid rgba(103, 232, 249, .22);
+    border-top-color: rgba(255, 255, 255, .6);
+    box-shadow:
+        inset 0 0 20px rgba(103, 232, 249, .05);
+    animation: loader4036InnerOrbit 4s linear infinite;
+}
+
+.loader-4036__orbit-notch {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    border-radius: 999px;
+    background: #67e8f9;
+    box-shadow: 0 0 8px rgba(103, 232, 249, .7);
+}
+
+.loader-4036__orbit-notch--1 {
+    left: 50%;
+    top: -2px;
+    transform: translateX(-50%);
+}
+
+.loader-4036__orbit-notch--2 {
+    right: -7px;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+}
+
+.loader-4036__orbit-notch--3 {
+    left: 50%;
+    bottom: -2px;
+    transform: translateX(-50%);
+}
+
+.loader-4036__orbit-notch--4 {
+    left: -7px;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+}
+
+.loader-4036__node {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border: 2px solid #020617;
+    border-radius: 50%;
+    background: #a5f3fc;
+    box-shadow:
+        0 0 0 2px rgba(34, 211, 238, .22),
+        0 0 10px rgba(103, 232, 249, .8);
+    animation: loader4036Node 2s ease-in-out infinite;
+}
+
+.loader-4036__node--1 {
+    left: 18px;
+    top: 40px;
+}
+
+.loader-4036__node--2 {
+    right: 15px;
+    top: 61px;
+    animation-delay: -.5s;
+}
+
+.loader-4036__node--3 {
+    right: 38px;
+    bottom: 20px;
+    animation-delay: -1s;
+}
+
+.loader-4036__node--4 {
+    left: 24px;
+    bottom: 54px;
+    animation-delay: -1.5s;
+}
+
+.loader-4036__beam {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 78px;
+    height: 1px;
+    transform-origin: left center;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(103, 232, 249, .7),
+            transparent
+        );
+}
+
+.loader-4036__beam--1 {
+    transform: rotate(0deg);
+}
+
+.loader-4036__beam--2 {
+    transform: rotate(90deg);
+}
+
+.loader-4036__beam--3 {
+    transform: rotate(180deg);
+}
+
+.loader-4036__beam--4 {
+    transform: rotate(270deg);
+}
+
+.loader-4036__spark {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow:
+        0 0 6px #fff,
+        0 0 10px rgba(103, 232, 249, .9);
+}
+
+.loader-4036__spark--1 {
+    left: 8px;
+    top: 32px;
+}
+
+.loader-4036__spark--2 {
+    right: 11px;
+    top: 23px;
+}
+
+.loader-4036__spark--3 {
+    right: 4px;
+    top: 66px;
+}
+
+.loader-4036__spark--4 {
+    right: 27px;
+    bottom: 8px;
+}
+
+.loader-4036__spark--5 {
+    left: 16px;
+    bottom: 20px;
+}
+
+.loader-4036__spark--6 {
+    left: -1px;
+    top: 68px;
+}
+
+.loader-4036__crystals {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 175px;
+    height: 175px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.loader-4036__crystal {
+    position: absolute;
+    width: 11px;
+    clip-path:
+        polygon(
+            50% 0%,
+            100% 30%,
+            82% 100%,
+            18% 100%,
+            0% 30%
+        );
+    background:
+        linear-gradient(
+            135deg,
+            #fff,
+            #bae6fd 24%,
+            #67e8f9 48%,
+            #818cf8 74%,
+            #c084fc
+        );
+    filter:
+        drop-shadow(
+            0 0 5px rgba(125, 211, 252, .5)
+        );
+    transform-origin: bottom center;
+    animation: loader4036Crystal 2.6s ease-in-out infinite;
+}
+
+.loader-4036__crystal--1 {
+    left: 28px;
+    top: 18px;
+    height: 23px;
+    transform: rotate(-38deg);
+}
+
+.loader-4036__crystal--2 {
+    left: 76px;
+    top: -2px;
+    height: 31px;
+    animation-delay: -.3s;
+}
+
+.loader-4036__crystal--3 {
+    right: 26px;
+    top: 20px;
+    height: 21px;
+    transform: rotate(38deg);
+    animation-delay: -.6s;
+}
+
+.loader-4036__crystal--4 {
+    right: -2px;
+    top: 76px;
+    height: 28px;
+    transform: rotate(90deg);
+    animation-delay: -.9s;
+}
+
+.loader-4036__crystal--5 {
+    right: 29px;
+    bottom: 16px;
+    height: 24px;
+    transform: rotate(138deg);
+    animation-delay: -1.2s;
+}
+
+.loader-4036__crystal--6 {
+    left: 77px;
+    bottom: -2px;
+    height: 30px;
+    transform: rotate(180deg);
+    animation-delay: -1.5s;
+}
+
+.loader-4036__crystal--7 {
+    left: 25px;
+    bottom: 21px;
+    height: 22px;
+    transform: rotate(222deg);
+    animation-delay: -1.8s;
+}
+
+.loader-4036__crystal--8 {
+    left: -2px;
+    top: 75px;
+    height: 27px;
+    transform: rotate(270deg);
+    animation-delay: -2.1s;
+}
+
+.loader-4036__core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 5;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    transform: translate(-50%, -50%);
+}
+
+.loader-4036__core-ring {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader-4036__core-ring--1 {
+    width: 96px;
+    height: 96px;
+    border: 1px solid rgba(103, 232, 249, .35);
+    box-shadow:
+        0 0 15px rgba(103, 232, 249, .1),
+        inset 0 0 15px rgba(103, 232, 249, .05);
+    animation: loader4036CoreRing1 3.2s ease-in-out infinite;
+}
+
+.loader-4036__core-ring--2 {
+    width: 76px;
+    height: 76px;
+    border: 1px dashed rgba(192, 132, 252, .5);
+    animation: loader4036CoreRing2 4s linear infinite;
+}
+
+.loader-4036__core-ring--3 {
+    width: 57px;
+    height: 57px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-top-color: #a5f3fc;
+    border-bottom-color: #818cf8;
+    animation: loader4036CoreRing3 2.7s linear infinite reverse;
+}
+
+.loader-4036__diamond {
+    position: relative;
+    z-index: 4;
+    width: 38px;
+    height: 48px;
+    clip-path:
+        polygon(
+            50% 0%,
+            100% 30%,
+            82% 100%,
+            18% 100%,
+            0% 30%
+        );
+    background:
+        linear-gradient(
+            135deg,
+            #fff 0%,
+            #cffafe 18%,
+            #67e8f9 42%,
+            #818cf8 68%,
+            #c084fc 86%,
+            #fff 100%
+        );
+    box-shadow:
+        0 0 25px rgba(103, 232, 249, .6);
+    filter:
+        drop-shadow(
+            0 0 10px rgba(103, 232, 249, .65)
+        );
+    animation: loader4036Diamond 2.4s ease-in-out infinite;
+}
+
+.loader-4036__diamond::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            112deg,
+            transparent 0 28%,
+            rgba(255, 255, 255, .7) 30% 36%,
+            transparent 38% 100%
+        );
+    animation: loader4036DiamondShine 2.6s ease-in-out infinite;
+}
+
+.loader-4036__diamond-face {
+    position: absolute;
+    background: rgba(255, 255, 255, .22);
+}
+
+.loader-4036__diamond-face--1 {
+    left: 50%;
+    top: 0;
+    width: 1px;
+    height: 100%;
+}
+
+.loader-4036__diamond-face--2 {
+    left: 0;
+    top: 30%;
+    width: 100%;
+    height: 1px;
+    transform: rotate(26deg);
+}
+
+.loader-4036__diamond-face--3 {
+    left: 0;
+    top: 30%;
+    width: 100%;
+    height: 1px;
+    transform: rotate(-26deg);
+}
+
+.loader-4036__core-light {
+    position: absolute;
+    z-index: 1;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: rgba(103, 232, 249, .22);
+    filter: blur(12px);
+    animation: loader4036CoreLight 2.1s ease-in-out infinite;
+}
+
+.loader-4036__energy {
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    top: 50%;
+    width: 3px;
+    height: 66px;
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            to top,
+            transparent,
+            rgba(103, 232, 249, .8),
+            transparent
+        );
+    transform-origin: center bottom;
+    opacity: .45;
+}
+
+.loader-4036__energy--1 {
+    transform: translate(-50%, -100%) rotate(45deg);
+    animation: loader4036Energy1 2s ease-in-out infinite;
+}
+
+.loader-4036__energy--2 {
+    transform: translate(-50%, -100%) rotate(135deg);
+    animation: loader4036Energy2 2.2s ease-in-out infinite;
+}
+
+.loader-4036__energy--3 {
+    transform: translate(-50%, -100%) rotate(225deg);
+    animation: loader4036Energy3 2.4s ease-in-out infinite;
+}
+
+.loader-4036__energy--4 {
+    transform: translate(-50%, -100%) rotate(315deg);
+    animation: loader4036Energy4 2.6s ease-in-out infinite;
+}
+
+.loader-4036__particle {
+    position: absolute;
+    z-index: 6;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #e0f2fe;
+    box-shadow:
+        0 0 6px rgba(224, 242, 254, .9),
+        0 0 10px rgba(103, 232, 249, .5);
+    opacity: 0;
+}
+
+.loader-4036__particle--1 {
+    left: 44px;
+    top: 115px;
+    animation: loader4036Particle1 2.7s ease-in-out infinite;
+}
+
+.loader-4036__particle--2 {
+    right: 49px;
+    top: 108px;
+    animation: loader4036Particle2 3s ease-in-out infinite -.5s;
+}
+
+.loader-4036__particle--3 {
+    left: 73px;
+    top: 44px;
+    animation: loader4036Particle3 2.6s ease-in-out infinite -1s;
+}
+
+.loader-4036__particle--4 {
+    right: 78px;
+    top: 47px;
+    animation: loader4036Particle4 3.1s ease-in-out infinite -.8s;
+}
+
+.loader-4036__particle--5 {
+    left: 63px;
+    bottom: 50px;
+    animation: loader4036Particle5 2.9s ease-in-out infinite -1.3s;
+}
+
+.loader-4036__particle--6 {
+    right: 62px;
+    bottom: 56px;
+    animation: loader4036Particle6 3.2s ease-in-out infinite -.2s;
+}
+
+.loader-4036__particle--7 {
+    left: 126px;
+    bottom: 24px;
+    animation: loader4036Particle7 2.5s ease-in-out infinite -.9s;
+}
+
+.loader-4036__particle--8 {
+    right: 123px;
+    top: 25px;
+    animation: loader4036Particle8 2.8s ease-in-out infinite -1.7s;
+}
+
+.loader-4036__readout {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: -2px;
+}
+
+.loader-4036__readout-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.loader-4036__readout-label {
+    color: #64748b;
+    font-size: 5px;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+}
+
+.loader-4036__readout-value {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    color: #e0f2fe;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: .8px;
+}
+
+.loader-4036__dots {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-left: 5px;
+}
+
+.loader-4036__dots span {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #67e8f9;
+    box-shadow: 0 0 5px rgba(103, 232, 249, .7);
+    animation: loader4036Dot 1.2s ease-in-out infinite;
+}
+
+.loader-4036__dots span:nth-child(2) {
+    animation-delay: .15s;
+}
+
+.loader-4036__dots span:nth-child(3) {
+    animation-delay: .3s;
+}
+
+.loader-4036__readout-number {
+    display: flex;
+    align-items: flex-start;
+    color: #f8fafc;
+}
+
+.loader-4036__readout-number > span {
+    font:
+        900 24px/1
+        Arial Black,
+        Arial,
+        sans-serif;
+    text-shadow:
+        0 0 10px rgba(103, 232, 249, .2);
+}
+
+.loader-4036__readout-number small {
+    margin-top: 2px;
+    margin-left: 2px;
+    color: #67e8f9;
+    font-size: 7px;
+    font-weight: 900;
+}
+
+.loader-4036__progress {
+    position: relative;
+    height: 13px;
+    margin-top: 10px;
+    padding: 2px;
+    overflow: hidden;
+    border: 1px solid rgba(103, 232, 249, .16);
+    border-radius: 999px;
+    background: rgba(2, 6, 23, .72);
+}
+
+.loader-4036__progress-track {
+    position: absolute;
+    inset: 2px;
+    border-radius: inherit;
+    background:
+        repeating-linear-gradient(
+            90deg,
+            rgba(255, 255, 255, .025) 0 7px,
+            rgba(255, 255, 255, 0) 7px 11px
+        );
+}
+
+.loader-4036__progress-fill {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    bottom: 2px;
+    width: 86%;
+    border-radius: inherit;
+    background:
+        linear-gradient(
+            90deg,
+            #0ea5e9,
+            #22d3ee,
+            #818cf8,
+            #c084fc
+        );
+    box-shadow:
+        0 0 9px rgba(34, 211, 238, .4);
+    transform-origin: left;
+    animation: loader4036Progress 3.8s ease-in-out infinite;
+}
+
+.loader-4036__progress-fill::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            110deg,
+            transparent 0 42%,
+            rgba(255, 255, 255, .5) 50%,
+            transparent 58%
+        );
+    animation: loader4036ProgressShine 1.8s linear infinite;
+}
+
+.loader-4036__progress-glow {
+    position: absolute;
+    top: 50%;
+    left: 82%;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(192, 132, 252, .25);
+    filter: blur(7px);
+    transform: translate(-50%, -50%);
+    animation: loader4036ProgressGlow 3.8s ease-in-out infinite;
+}
+
+.loader-4036__progress-mark {
+    position: absolute;
+    z-index: 3;
+    top: 1px;
+    width: 1px;
+    height: 9px;
+    background: rgba(255, 255, 255, .28);
+}
+
+.loader-4036__progress-mark--1 {
+    left: 25%;
+}
+
+.loader-4036__progress-mark--2 {
+    left: 50%;
+}
+
+.loader-4036__progress-mark--3 {
+    left: 75%;
+}
+
+.loader-4036__progress-mark--4 {
+    left: 90%;
+}
+
+.loader-4036__footer {
+    position: relative;
+    z-index: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.loader-4036__footer > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 6px 4px;
+    border: 1px solid rgba(125, 211, 252, .09);
+    border-radius: 7px;
+    background: rgba(15, 23, 42, .58);
+    color: #64748b;
+    font-size: 4px;
+    font-weight: 900;
+    letter-spacing: .4px;
+    transition:
+        border-color .2s ease,
+        color .2s ease,
+        background .2s ease;
+}
+
+.loader-4036__footer > span i {
+    color: #67e8f9;
+    font-size: 8px;
+}
+
+.loader-4036:hover .loader-4036__footer > span {
+    border-color: rgba(103, 232, 249, .18);
+    background: rgba(8, 47, 73, .32);
+    color: #bae6fd;
+}
+
+.loader-4036:hover .loader-4036__diamond {
+    filter:
+        drop-shadow(
+            0 0 14px rgba(103, 232, 249, .85)
+        );
+}
+
+.loader-4036:hover .loader-4036__orbit--outer {
+    border-top-color: #a5f3fc;
+    box-shadow:
+        0 0 24px rgba(34, 211, 238, .12),
+        inset 0 0 24px rgba(59, 130, 246, .06);
+}
+
+.loader-4036:hover .loader-4036__frame {
+    border-color: rgba(125, 211, 252, .32);
+}
+
+@keyframes loader4036Ground {
+    0%,
+    100% {
+        opacity: .35;
+        transform: translateX(-50%) scaleX(.75);
+    }
+
+    50% {
+        opacity: .75;
+        transform: translateX(-50%) scaleX(1.08);
+    }
+}
+
+@keyframes loader4036Ambient1 {
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+        opacity: .6;
+    }
+
+    50% {
+        transform: translate(28px, 22px) scale(1.18);
+        opacity: 1;
+    }
+}
+
+@keyframes loader4036Ambient2 {
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+        opacity: .55;
+    }
+
+    50% {
+        transform: translate(-24px, -16px) scale(1.14);
+        opacity: .9;
+    }
+}
+
+@keyframes loader4036Ambient3 {
+    0%,
+    100% {
+        transform: translateY(0) scale(.9);
+        opacity: .5;
+    }
+
+    50% {
+        transform: translateY(-24px) scale(1.15);
+        opacity: .9;
+    }
+}
+
+@keyframes loader4036Star {
+    0%,
+    100% {
+        opacity: .15;
+        transform: scale(.6);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.35);
+    }
+}
+
+@keyframes loader4036FrameShine {
+    0%,
+    70% {
+        left: -70px;
+        opacity: 0;
+    }
+
+    75% {
+        opacity: .6;
+    }
+
+    92% {
+        left: calc(100% + 70px);
+        opacity: .6;
+    }
+
+    100% {
+        left: calc(100% + 70px);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4036Brand {
+    0%,
+    100% {
+        transform: rotate(0) scale(1);
+        box-shadow:
+            0 0 10px rgba(34, 211, 238, .1),
+            inset 0 1px 0 rgba(255, 255, 255, .06);
+    }
+
+    50% {
+        transform: rotate(5deg) scale(1.07);
+        box-shadow:
+            0 0 18px rgba(34, 211, 238, .22),
+            inset 0 1px 0 rgba(255, 255, 255, .09);
+    }
+}
+
+@keyframes loader4036Status {
+    0%,
+    100% {
+        transform: scale(.8);
+        opacity: .55;
+    }
+
+    50% {
+        transform: scale(1.25);
+        opacity: 1;
+    }
+}
+
+@keyframes loader4036ReactorGlow {
+    0%,
+    100% {
+        opacity: .55;
+        transform: scale(.88);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.08);
+    }
+}
+
+@keyframes loader4036ReactorShadow {
+    0%,
+    100% {
+        opacity: .3;
+        transform: scaleX(.75);
+    }
+
+    50% {
+        opacity: .7;
+        transform: scaleX(1.15);
+    }
+}
+
+@keyframes loader4036Scan1 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader4036Scan2 {
+    from {
+        transform: rotate(60deg);
+    }
+
+    to {
+        transform: rotate(420deg);
+    }
+}
+
+@keyframes loader4036Scan3 {
+    from {
+        transform: rotate(120deg);
+    }
+
+    to {
+        transform: rotate(480deg);
+    }
+}
+
+@keyframes loader4036OuterOrbit {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(0deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(360deg);
+    }
+}
+
+@keyframes loader4036MiddleOrbit {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(0deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(360deg);
+    }
+}
+
+@keyframes loader4036InnerOrbit {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(0deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(360deg);
+    }
+}
+
+@keyframes loader4036Node {
+    0%,
+    100% {
+        transform: scale(.72);
+        opacity: .55;
+    }
+
+    50% {
+        transform: scale(1.3);
+        opacity: 1;
+    }
+}
+
+@keyframes loader4036Crystal {
+    0%,
+    100% {
+        opacity: .42;
+        filter:
+            brightness(.85)
+            drop-shadow(
+                0 0 3px rgba(125, 211, 252, .35)
+            );
+    }
+
+    50% {
+        opacity: 1;
+        filter:
+            brightness(1.45)
+            drop-shadow(
+                0 0 8px rgba(125, 211, 252, .75)
+            );
+    }
+}
+
+@keyframes loader4036CoreRing1 {
+    0%,
+    100% {
+        transform:
+            translate(-50%, -50%)
+            scale(.92);
+        opacity: .45;
+    }
+
+    50% {
+        transform:
+            translate(-50%, -50%)
+            scale(1.08);
+        opacity: 1;
+    }
+}
+
+@keyframes loader4036CoreRing2 {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(0deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(360deg);
+    }
+}
+
+@keyframes loader4036CoreRing3 {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(0deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(360deg);
+    }
+}
+
+@keyframes loader4036Diamond {
+    0%,
+    100% {
+        transform:
+            translateY(0)
+            rotate(0deg)
+            scale(.94);
+    }
+
+    25% {
+        transform:
+            translateY(-3px)
+            rotate(2deg)
+            scale(1);
+    }
+
+    50% {
+        transform:
+            translateY(-5px)
+            rotate(0deg)
+            scale(1.08);
+    }
+
+    75% {
+        transform:
+            translateY(-3px)
+            rotate(-2deg)
+            scale(1);
+    }
+}
+
+@keyframes loader4036DiamondShine {
+    0% {
+        transform: translateX(-130%);
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(130%);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4036CoreLight {
+    0%,
+    100% {
+        transform: scale(.78);
+        opacity: .38;
+    }
+
+    50% {
+        transform: scale(1.3);
+        opacity: .9;
+    }
+}
+
+@keyframes loader4036Energy1 {
+    0%,
+    100% {
+        opacity: .12;
+        height: 38px;
+    }
+
+    50% {
+        opacity: .8;
+        height: 71px;
+    }
+}
+
+@keyframes loader4036Energy2 {
+    0%,
+    100% {
+        opacity: .18;
+        height: 44px;
+    }
+
+    50% {
+        opacity: .76;
+        height: 68px;
+    }
+}
+
+@keyframes loader4036Energy3 {
+    0%,
+    100% {
+        opacity: .14;
+        height: 35px;
+    }
+
+    50% {
+        opacity: .82;
+        height: 73px;
+    }
+}
+
+@keyframes loader4036Energy4 {
+    0%,
+    100% {
+        opacity: .2;
+        height: 42px;
+    }
+
+    50% {
+        opacity: .75;
+        height: 66px;
+    }
+}
+
+@keyframes loader4036Particle1 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.5);
+        opacity: 0;
+    }
+
+    45% {
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translate(43px, -42px)
+            scale(1.25);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4036Particle2 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.5);
+        opacity: 0;
+    }
+
+    45% {
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translate(-40px, -39px)
+            scale(1.2);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4036Particle3 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.5);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translate(24px, 43px)
+            scale(1.2);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4036Particle4 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.5);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translate(-25px, 45px)
+            scale(1.2);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4036Particle5 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.5);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translate(28px, -39px)
+            scale(1.25);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4036Particle6 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.5);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translate(-28px, -41px)
+            scale(1.2);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4036Particle7 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.5);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translate(6px, -48px)
+            scale(1.25);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4036Particle8 {
+    0% {
+        transform:
+            translate(0, 0)
+            scale(.5);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translate(-7px, 48px)
+            scale(1.2);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4036Dot {
+    0%,
+    100% {
+        transform: translateY(0) scale(.7);
+        opacity: .35;
+    }
+
+    50% {
+        transform: translateY(-2px) scale(1.2);
+        opacity: 1;
+    }
+}
+
+@keyframes loader4036Progress {
+    0%,
+    100% {
+        width: 68%;
+        filter: saturate(.9);
+    }
+
+    50% {
+        width: 92%;
+        filter: saturate(1.35);
+    }
+}
+
+@keyframes loader4036ProgressShine {
+    from {
+        transform: translateX(-130%);
+    }
+
+    to {
+        transform: translateX(130%);
+    }
+}
+
+@keyframes loader4036ProgressGlow {
+    0%,
+    100% {
+        left: 65%;
+        opacity: .45;
+    }
+
+    50% {
+        left: 90%;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 520px) {
+    .loader-4036 {
+        width: 100%;
+        min-height: 500px;
+    }
+
+    .loader-4036__frame {
+        width: calc(100% - 24px);
+        padding: 13px;
+    }
+
+    .loader-4036__reactor {
+        width: 245px;
+        height: 245px;
+    }
+
+    .loader-4036__orbit--outer {
+        width: 215px;
+        height: 215px;
+    }
+
+    .loader-4036__orbit--middle {
+        width: 170px;
+        height: 170px;
+    }
+
+    .loader-4036__orbit--inner {
+        width: 126px;
+        height: 126px;
+    }
+
+    .loader-4036__footer {
+        gap: 4px;
+    }
+
+    .loader-4036__footer > span {
+        padding: 5px 2px;
+        font-size: 3px;
+    }
+}`,
+  },
 ];
