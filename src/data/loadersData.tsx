@@ -70221,4 +70221,164 @@ export const loaders = [
 </div>`,
     css: `.loader-4053{width:30px;height:30px;display:grid;grid-template-columns:repeat(2,1fr);gap:4px}.loader-4053 span{border-radius:5px;background:#3b82f6;animation:loader4053Pulse 1.2s ease-in-out infinite}.loader-4053 span:nth-child(2){animation-delay:.15s}.loader-4053 span:nth-child(3){animation-delay:.45s}.loader-4053 span:nth-child(4){animation-delay:.3s}@keyframes loader4053Pulse{0%,100%{transform:scale(.7);opacity:.35}50%{transform:scale(1);opacity:1}}`,
   },
+  {
+    id: 4054,
+    name: "Light Blue Clean Spinner",
+    preview: <div className="loader-4054"></div>,
+    html: `<div class="loader-4054"></div>`,
+    css: `.loader-4054{width:34px;height:34px;border:3px solid #e0f2fe;border-top-color:#38bdf8;border-radius:50%;animation:loader4054Spin .8s linear infinite}@keyframes loader4054Spin{to{transform:rotate(360deg)}}`,
+  },
+  {
+    id: 4055,
+    name: "Light Blue Soft Dots",
+    preview: (
+      <div className="loader-4055">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4055">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4055{height:32px;display:flex;align-items:center;gap:6px}.loader-4055 span{width:8px;height:8px;border-radius:50%;background:#7dd3fc;animation:loader4055Dot 1.1s ease-in-out infinite}.loader-4055 span:nth-child(2){animation-delay:.14s}.loader-4055 span:nth-child(3){animation-delay:.28s}@keyframes loader4055Dot{0%,100%{transform:scale(.65);opacity:.4}50%{transform:scale(1.15);opacity:1;background:#38bdf8}}`,
+  },
+  {
+    id: 4056,
+    name: "Light Blue Wave Bars",
+    preview: (
+      <div className="loader-4056">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4056">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4056{height:32px;display:flex;align-items:center;gap:4px}.loader-4056 span{width:4px;height:10px;border-radius:999px;background:#7dd3fc;animation:loader4056Wave .95s ease-in-out infinite}.loader-4056 span:nth-child(2){animation-delay:.1s}.loader-4056 span:nth-child(3){animation-delay:.2s}.loader-4056 span:nth-child(4){animation-delay:.3s}@keyframes loader4056Wave{0%,100%{height:10px;opacity:.4}50%{height:27px;opacity:1;background:#38bdf8}}`,
+  },
+  {
+    id: 4057,
+    name: "Light Blue Orbit Loader",
+    preview: (
+      <div className="loader-4057">
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4057">
+    <span></span>
+</div>`,
+    css: `.loader-4057{position:relative;width:38px;height:38px;border:2px solid #e0f2fe;border-radius:50%}.loader-4057 span{position:absolute;left:50%;top:-4px;width:8px;height:8px;border-radius:50%;background:#38bdf8;box-shadow:0 2px 7px rgba(56,189,248,.3);transform-origin:0 23px;animation:loader4057Orbit 1.1s linear infinite}@keyframes loader4057Orbit{to{transform:rotate(360deg)}}`,
+  },
+  {
+    id: 4058,
+    name: "Light Blue Soft Pulse",
+    preview: (
+      <div className="loader-4058">
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4058">
+    <span></span>
+</div>`,
+    css: `.loader-4058{position:relative;width:38px;height:38px;display:grid;place-items:center}.loader-4058::before,.loader-4058::after{content:"";position:absolute;border:1px solid #7dd3fc;border-radius:50%;animation:loader4058Wave 1.7s ease-out infinite}.loader-4058::after{animation-delay:.55s}.loader-4058 span{width:10px;height:10px;border-radius:50%;background:#38bdf8;animation:loader4058Core 1.2s ease-in-out infinite}@keyframes loader4058Wave{0%{width:10px;height:10px;opacity:.8}100%{width:36px;height:36px;opacity:0}}@keyframes loader4058Core{0%,100%{transform:scale(.85)}50%{transform:scale(1.15)}}`,
+  },
+  {
+    id: 4059,
+    name: "Light Blue Sliding Line",
+    preview: (
+      <div className="loader-4059">
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4059">
+    <span></span>
+</div>`,
+    css: `.loader-4059{position:relative;width:108px;height:5px;overflow:hidden;border-radius:999px;background:#e0f2fe}.loader-4059 span{position:absolute;top:0;bottom:0;left:-36%;width:36%;border-radius:inherit;background:#38bdf8;animation:loader4059Slide 1.25s ease-in-out infinite}@keyframes loader4059Slide{0%{left:-36%;width:28%}50%{width:48%}100%{left:108%;width:28%}}`,
+  },
+  {
+    id: 4060,
+    name: "Light Blue Bounce Bars",
+    preview: (
+      <div className="loader-4060">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4060">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4060{height:34px;display:flex;align-items:center;gap:5px}.loader-4060 span{width:6px;height:18px;border-radius:4px;background:#7dd3fc;animation:loader4060Bar 1s ease-in-out infinite}.loader-4060 span:nth-child(2){animation-delay:.14s}.loader-4060 span:nth-child(3){animation-delay:.28s}@keyframes loader4060Bar{0%,100%{height:12px;opacity:.45}50%{height:30px;opacity:1;background:#38bdf8}}`,
+  },
+  {
+    id: 4061,
+    name: "Light Blue Corner Dots",
+    preview: (
+      <div className="loader-4061">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4061">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4061{position:relative;width:34px;height:34px;animation:loader4061Rotate 1.6s linear infinite}.loader-4061 span{position:absolute;width:7px;height:7px;border-radius:50%;background:#7dd3fc;animation:loader4061Dot 1.2s ease-in-out infinite}.loader-4061 span:nth-child(1){left:1px;top:1px}.loader-4061 span:nth-child(2){right:1px;top:1px;animation-delay:.15s}.loader-4061 span:nth-child(3){right:1px;bottom:1px;animation-delay:.3s}.loader-4061 span:nth-child(4){left:1px;bottom:1px;animation-delay:.45s}@keyframes loader4061Rotate{to{transform:rotate(360deg)}}@keyframes loader4061Dot{0%,100%{transform:scale(.65);opacity:.35}50%{transform:scale(1.15);opacity:1;background:#38bdf8}}`,
+  },
+  {
+    id: 4062,
+    name: "Light Blue Double Pulse",
+    preview: (
+      <div className="loader-4062">
+        <span className="loader-4062-dot loader-4062-dot-1"></span>
+        <span className="loader-4062-dot loader-4062-dot-2"></span>
+      </div>
+    ),
+    html: `<div class="loader-4062">
+    <span class="loader-4062-dot loader-4062-dot-1"></span>
+    <span class="loader-4062-dot loader-4062-dot-2"></span>
+</div>`,
+    css: `.loader-4062{height:30px;display:flex;align-items:center;gap:7px}.loader-4062-dot{width:11px;height:11px;border-radius:50%;background:#7dd3fc;animation:loader4062Pulse 1s ease-in-out infinite}.loader-4062-dot-2{animation-delay:.2s}@keyframes loader4062Pulse{0%,100%{transform:scale(.65);opacity:.35}50%{transform:scale(1.15);opacity:1;background:#38bdf8;box-shadow:0 3px 8px rgba(56,189,248,.25)}}`,
+  },
+  {
+    id: 4063,
+    name: "Light Blue Segment Spinner",
+    preview: (
+      <div className="loader-4063">
+        <span className="loader-4063-segment loader-4063-segment-1"></span>
+        <span className="loader-4063-segment loader-4063-segment-2"></span>
+        <span className="loader-4063-segment loader-4063-segment-3"></span>
+        <span className="loader-4063-segment loader-4063-segment-4"></span>
+        <span className="loader-4063-segment loader-4063-segment-5"></span>
+        <span className="loader-4063-segment loader-4063-segment-6"></span>
+        <span className="loader-4063-segment loader-4063-segment-7"></span>
+        <span className="loader-4063-segment loader-4063-segment-8"></span>
+      </div>
+    ),
+    html: `<div class="loader-4063">
+    <span class="loader-4063-segment loader-4063-segment-1"></span>
+    <span class="loader-4063-segment loader-4063-segment-2"></span>
+    <span class="loader-4063-segment loader-4063-segment-3"></span>
+    <span class="loader-4063-segment loader-4063-segment-4"></span>
+    <span class="loader-4063-segment loader-4063-segment-5"></span>
+    <span class="loader-4063-segment loader-4063-segment-6"></span>
+    <span class="loader-4063-segment loader-4063-segment-7"></span>
+    <span class="loader-4063-segment loader-4063-segment-8"></span>
+</div>`,
+    css: `.loader-4063{position:relative;width:38px;height:38px;animation:loader4063Rotate 1.25s linear infinite}.loader-4063-segment{position:absolute;left:17px;top:1px;width:4px;height:10px;border-radius:999px;transform-origin:2px 18px;background:#38bdf8}.loader-4063-segment-1{transform:rotate(0deg);opacity:1}.loader-4063-segment-2{transform:rotate(45deg);opacity:.86}.loader-4063-segment-3{transform:rotate(90deg);opacity:.74}.loader-4063-segment-4{transform:rotate(135deg);opacity:.62}.loader-4063-segment-5{transform:rotate(180deg);opacity:.5}.loader-4063-segment-6{transform:rotate(225deg);opacity:.38}.loader-4063-segment-7{transform:rotate(270deg);opacity:.26}.loader-4063-segment-8{transform:rotate(315deg);opacity:.14}@keyframes loader4063Rotate{to{transform:rotate(360deg)}}`,
+  },
 ];
