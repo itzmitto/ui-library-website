@@ -70792,18 +70792,19 @@ export const loaders = [
     </svg>
 </div>`,
     css: `.loader-4087{width:94px;height:44px;display:grid;place-items:center}.loader-4087 svg{width:100%;height:100%;overflow:visible;fill:none}.loader-4087-track{stroke:#e0e7ff;stroke-width:5;stroke-linecap:round}.loader-4087-runner{stroke:#6366f1;stroke-width:5;stroke-linecap:round;stroke-dasharray:16 84;animation:loader4087Flow 1.7s linear infinite}@keyframes loader4087Flow{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}@media(prefers-reduced-motion:reduce){.loader-4087-runner{animation:none;stroke-dashoffset:0;stroke-dasharray:42 58}}`,
-  },{
-  id: 4088,
-  name: "Soft Ring Spinner",
-  preview: (
-    <div className="loader-4088" role="status" aria-label="Loading">
-      <span className="loader-4088-ring"></span>
-    </div>
-  ),
-  html: `<div class="loader-4088" role="status" aria-label="Loading">
+  },
+  {
+    id: 4088,
+    name: "Soft Ring Spinner",
+    preview: (
+      <div className="loader-4088" role="status" aria-label="Loading">
+        <span className="loader-4088-ring"></span>
+      </div>
+    ),
+    html: `<div class="loader-4088" role="status" aria-label="Loading">
     <span class="loader-4088-ring"></span>
 </div>`,
-  css: `.loader-4088 {
+    css: `.loader-4088 {
     width: 42px;
     height: 42px;
     display: grid;
@@ -70828,21 +70829,21 @@ export const loaders = [
         animation: none;
     }
 }`,
-},
-{
-  id: 4089,
-  name: "Dual Pulse Ring",
-  preview: (
-    <div className="loader-4089" role="status" aria-label="Loading">
-      <span className="loader-4089-ring loader-4089-ring-1"></span>
-      <span className="loader-4089-ring loader-4089-ring-2"></span>
-    </div>
-  ),
-  html: `<div class="loader-4089" role="status" aria-label="Loading">
+  },
+  {
+    id: 4089,
+    name: "Dual Pulse Ring",
+    preview: (
+      <div className="loader-4089" role="status" aria-label="Loading">
+        <span className="loader-4089-ring loader-4089-ring-1"></span>
+        <span className="loader-4089-ring loader-4089-ring-2"></span>
+      </div>
+    ),
+    html: `<div class="loader-4089" role="status" aria-label="Loading">
     <span class="loader-4089-ring loader-4089-ring-1"></span>
     <span class="loader-4089-ring loader-4089-ring-2"></span>
 </div>`,
-  css: `.loader-4089 {
+    css: `.loader-4089 {
     position: relative;
     width: 44px;
     height: 44px;
@@ -70874,21 +70875,21 @@ export const loaders = [
         transform: none;
     }
 }`,
-},
-{
-  id: 4090,
-  name: "Six Dot Spinner",
-  preview: (
-    <div className="loader-4090" role="status" aria-label="Loading">
-      <span className="loader-4090-dot loader-4090-dot-1"></span>
-      <span className="loader-4090-dot loader-4090-dot-2"></span>
-      <span className="loader-4090-dot loader-4090-dot-3"></span>
-      <span className="loader-4090-dot loader-4090-dot-4"></span>
-      <span className="loader-4090-dot loader-4090-dot-5"></span>
-      <span className="loader-4090-dot loader-4090-dot-6"></span>
-    </div>
-  ),
-  html: `<div class="loader-4090" role="status" aria-label="Loading">
+  },
+  {
+    id: 4090,
+    name: "Six Dot Spinner",
+    preview: (
+      <div className="loader-4090" role="status" aria-label="Loading">
+        <span className="loader-4090-dot loader-4090-dot-1"></span>
+        <span className="loader-4090-dot loader-4090-dot-2"></span>
+        <span className="loader-4090-dot loader-4090-dot-3"></span>
+        <span className="loader-4090-dot loader-4090-dot-4"></span>
+        <span className="loader-4090-dot loader-4090-dot-5"></span>
+        <span className="loader-4090-dot loader-4090-dot-6"></span>
+      </div>
+    ),
+    html: `<div class="loader-4090" role="status" aria-label="Loading">
     <span class="loader-4090-dot loader-4090-dot-1"></span>
     <span class="loader-4090-dot loader-4090-dot-2"></span>
     <span class="loader-4090-dot loader-4090-dot-3"></span>
@@ -70896,7 +70897,7 @@ export const loaders = [
     <span class="loader-4090-dot loader-4090-dot-5"></span>
     <span class="loader-4090-dot loader-4090-dot-6"></span>
 </div>`,
-  css: `.loader-4090 {
+    css: `.loader-4090 {
     position: relative;
     width: 42px;
     height: 42px;
@@ -70951,23 +70952,23 @@ export const loaders = [
         animation: none;
     }
 }`,
-},
-{
-  id: 4091,
-  name: "Three Bounce Dots",
-  preview: (
-    <div className="loader-4091" role="status" aria-label="Loading">
-      <span className="loader-4091-dot loader-4091-dot-1"></span>
-      <span className="loader-4091-dot loader-4091-dot-2"></span>
-      <span className="loader-4091-dot loader-4091-dot-3"></span>
-    </div>
-  ),
-  html: `<div class="loader-4091" role="status" aria-label="Loading">
+  },
+  {
+    id: 4091,
+    name: "Three Bounce Dots",
+    preview: (
+      <div className="loader-4091" role="status" aria-label="Loading">
+        <span className="loader-4091-dot loader-4091-dot-1"></span>
+        <span className="loader-4091-dot loader-4091-dot-2"></span>
+        <span className="loader-4091-dot loader-4091-dot-3"></span>
+      </div>
+    ),
+    html: `<div class="loader-4091" role="status" aria-label="Loading">
     <span class="loader-4091-dot loader-4091-dot-1"></span>
     <span class="loader-4091-dot loader-4091-dot-2"></span>
     <span class="loader-4091-dot loader-4091-dot-3"></span>
 </div>`,
-  css: `.loader-4091 {
+    css: `.loader-4091 {
     height: 26px;
     display: flex;
     align-items: flex-end;
@@ -71003,21 +71004,21 @@ export const loaders = [
         transform: none;
     }
 }`,
-},
-{
-  id: 4092,
-  name: "Shimmer Progress Bar",
-  preview: (
-    <div className="loader-4092" role="status" aria-label="Loading">
-      <span className="loader-4092-track"></span>
-      <span className="loader-4092-bar"></span>
-    </div>
-  ),
-  html: `<div class="loader-4092" role="status" aria-label="Loading">
+  },
+  {
+    id: 4092,
+    name: "Shimmer Progress Bar",
+    preview: (
+      <div className="loader-4092" role="status" aria-label="Loading">
+        <span className="loader-4092-track"></span>
+        <span className="loader-4092-bar"></span>
+      </div>
+    ),
+    html: `<div class="loader-4092" role="status" aria-label="Loading">
     <span class="loader-4092-track"></span>
     <span class="loader-4092-bar"></span>
 </div>`,
-  css: `.loader-4092 {
+    css: `.loader-4092 {
     position: relative;
     width: 118px;
     height: 10px;
@@ -71060,25 +71061,25 @@ export const loaders = [
         width: 40%;
     }
 }`,
-},
-{
-  id: 4093,
-  name: "Orbit Dot Loader",
-  preview: (
-    <div className="loader-4093" role="status" aria-label="Loading">
-      <span className="loader-4093-core"></span>
-      <span className="loader-4093-orbit">
-        <span className="loader-4093-dot"></span>
-      </span>
-    </div>
-  ),
-  html: `<div class="loader-4093" role="status" aria-label="Loading">
+  },
+  {
+    id: 4093,
+    name: "Orbit Dot Loader",
+    preview: (
+      <div className="loader-4093" role="status" aria-label="Loading">
+        <span className="loader-4093-core"></span>
+        <span className="loader-4093-orbit">
+          <span className="loader-4093-dot"></span>
+        </span>
+      </div>
+    ),
+    html: `<div class="loader-4093" role="status" aria-label="Loading">
     <span class="loader-4093-core"></span>
     <span class="loader-4093-orbit">
         <span class="loader-4093-dot"></span>
     </span>
 </div>`,
-  css: `.loader-4093 {
+    css: `.loader-4093 {
     position: relative;
     width: 42px;
     height: 42px;
@@ -71119,25 +71120,25 @@ export const loaders = [
         animation: none;
     }
 }`,
-},
-{
-  id: 4094,
-  name: "Equalizer Bars Loader",
-  preview: (
-    <div className="loader-4094" role="status" aria-label="Loading">
-      <span className="loader-4094-bar loader-4094-bar-1"></span>
-      <span className="loader-4094-bar loader-4094-bar-2"></span>
-      <span className="loader-4094-bar loader-4094-bar-3"></span>
-      <span className="loader-4094-bar loader-4094-bar-4"></span>
-    </div>
-  ),
-  html: `<div class="loader-4094" role="status" aria-label="Loading">
+  },
+  {
+    id: 4094,
+    name: "Equalizer Bars Loader",
+    preview: (
+      <div className="loader-4094" role="status" aria-label="Loading">
+        <span className="loader-4094-bar loader-4094-bar-1"></span>
+        <span className="loader-4094-bar loader-4094-bar-2"></span>
+        <span className="loader-4094-bar loader-4094-bar-3"></span>
+        <span className="loader-4094-bar loader-4094-bar-4"></span>
+      </div>
+    ),
+    html: `<div class="loader-4094" role="status" aria-label="Loading">
     <span class="loader-4094-bar loader-4094-bar-1"></span>
     <span class="loader-4094-bar loader-4094-bar-2"></span>
     <span class="loader-4094-bar loader-4094-bar-3"></span>
     <span class="loader-4094-bar loader-4094-bar-4"></span>
 </div>`,
-  css: `.loader-4094 {
+    css: `.loader-4094 {
     height: 28px;
     display: flex;
     align-items: flex-end;
@@ -71176,27 +71177,27 @@ export const loaders = [
         opacity: 1;
     }
 }`,
-},
-{
-  id: 4095,
-  name: "Wave Pulse Loader",
-  preview: (
-    <div className="loader-4095" role="status" aria-label="Loading">
-      <span className="loader-4095-dot loader-4095-dot-1"></span>
-      <span className="loader-4095-dot loader-4095-dot-2"></span>
-      <span className="loader-4095-dot loader-4095-dot-3"></span>
-      <span className="loader-4095-dot loader-4095-dot-4"></span>
-      <span className="loader-4095-dot loader-4095-dot-5"></span>
-    </div>
-  ),
-  html: `<div class="loader-4095" role="status" aria-label="Loading">
+  },
+  {
+    id: 4095,
+    name: "Wave Pulse Loader",
+    preview: (
+      <div className="loader-4095" role="status" aria-label="Loading">
+        <span className="loader-4095-dot loader-4095-dot-1"></span>
+        <span className="loader-4095-dot loader-4095-dot-2"></span>
+        <span className="loader-4095-dot loader-4095-dot-3"></span>
+        <span className="loader-4095-dot loader-4095-dot-4"></span>
+        <span className="loader-4095-dot loader-4095-dot-5"></span>
+      </div>
+    ),
+    html: `<div class="loader-4095" role="status" aria-label="Loading">
     <span class="loader-4095-dot loader-4095-dot-1"></span>
     <span class="loader-4095-dot loader-4095-dot-2"></span>
     <span class="loader-4095-dot loader-4095-dot-3"></span>
     <span class="loader-4095-dot loader-4095-dot-4"></span>
     <span class="loader-4095-dot loader-4095-dot-5"></span>
 </div>`,
-  css: `.loader-4095 {
+    css: `.loader-4095 {
     height: 22px;
     display: flex;
     align-items: center;
@@ -71238,25 +71239,25 @@ export const loaders = [
         transform: none;
     }
 }`,
-},
-{
-  id: 4096,
-  name: "Four Square Grid Loader",
-  preview: (
-    <div className="loader-4096" role="status" aria-label="Loading">
-      <span className="loader-4096-cell loader-4096-cell-1"></span>
-      <span className="loader-4096-cell loader-4096-cell-2"></span>
-      <span className="loader-4096-cell loader-4096-cell-3"></span>
-      <span className="loader-4096-cell loader-4096-cell-4"></span>
-    </div>
-  ),
-  html: `<div class="loader-4096" role="status" aria-label="Loading">
+  },
+  {
+    id: 4096,
+    name: "Four Square Grid Loader",
+    preview: (
+      <div className="loader-4096" role="status" aria-label="Loading">
+        <span className="loader-4096-cell loader-4096-cell-1"></span>
+        <span className="loader-4096-cell loader-4096-cell-2"></span>
+        <span className="loader-4096-cell loader-4096-cell-3"></span>
+        <span className="loader-4096-cell loader-4096-cell-4"></span>
+      </div>
+    ),
+    html: `<div class="loader-4096" role="status" aria-label="Loading">
     <span class="loader-4096-cell loader-4096-cell-1"></span>
     <span class="loader-4096-cell loader-4096-cell-2"></span>
     <span class="loader-4096-cell loader-4096-cell-3"></span>
     <span class="loader-4096-cell loader-4096-cell-4"></span>
 </div>`,
-  css: `.loader-4096 {
+    css: `.loader-4096 {
     width: 28px;
     height: 28px;
     display: grid;
@@ -71294,27 +71295,27 @@ export const loaders = [
         transform: none;
     }
 }`,
-},
-{
-  id: 4097,
-  name: "Twelve Fade Spinner",
-  preview: (
-    <div className="loader-4097" role="status" aria-label="Loading">
-      <span className="loader-4097-segment loader-4097-segment-1"></span>
-      <span className="loader-4097-segment loader-4097-segment-2"></span>
-      <span className="loader-4097-segment loader-4097-segment-3"></span>
-      <span className="loader-4097-segment loader-4097-segment-4"></span>
-      <span className="loader-4097-segment loader-4097-segment-5"></span>
-      <span className="loader-4097-segment loader-4097-segment-6"></span>
-      <span className="loader-4097-segment loader-4097-segment-7"></span>
-      <span className="loader-4097-segment loader-4097-segment-8"></span>
-      <span className="loader-4097-segment loader-4097-segment-9"></span>
-      <span className="loader-4097-segment loader-4097-segment-10"></span>
-      <span className="loader-4097-segment loader-4097-segment-11"></span>
-      <span className="loader-4097-segment loader-4097-segment-12"></span>
-    </div>
-  ),
-  html: `<div class="loader-4097" role="status" aria-label="Loading">
+  },
+  {
+    id: 4097,
+    name: "Twelve Fade Spinner",
+    preview: (
+      <div className="loader-4097" role="status" aria-label="Loading">
+        <span className="loader-4097-segment loader-4097-segment-1"></span>
+        <span className="loader-4097-segment loader-4097-segment-2"></span>
+        <span className="loader-4097-segment loader-4097-segment-3"></span>
+        <span className="loader-4097-segment loader-4097-segment-4"></span>
+        <span className="loader-4097-segment loader-4097-segment-5"></span>
+        <span className="loader-4097-segment loader-4097-segment-6"></span>
+        <span className="loader-4097-segment loader-4097-segment-7"></span>
+        <span className="loader-4097-segment loader-4097-segment-8"></span>
+        <span className="loader-4097-segment loader-4097-segment-9"></span>
+        <span className="loader-4097-segment loader-4097-segment-10"></span>
+        <span className="loader-4097-segment loader-4097-segment-11"></span>
+        <span className="loader-4097-segment loader-4097-segment-12"></span>
+      </div>
+    ),
+    html: `<div class="loader-4097" role="status" aria-label="Loading">
     <span class="loader-4097-segment loader-4097-segment-1"></span>
     <span class="loader-4097-segment loader-4097-segment-2"></span>
     <span class="loader-4097-segment loader-4097-segment-3"></span>
@@ -71328,7 +71329,7 @@ export const loaders = [
     <span class="loader-4097-segment loader-4097-segment-11"></span>
     <span class="loader-4097-segment loader-4097-segment-12"></span>
 </div>`,
-  css: `.loader-4097 {
+    css: `.loader-4097 {
     position: relative;
     width: 38px;
     height: 38px;
@@ -71406,5 +71407,5 @@ export const loaders = [
         opacity: .7;
     }
 }`,
-},
+  },
 ];
