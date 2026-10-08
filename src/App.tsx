@@ -60,7 +60,7 @@ const features = [
 const stats = [
   {
     icon: "ri-box-3-line",
-    value: "3000+",
+    value: "4000+",
     label: "Components",
   },
   {
