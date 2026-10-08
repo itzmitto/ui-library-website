@@ -72421,176 +72421,178 @@ export const loaders = [
     <span class="loader-4127-center"></span>
 </div>`,
     css: `.loader-4127{position:relative;width:50px;height:50px;display:grid;place-items:center}.loader-4127-ring{position:absolute;border-radius:50%}.loader-4127-ring-1{inset:2px;border:3px solid transparent;border-top-color:#0ea5e9;border-right-color:#7dd3fc;animation:loader4127Outer 1.2s linear infinite}.loader-4127-ring-2{inset:10px;border:2px solid transparent;border-top-color:#bae6fd;border-left-color:#38bdf8;animation:loader4127Inner .85s linear infinite reverse}.loader-4127-ring-3{inset:17px;border:2px solid transparent;border-bottom-color:#0284c7;border-right-color:#67e8f9;animation:loader4127Inner 1.4s linear infinite}.loader-4127-center{width:5px;height:5px;border-radius:50%;background:#e0f2fe;box-shadow:0 0 8px rgba(56,189,248,.65)}@keyframes loader4127Outer{to{transform:rotate(360deg)}}@keyframes loader4127Inner{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4127-ring{animation:none}}`,
-  },{
-  id: 4128,
-  name: "Obsidian Halo Loader",
-  preview: (
-    <div className="loader-4128" role="status" aria-label="Laden">
-      <span className="loader-4128-ring"></span>
-      <span className="loader-4128-core"></span>
-    </div>
-  ),
-  html: `<div class="loader-4128" role="status" aria-label="Laden">
+  },
+  {
+    id: 4128,
+    name: "Obsidian Halo Loader",
+    preview: (
+      <div className="loader-4128" role="status" aria-label="Laden">
+        <span className="loader-4128-ring"></span>
+        <span className="loader-4128-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-4128" role="status" aria-label="Laden">
     <span class="loader-4128-ring"></span>
     <span class="loader-4128-core"></span>
 </div>`,
-  css: `.loader-4128{position:relative;width:42px;height:42px;display:grid;place-items:center}.loader-4128-ring{position:absolute;inset:3px;border:3px solid #334155;border-top-color:#e2e8f0;border-right-color:#94a3b8;border-radius:50%;animation:loader4128Rotate .9s linear infinite}.loader-4128-core{width:9px;height:9px;border-radius:50%;background:#0f172a;box-shadow:0 0 0 3px #cbd5e1;animation:loader4128Pulse 1.4s ease-in-out infinite}@keyframes loader4128Rotate{to{transform:rotate(360deg)}}@keyframes loader4128Pulse{0%,100%{transform:scale(.7);opacity:.6}50%{transform:scale(1);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4128-ring,.loader-4128-core{animation:none}}`,
-},
-{
-  id: 4129,
-  name: "Midnight Flip Tiles Loader",
-  preview: (
-    <div className="loader-4129" role="status" aria-label="Laden">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  ),
-  html: `<div class="loader-4129" role="status" aria-label="Laden">
+    css: `.loader-4128{position:relative;width:42px;height:42px;display:grid;place-items:center}.loader-4128-ring{position:absolute;inset:3px;border:3px solid #334155;border-top-color:#e2e8f0;border-right-color:#94a3b8;border-radius:50%;animation:loader4128Rotate .9s linear infinite}.loader-4128-core{width:9px;height:9px;border-radius:50%;background:#0f172a;box-shadow:0 0 0 3px #cbd5e1;animation:loader4128Pulse 1.4s ease-in-out infinite}@keyframes loader4128Rotate{to{transform:rotate(360deg)}}@keyframes loader4128Pulse{0%,100%{transform:scale(.7);opacity:.6}50%{transform:scale(1);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4128-ring,.loader-4128-core{animation:none}}`,
+  },
+  {
+    id: 4129,
+    name: "Midnight Flip Tiles Loader",
+    preview: (
+      <div className="loader-4129" role="status" aria-label="Laden">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4129" role="status" aria-label="Laden">
     <span></span>
     <span></span>
     <span></span>
     <span></span>
 </div>`,
-  css: `.loader-4129{width:42px;height:42px;display:grid;grid-template-columns:repeat(2,1fr);gap:5px;perspective:150px}.loader-4129 span{border-radius:4px;background:#312e81;transform-origin:center;animation:loader4129Flip 1.8s ease-in-out infinite}.loader-4129 span:nth-child(2){background:#4338ca;animation-delay:.2s}.loader-4129 span:nth-child(3){background:#818cf8;animation-delay:.6s}.loader-4129 span:nth-child(4){background:#6366f1;animation-delay:.4s}@keyframes loader4129Flip{0%,100%{transform:rotateX(0deg) scale(.85);opacity:.55}50%{transform:rotateX(180deg) scale(1);opacity:1;filter:brightness(1.2)}}@media(prefers-reduced-motion:reduce){.loader-4129 span{animation:none;transform:none;opacity:1}}`,
-},
-{
-  id: 4130,
-  name: "Midnight Cyan Rail Loader",
-  preview: (
-    <div className="loader-4130" role="status" aria-label="Laden">
-      <span className="loader-4130-energy"></span>
-    </div>
-  ),
-  html: `<div class="loader-4130" role="status" aria-label="Laden">
+    css: `.loader-4129{width:42px;height:42px;display:grid;grid-template-columns:repeat(2,1fr);gap:5px;perspective:150px}.loader-4129 span{border-radius:4px;background:#312e81;transform-origin:center;animation:loader4129Flip 1.8s ease-in-out infinite}.loader-4129 span:nth-child(2){background:#4338ca;animation-delay:.2s}.loader-4129 span:nth-child(3){background:#818cf8;animation-delay:.6s}.loader-4129 span:nth-child(4){background:#6366f1;animation-delay:.4s}@keyframes loader4129Flip{0%,100%{transform:rotateX(0deg) scale(.85);opacity:.55}50%{transform:rotateX(180deg) scale(1);opacity:1;filter:brightness(1.2)}}@media(prefers-reduced-motion:reduce){.loader-4129 span{animation:none;transform:none;opacity:1}}`,
+  },
+  {
+    id: 4130,
+    name: "Midnight Cyan Rail Loader",
+    preview: (
+      <div className="loader-4130" role="status" aria-label="Laden">
+        <span className="loader-4130-energy"></span>
+      </div>
+    ),
+    html: `<div class="loader-4130" role="status" aria-label="Laden">
     <span class="loader-4130-energy"></span>
 </div>`,
-  css: `.loader-4130{position:relative;width:124px;height:9px;overflow:hidden;border:1px solid #334155;border-radius:999px;background:#0f172a;box-sizing:border-box}.loader-4130-energy{position:absolute;top:0;bottom:0;left:-45%;width:42%;border-radius:999px;background:linear-gradient(90deg,#164e63,#0891b2,#67e8f9);box-shadow:0 0 10px rgba(34,211,238,.4);animation:loader4130Sweep 1.5s ease-in-out infinite}.loader-4130-energy::after{content:"";position:absolute;right:12%;top:0;width:14%;height:100%;background:#cffafe;filter:blur(2px)}@keyframes loader4130Sweep{from{left:-45%}to{left:105%}}@media(prefers-reduced-motion:reduce){.loader-4130-energy{animation:none;left:29%}}`,
-},
-{
-  id: 4131,
-  name: "Carbon Chevron Flow Loader",
-  preview: (
-    <div className="loader-4131" role="status" aria-label="Laden">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  ),
-  html: `<div class="loader-4131" role="status" aria-label="Laden">
+    css: `.loader-4130{position:relative;width:124px;height:9px;overflow:hidden;border:1px solid #334155;border-radius:999px;background:#0f172a;box-sizing:border-box}.loader-4130-energy{position:absolute;top:0;bottom:0;left:-45%;width:42%;border-radius:999px;background:linear-gradient(90deg,#164e63,#0891b2,#67e8f9);box-shadow:0 0 10px rgba(34,211,238,.4);animation:loader4130Sweep 1.5s ease-in-out infinite}.loader-4130-energy::after{content:"";position:absolute;right:12%;top:0;width:14%;height:100%;background:#cffafe;filter:blur(2px)}@keyframes loader4130Sweep{from{left:-45%}to{left:105%}}@media(prefers-reduced-motion:reduce){.loader-4130-energy{animation:none;left:29%}}`,
+  },
+  {
+    id: 4131,
+    name: "Carbon Chevron Flow Loader",
+    preview: (
+      <div className="loader-4131" role="status" aria-label="Laden">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4131" role="status" aria-label="Laden">
     <span></span>
     <span></span>
     <span></span>
     <span></span>
     <span></span>
 </div>`,
-  css: `.loader-4131{width:82px;height:28px;display:flex;align-items:center;justify-content:center;gap:3px}.loader-4131 span{width:12px;height:19px;flex:none;clip-path:polygon(0 0,50% 0,100% 50%,50% 100%,0 100%,50% 50%);background:#57534e;animation:loader4131Chevron 1.3s ease-in-out infinite}.loader-4131 span:nth-child(2){animation-delay:.13s}.loader-4131 span:nth-child(3){animation-delay:.26s}.loader-4131 span:nth-child(4){animation-delay:.39s}.loader-4131 span:nth-child(5){animation-delay:.52s}@keyframes loader4131Chevron{0%,100%{transform:translateX(-2px);opacity:.35;background:#57534e}50%{transform:translateX(3px);opacity:1;background:#f59e0b}}@media(prefers-reduced-motion:reduce){.loader-4131 span{animation:none;opacity:1;transform:none}.loader-4131 span:nth-child(3){background:#f59e0b}}`,
-},
-{
-  id: 4132,
-  name: "Onyx Radar Sweep Loader",
-  preview: (
-    <div className="loader-4132" role="status" aria-label="Laden">
-      <span className="loader-4132-sweep"></span>
-      <span className="loader-4132-orbit"></span>
-      <span className="loader-4132-center"></span>
-    </div>
-  ),
-  html: `<div class="loader-4132" role="status" aria-label="Laden">
+    css: `.loader-4131{width:82px;height:28px;display:flex;align-items:center;justify-content:center;gap:3px}.loader-4131 span{width:12px;height:19px;flex:none;clip-path:polygon(0 0,50% 0,100% 50%,50% 100%,0 100%,50% 50%);background:#57534e;animation:loader4131Chevron 1.3s ease-in-out infinite}.loader-4131 span:nth-child(2){animation-delay:.13s}.loader-4131 span:nth-child(3){animation-delay:.26s}.loader-4131 span:nth-child(4){animation-delay:.39s}.loader-4131 span:nth-child(5){animation-delay:.52s}@keyframes loader4131Chevron{0%,100%{transform:translateX(-2px);opacity:.35;background:#57534e}50%{transform:translateX(3px);opacity:1;background:#f59e0b}}@media(prefers-reduced-motion:reduce){.loader-4131 span{animation:none;opacity:1;transform:none}.loader-4131 span:nth-child(3){background:#f59e0b}}`,
+  },
+  {
+    id: 4132,
+    name: "Onyx Radar Sweep Loader",
+    preview: (
+      <div className="loader-4132" role="status" aria-label="Laden">
+        <span className="loader-4132-sweep"></span>
+        <span className="loader-4132-orbit"></span>
+        <span className="loader-4132-center"></span>
+      </div>
+    ),
+    html: `<div class="loader-4132" role="status" aria-label="Laden">
     <span class="loader-4132-sweep"></span>
     <span class="loader-4132-orbit"></span>
     <span class="loader-4132-center"></span>
 </div>`,
-  css: `.loader-4132{position:relative;width:44px;height:44px;display:grid;place-items:center;overflow:hidden;border:2px solid #334155;border-radius:50%;background:#0f172a;box-sizing:border-box}.loader-4132-sweep{position:absolute;inset:2px;border-radius:50%;background:conic-gradient(transparent 0deg,transparent 260deg,rgba(45,212,191,.12) 305deg,#2dd4bf 360deg);animation:loader4132Sweep 1.7s linear infinite}.loader-4132-orbit{position:absolute;inset:11px;border:1px dashed rgba(153,246,228,.4);border-radius:50%}.loader-4132-center{position:relative;width:7px;height:7px;border-radius:50%;background:#99f6e4;box-shadow:0 0 7px rgba(45,212,191,.55)}@keyframes loader4132Sweep{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4132-sweep{animation:none}}`,
-},
-{
-  id: 4133,
-  name: "Slate Liquid Drop Loader",
-  preview: (
-    <div className="loader-4133" role="status" aria-label="Laden">
-      <span className="loader-4133-drop"></span>
-      <span className="loader-4133-ripple loader-4133-ripple-1"></span>
-      <span className="loader-4133-ripple loader-4133-ripple-2"></span>
-    </div>
-  ),
-  html: `<div class="loader-4133" role="status" aria-label="Laden">
+    css: `.loader-4132{position:relative;width:44px;height:44px;display:grid;place-items:center;overflow:hidden;border:2px solid #334155;border-radius:50%;background:#0f172a;box-sizing:border-box}.loader-4132-sweep{position:absolute;inset:2px;border-radius:50%;background:conic-gradient(transparent 0deg,transparent 260deg,rgba(45,212,191,.12) 305deg,#2dd4bf 360deg);animation:loader4132Sweep 1.7s linear infinite}.loader-4132-orbit{position:absolute;inset:11px;border:1px dashed rgba(153,246,228,.4);border-radius:50%}.loader-4132-center{position:relative;width:7px;height:7px;border-radius:50%;background:#99f6e4;box-shadow:0 0 7px rgba(45,212,191,.55)}@keyframes loader4132Sweep{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4132-sweep{animation:none}}`,
+  },
+  {
+    id: 4133,
+    name: "Slate Liquid Drop Loader",
+    preview: (
+      <div className="loader-4133" role="status" aria-label="Laden">
+        <span className="loader-4133-drop"></span>
+        <span className="loader-4133-ripple loader-4133-ripple-1"></span>
+        <span className="loader-4133-ripple loader-4133-ripple-2"></span>
+      </div>
+    ),
+    html: `<div class="loader-4133" role="status" aria-label="Laden">
     <span class="loader-4133-drop"></span>
     <span class="loader-4133-ripple loader-4133-ripple-1"></span>
     <span class="loader-4133-ripple loader-4133-ripple-2"></span>
 </div>`,
-  css: `.loader-4133{position:relative;width:52px;height:50px}.loader-4133-drop{position:absolute;left:18px;top:3px;width:16px;height:23px;z-index:1;clip-path:polygon(50% 0,78% 37%,100% 65%,94% 85%,75% 100%,25% 100%,6% 85%,0 65%,22% 37%);background:linear-gradient(135deg,#e2e8f0,#64748b 55%,#1e293b);animation:loader4133Drop 1.65s cubic-bezier(.4,0,.3,1) infinite}.loader-4133-ripple{position:absolute;left:50%;bottom:4px;width:23px;height:8px;border:2px solid #94a3b8;border-radius:50%;transform:translateX(-50%);animation:loader4133Ripple 1.65s ease-out infinite}.loader-4133-ripple-2{animation-delay:.35s;opacity:.45}@keyframes loader4133Drop{0%,100%{transform:translateY(0) scale(.75);opacity:.55}48%{transform:translateY(17px) scale(1);opacity:1}58%{transform:translateY(18px) scaleY(.65);opacity:1}75%{transform:translateY(2px) scale(.8);opacity:.65}}@keyframes loader4133Ripple{0%,40%{transform:translateX(-50%) scale(.45);opacity:0}58%{opacity:.85}100%{transform:translateX(-50%) scale(1.5);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4133-drop,.loader-4133-ripple{animation:none}.loader-4133-drop{transform:translateY(8px)}.loader-4133-ripple{transform:translateX(-50%);opacity:.7}.loader-4133-ripple-2{display:none}}`,
-},{
-  id: 4134,
-  name: "Obsidian Comet Spinner",
-  preview: (
-    <div className="loader-4134" role="status" aria-label="Laden">
-      <span className="loader-4134-track"></span>
-      <span className="loader-4134-comet"></span>
-      <span className="loader-4134-core"></span>
-    </div>
-  ),
-  html: `<div class="loader-4134" role="status" aria-label="Laden">
+    css: `.loader-4133{position:relative;width:52px;height:50px}.loader-4133-drop{position:absolute;left:18px;top:3px;width:16px;height:23px;z-index:1;clip-path:polygon(50% 0,78% 37%,100% 65%,94% 85%,75% 100%,25% 100%,6% 85%,0 65%,22% 37%);background:linear-gradient(135deg,#e2e8f0,#64748b 55%,#1e293b);animation:loader4133Drop 1.65s cubic-bezier(.4,0,.3,1) infinite}.loader-4133-ripple{position:absolute;left:50%;bottom:4px;width:23px;height:8px;border:2px solid #94a3b8;border-radius:50%;transform:translateX(-50%);animation:loader4133Ripple 1.65s ease-out infinite}.loader-4133-ripple-2{animation-delay:.35s;opacity:.45}@keyframes loader4133Drop{0%,100%{transform:translateY(0) scale(.75);opacity:.55}48%{transform:translateY(17px) scale(1);opacity:1}58%{transform:translateY(18px) scaleY(.65);opacity:1}75%{transform:translateY(2px) scale(.8);opacity:.65}}@keyframes loader4133Ripple{0%,40%{transform:translateX(-50%) scale(.45);opacity:0}58%{opacity:.85}100%{transform:translateX(-50%) scale(1.5);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4133-drop,.loader-4133-ripple{animation:none}.loader-4133-drop{transform:translateY(8px)}.loader-4133-ripple{transform:translateX(-50%);opacity:.7}.loader-4133-ripple-2{display:none}}`,
+  },
+  {
+    id: 4134,
+    name: "Obsidian Comet Spinner",
+    preview: (
+      <div className="loader-4134" role="status" aria-label="Laden">
+        <span className="loader-4134-track"></span>
+        <span className="loader-4134-comet"></span>
+        <span className="loader-4134-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-4134" role="status" aria-label="Laden">
     <span class="loader-4134-track"></span>
     <span class="loader-4134-comet"></span>
     <span class="loader-4134-core"></span>
 </div>`,
-  css: `.loader-4134{position:relative;width:44px;height:44px;display:grid;place-items:center}.loader-4134-track{position:absolute;inset:3px;border:3px solid #334155;border-radius:50%}.loader-4134-comet{position:absolute;inset:3px;border-radius:50%;background:conic-gradient(from 0deg,transparent 0deg,transparent 160deg,#475569 220deg,#94a3b8 285deg,#f8fafc 335deg,transparent 360deg);-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));animation:loader4134Spin 1s linear infinite}.loader-4134-core{width:7px;height:7px;border-radius:50%;background:#94a3b8;animation:loader4134Pulse 1.4s ease-in-out infinite}@keyframes loader4134Spin{to{transform:rotate(360deg)}}@keyframes loader4134Pulse{0%,100%{transform:scale(.7);opacity:.45}50%{transform:scale(1.15);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4134-comet,.loader-4134-core{animation:none}}`,
-},
-{
-  id: 4135,
-  name: "Violet Elastic Capsules",
-  preview: (
-    <div className="loader-4135" role="status" aria-label="Laden">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  ),
-  html: `<div class="loader-4135" role="status" aria-label="Laden">
+    css: `.loader-4134{position:relative;width:44px;height:44px;display:grid;place-items:center}.loader-4134-track{position:absolute;inset:3px;border:3px solid #334155;border-radius:50%}.loader-4134-comet{position:absolute;inset:3px;border-radius:50%;background:conic-gradient(from 0deg,transparent 0deg,transparent 160deg,#475569 220deg,#94a3b8 285deg,#f8fafc 335deg,transparent 360deg);-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));animation:loader4134Spin 1s linear infinite}.loader-4134-core{width:7px;height:7px;border-radius:50%;background:#94a3b8;animation:loader4134Pulse 1.4s ease-in-out infinite}@keyframes loader4134Spin{to{transform:rotate(360deg)}}@keyframes loader4134Pulse{0%,100%{transform:scale(.7);opacity:.45}50%{transform:scale(1.15);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4134-comet,.loader-4134-core{animation:none}}`,
+  },
+  {
+    id: 4135,
+    name: "Violet Elastic Capsules",
+    preview: (
+      <div className="loader-4135" role="status" aria-label="Laden">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4135" role="status" aria-label="Laden">
     <span></span>
     <span></span>
     <span></span>
     <span></span>
 </div>`,
-  css: `.loader-4135{width:90px;height:32px;display:flex;align-items:center;justify-content:center;gap:8px}.loader-4135 span{width:11px;height:7px;flex:none;border-radius:999px;background:#4c1d95;animation:loader4135Elastic 1.3s ease-in-out infinite}.loader-4135 span:nth-child(2){animation-delay:.15s}.loader-4135 span:nth-child(3){animation-delay:.3s}.loader-4135 span:nth-child(4){animation-delay:.45s}@keyframes loader4135Elastic{0%,100%{transform:translateY(3px) scaleX(.75);background:#4c1d95;opacity:.45}50%{transform:translateY(-5px) scaleX(1.25);background:#a78bfa;opacity:1;box-shadow:0 0 8px rgba(167,139,250,.3)}}@media(prefers-reduced-motion:reduce){.loader-4135 span{animation:none;transform:none;opacity:1}.loader-4135 span:nth-child(2),.loader-4135 span:nth-child(3){background:#a78bfa}}`,
-},
-{
-  id: 4136,
-  name: "Graphite Document Skeleton",
-  preview: (
-    <div className="loader-4136" role="status" aria-label="Inhoud laden">
-      <span className="loader-4136-title"></span>
-      <span className="loader-4136-line loader-4136-line-1"></span>
-      <span className="loader-4136-line loader-4136-line-2"></span>
-      <span className="loader-4136-line loader-4136-line-3"></span>
-    </div>
-  ),
-  html: `<div class="loader-4136" role="status" aria-label="Inhoud laden">
+    css: `.loader-4135{width:90px;height:32px;display:flex;align-items:center;justify-content:center;gap:8px}.loader-4135 span{width:11px;height:7px;flex:none;border-radius:999px;background:#4c1d95;animation:loader4135Elastic 1.3s ease-in-out infinite}.loader-4135 span:nth-child(2){animation-delay:.15s}.loader-4135 span:nth-child(3){animation-delay:.3s}.loader-4135 span:nth-child(4){animation-delay:.45s}@keyframes loader4135Elastic{0%,100%{transform:translateY(3px) scaleX(.75);background:#4c1d95;opacity:.45}50%{transform:translateY(-5px) scaleX(1.25);background:#a78bfa;opacity:1;box-shadow:0 0 8px rgba(167,139,250,.3)}}@media(prefers-reduced-motion:reduce){.loader-4135 span{animation:none;transform:none;opacity:1}.loader-4135 span:nth-child(2),.loader-4135 span:nth-child(3){background:#a78bfa}}`,
+  },
+  {
+    id: 4136,
+    name: "Graphite Document Skeleton",
+    preview: (
+      <div className="loader-4136" role="status" aria-label="Inhoud laden">
+        <span className="loader-4136-title"></span>
+        <span className="loader-4136-line loader-4136-line-1"></span>
+        <span className="loader-4136-line loader-4136-line-2"></span>
+        <span className="loader-4136-line loader-4136-line-3"></span>
+      </div>
+    ),
+    html: `<div class="loader-4136" role="status" aria-label="Inhoud laden">
     <span class="loader-4136-title"></span>
     <span class="loader-4136-line loader-4136-line-1"></span>
     <span class="loader-4136-line loader-4136-line-2"></span>
     <span class="loader-4136-line loader-4136-line-3"></span>
 </div>`,
-  css: `.loader-4136{position:relative;width:180px;height:86px;max-width:100%;padding:13px;display:flex;flex-direction:column;gap:8px;overflow:hidden;border:1px solid #334155;border-radius:10px;background:#0f172a;box-sizing:border-box}.loader-4136-title{width:49%;height:10px;flex:none;border-radius:4px;background:#475569}.loader-4136-line{height:6px;flex:none;border-radius:999px;background:#334155}.loader-4136-line-1{width:100%}.loader-4136-line-2{width:85%}.loader-4136-line-3{width:65%}.loader-4136::after{content:"";position:absolute;top:0;bottom:0;left:0;width:70%;background:linear-gradient(90deg,transparent,rgba(203,213,225,.13),transparent);transform:translateX(-120%);animation:loader4136Shimmer 1.8s ease-in-out infinite}@keyframes loader4136Shimmer{to{transform:translateX(260%)}}@media(prefers-reduced-motion:reduce){.loader-4136::after{animation:none;display:none}}`,
-},
-{
-  id: 4137,
-  name: "Midnight Typing Loader",
-  preview: (
-    <div className="loader-4137" role="status" aria-label="Laden">
-      <span className="loader-4137-label">Loading</span>
-      <span className="loader-4137-dots" aria-hidden="true">
-        <span></span>
-        <span></span>
-        <span></span>
-      </span>
-    </div>
-  ),
-  html: `<div class="loader-4137" role="status" aria-label="Laden">
+    css: `.loader-4136{position:relative;width:180px;height:86px;max-width:100%;padding:13px;display:flex;flex-direction:column;gap:8px;overflow:hidden;border:1px solid #334155;border-radius:10px;background:#0f172a;box-sizing:border-box}.loader-4136-title{width:49%;height:10px;flex:none;border-radius:4px;background:#475569}.loader-4136-line{height:6px;flex:none;border-radius:999px;background:#334155}.loader-4136-line-1{width:100%}.loader-4136-line-2{width:85%}.loader-4136-line-3{width:65%}.loader-4136::after{content:"";position:absolute;top:0;bottom:0;left:0;width:70%;background:linear-gradient(90deg,transparent,rgba(203,213,225,.13),transparent);transform:translateX(-120%);animation:loader4136Shimmer 1.8s ease-in-out infinite}@keyframes loader4136Shimmer{to{transform:translateX(260%)}}@media(prefers-reduced-motion:reduce){.loader-4136::after{animation:none;display:none}}`,
+  },
+  {
+    id: 4137,
+    name: "Midnight Typing Loader",
+    preview: (
+      <div className="loader-4137" role="status" aria-label="Laden">
+        <span className="loader-4137-label">Loading</span>
+        <span className="loader-4137-dots" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+    ),
+    html: `<div class="loader-4137" role="status" aria-label="Laden">
     <span class="loader-4137-label">Loading</span>
     <span class="loader-4137-dots" aria-hidden="true">
         <span></span>
@@ -72598,23 +72600,23 @@ export const loaders = [
         <span></span>
     </span>
 </div>`,
-  css: `.loader-4137{height:34px;padding:0 13px;display:inline-flex;align-items:center;gap:6px;border:1px solid #334155;border-radius:8px;background:#111827;box-sizing:border-box}.loader-4137-label{color:#e2e8f0;font:500 12px/1 system-ui,sans-serif;letter-spacing:.01em}.loader-4137-dots{height:12px;display:flex;align-items:center;gap:3px}.loader-4137-dots span{width:4px;height:4px;border-radius:50%;background:#a78bfa;animation:loader4137Typing 1.2s ease-in-out infinite}.loader-4137-dots span:nth-child(2){animation-delay:.2s}.loader-4137-dots span:nth-child(3){animation-delay:.4s}@keyframes loader4137Typing{0%,100%{transform:translateY(2px);opacity:.25}50%{transform:translateY(-2px);opacity:1;background:#c4b5fd}}@media(prefers-reduced-motion:reduce){.loader-4137-dots span{animation:none;transform:none;opacity:1}}`,
-},
-{
-  id: 4138,
-  name: "Steel Segmented Progress",
-  preview: (
-    <div className="loader-4138" role="status" aria-label="Laden">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  ),
-  html: `<div class="loader-4138" role="status" aria-label="Laden">
+    css: `.loader-4137{height:34px;padding:0 13px;display:inline-flex;align-items:center;gap:6px;border:1px solid #334155;border-radius:8px;background:#111827;box-sizing:border-box}.loader-4137-label{color:#e2e8f0;font:500 12px/1 system-ui,sans-serif;letter-spacing:.01em}.loader-4137-dots{height:12px;display:flex;align-items:center;gap:3px}.loader-4137-dots span{width:4px;height:4px;border-radius:50%;background:#a78bfa;animation:loader4137Typing 1.2s ease-in-out infinite}.loader-4137-dots span:nth-child(2){animation-delay:.2s}.loader-4137-dots span:nth-child(3){animation-delay:.4s}@keyframes loader4137Typing{0%,100%{transform:translateY(2px);opacity:.25}50%{transform:translateY(-2px);opacity:1;background:#c4b5fd}}@media(prefers-reduced-motion:reduce){.loader-4137-dots span{animation:none;transform:none;opacity:1}}`,
+  },
+  {
+    id: 4138,
+    name: "Steel Segmented Progress",
+    preview: (
+      <div className="loader-4138" role="status" aria-label="Laden">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4138" role="status" aria-label="Laden">
     <span></span>
     <span></span>
     <span></span>
@@ -72623,85 +72625,86 @@ export const loaders = [
     <span></span>
     <span></span>
 </div>`,
-  css: `.loader-4138{width:116px;height:15px;display:flex;align-items:center;gap:4px}.loader-4138 span{height:8px;flex:1;min-width:0;border-radius:2px;background:#334155;animation:loader4138Step 1.5s ease-in-out infinite}.loader-4138 span:nth-child(2){animation-delay:.14s}.loader-4138 span:nth-child(3){animation-delay:.28s}.loader-4138 span:nth-child(4){animation-delay:.42s}.loader-4138 span:nth-child(5){animation-delay:.56s}.loader-4138 span:nth-child(6){animation-delay:.7s}.loader-4138 span:nth-child(7){animation-delay:.84s}@keyframes loader4138Step{0%,100%{background:#334155;transform:scaleY(.7);opacity:.5}45%{background:#cbd5e1;transform:scaleY(1.2);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4138 span{animation:none;transform:none;opacity:1}.loader-4138 span:nth-child(3),.loader-4138 span:nth-child(4),.loader-4138 span:nth-child(5){background:#cbd5e1}}`,
-},
-{
-  id: 4139,
-  name: "Obsidian Rotating Diamond",
-  preview: (
-    <div className="loader-4139" role="status" aria-label="Laden">
-      <span className="loader-4139-frame"></span>
-      <span className="loader-4139-diamond"></span>
-    </div>
-  ),
-  html: `<div class="loader-4139" role="status" aria-label="Laden">
+    css: `.loader-4138{width:116px;height:15px;display:flex;align-items:center;gap:4px}.loader-4138 span{height:8px;flex:1;min-width:0;border-radius:2px;background:#334155;animation:loader4138Step 1.5s ease-in-out infinite}.loader-4138 span:nth-child(2){animation-delay:.14s}.loader-4138 span:nth-child(3){animation-delay:.28s}.loader-4138 span:nth-child(4){animation-delay:.42s}.loader-4138 span:nth-child(5){animation-delay:.56s}.loader-4138 span:nth-child(6){animation-delay:.7s}.loader-4138 span:nth-child(7){animation-delay:.84s}@keyframes loader4138Step{0%,100%{background:#334155;transform:scaleY(.7);opacity:.5}45%{background:#cbd5e1;transform:scaleY(1.2);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4138 span{animation:none;transform:none;opacity:1}.loader-4138 span:nth-child(3),.loader-4138 span:nth-child(4),.loader-4138 span:nth-child(5){background:#cbd5e1}}`,
+  },
+  {
+    id: 4139,
+    name: "Obsidian Rotating Diamond",
+    preview: (
+      <div className="loader-4139" role="status" aria-label="Laden">
+        <span className="loader-4139-frame"></span>
+        <span className="loader-4139-diamond"></span>
+      </div>
+    ),
+    html: `<div class="loader-4139" role="status" aria-label="Laden">
     <span class="loader-4139-frame"></span>
     <span class="loader-4139-diamond"></span>
 </div>`,
-  css: `.loader-4139{position:relative;width:46px;height:46px;display:grid;place-items:center}.loader-4139-frame{position:absolute;inset:5px;border:2px solid #475569;border-top-color:#cbd5e1;border-right-color:#818cf8;border-radius:9px;animation:loader4139Frame 1.6s linear infinite}.loader-4139-diamond{width:16px;height:16px;border-radius:3px;background:linear-gradient(135deg,#c7d2fe,#6366f1 55%,#312e81);box-shadow:0 0 10px rgba(129,140,248,.3);animation:loader4139Diamond 1.6s ease-in-out infinite}@keyframes loader4139Frame{to{transform:rotate(360deg)}}@keyframes loader4139Diamond{0%,100%{transform:rotate(45deg) scale(.75);opacity:.6}50%{transform:rotate(135deg) scale(1.1);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4139-frame,.loader-4139-diamond{animation:none}.loader-4139-diamond{transform:rotate(45deg)}}`,
-},{
-  id: 4140,
-  name: "Carbon Smooth Spinner",
-  preview: (
-    <div className="loader-4140" role="status" aria-label="Laden">
-      <span className="loader-4140-ring"></span>
-    </div>
-  ),
-  html: `<div class="loader-4140" role="status" aria-label="Laden">
+    css: `.loader-4139{position:relative;width:46px;height:46px;display:grid;place-items:center}.loader-4139-frame{position:absolute;inset:5px;border:2px solid #475569;border-top-color:#cbd5e1;border-right-color:#818cf8;border-radius:9px;animation:loader4139Frame 1.6s linear infinite}.loader-4139-diamond{width:16px;height:16px;border-radius:3px;background:linear-gradient(135deg,#c7d2fe,#6366f1 55%,#312e81);box-shadow:0 0 10px rgba(129,140,248,.3);animation:loader4139Diamond 1.6s ease-in-out infinite}@keyframes loader4139Frame{to{transform:rotate(360deg)}}@keyframes loader4139Diamond{0%,100%{transform:rotate(45deg) scale(.75);opacity:.6}50%{transform:rotate(135deg) scale(1.1);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4139-frame,.loader-4139-diamond{animation:none}.loader-4139-diamond{transform:rotate(45deg)}}`,
+  },
+  {
+    id: 4140,
+    name: "Carbon Smooth Spinner",
+    preview: (
+      <div className="loader-4140" role="status" aria-label="Laden">
+        <span className="loader-4140-ring"></span>
+      </div>
+    ),
+    html: `<div class="loader-4140" role="status" aria-label="Laden">
     <span class="loader-4140-ring"></span>
 </div>`,
-  css: `.loader-4140{width:42px;height:42px;display:grid;place-items:center}.loader-4140-ring{width:34px;height:34px;border:3px solid #475569;border-top-color:#e2e8f0;border-right-color:#94a3b8;border-radius:50%;box-sizing:border-box;animation:loader4140Spin .8s linear infinite}@keyframes loader4140Spin{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4140-ring{animation:none}}`,
-},
-{
-  id: 4141,
-  name: "Midnight Violet Bounce",
-  preview: (
-    <div className="loader-4141" role="status" aria-label="Laden">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  ),
-  html: `<div class="loader-4141" role="status" aria-label="Laden">
+    css: `.loader-4140{width:42px;height:42px;display:grid;place-items:center}.loader-4140-ring{width:34px;height:34px;border:3px solid #475569;border-top-color:#e2e8f0;border-right-color:#94a3b8;border-radius:50%;box-sizing:border-box;animation:loader4140Spin .8s linear infinite}@keyframes loader4140Spin{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4140-ring{animation:none}}`,
+  },
+  {
+    id: 4141,
+    name: "Midnight Violet Bounce",
+    preview: (
+      <div className="loader-4141" role="status" aria-label="Laden">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4141" role="status" aria-label="Laden">
     <span></span>
     <span></span>
     <span></span>
 </div>`,
-  css: `.loader-4141{height:36px;display:flex;align-items:center;justify-content:center;gap:7px}.loader-4141 span{width:9px;height:9px;border-radius:50%;background:#818cf8;animation:loader4141Bounce 1.05s ease-in-out infinite}.loader-4141 span:nth-child(2){animation-delay:.14s}.loader-4141 span:nth-child(3){animation-delay:.28s}@keyframes loader4141Bounce{0%,100%{transform:translateY(4px) scale(.8);opacity:.45}50%{transform:translateY(-7px) scale(1.12);opacity:1;background:#a78bfa;box-shadow:0 0 8px rgba(167,139,250,.25)}}@media(prefers-reduced-motion:reduce){.loader-4141 span{animation:none;transform:none;opacity:1}.loader-4141 span:nth-child(2){background:#a78bfa}}`,
-},
-{
-  id: 4142,
-  name: "Midnight Cyan Progress",
-  preview: (
-    <div className="loader-4142" role="status" aria-label="Laden">
-      <span className="loader-4142-fill"></span>
-    </div>
-  ),
-  html: `<div class="loader-4142" role="status" aria-label="Laden">
+    css: `.loader-4141{height:36px;display:flex;align-items:center;justify-content:center;gap:7px}.loader-4141 span{width:9px;height:9px;border-radius:50%;background:#818cf8;animation:loader4141Bounce 1.05s ease-in-out infinite}.loader-4141 span:nth-child(2){animation-delay:.14s}.loader-4141 span:nth-child(3){animation-delay:.28s}@keyframes loader4141Bounce{0%,100%{transform:translateY(4px) scale(.8);opacity:.45}50%{transform:translateY(-7px) scale(1.12);opacity:1;background:#a78bfa;box-shadow:0 0 8px rgba(167,139,250,.25)}}@media(prefers-reduced-motion:reduce){.loader-4141 span{animation:none;transform:none;opacity:1}.loader-4141 span:nth-child(2){background:#a78bfa}}`,
+  },
+  {
+    id: 4142,
+    name: "Midnight Cyan Progress",
+    preview: (
+      <div className="loader-4142" role="status" aria-label="Laden">
+        <span className="loader-4142-fill"></span>
+      </div>
+    ),
+    html: `<div class="loader-4142" role="status" aria-label="Laden">
     <span class="loader-4142-fill"></span>
 </div>`,
-  css: `.loader-4142{position:relative;width:122px;height:7px;overflow:hidden;border-radius:999px;background:#334155}.loader-4142-fill{position:absolute;top:0;bottom:0;left:-40%;width:40%;border-radius:inherit;background:linear-gradient(90deg,#0891b2,#22d3ee,#a5f3fc);animation:loader4142Slide 1.5s ease-in-out infinite}@keyframes loader4142Slide{0%{left:-40%}100%{left:105%}}@media(prefers-reduced-motion:reduce){.loader-4142-fill{animation:none;left:30%}}`,
-},
-{
-  id: 4143,
-  name: "Steel Twelve Spoke Spinner",
-  preview: (
-    <div className="loader-4143" role="status" aria-label="Laden">
-      <span className="loader-4143-spoke loader-4143-spoke-1"></span>
-      <span className="loader-4143-spoke loader-4143-spoke-2"></span>
-      <span className="loader-4143-spoke loader-4143-spoke-3"></span>
-      <span className="loader-4143-spoke loader-4143-spoke-4"></span>
-      <span className="loader-4143-spoke loader-4143-spoke-5"></span>
-      <span className="loader-4143-spoke loader-4143-spoke-6"></span>
-      <span className="loader-4143-spoke loader-4143-spoke-7"></span>
-      <span className="loader-4143-spoke loader-4143-spoke-8"></span>
-      <span className="loader-4143-spoke loader-4143-spoke-9"></span>
-      <span className="loader-4143-spoke loader-4143-spoke-10"></span>
-      <span className="loader-4143-spoke loader-4143-spoke-11"></span>
-      <span className="loader-4143-spoke loader-4143-spoke-12"></span>
-    </div>
-  ),
-  html: `<div class="loader-4143" role="status" aria-label="Laden">
+    css: `.loader-4142{position:relative;width:122px;height:7px;overflow:hidden;border-radius:999px;background:#334155}.loader-4142-fill{position:absolute;top:0;bottom:0;left:-40%;width:40%;border-radius:inherit;background:linear-gradient(90deg,#0891b2,#22d3ee,#a5f3fc);animation:loader4142Slide 1.5s ease-in-out infinite}@keyframes loader4142Slide{0%{left:-40%}100%{left:105%}}@media(prefers-reduced-motion:reduce){.loader-4142-fill{animation:none;left:30%}}`,
+  },
+  {
+    id: 4143,
+    name: "Steel Twelve Spoke Spinner",
+    preview: (
+      <div className="loader-4143" role="status" aria-label="Laden">
+        <span className="loader-4143-spoke loader-4143-spoke-1"></span>
+        <span className="loader-4143-spoke loader-4143-spoke-2"></span>
+        <span className="loader-4143-spoke loader-4143-spoke-3"></span>
+        <span className="loader-4143-spoke loader-4143-spoke-4"></span>
+        <span className="loader-4143-spoke loader-4143-spoke-5"></span>
+        <span className="loader-4143-spoke loader-4143-spoke-6"></span>
+        <span className="loader-4143-spoke loader-4143-spoke-7"></span>
+        <span className="loader-4143-spoke loader-4143-spoke-8"></span>
+        <span className="loader-4143-spoke loader-4143-spoke-9"></span>
+        <span className="loader-4143-spoke loader-4143-spoke-10"></span>
+        <span className="loader-4143-spoke loader-4143-spoke-11"></span>
+        <span className="loader-4143-spoke loader-4143-spoke-12"></span>
+      </div>
+    ),
+    html: `<div class="loader-4143" role="status" aria-label="Laden">
     <span class="loader-4143-spoke loader-4143-spoke-1"></span>
     <span class="loader-4143-spoke loader-4143-spoke-2"></span>
     <span class="loader-4143-spoke loader-4143-spoke-3"></span>
@@ -72715,92 +72718,93 @@ export const loaders = [
     <span class="loader-4143-spoke loader-4143-spoke-11"></span>
     <span class="loader-4143-spoke loader-4143-spoke-12"></span>
 </div>`,
-  css: `.loader-4143{position:relative;width:40px;height:40px;animation:loader4143Rotate 1.1s linear infinite}.loader-4143-spoke{position:absolute;left:18px;top:1px;width:4px;height:10px;border-radius:999px;transform-origin:2px 19px;background:#cbd5e1}.loader-4143-spoke-1{transform:rotate(0deg);opacity:1}.loader-4143-spoke-2{transform:rotate(30deg);opacity:.92}.loader-4143-spoke-3{transform:rotate(60deg);opacity:.84}.loader-4143-spoke-4{transform:rotate(90deg);opacity:.76}.loader-4143-spoke-5{transform:rotate(120deg);opacity:.68}.loader-4143-spoke-6{transform:rotate(150deg);opacity:.60}.loader-4143-spoke-7{transform:rotate(180deg);opacity:.52}.loader-4143-spoke-8{transform:rotate(210deg);opacity:.44}.loader-4143-spoke-9{transform:rotate(240deg);opacity:.36}.loader-4143-spoke-10{transform:rotate(270deg);opacity:.28}.loader-4143-spoke-11{transform:rotate(300deg);opacity:.20}.loader-4143-spoke-12{transform:rotate(330deg);opacity:.12}@keyframes loader4143Rotate{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4143{animation:none}}`,
-},
-{
-  id: 4144,
-  name: "Deep Indigo Double Pulse",
-  preview: (
-    <div className="loader-4144" role="status" aria-label="Laden">
-      <span className="loader-4144-pulse loader-4144-pulse-1"></span>
-      <span className="loader-4144-pulse loader-4144-pulse-2"></span>
-    </div>
-  ),
-  html: `<div class="loader-4144" role="status" aria-label="Laden">
+    css: `.loader-4143{position:relative;width:40px;height:40px;animation:loader4143Rotate 1.1s linear infinite}.loader-4143-spoke{position:absolute;left:18px;top:1px;width:4px;height:10px;border-radius:999px;transform-origin:2px 19px;background:#cbd5e1}.loader-4143-spoke-1{transform:rotate(0deg);opacity:1}.loader-4143-spoke-2{transform:rotate(30deg);opacity:.92}.loader-4143-spoke-3{transform:rotate(60deg);opacity:.84}.loader-4143-spoke-4{transform:rotate(90deg);opacity:.76}.loader-4143-spoke-5{transform:rotate(120deg);opacity:.68}.loader-4143-spoke-6{transform:rotate(150deg);opacity:.60}.loader-4143-spoke-7{transform:rotate(180deg);opacity:.52}.loader-4143-spoke-8{transform:rotate(210deg);opacity:.44}.loader-4143-spoke-9{transform:rotate(240deg);opacity:.36}.loader-4143-spoke-10{transform:rotate(270deg);opacity:.28}.loader-4143-spoke-11{transform:rotate(300deg);opacity:.20}.loader-4143-spoke-12{transform:rotate(330deg);opacity:.12}@keyframes loader4143Rotate{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4143{animation:none}}`,
+  },
+  {
+    id: 4144,
+    name: "Deep Indigo Double Pulse",
+    preview: (
+      <div className="loader-4144" role="status" aria-label="Laden">
+        <span className="loader-4144-pulse loader-4144-pulse-1"></span>
+        <span className="loader-4144-pulse loader-4144-pulse-2"></span>
+      </div>
+    ),
+    html: `<div class="loader-4144" role="status" aria-label="Laden">
     <span class="loader-4144-pulse loader-4144-pulse-1"></span>
     <span class="loader-4144-pulse loader-4144-pulse-2"></span>
 </div>`,
-  css: `.loader-4144{position:relative;width:44px;height:44px;display:grid;place-items:center}.loader-4144-pulse{position:absolute;inset:4px;border-radius:50%;background:#818cf8;animation:loader4144Pulse 1.8s ease-in-out infinite}.loader-4144-pulse-2{background:#a5b4fc;animation-delay:-.9s}@keyframes loader4144Pulse{0%{transform:scale(.1);opacity:.85}70%,100%{transform:scale(1);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4144-pulse{animation:none;transform:scale(.75);opacity:.45}.loader-4144-pulse-2{transform:scale(.35);opacity:1}}`,
-},
-{
-  id: 4145,
-  name: "Onyx Dual Arc Spinner",
-  preview: (
-    <div className="loader-4145" role="status" aria-label="Laden">
-      <span className="loader-4145-outer"></span>
-      <span className="loader-4145-inner"></span>
-    </div>
-  ),
-  html: `<div class="loader-4145" role="status" aria-label="Laden">
+    css: `.loader-4144{position:relative;width:44px;height:44px;display:grid;place-items:center}.loader-4144-pulse{position:absolute;inset:4px;border-radius:50%;background:#818cf8;animation:loader4144Pulse 1.8s ease-in-out infinite}.loader-4144-pulse-2{background:#a5b4fc;animation-delay:-.9s}@keyframes loader4144Pulse{0%{transform:scale(.1);opacity:.85}70%,100%{transform:scale(1);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4144-pulse{animation:none;transform:scale(.75);opacity:.45}.loader-4144-pulse-2{transform:scale(.35);opacity:1}}`,
+  },
+  {
+    id: 4145,
+    name: "Onyx Dual Arc Spinner",
+    preview: (
+      <div className="loader-4145" role="status" aria-label="Laden">
+        <span className="loader-4145-outer"></span>
+        <span className="loader-4145-inner"></span>
+      </div>
+    ),
+    html: `<div class="loader-4145" role="status" aria-label="Laden">
     <span class="loader-4145-outer"></span>
     <span class="loader-4145-inner"></span>
 </div>`,
-  css: `.loader-4145{position:relative;width:44px;height:44px}.loader-4145-outer,.loader-4145-inner{position:absolute;border-radius:50%}.loader-4145-outer{inset:2px;border:3px solid #334155;border-top-color:#e2e8f0;border-left-color:#94a3b8;animation:loader4145Outer 1.2s linear infinite}.loader-4145-inner{inset:11px;border:2px solid #475569;border-bottom-color:#22d3ee;border-right-color:#67e8f9;animation:loader4145Inner .8s linear infinite reverse}@keyframes loader4145Outer{to{transform:rotate(360deg)}}@keyframes loader4145Inner{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4145-outer,.loader-4145-inner{animation:none}}`,
-},{
-  id: 4146,
-  name: "Lightning Arcane Bolt Loader",
-  preview: (
-    <div className="loader-4146" role="status" aria-label="Laden">
-      <span className="loader-4146-ring"></span>
-      <span className="loader-4146-bolt"></span>
-      <span className="loader-4146-spark loader-4146-spark-1"></span>
-      <span className="loader-4146-spark loader-4146-spark-2"></span>
-    </div>
-  ),
-  html: `<div class="loader-4146" role="status" aria-label="Laden">
+    css: `.loader-4145{position:relative;width:44px;height:44px}.loader-4145-outer,.loader-4145-inner{position:absolute;border-radius:50%}.loader-4145-outer{inset:2px;border:3px solid #334155;border-top-color:#e2e8f0;border-left-color:#94a3b8;animation:loader4145Outer 1.2s linear infinite}.loader-4145-inner{inset:11px;border:2px solid #475569;border-bottom-color:#22d3ee;border-right-color:#67e8f9;animation:loader4145Inner .8s linear infinite reverse}@keyframes loader4145Outer{to{transform:rotate(360deg)}}@keyframes loader4145Inner{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4145-outer,.loader-4145-inner{animation:none}}`,
+  },
+  {
+    id: 4146,
+    name: "Lightning Arcane Bolt Loader",
+    preview: (
+      <div className="loader-4146" role="status" aria-label="Laden">
+        <span className="loader-4146-ring"></span>
+        <span className="loader-4146-bolt"></span>
+        <span className="loader-4146-spark loader-4146-spark-1"></span>
+        <span className="loader-4146-spark loader-4146-spark-2"></span>
+      </div>
+    ),
+    html: `<div class="loader-4146" role="status" aria-label="Laden">
     <span class="loader-4146-ring"></span>
     <span class="loader-4146-bolt"></span>
     <span class="loader-4146-spark loader-4146-spark-1"></span>
     <span class="loader-4146-spark loader-4146-spark-2"></span>
 </div>`,
-  css: `.loader-4146{position:relative;width:50px;height:50px;display:grid;place-items:center}.loader-4146::before{content:"";position:absolute;inset:9px;border-radius:50%;background:rgba(250,204,21,.17);filter:blur(8px);animation:loader4146Aura 1.2s ease-in-out infinite}.loader-4146-ring{position:absolute;inset:4px;border:2px dashed rgba(96,165,250,.55);border-radius:50%;animation:loader4146Orbit 2.3s linear infinite}.loader-4146-bolt{position:relative;z-index:2;width:22px;height:34px;clip-path:polygon(47% 0,100% 0,58% 42%,87% 42%,19% 100%,38% 58%,10% 58%);background:linear-gradient(150deg,#fffef0,#fde047 40%,#f59e0b);filter:drop-shadow(0 0 7px #facc15);animation:loader4146Flash 1.2s ease-in-out infinite}.loader-4146-spark{position:absolute;width:4px;height:14px;border-radius:4px;background:#93c5fd;box-shadow:0 0 7px #60a5fa;animation:loader4146Spark .9s ease-in-out infinite}.loader-4146-spark-1{left:5px;top:11px;transform:rotate(-35deg)}.loader-4146-spark-2{right:5px;bottom:11px;transform:rotate(35deg);animation-delay:-.45s}@keyframes loader4146Orbit{to{transform:rotate(360deg)}}@keyframes loader4146Flash{0%,100%{transform:scale(.85);opacity:.65;filter:brightness(.85) drop-shadow(0 0 3px #facc15)}45%{transform:scale(1.15);opacity:1;filter:brightness(1.5) drop-shadow(0 0 12px #facc15)}}@keyframes loader4146Spark{0%,100%{opacity:.15}40%,55%{opacity:1}}@keyframes loader4146Aura{0%,100%{transform:scale(.75);opacity:.4}50%{transform:scale(1.2);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4146::before,.loader-4146-ring,.loader-4146-bolt,.loader-4146-spark{animation:none}.loader-4146-spark{opacity:.7}}`,
-},
-{
-  id: 4147,
-  name: "Inferno Flame Dance Loader",
-  preview: (
-    <div className="loader-4147" role="status" aria-label="Laden">
-      <span className="loader-4147-flame loader-4147-flame-1"></span>
-      <span className="loader-4147-flame loader-4147-flame-2"></span>
-      <span className="loader-4147-flame loader-4147-flame-3"></span>
-      <span className="loader-4147-flame loader-4147-flame-4"></span>
-      <span className="loader-4147-flame loader-4147-flame-5"></span>
-    </div>
-  ),
-  html: `<div class="loader-4147" role="status" aria-label="Laden">
+    css: `.loader-4146{position:relative;width:50px;height:50px;display:grid;place-items:center}.loader-4146::before{content:"";position:absolute;inset:9px;border-radius:50%;background:rgba(250,204,21,.17);filter:blur(8px);animation:loader4146Aura 1.2s ease-in-out infinite}.loader-4146-ring{position:absolute;inset:4px;border:2px dashed rgba(96,165,250,.55);border-radius:50%;animation:loader4146Orbit 2.3s linear infinite}.loader-4146-bolt{position:relative;z-index:2;width:22px;height:34px;clip-path:polygon(47% 0,100% 0,58% 42%,87% 42%,19% 100%,38% 58%,10% 58%);background:linear-gradient(150deg,#fffef0,#fde047 40%,#f59e0b);filter:drop-shadow(0 0 7px #facc15);animation:loader4146Flash 1.2s ease-in-out infinite}.loader-4146-spark{position:absolute;width:4px;height:14px;border-radius:4px;background:#93c5fd;box-shadow:0 0 7px #60a5fa;animation:loader4146Spark .9s ease-in-out infinite}.loader-4146-spark-1{left:5px;top:11px;transform:rotate(-35deg)}.loader-4146-spark-2{right:5px;bottom:11px;transform:rotate(35deg);animation-delay:-.45s}@keyframes loader4146Orbit{to{transform:rotate(360deg)}}@keyframes loader4146Flash{0%,100%{transform:scale(.85);opacity:.65;filter:brightness(.85) drop-shadow(0 0 3px #facc15)}45%{transform:scale(1.15);opacity:1;filter:brightness(1.5) drop-shadow(0 0 12px #facc15)}}@keyframes loader4146Spark{0%,100%{opacity:.15}40%,55%{opacity:1}}@keyframes loader4146Aura{0%,100%{transform:scale(.75);opacity:.4}50%{transform:scale(1.2);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4146::before,.loader-4146-ring,.loader-4146-bolt,.loader-4146-spark{animation:none}.loader-4146-spark{opacity:.7}}`,
+  },
+  {
+    id: 4147,
+    name: "Inferno Flame Dance Loader",
+    preview: (
+      <div className="loader-4147" role="status" aria-label="Laden">
+        <span className="loader-4147-flame loader-4147-flame-1"></span>
+        <span className="loader-4147-flame loader-4147-flame-2"></span>
+        <span className="loader-4147-flame loader-4147-flame-3"></span>
+        <span className="loader-4147-flame loader-4147-flame-4"></span>
+        <span className="loader-4147-flame loader-4147-flame-5"></span>
+      </div>
+    ),
+    html: `<div class="loader-4147" role="status" aria-label="Laden">
     <span class="loader-4147-flame loader-4147-flame-1"></span>
     <span class="loader-4147-flame loader-4147-flame-2"></span>
     <span class="loader-4147-flame loader-4147-flame-3"></span>
     <span class="loader-4147-flame loader-4147-flame-4"></span>
     <span class="loader-4147-flame loader-4147-flame-5"></span>
 </div>`,
-  css: `.loader-4147{position:relative;width:64px;height:48px;display:flex;align-items:flex-end;justify-content:center;gap:2px;padding-bottom:5px;box-sizing:border-box}.loader-4147::before{content:"";position:absolute;left:10px;right:10px;bottom:0;height:9px;border-radius:50%;background:rgba(249,115,22,.35);filter:blur(6px);animation:loader4147Heat 1.3s ease-in-out infinite}.loader-4147-flame{position:relative;width:10px;height:31px;flex:none;transform-origin:center bottom;clip-path:polygon(50% 0,78% 30%,68% 52%,100% 70%,82% 100%,15% 100%,0 70%,30% 47%,20% 25%);background:linear-gradient(to top,#dc2626,#f97316 45%,#fde047 82%,#fff7ed);filter:drop-shadow(0 0 4px rgba(249,115,22,.55));animation:loader4147Flame 1.2s ease-in-out infinite}.loader-4147-flame-1{height:23px;animation-delay:-.8s}.loader-4147-flame-2{height:32px;animation-delay:-.6s}.loader-4147-flame-3{height:40px;width:12px;animation-delay:-.4s}.loader-4147-flame-4{height:32px;animation-delay:-.2s}.loader-4147-flame-5{height:23px;animation-delay:0s}@keyframes loader4147Flame{0%,100%{transform:translateY(3px) scaleY(.48) rotate(-3deg);opacity:.45}50%{transform:translateY(-2px) scaleY(1) rotate(3deg);opacity:1;filter:brightness(1.35) drop-shadow(0 0 7px rgba(249,115,22,.7))}}@keyframes loader4147Heat{0%,100%{opacity:.4;transform:scaleX(.75)}50%{opacity:1;transform:scaleX(1.2)}}@media(prefers-reduced-motion:reduce){.loader-4147::before,.loader-4147-flame{animation:none}.loader-4147-flame{opacity:1;transform:scaleY(.75)}}`,
-},
-{
-  id: 4148,
-  name: "Frost Snowflake Spell Loader",
-  preview: (
-    <div className="loader-4148" role="status" aria-label="Laden">
-      <span className="loader-4148-arm loader-4148-arm-1"></span>
-      <span className="loader-4148-arm loader-4148-arm-2"></span>
-      <span className="loader-4148-arm loader-4148-arm-3"></span>
-      <span className="loader-4148-arm loader-4148-arm-4"></span>
-      <span className="loader-4148-arm loader-4148-arm-5"></span>
-      <span className="loader-4148-arm loader-4148-arm-6"></span>
-      <span className="loader-4148-core"></span>
-    </div>
-  ),
-  html: `<div class="loader-4148" role="status" aria-label="Laden">
+    css: `.loader-4147{position:relative;width:64px;height:48px;display:flex;align-items:flex-end;justify-content:center;gap:2px;padding-bottom:5px;box-sizing:border-box}.loader-4147::before{content:"";position:absolute;left:10px;right:10px;bottom:0;height:9px;border-radius:50%;background:rgba(249,115,22,.35);filter:blur(6px);animation:loader4147Heat 1.3s ease-in-out infinite}.loader-4147-flame{position:relative;width:10px;height:31px;flex:none;transform-origin:center bottom;clip-path:polygon(50% 0,78% 30%,68% 52%,100% 70%,82% 100%,15% 100%,0 70%,30% 47%,20% 25%);background:linear-gradient(to top,#dc2626,#f97316 45%,#fde047 82%,#fff7ed);filter:drop-shadow(0 0 4px rgba(249,115,22,.55));animation:loader4147Flame 1.2s ease-in-out infinite}.loader-4147-flame-1{height:23px;animation-delay:-.8s}.loader-4147-flame-2{height:32px;animation-delay:-.6s}.loader-4147-flame-3{height:40px;width:12px;animation-delay:-.4s}.loader-4147-flame-4{height:32px;animation-delay:-.2s}.loader-4147-flame-5{height:23px;animation-delay:0s}@keyframes loader4147Flame{0%,100%{transform:translateY(3px) scaleY(.48) rotate(-3deg);opacity:.45}50%{transform:translateY(-2px) scaleY(1) rotate(3deg);opacity:1;filter:brightness(1.35) drop-shadow(0 0 7px rgba(249,115,22,.7))}}@keyframes loader4147Heat{0%,100%{opacity:.4;transform:scaleX(.75)}50%{opacity:1;transform:scaleX(1.2)}}@media(prefers-reduced-motion:reduce){.loader-4147::before,.loader-4147-flame{animation:none}.loader-4147-flame{opacity:1;transform:scaleY(.75)}}`,
+  },
+  {
+    id: 4148,
+    name: "Frost Snowflake Spell Loader",
+    preview: (
+      <div className="loader-4148" role="status" aria-label="Laden">
+        <span className="loader-4148-arm loader-4148-arm-1"></span>
+        <span className="loader-4148-arm loader-4148-arm-2"></span>
+        <span className="loader-4148-arm loader-4148-arm-3"></span>
+        <span className="loader-4148-arm loader-4148-arm-4"></span>
+        <span className="loader-4148-arm loader-4148-arm-5"></span>
+        <span className="loader-4148-arm loader-4148-arm-6"></span>
+        <span className="loader-4148-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-4148" role="status" aria-label="Laden">
     <span class="loader-4148-arm loader-4148-arm-1"></span>
     <span class="loader-4148-arm loader-4148-arm-2"></span>
     <span class="loader-4148-arm loader-4148-arm-3"></span>
@@ -72809,63 +72813,63 @@ export const loaders = [
     <span class="loader-4148-arm loader-4148-arm-6"></span>
     <span class="loader-4148-core"></span>
 </div>`,
-  css: `.loader-4148{position:relative;width:50px;height:50px;animation:loader4148Rotate 4s linear infinite}.loader-4148-arm{position:absolute;left:23px;top:3px;width:4px;height:22px;transform-origin:2px 22px;border-radius:3px;background:linear-gradient(to bottom,#f8fafc,#7dd3fc 55%,#0284c7);box-shadow:0 0 6px rgba(125,211,252,.3);animation:loader4148Shimmer 1.4s ease-in-out infinite}.loader-4148-arm::before,.loader-4148-arm::after{content:"";position:absolute;top:9px;width:9px;height:2px;border-radius:2px;background:#bae6fd}.loader-4148-arm::before{right:2px;transform:rotate(38deg);transform-origin:right center}.loader-4148-arm::after{left:2px;transform:rotate(-38deg);transform-origin:left center}.loader-4148-arm-1{transform:rotate(0deg)}.loader-4148-arm-2{transform:rotate(60deg);animation-delay:-.23s}.loader-4148-arm-3{transform:rotate(120deg);animation-delay:-.46s}.loader-4148-arm-4{transform:rotate(180deg);animation-delay:-.69s}.loader-4148-arm-5{transform:rotate(240deg);animation-delay:-.92s}.loader-4148-arm-6{transform:rotate(300deg);animation-delay:-1.15s}.loader-4148-core{position:absolute;left:50%;top:50%;width:9px;height:9px;border:1px solid #e0f2fe;border-radius:2px;background:#38bdf8;transform:translate(-50%,-50%) rotate(45deg);box-shadow:0 0 9px #7dd3fc}@keyframes loader4148Rotate{to{transform:rotate(360deg)}}@keyframes loader4148Shimmer{0%,100%{opacity:.35;filter:brightness(.8)}50%{opacity:1;filter:brightness(1.6)}}@media(prefers-reduced-motion:reduce){.loader-4148,.loader-4148-arm{animation:none}.loader-4148-arm{opacity:1}}`,
-},
-{
-  id: 4149,
-  name: "Aqua Droplet Ripple Loader",
-  preview: (
-    <div className="loader-4149" role="status" aria-label="Laden">
-      <span className="loader-4149-drop"></span>
-      <span className="loader-4149-ripple loader-4149-ripple-1"></span>
-      <span className="loader-4149-ripple loader-4149-ripple-2"></span>
-      <span className="loader-4149-ripple loader-4149-ripple-3"></span>
-    </div>
-  ),
-  html: `<div class="loader-4149" role="status" aria-label="Laden">
+    css: `.loader-4148{position:relative;width:50px;height:50px;animation:loader4148Rotate 4s linear infinite}.loader-4148-arm{position:absolute;left:23px;top:3px;width:4px;height:22px;transform-origin:2px 22px;border-radius:3px;background:linear-gradient(to bottom,#f8fafc,#7dd3fc 55%,#0284c7);box-shadow:0 0 6px rgba(125,211,252,.3);animation:loader4148Shimmer 1.4s ease-in-out infinite}.loader-4148-arm::before,.loader-4148-arm::after{content:"";position:absolute;top:9px;width:9px;height:2px;border-radius:2px;background:#bae6fd}.loader-4148-arm::before{right:2px;transform:rotate(38deg);transform-origin:right center}.loader-4148-arm::after{left:2px;transform:rotate(-38deg);transform-origin:left center}.loader-4148-arm-1{transform:rotate(0deg)}.loader-4148-arm-2{transform:rotate(60deg);animation-delay:-.23s}.loader-4148-arm-3{transform:rotate(120deg);animation-delay:-.46s}.loader-4148-arm-4{transform:rotate(180deg);animation-delay:-.69s}.loader-4148-arm-5{transform:rotate(240deg);animation-delay:-.92s}.loader-4148-arm-6{transform:rotate(300deg);animation-delay:-1.15s}.loader-4148-core{position:absolute;left:50%;top:50%;width:9px;height:9px;border:1px solid #e0f2fe;border-radius:2px;background:#38bdf8;transform:translate(-50%,-50%) rotate(45deg);box-shadow:0 0 9px #7dd3fc}@keyframes loader4148Rotate{to{transform:rotate(360deg)}}@keyframes loader4148Shimmer{0%,100%{opacity:.35;filter:brightness(.8)}50%{opacity:1;filter:brightness(1.6)}}@media(prefers-reduced-motion:reduce){.loader-4148,.loader-4148-arm{animation:none}.loader-4148-arm{opacity:1}}`,
+  },
+  {
+    id: 4149,
+    name: "Aqua Droplet Ripple Loader",
+    preview: (
+      <div className="loader-4149" role="status" aria-label="Laden">
+        <span className="loader-4149-drop"></span>
+        <span className="loader-4149-ripple loader-4149-ripple-1"></span>
+        <span className="loader-4149-ripple loader-4149-ripple-2"></span>
+        <span className="loader-4149-ripple loader-4149-ripple-3"></span>
+      </div>
+    ),
+    html: `<div class="loader-4149" role="status" aria-label="Laden">
     <span class="loader-4149-drop"></span>
     <span class="loader-4149-ripple loader-4149-ripple-1"></span>
     <span class="loader-4149-ripple loader-4149-ripple-2"></span>
     <span class="loader-4149-ripple loader-4149-ripple-3"></span>
 </div>`,
-  css: `.loader-4149{position:relative;width:62px;height:50px}.loader-4149-drop{position:absolute;z-index:2;left:24px;top:1px;width:14px;height:20px;clip-path:polygon(50% 0,80% 35%,100% 69%,88% 90%,66% 100%,34% 100%,12% 90%,0 69%,20% 35%);background:linear-gradient(135deg,#ecfeff,#38bdf8 45%,#0369a1);filter:drop-shadow(0 0 5px rgba(14,165,233,.55));animation:loader4149Drop 1.8s ease-in-out infinite}.loader-4149-ripple{position:absolute;left:50%;bottom:3px;width:22px;height:7px;border:2px solid #38bdf8;border-radius:50%;transform:translateX(-50%) scale(.45);opacity:0;animation:loader4149Ripple 1.8s ease-out infinite}.loader-4149-ripple-2{animation-delay:.2s;border-color:#7dd3fc}.loader-4149-ripple-3{animation-delay:.4s;border-color:#bae6fd}@keyframes loader4149Drop{0%{transform:translateY(-4px) scale(.6);opacity:0}20%{opacity:1}54%{transform:translateY(22px) scale(1);opacity:1}65%{transform:translateY(25px) scale(.7);opacity:0}100%{transform:translateY(-4px) scale(.6);opacity:0}}@keyframes loader4149Ripple{0%,45%{transform:translateX(-50%) scale(.35);opacity:0}58%{opacity:.9}100%{transform:translateX(-50%) scale(1.65);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4149-drop,.loader-4149-ripple{animation:none}.loader-4149-drop{transform:translateY(9px);opacity:1}.loader-4149-ripple-1{transform:translateX(-50%);opacity:.8}.loader-4149-ripple-2,.loader-4149-ripple-3{display:none}}`,
-},
-{
-  id: 4150,
-  name: "Zephyr Wind Gust Loader",
-  preview: (
-    <div className="loader-4150" role="status" aria-label="Laden">
-      <span className="loader-4150-gust loader-4150-gust-1"></span>
-      <span className="loader-4150-gust loader-4150-gust-2"></span>
-      <span className="loader-4150-gust loader-4150-gust-3"></span>
-      <span className="loader-4150-gust loader-4150-gust-4"></span>
-    </div>
-  ),
-  html: `<div class="loader-4150" role="status" aria-label="Laden">
+    css: `.loader-4149{position:relative;width:62px;height:50px}.loader-4149-drop{position:absolute;z-index:2;left:24px;top:1px;width:14px;height:20px;clip-path:polygon(50% 0,80% 35%,100% 69%,88% 90%,66% 100%,34% 100%,12% 90%,0 69%,20% 35%);background:linear-gradient(135deg,#ecfeff,#38bdf8 45%,#0369a1);filter:drop-shadow(0 0 5px rgba(14,165,233,.55));animation:loader4149Drop 1.8s ease-in-out infinite}.loader-4149-ripple{position:absolute;left:50%;bottom:3px;width:22px;height:7px;border:2px solid #38bdf8;border-radius:50%;transform:translateX(-50%) scale(.45);opacity:0;animation:loader4149Ripple 1.8s ease-out infinite}.loader-4149-ripple-2{animation-delay:.2s;border-color:#7dd3fc}.loader-4149-ripple-3{animation-delay:.4s;border-color:#bae6fd}@keyframes loader4149Drop{0%{transform:translateY(-4px) scale(.6);opacity:0}20%{opacity:1}54%{transform:translateY(22px) scale(1);opacity:1}65%{transform:translateY(25px) scale(.7);opacity:0}100%{transform:translateY(-4px) scale(.6);opacity:0}}@keyframes loader4149Ripple{0%,45%{transform:translateX(-50%) scale(.35);opacity:0}58%{opacity:.9}100%{transform:translateX(-50%) scale(1.65);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4149-drop,.loader-4149-ripple{animation:none}.loader-4149-drop{transform:translateY(9px);opacity:1}.loader-4149-ripple-1{transform:translateX(-50%);opacity:.8}.loader-4149-ripple-2,.loader-4149-ripple-3{display:none}}`,
+  },
+  {
+    id: 4150,
+    name: "Zephyr Wind Gust Loader",
+    preview: (
+      <div className="loader-4150" role="status" aria-label="Laden">
+        <span className="loader-4150-gust loader-4150-gust-1"></span>
+        <span className="loader-4150-gust loader-4150-gust-2"></span>
+        <span className="loader-4150-gust loader-4150-gust-3"></span>
+        <span className="loader-4150-gust loader-4150-gust-4"></span>
+      </div>
+    ),
+    html: `<div class="loader-4150" role="status" aria-label="Laden">
     <span class="loader-4150-gust loader-4150-gust-1"></span>
     <span class="loader-4150-gust loader-4150-gust-2"></span>
     <span class="loader-4150-gust loader-4150-gust-3"></span>
     <span class="loader-4150-gust loader-4150-gust-4"></span>
 </div>`,
-  css: `.loader-4150{position:relative;width:86px;height:46px;overflow:hidden}.loader-4150-gust{position:absolute;left:7px;height:3px;border-radius:999px;background:linear-gradient(90deg,transparent,#7dd3fc 30%,#e0f2fe 75%,#22d3ee);filter:drop-shadow(0 0 3px rgba(103,232,249,.4));animation:loader4150Wind 1.5s ease-in-out infinite}.loader-4150-gust::after{content:"";position:absolute;right:-5px;top:-7px;width:15px;height:13px;border-top:2px solid #67e8f9;border-right:2px solid #67e8f9;border-radius:50%}.loader-4150-gust-1{top:7px;width:38px;animation-delay:-.95s}.loader-4150-gust-2{top:18px;width:52px;animation-delay:-.65s}.loader-4150-gust-3{top:29px;width:45px;animation-delay:-.35s}.loader-4150-gust-4{top:40px;width:30px;animation-delay:-.05s}@keyframes loader4150Wind{0%{transform:translateX(-30px) scaleX(.65);opacity:0}25%{opacity:1}70%{opacity:1}100%{transform:translateX(46px) scaleX(1.1);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4150-gust{animation:none;opacity:1;transform:none}}`,
-},
-{
-  id: 4151,
-  name: "Crimson Blood Pulse Loader",
-  preview: (
-    <div className="loader-4151" role="status" aria-label="Laden">
-      <span className="loader-4151-drop loader-4151-drop-1"></span>
-      <span className="loader-4151-drop loader-4151-drop-2"></span>
-      <span className="loader-4151-drop loader-4151-drop-3"></span>
-      <span className="loader-4151-pool"></span>
-    </div>
-  ),
-  html: `<div class="loader-4151" role="status" aria-label="Laden">
+    css: `.loader-4150{position:relative;width:86px;height:46px;overflow:hidden}.loader-4150-gust{position:absolute;left:7px;height:3px;border-radius:999px;background:linear-gradient(90deg,transparent,#7dd3fc 30%,#e0f2fe 75%,#22d3ee);filter:drop-shadow(0 0 3px rgba(103,232,249,.4));animation:loader4150Wind 1.5s ease-in-out infinite}.loader-4150-gust::after{content:"";position:absolute;right:-5px;top:-7px;width:15px;height:13px;border-top:2px solid #67e8f9;border-right:2px solid #67e8f9;border-radius:50%}.loader-4150-gust-1{top:7px;width:38px;animation-delay:-.95s}.loader-4150-gust-2{top:18px;width:52px;animation-delay:-.65s}.loader-4150-gust-3{top:29px;width:45px;animation-delay:-.35s}.loader-4150-gust-4{top:40px;width:30px;animation-delay:-.05s}@keyframes loader4150Wind{0%{transform:translateX(-30px) scaleX(.65);opacity:0}25%{opacity:1}70%{opacity:1}100%{transform:translateX(46px) scaleX(1.1);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4150-gust{animation:none;opacity:1;transform:none}}`,
+  },
+  {
+    id: 4151,
+    name: "Crimson Blood Pulse Loader",
+    preview: (
+      <div className="loader-4151" role="status" aria-label="Laden">
+        <span className="loader-4151-drop loader-4151-drop-1"></span>
+        <span className="loader-4151-drop loader-4151-drop-2"></span>
+        <span className="loader-4151-drop loader-4151-drop-3"></span>
+        <span className="loader-4151-pool"></span>
+      </div>
+    ),
+    html: `<div class="loader-4151" role="status" aria-label="Laden">
     <span class="loader-4151-drop loader-4151-drop-1"></span>
     <span class="loader-4151-drop loader-4151-drop-2"></span>
     <span class="loader-4151-drop loader-4151-drop-3"></span>
     <span class="loader-4151-pool"></span>
 </div>`,
-  css: `.loader-4151{position:relative;width:66px;height:50px;display:flex;align-items:center;justify-content:center;gap:5px;padding-bottom:7px;box-sizing:border-box}.loader-4151-drop{position:relative;z-index:1;width:13px;height:22px;flex:none;clip-path:polygon(50% 0,77% 32%,100% 65%,92% 87%,70% 100%,30% 100%,8% 87%,0 65%,23% 32%);background:linear-gradient(130deg,#fca5a5,#ef4444 42%,#991b1b);filter:drop-shadow(0 0 4px rgba(220,38,38,.4));animation:loader4151Beat 1.35s ease-in-out infinite}.loader-4151-drop-1{animation-delay:-.9s}.loader-4151-drop-2{width:17px;height:29px;animation-delay:-.45s}.loader-4151-drop-3{animation-delay:0s}.loader-4151-pool{position:absolute;left:50%;bottom:2px;width:47px;height:6px;border-radius:50%;background:rgba(220,38,38,.5);filter:blur(4px);transform:translateX(-50%);animation:loader4151Pool 1.35s ease-in-out infinite}@keyframes loader4151Beat{0%,100%{transform:translateY(4px) scale(.7);opacity:.35}45%{transform:translateY(-6px) scale(1.12);opacity:1;filter:brightness(1.4) drop-shadow(0 0 7px rgba(220,38,38,.6))}70%{transform:translateY(0) scale(.85);opacity:.65}}@keyframes loader4151Pool{0%,100%{opacity:.3;transform:translateX(-50%) scaleX(.7)}50%{opacity:1;transform:translateX(-50%) scaleX(1.15)}}@media(prefers-reduced-motion:reduce){.loader-4151-drop,.loader-4151-pool{animation:none}.loader-4151-drop{opacity:1;transform:none}}`,
-},
+    css: `.loader-4151{position:relative;width:66px;height:50px;display:flex;align-items:center;justify-content:center;gap:5px;padding-bottom:7px;box-sizing:border-box}.loader-4151-drop{position:relative;z-index:1;width:13px;height:22px;flex:none;clip-path:polygon(50% 0,77% 32%,100% 65%,92% 87%,70% 100%,30% 100%,8% 87%,0 65%,23% 32%);background:linear-gradient(130deg,#fca5a5,#ef4444 42%,#991b1b);filter:drop-shadow(0 0 4px rgba(220,38,38,.4));animation:loader4151Beat 1.35s ease-in-out infinite}.loader-4151-drop-1{animation-delay:-.9s}.loader-4151-drop-2{width:17px;height:29px;animation-delay:-.45s}.loader-4151-drop-3{animation-delay:0s}.loader-4151-pool{position:absolute;left:50%;bottom:2px;width:47px;height:6px;border-radius:50%;background:rgba(220,38,38,.5);filter:blur(4px);transform:translateX(-50%);animation:loader4151Pool 1.35s ease-in-out infinite}@keyframes loader4151Beat{0%,100%{transform:translateY(4px) scale(.7);opacity:.35}45%{transform:translateY(-6px) scale(1.12);opacity:1;filter:brightness(1.4) drop-shadow(0 0 7px rgba(220,38,38,.6))}70%{transform:translateY(0) scale(.85);opacity:.65}}@keyframes loader4151Pool{0%,100%{opacity:.3;transform:translateX(-50%) scaleX(.7)}50%{opacity:1;transform:translateX(-50%) scaleX(1.15)}}@media(prefers-reduced-motion:reduce){.loader-4151-drop,.loader-4151-pool{animation:none}.loader-4151-drop{opacity:1;transform:none}}`,
+  },
 ];
