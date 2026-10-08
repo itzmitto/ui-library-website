@@ -70792,5 +70792,619 @@ export const loaders = [
     </svg>
 </div>`,
     css: `.loader-4087{width:94px;height:44px;display:grid;place-items:center}.loader-4087 svg{width:100%;height:100%;overflow:visible;fill:none}.loader-4087-track{stroke:#e0e7ff;stroke-width:5;stroke-linecap:round}.loader-4087-runner{stroke:#6366f1;stroke-width:5;stroke-linecap:round;stroke-dasharray:16 84;animation:loader4087Flow 1.7s linear infinite}@keyframes loader4087Flow{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}@media(prefers-reduced-motion:reduce){.loader-4087-runner{animation:none;stroke-dashoffset:0;stroke-dasharray:42 58}}`,
-  },
+  },{
+  id: 4088,
+  name: "Soft Ring Spinner",
+  preview: (
+    <div className="loader-4088" role="status" aria-label="Loading">
+      <span className="loader-4088-ring"></span>
+    </div>
+  ),
+  html: `<div class="loader-4088" role="status" aria-label="Loading">
+    <span class="loader-4088-ring"></span>
+</div>`,
+  css: `.loader-4088 {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+}
+.loader-4088-ring {
+    width: 28px;
+    height: 28px;
+    border: 3px solid #dbeafe;
+    border-top-color: #2563eb;
+    border-right-color: #60a5fa;
+    border-radius: 50%;
+    animation: loader4088Spin .8s linear infinite;
+}
+@keyframes loader4088Spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4088-ring {
+        animation: none;
+    }
+}`,
+},
+{
+  id: 4089,
+  name: "Dual Pulse Ring",
+  preview: (
+    <div className="loader-4089" role="status" aria-label="Loading">
+      <span className="loader-4089-ring loader-4089-ring-1"></span>
+      <span className="loader-4089-ring loader-4089-ring-2"></span>
+    </div>
+  ),
+  html: `<div class="loader-4089" role="status" aria-label="Loading">
+    <span class="loader-4089-ring loader-4089-ring-1"></span>
+    <span class="loader-4089-ring loader-4089-ring-2"></span>
+</div>`,
+  css: `.loader-4089 {
+    position: relative;
+    width: 44px;
+    height: 44px;
+}
+.loader-4089-ring {
+    position: absolute;
+    inset: 0;
+    border: 2px solid #93c5fd;
+    border-radius: 50%;
+    animation: loader4089Pulse 1.5s ease-out infinite;
+}
+.loader-4089-ring-2 {
+    animation-delay: .75s;
+}
+@keyframes loader4089Pulse {
+    0% {
+        transform: scale(.35);
+        opacity: .95;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4089-ring {
+        animation: none;
+        opacity: 1;
+        transform: none;
+    }
+}`,
+},
+{
+  id: 4090,
+  name: "Six Dot Spinner",
+  preview: (
+    <div className="loader-4090" role="status" aria-label="Loading">
+      <span className="loader-4090-dot loader-4090-dot-1"></span>
+      <span className="loader-4090-dot loader-4090-dot-2"></span>
+      <span className="loader-4090-dot loader-4090-dot-3"></span>
+      <span className="loader-4090-dot loader-4090-dot-4"></span>
+      <span className="loader-4090-dot loader-4090-dot-5"></span>
+      <span className="loader-4090-dot loader-4090-dot-6"></span>
+    </div>
+  ),
+  html: `<div class="loader-4090" role="status" aria-label="Loading">
+    <span class="loader-4090-dot loader-4090-dot-1"></span>
+    <span class="loader-4090-dot loader-4090-dot-2"></span>
+    <span class="loader-4090-dot loader-4090-dot-3"></span>
+    <span class="loader-4090-dot loader-4090-dot-4"></span>
+    <span class="loader-4090-dot loader-4090-dot-5"></span>
+    <span class="loader-4090-dot loader-4090-dot-6"></span>
+</div>`,
+  css: `.loader-4090 {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    animation: loader4090Rotate 1.1s linear infinite;
+}
+.loader-4090-dot {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #3b82f6;
+}
+.loader-4090-dot-1 {
+    top: 0;
+    left: 50%;
+    margin-left: -3.5px;
+    opacity: 1;
+}
+.loader-4090-dot-2 {
+    top: 8px;
+    right: 6px;
+    opacity: .85;
+}
+.loader-4090-dot-3 {
+    bottom: 8px;
+    right: 6px;
+    opacity: .7;
+}
+.loader-4090-dot-4 {
+    bottom: 0;
+    left: 50%;
+    margin-left: -3.5px;
+    opacity: .55;
+}
+.loader-4090-dot-5 {
+    bottom: 8px;
+    left: 6px;
+    opacity: .4;
+}
+.loader-4090-dot-6 {
+    top: 8px;
+    left: 6px;
+    opacity: .25;
+}
+@keyframes loader4090Rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4090 {
+        animation: none;
+    }
+}`,
+},
+{
+  id: 4091,
+  name: "Three Bounce Dots",
+  preview: (
+    <div className="loader-4091" role="status" aria-label="Loading">
+      <span className="loader-4091-dot loader-4091-dot-1"></span>
+      <span className="loader-4091-dot loader-4091-dot-2"></span>
+      <span className="loader-4091-dot loader-4091-dot-3"></span>
+    </div>
+  ),
+  html: `<div class="loader-4091" role="status" aria-label="Loading">
+    <span class="loader-4091-dot loader-4091-dot-1"></span>
+    <span class="loader-4091-dot loader-4091-dot-2"></span>
+    <span class="loader-4091-dot loader-4091-dot-3"></span>
+</div>`,
+  css: `.loader-4091 {
+    height: 26px;
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+}
+.loader-4091-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2563eb;
+    animation: loader4091Bounce .75s ease-in-out infinite;
+}
+.loader-4091-dot-2 {
+    animation-delay: .12s;
+}
+.loader-4091-dot-3 {
+    animation-delay: .24s;
+}
+@keyframes loader4091Bounce {
+    0%, 100% {
+        transform: translateY(0) scale(.9);
+        opacity: .45;
+    }
+    50% {
+        transform: translateY(-8px) scale(1.08);
+        opacity: 1;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4091-dot {
+        animation: none;
+        opacity: 1;
+        transform: none;
+    }
+}`,
+},
+{
+  id: 4092,
+  name: "Shimmer Progress Bar",
+  preview: (
+    <div className="loader-4092" role="status" aria-label="Loading">
+      <span className="loader-4092-track"></span>
+      <span className="loader-4092-bar"></span>
+    </div>
+  ),
+  html: `<div class="loader-4092" role="status" aria-label="Loading">
+    <span class="loader-4092-track"></span>
+    <span class="loader-4092-bar"></span>
+</div>`,
+  css: `.loader-4092 {
+    position: relative;
+    width: 118px;
+    height: 10px;
+}
+.loader-4092-track {
+    position: absolute;
+    inset: 0;
+    border-radius: 999px;
+    background: #dbeafe;
+}
+.loader-4092-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38%;
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #2563eb, #60a5fa, #93c5fd);
+    box-shadow: 0 0 10px rgba(59, 130, 246, .18);
+    animation: loader4092Slide 1.5s ease-in-out infinite;
+}
+@keyframes loader4092Slide {
+    0% {
+        left: 0;
+        width: 24%;
+    }
+    50% {
+        left: 38%;
+        width: 46%;
+    }
+    100% {
+        left: 76%;
+        width: 24%;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4092-bar {
+        animation: none;
+        left: 30%;
+        width: 40%;
+    }
+}`,
+},
+{
+  id: 4093,
+  name: "Orbit Dot Loader",
+  preview: (
+    <div className="loader-4093" role="status" aria-label="Loading">
+      <span className="loader-4093-core"></span>
+      <span className="loader-4093-orbit">
+        <span className="loader-4093-dot"></span>
+      </span>
+    </div>
+  ),
+  html: `<div class="loader-4093" role="status" aria-label="Loading">
+    <span class="loader-4093-core"></span>
+    <span class="loader-4093-orbit">
+        <span class="loader-4093-dot"></span>
+    </span>
+</div>`,
+  css: `.loader-4093 {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+}
+.loader-4093-core {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #3b82f6;
+    box-shadow: 0 0 10px rgba(59, 130, 246, .25);
+}
+.loader-4093-orbit {
+    position: absolute;
+    inset: 4px;
+    border: 2px solid #dbeafe;
+    border-radius: 50%;
+    animation: loader4093Orbit 1.1s linear infinite;
+}
+.loader-4093-dot {
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    margin-left: -4px;
+    border-radius: 50%;
+    background: #60a5fa;
+}
+@keyframes loader4093Orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4093-orbit {
+        animation: none;
+    }
+}`,
+},
+{
+  id: 4094,
+  name: "Equalizer Bars Loader",
+  preview: (
+    <div className="loader-4094" role="status" aria-label="Loading">
+      <span className="loader-4094-bar loader-4094-bar-1"></span>
+      <span className="loader-4094-bar loader-4094-bar-2"></span>
+      <span className="loader-4094-bar loader-4094-bar-3"></span>
+      <span className="loader-4094-bar loader-4094-bar-4"></span>
+    </div>
+  ),
+  html: `<div class="loader-4094" role="status" aria-label="Loading">
+    <span class="loader-4094-bar loader-4094-bar-1"></span>
+    <span class="loader-4094-bar loader-4094-bar-2"></span>
+    <span class="loader-4094-bar loader-4094-bar-3"></span>
+    <span class="loader-4094-bar loader-4094-bar-4"></span>
+</div>`,
+  css: `.loader-4094 {
+    height: 28px;
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+}
+.loader-4094-bar {
+    width: 5px;
+    min-height: 8px;
+    border-radius: 999px;
+    background: linear-gradient(to top, #2563eb, #93c5fd);
+    animation: loader4094Bars .9s ease-in-out infinite;
+}
+.loader-4094-bar-2 {
+    animation-delay: .12s;
+}
+.loader-4094-bar-3 {
+    animation-delay: .24s;
+}
+.loader-4094-bar-4 {
+    animation-delay: .36s;
+}
+@keyframes loader4094Bars {
+    0%, 100% {
+        height: 8px;
+        opacity: .35;
+    }
+    50% {
+        height: 26px;
+        opacity: 1;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4094-bar {
+        animation: none;
+        height: 18px;
+        opacity: 1;
+    }
+}`,
+},
+{
+  id: 4095,
+  name: "Wave Pulse Loader",
+  preview: (
+    <div className="loader-4095" role="status" aria-label="Loading">
+      <span className="loader-4095-dot loader-4095-dot-1"></span>
+      <span className="loader-4095-dot loader-4095-dot-2"></span>
+      <span className="loader-4095-dot loader-4095-dot-3"></span>
+      <span className="loader-4095-dot loader-4095-dot-4"></span>
+      <span className="loader-4095-dot loader-4095-dot-5"></span>
+    </div>
+  ),
+  html: `<div class="loader-4095" role="status" aria-label="Loading">
+    <span class="loader-4095-dot loader-4095-dot-1"></span>
+    <span class="loader-4095-dot loader-4095-dot-2"></span>
+    <span class="loader-4095-dot loader-4095-dot-3"></span>
+    <span class="loader-4095-dot loader-4095-dot-4"></span>
+    <span class="loader-4095-dot loader-4095-dot-5"></span>
+</div>`,
+  css: `.loader-4095 {
+    height: 22px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.loader-4095-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #60a5fa;
+    animation: loader4095Wave 1s ease-in-out infinite;
+}
+.loader-4095-dot-2 {
+    animation-delay: .1s;
+}
+.loader-4095-dot-3 {
+    animation-delay: .2s;
+}
+.loader-4095-dot-4 {
+    animation-delay: .3s;
+}
+.loader-4095-dot-5 {
+    animation-delay: .4s;
+}
+@keyframes loader4095Wave {
+    0%, 100% {
+        transform: scale(.6);
+        opacity: .3;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4095-dot {
+        animation: none;
+        opacity: 1;
+        transform: none;
+    }
+}`,
+},
+{
+  id: 4096,
+  name: "Four Square Grid Loader",
+  preview: (
+    <div className="loader-4096" role="status" aria-label="Loading">
+      <span className="loader-4096-cell loader-4096-cell-1"></span>
+      <span className="loader-4096-cell loader-4096-cell-2"></span>
+      <span className="loader-4096-cell loader-4096-cell-3"></span>
+      <span className="loader-4096-cell loader-4096-cell-4"></span>
+    </div>
+  ),
+  html: `<div class="loader-4096" role="status" aria-label="Loading">
+    <span class="loader-4096-cell loader-4096-cell-1"></span>
+    <span class="loader-4096-cell loader-4096-cell-2"></span>
+    <span class="loader-4096-cell loader-4096-cell-3"></span>
+    <span class="loader-4096-cell loader-4096-cell-4"></span>
+</div>`,
+  css: `.loader-4096 {
+    width: 28px;
+    height: 28px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+}
+.loader-4096-cell {
+    border-radius: 3px;
+    background: #3b82f6;
+    animation: loader4096Grid 1s ease-in-out infinite;
+}
+.loader-4096-cell-2 {
+    animation-delay: .12s;
+}
+.loader-4096-cell-3 {
+    animation-delay: .24s;
+}
+.loader-4096-cell-4 {
+    animation-delay: .36s;
+}
+@keyframes loader4096Grid {
+    0%, 100% {
+        transform: scale(.72);
+        opacity: .35;
+    }
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4096-cell {
+        animation: none;
+        opacity: 1;
+        transform: none;
+    }
+}`,
+},
+{
+  id: 4097,
+  name: "Twelve Fade Spinner",
+  preview: (
+    <div className="loader-4097" role="status" aria-label="Loading">
+      <span className="loader-4097-segment loader-4097-segment-1"></span>
+      <span className="loader-4097-segment loader-4097-segment-2"></span>
+      <span className="loader-4097-segment loader-4097-segment-3"></span>
+      <span className="loader-4097-segment loader-4097-segment-4"></span>
+      <span className="loader-4097-segment loader-4097-segment-5"></span>
+      <span className="loader-4097-segment loader-4097-segment-6"></span>
+      <span className="loader-4097-segment loader-4097-segment-7"></span>
+      <span className="loader-4097-segment loader-4097-segment-8"></span>
+      <span className="loader-4097-segment loader-4097-segment-9"></span>
+      <span className="loader-4097-segment loader-4097-segment-10"></span>
+      <span className="loader-4097-segment loader-4097-segment-11"></span>
+      <span className="loader-4097-segment loader-4097-segment-12"></span>
+    </div>
+  ),
+  html: `<div class="loader-4097" role="status" aria-label="Loading">
+    <span class="loader-4097-segment loader-4097-segment-1"></span>
+    <span class="loader-4097-segment loader-4097-segment-2"></span>
+    <span class="loader-4097-segment loader-4097-segment-3"></span>
+    <span class="loader-4097-segment loader-4097-segment-4"></span>
+    <span class="loader-4097-segment loader-4097-segment-5"></span>
+    <span class="loader-4097-segment loader-4097-segment-6"></span>
+    <span class="loader-4097-segment loader-4097-segment-7"></span>
+    <span class="loader-4097-segment loader-4097-segment-8"></span>
+    <span class="loader-4097-segment loader-4097-segment-9"></span>
+    <span class="loader-4097-segment loader-4097-segment-10"></span>
+    <span class="loader-4097-segment loader-4097-segment-11"></span>
+    <span class="loader-4097-segment loader-4097-segment-12"></span>
+</div>`,
+  css: `.loader-4097 {
+    position: relative;
+    width: 38px;
+    height: 38px;
+}
+.loader-4097-segment {
+    position: absolute;
+    left: 17px;
+    top: 2px;
+    width: 4px;
+    height: 9px;
+    border-radius: 999px;
+    background: #2563eb;
+    transform-origin: 2px 17px;
+    animation: loader4097Fade 1s linear infinite;
+}
+.loader-4097-segment-1 {
+    transform: rotate(0deg);
+    animation-delay: -.92s;
+}
+.loader-4097-segment-2 {
+    transform: rotate(30deg);
+    animation-delay: -.84s;
+}
+.loader-4097-segment-3 {
+    transform: rotate(60deg);
+    animation-delay: -.76s;
+}
+.loader-4097-segment-4 {
+    transform: rotate(90deg);
+    animation-delay: -.68s;
+}
+.loader-4097-segment-5 {
+    transform: rotate(120deg);
+    animation-delay: -.60s;
+}
+.loader-4097-segment-6 {
+    transform: rotate(150deg);
+    animation-delay: -.52s;
+}
+.loader-4097-segment-7 {
+    transform: rotate(180deg);
+    animation-delay: -.44s;
+}
+.loader-4097-segment-8 {
+    transform: rotate(210deg);
+    animation-delay: -.36s;
+}
+.loader-4097-segment-9 {
+    transform: rotate(240deg);
+    animation-delay: -.28s;
+}
+.loader-4097-segment-10 {
+    transform: rotate(270deg);
+    animation-delay: -.20s;
+}
+.loader-4097-segment-11 {
+    transform: rotate(300deg);
+    animation-delay: -.12s;
+}
+.loader-4097-segment-12 {
+    transform: rotate(330deg);
+    animation-delay: -.04s;
+}
+@keyframes loader4097Fade {
+    0%, 39%, 100% {
+        opacity: .18;
+    }
+    40% {
+        opacity: 1;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4097-segment {
+        animation: none;
+        opacity: .7;
+    }
+}`,
+},
 ];
