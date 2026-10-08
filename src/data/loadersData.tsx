@@ -72639,5 +72639,112 @@ export const loaders = [
     <span class="loader-4139-diamond"></span>
 </div>`,
   css: `.loader-4139{position:relative;width:46px;height:46px;display:grid;place-items:center}.loader-4139-frame{position:absolute;inset:5px;border:2px solid #475569;border-top-color:#cbd5e1;border-right-color:#818cf8;border-radius:9px;animation:loader4139Frame 1.6s linear infinite}.loader-4139-diamond{width:16px;height:16px;border-radius:3px;background:linear-gradient(135deg,#c7d2fe,#6366f1 55%,#312e81);box-shadow:0 0 10px rgba(129,140,248,.3);animation:loader4139Diamond 1.6s ease-in-out infinite}@keyframes loader4139Frame{to{transform:rotate(360deg)}}@keyframes loader4139Diamond{0%,100%{transform:rotate(45deg) scale(.75);opacity:.6}50%{transform:rotate(135deg) scale(1.1);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4139-frame,.loader-4139-diamond{animation:none}.loader-4139-diamond{transform:rotate(45deg)}}`,
+},{
+  id: 4140,
+  name: "Carbon Smooth Spinner",
+  preview: (
+    <div className="loader-4140" role="status" aria-label="Laden">
+      <span className="loader-4140-ring"></span>
+    </div>
+  ),
+  html: `<div class="loader-4140" role="status" aria-label="Laden">
+    <span class="loader-4140-ring"></span>
+</div>`,
+  css: `.loader-4140{width:42px;height:42px;display:grid;place-items:center}.loader-4140-ring{width:34px;height:34px;border:3px solid #475569;border-top-color:#e2e8f0;border-right-color:#94a3b8;border-radius:50%;box-sizing:border-box;animation:loader4140Spin .8s linear infinite}@keyframes loader4140Spin{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4140-ring{animation:none}}`,
+},
+{
+  id: 4141,
+  name: "Midnight Violet Bounce",
+  preview: (
+    <div className="loader-4141" role="status" aria-label="Laden">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  ),
+  html: `<div class="loader-4141" role="status" aria-label="Laden">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+  css: `.loader-4141{height:36px;display:flex;align-items:center;justify-content:center;gap:7px}.loader-4141 span{width:9px;height:9px;border-radius:50%;background:#818cf8;animation:loader4141Bounce 1.05s ease-in-out infinite}.loader-4141 span:nth-child(2){animation-delay:.14s}.loader-4141 span:nth-child(3){animation-delay:.28s}@keyframes loader4141Bounce{0%,100%{transform:translateY(4px) scale(.8);opacity:.45}50%{transform:translateY(-7px) scale(1.12);opacity:1;background:#a78bfa;box-shadow:0 0 8px rgba(167,139,250,.25)}}@media(prefers-reduced-motion:reduce){.loader-4141 span{animation:none;transform:none;opacity:1}.loader-4141 span:nth-child(2){background:#a78bfa}}`,
+},
+{
+  id: 4142,
+  name: "Midnight Cyan Progress",
+  preview: (
+    <div className="loader-4142" role="status" aria-label="Laden">
+      <span className="loader-4142-fill"></span>
+    </div>
+  ),
+  html: `<div class="loader-4142" role="status" aria-label="Laden">
+    <span class="loader-4142-fill"></span>
+</div>`,
+  css: `.loader-4142{position:relative;width:122px;height:7px;overflow:hidden;border-radius:999px;background:#334155}.loader-4142-fill{position:absolute;top:0;bottom:0;left:-40%;width:40%;border-radius:inherit;background:linear-gradient(90deg,#0891b2,#22d3ee,#a5f3fc);animation:loader4142Slide 1.5s ease-in-out infinite}@keyframes loader4142Slide{0%{left:-40%}100%{left:105%}}@media(prefers-reduced-motion:reduce){.loader-4142-fill{animation:none;left:30%}}`,
+},
+{
+  id: 4143,
+  name: "Steel Twelve Spoke Spinner",
+  preview: (
+    <div className="loader-4143" role="status" aria-label="Laden">
+      <span className="loader-4143-spoke loader-4143-spoke-1"></span>
+      <span className="loader-4143-spoke loader-4143-spoke-2"></span>
+      <span className="loader-4143-spoke loader-4143-spoke-3"></span>
+      <span className="loader-4143-spoke loader-4143-spoke-4"></span>
+      <span className="loader-4143-spoke loader-4143-spoke-5"></span>
+      <span className="loader-4143-spoke loader-4143-spoke-6"></span>
+      <span className="loader-4143-spoke loader-4143-spoke-7"></span>
+      <span className="loader-4143-spoke loader-4143-spoke-8"></span>
+      <span className="loader-4143-spoke loader-4143-spoke-9"></span>
+      <span className="loader-4143-spoke loader-4143-spoke-10"></span>
+      <span className="loader-4143-spoke loader-4143-spoke-11"></span>
+      <span className="loader-4143-spoke loader-4143-spoke-12"></span>
+    </div>
+  ),
+  html: `<div class="loader-4143" role="status" aria-label="Laden">
+    <span class="loader-4143-spoke loader-4143-spoke-1"></span>
+    <span class="loader-4143-spoke loader-4143-spoke-2"></span>
+    <span class="loader-4143-spoke loader-4143-spoke-3"></span>
+    <span class="loader-4143-spoke loader-4143-spoke-4"></span>
+    <span class="loader-4143-spoke loader-4143-spoke-5"></span>
+    <span class="loader-4143-spoke loader-4143-spoke-6"></span>
+    <span class="loader-4143-spoke loader-4143-spoke-7"></span>
+    <span class="loader-4143-spoke loader-4143-spoke-8"></span>
+    <span class="loader-4143-spoke loader-4143-spoke-9"></span>
+    <span class="loader-4143-spoke loader-4143-spoke-10"></span>
+    <span class="loader-4143-spoke loader-4143-spoke-11"></span>
+    <span class="loader-4143-spoke loader-4143-spoke-12"></span>
+</div>`,
+  css: `.loader-4143{position:relative;width:40px;height:40px;animation:loader4143Rotate 1.1s linear infinite}.loader-4143-spoke{position:absolute;left:18px;top:1px;width:4px;height:10px;border-radius:999px;transform-origin:2px 19px;background:#cbd5e1}.loader-4143-spoke-1{transform:rotate(0deg);opacity:1}.loader-4143-spoke-2{transform:rotate(30deg);opacity:.92}.loader-4143-spoke-3{transform:rotate(60deg);opacity:.84}.loader-4143-spoke-4{transform:rotate(90deg);opacity:.76}.loader-4143-spoke-5{transform:rotate(120deg);opacity:.68}.loader-4143-spoke-6{transform:rotate(150deg);opacity:.60}.loader-4143-spoke-7{transform:rotate(180deg);opacity:.52}.loader-4143-spoke-8{transform:rotate(210deg);opacity:.44}.loader-4143-spoke-9{transform:rotate(240deg);opacity:.36}.loader-4143-spoke-10{transform:rotate(270deg);opacity:.28}.loader-4143-spoke-11{transform:rotate(300deg);opacity:.20}.loader-4143-spoke-12{transform:rotate(330deg);opacity:.12}@keyframes loader4143Rotate{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4143{animation:none}}`,
+},
+{
+  id: 4144,
+  name: "Deep Indigo Double Pulse",
+  preview: (
+    <div className="loader-4144" role="status" aria-label="Laden">
+      <span className="loader-4144-pulse loader-4144-pulse-1"></span>
+      <span className="loader-4144-pulse loader-4144-pulse-2"></span>
+    </div>
+  ),
+  html: `<div class="loader-4144" role="status" aria-label="Laden">
+    <span class="loader-4144-pulse loader-4144-pulse-1"></span>
+    <span class="loader-4144-pulse loader-4144-pulse-2"></span>
+</div>`,
+  css: `.loader-4144{position:relative;width:44px;height:44px;display:grid;place-items:center}.loader-4144-pulse{position:absolute;inset:4px;border-radius:50%;background:#818cf8;animation:loader4144Pulse 1.8s ease-in-out infinite}.loader-4144-pulse-2{background:#a5b4fc;animation-delay:-.9s}@keyframes loader4144Pulse{0%{transform:scale(.1);opacity:.85}70%,100%{transform:scale(1);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4144-pulse{animation:none;transform:scale(.75);opacity:.45}.loader-4144-pulse-2{transform:scale(.35);opacity:1}}`,
+},
+{
+  id: 4145,
+  name: "Onyx Dual Arc Spinner",
+  preview: (
+    <div className="loader-4145" role="status" aria-label="Laden">
+      <span className="loader-4145-outer"></span>
+      <span className="loader-4145-inner"></span>
+    </div>
+  ),
+  html: `<div class="loader-4145" role="status" aria-label="Laden">
+    <span class="loader-4145-outer"></span>
+    <span class="loader-4145-inner"></span>
+</div>`,
+  css: `.loader-4145{position:relative;width:44px;height:44px}.loader-4145-outer,.loader-4145-inner{position:absolute;border-radius:50%}.loader-4145-outer{inset:2px;border:3px solid #334155;border-top-color:#e2e8f0;border-left-color:#94a3b8;animation:loader4145Outer 1.2s linear infinite}.loader-4145-inner{inset:11px;border:2px solid #475569;border-bottom-color:#22d3ee;border-right-color:#67e8f9;animation:loader4145Inner .8s linear infinite reverse}@keyframes loader4145Outer{to{transform:rotate(360deg)}}@keyframes loader4145Inner{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4145-outer,.loader-4145-inner{animation:none}}`,
 },
 ];
