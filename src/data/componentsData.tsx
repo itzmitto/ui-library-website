@@ -28,6 +28,7 @@ import { carousels } from "./CarouselsData";
 import { progressBars } from "./ProgressBarsData";
 import { tables } from "./TablesData";
 import { comicbooks } from "./comicbooksData";
+import { randomComponents } from "./randomComponentsData";
 
 export {
   buttons,
@@ -60,6 +61,7 @@ export {
   progressBars,
   tables,
   comicbooks,
+  randomComponents,
 };
 
 export const allComponents = [
@@ -93,7 +95,9 @@ export const allComponents = [
   ...progressBars,
   ...tables,
   ...comicbooks,
+  ...randomComponents,
 ];
+
 // { dit de de voorbeeld
 // id: 1, name: "wat de naam ook maar is", preview: <button className="wat de naam ook maar is">Get started</button>,
 // html: `<button class="Button">click here</button>`,

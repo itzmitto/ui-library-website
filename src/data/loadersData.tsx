@@ -74180,4 +74180,12781 @@ export const loaders = [
 </div>`,
     css: `.loader-4192{width:156px;height:66px;display:grid;place-items:center;overflow:hidden}.loader-4192 svg{display:block;width:100%;height:100%;overflow:hidden;fill:none;-webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}.loader-4192-stream{fill:none;stroke:url(#loader4192Wind);stroke-width:3.5;stroke-linecap:round;stroke-dasharray:23 77;stroke-dashoffset:100;filter:drop-shadow(0 0 3px rgba(56,189,248,.35));animation:loader4192Flow 1.65s linear infinite}.loader-4192-stream-1{stroke-width:4;animation-duration:1.4s;animation-delay:-.4s}.loader-4192-stream-2{stroke-width:5;animation-duration:1.65s;animation-delay:-1.1s}.loader-4192-stream-3{stroke-width:3.5;animation-duration:1.85s;animation-delay:-.7s}.loader-4192-stream-4{stroke-width:2;stroke-dasharray:15 85;animation-duration:1.25s;animation-delay:-.95s;opacity:.65}.loader-4192-stream-5{stroke-width:2.5;stroke-dasharray:19 81;animation-duration:1.75s;animation-delay:-1.4s;opacity:.75}@keyframes loader4192Flow{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}@media(prefers-reduced-motion:reduce){.loader-4192-stream{animation:none;stroke-dashoffset:48}.loader-4192-stream-1{stroke-dashoffset:25}.loader-4192-stream-2{stroke-dashoffset:52}.loader-4192-stream-3{stroke-dashoffset:70}.loader-4192-stream-4{stroke-dashoffset:38}.loader-4192-stream-5{stroke-dashoffset:60}}`,
   },
+  {
+    id: 4193,
+    name: "Airbending Attack Loader",
+    preview: (
+      <div className="loader-4193" role="status" aria-label="Loading">
+        <span className="loader-4193-stream loader-4193-stream-1"></span>
+        <span className="loader-4193-stream loader-4193-stream-2"></span>
+        <span className="loader-4193-stream loader-4193-stream-3"></span>
+        <span className="loader-4193-stream loader-4193-stream-4"></span>
+        <span className="loader-4193-stream loader-4193-stream-5"></span>
+        <span className="loader-4193-stream loader-4193-stream-6"></span>
+        <span className="loader-4193-stream loader-4193-stream-7"></span>
+        <span className="loader-4193-stream loader-4193-stream-8"></span>
+        <span className="loader-4193-core"></span>
+        <span className="loader-4193-burst loader-4193-burst-1"></span>
+        <span className="loader-4193-burst loader-4193-burst-2"></span>
+        <span className="loader-4193-burst loader-4193-burst-3"></span>
+      </div>
+    ),
+    html: `<div class="loader-4193" role="status" aria-label="Loading">
+    <span class="loader-4193-stream loader-4193-stream-1"></span>
+    <span class="loader-4193-stream loader-4193-stream-2"></span>
+    <span class="loader-4193-stream loader-4193-stream-3"></span>
+    <span class="loader-4193-stream loader-4193-stream-4"></span>
+    <span class="loader-4193-stream loader-4193-stream-5"></span>
+    <span class="loader-4193-stream loader-4193-stream-6"></span>
+    <span class="loader-4193-stream loader-4193-stream-7"></span>
+    <span class="loader-4193-stream loader-4193-stream-8"></span>
+    <span class="loader-4193-core"></span>
+    <span class="loader-4193-burst loader-4193-burst-1"></span>
+    <span class="loader-4193-burst loader-4193-burst-2"></span>
+    <span class="loader-4193-burst loader-4193-burst-3"></span>
+</div>`,
+    css: `.loader-4193 {
+    position: relative;
+    width: 150px;
+    height: 58px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.loader-4193-stream {
+    position: absolute;
+    left: -52px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, rgba(255,255,255,0), rgba(186,230,253,.6) 20%, rgba(103,232,249,.95) 55%, rgba(224,242,254,1) 100%);
+    filter: drop-shadow(0 0 8px rgba(103,232,249,.45));
+    transform-origin: left center;
+    animation: loader4193Wind 1.2s linear infinite;
+}
+
+.loader-4193-stream-1 {
+    top: 6px;
+    width: 68px;
+    height: 4px;
+    animation-delay: 0s;
+}
+
+.loader-4193-stream-2 {
+    top: 12px;
+    width: 104px;
+    height: 6px;
+    animation-delay: -.18s;
+}
+
+.loader-4193-stream-3 {
+    top: 20px;
+    width: 82px;
+    height: 4px;
+    animation-delay: -.34s;
+}
+
+.loader-4193-stream-4 {
+    top: 26px;
+    width: 122px;
+    height: 7px;
+    animation-delay: -.5s;
+}
+
+.loader-4193-stream-5 {
+    top: 34px;
+    width: 96px;
+    height: 5px;
+    animation-delay: -.66s;
+}
+
+.loader-4193-stream-6 {
+    top: 40px;
+    width: 74px;
+    height: 4px;
+    animation-delay: -.82s;
+}
+
+.loader-4193-stream-7 {
+    top: 47px;
+    width: 112px;
+    height: 6px;
+    animation-delay: -.98s;
+}
+
+.loader-4193-stream-8 {
+    top: 16px;
+    width: 132px;
+    height: 3px;
+    animation-delay: -1.08s;
+    opacity: .72;
+}
+
+.loader-4193-core {
+    position: absolute;
+    left: -18px;
+    top: 20px;
+    width: 22px;
+    height: 18px;
+    border-radius: 60% 40% 60% 40%;
+    background: radial-gradient(circle at 35% 35%, #ffffff, #bae6fd 35%, #67e8f9 72%, rgba(34,211,238,.2) 100%);
+    box-shadow:
+        0 0 10px rgba(255,255,255,.8),
+        0 0 24px rgba(103,232,249,.65),
+        0 0 42px rgba(34,211,238,.35);
+    transform: skewX(-18deg);
+    animation: loader4193Core 1.2s linear infinite;
+}
+
+.loader-4193-burst {
+    position: absolute;
+    right: -12px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, rgba(255,255,255,.95), rgba(186,230,253,.8), rgba(103,232,249,0));
+    filter: blur(.2px);
+    opacity: 0;
+    transform-origin: left center;
+    animation: loader4193Burst 1.2s linear infinite;
+}
+
+.loader-4193-burst-1 {
+    top: 15px;
+    width: 26px;
+    height: 5px;
+    animation-delay: .05s;
+}
+
+.loader-4193-burst-2 {
+    top: 26px;
+    width: 34px;
+    height: 7px;
+    animation-delay: .14s;
+}
+
+.loader-4193-burst-3 {
+    top: 39px;
+    width: 22px;
+    height: 4px;
+    animation-delay: .22s;
+}
+
+@keyframes loader4193Wind {
+    0% {
+        transform: translateX(0) scaleX(.25);
+        opacity: 0;
+    }
+
+    12% {
+        opacity: .95;
+    }
+
+    55% {
+        transform: translateX(92px) scaleX(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(210px) scaleX(.7);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4193Core {
+    0% {
+        transform: translateX(0) skewX(-18deg) scale(.7);
+        opacity: 0;
+    }
+
+    12% {
+        opacity: 1;
+    }
+
+    55% {
+        transform: translateX(98px) skewX(-18deg) scale(1.05);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(205px) skewX(-18deg) scale(.75);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4193Burst {
+    0%,
+    62% {
+        transform: translateX(0) scaleX(.2);
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(14px) scaleX(1.35);
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .loader-4193-stream,
+    .loader-4193-core,
+    .loader-4193-burst {
+        animation: none;
+    }
+
+    .loader-4193-stream-1 { left: 12px; opacity: .9; }
+    .loader-4193-stream-2 { left: 18px; opacity: 1; }
+    .loader-4193-stream-3 { left: 24px; opacity: .85; }
+    .loader-4193-stream-4 { left: 14px; opacity: 1; }
+    .loader-4193-stream-5 { left: 20px; opacity: .9; }
+    .loader-4193-stream-6 { left: 28px; opacity: .8; }
+    .loader-4193-stream-7 { left: 16px; opacity: .95; }
+    .loader-4193-stream-8 { left: 10px; opacity: .7; }
+    .loader-4193-core { left: 102px; opacity: 1; }
+    .loader-4193-burst { opacity: .55; }
+}`,
+  },
+  {
+    id: 4194,
+    name: "Airbending Tempest Barrage Loader",
+    preview: (
+      <div className="loader-4194" role="status" aria-label="Laden">
+        <svg viewBox="0 0 240 92" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient
+              id="loader4194Wind"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
+              <stop offset="0%" stopColor="#bae6fd" stopOpacity=".12" />
+              <stop offset="24%" stopColor="#67e8f9" stopOpacity=".7" />
+              <stop offset="52%" stopColor="#0284c7" />
+              <stop offset="77%" stopColor="#2dd4bf" />
+              <stop offset="100%" stopColor="#ecfeff" />
+            </linearGradient>
+            <linearGradient
+              id="loader4194Core"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
+              <stop offset="0%" stopColor="#67e8f9" stopOpacity="0" />
+              <stop offset="35%" stopColor="#38bdf8" />
+              <stop offset="70%" stopColor="#a5f3fc" />
+              <stop offset="100%" stopColor="#ffffff" />
+            </linearGradient>
+            <linearGradient
+              id="loader4194Shock"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
+              <stop offset="0%" stopColor="#0d9488" stopOpacity=".15" />
+              <stop offset="55%" stopColor="#67e8f9" stopOpacity=".8" />
+              <stop offset="100%" stopColor="#f0fdfa" />
+            </linearGradient>
+            <filter
+              id="loader4194Bloom"
+              x="-30%"
+              y="-100%"
+              width="160%"
+              height="300%"
+            >
+              <feGaussianBlur stdDeviation="4" />
+            </filter>
+          </defs>
+
+          <g className="loader-4194-bloom" filter="url(#loader4194Bloom)">
+            <path
+              pathLength="100"
+              d="M-36 41 C-2 38 25 19 66 37 S128 63 163 42 S222 23 276 35"
+            />
+            <path
+              pathLength="100"
+              d="M-38 54 C0 58 25 73 64 58 S121 26 161 49 S221 74 273 51"
+            />
+            <path
+              pathLength="100"
+              d="M-34 28 C12 9 39 37 87 25 S158 9 203 26 S254 40 275 24"
+            />
+          </g>
+
+          <g className="loader-4194-streams">
+            <path
+              pathLength="100"
+              d="M-36 10 C4 15 27 -1 66 11 S132 25 172 9 S236 3 276 12"
+            />
+            <path
+              pathLength="100"
+              d="M-30 16 C12 3 34 24 75 15 S134 7 181 21 S244 25 278 13"
+            />
+            <path
+              pathLength="100"
+              d="M-36 22 C8 15 30 31 66 22 S133 11 178 27 S231 17 276 21"
+            />
+            <path
+              pathLength="100"
+              d="M-35 27 C5 33 28 13 64 29 S120 41 162 27 S236 10 274 28"
+            />
+            <path
+              pathLength="100"
+              d="M-30 34 C0 21 38 43 81 34 S133 23 174 37 S238 47 272 32"
+            />
+            <path
+              pathLength="100"
+              d="M-35 40 C12 29 39 51 74 39 S127 24 164 44 S237 57 276 38"
+            />
+            <path
+              pathLength="100"
+              d="M-32 46 C1 46 32 27 76 44 S126 60 171 44 S225 30 274 45"
+            />
+            <path
+              pathLength="100"
+              d="M-32 52 C8 61 36 39 77 53 S142 65 185 49 S249 41 276 54"
+            />
+            <path
+              pathLength="100"
+              d="M-28 58 C9 49 35 71 70 57 S137 42 181 63 S243 66 277 55"
+            />
+            <path
+              pathLength="100"
+              d="M-33 65 C9 73 43 52 86 65 S146 78 188 61 S246 51 274 65"
+            />
+            <path
+              pathLength="100"
+              d="M-35 72 C8 62 37 82 76 72 S136 57 176 77 S229 81 278 72"
+            />
+            <path
+              pathLength="100"
+              d="M-35 79 C7 89 36 69 77 80 S142 90 187 78 S242 71 274 79"
+            />
+            <path
+              pathLength="100"
+              d="M-31 5 C14 -1 35 14 78 6 S152 -1 203 7 S245 12 275 4"
+            />
+            <path
+              pathLength="100"
+              d="M-31 86 C14 93 40 77 84 86 S149 96 202 85 S248 78 277 87"
+            />
+            <path
+              pathLength="100"
+              d="M-45 43 C9 45 31 28 81 43 S143 57 187 41 S252 30 286 42"
+            />
+            <path
+              pathLength="100"
+              d="M-42 50 C3 53 30 37 74 50 S138 64 184 49 S247 41 284 50"
+            />
+            <path
+              pathLength="100"
+              d="M-32 20 C1 5 17 37 42 24 S81 6 104 22 S152 42 189 22 S245 6 274 21"
+            />
+            <path
+              pathLength="100"
+              d="M-34 74 C-2 89 20 53 48 70 S90 89 117 71 S171 54 195 75 S247 87 275 74"
+            />
+          </g>
+
+          <g className="loader-4194-pressure">
+            <path
+              className="loader-4194-pressure-1"
+              d="M22 9 C52 23 52 69 22 83"
+            />
+            <path
+              className="loader-4194-pressure-2"
+              d="M14 19 C36 31 36 62 14 74"
+            />
+            <path
+              className="loader-4194-pressure-3"
+              d="M28 3 C66 25 66 68 28 89"
+            />
+          </g>
+
+          <g className="loader-4194-particles">
+            <circle cx="-20" cy="12" r="1.5" />
+            <circle cx="-38" cy="24" r="2" />
+            <circle cx="-13" cy="34" r="1.3" />
+            <circle cx="-28" cy="43" r="2.4" />
+            <circle cx="-40" cy="53" r="1.6" />
+            <circle cx="-16" cy="65" r="2" />
+            <circle cx="-34" cy="75" r="1.3" />
+            <circle cx="-22" cy="84" r="1.7" />
+          </g>
+        </svg>
+      </div>
+    ),
+    html: `<div class="loader-4194" role="status" aria-label="Laden">
+    <svg viewBox="0 0 240 92" aria-hidden="true" focusable="false">
+        <defs>
+            <linearGradient id="loader4194Wind" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#bae6fd" stop-opacity=".12" />
+                <stop offset="24%" stop-color="#67e8f9" stop-opacity=".7" />
+                <stop offset="52%" stop-color="#0284c7" />
+                <stop offset="77%" stop-color="#2dd4bf" />
+                <stop offset="100%" stop-color="#ecfeff" />
+            </linearGradient>
+            <linearGradient id="loader4194Core" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#67e8f9" stop-opacity="0" />
+                <stop offset="35%" stop-color="#38bdf8" />
+                <stop offset="70%" stop-color="#a5f3fc" />
+                <stop offset="100%" stop-color="#ffffff" />
+            </linearGradient>
+            <linearGradient id="loader4194Shock" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#0d9488" stop-opacity=".15" />
+                <stop offset="55%" stop-color="#67e8f9" stop-opacity=".8" />
+                <stop offset="100%" stop-color="#f0fdfa" />
+            </linearGradient>
+            <filter id="loader4194Bloom" x="-30%" y="-100%" width="160%" height="300%">
+                <feGaussianBlur stdDeviation="4" />
+            </filter>
+        </defs>
+        <g class="loader-4194-bloom" filter="url(#loader4194Bloom)">
+            <path pathLength="100" d="M-36 41 C-2 38 25 19 66 37 S128 63 163 42 S222 23 276 35" />
+            <path pathLength="100" d="M-38 54 C0 58 25 73 64 58 S121 26 161 49 S221 74 273 51" />
+            <path pathLength="100" d="M-34 28 C12 9 39 37 87 25 S158 9 203 26 S254 40 275 24" />
+        </g>
+        <g class="loader-4194-streams">
+            <path pathLength="100" d="M-36 10 C4 15 27 -1 66 11 S132 25 172 9 S236 3 276 12" />
+            <path pathLength="100" d="M-30 16 C12 3 34 24 75 15 S134 7 181 21 S244 25 278 13" />
+            <path pathLength="100" d="M-36 22 C8 15 30 31 66 22 S133 11 178 27 S231 17 276 21" />
+            <path pathLength="100" d="M-35 27 C5 33 28 13 64 29 S120 41 162 27 S236 10 274 28" />
+            <path pathLength="100" d="M-30 34 C0 21 38 43 81 34 S133 23 174 37 S238 47 272 32" />
+            <path pathLength="100" d="M-35 40 C12 29 39 51 74 39 S127 24 164 44 S237 57 276 38" />
+            <path pathLength="100" d="M-32 46 C1 46 32 27 76 44 S126 60 171 44 S225 30 274 45" />
+            <path pathLength="100" d="M-32 52 C8 61 36 39 77 53 S142 65 185 49 S249 41 276 54" />
+            <path pathLength="100" d="M-28 58 C9 49 35 71 70 57 S137 42 181 63 S243 66 277 55" />
+            <path pathLength="100" d="M-33 65 C9 73 43 52 86 65 S146 78 188 61 S246 51 274 65" />
+            <path pathLength="100" d="M-35 72 C8 62 37 82 76 72 S136 57 176 77 S229 81 278 72" />
+            <path pathLength="100" d="M-35 79 C7 89 36 69 77 80 S142 90 187 78 S242 71 274 79" />
+            <path pathLength="100" d="M-31 5 C14 -1 35 14 78 6 S152 -1 203 7 S245 12 275 4" />
+            <path pathLength="100" d="M-31 86 C14 93 40 77 84 86 S149 96 202 85 S248 78 277 87" />
+            <path pathLength="100" d="M-45 43 C9 45 31 28 81 43 S143 57 187 41 S252 30 286 42" />
+            <path pathLength="100" d="M-42 50 C3 53 30 37 74 50 S138 64 184 49 S247 41 284 50" />
+            <path pathLength="100" d="M-32 20 C1 5 17 37 42 24 S81 6 104 22 S152 42 189 22 S245 6 274 21" />
+            <path pathLength="100" d="M-34 74 C-2 89 20 53 48 70 S90 89 117 71 S171 54 195 75 S247 87 275 74" />
+        </g>
+        <g class="loader-4194-pressure">
+            <path class="loader-4194-pressure-1" d="M22 9 C52 23 52 69 22 83" />
+            <path class="loader-4194-pressure-2" d="M14 19 C36 31 36 62 14 74" />
+            <path class="loader-4194-pressure-3" d="M28 3 C66 25 66 68 28 89" />
+        </g>
+        <g class="loader-4194-particles">
+            <circle cx="-20" cy="12" r="1.5" />
+            <circle cx="-38" cy="24" r="2" />
+            <circle cx="-13" cy="34" r="1.3" />
+            <circle cx="-28" cy="43" r="2.4" />
+            <circle cx="-40" cy="53" r="1.6" />
+            <circle cx="-16" cy="65" r="2" />
+            <circle cx="-34" cy="75" r="1.3" />
+            <circle cx="-22" cy="84" r="1.7" />
+        </g>
+    </svg>
+</div>`,
+    css: `.loader-4194 {
+    position: relative;
+    width: 224px;
+    height: 92px;
+    display: block;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.loader-4194 svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(
+        90deg,
+        transparent 0%,
+        #000 6%,
+        #000 94%,
+        transparent 100%
+    );
+    mask-image: linear-gradient(
+        90deg,
+        transparent 0%,
+        #000 6%,
+        #000 94%,
+        transparent 100%
+    );
+}
+
+.loader-4194 path {
+    fill: none;
+}
+
+.loader-4194-bloom path {
+    stroke: url(#loader4194Core);
+    stroke-width: 12;
+    stroke-linecap: round;
+    stroke-dasharray: 28 72;
+    opacity: .65;
+    animation: loader4194Surge 1.25s linear infinite;
+}
+
+.loader-4194-bloom path:nth-child(1) {
+    animation-duration: 1.15s;
+    animation-delay: -.75s;
+    stroke-width: 13;
+}
+
+.loader-4194-bloom path:nth-child(2) {
+    animation-duration: 1.38s;
+    animation-delay: -.25s;
+    stroke-width: 11;
+}
+
+.loader-4194-bloom path:nth-child(3) {
+    animation-duration: 1.65s;
+    animation-delay: -1.1s;
+    stroke-width: 9;
+    opacity: .4;
+}
+
+.loader-4194-streams path {
+    stroke: url(#loader4194Wind);
+    stroke-width: 2.4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 21 79;
+    stroke-dashoffset: 100;
+    opacity: .85;
+    animation: loader4194Surge 1.2s linear infinite;
+}
+
+.loader-4194-streams path:nth-child(1) {
+    stroke-width: 1.7;
+    stroke-dasharray: 16 84;
+    animation-duration: 1.35s;
+    animation-delay: -.2s;
+    opacity: .55;
+}
+
+.loader-4194-streams path:nth-child(2) {
+    stroke-width: 2.2;
+    animation-duration: 1.12s;
+    animation-delay: -.75s;
+}
+
+.loader-4194-streams path:nth-child(3) {
+    stroke-width: 1.8;
+    stroke-dasharray: 24 76;
+    animation-duration: 1.45s;
+    animation-delay: -1.15s;
+    opacity: .65;
+}
+
+.loader-4194-streams path:nth-child(4) {
+    stroke-width: 2.6;
+    animation-duration: .95s;
+    animation-delay: -.42s;
+}
+
+.loader-4194-streams path:nth-child(5) {
+    stroke-width: 2;
+    stroke-dasharray: 18 82;
+    animation-duration: 1.28s;
+    animation-delay: -.98s;
+}
+
+.loader-4194-streams path:nth-child(6) {
+    stroke-width: 3.2;
+    animation-duration: 1.05s;
+    animation-delay: -.3s;
+}
+
+.loader-4194-streams path:nth-child(7) {
+    stroke: url(#loader4194Core);
+    stroke-width: 4;
+    stroke-dasharray: 25 75;
+    animation-duration: 1.08s;
+    animation-delay: -.82s;
+    opacity: 1;
+    filter: drop-shadow(0 0 3px rgba(56, 189, 248, .55));
+}
+
+.loader-4194-streams path:nth-child(8) {
+    stroke-width: 3.3;
+    stroke-dasharray: 19 81;
+    animation-duration: 1.22s;
+    animation-delay: -.45s;
+}
+
+.loader-4194-streams path:nth-child(9) {
+    stroke-width: 2.7;
+    animation-duration: 1.14s;
+    animation-delay: -.9s;
+}
+
+.loader-4194-streams path:nth-child(10) {
+    stroke-width: 2.4;
+    stroke-dasharray: 17 83;
+    animation-duration: 1.42s;
+    animation-delay: -.15s;
+}
+
+.loader-4194-streams path:nth-child(11) {
+    stroke-width: 1.9;
+    animation-duration: 1.18s;
+    animation-delay: -.65s;
+    opacity: .7;
+}
+
+.loader-4194-streams path:nth-child(12) {
+    stroke-width: 1.6;
+    stroke-dasharray: 14 86;
+    animation-duration: 1.5s;
+    animation-delay: -1.2s;
+    opacity: .55;
+}
+
+.loader-4194-streams path:nth-child(13) {
+    stroke-width: 1.2;
+    stroke-dasharray: 10 90;
+    animation-duration: .92s;
+    animation-delay: -.35s;
+    opacity: .45;
+}
+
+.loader-4194-streams path:nth-child(14) {
+    stroke-width: 1.4;
+    stroke-dasharray: 13 87;
+    animation-duration: 1.08s;
+    animation-delay: -.78s;
+    opacity: .5;
+}
+
+.loader-4194-streams path:nth-child(15) {
+    stroke: url(#loader4194Core);
+    stroke-width: 6.5;
+    stroke-dasharray: 27 73;
+    animation-duration: 1.16s;
+    animation-delay: -.55s;
+    opacity: .95;
+    filter: drop-shadow(0 0 4px rgba(34, 211, 238, .65));
+}
+
+.loader-4194-streams path:nth-child(16) {
+    stroke: url(#loader4194Core);
+    stroke-width: 4.5;
+    stroke-dasharray: 22 78;
+    animation-duration: 1.34s;
+    animation-delay: -1.05s;
+    opacity: .85;
+    filter: drop-shadow(0 0 3px rgba(125, 211, 252, .5));
+}
+
+.loader-4194-streams path:nth-child(17) {
+    stroke-width: 2.5;
+    stroke-dasharray: 20 80;
+    animation-duration: 1.2s;
+    animation-delay: -.22s;
+}
+
+.loader-4194-streams path:nth-child(18) {
+    stroke-width: 2.5;
+    stroke-dasharray: 20 80;
+    animation-duration: 1.38s;
+    animation-delay: -.92s;
+}
+
+.loader-4194-pressure path {
+    stroke: url(#loader4194Shock);
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    opacity: 0;
+    filter: drop-shadow(0 0 4px rgba(103, 232, 249, .5));
+    animation: loader4194Pressure 1.45s ease-out infinite;
+}
+
+.loader-4194-pressure-1 {
+    animation-delay: -.15s !important;
+}
+
+.loader-4194-pressure-2 {
+    stroke-width: 2 !important;
+    animation-delay: -.65s !important;
+    animation-duration: 1.2s !important;
+}
+
+.loader-4194-pressure-3 {
+    stroke-width: 3.5 !important;
+    animation-delay: -1.05s !important;
+    animation-duration: 1.7s !important;
+}
+
+.loader-4194-particles circle {
+    fill: #e0fdfa;
+    opacity: 0;
+    filter: drop-shadow(0 0 2px rgba(34, 211, 238, .85));
+    animation: loader4194Particle 1.2s linear infinite;
+}
+
+.loader-4194-particles circle:nth-child(1) {
+    animation-duration: .85s;
+    animation-delay: -.42s;
+}
+
+.loader-4194-particles circle:nth-child(2) {
+    animation-duration: 1.3s;
+    animation-delay: -.9s;
+    fill: #67e8f9;
+}
+
+.loader-4194-particles circle:nth-child(3) {
+    animation-duration: 1.05s;
+    animation-delay: -.15s;
+}
+
+.loader-4194-particles circle:nth-child(4) {
+    animation-duration: .92s;
+    animation-delay: -.72s;
+    fill: #38bdf8;
+}
+
+.loader-4194-particles circle:nth-child(5) {
+    animation-duration: 1.48s;
+    animation-delay: -1.22s;
+}
+
+.loader-4194-particles circle:nth-child(6) {
+    animation-duration: 1.1s;
+    animation-delay: -.52s;
+    fill: #2dd4bf;
+}
+
+.loader-4194-particles circle:nth-child(7) {
+    animation-duration: .78s;
+    animation-delay: -.25s;
+}
+
+.loader-4194-particles circle:nth-child(8) {
+    animation-duration: 1.32s;
+    animation-delay: -1.05s;
+    fill: #7dd3fc;
+}
+
+@keyframes loader4194Surge {
+    from {
+        stroke-dashoffset: 100;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes loader4194Pressure {
+    0% {
+        transform: translateX(-50px) scaleX(.5);
+        opacity: 0;
+    }
+    12% {
+        opacity: .7;
+    }
+    45% {
+        opacity: 1;
+    }
+    78% {
+        opacity: .55;
+    }
+    100% {
+        transform: translateX(245px) scaleX(1.2);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4194Particle {
+    0% {
+        transform: translate(-15px, 2px) scale(.3);
+        opacity: 0;
+    }
+    12% {
+        opacity: .85;
+    }
+    45% {
+        transform: translate(125px, -4px) scale(1.1);
+        opacity: 1;
+    }
+    80% {
+        opacity: .8;
+    }
+    100% {
+        transform: translate(310px, 3px) scale(.45);
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .loader-4194-bloom path,
+    .loader-4194-streams path,
+    .loader-4194-pressure path,
+    .loader-4194-particles circle {
+        animation: none;
+    }
+
+    .loader-4194-bloom path {
+        stroke-dashoffset: 42;
+    }
+
+    .loader-4194-streams path {
+        stroke-dashoffset: 55;
+    }
+
+    .loader-4194-streams path:nth-child(3n) {
+        stroke-dashoffset: 20;
+    }
+
+    .loader-4194-streams path:nth-child(4n) {
+        stroke-dashoffset: 78;
+    }
+
+    .loader-4194-pressure path {
+        opacity: .5;
+    }
+
+    .loader-4194-pressure-1 {
+        transform: translateX(30px);
+    }
+
+    .loader-4194-pressure-2 {
+        transform: translateX(100px);
+    }
+
+    .loader-4194-pressure-3 {
+        transform: translateX(165px);
+    }
+
+    .loader-4194-particles circle {
+        opacity: .6;
+    }
+
+    .loader-4194-particles circle:nth-child(1) {
+        transform: translateX(55px);
+    }
+
+    .loader-4194-particles circle:nth-child(2) {
+        transform: translateX(92px);
+    }
+
+    .loader-4194-particles circle:nth-child(3) {
+        transform: translateX(145px);
+    }
+
+    .loader-4194-particles circle:nth-child(4) {
+        transform: translateX(185px);
+    }
+
+    .loader-4194-particles circle:nth-child(5) {
+        transform: translateX(230px);
+    }
+
+    .loader-4194-particles circle:nth-child(6) {
+        transform: translateX(110px);
+    }
+
+    .loader-4194-particles circle:nth-child(7) {
+        transform: translateX(170px);
+    }
+
+    .loader-4194-particles circle:nth-child(8) {
+        transform: translateX(245px);
+    }
+}`,
+  },
+  {
+    id: 4195,
+    name: "Lightning Attack Loader",
+    preview: (
+      <div className="loader-4195" role="status" aria-label="Loading">
+        <div className="loader-4195-stage">
+          <span className="loader-4195-glow loader-4195-glow-1"></span>
+          <span className="loader-4195-glow loader-4195-glow-2"></span>
+          <span className="loader-4195-glow loader-4195-glow-3"></span>
+
+          <span className="loader-4195-core"></span>
+
+          <span className="loader-4195-bolt loader-4195-bolt-1"></span>
+          <span className="loader-4195-bolt loader-4195-bolt-2"></span>
+          <span className="loader-4195-bolt loader-4195-bolt-3"></span>
+          <span className="loader-4195-bolt loader-4195-bolt-4"></span>
+          <span className="loader-4195-bolt loader-4195-bolt-5"></span>
+          <span className="loader-4195-bolt loader-4195-bolt-6"></span>
+
+          <span className="loader-4195-arc loader-4195-arc-1"></span>
+          <span className="loader-4195-arc loader-4195-arc-2"></span>
+          <span className="loader-4195-arc loader-4195-arc-3"></span>
+          <span className="loader-4195-arc loader-4195-arc-4"></span>
+          <span className="loader-4195-arc loader-4195-arc-5"></span>
+          <span className="loader-4195-arc loader-4195-arc-6"></span>
+
+          <span className="loader-4195-stream loader-4195-stream-1"></span>
+          <span className="loader-4195-stream loader-4195-stream-2"></span>
+          <span className="loader-4195-stream loader-4195-stream-3"></span>
+          <span className="loader-4195-stream loader-4195-stream-4"></span>
+          <span className="loader-4195-stream loader-4195-stream-5"></span>
+
+          <span className="loader-4195-ring loader-4195-ring-1"></span>
+          <span className="loader-4195-ring loader-4195-ring-2"></span>
+          <span className="loader-4195-ring loader-4195-ring-3"></span>
+
+          <span className="loader-4195-shock loader-4195-shock-1"></span>
+          <span className="loader-4195-shock loader-4195-shock-2"></span>
+          <span className="loader-4195-shock loader-4195-shock-3"></span>
+          <span className="loader-4195-shock loader-4195-shock-4"></span>
+
+          <span className="loader-4195-spark loader-4195-spark-1"></span>
+          <span className="loader-4195-spark loader-4195-spark-2"></span>
+          <span className="loader-4195-spark loader-4195-spark-3"></span>
+          <span className="loader-4195-spark loader-4195-spark-4"></span>
+          <span className="loader-4195-spark loader-4195-spark-5"></span>
+          <span className="loader-4195-spark loader-4195-spark-6"></span>
+          <span className="loader-4195-spark loader-4195-spark-7"></span>
+          <span className="loader-4195-spark loader-4195-spark-8"></span>
+          <span className="loader-4195-spark loader-4195-spark-9"></span>
+          <span className="loader-4195-spark loader-4195-spark-10"></span>
+          <span className="loader-4195-spark loader-4195-spark-11"></span>
+          <span className="loader-4195-spark loader-4195-spark-12"></span>
+
+          <span className="loader-4195-charge loader-4195-charge-1"></span>
+          <span className="loader-4195-charge loader-4195-charge-2"></span>
+          <span className="loader-4195-charge loader-4195-charge-3"></span>
+          <span className="loader-4195-charge loader-4195-charge-4"></span>
+          <span className="loader-4195-charge loader-4195-charge-5"></span>
+          <span className="loader-4195-charge loader-4195-charge-6"></span>
+
+          <span className="loader-4195-track"></span>
+          <span className="loader-4195-fill"></span>
+          <span className="loader-4195-tip"></span>
+        </div>
+      </div>
+    ),
+    html: `<div class="loader-4195" role="status" aria-label="Loading">
+    <div class="loader-4195-stage">
+        <span class="loader-4195-glow loader-4195-glow-1"></span>
+        <span class="loader-4195-glow loader-4195-glow-2"></span>
+        <span class="loader-4195-glow loader-4195-glow-3"></span>
+
+        <span class="loader-4195-core"></span>
+
+        <span class="loader-4195-bolt loader-4195-bolt-1"></span>
+        <span class="loader-4195-bolt loader-4195-bolt-2"></span>
+        <span class="loader-4195-bolt loader-4195-bolt-3"></span>
+        <span class="loader-4195-bolt loader-4195-bolt-4"></span>
+        <span class="loader-4195-bolt loader-4195-bolt-5"></span>
+        <span class="loader-4195-bolt loader-4195-bolt-6"></span>
+
+        <span class="loader-4195-arc loader-4195-arc-1"></span>
+        <span class="loader-4195-arc loader-4195-arc-2"></span>
+        <span class="loader-4195-arc loader-4195-arc-3"></span>
+        <span class="loader-4195-arc loader-4195-arc-4"></span>
+        <span class="loader-4195-arc loader-4195-arc-5"></span>
+        <span class="loader-4195-arc loader-4195-arc-6"></span>
+
+        <span class="loader-4195-stream loader-4195-stream-1"></span>
+        <span class="loader-4195-stream loader-4195-stream-2"></span>
+        <span class="loader-4195-stream loader-4195-stream-3"></span>
+        <span class="loader-4195-stream loader-4195-stream-4"></span>
+        <span class="loader-4195-stream loader-4195-stream-5"></span>
+
+        <span class="loader-4195-ring loader-4195-ring-1"></span>
+        <span class="loader-4195-ring loader-4195-ring-2"></span>
+        <span class="loader-4195-ring loader-4195-ring-3"></span>
+
+        <span class="loader-4195-shock loader-4195-shock-1"></span>
+        <span class="loader-4195-shock loader-4195-shock-2"></span>
+        <span class="loader-4195-shock loader-4195-shock-3"></span>
+        <span class="loader-4195-shock loader-4195-shock-4"></span>
+
+        <span class="loader-4195-spark loader-4195-spark-1"></span>
+        <span class="loader-4195-spark loader-4195-spark-2"></span>
+        <span class="loader-4195-spark loader-4195-spark-3"></span>
+        <span class="loader-4195-spark loader-4195-spark-4"></span>
+        <span class="loader-4195-spark loader-4195-spark-5"></span>
+        <span class="loader-4195-spark loader-4195-spark-6"></span>
+        <span class="loader-4195-spark loader-4195-spark-7"></span>
+        <span class="loader-4195-spark loader-4195-spark-8"></span>
+        <span class="loader-4195-spark loader-4195-spark-9"></span>
+        <span class="loader-4195-spark loader-4195-spark-10"></span>
+        <span class="loader-4195-spark loader-4195-spark-11"></span>
+        <span class="loader-4195-spark loader-4195-spark-12"></span>
+
+        <span class="loader-4195-charge loader-4195-charge-1"></span>
+        <span class="loader-4195-charge loader-4195-charge-2"></span>
+        <span class="loader-4195-charge loader-4195-charge-3"></span>
+        <span class="loader-4195-charge loader-4195-charge-4"></span>
+        <span class="loader-4195-charge loader-4195-charge-5"></span>
+        <span class="loader-4195-charge loader-4195-charge-6"></span>
+
+        <span class="loader-4195-track"></span>
+        <span class="loader-4195-fill"></span>
+        <span class="loader-4195-tip"></span>
+    </div>
+</div>`,
+    css: `.loader-4195 {
+    position: relative;
+    width: 164px;
+    height: 88px;
+    display: grid;
+    place-items: center;
+    overflow: visible;
+}
+
+.loader-4195-stage {
+    position: relative;
+    width: 164px;
+    height: 88px;
+    overflow: hidden;
+}
+
+.loader-4195-glow,
+.loader-4195-core,
+.loader-4195-bolt,
+.loader-4195-arc,
+.loader-4195-stream,
+.loader-4195-ring,
+.loader-4195-shock,
+.loader-4195-spark,
+.loader-4195-charge,
+.loader-4195-track,
+.loader-4195-fill,
+.loader-4195-tip {
+    position: absolute;
+    pointer-events: none;
+}
+
+.loader-4195-glow {
+    border-radius: 999px;
+    filter: blur(10px);
+    opacity: .6;
+    animation: loader4195Glow 1.8s ease-in-out infinite;
+}
+
+.loader-4195-glow-1 {
+    left: 10px;
+    top: 25px;
+    width: 56px;
+    height: 34px;
+    background: rgba(59, 130, 246, .42);
+    animation-delay: -.2s;
+}
+
+.loader-4195-glow-2 {
+    left: 54px;
+    top: 18px;
+    width: 68px;
+    height: 40px;
+    background: rgba(96, 165, 250, .45);
+    animation-delay: -.7s;
+}
+
+.loader-4195-glow-3 {
+    right: 8px;
+    top: 24px;
+    width: 52px;
+    height: 30px;
+    background: rgba(255, 255, 255, .4);
+    animation-delay: -1.1s;
+}
+
+.loader-4195-core {
+    left: 8px;
+    top: 40px;
+    width: 20px;
+    height: 8px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #93c5fd, #ffffff);
+    box-shadow:
+        0 0 8px rgba(147, 197, 253, .8),
+        0 0 16px rgba(96, 165, 250, .6),
+        0 0 28px rgba(191, 219, 254, .65);
+    animation: loader4195CorePulse 1.15s ease-in-out infinite;
+}
+
+.loader-4195-bolt {
+    top: 50%;
+    left: 10px;
+    height: 4px;
+    margin-top: -2px;
+    border-radius: 999px;
+    transform-origin: left center;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0),
+        #e0f2fe 10%,
+        #ffffff 34%,
+        #93c5fd 55%,
+        #3b82f6 80%,
+        rgba(59, 130, 246, 0)
+    );
+    box-shadow:
+        0 0 10px rgba(255, 255, 255, .85),
+        0 0 18px rgba(96, 165, 250, .85),
+        0 0 28px rgba(59, 130, 246, .6);
+    clip-path: polygon(
+        0 45%,
+        8% 0,
+        16% 35%,
+        25% 8%,
+        33% 48%,
+        42% 12%,
+        51% 56%,
+        60% 18%,
+        69% 60%,
+        79% 26%,
+        89% 72%,
+        100% 42%,
+        100% 58%,
+        89% 92%,
+        79% 44%,
+        69% 82%,
+        60% 38%,
+        51% 76%,
+        42% 32%,
+        33% 68%,
+        25% 28%,
+        16% 62%,
+        8% 22%,
+        0 55%
+    );
+    animation: loader4195BoltTravel 1.2s linear infinite;
+}
+
+.loader-4195-bolt-1 {
+    width: 126px;
+    animation-delay: 0s;
+    opacity: 1;
+}
+
+.loader-4195-bolt-2 {
+    width: 112px;
+    margin-top: -15px;
+    animation-delay: -.18s;
+    opacity: .85;
+}
+
+.loader-4195-bolt-3 {
+    width: 118px;
+    margin-top: 11px;
+    animation-delay: -.32s;
+    opacity: .8;
+}
+
+.loader-4195-bolt-4 {
+    width: 86px;
+    margin-top: -26px;
+    animation-delay: -.52s;
+    opacity: .7;
+}
+
+.loader-4195-bolt-5 {
+    width: 96px;
+    margin-top: 22px;
+    animation-delay: -.74s;
+    opacity: .7;
+}
+
+.loader-4195-bolt-6 {
+    width: 136px;
+    animation-delay: -.92s;
+    opacity: .55;
+    filter: blur(.4px);
+}
+
+.loader-4195-arc {
+    height: 2px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, rgba(224, 242, 254, 0), #ffffff, rgba(224, 242, 254, 0));
+    box-shadow: 0 0 7px rgba(255, 255, 255, .8);
+    animation: loader4195ArcFlash 1s linear infinite;
+}
+
+.loader-4195-arc-1 {
+    left: 24px;
+    top: 24px;
+    width: 28px;
+    transform: rotate(-26deg);
+    animation-delay: -.15s;
+}
+
+.loader-4195-arc-2 {
+    left: 48px;
+    top: 58px;
+    width: 22px;
+    transform: rotate(20deg);
+    animation-delay: -.32s;
+}
+
+.loader-4195-arc-3 {
+    left: 72px;
+    top: 18px;
+    width: 34px;
+    transform: rotate(-10deg);
+    animation-delay: -.52s;
+}
+
+.loader-4195-arc-4 {
+    left: 95px;
+    top: 52px;
+    width: 20px;
+    transform: rotate(18deg);
+    animation-delay: -.7s;
+}
+
+.loader-4195-arc-5 {
+    left: 112px;
+    top: 23px;
+    width: 24px;
+    transform: rotate(-18deg);
+    animation-delay: -.88s;
+}
+
+.loader-4195-arc-6 {
+    left: 128px;
+    top: 46px;
+    width: 18px;
+    transform: rotate(14deg);
+    animation-delay: -1.02s;
+}
+
+.loader-4195-stream {
+    height: 1px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, rgba(255,255,255,0), rgba(191,219,254,.95), rgba(255,255,255,0));
+    opacity: .65;
+    animation: loader4195StreamTravel 1.35s linear infinite;
+}
+
+.loader-4195-stream-1 {
+    left: 12px;
+    top: 18px;
+    width: 96px;
+    animation-delay: -.18s;
+}
+
+.loader-4195-stream-2 {
+    left: 2px;
+    top: 29px;
+    width: 118px;
+    animation-delay: -.52s;
+}
+
+.loader-4195-stream-3 {
+    left: 14px;
+    top: 60px;
+    width: 102px;
+    animation-delay: -.9s;
+}
+
+.loader-4195-stream-4 {
+    left: 40px;
+    top: 71px;
+    width: 82px;
+    animation-delay: -.3s;
+}
+
+.loader-4195-stream-5 {
+    left: 54px;
+    top: 9px;
+    width: 66px;
+    animation-delay: -.72s;
+}
+
+.loader-4195-ring {
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgba(224, 242, 254, .85);
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 10px rgba(191, 219, 254, .6);
+    animation: loader4195RingMove 1.25s ease-out infinite;
+}
+
+.loader-4195-ring-1 {
+    left: 8px;
+    top: 35px;
+    animation-delay: 0s;
+}
+
+.loader-4195-ring-2 {
+    left: 8px;
+    top: 35px;
+    animation-delay: -.42s;
+}
+
+.loader-4195-ring-3 {
+    left: 8px;
+    top: 35px;
+    animation-delay: -.85s;
+}
+
+.loader-4195-shock {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,255,255,.95), rgba(147,197,253,.55), rgba(59,130,246,0));
+    filter: blur(.4px);
+    opacity: 0;
+    animation: loader4195ShockTravel 1s linear infinite;
+}
+
+.loader-4195-shock-1 {
+    left: 18px;
+    top: 39px;
+    animation-delay: -.1s;
+}
+
+.loader-4195-shock-2 {
+    left: 18px;
+    top: 39px;
+    animation-delay: -.34s;
+}
+
+.loader-4195-shock-3 {
+    left: 18px;
+    top: 39px;
+    animation-delay: -.6s;
+}
+
+.loader-4195-shock-4 {
+    left: 18px;
+    top: 39px;
+    animation-delay: -.88s;
+}
+
+.loader-4195-spark {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow:
+        0 0 8px rgba(255, 255, 255, .95),
+        0 0 16px rgba(96, 165, 250, .7);
+    opacity: 0;
+    animation: loader4195SparkBurst 1.15s linear infinite;
+}
+
+.loader-4195-spark-1 { left: 26px; top: 21px; animation-delay: -.08s; }
+.loader-4195-spark-2 { left: 31px; top: 56px; animation-delay: -.2s; }
+.loader-4195-spark-3 { left: 52px; top: 16px; animation-delay: -.3s; }
+.loader-4195-spark-4 { left: 66px; top: 49px; animation-delay: -.44s; }
+.loader-4195-spark-5 { left: 78px; top: 27px; animation-delay: -.58s; }
+.loader-4195-spark-6 { left: 94px; top: 58px; animation-delay: -.7s; }
+.loader-4195-spark-7 { left: 106px; top: 18px; animation-delay: -.82s; }
+.loader-4195-spark-8 { left: 117px; top: 45px; animation-delay: -.94s; }
+.loader-4195-spark-9 { left: 128px; top: 31px; animation-delay: -1.06s; }
+.loader-4195-spark-10 { left: 141px; top: 21px; animation-delay: -.18s; }
+.loader-4195-spark-11 { left: 146px; top: 50px; animation-delay: -.56s; }
+.loader-4195-spark-12 { left: 152px; top: 35px; animation-delay: -.86s; }
+
+.loader-4195-charge {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ffffff 0%, #93c5fd 45%, rgba(59,130,246,0) 100%);
+    filter: blur(.2px);
+    opacity: 0;
+    animation: loader4195ChargeOrbit 1.3s ease-in-out infinite;
+}
+
+.loader-4195-charge-1 {
+    left: 6px;
+    top: 10px;
+    animation-delay: -.15s;
+}
+
+.loader-4195-charge-2 {
+    left: 0;
+    top: 24px;
+    animation-delay: -.35s;
+}
+
+.loader-4195-charge-3 {
+    left: 2px;
+    top: 40px;
+    animation-delay: -.55s;
+}
+
+.loader-4195-charge-4 {
+    left: 3px;
+    top: 56px;
+    animation-delay: -.75s;
+}
+
+.loader-4195-charge-5 {
+    left: 10px;
+    top: 70px;
+    animation-delay: -.95s;
+}
+
+.loader-4195-charge-6 {
+    left: 16px;
+    top: 28px;
+    animation-delay: -1.15s;
+}
+
+.loader-4195-track {
+    left: 14px;
+    right: 10px;
+    bottom: 7px;
+    height: 3px;
+    border-radius: 999px;
+    background: rgba(30, 41, 59, .5);
+    box-shadow:
+        inset 0 0 0 1px rgba(147, 197, 253, .22),
+        0 0 12px rgba(59, 130, 246, .18);
+}
+
+.loader-4195-fill {
+    left: 14px;
+    bottom: 7px;
+    height: 3px;
+    width: 20px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #dbeafe, #93c5fd, #2563eb, #ffffff);
+    box-shadow:
+        0 0 8px rgba(255,255,255,.85),
+        0 0 16px rgba(96,165,250,.7),
+        0 0 24px rgba(59,130,246,.52);
+    animation: loader4195FillTravel 1.2s linear infinite;
+}
+
+.loader-4195-tip {
+    bottom: 3px;
+    left: 14px;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background: linear-gradient(135deg, #ffffff, #93c5fd, #2563eb);
+    box-shadow:
+        0 0 8px rgba(255,255,255,.8),
+        0 0 16px rgba(96,165,250,.55);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    animation: loader4195TipTravel 1.2s linear infinite;
+}
+
+@keyframes loader4195Glow {
+    0%,100% {
+        transform: scale(.82);
+        opacity: .35;
+    }
+    50% {
+        transform: scale(1.18);
+        opacity: .82;
+    }
+}
+
+@keyframes loader4195CorePulse {
+    0%,100% {
+        transform: scaleX(.72);
+        opacity: .65;
+    }
+    50% {
+        transform: scaleX(1.08);
+        opacity: 1;
+    }
+}
+
+@keyframes loader4195BoltTravel {
+    0% {
+        transform: translateX(-18px) scaleX(.25);
+        opacity: 0;
+    }
+    8% {
+        opacity: .95;
+    }
+    35% {
+        transform: translateX(18px) scaleX(.82);
+        opacity: 1;
+    }
+    68% {
+        transform: translateX(34px) scaleX(1);
+        opacity: .95;
+    }
+    100% {
+        transform: translateX(52px) scaleX(.65);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4195ArcFlash {
+    0%,100% {
+        opacity: 0;
+        transform: scaleX(.55) scaleY(.8);
+    }
+    18% {
+        opacity: .9;
+    }
+    45% {
+        opacity: 1;
+        transform: scaleX(1.15) scaleY(1.2);
+    }
+    80% {
+        opacity: 0;
+    }
+}
+
+@keyframes loader4195StreamTravel {
+    0% {
+        transform: translateX(-24px) scaleX(.4);
+        opacity: 0;
+    }
+    20% {
+        opacity: .55;
+    }
+    50% {
+        transform: translateX(18px) scaleX(1);
+        opacity: .8;
+    }
+    100% {
+        transform: translateX(48px) scaleX(.7);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4195RingMove {
+    0% {
+        transform: scale(.25);
+        opacity: 0;
+    }
+    15% {
+        opacity: .75;
+    }
+    55% {
+        transform: translateX(55px) scale(1);
+        opacity: .95;
+    }
+    100% {
+        transform: translateX(122px) scale(1.65);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4195ShockTravel {
+    0% {
+        transform: translateX(0) scale(.35);
+        opacity: 0;
+    }
+    10% {
+        opacity: .8;
+    }
+    50% {
+        transform: translateX(66px) scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(128px) scale(.55);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4195SparkBurst {
+    0% {
+        transform: scale(.2) translateY(0);
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    55% {
+        transform: scale(1.15) translateY(-4px);
+        opacity: .95;
+    }
+    100% {
+        transform: scale(.3) translateY(8px);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4195ChargeOrbit {
+    0% {
+        transform: translateX(-4px) translateY(0) scale(.3);
+        opacity: 0;
+    }
+    25% {
+        opacity: .9;
+    }
+    55% {
+        transform: translateX(16px) translateY(-3px) scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(34px) translateY(0) scale(.25);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4195FillTravel {
+    0% {
+        width: 16px;
+        opacity: .8;
+    }
+    35% {
+        width: 68px;
+        opacity: 1;
+    }
+    70% {
+        width: 114px;
+        opacity: 1;
+    }
+    100% {
+        width: 138px;
+        opacity: .88;
+    }
+}
+
+@keyframes loader4195TipTravel {
+    0% {
+        left: 14px;
+        opacity: .8;
+        transform: rotate(45deg) scale(.8);
+    }
+    35% {
+        left: 72px;
+        opacity: 1;
+        transform: rotate(45deg) scale(1.08);
+    }
+    70% {
+        left: 118px;
+        opacity: 1;
+        transform: rotate(45deg) scale(1);
+    }
+    100% {
+        left: 146px;
+        opacity: .85;
+        transform: rotate(45deg) scale(.86);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .loader-4195-glow,
+    .loader-4195-core,
+    .loader-4195-bolt,
+    .loader-4195-arc,
+    .loader-4195-stream,
+    .loader-4195-ring,
+    .loader-4195-shock,
+    .loader-4195-spark,
+    .loader-4195-charge,
+    .loader-4195-fill,
+    .loader-4195-tip {
+        animation: none;
+    }
+
+    .loader-4195-glow-1,
+    .loader-4195-glow-2,
+    .loader-4195-glow-3 {
+        opacity: .55;
+        transform: scale(1);
+    }
+
+    .loader-4195-core {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+
+    .loader-4195-bolt-1 {
+        transform: translateX(30px) scaleX(.95);
+        opacity: 1;
+    }
+
+    .loader-4195-bolt-2 {
+        transform: translateX(22px) scaleX(.78);
+        opacity: .72;
+    }
+
+    .loader-4195-bolt-3 {
+        transform: translateX(38px) scaleX(.88);
+        opacity: .7;
+    }
+
+    .loader-4195-bolt-4,
+    .loader-4195-bolt-5,
+    .loader-4195-bolt-6 {
+        opacity: .38;
+        transform: translateX(18px) scaleX(.7);
+    }
+
+    .loader-4195-arc,
+    .loader-4195-stream,
+    .loader-4195-ring,
+    .loader-4195-shock,
+    .loader-4195-spark,
+    .loader-4195-charge {
+        opacity: .75;
+    }
+
+    .loader-4195-fill {
+        width: 118px;
+        opacity: 1;
+    }
+
+    .loader-4195-tip {
+        left: 132px;
+        opacity: 1;
+    }
+}`,
+  },
+  {
+    id: 4196,
+    name: "Blood Lightning: Crimson Judgment",
+    preview: (
+      <div className="loader-4196" role="status" aria-label="Laden">
+        <div className="loader-4196-shell" aria-hidden="true">
+          <span className="loader-4196-ambient loader-4196-ambient-a"></span>
+          <span className="loader-4196-ambient loader-4196-ambient-b"></span>
+          <span className="loader-4196-ambient loader-4196-ambient-c"></span>
+          <span className="loader-4196-cast-flash"></span>
+          <svg
+            viewBox="0 0 320 132"
+            preserveAspectRatio="xMidYMid meet"
+            focusable="false"
+          >
+            <defs>
+              <linearGradient
+                id="loader4196Core"
+                x1="0%"
+                x2="100%"
+                y1="0%"
+                y2="0%"
+              >
+                <stop offset="0%" stopColor="#450a0a" stopOpacity=".2" />
+                <stop offset="22%" stopColor="#ef4444" stopOpacity=".85" />
+                <stop offset="52%" stopColor="#fff1f2" stopOpacity="1" />
+                <stop offset="78%" stopColor="#fb7185" stopOpacity="1" />
+                <stop offset="100%" stopColor="#be123c" stopOpacity=".6" />
+              </linearGradient>
+              <linearGradient
+                id="loader4196Branch"
+                x1="0%"
+                x2="100%"
+                y1="0%"
+                y2="0%"
+              >
+                <stop offset="0%" stopColor="#7f1d1d" stopOpacity=".15" />
+                <stop offset="40%" stopColor="#f43f5e" stopOpacity="1" />
+                <stop offset="85%" stopColor="#fecdd3" stopOpacity="1" />
+                <stop offset="100%" stopColor="#fda4af" stopOpacity=".2" />
+              </linearGradient>
+              <linearGradient
+                id="loader4196Mist"
+                x1="0%"
+                x2="100%"
+                y1="0%"
+                y2="0%"
+              >
+                <stop offset="0%" stopColor="#3f0a16" stopOpacity="0" />
+                <stop offset="50%" stopColor="#be123c" stopOpacity=".5" />
+                <stop offset="80%" stopColor="#fb7185" stopOpacity=".35" />
+                <stop offset="100%" stopColor="#fecdd3" stopOpacity="0" />
+              </linearGradient>
+              <filter
+                id="loader4196Blur"
+                x="-50%"
+                y="-150%"
+                width="200%"
+                height="400%"
+              >
+                <feGaussianBlur stdDeviation="4" />
+              </filter>
+            </defs>
+            <g className="loader-4196-field-lines">
+              <path d="M4 11 C66 4 114 18 164 11 S263 4 316 11" />
+              <path d="M4 22 C66 22 114 22 164 22 S263 22 316 22" />
+              <path d="M4 33 C66 40 114 26 164 33 S263 40 316 33" />
+              <path d="M4 44 C66 43 114 45 164 44 S263 43 316 44" />
+              <path d="M4 55 C66 61 114 49 164 55 S263 61 316 55" />
+              <path d="M4 66 C66 64 114 68 164 66 S263 64 316 66" />
+              <path d="M4 77 C66 82 114 72 164 77 S263 82 316 77" />
+              <path d="M4 88 C66 85 114 91 164 88 S263 85 316 88" />
+              <path d="M4 99 C66 103 114 95 164 99 S263 103 316 99" />
+              <path d="M4 110 C66 106 114 114 164 110 S263 106 316 110" />
+              <path d="M4 121 C66 124 114 118 164 121 S263 124 316 121" />
+            </g>
+            <g className="loader-4196-gate">
+              <ellipse
+                className="loader-4196-gate-ring loader-4196-gate-ring-1"
+                cx="33"
+                cy="66"
+                rx="12"
+                ry="23"
+              />
+              <ellipse
+                className="loader-4196-gate-ring loader-4196-gate-ring-2"
+                cx="33"
+                cy="66"
+                rx="20"
+                ry="35"
+              />
+              <ellipse
+                className="loader-4196-gate-ring loader-4196-gate-ring-3"
+                cx="33"
+                cy="66"
+                rx="29"
+                ry="47"
+              />
+              <ellipse
+                className="loader-4196-gate-ring loader-4196-gate-ring-4"
+                cx="33"
+                cy="66"
+                rx="39"
+                ry="56"
+              />
+              <path
+                className="loader-4196-gate-prong loader-4196-gate-prong-1"
+                d="M18 16 L26 18 L35 16"
+              />
+              <path
+                className="loader-4196-gate-prong loader-4196-gate-prong-2"
+                d="M18 31 L26 29 L35 31"
+              />
+              <path
+                className="loader-4196-gate-prong loader-4196-gate-prong-3"
+                d="M18 45 L26 47 L35 45"
+              />
+              <path
+                className="loader-4196-gate-prong loader-4196-gate-prong-4"
+                d="M18 60 L26 58 L35 60"
+              />
+              <path
+                className="loader-4196-gate-prong loader-4196-gate-prong-5"
+                d="M18 75 L26 77 L35 75"
+              />
+              <path
+                className="loader-4196-gate-prong loader-4196-gate-prong-6"
+                d="M18 90 L26 88 L35 90"
+              />
+              <path
+                className="loader-4196-gate-prong loader-4196-gate-prong-7"
+                d="M18 105 L26 107 L35 105"
+              />
+              <path
+                className="loader-4196-gate-prong loader-4196-gate-prong-8"
+                d="M18 120 L26 118 L35 120"
+              />
+            </g>
+            <g className="loader-4196-bloom" filter="url(#loader4196Blur)">
+              <path
+                className="loader-4196-bloom-path loader-4196-bloom-path-1"
+                d="M18 38 L33.8 34.9 L49.6 31.8 L65.4 41.7 L81.2 29.6 L97 44.5 L112.8 44.4 L128.6 31.3 L144.4 44.2 L160.2 40.1 L176 46.9 L191.8 29.8 L207.6 32.7 L223.4 44.6 L239.2 45.5 L255 30.4 L270.8 40.3 L286.6 45.2 L302.4 42.1 L318.2 36"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-bloom-path loader-4196-bloom-path-2"
+                d="M18 51 L33.8 55.1 L49.6 45.2 L65.4 60.3 L81.2 56.4 L97 42.5 L112.8 61.6 L128.6 47.7 L144.4 59.8 L160.2 47.9 L176 62.1 L191.8 60.2 L207.6 46.3 L223.4 45.4 L239.2 56.5 L255 61.6 L270.8 56.7 L286.6 60.8 L302.4 45.9 L318.2 53"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-bloom-path loader-4196-bloom-path-3"
+                d="M18 67 L33.8 73.9 L49.6 61.8 L65.4 63.7 L81.2 68.6 L97 57.5 L112.8 70.4 L128.6 60.3 L144.4 68.2 L160.2 76.1 L176 61.9 L191.8 57.8 L207.6 67.7 L223.4 57.6 L239.2 68.5 L255 57.4 L270.8 63.3 L286.6 68.2 L302.4 63.1 L318.2 65"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-bloom-path loader-4196-bloom-path-4"
+                d="M18 80 L33.8 74.1 L49.6 88.2 L65.4 84.3 L81.2 77.4 L97 75.5 L112.8 90.6 L128.6 78.7 L144.4 74.8 L160.2 82.9 L176 72.1 L191.8 73.2 L207.6 78.3 L223.4 89.4 L239.2 87.5 L255 72.6 L270.8 90.7 L286.6 91.8 L302.4 88.9 L318.2 82"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-bloom-path loader-4196-bloom-path-5"
+                d="M18 97 L33.8 89.9 L49.6 105.8 L65.4 92.7 L81.2 106.6 L97 99.5 L112.8 99.4 L128.6 106.3 L144.4 98.2 L160.2 87.1 L176 102.9 L191.8 87.8 L207.6 104.7 L223.4 93.6 L239.2 91.5 L255 103.4 L270.8 100.3 L286.6 92.2 L302.4 97.1 L318.2 95"
+                pathLength="100"
+              />
+            </g>
+            <g className="loader-4196-primary">
+              <path
+                className="loader-4196-primary-path loader-4196-primary-path-1"
+                d="M18 38 L33.8 34.9 L49.6 31.8 L65.4 41.7 L81.2 29.6 L97 44.5 L112.8 44.4 L128.6 31.3 L144.4 44.2 L160.2 40.1 L176 46.9 L191.8 29.8 L207.6 32.7 L223.4 44.6 L239.2 45.5 L255 30.4 L270.8 40.3 L286.6 45.2 L302.4 42.1 L318.2 36"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-primary-path loader-4196-primary-path-2"
+                d="M18 51 L33.8 55.1 L49.6 45.2 L65.4 60.3 L81.2 56.4 L97 42.5 L112.8 61.6 L128.6 47.7 L144.4 59.8 L160.2 47.9 L176 62.1 L191.8 60.2 L207.6 46.3 L223.4 45.4 L239.2 56.5 L255 61.6 L270.8 56.7 L286.6 60.8 L302.4 45.9 L318.2 53"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-primary-path loader-4196-primary-path-3"
+                d="M18 67 L33.8 73.9 L49.6 61.8 L65.4 63.7 L81.2 68.6 L97 57.5 L112.8 70.4 L128.6 60.3 L144.4 68.2 L160.2 76.1 L176 61.9 L191.8 57.8 L207.6 67.7 L223.4 57.6 L239.2 68.5 L255 57.4 L270.8 63.3 L286.6 68.2 L302.4 63.1 L318.2 65"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-primary-path loader-4196-primary-path-4"
+                d="M18 80 L33.8 74.1 L49.6 88.2 L65.4 84.3 L81.2 77.4 L97 75.5 L112.8 90.6 L128.6 78.7 L144.4 74.8 L160.2 82.9 L176 72.1 L191.8 73.2 L207.6 78.3 L223.4 89.4 L239.2 87.5 L255 72.6 L270.8 90.7 L286.6 91.8 L302.4 88.9 L318.2 82"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-primary-path loader-4196-primary-path-5"
+                d="M18 97 L33.8 89.9 L49.6 105.8 L65.4 92.7 L81.2 106.6 L97 99.5 L112.8 99.4 L128.6 106.3 L144.4 98.2 L160.2 87.1 L176 102.9 L191.8 87.8 L207.6 104.7 L223.4 93.6 L239.2 91.5 L255 103.4 L270.8 100.3 L286.6 92.2 L302.4 97.1 L318.2 95"
+                pathLength="100"
+              />
+            </g>
+            <g className="loader-4196-branches">
+              <path
+                className="loader-4196-branch loader-4196-branch-1"
+                d="M239.2 45.5 L250.2 36.5 L261.2 36.5 L272.2 24.5 L283.2 24.5"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-2"
+                d="M223.4 45.4 L236.4 49.4 L249.4 65.4 L262.4 65.4 L275.4 81.4"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-3"
+                d="M207.6 67.7 L222.6 58.7 L237.6 64.7 L252.6 50.7 L267.6 56.7"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-4"
+                d="M191.8 73.2 L208.8 77.2 L225.8 87.2 L242.8 89.2 L259.8 99.2"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-5"
+                d="M176 102.9 L185 91.9 L194 89.9 L203 75.9 L212 73.9"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-6"
+                d="M160.2 40.1 L171.2 40.1 L182.2 52.1 L193.2 48.1 L204.2 60.1"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-7"
+                d="M144.4 59.8 L157.4 48.8 L170.4 52.8 L183.4 36.8 L196.4 40.8"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-8"
+                d="M128.6 60.3 L143.6 66.3 L158.6 78.3 L173.6 82.3 L188.6 94.3"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-9"
+                d="M112.8 90.6 L129.8 83.6 L146.8 85.6 L163.8 75.6 L180.8 77.6"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-10"
+                d="M97 99.5 L106 101.5 L115 115.5 L124 113.5 L133 127.5"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-11"
+                d="M81.2 29.6 L92.2 16.6 L103.2 18.6 L114.2 2 L125.2 2.6"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-12"
+                d="M65.4 60.3 L78.4 62.3 L91.4 70.3 L104.4 70.3 L117.4 78.3"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-13"
+                d="M239.2 68.5 L254.2 59.5 L269.2 59.5 L284.2 47.5 L299.2 47.5"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-14"
+                d="M223.4 89.4 L240.4 93.4 L257.4 109.4 L274.4 109.4 L291.4 125.4"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-15"
+                d="M207.6 104.7 L216.6 95.7 L225.6 101.7 L234.6 87.7 L243.6 93.7"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-16"
+                d="M191.8 29.8 L202.8 33.8 L213.8 43.8 L224.8 45.8 L235.8 55.8"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-17"
+                d="M176 62.1 L189 51.1 L202 49.1 L215 35.1 L228 33.1"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-18"
+                d="M160.2 76.1 L175.2 76.1 L190.2 88.1 L205.2 84.1 L220.2 96.1"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-19"
+                d="M144.4 74.8 L161.4 63.8 L178.4 67.8 L195.4 51.8 L212.4 55.8"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-20"
+                d="M128.6 106.3 L137.6 112.3 L146.6 124.3 L155.6 128.3 L164.6 130"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-21"
+                d="M112.8 44.4 L123.8 37.4 L134.8 39.4 L145.8 29.4 L156.8 31.4"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-22"
+                d="M97 42.5 L110 44.5 L123 58.5 L136 56.5 L149 70.5"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-23"
+                d="M81.2 68.6 L96.2 55.6 L111.2 57.6 L126.2 39.6 L141.2 41.6"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-24"
+                d="M65.4 84.3 L82.4 86.3 L99.4 94.3 L116.4 94.3 L133.4 102.3"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-25"
+                d="M239.2 91.5 L248.2 82.5 L257.2 82.5 L266.2 70.5 L275.2 70.5"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-26"
+                d="M223.4 44.6 L234.4 48.6 L245.4 64.6 L256.4 64.6 L267.4 80.6"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-27"
+                d="M207.6 46.3 L220.6 37.3 L233.6 43.3 L246.6 29.3 L259.6 35.3"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-28"
+                d="M191.8 57.8 L206.8 61.8 L221.8 71.8 L236.8 73.8 L251.8 83.8"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-29"
+                d="M176 72.1 L193 61.1 L210 59.1 L227 45.1 L244 43.1"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-30"
+                d="M160.2 87.1 L169.2 87.1 L178.2 99.1 L187.2 95.1 L196.2 107.1"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-31"
+                d="M144.4 44.2 L155.4 33.2 L166.4 37.2 L177.4 21.2 L188.4 25.2"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-32"
+                d="M128.6 47.7 L141.6 53.7 L154.6 65.7 L167.6 69.7 L180.6 81.7"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-33"
+                d="M112.8 70.4 L127.8 63.4 L142.8 65.4 L157.8 55.4 L172.8 57.4"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-34"
+                d="M97 75.5 L114 77.5 L131 91.5 L148 89.5 L165 103.5"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-35"
+                d="M81.2 106.6 L90.2 93.6 L99.2 95.6 L108.2 77.6 L117.2 79.6"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-branch loader-4196-branch-36"
+                d="M65.4 41.7 L76.4 43.7 L87.4 51.7 L98.4 51.7 L109.4 59.7"
+                pathLength="100"
+              />
+            </g>
+            <g className="loader-4196-filaments">
+              <path
+                className="loader-4196-filament loader-4196-filament-1"
+                d="M39 49 L44.32 43 L49.26 52 L53.44 42 L58 47"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-2"
+                d="M70 86 L77.28 92 L84.04 83 L89.76 93 L96 88"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-3"
+                d="M101 16 L110.24 10 L118.82 19 L126.08 9 L134 14"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-4"
+                d="M132 53 L143.2 59 L153.6 50 L162.4 60 L172 55"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-5"
+                d="M163 90 L176.16 84 L188.38 93 L198.72 83 L210 88"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-6"
+                d="M194 20 L198.76 26 L203.18 17 L206.92 27 L211 22"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-7"
+                d="M225 57 L231.72 51 L237.96 60 L243.24 50 L249 55"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-8"
+                d="M256 94 L264.68 100 L272.74 91 L279.56 101 L287 96"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-9"
+                d="M34 24 L44.64 18 L54.52 27 L62.88 17 L72 22"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-10"
+                d="M65 61 L77.6 67 L89.3 58 L99.2 68 L110 63"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-11"
+                d="M96 98 L100.2 92 L104.1 101 L107.4 91 L111 96"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-12"
+                d="M127 28 L133.16 34 L138.88 25 L143.72 35 L149 30"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-13"
+                d="M158 65 L166.12 59 L173.66 68 L180.04 58 L187 63"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-14"
+                d="M189 102 L199.08 108 L208.44 99 L216.36 109 L225 104"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-15"
+                d="M220 32 L232.04 26 L243.22 35 L252.68 25 L263 30"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-16"
+                d="M251 69 L254.64 75 L258.02 66 L260.88 76 L264 71"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-17"
+                d="M29 106 L34.6 100 L39.8 109 L44.2 99 L49 104"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-18"
+                d="M60 36 L67.56 42 L74.58 33 L80.52 43 L87 38"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-19"
+                d="M91 73 L100.52 67 L109.36 76 L116.84 66 L125 71"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-20"
+                d="M122 110 L133.48 116 L144.14 107 L153.16 117 L163 112"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-21"
+                d="M153 40 L166.44 34 L178.92 43 L189.48 33 L201 38"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-22"
+                d="M184 77 L189.04 83 L193.72 74 L197.68 84 L202 79"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-23"
+                d="M215 114 L222 108 L228.5 117 L234 107 L240 112"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-24"
+                d="M246 44 L254.96 50 L263.28 41 L270.32 51 L278 46"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-25"
+                d="M24 81 L34.92 75 L45.06 84 L53.64 74 L63 79"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-26"
+                d="M55 118 L67.88 124 L79.84 115 L89.96 125 L101 120"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-27"
+                d="M86 48 L90.48 42 L94.64 51 L98.16 41 L102 46"
+                pathLength="100"
+              />
+              <path
+                className="loader-4196-filament loader-4196-filament-28"
+                d="M117 85 L123.44 91 L129.42 82 L134.48 92 L140 87"
+                pathLength="100"
+              />
+            </g>
+            <g className="loader-4196-pressure-fronts">
+              <path
+                className="loader-4196-front loader-4196-front-1"
+                d="M13 55 C31 58.96 31 73.04 13 77"
+              />
+              <path
+                className="loader-4196-front loader-4196-front-2"
+                d="M15 52 C33 57.04 33 74.96 15 80"
+              />
+              <path
+                className="loader-4196-front loader-4196-front-3"
+                d="M17 49 C35 55.12 35 76.88 17 83"
+              />
+              <path
+                className="loader-4196-front loader-4196-front-4"
+                d="M19 46 C37 53.2 37 78.8 19 86"
+              />
+              <path
+                className="loader-4196-front loader-4196-front-5"
+                d="M21 43 C39 51.28 39 80.72 21 89"
+              />
+              <path
+                className="loader-4196-front loader-4196-front-6"
+                d="M23 40 C41 49.36 41 82.64 23 92"
+              />
+              <path
+                className="loader-4196-front loader-4196-front-7"
+                d="M25 37 C43 47.44 43 84.56 25 95"
+              />
+              <path
+                className="loader-4196-front loader-4196-front-8"
+                d="M27 34 C45 45.52 45 86.48 27 98"
+              />
+            </g>
+            <g className="loader-4196-impact">
+              <ellipse
+                className="loader-4196-impact-ring loader-4196-impact-ring-1"
+                cx="293"
+                cy="66"
+                rx="7"
+                ry="14"
+              />
+              <ellipse
+                className="loader-4196-impact-ring loader-4196-impact-ring-2"
+                cx="293"
+                cy="66"
+                rx="13"
+                ry="25"
+              />
+              <ellipse
+                className="loader-4196-impact-ring loader-4196-impact-ring-3"
+                cx="293"
+                cy="66"
+                rx="21"
+                ry="38"
+              />
+              <ellipse
+                className="loader-4196-impact-ring loader-4196-impact-ring-4"
+                cx="293"
+                cy="66"
+                rx="32"
+                ry="51"
+              />
+              <ellipse
+                className="loader-4196-impact-ring loader-4196-impact-ring-5"
+                cx="293"
+                cy="66"
+                rx="43"
+                ry="62"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-1"
+                d="M299.0 66.0 L308.0 66.0 L326.0 66.0"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-2"
+                d="M298.4 70.7 L306.7 75.0 L323.3 84.4"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-3"
+                d="M296.9 74.6 L303.1 82.5 L315.6 99.8"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-4"
+                d="M294.5 77.2 L297.7 87.5 L304.2 109.9"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-5"
+                d="M291.8 78.0 L291.4 89.0 L290.8 113.0"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-6"
+                d="M289.0 76.9 L285.2 86.8 L277.6 108.6"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-7"
+                d="M286.8 74.0 L280.1 81.4 L266.7 97.4"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-8"
+                d="M285.4 69.9 L276.9 73.5 L259.9 81.3"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-9"
+                d="M285.0 65.2 L276.0 64.4 L258.1 62.7"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-10"
+                d="M285.8 60.6 L277.7 55.6 L261.7 44.7"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-11"
+                d="M287.5 56.8 L281.7 48.4 L270.1 30.0"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-12"
+                d="M290.0 54.5 L287.3 44.0 L282.1 21.1"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-13"
+                d="M292.7 54.1 L293.7 43.1 L295.6 19.3"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-14"
+                d="M295.4 55.5 L299.8 45.9 L308.5 24.9"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-15"
+                d="M297.5 58.6 L304.6 51.8 L318.8 37.1"
+              />
+              <path
+                className="loader-4196-impact-shard loader-4196-impact-shard-16"
+                d="M298.8 62.9 L307.5 60.0 L324.8 53.8"
+              />
+            </g>
+            <g className="loader-4196-sparks">
+              <circle
+                className="loader-4196-spark loader-4196-spark-1"
+                cx="-43"
+                cy="54"
+                r="1.35"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-2"
+                cx="-66"
+                cy="101"
+                r="1.7"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-3"
+                cx="-24"
+                cy="29"
+                r="2.05"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-4"
+                cx="-47"
+                cy="76"
+                r="2.4"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-5"
+                cx="-70"
+                cy="123"
+                r="1.0"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-6"
+                cx="-28"
+                cy="51"
+                r="1.35"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-7"
+                cx="-51"
+                cy="98"
+                r="1.7"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-8"
+                cx="-74"
+                cy="26"
+                r="2.05"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-9"
+                cx="-32"
+                cy="73"
+                r="2.4"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-10"
+                cx="-55"
+                cy="120"
+                r="1.0"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-11"
+                cx="-78"
+                cy="48"
+                r="1.35"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-12"
+                cx="-36"
+                cy="95"
+                r="1.7"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-13"
+                cx="-59"
+                cy="23"
+                r="2.05"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-14"
+                cx="-82"
+                cy="70"
+                r="2.4"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-15"
+                cx="-40"
+                cy="117"
+                r="1.0"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-16"
+                cx="-63"
+                cy="45"
+                r="1.35"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-17"
+                cx="-21"
+                cy="92"
+                r="1.7"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-18"
+                cx="-44"
+                cy="20"
+                r="2.05"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-19"
+                cx="-67"
+                cy="67"
+                r="2.4"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-20"
+                cx="-25"
+                cy="114"
+                r="1.0"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-21"
+                cx="-48"
+                cy="42"
+                r="1.35"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-22"
+                cx="-71"
+                cy="89"
+                r="1.7"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-23"
+                cx="-29"
+                cy="17"
+                r="2.05"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-24"
+                cx="-52"
+                cy="64"
+                r="2.4"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-25"
+                cx="-75"
+                cy="111"
+                r="1.0"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-26"
+                cx="-33"
+                cy="39"
+                r="1.35"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-27"
+                cx="-56"
+                cy="86"
+                r="1.7"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-28"
+                cx="-79"
+                cy="14"
+                r="2.05"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-29"
+                cx="-37"
+                cy="61"
+                r="2.4"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-30"
+                cx="-60"
+                cy="108"
+                r="1.0"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-31"
+                cx="-83"
+                cy="36"
+                r="1.35"
+              />
+              <circle
+                className="loader-4196-spark loader-4196-spark-32"
+                cx="-41"
+                cy="83"
+                r="1.7"
+              />
+            </g>
+          </svg>
+          <span className="loader-4196-strike-glare"></span>
+          <span className="loader-4196-progress-track">
+            <span className="loader-4196-progress-pulse"></span>
+          </span>
+          <span className="loader-4196-loading-label">CHANNELING</span>
+        </div>
+      </div>
+    ),
+    html: `<div class="loader-4196" role="status" aria-label="Laden">
+    <div class="loader-4196-shell" aria-hidden="true">
+        <span class="loader-4196-ambient loader-4196-ambient-a"></span>
+        <span class="loader-4196-ambient loader-4196-ambient-b"></span>
+        <span class="loader-4196-ambient loader-4196-ambient-c"></span>
+        <span class="loader-4196-cast-flash"></span>
+        <svg viewBox="0 0 320 132" preserveAspectRatio="xMidYMid meet" focusable="false">
+            <defs>
+                <linearGradient id="loader4196Core" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="#450a0a" stop-opacity=".2" />
+                    <stop offset="22%" stop-color="#ef4444" stop-opacity=".85" />
+                    <stop offset="52%" stop-color="#fff1f2" stop-opacity="1" />
+                    <stop offset="78%" stop-color="#fb7185" stop-opacity="1" />
+                    <stop offset="100%" stop-color="#be123c" stop-opacity=".6" />
+                </linearGradient>
+                <linearGradient id="loader4196Branch" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="#7f1d1d" stop-opacity=".15" />
+                    <stop offset="40%" stop-color="#f43f5e" stop-opacity="1" />
+                    <stop offset="85%" stop-color="#fecdd3" stop-opacity="1" />
+                    <stop offset="100%" stop-color="#fda4af" stop-opacity=".2" />
+                </linearGradient>
+                <linearGradient id="loader4196Mist" x1="0%" x2="100%" y1="0%" y2="0%">
+                    <stop offset="0%" stop-color="#3f0a16" stop-opacity="0" />
+                    <stop offset="50%" stop-color="#be123c" stop-opacity=".5" />
+                    <stop offset="80%" stop-color="#fb7185" stop-opacity=".35" />
+                    <stop offset="100%" stop-color="#fecdd3" stop-opacity="0" />
+                </linearGradient>
+                <filter id="loader4196Blur" x="-50%" y="-150%" width="200%" height="400%">
+                    <feGaussianBlur stdDeviation="4" />
+                </filter>
+            </defs>
+            <g class="loader-4196-field-lines">
+                <path d="M4 11 C66 4 114 18 164 11 S263 4 316 11" />
+                <path d="M4 22 C66 22 114 22 164 22 S263 22 316 22" />
+                <path d="M4 33 C66 40 114 26 164 33 S263 40 316 33" />
+                <path d="M4 44 C66 43 114 45 164 44 S263 43 316 44" />
+                <path d="M4 55 C66 61 114 49 164 55 S263 61 316 55" />
+                <path d="M4 66 C66 64 114 68 164 66 S263 64 316 66" />
+                <path d="M4 77 C66 82 114 72 164 77 S263 82 316 77" />
+                <path d="M4 88 C66 85 114 91 164 88 S263 85 316 88" />
+                <path d="M4 99 C66 103 114 95 164 99 S263 103 316 99" />
+                <path d="M4 110 C66 106 114 114 164 110 S263 106 316 110" />
+                <path d="M4 121 C66 124 114 118 164 121 S263 124 316 121" />
+            </g>
+            <g class="loader-4196-gate">
+                <ellipse class="loader-4196-gate-ring loader-4196-gate-ring-1" cx="33" cy="66" rx="12" ry="23" />
+                <ellipse class="loader-4196-gate-ring loader-4196-gate-ring-2" cx="33" cy="66" rx="20" ry="35" />
+                <ellipse class="loader-4196-gate-ring loader-4196-gate-ring-3" cx="33" cy="66" rx="29" ry="47" />
+                <ellipse class="loader-4196-gate-ring loader-4196-gate-ring-4" cx="33" cy="66" rx="39" ry="56" />
+                <path class="loader-4196-gate-prong loader-4196-gate-prong-1" d="M18 16 L26 18 L35 16" />
+                <path class="loader-4196-gate-prong loader-4196-gate-prong-2" d="M18 31 L26 29 L35 31" />
+                <path class="loader-4196-gate-prong loader-4196-gate-prong-3" d="M18 45 L26 47 L35 45" />
+                <path class="loader-4196-gate-prong loader-4196-gate-prong-4" d="M18 60 L26 58 L35 60" />
+                <path class="loader-4196-gate-prong loader-4196-gate-prong-5" d="M18 75 L26 77 L35 75" />
+                <path class="loader-4196-gate-prong loader-4196-gate-prong-6" d="M18 90 L26 88 L35 90" />
+                <path class="loader-4196-gate-prong loader-4196-gate-prong-7" d="M18 105 L26 107 L35 105" />
+                <path class="loader-4196-gate-prong loader-4196-gate-prong-8" d="M18 120 L26 118 L35 120" />
+            </g>
+            <g class="loader-4196-bloom" filter="url(#loader4196Blur)">
+                <path class="loader-4196-bloom-path loader-4196-bloom-path-1" d="M18 38 L33.8 34.9 L49.6 31.8 L65.4 41.7 L81.2 29.6 L97 44.5 L112.8 44.4 L128.6 31.3 L144.4 44.2 L160.2 40.1 L176 46.9 L191.8 29.8 L207.6 32.7 L223.4 44.6 L239.2 45.5 L255 30.4 L270.8 40.3 L286.6 45.2 L302.4 42.1 L318.2 36" pathLength="100" />
+                <path class="loader-4196-bloom-path loader-4196-bloom-path-2" d="M18 51 L33.8 55.1 L49.6 45.2 L65.4 60.3 L81.2 56.4 L97 42.5 L112.8 61.6 L128.6 47.7 L144.4 59.8 L160.2 47.9 L176 62.1 L191.8 60.2 L207.6 46.3 L223.4 45.4 L239.2 56.5 L255 61.6 L270.8 56.7 L286.6 60.8 L302.4 45.9 L318.2 53" pathLength="100" />
+                <path class="loader-4196-bloom-path loader-4196-bloom-path-3" d="M18 67 L33.8 73.9 L49.6 61.8 L65.4 63.7 L81.2 68.6 L97 57.5 L112.8 70.4 L128.6 60.3 L144.4 68.2 L160.2 76.1 L176 61.9 L191.8 57.8 L207.6 67.7 L223.4 57.6 L239.2 68.5 L255 57.4 L270.8 63.3 L286.6 68.2 L302.4 63.1 L318.2 65" pathLength="100" />
+                <path class="loader-4196-bloom-path loader-4196-bloom-path-4" d="M18 80 L33.8 74.1 L49.6 88.2 L65.4 84.3 L81.2 77.4 L97 75.5 L112.8 90.6 L128.6 78.7 L144.4 74.8 L160.2 82.9 L176 72.1 L191.8 73.2 L207.6 78.3 L223.4 89.4 L239.2 87.5 L255 72.6 L270.8 90.7 L286.6 91.8 L302.4 88.9 L318.2 82" pathLength="100" />
+                <path class="loader-4196-bloom-path loader-4196-bloom-path-5" d="M18 97 L33.8 89.9 L49.6 105.8 L65.4 92.7 L81.2 106.6 L97 99.5 L112.8 99.4 L128.6 106.3 L144.4 98.2 L160.2 87.1 L176 102.9 L191.8 87.8 L207.6 104.7 L223.4 93.6 L239.2 91.5 L255 103.4 L270.8 100.3 L286.6 92.2 L302.4 97.1 L318.2 95" pathLength="100" />
+            </g>
+            <g class="loader-4196-primary">
+                <path class="loader-4196-primary-path loader-4196-primary-path-1" d="M18 38 L33.8 34.9 L49.6 31.8 L65.4 41.7 L81.2 29.6 L97 44.5 L112.8 44.4 L128.6 31.3 L144.4 44.2 L160.2 40.1 L176 46.9 L191.8 29.8 L207.6 32.7 L223.4 44.6 L239.2 45.5 L255 30.4 L270.8 40.3 L286.6 45.2 L302.4 42.1 L318.2 36" pathLength="100" />
+                <path class="loader-4196-primary-path loader-4196-primary-path-2" d="M18 51 L33.8 55.1 L49.6 45.2 L65.4 60.3 L81.2 56.4 L97 42.5 L112.8 61.6 L128.6 47.7 L144.4 59.8 L160.2 47.9 L176 62.1 L191.8 60.2 L207.6 46.3 L223.4 45.4 L239.2 56.5 L255 61.6 L270.8 56.7 L286.6 60.8 L302.4 45.9 L318.2 53" pathLength="100" />
+                <path class="loader-4196-primary-path loader-4196-primary-path-3" d="M18 67 L33.8 73.9 L49.6 61.8 L65.4 63.7 L81.2 68.6 L97 57.5 L112.8 70.4 L128.6 60.3 L144.4 68.2 L160.2 76.1 L176 61.9 L191.8 57.8 L207.6 67.7 L223.4 57.6 L239.2 68.5 L255 57.4 L270.8 63.3 L286.6 68.2 L302.4 63.1 L318.2 65" pathLength="100" />
+                <path class="loader-4196-primary-path loader-4196-primary-path-4" d="M18 80 L33.8 74.1 L49.6 88.2 L65.4 84.3 L81.2 77.4 L97 75.5 L112.8 90.6 L128.6 78.7 L144.4 74.8 L160.2 82.9 L176 72.1 L191.8 73.2 L207.6 78.3 L223.4 89.4 L239.2 87.5 L255 72.6 L270.8 90.7 L286.6 91.8 L302.4 88.9 L318.2 82" pathLength="100" />
+                <path class="loader-4196-primary-path loader-4196-primary-path-5" d="M18 97 L33.8 89.9 L49.6 105.8 L65.4 92.7 L81.2 106.6 L97 99.5 L112.8 99.4 L128.6 106.3 L144.4 98.2 L160.2 87.1 L176 102.9 L191.8 87.8 L207.6 104.7 L223.4 93.6 L239.2 91.5 L255 103.4 L270.8 100.3 L286.6 92.2 L302.4 97.1 L318.2 95" pathLength="100" />
+            </g>
+            <g class="loader-4196-branches">
+                <path class="loader-4196-branch loader-4196-branch-1" d="M239.2 45.5 L250.2 36.5 L261.2 36.5 L272.2 24.5 L283.2 24.5" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-2" d="M223.4 45.4 L236.4 49.4 L249.4 65.4 L262.4 65.4 L275.4 81.4" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-3" d="M207.6 67.7 L222.6 58.7 L237.6 64.7 L252.6 50.7 L267.6 56.7" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-4" d="M191.8 73.2 L208.8 77.2 L225.8 87.2 L242.8 89.2 L259.8 99.2" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-5" d="M176 102.9 L185 91.9 L194 89.9 L203 75.9 L212 73.9" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-6" d="M160.2 40.1 L171.2 40.1 L182.2 52.1 L193.2 48.1 L204.2 60.1" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-7" d="M144.4 59.8 L157.4 48.8 L170.4 52.8 L183.4 36.8 L196.4 40.8" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-8" d="M128.6 60.3 L143.6 66.3 L158.6 78.3 L173.6 82.3 L188.6 94.3" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-9" d="M112.8 90.6 L129.8 83.6 L146.8 85.6 L163.8 75.6 L180.8 77.6" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-10" d="M97 99.5 L106 101.5 L115 115.5 L124 113.5 L133 127.5" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-11" d="M81.2 29.6 L92.2 16.6 L103.2 18.6 L114.2 2 L125.2 2.6" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-12" d="M65.4 60.3 L78.4 62.3 L91.4 70.3 L104.4 70.3 L117.4 78.3" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-13" d="M239.2 68.5 L254.2 59.5 L269.2 59.5 L284.2 47.5 L299.2 47.5" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-14" d="M223.4 89.4 L240.4 93.4 L257.4 109.4 L274.4 109.4 L291.4 125.4" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-15" d="M207.6 104.7 L216.6 95.7 L225.6 101.7 L234.6 87.7 L243.6 93.7" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-16" d="M191.8 29.8 L202.8 33.8 L213.8 43.8 L224.8 45.8 L235.8 55.8" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-17" d="M176 62.1 L189 51.1 L202 49.1 L215 35.1 L228 33.1" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-18" d="M160.2 76.1 L175.2 76.1 L190.2 88.1 L205.2 84.1 L220.2 96.1" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-19" d="M144.4 74.8 L161.4 63.8 L178.4 67.8 L195.4 51.8 L212.4 55.8" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-20" d="M128.6 106.3 L137.6 112.3 L146.6 124.3 L155.6 128.3 L164.6 130" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-21" d="M112.8 44.4 L123.8 37.4 L134.8 39.4 L145.8 29.4 L156.8 31.4" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-22" d="M97 42.5 L110 44.5 L123 58.5 L136 56.5 L149 70.5" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-23" d="M81.2 68.6 L96.2 55.6 L111.2 57.6 L126.2 39.6 L141.2 41.6" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-24" d="M65.4 84.3 L82.4 86.3 L99.4 94.3 L116.4 94.3 L133.4 102.3" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-25" d="M239.2 91.5 L248.2 82.5 L257.2 82.5 L266.2 70.5 L275.2 70.5" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-26" d="M223.4 44.6 L234.4 48.6 L245.4 64.6 L256.4 64.6 L267.4 80.6" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-27" d="M207.6 46.3 L220.6 37.3 L233.6 43.3 L246.6 29.3 L259.6 35.3" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-28" d="M191.8 57.8 L206.8 61.8 L221.8 71.8 L236.8 73.8 L251.8 83.8" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-29" d="M176 72.1 L193 61.1 L210 59.1 L227 45.1 L244 43.1" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-30" d="M160.2 87.1 L169.2 87.1 L178.2 99.1 L187.2 95.1 L196.2 107.1" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-31" d="M144.4 44.2 L155.4 33.2 L166.4 37.2 L177.4 21.2 L188.4 25.2" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-32" d="M128.6 47.7 L141.6 53.7 L154.6 65.7 L167.6 69.7 L180.6 81.7" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-33" d="M112.8 70.4 L127.8 63.4 L142.8 65.4 L157.8 55.4 L172.8 57.4" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-34" d="M97 75.5 L114 77.5 L131 91.5 L148 89.5 L165 103.5" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-35" d="M81.2 106.6 L90.2 93.6 L99.2 95.6 L108.2 77.6 L117.2 79.6" pathLength="100" />
+                <path class="loader-4196-branch loader-4196-branch-36" d="M65.4 41.7 L76.4 43.7 L87.4 51.7 L98.4 51.7 L109.4 59.7" pathLength="100" />
+            </g>
+            <g class="loader-4196-filaments">
+                <path class="loader-4196-filament loader-4196-filament-1" d="M39 49 L44.32 43 L49.26 52 L53.44 42 L58 47" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-2" d="M70 86 L77.28 92 L84.04 83 L89.76 93 L96 88" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-3" d="M101 16 L110.24 10 L118.82 19 L126.08 9 L134 14" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-4" d="M132 53 L143.2 59 L153.6 50 L162.4 60 L172 55" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-5" d="M163 90 L176.16 84 L188.38 93 L198.72 83 L210 88" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-6" d="M194 20 L198.76 26 L203.18 17 L206.92 27 L211 22" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-7" d="M225 57 L231.72 51 L237.96 60 L243.24 50 L249 55" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-8" d="M256 94 L264.68 100 L272.74 91 L279.56 101 L287 96" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-9" d="M34 24 L44.64 18 L54.52 27 L62.88 17 L72 22" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-10" d="M65 61 L77.6 67 L89.3 58 L99.2 68 L110 63" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-11" d="M96 98 L100.2 92 L104.1 101 L107.4 91 L111 96" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-12" d="M127 28 L133.16 34 L138.88 25 L143.72 35 L149 30" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-13" d="M158 65 L166.12 59 L173.66 68 L180.04 58 L187 63" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-14" d="M189 102 L199.08 108 L208.44 99 L216.36 109 L225 104" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-15" d="M220 32 L232.04 26 L243.22 35 L252.68 25 L263 30" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-16" d="M251 69 L254.64 75 L258.02 66 L260.88 76 L264 71" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-17" d="M29 106 L34.6 100 L39.8 109 L44.2 99 L49 104" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-18" d="M60 36 L67.56 42 L74.58 33 L80.52 43 L87 38" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-19" d="M91 73 L100.52 67 L109.36 76 L116.84 66 L125 71" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-20" d="M122 110 L133.48 116 L144.14 107 L153.16 117 L163 112" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-21" d="M153 40 L166.44 34 L178.92 43 L189.48 33 L201 38" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-22" d="M184 77 L189.04 83 L193.72 74 L197.68 84 L202 79" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-23" d="M215 114 L222 108 L228.5 117 L234 107 L240 112" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-24" d="M246 44 L254.96 50 L263.28 41 L270.32 51 L278 46" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-25" d="M24 81 L34.92 75 L45.06 84 L53.64 74 L63 79" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-26" d="M55 118 L67.88 124 L79.84 115 L89.96 125 L101 120" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-27" d="M86 48 L90.48 42 L94.64 51 L98.16 41 L102 46" pathLength="100" />
+                <path class="loader-4196-filament loader-4196-filament-28" d="M117 85 L123.44 91 L129.42 82 L134.48 92 L140 87" pathLength="100" />
+            </g>
+            <g class="loader-4196-pressure-fronts">
+                <path class="loader-4196-front loader-4196-front-1" d="M13 55 C31 58.96 31 73.04 13 77" />
+                <path class="loader-4196-front loader-4196-front-2" d="M15 52 C33 57.04 33 74.96 15 80" />
+                <path class="loader-4196-front loader-4196-front-3" d="M17 49 C35 55.12 35 76.88 17 83" />
+                <path class="loader-4196-front loader-4196-front-4" d="M19 46 C37 53.2 37 78.8 19 86" />
+                <path class="loader-4196-front loader-4196-front-5" d="M21 43 C39 51.28 39 80.72 21 89" />
+                <path class="loader-4196-front loader-4196-front-6" d="M23 40 C41 49.36 41 82.64 23 92" />
+                <path class="loader-4196-front loader-4196-front-7" d="M25 37 C43 47.44 43 84.56 25 95" />
+                <path class="loader-4196-front loader-4196-front-8" d="M27 34 C45 45.52 45 86.48 27 98" />
+            </g>
+            <g class="loader-4196-impact">
+                <ellipse class="loader-4196-impact-ring loader-4196-impact-ring-1" cx="293" cy="66" rx="7" ry="14" />
+                <ellipse class="loader-4196-impact-ring loader-4196-impact-ring-2" cx="293" cy="66" rx="13" ry="25" />
+                <ellipse class="loader-4196-impact-ring loader-4196-impact-ring-3" cx="293" cy="66" rx="21" ry="38" />
+                <ellipse class="loader-4196-impact-ring loader-4196-impact-ring-4" cx="293" cy="66" rx="32" ry="51" />
+                <ellipse class="loader-4196-impact-ring loader-4196-impact-ring-5" cx="293" cy="66" rx="43" ry="62" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-1" d="M299.0 66.0 L308.0 66.0 L326.0 66.0" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-2" d="M298.4 70.7 L306.7 75.0 L323.3 84.4" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-3" d="M296.9 74.6 L303.1 82.5 L315.6 99.8" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-4" d="M294.5 77.2 L297.7 87.5 L304.2 109.9" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-5" d="M291.8 78.0 L291.4 89.0 L290.8 113.0" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-6" d="M289.0 76.9 L285.2 86.8 L277.6 108.6" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-7" d="M286.8 74.0 L280.1 81.4 L266.7 97.4" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-8" d="M285.4 69.9 L276.9 73.5 L259.9 81.3" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-9" d="M285.0 65.2 L276.0 64.4 L258.1 62.7" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-10" d="M285.8 60.6 L277.7 55.6 L261.7 44.7" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-11" d="M287.5 56.8 L281.7 48.4 L270.1 30.0" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-12" d="M290.0 54.5 L287.3 44.0 L282.1 21.1" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-13" d="M292.7 54.1 L293.7 43.1 L295.6 19.3" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-14" d="M295.4 55.5 L299.8 45.9 L308.5 24.9" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-15" d="M297.5 58.6 L304.6 51.8 L318.8 37.1" />
+                <path class="loader-4196-impact-shard loader-4196-impact-shard-16" d="M298.8 62.9 L307.5 60.0 L324.8 53.8" />
+            </g>
+            <g class="loader-4196-sparks">
+                <circle class="loader-4196-spark loader-4196-spark-1" cx="-43" cy="54" r="1.35" />
+                <circle class="loader-4196-spark loader-4196-spark-2" cx="-66" cy="101" r="1.7" />
+                <circle class="loader-4196-spark loader-4196-spark-3" cx="-24" cy="29" r="2.05" />
+                <circle class="loader-4196-spark loader-4196-spark-4" cx="-47" cy="76" r="2.4" />
+                <circle class="loader-4196-spark loader-4196-spark-5" cx="-70" cy="123" r="1.0" />
+                <circle class="loader-4196-spark loader-4196-spark-6" cx="-28" cy="51" r="1.35" />
+                <circle class="loader-4196-spark loader-4196-spark-7" cx="-51" cy="98" r="1.7" />
+                <circle class="loader-4196-spark loader-4196-spark-8" cx="-74" cy="26" r="2.05" />
+                <circle class="loader-4196-spark loader-4196-spark-9" cx="-32" cy="73" r="2.4" />
+                <circle class="loader-4196-spark loader-4196-spark-10" cx="-55" cy="120" r="1.0" />
+                <circle class="loader-4196-spark loader-4196-spark-11" cx="-78" cy="48" r="1.35" />
+                <circle class="loader-4196-spark loader-4196-spark-12" cx="-36" cy="95" r="1.7" />
+                <circle class="loader-4196-spark loader-4196-spark-13" cx="-59" cy="23" r="2.05" />
+                <circle class="loader-4196-spark loader-4196-spark-14" cx="-82" cy="70" r="2.4" />
+                <circle class="loader-4196-spark loader-4196-spark-15" cx="-40" cy="117" r="1.0" />
+                <circle class="loader-4196-spark loader-4196-spark-16" cx="-63" cy="45" r="1.35" />
+                <circle class="loader-4196-spark loader-4196-spark-17" cx="-21" cy="92" r="1.7" />
+                <circle class="loader-4196-spark loader-4196-spark-18" cx="-44" cy="20" r="2.05" />
+                <circle class="loader-4196-spark loader-4196-spark-19" cx="-67" cy="67" r="2.4" />
+                <circle class="loader-4196-spark loader-4196-spark-20" cx="-25" cy="114" r="1.0" />
+                <circle class="loader-4196-spark loader-4196-spark-21" cx="-48" cy="42" r="1.35" />
+                <circle class="loader-4196-spark loader-4196-spark-22" cx="-71" cy="89" r="1.7" />
+                <circle class="loader-4196-spark loader-4196-spark-23" cx="-29" cy="17" r="2.05" />
+                <circle class="loader-4196-spark loader-4196-spark-24" cx="-52" cy="64" r="2.4" />
+                <circle class="loader-4196-spark loader-4196-spark-25" cx="-75" cy="111" r="1.0" />
+                <circle class="loader-4196-spark loader-4196-spark-26" cx="-33" cy="39" r="1.35" />
+                <circle class="loader-4196-spark loader-4196-spark-27" cx="-56" cy="86" r="1.7" />
+                <circle class="loader-4196-spark loader-4196-spark-28" cx="-79" cy="14" r="2.05" />
+                <circle class="loader-4196-spark loader-4196-spark-29" cx="-37" cy="61" r="2.4" />
+                <circle class="loader-4196-spark loader-4196-spark-30" cx="-60" cy="108" r="1.0" />
+                <circle class="loader-4196-spark loader-4196-spark-31" cx="-83" cy="36" r="1.35" />
+                <circle class="loader-4196-spark loader-4196-spark-32" cx="-41" cy="83" r="1.7" />
+            </g>
+        </svg>
+        <span class="loader-4196-strike-glare"></span>
+        <span class="loader-4196-progress-track">
+            <span class="loader-4196-progress-pulse"></span>
+        </span>
+        <span class="loader-4196-loading-label">
+            CHANNELING
+        </span>
+    </div>
+</div>`,
+    css: `.loader-4196 {
+    position: relative;
+    display: block;
+    width: min(100%, 304px);
+    height: 136px;
+    isolation: isolate;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 14px;
+    background: linear-gradient(145deg, #18070d 0%, #280712 48%, #100810 100%);
+    border: 1px solid rgba(251, 113, 133, .35);
+    box-shadow: inset 0 0 0 1px rgba(255, 228, 230, .035), 0 6px 18px rgba(69, 10, 10, .15);
+}
+
+.loader-4196, .loader-4196 * {
+    box-sizing: border-box;
+}
+
+.loader-4196-shell {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.loader-4196-shell::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    background: radial-gradient(ellipse at 22% 50%, rgba(225, 29, 72, .14), transparent 45%), radial-gradient(ellipse at 85% 50%, rgba(251, 113, 133, .08), transparent 42%);
+}
+
+.loader-4196-shell::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 4;
+    background: linear-gradient(90deg, #17070c 0%, transparent 9%, transparent 89%, #17070c 100%);
+}
+
+.loader-4196 svg {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: calc(100% - 14px);
+    overflow: hidden;
+    fill: none;
+    z-index: 2;
+    mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+}
+
+.loader-4196-ambient {
+    position: absolute;
+    border-radius: 999px;
+    pointer-events: none;
+    z-index: 0;
+    filter: blur(15px);
+    opacity: .45;
+    animation: loader4196Atmosphere 2.4s ease-in-out infinite;
+}
+
+.loader-4196-ambient-a {
+    left: 0;
+    top: 26px;
+    width: 91px;
+    height: 72px;
+    background: #9f1239;
+    animation-delay: -.3s;
+}
+
+.loader-4196-ambient-b {
+    left: 100px;
+    top: 38px;
+    width: 119px;
+    height: 44px;
+    background: #e11d48;
+    animation-delay: -.95s;
+}
+
+.loader-4196-ambient-c {
+    right: 3px;
+    top: 20px;
+    width: 73px;
+    height: 80px;
+    background: #fb7185;
+    animation-delay: -1.6s;
+}
+
+.loader-4196-cast-flash {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 3;
+    background: linear-gradient(90deg, transparent 6%, rgba(251, 113, 133, .13) 48%, rgba(255, 241, 242, .16) 83%, transparent 100%);
+    opacity: 0;
+    animation: loader4196ScreenFlash 2.4s ease-out infinite;
+}
+
+.loader-4196-field-lines path {
+    stroke: rgba(251, 113, 133, .09);
+    stroke-width: 1;
+    stroke-dasharray: 2 8;
+    animation: loader4196QuietCurrent 2.4s linear infinite;
+}
+
+.loader-4196-field-lines path:nth-child(odd) {
+    stroke: rgba(254, 205, 211, .07);
+    animation-delay: -.65s;
+}
+
+.loader-4196-gate-ring {
+    stroke: #fb7185;
+    stroke-width: 1.6;
+    stroke-dasharray: 12 9;
+    opacity: .55;
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: loader4196Gate 2.4s ease-in-out infinite;
+}
+
+.loader-4196-gate-ring-1 {
+    animation-delay: -0s;
+    opacity: 0.65;
+    stroke-width: 2.4;
+}
+
+.loader-4196-gate-ring-2 {
+    animation-delay: -0.09s;
+    opacity: 0.53;
+    stroke-width: 2.1;
+}
+
+.loader-4196-gate-ring-3 {
+    animation-delay: -0.18s;
+    opacity: 0.41;
+    stroke-width: 1.8;
+}
+
+.loader-4196-gate-ring-4 {
+    animation-delay: -0.27s;
+    opacity: 0.29;
+    stroke-width: 1.5;
+}
+
+.loader-4196-gate-prong {
+    stroke: #fecdd3;
+    stroke-width: 2;
+    stroke-linecap: round;
+    opacity: .35;
+    animation: loader4196GateProng 2.4s linear infinite;
+}
+
+.loader-4196-gate-prong-1 {
+    animation-delay: -0.17s;
+    stroke-width: 1.65;
+}
+
+.loader-4196-gate-prong-2 {
+    animation-delay: -0.34s;
+    stroke-width: 2.00;
+}
+
+.loader-4196-gate-prong-3 {
+    animation-delay: -0.51s;
+    stroke-width: 1.30;
+}
+
+.loader-4196-gate-prong-4 {
+    animation-delay: -0.00s;
+    stroke-width: 1.65;
+}
+
+.loader-4196-gate-prong-5 {
+    animation-delay: -0.17s;
+    stroke-width: 2.00;
+}
+
+.loader-4196-gate-prong-6 {
+    animation-delay: -0.34s;
+    stroke-width: 1.30;
+}
+
+.loader-4196-gate-prong-7 {
+    animation-delay: -0.51s;
+    stroke-width: 1.65;
+}
+
+.loader-4196-gate-prong-8 {
+    animation-delay: -0.00s;
+    stroke-width: 2.00;
+}
+
+.loader-4196-bloom-path {
+    stroke: url(#loader4196Core);
+    stroke-width: 14;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 34 66;
+    stroke-dashoffset: 100;
+    opacity: 0;
+    animation: loader4196BoltBloom 2.4s linear infinite;
+}
+
+.loader-4196-bloom-path-1 {
+    animation-delay: -0.00s;
+    stroke-width: 15;
+    opacity: 0;
+}
+
+.loader-4196-bloom-path-2 {
+    animation-delay: -0.06s;
+    stroke-width: 18;
+    opacity: 0;
+}
+
+.loader-4196-bloom-path-3 {
+    animation-delay: -0.12s;
+    stroke-width: 12;
+    opacity: 0;
+}
+
+.loader-4196-bloom-path-4 {
+    animation-delay: -0.18s;
+    stroke-width: 15;
+    opacity: 0;
+}
+
+.loader-4196-bloom-path-5 {
+    animation-delay: -0.24s;
+    stroke-width: 18;
+    opacity: 0;
+}
+
+.loader-4196-primary-path {
+    stroke: url(#loader4196Core);
+    stroke-width: 3.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 34 66;
+    stroke-dashoffset: 100;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px rgba(251, 113, 133, .65));
+    animation: loader4196LightningStrike 2.4s linear infinite;
+}
+
+.loader-4196-primary-path-1 {
+    animation-delay: -0.000s;
+    stroke-width: 3.9;
+    stroke-dasharray: 31 69;
+}
+
+.loader-4196-primary-path-2 {
+    animation-delay: -0.045s;
+    stroke-width: 4.6;
+    stroke-dasharray: 35 65;
+}
+
+.loader-4196-primary-path-3 {
+    animation-delay: -0.090s;
+    stroke-width: 3.2;
+    stroke-dasharray: 27 73;
+}
+
+.loader-4196-primary-path-4 {
+    animation-delay: -0.135s;
+    stroke-width: 3.9;
+    stroke-dasharray: 31 69;
+}
+
+.loader-4196-primary-path-5 {
+    animation-delay: -0.180s;
+    stroke-width: 4.6;
+    stroke-dasharray: 35 65;
+}
+
+.loader-4196-branch {
+    stroke: url(#loader4196Branch);
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    stroke-dasharray: 32 68;
+    stroke-dashoffset: 100;
+    opacity: 0;
+    animation: loader4196Fork 2.4s linear infinite;
+}
+
+.loader-4196-branch-1 {
+    animation-delay: -0.018s;
+    stroke-width: 1.35;
+    stroke-dasharray: 23 77;
+    opacity: 0;
+}
+
+.loader-4196-branch-2 {
+    animation-delay: -0.036s;
+    stroke-width: 1.65;
+    stroke-dasharray: 28 72;
+    opacity: 0;
+}
+
+.loader-4196-branch-3 {
+    animation-delay: -0.054s;
+    stroke-width: 1.95;
+    stroke-dasharray: 33 67;
+    opacity: 0;
+}
+
+.loader-4196-branch-4 {
+    animation-delay: -0.072s;
+    stroke-width: 2.25;
+    stroke-dasharray: 38 62;
+    opacity: 0;
+}
+
+.loader-4196-branch-5 {
+    animation-delay: -0.090s;
+    stroke-width: 1.05;
+    stroke-dasharray: 18 82;
+    opacity: 0;
+}
+
+.loader-4196-branch-6 {
+    animation-delay: -0.108s;
+    stroke-width: 1.35;
+    stroke-dasharray: 23 77;
+    opacity: 0;
+}
+
+.loader-4196-branch-7 {
+    animation-delay: -0.126s;
+    stroke-width: 1.65;
+    stroke-dasharray: 28 72;
+    opacity: 0;
+}
+
+.loader-4196-branch-8 {
+    animation-delay: -0.144s;
+    stroke-width: 1.95;
+    stroke-dasharray: 33 67;
+    opacity: 0;
+}
+
+.loader-4196-branch-9 {
+    animation-delay: -0.162s;
+    stroke-width: 2.25;
+    stroke-dasharray: 38 62;
+    opacity: 0;
+}
+
+.loader-4196-branch-10 {
+    animation-delay: -0.180s;
+    stroke-width: 1.05;
+    stroke-dasharray: 18 82;
+    opacity: 0;
+}
+
+.loader-4196-branch-11 {
+    animation-delay: -0.198s;
+    stroke-width: 1.35;
+    stroke-dasharray: 23 77;
+    opacity: 0;
+}
+
+.loader-4196-branch-12 {
+    animation-delay: -0.216s;
+    stroke-width: 1.65;
+    stroke-dasharray: 28 72;
+    opacity: 0;
+}
+
+.loader-4196-branch-13 {
+    animation-delay: -0.234s;
+    stroke-width: 1.95;
+    stroke-dasharray: 33 67;
+    opacity: 0;
+}
+
+.loader-4196-branch-14 {
+    animation-delay: -0.252s;
+    stroke-width: 2.25;
+    stroke-dasharray: 38 62;
+    opacity: 0;
+}
+
+.loader-4196-branch-15 {
+    animation-delay: -0.000s;
+    stroke-width: 1.05;
+    stroke-dasharray: 18 82;
+    opacity: 0;
+}
+
+.loader-4196-branch-16 {
+    animation-delay: -0.018s;
+    stroke-width: 1.35;
+    stroke-dasharray: 23 77;
+    opacity: 0;
+}
+
+.loader-4196-branch-17 {
+    animation-delay: -0.036s;
+    stroke-width: 1.65;
+    stroke-dasharray: 28 72;
+    opacity: 0;
+}
+
+.loader-4196-branch-18 {
+    animation-delay: -0.054s;
+    stroke-width: 1.95;
+    stroke-dasharray: 33 67;
+    opacity: 0;
+}
+
+.loader-4196-branch-19 {
+    animation-delay: -0.072s;
+    stroke-width: 2.25;
+    stroke-dasharray: 38 62;
+    opacity: 0;
+}
+
+.loader-4196-branch-20 {
+    animation-delay: -0.090s;
+    stroke-width: 1.05;
+    stroke-dasharray: 18 82;
+    opacity: 0;
+}
+
+.loader-4196-branch-21 {
+    animation-delay: -0.108s;
+    stroke-width: 1.35;
+    stroke-dasharray: 23 77;
+    opacity: 0;
+}
+
+.loader-4196-branch-22 {
+    animation-delay: -0.126s;
+    stroke-width: 1.65;
+    stroke-dasharray: 28 72;
+    opacity: 0;
+}
+
+.loader-4196-branch-23 {
+    animation-delay: -0.144s;
+    stroke-width: 1.95;
+    stroke-dasharray: 33 67;
+    opacity: 0;
+}
+
+.loader-4196-branch-24 {
+    animation-delay: -0.162s;
+    stroke-width: 2.25;
+    stroke-dasharray: 38 62;
+    opacity: 0;
+}
+
+.loader-4196-branch-25 {
+    animation-delay: -0.180s;
+    stroke-width: 1.05;
+    stroke-dasharray: 18 82;
+    opacity: 0;
+}
+
+.loader-4196-branch-26 {
+    animation-delay: -0.198s;
+    stroke-width: 1.35;
+    stroke-dasharray: 23 77;
+    opacity: 0;
+}
+
+.loader-4196-branch-27 {
+    animation-delay: -0.216s;
+    stroke-width: 1.65;
+    stroke-dasharray: 28 72;
+    opacity: 0;
+}
+
+.loader-4196-branch-28 {
+    animation-delay: -0.234s;
+    stroke-width: 1.95;
+    stroke-dasharray: 33 67;
+    opacity: 0;
+}
+
+.loader-4196-branch-29 {
+    animation-delay: -0.252s;
+    stroke-width: 2.25;
+    stroke-dasharray: 38 62;
+    opacity: 0;
+}
+
+.loader-4196-branch-30 {
+    animation-delay: -0.000s;
+    stroke-width: 1.05;
+    stroke-dasharray: 18 82;
+    opacity: 0;
+}
+
+.loader-4196-branch-31 {
+    animation-delay: -0.018s;
+    stroke-width: 1.35;
+    stroke-dasharray: 23 77;
+    opacity: 0;
+}
+
+.loader-4196-branch-32 {
+    animation-delay: -0.036s;
+    stroke-width: 1.65;
+    stroke-dasharray: 28 72;
+    opacity: 0;
+}
+
+.loader-4196-branch-33 {
+    animation-delay: -0.054s;
+    stroke-width: 1.95;
+    stroke-dasharray: 33 67;
+    opacity: 0;
+}
+
+.loader-4196-branch-34 {
+    animation-delay: -0.072s;
+    stroke-width: 2.25;
+    stroke-dasharray: 38 62;
+    opacity: 0;
+}
+
+.loader-4196-branch-35 {
+    animation-delay: -0.090s;
+    stroke-width: 1.05;
+    stroke-dasharray: 18 82;
+    opacity: 0;
+}
+
+.loader-4196-branch-36 {
+    animation-delay: -0.108s;
+    stroke-width: 1.35;
+    stroke-dasharray: 23 77;
+    opacity: 0;
+}
+
+.loader-4196-filament {
+    stroke: #fecdd3;
+    stroke-width: 1.2;
+    stroke-linecap: round;
+    stroke-dasharray: 20 80;
+    stroke-dashoffset: 100;
+    opacity: 0;
+    animation: loader4196Filament 2.4s linear infinite;
+}
+
+.loader-4196-filament-1 {
+    animation-delay: -0.072s;
+    stroke-width: 1.07;
+    stroke: #fecdd3;
+    stroke-dasharray: 20 80;
+}
+
+.loader-4196-filament-2 {
+    animation-delay: -0.144s;
+    stroke-width: 1.39;
+    stroke: #e11d48;
+    stroke-dasharray: 26 74;
+}
+
+.loader-4196-filament-3 {
+    animation-delay: -0.216s;
+    stroke-width: 1.71;
+    stroke: #fb7185;
+    stroke-dasharray: 32 68;
+}
+
+.loader-4196-filament-4 {
+    animation-delay: -0.288s;
+    stroke-width: 0.75;
+    stroke: #fecdd3;
+    stroke-dasharray: 14 86;
+}
+
+.loader-4196-filament-5 {
+    animation-delay: -0.360s;
+    stroke-width: 1.07;
+    stroke: #e11d48;
+    stroke-dasharray: 20 80;
+}
+
+.loader-4196-filament-6 {
+    animation-delay: -0.432s;
+    stroke-width: 1.39;
+    stroke: #fb7185;
+    stroke-dasharray: 26 74;
+}
+
+.loader-4196-filament-7 {
+    animation-delay: -0.504s;
+    stroke-width: 1.71;
+    stroke: #fecdd3;
+    stroke-dasharray: 32 68;
+}
+
+.loader-4196-filament-8 {
+    animation-delay: -0.576s;
+    stroke-width: 0.75;
+    stroke: #e11d48;
+    stroke-dasharray: 14 86;
+}
+
+.loader-4196-filament-9 {
+    animation-delay: -0.648s;
+    stroke-width: 1.07;
+    stroke: #fb7185;
+    stroke-dasharray: 20 80;
+}
+
+.loader-4196-filament-10 {
+    animation-delay: -0.720s;
+    stroke-width: 1.39;
+    stroke: #fecdd3;
+    stroke-dasharray: 26 74;
+}
+
+.loader-4196-filament-11 {
+    animation-delay: -0.792s;
+    stroke-width: 1.71;
+    stroke: #e11d48;
+    stroke-dasharray: 32 68;
+}
+
+.loader-4196-filament-12 {
+    animation-delay: -0.000s;
+    stroke-width: 0.75;
+    stroke: #fb7185;
+    stroke-dasharray: 14 86;
+}
+
+.loader-4196-filament-13 {
+    animation-delay: -0.072s;
+    stroke-width: 1.07;
+    stroke: #fecdd3;
+    stroke-dasharray: 20 80;
+}
+
+.loader-4196-filament-14 {
+    animation-delay: -0.144s;
+    stroke-width: 1.39;
+    stroke: #e11d48;
+    stroke-dasharray: 26 74;
+}
+
+.loader-4196-filament-15 {
+    animation-delay: -0.216s;
+    stroke-width: 1.71;
+    stroke: #fb7185;
+    stroke-dasharray: 32 68;
+}
+
+.loader-4196-filament-16 {
+    animation-delay: -0.288s;
+    stroke-width: 0.75;
+    stroke: #fecdd3;
+    stroke-dasharray: 14 86;
+}
+
+.loader-4196-filament-17 {
+    animation-delay: -0.360s;
+    stroke-width: 1.07;
+    stroke: #e11d48;
+    stroke-dasharray: 20 80;
+}
+
+.loader-4196-filament-18 {
+    animation-delay: -0.432s;
+    stroke-width: 1.39;
+    stroke: #fb7185;
+    stroke-dasharray: 26 74;
+}
+
+.loader-4196-filament-19 {
+    animation-delay: -0.504s;
+    stroke-width: 1.71;
+    stroke: #fecdd3;
+    stroke-dasharray: 32 68;
+}
+
+.loader-4196-filament-20 {
+    animation-delay: -0.576s;
+    stroke-width: 0.75;
+    stroke: #e11d48;
+    stroke-dasharray: 14 86;
+}
+
+.loader-4196-filament-21 {
+    animation-delay: -0.648s;
+    stroke-width: 1.07;
+    stroke: #fb7185;
+    stroke-dasharray: 20 80;
+}
+
+.loader-4196-filament-22 {
+    animation-delay: -0.720s;
+    stroke-width: 1.39;
+    stroke: #fecdd3;
+    stroke-dasharray: 26 74;
+}
+
+.loader-4196-filament-23 {
+    animation-delay: -0.792s;
+    stroke-width: 1.71;
+    stroke: #e11d48;
+    stroke-dasharray: 32 68;
+}
+
+.loader-4196-filament-24 {
+    animation-delay: -0.000s;
+    stroke-width: 0.75;
+    stroke: #fb7185;
+    stroke-dasharray: 14 86;
+}
+
+.loader-4196-filament-25 {
+    animation-delay: -0.072s;
+    stroke-width: 1.07;
+    stroke: #fecdd3;
+    stroke-dasharray: 20 80;
+}
+
+.loader-4196-filament-26 {
+    animation-delay: -0.144s;
+    stroke-width: 1.39;
+    stroke: #e11d48;
+    stroke-dasharray: 26 74;
+}
+
+.loader-4196-filament-27 {
+    animation-delay: -0.216s;
+    stroke-width: 1.71;
+    stroke: #fb7185;
+    stroke-dasharray: 32 68;
+}
+
+.loader-4196-filament-28 {
+    animation-delay: -0.288s;
+    stroke-width: 0.75;
+    stroke: #fecdd3;
+    stroke-dasharray: 14 86;
+}
+
+.loader-4196-front {
+    stroke: #fda4af;
+    stroke-width: 2.3;
+    stroke-linecap: round;
+    opacity: 0;
+    filter: drop-shadow(0 0 2px #f43f5e);
+    animation: loader4196PressureWave 2.4s ease-in infinite;
+}
+
+.loader-4196-front-1 {
+    animation-delay: -0.000s;
+    stroke-width: 1.75;
+    stroke: #fda4af;
+}
+
+.loader-4196-front-2 {
+    animation-delay: -0.095s;
+    stroke-width: 2.20;
+    stroke: #fda4af;
+}
+
+.loader-4196-front-3 {
+    animation-delay: -0.190s;
+    stroke-width: 2.65;
+    stroke: #ffe4e6;
+}
+
+.loader-4196-front-4 {
+    animation-delay: -0.285s;
+    stroke-width: 1.30;
+    stroke: #fda4af;
+}
+
+.loader-4196-front-5 {
+    animation-delay: -0.380s;
+    stroke-width: 1.75;
+    stroke: #fda4af;
+}
+
+.loader-4196-front-6 {
+    animation-delay: -0.475s;
+    stroke-width: 2.20;
+    stroke: #ffe4e6;
+}
+
+.loader-4196-front-7 {
+    animation-delay: -0.570s;
+    stroke-width: 2.65;
+    stroke: #fda4af;
+}
+
+.loader-4196-front-8 {
+    animation-delay: -0.665s;
+    stroke-width: 1.30;
+    stroke: #fda4af;
+}
+
+.loader-4196-impact-ring {
+    stroke: #fb7185;
+    stroke-width: 2.2;
+    opacity: 0;
+    transform-box: fill-box;
+    transform-origin: center;
+    filter: drop-shadow(0 0 3px rgba(244, 63, 94, .4));
+    animation: loader4196ImpactRing 2.4s ease-out infinite;
+}
+
+.loader-4196-impact-ring-1 {
+    animation-delay: -0.000s;
+    stroke-width: 3.10;
+    opacity: 0;
+}
+
+.loader-4196-impact-ring-2 {
+    animation-delay: -0.048s;
+    stroke-width: 2.65;
+    opacity: 0;
+}
+
+.loader-4196-impact-ring-3 {
+    animation-delay: -0.096s;
+    stroke-width: 2.20;
+    opacity: 0;
+}
+
+.loader-4196-impact-ring-4 {
+    animation-delay: -0.144s;
+    stroke-width: 1.75;
+    opacity: 0;
+}
+
+.loader-4196-impact-ring-5 {
+    animation-delay: -0.192s;
+    stroke-width: 1.30;
+    opacity: 0;
+}
+
+.loader-4196-impact-shard {
+    stroke: #fecdd3;
+    stroke-width: 2;
+    stroke-linecap: round;
+    opacity: 0;
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: loader4196ImpactShard 2.4s ease-out infinite;
+}
+
+.loader-4196-impact-shard-1 {
+    animation-delay: -0.035s;
+    stroke-width: 1.4;
+    stroke: #fb7185;
+}
+
+.loader-4196-impact-shard-2 {
+    animation-delay: -0.070s;
+    stroke-width: 1.8;
+    stroke: #fecdd3;
+}
+
+.loader-4196-impact-shard-3 {
+    animation-delay: -0.105s;
+    stroke-width: 2.2;
+    stroke: #fff1f2;
+}
+
+.loader-4196-impact-shard-4 {
+    animation-delay: -0.140s;
+    stroke-width: 1.0;
+    stroke: #fb7185;
+}
+
+.loader-4196-impact-shard-5 {
+    animation-delay: -0.175s;
+    stroke-width: 1.4;
+    stroke: #fecdd3;
+}
+
+.loader-4196-impact-shard-6 {
+    animation-delay: -0.000s;
+    stroke-width: 1.8;
+    stroke: #fff1f2;
+}
+
+.loader-4196-impact-shard-7 {
+    animation-delay: -0.035s;
+    stroke-width: 2.2;
+    stroke: #fb7185;
+}
+
+.loader-4196-impact-shard-8 {
+    animation-delay: -0.070s;
+    stroke-width: 1.0;
+    stroke: #fecdd3;
+}
+
+.loader-4196-impact-shard-9 {
+    animation-delay: -0.105s;
+    stroke-width: 1.4;
+    stroke: #fff1f2;
+}
+
+.loader-4196-impact-shard-10 {
+    animation-delay: -0.140s;
+    stroke-width: 1.8;
+    stroke: #fb7185;
+}
+
+.loader-4196-impact-shard-11 {
+    animation-delay: -0.175s;
+    stroke-width: 2.2;
+    stroke: #fecdd3;
+}
+
+.loader-4196-impact-shard-12 {
+    animation-delay: -0.000s;
+    stroke-width: 1.0;
+    stroke: #fff1f2;
+}
+
+.loader-4196-impact-shard-13 {
+    animation-delay: -0.035s;
+    stroke-width: 1.4;
+    stroke: #fb7185;
+}
+
+.loader-4196-impact-shard-14 {
+    animation-delay: -0.070s;
+    stroke-width: 1.8;
+    stroke: #fecdd3;
+}
+
+.loader-4196-impact-shard-15 {
+    animation-delay: -0.105s;
+    stroke-width: 2.2;
+    stroke: #fff1f2;
+}
+
+.loader-4196-impact-shard-16 {
+    animation-delay: -0.140s;
+    stroke-width: 1.0;
+    stroke: #fb7185;
+}
+
+.loader-4196-spark {
+    fill: #fda4af;
+    opacity: 0;
+    filter: drop-shadow(0 0 2px #fb7185);
+    animation: loader4196FastParticle 2.4s linear infinite;
+}
+
+.loader-4196-spark-1 {
+    animation-delay: -0.063s;
+    fill: #fb7185;
+    filter: drop-shadow(0 0 2px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-2 {
+    animation-delay: -0.126s;
+    fill: #fecdd3;
+    filter: drop-shadow(0 0 3px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-3 {
+    animation-delay: -0.189s;
+    fill: #e11d48;
+    filter: drop-shadow(0 0 1px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-4 {
+    animation-delay: -0.252s;
+    fill: #fff1f2;
+    filter: drop-shadow(0 0 2px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-5 {
+    animation-delay: -0.315s;
+    fill: #fb7185;
+    filter: drop-shadow(0 0 3px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-6 {
+    animation-delay: -0.378s;
+    fill: #fecdd3;
+    filter: drop-shadow(0 0 1px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-7 {
+    animation-delay: -0.441s;
+    fill: #e11d48;
+    filter: drop-shadow(0 0 2px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-8 {
+    animation-delay: -0.504s;
+    fill: #fff1f2;
+    filter: drop-shadow(0 0 3px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-9 {
+    animation-delay: -0.567s;
+    fill: #fb7185;
+    filter: drop-shadow(0 0 1px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-10 {
+    animation-delay: -0.630s;
+    fill: #fecdd3;
+    filter: drop-shadow(0 0 2px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-11 {
+    animation-delay: -0.693s;
+    fill: #e11d48;
+    filter: drop-shadow(0 0 3px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-12 {
+    animation-delay: -0.756s;
+    fill: #fff1f2;
+    filter: drop-shadow(0 0 1px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-13 {
+    animation-delay: -0.819s;
+    fill: #fb7185;
+    filter: drop-shadow(0 0 2px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-14 {
+    animation-delay: -0.882s;
+    fill: #fecdd3;
+    filter: drop-shadow(0 0 3px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-15 {
+    animation-delay: -0.945s;
+    fill: #e11d48;
+    filter: drop-shadow(0 0 1px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-16 {
+    animation-delay: -1.008s;
+    fill: #fff1f2;
+    filter: drop-shadow(0 0 2px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-17 {
+    animation-delay: -1.071s;
+    fill: #fb7185;
+    filter: drop-shadow(0 0 3px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-18 {
+    animation-delay: -1.134s;
+    fill: #fecdd3;
+    filter: drop-shadow(0 0 1px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-19 {
+    animation-delay: -1.197s;
+    fill: #e11d48;
+    filter: drop-shadow(0 0 2px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-20 {
+    animation-delay: -0.000s;
+    fill: #fff1f2;
+    filter: drop-shadow(0 0 3px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-21 {
+    animation-delay: -0.063s;
+    fill: #fb7185;
+    filter: drop-shadow(0 0 1px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-22 {
+    animation-delay: -0.126s;
+    fill: #fecdd3;
+    filter: drop-shadow(0 0 2px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-23 {
+    animation-delay: -0.189s;
+    fill: #e11d48;
+    filter: drop-shadow(0 0 3px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-24 {
+    animation-delay: -0.252s;
+    fill: #fff1f2;
+    filter: drop-shadow(0 0 1px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-25 {
+    animation-delay: -0.315s;
+    fill: #fb7185;
+    filter: drop-shadow(0 0 2px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-26 {
+    animation-delay: -0.378s;
+    fill: #fecdd3;
+    filter: drop-shadow(0 0 3px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-27 {
+    animation-delay: -0.441s;
+    fill: #e11d48;
+    filter: drop-shadow(0 0 1px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-28 {
+    animation-delay: -0.504s;
+    fill: #fff1f2;
+    filter: drop-shadow(0 0 2px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-29 {
+    animation-delay: -0.567s;
+    fill: #fb7185;
+    filter: drop-shadow(0 0 3px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-30 {
+    animation-delay: -0.630s;
+    fill: #fecdd3;
+    filter: drop-shadow(0 0 1px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-31 {
+    animation-delay: -0.693s;
+    fill: #e11d48;
+    filter: drop-shadow(0 0 2px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-spark-32 {
+    animation-delay: -0.756s;
+    fill: #fff1f2;
+    filter: drop-shadow(0 0 3px rgba(251, 113, 133, .9));
+    opacity: 0;
+}
+
+.loader-4196-strike-glare {
+    position: absolute;
+    top: 14px;
+    right: -16px;
+    width: 50px;
+    height: 98px;
+    z-index: 3;
+    pointer-events: none;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at center, rgba(255, 241, 242, .65) 0%, rgba(244, 63, 94, .23) 42%, transparent 74%);
+    filter: blur(6px);
+    opacity: 0;
+    animation: loader4196ImpactGlare 2.4s ease-in-out infinite;
+}
+
+.loader-4196-progress-track {
+    position: absolute;
+    z-index: 5;
+    left: 12px;
+    right: 12px;
+    bottom: 9px;
+    height: 3px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: rgba(159, 18, 57, .55);
+    box-shadow: inset 0 0 1px rgba(255, 228, 230, .2);
+}
+
+.loader-4196-progress-pulse {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -36%;
+    width: 34%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, transparent, #f43f5e 30%, #ffe4e6 80%, #fb7185);
+    box-shadow: 0 0 10px rgba(251, 113, 133, .6);
+    animation: loader4196ProgressPulse 2.4s linear infinite;
+}
+
+.loader-4196-loading-label {
+    position: absolute;
+    z-index: 5;
+    bottom: 19px;
+    left: 14px;
+    color: #fda4af;
+    font: 600 8px/1 system-ui, sans-serif;
+    letter-spacing: .2em;
+    opacity: .7;
+    pointer-events: none;
+    animation: loader4196Label 2.4s ease-in-out infinite;
+}
+
+@keyframes loader4196Atmosphere {
+    0%, 100% {
+        opacity: .18;
+        transform: scale(.8);
+    }
+    20% {
+        opacity: .38;
+        transform: scale(1);
+    }
+    45% {
+        opacity: .7;
+        transform: scale(1.13);
+    }
+    75% {
+        opacity: .45;
+        transform: scale(1);
+    }
+}
+
+@keyframes loader4196ScreenFlash {
+    0%, 17%, 100% {
+        opacity: 0;
+    }
+    24% {
+        opacity: .35;
+    }
+    29% {
+        opacity: .08;
+    }
+    38% {
+        opacity: .4;
+    }
+    48% {
+        opacity: .12;
+    }
+    72% {
+        opacity: .25;
+    }
+    78% {
+        opacity: .72;
+    }
+    84% {
+        opacity: 0;
+    }
+}
+
+@keyframes loader4196QuietCurrent {
+    0% {
+        stroke-dashoffset: 60;
+        opacity: .2;
+    }
+    20% {
+        opacity: .5;
+    }
+    58% {
+        opacity: .9;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        opacity: .2;
+    }
+}
+
+@keyframes loader4196Gate {
+    0%, 100% {
+        opacity: .22;
+        transform: scale(.82);
+    }
+    16% {
+        opacity: .95;
+        transform: scale(1);
+    }
+    26% {
+        opacity: .55;
+        transform: scale(1.15);
+    }
+    48% {
+        opacity: .4;
+        transform: scale(.85);
+    }
+    77% {
+        opacity: .85;
+        transform: scale(1.08);
+    }
+}
+
+@keyframes loader4196GateProng {
+    0%, 100% {
+        opacity: .15;
+    }
+    13% {
+        opacity: 1;
+    }
+    28% {
+        opacity: .35;
+    }
+    48% {
+        opacity: .85;
+    }
+    80% {
+        opacity: .3;
+    }
+}
+
+@keyframes loader4196BoltBloom {
+    0%, 14% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+    23% {
+        opacity: .42;
+    }
+    34% {
+        stroke-dashoffset: 74;
+        opacity: .8;
+    }
+    55% {
+        stroke-dashoffset: 42;
+        opacity: .7;
+    }
+    73% {
+        stroke-dashoffset: 4;
+        opacity: .95;
+    }
+    87% {
+        stroke-dashoffset: 0;
+        opacity: .15;
+    }
+    100% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+}
+
+@keyframes loader4196LightningStrike {
+    0%, 13% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+    21% {
+        stroke-dashoffset: 96;
+        opacity: 1;
+    }
+    32% {
+        stroke-dashoffset: 78;
+        opacity: .88;
+    }
+    45% {
+        stroke-dashoffset: 60;
+        opacity: 1;
+    }
+    58% {
+        stroke-dashoffset: 36;
+        opacity: .85;
+    }
+    72% {
+        stroke-dashoffset: 5;
+        opacity: 1;
+    }
+    79% {
+        stroke-dashoffset: 0;
+        opacity: .25;
+    }
+    86%, 100% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+}
+
+@keyframes loader4196Fork {
+    0%, 16% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+    26% {
+        stroke-dashoffset: 90;
+        opacity: .8;
+    }
+    41% {
+        stroke-dashoffset: 57;
+        opacity: 1;
+    }
+    58% {
+        stroke-dashoffset: 22;
+        opacity: .7;
+    }
+    73% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+    85%, 100% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+}
+
+@keyframes loader4196Filament {
+    0%, 19% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+    30% {
+        stroke-dashoffset: 78;
+        opacity: .85;
+    }
+    46% {
+        stroke-dashoffset: 35;
+        opacity: .3;
+    }
+    57% {
+        stroke-dashoffset: 15;
+        opacity: 1;
+    }
+    77% {
+        stroke-dashoffset: 0;
+        opacity: 0;
+    }
+    100% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+}
+
+@keyframes loader4196PressureWave {
+    0%, 20% {
+        transform: translateX(0) scaleX(.5);
+        opacity: 0;
+    }
+    27% {
+        opacity: .9;
+    }
+    54% {
+        transform: translateX(135px) scaleX(1.1);
+        opacity: .8;
+    }
+    77% {
+        transform: translateX(270px) scaleX(1.45);
+        opacity: .4;
+    }
+    86%, 100% {
+        transform: translateX(285px) scaleX(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4196ImpactRing {
+    0%, 65% {
+        transform: scale(.32);
+        opacity: 0;
+    }
+    73% {
+        transform: scale(.65);
+        opacity: 1;
+    }
+    82% {
+        transform: scale(1);
+        opacity: .75;
+    }
+    97%, 100% {
+        transform: scale(1.24);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4196ImpactShard {
+    0%, 66% {
+        transform: scale(.15);
+        opacity: 0;
+    }
+    73% {
+        transform: scale(.7);
+        opacity: 1;
+    }
+    82% {
+        transform: scale(1.2);
+        opacity: .85;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4196FastParticle {
+    0%, 15% {
+        transform: translate(0, 0) scale(.25);
+        opacity: 0;
+    }
+    26% {
+        opacity: .8;
+    }
+    46% {
+        transform: translate(145px, -4px) scale(1.3);
+        opacity: 1;
+    }
+    67% {
+        opacity: .7;
+    }
+    82% {
+        transform: translate(345px, 5px) scale(.6);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(345px, 5px) scale(.6);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4196ImpactGlare {
+    0%, 65% {
+        opacity: 0;
+        transform: scale(.3);
+    }
+    74% {
+        opacity: .85;
+        transform: scale(1.05);
+    }
+    80% {
+        opacity: .35;
+        transform: scale(1.25);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.5);
+    }
+}
+
+@keyframes loader4196ProgressPulse {
+    0%, 10% {
+        left: -36%;
+        width: 23%;
+        opacity: .35;
+    }
+    28% {
+        width: 34%;
+        opacity: 1;
+    }
+    55% {
+        left: 44%;
+        width: 38%;
+        opacity: 1;
+    }
+    82% {
+        left: 105%;
+        width: 27%;
+        opacity: .85;
+    }
+    100% {
+        left: 105%;
+        opacity: 0;
+    }
+}
+
+@keyframes loader4196Label {
+    0%, 100% {
+        opacity: .3;
+    }
+    20% {
+        opacity: .85;
+    }
+    56% {
+        opacity: .6;
+    }
+    77% {
+        opacity: 1;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .loader-4196 .loader-4196-ambient,
+    .loader-4196 .loader-4196-cast-flash,
+    .loader-4196 .loader-4196-field-lines path,
+    .loader-4196 .loader-4196-gate-ring,
+    .loader-4196 .loader-4196-gate-prong,
+    .loader-4196 .loader-4196-bloom-path,
+    .loader-4196 .loader-4196-primary-path,
+    .loader-4196 .loader-4196-branch,
+    .loader-4196 .loader-4196-filament,
+    .loader-4196 .loader-4196-front,
+    .loader-4196 .loader-4196-impact-ring,
+    .loader-4196 .loader-4196-impact-shard,
+    .loader-4196 .loader-4196-spark,
+    .loader-4196 .loader-4196-strike-glare,
+    .loader-4196 .loader-4196-progress-pulse,
+    .loader-4196 .loader-4196-loading-label {
+        animation: none;
+    }
+
+    .loader-4196 .loader-4196-ambient {
+        opacity: .28;
+        transform: none;
+    }
+
+    .loader-4196 .loader-4196-primary-path,
+    .loader-4196 .loader-4196-bloom-path {
+        stroke-dasharray: none;
+        stroke-dashoffset: 0;
+        opacity: .85;
+    }
+
+    .loader-4196 .loader-4196-branch {
+        stroke-dasharray: none;
+        stroke-dashoffset: 0;
+        opacity: .55;
+    }
+
+    .loader-4196 .loader-4196-filament {
+        stroke-dasharray: none;
+        stroke-dashoffset: 0;
+        opacity: .32;
+    }
+
+    .loader-4196 .loader-4196-front,
+    .loader-4196 .loader-4196-impact-ring,
+    .loader-4196 .loader-4196-impact-shard {
+        opacity: .4;
+        transform: none;
+    }
+
+    .loader-4196 .loader-4196-gate-ring,
+    .loader-4196 .loader-4196-gate-prong {
+        opacity: .75;
+        transform: none;
+    }
+
+    .loader-4196 .loader-4196-spark {
+        opacity: .65;
+        transform: translateX(150px);
+    }
+
+    .loader-4196 .loader-4196-progress-pulse {
+        left: 30%;
+        width: 40%;
+        opacity: 1;
+    }
+
+    .loader-4196 .loader-4196-loading-label {
+        opacity: .8;
+    }
+}`,
+  },
+  {
+    id: 4197,
+    name: "Red Fire Lightning: Inferno Thunderstrike",
+    preview: (
+      <div className="loader-4197" role="status" aria-label="Laden">
+        <div className="loader-4197-shell" aria-hidden="true">
+          <span className="loader-4197-ambient loader-4197-ambient-1"></span>
+          <span className="loader-4197-ambient loader-4197-ambient-2"></span>
+          <span className="loader-4197-ambient loader-4197-ambient-3"></span>
+          <span className="loader-4197-ambient loader-4197-ambient-4"></span>
+          <span className="loader-4197-ignition-flash"></span>
+          <span className="loader-4197-impact-light"></span>
+          <svg
+            viewBox="0 0 360 145"
+            preserveAspectRatio="xMidYMid meet"
+            focusable="false"
+          >
+            <defs>
+              <linearGradient
+                id="loader4197Plasma"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%"
+              >
+                <stop offset="0%" stopColor="#7f1d1d" stopOpacity=".1" />
+                <stop offset="15%" stopColor="#dc2626" stopOpacity=".8" />
+                <stop offset="42%" stopColor="#fb923c" stopOpacity="1" />
+                <stop offset="64%" stopColor="#fff7ed" stopOpacity="1" />
+                <stop offset="81%" stopColor="#fde68a" stopOpacity="1" />
+                <stop offset="100%" stopColor="#ef4444" stopOpacity=".65" />
+              </linearGradient>
+              <linearGradient
+                id="loader4197Branch"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%"
+              >
+                <stop offset="0%" stopColor="#991b1b" stopOpacity=".1" />
+                <stop offset="25%" stopColor="#ef4444" stopOpacity=".8" />
+                <stop offset="65%" stopColor="#f97316" stopOpacity="1" />
+                <stop offset="88%" stopColor="#fed7aa" stopOpacity="1" />
+                <stop offset="100%" stopColor="#fef3c7" stopOpacity=".4" />
+              </linearGradient>
+              <linearGradient
+                id="loader4197Flame"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%"
+              >
+                <stop offset="0%" stopColor="#450a0a" stopOpacity="0" />
+                <stop offset="22%" stopColor="#b91c1c" stopOpacity=".75" />
+                <stop offset="51%" stopColor="#ea580c" stopOpacity=".9" />
+                <stop offset="75%" stopColor="#f97316" stopOpacity="1" />
+                <stop offset="100%" stopColor="#fde68a" stopOpacity="0" />
+              </linearGradient>
+              <linearGradient
+                id="loader4197Heat"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%"
+              >
+                <stop offset="0%" stopColor="#7f1d1d" stopOpacity="0" />
+                <stop offset="43%" stopColor="#dc2626" stopOpacity=".4" />
+                <stop offset="77%" stopColor="#f97316" stopOpacity=".8" />
+                <stop offset="100%" stopColor="#fef3c7" stopOpacity=".1" />
+              </linearGradient>
+              <filter
+                id="loader4197SoftBlur"
+                x="-60%"
+                y="-200%"
+                width="220%"
+                height="500%"
+              >
+                <feGaussianBlur stdDeviation="5" />
+              </filter>
+              <filter
+                id="loader4197EmberBlur"
+                x="-60%"
+                y="-200%"
+                width="220%"
+                height="500%"
+              >
+                <feGaussianBlur stdDeviation="2.1" />
+              </filter>
+            </defs>
+            <g className="loader-4197-heat-map">
+              <path d="M-20 13.0 C56 10.0 116 16.0 181 13.0 S295 10.0 382 13.0" />
+              <path d="M-20 23.3 C56 25.4 116 21.2 181 23.3 S295 25.4 382 23.3" />
+              <path d="M-20 33.6 C56 35.6 116 31.6 181 33.6 S295 35.6 382 33.6" />
+              <path d="M-20 43.9 C56 42.4 116 45.4 181 43.9 S295 42.4 382 43.9" />
+              <path d="M-20 54.2 C56 54.5 116 53.9 181 54.2 S295 54.5 382 54.2" />
+              <path d="M-20 64.5 C56 70.5 116 58.5 181 64.5 S295 70.5 382 64.5" />
+              <path d="M-20 74.8 C56 71.7 116 77.9 181 74.8 S295 71.7 382 74.8" />
+              <path d="M-20 85.1 C56 90.5 116 79.7 181 85.1 S295 90.5 382 85.1" />
+              <path d="M-20 95.4 C56 99.7 116 91.1 181 95.4 S295 99.7 382 95.4" />
+              <path d="M-20 105.7 C56 106.5 116 104.9 181 105.7 S295 106.5 382 105.7" />
+              <path d="M-20 116.0 C56 122.5 116 109.5 181 116.0 S295 122.5 382 116.0" />
+              <path d="M-20 126.3 C56 119.8 116 132.8 181 126.3 S295 119.8 382 126.3" />
+            </g>
+            <g className="loader-4197-charge-halo">
+              <ellipse
+                className="loader-4197-charge-ring loader-4197-charge-ring-1"
+                cx="36"
+                cy="72"
+                rx="11"
+                ry="19"
+              />
+              <ellipse
+                className="loader-4197-charge-ring loader-4197-charge-ring-2"
+                cx="36"
+                cy="72"
+                rx="21"
+                ry="31"
+              />
+              <ellipse
+                className="loader-4197-charge-ring loader-4197-charge-ring-3"
+                cx="36"
+                cy="72"
+                rx="32"
+                ry="44"
+              />
+              <ellipse
+                className="loader-4197-charge-ring loader-4197-charge-ring-4"
+                cx="36"
+                cy="72"
+                rx="42"
+                ry="58"
+              />
+              <ellipse
+                className="loader-4197-charge-ring loader-4197-charge-ring-5"
+                cx="36"
+                cy="72"
+                rx="53"
+                ry="67"
+              />
+              <path
+                className="loader-4197-charge-prong loader-4197-charge-prong-1"
+                d="M14 21 L26 16 L39 21"
+              />
+              <path
+                className="loader-4197-charge-prong loader-4197-charge-prong-2"
+                d="M14 32 L26 37 L39 32"
+              />
+              <path
+                className="loader-4197-charge-prong loader-4197-charge-prong-3"
+                d="M14 43 L26 38 L39 43"
+              />
+              <path
+                className="loader-4197-charge-prong loader-4197-charge-prong-4"
+                d="M14 54 L26 59 L39 54"
+              />
+              <path
+                className="loader-4197-charge-prong loader-4197-charge-prong-5"
+                d="M14 65 L26 60 L39 65"
+              />
+              <path
+                className="loader-4197-charge-prong loader-4197-charge-prong-6"
+                d="M14 76 L26 81 L39 76"
+              />
+              <path
+                className="loader-4197-charge-prong loader-4197-charge-prong-7"
+                d="M14 87 L26 82 L39 87"
+              />
+              <path
+                className="loader-4197-charge-prong loader-4197-charge-prong-8"
+                d="M14 98 L26 103 L39 98"
+              />
+              <path
+                className="loader-4197-charge-prong loader-4197-charge-prong-9"
+                d="M14 109 L26 104 L39 109"
+              />
+              <path
+                className="loader-4197-charge-prong loader-4197-charge-prong-10"
+                d="M14 120 L26 125 L39 120"
+              />
+            </g>
+            <g className="loader-4197-corona" filter="url(#loader4197SoftBlur)">
+              <path
+                className="loader-4197-corona-path loader-4197-corona-path-1"
+                d="M16 40 L31.1 33.5 L46.3 47.9 L61.5 49.9 L76.6 30.2 L91.8 48.7 L106.9 31.3 L122 50.6 L137.2 43.7 L152.3 30.7 L167.5 49.5 L182.7 49.7 L197.8 31 L213 44.8 L228.1 31 L243.2 31.9 L258.4 43.6 L273.6 34.8 L288.7 44.9 L303.9 36.8 L319 46.7 L334.2 47.7 L349.3 40"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-corona-path loader-4197-corona-path-2"
+                d="M16 55 L31.1 45.9 L46.3 63.3 L61.5 63.6 L76.6 60.7 L91.8 50 L106.9 64.4 L122 48.6 L137.2 63.5 L152.3 59.7 L167.5 46.1 L182.7 65.6 L197.8 47.5 L213 59.1 L228.1 62.1 L243.2 50.7 L258.4 51 L273.6 44.8 L288.7 48.1 L303.9 45.2 L319 58.1 L334.2 50.4 L349.3 55"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-corona-path loader-4197-corona-path-3"
+                d="M16 71 L31.1 62.8 L46.3 66.5 L61.5 65 L76.6 66.3 L91.8 79.8 L106.9 62.9 L122 78.7 L137.2 78 L152.3 62.6 L167.5 74.3 L182.7 64.1 L197.8 65 L213 63.6 L228.1 67.9 L243.2 63.1 L258.4 79.8 L273.6 79.9 L288.7 66.1 L303.9 74.9 L319 64 L334.2 76.3 L349.3 71"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-corona-path loader-4197-corona-path-4"
+                d="M16 87 L31.1 81.4 L46.3 97.3 L61.5 78.5 L76.6 82.5 L91.8 79.3 L106.9 90.7 L122 97.4 L137.2 97.3 L152.3 83.3 L167.5 91 L182.7 93.9 L197.8 83.7 L213 90.9 L228.1 78.6 L243.2 78.7 L258.4 95 L273.6 96.8 L288.7 96.2 L303.9 80.4 L319 81.5 L334.2 93 L349.3 87"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-corona-path loader-4197-corona-path-5"
+                d="M16 103 L31.1 92.2 L46.3 113.3 L61.5 98.2 L76.6 108.1 L91.8 108.3 L106.9 107.3 L122 107.1 L137.2 97.5 L152.3 110.6 L167.5 110.9 L182.7 108.8 L197.8 92.9 L213 111.4 L228.1 96.6 L243.2 96.9 L258.4 98.5 L273.6 95.1 L288.7 92.5 L303.9 92.5 L319 109.4 L334.2 94 L349.3 103"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-corona-path loader-4197-corona-path-6"
+                d="M16 116 L31.1 105.5 L46.3 111.6 L61.5 122.8 L76.6 109.8 L91.8 110.4 L106.9 105.3 L122 126 L137.2 124.1 L152.3 108.6 L167.5 107.1 L182.7 109.9 L197.8 119.9 L213 112.7 L228.1 110 L243.2 110.4 L258.4 110.9 L273.6 123.1 L288.7 119.7 L303.9 110.8 L319 112.4 L334.2 126.2 L349.3 116"
+                pathLength="100"
+              />
+            </g>
+            <g className="loader-4197-plasma">
+              <path
+                className="loader-4197-plasma-path loader-4197-plasma-path-1"
+                d="M16 40 L31.1 33.5 L46.3 47.9 L61.5 49.9 L76.6 30.2 L91.8 48.7 L106.9 31.3 L122 50.6 L137.2 43.7 L152.3 30.7 L167.5 49.5 L182.7 49.7 L197.8 31 L213 44.8 L228.1 31 L243.2 31.9 L258.4 43.6 L273.6 34.8 L288.7 44.9 L303.9 36.8 L319 46.7 L334.2 47.7 L349.3 40"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-plasma-path loader-4197-plasma-path-2"
+                d="M16 55 L31.1 45.9 L46.3 63.3 L61.5 63.6 L76.6 60.7 L91.8 50 L106.9 64.4 L122 48.6 L137.2 63.5 L152.3 59.7 L167.5 46.1 L182.7 65.6 L197.8 47.5 L213 59.1 L228.1 62.1 L243.2 50.7 L258.4 51 L273.6 44.8 L288.7 48.1 L303.9 45.2 L319 58.1 L334.2 50.4 L349.3 55"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-plasma-path loader-4197-plasma-path-3"
+                d="M16 71 L31.1 62.8 L46.3 66.5 L61.5 65 L76.6 66.3 L91.8 79.8 L106.9 62.9 L122 78.7 L137.2 78 L152.3 62.6 L167.5 74.3 L182.7 64.1 L197.8 65 L213 63.6 L228.1 67.9 L243.2 63.1 L258.4 79.8 L273.6 79.9 L288.7 66.1 L303.9 74.9 L319 64 L334.2 76.3 L349.3 71"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-plasma-path loader-4197-plasma-path-4"
+                d="M16 87 L31.1 81.4 L46.3 97.3 L61.5 78.5 L76.6 82.5 L91.8 79.3 L106.9 90.7 L122 97.4 L137.2 97.3 L152.3 83.3 L167.5 91 L182.7 93.9 L197.8 83.7 L213 90.9 L228.1 78.6 L243.2 78.7 L258.4 95 L273.6 96.8 L288.7 96.2 L303.9 80.4 L319 81.5 L334.2 93 L349.3 87"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-plasma-path loader-4197-plasma-path-5"
+                d="M16 103 L31.1 92.2 L46.3 113.3 L61.5 98.2 L76.6 108.1 L91.8 108.3 L106.9 107.3 L122 107.1 L137.2 97.5 L152.3 110.6 L167.5 110.9 L182.7 108.8 L197.8 92.9 L213 111.4 L228.1 96.6 L243.2 96.9 L258.4 98.5 L273.6 95.1 L288.7 92.5 L303.9 92.5 L319 109.4 L334.2 94 L349.3 103"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-plasma-path loader-4197-plasma-path-6"
+                d="M16 116 L31.1 105.5 L46.3 111.6 L61.5 122.8 L76.6 109.8 L91.8 110.4 L106.9 105.3 L122 126 L137.2 124.1 L152.3 108.6 L167.5 107.1 L182.7 109.9 L197.8 119.9 L213 112.7 L228.1 110 L243.2 110.4 L258.4 110.9 L273.6 123.1 L288.7 119.7 L303.9 110.8 L319 112.4 L334.2 126.2 L349.3 116"
+                pathLength="100"
+              />
+            </g>
+            <g className="loader-4197-forks">
+              <path
+                className="loader-4197-fork loader-4197-fork-1"
+                d="M258.4 43.6 L267.9 43 L277.4 39.4 L286.9 35.8 L296.4 32.2 L305.9 22.6"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-2"
+                d="M228.1 62.1 L239.6 62.7 L251.1 67.3 L262.6 79.9 L274.1 76.5 L285.6 81.1"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-3"
+                d="M197.8 65 L211.3 54.4 L224.8 58.8 L238.3 53.2 L251.8 47.6 L265.3 32"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-4"
+                d="M167.5 91 L175 99.6 L182.5 102.2 L190 104.8 L197.5 95.4 L205 110"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-5"
+                d="M137.2 97.5 L146.7 91.9 L156.2 92.3 L165.7 88.7 L175.2 85.1 L184.7 81.5"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-6"
+                d="M106.9 105.3 L118.4 112.9 L129.9 111.5 L141.4 116.1 L152.9 126.7 L164.4 125.3"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-7"
+                d="M76.6 30.2 L90.1 28.6 L103.6 15 L117.1 17.4 L130.6 3.8 L144.1 3"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-8"
+                d="M273.6 44.8 L281.1 52.4 L288.6 55 L296.1 47.6 L303.6 50.2 L311.1 62.8"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-9"
+                d="M243.2 63.1 L252.7 65.5 L262.2 49.9 L271.7 46.3 L281.2 54.7 L290.7 39.1"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-10"
+                d="M213 90.9 L224.5 97.5 L236 98.1 L247.5 102.7 L259 111.3 L270.5 111.9"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-11"
+                d="M182.7 108.8 L196.2 106.2 L209.7 94.6 L223.2 89 L236.7 83.4 L250.2 77.8"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-12"
+                d="M152.3 108.6 L159.8 115.2 L167.3 117.8 L174.8 120.4 L182.3 115 L189.8 117.6"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-13"
+                d="M122 50.6 L131.5 42 L141 48.4 L150.5 34.8 L160 31.2 L169.5 27.6"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-14"
+                d="M91.8 50 L103.3 60.6 L114.8 53.2 L126.3 57.8 L137.8 74.4 L149.3 79"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-15"
+                d="M61.5 65 L75 57.4 L88.5 55.8 L102 50.2 L115.5 44.6 L129 35"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-16"
+                d="M258.4 95 L265.9 94.6 L273.4 103.2 L280.9 105.8 L288.4 108.4 L295.9 105"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-17"
+                d="M228.1 96.6 L237.6 97 L247.1 85.4 L256.6 89.8 L266.1 86.2 L275.6 74.6"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-18"
+                d="M197.8 119.9 L209.3 129.5 L220.8 134.1 L232.3 128.7 L243.8 133.3 L255.3 142"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-19"
+                d="M167.5 49.5 L181 37.9 L194.5 44.3 L208 26.7 L221.5 21.1 L235 27.5"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-20"
+                d="M137.2 63.5 L144.7 68.1 L152.2 70.7 L159.7 73.3 L167.2 75.9 L174.7 74.5"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-21"
+                d="M106.9 62.9 L116.4 56.3 L125.9 52.7 L135.4 49.1 L144.9 51.5 L154.4 47.9"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-22"
+                d="M76.6 82.5 L88.1 91.1 L99.6 95.7 L111.1 92.3 L122.6 104.9 L134.1 101.5"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-23"
+                d="M273.6 95.1 L287.1 94.5 L300.6 88.9 L314.1 73.3 L327.6 67.7 L341.1 62.1"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-24"
+                d="M243.2 110.4 L250.7 107 L258.2 121.6 L265.7 112.2 L273.2 126.8 L280.7 117.4"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-25"
+                d="M213 44.8 L222.5 43.2 L232 35.6 L241.5 32 L251 28.4 L260.5 24.8"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-26"
+                d="M182.7 65.6 L194.2 73.2 L205.7 71.8 L217.2 82.4 L228.7 81 L240.2 91.6"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-27"
+                d="M152.3 62.6 L165.8 61 L179.3 55.4 L192.8 41.8 L206.3 36.2 L219.8 38.6"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-28"
+                d="M122 97.4 L129.5 95 L137 97.6 L144.5 110.2 L152 112.8 L159.5 105.4"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-29"
+                d="M91.8 108.3 L101.3 110.7 L110.8 95.1 L120.3 103.5 L129.8 87.9 L139.3 84.3"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-30"
+                d="M61.5 122.8 L73 125.4 L84.5 130 L96 134.6 L107.5 139.2 L119 142"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-31"
+                d="M258.4 43.6 L271.9 35 L285.4 29.4 L298.9 29.8 L312.4 18.2 L325.9 18.6"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-32"
+                d="M228.1 62.1 L235.6 68.7 L243.1 71.3 L250.6 65.9 L258.1 76.5 L265.6 71.1"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-33"
+                d="M197.8 65 L207.3 66.4 L216.8 62.8 L226.3 59.2 L235.8 45.6 L245.3 42"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-34"
+                d="M167.5 91 L179 101.6 L190.5 94.2 L202 98.8 L213.5 115.4 L225 108"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-35"
+                d="M137.2 97.5 L150.7 89.9 L164.2 88.3 L177.7 82.7 L191.2 73.1 L204.7 71.5"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-36"
+                d="M106.9 105.3 L114.4 104.9 L121.9 107.5 L129.4 110.1 L136.9 112.7 L144.4 121.3"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-37"
+                d="M76.6 30.2 L86.1 22.6 L95.6 27 L105.1 23.4 L114.6 19.8 L124.1 8.2"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-38"
+                d="M273.6 44.8 L285.1 54.4 L296.6 49 L308.1 53.6 L319.6 58.2 L331.1 62.8"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-39"
+                d="M243.2 63.1 L256.7 51.5 L270.2 57.9 L283.7 52.3 L297.2 34.7 L310.7 29.1"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-40"
+                d="M213 90.9 L220.5 91.5 L228 98.1 L235.5 96.7 L243 99.3 L250.5 101.9"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-41"
+                d="M182.7 108.8 L192.2 102.2 L201.7 98.6 L211.2 101 L220.7 97.4 L230.2 87.8"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-fork loader-4197-fork-42"
+                d="M152.3 108.6 L163.8 109.2 L175.3 121.8 L186.8 118.4 L198.3 123 L209.8 127.6"
+                pathLength="100"
+              />
+            </g>
+            <g className="loader-4197-flames">
+              <path
+                className="loader-4197-flame loader-4197-flame-1"
+                d="M4.0 29.0 C15.2 25.0 22.0 41.5 43.9 26.0 C28.0 41.0 17.6 32.0 4.0 29.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-2"
+                d="M23.0 52.0 C31.2 46.0 36.1 52.5 52.2 49.0 C40.5 66.0 32.9 55.0 23.0 52.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-3"
+                d="M42.0 75.0 C49.6 67.0 54.2 77.0 69.1 72.0 C58.3 91.0 51.2 78.0 42.0 75.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-4"
+                d="M61.0 98.0 C70.3 88.0 75.9 103.7 94.1 95.0 C80.8 116.0 72.2 101.0 61.0 98.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-5"
+                d="M80.0 121.0 C88.1 119.0 92.9 115.9 108.8 118.0 C97.3 131.0 89.8 124.0 80.0 121.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-6"
+                d="M99.0 12.0 C109.5 8.0 115.8 17.9 136.3 9.0 C121.4 24.0 111.7 15.0 99.0 12.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-7"
+                d="M118.0 35.0 C125.8 29.0 130.5 38.5 145.7 32.0 C134.6 49.0 127.4 38.0 118.0 35.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-8"
+                d="M137.0 58.0 C147.2 50.0 153.4 62.7 173.5 55.0 C158.9 74.0 149.4 61.0 137.0 58.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-9"
+                d="M-14.0 81.0 C-5.1 71.0 0.4 90.6 17.9 78.0 C5.2 99.0 -3.1 84.0 -14.0 81.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-10"
+                d="M5.0 104.0 C12.9 102.0 17.8 107.0 33.4 101.0 C22.0 114.0 14.7 107.0 5.0 104.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-11"
+                d="M24.0 127.0 C34.4 123.0 40.7 127.7 61.1 124.0 C46.3 139.0 36.6 130.0 24.0 127.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-12"
+                d="M43.0 18.0 C51.3 12.0 56.4 33.0 72.8 15.0 C60.9 32.0 53.1 21.0 43.0 18.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-13"
+                d="M62.0 41.0 C70.2 33.0 75.2 52.8 91.2 38.0 C79.5 57.0 71.9 44.0 62.0 41.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-14"
+                d="M81.0 64.0 C88.9 54.0 93.8 82.4 109.4 61.0 C98.0 82.0 90.6 67.0 81.0 64.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-15"
+                d="M100.0 87.0 C110.6 85.0 117.1 90.1 138.0 84.0 C122.8 97.0 112.9 90.0 100.0 87.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-16"
+                d="M119.0 110.0 C125.8 106.0 129.9 109.1 143.2 107.0 C133.5 122.0 127.2 113.0 119.0 110.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-17"
+                d="M138.0 133.0 C148.4 127.0 154.8 143.2 175.3 130.0 C160.4 147.0 150.7 136.0 138.0 133.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-18"
+                d="M-13.0 24.0 C-2.6 16.0 3.7 40.7 24.0 21.0 C9.2 40.0 -0.4 27.0 -13.0 24.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-19"
+                d="M6.0 47.0 C15.7 37.0 21.6 54.5 40.8 44.0 C26.9 65.0 17.8 50.0 6.0 47.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-20"
+                d="M25.0 70.0 C32.0 68.0 36.2 67.7 49.9 67.0 C39.9 80.0 33.5 73.0 25.0 70.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-21"
+                d="M44.0 93.0 C51.6 89.0 56.2 95.0 71.2 90.0 C60.3 105.0 53.3 96.0 44.0 93.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-22"
+                d="M63.0 116.0 C70.8 110.0 75.5 114.5 90.7 113.0 C79.6 130.0 72.4 119.0 63.0 116.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-23"
+                d="M82.0 7.0 C91.7 -1.0 97.6 15.3 116.6 4.0 C102.8 23.0 93.8 10.0 82.0 7.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-24"
+                d="M101.0 30.0 C109.2 20.0 114.2 36.6 130.4 27.0 C118.6 48.0 111.0 33.0 101.0 30.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-25"
+                d="M120.0 53.0 C131.1 51.0 137.9 63.0 159.7 50.0 C143.8 63.0 133.5 56.0 120.0 53.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-26"
+                d="M139.0 76.0 C147.9 72.0 153.4 86.0 171.0 73.0 C158.2 88.0 149.9 79.0 139.0 76.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-27"
+                d="M-12.0 99.0 C-1.7 93.0 4.5 112.2 24.6 96.0 C10.0 113.0 0.5 102.0 -12.0 99.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-28"
+                d="M7.0 122.0 C17.0 114.0 23.0 125.6 42.6 119.0 C28.3 138.0 19.1 125.0 7.0 122.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-29"
+                d="M26.0 13.0 C35.4 3.0 41.0 28.7 59.4 10.0 C46.1 31.0 37.4 16.0 26.0 13.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-30"
+                d="M45.0 36.0 C52.2 34.0 56.5 31.7 70.6 33.0 C60.4 46.0 53.7 39.0 45.0 36.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-31"
+                d="M64.0 59.0 C72.5 55.0 77.7 59.6 94.5 56.0 C82.3 71.0 74.4 62.0 64.0 59.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-32"
+                d="M83.0 82.0 C94.2 76.0 101.0 91.9 122.9 79.0 C106.9 96.0 96.6 85.0 83.0 82.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-33"
+                d="M102.0 105.0 C110.6 97.0 115.8 118.6 132.7 102.0 C120.4 121.0 112.4 108.0 102.0 105.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-34"
+                d="M121.0 128.0 C129.4 118.0 134.5 130.5 151.0 125.0 C139.0 146.0 131.2 131.0 121.0 128.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-35"
+                d="M140.0 19.0 C149.7 17.0 155.6 15.9 174.8 16.0 C160.9 29.0 151.8 22.0 140.0 19.0 Z"
+              />
+              <path
+                className="loader-4197-flame loader-4197-flame-36"
+                d="M-11.0 42.0 C-0.1 38.0 6.5 46.3 27.9 39.0 C12.3 54.0 2.2 45.0 -11.0 42.0 Z"
+              />
+            </g>
+            <g className="loader-4197-filaments">
+              <path
+                className="loader-4197-filament loader-4197-filament-1"
+                d="M32 44 L37 37 L42 47 L47 32 L52 46 L57 40"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-2"
+                d="M61 81 L67.2 88 L73.4 78 L79.6 93 L85.8 79 L92 85"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-3"
+                d="M90 118 L97.4 111 L104.8 121 L112.2 106 L119.6 120 L127 114"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-4"
+                d="M119 26 L127.6 33 L136.2 23 L144.8 38 L153.4 24 L162 30"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-5"
+                d="M148 63 L157.8 56 L167.6 66 L177.4 51 L187.2 65 L197 59"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-6"
+                d="M177 100 L188 107 L199 97 L210 112 L221 98 L232 104"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-7"
+                d="M206 8 L209.8 1 L213.6 11 L217.4 -4 L221.2 10 L225 4"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-8"
+                d="M235 45 L240 52 L245 42 L250 57 L255 43 L260 49"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-9"
+                d="M264 82 L270.2 75 L276.4 85 L282.6 70 L288.8 84 L295 78"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-10"
+                d="M3 119 L10.4 126 L17.8 116 L25.2 131 L32.6 117 L40 123"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-11"
+                d="M32 27 L40.6 20 L49.2 30 L57.8 15 L66.4 29 L75 23"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-12"
+                d="M61 64 L70.8 71 L80.6 61 L90.4 76 L100.2 62 L110 68"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-13"
+                d="M90 101 L101 94 L112 104 L123 89 L134 103 L145 97"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-14"
+                d="M119 9 L122.8 16 L126.6 6 L130.4 21 L134.2 7 L138 13"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-15"
+                d="M148 46 L153 39 L158 49 L163 34 L168 48 L173 42"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-16"
+                d="M177 83 L183.2 90 L189.4 80 L195.6 95 L201.8 81 L208 87"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-17"
+                d="M206 120 L213.4 113 L220.8 123 L228.2 108 L235.6 122 L243 116"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-18"
+                d="M235 28 L243.6 35 L252.2 25 L260.8 40 L269.4 26 L278 32"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-19"
+                d="M264 65 L273.8 58 L283.6 68 L293.4 53 L303.2 67 L313 61"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-20"
+                d="M3 102 L14 109 L25 99 L36 114 L47 100 L58 106"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-21"
+                d="M32 10 L35.8 3 L39.6 13 L43.4 -2 L47.2 12 L51 6"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-22"
+                d="M61 47 L66 54 L71 44 L76 59 L81 45 L86 51"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-23"
+                d="M90 84 L96.2 77 L102.4 87 L108.6 72 L114.8 86 L121 80"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-24"
+                d="M119 121 L126.4 128 L133.8 118 L141.2 133 L148.6 119 L156 125"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-25"
+                d="M148 29 L156.6 22 L165.2 32 L173.8 17 L182.4 31 L191 25"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-26"
+                d="M177 66 L186.8 73 L196.6 63 L206.4 78 L216.2 64 L226 70"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-27"
+                d="M206 103 L217 96 L228 106 L239 91 L250 105 L261 99"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-28"
+                d="M235 11 L238.8 18 L242.6 8 L246.4 23 L250.2 9 L254 15"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-29"
+                d="M264 48 L269 41 L274 51 L279 36 L284 50 L289 44"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-30"
+                d="M3 85 L9.2 92 L15.4 82 L21.6 97 L27.8 83 L34 89"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-31"
+                d="M32 122 L39.4 115 L46.8 125 L54.2 110 L61.6 124 L69 118"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-32"
+                d="M61 30 L69.6 37 L78.2 27 L86.8 42 L95.4 28 L104 34"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-33"
+                d="M90 67 L99.8 60 L109.6 70 L119.4 55 L129.2 69 L139 63"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-34"
+                d="M119 104 L130 111 L141 101 L152 116 L163 102 L174 108"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-35"
+                d="M148 12 L151.8 5 L155.6 15 L159.4 0 L163.2 14 L167 8"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-filament loader-4197-filament-36"
+                d="M177 49 L182 56 L187 46 L192 61 L197 47 L202 53"
+                pathLength="100"
+              />
+            </g>
+            <g className="loader-4197-speed-lines">
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-1"
+                d="M-2 38 L23 38"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-2"
+                d="M21 67 L55 69"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-3"
+                d="M44 96 L87 94"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-4"
+                d="M67 125 L119 125"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-5"
+                d="M90 27 L151 29"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-6"
+                d="M113 56 L129 54"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-7"
+                d="M136 85 L161 85"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-8"
+                d="M-21 114 L13 116"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-9"
+                d="M2 16 L45 14"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-10"
+                d="M25 45 L77 45"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-11"
+                d="M48 74 L109 76"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-12"
+                d="M71 103 L87 101"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-13"
+                d="M94 132 L119 132"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-14"
+                d="M117 34 L151 36"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-15"
+                d="M140 63 L183 61"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-16"
+                d="M-17 92 L35 92"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-17"
+                d="M6 121 L67 123"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-18"
+                d="M29 23 L45 21"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-19"
+                d="M52 52 L77 52"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-20"
+                d="M75 81 L109 83"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-21"
+                d="M98 110 L141 108"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-22"
+                d="M121 12 L173 12"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-23"
+                d="M144 41 L205 43"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-24"
+                d="M-13 70 L3 68"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-25"
+                d="M10 99 L35 99"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-26"
+                d="M33 128 L67 130"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-27"
+                d="M56 30 L99 28"
+                pathLength="100"
+              />
+              <path
+                className="loader-4197-speed-line loader-4197-speed-line-28"
+                d="M79 59 L131 59"
+                pathLength="100"
+              />
+            </g>
+            <g className="loader-4197-compression">
+              <path
+                className="loader-4197-pressure loader-4197-pressure-1"
+                d="M21.0 54.6 C45.0 60.2 45.0 83.8 21.0 89.4"
+              />
+              <path
+                className="loader-4197-pressure loader-4197-pressure-2"
+                d="M24.0 50.2 C48.0 57.2 48.0 86.8 24.0 93.8"
+              />
+              <path
+                className="loader-4197-pressure loader-4197-pressure-3"
+                d="M27.0 45.8 C51.0 54.2 51.0 89.8 27.0 98.2"
+              />
+              <path
+                className="loader-4197-pressure loader-4197-pressure-4"
+                d="M30.0 41.4 C54.0 51.2 54.0 92.8 30.0 102.6"
+              />
+              <path
+                className="loader-4197-pressure loader-4197-pressure-5"
+                d="M33.0 37.0 C57.0 48.2 57.0 95.8 33.0 107.0"
+              />
+              <path
+                className="loader-4197-pressure loader-4197-pressure-6"
+                d="M36.0 32.6 C60.0 45.2 60.0 98.8 36.0 111.4"
+              />
+              <path
+                className="loader-4197-pressure loader-4197-pressure-7"
+                d="M39.0 28.2 C63.0 42.2 63.0 101.8 39.0 115.8"
+              />
+              <path
+                className="loader-4197-pressure loader-4197-pressure-8"
+                d="M42.0 23.8 C66.0 39.2 66.0 104.8 42.0 120.2"
+              />
+              <path
+                className="loader-4197-pressure loader-4197-pressure-9"
+                d="M45.0 19.4 C69.0 36.2 69.0 107.8 45.0 124.6"
+              />
+              <path
+                className="loader-4197-pressure loader-4197-pressure-10"
+                d="M48.0 15.0 C72.0 33.2 72.0 110.8 48.0 129.0"
+              />
+            </g>
+            <g className="loader-4197-impact">
+              <ellipse
+                className="loader-4197-impact-ring loader-4197-impact-ring-1"
+                cx="327"
+                cy="72"
+                rx="7"
+                ry="12"
+              />
+              <ellipse
+                className="loader-4197-impact-ring loader-4197-impact-ring-2"
+                cx="327"
+                cy="72"
+                rx="14"
+                ry="23"
+              />
+              <ellipse
+                className="loader-4197-impact-ring loader-4197-impact-ring-3"
+                cx="327"
+                cy="72"
+                rx="22"
+                ry="34"
+              />
+              <ellipse
+                className="loader-4197-impact-ring loader-4197-impact-ring-4"
+                cx="327"
+                cy="72"
+                rx="31"
+                ry="47"
+              />
+              <ellipse
+                className="loader-4197-impact-ring loader-4197-impact-ring-5"
+                cx="327"
+                cy="72"
+                rx="42"
+                ry="59"
+              />
+              <ellipse
+                className="loader-4197-impact-ring loader-4197-impact-ring-6"
+                cx="327"
+                cy="72"
+                rx="51"
+                ry="70"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-1"
+                d="M336.0 72.0 L349.0 72.0 L367.0 72.0"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-2"
+                d="M335.7 74.1 L350.2 77.7 L368.5 82.2"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-3"
+                d="M334.8 76.1 L349.5 84.0 L366.8 93.2"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-4"
+                d="M333.4 77.9 L341.1 85.0 L361.6 103.9"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-5"
+                d="M331.5 79.2 L338.0 89.5 L345.5 101.5"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-6"
+                d="M329.3 80.0 L333.2 93.3 L337.4 107.5"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-7"
+                d="M327.0 80.3 L327.0 95.9 L327.0 111.6"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-8"
+                d="M324.7 80.0 L321.8 89.8 L315.1 112.9"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-9"
+                d="M322.5 79.2 L316.0 89.5 L302.5 111.0"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-10"
+                d="M320.6 77.9 L310.0 87.6 L300.8 96.1"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-11"
+                d="M319.2 76.1 L304.5 84.0 L292.4 90.4"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-12"
+                d="M318.3 74.1 L307.7 76.8 L285.5 82.2"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-13"
+                d="M318.0 72.0 L305.0 72.0 L281.0 72.0"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-14"
+                d="M318.3 69.9 L303.8 66.3 L279.7 60.3"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-15"
+                d="M319.2 67.9 L304.5 60.0 L295.0 55.0"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-16"
+                d="M320.6 66.1 L312.9 59.0 L298.7 46.0"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-17"
+                d="M322.5 64.8 L316.0 54.5 L305.5 37.7"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-18"
+                d="M324.7 64.0 L320.8 50.7 L315.1 31.1"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-19"
+                d="M327.0 63.7 L327.0 48.1 L327.0 26.9"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-20"
+                d="M329.3 64.0 L332.2 54.2 L336.6 39.1"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-21"
+                d="M331.5 64.8 L338.0 54.5 L347.0 40.1"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-22"
+                d="M333.4 66.1 L344.0 56.4 L357.4 44.0"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-23"
+                d="M334.8 67.9 L349.5 60.0 L366.8 50.8"
+              />
+              <path
+                className="loader-4197-impact-spike loader-4197-impact-spike-24"
+                d="M335.7 69.9 L346.3 67.2 L374.3 60.3"
+              />
+            </g>
+            <g className="loader-4197-cinders">
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-1"
+                cx="-52"
+                cy="46"
+                r="1.25"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-2"
+                cx="-69"
+                cy="89"
+                r="1.6"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-3"
+                cx="-86"
+                cy="132"
+                r="1.95"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-4"
+                cx="-103"
+                cy="39"
+                r="2.3"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-5"
+                cx="-35"
+                cy="82"
+                r="0.9"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-6"
+                cx="-52"
+                cy="125"
+                r="1.25"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-7"
+                cx="-69"
+                cy="32"
+                r="1.6"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-8"
+                cx="-86"
+                cy="75"
+                r="1.95"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-9"
+                cx="-103"
+                cy="118"
+                r="2.3"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-10"
+                cx="-35"
+                cy="25"
+                r="0.9"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-11"
+                cx="-52"
+                cy="68"
+                r="1.25"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-12"
+                cx="-69"
+                cy="111"
+                r="1.6"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-13"
+                cx="-86"
+                cy="18"
+                r="1.95"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-14"
+                cx="-103"
+                cy="61"
+                r="2.3"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-15"
+                cx="-35"
+                cy="104"
+                r="0.9"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-16"
+                cx="-52"
+                cy="11"
+                r="1.25"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-17"
+                cx="-69"
+                cy="54"
+                r="1.6"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-18"
+                cx="-86"
+                cy="97"
+                r="1.95"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-19"
+                cx="-103"
+                cy="4"
+                r="2.3"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-20"
+                cx="-35"
+                cy="47"
+                r="0.9"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-21"
+                cx="-52"
+                cy="90"
+                r="1.25"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-22"
+                cx="-69"
+                cy="133"
+                r="1.6"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-23"
+                cx="-86"
+                cy="40"
+                r="1.95"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-24"
+                cx="-103"
+                cy="83"
+                r="2.3"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-25"
+                cx="-35"
+                cy="126"
+                r="0.9"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-26"
+                cx="-52"
+                cy="33"
+                r="1.25"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-27"
+                cx="-69"
+                cy="76"
+                r="1.6"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-28"
+                cx="-86"
+                cy="119"
+                r="1.95"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-29"
+                cx="-103"
+                cy="26"
+                r="2.3"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-30"
+                cx="-35"
+                cy="69"
+                r="0.9"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-31"
+                cx="-52"
+                cy="112"
+                r="1.25"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-32"
+                cx="-69"
+                cy="19"
+                r="1.6"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-33"
+                cx="-86"
+                cy="62"
+                r="1.95"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-34"
+                cx="-103"
+                cy="105"
+                r="2.3"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-35"
+                cx="-35"
+                cy="12"
+                r="0.9"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-36"
+                cx="-52"
+                cy="55"
+                r="1.25"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-37"
+                cx="-69"
+                cy="98"
+                r="1.6"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-38"
+                cx="-86"
+                cy="5"
+                r="1.95"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-39"
+                cx="-103"
+                cy="48"
+                r="2.3"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-40"
+                cx="-35"
+                cy="91"
+                r="0.9"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-41"
+                cx="-52"
+                cy="134"
+                r="1.25"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-42"
+                cx="-69"
+                cy="41"
+                r="1.6"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-43"
+                cx="-86"
+                cy="84"
+                r="1.95"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-44"
+                cx="-103"
+                cy="127"
+                r="2.3"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-45"
+                cx="-35"
+                cy="34"
+                r="0.9"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-46"
+                cx="-52"
+                cy="77"
+                r="1.25"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-47"
+                cx="-69"
+                cy="120"
+                r="1.6"
+              />
+              <circle
+                className="loader-4197-cinder loader-4197-cinder-48"
+                cx="-86"
+                cy="27"
+                r="1.95"
+              />
+            </g>
+            <g className="loader-4197-debris">
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-1"
+                d="M316 50 L319 44 L322 51 L318 56 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-2"
+                d="M327 91 L331 84 L334 92 L329 98 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-3"
+                d="M338 132 L340 124 L343 133 L340 140 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-4"
+                d="M349 46 L352 37 L355 47 L351 55 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-5"
+                d="M312 87 L316 77 L319 88 L314 97 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-6"
+                d="M323 128 L325 123 L328 129 L325 133 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-7"
+                d="M334 42 L337 36 L340 43 L336 48 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-8"
+                d="M345 83 L349 76 L352 84 L347 90 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-9"
+                d="M308 124 L310 116 L313 125 L310 132 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-10"
+                d="M319 38 L322 29 L325 39 L321 47 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-11"
+                d="M330 79 L334 69 L337 80 L332 89 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-12"
+                d="M341 120 L343 115 L346 121 L343 125 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-13"
+                d="M352 34 L355 28 L358 35 L354 40 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-14"
+                d="M315 75 L319 68 L322 76 L317 82 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-15"
+                d="M326 116 L328 108 L331 117 L328 124 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-16"
+                d="M337 30 L340 21 L343 31 L339 39 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-17"
+                d="M348 71 L352 61 L355 72 L350 81 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-18"
+                d="M311 112 L313 107 L316 113 L313 117 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-19"
+                d="M322 26 L325 20 L328 27 L324 32 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-20"
+                d="M333 67 L337 60 L340 68 L335 74 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-21"
+                d="M344 108 L346 100 L349 109 L346 116 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-22"
+                d="M307 22 L310 13 L313 23 L309 31 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-23"
+                d="M318 63 L322 53 L325 64 L320 73 Z"
+              />
+              <path
+                className="loader-4197-debris-piece loader-4197-debris-piece-24"
+                d="M329 104 L331 99 L334 105 L331 109 Z"
+              />
+            </g>
+          </svg>
+          <span className="loader-4197-cast-overheat"></span>
+          <span className="loader-4197-inferno-flare"></span>
+          <span className="loader-4197-progress-track">
+            <span className="loader-4197-progress-beam"></span>
+          </span>
+          <span className="loader-4197-label">IGNITING</span>
+        </div>
+      </div>
+    ),
+    html: `<div class="loader-4197" role="status" aria-label="Laden">
+    <div class="loader-4197-shell" aria-hidden="true">
+        <span class="loader-4197-ambient loader-4197-ambient-1"></span>
+        <span class="loader-4197-ambient loader-4197-ambient-2"></span>
+        <span class="loader-4197-ambient loader-4197-ambient-3"></span>
+        <span class="loader-4197-ambient loader-4197-ambient-4"></span>
+        <span class="loader-4197-ignition-flash"></span>
+        <span class="loader-4197-impact-light"></span>
+        <svg viewBox="0 0 360 145" preserveAspectRatio="xMidYMid meet" focusable="false">
+            <defs>
+                <linearGradient id="loader4197Plasma" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#7f1d1d" stop-opacity=".1" />
+                    <stop offset="15%" stop-color="#dc2626" stop-opacity=".8" />
+                    <stop offset="42%" stop-color="#fb923c" stop-opacity="1" />
+                    <stop offset="64%" stop-color="#fff7ed" stop-opacity="1" />
+                    <stop offset="81%" stop-color="#fde68a" stop-opacity="1" />
+                    <stop offset="100%" stop-color="#ef4444" stop-opacity=".65" />
+                </linearGradient>
+                <linearGradient id="loader4197Branch" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#991b1b" stop-opacity=".1" />
+                    <stop offset="25%" stop-color="#ef4444" stop-opacity=".8" />
+                    <stop offset="65%" stop-color="#f97316" stop-opacity="1" />
+                    <stop offset="88%" stop-color="#fed7aa" stop-opacity="1" />
+                    <stop offset="100%" stop-color="#fef3c7" stop-opacity=".4" />
+                </linearGradient>
+                <linearGradient id="loader4197Flame" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#450a0a" stop-opacity="0" />
+                    <stop offset="22%" stop-color="#b91c1c" stop-opacity=".75" />
+                    <stop offset="51%" stop-color="#ea580c" stop-opacity=".9" />
+                    <stop offset="75%" stop-color="#f97316" stop-opacity="1" />
+                    <stop offset="100%" stop-color="#fde68a" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="loader4197Heat" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#7f1d1d" stop-opacity="0" />
+                    <stop offset="43%" stop-color="#dc2626" stop-opacity=".4" />
+                    <stop offset="77%" stop-color="#f97316" stop-opacity=".8" />
+                    <stop offset="100%" stop-color="#fef3c7" stop-opacity=".1" />
+                </linearGradient>
+                <filter id="loader4197SoftBlur" x="-60%" y="-200%" width="220%" height="500%">
+                    <feGaussianBlur stdDeviation="5" />
+                </filter>
+                <filter id="loader4197EmberBlur" x="-60%" y="-200%" width="220%" height="500%">
+                    <feGaussianBlur stdDeviation="2.1" />
+                </filter>
+            </defs>
+            <g class="loader-4197-heat-map">
+                <path d="M-20 13.0 C56 10.0 116 16.0 181 13.0 S295 10.0 382 13.0" />
+                <path d="M-20 23.3 C56 25.4 116 21.2 181 23.3 S295 25.4 382 23.3" />
+                <path d="M-20 33.6 C56 35.6 116 31.6 181 33.6 S295 35.6 382 33.6" />
+                <path d="M-20 43.9 C56 42.4 116 45.4 181 43.9 S295 42.4 382 43.9" />
+                <path d="M-20 54.2 C56 54.5 116 53.9 181 54.2 S295 54.5 382 54.2" />
+                <path d="M-20 64.5 C56 70.5 116 58.5 181 64.5 S295 70.5 382 64.5" />
+                <path d="M-20 74.8 C56 71.7 116 77.9 181 74.8 S295 71.7 382 74.8" />
+                <path d="M-20 85.1 C56 90.5 116 79.7 181 85.1 S295 90.5 382 85.1" />
+                <path d="M-20 95.4 C56 99.7 116 91.1 181 95.4 S295 99.7 382 95.4" />
+                <path d="M-20 105.7 C56 106.5 116 104.9 181 105.7 S295 106.5 382 105.7" />
+                <path d="M-20 116.0 C56 122.5 116 109.5 181 116.0 S295 122.5 382 116.0" />
+                <path d="M-20 126.3 C56 119.8 116 132.8 181 126.3 S295 119.8 382 126.3" />
+            </g>
+            <g class="loader-4197-charge-halo">
+                <ellipse class="loader-4197-charge-ring loader-4197-charge-ring-1" cx="36" cy="72" rx="11" ry="19" />
+                <ellipse class="loader-4197-charge-ring loader-4197-charge-ring-2" cx="36" cy="72" rx="21" ry="31" />
+                <ellipse class="loader-4197-charge-ring loader-4197-charge-ring-3" cx="36" cy="72" rx="32" ry="44" />
+                <ellipse class="loader-4197-charge-ring loader-4197-charge-ring-4" cx="36" cy="72" rx="42" ry="58" />
+                <ellipse class="loader-4197-charge-ring loader-4197-charge-ring-5" cx="36" cy="72" rx="53" ry="67" />
+                <path class="loader-4197-charge-prong loader-4197-charge-prong-1" d="M14 21 L26 16 L39 21" />
+                <path class="loader-4197-charge-prong loader-4197-charge-prong-2" d="M14 32 L26 37 L39 32" />
+                <path class="loader-4197-charge-prong loader-4197-charge-prong-3" d="M14 43 L26 38 L39 43" />
+                <path class="loader-4197-charge-prong loader-4197-charge-prong-4" d="M14 54 L26 59 L39 54" />
+                <path class="loader-4197-charge-prong loader-4197-charge-prong-5" d="M14 65 L26 60 L39 65" />
+                <path class="loader-4197-charge-prong loader-4197-charge-prong-6" d="M14 76 L26 81 L39 76" />
+                <path class="loader-4197-charge-prong loader-4197-charge-prong-7" d="M14 87 L26 82 L39 87" />
+                <path class="loader-4197-charge-prong loader-4197-charge-prong-8" d="M14 98 L26 103 L39 98" />
+                <path class="loader-4197-charge-prong loader-4197-charge-prong-9" d="M14 109 L26 104 L39 109" />
+                <path class="loader-4197-charge-prong loader-4197-charge-prong-10" d="M14 120 L26 125 L39 120" />
+            </g>
+            <g class="loader-4197-corona" filter="url(#loader4197SoftBlur)">
+                <path class="loader-4197-corona-path loader-4197-corona-path-1" d="M16 40 L31.1 33.5 L46.3 47.9 L61.5 49.9 L76.6 30.2 L91.8 48.7 L106.9 31.3 L122 50.6 L137.2 43.7 L152.3 30.7 L167.5 49.5 L182.7 49.7 L197.8 31 L213 44.8 L228.1 31 L243.2 31.9 L258.4 43.6 L273.6 34.8 L288.7 44.9 L303.9 36.8 L319 46.7 L334.2 47.7 L349.3 40" pathLength="100" />
+                <path class="loader-4197-corona-path loader-4197-corona-path-2" d="M16 55 L31.1 45.9 L46.3 63.3 L61.5 63.6 L76.6 60.7 L91.8 50 L106.9 64.4 L122 48.6 L137.2 63.5 L152.3 59.7 L167.5 46.1 L182.7 65.6 L197.8 47.5 L213 59.1 L228.1 62.1 L243.2 50.7 L258.4 51 L273.6 44.8 L288.7 48.1 L303.9 45.2 L319 58.1 L334.2 50.4 L349.3 55" pathLength="100" />
+                <path class="loader-4197-corona-path loader-4197-corona-path-3" d="M16 71 L31.1 62.8 L46.3 66.5 L61.5 65 L76.6 66.3 L91.8 79.8 L106.9 62.9 L122 78.7 L137.2 78 L152.3 62.6 L167.5 74.3 L182.7 64.1 L197.8 65 L213 63.6 L228.1 67.9 L243.2 63.1 L258.4 79.8 L273.6 79.9 L288.7 66.1 L303.9 74.9 L319 64 L334.2 76.3 L349.3 71" pathLength="100" />
+                <path class="loader-4197-corona-path loader-4197-corona-path-4" d="M16 87 L31.1 81.4 L46.3 97.3 L61.5 78.5 L76.6 82.5 L91.8 79.3 L106.9 90.7 L122 97.4 L137.2 97.3 L152.3 83.3 L167.5 91 L182.7 93.9 L197.8 83.7 L213 90.9 L228.1 78.6 L243.2 78.7 L258.4 95 L273.6 96.8 L288.7 96.2 L303.9 80.4 L319 81.5 L334.2 93 L349.3 87" pathLength="100" />
+                <path class="loader-4197-corona-path loader-4197-corona-path-5" d="M16 103 L31.1 92.2 L46.3 113.3 L61.5 98.2 L76.6 108.1 L91.8 108.3 L106.9 107.3 L122 107.1 L137.2 97.5 L152.3 110.6 L167.5 110.9 L182.7 108.8 L197.8 92.9 L213 111.4 L228.1 96.6 L243.2 96.9 L258.4 98.5 L273.6 95.1 L288.7 92.5 L303.9 92.5 L319 109.4 L334.2 94 L349.3 103" pathLength="100" />
+                <path class="loader-4197-corona-path loader-4197-corona-path-6" d="M16 116 L31.1 105.5 L46.3 111.6 L61.5 122.8 L76.6 109.8 L91.8 110.4 L106.9 105.3 L122 126 L137.2 124.1 L152.3 108.6 L167.5 107.1 L182.7 109.9 L197.8 119.9 L213 112.7 L228.1 110 L243.2 110.4 L258.4 110.9 L273.6 123.1 L288.7 119.7 L303.9 110.8 L319 112.4 L334.2 126.2 L349.3 116" pathLength="100" />
+            </g>
+            <g class="loader-4197-plasma">
+                <path class="loader-4197-plasma-path loader-4197-plasma-path-1" d="M16 40 L31.1 33.5 L46.3 47.9 L61.5 49.9 L76.6 30.2 L91.8 48.7 L106.9 31.3 L122 50.6 L137.2 43.7 L152.3 30.7 L167.5 49.5 L182.7 49.7 L197.8 31 L213 44.8 L228.1 31 L243.2 31.9 L258.4 43.6 L273.6 34.8 L288.7 44.9 L303.9 36.8 L319 46.7 L334.2 47.7 L349.3 40" pathLength="100" />
+                <path class="loader-4197-plasma-path loader-4197-plasma-path-2" d="M16 55 L31.1 45.9 L46.3 63.3 L61.5 63.6 L76.6 60.7 L91.8 50 L106.9 64.4 L122 48.6 L137.2 63.5 L152.3 59.7 L167.5 46.1 L182.7 65.6 L197.8 47.5 L213 59.1 L228.1 62.1 L243.2 50.7 L258.4 51 L273.6 44.8 L288.7 48.1 L303.9 45.2 L319 58.1 L334.2 50.4 L349.3 55" pathLength="100" />
+                <path class="loader-4197-plasma-path loader-4197-plasma-path-3" d="M16 71 L31.1 62.8 L46.3 66.5 L61.5 65 L76.6 66.3 L91.8 79.8 L106.9 62.9 L122 78.7 L137.2 78 L152.3 62.6 L167.5 74.3 L182.7 64.1 L197.8 65 L213 63.6 L228.1 67.9 L243.2 63.1 L258.4 79.8 L273.6 79.9 L288.7 66.1 L303.9 74.9 L319 64 L334.2 76.3 L349.3 71" pathLength="100" />
+                <path class="loader-4197-plasma-path loader-4197-plasma-path-4" d="M16 87 L31.1 81.4 L46.3 97.3 L61.5 78.5 L76.6 82.5 L91.8 79.3 L106.9 90.7 L122 97.4 L137.2 97.3 L152.3 83.3 L167.5 91 L182.7 93.9 L197.8 83.7 L213 90.9 L228.1 78.6 L243.2 78.7 L258.4 95 L273.6 96.8 L288.7 96.2 L303.9 80.4 L319 81.5 L334.2 93 L349.3 87" pathLength="100" />
+                <path class="loader-4197-plasma-path loader-4197-plasma-path-5" d="M16 103 L31.1 92.2 L46.3 113.3 L61.5 98.2 L76.6 108.1 L91.8 108.3 L106.9 107.3 L122 107.1 L137.2 97.5 L152.3 110.6 L167.5 110.9 L182.7 108.8 L197.8 92.9 L213 111.4 L228.1 96.6 L243.2 96.9 L258.4 98.5 L273.6 95.1 L288.7 92.5 L303.9 92.5 L319 109.4 L334.2 94 L349.3 103" pathLength="100" />
+                <path class="loader-4197-plasma-path loader-4197-plasma-path-6" d="M16 116 L31.1 105.5 L46.3 111.6 L61.5 122.8 L76.6 109.8 L91.8 110.4 L106.9 105.3 L122 126 L137.2 124.1 L152.3 108.6 L167.5 107.1 L182.7 109.9 L197.8 119.9 L213 112.7 L228.1 110 L243.2 110.4 L258.4 110.9 L273.6 123.1 L288.7 119.7 L303.9 110.8 L319 112.4 L334.2 126.2 L349.3 116" pathLength="100" />
+            </g>
+            <g class="loader-4197-forks">
+                <path class="loader-4197-fork loader-4197-fork-1" d="M258.4 43.6 L267.9 43 L277.4 39.4 L286.9 35.8 L296.4 32.2 L305.9 22.6" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-2" d="M228.1 62.1 L239.6 62.7 L251.1 67.3 L262.6 79.9 L274.1 76.5 L285.6 81.1" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-3" d="M197.8 65 L211.3 54.4 L224.8 58.8 L238.3 53.2 L251.8 47.6 L265.3 32" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-4" d="M167.5 91 L175 99.6 L182.5 102.2 L190 104.8 L197.5 95.4 L205 110" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-5" d="M137.2 97.5 L146.7 91.9 L156.2 92.3 L165.7 88.7 L175.2 85.1 L184.7 81.5" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-6" d="M106.9 105.3 L118.4 112.9 L129.9 111.5 L141.4 116.1 L152.9 126.7 L164.4 125.3" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-7" d="M76.6 30.2 L90.1 28.6 L103.6 15 L117.1 17.4 L130.6 3.8 L144.1 3" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-8" d="M273.6 44.8 L281.1 52.4 L288.6 55 L296.1 47.6 L303.6 50.2 L311.1 62.8" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-9" d="M243.2 63.1 L252.7 65.5 L262.2 49.9 L271.7 46.3 L281.2 54.7 L290.7 39.1" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-10" d="M213 90.9 L224.5 97.5 L236 98.1 L247.5 102.7 L259 111.3 L270.5 111.9" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-11" d="M182.7 108.8 L196.2 106.2 L209.7 94.6 L223.2 89 L236.7 83.4 L250.2 77.8" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-12" d="M152.3 108.6 L159.8 115.2 L167.3 117.8 L174.8 120.4 L182.3 115 L189.8 117.6" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-13" d="M122 50.6 L131.5 42 L141 48.4 L150.5 34.8 L160 31.2 L169.5 27.6" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-14" d="M91.8 50 L103.3 60.6 L114.8 53.2 L126.3 57.8 L137.8 74.4 L149.3 79" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-15" d="M61.5 65 L75 57.4 L88.5 55.8 L102 50.2 L115.5 44.6 L129 35" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-16" d="M258.4 95 L265.9 94.6 L273.4 103.2 L280.9 105.8 L288.4 108.4 L295.9 105" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-17" d="M228.1 96.6 L237.6 97 L247.1 85.4 L256.6 89.8 L266.1 86.2 L275.6 74.6" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-18" d="M197.8 119.9 L209.3 129.5 L220.8 134.1 L232.3 128.7 L243.8 133.3 L255.3 142" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-19" d="M167.5 49.5 L181 37.9 L194.5 44.3 L208 26.7 L221.5 21.1 L235 27.5" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-20" d="M137.2 63.5 L144.7 68.1 L152.2 70.7 L159.7 73.3 L167.2 75.9 L174.7 74.5" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-21" d="M106.9 62.9 L116.4 56.3 L125.9 52.7 L135.4 49.1 L144.9 51.5 L154.4 47.9" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-22" d="M76.6 82.5 L88.1 91.1 L99.6 95.7 L111.1 92.3 L122.6 104.9 L134.1 101.5" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-23" d="M273.6 95.1 L287.1 94.5 L300.6 88.9 L314.1 73.3 L327.6 67.7 L341.1 62.1" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-24" d="M243.2 110.4 L250.7 107 L258.2 121.6 L265.7 112.2 L273.2 126.8 L280.7 117.4" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-25" d="M213 44.8 L222.5 43.2 L232 35.6 L241.5 32 L251 28.4 L260.5 24.8" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-26" d="M182.7 65.6 L194.2 73.2 L205.7 71.8 L217.2 82.4 L228.7 81 L240.2 91.6" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-27" d="M152.3 62.6 L165.8 61 L179.3 55.4 L192.8 41.8 L206.3 36.2 L219.8 38.6" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-28" d="M122 97.4 L129.5 95 L137 97.6 L144.5 110.2 L152 112.8 L159.5 105.4" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-29" d="M91.8 108.3 L101.3 110.7 L110.8 95.1 L120.3 103.5 L129.8 87.9 L139.3 84.3" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-30" d="M61.5 122.8 L73 125.4 L84.5 130 L96 134.6 L107.5 139.2 L119 142" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-31" d="M258.4 43.6 L271.9 35 L285.4 29.4 L298.9 29.8 L312.4 18.2 L325.9 18.6" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-32" d="M228.1 62.1 L235.6 68.7 L243.1 71.3 L250.6 65.9 L258.1 76.5 L265.6 71.1" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-33" d="M197.8 65 L207.3 66.4 L216.8 62.8 L226.3 59.2 L235.8 45.6 L245.3 42" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-34" d="M167.5 91 L179 101.6 L190.5 94.2 L202 98.8 L213.5 115.4 L225 108" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-35" d="M137.2 97.5 L150.7 89.9 L164.2 88.3 L177.7 82.7 L191.2 73.1 L204.7 71.5" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-36" d="M106.9 105.3 L114.4 104.9 L121.9 107.5 L129.4 110.1 L136.9 112.7 L144.4 121.3" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-37" d="M76.6 30.2 L86.1 22.6 L95.6 27 L105.1 23.4 L114.6 19.8 L124.1 8.2" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-38" d="M273.6 44.8 L285.1 54.4 L296.6 49 L308.1 53.6 L319.6 58.2 L331.1 62.8" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-39" d="M243.2 63.1 L256.7 51.5 L270.2 57.9 L283.7 52.3 L297.2 34.7 L310.7 29.1" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-40" d="M213 90.9 L220.5 91.5 L228 98.1 L235.5 96.7 L243 99.3 L250.5 101.9" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-41" d="M182.7 108.8 L192.2 102.2 L201.7 98.6 L211.2 101 L220.7 97.4 L230.2 87.8" pathLength="100" />
+                <path class="loader-4197-fork loader-4197-fork-42" d="M152.3 108.6 L163.8 109.2 L175.3 121.8 L186.8 118.4 L198.3 123 L209.8 127.6" pathLength="100" />
+            </g>
+            <g class="loader-4197-flames">
+                <path class="loader-4197-flame loader-4197-flame-1" d="M4.0 29.0 C15.2 25.0 22.0 41.5 43.9 26.0 C28.0 41.0 17.6 32.0 4.0 29.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-2" d="M23.0 52.0 C31.2 46.0 36.1 52.5 52.2 49.0 C40.5 66.0 32.9 55.0 23.0 52.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-3" d="M42.0 75.0 C49.6 67.0 54.2 77.0 69.1 72.0 C58.3 91.0 51.2 78.0 42.0 75.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-4" d="M61.0 98.0 C70.3 88.0 75.9 103.7 94.1 95.0 C80.8 116.0 72.2 101.0 61.0 98.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-5" d="M80.0 121.0 C88.1 119.0 92.9 115.9 108.8 118.0 C97.3 131.0 89.8 124.0 80.0 121.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-6" d="M99.0 12.0 C109.5 8.0 115.8 17.9 136.3 9.0 C121.4 24.0 111.7 15.0 99.0 12.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-7" d="M118.0 35.0 C125.8 29.0 130.5 38.5 145.7 32.0 C134.6 49.0 127.4 38.0 118.0 35.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-8" d="M137.0 58.0 C147.2 50.0 153.4 62.7 173.5 55.0 C158.9 74.0 149.4 61.0 137.0 58.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-9" d="M-14.0 81.0 C-5.1 71.0 0.4 90.6 17.9 78.0 C5.2 99.0 -3.1 84.0 -14.0 81.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-10" d="M5.0 104.0 C12.9 102.0 17.8 107.0 33.4 101.0 C22.0 114.0 14.7 107.0 5.0 104.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-11" d="M24.0 127.0 C34.4 123.0 40.7 127.7 61.1 124.0 C46.3 139.0 36.6 130.0 24.0 127.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-12" d="M43.0 18.0 C51.3 12.0 56.4 33.0 72.8 15.0 C60.9 32.0 53.1 21.0 43.0 18.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-13" d="M62.0 41.0 C70.2 33.0 75.2 52.8 91.2 38.0 C79.5 57.0 71.9 44.0 62.0 41.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-14" d="M81.0 64.0 C88.9 54.0 93.8 82.4 109.4 61.0 C98.0 82.0 90.6 67.0 81.0 64.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-15" d="M100.0 87.0 C110.6 85.0 117.1 90.1 138.0 84.0 C122.8 97.0 112.9 90.0 100.0 87.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-16" d="M119.0 110.0 C125.8 106.0 129.9 109.1 143.2 107.0 C133.5 122.0 127.2 113.0 119.0 110.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-17" d="M138.0 133.0 C148.4 127.0 154.8 143.2 175.3 130.0 C160.4 147.0 150.7 136.0 138.0 133.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-18" d="M-13.0 24.0 C-2.6 16.0 3.7 40.7 24.0 21.0 C9.2 40.0 -0.4 27.0 -13.0 24.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-19" d="M6.0 47.0 C15.7 37.0 21.6 54.5 40.8 44.0 C26.9 65.0 17.8 50.0 6.0 47.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-20" d="M25.0 70.0 C32.0 68.0 36.2 67.7 49.9 67.0 C39.9 80.0 33.5 73.0 25.0 70.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-21" d="M44.0 93.0 C51.6 89.0 56.2 95.0 71.2 90.0 C60.3 105.0 53.3 96.0 44.0 93.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-22" d="M63.0 116.0 C70.8 110.0 75.5 114.5 90.7 113.0 C79.6 130.0 72.4 119.0 63.0 116.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-23" d="M82.0 7.0 C91.7 -1.0 97.6 15.3 116.6 4.0 C102.8 23.0 93.8 10.0 82.0 7.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-24" d="M101.0 30.0 C109.2 20.0 114.2 36.6 130.4 27.0 C118.6 48.0 111.0 33.0 101.0 30.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-25" d="M120.0 53.0 C131.1 51.0 137.9 63.0 159.7 50.0 C143.8 63.0 133.5 56.0 120.0 53.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-26" d="M139.0 76.0 C147.9 72.0 153.4 86.0 171.0 73.0 C158.2 88.0 149.9 79.0 139.0 76.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-27" d="M-12.0 99.0 C-1.7 93.0 4.5 112.2 24.6 96.0 C10.0 113.0 0.5 102.0 -12.0 99.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-28" d="M7.0 122.0 C17.0 114.0 23.0 125.6 42.6 119.0 C28.3 138.0 19.1 125.0 7.0 122.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-29" d="M26.0 13.0 C35.4 3.0 41.0 28.7 59.4 10.0 C46.1 31.0 37.4 16.0 26.0 13.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-30" d="M45.0 36.0 C52.2 34.0 56.5 31.7 70.6 33.0 C60.4 46.0 53.7 39.0 45.0 36.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-31" d="M64.0 59.0 C72.5 55.0 77.7 59.6 94.5 56.0 C82.3 71.0 74.4 62.0 64.0 59.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-32" d="M83.0 82.0 C94.2 76.0 101.0 91.9 122.9 79.0 C106.9 96.0 96.6 85.0 83.0 82.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-33" d="M102.0 105.0 C110.6 97.0 115.8 118.6 132.7 102.0 C120.4 121.0 112.4 108.0 102.0 105.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-34" d="M121.0 128.0 C129.4 118.0 134.5 130.5 151.0 125.0 C139.0 146.0 131.2 131.0 121.0 128.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-35" d="M140.0 19.0 C149.7 17.0 155.6 15.9 174.8 16.0 C160.9 29.0 151.8 22.0 140.0 19.0 Z" />
+                <path class="loader-4197-flame loader-4197-flame-36" d="M-11.0 42.0 C-0.1 38.0 6.5 46.3 27.9 39.0 C12.3 54.0 2.2 45.0 -11.0 42.0 Z" />
+            </g>
+            <g class="loader-4197-filaments">
+                <path class="loader-4197-filament loader-4197-filament-1" d="M32 44 L37 37 L42 47 L47 32 L52 46 L57 40" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-2" d="M61 81 L67.2 88 L73.4 78 L79.6 93 L85.8 79 L92 85" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-3" d="M90 118 L97.4 111 L104.8 121 L112.2 106 L119.6 120 L127 114" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-4" d="M119 26 L127.6 33 L136.2 23 L144.8 38 L153.4 24 L162 30" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-5" d="M148 63 L157.8 56 L167.6 66 L177.4 51 L187.2 65 L197 59" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-6" d="M177 100 L188 107 L199 97 L210 112 L221 98 L232 104" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-7" d="M206 8 L209.8 1 L213.6 11 L217.4 -4 L221.2 10 L225 4" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-8" d="M235 45 L240 52 L245 42 L250 57 L255 43 L260 49" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-9" d="M264 82 L270.2 75 L276.4 85 L282.6 70 L288.8 84 L295 78" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-10" d="M3 119 L10.4 126 L17.8 116 L25.2 131 L32.6 117 L40 123" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-11" d="M32 27 L40.6 20 L49.2 30 L57.8 15 L66.4 29 L75 23" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-12" d="M61 64 L70.8 71 L80.6 61 L90.4 76 L100.2 62 L110 68" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-13" d="M90 101 L101 94 L112 104 L123 89 L134 103 L145 97" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-14" d="M119 9 L122.8 16 L126.6 6 L130.4 21 L134.2 7 L138 13" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-15" d="M148 46 L153 39 L158 49 L163 34 L168 48 L173 42" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-16" d="M177 83 L183.2 90 L189.4 80 L195.6 95 L201.8 81 L208 87" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-17" d="M206 120 L213.4 113 L220.8 123 L228.2 108 L235.6 122 L243 116" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-18" d="M235 28 L243.6 35 L252.2 25 L260.8 40 L269.4 26 L278 32" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-19" d="M264 65 L273.8 58 L283.6 68 L293.4 53 L303.2 67 L313 61" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-20" d="M3 102 L14 109 L25 99 L36 114 L47 100 L58 106" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-21" d="M32 10 L35.8 3 L39.6 13 L43.4 -2 L47.2 12 L51 6" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-22" d="M61 47 L66 54 L71 44 L76 59 L81 45 L86 51" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-23" d="M90 84 L96.2 77 L102.4 87 L108.6 72 L114.8 86 L121 80" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-24" d="M119 121 L126.4 128 L133.8 118 L141.2 133 L148.6 119 L156 125" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-25" d="M148 29 L156.6 22 L165.2 32 L173.8 17 L182.4 31 L191 25" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-26" d="M177 66 L186.8 73 L196.6 63 L206.4 78 L216.2 64 L226 70" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-27" d="M206 103 L217 96 L228 106 L239 91 L250 105 L261 99" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-28" d="M235 11 L238.8 18 L242.6 8 L246.4 23 L250.2 9 L254 15" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-29" d="M264 48 L269 41 L274 51 L279 36 L284 50 L289 44" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-30" d="M3 85 L9.2 92 L15.4 82 L21.6 97 L27.8 83 L34 89" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-31" d="M32 122 L39.4 115 L46.8 125 L54.2 110 L61.6 124 L69 118" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-32" d="M61 30 L69.6 37 L78.2 27 L86.8 42 L95.4 28 L104 34" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-33" d="M90 67 L99.8 60 L109.6 70 L119.4 55 L129.2 69 L139 63" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-34" d="M119 104 L130 111 L141 101 L152 116 L163 102 L174 108" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-35" d="M148 12 L151.8 5 L155.6 15 L159.4 0 L163.2 14 L167 8" pathLength="100" />
+                <path class="loader-4197-filament loader-4197-filament-36" d="M177 49 L182 56 L187 46 L192 61 L197 47 L202 53" pathLength="100" />
+            </g>
+            <g class="loader-4197-speed-lines">
+                <path class="loader-4197-speed-line loader-4197-speed-line-1" d="M-2 38 L23 38" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-2" d="M21 67 L55 69" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-3" d="M44 96 L87 94" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-4" d="M67 125 L119 125" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-5" d="M90 27 L151 29" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-6" d="M113 56 L129 54" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-7" d="M136 85 L161 85" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-8" d="M-21 114 L13 116" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-9" d="M2 16 L45 14" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-10" d="M25 45 L77 45" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-11" d="M48 74 L109 76" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-12" d="M71 103 L87 101" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-13" d="M94 132 L119 132" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-14" d="M117 34 L151 36" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-15" d="M140 63 L183 61" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-16" d="M-17 92 L35 92" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-17" d="M6 121 L67 123" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-18" d="M29 23 L45 21" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-19" d="M52 52 L77 52" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-20" d="M75 81 L109 83" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-21" d="M98 110 L141 108" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-22" d="M121 12 L173 12" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-23" d="M144 41 L205 43" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-24" d="M-13 70 L3 68" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-25" d="M10 99 L35 99" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-26" d="M33 128 L67 130" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-27" d="M56 30 L99 28" pathLength="100" />
+                <path class="loader-4197-speed-line loader-4197-speed-line-28" d="M79 59 L131 59" pathLength="100" />
+            </g>
+            <g class="loader-4197-compression">
+                <path class="loader-4197-pressure loader-4197-pressure-1" d="M21.0 54.6 C45.0 60.2 45.0 83.8 21.0 89.4" />
+                <path class="loader-4197-pressure loader-4197-pressure-2" d="M24.0 50.2 C48.0 57.2 48.0 86.8 24.0 93.8" />
+                <path class="loader-4197-pressure loader-4197-pressure-3" d="M27.0 45.8 C51.0 54.2 51.0 89.8 27.0 98.2" />
+                <path class="loader-4197-pressure loader-4197-pressure-4" d="M30.0 41.4 C54.0 51.2 54.0 92.8 30.0 102.6" />
+                <path class="loader-4197-pressure loader-4197-pressure-5" d="M33.0 37.0 C57.0 48.2 57.0 95.8 33.0 107.0" />
+                <path class="loader-4197-pressure loader-4197-pressure-6" d="M36.0 32.6 C60.0 45.2 60.0 98.8 36.0 111.4" />
+                <path class="loader-4197-pressure loader-4197-pressure-7" d="M39.0 28.2 C63.0 42.2 63.0 101.8 39.0 115.8" />
+                <path class="loader-4197-pressure loader-4197-pressure-8" d="M42.0 23.8 C66.0 39.2 66.0 104.8 42.0 120.2" />
+                <path class="loader-4197-pressure loader-4197-pressure-9" d="M45.0 19.4 C69.0 36.2 69.0 107.8 45.0 124.6" />
+                <path class="loader-4197-pressure loader-4197-pressure-10" d="M48.0 15.0 C72.0 33.2 72.0 110.8 48.0 129.0" />
+            </g>
+            <g class="loader-4197-impact">
+                <ellipse class="loader-4197-impact-ring loader-4197-impact-ring-1" cx="327" cy="72" rx="7" ry="12" />
+                <ellipse class="loader-4197-impact-ring loader-4197-impact-ring-2" cx="327" cy="72" rx="14" ry="23" />
+                <ellipse class="loader-4197-impact-ring loader-4197-impact-ring-3" cx="327" cy="72" rx="22" ry="34" />
+                <ellipse class="loader-4197-impact-ring loader-4197-impact-ring-4" cx="327" cy="72" rx="31" ry="47" />
+                <ellipse class="loader-4197-impact-ring loader-4197-impact-ring-5" cx="327" cy="72" rx="42" ry="59" />
+                <ellipse class="loader-4197-impact-ring loader-4197-impact-ring-6" cx="327" cy="72" rx="51" ry="70" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-1" d="M336.0 72.0 L349.0 72.0 L367.0 72.0" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-2" d="M335.7 74.1 L350.2 77.7 L368.5 82.2" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-3" d="M334.8 76.1 L349.5 84.0 L366.8 93.2" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-4" d="M333.4 77.9 L341.1 85.0 L361.6 103.9" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-5" d="M331.5 79.2 L338.0 89.5 L345.5 101.5" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-6" d="M329.3 80.0 L333.2 93.3 L337.4 107.5" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-7" d="M327.0 80.3 L327.0 95.9 L327.0 111.6" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-8" d="M324.7 80.0 L321.8 89.8 L315.1 112.9" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-9" d="M322.5 79.2 L316.0 89.5 L302.5 111.0" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-10" d="M320.6 77.9 L310.0 87.6 L300.8 96.1" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-11" d="M319.2 76.1 L304.5 84.0 L292.4 90.4" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-12" d="M318.3 74.1 L307.7 76.8 L285.5 82.2" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-13" d="M318.0 72.0 L305.0 72.0 L281.0 72.0" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-14" d="M318.3 69.9 L303.8 66.3 L279.7 60.3" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-15" d="M319.2 67.9 L304.5 60.0 L295.0 55.0" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-16" d="M320.6 66.1 L312.9 59.0 L298.7 46.0" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-17" d="M322.5 64.8 L316.0 54.5 L305.5 37.7" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-18" d="M324.7 64.0 L320.8 50.7 L315.1 31.1" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-19" d="M327.0 63.7 L327.0 48.1 L327.0 26.9" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-20" d="M329.3 64.0 L332.2 54.2 L336.6 39.1" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-21" d="M331.5 64.8 L338.0 54.5 L347.0 40.1" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-22" d="M333.4 66.1 L344.0 56.4 L357.4 44.0" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-23" d="M334.8 67.9 L349.5 60.0 L366.8 50.8" />
+                <path class="loader-4197-impact-spike loader-4197-impact-spike-24" d="M335.7 69.9 L346.3 67.2 L374.3 60.3" />
+            </g>
+            <g class="loader-4197-cinders">
+                <circle class="loader-4197-cinder loader-4197-cinder-1" cx="-52" cy="46" r="1.25" />
+                <circle class="loader-4197-cinder loader-4197-cinder-2" cx="-69" cy="89" r="1.6" />
+                <circle class="loader-4197-cinder loader-4197-cinder-3" cx="-86" cy="132" r="1.95" />
+                <circle class="loader-4197-cinder loader-4197-cinder-4" cx="-103" cy="39" r="2.3" />
+                <circle class="loader-4197-cinder loader-4197-cinder-5" cx="-35" cy="82" r="0.9" />
+                <circle class="loader-4197-cinder loader-4197-cinder-6" cx="-52" cy="125" r="1.25" />
+                <circle class="loader-4197-cinder loader-4197-cinder-7" cx="-69" cy="32" r="1.6" />
+                <circle class="loader-4197-cinder loader-4197-cinder-8" cx="-86" cy="75" r="1.95" />
+                <circle class="loader-4197-cinder loader-4197-cinder-9" cx="-103" cy="118" r="2.3" />
+                <circle class="loader-4197-cinder loader-4197-cinder-10" cx="-35" cy="25" r="0.9" />
+                <circle class="loader-4197-cinder loader-4197-cinder-11" cx="-52" cy="68" r="1.25" />
+                <circle class="loader-4197-cinder loader-4197-cinder-12" cx="-69" cy="111" r="1.6" />
+                <circle class="loader-4197-cinder loader-4197-cinder-13" cx="-86" cy="18" r="1.95" />
+                <circle class="loader-4197-cinder loader-4197-cinder-14" cx="-103" cy="61" r="2.3" />
+                <circle class="loader-4197-cinder loader-4197-cinder-15" cx="-35" cy="104" r="0.9" />
+                <circle class="loader-4197-cinder loader-4197-cinder-16" cx="-52" cy="11" r="1.25" />
+                <circle class="loader-4197-cinder loader-4197-cinder-17" cx="-69" cy="54" r="1.6" />
+                <circle class="loader-4197-cinder loader-4197-cinder-18" cx="-86" cy="97" r="1.95" />
+                <circle class="loader-4197-cinder loader-4197-cinder-19" cx="-103" cy="4" r="2.3" />
+                <circle class="loader-4197-cinder loader-4197-cinder-20" cx="-35" cy="47" r="0.9" />
+                <circle class="loader-4197-cinder loader-4197-cinder-21" cx="-52" cy="90" r="1.25" />
+                <circle class="loader-4197-cinder loader-4197-cinder-22" cx="-69" cy="133" r="1.6" />
+                <circle class="loader-4197-cinder loader-4197-cinder-23" cx="-86" cy="40" r="1.95" />
+                <circle class="loader-4197-cinder loader-4197-cinder-24" cx="-103" cy="83" r="2.3" />
+                <circle class="loader-4197-cinder loader-4197-cinder-25" cx="-35" cy="126" r="0.9" />
+                <circle class="loader-4197-cinder loader-4197-cinder-26" cx="-52" cy="33" r="1.25" />
+                <circle class="loader-4197-cinder loader-4197-cinder-27" cx="-69" cy="76" r="1.6" />
+                <circle class="loader-4197-cinder loader-4197-cinder-28" cx="-86" cy="119" r="1.95" />
+                <circle class="loader-4197-cinder loader-4197-cinder-29" cx="-103" cy="26" r="2.3" />
+                <circle class="loader-4197-cinder loader-4197-cinder-30" cx="-35" cy="69" r="0.9" />
+                <circle class="loader-4197-cinder loader-4197-cinder-31" cx="-52" cy="112" r="1.25" />
+                <circle class="loader-4197-cinder loader-4197-cinder-32" cx="-69" cy="19" r="1.6" />
+                <circle class="loader-4197-cinder loader-4197-cinder-33" cx="-86" cy="62" r="1.95" />
+                <circle class="loader-4197-cinder loader-4197-cinder-34" cx="-103" cy="105" r="2.3" />
+                <circle class="loader-4197-cinder loader-4197-cinder-35" cx="-35" cy="12" r="0.9" />
+                <circle class="loader-4197-cinder loader-4197-cinder-36" cx="-52" cy="55" r="1.25" />
+                <circle class="loader-4197-cinder loader-4197-cinder-37" cx="-69" cy="98" r="1.6" />
+                <circle class="loader-4197-cinder loader-4197-cinder-38" cx="-86" cy="5" r="1.95" />
+                <circle class="loader-4197-cinder loader-4197-cinder-39" cx="-103" cy="48" r="2.3" />
+                <circle class="loader-4197-cinder loader-4197-cinder-40" cx="-35" cy="91" r="0.9" />
+                <circle class="loader-4197-cinder loader-4197-cinder-41" cx="-52" cy="134" r="1.25" />
+                <circle class="loader-4197-cinder loader-4197-cinder-42" cx="-69" cy="41" r="1.6" />
+                <circle class="loader-4197-cinder loader-4197-cinder-43" cx="-86" cy="84" r="1.95" />
+                <circle class="loader-4197-cinder loader-4197-cinder-44" cx="-103" cy="127" r="2.3" />
+                <circle class="loader-4197-cinder loader-4197-cinder-45" cx="-35" cy="34" r="0.9" />
+                <circle class="loader-4197-cinder loader-4197-cinder-46" cx="-52" cy="77" r="1.25" />
+                <circle class="loader-4197-cinder loader-4197-cinder-47" cx="-69" cy="120" r="1.6" />
+                <circle class="loader-4197-cinder loader-4197-cinder-48" cx="-86" cy="27" r="1.95" />
+            </g>
+            <g class="loader-4197-debris">
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-1" d="M316 50 L319 44 L322 51 L318 56 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-2" d="M327 91 L331 84 L334 92 L329 98 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-3" d="M338 132 L340 124 L343 133 L340 140 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-4" d="M349 46 L352 37 L355 47 L351 55 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-5" d="M312 87 L316 77 L319 88 L314 97 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-6" d="M323 128 L325 123 L328 129 L325 133 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-7" d="M334 42 L337 36 L340 43 L336 48 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-8" d="M345 83 L349 76 L352 84 L347 90 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-9" d="M308 124 L310 116 L313 125 L310 132 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-10" d="M319 38 L322 29 L325 39 L321 47 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-11" d="M330 79 L334 69 L337 80 L332 89 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-12" d="M341 120 L343 115 L346 121 L343 125 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-13" d="M352 34 L355 28 L358 35 L354 40 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-14" d="M315 75 L319 68 L322 76 L317 82 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-15" d="M326 116 L328 108 L331 117 L328 124 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-16" d="M337 30 L340 21 L343 31 L339 39 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-17" d="M348 71 L352 61 L355 72 L350 81 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-18" d="M311 112 L313 107 L316 113 L313 117 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-19" d="M322 26 L325 20 L328 27 L324 32 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-20" d="M333 67 L337 60 L340 68 L335 74 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-21" d="M344 108 L346 100 L349 109 L346 116 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-22" d="M307 22 L310 13 L313 23 L309 31 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-23" d="M318 63 L322 53 L325 64 L320 73 Z" />
+                <path class="loader-4197-debris-piece loader-4197-debris-piece-24" d="M329 104 L331 99 L334 105 L331 109 Z" />
+            </g>
+        </svg>
+        <span class="loader-4197-cast-overheat"></span>
+        <span class="loader-4197-inferno-flare"></span>
+        <span class="loader-4197-progress-track">
+            <span class="loader-4197-progress-beam"></span>
+        </span>
+        <span class="loader-4197-label">
+            IGNITING
+        </span>
+    </div>
+</div>`,
+    css: `.loader-4197 {
+    position: relative;
+    display: block;
+    width: min(100%, 344px);
+    height: 150px;
+    overflow: hidden;
+    isolation: isolate;
+    border-radius: 14px;
+    background: linear-gradient(120deg, #120704 0%, #2b0b06 42%, #1b0806 100%);
+    box-shadow: inset 0 0 0 1px rgba(251, 146, 60, .23), 0 6px 18px rgba(154, 52, 18, .15);
+}
+
+.loader-4197, .loader-4197 * {
+    box-sizing: border-box;
+}
+
+.loader-4197-shell {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.loader-4197-shell::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background: radial-gradient(ellipse at 14% 50%, rgba(220, 38, 38, .18), transparent 47%), radial-gradient(ellipse at 83% 50%, rgba(249, 115, 22, .16), transparent 43%);
+}
+
+.loader-4197-shell::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    pointer-events: none;
+    background: linear-gradient(90deg, #180905, transparent 8%, transparent 92%, #180905);
+}
+
+.loader-4197 svg {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    width: 100%;
+    height: calc(100% - 14px);
+    display: block;
+    overflow: hidden;
+    fill: none;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+    mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+}
+
+.loader-4197-ambient {
+    position: absolute;
+    z-index: 0;
+    border-radius: 999px;
+    filter: blur(16px);
+    opacity: .3;
+    animation: loader4197Atmosphere 2.8s ease-in-out infinite;
+}
+
+.loader-4197-ambient-1 {
+    left: -20px;
+    top: 28px;
+    width: 130px;
+    height: 90px;
+    background: #ef4444;
+    animation-delay: -.3s;
+}
+
+.loader-4197-ambient-2 {
+    left: 70px;
+    top: 41px;
+    width: 110px;
+    height: 54px;
+    background: #ea580c;
+    animation-delay: -.9s;
+}
+
+.loader-4197-ambient-3 {
+    right: 38px;
+    top: 22px;
+    width: 125px;
+    height: 85px;
+    background: #fb923c;
+    animation-delay: -1.4s;
+}
+
+.loader-4197-ambient-4 {
+    right: -17px;
+    top: 34px;
+    width: 65px;
+    height: 72px;
+    background: #fbbf24;
+    animation-delay: -2s;
+}
+
+.loader-4197-ignition-flash {
+    position: absolute;
+    inset: 0;
+    z-index: 4;
+    pointer-events: none;
+    background: linear-gradient(90deg, transparent 5%, rgba(239, 68, 68, .1) 22%, rgba(255, 237, 213, .21) 82%, transparent);
+    opacity: 0;
+    animation: loader4197ScreenFlash 2.8s ease-in-out infinite;
+}
+
+.loader-4197-impact-light {
+    position: absolute;
+    z-index: 3;
+    right: -28px;
+    top: 16px;
+    width: 104px;
+    height: 116px;
+    border-radius: 50%;
+    filter: blur(15px);
+    background: radial-gradient(ellipse, rgba(255, 247, 237, .9) 0%, rgba(249, 115, 22, .5) 28%, transparent 72%);
+    opacity: 0;
+    animation: loader4197ImpactLight 2.8s ease-out infinite;
+}
+
+.loader-4197-heat-map path {
+    stroke: rgba(251, 146, 60, .15);
+    stroke-width: 1;
+    stroke-dasharray: 3 10;
+    animation: loader4197HeatMap 2.8s linear infinite;
+}
+
+.loader-4197-heat-map path:nth-child(even) {
+    stroke: rgba(254, 215, 170, .09);
+    animation-delay: -.35s;
+}
+
+.loader-4197-charge-ring {
+    stroke: #fb923c;
+    stroke-width: 2;
+    stroke-dasharray: 11 7;
+    opacity: .38;
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: loader4197ChargeRing 2.8s ease-in-out infinite;
+}
+
+.loader-4197-charge-ring-1 {
+    animation-delay: -0.00s;
+    stroke-width: 3.10;
+    opacity: 0.68;
+}
+
+.loader-4197-charge-ring-2 {
+    animation-delay: -0.06s;
+    stroke-width: 2.68;
+    opacity: 0.59;
+}
+
+.loader-4197-charge-ring-3 {
+    animation-delay: -0.12s;
+    stroke-width: 2.26;
+    opacity: 0.50;
+}
+
+.loader-4197-charge-ring-4 {
+    animation-delay: -0.18s;
+    stroke-width: 1.84;
+    opacity: 0.41;
+}
+
+.loader-4197-charge-ring-5 {
+    animation-delay: -0.24s;
+    stroke-width: 1.42;
+    opacity: 0.32;
+}
+
+.loader-4197-charge-prong {
+    stroke: #fed7aa;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    opacity: .45;
+    animation: loader4197ChargeProng 2.8s linear infinite;
+}
+
+.loader-4197-charge-prong-1 {
+    animation-delay: -0.07s;
+    stroke-width: 1.55;
+}
+
+.loader-4197-charge-prong-2 {
+    animation-delay: -0.14s;
+    stroke-width: 1.90;
+}
+
+.loader-4197-charge-prong-3 {
+    animation-delay: -0.21s;
+    stroke-width: 2.25;
+}
+
+.loader-4197-charge-prong-4 {
+    animation-delay: -0.28s;
+    stroke-width: 1.20;
+}
+
+.loader-4197-charge-prong-5 {
+    animation-delay: -0.35s;
+    stroke-width: 1.55;
+}
+
+.loader-4197-charge-prong-6 {
+    animation-delay: -0.42s;
+    stroke-width: 1.90;
+}
+
+.loader-4197-charge-prong-7 {
+    animation-delay: -0.00s;
+    stroke-width: 2.25;
+}
+
+.loader-4197-charge-prong-8 {
+    animation-delay: -0.07s;
+    stroke-width: 1.20;
+}
+
+.loader-4197-charge-prong-9 {
+    animation-delay: -0.14s;
+    stroke-width: 1.55;
+}
+
+.loader-4197-charge-prong-10 {
+    animation-delay: -0.21s;
+    stroke-width: 1.90;
+}
+
+.loader-4197-corona-path {
+    stroke: url(#loader4197Plasma);
+    stroke-width: 15;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 32 68;
+    stroke-dashoffset: 100;
+    opacity: 0;
+    animation: loader4197Corona 2.8s linear infinite;
+}
+
+.loader-4197-corona-path-1 {
+    animation-delay: -0.000s;
+    stroke-width: 14;
+}
+
+.loader-4197-corona-path-2 {
+    animation-delay: -0.055s;
+    stroke-width: 16;
+}
+
+.loader-4197-corona-path-3 {
+    animation-delay: -0.110s;
+    stroke-width: 18;
+}
+
+.loader-4197-corona-path-4 {
+    animation-delay: -0.165s;
+    stroke-width: 12;
+}
+
+.loader-4197-corona-path-5 {
+    animation-delay: -0.220s;
+    stroke-width: 14;
+}
+
+.loader-4197-corona-path-6 {
+    animation-delay: -0.275s;
+    stroke-width: 16;
+}
+
+.loader-4197-plasma-path {
+    stroke: url(#loader4197Plasma);
+    stroke-width: 3.5;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    stroke-dasharray: 31 69;
+    stroke-dashoffset: 100;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px rgba(251, 146, 60, .8));
+    animation: loader4197PlasmaStrike 2.8s linear infinite;
+}
+
+.loader-4197-plasma-path-1 {
+    animation-delay: -0.000s;
+    stroke-width: 3.03;
+    stroke-dasharray: 30 70;
+}
+
+.loader-4197-plasma-path-2 {
+    animation-delay: -0.052s;
+    stroke-width: 3.56;
+    stroke-dasharray: 34 66;
+}
+
+.loader-4197-plasma-path-3 {
+    animation-delay: -0.104s;
+    stroke-width: 4.09;
+    stroke-dasharray: 38 62;
+}
+
+.loader-4197-plasma-path-4 {
+    animation-delay: -0.156s;
+    stroke-width: 4.62;
+    stroke-dasharray: 26 74;
+}
+
+.loader-4197-plasma-path-5 {
+    animation-delay: -0.208s;
+    stroke-width: 2.50;
+    stroke-dasharray: 30 70;
+}
+
+.loader-4197-plasma-path-6 {
+    animation-delay: -0.260s;
+    stroke-width: 3.03;
+    stroke-dasharray: 34 66;
+}
+
+.loader-4197-fork {
+    stroke: url(#loader4197Branch);
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    stroke-dasharray: 30 70;
+    stroke-dashoffset: 100;
+    opacity: 0;
+    animation: loader4197Fork 2.8s linear infinite;
+}
+
+.loader-4197-fork-1 {
+    animation-delay: -0.035s;
+    stroke-width: 1.26;
+    stroke-dasharray: 21 79;
+}
+
+.loader-4197-fork-2 {
+    animation-delay: -0.070s;
+    stroke-width: 1.52;
+    stroke-dasharray: 25 75;
+}
+
+.loader-4197-fork-3 {
+    animation-delay: -0.105s;
+    stroke-width: 1.78;
+    stroke-dasharray: 29 71;
+}
+
+.loader-4197-fork-4 {
+    animation-delay: -0.140s;
+    stroke-width: 2.04;
+    stroke-dasharray: 33 67;
+}
+
+.loader-4197-fork-5 {
+    animation-delay: -0.175s;
+    stroke-width: 2.30;
+    stroke-dasharray: 37 63;
+}
+
+.loader-4197-fork-6 {
+    animation-delay: -0.210s;
+    stroke-width: 1.00;
+    stroke-dasharray: 17 83;
+}
+
+.loader-4197-fork-7 {
+    animation-delay: -0.245s;
+    stroke-width: 1.26;
+    stroke-dasharray: 21 79;
+}
+
+.loader-4197-fork-8 {
+    animation-delay: -0.280s;
+    stroke-width: 1.52;
+    stroke-dasharray: 25 75;
+}
+
+.loader-4197-fork-9 {
+    animation-delay: -0.315s;
+    stroke-width: 1.78;
+    stroke-dasharray: 29 71;
+}
+
+.loader-4197-fork-10 {
+    animation-delay: -0.350s;
+    stroke-width: 2.04;
+    stroke-dasharray: 33 67;
+}
+
+.loader-4197-fork-11 {
+    animation-delay: -0.385s;
+    stroke-width: 2.30;
+    stroke-dasharray: 37 63;
+}
+
+.loader-4197-fork-12 {
+    animation-delay: -0.420s;
+    stroke-width: 1.00;
+    stroke-dasharray: 17 83;
+}
+
+.loader-4197-fork-13 {
+    animation-delay: -0.455s;
+    stroke-width: 1.26;
+    stroke-dasharray: 21 79;
+}
+
+.loader-4197-fork-14 {
+    animation-delay: -0.490s;
+    stroke-width: 1.52;
+    stroke-dasharray: 25 75;
+}
+
+.loader-4197-fork-15 {
+    animation-delay: -0.525s;
+    stroke-width: 1.78;
+    stroke-dasharray: 29 71;
+}
+
+.loader-4197-fork-16 {
+    animation-delay: -0.560s;
+    stroke-width: 2.04;
+    stroke-dasharray: 33 67;
+}
+
+.loader-4197-fork-17 {
+    animation-delay: -0.000s;
+    stroke-width: 2.30;
+    stroke-dasharray: 37 63;
+}
+
+.loader-4197-fork-18 {
+    animation-delay: -0.035s;
+    stroke-width: 1.00;
+    stroke-dasharray: 17 83;
+}
+
+.loader-4197-fork-19 {
+    animation-delay: -0.070s;
+    stroke-width: 1.26;
+    stroke-dasharray: 21 79;
+}
+
+.loader-4197-fork-20 {
+    animation-delay: -0.105s;
+    stroke-width: 1.52;
+    stroke-dasharray: 25 75;
+}
+
+.loader-4197-fork-21 {
+    animation-delay: -0.140s;
+    stroke-width: 1.78;
+    stroke-dasharray: 29 71;
+}
+
+.loader-4197-fork-22 {
+    animation-delay: -0.175s;
+    stroke-width: 2.04;
+    stroke-dasharray: 33 67;
+}
+
+.loader-4197-fork-23 {
+    animation-delay: -0.210s;
+    stroke-width: 2.30;
+    stroke-dasharray: 37 63;
+}
+
+.loader-4197-fork-24 {
+    animation-delay: -0.245s;
+    stroke-width: 1.00;
+    stroke-dasharray: 17 83;
+}
+
+.loader-4197-fork-25 {
+    animation-delay: -0.280s;
+    stroke-width: 1.26;
+    stroke-dasharray: 21 79;
+}
+
+.loader-4197-fork-26 {
+    animation-delay: -0.315s;
+    stroke-width: 1.52;
+    stroke-dasharray: 25 75;
+}
+
+.loader-4197-fork-27 {
+    animation-delay: -0.350s;
+    stroke-width: 1.78;
+    stroke-dasharray: 29 71;
+}
+
+.loader-4197-fork-28 {
+    animation-delay: -0.385s;
+    stroke-width: 2.04;
+    stroke-dasharray: 33 67;
+}
+
+.loader-4197-fork-29 {
+    animation-delay: -0.420s;
+    stroke-width: 2.30;
+    stroke-dasharray: 37 63;
+}
+
+.loader-4197-fork-30 {
+    animation-delay: -0.455s;
+    stroke-width: 1.00;
+    stroke-dasharray: 17 83;
+}
+
+.loader-4197-fork-31 {
+    animation-delay: -0.490s;
+    stroke-width: 1.26;
+    stroke-dasharray: 21 79;
+}
+
+.loader-4197-fork-32 {
+    animation-delay: -0.525s;
+    stroke-width: 1.52;
+    stroke-dasharray: 25 75;
+}
+
+.loader-4197-fork-33 {
+    animation-delay: -0.560s;
+    stroke-width: 1.78;
+    stroke-dasharray: 29 71;
+}
+
+.loader-4197-fork-34 {
+    animation-delay: -0.000s;
+    stroke-width: 2.04;
+    stroke-dasharray: 33 67;
+}
+
+.loader-4197-fork-35 {
+    animation-delay: -0.035s;
+    stroke-width: 2.30;
+    stroke-dasharray: 37 63;
+}
+
+.loader-4197-fork-36 {
+    animation-delay: -0.070s;
+    stroke-width: 1.00;
+    stroke-dasharray: 17 83;
+}
+
+.loader-4197-fork-37 {
+    animation-delay: -0.105s;
+    stroke-width: 1.26;
+    stroke-dasharray: 21 79;
+}
+
+.loader-4197-fork-38 {
+    animation-delay: -0.140s;
+    stroke-width: 1.52;
+    stroke-dasharray: 25 75;
+}
+
+.loader-4197-fork-39 {
+    animation-delay: -0.175s;
+    stroke-width: 1.78;
+    stroke-dasharray: 29 71;
+}
+
+.loader-4197-fork-40 {
+    animation-delay: -0.210s;
+    stroke-width: 2.04;
+    stroke-dasharray: 33 67;
+}
+
+.loader-4197-fork-41 {
+    animation-delay: -0.245s;
+    stroke-width: 2.30;
+    stroke-dasharray: 37 63;
+}
+
+.loader-4197-fork-42 {
+    animation-delay: -0.280s;
+    stroke-width: 1.00;
+    stroke-dasharray: 17 83;
+}
+
+.loader-4197-flame {
+    fill: url(#loader4197Flame);
+    stroke: none;
+    opacity: 0;
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: loader4197FlameTongue 2.8s ease-in-out infinite;
+}
+
+.loader-4197-flame-1 {
+    animation-delay: -0.045s;
+    opacity: 0;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-2 {
+    animation-delay: -0.090s;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-3 {
+    animation-delay: -0.135s;
+    opacity: 0;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-4 {
+    animation-delay: -0.180s;
+    opacity: 0;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-5 {
+    animation-delay: -0.225s;
+    opacity: 0;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-6 {
+    animation-delay: -0.270s;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-7 {
+    animation-delay: -0.315s;
+    opacity: 0;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-8 {
+    animation-delay: -0.360s;
+    opacity: 0;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-9 {
+    animation-delay: -0.405s;
+    opacity: 0;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-10 {
+    animation-delay: -0.450s;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-11 {
+    animation-delay: -0.495s;
+    opacity: 0;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-12 {
+    animation-delay: -0.540s;
+    opacity: 0;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-13 {
+    animation-delay: -0.585s;
+    opacity: 0;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-14 {
+    animation-delay: -0.630s;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-15 {
+    animation-delay: -0.000s;
+    opacity: 0;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-16 {
+    animation-delay: -0.045s;
+    opacity: 0;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-17 {
+    animation-delay: -0.090s;
+    opacity: 0;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-18 {
+    animation-delay: -0.135s;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-19 {
+    animation-delay: -0.180s;
+    opacity: 0;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-20 {
+    animation-delay: -0.225s;
+    opacity: 0;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-21 {
+    animation-delay: -0.270s;
+    opacity: 0;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-22 {
+    animation-delay: -0.315s;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-23 {
+    animation-delay: -0.360s;
+    opacity: 0;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-24 {
+    animation-delay: -0.405s;
+    opacity: 0;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-25 {
+    animation-delay: -0.450s;
+    opacity: 0;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-26 {
+    animation-delay: -0.495s;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-27 {
+    animation-delay: -0.540s;
+    opacity: 0;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-28 {
+    animation-delay: -0.585s;
+    opacity: 0;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-29 {
+    animation-delay: -0.630s;
+    opacity: 0;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-30 {
+    animation-delay: -0.000s;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-31 {
+    animation-delay: -0.045s;
+    opacity: 0;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-32 {
+    animation-delay: -0.090s;
+    opacity: 0;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-33 {
+    animation-delay: -0.135s;
+    opacity: 0;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-34 {
+    animation-delay: -0.180s;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-35 {
+    animation-delay: -0.225s;
+    opacity: 0;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-flame-36 {
+    animation-delay: -0.270s;
+    opacity: 0;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .6));
+}
+
+.loader-4197-filament {
+    stroke: #fdba74;
+    stroke-width: 1.1;
+    stroke-linecap: round;
+    stroke-dasharray: 19 81;
+    stroke-dashoffset: 100;
+    opacity: 0;
+    animation: loader4197Filament 2.8s linear infinite;
+}
+
+.loader-4197-filament-1 {
+    animation-delay: -0.065s;
+    stroke-width: 0.97;
+    stroke: #f97316;
+}
+
+.loader-4197-filament-2 {
+    animation-delay: -0.130s;
+    stroke-width: 1.19;
+    stroke: #fed7aa;
+}
+
+.loader-4197-filament-3 {
+    animation-delay: -0.195s;
+    stroke-width: 1.41;
+    stroke: #ef4444;
+}
+
+.loader-4197-filament-4 {
+    animation-delay: -0.260s;
+    stroke-width: 1.63;
+    stroke: #fef3c7;
+}
+
+.loader-4197-filament-5 {
+    animation-delay: -0.325s;
+    stroke-width: 0.75;
+    stroke: #f97316;
+}
+
+.loader-4197-filament-6 {
+    animation-delay: -0.390s;
+    stroke-width: 0.97;
+    stroke: #fed7aa;
+}
+
+.loader-4197-filament-7 {
+    animation-delay: -0.455s;
+    stroke-width: 1.19;
+    stroke: #ef4444;
+}
+
+.loader-4197-filament-8 {
+    animation-delay: -0.520s;
+    stroke-width: 1.41;
+    stroke: #fef3c7;
+}
+
+.loader-4197-filament-9 {
+    animation-delay: -0.585s;
+    stroke-width: 1.63;
+    stroke: #f97316;
+}
+
+.loader-4197-filament-10 {
+    animation-delay: -0.650s;
+    stroke-width: 0.75;
+    stroke: #fed7aa;
+}
+
+.loader-4197-filament-11 {
+    animation-delay: -0.715s;
+    stroke-width: 0.97;
+    stroke: #ef4444;
+}
+
+.loader-4197-filament-12 {
+    animation-delay: -0.780s;
+    stroke-width: 1.19;
+    stroke: #fef3c7;
+}
+
+.loader-4197-filament-13 {
+    animation-delay: -0.845s;
+    stroke-width: 1.41;
+    stroke: #f97316;
+}
+
+.loader-4197-filament-14 {
+    animation-delay: -0.910s;
+    stroke-width: 1.63;
+    stroke: #fed7aa;
+}
+
+.loader-4197-filament-15 {
+    animation-delay: -0.975s;
+    stroke-width: 0.75;
+    stroke: #ef4444;
+}
+
+.loader-4197-filament-16 {
+    animation-delay: -0.000s;
+    stroke-width: 0.97;
+    stroke: #fef3c7;
+}
+
+.loader-4197-filament-17 {
+    animation-delay: -0.065s;
+    stroke-width: 1.19;
+    stroke: #f97316;
+}
+
+.loader-4197-filament-18 {
+    animation-delay: -0.130s;
+    stroke-width: 1.41;
+    stroke: #fed7aa;
+}
+
+.loader-4197-filament-19 {
+    animation-delay: -0.195s;
+    stroke-width: 1.63;
+    stroke: #ef4444;
+}
+
+.loader-4197-filament-20 {
+    animation-delay: -0.260s;
+    stroke-width: 0.75;
+    stroke: #fef3c7;
+}
+
+.loader-4197-filament-21 {
+    animation-delay: -0.325s;
+    stroke-width: 0.97;
+    stroke: #f97316;
+}
+
+.loader-4197-filament-22 {
+    animation-delay: -0.390s;
+    stroke-width: 1.19;
+    stroke: #fed7aa;
+}
+
+.loader-4197-filament-23 {
+    animation-delay: -0.455s;
+    stroke-width: 1.41;
+    stroke: #ef4444;
+}
+
+.loader-4197-filament-24 {
+    animation-delay: -0.520s;
+    stroke-width: 1.63;
+    stroke: #fef3c7;
+}
+
+.loader-4197-filament-25 {
+    animation-delay: -0.585s;
+    stroke-width: 0.75;
+    stroke: #f97316;
+}
+
+.loader-4197-filament-26 {
+    animation-delay: -0.650s;
+    stroke-width: 0.97;
+    stroke: #fed7aa;
+}
+
+.loader-4197-filament-27 {
+    animation-delay: -0.715s;
+    stroke-width: 1.19;
+    stroke: #ef4444;
+}
+
+.loader-4197-filament-28 {
+    animation-delay: -0.780s;
+    stroke-width: 1.41;
+    stroke: #fef3c7;
+}
+
+.loader-4197-filament-29 {
+    animation-delay: -0.845s;
+    stroke-width: 1.63;
+    stroke: #f97316;
+}
+
+.loader-4197-filament-30 {
+    animation-delay: -0.910s;
+    stroke-width: 0.75;
+    stroke: #fed7aa;
+}
+
+.loader-4197-filament-31 {
+    animation-delay: -0.975s;
+    stroke-width: 0.97;
+    stroke: #ef4444;
+}
+
+.loader-4197-filament-32 {
+    animation-delay: -0.000s;
+    stroke-width: 1.19;
+    stroke: #fef3c7;
+}
+
+.loader-4197-filament-33 {
+    animation-delay: -0.065s;
+    stroke-width: 1.41;
+    stroke: #f97316;
+}
+
+.loader-4197-filament-34 {
+    animation-delay: -0.130s;
+    stroke-width: 1.63;
+    stroke: #fed7aa;
+}
+
+.loader-4197-filament-35 {
+    animation-delay: -0.195s;
+    stroke-width: 0.75;
+    stroke: #ef4444;
+}
+
+.loader-4197-filament-36 {
+    animation-delay: -0.260s;
+    stroke-width: 0.97;
+    stroke: #fef3c7;
+}
+
+.loader-4197-speed-line {
+    stroke: url(#loader4197Heat);
+    stroke-width: 1.3;
+    stroke-linecap: round;
+    stroke-dasharray: 20 80;
+    stroke-dashoffset: 100;
+    opacity: 0;
+    animation: loader4197SpeedDash 2.8s linear infinite;
+}
+
+.loader-4197-speed-line-1 {
+    animation-delay: -0.049s;
+    stroke-width: 1.25;
+    stroke-dasharray: 19 81;
+}
+
+.loader-4197-speed-line-2 {
+    animation-delay: -0.098s;
+    stroke-width: 1.60;
+    stroke-dasharray: 22 78;
+}
+
+.loader-4197-speed-line-3 {
+    animation-delay: -0.147s;
+    stroke-width: 1.95;
+    stroke-dasharray: 25 75;
+}
+
+.loader-4197-speed-line-4 {
+    animation-delay: -0.196s;
+    stroke-width: 2.30;
+    stroke-dasharray: 28 72;
+}
+
+.loader-4197-speed-line-5 {
+    animation-delay: -0.245s;
+    stroke-width: 0.90;
+    stroke-dasharray: 16 84;
+}
+
+.loader-4197-speed-line-6 {
+    animation-delay: -0.294s;
+    stroke-width: 1.25;
+    stroke-dasharray: 19 81;
+}
+
+.loader-4197-speed-line-7 {
+    animation-delay: -0.343s;
+    stroke-width: 1.60;
+    stroke-dasharray: 22 78;
+}
+
+.loader-4197-speed-line-8 {
+    animation-delay: -0.392s;
+    stroke-width: 1.95;
+    stroke-dasharray: 25 75;
+}
+
+.loader-4197-speed-line-9 {
+    animation-delay: -0.441s;
+    stroke-width: 2.30;
+    stroke-dasharray: 28 72;
+}
+
+.loader-4197-speed-line-10 {
+    animation-delay: -0.490s;
+    stroke-width: 0.90;
+    stroke-dasharray: 16 84;
+}
+
+.loader-4197-speed-line-11 {
+    animation-delay: -0.539s;
+    stroke-width: 1.25;
+    stroke-dasharray: 19 81;
+}
+
+.loader-4197-speed-line-12 {
+    animation-delay: -0.588s;
+    stroke-width: 1.60;
+    stroke-dasharray: 22 78;
+}
+
+.loader-4197-speed-line-13 {
+    animation-delay: -0.637s;
+    stroke-width: 1.95;
+    stroke-dasharray: 25 75;
+}
+
+.loader-4197-speed-line-14 {
+    animation-delay: -0.686s;
+    stroke-width: 2.30;
+    stroke-dasharray: 28 72;
+}
+
+.loader-4197-speed-line-15 {
+    animation-delay: -0.735s;
+    stroke-width: 0.90;
+    stroke-dasharray: 16 84;
+}
+
+.loader-4197-speed-line-16 {
+    animation-delay: -0.784s;
+    stroke-width: 1.25;
+    stroke-dasharray: 19 81;
+}
+
+.loader-4197-speed-line-17 {
+    animation-delay: -0.833s;
+    stroke-width: 1.60;
+    stroke-dasharray: 22 78;
+}
+
+.loader-4197-speed-line-18 {
+    animation-delay: -0.882s;
+    stroke-width: 1.95;
+    stroke-dasharray: 25 75;
+}
+
+.loader-4197-speed-line-19 {
+    animation-delay: -0.000s;
+    stroke-width: 2.30;
+    stroke-dasharray: 28 72;
+}
+
+.loader-4197-speed-line-20 {
+    animation-delay: -0.049s;
+    stroke-width: 0.90;
+    stroke-dasharray: 16 84;
+}
+
+.loader-4197-speed-line-21 {
+    animation-delay: -0.098s;
+    stroke-width: 1.25;
+    stroke-dasharray: 19 81;
+}
+
+.loader-4197-speed-line-22 {
+    animation-delay: -0.147s;
+    stroke-width: 1.60;
+    stroke-dasharray: 22 78;
+}
+
+.loader-4197-speed-line-23 {
+    animation-delay: -0.196s;
+    stroke-width: 1.95;
+    stroke-dasharray: 25 75;
+}
+
+.loader-4197-speed-line-24 {
+    animation-delay: -0.245s;
+    stroke-width: 2.30;
+    stroke-dasharray: 28 72;
+}
+
+.loader-4197-speed-line-25 {
+    animation-delay: -0.294s;
+    stroke-width: 0.90;
+    stroke-dasharray: 16 84;
+}
+
+.loader-4197-speed-line-26 {
+    animation-delay: -0.343s;
+    stroke-width: 1.25;
+    stroke-dasharray: 19 81;
+}
+
+.loader-4197-speed-line-27 {
+    animation-delay: -0.392s;
+    stroke-width: 1.60;
+    stroke-dasharray: 22 78;
+}
+
+.loader-4197-speed-line-28 {
+    animation-delay: -0.441s;
+    stroke-width: 1.95;
+    stroke-dasharray: 25 75;
+}
+
+.loader-4197-pressure {
+    stroke: #fdba74;
+    stroke-width: 2;
+    stroke-linecap: round;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .55));
+    animation: loader4197Pressure 2.8s ease-in-out infinite;
+}
+
+.loader-4197-pressure-1 {
+    animation-delay: -0.070s;
+    stroke-width: 1.64;
+}
+
+.loader-4197-pressure-2 {
+    animation-delay: -0.140s;
+    stroke-width: 2.08;
+}
+
+.loader-4197-pressure-3 {
+    animation-delay: -0.210s;
+    stroke-width: 2.52;
+}
+
+.loader-4197-pressure-4 {
+    animation-delay: -0.280s;
+    stroke-width: 2.96;
+}
+
+.loader-4197-pressure-5 {
+    animation-delay: -0.350s;
+    stroke-width: 1.20;
+}
+
+.loader-4197-pressure-6 {
+    animation-delay: -0.420s;
+    stroke-width: 1.64;
+}
+
+.loader-4197-pressure-7 {
+    animation-delay: -0.490s;
+    stroke-width: 2.08;
+}
+
+.loader-4197-pressure-8 {
+    animation-delay: -0.560s;
+    stroke-width: 2.52;
+}
+
+.loader-4197-pressure-9 {
+    animation-delay: -0.000s;
+    stroke-width: 2.96;
+}
+
+.loader-4197-pressure-10 {
+    animation-delay: -0.070s;
+    stroke-width: 1.20;
+}
+
+.loader-4197-impact-ring {
+    stroke: #f97316;
+    stroke-width: 2.1;
+    opacity: 0;
+    transform-box: fill-box;
+    transform-origin: center;
+    filter: drop-shadow(0 0 3px rgba(251, 146, 60, .65));
+    animation: loader4197ImpactRing 2.8s ease-out infinite;
+}
+
+.loader-4197-impact-ring-1 {
+    animation-delay: -0.000s;
+    stroke-width: 3.30;
+}
+
+.loader-4197-impact-ring-2 {
+    animation-delay: -0.050s;
+    stroke-width: 2.88;
+}
+
+.loader-4197-impact-ring-3 {
+    animation-delay: -0.100s;
+    stroke-width: 2.46;
+}
+
+.loader-4197-impact-ring-4 {
+    animation-delay: -0.150s;
+    stroke-width: 2.04;
+}
+
+.loader-4197-impact-ring-5 {
+    animation-delay: -0.200s;
+    stroke-width: 1.62;
+}
+
+.loader-4197-impact-ring-6 {
+    animation-delay: -0.250s;
+    stroke-width: 1.20;
+}
+
+.loader-4197-impact-spike {
+    stroke: #ffedd5;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    opacity: 0;
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: loader4197ImpactSpike 2.8s ease-out infinite;
+}
+
+.loader-4197-impact-spike-1 {
+    animation-delay: -0.035s;
+    stroke-width: 1.35;
+    stroke: #fb923c;
+}
+
+.loader-4197-impact-spike-2 {
+    animation-delay: -0.070s;
+    stroke-width: 1.70;
+    stroke: #fecaca;
+}
+
+.loader-4197-impact-spike-3 {
+    animation-delay: -0.105s;
+    stroke-width: 2.05;
+    stroke: #fef3c7;
+}
+
+.loader-4197-impact-spike-4 {
+    animation-delay: -0.140s;
+    stroke-width: 2.40;
+    stroke: #fb923c;
+}
+
+.loader-4197-impact-spike-5 {
+    animation-delay: -0.175s;
+    stroke-width: 2.75;
+    stroke: #fecaca;
+}
+
+.loader-4197-impact-spike-6 {
+    animation-delay: -0.210s;
+    stroke-width: 1.00;
+    stroke: #fef3c7;
+}
+
+.loader-4197-impact-spike-7 {
+    animation-delay: -0.245s;
+    stroke-width: 1.35;
+    stroke: #fb923c;
+}
+
+.loader-4197-impact-spike-8 {
+    animation-delay: -0.280s;
+    stroke-width: 1.70;
+    stroke: #fecaca;
+}
+
+.loader-4197-impact-spike-9 {
+    animation-delay: -0.000s;
+    stroke-width: 2.05;
+    stroke: #fef3c7;
+}
+
+.loader-4197-impact-spike-10 {
+    animation-delay: -0.035s;
+    stroke-width: 2.40;
+    stroke: #fb923c;
+}
+
+.loader-4197-impact-spike-11 {
+    animation-delay: -0.070s;
+    stroke-width: 2.75;
+    stroke: #fecaca;
+}
+
+.loader-4197-impact-spike-12 {
+    animation-delay: -0.105s;
+    stroke-width: 1.00;
+    stroke: #fef3c7;
+}
+
+.loader-4197-impact-spike-13 {
+    animation-delay: -0.140s;
+    stroke-width: 1.35;
+    stroke: #fb923c;
+}
+
+.loader-4197-impact-spike-14 {
+    animation-delay: -0.175s;
+    stroke-width: 1.70;
+    stroke: #fecaca;
+}
+
+.loader-4197-impact-spike-15 {
+    animation-delay: -0.210s;
+    stroke-width: 2.05;
+    stroke: #fef3c7;
+}
+
+.loader-4197-impact-spike-16 {
+    animation-delay: -0.245s;
+    stroke-width: 2.40;
+    stroke: #fb923c;
+}
+
+.loader-4197-impact-spike-17 {
+    animation-delay: -0.280s;
+    stroke-width: 2.75;
+    stroke: #fecaca;
+}
+
+.loader-4197-impact-spike-18 {
+    animation-delay: -0.000s;
+    stroke-width: 1.00;
+    stroke: #fef3c7;
+}
+
+.loader-4197-impact-spike-19 {
+    animation-delay: -0.035s;
+    stroke-width: 1.35;
+    stroke: #fb923c;
+}
+
+.loader-4197-impact-spike-20 {
+    animation-delay: -0.070s;
+    stroke-width: 1.70;
+    stroke: #fecaca;
+}
+
+.loader-4197-impact-spike-21 {
+    animation-delay: -0.105s;
+    stroke-width: 2.05;
+    stroke: #fef3c7;
+}
+
+.loader-4197-impact-spike-22 {
+    animation-delay: -0.140s;
+    stroke-width: 2.40;
+    stroke: #fb923c;
+}
+
+.loader-4197-impact-spike-23 {
+    animation-delay: -0.175s;
+    stroke-width: 2.75;
+    stroke: #fecaca;
+}
+
+.loader-4197-impact-spike-24 {
+    animation-delay: -0.210s;
+    stroke-width: 1.00;
+    stroke: #fef3c7;
+}
+
+.loader-4197-cinder {
+    fill: #fb923c;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .65));
+    animation: loader4197CinderFlight 2.8s linear infinite;
+}
+
+.loader-4197-cinder-1 {
+    animation-delay: -0.057s;
+    fill: #fbbf24;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-2 {
+    animation-delay: -0.114s;
+    fill: #fb923c;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-3 {
+    animation-delay: -0.171s;
+    fill: #ef4444;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-4 {
+    animation-delay: -0.228s;
+    fill: #fdba74;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-5 {
+    animation-delay: -0.285s;
+    fill: #ffedd5;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-6 {
+    animation-delay: -0.342s;
+    fill: #fbbf24;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-7 {
+    animation-delay: -0.399s;
+    fill: #fb923c;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-8 {
+    animation-delay: -0.456s;
+    fill: #ef4444;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-9 {
+    animation-delay: -0.513s;
+    fill: #fdba74;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-10 {
+    animation-delay: -0.570s;
+    fill: #ffedd5;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-11 {
+    animation-delay: -0.627s;
+    fill: #fbbf24;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-12 {
+    animation-delay: -0.684s;
+    fill: #fb923c;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-13 {
+    animation-delay: -0.741s;
+    fill: #ef4444;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-14 {
+    animation-delay: -0.798s;
+    fill: #fdba74;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-15 {
+    animation-delay: -0.855s;
+    fill: #ffedd5;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-16 {
+    animation-delay: -0.912s;
+    fill: #fbbf24;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-17 {
+    animation-delay: -0.969s;
+    fill: #fb923c;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-18 {
+    animation-delay: -1.026s;
+    fill: #ef4444;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-19 {
+    animation-delay: -1.083s;
+    fill: #fdba74;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-20 {
+    animation-delay: -1.140s;
+    fill: #ffedd5;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-21 {
+    animation-delay: -1.197s;
+    fill: #fbbf24;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-22 {
+    animation-delay: -1.254s;
+    fill: #fb923c;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-23 {
+    animation-delay: -1.311s;
+    fill: #ef4444;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-24 {
+    animation-delay: -1.368s;
+    fill: #fdba74;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-25 {
+    animation-delay: -0.000s;
+    fill: #ffedd5;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-26 {
+    animation-delay: -0.057s;
+    fill: #fbbf24;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-27 {
+    animation-delay: -0.114s;
+    fill: #fb923c;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-28 {
+    animation-delay: -0.171s;
+    fill: #ef4444;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-29 {
+    animation-delay: -0.228s;
+    fill: #fdba74;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-30 {
+    animation-delay: -0.285s;
+    fill: #ffedd5;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-31 {
+    animation-delay: -0.342s;
+    fill: #fbbf24;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-32 {
+    animation-delay: -0.399s;
+    fill: #fb923c;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-33 {
+    animation-delay: -0.456s;
+    fill: #ef4444;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-34 {
+    animation-delay: -0.513s;
+    fill: #fdba74;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-35 {
+    animation-delay: -0.570s;
+    fill: #ffedd5;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-36 {
+    animation-delay: -0.627s;
+    fill: #fbbf24;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-37 {
+    animation-delay: -0.684s;
+    fill: #fb923c;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-38 {
+    animation-delay: -0.741s;
+    fill: #ef4444;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-39 {
+    animation-delay: -0.798s;
+    fill: #fdba74;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-40 {
+    animation-delay: -0.855s;
+    fill: #ffedd5;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-41 {
+    animation-delay: -0.912s;
+    fill: #fbbf24;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-42 {
+    animation-delay: -0.969s;
+    fill: #fb923c;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-43 {
+    animation-delay: -1.026s;
+    fill: #ef4444;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-44 {
+    animation-delay: -1.083s;
+    fill: #fdba74;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-45 {
+    animation-delay: -1.140s;
+    fill: #ffedd5;
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-46 {
+    animation-delay: -1.197s;
+    fill: #fbbf24;
+    filter: drop-shadow(0 0 3px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-47 {
+    animation-delay: -1.254s;
+    fill: #fb923c;
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-cinder-48 {
+    animation-delay: -1.311s;
+    fill: #ef4444;
+    filter: drop-shadow(0 0 1px rgba(249, 115, 22, .9));
+}
+
+.loader-4197-debris-piece {
+    fill: #fb923c;
+    stroke: #fef3c7;
+    stroke-width: .4;
+    opacity: 0;
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: loader4197Debris 2.8s ease-out infinite;
+}
+
+.loader-4197-debris-piece-1 {
+    animation-delay: -0.052s;
+    fill: #dc2626;
+}
+
+.loader-4197-debris-piece-2 {
+    animation-delay: -0.104s;
+    fill: #fb923c;
+}
+
+.loader-4197-debris-piece-3 {
+    animation-delay: -0.156s;
+    fill: #fbbf24;
+}
+
+.loader-4197-debris-piece-4 {
+    animation-delay: -0.208s;
+    fill: #dc2626;
+}
+
+.loader-4197-debris-piece-5 {
+    animation-delay: -0.260s;
+    fill: #fb923c;
+}
+
+.loader-4197-debris-piece-6 {
+    animation-delay: -0.312s;
+    fill: #fbbf24;
+}
+
+.loader-4197-debris-piece-7 {
+    animation-delay: -0.364s;
+    fill: #dc2626;
+}
+
+.loader-4197-debris-piece-8 {
+    animation-delay: -0.416s;
+    fill: #fb923c;
+}
+
+.loader-4197-debris-piece-9 {
+    animation-delay: -0.468s;
+    fill: #fbbf24;
+}
+
+.loader-4197-debris-piece-10 {
+    animation-delay: -0.520s;
+    fill: #dc2626;
+}
+
+.loader-4197-debris-piece-11 {
+    animation-delay: -0.572s;
+    fill: #fb923c;
+}
+
+.loader-4197-debris-piece-12 {
+    animation-delay: -0.624s;
+    fill: #fbbf24;
+}
+
+.loader-4197-debris-piece-13 {
+    animation-delay: -0.000s;
+    fill: #dc2626;
+}
+
+.loader-4197-debris-piece-14 {
+    animation-delay: -0.052s;
+    fill: #fb923c;
+}
+
+.loader-4197-debris-piece-15 {
+    animation-delay: -0.104s;
+    fill: #fbbf24;
+}
+
+.loader-4197-debris-piece-16 {
+    animation-delay: -0.156s;
+    fill: #dc2626;
+}
+
+.loader-4197-debris-piece-17 {
+    animation-delay: -0.208s;
+    fill: #fb923c;
+}
+
+.loader-4197-debris-piece-18 {
+    animation-delay: -0.260s;
+    fill: #fbbf24;
+}
+
+.loader-4197-debris-piece-19 {
+    animation-delay: -0.312s;
+    fill: #dc2626;
+}
+
+.loader-4197-debris-piece-20 {
+    animation-delay: -0.364s;
+    fill: #fb923c;
+}
+
+.loader-4197-debris-piece-21 {
+    animation-delay: -0.416s;
+    fill: #fbbf24;
+}
+
+.loader-4197-debris-piece-22 {
+    animation-delay: -0.468s;
+    fill: #dc2626;
+}
+
+.loader-4197-debris-piece-23 {
+    animation-delay: -0.520s;
+    fill: #fb923c;
+}
+
+.loader-4197-debris-piece-24 {
+    animation-delay: -0.572s;
+    fill: #fbbf24;
+}
+
+.loader-4197-cast-overheat {
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    top: 13px;
+    width: 93px;
+    height: 122px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse, rgba(255, 237, 213, .52), rgba(239, 68, 68, .25) 38%, transparent 72%);
+    filter: blur(8px);
+    opacity: 0;
+    animation: loader4197Ignition 2.8s ease-in-out infinite;
+}
+
+.loader-4197-inferno-flare {
+    position: absolute;
+    z-index: 4;
+    right: -30px;
+    top: 13px;
+    width: 106px;
+    height: 120px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse, rgba(255, 251, 235, .7), rgba(249, 115, 22, .47) 42%, transparent 72%);
+    filter: blur(6px);
+    opacity: 0;
+    animation: loader4197InfernoFlare 2.8s ease-out infinite;
+}
+
+.loader-4197-progress-track {
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    bottom: 9px;
+    height: 3px;
+    z-index: 6;
+    border-radius: 999px;
+    overflow: hidden;
+    background: rgba(127, 29, 29, .6);
+    box-shadow: inset 0 0 0 1px rgba(251, 146, 60, .18);
+}
+
+.loader-4197-progress-beam {
+    position: absolute;
+    left: -45%;
+    top: 0;
+    bottom: 0;
+    width: 42%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, transparent, #ef4444 30%, #fb923c 63%, #ffedd5);
+    box-shadow: 0 0 8px rgba(251, 146, 60, .65);
+    animation: loader4197Progress 2.8s ease-in-out infinite;
+}
+
+.loader-4197-label {
+    position: absolute;
+    z-index: 6;
+    left: 13px;
+    bottom: 20px;
+    font: 700 8px/1 system-ui, sans-serif;
+    letter-spacing: .21em;
+    color: #fdba74;
+    opacity: .72;
+    pointer-events: none;
+    animation: loader4197Label 2.8s ease-in-out infinite;
+}
+
+@keyframes loader4197Atmosphere {
+    0%,100% {
+        opacity: .17;
+        transform: scale(.78);
+    }
+    20% {
+        opacity: .55;
+        transform: scale(1.05);
+    }
+    57% {
+        opacity: .78;
+        transform: scale(1.18);
+    }
+    83% {
+        opacity: .35;
+        transform: scale(.96);
+    }
+}
+
+@keyframes loader4197ScreenFlash {
+    0%, 13%, 100% {
+        opacity: 0;
+    }
+    19% {
+        opacity: .42;
+    }
+    27% {
+        opacity: .08;
+    }
+    33% {
+        opacity: .22;
+    }
+    53% {
+        opacity: .14;
+    }
+    69% {
+        opacity: .48;
+    }
+    74% {
+        opacity: .8;
+    }
+    83% {
+        opacity: 0;
+    }
+}
+
+@keyframes loader4197ImpactLight {
+    0%, 59%, 100% {
+        opacity: 0;
+        transform: scale(.4);
+    }
+    70% {
+        opacity: .9;
+        transform: scale(1.3);
+    }
+    79% {
+        opacity: .32;
+        transform: scale(1.6);
+    }
+}
+
+@keyframes loader4197HeatMap {
+    0% {
+        stroke-dashoffset: 70;
+        opacity: .08;
+    }
+    45% {
+        opacity: .75;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        opacity: .08;
+    }
+}
+
+@keyframes loader4197ChargeRing {
+    0%, 100% {
+        opacity: .22;
+        transform: scale(.75);
+    }
+    16% {
+        opacity: 1;
+        transform: scale(1.02);
+    }
+    25% {
+        opacity: .55;
+        transform: scale(1.17);
+    }
+    49% {
+        opacity: .6;
+        transform: scale(.9);
+    }
+    70% {
+        opacity: .88;
+        transform: scale(1.09);
+    }
+}
+
+@keyframes loader4197ChargeProng {
+    0%, 100% {
+        opacity: .13;
+    }
+    15% {
+        opacity: 1;
+    }
+    34% {
+        opacity: .38;
+    }
+    61% {
+        opacity: .9;
+    }
+    84% {
+        opacity: .27;
+    }
+}
+
+@keyframes loader4197Corona {
+    0%, 14% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+    24% {
+        stroke-dashoffset: 87;
+        opacity: .4;
+    }
+    38% {
+        stroke-dashoffset: 63;
+        opacity: .85;
+    }
+    56% {
+        stroke-dashoffset: 31;
+        opacity: .75;
+    }
+    72% {
+        stroke-dashoffset: 1;
+        opacity: 1;
+    }
+    85% {
+        stroke-dashoffset: 0;
+        opacity: .14;
+    }
+    100% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+}
+
+@keyframes loader4197PlasmaStrike {
+    0%, 12% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+    20% {
+        stroke-dashoffset: 93;
+        opacity: 1;
+    }
+    32% {
+        stroke-dashoffset: 73;
+        opacity: .92;
+    }
+    46% {
+        stroke-dashoffset: 47;
+        opacity: 1;
+    }
+    60% {
+        stroke-dashoffset: 20;
+        opacity: .83;
+    }
+    74% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+    83% {
+        stroke-dashoffset: 0;
+        opacity: .24;
+    }
+    92%, 100% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+}
+
+@keyframes loader4197Fork {
+    0%, 14% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+    24% {
+        stroke-dashoffset: 84;
+        opacity: 1;
+    }
+    43% {
+        stroke-dashoffset: 47;
+        opacity: .8;
+    }
+    60% {
+        stroke-dashoffset: 14;
+        opacity: 1;
+    }
+    75% {
+        stroke-dashoffset: 0;
+        opacity: .85;
+    }
+    89%, 100% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+}
+
+@keyframes loader4197FlameTongue {
+    0%, 12% {
+        transform: translateX(-28px) scaleX(.3) scaleY(.45);
+        opacity: 0;
+    }
+    26% {
+        opacity: .45;
+        transform: translateX(-6px) scaleX(.85) scaleY(.8);
+    }
+    48% {
+        transform: translateX(25px) scaleX(1.35) scaleY(1.25);
+        opacity: .78;
+    }
+    72% {
+        transform: translateX(68px) scaleX(1.65) scaleY(.85);
+        opacity: .55;
+    }
+    100% {
+        transform: translateX(105px) scaleX(.55) scaleY(.3);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4197Filament {
+    0%, 19% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+    31% {
+        stroke-dashoffset: 78;
+        opacity: .95;
+    }
+    46% {
+        stroke-dashoffset: 39;
+        opacity: .32;
+    }
+    60% {
+        stroke-dashoffset: 14;
+        opacity: 1;
+    }
+    76% {
+        stroke-dashoffset: 0;
+        opacity: .1;
+    }
+    100% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+}
+
+@keyframes loader4197SpeedDash {
+    0%, 15% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+    25% {
+        opacity: .75;
+        stroke-dashoffset: 80;
+    }
+    55% {
+        opacity: 1;
+        stroke-dashoffset: 28;
+    }
+    79% {
+        opacity: .15;
+        stroke-dashoffset: 0;
+    }
+    100% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+}
+
+@keyframes loader4197Pressure {
+    0%, 12% {
+        transform: translateX(-28px) scaleX(.5);
+        opacity: 0;
+    }
+    24% {
+        opacity: .8;
+    }
+    56% {
+        transform: translateX(140px) scaleX(1.1);
+        opacity: 1;
+    }
+    77% {
+        transform: translateX(278px) scaleX(1.3);
+        opacity: .6;
+    }
+    100% {
+        transform: translateX(323px) scaleX(.5);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4197ImpactRing {
+    0%, 58%, 100% {
+        transform: scale(.2);
+        opacity: 0;
+    }
+    69% {
+        opacity: .85;
+        transform: scale(.85);
+    }
+    77% {
+        opacity: .95;
+        transform: scale(1.28);
+    }
+    92% {
+        opacity: 0;
+        transform: scale(1.8);
+    }
+}
+
+@keyframes loader4197ImpactSpike {
+    0%, 61%, 100% {
+        transform: scale(.15);
+        opacity: 0;
+    }
+    72% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    84% {
+        opacity: .72;
+        transform: scale(1.4);
+    }
+    96% {
+        opacity: 0;
+        transform: scale(1.8);
+    }
+}
+
+@keyframes loader4197CinderFlight {
+    0% {
+        transform: translate(-18px, 1px) scale(.25);
+        opacity: 0;
+    }
+    18% {
+        opacity: .8;
+    }
+    45% {
+        transform: translate(168px, -7px) scale(1.1);
+        opacity: 1;
+    }
+    78% {
+        opacity: .7;
+    }
+    100% {
+        transform: translate(470px, 13px) scale(.3);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4197Debris {
+    0%, 60%, 100% {
+        transform: translate(0,0) rotate(0deg) scale(.25);
+        opacity: 0;
+    }
+    73% {
+        opacity: 1;
+        transform: translate(-5px, -9px) rotate(30deg) scale(1);
+    }
+    92% {
+        opacity: .55;
+        transform: translate(-27px, 17px) rotate(145deg) scale(1.2);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-39px, 27px) rotate(190deg) scale(.4);
+    }
+}
+
+@keyframes loader4197Ignition {
+    0%, 100% {
+        opacity: 0;
+        transform: scale(.6);
+    }
+    15% {
+        opacity: .85;
+        transform: scale(1.05);
+    }
+    35% {
+        opacity: .3;
+        transform: scale(.86);
+    }
+}
+
+@keyframes loader4197InfernoFlare {
+    0%, 59%, 100% {
+        opacity: 0;
+        transform: scale(.3);
+    }
+    71% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    78% {
+        opacity: .75;
+        transform: scale(1.55);
+    }
+    94% {
+        opacity: 0;
+        transform: scale(1.75);
+    }
+}
+
+@keyframes loader4197Progress {
+    0% {
+        transform: translateX(0);
+        opacity: .25;
+    }
+    15% {
+        opacity: .85;
+    }
+    72% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(360%);
+        opacity: 0;
+    }
+}
+
+@keyframes loader4197Label {
+    0%,100% {
+        opacity: .3;
+    }
+    15% {
+        opacity: 1;
+    }
+    52% {
+        opacity: .8;
+    }
+    75% {
+        opacity: 1;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .loader-4197-ambient,
+    .loader-4197-ignition-flash,
+    .loader-4197-impact-light,
+    .loader-4197-heat-map path,
+    .loader-4197-charge-ring,
+    .loader-4197-charge-prong,
+    .loader-4197-corona-path,
+    .loader-4197-plasma-path,
+    .loader-4197-fork,
+    .loader-4197-flame,
+    .loader-4197-filament,
+    .loader-4197-speed-line,
+    .loader-4197-pressure,
+    .loader-4197-impact-ring,
+    .loader-4197-impact-spike,
+    .loader-4197-cinder,
+    .loader-4197-debris-piece,
+    .loader-4197-cast-overheat,
+    .loader-4197-inferno-flare,
+    .loader-4197-progress-beam,
+    .loader-4197-label {
+        animation: none;
+    }
+    .loader-4197-plasma-path,
+    .loader-4197-corona-path,
+    .loader-4197-fork,
+    .loader-4197-filament {
+        stroke-dasharray: none;
+        stroke-dashoffset: 0;
+        opacity: .78;
+    }
+    .loader-4197-flame {
+        opacity: .5;
+        transform: translateX(18px);
+    }
+    .loader-4197-impact-ring,
+    .loader-4197-impact-spike {
+        opacity: .45;
+        transform: scale(1);
+    }
+    .loader-4197-charge-ring,
+    .loader-4197-charge-prong {
+        opacity: .6;
+        transform: none;
+    }
+    .loader-4197-pressure {
+        opacity: .45;
+        transform: translateX(90px);
+    }
+    .loader-4197-cinder {
+        opacity: .7;
+        transform: translateX(130px);
+    }
+    .loader-4197-progress-beam {
+        opacity: 1;
+        transform: translateX(160%);
+    }
+    .loader-4197-label {
+        opacity: .8;
+    }
+}`,
+  },
+  {
+    id: 4198,
+    name: "Purple Dark Lightning — Void Thunderbolt",
+    preview: (
+      <div className="loader-4198" role="status" aria-label="Laden">
+        <svg viewBox="0 0 160 68" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient
+              id="loader4198Lightning"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
+              <stop offset="0%" stopColor="#312e81" stopOpacity=".15" />
+              <stop offset="18%" stopColor="#7c3aed" />
+              <stop offset="43%" stopColor="#a855f7" />
+              <stop offset="70%" stopColor="#e879f9" />
+              <stop offset="90%" stopColor="#f5d0fe" />
+              <stop offset="100%" stopColor="#ffffff" />
+            </linearGradient>
+            <linearGradient
+              id="loader4198Core"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
+              <stop offset="0%" stopColor="#6d28d9" stopOpacity="0" />
+              <stop offset="35%" stopColor="#c084fc" />
+              <stop offset="75%" stopColor="#faf5ff" />
+              <stop offset="100%" stopColor="#ffffff" />
+            </linearGradient>
+          </defs>
+
+          <g className="loader-4198-glow">
+            <path
+              pathLength="100"
+              d="M-25 34 L6 34 L17 27 L29 38 L40 30 L52 34 L61 21 L72 36 L87 32 L100 25 L112 35 L126 28 L137 41 L147 30 L161 36 L185 33"
+            />
+            <path
+              pathLength="100"
+              d="M-25 41 L4 43 L16 37 L25 46 L39 38 L52 43 L64 35 L77 48 L89 39 L104 45 L115 36 L131 47 L143 37 L159 48 L185 42"
+            />
+            <path
+              pathLength="100"
+              d="M-25 28 L8 25 L20 33 L34 19 L47 28 L60 16 L73 29 L85 19 L99 32 L113 22 L125 33 L142 20 L155 29 L185 22"
+            />
+          </g>
+
+          <g className="loader-4198-bolts">
+            <path
+              pathLength="100"
+              d="M-25 34 L6 34 L17 27 L29 38 L40 30 L52 34 L61 21 L72 36 L87 32 L100 25 L112 35 L126 28 L137 41 L147 30 L161 36 L185 33"
+            />
+            <path
+              pathLength="100"
+              d="M-25 41 L4 43 L16 37 L25 46 L39 38 L52 43 L64 35 L77 48 L89 39 L104 45 L115 36 L131 47 L143 37 L159 48 L185 42"
+            />
+            <path
+              pathLength="100"
+              d="M-25 28 L8 25 L20 33 L34 19 L47 28 L60 16 L73 29 L85 19 L99 32 L113 22 L125 33 L142 20 L155 29 L185 22"
+            />
+            <path
+              pathLength="100"
+              d="M-25 17 L5 22 L17 12 L31 24 L44 15 L57 25 L70 11 L82 23 L96 17 L111 28 L123 16 L136 24 L149 13 L185 19"
+            />
+            <path
+              pathLength="100"
+              d="M-25 51 L7 47 L21 57 L33 45 L47 56 L60 44 L75 59 L88 47 L103 55 L116 43 L130 58 L143 47 L158 55 L185 49"
+            />
+            <path
+              pathLength="100"
+              d="M-25 9 L7 12 L21 5 L34 15 L48 8 L63 17 L77 7 L94 15 L109 5 L124 18 L139 9 L154 15 L185 8"
+            />
+            <path
+              pathLength="100"
+              d="M-25 60 L8 57 L23 65 L38 54 L51 63 L67 53 L81 65 L96 56 L110 64 L126 54 L144 62 L159 56 L185 61"
+            />
+            <path
+              pathLength="100"
+              d="M-25 35 L12 30 L25 42 L38 26 L51 38 L65 29 L77 43 L93 27 L108 40 L122 29 L139 44 L154 33 L185 37"
+            />
+            <path
+              pathLength="100"
+              d="M-25 43 L4 39 L19 49 L32 35 L47 47 L61 38 L78 52 L93 42 L109 50 L124 39 L141 51 L156 43 L185 47"
+            />
+          </g>
+
+          <g className="loader-4198-core">
+            <path
+              pathLength="100"
+              d="M-25 34 L6 34 L17 27 L29 38 L40 30 L52 34 L61 21 L72 36 L87 32 L100 25 L112 35 L126 28 L137 41 L147 30 L161 36 L185 33"
+            />
+            <path
+              pathLength="100"
+              d="M-25 41 L4 43 L16 37 L25 46 L39 38 L52 43 L64 35 L77 48 L89 39 L104 45 L115 36 L131 47 L143 37 L159 48 L185 42"
+            />
+          </g>
+
+          <g className="loader-4198-branches">
+            <path pathLength="100" d="M29 38 L36 21 L45 25 L53 9 L60 18" />
+            <path pathLength="100" d="M69 34 L82 50 L94 44 L100 59" />
+            <path pathLength="100" d="M117 29 L125 13 L134 19 L145 5" />
+            <path pathLength="100" d="M138 41 L145 55 L159 51 L173 65" />
+            <path pathLength="100" d="M43 30 L32 14 L18 17 L10 6" />
+            <path pathLength="100" d="M90 27 L101 11 L111 17 L122 4" />
+            <path pathLength="100" d="M104 46 L109 61 L125 54 L136 67" />
+            <path pathLength="100" d="M73 43 L63 57 L47 53 L35 65" />
+            <path pathLength="100" d="M54 35 L63 49 L76 46 L85 62" />
+            <path pathLength="100" d="M145 31 L153 15 L165 20 L178 6" />
+          </g>
+
+          <g className="loader-4198-impact">
+            <path d="M141 15 Q169 34 141 53" />
+            <path d="M148 8 Q183 34 148 60" />
+            <path d="M153 20 Q169 34 153 48" />
+          </g>
+
+          <g className="loader-4198-sparks">
+            <circle cx="-20" cy="8" r="1.5" />
+            <circle cx="-36" cy="17" r="1.2" />
+            <circle cx="-12" cy="25" r="2" />
+            <circle cx="-29" cy="34" r="1.4" />
+            <circle cx="-43" cy="43" r="1.8" />
+            <circle cx="-15" cy="52" r="1.5" />
+            <circle cx="-33" cy="61" r="1.2" />
+            <circle cx="-25" cy="13" r="1" />
+            <circle cx="-40" cy="56" r="1.7" />
+            <circle cx="-8" cy="39" r="1.1" />
+          </g>
+        </svg>
+      </div>
+    ),
+    html: `<div class="loader-4198" role="status" aria-label="Laden">
+    <svg viewBox="0 0 160 68" aria-hidden="true" focusable="false">
+        <defs>
+            <linearGradient id="loader4198Lightning" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#312e81" stop-opacity=".15" />
+                <stop offset="18%" stop-color="#7c3aed" />
+                <stop offset="43%" stop-color="#a855f7" />
+                <stop offset="70%" stop-color="#e879f9" />
+                <stop offset="90%" stop-color="#f5d0fe" />
+                <stop offset="100%" stop-color="#ffffff" />
+            </linearGradient>
+            <linearGradient id="loader4198Core" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#6d28d9" stop-opacity="0" />
+                <stop offset="35%" stop-color="#c084fc" />
+                <stop offset="75%" stop-color="#faf5ff" />
+                <stop offset="100%" stop-color="#ffffff" />
+            </linearGradient>
+        </defs>
+
+        <g class="loader-4198-glow">
+            <path pathLength="100" d="M-25 34 L6 34 L17 27 L29 38 L40 30 L52 34 L61 21 L72 36 L87 32 L100 25 L112 35 L126 28 L137 41 L147 30 L161 36 L185 33" />
+            <path pathLength="100" d="M-25 41 L4 43 L16 37 L25 46 L39 38 L52 43 L64 35 L77 48 L89 39 L104 45 L115 36 L131 47 L143 37 L159 48 L185 42" />
+            <path pathLength="100" d="M-25 28 L8 25 L20 33 L34 19 L47 28 L60 16 L73 29 L85 19 L99 32 L113 22 L125 33 L142 20 L155 29 L185 22" />
+        </g>
+
+        <g class="loader-4198-bolts">
+            <path pathLength="100" d="M-25 34 L6 34 L17 27 L29 38 L40 30 L52 34 L61 21 L72 36 L87 32 L100 25 L112 35 L126 28 L137 41 L147 30 L161 36 L185 33" />
+            <path pathLength="100" d="M-25 41 L4 43 L16 37 L25 46 L39 38 L52 43 L64 35 L77 48 L89 39 L104 45 L115 36 L131 47 L143 37 L159 48 L185 42" />
+            <path pathLength="100" d="M-25 28 L8 25 L20 33 L34 19 L47 28 L60 16 L73 29 L85 19 L99 32 L113 22 L125 33 L142 20 L155 29 L185 22" />
+            <path pathLength="100" d="M-25 17 L5 22 L17 12 L31 24 L44 15 L57 25 L70 11 L82 23 L96 17 L111 28 L123 16 L136 24 L149 13 L185 19" />
+            <path pathLength="100" d="M-25 51 L7 47 L21 57 L33 45 L47 56 L60 44 L75 59 L88 47 L103 55 L116 43 L130 58 L143 47 L158 55 L185 49" />
+            <path pathLength="100" d="M-25 9 L7 12 L21 5 L34 15 L48 8 L63 17 L77 7 L94 15 L109 5 L124 18 L139 9 L154 15 L185 8" />
+            <path pathLength="100" d="M-25 60 L8 57 L23 65 L38 54 L51 63 L67 53 L81 65 L96 56 L110 64 L126 54 L144 62 L159 56 L185 61" />
+            <path pathLength="100" d="M-25 35 L12 30 L25 42 L38 26 L51 38 L65 29 L77 43 L93 27 L108 40 L122 29 L139 44 L154 33 L185 37" />
+            <path pathLength="100" d="M-25 43 L4 39 L19 49 L32 35 L47 47 L61 38 L78 52 L93 42 L109 50 L124 39 L141 51 L156 43 L185 47" />
+        </g>
+
+        <g class="loader-4198-core">
+            <path pathLength="100" d="M-25 34 L6 34 L17 27 L29 38 L40 30 L52 34 L61 21 L72 36 L87 32 L100 25 L112 35 L126 28 L137 41 L147 30 L161 36 L185 33" />
+            <path pathLength="100" d="M-25 41 L4 43 L16 37 L25 46 L39 38 L52 43 L64 35 L77 48 L89 39 L104 45 L115 36 L131 47 L143 37 L159 48 L185 42" />
+        </g>
+
+        <g class="loader-4198-branches">
+            <path pathLength="100" d="M29 38 L36 21 L45 25 L53 9 L60 18" />
+            <path pathLength="100" d="M69 34 L82 50 L94 44 L100 59" />
+            <path pathLength="100" d="M117 29 L125 13 L134 19 L145 5" />
+            <path pathLength="100" d="M138 41 L145 55 L159 51 L173 65" />
+            <path pathLength="100" d="M43 30 L32 14 L18 17 L10 6" />
+            <path pathLength="100" d="M90 27 L101 11 L111 17 L122 4" />
+            <path pathLength="100" d="M104 46 L109 61 L125 54 L136 67" />
+            <path pathLength="100" d="M73 43 L63 57 L47 53 L35 65" />
+            <path pathLength="100" d="M54 35 L63 49 L76 46 L85 62" />
+            <path pathLength="100" d="M145 31 L153 15 L165 20 L178 6" />
+        </g>
+
+        <g class="loader-4198-impact">
+            <path d="M141 15 Q169 34 141 53" />
+            <path d="M148 8 Q183 34 148 60" />
+            <path d="M153 20 Q169 34 153 48" />
+        </g>
+
+        <g class="loader-4198-sparks">
+            <circle cx="-20" cy="8" r="1.5" />
+            <circle cx="-36" cy="17" r="1.2" />
+            <circle cx="-12" cy="25" r="2" />
+            <circle cx="-29" cy="34" r="1.4" />
+            <circle cx="-43" cy="43" r="1.8" />
+            <circle cx="-15" cy="52" r="1.5" />
+            <circle cx="-33" cy="61" r="1.2" />
+            <circle cx="-25" cy="13" r="1" />
+            <circle cx="-40" cy="56" r="1.7" />
+            <circle cx="-8" cy="39" r="1.1" />
+        </g>
+    </svg>
+</div>`,
+    css: `.loader-4198 {
+    width: 156px;
+    height: 66px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background: transparent;
+}
+
+.loader-4198 svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    fill: none;
+    -webkit-mask-image: linear-gradient(
+        90deg,
+        transparent,
+        #000 7%,
+        #000 93%,
+        transparent
+    );
+    mask-image: linear-gradient(
+        90deg,
+        transparent,
+        #000 7%,
+        #000 93%,
+        transparent
+    );
+}
+
+.loader-4198-glow path {
+    fill: none;
+    stroke: #a855f7;
+    stroke-width: 9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 30 70;
+    filter: blur(4px);
+    opacity: .65;
+    animation: loader4198Travel 1.25s linear infinite;
+}
+
+.loader-4198-glow path:nth-child(1) {
+    animation-duration: 1.05s;
+    animation-delay: -.3s;
+}
+
+.loader-4198-glow path:nth-child(2) {
+    animation-duration: 1.35s;
+    animation-delay: -.9s;
+    stroke: #7c3aed;
+}
+
+.loader-4198-glow path:nth-child(3) {
+    animation-duration: 1.55s;
+    animation-delay: -.65s;
+    stroke: #d946ef;
+}
+
+.loader-4198-bolts path {
+    fill: none;
+    stroke: url(#loader4198Lightning);
+    stroke-width: 2.6;
+    stroke-linecap: round;
+    stroke-linejoin: miter;
+    stroke-dasharray: 27 73;
+    stroke-dashoffset: 100;
+    filter: drop-shadow(0 0 3px rgba(168, 85, 247, .8));
+    animation: loader4198Travel 1.2s linear infinite;
+}
+
+.loader-4198-bolts path:nth-child(1) {
+    stroke-width: 3.7;
+    stroke-dasharray: 34 66;
+    animation-duration: 1.05s;
+    animation-delay: -.3s;
+}
+
+.loader-4198-bolts path:nth-child(2) {
+    stroke-width: 3;
+    animation-duration: 1.35s;
+    animation-delay: -.9s;
+}
+
+.loader-4198-bolts path:nth-child(3) {
+    stroke-width: 2.8;
+    animation-duration: 1.55s;
+    animation-delay: -.65s;
+}
+
+.loader-4198-bolts path:nth-child(4) {
+    stroke-width: 2;
+    stroke-dasharray: 20 80;
+    animation-duration: 1.1s;
+    animation-delay: -.75s;
+    opacity: .8;
+}
+
+.loader-4198-bolts path:nth-child(5) {
+    stroke-width: 2.3;
+    stroke-dasharray: 24 76;
+    animation-duration: 1.3s;
+    animation-delay: -.25s;
+}
+
+.loader-4198-bolts path:nth-child(6) {
+    stroke-width: 1.4;
+    stroke-dasharray: 17 83;
+    animation-duration: .95s;
+    animation-delay: -.5s;
+    opacity: .65;
+}
+
+.loader-4198-bolts path:nth-child(7) {
+    stroke-width: 1.6;
+    stroke-dasharray: 18 82;
+    animation-duration: 1.45s;
+    animation-delay: -1.15s;
+    opacity: .7;
+}
+
+.loader-4198-bolts path:nth-child(8) {
+    stroke-width: 2.7;
+    stroke-dasharray: 26 74;
+    animation-duration: 1.08s;
+    animation-delay: -.85s;
+}
+
+.loader-4198-bolts path:nth-child(9) {
+    stroke-width: 2.1;
+    stroke-dasharray: 22 78;
+    animation-duration: 1.28s;
+    animation-delay: -.45s;
+}
+
+.loader-4198-core path {
+    fill: none;
+    stroke: url(#loader4198Core);
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-dasharray: 34 66;
+    filter: drop-shadow(0 0 2px rgba(250, 245, 255, .95));
+    animation: loader4198Travel 1.05s linear infinite;
+}
+
+.loader-4198-core path:nth-child(1) {
+    animation-delay: -.3s;
+}
+
+.loader-4198-core path:nth-child(2) {
+    stroke-width: 1.2;
+    stroke-dasharray: 27 73;
+    animation-duration: 1.35s;
+    animation-delay: -.9s;
+}
+
+.loader-4198-branches path {
+    fill: none;
+    stroke: #c084fc;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: miter;
+    stroke-dasharray: 30 70;
+    stroke-dashoffset: 100;
+    filter: drop-shadow(0 0 3px rgba(192, 132, 252, .7));
+    animation: loader4198Branch 1.2s ease-in-out infinite;
+}
+
+.loader-4198-branches path:nth-child(1) {
+    animation-delay: -.1s;
+}
+
+.loader-4198-branches path:nth-child(2) {
+    animation-delay: -.42s;
+}
+
+.loader-4198-branches path:nth-child(3) {
+    animation-delay: -.78s;
+}
+
+.loader-4198-branches path:nth-child(4) {
+    animation-delay: -.25s;
+}
+
+.loader-4198-branches path:nth-child(5) {
+    animation-delay: -.63s;
+}
+
+.loader-4198-branches path:nth-child(6) {
+    animation-delay: -.94s;
+}
+
+.loader-4198-branches path:nth-child(7) {
+    animation-delay: -.36s;
+}
+
+.loader-4198-branches path:nth-child(8) {
+    animation-delay: -.82s;
+}
+
+.loader-4198-branches path:nth-child(9) {
+    animation-delay: -.53s;
+}
+
+.loader-4198-branches path:nth-child(10) {
+    animation-delay: -1.07s;
+}
+
+.loader-4198-impact path {
+    fill: none;
+    stroke: #e879f9;
+    stroke-width: 2;
+    stroke-linecap: round;
+    opacity: 0;
+    filter: drop-shadow(0 0 5px rgba(217, 70, 239, .75));
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: loader4198Impact 1.15s ease-out infinite;
+}
+
+.loader-4198-impact path:nth-child(2) {
+    stroke: #a855f7;
+    stroke-width: 1.6;
+    animation-delay: -.38s;
+}
+
+.loader-4198-impact path:nth-child(3) {
+    stroke: #faf5ff;
+    stroke-width: 1.1;
+    animation-delay: -.76s;
+}
+
+.loader-4198-sparks circle {
+    fill: #e9d5ff;
+    filter: drop-shadow(0 0 2px #a855f7);
+    opacity: 0;
+    animation: loader4198Spark 1.2s linear infinite;
+}
+
+.loader-4198-sparks circle:nth-child(1) {
+    animation-duration: .9s;
+    animation-delay: -.25s;
+}
+
+.loader-4198-sparks circle:nth-child(2) {
+    animation-duration: 1.25s;
+    animation-delay: -.8s;
+    fill: #d946ef;
+}
+
+.loader-4198-sparks circle:nth-child(3) {
+    animation-duration: .85s;
+    animation-delay: -.5s;
+    fill: #faf5ff;
+}
+
+.loader-4198-sparks circle:nth-child(4) {
+    animation-duration: 1.1s;
+    animation-delay: -.1s;
+}
+
+.loader-4198-sparks circle:nth-child(5) {
+    animation-duration: 1.4s;
+    animation-delay: -1.1s;
+    fill: #a855f7;
+}
+
+.loader-4198-sparks circle:nth-child(6) {
+    animation-duration: .95s;
+    animation-delay: -.65s;
+}
+
+.loader-4198-sparks circle:nth-child(7) {
+    animation-duration: 1.3s;
+    animation-delay: -.35s;
+}
+
+.loader-4198-sparks circle:nth-child(8) {
+    animation-duration: .78s;
+    animation-delay: -.72s;
+    fill: #ffffff;
+}
+
+.loader-4198-sparks circle:nth-child(9) {
+    animation-duration: 1.45s;
+    animation-delay: -1.25s;
+}
+
+.loader-4198-sparks circle:nth-child(10) {
+    animation-duration: 1.05s;
+    animation-delay: -.45s;
+    fill: #f0abfc;
+}
+
+@keyframes loader4198Travel {
+    from {
+        stroke-dashoffset: 100;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes loader4198Branch {
+    0% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    55% {
+        stroke-dashoffset: 45;
+        opacity: 1;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes loader4198Impact {
+    0%, 55%, 100% {
+        transform: scale(.55);
+        opacity: 0;
+    }
+    70% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    88% {
+        transform: scale(1.35);
+        opacity: .35;
+    }
+}
+
+@keyframes loader4198Spark {
+    0% {
+        transform: translate(-12px, 0) scale(.3);
+        opacity: 0;
+    }
+    15% {
+        opacity: .9;
+    }
+    45% {
+        transform: translate(110px, -3px) scale(1);
+        opacity: 1;
+    }
+    80% {
+        opacity: .75;
+    }
+    100% {
+        transform: translate(210px, 3px) scale(.4);
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .loader-4198-glow path,
+    .loader-4198-bolts path,
+    .loader-4198-core path,
+    .loader-4198-branches path,
+    .loader-4198-impact path,
+    .loader-4198-sparks circle {
+        animation: none;
+    }
+
+    .loader-4198-glow path,
+    .loader-4198-bolts path,
+    .loader-4198-core path {
+        stroke-dashoffset: 45;
+    }
+
+    .loader-4198-branches path {
+        stroke-dashoffset: 35;
+        opacity: .8;
+    }
+
+    .loader-4198-impact path {
+        opacity: .6;
+        transform: none;
+    }
+
+    .loader-4198-sparks circle {
+        opacity: .7;
+    }
+
+    .loader-4198-sparks circle:nth-child(1) {
+        transform: translateX(50px);
+    }
+
+    .loader-4198-sparks circle:nth-child(2) {
+        transform: translateX(95px);
+    }
+
+    .loader-4198-sparks circle:nth-child(3) {
+        transform: translateX(135px);
+    }
+
+    .loader-4198-sparks circle:nth-child(4) {
+        transform: translateX(170px);
+    }
+
+    .loader-4198-sparks circle:nth-child(5) {
+        transform: translateX(100px);
+    }
+
+    .loader-4198-sparks circle:nth-child(6) {
+        transform: translateX(65px);
+    }
+
+    .loader-4198-sparks circle:nth-child(7) {
+        transform: translateX(120px);
+    }
+
+    .loader-4198-sparks circle:nth-child(8) {
+        transform: translateX(85px);
+    }
+
+    .loader-4198-sparks circle:nth-child(9) {
+        transform: translateX(145px);
+    }
+
+    .loader-4198-sparks circle:nth-child(10) {
+        transform: translateX(155px);
+    }
+}`,
+  },
+  {
+    id: 4199,
+    name: "Void Singularity Loader",
+    preview: (
+      <div className="loader-4199" role="status" aria-label="Loading">
+        <span className="loader-4199-core"></span>
+        <span className="loader-4199-ring loader-4199-ring-1"></span>
+        <span className="loader-4199-ring loader-4199-ring-2"></span>
+        <span className="loader-4199-ring loader-4199-ring-3"></span>
+        <span className="loader-4199-ring loader-4199-ring-4"></span>
+
+        <span className="loader-4199-orbit loader-4199-orbit-1">
+          <span className="loader-4199-particle"></span>
+        </span>
+        <span className="loader-4199-orbit loader-4199-orbit-2">
+          <span className="loader-4199-particle"></span>
+        </span>
+        <span className="loader-4199-orbit loader-4199-orbit-3">
+          <span className="loader-4199-particle"></span>
+        </span>
+
+        <span className="loader-4199-streak loader-4199-streak-1"></span>
+        <span className="loader-4199-streak loader-4199-streak-2"></span>
+        <span className="loader-4199-streak loader-4199-streak-3"></span>
+        <span className="loader-4199-streak loader-4199-streak-4"></span>
+        <span className="loader-4199-streak loader-4199-streak-5"></span>
+        <span className="loader-4199-streak loader-4199-streak-6"></span>
+      </div>
+    ),
+    html: `<div class="loader-4199" role="status" aria-label="Loading">
+    <span class="loader-4199-core"></span>
+    <span class="loader-4199-ring loader-4199-ring-1"></span>
+    <span class="loader-4199-ring loader-4199-ring-2"></span>
+    <span class="loader-4199-ring loader-4199-ring-3"></span>
+    <span class="loader-4199-ring loader-4199-ring-4"></span>
+
+    <span class="loader-4199-orbit loader-4199-orbit-1">
+        <span class="loader-4199-particle"></span>
+    </span>
+    <span class="loader-4199-orbit loader-4199-orbit-2">
+        <span class="loader-4199-particle"></span>
+    </span>
+    <span class="loader-4199-orbit loader-4199-orbit-3">
+        <span class="loader-4199-particle"></span>
+    </span>
+
+    <span class="loader-4199-streak loader-4199-streak-1"></span>
+    <span class="loader-4199-streak loader-4199-streak-2"></span>
+    <span class="loader-4199-streak loader-4199-streak-3"></span>
+    <span class="loader-4199-streak loader-4199-streak-4"></span>
+    <span class="loader-4199-streak loader-4199-streak-5"></span>
+    <span class="loader-4199-streak loader-4199-streak-6"></span>
+</div>`,
+    css: `.loader-4199 {
+    position: relative;
+    width: 96px;
+    height: 96px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    isolation: isolate;
+}
+
+.loader-4199::before {
+    content: "";
+    position: absolute;
+    inset: 18px;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at center, rgba(255,255,255,.2), transparent 52%),
+        radial-gradient(circle at center, rgba(168,85,247,.24), transparent 72%);
+    filter: blur(8px);
+    animation: loader4199Pulse 2.2s ease-in-out infinite;
+}
+
+.loader-4199::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at center, rgba(91,33,182,.08), transparent 58%),
+        radial-gradient(circle at center, rgba(192,132,252,.08), transparent 76%);
+    filter: blur(16px);
+    animation: loader4199Aura 3.2s linear infinite;
+}
+
+.loader-4199-core {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at 35% 35%, #f5d0fe 0%, #e879f9 25%, #7e22ce 58%, #0f0619 100%);
+    box-shadow:
+        0 0 10px rgba(192,132,252,.85),
+        0 0 20px rgba(168,85,247,.6),
+        0 0 36px rgba(91,33,182,.55),
+        inset 0 0 10px rgba(255,255,255,.18);
+    z-index: 5;
+    animation: loader4199Core 1.8s ease-in-out infinite;
+}
+
+.loader-4199-ring {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    mix-blend-mode: screen;
+}
+
+.loader-4199-ring-1 {
+    width: 34px;
+    height: 34px;
+    border-top-color: rgba(244,114,182,.95);
+    border-right-color: rgba(216,180,254,.55);
+    border-bottom-color: rgba(91,33,182,.15);
+    transform: rotate(0deg);
+    animation: loader4199SpinClock 1.1s linear infinite;
+}
+
+.loader-4199-ring-2 {
+    width: 48px;
+    height: 48px;
+    border-top-color: rgba(196,181,253,.92);
+    border-left-color: rgba(168,85,247,.48);
+    border-bottom-color: rgba(59,7,100,.12);
+    animation: loader4199SpinCounter 1.55s linear infinite;
+}
+
+.loader-4199-ring-3 {
+    width: 62px;
+    height: 62px;
+    border-top-color: rgba(192,132,252,.8);
+    border-right-color: rgba(236,72,153,.34);
+    border-left-color: rgba(147,51,234,.18);
+    box-shadow: 0 0 10px rgba(192,132,252,.18);
+    animation: loader4199SpinClock 2s linear infinite reverse;
+}
+
+.loader-4199-ring-4 {
+    width: 78px;
+    height: 78px;
+    border-top-color: rgba(129,140,248,.55);
+    border-right-color: rgba(192,132,252,.28);
+    border-left-color: rgba(255,255,255,.08);
+    opacity: .8;
+    animation: loader4199SpinCounter 2.7s linear infinite;
+}
+
+.loader-4199-orbit {
+    position: absolute;
+    inset: 0;
+    animation: loader4199Orbit linear infinite;
+}
+
+.loader-4199-orbit-1 {
+    animation-duration: 1.6s;
+}
+
+.loader-4199-orbit-2 {
+    animation-duration: 2.1s;
+    animation-direction: reverse;
+}
+
+.loader-4199-orbit-3 {
+    animation-duration: 2.8s;
+}
+
+.loader-4199-particle {
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    margin-left: -4px;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at 35% 35%, #ffffff, #f5d0fe 30%, #c084fc 68%, #7e22ce 100%);
+    box-shadow:
+        0 0 8px rgba(255,255,255,.85),
+        0 0 14px rgba(192,132,252,.85);
+    animation: loader4199Particle 1.2s ease-in-out infinite;
+}
+
+.loader-4199-orbit-2 .loader-4199-particle {
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    top: 12px;
+    animation-delay: -.4s;
+}
+
+.loader-4199-orbit-3 .loader-4199-particle {
+    width: 5px;
+    height: 5px;
+    margin-left: -2.5px;
+    top: 2px;
+    animation-delay: -.8s;
+}
+
+.loader-4199-streak {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 2px;
+    border-radius: 999px;
+    transform-origin: 0 50%;
+    background: linear-gradient(90deg, rgba(255,255,255,.9), rgba(192,132,252,.8), rgba(168,85,247,0));
+    filter: drop-shadow(0 0 4px rgba(192,132,252,.45));
+    opacity: 0;
+    z-index: 1;
+    animation: loader4199Suck 1.8s ease-in-out infinite;
+}
+
+.loader-4199-streak-1 {
+    width: 24px;
+    transform: rotate(0deg) translateX(20px);
+    animation-delay: 0s;
+}
+
+.loader-4199-streak-2 {
+    width: 28px;
+    transform: rotate(60deg) translateX(19px);
+    animation-delay: -.25s;
+}
+
+.loader-4199-streak-3 {
+    width: 22px;
+    transform: rotate(120deg) translateX(22px);
+    animation-delay: -.55s;
+}
+
+.loader-4199-streak-4 {
+    width: 26px;
+    transform: rotate(180deg) translateX(20px);
+    animation-delay: -.8s;
+}
+
+.loader-4199-streak-5 {
+    width: 21px;
+    transform: rotate(240deg) translateX(22px);
+    animation-delay: -1.05s;
+}
+
+.loader-4199-streak-6 {
+    width: 25px;
+    transform: rotate(300deg) translateX(18px);
+    animation-delay: -1.3s;
+}
+
+@keyframes loader4199SpinClock {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader4199SpinCounter {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes loader4199Orbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader4199Core {
+    0%, 100% {
+        transform: scale(.82);
+        filter: brightness(.95);
+    }
+    50% {
+        transform: scale(1.14);
+        filter: brightness(1.22);
+    }
+}
+
+@keyframes loader4199Pulse {
+    0%, 100% {
+        transform: scale(.88);
+        opacity: .45;
+    }
+    50% {
+        transform: scale(1.12);
+        opacity: 1;
+    }
+}
+
+@keyframes loader4199Aura {
+    from {
+        transform: rotate(0deg) scale(.96);
+    }
+    to {
+        transform: rotate(360deg) scale(1.04);
+    }
+}
+
+@keyframes loader4199Particle {
+    0%, 100% {
+        transform: scale(.75);
+        opacity: .7;
+    }
+    50% {
+        transform: scale(1.25);
+        opacity: 1;
+    }
+}
+
+@keyframes loader4199Suck {
+    0% {
+        opacity: 0;
+        transform: scaleX(1) scaleY(1) rotate(var(--loader4199-rotate, 0deg)) translateX(32px);
+    }
+    12% {
+        opacity: .95;
+    }
+    65% {
+        opacity: .85;
+    }
+    100% {
+        opacity: 0;
+        transform: scaleX(.35) scaleY(.7) rotate(var(--loader4199-rotate, 0deg)) translateX(6px);
+    }
+}
+
+.loader-4199-streak-1 { --loader4199-rotate: 0deg; }
+.loader-4199-streak-2 { --loader4199-rotate: 60deg; }
+.loader-4199-streak-3 { --loader4199-rotate: 120deg; }
+.loader-4199-streak-4 { --loader4199-rotate: 180deg; }
+.loader-4199-streak-5 { --loader4199-rotate: 240deg; }
+.loader-4199-streak-6 { --loader4199-rotate: 300deg; }
+
+@media (prefers-reduced-motion: reduce) {
+    .loader-4199::before,
+    .loader-4199::after,
+    .loader-4199-core,
+    .loader-4199-ring,
+    .loader-4199-orbit,
+    .loader-4199-particle,
+    .loader-4199-streak {
+        animation: none;
+    }
+
+    .loader-4199-ring-1 { transform: rotate(30deg); }
+    .loader-4199-ring-2 { transform: rotate(120deg); }
+    .loader-4199-ring-3 { transform: rotate(210deg); }
+    .loader-4199-ring-4 { transform: rotate(280deg); }
+
+    .loader-4199-orbit-1 { transform: rotate(45deg); }
+    .loader-4199-orbit-2 { transform: rotate(165deg); }
+    .loader-4199-orbit-3 { transform: rotate(285deg); }
+
+    .loader-4199-streak {
+        opacity: .45;
+    }
+}`,
+  },
+  {
+    id: 4200,
+    name: "Void Singularity II",
+    preview: (
+      <div className="loader-4200" role="status" aria-label="Loading">
+        <span className="loader-4200-core"></span>
+        <span className="loader-4200-core-glow"></span>
+
+        <span className="loader-4200-ring loader-4200-ring-1"></span>
+        <span className="loader-4200-ring loader-4200-ring-2"></span>
+        <span className="loader-4200-ring loader-4200-ring-3"></span>
+        <span className="loader-4200-ring loader-4200-ring-4"></span>
+
+        <span className="loader-4200-orbit loader-4200-orbit-1">
+          <span className="loader-4200-fragment"></span>
+        </span>
+        <span className="loader-4200-orbit loader-4200-orbit-2">
+          <span className="loader-4200-fragment"></span>
+        </span>
+        <span className="loader-4200-orbit loader-4200-orbit-3">
+          <span className="loader-4200-fragment"></span>
+        </span>
+        <span className="loader-4200-orbit loader-4200-orbit-4">
+          <span className="loader-4200-fragment"></span>
+        </span>
+
+        <span className="loader-4200-surge loader-4200-surge-1"></span>
+        <span className="loader-4200-surge loader-4200-surge-2"></span>
+        <span className="loader-4200-surge loader-4200-surge-3"></span>
+        <span className="loader-4200-surge loader-4200-surge-4"></span>
+        <span className="loader-4200-surge loader-4200-surge-5"></span>
+        <span className="loader-4200-surge loader-4200-surge-6"></span>
+        <span className="loader-4200-surge loader-4200-surge-7"></span>
+        <span className="loader-4200-surge loader-4200-surge-8"></span>
+
+        <span className="loader-4200-arc loader-4200-arc-1"></span>
+        <span className="loader-4200-arc loader-4200-arc-2"></span>
+        <span className="loader-4200-arc loader-4200-arc-3"></span>
+      </div>
+    ),
+    html: `<div class="loader-4200" role="status" aria-label="Loading">
+    <span class="loader-4200-core"></span>
+    <span class="loader-4200-core-glow"></span>
+
+    <span class="loader-4200-ring loader-4200-ring-1"></span>
+    <span class="loader-4200-ring loader-4200-ring-2"></span>
+    <span class="loader-4200-ring loader-4200-ring-3"></span>
+    <span class="loader-4200-ring loader-4200-ring-4"></span>
+
+    <span class="loader-4200-orbit loader-4200-orbit-1">
+        <span class="loader-4200-fragment"></span>
+    </span>
+    <span class="loader-4200-orbit loader-4200-orbit-2">
+        <span class="loader-4200-fragment"></span>
+    </span>
+    <span class="loader-4200-orbit loader-4200-orbit-3">
+        <span class="loader-4200-fragment"></span>
+    </span>
+    <span class="loader-4200-orbit loader-4200-orbit-4">
+        <span class="loader-4200-fragment"></span>
+    </span>
+
+    <span class="loader-4200-surge loader-4200-surge-1"></span>
+    <span class="loader-4200-surge loader-4200-surge-2"></span>
+    <span class="loader-4200-surge loader-4200-surge-3"></span>
+    <span class="loader-4200-surge loader-4200-surge-4"></span>
+    <span class="loader-4200-surge loader-4200-surge-5"></span>
+    <span class="loader-4200-surge loader-4200-surge-6"></span>
+    <span class="loader-4200-surge loader-4200-surge-7"></span>
+    <span class="loader-4200-surge loader-4200-surge-8"></span>
+
+    <span class="loader-4200-arc loader-4200-arc-1"></span>
+    <span class="loader-4200-arc loader-4200-arc-2"></span>
+    <span class="loader-4200-arc loader-4200-arc-3"></span>
+</div>`,
+    css: `.loader-4200 {
+    position: relative;
+    width: 104px;
+    height: 104px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    isolation: isolate;
+}
+
+.loader-4200::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at center, rgba(30, 10, 48, .12), transparent 54%),
+        radial-gradient(circle at center, rgba(168, 85, 247, .08), transparent 74%);
+    filter: blur(14px);
+    animation: loader4200Aura 3.4s linear infinite;
+}
+
+.loader-4200::after {
+    content: "";
+    position: absolute;
+    inset: 20px;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at center, rgba(255,255,255,.06), transparent 45%),
+        radial-gradient(circle at center, rgba(76, 29, 149, .25), transparent 68%),
+        radial-gradient(circle at center, rgba(15, 4, 24, .96) 0 52%, transparent 64%);
+    filter: blur(2px);
+    animation: loader4200Well 2s ease-in-out infinite;
+}
+
+.loader-4200-core {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at 35% 35%, #f5f3ff 0%, #e9d5ff 16%, #c084fc 34%, #7e22ce 55%, #2e1065 76%, #05010a 100%);
+    box-shadow:
+        0 0 10px rgba(216,180,254,.85),
+        0 0 22px rgba(168,85,247,.75),
+        0 0 40px rgba(91,33,182,.65),
+        inset 0 0 14px rgba(255,255,255,.16);
+    z-index: 7;
+    animation: loader4200Core 1.35s ease-in-out infinite;
+}
+
+.loader-4200-core-glow {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle, rgba(196,181,253,.32), rgba(168,85,247,.12) 48%, rgba(0,0,0,0) 76%);
+    filter: blur(8px);
+    z-index: 2;
+    animation: loader4200Glow 1.35s ease-in-out infinite;
+}
+
+.loader-4200-ring {
+    position: absolute;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: transparent;
+    mix-blend-mode: screen;
+}
+
+.loader-4200-ring-1 {
+    width: 36px;
+    height: 36px;
+    border-width: 3px;
+    border-top-color: rgba(244,114,182,.95);
+    border-right-color: rgba(216,180,254,.52);
+    border-left-color: rgba(255,255,255,.18);
+    animation: loader4200SpinClock .95s linear infinite;
+}
+
+.loader-4200-ring-2 {
+    width: 52px;
+    height: 52px;
+    border-width: 2px;
+    border-top-color: rgba(196,181,253,.92);
+    border-bottom-color: rgba(124,58,237,.3);
+    border-left-color: rgba(236,72,153,.25);
+    animation: loader4200SpinCounter 1.35s linear infinite;
+}
+
+.loader-4200-ring-3 {
+    width: 68px;
+    height: 68px;
+    border-width: 2px;
+    border-top-color: rgba(168,85,247,.8);
+    border-right-color: rgba(79,70,229,.25);
+    border-left-color: rgba(255,255,255,.08);
+    box-shadow: 0 0 14px rgba(168,85,247,.18);
+    animation: loader4200SpinClock 1.85s linear infinite reverse;
+}
+
+.loader-4200-ring-4 {
+    width: 86px;
+    height: 86px;
+    border-width: 1px;
+    border-top-color: rgba(129,140,248,.62);
+    border-right-color: rgba(192,132,252,.2);
+    border-left-color: rgba(255,255,255,.05);
+    opacity: .8;
+    animation: loader4200SpinCounter 2.55s linear infinite;
+}
+
+.loader-4200-orbit {
+    position: absolute;
+    inset: 0;
+    animation: loader4200Orbit linear infinite;
+}
+
+.loader-4200-orbit-1 {
+    animation-duration: 1.2s;
+}
+
+.loader-4200-orbit-2 {
+    animation-duration: 1.6s;
+    animation-direction: reverse;
+}
+
+.loader-4200-orbit-3 {
+    animation-duration: 2.05s;
+}
+
+.loader-4200-orbit-4 {
+    animation-duration: 2.6s;
+    animation-direction: reverse;
+}
+
+.loader-4200-fragment {
+    position: absolute;
+    left: 50%;
+    top: 2px;
+    width: 8px;
+    height: 8px;
+    margin-left: -4px;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at 35% 35%, #ffffff 0%, #f5d0fe 22%, #d946ef 50%, #7e22ce 75%, #2e1065 100%);
+    box-shadow:
+        0 0 8px rgba(255,255,255,.65),
+        0 0 14px rgba(217,70,239,.8);
+    animation: loader4200Fragment 1.05s ease-in-out infinite;
+}
+
+.loader-4200-orbit-2 .loader-4200-fragment {
+    width: 7px;
+    height: 7px;
+    margin-left: -3.5px;
+    top: 8px;
+    animation-delay: -.3s;
+}
+
+.loader-4200-orbit-3 .loader-4200-fragment {
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    top: 13px;
+    animation-delay: -.55s;
+}
+
+.loader-4200-orbit-4 .loader-4200-fragment {
+    width: 5px;
+    height: 5px;
+    margin-left: -2.5px;
+    top: 0;
+    animation-delay: -.8s;
+}
+
+.loader-4200-surge {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 2px;
+    border-radius: 999px;
+    transform-origin: 0 50%;
+    background: linear-gradient(90deg, rgba(255,255,255,.95), rgba(216,180,254,.82), rgba(168,85,247,.48), rgba(168,85,247,0));
+    filter: drop-shadow(0 0 4px rgba(192,132,252,.55));
+    opacity: 0;
+    z-index: 1;
+    animation: loader4200Surge 1.4s ease-in-out infinite;
+}
+
+.loader-4200-surge-1 {
+    width: 30px;
+    transform: rotate(0deg) translateX(28px);
+    animation-delay: 0s;
+}
+
+.loader-4200-surge-2 {
+    width: 26px;
+    transform: rotate(45deg) translateX(26px);
+    animation-delay: -.15s;
+}
+
+.loader-4200-surge-3 {
+    width: 32px;
+    transform: rotate(90deg) translateX(28px);
+    animation-delay: -.3s;
+}
+
+.loader-4200-surge-4 {
+    width: 28px;
+    transform: rotate(135deg) translateX(25px);
+    animation-delay: -.45s;
+}
+
+.loader-4200-surge-5 {
+    width: 31px;
+    transform: rotate(180deg) translateX(28px);
+    animation-delay: -.6s;
+}
+
+.loader-4200-surge-6 {
+    width: 25px;
+    transform: rotate(225deg) translateX(26px);
+    animation-delay: -.75s;
+}
+
+.loader-4200-surge-7 {
+    width: 29px;
+    transform: rotate(270deg) translateX(27px);
+    animation-delay: -.9s;
+}
+
+.loader-4200-surge-8 {
+    width: 27px;
+    transform: rotate(315deg) translateX(25px);
+    animation-delay: -1.05s;
+}
+
+.loader-4200-arc {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: rgba(255,255,255,.68);
+    border-left-color: rgba(216,180,254,.35);
+    filter: drop-shadow(0 0 5px rgba(216,180,254,.4));
+    opacity: .85;
+    z-index: 4;
+    animation: loader4200Arc 1.1s ease-in-out infinite;
+}
+
+.loader-4200-arc-1 {
+    width: 28px;
+    height: 28px;
+    transform: rotate(18deg);
+    animation-delay: 0s;
+}
+
+.loader-4200-arc-2 {
+    width: 46px;
+    height: 46px;
+    transform: rotate(126deg);
+    animation-delay: -.36s;
+}
+
+.loader-4200-arc-3 {
+    width: 64px;
+    height: 64px;
+    transform: rotate(244deg);
+    animation-delay: -.72s;
+}
+
+@keyframes loader4200SpinClock {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader4200SpinCounter {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes loader4200Orbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader4200Core {
+    0%, 100% {
+        transform: scale(.76);
+        filter: brightness(.9) saturate(1);
+    }
+    48% {
+        transform: scale(1.18);
+        filter: brightness(1.3) saturate(1.2);
+    }
+    60% {
+        transform: scale(.92);
+        filter: brightness(1.02);
+    }
+}
+
+@keyframes loader4200Glow {
+    0%, 100% {
+        transform: scale(.75);
+        opacity: .38;
+    }
+    50% {
+        transform: scale(1.22);
+        opacity: .92;
+    }
+}
+
+@keyframes loader4200Well {
+    0%, 100% {
+        transform: scale(.94);
+        opacity: .75;
+    }
+    50% {
+        transform: scale(1.08);
+        opacity: 1;
+    }
+}
+
+@keyframes loader4200Fragment {
+    0%, 100% {
+        transform: scale(.72);
+        opacity: .55;
+    }
+    50% {
+        transform: scale(1.34);
+        opacity: 1;
+    }
+}
+
+@keyframes loader4200Surge {
+    0% {
+        opacity: 0;
+        transform: rotate(var(--loader4200-angle, 0deg)) translateX(40px) scaleX(1) scaleY(1);
+    }
+    12% {
+        opacity: 1;
+    }
+    70% {
+        opacity: .95;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(var(--loader4200-angle, 0deg)) translateX(6px) scaleX(.28) scaleY(.72);
+    }
+}
+
+@keyframes loader4200Arc {
+    0%, 100% {
+        opacity: .2;
+        transform: rotate(var(--loader4200-arc-rotate, 0deg)) scale(.92);
+    }
+    50% {
+        opacity: 1;
+        transform: rotate(calc(var(--loader4200-arc-rotate, 0deg) + 24deg)) scale(1.08);
+    }
+}
+
+@keyframes loader4200Aura {
+    from {
+        transform: rotate(0deg) scale(.96);
+    }
+    to {
+        transform: rotate(360deg) scale(1.05);
+    }
+}
+
+.loader-4200-surge-1 { --loader4200-angle: 0deg; }
+.loader-4200-surge-2 { --loader4200-angle: 45deg; }
+.loader-4200-surge-3 { --loader4200-angle: 90deg; }
+.loader-4200-surge-4 { --loader4200-angle: 135deg; }
+.loader-4200-surge-5 { --loader4200-angle: 180deg; }
+.loader-4200-surge-6 { --loader4200-angle: 225deg; }
+.loader-4200-surge-7 { --loader4200-angle: 270deg; }
+.loader-4200-surge-8 { --loader4200-angle: 315deg; }
+
+.loader-4200-arc-1 { --loader4200-arc-rotate: 18deg; }
+.loader-4200-arc-2 { --loader4200-arc-rotate: 126deg; }
+.loader-4200-arc-3 { --loader4200-arc-rotate: 244deg; }
+
+@media (prefers-reduced-motion: reduce) {
+    .loader-4200::before,
+    .loader-4200::after,
+    .loader-4200-core,
+    .loader-4200-core-glow,
+    .loader-4200-ring,
+    .loader-4200-orbit,
+    .loader-4200-fragment,
+    .loader-4200-surge,
+    .loader-4200-arc {
+        animation: none;
+    }
+
+    .loader-4200-ring-1 { transform: rotate(18deg); }
+    .loader-4200-ring-2 { transform: rotate(94deg); }
+    .loader-4200-ring-3 { transform: rotate(172deg); }
+    .loader-4200-ring-4 { transform: rotate(246deg); }
+
+    .loader-4200-orbit-1 { transform: rotate(35deg); }
+    .loader-4200-orbit-2 { transform: rotate(115deg); }
+    .loader-4200-orbit-3 { transform: rotate(210deg); }
+    .loader-4200-orbit-4 { transform: rotate(300deg); }
+
+    .loader-4200-surge {
+        opacity: .42;
+    }
+
+    .loader-4200-arc {
+        opacity: .8;
+    }
+}`,
+  },
+  {
+    id: 4201,
+    name: "Crimson Hellfire — Black Ember Barrage",
+    preview: (
+      <div className="loader-4201" role="status" aria-label="Laden">
+        <svg
+          viewBox="0 0 260 94"
+          aria-hidden="true"
+          focusable="false"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+              id="loader4201Flame"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
+              <stop offset="0%" stopColor="#19040c" stopOpacity=".1" />
+              <stop offset="23%" stopColor="#450a0a" stopOpacity=".85" />
+              <stop offset="49%" stopColor="#991b1b" />
+              <stop offset="75%" stopColor="#ef4444" />
+              <stop offset="92%" stopColor="#fb7185" />
+              <stop offset="100%" stopColor="#ffe4e6" />
+            </linearGradient>
+            <linearGradient
+              id="loader4201Black"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
+              <stop offset="0%" stopColor="#080408" stopOpacity=".05" />
+              <stop offset="33%" stopColor="#14060b" />
+              <stop offset="69%" stopColor="#3b0713" />
+              <stop offset="89%" stopColor="#881337" />
+              <stop offset="100%" stopColor="#be123c" />
+            </linearGradient>
+            <linearGradient
+              id="loader4201Heat"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
+              <stop offset="0%" stopColor="#450a0a" stopOpacity="0" />
+              <stop offset="30%" stopColor="#9f1239" />
+              <stop offset="70%" stopColor="#fb7185" />
+              <stop offset="100%" stopColor="#fff1f2" />
+            </linearGradient>
+            <linearGradient
+              id="loader4201WhiteHeat"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
+              <stop offset="0%" stopColor="#be123c" stopOpacity="0" />
+              <stop offset="48%" stopColor="#fb7185" />
+              <stop offset="80%" stopColor="#fecdd3" />
+              <stop offset="100%" stopColor="#fff7ed" />
+            </linearGradient>
+            <radialGradient id="loader4201Ember">
+              <stop offset="0%" stopColor="#fff7ed" />
+              <stop offset="35%" stopColor="#fb7185" />
+              <stop offset="78%" stopColor="#be123c" />
+              <stop offset="100%" stopColor="#450a0a" stopOpacity="0" />
+            </radialGradient>
+            <radialGradient id="loader4201Impact">
+              <stop offset="0%" stopColor="#fff1f2" stopOpacity=".85" />
+              <stop offset="20%" stopColor="#fb7185" stopOpacity=".85" />
+              <stop offset="56%" stopColor="#be123c" stopOpacity=".55" />
+              <stop offset="100%" stopColor="#450a0a" stopOpacity="0" />
+            </radialGradient>
+            <filter
+              id="loader4201Blur"
+              x="-65%"
+              y="-100%"
+              width="230%"
+              height="300%"
+            >
+              <feGaussianBlur stdDeviation="5" />
+            </filter>
+            <filter
+              id="loader4201SmallGlow"
+              x="-60%"
+              y="-100%"
+              width="220%"
+              height="300%"
+            >
+              <feGaussianBlur stdDeviation="2" />
+            </filter>
+          </defs>
+          <g className="loader-4201-haze" filter="url(#loader4201Blur)">
+            <ellipse
+              className="loader-4201-haze-1"
+              cx="-65"
+              cy="8"
+              rx="24"
+              ry="4"
+            />
+            <ellipse
+              className="loader-4201-haze-2"
+              cx="-83"
+              cy="16"
+              rx="33"
+              ry="8"
+            />
+            <ellipse
+              className="loader-4201-haze-3"
+              cx="-101"
+              cy="24"
+              rx="42"
+              ry="12"
+            />
+            <ellipse
+              className="loader-4201-haze-4"
+              cx="-65"
+              cy="32"
+              rx="51"
+              ry="5"
+            />
+            <ellipse
+              className="loader-4201-haze-5"
+              cx="-83"
+              cy="40"
+              rx="60"
+              ry="9"
+            />
+            <ellipse
+              className="loader-4201-haze-6"
+              cx="-101"
+              cy="48"
+              rx="32"
+              ry="13"
+            />
+            <ellipse
+              className="loader-4201-haze-7"
+              cx="-65"
+              cy="56"
+              rx="41"
+              ry="6"
+            />
+            <ellipse
+              className="loader-4201-haze-8"
+              cx="-83"
+              cy="64"
+              rx="50"
+              ry="10"
+            />
+            <ellipse
+              className="loader-4201-haze-9"
+              cx="-101"
+              cy="72"
+              rx="59"
+              ry="14"
+            />
+            <ellipse
+              className="loader-4201-haze-10"
+              cx="-65"
+              cy="80"
+              rx="31"
+              ry="7"
+            />
+          </g>
+          <g className="loader-4201-outer-flames">
+            <path
+              className="loader-4201-flame loader-4201-flame-1"
+              d="M -154 4 C -128 0 -105 10 -82 4 C -63 -8 -52 6 -33 0 Q -7 3 17 10 C -7 12 -22 10 -45 16 C -78 13 -97 10 -117 15 Q -138 17 -154 12 Z"
+            />
+            <path
+              className="loader-4201-flame loader-4201-flame-2"
+              d="M -154 10 C -128 -1 -105 19 -82 7 C -63 -16 -52 9 -33 -1 Q -7 4 17 12 C -7 21 -22 19 -45 29 C -78 24 -97 19 -117 21 Q -138 23 -154 18 Z"
+            />
+            <path
+              className="loader-4201-flame loader-4201-flame-3"
+              d="M -154 16 C -128 -2 -105 27 -82 9 C -63 -24 -52 13 -33 -2 Q -7 6 17 22 C -7 31 -22 27 -45 42 C -78 34 -97 27 -117 27 Q -138 29 -154 24 Z"
+            />
+            <path
+              className="loader-4201-flame loader-4201-flame-4"
+              d="M -154 22 C -128 14 -105 30 -82 20 C -63 2 -52 22 -33 14 Q -7 18 17 24 C -7 32 -22 30 -45 38 C -78 34 -97 30 -117 33 Q -138 35 -154 30 Z"
+            />
+            <path
+              className="loader-4201-flame loader-4201-flame-5"
+              d="M -154 28 C -128 13 -105 38 -82 23 C -63 -6 -52 26 -33 13 Q -7 20 17 34 C -7 41 -22 38 -45 51 C -78 44 -97 38 -117 39 Q -138 41 -154 36 Z"
+            />
+            <path
+              className="loader-4201-flame loader-4201-flame-6"
+              d="M -154 34 C -128 29 -105 41 -82 34 C -63 20 -52 35 -33 29 Q -7 32 17 36 C -7 42 -22 41 -45 47 C -78 44 -97 41 -117 45 Q -138 47 -154 42 Z"
+            />
+            <path
+              className="loader-4201-flame loader-4201-flame-7"
+              d="M -154 40 C -128 28 -105 49 -82 36 C -63 12 -52 39 -33 28 Q -7 34 17 46 C -7 52 -22 49 -45 60 C -78 54 -97 49 -117 51 Q -138 53 -154 48 Z"
+            />
+            <path
+              className="loader-4201-flame loader-4201-flame-8"
+              d="M -154 46 C -128 27 -105 57 -82 39 C -63 4 -52 43 -33 27 Q -7 35 17 48 C -7 61 -22 57 -45 73 C -78 65 -97 57 -117 57 Q -138 59 -154 54 Z"
+            />
+            <path
+              className="loader-4201-flame loader-4201-flame-9"
+              d="M -154 52 C -128 43 -105 60 -82 50 C -63 30 -52 52 -33 43 Q -7 48 17 58 C -7 62 -22 60 -45 69 C -78 64 -97 60 -117 63 Q -138 65 -154 60 Z"
+            />
+            <path
+              className="loader-4201-flame loader-4201-flame-10"
+              d="M -154 58 C -128 42 -105 68 -82 52 C -63 22 -52 56 -33 42 Q -7 49 17 60 C -7 72 -22 68 -45 82 C -78 75 -97 68 -117 69 Q -138 71 -154 66 Z"
+            />
+            <path
+              className="loader-4201-flame loader-4201-flame-11"
+              d="M -154 64 C -128 58 -105 71 -82 63 C -63 48 -52 65 -33 58 Q -7 62 17 70 C -7 73 -22 71 -45 78 C -78 74 -97 71 -117 75 Q -138 77 -154 72 Z"
+            />
+            <path
+              className="loader-4201-flame loader-4201-flame-12"
+              d="M -154 70 C -128 57 -105 79 -82 66 C -63 40 -52 69 -33 57 Q -7 63 17 72 C -7 82 -22 79 -45 91 C -78 85 -97 79 -117 81 Q -138 83 -154 78 Z"
+            />
+            <path
+              className="loader-4201-flame loader-4201-flame-13"
+              d="M -154 76 C -128 56 -105 88 -82 68 C -63 32 -52 72 -33 56 Q -7 64 17 82 C -7 92 -22 88 -45 104 C -78 96 -97 88 -117 87 Q -138 89 -154 84 Z"
+            />
+            <path
+              className="loader-4201-flame loader-4201-flame-14"
+              d="M -154 82 C -128 72 -105 90 -82 79 C -63 58 -52 82 -33 72 Q -7 77 17 84 C -7 93 -22 90 -45 100 C -78 95 -97 90 -117 93 Q -138 95 -154 90 Z"
+            />
+          </g>
+          <g className="loader-4201-inner-hellfire">
+            <path
+              className="loader-4201-inner loader-4201-inner-1"
+              d="M -171 24 C -122 18 -93 30 -69 21 Q -41 12 -21 21 L 23 22 Q -18 30 -40 27 C -77 36 -100 21 -171 27 Z"
+            />
+            <path
+              className="loader-4201-inner loader-4201-inner-2"
+              d="M -171 31 C -122 21 -93 41 -69 26 Q -41 11 -21 26 L 29 29 Q -18 41 -40 36 C -77 51 -100 26 -171 34 Z"
+            />
+            <path
+              className="loader-4201-inner loader-4201-inner-3"
+              d="M -171 38 C -122 24 -93 52 -69 31 Q -41 10 -21 31 L 35 36 Q -18 52 -40 45 C -77 66 -100 31 -171 41 Z"
+            />
+            <path
+              className="loader-4201-inner loader-4201-inner-4"
+              d="M -171 45 C -122 38 -93 52 -69 42 Q -41 31 -21 42 L 23 43 Q -18 52 -40 48 C -77 59 -100 42 -171 48 Z"
+            />
+            <path
+              className="loader-4201-inner loader-4201-inner-5"
+              d="M -171 52 C -122 41 -93 63 -69 47 Q -41 30 -21 47 L 29 50 Q -18 63 -40 57 C -77 74 -100 47 -171 55 Z"
+            />
+            <path
+              className="loader-4201-inner loader-4201-inner-6"
+              d="M -171 59 C -122 44 -93 74 -69 52 Q -41 29 -21 52 L 35 57 Q -18 74 -40 66 C -77 89 -100 52 -171 62 Z"
+            />
+            <path
+              className="loader-4201-inner loader-4201-inner-7"
+              d="M -171 66 C -122 58 -93 74 -69 62 Q -41 50 -21 62 L 23 64 Q -18 74 -40 70 C -77 82 -100 62 -171 69 Z"
+            />
+          </g>
+          <g className="loader-4201-blackfire">
+            <path
+              className="loader-4201-black loader-4201-black-1"
+              d="M -142 4 Q -105 -1 -82 3 C -69 -8 -49 3 -31 -1 Q -18 3 14 8 Q -12 9 -37 9 Q -80 10 -104 10 Z"
+            />
+            <path
+              className="loader-4201-black loader-4201-black-2"
+              d="M -142 11 Q -105 -3 -82 10 C -69 -19 -49 5 -31 -3 Q -18 5 17 15 Q -12 21 -37 16 Q -80 23 -104 17 Z"
+            />
+            <path
+              className="loader-4201-black loader-4201-black-3"
+              d="M -142 18 Q -105 8 -82 17 C -69 -4 -49 14 -31 8 Q -18 14 20 22 Q -12 26 -37 23 Q -80 28 -104 24 Z"
+            />
+            <path
+              className="loader-4201-black loader-4201-black-4"
+              d="M -142 25 Q -105 19 -82 24 C -69 11 -49 23 -31 19 Q -18 23 23 29 Q -12 31 -37 30 Q -80 32 -104 31 Z"
+            />
+            <path
+              className="loader-4201-black loader-4201-black-5"
+              d="M -142 32 Q -105 17 -82 31 C -69 0 -49 26 -31 17 Q -18 26 14 36 Q -12 42 -37 37 Q -80 45 -104 38 Z"
+            />
+            <path
+              className="loader-4201-black loader-4201-black-6"
+              d="M -142 39 Q -105 28 -82 38 C -69 15 -49 35 -31 28 Q -18 35 17 43 Q -12 47 -37 44 Q -80 49 -104 45 Z"
+            />
+            <path
+              className="loader-4201-black loader-4201-black-7"
+              d="M -142 46 Q -105 39 -82 45 C -69 30 -49 44 -31 39 Q -18 44 20 50 Q -12 52 -37 51 Q -80 54 -104 52 Z"
+            />
+            <path
+              className="loader-4201-black loader-4201-black-8"
+              d="M -142 53 Q -105 37 -82 52 C -69 19 -49 46 -31 37 Q -18 46 23 57 Q -12 64 -37 58 Q -80 67 -104 59 Z"
+            />
+            <path
+              className="loader-4201-black loader-4201-black-9"
+              d="M -142 60 Q -105 48 -82 59 C -69 34 -49 55 -31 48 Q -18 55 14 64 Q -12 69 -37 65 Q -80 71 -104 66 Z"
+            />
+            <path
+              className="loader-4201-black loader-4201-black-10"
+              d="M -142 67 Q -105 59 -82 66 C -69 49 -49 64 -31 59 Q -18 64 17 71 Q -12 74 -37 72 Q -80 75 -104 73 Z"
+            />
+            <path
+              className="loader-4201-black loader-4201-black-11"
+              d="M -142 74 Q -105 57 -82 73 C -69 38 -49 67 -31 57 Q -18 67 20 78 Q -12 85 -37 79 Q -80 88 -104 80 Z"
+            />
+            <path
+              className="loader-4201-black loader-4201-black-12"
+              d="M -142 81 Q -105 68 -82 80 C -69 53 -49 76 -31 68 Q -18 76 23 85 Q -12 90 -37 86 Q -80 93 -104 87 Z"
+            />
+          </g>
+          <g className="loader-4201-lava-veins">
+            <path
+              className="loader-4201-vein loader-4201-vein-1"
+              pathLength="100"
+              d="M -34 7.0 C 8 4.0 23 10.0 53 7.0 S 99 4.0 130 8.5 S 188 10.0 225 5.5 S 257 8.5 288 7.0"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-2"
+              pathLength="100"
+              d="M -34 11.6 C 8 3.6 23 19.6 53 11.6 S 99 3.6 130 15.6 S 188 19.6 225 7.6 S 257 15.6 288 11.6"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-3"
+              pathLength="100"
+              d="M -34 16.2 C 8 13.2 23 19.2 53 16.2 S 99 13.2 130 17.7 S 188 19.2 225 14.7 S 257 17.7 288 16.2"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-4"
+              pathLength="100"
+              d="M -34 20.8 C 8 12.8 23 28.8 53 20.8 S 99 12.8 130 24.8 S 188 28.8 225 16.8 S 257 24.8 288 20.8"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-5"
+              pathLength="100"
+              d="M -34 25.4 C 8 22.4 23 28.4 53 25.4 S 99 22.4 130 26.9 S 188 28.4 225 23.9 S 257 26.9 288 25.4"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-6"
+              pathLength="100"
+              d="M -34 30.0 C 8 22.0 23 38.0 53 30.0 S 99 22.0 130 34.0 S 188 38.0 225 26.0 S 257 34.0 288 30.0"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-7"
+              pathLength="100"
+              d="M -34 34.6 C 8 31.6 23 37.6 53 34.6 S 99 31.6 130 36.1 S 188 37.6 225 33.1 S 257 36.1 288 34.6"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-8"
+              pathLength="100"
+              d="M -34 39.2 C 8 31.2 23 47.2 53 39.2 S 99 31.2 130 43.2 S 188 47.2 225 35.2 S 257 43.2 288 39.2"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-9"
+              pathLength="100"
+              d="M -34 43.8 C 8 40.8 23 46.8 53 43.8 S 99 40.8 130 45.3 S 188 46.8 225 42.3 S 257 45.3 288 43.8"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-10"
+              pathLength="100"
+              d="M -34 48.4 C 8 40.4 23 56.4 53 48.4 S 99 40.4 130 52.4 S 188 56.4 225 44.4 S 257 52.4 288 48.4"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-11"
+              pathLength="100"
+              d="M -34 53.0 C 8 50.0 23 56.0 53 53.0 S 99 50.0 130 54.5 S 188 56.0 225 51.5 S 257 54.5 288 53.0"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-12"
+              pathLength="100"
+              d="M -34 57.6 C 8 49.6 23 65.6 53 57.6 S 99 49.6 130 61.6 S 188 65.6 225 53.6 S 257 61.6 288 57.6"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-13"
+              pathLength="100"
+              d="M -34 62.2 C 8 59.2 23 65.2 53 62.2 S 99 59.2 130 63.7 S 188 65.2 225 60.7 S 257 63.7 288 62.2"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-14"
+              pathLength="100"
+              d="M -34 66.8 C 8 58.8 23 74.8 53 66.8 S 99 58.8 130 70.8 S 188 74.8 225 62.8 S 257 70.8 288 66.8"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-15"
+              pathLength="100"
+              d="M -34 71.4 C 8 68.4 23 74.4 53 71.4 S 99 68.4 130 72.9 S 188 74.4 225 69.9 S 257 72.9 288 71.4"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-16"
+              pathLength="100"
+              d="M -34 76.0 C 8 68.0 23 84.0 53 76.0 S 99 68.0 130 80.0 S 188 84.0 225 72.0 S 257 80.0 288 76.0"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-17"
+              pathLength="100"
+              d="M -34 80.6 C 8 77.6 23 83.6 53 80.6 S 99 77.6 130 82.1 S 188 83.6 225 79.1 S 257 82.1 288 80.6"
+            />
+            <path
+              className="loader-4201-vein loader-4201-vein-18"
+              pathLength="100"
+              d="M -34 85.2 C 8 77.2 23 93.2 53 85.2 S 99 77.2 130 89.2 S 188 93.2 225 81.2 S 257 89.2 288 85.2"
+            />
+          </g>
+          <g className="loader-4201-incandescent">
+            <path
+              className="loader-4201-hot loader-4201-hot-1"
+              pathLength="100"
+              d="M -26 21.0 Q 10 15.0 44 24.0 T 108 18.0 T 179 23.0 T 285 19.0"
+            />
+            <path
+              className="loader-4201-hot loader-4201-hot-2"
+              pathLength="100"
+              d="M -26 28.2 Q 10 18.2 44 33.2 T 108 23.2 T 179 31.5 T 285 26.2"
+            />
+            <path
+              className="loader-4201-hot loader-4201-hot-3"
+              pathLength="100"
+              d="M -26 35.4 Q 10 21.4 44 42.4 T 108 28.4 T 179 40.1 T 285 33.4"
+            />
+            <path
+              className="loader-4201-hot loader-4201-hot-4"
+              pathLength="100"
+              d="M -26 42.6 Q 10 35.6 44 46.1 T 108 39.1 T 179 44.9 T 285 40.6"
+            />
+            <path
+              className="loader-4201-hot loader-4201-hot-5"
+              pathLength="100"
+              d="M -26 49.8 Q 10 38.8 44 55.3 T 108 44.3 T 179 53.5 T 285 47.8"
+            />
+            <path
+              className="loader-4201-hot loader-4201-hot-6"
+              pathLength="100"
+              d="M -26 57.0 Q 10 42.0 44 64.5 T 108 49.5 T 179 62.0 T 285 55.0"
+            />
+            <path
+              className="loader-4201-hot loader-4201-hot-7"
+              pathLength="100"
+              d="M -26 64.2 Q 10 56.2 44 68.2 T 108 60.2 T 179 66.9 T 285 62.2"
+            />
+            <path
+              className="loader-4201-hot loader-4201-hot-8"
+              pathLength="100"
+              d="M -26 71.4 Q 10 59.4 44 77.4 T 108 65.4 T 179 75.4 T 285 69.4"
+            />
+          </g>
+          <g className="loader-4201-charcoal">
+            <path
+              className="loader-4201-shard loader-4201-shard-1"
+              d="M -68 6 l 1 -3 l 3 0 l 1 5 l -2 0 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-2"
+              d="M -60 35 l 5 -10 l 10 2 l 3 12 l -5 2 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-3"
+              d="M -52 64 l 4 -9 l 9 2 l 3 11 l -5 2 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-4"
+              d="M -44 11 l 4 -8 l 8 2 l 2 10 l -4 2 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-5"
+              d="M -36 40 l 3 -7 l 7 1 l 2 9 l -4 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-6"
+              d="M -28 69 l 3 -6 l 6 1 l 2 8 l -3 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-7"
+              d="M -68 16 l 2 -5 l 5 1 l 1 7 l -3 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-8"
+              d="M -60 45 l 2 -4 l 4 1 l 1 6 l -2 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-9"
+              d="M -52 74 l 1 -3 l 3 0 l 1 5 l -2 0 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-10"
+              d="M -44 21 l 5 -10 l 10 2 l 3 12 l -5 2 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-11"
+              d="M -36 50 l 4 -9 l 9 2 l 3 11 l -5 2 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-12"
+              d="M -28 79 l 4 -8 l 8 2 l 2 10 l -4 2 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-13"
+              d="M -68 26 l 3 -7 l 7 1 l 2 9 l -4 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-14"
+              d="M -60 55 l 3 -6 l 6 1 l 2 8 l -3 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-15"
+              d="M -52 84 l 2 -5 l 5 1 l 1 7 l -3 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-16"
+              d="M -44 31 l 2 -4 l 4 1 l 1 6 l -2 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-17"
+              d="M -36 60 l 1 -3 l 3 0 l 1 5 l -2 0 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-18"
+              d="M -28 7 l 5 -10 l 10 2 l 3 12 l -5 2 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-19"
+              d="M -68 36 l 4 -9 l 9 2 l 3 11 l -5 2 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-20"
+              d="M -60 65 l 4 -8 l 8 2 l 2 10 l -4 2 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-21"
+              d="M -52 12 l 3 -7 l 7 1 l 2 9 l -4 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-22"
+              d="M -44 41 l 3 -6 l 6 1 l 2 8 l -3 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-23"
+              d="M -36 70 l 2 -5 l 5 1 l 1 7 l -3 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-24"
+              d="M -28 17 l 2 -4 l 4 1 l 1 6 l -2 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-25"
+              d="M -68 46 l 1 -3 l 3 0 l 1 5 l -2 0 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-26"
+              d="M -60 75 l 5 -10 l 10 2 l 3 12 l -5 2 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-27"
+              d="M -52 22 l 4 -9 l 9 2 l 3 11 l -5 2 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-28"
+              d="M -44 51 l 4 -8 l 8 2 l 2 10 l -4 2 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-29"
+              d="M -36 80 l 3 -7 l 7 1 l 2 9 l -4 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-30"
+              d="M -28 27 l 3 -6 l 6 1 l 2 8 l -3 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-31"
+              d="M -68 56 l 2 -5 l 5 1 l 1 7 l -3 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-32"
+              d="M -60 85 l 2 -4 l 4 1 l 1 6 l -2 1 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-33"
+              d="M -52 32 l 1 -3 l 3 0 l 1 5 l -2 0 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-34"
+              d="M -44 61 l 5 -10 l 10 2 l 3 12 l -5 2 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-35"
+              d="M -36 8 l 4 -9 l 9 2 l 3 11 l -5 2 Z"
+            />
+            <path
+              className="loader-4201-shard loader-4201-shard-36"
+              d="M -28 37 l 4 -8 l 8 2 l 2 10 l -4 2 Z"
+            />
+          </g>
+          <g className="loader-4201-cinders">
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-1"
+              cx="-85"
+              cy="5"
+              r="0.7"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-2"
+              cx="-74"
+              cy="22"
+              r="1.5"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-3"
+              cx="-63"
+              cy="39"
+              r="0.8"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-4"
+              cx="-52"
+              cy="56"
+              r="1.6"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-5"
+              cx="-41"
+              cy="73"
+              r="0.9"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-6"
+              cx="-30"
+              cy="90"
+              r="1.7"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-7"
+              cx="-84"
+              cy="21"
+              r="1.0"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-8"
+              cx="-73"
+              cy="38"
+              r="1.8"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-9"
+              cx="-62"
+              cy="55"
+              r="1.1"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-10"
+              cx="-51"
+              cy="72"
+              r="1.9"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-11"
+              cx="-40"
+              cy="89"
+              r="1.3"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-12"
+              cx="-29"
+              cy="20"
+              r="2.0"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-13"
+              cx="-83"
+              cy="37"
+              r="1.4"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-14"
+              cx="-72"
+              cy="54"
+              r="0.7"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-15"
+              cx="-61"
+              cy="71"
+              r="1.5"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-16"
+              cx="-50"
+              cy="88"
+              r="0.8"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-17"
+              cx="-39"
+              cy="19"
+              r="1.6"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-18"
+              cx="-28"
+              cy="36"
+              r="0.9"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-19"
+              cx="-82"
+              cy="53"
+              r="1.7"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-20"
+              cx="-71"
+              cy="70"
+              r="1.0"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-21"
+              cx="-60"
+              cy="87"
+              r="1.8"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-22"
+              cx="-49"
+              cy="18"
+              r="1.1"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-23"
+              cx="-38"
+              cy="35"
+              r="1.9"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-24"
+              cx="-27"
+              cy="52"
+              r="1.3"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-25"
+              cx="-81"
+              cy="69"
+              r="2.0"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-26"
+              cx="-70"
+              cy="86"
+              r="1.4"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-27"
+              cx="-59"
+              cy="17"
+              r="0.7"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-28"
+              cx="-48"
+              cy="34"
+              r="1.5"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-29"
+              cx="-37"
+              cy="51"
+              r="0.8"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-30"
+              cx="-26"
+              cy="68"
+              r="1.6"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-31"
+              cx="-80"
+              cy="85"
+              r="0.9"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-32"
+              cx="-69"
+              cy="16"
+              r="1.7"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-33"
+              cx="-58"
+              cy="33"
+              r="1.0"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-34"
+              cx="-47"
+              cy="50"
+              r="1.8"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-35"
+              cx="-36"
+              cy="67"
+              r="1.1"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-36"
+              cx="-25"
+              cy="84"
+              r="1.9"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-37"
+              cx="-79"
+              cy="15"
+              r="1.3"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-38"
+              cx="-68"
+              cy="32"
+              r="2.0"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-39"
+              cx="-57"
+              cy="49"
+              r="1.4"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-40"
+              cx="-46"
+              cy="66"
+              r="0.7"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-41"
+              cx="-35"
+              cy="83"
+              r="1.5"
+            />
+            <circle
+              className="loader-4201-cinder loader-4201-cinder-42"
+              cx="-24"
+              cy="14"
+              r="0.8"
+            />
+          </g>
+          <g className="loader-4201-impact">
+            <ellipse
+              className="loader-4201-impact-glow"
+              cx="230"
+              cy="47"
+              rx="29"
+              ry="25"
+            />
+            <ellipse
+              className="loader-4201-pressure loader-4201-pressure-1"
+              cx="223"
+              cy="47"
+              rx="7"
+              ry="14"
+            />
+            <ellipse
+              className="loader-4201-pressure loader-4201-pressure-2"
+              cx="223"
+              cy="47"
+              rx="11"
+              ry="17"
+            />
+            <ellipse
+              className="loader-4201-pressure loader-4201-pressure-3"
+              cx="223"
+              cy="47"
+              rx="15"
+              ry="20"
+            />
+            <ellipse
+              className="loader-4201-pressure loader-4201-pressure-4"
+              cx="223"
+              cy="47"
+              rx="19"
+              ry="23"
+            />
+            <ellipse
+              className="loader-4201-pressure loader-4201-pressure-5"
+              cx="223"
+              cy="47"
+              rx="23"
+              ry="26"
+            />
+            <path
+              className="loader-4201-splinter loader-4201-splinter-1"
+              d="M 239.0 47.0 l 8.0 0.0"
+            />
+            <path
+              className="loader-4201-splinter loader-4201-splinter-2"
+              d="M 237.1 56.5 l 9.5 5.5"
+            />
+            <path
+              className="loader-4201-splinter loader-4201-splinter-3"
+              d="M 232.0 63.5 l 7.0 12.1"
+            />
+            <path
+              className="loader-4201-splinter loader-4201-splinter-4"
+              d="M 225.0 66.0 l 0.0 8.0"
+            />
+            <path
+              className="loader-4201-splinter loader-4201-splinter-5"
+              d="M 218.0 63.5 l -4.0 9.5"
+            />
+            <path
+              className="loader-4201-splinter loader-4201-splinter-6"
+              d="M 212.9 56.5 l -9.5 7.0"
+            />
+            <path
+              className="loader-4201-splinter loader-4201-splinter-7"
+              d="M 211.0 47.0 l -14.0 0.0"
+            />
+            <path
+              className="loader-4201-splinter loader-4201-splinter-8"
+              d="M 212.9 37.5 l -14.7 -5.5"
+            />
+            <path
+              className="loader-4201-splinter loader-4201-splinter-9"
+              d="M 218.0 30.5 l -4.0 -12.1"
+            />
+            <path
+              className="loader-4201-splinter loader-4201-splinter-10"
+              d="M 225.0 28.0 l -0.0 -8.0"
+            />
+            <path
+              className="loader-4201-splinter loader-4201-splinter-11"
+              d="M 232.0 30.5 l 7.0 -9.5"
+            />
+            <path
+              className="loader-4201-splinter loader-4201-splinter-12"
+              d="M 237.1 37.5 l 14.7 -7.0"
+            />
+          </g>
+        </svg>
+      </div>
+    ),
+    html: `
+    <div class="loader-4201" role="status" aria-label="Laden">
+      <svg viewBox="0 0 260 94" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="loader4201Flame" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#19040c" stop-opacity=".1" />
+            <stop offset="23%" stop-color="#450a0a" stop-opacity=".85" />
+            <stop offset="49%" stop-color="#991b1b" />
+            <stop offset="75%" stop-color="#ef4444" />
+            <stop offset="92%" stop-color="#fb7185" />
+            <stop offset="100%" stop-color="#ffe4e6" />
+          </linearGradient>
+          <linearGradient id="loader4201Black" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#080408" stop-opacity=".05" />
+            <stop offset="33%" stop-color="#14060b" />
+            <stop offset="69%" stop-color="#3b0713" />
+            <stop offset="89%" stop-color="#881337" />
+            <stop offset="100%" stop-color="#be123c" />
+          </linearGradient>
+          <linearGradient id="loader4201Heat" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#450a0a" stop-opacity="0" />
+            <stop offset="30%" stop-color="#9f1239" />
+            <stop offset="70%" stop-color="#fb7185" />
+            <stop offset="100%" stop-color="#fff1f2" />
+          </linearGradient>
+          <linearGradient id="loader4201WhiteHeat" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#be123c" stop-opacity="0" />
+            <stop offset="48%" stop-color="#fb7185" />
+            <stop offset="80%" stop-color="#fecdd3" />
+            <stop offset="100%" stop-color="#fff7ed" />
+          </linearGradient>
+          <radialGradient id="loader4201Ember">
+            <stop offset="0%" stop-color="#fff7ed" />
+            <stop offset="35%" stop-color="#fb7185" />
+            <stop offset="78%" stop-color="#be123c" />
+            <stop offset="100%" stop-color="#450a0a" stop-opacity="0" />
+          </radialGradient>
+          <radialGradient id="loader4201Impact">
+            <stop offset="0%" stop-color="#fff1f2" stop-opacity=".85" />
+            <stop offset="20%" stop-color="#fb7185" stop-opacity=".85" />
+            <stop offset="56%" stop-color="#be123c" stop-opacity=".55" />
+            <stop offset="100%" stop-color="#450a0a" stop-opacity="0" />
+          </radialGradient>
+          <filter id="loader4201Blur" x="-65%" y="-100%" width="230%" height="300%">
+            <feGaussianBlur stdDeviation="5" />
+          </filter>
+          <filter id="loader4201SmallGlow" x="-60%" y="-100%" width="220%" height="300%">
+            <feGaussianBlur stdDeviation="2" />
+          </filter>
+        </defs>
+        <g class="loader-4201-haze" filter="url(#loader4201Blur)">
+          <ellipse class="loader-4201-haze-1" cx="-65" cy="8" rx="24" ry="4" />
+          <ellipse class="loader-4201-haze-2" cx="-83" cy="16" rx="33" ry="8" />
+          <ellipse class="loader-4201-haze-3" cx="-101" cy="24" rx="42" ry="12" />
+          <ellipse class="loader-4201-haze-4" cx="-65" cy="32" rx="51" ry="5" />
+          <ellipse class="loader-4201-haze-5" cx="-83" cy="40" rx="60" ry="9" />
+          <ellipse class="loader-4201-haze-6" cx="-101" cy="48" rx="32" ry="13" />
+          <ellipse class="loader-4201-haze-7" cx="-65" cy="56" rx="41" ry="6" />
+          <ellipse class="loader-4201-haze-8" cx="-83" cy="64" rx="50" ry="10" />
+          <ellipse class="loader-4201-haze-9" cx="-101" cy="72" rx="59" ry="14" />
+          <ellipse class="loader-4201-haze-10" cx="-65" cy="80" rx="31" ry="7" />
+        </g>
+        <g class="loader-4201-outer-flames">
+          <path class="loader-4201-flame loader-4201-flame-1" d="M -154 4 C -128 0 -105 10 -82 4 C -63 -8 -52 6 -33 0 Q -7 3 17 10 C -7 12 -22 10 -45 16 C -78 13 -97 10 -117 15 Q -138 17 -154 12 Z" />
+          <path class="loader-4201-flame loader-4201-flame-2" d="M -154 10 C -128 -1 -105 19 -82 7 C -63 -16 -52 9 -33 -1 Q -7 4 17 12 C -7 21 -22 19 -45 29 C -78 24 -97 19 -117 21 Q -138 23 -154 18 Z" />
+          <path class="loader-4201-flame loader-4201-flame-3" d="M -154 16 C -128 -2 -105 27 -82 9 C -63 -24 -52 13 -33 -2 Q -7 6 17 22 C -7 31 -22 27 -45 42 C -78 34 -97 27 -117 27 Q -138 29 -154 24 Z" />
+          <path class="loader-4201-flame loader-4201-flame-4" d="M -154 22 C -128 14 -105 30 -82 20 C -63 2 -52 22 -33 14 Q -7 18 17 24 C -7 32 -22 30 -45 38 C -78 34 -97 30 -117 33 Q -138 35 -154 30 Z" />
+          <path class="loader-4201-flame loader-4201-flame-5" d="M -154 28 C -128 13 -105 38 -82 23 C -63 -6 -52 26 -33 13 Q -7 20 17 34 C -7 41 -22 38 -45 51 C -78 44 -97 38 -117 39 Q -138 41 -154 36 Z" />
+          <path class="loader-4201-flame loader-4201-flame-6" d="M -154 34 C -128 29 -105 41 -82 34 C -63 20 -52 35 -33 29 Q -7 32 17 36 C -7 42 -22 41 -45 47 C -78 44 -97 41 -117 45 Q -138 47 -154 42 Z" />
+          <path class="loader-4201-flame loader-4201-flame-7" d="M -154 40 C -128 28 -105 49 -82 36 C -63 12 -52 39 -33 28 Q -7 34 17 46 C -7 52 -22 49 -45 60 C -78 54 -97 49 -117 51 Q -138 53 -154 48 Z" />
+          <path class="loader-4201-flame loader-4201-flame-8" d="M -154 46 C -128 27 -105 57 -82 39 C -63 4 -52 43 -33 27 Q -7 35 17 48 C -7 61 -22 57 -45 73 C -78 65 -97 57 -117 57 Q -138 59 -154 54 Z" />
+          <path class="loader-4201-flame loader-4201-flame-9" d="M -154 52 C -128 43 -105 60 -82 50 C -63 30 -52 52 -33 43 Q -7 48 17 58 C -7 62 -22 60 -45 69 C -78 64 -97 60 -117 63 Q -138 65 -154 60 Z" />
+          <path class="loader-4201-flame loader-4201-flame-10" d="M -154 58 C -128 42 -105 68 -82 52 C -63 22 -52 56 -33 42 Q -7 49 17 60 C -7 72 -22 68 -45 82 C -78 75 -97 68 -117 69 Q -138 71 -154 66 Z" />
+          <path class="loader-4201-flame loader-4201-flame-11" d="M -154 64 C -128 58 -105 71 -82 63 C -63 48 -52 65 -33 58 Q -7 62 17 70 C -7 73 -22 71 -45 78 C -78 74 -97 71 -117 75 Q -138 77 -154 72 Z" />
+          <path class="loader-4201-flame loader-4201-flame-12" d="M -154 70 C -128 57 -105 79 -82 66 C -63 40 -52 69 -33 57 Q -7 63 17 72 C -7 82 -22 79 -45 91 C -78 85 -97 79 -117 81 Q -138 83 -154 78 Z" />
+          <path class="loader-4201-flame loader-4201-flame-13" d="M -154 76 C -128 56 -105 88 -82 68 C -63 32 -52 72 -33 56 Q -7 64 17 82 C -7 92 -22 88 -45 104 C -78 96 -97 88 -117 87 Q -138 89 -154 84 Z" />
+          <path class="loader-4201-flame loader-4201-flame-14" d="M -154 82 C -128 72 -105 90 -82 79 C -63 58 -52 82 -33 72 Q -7 77 17 84 C -7 93 -22 90 -45 100 C -78 95 -97 90 -117 93 Q -138 95 -154 90 Z" />
+        </g>
+        <g class="loader-4201-inner-hellfire">
+          <path class="loader-4201-inner loader-4201-inner-1" d="M -171 24 C -122 18 -93 30 -69 21 Q -41 12 -21 21 L 23 22 Q -18 30 -40 27 C -77 36 -100 21 -171 27 Z" />
+          <path class="loader-4201-inner loader-4201-inner-2" d="M -171 31 C -122 21 -93 41 -69 26 Q -41 11 -21 26 L 29 29 Q -18 41 -40 36 C -77 51 -100 26 -171 34 Z" />
+          <path class="loader-4201-inner loader-4201-inner-3" d="M -171 38 C -122 24 -93 52 -69 31 Q -41 10 -21 31 L 35 36 Q -18 52 -40 45 C -77 66 -100 31 -171 41 Z" />
+          <path class="loader-4201-inner loader-4201-inner-4" d="M -171 45 C -122 38 -93 52 -69 42 Q -41 31 -21 42 L 23 43 Q -18 52 -40 48 C -77 59 -100 42 -171 48 Z" />
+          <path class="loader-4201-inner loader-4201-inner-5" d="M -171 52 C -122 41 -93 63 -69 47 Q -41 30 -21 47 L 29 50 Q -18 63 -40 57 C -77 74 -100 47 -171 55 Z" />
+          <path class="loader-4201-inner loader-4201-inner-6" d="M -171 59 C -122 44 -93 74 -69 52 Q -41 29 -21 52 L 35 57 Q -18 74 -40 66 C -77 89 -100 52 -171 62 Z" />
+          <path class="loader-4201-inner loader-4201-inner-7" d="M -171 66 C -122 58 -93 74 -69 62 Q -41 50 -21 62 L 23 64 Q -18 74 -40 70 C -77 82 -100 62 -171 69 Z" />
+        </g>
+        <g class="loader-4201-blackfire">
+          <path class="loader-4201-black loader-4201-black-1" d="M -142 4 Q -105 -1 -82 3 C -69 -8 -49 3 -31 -1 Q -18 3 14 8 Q -12 9 -37 9 Q -80 10 -104 10 Z" />
+          <path class="loader-4201-black loader-4201-black-2" d="M -142 11 Q -105 -3 -82 10 C -69 -19 -49 5 -31 -3 Q -18 5 17 15 Q -12 21 -37 16 Q -80 23 -104 17 Z" />
+          <path class="loader-4201-black loader-4201-black-3" d="M -142 18 Q -105 8 -82 17 C -69 -4 -49 14 -31 8 Q -18 14 20 22 Q -12 26 -37 23 Q -80 28 -104 24 Z" />
+          <path class="loader-4201-black loader-4201-black-4" d="M -142 25 Q -105 19 -82 24 C -69 11 -49 23 -31 19 Q -18 23 23 29 Q -12 31 -37 30 Q -80 32 -104 31 Z" />
+          <path class="loader-4201-black loader-4201-black-5" d="M -142 32 Q -105 17 -82 31 C -69 0 -49 26 -31 17 Q -18 26 14 36 Q -12 42 -37 37 Q -80 45 -104 38 Z" />
+          <path class="loader-4201-black loader-4201-black-6" d="M -142 39 Q -105 28 -82 38 C -69 15 -49 35 -31 28 Q -18 35 17 43 Q -12 47 -37 44 Q -80 49 -104 45 Z" />
+          <path class="loader-4201-black loader-4201-black-7" d="M -142 46 Q -105 39 -82 45 C -69 30 -49 44 -31 39 Q -18 44 20 50 Q -12 52 -37 51 Q -80 54 -104 52 Z" />
+          <path class="loader-4201-black loader-4201-black-8" d="M -142 53 Q -105 37 -82 52 C -69 19 -49 46 -31 37 Q -18 46 23 57 Q -12 64 -37 58 Q -80 67 -104 59 Z" />
+          <path class="loader-4201-black loader-4201-black-9" d="M -142 60 Q -105 48 -82 59 C -69 34 -49 55 -31 48 Q -18 55 14 64 Q -12 69 -37 65 Q -80 71 -104 66 Z" />
+          <path class="loader-4201-black loader-4201-black-10" d="M -142 67 Q -105 59 -82 66 C -69 49 -49 64 -31 59 Q -18 64 17 71 Q -12 74 -37 72 Q -80 75 -104 73 Z" />
+          <path class="loader-4201-black loader-4201-black-11" d="M -142 74 Q -105 57 -82 73 C -69 38 -49 67 -31 57 Q -18 67 20 78 Q -12 85 -37 79 Q -80 88 -104 80 Z" />
+          <path class="loader-4201-black loader-4201-black-12" d="M -142 81 Q -105 68 -82 80 C -69 53 -49 76 -31 68 Q -18 76 23 85 Q -12 90 -37 86 Q -80 93 -104 87 Z" />
+        </g>
+        <g class="loader-4201-lava-veins">
+          <path class="loader-4201-vein loader-4201-vein-1" pathLength="100" d="M -34 7.0 C 8 4.0 23 10.0 53 7.0 S 99 4.0 130 8.5 S 188 10.0 225 5.5 S 257 8.5 288 7.0" />
+          <path class="loader-4201-vein loader-4201-vein-2" pathLength="100" d="M -34 11.6 C 8 3.6 23 19.6 53 11.6 S 99 3.6 130 15.6 S 188 19.6 225 7.6 S 257 15.6 288 11.6" />
+          <path class="loader-4201-vein loader-4201-vein-3" pathLength="100" d="M -34 16.2 C 8 13.2 23 19.2 53 16.2 S 99 13.2 130 17.7 S 188 19.2 225 14.7 S 257 17.7 288 16.2" />
+          <path class="loader-4201-vein loader-4201-vein-4" pathLength="100" d="M -34 20.8 C 8 12.8 23 28.8 53 20.8 S 99 12.8 130 24.8 S 188 28.8 225 16.8 S 257 24.8 288 20.8" />
+          <path class="loader-4201-vein loader-4201-vein-5" pathLength="100" d="M -34 25.4 C 8 22.4 23 28.4 53 25.4 S 99 22.4 130 26.9 S 188 28.4 225 23.9 S 257 26.9 288 25.4" />
+          <path class="loader-4201-vein loader-4201-vein-6" pathLength="100" d="M -34 30.0 C 8 22.0 23 38.0 53 30.0 S 99 22.0 130 34.0 S 188 38.0 225 26.0 S 257 34.0 288 30.0" />
+          <path class="loader-4201-vein loader-4201-vein-7" pathLength="100" d="M -34 34.6 C 8 31.6 23 37.6 53 34.6 S 99 31.6 130 36.1 S 188 37.6 225 33.1 S 257 36.1 288 34.6" />
+          <path class="loader-4201-vein loader-4201-vein-8" pathLength="100" d="M -34 39.2 C 8 31.2 23 47.2 53 39.2 S 99 31.2 130 43.2 S 188 47.2 225 35.2 S 257 43.2 288 39.2" />
+          <path class="loader-4201-vein loader-4201-vein-9" pathLength="100" d="M -34 43.8 C 8 40.8 23 46.8 53 43.8 S 99 40.8 130 45.3 S 188 46.8 225 42.3 S 257 45.3 288 43.8" />
+          <path class="loader-4201-vein loader-4201-vein-10" pathLength="100" d="M -34 48.4 C 8 40.4 23 56.4 53 48.4 S 99 40.4 130 52.4 S 188 56.4 225 44.4 S 257 52.4 288 48.4" />
+          <path class="loader-4201-vein loader-4201-vein-11" pathLength="100" d="M -34 53.0 C 8 50.0 23 56.0 53 53.0 S 99 50.0 130 54.5 S 188 56.0 225 51.5 S 257 54.5 288 53.0" />
+          <path class="loader-4201-vein loader-4201-vein-12" pathLength="100" d="M -34 57.6 C 8 49.6 23 65.6 53 57.6 S 99 49.6 130 61.6 S 188 65.6 225 53.6 S 257 61.6 288 57.6" />
+          <path class="loader-4201-vein loader-4201-vein-13" pathLength="100" d="M -34 62.2 C 8 59.2 23 65.2 53 62.2 S 99 59.2 130 63.7 S 188 65.2 225 60.7 S 257 63.7 288 62.2" />
+          <path class="loader-4201-vein loader-4201-vein-14" pathLength="100" d="M -34 66.8 C 8 58.8 23 74.8 53 66.8 S 99 58.8 130 70.8 S 188 74.8 225 62.8 S 257 70.8 288 66.8" />
+          <path class="loader-4201-vein loader-4201-vein-15" pathLength="100" d="M -34 71.4 C 8 68.4 23 74.4 53 71.4 S 99 68.4 130 72.9 S 188 74.4 225 69.9 S 257 72.9 288 71.4" />
+          <path class="loader-4201-vein loader-4201-vein-16" pathLength="100" d="M -34 76.0 C 8 68.0 23 84.0 53 76.0 S 99 68.0 130 80.0 S 188 84.0 225 72.0 S 257 80.0 288 76.0" />
+          <path class="loader-4201-vein loader-4201-vein-17" pathLength="100" d="M -34 80.6 C 8 77.6 23 83.6 53 80.6 S 99 77.6 130 82.1 S 188 83.6 225 79.1 S 257 82.1 288 80.6" />
+          <path class="loader-4201-vein loader-4201-vein-18" pathLength="100" d="M -34 85.2 C 8 77.2 23 93.2 53 85.2 S 99 77.2 130 89.2 S 188 93.2 225 81.2 S 257 89.2 288 85.2" />
+        </g>
+        <g class="loader-4201-incandescent">
+          <path class="loader-4201-hot loader-4201-hot-1" pathLength="100" d="M -26 21.0 Q 10 15.0 44 24.0 T 108 18.0 T 179 23.0 T 285 19.0" />
+          <path class="loader-4201-hot loader-4201-hot-2" pathLength="100" d="M -26 28.2 Q 10 18.2 44 33.2 T 108 23.2 T 179 31.5 T 285 26.2" />
+          <path class="loader-4201-hot loader-4201-hot-3" pathLength="100" d="M -26 35.4 Q 10 21.4 44 42.4 T 108 28.4 T 179 40.1 T 285 33.4" />
+          <path class="loader-4201-hot loader-4201-hot-4" pathLength="100" d="M -26 42.6 Q 10 35.6 44 46.1 T 108 39.1 T 179 44.9 T 285 40.6" />
+          <path class="loader-4201-hot loader-4201-hot-5" pathLength="100" d="M -26 49.8 Q 10 38.8 44 55.3 T 108 44.3 T 179 53.5 T 285 47.8" />
+          <path class="loader-4201-hot loader-4201-hot-6" pathLength="100" d="M -26 57.0 Q 10 42.0 44 64.5 T 108 49.5 T 179 62.0 T 285 55.0" />
+          <path class="loader-4201-hot loader-4201-hot-7" pathLength="100" d="M -26 64.2 Q 10 56.2 44 68.2 T 108 60.2 T 179 66.9 T 285 62.2" />
+          <path class="loader-4201-hot loader-4201-hot-8" pathLength="100" d="M -26 71.4 Q 10 59.4 44 77.4 T 108 65.4 T 179 75.4 T 285 69.4" />
+        </g>
+        <g class="loader-4201-charcoal">
+          <path class="loader-4201-shard loader-4201-shard-1" d="M -68 6 l 1 -3 l 3 0 l 1 5 l -2 0 Z" />
+          <path class="loader-4201-shard loader-4201-shard-2" d="M -60 35 l 5 -10 l 10 2 l 3 12 l -5 2 Z" />
+          <path class="loader-4201-shard loader-4201-shard-3" d="M -52 64 l 4 -9 l 9 2 l 3 11 l -5 2 Z" />
+          <path class="loader-4201-shard loader-4201-shard-4" d="M -44 11 l 4 -8 l 8 2 l 2 10 l -4 2 Z" />
+          <path class="loader-4201-shard loader-4201-shard-5" d="M -36 40 l 3 -7 l 7 1 l 2 9 l -4 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-6" d="M -28 69 l 3 -6 l 6 1 l 2 8 l -3 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-7" d="M -68 16 l 2 -5 l 5 1 l 1 7 l -3 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-8" d="M -60 45 l 2 -4 l 4 1 l 1 6 l -2 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-9" d="M -52 74 l 1 -3 l 3 0 l 1 5 l -2 0 Z" />
+          <path class="loader-4201-shard loader-4201-shard-10" d="M -44 21 l 5 -10 l 10 2 l 3 12 l -5 2 Z" />
+          <path class="loader-4201-shard loader-4201-shard-11" d="M -36 50 l 4 -9 l 9 2 l 3 11 l -5 2 Z" />
+          <path class="loader-4201-shard loader-4201-shard-12" d="M -28 79 l 4 -8 l 8 2 l 2 10 l -4 2 Z" />
+          <path class="loader-4201-shard loader-4201-shard-13" d="M -68 26 l 3 -7 l 7 1 l 2 9 l -4 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-14" d="M -60 55 l 3 -6 l 6 1 l 2 8 l -3 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-15" d="M -52 84 l 2 -5 l 5 1 l 1 7 l -3 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-16" d="M -44 31 l 2 -4 l 4 1 l 1 6 l -2 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-17" d="M -36 60 l 1 -3 l 3 0 l 1 5 l -2 0 Z" />
+          <path class="loader-4201-shard loader-4201-shard-18" d="M -28 7 l 5 -10 l 10 2 l 3 12 l -5 2 Z" />
+          <path class="loader-4201-shard loader-4201-shard-19" d="M -68 36 l 4 -9 l 9 2 l 3 11 l -5 2 Z" />
+          <path class="loader-4201-shard loader-4201-shard-20" d="M -60 65 l 4 -8 l 8 2 l 2 10 l -4 2 Z" />
+          <path class="loader-4201-shard loader-4201-shard-21" d="M -52 12 l 3 -7 l 7 1 l 2 9 l -4 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-22" d="M -44 41 l 3 -6 l 6 1 l 2 8 l -3 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-23" d="M -36 70 l 2 -5 l 5 1 l 1 7 l -3 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-24" d="M -28 17 l 2 -4 l 4 1 l 1 6 l -2 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-25" d="M -68 46 l 1 -3 l 3 0 l 1 5 l -2 0 Z" />
+          <path class="loader-4201-shard loader-4201-shard-26" d="M -60 75 l 5 -10 l 10 2 l 3 12 l -5 2 Z" />
+          <path class="loader-4201-shard loader-4201-shard-27" d="M -52 22 l 4 -9 l 9 2 l 3 11 l -5 2 Z" />
+          <path class="loader-4201-shard loader-4201-shard-28" d="M -44 51 l 4 -8 l 8 2 l 2 10 l -4 2 Z" />
+          <path class="loader-4201-shard loader-4201-shard-29" d="M -36 80 l 3 -7 l 7 1 l 2 9 l -4 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-30" d="M -28 27 l 3 -6 l 6 1 l 2 8 l -3 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-31" d="M -68 56 l 2 -5 l 5 1 l 1 7 l -3 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-32" d="M -60 85 l 2 -4 l 4 1 l 1 6 l -2 1 Z" />
+          <path class="loader-4201-shard loader-4201-shard-33" d="M -52 32 l 1 -3 l 3 0 l 1 5 l -2 0 Z" />
+          <path class="loader-4201-shard loader-4201-shard-34" d="M -44 61 l 5 -10 l 10 2 l 3 12 l -5 2 Z" />
+          <path class="loader-4201-shard loader-4201-shard-35" d="M -36 8 l 4 -9 l 9 2 l 3 11 l -5 2 Z" />
+          <path class="loader-4201-shard loader-4201-shard-36" d="M -28 37 l 4 -8 l 8 2 l 2 10 l -4 2 Z" />
+        </g>
+        <g class="loader-4201-cinders">
+          <circle class="loader-4201-cinder loader-4201-cinder-1" cx="-85" cy="5" r="0.7" />
+          <circle class="loader-4201-cinder loader-4201-cinder-2" cx="-74" cy="22" r="1.5" />
+          <circle class="loader-4201-cinder loader-4201-cinder-3" cx="-63" cy="39" r="0.8" />
+          <circle class="loader-4201-cinder loader-4201-cinder-4" cx="-52" cy="56" r="1.6" />
+          <circle class="loader-4201-cinder loader-4201-cinder-5" cx="-41" cy="73" r="0.9" />
+          <circle class="loader-4201-cinder loader-4201-cinder-6" cx="-30" cy="90" r="1.7" />
+          <circle class="loader-4201-cinder loader-4201-cinder-7" cx="-84" cy="21" r="1.0" />
+          <circle class="loader-4201-cinder loader-4201-cinder-8" cx="-73" cy="38" r="1.8" />
+          <circle class="loader-4201-cinder loader-4201-cinder-9" cx="-62" cy="55" r="1.1" />
+          <circle class="loader-4201-cinder loader-4201-cinder-10" cx="-51" cy="72" r="1.9" />
+          <circle class="loader-4201-cinder loader-4201-cinder-11" cx="-40" cy="89" r="1.3" />
+          <circle class="loader-4201-cinder loader-4201-cinder-12" cx="-29" cy="20" r="2.0" />
+          <circle class="loader-4201-cinder loader-4201-cinder-13" cx="-83" cy="37" r="1.4" />
+          <circle class="loader-4201-cinder loader-4201-cinder-14" cx="-72" cy="54" r="0.7" />
+          <circle class="loader-4201-cinder loader-4201-cinder-15" cx="-61" cy="71" r="1.5" />
+          <circle class="loader-4201-cinder loader-4201-cinder-16" cx="-50" cy="88" r="0.8" />
+          <circle class="loader-4201-cinder loader-4201-cinder-17" cx="-39" cy="19" r="1.6" />
+          <circle class="loader-4201-cinder loader-4201-cinder-18" cx="-28" cy="36" r="0.9" />
+          <circle class="loader-4201-cinder loader-4201-cinder-19" cx="-82" cy="53" r="1.7" />
+          <circle class="loader-4201-cinder loader-4201-cinder-20" cx="-71" cy="70" r="1.0" />
+          <circle class="loader-4201-cinder loader-4201-cinder-21" cx="-60" cy="87" r="1.8" />
+          <circle class="loader-4201-cinder loader-4201-cinder-22" cx="-49" cy="18" r="1.1" />
+          <circle class="loader-4201-cinder loader-4201-cinder-23" cx="-38" cy="35" r="1.9" />
+          <circle class="loader-4201-cinder loader-4201-cinder-24" cx="-27" cy="52" r="1.3" />
+          <circle class="loader-4201-cinder loader-4201-cinder-25" cx="-81" cy="69" r="2.0" />
+          <circle class="loader-4201-cinder loader-4201-cinder-26" cx="-70" cy="86" r="1.4" />
+          <circle class="loader-4201-cinder loader-4201-cinder-27" cx="-59" cy="17" r="0.7" />
+          <circle class="loader-4201-cinder loader-4201-cinder-28" cx="-48" cy="34" r="1.5" />
+          <circle class="loader-4201-cinder loader-4201-cinder-29" cx="-37" cy="51" r="0.8" />
+          <circle class="loader-4201-cinder loader-4201-cinder-30" cx="-26" cy="68" r="1.6" />
+          <circle class="loader-4201-cinder loader-4201-cinder-31" cx="-80" cy="85" r="0.9" />
+          <circle class="loader-4201-cinder loader-4201-cinder-32" cx="-69" cy="16" r="1.7" />
+          <circle class="loader-4201-cinder loader-4201-cinder-33" cx="-58" cy="33" r="1.0" />
+          <circle class="loader-4201-cinder loader-4201-cinder-34" cx="-47" cy="50" r="1.8" />
+          <circle class="loader-4201-cinder loader-4201-cinder-35" cx="-36" cy="67" r="1.1" />
+          <circle class="loader-4201-cinder loader-4201-cinder-36" cx="-25" cy="84" r="1.9" />
+          <circle class="loader-4201-cinder loader-4201-cinder-37" cx="-79" cy="15" r="1.3" />
+          <circle class="loader-4201-cinder loader-4201-cinder-38" cx="-68" cy="32" r="2.0" />
+          <circle class="loader-4201-cinder loader-4201-cinder-39" cx="-57" cy="49" r="1.4" />
+          <circle class="loader-4201-cinder loader-4201-cinder-40" cx="-46" cy="66" r="0.7" />
+          <circle class="loader-4201-cinder loader-4201-cinder-41" cx="-35" cy="83" r="1.5" />
+          <circle class="loader-4201-cinder loader-4201-cinder-42" cx="-24" cy="14" r="0.8" />
+        </g>
+        <g class="loader-4201-impact">
+          <ellipse class="loader-4201-impact-glow" cx="230" cy="47" rx="29" ry="25" />
+          <ellipse class="loader-4201-pressure loader-4201-pressure-1" cx="223" cy="47" rx="7" ry="14" />
+          <ellipse class="loader-4201-pressure loader-4201-pressure-2" cx="223" cy="47" rx="11" ry="17" />
+          <ellipse class="loader-4201-pressure loader-4201-pressure-3" cx="223" cy="47" rx="15" ry="20" />
+          <ellipse class="loader-4201-pressure loader-4201-pressure-4" cx="223" cy="47" rx="19" ry="23" />
+          <ellipse class="loader-4201-pressure loader-4201-pressure-5" cx="223" cy="47" rx="23" ry="26" />
+          <path class="loader-4201-splinter loader-4201-splinter-1" d="M 239.0 47.0 l 8.0 0.0" />
+          <path class="loader-4201-splinter loader-4201-splinter-2" d="M 237.1 56.5 l 9.5 5.5" />
+          <path class="loader-4201-splinter loader-4201-splinter-3" d="M 232.0 63.5 l 7.0 12.1" />
+          <path class="loader-4201-splinter loader-4201-splinter-4" d="M 225.0 66.0 l 0.0 8.0" />
+          <path class="loader-4201-splinter loader-4201-splinter-5" d="M 218.0 63.5 l -4.0 9.5" />
+          <path class="loader-4201-splinter loader-4201-splinter-6" d="M 212.9 56.5 l -9.5 7.0" />
+          <path class="loader-4201-splinter loader-4201-splinter-7" d="M 211.0 47.0 l -14.0 0.0" />
+          <path class="loader-4201-splinter loader-4201-splinter-8" d="M 212.9 37.5 l -14.7 -5.5" />
+          <path class="loader-4201-splinter loader-4201-splinter-9" d="M 218.0 30.5 l -4.0 -12.1" />
+          <path class="loader-4201-splinter loader-4201-splinter-10" d="M 225.0 28.0 l -0.0 -8.0" />
+          <path class="loader-4201-splinter loader-4201-splinter-11" d="M 232.0 30.5 l 7.0 -9.5" />
+          <path class="loader-4201-splinter loader-4201-splinter-12" d="M 237.1 37.5 l 14.7 -7.0" />
+        </g>
+      </svg>
+    </div>
+  `,
+    css: `
+    .loader-4201 {
+      position: relative;
+      width: 238px;
+      height: 86px;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      isolation: isolate;
+      background: transparent;
+    }
+    .loader-4201 svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+      fill: none;
+      overflow: hidden;
+      background: transparent;
+      -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+      mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+    }
+    .loader-4201-haze ellipse {
+      fill: #8b101d;
+      opacity: 0;
+      animation: loader4201Haze 2.4s ease-in-out infinite;
+    }
+    .loader-4201-flame {
+      fill: url(#loader4201Flame);
+      opacity: 0;
+      animation: loader4201Flame 1.65s linear infinite;
+    }
+    .loader-4201-inner {
+      fill: url(#loader4201Heat);
+      opacity: 0;
+      animation: loader4201Inferno 1.3s linear infinite;
+    }
+    .loader-4201-black {
+      fill: url(#loader4201Black);
+      stroke: #9f1239;
+      stroke-width: .6;
+      opacity: 0;
+      animation: loader4201Blackfire 1.4s linear infinite;
+    }
+    .loader-4201-vein {
+      fill: none;
+      stroke: url(#loader4201Heat);
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-dasharray: 18 82;
+      opacity: .85;
+      animation: loader4201Vein 1.1s linear infinite;
+    }
+    .loader-4201-hot {
+      fill: none;
+      stroke: url(#loader4201WhiteHeat);
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-dasharray: 13 87;
+      opacity: .9;
+      filter: drop-shadow(0 0 2px #fb7185);
+      animation: loader4201Vein .88s linear infinite;
+    }
+    .loader-4201-shard {
+      fill: #14060b;
+      stroke: #be123c;
+      stroke-width: .65;
+      opacity: 0;
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: loader4201Shard 1.55s linear infinite;
+    }
+    .loader-4201-cinder {
+      fill: url(#loader4201Ember);
+      opacity: 0;
+      animation: loader4201Cinder 1.45s linear infinite;
+    }
+    .loader-4201-impact-glow {
+      fill: url(#loader4201Impact);
+      opacity: 0;
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: loader4201Impact 1.7s ease-out infinite;
+    }
+    .loader-4201-pressure {
+      fill: none;
+      stroke: #fb7185;
+      stroke-width: 1.5;
+      opacity: 0;
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: loader4201Pressure 1.7s ease-out infinite;
+    }
+    .loader-4201-splinter {
+      fill: none;
+      stroke: #fecdd3;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      opacity: 0;
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: loader4201Burst 1.7s ease-out infinite;
+    }
+    @keyframes loader4201Haze {
+      0% { opacity: 0; transform: translateX(0) scale(.65); }
+      13% { opacity: .16; }
+      50% { opacity: .44; transform: translateX(130px) scale(1.25); }
+      84% { opacity: .18; }
+      100% { opacity: 0; transform: translateX(315px) scale(.8); }
+    }
+    @keyframes loader4201Flame {
+      0% { opacity: 0; transform: translateX(-28px) scaleX(.55); }
+      10% { opacity: .7; }
+      32% { opacity: .98; transform: translateX(115px) scaleX(.92); }
+      66% { opacity: 1; transform: translateX(260px) scaleX(1.12); }
+      100% { opacity: 0; transform: translateX(415px) scaleX(.75); }
+    }
+    @keyframes loader4201Inferno {
+      0% { opacity: 0; transform: translateX(-42px) scaleX(.5); }
+      13% { opacity: .75; }
+      50% { opacity: .95; transform: translateX(195px) scaleX(1.02); }
+      100% { opacity: 0; transform: translateX(425px) scaleX(.7); }
+    }
+    @keyframes loader4201Blackfire {
+      0% { opacity: 0; transform: translateX(-38px) scaleX(.5) skewY(-2deg); }
+      14% { opacity: .92; }
+      47% { opacity: 1; transform: translateX(180px) scaleX(1.1) skewY(3deg); }
+      86% { opacity: .87; }
+      100% { opacity: 0; transform: translateX(415px) scaleX(.65) skewY(-4deg); }
+    }
+    @keyframes loader4201Vein {
+      from { stroke-dashoffset: 100; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes loader4201Shard {
+      0% { opacity: 0; transform: translateX(0) translateY(0) rotate(-30deg) scale(.35); }
+      10% { opacity: .9; }
+      44% { opacity: 1; transform: translateX(150px) translateY(-6px) rotate(75deg) scale(1); }
+      80% { opacity: .8; }
+      100% { opacity: 0; transform: translateX(340px) translateY(8px) rotate(210deg) scale(.55); }
+    }
+    @keyframes loader4201Cinder {
+      0% { opacity: 0; transform: translateX(0) translateY(0) scale(.3); }
+      12% { opacity: .95; }
+      49% { opacity: 1; transform: translateX(155px) translateY(-5px) scale(1.1); }
+      87% { opacity: .75; }
+      100% { opacity: 0; transform: translateX(325px) translateY(4px) scale(.45); }
+    }
+    @keyframes loader4201Impact {
+      0%, 48% { opacity: 0; transform: scale(.35); }
+      59% { opacity: .85; transform: scale(1.05); }
+      75% { opacity: .5; transform: scale(1.4); }
+      100% { opacity: 0; transform: scale(1.9); }
+    }
+    @keyframes loader4201Pressure {
+      0%, 49% { opacity: 0; transform: scaleX(.3) scaleY(.65); }
+      61% { opacity: .9; }
+      100% { opacity: 0; transform: translateX(24px) scaleX(1.65) scaleY(1.25); }
+    }
+    @keyframes loader4201Burst {
+      0%, 52% { opacity: 0; transform: scale(.25); }
+      63% { opacity: 1; }
+      100% { opacity: 0; transform: scale(1.9); }
+    }
+    .loader-4201-haze-1 { animation-delay: -0.0s; animation-duration: 2.1s; }
+    .loader-4201-haze-2 { animation-delay: -0.31s; animation-duration: 2.34s; }
+    .loader-4201-haze-3 { animation-delay: -0.62s; animation-duration: 2.58s; }
+    .loader-4201-haze-4 { animation-delay: -0.93s; animation-duration: 2.82s; }
+    .loader-4201-haze-5 { animation-delay: -1.24s; animation-duration: 2.1s; }
+    .loader-4201-haze-6 { animation-delay: -1.55s; animation-duration: 2.34s; }
+    .loader-4201-haze-7 { animation-delay: -1.86s; animation-duration: 2.58s; }
+    .loader-4201-haze-8 { animation-delay: -2.17s; animation-duration: 2.82s; }
+    .loader-4201-haze-9 { animation-delay: -0.08s; animation-duration: 2.1s; }
+    .loader-4201-haze-10 { animation-delay: -0.39s; animation-duration: 2.34s; }
+    .loader-4201-flame-1 { animation-delay: -0.0s; animation-duration: 1.3s; opacity: 0.7; }
+    .loader-4201-flame-2 { animation-delay: -0.271s; animation-duration: 1.44s; opacity: 0.77; }
+    .loader-4201-flame-3 { animation-delay: -0.542s; animation-duration: 1.58s; opacity: 0.84; }
+    .loader-4201-flame-4 { animation-delay: -0.813s; animation-duration: 1.72s; opacity: 0.91; }
+    .loader-4201-flame-5 { animation-delay: -1.084s; animation-duration: 1.86s; opacity: 0.98; }
+    .loader-4201-flame-6 { animation-delay: -1.355s; animation-duration: 2.0s; opacity: 0.7; }
+    .loader-4201-flame-7 { animation-delay: -1.626s; animation-duration: 1.3s; opacity: 0.77; }
+    .loader-4201-flame-8 { animation-delay: -0.247s; animation-duration: 1.44s; opacity: 0.84; }
+    .loader-4201-flame-9 { animation-delay: -0.518s; animation-duration: 1.58s; opacity: 0.91; }
+    .loader-4201-flame-10 { animation-delay: -0.789s; animation-duration: 1.72s; opacity: 0.98; }
+    .loader-4201-flame-11 { animation-delay: -1.06s; animation-duration: 1.86s; opacity: 0.7; }
+    .loader-4201-flame-12 { animation-delay: -1.331s; animation-duration: 2.0s; opacity: 0.77; }
+    .loader-4201-flame-13 { animation-delay: -1.602s; animation-duration: 1.3s; opacity: 0.84; }
+    .loader-4201-flame-14 { animation-delay: -0.223s; animation-duration: 1.44s; opacity: 0.91; }
+    .loader-4201-inner-1 { animation-delay: -0.0s; animation-duration: 1.08s; }
+    .loader-4201-inner-2 { animation-delay: -0.237s; animation-duration: 1.18s; }
+    .loader-4201-inner-3 { animation-delay: -0.474s; animation-duration: 1.28s; }
+    .loader-4201-inner-4 { animation-delay: -0.711s; animation-duration: 1.38s; }
+    .loader-4201-inner-5 { animation-delay: -0.948s; animation-duration: 1.08s; }
+    .loader-4201-inner-6 { animation-delay: -1.185s; animation-duration: 1.18s; }
+    .loader-4201-inner-7 { animation-delay: -0.122s; animation-duration: 1.28s; }
+    .loader-4201-black-1 { animation-delay: -0.0s; animation-duration: 1.17s; }
+    .loader-4201-black-2 { animation-delay: -0.19s; animation-duration: 1.3s; }
+    .loader-4201-black-3 { animation-delay: -0.38s; animation-duration: 1.43s; }
+    .loader-4201-black-4 { animation-delay: -0.57s; animation-duration: 1.56s; }
+    .loader-4201-black-5 { animation-delay: -0.76s; animation-duration: 1.69s; }
+    .loader-4201-black-6 { animation-delay: -0.95s; animation-duration: 1.17s; }
+    .loader-4201-black-7 { animation-delay: -1.14s; animation-duration: 1.3s; }
+    .loader-4201-black-8 { animation-delay: -1.33s; animation-duration: 1.43s; }
+    .loader-4201-black-9 { animation-delay: -0.12s; animation-duration: 1.56s; }
+    .loader-4201-black-10 { animation-delay: -0.31s; animation-duration: 1.69s; }
+    .loader-4201-black-11 { animation-delay: -0.5s; animation-duration: 1.17s; }
+    .loader-4201-black-12 { animation-delay: -0.69s; animation-duration: 1.3s; }
+    .loader-4201-vein-1 { animation-delay: -0.0s; animation-duration: 0.83s; stroke-width: 1.2; stroke-dasharray: 15 85; }
+    .loader-4201-vein-2 { animation-delay: -0.169s; animation-duration: 0.96s; stroke-width: 1.68; stroke-dasharray: 18 82; }
+    .loader-4201-vein-3 { animation-delay: -0.338s; animation-duration: 1.09s; stroke-width: 2.16; stroke-dasharray: 21 79; }
+    .loader-4201-vein-4 { animation-delay: -0.507s; animation-duration: 1.22s; stroke-width: 2.64; stroke-dasharray: 24 76; }
+    .loader-4201-vein-5 { animation-delay: -0.676s; animation-duration: 1.35s; stroke-width: 3.12; stroke-dasharray: 27 73; }
+    .loader-4201-vein-6 { animation-delay: -0.845s; animation-duration: 0.83s; stroke-width: 1.2; stroke-dasharray: 15 85; }
+    .loader-4201-vein-7 { animation-delay: -1.014s; animation-duration: 0.96s; stroke-width: 1.68; stroke-dasharray: 18 82; }
+    .loader-4201-vein-8 { animation-delay: -0.083s; animation-duration: 1.09s; stroke-width: 2.16; stroke-dasharray: 21 79; }
+    .loader-4201-vein-9 { animation-delay: -0.252s; animation-duration: 1.22s; stroke-width: 2.64; stroke-dasharray: 24 76; }
+    .loader-4201-vein-10 { animation-delay: -0.421s; animation-duration: 1.35s; stroke-width: 3.12; stroke-dasharray: 27 73; }
+    .loader-4201-vein-11 { animation-delay: -0.59s; animation-duration: 0.83s; stroke-width: 1.2; stroke-dasharray: 15 85; }
+    .loader-4201-vein-12 { animation-delay: -0.759s; animation-duration: 0.96s; stroke-width: 1.68; stroke-dasharray: 18 82; }
+    .loader-4201-vein-13 { animation-delay: -0.928s; animation-duration: 1.09s; stroke-width: 2.16; stroke-dasharray: 21 79; }
+    .loader-4201-vein-14 { animation-delay: -1.097s; animation-duration: 1.22s; stroke-width: 2.64; stroke-dasharray: 24 76; }
+    .loader-4201-vein-15 { animation-delay: -0.166s; animation-duration: 1.35s; stroke-width: 3.12; stroke-dasharray: 27 73; }
+    .loader-4201-vein-16 { animation-delay: -0.335s; animation-duration: 0.83s; stroke-width: 1.2; stroke-dasharray: 15 85; }
+    .loader-4201-vein-17 { animation-delay: -0.504s; animation-duration: 0.96s; stroke-width: 1.68; stroke-dasharray: 18 82; }
+    .loader-4201-vein-18 { animation-delay: -0.673s; animation-duration: 1.09s; stroke-width: 2.16; stroke-dasharray: 21 79; }
+    .loader-4201-hot-1 { animation-delay: -0.0s; animation-duration: 0.72s; }
+    .loader-4201-hot-2 { animation-delay: -0.127s; animation-duration: 0.83s; }
+    .loader-4201-hot-3 { animation-delay: -0.254s; animation-duration: 0.94s; }
+    .loader-4201-hot-4 { animation-delay: -0.381s; animation-duration: 1.05s; }
+    .loader-4201-hot-5 { animation-delay: -0.508s; animation-duration: 0.72s; }
+    .loader-4201-hot-6 { animation-delay: -0.635s; animation-duration: 0.83s; }
+    .loader-4201-hot-7 { animation-delay: -0.762s; animation-duration: 0.94s; }
+    .loader-4201-hot-8 { animation-delay: -0.009s; animation-duration: 1.05s; }
+    .loader-4201-shard-1 { animation-delay: -0.0s; animation-duration: 1.08s; }
+    .loader-4201-shard-2 { animation-delay: -0.137s; animation-duration: 1.19s; }
+    .loader-4201-shard-3 { animation-delay: -0.274s; animation-duration: 1.3s; }
+    .loader-4201-shard-4 { animation-delay: -0.411s; animation-duration: 1.41s; }
+    .loader-4201-shard-5 { animation-delay: -0.548s; animation-duration: 1.52s; }
+    .loader-4201-shard-6 { animation-delay: -0.685s; animation-duration: 1.63s; }
+    .loader-4201-shard-7 { animation-delay: -0.822s; animation-duration: 1.74s; }
+    .loader-4201-shard-8 { animation-delay: -0.959s; animation-duration: 1.85s; }
+    .loader-4201-shard-9 { animation-delay: -1.096s; animation-duration: 1.08s; }
+    .loader-4201-shard-10 { animation-delay: -1.233s; animation-duration: 1.19s; }
+    .loader-4201-shard-11 { animation-delay: -1.37s; animation-duration: 1.3s; }
+    .loader-4201-shard-12 { animation-delay: -1.507s; animation-duration: 1.41s; }
+    .loader-4201-shard-13 { animation-delay: -0.094s; animation-duration: 1.52s; }
+    .loader-4201-shard-14 { animation-delay: -0.231s; animation-duration: 1.63s; }
+    .loader-4201-shard-15 { animation-delay: -0.368s; animation-duration: 1.74s; }
+    .loader-4201-shard-16 { animation-delay: -0.505s; animation-duration: 1.85s; }
+    .loader-4201-shard-17 { animation-delay: -0.642s; animation-duration: 1.08s; }
+    .loader-4201-shard-18 { animation-delay: -0.779s; animation-duration: 1.19s; }
+    .loader-4201-shard-19 { animation-delay: -0.916s; animation-duration: 1.3s; }
+    .loader-4201-shard-20 { animation-delay: -1.053s; animation-duration: 1.41s; }
+    .loader-4201-shard-21 { animation-delay: -1.19s; animation-duration: 1.52s; }
+    .loader-4201-shard-22 { animation-delay: -1.327s; animation-duration: 1.63s; }
+    .loader-4201-shard-23 { animation-delay: -1.464s; animation-duration: 1.74s; }
+    .loader-4201-shard-24 { animation-delay: -0.051s; animation-duration: 1.85s; }
+    .loader-4201-shard-25 { animation-delay: -0.188s; animation-duration: 1.08s; }
+    .loader-4201-shard-26 { animation-delay: -0.325s; animation-duration: 1.19s; }
+    .loader-4201-shard-27 { animation-delay: -0.462s; animation-duration: 1.3s; }
+    .loader-4201-shard-28 { animation-delay: -0.599s; animation-duration: 1.41s; }
+    .loader-4201-shard-29 { animation-delay: -0.736s; animation-duration: 1.52s; }
+    .loader-4201-shard-30 { animation-delay: -0.873s; animation-duration: 1.63s; }
+    .loader-4201-shard-31 { animation-delay: -1.01s; animation-duration: 1.74s; }
+    .loader-4201-shard-32 { animation-delay: -1.147s; animation-duration: 1.85s; }
+    .loader-4201-shard-33 { animation-delay: -1.284s; animation-duration: 1.08s; }
+    .loader-4201-shard-34 { animation-delay: -1.421s; animation-duration: 1.19s; }
+    .loader-4201-shard-35 { animation-delay: -0.008s; animation-duration: 1.3s; }
+    .loader-4201-shard-36 { animation-delay: -0.145s; animation-duration: 1.41s; }
+    .loader-4201-cinder-1 { animation-delay: -0.0s; animation-duration: 0.85s; }
+    .loader-4201-cinder-2 { animation-delay: -0.109s; animation-duration: 0.95s; }
+    .loader-4201-cinder-3 { animation-delay: -0.218s; animation-duration: 1.06s; }
+    .loader-4201-cinder-4 { animation-delay: -0.327s; animation-duration: 1.17s; }
+    .loader-4201-cinder-5 { animation-delay: -0.436s; animation-duration: 1.27s; }
+    .loader-4201-cinder-6 { animation-delay: -0.545s; animation-duration: 1.38s; }
+    .loader-4201-cinder-7 { animation-delay: -0.654s; animation-duration: 1.48s; }
+    .loader-4201-cinder-8 { animation-delay: -0.763s; animation-duration: 1.58s; }
+    .loader-4201-cinder-9 { animation-delay: -0.872s; animation-duration: 1.69s; }
+    .loader-4201-cinder-10 { animation-delay: -0.981s; animation-duration: 0.85s; }
+    .loader-4201-cinder-11 { animation-delay: -1.09s; animation-duration: 0.95s; }
+    .loader-4201-cinder-12 { animation-delay: -1.199s; animation-duration: 1.06s; }
+    .loader-4201-cinder-13 { animation-delay: -1.308s; animation-duration: 1.17s; }
+    .loader-4201-cinder-14 { animation-delay: -1.417s; animation-duration: 1.27s; }
+    .loader-4201-cinder-15 { animation-delay: -0.076s; animation-duration: 1.38s; }
+    .loader-4201-cinder-16 { animation-delay: -0.185s; animation-duration: 1.48s; }
+    .loader-4201-cinder-17 { animation-delay: -0.294s; animation-duration: 1.58s; }
+    .loader-4201-cinder-18 { animation-delay: -0.403s; animation-duration: 1.69s; }
+    .loader-4201-cinder-19 { animation-delay: -0.512s; animation-duration: 0.85s; }
+    .loader-4201-cinder-20 { animation-delay: -0.621s; animation-duration: 0.95s; }
+    .loader-4201-cinder-21 { animation-delay: -0.73s; animation-duration: 1.06s; }
+    .loader-4201-cinder-22 { animation-delay: -0.839s; animation-duration: 1.17s; }
+    .loader-4201-cinder-23 { animation-delay: -0.948s; animation-duration: 1.27s; }
+    .loader-4201-cinder-24 { animation-delay: -1.057s; animation-duration: 1.38s; }
+    .loader-4201-cinder-25 { animation-delay: -1.166s; animation-duration: 1.48s; }
+    .loader-4201-cinder-26 { animation-delay: -1.275s; animation-duration: 1.58s; }
+    .loader-4201-cinder-27 { animation-delay: -1.384s; animation-duration: 1.69s; }
+    .loader-4201-cinder-28 { animation-delay: -0.043s; animation-duration: 0.85s; }
+    .loader-4201-cinder-29 { animation-delay: -0.152s; animation-duration: 0.95s; }
+    .loader-4201-cinder-30 { animation-delay: -0.261s; animation-duration: 1.06s; }
+    .loader-4201-cinder-31 { animation-delay: -0.37s; animation-duration: 1.17s; }
+    .loader-4201-cinder-32 { animation-delay: -0.479s; animation-duration: 1.27s; }
+    .loader-4201-cinder-33 { animation-delay: -0.588s; animation-duration: 1.38s; }
+    .loader-4201-cinder-34 { animation-delay: -0.697s; animation-duration: 1.48s; }
+    .loader-4201-cinder-35 { animation-delay: -0.806s; animation-duration: 1.58s; }
+    .loader-4201-cinder-36 { animation-delay: -0.915s; animation-duration: 1.69s; }
+    .loader-4201-cinder-37 { animation-delay: -1.024s; animation-duration: 0.85s; }
+    .loader-4201-cinder-38 { animation-delay: -1.133s; animation-duration: 0.95s; }
+    .loader-4201-cinder-39 { animation-delay: -1.242s; animation-duration: 1.06s; }
+    .loader-4201-cinder-40 { animation-delay: -1.351s; animation-duration: 1.17s; }
+    .loader-4201-cinder-41 { animation-delay: -0.01s; animation-duration: 1.27s; }
+    .loader-4201-cinder-42 { animation-delay: -0.119s; animation-duration: 1.38s; }
+    .loader-4201-pressure-1 { animation-delay: -0.0s; stroke-width: 1.0; }
+    .loader-4201-pressure-2 { animation-delay: -0.32s; stroke-width: 1.5; }
+    .loader-4201-pressure-3 { animation-delay: -0.64s; stroke-width: 2.0; }
+    .loader-4201-pressure-4 { animation-delay: -0.96s; stroke-width: 1.0; }
+    .loader-4201-pressure-5 { animation-delay: -1.28s; stroke-width: 1.5; }
+    .loader-4201-splinter-1 { animation-delay: -0.0s; stroke: #fecdd3; }
+    .loader-4201-splinter-2 { animation-delay: -0.123s; stroke: #fb7185; }
+    .loader-4201-splinter-3 { animation-delay: -0.246s; stroke: #881337; }
+    .loader-4201-splinter-4 { animation-delay: -0.369s; stroke: #fecdd3; }
+    .loader-4201-splinter-5 { animation-delay: -0.492s; stroke: #fb7185; }
+    .loader-4201-splinter-6 { animation-delay: -0.615s; stroke: #881337; }
+    .loader-4201-splinter-7 { animation-delay: -0.738s; stroke: #fecdd3; }
+    .loader-4201-splinter-8 { animation-delay: -0.861s; stroke: #fb7185; }
+    .loader-4201-splinter-9 { animation-delay: -0.984s; stroke: #881337; }
+    .loader-4201-splinter-10 { animation-delay: -1.107s; stroke: #fecdd3; }
+    .loader-4201-splinter-11 { animation-delay: -1.23s; stroke: #fb7185; }
+    .loader-4201-splinter-12 { animation-delay: -1.353s; stroke: #881337; }
+    
+    @media (prefers-reduced-motion: reduce) {
+      .loader-4201-haze ellipse,
+      .loader-4201-flame,
+      .loader-4201-inner,
+      .loader-4201-black,
+      .loader-4201-vein,
+      .loader-4201-hot,
+      .loader-4201-shard,
+      .loader-4201-cinder,
+      .loader-4201-impact-glow,
+      .loader-4201-pressure,
+      .loader-4201-splinter { animation: none; }
+      .loader-4201-flame,
+      .loader-4201-inner,
+      .loader-4201-black { opacity: .8; transform: translateX(185px) scaleX(.9); }
+      .loader-4201-vein { stroke-dashoffset: 42; }
+      .loader-4201-hot { stroke-dashoffset: 64; }
+      .loader-4201-shard { opacity: .65; transform: translateX(140px) scale(.7); }
+      .loader-4201-cinder { opacity: .9; transform: translateX(175px); }
+      .loader-4201-pressure { opacity: .35; }
+      .loader-4201-impact-glow { opacity: .25; }
+      .loader-4201-splinter { opacity: .7; }
+    }
+  `,
+  },
+
+  {
+    id: 4203,
+    name: "Fire — Ember Dance",
+    preview: (
+      <div className="loader-4203" role="status" aria-label="Laden">
+        <span className="loader-4203-flame loader-4203-flame-1"></span>
+        <span className="loader-4203-flame loader-4203-flame-2"></span>
+        <span className="loader-4203-flame loader-4203-flame-3"></span>
+        <span className="loader-4203-flame loader-4203-flame-4"></span>
+        <span className="loader-4203-flame loader-4203-flame-5"></span>
+      </div>
+    ),
+    html: `<div class="loader-4203" role="status" aria-label="Laden">
+  <span class="loader-4203-flame loader-4203-flame-1"></span>
+  <span class="loader-4203-flame loader-4203-flame-2"></span>
+  <span class="loader-4203-flame loader-4203-flame-3"></span>
+  <span class="loader-4203-flame loader-4203-flame-4"></span>
+  <span class="loader-4203-flame loader-4203-flame-5"></span>
+</div>`,
+    css: `.loader-4203{width:72px;height:52px;display:flex;align-items:flex-end;justify-content:center;gap:2px;overflow:visible}
+.loader-4203-flame{width:12px;height:32px;flex:none;transform-origin:bottom;clip-path:polygon(50% 0,73% 30%,62% 49%,100% 73%,84% 100%,16% 100%,0 73%,36% 43%,28% 20%);background:linear-gradient(to top,#991b1b,#f97316 45%,#fde047 82%,#fff7ed);filter:drop-shadow(0 0 5px #fb923c);animation:loader4203Flame 1.15s ease-in-out infinite}
+.loader-4203-flame-1,.loader-4203-flame-5{height:22px}.loader-4203-flame-2,.loader-4203-flame-4{height:35px}.loader-4203-flame-3{height:45px;width:15px}
+.loader-4203-flame:nth-child(2){animation-delay:-.22s}.loader-4203-flame:nth-child(3){animation-delay:-.55s}.loader-4203-flame:nth-child(4){animation-delay:-.75s}.loader-4203-flame:nth-child(5){animation-delay:-.4s}
+@keyframes loader4203Flame{0%,100%{transform:scaleY(.52) skewX(-6deg);opacity:.45}55%{transform:scaleY(1) skewX(5deg);opacity:1;filter:drop-shadow(0 0 10px #f97316)}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4203-flame { animation: none; }
+}`,
+  },
+
+  {
+    id: 4204,
+    name: "Ice / Frost — Crystal Growth",
+    preview: (
+      <div className="loader-4204" role="status" aria-label="Laden">
+        <span className="loader-4204-shard loader-4204-shard-1"></span>
+        <span className="loader-4204-shard loader-4204-shard-2"></span>
+        <span className="loader-4204-shard loader-4204-shard-3"></span>
+        <span className="loader-4204-spark"></span>
+      </div>
+    ),
+    html: `<div class="loader-4204" role="status" aria-label="Laden">
+  <span class="loader-4204-shard loader-4204-shard-1"></span>
+  <span class="loader-4204-shard loader-4204-shard-2"></span>
+  <span class="loader-4204-shard loader-4204-shard-3"></span>
+  <span class="loader-4204-spark"></span>
+</div>`,
+    css: `.loader-4204{position:relative;width:66px;height:52px;display:flex;align-items:flex-end;justify-content:center;gap:2px}
+.loader-4204-shard{width:15px;height:40px;transform-origin:bottom;clip-path:polygon(50% 0,100% 28%,82% 100%,18% 100%,0 28%);background:linear-gradient(112deg,#dbeafe 0 19%,#38bdf8 29%,#1d4ed8 55%,#a5f3fc 83%,#f0f9ff);box-shadow:0 0 10px #7dd3fc;animation:loader4204Grow 1.55s ease-in-out infinite}
+.loader-4204-shard-1{height:27px;animation-delay:-.35s}.loader-4204-shard-2{height:46px;animation-delay:-.75s}.loader-4204-shard-3{height:33px;animation-delay:-1.1s}
+.loader-4204-spark{position:absolute;top:1px;left:44px;width:7px;height:7px;transform:rotate(45deg);border:1px solid #a5f3fc;background:white;box-shadow:0 0 8px #7dd3fc;animation:loader4204Twinkle 1.5s ease-in-out infinite}
+@keyframes loader4204Grow{0%,100%{transform:scaleY(.45);opacity:.4}50%{transform:scaleY(1);opacity:1}}@keyframes loader4204Twinkle{0%,100%{opacity:.2;scale:.7}50%{opacity:1;scale:1.3}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4204-shard, .loader-4204-spark { animation: none; }
+}`,
+  },
+
+  {
+    id: 4205,
+    name: "Water — Tidal Wave",
+    preview: (
+      <div className="loader-4205" role="status" aria-label="Laden">
+        <svg viewBox="0 0 120 54" aria-hidden="true" focusable="false">
+          <path
+            className="loader-4205-wave"
+            pathLength="100"
+            d="M-12 16 Q4 3 20 16 T52 16 T84 16 T116 16 T148 16"
+          />
+          <path
+            className="loader-4205-wave"
+            pathLength="100"
+            d="M-12 28 Q4 15 20 28 T52 28 T84 28 T116 28 T148 28"
+          />
+          <path
+            className="loader-4205-wave"
+            pathLength="100"
+            d="M-12 40 Q4 27 20 40 T52 40 T84 40 T116 40 T148 40"
+          />
+        </svg>
+      </div>
+    ),
+    html: `<div class="loader-4205" role="status" aria-label="Laden">
+  <svg viewBox="0 0 120 54" aria-hidden="true" focusable="false">
+    <path class="loader-4205-wave" pathLength="100" d="M-12 16 Q4 3 20 16 T52 16 T84 16 T116 16 T148 16" />
+    <path class="loader-4205-wave" pathLength="100" d="M-12 28 Q4 15 20 28 T52 28 T84 28 T116 28 T148 28" />
+    <path class="loader-4205-wave" pathLength="100" d="M-12 40 Q4 27 20 40 T52 40 T84 40 T116 40 T148 40" />
+  </svg>
+</div>`,
+    css: `.loader-4205{width:128px;height:58px;display:grid;place-items:center;overflow:hidden}.loader-4205 svg{width:100%;height:100%;fill:none;overflow:hidden}
+.loader-4205-wave{stroke:#38bdf8;stroke-width:3.6;stroke-linecap:round;stroke-dasharray:32 68;stroke-dashoffset:100;filter:drop-shadow(0 0 3px #7dd3fc);animation:loader4205Tide 1.65s linear infinite}
+.loader-4205-wave:nth-child(2){stroke:#0284c7;stroke-width:4.5;animation-delay:-.55s;animation-duration:1.35s}.loader-4205-wave:nth-child(3){stroke:#7dd3fc;animation-delay:-1.05s;animation-duration:1.9s}
+@keyframes loader4205Tide{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4205-wave { animation: none; }
+}`,
+  },
+
+  {
+    id: 4206,
+    name: "Wind / Air — Zephyr Gust",
+    preview: (
+      <div className="loader-4206" role="status" aria-label="Laden">
+        <svg viewBox="0 0 120 54" aria-hidden="true" focusable="false">
+          <path
+            className="loader-4206-wind"
+            pathLength="100"
+            d="M-18 12 C7 8 21 22 42 12 S84 6 104 14 S128 19 145 10"
+          />
+          <path
+            className="loader-4206-wind"
+            pathLength="100"
+            d="M-18 26 C13 25 27 14 49 26 S80 37 106 27 S133 17 145 28"
+          />
+          <path
+            className="loader-4206-wind"
+            pathLength="100"
+            d="M-18 42 C8 38 23 52 48 41 S89 30 113 41 S131 48 145 40"
+          />
+        </svg>
+      </div>
+    ),
+    html: `<div class="loader-4206" role="status" aria-label="Laden">
+  <svg viewBox="0 0 120 54" aria-hidden="true" focusable="false">
+    <path class="loader-4206-wind" pathLength="100" d="M-18 12 C7 8 21 22 42 12 S84 6 104 14 S128 19 145 10" />
+    <path class="loader-4206-wind" pathLength="100" d="M-18 26 C13 25 27 14 49 26 S80 37 106 27 S133 17 145 28" />
+    <path class="loader-4206-wind" pathLength="100" d="M-18 42 C8 38 23 52 48 41 S89 30 113 41 S131 48 145 40" />
+  </svg>
+</div>`,
+    css: `.loader-4206{width:134px;height:56px;display:grid;place-items:center;overflow:hidden}.loader-4206 svg{width:100%;height:100%;fill:none;overflow:hidden}
+.loader-4206-wind{stroke:#2dd4bf;stroke-width:3.2;stroke-linecap:round;stroke-dasharray:23 77;stroke-dashoffset:100;filter:drop-shadow(0 0 3px #67e8f9);animation:loader4206Air 1.2s linear infinite}
+.loader-4206-wind:nth-child(2){stroke:#0891b2;stroke-width:4;animation-delay:-.4s;animation-duration:1.45s}.loader-4206-wind:nth-child(3){stroke:#a5f3fc;stroke-width:2.6;animation-delay:-.9s;animation-duration:1.7s}
+@keyframes loader4206Air{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4206-wind { animation: none; }
+}`,
+  },
+
+  {
+    id: 4207,
+    name: "Lightning — Thunder Branches",
+    preview: (
+      <div className="loader-4207" role="status" aria-label="Laden">
+        <svg viewBox="0 0 120 54" aria-hidden="true" focusable="false">
+          <path
+            className="loader-4207-bolt"
+            pathLength="100"
+            d="M-12 28 L9 28 L19 15 L29 35 L42 21 L54 32 L65 14 L77 35 L91 23 L103 32 L132 27"
+          />
+          <path
+            className="loader-4207-bolt"
+            pathLength="100"
+            d="M22 23 L29 8 L39 13 L47 4"
+          />
+          <path
+            className="loader-4207-bolt"
+            pathLength="100"
+            d="M77 35 L84 47 L98 39 L109 51"
+          />
+          <path
+            className="loader-4207-bolt"
+            pathLength="100"
+            d="M54 32 L49 45 L35 42 L26 51"
+          />
+        </svg>
+      </div>
+    ),
+    html: `<div class="loader-4207" role="status" aria-label="Laden">
+  <svg viewBox="0 0 120 54" aria-hidden="true" focusable="false">
+    <path class="loader-4207-bolt" pathLength="100" d="M-12 28 L9 28 L19 15 L29 35 L42 21 L54 32 L65 14 L77 35 L91 23 L103 32 L132 27" />
+    <path class="loader-4207-bolt" pathLength="100" d="M22 23 L29 8 L39 13 L47 4" />
+    <path class="loader-4207-bolt" pathLength="100" d="M77 35 L84 47 L98 39 L109 51" />
+    <path class="loader-4207-bolt" pathLength="100" d="M54 32 L49 45 L35 42 L26 51" />
+  </svg>
+</div>`,
+    css: `.loader-4207{width:132px;height:54px;display:grid;place-items:center;overflow:hidden}.loader-4207 svg{width:100%;height:100%;overflow:hidden;fill:none}
+.loader-4207-bolt{stroke:#fde047;stroke-width:3.2;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:33 67;stroke-dashoffset:100;filter:drop-shadow(0 0 5px #eab308);animation:loader4207Bolt 1.15s ease-in-out infinite}
+.loader-4207-bolt:first-child{stroke:#fef9c3;stroke-width:4.2;animation-duration:1.3s}.loader-4207-bolt:nth-child(2){animation-delay:-.3s}.loader-4207-bolt:nth-child(3){animation-delay:-.65s}.loader-4207-bolt:nth-child(4){animation-delay:-.9s}
+@keyframes loader4207Bolt{0%{stroke-dashoffset:100;opacity:.15}40%{opacity:1}80%{stroke-dashoffset:45;opacity:1}100%{stroke-dashoffset:0;opacity:.12}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4207-bolt { animation: none; }
+}`,
+  },
+
+  {
+    id: 4208,
+    name: "Earth — Floating Stones",
+    preview: (
+      <div className="loader-4208" role="status" aria-label="Laden">
+        <span className="loader-4208-stone loader-4208-stone-1"></span>
+        <span className="loader-4208-stone loader-4208-stone-2"></span>
+        <span className="loader-4208-stone loader-4208-stone-3"></span>
+        <span className="loader-4208-dust loader-4208-dust-1"></span>
+        <span className="loader-4208-dust loader-4208-dust-2"></span>
+      </div>
+    ),
+    html: `<div class="loader-4208" role="status" aria-label="Laden">
+  <span class="loader-4208-stone loader-4208-stone-1"></span>
+  <span class="loader-4208-stone loader-4208-stone-2"></span>
+  <span class="loader-4208-stone loader-4208-stone-3"></span>
+  <span class="loader-4208-dust loader-4208-dust-1"></span>
+  <span class="loader-4208-dust loader-4208-dust-2"></span>
+</div>`,
+    css: `.loader-4208{position:relative;width:74px;height:54px;display:flex;align-items:center;justify-content:center;gap:5px}
+.loader-4208-stone{width:17px;height:21px;clip-path:polygon(20% 4%,78% 0,100% 35%,88% 90%,37% 100%,0 72%);background:linear-gradient(135deg,#eab676 0%,#a16207 48%,#57534e 49%,#78350f);filter:drop-shadow(0 3px 2px #78350f55);animation:loader4208Rock 1.55s ease-in-out infinite}
+.loader-4208-stone-1{transform:rotate(-12deg);animation-delay:-.5s}.loader-4208-stone-2{height:29px;width:20px;animation-delay:-1s}.loader-4208-stone-3{transform:rotate(15deg);animation-delay:-.2s}
+.loader-4208-dust{position:absolute;bottom:6px;width:5px;height:5px;border-radius:50%;background:#c4a484;animation:loader4208Dust 1.7s ease-out infinite}.loader-4208-dust-1{left:12px}.loader-4208-dust-2{right:9px;animation-delay:-.7s}
+@keyframes loader4208Rock{0%,100%{translate:0 5px;opacity:.6}50%{translate:0 -6px;opacity:1}}@keyframes loader4208Dust{0%{translate:0 0;opacity:0}40%{opacity:.8}100%{translate:5px -23px;opacity:0}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4208-stone, .loader-4208-dust { animation: none; }
+}`,
+  },
+
+  {
+    id: 4209,
+    name: "Blood — Crimson Droplet Pulse",
+    preview: (
+      <div className="loader-4209" role="status" aria-label="Laden">
+        <span className="loader-4209-drop loader-4209-drop-1"></span>
+        <span className="loader-4209-drop loader-4209-drop-2"></span>
+        <span className="loader-4209-drop loader-4209-drop-3"></span>
+        <span className="loader-4209-ripple"></span>
+      </div>
+    ),
+    html: `<div class="loader-4209" role="status" aria-label="Laden">
+  <span class="loader-4209-drop loader-4209-drop-1"></span>
+  <span class="loader-4209-drop loader-4209-drop-2"></span>
+  <span class="loader-4209-drop loader-4209-drop-3"></span>
+  <span class="loader-4209-ripple"></span>
+</div>`,
+    css: `.loader-4209{position:relative;width:72px;height:48px;display:flex;align-items:center;justify-content:center;gap:7px}
+.loader-4209-drop{width:15px;height:24px;clip-path:polygon(50% 0,90% 48%,100% 68%,90% 90%,70% 100%,30% 100%,10% 90%,0 68%,10% 48%);background:linear-gradient(125deg,#fca5a5,#dc2626 48%,#7f1d1d);filter:drop-shadow(0 0 4px #dc2626);animation:loader4209Pulse 1.25s ease-in-out infinite}
+.loader-4209-drop-1{height:18px;animation-delay:-.35s}.loader-4209-drop-2{height:30px;animation-delay:-.75s}.loader-4209-drop-3{height:18px;animation-delay:-1.05s}
+.loader-4209-ripple{position:absolute;bottom:1px;left:15px;right:15px;height:4px;border-radius:50%;background:#b91c1c55;filter:blur(3px);animation:loader4209Ripple 1.25s ease-in-out infinite}
+@keyframes loader4209Pulse{0%,100%{transform:translateY(4px) scale(.7);opacity:.45}50%{transform:translateY(-4px) scale(1.12);opacity:1}}@keyframes loader4209Ripple{0%,100%{opacity:.2;transform:scaleX(.65)}50%{opacity:.9;transform:scaleX(1.2)}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4209-drop, .loader-4209-ripple { animation: none; }
+}`,
+  },
+
+  {
+    id: 4210,
+    name: "Darkness / Shadow — Eclipse Drift",
+    preview: (
+      <div className="loader-4210" role="status" aria-label="Laden">
+        <span className="loader-4210-eclipse loader-4210-eclipse-1"></span>
+        <span className="loader-4210-eclipse loader-4210-eclipse-2"></span>
+        <span className="loader-4210-eclipse loader-4210-eclipse-3"></span>
+      </div>
+    ),
+    html: `<div class="loader-4210" role="status" aria-label="Laden">
+  <span class="loader-4210-eclipse loader-4210-eclipse-1"></span>
+  <span class="loader-4210-eclipse loader-4210-eclipse-2"></span>
+  <span class="loader-4210-eclipse loader-4210-eclipse-3"></span>
+</div>`,
+    css: `.loader-4210{width:68px;height:48px;display:flex;align-items:center;justify-content:center;gap:5px}
+.loader-4210-eclipse{position:relative;width:17px;height:22px;border-radius:50%;background:linear-gradient(145deg,#94a3b8,#334155 55%,#020617);box-shadow:3px 0 0 #111827,0 0 8px #64748b55;animation:loader4210Eclipse 1.5s ease-in-out infinite}
+.loader-4210-eclipse::after{content:"";position:absolute;top:-2px;left:5px;width:13px;height:21px;border-radius:50%;background:#0f172a;opacity:.88}
+.loader-4210-eclipse-2{animation-delay:-.5s}.loader-4210-eclipse-3{animation-delay:-1s}
+@keyframes loader4210Eclipse{0%,100%{transform:translateY(4px) scale(.75);opacity:.35}50%{transform:translateY(-5px) scale(1);opacity:1}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4210-eclipse { animation: none; }
+}`,
+  },
+
+  {
+    id: 4211,
+    name: "Holy / Light — Divine Halo",
+    preview: (
+      <div className="loader-4211" role="status" aria-label="Laden">
+        <span className="loader-4211-ray"></span>
+        <span className="loader-4211-ray"></span>
+        <span className="loader-4211-ray"></span>
+        <span className="loader-4211-ray"></span>
+        <span className="loader-4211-ray"></span>
+        <span className="loader-4211-ray"></span>
+        <span className="loader-4211-ray"></span>
+        <span className="loader-4211-ray"></span>
+        <span className="loader-4211-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-4211" role="status" aria-label="Laden">
+  <span class="loader-4211-ray"></span>
+  <span class="loader-4211-ray"></span>
+  <span class="loader-4211-ray"></span>
+  <span class="loader-4211-ray"></span>
+  <span class="loader-4211-ray"></span>
+  <span class="loader-4211-ray"></span>
+  <span class="loader-4211-ray"></span>
+  <span class="loader-4211-ray"></span>
+  <span class="loader-4211-core"></span>
+</div>`,
+    css: `.loader-4211{position:relative;width:54px;height:54px;display:grid;place-items:center;animation:loader4211Turn 4.8s linear infinite}
+.loader-4211-ray{position:absolute;top:1px;left:24px;width:6px;height:15px;border-radius:999px;background:linear-gradient(#fff,#facc15);box-shadow:0 0 7px #fde68a;transform-origin:3px 26px;animation:loader4211Light 1.4s ease-in-out infinite}
+.loader-4211-ray:nth-child(1){transform:rotate(0deg)}.loader-4211-ray:nth-child(2){transform:rotate(45deg);animation-delay:-.17s}.loader-4211-ray:nth-child(3){transform:rotate(90deg);animation-delay:-.34s}.loader-4211-ray:nth-child(4){transform:rotate(135deg);animation-delay:-.51s}.loader-4211-ray:nth-child(5){transform:rotate(180deg);animation-delay:-.68s}.loader-4211-ray:nth-child(6){transform:rotate(225deg);animation-delay:-.85s}.loader-4211-ray:nth-child(7){transform:rotate(270deg);animation-delay:-1.02s}.loader-4211-ray:nth-child(8){transform:rotate(315deg);animation-delay:-1.19s}
+.loader-4211-core{width:14px;height:14px;border-radius:50%;background:radial-gradient(circle,#fff,#fde047);box-shadow:0 0 12px #facc15;animation:loader4211Light 1.4s ease-in-out infinite}
+@keyframes loader4211Turn{to{transform:rotate(360deg)}}@keyframes loader4211Light{0%,100%{opacity:.45;filter:brightness(.8)}50%{opacity:1;filter:brightness(1.3)}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4211, .loader-4211-ray, .loader-4211-core { animation: none; }
+}`,
+  },
+
+  {
+    id: 4212,
+    name: "Poison / Toxic — Venom Bubbles",
+    preview: (
+      <div className="loader-4212" role="status" aria-label="Laden">
+        <span className="loader-4212-bubble loader-4212-bubble-1"></span>
+        <span className="loader-4212-bubble loader-4212-bubble-2"></span>
+        <span className="loader-4212-bubble loader-4212-bubble-3"></span>
+        <span className="loader-4212-bubble loader-4212-bubble-4"></span>
+        <span className="loader-4212-vapor"></span>
+      </div>
+    ),
+    html: `<div class="loader-4212" role="status" aria-label="Laden">
+  <span class="loader-4212-bubble loader-4212-bubble-1"></span>
+  <span class="loader-4212-bubble loader-4212-bubble-2"></span>
+  <span class="loader-4212-bubble loader-4212-bubble-3"></span>
+  <span class="loader-4212-bubble loader-4212-bubble-4"></span>
+  <span class="loader-4212-vapor"></span>
+</div>`,
+    css: `.loader-4212{position:relative;width:72px;height:54px;overflow:hidden}
+.loader-4212-bubble{position:absolute;bottom:4px;width:15px;height:15px;border:2px solid #4d7c0f;border-radius:50%;background:radial-gradient(circle at 32% 25%,#ecfccb,#a3e635 40%,#365314);box-shadow:0 0 6px #84cc1655;animation:loader4212Bubble 1.65s ease-out infinite}
+.loader-4212-bubble-1{left:7px;animation-delay:0s}.loader-4212-bubble-2{left:27px;width:11px;height:11px;animation-delay:-.55s}.loader-4212-bubble-3{left:42px;width:18px;height:18px;animation-delay:-1.1s}.loader-4212-bubble-4{left:56px;width:8px;height:8px;animation-delay:-.3s}
+.loader-4212-vapor{position:absolute;bottom:0;left:5px;right:5px;height:13px;border-radius:50%;background:#84cc1633;filter:blur(7px);animation:loader4212Mist 1.65s ease-in-out infinite}
+@keyframes loader4212Bubble{0%{transform:translateY(5px) scale(.6);opacity:0}30%{opacity:1}100%{transform:translateY(-48px) scale(1.15);opacity:0}}@keyframes loader4212Mist{0%,100%{opacity:.3}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4212-bubble, .loader-4212-vapor { animation: none; }
+}`,
+  },
+
+  {
+    id: 4213,
+    name: "Void — Dark Implosion",
+    preview: (
+      <div className="loader-4213" role="status" aria-label="Laden">
+        <span className="loader-4213-ring loader-4213-ring-1"></span>
+        <span className="loader-4213-ring loader-4213-ring-2"></span>
+        <span className="loader-4213-ring loader-4213-ring-3"></span>
+        <span className="loader-4213-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-4213" role="status" aria-label="Laden">
+  <span class="loader-4213-ring loader-4213-ring-1"></span>
+  <span class="loader-4213-ring loader-4213-ring-2"></span>
+  <span class="loader-4213-ring loader-4213-ring-3"></span>
+  <span class="loader-4213-core"></span>
+</div>`,
+    css: `.loader-4213{position:relative;width:54px;height:54px;display:grid;place-items:center}
+.loader-4213-ring{position:absolute;border:2px solid #a78bfa;border-radius:50%;box-shadow:0 0 9px #7c3aed44;animation:loader4213Collapse 1.75s cubic-bezier(.55,0,.85,.45) infinite}
+.loader-4213-ring-1{inset:0}.loader-4213-ring-2{inset:6px;animation-delay:-.58s;border-color:#7c3aed}.loader-4213-ring-3{inset:12px;animation-delay:-1.16s;border-color:#c4b5fd}
+.loader-4213-core{width:12px;height:12px;border-radius:50%;background:#10061f;box-shadow:0 0 0 2px #a78bfa,0 0 13px #7c3aed;animation:loader4213Core 1.75s ease-in-out infinite}
+@keyframes loader4213Collapse{0%{transform:scale(1.1);opacity:.8}80%,100%{transform:scale(.12);opacity:0}}@keyframes loader4213Core{0%,100%{transform:scale(.7)}50%{transform:scale(1.15)}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4213-ring, .loader-4213-core { animation: none; }
+}`,
+  },
+
+  {
+    id: 4214,
+    name: "Lava / Magma — Molten Flow",
+    preview: (
+      <div className="loader-4214" role="status" aria-label="Laden">
+        <span className="loader-4214-flow"></span>
+        <span className="loader-4214-crack loader-4214-crack-1"></span>
+        <span className="loader-4214-crack loader-4214-crack-2"></span>
+        <span className="loader-4214-crack loader-4214-crack-3"></span>
+      </div>
+    ),
+    html: `<div class="loader-4214" role="status" aria-label="Laden">
+  <span class="loader-4214-flow"></span>
+  <span class="loader-4214-crack loader-4214-crack-1"></span>
+  <span class="loader-4214-crack loader-4214-crack-2"></span>
+  <span class="loader-4214-crack loader-4214-crack-3"></span>
+</div>`,
+    css: `.loader-4214{position:relative;width:124px;height:17px;border-radius:999px;background:#451a03;overflow:hidden;box-shadow:inset 0 0 0 1px #92400e}
+.loader-4214-flow{position:absolute;inset:3px;border-radius:999px;background:repeating-linear-gradient(105deg,#7f1d1d 0 9px,#f97316 9px 17px,#fde047 18px 21px,#ea580c 24px 30px);background-size:60px 100%;animation:loader4214Lava 1.1s linear infinite}
+.loader-4214-crack{position:absolute;top:2px;width:3px;height:12px;background:#fef08a;transform:skewX(-25deg);filter:drop-shadow(0 0 3px #fde047);animation:loader4214Flash 1.4s ease-in-out infinite}
+.loader-4214-crack-1{left:29px}.loader-4214-crack-2{left:68px;animation-delay:-.46s}.loader-4214-crack-3{left:101px;animation-delay:-.92s}
+@keyframes loader4214Lava{to{background-position:60px 0}}@keyframes loader4214Flash{0%,100%{opacity:.12}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4214-flow, .loader-4214-crack { animation: none; }
+}`,
+  },
+
+  {
+    id: 4215,
+    name: "Crystal — Prism Sequence",
+    preview: (
+      <div className="loader-4215" role="status" aria-label="Laden">
+        <span className="loader-4215-gem loader-4215-gem-1"></span>
+        <span className="loader-4215-gem loader-4215-gem-2"></span>
+        <span className="loader-4215-gem loader-4215-gem-3"></span>
+        <span className="loader-4215-gem loader-4215-gem-4"></span>
+      </div>
+    ),
+    html: `<div class="loader-4215" role="status" aria-label="Laden">
+  <span class="loader-4215-gem loader-4215-gem-1"></span>
+  <span class="loader-4215-gem loader-4215-gem-2"></span>
+  <span class="loader-4215-gem loader-4215-gem-3"></span>
+  <span class="loader-4215-gem loader-4215-gem-4"></span>
+</div>`,
+    css: `.loader-4215{width:82px;height:54px;display:flex;align-items:center;justify-content:center;gap:5px}
+.loader-4215-gem{width:14px;height:29px;clip-path:polygon(50% 0,100% 30%,82% 75%,50% 100%,18% 75%,0 30%);background:linear-gradient(110deg,#fae8ff 0 25%,#d946ef 27% 49%,#7e22ce 51% 74%,#e9d5ff 76%);filter:drop-shadow(0 0 6px #c084fc);animation:loader4215Gem 1.4s ease-in-out infinite}
+.loader-4215-gem-1{animation-delay:-.25s}.loader-4215-gem-2{height:39px;animation-delay:-.5s}.loader-4215-gem-3{height:36px;animation-delay:-.75s}.loader-4215-gem-4{animation-delay:-1s}
+@keyframes loader4215Gem{0%,100%{transform:translateY(5px) scale(.75) rotate(-5deg);opacity:.35}50%{transform:translateY(-4px) scale(1) rotate(5deg);opacity:1;filter:brightness(1.35) drop-shadow(0 0 8px #c084fc)}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4215-gem { animation: none; }
+}`,
+  },
+
+  {
+    id: 4216,
+    name: "Nature / Wood — Growing Sprout",
+    preview: (
+      <div className="loader-4216" role="status" aria-label="Laden">
+        <span className="loader-4216-stem"></span>
+        <span className="loader-4216-leaf loader-4216-leaf-left"></span>
+        <span className="loader-4216-leaf loader-4216-leaf-right"></span>
+        <span className="loader-4216-seed"></span>
+      </div>
+    ),
+    html: `<div class="loader-4216" role="status" aria-label="Laden">
+  <span class="loader-4216-stem"></span>
+  <span class="loader-4216-leaf loader-4216-leaf-left"></span>
+  <span class="loader-4216-leaf loader-4216-leaf-right"></span>
+  <span class="loader-4216-seed"></span>
+</div>`,
+    css: `.loader-4216{position:relative;width:64px;height:56px;display:grid;place-items:center}
+.loader-4216-stem{position:absolute;bottom:10px;left:30px;width:4px;height:29px;border-radius:999px;background:linear-gradient(#4ade80,#166534);transform-origin:bottom;animation:loader4216Grow 2s ease-in-out infinite}
+.loader-4216-leaf{position:absolute;width:20px;height:12px;background:linear-gradient(125deg,#bbf7d0,#22c55e,#15803d);border-radius:95% 0 95% 0;transform-origin:bottom right;animation:loader4216Leaf 2s ease-in-out infinite}
+.loader-4216-leaf-left{left:11px;top:16px;rotate:-25deg;animation-delay:-.2s}.loader-4216-leaf-right{right:9px;top:11px;rotate:105deg;animation-delay:-.5s}
+.loader-4216-seed{position:absolute;bottom:7px;width:16px;height:7px;border-radius:50%;background:#713f12}
+@keyframes loader4216Grow{0%,100%{transform:scaleY(.4);opacity:.5}50%{transform:scaleY(1);opacity:1}}@keyframes loader4216Leaf{0%,100%{scale:.55;opacity:.45}50%{scale:1;opacity:1}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4216-stem, .loader-4216-leaf { animation: none; }
+}`,
+  },
+
+  {
+    id: 4217,
+    name: "Metal / Steel — Magnetic Rings",
+    preview: (
+      <div className="loader-4217" role="status" aria-label="Laden">
+        <span className="loader-4217-ring loader-4217-ring-outer"></span>
+        <span className="loader-4217-ring loader-4217-ring-inner"></span>
+        <span className="loader-4217-hub"></span>
+      </div>
+    ),
+    html: `<div class="loader-4217" role="status" aria-label="Laden">
+  <span class="loader-4217-ring loader-4217-ring-outer"></span>
+  <span class="loader-4217-ring loader-4217-ring-inner"></span>
+  <span class="loader-4217-hub"></span>
+</div>`,
+    css: `.loader-4217{position:relative;width:52px;height:52px;display:grid;place-items:center}
+.loader-4217-ring{position:absolute;border-radius:50%;box-sizing:border-box;background:conic-gradient(#f8fafc,#64748b,#1e293b,#cbd5e1,#475569,#f8fafc);-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 5px),#000 calc(100% - 4px));mask:radial-gradient(farthest-side,transparent calc(100% - 5px),#000 calc(100% - 4px));animation:loader4217Metal 1.2s linear infinite}
+.loader-4217-ring-outer{inset:2px}.loader-4217-ring-inner{inset:12px;animation-direction:reverse;animation-duration:.8s;filter:brightness(1.3)}
+.loader-4217-hub{width:8px;height:8px;border-radius:50%;background:#94a3b8;box-shadow:0 0 0 2px #334155,0 0 6px #cbd5e1}
+@keyframes loader4217Metal{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4217-ring { animation: none; }
+}`,
+  },
+
+  {
+    id: 4218,
+    name: "Gravity — Compression Field",
+    preview: (
+      <div className="loader-4218" role="status" aria-label="Laden">
+        <span className="loader-4218-orbit loader-4218-orbit-1"></span>
+        <span className="loader-4218-orbit loader-4218-orbit-2"></span>
+        <span className="loader-4218-orbit loader-4218-orbit-3"></span>
+        <span className="loader-4218-mass"></span>
+      </div>
+    ),
+    html: `<div class="loader-4218" role="status" aria-label="Laden">
+  <span class="loader-4218-orbit loader-4218-orbit-1"></span>
+  <span class="loader-4218-orbit loader-4218-orbit-2"></span>
+  <span class="loader-4218-orbit loader-4218-orbit-3"></span>
+  <span class="loader-4218-mass"></span>
+</div>`,
+    css: `.loader-4218{position:relative;width:68px;height:54px;display:grid;place-items:center}
+.loader-4218-orbit{position:absolute;border:2px solid #818cf8;border-radius:50%;box-shadow:0 0 7px #6366f155;animation:loader4218Gravity 1.7s ease-in-out infinite}
+.loader-4218-orbit-1{width:64px;height:28px}.loader-4218-orbit-2{width:50px;height:20px;rotate:55deg;animation-delay:-.55s;border-color:#c7d2fe}.loader-4218-orbit-3{width:50px;height:20px;rotate:-55deg;animation-delay:-1.1s;border-color:#a5b4fc}
+.loader-4218-mass{width:13px;height:13px;border-radius:50%;background:radial-gradient(circle,#c7d2fe,#4338ca 70%);box-shadow:0 0 13px #6366f1;animation:loader4218Mass 1.7s ease-in-out infinite}
+@keyframes loader4218Gravity{0%,100%{transform:scale(1.08);opacity:.65}50%{transform:scale(.56);opacity:1}}@keyframes loader4218Mass{0%,100%{scale:.8}50%{scale:1.3}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4218-orbit, .loader-4218-mass { animation: none; }
+}`,
+  },
+
+  {
+    id: 4219,
+    name: "Time — Chrono Dial",
+    preview: (
+      <div className="loader-4219" role="status" aria-label="Laden">
+        <span className="loader-4219-dial"></span>
+        <span className="loader-4219-hand"></span>
+        <span className="loader-4219-hand-secondary"></span>
+        <span className="loader-4219-center"></span>
+      </div>
+    ),
+    html: `<div class="loader-4219" role="status" aria-label="Laden">
+  <span class="loader-4219-dial"></span>
+  <span class="loader-4219-hand"></span>
+  <span class="loader-4219-hand-secondary"></span>
+  <span class="loader-4219-center"></span>
+</div>`,
+    css: `.loader-4219{position:relative;width:50px;height:50px;display:grid;place-items:center}
+.loader-4219-dial{position:absolute;inset:2px;border:3px solid #0d9488;border-top-color:#fde68a;border-radius:50%;box-shadow:0 0 8px #14b8a655}
+.loader-4219-hand{position:absolute;left:24px;top:9px;width:3px;height:17px;border-radius:999px;background:#eab308;transform-origin:50% 16px;animation:loader4219Time 2s linear infinite}
+.loader-4219-hand-secondary{position:absolute;left:24px;top:16px;width:2px;height:10px;border-radius:999px;background:#0f766e;transform-origin:50% 9px;animation:loader4219Time 7s linear infinite}
+.loader-4219-center{width:7px;height:7px;border-radius:50%;background:#fef08a;box-shadow:0 0 5px #eab308}
+@keyframes loader4219Time{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4219-hand, .loader-4219-hand-secondary { animation: none; }
+}`,
+  },
+
+  {
+    id: 4220,
+    name: "Space / Cosmic — Nebula Orbits",
+    preview: (
+      <div className="loader-4220" role="status" aria-label="Laden">
+        <span className="loader-4220-orbit loader-4220-orbit-1"></span>
+        <span className="loader-4220-orbit loader-4220-orbit-2"></span>
+        <span className="loader-4220-orbit loader-4220-orbit-3"></span>
+        <span className="loader-4220-star"></span>
+      </div>
+    ),
+    html: `<div class="loader-4220" role="status" aria-label="Laden">
+  <span class="loader-4220-orbit loader-4220-orbit-1"></span>
+  <span class="loader-4220-orbit loader-4220-orbit-2"></span>
+  <span class="loader-4220-orbit loader-4220-orbit-3"></span>
+  <span class="loader-4220-star"></span>
+</div>`,
+    css: `.loader-4220{position:relative;width:60px;height:60px;display:grid;place-items:center}
+.loader-4220-orbit{position:absolute;width:56px;height:23px;border:2px solid #818cf8;border-radius:50%;animation:loader4220Orbit 2.4s linear infinite}
+.loader-4220-orbit::before{content:"";position:absolute;left:50%;top:-4px;width:7px;height:7px;border-radius:50%;background:#f5d0fe;box-shadow:0 0 8px #a78bfa}
+.loader-4220-orbit-1{transform:rotate(0deg)}.loader-4220-orbit-2{rotate:60deg;border-color:#a78bfa;animation-duration:1.8s;animation-direction:reverse}.loader-4220-orbit-3{rotate:120deg;border-color:#60a5fa;animation-duration:3s}
+.loader-4220-star{width:12px;height:12px;border-radius:50%;background:radial-gradient(circle,#fff,#c4b5fd,#4338ca);box-shadow:0 0 12px #8b5cf6;animation:loader4220Star 1.4s ease-in-out infinite}
+@keyframes loader4220Orbit{to{transform:rotate(360deg)}}@keyframes loader4220Star{0%,100%{scale:.75;opacity:.55}50%{scale:1.2;opacity:1}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4220-orbit, .loader-4220-star { animation: none; }
+}`,
+  },
+
+  {
+    id: 4221,
+    name: "Soul / Spirit — Wisp Flames",
+    preview: (
+      <div className="loader-4221" role="status" aria-label="Laden">
+        <span className="loader-4221-wisp loader-4221-wisp-1"></span>
+        <span className="loader-4221-wisp loader-4221-wisp-2"></span>
+        <span className="loader-4221-wisp loader-4221-wisp-3"></span>
+      </div>
+    ),
+    html: `<div class="loader-4221" role="status" aria-label="Laden">
+  <span class="loader-4221-wisp loader-4221-wisp-1"></span>
+  <span class="loader-4221-wisp loader-4221-wisp-2"></span>
+  <span class="loader-4221-wisp loader-4221-wisp-3"></span>
+</div>`,
+    css: `.loader-4221{width:70px;height:52px;display:flex;align-items:flex-end;justify-content:center;gap:7px}
+.loader-4221-wisp{width:15px;height:29px;clip-path:polygon(52% 0,77% 25%,70% 48%,100% 68%,86% 91%,51% 100%,15% 91%,0 70%,31% 40%,26% 20%);background:linear-gradient(to top,#0891b2,#67e8f9 50%,#fff);filter:drop-shadow(0 0 8px #67e8f9);animation:loader4221Soul 1.65s ease-in-out infinite}
+.loader-4221-wisp-1{height:22px;animation-delay:-.3s}.loader-4221-wisp-2{height:38px;animation-delay:-.85s}.loader-4221-wisp-3{height:26px;animation-delay:-1.2s}
+@keyframes loader4221Soul{0%,100%{transform:translateY(4px) scale(.65) rotate(-7deg);opacity:.35}50%{transform:translateY(-6px) scale(1.1) rotate(6deg);opacity:1}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4221-wisp { animation: none; }
+}`,
+  },
+
+  {
+    id: 4222,
+    name: "Necromancy — Spectral Essence",
+    preview: (
+      <div className="loader-4222" role="status" aria-label="Laden">
+        <span className="loader-4222-spirit loader-4222-spirit-1"></span>
+        <span className="loader-4222-spirit loader-4222-spirit-2"></span>
+        <span className="loader-4222-spirit loader-4222-spirit-3"></span>
+        <span className="loader-4222-rune"></span>
+      </div>
+    ),
+    html: `<div class="loader-4222" role="status" aria-label="Laden">
+  <span class="loader-4222-spirit loader-4222-spirit-1"></span>
+  <span class="loader-4222-spirit loader-4222-spirit-2"></span>
+  <span class="loader-4222-spirit loader-4222-spirit-3"></span>
+  <span class="loader-4222-rune"></span>
+</div>`,
+    css: `.loader-4222{position:relative;width:75px;height:52px;display:flex;align-items:center;justify-content:center;gap:7px}
+.loader-4222-spirit{width:17px;height:23px;border-radius:50% 50% 45% 45%;background:radial-gradient(circle at 38% 27%,#d9f99d,#65a30d 46%,#14532d 75%,transparent);box-shadow:0 0 9px #65a30d80;clip-path:polygon(50% 0,90% 15%,100% 63%,72% 100%,50% 74%,22% 100%,0 63%,10% 15%);animation:loader4222Haunt 1.75s ease-in-out infinite}
+.loader-4222-spirit-2{animation-delay:-.55s;height:30px}.loader-4222-spirit-3{animation-delay:-1.1s}
+.loader-4222-rune{position:absolute;left:50%;bottom:0;width:38px;height:6px;border:1px solid #65a30d;border-radius:50%;transform:translateX(-50%);opacity:.5;animation:loader4222Rune 1.75s ease-in-out infinite}
+@keyframes loader4222Haunt{0%,100%{transform:translateY(6px) scale(.7);opacity:.3}50%{transform:translateY(-6px) scale(1.15);opacity:1}}@keyframes loader4222Rune{0%,100%{scale:.7;opacity:.25}50%{scale:1.1;opacity:.8}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4222-spirit, .loader-4222-rune { animation: none; }
+}`,
+  },
+
+  {
+    id: 4223,
+    name: "Arcane Magic — Rune Casting",
+    preview: (
+      <div className="loader-4223" role="status" aria-label="Laden">
+        <svg viewBox="0 0 120 54" aria-hidden="true" focusable="false">
+          <g className="loader-4223-wheel">
+            <circle cx="60" cy="27" r="21" />
+            <circle cx="60" cy="27" r="15" strokeDasharray="3 4" />
+            <path d="M60 1V9 M60 45V53 M34 27H42 M78 27H86" />
+            <path d="M60 14L73 36H47Z" />
+          </g>
+          <circle className="loader-4223-star" cx="60" cy="27" r="4" />
+        </svg>
+      </div>
+    ),
+    html: `<div class="loader-4223" role="status" aria-label="Laden">
+  <svg viewBox="0 0 120 54" aria-hidden="true" focusable="false">
+    <g class="loader-4223-wheel">
+      <circle cx="60" cy="27" r="21" />
+      <circle cx="60" cy="27" r="15" strokeDasharray="3 4" />
+      <path d="M60 1V9 M60 45V53 M34 27H42 M78 27H86" />
+      <path d="M60 14L73 36H47Z" />
+    </g>
+    <circle class="loader-4223-star" cx="60" cy="27" r="4" />
+  </svg>
+</div>`,
+    css: `.loader-4223{width:74px;height:64px;display:grid;place-items:center}.loader-4223 svg{height:100%;width:100%;overflow:visible;fill:none}
+.loader-4223-wheel{stroke:#a78bfa;stroke-width:2;stroke-linecap:round;transform-origin:60px 27px;filter:drop-shadow(0 0 3px #7c3aed);animation:loader4223Rune 3.2s linear infinite}
+.loader-4223-wheel circle:nth-child(2){stroke:#f0abfc}.loader-4223-star{fill:#e9d5ff;filter:drop-shadow(0 0 5px #c084fc);animation:loader4223Star 1.25s ease-in-out infinite}
+@keyframes loader4223Rune{to{transform:rotate(360deg)}}@keyframes loader4223Star{0%,100%{opacity:.35}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4223-wheel, .loader-4223-star { animation: none; }
+}`,
+  },
+
+  {
+    id: 4224,
+    name: "Sound / Sonic — Resonance Bars",
+    preview: (
+      <div className="loader-4224" role="status" aria-label="Laden">
+        <span className="loader-4224-bar"></span>
+        <span className="loader-4224-bar"></span>
+        <span className="loader-4224-bar"></span>
+        <span className="loader-4224-bar"></span>
+        <span className="loader-4224-bar"></span>
+        <span className="loader-4224-bar"></span>
+        <span className="loader-4224-bar"></span>
+      </div>
+    ),
+    html: `<div class="loader-4224" role="status" aria-label="Laden">
+  <span class="loader-4224-bar"></span>
+  <span class="loader-4224-bar"></span>
+  <span class="loader-4224-bar"></span>
+  <span class="loader-4224-bar"></span>
+  <span class="loader-4224-bar"></span>
+  <span class="loader-4224-bar"></span>
+  <span class="loader-4224-bar"></span>
+</div>`,
+    css: `.loader-4224{width:92px;height:44px;display:flex;align-items:center;justify-content:center;gap:6px}
+.loader-4224-bar{width:6px;height:34px;border-radius:99px;background:linear-gradient(#a5f3fc,#06b6d4,#155e75);transform-origin:center;animation:loader4224Sound 1s ease-in-out infinite}
+.loader-4224-bar:nth-child(2){animation-delay:-.12s}.loader-4224-bar:nth-child(3){animation-delay:-.24s}.loader-4224-bar:nth-child(4){animation-delay:-.36s}.loader-4224-bar:nth-child(5){animation-delay:-.48s}.loader-4224-bar:nth-child(6){animation-delay:-.6s}.loader-4224-bar:nth-child(7){animation-delay:-.72s}
+@keyframes loader4224Sound{0%,100%{transform:scaleY(.15);opacity:.35}50%{transform:scaleY(1);opacity:1}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4224-bar { animation: none; }
+}`,
+  },
+
+  {
+    id: 4225,
+    name: "Sand / Dust — Desert Drift",
+    preview: (
+      <div className="loader-4225" role="status" aria-label="Laden">
+        <span className="loader-4225-dune loader-4225-dune-1"></span>
+        <span className="loader-4225-dune loader-4225-dune-2"></span>
+        <span className="loader-4225-grain loader-4225-grain-1"></span>
+        <span className="loader-4225-grain loader-4225-grain-2"></span>
+        <span className="loader-4225-grain loader-4225-grain-3"></span>
+        <span className="loader-4225-grain loader-4225-grain-4"></span>
+      </div>
+    ),
+    html: `<div class="loader-4225" role="status" aria-label="Laden">
+  <span class="loader-4225-dune loader-4225-dune-1"></span>
+  <span class="loader-4225-dune loader-4225-dune-2"></span>
+  <span class="loader-4225-grain loader-4225-grain-1"></span>
+  <span class="loader-4225-grain loader-4225-grain-2"></span>
+  <span class="loader-4225-grain loader-4225-grain-3"></span>
+  <span class="loader-4225-grain loader-4225-grain-4"></span>
+</div>`,
+    css: `.loader-4225{position:relative;width:118px;height:44px;overflow:hidden}
+.loader-4225-dune{position:absolute;bottom:0;left:-20px;width:150px;height:21px;border-radius:55% 55% 0 0;background:linear-gradient(100deg,#fef3c7,#d6a45d,#a16207);animation:loader4225Dune 2.2s ease-in-out infinite}
+.loader-4225-dune-2{bottom:-9px;opacity:.65;animation-delay:-1.1s;background:#fcd34d}
+.loader-4225-grain{position:absolute;left:0;top:10px;width:4px;height:4px;border-radius:50%;background:#d6a45d;animation:loader4225Grain 1.5s linear infinite}
+.loader-4225-grain-1{top:3px;animation-delay:-.2s}.loader-4225-grain-2{top:13px;animation-delay:-.6s}.loader-4225-grain-3{top:26px;animation-delay:-1s}.loader-4225-grain-4{top:19px;animation-delay:-1.3s}
+@keyframes loader4225Dune{0%,100%{transform:translateX(-10px)}50%{transform:translateX(14px)}}@keyframes loader4225Grain{0%{transform:translateX(-10px);opacity:0}20%{opacity:.9}100%{transform:translateX(125px);opacity:0}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4225-dune, .loader-4225-grain { animation: none; }
+}`,
+  },
+
+  {
+    id: 4226,
+    name: "Smoke / Ash — Ashen Wisps",
+    preview: (
+      <div className="loader-4226" role="status" aria-label="Laden">
+        <span className="loader-4226-smoke loader-4226-smoke-1"></span>
+        <span className="loader-4226-smoke loader-4226-smoke-2"></span>
+        <span className="loader-4226-smoke loader-4226-smoke-3"></span>
+      </div>
+    ),
+    html: `<div class="loader-4226" role="status" aria-label="Laden">
+  <span class="loader-4226-smoke loader-4226-smoke-1"></span>
+  <span class="loader-4226-smoke loader-4226-smoke-2"></span>
+  <span class="loader-4226-smoke loader-4226-smoke-3"></span>
+</div>`,
+    css: `.loader-4226{position:relative;width:75px;height:60px;display:flex;align-items:flex-end;justify-content:center;gap:5px;overflow:hidden}
+.loader-4226-smoke{width:19px;height:25px;border-radius:45% 55% 50% 50%;background:radial-gradient(circle at 35% 65%,#d6d3d1,#78716c 65%,transparent);filter:blur(2px);animation:loader4226Smoke 2.1s ease-out infinite}
+.loader-4226-smoke-1{animation-delay:-.3s}.loader-4226-smoke-2{width:23px;height:30px;animation-delay:-1s}.loader-4226-smoke-3{animation-delay:-1.65s}
+@keyframes loader4226Smoke{0%{transform:translateY(12px) scale(.55);opacity:0}25%{opacity:.8}100%{transform:translate(8px,-40px) scale(1.5);opacity:0}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4226-smoke { animation: none; }
+}`,
+  },
+
+  {
+    id: 4227,
+    name: "Plasma — Neon Stream",
+    preview: (
+      <div className="loader-4227" role="status" aria-label="Laden">
+        <svg viewBox="0 0 120 54" aria-hidden="true" focusable="false">
+          <path
+            className="loader-4227-plasma"
+            pathLength="100"
+            d="M-10 13 C15 -3 25 28 52 13 S93 2 118 15 S135 20 150 13"
+          />
+          <path
+            className="loader-4227-plasma"
+            pathLength="100"
+            d="M-10 28 C12 45 27 9 52 28 S89 46 119 27 S135 13 150 28"
+          />
+          <path
+            className="loader-4227-plasma"
+            pathLength="100"
+            d="M-10 43 C13 27 26 59 51 43 S94 29 119 43 S134 53 150 44"
+          />
+        </svg>
+      </div>
+    ),
+    html: `<div class="loader-4227" role="status" aria-label="Laden">
+  <svg viewBox="0 0 120 54" aria-hidden="true" focusable="false">
+    <path class="loader-4227-plasma" pathLength="100" d="M-10 13 C15 -3 25 28 52 13 S93 2 118 15 S135 20 150 13" />
+    <path class="loader-4227-plasma" pathLength="100" d="M-10 28 C12 45 27 9 52 28 S89 46 119 27 S135 13 150 28" />
+    <path class="loader-4227-plasma" pathLength="100" d="M-10 43 C13 27 26 59 51 43 S94 29 119 43 S134 53 150 44" />
+  </svg>
+</div>`,
+    css: `.loader-4227{width:128px;height:58px;display:grid;place-items:center;overflow:hidden}.loader-4227 svg{width:100%;height:100%;overflow:hidden;fill:none}
+.loader-4227-plasma{stroke:#e879f9;stroke-width:3.6;stroke-linecap:round;stroke-dasharray:25 75;stroke-dashoffset:100;filter:drop-shadow(0 0 5px #c026d3);animation:loader4227Plasma 1.3s linear infinite}
+.loader-4227-plasma:nth-child(2){stroke:#a855f7;stroke-width:4.5;animation-delay:-.45s;animation-duration:1.1s}.loader-4227-plasma:nth-child(3){stroke:#f5d0fe;stroke-width:2.5;animation-delay:-.95s;animation-duration:1.5s}
+@keyframes loader4227Plasma{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4227-plasma { animation: none; }
+}`,
+  },
+
+  {
+    id: 4228,
+    name: "Dream / Illusion — Mirage Rings",
+    preview: (
+      <div className="loader-4228" role="status" aria-label="Laden">
+        <span className="loader-4228-ring loader-4228-ring-1"></span>
+        <span className="loader-4228-ring loader-4228-ring-2"></span>
+        <span className="loader-4228-ring loader-4228-ring-3"></span>
+      </div>
+    ),
+    html: `<div class="loader-4228" role="status" aria-label="Laden">
+  <span class="loader-4228-ring loader-4228-ring-1"></span>
+  <span class="loader-4228-ring loader-4228-ring-2"></span>
+  <span class="loader-4228-ring loader-4228-ring-3"></span>
+</div>`,
+    css: `.loader-4228{position:relative;width:68px;height:52px;display:grid;place-items:center}
+.loader-4228-ring{position:absolute;width:45px;height:29px;border:3px solid #c4b5fd;border-radius:50%;box-shadow:0 0 8px #c4b5fd55;animation:loader4228Dream 2.2s ease-in-out infinite}
+.loader-4228-ring-2{border-color:#e9d5ff;animation-delay:-.73s;rotate:60deg}.loader-4228-ring-3{border-color:#a78bfa;animation-delay:-1.46s;rotate:120deg}
+@keyframes loader4228Dream{0%,100%{transform:scale(.7) skewX(-12deg);opacity:.25}50%{transform:scale(1.15) skewX(12deg);opacity:1}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4228-ring { animation: none; }
+}`,
+  },
+
+  {
+    id: 4229,
+    name: "Chaos — Wild Fragments",
+    preview: (
+      <div className="loader-4229" role="status" aria-label="Laden">
+        <span className="loader-4229-fragment loader-4229-fragment-1"></span>
+        <span className="loader-4229-fragment loader-4229-fragment-2"></span>
+        <span className="loader-4229-fragment loader-4229-fragment-3"></span>
+        <span className="loader-4229-fragment loader-4229-fragment-4"></span>
+        <span className="loader-4229-fragment loader-4229-fragment-5"></span>
+      </div>
+    ),
+    html: `<div class="loader-4229" role="status" aria-label="Laden">
+  <span class="loader-4229-fragment loader-4229-fragment-1"></span>
+  <span class="loader-4229-fragment loader-4229-fragment-2"></span>
+  <span class="loader-4229-fragment loader-4229-fragment-3"></span>
+  <span class="loader-4229-fragment loader-4229-fragment-4"></span>
+  <span class="loader-4229-fragment loader-4229-fragment-5"></span>
+</div>`,
+    css: `.loader-4229{position:relative;width:67px;height:55px;display:grid;place-items:center}
+.loader-4229-fragment{position:absolute;width:16px;height:23px;clip-path:polygon(45% 0,100% 46%,62% 100%,0 65%);background:linear-gradient(135deg,#fda4af,#e11d48 45%,#a21caf);filter:drop-shadow(0 0 4px #f43f5e);animation:loader4229Chaos 1.4s ease-in-out infinite}
+.loader-4229-fragment-1{top:2px;left:25px;animation-delay:-.1s}.loader-4229-fragment-2{top:15px;left:5px;animation-delay:-.35s}.loader-4229-fragment-3{top:29px;left:25px;animation-delay:-.6s}.loader-4229-fragment-4{top:14px;right:4px;animation-delay:-.85s}.loader-4229-fragment-5{top:15px;left:25px;width:11px;height:16px;animation-delay:-1.1s;background:#fdf2f8}
+@keyframes loader4229Chaos{0%,100%{transform:rotate(-35deg) scale(.45);opacity:.3}35%{transform:rotate(75deg) translateY(-7px) scale(1.1);opacity:1}70%{transform:rotate(150deg) scale(.65);opacity:.65}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4229-fragment { animation: none; }
+}`,
+  },
+
+  {
+    id: 4230,
+    name: "Solar / Sun — Solar Flare",
+    preview: (
+      <div className="loader-4230" role="status" aria-label="Laden">
+        <span className="loader-4230-ray"></span>
+        <span className="loader-4230-ray"></span>
+        <span className="loader-4230-ray"></span>
+        <span className="loader-4230-ray"></span>
+        <span className="loader-4230-ray"></span>
+        <span className="loader-4230-ray"></span>
+        <span className="loader-4230-ray"></span>
+        <span className="loader-4230-ray"></span>
+        <span className="loader-4230-sun"></span>
+      </div>
+    ),
+    html: `<div class="loader-4230" role="status" aria-label="Laden">
+  <span class="loader-4230-ray"></span>
+  <span class="loader-4230-ray"></span>
+  <span class="loader-4230-ray"></span>
+  <span class="loader-4230-ray"></span>
+  <span class="loader-4230-ray"></span>
+  <span class="loader-4230-ray"></span>
+  <span class="loader-4230-ray"></span>
+  <span class="loader-4230-ray"></span>
+  <span class="loader-4230-sun"></span>
+</div>`,
+    css: `.loader-4230{position:relative;width:56px;height:56px;display:grid;place-items:center}
+.loader-4230-ray{position:absolute;top:1px;left:25px;width:6px;height:15px;border-radius:6px;background:linear-gradient(#fef9c3,#f59e0b);transform-origin:3px 27px;animation:loader4230Flare 1.6s ease-in-out infinite}
+.loader-4230-ray:nth-child(1){transform:rotate(0deg)}.loader-4230-ray:nth-child(2){transform:rotate(45deg);animation-delay:-.2s}.loader-4230-ray:nth-child(3){transform:rotate(90deg);animation-delay:-.4s}.loader-4230-ray:nth-child(4){transform:rotate(135deg);animation-delay:-.6s}.loader-4230-ray:nth-child(5){transform:rotate(180deg);animation-delay:-.8s}.loader-4230-ray:nth-child(6){transform:rotate(225deg);animation-delay:-1s}.loader-4230-ray:nth-child(7){transform:rotate(270deg);animation-delay:-1.2s}.loader-4230-ray:nth-child(8){transform:rotate(315deg);animation-delay:-1.4s}
+.loader-4230-sun{width:22px;height:22px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff,#fde047 45%,#f97316);box-shadow:0 0 14px #f59e0b;animation:loader4230Sun 1.6s ease-in-out infinite}
+@keyframes loader4230Flare{0%,100%{opacity:.25;filter:brightness(.7)}50%{opacity:1;filter:brightness(1.5)}}@keyframes loader4230Sun{0%,100%{transform:scale(.8)}50%{transform:scale(1.2)}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4230-ray, .loader-4230-sun { animation: none; }
+}`,
+  },
+
+  {
+    id: 4231,
+    name: "Lunar / Moon — Moonlit Orbit",
+    preview: (
+      <div className="loader-4231" role="status" aria-label="Laden">
+        <svg viewBox="0 0 120 54" aria-hidden="true" focusable="false">
+          <path
+            className="loader-4231-moon"
+            d="M62 6 A21 21 0 1 0 76 44 A18 18 0 0 1 62 6Z"
+          />
+          <g className="loader-4231-stars">
+            <circle cx="20" cy="13" r="3" />
+            <circle cx="101" cy="20" r="2" />
+            <circle cx="91" cy="47" r="2.8" />
+          </g>
+        </svg>
+      </div>
+    ),
+    html: `<div class="loader-4231" role="status" aria-label="Laden">
+  <svg viewBox="0 0 120 54" aria-hidden="true" focusable="false">
+    <path class="loader-4231-moon" d="M62 6 A21 21 0 1 0 76 44 A18 18 0 0 1 62 6Z" />
+    <g class="loader-4231-stars">
+      <circle cx="20" cy="13" r="3" />
+      <circle cx="101" cy="20" r="2" />
+      <circle cx="91" cy="47" r="2.8" />
+    </g>
+  </svg>
+</div>`,
+    css: `.loader-4231{width:95px;height:58px;display:grid;place-items:center}.loader-4231 svg{width:100%;height:100%;overflow:visible}
+.loader-4231-moon{fill:#c7d2fe;stroke:#818cf8;stroke-width:1.5;filter:drop-shadow(0 0 5px #a5b4fc);transform-origin:60px 27px;animation:loader4231Moon 2.6s ease-in-out infinite}
+.loader-4231-stars{fill:#e0e7ff;filter:drop-shadow(0 0 4px #a5b4fc);animation:loader4231Stars 1.6s ease-in-out infinite}
+@keyframes loader4231Moon{0%,100%{transform:rotate(-6deg);opacity:.75}50%{transform:rotate(6deg);opacity:1}}@keyframes loader4231Stars{0%,100%{opacity:.2}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4231-moon, .loader-4231-stars { animation: none; }
+}`,
+  },
+
+  {
+    id: 4232,
+    name: "Aether — Mystic Currents",
+    preview: (
+      <div className="loader-4232" role="status" aria-label="Laden">
+        <svg viewBox="0 0 120 54" aria-hidden="true" focusable="false">
+          <path
+            className="loader-4232-current"
+            pathLength="100"
+            d="M-15 13 C8 -1 20 29 44 13 S86 -1 112 14 S137 26 145 14"
+          />
+          <path
+            className="loader-4232-current"
+            pathLength="100"
+            d="M-15 29 C11 44 25 14 48 29 S90 46 113 28 S136 13 145 27"
+          />
+          <path
+            className="loader-4232-current"
+            pathLength="100"
+            d="M-15 44 C8 30 20 59 44 44 S86 30 111 44 S139 59 145 44"
+          />
+          <circle className="loader-4232-seed" cx="60" cy="27" r="4" />
+        </svg>
+      </div>
+    ),
+    html: `<div class="loader-4232" role="status" aria-label="Laden">
+  <svg viewBox="0 0 120 54" aria-hidden="true" focusable="false">
+    <path class="loader-4232-current" pathLength="100" d="M-15 13 C8 -1 20 29 44 13 S86 -1 112 14 S137 26 145 14" />
+    <path class="loader-4232-current" pathLength="100" d="M-15 29 C11 44 25 14 48 29 S90 46 113 28 S136 13 145 27" />
+    <path class="loader-4232-current" pathLength="100" d="M-15 44 C8 30 20 59 44 44 S86 30 111 44 S139 59 145 44" />
+    <circle class="loader-4232-seed" cx="60" cy="27" r="4" />
+  </svg>
+</div>`,
+    css: `.loader-4232{width:130px;height:58px;display:grid;place-items:center;overflow:hidden}.loader-4232 svg{width:100%;height:100%;overflow:hidden;fill:none}
+.loader-4232-current{stroke:#2dd4bf;stroke-width:3.5;stroke-linecap:round;stroke-dasharray:24 76;stroke-dashoffset:100;filter:drop-shadow(0 0 5px #5eead4);animation:loader4232Aether 1.5s linear infinite}
+.loader-4232-current:nth-child(2){stroke:#c084fc;stroke-width:4;animation-delay:-.5s;animation-duration:1.2s}.loader-4232-current:nth-child(3){stroke:#99f6e4;stroke-width:2.5;animation-delay:-1s;animation-duration:1.8s}
+.loader-4232-seed{fill:#f5d0fe;stroke:none;filter:drop-shadow(0 0 5px #c084fc);animation:loader4232Seed 1.3s ease-in-out infinite}
+@keyframes loader4232Aether{to{stroke-dashoffset:0}}@keyframes loader4232Seed{0%,100%{opacity:.2}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce) {
+    .loader-4232-current, .loader-4232-seed { animation: none; }
+}`,
+  },
 ];

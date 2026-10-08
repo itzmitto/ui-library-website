@@ -1,7 +1,6 @@
 import { lazy, Suspense, useEffect, useRef, useState } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-
 const All = lazy(() => import("./pages/All"));
 const Buttons = lazy(() => import("./pages/Buttons"));
 const Checkboxes = lazy(() => import("./pages/Checkboxes"));
@@ -33,7 +32,7 @@ const Carousels = lazy(() => import("./pages/Carousels"));
 const ProgressBars = lazy(() => import("./pages/ProgressBars"));
 const Tables = lazy(() => import("./pages/Tables"));
 const Comicbooks = lazy(() => import("./pages/Comicbooks"));
-
+const Randomcomponents = lazy(() => import("./pages/Randomcomponents"));
 const features = [
   {
     icon: "ri-flashlight-line",
@@ -56,7 +55,6 @@ const features = [
     description: "Free to use. Forever.",
   },
 ];
-
 const stats = [
   {
     icon: "ri-box-3-line",
@@ -79,7 +77,6 @@ const stats = [
     label: "Open Source",
   },
 ];
-
 const elementRoutes = [
   {
     name: "All Components",
@@ -236,47 +233,44 @@ const elementRoutes = [
     path: "/elements/comicbooks",
     icon: "ri-book-open-line",
   },
+  {
+    name: "Random Components",
+    path: "/elements/random-components",
+    icon: "ri-shuffle-line",
+  },
 ];
-
 function Home() {
   const [isHovered, setIsHovered] = useState(false);
   const [isPinned, setIsPinned] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const hoverTimeoutRef = useRef<number | null>(null);
   const isElementsOpen = isHovered || isPinned;
-
   function clearHoverTimeout() {
     if (hoverTimeoutRef.current !== null) {
       window.clearTimeout(hoverTimeoutRef.current);
       hoverTimeoutRef.current = null;
     }
   }
-
   function openDropdownHover() {
     clearHoverTimeout();
     setIsHovered(true);
   }
-
   function closeDropdownHover() {
     clearHoverTimeout();
-
     hoverTimeoutRef.current = window.setTimeout(() => {
       setIsHovered(false);
       hoverTimeoutRef.current = null;
     }, 250);
   }
-
   function closeDropdown() {
     clearHoverTimeout();
     setIsHovered(false);
     setIsPinned(false);
   }
-
   function toggleDropdown() {
     clearHoverTimeout();
     setIsPinned((current) => !current);
   }
-
   useEffect(() => {
     function handleOutsideClick(event: MouseEvent) {
       if (
@@ -288,7 +282,6 @@ function Home() {
         setIsPinned(false);
       }
     }
-
     function handleEscape(event: KeyboardEvent) {
       if (event.key === "Escape") {
         clearHoverTimeout();
@@ -296,20 +289,16 @@ function Home() {
         setIsPinned(false);
       }
     }
-
     document.addEventListener("mousedown", handleOutsideClick);
     document.addEventListener("keydown", handleEscape);
-
     return () => {
       document.removeEventListener("mousedown", handleOutsideClick);
       document.removeEventListener("keydown", handleEscape);
-
       if (hoverTimeoutRef.current !== null) {
         window.clearTimeout(hoverTimeoutRef.current);
       }
     };
   }, []);
-
   return (
     <div className="home-page">
       <header className="home-header">
@@ -320,7 +309,6 @@ function Home() {
             </span>
             <span className="home-logo-text">André's UI library</span>
           </Link>
-
           <nav className="home-nav">
             <div
               ref={dropdownRef}
@@ -343,7 +331,6 @@ function Home() {
                   }`}
                 ></i>
               </button>
-
               <div
                 className={`home-elements-dropdown ${
                   isElementsOpen ? "home-elements-dropdown--open" : ""
@@ -358,7 +345,6 @@ function Home() {
                     </span>
                     <h3>Browse Elements</h3>
                   </div>
-
                   <Link
                     to="/elements"
                     className="home-dropdown-view-all"
@@ -368,7 +354,6 @@ function Home() {
                     <i className="ri-arrow-right-line"></i>
                   </Link>
                 </div>
-
                 <div className="home-dropdown-grid">
                   {elementRoutes.map((item) => (
                     <Link
@@ -387,18 +372,15 @@ function Home() {
               </div>
             </div>
           </nav>
-
           <Link to="/elements" className="home-header-button">
             Get Started
           </Link>
         </div>
       </header>
-
       <main className="home-main">
         <section className="hero">
           <div className="hero-side hero-side--left">
             <div className="hero-side-line"></div>
-
             <p className="hero-side-title">
               BUILD
               <br />
@@ -406,18 +388,14 @@ function Home() {
               <br />
               FASTER
             </p>
-
             <div className="hero-side-line short"></div>
-
             <p className="hero-side-text">
               SAME BUILDERS.
               <br />A BRIGHTER WEB.
             </p>
           </div>
-
           <div className="hero-side hero-side--right">
             <div className="hero-side-line"></div>
-
             <p className="hero-side-title">
               OPEN
               <br />
@@ -427,49 +405,41 @@ function Home() {
               <br />
               WEB
             </p>
-
             <div className="hero-side-line short"></div>
-
             <p className="hero-side-text">
               UI COMPONENTS
               <br />
               FOR WHAT'S NEXT.
             </p>
           </div>
-
           <div className="hero-content">
             <p className="hero-eyebrow">
               <span></span>
               OPEN SOURCE UI LIBRARY
               <span></span>
             </p>
-
             <h1 className="hero-title">
               My Library of Open
               <br />
               <span className="hero-title-highlight">Source UI</span>
             </h1>
-
             <p className="hero-description">
               Community-built library of UI elements. Copy as
               HTML/CSS/JAVASCRIPT
               <br />
               and build beautiful interfaces faster.
             </p>
-
             <Link to="/elements" className="hero-button">
               <span>Explore Library</span>
               <i className="ri-arrow-right-line"></i>
             </Link>
           </div>
-
           <div className="hero-features">
             {features.map((feature) => (
               <article key={feature.title} className="hero-feature-card">
                 <div className="hero-feature-icon">
                   <i className={feature.icon}></i>
                 </div>
-
                 <div className="hero-feature-info">
                   <h3>{feature.title}</h3>
                   <p>{feature.description}</p>
@@ -477,7 +447,6 @@ function Home() {
               </article>
             ))}
           </div>
-
           <section className="stats-section">
             <div className="stats-container">
               {stats.map((stat) => (
@@ -485,7 +454,6 @@ function Home() {
                   <div className="stat-icon">
                     <i className={stat.icon}></i>
                   </div>
-
                   <div className="stat-content">
                     <strong>{stat.value}</strong>
                     <span>{stat.label}</span>
@@ -499,7 +467,6 @@ function Home() {
     </div>
   );
 }
-
 function RouteLoading() {
   return (
     <div
@@ -518,7 +485,6 @@ function RouteLoading() {
     </div>
   );
 }
-
 function App() {
   return (
     <BrowserRouter>
@@ -556,10 +522,13 @@ function App() {
           <Route path="/elements/progress-bars" element={<ProgressBars />} />
           <Route path="/elements/tables" element={<Tables />} />
           <Route path="/elements/comicbooks" element={<Comicbooks />} />
+          <Route
+            path="/elements/random-components"
+            element={<Randomcomponents />}
+          />
         </Routes>
       </Suspense>
     </BrowserRouter>
   );
 }
-
 export default App;

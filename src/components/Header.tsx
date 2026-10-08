@@ -33,6 +33,7 @@ const categories = [
   { label: "Progress Bars", path: "/elements/progress-bars" },
   { label: "Tables", path: "/elements/tables" },
   { label: "Comicbooks", path: "/elements/comicbooks" },
+  { label: "Random Components", path: "/elements/random-components" },
 ];
 
 export default function Header() {
@@ -51,9 +52,20 @@ export default function Header() {
             onMouseEnter={() => setDropdownOpen(true)}
             onMouseLeave={() => setDropdownOpen(false)}
           >
-            <button className="nav-link nav-link--active">
+            <button
+              className="nav-link nav-link--active"
+              type="button"
+              aria-expanded={dropdownOpen}
+              onClick={() => setDropdownOpen((open) => !open)}
+            >
               Elements
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                aria-hidden="true"
+              >
                 <path
                   d="M2 4l4 4 4-4"
                   stroke="currentColor"
@@ -65,12 +77,15 @@ export default function Header() {
             </button>
 
             <div
-              className={`dropdown-menu ${
-                dropdownOpen ? "dropdown-menu--open" : ""
-              }`}
+              className={`dropdown-menu ${dropdownOpen ? "dropdown-menu--open" : ""}`}
             >
               {categories.map((cat) => (
-                <Link key={cat.path} to={cat.path} className="dropdown-item">
+                <Link
+                  key={cat.path}
+                  to={cat.path}
+                  className="dropdown-item"
+                  onClick={() => setDropdownOpen(false)}
+                >
                   {cat.label}
                 </Link>
               ))}

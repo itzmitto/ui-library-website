@@ -1,28 +1,16 @@
-import {
-  memo,
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-  type ReactNode,
-} from "react";
+import { memo, useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
-import { allComponents } from "../data/componentsData";
+import {
+  randomComponents,
+  type RandomComponentItem,
+} from "../data/randomComponentsData";
 import ComponentModal from "../components/ComponentModal";
 import "./All.css";
-
-const previewStyleModules = import.meta.glob("../styling/*.css", {
-  eager: true,
-  query: "?inline",
-  import: "default",
-}) as Record<string, string>;
-
-const previewStyles = Object.values(previewStyleModules).join("\n");
+import "../styling/randomcomponents.css";
 
 const sidebarItems = [
-  { label: "All", path: "/elements", active: true },
+  { label: "All", path: "/elements" },
   { label: "Buttons", path: "/elements/buttons" },
   { label: "Checkboxes", path: "/elements/checkboxes" },
   { label: "Toggleswitches", path: "/elements/toggleswitches" },
@@ -53,26 +41,28 @@ const sidebarItems = [
   { label: "Progress Bars", path: "/elements/progress-bars" },
   { label: "Tables", path: "/elements/tables" },
   { label: "Comicbooks", path: "/elements/comicbooks" },
-  { label: "Random Components", path: "/elements/random-components" },
+  {
+    label: "Random Components",
+    path: "/elements/random-components",
+    active: true,
+  },
 ];
 
 const CARD_HEIGHT = 252;
 const GRID_GAP = 12;
 const OVERSCAN_ROWS = 4;
 
-type ComponentItem = (typeof allComponents)[0];
-
-const ComponentCard = memo(
+const RandomComponentCard = memo(
   ({
     item,
     index,
     columns,
     onSelect,
   }: {
-    item: ComponentItem;
+    item: RandomComponentItem;
     index: number;
     columns: number;
-    onSelect: (item: ComponentItem) => void;
+    onSelect: (item: RandomComponentItem) => void;
   }) => {
     const row = Math.floor(index / columns);
     const column = index % columns;
@@ -94,7 +84,8 @@ const ComponentCard = memo(
           cursor: "pointer",
         }}
       >
-        <div className="all-card-preview">{item.preview as ReactNode}</div>
+        <div className="all-card-preview">{item.preview}</div>
+
         <div className="all-card-footer">
           <span className="all-card-name">{item.name}</span>
         </div>
@@ -103,48 +94,63 @@ const ComponentCard = memo(
   },
 );
 
-ComponentCard.displayName = "ComponentCard";
+RandomComponentCard.displayName = "RandomComponentCard";
 
-export default function All() {
-  const [selected, setSelected] = useState<ComponentItem | null>(null);
+export default function Randomcomponents() {
+  const [selected, setSelected] = useState<RandomComponentItem | null>(null);
+
   const [columns, setColumns] = useState(1);
   const [scrollTop, setScrollTop] = useState(0);
+
   const [viewportHeight, setViewportHeight] = useState(
     typeof window !== "undefined" ? window.innerHeight : 800,
   );
+
   const [gridTop, setGridTop] = useState(0);
+
   const gridRef = useRef<HTMLDivElement>(null);
   const frameRef = useRef<number | null>(null);
+
   const updateLayout = useCallback(() => {
     if (frameRef.current !== null) {
       cancelAnimationFrame(frameRef.current);
     }
+
     frameRef.current = requestAnimationFrame(() => {
       setScrollTop(window.scrollY);
       setViewportHeight(window.innerHeight);
+
       const grid = gridRef.current;
+
       if (grid) {
         const width = grid.clientWidth;
+
         const nextColumns = Math.max(
           1,
           Math.floor((width + GRID_GAP) / (240 + GRID_GAP)),
         );
+
         setColumns(nextColumns);
         setGridTop(grid.getBoundingClientRect().top + window.scrollY);
       }
+
       frameRef.current = null;
     });
   }, []);
 
   useEffect(() => {
     updateLayout();
+
     window.addEventListener("scroll", updateLayout, {
       passive: true,
     });
+
     window.addEventListener("resize", updateLayout);
+
     return () => {
       window.removeEventListener("scroll", updateLayout);
       window.removeEventListener("resize", updateLayout);
+
       if (frameRef.current !== null) {
         cancelAnimationFrame(frameRef.current);
       }
@@ -153,20 +159,29 @@ export default function All() {
 
   useEffect(() => {
     const grid = gridRef.current;
+
     if (!grid || typeof ResizeObserver === "undefined") {
       return;
     }
+
     const observer = new ResizeObserver(() => {
       updateLayout();
     });
+
     observer.observe(grid);
-    return () => observer.disconnect();
+
+    return () => {
+      observer.disconnect();
+    };
   }, [updateLayout]);
 
   const rowHeight = CARD_HEIGHT + GRID_GAP;
-  const totalRows = Math.ceil(allComponents.length / columns);
+  const totalRows = Math.ceil(randomComponents.length / columns);
+
   const totalHeight = totalRows > 0 ? totalRows * rowHeight - GRID_GAP : 0;
+
   const relativeScrollTop = Math.max(0, scrollTop - gridTop);
+
   const startRow = Math.max(
     0,
     Math.floor(relativeScrollTop / rowHeight) - OVERSCAN_ROWS,
@@ -176,19 +191,19 @@ export default function All() {
     totalRows,
     Math.ceil((relativeScrollTop + viewportHeight) / rowHeight) + OVERSCAN_ROWS,
   );
+
   const startIndex = startRow * columns;
-  const endIndex = Math.min(allComponents.length, endRow * columns);
-  const visibleComponents = useMemo(
-    () => allComponents.slice(startIndex, endIndex),
-    [startIndex, endIndex],
-  );
-  const handleSelect = useCallback((item: ComponentItem) => {
+
+  const endIndex = Math.min(randomComponents.length, endRow * columns);
+
+  const visibleComponents = randomComponents.slice(startIndex, endIndex);
+
+  const handleSelect = useCallback((item: RandomComponentItem) => {
     setSelected(item);
   }, []);
+
   return (
     <div className="all-page">
-      <style>{previewStyles}</style>
-
       <Header />
 
       <div className="all-layout">
@@ -208,40 +223,42 @@ export default function All() {
 
         <main className="all-main">
           <div className="all-header">
-            <h1>Browse all</h1>
-            <p>Open-Source UI elements made with CSS or Tailwind</p>
+            <h1>Random Components</h1>
+            <p>A collection of unique UI elements and experiments.</p>
           </div>
 
-          <div
-            ref={gridRef}
-            className="all-grid"
-            style={{
-              position: "relative",
-              height: totalHeight,
-            }}
-          >
-            {visibleComponents.map((item, offset) => {
-              const index = startIndex + offset;
+          {randomComponents.length === 0 ? (
+            <div className="random-components-empty">
+              No components added yet.
+            </div>
+          ) : (
+            <div
+              ref={gridRef}
+              className="all-grid"
+              style={{
+                position: "relative",
+                height: totalHeight,
+              }}
+            >
+              {visibleComponents.map((item, offset) => {
+                const index = startIndex + offset;
 
-              return (
-                <ComponentCard
-                  key={item.id}
-                  item={item}
-                  index={index}
-                  columns={columns}
-                  onSelect={handleSelect}
-                />
-              );
-            })}
-          </div>
+                return (
+                  <RandomComponentCard
+                    key={item.id}
+                    item={item}
+                    index={index}
+                    columns={columns}
+                    onSelect={handleSelect}
+                  />
+                );
+              })}
+            </div>
+          )}
         </main>
       </div>
 
       <ComponentModal item={selected} onClose={() => setSelected(null)} />
-
-      <Link to="/elements/navbar" className="floating-navbar-button">
-        Navbar →
-      </Link>
     </div>
   );
 }
