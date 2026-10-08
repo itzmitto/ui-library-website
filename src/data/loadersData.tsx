@@ -70381,4 +70381,96 @@ export const loaders = [
 </div>`,
     css: `.loader-4063{position:relative;width:38px;height:38px;animation:loader4063Rotate 1.25s linear infinite}.loader-4063-segment{position:absolute;left:17px;top:1px;width:4px;height:10px;border-radius:999px;transform-origin:2px 18px;background:#38bdf8}.loader-4063-segment-1{transform:rotate(0deg);opacity:1}.loader-4063-segment-2{transform:rotate(45deg);opacity:.86}.loader-4063-segment-3{transform:rotate(90deg);opacity:.74}.loader-4063-segment-4{transform:rotate(135deg);opacity:.62}.loader-4063-segment-5{transform:rotate(180deg);opacity:.5}.loader-4063-segment-6{transform:rotate(225deg);opacity:.38}.loader-4063-segment-7{transform:rotate(270deg);opacity:.26}.loader-4063-segment-8{transform:rotate(315deg);opacity:.14}@keyframes loader4063Rotate{to{transform:rotate(360deg)}}`,
   },
+  {
+    id: 4064,
+    name: "Amber Minimal Spinner",
+    preview: (
+      <div className="loader-4064" role="status" aria-label="Loading"></div>
+    ),
+    html: `<div class="loader-4064" role="status" aria-label="Loading"></div>`,
+    css: `.loader-4064{width:36px;height:36px;border:3px solid #fef3c7;border-top-color:#f59e0b;border-right-color:#fbbf24;border-radius:50%;animation:loader4064Spin .85s linear infinite}@keyframes loader4064Spin{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4064{animation:none}}`,
+  },
+  {
+    id: 4065,
+    name: "Amber Friendly Bouncing Dots",
+    preview: (
+      <div className="loader-4065" role="status" aria-label="Loading">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4065" role="status" aria-label="Loading">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4065{height:36px;display:flex;align-items:center;justify-content:center;gap:7px}.loader-4065 span{width:9px;height:9px;border-radius:50%;background:#fbbf24;animation:loader4065Bounce 1.15s ease-in-out infinite}.loader-4065 span:nth-child(2){animation-delay:.15s}.loader-4065 span:nth-child(3){animation-delay:.3s}@keyframes loader4065Bounce{0%,100%{transform:translateY(3px) scale(.85);opacity:.45}50%{transform:translateY(-6px) scale(1.08);opacity:1;background:#f59e0b}}@media(prefers-reduced-motion:reduce){.loader-4065 span{animation:none;opacity:1;transform:none}.loader-4065 span:nth-child(2){background:#f59e0b}}`,
+  },
+  {
+    id: 4066,
+    name: "Amber Smooth Progress Line",
+    preview: (
+      <div className="loader-4066" role="status" aria-label="Loading">
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4066" role="status" aria-label="Loading">
+    <span></span>
+</div>`,
+    css: `.loader-4066{position:relative;width:120px;height:6px;overflow:hidden;border-radius:999px;background:#fef3c7}.loader-4066 span{position:absolute;left:0;top:0;width:40%;height:100%;border-radius:999px;background:linear-gradient(90deg,#fbbf24,#f59e0b);animation:loader4066Slide 1.45s cubic-bezier(.45,0,.55,1) infinite}@keyframes loader4066Slide{0%{transform:translateX(-110%)}100%{transform:translateX(255%)}}@media(prefers-reduced-motion:reduce){.loader-4066 span{animation:none;transform:translateX(75%)}}`,
+  },
+  {
+    id: 4067,
+    name: "Amber Soft Equalizer",
+    preview: (
+      <div className="loader-4067" role="status" aria-label="Loading">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4067" role="status" aria-label="Loading">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4067{height:36px;display:flex;align-items:center;justify-content:center;gap:4px}.loader-4067 span{width:5px;height:28px;border-radius:999px;background:#fbbf24;transform:scaleY(.4);animation:loader4067Wave 1.1s ease-in-out infinite}.loader-4067 span:nth-child(2){animation-delay:.12s}.loader-4067 span:nth-child(3){animation-delay:.24s;background:#f59e0b}.loader-4067 span:nth-child(4){animation-delay:.36s}.loader-4067 span:nth-child(5){animation-delay:.48s}@keyframes loader4067Wave{0%,100%{transform:scaleY(.35);opacity:.45}50%{transform:scaleY(1);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4067 span{animation:none;opacity:1;transform:scaleY(.55)}.loader-4067 span:nth-child(2),.loader-4067 span:nth-child(4){transform:scaleY(.8)}.loader-4067 span:nth-child(3){transform:scaleY(1)}}`,
+  },
+  {
+    id: 4068,
+    name: "Amber Gentle Ripple Loader",
+    preview: (
+      <div className="loader-4068" role="status" aria-label="Loading">
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4068" role="status" aria-label="Loading">
+    <span></span>
+</div>`,
+    css: `.loader-4068{position:relative;width:44px;height:44px;display:grid;place-items:center}.loader-4068::before,.loader-4068::after{content:"";position:absolute;width:14px;height:14px;border:2px solid #fbbf24;border-radius:50%;animation:loader4068Ripple 1.9s ease-out infinite}.loader-4068::after{animation-delay:.65s}.loader-4068 span{position:relative;z-index:1;width:12px;height:12px;border-radius:50%;background:#f59e0b;box-shadow:0 2px 7px rgba(245,158,11,.2)}@keyframes loader4068Ripple{0%{transform:scale(.65);opacity:.8}100%{transform:scale(2.5);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4068::before,.loader-4068::after{animation:none;transform:scale(1.8);opacity:.35}.loader-4068::after{display:none}}`,
+  },
+  {
+    id: 4069,
+    name: "Amber Rounded Grid Loader",
+    preview: (
+      <div className="loader-4069" role="status" aria-label="Loading">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4069" role="status" aria-label="Loading">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4069{width:34px;height:34px;display:grid;grid-template-columns:repeat(2,1fr);gap:5px}.loader-4069 span{border-radius:5px;background:#fbbf24;animation:loader4069Grid 1.3s ease-in-out infinite}.loader-4069 span:nth-child(2){animation-delay:.18s}.loader-4069 span:nth-child(3){animation-delay:.54s}.loader-4069 span:nth-child(4){animation-delay:.36s}@keyframes loader4069Grid{0%,100%{transform:scale(.72);opacity:.4}50%{transform:scale(1);opacity:1;background:#f59e0b}}@media(prefers-reduced-motion:reduce){.loader-4069 span{animation:none;transform:none;opacity:1}.loader-4069 span:nth-child(1),.loader-4069 span:nth-child(4){background:#f59e0b}}`,
+  },
 ];
