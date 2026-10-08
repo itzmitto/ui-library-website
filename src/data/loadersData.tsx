@@ -70667,4 +70667,130 @@ export const loaders = [
 </div>`,
     css: `.loader-4081{height:34px;display:flex;align-items:center;justify-content:center;gap:5px}.loader-4081 span{width:5px;height:28px;border-radius:999px;background:#94a3b8;transform:scaleY(.4);animation:loader4081Wave 1.1s ease-in-out infinite}.loader-4081 span:nth-child(2){animation-delay:.12s}.loader-4081 span:nth-child(3){animation-delay:.24s}.loader-4081 span:nth-child(4){animation-delay:.36s}.loader-4081 span:nth-child(5){animation-delay:.48s}@keyframes loader4081Wave{0%,100%{transform:scaleY(.32);opacity:.4}50%{transform:scaleY(1);opacity:1;background:#475569}}@media(prefers-reduced-motion:reduce){.loader-4081 span{animation:none;opacity:1;transform:scaleY(.5)}.loader-4081 span:nth-child(2),.loader-4081 span:nth-child(4){transform:scaleY(.8)}.loader-4081 span:nth-child(3){transform:scaleY(1);background:#475569}}`,
   },
+  {
+    id: 4082,
+    name: "Cyan Morphing Square Loader",
+    preview: (
+      <div className="loader-4082" role="status" aria-label="Laden">
+        <span className="loader-4082-shape"></span>
+        <span className="loader-4082-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-4082" role="status" aria-label="Laden">
+    <span class="loader-4082-shape"></span>
+    <span class="loader-4082-core"></span>
+</div>`,
+    css: `.loader-4082{position:relative;width:44px;height:44px;display:grid;place-items:center}.loader-4082-shape{position:absolute;inset:5px;border:3px solid #0ea5e9;border-top-color:transparent;border-right-color:#7dd3fc;border-radius:10px;animation:loader4082Morph 2.2s ease-in-out infinite}.loader-4082-core{width:8px;height:8px;border-radius:3px;background:#0284c7;animation:loader4082Core 2.2s ease-in-out infinite}@keyframes loader4082Morph{0%,100%{transform:rotate(0deg);border-radius:10px}50%{transform:rotate(180deg);border-radius:50%}}@keyframes loader4082Core{0%,100%{transform:scale(.8) rotate(0deg);opacity:.5}50%{transform:scale(1.15) rotate(90deg);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4082-shape,.loader-4082-core{animation:none}}`,
+  },
+  {
+    id: 4083,
+    name: "Slate Skeleton Shimmer Loader",
+    preview: (
+      <div className="loader-4083" role="status" aria-label="Inhoud laden">
+        <span className="loader-4083-avatar"></span>
+        <span className="loader-4083-content">
+          <span className="loader-4083-line loader-4083-line-1"></span>
+          <span className="loader-4083-line loader-4083-line-2"></span>
+        </span>
+      </div>
+    ),
+    html: `<div class="loader-4083" role="status" aria-label="Inhoud laden">
+    <span class="loader-4083-avatar"></span>
+    <span class="loader-4083-content">
+        <span class="loader-4083-line loader-4083-line-1"></span>
+        <span class="loader-4083-line loader-4083-line-2"></span>
+    </span>
+</div>`,
+    css: `.loader-4083{position:relative;width:184px;height:54px;padding:9px 12px;display:flex;align-items:center;gap:11px;overflow:hidden;border:1px solid #e2e8f0;border-radius:10px;background:#f8fafc;box-sizing:border-box}.loader-4083-avatar{flex:none;width:34px;height:34px;border-radius:50%;background:#cbd5e1}.loader-4083-content{flex:1;display:flex;flex-direction:column;gap:8px}.loader-4083-line{display:block;height:7px;border-radius:999px;background:#cbd5e1}.loader-4083-line-1{width:90%}.loader-4083-line-2{width:60%}.loader-4083::after{content:"";position:absolute;inset:0;width:65%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.85),transparent);transform:translateX(-110%);animation:loader4083Shimmer 1.7s ease-in-out infinite}@keyframes loader4083Shimmer{to{transform:translateX(260%)}}@media(prefers-reduced-motion:reduce){.loader-4083::after{animation:none;display:none}}`,
+  },
+  {
+    id: 4084,
+    name: "Violet Folding Tiles Loader",
+    preview: (
+      <div className="loader-4084" role="status" aria-label="Laden">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4084" role="status" aria-label="Laden">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4084{width:42px;height:42px;display:grid;grid-template-columns:repeat(2,1fr);gap:5px;perspective:160px}.loader-4084 span{border-radius:4px;background:#a78bfa;transform-origin:center;animation:loader4084Fold 1.8s ease-in-out infinite}.loader-4084 span:nth-child(2){background:#8b5cf6;animation-delay:.2s}.loader-4084 span:nth-child(3){background:#c4b5fd;animation-delay:.6s}.loader-4084 span:nth-child(4){background:#7c3aed;animation-delay:.4s}@keyframes loader4084Fold{0%,100%{transform:rotateY(0deg) scale(.88);opacity:.5}50%{transform:rotateY(180deg) scale(1);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4084 span{animation:none;transform:none;opacity:1}}`,
+  },
+  {
+    id: 4085,
+    name: "Teal Scanning Frame Loader",
+    preview: (
+      <div className="loader-4085" role="status" aria-label="Scannen">
+        <span className="loader-4085-corner loader-4085-corner-tl"></span>
+        <span className="loader-4085-corner loader-4085-corner-tr"></span>
+        <span className="loader-4085-corner loader-4085-corner-bl"></span>
+        <span className="loader-4085-corner loader-4085-corner-br"></span>
+        <span className="loader-4085-target"></span>
+        <span className="loader-4085-beam"></span>
+      </div>
+    ),
+    html: `<div class="loader-4085" role="status" aria-label="Scannen">
+    <span class="loader-4085-corner loader-4085-corner-tl"></span>
+    <span class="loader-4085-corner loader-4085-corner-tr"></span>
+    <span class="loader-4085-corner loader-4085-corner-bl"></span>
+    <span class="loader-4085-corner loader-4085-corner-br"></span>
+    <span class="loader-4085-target"></span>
+    <span class="loader-4085-beam"></span>
+</div>`,
+    css: `.loader-4085{position:relative;width:62px;height:48px}.loader-4085-corner{position:absolute;width:13px;height:13px;border:2px solid #0d9488}.loader-4085-corner-tl{top:0;left:0;border-right:0;border-bottom:0;border-radius:5px 0 0 0}.loader-4085-corner-tr{top:0;right:0;border-left:0;border-bottom:0;border-radius:0 5px 0 0}.loader-4085-corner-bl{bottom:0;left:0;border-right:0;border-top:0;border-radius:0 0 0 5px}.loader-4085-corner-br{bottom:0;right:0;border-left:0;border-top:0;border-radius:0 0 5px 0}.loader-4085-target{position:absolute;inset:10px 14px;border:1px dashed #99f6e4;border-radius:3px}.loader-4085-beam{position:absolute;z-index:1;left:9px;right:9px;top:10px;height:3px;border-radius:999px;background:#2dd4bf;box-shadow:0 0 7px rgba(13,148,136,.3);animation:loader4085Scan 1.8s ease-in-out infinite alternate}@keyframes loader4085Scan{from{top:10px;opacity:.6}to{top:36px;opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4085-beam{animation:none;top:23px}}`,
+  },
+  {
+    id: 4086,
+    name: "Amber Modern Hourglass Loader",
+    preview: (
+      <div className="loader-4086" role="status" aria-label="Laden">
+        <span className="loader-4086-frame">
+          <span className="loader-4086-sand loader-4086-upper"></span>
+          <span className="loader-4086-sand loader-4086-lower"></span>
+          <span className="loader-4086-stream"></span>
+        </span>
+      </div>
+    ),
+    html: `<div class="loader-4086" role="status" aria-label="Laden">
+    <span class="loader-4086-frame">
+        <span class="loader-4086-sand loader-4086-upper"></span>
+        <span class="loader-4086-sand loader-4086-lower"></span>
+        <span class="loader-4086-stream"></span>
+    </span>
+</div>`,
+    css: `.loader-4086{position:relative;width:38px;height:52px}.loader-4086-frame{position:absolute;inset:5px;border:2px solid #cbd5e1;border-radius:6px;animation:loader4086Flip 3.4s ease-in-out infinite}.loader-4086-sand{position:absolute;left:4px;width:16px;height:14px;background:#fbbf24}.loader-4086-upper{top:4px;clip-path:polygon(0 0,100% 0,50% 100%);transform-origin:top;animation:loader4086Upper 3.4s linear infinite}.loader-4086-lower{bottom:4px;clip-path:polygon(50% 0,100% 100%,0 100%);transform-origin:bottom;animation:loader4086Lower 3.4s linear infinite}.loader-4086-stream{position:absolute;left:50%;top:16px;width:2px;height:8px;border-radius:999px;background:#d97706;transform:translateX(-50%);animation:loader4086Stream 3.4s linear infinite}@keyframes loader4086Flip{0%,42%{transform:rotate(0deg)}58%,100%{transform:rotate(180deg)}}@keyframes loader4086Upper{0%,10%{transform:scaleY(1)}42%{transform:scaleY(.08)}58%,68%{transform:scaleY(1)}100%{transform:scaleY(.08)}}@keyframes loader4086Lower{0%,10%{transform:scaleY(.12)}42%{transform:scaleY(1)}58%,68%{transform:scaleY(.12)}100%{transform:scaleY(1)}}@keyframes loader4086Stream{0%,40%,60%,100%{opacity:1}45%,55%{opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4086-frame,.loader-4086-upper,.loader-4086-lower,.loader-4086-stream{animation:none}.loader-4086-upper{transform:scaleY(.6)}.loader-4086-lower{transform:scaleY(.55)}}`,
+  },
+  {
+    id: 4087,
+    name: "Indigo Infinity Flow Loader",
+    preview: (
+      <div className="loader-4087" role="status" aria-label="Laden">
+        <svg viewBox="0 0 120 52" aria-hidden="true" focusable="false">
+          <path
+            className="loader-4087-track"
+            pathLength="100"
+            d="M60 26 C43 4 10 8 10 26 C10 44 43 48 60 26 C77 4 110 8 110 26 C110 44 77 48 60 26"
+          />
+          <path
+            className="loader-4087-runner"
+            pathLength="100"
+            d="M60 26 C43 4 10 8 10 26 C10 44 43 48 60 26 C77 4 110 8 110 26 C110 44 77 48 60 26"
+          />
+        </svg>
+      </div>
+    ),
+    html: `<div class="loader-4087" role="status" aria-label="Laden">
+    <svg viewBox="0 0 120 52" aria-hidden="true" focusable="false">
+        <path class="loader-4087-track" pathLength="100" d="M60 26 C43 4 10 8 10 26 C10 44 43 48 60 26 C77 4 110 8 110 26 C110 44 77 48 60 26" />
+        <path class="loader-4087-runner" pathLength="100" d="M60 26 C43 4 10 8 10 26 C10 44 43 48 60 26 C77 4 110 8 110 26 C110 44 77 48 60 26" />
+    </svg>
+</div>`,
+    css: `.loader-4087{width:94px;height:44px;display:grid;place-items:center}.loader-4087 svg{width:100%;height:100%;overflow:visible;fill:none}.loader-4087-track{stroke:#e0e7ff;stroke-width:5;stroke-linecap:round}.loader-4087-runner{stroke:#6366f1;stroke-width:5;stroke-linecap:round;stroke-dasharray:16 84;animation:loader4087Flow 1.7s linear infinite}@keyframes loader4087Flow{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}@media(prefers-reduced-motion:reduce){.loader-4087-runner{animation:none;stroke-dashoffset:0;stroke-dasharray:42 58}}`,
+  },
 ];
