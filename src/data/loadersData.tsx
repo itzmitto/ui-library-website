@@ -72522,5 +72522,122 @@ export const loaders = [
     <span class="loader-4133-ripple loader-4133-ripple-2"></span>
 </div>`,
   css: `.loader-4133{position:relative;width:52px;height:50px}.loader-4133-drop{position:absolute;left:18px;top:3px;width:16px;height:23px;z-index:1;clip-path:polygon(50% 0,78% 37%,100% 65%,94% 85%,75% 100%,25% 100%,6% 85%,0 65%,22% 37%);background:linear-gradient(135deg,#e2e8f0,#64748b 55%,#1e293b);animation:loader4133Drop 1.65s cubic-bezier(.4,0,.3,1) infinite}.loader-4133-ripple{position:absolute;left:50%;bottom:4px;width:23px;height:8px;border:2px solid #94a3b8;border-radius:50%;transform:translateX(-50%);animation:loader4133Ripple 1.65s ease-out infinite}.loader-4133-ripple-2{animation-delay:.35s;opacity:.45}@keyframes loader4133Drop{0%,100%{transform:translateY(0) scale(.75);opacity:.55}48%{transform:translateY(17px) scale(1);opacity:1}58%{transform:translateY(18px) scaleY(.65);opacity:1}75%{transform:translateY(2px) scale(.8);opacity:.65}}@keyframes loader4133Ripple{0%,40%{transform:translateX(-50%) scale(.45);opacity:0}58%{opacity:.85}100%{transform:translateX(-50%) scale(1.5);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4133-drop,.loader-4133-ripple{animation:none}.loader-4133-drop{transform:translateY(8px)}.loader-4133-ripple{transform:translateX(-50%);opacity:.7}.loader-4133-ripple-2{display:none}}`,
+},{
+  id: 4134,
+  name: "Obsidian Comet Spinner",
+  preview: (
+    <div className="loader-4134" role="status" aria-label="Laden">
+      <span className="loader-4134-track"></span>
+      <span className="loader-4134-comet"></span>
+      <span className="loader-4134-core"></span>
+    </div>
+  ),
+  html: `<div class="loader-4134" role="status" aria-label="Laden">
+    <span class="loader-4134-track"></span>
+    <span class="loader-4134-comet"></span>
+    <span class="loader-4134-core"></span>
+</div>`,
+  css: `.loader-4134{position:relative;width:44px;height:44px;display:grid;place-items:center}.loader-4134-track{position:absolute;inset:3px;border:3px solid #334155;border-radius:50%}.loader-4134-comet{position:absolute;inset:3px;border-radius:50%;background:conic-gradient(from 0deg,transparent 0deg,transparent 160deg,#475569 220deg,#94a3b8 285deg,#f8fafc 335deg,transparent 360deg);-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));animation:loader4134Spin 1s linear infinite}.loader-4134-core{width:7px;height:7px;border-radius:50%;background:#94a3b8;animation:loader4134Pulse 1.4s ease-in-out infinite}@keyframes loader4134Spin{to{transform:rotate(360deg)}}@keyframes loader4134Pulse{0%,100%{transform:scale(.7);opacity:.45}50%{transform:scale(1.15);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4134-comet,.loader-4134-core{animation:none}}`,
+},
+{
+  id: 4135,
+  name: "Violet Elastic Capsules",
+  preview: (
+    <div className="loader-4135" role="status" aria-label="Laden">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  ),
+  html: `<div class="loader-4135" role="status" aria-label="Laden">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+  css: `.loader-4135{width:90px;height:32px;display:flex;align-items:center;justify-content:center;gap:8px}.loader-4135 span{width:11px;height:7px;flex:none;border-radius:999px;background:#4c1d95;animation:loader4135Elastic 1.3s ease-in-out infinite}.loader-4135 span:nth-child(2){animation-delay:.15s}.loader-4135 span:nth-child(3){animation-delay:.3s}.loader-4135 span:nth-child(4){animation-delay:.45s}@keyframes loader4135Elastic{0%,100%{transform:translateY(3px) scaleX(.75);background:#4c1d95;opacity:.45}50%{transform:translateY(-5px) scaleX(1.25);background:#a78bfa;opacity:1;box-shadow:0 0 8px rgba(167,139,250,.3)}}@media(prefers-reduced-motion:reduce){.loader-4135 span{animation:none;transform:none;opacity:1}.loader-4135 span:nth-child(2),.loader-4135 span:nth-child(3){background:#a78bfa}}`,
+},
+{
+  id: 4136,
+  name: "Graphite Document Skeleton",
+  preview: (
+    <div className="loader-4136" role="status" aria-label="Inhoud laden">
+      <span className="loader-4136-title"></span>
+      <span className="loader-4136-line loader-4136-line-1"></span>
+      <span className="loader-4136-line loader-4136-line-2"></span>
+      <span className="loader-4136-line loader-4136-line-3"></span>
+    </div>
+  ),
+  html: `<div class="loader-4136" role="status" aria-label="Inhoud laden">
+    <span class="loader-4136-title"></span>
+    <span class="loader-4136-line loader-4136-line-1"></span>
+    <span class="loader-4136-line loader-4136-line-2"></span>
+    <span class="loader-4136-line loader-4136-line-3"></span>
+</div>`,
+  css: `.loader-4136{position:relative;width:180px;height:86px;max-width:100%;padding:13px;display:flex;flex-direction:column;gap:8px;overflow:hidden;border:1px solid #334155;border-radius:10px;background:#0f172a;box-sizing:border-box}.loader-4136-title{width:49%;height:10px;flex:none;border-radius:4px;background:#475569}.loader-4136-line{height:6px;flex:none;border-radius:999px;background:#334155}.loader-4136-line-1{width:100%}.loader-4136-line-2{width:85%}.loader-4136-line-3{width:65%}.loader-4136::after{content:"";position:absolute;top:0;bottom:0;left:0;width:70%;background:linear-gradient(90deg,transparent,rgba(203,213,225,.13),transparent);transform:translateX(-120%);animation:loader4136Shimmer 1.8s ease-in-out infinite}@keyframes loader4136Shimmer{to{transform:translateX(260%)}}@media(prefers-reduced-motion:reduce){.loader-4136::after{animation:none;display:none}}`,
+},
+{
+  id: 4137,
+  name: "Midnight Typing Loader",
+  preview: (
+    <div className="loader-4137" role="status" aria-label="Laden">
+      <span className="loader-4137-label">Loading</span>
+      <span className="loader-4137-dots" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </div>
+  ),
+  html: `<div class="loader-4137" role="status" aria-label="Laden">
+    <span class="loader-4137-label">Loading</span>
+    <span class="loader-4137-dots" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+    </span>
+</div>`,
+  css: `.loader-4137{height:34px;padding:0 13px;display:inline-flex;align-items:center;gap:6px;border:1px solid #334155;border-radius:8px;background:#111827;box-sizing:border-box}.loader-4137-label{color:#e2e8f0;font:500 12px/1 system-ui,sans-serif;letter-spacing:.01em}.loader-4137-dots{height:12px;display:flex;align-items:center;gap:3px}.loader-4137-dots span{width:4px;height:4px;border-radius:50%;background:#a78bfa;animation:loader4137Typing 1.2s ease-in-out infinite}.loader-4137-dots span:nth-child(2){animation-delay:.2s}.loader-4137-dots span:nth-child(3){animation-delay:.4s}@keyframes loader4137Typing{0%,100%{transform:translateY(2px);opacity:.25}50%{transform:translateY(-2px);opacity:1;background:#c4b5fd}}@media(prefers-reduced-motion:reduce){.loader-4137-dots span{animation:none;transform:none;opacity:1}}`,
+},
+{
+  id: 4138,
+  name: "Steel Segmented Progress",
+  preview: (
+    <div className="loader-4138" role="status" aria-label="Laden">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  ),
+  html: `<div class="loader-4138" role="status" aria-label="Laden">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+  css: `.loader-4138{width:116px;height:15px;display:flex;align-items:center;gap:4px}.loader-4138 span{height:8px;flex:1;min-width:0;border-radius:2px;background:#334155;animation:loader4138Step 1.5s ease-in-out infinite}.loader-4138 span:nth-child(2){animation-delay:.14s}.loader-4138 span:nth-child(3){animation-delay:.28s}.loader-4138 span:nth-child(4){animation-delay:.42s}.loader-4138 span:nth-child(5){animation-delay:.56s}.loader-4138 span:nth-child(6){animation-delay:.7s}.loader-4138 span:nth-child(7){animation-delay:.84s}@keyframes loader4138Step{0%,100%{background:#334155;transform:scaleY(.7);opacity:.5}45%{background:#cbd5e1;transform:scaleY(1.2);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4138 span{animation:none;transform:none;opacity:1}.loader-4138 span:nth-child(3),.loader-4138 span:nth-child(4),.loader-4138 span:nth-child(5){background:#cbd5e1}}`,
+},
+{
+  id: 4139,
+  name: "Obsidian Rotating Diamond",
+  preview: (
+    <div className="loader-4139" role="status" aria-label="Laden">
+      <span className="loader-4139-frame"></span>
+      <span className="loader-4139-diamond"></span>
+    </div>
+  ),
+  html: `<div class="loader-4139" role="status" aria-label="Laden">
+    <span class="loader-4139-frame"></span>
+    <span class="loader-4139-diamond"></span>
+</div>`,
+  css: `.loader-4139{position:relative;width:46px;height:46px;display:grid;place-items:center}.loader-4139-frame{position:absolute;inset:5px;border:2px solid #475569;border-top-color:#cbd5e1;border-right-color:#818cf8;border-radius:9px;animation:loader4139Frame 1.6s linear infinite}.loader-4139-diamond{width:16px;height:16px;border-radius:3px;background:linear-gradient(135deg,#c7d2fe,#6366f1 55%,#312e81);box-shadow:0 0 10px rgba(129,140,248,.3);animation:loader4139Diamond 1.6s ease-in-out infinite}@keyframes loader4139Frame{to{transform:rotate(360deg)}}@keyframes loader4139Diamond{0%,100%{transform:rotate(45deg) scale(.75);opacity:.6}50%{transform:rotate(135deg) scale(1.1);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4139-frame,.loader-4139-diamond{animation:none}.loader-4139-diamond{transform:rotate(45deg)}}`,
 },
 ];
