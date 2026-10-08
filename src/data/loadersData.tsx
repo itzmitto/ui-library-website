@@ -70473,4 +70473,98 @@ export const loaders = [
 </div>`,
     css: `.loader-4069{width:34px;height:34px;display:grid;grid-template-columns:repeat(2,1fr);gap:5px}.loader-4069 span{border-radius:5px;background:#fbbf24;animation:loader4069Grid 1.3s ease-in-out infinite}.loader-4069 span:nth-child(2){animation-delay:.18s}.loader-4069 span:nth-child(3){animation-delay:.54s}.loader-4069 span:nth-child(4){animation-delay:.36s}@keyframes loader4069Grid{0%,100%{transform:scale(.72);opacity:.4}50%{transform:scale(1);opacity:1;background:#f59e0b}}@media(prefers-reduced-motion:reduce){.loader-4069 span{animation:none;transform:none;opacity:1}.loader-4069 span:nth-child(1),.loader-4069 span:nth-child(4){background:#f59e0b}}`,
   },
+  {
+    id: 4070,
+    name: "Pink Minimal Spinner",
+    preview: (
+      <div className="loader-4070" role="status" aria-label="Laden"></div>
+    ),
+    html: `<div class="loader-4070" role="status" aria-label="Laden"></div>`,
+    css: `.loader-4070{width:36px;height:36px;border:3px solid #fce7f3;border-top-color:#ec4899;border-right-color:#f9a8d4;border-radius:50%;animation:loader4070Spin .85s linear infinite}@keyframes loader4070Spin{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4070{animation:none}}`,
+  },
+  {
+    id: 4071,
+    name: "Pink Floating Dots",
+    preview: (
+      <div className="loader-4071" role="status" aria-label="Laden">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4071" role="status" aria-label="Laden">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4071{height:38px;display:flex;align-items:center;justify-content:center;gap:6px}.loader-4071 span{width:9px;height:9px;border-radius:50%;background:#f9a8d4;animation:loader4071Float 1.2s ease-in-out infinite}.loader-4071 span:nth-child(2){animation-delay:.12s}.loader-4071 span:nth-child(3){animation-delay:.24s}.loader-4071 span:nth-child(4){animation-delay:.36s}@keyframes loader4071Float{0%,100%{transform:translateY(4px) scale(.8);opacity:.45}50%{transform:translateY(-7px) scale(1.08);background:#ec4899;opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4071 span{animation:none;transform:none;opacity:1}.loader-4071 span:nth-child(2),.loader-4071 span:nth-child(3){background:#ec4899}}`,
+  },
+  {
+    id: 4072,
+    name: "Rose Smooth Progress Loader",
+    preview: (
+      <div className="loader-4072" role="status" aria-label="Laden">
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4072" role="status" aria-label="Laden">
+    <span></span>
+</div>`,
+    css: `.loader-4072{position:relative;width:120px;height:7px;overflow:hidden;border-radius:999px;background:#fce7f3}.loader-4072 span{position:absolute;left:-40%;top:0;width:40%;height:100%;border-radius:999px;background:linear-gradient(90deg,#f9a8d4,#ec4899);animation:loader4072Slide 1.5s cubic-bezier(.4,0,.6,1) infinite}@keyframes loader4072Slide{0%{left:-40%;width:35%}50%{width:55%}100%{left:105%;width:35%}}@media(prefers-reduced-motion:reduce){.loader-4072 span{animation:none;left:25%;width:50%}}`,
+  },
+  {
+    id: 4073,
+    name: "Pink Soft Equalizer",
+    preview: (
+      <div className="loader-4073" role="status" aria-label="Laden">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4073" role="status" aria-label="Laden">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4073{height:36px;display:flex;align-items:center;justify-content:center;gap:4px}.loader-4073 span{width:5px;height:28px;border-radius:999px;background:#f472b6;transform:scaleY(.4);animation:loader4073Wave 1.1s ease-in-out infinite}.loader-4073 span:nth-child(2){animation-delay:.12s}.loader-4073 span:nth-child(3){animation-delay:.24s;background:#ec4899}.loader-4073 span:nth-child(4){animation-delay:.36s}.loader-4073 span:nth-child(5){animation-delay:.48s}@keyframes loader4073Wave{0%,100%{transform:scaleY(.35);opacity:.4}50%{transform:scaleY(1);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4073 span{animation:none;transform:scaleY(.5);opacity:1}.loader-4073 span:nth-child(2),.loader-4073 span:nth-child(4){transform:scaleY(.8)}.loader-4073 span:nth-child(3){transform:scaleY(1)}}`,
+  },
+  {
+    id: 4074,
+    name: "Blush Gentle Ripple Loader",
+    preview: (
+      <div className="loader-4074" role="status" aria-label="Laden">
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4074" role="status" aria-label="Laden">
+    <span></span>
+</div>`,
+    css: `.loader-4074{position:relative;width:46px;height:46px;display:grid;place-items:center}.loader-4074::before,.loader-4074::after{content:"";position:absolute;width:16px;height:16px;border:2px solid #f472b6;border-radius:50%;animation:loader4074Ripple 1.9s ease-out infinite}.loader-4074::after{animation-delay:.65s}.loader-4074 span{position:relative;z-index:1;width:12px;height:12px;border-radius:50%;background:#ec4899;box-shadow:0 2px 8px rgba(236,72,153,.2)}@keyframes loader4074Ripple{0%{transform:scale(.65);opacity:.8}100%{transform:scale(2.45);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4074::before,.loader-4074::after{animation:none;transform:scale(1.6);opacity:.4}.loader-4074::after{display:none}}`,
+  },
+  {
+    id: 4075,
+    name: "Pink Rounded Grid Loader",
+    preview: (
+      <div className="loader-4075" role="status" aria-label="Laden">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4075" role="status" aria-label="Laden">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4075{width:36px;height:36px;display:grid;grid-template-columns:repeat(2,1fr);gap:5px}.loader-4075 span{border-radius:6px;background:#f9a8d4;animation:loader4075Pulse 1.35s ease-in-out infinite}.loader-4075 span:nth-child(2){animation-delay:.2s}.loader-4075 span:nth-child(3){animation-delay:.6s}.loader-4075 span:nth-child(4){animation-delay:.4s}@keyframes loader4075Pulse{0%,100%{transform:scale(.72);opacity:.45}50%{transform:scale(1);opacity:1;background:#ec4899}}@media(prefers-reduced-motion:reduce){.loader-4075 span{animation:none;transform:none;opacity:1}.loader-4075 span:nth-child(1),.loader-4075 span:nth-child(4){background:#ec4899}}`,
+  },
 ];
