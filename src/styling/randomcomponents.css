@@ -14,3 +14,318 @@
 .random-component-4233:hover {
   transform: translateY(-3px);
 }
+
+.rc-4234 {
+  display: grid;
+  place-items: center;
+  grid-template: minmax(0, 1fr) / minmax(0, 1fr);
+  width: min(100%, 480px);
+  height: 100%;
+  max-height: 100%;
+  aspect-ratio: 1;
+  isolation: isolate;
+  background: transparent;
+}
+.rc-4234 .rc-4234__scene {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  overflow: visible;
+}
+.rc-4234 .rc-4234__scene * {
+  animation-play-state: running !important;
+}
+.rc-4234
+  :is(
+    .rc-4234__outer-ring,
+    .rc-4234__rune-ring,
+    .rc-4234__geometry,
+    .rc-4234__inner-ring,
+    .rc-4234__sigil,
+    .rc-4234__nebula,
+    .rc-4234__mist,
+    .rc-4234__comet,
+    .rc-4234__orbit,
+    .rc-4234__planet-orbit,
+    .rc-4234__vortex,
+    .rc-4234__core-weave,
+    .rc-4234__charge,
+    .rc-4234__core,
+    .rc-4234__flash,
+    .rc-4234__shockwave
+  ) {
+  transform-box: view-box;
+  transform-origin: 360px 360px;
+}
+.rc-4234 .rc-4234__outer-ring {
+  animation: rc-4234-clockwise 84s linear infinite;
+}
+.rc-4234 .rc-4234__rune-ring {
+  stroke: #a3daff;
+  stroke-width: 1.65;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: rc-4234-clockwise 64s linear infinite;
+}
+.rc-4234 .rc-4234__glyph {
+  animation: rc-4234-rune 7s ease-in-out infinite;
+}
+.rc-4234 .rc-4234__geometry {
+  animation: rc-4234-counterclockwise 48s linear infinite;
+}
+.rc-4234 .rc-4234__inner-ring {
+  animation: rc-4234-clockwise 27s linear infinite;
+}
+.rc-4234 .rc-4234__sigil {
+  animation: rc-4234-counterclockwise 38s linear infinite;
+}
+.rc-4234 .rc-4234__nebula {
+  animation: rc-4234-clockwise 33s linear infinite;
+}
+.rc-4234 .rc-4234__nebula--1 {
+  animation: rc-4234-counterclockwise 41s linear infinite;
+}
+.rc-4234 .rc-4234__nebula--2 {
+  animation-duration: 52s;
+}
+.rc-4234 .rc-4234__comet {
+  animation: rc-4234-clockwise 55s linear infinite;
+}
+.rc-4234 .rc-4234__mist {
+  animation: rc-4234-counterclockwise 50s linear infinite;
+}
+.rc-4234 .rc-4234__orbit {
+  animation: rc-4234-clockwise 17s linear infinite;
+}
+.rc-4234 .rc-4234__orbit--1 {
+  animation: rc-4234-counterclockwise 23s linear infinite;
+}
+.rc-4234 .rc-4234__orbit--2 {
+  animation-duration: 31s;
+}
+.rc-4234 .rc-4234__planet-orbit {
+  animation: rc-4234-clockwise 44s linear infinite;
+}
+.rc-4234 .rc-4234__planet-orbit--1 {
+  animation: rc-4234-counterclockwise 58s linear infinite;
+}
+.rc-4234 .rc-4234__planet-orbit--2 {
+  animation-duration: 67s;
+}
+.rc-4234 .rc-4234__planet-orbit--3 {
+  animation: rc-4234-counterclockwise 73s linear infinite;
+}
+.rc-4234 .rc-4234__vortex {
+  animation: rc-4234-clockwise 9s linear infinite;
+}
+.rc-4234 .rc-4234__vortex--1 {
+  animation: rc-4234-counterclockwise 13s linear infinite;
+}
+.rc-4234 .rc-4234__vortex--2 {
+  animation-duration: 6s;
+}
+.rc-4234 .rc-4234__vortex path {
+  animation: rc-4234-flow 7s linear infinite;
+  stroke-dasharray: 170 25 55 13;
+}
+.rc-4234 .rc-4234__core-weave {
+  animation: rc-4234-clockwise 11s linear infinite;
+}
+.rc-4234 .rc-4234__core-weave--1 {
+  animation: rc-4234-counterclockwise 16s linear infinite;
+}
+.rc-4234 .rc-4234__charge {
+  animation: rc-4234-charge 7s ease-in-out infinite;
+}
+.rc-4234 .rc-4234__core {
+  animation: rc-4234-core 7s ease-in-out infinite;
+}
+.rc-4234 .rc-4234__spark {
+  animation: rc-4234-spark 4.7s ease-in-out infinite;
+}
+.rc-4234 .rc-4234__lightning {
+  opacity: 0;
+  animation: rc-4234-lightning 7s steps(1, end) infinite;
+}
+.rc-4234 .rc-4234__flash {
+  opacity: 0;
+  animation: rc-4234-flash 7s ease-out infinite;
+}
+.rc-4234 .rc-4234__shockwave {
+  opacity: 0;
+  animation: rc-4234-shockwave 7s ease-out infinite;
+}
+.rc-4234 .rc-4234__shockwave--echo {
+  animation-delay: 0.14s;
+}
+@keyframes rc-4234-clockwise {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rc-4234-counterclockwise {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes rc-4234-flow {
+  to {
+    stroke-dashoffset: -526;
+  }
+}
+@keyframes rc-4234-rune {
+  0%,
+  100% {
+    opacity: 0.58;
+    stroke: #679bff;
+  }
+  35%,
+  48% {
+    opacity: 1;
+    stroke: #d5faff;
+  }
+  70% {
+    opacity: 0.8;
+    stroke: #ac94ff;
+  }
+}
+@keyframes rc-4234-charge {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: scale(0.72);
+  }
+  45% {
+    opacity: 0.8;
+    transform: scale(0.95);
+  }
+  72% {
+    opacity: 1;
+    transform: scale(1.14);
+  }
+  79% {
+    opacity: 0.9;
+    transform: scale(1.25);
+  }
+  89% {
+    opacity: 0.5;
+    transform: scale(0.83);
+  }
+}
+@keyframes rc-4234-core {
+  0%,
+  100% {
+    opacity: 0.8;
+    transform: scale(0.8);
+  }
+  45% {
+    opacity: 0.95;
+    transform: scale(0.95);
+  }
+  72% {
+    opacity: 1;
+    transform: scale(1.13);
+  }
+  78% {
+    opacity: 1;
+    transform: scale(1.3);
+  }
+  88% {
+    opacity: 0.75;
+    transform: scale(0.75);
+  }
+}
+@keyframes rc-4234-spark {
+  0%,
+  100% {
+    opacity: 0.15;
+  }
+  27% {
+    opacity: 0.4;
+  }
+  31% {
+    opacity: 1;
+  }
+  38% {
+    opacity: 0.25;
+  }
+  73% {
+    opacity: 0.9;
+  }
+  80% {
+    opacity: 0.3;
+  }
+}
+@keyframes rc-4234-lightning {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  54% {
+    opacity: 0.9;
+  }
+  55% {
+    opacity: 0;
+  }
+  71% {
+    opacity: 0.75;
+  }
+  72% {
+    opacity: 0;
+  }
+  76% {
+    opacity: 1;
+  }
+  77% {
+    opacity: 0;
+  }
+}
+@keyframes rc-4234-flash {
+  0%,
+  73%,
+  88%,
+  100% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  77% {
+    opacity: 0.95;
+    transform: scale(2.6);
+  }
+  82% {
+    opacity: 0.15;
+    transform: scale(3);
+  }
+}
+@keyframes rc-4234-shockwave {
+  0%,
+  74%,
+  94%,
+  100% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  76% {
+    opacity: 0.95;
+    transform: scale(1);
+  }
+  90% {
+    opacity: 0;
+    transform: scale(5.55);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rc-4234 .rc-4234__scene * {
+    animation: none !important;
+  }
+  .rc-4234 .rc-4234__flash,
+  .rc-4234 .rc-4234__shockwave,
+  .rc-4234 .rc-4234__lightning {
+    opacity: 0;
+  }
+  .rc-4234 .rc-4234__charge {
+    opacity: 0.65;
+  }
+}
