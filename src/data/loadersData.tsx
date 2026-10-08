@@ -70567,4 +70567,104 @@ export const loaders = [
 </div>`,
     css: `.loader-4075{width:36px;height:36px;display:grid;grid-template-columns:repeat(2,1fr);gap:5px}.loader-4075 span{border-radius:6px;background:#f9a8d4;animation:loader4075Pulse 1.35s ease-in-out infinite}.loader-4075 span:nth-child(2){animation-delay:.2s}.loader-4075 span:nth-child(3){animation-delay:.6s}.loader-4075 span:nth-child(4){animation-delay:.4s}@keyframes loader4075Pulse{0%,100%{transform:scale(.72);opacity:.45}50%{transform:scale(1);opacity:1;background:#ec4899}}@media(prefers-reduced-motion:reduce){.loader-4075 span{animation:none;transform:none;opacity:1}.loader-4075 span:nth-child(1),.loader-4075 span:nth-child(4){background:#ec4899}}`,
   },
+  {
+    id: 4076,
+    name: "Emerald Clean Ring Loader",
+    preview: (
+      <div className="loader-4076" role="status" aria-label="Laden"></div>
+    ),
+    html: `<div class="loader-4076" role="status" aria-label="Laden"></div>`,
+    css: `.loader-4076{width:36px;height:36px;border:3px solid #dcfce7;border-top-color:#16a34a;border-right-color:#4ade80;border-radius:50%;animation:loader4076Spin .85s linear infinite}@keyframes loader4076Spin{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4076{animation:none}}`,
+  },
+  {
+    id: 4077,
+    name: "Violet Sequential Dots Loader",
+    preview: (
+      <div className="loader-4077" role="status" aria-label="Laden">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4077" role="status" aria-label="Laden">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4077{height:34px;display:flex;align-items:center;justify-content:center;gap:6px}.loader-4077 span{width:9px;height:9px;border-radius:50%;background:#a78bfa;animation:loader4077Dots 1.2s ease-in-out infinite}.loader-4077 span:nth-child(2){animation-delay:.15s}.loader-4077 span:nth-child(3){animation-delay:.3s}.loader-4077 span:nth-child(4){animation-delay:.45s}@keyframes loader4077Dots{0%,100%{transform:scale(.6);opacity:.35}50%{transform:scale(1.2);opacity:1;background:#8b5cf6}}@media(prefers-reduced-motion:reduce){.loader-4077 span{animation:none;transform:none;opacity:1}.loader-4077 span:nth-child(2),.loader-4077 span:nth-child(3){background:#8b5cf6}}`,
+  },
+  {
+    id: 4078,
+    name: "Tangerine Smooth Progress Loader",
+    preview: (
+      <div className="loader-4078" role="status" aria-label="Laden">
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4078" role="status" aria-label="Laden">
+    <span></span>
+</div>`,
+    css: `.loader-4078{position:relative;width:116px;height:7px;overflow:hidden;border-radius:999px;background:#ffedd5}.loader-4078 span{position:absolute;left:0;top:0;width:38%;height:100%;border-radius:999px;background:linear-gradient(90deg,#fdba74,#f97316);animation:loader4078Sweep 1.5s cubic-bezier(.45,0,.55,1) infinite}@keyframes loader4078Sweep{0%{transform:translateX(-110%)}100%{transform:translateX(275%)}}@media(prefers-reduced-motion:reduce){.loader-4078 span{animation:none;transform:translateX(80%)}}`,
+  },
+  {
+    id: 4079,
+    name: "Teal Dual Arc Loader",
+    preview: (
+      <div className="loader-4079" role="status" aria-label="Laden"></div>
+    ),
+    html: `<div class="loader-4079" role="status" aria-label="Laden"></div>`,
+    css: `.loader-4079{position:relative;width:42px;height:42px}.loader-4079::before,.loader-4079::after{content:"";position:absolute;border-radius:50%}.loader-4079::before{inset:2px;border:3px solid #ccfbf1;border-top-color:#0d9488;border-right-color:#2dd4bf;animation:loader4079Outer 1.1s linear infinite}.loader-4079::after{inset:10px;border:2px solid #99f6e4;border-bottom-color:#0d9488;animation:loader4079Inner .8s linear infinite reverse}@keyframes loader4079Outer{to{transform:rotate(360deg)}}@keyframes loader4079Inner{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4079::before,.loader-4079::after{animation:none}}`,
+  },
+  {
+    id: 4080,
+    name: "Indigo Rounded Tiles Loader",
+    preview: (
+      <div className="loader-4080" role="status" aria-label="Laden">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4080" role="status" aria-label="Laden">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4080{width:36px;height:36px;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,1fr);gap:4px}.loader-4080 span{border-radius:3px;background:#a5b4fc;animation:loader4080Tile 1.35s ease-in-out infinite}.loader-4080 span:nth-child(2){animation-delay:.12s}.loader-4080 span:nth-child(3){animation-delay:.24s}.loader-4080 span:nth-child(4){animation-delay:.36s}.loader-4080 span:nth-child(5){animation-delay:.48s}.loader-4080 span:nth-child(6){animation-delay:.6s}.loader-4080 span:nth-child(7){animation-delay:.72s}.loader-4080 span:nth-child(8){animation-delay:.84s}.loader-4080 span:nth-child(9){animation-delay:.96s}@keyframes loader4080Tile{0%,100%{transform:scale(.65);opacity:.35}50%{transform:scale(1);opacity:1;background:#6366f1}}@media(prefers-reduced-motion:reduce){.loader-4080 span{animation:none;transform:none;opacity:1}.loader-4080 span:nth-child(2),.loader-4080 span:nth-child(4),.loader-4080 span:nth-child(5),.loader-4080 span:nth-child(6),.loader-4080 span:nth-child(8){background:#6366f1}}`,
+  },
+  {
+    id: 4081,
+    name: "Graphite Minimal Wave Loader",
+    preview: (
+      <div className="loader-4081" role="status" aria-label="Laden">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4081" role="status" aria-label="Laden">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4081{height:34px;display:flex;align-items:center;justify-content:center;gap:5px}.loader-4081 span{width:5px;height:28px;border-radius:999px;background:#94a3b8;transform:scaleY(.4);animation:loader4081Wave 1.1s ease-in-out infinite}.loader-4081 span:nth-child(2){animation-delay:.12s}.loader-4081 span:nth-child(3){animation-delay:.24s}.loader-4081 span:nth-child(4){animation-delay:.36s}.loader-4081 span:nth-child(5){animation-delay:.48s}@keyframes loader4081Wave{0%,100%{transform:scaleY(.32);opacity:.4}50%{transform:scaleY(1);opacity:1;background:#475569}}@media(prefers-reduced-motion:reduce){.loader-4081 span{animation:none;opacity:1;transform:scaleY(.5)}.loader-4081 span:nth-child(2),.loader-4081 span:nth-child(4){transform:scaleY(.8)}.loader-4081 span:nth-child(3){transform:scaleY(1);background:#475569}}`,
+  },
 ];
