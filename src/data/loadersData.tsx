@@ -71591,5 +71591,646 @@ export const loaders = [
     <span></span>
 </div>`,
     css: `.loader-4107{width:90px;height:30px;display:flex;align-items:center;justify-content:center;gap:14px}.loader-4107 span{position:relative;width:18px;height:18px;flex:none;border:2px solid #c7d2fe;border-radius:5px;background:#eef2ff;box-sizing:border-box;animation:loader4107Task 1.5s ease-in-out infinite}.loader-4107 span:not(:last-child)::after{content:"";position:absolute;left:100%;top:6px;width:14px;height:2px;background:#c7d2fe}.loader-4107 span:nth-child(2){animation-delay:.3s}.loader-4107 span:nth-child(3){animation-delay:.6s}@keyframes loader4107Task{0%,100%{transform:translateY(0);background:#eef2ff;border-color:#c7d2fe}40%{transform:translateY(-3px);background:#6366f1;border-color:#6366f1}}@media(prefers-reduced-motion:reduce){.loader-4107 span{animation:none}.loader-4107 span:nth-child(2){background:#6366f1;border-color:#6366f1}}`,
-  },
+  },{
+  id: 4108,
+  name: "Lightning Bolt Pulse",
+  preview: (
+    <div className="loader-4108" role="status" aria-label="Loading">
+      <span className="loader-4108-bolt"></span>
+      <span className="loader-4108-glow"></span>
+    </div>
+  ),
+  html: `<div class="loader-4108" role="status" aria-label="Loading">
+    <span class="loader-4108-bolt"></span>
+    <span class="loader-4108-glow"></span>
+</div>`,
+  css: `.loader-4108 {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+}
+.loader-4108-bolt {
+    position: relative;
+    z-index: 2;
+    width: 18px;
+    height: 28px;
+    background: linear-gradient(180deg, #fef9c3 0%, #fde047 45%, #facc15 100%);
+    clip-path: polygon(45% 0%, 100% 0%, 58% 42%, 88% 42%, 18% 100%, 40% 58%, 10% 58%);
+    filter: drop-shadow(0 0 8px rgba(250, 204, 21, .8));
+    animation: loader4108Bolt 1s ease-in-out infinite;
+}
+.loader-4108-glow {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(250, 204, 21, .45), rgba(59, 130, 246, .08) 70%, transparent 100%);
+    animation: loader4108Glow 1s ease-in-out infinite;
+}
+@keyframes loader4108Bolt {
+    0%, 100% {
+        transform: scale(.88);
+        filter: drop-shadow(0 0 5px rgba(250, 204, 21, .5));
+    }
+    50% {
+        transform: scale(1.08);
+        filter: drop-shadow(0 0 14px rgba(250, 204, 21, 1));
+    }
+}
+@keyframes loader4108Glow {
+    0%, 100% {
+        transform: scale(.75);
+        opacity: .45;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}`,
+},
+{
+  id: 4109,
+  name: "Storm Ring Loader",
+  preview: (
+    <div className="loader-4109" role="status" aria-label="Loading">
+      <span className="loader-4109-ring"></span>
+      <span className="loader-4109-core"></span>
+    </div>
+  ),
+  html: `<div class="loader-4109" role="status" aria-label="Loading">
+    <span class="loader-4109-ring"></span>
+    <span class="loader-4109-core"></span>
+</div>`,
+  css: `.loader-4109 {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+}
+.loader-4109-ring {
+    position: absolute;
+    inset: 2px;
+    border-radius: 50%;
+    border: 3px solid rgba(191, 219, 254, .24);
+    border-top-color: #60a5fa;
+    border-right-color: #facc15;
+    box-shadow: 0 0 12px rgba(96, 165, 250, .2);
+    animation: loader4109Spin .9s linear infinite;
+}
+.loader-4109-core {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #fef9c3 0%, #facc15 65%, #eab308 100%);
+    box-shadow: 0 0 10px rgba(250, 204, 21, .9);
+    animation: loader4109Flash 1.1s ease-in-out infinite;
+}
+@keyframes loader4109Spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes loader4109Flash {
+    0%, 100% {
+        opacity: .55;
+        transform: scale(.8);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}`,
+},
+{
+  id: 4110,
+  name: "Electric Dot Chain",
+  preview: (
+    <div className="loader-4110" role="status" aria-label="Loading">
+      <span className="loader-4110-dot loader-4110-dot-1"></span>
+      <span className="loader-4110-dot loader-4110-dot-2"></span>
+      <span className="loader-4110-dot loader-4110-dot-3"></span>
+      <span className="loader-4110-dot loader-4110-dot-4"></span>
+      <span className="loader-4110-dot loader-4110-dot-5"></span>
+      <span className="loader-4110-dot loader-4110-dot-6"></span>
+    </div>
+  ),
+  html: `<div class="loader-4110" role="status" aria-label="Loading">
+    <span class="loader-4110-dot loader-4110-dot-1"></span>
+    <span class="loader-4110-dot loader-4110-dot-2"></span>
+    <span class="loader-4110-dot loader-4110-dot-3"></span>
+    <span class="loader-4110-dot loader-4110-dot-4"></span>
+    <span class="loader-4110-dot loader-4110-dot-5"></span>
+    <span class="loader-4110-dot loader-4110-dot-6"></span>
+</div>`,
+  css: `.loader-4110 {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.loader-4110-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #93c5fd;
+    box-shadow: 0 0 8px rgba(96, 165, 250, .4);
+    animation: loader4110Dots 1s ease-in-out infinite;
+}
+.loader-4110-dot-1 {
+    background: #e0f2fe;
+}
+.loader-4110-dot-2 {
+    background: #93c5fd;
+    animation-delay: .08s;
+}
+.loader-4110-dot-3 {
+    background: #60a5fa;
+    animation-delay: .16s;
+}
+.loader-4110-dot-4 {
+    background: #38bdf8;
+    animation-delay: .24s;
+}
+.loader-4110-dot-5 {
+    background: #facc15;
+    animation-delay: .32s;
+}
+.loader-4110-dot-6 {
+    background: #fde047;
+    animation-delay: .4s;
+}
+@keyframes loader4110Dots {
+    0%, 100% {
+        transform: translateY(4px) scale(.6);
+        opacity: .35;
+    }
+    50% {
+        transform: translateY(-6px) scale(1.15);
+        opacity: 1;
+        box-shadow: 0 0 14px rgba(250, 204, 21, .55);
+    }
+}`,
+},
+{
+  id: 4111,
+  name: "Thunder Beam Progress",
+  preview: (
+    <div className="loader-4111" role="status" aria-label="Loading">
+      <span className="loader-4111-track"></span>
+      <span className="loader-4111-energy"></span>
+      <span className="loader-4111-spark"></span>
+    </div>
+  ),
+  html: `<div class="loader-4111" role="status" aria-label="Loading">
+    <span class="loader-4111-track"></span>
+    <span class="loader-4111-energy"></span>
+    <span class="loader-4111-spark"></span>
+</div>`,
+  css: `.loader-4111 {
+    position: relative;
+    width: 118px;
+    height: 14px;
+}
+.loader-4111-track {
+    position: absolute;
+    inset: 4px 0;
+    border-radius: 999px;
+    background: #172554;
+    box-shadow: inset 0 0 0 1px rgba(147, 197, 253, .15);
+}
+.loader-4111-energy {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 6px;
+    width: 34%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #38bdf8, #60a5fa, #fde047);
+    box-shadow: 0 0 10px rgba(96, 165, 250, .55);
+    animation: loader4111Beam 1.6s ease-in-out infinite;
+}
+.loader-4111-spark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    background: linear-gradient(180deg, #fef9c3, #facc15);
+    clip-path: polygon(42% 0%, 100% 0%, 60% 38%, 88% 38%, 20% 100%, 40% 58%, 8% 58%);
+    filter: drop-shadow(0 0 6px rgba(250, 204, 21, .8));
+    animation: loader4111Spark 1.6s ease-in-out infinite;
+}
+@keyframes loader4111Beam {
+    0%, 100% {
+        left: 0;
+        width: 20%;
+    }
+    50% {
+        left: 28%;
+        width: 68%;
+    }
+}
+@keyframes loader4111Spark {
+    0%, 100% {
+        left: 4%;
+        transform: scale(.8);
+    }
+    50% {
+        left: 88%;
+        transform: scale(1.1);
+    }
+}`,
+},
+{
+  id: 4112,
+  name: "Voltage Bars Loader",
+  preview: (
+    <div className="loader-4112" role="status" aria-label="Loading">
+      <span className="loader-4112-bar loader-4112-bar-1"></span>
+      <span className="loader-4112-bar loader-4112-bar-2"></span>
+      <span className="loader-4112-bar loader-4112-bar-3"></span>
+      <span className="loader-4112-bar loader-4112-bar-4"></span>
+      <span className="loader-4112-bar loader-4112-bar-5"></span>
+    </div>
+  ),
+  html: `<div class="loader-4112" role="status" aria-label="Loading">
+    <span class="loader-4112-bar loader-4112-bar-1"></span>
+    <span class="loader-4112-bar loader-4112-bar-2"></span>
+    <span class="loader-4112-bar loader-4112-bar-3"></span>
+    <span class="loader-4112-bar loader-4112-bar-4"></span>
+    <span class="loader-4112-bar loader-4112-bar-5"></span>
+</div>`,
+  css: `.loader-4112 {
+    height: 42px;
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+}
+.loader-4112-bar {
+    width: 8px;
+    height: 10px;
+    border-radius: 999px;
+    background: linear-gradient(180deg, #dbeafe 0%, #60a5fa 60%, #2563eb 100%);
+    box-shadow: 0 0 8px rgba(96, 165, 250, .35);
+    animation: loader4112Bars 1s ease-in-out infinite;
+}
+.loader-4112-bar-2 {
+    animation-delay: .1s;
+}
+.loader-4112-bar-3 {
+    animation-delay: .2s;
+}
+.loader-4112-bar-4 {
+    animation-delay: .3s;
+}
+.loader-4112-bar-5 {
+    animation-delay: .4s;
+}
+@keyframes loader4112Bars {
+    0%, 100% {
+        height: 10px;
+        opacity: .35;
+    }
+    50% {
+        height: 36px;
+        opacity: 1;
+        box-shadow: 0 0 12px rgba(250, 204, 21, .5);
+    }
+}`,
+},
+{
+  id: 4113,
+  name: "Orbit Thunder Loader",
+  preview: (
+    <div className="loader-4113" role="status" aria-label="Loading">
+      <span className="loader-4113-ring"></span>
+      <span className="loader-4113-bolt loader-4113-bolt-1"></span>
+      <span className="loader-4113-bolt loader-4113-bolt-2"></span>
+      <span className="loader-4113-core"></span>
+    </div>
+  ),
+  html: `<div class="loader-4113" role="status" aria-label="Loading">
+    <span class="loader-4113-ring"></span>
+    <span class="loader-4113-bolt loader-4113-bolt-1"></span>
+    <span class="loader-4113-bolt loader-4113-bolt-2"></span>
+    <span class="loader-4113-core"></span>
+</div>`,
+  css: `.loader-4113 {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+}
+.loader-4113-ring {
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    border: 1px dashed rgba(96, 165, 250, .45);
+    animation: loader4113Spin 1.5s linear infinite;
+}
+.loader-4113-bolt {
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    background: linear-gradient(180deg, #fefce8, #fde047, #f59e0b);
+    clip-path: polygon(45% 0%, 100% 0%, 60% 42%, 86% 42%, 18% 100%, 40% 60%, 8% 60%);
+    filter: drop-shadow(0 0 5px rgba(250, 204, 21, .75));
+}
+.loader-4113-bolt-1 {
+    top: 2px;
+    left: 19px;
+    animation: loader4113Flash 1s ease-in-out infinite;
+}
+.loader-4113-bolt-2 {
+    bottom: 3px;
+    left: 19px;
+    transform: rotate(180deg);
+    animation: loader4113Flash 1s ease-in-out infinite .5s;
+}
+.loader-4113-core {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #60a5fa;
+    box-shadow: 0 0 12px rgba(96, 165, 250, .9);
+}
+@keyframes loader4113Spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes loader4113Flash {
+    0%, 100% {
+        opacity: .35;
+        transform: scale(.8);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.15);
+    }
+}`,
+},
+{
+  id: 4114,
+  name: "Static Grid Loader",
+  preview: (
+    <div className="loader-4114" role="status" aria-label="Loading">
+      <span className="loader-4114-cell loader-4114-cell-1"></span>
+      <span className="loader-4114-cell loader-4114-cell-2"></span>
+      <span className="loader-4114-cell loader-4114-cell-3"></span>
+      <span className="loader-4114-cell loader-4114-cell-4"></span>
+      <span className="loader-4114-cell loader-4114-cell-5"></span>
+      <span className="loader-4114-cell loader-4114-cell-6"></span>
+      <span className="loader-4114-cell loader-4114-cell-7"></span>
+      <span className="loader-4114-cell loader-4114-cell-8"></span>
+      <span className="loader-4114-cell loader-4114-cell-9"></span>
+    </div>
+  ),
+  html: `<div class="loader-4114" role="status" aria-label="Loading">
+    <span class="loader-4114-cell loader-4114-cell-1"></span>
+    <span class="loader-4114-cell loader-4114-cell-2"></span>
+    <span class="loader-4114-cell loader-4114-cell-3"></span>
+    <span class="loader-4114-cell loader-4114-cell-4"></span>
+    <span class="loader-4114-cell loader-4114-cell-5"></span>
+    <span class="loader-4114-cell loader-4114-cell-6"></span>
+    <span class="loader-4114-cell loader-4114-cell-7"></span>
+    <span class="loader-4114-cell loader-4114-cell-8"></span>
+    <span class="loader-4114-cell loader-4114-cell-9"></span>
+</div>`,
+  css: `.loader-4114 {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+}
+.loader-4114-cell {
+    border-radius: 4px;
+    background: #1e3a8a;
+    box-shadow: inset 0 0 0 1px rgba(191, 219, 254, .2);
+    animation: loader4114Grid 1s ease-in-out infinite;
+}
+.loader-4114-cell-2 { animation-delay: .08s; }
+.loader-4114-cell-3 { animation-delay: .16s; }
+.loader-4114-cell-4 { animation-delay: .24s; }
+.loader-4114-cell-5 { animation-delay: .32s; }
+.loader-4114-cell-6 { animation-delay: .4s; }
+.loader-4114-cell-7 { animation-delay: .48s; }
+.loader-4114-cell-8 { animation-delay: .56s; }
+.loader-4114-cell-9 { animation-delay: .64s; }
+@keyframes loader4114Grid {
+    0%, 100% {
+        background: #1e3a8a;
+        transform: scale(.8);
+        opacity: .5;
+    }
+    50% {
+        background: #fde047;
+        transform: scale(1);
+        opacity: 1;
+        box-shadow: 0 0 10px rgba(250, 204, 21, .5);
+    }
+}`,
+},
+{
+  id: 4115,
+  name: "Electric Scanner",
+  preview: (
+    <div className="loader-4115" role="status" aria-label="Loading">
+      <span className="loader-4115-track"></span>
+      <span className="loader-4115-line"></span>
+      <span className="loader-4115-flash"></span>
+    </div>
+  ),
+  html: `<div class="loader-4115" role="status" aria-label="Loading">
+    <span class="loader-4115-track"></span>
+    <span class="loader-4115-line"></span>
+    <span class="loader-4115-flash"></span>
+</div>`,
+  css: `.loader-4115 {
+    position: relative;
+    width: 112px;
+    height: 34px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.loader-4115-track {
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(180deg, #0f172a, #1e293b);
+    box-shadow: inset 0 0 0 1px rgba(96, 165, 250, .15);
+}
+.loader-4115-line {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: -14px;
+    width: 14px;
+    background: linear-gradient(180deg, rgba(250, 204, 21, .1), rgba(250, 204, 21, .85), rgba(250, 204, 21, .1));
+    box-shadow: 0 0 14px rgba(250, 204, 21, .65);
+    animation: loader4115Scan 1.35s ease-in-out infinite;
+}
+.loader-4115-flash {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent 0%, rgba(96, 165, 250, .08) 50%, transparent 100%);
+    animation: loader4115Flash 1.35s ease-in-out infinite;
+}
+@keyframes loader4115Scan {
+    0% {
+        left: -16px;
+    }
+    100% {
+        left: 114px;
+    }
+}
+@keyframes loader4115Flash {
+    0%, 100% {
+        opacity: .2;
+    }
+    50% {
+        opacity: .75;
+    }
+}`,
+},
+{
+  id: 4116,
+  name: "Energy Cell Loader",
+  preview: (
+    <div className="loader-4116" role="status" aria-label="Loading">
+      <span className="loader-4116-frame">
+        <span className="loader-4116-fill loader-4116-fill-1"></span>
+        <span className="loader-4116-fill loader-4116-fill-2"></span>
+        <span className="loader-4116-fill loader-4116-fill-3"></span>
+        <span className="loader-4116-fill loader-4116-fill-4"></span>
+      </span>
+      <span className="loader-4116-cap"></span>
+    </div>
+  ),
+  html: `<div class="loader-4116" role="status" aria-label="Loading">
+    <span class="loader-4116-frame">
+        <span class="loader-4116-fill loader-4116-fill-1"></span>
+        <span class="loader-4116-fill loader-4116-fill-2"></span>
+        <span class="loader-4116-fill loader-4116-fill-3"></span>
+        <span class="loader-4116-fill loader-4116-fill-4"></span>
+    </span>
+    <span class="loader-4116-cap"></span>
+</div>`,
+  css: `.loader-4116 {
+    position: relative;
+    width: 58px;
+    height: 28px;
+}
+.loader-4116-frame {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 28px;
+    padding: 4px;
+    display: flex;
+    gap: 3px;
+    border: 2px solid #93c5fd;
+    border-radius: 7px;
+    box-sizing: border-box;
+    background: #0f172a;
+}
+.loader-4116-cap {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    width: 6px;
+    height: 12px;
+    border-radius: 0 3px 3px 0;
+    background: #93c5fd;
+}
+.loader-4116-fill {
+    flex: 1;
+    border-radius: 2px;
+    background: #1e3a8a;
+    animation: loader4116Charge 1.2s ease-in-out infinite;
+}
+.loader-4116-fill-2 {
+    animation-delay: .15s;
+}
+.loader-4116-fill-3 {
+    animation-delay: .3s;
+}
+.loader-4116-fill-4 {
+    animation-delay: .45s;
+}
+@keyframes loader4116Charge {
+    0%, 100% {
+        background: #1e3a8a;
+        box-shadow: none;
+        opacity: .25;
+    }
+    50% {
+        background: linear-gradient(180deg, #fde047, #facc15);
+        box-shadow: 0 0 10px rgba(250, 204, 21, .65);
+        opacity: 1;
+    }
+}`,
+},
+{
+  id: 4117,
+  name: "Storm Wave Loader",
+  preview: (
+    <div className="loader-4117" role="status" aria-label="Loading">
+      <span className="loader-4117-wave loader-4117-wave-1"></span>
+      <span className="loader-4117-wave loader-4117-wave-2"></span>
+      <span className="loader-4117-wave loader-4117-wave-3"></span>
+      <span className="loader-4117-wave loader-4117-wave-4"></span>
+    </div>
+  ),
+  html: `<div class="loader-4117" role="status" aria-label="Loading">
+    <span class="loader-4117-wave loader-4117-wave-1"></span>
+    <span class="loader-4117-wave loader-4117-wave-2"></span>
+    <span class="loader-4117-wave loader-4117-wave-3"></span>
+    <span class="loader-4117-wave loader-4117-wave-4"></span>
+</div>`,
+  css: `.loader-4117 {
+    width: 84px;
+    height: 34px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 6px;
+}
+.loader-4117-wave {
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    background: linear-gradient(180deg, #dbeafe, #60a5fa);
+    box-shadow: 0 0 8px rgba(96, 165, 250, .35);
+    animation: loader4117Wave .95s ease-in-out infinite;
+}
+.loader-4117-wave-2 {
+    animation-delay: .12s;
+}
+.loader-4117-wave-3 {
+    animation-delay: .24s;
+}
+.loader-4117-wave-4 {
+    animation-delay: .36s;
+}
+@keyframes loader4117Wave {
+    0%, 100% {
+        transform: scaleY(.7) translateY(0);
+        opacity: .4;
+    }
+    50% {
+        height: 28px;
+        transform: scaleY(1.1) translateY(-3px);
+        opacity: 1;
+        background: linear-gradient(180deg, #fde68a, #facc15);
+        box-shadow: 0 0 12px rgba(250, 204, 21, .55);
+    }
+}`,
+},
 ];
