@@ -71591,20 +71591,21 @@ export const loaders = [
     <span></span>
 </div>`,
     css: `.loader-4107{width:90px;height:30px;display:flex;align-items:center;justify-content:center;gap:14px}.loader-4107 span{position:relative;width:18px;height:18px;flex:none;border:2px solid #c7d2fe;border-radius:5px;background:#eef2ff;box-sizing:border-box;animation:loader4107Task 1.5s ease-in-out infinite}.loader-4107 span:not(:last-child)::after{content:"";position:absolute;left:100%;top:6px;width:14px;height:2px;background:#c7d2fe}.loader-4107 span:nth-child(2){animation-delay:.3s}.loader-4107 span:nth-child(3){animation-delay:.6s}@keyframes loader4107Task{0%,100%{transform:translateY(0);background:#eef2ff;border-color:#c7d2fe}40%{transform:translateY(-3px);background:#6366f1;border-color:#6366f1}}@media(prefers-reduced-motion:reduce){.loader-4107 span{animation:none}.loader-4107 span:nth-child(2){background:#6366f1;border-color:#6366f1}}`,
-  },{
-  id: 4108,
-  name: "Lightning Bolt Pulse",
-  preview: (
-    <div className="loader-4108" role="status" aria-label="Loading">
-      <span className="loader-4108-bolt"></span>
-      <span className="loader-4108-glow"></span>
-    </div>
-  ),
-  html: `<div class="loader-4108" role="status" aria-label="Loading">
+  },
+  {
+    id: 4108,
+    name: "Lightning Bolt Pulse",
+    preview: (
+      <div className="loader-4108" role="status" aria-label="Loading">
+        <span className="loader-4108-bolt"></span>
+        <span className="loader-4108-glow"></span>
+      </div>
+    ),
+    html: `<div class="loader-4108" role="status" aria-label="Loading">
     <span class="loader-4108-bolt"></span>
     <span class="loader-4108-glow"></span>
 </div>`,
-  css: `.loader-4108 {
+    css: `.loader-4108 {
     position: relative;
     width: 44px;
     height: 44px;
@@ -71649,21 +71650,21 @@ export const loaders = [
         opacity: 1;
     }
 }`,
-},
-{
-  id: 4109,
-  name: "Storm Ring Loader",
-  preview: (
-    <div className="loader-4109" role="status" aria-label="Loading">
-      <span className="loader-4109-ring"></span>
-      <span className="loader-4109-core"></span>
-    </div>
-  ),
-  html: `<div class="loader-4109" role="status" aria-label="Loading">
+  },
+  {
+    id: 4109,
+    name: "Storm Ring Loader",
+    preview: (
+      <div className="loader-4109" role="status" aria-label="Loading">
+        <span className="loader-4109-ring"></span>
+        <span className="loader-4109-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-4109" role="status" aria-label="Loading">
     <span class="loader-4109-ring"></span>
     <span class="loader-4109-core"></span>
 </div>`,
-  css: `.loader-4109 {
+    css: `.loader-4109 {
     position: relative;
     width: 48px;
     height: 48px;
@@ -71703,21 +71704,21 @@ export const loaders = [
         transform: scale(1.2);
     }
 }`,
-},
-{
-  id: 4110,
-  name: "Electric Dot Chain",
-  preview: (
-    <div className="loader-4110" role="status" aria-label="Loading">
-      <span className="loader-4110-dot loader-4110-dot-1"></span>
-      <span className="loader-4110-dot loader-4110-dot-2"></span>
-      <span className="loader-4110-dot loader-4110-dot-3"></span>
-      <span className="loader-4110-dot loader-4110-dot-4"></span>
-      <span className="loader-4110-dot loader-4110-dot-5"></span>
-      <span className="loader-4110-dot loader-4110-dot-6"></span>
-    </div>
-  ),
-  html: `<div class="loader-4110" role="status" aria-label="Loading">
+  },
+  {
+    id: 4110,
+    name: "Electric Dot Chain",
+    preview: (
+      <div className="loader-4110" role="status" aria-label="Loading">
+        <span className="loader-4110-dot loader-4110-dot-1"></span>
+        <span className="loader-4110-dot loader-4110-dot-2"></span>
+        <span className="loader-4110-dot loader-4110-dot-3"></span>
+        <span className="loader-4110-dot loader-4110-dot-4"></span>
+        <span className="loader-4110-dot loader-4110-dot-5"></span>
+        <span className="loader-4110-dot loader-4110-dot-6"></span>
+      </div>
+    ),
+    html: `<div class="loader-4110" role="status" aria-label="Loading">
     <span class="loader-4110-dot loader-4110-dot-1"></span>
     <span class="loader-4110-dot loader-4110-dot-2"></span>
     <span class="loader-4110-dot loader-4110-dot-3"></span>
@@ -71725,7 +71726,7 @@ export const loaders = [
     <span class="loader-4110-dot loader-4110-dot-5"></span>
     <span class="loader-4110-dot loader-4110-dot-6"></span>
 </div>`,
-  css: `.loader-4110 {
+    css: `.loader-4110 {
     height: 40px;
     display: flex;
     align-items: center;
@@ -71773,23 +71774,23 @@ export const loaders = [
         box-shadow: 0 0 14px rgba(250, 204, 21, .55);
     }
 }`,
-},
-{
-  id: 4111,
-  name: "Thunder Beam Progress",
-  preview: (
-    <div className="loader-4111" role="status" aria-label="Loading">
-      <span className="loader-4111-track"></span>
-      <span className="loader-4111-energy"></span>
-      <span className="loader-4111-spark"></span>
-    </div>
-  ),
-  html: `<div class="loader-4111" role="status" aria-label="Loading">
+  },
+  {
+    id: 4111,
+    name: "Thunder Beam Progress",
+    preview: (
+      <div className="loader-4111" role="status" aria-label="Loading">
+        <span className="loader-4111-track"></span>
+        <span className="loader-4111-energy"></span>
+        <span className="loader-4111-spark"></span>
+      </div>
+    ),
+    html: `<div class="loader-4111" role="status" aria-label="Loading">
     <span class="loader-4111-track"></span>
     <span class="loader-4111-energy"></span>
     <span class="loader-4111-spark"></span>
 </div>`,
-  css: `.loader-4111 {
+    css: `.loader-4111 {
     position: relative;
     width: 118px;
     height: 14px;
@@ -71843,27 +71844,27 @@ export const loaders = [
         transform: scale(1.1);
     }
 }`,
-},
-{
-  id: 4112,
-  name: "Voltage Bars Loader",
-  preview: (
-    <div className="loader-4112" role="status" aria-label="Loading">
-      <span className="loader-4112-bar loader-4112-bar-1"></span>
-      <span className="loader-4112-bar loader-4112-bar-2"></span>
-      <span className="loader-4112-bar loader-4112-bar-3"></span>
-      <span className="loader-4112-bar loader-4112-bar-4"></span>
-      <span className="loader-4112-bar loader-4112-bar-5"></span>
-    </div>
-  ),
-  html: `<div class="loader-4112" role="status" aria-label="Loading">
+  },
+  {
+    id: 4112,
+    name: "Voltage Bars Loader",
+    preview: (
+      <div className="loader-4112" role="status" aria-label="Loading">
+        <span className="loader-4112-bar loader-4112-bar-1"></span>
+        <span className="loader-4112-bar loader-4112-bar-2"></span>
+        <span className="loader-4112-bar loader-4112-bar-3"></span>
+        <span className="loader-4112-bar loader-4112-bar-4"></span>
+        <span className="loader-4112-bar loader-4112-bar-5"></span>
+      </div>
+    ),
+    html: `<div class="loader-4112" role="status" aria-label="Loading">
     <span class="loader-4112-bar loader-4112-bar-1"></span>
     <span class="loader-4112-bar loader-4112-bar-2"></span>
     <span class="loader-4112-bar loader-4112-bar-3"></span>
     <span class="loader-4112-bar loader-4112-bar-4"></span>
     <span class="loader-4112-bar loader-4112-bar-5"></span>
 </div>`,
-  css: `.loader-4112 {
+    css: `.loader-4112 {
     height: 42px;
     display: flex;
     align-items: flex-end;
@@ -71900,25 +71901,25 @@ export const loaders = [
         box-shadow: 0 0 12px rgba(250, 204, 21, .5);
     }
 }`,
-},
-{
-  id: 4113,
-  name: "Orbit Thunder Loader",
-  preview: (
-    <div className="loader-4113" role="status" aria-label="Loading">
-      <span className="loader-4113-ring"></span>
-      <span className="loader-4113-bolt loader-4113-bolt-1"></span>
-      <span className="loader-4113-bolt loader-4113-bolt-2"></span>
-      <span className="loader-4113-core"></span>
-    </div>
-  ),
-  html: `<div class="loader-4113" role="status" aria-label="Loading">
+  },
+  {
+    id: 4113,
+    name: "Orbit Thunder Loader",
+    preview: (
+      <div className="loader-4113" role="status" aria-label="Loading">
+        <span className="loader-4113-ring"></span>
+        <span className="loader-4113-bolt loader-4113-bolt-1"></span>
+        <span className="loader-4113-bolt loader-4113-bolt-2"></span>
+        <span className="loader-4113-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-4113" role="status" aria-label="Loading">
     <span class="loader-4113-ring"></span>
     <span class="loader-4113-bolt loader-4113-bolt-1"></span>
     <span class="loader-4113-bolt loader-4113-bolt-2"></span>
     <span class="loader-4113-core"></span>
 </div>`,
-  css: `.loader-4113 {
+    css: `.loader-4113 {
     position: relative;
     width: 48px;
     height: 48px;
@@ -71973,24 +71974,24 @@ export const loaders = [
         transform: scale(1.15);
     }
 }`,
-},
-{
-  id: 4114,
-  name: "Static Grid Loader",
-  preview: (
-    <div className="loader-4114" role="status" aria-label="Loading">
-      <span className="loader-4114-cell loader-4114-cell-1"></span>
-      <span className="loader-4114-cell loader-4114-cell-2"></span>
-      <span className="loader-4114-cell loader-4114-cell-3"></span>
-      <span className="loader-4114-cell loader-4114-cell-4"></span>
-      <span className="loader-4114-cell loader-4114-cell-5"></span>
-      <span className="loader-4114-cell loader-4114-cell-6"></span>
-      <span className="loader-4114-cell loader-4114-cell-7"></span>
-      <span className="loader-4114-cell loader-4114-cell-8"></span>
-      <span className="loader-4114-cell loader-4114-cell-9"></span>
-    </div>
-  ),
-  html: `<div class="loader-4114" role="status" aria-label="Loading">
+  },
+  {
+    id: 4114,
+    name: "Static Grid Loader",
+    preview: (
+      <div className="loader-4114" role="status" aria-label="Loading">
+        <span className="loader-4114-cell loader-4114-cell-1"></span>
+        <span className="loader-4114-cell loader-4114-cell-2"></span>
+        <span className="loader-4114-cell loader-4114-cell-3"></span>
+        <span className="loader-4114-cell loader-4114-cell-4"></span>
+        <span className="loader-4114-cell loader-4114-cell-5"></span>
+        <span className="loader-4114-cell loader-4114-cell-6"></span>
+        <span className="loader-4114-cell loader-4114-cell-7"></span>
+        <span className="loader-4114-cell loader-4114-cell-8"></span>
+        <span className="loader-4114-cell loader-4114-cell-9"></span>
+      </div>
+    ),
+    html: `<div class="loader-4114" role="status" aria-label="Loading">
     <span class="loader-4114-cell loader-4114-cell-1"></span>
     <span class="loader-4114-cell loader-4114-cell-2"></span>
     <span class="loader-4114-cell loader-4114-cell-3"></span>
@@ -72001,7 +72002,7 @@ export const loaders = [
     <span class="loader-4114-cell loader-4114-cell-8"></span>
     <span class="loader-4114-cell loader-4114-cell-9"></span>
 </div>`,
-  css: `.loader-4114 {
+    css: `.loader-4114 {
     width: 42px;
     height: 42px;
     display: grid;
@@ -72035,23 +72036,23 @@ export const loaders = [
         box-shadow: 0 0 10px rgba(250, 204, 21, .5);
     }
 }`,
-},
-{
-  id: 4115,
-  name: "Electric Scanner",
-  preview: (
-    <div className="loader-4115" role="status" aria-label="Loading">
-      <span className="loader-4115-track"></span>
-      <span className="loader-4115-line"></span>
-      <span className="loader-4115-flash"></span>
-    </div>
-  ),
-  html: `<div class="loader-4115" role="status" aria-label="Loading">
+  },
+  {
+    id: 4115,
+    name: "Electric Scanner",
+    preview: (
+      <div className="loader-4115" role="status" aria-label="Loading">
+        <span className="loader-4115-track"></span>
+        <span className="loader-4115-line"></span>
+        <span className="loader-4115-flash"></span>
+      </div>
+    ),
+    html: `<div class="loader-4115" role="status" aria-label="Loading">
     <span class="loader-4115-track"></span>
     <span class="loader-4115-line"></span>
     <span class="loader-4115-flash"></span>
 </div>`,
-  css: `.loader-4115 {
+    css: `.loader-4115 {
     position: relative;
     width: 112px;
     height: 34px;
@@ -72097,22 +72098,22 @@ export const loaders = [
         opacity: .75;
     }
 }`,
-},
-{
-  id: 4116,
-  name: "Energy Cell Loader",
-  preview: (
-    <div className="loader-4116" role="status" aria-label="Loading">
-      <span className="loader-4116-frame">
-        <span className="loader-4116-fill loader-4116-fill-1"></span>
-        <span className="loader-4116-fill loader-4116-fill-2"></span>
-        <span className="loader-4116-fill loader-4116-fill-3"></span>
-        <span className="loader-4116-fill loader-4116-fill-4"></span>
-      </span>
-      <span className="loader-4116-cap"></span>
-    </div>
-  ),
-  html: `<div class="loader-4116" role="status" aria-label="Loading">
+  },
+  {
+    id: 4116,
+    name: "Energy Cell Loader",
+    preview: (
+      <div className="loader-4116" role="status" aria-label="Loading">
+        <span className="loader-4116-frame">
+          <span className="loader-4116-fill loader-4116-fill-1"></span>
+          <span className="loader-4116-fill loader-4116-fill-2"></span>
+          <span className="loader-4116-fill loader-4116-fill-3"></span>
+          <span className="loader-4116-fill loader-4116-fill-4"></span>
+        </span>
+        <span className="loader-4116-cap"></span>
+      </div>
+    ),
+    html: `<div class="loader-4116" role="status" aria-label="Loading">
     <span class="loader-4116-frame">
         <span class="loader-4116-fill loader-4116-fill-1"></span>
         <span class="loader-4116-fill loader-4116-fill-2"></span>
@@ -72121,7 +72122,7 @@ export const loaders = [
     </span>
     <span class="loader-4116-cap"></span>
 </div>`,
-  css: `.loader-4116 {
+    css: `.loader-4116 {
     position: relative;
     width: 58px;
     height: 28px;
@@ -72176,25 +72177,25 @@ export const loaders = [
         opacity: 1;
     }
 }`,
-},
-{
-  id: 4117,
-  name: "Storm Wave Loader",
-  preview: (
-    <div className="loader-4117" role="status" aria-label="Loading">
-      <span className="loader-4117-wave loader-4117-wave-1"></span>
-      <span className="loader-4117-wave loader-4117-wave-2"></span>
-      <span className="loader-4117-wave loader-4117-wave-3"></span>
-      <span className="loader-4117-wave loader-4117-wave-4"></span>
-    </div>
-  ),
-  html: `<div class="loader-4117" role="status" aria-label="Loading">
+  },
+  {
+    id: 4117,
+    name: "Storm Wave Loader",
+    preview: (
+      <div className="loader-4117" role="status" aria-label="Loading">
+        <span className="loader-4117-wave loader-4117-wave-1"></span>
+        <span className="loader-4117-wave loader-4117-wave-2"></span>
+        <span className="loader-4117-wave loader-4117-wave-3"></span>
+        <span className="loader-4117-wave loader-4117-wave-4"></span>
+      </div>
+    ),
+    html: `<div class="loader-4117" role="status" aria-label="Loading">
     <span class="loader-4117-wave loader-4117-wave-1"></span>
     <span class="loader-4117-wave loader-4117-wave-2"></span>
     <span class="loader-4117-wave loader-4117-wave-3"></span>
     <span class="loader-4117-wave loader-4117-wave-4"></span>
 </div>`,
-  css: `.loader-4117 {
+    css: `.loader-4117 {
     width: 84px;
     height: 34px;
     display: flex;
@@ -72232,5 +72233,193 @@ export const loaders = [
         box-shadow: 0 0 12px rgba(250, 204, 21, .55);
     }
 }`,
-},
+  },
+  {
+    id: 4118,
+    name: "Glacier Arc Loader",
+    preview: (
+      <div className="loader-4118" role="status" aria-label="Laden">
+        <span className="loader-4118-ring"></span>
+        <span className="loader-4118-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-4118" role="status" aria-label="Laden">
+    <span class="loader-4118-ring"></span>
+    <span class="loader-4118-core"></span>
+</div>`,
+    css: `.loader-4118{position:relative;width:44px;height:44px;display:grid;place-items:center}.loader-4118::before{content:"";position:absolute;inset:7px;border-radius:50%;background:rgba(125,211,252,.16);filter:blur(6px)}.loader-4118-ring{position:absolute;inset:4px;border:3px solid #e0f2fe;border-top-color:#0284c7;border-right-color:#67e8f9;border-radius:50%;box-shadow:0 0 9px rgba(56,189,248,.12);animation:loader4118Spin .9s linear infinite}.loader-4118-core{width:8px;height:8px;border-radius:50%;background:#7dd3fc;box-shadow:0 0 8px rgba(56,189,248,.45);animation:loader4118Core 1.2s ease-in-out infinite}@keyframes loader4118Spin{to{transform:rotate(360deg)}}@keyframes loader4118Core{0%,100%{transform:scale(.7);opacity:.5}50%{transform:scale(1.1);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4118-ring,.loader-4118-core{animation:none}}`,
+  },
+  {
+    id: 4119,
+    name: "Crystal Snowflake Loader",
+    preview: (
+      <div className="loader-4119" role="status" aria-label="Laden">
+        <span className="loader-4119-arm loader-4119-arm-1"></span>
+        <span className="loader-4119-arm loader-4119-arm-2"></span>
+        <span className="loader-4119-arm loader-4119-arm-3"></span>
+        <span className="loader-4119-arm loader-4119-arm-4"></span>
+        <span className="loader-4119-arm loader-4119-arm-5"></span>
+        <span className="loader-4119-arm loader-4119-arm-6"></span>
+        <span className="loader-4119-center"></span>
+      </div>
+    ),
+    html: `<div class="loader-4119" role="status" aria-label="Laden">
+    <span class="loader-4119-arm loader-4119-arm-1"></span>
+    <span class="loader-4119-arm loader-4119-arm-2"></span>
+    <span class="loader-4119-arm loader-4119-arm-3"></span>
+    <span class="loader-4119-arm loader-4119-arm-4"></span>
+    <span class="loader-4119-arm loader-4119-arm-5"></span>
+    <span class="loader-4119-arm loader-4119-arm-6"></span>
+    <span class="loader-4119-center"></span>
+</div>`,
+    css: `.loader-4119{position:relative;width:44px;height:44px;animation:loader4119Rotate 3s linear infinite}.loader-4119-arm{position:absolute;left:20px;top:2px;width:4px;height:18px;transform-origin:2px 20px;border-radius:3px;background:linear-gradient(to bottom,#f0f9ff,#7dd3fc,#0284c7);animation:loader4119Shine 1.5s ease-in-out infinite}.loader-4119-arm::after{content:"";position:absolute;left:-3px;top:8px;width:10px;height:3px;border-radius:3px;background:#bae6fd}.loader-4119-arm-1{transform:rotate(0deg)}.loader-4119-arm-2{transform:rotate(60deg);animation-delay:-.25s}.loader-4119-arm-3{transform:rotate(120deg);animation-delay:-.5s}.loader-4119-arm-4{transform:rotate(180deg);animation-delay:-.75s}.loader-4119-arm-5{transform:rotate(240deg);animation-delay:-1s}.loader-4119-arm-6{transform:rotate(300deg);animation-delay:-1.25s}.loader-4119-center{position:absolute;left:50%;top:50%;width:8px;height:8px;border-radius:2px;background:#e0f2fe;border:1px solid #38bdf8;transform:translate(-50%,-50%) rotate(45deg);box-shadow:0 0 8px rgba(125,211,252,.6)}@keyframes loader4119Rotate{to{transform:rotate(360deg)}}@keyframes loader4119Shine{0%,100%{opacity:.35}50%{opacity:1;filter:brightness(1.25)}}@media(prefers-reduced-motion:reduce){.loader-4119,.loader-4119-arm{animation:none}.loader-4119-arm{opacity:1}}`,
+  },
+  {
+    id: 4120,
+    name: "Falling Icicles Loader",
+    preview: (
+      <div className="loader-4120" role="status" aria-label="Laden">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4120" role="status" aria-label="Laden">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4120{width:68px;height:40px;display:flex;align-items:flex-start;justify-content:center;gap:5px}.loader-4120 span{width:7px;height:34px;flex:none;clip-path:polygon(0 0,100% 0,50% 100%);background:linear-gradient(90deg,#0284c7,#e0f2fe 45%,#67e8f9);transform-origin:top;animation:loader4120Icicle 1.3s ease-in-out infinite}.loader-4120 span:nth-child(2){animation-delay:.13s}.loader-4120 span:nth-child(3){animation-delay:.26s}.loader-4120 span:nth-child(4){animation-delay:.39s}.loader-4120 span:nth-child(5){animation-delay:.52s}.loader-4120 span:nth-child(6){animation-delay:.65s}@keyframes loader4120Icicle{0%,100%{transform:scaleY(.3);opacity:.35}50%{transform:scaleY(1);opacity:1;filter:brightness(1.3)}}@media(prefers-reduced-motion:reduce){.loader-4120 span{animation:none;opacity:1;transform:scaleY(.6)}.loader-4120 span:nth-child(3),.loader-4120 span:nth-child(4){transform:scaleY(1)}}`,
+  },
+  {
+    id: 4121,
+    name: "Glacial Progress Loader",
+    preview: (
+      <div className="loader-4121" role="status" aria-label="Laden">
+        <span className="loader-4121-fill"></span>
+      </div>
+    ),
+    html: `<div class="loader-4121" role="status" aria-label="Laden">
+    <span class="loader-4121-fill"></span>
+</div>`,
+    css: `.loader-4121{position:relative;width:128px;height:8px;overflow:hidden;border:1px solid #bae6fd;border-radius:999px;background:#e0f2fe;box-sizing:border-box}.loader-4121-fill{position:absolute;top:0;bottom:0;left:-45%;width:45%;border-radius:999px;background:linear-gradient(90deg,#38bdf8,#bae6fd 55%,#0284c7);box-shadow:0 0 8px rgba(14,165,233,.35);animation:loader4121Sweep 1.6s ease-in-out infinite}.loader-4121-fill::after{content:"";position:absolute;right:8%;top:0;width:18%;height:100%;background:rgba(255,255,255,.75);filter:blur(2px)}@keyframes loader4121Sweep{0%{left:-45%}100%{left:105%}}@media(prefers-reduced-motion:reduce){.loader-4121-fill{animation:none;left:28%}}`,
+  },
+  {
+    id: 4122,
+    name: "Frost Prism Loader",
+    preview: (
+      <div className="loader-4122" role="status" aria-label="Laden">
+        <span className="loader-4122-prism"></span>
+        <span className="loader-4122-shadow"></span>
+      </div>
+    ),
+    html: `<div class="loader-4122" role="status" aria-label="Laden">
+    <span class="loader-4122-prism"></span>
+    <span class="loader-4122-shadow"></span>
+</div>`,
+    css: `.loader-4122{position:relative;width:46px;height:46px;display:grid;place-items:center;perspective:120px}.loader-4122-prism{position:relative;z-index:1;width:27px;height:34px;clip-path:polygon(50% 0,100% 45%,50% 100%,0 45%);background:linear-gradient(125deg,#f8fafc 0%,#bae6fd 32%,#38bdf8 65%,#1d4ed8 100%);filter:drop-shadow(0 0 5px rgba(56,189,248,.4));animation:loader4122Flip 2s ease-in-out infinite}.loader-4122-prism::after{content:"";position:absolute;left:50%;top:0;width:1px;height:100%;background:rgba(255,255,255,.8)}.loader-4122-shadow{position:absolute;bottom:1px;width:27px;height:5px;border-radius:50%;background:rgba(14,165,233,.25);filter:blur(3px);animation:loader4122Shadow 2s ease-in-out infinite}@keyframes loader4122Flip{0%{transform:rotateY(0deg) translateY(2px)}50%{transform:rotateY(180deg) translateY(-3px)}100%{transform:rotateY(360deg) translateY(2px)}}@keyframes loader4122Shadow{0%,100%{transform:scale(.8);opacity:.4}50%{transform:scale(1.2);opacity:.8}}@media(prefers-reduced-motion:reduce){.loader-4122-prism,.loader-4122-shadow{animation:none}}`,
+  },
+  {
+    id: 4123,
+    name: "Soft Snowfall Loader",
+    preview: (
+      <div className="loader-4123" role="status" aria-label="Laden">
+        <span className="loader-4123-flake loader-4123-flake-1"></span>
+        <span className="loader-4123-flake loader-4123-flake-2"></span>
+        <span className="loader-4123-flake loader-4123-flake-3"></span>
+        <span className="loader-4123-flake loader-4123-flake-4"></span>
+        <span className="loader-4123-flake loader-4123-flake-5"></span>
+        <span className="loader-4123-flake loader-4123-flake-6"></span>
+      </div>
+    ),
+    html: `<div class="loader-4123" role="status" aria-label="Laden">
+    <span class="loader-4123-flake loader-4123-flake-1"></span>
+    <span class="loader-4123-flake loader-4123-flake-2"></span>
+    <span class="loader-4123-flake loader-4123-flake-3"></span>
+    <span class="loader-4123-flake loader-4123-flake-4"></span>
+    <span class="loader-4123-flake loader-4123-flake-5"></span>
+    <span class="loader-4123-flake loader-4123-flake-6"></span>
+</div>`,
+    css: `.loader-4123{position:relative;width:72px;height:44px;overflow:hidden;border-radius:8px;background:linear-gradient(180deg,rgba(224,242,254,.25),rgba(186,230,253,.05))}.loader-4123-flake{position:absolute;top:-10px;width:8px;height:8px;background:#7dd3fc;clip-path:polygon(50% 0,62% 35%,100% 25%,72% 50%,100% 75%,62% 65%,50% 100%,38% 65%,0 75%,28% 50%,0 25%,38% 35%);animation:loader4123Fall 1.6s linear infinite}.loader-4123-flake-1{left:8px;animation-delay:0s}.loader-4123-flake-2{left:20px;width:5px;height:5px;animation-delay:-.45s}.loader-4123-flake-3{left:31px;animation-delay:-.9s}.loader-4123-flake-4{left:43px;width:6px;height:6px;animation-delay:-.25s}.loader-4123-flake-5{left:54px;animation-delay:-1.2s}.loader-4123-flake-6{left:64px;width:5px;height:5px;animation-delay:-.7s}@keyframes loader4123Fall{0%{transform:translate(0,0) rotate(0deg);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translate(8px,58px) rotate(120deg);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4123-flake{animation:none;opacity:1;top:18px}.loader-4123-flake:nth-child(even){top:29px}.loader-4123-flake:nth-child(3){top:8px}}`,
+  },
+  {
+    id: 4124,
+    name: "Frozen Orbit Loader",
+    preview: (
+      <div className="loader-4124" role="status" aria-label="Laden">
+        <span className="loader-4124-orbit loader-4124-orbit-1"></span>
+        <span className="loader-4124-orbit loader-4124-orbit-2"></span>
+        <span className="loader-4124-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-4124" role="status" aria-label="Laden">
+    <span class="loader-4124-orbit loader-4124-orbit-1"></span>
+    <span class="loader-4124-orbit loader-4124-orbit-2"></span>
+    <span class="loader-4124-core"></span>
+</div>`,
+    css: `.loader-4124{position:relative;width:48px;height:48px;display:grid;place-items:center}.loader-4124-orbit{position:absolute;border:1px dashed #93c5fd;border-radius:50%}.loader-4124-orbit::after{content:"";position:absolute;left:50%;top:-4px;width:7px;height:7px;margin-left:-3.5px;border-radius:50%;background:#0ea5e9;box-shadow:0 0 7px rgba(56,189,248,.55)}.loader-4124-orbit-1{inset:2px;animation:loader4124Orbit 1.8s linear infinite}.loader-4124-orbit-2{inset:11px;border-color:#bae6fd;animation:loader4124Orbit 1.1s linear infinite reverse}.loader-4124-orbit-2::after{width:5px;height:5px;top:-3px;margin-left:-2.5px;background:#7dd3fc}.loader-4124-core{width:10px;height:12px;clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);background:linear-gradient(135deg,#f0f9ff,#38bdf8);filter:drop-shadow(0 0 4px rgba(56,189,248,.45))}@keyframes loader4124Orbit{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4124-orbit{animation:none}}`,
+  },
+  {
+    id: 4125,
+    name: "Frost Ripple Loader",
+    preview: (
+      <div className="loader-4125" role="status" aria-label="Laden">
+        <span className="loader-4125-wave loader-4125-wave-1"></span>
+        <span className="loader-4125-wave loader-4125-wave-2"></span>
+        <span className="loader-4125-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-4125" role="status" aria-label="Laden">
+    <span class="loader-4125-wave loader-4125-wave-1"></span>
+    <span class="loader-4125-wave loader-4125-wave-2"></span>
+    <span class="loader-4125-core"></span>
+</div>`,
+    css: `.loader-4125{position:relative;width:48px;height:48px;display:grid;place-items:center}.loader-4125-wave{position:absolute;inset:12px;border:2px solid #67e8f9;border-radius:50%;animation:loader4125Ripple 1.8s ease-out infinite}.loader-4125-wave-2{animation-delay:.6s}.loader-4125-core{position:relative;width:12px;height:12px;border-radius:50%;background:radial-gradient(circle at 30% 30%,#fff,#7dd3fc 50%,#0284c7);box-shadow:0 0 0 4px #e0f2fe,0 0 12px rgba(14,165,233,.3)}@keyframes loader4125Ripple{0%{transform:scale(.5);opacity:.9}100%{transform:scale(2.1);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4125-wave{animation:none;transform:scale(1.3);opacity:.4}.loader-4125-wave-2{display:none}}`,
+  },
+  {
+    id: 4126,
+    name: "Ice Shard Sequence Loader",
+    preview: (
+      <div className="loader-4126" role="status" aria-label="Laden">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4126" role="status" aria-label="Laden">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>`,
+    css: `.loader-4126{width:82px;height:38px;display:flex;align-items:center;justify-content:center;gap:5px}.loader-4126 span{width:10px;height:21px;flex:none;clip-path:polygon(50% 0,100% 45%,50% 100%,0 45%);background:linear-gradient(135deg,#f0f9ff,#7dd3fc 45%,#0284c7);filter:drop-shadow(0 0 3px rgba(56,189,248,.25));animation:loader4126Shard 1.4s ease-in-out infinite}.loader-4126 span:nth-child(2){animation-delay:.14s}.loader-4126 span:nth-child(3){animation-delay:.28s}.loader-4126 span:nth-child(4){animation-delay:.42s}.loader-4126 span:nth-child(5){animation-delay:.56s}@keyframes loader4126Shard{0%,100%{transform:translateY(3px) scale(.65);opacity:.3}50%{transform:translateY(-4px) scale(1.15);opacity:1;filter:brightness(1.4) drop-shadow(0 0 5px rgba(56,189,248,.5))}}@media(prefers-reduced-motion:reduce){.loader-4126 span{animation:none;transform:none;opacity:1}.loader-4126 span:nth-child(3){filter:brightness(1.3)}}`,
+  },
+  {
+    id: 4127,
+    name: "Blizzard Spiral Loader",
+    preview: (
+      <div className="loader-4127" role="status" aria-label="Laden">
+        <span className="loader-4127-ring loader-4127-ring-1"></span>
+        <span className="loader-4127-ring loader-4127-ring-2"></span>
+        <span className="loader-4127-ring loader-4127-ring-3"></span>
+        <span className="loader-4127-center"></span>
+      </div>
+    ),
+    html: `<div class="loader-4127" role="status" aria-label="Laden">
+    <span class="loader-4127-ring loader-4127-ring-1"></span>
+    <span class="loader-4127-ring loader-4127-ring-2"></span>
+    <span class="loader-4127-ring loader-4127-ring-3"></span>
+    <span class="loader-4127-center"></span>
+</div>`,
+    css: `.loader-4127{position:relative;width:50px;height:50px;display:grid;place-items:center}.loader-4127-ring{position:absolute;border-radius:50%}.loader-4127-ring-1{inset:2px;border:3px solid transparent;border-top-color:#0ea5e9;border-right-color:#7dd3fc;animation:loader4127Outer 1.2s linear infinite}.loader-4127-ring-2{inset:10px;border:2px solid transparent;border-top-color:#bae6fd;border-left-color:#38bdf8;animation:loader4127Inner .85s linear infinite reverse}.loader-4127-ring-3{inset:17px;border:2px solid transparent;border-bottom-color:#0284c7;border-right-color:#67e8f9;animation:loader4127Inner 1.4s linear infinite}.loader-4127-center{width:5px;height:5px;border-radius:50%;background:#e0f2fe;box-shadow:0 0 8px rgba(56,189,248,.65)}@keyframes loader4127Outer{to{transform:rotate(360deg)}}@keyframes loader4127Inner{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4127-ring{animation:none}}`,
+  },
 ];
