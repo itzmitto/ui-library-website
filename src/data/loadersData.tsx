@@ -71407,63 +71407,68 @@ export const loaders = [
         opacity: .7;
     }
 }`,
-  },{
-  id: 4098,
-  name: "Sapphire Precision Arc",
-  preview: (
-    <div className="loader-4098" role="status" aria-label="Laden">
-      <span className="loader-4098-arc"></span>
-      <span className="loader-4098-core"></span>
-    </div>
-  ),
-  html: `<div class="loader-4098" role="status" aria-label="Laden">
+  },
+  {
+    id: 4098,
+    name: "Sapphire Precision Arc",
+    preview: (
+      <div className="loader-4098" role="status" aria-label="Laden">
+        <span className="loader-4098-arc"></span>
+        <span className="loader-4098-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-4098" role="status" aria-label="Laden">
     <span class="loader-4098-arc"></span>
     <span class="loader-4098-core"></span>
 </div>`,
-  css: `.loader-4098{position:relative;width:42px;height:42px;display:grid;place-items:center}.loader-4098-arc{position:absolute;inset:3px;border:3px solid #e0e7ff;border-top-color:#4f46e5;border-right-color:#818cf8;border-radius:50%;animation:loader4098Spin .85s linear infinite}.loader-4098-core{width:9px;height:9px;border-radius:50%;background:#818cf8;animation:loader4098Pulse 1.3s ease-in-out infinite}@keyframes loader4098Spin{to{transform:rotate(360deg)}}@keyframes loader4098Pulse{0%,100%{transform:scale(.75);opacity:.45}50%{transform:scale(1);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4098-arc,.loader-4098-core{animation:none}}`,
-},
-{
-  id: 4099,
-  name: "Emerald Sync Status",
-  preview: (
-    <div className="loader-4099" role="status" aria-label="Gegevens synchroniseren">
-      <span className="loader-4099-signal"></span>
-      <span className="loader-4099-label">Syncing</span>
-    </div>
-  ),
-  html: `<div class="loader-4099" role="status" aria-label="Gegevens synchroniseren">
+    css: `.loader-4098{position:relative;width:42px;height:42px;display:grid;place-items:center}.loader-4098-arc{position:absolute;inset:3px;border:3px solid #e0e7ff;border-top-color:#4f46e5;border-right-color:#818cf8;border-radius:50%;animation:loader4098Spin .85s linear infinite}.loader-4098-core{width:9px;height:9px;border-radius:50%;background:#818cf8;animation:loader4098Pulse 1.3s ease-in-out infinite}@keyframes loader4098Spin{to{transform:rotate(360deg)}}@keyframes loader4098Pulse{0%,100%{transform:scale(.75);opacity:.45}50%{transform:scale(1);opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4098-arc,.loader-4098-core{animation:none}}`,
+  },
+  {
+    id: 4099,
+    name: "Emerald Sync Status",
+    preview: (
+      <div
+        className="loader-4099"
+        role="status"
+        aria-label="Gegevens synchroniseren"
+      >
+        <span className="loader-4099-signal"></span>
+        <span className="loader-4099-label">Syncing</span>
+      </div>
+    ),
+    html: `<div class="loader-4099" role="status" aria-label="Gegevens synchroniseren">
     <span class="loader-4099-signal"></span>
     <span class="loader-4099-label">Syncing</span>
 </div>`,
-  css: `.loader-4099{height:34px;padding:0 14px;display:inline-flex;align-items:center;gap:10px;border:1px solid #bbf7d0;border-radius:999px;background:#f0fdf4;box-sizing:border-box}.loader-4099-signal{position:relative;width:8px;height:8px;flex:none;border-radius:50%;background:#16a34a;animation:loader4099Pulse 1.5s ease-in-out infinite}.loader-4099-signal::after{content:"";position:absolute;inset:-5px;border:1px solid #4ade80;border-radius:50%;animation:loader4099Ripple 1.5s ease-out infinite}.loader-4099-label{color:#166534;font:600 12px/1 system-ui,sans-serif;letter-spacing:.02em}@keyframes loader4099Pulse{0%,100%{opacity:.65}50%{opacity:1}}@keyframes loader4099Ripple{0%{transform:scale(.5);opacity:.75}100%{transform:scale(1.4);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4099-signal,.loader-4099-signal::after{animation:none}.loader-4099-signal::after{display:none}}`,
-},
-{
-  id: 4100,
-  name: "Indigo Flow Track",
-  preview: (
-    <div className="loader-4100" role="status" aria-label="Laden">
-      <span className="loader-4100-fill"></span>
-    </div>
-  ),
-  html: `<div class="loader-4100" role="status" aria-label="Laden">
+    css: `.loader-4099{height:34px;padding:0 14px;display:inline-flex;align-items:center;gap:10px;border:1px solid #bbf7d0;border-radius:999px;background:#f0fdf4;box-sizing:border-box}.loader-4099-signal{position:relative;width:8px;height:8px;flex:none;border-radius:50%;background:#16a34a;animation:loader4099Pulse 1.5s ease-in-out infinite}.loader-4099-signal::after{content:"";position:absolute;inset:-5px;border:1px solid #4ade80;border-radius:50%;animation:loader4099Ripple 1.5s ease-out infinite}.loader-4099-label{color:#166534;font:600 12px/1 system-ui,sans-serif;letter-spacing:.02em}@keyframes loader4099Pulse{0%,100%{opacity:.65}50%{opacity:1}}@keyframes loader4099Ripple{0%{transform:scale(.5);opacity:.75}100%{transform:scale(1.4);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4099-signal,.loader-4099-signal::after{animation:none}.loader-4099-signal::after{display:none}}`,
+  },
+  {
+    id: 4100,
+    name: "Indigo Flow Track",
+    preview: (
+      <div className="loader-4100" role="status" aria-label="Laden">
+        <span className="loader-4100-fill"></span>
+      </div>
+    ),
+    html: `<div class="loader-4100" role="status" aria-label="Laden">
     <span class="loader-4100-fill"></span>
 </div>`,
-  css: `.loader-4100{position:relative;width:132px;height:8px;overflow:hidden;border:1px solid #e0e7ff;border-radius:999px;background:#eef2ff;box-sizing:border-box}.loader-4100-fill{position:absolute;top:0;bottom:0;left:-50%;width:45%;border-radius:999px;background:linear-gradient(90deg,#a5b4fc,#6366f1,#4338ca);box-shadow:0 0 9px rgba(99,102,241,.2);animation:loader4100Flow 1.65s cubic-bezier(.45,0,.55,1) infinite}@keyframes loader4100Flow{0%{left:-50%}100%{left:105%}}@media(prefers-reduced-motion:reduce){.loader-4100-fill{animation:none;left:28%}}`,
-},
-{
-  id: 4101,
-  name: "Workspace Skeleton Loader",
-  preview: (
-    <div className="loader-4101" role="status" aria-label="Inhoud laden">
-      <span className="loader-4101-avatar"></span>
-      <span className="loader-4101-body">
-        <span className="loader-4101-line loader-4101-line-1"></span>
-        <span className="loader-4101-line loader-4101-line-2"></span>
-      </span>
-      <span className="loader-4101-badge"></span>
-    </div>
-  ),
-  html: `<div class="loader-4101" role="status" aria-label="Inhoud laden">
+    css: `.loader-4100{position:relative;width:132px;height:8px;overflow:hidden;border:1px solid #e0e7ff;border-radius:999px;background:#eef2ff;box-sizing:border-box}.loader-4100-fill{position:absolute;top:0;bottom:0;left:-50%;width:45%;border-radius:999px;background:linear-gradient(90deg,#a5b4fc,#6366f1,#4338ca);box-shadow:0 0 9px rgba(99,102,241,.2);animation:loader4100Flow 1.65s cubic-bezier(.45,0,.55,1) infinite}@keyframes loader4100Flow{0%{left:-50%}100%{left:105%}}@media(prefers-reduced-motion:reduce){.loader-4100-fill{animation:none;left:28%}}`,
+  },
+  {
+    id: 4101,
+    name: "Workspace Skeleton Loader",
+    preview: (
+      <div className="loader-4101" role="status" aria-label="Inhoud laden">
+        <span className="loader-4101-avatar"></span>
+        <span className="loader-4101-body">
+          <span className="loader-4101-line loader-4101-line-1"></span>
+          <span className="loader-4101-line loader-4101-line-2"></span>
+        </span>
+        <span className="loader-4101-badge"></span>
+      </div>
+    ),
+    html: `<div class="loader-4101" role="status" aria-label="Inhoud laden">
     <span class="loader-4101-avatar"></span>
     <span class="loader-4101-body">
         <span class="loader-4101-line loader-4101-line-1"></span>
@@ -71471,112 +71476,120 @@ export const loaders = [
     </span>
     <span class="loader-4101-badge"></span>
 </div>`,
-  css: `.loader-4101{position:relative;width:220px;max-width:100%;height:64px;padding:12px;display:flex;align-items:center;gap:11px;overflow:hidden;border:1px solid #e2e8f0;border-radius:12px;background:#fff;box-sizing:border-box}.loader-4101-avatar{width:36px;height:36px;flex:none;border-radius:10px;background:#e2e8f0}.loader-4101-body{flex:1;min-width:0;display:flex;flex-direction:column;gap:8px}.loader-4101-line{height:7px;border-radius:999px;background:#e2e8f0}.loader-4101-line-1{width:85%}.loader-4101-line-2{width:60%}.loader-4101-badge{width:27px;height:12px;flex:none;border-radius:999px;background:#e2e8f0}.loader-4101::after{content:"";position:absolute;top:0;bottom:0;left:-80%;width:75%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.9),transparent);animation:loader4101Shimmer 1.8s ease-in-out infinite}@keyframes loader4101Shimmer{to{left:110%}}@media(prefers-reduced-motion:reduce){.loader-4101::after{animation:none;display:none}}`,
-},
-{
-  id: 4102,
-  name: "Sky Dual Orbit Loader",
-  preview: (
-    <div className="loader-4102" role="status" aria-label="Laden">
-      <span className="loader-4102-orbit loader-4102-orbit-1"></span>
-      <span className="loader-4102-orbit loader-4102-orbit-2"></span>
-      <span className="loader-4102-core"></span>
-    </div>
-  ),
-  html: `<div class="loader-4102" role="status" aria-label="Laden">
+    css: `.loader-4101{position:relative;width:220px;max-width:100%;height:64px;padding:12px;display:flex;align-items:center;gap:11px;overflow:hidden;border:1px solid #e2e8f0;border-radius:12px;background:#fff;box-sizing:border-box}.loader-4101-avatar{width:36px;height:36px;flex:none;border-radius:10px;background:#e2e8f0}.loader-4101-body{flex:1;min-width:0;display:flex;flex-direction:column;gap:8px}.loader-4101-line{height:7px;border-radius:999px;background:#e2e8f0}.loader-4101-line-1{width:85%}.loader-4101-line-2{width:60%}.loader-4101-badge{width:27px;height:12px;flex:none;border-radius:999px;background:#e2e8f0}.loader-4101::after{content:"";position:absolute;top:0;bottom:0;left:-80%;width:75%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.9),transparent);animation:loader4101Shimmer 1.8s ease-in-out infinite}@keyframes loader4101Shimmer{to{left:110%}}@media(prefers-reduced-motion:reduce){.loader-4101::after{animation:none;display:none}}`,
+  },
+  {
+    id: 4102,
+    name: "Sky Dual Orbit Loader",
+    preview: (
+      <div className="loader-4102" role="status" aria-label="Laden">
+        <span className="loader-4102-orbit loader-4102-orbit-1"></span>
+        <span className="loader-4102-orbit loader-4102-orbit-2"></span>
+        <span className="loader-4102-core"></span>
+      </div>
+    ),
+    html: `<div class="loader-4102" role="status" aria-label="Laden">
     <span class="loader-4102-orbit loader-4102-orbit-1"></span>
     <span class="loader-4102-orbit loader-4102-orbit-2"></span>
     <span class="loader-4102-core"></span>
 </div>`,
-  css: `.loader-4102{position:relative;width:44px;height:44px;display:grid;place-items:center}.loader-4102-orbit{position:absolute;border:1px solid #bfdbfe;border-radius:50%}.loader-4102-orbit::after{content:"";position:absolute;left:50%;top:-4px;width:7px;height:7px;margin-left:-3.5px;border-radius:50%;background:#2563eb}.loader-4102-orbit-1{inset:2px;animation:loader4102Rotate 1.5s linear infinite}.loader-4102-orbit-2{inset:10px;animation:loader4102Rotate 1s linear infinite reverse}.loader-4102-orbit-2::after{width:5px;height:5px;top:-3px;margin-left:-2.5px;background:#38bdf8}.loader-4102-core{width:6px;height:6px;border-radius:50%;background:#93c5fd}@keyframes loader4102Rotate{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4102-orbit{animation:none}}`,
-},
-{
-  id: 4103,
-  name: "Five Step Sequence Loader",
-  preview: (
-    <div className="loader-4103" role="status" aria-label="Laden">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  ),
-  html: `<div class="loader-4103" role="status" aria-label="Laden">
+    css: `.loader-4102{position:relative;width:44px;height:44px;display:grid;place-items:center}.loader-4102-orbit{position:absolute;border:1px solid #bfdbfe;border-radius:50%}.loader-4102-orbit::after{content:"";position:absolute;left:50%;top:-4px;width:7px;height:7px;margin-left:-3.5px;border-radius:50%;background:#2563eb}.loader-4102-orbit-1{inset:2px;animation:loader4102Rotate 1.5s linear infinite}.loader-4102-orbit-2{inset:10px;animation:loader4102Rotate 1s linear infinite reverse}.loader-4102-orbit-2::after{width:5px;height:5px;top:-3px;margin-left:-2.5px;background:#38bdf8}.loader-4102-core{width:6px;height:6px;border-radius:50%;background:#93c5fd}@keyframes loader4102Rotate{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4102-orbit{animation:none}}`,
+  },
+  {
+    id: 4103,
+    name: "Five Step Sequence Loader",
+    preview: (
+      <div className="loader-4103" role="status" aria-label="Laden">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4103" role="status" aria-label="Laden">
     <span></span>
     <span></span>
     <span></span>
     <span></span>
     <span></span>
 </div>`,
-  css: `.loader-4103{width:104px;height:24px;display:flex;align-items:center;justify-content:center;gap:5px}.loader-4103 span{width:14px;height:7px;flex:none;border-radius:999px;background:#cbd5e1;animation:loader4103Step 1.4s ease-in-out infinite}.loader-4103 span:nth-child(2){animation-delay:.15s}.loader-4103 span:nth-child(3){animation-delay:.3s}.loader-4103 span:nth-child(4){animation-delay:.45s}.loader-4103 span:nth-child(5){animation-delay:.6s}@keyframes loader4103Step{0%,100%{transform:scaleY(1);background:#cbd5e1;opacity:.55}35%{transform:scaleY(1.5);background:#3b82f6;opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4103 span{animation:none;opacity:1}.loader-4103 span:nth-child(2),.loader-4103 span:nth-child(3),.loader-4103 span:nth-child(4){background:#3b82f6}}`,
-},
-{
-  id: 4104,
-  name: "Rounded Square Rotation Loader",
-  preview: (
-    <div className="loader-4104" role="status" aria-label="Laden">
-      <span className="loader-4104-outer"></span>
-      <span className="loader-4104-inner"></span>
-    </div>
-  ),
-  html: `<div class="loader-4104" role="status" aria-label="Laden">
+    css: `.loader-4103{width:104px;height:24px;display:flex;align-items:center;justify-content:center;gap:5px}.loader-4103 span{width:14px;height:7px;flex:none;border-radius:999px;background:#cbd5e1;animation:loader4103Step 1.4s ease-in-out infinite}.loader-4103 span:nth-child(2){animation-delay:.15s}.loader-4103 span:nth-child(3){animation-delay:.3s}.loader-4103 span:nth-child(4){animation-delay:.45s}.loader-4103 span:nth-child(5){animation-delay:.6s}@keyframes loader4103Step{0%,100%{transform:scaleY(1);background:#cbd5e1;opacity:.55}35%{transform:scaleY(1.5);background:#3b82f6;opacity:1}}@media(prefers-reduced-motion:reduce){.loader-4103 span{animation:none;opacity:1}.loader-4103 span:nth-child(2),.loader-4103 span:nth-child(3),.loader-4103 span:nth-child(4){background:#3b82f6}}`,
+  },
+  {
+    id: 4104,
+    name: "Rounded Square Rotation Loader",
+    preview: (
+      <div className="loader-4104" role="status" aria-label="Laden">
+        <span className="loader-4104-outer"></span>
+        <span className="loader-4104-inner"></span>
+      </div>
+    ),
+    html: `<div class="loader-4104" role="status" aria-label="Laden">
     <span class="loader-4104-outer"></span>
     <span class="loader-4104-inner"></span>
 </div>`,
-  css: `.loader-4104{position:relative;width:42px;height:42px}.loader-4104-outer{position:absolute;inset:2px;border:3px solid #dbeafe;border-top-color:#2563eb;border-left-color:#93c5fd;border-radius:12px;animation:loader4104Outer 1.6s cubic-bezier(.65,0,.35,1) infinite}.loader-4104-inner{position:absolute;inset:13px;border:2px solid #e0e7ff;border-bottom-color:#818cf8;border-radius:5px;animation:loader4104Inner 1.2s linear infinite reverse}@keyframes loader4104Outer{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes loader4104Inner{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4104-outer,.loader-4104-inner{animation:none}}`,
-},
-{
-  id: 4105,
-  name: "Graphite Data Stream Loader",
-  preview: (
-    <div className="loader-4105" role="status" aria-label="Gegevens laden">
-      <span className="loader-4105-lane"><i></i></span>
-      <span className="loader-4105-lane"><i></i></span>
-      <span className="loader-4105-lane"><i></i></span>
-      <span className="loader-4105-lane"><i></i></span>
-    </div> 
-  ),
-  html: `<div class="loader-4105" role="status" aria-label="Gegevens laden">
+    css: `.loader-4104{position:relative;width:42px;height:42px}.loader-4104-outer{position:absolute;inset:2px;border:3px solid #dbeafe;border-top-color:#2563eb;border-left-color:#93c5fd;border-radius:12px;animation:loader4104Outer 1.6s cubic-bezier(.65,0,.35,1) infinite}.loader-4104-inner{position:absolute;inset:13px;border:2px solid #e0e7ff;border-bottom-color:#818cf8;border-radius:5px;animation:loader4104Inner 1.2s linear infinite reverse}@keyframes loader4104Outer{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes loader4104Inner{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.loader-4104-outer,.loader-4104-inner{animation:none}}`,
+  },
+  {
+    id: 4105,
+    name: "Graphite Data Stream Loader",
+    preview: (
+      <div className="loader-4105" role="status" aria-label="Gegevens laden">
+        <span className="loader-4105-lane">
+          <i></i>
+        </span>
+        <span className="loader-4105-lane">
+          <i></i>
+        </span>
+        <span className="loader-4105-lane">
+          <i></i>
+        </span>
+        <span className="loader-4105-lane">
+          <i></i>
+        </span>
+      </div>
+    ),
+    html: `<div class="loader-4105" role="status" aria-label="Gegevens laden">
     <span class="loader-4105-lane"><i></i></span>
     <span class="loader-4105-lane"><i></i></span>
     <span class="loader-4105-lane"><i></i></span>
     <span class="loader-4105-lane"><i></i></span>
 </div>`,
-  css: `.loader-4105{height:38px;display:flex;align-items:center;gap:6px}.loader-4105-lane{position:relative;width:6px;height:30px;overflow:hidden;border-radius:999px;background:#e2e8f0}.loader-4105-lane i{position:absolute;left:0;top:-12px;width:100%;height:12px;border-radius:999px;background:#475569;animation:loader4105Stream 1.3s ease-in-out infinite}.loader-4105-lane:nth-child(2) i{animation-delay:.2s;background:#64748b}.loader-4105-lane:nth-child(3) i{animation-delay:.4s;background:#2563eb}.loader-4105-lane:nth-child(4) i{animation-delay:.6s;background:#94a3b8}@keyframes loader4105Stream{0%{transform:translateY(0);opacity:.5}50%{opacity:1}100%{transform:translateY(46px);opacity:.5}}@media(prefers-reduced-motion:reduce){.loader-4105-lane i{animation:none;top:9px}}`,
-},
-{
-  id: 4106,
-  name: "Minimal Sonar Pulse Loader",
-  preview: (
-    <div className="loader-4106" role="status" aria-label="Laden">
-      <span className="loader-4106-ring loader-4106-ring-1"></span>
-      <span className="loader-4106-ring loader-4106-ring-2"></span>
-      <span className="loader-4106-dot"></span>
-    </div>
-  ),
-  html: `<div class="loader-4106" role="status" aria-label="Laden">
+    css: `.loader-4105{height:38px;display:flex;align-items:center;gap:6px}.loader-4105-lane{position:relative;width:6px;height:30px;overflow:hidden;border-radius:999px;background:#e2e8f0}.loader-4105-lane i{position:absolute;left:0;top:-12px;width:100%;height:12px;border-radius:999px;background:#475569;animation:loader4105Stream 1.3s ease-in-out infinite}.loader-4105-lane:nth-child(2) i{animation-delay:.2s;background:#64748b}.loader-4105-lane:nth-child(3) i{animation-delay:.4s;background:#2563eb}.loader-4105-lane:nth-child(4) i{animation-delay:.6s;background:#94a3b8}@keyframes loader4105Stream{0%{transform:translateY(0);opacity:.5}50%{opacity:1}100%{transform:translateY(46px);opacity:.5}}@media(prefers-reduced-motion:reduce){.loader-4105-lane i{animation:none;top:9px}}`,
+  },
+  {
+    id: 4106,
+    name: "Minimal Sonar Pulse Loader",
+    preview: (
+      <div className="loader-4106" role="status" aria-label="Laden">
+        <span className="loader-4106-ring loader-4106-ring-1"></span>
+        <span className="loader-4106-ring loader-4106-ring-2"></span>
+        <span className="loader-4106-dot"></span>
+      </div>
+    ),
+    html: `<div class="loader-4106" role="status" aria-label="Laden">
     <span class="loader-4106-ring loader-4106-ring-1"></span>
     <span class="loader-4106-ring loader-4106-ring-2"></span>
     <span class="loader-4106-dot"></span>
 </div>`,
-  css: `.loader-4106{position:relative;width:44px;height:44px;display:grid;place-items:center}.loader-4106-ring{position:absolute;inset:8px;border:2px solid #0ea5e9;border-radius:50%;animation:loader4106Ripple 1.9s ease-out infinite}.loader-4106-ring-2{animation-delay:.65s}.loader-4106-dot{position:relative;width:10px;height:10px;border-radius:50%;background:#0284c7;box-shadow:0 0 0 4px #e0f2fe}@keyframes loader4106Ripple{0%{transform:scale(.45);opacity:.8}100%{transform:scale(1.55);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4106-ring{animation:none;transform:scale(1.1);opacity:.5}.loader-4106-ring-2{display:none}}`,
-},
-{
-  id: 4107,
-  name: "Connected Task Sequence Loader",
-  preview: (
-    <div className="loader-4107" role="status" aria-label="Taak verwerken">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  ),
-  html: `<div class="loader-4107" role="status" aria-label="Taak verwerken">
+    css: `.loader-4106{position:relative;width:44px;height:44px;display:grid;place-items:center}.loader-4106-ring{position:absolute;inset:8px;border:2px solid #0ea5e9;border-radius:50%;animation:loader4106Ripple 1.9s ease-out infinite}.loader-4106-ring-2{animation-delay:.65s}.loader-4106-dot{position:relative;width:10px;height:10px;border-radius:50%;background:#0284c7;box-shadow:0 0 0 4px #e0f2fe}@keyframes loader4106Ripple{0%{transform:scale(.45);opacity:.8}100%{transform:scale(1.55);opacity:0}}@media(prefers-reduced-motion:reduce){.loader-4106-ring{animation:none;transform:scale(1.1);opacity:.5}.loader-4106-ring-2{display:none}}`,
+  },
+  {
+    id: 4107,
+    name: "Connected Task Sequence Loader",
+    preview: (
+      <div className="loader-4107" role="status" aria-label="Taak verwerken">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    ),
+    html: `<div class="loader-4107" role="status" aria-label="Taak verwerken">
     <span></span>
     <span></span>
     <span></span>
 </div>`,
-  css: `.loader-4107{width:90px;height:30px;display:flex;align-items:center;justify-content:center;gap:14px}.loader-4107 span{position:relative;width:18px;height:18px;flex:none;border:2px solid #c7d2fe;border-radius:5px;background:#eef2ff;box-sizing:border-box;animation:loader4107Task 1.5s ease-in-out infinite}.loader-4107 span:not(:last-child)::after{content:"";position:absolute;left:100%;top:6px;width:14px;height:2px;background:#c7d2fe}.loader-4107 span:nth-child(2){animation-delay:.3s}.loader-4107 span:nth-child(3){animation-delay:.6s}@keyframes loader4107Task{0%,100%{transform:translateY(0);background:#eef2ff;border-color:#c7d2fe}40%{transform:translateY(-3px);background:#6366f1;border-color:#6366f1}}@media(prefers-reduced-motion:reduce){.loader-4107 span{animation:none}.loader-4107 span:nth-child(2){background:#6366f1;border-color:#6366f1}}`,
-},
+    css: `.loader-4107{width:90px;height:30px;display:flex;align-items:center;justify-content:center;gap:14px}.loader-4107 span{position:relative;width:18px;height:18px;flex:none;border:2px solid #c7d2fe;border-radius:5px;background:#eef2ff;box-sizing:border-box;animation:loader4107Task 1.5s ease-in-out infinite}.loader-4107 span:not(:last-child)::after{content:"";position:absolute;left:100%;top:6px;width:14px;height:2px;background:#c7d2fe}.loader-4107 span:nth-child(2){animation-delay:.3s}.loader-4107 span:nth-child(3){animation-delay:.6s}@keyframes loader4107Task{0%,100%{transform:translateY(0);background:#eef2ff;border-color:#c7d2fe}40%{transform:translateY(-3px);background:#6366f1;border-color:#6366f1}}@media(prefers-reduced-motion:reduce){.loader-4107 span{animation:none}.loader-4107 span:nth-child(2){background:#6366f1;border-color:#6366f1}}`,
+  },
 ];
