@@ -72872,4 +72872,920 @@ export const loaders = [
 </div>`,
     css: `.loader-4151{position:relative;width:66px;height:50px;display:flex;align-items:center;justify-content:center;gap:5px;padding-bottom:7px;box-sizing:border-box}.loader-4151-drop{position:relative;z-index:1;width:13px;height:22px;flex:none;clip-path:polygon(50% 0,77% 32%,100% 65%,92% 87%,70% 100%,30% 100%,8% 87%,0 65%,23% 32%);background:linear-gradient(130deg,#fca5a5,#ef4444 42%,#991b1b);filter:drop-shadow(0 0 4px rgba(220,38,38,.4));animation:loader4151Beat 1.35s ease-in-out infinite}.loader-4151-drop-1{animation-delay:-.9s}.loader-4151-drop-2{width:17px;height:29px;animation-delay:-.45s}.loader-4151-drop-3{animation-delay:0s}.loader-4151-pool{position:absolute;left:50%;bottom:2px;width:47px;height:6px;border-radius:50%;background:rgba(220,38,38,.5);filter:blur(4px);transform:translateX(-50%);animation:loader4151Pool 1.35s ease-in-out infinite}@keyframes loader4151Beat{0%,100%{transform:translateY(4px) scale(.7);opacity:.35}45%{transform:translateY(-6px) scale(1.12);opacity:1;filter:brightness(1.4) drop-shadow(0 0 7px rgba(220,38,38,.6))}70%{transform:translateY(0) scale(.85);opacity:.65}}@keyframes loader4151Pool{0%,100%{opacity:.3;transform:translateX(-50%) scaleX(.7)}50%{opacity:1;transform:translateX(-50%) scaleX(1.15)}}@media(prefers-reduced-motion:reduce){.loader-4151-drop,.loader-4151-pool{animation:none}.loader-4151-drop{opacity:1;transform:none}}`,
   },
+  {
+  id: 4152,
+  name: "Blood Pulse Dots",
+  preview: (
+    <div className="loader-4152" role="status" aria-label="Loading">
+      <span className="loader-4152-dot loader-4152-dot-1"></span>
+      <span className="loader-4152-dot loader-4152-dot-2"></span>
+      <span className="loader-4152-dot loader-4152-dot-3"></span>
+      <span className="loader-4152-dot loader-4152-dot-4"></span>
+    </div>
+  ),
+  html: `<div class="loader-4152" role="status" aria-label="Loading">
+    <span class="loader-4152-dot loader-4152-dot-1"></span>
+    <span class="loader-4152-dot loader-4152-dot-2"></span>
+    <span class="loader-4152-dot loader-4152-dot-3"></span>
+    <span class="loader-4152-dot loader-4152-dot-4"></span>
+</div>`,
+  css: `.loader-4152 {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.loader-4152-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #fca5a5, #dc2626);
+    box-shadow: 0 0 8px rgba(220, 38, 38, .28);
+    animation: loader4152Dot 1.1s ease-in-out infinite;
+}
+.loader-4152-dot-2 { animation-delay: .12s; }
+.loader-4152-dot-3 { animation-delay: .24s; }
+.loader-4152-dot-4 { animation-delay: .36s; }
+@keyframes loader4152Dot {
+    0%, 100% {
+        transform: translateY(3px) scale(.72);
+        opacity: .35;
+    }
+    50% {
+        transform: translateY(-5px) scale(1.15);
+        opacity: 1;
+    }
+}`,
+},
+{
+  id: 4153,
+  name: "Blood Bars Wave",
+  preview: (
+    <div className="loader-4153" role="status" aria-label="Loading">
+      <span className="loader-4153-bar loader-4153-bar-1"></span>
+      <span className="loader-4153-bar loader-4153-bar-2"></span>
+      <span className="loader-4153-bar loader-4153-bar-3"></span>
+      <span className="loader-4153-bar loader-4153-bar-4"></span>
+      <span className="loader-4153-bar loader-4153-bar-5"></span>
+    </div>
+  ),
+  html: `<div class="loader-4153" role="status" aria-label="Loading">
+    <span class="loader-4153-bar loader-4153-bar-1"></span>
+    <span class="loader-4153-bar loader-4153-bar-2"></span>
+    <span class="loader-4153-bar loader-4153-bar-3"></span>
+    <span class="loader-4153-bar loader-4153-bar-4"></span>
+    <span class="loader-4153-bar loader-4153-bar-5"></span>
+</div>`,
+  css: `.loader-4153 {
+    height: 42px;
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+}
+.loader-4153-bar {
+    width: 7px;
+    height: 10px;
+    border-radius: 999px;
+    background: linear-gradient(to top, #7f1d1d, #dc2626, #fca5a5);
+    animation: loader4153Bar 1s ease-in-out infinite;
+}
+.loader-4153-bar-2 { animation-delay: -.15s; }
+.loader-4153-bar-3 { animation-delay: -.3s; }
+.loader-4153-bar-4 { animation-delay: -.45s; }
+.loader-4153-bar-5 { animation-delay: -.6s; }
+@keyframes loader4153Bar {
+    0%, 100% {
+        height: 8px;
+        opacity: .28;
+    }
+    50% {
+        height: 36px;
+        opacity: 1;
+        filter: brightness(1.25);
+    }
+}`,
+},
+{
+  id: 4154,
+  name: "Blood Ring Spinner",
+  preview: (
+    <div className="loader-4154" role="status" aria-label="Loading">
+      <span className="loader-4154-ring"></span>
+    </div>
+  ),
+  html: `<div class="loader-4154" role="status" aria-label="Loading">
+    <span class="loader-4154-ring"></span>
+</div>`,
+  css: `.loader-4154 {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+}
+.loader-4154-ring {
+    width: 32px;
+    height: 32px;
+    border: 3px solid rgba(220, 38, 38, .18);
+    border-top-color: #dc2626;
+    border-right-color: #fca5a5;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(220, 38, 38, .15);
+    animation: loader4154Spin .9s linear infinite;
+}
+@keyframes loader4154Spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+},
+{
+  id: 4155,
+  name: "Blood Progress Track",
+  preview: (
+    <div className="loader-4155" role="status" aria-label="Loading">
+      <span className="loader-4155-track"></span>
+      <span className="loader-4155-fill"></span>
+    </div>
+  ),
+  html: `<div class="loader-4155" role="status" aria-label="Loading">
+    <span class="loader-4155-track"></span>
+    <span class="loader-4155-fill"></span>
+</div>`,
+  css: `.loader-4155 {
+    position: relative;
+    width: 110px;
+    height: 12px;
+}
+.loader-4155-track {
+    position: absolute;
+    inset: 2px 0;
+    border-radius: 999px;
+    background: #2b1212;
+}
+.loader-4155-fill {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    height: 8px;
+    width: 26%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #991b1b, #ef4444, #fecaca);
+    box-shadow: 0 0 10px rgba(239, 68, 68, .28);
+    animation: loader4155Fill 1.7s ease-in-out infinite;
+}
+@keyframes loader4155Fill {
+    0% {
+        left: 0;
+        width: 16%;
+    }
+    50% {
+        left: 30%;
+        width: 52%;
+    }
+    100% {
+        left: 84%;
+        width: 16%;
+    }
+}`,
+},
+{
+  id: 4156,
+  name: "Blood Droplet Chain",
+  preview: (
+    <div className="loader-4156" role="status" aria-label="Loading">
+      <span className="loader-4156-drop loader-4156-drop-1"></span>
+      <span className="loader-4156-drop loader-4156-drop-2"></span>
+      <span className="loader-4156-drop loader-4156-drop-3"></span>
+      <span className="loader-4156-drop loader-4156-drop-4"></span>
+    </div>
+  ),
+  html: `<div class="loader-4156" role="status" aria-label="Loading">
+    <span class="loader-4156-drop loader-4156-drop-1"></span>
+    <span class="loader-4156-drop loader-4156-drop-2"></span>
+    <span class="loader-4156-drop loader-4156-drop-3"></span>
+    <span class="loader-4156-drop loader-4156-drop-4"></span>
+</div>`,
+  css: `.loader-4156 {
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+    gap: 7px;
+}
+.loader-4156-drop {
+    width: 12px;
+    height: 18px;
+    clip-path: polygon(50% 0, 78% 32%, 100% 66%, 88% 88%, 64% 100%, 36% 100%, 12% 88%, 0 66%, 22% 32%);
+    background: linear-gradient(135deg, #fecaca, #ef4444 45%, #991b1b);
+    animation: loader4156Drop 1.2s ease-in-out infinite;
+}
+.loader-4156-drop-2 { animation-delay: .12s; }
+.loader-4156-drop-3 { animation-delay: .24s; }
+.loader-4156-drop-4 { animation-delay: .36s; }
+@keyframes loader4156Drop {
+    0%, 100% {
+        transform: translateY(0) scale(.7);
+        opacity: .35;
+    }
+    50% {
+        transform: translateY(-8px) scale(1.08);
+        opacity: 1;
+    }
+}`,
+},
+{
+  id: 4157,
+  name: "Blood Cell Orbit",
+  preview: (
+    <div className="loader-4157" role="status" aria-label="Loading">
+      <span className="loader-4157-orbit"></span>
+      <span className="loader-4157-cell loader-4157-cell-1"></span>
+      <span className="loader-4157-cell loader-4157-cell-2"></span>
+      <span className="loader-4157-core"></span>
+    </div>
+  ),
+  html: `<div class="loader-4157" role="status" aria-label="Loading">
+    <span class="loader-4157-orbit"></span>
+    <span class="loader-4157-cell loader-4157-cell-1"></span>
+    <span class="loader-4157-cell loader-4157-cell-2"></span>
+    <span class="loader-4157-core"></span>
+</div>`,
+  css: `.loader-4157 {
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+.loader-4157-orbit {
+    position: absolute;
+    inset: 4px;
+    border: 2px solid rgba(248, 113, 113, .18);
+    border-radius: 50%;
+}
+.loader-4157-cell {
+    position: absolute;
+    left: 20px;
+    top: 2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ef4444;
+    box-shadow: 0 0 8px rgba(239, 68, 68, .28);
+    transform-origin: 4px 22px;
+    animation: loader4157Cell 1.2s linear infinite;
+}
+.loader-4157-cell-2 {
+    animation-delay: -.6s;
+}
+.loader-4157-core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #fecaca, #dc2626);
+    transform: translate(-50%, -50%);
+}
+@keyframes loader4157Cell {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+},
+{
+  id: 4158,
+  name: "Blood Capsules Loader",
+  preview: (
+    <div className="loader-4158" role="status" aria-label="Loading">
+      <span className="loader-4158-pill loader-4158-pill-1"></span>
+      <span className="loader-4158-pill loader-4158-pill-2"></span>
+      <span className="loader-4158-pill loader-4158-pill-3"></span>
+    </div>
+  ),
+  html: `<div class="loader-4158" role="status" aria-label="Loading">
+    <span class="loader-4158-pill loader-4158-pill-1"></span>
+    <span class="loader-4158-pill loader-4158-pill-2"></span>
+    <span class="loader-4158-pill loader-4158-pill-3"></span>
+</div>`,
+  css: `.loader-4158 {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.loader-4158-pill {
+    width: 26px;
+    height: 12px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #7f1d1d 0 50%, #fecaca 50% 100%);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.22);
+    animation: loader4158Pill 1s ease-in-out infinite;
+}
+.loader-4158-pill-2 { animation-delay: .14s; }
+.loader-4158-pill-3 { animation-delay: .28s; }
+@keyframes loader4158Pill {
+    0%, 100% {
+        transform: scale(.82);
+        opacity: .4;
+    }
+    50% {
+        transform: scale(1.12);
+        opacity: 1;
+    }
+}`,
+},
+{
+  id: 4159,
+  name: "Blood Blobs Scale",
+  preview: (
+    <div className="loader-4159" role="status" aria-label="Loading">
+      <span className="loader-4159-blob loader-4159-blob-1"></span>
+      <span className="loader-4159-blob loader-4159-blob-2"></span>
+      <span className="loader-4159-blob loader-4159-blob-3"></span>
+    </div>
+  ),
+  html: `<div class="loader-4159" role="status" aria-label="Loading">
+    <span class="loader-4159-blob loader-4159-blob-1"></span>
+    <span class="loader-4159-blob loader-4159-blob-2"></span>
+    <span class="loader-4159-blob loader-4159-blob-3"></span>
+</div>`,
+  css: `.loader-4159 {
+    width: 54px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.loader-4159-blob {
+    width: 12px;
+    height: 12px;
+    border-radius: 42% 58% 60% 40%;
+    background: linear-gradient(135deg, #fca5a5, #dc2626);
+    animation: loader4159Blob 1s ease-in-out infinite;
+}
+.loader-4159-blob-2 { animation-delay: .18s; }
+.loader-4159-blob-3 { animation-delay: .36s; }
+@keyframes loader4159Blob {
+    0%, 100% {
+        transform: scale(.6);
+        opacity: .35;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}`,
+},
+{
+  id: 4160,
+  name: "Blood Tube Meter",
+  preview: (
+    <div className="loader-4160" role="status" aria-label="Loading">
+      <span className="loader-4160-inner"></span>
+    </div>
+  ),
+  html: `<div class="loader-4160" role="status" aria-label="Loading">
+    <span class="loader-4160-inner"></span>
+</div>`,
+  css: `.loader-4160 {
+    position: relative;
+    width: 14px;
+    height: 54px;
+    border: 2px solid #3f1111;
+    border-radius: 999px;
+    background: rgba(63, 17, 17, .18);
+    overflow: hidden;
+}
+.loader-4160-inner {
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    height: 20%;
+    border-radius: 999px;
+    background: linear-gradient(to top, #991b1b, #ef4444, #fecaca);
+    animation: loader4160Rise 1.6s ease-in-out infinite;
+}
+@keyframes loader4160Rise {
+    0%, 100% {
+        height: 16%;
+    }
+    50% {
+        height: 88%;
+    }
+}`,
+},
+{
+  id: 4161,
+  name: "Blood Beads Flow",
+  preview: (
+    <div className="loader-4161" role="status" aria-label="Loading">
+      <span className="loader-4161-line"></span>
+      <span className="loader-4161-bead loader-4161-bead-1"></span>
+      <span className="loader-4161-bead loader-4161-bead-2"></span>
+      <span className="loader-4161-bead loader-4161-bead-3"></span>
+    </div>
+  ),
+  html: `<div class="loader-4161" role="status" aria-label="Loading">
+    <span class="loader-4161-line"></span>
+    <span class="loader-4161-bead loader-4161-bead-1"></span>
+    <span class="loader-4161-bead loader-4161-bead-2"></span>
+    <span class="loader-4161-bead loader-4161-bead-3"></span>
+</div>`,
+  css: `.loader-4161 {
+    position: relative;
+    width: 100px;
+    height: 18px;
+}
+.loader-4161-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 7px;
+    height: 4px;
+    border-radius: 999px;
+    background: #2a1212;
+}
+.loader-4161-bead {
+    position: absolute;
+    top: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #fecaca, #dc2626);
+    animation: loader4161Bead 1.5s linear infinite;
+}
+.loader-4161-bead-2 { animation-delay: -.5s; }
+.loader-4161-bead-3 { animation-delay: -1s; }
+@keyframes loader4161Bead {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 88px;
+    }
+}`,
+},
+{
+  id: 4162,
+  name: "Blood Segment Spinner",
+  preview: (
+    <div className="loader-4162" role="status" aria-label="Loading">
+      <span className="loader-4162-segment loader-4162-segment-1"></span>
+      <span className="loader-4162-segment loader-4162-segment-2"></span>
+      <span className="loader-4162-segment loader-4162-segment-3"></span>
+      <span className="loader-4162-segment loader-4162-segment-4"></span>
+      <span className="loader-4162-segment loader-4162-segment-5"></span>
+      <span className="loader-4162-segment loader-4162-segment-6"></span>
+      <span className="loader-4162-segment loader-4162-segment-7"></span>
+      <span className="loader-4162-segment loader-4162-segment-8"></span>
+    </div>
+  ),
+  html: `<div class="loader-4162" role="status" aria-label="Loading">
+    <span class="loader-4162-segment loader-4162-segment-1"></span>
+    <span class="loader-4162-segment loader-4162-segment-2"></span>
+    <span class="loader-4162-segment loader-4162-segment-3"></span>
+    <span class="loader-4162-segment loader-4162-segment-4"></span>
+    <span class="loader-4162-segment loader-4162-segment-5"></span>
+    <span class="loader-4162-segment loader-4162-segment-6"></span>
+    <span class="loader-4162-segment loader-4162-segment-7"></span>
+    <span class="loader-4162-segment loader-4162-segment-8"></span>
+</div>`,
+  css: `.loader-4162 {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    animation: loader4162Rotate 1s linear infinite;
+}
+.loader-4162-segment {
+    position: absolute;
+    left: 17px;
+    top: 1px;
+    width: 4px;
+    height: 9px;
+    border-radius: 999px;
+    transform-origin: 2px 18px;
+    background: #ef4444;
+}
+.loader-4162-segment-1 { transform: rotate(0deg); opacity: 1; }
+.loader-4162-segment-2 { transform: rotate(45deg); opacity: .88; }
+.loader-4162-segment-3 { transform: rotate(90deg); opacity: .76; }
+.loader-4162-segment-4 { transform: rotate(135deg); opacity: .64; }
+.loader-4162-segment-5 { transform: rotate(180deg); opacity: .52; }
+.loader-4162-segment-6 { transform: rotate(225deg); opacity: .4; }
+.loader-4162-segment-7 { transform: rotate(270deg); opacity: .28; }
+.loader-4162-segment-8 { transform: rotate(315deg); opacity: .16; }
+@keyframes loader4162Rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+},
+{
+  id: 4163,
+  name: "Blood Cross Pulse",
+  preview: (
+    <div className="loader-4163" role="status" aria-label="Loading">
+      <span className="loader-4163-v"></span>
+      <span className="loader-4163-h"></span>
+    </div>
+  ),
+  html: `<div class="loader-4163" role="status" aria-label="Loading">
+    <span class="loader-4163-v"></span>
+    <span class="loader-4163-h"></span>
+</div>`,
+  css: `.loader-4163 {
+    position: relative;
+    width: 42px;
+    height: 42px;
+}
+.loader-4163-v,
+.loader-4163-h {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: linear-gradient(135deg, #fca5a5, #dc2626);
+    transform: translate(-50%, -50%);
+    animation: loader4163Pulse 1.1s ease-in-out infinite;
+}
+.loader-4163-v {
+    width: 12px;
+    height: 34px;
+    border-radius: 8px;
+}
+.loader-4163-h {
+    width: 34px;
+    height: 12px;
+    border-radius: 8px;
+}
+@keyframes loader4163Pulse {
+    0%, 100% {
+        opacity: .4;
+        transform: translate(-50%, -50%) scale(.85);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.08);
+        box-shadow: 0 0 10px rgba(220, 38, 38, .25);
+    }
+}`,
+},
+{
+  id: 4164,
+  name: "Blood Pulse Line",
+  preview: (
+    <div className="loader-4164" role="status" aria-label="Loading">
+      <span className="loader-4164-path"></span>
+    </div>
+  ),
+  html: `<div class="loader-4164" role="status" aria-label="Loading">
+    <span class="loader-4164-path"></span>
+</div>`,
+  css: `.loader-4164 {
+    width: 96px;
+    height: 28px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.loader-4164-path {
+    display: block;
+    width: 190px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent 0 8%, #ef4444 8% 14%, transparent 14% 18%, #ef4444 18% 22%, #ef4444 22% 24%, transparent 24% 32%, #ef4444 32% 36%, transparent 36% 44%, #ef4444 44% 48%, #ef4444 48% 52%, transparent 52% 100%);
+    animation: loader4164Move 1.4s linear infinite;
+    box-shadow: 0 0 8px rgba(239, 68, 68, .2);
+}
+@keyframes loader4164Move {
+    from {
+        transform: translateX(-40px);
+    }
+    to {
+        transform: translateX(10px);
+    }
+}`,
+},
+{
+  id: 4165,
+  name: "Blood Arc Spinner",
+  preview: (
+    <div className="loader-4165" role="status" aria-label="Loading">
+      <span className="loader-4165-arc loader-4165-arc-1"></span>
+      <span className="loader-4165-arc loader-4165-arc-2"></span>
+    </div>
+  ),
+  html: `<div class="loader-4165" role="status" aria-label="Loading">
+    <span class="loader-4165-arc loader-4165-arc-1"></span>
+    <span class="loader-4165-arc loader-4165-arc-2"></span>
+</div>`,
+  css: `.loader-4165 {
+    position: relative;
+    width: 42px;
+    height: 42px;
+}
+.loader-4165-arc {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    animation: loader4165Arc 1.2s linear infinite;
+}
+.loader-4165-arc-1 {
+    border-top-color: #dc2626;
+    border-left-color: #dc2626;
+}
+.loader-4165-arc-2 {
+    inset: 6px;
+    border-bottom-color: #fca5a5;
+    border-right-color: #fca5a5;
+    animation-direction: reverse;
+    animation-duration: .8s;
+}
+@keyframes loader4165Arc {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+},
+{
+  id: 4166,
+  name: "Blood Platelet Orbit",
+  preview: (
+    <div className="loader-4166" role="status" aria-label="Loading">
+      <span className="loader-4166-center"></span>
+      <span className="loader-4166-platelet loader-4166-platelet-1"></span>
+      <span className="loader-4166-platelet loader-4166-platelet-2"></span>
+      <span className="loader-4166-platelet loader-4166-platelet-3"></span>
+    </div>
+  ),
+  html: `<div class="loader-4166" role="status" aria-label="Loading">
+    <span class="loader-4166-center"></span>
+    <span class="loader-4166-platelet loader-4166-platelet-1"></span>
+    <span class="loader-4166-platelet loader-4166-platelet-2"></span>
+    <span class="loader-4166-platelet loader-4166-platelet-3"></span>
+</div>`,
+  css: `.loader-4166 {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    animation: loader4166Spin 1.5s linear infinite;
+}
+.loader-4166-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #dc2626;
+    transform: translate(-50%, -50%);
+}
+.loader-4166-platelet {
+    position: absolute;
+    left: 18px;
+    top: 2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 44% 56% 58% 42%;
+    background: #fecaca;
+    transform-origin: 4px 20px;
+}
+.loader-4166-platelet-1 { transform: rotate(0deg); }
+.loader-4166-platelet-2 { transform: rotate(120deg); }
+.loader-4166-platelet-3 { transform: rotate(240deg); }
+@keyframes loader4166Spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+},
+{
+  id: 4167,
+  name: "Blood Prism Bars",
+  preview: (
+    <div className="loader-4167" role="status" aria-label="Loading">
+      <span className="loader-4167-bar loader-4167-bar-1"></span>
+      <span className="loader-4167-bar loader-4167-bar-2"></span>
+      <span className="loader-4167-bar loader-4167-bar-3"></span>
+      <span className="loader-4167-bar loader-4167-bar-4"></span>
+    </div>
+  ),
+  html: `<div class="loader-4167" role="status" aria-label="Loading">
+    <span class="loader-4167-bar loader-4167-bar-1"></span>
+    <span class="loader-4167-bar loader-4167-bar-2"></span>
+    <span class="loader-4167-bar loader-4167-bar-3"></span>
+    <span class="loader-4167-bar loader-4167-bar-4"></span>
+</div>`,
+  css: `.loader-4167 {
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+}
+.loader-4167-bar {
+    width: 8px;
+    height: 10px;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background: linear-gradient(to top, #7f1d1d, #ef4444, #fecaca);
+    animation: loader4167Prism 1.1s ease-in-out infinite;
+}
+.loader-4167-bar-2 { animation-delay: -.16s; }
+.loader-4167-bar-3 { animation-delay: -.32s; }
+.loader-4167-bar-4 { animation-delay: -.48s; }
+@keyframes loader4167Prism {
+    0%, 100% {
+        height: 8px;
+        opacity: .3;
+    }
+    50% {
+        height: 34px;
+        opacity: 1;
+    }
+}`,
+},
+{
+  id: 4168,
+  name: "Blood Wave Track",
+  preview: (
+    <div className="loader-4168" role="status" aria-label="Loading">
+      <span className="loader-4168-dot loader-4168-dot-1"></span>
+      <span className="loader-4168-dot loader-4168-dot-2"></span>
+      <span className="loader-4168-dot loader-4168-dot-3"></span>
+      <span className="loader-4168-dot loader-4168-dot-4"></span>
+      <span className="loader-4168-dot loader-4168-dot-5"></span>
+    </div>
+  ),
+  html: `<div class="loader-4168" role="status" aria-label="Loading">
+    <span class="loader-4168-dot loader-4168-dot-1"></span>
+    <span class="loader-4168-dot loader-4168-dot-2"></span>
+    <span class="loader-4168-dot loader-4168-dot-3"></span>
+    <span class="loader-4168-dot loader-4168-dot-4"></span>
+    <span class="loader-4168-dot loader-4168-dot-5"></span>
+</div>`,
+  css: `.loader-4168 {
+    width: 82px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.loader-4168-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #dc2626;
+    animation: loader4168Wave .9s ease-in-out infinite;
+}
+.loader-4168-dot-2 { animation-delay: .1s; }
+.loader-4168-dot-3 { animation-delay: .2s; }
+.loader-4168-dot-4 { animation-delay: .3s; }
+.loader-4168-dot-5 { animation-delay: .4s; }
+@keyframes loader4168Wave {
+    0%, 100% {
+        transform: scale(.55);
+        opacity: .25;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+        box-shadow: 0 0 8px rgba(220, 38, 38, .3);
+    }
+}`,
+},
+{
+  id: 4169,
+  name: "Blood Stain Pulse",
+  preview: (
+    <div className="loader-4169" role="status" aria-label="Loading">
+      <span className="loader-4169-stain loader-4169-stain-1"></span>
+      <span className="loader-4169-stain loader-4169-stain-2"></span>
+      <span className="loader-4169-stain loader-4169-stain-3"></span>
+    </div>
+  ),
+  html: `<div class="loader-4169" role="status" aria-label="Loading">
+    <span class="loader-4169-stain loader-4169-stain-1"></span>
+    <span class="loader-4169-stain loader-4169-stain-2"></span>
+    <span class="loader-4169-stain loader-4169-stain-3"></span>
+</div>`,
+  css: `.loader-4169 {
+    width: 50px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.loader-4169-stain {
+    width: 12px;
+    height: 12px;
+    border-radius: 44% 56% 50% 50%;
+    background: linear-gradient(135deg, #fecaca, #dc2626 55%, #7f1d1d);
+    animation: loader4169Stain 1.05s ease-in-out infinite;
+}
+.loader-4169-stain-2 { animation-delay: .15s; }
+.loader-4169-stain-3 { animation-delay: .3s; }
+@keyframes loader4169Stain {
+    0%, 100% {
+        transform: scale(.7);
+        opacity: .35;
+    }
+    50% {
+        transform: scale(1.18);
+        opacity: 1;
+    }
+}`,
+},
+{
+  id: 4170,
+  name: "Blood Capsule Ring",
+  preview: (
+    <div className="loader-4170" role="status" aria-label="Loading">
+      <span className="loader-4170-pill loader-4170-pill-1"></span>
+      <span className="loader-4170-pill loader-4170-pill-2"></span>
+      <span className="loader-4170-pill loader-4170-pill-3"></span>
+      <span className="loader-4170-pill loader-4170-pill-4"></span>
+    </div>
+  ),
+  html: `<div class="loader-4170" role="status" aria-label="Loading">
+    <span class="loader-4170-pill loader-4170-pill-1"></span>
+    <span class="loader-4170-pill loader-4170-pill-2"></span>
+    <span class="loader-4170-pill loader-4170-pill-3"></span>
+    <span class="loader-4170-pill loader-4170-pill-4"></span>
+</div>`,
+  css: `.loader-4170 {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    animation: loader4170Spin 1.4s linear infinite;
+}
+.loader-4170-pill {
+    position: absolute;
+    left: 16px;
+    top: 1px;
+    width: 10px;
+    height: 16px;
+    border-radius: 999px;
+    background: linear-gradient(to bottom, #fecaca 0 45%, #dc2626 45% 100%);
+    transform-origin: 5px 20px;
+}
+.loader-4170-pill-1 { transform: rotate(0deg); }
+.loader-4170-pill-2 { transform: rotate(90deg); }
+.loader-4170-pill-3 { transform: rotate(180deg); }
+.loader-4170-pill-4 { transform: rotate(270deg); }
+@keyframes loader4170Spin {
+    to {
+        transform: rotate(360deg);
+    }
+}`,
+},
+{
+  id: 4171,
+  name: "Blood Vital Bars",
+  preview: (
+    <div className="loader-4171" role="status" aria-label="Loading">
+      <span className="loader-4171-col loader-4171-col-1"></span>
+      <span className="loader-4171-col loader-4171-col-2"></span>
+      <span className="loader-4171-col loader-4171-col-3"></span>
+      <span className="loader-4171-col loader-4171-col-4"></span>
+      <span className="loader-4171-col loader-4171-col-5"></span>
+      <span className="loader-4171-col loader-4171-col-6"></span>
+    </div>
+  ),
+  html: `<div class="loader-4171" role="status" aria-label="Loading">
+    <span class="loader-4171-col loader-4171-col-1"></span>
+    <span class="loader-4171-col loader-4171-col-2"></span>
+    <span class="loader-4171-col loader-4171-col-3"></span>
+    <span class="loader-4171-col loader-4171-col-4"></span>
+    <span class="loader-4171-col loader-4171-col-5"></span>
+    <span class="loader-4171-col loader-4171-col-6"></span>
+</div>`,
+  css: `.loader-4171 {
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+}
+.loader-4171-col {
+    width: 5px;
+    height: 10px;
+    border-radius: 999px;
+    background: linear-gradient(to top, #7f1d1d, #ef4444, #fecaca);
+    animation: loader4171Col 1s ease-in-out infinite;
+}
+.loader-4171-col-2 { animation-delay: -.1s; }
+.loader-4171-col-3 { animation-delay: -.2s; }
+.loader-4171-col-4 { animation-delay: -.3s; }
+.loader-4171-col-5 { animation-delay: -.4s; }
+.loader-4171-col-6 { animation-delay: -.5s; }
+@keyframes loader4171Col {
+    0%, 100% {
+        height: 7px;
+        opacity: .25;
+    }
+    50% {
+        height: 34px;
+        opacity: 1;
+    }
+}`,
+},
 ];
