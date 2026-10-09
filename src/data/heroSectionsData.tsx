@@ -21863,5 +21863,384 @@ export const heroSections = [
 .hs-4250__photo{object-position:60% center}.hs-4250__top{padding:8px 10px}.hs-4250__brand{font-size:11px}.hs-4250__mark{margin-right:3px}.hs-4250__top-center{display:none}.hs-4250__serial{font-size:7px}.hs-4250__serial span{font-size:11px;margin-left:3px}.hs-4250__content{padding:9px 11px}.hs-4250__copy{max-width:68%}.hs-4250__eyebrow{font-size:6px;letter-spacing:.03em;gap:4px}.hs-4250__title{margin:9px 0;font-size:clamp(21px,10.2cqw,42px);text-shadow:1px 1px 0 #0a0c0c}.hs-4250__description{max-width:150px;font-size:7px;line-height:1.35}.hs-4250__actions{margin-top:11px;gap:5px}.hs-4250__primary{padding:7px 8px;gap:5px;font-size:6px}.hs-4250__primary span{font-size:11px}.hs-4250__signature{display:none}.hs-4250__gigantic-number{font-size:57px}.hs-4250__side-motif{font-size:30px;right:8%;bottom:18%}.hs-4250__bottom{padding:7px 10px;font-size:6px;letter-spacing:.02em}.hs-4250__bottom>span:nth-child(2){display:none}.hs-4250__bottom b{margin-right:3px}
 }`,
   },
-  
+  {
+    id: 4251,
+    name: "Legend Six — Hypercar Scroll Experience",
+    preview: (
+      <section className="hs-4251" aria-label="Legend Six hypercar concept">
+        <nav className="hs-4251__nav" aria-label="Section navigation">
+          <a
+            href="#hs-4251-top"
+            className="hs-4251__brand"
+            onClick={(event) => event.stopPropagation()}
+          >
+            ✦ LEGEND<span>SIX</span>
+          </a>
+          <div className="hs-4251__nav-links">
+            <a
+              href="#hs-4251-performance"
+              onClick={(event) => event.stopPropagation()}
+            >
+              PERFORMANCE
+            </a>
+            <a
+              href="#hs-4251-engineering"
+              onClick={(event) => event.stopPropagation()}
+            >
+              ENGINEERING
+            </a>
+            <a
+              href="#hs-4251-gallery"
+              onClick={(event) => event.stopPropagation()}
+            >
+              GALLERY
+            </a>
+          </div>
+          <a
+            href="#hs-4251-vision"
+            className="hs-4251__nav-cta"
+            onClick={(event) => event.stopPropagation()}
+          >
+            DISCOVER ↗
+          </a>
+        </nav>
+        <header id="hs-4251-top" className="hs-4251__hero">
+          <div className="hs-4251__hero-copy">
+            <span className="hs-4251__eyebrow">
+              SWEDISH HYPERCAR VISION / 2026
+            </span>
+            <h2>
+              LEGEND
+              <br />
+              <em>SIX.</em>
+            </h2>
+            <strong className="hs-4251__tagline">BEYOND LIMITS.</strong>
+            <p>
+              A new chapter in hypercar design. Pure ambition, uncompromising
+              presence and extraordinary performance.
+            </p>
+            <div className="hs-4251__actions">
+              <a
+                href="#hs-4251-performance"
+                className="hs-4251__button"
+                onClick={(event) => event.stopPropagation()}
+              >
+                DISCOVER LEGEND SIX <span>↗</span>
+              </a>
+              <a
+                href="#hs-4251-gallery"
+                className="hs-4251__secondary"
+                onClick={(event) => event.stopPropagation()}
+              >
+                ◉ VIEW GALLERY
+              </a>
+            </div>
+          </div>
+          <span className="hs-4251__vertical">
+            PERFORMANCE / PURPOSE / PRECISION
+          </span>
+          <div className="hs-4251__hero-bottom">
+            <span>01 / AN UNOFFICIAL HYPERCAR CONCEPT</span>
+            <a
+              href="#hs-4251-performance"
+              onClick={(event) => event.stopPropagation()}
+            >
+              SCROLL TO EXPLORE ↓
+            </a>
+          </div>
+        </header>
+        <section id="hs-4251-performance" className="hs-4251__performance">
+          <div className="hs-4251__performance-image">
+            <span>01 / PERFORMANCE</span>
+          </div>
+          <div className="hs-4251__performance-copy">
+            <span className="hs-4251__eyebrow">ENGINEERED FOR THE EXTREME</span>
+            <h3>
+              UNLIMITED
+              <br />
+              <em>POTENTIAL.</em>
+            </h3>
+            <p>
+              A bold interpretation of Scandinavian hypercar engineering. A
+              study in form, speed and extraordinary craftsmanship.
+            </p>
+            <div className="hs-4251__stats">
+              <div>
+                <strong>01</strong>
+                <small>DESIGN</small>
+              </div>
+              <div>
+                <strong>02</strong>
+                <small>PRECISION</small>
+              </div>
+              <div>
+                <strong>03</strong>
+                <small>INNOVATION</small>
+              </div>
+              <div>
+                <strong>04</strong>
+                <small>VISION</small>
+              </div>
+            </div>
+            <a
+              href="#hs-4251-engineering"
+              className="hs-4251__line-link"
+              onClick={(event) => event.stopPropagation()}
+            >
+              EXPLORE ENGINEERING ↗
+            </a>
+          </div>
+        </section>
+        <section id="hs-4251-engineering" className="hs-4251__engineering">
+          <div className="hs-4251__section-heading">
+            <div>
+              <span className="hs-4251__eyebrow">
+                02 / ENGINEERED TO INSPIRE
+              </span>
+              <h3>
+                WITHOUT
+                <br />
+                <em>COMPROMISE.</em>
+              </h3>
+            </div>
+            <p>
+              Every curve is deliberate. Every detail communicates purpose. The
+              design language of a machine beyond the ordinary.
+            </p>
+          </div>
+          <div className="hs-4251__feature-grid">
+            <article>
+              <div className="hs-4251__feature-visual hs-4251__feature-visual--carbon">
+                CF
+              </div>
+              <small>01 / MATERIALS</small>
+              <h4>CARBON ARCHITECTURE</h4>
+              <p>A lightweight philosophy, sculpted with purpose.</p>
+            </article>
+            <article>
+              <div className="hs-4251__feature-visual hs-4251__feature-visual--aero">
+                ↗
+              </div>
+              <small>02 / AERODYNAMICS</small>
+              <h4>FORM MEETS AIR</h4>
+              <p>Design shaped by a relentless pursuit of speed.</p>
+            </article>
+            <article>
+              <div className="hs-4251__feature-visual hs-4251__feature-visual--precision">
+                ◎
+              </div>
+              <small>03 / DETAILS</small>
+              <h4>PURE PRECISION</h4>
+              <p>Every component tells its own engineering story.</p>
+            </article>
+            <article>
+              <div className="hs-4251__feature-visual hs-4251__feature-visual--vision">
+                VI
+              </div>
+              <small>04 / FUTURE</small>
+              <h4>THE NEXT CHAPTER</h4>
+              <p>A digital tribute to limitless imagination.</p>
+            </article>
+          </div>
+        </section>
+        <section id="hs-4251-gallery" className="hs-4251__gallery">
+          <div className="hs-4251__gallery-heading">
+            <div>
+              <span className="hs-4251__eyebrow">03 / GALLERY</span>
+              <h3>
+                BEAUTY <em>IN MOTION.</em>
+              </h3>
+            </div>
+            <span>THE DETAILS MAKE THE DIFFERENCE</span>
+          </div>
+          <div className="hs-4251__gallery-grid">
+            <figure className="hs-4251__photo hs-4251__photo--wide">
+              <img
+                src="/hero/auto4.png"
+                alt="Silver hypercar on a wet runway"
+                loading="lazy"
+              />
+              <figcaption>01 — THE SILHOUETTE</figcaption>
+            </figure>
+            <figure className="hs-4251__photo hs-4251__photo--detail">
+              <img
+                src="/hero/auto4.png"
+                alt="Close-up view of the silver hypercar"
+                loading="lazy"
+              />
+              <figcaption>02 — THE DETAIL</figcaption>
+            </figure>
+            <figure className="hs-4251__photo hs-4251__photo--angle">
+              <img
+                src="/hero/auto4.png"
+                alt="Cinematic hypercar side view"
+                loading="lazy"
+              />
+              <figcaption>03 — THE PRESENCE</figcaption>
+            </figure>
+          </div>
+        </section>
+        <section id="hs-4251-vision" className="hs-4251__vision">
+          <div>
+            <span className="hs-4251__eyebrow">
+              04 / THE FUTURE BEGINS HERE
+            </span>
+            <h3>
+              BUILT TO
+              <br />
+              <em>INSPIRE.</em>
+            </h3>
+            <p>
+              A hypercar concept made to celebrate the extraordinary spirit of
+              automotive engineering.
+            </p>
+            <a
+              href="#hs-4251-top"
+              className="hs-4251__button"
+              onClick={(event) => event.stopPropagation()}
+            >
+              BACK TO TOP ↑
+            </a>
+          </div>
+          <span className="hs-4251__vision-label">BEYOND THE POSSIBLE ✦</span>
+        </section>
+        <footer className="hs-4251__footer">
+          <span>✦ LEGEND SIX</span>
+          <span>SWEDISH HYPERCAR INSPIRED</span>
+          <span>© 2026 / UNOFFICIAL CONCEPT</span>
+        </footer>
+      </section>
+    ),
+    html: `<section class="hs-4251" aria-label="Legend Six hypercar concept">
+  <nav class="hs-4251__nav" aria-label="Section navigation">
+    <a href="#hs-4251-top" class="hs-4251__brand">✦ LEGEND<span>SIX</span></a>
+    <div class="hs-4251__nav-links">
+      <a href="#hs-4251-performance">PERFORMANCE</a>
+      <a href="#hs-4251-engineering">ENGINEERING</a>
+      <a href="#hs-4251-gallery">GALLERY</a>
+    </div>
+    <a href="#hs-4251-vision" class="hs-4251__nav-cta">DISCOVER ↗</a>
+  </nav>
+  <header id="hs-4251-top" class="hs-4251__hero">
+    <div class="hs-4251__hero-copy">
+      <span class="hs-4251__eyebrow">SWEDISH HYPERCAR VISION / 2026</span>
+      <h2>LEGEND<br><em>SIX.</em></h2>
+      <strong class="hs-4251__tagline">BEYOND LIMITS.</strong>
+      <p>A new chapter in hypercar design. Pure ambition, uncompromising presence and extraordinary performance.</p>
+      <div class="hs-4251__actions">
+        <a href="#hs-4251-performance" class="hs-4251__button">DISCOVER LEGEND SIX <span>↗</span></a>
+        <a href="#hs-4251-gallery" class="hs-4251__secondary">◉ VIEW GALLERY</a>
+      </div>
+    </div>
+    <span class="hs-4251__vertical">PERFORMANCE / PURPOSE / PRECISION</span>
+    <div class="hs-4251__hero-bottom"><span>01 / AN UNOFFICIAL HYPERCAR CONCEPT</span><a href="#hs-4251-performance">SCROLL TO EXPLORE ↓</a></div>
+  </header>
+  <section id="hs-4251-performance" class="hs-4251__performance">
+    <div class="hs-4251__performance-image"><span>01 / PERFORMANCE</span></div>
+    <div class="hs-4251__performance-copy">
+      <span class="hs-4251__eyebrow">ENGINEERED FOR THE EXTREME</span>
+      <h3>UNLIMITED<br><em>POTENTIAL.</em></h3>
+      <p>A bold interpretation of Scandinavian hypercar engineering. A study in form, speed and extraordinary craftsmanship.</p>
+      <div class="hs-4251__stats">
+        <div><strong>01</strong><small>DESIGN</small></div>
+        <div><strong>02</strong><small>PRECISION</small></div>
+        <div><strong>03</strong><small>INNOVATION</small></div>
+        <div><strong>04</strong><small>VISION</small></div>
+      </div>
+      <a href="#hs-4251-engineering" class="hs-4251__line-link">EXPLORE ENGINEERING ↗</a>
+    </div>
+  </section>
+  <section id="hs-4251-engineering" class="hs-4251__engineering">
+    <div class="hs-4251__section-heading"><div><span class="hs-4251__eyebrow">02 / ENGINEERED TO INSPIRE</span><h3>WITHOUT<br><em>COMPROMISE.</em></h3></div><p>Every curve is deliberate. Every detail communicates purpose. The design language of a machine beyond the ordinary.</p></div>
+    <div class="hs-4251__feature-grid">
+      <article><div class="hs-4251__feature-visual hs-4251__feature-visual--carbon">CF</div><small>01 / MATERIALS</small><h4>CARBON ARCHITECTURE</h4><p>A lightweight philosophy, sculpted with purpose.</p></article>
+      <article><div class="hs-4251__feature-visual hs-4251__feature-visual--aero">↗</div><small>02 / AERODYNAMICS</small><h4>FORM MEETS AIR</h4><p>Design shaped by a relentless pursuit of speed.</p></article>
+      <article><div class="hs-4251__feature-visual hs-4251__feature-visual--precision">◎</div><small>03 / DETAILS</small><h4>PURE PRECISION</h4><p>Every component tells its own engineering story.</p></article>
+      <article><div class="hs-4251__feature-visual hs-4251__feature-visual--vision">VI</div><small>04 / FUTURE</small><h4>THE NEXT CHAPTER</h4><p>A digital tribute to limitless imagination.</p></article>
+    </div>
+  </section>
+  <section id="hs-4251-gallery" class="hs-4251__gallery">
+    <div class="hs-4251__gallery-heading"><div><span class="hs-4251__eyebrow">03 / GALLERY</span><h3>BEAUTY <em>IN MOTION.</em></h3></div><span>THE DETAILS MAKE THE DIFFERENCE</span></div>
+    <div class="hs-4251__gallery-grid">
+      <figure class="hs-4251__photo hs-4251__photo--wide"><img src="/hero/auto4.png" alt="Silver hypercar on a wet runway" loading="lazy"><figcaption>01 — THE SILHOUETTE</figcaption></figure>
+      <figure class="hs-4251__photo hs-4251__photo--detail"><img src="/hero/auto4.png" alt="Close-up view of the silver hypercar" loading="lazy"><figcaption>02 — THE DETAIL</figcaption></figure>
+      <figure class="hs-4251__photo hs-4251__photo--angle"><img src="/hero/auto4.png" alt="Cinematic hypercar side view" loading="lazy"><figcaption>03 — THE PRESENCE</figcaption></figure>
+    </div>
+  </section>
+  <section id="hs-4251-vision" class="hs-4251__vision">
+    <div><span class="hs-4251__eyebrow">04 / THE FUTURE BEGINS HERE</span><h3>BUILT TO<br><em>INSPIRE.</em></h3><p>A hypercar concept made to celebrate the extraordinary spirit of automotive engineering.</p><a href="#hs-4251-top" class="hs-4251__button">BACK TO TOP ↑</a></div>
+    <span class="hs-4251__vision-label">BEYOND THE POSSIBLE ✦</span>
+  </section>
+  <footer class="hs-4251__footer"><span>✦ LEGEND SIX</span><span>SWEDISH HYPERCAR INSPIRED</span><span>© 2026 / UNOFFICIAL CONCEPT</span></footer>
+</section>`,
+    css: `.hs-4251{--bg:#070d15;--accent:#aacbf0;container-type:inline-size;position:relative;width:100%;margin:0 auto;color:#f4f8ff;background:var(--bg);font-family:Arial,Helvetica,sans-serif;text-align:left;scroll-behavior:smooth;overflow-x:hidden}
+.hs-4251,.hs-4251 *,.hs-4251 *::before,.hs-4251 *::after{box-sizing:border-box}
+.hs-4251 a{color:inherit;text-decoration:none}
+.hs-4251__nav{position:sticky;top:0;z-index:15;min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:12px clamp(18px,4cqw,70px);background:#07101de8;border-bottom:1px solid #ffffff23;backdrop-filter:blur(12px)}
+.hs-4251__brand{font-size:15px;font-weight:900;letter-spacing:.14em;white-space:nowrap}
+.hs-4251__brand span{color:var(--accent);margin-left:6px}
+.hs-4251__nav-links{display:flex;gap:25px}
+.hs-4251__nav-links a,.hs-4251__nav-cta{font-size:10px;font-weight:800;letter-spacing:.1em}
+.hs-4251__nav-links a{color:#bcc9d7}
+.hs-4251__nav-cta{border:1px solid #8a9eb7;padding:12px 15px;white-space:nowrap}
+.hs-4251__hero{position:relative;min-height:720px;display:flex;align-items:center;padding:90px clamp(24px,6cqw,100px) 110px;background:linear-gradient(90deg,#050a11ee,#050a11aa 34%,transparent 75%),linear-gradient(0deg,#050a11d9,transparent 35%),url('/hero/auto4.png') center / cover no-repeat}
+.hs-4251__hero-copy{position:relative;z-index:2;max-width:680px;width:55%}
+.hs-4251__eyebrow{font-size:10px;font-weight:900;letter-spacing:.19em;color:var(--accent)}
+.hs-4251__hero h2{margin:24px 0 18px;font-family:Impact,'Arial Narrow','Arial Black',sans-serif;font-weight:900;font-size:clamp(70px,12cqw,170px);letter-spacing:-.045em;line-height:.83}
+.hs-4251__hero h2 em,.hs-4251 h3 em{color:var(--accent);font-style:normal}
+.hs-4251__tagline{display:block;font-size:18px;letter-spacing:.3em}
+.hs-4251__hero-copy p{max-width:370px;color:#ced7e3;font-size:14px;line-height:1.7}
+.hs-4251__actions{display:flex;align-items:center;flex-wrap:wrap;gap:20px;margin-top:30px}
+.hs-4251__button{display:inline-flex;align-items:center;justify-content:space-between;gap:18px;padding:15px 22px;background:#eef4fb;color:#0b1420!important;font-size:11px;font-weight:900;letter-spacing:.06em}
+.hs-4251__button span{font-size:18px}
+.hs-4251__secondary{font-size:11px;font-weight:900;letter-spacing:.08em}
+.hs-4251__vertical{position:absolute;right:3%;top:22%;writing-mode:vertical-rl;font-size:10px;letter-spacing:.2em;color:#e4ebf4}
+.hs-4251__hero-bottom{position:absolute;bottom:23px;left:6%;right:6%;padding-top:16px;border-top:1px solid #ffffff7a;display:flex;justify-content:space-between;gap:15px;font-size:10px;font-weight:800;letter-spacing:.11em}
+.hs-4251__performance{scroll-margin-top:70px;display:grid;grid-template-columns:44% 56%;min-height:480px;border-bottom:1px solid #ffffff20}
+.hs-4251__performance-image{position:relative;min-height:430px;background:linear-gradient(0deg,#02060be0,transparent 54%),url('/hero/auto4.png') 70% center / cover no-repeat}
+.hs-4251__performance-image span{position:absolute;bottom:20px;left:24px;font-size:10px;font-weight:800;letter-spacing:.1em}
+.hs-4251__performance-copy{padding:50px clamp(25px,5cqw,75px);display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.hs-4251 h3{font-family:Impact,'Arial Narrow','Arial Black',sans-serif;font-size:clamp(46px,5cqw,82px);line-height:.97;letter-spacing:-.015em;margin:18px 0}
+.hs-4251__performance-copy>p,.hs-4251__section-heading>p{max-width:470px;color:#a9b6c4;font-size:14px;line-height:1.7}
+.hs-4251__stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;width:100%;margin:24px 0;padding:20px 0;border-top:1px solid #ffffff28;border-bottom:1px solid #ffffff28}
+.hs-4251__stats div{display:flex;flex-direction:column;gap:8px}
+.hs-4251__stats strong{font-family:Impact,'Arial Narrow',sans-serif;font-size:44px}
+.hs-4251__stats small{color:#9db1c6;font-size:9px;font-weight:800;letter-spacing:.08em}
+.hs-4251__line-link{padding-bottom:8px;border-bottom:1px solid #97bde6;font-size:11px;font-weight:900;letter-spacing:.1em}
+.hs-4251__engineering,.hs-4251__gallery{scroll-margin-top:70px;padding:75px clamp(22px,5cqw,85px)}
+.hs-4251__engineering{background:linear-gradient(135deg,#0b1724,#050b12)}
+.hs-4251__section-heading{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:38px}
+.hs-4251__section-heading>p{max-width:340px}
+.hs-4251__feature-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.hs-4251__feature-grid article{min-width:0}
+.hs-4251__feature-visual{height:190px;display:grid;place-items:center;overflow:hidden;border:1px solid #ffffff28;font-family:Impact,'Arial Black',sans-serif;font-size:65px;color:#d8e9fb}
+.hs-4251__feature-visual--carbon{background:repeating-linear-gradient(135deg,#233a50 0 2px,#101c2a 2px 8px)}
+.hs-4251__feature-visual--aero{background:radial-gradient(circle at 65% 38%,#4c7898,#071321 72%)}
+.hs-4251__feature-visual--precision{background:repeating-radial-gradient(circle,#112337 0 8px,#628ab0 9px 10px,#071421 11px 20px)}
+.hs-4251__feature-visual--vision{background:radial-gradient(circle,#426e9a,#061424 60%)}
+.hs-4251__feature-grid small{display:block;margin-top:16px;color:#93b8db;font-size:9px;letter-spacing:.12em}
+.hs-4251__feature-grid h4{margin:12px 0 8px;font-size:13px;letter-spacing:.05em}
+.hs-4251__feature-grid p{font-size:12px;color:#a0adbb;line-height:1.6}
+.hs-4251__gallery{background:#0d1927;border-top:1px solid #ffffff20}
+.hs-4251__gallery-heading{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:28px}
+.hs-4251__gallery-heading>span{color:#a9b8c8;font-size:10px;letter-spacing:.1em}
+.hs-4251__gallery-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:14px}
+.hs-4251__photo{position:relative;margin:0;min-width:0;min-height:250px;overflow:hidden;background:#101f2c}
+.hs-4251__photo img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}
+.hs-4251__photo--detail img{object-position:83% center;transform:scale(1.7)}
+.hs-4251__photo--angle img{object-position:23% center;transform:scale(1.4)}
+.hs-4251__photo::after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#05090ec9,transparent 45%)}
+.hs-4251__photo figcaption{position:absolute;z-index:1;bottom:14px;left:15px;font-size:10px;font-weight:900;letter-spacing:.08em}
+.hs-4251__vision{scroll-margin-top:70px;position:relative;display:flex;align-items:center;justify-content:space-between;min-height:480px;padding:65px clamp(25px,6cqw,100px);background:linear-gradient(90deg,#050a11f2,#050a11a0 55%,#050a1160),url('/hero/auto4.png') 55% center / cover no-repeat}
+.hs-4251__vision>div{position:relative;z-index:1;max-width:520px}
+.hs-4251__vision h3{font-size:clamp(65px,8cqw,120px)}
+.hs-4251__vision p{max-width:390px;font-size:14px;line-height:1.7;color:#cad5e2;margin-bottom:25px}
+.hs-4251__vision-label{align-self:flex-end;font-size:10px;letter-spacing:.15em}
+.hs-4251__footer{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;padding:27px 5%;background:#050b12;color:#96a6bb;font-size:10px;font-weight:800;letter-spacing:.07em}
+@container(max-width:850px){.hs-4251__nav-links{gap:10px}.hs-4251__nav-links a{font-size:8px}.hs-4251__hero{min-height:530px}.hs-4251__hero-copy{width:68%}.hs-4251__section-heading{align-items:start}.hs-4251__feature-grid{grid-template-columns:repeat(2,1fr)}.hs-4251__gallery-grid{grid-template-columns:repeat(2,1fr)}.hs-4251__photo--wide{grid-column:1/-1}.hs-4251__stats{grid-template-columns:repeat(2,1fr)}}
+@container(max-width:440px){.hs-4251__nav{min-height:31px;padding:5px 7px;gap:4px}.hs-4251__brand{font-size:8px;letter-spacing:0}.hs-4251__nav-links{display:none}.hs-4251__nav-cta{font-size:6px;padding:4px 6px}.hs-4251__hero{min-height:177px;padding:20px 9px 27px;background-position:58% center}.hs-4251__hero-copy{width:74%}.hs-4251__eyebrow{font-size:5px;letter-spacing:.05em}.hs-4251__hero h2{font-size:clamp(32px,14cqw,60px);margin:9px 0 5px}.hs-4251__tagline{font-size:6px;letter-spacing:.08em}.hs-4251__hero-copy p{max-width:155px;font-size:6px;line-height:1.25}.hs-4251__actions{margin-top:9px;gap:5px}.hs-4251__button{padding:6px 7px;gap:6px;font-size:6px}.hs-4251__button span{font-size:10px}.hs-4251__secondary{font-size:6px}.hs-4251__vertical{font-size:5px;right:2px;top:17%}.hs-4251__hero-bottom{left:9px;right:9px;bottom:6px;padding-top:5px;font-size:5px;letter-spacing:0}.hs-4251__performance{grid-template-columns:40% 60%;min-height:0}.hs-4251__performance-image{min-height:150px}.hs-4251__performance-image span{font-size:5px;left:5px;bottom:6px}.hs-4251__performance-copy{padding:10px 8px}.hs-4251 h3{font-size:clamp(18px,6cqw,30px);margin:8px 0}.hs-4251__performance-copy>p,.hs-4251__section-heading>p{font-size:6px;line-height:1.3}.hs-4251__stats{gap:4px;margin:6px 0;padding:5px 0}.hs-4251__stats div{gap:2px}.hs-4251__stats strong{font-size:15px}.hs-4251__stats small{font-size:5px}.hs-4251__line-link{font-size:5px;padding-bottom:3px}.hs-4251__engineering,.hs-4251__gallery{padding:18px 9px}.hs-4251__section-heading{gap:8px;margin-bottom:10px}.hs-4251__feature-grid{gap:8px}.hs-4251__feature-visual{height:70px;font-size:32px}.hs-4251__feature-grid small{font-size:5px;margin-top:5px}.hs-4251__feature-grid h4{font-size:7px;margin:4px 0}.hs-4251__feature-grid p{font-size:6px;line-height:1.25}.hs-4251__gallery-heading{margin-bottom:10px}.hs-4251__gallery-heading>span{font-size:5px}.hs-4251__gallery-grid{gap:5px}.hs-4251__photo{min-height:80px}.hs-4251__photo--wide{min-height:105px}.hs-4251__photo figcaption{font-size:5px;left:6px;bottom:5px}.hs-4251__vision{min-height:155px;padding:16px 9px}.hs-4251__vision p{max-width:150px;font-size:6px;line-height:1.3;margin-bottom:9px}.hs-4251__vision-label{font-size:5px}.hs-4251__footer{padding:8px 9px;gap:5px;font-size:5px}}
+@media(max-width:650px){.hs-4251__nav-links{display:none}}
+@media(prefers-reduced-motion:reduce){.hs-4251,.hs-4251 *{scroll-behavior:auto!important}}
+.all-card-preview>.hs-4251{height:100%;max-height:100%;overflow-y:auto;overflow-x:hidden;scrollbar-width:thin;scrollbar-color:#7798b8 #0a1520}`,
+  },
 ];
